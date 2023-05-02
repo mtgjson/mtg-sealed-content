@@ -1,0 +1,41 @@
+code: dis
+products:
+  Dissension Booster Box:
+    sealed:
+    - count: 36
+      set: dis
+      name: Dissension Booster Pack
+  Dissension Booster Pack:
+    pack:
+    - set: dis
+      code: default
+  Dissension Fat Pack:
+    sealed:
+    - set: dis
+      name: Dissension Booster Pack
+      count: 6
+    other:
+    - name: Dissension Player's Guide and Visual Encyclopedia
+    - name: 2 Card Boxes and 6 Dividers
+    - name: 40-card Ravnica Basic Land Pack
+    - name: Dissension Life Counter
+    - name: Random Pro Tour Player Card
+    - name: Dissension Novel
+  Dissension Theme Deck Azorius Ascendant:
+    deck:
+    - set: dis
+      name: Azorius Ascendant
+    other:
+    - name: Dissension Azorius Ascendant Strategy Guide
+  Dissension Theme Deck Rakdos Bloodsport:
+    deck:
+    - set: dis
+      name: Rakdos Bloodsport
+    other:
+    - name: Dissension Rakdos Bloodsport Strategy Guide
+  Dissension Theme Deck Simic Mutology:
+    deck:
+    - set: dis
+      name: Simic Mutology
+    other:
+    - name: Dissension Simic Mutology Strategy Guide

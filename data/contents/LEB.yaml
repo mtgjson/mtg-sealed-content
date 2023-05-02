@@ -1,0 +1,15 @@
+code: leb
+products:
+  Beta Edition Booster Box:
+    sealed:
+    - set: leb
+      name: Beta Edition Booster Pack
+      count: 36
+  Beta Edition Booster Pack:
+    pack:
+    - set: leb
+      code: default
+  Beta Edition Starter Deck:
+    pack:
+    - set: leb
+      code: starter

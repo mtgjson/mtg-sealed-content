@@ -1,0 +1,17 @@
+code: 2ed
+products:
+  Unlimited Booster Box:
+    sealed:
+    - count: 36
+      name: Unlimited Booster Pack
+      set: 2ed
+  Unlimited Booster Pack:
+    pack:
+    - set: 2ed
+      code: default
+  Unlimited Starter Deck:
+    pack:
+    - set: 2ed
+      code: starter
+    other:
+    - name: Unlimited Edition Starter Deck Rulebook

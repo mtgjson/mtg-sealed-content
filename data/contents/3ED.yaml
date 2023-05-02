@@ -1,0 +1,22 @@
+code: 3ed
+products:
+  Revised Edition Booster Box:
+    sealed:
+    - set: 3ed
+      name: Revised Edition Booster Pack
+      count: 36
+  Revised Edition Booster Pack:
+    pack:
+    - set: 3ed
+      code: default
+  Revised Edition Starter Deck:
+    pack:
+    - set: 3ed
+      code: starter
+    other:
+    - name: Revised Edition Starter Deck Rulebook
+  Revised Edition Starter Deck Display:
+    sealed:
+    - set: 3ed
+      name: Revised Edition Starter Deck
+      count: 10

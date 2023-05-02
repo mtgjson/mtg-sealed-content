@@ -1,0 +1,32 @@
+code: 7ed
+products:
+  7th Edition Booster Box:
+    sealed:
+    - set: 7ed
+      name: 7th Edition Booster Pack
+      count: 36
+  7th Edition Booster Pack:
+    pack:
+    - set: 7ed
+      code: default
+  7th Edition Theme Deck Armada:
+    deck:
+    - set: 7ed
+      name: Armada
+  7th Edition Theme Deck Bomber:
+    deck:
+    - set: 7ed
+      name: Bomber
+  7th Edition Theme Deck Decay:
+    deck:
+    - set: 7ed
+      name: Decay
+  7th Edition Theme Deck Infestation:
+    deck:
+    - set: 7ed
+      name: Infestation
+  7th Edition Theme Deck Way Wild:
+    deck:
+    - set: 7ed
+      name: Way Wild
+  7th Edition Two Player Starter: []

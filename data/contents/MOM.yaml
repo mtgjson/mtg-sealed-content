@@ -1,0 +1,127 @@
+code: mom
+products:
+  March of the Machine Bundle:
+    sealed:
+    - set: mom
+      name: March of the Machine Set Booster Pack
+      count: 8
+    other:
+    - name: March of the Machine Land Bundle
+    - name: March of the Machine 20-sided die
+    card:
+    - set: mom
+      number: 386
+      name: Ghalta and Mavren
+      foil: true
+  March of the Machine Bundle Case:
+    sealed:
+    - set: mom
+      name: March of the Machine Bundle
+      count: 6
+  March of the Machine Collector Booster Display:
+    sealed:
+    - set: mom
+      name: March of the Machine Collector Booster Pack
+      count: 12
+  March of the Machine Collector Booster Display Case:
+    sealed:
+    - set: mom
+      name: March of the Machine Collector Booster Display
+      count: 6
+  March of the Machine Collector Booster Pack:
+    pack:
+    - set: mom
+      code: collector
+  March of the Machine Draft Booster Box:
+    sealed:
+    - set: mom
+      name: March of the Machine Draft Booster Pack
+      count: 36
+  March of the Machine Draft Booster Box Case:
+    sealed:
+    - set: mom 
+      name: March of the Machine Draft Booster Box
+      count: 6
+  March of the Machine Draft Booster Pack:
+    pack:
+    - set: mom
+      code: default
+  March of the Machine Jumpstart Booster Display:
+    sealed:
+    - set: mom
+      name: March of the Machine Jumpstart Booster Pack
+      count: 18
+  March of the Machine Jumpstart Booster Pack:
+    variable:
+    - deck:
+      - set: mom
+        name: Brood 1
+      other:
+      - name: Random White March of the Machine Rare or Mythic Card
+    - deck:
+      - set: mom
+        name: Brood 2
+      other:
+      - name: Random White March of the Machine Rare or Mythic Card
+    - deck:
+      - set: mom
+        name: Buff 1
+      other:
+      - name: Random Green March of the Machine Rare or Mythic Card
+    - deck:
+      - set: mom
+        name: Buff 2
+      other:
+      - name: Random Green March of the Machine Rare or Mythic Card
+    - deck:
+      - set: mom
+        name: Expendable 1
+      other:
+      - name: Random Black March of the Machine Rare or Mythic Card
+    - deck:
+      - set: mom
+        name: Expendable 2
+      other:
+      - name: Random Black March of the Machine Rare or Mythic Card
+    - deck:
+      - set: mom
+        name: Overachiever 1
+      other:
+      - name: Random Blue March of the Machine Rare or Mythic Card
+    - deck:
+      - set: mom
+        name: Overachiever 2
+      other:
+      - name: Random Blue March of the Machine Rare or Mythic Card
+    - deck:
+      - set: mom
+        name: Reinforcement 1
+      other:
+      - name: Random Red March of the Machine Rare or Mythic Card
+    - deck:
+      - set: mom
+        name: Reinforcement 2
+      other:
+      - name: Random Red March of the Machine Rare or Mythic Card
+  March of the Machine Prerelease Pack:
+    sealed:
+    - set: mom
+      name: March of the Machine Draft Booster Pack
+      count: 6
+    other:
+    - name: March of the Machine Prerelease Promo Pack
+    - name: March of the Machine Prerelease Spindown
+  March of the Machine Set Booster Display:
+    sealed:
+    - set: mom
+      name: March of the Machine Set Booster Pack
+      count: 30
+  March of the Machine Set Booster Display Case:
+    sealed:
+    - set: mom
+      name: March of the Machine Set Booster Display
+      count: 6
+  March of the Machine Set Booster Pack:
+    pack:
+    - set: mom
+      code: set

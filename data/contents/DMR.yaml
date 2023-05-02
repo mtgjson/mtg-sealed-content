@@ -1,0 +1,30 @@
+code: dmr
+products:
+  Dominaria Remastered Collector Booster Case:
+    sealed:
+    - name: Dominaria Remastered Collector Booster Display
+      set: dmr
+      count: 6
+  Dominaria Remastered Collector Booster Display:
+    sealed:
+    - name: Dominaria Remastered Collector Booster Pack
+      set: dmr
+      count: 12
+  Dominaria Remastered Collector Booster Pack:
+    pack:
+    - code: collector
+      set: dmr
+  Dominaria Remastered Draft Booster Box:
+    sealed:
+    - set: dmr
+      name: Dominaria Remastered Draft Booster Pack
+      count: 36
+  Dominaria Remastered Draft Booster Case:
+    sealed:
+    - set: dmr
+      count: 6
+      name: Dominaria Remastered Draft Booster Box
+  Dominaria Remastered Draft Booster Pack:
+    pack:
+    - code: default
+      set: dmr

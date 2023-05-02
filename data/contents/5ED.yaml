@@ -1,0 +1,23 @@
+code: 5ed
+products:
+  Fifth Edition Booster Box:
+    sealed:
+    - set: 5ed
+      name: Fifth Edition Booster Pack
+      count: 36
+  Fifth Edition Booster Pack:
+    pack:
+    - set: 5ed
+      code: default
+  Fifth Edition Starter Deck:
+    pack:
+    - set: 5ed
+      code: starter
+    other:
+    - name: Fifth Edition Starter Rule Book
+  Fifth Edition Starter Deck Box:
+    sealed:
+    - set: 5ed
+      name: Fifth Edition Starter Deck
+      count: 12
+  Fifth Edition Two Player Starter Set: []

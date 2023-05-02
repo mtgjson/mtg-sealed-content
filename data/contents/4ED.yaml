@@ -1,0 +1,31 @@
+code: 4ed
+products:
+  Fourth Edition Booster Box:
+    sealed:
+    - set: 4ed
+      name: Fourth Edition Booster Pack
+      count: 36
+  Fourth Edition Booster Pack:
+    pack:
+    - set: 4ed
+      code: default
+  Fourth Edition Gift Box:
+    sealed:
+    - set: 4ed
+      name: Fourth Edition Starter Deck
+      count: 2
+    other:
+    - name: Fourth Edition Gift Box Rule Book
+    - name: 30 Glass Counters with Flannel Bag
+    - name: Fourth Edition Card Collectors' Checklist
+  Fourth Edition Starter Deck:
+    pack:
+    - set: 4ed
+      code: starter
+    other:
+    - name: Fourth Edition Starter Deck Rule Book
+  Fourth Edition Starter Deck Display:
+    sealed:
+    - set: 4ed
+      name: Fourth Edition Starter Deck
+      count: 10
