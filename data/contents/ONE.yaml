@@ -1,90 +1,149 @@
 code: one
 products:
   Phyrexia All Will Be One Bundle:
-    sealed:
-    - set: one
-      name: Phyrexia All Will Be One Set Booster Pack
-      count: 8
     card:
-    - name: Karumonix, the Rat King
-      set: one
-      foil: true
+    - foil: true
+      name: Karumonix, the Rat King
       number: 282
+      set: one
     other:
     - name: Phyrexia All Will Be One Bundle Land Pack
     - name: Phyrexia All Will Be One Spindown
+    sealed:
+    - count: 8
+      name: Phyrexia All Will Be One Set Booster Pack
+      set: one
   Phyrexia All Will Be One Bundle Case:
     sealed:
-    - set: one
+    - count: 6
       name: Phyrexia All Will Be One Bundle
-      count: 6
+      set: one
   Phyrexia All Will Be One Collector Booster Display:
     sealed:
-    - set: one
+    - count: 12
       name: Phyrexia All Will Be One Collector Booster Pack
-      count: 12
+      set: one
   Phyrexia All Will Be One Collector Booster Display Case:
     sealed:
-    - set: one
+    - count: 6
       name: Phyrexia All Will Be One Collector Booster Display
-      count: 6
+      set: one
   Phyrexia All Will Be One Collector Booster Pack:
+    card_count: 15
     pack:
-    - set: one
-      code: collector
+    - code: collector
+      set: one
   Phyrexia All Will Be One Compleat Bundle:
-    sealed:
-    - set: one
-      name: Phyrexia All Will Be One Set Booster Pack
-      count: 12
+    card:
+    - foil: true
+      name: Phyrexian Arena
+      number: 283
+      set: one
     other:
     - name: Phyrexia All Will Be One Compleat Edition Booster
     - name: Phyrexia All Will Be One Compleat Edition Land Pack
-    card:
-    - set: one
-      name: Phyrexian Arena
-      number: 283
-      foil: true
+    sealed:
+    - count: 12
+      name: Phyrexia All Will Be One Set Booster Pack
+      set: one
   Phyrexia All Will Be One Compleat Bundle Case:
     sealed:
-    - set: one
+    - count: 6
       name: Phyrexia All Will Be One Compleat Bundle
-      count: 6
+      set: one
   Phyrexia All Will Be One Draft Booster Box:
     sealed:
-    - set: one
+    - count: 36
       name: Phyrexia All Will Be One Draft Booster Pack
-      count: 36
+      set: one
   Phyrexia All Will Be One Draft Booster Box Case:
     sealed:
-    - set: one
+    - count: 6
       name: Phyrexia All Will Be One Draft Booster Box
-      count: 6
+      set: one
   Phyrexia All Will Be One Draft Booster Pack:
+    card_count: 15
     pack:
-    - set: one
-      code: default
-  Phyrexia All Will Be One Jumpstart Booster Display: []
-  Phyrexia All Will Be One Jumpstart Booster Pack: []
-  Phyrexia All Will Be One Prerelease Pack:
+    - code: default
+      set: one
+  Phyrexia All Will Be One Jumpstart Booster Display:
     sealed:
-    - set: one
-      name: Phyrexia All Will Be One Draft Booster Pack
-      count: 6
+    - count: 18
+      name: Phyrexia All Will Be One Jumpstart Booster Pack
+      set: one
+  Phyrexia All Will Be One Jumpstart Booster Pack:
+    card_count: 20
+    variable:
+    - deck:
+      - name: Corruption 1
+        set: one
+      other:
+      - name: Random Black Phyrexia All Will Be One Rare or Mythic Card
+    - deck:
+      - name: Corruption 2
+        set: one
+      other:
+      - name: Random Black Phyrexia All Will Be One Rare or Mythic Card
+    - deck:
+      - name: Mite-y 1
+        set: one
+      other:
+      - name: Random White Phyrexia All Will Be One Rare or Mythic Card
+    - deck:
+      - name: Mite-y 2
+        set: one
+      other:
+      - name: Random White Phyrexia All Will Be One Rare or Mythic Card
+    - deck:
+      - name: Progress 1
+        set: one
+      other:
+      - name: Random Blue Phyrexia All Will Be One Rare or Mythic Card
+    - deck:
+      - name: Progress 2
+        set: one
+      other:
+      - name: Random Blue Phyrexia All Will Be One Rare or Mythic Card
+    - deck:
+      - name: Rebellious 1
+        set: one
+      other:
+      - name: Random Red Phyrexia All Will Be One Rare or Mythic Card
+    - deck:
+      - name: Rebellious 2
+        set: one
+      other:
+      - name: Random Red Phyrexia All Will Be One Rare or Mythic Card
+    - deck:
+      - name: Toxic 1
+        set: one
+      other:
+      - name: Random Green Phyrexia All Will Be One Rare or Mythic Card
+    - deck:
+      - name: Toxic 2
+        set: one
+      other:
+      - name: Random Green Phyrexia All Will Be One Rare or Mythic Card
+  Phyrexia All Will Be One Prerelease Pack:
     other:
-    - name: Phyrexia All Will Be One Prerelease Promos
+    - name: Phyrexia All Will Be One Prerelease Promo
     - name: Phyrexia All Will Be One Spindown
+    sealed:
+    - count: 6
+      name: Phyrexia All Will Be One Draft Booster Pack
+      set: one
   Phyrexia All Will Be One Set Booster Display:
     sealed:
-    - set: one
+    - count: 30
       name: Phyrexia All Will Be One Set Booster Pack
-      count: 30
+      set: one
   Phyrexia All Will Be One Set Booster Display Case:
     sealed:
-    - set: one
+    - count: 6
       name: Phyrexia All Will Be One Set Booster Display
-      count: 6
+      set: one
   Phyrexia All Will Be One Set Booster Pack:
+    card_count: 12
     pack:
-    - set: one
-      code: set
+    - code: set
+      set: one

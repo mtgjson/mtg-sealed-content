@@ -1,20 +1,154 @@
 code: dmu
 products:
-  Dominaria United Box Topper Pack: []
-  Dominaria United Bundle: []
-  Dominaria United Bundle Case: []
-  Dominaria United Collector Booster Display: []
-  Dominaria United Collector Booster Display Case: []
-  Dominaria United Collector Booster Omega Pack: []
-  Dominaria United Collector Booster Pack: []
-  Dominaria United Draft Booster Box: []
-  Dominaria United Draft Booster Box Case: []
-  Dominaria United Draft Booster Pack: []
-  Dominaria United Jumpstart Booster Box Case: []
-  Dominaria United Jumpstart Booster Display: []
-  Dominaria United Jumpstart Booster Pack: []
-  Dominaria United Prerelease Pack: []
-  Dominaria United Set Booster Box: []
-  Dominaria United Set Booster Display Case: []
-  Dominaria United Set Booster Pack: []
+  Dominaria United Box Topper Pack:
+    other:
+    - name: One Random Foil Dominaria United Box Topper Card
+  Dominaria United Bundle:
+    card:
+    - foil: true
+      name: Herd Migration
+      number: 429
+      set: dmu
+    other:
+    - name: Dominaria United Bundle Land Pack
+    - name: Dominaria United Spindown
+    sealed:
+    - count: 8
+      name: Dominaria United Set Booster Pack
+      set: dmu
+  Dominaria United Bundle Case:
+    sealed:
+    - count: 6
+      name: Dominaria United Bundle
+      set: dmu
+  Dominaria United Collector Booster Display:
+    sealed:
+    - count: 12
+      name: Dominaria United Collector Booster Pack
+      set: dmu
+    - count: 1
+      name: Dominaria United Box Topper Pack
+      set: dmu
+  Dominaria United Collector Booster Display Case:
+    sealed:
+    - count: 6
+      name: Dominaria United Collector Booster Display
+      set: dmu
+  Dominaria United Collector Booster Omega Pack:
+    sealed:
+    - count: 1
+      name: Dominaria United Collector Booster Pack
+      set: dmu
+  Dominaria United Collector Booster Pack:
+    card_count: 15
+    pack:
+    - code: collector
+      set: dmu
+  Dominaria United Draft Booster Box:
+    sealed:
+    - count: 36
+      name: Dominaria United Draft Booster Pack
+      set: dmu
+    - count: 1
+      name: Dominaria United Box Topper Pack
+      set: dmu
+  Dominaria United Draft Booster Box Case:
+    sealed:
+    - count: 6
+      name: Dominaria United Draft Booster Box
+      set: dmu
+  Dominaria United Draft Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: dmu
+  Dominaria United Jumpstart Booster Box Case:
+    sealed:
+    - count: 6
+      name: Dominaria United Jumpstart Booster Display
+      set: dmu
+  Dominaria United Jumpstart Booster Display:
+    sealed:
+    - count: 18
+      name: Dominaria United Jumpstart Booster Pack
+      set: dmu
+  Dominaria United Jumpstart Booster Pack:
+    card_count: 20
+    variable:
+    - deck:
+      - name: Arcane Mischief
+        set: dmu
+      other:
+      - name: Random Blue Dominaria United Rare or Mythic Card
+    - deck:
+      - name: Beast Territory
+        set: dmu
+      other:
+      - name: Random Green Dominaria United Rare or Mythic Card
+    - deck:
+      - name: Coalition Corps
+        set: dmu
+      other:
+      - name: Random White Dominaria United Rare or Mythic Card
+    - deck:
+      - name: Coalition Legion
+        set: dmu
+      other:
+      - name: Random White Dominaria United Rare or Mythic Card
+    - deck:
+      - name: Monster Territory
+        set: dmu
+      other:
+      - name: Random Green Dominaria United Rare or Mythic Card
+    - deck:
+      - name: Mystic Mischief
+        set: dmu
+      other:
+      - name: Random Blue Dominaria United Rare or Mythic Card
+    - deck:
+      - name: Ready to Attack
+        set: dmu
+      other:
+      - name: Random Red Dominaria United Rare or Mythic Card
+    - deck:
+      - name: Ready to Charge
+        set: dmu
+      other:
+      - name: Random Red Dominaria United Rare or Mythic Card
+    - deck:
+      - name: Totally Merciless
+        set: dmu
+      other:
+      - name: Random Black Dominaria United Rare or Mythic Card
+    - deck:
+      - name: Totally Ruthless
+        set: dmu
+      other:
+      - name: Random Black Dominaria United Rare or Mythic Card
+  Dominaria United Prerelease Pack:
+    other:
+    - name: Dominaria United Prerelease Promo Card
+    - name: Dominaria United Spindown Die
+    sealed:
+    - count: 6
+      name: Dominaria United Draft Booster Pack
+      set: dmu
+  Dominaria United Set Booster Box:
+    sealed:
+    - count: 30
+      name: Dominaria United Set Booster Pack
+      set: dmu
+    - count: 1
+      name: Dominaria United Box Topper Pack
+      set: dmu
+  Dominaria United Set Booster Display Case:
+    sealed:
+    - count: 6
+      name: Dominaria United Set Booster Box
+      set: dmu
+  Dominaria United Set Booster Pack:
+    card_count: 12
+    pack:
+    - code: set
+      set: dmu
   The Brothers War Jumpstart Booster Box Case: []

@@ -1,6 +1,8 @@
 code: bro
 products:
-  Land Station 2022: []
+  Land Station 2022:
+    other:
+    - name: 400 Assorted Basic Lands (80 of Each Type)
   The Brothers War Bundle:
     card:
     - foil: true
@@ -30,6 +32,7 @@ products:
       name: The Brothers War Collector Booster Display
       set: bro
   The Brothers War Collector Booster Pack:
+    card_count: 15
     pack:
     - code: collector
       set: bro
@@ -44,6 +47,7 @@ products:
       name: The Brothers War Draft Booster Box
       set: bro
   The Brothers War Draft Booster Pack:
+    card_count: 15
     pack:
     - code: default
       set: bro
@@ -69,7 +73,59 @@ products:
     - count: 18
       name: The Brothers War Jumpstart Booster Pack
       set: bro
-  The Brothers War Jumpstart Booster Pack: []
+  The Brothers War Jumpstart Booster Pack:
+    card_count: 20
+    variable:
+    - deck:
+      - name: Infantry 1
+        set: bro
+      other:
+      - name: Random White The Brothers' War Rare or Mythic Card
+    - deck:
+      - name: Infantry 2
+        set: bro
+      other:
+      - name: Random White The Brothers' War Rare or Mythic Card
+    - deck:
+      - name: Powerstones 1
+        set: bro
+      other:
+      - name: Random Blue The Brothers' War Rare or Mythic Card
+    - deck:
+      - name: Powerstones 2
+        set: bro
+      other:
+      - name: Random Blue The Brothers' War Rare or Mythic Card
+    - deck:
+      - name: Titanic 1
+        set: bro
+      other:
+      - name: Random Green The Brothers' War Rare or Mythic Card
+    - deck:
+      - name: Titanic 2
+        set: bro
+      other:
+      - name: Random Green The Brothers' War Rare or Mythic Card
+    - deck:
+      - name: Unearthed 1
+        set: bro
+      other:
+      - name: Random Black The Brothers' War Rare or Mythic Card
+    - deck:
+      - name: Unearthed 2
+        set: bro
+      other:
+      - name: Random Black The Brothers' War Rare or Mythic Card
+    - deck:
+      - name: Welded 1
+        set: bro
+      other:
+      - name: Random Red The Brothers' War Rare or Mythic Card
+    - deck:
+      - name: Welded 2
+        set: bro
+      other:
+      - name: Random Red The Brothers' War Rare or Mythic Card
   The Brothers War Prerelease Pack Mishras Burnished Banner:
     other:
     - name: The Brothers War Prerelease Promo Card
@@ -97,6 +153,7 @@ products:
       name: The Brothers War Set Booster Display
       set: bro
   The Brothers War Set Booster Pack:
+    card_count: 12
     pack:
     - code: set
       set: bro
