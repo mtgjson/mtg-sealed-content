@@ -1,6 +1,38 @@
 code: dmc
 products:
-  Dominaria United Commander Deck Display: []
-  Dominaria United Commander Deck Legends Legacy: []
-  Dominaria United Commander Deck Painbow: []
-  Dominaria United Commander Decks Set of 2: []
+  Dominaria United Commander Deck Display:
+    sealed:
+    - count: 2
+      name: Dominaria United Commander Deck Legends Legacy
+      set: dmc
+    - count: 2
+      name: Dominaria United Commander Deck Painbow
+      set: dmc
+  Dominaria United Commander Deck Legends Legacy:
+    card_count: 100
+    deck:
+    - name: Legends' Legacy
+      set: dmc
+    other:
+    - name: Dominaria United Collector Booster Sample pack
+    - name: Foil Etched Cardstock Display Commander
+    - name: Dominaria United Life Wheel
+    - name: 10 Double Sided Tokens
+  Dominaria United Commander Deck Painbow:
+    card_count: 100
+    deck:
+    - name: Painbow
+      set: dmc
+    other:
+    - name: Dominaria United Collector Booster Sample pack
+    - name: Foil Etched Cardstock Display Commander
+    - name: Dominaria United Life Wheel
+    - name: 10 Double Sided Tokens
+  Dominaria United Commander Decks Set of 2:
+    sealed:
+    - count: 1
+      name: Dominaria United Commander Deck Legends Legacy
+      set: dmc
+    - count: 1
+      name: Dominaria United Commander Deck Painbow
+      set: dmc
