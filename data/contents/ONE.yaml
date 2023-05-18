@@ -18,15 +18,15 @@ products:
     - count: 6
       name: Phyrexia All Will Be One Bundle
       set: one
-  Phyrexia All Will Be One Collector Booster Display:
+  Phyrexia All Will Be One Collector Booster Box:
     sealed:
     - count: 12
       name: Phyrexia All Will Be One Collector Booster Pack
       set: one
-  Phyrexia All Will Be One Collector Booster Display Case:
+  Phyrexia All Will Be One Collector Booster Box Case:
     sealed:
     - count: 6
-      name: Phyrexia All Will Be One Collector Booster Display
+      name: Phyrexia All Will Be One Collector Booster Box
       set: one
   Phyrexia All Will Be One Collector Booster Pack:
     card_count: 15
@@ -66,67 +66,16 @@ products:
     pack:
     - code: default
       set: one
-  Phyrexia All Will Be One Jumpstart Booster Display:
+  Phyrexia All Will Be One Jumpstart Booster Box:
     sealed:
     - count: 18
       name: Phyrexia All Will Be One Jumpstart Booster Pack
       set: one
   Phyrexia All Will Be One Jumpstart Booster Pack:
     card_count: 20
-    variable:
-    - deck:
-      - name: Corruption 1
-        set: one
-      other:
-      - name: Random Black Phyrexia All Will Be One Rare or Mythic Card
-    - deck:
-      - name: Corruption 2
-        set: one
-      other:
-      - name: Random Black Phyrexia All Will Be One Rare or Mythic Card
-    - deck:
-      - name: Mite-y 1
-        set: one
-      other:
-      - name: Random White Phyrexia All Will Be One Rare or Mythic Card
-    - deck:
-      - name: Mite-y 2
-        set: one
-      other:
-      - name: Random White Phyrexia All Will Be One Rare or Mythic Card
-    - deck:
-      - name: Progress 1
-        set: one
-      other:
-      - name: Random Blue Phyrexia All Will Be One Rare or Mythic Card
-    - deck:
-      - name: Progress 2
-        set: one
-      other:
-      - name: Random Blue Phyrexia All Will Be One Rare or Mythic Card
-    - deck:
-      - name: Rebellious 1
-        set: one
-      other:
-      - name: Random Red Phyrexia All Will Be One Rare or Mythic Card
-    - deck:
-      - name: Rebellious 2
-        set: one
-      other:
-      - name: Random Red Phyrexia All Will Be One Rare or Mythic Card
-    - deck:
-      - name: Toxic 1
-        set: one
-      other:
-      - name: Random Green Phyrexia All Will Be One Rare or Mythic Card
-    - deck:
-      - name: Toxic 2
-        set: one
-      other:
-      - name: Random Green Phyrexia All Will Be One Rare or Mythic Card
-  Phyrexia All Will Be One Jumpstart Booster Box: []
-  Phyrexia All Will Be One Jumpstart Booster Display: []
-  Phyrexia All Will Be One Jumpstart Booster Pack: []
+    pack:
+    - code: jumpstart
+      set: one
   Phyrexia All Will Be One Prerelease Pack:
     other:
     - name: Phyrexia All Will Be One Prerelease Promo
@@ -135,17 +84,15 @@ products:
     - count: 6
       name: Phyrexia All Will Be One Draft Booster Pack
       set: one
-  Phyrexia All Will Be One Set Booster Box: []
-  Phyrexia All Will Be One Set Booster Box Case: []
-  Phyrexia All Will Be One Set Booster Display:
+  Phyrexia All Will Be One Set Booster Box:
     sealed:
     - count: 30
       name: Phyrexia All Will Be One Set Booster Pack
       set: one
-  Phyrexia All Will Be One Set Booster Display Case:
+  Phyrexia All Will Be One Set Booster Box Case:
     sealed:
     - count: 6
-      name: Phyrexia All Will Be One Set Booster Display
+      name: Phyrexia All Will Be One Set Booster Box
       set: one
   Phyrexia All Will Be One Set Booster Pack:
     card_count: 12
