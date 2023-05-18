@@ -18,21 +18,25 @@ products:
     - count: 6
       name: Phyrexia All Will Be One Bundle
       set: one
-  Phyrexia All Will Be One Collector Booster Box: []
-  Phyrexia All Will Be One Collector Booster Box Case: []
-  Phyrexia All Will Be One Collector Booster Display:
+  Phyrexia All Will Be One Collector Booster Box:
     sealed:
     - count: 12
       name: Phyrexia All Will Be One Collector Booster Pack
       set: one
-  Phyrexia All Will Be One Collector Booster Display Case:
+  Phyrexia All Will Be One Collector Booster Box Case:
     sealed:
     - count: 6
-      name: Phyrexia All Will Be One Collector Booster Display
+      name: Phyrexia All Will Be One Collector Booster Box
       set: one
   Phyrexia All Will Be One Collector Booster Pack:
+    card_count: 15
     pack:
     - code: collector
+      set: one
+  Phyrexia All Will Be One Collector Booster Sample Pack:
+    card_count: 2
+    pack:
+    - code: collector-sample
       set: one
   Phyrexia All Will Be One Compleat Bundle:
     card:
@@ -41,16 +45,23 @@ products:
       number: 283
       set: one
     other:
-    - name: Phyrexia All Will Be One Compleat Edition Booster
     - name: Phyrexia All Will Be One Compleat Edition Land Pack
     sealed:
     - count: 12
       name: Phyrexia All Will Be One Set Booster Pack
       set: one
+    - count: 1
+      name: Phyrexia All Will Be One Compleat Edition Booster
+      set: one
   Phyrexia All Will Be One Compleat Bundle Case:
     sealed:
     - count: 6
       name: Phyrexia All Will Be One Compleat Bundle
+      set: one
+  Phyrexia All Will Be One Compleat Edition Booster:
+    card_count: 12
+    pack:
+    - code: compleat
       set: one
   Phyrexia All Will Be One Draft Booster Box:
     sealed:
@@ -63,33 +74,40 @@ products:
       name: Phyrexia All Will Be One Draft Booster Box
       set: one
   Phyrexia All Will Be One Draft Booster Pack:
+    card_count: 15
     pack:
     - code: default
       set: one
-  Phyrexia All Will Be One Jumpstart Booster Box: []
-  Phyrexia All Will Be One Jumpstart Booster Display: []
-  Phyrexia All Will Be One Jumpstart Booster Pack: []
+  Phyrexia All Will Be One Jumpstart Booster Box:
+    sealed:
+    - count: 18
+      name: Phyrexia All Will Be One Jumpstart Booster Pack
+      set: one
+  Phyrexia All Will Be One Jumpstart Booster Pack:
+    card_count: 20
+    pack:
+    - code: jumpstart
+      set: one
   Phyrexia All Will Be One Prerelease Pack:
     other:
-    - name: Phyrexia All Will Be One Prerelease Promos
+    - name: Phyrexia All Will Be One Prerelease Promo
     - name: Phyrexia All Will Be One Spindown
     sealed:
     - count: 6
       name: Phyrexia All Will Be One Draft Booster Pack
       set: one
-  Phyrexia All Will Be One Set Booster Box: []
-  Phyrexia All Will Be One Set Booster Box Case: []
-  Phyrexia All Will Be One Set Booster Display:
+  Phyrexia All Will Be One Set Booster Box:
     sealed:
     - count: 30
       name: Phyrexia All Will Be One Set Booster Pack
       set: one
-  Phyrexia All Will Be One Set Booster Display Case:
+  Phyrexia All Will Be One Set Booster Box Case:
     sealed:
     - count: 6
-      name: Phyrexia All Will Be One Set Booster Display
+      name: Phyrexia All Will Be One Set Booster Box
       set: one
   Phyrexia All Will Be One Set Booster Pack:
+    card_count: 12
     pack:
     - code: set
       set: one

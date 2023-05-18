@@ -1,12 +1,18 @@
 code: onc
 products:
   Phyrexia All Will Be One Commander Deck Corrupting Influence:
+    card_count: 100
     deck:
     - name: Corrupting Influence
       set: onc
     other:
-    - name: Phyrexia All Will Be One Collector Sample Pack
-    - name: Life Wheel
+    - name: Phyrexia All Will Be One Life Wheel
+    - name: Foil Etched Cardstock Display Commander
+    - name: 10 Double Sided Tokens
+    sealed:
+    - count: 1
+      name: Phyrexia All Will Be One Collector Booster Sample Pack
+      set: one
   Phyrexia All Will Be One Commander Deck Display:
     sealed:
     - count: 2
@@ -16,14 +22,20 @@ products:
       name: Phyrexia All Will Be One Commander Deck Rebellion Rising
       set: onc
   Phyrexia All Will Be One Commander Deck Rebellion Rising:
+    card_count: 100
     deck:
     - name: Rebellion Rising
       set: onc
     other:
-    - name: Phyrexia All Will Be One Collector Sample Pack
+    - name: Phyrexia All Will Be One Life Wheel
+    - name: Foil Etched Cardstock Display Commander
+    - name: 10 Double Sided Tokens
     - name: Life Wheel
-  Phyrexia All Will Be One Commander Decks - Set of 2: []
-  Phyrexia All Will Be One Commander Decks Set of 2:
+    sealed:
+    - count: 1
+      name: Phyrexia All Will Be One Collector Booster Sample Pack
+      set: one
+  Phyrexia All Will Be One Commander Decks - Set of 2:
     sealed:
     - count: 1
       name: Phyrexia All Will Be One Commander Deck Corrupting Influence

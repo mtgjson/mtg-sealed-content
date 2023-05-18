@@ -1,14 +1,50 @@
 code: mat
 products:
-  March of the Machine The Aftermath Bundle: []
-  March of the Machine The Aftermath Bundle Case: []
-  March of the Machine The Aftermath Collector Booster Box: []
-  March of the Machine The Aftermath Collector Booster Box Case: []
-  March of the Machine The Aftermath Collector Booster Display: []
-  March of the Machine The Aftermath Collector Booster Display Case: []
-  March of the Machine The Aftermath Collector Booster Pack: []
-  March of the Machine The Aftermath Epilogue Booster Box: []
-  March of the Machine The Aftermath Epilogue Booster Box Case: []
-  March of the Machine The Aftermath Epilogue Booster Display: []
-  March of the Machine The Aftermath Epilogue Booster Display Case: []
-  March of the Machine The Aftermath Epilogue Booster Pack: []
+  March of the Machine The Aftermath Bundle:
+    card:
+    - foil: true
+      name: Spark Rupture
+      number: 229
+      set: mat
+    other:
+    - name: March of the Machine The Aftermath Spindown
+    - name: March of the Machine The Aftermath Land Pack
+    sealed:
+    - count: 8
+      name: March of the Machine The Aftermath Epilogue Booster Pack
+      set: mat
+  March of the Machine The Aftermath Bundle Case:
+    sealed:
+    - count: 6
+      name: March of the Machine The Aftermath Bundle
+      set: mat
+  March of the Machine The Aftermath Collector Booster Box:
+    sealed:
+    - count: 12
+      name: March of the Machine The Aftermath Collector Booster Pack
+      set: mat
+  March of the Machine The Aftermath Collector Booster Box Case:
+    sealed:
+    - count: 6
+      name: March of the Machine The Aftermath Collector Booster Box
+      set: mat
+  March of the Machine The Aftermath Collector Booster Pack:
+    card_count: 6
+    pack:
+    - code: collector
+      set: mat
+  March of the Machine The Aftermath Epilogue Booster Box:
+    sealed:
+    - count: 24
+      name: March of the Machine The Aftermath Epilogue Booster Pack
+      set: mat
+  March of the Machine The Aftermath Epilogue Booster Box Case:
+    sealed:
+    - count: 6
+      name: March of the Machine The Aftermath Epilogue Booster Display
+      set: mat
+  March of the Machine The Aftermath Epilogue Booster Pack:
+    card_count: 5
+    pack:
+    - code: default
+      set: mat
