@@ -2,44 +2,46 @@ code: 2x2
 products:
   Double Masters 2022 3 Booster Draft Pack:
     sealed:
-    - set: 2x2
+    - count: 3
       name: Double Masters 2022 Draft Booster Pack
-      count: 3
+      set: 2x2
+  Double Masters 2022 Collector Booster Box: []
+  Double Masters 2022 Collector Booster Box Case: []
   Double Masters 2022 Collector Booster Display:
     sealed:
-    - set: 2x2
+    - count: 4
       name: Double Masters 2022 Collector Booster Pack
-      count: 4
+      set: 2x2
   Double Masters 2022 Collector Booster Display Case:
     sealed:
-    - set: 2x2
+    - count: 8
       name: Double Masters 2022 Collector Booster Display
-      count: 8
+      set: 2x2
   Double Masters 2022 Collector Booster Omega Pack:
     sealed:
-    - set: 2x2
+    - count: 1
       name: Double Masters 2022 Collector Booster Pack
-      count: 1
+      set: 2x2
   Double Masters 2022 Collector Booster Pack:
     pack:
-    - set: 2x2
-      code: collector
+    - code: collector
+      set: 2x2
   Double Masters 2022 Draft Booster Box:
     sealed:
-    - set: 2x2
+    - count: 24
       name: Double Masters 2022 Draft Booster Pack
-      count: 24
+      set: 2x2
   Double Masters 2022 Draft Booster Box Case:
     sealed:
-    - set: 2x2
+    - count: 6
       name: Double Masters 2022 Draft Booster Box
-      count: 6
+      set: 2x2
   Double Masters 2022 Draft Booster Pack:
     pack:
-    - set: 2x2
-      code: default
+    - code: default
+      set: 2x2
   Double Masters 2022 Sleeved Draft Booster Pack:
     sealed:
-    - set: 2x2
+    - count: 1
       name: Double Masters 2022 Draft Booster Pack
-      count: 1
+      set: 2x2

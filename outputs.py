@@ -5,6 +5,133 @@ from pathlib import Path
 import logging
 import logging.handlers as handlers
 import os
+from copy import copy
+
+def validate_contents(contents, route, logger):
+    if not contents:
+        logger.error("%s missing contents %s", route, contents)
+        return False
+    if not isinstance(contents, dict):
+        logger.error("%s has invalid contents format", route)
+        return False
+    for key, value in contents.items():
+        if key == "sealed":
+            try:
+                if not value:
+                    logger.warning("%s sealed is empty", route)
+                for product in value:
+                    ptemp = copy(product)
+                    if not isinstance(ptemp.pop("set"), str):
+                        raise TypeError("set is not string")
+                    if not isinstance(ptemp.pop("count"), int):
+                        raise TypeError("count is not int")
+                    if not isinstance(ptemp.pop("name"), str):
+                        raise TypeError("name is not str")
+                    if ptemp:
+                        logger.warning("%s sealed has extra contents %s", route, str(ptemp))
+            except KeyError as e:
+                logger.error("%s sealed missing required value %s", route, e)
+                return False
+            except TypeError as e:
+                logger.error("%s sealed has incorrect value type: %s", route, e)
+                return False
+        elif key == "pack":
+            if "card_count" not in contents:
+                logger.info("%s pack missing card count", route)
+            try:
+                if not value:
+                    logger.warning("%s pack is empty", route)
+                for product in value:
+                    ptemp = copy(product)
+                    if not isinstance(ptemp.pop("set"), str):
+                        raise TypeError("set is not string")
+                    if not isinstance(ptemp.pop("code"), str):
+                        raise TypeError("code is not string")
+                    if ptemp:
+                        logger.warning("%s pack has extra contents %s", route, str(ptemp))
+            except KeyError as e:
+                logger.error("%s pack missing required value %s", route, e)
+                return False
+            except TypeError as e:
+                logger.error("%s pack has incorrect value type: %s", route, e)
+                return False
+        elif key == "deck":
+            if "card_count" not in contents:
+                logger.info("%s deck missing card count", route)
+            try:
+                if not value:
+                    logger.warning("%s deck is empty", route)
+                for product in value:
+                    ptemp = copy(product)
+                    if not isinstance(ptemp.pop("set"), str):
+                        raise TypeError("set is not string")
+                    if not isinstance(ptemp.pop("name"), str):
+                        raise TypeError("name is not string")
+                    if ptemp:
+                        logger.warning("%s deck has extra contents %s", route, str(ptemp))
+            except KeyError as e:
+                logger.error("%s deck missing required value %s", route, e)
+                return False
+        elif key == "other":
+            try:
+                if not value:
+                    logger.warning("%s other is empty", route)
+                for product in value:
+                    ptemp = copy(product)
+                    if not isinstance(ptemp.pop("name"), str):
+                        raise TypeError("name is not string")
+                    if ptemp:
+                        logger.warning("%s other has extra contents %s", route, str(ptemp))
+            except KeyError as e:
+                logger.error("%s other missing required value %s", route, e)
+                return False
+            except TypeError as e:
+                logger.error("%s other has incorrect value type: %s", route, e)
+                return False
+        elif key == "card":
+            try:
+                if not value:
+                    logger.warning("%s pack is empty", route)
+                for product in value:
+                    ptemp = copy(product)
+                    if not isinstance(ptemp.pop("set"), str):
+                        raise TypeError("set is not string")
+                    number = ptemp.pop("number")
+                    if not (isinstance(number, int) or isinstance(number, str)):
+                        raise TypeError("number is not int or string")
+                    if not isinstance(ptemp.pop("name"), str):
+                        raise TypeError("name is not string")
+                    if not isinstance(ptemp.pop("foil"), bool):
+                        raise TypeError("foil is not boolean")
+                    if ptemp:
+                        logger.warning("%s pack has extra contents %s", route, str(ptemp))
+            except KeyError as e:
+                logger.error("%s pack missing required value %s", route, e)
+                return False
+            except TypeError as e:
+                logger.error("%s pack has incorrect value type: %s", route, e)
+                return False
+        elif key == "card_count":
+            if not isinstance(value, int):
+                logger.error("%s card count is not integer value", route)
+                return False
+        elif key == "variable":
+            check = True
+            try:
+                for configuration in value:
+                    if "card_count" in contents:
+                        check *= validate_contents(dict({"card_count": contents["card_count"]}, **configuration), route+"-variable", logger)
+                    else:
+                        check *= validate_contents(configuration, route+"-variable", logger)
+            except:
+                logger.error("%s variable formatted incorrectly", route)
+                return False
+            if not check:
+                return False
+        else:
+            logger.error("%s key %s not recognized", route, key)
+            return False
+    return True
 
 logfile_name = "output.log"
 logger = logging.getLogger()
@@ -24,23 +151,15 @@ contents_files = Path("data/contents/").glob("*.yaml")
 new_files = Path("data/products").glob("*.yaml")
 
 products_contents = {}
-valid_contents = ["sealed", "pack", "deck", "other", "variable", "card_count", "card"]
 
 for file in contents_files:
 	with open(file, "rb") as f:
 		data = yaml.safe_load(f)
 	for product, contents in data["products"].items():
-		if contents:
+		if validate_contents(contents, data["code"] + "-" + product, logger):
 			if data["code"] not in products_contents:
 				products_contents[data["code"]] = {}
-			if ("pack" in contents or "deck" in contents) and "card_count" not in contents:
-			    logger.info("%s/%s missing card count", data["code"], product)
-			if any([c not in valid_contents for c in contents.keys()]):
-			    logger.error("%s/%s has invalid content codes", data["code"], product)
-			else:
-			    products_contents[data["code"]][product] = contents
-		else:
-			logger.info("%s/%s missing contents", data["code"], product)
+			products_contents[data["code"]][product] = contents
 
 with open("outputs/contents.json", "w") as outfile:
 	json.dump(products_contents, outfile)
