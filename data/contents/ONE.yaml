@@ -33,6 +33,11 @@ products:
     pack:
     - code: collector
       set: one
+  Phyrexia All Will Be One Collector Booster Sample Pack:
+    card_count: 2
+    pack:
+    - code: collector-sample
+      set: one
   Phyrexia All Will Be One Compleat Bundle:
     card:
     - foil: true
@@ -52,6 +57,11 @@ products:
     sealed:
     - count: 6
       name: Phyrexia All Will Be One Compleat Bundle
+      set: one
+  Phyrexia All Will Be One Compleat Edition Booster:
+    card_count: 12
+    pack:
+    - code: compleat
       set: one
   Phyrexia All Will Be One Draft Booster Box:
     sealed:

@@ -1,8 +1,10 @@
 code: dmu
 products:
   Dominaria United Box Topper Pack:
-    other:
-    - name: One Random Foil Dominaria United Box Topper Card
+    card_count: 1
+    pack:
+    - code: box-topper
+      set: dmu
   Dominaria United Bundle:
     card:
     - foil: true
@@ -43,6 +45,11 @@ products:
     card_count: 15
     pack:
     - code: collector
+      set: dmu
+  Dominaria United Collector Booster Sample Pack:
+    card_count: 2
+    pack:
+    - code: collector-sample
       set: dmu
   Dominaria United Draft Booster Box:
     sealed:
