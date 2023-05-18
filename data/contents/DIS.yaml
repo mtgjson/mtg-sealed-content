@@ -1,19 +1,17 @@
 code: dis
 products:
+  Dissension - Complete FOIL Set (Factory Sealed): []
+  Dissension - Complete Set (Factory Sealed): []
   Dissension Booster Box:
     sealed:
     - count: 36
-      set: dis
       name: Dissension Booster Pack
+      set: dis
   Dissension Booster Pack:
     pack:
-    - set: dis
-      code: default
+    - code: default
+      set: dis
   Dissension Fat Pack:
-    sealed:
-    - set: dis
-      name: Dissension Booster Pack
-      count: 6
     other:
     - name: Dissension Player's Guide and Visual Encyclopedia
     - name: 2 Card Boxes and 6 Dividers
@@ -21,21 +19,26 @@ products:
     - name: Dissension Life Counter
     - name: Random Pro Tour Player Card
     - name: Dissension Novel
+    sealed:
+    - count: 6
+      name: Dissension Booster Pack
+      set: dis
   Dissension Theme Deck Azorius Ascendant:
     deck:
-    - set: dis
-      name: Azorius Ascendant
+    - name: Azorius Ascendant
+      set: dis
     other:
     - name: Dissension Azorius Ascendant Strategy Guide
+  Dissension Theme Deck Display: []
   Dissension Theme Deck Rakdos Bloodsport:
     deck:
-    - set: dis
-      name: Rakdos Bloodsport
+    - name: Rakdos Bloodsport
+      set: dis
     other:
     - name: Dissension Rakdos Bloodsport Strategy Guide
   Dissension Theme Deck Simic Mutology:
     deck:
-    - set: dis
-      name: Simic Mutology
+    - name: Simic Mutology
+      set: dis
     other:
     - name: Dissension Simic Mutology Strategy Guide

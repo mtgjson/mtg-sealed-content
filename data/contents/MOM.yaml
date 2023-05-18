@@ -1,127 +1,134 @@
 code: mom
 products:
   March of the Machine Bundle:
-    sealed:
-    - set: mom
-      name: March of the Machine Set Booster Pack
-      count: 8
+    card:
+    - foil: true
+      name: Ghalta and Mavren
+      number: 386
+      set: mom
     other:
     - name: March of the Machine Land Bundle
     - name: March of the Machine 20-sided die
-    card:
-    - set: mom
-      number: 386
-      name: Ghalta and Mavren
-      foil: true
+    sealed:
+    - count: 8
+      name: March of the Machine Set Booster Pack
+      set: mom
   March of the Machine Bundle Case:
     sealed:
-    - set: mom
+    - count: 6
       name: March of the Machine Bundle
-      count: 6
+      set: mom
+  March of the Machine Collector Booster Box: []
+  March of the Machine Collector Booster Box Case: []
   March of the Machine Collector Booster Display:
     sealed:
-    - set: mom
+    - count: 12
       name: March of the Machine Collector Booster Pack
-      count: 12
+      set: mom
   March of the Machine Collector Booster Display Case:
     sealed:
-    - set: mom
+    - count: 6
       name: March of the Machine Collector Booster Display
-      count: 6
+      set: mom
   March of the Machine Collector Booster Pack:
     pack:
-    - set: mom
-      code: collector
+    - code: collector
+      set: mom
   March of the Machine Draft Booster Box:
     sealed:
-    - set: mom
+    - count: 36
       name: March of the Machine Draft Booster Pack
-      count: 36
+      set: mom
   March of the Machine Draft Booster Box Case:
     sealed:
-    - set: mom 
+    - count: 6
       name: March of the Machine Draft Booster Box
-      count: 6
+      set: mom
   March of the Machine Draft Booster Pack:
     pack:
-    - set: mom
-      code: default
+    - code: default
+      set: mom
+  March of the Machine Jumpstart Booster Box: []
   March of the Machine Jumpstart Booster Display:
     sealed:
-    - set: mom
+    - count: 18
       name: March of the Machine Jumpstart Booster Pack
-      count: 18
+      set: mom
   March of the Machine Jumpstart Booster Pack:
     variable:
     - deck:
-      - set: mom
-        name: Brood 1
+      - name: Brood 1
+        set: mom
       other:
       - name: Random White March of the Machine Rare or Mythic Card
     - deck:
-      - set: mom
-        name: Brood 2
+      - name: Brood 2
+        set: mom
       other:
       - name: Random White March of the Machine Rare or Mythic Card
     - deck:
-      - set: mom
-        name: Buff 1
+      - name: Buff 1
+        set: mom
       other:
       - name: Random Green March of the Machine Rare or Mythic Card
     - deck:
-      - set: mom
-        name: Buff 2
+      - name: Buff 2
+        set: mom
       other:
       - name: Random Green March of the Machine Rare or Mythic Card
     - deck:
-      - set: mom
-        name: Expendable 1
+      - name: Expendable 1
+        set: mom
       other:
       - name: Random Black March of the Machine Rare or Mythic Card
     - deck:
-      - set: mom
-        name: Expendable 2
+      - name: Expendable 2
+        set: mom
       other:
       - name: Random Black March of the Machine Rare or Mythic Card
     - deck:
-      - set: mom
-        name: Overachiever 1
+      - name: Overachiever 1
+        set: mom
       other:
       - name: Random Blue March of the Machine Rare or Mythic Card
     - deck:
-      - set: mom
-        name: Overachiever 2
+      - name: Overachiever 2
+        set: mom
       other:
       - name: Random Blue March of the Machine Rare or Mythic Card
     - deck:
-      - set: mom
-        name: Reinforcement 1
+      - name: Reinforcement 1
+        set: mom
       other:
       - name: Random Red March of the Machine Rare or Mythic Card
     - deck:
-      - set: mom
-        name: Reinforcement 2
+      - name: Reinforcement 2
+        set: mom
       other:
       - name: Random Red March of the Machine Rare or Mythic Card
   March of the Machine Prerelease Pack:
-    sealed:
-    - set: mom
-      name: March of the Machine Draft Booster Pack
-      count: 6
     other:
     - name: March of the Machine Prerelease Promo Pack
     - name: March of the Machine Prerelease Spindown
+    sealed:
+    - count: 6
+      name: March of the Machine Draft Booster Pack
+      set: mom
+  March of the Machine Set Booster Box: []
+  March of the Machine Set Booster Box Case: []
   March of the Machine Set Booster Display:
     sealed:
-    - set: mom
+    - count: 30
       name: March of the Machine Set Booster Pack
-      count: 30
+      set: mom
   March of the Machine Set Booster Display Case:
     sealed:
-    - set: mom
+    - count: 6
       name: March of the Machine Set Booster Display
-      count: 6
+      set: mom
   March of the Machine Set Booster Pack:
     pack:
-    - set: mom
-      code: set
+    - code: set
+      set: mom
+  March of the Machine Sleeved Set Booster Pack: []
+  'Pure Bulk: March of the Machine Art Cards (500ct)': []

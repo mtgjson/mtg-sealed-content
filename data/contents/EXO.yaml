@@ -2,26 +2,27 @@ code: exo
 products:
   Exodus Booster Box:
     sealed:
-    - set: exo
+    - count: 36
       name: Exodus Booster Pack
-      count: 36
+      set: exo
   Exodus Booster Pack:
     pack:
-    - set: exo
-      code: default
+    - code: default
+      set: exo
+  Exodus Theme Deck Display: []
   Exodus Theme Deck Dominator:
     deck:
-    - set: exo
-      name: Dominator - Basic Deck
+    - name: Dominator - Basic Deck
+      set: exo
   Exodus Theme Deck Groundbreaker:
     deck:
-    - set: exo
-      name: Groundbreaker - Basic Deck
+    - name: Groundbreaker - Basic Deck
+      set: exo
   Exodus Theme Deck White Heat:
     deck:
-    - set: exo
-      name: White Heat - Basic Deck
+    - name: White Heat - Basic Deck
+      set: exo
   Exodus Theme Deck Widowmaker:
     deck:
-    - set: exo
-      name: Widowmaker - Basic Deck
+    - name: Widowmaker - Basic Deck
+      set: exo

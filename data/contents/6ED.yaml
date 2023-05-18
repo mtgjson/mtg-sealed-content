@@ -2,20 +2,22 @@ code: 6ed
 products:
   Classic Sixth Edition Booster Box:
     sealed:
-    - set: 6ed
+    - count: 36
       name: Classic Sixth Edition Booster Pack
-      count: 36
+      set: 6ed
   Classic Sixth Edition Booster Pack:
     pack:
-    - set: 6ed
-      code: default
+    - code: default
+      set: 6ed
   Classic Sixth Edition Tournament Pack:
     pack:
-    - set: 6ed
-      code: tournament
+    - code: tournament
+      set: 6ed
+  Classic Sixth Edition Tournament Pack Display: []
   Classic Sixth Edition Two Player Starter Deck: []
   Classic Sixth Edition Two Player Starter Deck Box:
     sealed:
-    - set: 6ed
+    - count: 12
       name: Classic Sixth Edition Two Player Starter Deck
-      count: 12
+      set: 6ed
+  Classic Sixth Edition Two Player Starter Deck Display: []
