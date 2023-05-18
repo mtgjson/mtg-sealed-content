@@ -1,10 +1,11 @@
 code: ath
 products:
+  Anthologies: []
   Anthologies Box Set:
     deck:
-    - set: ath
-      name: Black - Red
-    - set: ath
-      name: Green - White
+    - name: Black - Red
+      set: ath
+    - name: Green - White
+      set: ath
     other:
     - name: Magic Anthologies Booklet

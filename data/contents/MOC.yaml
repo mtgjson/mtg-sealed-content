@@ -2,58 +2,59 @@ code: moc
 products:
   March of the Machine Commander Deck Call For Backup:
     deck:
-    - set: moc
-      name: Call for Backup
+    - name: Call for Backup
+      set: moc
     other:
     - name: March of the Machine Collector Sample Pack
     - name: Planar Die
     - name: Life Wheel
   March of the Machine Commander Deck Cavalry Charge:
     deck:
-    - set: moc
-      name: Cavalry Charge
+    - name: Cavalry Charge
+      set: moc
     other:
     - name: March of the Machine Collector Sample Pack
     - name: Planar Die
     - name: Life Wheel
   March of the Machine Commander Deck Divine Convocation:
     deck:
-    - set: moc
-      name: Divine Convocation
+    - name: Divine Convocation
+      set: moc
     other:
     - name: March of the Machine Collector Sample Pack
     - name: Planar Die
     - name: Life Wheel
   March of the Machine Commander Deck Growing Threat:
     deck:
-    - set: moc
-      name: Growing Threat
+    - name: Growing Threat
+      set: moc
     other:
     - name: March of the Machine Collector Sample Pack
     - name: Planar Die
     - name: Life Wheel
   March of the Machine Commander Deck Tinker Time:
     deck:
-    - set: moc
-      name: Tinker Time
+    - name: Tinker Time
+      set: moc
     other:
     - name: March of the Machine Collector Sample Pack
     - name: Planar Die
     - name: Life Wheel
+  March of the Machine Commander Decks - Set of 5: []
   March of the Machine Commander Decks Set of 5:
     sealed:
-    - set: moc
+    - count: 1
       name: March of the Machine Commander Deck Call For Backup
-      count: 1
-    - set: moc
+      set: moc
+    - count: 1
       name: March of the Machine Commander Deck Cavalry Charge
-      count: 1
-    - set: moc
+      set: moc
+    - count: 1
       name: March of the Machine Commander Deck Divine Convocation
-      count: 1
-    - set: moc
+      set: moc
+    - count: 1
       name: March of the Machine Commander Deck Growing Threat
-      count: 1
-    - set: moc
+      set: moc
+    - count: 1
       name: March of the Machine Commander Deck Tinker Time
-      count: 1
+      set: moc
