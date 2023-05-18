@@ -14,20 +14,26 @@ products:
     - name: Legends' Legacy
       set: dmc
     other:
-    - name: Dominaria United Collector Booster Sample pack
     - name: Foil Etched Cardstock Display Commander
     - name: Dominaria United Life Wheel
     - name: 10 Double Sided Tokens
+    sealed:
+    - count: 1
+      name: Dominaria United Collector Booster Sample Pack
+      set: dmu
   Dominaria United Commander Deck Painbow:
     card_count: 100
     deck:
     - name: Painbow
       set: dmc
     other:
-    - name: Dominaria United Collector Booster Sample pack
     - name: Foil Etched Cardstock Display Commander
     - name: Dominaria United Life Wheel
     - name: 10 Double Sided Tokens
+    sealed:
+    - count: 1
+      name: Dominaria United Collector Booster Sample Pack
+      set: dmu
   Dominaria United Commander Decks - Set of 2:
     sealed:
     - count: 1
