@@ -1,34 +1,164 @@
 code: mid
 products:
-  Innistrad Midnight Hunt 3 Booster Draft Pack: []
-  Innistrad Midnight Hunt Bundle: []
-  Innistrad Midnight Hunt Bundle Case: []
-  Innistrad Midnight Hunt Collector Booster Box: []
-  Innistrad Midnight Hunt Collector Booster Box Case: []
-  Innistrad Midnight Hunt Collector Booster Display: []
-  Innistrad Midnight Hunt Collector Booster Display Case: []
-  Innistrad Midnight Hunt Collector Booster Hanger Pack: []
-  Innistrad Midnight Hunt Collector Booster Pack: []
-  Innistrad Midnight Hunt Draft Booster Box: []
-  Innistrad Midnight Hunt Draft Booster Box Case: []
-  Innistrad Midnight Hunt Draft Booster Pack: []
-  Innistrad Midnight Hunt Prerelease Pack: []
-  Innistrad Midnight Hunt Set Booster Box: []
-  Innistrad Midnight Hunt Set Booster Box Case: []
-  Innistrad Midnight Hunt Set Booster Display: []
-  Innistrad Midnight Hunt Set Booster Display Case: []
-  Innistrad Midnight Hunt Set Booster Pack: []
-  Innistrad Midnight Hunt Theme Booster Black: []
-  Innistrad Midnight Hunt Theme Booster Blue: []
-  Innistrad Midnight Hunt Theme Booster Box: []
-  Innistrad Midnight Hunt Theme Booster Box Case: []
-  Innistrad Midnight Hunt Theme Booster Display Box: []
-  Innistrad Midnight Hunt Theme Booster Display Box Case: []
-  Innistrad Midnight Hunt Theme Booster Green: []
-  Innistrad Midnight Hunt Theme Booster Red: []
-  Innistrad Midnight Hunt Theme Booster Set of 6: []
-  Innistrad Midnight Hunt Theme Booster Werewolves: []
-  Innistrad Midnight Hunt Theme Booster White: []
+  Innistrad Midnight Hunt 3 Booster Draft Pack:
+    sealed:
+    - count: 3
+      name: Innistrad Midnight Hunt Draft Booster Pack
+      set: mid
+  Innistrad Midnight Hunt Bundle:
+    card:
+    - foil: true
+      name: Triskaidekaphile
+      number: 386
+      set: mid
+    other:
+    - name: Innistrad Midnight Hunt Land Bundle
+    - name: Innistrad Midnight Hunt Spindown
+    sealed:
+    - count: 8
+      name: Innistrad Midnight Hunt Set Booster Pack
+      set: mid
+  Innistrad Midnight Hunt Bundle Case:
+    sealed:
+    - count: 6
+      name: Innistrad Midnight Hunt Bundle
+      set: mid
+  Innistrad Midnight Hunt Collector Booster Box:
+    sealed:
+    - count: 12
+      name: Innistrad Midnight Hunt Collector Booster Pack
+      set: mid
+  Innistrad Midnight Hunt Collector Booster Box Case:
+    sealed:
+    - count: 6
+      name: Innistrad Midnight Hunt Collector Booster Box
+      set: mid
+  Innistrad Midnight Hunt Collector Booster Hanger Pack:
+    sealed:
+    - count: 1
+      name: Innistrad Midnight Hunt Collector Booster Pack
+      set: mid
+  Innistrad Midnight Hunt Collector Booster Pack:
+    card_count: 15
+    pack:
+    - code: collector
+      set: mid
+  Innistrad Midnight Hunt Draft Booster Box:
+    sealed:
+    - count: 36
+      name: Innistrad Midnight Hunt Draft Booster Pack
+      set: mid
+  Innistrad Midnight Hunt Draft Booster Box Case:
+    sealed:
+    - count: 6
+      name: Innistrad Midnight Hunt Draft Booster Box
+      set: mid
+  Innistrad Midnight Hunt Draft Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: mid
+  Innistrad Midnight Hunt Prerelease Pack:
+    card_count: 1
+    other:
+    - name: Innistrad Midnight Hunt Spindown
+    pack:
+    - code: prerelease
+      set: mid
+    sealed:
+    - count: 6
+      name: Innistrad Midnight Hunt Draft Booster Pack
+      set: mid
+  Innistrad Midnight Hunt Set Booster Box:
+    sealed:
+    - count: 30
+      name: Innistrad Midnight Hunt Set Booster Pack
+      set: mid
+  Innistrad Midnight Hunt Set Booster Box Case:
+    sealed:
+    - count: 6
+      name: Innistrad Midnight Hunt Set Booster Box
+      set: mid
+  Innistrad Midnight Hunt Set Booster Pack:
+    card_count: 12
+    pack:
+    - code: set
+      set: mid
+  Innistrad Midnight Hunt Theme Booster Black:
+    card_count: 35
+    pack:
+    - code: theme-b
+      set: mid
+  Innistrad Midnight Hunt Theme Booster Blue:
+    card_count: 35
+    pack:
+    - code: theme-u
+      set: mid
+  Innistrad Midnight Hunt Theme Booster Box:
+    sealed:
+    - count: 2
+      name: Innistrad Midnight Hunt Theme Booster White
+      set: mid
+    - count: 2
+      name: Innistrad Midnight Hunt Theme Booster Blue
+      set: mid
+    - count: 2
+      name: Innistrad Midnight Hunt Theme Booster Black
+      set: mid
+    - count: 2
+      name: Innistrad Midnight Hunt Theme Booster Red
+      set: mid
+    - count: 2
+      name: Innistrad Midnight Hunt Theme Booster Green
+      set: mid
+    - count: 2
+      name: Innistrad Midnight Hunt Theme Booster Werewolves
+      set: mid
+  Innistrad Midnight Hunt Theme Booster Box Case:
+    sealed:
+    - count: 6
+      name: Innistrad Midnight Hunt Theme Booster Box
+      set: mid
+  Innistrad Midnight Hunt Theme Booster Green:
+    card_count: 35
+    pack:
+    - code: theme-g
+      set: mid
+  Innistrad Midnight Hunt Theme Booster Red:
+    card_count: 35
+    pack:
+    - code: theme-r
+      set: mid
+  Innistrad Midnight Hunt Theme Booster Set of 6:
+    sealed:
+    - count: 1
+      name: Innistrad Midnight Hunt Theme Booster White
+      set: mid
+    - count: 1
+      name: Innistrad Midnight Hunt Theme Booster Blue
+      set: mid
+    - count: 1
+      name: Innistrad Midnight Hunt Theme Booster Black
+      set: mid
+    - count: 1
+      name: Innistrad Midnight Hunt Theme Booster Red
+      set: mid
+    - count: 1
+      name: Innistrad Midnight Hunt Theme Booster Green
+      set: mid
+    - count: 1
+      name: Innistrad Midnight Hunt Theme Booster Werewolves
+      set: mid
+  Innistrad Midnight Hunt Theme Booster Werewolves:
+    card_count: 35
+    pack:
+    - code: theme-werewolves
+      set: mid
+  Innistrad Midnight Hunt Theme Booster White:
+    card_count: 35
+    pack:
+    - code: theme-w
+      set: mid
   'Innistrad: Midnight Hunt - Complete FOIL Set (Factory Sealed)': []
   'Innistrad: Midnight Hunt - Complete Set (Factory Sealed)': []
   'Pure Bulk: Unsorted Commons Innistrad: Midnight Hunt (500ct)': []
