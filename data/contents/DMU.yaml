@@ -85,9 +85,12 @@ products:
     - code: jumpstart
       set: dmu
   Dominaria United Prerelease Pack:
+    card_count: 1
     other:
-    - name: Dominaria United Prerelease Promo Card
     - name: Dominaria United Spindown Die
+    pack:
+    - code: prerelease
+      set: dmu
     sealed:
     - count: 6
       name: Dominaria United Draft Booster Pack

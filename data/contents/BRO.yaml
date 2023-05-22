@@ -85,17 +85,23 @@ products:
     - code: jumpstart
       set: bro
   The Brothers' War Prerelease Pack Mishras Burnished Banner:
+    card_count: 1
     other:
-    - name: The Brothers' War Prerelease Promo Card
     - name: The Brothers' War Spindown Die
+    pack:
+    - code: prerelease
+      set: bro
     sealed:
     - count: 6
       name: The Brothers' War Draft Booster Pack
       set: bro
   The Brothers' War Prerelease Pack Urzas Iron Alliance:
+    card_count: 1
     other:
-    - name: The Brothers War' Prerelease Promo Card
     - name: The Brothers War' Spindown Die
+    pack:
+    - code: prerelease
+      set: bro
     sealed:
     - count: 6
       name: The Brothers War' Draft Booster Pack

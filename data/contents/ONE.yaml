@@ -89,9 +89,12 @@ products:
     - code: jumpstart
       set: one
   Phyrexia All Will Be One Prerelease Pack:
+    card_count: 1
     other:
-    - name: Phyrexia All Will Be One Prerelease Promo
     - name: Phyrexia All Will Be One Spindown
+    pack:
+    - code: prerelease
+      set: one
     sealed:
     - count: 6
       name: Phyrexia All Will Be One Draft Booster Pack

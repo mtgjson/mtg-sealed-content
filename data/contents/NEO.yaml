@@ -1,33 +1,159 @@
 code: neo
 products:
-  Kamigawa Neon Dynasty 3 Booster Draft Pack: []
-  Kamigawa Neon Dynasty Bundle: []
-  Kamigawa Neon Dynasty Bundle Case: []
-  Kamigawa Neon Dynasty Collector Booster Box: []
-  Kamigawa Neon Dynasty Collector Booster Box Case: []
-  Kamigawa Neon Dynasty Collector Booster Display: []
-  Kamigawa Neon Dynasty Collector Booster Display Case: []
-  Kamigawa Neon Dynasty Collector Booster Pack: []
-  Kamigawa Neon Dynasty Draft Booster Box: []
-  Kamigawa Neon Dynasty Draft Booster Box Case: []
-  Kamigawa Neon Dynasty Draft Booster Pack: []
-  Kamigawa Neon Dynasty Prerelease Pack: []
-  Kamigawa Neon Dynasty Set Booster Box: []
-  Kamigawa Neon Dynasty Set Booster Box Case: []
-  Kamigawa Neon Dynasty Set Booster Display: []
-  Kamigawa Neon Dynasty Set Booster Display Case: []
-  Kamigawa Neon Dynasty Set Booster Pack: []
-  Kamigawa Neon Dynasty Theme Booster Black: []
-  Kamigawa Neon Dynasty Theme Booster Blue: []
-  Kamigawa Neon Dynasty Theme Booster Box: []
-  Kamigawa Neon Dynasty Theme Booster Box Case: []
-  Kamigawa Neon Dynasty Theme Booster Display Box: []
-  Kamigawa Neon Dynasty Theme Booster Display Box Case: []
-  Kamigawa Neon Dynasty Theme Booster Green: []
-  Kamigawa Neon Dynasty Theme Booster Ninjas: []
-  Kamigawa Neon Dynasty Theme Booster Red: []
-  Kamigawa Neon Dynasty Theme Booster Set of 6: []
-  Kamigawa Neon Dynasty Theme Booster White: []
+  Kamigawa Neon Dynasty 3 Booster Draft Pack:
+    sealed:
+    - count: 3
+      name: Kamigawa Neon Dynasty Draft Booster Pack
+      set: neo
+  Kamigawa Neon Dynasty Bundle:
+    card:
+    - foil: true
+      name: Invoke Despair
+      number: 506
+      set: neo
+    other:
+    - name: Kamigawa Neon Dynasty Land Bundle
+    - name: Kamigawa Neon Dynasty Spindown
+    sealed:
+    - count: 8
+      name: Kamigawa Neon Dynasty Set Booster Pack
+      set: neo
+  Kamigawa Neon Dynasty Bundle Case:
+    sealed:
+    - count: 6
+      name: Kamigawa Neon Dynasty Bundle
+      set: neo
+  Kamigawa Neon Dynasty Collector Booster Box:
+    sealed:
+    - count: 12
+      name: Kamigawa Neon Dynasty Collector Booster Pack
+      set: neo
+  Kamigawa Neon Dynasty Collector Booster Box Case:
+    sealed:
+    - count: 6
+      name: Kamigawa Neon Dynasty Collector Booster Box
+      set: neo
+  Kamigawa Neon Dynasty Collector Booster Pack:
+    card_count: 15
+    pack:
+    - code: collector
+      set: neo
+  Kamigawa Neon Dynasty Draft Booster Box:
+    sealed:
+    - count: 36
+      name: Kamigawa Neon Dynasty Draft Booster Pack
+      set: neo
+  Kamigawa Neon Dynasty Draft Booster Box Case:
+    sealed:
+    - count: 6
+      name: Kamigawa Neon Dynasty Draft Booster Box
+      set: neo
+  Kamigawa Neon Dynasty Draft Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: neo
+  Kamigawa Neon Dynasty Prerelease Pack:
+    card_count: 1
+    other:
+    - name: Kamigawa Neon Dynasty Spindown
+    pack:
+    - code: prerelease
+      set: neo
+    sealed:
+    - count: 6
+      name: Kamigawa Neon Dynasty Draft Booster Pack
+      set: neo
+  Kamigawa Neon Dynasty Set Booster Box:
+    sealed:
+    - count: 30
+      name: Kamigawa Neon Dynasty Set Booster Pack
+      set: neo
+  Kamigawa Neon Dynasty Set Booster Box Case:
+    sealed:
+    - count: 6
+      name: Kamigawa Neon Dynasty Set Booster Box
+      set: neo
+  Kamigawa Neon Dynasty Set Booster Pack:
+    card_count: 12
+    pack:
+    - code: set
+      set: neo
+  Kamigawa Neon Dynasty Theme Booster Black:
+    card_count: 35
+    pack:
+    - code: theme-b
+      set: neo
+  Kamigawa Neon Dynasty Theme Booster Blue:
+    card_count: 35
+    pack:
+    - code: theme-u
+      set: neo
+  Kamigawa Neon Dynasty Theme Booster Box:
+    sealed:
+    - count: 2
+      name: Kamigawa Neon Dynasty Theme Booster White
+      set: neo
+    - count: 2
+      name: Kamigawa Neon Dynasty Theme Booster Blue
+      set: neo
+    - count: 2
+      name: Kamigawa Neon Dynasty Theme Booster Black
+      set: neo
+    - count: 2
+      name: Kamigawa Neon Dynasty Theme Booster Red
+      set: neo
+    - count: 2
+      name: Kamigawa Neon Dynasty Theme Booster Green
+      set: neo
+    - count: 2
+      name: Kamigawa Neon Dynasty Theme Booster Ninjas
+      set: neo
+  Kamigawa Neon Dynasty Theme Booster Box Case:
+    sealed:
+    - count: 6
+      name: Kamigawa Neon Dynasty Theme Booster Box
+      set: neo
+  Kamigawa Neon Dynasty Theme Booster Green:
+    card_count: 35
+    pack:
+    - code: theme-g
+      set: neo
+  Kamigawa Neon Dynasty Theme Booster Ninjas:
+    card_count: 35
+    pack:
+    - code: theme-ninjas
+      set: neo
+  Kamigawa Neon Dynasty Theme Booster Red:
+    card_count: 35
+    pack:
+    - code: theme-r
+      set: neo
+  Kamigawa Neon Dynasty Theme Booster Set of 6:
+    sealed:
+    - count: 1
+      name: Kamigawa Neon Dynasty Theme Booster White
+      set: neo
+    - count: 1
+      name: Kamigawa Neon Dynasty Theme Booster Blue
+      set: neo
+    - count: 1
+      name: Kamigawa Neon Dynasty Theme Booster Black
+      set: neo
+    - count: 1
+      name: Kamigawa Neon Dynasty Theme Booster Red
+      set: neo
+    - count: 1
+      name: Kamigawa Neon Dynasty Theme Booster Green
+      set: neo
+    - count: 1
+      name: Kamigawa Neon Dynasty Theme Booster Ninjas
+      set: neo
+  Kamigawa Neon Dynasty Theme Booster White:
+    card_count: 35
+    pack:
+    - code: theme-w
+      set: neo
   'Kamigawa: Neon Dynasty - Complete FOIL Set (Factory Sealed)': []
   'Kamigawa: Neon Dynasty - Complete Set (Factory Sealed)': []
   'Pure Bulk: Unsorted Commons Kamigawa: Neon Dynasty (500ct)': []

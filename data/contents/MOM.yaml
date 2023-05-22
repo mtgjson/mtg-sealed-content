@@ -64,9 +64,12 @@ products:
     - code: jumpstart
       set: mom
   March of the Machine Prerelease Pack:
+    card_count: 2
     other:
-    - name: March of the Machine Prerelease Promo Pack
     - name: March of the Machine Prerelease Spindown
+    pack:
+    - code: prerelease
+      set: mom
     sealed:
     - count: 6
       name: March of the Machine Draft Booster Pack
