@@ -1,9 +1,46 @@
 code: voc
 products:
-  Innistrad Crimson Vow Commander Deck Display: []
-  Innistrad Crimson Vow Commander Deck Spirit Squadron: []
-  Innistrad Crimson Vow Commander Deck Spirit Squadron Minimal Packaging: []
-  Innistrad Crimson Vow Commander Deck Vampiric Bloodline: []
-  Innistrad Crimson Vow Commander Deck Vampiric Bloodline Minimal Packaging: []
-  Innistrad Crimson Vow Commander Decks - Set of 2: []
-  Innistrad Crimson Vow Commander Decks Set of 2: []
+  Innistrad Crimson Vow Commander Deck Display:
+    sealed:
+    - count: 2
+      name: Innistrad Crimson Vow Commander Deck Vampiric Bloodline
+      set: voc
+    - count: 2
+      name: Innistrad Crimson Vow Commander Deck Spirit Squadron
+      set: voc
+  Innistrad Crimson Vow Commander Deck Spirit Squadron:
+    card_count: 100
+    deck:
+    - name: Spirit Squadron
+      set: voc
+    other:
+    - name: 10 Double Sided Tokens
+    - name: Innistrad Crimson Vow Life Wheel
+    - name: Foil Etched Cardstock Display Commander
+  Innistrad Crimson Vow Commander Deck Spirit Squadron Minimal Packaging:
+    sealed:
+    - count: 1
+      name: Innistrad Crimson Vow Commander Deck Spirit Squadron
+      set: voc
+  Innistrad Crimson Vow Commander Deck Vampiric Bloodline:
+    card_count: 100
+    deck:
+    - name: Vampiric Bloodline
+      set: voc
+    other:
+    - name: 10 Double Sided Tokens
+    - name: Innistrad Crimson Vow Life Wheel
+    - name: Foil Etched Cardstock Display Commander
+  Innistrad Crimson Vow Commander Deck Vampiric Bloodline Minimal Packaging:
+    sealed:
+    - count: 1
+      name: Innistrad Crimson Vow Commander Deck Vampiric Bloodline
+      set: voc
+  Innistrad Crimson Vow Commander Decks - Set of 2:
+    sealed:
+    - count: 1
+      name: Innistrad Crimson Vow Commander Deck Vampiric Bloodline
+      set: voc
+    - count: 1
+      name: Innistrad Crimson Vow Commander Deck Spirit Squadron
+      set: voc

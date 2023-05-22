@@ -51,6 +51,11 @@ products:
     pack:
     - code: collector
       set: snc
+  Streets of New Capenna Collector Booster Sample Pack:
+    card_count: 2
+    pack:
+    - code: collector-sample
+      set: snc
   Streets of New Capenna Draft Booster Box:
     card:
     - foil: true

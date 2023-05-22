@@ -1,14 +1,110 @@
 code: ncc
 products:
-  Streets of New Capenna Commander Deck Bedecked Brokers: []
-  Streets of New Capenna Commander Deck Bedecked Brokers Minimal Packaging: []
-  Streets of New Capenna Commander Deck Cabaretti Cacophony: []
-  Streets of New Capenna Commander Deck Cabaretti Cacophony Minimal Packaging: []
-  Streets of New Capenna Commander Deck Display: []
-  Streets of New Capenna Commander Deck Maestros Massacre: []
-  Streets of New Capenna Commander Deck Maestros Massacre Minimal Packaging: []
-  Streets of New Capenna Commander Deck Obscura Operation: []
-  Streets of New Capenna Commander Deck Obscura Operation Minimal Packaging: []
-  Streets of New Capenna Commander Deck Riveteers Rampage: []
-  Streets of New Capenna Commander Deck Riveteers Rampage Minimal Packaging: []
+  Streets of New Capenna Commander Deck Bedecked Brokers:
+    card_count: 100
+    deck:
+    - name: Bedecked Brokers
+      set: ncc
+    other:
+    - name: 10 Double Sided Tokens
+    - name: Streets of New Capenna Life Wheel
+    - name: Foil Etched Cardstock Display Commander
+    sealed:
+    - count: 1
+      name: Streets of New Capenna Collector Booster Sample Pack
+      set: snc
+  Streets of New Capenna Commander Deck Bedecked Brokers Minimal Packaging:
+    sealed:
+    - count: 1
+      name: Streets of New Capenna Commander Deck Bedecked Brokers
+      set: ncc
+  Streets of New Capenna Commander Deck Cabaretti Cacophony:
+    card_count: 100
+    deck:
+    - name: Cabaretti Cacophony
+      set: ncc
+    other:
+    - name: 10 Double Sided Tokens
+    - name: Streets of New Capenna Life Wheel
+    - name: Foil Etched Cardstock Display Commander
+    sealed:
+    - count: 1
+      name: Streets of New Capenna Collector Booster Sample Pack
+      set: snc
+  Streets of New Capenna Commander Deck Cabaretti Cacophony Minimal Packaging:
+    sealed:
+    - count: 1
+      name: Streets of New Capenna Commander Deck Cabaretti Cacophony
+      set: ncc
+  Streets of New Capenna Commander Deck Display:
+    sealed:
+    - count: 1
+      name: Streets of New Capenna Commander Deck Bedecked Brokers
+      set: ncc
+    - count: 1
+      name: Streets of New Capenna Commander Deck Cabaretti Cacophony
+      set: ncc
+    - count: 1
+      name: Streets of New Capenna Commander Deck Maestros Massacre
+      set: ncc
+    - count: 1
+      name: Streets of New Capenna Commander Deck Obscura Operation
+      set: ncc
+    - count: 1
+      name: Streets of New Capenna Commander Deck Riveteers Rampage
+      set: ncc
+  Streets of New Capenna Commander Deck Maestros Massacre:
+    card_count: 100
+    deck:
+    - name: Maestros Massacre
+      set: ncc
+    other:
+    - name: 10 Double Sided Tokens
+    - name: Streets of New Capenna Life Wheel
+    - name: Foil Etched Cardstock Display Commander
+    sealed:
+    - count: 1
+      name: Streets of New Capenna Collector Booster Sample Pack
+      set: snc
+  Streets of New Capenna Commander Deck Maestros Massacre Minimal Packaging:
+    sealed:
+    - count: 1
+      name: Streets of New Capenna Commander Deck Maestros Massacre
+      set: ncc
+  Streets of New Capenna Commander Deck Obscura Operation:
+    card_count: 100
+    deck:
+    - name: Obscura Operation
+      set: ncc
+    other:
+    - name: 10 Double Sided Tokens
+    - name: Streets of New Capenna Life Wheel
+    - name: Foil Etched Cardstock Display Commander
+    sealed:
+    - count: 1
+      name: Streets of New Capenna Collector Booster Sample Pack
+      set: snc
+  Streets of New Capenna Commander Deck Obscura Operation Minimal Packaging:
+    sealed:
+    - count: 1
+      name: Streets of New Capenna Commander Deck Obscura Operation
+      set: ncc
+  Streets of New Capenna Commander Deck Riveteers Rampage:
+    card_count: 100
+    deck:
+    - name: Riveteers Rampage
+      set: ncc
+    other:
+    - name: 10 Double Sided Tokens
+    - name: Streets of New Capenna Life Wheel
+    - name: Foil Etched Cardstock Display Commander
+    sealed:
+    - count: 1
+      name: Streets of New Capenna Collector Booster Sample Pack
+      set: snc
+  Streets of New Capenna Commander Deck Riveteers Rampage Minimal Packaging:
+    sealed:
+    - count: 1
+      name: Streets of New Capenna Commander Deck Riveteers Rampage
+      set: ncc
   Streets of New Capenna Commander Decks - Set of 5: []

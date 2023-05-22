@@ -1,9 +1,46 @@
 code: nec
 products:
-  Kamigawa Neon Dynasty Commander Deck Buckle Up: []
-  Kamigawa Neon Dynasty Commander Deck Buckle Up Minimal Packaging: []
-  Kamigawa Neon Dynasty Commander Deck Display: []
-  Kamigawa Neon Dynasty Commander Deck Upgrades Unleashed: []
-  Kamigawa Neon Dynasty Commander Deck Upgrades Unleashed Minimal Packaging: []
-  Kamigawa Neon Dynasty Commander Decks - Set of 2: []
-  Kamigawa Neon Dynasty Commander Decks Set of 2: []
+  Kamigawa Neon Dynasty Commander Deck Buckle Up:
+    card_count: 100
+    deck:
+    - name: Buckle Up
+      set: nec
+    other:
+    - name: 10 Double Sided Tokens
+    - name: Kamigawa Neon Dynasty Life Wheel
+    - name: Foil Etched Cardstock Display Commander
+  Kamigawa Neon Dynasty Commander Deck Buckle Up Minimal Packaging:
+    sealed:
+    - count: 1
+      name: Kamigawa Neon Dynasty Commander Deck Buckle Up
+      set: nec
+  Kamigawa Neon Dynasty Commander Deck Display:
+    sealed:
+    - count: 2
+      name: Kamigawa Neon Dynasty Commander Deck Buckle Up
+      set: nec
+    - count: 2
+      name: Kamigawa Neon Dynasty Commander Deck Upgrades Unleashed
+      set: nec
+  Kamigawa Neon Dynasty Commander Deck Upgrades Unleashed:
+    card_count: 100
+    deck:
+    - name: Upgrades Unleashed
+      set: nec
+    other:
+    - name: 10 Double Sided Tokens
+    - name: Kamigawa Neon Dynasty Life Wheel
+    - name: Foil Etched Cardstock Display Commander
+  Kamigawa Neon Dynasty Commander Deck Upgrades Unleashed Minimal Packaging:
+    sealed:
+    - count: 1
+      name: Kamigawa Neon Dynasty Commander Deck Upgrades Unleashed
+      set: nec
+  Kamigawa Neon Dynasty Commander Decks - Set of 2:
+    sealed:
+    - count: 1
+      name: Kamigawa Neon Dynasty Commander Deck Buckle Up
+      set: nec
+    - count: 1
+      name: Kamigawa Neon Dynasty Commander Deck Upgrades Unleashed
+      set: nec
