@@ -85,9 +85,12 @@ products:
     - code: jumpstart
       set: dmu
   Dominaria United Prerelease Pack:
+    card_count: 1
     other:
-    - name: Dominaria United Prerelease Promo Card
     - name: Dominaria United Spindown Die
+    pack:
+    - code: prerelease
+      set: dmu
     sealed:
     - count: 6
       name: Dominaria United Draft Booster Pack
@@ -109,6 +112,11 @@ products:
     card_count: 12
     pack:
     - code: set
+      set: dmu
+  Dominaria United Welcome Booster:
+    card_count: 10
+    deck:
+    - name: Dominaria United Welcome Booster
       set: dmu
   'Pure Bulk: Unsorted Commons Dominaria United (500ct)': []
   The Brothers' War Jumpstart Booster Box Case: []

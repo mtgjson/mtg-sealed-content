@@ -1,9 +1,46 @@
 code: mic
 products:
-  Innistrad Midnight Hunt Commander Deck Coven Counters: []
-  Innistrad Midnight Hunt Commander Deck Coven Counters Minimal Packaging: []
-  Innistrad Midnight Hunt Commander Deck Display: []
-  Innistrad Midnight Hunt Commander Deck Undead Unleashed: []
-  Innistrad Midnight Hunt Commander Deck Undead Unleashed Minimal Packaging: []
-  Innistrad Midnight Hunt Commander Decks - Set of 2: []
-  Innistrad Midnight Hunt Commander Decks Set of 2: []
+  Innistrad Midnight Hunt Commander Deck Coven Counters:
+    card_count: 100
+    deck:
+    - name: Coven Counters
+      set: mic
+    other:
+    - name: 10 Double Sided Tokens
+    - name: Innistrad Midnight Hunt Life Wheel
+    - name: Foil Etched Cardstock Display Commander
+  Innistrad Midnight Hunt Commander Deck Coven Counters Minimal Packaging:
+    sealed:
+    - count: 1
+      name: Innistrad Midnight Hunt Commander Deck Coven Counters
+      set: mic
+  Innistrad Midnight Hunt Commander Deck Display:
+    sealed:
+    - count: 2
+      name: Innistrad Midnight Hunt Commander Deck Undead Unleashed
+      set: mic
+    - count: 2
+      name: Innistrad Midnight Hunt Commander Deck Coven Counters
+      set: mic
+  Innistrad Midnight Hunt Commander Deck Undead Unleashed:
+    card_count: 100
+    deck:
+    - name: Undead Unleashed
+      set: mic
+    other:
+    - name: 10 Double Sided Tokens
+    - name: Innistrad Midnight Hunt Life Wheel
+    - name: Foil Etched Cardstock Display Commander
+  Innistrad Midnight Hunt Commander Deck Undead Unleashed Minimal Packaging:
+    sealed:
+    - count: 1
+      name: Innistrad Midnight Hunt Commander Deck Undead Unleashed
+      set: mic
+  Innistrad Midnight Hunt Commander Decks - Set of 2:
+    sealed:
+    - count: 1
+      name: Innistrad Midnight Hunt Commander Deck Undead Unleashed
+      set: mic
+    - count: 1
+      name: Innistrad Midnight Hunt Commander Deck Coven Counters
+      set: mic
