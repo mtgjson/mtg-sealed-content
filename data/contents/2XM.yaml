@@ -3,41 +3,37 @@ products:
   Double Masters 3 Booster Draft Pack:
     sealed:
     - count: 3
-      name: Double Masters Booster Pack
+      name: Double Masters Draft Booster Pack
       set: 2xm
-  Double Masters Booster Box:
+  Double Masters Box Topper Pack: []
+  Double Masters Draft Booster Box:
     sealed:
     - count: 24
-      name: Double Masters Booster Pack
+      name: Double Masters Draft Booster Pack
       set: 2xm
     - count: 1
       name: Double Masters Box Topper Pack
       set: 2xm
-  Double Masters Booster Box Case:
+  Double Masters Draft Booster Box Case:
     sealed:
     - count: 4
-      name: Double Masters Booster Box
+      name: Double Masters Draft Booster Box
       set: 2xm
-  Double Masters Booster Pack:
+  Double Masters Draft Booster Pack:
     pack:
     - code: default
       set: 2xm
-  Double Masters Box Topper Pack: []
-  Double Masters Draft Booster Box: []
-  Double Masters Draft Booster Box Case: []
-  Double Masters Draft Booster Pack: []
-  Double Masters VIP Edition Booster Pack: []
+  Double Masters VIP Edition Booster Pack:
+    pack:
+    - code: vip
+      set: 2xm
   Double Masters VIP Edition Box:
     sealed:
     - count: 4
-      name: Double Masters VIP Edition Pack
+      name: Double Masters VIP Edition Booster Pack
       set: 2xm
   Double Masters VIP Edition Box Case:
     sealed:
     - count: 4
       name: Double Masters VIP Edition Box
-      set: 2xm
-  Double Masters VIP Edition Pack:
-    pack:
-    - code: vip
       set: 2xm

@@ -1,18 +1,15 @@
 code: lea
 products:
-  Alpha Booster Box: []
-  Alpha Booster Pack: []
-  Alpha Edition Booster Box:
+  Alpha Booster Box:
     sealed:
     - count: 36
-      name: Alpha Edition Booster Pack
+      name: Alpha Booster Pack
       set: lea
-  Alpha Edition Booster Pack:
+  Alpha Booster Pack:
     pack:
     - code: default
       set: lea
-  Alpha Edition Starter Deck:
+  Alpha Starter Deck:
     pack:
     - code: starter
       set: lea
-  Alpha Starter Deck: []
