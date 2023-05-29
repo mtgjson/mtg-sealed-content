@@ -1,8 +1,54 @@
 code: scd
 products:
-  Starter Commander Deck Chaos Incarnate: []
-  Starter Commander Deck Draconic Destruction: []
-  Starter Commander Deck First Flight: []
-  Starter Commander Deck Grave Danger: []
-  Starter Commander Deck Set of 5: []
-  Starter Commander Deck Token Triumph: []
+  Starter Commander Deck Chaos Incarnate:
+    card_count: 100
+    deck:
+    - name: Chaos Incarnate
+      set: scd
+    other:
+    - name: 10 double sided tokens
+  Starter Commander Deck Draconic Destruction:
+    card_count: 100
+    deck:
+    - name: Draconic Destruction
+      set: scd
+    other:
+    - name: 10 double sided tokens
+  Starter Commander Deck First Flight:
+    card_count: 100
+    deck:
+    - name: First Flight
+      set: scd
+    other:
+    - name: 10 double sided tokens
+  Starter Commander Deck Grave Danger:
+    card_count: 100
+    deck:
+    - name: Grave Danger
+      set: scd
+    other:
+    - name: 10 double sided tokens
+  Starter Commander Deck Set of 5:
+    sealed:
+    - count: 1
+      name: Starter Commander Deck Chaos Incarnate
+      set: scd
+    - count: 1
+      name: Starter Commander Deck Draconic Destruction
+      set: scd
+    - count: 1
+      name: Starter Commander Deck First Flight
+      set: scd
+    - count: 1
+      name: Starter Commander Deck Grave Danger
+      set: scd
+    - count: 1
+      name: Starter Commander Deck Token Triumph
+      set: scd
+  Starter Commander Deck Token Triumph:
+    card_count: 100
+    deck:
+    - name: Token Triumph
+      set: scd
+    other:
+    - name: 10 double sided tokens

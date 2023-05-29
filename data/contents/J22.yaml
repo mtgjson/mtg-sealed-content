@@ -1,7 +1,17 @@
 code: j22
 products:
-  Jumpstart 2022 Booster Box: []
-  Jumpstart 2022 Booster Box Case: []
-  Jumpstart 2022 Booster Display: []
-  Jumpstart 2022 Booster Display Case: []
-  Jumpstart 2022 Booster Pack: []
+  Jumpstart 2022 Booster Box:
+    sealed:
+    - count: 24
+      name: Jumpstart 2022 Booster Pack
+      set: j22
+  Jumpstart 2022 Booster Box Case:
+    sealed:
+    - count: 6
+      name: Jumpstart 2022 Booster Box
+      set: j22
+  Jumpstart 2022 Booster Pack:
+    card_count: 20
+    pack:
+    - code: jumpstart
+      set: j22

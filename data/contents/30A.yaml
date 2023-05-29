@@ -1,4 +1,12 @@
 code: 30a
 products:
-  Magic 30th Anniversary Edition Booster Box: []
-  Magic 30th Anniversary Edition Booster Pack: []
+  Magic 30th Anniversary Edition Booster Box:
+    sealed:
+    - count: 4
+      name: Magic 30th Anniversary Edition Booster Pack
+      set: 30a
+  Magic 30th Anniversary Edition Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: 30a
