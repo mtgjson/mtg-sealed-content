@@ -1,11 +1,38 @@
 import yaml
 import json
+import ijson
 from tqdm import tqdm
 from pathlib import Path
 import logging
 import logging.handlers as handlers
 import os
 from copy import copy
+
+def get_uuid_sealed(product):
+    filename = product["set"].upper()
+    if filename == "CON":
+        filename = "CON_"
+    filename += ".json"
+    file = Path("mtgJson/AllSetFiles").joinpath(filename)
+    with open(file, "r") as jfile:
+        objects = list(ijson.items(jfile, "data.sealedProduct.item"))
+        for o in objects:
+            if o["name"] == product["name"]:
+                return o["uuid"]
+    raise KeyError(f"Missing UUID for {product['name']}")
+
+def get_uuid_card(card):
+    filename = card["set"].upper()
+    if filename == "CON":
+        filename = "CON_"
+    filename += ".json"
+    file = Path("mtgJson/AllSetFiles").joinpath(filename)
+    with open(file, "r") as jfile:
+        objects = list(ijson.items(jfile, "data.cards.item"))
+        for o in objects:
+            if o["number"] == str(card["number"]):
+                return o["uuid"]
+    raise KeyError(f"Missing UUID for {card['name']}")
 
 def validate_contents(contents, route, logger):
     if not contents:
@@ -29,6 +56,10 @@ def validate_contents(contents, route, logger):
                         raise TypeError("name is not str")
                     if ptemp:
                         logger.warning("%s sealed has extra contents %s", route, str(ptemp))
+                    try:
+                        product["uuid"] = get_uuid_sealed(product)
+                    except KeyError:
+                        logger.warning("Could not get UUID for sealed %s/%s", route, product["name"])
             except KeyError as e:
                 logger.error("%s sealed missing required value %s", route, e)
                 return False
@@ -105,6 +136,10 @@ def validate_contents(contents, route, logger):
                         raise TypeError("foil is not boolean")
                     if ptemp:
                         logger.warning("%s pack has extra contents %s", route, str(ptemp))
+                    try:
+                        product["uuid"] = get_uuid_card(product)
+                    except KeyError:
+                        logger.warning("Could not get UUID for card %s/%s", route, product["name"])
             except KeyError as e:
                 logger.error("%s pack missing required value %s", route, e)
                 return False
