@@ -190,6 +190,9 @@ products_contents = {}
 for file in contents_files:
 	with open(file, "rb") as f:
 		data = yaml.safe_load(f)
+	if not data["products"]:
+	    logger.error("Set %s has no products", data["code"])
+	    os.remove(file)
 	for product, contents in data["products"].items():
 		if validate_contents(contents, data["code"] + "-" + product, logger):
 			if data["code"] not in products_contents:

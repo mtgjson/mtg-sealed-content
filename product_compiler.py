@@ -18,7 +18,7 @@ handler.setLevel(logging.INFO)
 logger.addHandler(handler)
 
 if rollCheck:
-    logger.handlers[0].doRollover()
+	logger.handlers[0].doRollover()
 
 alt_codes = {
 	"CON_": "con"
@@ -48,11 +48,12 @@ for file in t:
 				logger.info("Added new product %s/%s", file.stem, p["name"])
 				products[p["name"]] = []
 		for n in existing_names:
-		    if n not in mtgjson_names:
-		        logger.info("Product %s/%s no longer present in MTGJson data", file.stem, n)
+			if n not in mtgjson_names:
+				logger.info("Product %s/%s no longer present in MTGJson data", file.stem, n)
 	code = alt_codes.get(file.stem.lower(), file.stem.lower())
-	with open(output_file, 'w') as write:
-		yaml.dump({"code": code, "products": products}, write)
+	if products:
+		with open(output_file, 'w') as write:
+			yaml.dump({"code": code, "products": products}, write)
 t.close
 del(t)
 
