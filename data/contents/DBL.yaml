@@ -1,5 +1,17 @@
 code: dbl
 products:
-  Innistrad Double Feature Draft Booster Box: []
-  Innistrad Double Feature Draft Booster Box Case: []
-  Innistrad Double Feature Draft Booster Pack: []
+  Innistrad Double Feature Draft Booster Box:
+    sealed:
+    - count: 24
+      name: Innistrad Double Feature Draft Booster Pack
+      set: dbl
+  Innistrad Double Feature Draft Booster Box Case:
+    sealed:
+    - count: 6
+      name: Innistrad Double Feature Draft Booster Box
+      set: dbl
+  Innistrad Double Feature Draft Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: dbl

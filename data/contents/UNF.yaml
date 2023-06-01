@@ -1,12 +1,48 @@
 code: unf
 products:
-  Unfinity 3 Booster Draft Pack: []
-  Unfinity Box Topper Pack: []
-  Unfinity Collector Booster Box: []
-  Unfinity Collector Booster Box Case: []
-  Unfinity Collector Booster Display: []
-  Unfinity Collector Booster Display Case: []
-  Unfinity Collector Booster Pack: []
-  Unfinity Draft Booster Box: []
-  Unfinity Draft Booster Box Case: []
-  Unfinity Draft Booster Pack: []
+  Unfinity 3 Booster Draft Pack:
+    sealed:
+    - count: 3
+      name: Unfinity Draft Booster Pack
+      set: unf
+  Unfinity Box Topper Pack:
+    card_count: 1
+    pack:
+    - code: box-topper
+      set: unf
+  Unfinity Collector Booster Box:
+    sealed:
+    - count: 12
+      name: Unfinity Collector Booster Pack
+      set: unf
+    - count: 1
+      name: Unfinity Box Topper Pack
+      set: unf
+  Unfinity Collector Booster Box Case:
+    sealed:
+    - count: 6
+      name: Unfinity Collector Booster Box
+      set: unf
+  Unfinity Collector Booster Pack:
+    card_count: 15
+    pack:
+    - code: collector
+      set: unf
+  Unfinity Draft Booster Box:
+    sealed:
+    - count: 36
+      name: Unfinity Draft Booster Pack
+      set: unf
+    - count: 1
+      name: Unfinity Box Topper Pack
+      set: unf
+  Unfinity Draft Booster Box Case:
+    sealed:
+    - count: 6
+      name: Unfinity Draft Booster Box
+      set: unf
+  Unfinity Draft Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: unf
