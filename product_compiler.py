@@ -34,7 +34,7 @@ for file in t:
 		with open(output_file, 'r') as f:
 			full = yaml.safe_load(f)
 		try:
-			products = full["products"]
+			products = {k: v for k, v in full["products"].items() if v}
 		except:
 			products = full
 	else:
