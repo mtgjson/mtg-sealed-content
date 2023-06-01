@@ -1,4 +1,12 @@
 code: cc2
 products:
-  Commander Collection Black: []
-  Commander Collection Black Premium: []
+  Commander Collection Black:
+    card_count: 9
+    deck:
+    - name: Commander Collection Black
+      set: cc2
+  Commander Collection Black Premium:
+    card_count: 9
+    deck:
+    - name: Commander Collection Black Premium
+      set: cc2

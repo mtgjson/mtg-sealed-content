@@ -1,25 +1,177 @@
 code: clb
 products:
-  Commander Legends Battle for Baldurs Gate 3 Booster Draft Pack: []
-  Commander Legends Battle for Baldurs Gate Bundle: []
-  Commander Legends Battle for Baldurs Gate Bundle Case: []
-  Commander Legends Battle for Baldurs Gate Collector Booster Box: []
-  Commander Legends Battle for Baldurs Gate Collector Booster Box Case: []
-  Commander Legends Battle for Baldurs Gate Collector Booster Hanger Pack: []
-  Commander Legends Battle for Baldurs Gate Collector Booster Pack: []
-  Commander Legends Battle for Baldurs Gate Commander Deck Display: []
-  Commander Legends Battle for Baldurs Gate Draconic Dissent Commander Deck: []
-  Commander Legends Battle for Baldurs Gate Draconic Dissent Commander Deck Minimal Packaging: []
-  Commander Legends Battle for Baldurs Gate Draft Booster Box: []
-  Commander Legends Battle for Baldurs Gate Draft Booster Box Case: []
-  Commander Legends Battle for Baldurs Gate Draft Booster Pack: []
-  Commander Legends Battle for Baldurs Gate Exit from Exile Commander Deck: []
-  Commander Legends Battle for Baldurs Gate Exit from Exile Commander Deck Minimal Packaging: []
-  Commander Legends Battle for Baldurs Gate Mind Flayarrrs Commander Deck: []
-  Commander Legends Battle for Baldurs Gate Mind Flayarrrs Commander Deck Minimal Packaging: []
-  Commander Legends Battle for Baldurs Gate Party Time Commander Deck: []
-  Commander Legends Battle for Baldurs Gate Party Time Commander Deck Minimal Packaging: []
-  Commander Legends Battle for Baldurs Gate Prerelease Pack: []
-  Commander Legends Battle for Baldurs Gate Set Booster Box: []
-  Commander Legends Battle for Baldurs Gate Set Booster Box Case: []
-  Commander Legends Battle for Baldurs Gate Set Booster Pack: []
+  Commander Legends Battle for Baldurs Gate 3 Booster Draft Pack:
+    sealed:
+    - count: 3
+      name: Commander Legends Battle for Baldurs Gate Draft Booster Pack
+      set: clb
+  Commander Legends Battle for Baldurs Gate Bundle:
+    card:
+    - foil: true
+      name: Wand of Wonder
+      number: 935
+      set: clb
+    other:
+    - name: Commander Legends Battle for Baldurs Gate Spindown
+    - name: Commander Legends Battle for Baldurs Gate Land Bundle
+    sealed:
+    - count: 8
+      name: Commander Legends Battle for Baldurs Gate Set Booster Pack
+      set: clb
+  Commander Legends Battle for Baldurs Gate Bundle Case:
+    sealed:
+    - count: 6
+      name: Commander Legends Battle for Baldurs Gate Bundle
+      set: clb
+  Commander Legends Battle for Baldurs Gate Collector Booster Box:
+    sealed:
+    - count: 12
+      name: Commander Legends Battle for Baldurs Gate Collector Booster Pack
+      set: clb
+  Commander Legends Battle for Baldurs Gate Collector Booster Box Case:
+    sealed:
+    - count: 6
+      name: Commander Legends Battle for Baldurs Gate Collector Booster Box
+      set: clb
+  Commander Legends Battle for Baldurs Gate Collector Booster Hanger Pack:
+    sealed:
+    - count: 1
+      name: Commander Legends Battle for Baldurs Gate Collector Booster Pack
+      set: clb
+  Commander Legends Battle for Baldurs Gate Collector Booster Pack:
+    card_count: 15
+    pack:
+    - code: collector
+      set: clb
+  Commander Legends Battle for Baldurs Gate Collector Booster Sample Pack:
+    card_count: 2
+    pack:
+    - code: collector-sample
+      set: clb
+  Commander Legends Battle for Baldurs Gate Commander Deck Display:
+    sealed:
+    - count: 1
+      name: Commander Legends Battle for Baldurs Gate Draconic Dissent Commander Deck
+      set: clb
+    - count: 1
+      name: Commander Legends Battle for Baldurs Gate Exit from Exile Commander Deck
+      set: clb
+    - count: 1
+      name: Commander Legends Battle for Baldurs Gate Mind Flayarrrs Commander Deck
+      set: clb
+    - count: 1
+      name: Commander Legends Battle for Baldurs Gate Party Time Commander Deck
+      set: clb
+  Commander Legends Battle for Baldurs Gate Draconic Dissent Commander Deck:
+    card_count: 100
+    deck:
+    - name: Draconic Dissent
+      set: clb
+    other:
+    - name: Cardstock Display Commander
+    - name: Life Tracker
+    - name: 10 Double Sided Tokens
+    sealed:
+    - count: 1
+      name: Commander Legends Battle for Baldurs Gate Collector Booster Sample Pack
+      set: clb
+  Commander Legends Battle for Baldurs Gate Draconic Dissent Commander Deck Minimal Packaging:
+    sealed:
+    - count: 1
+      name: Commander Legends Battle for Baldurs Gate Draconic Dissent Commander Deck
+      set: clb
+  Commander Legends Battle for Baldurs Gate Draft Booster Box:
+    sealed:
+    - count: 24
+      name: Commander Legends Battle for Baldurs Gate Draft Booster Pack
+      set: clb
+  Commander Legends Battle for Baldurs Gate Draft Booster Box Case:
+    sealed:
+    - count: 6
+      name: Commander Legends Battle for Baldurs Gate Draft Booster Box
+      set: clb
+  Commander Legends Battle for Baldurs Gate Draft Booster Pack:
+    card_count: 20
+    pack:
+    - code: default
+      set: clb
+  Commander Legends Battle for Baldurs Gate Exit from Exile Commander Deck:
+    card_count: 100
+    deck:
+    - name: Exit from Exile
+      set: clb
+    other:
+    - name: Cardstock Display Commander
+    - name: Life Tracker
+    - name: 10 Double Sided Tokens
+    sealed:
+    - count: 1
+      name: Commander Legends Battle for Baldurs Gate Collector Booster Sample Pack
+      set: clb
+  Commander Legends Battle for Baldurs Gate Exit from Exile Commander Deck Minimal Packaging:
+    sealed:
+    - count: 1
+      name: Commander Legends Battle for Baldurs Gate Exit from Exile Commander Deck
+      set: clb
+  Commander Legends Battle for Baldurs Gate Mind Flayarrrs Commander Deck:
+    card_count: 100
+    deck:
+    - name: Mind Flayarrrs
+      set: clb
+    other:
+    - name: Cardstock Display Commander
+    - name: Life Tracker
+    - name: 10 Double Sided Tokens
+    sealed:
+    - count: 1
+      name: Commander Legends Battle for Baldurs Gate Collector Booster Sample Pack
+      set: clb
+  Commander Legends Battle for Baldurs Gate Mind Flayarrrs Commander Deck Minimal Packaging:
+    sealed:
+    - count: 1
+      name: Commander Legends Battle for Baldurs Gate Mind Flayarrrs Commander Deck
+      set: clb
+  Commander Legends Battle for Baldurs Gate Party Time Commander Deck:
+    card_count: 100
+    deck:
+    - name: Party Time
+      set: clb
+    other:
+    - name: Cardstock Display Commander
+    - name: Life Tracker
+    - name: 10 Double Sided Tokens
+    sealed:
+    - count: 1
+      name: Commander Legends Battle for Baldurs Gate Collector Booster Sample Pack
+      set: clb
+  Commander Legends Battle for Baldurs Gate Party Time Commander Deck Minimal Packaging:
+    sealed:
+    - count: 1
+      name: Commander Legends Battle for Baldurs Gate Party Time Commander Deck
+      set: clb
+  Commander Legends Battle for Baldurs Gate Prerelease Pack:
+    card_count: 1
+    other:
+    - name: Commander Legends Battle for Baldurs Gate d20
+    pack:
+    - code: prerelease
+      set: clb
+    sealed:
+    - count: 3
+      name: Commander Legends Battle for Baldurs Gate Draft Booster Pack
+      set: clb
+  Commander Legends Battle for Baldurs Gate Set Booster Box:
+    sealed:
+    - count: 18
+      name: Commander Legends Battle for Baldurs Gate Set Booster Pack
+      set: clb
+  Commander Legends Battle for Baldurs Gate Set Booster Box Case:
+    sealed:
+    - count: 6
+      name: Commander Legends Battle for Baldurs Gate Set Booster Box
+      set: clb
+  Commander Legends Battle for Baldurs Gate Set Booster Pack:
+    card_count: 15
+    pack:
+    - code: set
+      set: clb
