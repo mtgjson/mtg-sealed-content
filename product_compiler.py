@@ -47,8 +47,9 @@ for file in t:
         mtgjson_names = [p["name"] for p in sealed_product]
         existing_names = [k for k in products.keys()]
         for p in sealed_product:
-            if p["name"] not in products and p["name"] not in empties:
-                logger.info("Added new product %s/%s", file.stem, p["name"])
+            if p["name"] not in products:
+                if p["name"] not in empties:
+                    logger.info("Added new product %s/%s", file.stem, p["name"])
                 products[p["name"]] = []
         for n in existing_names:
             if n not in mtgjson_names:

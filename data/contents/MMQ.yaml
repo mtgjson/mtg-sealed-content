@@ -1,12 +1,64 @@
 code: mmq
 products:
-  Mercadian Masques Booster Box: []
-  Mercadian Masques Booster Pack: []
-  Mercadian Masques Fat Pack: []
-  Mercadian Masques Theme Deck Deepwood Menace: []
-  Mercadian Masques Theme Deck Display: []
-  Mercadian Masques Theme Deck Disrupter: []
-  Mercadian Masques Theme Deck Rebels Call: []
-  Mercadian Masques Theme Deck Tidal Mastery: []
-  Mercadian Masques Tournament Pack: []
-  Mercadian Masques Tournament Pack Display: []
+  Mercadian Masques Booster Box:
+    sealed:
+    - count: 36
+      name: Mercadian Masques Booster Pack
+      set: mmq
+  Mercadian Masques Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: mmq
+  Mercadian Masques Fat Pack:
+    sealed:
+    - count: 3
+      name: Mercadian Masques Booster Pack
+      set: mmq
+    - count: 1
+      name: Mercadian Masques Tournament Pack
+      set: mmq
+  Mercadian Masques Theme Deck Deepwood Menace:
+    card_count: 60
+    deck:
+    - name: Deepwood Menace
+      set: mmq
+  Mercadian Masques Theme Deck Display:
+    sealed:
+    - count: 3
+      name: Mercadian Masques Theme Deck Deepwood Menace
+      set: mmq
+    - count: 3
+      name: Mercadian Masques Theme Deck Disrupter
+      set: mmq
+    - count: 3
+      name: Mercadian Masques Theme Deck Rebels Call
+      set: mmq
+    - count: 3
+      name: Mercadian Masques Theme Deck Tidal Mastery
+      set: mmq
+  Mercadian Masques Theme Deck Disrupter:
+    card_count: 60
+    deck:
+    - name: Disrupter
+      set: mmq
+  Mercadian Masques Theme Deck Rebels Call:
+    card_count: 60
+    deck:
+    - name: Rebel's Call
+      set: mmq
+  Mercadian Masques Theme Deck Tidal Mastery:
+    card_count: 60
+    deck:
+    - name: Tidal Mastery
+      set: mmq
+  Mercadian Masques Tournament Pack:
+    card_count: 75
+    pack:
+    - code: tournament
+      set: mmq
+  Mercadian Masques Tournament Pack Display:
+    sealed:
+    - count: 12
+      name: Mercadian Masques Tournament Pack
+      set: mmq
