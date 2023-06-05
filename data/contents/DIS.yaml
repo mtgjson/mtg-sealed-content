@@ -8,6 +8,7 @@ products:
       name: Dissension Booster Pack
       set: dis
   Dissension Booster Pack:
+    card_count: 15
     pack:
     - code: default
       set: dis
@@ -24,19 +25,26 @@ products:
       name: Dissension Booster Pack
       set: dis
   Dissension Theme Deck Azorius Ascendant:
+    card_count: 60
     deck:
     - name: Azorius Ascendant
       set: dis
     other:
     - name: Dissension Azorius Ascendant Strategy Guide
-  Dissension Theme Deck Display: []
+  Dissension Theme Deck Display:
+    sealed:
+    - count: 4
+      name: Dissension Theme Deck Simic Mutology
+      set: dis
   Dissension Theme Deck Rakdos Bloodsport:
+    card_count: 60
     deck:
     - name: Rakdos Bloodsport
       set: dis
     other:
     - name: Dissension Rakdos Bloodsport Strategy Guide
   Dissension Theme Deck Simic Mutology:
+    card_count: 60
     deck:
     - name: Simic Mutology
       set: dis

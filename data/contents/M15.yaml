@@ -2,22 +2,3499 @@ code: m15
 products:
   2015 Core Set - Complete FOIL Set (Factory Sealed): []
   2015 Core Set - Complete Set (Factory Sealed): []
-  2015 Core Set Booster Box: []
-  2015 Core Set Booster Box Case: []
-  2015 Core Set Booster Pack: []
-  2015 Core Set Clash Pack: []
-  2015 Core Set Deck Builders Toolkit: []
-  2015 Core Set Fat Pack: []
-  2015 Core Set Intro Pack Display: []
-  2015 Core Set Intro Pack Flames of the Dragon: []
-  2015 Core Set Intro Pack Hit the Ground Running: []
-  2015 Core Set Intro Pack Infernal Intervention: []
-  2015 Core Set Intro Pack Price of Glory: []
-  2015 Core Set Intro Pack Set of 5: []
-  2015 Core Set Intro Pack Will of the Masses: []
+  2015 Core Set Booster Box:
+    sealed:
+    - count: 36
+      name: 2015 Core Set Booster Pack
+      set: m15
+  2015 Core Set Booster Box Case:
+    sealed:
+    - count: 6
+      name: 2015 Core Set Booster Box
+      set: m15
+  2015 Core Set Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: m15
+  2015 Core Set Clash Pack:
+    card_count: 120
+    deck:
+    - name: Fate
+      set: m15
+    - name: Fury
+      set: m15
+  2015 Core Set Deck Builders Toolkit:
+    card_count: 229
+    deck:
+    - name: Deck Builder's Toolkit Fixed Content
+      set: m15
+    other:
+    - name: 2015 Deck Builder's Guide
+    - name: Magic "Learn to Play" Guide
+    - name: Full-art Reusable Storage Box
+    sealed:
+    - count: 1
+      name: Theros Booster Pack
+      set: ths
+    - count: 1
+      name: Born of the Gods Booster Pack
+      set: bng
+    - count: 1
+      name: Dragons Maze Booster Pack
+      set: dgm
+    - count: 1
+      name: 2015 Core Set Booster Pack
+      set: m15
+    variable:
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Green White Convoke
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Green White Convoke
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Green White Convoke
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Green Graveyard
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Green White Convoke
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Green White Convoke
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Green White Convoke
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Devotion
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Green White Convoke
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Green White Convoke
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Black Red Minotaurs
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Green White Convoke
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Green Graveyard
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Green White Convoke
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Black Red Minotaurs
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Artifacts
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Green Enters the Battlefield
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Blue Red Counterburn
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Red Artifacts
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Green White Convoke
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Blue Red Counterburn
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Green White Convoke
+        set: m15
+      - name: Red Green Monstrosity
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Green White Convoke
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+    - card_count: 40
+      deck:
+      - name: Red Green Monstrosity
+        set: m15
+      - name: Red White Auras
+        set: m15
+      - name: White Black Life Gain
+        set: m15
+      - name: White Blue Bestow
+        set: m15
+  2015 Core Set Fat Pack:
+    other:
+    - name: M15 Player's Guide and Visual Encyclopedia
+    - name: M15 Fat Pack 80-card Land Bundle
+    - name: Special Edition Life Counter
+    - name: Two Deck Boxes
+    sealed:
+    - count: 9
+      name: 2015 Core Set Booster Pack
+      set: m15
+  2015 Core Set Intro Pack Display:
+    sealed:
+    - count: 2
+      name: 2015 Core Set Intro Pack Flames of the Dragon
+      set: m15
+    - count: 2
+      name: 2015 Core Set Intro Pack Hit the Ground Running
+      set: m15
+    - count: 2
+      name: 2015 Core Set Intro Pack Infernal Intervention
+      set: m15
+    - count: 2
+      name: 2015 Core Set Intro Pack Price of Glory
+      set: m15
+    - count: 2
+      name: 2015 Core Set Intro Pack Will of the Masses
+      set: m15
+  2015 Core Set Intro Pack Flames of the Dragon:
+    card_count: 60
+    deck:
+    - name: Flames Of The Dragon
+      set: m15
+    other:
+    - name: Strategy and Mechanics Guide
+    - name: Learn to Play Insert
+    sealed:
+    - count: 2
+      name: 2015 Core Set Booster Pack
+      set: m15
+  2015 Core Set Intro Pack Hit the Ground Running:
+    card_count: 60
+    deck:
+    - name: Hit The Ground Running
+      set: m15
+    other:
+    - name: Strategy and Mechanics Guide
+    - name: Learn to Play Insert
+    sealed:
+    - count: 2
+      name: 2015 Core Set Booster Pack
+      set: m15
+  2015 Core Set Intro Pack Infernal Intervention:
+    card_count: 60
+    deck:
+    - name: Infernal Intervention
+      set: m15
+    other:
+    - name: Strategy and Mechanics Guide
+    - name: Learn to Play Insert
+    sealed:
+    - count: 2
+      name: 2015 Core Set Booster Pack
+      set: m15
+  2015 Core Set Intro Pack Price of Glory:
+    card_count: 60
+    deck:
+    - name: Price Of Glory
+      set: m15
+    other:
+    - name: Strategy and Mechanics Guide
+    - name: Learn to Play Insert
+    sealed:
+    - count: 2
+      name: 2015 Core Set Booster Pack
+      set: m15
+  2015 Core Set Intro Pack Set of 5:
+    sealed:
+    - count: 1
+      name: 2015 Core Set Intro Pack Flames of the Dragon
+      set: m15
+    - count: 1
+      name: 2015 Core Set Intro Pack Hit the Ground Running
+      set: m15
+    - count: 1
+      name: 2015 Core Set Intro Pack Infernal Intervention
+      set: m15
+    - count: 1
+      name: 2015 Core Set Intro Pack Price of Glory
+      set: m15
+    - count: 1
+      name: 2015 Core Set Intro Pack Will of the Masses
+      set: m15
+  2015 Core Set Intro Pack Will of the Masses:
+    card_count: 60
+    deck:
+    - name: Will Of The Masses
+      set: m15
+    other:
+    - name: Strategy and Mechanics Guide
+    - name: Learn to Play Insert
+    sealed:
+    - count: 2
+      name: 2015 Core Set Booster Pack
+      set: m15
   2015 Core Set Prerelease Hunt with Ambition: []
   2015 Core Set Prerelease Hunt with Ferocity: []
   2015 Core Set Prerelease Hunt with Guile: []
   2015 Core Set Prerelease Hunt with Strength: []
   2015 Core Set Prerelease Hunt with Valor: []
-  2015 Core Set Prerelease Pack Set of 5: []
+  2015 Core Set Prerelease Pack Set of 5:
+    sealed:
+    - count: 1
+      name: 2015 Core Set Prerelease Hunt with Ambition
+      set: m15
+    - count: 1
+      name: 2015 Core Set Prerelease Hunt with Ferocity
+      set: m15
+    - count: 1
+      name: 2015 Core Set Prerelease Hunt with Guile
+      set: m15
+    - count: 1
+      name: 2015 Core Set Prerelease Hunt with Strength
+      set: m15
+    - count: 1
+      name: 2015 Core Set Prerelease Hunt with Valor
+      set: m15
+  2015 Core Set Sample Deck Ajani Goldmane:
+    card_count: 30
+    deck:
+    - name: White Deck
+      set: m15
+  2015 Core Set Sample Deck Chandra Nalaar:
+    card_count: 30
+    deck:
+    - name: Red Deck
+      set: m15
+  2015 Core Set Sample Deck Jace Beleren:
+    card_count: 30
+    deck:
+    - name: Blue Deck
+      set: m15
+  2015 Core Set Sample Deck Liliana Vess:
+    card_count: 30
+    deck:
+    - name: Black Deck
+      set: m15
+  2015 Core Set Sample Deck Nissa Revane:
+    card_count: 30
+    deck:
+    - name: Green Deck
+      set: m15

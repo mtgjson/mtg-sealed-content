@@ -11,6 +11,7 @@ products:
       name: Dominaria Remastered Collector Booster Box
       set: dmr
   Dominaria Remastered Collector Booster Pack:
+    card_count: 15
     pack:
     - code: collector
       set: dmr
@@ -25,6 +26,7 @@ products:
       name: Dominaria Remastered Draft Booster Box
       set: dmr
   Dominaria Remastered Draft Booster Pack:
+    card_count: 15
     pack:
     - code: default
       set: dmr

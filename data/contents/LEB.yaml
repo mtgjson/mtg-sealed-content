@@ -6,10 +6,12 @@ products:
       name: Beta Booster Pack
       set: leb
   Beta Booster Pack:
+    card_count: 15
     pack:
     - code: default
       set: leb
   Beta Starter Deck:
+    card_count: 60
     pack:
     - code: starter
       set: leb
