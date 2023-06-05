@@ -1,11 +1,11 @@
 code: ath
 products:
-  Anthologies: []
-  Anthologies Box Set:
+  Anthologies:
+    card_count: 120
     deck:
-    - name: Black - Red
+    - name: Dark Alliance
       set: ath
-    - name: Green - White
+    - name: Defenders of the Cause
       set: ath
     other:
     - name: Magic Anthologies Booklet
