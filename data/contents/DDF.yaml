@@ -1,3 +1,9 @@
 code: ddf
 products:
-  Duel Deck Elspeth vs Tezzeret: []
+  Duel Deck Elspeth vs Tezzeret:
+    card_count: 120
+    deck:
+    - name: Elspeth
+      set: ddf
+    - name: Tezzeret
+      set: ddf

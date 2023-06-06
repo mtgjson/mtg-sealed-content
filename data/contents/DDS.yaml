@@ -1,3 +1,9 @@
 code: dds
 products:
-  Duel Deck Mind vs Might: []
+  Duel Deck Mind vs Might:
+    card_count: 120
+    deck:
+    - name: Mind
+      set: dds
+    - name: Might
+      set: dds

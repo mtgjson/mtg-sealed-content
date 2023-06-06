@@ -1,3 +1,9 @@
 code: dde
 products:
-  Duel Deck Phyrexia vs the Coalition: []
+  Duel Deck Phyrexia vs the Coalition:
+    card_count: 120
+    deck:
+    - name: Phyrexia
+      set: dde
+    - name: The Coalition
+      set: dde

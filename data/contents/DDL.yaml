@@ -1,3 +1,9 @@
 code: ddl
 products:
-  Duel Deck Heroes vs Monsters: []
+  Duel Deck Heroes vs Monsters:
+    card_count: 120
+    deck:
+    - name: Heroes
+      set: ddl
+    - name: Monsters
+      set: ddl

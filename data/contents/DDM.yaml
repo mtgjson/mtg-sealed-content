@@ -1,3 +1,9 @@
 code: ddm
 products:
-  Duel Deck Jace vs Vraska: []
+  Duel Deck Jace vs Vraska:
+    card_count: 120
+    deck:
+    - name: Jace
+      set: ddm
+    - name: Vraska
+      set: ddm
