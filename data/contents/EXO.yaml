@@ -6,23 +6,28 @@ products:
       name: Exodus Booster Pack
       set: exo
   Exodus Booster Pack:
+    card_count: 15
     pack:
     - code: default
       set: exo
   Exodus Theme Deck Display: []
   Exodus Theme Deck Dominator:
+    card_count: 60
     deck:
     - name: Dominator - Basic Deck
       set: exo
   Exodus Theme Deck Groundbreaker:
+    card_count: 60
     deck:
     - name: Groundbreaker - Basic Deck
       set: exo
   Exodus Theme Deck White Heat:
+    card_count: 60
     deck:
     - name: White Heat - Basic Deck
       set: exo
   Exodus Theme Deck Widowmaker:
+    card_count: 60
     deck:
     - name: Widowmaker - Basic Deck
       set: exo

@@ -6,10 +6,12 @@ products:
       name: Classic Sixth Edition Booster Pack
       set: 6ed
   Classic Sixth Edition Booster Pack:
+    card_count: 15
     pack:
     - code: default
       set: 6ed
   Classic Sixth Edition Tournament Pack:
+    card_count: 75
     pack:
     - code: tournament
       set: 6ed

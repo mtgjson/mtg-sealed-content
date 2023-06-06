@@ -6,10 +6,12 @@ products:
       name: Alpha Booster Pack
       set: lea
   Alpha Booster Pack:
+    card_count: 15
     pack:
     - code: default
       set: lea
   Alpha Starter Deck:
+    card_count: 60
     pack:
     - code: starter
       set: lea

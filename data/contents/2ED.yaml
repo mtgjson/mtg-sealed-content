@@ -6,10 +6,12 @@ products:
       name: Unlimited Booster Pack
       set: 2ed
   Unlimited Booster Pack:
+    card_count: 15
     pack:
     - code: default
       set: 2ed
   Unlimited Starter Deck:
+    card_count: 60
     other:
     - name: Unlimited Edition Starter Deck Rulebook
     pack:

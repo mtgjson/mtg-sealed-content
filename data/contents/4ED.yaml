@@ -6,6 +6,7 @@ products:
       name: Fourth Edition Booster Pack
       set: 4ed
   Fourth Edition Booster Pack:
+    card_count: 15
     pack:
     - code: default
       set: 4ed
@@ -19,6 +20,7 @@ products:
       name: Fourth Edition Starter Deck
       set: 4ed
   Fourth Edition Starter Deck:
+    card_count: 60
     other:
     - name: Fourth Edition Starter Deck Rule Book
     pack:

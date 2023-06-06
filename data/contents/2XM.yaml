@@ -20,10 +20,12 @@ products:
       name: Double Masters Draft Booster Box
       set: 2xm
   Double Masters Draft Booster Pack:
+    card_count: 16
     pack:
     - code: default
       set: 2xm
   Double Masters VIP Edition Booster Pack:
+    card_count: 35
     pack:
     - code: vip
       set: 2xm
