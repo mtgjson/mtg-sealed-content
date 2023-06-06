@@ -1,3 +1,9 @@
 code: ddh
 products:
-  Duel Deck Ajani vs Nicol Bolas: []
+  Duel Deck Ajani vs Nicol Bolas:
+    card_count: 120
+    deck:
+    - name: Ajani Goldmane
+      set: ddh
+    - name: Nicol Bolas
+      set: ddh

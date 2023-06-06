@@ -1,3 +1,9 @@
 code: ddc
 products:
-  Duel Deck Divine vs Demonic: []
+  Duel Deck Divine vs Demonic:
+    card_count: 120
+    deck:
+    - name: Divine
+      set: ddc
+    - name: Demonic
+      set: ddc

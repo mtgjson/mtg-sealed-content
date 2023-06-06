@@ -2,20 +2,133 @@ code: dtk
 products:
   Dragons of Tarkir - Complete FOIL Set (Factory Sealed): []
   Dragons of Tarkir - Complete Set (Factory Sealed): []
-  Dragons of Tarkir Booster Box: []
-  Dragons of Tarkir Booster Box Case 6 boxes: []
-  Dragons of Tarkir Booster Pack: []
-  Dragons of Tarkir Event Deck: []
-  Dragons of Tarkir Fat Pack: []
-  Dragons of Tarkir Intro Pack Cruel Plots: []
-  Dragons of Tarkir Intro Pack Enlightened Mastery: []
-  Dragons of Tarkir Intro Pack Furious Forces: []
-  Dragons of Tarkir Intro Pack Massed Ranks: []
-  Dragons of Tarkir Intro Pack Relentless Rush: []
-  Dragons of Tarkir Intro Pack Set of 5: []
+  Dragons of Tarkir Booster Box:
+    sealed:
+    - count: 36
+      name: Dragons of Tarkir Booster Pack
+      set: dtk
+  Dragons of Tarkir Booster Box Case 6 boxes:
+    sealed:
+    - count: 6
+      name: Dragons of Tarkir Booster Box
+      set: dtk
+  Dragons of Tarkir Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: dtk
+  Dragons of Tarkir Event Deck:
+    card_count: 75
+    deck:
+    - name: Landslide Charge
+      set: dtk
+  Dragons of Tarkir Fat Pack:
+    other:
+    - name: Dragons of Tarkir 80-card Basic Land Bundle
+    - name: Dragons of Tarkir Special Edition Spindown
+    - name: Full Art Card Box
+    - name: Two Deck Boxes
+    - name: Player's Guide with Visual Encyclopedia
+    sealed:
+    - count: 9
+      name: Dragons of Tarkir Booster Pack
+      set: dtk
+  Dragons of Tarkir Intro Pack Cruel Plots:
+    card_count: 60
+    deck:
+    - name: Cruel Plots
+      set: dtk
+    other:
+    - name: Strategy and Mechanics Guide
+    - name: Learn to Play Magic Insert
+    sealed:
+    - count: 2
+      name: Dragons of Tarkir Booster Pack
+      set: dtk
+  Dragons of Tarkir Intro Pack Enlightened Mastery:
+    card_count: 60
+    deck:
+    - name: Enlightened Mastery
+      set: dtk
+    other:
+    - name: Strategy and Mechanics Guide
+    - name: Learn to Play Magic Insert
+    sealed:
+    - count: 2
+      name: Dragons of Tarkir Booster Pack
+      set: dtk
+  Dragons of Tarkir Intro Pack Furious Forces:
+    card_count: 60
+    deck:
+    - name: Furious Forces
+      set: dtk
+    other:
+    - name: Strategy and Mechanics Guide
+    - name: Learn to Play Magic Insert
+    sealed:
+    - count: 2
+      name: Dragons of Tarkir Booster Pack
+      set: dtk
+  Dragons of Tarkir Intro Pack Massed Ranks:
+    card_count: 60
+    deck:
+    - name: Massed Ranks
+      set: dtk
+    other:
+    - name: Strategy and Mechanics Guide
+    - name: Learn to Play Magic Insert
+    sealed:
+    - count: 2
+      name: Dragons of Tarkir Booster Pack
+      set: dtk
+  Dragons of Tarkir Intro Pack Relentless Rush:
+    card_count: 60
+    deck:
+    - name: Relentless Rush
+      set: dtk
+    other:
+    - name: Strategy and Mechanics Guide
+    - name: Learn to Play Magic Insert
+    sealed:
+    - count: 2
+      name: Dragons of Tarkir Booster Pack
+      set: dtk
+  Dragons of Tarkir Intro Pack Set of 5:
+    sealed:
+    - count: 1
+      name: Dragons of Tarkir Intro Pack Cruel Plots
+      set: dtk
+    - count: 1
+      name: Dragons of Tarkir Intro Pack Enlightened Mastery
+      set: dtk
+    - count: 1
+      name: Dragons of Tarkir Intro Pack Furious Forces
+      set: dtk
+    - count: 1
+      name: Dragons of Tarkir Intro Pack Massed Ranks
+      set: dtk
+    - count: 1
+      name: Dragons of Tarkir Intro Pack Relentless Rush
+      set: dtk
   Dragons of Tarkir Prerelease Kit Atarka: []
   Dragons of Tarkir Prerelease Kit Dromoka: []
   Dragons of Tarkir Prerelease Kit Kolaghan: []
   Dragons of Tarkir Prerelease Kit Ojutai: []
-  Dragons of Tarkir Prerelease Kit Set of 5: []
+  Dragons of Tarkir Prerelease Kit Set of 5:
+    sealed:
+    - count: 1
+      name: Dragons of Tarkir Prerelease Kit Atarka
+      set: dtk
+    - count: 1
+      name: Dragons of Tarkir Prerelease Kit Dromoka
+      set: dtk
+    - count: 1
+      name: Dragons of Tarkir Prerelease Kit Kolaghan
+      set: dtk
+    - count: 1
+      name: Dragons of Tarkir Prerelease Kit Ojutai
+      set: dtk
+    - count: 1
+      name: Dragons of Tarkir Prerelease Kit Silumgar
+      set: dtk
   Dragons of Tarkir Prerelease Kit Silumgar: []

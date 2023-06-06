@@ -1,3 +1,9 @@
 code: ddj
 products:
-  Duel Deck Izzet vs Golgari: []
+  Duel Deck Izzet vs Golgari:
+    card_count: 120
+    deck:
+    - name: Izzet
+      set: ddj
+    - name: Golgari
+      set: ddj

@@ -8,27 +8,33 @@ products:
       name: Seventh Edition Booster Pack
       set: 7ed
   Seventh Edition Booster Pack:
+    card_count: 15
     pack:
     - code: default
       set: 7ed
   Seventh Edition Theme Deck Armada:
+    card_count: 40
     deck:
     - name: Armada
       set: 7ed
   Seventh Edition Theme Deck Bomber:
+    card_count: 40
     deck:
     - name: Bomber
       set: 7ed
   Seventh Edition Theme Deck Decay:
+    card_count: 40
     deck:
     - name: Decay
       set: 7ed
   Seventh Edition Theme Deck Display: []
   Seventh Edition Theme Deck Infestation:
+    card_count: 40
     deck:
     - name: Infestation
       set: 7ed
   Seventh Edition Theme Deck Way Wild:
+    card_count: 40
     deck:
     - name: Way Wild
       set: 7ed

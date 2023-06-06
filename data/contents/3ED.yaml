@@ -6,10 +6,12 @@ products:
       name: Revised Edition Booster Pack
       set: 3ed
   Revised Edition Booster Pack:
+    card_count: 15
     pack:
     - code: default
       set: 3ed
   Revised Edition Starter Deck:
+    card_count: 60
     other:
     - name: Revised Edition Starter Deck Rulebook
     pack:

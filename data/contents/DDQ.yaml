@@ -1,3 +1,9 @@
 code: ddq
 products:
-  Duel Deck Blessed vs Cursed: []
+  Duel Deck Blessed vs Cursed:
+    card_count: 120
+    deck:
+    - name: Blessed
+      set: ddq
+    - name: Cursed
+      set: ddq

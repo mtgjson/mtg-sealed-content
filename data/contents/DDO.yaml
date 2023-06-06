@@ -1,3 +1,9 @@
 code: ddo
 products:
-  Duel Deck Elspeth vs Kiora: []
+  Duel Deck Elspeth vs Kiora:
+    card_count: 120
+    deck:
+    - name: Elspeth
+      set: ddo
+    - name: Kiora
+      set: ddo

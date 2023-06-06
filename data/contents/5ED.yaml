@@ -6,10 +6,12 @@ products:
       name: Fifth Edition Booster Pack
       set: 5ed
   Fifth Edition Booster Pack:
+    card_count: 15
     pack:
     - code: default
       set: 5ed
   Fifth Edition Starter Deck:
+    card_count: 60
     other:
     - name: Fifth Edition Starter Rule Book
     pack:

@@ -1,3 +1,9 @@
 code: ddn
 products:
-  Duel Deck Speed vs Cunning: []
+  Duel Deck Speed vs Cunning:
+    card_count: 120
+    deck:
+    - name: Speed
+      set: ddn
+    - name: Cunning
+      set: ddj
