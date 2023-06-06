@@ -28,7 +28,73 @@ products:
     - count: 10
       name: Kaladesh Booster Pack
       set: kld
-  Kaladesh Deck Builders Toolkit: []
+  Kaladesh Deck Builders Toolkit:
+    card_count: 185
+    deck:
+    - name: Deck Builder's Toolkit Fixed Content
+      set: kld
+    other:
+    - name: Kaladesh Deck Builder's Guide
+    - name: Magic "Learn to Play" Guide
+    - name: Full-art Reusable Storage Box
+    sealed:
+    - count: 2
+      name: Kaladesh Booster Pack
+      set: kld
+    - count: 1
+      name: Innistrad Booster Pack
+      set: isd
+    - count: 1
+      name: Eldritch Moon Booster Pack
+      set: emn
+    variable:
+    - card_count: 10
+      deck:
+      - name: Black and Red Madness
+        set: kld
+    - card_count: 10
+      deck:
+      - name: White and Black Spirits
+        set: kld
+    - card_count: 10
+      deck:
+      - name: Blue and Green
+        set: kld
+    - card_count: 10
+      deck:
+      - name: Blue and White Flying
+        set: kld
+    - card_count: 10
+      deck:
+      - name: Red and White
+        set: kld
+    - card_count: 10
+      deck:
+      - name: Red and Colorless Artifacts
+        set: kld
+    - card_count: 10
+      deck:
+      - name: Blue and Black Zombies
+        set: kld
+    - card_count: 10
+      deck:
+      - name: Green and White Humans
+        set: kld
+    - card_count: 10
+      deck:
+      - name: Blue and Colorless Artifacts
+        set: kld
+    - card_count: 10
+      deck:
+      - name: Black and Green Delirium
+        set: kld
+    - card_count: 10
+      deck:
+      - name: Red and Green Wolves
+        set: kld
+    variable_mode:
+      count: 4
+      replacement: false
   Kaladesh Gift Box:
     card:
     - foil: true
@@ -90,4 +156,32 @@ products:
     - count: 6
       name: Kaladesh Booster Pack
       set: kld
-  Kaladesh Two Player Booster Battle Pack: []
+  Kaladesh Two Player Booster Battle Pack:
+    sealed:
+    - count: 2
+      name: Kaladesh Booster Pack
+      set: kld
+    variable:
+    - card_count: 30
+      deck:
+      - name: White Deck
+        set: w16
+    - card_count: 30
+      deck:
+      - name: Blue Deck
+        set: w16
+    - card_count: 30
+      deck:
+      - name: Black Deck
+        set: w16
+    - card_count: 30
+      deck:
+      - name: Red Deck
+        set: w16
+    - card_count: 30
+      deck:
+      - name: Green Deck
+        set: w16
+    variable_mode:
+      count: 2
+      replacement: false

@@ -6,6 +6,7 @@ from pathlib import Path
 import logging
 import logging.handlers as handlers
 import os
+import itertools as itr
 from copy import copy
 
 def get_uuid_sealed(product):
@@ -168,6 +169,39 @@ def validate_contents(contents, route, logger):
             return False
     return True
 
+def iterative_sum(list_of_dicts, logger=None):
+    all_keys = set().union(*[set(k.keys()) for k in list_of_dicts])
+    if "variable" in all_keys:
+        list_of_dicts = [parse_variable(d) for d in list_of_dicts]
+    if logger:
+        logger.info(str(list_of_dicts))
+        logger.info(str(all_keys))
+    temp_return = {}
+    for k in all_keys:
+        for d in list_of_dicts:
+            if k in d:
+                if k not in temp_return:
+                    temp_return[k] = copy(d[k])
+                else:
+                    temp_return[k] += d[k]
+    return temp_return
+
+def parse_variable(contents, logger=None):
+    if "variable_mode" not in contents:
+        return contents
+    options = contents.pop("variable_mode")
+    temp_variable = []
+    if logger:
+        logger.info(str(contents))
+    if options.get("replacement", False):
+        for combo in itr.combinations_with_replacement(contents["variable"], options.get("count", 1)):
+            temp_variable.append(iterative_sum(combo, logger))
+    else:
+        for combo in itr.combinations(contents["variable"], options.get("count", 1)):
+            temp_variable.append(iterative_sum(combo, logger))
+    contents["variable"] = temp_variable
+    return contents
+
 logfile_name = "output.log"
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
@@ -188,26 +222,28 @@ new_files = Path("data/products").glob("*.yaml")
 products_contents = {}
 
 for file in contents_files:
-	with open(file, "rb") as f:
-		data = yaml.safe_load(f)
-	if not data["products"]:
-	    logger.error("Set %s has no products", data["code"])
-	    os.remove(file)
-	for product, contents in data["products"].items():
-		if validate_contents(contents, data["code"] + "-" + product, logger):
-			if data["code"] not in products_contents:
-				products_contents[data["code"]] = {}
-			products_contents[data["code"]][product] = contents
+    with open(file, "rb") as f:
+        data = yaml.safe_load(f)
+    if not data["products"]:
+        logger.error("Set %s has no products", data["code"])
+        os.remove(file)
+    for product, contents in data["products"].items():
+        if "variable" in contents:
+            contents = parse_variable(contents)
+        if validate_contents(contents, data["code"] + "-" + product, logger):
+            if data["code"] not in products_contents:
+                products_contents[data["code"]] = {}
+            products_contents[data["code"]][product] = contents
 
 with open("outputs/contents.json", "w") as outfile:
-	json.dump(products_contents, outfile)
+    json.dump(products_contents, outfile)
 
 products_new = {}
 
 for file in new_files:
-	with open(file, "rb") as f:
-		data = yaml.safe_load(f)
-	products_new[data["code"]] = data["products"]
+    with open(file, "rb") as f:
+        data = yaml.safe_load(f)
+    products_new[data["code"]] = data["products"]
 
 with open("outputs/products.json", "w") as outfile:
-	json.dump(products_new, outfile)
+    json.dump(products_new, outfile)
