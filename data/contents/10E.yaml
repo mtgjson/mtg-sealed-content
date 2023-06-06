@@ -2,12 +2,64 @@ code: 10e
 products:
   Tenth Edition - Complete FOIL Set (Factory Sealed): []
   Tenth Edition - Complete Set (Factory Sealed): []
-  Tenth Edition Booster Box: []
-  Tenth Edition Booster Pack: []
-  Tenth Edition Fat Pack: []
-  Tenth Edition Theme Deck Arcaniss Guile: []
-  Tenth Edition Theme Deck Cho Mannos Resolve: []
-  Tenth Edition Theme Deck Display: []
-  Tenth Edition Theme Deck Evincars Tyranny: []
-  Tenth Edition Theme Deck Kamahls Temper: []
-  Tenth Edition Theme Deck Molimos Might: []
+  Tenth Edition Booster Box:
+    sealed:
+    - count: 36
+      name: Tenth Edition Booster Pack
+      set: 10e
+  Tenth Edition Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: 10e
+  Tenth Edition Fat Pack:
+    other:
+    - name: Tenth Edition 40-card Basic Land Bundle
+    - name: Tenth Edition Special Life Counter
+    - name: Pro-tour player highlight card
+    sealed:
+    - count: 6
+      name: Tenth Edition Booster Pack
+      set: 10e
+  Tenth Edition Theme Deck Arcaniss Guile:
+    card_count: 40
+    deck:
+    - name: Arcanis's Guile
+      set: 10e
+  Tenth Edition Theme Deck Cho Mannos Resolve:
+    card_count: 40
+    deck:
+    - name: Cho-Manno's Resolve
+      set: 10e
+  Tenth Edition Theme Deck Display:
+    sealed:
+    - count: 3
+      name: Tenth Edition Theme Deck Arcaniss Guile
+      set: 10e
+    - count: 3
+      name: Tenth Edition Theme Deck Cho Mannos Resolve
+      set: 10e
+    - count: 3
+      name: Tenth Edition Theme Deck Evincars Tyranny
+      set: 10e
+    - count: 3
+      name: Tenth Edition Theme Deck Kamahls Temper
+      set: 10e
+    - count: 3
+      name: Tenth Edition Theme Deck Molimos Might
+      set: 10e
+  Tenth Edition Theme Deck Evincars Tyranny:
+    card_count: 40
+    deck:
+    - name: Evincar's Tyranny
+      set: 10e
+  Tenth Edition Theme Deck Kamahls Temper:
+    card_count: 40
+    deck:
+    - name: Kamahl's Temper
+      set: 10e
+  Tenth Edition Theme Deck Molimos Might:
+    card_count: 40
+    deck:
+    - name: Molimo's Might
+      set: 10e

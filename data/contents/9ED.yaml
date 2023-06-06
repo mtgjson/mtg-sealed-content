@@ -2,14 +2,98 @@ code: 9ed
 products:
   Ninth Edition - Complete FOIL Set (Factory Sealed): []
   Ninth Edition - Complete Set (Factory Sealed): []
-  Ninth Edition Booster Box: []
-  Ninth Edition Booster Pack: []
-  Ninth Edition Box Two Player Starter: []
-  Ninth Edition Fat Pack: []
-  Ninth Edition Theme Deck Army of Justice: []
-  Ninth Edition Theme Deck Custom Creatures: []
-  Ninth Edition Theme Deck Dead Again: []
-  Ninth Edition Theme Deck Display: []
-  Ninth Edition Theme Deck Lofty Heights: []
-  Ninth Edition Theme Deck World Aflame: []
-  Ninth Edition Two Player Starter Display: []
+  Ninth Edition Booster Box:
+    sealed:
+    - count: 36
+      name: Ninth Edition Booster Pack
+      set: 9ed
+  Ninth Edition Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: 9ed
+  Ninth Edition Box Two Player Starter:
+    card:
+    - foil: true
+      name: Serra Angel
+      number: "43\u2605"
+      set: 9ed
+    card_count: 80
+    deck:
+    - name: Gold Deck
+      set: 9ed
+    - name: Gold Pack
+      set: 9ed
+    - name: Silver Deck
+      set: 9ed
+    - name: Silver Pack
+      set: 9ed
+    other:
+    - name: Two Play Guides
+    - name: Magic Rule Book
+    - name: Two Playmats
+    - name: CD-ROM with Tutorials
+  Ninth Edition Demo Booster:
+    card_count: 22
+    deck:
+    - name: Demo Booster Player 1
+      set: 9ed
+    - name: Demo Booster Player 2
+      set: 9ed
+  Ninth Edition Fat Pack:
+    other:
+    - name: Ninth Edition 40-card Basic Land Bundle
+    - name: Ninth Edition Special Life Counter
+    - name: Two Card Boxes
+    - name: Promotional Oversized Card
+    sealed:
+    - count: 6
+      name: Ninth Edition Booster Pack
+      set: 9ed
+  Ninth Edition Theme Deck Army of Justice:
+    card_count: 40
+    deck:
+    - name: Army of Justice
+      set: 9ed
+  Ninth Edition Theme Deck Custom Creatures:
+    card_count: 40
+    deck:
+    - name: Custom Creatures
+      set: 9ed
+  Ninth Edition Theme Deck Dead Again:
+    card_count: 40
+    deck:
+    - name: Dead Again
+      set: 9ed
+  Ninth Edition Theme Deck Display:
+    sealed:
+    - count: 3
+      name: Ninth Edition Theme Deck Army of Justice
+      set: 9ed
+    - count: 3
+      name: Ninth Edition Theme Deck Custom Creatures
+      set: 9ed
+    - count: 3
+      name: Ninth Edition Theme Deck Dead Again
+      set: 9ed
+    - count: 3
+      name: Ninth Edition Theme Deck Lofty Heights
+      set: 9ed
+    - count: 3
+      name: Ninth Edition Theme Deck World Aflame
+      set: 9ed
+  Ninth Edition Theme Deck Lofty Heights:
+    card_count: 40
+    deck:
+    - name: Lofty Heights
+      set: 9ed
+  Ninth Edition Theme Deck World Aflame:
+    card_count: 40
+    deck:
+    - name: World Aflame
+      set: 9ed
+  Ninth Edition Two Player Starter Display:
+    sealed:
+    - count: 6
+      name: Ninth Edition Box Two Player Starter
+      set: 9ed
