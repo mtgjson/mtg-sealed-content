@@ -1,8 +1,44 @@
 code: c16
 products:
-  Commander 2016 Deck Breed Lethality GWUB: []
-  Commander 2016 Deck Entropic Uprising UBRG: []
-  Commander 2016 Deck Invent Superiority WUBR: []
-  Commander 2016 Deck Open Hostility BRGW: []
-  Commander 2016 Deck Stalwart Unity RGWU: []
-  Commander 2016 Set of 5: []
+  Commander 2016 Deck Breed Lethality GWUB:
+    card_count: 100
+    deck:
+    - name: Breed Lethality
+      set: c16
+  Commander 2016 Deck Entropic Uprising UBRG:
+    card_count: 100
+    deck:
+    - name: Entropic Uprising
+      set: c16
+  Commander 2016 Deck Invent Superiority WUBR:
+    card_count: 100
+    deck:
+    - name: Invent Superiority
+      set: c16
+  Commander 2016 Deck Open Hostility BRGW:
+    card_count: 100
+    deck:
+    - name: Open Hostility
+      set: c16
+  Commander 2016 Deck Stalwart Unity RGWU:
+    card_count: 100
+    deck:
+    - name: Stalwart Unity
+      set: c16
+  Commander 2016 Set of 5:
+    sealed:
+    - count: 1
+      name: Commander 2016 Deck Breed Lethality GWUB
+      set: c16
+    - count: 1
+      name: Commander 2016 Deck Entropic Uprising UBRG
+      set: c16
+    - count: 1
+      name: Commander 2016 Deck Invent Superiority WUBR
+      set: c16
+    - count: 1
+      name: Commander 2016 Deck Open Hostility BRGW
+      set: c16
+    - count: 1
+      name: Commander 2016 Deck Stalwart Unity RGWU
+      set: c16

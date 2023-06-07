@@ -1,8 +1,44 @@
 code: c13
 products:
-  Commander 2013 Eternal Bargain Deck: []
-  Commander 2013 Evasive Maneuvers Deck: []
-  Commander 2013 Mind Seize Deck: []
-  Commander 2013 Nature of the Beast Deck: []
-  Commander 2013 Power Hungry Deck: []
-  Commander 2013 Set of 5: []
+  Commander 2013 Eternal Bargain Deck:
+    card_count: 100
+    deck:
+    - name: Eternal Bargain
+      set: c13
+  Commander 2013 Evasive Maneuvers Deck:
+    card_count: 100
+    deck:
+    - name: Evasive Maneuvers
+      set: c13
+  Commander 2013 Mind Seize Deck:
+    card_count: 100
+    deck:
+    - name: Mind Seize
+      set: c13
+  Commander 2013 Nature of the Beast Deck:
+    card_count: 100
+    deck:
+    - name: Nature of the Beast
+      set: c13
+  Commander 2013 Power Hungry Deck:
+    card_count: 100
+    deck:
+    - name: Power Hungry
+      set: c13
+  Commander 2013 Set of 5:
+    sealed:
+    - count: 1
+      name: Commander 2013 Eternal Bargain Deck
+      set: c13
+    - count: 1
+      name: Commander 2013 Evasive Maneuvers Deck
+      set: c13
+    - count: 1
+      name: Commander 2013 Mind Seize Deck
+      set: c13
+    - count: 1
+      name: Commander 2013 Nature of the Beast Deck
+      set: c13
+    - count: 1
+      name: Commander 2013 Power Hungry Deck
+      set: c13

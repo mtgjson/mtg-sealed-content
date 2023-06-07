@@ -1,27 +1,140 @@
 code: stx
 products:
   'Pure Bulk: Unsorted Commons Strixhaven: School of Mages (500ct)': []
-  Strixhaven School of Mages Bundle: []
-  Strixhaven School of Mages Collector Booster Box: []
-  Strixhaven School of Mages Collector Booster Hanger Pack: []
-  Strixhaven School of Mages Collector Booster Pack: []
-  Strixhaven School of Mages Draft Booster Box: []
-  Strixhaven School of Mages Draft Booster Box Case: []
-  Strixhaven School of Mages Draft Booster Pack: []
+  Strixhaven School of Mages Bundle:
+    card:
+    - foil: true
+      name: Archmage Emeritus
+      number: 377
+      set: stx
+    other:
+    - name: Strixhaven 40-card Basic Land Bundle
+    - name: Strixhaven Premium Spindown
+    - name: Strixhaven Card Storage Box
+    sealed:
+    - count: 10
+      name: Strixhaven School of Mages Draft Booster Pack
+      set: stx
+  Strixhaven School of Mages Collector Booster Box:
+    sealed:
+    - count: 12
+      name: Strixhaven School of Mages Collector Booster Pack
+      set: stx
+  Strixhaven School of Mages Collector Booster Hanger Pack:
+    sealed:
+    - count: 1
+      name: Strixhaven School of Mages Collector Booster Pack
+      set: stx
+  Strixhaven School of Mages Collector Booster Pack:
+    card_count: 15
+    pack:
+    - code: collector
+      set: stx
+  Strixhaven School of Mages Draft Booster Box:
+    sealed:
+    - count: 36
+      name: Strixhaven School of Mages Draft Booster Pack
+      set: stx
+  Strixhaven School of Mages Draft Booster Box Case:
+    sealed:
+    - count: 6
+      name: Strixhaven School of Mages Draft Booster Box
+      set: stx
+  Strixhaven School of Mages Draft Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: stx
   Strixhaven School of Mages Prerelease Pack Lorehold: []
   Strixhaven School of Mages Prerelease Pack Prismari: []
   Strixhaven School of Mages Prerelease Pack Quandrix: []
-  Strixhaven School of Mages Prerelease Pack Set of 5: []
+  Strixhaven School of Mages Prerelease Pack Set of 5:
+    sealed:
+    - count: 1
+      name: Strixhaven School of Mages Prerelease Pack Lorehold
+      set: stx
+    - count: 1
+      name: Strixhaven School of Mages Prerelease Pack Prismari
+      set: stx
+    - count: 1
+      name: Strixhaven School of Mages Prerelease Pack Quandrix
+      set: stx
+    - count: 1
+      name: Strixhaven School of Mages Prerelease Pack Silverquill
+      set: stx
+    - count: 1
+      name: Strixhaven School of Mages Prerelease Pack Witherbloom
+      set: stx
   Strixhaven School of Mages Prerelease Pack Silverquill: []
   Strixhaven School of Mages Prerelease Pack Witherbloom: []
-  Strixhaven School of Mages Set Booster Box: []
-  Strixhaven School of Mages Set Booster Pack: []
-  Strixhaven School of Mages Theme Booster Box: []
-  Strixhaven School of Mages Theme Booster Pack Lorehold: []
-  Strixhaven School of Mages Theme Booster Pack Prismari: []
-  Strixhaven School of Mages Theme Booster Pack Quandrix: []
-  Strixhaven School of Mages Theme Booster Pack Silverquill: []
-  Strixhaven School of Mages Theme Booster Pack Witherbloom: []
-  Strixhaven School of Mages Theme Booster Set of 5: []
+  Strixhaven School of Mages Set Booster Box:
+    sealed:
+    - count: 30
+      name: Strixhaven School of Mages Set Booster Pack
+      set: stx
+  Strixhaven School of Mages Set Booster Pack:
+    card_count: 12
+    pack:
+    - code: set
+      set: stx
+  Strixhaven School of Mages Theme Booster Box:
+    sealed:
+    - count: 2
+      name: Strixhaven School of Mages Theme Booster Pack Lorehold
+      set: stx
+    - count: 2
+      name: Strixhaven School of Mages Theme Booster Pack Prismari
+      set: stx
+    - count: 2
+      name: Strixhaven School of Mages Theme Booster Pack Quandrix
+      set: stx
+    - count: 2
+      name: Strixhaven School of Mages Theme Booster Pack Silverquill
+      set: stx
+    - count: 2
+      name: Strixhaven School of Mages Theme Booster Pack Witherbloom
+      set: stx
+  Strixhaven School of Mages Theme Booster Pack Lorehold:
+    card_count: 35
+    pack:
+    - code: theme-lorehold
+      set: stx
+  Strixhaven School of Mages Theme Booster Pack Prismari:
+    card_count: 35
+    pack:
+    - code: theme-prismari
+      set: stx
+  Strixhaven School of Mages Theme Booster Pack Quandrix:
+    card_count: 35
+    pack:
+    - code: theme-quandrix
+      set: stx
+  Strixhaven School of Mages Theme Booster Pack Silverquill:
+    card_count: 35
+    pack:
+    - code: theme-silverquill
+      set: stx
+  Strixhaven School of Mages Theme Booster Pack Witherbloom:
+    card_count: 35
+    pack:
+    - code: theme-witherbloom
+      set: stx
+  Strixhaven School of Mages Theme Booster Set of 5:
+    sealed:
+    - count: 1
+      name: Strixhaven School of Mages Theme Booster Pack Lorehold
+      set: stx
+    - count: 1
+      name: Strixhaven School of Mages Theme Booster Pack Prismari
+      set: stx
+    - count: 1
+      name: Strixhaven School of Mages Theme Booster Pack Quandrix
+      set: stx
+    - count: 1
+      name: Strixhaven School of Mages Theme Booster Pack Silverquill
+      set: stx
+    - count: 1
+      name: Strixhaven School of Mages Theme Booster Pack Witherbloom
+      set: stx
   'Strixhaven: School of Mages - Complete FOIL Set (Factory Sealed)': []
   'Strixhaven: School of Mages - Complete Set (Factory Sealed)': []

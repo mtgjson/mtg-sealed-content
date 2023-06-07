@@ -1,13 +1,84 @@
 code: c21
 products:
-  Commander 2021 Deck Lorehold Legacies: []
-  Commander 2021 Deck Lorehold Legacies Minimal Packaging: []
-  Commander 2021 Deck Prismari Performance: []
-  Commander 2021 Deck Prismari Performance Minimal Packaging: []
-  Commander 2021 Deck Quantum Quandrix: []
-  Commander 2021 Deck Quantum Quandrix Minimal Packaging: []
-  Commander 2021 Deck Silverquill Statement: []
-  Commander 2021 Deck Silverquill Statement Minimal Packaging: []
-  Commander 2021 Deck Witherbloom Witchcraft: []
-  Commander 2021 Deck Witherbloom Witchcraft Minimal Packaging: []
-  Commander 2021 Set of 5: []
+  Commander 2021 Deck Lorehold Legacies:
+    card_count: 100
+    deck:
+    - name: Lorehold Legacies
+      set: c21
+    other:
+    - name: Commander 2021 Life Wheel
+    - name: 10 Double Sided Tokens
+  Commander 2021 Deck Lorehold Legacies Minimal Packaging:
+    sealed:
+    - count: 1
+      name: Commander 2021 Deck Lorehold Legacies
+      set: c21
+  Commander 2021 Deck Prismari Performance:
+    card_count: 100
+    deck:
+    - name: Prismari Performance
+      set: c21
+    other:
+    - name: Commander 2021 Life Wheel
+    - name: 10 Double Sided Tokens
+  Commander 2021 Deck Prismari Performance Minimal Packaging:
+    sealed:
+    - count: 1
+      name: Commander 2021 Deck Prismari Performance
+      set: c21
+  Commander 2021 Deck Quantum Quandrix:
+    card_count: 100
+    deck:
+    - name: Quantum Quandrix
+      set: c21
+    other:
+    - name: Commander 2021 Life Wheel
+    - name: 10 Double Sided Tokens
+  Commander 2021 Deck Quantum Quandrix Minimal Packaging:
+    sealed:
+    - count: 1
+      name: Commander 2021 Deck Quantum Quandrix
+      set: c21
+  Commander 2021 Deck Silverquill Statement:
+    card_count: 100
+    deck:
+    - name: Silverquill Statement
+      set: c21
+    other:
+    - name: Commander 2021 Life Wheel
+    - name: 10 Double Sided Tokens
+  Commander 2021 Deck Silverquill Statement Minimal Packaging:
+    sealed:
+    - count: 1
+      name: Commander 2021 Deck Silverquill Statement
+      set: c21
+  Commander 2021 Deck Witherbloom Witchcraft:
+    card_count: 100
+    deck:
+    - name: Witherbloom Witchcraft
+      set: c21
+    other:
+    - name: Commander 2021 Life Wheel
+    - name: 10 Double Sided Tokens
+  Commander 2021 Deck Witherbloom Witchcraft Minimal Packaging:
+    sealed:
+    - count: 1
+      name: Commander 2021 Deck Witherbloom Witchcraft
+      set: c21
+  Commander 2021 Set of 5:
+    sealed:
+    - count: 1
+      name: Commander 2021 Deck Lorehold Legacies
+      set: c21
+    - count: 1
+      name: Commander 2021 Deck Prismari Performance
+      set: c21
+    - count: 1
+      name: Commander 2021 Deck Quantum Quandrix
+      set: c21
+    - count: 1
+      name: Commander 2021 Deck Silverquill Statement
+      set: c21
+    - count: 1
+      name: Commander 2021 Deck Witherbloom Witchcraft
+      set: c21
