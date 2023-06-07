@@ -45,6 +45,26 @@ products:
     pack:
     - code: default
       set: stx
+  Strixhaven School of Mages Japanese Language Draft Booster Box:
+    sealed:
+    - count: 36
+      name: Strixhaven School of Mages Japanese Language Draft Booster Pack
+      set: stx
+  Strixhaven School of Mages Japanese Language Draft Booster Pack:
+    card_count: 15
+    pack:
+    - code: jp
+      set: stx
+  Strixhaven School of Mages Japanese Language Set Booster Box:
+    sealed:
+    - count: 30
+      name: Strixhaven School of Mages Japanese Language Set Booster Pack
+      set: stx
+  Strixhaven School of Mages Japanese Language Set Booster Pack:
+    card_count: 12
+    pack:
+    - code: set-jp
+      set: stx
   Strixhaven School of Mages Prerelease Pack Lorehold: []
   Strixhaven School of Mages Prerelease Pack Prismari: []
   Strixhaven School of Mages Prerelease Pack Quandrix: []
