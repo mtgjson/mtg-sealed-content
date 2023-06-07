@@ -14,6 +14,8 @@ def recursive_update(d, u):
     for k, v in u.items():
         if isinstance(v, collections.abc.Mapping):
             d[k] = recursive_update(d.get(k, {}), v)
+        elif isinstance(v, set):
+            d[k] = d.get(k, set()).union(v)
         else:
             d[k] = v
     return d
