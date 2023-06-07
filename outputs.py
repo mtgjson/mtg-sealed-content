@@ -8,6 +8,15 @@ import logging.handlers as handlers
 import os
 import itertools as itr
 from copy import copy
+import collections.abc
+
+def recursive_update(d, u):
+    for k, v in u.items():
+        if isinstance(v, collections.abc.Mapping):
+            d[k] = recursive_update(d.get(k, {}), v)
+        else:
+            d[k] = v
+    return d
 
 def get_uuid_sealed(product):
     filename = product["set"].upper()
@@ -201,6 +210,18 @@ def parse_variable(contents, logger=None):
             temp_variable.append(iterative_sum(combo, logger))
     contents["variable"] = temp_variable
     return contents
+    
+def deck_links(contents, uuid, logger=None):
+    link = {}
+    for d in contents.get("deck", []):
+        if d["set"] not in link:
+            link[d["set"]] = {}
+        if d["name"] not in link[d["set"]]:
+            link[d["set"]][d["name"]] = set()
+        link[d["set"]][d["name"]].add(uuid)
+    for v in contents.get("variable", []):
+        link = recursive_update(link, deck_links(v, uuid, logger))
+    return link
 
 logfile_name = "output.log"
 logger = logging.getLogger()
@@ -220,6 +241,7 @@ contents_files = Path("data/contents/").glob("*.yaml")
 new_files = Path("data/products").glob("*.yaml")
 
 products_contents = {}
+deck_mapper = {}
 
 for file in contents_files:
     with open(file, "rb") as f:
@@ -233,10 +255,22 @@ for file in contents_files:
         if validate_contents(contents, data["code"] + "-" + product, logger):
             if data["code"] not in products_contents:
                 products_contents[data["code"]] = {}
+            try:
+                self_uuid = get_uuid_sealed({"set": data["code"], "name": product})
+                deck_mapper = recursive_update(deck_mapper, deck_links(contents, self_uuid, logger))
+            except KeyError:
+                logger.warning("Could not get UUID for sealed %s/%s", data["code"], product)
             products_contents[data["code"]][product] = contents
 
 with open("outputs/contents.json", "w") as outfile:
     json.dump(products_contents, outfile)
+
+for set_code in deck_mapper.keys():
+    for deck in deck_mapper[set_code].keys():
+        deck_mapper[set_code][deck] = list(deck_mapper[set_code][deck])
+
+with open("outputs/deck_map.json", "w") as outfile:
+    json.dump(deck_mapper, outfile)
 
 products_new = {}
 
