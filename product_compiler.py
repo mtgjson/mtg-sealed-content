@@ -24,6 +24,10 @@ alt_codes = {
     "CON_": "con"
 }
 
+logger.info("Starting logging")
+total = 0
+complete = 0
+
 parentPath = Path("mtgJson/AllSetfiles/")
 files = parentPath.glob("*.json")
 t = tqdm(files)
@@ -46,6 +50,8 @@ for file in t:
         sealed_product = list(ijson.items(ifile, "data.sealedProduct.item"))
         mtgjson_names = [p["name"] for p in sealed_product]
         existing_names = [k for k in products.keys()]
+        total += len(mtgjson_names)
+        complete += len(existing_names)
         for p in sealed_product:
             if p["name"] not in products:
                 if p["name"] not in empties:
@@ -61,4 +67,5 @@ for file in t:
 t.close
 del(t)
 
+logger.info("%s out of %s products complete", complete, total)
 
