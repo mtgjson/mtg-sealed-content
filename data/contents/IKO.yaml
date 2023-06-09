@@ -6,10 +6,18 @@ products:
   Ikoria Lair of Behemoths Collector Booster Case: []
   Ikoria Lair of Behemoths Collector Booster Hanger Pack: []
   Ikoria Lair of Behemoths Collector Booster Hanger Pack Case: []
-  Ikoria Lair of Behemoths Collector Booster Pack: []
+  Ikoria Lair of Behemoths Collector Booster Pack:
+    card_count: 15
+    pack:
+    - code: collector
+      set: iko
   Ikoria Lair of Behemoths Draft Booster Box: []
   Ikoria Lair of Behemoths Draft Booster Box Case: []
-  Ikoria Lair of Behemoths Draft Booster Pack: []
+  Ikoria Lair of Behemoths Draft Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: iko
   Ikoria Lair of Behemoths Prerelease Pack: []
   Ikoria Lair of Behemoths Prerelease Pack plus 2 Ikoria Prize Packs: []
   Ikoria Lair of Behemoths Theme Booster Black: []
