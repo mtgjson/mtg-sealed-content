@@ -1,7 +1,11 @@
 code: pcy
 products:
   Prophecy Booster Box: []
-  Prophecy Booster Pack: []
+  Prophecy Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: pcy
   Prophecy Fat Pack: []
   Prophecy Theme Deck Display: []
   Prophecy Theme Deck Distress: []

@@ -1,6 +1,10 @@
 code: mir
 products:
   Mirage Booster Box: []
-  Mirage Booster Pack: []
+  Mirage Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: mir
   Mirage Starter Deck: []
   Mirage Starter Deck Display: []

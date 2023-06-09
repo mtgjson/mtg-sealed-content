@@ -1,14 +1,67 @@
 code: ody
 products:
-  Odyssey - Complete FOIL Set (Factory Sealed): []
-  Odyssey - Complete Set (Factory Sealed): []
-  Odyssey Booster Box: []
-  Odyssey Booster Pack: []
-  Odyssey Fat Pack: []
-  Odyssey Theme Deck Display: []
-  Odyssey Theme Deck Liftoff: []
-  Odyssey Theme Deck One Two Punch: []
-  Odyssey Theme Deck Pressure Cooker: []
-  Odyssey Theme Deck Trounce O Matic: []
-  Odyssey Tournament Pack: []
-  Odyssey Tournament Pack Display: []
+  Odyssey Booster Box:
+    sealed:
+    - count: 36
+      name: Odyssey Booster Pack
+      set: ody
+  Odyssey Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: ody
+  Odyssey Fat Pack:
+    card_count: 2
+    other:
+    - name: The Odyssey Novel
+    - name: Odyssey Special Edition Spindown
+    pack:
+    - code: fat-pack
+      set: ody
+    sealed:
+    - count: 3
+      name: Odyssey Booster Pack
+      set: ody
+  Odyssey Theme Deck Display:
+    sealed:
+    - count: 3
+      name: Odyssey Theme Deck Liftoff
+      set: ody
+    - count: 3
+      name: Odyssey Theme Deck One Two Punch
+      set: ody
+    - count: 3
+      name: Odyssey Theme Deck Pressure Cooker
+      set: ody
+    - count: 3
+      name: Odyssey Theme Deck Trounce O Matic
+      set: ody
+  Odyssey Theme Deck Liftoff:
+    card_count: 60
+    deck:
+    - name: Liftoff
+      set: ody
+  Odyssey Theme Deck One Two Punch:
+    card_count: 60
+    deck:
+    - name: One-Two Punch
+      set: ody
+  Odyssey Theme Deck Pressure Cooker:
+    card_count: 60
+    deck:
+    - name: Pressure Cooker
+      set: ody
+  Odyssey Theme Deck Trounce O Matic:
+    card_count: 60
+    deck:
+    - name: Trounce-O-Matic
+      set: ody
+  Odyssey Tournament Pack:
+    pack:
+    - code: tournament
+      set: ody
+  Odyssey Tournament Pack Display:
+    sealed:
+    - count: 12
+      name: Odyssey Tournament Pack
+      set: ody

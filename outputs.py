@@ -252,6 +252,8 @@ for file in contents_files:
         logger.error("Set %s has no products", data["code"])
         os.remove(file)
     for product, contents in data["products"].items():
+        if "copy" in contents:
+            contents = data["products"][contents["copy"]]
         if "variable" in contents:
             contents = parse_variable(contents)
         if validate_contents(contents, data["code"] + "-" + product, logger):

@@ -1,10 +1,12 @@
 code: emn
 products:
-  Eldritch Moon - Complete FOIL Set (Factory Sealed): []
-  Eldritch Moon - Complete Set (Factory Sealed): []
   Eldritch Moon Booster Box: []
   Eldritch Moon Booster Box Case: []
-  Eldritch Moon Booster Pack: []
+  Eldritch Moon Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: emn
   Eldritch Moon Fat Pack: []
   Eldritch Moon Intro Pack Dangerous Knowledge: []
   Eldritch Moon Intro Pack Display: []

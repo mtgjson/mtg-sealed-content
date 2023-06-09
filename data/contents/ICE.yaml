@@ -1,6 +1,10 @@
 code: ice
 products:
   Ice Age Booster Box: []
-  Ice Age Booster Pack: []
+  Ice Age Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: ice
   Ice Age Starter Deck: []
   Ice Age Starter Deck Display: []

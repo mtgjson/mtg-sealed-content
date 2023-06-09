@@ -1,9 +1,11 @@
 code: rav
 products:
-  Ravnica - Complete FOIL Set (Factory Sealed): []
-  Ravnica - Complete Set (Factory Sealed): []
   Ravnica Booster Box: []
-  Ravnica Booster Pack: []
+  Ravnica Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: rav
   Ravnica Fat Pack: []
   Ravnica Theme Deck Charge of the Boros: []
   Ravnica Theme Deck Dimir Intrigues: []

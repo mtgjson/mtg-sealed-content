@@ -2,7 +2,11 @@ code: usg
 products:
   Urza's Saga Theme Deck Display: []
   Urzas Saga Booster Box: []
-  Urzas Saga Booster Pack: []
+  Urzas Saga Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: usg
   Urzas Saga Theme Deck Sleeper: []
   Urzas Saga Theme Deck Special Delivery: []
   Urzas Saga Theme Deck The Plague: []

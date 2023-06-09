@@ -1,10 +1,12 @@
 code: pls
 products:
-  Planeshift - Complete FOIL Set (Factory Sealed): []
-  Planeshift - Complete Set (Factory Sealed): []
   Planeshift Barrage Theme Deck: []
   Planeshift Booster Box: []
-  Planeshift Booster Pack: []
+  Planeshift Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: pls
   Planeshift Comeback Theme Deck: []
   Planeshift Domain Theme Deck: []
   Planeshift Fat Pack: []

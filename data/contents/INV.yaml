@@ -1,10 +1,12 @@
 code: inv
 products:
-  Invasion - Complete FOIL Set (Factory Sealed): []
-  Invasion - Complete Set (Factory Sealed): []
   Invasion Blowout Theme Deck: []
   Invasion Booster Box: []
-  Invasion Booster Pack: []
+  Invasion Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: inv
   Invasion Dismissal Theme Deck: []
   Invasion Fat Pack: []
   Invasion Heavy Duty Theme Deck: []

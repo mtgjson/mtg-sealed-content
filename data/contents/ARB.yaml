@@ -1,9 +1,11 @@
 code: arb
 products:
-  Alara Reborn - Complete FOIL Set (Factory Sealed): []
-  Alara Reborn - Complete Set (Factory Sealed): []
   Alara Reborn Booster Box: []
-  Alara Reborn Booster Pack: []
+  Alara Reborn Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: arb
   Alara Reborn Fat Pack: []
   Alara Reborn Intro Pack Dead Ahead: []
   Alara Reborn Intro Pack Display: []

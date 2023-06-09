@@ -1,4 +1,8 @@
 code: chr
 products:
   Chronicles Booster Box: []
-  Chronicles Booster Pack: []
+  Chronicles Booster Pack:
+    card_count: 12
+    pack:
+    - code: default
+      set: chr

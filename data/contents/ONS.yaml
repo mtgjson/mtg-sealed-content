@@ -1,9 +1,11 @@
 code: ons
 products:
-  Onslaught - Complete FOIL Set (Factory Sealed): []
-  Onslaught - Complete Set (Factory Sealed): []
   Onslaught Booster Box: []
-  Onslaught Booster Pack: []
+  Onslaught Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: ons
   Onslaught Fat Pack: []
   Onslaught Theme Deck Bait and Switch: []
   Onslaught Theme Deck Celestial Assault: []

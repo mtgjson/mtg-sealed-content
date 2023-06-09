@@ -3,4 +3,8 @@ products:
   Unstable 3 Booster Draft Pack: []
   Unstable Booster Box: []
   Unstable Booster Box Case: []
-  Unstable Booster Pack: []
+  Unstable Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: ust

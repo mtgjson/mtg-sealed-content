@@ -1,26 +1,131 @@
 code: znr
 products:
-  Zendikar Rising - Complete FOIL Set (Factory Sealed): []
-  Zendikar Rising - Complete Set (Factory Sealed): []
   Zendikar Rising Bundle: []
   Zendikar Rising Bundle Gift Edition: []
-  Zendikar Rising Collector Booster Box: []
-  Zendikar Rising Collector Booster Box Case: []
-  Zendikar Rising Collector Booster Hanger Pack: []
-  Zendikar Rising Collector Booster Pack: []
-  Zendikar Rising Draft Booster Box: []
-  Zendikar Rising Draft Booster Box Case: []
-  Zendikar Rising Draft Booster Pack: []
+  Zendikar Rising Collector Booster Box:
+    sealed:
+    - count: 12
+      name: Zendikar Rising Collector Booster Pack
+      set: znr
+    - count: 2
+      name: Zendikar Rising Expedition Box Topper
+      set: zne
+  Zendikar Rising Collector Booster Box Case:
+    sealed:
+    - count: 6
+      name: Zendikar Rising Collector Booster Box
+      set: znr
+  Zendikar Rising Collector Booster Hanger Pack:
+    sealed:
+    - count: 1
+      name: Zendikar Rising Collector Booster Pack
+      set: znr
+  Zendikar Rising Collector Booster Pack:
+    card_count: 15
+    pack:
+    - code: collector
+      set: znr
+  Zendikar Rising Draft Booster Box:
+    sealed:
+    - count: 36
+      name: Zendikar Rising Draft Booster Pack
+      set: znr
+    - count: 1
+      name: Zendikar Rising Expedition Box Topper
+      set: zne
+  Zendikar Rising Draft Booster Box Case:
+    sealed:
+    - count: 6
+      name: Zendikar Rising Draft Booster Box
+      set: znr
+  Zendikar Rising Draft Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: znr
   Zendikar Rising Prerelease Pack: []
   Zendikar Rising Prerelease Pack Case: []
   Zendikar Rising Prerelease Pack plus 2 Zendikar Rising Prize Packs: []
-  Zendikar Rising Set Booster Box: []
-  Zendikar Rising Set Booster Pack: []
-  Zendikar Rising Theme Booster Black: []
-  Zendikar Rising Theme Booster Blue: []
-  Zendikar Rising Theme Booster Box: []
-  Zendikar Rising Theme Booster Green: []
-  Zendikar Rising Theme Booster Party: []
-  Zendikar Rising Theme Booster Red: []
-  Zendikar Rising Theme Booster Set of 6: []
-  Zendikar Rising Theme Booster White: []
+  Zendikar Rising Set Booster Box:
+    sealed:
+    - count: 30
+      name: Zendikar Rising Set Booster Pack
+      set: znr
+    - count: 1
+      name: Zendikar Rising Expedition Box Topper
+      set: zne
+  Zendikar Rising Set Booster Pack:
+    card_count: 12
+    pack:
+    - code: set
+      set: znr
+  Zendikar Rising Theme Booster Black:
+    card_count: 35
+    pack:
+    - code: theme-b
+      set: znr
+  Zendikar Rising Theme Booster Blue:
+    card_count: 35
+    pack:
+    - code: theme-u
+      set: znr
+  Zendikar Rising Theme Booster Box:
+    sealed:
+    - count: 2
+      name: Zendikar Rising Theme Booster White
+      set: znr
+    - count: 2
+      name: Zendikar Rising Theme Booster Blue
+      set: znr
+    - count: 2
+      name: Zendikar Rising Theme Booster Black
+      set: znr
+    - count: 2
+      name: Zendikar Rising Theme Booster Red
+      set: znr
+    - count: 2
+      name: Zendikar Rising Theme Booster Green
+      set: znr
+    - count: 2
+      name: Zendikar Rising Theme Booster Party
+      set: znr
+  Zendikar Rising Theme Booster Green:
+    card_count: 35
+    pack:
+    - code: theme-g
+      set: znr
+  Zendikar Rising Theme Booster Party:
+    card_count: 35
+    pack:
+    - code: theme-party
+      set: znr
+  Zendikar Rising Theme Booster Red:
+    card_count: 35
+    pack:
+    - code: theme-r
+      set: znr
+  Zendikar Rising Theme Booster Set of 6:
+    sealed:
+    - count: 1
+      name: Zendikar Rising Theme Booster White
+      set: znr
+    - count: 1
+      name: Zendikar Rising Theme Booster Blue
+      set: znr
+    - count: 1
+      name: Zendikar Rising Theme Booster Black
+      set: znr
+    - count: 1
+      name: Zendikar Rising Theme Booster Red
+      set: znr
+    - count: 1
+      name: Zendikar Rising Theme Booster Green
+      set: znr
+    - count: 1
+      name: Zendikar Rising Theme Booster Party
+      set: znr
+  Zendikar Rising Theme Booster White:
+    card_count: 35
+    pack:
+    - code: theme-w
+      set: znr

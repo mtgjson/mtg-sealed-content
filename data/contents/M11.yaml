@@ -1,9 +1,11 @@
 code: m11
 products:
-  2011 Core Set - Complete FOIL Set (Factory Sealed): []
-  2011 Core Set - Complete Set (Factory Sealed): []
   2011 Core Set 3x Booster Packs draft set: []
-  2011 Core Set 6 Card Booster Pack: []
+  2011 Core Set 6 Card Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: m11
   2011 Core Set Booster Box: []
   2011 Core Set Booster Box Case 6 Boxes: []
   2011 Core Set Booster Pack: []

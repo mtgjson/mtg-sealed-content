@@ -3,4 +3,8 @@ products:
   Battlebond Blister Pack Includes 6 Battlebond Booster Packs: []
   Battlebond Booster Box: []
   Battlebond Booster Box Case: []
-  Battlebond Booster Pack: []
+  Battlebond Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: bbd

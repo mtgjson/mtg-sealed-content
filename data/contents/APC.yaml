@@ -1,9 +1,11 @@
 code: apc
 products:
-  Apocalypse - Complete FOIL Set (Factory Sealed): []
-  Apocalypse - Complete Set (Factory Sealed): []
   Apocalypse Booster Box: []
-  Apocalypse Booster Pack: []
+  Apocalypse Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: apc
   Apocalypse Fat Pack: []
   Apocalypse Theme Deck Burial: []
   Apocalypse Theme Deck Display: []

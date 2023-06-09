@@ -5,11 +5,18 @@ products:
   Commander Legends Collector Booster Box: []
   Commander Legends Collector Booster Box Case: []
   Commander Legends Collector Booster Hanger Pack: []
-  Commander Legends Collector Booster Pack: []
+  Commander Legends Collector Booster Pack:
+    card_count: 15
+    pack:
+    - code: collector
+      set: cmr
   Commander Legends Commander Deck Display: []
   Commander Legends Commander Deck Set of 2: []
   Commander Legends Draft Booster Box: []
   Commander Legends Draft Booster Box Case: []
-  Commander Legends Draft Booster Pack: []
+  Commander Legends Draft Booster Pack:
+    card_count: 20
+    pack:
+    - code: default
+      set: cmr
   Commander Legends Reap the Tides Commander Deck: []
-  'Pure Bulk: Unsorted Commons Commander Legends (500ct)': []

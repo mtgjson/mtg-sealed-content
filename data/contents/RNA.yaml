@@ -1,10 +1,12 @@
 code: rna
 products:
-  Ravnica Allegiance - Complete FOIL Set (Factory Sealed): []
-  Ravnica Allegiance - Complete Set (Factory Sealed): []
   Ravnica Allegiance Booster Box: []
   Ravnica Allegiance Booster Box Case: []
-  Ravnica Allegiance Booster Pack: []
+  Ravnica Allegiance Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: rna
   Ravnica Allegiance Bundle: []
   Ravnica Allegiance Collectors Booster Pack: []
   Ravnica Allegiance Deck Builders Toolkit: []

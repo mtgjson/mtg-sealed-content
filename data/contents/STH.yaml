@@ -1,7 +1,11 @@
 code: sth
 products:
   Stronghold Booster Box: []
-  Stronghold Booster Pack: []
+  Stronghold Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: sth
   Stronghold Theme Deck Call of the Kor: []
   Stronghold Theme Deck Display: []
   Stronghold Theme Deck Migraine: []

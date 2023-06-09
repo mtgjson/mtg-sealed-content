@@ -1,4 +1,8 @@
 code: atq
 products:
   Antiquities Booster Box: []
-  Antiquities Booster Pack: []
+  Antiquities Booster Pack:
+    card_count: 8
+    pack:
+    - code: default
+      set: atq

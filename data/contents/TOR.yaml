@@ -1,9 +1,11 @@
 code: tor
 products:
-  Torment - Complete FOIL Set (Factory Sealed): []
-  Torment - Complete Set (Factory Sealed): []
   Torment Booster Box: []
-  Torment Booster Pack: []
+  Torment Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: tor
   Torment Fat Pack: []
   Torment Theme Deck Display: []
   Torment Theme Deck Grave Danger: []

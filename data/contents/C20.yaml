@@ -1,8 +1,69 @@
 code: c20
 products:
-  Commander 2020 Deck Arcane Maelstrom: []
-  Commander 2020 Deck Enhanced Evolution: []
-  Commander 2020 Deck Ruthless Regiment: []
-  Commander 2020 Deck Symbiotic Swarm: []
-  Commander 2020 Deck Timeless Wisdom: []
-  Commander 2020 Set of 5: []
+  Commander 2020 Deck Arcane Maelstrom:
+    card_count: 100
+    deck:
+    - name: Arcane Maelstrom
+      set: c20
+    other:
+    - name: Commander 2020 Life Wheel
+    - name: Foil Oversized Commander Card
+    - name: 10 Double Sided Tokens
+    - name: Deck Box
+  Commander 2020 Deck Enhanced Evolution:
+    card_count: 100
+    deck:
+    - name: Enhanced Evolution
+      set: c20
+    other:
+    - name: Commander 2020 Life Wheel
+    - name: Foil Oversized Commander Card
+    - name: 10 Double Sided Tokens
+    - name: Deck Box
+  Commander 2020 Deck Ruthless Regiment:
+    card_count: 100
+    deck:
+    - name: Ruthless Regiment
+      set: c20
+    other:
+    - name: Commander 2020 Life Wheel
+    - name: Foil Oversized Commander Card
+    - name: 10 Double Sided Tokens
+    - name: Deck Box
+  Commander 2020 Deck Symbiotic Swarm:
+    card_count: 100
+    deck:
+    - name: Symbiotic Swarm
+      set: c20
+    other:
+    - name: Commander 2020 Life Wheel
+    - name: Foil Oversized Commander Card
+    - name: 10 Double Sided Tokens
+    - name: Deck Box
+  Commander 2020 Deck Timeless Wisdom:
+    card_count: 100
+    deck:
+    - name: Timeless Wisdom
+      set: c20
+    other:
+    - name: Commander 2020 Life Wheel
+    - name: Foil Oversized Commander Card
+    - name: 10 Double Sided Tokens
+    - name: Deck Box
+  Commander 2020 Set of 5:
+    sealed:
+    - count: 1
+      name: Commander 2020 Deck Arcane Maelstrom
+      set: c20
+    - count: 1
+      name: Commander 2020 Deck Enhanced Evolution
+      set: c20
+    - count: 1
+      name: Commander 2020 Deck Ruthless Regiment
+      set: c20
+    - count: 1
+      name: Commander 2020 Deck Symbiotic Swarm
+      set: c20
+    - count: 1
+      name: Commander 2020 Deck Timeless Wisdom
+      set: c20

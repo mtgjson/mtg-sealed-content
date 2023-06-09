@@ -1,11 +1,13 @@
 code: zen
 products:
-  Zendikar - Complete FOIL Set (Factory Sealed): []
-  Zendikar - Complete Set (Factory Sealed): []
   Zendikar 3x Booster Packs draft set: []
   Zendikar Booster Box: []
   Zendikar Booster Box Case 6 Booster Boxes: []
-  Zendikar Booster Pack: []
+  Zendikar Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: zen
   Zendikar Fat Pack: []
   Zendikar Intro Pack Black Rise of the Vampires: []
   Zendikar Intro Pack Blue Unstable Terrain: []

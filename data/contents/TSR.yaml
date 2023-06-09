@@ -1,6 +1,22 @@
 code: tsr
 products:
-  Time Spiral Remastered 3 Booster Draft Pack: []
-  Time Spiral Remastered Draft Booster Box: []
-  Time Spiral Remastered Draft Booster Box Case: []
-  Time Spiral Remastered Draft Booster Pack: []
+  Time Spiral Remastered 3 Booster Draft Pack:
+    sealed:
+    - count: 3
+      name: Time Spiral Remastered Draft Booster Pack
+      set: tsr
+  Time Spiral Remastered Draft Booster Box:
+    sealed:
+    - count: 36
+      name: Time Spiral Remastered Draft Booster Pack
+      set: tsr
+  Time Spiral Remastered Draft Booster Box Case:
+    sealed:
+    - count: 6
+      name: Time Spiral Remastered Draft Booster Box
+      set: tsr
+  Time Spiral Remastered Draft Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: tsr

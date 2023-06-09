@@ -1,9 +1,11 @@
 code: mor
 products:
-  Morningtide - Complete FOIL Set (Factory Sealed): []
-  Morningtide - Complete Set (Factory Sealed): []
   Morningtide Booster Box: []
-  Morningtide Booster Pack: []
+  Morningtide Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: mor
   Morningtide Fat Pack: []
   Morningtide Theme Deck Battalion: []
   Morningtide Theme Deck Display: []

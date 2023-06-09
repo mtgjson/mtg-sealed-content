@@ -1,10 +1,12 @@
 code: aer
 products:
-  Aether Revolt - Complete FOIL Set (Factory Sealed): []
-  Aether Revolt - Complete Set (Factory Sealed): []
   Aether Revolt Booster Box: []
   Aether Revolt Booster Box Case: []
-  Aether Revolt Booster Pack: []
+  Aether Revolt Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: aer
   Aether Revolt Bundle: []
   Aether Revolt Planeswalker Deck Ajani: []
   Aether Revolt Planeswalker Deck Display: []

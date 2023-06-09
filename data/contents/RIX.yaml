@@ -1,10 +1,12 @@
 code: rix
 products:
-  Rivals of Ixalan - Complete FOIL Set (Factory Sealed): []
-  Rivals of Ixalan - Complete Set (Factory Sealed): []
   Rivals of Ixalan Booster Box: []
   Rivals of Ixalan Booster Box Case: []
-  Rivals of Ixalan Booster Pack: []
+  Rivals of Ixalan Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: rix
   Rivals of Ixalan Bundle: []
   Rivals of Ixalan Planeswalker Deck Angrath: []
   Rivals of Ixalan Planeswalker Deck Display: []

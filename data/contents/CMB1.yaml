@@ -1,4 +1,8 @@
 code: cmb1
 products:
   Mystery Booster Booster Box Convention Edition: []
-  Mystery Booster Booster Pack Convention Edition: []
+  Mystery Booster Booster Pack Convention Edition:
+    card_count: 15
+    pack:
+    - code: default
+      set: cmb1

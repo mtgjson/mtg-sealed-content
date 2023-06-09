@@ -1,4 +1,8 @@
 code: drk
 products:
   The Dark Booster Box: []
-  The Dark Booster Pack: []
+  The Dark Booster Pack:
+    card_count: 8
+    pack:
+    - code: default
+      set: drk

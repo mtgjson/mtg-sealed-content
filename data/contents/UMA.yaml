@@ -3,4 +3,8 @@ products:
   Ultimate Masters 3 Booster Draft Pack: []
   Ultimate Masters Draft Booster Box: []
   Ultimate Masters Draft Booster Box Case: []
-  Ultimate Masters Draft Booster Pack: []
+  Ultimate Masters Draft Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: uma

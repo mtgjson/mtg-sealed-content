@@ -1,10 +1,12 @@
 code: ktk
 products:
-  Khans of Tarkir - Complete FOIL Set (Factory Sealed): []
-  Khans of Tarkir - Complete Set (Factory Sealed): []
   Khans of Tarkir Booster Box: []
   Khans of Tarkir Booster Box Case 6 Boxes: []
-  Khans of Tarkir Booster Pack: []
+  Khans of Tarkir Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: ktk
   Khans of Tarkir Event Deck Conquering Hordes: []
   Khans of Tarkir Fat Pack: []
   Khans of Tarkir Holiday Gift Box: []

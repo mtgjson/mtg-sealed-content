@@ -1,9 +1,11 @@
 code: 5dn
 products:
-  Fifth Dawn - Complete FOIL Set (Factory Sealed): []
-  Fifth Dawn - Complete Set (Factory Sealed): []
   Fifth Dawn Booster Box: []
-  Fifth Dawn Booster Pack: []
+  Fifth Dawn Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: 5dn
   Fifth Dawn Fat Pack: []
   Fifth Dawn Nuts and Bolts Theme Deck: []
   Fifth Dawn Special Forces Theme Deck: []
