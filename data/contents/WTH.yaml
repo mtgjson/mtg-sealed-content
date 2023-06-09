@@ -1,4 +1,8 @@
 code: wth
 products:
   Weatherlight Booster Box: []
-  Weatherlight Booster Pack: []
+  Weatherlight Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: wth

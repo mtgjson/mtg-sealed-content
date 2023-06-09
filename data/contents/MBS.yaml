@@ -4,7 +4,11 @@ products:
   Mirrodin Besieged All 4 Intro Packs: []
   Mirrodin Besieged Booster Box: []
   Mirrodin Besieged Booster Box Case 6 Boxes: []
-  Mirrodin Besieged Booster Pack: []
+  Mirrodin Besieged Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: mbs
   Mirrodin Besieged Event Deck Display: []
   Mirrodin Besieged Event Deck Infect and Defile: []
   Mirrodin Besieged Event Deck Into the Breach: []

@@ -3,7 +3,11 @@ products:
   Avacyn Restored 3x Booster Packs draft set: []
   Avacyn Restored Booster Box: []
   Avacyn Restored Booster Box Case 6 boxes: []
-  Avacyn Restored Booster Pack: []
+  Avacyn Restored Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: avr
   Avacyn Restored Event Deck Deaths Encroach: []
   Avacyn Restored Event Deck Humanitys Vengeance: []
   Avacyn Restored Event Deck Set of 2: []

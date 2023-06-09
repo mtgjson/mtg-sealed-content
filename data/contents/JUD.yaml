@@ -1,7 +1,11 @@
 code: jud
 products:
   Judgment Booster Box: []
-  Judgment Booster Pack: []
+  Judgment Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: jud
   Judgment Fat Pack: []
   Judgment Theme Deck Air Razers: []
   Judgment Theme Deck Display: []

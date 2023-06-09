@@ -1,4 +1,8 @@
 code: ugl
 products:
   Unglued Booster Box: []
-  Unglued Booster Pack: []
+  Unglued Booster Pack:
+    card_count: 10
+    pack:
+    - code: default
+      set: ugl

@@ -3,7 +3,11 @@ products:
   Scars of Mirrodin 3x Booster Packs draft set: []
   Scars of Mirrodin Booster Box: []
   Scars of Mirrodin Booster Box Case 6 Booster Boxes: []
-  Scars of Mirrodin Booster Pack: []
+  Scars of Mirrodin Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: som
   Scars of Mirrodin Fat Pack: []
   Scars of Mirrodin Intro Pack Deadspread: []
   Scars of Mirrodin Intro Pack Display: []

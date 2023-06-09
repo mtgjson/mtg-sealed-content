@@ -2,7 +2,11 @@ code: pls
 products:
   Planeshift Barrage Theme Deck: []
   Planeshift Booster Box: []
-  Planeshift Booster Pack: []
+  Planeshift Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: pls
   Planeshift Comeback Theme Deck: []
   Planeshift Domain Theme Deck: []
   Planeshift Fat Pack: []

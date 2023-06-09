@@ -2,7 +2,11 @@ code: m20
 products:
   Core Set 2020 Booster Box: []
   Core Set 2020 Booster Box Case: []
-  Core Set 2020 Booster Pack: []
+  Core Set 2020 Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: m20
   Core Set 2020 Bundle: []
   Core Set 2020 Deck Builders Toolkit: []
   Core Set 2020 Land Station: []

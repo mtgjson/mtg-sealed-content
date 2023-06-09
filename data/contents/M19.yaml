@@ -3,7 +3,11 @@ products:
   2018 Gift Pack: []
   Core Set 2019 Booster Box: []
   Core Set 2019 Booster Box Case: []
-  Core Set 2019 Booster Pack: []
+  Core Set 2019 Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: m19
   Core Set 2019 Bundle: []
   Core Set 2019 Deck Builders Toolkit: []
   Core Set 2019 Planeswalker Deck Ajani: []

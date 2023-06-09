@@ -2,7 +2,11 @@ code: 8ed
 products:
   Eighth Edition Advanced Booster Pack: []
   Eighth Edition Booster Box: []
-  Eighth Edition Booster Pack: []
+  Eighth Edition Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: 8ed
   Eighth Edition Box: []
   Eighth Edition Box Two Player Starter: []
   Eighth Edition Demo Game Booster Pack: []

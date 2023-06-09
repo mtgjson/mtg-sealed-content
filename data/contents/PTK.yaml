@@ -1,7 +1,11 @@
 code: ptk
 products:
   Portal Three Kingdoms Booster Box: []
-  Portal Three Kingdoms Booster Pack: []
+  Portal Three Kingdoms Booster Pack:
+    card_count: 10
+    pack:
+    - code: default
+      set: ptk
   Portal Three Kingdoms Shu Kingdom Theme Deck: []
   Portal Three Kingdoms Theme Deck Display: []
   Portal Three Kingdoms Two Player Starter: []

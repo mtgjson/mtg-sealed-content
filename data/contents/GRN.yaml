@@ -2,7 +2,11 @@ code: grn
 products:
   Guilds of Ravnica Booster Box: []
   Guilds of Ravnica Booster Box Case: []
-  Guilds of Ravnica Booster Pack: []
+  Guilds of Ravnica Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: grn
   Guilds of Ravnica Bundle: []
   Guilds of Ravnica Planeswalker Deck Display: []
   Guilds of Ravnica Planeswalker Deck Ral: []

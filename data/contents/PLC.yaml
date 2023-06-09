@@ -1,7 +1,11 @@
 code: plc
 products:
   Planar Chaos Booster Box: []
-  Planar Chaos Booster Pack: []
+  Planar Chaos Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: plc
   Planar Chaos Fat Pack: []
   Planar Chaos Theme Deck Display: []
   Planar Chaos Theme Deck Endless March: []

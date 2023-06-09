@@ -1,8 +1,12 @@
 code: s99
 products:
   Starter 1999 Booster Box: []
-  Starter 1999 Booster Pack: []
   Starter 1999 Demo Game Booster Pack: []
+  Starter 1999 Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: s99
   Starter 1999 Starter Game: []
   Starter 1999 Starter Game Display: []
   Starter 1999 Starter Gift Box: []

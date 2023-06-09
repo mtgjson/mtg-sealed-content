@@ -2,4 +2,8 @@ code: mm3
 products:
   Modern Masters 2017 Booster Box: []
   Modern Masters 2017 Booster Box Case: []
-  Modern Masters 2017 Booster Pack: []
+  Modern Masters 2017 Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: mm3

@@ -1,7 +1,11 @@
 code: ons
 products:
   Onslaught Booster Box: []
-  Onslaught Booster Pack: []
+  Onslaught Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: ons
   Onslaught Fat Pack: []
   Onslaught Theme Deck Bait and Switch: []
   Onslaught Theme Deck Celestial Assault: []

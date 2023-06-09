@@ -3,7 +3,11 @@ products:
   Dragon's Maze Intro Pack Display: []
   Dragons Maze Booster Box: []
   Dragons Maze Booster Box Case 6 boxes: []
-  Dragons Maze Booster Pack: []
+  Dragons Maze Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: dgm
   Dragons Maze Event Deck Strength of Selesnya: []
   Dragons Maze Fat Pack: []
   Dragons Maze Intro Pack Azorius Authority: []

@@ -1,7 +1,11 @@
 code: tsp
 products:
   Time Spiral Booster Box: []
-  Time Spiral Booster Pack: []
+  Time Spiral Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: tsp
   Time Spiral Fat Pack: []
   Time Spiral Theme Deck Fun With Fungus: []
   Time Spiral Theme Deck Hopes Crusaders: []

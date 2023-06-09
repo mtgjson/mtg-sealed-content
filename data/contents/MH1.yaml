@@ -3,4 +3,8 @@ products:
   Modern Horizons 3 Booster Draft Pack: []
   Modern Horizons Booster Box: []
   Modern Horizons Booster Box Case: []
-  Modern Horizons Booster Pack: []
+  Modern Horizons Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: mh1

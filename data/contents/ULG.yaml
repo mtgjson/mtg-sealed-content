@@ -2,7 +2,11 @@ code: ulg
 products:
   Urza's Legacy Theme Deck Display: []
   Urzas Legacy Booster Box: []
-  Urzas Legacy Booster Pack: []
+  Urzas Legacy Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: ulg
   Urzas Legacy Theme Deck Crusher: []
   Urzas Legacy Theme Deck Phyrexian Assault: []
   Urzas Legacy Theme Deck Radiants Revenge: []

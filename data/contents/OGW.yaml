@@ -2,7 +2,11 @@ code: ogw
 products:
   Oath of the Gatewatch Booster Box: []
   Oath of the Gatewatch Booster Box Case 6 Boxes: []
-  Oath of the Gatewatch Booster Pack: []
+  Oath of the Gatewatch Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: ogw
   Oath of the Gatewatch Fat Pack: []
   Oath of the Gatewatch Hedron Prerelease Box: []
   Oath of the Gatewatch Intro Pack Concerted Effort: []

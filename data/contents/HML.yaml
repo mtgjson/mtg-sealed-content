@@ -1,4 +1,8 @@
 code: hml
 products:
   Homelands Booster Box: []
-  Homelands Booster Pack: []
+  Homelands Booster Pack:
+    card_count: 8
+    pack:
+    - code: default
+      set: hml

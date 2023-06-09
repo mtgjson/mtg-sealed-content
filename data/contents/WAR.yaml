@@ -3,7 +3,11 @@ products:
   War of the Spark Booster Box: []
   War of the Spark Booster Box (Non-English JAPANESE): []
   War of the Spark Booster Box Case: []
-  War of the Spark Booster Pack: []
+  War of the Spark Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: war
   War of the Spark Bundle: []
   War of the Spark Planeswalker Deck Display: []
   War of the Spark Planeswalker Deck Gideon: []

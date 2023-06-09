@@ -5,7 +5,11 @@ products:
   Return to Ravnica Booster Battle Pack Display: []
   Return to Ravnica Booster Box: []
   Return to Ravnica Booster Box Case 6 boxes: []
-  Return to Ravnica Booster Pack: []
+  Return to Ravnica Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: rtr
   Return to Ravnica Event Deck Creep and Conquer: []
   Return to Ravnica Event Deck Display: []
   Return to Ravnica Event Deck Wrack and Rage: []

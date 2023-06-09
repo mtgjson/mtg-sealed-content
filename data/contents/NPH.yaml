@@ -2,7 +2,11 @@ code: nph
 products:
   New Phyrexia Booster Box: []
   New Phyrexia Booster Box Case 6 boxes: []
-  New Phyrexia Booster Pack: []
+  New Phyrexia Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: nph
   New Phyrexia Event Deck Rot from Within: []
   New Phyrexia Event Deck Set of 2: []
   New Phyrexia Event Deck War of Attrition: []

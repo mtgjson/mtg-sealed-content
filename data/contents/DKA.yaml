@@ -2,7 +2,11 @@ code: dka
 products:
   Dark Ascension Booster Box: []
   Dark Ascension Booster Box Case 6 boxes: []
-  Dark Ascension Booster Pack: []
+  Dark Ascension Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: dka
   Dark Ascension Event Deck Display: []
   Dark Ascension Event Deck Gleeful Flames: []
   Dark Ascension Event Deck Spiraling Doom: []

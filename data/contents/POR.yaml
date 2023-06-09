@@ -1,6 +1,10 @@
 code: por
 products:
   Portal Booster Box: []
-  Portal Booster Pack: []
+  Portal Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: por
   Portal Gift Box: []
   Portal Two Player Starter Set: []

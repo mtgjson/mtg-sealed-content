@@ -1,4 +1,8 @@
 code: unh
 products:
   Unhinged Booster Box: []
-  Unhinged Booster Pack: []
+  Unhinged Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: unh

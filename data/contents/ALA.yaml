@@ -2,7 +2,11 @@ code: ala
 products:
   Shards of Alara Booster Box: []
   Shards of Alara Booster Box Case: []
-  Shards of Alara Booster Pack: []
+  Shards of Alara Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: ala
   Shards of Alara Fat Pack: []
   Shards of Alara Intro Pack Bant Exalted: []
   Shards of Alara Intro Pack Display: []

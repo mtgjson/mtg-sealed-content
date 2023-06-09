@@ -2,7 +2,11 @@ code: hou
 products:
   Hour of Devastation Booster Box: []
   Hour of Devastation Booster Box Case: []
-  Hour of Devastation Booster Pack: []
+  Hour of Devastation Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: hou
   Hour of Devastation Bundle: []
   Hour of Devastation Planeswalker Deck Display: []
   Hour of Devastation Planeswalker Deck Nicol Bolas: []

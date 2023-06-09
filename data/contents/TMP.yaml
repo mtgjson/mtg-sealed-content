@@ -1,7 +1,11 @@
 code: tmp
 products:
   Tempest Booster Box: []
-  Tempest Booster Pack: []
+  Tempest Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: tmp
   Tempest Starter Deck Display: []
   Tempest Theme Deck Deep Freeze: []
   Tempest Theme Deck Display: []

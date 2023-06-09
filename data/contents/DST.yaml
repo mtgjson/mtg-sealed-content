@@ -1,7 +1,11 @@
 code: dst
 products:
   Darksteel Booster Box: []
-  Darksteel Booster Pack: []
+  Darksteel Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: dst
   Darksteel Fat Pack: []
   Darksteel Theme Deck Display: []
   Darksteel Theme Deck Master Blaster: []

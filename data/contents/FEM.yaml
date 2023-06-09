@@ -1,4 +1,8 @@
 code: fem
 products:
   Fallen Empires Booster Box: []
-  Fallen Empires Booster Pack: []
+  Fallen Empires Booster Pack:
+    card_count: 8
+    pack:
+    - code: default
+      set: fem

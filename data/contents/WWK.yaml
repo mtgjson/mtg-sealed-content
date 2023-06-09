@@ -1,7 +1,11 @@
 code: wwk
 products:
   Worldwake Booster Box: []
-  Worldwake Booster Pack: []
+  Worldwake Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: wwk
   Worldwake Fat Pack: []
   Worldwake Intro Pack Brute Force: []
   Worldwake Intro Pack Display: []

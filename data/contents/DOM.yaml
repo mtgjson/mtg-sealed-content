@@ -3,7 +3,11 @@ products:
   Dominaria Booster Battle Pack: []
   Dominaria Booster Box: []
   Dominaria Booster Box Case: []
-  Dominaria Booster Pack: []
+  Dominaria Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: dom
   Dominaria Bundle: []
   Dominaria Planeswalker Deck Chandra: []
   Dominaria Planeswalker Deck Display: []

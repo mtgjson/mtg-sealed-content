@@ -1,7 +1,11 @@
 code: tor
 products:
   Torment Booster Box: []
-  Torment Booster Pack: []
+  Torment Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: tor
   Torment Fat Pack: []
   Torment Theme Deck Display: []
   Torment Theme Deck Grave Danger: []

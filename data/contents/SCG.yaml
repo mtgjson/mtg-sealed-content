@@ -1,7 +1,11 @@
 code: scg
 products:
   Scourge Booster Box: []
-  Scourge Booster Pack: []
+  Scourge Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: scg
   Scourge Fat Pack: []
   Scourge Theme Deck Display: []
   Scourge Theme Deck Goblin Mob: []

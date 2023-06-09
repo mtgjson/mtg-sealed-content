@@ -1,7 +1,11 @@
 code: shm
 products:
   Shadowmoor Booster Box: []
-  Shadowmoor Booster Pack: []
+  Shadowmoor Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: shm
   Shadowmoor Fat Pack: []
   Shadowmoor Theme Deck Army of Entropy: []
   Shadowmoor Theme Deck Aura Mastery: []

@@ -3,7 +3,11 @@ products:
   Face the Hydra Challenge Deck: []
   Theros Booster Box: []
   Theros Booster Box Case 6 boxes: []
-  Theros Booster Pack: []
+  Theros Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: ths
   Theros Event Deck Inspiring Heroics: []
   Theros Fat Pack: []
   Theros Holiday Gift Box: []

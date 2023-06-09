@@ -1,7 +1,11 @@
 code: gpt
 products:
   Guildpact Booster Box: []
-  Guildpact Booster Pack: []
+  Guildpact Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: gpt
   Guildpact Fat Pack: []
   Guildpact Theme Deck Code of the Orzhov: []
   Guildpact Theme Deck Display: []

@@ -2,7 +2,11 @@ code: frf
 products:
   Fate Reforged Booster Box: []
   Fate Reforged Booster Box Case 6 Boxes: []
-  Fate Reforged Booster Pack: []
+  Fate Reforged Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: frf
   Fate Reforged Clash Pack: []
   Fate Reforged Fat Pack: []
   Fate Reforged Intro Pack Cunning Plan: []

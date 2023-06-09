@@ -3,7 +3,11 @@ products:
   Defeat a God Challenge Deck: []
   Journey Into Nyx Booster Box: []
   Journey Into Nyx Booster Box Case 6 boxes: []
-  Journey Into Nyx Booster Pack: []
+  Journey Into Nyx Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: jou
   Journey Into Nyx Event Deck Display 6: []
   Journey Into Nyx Event Deck Wrath of the Mortals: []
   Journey Into Nyx Fat Pack: []

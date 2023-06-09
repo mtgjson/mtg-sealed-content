@@ -1,7 +1,11 @@
 code: bok
 products:
   Betrayers of Kamigawa Booster Box: []
-  Betrayers of Kamigawa Booster Pack: []
+  Betrayers of Kamigawa Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: bok
   Betrayers of Kamigawa Fat Pack: []
   Betrayers of Kamigawa Theme Deck Dark Devotion: []
   Betrayers of Kamigawa Theme Deck Display: []

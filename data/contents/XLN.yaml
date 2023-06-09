@@ -3,7 +3,11 @@ products:
   Ixalan Booster Battle Pack: []
   Ixalan Booster Box: []
   Ixalan Booster Box Case: []
-  Ixalan Booster Pack: []
+  Ixalan Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: xln
   Ixalan Bundle: []
   Ixalan Deck Builders Toolkit: []
   Ixalan Planeswalker Deck Huatli: []

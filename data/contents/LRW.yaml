@@ -2,7 +2,11 @@ code: lrw
 products:
   Lorwyn Boggart Feast Theme Deck: []
   Lorwyn Booster Box: []
-  Lorwyn Booster Pack: []
+  Lorwyn Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: lrw
   Lorwyn Elementals Path Theme Deck: []
   Lorwyn Elvish Predation Theme Deck: []
   Lorwyn Fat Pack: []

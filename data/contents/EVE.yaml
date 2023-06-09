@@ -1,7 +1,11 @@
 code: eve
 products:
   Eventide Booster Box: []
-  Eventide Booster Pack: []
+  Eventide Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: eve
   Eventide Fat Pack: []
   Eventide Theme Deck Battle Blitz: []
   Eventide Theme Deck Death March: []

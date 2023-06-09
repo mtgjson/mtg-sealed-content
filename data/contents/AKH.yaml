@@ -3,7 +3,11 @@ products:
   Amonkhet Booster Battle Pack: []
   Amonkhet Booster Box: []
   Amonkhet Booster Box Case: []
-  Amonkhet Booster Pack: []
+  Amonkhet Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: akh
   Amonkhet Bundle: []
   Amonkhet Deck Builders Toolkit: []
   Amonkhet Land Station: []

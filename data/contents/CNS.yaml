@@ -2,4 +2,8 @@ code: cns
 products:
   Conspiracy Booster Box: []
   Conspiracy Booster Box Case 6 Boxes: []
-  Conspiracy Booster Pack: []
+  Conspiracy Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: cns

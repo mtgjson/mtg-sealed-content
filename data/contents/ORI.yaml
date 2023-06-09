@@ -2,7 +2,11 @@ code: ori
 products:
   Magic Origins Booster Box: []
   Magic Origins Booster Box Case: []
-  Magic Origins Booster Pack: []
+  Magic Origins Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: ori
   Magic Origins Clash Pack: []
   Magic Origins Deck Builders Toolkit: []
   Magic Origins Fat Pack: []
