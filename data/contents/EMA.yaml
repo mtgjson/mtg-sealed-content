@@ -2,4 +2,8 @@ code: ema
 products:
   Eternal Masters Draft Booster Box: []
   Eternal Masters Draft Booster Box Case: []
-  Eternal Masters Draft Booster Pack: []
+  Eternal Masters Draft Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: ema

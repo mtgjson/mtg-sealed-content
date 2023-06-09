@@ -2,10 +2,18 @@ code: m21
 products:
   Core Set 2021 Bundle: []
   Core Set 2021 Collector Booster Box: []
-  Core Set 2021 Collector Booster Pack: []
+  Core Set 2021 Collector Booster Pack:
+    card_count: 15
+    pack:
+    - code: collector
+      set: m21
   Core Set 2021 Draft Booster Box: []
   Core Set 2021 Draft Booster Box Case: []
-  Core Set 2021 Draft Booster Pack: []
+  Core Set 2021 Draft Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: m21
   Core Set 2021 Planeswalker Deck Basri: []
   Core Set 2021 Planeswalker Deck Chandra: []
   Core Set 2021 Planeswalker Deck Display: []
