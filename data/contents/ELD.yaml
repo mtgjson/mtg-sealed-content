@@ -10,11 +10,19 @@ products:
   Throne of Eldraine Collector Booster Box: []
   Throne of Eldraine Collector Booster Case: []
   Throne of Eldraine Collector Booster Hanger Pack: []
-  Throne of Eldraine Collector Booster Pack: []
+  Throne of Eldraine Collector Booster Pack:
+    card_count: 15
+    pack:
+      code: collector
+      set: eld
   Throne of Eldraine Deluxe Collection: []
   Throne of Eldraine Draft Booster Box: []
   Throne of Eldraine Draft Booster Box Case: []
-  Throne of Eldraine Draft Booster Pack: []
+  Throne of Eldraine Draft Booster Pack:
+    card_count: 15
+    pack:
+      code: default
+      set: eld
   Throne of Eldraine Planeswalker Deck Display: []
   Throne of Eldraine Planeswalker Deck Oko: []
   Throne of Eldraine Planeswalker Deck Rowan: []

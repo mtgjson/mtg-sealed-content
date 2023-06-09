@@ -5,16 +5,28 @@ products:
   Adventures in the Forgotten Realms Collector Booster Box: []
   Adventures in the Forgotten Realms Collector Booster Box Case: []
   Adventures in the Forgotten Realms Collector Booster Hanger Pack: []
-  Adventures in the Forgotten Realms Collector Booster Pack: []
+  Adventures in the Forgotten Realms Collector Booster Pack:
+    card_count: 15
+    pack:
+      code: collector
+      set: afr
   Adventures in the Forgotten Realms Collector Booster Retail Pack: []
   Adventures in the Forgotten Realms Draft Booster Box: []
   Adventures in the Forgotten Realms Draft Booster Box Case: []
-  Adventures in the Forgotten Realms Draft Booster Pack: []
+  Adventures in the Forgotten Realms Draft Booster Pack:
+    card_count: 15
+    pack:
+      code: default
+      set: afr
   Adventures in the Forgotten Realms Prerelease Pack: []
   Adventures in the Forgotten Realms Prerelease Pack Case: []
   Adventures in the Forgotten Realms Set Booster Box: []
   Adventures in the Forgotten Realms Set Booster Box Case: []
-  Adventures in the Forgotten Realms Set Booster Pack: []
+  Adventures in the Forgotten Realms Set Booster Pack:
+    card_count: 12
+    pack:
+      code: set
+      set: afr
   Adventures in the Forgotten Realms Theme Booster Black: []
   Adventures in the Forgotten Realms Theme Booster Blue: []
   Adventures in the Forgotten Realms Theme Booster Box: []
