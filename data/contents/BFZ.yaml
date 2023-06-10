@@ -1,19 +1,120 @@
 code: bfz
 products:
-  Battle for Zendikar Booster Box: []
-  Battle for Zendikar Booster Box Case 6 boxes: []
+  Battle for Zendikar Booster Box:
+    sealed:
+    - count: 36
+      name: Battle for Zendikar Booster Pack
+      set: bfz
+  Battle for Zendikar Booster Box Case 6 boxes:
+    sealed:
+    - count: 6
+      name: Battle for Zendikar Booster Box
+      set: bfz
   Battle for Zendikar Booster Pack:
     card_count: 15
     pack:
     - code: default
       set: bfz
-  Battle for Zendikar Event Deck Ultimate Sacrifice: []
-  Battle for Zendikar Fat Pack: []
-  Battle for Zendikar Gift Box: []
-  Battle for Zendikar Hedron Prerelease Box: []
-  Battle for Zendikar Intro Pack Call of Blood: []
-  Battle for Zendikar Intro Pack Eldrazi Assault: []
-  Battle for Zendikar Intro Pack Rallying Cry: []
-  Battle for Zendikar Intro Pack Set of 5: []
-  Battle for Zendikar Intro Pack Swarming Instinct: []
-  Battle for Zendikar Intro Pack Zendikars Rage: []
+  Battle for Zendikar Event Deck Ultimate Sacrifice:
+    card_count: 75
+    deck:
+    - name: Ultimate Sacrifice
+      set: bfz
+  Battle for Zendikar Fat Pack:
+    other:
+    - name: Battle for Zendikar Player's Guide
+    - name: Battle for Zendikar Card Box
+    - name: Battle for Zendikar Basic Land Bundle
+    - name: Battle for Zendikar Premium Spindown
+    sealed:
+    - count: 9
+      name: Battle for Zendikar Booster Pack
+      set: bfz
+  Battle for Zendikar Gift Box:
+    card:
+    - foil: true
+      name: Scythe Leopard
+      number: 188
+      set: pbfz
+    other:
+    - name: Battle for Zendikar Storage Box
+    - name: Illustrated Storage Dividers
+    - name: Stickers for Customizing the Dividers
+    - name: Battle for Zendikar 20-card Basic Land Pack
+    sealed:
+    - count: 5
+      name: Battle for Zendikar Booster Pack
+      set: bfz
+  Battle for Zendikar Hedron Prerelease Box:
+    card_count: 1
+    other:
+    - name: Battle for Zendikar Prerelease Spindown
+    pack:
+    - code: prerelease
+      set: bfz
+    sealed:
+    - count: 6
+      name: Battle for Zendikar Booster Pack
+      set: bfz
+  Battle for Zendikar Intro Pack Call of Blood:
+    card_count: 60
+    deck:
+    - name: Call of Blood
+      set: bfz
+    sealed:
+    - count: 2
+      name: Battle for Zendikar Booster Pack
+      set: bfz
+  Battle for Zendikar Intro Pack Eldrazi Assault:
+    card_count: 60
+    deck:
+    - name: Eldrazi Assault
+      set: bfz
+    sealed:
+    - count: 2
+      name: Battle for Zendikar Booster Pack
+      set: bfz
+  Battle for Zendikar Intro Pack Rallying Cry:
+    card_count: 60
+    deck:
+    - name: Rallying Cry
+      set: bfz
+    sealed:
+    - count: 2
+      name: Battle for Zendikar Booster Pack
+      set: bfz
+  Battle for Zendikar Intro Pack Set of 5:
+    sealed:
+    - count: 1
+      name: Battle for Zendikar Intro Pack Call of Blood
+      set: bfz
+    - count: 1
+      name: Battle for Zendikar Intro Pack Eldrazi Assault
+      set: bfz
+    - count: 1
+      name: Battle for Zendikar Intro Pack Rallying Cry
+      set: bfz
+    - count: 1
+      name: Battle for Zendikar Intro Pack Swarming Instinct
+      set: bfz
+    - count: 1
+      name: Battle for Zendikar Intro Pack Zendikars Rage
+      set: bfz
+  Battle for Zendikar Intro Pack Swarming Instinct:
+    card_count: 60
+    deck:
+    - name: Swarming Instinct
+      set: bfz
+    sealed:
+    - count: 2
+      name: Battle for Zendikar Booster Pack
+      set: bfz
+  Battle for Zendikar Intro Pack Zendikars Rage:
+    card_count: 60
+    deck:
+    - name: Zendikar's Rage
+      set: bfz
+    sealed:
+    - count: 2
+      name: Battle for Zendikar Booster Pack
+      set: bfz

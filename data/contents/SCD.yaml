@@ -28,7 +28,14 @@ products:
       set: scd
     other:
     - name: 10 double sided tokens
-  Starter Commander Deck Set of 5:
+  Starter Commander Deck Token Triumph:
+    card_count: 100
+    deck:
+    - name: Token Triumph
+      set: scd
+    other:
+    - name: 10 double sided tokens
+  Starter Commander Decks - Set of 5: 
     sealed:
     - count: 1
       name: Starter Commander Deck Chaos Incarnate
@@ -45,10 +52,3 @@ products:
     - count: 1
       name: Starter Commander Deck Token Triumph
       set: scd
-  Starter Commander Deck Token Triumph:
-    card_count: 100
-    deck:
-    - name: Token Triumph
-      set: scd
-    other:
-    - name: 10 double sided tokens

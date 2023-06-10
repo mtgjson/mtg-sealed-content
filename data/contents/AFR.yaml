@@ -1,39 +1,185 @@
 code: afr
 products:
-  Adventures in the Forgotten Realms Bundle: []
-  Adventures in the Forgotten Realms Bundle Gift Edition: []
-  Adventures in the Forgotten Realms Collector Booster Box: []
-  Adventures in the Forgotten Realms Collector Booster Box Case: []
-  Adventures in the Forgotten Realms Collector Booster Hanger Pack: []
+  Adventures in the Forgotten Realms Bundle:
+    card:
+    - foil: true
+      name: Treasure Chest
+      number: 397
+      set: afr
+    other:
+    - name: Adventures in the Forgotten Realms 40-card Basic Land Bundle
+    - name: Adventures in the Forgotten Realms Premium Spindown
+    - name: 3 Oversized Dungeon Cards
+    sealed:
+    - count: 10
+      name: Adventures in the Forgotten Realms Draft Booster Pack
+      set: afr
+  Adventures in the Forgotten Realms Bundle Gift Edition:
+    card:
+    - foil: true
+      name: Treasure Chest
+      number: 397
+      set: afr
+    other:
+    - name: Adventures in the Forgotten Realms 40-card Basic Land Bundle
+    - name: Adventures in the Forgotten Realms Premium Spindown
+    - name: 3 Oversized Dungeon Cards
+    sealed:
+    - count: 10
+      name: Adventures in the Forgotten Realms Draft Booster Pack
+      set: afr
+    - count: 1
+      name: Adventures in the Forgotten Realms Collector Booster Pack
+      set: afr
+  Adventures in the Forgotten Realms Collector Booster Box:
+    sealed:
+    - count: 12
+      name: Adventures in the Forgotten Realms Collector Booster Pack
+      set: afr
+  Adventures in the Forgotten Realms Collector Booster Box Case:
+    sealed:
+    - count: 6
+      name: Adventures in the Forgotten Realms Collector Booster Box
+      set: afr
+  Adventures in the Forgotten Realms Collector Booster Hanger Pack:
+    sealed:
+    - count: 1
+      name: Adventures in the Forgotten Realms Collector Booster Pack
+      set: afr
   Adventures in the Forgotten Realms Collector Booster Pack:
     card_count: 15
     pack:
     - code: collector
       set: afr
-  Adventures in the Forgotten Realms Collector Booster Retail Pack: []
-  Adventures in the Forgotten Realms Draft Booster Box: []
-  Adventures in the Forgotten Realms Draft Booster Box Case: []
+  Adventures in the Forgotten Realms Collector Booster Retail Pack:
+    sealed:
+    - count: 1
+      name: Adventures in the Forgotten Realms Collector Booster Pack
+      set: afr
+  Adventures in the Forgotten Realms Draft Booster Box:
+    sealed:
+    - count: 36
+      name: Adventures in the Forgotten Realms Draft Booster Pack
+      set: afr
+  Adventures in the Forgotten Realms Draft Booster Box Case:
+    sealed:
+    - count: 6
+      name: Adventures in the Forgotten Realms Draft Booster Box
+      set: afr
   Adventures in the Forgotten Realms Draft Booster Pack:
     card_count: 15
     pack:
     - code: default
       set: afr
-  Adventures in the Forgotten Realms Prerelease Pack: []
-  Adventures in the Forgotten Realms Prerelease Pack Case: []
-  Adventures in the Forgotten Realms Set Booster Box: []
-  Adventures in the Forgotten Realms Set Booster Box Case: []
+  Adventures in the Forgotten Realms Prerelease Pack:
+    card_count: 1
+    other:
+    - name: Adventures in the Forgotten realms Prerelease Spindown
+    - name: 3 Double-Sided Foil Dungeon Cards
+    pack:
+    - code: prerelease
+      set: afr
+    sealed:
+    - count: 6
+      name: Adventures in the Forgotten Realms Draft Booster Pack
+      set: afr
+  Adventures in the Forgotten Realms Prerelease Pack Case:
+    sealed:
+    - count: 18
+      name: Adventures in the Forgotten Realms Prerelease Pack
+      set: afr
+  Adventures in the Forgotten Realms Set Booster Box:
+    sealed:
+    - count: 30
+      name: Adventures in the Forgotten Realms Set Booster Pack
+      set: afr
+  Adventures in the Forgotten Realms Set Booster Box Case:
+    sealed:
+    - count: 6
+      name: Adventures in the Forgotten Realms Set Booster Box
+      set: afr
   Adventures in the Forgotten Realms Set Booster Pack:
     card_count: 12
     pack:
     - code: set
       set: afr
-  Adventures in the Forgotten Realms Theme Booster Black: []
-  Adventures in the Forgotten Realms Theme Booster Blue: []
-  Adventures in the Forgotten Realms Theme Booster Box: []
-  Adventures in the Forgotten Realms Theme Booster Box Case: []
-  Adventures in the Forgotten Realms Theme Booster Dungeon Theme: []
-  Adventures in the Forgotten Realms Theme Booster Green: []
-  Adventures in the Forgotten Realms Theme Booster Red: []
-  Adventures in the Forgotten Realms Theme Booster Set of 6: []
-  Adventures in the Forgotten Realms Theme Booster White: []
-  Adventures in the Forgotten Realms Welcome Booster: []
+  Adventures in the Forgotten Realms Theme Booster Black:
+    card_count: 35
+    pack:
+    - code: theme-b
+      set: afr
+  Adventures in the Forgotten Realms Theme Booster Blue:
+    card_count: 35
+    pack:
+    - code: theme-u
+      set: afr
+  Adventures in the Forgotten Realms Theme Booster Box:
+    sealed:
+    - count: 2
+      name: Adventures in the Forgotten Realms Theme Booster White
+      set: afr
+    - count: 2
+      name: Adventures in the Forgotten Realms Theme Booster Blue
+      set: afr
+    - count: 2
+      name: Adventures in the Forgotten Realms Theme Booster Black
+      set: afr
+    - count: 2
+      name: Adventures in the Forgotten Realms Theme Booster Red
+      set: afr
+    - count: 2
+      name: Adventures in the Forgotten Realms Theme Booster Green
+      set: afr
+    - count: 2
+      name: Adventures in the Forgotten Realms Theme Booster Dungeon Theme
+      set: afr
+  Adventures in the Forgotten Realms Theme Booster Box Case:
+    sealed:
+    - count: 6
+      name: Adventures in the Forgotten Realms Theme Booster Box
+      set: afr
+  Adventures in the Forgotten Realms Theme Booster Dungeon Theme:
+    card_count: 35
+    pack:
+    - code: theme-dungeons
+      set: afr
+  Adventures in the Forgotten Realms Theme Booster Green:
+    card_count: 35
+    pack:
+    - code: theme-g
+      set: afr
+  Adventures in the Forgotten Realms Theme Booster Red:
+    card_count: 35
+    pack:
+    - code: theme-r
+      set: afr
+  Adventures in the Forgotten Realms Theme Booster Set of 6:
+    sealed:
+    - count: 1
+      name: Adventures in the Forgotten Realms Theme Booster White
+      set: afr
+    - count: 1
+      name: Adventures in the Forgotten Realms Theme Booster Blue
+      set: afr
+    - count: 1
+      name: Adventures in the Forgotten Realms Theme Booster Black
+      set: afr
+    - count: 1
+      name: Adventures in the Forgotten Realms Theme Booster Red
+      set: afr
+    - count: 1
+      name: Adventures in the Forgotten Realms Theme Booster Green
+      set: afr
+    - count: 1
+      name: Adventures in the Forgotten Realms Theme Booster Dungeon Theme
+      set: afr
+  Adventures in the Forgotten Realms Theme Booster White:
+    card_count: 35
+    pack:
+    - code: theme-w
+      set: afr
+  Adventures in the Forgotten Realms Welcome Booster:
+    card_count: 9
+    deck:
+    - name: Adventures in the Forgotten Realms Welcome Booster
+      set: afr

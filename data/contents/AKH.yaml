@@ -1,18 +1,106 @@
 code: akh
 products:
-  Amonkhet Booster Battle Pack: []
-  Amonkhet Booster Box: []
-  Amonkhet Booster Box Case: []
+  Amonkhet Booster Battle Pack:
+    sealed:
+    - count: 2
+      name: Amonkhet Booster Pack
+      set: akh
+    variable:
+    - card_count: 30
+      deck:
+      - name: Amonkhet Welcome Deck - White
+        set: w17
+    - card_count: 30
+      deck:
+      - name: Amonkhet Welcome Deck - Blue
+        set: w17
+    - card_count: 30
+      deck:
+      - name: Amonkhet Welcome Deck - Black
+        set: w17
+    - card_count: 30
+      deck:
+      - name: Amonkhet Welcome Deck - Red
+        set: w17
+    - card_count: 30
+      deck:
+      - name: Amonkhet Welcome Deck - Green
+        set: w17
+    variable_mode:
+      count: 2
+      replacement: false
+  Amonkhet Booster Box:
+    sealed:
+    - count: 36
+      name: Amonkhet Booster Pack
+      set: akh
+  Amonkhet Booster Box Case:
+    sealed:
+    - count: 6
+      name: Amonkhet Booster Box
+      set: akh
   Amonkhet Booster Pack:
     card_count: 15
     pack:
     - code: default
       set: akh
-  Amonkhet Bundle: []
+  Amonkhet Bundle:
+    other:
+    - name: Amonkhet 80-card Basic Land Bundle
+    - name: 20 Double-sided Tokens
+    - name: Amonkhet Reusable Card Storage Box
+    - name: Amonkhet Bundle Spindown
+    - name: Amonkhet Players Guide
+    sealed:
+    - count: 10
+      name: Amonkhet Booster Pack
+      set: akh
   Amonkhet Deck Builders Toolkit: []
-  Amonkhet Land Station: []
-  Amonkhet Planeswalker Deck Display: []
-  Amonkhet Planeswalker Deck Gideon: []
-  Amonkhet Planeswalker Deck Liliana: []
-  Amonkhet Planeswalker Deck Set of 2: []
-  Amonkhet Prerelease Pack: []
+  Amonkhet Land Station:
+    other:
+    - name: 400 Amonkhet Basic Lands (80 of Each Color)
+  Amonkhet Planeswalker Deck Display:
+    sealed:
+    - count: 3
+      name: Amonkhet Planeswalker Deck Gideon
+      set: akh
+    - count: 3
+      name: Amonkhet Planeswalker Deck Liliana
+      set: akh
+  Amonkhet Planeswalker Deck Gideon:
+    card_count: 60
+    deck:
+    - name: Gideon, Martial Paragon
+      set: akh
+    sealed:
+    - count: 2
+      name: Amonkhet Booster Pack
+      set: akh
+  Amonkhet Planeswalker Deck Liliana:
+    card_count: 60
+    deck:
+    - name: Liliana, Death Wielder
+      set: akh
+    sealed:
+    - count: 2
+      name: Amonkhet Booster Pack
+      set: akh
+  Amonkhet Planeswalker Decks - Set of 2: 
+    sealed:
+    - count: 1
+      name: Amonkhet Planeswalker Deck Gideon
+      set: akh
+    - count: 1
+      name: Amonkhet Planeswalker Deck Liliana
+      set: akh
+  Amonkhet Prerelease Pack:
+    card_count: 1
+    other:
+    - name: Amonkhet Prerelease Spindown
+    pack:
+    - code: prerelease
+      set: akh
+    sealed:
+    - count: 6
+      name: Amonkhet Booster Pack
+      set: akh
