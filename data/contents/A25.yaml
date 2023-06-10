@@ -1,8 +1,20 @@
 code: a25
 products:
-  Masters 25 3 Booster Draft Pack: []
-  Masters 25 Booster Box: []
-  Masters 25 Booster Box Case: []
+  Masters 25 3 Booster Draft Pack:
+    sealed:
+    - count: 3
+      name: Masters 25 Booster Pack
+      set: a25
+  Masters 25 Booster Box:
+    sealed:
+    - count: 24
+      name: Masters 25 Booster Pack
+      set: a25
+  Masters 25 Booster Box Case:
+    sealed:
+    - count: 6
+      name: Masters 25 Booster Box
+      set: a25
   Masters 25 Booster Pack:
     card_count: 15
     pack:
