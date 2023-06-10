@@ -1,14 +1,51 @@
 code: ptk
 products:
-  Portal Three Kingdoms Booster Box: []
+  Portal Three Kingdoms Booster Box:
+    sealed:
+    - count: 60
+      name: Portal Three Kingdoms Booster Pack
+      set: ptk
   Portal Three Kingdoms Booster Pack:
     card_count: 10
     pack:
     - code: default
       set: ptk
-  Portal Three Kingdoms Shu Kingdom Theme Deck: []
-  Portal Three Kingdoms Theme Deck Display: []
-  Portal Three Kingdoms Two Player Starter: []
-  Portal Three Kingdoms Two Player Starter Display: []
-  Portal Three Kingdoms Wei Kingdom Theme Deck: []
-  Portal Three Kingdoms Wu Kingdom Theme Deck: []
+  Portal Three Kingdoms Shu Kingdom Theme Deck:
+    card_count: 40
+    deck:
+    - name: Shu Kingdom
+      set: ptk
+  Portal Three Kingdoms Theme Deck Display:
+    sealed:
+    - count: 5
+      name: Portal Three Kingdoms Shu Kingdom Theme Deck
+      set: ptk
+    - count: 5
+      name: Portal Three Kingdoms Wei Kingdom Theme Deck
+      set: ptk
+    - count: 5
+      name: Portal Three Kingdoms Wu Kingdom Theme Deck
+      set: ptk
+  Portal Three Kingdoms Two Player Starter:
+    card_count: 60
+    deck:
+    - name: Preconstructed deck 1
+      set: ptk
+    - name: Preconstructed deck 2
+      set: ptk
+    other:
+    - name: 2 Playmats
+    - name: Magic the Gathering Play Guide
+    - name: Magic the Gathering Rulebook
+  Portal Three Kingdoms Two Player Starter Display:
+    copy: Portal Three Kingdoms Two Player Starter
+  Portal Three Kingdoms Wei Kingdom Theme Deck:
+    card_count: 40
+    deck:
+    - name: Wei Kingdom
+      set: ptk
+  Portal Three Kingdoms Wu Kingdom Theme Deck:
+    card_count: 40
+    deck:
+    - name: Wu Kingdom
+      set: ptk
