@@ -1,37 +1,192 @@
 code: eld
 products:
-  Throne of Eldraine Brawl Deck Faerie Schemes: []
-  Throne of Eldraine Brawl Deck Knights Charge: []
-  Throne of Eldraine Brawl Deck Savage Hunger: []
-  Throne of Eldraine Brawl Deck Wild Bounty: []
-  Throne of Eldraine Brawl Decks - Set of 4: []
+  Throne of Eldraine Brawl Deck Faerie Schemes:
+    card_count: 60
+    deck:
+    - name: Faerie Schemes
+      set: eld
+    other:
+    - name: Eldraine Brawl Life Wheel
+  Throne of Eldraine Brawl Deck Knights Charge:
+    card_count: 60
+    deck:
+    - name: Knights' Charge
+      set: eld
+    other:
+    - name: Eldraine Brawl Life Wheel
+  Throne of Eldraine Brawl Deck Savage Hunger:
+    card_count: 60
+    deck:
+    - name: Savage Hunter
+      set: eld
+    other:
+    - name: Eldraine Brawl Life Wheel
+  Throne of Eldraine Brawl Deck Wild Bounty:
+    card_count: 60
+    deck:
+    - name: Wild Bounty
+      set: eld
+    other:
+    - name: Eldraine Brawl Life Wheel
+  Throne of Eldraine Brawl Decks - Set of 4:
+    sealed:
+    - count: 1
+      name: Throne of Eldraine Brawl Deck Faerie Schemes
+      set: eld
+    - count: 1
+      name: Throne of Eldraine Brawl Deck Knights Charge
+      set: eld
+    - count: 1
+      name: Throne of Eldraine Brawl Deck Savage Hunger
+      set: eld
+    - count: 1
+      name: Throne of Eldraine Brawl Deck Wild Bounty
+      set: eld
   Throne of Eldraine Bundle: []
   Throne of Eldraine Bundle Gift Edition: []
-  Throne of Eldraine Collector Booster Box: []
-  Throne of Eldraine Collector Booster Case: []
-  Throne of Eldraine Collector Booster Hanger Pack: []
+  Throne of Eldraine Collector Booster Box:
+    sealed:
+    - count: 12
+      name: Throne of Eldraine Collector Booster Pack
+      set: eld
+  Throne of Eldraine Collector Booster Case:
+    sealed:
+    - count: 6
+      name: Throne of Eldraine Collector Booster Box
+      set: eld
+  Throne of Eldraine Collector Booster Hanger Pack:
+    sealed:
+    - count: 1
+      name: Throne of Eldraine Collector Booster Pack
+      set: eld
   Throne of Eldraine Collector Booster Pack:
     card_count: 15
     pack:
     - code: collector
       set: eld
-  Throne of Eldraine Deluxe Collection: []
-  Throne of Eldraine Draft Booster Box: []
-  Throne of Eldraine Draft Booster Box Case: []
+  Throne of Eldraine Deluxe Collection:
+    card:
+    - foil: true
+      name: Garruk, Cursed Huntsman
+      number: 270
+      set: eld
+    - foil: false
+      name: Kenrith, the Returned King
+      number: 303
+      set: eld
+    other:
+    - name: Eldraine Set Themed Binder
+    - name: Art Print of Borderless Garruk, Cursed Huntsman
+    - name: 3x3 Card Strip of a Foil Sheet of Throne of Eldraine
+    - name: MTG Arena Mega Code
+    sealed:
+    - count: 16
+      name: Throne of Eldraine Collector Booster Pack
+      set: eld
+  Throne of Eldraine Draft Booster Box:
+    sealed:
+    - count: 36
+      name: Throne of Eldraine Draft Booster Pack
+      set: eld
+  Throne of Eldraine Draft Booster Box Case:
+    sealed:
+    - count: 6
+      name: Throne of Eldraine Draft Booster Box
+      set: eld
   Throne of Eldraine Draft Booster Pack:
     card_count: 15
     pack:
     - code: default
       set: eld
-  Throne of Eldraine Planeswalker Deck Display: []
-  Throne of Eldraine Planeswalker Deck Oko: []
-  Throne of Eldraine Planeswalker Deck Rowan: []
-  Throne of Eldraine Planeswalker Decks - Set of 2: []
+  Throne of Eldraine Planeswalker Deck Display:
+    sealed:
+    - count: 3
+      name: Throne of Eldraine Planeswalker Deck Oko
+      set: eld
+    - count: 3
+      name: Throne of Eldraine Planeswalker Deck Rowan
+      set: eld
+  Throne of Eldraine Planeswalker Deck Oko:
+    deck:
+    - name: Oko, the Trickster
+      set: eld
+    sealed:
+    - count: 2
+      name: Throne of Eldraine Draft Booster Pack
+      set: eld
+  Throne of Eldraine Planeswalker Deck Rowan:
+    deck:
+    - name: Rowan, Fearless Sparkmage
+      set: eld
+    sealed:
+    - count: 2
+      name: Throne of Eldraine Draft Booster Pack
+      set: eld
+  Throne of Eldraine Planeswalker Decks - Set of 2:
+    sealed:
+    - count: 1
+      name: Throne of Eldraine Planeswalker Deck Oko
+      set: eld
+    - count: 1
+      name: Throne of Eldraine Planeswalker Deck Rowan
+      set: eld
   Throne of Eldraine Prerelease Pack: []
-  Throne of Eldraine Theme Booster Box: []
-  Throne of Eldraine Theme Booster Pack Black: []
-  Throne of Eldraine Theme Booster Pack Blue: []
-  Throne of Eldraine Theme Booster Pack Green: []
-  Throne of Eldraine Theme Booster Pack Red: []
-  Throne of Eldraine Theme Booster Pack Set of 5: []
-  Throne of Eldraine Theme Booster Pack White: []
+  Throne of Eldraine Theme Booster Box:
+    sealed:
+    - count: 2
+      name: Throne of Eldraine Theme Booster Pack White
+      set: eld
+    - count: 2
+      name: Throne of Eldraine Theme Booster Pack Blue
+      set: eld
+    - count: 2
+      name: Throne of Eldraine Theme Booster Pack Black
+      set: eld
+    - count: 2
+      name: Throne of Eldraine Theme Booster Pack Red
+      set: eld
+    - count: 2
+      name: Throne of Eldraine Theme Booster Pack Green
+      set: eld
+  Throne of Eldraine Theme Booster Pack Black:
+    card_count: 35
+    pack:
+    - code: theme-b
+      set: eld
+  Throne of Eldraine Theme Booster Pack Blue:
+    card_count: 35
+    pack:
+    - code: theme-u
+      set: eld
+  Throne of Eldraine Theme Booster Pack Green:
+    card_count: 35
+    pack:
+    - code: theme-g
+      set: eld
+  Throne of Eldraine Theme Booster Pack Red:
+    card_count: 35
+    pack:
+    - code: theme-r
+      set: eld
+  Throne of Eldraine Theme Booster Pack Set of 5:
+    sealed:
+    - count: 1
+      name: Throne of Eldraine Theme Booster Pack White
+      set: eld
+    - count: 1
+      name: Throne of Eldraine Theme Booster Pack Blue
+      set: eld
+    - count: 1
+      name: Throne of Eldraine Theme Booster Pack Black
+      set: eld
+    - count: 1
+      name: Throne of Eldraine Theme Booster Pack Red
+      set: eld
+    - count: 1
+      name: Throne of Eldraine Theme Booster Pack Green
+      set: eld
+  Throne of Eldraine Theme Booster Pack White:
+    card_count: 35
+    pack:
+    - code: theme-w
+      set: eld
