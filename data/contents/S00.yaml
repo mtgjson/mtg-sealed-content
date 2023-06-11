@@ -1,5 +1,33 @@
 code: s00
 products:
-  Starter 2000 Sampler Booster Pack: []
-  Starter 2000 Two Player Starter Game: []
-  Starter 2000 Two Player Starter Game Display: []
+  Starter 2000 Sampler Booster Pack:
+    card_count: 10
+    deck:
+    - name: Starter 2000 sampler pack
+      set: s00
+  Starter 2000 Two Player Starter Game:
+    card:
+    - foil: true
+      name: Rhox
+      number: 43
+      set: s00
+    card_count: 74
+    deck:
+    - name: Player A's deck
+      set: s00
+    - name: Player A's advanced pack
+      set: s00
+    - name: Player B's deck
+      set: s00
+    - name: Player B's advanced pack
+      set: s00
+    other:
+    - name: Two Play Guides
+    - name: Magic the Gathering Rulebook
+    - name: Two Playmats and Scorekeeping Disks
+    - name: CD-ROM with Magic Mini-Games
+  Starter 2000 Two Player Starter Game Display:
+    sealed:
+    - count: 6
+      name: Starter 2000 Two Player Starter Game
+      set: s00
