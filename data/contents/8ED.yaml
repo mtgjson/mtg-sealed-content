@@ -1,19 +1,91 @@
 code: 8ed
 products:
   Eighth Edition Advanced Booster Pack: []
-  Eighth Edition Booster Box: []
+  Eighth Edition Booster Box:
+    sealed:
+    - count: 36
+      name: Eighth Edition Booster Pack
+      set: 8ed
   Eighth Edition Booster Pack:
     card_count: 15
     pack:
     - code: default
       set: 8ed
   Eighth Edition Box: []
-  Eighth Edition Box Two Player Starter: []
-  Eighth Edition Demo Game Booster Pack: []
-  Eighth Edition Theme Deck Display: []
-  Eighth Edition Theme Deck Expulsion: []
-  Eighth Edition Theme Deck Heavy Hitters: []
-  Eighth Edition Theme Deck Life Boost: []
-  Eighth Edition Theme Deck Sky Slam: []
-  Eighth Edition Theme Deck Speed Scorch: []
-  Eighth Edition Two Player Starter Display: []
+  Eighth Edition Box Two Player Starter:
+    card:
+    - foil: true
+      name: Elvish Champion
+      number: "241\u2605"
+      set: 8ed
+    card_count: 66
+    deck:
+    - name: Gold Deck
+      set: 8ed
+    - name: Silver Deck
+      set: 8ed
+    other:
+    - name: 2 Playmats
+    - name: 2 Cardboard Life Counters
+    - name: Guide To Cover 1 Demo Game
+    - name: Enhanced Eighth Edition Rule Book
+    - name: CD-ROM Including Magic Test Games
+    - name: Manual for Magic Online
+    sealed:
+    - count: 1
+      name: Eighth Edition Demo Game Booster Pack
+      set: 8ed
+  Eighth Edition Demo Game Booster Pack:
+    card_count: 14
+    deck:
+    - name: Gold Pack
+      set: 8ed
+    - name: Silver Pack
+      set: 8ed
+  Eighth Edition Theme Deck Display:
+    sealed:
+    - count: 3
+      name: Eighth Edition Theme Deck Expulsion
+      set: 8ed
+    - count: 3
+      name: Eighth Edition Theme Deck Heavy Hitters
+      set: 8ed
+    - count: 3
+      name: Eighth Edition Theme Deck Life Boost
+      set: 8ed
+    - count: 3
+      name: Eighth Edition Theme Deck Sky Slam
+      set: 8ed
+    - count: 3
+      name: Eighth Edition Theme Deck Speed Scorch
+      set: 8ed
+  Eighth Edition Theme Deck Expulsion:
+    card_count: 40
+    deck:
+    - name: Expulsion
+      set: 8ed
+  Eighth Edition Theme Deck Heavy Hitters:
+    card_count: 40
+    deck:
+    - name: Heavy Hitters
+      set: 8ed
+  Eighth Edition Theme Deck Life Boost:
+    card_count: 40
+    deck:
+    - name: Life Boost
+      set: 8ed
+  Eighth Edition Theme Deck Sky Slam:
+    card_count: 40
+    deck:
+    - name: Sky Slam
+      set: 8ed
+  Eighth Edition Theme Deck Speed Scorch:
+    card_count: 40
+    deck:
+    - name: Speed Scorch
+      set: 8ed
+  Eighth Edition Two Player Starter Display:
+    sealed:
+    - count: 6
+      name: Eighth Edition Box Two Player Starter
+      set: 8ed

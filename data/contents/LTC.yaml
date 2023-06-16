@@ -1,7 +1,69 @@
 code: ltc
 products:
-  The Lord of the Rings Tales of Middle earth Commander Deck Elven Council: []
-  The Lord of the Rings Tales of Middle earth Commander Deck Food and Fellowship: []
-  The Lord of the Rings Tales of Middle earth Commander Deck Riders of Rohan: []
-  The Lord of the Rings Tales of Middle earth Commander Deck The Hosts of Mordor: []
-  The Lord of the Rings Tales of Middle earth Commander Decks - Set of 4: []
+  The Lord of the Rings Tales of Middle earth Commander Deck Elven Council:
+    card_count: 100
+    deck:
+    - name: Elven Council
+      set: ltc
+    other:
+    - name: 10 Double Sided Tokens
+    - name: Tales of Middle Earth Life Wheel
+    - name: 1 Foil Etched Display Commander
+    sealed:
+    - count: 1
+      name: The Lord of the Rings Tales of Middle earth Collector Booster Sample Pack
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Commander Deck Food and Fellowship:
+    card_count: 100
+    deck:
+    - name: Food and Fellowship
+      set: ltc
+    other:
+    - name: 10 Double Sided Tokens
+    - name: Tales of Middle Earth Life Wheel
+    - name: 1 Foil Etched Display Commander
+    sealed:
+    - count: 1
+      name: The Lord of the Rings Tales of Middle earth Collector Booster Sample Pack
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Commander Deck Riders of Rohan:
+    card_count: 100
+    deck:
+    - name: Riders of Rohan
+      set: ltc
+    other:
+    - name: 10 Double Sided Tokens
+    - name: Tales of Middle Earth Life Wheel
+    - name: 1 Foil Etched Display Commander
+    sealed:
+    - count: 1
+      name: The Lord of the Rings Tales of Middle earth Collector Booster Sample Pack
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Commander Deck The Hosts of Mordor:
+    card_count: 100
+    deck:
+    - name: The Hosts of Mordor
+      set: ltc
+    other:
+    - name: 10 Double Sided Tokens
+    - name: Tales of Middle Earth Life Wheel
+    - name: 1 Foil Etched Display Commander
+    sealed:
+    - count: 1
+      name: The Lord of the Rings Tales of Middle earth Collector Booster Sample Pack
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Commander Decks - Set of 4:
+    sealed:
+    - count: 1
+      name: The Lord of the Rings Tales of Middle earth Commander Deck Elven Council
+      set: ltc
+    - count: 1
+      name: The Lord of the Rings Tales of Middle earth Commander Deck Food and Fellowship
+      set: ltc
+    - count: 1
+      name: The Lord of the Rings Tales of Middle earth Commander Deck Riders of Rohan
+      set: ltc
+    - count: 1
+      name: The Lord of the Rings Tales of Middle earth Commander Deck The Hosts of
+        Mordor
+      set: ltc
