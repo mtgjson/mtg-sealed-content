@@ -1,32 +1,185 @@
 code: ltr
 products:
-  The Lord of the Rings Tales of Middle earth Bundle: []
-  The Lord of the Rings Tales of Middle earth Bundle Case: []
-  The Lord of the Rings Tales of Middle earth Collector Booster Box: []
-  The Lord of the Rings Tales of Middle earth Collector Booster Box Case: []
-  The Lord of the Rings Tales of Middle earth Collector Booster Pack: []
-  The Lord of the Rings Tales of Middle earth Draft Booster Box: []
-  The Lord of the Rings Tales of Middle earth Draft Booster Box Case: []
-  The Lord of the Rings Tales of Middle earth Draft Booster Pack: []
-  The Lord of the Rings Tales of Middle earth Gift Bundle: []
-  The Lord of the Rings Tales of Middle earth Gift Bundle Case: []
-  The Lord of the Rings Tales of Middle earth Jumpstart Booster Box: []
-  The Lord of the Rings Tales of Middle earth Jumpstart Booster Box Case: []
-  The Lord of the Rings Tales of Middle earth Jumpstart Booster Pack: []
-  The Lord of the Rings Tales of Middle earth Prerelease Pack: []
-  The Lord of the Rings Tales of Middle earth Set Booster Box: []
-  The Lord of the Rings Tales of Middle earth Set Booster Box Case: []
-  The Lord of the Rings Tales of Middle earth Set Booster Pack: []
-  The Lord of the Rings Tales of Middle earth Starter Kit: []
-  'The Lord of the Rings: Tales of Middle-earth Bundle': []
-  'The Lord of the Rings: Tales of Middle-earth Collector Booster Box': []
-  'The Lord of the Rings: Tales of Middle-earth Collector Booster Pack': []
-  'The Lord of the Rings: Tales of Middle-earth Draft Booster Box': []
-  'The Lord of the Rings: Tales of Middle-earth Draft Booster Pack': []
-  'The Lord of the Rings: Tales of Middle-earth Jumpstart Booster Box': []
-  'The Lord of the Rings: Tales of Middle-earth Jumpstart Booster Pack': []
-  'The Lord of the Rings: Tales of Middle-earth Set Booster Box': []
-  'The Lord of the Rings: Tales of Middle-earth Set Booster Combo Pack': []
-  'The Lord of the Rings: Tales of Middle-earth Set Booster Pack': []
-  'The Lord of the Rings: Tales of Middle-earth Set Booster Variety Pack': []
-  'The Lord of the Rings: Tales of Middle-earth Starter Kit': []
+  The Lord of the Rings Tales of Middle earth Box Topper Pack:
+    card_count: 1
+    pack:
+    - code: box-topper
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Bundle:
+    card:
+    - foil: true
+      name: Frodo, Sauron's Bane
+      number: 448
+      set: ltr
+    - foil: true
+      name: Gollum, Patient Plotter
+      number: 450
+      set: ltr
+    - foil: true
+      name: Samwise the Stoutharted
+      number: 449
+      set: ltr
+    - foil: true
+      name: The One Ring
+      number: 451
+      set: ltr
+    other:
+    - name: Tales of Middle Earth 40-card Land Bundle
+    - name: Tales of Middle Earth Premium Spindown
+    sealed:
+    - count: 8
+      name: The Lord of the Rings Tales of Middle earth Set Booster Pack
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Bundle Case:
+    sealed:
+    - count: 6
+      name: The Lord of the Rings Tales of Middle earth Bundle
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Collector Booster Box:
+    sealed:
+    - count: 12
+      name: The Lord of the Rings Tales of Middle earth Collector Booster Pack
+      set: ltr
+    - count: 1
+      name: The Lord of the Rings Tales of Middle earth Box Topper Pack
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Collector Booster Box Case:
+    sealed:
+    - count: 6
+      name: The Lord of the Rings Tales of Middle earth Collector Booster Box
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Collector Booster Pack:
+    card_count: 15
+    pack:
+    - code: collector
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Collector Booster Sample Pack:
+    card_count: 2
+    pack:
+    - code: collector-sample
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Draft Booster Box:
+    sealed:
+    - count: 36
+      name: The Lord of the Rings Tales of Middle earth Draft Booster Pack
+      set: ltr
+    - count: 1
+      name: The Lord of the Rings Tales of Middle earth Box Topper Pack
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Draft Booster Box Case:
+    sealed:
+    - count: 6
+      name: The Lord of the Rings Tales of Middle earth Draft Booster Box
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Draft Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Gift Bundle:
+    card:
+    - foil: true
+      name: Frodo, Sauron's Bane
+      number: 448
+      set: ltr
+    - foil: true
+      name: Gollum, Patient Plotter
+      number: 450
+      set: ltr
+    - foil: true
+      name: Samwise the Stoutharted
+      number: 449
+      set: ltr
+    - foil: true
+      name: The One Ring
+      number: 451
+      set: ltr
+    other:
+    - name: Tales of Middle Earth 40-card Land Bundle
+    - name: Tales of Middle Earth Gift Bundle Spindown
+    sealed:
+    - count: 8
+      name: The Lord of the Rings Tales of Middle earth Set Booster Pack
+      set: ltr
+    - count: 1
+      name: The Lord of the Rings Tales of Middle earth Collector Booster Pack
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Gift Bundle Case:
+    sealed:
+    - count: 6
+      name: The Lord of the Rings Tales of Middle earth Gift Bundle
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Jumpstart Booster Box:
+    sealed:
+    - count: 20
+      name: The Lord of the Rings Tales of Middle earth Jumpstart Booster Pack
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Jumpstart Booster Box Case:
+    sealed:
+    - count: 6
+      name: The Lord of the Rings Tales of Middle earth Jumpstart Booster Box
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Jumpstart Booster Pack:
+    card_count: 20
+    pack:
+    - code: jumpstart
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Prerelease Pack:
+    card_count: 2
+    other:
+    - name: Tales of Middle Earth Prerelease Spindown
+    pack:
+    - code: prerelease
+      set: ltr
+    sealed:
+    - count: 6
+      name: The Lord of the Rings Tales of Middle earth Draft Booster Pack
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Set Booster Box:
+    sealed:
+    - count: 30
+      name: The Lord of the Rings Tales of Middle earth Set Booster Pack
+      set: ltr
+    - count: 1
+      name: The Lord of the Rings Tales of Middle earth Box Topper Pack
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Set Booster Box Case:
+    sealed:
+    - count: 6
+      name: The Lord of the Rings Tales of Middle earth Set Booster Box
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Set Booster Combo Pack:
+    sealed:
+    - count: 1
+      name: The Lord of the Rings Tales of Middle earth Set Booster Box
+      set: ltr
+    - count: 1
+      name: The Lord of the Rings Tales of Middle earth Bundle
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Set Booster Pack:
+    card_count: 12
+    pack:
+    - code: set
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Set Booster Variety Pack:
+    sealed:
+    - count: 1
+      name: The Lord of the Rings Tales of Middle earth Set Booster Box
+      set: ltr
+    - count: 1
+      name: The Lord of the Rings Tales of Middle earth Bundle
+      set: ltr
+    - count: 1
+      name: The Lord of the Rings Tales of Middle earth Commander Decks - Set of 4
+      set: ltc
+  The Lord of the Rings Tales of Middle earth Starter Kit:
+    card_count: 120
+    deck:
+    - name: Gondor - Green-White
+      set: ltr
+    - name: Mordor - Black-Red
+      set: ltr
+    other:
+    - name: Magic Learn To Play Guide
+    - name: Two Deck Boxes
+    - name: Arena redemption codes
