@@ -10,16 +10,64 @@ products:
     pack:
     - code: default
       set: rtr
-  Return to Ravnica Event Deck Creep and Conquer: []
+  Return to Ravnica Event Deck Creep and Conquer:
+    card_count: 75
+    deck:
+    - name: Creep and Conquer
+      set: rtr
   Return to Ravnica Event Deck Display: []
-  Return to Ravnica Event Deck Wrack and Rage: []
+  Return to Ravnica Event Deck Wrack and Rage:
+    card_count: 75
+    deck:
+    - name: Wrack and Rage
+      set: rtr
   Return to Ravnica Fat Pack: []
   Return to Ravnica Holiday Gift Box: []
-  Return to Ravnica Intro Pack Azorius Advance: []
-  Return to Ravnica Intro Pack Golgari Growth: []
-  Return to Ravnica Intro Pack Izzet Ingenuity: []
-  Return to Ravnica Intro Pack Rakdos Raid: []
-  Return to Ravnica Intro Pack Selesnya Surge: []
+  Return to Ravnica Intro Pack Azorius Advance:
+    card_count: 60
+    deck:
+    - name: Azorius Advance
+      set: rtr
+    sealed:
+    - count: 2
+      name: Return to Ravnica Booster Pack
+      set: rtr
+  Return to Ravnica Intro Pack Golgari Growth:
+    card_count: 60
+    deck:
+    - name: Golgari Growth
+      set: rtr
+    sealed:
+    - count: 2
+      name: Return to Ravnica Booster Pack
+      set: rtr
+  Return to Ravnica Intro Pack Izzet Ingenuity:
+    card_count: 60
+    deck:
+    - name: Izzet Ingenuity
+      set: rtr
+    sealed:
+    - count: 2
+      name: Return to Ravnica Booster Pack
+      set: rtr
+  Return to Ravnica Intro Pack Rakdos Raid:
+    card_count: 60
+    deck:
+    - name: Rakdos Raid
+      set: rtr
+    sealed:
+    - count: 2
+      name: Return to Ravnica Booster Pack
+      set: rtr
+  Return to Ravnica Intro Pack Selesnya Surge:
+    card_count: 60
+    deck:
+    - name: Selesnya Surge
+      set: rtr
+    sealed:
+    - count: 2
+      name: Return to Ravnica Booster Pack
+      set: rtr
   Return to Ravnica Prerelease Pack Azorius: []
   Return to Ravnica Prerelease Pack Golgari: []
   Return to Ravnica Prerelease Pack Izzet: []

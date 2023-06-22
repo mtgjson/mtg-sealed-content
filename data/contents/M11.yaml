@@ -1,21 +1,61 @@
 code: m11
 products:
   2011 Core Set 3x Booster Packs draft set: []
-  2011 Core Set 6 Card Booster Pack:
+  2011 Core Set 6 Card Booster Pack: []
+  2011 Core Set Booster Box: []
+  2011 Core Set Booster Box Case 6 Boxes: []
+  2011 Core Set Booster Pack:
     card_count: 15
     pack:
     - code: default
       set: m11
-  2011 Core Set Booster Box: []
-  2011 Core Set Booster Box Case 6 Boxes: []
-  2011 Core Set Booster Pack: []
   2011 Core Set Deck Builders Toolkit: []
   2011 Core Set Fat Pack: []
-  2011 Core Set Intro Pack Blades of Victory: []
-  2011 Core Set Intro Pack Breath of Fire: []
+  2011 Core Set Intro Pack Blades of Victory:
+    card_count: 60
+    deck:
+    - name: Blades of Victory
+      set: m11
+    sealed:
+    - count: 1
+      name: 2011 Core Set Booster Pack
+      set: m11
+  2011 Core Set Intro Pack Breath of Fire:
+    card_count: 60
+    deck:
+    - name: Breath of Fire
+      set: m11
+    sealed:
+    - count: 1
+      name: 2011 Core Set Booster Pack
+      set: m11
   2011 Core Set Intro Pack Display: []
-  2011 Core Set Intro Pack Power of Prophecy: []
-  2011 Core Set Intro Pack Reign of Vampirism: []
-  2011 Core Set Intro Pack Stampede of Beasts: []
+  2011 Core Set Intro Pack Power of Prophecy:
+    card_count: 60
+    deck:
+    - name: Power of Prophecy
+      set: m11
+    sealed:
+    - count: 1
+      name: 2011 Core Set Booster Pack
+      set: m11
+  2011 Core Set Intro Pack Reign of Vampirism:
+    card_count: 60
+    deck:
+    - name: Reign of Vampirism
+      set: m11
+    sealed:
+    - count: 1
+      name: 2011 Core Set Booster Pack
+      set: m11
+  2011 Core Set Intro Pack Stampede of Beasts:
+    card_count: 60
+    deck:
+    - name: Stampede of Beasts
+      set: m11
+    sealed:
+    - count: 1
+      name: 2011 Core Set Booster Pack
+      set: m11
   2011 Core Set Land Station: []
   2011 Core Set Set of 5 Intro Pack: []

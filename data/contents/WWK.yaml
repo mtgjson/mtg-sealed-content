@@ -7,9 +7,49 @@ products:
     - code: default
       set: wwk
   Worldwake Fat Pack: []
-  Worldwake Intro Pack Brute Force: []
+  Worldwake Intro Pack Brute Force:
+    card_count: 41
+    deck:
+    - name: Brute Force
+      set: wwk
+    sealed:
+    - count: 1
+      name: Worldwake Booster Pack
+      set: wwk
   Worldwake Intro Pack Display: []
-  Worldwake Intro Pack Fangs of the Bloodchief: []
-  Worldwake Intro Pack Flyover: []
-  Worldwake Intro Pack Mysterious Realms: []
-  Worldwake Intro Pack Rapid Fire: []
+  Worldwake Intro Pack Fangs of the Bloodchief:
+    card_count: 41
+    deck:
+    - name: Fangs of the Bloodchief
+      set: wwk
+    sealed:
+    - count: 1
+      name: Worldwake Booster Pack
+      set: wwk
+  Worldwake Intro Pack Flyover:
+    card_count: 41
+    deck:
+    - name: Flyover
+      set: wwk
+    sealed:
+    - count: 1
+      name: Worldwake Booster Pack
+      set: wwk
+  Worldwake Intro Pack Mysterious Realms:
+    card_count: 41
+    deck:
+    - name: Mysterious Realms
+      set: wwk
+    sealed:
+    - count: 1
+      name: Worldwake Booster Pack
+      set: wwk
+  Worldwake Intro Pack Rapid Fire:
+    card_count: 41
+    deck:
+    - name: Rapid Fire
+      set: wwk
+    sealed:
+    - count: 1
+      name: Worldwake Booster Pack
+      set: wwk

@@ -9,15 +9,63 @@ products:
     - code: default
       set: gtc
   Gatecrash Event Deck Display: []
-  Gatecrash Event Deck Rally and Rout: []
-  Gatecrash Event Deck Thrive and Thrash: []
+  Gatecrash Event Deck Rally and Rout:
+    card_count: 75
+    deck:
+    - name: Rally and Rout
+      set: gtc
+  Gatecrash Event Deck Thrive and Thrash:
+    card_count: 75
+    deck:
+    - name: Thrive and Thrash
+      set: gtc
   Gatecrash Fat Pack: []
-  Gatecrash Intro Pack Boros Battalion: []
-  Gatecrash Intro Pack Dimir Dementia: []
-  Gatecrash Intro Pack Gruul Goliaths: []
-  Gatecrash Intro Pack Orzhov Oppression: []
+  Gatecrash Intro Pack Boros Battalion:
+    card_count: 60
+    deck:
+    - name: Boros Battalion
+      set: gtc
+    sealed:
+    - count: 2
+      name: Gatecrash Booster Pack
+      set: gtc
+  Gatecrash Intro Pack Dimir Dementia:
+    card_count: 60
+    deck:
+    - name: Dimir Dementia
+      set: gtc
+    sealed:
+    - count: 2
+      name: Gatecrash Booster Pack
+      set: gtc
+  Gatecrash Intro Pack Gruul Goliaths:
+    card_count: 60
+    deck:
+    - name: Gruul Goliaths
+      set: gtc
+    sealed:
+    - count: 2
+      name: Gatecrash Booster Pack
+      set: gtc
+  Gatecrash Intro Pack Orzhov Oppression:
+    card_count: 60
+    deck:
+    - name: Orzhov Oppression
+      set: gtc
+    sealed:
+    - count: 2
+      name: Gatecrash Booster Pack
+      set: gtc
   Gatecrash Intro Pack Set of 5: []
-  Gatecrash Intro Pack Simic Synthesis: []
+  Gatecrash Intro Pack Simic Synthesis:
+    card_count: 60
+    deck:
+    - name: Simic Synthesis
+      set: gtc
+    sealed:
+    - count: 2
+      name: Gatecrash Booster Pack
+      set: gtc
   Gatecrash Prerelease Kit Boros: []
   Gatecrash Prerelease Kit Dimir: []
   Gatecrash Prerelease Kit Gruul: []

@@ -8,7 +8,19 @@ products:
       set: dst
   Darksteel Fat Pack: []
   Darksteel Theme Deck Display: []
-  Darksteel Theme Deck Master Blaster: []
-  Darksteel Theme Deck Mind Swarm: []
+  Darksteel Theme Deck Master Blaster:
+    card_count: 60
+    deck:
+    - name: Master Blaster
+      set: dst
+  Darksteel Theme Deck Mind Swarm:
+    card_count: 60
+    deck:
+    - name: Mind Swarm
+      set: dst
   Darksteel Theme Deck Swarm and Slam: []
-  Darksteel Theme Deck Transference: []
+  Darksteel Theme Deck Transference:
+    card_count: 60
+    deck:
+    - name: Transference
+      set: dst

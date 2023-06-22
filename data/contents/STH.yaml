@@ -6,8 +6,24 @@ products:
     pack:
     - code: default
       set: sth
-  Stronghold Theme Deck Call of the Kor: []
+  Stronghold Theme Deck Call of the Kor:
+    card_count: 60
+    deck:
+    - name: Call of the Kor
+      set: sth
   Stronghold Theme Deck Display: []
-  Stronghold Theme Deck Migraine: []
-  Stronghold Theme Deck The Sparkler: []
-  Stronghold Theme Deck The Spikes: []
+  Stronghold Theme Deck Migraine:
+    card_count: 60
+    deck:
+    - name: Migraine
+      set: sth
+  Stronghold Theme Deck The Sparkler:
+    card_count: 60
+    deck:
+    - name: The Sparkler
+      set: sth
+  Stronghold Theme Deck The Spikes:
+    card_count: 60
+    deck:
+    - name: The Spikes
+      set: sth

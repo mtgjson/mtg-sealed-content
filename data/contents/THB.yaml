@@ -16,9 +16,25 @@ products:
     pack:
     - code: default
       set: thb
-  Theros Beyond Death Planeswalker Deck Ashiok: []
+  Theros Beyond Death Planeswalker Deck Ashiok:
+    card_count: 60
+    deck:
+    - name: Ashiok
+      set: thb
+    sealed:
+    - count: 1
+      name: Theros Beyond Death Draft Booster Pack
+      set: thb
   Theros Beyond Death Planeswalker Deck Display: []
-  Theros Beyond Death Planeswalker Deck Elspeth: []
+  Theros Beyond Death Planeswalker Deck Elspeth:
+    card_count: 60
+    deck:
+    - name: Elspeth
+      set: thb
+    sealed:
+    - count: 1
+      name: Theros Beyond Death Draft Booster Pack
+      set: thb
   Theros Beyond Death Planeswalker Decks - Set of 2: []
   Theros Beyond Death Prerelease Pack: []
   Theros Beyond Death Prerelease Pack Case: []

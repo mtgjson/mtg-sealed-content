@@ -8,7 +8,23 @@ products:
       set: pcy
   Prophecy Fat Pack: []
   Prophecy Theme Deck Display: []
-  Prophecy Theme Deck Distress: []
-  Prophecy Theme Deck Pummel: []
-  Prophecy Theme Deck Slither: []
-  Prophecy Theme Deck Turnaround: []
+  Prophecy Theme Deck Distress:
+    card_count: 60
+    deck:
+    - name: Distress
+      set: pcy
+  Prophecy Theme Deck Pummel:
+    card_count: 60
+    deck:
+    - name: Pummel
+      set: pcy
+  Prophecy Theme Deck Slither:
+    card_count: 60
+    deck:
+    - name: Slither
+      set: pcy
+  Prophecy Theme Deck Turnaround:
+    card_count: 60
+    deck:
+    - name: Turnaround
+      set: pcy

@@ -7,14 +7,62 @@ products:
   2012 Core Set Booster Box Case 6 Boxes: []
   2012 Core Set Booster Pack: []
   2012 Core Set Deck Builders Toolkit: []
-  2012 Core Set Event Deck Illusionary Might: []
-  2012 Core Set Event Deck Vampire Onslaught: []
+  2012 Core Set Event Deck Illusionary Might:
+    card_count: 75
+    deck:
+    - name: Illusionary Might
+      set: m12
+  2012 Core Set Event Deck Vampire Onslaught:
+    card_count: 75
+    deck:
+    - name: Vampire Onslaught
+      set: m12
   2012 Core Set Event Decks - Set of 2: []
   2012 Core Set Fat Pack: []
   2012 Core Set Intro Pack Display: []
-  '2012 Core Set Intro Pack: Blood and Fire (Red/Black)': []
-  '2012 Core Set Intro Pack: Entangling Webs (Green/Red)': []
-  '2012 Core Set Intro Pack: Grab for Power (Black/Blue)': []
-  '2012 Core Set Intro Pack: Mystical Might (Blue/White)': []
-  '2012 Core Set Intro Pack: Sacred Assault (White/Green)': []
+  '2012 Core Set Intro Pack: Blood and Fire (Red/Black)':
+    card_count: 60
+    deck:
+    - name: Blood and Fire
+      set: m12
+    sealed:
+    - count: 1
+      name: 2012 Core Set Booster Pack
+      set: m12
+  '2012 Core Set Intro Pack: Entangling Webs (Green/Red)':
+    card_count: 60
+    deck:
+    - name: Entangling Webs
+      set: m12
+    sealed:
+    - count: 1
+      name: 2012 Core Set Booster Pack
+      set: m12
+  '2012 Core Set Intro Pack: Grab for Power (Black/Blue)':
+    card_count: 60
+    deck:
+    - name: Grab for Power
+      set: m12
+    sealed:
+    - count: 1
+      name: 2012 Core Set Booster Pack
+      set: m12
+  '2012 Core Set Intro Pack: Mystical Might (Blue/White)':
+    card_count: 60
+    deck:
+    - name: Mystical Might
+      set: m12
+    sealed:
+    - count: 1
+      name: 2012 Core Set Booster Pack
+      set: m12
+  '2012 Core Set Intro Pack: Sacred Assault (White/Green)':
+    card_count: 60
+    deck:
+    - name: Sacred Assault
+      set: m12
+    sealed:
+    - count: 1
+      name: 2012 Core Set Booster Pack
+      set: m12
   2012 Core Set Set of 5 Intro Packs: []

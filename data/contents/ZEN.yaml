@@ -9,10 +9,50 @@ products:
     - code: default
       set: zen
   Zendikar Fat Pack: []
-  Zendikar Intro Pack Black Rise of the Vampires: []
-  Zendikar Intro Pack Blue Unstable Terrain: []
+  Zendikar Intro Pack Black Rise of the Vampires:
+    card_count: 41
+    deck:
+    - name: Rise of the Vampires
+      set: zen
+    sealed:
+    - count: 1
+      name: Zendikar Booster Pack
+      set: zen
+  Zendikar Intro Pack Blue Unstable Terrain:
+    card_count: 41
+    deck:
+    - name: Unstable Terrain
+      set: zen
+    sealed:
+    - count: 1
+      name: Zendikar Booster Pack
+      set: zen
   Zendikar Intro Pack Display: []
-  Zendikar Intro Pack Green The Adventurers: []
-  Zendikar Intro Pack Red Pumped Up: []
-  Zendikar Intro Pack White Kor Armory: []
+  Zendikar Intro Pack Green The Adventurers:
+    card_count: 41
+    deck:
+    - name: The Adventurers
+      set: zen
+    sealed:
+    - count: 1
+      name: Zendikar Booster Pack
+      set: zen
+  Zendikar Intro Pack Red Pumped Up:
+    card_count: 41
+    deck:
+    - name: Pumped Up
+      set: zen
+    sealed:
+    - count: 1
+      name: Zendikar Booster Pack
+      set: zen
+  Zendikar Intro Pack White Kor Armory:
+    card_count: 41
+    deck:
+    - name: Kor Armory
+      set: zen
+    sealed:
+    - count: 1
+      name: Zendikar Booster Pack
+      set: zen
   Zendikar Set of 5 Intro Packs: []

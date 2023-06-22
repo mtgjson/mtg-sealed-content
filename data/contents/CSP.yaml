@@ -1,7 +1,15 @@
 code: csp
 products:
-  Coldsnap Aurochs Stampede Precon Theme Deck: []
-  Coldsnap Beyond the Grave Precon Theme Deck: []
+  Coldsnap Aurochs Stampede Precon Theme Deck:
+    card_count: 60
+    deck:
+    - name: Aurochs Stampede
+      set: csp
+  Coldsnap Beyond the Grave Precon Theme Deck:
+    card_count: 60
+    deck:
+    - name: Beyond The Grave
+      set: csp
   Coldsnap Booster Box: []
   Coldsnap Booster Pack:
     card_count: 15
@@ -9,6 +17,14 @@ products:
     - code: default
       set: csp
   Coldsnap Fat Pack: []
-  Coldsnap Kjeldoran Cunning Precon Theme Deck: []
-  Coldsnap Snowscape Precon Theme Deck: []
+  Coldsnap Kjeldoran Cunning Precon Theme Deck:
+    card_count: 60
+    deck:
+    - name: Kjeldoran Cunning
+      set: csp
+  Coldsnap Snowscape Precon Theme Deck:
+    card_count: 60
+    deck:
+    - name: Snowscape
+      set: csp
   Coldsnap Theme Deck Display: []

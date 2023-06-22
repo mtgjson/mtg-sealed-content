@@ -7,8 +7,20 @@ products:
     - code: default
       set: mor
   Morningtide Fat Pack: []
-  Morningtide Theme Deck Battalion: []
+  Morningtide Theme Deck Battalion:
+    card_count: 60
+    deck:
+    - name: Battalion
+      set: mor
   Morningtide Theme Deck Display: []
-  Morningtide Theme Deck Going Rogue: []
-  Morningtide Theme Deck Shamanism: []
+  Morningtide Theme Deck Going Rogue:
+    card_count: 60
+    deck:
+    - name: Going Rogue
+      set: mor
+  Morningtide Theme Deck Shamanism:
+    card_count: 60
+    deck:
+    - name: Shamanism
+      set: mor
   Morningtide Theme Deck Warriors Code: []

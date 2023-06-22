@@ -9,13 +9,53 @@ products:
       set: frf
   Fate Reforged Clash Pack: []
   Fate Reforged Fat Pack: []
-  Fate Reforged Intro Pack Cunning Plan: []
+  Fate Reforged Intro Pack Cunning Plan:
+    card_count: 60
+    deck:
+    - name: Cunning Plan
+      set: frf
+    sealed:
+    - count: 2
+      name: Fate Reforged Booster Pack
+      set: frf
   Fate Reforged Intro Pack Display: []
-  Fate Reforged Intro Pack Grave Advantage: []
+  Fate Reforged Intro Pack Grave Advantage:
+    card_count: 60
+    deck:
+    - name: Grave Advantage
+      set: frf
+    sealed:
+    - count: 2
+      name: Fate Reforged Booster Pack
+      set: frf
   Fate Reforged Intro Pack Set of 5: []
-  Fate Reforged Intro Pack Stampeding Hordes: []
-  Fate Reforged Intro Pack Surprise Attack: []
-  Fate Reforged Intro Pack Unflinching Assault: []
+  Fate Reforged Intro Pack Stampeding Hordes:
+    card_count: 60
+    deck:
+    - name: Stampeding Hordes
+      set: frf
+    sealed:
+    - count: 2
+      name: Fate Reforged Booster Pack
+      set: frf
+  Fate Reforged Intro Pack Surprise Attack:
+    card_count: 60
+    deck:
+    - name: Surprise Attack
+      set: frf
+    sealed:
+    - count: 2
+      name: Fate Reforged Booster Pack
+      set: frf
+  Fate Reforged Intro Pack Unflinching Assault:
+    card_count: 60
+    deck:
+    - name: Unflinching Assault
+      set: frf
+    sealed:
+    - count: 2
+      name: Fate Reforged Booster Pack
+      set: frf
   Fate Reforged Prerelease Kit Abzan: []
   Fate Reforged Prerelease Kit Jeskai: []
   Fate Reforged Prerelease Kit Mardu: []

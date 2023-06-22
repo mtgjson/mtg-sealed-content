@@ -7,8 +7,24 @@ products:
     - code: default
       set: nem
   Nemesis Fat Pack: []
-  Nemesis Theme Deck Breakdown: []
+  Nemesis Theme Deck Breakdown:
+    card_count: 60
+    deck:
+    - name: Breakdown
+      set: nem
   Nemesis Theme Deck Display: []
-  Nemesis Theme Deck Eruption: []
-  Nemesis Theme Deck Mercenaries: []
-  Nemesis Theme Deck Replicator: []
+  Nemesis Theme Deck Eruption:
+    card_count: 60
+    deck:
+    - name: Eruption
+      set: nem
+  Nemesis Theme Deck Mercenaries:
+    card_count: 60
+    deck:
+    - name: Mercenaries
+      set: nem
+  Nemesis Theme Deck Replicator:
+    card_count: 60
+    deck:
+    - name: Replicator
+      set: nem

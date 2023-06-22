@@ -7,8 +7,24 @@ products:
     - code: default
       set: jud
   Judgment Fat Pack: []
-  Judgment Theme Deck Air Razers: []
+  Judgment Theme Deck Air Razers:
+    card_count: 60
+    deck:
+    - name: Air Razers
+      set: jud
   Judgment Theme Deck Display: []
-  Judgment Theme Deck Inundation: []
-  Judgment Theme Deck Painflow: []
-  Judgment Theme Deck Spectral Slam: []
+  Judgment Theme Deck Inundation:
+    card_count: 60
+    deck:
+    - name: Inundation
+      set: jud
+  Judgment Theme Deck Painflow:
+    card_count: 60
+    deck:
+    - name: Painflow
+      set: jud
+  Judgment Theme Deck Spectral Slam:
+    card_count: 60
+    deck:
+    - name: Spectral Slam
+      set: jud

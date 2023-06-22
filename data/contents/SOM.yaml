@@ -9,9 +9,49 @@ products:
     - code: default
       set: som
   Scars of Mirrodin Fat Pack: []
-  Scars of Mirrodin Intro Pack Deadspread: []
+  Scars of Mirrodin Intro Pack Deadspread:
+    card_count: 60
+    deck:
+    - name: Deadspread
+      set: som
+    sealed:
+    - count: 1
+      name: Scars of Mirrodin Booster Pack
+      set: som
   Scars of Mirrodin Intro Pack Display: []
-  Scars of Mirrodin Intro Pack Metalcraft: []
-  Scars of Mirrodin Intro Pack Myr of Mirrodin: []
-  Scars of Mirrodin Intro Pack Phyrexian Poison: []
-  Scars of Mirrodin Intro Pack Relic Breaker: []
+  Scars of Mirrodin Intro Pack Metalcraft:
+    card_count: 60
+    deck:
+    - name: Metalcraft
+      set: som
+    sealed:
+    - count: 1
+      name: Scars of Mirrodin Booster Pack
+      set: som
+  Scars of Mirrodin Intro Pack Myr of Mirrodin:
+    card_count: 60
+    deck:
+    - name: Myr of Mirrodin
+      set: som
+    sealed:
+    - count: 1
+      name: Scars of Mirrodin Booster Pack
+      set: som
+  Scars of Mirrodin Intro Pack Phyrexian Poison:
+    card_count: 60
+    deck:
+    - name: Phyrexian Poison
+      set: som
+    sealed:
+    - count: 1
+      name: Scars of Mirrodin Booster Pack
+      set: som
+  Scars of Mirrodin Intro Pack Relic Breaker:
+    card_count: 60
+    deck:
+    - name: Relic Breaker
+      set: som
+    sealed:
+    - count: 1
+      name: Scars of Mirrodin Booster Pack
+      set: som

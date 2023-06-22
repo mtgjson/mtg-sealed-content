@@ -10,9 +10,29 @@ products:
   Starter 1999 Starter Game: []
   Starter 1999 Starter Game Display: []
   Starter 1999 Starter Gift Box: []
-  Starter 1999 Theme Deck Blinding Fury: []
-  Starter 1999 Theme Deck Deadly Instinct: []
+  Starter 1999 Theme Deck Blinding Fury:
+    card_count: 40
+    deck:
+    - name: Blinding Fury
+      set: s99
+  Starter 1999 Theme Deck Deadly Instinct:
+    card_count: 40
+    deck:
+    - name: Deadly Instinct
+      set: s99
   Starter 1999 Theme Deck Display: []
-  Starter 1999 Theme Deck Goblin Assault: []
-  Starter 1999 Theme Deck Impaler: []
-  Starter 1999 Theme Deck Time Curse: []
+  Starter 1999 Theme Deck Goblin Assault:
+    card_count: 40
+    deck:
+    - name: Goblin Assault
+      set: s99
+  Starter 1999 Theme Deck Impaler:
+    card_count: 40
+    deck:
+    - name: Impaler
+      set: s99
+  Starter 1999 Theme Deck Time Curse:
+    card_count: 40
+    deck:
+    - name: Time Curse
+      set: s99

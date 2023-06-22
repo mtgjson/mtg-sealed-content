@@ -1,6 +1,10 @@
 code: lrw
 products:
-  Lorwyn Boggart Feast Theme Deck: []
+  Lorwyn Boggart Feast Theme Deck:
+    card_count: 60
+    deck:
+    - name: Boggart Feast
+      set: lrw
   Lorwyn Booster Box: []
   Lorwyn Booster Pack:
     card_count: 15
@@ -8,10 +12,22 @@ products:
     - code: default
       set: lrw
   Lorwyn Elementals Path Theme Deck: []
-  Lorwyn Elvish Predation Theme Deck: []
+  Lorwyn Elvish Predation Theme Deck:
+    card_count: 60
+    deck:
+    - name: Elvish Predation
+      set: lrw
   Lorwyn Fat Pack: []
-  Lorwyn Kithkin Militia Theme Deck: []
-  Lorwyn Merrow Riverways Theme Deck: []
+  Lorwyn Kithkin Militia Theme Deck:
+    card_count: 60
+    deck:
+    - name: Kithkin Militia
+      set: lrw
+  Lorwyn Merrow Riverways Theme Deck:
+    card_count: 60
+    deck:
+    - name: Merrow Riverways
+      set: lrw
   Lorwyn Theme Deck Display: []
   Lorwyn Tournament Pack: []
   Lorwyn Tournament Pack Display: []

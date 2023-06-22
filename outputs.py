@@ -245,7 +245,7 @@ new_files = Path("data/products").glob("*.yaml")
 products_contents = {}
 deck_mapper = {}
 
-for file in contents_files:
+for file in tqdm(contents_files):
     with open(file, "rb") as f:
         data = yaml.safe_load(f)
     if not data["products"]:

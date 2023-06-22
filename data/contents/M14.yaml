@@ -6,13 +6,57 @@ products:
   2014 Core Set Booster Box Case 6 Boxes: []
   2014 Core Set Booster Pack: []
   2014 Core Set Deck Builders Toolkit: []
-  2014 Core Set Event Deck Rush of the Wild: []
+  2014 Core Set Event Deck Rush of the Wild:
+    card_count: 75
+    deck:
+    - name: Rush of the Wild
+      set: m14
   2014 Core Set Fat Pack: []
-  2014 Core Set Intro Pack Bestial Strength: []
-  2014 Core Set Intro Pack Death Reaper: []
+  2014 Core Set Intro Pack Bestial Strength:
+    card_count: 60
+    deck:
+    - name: Bestial Strength
+      set: m14
+    sealed:
+    - count: 2
+      name: 2014 Core Set Booster Pack
+      set: m14
+  2014 Core Set Intro Pack Death Reaper:
+    card_count: 60
+    deck:
+    - name: Death Reaper
+      set: m14
+    sealed:
+    - count: 2
+      name: 2014 Core Set Booster Pack
+      set: m14
   2014 Core Set Intro Pack Display: []
-  2014 Core Set Intro Pack Fire Surge: []
-  2014 Core Set Intro Pack Lightforce: []
-  2014 Core Set Intro Pack Psychic Labyrinth: []
+  2014 Core Set Intro Pack Fire Surge:
+    card_count: 60
+    deck:
+    - name: Fire Surge
+      set: m14
+    sealed:
+    - count: 2
+      name: 2014 Core Set Booster Pack
+      set: m14
+  2014 Core Set Intro Pack Lightforce:
+    card_count: 60
+    deck:
+    - name: Lightforce
+      set: m14
+    sealed:
+    - count: 2
+      name: 2014 Core Set Booster Pack
+      set: m14
+  2014 Core Set Intro Pack Psychic Labyrinth:
+    card_count: 60
+    deck:
+    - name: Psychic Labyrinth
+      set: m14
+    sealed:
+    - count: 2
+      name: 2014 Core Set Booster Pack
+      set: m14
   2014 Core Set Intro Pack Set of 5: []
   2014 Core Set Land Station: []
