@@ -7,14 +7,62 @@ products:
     pack:
     - code: default
       set: nph
-  New Phyrexia Event Deck Rot from Within: []
-  New Phyrexia Event Deck War of Attrition: []
+  New Phyrexia Event Deck Rot from Within:
+    card_count: 75
+    deck:
+    - name: Rot from Within
+      set: nph
+  New Phyrexia Event Deck War of Attrition:
+    card_count: 75
+    deck:
+    - name: War of Attrition
+      set: nph
   New Phyrexia Event Decks - Set of 2: []
   New Phyrexia Fat Pack: []
-  New Phyrexia Intro Pack Artful Destruction: []
-  New Phyrexia Intro Pack Devouring Skies: []
+  New Phyrexia Intro Pack Artful Destruction:
+    card_count: 60
+    deck:
+    - name: Artful Destruction
+      set: nph
+    sealed:
+    - count: 1
+      name: New Phyrexia Booster Pack
+      set: nph
+  New Phyrexia Intro Pack Devouring Skies:
+    card_count: 60
+    deck:
+    - name: Devouring Skies
+      set: nph
+    sealed:
+    - count: 1
+      name: New Phyrexia Booster Pack
+      set: nph
   New Phyrexia Intro Pack Display: []
-  New Phyrexia Intro Pack Feast of Flesh: []
-  New Phyrexia Intro Pack Life for Death: []
-  New Phyrexia Intro Pack Ravaging Swarm: []
+  New Phyrexia Intro Pack Feast of Flesh:
+    card_count: 60
+    deck:
+    - name: Feast of Flesh
+      set: nph
+    sealed:
+    - count: 1
+      name: New Phyrexia Booster Pack
+      set: nph
+  New Phyrexia Intro Pack Life for Death:
+    card_count: 60
+    deck:
+    - name: Life for Death
+      set: nph
+    sealed:
+    - count: 1
+      name: New Phyrexia Booster Pack
+      set: nph
+  New Phyrexia Intro Pack Ravaging Swarm:
+    card_count: 60
+    deck:
+    - name: Ravaging Swarm
+      set: nph
+    sealed:
+    - count: 1
+      name: New Phyrexia Booster Pack
+      set: nph
   New Phyrexia Set of 5 Intro Packs: []

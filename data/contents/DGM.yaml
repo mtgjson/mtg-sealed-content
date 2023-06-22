@@ -8,14 +8,58 @@ products:
     pack:
     - code: default
       set: dgm
-  Dragons Maze Event Deck Strength of Selesnya: []
+  Dragons Maze Event Deck Strength of Selesnya:
+    card_count: 75
+    deck:
+    - name: Strength Of Selesnya
+      set: dgm
   Dragons Maze Fat Pack: []
-  Dragons Maze Intro Pack Azorius Authority: []
-  Dragons Maze Intro Pack Gruul Siege: []
-  Dragons Maze Intro Pack Orzhov Power: []
-  Dragons Maze Intro Pack Rakdos Revelry: []
+  Dragons Maze Intro Pack Azorius Authority:
+    card_count: 60
+    deck:
+    - name: Azorius Authority
+      set: dgm
+    sealed:
+    - count: 2
+      name: Dragons Maze Booster Pack
+      set: dgm
+  Dragons Maze Intro Pack Gruul Siege:
+    card_count: 60
+    deck:
+    - name: Gruul Siege
+      set: dgm
+    sealed:
+    - count: 2
+      name: Dragons Maze Booster Pack
+      set: dgm
+  Dragons Maze Intro Pack Orzhov Power:
+    card_count: 60
+    deck:
+    - name: Orzhov Power
+      set: dgm
+    sealed:
+    - count: 2
+      name: Dragons Maze Booster Pack
+      set: dgm
+  Dragons Maze Intro Pack Rakdos Revelry:
+    card_count: 60
+    deck:
+    - name: Rakdos Revelry
+      set: dgm
+    sealed:
+    - count: 2
+      name: Dragons Maze Booster Pack
+      set: dgm
   Dragons Maze Intro Pack Set of 5: []
-  Dragons Maze Intro Pack Simic Domination: []
+  Dragons Maze Intro Pack Simic Domination:
+    card_count: 60
+    deck:
+    - name: Simic Domination
+      set: dgm
+    sealed:
+    - count: 2
+      name: Dragons Maze Booster Pack
+      set: dgm
   Dragons Maze Prerelease Guild Kit 10 Pack: []
   Dragons Maze Prerelease Guild Kit Azorius: []
   Dragons Maze Prerelease Guild Kit Boros: []

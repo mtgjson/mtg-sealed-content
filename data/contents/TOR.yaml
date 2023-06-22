@@ -8,7 +8,23 @@ products:
       set: tor
   Torment Fat Pack: []
   Torment Theme Deck Display: []
-  Torment Theme Deck Grave Danger: []
-  Torment Theme Deck Insanity: []
-  Torment Theme Deck Sacrilege: []
-  Torment Theme Deck Waking Nightmares: []
+  Torment Theme Deck Grave Danger:
+    card_count: 60
+    deck:
+    - name: Grave Danger
+      set: tor
+  Torment Theme Deck Insanity:
+    card_count: 60
+    deck:
+    - name: Insanity
+      set: tor
+  Torment Theme Deck Sacrilege:
+    card_count: 60
+    deck:
+    - name: Sacrilege
+      set: tor
+  Torment Theme Deck Waking Nightmares:
+    card_count: 60
+    deck:
+    - name: Waking Nightmares
+      set: tor

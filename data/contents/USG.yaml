@@ -7,9 +7,25 @@ products:
     pack:
     - code: default
       set: usg
-  Urzas Saga Theme Deck Sleeper: []
-  Urzas Saga Theme Deck Special Delivery: []
-  Urzas Saga Theme Deck The Plague: []
-  Urzas Saga Theme Deck Tombstone: []
+  Urzas Saga Theme Deck Sleeper:
+    card_count: 60
+    deck:
+    - name: Sleeper
+      set: usg
+  Urzas Saga Theme Deck Special Delivery:
+    card_count: 60
+    deck:
+    - name: Special Delivery
+      set: usg
+  Urzas Saga Theme Deck The Plague:
+    card_count: 60
+    deck:
+    - name: The Plague
+      set: usg
+  Urzas Saga Theme Deck Tombstone:
+    card_count: 60
+    deck:
+    - name: Tombstone
+      set: usg
   Urzas Saga Tournament Pack: []
   Urzas Saga Tournament Pack Display: []

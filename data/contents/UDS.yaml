@@ -7,7 +7,23 @@ products:
     pack:
     - code: default
       set: uds
-  Urzas Destiny Theme Deck Assassin: []
-  Urzas Destiny Theme Deck Battle Surge: []
-  Urzas Destiny Theme Deck Enchanter: []
-  Urzas Destiny Theme Deck Fiendish Nature: []
+  Urzas Destiny Theme Deck Assassin:
+    card_count: 60
+    deck:
+    - name: Assassin
+      set: uds
+  Urzas Destiny Theme Deck Battle Surge:
+    card_count: 60
+    deck:
+    - name: Battle Surge
+      set: uds
+  Urzas Destiny Theme Deck Enchanter:
+    card_count: 60
+    deck:
+    - name: Enchanter
+      set: uds
+  Urzas Destiny Theme Deck Fiendish Nature:
+    card_count: 60
+    deck:
+    - name: Fiendish Nature
+      set: uds

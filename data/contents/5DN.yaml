@@ -7,8 +7,24 @@ products:
     - code: default
       set: 5dn
   Fifth Dawn Fat Pack: []
-  Fifth Dawn Nuts and Bolts Theme Deck: []
-  Fifth Dawn Special Forces Theme Deck: []
-  Fifth Dawn Stampede Theme Deck: []
-  Fifth Dawn Sunburst Theme Deck: []
+  Fifth Dawn Nuts and Bolts Theme Deck:
+    card_count: 60
+    deck:
+    - name: Nuts and Bolts
+      set: 5dn
+  Fifth Dawn Special Forces Theme Deck:
+    card_count: 60
+    deck:
+    - name: Special Forces
+      set: 5dn
+  Fifth Dawn Stampede Theme Deck:
+    card_count: 60
+    deck:
+    - name: Stampede
+      set: 5dn
+  Fifth Dawn Sunburst Theme Deck:
+    card_count: 60
+    deck:
+    - name: Sunburst
+      set: 5dn
   Fifth Dawn Theme Deck Display: []

@@ -8,9 +8,21 @@ products:
       set: ons
   Onslaught Fat Pack: []
   Onslaught Theme Deck Bait and Switch: []
-  Onslaught Theme Deck Celestial Assault: []
-  Onslaught Theme Deck Devastation: []
+  Onslaught Theme Deck Celestial Assault:
+    card_count: 60
+    deck:
+    - name: Celestial Assault
+      set: ons
+  Onslaught Theme Deck Devastation:
+    card_count: 60
+    deck:
+    - name: Devastation
+      set: ons
   Onslaught Theme Deck Display: []
-  Onslaught Theme Deck Ivory Doom: []
+  Onslaught Theme Deck Ivory Doom:
+    card_count: 60
+    deck:
+    - name: Ivory Doom
+      set: ons
   Onslaught Tournament Pack: []
   Onslaught Tournament Pack Display: []

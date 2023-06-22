@@ -7,9 +7,21 @@ products:
     - code: default
       set: tsp
   Time Spiral Fat Pack: []
-  Time Spiral Theme Deck Fun With Fungus: []
+  Time Spiral Theme Deck Fun With Fungus:
+    card_count: 60
+    deck:
+    - name: Fun With Fungus
+      set: tsp
   Time Spiral Theme Deck Hopes Crusaders: []
-  Time Spiral Theme Deck Reality Fracture: []
-  Time Spiral Theme Deck Sliver Evolution: []
+  Time Spiral Theme Deck Reality Fracture:
+    card_count: 60
+    deck:
+    - name: Reality Fracture
+      set: tsp
+  Time Spiral Theme Deck Sliver Evolution:
+    card_count: 60
+    deck:
+    - name: Sliver Evolution
+      set: tsp
   Time Spiral Tournament Pack: []
   Time Spiral Tournament Pack Display: []

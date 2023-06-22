@@ -7,11 +7,31 @@ products:
     - code: default
       set: shm
   Shadowmoor Fat Pack: []
-  Shadowmoor Theme Deck Army of Entropy: []
-  Shadowmoor Theme Deck Aura Mastery: []
+  Shadowmoor Theme Deck Army of Entropy:
+    card_count: 60
+    deck:
+    - name: Army of Entropy
+      set: shm
+  Shadowmoor Theme Deck Aura Mastery:
+    card_count: 60
+    deck:
+    - name: Aura Mastery
+      set: shm
   Shadowmoor Theme Deck Display: []
-  Shadowmoor Theme Deck Mortal Coil: []
-  Shadowmoor Theme Deck Overkill: []
-  Shadowmoor Theme Deck Turnabout: []
+  Shadowmoor Theme Deck Mortal Coil:
+    card_count: 60
+    deck:
+    - name: Mortal Coil
+      set: shm
+  Shadowmoor Theme Deck Overkill:
+    card_count: 60
+    deck:
+    - name: Overkill
+      set: shm
+  Shadowmoor Theme Deck Turnabout:
+    card_count: 60
+    deck:
+    - name: Turnabout
+      set: shm
   Shadowmoor Tournament Pack: []
   Shadowmoor Tournament Pack Display: []

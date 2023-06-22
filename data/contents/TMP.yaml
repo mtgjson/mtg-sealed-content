@@ -7,9 +7,25 @@ products:
     - code: default
       set: tmp
   Tempest Starter Deck Display: []
-  Tempest Theme Deck Deep Freeze: []
+  Tempest Theme Deck Deep Freeze:
+    card_count: 60
+    deck:
+    - name: Deep Freeze
+      set: tmp
   Tempest Theme Deck Display: []
-  Tempest Theme Deck The Flames of Rath: []
-  Tempest Theme Deck The Slivers: []
-  Tempest Theme Deck The Swarm: []
+  Tempest Theme Deck The Flames of Rath:
+    card_count: 60
+    deck:
+    - name: The Flames of Rath
+      set: tmp
+  Tempest Theme Deck The Slivers:
+    card_count: 60
+    deck:
+    - name: The Slivers
+      set: tmp
+  Tempest Theme Deck The Swarm:
+    card_count: 60
+    deck:
+    - name: The Swarm
+      set: tmp
   Tempest Tournament Pack: []

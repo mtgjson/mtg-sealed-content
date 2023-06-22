@@ -9,15 +9,51 @@ products:
     - code: default
       set: jou
   Journey Into Nyx Event Deck Display 6: []
-  Journey Into Nyx Event Deck Wrath of the Mortals: []
+  Journey Into Nyx Event Deck Wrath of the Mortals:
+    card_count: 75
+    deck:
+    - name: Wrath of the Mortals
+      set: jou
   Journey Into Nyx Fat Pack: []
   Journey Into Nyx Intro Pack Display: []
-  Journey Into Nyx Intro Pack Fates Foreseen: []
-  Journey Into Nyx Intro Pack Mortals of Myth: []
+  Journey Into Nyx Intro Pack Fates Foreseen:
+    card_count: 60
+    deck:
+    - name: Fates Foreseen
+      set: jou
+    sealed:
+    - count: 2
+      name: Journey Into Nyx Booster Pack
+      set: jou
+  Journey Into Nyx Intro Pack Mortals of Myth:
+    card_count: 60
+    deck:
+    - name: Mortals of Myth
+      set: jou
+    sealed:
+    - count: 2
+      name: Journey Into Nyx Booster Pack
+      set: jou
   Journey Into Nyx Intro Pack Pantheons Power: []
   Journey Into Nyx Intro Pack Set of 5: []
-  Journey Into Nyx Intro Pack The Wilds and the Deep: []
-  Journey Into Nyx Intro Pack Voracious Rage: []
+  Journey Into Nyx Intro Pack The Wilds and the Deep:
+    card_count: 60
+    deck:
+    - name: The Wilds and the Deep
+      set: jou
+    sealed:
+    - count: 2
+      name: Journey Into Nyx Booster Pack
+      set: jou
+  Journey Into Nyx Intro Pack Voracious Rage:
+    card_count: 60
+    deck:
+    - name: Voracious Rage
+      set: jou
+    sealed:
+    - count: 2
+      name: Journey Into Nyx Booster Pack
+      set: jou
   Journey Into Nyx Prerelease Forged in Glory: []
   Journey Into Nyx Prerelease Forged in Intellect: []
   Journey Into Nyx Prerelease Forged in Pursuit: []

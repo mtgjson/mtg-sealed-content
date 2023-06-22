@@ -7,8 +7,24 @@ products:
     - code: default
       set: apc
   Apocalypse Fat Pack: []
-  Apocalypse Theme Deck Burial: []
+  Apocalypse Theme Deck Burial:
+    card_count: 60
+    deck:
+    - name: Burial
+      set: apc
   Apocalypse Theme Deck Display: []
-  Apocalypse Theme Deck Pandemonium: []
-  Apocalypse Theme Deck Swoop: []
-  Apocalypse Theme Deck Whirlpool: []
+  Apocalypse Theme Deck Pandemonium:
+    card_count: 60
+    deck:
+    - name: Pandemonium
+      set: apc
+  Apocalypse Theme Deck Swoop:
+    card_count: 60
+    deck:
+    - name: Swoop
+      set: apc
+  Apocalypse Theme Deck Whirlpool:
+    card_count: 60
+    deck:
+    - name: Whirlpool
+      set: apc

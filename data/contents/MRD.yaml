@@ -7,10 +7,26 @@ products:
     - code: default
       set: mrd
   Mirrodin Fat Pack: []
-  Mirrodin Theme Deck Bait and Bludgeon: []
+  Mirrodin Theme Deck Bait and Bludgeon:
+    card_count: 60
+    deck:
+    - name: Bait and Bludgeon
+      set: mrd
   Mirrodin Theme Deck Box: []
-  Mirrodin Theme Deck Little Bashers: []
-  Mirrodin Theme Deck Sacrificial Bam: []
-  Mirrodin Theme Deck Wicked Big: []
+  Mirrodin Theme Deck Little Bashers:
+    card_count: 60
+    deck:
+    - name: Little Bashers
+      set: mrd
+  Mirrodin Theme Deck Sacrificial Bam:
+    card_count: 60
+    deck:
+    - name: Sacrificial Bam
+      set: mrd
+  Mirrodin Theme Deck Wicked Big:
+    card_count: 60
+    deck:
+    - name: Wicked Big
+      set: mrd
   Mirrodin Tournament Pack: []
   Mirrodin Tournament Pack Display: []

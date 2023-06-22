@@ -7,8 +7,32 @@ products:
   2010 Core Set Fat Pack: []
   2010 Core Set Intro Pack Deaths Minions: []
   2010 Core Set Intro Pack Display 10: []
-  2010 Core Set Intro Pack Firebomber: []
+  2010 Core Set Intro Pack Firebomber:
+    card_count: 41
+    deck:
+    - name: Firebomber
+      set: m10
+    sealed:
+    - count: 1
+      name: 2010 Core Set Booster Pack
+      set: m10
   2010 Core Set Intro Pack Natures Fury: []
-  2010 Core Set Intro Pack Presence of Mind: []
-  2010 Core Set Intro Pack We Are Legion: []
+  2010 Core Set Intro Pack Presence of Mind:
+    card_count: 41
+    deck:
+    - name: Presence of Mind
+      set: m10
+    sealed:
+    - count: 1
+      name: 2010 Core Set Booster Pack
+      set: m10
+  2010 Core Set Intro Pack We Are Legion:
+    card_count: 41
+    deck:
+    - name: We Are Legion
+      set: m10
+    sealed:
+    - count: 1
+      name: 2010 Core Set Booster Pack
+      set: m10
   Magic Deck Builders Toolkit: []

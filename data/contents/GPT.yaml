@@ -7,7 +7,19 @@ products:
     - code: default
       set: gpt
   Guildpact Fat Pack: []
-  Guildpact Theme Deck Code of the Orzhov: []
+  Guildpact Theme Deck Code of the Orzhov:
+    card_count: 60
+    deck:
+    - name: Code of the Orzhov
+      set: gpt
   Guildpact Theme Deck Display: []
-  Guildpact Theme Deck Gruul Wilding: []
-  Guildpact Theme Deck Izzet Gizmometry: []
+  Guildpact Theme Deck Gruul Wilding:
+    card_count: 60
+    deck:
+    - name: Gruul Wilding
+      set: gpt
+  Guildpact Theme Deck Izzet Gizmometry:
+    card_count: 60
+    deck:
+    - name: Izzet Gizmometry
+      set: gpt

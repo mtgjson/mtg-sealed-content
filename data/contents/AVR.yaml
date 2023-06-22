@@ -12,9 +12,49 @@ products:
   Avacyn Restored Event Deck Humanitys Vengeance: []
   Avacyn Restored Event Decks - Set of 2: []
   Avacyn Restored Fat Pack: []
-  Avacyn Restored Intro Pack Angelic Might: []
-  Avacyn Restored Intro Pack Bound by Strength: []
+  Avacyn Restored Intro Pack Angelic Might:
+    card_count: 60
+    deck:
+    - name: Angelic Might
+      set: avr
+    sealed:
+    - count: 1
+      name: Avacyn Restored Booster Pack
+      set: avr
+  Avacyn Restored Intro Pack Bound by Strength:
+    card_count: 60
+    deck:
+    - name: Bound by Strength
+      set: avr
+    sealed:
+    - count: 1
+      name: Avacyn Restored Booster Pack
+      set: avr
   Avacyn Restored Intro Pack Display: []
-  Avacyn Restored Intro Pack Fiery Dawn: []
-  Avacyn Restored Intro Pack Slaughterhouse: []
-  Avacyn Restored Intro Pack Solitary Fiends: []
+  Avacyn Restored Intro Pack Fiery Dawn:
+    card_count: 60
+    deck:
+    - name: Fiery Dawn
+      set: avr
+    sealed:
+    - count: 1
+      name: Avacyn Restored Booster Pack
+      set: avr
+  Avacyn Restored Intro Pack Slaughterhouse:
+    card_count: 60
+    deck:
+    - name: Slaughterhouse
+      set: avr
+    sealed:
+    - count: 1
+      name: Avacyn Restored Booster Pack
+      set: avr
+  Avacyn Restored Intro Pack Solitary Fiends:
+    card_count: 60
+    deck:
+    - name: Solitary Fiends
+      set: avr
+    sealed:
+    - count: 1
+      name: Avacyn Restored Booster Pack
+      set: avr

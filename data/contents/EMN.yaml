@@ -8,11 +8,51 @@ products:
     - code: default
       set: emn
   Eldritch Moon Fat Pack: []
-  Eldritch Moon Intro Pack Dangerous Knowledge: []
+  Eldritch Moon Intro Pack Dangerous Knowledge:
+    card_count: 60
+    deck:
+    - name: Dangerous Knowledge
+      set: emn
+    sealed:
+    - count: 2
+      name: Eldritch Moon Booster Pack
+      set: emn
   Eldritch Moon Intro Pack Display: []
   Eldritch Moon Intro Pack Set of 5: []
-  Eldritch Moon Intro Pack Shallow Graves: []
-  Eldritch Moon Intro Pack Unlikely Alliances: []
-  Eldritch Moon Intro Pack Untamed Wild: []
-  Eldritch Moon Intro Pack Weapons and Wards: []
+  Eldritch Moon Intro Pack Shallow Graves:
+    card_count: 60
+    deck:
+    - name: Shallow Graves
+      set: emn
+    sealed:
+    - count: 2
+      name: Eldritch Moon Booster Pack
+      set: emn
+  Eldritch Moon Intro Pack Unlikely Alliances:
+    card_count: 60
+    deck:
+    - name: Unlikely Alliances
+      set: emn
+    sealed:
+    - count: 2
+      name: Eldritch Moon Booster Pack
+      set: emn
+  Eldritch Moon Intro Pack Untamed Wild:
+    card_count: 60
+    deck:
+    - name: Untamed Wild
+      set: emn
+    sealed:
+    - count: 2
+      name: Eldritch Moon Booster Pack
+      set: emn
+  Eldritch Moon Intro Pack Weapons and Wards:
+    card_count: 60
+    deck:
+    - name: Weapons and Wards
+      set: emn
+    sealed:
+    - count: 2
+      name: Eldritch Moon Booster Pack
+      set: emn
   Eldritch Moon Prerelease Pack: []

@@ -10,9 +10,41 @@ products:
       set: roe
   Rise of the Eldrazi Fat Pack: []
   Rise of the Eldrazi Intro Pack Display: []
-  Rise of the Eldrazi Intro Pack Eldrazi Arisen: []
-  Rise of the Eldrazi Intro Pack Invading Spawn: []
+  Rise of the Eldrazi Intro Pack Eldrazi Arisen:
+    card_count: 41
+    deck:
+    - name: Eldrazi Arisen
+      set: roe
+    sealed:
+    - count: 1
+      name: Rise of the Eldrazi Booster Pack
+      set: roe
+  Rise of the Eldrazi Intro Pack Invading Spawn:
+    card_count: 41
+    deck:
+    - name: Invading Spawn
+      set: roe
+    sealed:
+    - count: 1
+      name: Rise of the Eldrazi Booster Pack
+      set: roe
   Rise of the Eldrazi Intro Pack Levelers Glory: []
-  Rise of the Eldrazi Intro Pack Levelers Scorn: []
-  Rise of the Eldrazi Intro Pack Totem Power: []
+  Rise of the Eldrazi Intro Pack Levelers Scorn:
+    card_count: 41
+    deck:
+    - name: Levelers Scorn
+      set: roe
+    sealed:
+    - count: 1
+      name: Rise of the Eldrazi Booster Pack
+      set: roe
+  Rise of the Eldrazi Intro Pack Totem Power:
+    card_count: 41
+    deck:
+    - name: Totem Power
+      set: roe
+    sealed:
+    - count: 1
+      name: Rise of the Eldrazi Booster Pack
+      set: roe
   Rise of the Eldrazi Set of 5 Intro Packs: []

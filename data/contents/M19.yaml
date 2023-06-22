@@ -10,11 +10,51 @@ products:
       set: m19
   Core Set 2019 Bundle: []
   Core Set 2019 Deck Builders Toolkit: []
-  Core Set 2019 Planeswalker Deck Ajani: []
+  Core Set 2019 Planeswalker Deck Ajani:
+    card_count: 60
+    deck:
+    - name: Ajani
+      set: m19
+    sealed:
+    - count: 1
+      name: Core Set 2019 Booster Pack
+      set: m19
   Core Set 2019 Planeswalker Deck Display: []
-  Core Set 2019 Planeswalker Deck Liliana: []
-  Core Set 2019 Planeswalker Deck Sarkhan: []
-  Core Set 2019 Planeswalker Deck Tezzeret: []
-  Core Set 2019 Planeswalker Deck Vivien: []
+  Core Set 2019 Planeswalker Deck Liliana:
+    card_count: 60
+    deck:
+    - name: Liliana
+      set: m19
+    sealed:
+    - count: 1
+      name: Core Set 2019 Booster Pack
+      set: m19
+  Core Set 2019 Planeswalker Deck Sarkhan:
+    card_count: 60
+    deck:
+    - name: Sarkhan
+      set: m19
+    sealed:
+    - count: 1
+      name: Core Set 2019 Booster Pack
+      set: m19
+  Core Set 2019 Planeswalker Deck Tezzeret:
+    card_count: 60
+    deck:
+    - name: Tezzeret
+      set: m19
+    sealed:
+    - count: 1
+      name: Core Set 2019 Booster Pack
+      set: m19
+  Core Set 2019 Planeswalker Deck Vivien:
+    card_count: 60
+    deck:
+    - name: Vivien
+      set: m19
+    sealed:
+    - count: 1
+      name: Core Set 2019 Booster Pack
+      set: m19
   Core Set 2019 Planeswalker Decks - Set of 5: []
   Core Set 2019 Prerelease Pack: []

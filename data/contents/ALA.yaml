@@ -8,12 +8,52 @@ products:
     - code: default
       set: ala
   Shards of Alara Fat Pack: []
-  Shards of Alara Intro Pack Bant Exalted: []
+  Shards of Alara Intro Pack Bant Exalted:
+    card_count: 41
+    deck:
+    - name: Bant Exalted
+      set: ala
+    sealed:
+    - count: 1
+      name: Shards of Alara Booster Pack
+      set: ala
   Shards of Alara Intro Pack Display: []
-  Shards of Alara Intro Pack Esper Artifice: []
-  Shards of Alara Intro Pack Grixis Undead: []
-  Shards of Alara Intro Pack Naya Behemoths: []
-  Shards of Alara Intro Pack Primordial Jund: []
+  Shards of Alara Intro Pack Esper Artifice:
+    card_count: 41
+    deck:
+    - name: Esper Artifice
+      set: ala
+    sealed:
+    - count: 1
+      name: Shards of Alara Booster Pack
+      set: ala
+  Shards of Alara Intro Pack Grixis Undead:
+    card_count: 41
+    deck:
+    - name: Grixis Undead
+      set: ala
+    sealed:
+    - count: 1
+      name: Shards of Alara Booster Pack
+      set: ala
+  Shards of Alara Intro Pack Naya Behemoths:
+    card_count: 41
+    deck:
+    - name: Naya Behemoths
+      set: ala
+    sealed:
+    - count: 1
+      name: Shards of Alara Booster Pack
+      set: ala
+  Shards of Alara Intro Pack Primordial Jund:
+    card_count: 41
+    deck:
+    - name: Primordial Jund
+      set: ala
+    sealed:
+    - count: 1
+      name: Shards of Alara Booster Pack
+      set: ala
   Shards of Alara Premium Foil Booster Box: []
   Shards of Alara Premium Foil Booster Pack: []
   Shards of Alara Tournament Deck Display: []

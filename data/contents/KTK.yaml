@@ -7,16 +7,60 @@ products:
     pack:
     - code: default
       set: ktk
-  Khans of Tarkir Event Deck Conquering Hordes: []
+  Khans of Tarkir Event Deck Conquering Hordes:
+    card_count: 75
+    deck:
+    - name: Conquering Hordes
+      set: ktk
   Khans of Tarkir Fat Pack: []
   Khans of Tarkir Holiday Gift Box: []
-  Khans of Tarkir Intro Pack Abzan Siege: []
+  Khans of Tarkir Intro Pack Abzan Siege:
+    card_count: 60
+    deck:
+    - name: Abzan Siege
+      set: ktk
+    sealed:
+    - count: 2
+      name: Khans of Tarkir Booster Pack
+      set: ktk
   Khans of Tarkir Intro Pack Display: []
-  Khans of Tarkir Intro Pack Jeskai Monks: []
-  Khans of Tarkir Intro Pack Mardu Raiders: []
+  Khans of Tarkir Intro Pack Jeskai Monks:
+    card_count: 60
+    deck:
+    - name: Jeskai Monks
+      set: ktk
+    sealed:
+    - count: 2
+      name: Khans of Tarkir Booster Pack
+      set: ktk
+  Khans of Tarkir Intro Pack Mardu Raiders:
+    card_count: 60
+    deck:
+    - name: Mardu Raiders
+      set: ktk
+    sealed:
+    - count: 2
+      name: Khans of Tarkir Booster Pack
+      set: ktk
   Khans of Tarkir Intro Pack Set of 5: []
-  Khans of Tarkir Intro Pack Sultai Schemers: []
-  Khans of Tarkir Intro Pack Temur Avalanche: []
+  Khans of Tarkir Intro Pack Sultai Schemers:
+    card_count: 60
+    deck:
+    - name: Sultai Schemers
+      set: ktk
+    sealed:
+    - count: 2
+      name: Khans of Tarkir Booster Pack
+      set: ktk
+  Khans of Tarkir Intro Pack Temur Avalanche:
+    card_count: 60
+    deck:
+    - name: Temur Avalanche
+      set: ktk
+    sealed:
+    - count: 2
+      name: Khans of Tarkir Booster Pack
+      set: ktk
   Khans of Tarkir Prerelease Kit Abzan: []
   Khans of Tarkir Prerelease Kit Jeskai: []
   Khans of Tarkir Prerelease Kit Mardu: []

@@ -7,8 +7,20 @@ products:
     - code: default
       set: bok
   Betrayers of Kamigawa Fat Pack: []
-  Betrayers of Kamigawa Theme Deck Dark Devotion: []
+  Betrayers of Kamigawa Theme Deck Dark Devotion:
+    card_count: 60
+    deck:
+    - name: Dark Devotion
+      set: bok
   Betrayers of Kamigawa Theme Deck Display: []
-  Betrayers of Kamigawa Theme Deck Ninjutsu: []
+  Betrayers of Kamigawa Theme Deck Ninjutsu:
+    card_count: 60
+    deck:
+    - name: Ninjutsu
+      set: bok
   Betrayers of Kamigawa Theme Deck Rats Nest: []
-  Betrayers of Kamigawa Theme Deck Spiritcraft: []
+  Betrayers of Kamigawa Theme Deck Spiritcraft:
+    card_count: 60
+    deck:
+    - name: Spiritcraft
+      set: bok

@@ -8,10 +8,26 @@ products:
       set: p02
   Portal Second Age Gift Box: []
   Portal Second Age Theme Deck Display: []
-  Portal Second Age Theme Deck Goblin Fire: []
-  Portal Second Age Theme Deck Martial Law: []
+  Portal Second Age Theme Deck Goblin Fire:
+    card_count: 40
+    deck:
+    - name: Goblin Fire
+      set: p02
+  Portal Second Age Theme Deck Martial Law:
+    card_count: 40
+    deck:
+    - name: Martial Law
+      set: p02
   Portal Second Age Theme Deck Natures Assault: []
-  Portal Second Age Theme Deck Spellweaver: []
-  Portal Second Age Theme Deck The Nightstalkers: []
+  Portal Second Age Theme Deck Spellweaver:
+    card_count: 40
+    deck:
+    - name: Spellweaver
+      set: p02
+  Portal Second Age Theme Deck The Nightstalkers:
+    card_count: 40
+    deck:
+    - name: The Nightstalkers
+      set: p02
   Portal Second Age Two Player Starter Deck: []
   Portal Second Age Two Player Starter Display 12: []

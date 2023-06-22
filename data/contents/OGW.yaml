@@ -9,9 +9,49 @@ products:
       set: ogw
   Oath of the Gatewatch Fat Pack: []
   Oath of the Gatewatch Hedron Prerelease Box: []
-  Oath of the Gatewatch Intro Pack Concerted Effort: []
-  Oath of the Gatewatch Intro Pack Desperate Stand: []
+  Oath of the Gatewatch Intro Pack Concerted Effort:
+    card_count: 60
+    deck:
+    - name: Concerted Effort
+      set: ogw
+    sealed:
+    - count: 2
+      name: Oath of the Gatewatch Booster Pack
+      set: ogw
+  Oath of the Gatewatch Intro Pack Desperate Stand:
+    card_count: 60
+    deck:
+    - name: Desperate Stand
+      set: ogw
+    sealed:
+    - count: 2
+      name: Oath of the Gatewatch Booster Pack
+      set: ogw
   Oath of the Gatewatch Intro Pack Set of 5: []
-  Oath of the Gatewatch Intro Pack Surge of Resistance: []
-  Oath of the Gatewatch Intro Pack Twisted Reality: []
-  Oath of the Gatewatch Intro Pack Vicious Cycle: []
+  Oath of the Gatewatch Intro Pack Surge of Resistance:
+    card_count: 60
+    deck:
+    - name: Surge of Resistance
+      set: ogw
+    sealed:
+    - count: 2
+      name: Oath of the Gatewatch Booster Pack
+      set: ogw
+  Oath of the Gatewatch Intro Pack Twisted Reality:
+    card_count: 60
+    deck:
+    - name: Twisted Reality
+      set: ogw
+    sealed:
+    - count: 2
+      name: Oath of the Gatewatch Booster Pack
+      set: ogw
+  Oath of the Gatewatch Intro Pack Vicious Cycle:
+    card_count: 60
+    deck:
+    - name: Vicious Cycle
+      set: ogw
+    sealed:
+    - count: 2
+      name: Oath of the Gatewatch Booster Pack
+      set: ogw

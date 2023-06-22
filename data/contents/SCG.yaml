@@ -8,7 +8,23 @@ products:
       set: scg
   Scourge Fat Pack: []
   Scourge Theme Deck Display: []
-  Scourge Theme Deck Goblin Mob: []
-  Scourge Theme Deck Max Attax: []
-  Scourge Theme Deck Pulverize: []
-  Scourge Theme Deck Storm Surge: []
+  Scourge Theme Deck Goblin Mob:
+    card_count: 60
+    deck:
+    - name: Goblin Mob
+      set: scg
+  Scourge Theme Deck Max Attax:
+    card_count: 60
+    deck:
+    - name: Max Attax
+      set: scg
+  Scourge Theme Deck Pulverize:
+    card_count: 60
+    deck:
+    - name: Pulverize
+      set: scg
+  Scourge Theme Deck Storm Surge:
+    card_count: 60
+    deck:
+    - name: Storm Surge
+      set: scg

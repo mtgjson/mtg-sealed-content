@@ -7,13 +7,61 @@ products:
   2013 Core Set Booster Box Case 6 Boxes: []
   2013 Core Set Booster Pack: []
   2013 Core Set Deck Builders Toolkit: []
-  2013 Core Set Event Deck Repeat Performance: []
-  2013 Core Set Event Deck Sweet Revenge: []
+  2013 Core Set Event Deck Repeat Performance:
+    card_count: 75
+    deck:
+    - name: Repeat Performance
+      set: m13
+  2013 Core Set Event Deck Sweet Revenge:
+    card_count: 75
+    deck:
+    - name: Sweet Revenge
+      set: m13
   2013 Core Set Event Decks - Set of 2: []
   2013 Core Set Fat Pack: []
-  2013 Core Set Intro Pack Depths of Power Blue: []
-  2013 Core Set Intro Pack Mob Rule Red: []
-  2013 Core Set Intro Pack Path to Victory White: []
-  2013 Core Set Intro Pack Sole Domination Black: []
-  2013 Core Set Intro Pack Wild Rush Green: []
+  2013 Core Set Intro Pack Depths of Power Blue:
+    card_count: 60
+    deck:
+    - name: Depths of Power
+      set: m13
+    sealed:
+    - count: 2
+      name: 2013 Core Set Booster Pack
+      set: m13
+  2013 Core Set Intro Pack Mob Rule Red:
+    card_count: 60
+    deck:
+    - name: Mob Rule
+      set: m13
+    sealed:
+    - count: 2
+      name: 2013 Core Set Booster Pack
+      set: m13
+  2013 Core Set Intro Pack Path to Victory White:
+    card_count: 60
+    deck:
+    - name: Path to Victory
+      set: m13
+    sealed:
+    - count: 2
+      name: 2013 Core Set Booster Pack
+      set: m13
+  2013 Core Set Intro Pack Sole Domination Black:
+    card_count: 60
+    deck:
+    - name: Sole Domination
+      set: m13
+    sealed:
+    - count: 2
+      name: 2013 Core Set Booster Pack
+      set: m13
+  2013 Core Set Intro Pack Wild Rush Green:
+    card_count: 60
+    deck:
+    - name: Wild Rush
+      set: m13
+    sealed:
+    - count: 2
+      name: 2013 Core Set Booster Pack
+      set: m13
   2013 Core Set Set of 5 Intro Packs: []

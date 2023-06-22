@@ -7,10 +7,26 @@ products:
     - code: default
       set: rav
   Ravnica Fat Pack: []
-  Ravnica Theme Deck Charge of the Boros: []
-  Ravnica Theme Deck Dimir Intrigues: []
+  Ravnica Theme Deck Charge of the Boros:
+    card_count: 60
+    deck:
+    - name: Charge of the Boros
+      set: rav
+  Ravnica Theme Deck Dimir Intrigues:
+    card_count: 60
+    deck:
+    - name: Dimir Intrigues
+      set: rav
   Ravnica Theme Deck Display: []
-  Ravnica Theme Deck Golgari Deathcreep: []
-  Ravnica Theme Deck Selesnya United: []
+  Ravnica Theme Deck Golgari Deathcreep:
+    card_count: 60
+    deck:
+    - name: Golgari Deathcreep
+      set: rav
+  Ravnica Theme Deck Selesnya United:
+    card_count: 60
+    deck:
+    - name: Selesnya United
+      set: rav
   Ravnica Tournament Pack: []
   Ravnica Tournament Pack Display: []

@@ -8,7 +8,11 @@ products:
     pack:
     - code: default
       set: ths
-  Theros Event Deck Inspiring Heroics: []
+  Theros Event Deck Inspiring Heroics:
+    card_count: 75
+    deck:
+    - name: Inspiring Heroics
+      set: ths
   Theros Fat Pack: []
   Theros Holiday Gift Box: []
   Theros Intro Pack Abhorrent Overlord: []
