@@ -1,3 +1,22 @@
 code: gnt
 products:
-  Magic Game Night Set: []
+  Magic Game Night Set:
+    card_count: 300
+    deck:
+    - name: White
+      set: gnt
+    - name: Blue
+      set: gnt
+    - name: Black
+      set: gnt
+    - name: Red
+      set: gnt
+    - name: Green
+      set: gnt
+    other:
+    - name: 5 Game Night Spindowns
+    - name: 5 Life Counter Platforms
+    - name: 20 +1/+1 Counters
+    - name: 15 Double-Sided Tokens
+    - name: 5 Rules Reference Cards
+    - name: Rulebook
