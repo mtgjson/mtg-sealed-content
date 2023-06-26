@@ -1,8 +1,28 @@
 code: cmd
 products:
-  Commander Counterpunch Deck: []
-  Commander Devour for Power Deck: []
-  Commander Heavenly Inferno Deck: []
-  Commander Mirror Mastery Deck: []
-  Commander Political Puppets Deck: []
+  Commander Counterpunch Deck:
+    card_count: 100
+    deck:
+    - name: Counterpunch
+      set: cmd
+  Commander Devour for Power Deck:
+    card_count: 100
+    deck:
+    - name: Devour for Power
+      set: cmd
+  Commander Heavenly Inferno Deck:
+    card_count: 100
+    deck:
+    - name: Heavenly Inferno
+      set: cmd
+  Commander Mirror Mastery Deck:
+    card_count: 100
+    deck:
+    - name: Mirror Mastery
+      set: cmd
+  Commander Political Puppets Deck:
+    card_count: 100
+    deck:
+    - name: Political Puppets
+      set: cmd
   Commander Set of 5: []

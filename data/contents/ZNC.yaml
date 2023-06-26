@@ -2,5 +2,21 @@ code: znc
 products:
   Zendikar Rising Commander Deck Display Case: []
   Zendikar Rising Commander Decks - Set of 2: []
-  Zendikar Rising Lands Wrath Commander Deck: []
-  Zendikar Rising Sneak Attack Commander Deck: []
+  Zendikar Rising Lands Wrath Commander Deck:
+    card_count: 100
+    deck:
+    - name: Land's Wrath
+      set: znc
+    other:
+    - name: Foil Etched Cardstock Display Commander
+    - name: Zendikar Rising Life Wheel
+    - name: 10 Double Sided Tokens
+  Zendikar Rising Sneak Attack Commander Deck:
+    card_count: 100
+    deck:
+    - name: Sneak Attack
+      set: znc
+    other:
+    - name: Foil Etched Cardstock Display Commander
+    - name: Zendikar Rising Life Wheel
+    - name: 10 Double Sided Tokens

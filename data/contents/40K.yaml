@@ -4,11 +4,43 @@ products:
   Warhammer 40,000 Commander Decks - Set of Four: []
   Warhammer 40000 Commander Deck Display: []
   Warhammer 40000 Commander Deck Display Collectors Edition: []
-  Warhammer 40000 Forces of the Imperium Commander Deck: []
-  Warhammer 40000 Forces of the Imperium Commander Deck Collectors Edition: []
-  Warhammer 40000 Necron Dynasties Commander Deck: []
-  Warhammer 40000 Necron Dynasties Commander Deck Collectors Edition: []
-  Warhammer 40000 The Ruinous Powers Commander Deck: []
-  Warhammer 40000 The Ruinous Powers Commander Deck Collectors Edition: []
-  Warhammer 40000 Tyranid Swarm Commander Deck: []
-  Warhammer 40000 Tyranid Swarm Commander Deck Collectors Edition: []
+  Warhammer 40000 Forces of the Imperium Commander Deck:
+    card_count: 100
+    deck:
+    - name: Forces of the Imperium
+      set: 40k
+  Warhammer 40000 Forces of the Imperium Commander Deck Collectors Edition:
+    card_count: 100
+    deck:
+    - name: Forces of the Imperium Collector's Edition
+      set: 40k
+  Warhammer 40000 Necron Dynasties Commander Deck:
+    card_count: 100
+    deck:
+    - name: Necron Dynasties
+      set: 40k
+  Warhammer 40000 Necron Dynasties Commander Deck Collectors Edition:
+    card_count: 100
+    deck:
+    - name: Necron Dynasties Collector's Edition
+      set: 40k
+  Warhammer 40000 The Ruinous Powers Commander Deck:
+    card_count: 100
+    deck:
+    - name: The Ruinous Powers
+      set: 40k
+  Warhammer 40000 The Ruinous Powers Commander Deck Collectors Edition:
+    card_count: 100
+    deck:
+    - name: The Ruinous Powers Collector's Edition
+      set: 40k
+  Warhammer 40000 Tyranid Swarm Commander Deck:
+    card_count: 100
+    deck:
+    - name: Tyranid Swarm
+      set: 40k
+  Warhammer 40000 Tyranid Swarm Commander Deck Collectors Edition:
+    card_count: 100
+    deck:
+    - name: Tyranid Swarm Collector's Edition
+      set: 40k
