@@ -2,5 +2,21 @@ code: khc
 products:
   Kaldheim Commander Deck Display Case: []
   Kaldheim Commander Decks - Set of 2: []
-  Kaldheim Elven Empire Commander Deck: []
-  Kaldheim Phantom Premonition Commander Deck: []
+  Kaldheim Elven Empire Commander Deck:
+    card_count: 100
+    deck:
+    - name: Elven Empire
+      set: khc
+    other:
+    - name: Foil Etched Cardstock Display Commander
+    - name: Kaldheim Life Wheel
+    - name: 10 Double Sided Tokens
+  Kaldheim Phantom Premonition Commander Deck:
+    card_count: 100
+    deck:
+    - name: Phantom Premonition
+      set: khc
+    other:
+    - name: Foil Etched Cardstock Display Commander
+    - name: Kaldheim Life Wheel
+    - name: 10 Double Sided Tokens

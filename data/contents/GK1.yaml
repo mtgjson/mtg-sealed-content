@@ -1,8 +1,53 @@
 code: gk1
 products:
-  Guilds of Ravnica Guild Kit Boros: []
-  Guilds of Ravnica Guild Kit Dimir: []
-  Guilds of Ravnica Guild Kit Golgari: []
-  Guilds of Ravnica Guild Kit Izzet: []
-  Guilds of Ravnica Guild Kit Selesnya: []
+  Guilds of Ravnica Guild Kit Boros:
+    card_count: 60
+    deck:
+    - name: Boros
+      set: gk1
+    other:
+    - name: Guild Kit Spindown
+    - name: Official Boros Guild Pin
+    - name: Boros Symbol Sticker
+    - name: Insert With Mission Instructions
+  Guilds of Ravnica Guild Kit Dimir:
+    card_count: 60
+    deck:
+    - name: Dimir
+      set: gk1
+    other:
+    - name: Guild Kit Spindown
+    - name: Official Dimir Guild Pin
+    - name: Dimir Symbol Sticker
+    - name: Insert With Mission Instructions
+  Guilds of Ravnica Guild Kit Golgari:
+    card_count: 60
+    deck:
+    - name: Golgari
+      set: gk1
+    other:
+    - name: Guild Kit Spindown
+    - name: Official Golgari Guild Pin
+    - name: Golgari Symbol Sticker
+    - name: Insert With Mission Instructions
+  Guilds of Ravnica Guild Kit Izzet:
+    card_count: 60
+    deck:
+    - name: Izzet
+      set: gk1
+    other:
+    - name: Guild Kit Spindown
+    - name: Official Izzet Guild Pin
+    - name: Izzet Symbol Sticker
+    - name: Insert With Mission Instructions
+  Guilds of Ravnica Guild Kit Selesnya:
+    card_count: 60
+    deck:
+    - name: Selesnya
+      set: gk1
+    other:
+    - name: Guild Kit Spindown
+    - name: Official Selesnya Guild Pin
+    - name: Selesnya Symbol Sticker
+    - name: Insert With Mission Instructions
   Guilds of Ravnica Guild Kits Set of 5: []

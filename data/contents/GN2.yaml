@@ -1,3 +1,22 @@
 code: gn2
 products:
-  Magic Game Night Set: []
+  Magic Game Night Set:
+    card_count: 300
+    deck:
+    - name: Aerial Acrobatics
+      set: gn2
+    - name: Draconic Fury
+      set: gn2
+    - name: Endless Hordes
+      set: gn2
+    - name: Glorious Combat
+      set: gn2
+    - name: Massive Might
+      set: gn2
+    other:
+    - name: 5 Game Night Spindowns
+    - name: 5 Life Counter Platforms
+    - name: 20 +1/+1 Counters
+    - name: 15 Double-Sided Tokens
+    - name: 5 Rules Reference Cards
+    - name: Rulebook

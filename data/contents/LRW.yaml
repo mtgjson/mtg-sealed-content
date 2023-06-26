@@ -11,7 +11,11 @@ products:
     pack:
     - code: default
       set: lrw
-  Lorwyn Elementals Path Theme Deck: []
+  Lorwyn Elementals Path Theme Deck:
+    card_count: 60
+    deck:
+    - name: Elementals' Path
+      set: lrw
   Lorwyn Elvish Predation Theme Deck:
     card_count: 60
     deck:

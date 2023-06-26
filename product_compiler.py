@@ -21,7 +21,7 @@ if rollCheck:
     logger.handlers[0].doRollover()
 
 alt_codes = {
-    "CON_": "con"
+    "con_": "con"
 }
 
 logger.info("Starting logging")

@@ -13,7 +13,11 @@ products:
     deck:
     - name: Endless March
       set: plc
-  Planar Chaos Theme Deck Ixidors Legacy: []
+  Planar Chaos Theme Deck Ixidors Legacy:
+    card_count: 60
+    deck:
+    - name: Ixidor's Legacy
+      set: plc
   Planar Chaos Theme Deck Rituals of Rebirth:
     card_count: 60
     deck:

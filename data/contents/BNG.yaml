@@ -21,7 +21,15 @@ products:
       set: bng
   Born of the Gods Fat Pack: []
   Born of the Gods Intro Display 2x of all 5: []
-  Born of the Gods Intro Pack Deaths Beginning: []
+  Born of the Gods Intro Pack Deaths Beginning:
+    card_count: 60
+    deck:
+    - name: Death's Beginning
+      set: bng
+    sealed:
+    - count: 2
+      name: Born of the Gods Booster Pack
+      set: bng
   Born of the Gods Intro Pack Forged in Battle:
     card_count: 60
     deck:
@@ -49,6 +57,14 @@ products:
     - count: 2
       name: Born of the Gods Booster Pack
       set: bng
-  Born of the Gods Intro Pack Inspiration Struck: []
+  Born of the Gods Intro Pack Inspiration Struck:
+    card_count: 60
+    deck:
+    - name: Inspiration-Struck
+      set: bng
+    sealed:
+    - count: 2
+      name: Born of the Gods Booster Pack
+      set: bng
   Born of the Gods Intro Pack Set of 5: []
   Born of the Gods Prerelease Kit Set of 5: []

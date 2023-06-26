@@ -1,8 +1,53 @@
 code: gk2
 products:
-  Ravnica Allegiance Guild Kit Azorius: []
-  Ravnica Allegiance Guild Kit Gruul: []
-  Ravnica Allegiance Guild Kit Orzhov: []
-  Ravnica Allegiance Guild Kit Rakdos: []
+  Ravnica Allegiance Guild Kit Azorius:
+    card_count: 60
+    deck:
+    - name: Azorius
+      set: gk1
+    other:
+    - name: Guild Kit Spindown
+    - name: Official Azorius Guild Pin
+    - name: Azorius Symbol Sticker
+    - name: Insert With Mission Instructions
+  Ravnica Allegiance Guild Kit Gruul:
+    card_count: 60
+    deck:
+    - name: Gruul
+      set: gk1
+    other:
+    - name: Guild Kit Spindown
+    - name: Official Gruul Guild Pin
+    - name: Gruul Symbol Sticker
+    - name: Insert With Mission Instructions
+  Ravnica Allegiance Guild Kit Orzhov:
+    card_count: 60
+    deck:
+    - name: Orzhov
+      set: gk1
+    other:
+    - name: Guild Kit Spindown
+    - name: Official Orzhov Guild Pin
+    - name: Orzhov Symbol Sticker
+    - name: Insert With Mission Instructions
+  Ravnica Allegiance Guild Kit Rakdos:
+    card_count: 60
+    deck:
+    - name: Rakdos
+      set: gk1
+    other:
+    - name: Guild Kit Spindown
+    - name: Official Rakdos Guild Pin
+    - name: Rakdos Symbol Sticker
+    - name: Insert With Mission Instructions
   Ravnica Allegiance Guild Kit Set of 5: []
-  Ravnica Allegiance Guild Kit Simic: []
+  Ravnica Allegiance Guild Kit Simic:
+    card_count: 60
+    deck:
+    - name: Simic
+      set: gk1
+    other:
+    - name: Guild Kit Spindown
+    - name: Official Simic Guild Pin
+    - name: Simic Symbol Sticker
+    - name: Insert With Mission Instructions

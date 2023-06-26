@@ -17,7 +17,11 @@ products:
     deck:
     - name: Phyrexian Assault
       set: ulg
-  Urzas Legacy Theme Deck Radiants Revenge: []
+  Urzas Legacy Theme Deck Radiants Revenge:
+    card_count: 60
+    deck:
+    - name: Radiant's Revenge
+      set: ulg
   Urzas Legacy Theme Deck Time Drain:
     card_count: 60
     deck:

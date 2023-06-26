@@ -34,7 +34,15 @@ products:
     - count: 2
       name: Journey Into Nyx Booster Pack
       set: jou
-  Journey Into Nyx Intro Pack Pantheons Power: []
+  Journey Into Nyx Intro Pack Pantheons Power:
+    card_count: 60
+    deck:
+    - name: Pantheon's Power
+      set: jou
+    sealed:
+    - count: 2
+      name: Journey Into Nyx Booster Pack
+      set: jou
   Journey Into Nyx Intro Pack Set of 5: []
   Journey Into Nyx Intro Pack The Wilds and the Deep:
     card_count: 60

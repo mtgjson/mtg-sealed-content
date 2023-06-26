@@ -10,7 +10,15 @@ products:
     - code: default
       set: mbs
   Mirrodin Besieged Event Deck Display: []
-  Mirrodin Besieged Event Deck Infect and Defile: []
+  Mirrodin Besieged Event Deck Infect and Defile:
+    card_count: 60
+    deck:
+    - name: Infect & Defile
+      set: mbs
+    sealed:
+    - count: 1
+      name: Mirrodin Besieged Booster Pack
+      set: mbs
   Mirrodin Besieged Event Deck Into the Breach:
     card_count: 75
     deck:

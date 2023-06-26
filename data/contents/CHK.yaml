@@ -13,7 +13,11 @@ products:
     deck:
     - name: Kami Reborn
       set: chk
-  Champions of Kamigawa Theme Deck Snakes Path: []
+  Champions of Kamigawa Theme Deck Snakes Path:
+    card_count: 60
+    deck:
+    - name: Snake's Path
+      set: chk
   Champions of Kamigawa Theme Deck Spiritbane:
     card_count: 60
     deck:

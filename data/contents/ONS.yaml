@@ -7,7 +7,11 @@ products:
     - code: default
       set: ons
   Onslaught Fat Pack: []
-  Onslaught Theme Deck Bait and Switch: []
+  Onslaught Theme Deck Bait and Switch:
+    card_count: 60
+    deck:
+    - name: Bait & Switch
+      set: ons
   Onslaught Theme Deck Celestial Assault:
     card_count: 60
     deck:

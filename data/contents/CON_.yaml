@@ -1,11 +1,51 @@
-code: con_
+code: con
 products:
   Conflux Booster Box: []
   Conflux Booster Pack: []
   Conflux Fat Pack: []
-  Conflux Intro Pack Bant on the March: []
+  Conflux Intro Pack Bant on the March:
+    card_count: 41
+    deck:
+    - name: Bant on the March
+      set: con
+    sealed:
+    - count: 1
+      name: Conflux Booster Pack
+      set: con
   Conflux Intro Pack Display: []
-  Conflux Intro Pack Esper Air Assault: []
-  Conflux Intro Pack Grixis Shambling Army: []
-  Conflux Intro Pack Jund Appetite for War: []
-  Conflux Intro Pack Naya Domain: []
+  Conflux Intro Pack Esper Air Assault:
+    card_count: 41
+    deck:
+    - name: Esper Air Assault
+      set: con
+    sealed:
+    - count: 1
+      name: Conflux Booster Pack
+      set: con
+  Conflux Intro Pack Grixis Shambling Army:
+    card_count: 41
+    deck:
+    - name: Grixis Shambling Army
+      set: con
+    sealed:
+    - count: 1
+      name: Conflux Booster Pack
+      set: con
+  Conflux Intro Pack Jund Appetite for War:
+    card_count: 41
+    deck:
+    - name: Jund Appetite for War
+      set: con
+    sealed:
+    - count: 1
+      name: Conflux Booster Pack
+      set: con
+  Conflux Intro Pack Naya Domain:
+    card_count: 41
+    deck:
+    - name: Naya Domain
+      set: con
+    sealed:
+    - count: 1
+      name: Conflux Booster Pack
+      set: con
