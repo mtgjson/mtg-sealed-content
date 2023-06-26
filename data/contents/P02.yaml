@@ -18,7 +18,11 @@ products:
     deck:
     - name: Martial Law
       set: p02
-  Portal Second Age Theme Deck Natures Assault: []
+  Portal Second Age Theme Deck Natures Assault:
+    card_count: 40
+    deck:
+    - name: Nature's Assault
+      set: p02
   Portal Second Age Theme Deck Spellweaver:
     card_count: 40
     deck:
@@ -29,5 +33,19 @@ products:
     deck:
     - name: The Nightstalkers
       set: p02
-  Portal Second Age Two Player Starter Deck: []
+  Portal Second Age Two Player Starter Deck:
+    card_count: 60
+    deck:
+    - name: Preconstructed deck 1
+      set: p02
+    - name: Preconstructed deck 2
+      set: p02
+    other:
+    - name: Two Paper Playmats
+    - name: Portal Second Age Play Guide
+    - name: Portal Second Age Magic Rulebook
+    sealed:
+    - count: 1
+      name: Portal Second Age Booster Pack
+      set: p02
   Portal Second Age Two Player Starter Display 12: []

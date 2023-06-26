@@ -7,7 +7,13 @@ products:
     pack:
     - code: default
       set: frf
-  Fate Reforged Clash Pack: []
+  Fate Reforged Clash Pack:
+    card_count: 120
+    deck:
+    - name: Profit
+      set: frf
+    - name: Power
+      set: frf
   Fate Reforged Fat Pack: []
   Fate Reforged Intro Pack Cunning Plan:
     card_count: 60

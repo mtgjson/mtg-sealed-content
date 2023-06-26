@@ -7,7 +7,13 @@ products:
     pack:
     - code: default
       set: ori
-  Magic Origins Clash Pack: []
+  Magic Origins Clash Pack:
+    card_count: 120
+    deck:
+    - name: Armed
+      set: ori
+    - name: Dangerous
+      set: ori
   Magic Origins Deck Builders Toolkit: []
   Magic Origins Fat Pack: []
   Magic Origins Intro Pack - Assemble Victory (Blue/Red):

@@ -8,8 +8,24 @@ products:
     pack:
     - code: default
       set: avr
-  Avacyn Restored Event Deck Deaths Encroach: []
-  Avacyn Restored Event Deck Humanitys Vengeance: []
+  Avacyn Restored Event Deck Deaths Encroach:
+    card_count: 75
+    deck:
+    - name: Death's Encroach
+      set: avr
+    other:
+    - name: Avacyn Restored Deck Box
+    - name: Avacyn Restored Premium Spin Down
+    - name: Magic Strategy and Mechanics Guide
+  Avacyn Restored Event Deck Humanitys Vengeance:
+    card_count: 75
+    deck:
+    - name: Humanity's Vengeance
+      set: avr
+    other:
+    - name: Avacyn Restored Deck Box
+    - name: Avacyn Restored Premium Spin Down
+    - name: Magic Strategy and Mechanics Guide
   Avacyn Restored Event Decks - Set of 2: []
   Avacyn Restored Fat Pack: []
   Avacyn Restored Intro Pack Angelic Might:

@@ -12,7 +12,11 @@ products:
     deck:
     - name: Fun With Fungus
       set: tsp
-  Time Spiral Theme Deck Hopes Crusaders: []
+  Time Spiral Theme Deck Hopes Crusaders:
+    card_count: 60
+    deck:
+    - name: Hope's Crusaders
+      set: tsp
   Time Spiral Theme Deck Reality Fracture:
     card_count: 60
     deck:

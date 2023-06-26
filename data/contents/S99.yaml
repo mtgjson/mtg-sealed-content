@@ -7,9 +7,39 @@ products:
     - code: default
       set: s99
   Starter 1999 Demo Game Booster Pack: []
-  Starter 1999 Starter Game: []
+  Starter 1999 Starter Game:
+    card_count: 80
+    deck:
+    - name: Preconstructed deck 1
+      set: s99
+    - name: Preconstructed deck 2
+      set: s99
+    other:
+    - name: Angel of Light Poster
+    - name: Play Guide With Step-by-Step Instructions
+    - name: Two Playmats
+    - name: Two Scorekeeping Beads
+    - name: Magic Rulebook
   Starter 1999 Starter Game Display: []
-  Starter 1999 Starter Gift Box: []
+  Starter 1999 Starter Gift Box:
+    card:
+    - foil: false
+      name: Thorn Elemental
+      number: 11
+      set: o90p
+    card_count: 80
+    deck:
+    - name: Preconstructed deck 1
+      set: s99
+    - name: Preconstructed deck 2
+      set: s99
+    other:
+    - name: Angel of Light Poster
+    - name: Play Guide With Step-by-Step Instructions
+    - name: Two Playmats
+    - name: Two Scorekeeping Beads
+    - name: Magic Rulebook
+    - name: Instructional Video
   Starter 1999 Theme Deck Blinding Fury:
     card_count: 40
     deck:

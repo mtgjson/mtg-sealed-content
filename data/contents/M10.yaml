@@ -5,7 +5,15 @@ products:
   2010 Core Set Booster Box Case 6 Boxes: []
   2010 Core Set Booster Pack: []
   2010 Core Set Fat Pack: []
-  2010 Core Set Intro Pack Deaths Minions: []
+  2010 Core Set Intro Pack Deaths Minions:
+    card_count: 41
+    deck:
+    - name: Death's Minions
+      set: m10
+    sealed:
+    - count: 1
+      name: 2010 Core Set Booster Pack
+      set: m10
   2010 Core Set Intro Pack Display 10: []
   2010 Core Set Intro Pack Firebomber:
     card_count: 41
@@ -16,7 +24,15 @@ products:
     - count: 1
       name: 2010 Core Set Booster Pack
       set: m10
-  2010 Core Set Intro Pack Natures Fury: []
+  2010 Core Set Intro Pack Natures Fury:
+    card_count: 41
+    deck:
+    - name: Nature's Fury
+      set: m10
+    sealed:
+    - count: 1
+      name: 2010 Core Set Booster Pack
+      set: m10
   2010 Core Set Intro Pack Presence of Mind:
     card_count: 41
     deck:

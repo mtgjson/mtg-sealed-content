@@ -18,7 +18,11 @@ products:
     deck:
     - name: Mind Swarm
       set: dst
-  Darksteel Theme Deck Swarm and Slam: []
+  Darksteel Theme Deck Swarm and Slam:
+    card_count: 60
+    deck:
+    - name: Swarm & Slam
+      set: dst
   Darksteel Theme Deck Transference:
     card_count: 60
     deck:

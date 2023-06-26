@@ -15,11 +15,66 @@ products:
       set: ths
   Theros Fat Pack: []
   Theros Holiday Gift Box: []
-  Theros Intro Pack Abhorrent Overlord: []
-  Theros Intro Pack Anthousa Setessan Hero: []
-  Theros Intro Pack Celestial Archon: []
-  Theros Intro Pack Ember Swallower: []
-  Theros Intro Pack Shipbreaker Kraken: []
+  Theros Intro Pack Abhorrent Overlord:
+    card_count: 60
+    deck:
+    - name: Devotion to Darkness
+      set: ths
+    other:
+    - name: Magic Strategy and Mechanics Guide
+    - name: Learn-to-Play Insert
+    sealed:
+    - count: 2
+      name: Theros Booster Pack
+      set: ths
+  Theros Intro Pack Anthousa Setessan Hero:
+    card_count: 60
+    deck:
+    - name: Anthousa's Army
+      set: ths
+    other:
+    - name: Magic Strategy and Mechanics Guide
+    - name: Learn-to-Play Insert
+    sealed:
+    - count: 2
+      name: Theros Booster Pack
+      set: ths
+  Theros Intro Pack Celestial Archon:
+    card_count: 60
+    deck:
+    - name: Favors From Nyx
+      set: ths
+    other:
+    - name: Magic Strategy and Mechanics Guide
+    - name: Learn-to-Play Insert
+    sealed:
+    - count: 2
+      name: Theros Booster Pack
+      set: ths
+  Theros Intro Pack Ember Swallower:
+    card_count: 60
+    deck:
+    - name: Blazing Beasts of Myth
+      set: ths
+    other:
+    - name: Magic Strategy and Mechanics Guide
+    - name: Learn-to-Play Insert
+    sealed:
+    - count: 2
+      name: Theros Booster Pack
+      set: ths
+  Theros Intro Pack Shipbreaker Kraken:
+    card_count: 60
+    deck:
+    - name: Manipulative Monstrosities
+      set: ths
+    other:
+    - name: Magic Strategy and Mechanics Guide
+    - name: Learn-to-Play Insert
+    sealed:
+    - count: 2
+      name: Theros Booster Pack
+      set: ths
   Theros Prerelease Kit Path of Ambition: []
   Theros Prerelease Kit Path of Battle: []
   Theros Prerelease Kit Path of Honor: []
