@@ -6,5 +6,29 @@ products:
     pack:
     - code: default
       set: por
-  Portal Gift Box: []
-  Portal Two Player Starter Set: []
+  Portal Gift Box:
+    other:
+    - name: Score Keeping Beads
+    - name: Checklist of all Portal Cards
+    sealed:
+    - count: 1
+      name: Portal Two Player Starter Set
+      set: por
+    - count: 1
+      name: Portal Booster Pack
+      set: por
+  Portal Two Player Starter Set:
+    card_count: 70
+    deck:
+    - name: Preconstructed deck 1
+      set: por
+    - name: Preconstructed deck 2
+      set: por
+    other:
+    - name: 2 Paper Playmats
+    - name: Demo Play Guide
+    - name: Rule Book
+    sealed:
+    - count: 1
+      name: Portal Booster Pack
+      set: por
