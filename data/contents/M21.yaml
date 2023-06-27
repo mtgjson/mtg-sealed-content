@@ -1,5 +1,17 @@
 code: m21
 products:
+  Core Set 2021 Arena Starter Kit:
+    card_count: 120
+    deck:
+    - name: Mono Black
+      set: m21
+    - name: Mono Green
+      set: m21
+    other:
+    - name: 2 Quick-Start Guides
+    - name: 2 First Game Walk-Through Cards
+    - name: Rules and World of Magic Booklet
+    - name: MTG Arena Code Card
   Core Set 2021 Bundle: []
   Core Set 2021 Collector Booster Box: []
   Core Set 2021 Collector Booster Pack:
@@ -14,12 +26,52 @@ products:
     pack:
     - code: default
       set: m21
-  Core Set 2021 Planeswalker Deck Basri: []
-  Core Set 2021 Planeswalker Deck Chandra: []
+  Core Set 2021 Planeswalker Deck Basri:
+    card_count: 60
+    deck:
+    - name: Basri, Devoted Paladin
+      set: m21
+    sealed:
+    - count: 1
+      name: Core Set 2021 Draft Booster Pack
+      set: m21
+  Core Set 2021 Planeswalker Deck Chandra:
+    card_count: 60
+    deck:
+    - name: Chandra, Flame's Catalyst
+      set: m21
+    sealed:
+    - count: 1
+      name: Core Set 2021 Draft Booster Pack
+      set: m21
   Core Set 2021 Planeswalker Deck Display: []
-  Core Set 2021 Planeswalker Deck Garruk: []
-  Core Set 2021 Planeswalker Deck Liliana: []
-  Core Set 2021 Planeswalker Deck Teferi: []
+  Core Set 2021 Planeswalker Deck Garruk:
+    card_count: 60
+    deck:
+    - name: Garruk, Savage Herald
+      set: m21
+    sealed:
+    - count: 1
+      name: Core Set 2021 Draft Booster Pack
+      set: m21
+  Core Set 2021 Planeswalker Deck Liliana:
+    card_count: 60
+    deck:
+    - name: Liliana, Death Mage
+      set: m21
+    sealed:
+    - count: 1
+      name: Core Set 2021 Draft Booster Pack
+      set: m21
+  Core Set 2021 Planeswalker Deck Teferi:
+    card_count: 60
+    deck:
+    - name: Teferi, Timeless Voyager
+      set: m21
+    sealed:
+    - count: 1
+      name: Core Set 2021 Draft Booster Pack
+      set: m21
   Core Set 2021 Planeswalker Decks - Set of 5: []
   Core Set 2021 Prerelease Pack: []
   Core Set 2021 Prerelease Pack plus 2 Core Set 2021 Prize Packs: []

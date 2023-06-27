@@ -1,3 +1,9 @@
 code: gs1
 products:
-  Global Series Jiang Yanggu and Mu Yanling: []
+  Global Series Jiang Yanggu and Mu Yanling:
+    card_count: 120
+    deck:
+    - name: Jiang Yanggu
+      set: gs1
+    - name: Mu Yanling
+      set: gs1

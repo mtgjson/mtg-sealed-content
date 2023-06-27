@@ -9,9 +9,25 @@ products:
     - code: default
       set: dom
   Dominaria Bundle: []
-  Dominaria Planeswalker Deck Chandra: []
+  Dominaria Planeswalker Deck Chandra:
+    card_count: 60
+    deck:
+    - name: Chandra, Bold Pyromancer
+      set: dom
+    sealed:
+    - count: 1
+      name: Dominaria Booster Pack
+      set: dom
   Dominaria Planeswalker Deck Display: []
-  Dominaria Planeswalker Deck Teferi: []
+  Dominaria Planeswalker Deck Teferi:
+    card_count: 60
+    deck:
+    - name: Teferi, Timebender
+      set: dom
+    sealed:
+    - count: 1
+      name: Dominaria Booster Pack
+      set: dom
   Dominaria Planeswalker Decks - Set of 2: []
   Dominaria Prerelease Pack: []
   Dominaria Theme Booster Black: []

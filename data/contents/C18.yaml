@@ -1,7 +1,43 @@
 code: c18
 products:
-  Commander 2018 Deck Adaptive Enchantment: []
-  Commander 2018 Deck Exquisite Invention: []
-  Commander 2018 Deck Natures Vengeance: []
-  Commander 2018 Deck Subjective Reality: []
+  Commander 2018 Deck Adaptive Enchantment:
+    card_count: 100
+    deck:
+    - name: Adaptive Enchantment
+      set: c18
+    other:
+    - name: Foil Oversized Commander
+    - name: 10 Double Sided Tokens
+    - name: Reference Card and Strategy Insert
+    - name: Deck Box
+  Commander 2018 Deck Exquisite Invention:
+    card_count: 100
+    deck:
+    - name: Exquisite Invention
+      set: c18
+    other:
+    - name: Foil Oversized Commander
+    - name: 10 Double Sided Tokens
+    - name: Reference Card and Strategy Insert
+    - name: Deck Box
+  Commander 2018 Deck Natures Vengeance:
+    card_count: 100
+    deck:
+    - name: Nature's Vengeance
+      set: c18
+    other:
+    - name: Foil Oversized Commander
+    - name: 10 Double Sided Tokens
+    - name: Reference Card and Strategy Insert
+    - name: Deck Box
+  Commander 2018 Deck Subjective Reality:
+    card_count: 100
+    deck:
+    - name: Subjective Reality
+      set: c18
+    other:
+    - name: Foil Oversized Commander
+    - name: 10 Double Sided Tokens
+    - name: Reference Card and Strategy Insert
+    - name: Deck Box
   Commander 2018 Set of 4: []

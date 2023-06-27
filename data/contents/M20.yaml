@@ -10,12 +10,52 @@ products:
   Core Set 2020 Bundle: []
   Core Set 2020 Deck Builders Toolkit: []
   Core Set 2020 Land Station: []
-  Core Set 2020 Planeswalker Deck Ajani: []
-  Core Set 2020 Planeswalker Deck Chandra: []
+  Core Set 2020 Planeswalker Deck Ajani:
+    card_count: 60
+    deck:
+    - name: Ajani, Inspiring Leader
+      set: m20
+    sealed:
+    - count: 1
+      name: Core Set 2020 Booster Pack
+      set: m20
+  Core Set 2020 Planeswalker Deck Chandra:
+    card_count: 60
+    deck:
+    - name: Chandra, Flame's Fury
+      set: m20
+    sealed:
+    - count: 1
+      name: Core Set 2020 Booster Pack
+      set: m20
   Core Set 2020 Planeswalker Deck Display: []
-  Core Set 2020 Planeswalker Deck Sorin: []
-  Core Set 2020 Planeswalker Deck Vivien: []
-  Core Set 2020 Planeswalker Deck Yanling: []
+  Core Set 2020 Planeswalker Deck Sorin:
+    card_count: 60
+    deck:
+    - name: Sorin, Vampire Lord
+      set: m20
+    sealed:
+    - count: 1
+      name: Core Set 2020 Booster Pack
+      set: m20
+  Core Set 2020 Planeswalker Deck Vivien:
+    card_count: 60
+    deck:
+    - name: Vivien, Nature's Avenger
+      set: m20
+    sealed:
+    - count: 1
+      name: Core Set 2020 Booster Pack
+      set: m20
+  Core Set 2020 Planeswalker Deck Yanling:
+    card_count: 60
+    deck:
+    - name: Mu Yanling, Celestial Wind
+      set: m20
+    sealed:
+    - count: 1
+      name: Core Set 2020 Booster Pack
+      set: m20
   Core Set 2020 Planeswalker Decks - Set of 5: []
   Core Set 2020 Prerelease Pack: []
   Core Set 2020 Theme Booster Black: []
@@ -24,3 +64,28 @@ products:
   Core Set 2020 Theme Booster Red: []
   Core Set 2020 Theme Booster Set of 5: []
   Core Set 2020 Theme Booster White: []
+  Core Set 2020 Welcome Deck - Black:
+    card_count: 30
+    deck:
+    - name: Black Deck
+      set: m20
+  Core Set 2020 Welcome Deck - Blue:
+    card_count: 30
+    deck:
+    - name: Blue Deck
+      set: m20
+  Core Set 2020 Welcome Deck - Green:
+    card_count: 30
+    deck:
+    - name: Green Deck
+      set: m20
+  Core Set 2020 Welcome Deck - Red:
+    card_count: 30
+    deck:
+    - name: Red Deck
+      set: m20
+  Core Set 2020 Welcome Deck - White:
+    card_count: 30
+    deck:
+    - name: White Deck
+      set: m20

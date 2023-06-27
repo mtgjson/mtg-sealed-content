@@ -9,8 +9,24 @@ products:
       set: grn
   Guilds of Ravnica Bundle: []
   Guilds of Ravnica Planeswalker Deck Display: []
-  Guilds of Ravnica Planeswalker Deck Ral: []
-  Guilds of Ravnica Planeswalker Deck Vraska: []
+  Guilds of Ravnica Planeswalker Deck Ral:
+    card_count: 60
+    deck:
+    - name: Ral, Caller of Storms
+      set: grn
+    sealed:
+    - count: 1
+      name: Guilds of Ravnica Booster Pack
+      set: grn
+  Guilds of Ravnica Planeswalker Deck Vraska:
+    card_count: 60
+    deck:
+    - name: Vraska, Regal Gorgon
+      set: grn
+    sealed:
+    - count: 1
+      name: Guilds of Ravnica Booster Pack
+      set: grn
   Guilds of Ravnica Planeswalker Decks - Set of 2: []
   Guilds of Ravnica Prerelease Pack Boros: []
   Guilds of Ravnica Prerelease Pack Dimir: []
