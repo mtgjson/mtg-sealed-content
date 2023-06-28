@@ -8,8 +8,24 @@ products:
     - code: default
       set: aer
   Aether Revolt Bundle: []
-  Aether Revolt Planeswalker Deck Ajani: []
+  Aether Revolt Planeswalker Deck Ajani:
+    card_count: 60
+    deck:
+    - name: Ajani, Valiant Protector
+      set: aer
+    sealed:
+    - count: 1
+      name: Aether Revolt Booster Pack
+      set: aer
   Aether Revolt Planeswalker Deck Display: []
-  Aether Revolt Planeswalker Deck Tezzeret: []
+  Aether Revolt Planeswalker Deck Tezzeret:
+    card_count: 60
+    deck:
+    - name: Tezzeret, Master of Metal
+      set: aer
+    sealed:
+    - count: 1
+      name: Aether Revolt Booster Pack
+      set: aer
   Aether Revolt Planeswalker Decks - Set of 2: []
   Aether Revolt Prerelease Pack: []

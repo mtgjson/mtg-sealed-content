@@ -11,8 +11,24 @@ products:
   Ravnica Allegiance Collectors Booster Pack: []
   Ravnica Allegiance Deck Builders Toolkit: []
   Ravnica Allegiance Planeswalker Deck Display: []
-  Ravnica Allegiance Planeswalker Deck Domri: []
-  Ravnica Allegiance Planeswalker Deck Dovin: []
+  Ravnica Allegiance Planeswalker Deck Domri:
+    card_count: 60
+    deck:
+    - name: Domri, City Smasher
+      set: rna
+    sealed:
+    - count: 1
+      name: Ravnica Allegiance Booster Pack
+      set: rna
+  Ravnica Allegiance Planeswalker Deck Dovin:
+    card_count: 60
+    deck:
+    - name: Dovin, Architect of Law
+      set: rna
+    sealed:
+    - count: 1
+      name: Ravnica Allegiance Booster Pack
+      set: rna
   Ravnica Allegiance Planeswalker Decks - Set of 2: []
   Ravnica Allegiance Prerelease Pack Azorius: []
   Ravnica Allegiance Prerelease Pack Gruul: []
