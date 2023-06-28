@@ -29,7 +29,7 @@ total = 0
 complete = 0
 
 parentPath = Path("mtgJson/AllSetfiles/")
-files = parentPath.glob("*.json")
+files = list(parentPath.glob("*.json"))
 t = tqdm(files)
 codes = set()
 for file in t:

@@ -239,19 +239,19 @@ logger.addHandler(handler)
 if rollCheck:
     logger.handlers[0].doRollover()
 
-contents_files = Path("data/contents/").glob("*.yaml")
-new_files = Path("data/products").glob("*.yaml")
+contents_files = list(Path("data/contents/").glob("*.yaml"))
+new_files = list(Path("data/products").glob("*.yaml"))
 
 products_contents = {}
 deck_mapper = {}
 
-for file in tqdm(contents_files):
+for file in tqdm(contents_files, position=0):
     with open(file, "rb") as f:
         data = yaml.safe_load(f)
     if not data["products"]:
         logger.error("Set %s has no products", data["code"])
         os.remove(file)
-    for product, contents in data["products"].items():
+    for product, contents in tqdm(data["products"].items(), position=1, leave=False):
         if "copy" in contents:
             contents = data["products"][contents["copy"]]
         if "variable" in contents:
@@ -278,7 +278,7 @@ with open("outputs/deck_map.json", "w") as outfile:
 
 products_new = {}
 
-for file in new_files:
+for file in tqdm(new_files):
     with open(file, "rb") as f:
         data = yaml.safe_load(f)
     products_new[data["code"]] = data["products"]
