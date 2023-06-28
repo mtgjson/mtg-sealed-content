@@ -10,7 +10,23 @@ products:
       set: xln
   Ixalan Bundle: []
   Ixalan Deck Builders Toolkit: []
-  Ixalan Planeswalker Deck Huatli: []
-  Ixalan Planeswalker Deck Jace: []
+  Ixalan Planeswalker Deck Huatli:
+    card_count: 60
+    deck:
+    - name: Huatli, Dinosaur Knight
+      set: xln
+    sealed:
+    - count: 1
+      name: Ixalan Booster Pack
+      set: xln
+  Ixalan Planeswalker Deck Jace:
+    card_count: 60
+    deck:
+    - name: Jace, Ingenious Mind Mage
+      set: xln
+    sealed:
+    - count: 1
+      name: Ixalan Booster Pack
+      set: xln
   Ixalan Planeswalker Decks - Set of 2: []
   Ixalan Prerelease Pack: []
