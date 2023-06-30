@@ -3,7 +3,11 @@ products:
   2010 Core Set 3x Booster Packs draft set: []
   2010 Core Set Booster Box: []
   2010 Core Set Booster Box Case 6 Boxes: []
-  2010 Core Set Booster Pack: []
+  2010 Core Set Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: m10
   2010 Core Set Fat Pack: []
   2010 Core Set Intro Pack Deaths Minions:
     card_count: 41

@@ -1,3 +1,9 @@
 code: pd3
 products:
-  Premium Deck Series Graveborn: []
+  Premium Deck Series Graveborn:
+    card_count: 60
+    deck:
+    - name: Graveborn
+      set: pd3
+    other:
+    - name: Premium Deck Series Spindown
