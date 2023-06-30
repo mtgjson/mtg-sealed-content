@@ -48,7 +48,7 @@ def get_uuid_card(card):
 
 def validate_contents(contents, route, logger):
     if not contents:
-        logger.error("%s missing contents %s", route, contents)
+        logger.info("%s missing contents %s", route, contents)
         return False
     if not isinstance(contents, dict):
         logger.error("%s has invalid contents format", route)
