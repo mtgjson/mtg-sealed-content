@@ -10,9 +10,44 @@ products:
   Duels of the Planeswalkers 2014 iPad Promo Pack: []
   Duels of the Planeswalkers 2015 Promo Pack: []
   Duels of the Planeswalkers 2015 XBOX Promo Pack: []
-  Duels of the Planeswalkers Ears of the Elves Nissa Revane Deck: []
-  Duels of the Planeswalkers Eyes of Shadow Liliana Vess Deck: []
-  Duels of the Planeswalkers Hands of Flame Chandra Nalaar Deck: []
+  Duels of the Planeswalkers Ears of the Elves Nissa Revane Deck:
+    card_count: 60
+    deck:
+    - name: Ears of the Elves - The Nissa Revane Deck
+      set: dpa
+    sealed:
+    - name: 2010 Core Set Booster Pack
+      set: m10
+  Duels of the Planeswalkers Eyes of Shadow Liliana Vess Deck:
+    card_count: 60
+    deck:
+    - name: Eyes of Shadow - The Liliana Vess Deck
+      set: dpa
+    sealed:
+    - name: 2010 Core Set Booster Pack
+      set: m10
+  Duels of the Planeswalkers Hands of Flame Chandra Nalaar Deck:
+    card_count: 60
+    deck:
+    - name: Hands of Flame - The Chandra Nalaar Deck
+      set: dpa
+    sealed:
+    - name: 2010 Core Set Booster Pack
+      set: m10
   Duels of the Planeswalkers Set of 5 Deck: []
-  Duels of the Planeswalkers Teeth of the Predator Garruk Wildspeaker Deck: []
-  Duels of the Planeswalkers Thoughts of the Wind Jace Beleren Deck: []
+  Duels of the Planeswalkers Teeth of the Predator Garruk Wildspeaker Deck:
+    card_count: 60
+    deck:
+    - name: Teeth of the Predator - the Garruk Wildspeaker Deck
+      set: dpa
+    sealed:
+    - name: 2010 Core Set Booster Pack
+      set: m10
+  Duels of the Planeswalkers Thoughts of the Wind Jace Beleren Deck:
+    card_count: 60
+    deck:
+    - name: Thoughts of the Wind - The Jace Beleren Deck
+      set: dpa
+    sealed:
+    - name: 2010 Core Set Booster Pack
+      set: m10

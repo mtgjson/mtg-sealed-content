@@ -1,6 +1,22 @@
 code: arc
 products:
-  Archenemy Theme Deck Assemble the Doomsday Machine: []
-  Archenemy Theme Deck Bring About the Undead Apocalypse: []
-  Archenemy Theme Deck Scorch the World with Dragonfire: []
-  Archenemy Theme Deck Trample Civilization Underfoot: []
+  Archenemy Theme Deck Assemble the Doomsday Machine:
+    card_count: 80
+    deck:
+    - name: Assemble The Doomsday Machine
+      set: arc
+  Archenemy Theme Deck Bring About the Undead Apocalypse:
+    card_count: 80
+    deck:
+    - name: Bring About The Undead Apocalypse
+      set: arc
+  Archenemy Theme Deck Scorch the World with Dragonfire:
+    card_count: 80
+    deck:
+    - name: Scorch The World With Dragonfire
+      set: arc
+  Archenemy Theme Deck Trample Civilization Underfoot:
+    card_count: 80
+    deck:
+    - name: Trample Civilization Underfoot
+      set: arc
