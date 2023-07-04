@@ -27,7 +27,7 @@ products:
       name: Kaladesh Booster Pack
       set: kld
   Kaladesh Deck Builders Toolkit:
-    card_count: 185
+    card_count: 225
     deck:
     - name: Deck Builder's Toolkit Fixed Content
       set: kld
@@ -46,48 +46,37 @@ products:
       name: Eldritch Moon Booster Pack
       set: emn
     variable:
-    - card_count: 10
-      deck:
+    - deck:
       - name: Black and Red Madness
         set: kld
-    - card_count: 10
-      deck:
+    - deck:
       - name: White and Black Spirits
         set: kld
-    - card_count: 10
-      deck:
+    - deck:
       - name: Blue and Green
         set: kld
-    - card_count: 10
-      deck:
+    - deck:
       - name: Blue and White Flying
         set: kld
-    - card_count: 10
-      deck:
+    - deck:
       - name: Red and White
         set: kld
-    - card_count: 10
-      deck:
+    - deck:
       - name: Red and Colorless Artifacts
         set: kld
-    - card_count: 10
-      deck:
+    - deck:
       - name: Blue and Black Zombies
         set: kld
-    - card_count: 10
-      deck:
+    - deck:
       - name: Green and White Humans
         set: kld
-    - card_count: 10
-      deck:
+    - deck:
       - name: Blue and Colorless Artifacts
         set: kld
-    - card_count: 10
-      deck:
+    - deck:
       - name: Black and Green Delirium
         set: kld
-    - card_count: 10
-      deck:
+    - deck:
       - name: Red and Green Wolves
         set: kld
     variable_mode:
@@ -159,25 +148,21 @@ products:
     - count: 2
       name: Kaladesh Booster Pack
       set: kld
+    card_count: 60
     variable:
-    - card_count: 30
-      deck:
+    - deck:
       - name: White Deck
         set: w16
-    - card_count: 30
-      deck:
+    - deck:
       - name: Blue Deck
         set: w16
-    - card_count: 30
-      deck:
+    - deck:
       - name: Black Deck
         set: w16
-    - card_count: 30
-      deck:
+    - deck:
       - name: Red Deck
         set: w16
-    - card_count: 30
-      deck:
+    - deck:
       - name: Green Deck
         set: w16
     variable_mode:

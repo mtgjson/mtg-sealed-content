@@ -23,7 +23,7 @@ products:
     - name: Fury
       set: m15
   2015 Core Set Deck Builders Toolkit:
-    card_count: 229
+    card_count: 225
     deck:
     - name: Deck Builder's Toolkit Fixed Content
       set: m15
@@ -45,48 +45,37 @@ products:
       name: 2015 Core Set Booster Pack
       set: m15
     variable:
-    - card_count: 10
-      deck:
+    - deck:
       - name: Black Devotion
         set: m15
-    - card_count: 10
-      deck:
+    - deck:
       - name: Black Green Graveyard
         set: m15
-    - card_count: 10
-      deck:
+    - deck:
       - name: Black Red Minotaurs
         set: m15
-    - card_count: 10
-      deck:
+    - deck:
       - name: Green White Convoke
         set: m15
-    - card_count: 10
-      deck:
+    - deck:
       - name: Red Green Monstrosity
         set: m15
-    - card_count: 10
-      deck:
+    - deck:
       - name: Red White Auras
         set: m15
-    - card_count: 10
-      deck:
+    - deck:
       - name: White Black Life Gain
         set: m15
-    - card_count: 10
-      deck:
+    - deck:
       - name: White Blue Bestow
         set: m15
-    - card_count: 10
-      deck:
+    - deck:
       - name: Blue Green Enters the Battlefield
         set: m15
-    - card_count: 10
-      deck:
+    - deck:
       - name: Blue Red Artifacts
         set: m15
-    - card_count: 10
-      deck:
+    - deck:
       - name: Blue Red Counterburn
         set: m15
     variable_mode:
