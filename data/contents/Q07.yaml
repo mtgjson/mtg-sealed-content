@@ -1,6 +1,22 @@
 code: q07
 products:
-  'Challenger Deck 2022: Dimir Control': []
-  'Challenger Deck 2022: Gruul Stompy': []
-  'Challenger Deck 2022: Mono White Aggro': []
-  'Challenger Deck 2022: Rakdos Vampires': []
+  'Challenger Deck 2022: Dimir Control':
+    card_count: 75
+    deck:
+    - name: Dimir Control
+      set: q07
+  'Challenger Deck 2022: Gruul Stompy':
+    card_count: 75
+    deck:
+    - name: Gruul Stompy
+      set: q07
+  'Challenger Deck 2022: Mono White Aggro':
+    card_count: 75
+    deck:
+    - name: Mono White Aggro
+      set: q07
+  'Challenger Deck 2022: Rakdos Vampires':
+    card_count: 75
+    deck:
+    - name: Rakdos Vampires
+      set: q07
