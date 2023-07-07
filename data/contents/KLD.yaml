@@ -144,11 +144,11 @@ products:
       name: Kaladesh Booster Pack
       set: kld
   Kaladesh Two Player Booster Battle Pack:
+    card_count: 60
     sealed:
     - count: 2
       name: Kaladesh Booster Pack
       set: kld
-    card_count: 60
     variable:
     - deck:
       - name: White Deck
