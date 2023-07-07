@@ -20,33 +20,50 @@ def recursive_update(d, u):
             d[k] = v
     return d
 
-def get_uuid_sealed(product):
-    filename = product["set"].upper()
-    if filename == "CON":
-        filename = "CON_"
-    filename += ".json"
-    file = Path("mtgJson/AllSetFiles").joinpath(filename)
-    with open(file, "r") as jfile:
-        objects = list(ijson.items(jfile, "data.sealedProduct.item"))
-        for o in objects:
-            if o["name"] == product["name"]:
-                return o["uuid"]
-    raise KeyError(f"Missing UUID for {product['name']}")
+def build_uuid_map():
+    file = Path("mtgJson/AllPrintings.json")
+    uuids = {}
+    with open(file, 'rb') as jfile:
+        parser = ijson.parse(jfile)
+        current_set = ""
+        status = ""
+        identifier = ""
+        uuid = ""
+        for prefix, event, value in tqdm(parser):
+            if prefix == "data" and event == "map_key":
+                current_set = value
+                ccode = current_set.lower()
+                uuids[ccode] = {"booster": set(), "decks": set(), "sealedProduct": {}, "cards": {}}
+                status = ""
+            elif prefix == f"data.{current_set}" and event == "map_key":
+                status = value
+            elif status == "booster" and prefix == f"data.{current_set}.booster" and event == "map_key":
+                uuids[ccode]["booster"].add(value)
+            elif status == "decks" and prefix == f"data.{current_set}.decks.item.name":
+                uuids[ccode]["decks"].add(value)
+            elif status == "sealedProduct":
+                if prefix == f"data.{current_set}.sealedProduct.item" and event == "start_map":
+                    identifier = ""
+                    uuid = ""
+                elif prefix == f"data.{current_set}.sealedProduct.item.name":
+                    identifier = value
+                elif prefix == f"data.{current_set}.sealedProduct.item.uuid":
+                    uuid = value
+                elif prefix == f"data.{current_set}.sealedProduct.item" and event == "end_map":
+                    uuids[ccode]["sealedProduct"][identifier] = uuid
+            elif status == "cards":
+                if prefix == f"data.{current_set}.cards.item" and event == "start_map":
+                    identifier = ""
+                    uuid = ""
+                elif prefix == f"data.{current_set}.cards.item.number":
+                    identifier = value
+                elif prefix == f"data.{current_set}.cards.item.uuid":
+                    uuid = value
+                elif prefix == f"data.{current_set}.cards.item" and event == "end_map":
+                    uuids[ccode]["cards"][identifier] = uuid
+    return uuids
 
-def get_uuid_card(card):
-    filename = card["set"].upper()
-    if filename == "CON":
-        filename = "CON_"
-    filename += ".json"
-    file = Path("mtgJson/AllSetFiles").joinpath(filename)
-    with open(file, "r") as jfile:
-        objects = list(ijson.items(jfile, "data.cards.item"))
-        for o in objects:
-            if o["number"] == str(card["number"]):
-                return o["uuid"]
-    raise KeyError(f"Missing UUID for {card['name']}")
-
-def validate_contents(contents, route, logger):
+def validate_contents(contents, route, logger, uuid_map, cc=True):
     if not contents:
         logger.info("%s missing contents %s", route, contents)
         return False
@@ -69,7 +86,7 @@ def validate_contents(contents, route, logger):
                     if ptemp:
                         logger.warning("%s sealed has extra contents %s", route, str(ptemp))
                     try:
-                        product["uuid"] = get_uuid_sealed(product)
+                        product["uuid"] = uuid_map[product['set']]["sealedProduct"][product['name']]
                     except KeyError:
                         logger.warning("Could not get UUID for sealed %s/%s", route, product["name"])
             except KeyError as e:
@@ -79,7 +96,7 @@ def validate_contents(contents, route, logger):
                 logger.error("%s sealed has incorrect value type: %s", route, e)
                 return False
         elif key == "pack":
-            if "card_count" not in contents:
+            if cc and "card_count" not in contents:
                 logger.info("%s pack missing card count", route)
             try:
                 if not value:
@@ -92,6 +109,8 @@ def validate_contents(contents, route, logger):
                         raise TypeError("code is not string")
                     if ptemp:
                         logger.warning("%s pack has extra contents %s", route, str(ptemp))
+                    if product['code'] not in uuid_map[product['set']]['booster']:
+                        logger.warning("%s-%s pack not present in MTGJson data", route, product['code'])
             except KeyError as e:
                 logger.error("%s pack missing required value %s", route, e)
                 return False
@@ -99,7 +118,7 @@ def validate_contents(contents, route, logger):
                 logger.error("%s pack has incorrect value type: %s", route, e)
                 return False
         elif key == "deck":
-            if "card_count" not in contents:
+            if cc and "card_count" not in contents:
                 logger.info("%s deck missing card count", route)
             try:
                 if not value:
@@ -112,6 +131,8 @@ def validate_contents(contents, route, logger):
                         raise TypeError("name is not string")
                     if ptemp:
                         logger.warning("%s deck has extra contents %s", route, str(ptemp))
+                    if product['name'] not in uuid_map[product['set']]['decks']:
+                        logger.warning("%s-%s deck not present in MTGJson data", route, product['name'])
             except KeyError as e:
                 logger.error("%s deck missing required value %s", route, e)
                 return False
@@ -149,7 +170,7 @@ def validate_contents(contents, route, logger):
                     if ptemp:
                         logger.warning("%s pack has extra contents %s", route, str(ptemp))
                     try:
-                        product["uuid"] = get_uuid_card(product)
+                        product["uuid"] = uuid_map[product['set']]['cards'][str(product['number'])]
                     except KeyError:
                         logger.warning("Could not get UUID for card %s/%s", route, product["name"])
             except KeyError as e:
@@ -167,9 +188,9 @@ def validate_contents(contents, route, logger):
             try:
                 for configuration in value:
                     if "card_count" in contents:
-                        check *= validate_contents(dict({"card_count": contents["card_count"]}, **configuration), route+"-variable", logger)
+                        check *= validate_contents(dict({"card_count": contents["card_count"]}, **configuration), route+"-variable", logger, uuid_map, cc=False)
                     else:
-                        check *= validate_contents(configuration, route+"-variable", logger)
+                        check *= validate_contents(configuration, route+"-variable", logger, uuid_map, cc=False)
             except:
                 logger.error("%s variable formatted incorrectly", route)
                 return False
@@ -244,6 +265,7 @@ new_files = list(Path("data/products").glob("*.yaml"))
 
 products_contents = {}
 deck_mapper = {}
+uuid_map = build_uuid_map()
 
 for file in tqdm(contents_files, position=0):
     with open(file, "rb") as f:
@@ -256,11 +278,11 @@ for file in tqdm(contents_files, position=0):
             contents = data["products"][contents["copy"]]
         if "variable" in contents:
             contents = parse_variable(contents)
-        if validate_contents(contents, data["code"] + "-" + product, logger):
+        if validate_contents(contents, data["code"] + "-" + product, logger, uuid_map):
             if data["code"] not in products_contents:
                 products_contents[data["code"]] = {}
             try:
-                self_uuid = get_uuid_sealed({"set": data["code"], "name": product})
+                self_uuid = uuid_map[data['code']]['sealedProduct'][product]
                 deck_mapper = recursive_update(deck_mapper, deck_links(contents, self_uuid, logger))
             except KeyError:
                 logger.warning("Could not get UUID for sealed %s/%s", data["code"], product)

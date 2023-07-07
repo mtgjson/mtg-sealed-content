@@ -23,6 +23,9 @@ if rollCheck:
 alt_codes = {
     "con_": "con"
 }
+r_alt_codes = {
+    "CON": "CON_"
+}
 
 logger.info("Starting logging")
 total = 0
@@ -32,22 +35,25 @@ parentPath = Path("mtgJson/AllSetfiles/")
 files = list(parentPath.glob("*.json"))
 t = tqdm(files)
 codes = set()
-for file in t:
-    output_file = Path("data/contents/").joinpath(file.with_suffix(".yaml").name)
-    if output_file.is_file():
-        with open(output_file, 'r') as f:
-            full = yaml.safe_load(f)
-        try:
-            empties = {k for k, v in full["products"].items() if not v}
-            products = {k: v for k, v in full["products"].items() if v}
-        except:
+with open("mtgJson/AllPrintings.json", 'rb') as allPrintings:
+    all_sets = dict(ijson.kvitems(allPrintings, "data"))
+    for set_code, contents in tqdm(all_sets.items()):
+        output_file = Path("data/contents/").joinpath(r_alt_codes.get(set_code, set_code).upper()).with_suffix(".yaml")
+        if output_file.is_file():
+            with open(output_file, 'r') as f:
+                full = yaml.safe_load(f)
+            try:
+                empties = {k for k, v in full["products"].items() if not v}
+                products = {k: v for k, v in full["products"].items() if v}
+            except:
+                empties = set()
+                products = full
+        else:
             empties = set()
-            products = full
-    else:
-        empties = set()
-        products = {}
-    with open(file, 'rb') as ifile:
-        sealed_product = list(ijson.items(ifile, "data.sealedProduct.item"))
+            products = {}
+        if "sealedProduct" not in contents:
+            continue
+        sealed_product = list(contents["sealedProduct"])
         mtgjson_names = [p["name"] for p in sealed_product]
         existing_names = [k for k in products.keys()]
         total += len(mtgjson_names)
@@ -55,17 +61,15 @@ for file in t:
         for p in sealed_product:
             if p["name"] not in products:
                 if p["name"] not in empties:
-                    logger.info("Added new product %s/%s", file.stem, p["name"])
+                    logger.info("Added new product %s/%s", set_code, p["name"])
                 products[p["name"]] = []
         for n in existing_names:
             if n not in mtgjson_names:
-                logger.info("Product %s/%s no longer present in MTGJson data", file.stem, n)
-    code = alt_codes.get(file.stem.lower(), file.stem.lower())
-    if products:
-        with open(output_file, 'w') as write:
-            yaml.dump({"code": code, "products": products}, write)
-t.close
-del(t)
+                logger.info("Product %s/%s no longer present in MTGJson data", set_code, n)
+        if products:
+            with open(output_file, 'w') as write:
+                yaml.dump({"code": set_code.lower(), "products": products}, write)
+
 
 logger.info("%s out of %s products complete", complete, total)
 
