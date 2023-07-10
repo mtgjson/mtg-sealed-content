@@ -1,8 +1,20 @@
 code: avr
 products:
-  Avacyn Restored 3x Booster Packs draft set: []
-  Avacyn Restored Booster Box: []
-  Avacyn Restored Booster Box Case 6 boxes: []
+  Avacyn Restored 3x Booster Packs draft set:
+    sealed:
+    - count: 6
+      name: Avacyn Restored Booster Pack
+      set: avr
+  Avacyn Restored Booster Box:
+    sealed:
+    - count: 36
+      name: Avacyn Restored Booster Pack
+      set: avr
+  Avacyn Restored Booster Box Case 6 boxes:
+    sealed:
+    - count: 6
+      name: Avacyn Restored Booster Box
+      set: avr
   Avacyn Restored Booster Pack:
     card_count: 15
     pack:
@@ -26,8 +38,24 @@ products:
     - name: Avacyn Restored Deck Box
     - name: Avacyn Restored Premium Spin Down
     - name: Magic Strategy and Mechanics Guide
-  Avacyn Restored Event Decks - Set of 2: []
-  Avacyn Restored Fat Pack: []
+  Avacyn Restored Event Decks - Set of 2:
+    sealed:
+    - count: 1
+      name: Avacyn Restored Event Deck Deaths Encroach
+      set: avr
+    - count: 1
+      name: Avacyn Restored Event Deck Humanitys Vengeance
+      set: avr
+  Avacyn Restored Fat Pack:
+    other:
+    - name: Card Box with Avacyn Restored Artwork
+    - name: Avacyn Restored 70-card Basic Land Bundle
+    - name: Avacyn Restored Spindown
+    - name: Avacyn Restored Players Guide
+    sealed:
+    - count: 9
+      name: Avacyn Restored Booster Pack
+      set: avr
   Avacyn Restored Intro Pack Angelic Might:
     card_count: 60
     deck:
@@ -46,7 +74,23 @@ products:
     - count: 1
       name: Avacyn Restored Booster Pack
       set: avr
-  Avacyn Restored Intro Pack Display: []
+  Avacyn Restored Intro Pack Display:
+    sealed:
+    - count: 2
+      name: Avacyn Restored Intro Pack Angelic Might
+      set: avr
+    - count: 2
+      name: Avacyn Restored Intro Pack Bound by Strength
+      set: avr
+    - count: 2
+      name: Avacyn Restored Intro Pack Fiery Dawn
+      set: avr
+    - count: 2
+      name: Avacyn Restored Intro Pack Slaughterhouse
+      set: avr
+    - count: 2
+      name: Avacyn Restored Intro Pack Solitary Fiends
+      set: avr
   Avacyn Restored Intro Pack Fiery Dawn:
     card_count: 60
     deck:

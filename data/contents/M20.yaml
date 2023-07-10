@@ -1,15 +1,55 @@
 code: m20
 products:
-  Core Set 2020 Booster Box: []
-  Core Set 2020 Booster Box Case: []
+  Core Set 2020 Booster Box:
+    sealed:
+    - count: 36
+      name: Core Set 2020 Booster Pack
+      set: m20
+  Core Set 2020 Booster Box Case:
+    sealed:
+    - count: 6
+      name: Core Set 2020 Booster Box
+      set: m20
   Core Set 2020 Booster Pack:
     card_count: 15
     pack:
     - code: default
       set: m20
-  Core Set 2020 Bundle: []
-  Core Set 2020 Deck Builders Toolkit: []
-  Core Set 2020 Land Station: []
+  Core Set 2020 Bundle:
+    card:
+    - foil: true
+      name: Chandra's Regulator
+      number: 131
+      set: pm20
+    other:
+    - name: Core Set 2020 40-card Basic Land Bundle
+    - name: Core Set 2020 Spindown
+    - name: Reusable Storage Box
+    sealed:
+    - count: 10
+      name: Core Set 2020 Booster Pack
+      set: m20
+  Core Set 2020 Deck Builders Toolkit:
+    card_count: 225
+    deck:
+    - name: Deck Builder's Toolkit
+      set: m20
+    sealed:
+    - count: 1
+      name: Core Set 2020 Booster Pack
+      set: m20
+    - count: 1
+      name: War of the Spark Booster Pack
+      set: war
+    - count: 1
+      name: Ravnica Allegiance Booster Pack
+      set: rna
+    - count: 1
+      name: Guilds of Ravnica Booster Pack
+      set: grn
+  Core Set 2020 Land Station:
+    other:
+    - name: 400 Basic Lands
   Core Set 2020 Planeswalker Deck Ajani:
     card_count: 60
     deck:
@@ -28,7 +68,23 @@ products:
     - count: 1
       name: Core Set 2020 Booster Pack
       set: m20
-  Core Set 2020 Planeswalker Deck Display: []
+  Core Set 2020 Planeswalker Deck Display:
+    sealed:
+    - count: 2
+      name: Core Set 2020 Planeswalker Deck Ajani
+      set: m20
+    - count: 2
+      name: Core Set 2020 Planeswalker Deck Chandra
+      set: m20
+    - count: 2
+      name: Core Set 2020 Planeswalker Deck Sorin
+      set: m20
+    - count: 2
+      name: Core Set 2020 Planeswalker Deck Vivien
+      set: m20
+    - count: 2
+      name: Core Set 2020 Planeswalker Deck Yanling
+      set: m20
   Core Set 2020 Planeswalker Deck Sorin:
     card_count: 60
     deck:
@@ -56,8 +112,34 @@ products:
     - count: 1
       name: Core Set 2020 Booster Pack
       set: m20
-  Core Set 2020 Planeswalker Decks - Set of 5: []
-  Core Set 2020 Prerelease Pack: []
+  Core Set 2020 Planeswalker Decks - Set of 5:
+    sealed:
+    - count: 1
+      name: Core Set 2020 Planeswalker Deck Ajani
+      set: m20
+    - count: 1
+      name: Core Set 2020 Planeswalker Deck Chandra
+      set: m20
+    - count: 1
+      name: Core Set 2020 Planeswalker Deck Sorin
+      set: m20
+    - count: 1
+      name: Core Set 2020 Planeswalker Deck Vivien
+      set: m20
+    - count: 1
+      name: Core Set 2020 Planeswalker Deck Yanling
+      set: m20
+  Core Set 2020 Prerelease Pack:
+    card_count: 1
+    other:
+    - name: Core Set 2020 Spindown
+    pack:
+    - code: prerelease
+      set: m20
+    sealed:
+    - count: 6
+      name: Core Set 2020 Booster Pack
+      set: m20
   Core Set 2020 Spellslinger Starter Kit:
     card_count: 120
     deck:
@@ -68,12 +150,48 @@ products:
     other:
     - name: 2 Spellslinger Kit Spindowns
     - name: Rules and World of Magic Booklet
-  Core Set 2020 Theme Booster Black: []
-  Core Set 2020 Theme Booster Blue: []
-  Core Set 2020 Theme Booster Green: []
-  Core Set 2020 Theme Booster Red: []
-  Core Set 2020 Theme Booster Set of 5: []
-  Core Set 2020 Theme Booster White: []
+  Core Set 2020 Theme Booster Black:
+    card_count: 35
+    pack:
+    - code: theme-b
+      set: m20
+  Core Set 2020 Theme Booster Blue:
+    card_count: 35
+    pack:
+    - code: theme-u
+      set: m20
+  Core Set 2020 Theme Booster Green:
+    card_count: 35
+    pack:
+    - code: theme-g
+      set: m20
+  Core Set 2020 Theme Booster Red:
+    card_count: 35
+    pack:
+    - code: theme-r
+      set: m20
+  Core Set 2020 Theme Booster Set of 5:
+    sealed:
+    - count: 1
+      name: Core Set 2020 Theme Booster White
+      set: m20
+    - count: 1
+      name: Core Set 2020 Theme Booster Blue
+      set: m20
+    - count: 1
+      name: Core Set 2020 Theme Booster Black
+      set: m20
+    - count: 1
+      name: Core Set 2020 Theme Booster Red
+      set: m20
+    - count: 1
+      name: Core Set 2020 Theme Booster Green
+      set: m20
+  Core Set 2020 Theme Booster White:
+    card_count: 35
+    pack:
+    - code: theme-w
+      set: m20
   Core Set 2020 Welcome Deck - Black:
     card_count: 30
     deck:
