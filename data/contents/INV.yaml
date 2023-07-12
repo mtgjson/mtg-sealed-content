@@ -5,7 +5,11 @@ products:
     deck:
     - name: Blowout
       set: inv
-  Invasion Booster Box: []
+  Invasion Booster Box:
+    sealed:
+    - count: 36
+      name: Invasion Booster Pack
+      set: inv
   Invasion Booster Pack:
     card_count: 15
     pack:
@@ -16,7 +20,21 @@ products:
     deck:
     - name: Dismissal
       set: inv
-  Invasion Fat Pack: []
+  Invasion Fat Pack:
+    card_count: 2
+    other:
+    - name: The Invasion Novel
+    - name: Top Deck Magazine Player's Guide
+    pack:
+    - code: pack-promo
+      set: inv
+    sealed:
+    - count: 3
+      name: Invasion Booster Pack
+      set: inv
+    - count: 1
+      name: Invasion Tournament Pack
+      set: inv
   Invasion Heavy Duty Theme Deck:
     card_count: 60
     deck:
@@ -27,6 +45,27 @@ products:
     deck:
     - name: Spectrum
       set: inv
-  Invasion Theme Deck Display: []
-  Invasion Tournament Pack: []
-  Invasion Tournament Pack Display: []
+  Invasion Theme Deck Display:
+    sealed:
+    - count: 3
+      name: Invasion Dismissal Theme Deck
+      set: inv
+    - count: 3
+      name: Invasion Heavy Duty Theme Deck
+      set: inv
+    - count: 3
+      name: Invasion Blowout Theme Deck
+      set: inv
+    - count: 3
+      name: Invasion Spectrum Theme Deck
+      set: inv
+  Invasion Tournament Pack:
+    card_count: 75
+    pack:
+    - code: tournament
+      set: inv
+  Invasion Tournament Pack Display:
+    sealed:
+    - count: 12
+      name: Invasion Tournament Pack
+      set: inv

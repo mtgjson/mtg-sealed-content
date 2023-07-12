@@ -31,9 +31,6 @@ logger.info("Starting logging")
 total = 0
 complete = 0
 
-parentPath = Path("mtgJson/AllSetfiles/")
-files = list(parentPath.glob("*.json"))
-t = tqdm(files)
 codes = set()
 with open("mtgJson/AllPrintings.json", 'rb') as allPrintings:
     all_sets = dict(ijson.kvitems(allPrintings, "data"))
