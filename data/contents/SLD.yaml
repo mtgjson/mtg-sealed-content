@@ -1,6 +1,10 @@
 code: sld
 products:
-  Secret Lair - More Borderless Planeswalkers: []
+  Secret Lair - More Borderless Planeswalkers:
+    card_count: 5
+    deck:
+    - name: More Borderless Planeswalkers
+      set: sld
   Secret Lair All Natural Foil:
     sealed:
     - count: 1
@@ -27,15 +31,70 @@ products:
     - count: 1
       name: Secret Lair Special Guest Jen Bartel Foil
       set: sld
-  Secret Lair All Natural Totally Refreshing Superdrop All 4 U Bundle: []
+  Secret Lair All Natural Totally Refreshing Superdrop All 4 U Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair All Natural Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Totally Refreshing Non Foil
+      set: sld
   Secret Lair April Fools:
     card_count: 4
     deck:
     - name: April Fools foil
       set: sld
-  Secret Lair April Superdrop Full of Foils Bundle: []
-  Secret Lair April Superdrop Non stop Non Foil Bundle: []
-  Secret Lair April Superdrop The Bundle Bundle: []
+  Secret Lair April Superdrop Full of Foils Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair Showcase Streets of New Capenna Gilded Foil Edition
+      set: sld
+    - count: 1
+      name: Secret Lair Special Guest Matt Jukes Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Artist Series Magali Villeneuve Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Artist Series Sidharth Chaturvedi Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Artist Series Wayne Reynolds Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Finally Left Handed Magic Cards Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Just Some Totally Normal Guys Foil
+      set: sld
+  Secret Lair April Superdrop Non stop Non Foil Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair Special Guest Matt Jukes
+      set: sld
+    - count: 1
+      name: Secret Lair Artist Series Magali Villeneuve
+      set: sld
+    - count: 1
+      name: Secret Lair Artist Series Sidharth Chaturvedi
+      set: sld
+    - count: 1
+      name: Secret Lair Artist Series Wayne Reynolds
+      set: sld
+    - count: 1
+      name: Secret Lair Finally Left Handed Magic Cards
+      set: sld
+    - count: 1
+      name: Secret Lair Just Some Totally Normal Guys
+      set: sld
+  Secret Lair April Superdrop The Bundle Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair April Superdrop Full of Foils Bundle
+      set: sld
+    - count: 1
+      name: Secret Lair April Superdrop Non stop Non Foil Bundle
+      set: sld
   Secret Lair Artist Series Alayna Danner:
     card_count: 5
     deck:
@@ -136,8 +195,16 @@ products:
     deck:
     - name: Artist Series Rebecca Guay foil
       set: sld
-  Secret Lair Artist Series Ryan Alexander Lee: []
-  Secret Lair Artist Series Ryan Alexander Lee Foil Edition: []
+  Secret Lair Artist Series Ryan Alexander Lee:
+    card_count: 5
+    deck:
+    - name: Artist Series Ryan Alexander Lee
+      set: sld
+  Secret Lair Artist Series Ryan Alexander Lee Foil Edition:
+    card_count: 5
+    deck:
+    - name: Artist Series Ryan Alexander Lee foil
+      set: sld
   Secret Lair Artist Series Sam Burley:
     card_count: 5
     deck:
@@ -203,8 +270,16 @@ products:
     deck:
     - name: The Astrology Lands Aquarius
       set: sld
-  Secret Lair Astrology Lands Aquarius Bundle: []
-  Secret Lair Astrology Lands Aquarius Bundle Foil: []
+  Secret Lair Astrology Lands Aquarius Bundle:
+    sealed:
+    - count: 5
+      name: Secret Lair Astrology Lands Aquarius
+      set: sld
+  Secret Lair Astrology Lands Aquarius Bundle Foil:
+    sealed:
+    - count: 5
+      name: Secret Lair Astrology Lands Aquarius Foil
+      set: sld
   Secret Lair Astrology Lands Aquarius Foil:
     card_count: 6
     deck:
@@ -215,8 +290,16 @@ products:
     deck:
     - name: The Astrology Lands Aries
       set: sld
-  Secret Lair Astrology Lands Aries Bundle: []
-  Secret Lair Astrology Lands Aries Bundle Foil: []
+  Secret Lair Astrology Lands Aries Bundle:
+    sealed:
+    - count: 5
+      name: Secret Lair Astrology Lands Aries
+      set: sld
+  Secret Lair Astrology Lands Aries Bundle Foil:
+    sealed:
+    - count: 5
+      name: Secret Lair Astrology Lands Aries Foil
+      set: sld
   Secret Lair Astrology Lands Aries Foil:
     card_count: 6
     deck:
@@ -227,8 +310,16 @@ products:
     deck:
     - name: The Astrology Lands Cancer
       set: sld
-  Secret Lair Astrology Lands Cancer Bundle: []
-  Secret Lair Astrology Lands Cancer Bundle Foil: []
+  Secret Lair Astrology Lands Cancer Bundle:
+    sealed:
+    - count: 5
+      name: Secret Lair Astrology Lands Cancer
+      set: sld
+  Secret Lair Astrology Lands Cancer Bundle Foil:
+    sealed:
+    - count: 5
+      name: Secret Lair Astrology Lands Cancer Foil
+      set: sld
   Secret Lair Astrology Lands Cancer Foil:
     card_count: 6
     deck:
@@ -239,8 +330,16 @@ products:
     deck:
     - name: The Astrology Lands Capricorn
       set: sld
-  Secret Lair Astrology Lands Capricorn Bundle: []
-  Secret Lair Astrology Lands Capricorn Bundle Foil: []
+  Secret Lair Astrology Lands Capricorn Bundle:
+    sealed:
+    - count: 5
+      name: Secret Lair Astrology Lands Capricorn
+      set: sld
+  Secret Lair Astrology Lands Capricorn Bundle Foil:
+    sealed:
+    - count: 5
+      name: Secret Lair Astrology Lands Capricorn Foil
+      set: sld
   Secret Lair Astrology Lands Capricorn Foil:
     card_count: 6
     deck:
@@ -251,8 +350,16 @@ products:
     deck:
     - name: The Astrology Lands Gemini
       set: sld
-  Secret Lair Astrology Lands Gemini Bundle: []
-  Secret Lair Astrology Lands Gemini Bundle Foil: []
+  Secret Lair Astrology Lands Gemini Bundle:
+    sealed:
+    - count: 5
+      name: Secret Lair Astrology Lands Gemini
+      set: sld
+  Secret Lair Astrology Lands Gemini Bundle Foil:
+    sealed:
+    - count: 5
+      name: Secret Lair Astrology Lands Gemini Foil
+      set: sld
   Secret Lair Astrology Lands Gemini Foil:
     card_count: 6
     deck:
@@ -263,8 +370,16 @@ products:
     deck:
     - name: The Astrology Lands Leo
       set: sld
-  Secret Lair Astrology Lands Leo Bundle: []
-  Secret Lair Astrology Lands Leo Bundle Foil: []
+  Secret Lair Astrology Lands Leo Bundle:
+    sealed:
+    - count: 5
+      name: Secret Lair Astrology Lands Leo
+      set: sld
+  Secret Lair Astrology Lands Leo Bundle Foil:
+    sealed:
+    - count: 5
+      name: Secret Lair Astrology Lands Leo Foil
+      set: sld
   Secret Lair Astrology Lands Leo Foil:
     card_count: 6
     deck:
@@ -275,8 +390,16 @@ products:
     deck:
     - name: The Astrology Lands Libra
       set: sld
-  Secret Lair Astrology Lands Libra Bundle: []
-  Secret Lair Astrology Lands Libra Bundle Foil: []
+  Secret Lair Astrology Lands Libra Bundle:
+    sealed:
+    - count: 5
+      name: Secret Lair Astrology Lands Libra
+      set: sld
+  Secret Lair Astrology Lands Libra Bundle Foil:
+    sealed:
+    - count: 5
+      name: Secret Lair Astrology Lands Libra Foil
+      set: sld
   Secret Lair Astrology Lands Libra Foil:
     card_count: 6
     deck:
@@ -287,8 +410,16 @@ products:
     deck:
     - name: The Astrology Lands Pisces
       set: sld
-  Secret Lair Astrology Lands Pisces Bundle: []
-  Secret Lair Astrology Lands Pisces Bundle Foil: []
+  Secret Lair Astrology Lands Pisces Bundle:
+    sealed:
+    - count: 5
+      name: Secret Lair Astrology Lands Pisces
+      set: sld
+  Secret Lair Astrology Lands Pisces Bundle Foil:
+    sealed:
+    - count: 5
+      name: Secret Lair Astrology Lands Pisces Foil
+      set: sld
   Secret Lair Astrology Lands Pisces Foil:
     card_count: 6
     deck:
@@ -299,8 +430,16 @@ products:
     deck:
     - name: The Astrology Lands Sagittarius
       set: sld
-  Secret Lair Astrology Lands Sagittarius Bundle: []
-  Secret Lair Astrology Lands Sagittarius Bundle Foil: []
+  Secret Lair Astrology Lands Sagittarius Bundle:
+    sealed:
+    - count: 5
+      name: Secret Lair Astrology Lands Sagittarius
+      set: sld
+  Secret Lair Astrology Lands Sagittarius Bundle Foil:
+    sealed:
+    - count: 5
+      name: Secret Lair Astrology Lands Sagittarius Foil
+      set: sld
   Secret Lair Astrology Lands Sagittarius Foil:
     card_count: 6
     deck:
@@ -311,8 +450,16 @@ products:
     deck:
     - name: The Astrology Lands Scorpio
       set: sld
-  Secret Lair Astrology Lands Scorpio Bundle: []
-  Secret Lair Astrology Lands Scorpio Bundle Foil: []
+  Secret Lair Astrology Lands Scorpio Bundle:
+    sealed:
+    - count: 5
+      name: Secret Lair Astrology Lands Scorpio
+      set: sld
+  Secret Lair Astrology Lands Scorpio Bundle Foil:
+    sealed:
+    - count: 5
+      name: Secret Lair Astrology Lands Scorpio Foil
+      set: sld
   Secret Lair Astrology Lands Scorpio Foil:
     card_count: 6
     deck:
@@ -323,8 +470,16 @@ products:
     deck:
     - name: The Astrology Lands Taurus
       set: sld
-  Secret Lair Astrology Lands Taurus Bundle: []
-  Secret Lair Astrology Lands Taurus Bundle Foil: []
+  Secret Lair Astrology Lands Taurus Bundle:
+    sealed:
+    - count: 5
+      name: Secret Lair Astrology Lands Taurus
+      set: sld
+  Secret Lair Astrology Lands Taurus Bundle Foil:
+    sealed:
+    - count: 5
+      name: Secret Lair Astrology Lands Taurus Foil
+      set: sld
   Secret Lair Astrology Lands Taurus Foil:
     card_count: 6
     deck:
@@ -335,20 +490,133 @@ products:
     deck:
     - name: The Astrology Lands Virgo
       set: sld
-  Secret Lair Astrology Lands Virgo Bundle: []
-  Secret Lair Astrology Lands Virgo Bundle Foil: []
+  Secret Lair Astrology Lands Virgo Bundle:
+    sealed:
+    - count: 5
+      name: Secret Lair Astrology Lands Virgo
+      set: sld
+  Secret Lair Astrology Lands Virgo Bundle Foil:
+    sealed:
+    - count: 5
+      name: Secret Lair Astrology Lands Virgo Foil
+      set: sld
   Secret Lair Astrology Lands Virgo Foil:
     card_count: 6
     deck:
     - name: The Astrology Lands Virgo foil
       set: sld
-  Secret Lair August Superdrop Full of Foils Bundle: []
-  Secret Lair August Superdrop Non stop Non Foil Bundle: []
-  Secret Lair August Superdrop The Bundle Bundle: []
-  Secret Lair Bad to the Bones: []
-  Secret Lair Bad to the Bones Foil Edition: []
-  Secret Lair Big Foil Bundle: []
-  Secret Lair Big Non Foil Bundle: []
+  Secret Lair August Superdrop Full of Foils Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair Artist Series Victor Adame Minguez Foil Edition
+      set: sld
+    - count: 1
+      name: Secret Lair Imaginary Friends Foil Edition
+      set: sld
+    - count: 1
+      name: Secret Lair Dan Frazier Is Back Again The Allied Talismans Foil Etched
+        Edition
+      set: sld
+    - count: 1
+      name: Secret Lair Dan Frazier Is Back Again The Enemy Talismans Foil Etched
+        Edition
+      set: sld
+    - count: 1
+      name: Secret Lair In Memoriam Jaya Ballard Foil Edition
+      set: sld
+    - count: 1
+      name: Secret Lair Showcase Dominaria United Textured Foil Edition
+      set: sld
+    - count: 1
+      name: Secret Lair Artist Series Nils Hamm Foil Edition
+      set: sld
+  Secret Lair August Superdrop Non stop Non Foil Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair Artist Series Victor Adame Minguez
+      set: sld
+    - count: 1
+      name: Secret Lair Imaginary Friends
+      set: sld
+    - count: 1
+      name: Secret Lair Dan Frazier Is Back Again The Allied Talismans
+      set: sld
+    - count: 1
+      name: Secret Lair Dan Frazier Is Back Again The Enemy Talismans
+      set: sld
+    - count: 1
+      name: Secret Lair In Memoriam Jaya Ballard
+      set: sld
+    - count: 1
+      name: Secret Lair Artist Series Nils Hamm
+      set: sld
+  Secret Lair August Superdrop The Bundle Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair August Superdrop Full of Foils Bundle
+      set: sld
+    - count: 1
+      name: Secret Lair August Superdrop Non stop Non Foil Bundle
+      set: sld
+  Secret Lair Bad to the Bones:
+    card_count: 6
+    deck:
+    - name: Bad to the Bones
+      set: sld
+  Secret Lair Bad to the Bones Foil Edition:
+    card_count: 6
+    deck:
+    - name: Bad to the Bones foil
+      set: sld
+  Secret Lair Big Foil Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair If Looks Could Kill Foil Edition
+      set: sld
+    - count: 1
+      name: Secret Lair Special Guest Junji Ito English Foil Etched Edition
+      set: sld
+    - count: 1
+      name: Secret Lair Special Guest Junji Ito Japanese Foil Etched Edition
+      set: sld
+    - count: 1
+      name: Secret Lair Special Guest Yoji Shinkawa English Foil Edition
+      set: sld
+    - count: 1
+      name: Secret Lair Special Guest Yoji Shinkawa Japanese Foil Edition
+      set: sld
+    - count: 1
+      name: Secret Lair The Space Beyond the Stars Foil Edition
+      set: sld
+    - count: 1
+      name: Secret Lair The Weirdest Pets in the Multiverse Foil Edition
+      set: sld
+    - count: 1
+      name: Secret Lair Totally Spaced Out Galaxy Foil Edition
+      set: sld
+  Secret Lair Big Non Foil Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair If Looks Could Kill
+      set: sld
+    - count: 1
+      name: Secret Lair Special Guest Junji Ito English
+      set: sld
+    - count: 1
+      name: Secret Lair Special Guest Junji Ito Japanese
+      set: sld
+    - count: 1
+      name: Secret Lair Special Guest Yoji Shinkawa English
+      set: sld
+    - count: 1
+      name: Secret Lair Special Guest Yoji Shinkawa Japanese
+      set: sld
+    - count: 1
+      name: Secret Lair The Space Beyond the Stars
+      set: sld
+    - count: 1
+      name: Secret Lair The Weirdest Pets in the Multiverse
+      set: sld
   Secret Lair Bitterblossom Dreams:
     card_count: 6
     deck:
@@ -435,8 +703,16 @@ products:
     deck:
     - name: Dan Frazier is Back The Enemy Signets
       set: sld
-  Secret Lair Death Is Temporary Metal Is Forever: []
-  Secret Lair Death Is Temporary Metal Is Forever Foil Edition: []
+  Secret Lair Death Is Temporary Metal Is Forever:
+    card_count: 6
+    deck:
+    - name: Death is Temporary, Metal is Forever
+      set: sld
+  Secret Lair Death Is Temporary Metal Is Forever Foil Edition:
+    card_count: 6
+    deck:
+    - name: Death is Temporary, Metal is Forever foil
+      set: sld
   Secret Lair December Superdrop Foil Bundle: []
   Secret Lair December Superdrop Non Foil Bundle: []
   Secret Lair Draw Your Hand:
@@ -504,8 +780,16 @@ products:
     deck:
     - name: Fblthp Completely Utterly Totally Lost foil
       set: sld
-  Secret Lair Featuring the Mountain Goats: []
-  Secret Lair Featuring the Mountain Goats Foil Edition: []
+  Secret Lair Featuring the Mountain Goats:
+    card_count: 11
+    deck:
+    - name: Featuring the Mountain Goats
+      set: sld
+  Secret Lair Featuring the Mountain Goats Foil Edition:
+    card_count: 11
+    deck:
+    - name: Featuring the Mountain Goats foil
+      set: sld
   Secret Lair February Superdrop Full of Foils Bundle: []
   Secret Lair February Superdrop Introducing Kaito Shizuki:
     card_count: 6
@@ -600,8 +884,16 @@ products:
     deck:
     - name: Finally LeftHanded Magic Cards foil
       set: sld
-  Secret Lair Goblin and Squabblin: []
-  Secret Lair Goblin and Squabblin Foil Edition: []
+  Secret Lair Goblin and Squabblin:
+    card_count: 6
+    deck:
+    - name: Goblin and Squabblin
+      set: sld
+  Secret Lair Goblin and Squabblin Foil Edition:
+    card_count: 6
+    deck:
+    - name: Goblin and Squabblin foil
+      set: sld
   Secret Lair Happy Yargle Day Foil:
     card_count: 6
     deck:
@@ -757,10 +1049,26 @@ products:
     deck:
     - name: Monster Movie Marathon foil
       set: sld
-  Secret Lair More Adventures in Middle earth: []
-  Secret Lair More Adventures in Middle earth Bundle: []
-  Secret Lair More Adventures in Middle earth Foil Edition: []
-  Secret Lair More Borderless Planeswalkers WPN Exclusive: []
+  Secret Lair More Adventures in Middle earth:
+    card_count: 5
+    deck:
+    - name: More Adventures in Middle-earth
+      set: sld
+  Secret Lair More Adventures in Middle earth Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair More Adventures in Middle earth
+      set: sld
+    - count: 1
+      name: Secret Lair More Adventures in Middle earth Foil Edition
+      set: sld
+  Secret Lair More Adventures in Middle earth Foil Edition:
+    card_count: 5
+    deck:
+    - name: More Adventures in Middle-earth foil
+      set: sld
+  Secret Lair More Borderless Planeswalkers WPN Exclusive:
+    copy: Secret Lair - More Borderless Planeswalkers
   Secret Lair Mothers Day 2021 Foil:
     card_count: 5
     deck:
@@ -822,7 +1130,20 @@ products:
     deck:
     - name: PixelSnowLandsjpg etched
       set: sld
-  Secret Lair Post Malone Bundle: []
+  Secret Lair Post Malone Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair x Post Malone Backstage Pass
+      set: sld
+    - count: 1
+      name: Secret Lair x Post Malone Backstage Pass Foil Edition
+      set: sld
+    - count: 1
+      name: Secret Lair x Post Malone The Lands
+      set: sld
+    - count: 1
+      name: Secret Lair x Post Malone The Lands Foil Edition
+      set: sld
   Secret Lair Pride Across the Multiverse:
     card_count: 9
     deck:
@@ -1359,8 +1680,16 @@ products:
     deck:
     - name: The Space Beyond the Stars foil
       set: sld
-  Secret Lair The Stars Gaze Back: []
-  Secret Lair The Stars Gaze Back Foil Edition: []
+  Secret Lair The Stars Gaze Back:
+    card_count: 5
+    deck:
+    - name: The Stars Gaze Back
+      set: sld
+  Secret Lair The Stars Gaze Back Foil Edition:
+    card_count: 5
+    deck:
+    - name: The Stars Gaze Back foil
+      set: sld
   Secret Lair The Tokyo Lands:
     card_count: 6
     deck:
@@ -1571,7 +1900,26 @@ products:
     deck:
     - name: Warhammer Age of Sigmar foil
       set: sld
-  Secret Lair x Warhammer Bundle: []
+  Secret Lair x Warhammer Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair x Warhammer 40000 Orks
+      set: sld
+    - count: 1
+      name: Secret Lair x Warhammer 40000 Orks Foil Edition
+      set: sld
+    - count: 1
+      name: Secret Lair x Blood Bowl
+      set: sld
+    - count: 1
+      name: Secret Lair x Blood Bowl Foil Edition
+      set: sld
+    - count: 1
+      name: Secret Lair x Warhammer Age of Sigmar
+      set: sld
+    - count: 1
+      name: Secret Lair x Warhammer Age of Sigmar Foil Edition
+      set: sld
   "Secret Lair \u201Cexplosion sounds\u201D":
     card_count: 6
     deck:
