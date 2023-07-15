@@ -165,11 +165,14 @@ def validate_contents(contents, route, logger, uuid_map, cc=True):
                         raise TypeError("number is not int or string")
                     if not isinstance(ptemp.pop("name"), str):
                         raise TypeError("name is not string")
-                    if not isinstance(ptemp.pop("foil"), bool):
+                    if not isinstance(ptemp.pop("foil", False), bool):
                         raise TypeError("foil is not boolean")
                     if ptemp:
                         logger.warning("%s pack has extra contents %s", route, str(ptemp))
                     try:
+                        if not product.get("foil", False):
+                            product.pop("foil")
+                        product["number"] = str(product["number"])
                         product["uuid"] = uuid_map[product['set']]['cards'][str(product['number'])]
                     except KeyError:
                         logger.warning("Could not get UUID for card %s/%s", route, product["name"])
