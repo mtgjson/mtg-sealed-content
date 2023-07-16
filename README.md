@@ -165,7 +165,7 @@ The `variable_mode` key defines how the components will be randomized.
 `variable` objects have the following properties:
 
 ```
-config: [list[object]] A list of the possible configuration objects
+configs: [list[object]] A list of the possible configuration objects
 ```
 
 `variable_mode` objects have the following properties:
@@ -219,7 +219,7 @@ JSON result:
     ], 
     "variable": [
         {
-            "config": [
+            "configs": [
                 {
                     "deck": [
                         {
