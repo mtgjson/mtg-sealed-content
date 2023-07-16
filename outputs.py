@@ -189,10 +189,8 @@ def validate_contents(contents, route, logger, uuid_map, cc=True):
         elif key == "variable":
             check = True
             try:
-                for configuration in value:
-                    if "card_count" in contents:
-                        check *= validate_contents(dict({"card_count": contents["card_count"]}, **configuration), route+"-variable", logger, uuid_map, cc=False)
-                    else:
+                for product in value:
+                    for configuration in product["configs"]:
                         check *= validate_contents(configuration, route+"-variable", logger, uuid_map, cc=False)
             except:
                 logger.error("%s variable formatted incorrectly", route)
@@ -234,7 +232,7 @@ def parse_variable(contents, logger=None):
     else:
         for combo in itr.combinations(contents["variable"], options.get("count", 1)):
             temp_variable.append(iterative_sum(combo, logger))
-    contents["variable"] = temp_variable
+    contents["variable"] = [{"configs": temp_variable}]
     return contents
     
 def deck_links(contents, uuid, logger=None):
