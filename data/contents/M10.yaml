@@ -1,14 +1,36 @@
 code: m10
 products:
-  2010 Core Set 3x Booster Packs draft set: []
-  2010 Core Set Booster Box: []
-  2010 Core Set Booster Box Case 6 Boxes: []
+  2010 Core Set 3x Booster Packs draft set:
+    sealed:
+    - count: 3
+      name: 2010 Core Set Booster Pack
+      set: m10
+  2010 Core Set Booster Box:
+    sealed:
+    - count: 36
+      name: 2010 Core Set Booster Pack
+      set: m10
+  2010 Core Set Booster Box Case 6 Boxes:
+    sealed:
+    - count: 6
+      name: 2010 Core Set Booster Box
+      set: m10
   2010 Core Set Booster Pack:
     card_count: 15
     pack:
     - code: default
       set: m10
-  2010 Core Set Fat Pack: []
+  2010 Core Set Fat Pack:
+    other:
+    - name: Core Set 2010 Card Box
+    - name: Magic 2010 Player's Guide
+    - name: Learn-to-Play Insert
+    - name: Magic 2010 40-card Basic Land Bundle
+    - name: Magic 2010 Spindown Life Counter
+    sealed:
+    - count: 8
+      name: 2010 Core Set Booster Pack
+      set: m10
   2010 Core Set Intro Pack Deaths Minions:
     card_count: 41
     deck:
@@ -18,7 +40,23 @@ products:
     - count: 1
       name: 2010 Core Set Booster Pack
       set: m10
-  2010 Core Set Intro Pack Display 10: []
+  2010 Core Set Intro Pack Display 10:
+    sealed:
+    - count: 2
+      name: 2010 Core Set Intro Pack Deaths Minions
+      set: m10
+    - count: 2
+      name: 2010 Core Set Intro Pack Firebomber
+      set: m10
+    - count: 2
+      name: 2010 Core Set Intro Pack Natures Fury
+      set: m10
+    - count: 2
+      name: 2010 Core Set Intro Pack Presence of Mind
+      set: m10
+    - count: 2
+      name: 2010 Core Set Intro Pack We Are Legion
+      set: m10
   2010 Core Set Intro Pack Firebomber:
     card_count: 41
     deck:
@@ -55,4 +93,55 @@ products:
     - count: 1
       name: 2010 Core Set Booster Pack
       set: m10
-  Magic Deck Builders Toolkit: []
+  Magic Deck Builders Toolkit:
+    card_count: 225
+    deck:
+    - name: Fixed Content
+      set: roe
+    sealed:
+    - count: 2
+      name: 2011 Core Set Booster Pack
+      set: m11
+    - count: 1
+      name: Rise of the Eldrazi Booster Pack
+      set: roe
+    - count: 1
+      name: Zendikar Booster Pack
+      set: zen
+    variable:
+    - deck:
+      - name: Black-Red Destruction
+        set: roe
+    - deck:
+      - name: Blue Control
+        set: roe
+    - deck:
+      - name: Blue-White Fliers
+        set: roe
+    - deck:
+      - name: Eldrazi
+        set: roe
+    - deck:
+      - name: Elves!
+        set: roe
+    - deck:
+      - name: Green-White Auras
+        set: roe
+    - deck:
+      - name: Mana Ramp
+        set: roe
+    - deck:
+      - name: Red Burn
+        set: roe
+    - deck:
+      - name: Red-Green Aggro
+        set: roe
+    - deck:
+      - name: Vampires
+        set: roe
+    - deck:
+      - name: White Weenie
+        set: roe
+    variable_mode:
+      count: 4
+      replacement: false

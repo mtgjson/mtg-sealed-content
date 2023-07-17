@@ -1,16 +1,90 @@
 code: m11
 products:
-  2011 Core Set 3x Booster Packs draft set: []
-  2011 Core Set 6 Card Booster Pack: []
-  2011 Core Set Booster Box: []
-  2011 Core Set Booster Box Case 6 Boxes: []
+  2011 Core Set 3x Booster Packs draft set:
+    sealed:
+    - count: 3
+      name: 2011 Core Set Booster Pack
+      set: m11
+  2011 Core Set 6 Card Booster Pack:
+    card_count: 6
+    pack:
+    - code: six
+      set: m11
+  2011 Core Set Booster Box:
+    sealed:
+    - count: 36
+      name: 2011 Core Set Booster Pack
+      set: m11
+  2011 Core Set Booster Box Case 6 Boxes:
+    sealed:
+    - count: 6
+      name: 2011 Core Set Booster Box
+      set: m11
   2011 Core Set Booster Pack:
     card_count: 15
     pack:
     - code: default
       set: m11
-  2011 Core Set Deck Builders Toolkit: []
-  2011 Core Set Fat Pack: []
+  2011 Core Set Deck Builders Toolkit:
+    card_count: 225
+    deck:
+    - name: Fixed Content
+      set: mbs
+    sealed:
+    - count: 2
+      name: 2011 Core Set Booster Pack
+      set: m11
+    - count: 1
+      name: Mirrodin Besieged Booster Pack
+      set: mbs
+    - count: 1
+      name: Scars of Mirrodin Booster Pack
+      set: som
+    variable:
+    - deck:
+      - name: Battle Cry
+        set: mbs
+    - deck:
+      - name: Black Discard
+        set: mbs
+    - deck:
+      - name: Blue-White Flyers
+        set: mbs
+    - deck:
+      - name: Elves
+        set: mbs
+    - deck:
+      - name: Vampires
+        set: mbs
+    - deck:
+      - name: Library Depletion
+        set: mbs
+    - deck:
+      - name: Mana Ramp
+        set: mbs
+    - deck:
+      - name: Metalcraft
+        set: mbs
+    - deck:
+      - name: Red Burn
+        set: mbs
+    - deck:
+      - name: White Equipment
+        set: mbs
+    - deck:
+      - name: White-Green Aura
+        set: mbs
+  2011 Core Set Fat Pack:
+    other:
+    - name: Magic 2011 Card Box
+    - name: Magic 2011 Player's Guide
+    - name: Learn-to-Play Insert
+    - name: Magic 2011 40-card Basic Land Bundle
+    - name: Magic 2011 Spindown Life Counter
+    sealed:
+    - count: 8
+      name: 2011 Core Set Booster Pack
+      set: m11
   2011 Core Set Intro Pack Blades of Victory:
     card_count: 60
     deck:
@@ -29,7 +103,23 @@ products:
     - count: 1
       name: 2011 Core Set Booster Pack
       set: m11
-  2011 Core Set Intro Pack Display: []
+  2011 Core Set Intro Pack Display:
+    sealed:
+    - count: 2
+      name: 2011 Core Set Intro Pack Blades of Victory
+      set: m11
+    - count: 2
+      name: 2011 Core Set Intro Pack Breath of Fire
+      set: m11
+    - count: 2
+      name: 2011 Core Set Intro Pack Power of Prophecy
+      set: m11
+    - count: 2
+      name: 2011 Core Set Intro Pack Reign of Vampirism
+      set: m11
+    - count: 2
+      name: 2011 Core Set Intro Pack Stampede of Beasts
+      set: m11
   2011 Core Set Intro Pack Power of Prophecy:
     card_count: 60
     deck:
@@ -58,4 +148,20 @@ products:
       name: 2011 Core Set Booster Pack
       set: m11
   2011 Core Set Land Station: []
-  2011 Core Set Set of 5 Intro Pack: []
+  2011 Core Set Set of 5 Intro Pack:
+    sealed:
+    - count: 1
+      name: 2011 Core Set Intro Pack Blades of Victory
+      set: m11
+    - count: 1
+      name: 2011 Core Set Intro Pack Breath of Fire
+      set: m11
+    - count: 1
+      name: 2011 Core Set Intro Pack Power of Prophecy
+      set: m11
+    - count: 1
+      name: 2011 Core Set Intro Pack Reign of Vampirism
+      set: m11
+    - count: 1
+      name: 2011 Core Set Intro Pack Stampede of Beasts
+      set: m11
