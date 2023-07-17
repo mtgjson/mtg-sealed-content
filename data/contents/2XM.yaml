@@ -5,11 +5,11 @@ products:
     - count: 3
       name: Double Masters Draft Booster Pack
       set: 2xm
-  Double Masters Box Topper Pack: 
+  Double Masters Box Topper Pack:
     card_count: 1
     pack:
-    - set: 2xm
-      code: box-topper
+    - code: box-topper
+      set: 2xm
   Double Masters Draft Booster Box:
     sealed:
     - count: 24

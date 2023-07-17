@@ -1,14 +1,52 @@
 code: gtc
 products:
-  Gatecrash Booster Battle Pack: []
-  Gatecrash Booster Box: []
-  Gatecrash Booster Box Case 6 boxes: []
+  Gatecrash Booster Battle Pack:
+    sealed:
+    - count: 2
+      name: Gatecrash Booster Pack
+      set: gtc
+    variable:
+    - deck:
+      - name: Booster Battle Pack Boros
+        set: gtc
+    - deck:
+      - name: Booster Battle Pack Dimir
+        set: gtc
+    - deck:
+      - name: Booster Battle Pack Gruul
+        set: gtc
+    - deck:
+      - name: Booster Battle Pack Orzhov
+        set: gtc
+    - deck:
+      - name: Booster Battle Pack Simic
+        set: gtc
+    variable_mode:
+      count: 2
+      replacement: false
+  Gatecrash Booster Box:
+    sealed:
+    - count: 36
+      name: Gatecrash Booster Pack
+      set: gtc
+  Gatecrash Booster Box Case 6 boxes:
+    sealed:
+    - count: 6
+      name: Gatecrash Booster Box
+      set: gtc
   Gatecrash Booster Pack:
     card_count: 15
     pack:
     - code: default
       set: gtc
-  Gatecrash Event Deck Display: []
+  Gatecrash Event Deck Display:
+    sealed:
+    - count: 3
+      name: Gatecrash Event Deck Rally and Rout
+      set: gtc
+    - count: 3
+      name: Gatecrash Event Deck Thrive and Thrash
+      set: gtc
   Gatecrash Event Deck Rally and Rout:
     card_count: 75
     deck:
@@ -19,7 +57,17 @@ products:
     deck:
     - name: Thrive and Thrash
       set: gtc
-  Gatecrash Fat Pack: []
+  Gatecrash Fat Pack:
+    other:
+    - name: Gatecrash themed card box
+    - name: Gatecrash player's guide
+    - name: Two deck boxes
+    - name: Gatecrash 40-card basic land pack
+    - name: Gatecrash spindown
+    sealed:
+    - count: 9
+      name: Gatecrash Booster Pack
+      set: gtc
   Gatecrash Intro Pack Boros Battalion:
     card_count: 60
     deck:
@@ -56,7 +104,23 @@ products:
     - count: 2
       name: Gatecrash Booster Pack
       set: gtc
-  Gatecrash Intro Pack Set of 5: []
+  Gatecrash Intro Pack Set of 5:
+    sealed:
+    - count: 1
+      name: Gatecrash Intro Pack Boros Battalion
+      set: gtc
+    - count: 1
+      name: Gatecrash Intro Pack Dimir Dementia
+      set: gtc
+    - count: 1
+      name: Gatecrash Intro Pack Gruul Goliaths
+      set: gtc
+    - count: 1
+      name: Gatecrash Intro Pack Orzhov Oppression
+      set: gtc
+    - count: 1
+      name: Gatecrash Intro Pack Simic Synthesis
+      set: gtc
   Gatecrash Intro Pack Simic Synthesis:
     card_count: 60
     deck:
@@ -71,4 +135,20 @@ products:
   Gatecrash Prerelease Kit Gruul: []
   Gatecrash Prerelease Kit Orzhov: []
   Gatecrash Prerelease Kit Simic: []
-  Gatecrash Prerelease Kits Set of 5: []
+  Gatecrash Prerelease Kits Set of 5:
+    sealed:
+    - count: 1
+      name: Gatecrash Prerelease Kit Boros
+      set: gtc
+    - count: 1
+      name: Gatecrash Prerelease Kit Dimir
+      set: gtc
+    - count: 1
+      name: Gatecrash Prerelease Kit Gruul
+      set: gtc
+    - count: 1
+      name: Gatecrash Prerelease Kit Orzhov
+      set: gtc
+    - count: 1
+      name: Gatecrash Prerelease Kit Simic
+      set: gtc
