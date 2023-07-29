@@ -1,17 +1,54 @@
 code: cmm
 products:
-  Commander Masters Collector Booster Box: []
-  Commander Masters Collector Booster Box Case: []
+  Commander Masters Collector Booster Box: 
+    sealed:
+    - set: cmm
+      name: Commander Masters Collector Booster Pack
+      count: 4
+  Commander Masters Collector Booster Box Case: 
+    sealed:
+    - set: cmm
+      name: Commander Masters Collector Booster Box
+      count: 6
   Commander Masters Collector Booster Pack: []
   Commander Masters Commander Deck Eldrazi Unbound: []
   Commander Masters Commander Deck Enduring Enchantments: []
   Commander Masters Commander Deck Planeswalker Party: []
   Commander Masters Commander Deck Sliver Swarm: []
-  Commander Masters Commander Decks - Set of 4: []
+  Commander Masters Commander Decks - Set of 4: 
+    sealed:
+    - set: cmm
+      count: 1
+      name: Commander Masters Commander Deck Eldrazi Unbound
+    - set: cmm
+      count: 1
+      name: Commander Masters Commander Deck Enduring Enchantments
+    - set: cmm
+      count: 1
+      name: Commander Masters Commander Deck Planeswalker Party
+    - set: cmm
+      count: 1
+      name: Commander Masters Commander Deck Sliver Swarm
   Commander Masters Commander Decks - Set of Four: []
-  Commander Masters Draft Booster Box: []
-  Commander Masters Draft Booster Box Case: []
+  Commander Masters Draft Booster Box: 
+    sealed:
+    - set: cmm
+      count: 24
+      name: Commander Masters Draft Booster Pack
+  Commander Masters Draft Booster Box Case: 
+    sealed:
+    - set: cmm
+      count: 6
+      name: Commander Masters Draft Booster Box
   Commander Masters Draft Booster Pack: []
-  Commander Masters Set Booster Box: []
-  Commander Masters Set Booster Box Case: []
+  Commander Masters Set Booster Box: 
+    sealed:
+    - set: cmm
+      count: 24
+      name: Commander Masters Set Booster Pack
+  Commander Masters Set Booster Box Case: 
+    sealed:
+    - set: cmm
+      name: Commander Masters Set Booster Box
+      count: 6
   Commander Masters Set Booster Pack: []
