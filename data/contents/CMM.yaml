@@ -10,11 +10,47 @@ products:
     - count: 6
       name: Commander Masters Collector Booster Box
       set: cmm
-  Commander Masters Collector Booster Pack: []
-  Commander Masters Commander Deck Eldrazi Unbound: []
-  Commander Masters Commander Deck Enduring Enchantments: []
-  Commander Masters Commander Deck Planeswalker Party: []
-  Commander Masters Commander Deck Sliver Swarm: []
+  Commander Masters Collector Booster Pack:
+    card_count: 15
+    pack:
+    - code: collector
+      set: cmm
+  Commander Masters Commander Deck Eldrazi Unbound:
+    card_count: 100
+    deck:
+    - name: Eldrazi Unbound
+      set: cmm
+    sealed:
+    - count: 1
+      name: Commander Masters Collector Booster Sample Pack
+      set: cmm
+  Commander Masters Commander Deck Enduring Enchantments:
+    card_count: 100
+    deck:
+    - name: Enduring Enchantments
+      set: cmm
+    sealed:
+    - count: 1
+      name: Commander Masters Collector Booster Sample Pack
+      set: cmm
+  Commander Masters Commander Deck Planeswalker Party:
+    card_count: 100
+    deck:
+    - name: Planeswalker Party
+      set: cmm
+    sealed:
+    - count: 1
+      name: Commander Masters Collector Booster Sample Pack
+      set: cmm
+  Commander Masters Commander Deck Sliver Swarm:
+    card_count: 100
+    deck:
+    - name: Sliver Swarm
+      set: cmm
+    sealed:
+    - count: 1
+      name: Commander Masters Collector Booster Sample Pack
+      set: cmm
   Commander Masters Commander Decks - Set of 4:
     sealed:
     - count: 1
@@ -40,7 +76,11 @@ products:
     - count: 6
       name: Commander Masters Draft Booster Box
       set: cmm
-  Commander Masters Draft Booster Pack: []
+  Commander Masters Draft Booster Pack:
+    card_count: 20
+    pack:
+    - code: default
+      set: cmm
   Commander Masters Set Booster Box:
     sealed:
     - count: 24
@@ -51,4 +91,8 @@ products:
     - count: 6
       name: Commander Masters Set Booster Box
       set: cmm
-  Commander Masters Set Booster Pack: []
+  Commander Masters Set Booster Pack:
+    card_count: 15
+    pack:
+    - code: set
+      set: cmm
