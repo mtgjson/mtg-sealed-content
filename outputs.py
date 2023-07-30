@@ -247,7 +247,7 @@ def deck_links(contents, uuid, logger=None):
         link = recursive_update(link, deck_links(v, uuid, logger))
     return link
 
-logfile_name = "output.log"
+logfile_name = "logs/output.log"
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 rollCheck = os.path.isfile(logfile_name)

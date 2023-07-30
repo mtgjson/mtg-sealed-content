@@ -6,7 +6,7 @@ import logging
 import logging.handlers as handlers
 import os
 
-logfile_name = "product.log"
+logfile_name = "logs/product.log"
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 rollCheck = os.path.isfile(logfile_name)
