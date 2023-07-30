@@ -15,6 +15,11 @@ products:
     pack:
     - code: collector
       set: cmm
+  Commander Masters Collector Booster Sample Pack:
+    card_count: 2
+    pack:
+    - code: collector-sample
+      set: cmm
   Commander Masters Commander Deck Eldrazi Unbound:
     card_count: 100
     deck:

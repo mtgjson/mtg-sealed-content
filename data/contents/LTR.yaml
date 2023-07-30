@@ -49,7 +49,11 @@ products:
     - count: 6
       name: The Lord of the Rings Tales of Middle earth Collector Booster Box
       set: ltr
-  The Lord of the Rings Tales of Middle earth Collector Booster Omega Pack: []
+  The Lord of the Rings Tales of Middle earth Collector Booster Omega Pack:
+    sealed:
+    - count: 1
+      name: The Lord of the Rings Tales of Middle earth Collector Booster Pack
+      set: ltr
   The Lord of the Rings Tales of Middle earth Collector Booster Pack:
     card_count: 15
     pack:
@@ -78,7 +82,11 @@ products:
     pack:
     - code: default
       set: ltr
-  The Lord of the Rings Tales of Middle earth Draft Booster Pack 3 Pack: []
+  The Lord of the Rings Tales of Middle earth Draft Booster Pack 3 Pack:
+    sealed:
+    - count: 3
+      name: The Lord of the Rings Tales of Middle earth Draft Booster Pack
+      set: ltr
   The Lord of the Rings Tales of Middle earth Gift Bundle:
     card:
     - foil: true
@@ -127,7 +135,11 @@ products:
     pack:
     - code: jumpstart
       set: ltr
-  The Lord of the Rings Tales of Middle earth Jumpstart Booster Pack 2 Pack: []
+  The Lord of the Rings Tales of Middle earth Jumpstart Booster Pack 2 Pack:
+    sealed:
+    - count: 2
+      name: The Lord of the Rings Tales of Middle earth Jumpstart Booster Pack
+      set: ltr
   The Lord of the Rings Tales of Middle earth Prerelease Pack:
     card_count: 2
     other:

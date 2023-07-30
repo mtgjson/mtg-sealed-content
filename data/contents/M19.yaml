@@ -1,15 +1,77 @@
 code: m19
 products:
-  2018 Gift Pack: []
-  Core Set 2019 Booster Box: []
-  Core Set 2019 Booster Box Case: []
+  2018 Gift Pack:
+    card:
+    - foil: true
+      name: Angelic Guardian
+      number: GP1
+      set: g18
+    - foil: true
+      name: Angler Turtle
+      number: GP2
+      set: g18
+    - foil: true
+      name: Vengeant Vampire
+      number: GP3
+      set: g18
+    - foil: true
+      name: Immortal Phoenix
+      number: GP4
+      set: g18
+    - foil: true
+      name: Rampaging Brontodon
+      number: GP5
+      set: g18
+    other:
+    - name: One Foil Basic of Each Type
+    sealed:
+    - count: 4
+      name: Core Set 2019 Booster Pack
+      set: m19
+  Core Set 2019 Booster Box:
+    sealed:
+    - count: 36
+      name: Core Set 2019 Booster Pack
+      set: m19
+  Core Set 2019 Booster Box Case:
+    sealed:
+    - count: 6
+      name: Core Set 2019 Booster Box
+      set: m19
   Core Set 2019 Booster Pack:
     card_count: 15
     pack:
     - code: default
       set: m19
-  Core Set 2019 Bundle: []
-  Core Set 2019 Deck Builders Toolkit: []
+  Core Set 2019 Bundle:
+    other:
+    - name: Basic Land Pack
+    - name: Reusable Card Storage Box
+    - name: Player's Guide
+    - name: Core Set 2019 Spindown Life Counter
+    - name: Rules Reference Card
+    sealed:
+    - count: 10
+      name: Core Set 2019 Booster Pack
+      set: m19
+  Core Set 2019 Deck Builders Toolkit:
+    card_count: 225
+    deck:
+    - name: Deck Builder's Toolkit
+      set: m19
+    sealed:
+    - count: 1
+      name: Core Set 2019 Booster Pack
+      set: m19
+    - count: 1
+      name: Ixalan Booster Pack
+      set: xln
+    - count: 1
+      name: Rivals of Ixalan Booster Pack
+      set: rix
+    - count: 1
+      name: Dominaria Booster Pack
+      set: dom
   Core Set 2019 Planeswalker Deck Ajani:
     card_count: 60
     deck:
@@ -19,7 +81,23 @@ products:
     - count: 1
       name: Core Set 2019 Booster Pack
       set: m19
-  Core Set 2019 Planeswalker Deck Display: []
+  Core Set 2019 Planeswalker Deck Display:
+    sealed:
+    - count: 2
+      name: Core Set 2019 Planeswalker Deck Ajani
+      set: m19
+    - count: 2
+      name: Core Set 2019 Planeswalker Deck Liliana
+      set: m19
+    - count: 2
+      name: Core Set 2019 Planeswalker Deck Sarkhan
+      set: m19
+    - count: 2
+      name: Core Set 2019 Planeswalker Deck Tezzeret
+      set: m19
+    - count: 2
+      name: Core Set 2019 Planeswalker Deck Vivien
+      set: m19
   Core Set 2019 Planeswalker Deck Liliana:
     card_count: 60
     deck:
@@ -56,8 +134,32 @@ products:
     - count: 1
       name: Core Set 2019 Booster Pack
       set: m19
-  Core Set 2019 Planeswalker Decks - Set of 5: []
-  Core Set 2019 Prerelease Pack: []
+  Core Set 2019 Planeswalker Decks - Set of 5:
+    sealed:
+    - count: 1
+      name: Core Set 2019 Planeswalker Deck Ajani
+      set: m19
+    - count: 1
+      name: Core Set 2019 Planeswalker Deck Liliana
+      set: m19
+    - count: 1
+      name: Core Set 2019 Planeswalker Deck Sarkhan
+      set: m19
+    - count: 1
+      name: Core Set 2019 Planeswalker Deck Tezzeret
+      set: m19
+    - count: 1
+      name: Core Set 2019 Planeswalker Deck Vivien
+      set: m19
+  Core Set 2019 Prerelease Pack:
+    card_count: 1
+    pack:
+    - code: prerelease
+      set: m19
+    sealed:
+    - count: 6
+      name: Core Set 2019 Booster Pack
+      set: m19
   Core Set 2019 Spellslinger Starter Kit:
     card_count: 120
     deck:

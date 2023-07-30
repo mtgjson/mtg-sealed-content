@@ -74,6 +74,9 @@ products:
     - deck:
       - name: White-Green Aura
         set: mbs
+    variable_mode:
+      count: 4
+      replacement: false
   2011 Core Set Fat Pack:
     other:
     - name: Magic 2011 Card Box
