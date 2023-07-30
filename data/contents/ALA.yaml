@@ -1,13 +1,31 @@
 code: ala
 products:
-  Shards of Alara Booster Box: []
-  Shards of Alara Booster Box Case: []
+  Shards of Alara Booster Box:
+    sealed:
+    - count: 36
+      name: Shards of Alara Booster Pack
+      set: ala
+  Shards of Alara Booster Box Case:
+    sealed:
+    - count: 6
+      name: Shards of Alara Booster Box
+      set: ala
   Shards of Alara Booster Pack:
     card_count: 15
     pack:
     - code: default
       set: ala
-  Shards of Alara Fat Pack: []
+  Shards of Alara Fat Pack:
+    other:
+    - name: Shards of Alara Planeswalker's guide to Alara
+    - name: 1 of 5 different card boxes with Shards of Alara artwork
+    - name: 40 card Shards basic land pack
+    - name: 1 Shards Spindown life counter
+    - name: 1 random Pro Tour Player card
+    sealed:
+    - count: 8
+      name: Shards of Alara Booster Pack
+      set: ala
   Shards of Alara Intro Pack Bant Exalted:
     card_count: 41
     deck:
@@ -17,7 +35,23 @@ products:
     - count: 1
       name: Shards of Alara Booster Pack
       set: ala
-  Shards of Alara Intro Pack Display: []
+  Shards of Alara Intro Pack Display:
+    sealed:
+    - count: 1
+      name: Shards of Alara Intro Pack Bant Exalted
+      set: ala
+    - count: 1
+      name: Shards of Alara Intro Pack Esper Artifice
+      set: ala
+    - count: 1
+      name: Shards of Alara Intro Pack Grixis Undead
+      set: ala
+    - count: 1
+      name: Shards of Alara Intro Pack Naya Behemoths
+      set: ala
+    - count: 1
+      name: Shards of Alara Intro Pack Primordial Jund
+      set: ala
   Shards of Alara Intro Pack Esper Artifice:
     card_count: 41
     deck:
@@ -54,7 +88,23 @@ products:
     - count: 1
       name: Shards of Alara Booster Pack
       set: ala
-  Shards of Alara Premium Foil Booster Box: []
-  Shards of Alara Premium Foil Booster Pack: []
-  Shards of Alara Tournament Deck Display: []
-  Shards of Alara Tournament Pack: []
+  Shards of Alara Premium Foil Booster Box:
+    sealed:
+    - count: 12
+      name: Shards of Alara Premium Foil Booster Pack
+      set: ala
+  Shards of Alara Premium Foil Booster Pack:
+    card_count: 15
+    pack:
+    - code: ala-premium
+      set: ala
+  Shards of Alara Tournament Deck Display:
+    sealed:
+    - count: 12
+      name: Shards of Alara Tournament Pack
+      set: ala
+  Shards of Alara Tournament Pack:
+    card_count: 75
+    pack:
+    - code: tournament
+      set: ala
