@@ -1,9 +1,25 @@
 code: isd
 products:
-  Innistrad 3x Booster Packs draft set: []
-  Innistrad 6 Card Booster Pack: []
-  Innistrad Booster Box: []
-  Innistrad Booster Box Case 6 boxes: []
+  Innistrad 3x Booster Packs draft set:
+    sealed:
+    - count: 3
+      name: Innistrad Booster Pack
+      set: isd
+  Innistrad 6 Card Booster Pack:
+    card_count: 6
+    pack:
+    - code: six
+      set: isd
+  Innistrad Booster Box:
+    sealed:
+    - count: 36
+      name: Innistrad Booster Pack
+      set: isd
+  Innistrad Booster Box Case 6 boxes:
+    sealed:
+    - count: 6
+      name: Innistrad Booster Box
+      set: isd
   Innistrad Booster Pack:
     card_count: 15
     pack:
@@ -19,8 +35,24 @@ products:
     deck:
     - name: Hold The Line
       set: isd
-  Innistrad Event Decks - Set of 2: []
-  Innistrad Fat Pack: []
+  Innistrad Event Decks - Set of 2:
+    sealed:
+    - count: 1
+      name: Innistrad Event Deck Deathfed
+      set: isd
+    - count: 1
+      name: Innistrad Event Deck Hold the Line
+      set: isd
+  Innistrad Fat Pack:
+    other:
+    - name: Innistrad Players Guide
+    - name: 70-card Basic Land Bundle
+    - name: Innistrad Spindown Life Counter
+    - name: Two 60-card Deck Boxes
+    sealed:
+    - count: 9
+      name: Innistrad Booster Pack
+      set: isd
   Innistrad Intro Pack Carnival of Blood:
     card_count: 60
     deck:
@@ -39,7 +71,23 @@ products:
     - count: 1
       name: Innistrad Booster Pack
       set: isd
-  Innistrad Intro Pack Display: []
+  Innistrad Intro Pack Display:
+    sealed:
+    - count: 2
+      name: Innistrad Intro Pack Carnival of Blood
+      set: isd
+    - count: 2
+      name: Innistrad Intro Pack Deathly Dominion
+      set: isd
+    - count: 2
+      name: Innistrad Intro Pack Eldritch Onslaught
+      set: isd
+    - count: 2
+      name: Innistrad Intro Pack Repel the Dark
+      set: isd
+    - count: 2
+      name: Innistrad Intro Pack Spectral Legions
+      set: isd
   Innistrad Intro Pack Eldritch Onslaught:
     card_count: 60
     deck:
@@ -58,7 +106,23 @@ products:
     - count: 1
       name: Innistrad Booster Pack
       set: isd
-  Innistrad Intro Pack Set of 5: []
+  Innistrad Intro Pack Set of 5:
+    sealed:
+    - count: 1
+      name: Innistrad Intro Pack Carnival of Blood
+      set: isd
+    - count: 1
+      name: Innistrad Intro Pack Deathly Dominion
+      set: isd
+    - count: 1
+      name: Innistrad Intro Pack Eldritch Onslaught
+      set: isd
+    - count: 1
+      name: Innistrad Intro Pack Repel the Dark
+      set: isd
+    - count: 1
+      name: Innistrad Intro Pack Spectral Legions
+      set: isd
   Innistrad Intro Pack Spectral Legions:
     card_count: 60
     deck:
