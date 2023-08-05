@@ -1,3 +1,11 @@
 code: w17
 products:
-  Welcome Deck 2017 Starter Set: []
+  Welcome Deck 2017 Starter Set:
+    card_count: 60
+    deck:
+    - name: Amonkhet Welcome Deck - Red
+      set: w17
+    - name: Amonkhet Welcome Deck - White
+      set: w17
+    other:
+    - name: Two Spindown Life Counters

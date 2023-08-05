@@ -1,10 +1,31 @@
 code: who
 products:
   Doctor Who Blast From the Past Commander Deck: []
-  Doctor Who Collector Booster Box: []
-  Doctor Who Collector Booster Box Case: []
+  Doctor Who Collector Booster Box:
+    sealed:
+    - count: 12
+      name: Doctor Who Collector Booster Pack
+      set: who
+  Doctor Who Collector Booster Box Case:
+    sealed:
+    - count: 6
+      name: Doctor Who Collector Booster Box
+      set: who
   Doctor Who Collector Booster Pack: []
-  Doctor Who Commander Deck Display: []
+  Doctor Who Commander Deck Display:
+    sealed:
+    - count: 1
+      name: Doctor Who Blast From the Past Commander Deck
+      set: who
+    - count: 1
+      name: Doctor Who Masters of Evil Commander Deck
+      set: who
+    - count: 1
+      name: Doctor Who Paradox Power Commander Deck
+      set: who
+    - count: 1
+      name: Doctor Who Timey Wimey Commander Deck
+      set: who
   Doctor Who Masters of Evil Commander Deck: []
   Doctor Who Paradox Power Commander Deck: []
   Doctor Who Timey Wimey Commander Deck: []

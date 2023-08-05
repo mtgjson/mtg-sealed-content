@@ -1,6 +1,10 @@
 code: unh
 products:
-  Unhinged Booster Box: []
+  Unhinged Booster Box:
+    sealed:
+    - count: 36
+      name: Unhinged Booster Pack
+      set: unh
   Unhinged Booster Pack:
     card_count: 15
     pack:

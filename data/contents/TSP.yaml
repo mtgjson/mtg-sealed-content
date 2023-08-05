@@ -1,6 +1,10 @@
 code: tsp
 products:
-  Time Spiral Booster Box: []
+  Time Spiral Booster Box:
+    sealed:
+    - count: 36
+      name: Time Spiral Booster Pack
+      set: tsp
   Time Spiral Booster Pack:
     card_count: 15
     pack:
@@ -28,4 +32,8 @@ products:
     - name: Sliver Evolution
       set: tsp
   Time Spiral Tournament Pack: []
-  Time Spiral Tournament Pack Display: []
+  Time Spiral Tournament Pack Display:
+    sealed:
+    - count: 12
+      name: Time Spiral Tournament Pack
+      set: tsp

@@ -1,7 +1,15 @@
 code: emn
 products:
-  Eldritch Moon Booster Box: []
-  Eldritch Moon Booster Box Case: []
+  Eldritch Moon Booster Box:
+    sealed:
+    - count: 36
+      name: Eldritch Moon Booster Pack
+      set: emn
+  Eldritch Moon Booster Box Case:
+    sealed:
+    - count: 6
+      name: Eldritch Moon Booster Box
+      set: emn
   Eldritch Moon Booster Pack:
     card_count: 15
     pack:
@@ -17,8 +25,40 @@ products:
     - count: 2
       name: Eldritch Moon Booster Pack
       set: emn
-  Eldritch Moon Intro Pack Display: []
-  Eldritch Moon Intro Pack Set of 5: []
+  Eldritch Moon Intro Pack Display:
+    sealed:
+    - count: 2
+      name: Eldritch Moon Intro Pack Dangerous Knowledge
+      set: emn
+    - count: 2
+      name: Eldritch Moon Intro Pack Shallow Graves
+      set: emn
+    - count: 2
+      name: Eldritch Moon Intro Pack Unlikely Alliances
+      set: emn
+    - count: 2
+      name: Eldritch Moon Intro Pack Untamed Wild
+      set: emn
+    - count: 2
+      name: Eldritch Moon Intro Pack Weapons and Wards
+      set: emn
+  Eldritch Moon Intro Pack Set of 5:
+    sealed:
+    - count: 1
+      name: Eldritch Moon Intro Pack Dangerous Knowledge
+      set: emn
+    - count: 1
+      name: Eldritch Moon Intro Pack Shallow Graves
+      set: emn
+    - count: 1
+      name: Eldritch Moon Intro Pack Unlikely Alliances
+      set: emn
+    - count: 1
+      name: Eldritch Moon Intro Pack Untamed Wild
+      set: emn
+    - count: 1
+      name: Eldritch Moon Intro Pack Weapons and Wards
+      set: emn
   Eldritch Moon Intro Pack Shallow Graves:
     card_count: 60
     deck:
