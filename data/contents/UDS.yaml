@@ -1,7 +1,24 @@
 code: uds
 products:
-  Urza's Destiny Theme Deck Display: []
-  Urzas Destiny Booster Box: []
+  Urza's Destiny Theme Deck Display:
+    sealed:
+    - count: 3
+      name: Urzas Destiny Theme Deck Assassin
+      set: uds
+    - count: 3
+      name: Urzas Destiny Theme Deck Battle Surge
+      set: uds
+    - count: 3
+      name: Urzas Destiny Theme Deck Enchanter
+      set: uds
+    - count: 3
+      name: Urzas Destiny Theme Deck Fiendish Nature
+      set: uds
+  Urzas Destiny Booster Box:
+    sealed:
+    - count: 36
+      name: Urzas Destiny Booster Pack
+      set: uds
   Urzas Destiny Booster Pack:
     card_count: 15
     pack:

@@ -1,6 +1,10 @@
 code: sth
 products:
-  Stronghold Booster Box: []
+  Stronghold Booster Box:
+    sealed:
+    - count: 36
+      name: Stronghold Booster Pack
+      set: sth
   Stronghold Booster Pack:
     card_count: 15
     pack:
@@ -11,7 +15,20 @@ products:
     deck:
     - name: Call of the Kor
       set: sth
-  Stronghold Theme Deck Display: []
+  Stronghold Theme Deck Display:
+    sealed:
+    - count: 3
+      name: Stronghold Theme Deck Call of the Kor
+      set: sth
+    - count: 3
+      name: Stronghold Theme Deck Migraine
+      set: sth
+    - count: 3
+      name: Stronghold Theme Deck The Sparkler
+      set: sth
+    - count: 3
+      name: Stronghold Theme Deck The Spikes
+      set: sth
   Stronghold Theme Deck Migraine:
     card_count: 60
     deck:

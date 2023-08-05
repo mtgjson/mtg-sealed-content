@@ -1,6 +1,10 @@
 code: wth
 products:
-  Weatherlight Booster Box: []
+  Weatherlight Booster Box:
+    sealed:
+    - count: 36
+      name: Weatherlight Booster Pack
+      set: wth
   Weatherlight Booster Pack:
     card_count: 15
     pack:

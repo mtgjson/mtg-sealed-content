@@ -1,7 +1,24 @@
 code: usg
 products:
-  Urza's Saga Theme Deck Display: []
-  Urzas Saga Booster Box: []
+  Urza's Saga Theme Deck Display:
+    sealed:
+    - count: 3
+      name: Urzas Saga Theme Deck Sleeper
+      set: usg
+    - count: 3
+      name: Urzas Saga Theme Deck Special Delivery
+      set: usg
+    - count: 3
+      name: Urzas Saga Theme Deck The Plague
+      set: usg
+    - count: 3
+      name: Urzas Saga Theme Deck Tombstone
+      set: usg
+  Urzas Saga Booster Box:
+    sealed:
+    - name: Urzas Saga Booster Pack
+      sealed: 36
+      set: usg
   Urzas Saga Booster Pack:
     card_count: 15
     pack:
@@ -28,4 +45,8 @@ products:
     - name: Tombstone
       set: usg
   Urzas Saga Tournament Pack: []
-  Urzas Saga Tournament Pack Display: []
+  Urzas Saga Tournament Pack Display:
+    sealed:
+    - count: 12
+      name: Urzas Saga Tournament Pack
+      set: usg
