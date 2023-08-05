@@ -54,7 +54,11 @@ products:
     - count: 1
       name: Zendikar Rising Expedition Box Topper
       set: zne
-  Zendikar Rising Set Booster Case: []
+  Zendikar Rising Set Booster Case:
+    sealed:
+    - count: 6
+      name: Zendikar Rising Set Booster Box
+      set: znr
   Zendikar Rising Set Booster Pack:
     card_count: 12
     pack:
