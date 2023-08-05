@@ -1,8 +1,16 @@
 code: bng
 products:
   Battle the Horde Challenge Deck: []
-  Born of the Gods Booster Box: []
-  Born of the Gods Booster Box Case 6 boxes: []
+  Born of the Gods Booster Box:
+    sealed:
+    - count: 36
+      name: Born of the Gods Booster Pack
+      set: bng
+  Born of the Gods Booster Box Case 6 boxes:
+    sealed:
+    - count: 6
+      name: Born of the Gods Booster Box
+      set: bng
   Born of the Gods Booster Pack:
     card_count: 15
     pack:
@@ -13,14 +21,34 @@ products:
   Born of the Gods Destined To Lead Prerelease: []
   Born of the Gods Destined To Outwit Prerelease: []
   Born of the Gods Destined To Thrive Prerelease: []
-  Born of the Gods Event Deck Case of 6: []
+  Born of the Gods Event Deck Case of 6:
+    sealed:
+    - count: 6
+      name: Born of the Gods Event Deck Underworld Herald
+      set: bng
   Born of the Gods Event Deck Underworld Herald:
     card_count: 75
     deck:
     - name: Underworld Herald
       set: bng
   Born of the Gods Fat Pack: []
-  Born of the Gods Intro Display 2x of all 5: []
+  Born of the Gods Intro Display 2x of all 5:
+    sealed:
+    - count: 2
+      name: Born of the Gods Intro Pack Deaths Beginning
+      set: bng
+    - count: 2
+      name: Born of the Gods Intro Pack Forged in Battle
+      set: bng
+    - count: 2
+      name: Born of the Gods Intro Pack Gifts of the Gods
+      set: bng
+    - count: 2
+      name: Born of the Gods Intro Pack Insatiable Hunger
+      set: bng
+    - count: 2
+      name: Born of the Gods Intro Pack Inspiration Struck
+      set: bng
   Born of the Gods Intro Pack Deaths Beginning:
     card_count: 60
     deck:
@@ -66,5 +94,37 @@ products:
     - count: 2
       name: Born of the Gods Booster Pack
       set: bng
-  Born of the Gods Intro Pack Set of 5: []
-  Born of the Gods Prerelease Kit Set of 5: []
+  Born of the Gods Intro Pack Set of 5:
+    sealed:
+    - count: 1
+      name: Born of the Gods Intro Pack Deaths Beginning
+      set: bng
+    - count: 1
+      name: Born of the Gods Intro Pack Forged in Battle
+      set: bng
+    - count: 1
+      name: Born of the Gods Intro Pack Gifts of the Gods
+      set: bng
+    - count: 1
+      name: Born of the Gods Intro Pack Insatiable Hunger
+      set: bng
+    - count: 1
+      name: Born of the Gods Intro Pack Inspiration Struck
+      set: bng
+  Born of the Gods Prerelease Kit Set of 5:
+    sealed:
+    - count: 1
+      name: Born of the Gods Destined To Conquer Prerelease
+      set: bng
+    - count: 1
+      name: Born of the Gods Destined To Dominate Prerelease
+      set: bng
+    - count: 1
+      name: Born of the Gods Destined To Lead Prerelease
+      set: bng
+    - count: 1
+      name: Born of the Gods Destined To Outwit Prerelease
+      set: bng
+    - count: 1
+      name: Born of the Gods Destined To Thrive Prerelease
+      set: bng
