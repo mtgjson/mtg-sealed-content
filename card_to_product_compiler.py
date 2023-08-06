@@ -38,6 +38,7 @@ class MtgjsonCardLinker:
 
         for set_code, set_data in self.mtgjson_data.items():
             if not set_data.get("sealedProduct"):
+                print(f"Sealed Product for {set_code} not found, skipping")
                 continue
 
             print(f"Building {set_code}")
@@ -64,7 +65,7 @@ class MtgjsonCardLinker:
                     cards = self.get_cards_in_content_type(content_key, content)
                     for card in cards:
                         return_value[card].add(sealed_product_uuid)
-                break
+            break
 
         return return_value
 
@@ -147,7 +148,7 @@ class MtgjsonCardLinker:
             for config in content["configs"]:
                 for deck in config["deck"]:
                     return_value.update(
-                        self.get_cards_in_deck(content["set"].upper(), deck["name"])
+                        self.get_cards_in_deck(deck["set"].upper(), deck["name"])
                     )
             return list(return_value)
 
