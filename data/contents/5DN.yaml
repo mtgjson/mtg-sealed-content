@@ -1,6 +1,10 @@
 code: 5dn
 products:
-  Fifth Dawn Booster Box: []
+  Fifth Dawn Booster Box:
+    sealed:
+    - count: 36
+      name: Fifth Dawn Booster Pack
+      set: 5dn
   Fifth Dawn Booster Pack:
     card_count: 15
     pack:
@@ -38,4 +42,17 @@ products:
     deck:
     - name: Sunburst
       set: 5dn
-  Fifth Dawn Theme Deck Display: []
+  Fifth Dawn Theme Deck Display:
+    sealed:
+    - count: 3
+      name: Fifth Dawn Nuts and Bolts Theme Deck
+      set: 5dn
+    - count: 3
+      name: Fifth Dawn Special Forces Theme Deck
+      set: 5dn
+    - count: 3
+      name: Fifth Dawn Stampede Theme Deck
+      set: 5dn
+    - count: 3
+      name: Fifth Dawn Sunburst Theme Deck
+      set: 5dn

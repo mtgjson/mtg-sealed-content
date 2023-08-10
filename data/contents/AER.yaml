@@ -1,7 +1,15 @@
 code: aer
 products:
-  Aether Revolt Booster Box: []
-  Aether Revolt Booster Box Case: []
+  Aether Revolt Booster Box:
+    sealed:
+    - count: 36
+      name: Aether Revolt Booster Pack
+      set: aer
+  Aether Revolt Booster Box Case:
+    sealed:
+    - count: 6
+      name: Aether Revolt Booster Box
+      set: aer
   Aether Revolt Booster Pack:
     card_count: 15
     pack:
