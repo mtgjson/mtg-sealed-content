@@ -1,7 +1,15 @@
 code: cn2
 products:
-  Conspiracy Take the Crown Booster Box: []
-  Conspiracy Take the Crown Booster Box Case: []
+  Conspiracy Take the Crown Booster Box:
+    sealed:
+    - count: 36
+      name: Conspiracy Take the Crown Booster Pack
+      set: cn2
+  Conspiracy Take the Crown Booster Box Case:
+    sealed:
+    - count: 6
+      name: Conspiracy Take the Crown Booster Box Case
+      set: cn2
   Conspiracy Take the Crown Booster Pack:
     card_count: 15
     pack:
