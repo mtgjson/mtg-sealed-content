@@ -1,7 +1,15 @@
 code: ima
 products:
-  Iconic Masters Draft Booster Box: []
-  Iconic Masters Draft Booster Box Case: []
+  Iconic Masters Draft Booster Box:
+    sealed:
+    - count: 24
+      name: Iconic Masters Draft Booster Pack
+      set: ima
+  Iconic Masters Draft Booster Box Case:
+    sealed:
+    - count: 4
+      name: Iconic Masters Draft Booster Box
+      set: ima
   Iconic Masters Draft Booster Pack:
     card_count: 15
     pack:
