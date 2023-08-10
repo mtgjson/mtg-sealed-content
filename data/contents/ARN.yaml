@@ -1,6 +1,10 @@
 code: arn
 products:
-  Arabian Nights Booster Box: []
+  Arabian Nights Booster Box:
+    sealed:
+    - count: 60
+      name: Arabian Nights Booster Pack
+      set: arn
   Arabian Nights Booster Pack:
     card_count: 8
     pack:
