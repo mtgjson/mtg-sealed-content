@@ -10,7 +10,18 @@ products:
     pack:
     - code: default
       set: dst
-  Darksteel Fat Pack: []
+  Darksteel Fat Pack:
+    card_count: 2
+    other:
+    - name: The Darksteel Novel
+    - name: Darksteel Special Edition Spindown
+    pack:
+    - code: fat-pack
+      set: dst
+    sealed:
+    - count: 6
+      name: Darksteel Booster Pack
+      set: dst
   Darksteel Theme Deck Display: []
   Darksteel Theme Deck Master Blaster:
     card_count: 60
