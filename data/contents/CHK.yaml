@@ -1,12 +1,30 @@
 code: chk
 products:
-  Champions of Kamigawa Booster Box: []
+  Champions of Kamigawa Booster Box:
+    sealed:
+    - count: 36
+      name: Champions of Kamigawa Booster Pack
+      set: chk
   Champions of Kamigawa Booster Pack:
     card_count: 15
     pack:
     - code: default
       set: chk
-  Champions of Kamigawa Fat Pack: []
+  Champions of Kamigawa Fat Pack:
+    card_count: 2
+    other:
+    - name: The Champions of Kamigawa Novel
+    - name: Champions of Kamigawa Special Edition Spindown
+    pack:
+    - code: fat-pack
+      set: chk
+    sealed:
+    - count: 3
+      name: Champions of Kamigawa Booster Pack
+      set: chk
+    - count: 1
+      name: Champions of Kamigawa Tournament Pack
+      set: chk
   Champions of Kamigawa Theme Deck Display: []
   Champions of Kamigawa Theme Deck Kami Reborn:
     card_count: 60

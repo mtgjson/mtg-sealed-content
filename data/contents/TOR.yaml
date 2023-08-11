@@ -1,12 +1,27 @@
 code: tor
 products:
-  Torment Booster Box: []
+  Torment Booster Box:
+    sealed:
+    - count: 36
+      name: Torment Booster Pack
+      set: tor
   Torment Booster Pack:
     card_count: 15
     pack:
     - code: default
       set: tor
-  Torment Fat Pack: []
+  Torment Fat Pack:
+    card_count: 2
+    other:
+    - name: The Torment Novel
+    - name: Torment Special Edition Spindown
+    pack:
+    - code: fat-pack
+      set: tor
+    sealed:
+    - count: 6
+      name: Torment Booster Pack
+      set: tor
   Torment Theme Deck Display: []
   Torment Theme Deck Grave Danger:
     card_count: 60

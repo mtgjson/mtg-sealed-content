@@ -30,7 +30,18 @@ products:
     pack:
     - code: default
       set: sok
-  Saviors of Kamigawa Fat Pack: []
+  Saviors of Kamigawa Fat Pack:
+    card_count: 2
+    other:
+    - name: The Saviors of Kamigawa Novel
+    - name: Saviors of Kamigawa Special Edition Spindown
+    pack:
+    - code: fat-pack
+      set: sok
+    sealed:
+    - count: 6
+      name: Saviors of Kamigawa Booster Pack
+      set: sok
   Saviors of Kamigawa Theme Deck Display:
     sealed:
     - count: 1
