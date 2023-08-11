@@ -11,6 +11,13 @@ products:
     - code: default
       set: mmq
   Mercadian Masques Fat Pack:
+    card_count: 2
+    other:
+    - name: The Mercadian Masques Novel
+    - name: TopDeck Magazine \# 1
+    pack:
+    - code: fat-pack
+      set: mmq
     sealed:
     - count: 3
       name: Mercadian Masques Booster Pack
