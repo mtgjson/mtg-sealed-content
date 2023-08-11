@@ -1,6 +1,10 @@
 code: nem
 products:
-  Nemesis Booster Box: []
+  Nemesis Booster Box:
+    pack:
+    - count: 36
+      name: Nemesis Booster Pack
+      set: nem
   Nemesis Booster Pack:
     card_count: 15
     pack:

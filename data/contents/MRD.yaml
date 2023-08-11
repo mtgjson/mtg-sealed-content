@@ -1,6 +1,10 @@
 code: mrd
 products:
-  Mirrodin Booster Box: []
+  Mirrodin Booster Box:
+    sealed:
+    - count: 36
+      name: Mirrodin Booster Pack
+      set: mrd
   Mirrodin Booster Pack:
     card_count: 15
     pack:

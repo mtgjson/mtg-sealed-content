@@ -5,7 +5,11 @@ products:
     deck:
     - name: Barrage
       set: pls
-  Planeshift Booster Box: []
+  Planeshift Booster Box:
+    sealed:
+    - count: 36
+      name: Planeshift Booster Pack
+      set: pls
   Planeshift Booster Pack:
     card_count: 15
     pack:

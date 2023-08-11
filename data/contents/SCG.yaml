@@ -1,6 +1,10 @@
 code: scg
 products:
-  Scourge Booster Box: []
+  Scourge Booster Box:
+    sealed:
+    - count: 36
+      name: Scourge Booster Pack
+      set: scg
   Scourge Booster Pack:
     card_count: 15
     pack:

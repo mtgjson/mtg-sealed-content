@@ -1,6 +1,10 @@
 code: chk
 products:
-  Champions of Kamigawa Booster Box: []
+  Champions of Kamigawa Booster Box:
+    sealed:
+    - count: 36
+      name: Champions of Kamigawa Booster Pack
+      set: chk
   Champions of Kamigawa Booster Pack:
     card_count: 15
     pack:

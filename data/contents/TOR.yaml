@@ -1,6 +1,10 @@
 code: tor
 products:
-  Torment Booster Box: []
+  Torment Booster Box:
+    sealed:
+    - count: 36
+      name: Torment Booster Pack
+      set: tor
   Torment Booster Pack:
     card_count: 15
     pack:

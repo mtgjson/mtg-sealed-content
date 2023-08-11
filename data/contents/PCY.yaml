@@ -1,6 +1,10 @@
 code: pcy
 products:
-  Prophecy Booster Box: []
+  Prophecy Booster Box:
+    sealed:
+    - count: 36
+      name: Prophecy Booster Pack
+      set: pcy
   Prophecy Booster Pack:
     card_count: 15
     pack:

@@ -1,6 +1,10 @@
 code: jud
 products:
-  Judgment Booster Box: []
+  Judgment Booster Box:
+    sealed:
+    - count: 36
+      name: Judgment Booster Pack
+      set: jud
   Judgment Booster Pack:
     card_count: 15
     pack:

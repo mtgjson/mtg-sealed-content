@@ -1,6 +1,10 @@
 code: ons
 products:
-  Onslaught Booster Box: []
+  Onslaught Booster Box:
+    sealed:
+    - count: 36
+      name: Onslaught Booster Pack
+      set: ons
   Onslaught Booster Pack:
     card_count: 15
     pack:

@@ -1,6 +1,10 @@
 code: apc
 products:
-  Apocalypse Booster Box: []
+  Apocalypse Booster Box:
+    sealed:
+    - count: 36
+      name: Apocalypse Booster Pack
+      set: apc
   Apocalypse Booster Pack:
     card_count: 15
     pack:
