@@ -1,6 +1,10 @@
 code: hml
 products:
-  Homelands Booster Box: []
+  Homelands Booster Box:
+    sealed:
+    - count: 60
+      name: Homelands Booster Pack
+      set: hml
   Homelands Booster Pack:
     card_count: 8
     pack:

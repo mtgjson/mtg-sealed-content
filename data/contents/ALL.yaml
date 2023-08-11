@@ -1,6 +1,10 @@
 code: all
 products:
-  Alliances Booster Box: []
+  Alliances Booster Box:
+    sealed:
+    - count: 45
+      name: Alliances Booster Pack
+      set: all
   Alliances Booster Pack:
     card_count: 12
     pack:

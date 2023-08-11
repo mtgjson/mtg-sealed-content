@@ -1,6 +1,10 @@
 code: atq
 products:
-  Antiquities Booster Box: []
+  Antiquities Booster Box:
+    sealed:
+    - count: 60
+      name: Antiquities Booster Pack
+      set: atq
   Antiquities Booster Pack:
     card_count: 8
     pack:

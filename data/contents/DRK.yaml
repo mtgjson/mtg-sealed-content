@@ -1,6 +1,10 @@
 code: drk
 products:
-  The Dark Booster Box: []
+  The Dark Booster Box:
+    sealed:
+    - count: 60
+      name: The Dark Booster Pack
+      set: drk
   The Dark Booster Pack:
     card_count: 8
     pack:
