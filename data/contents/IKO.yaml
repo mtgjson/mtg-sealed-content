@@ -2,17 +2,47 @@ code: iko
 products:
   Ikoria Lair of Behemoths Box Topper Pack: []
   Ikoria Lair of Behemoths Bundle: []
-  Ikoria Lair of Behemoths Collector Booster Box: []
-  Ikoria Lair of Behemoths Collector Booster Case: []
-  Ikoria Lair of Behemoths Collector Booster Hanger Pack: []
-  Ikoria Lair of Behemoths Collector Booster Hanger Pack Case: []
+  Ikoria Lair of Behemoths Collector Booster Box:
+    sealed:
+    - count: 12
+      name: Ikoria Lair of Behemoths Collector Booster Pack
+      set: iko
+    - count: 1
+      name: Ikoria Lair of Behemoths Box Topper Pack
+      set: iko
+  Ikoria Lair of Behemoths Collector Booster Case:
+    sealed:
+    - count: 6
+      name: Ikoria Lair of Behemoths Collector Booster Box
+      set: iko
+  Ikoria Lair of Behemoths Collector Booster Hanger Pack:
+    sealed:
+    - count: 1
+      name: Ikoria Lair of Behemoths Collector Booster Pack
+      set: iko
+  Ikoria Lair of Behemoths Collector Booster Hanger Pack Case:
+    sealed:
+    - count: 120
+      name: Ikoria Lair of Behemoths Collector Booster Hanger Pack
+      set: iko
   Ikoria Lair of Behemoths Collector Booster Pack:
     card_count: 15
     pack:
     - code: collector
       set: iko
-  Ikoria Lair of Behemoths Draft Booster Box: []
-  Ikoria Lair of Behemoths Draft Booster Box Case: []
+  Ikoria Lair of Behemoths Draft Booster Box:
+    sealed:
+    - count: 36
+      name: Ikoria Lair of Behemoths Draft Booster Pack
+      set: iko
+    - count: 1
+      name: Ikoria Lair of Behemoths Box Topper Pack
+      set: iko
+  Ikoria Lair of Behemoths Draft Booster Box Case:
+    sealed:
+    - count: 6
+      name: Ikoria Lair of Behemoths Draft Booster Box
+      set: iko
   Ikoria Lair of Behemoths Draft Booster Pack:
     card_count: 15
     pack:
@@ -20,11 +50,73 @@ products:
       set: iko
   Ikoria Lair of Behemoths Prerelease Pack: []
   Ikoria Lair of Behemoths Prerelease Pack plus 2 Ikoria Prize Packs: []
-  Ikoria Lair of Behemoths Theme Booster Black: []
-  Ikoria Lair of Behemoths Theme Booster Blue: []
-  Ikoria Lair of Behemoths Theme Booster Box: []
-  Ikoria Lair of Behemoths Theme Booster Green: []
-  Ikoria Lair of Behemoths Theme Booster Monsters: []
-  Ikoria Lair of Behemoths Theme Booster Red: []
-  Ikoria Lair of Behemoths Theme Booster Set of 6: []
-  Ikoria Lair of Behemoths Theme Booster White: []
+  Ikoria Lair of Behemoths Theme Booster Black:
+    card_count: 35
+    pack:
+    - code: theme-b
+      set: iko
+  Ikoria Lair of Behemoths Theme Booster Blue:
+    card_count: 35
+    pack:
+    - code: theme-u
+      set: iko
+  Ikoria Lair of Behemoths Theme Booster Box:
+    sealed:
+    - count: 2
+      name: Ikoria Lair of Behemoths Theme Booster White
+      set: iko
+    - count: 2
+      name: Ikoria Lair of Behemoths Theme Booster Blue
+      set: iko
+    - count: 2
+      name: Ikoria Lair of Behemoths Theme Booster Black
+      set: iko
+    - count: 2
+      name: Ikoria Lair of Behemoths Theme Booster Red
+      set: iko
+    - count: 2
+      name: Ikoria Lair of Behemoths Theme Booster Green
+      set: iko
+    - count: 2
+      name: Ikoria Lair of Behemoths Theme Booster Monsters
+      set: iko
+  Ikoria Lair of Behemoths Theme Booster Green:
+    card_count: 35
+    pack:
+    - code: theme-g
+      set: iko
+  Ikoria Lair of Behemoths Theme Booster Monsters:
+    card_count: 35
+    pack:
+    - code: theme-monsters
+      set: iko
+  Ikoria Lair of Behemoths Theme Booster Red:
+    card_count: 35
+    pack:
+    - code: theme-r
+      set: iko
+  Ikoria Lair of Behemoths Theme Booster Set of 6:
+    sealed:
+    - count: 1
+      name: Ikoria Lair of Behemoths Theme Booster White
+      set: iko
+    - count: 1
+      name: Ikoria Lair of Behemoths Theme Booster Blue
+      set: iko
+    - count: 1
+      name: Ikoria Lair of Behemoths Theme Booster Black
+      set: iko
+    - count: 1
+      name: Ikoria Lair of Behemoths Theme Booster Red
+      set: iko
+    - count: 1
+      name: Ikoria Lair of Behemoths Theme Booster Green
+      set: iko
+    - count: 1
+      name: Ikoria Lair of Behemoths Theme Booster Monsters
+      set: iko
+  Ikoria Lair of Behemoths Theme Booster White:
+    card_count: 35
+    pack:
+    - code: theme-w
+      set: iko

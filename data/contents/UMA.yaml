@@ -5,13 +5,18 @@ products:
     - count: 3
       name: Ultimate Masters Draft Booster Pack
       set: uma
-  Ultimate Masters Draft Booster Box:
+  Ultimate Masters Box Topper Pack:
+    card_count: 1
     pack:
     - code: box-topper
       set: uma
+  Ultimate Masters Draft Booster Box:
     sealed:
     - count: 24
       name: Ultimate Masters Draft Booster Pack
+      set: uma
+    - count: 1
+      name: Ultimate Masters Box Topper Pack
       set: uma
   Ultimate Masters Draft Booster Box Case:
     sealed:

@@ -25,7 +25,14 @@ products:
     - count: 1
       name: Aether Revolt Booster Pack
       set: aer
-  Aether Revolt Planeswalker Deck Display: []
+  Aether Revolt Planeswalker Deck Display:
+    sealed:
+    - count: 3
+      name: Aether Revolt Planeswalker Deck Ajani
+      set: aer
+    - count: 3
+      name: Aether Revolt Planeswalker Deck Tezzeret
+      set: aer
   Aether Revolt Planeswalker Deck Tezzeret:
     card_count: 60
     deck:
@@ -35,6 +42,13 @@ products:
     - count: 1
       name: Aether Revolt Booster Pack
       set: aer
-  Aether Revolt Planeswalker Decks - Set of 2: []
+  Aether Revolt Planeswalker Decks - Set of 2:
+    sealed:
+    - count: 1
+      name: Aether Revolt Planeswalker Deck Ajani
+      set: aer
+    - count: 1
+      name: Aether Revolt Planeswalker Deck Tezzeret
+      set: aer
   Aether Revolt Prerelease Pack: []
   'Aether Revolt Prerelease Pack ': []

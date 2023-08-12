@@ -1,7 +1,15 @@
 code: frf
 products:
-  Fate Reforged Booster Box: []
-  Fate Reforged Booster Box Case 6 Boxes: []
+  Fate Reforged Booster Box:
+    sealed:
+    - count: 36
+      name: Fate Reforged Booster Pack
+      set: frf
+  Fate Reforged Booster Box Case 6 Boxes:
+    sealed:
+    - count: 6
+      name: Fate Reforged Booster Box
+      set: frf
   Fate Reforged Booster Pack:
     card_count: 15
     pack:
@@ -24,7 +32,23 @@ products:
     - count: 2
       name: Fate Reforged Booster Pack
       set: frf
-  Fate Reforged Intro Pack Display: []
+  Fate Reforged Intro Pack Display:
+    sealed:
+    - count: 2
+      name: Fate Reforged Intro Pack Cunning Plan
+      set: frf
+    - count: 2
+      name: Fate Reforged Intro Pack Grave Advantage
+      set: frf
+    - count: 2
+      name: Fate Reforged Intro Pack Stampeding Hordes
+      set: frf
+    - count: 2
+      name: Fate Reforged Intro Pack Surprise Attack
+      set: frf
+    - count: 2
+      name: Fate Reforged Intro Pack Unflinching Assault
+      set: frf
   Fate Reforged Intro Pack Grave Advantage:
     card_count: 60
     deck:
@@ -34,7 +58,23 @@ products:
     - count: 2
       name: Fate Reforged Booster Pack
       set: frf
-  Fate Reforged Intro Pack Set of 5: []
+  Fate Reforged Intro Pack Set of 5:
+    sealed:
+    - count: 1
+      name: Fate Reforged Intro Pack Cunning Plan
+      set: frf
+    - count: 1
+      name: Fate Reforged Intro Pack Grave Advantage
+      set: frf
+    - count: 1
+      name: Fate Reforged Intro Pack Stampeding Hordes
+      set: frf
+    - count: 1
+      name: Fate Reforged Intro Pack Surprise Attack
+      set: frf
+    - count: 1
+      name: Fate Reforged Intro Pack Unflinching Assault
+      set: frf
   Fate Reforged Intro Pack Stampeding Hordes:
     card_count: 60
     deck:
@@ -65,6 +105,22 @@ products:
   Fate Reforged Prerelease Kit Abzan: []
   Fate Reforged Prerelease Kit Jeskai: []
   Fate Reforged Prerelease Kit Mardu: []
-  Fate Reforged Prerelease Kit Set of 5: []
+  Fate Reforged Prerelease Kit Set of 5:
+    sealed:
+    - count: 1
+      name: Fate Reforged Prerelease Kit Abzan
+      set: frf
+    - count: 1
+      name: Fate Reforged Prerelease Kit Jeskai
+      set: frf
+    - count: 1
+      name: Fate Reforged Prerelease Kit Mardu
+      set: frf
+    - count: 1
+      name: Fate Reforged Prerelease Kit Sultai
+      set: frf
+    - count: 1
+      name: Fate Reforged Prerelease Kit Temur
+      set: frf
   Fate Reforged Prerelease Kit Sultai: []
   Fate Reforged Prerelease Kit Temur: []

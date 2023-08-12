@@ -1,15 +1,39 @@
 code: war
 products:
-  War of the Spark Booster Box: []
-  War of the Spark Booster Box (Non-English JAPANESE): []
-  War of the Spark Booster Box Case: []
+  War of the Spark Booster Box:
+    sealed:
+    - count: 36
+      name: War of the Spark Booster Pack
+      set: war
+  War of the Spark Booster Box (Non-English JAPANESE):
+    sealed:
+    - count: 36
+      name: War of the Spark Booster Pack (Non-English JAPANESE)
+      set: war
+  War of the Spark Booster Box Case:
+    sealed:
+    - count: 6
+      name: War of the Spark Booster Box
+      set: war
   War of the Spark Booster Pack:
     card_count: 15
     pack:
     - code: default
       set: war
+  War of the Spark Booster Pack (Non-English JAPANESE):
+    card_count: 15
+    pack:
+    - code: jp
+      set: war
   War of the Spark Bundle: []
-  War of the Spark Planeswalker Deck Display: []
+  War of the Spark Planeswalker Deck Display:
+    sealed:
+    - count: 3
+      name: War of the Spark Planeswalker Deck Gideon
+      set: war
+    - count: 3
+      name: War of the Spark Planeswalker Deck Jace
+      set: war
   War of the Spark Planeswalker Deck Gideon:
     card_count: 60
     deck:
@@ -28,12 +52,71 @@ products:
     - count: 1
       name: War of the Spark Booster Pack
       set: war
-  War of the Spark Planeswalker Decks - Set of 2: []
+  War of the Spark Planeswalker Decks - Set of 2:
+    sealed:
+    - count: 1
+      name: War of the Spark Planeswalker Deck Gideon
+      set: war
+    - count: 1
+      name: War of the Spark Planeswalker Deck Jace
+      set: war
   War of the Spark Prerelease Pack: []
-  War of the Spark Theme Booster Box: []
-  War of the Spark Theme Booster Pack Black: []
-  War of the Spark Theme Booster Pack Blue: []
-  War of the Spark Theme Booster Pack Green: []
-  War of the Spark Theme Booster Pack Red: []
-  War of the Spark Theme Booster Pack Set of 5: []
-  War of the Spark Theme Booster Pack White: []
+  War of the Spark Theme Booster Box:
+    sealed:
+    - count: 2
+      name: War of the Spark Theme Booster Pack White
+      set: war
+    - count: 2
+      name: War of the Spark Theme Booster Pack Blue
+      set: war
+    - count: 2
+      name: War of the Spark Theme Booster Pack Black
+      set: war
+    - count: 2
+      name: War of the Spark Theme Booster Pack Red
+      set: war
+    - count: 2
+      name: War of the Spark Theme Booster Pack Green
+      set: war
+  War of the Spark Theme Booster Pack Black:
+    card_count: 35
+    pack:
+    - code: theme-b
+      set: war
+  War of the Spark Theme Booster Pack Blue:
+    card_count: 35
+    pack:
+    - code: theme-u
+      set: war
+  War of the Spark Theme Booster Pack Green:
+    card_count: 35
+    pack:
+    - code: theme-g
+      set: war
+  War of the Spark Theme Booster Pack Red:
+    card_count: 35
+    pack:
+    - code: theme-r
+      set: war
+  War of the Spark Theme Booster Pack Set of 5:
+    sealed:
+    - count: 1
+      name: War of the Spark Theme Booster Pack White
+      set: war
+    - count: 1
+      name: War of the Spark Theme Booster Pack Blue
+      set: war
+    - count: 1
+      name: War of the Spark Theme Booster Pack Black
+      set: war
+    - count: 1
+      name: War of the Spark Theme Booster Pack Red
+      set: war
+    - count: 1
+      name: War of the Spark Theme Booster Pack Green
+      set: war
+  War of the Spark Theme Booster Pack White:
+    card_count: 35
+    pack:
+    - code: theme-w
+      set: war
