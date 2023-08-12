@@ -1,12 +1,27 @@
 code: nem
 products:
-  Nemesis Booster Box: []
+  Nemesis Booster Box:
+    pack:
+    - count: 36
+      name: Nemesis Booster Pack
+      set: nem
   Nemesis Booster Pack:
     card_count: 15
     pack:
     - code: default
       set: nem
-  Nemesis Fat Pack: []
+  Nemesis Fat Pack:
+    card_count: 2
+    other:
+    - name: The Nemesis Novel
+    - name: TopDeck Magazine \# 4
+    pack:
+    - code: fat-pack
+      set: nem
+    sealed:
+    - count: 6
+      name: Nemesis Booster Pack
+      set: nem
   Nemesis Theme Deck Breakdown:
     card_count: 60
     deck:

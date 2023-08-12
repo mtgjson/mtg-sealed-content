@@ -17,4 +17,8 @@ products:
     pack:
     - code: starter
       set: 2ed
-  Unlimited Starter Deck Display: []
+  Unlimited Starter Deck Display:
+    sealed:
+    - count: 10
+      name: Unlimited Starter Deck
+      set: 2ed

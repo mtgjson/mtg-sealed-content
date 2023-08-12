@@ -1,12 +1,27 @@
 code: apc
 products:
-  Apocalypse Booster Box: []
+  Apocalypse Booster Box:
+    sealed:
+    - count: 36
+      name: Apocalypse Booster Pack
+      set: apc
   Apocalypse Booster Pack:
     card_count: 15
     pack:
     - code: default
       set: apc
-  Apocalypse Fat Pack: []
+  Apocalypse Fat Pack:
+    card_count: 2
+    other:
+    - name: The Apocalypse Novel
+    - name: Apocalypse Special Edition Spindown
+    pack:
+    - code: fat-pack
+      set: apc
+    sealed:
+    - count: 6
+      name: Apocalypse Booster Pack
+      set: apc
   Apocalypse Theme Deck Burial:
     card_count: 60
     deck:

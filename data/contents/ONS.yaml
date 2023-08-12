@@ -1,12 +1,30 @@
 code: ons
 products:
-  Onslaught Booster Box: []
+  Onslaught Booster Box:
+    sealed:
+    - count: 36
+      name: Onslaught Booster Pack
+      set: ons
   Onslaught Booster Pack:
     card_count: 15
     pack:
     - code: default
       set: ons
-  Onslaught Fat Pack: []
+  Onslaught Fat Pack:
+    card_count: 2
+    other:
+    - name: The Onslaught Novel
+    - name: Onslaught Special Edition Spindown
+    pack:
+    - code: fat-pack
+      set: ons
+    sealed:
+    - count: 3
+      name: Onslaught Booster Pack
+      set: ons
+    - count: 1
+      name: Onslaught Tournament Pack
+      set: ons
   Onslaught Theme Deck Bait and Switch:
     card_count: 60
     deck:

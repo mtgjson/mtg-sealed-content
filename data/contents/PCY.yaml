@@ -1,12 +1,27 @@
 code: pcy
 products:
-  Prophecy Booster Box: []
+  Prophecy Booster Box:
+    sealed:
+    - count: 36
+      name: Prophecy Booster Pack
+      set: pcy
   Prophecy Booster Pack:
     card_count: 15
     pack:
     - code: default
       set: pcy
-  Prophecy Fat Pack: []
+  Prophecy Fat Pack:
+    card_count: 2
+    other:
+    - name: The Prophecy Novel
+    - name: TopDeck Magazine \# 1
+    pack:
+    - code: fat-pack
+      set: pcy
+    sealed:
+    - count: 6
+      name: Prophecy Booster Pack
+      set: pcy
   Prophecy Theme Deck Display: []
   Prophecy Theme Deck Distress:
     card_count: 60

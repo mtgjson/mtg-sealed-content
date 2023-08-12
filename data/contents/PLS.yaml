@@ -5,7 +5,11 @@ products:
     deck:
     - name: Barrage
       set: pls
-  Planeshift Booster Box: []
+  Planeshift Booster Box:
+    sealed:
+    - count: 36
+      name: Planeshift Booster Pack
+      set: pls
   Planeshift Booster Pack:
     card_count: 15
     pack:
@@ -21,7 +25,17 @@ products:
     deck:
     - name: Domain
       set: pls
-  Planeshift Fat Pack: []
+  Planeshift Fat Pack:
+    card_count: 2
+    other:
+    - name: The Planeshift Novel
+    pack:
+    - code: fat-pack
+      set: pcy
+    sealed:
+    - count: 6
+      name: Planeshift Booster Pack
+      set: pls
   Planeshift Scout Theme Deck:
     card_count: 60
     deck:

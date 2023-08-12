@@ -1,7 +1,15 @@
 code: cns
 products:
-  Conspiracy Booster Box: []
-  Conspiracy Booster Box Case 6 Boxes: []
+  Conspiracy Booster Box:
+    sealed:
+    - count: 36
+      name: Conspiracy Booster Pack
+      set: cns
+  Conspiracy Booster Box Case 6 Boxes:
+    sealed:
+    - count: 6
+      name: Conspiracy Booster Box
+      set: cns
   Conspiracy Booster Pack:
     card_count: 15
     pack:
