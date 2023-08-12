@@ -1,8 +1,16 @@
 code: dom
 products:
   Dominaria Booster Battle Pack: []
-  Dominaria Booster Box: []
-  Dominaria Booster Box Case: []
+  Dominaria Booster Box:
+    sealed:
+    - count: 36
+      name: Dominaria Booster Pack
+      set: dom
+  Dominaria Booster Box Case:
+    sealed:
+    - count: 6
+      name: Dominaria Booster Box
+      set: dom
   Dominaria Booster Pack:
     card_count: 15
     pack:
@@ -18,7 +26,14 @@ products:
     - count: 1
       name: Dominaria Booster Pack
       set: dom
-  Dominaria Planeswalker Deck Display: []
+  Dominaria Planeswalker Deck Display:
+    sealed:
+    - count: 3
+      name: Dominaria Planeswalker Deck Chandra
+      set: dom
+    - count: 3
+      name: Dominaria Planeswalker Deck Teferi
+      set: dom
   Dominaria Planeswalker Deck Teferi:
     card_count: 60
     deck:
@@ -28,11 +43,54 @@ products:
     - count: 1
       name: Dominaria Booster Pack
       set: dom
-  Dominaria Planeswalker Decks - Set of 2: []
+  Dominaria Planeswalker Decks - Set of 2:
+    sealed:
+    - count: 1
+      name: Dominaria Planeswalker Deck Chandra
+      set: dom
+    - count: 1
+      name: Dominaria Planeswalker Deck Teferi
+      set: dom
   Dominaria Prerelease Pack: []
-  Dominaria Theme Booster Black: []
-  Dominaria Theme Booster Blue: []
-  Dominaria Theme Booster Green: []
-  Dominaria Theme Booster Red: []
-  Dominaria Theme Booster Set of 5: []
-  Dominaria Theme Booster White: []
+  Dominaria Theme Booster Black:
+    card_count: 35
+    pack:
+    - code: theme-b
+      set: dom
+  Dominaria Theme Booster Blue:
+    card_count: 35
+    pack:
+    - code: theme-u
+      set: dom
+  Dominaria Theme Booster Green:
+    card_count: 35
+    pack:
+    - code: theme-g
+      set: dom
+  Dominaria Theme Booster Red:
+    card_count: 35
+    pack:
+    - code: theme-r
+      set: dom
+  Dominaria Theme Booster Set of 5:
+    sealed:
+    - count: 1
+      name: Dominaria Theme Booster White
+      set: dom
+    - count: 1
+      name: Dominaria Theme Booster Blue
+      set: dom
+    - count: 1
+      name: Dominaria Theme Booster Black
+      set: dom
+    - count: 1
+      name: Dominaria Theme Booster Red
+      set: dom
+    - count: 1
+      name: Dominaria Theme Booster Green
+      set: dom
+  Dominaria Theme Booster White:
+    card_count: 35
+    pack:
+    - code: theme-w
+      set: dom

@@ -1,11 +1,27 @@
 code: m13
 products:
-  2013 Core Set 3x Booster Packs draft set: []
+  2013 Core Set 3x Booster Packs draft set:
+    sealed:
+    - count: 3
+      name: 2013 Core Set Booster Pack
+      set: m13
   2013 Core Set Booster Battle Pack: []
   2013 Core Set Booster Battle Pack Booster Box: []
-  2013 Core Set Booster Box: []
-  2013 Core Set Booster Box Case 6 Boxes: []
-  2013 Core Set Booster Pack: []
+  2013 Core Set Booster Box:
+    sealed:
+    - count: 36
+      name: 2013 Core Set Booster Pack
+      set: m13
+  2013 Core Set Booster Box Case 6 Boxes:
+    sealed:
+    - count: 6
+      name: 2013 Core Set Booster Box
+      set: m13
+  2013 Core Set Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: m13
   2013 Core Set Deck Builders Toolkit: []
   2013 Core Set Event Deck Repeat Performance:
     card_count: 75
@@ -17,7 +33,14 @@ products:
     deck:
     - name: Sweet Revenge
       set: m13
-  2013 Core Set Event Decks - Set of 2: []
+  2013 Core Set Event Decks - Set of 2:
+    sealed:
+    - count: 1
+      name: 2013 Core Set Event Deck Repeat Performance
+      set: m13
+    - count: 1
+      name: 2013 Core Set Event Deck Sweet Revenge
+      set: m13
   2013 Core Set Fat Pack: []
   2013 Core Set Intro Pack Depths of Power Blue:
     card_count: 60
@@ -64,5 +87,25 @@ products:
     - count: 2
       name: 2013 Core Set Booster Pack
       set: m13
-  2013 Core Set Set of 5 Intro Packs: []
-  Core Set 2013 6 Card Booster Pack: []
+  2013 Core Set Set of 5 Intro Packs:
+    sealed:
+    - count: 1
+      name: 2013 Core Set Intro Pack Depths of Power Blue
+      set: m13
+    - count: 1
+      name: 2013 Core Set Intro Pack Mob Rule Red
+      set: m13
+    - count: 1
+      name: 2013 Core Set Intro Pack Path to Victory White
+      set: m13
+    - count: 1
+      name: 2013 Core Set Intro Pack Sole Domination Black
+      set: m13
+    - count: 1
+      name: 2013 Core Set Intro Pack Wild Rush Green
+      set: m13
+  Core Set 2013 6 Card Booster Pack:
+    card_count: 6
+    pack:
+    - code: six
+      set: m13

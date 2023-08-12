@@ -1,6 +1,22 @@
 code: jmp
 products:
-  Jumpstart Booster Box: []
-  Jumpstart Booster Box Case: []
-  Jumpstart Booster Pack: []
-  Jumpstart Multipack 4 Pack: []
+  Jumpstart Booster Box:
+    sealed:
+    - count: 24
+      name: Jumpstart Booster Pack
+      set: jmp
+  Jumpstart Booster Box Case:
+    sealed:
+    - count: 6
+      name: Jumpstart Booster Box
+      set: jmp
+  Jumpstart Booster Pack:
+    card_count: 20
+    pack:
+    - code: jumpstart
+      set: jmp
+  Jumpstart Multipack 4 Pack:
+    sealed:
+    - count: 4
+      name: Jumpstart Booster Pack
+      set: jmp

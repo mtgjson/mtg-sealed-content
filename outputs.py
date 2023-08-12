@@ -83,6 +83,7 @@ def validate_contents(contents, route, logger, uuid_map, cc=True):
                         raise TypeError("count is not int")
                     if not isinstance(ptemp.pop("name"), str):
                         raise TypeError("name is not str")
+                    ptemp.pop("uuid", False)
                     if ptemp:
                         logger.warning("%s sealed has extra contents %s", route, str(ptemp))
                     try:
