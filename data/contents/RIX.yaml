@@ -1,7 +1,15 @@
 code: rix
 products:
-  Rivals of Ixalan Booster Box: []
-  Rivals of Ixalan Booster Box Case: []
+  Rivals of Ixalan Booster Box:
+    sealed:
+    - count: 36
+      name: Rivals of Ixalan Booster Pack
+      set: rix
+  Rivals of Ixalan Booster Box Case:
+    sealed:
+    - count: 6
+      name: Rivals of Ixalan Booster Box
+      set: rix
   Rivals of Ixalan Booster Pack:
     card_count: 15
     pack:
@@ -17,7 +25,14 @@ products:
     - count: 1
       name: Rivals of Ixalan Booster Pack
       set: rix
-  Rivals of Ixalan Planeswalker Deck Display: []
+  Rivals of Ixalan Planeswalker Deck Display:
+    sealed:
+    - count: 3
+      name: Rivals of Ixalan Planeswalker Deck Angrath
+      set: rix
+    - count: 3
+      name: Rivals of Ixalan Planeswalker Deck Vraska
+      set: rix
   Rivals of Ixalan Planeswalker Deck Vraska:
     card_count: 60
     deck:
@@ -27,5 +42,12 @@ products:
     - count: 1
       name: Rivals of Ixalan Booster Pack
       set: rix
-  Rivals of Ixalan Planeswalker Decks - Set of 2: []
+  Rivals of Ixalan Planeswalker Decks - Set of 2:
+    sealed:
+    - count: 1
+      name: Rivals of Ixalan Planeswalker Deck Angrath
+      set: rix
+    - count: 1
+      name: Rivals of Ixalan Planeswalker Deck Vraska
+      set: rix
   Rivals of Ixalan Prerelease Pack: []
