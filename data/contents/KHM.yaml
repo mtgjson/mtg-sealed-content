@@ -1,16 +1,36 @@
 code: khm
 products:
   Kaldheim Bundle: []
-  Kaldheim Collector Booster Box: []
-  Kaldheim Collector Booster Box Case: []
-  Kaldheim Collector Booster Hanger Pack: []
+  Kaldheim Collector Booster Box:
+    sealed:
+    - count: 12
+      name: Kaldheim Collector Booster Pack
+      set: khm
+  Kaldheim Collector Booster Box Case:
+    sealed:
+    - count: 6
+      name: Kaldheim Collector Booster Box
+      set: khm
+  Kaldheim Collector Booster Hanger Pack:
+    sealed:
+    - count: 1
+      name: Kaldheim Collector Booster Pack
+      set: khm
   Kaldheim Collector Booster Pack:
     card_count: 15
     pack:
     - code: collector
       set: khm
-  Kaldheim Draft Booster Box: []
-  Kaldheim Draft Booster Box Case: []
+  Kaldheim Draft Booster Box:
+    sealed:
+    - count: 36
+      name: Kaldheim Draft Booster Pack
+      set: khm
+  Kaldheim Draft Booster Box Case:
+    sealed:
+    - count: 6
+      name: Kaldheim Draft Booster Box
+      set: khm
   Kaldheim Draft Booster Pack:
     card_count: 15
     pack:
@@ -18,17 +38,83 @@ products:
       set: khm
   Kaldheim Prerelease Pack: []
   Kaldheim Prerelease Pack plus 2 Kaldheim Prize Packs: []
-  Kaldheim Set Booster Box: []
+  Kaldheim Set Booster Box:
+    sealed:
+    - count: 30
+      name: Kaldheim Set Booster Pack
+      set: khm
   Kaldheim Set Booster Pack:
     card_count: 11
     pack:
     - code: set
       set: khm
-  Kaldheim Theme Booster Black: []
-  Kaldheim Theme Booster Blue: []
-  Kaldheim Theme Booster Box: []
-  Kaldheim Theme Booster Green: []
-  Kaldheim Theme Booster Red: []
-  Kaldheim Theme Booster Set of 6: []
-  Kaldheim Theme Booster Viking: []
-  Kaldheim Theme Booster White: []
+  Kaldheim Theme Booster Black:
+    card_count: 35
+    pack:
+    - code: theme-b
+      set: khm
+  Kaldheim Theme Booster Blue:
+    card_count: 35
+    pack:
+    - code: theme-u
+      set: khm
+  Kaldheim Theme Booster Box:
+    sealed:
+    - count: 2
+      name: Kaldheim Theme Booster White
+      set: khm
+    - count: 2
+      name: Kaldheim Theme Booster Blue
+      set: khm
+    - count: 2
+      name: Kaldheim Theme Booster Black
+      set: khm
+    - count: 2
+      name: Kaldheim Theme Booster Red
+      set: khm
+    - count: 2
+      name: Kaldheim Theme Booster Green
+      set: khm
+    - count: 2
+      name: Kaldheim Theme Booster Viking
+      set: khm
+  Kaldheim Theme Booster Green:
+    card_count: 35
+    pack:
+    - code: theme-g
+      set: khm
+  Kaldheim Theme Booster Red:
+    card_count: 35
+    pack:
+    - code: theme-r
+      set: khm
+  Kaldheim Theme Booster Set of 6:
+    sealed:
+    - count: 1
+      name: Kaldheim Theme Booster White
+      set: khm
+    - count: 1
+      name: Kaldheim Theme Booster Blue
+      set: khm
+    - count: 1
+      name: Kaldheim Theme Booster Black
+      set: khm
+    - count: 1
+      name: Kaldheim Theme Booster Red
+      set: khm
+    - count: 1
+      name: Kaldheim Theme Booster Green
+      set: khm
+    - count: 1
+      name: Kaldheim Theme Booster Viking
+      set: khm
+  Kaldheim Theme Booster Viking:
+    card_count: 35
+    pack:
+    - code: theme-vikings
+      set: khm
+  Kaldheim Theme Booster White:
+    card_count: 35
+    pack:
+    - code: theme-w
+      set: khm
