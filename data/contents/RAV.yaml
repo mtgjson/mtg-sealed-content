@@ -1,6 +1,10 @@
 code: rav
 products:
-  Ravnica Booster Box: []
+  Ravnica Booster Box:
+    sealed:
+    - count: 36
+      name: Ravnica Booster Pack
+      set: rav
   Ravnica Booster Pack:
     card_count: 15
     pack:
@@ -17,7 +21,20 @@ products:
     deck:
     - name: Dimir Intrigues
       set: rav
-  Ravnica Theme Deck Display: []
+  Ravnica Theme Deck Display:
+    sealed:
+    - count: 3
+      name: Ravnica Theme Deck Charge of the Boros
+      set: rav
+    - count: 3
+      name: Ravnica Theme Deck Dimir Intrigues
+      set: rav
+    - count: 3
+      name: Ravnica Theme Deck Golgari Deathcreep
+      set: rav
+    - count: 3
+      name: Ravnica Theme Deck Selesnya United
+      set: rav
   Ravnica Theme Deck Golgari Deathcreep:
     card_count: 60
     deck:
@@ -29,4 +46,8 @@ products:
     - name: Selesnya United
       set: rav
   Ravnica Tournament Pack: []
-  Ravnica Tournament Pack Display: []
+  Ravnica Tournament Pack Display:
+    sealed:
+    - count: 12
+      name: Ravnica Tournament Pack
+      set: rav

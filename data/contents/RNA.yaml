@@ -1,7 +1,15 @@
 code: rna
 products:
-  Ravnica Allegiance Booster Box: []
-  Ravnica Allegiance Booster Box Case: []
+  Ravnica Allegiance Booster Box:
+    sealed:
+    - count: 36
+      name: Ravnica Allegiance Booster Pack
+      set: rna
+  Ravnica Allegiance Booster Box Case:
+    sealed:
+    - count: 6
+      name: Ravnica Allegiance Booster Box
+      set: rna
   Ravnica Allegiance Booster Pack:
     card_count: 15
     pack:
@@ -10,7 +18,14 @@ products:
   Ravnica Allegiance Bundle: []
   Ravnica Allegiance Collectors Booster Pack: []
   Ravnica Allegiance Deck Builders Toolkit: []
-  Ravnica Allegiance Planeswalker Deck Display: []
+  Ravnica Allegiance Planeswalker Deck Display:
+    sealed:
+    - count: 3
+      name: Ravnica Allegiance Planeswalker Deck Domri
+      set: rna
+    - count: 3
+      name: Ravnica Allegiance Planeswalker Deck Dovin
+      set: rna
   Ravnica Allegiance Planeswalker Deck Domri:
     card_count: 60
     deck:
@@ -29,17 +44,92 @@ products:
     - count: 1
       name: Ravnica Allegiance Booster Pack
       set: rna
-  Ravnica Allegiance Planeswalker Decks - Set of 2: []
+  Ravnica Allegiance Planeswalker Decks - Set of 2:
+    sealed:
+    - count: 1
+      name: Ravnica Allegiance Planeswalker Deck Domri
+      set: rna
+    - count: 1
+      name: Ravnica Allegiance Planeswalker Deck Dovin
+      set: rna
   Ravnica Allegiance Prerelease Pack Azorius: []
   Ravnica Allegiance Prerelease Pack Gruul: []
   Ravnica Allegiance Prerelease Pack Orzhov: []
   Ravnica Allegiance Prerelease Pack Rakdos: []
-  Ravnica Allegiance Prerelease Pack Set of 5: []
+  Ravnica Allegiance Prerelease Pack Set of 5:
+    sealed:
+    - count: 2
+      name: Ravnica Allegiance Prerelease Pack Azorius
+      set: rna
+    - count: 2
+      name: Ravnica Allegiance Prerelease Pack Gruul
+      set: rna
+    - count: 2
+      name: Ravnica Allegiance Prerelease Pack Orzhov
+      set: rna
+    - count: 2
+      name: Ravnica Allegiance Prerelease Pack Rakdos
+      set: rna
+    - count: 2
+      name: Ravnica Allegiance Prerelease Pack Simic
+      set: rna
   Ravnica Allegiance Prerelease Pack Simic: []
-  Ravnica Allegiance Theme Booster Box: []
-  Ravnica Allegiance Theme Booster Pack Azorius: []
-  Ravnica Allegiance Theme Booster Pack Gruul: []
-  Ravnica Allegiance Theme Booster Pack Orzhov: []
-  Ravnica Allegiance Theme Booster Pack Rakdos: []
-  Ravnica Allegiance Theme Booster Pack Set of 5: []
-  Ravnica Allegiance Theme Booster Pack Simic: []
+  Ravnica Allegiance Theme Booster Box:
+    sealed:
+    - count: 2
+      name: Ravnica Allegiance Theme Booster Pack Azorius
+      set: rna
+    - count: 2
+      name: Ravnica Allegiance Theme Booster Pack Gruul
+      set: rna
+    - count: 2
+      name: Ravnica Allegiance Theme Booster Pack Orzhov
+      set: rna
+    - count: 2
+      name: Ravnica Allegiance Theme Booster Pack Rakdos
+      set: rna
+    - count: 2
+      name: Ravnica Allegiance Theme Booster Pack Simic
+      set: rna
+  Ravnica Allegiance Theme Booster Pack Azorius:
+    card_count: 35
+    pack:
+    - code: theme-azorius
+      set: rna
+  Ravnica Allegiance Theme Booster Pack Gruul:
+    card_count: 35
+    pack:
+    - code: theme-gruul
+      set: rna
+  Ravnica Allegiance Theme Booster Pack Orzhov:
+    card_count: 35
+    pack:
+    - code: theme-orzhov
+      set: rna
+  Ravnica Allegiance Theme Booster Pack Rakdos:
+    card_count: 35
+    pack:
+    - code: theme-rakdos
+      set: rna
+  Ravnica Allegiance Theme Booster Pack Set of 5:
+    sealed:
+    - count: 1
+      name: Ravnica Allegiance Theme Booster Pack Azorius
+      set: rna
+    - count: 1
+      name: Ravnica Allegiance Theme Booster Pack Gruul
+      set: rna
+    - count: 1
+      name: Ravnica Allegiance Theme Booster Pack Orzhov
+      set: rna
+    - count: 1
+      name: Ravnica Allegiance Theme Booster Pack Rakdos
+      set: rna
+    - count: 1
+      name: Ravnica Allegiance Theme Booster Pack Simic
+      set: rna
+  Ravnica Allegiance Theme Booster Pack Simic:
+    card_count: 35
+    pack:
+    - code: theme-simic
+      set: rna
