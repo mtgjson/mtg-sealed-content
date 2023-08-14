@@ -1,7 +1,15 @@
 code: ktk
 products:
-  Khans of Tarkir Booster Box: []
-  Khans of Tarkir Booster Box Case 6 Boxes: []
+  Khans of Tarkir Booster Box:
+    sealed:
+    - count: 36
+      name: Khans of Tarkir Booster Pack
+      set: ktk
+  Khans of Tarkir Booster Box Case 6 Boxes:
+    sealed:
+    - count: 6
+      name: Khans of Tarkir Booster Box
+      set: ktk
   Khans of Tarkir Booster Pack:
     card_count: 15
     pack:
@@ -23,7 +31,23 @@ products:
     - count: 2
       name: Khans of Tarkir Booster Pack
       set: ktk
-  Khans of Tarkir Intro Pack Display: []
+  Khans of Tarkir Intro Pack Display:
+    sealed:
+    - count: 2
+      name: Khans of Tarkir Intro Pack Abzan Siege
+      set: ktk
+    - count: 2
+      name: Khans of Tarkir Intro Pack Jeskai Monks
+      set: ktk
+    - count: 2
+      name: Khans of Tarkir Intro Pack Mardu Raiders
+      set: ktk
+    - count: 2
+      name: Khans of Tarkir Intro Pack Sultai Schemers
+      set: ktk
+    - count: 2
+      name: Khans of Tarkir Intro Pack Temur Avalanche
+      set: ktk
   Khans of Tarkir Intro Pack Jeskai Monks:
     card_count: 60
     deck:
@@ -42,7 +66,23 @@ products:
     - count: 2
       name: Khans of Tarkir Booster Pack
       set: ktk
-  Khans of Tarkir Intro Pack Set of 5: []
+  Khans of Tarkir Intro Pack Set of 5:
+    sealed:
+    - count: 1
+      name: Khans of Tarkir Intro Pack Abzan Siege
+      set: ktk
+    - count: 1
+      name: Khans of Tarkir Intro Pack Jeskai Monks
+      set: ktk
+    - count: 1
+      name: Khans of Tarkir Intro Pack Mardu Raiders
+      set: ktk
+    - count: 1
+      name: Khans of Tarkir Intro Pack Sultai Schemers
+      set: ktk
+    - count: 1
+      name: Khans of Tarkir Intro Pack Temur Avalanche
+      set: ktk
   Khans of Tarkir Intro Pack Sultai Schemers:
     card_count: 60
     deck:
@@ -64,6 +104,22 @@ products:
   Khans of Tarkir Prerelease Kit Abzan: []
   Khans of Tarkir Prerelease Kit Jeskai: []
   Khans of Tarkir Prerelease Kit Mardu: []
-  Khans of Tarkir Prerelease Kit Set of 5: []
+  Khans of Tarkir Prerelease Kit Set of 5:
+    sealed:
+    - count: 1
+      name: Khans of Tarkir Prerelease Kit Abzan
+      set: ktk
+    - count: 1
+      name: Khans of Tarkir Prerelease Kit Jeskai
+      set: ktk
+    - count: 1
+      name: Khans of Tarkir Prerelease Kit Mardu
+      set: ktk
+    - count: 1
+      name: Khans of Tarkir Prerelease Kit Sultai
+      set: ktk
+    - count: 1
+      name: Khans of Tarkir Prerelease Kit Temur
+      set: ktk
   Khans of Tarkir Prerelease Kit Sultai: []
   Khans of Tarkir Prerelease Kit Temur: []

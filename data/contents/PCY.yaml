@@ -22,7 +22,20 @@ products:
     - count: 6
       name: Prophecy Booster Pack
       set: pcy
-  Prophecy Theme Deck Display: []
+  Prophecy Theme Deck Display:
+    sealed:
+    - count: 3
+      name: Prophecy Theme Deck Distress
+      set: pcy
+    - count: 3
+      name: Prophecy Theme Deck Pummel
+      set: pcy
+    - count: 3
+      name: Prophecy Theme Deck Slither
+      set: pcy
+    - count: 3
+      name: Prophecy Theme Deck Turnaround
+      set: pcy
   Prophecy Theme Deck Distress:
     card_count: 60
     deck:
