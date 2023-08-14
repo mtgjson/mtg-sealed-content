@@ -1,17 +1,45 @@
 code: woe
 products:
   Wilds of Eldraine Bundle: []
-  Wilds of Eldraine Bundle Case: []
-  Wilds of Eldraine Collector Booster Box: []
-  Wilds of Eldraine Collector Booster Box Case: []
+  Wilds of Eldraine Bundle Case:
+    sealed:
+    - count: 6
+      name: Wilds of Eldraine Bundle
+      set: woe
+  Wilds of Eldraine Collector Booster Box:
+    sealed:
+    - count: 12
+      name: Wilds of Eldraine Collector Booster Pack
+      set: woe
+  Wilds of Eldraine Collector Booster Box Case:
+    sealed:
+    - count: 6
+      name: Wilds of Eldraine Collector Booster Box
+      set: woe
   Wilds of Eldraine Collector Booster Box Master Case: []
   Wilds of Eldraine Collector Booster Pack: []
-  Wilds of Eldraine Draft Booster Box: []
-  Wilds of Eldraine Draft Booster Box Case: []
+  Wilds of Eldraine Draft Booster Box:
+    sealed:
+    - count: 36
+      name: Wilds of Eldraine Draft Booster Pack
+      set: woe
+  Wilds of Eldraine Draft Booster Box Case:
+    sealed:
+    - count: 6
+      name: Wilds of Eldraine Draft Booster Box
+      set: woe
   Wilds of Eldraine Draft Booster Pack: []
   Wilds of Eldraine Prerelease Pack: []
-  Wilds of Eldraine Set Booster Box: []
-  Wilds of Eldraine Set Booster Box Case: []
+  Wilds of Eldraine Set Booster Box:
+    sealed:
+    - count: 30
+      name: Wilds of Eldraine Set Booster Pack
+      set: woe
+  Wilds of Eldraine Set Booster Box Case:
+    sealed:
+    - count: 6
+      name: Wilds of Eldraine Set Booster Box
+      set: woe
   Wilds of Eldraine Set Booster Combo Pack: []
   Wilds of Eldraine Set Booster Pack: []
   Wilds of Eldraine Set Booster Variety Pack: []
