@@ -1,7 +1,15 @@
 code: ori
 products:
-  Magic Origins Booster Box: []
-  Magic Origins Booster Box Case: []
+  Magic Origins Booster Box:
+    sealed:
+    - count: 36
+      name: Magic Origins Booster Pack
+      set: ori
+  Magic Origins Booster Box Case:
+    sealed:
+    - count: 6
+      name: Magic Origins Booster Box
+      set: ori
   Magic Origins Booster Pack:
     card_count: 15
     pack:
@@ -16,15 +24,7 @@ products:
       set: ori
   Magic Origins Deck Builders Toolkit: []
   Magic Origins Fat Pack: []
-  Magic Origins Intro Pack - Assemble Victory (Blue/Red):
-    card_count: 60
-    deck:
-    - name: Assemble Victory
-      set: ori
-    sealed:
-    - count: 2
-      name: Magic Origins Booster Pack
-      set: ori
+  Magic Origins Intro Pack - Assemble Victory (Blue/Red): []
   Magic Origins Intro Pack Assemble Victory:
     card_count: 60
     deck:
@@ -52,7 +52,23 @@ products:
     - count: 2
       name: Magic Origins Booster Pack
       set: ori
-  Magic Origins Intro Pack Display: []
+  Magic Origins Intro Pack Display:
+    sealed:
+    - count: 2
+      name: Magic Origins Intro Pack Assemble Victory
+      set: ori
+    - count: 2
+      name: Magic Origins Intro Pack Brave the Battle
+      set: ori
+    - count: 2
+      name: Magic Origins Intro Pack Demonic Deals
+      set: ori
+    - count: 2
+      name: Magic Origins Intro Pack Hunting Pack
+      set: ori
+    - count: 2
+      name: Magic Origins Intro Pack Take to the Sky
+      set: ori
   Magic Origins Intro Pack Hunting Pack:
     card_count: 60
     deck:
@@ -71,11 +87,43 @@ products:
     - count: 2
       name: Magic Origins Booster Pack
       set: ori
-  Magic Origins Intro Packs Set of 5: []
+  Magic Origins Intro Packs Set of 5:
+    sealed:
+    - count: 1
+      name: Magic Origins Intro Pack Assemble Victory
+      set: ori
+    - count: 1
+      name: Magic Origins Intro Pack Brave the Battle
+      set: ori
+    - count: 1
+      name: Magic Origins Intro Pack Demonic Deals
+      set: ori
+    - count: 1
+      name: Magic Origins Intro Pack Hunting Pack
+      set: ori
+    - count: 1
+      name: Magic Origins Intro Pack Take to the Sky
+      set: ori
   Magic Origins Land Station: []
   Magic Origins Prerelease Kit Chandra: []
   Magic Origins Prerelease Kit Gideon: []
   Magic Origins Prerelease Kit Jace: []
   Magic Origins Prerelease Kit Liliana: []
   Magic Origins Prerelease Kit Nissa: []
-  Magic Origins Prerelease Kit Set of 5: []
+  Magic Origins Prerelease Kit Set of 5:
+    sealed:
+    - count: 1
+      name: Magic Origins Prerelease Kit Chandra
+      set: ori
+    - count: 1
+      name: Magic Origins Prerelease Kit Gideon
+      set: ori
+    - count: 1
+      name: Magic Origins Prerelease Kit Jace
+      set: ori
+    - count: 1
+      name: Magic Origins Prerelease Kit Liliana
+      set: ori
+    - count: 1
+      name: Magic Origins Prerelease Kit Nissa
+      set: ori

@@ -1,14 +1,29 @@
 code: grn
 products:
-  Guilds of Ravnica Booster Box: []
-  Guilds of Ravnica Booster Box Case: []
+  Guilds of Ravnica Booster Box:
+    sealed:
+    - count: 36
+      name: Guilds of Ravnica Booster Pack
+      set: grn
+  Guilds of Ravnica Booster Box Case:
+    sealed:
+    - count: 6
+      name: Guilds of Ravnica Booster Box
+      set: grn
   Guilds of Ravnica Booster Pack:
     card_count: 15
     pack:
     - code: default
       set: grn
   Guilds of Ravnica Bundle: []
-  Guilds of Ravnica Planeswalker Deck Display: []
+  Guilds of Ravnica Planeswalker Deck Display:
+    sealed:
+    - count: 3
+      name: Guilds of Ravnica Planeswalker Deck Ral
+      set: grn
+    - count: 3
+      name: Guilds of Ravnica Planeswalker Deck Vraska
+      set: grn
   Guilds of Ravnica Planeswalker Deck Ral:
     card_count: 60
     deck:
@@ -27,17 +42,92 @@ products:
     - count: 1
       name: Guilds of Ravnica Booster Pack
       set: grn
-  Guilds of Ravnica Planeswalker Decks - Set of 2: []
+  Guilds of Ravnica Planeswalker Decks - Set of 2:
+    sealed:
+    - count: 1
+      name: Guilds of Ravnica Planeswalker Deck Ral
+      set: grn
+    - count: 1
+      name: Guilds of Ravnica Planeswalker Deck Vraska
+      set: grn
   Guilds of Ravnica Prerelease Pack Boros: []
   Guilds of Ravnica Prerelease Pack Dimir: []
   Guilds of Ravnica Prerelease Pack Golgari: []
   Guilds of Ravnica Prerelease Pack Izzet: []
   Guilds of Ravnica Prerelease Pack Selesnya: []
-  Guilds of Ravnica Prerelease Pack Set of 5: []
-  Guilds of Ravnica Theme Booster Box: []
-  Guilds of Ravnica Theme Booster Pack Boros: []
-  Guilds of Ravnica Theme Booster Pack Dimir: []
-  Guilds of Ravnica Theme Booster Pack Golgari: []
-  Guilds of Ravnica Theme Booster Pack Izzet: []
-  Guilds of Ravnica Theme Booster Pack Selesnya: []
-  Guilds of Ravnica Theme Booster Pack Set of 5: []
+  Guilds of Ravnica Prerelease Pack Set of 5:
+    sealed:
+    - count: 1
+      name: Guilds of Ravnica Prerelease Pack Boros
+      set: grn
+    - count: 1
+      name: Guilds of Ravnica Prerelease Pack Dimir
+      set: grn
+    - count: 1
+      name: Guilds of Ravnica Prerelease Pack Golgari
+      set: grn
+    - count: 1
+      name: Guilds of Ravnica Prerelease Pack Izzet
+      set: grn
+    - count: 1
+      name: Guilds of Ravnica Prerelease Pack Selesnya
+      set: grn
+  Guilds of Ravnica Theme Booster Box:
+    sealed:
+    - count: 2
+      name: Guilds of Ravnica Theme Booster Pack Boros
+      set: grn
+    - count: 2
+      name: Guilds of Ravnica Theme Booster Pack Dimir
+      set: grn
+    - count: 2
+      name: Guilds of Ravnica Theme Booster Pack Golgari
+      set: grn
+    - count: 2
+      name: Guilds of Ravnica Theme Booster Pack Izzet
+      set: grn
+    - count: 2
+      name: Guilds of Ravnica Theme Booster Pack Selesnya
+      set: grn
+  Guilds of Ravnica Theme Booster Pack Boros:
+    card_count: 35
+    pack:
+    - code: theme-boros
+      set: grn
+  Guilds of Ravnica Theme Booster Pack Dimir:
+    card_count: 35
+    pack:
+    - code: theme-dimir
+      set: grn
+  Guilds of Ravnica Theme Booster Pack Golgari:
+    card_count: 35
+    pack:
+    - code: theme-golgari
+      set: grn
+  Guilds of Ravnica Theme Booster Pack Izzet:
+    card_count: 35
+    pack:
+    - code: theme-izzet
+      set: grn
+  Guilds of Ravnica Theme Booster Pack Selesnya:
+    card_count: 35
+    pack:
+    - code: theme-selesnya
+      set: grn
+  Guilds of Ravnica Theme Booster Pack Set of 5:
+    sealed:
+    - count: 1
+      name: Guilds of Ravnica Theme Booster Pack Boros
+      set: grn
+    - count: 1
+      name: Guilds of Ravnica Theme Booster Pack Dimir
+      set: grn
+    - count: 1
+      name: Guilds of Ravnica Theme Booster Pack Golgari
+      set: grn
+    - count: 1
+      name: Guilds of Ravnica Theme Booster Pack Izzet
+      set: grn
+    - count: 1
+      name: Guilds of Ravnica Theme Booster Pack Selesnya
+      set: grn

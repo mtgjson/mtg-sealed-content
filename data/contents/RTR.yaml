@@ -1,11 +1,27 @@
 code: rtr
 products:
-  Return to Ravnica 3x Booster Packs draft set: []
-  Return to Ravnica 6 Card Booster Pack: []
+  Return to Ravnica 3x Booster Packs draft set:
+    sealed:
+    - count: 3
+      name: Return to Ravnica Booster Pack
+      set: rtr
+  Return to Ravnica 6 Card Booster Pack:
+    card_count: 6
+    pack:
+    - code: six
+      set: rtr
   Return to Ravnica Booster Battle Pack: []
   Return to Ravnica Booster Battle Pack Display: []
-  Return to Ravnica Booster Box: []
-  Return to Ravnica Booster Box Case 6 boxes: []
+  Return to Ravnica Booster Box:
+    sealed:
+    - count: 36
+      name: Return to Ravnica Booster Pack
+      set: rtr
+  Return to Ravnica Booster Box Case 6 boxes:
+    sealed:
+    - count: 6
+      name: Return to Ravnica Booster Box
+      set: rtr
   Return to Ravnica Booster Pack:
     card_count: 15
     pack:
@@ -16,7 +32,14 @@ products:
     deck:
     - name: Creep and Conquer
       set: rtr
-  Return to Ravnica Event Deck Display: []
+  Return to Ravnica Event Deck Display:
+    sealed:
+    - count: 3
+      name: Return to Ravnica Event Deck Creep and Conquer
+      set: rtr
+    - count: 3
+      name: Return to Ravnica Event Deck Wrack and Rage
+      set: rtr
   Return to Ravnica Event Deck Wrack and Rage:
     card_count: 75
     deck:
@@ -74,5 +97,37 @@ products:
   Return to Ravnica Prerelease Pack Izzet: []
   Return to Ravnica Prerelease Pack Rakdos: []
   Return to Ravnica Prerelease Pack Selesnya: []
-  Return to Ravnica Prerelease Pack Set of 5: []
-  Return to Ravnica Set of 5 Intro Packs: []
+  Return to Ravnica Prerelease Pack Set of 5:
+    sealed:
+    - count: 1
+      name: Return to Ravnica Prerelease Pack Azorius
+      set: rtr
+    - count: 1
+      name: Return to Ravnica Prerelease Pack Golgari
+      set: rtr
+    - count: 1
+      name: Return to Ravnica Prerelease Pack Izzet
+      set: rtr
+    - count: 1
+      name: Return to Ravnica Prerelease Pack Rakdos
+      set: rtr
+    - count: 1
+      name: Return to Ravnica Prerelease Pack Selesnya
+      set: rtr
+  Return to Ravnica Set of 5 Intro Packs:
+    sealed:
+    - count: 1
+      name: Return to Ravnica Intro Pack Azorius Advance
+      set: rtr
+    - count: 1
+      name: Return to Ravnica Intro Pack Golgari Growth
+      set: rtr
+    - count: 1
+      name: Return to Ravnica Intro Pack Izzet Ingenuity
+      set: rtr
+    - count: 1
+      name: Return to Ravnica Intro Pack Rakdos Raid
+      set: rtr
+    - count: 1
+      name: Return to Ravnica Intro Pack Selesnya Surge
+      set: rtr
