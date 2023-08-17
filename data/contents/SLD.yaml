@@ -1252,10 +1252,62 @@ products:
     deck:
     - name: International Womens Day foil
       set: sld
-  Secret Lair Its Raining Foils And Non Foils Bundle: []
-  Secret Lair June Superdrop Full of Foils Bundle: []
-  Secret Lair June Superdrop Non stop Non Foil Bundle: []
-  Secret Lair June Superdrop The Bundle Bundle: []
+  Secret Lair Its Raining Foils And Non Foils Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair Those Foils Are Really Coming Down Bundle
+      set: sld
+    - count: 1
+      name: Secret Lair Those Non Foils Just Wont Let Up Bundle
+      set: sld
+  Secret Lair June Superdrop Full of Foils Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair Artist Series Chris Rahn Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Artist Series Livia Prima Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Artist Series Volkan Baga Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Rule the Room Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Special Guest Kelogsloops Foil
+      set: sld
+    - count: 1
+      name: Secret Lair The Tokyo Lands Etched Foil
+      set: sld
+  Secret Lair June Superdrop Non stop Non Foil Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair Artist Series Chris Rahn
+      set: sld
+    - count: 1
+      name: Secret Lair Artist Series Livia Prima
+      set: sld
+    - count: 1
+      name: Secret Lair Artist Series Volkan Baga
+      set: sld
+    - count: 1
+      name: Secret Lair Rule the Room
+      set: sld
+    - count: 1
+      name: Secret Lair Special Guest Kelogsloops
+      set: sld
+    - count: 1
+      name: Secret Lair The Tokyo Lands
+      set: sld
+  Secret Lair June Superdrop The Bundle Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair June Superdrop Full of Foils Bundle
+      set: sld
+    - count: 1
+      name: Secret Lair June Superdrop Non stop Non Foil Bundle
+      set: sld
   Secret Lair Just Add Milk:
     card_count: 4
     deck:
@@ -1316,7 +1368,17 @@ products:
     deck:
     - name: Liller Walkers foil
       set: sld
-  Secret Lair March of the Machine Bundle: []
+  Secret Lair March of the Machine Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair Showcase March of the Machine Vol 1
+      set: sld
+    - count: 1
+      name: Secret Lair Showcase March of the Machine Vol 2
+      set: sld
+    - count: 1
+      name: Secret Lair Showcase March of the Machine Vol 3
+      set: sld
   Secret Lair Math Is For Blockers:
     card_count: 6
     deck:
@@ -1337,7 +1399,14 @@ products:
     deck:
     - name: Mirrodinsanity foil
       set: sld
-  Secret Lair Miss A Drop Its Gone Superdrop Boo Tacular Bundle Bundle: []
+  Secret Lair Miss A Drop Its Gone Superdrop Boo Tacular Bundle Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair Ferocious Foil Bundle
+      set: sld
+    - count: 1
+      name: Secret Lair Non Foil Nightmare Bundle
+      set: sld
   Secret Lair Monster Movie Marathon:
     card_count: 5
     deck:
@@ -1388,7 +1457,29 @@ products:
     deck:
     - name: Nature is Adorable foil
       set: sld
-  Secret Lair Non Foil Nightmare Bundle: []
+  Secret Lair Non Foil Nightmare Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair Secret Lair x Stranger Things
+      set: sld
+    - count: 1
+      name: Secret Lair Mirrodinsanity
+      set: sld
+    - count: 1
+      name: Secret Lair Showcase Monster Anatomy 101
+      set: sld
+    - count: 1
+      name: Secret Lair Monster Movie Marathon
+      set: sld
+    - count: 1
+      name: Secret Lair Showcase Read The Fine Print
+      set: sld
+    - count: 1
+      name: Secret Lair Showcase Midnight Hunt
+      set: sld
+    - count: 1
+      name: Secret Lair Showcase Thrilling Tales of the Undead
+      set: sld
   Secret Lair OMG KITTIES:
     card_count: 8
     deck:
@@ -1473,7 +1564,8 @@ products:
     deck:
     - name: Restless in Peace
       set: sld
-  Secret Lair Roadshow Edition Lil Giri Saves the Day Foil: []
+  Secret Lair Roadshow Edition Lil Giri Saves the Day Foil:
+    copy: Secret Lair Lil Giri Saves the Day Foil
   Secret Lair Rule the Room:
     card_count: 5
     deck:
