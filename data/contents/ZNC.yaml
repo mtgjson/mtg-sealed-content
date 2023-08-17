@@ -1,7 +1,21 @@
 code: znc
 products:
-  Zendikar Rising Commander Deck Display Case: []
-  Zendikar Rising Commander Decks - Set of 2: []
+  Zendikar Rising Commander Deck Display Case:
+    sealed:
+    - count: 3
+      name: Zendikar Rising Lands Wrath Commander Deck
+      set: znc
+    - count: 3
+      name: Zendikar Rising Sneak Attack Commander Deck
+      set: znc
+  Zendikar Rising Commander Decks - Set of 2:
+    sealed:
+    - count: 1
+      name: Zendikar Rising Lands Wrath Commander Deck
+      set: znc
+    - count: 1
+      name: Zendikar Rising Sneak Attack Commander Deck
+      set: znc
   Zendikar Rising Lands Wrath Commander Deck:
     card_count: 100
     deck:
