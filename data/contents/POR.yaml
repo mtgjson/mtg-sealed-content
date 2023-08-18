@@ -1,6 +1,10 @@
 code: por
 products:
-  Portal Booster Box: []
+  Portal Booster Box: 
+    sealed:
+    - set: por
+      name: Portal Booster Pack
+      count: 36
   Portal Booster Pack:
     card_count: 15
     pack:
