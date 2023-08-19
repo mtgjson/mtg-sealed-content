@@ -146,7 +146,7 @@ class MtgjsonCardLinker:
             """
             return_value = set()
             for config in content["configs"]:
-                for deck in config["deck"]:
+                for deck in config.get("decks", []):
                     return_value.update(
                         self.get_cards_in_deck(deck["set"].upper(), deck["name"])
                     )
@@ -170,7 +170,11 @@ class MtgjsonCardLinker:
         return_value = set()
         for sheet in sheets_to_poll:
             cards_in_sheet = sheet_data["sheets"][sheet]["cards"]
-            finish = "foil" if sheet_data["sheets"][sheet]["foil"] else "nonfoil"
+
+            if "etched" in sheet:
+                finish = "etched"
+            else:
+                finish = "foil" if sheet_data["sheets"][sheet]["foil"] else "nonfoil"
 
             for card_uuid in cards_in_sheet.keys():
                 return_value.add(Card(card_uuid, finish))
