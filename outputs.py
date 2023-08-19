@@ -1,3 +1,5 @@
+import argparse
+
 import yaml
 import json
 import ijson
@@ -9,6 +11,9 @@ import os
 import itertools as itr
 from copy import copy
 import collections.abc
+
+import card_to_product_compiler
+
 
 def recursive_update(d, u):
     for k, v in u.items():
@@ -308,3 +313,7 @@ for file in tqdm(new_files):
 
 with open("outputs/products.json", "w") as outfile:
     json.dump(products_new, outfile)
+
+card_to_product_compiler.main(
+    argparse.Namespace(input_file="mtgJson/AllPrintings.json", output_file="outputs/card_to_products.json")
+)

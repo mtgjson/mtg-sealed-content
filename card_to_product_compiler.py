@@ -2,7 +2,7 @@ import argparse
 import json
 import pathlib
 from collections import defaultdict
-from typing import Any, Dict, Set, List
+from typing import Any, Dict, Set, List, Optional
 
 
 class Card:
@@ -216,12 +216,11 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def main():
-    args = parse_args()
+def main(args: argparse.Namespace):
     card_to_products_data = MtgjsonCardLinker(args.input_file).build()
     with pathlib.Path(args.output_file).expanduser().open("w", encoding="utf-8") as fp:
         json.dump(results_to_json(card_to_products_data), fp, indent=4, sort_keys=True)
 
 
 if __name__ == "__main__":
-    main()
+    main(parse_args())
