@@ -151,7 +151,9 @@ class MtgjsonCardLinker:
                         self.get_cards_in_deck(deck["set"].upper(), deck["name"])
                     )
                 for sealed in config.get("sealed", []):
-                    self.get_cards_in_sealed_product(sealed["set"].upper(), sealed["uuid"])
+                    self.get_cards_in_sealed_product(
+                        sealed["set"].upper(), sealed["uuid"]
+                    )
 
             return list(return_value)
 
