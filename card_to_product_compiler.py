@@ -150,6 +150,9 @@ class MtgjsonCardLinker:
                     return_value.update(
                         self.get_cards_in_deck(deck["set"].upper(), deck["name"])
                     )
+                for sealed in config.get("sealed", []):
+                    self.get_cards_in_sealed_product(sealed["set"].upper(), sealed["uuid"])
+
             return list(return_value)
 
         return []
@@ -171,7 +174,7 @@ class MtgjsonCardLinker:
         for sheet in sheets_to_poll:
             cards_in_sheet = sheet_data["sheets"][sheet]["cards"]
 
-            if "etched" in sheet:
+            if "etched" in sheet.lower():
                 finish = "etched"
             else:
                 finish = "foil" if sheet_data["sheets"][sheet]["foil"] else "nonfoil"
