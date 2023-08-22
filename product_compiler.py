@@ -5,6 +5,9 @@ from pathlib import Path
 import logging
 import logging.handlers as handlers
 import os
+import os.path as path
+import time
+import requests
 
 logfile_name = "logs/product.log"
 logger = logging.getLogger()
@@ -16,9 +19,17 @@ formatter = logging.Formatter("%(levelname)s - %(message)s")
 handler.setFormatter(formatter)
 handler.setLevel(logging.INFO)
 logger.addHandler(handler)
-
 if rollCheck:
     logger.handlers[0].doRollover()
+logger.info("Starting logging")
+
+jsonFile = "mtgJson/AllPrintings.json"
+if path.getmtime(jsonFile) < time.time() - 24*60*60:
+    url = "https://mtgjson.com/api/v5/AllPrintings.json"
+    r = requests.get(url)
+    open(jsonFile, 'wb').write(r.content)
+    logger.info("Downloaded new MTGJson content")
+
 
 alt_codes = {
     "con_": "con"
@@ -27,12 +38,11 @@ r_alt_codes = {
     "CON": "CON_"
 }
 
-logger.info("Starting logging")
 total = 0
 complete = 0
 
 codes = set()
-with open("mtgJson/AllPrintings.json", 'rb') as allPrintings:
+with open(jsonFile, 'rb') as allPrintings:
     all_sets = dict(ijson.kvitems(allPrintings, "data"))
     for set_code, contents in tqdm(all_sets.items()):
         output_file = Path("data/contents/").joinpath(r_alt_codes.get(set_code, set_code).upper()).with_suffix(".yaml")

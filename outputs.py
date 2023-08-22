@@ -172,7 +172,7 @@ def validate_contents(contents, route, logger, uuid_map, cc=True):
                         logger.warning("%s pack has extra contents %s", route, str(ptemp))
                     try:
                         if not product.get("foil", False):
-                            product.pop("foil")
+                            product.pop("foil", False)
                         product["number"] = str(product["number"])
                         product["uuid"] = uuid_map[product['set']]['cards'][str(product['number'])]
                     except KeyError:
