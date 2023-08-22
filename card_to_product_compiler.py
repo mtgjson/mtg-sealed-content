@@ -69,6 +69,11 @@ class MtgjsonCardLinker:
 
         return return_value
 
+    @staticmethod
+    def get_card_obj_from_card(card_content: Dict[str, Any]) -> List[Card]:
+        finish = "foil" if card_content.get("Foil") else "nonfoil"
+        return [Card(card_content["uuid"], finish)]
+
     def get_cards_in_content_type(
         self, content_key: str, content: Dict[str, Any]
     ) -> List[Card]:
@@ -84,8 +89,7 @@ class MtgjsonCardLinker:
                 }
             ]
             """
-            finish = "foil" if content.get("Foil") else "nonfoil"
-            return [Card(content["uuid"], finish)]
+            return self.get_card_obj_from_card(content)
 
         if content_key == "pack":
             """
@@ -151,9 +155,13 @@ class MtgjsonCardLinker:
                         self.get_cards_in_deck(deck["set"].upper(), deck["name"])
                     )
                 for sealed in config.get("sealed", []):
-                    self.get_cards_in_sealed_product(
-                        sealed["set"].upper(), sealed["uuid"]
+                    return_value.update(
+                        self.get_cards_in_sealed_product(
+                            sealed["set"].upper(), sealed["uuid"]
+                        )
                     )
+                for card in config.get("card", []):
+                    return_value.update(self.get_card_obj_from_card(card))
 
             return list(return_value)
 
