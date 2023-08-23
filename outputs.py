@@ -315,5 +315,5 @@ with open("outputs/products.json", "w") as outfile:
     json.dump(products_new, outfile)
 
 card_to_product_compiler.main(
-    argparse.Namespace(input_file="mtgJson/AllPrintings.json", output_file="outputs/card_to_products.json")
+    argparse.Namespace(input_file="mtgJson/AllPrintings.json", output_file="outputs/card_map.json")
 )
