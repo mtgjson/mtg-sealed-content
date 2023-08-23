@@ -37,5 +37,13 @@ products:
     - name: Merrow Riverways
       set: lrw
   Lorwyn Theme Deck Display: []
-  Lorwyn Tournament Pack: []
-  Lorwyn Tournament Pack Display: []
+  Lorwyn Tournament Pack:
+    card_count: 75
+    pack:
+    - code: tournament
+      set: lrw
+  Lorwyn Tournament Pack Display:
+    sealed:
+    - count: 12
+      name: Lorwyn Tournament Pack
+      set: lrw

@@ -10,5 +10,13 @@ products:
     pack:
     - code: default
       set: ice
-  Ice Age Starter Deck: []
-  Ice Age Starter Deck Display: []
+  Ice Age Starter Deck:
+    card_count: 60
+    pack:
+    - code: starter
+      set: ice
+  Ice Age Starter Deck Display:
+    sealed:
+    - count: 10
+      name: Ice Age Starter Deck
+      set: ice

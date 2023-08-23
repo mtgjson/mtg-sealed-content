@@ -10,7 +10,11 @@ products:
     pack:
     - code: default
       set: tmp
-  Tempest Starter Deck Display: []
+  Tempest Starter Deck Display:
+    sealed:
+    - count: 12
+      name: Tempest Tournament Pack
+      set: tmp
   Tempest Theme Deck Deep Freeze:
     card_count: 60
     deck:
@@ -32,4 +36,8 @@ products:
     deck:
     - name: The Swarm
       set: tmp
-  Tempest Tournament Pack: []
+  Tempest Tournament Pack:
+    card_count: 60
+    pack:
+    - code: tournament
+      set: tmp
