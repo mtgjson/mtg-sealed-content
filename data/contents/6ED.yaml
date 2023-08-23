@@ -15,7 +15,11 @@ products:
     pack:
     - code: tournament
       set: 6ed
-  Classic Sixth Edition Tournament Pack Display: []
+  Classic Sixth Edition Tournament Pack Display:
+    sealed:
+    - count: 12
+      name: Classic Sixth Edition Tournament Pack
+      set: 6ed
   Classic Sixth Edition Two Player Starter Deck: []
   Classic Sixth Edition Two Player Starter Deck Display:
     sealed:
