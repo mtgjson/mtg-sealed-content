@@ -1,6 +1,10 @@
 code: mir
 products:
-  Mirage Booster Box: []
+  Mirage Booster Box:
+    sealed:
+    - count: 36
+      name: Mirage Booster Pack
+      set: mir
   Mirage Booster Pack:
     card_count: 15
     pack:

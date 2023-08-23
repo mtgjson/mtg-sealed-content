@@ -5,7 +5,11 @@ products:
     deck:
     - name: Boggart Feast
       set: lrw
-  Lorwyn Booster Box: []
+  Lorwyn Booster Box:
+    sealed:
+    - count: 36
+      name: Lorwyn Booster Pack
+      set: lrw
   Lorwyn Booster Pack:
     card_count: 15
     pack:

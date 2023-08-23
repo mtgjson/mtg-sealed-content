@@ -1,6 +1,10 @@
 code: ice
 products:
-  Ice Age Booster Box: []
+  Ice Age Booster Box:
+    sealed:
+    - count: 36
+      name: Ice Age Booster Pack
+      set: ice
   Ice Age Booster Pack:
     card_count: 15
     pack:

@@ -1,6 +1,10 @@
 code: tmp
 products:
-  Tempest Booster Box: []
+  Tempest Booster Box:
+    sealed:
+    - count: 36
+      name: Tempest Booster Pack
+      set: tmp
   Tempest Booster Pack:
     card_count: 15
     pack:
