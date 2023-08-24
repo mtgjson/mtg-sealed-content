@@ -1586,8 +1586,61 @@ products:
     deck:
     - name: Saturday Morning DD
       set: sld
-  Secret Lair Second Secretversary Bundle: []
-  Secret Lair Second Secretversary Bundle Foil: []
+  Secret Lair Second Secretversary Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair Secret Lair x Arcane
+      set: sld
+    - count: 1
+      name: Secret Lair Secret Lair x Arcane Lands
+      set: sld
+    - count: 1
+      name: Secret Lair Welcome to Castle Dracula
+      set: sld
+    - count: 1
+      name: Secret Lair The Dracula Lands
+      set: sld
+    - count: 1
+      name: Secret Lair Fblthp Completely Utterly Totally Lost
+      set: sld
+    - count: 1
+      name: Secret Lair Far Out Man
+      set: sld
+    - count: 1
+      name: Secret Lair PixelSnowLandsjpg
+      set: sld
+    - count: 1
+      name: Secret Lair Crocodile Jacksons Monstrous Menagerie
+      set: sld
+  Secret Lair Second Secretversary Bundle Foil:
+    sealed:
+    - count: 1
+      name: Secret Lair Secret Lair x Arcane Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Secret Lair x Arcane Lands Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Welcome to Castle Dracula Foil
+      set: sld
+    - count: 1
+      name: Secret Lair The Dracula Lands Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Fblthp Completely Utterly Totally Lost Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Far Out Man Foil
+      set: sld
+    - count: 1
+      name: Secret Lair PixelSnowLandsjpg Foil
+      set: sld
+    - count: 1
+      name: Secret Lair PixelSnowLandsjpg Foil Etched
+      set: sld
+    - count: 1
+      name: Secret Lair Crocodile Jacksons Monstrous Menagerie Foil Etched
+      set: sld
   Secret Lair Secret Lair Extra Life 2021:
     card_count: 8
     deck:
@@ -1918,7 +1971,46 @@ products:
     deck:
     - name: Ssssssnakessssss foil
       set: sld
-  Secret Lair Summer Superdrop Bundle: []
+  Secret Lair Summer Superdrop Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair Summer Superdrop Full Sleeves The Tattoo Pack
+      set: sld
+    - count: 1
+      name: Secret Lair Summer Superdrop Can You Feel with a Heart of Steel
+      set: sld
+    - count: 1
+      name: Secret Lair Summer Superdrop The Path Not Traveled
+      set: sld
+    - count: 1
+      name: Secret Lair Summer Superdrop The Path Not Traveled
+      set: sld
+    - count: 1
+      name: Secret Lair Summer Superdrop Ornithological Studies
+      set: sld
+    variable:
+    - card:
+      - name: Marsh Flats
+        number: 1
+        set: slu
+    - card:
+      - name: Scalding Tarn
+        number: 2
+        set: slu
+    - card:
+      - name: Verdant Catacombs
+        number: 3
+        set: slu
+    - card:
+      - name: Arid Mesa
+        number: 4
+        set: slu
+    - card:
+      - name: Misty Rainforest
+        number: 5
+        set: slu
+    variable_mode:
+      count: 1
   Secret Lair Summer Superdrop Can You Feel with a Heart of Steel:
     card_count: 4
     deck:
@@ -1984,7 +2076,23 @@ products:
     deck:
     - name: Showcase Strixhaven
       set: sld
-  Secret Lair Superdrop Supershock Bundle: []
+  Secret Lair Superdrop Supershock Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair Superdrop Culture Shocks Bant
+      set: sld
+    - count: 1
+      name: Secret Lair Superdrop Culture Shocks Esper
+      set: sld
+    - count: 1
+      name: Secret Lair Superdrop Culture Shocks Grixis
+      set: sld
+    - count: 1
+      name: Secret Lair Superdrop Culture Shocks Jund
+      set: sld
+    - count: 1
+      name: Secret Lair Superdrop Culture Shocks Naya
+      set: sld
   Secret Lair Superdrop The Full Text Lands Foil:
     card_count: 6
     deck:
@@ -1995,9 +2103,60 @@ products:
     deck:
     - name: The FullText Lands
       set: sld
-  Secret Lair Superdrop The Main Event Bundle: []
-  Secret Lair Superdrop The Worlds Bundliest Bundle: []
-  Secret Lair Superdrop The Worlds Foil est Bundle: []
+  Secret Lair Superdrop The Main Event Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair Superdrop Culture Shocks Bant
+      set: sld
+    - count: 1
+      name: Secret Lair Superdrop Culture Shocks Esper
+      set: sld
+    - count: 1
+      name: Secret Lair Superdrop Culture Shocks Grixis
+      set: sld
+    - count: 1
+      name: Secret Lair Superdrop Culture Shocks Jund
+      set: sld
+    - count: 1
+      name: Secret Lair Superdrop Culture Shocks Naya
+      set: sld
+    - count: 1
+      name: Secret Lair Superdrop The Full Text Lands Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Superdrop The Full Text Lands Non foil
+      set: sld
+    - count: 1
+      name: Secret Lair Superdrop Showcase Strixhaven Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Superdrop Showcase Strixhaven Non foil
+      set: sld
+    - count: 1
+      name: Secret Lair Superdrop OUR SHOW IS ON FRIDAY CAN YOU MAKE IT
+      set: sld
+  Secret Lair Superdrop The Worlds Bundliest Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair Superdrop The Worlds Foil est Bundle
+      set: sld
+    - count: 1
+      name: Secret Lair Superdrop The Worlds Non foil est Bundle
+      set: sld
+  Secret Lair Superdrop The Worlds Foil est Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair Artist Series Johannes Voss Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Artist Series Thomas Baxa Foil Edition
+      set: sld
+    - count: 1
+      name: Secret Lair Kamigawa Ink Foil Edition
+      set: sld
+    - count: 1
+      name: Secret Lair Math Is For Blockers
+      set: sld
   Secret Lair Superdrop The Worlds Non foil est Bundle: []
   Secret Lair Superdrop Voracious Reader Bundle Foil: []
   Secret Lair Superdrop Voracious Reader Bundle Non foil: []
