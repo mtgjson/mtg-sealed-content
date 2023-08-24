@@ -31,7 +31,11 @@ products:
     deck:
     - name: Sliver Evolution
       set: tsp
-  Time Spiral Tournament Pack: []
+  Time Spiral Tournament Pack:
+    card_count: 75
+    pack:
+    - code: tournament
+      set: tsp
   Time Spiral Tournament Pack Display:
     sealed:
     - count: 12

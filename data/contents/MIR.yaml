@@ -1,10 +1,22 @@
 code: mir
 products:
-  Mirage Booster Box: []
+  Mirage Booster Box:
+    sealed:
+    - count: 36
+      name: Mirage Booster Pack
+      set: mir
   Mirage Booster Pack:
     card_count: 15
     pack:
     - code: default
       set: mir
-  Mirage Starter Deck: []
-  Mirage Starter Deck Display: []
+  Mirage Starter Deck:
+    card_count: 60
+    pack:
+    - code: starter
+      set: mir
+  Mirage Starter Deck Display:
+    sealed:
+    - count: 10
+      name: Ice Age Starter Deck
+      set: mir

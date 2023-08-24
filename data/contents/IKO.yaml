@@ -1,6 +1,10 @@
 code: iko
 products:
-  Ikoria Lair of Behemoths Box Topper Pack: []
+  Ikoria Lair of Behemoths Box Topper Pack:
+    card_count: 1
+    pack:
+    - code: box-topper
+      set: iko
   Ikoria Lair of Behemoths Bundle: []
   Ikoria Lair of Behemoths Collector Booster Box:
     sealed:

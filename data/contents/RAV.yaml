@@ -45,7 +45,11 @@ products:
     deck:
     - name: Selesnya United
       set: rav
-  Ravnica Tournament Pack: []
+  Ravnica Tournament Pack:
+    card_count: 75
+    pack:
+    - code: tournament
+      set: rav
   Ravnica Tournament Pack Display:
     sealed:
     - count: 12

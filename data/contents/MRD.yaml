@@ -46,5 +46,13 @@ products:
     deck:
     - name: Wicked Big
       set: mrd
-  Mirrodin Tournament Pack: []
-  Mirrodin Tournament Pack Display: []
+  Mirrodin Tournament Pack:
+    card_count: 75
+    pack:
+    - code: tournament
+      set: mrd
+  Mirrodin Tournament Pack Display:
+    sealed:
+    - count: 12
+      name: Mirrodin Tournament Pack
+      set: mrd

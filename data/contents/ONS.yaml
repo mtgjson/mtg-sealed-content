@@ -46,5 +46,13 @@ products:
     deck:
     - name: Ivory Doom
       set: ons
-  Onslaught Tournament Pack: []
-  Onslaught Tournament Pack Display: []
+  Onslaught Tournament Pack:
+    card_count: 75
+    pack:
+    - code: tournament
+      set: ons
+  Onslaught Tournament Pack Display:
+    sealed:
+    - count: 12
+      name: Onslaught Tournament Pack
+      set: ons

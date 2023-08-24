@@ -1,6 +1,10 @@
 code: shm
 products:
-  Shadowmoor Booster Box: []
+  Shadowmoor Booster Box:
+    sealed:
+    - count: 36
+      name: Shadowmoor Booster Pack
+      set: shm
   Shadowmoor Booster Pack:
     card_count: 15
     pack:
@@ -33,5 +37,13 @@ products:
     deck:
     - name: Turnabout
       set: shm
-  Shadowmoor Tournament Pack: []
-  Shadowmoor Tournament Pack Display: []
+  Shadowmoor Tournament Pack:
+    card_count: 75
+    pack:
+    - code: tournament
+      set: shm
+  Shadowmoor Tournament Pack Display:
+    sealed:
+    - count: 12
+      name: Shadowmoor Tournament Pack
+      set: shm
