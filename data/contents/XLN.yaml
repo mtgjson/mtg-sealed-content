@@ -1,8 +1,16 @@
 code: xln
 products:
   Ixalan Booster Battle Pack: []
-  Ixalan Booster Box: []
-  Ixalan Booster Box Case: []
+  Ixalan Booster Box:
+    sealed:
+    - count: 36
+      name: Ixalan Booster Pack
+      set: xln
+  Ixalan Booster Box Case:
+    sealed:
+    - count: 6
+      name: Ixalan Booster Box
+      set: xln
   Ixalan Booster Pack:
     card_count: 15
     pack:

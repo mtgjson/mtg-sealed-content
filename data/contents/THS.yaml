@@ -1,8 +1,16 @@
 code: ths
 products:
   Face the Hydra Challenge Deck: []
-  Theros Booster Box: []
-  Theros Booster Box Case 6 boxes: []
+  Theros Booster Box:
+    sealed:
+    - count: 36
+      name: Theros Booster Pack
+      set: ths
+  Theros Booster Box Case 6 boxes:
+    sealed:
+    - count: 6
+      name: Theros Booster Box
+      set: ths
   Theros Booster Pack:
     card_count: 15
     pack:

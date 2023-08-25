@@ -1,8 +1,16 @@
 code: nph
 products:
   New Phyrexia 6 Card Booster Pack: []
-  New Phyrexia Booster Box: []
-  New Phyrexia Booster Box Case 6 boxes: []
+  New Phyrexia Booster Box:
+    sealed:
+    - count: 36
+      name: New Phyrexia Booster Pack
+      set: nph
+  New Phyrexia Booster Box Case 6 boxes:
+    sealed:
+    - count: 6
+      name: New Phyrexia Booster Box
+      set: nph
   New Phyrexia Booster Pack:
     card_count: 15
     pack:

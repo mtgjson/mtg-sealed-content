@@ -1,7 +1,15 @@
 code: con
 products:
-  Conflux Booster Box: []
-  Conflux Booster Pack: []
+  Conflux Booster Box:
+    sealed:
+    - count: 36
+      name: Conflux Booster Pack
+      set: con
+  Conflux Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: con
   Conflux Fat Pack: []
   Conflux Intro Pack Bant on the March:
     card_count: 41
