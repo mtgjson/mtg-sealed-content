@@ -13,14 +13,26 @@ products:
     - name: Rules and World of Magic Booklet
     - name: MTG Arena Code Card
   Core Set 2021 Bundle: []
-  Core Set 2021 Collector Booster Box: []
+  Core Set 2021 Collector Booster Box:
+    sealed:
+    - count: 12
+      name: Core Set 2021 Collector Booster Pack
+      set: m21
   Core Set 2021 Collector Booster Pack:
     card_count: 15
     pack:
     - code: collector
       set: m21
-  Core Set 2021 Draft Booster Box: []
-  Core Set 2021 Draft Booster Box Case: []
+  Core Set 2021 Draft Booster Box:
+    sealed:
+    - count: 36
+      name: Core Set 2021 Draft Booster Pack
+      set: m21
+  Core Set 2021 Draft Booster Box Case:
+    sealed:
+    - count: 12
+      name: Core Set 2021 Draft Booster Box
+      set: m21
   Core Set 2021 Draft Booster Pack:
     card_count: 15
     pack:

@@ -2,9 +2,21 @@ code: m14
 products:
   2014 Core Set Booster Battle Pack: []
   2014 Core Set Booster Battle Pack Booster Box: []
-  2014 Core Set Booster Box: []
-  2014 Core Set Booster Box Case 6 Boxes: []
-  2014 Core Set Booster Pack: []
+  2014 Core Set Booster Box:
+    sealed:
+    - count: 36
+      name: 2014 Core Set Booster Pack
+      set: m14
+  2014 Core Set Booster Box Case 6 Boxes:
+    sealed:
+    - count: 6
+      name: 2014 Core Set Booster Box
+      set: m14
+  2014 Core Set Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: m14
   2014 Core Set Deck Builders Toolkit: []
   2014 Core Set Event Deck Rush of the Wild:
     card_count: 75
