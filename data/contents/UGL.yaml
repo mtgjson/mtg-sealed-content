@@ -1,6 +1,10 @@
 code: ugl
 products:
-  Unglued Booster Box: []
+  Unglued Booster Box:
+    sealed:
+    - count: 48
+      name: Unglued Booster Pack
+      set: ugl
   Unglued Booster Pack:
     card_count: 10
     pack:

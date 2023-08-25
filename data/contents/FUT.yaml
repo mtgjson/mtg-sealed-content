@@ -1,6 +1,10 @@
 code: fut
 products:
-  Future Sight Booster Box: []
+  Future Sight Booster Box:
+    sealed:
+    - count: 36
+      name: Future Sight Booster Pack
+      set: fut
   Future Sight Booster Pack:
     card_count: 15
     pack:

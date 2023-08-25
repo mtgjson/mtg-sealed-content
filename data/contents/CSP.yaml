@@ -10,7 +10,11 @@ products:
     deck:
     - name: Beyond The Grave
       set: csp
-  Coldsnap Booster Box: []
+  Coldsnap Booster Box:
+    sealed:
+    - count: 36
+      name: Coldsnap Booster Pack
+      set: csp
   Coldsnap Booster Pack:
     card_count: 15
     pack:

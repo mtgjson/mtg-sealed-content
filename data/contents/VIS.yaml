@@ -1,7 +1,11 @@
 code: vis
 products:
   Multiverse Gift Box: []
-  Visions Booster Box: []
+  Visions Booster Box:
+    sealed:
+    - count: 36
+      name: Visions Booster Pack
+      set: vis
   Visions Booster Pack:
     card_count: 15
     pack:

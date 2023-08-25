@@ -1,6 +1,10 @@
 code: eve
 products:
-  Eventide Booster Box: []
+  Eventide Booster Box:
+    sealed:
+    - count: 36
+      name: Eventide Booster Pack
+      set: eve
   Eventide Booster Pack:
     card_count: 15
     pack:
