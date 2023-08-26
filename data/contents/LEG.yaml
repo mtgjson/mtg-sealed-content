@@ -1,7 +1,15 @@
 code: leg
 products:
-  Legends Booster Box: []
-  Legends Booster Box (Non-English ITALIAN): []
+  Legends Booster Box:
+    sealed:
+    - count: 36
+      name:  Legends Booster Pack
+      set: leg
+  Legends Booster Box (Non-English ITALIAN):
+    sealed:
+    - count: 36
+      name:  Legends Booster Pack (Non-English ITALIAN)
+      set: leg
   Legends Booster Pack:
     card_count: 15
     pack:

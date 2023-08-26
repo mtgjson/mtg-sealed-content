@@ -1,7 +1,15 @@
 code: ogw
 products:
-  Oath of the Gatewatch Booster Box: []
-  Oath of the Gatewatch Booster Box Case 6 Boxes: []
+  Oath of the Gatewatch Booster Box:
+    sealed:
+    - count: 36
+      name: Oath of the Gatewatch Booster Pack
+      set: ogw
+  Oath of the Gatewatch Booster Box Case 6 Boxes:
+    sealed:
+    - count: 6
+      name: Oath of the Gatewatch Booster Box
+      set: ogw
   Oath of the Gatewatch Booster Pack:
     card_count: 15
     pack:

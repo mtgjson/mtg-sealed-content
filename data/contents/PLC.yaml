@@ -1,6 +1,10 @@
 code: plc
 products:
-  Planar Chaos Booster Box: []
+  Planar Chaos Booster Box:
+    sealed:
+    - count: 36
+      name: Planar Chaos Booster Pack
+      set: plc
   Planar Chaos Booster Pack:
     card_count: 15
     pack:

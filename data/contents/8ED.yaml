@@ -11,7 +11,11 @@ products:
     pack:
     - code: default
       set: 8ed
-  Eighth Edition Box: []
+  Eighth Edition Box:
+    sealed:
+    - count: 36
+      name: Eighth Edition Booster Pack
+      set: 8ed
   Eighth Edition Box Two Player Starter:
     card:
     - foil: true

@@ -1,7 +1,15 @@
 code: dka
 products:
-  Dark Ascension Booster Box: []
-  Dark Ascension Booster Box Case 6 boxes: []
+  Dark Ascension Booster Box:
+    sealed:
+    - count: 36
+      name: Dark Ascension Booster Pack
+      set: dka
+  Dark Ascension Booster Box Case 6 boxes:
+    sealed:
+    - count: 12
+      name: Dark Ascension Booster Box
+      set: dka
   Dark Ascension Booster Pack:
     card_count: 15
     pack:

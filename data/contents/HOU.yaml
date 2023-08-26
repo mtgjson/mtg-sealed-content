@@ -1,7 +1,15 @@
 code: hou
 products:
-  Hour of Devastation Booster Box: []
-  Hour of Devastation Booster Box Case: []
+  Hour of Devastation Booster Box:
+    sealed:
+    - count: 36
+      name: Hour of Devastation Booster Pack
+      set: hou
+  Hour of Devastation Booster Box Case:
+    sealed:
+    - count: 6
+      name: Hour of Devastation Booster Box
+      set: hou
   Hour of Devastation Booster Pack:
     card_count: 15
     pack:

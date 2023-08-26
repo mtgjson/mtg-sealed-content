@@ -1,9 +1,21 @@
 code: zen
 products:
-  Zendikar 3x Booster Packs draft set: []
+  Zendikar 3x Booster Packs draft set:
+    sealed:
+    - count: 3
+      name: Zendikar Booster Pack
+      set: zen
   Zendikar 6 Card Booster Pack: []
-  Zendikar Booster Box: []
-  Zendikar Booster Box Case 6 Booster Boxes: []
+  Zendikar Booster Box:
+    sealed:
+    - count: 6
+      name: Zendikar Booster Pack
+      set: zen
+  Zendikar Booster Box Case 6 Booster Boxes:
+    sealed:
+    - count: 6
+      name: Zendikar Booster Box
+      set: zen
   Zendikar Booster Pack:
     card_count: 15
     pack:

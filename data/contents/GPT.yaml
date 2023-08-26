@@ -1,6 +1,10 @@
 code: gpt
 products:
-  Guildpact Booster Box: []
+  Guildpact Booster Box:
+    sealed:
+    - count: 36
+      name: Guildpact Booster Pack
+      set: gpt
   Guildpact Booster Pack:
     card_count: 15
     pack:
