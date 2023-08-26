@@ -150,7 +150,7 @@ class MtgjsonCardLinker:
             """
             return_value = set()
             for config in content["configs"]:
-                for deck in config.get("decks", []):
+                for deck in config.get("deck", []):
                     return_value.update(
                         self.get_cards_in_deck(deck["set"].upper(), deck["name"])
                     )
