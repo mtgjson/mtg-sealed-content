@@ -1,7 +1,11 @@
 code: ulg
 products:
   Urza's Legacy Theme Deck Display: []
-  Urzas Legacy Booster Box: []
+  Urzas Legacy Booster Box:
+    sealed:
+    - count: 36
+      name: Urzas Legacy Booster Pack
+      set: ulg
   Urzas Legacy Booster Pack:
     card_count: 15
     pack:
