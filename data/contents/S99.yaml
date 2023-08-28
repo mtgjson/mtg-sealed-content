@@ -1,6 +1,10 @@
 code: s99
 products:
-  Starter 1999 Booster Box: []
+  Starter 1999 Booster Box:
+    sealed:
+    - count: 36
+      name: Starter 1999 Booster Pack
+      set: s99
   Starter 1999 Booster Pack:
     card_count: 15
     pack:

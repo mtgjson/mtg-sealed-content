@@ -1,6 +1,10 @@
 code: mor
 products:
-  Morningtide Booster Box: []
+  Morningtide Booster Box:
+    sealed:
+    - count: 36
+      name: Morningtide Booster Pack
+      set: mor
   Morningtide Booster Pack:
     card_count: 15
     pack:

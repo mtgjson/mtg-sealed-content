@@ -1,6 +1,10 @@
 code: wwk
 products:
-  Worldwake Booster Box: []
+  Worldwake Booster Box:
+    sealed:
+    - count: 36
+      name: Worldwake Booster Pack
+      set: wwk
   Worldwake Booster Pack:
     card_count: 15
     pack:
