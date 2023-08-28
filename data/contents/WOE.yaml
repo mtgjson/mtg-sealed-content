@@ -17,7 +17,11 @@ products:
       name: Wilds of Eldraine Collector Booster Box
       set: woe
   Wilds of Eldraine Collector Booster Box Master Case: []
-  Wilds of Eldraine Collector Booster Pack: []
+  Wilds of Eldraine Collector Booster Pack:
+    card_count: 15
+    pack:
+    - code: collector
+      set: woe
   Wilds of Eldraine Draft Booster Box:
     sealed:
     - count: 36
@@ -28,7 +32,11 @@ products:
     - count: 6
       name: Wilds of Eldraine Draft Booster Box
       set: woe
-  Wilds of Eldraine Draft Booster Pack: []
+  Wilds of Eldraine Draft Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: woe
   Wilds of Eldraine Prerelease Pack: []
   Wilds of Eldraine Set Booster Box:
     sealed:
@@ -41,5 +49,9 @@ products:
       name: Wilds of Eldraine Set Booster Box
       set: woe
   Wilds of Eldraine Set Booster Combo Pack: []
-  Wilds of Eldraine Set Booster Pack: []
+  Wilds of Eldraine Set Booster Pack:
+    card_count: 12
+    pack:
+    - code: set
+      set: woe
   Wilds of Eldraine Set Booster Variety Pack: []
