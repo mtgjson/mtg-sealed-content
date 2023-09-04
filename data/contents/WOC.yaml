@@ -8,8 +8,24 @@ products:
     - count: 2
       name: Wilds of Eldraine Commander Deck Virtue and Valor
       set: woc
-  Wilds of Eldraine Commander Deck Fae Dominion: []
-  Wilds of Eldraine Commander Deck Virtue and Valor: []
+  Wilds of Eldraine Commander Deck Fae Dominion:
+    card_count: 100
+    deck:
+    - name: Fae Dominion
+      set: woc
+    sealed:
+    - count: 1
+      name: Wilds of Eldraine Collector Booster Sample Pack
+      set: woe
+  Wilds of Eldraine Commander Deck Virtue and Valor:
+    card_count: 100
+    deck:
+    - name: Virtue and Valor
+      set: woc
+    sealed:
+    - count: 1
+      name: Wilds of Eldraine Collector Booster Sample Pack
+      set: woe
   Wilds of Eldraine Commander Decks - Set of 2:
     sealed:
     - count: 1
