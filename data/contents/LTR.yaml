@@ -151,10 +151,36 @@ products:
     - count: 6
       name: The Lord of the Rings Tales of Middle earth Draft Booster Pack
       set: ltr
-  The Lord of the Rings Tales of Middle earth Retail Tin Galadriel of Lothlorien: []
-  The Lord of the Rings Tales of Middle earth Retail Tin Gandalf Friend of the Shire: []
-  The Lord of the Rings Tales of Middle earth Retail Tin The One Ring: []
-  The Lord of the Rings Tales of Middle earth Retail Tins Set of 3: []
+  The Lord of the Rings Tales of Middle earth Retail Tin Galadriel of Lothlorien:
+    card:
+    - foil: true
+      name: Llanowar Elves
+      number: 1
+      set: pres
+    - foil: true
+      name: Lathril, Blade of the Elves
+      number: 2
+      set: pres
+    sealed:
+    - count: 2
+      name: The Lord of the Rings Tales of Middle earth Set Booster Pack
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Retail Tin Gandalf Friend of the Shire:
+    copy: The Lord of the Rings Tales of Middle earth Retail Tin Galadriel of Lothlorien
+  The Lord of the Rings Tales of Middle earth Retail Tin The One Ring:
+    copy: The Lord of the Rings Tales of Middle earth Retail Tin Galadriel of Lothlorien
+  The Lord of the Rings Tales of Middle earth Retail Tins Set of 3:
+    sealed:
+    - count: 1
+      name: The Lord of the Rings Tales of Middle earth Retail Tin Galadriel of Lothlorien
+      set: ltr
+    - count: 1
+      name: The Lord of the Rings Tales of Middle earth Retail Tin Gandalf Friend
+        of the Shire
+      set: ltr
+    - count: 1
+      name: The Lord of the Rings Tales of Middle earth Retail Tin The One Ring
+      set: ltr
   The Lord of the Rings Tales of Middle earth Set Booster Box:
     sealed:
     - count: 30
