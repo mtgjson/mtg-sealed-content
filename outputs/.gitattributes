@@ -1,0 +1,5 @@
+gatherer_mapping.json filter=lfs diff=lfs merge=lfs -text
+card_map.json filter=lfs diff=lfs merge=lfs -text
+contents.json filter=lfs diff=lfs merge=lfs -text
+deck_map.json filter=lfs diff=lfs merge=lfs -text
+products.json filter=lfs diff=lfs merge=lfs -text
