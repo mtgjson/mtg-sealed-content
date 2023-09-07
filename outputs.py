@@ -13,6 +13,7 @@ from copy import copy
 import collections.abc
 
 import card_to_product_compiler
+import generate_original_printing_details
 
 
 def recursive_update(d, u):
@@ -381,3 +382,5 @@ card_to_product_compiler.main(
         input_file="mtgJson/AllPrintings.json", output_file="outputs/card_map.json"
     )
 )
+
+generate_original_printing_details.main()
