@@ -129,7 +129,7 @@ def parse_foreign(sf_prints_url: str, card_name: str, card_number: str, set_name
             print(
                 f"{set_name.upper()} - {card_name} - {card_foreign_entry.name} - {card_foreign_entry.language} - {foreign_card_multiverse_id}"
             )
-            card_foreign_entries[foreign_card_multiverse_id] = card_foreign_entry
+            card_foreign_entries[foreign_card_multiverse_id] = [card_foreign_entry]
 
     return card_foreign_entries
 
