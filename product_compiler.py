@@ -24,30 +24,30 @@ if rollCheck:
 logger.info("Starting logging")
 
 jsonFile = "mtgJson/AllPrintings.json"
-if path.getmtime(jsonFile) < time.time() - 24*60*60:
+if path.getmtime(jsonFile) < time.time() - 24 * 60 * 60:
     url = "https://mtgjson.com/api/v5/AllPrintings.json"
     r = requests.get(url)
-    open(jsonFile, 'wb').write(r.content)
+    open(jsonFile, "wb").write(r.content)
     logger.info("Downloaded new MTGJson content")
 
 
-alt_codes = {
-    "con_": "con"
-}
-r_alt_codes = {
-    "CON": "CON_"
-}
+alt_codes = {"con_": "con"}
+r_alt_codes = {"CON": "CON_"}
 
 total = 0
 complete = 0
 
 codes = set()
-with open(jsonFile, 'rb') as allPrintings:
+with open(jsonFile, "rb") as allPrintings:
     all_sets = dict(ijson.kvitems(allPrintings, "data"))
     for set_code, contents in tqdm(all_sets.items()):
-        output_file = Path("data/contents/").joinpath(r_alt_codes.get(set_code, set_code).upper()).with_suffix(".yaml")
+        output_file = (
+            Path("data/contents/")
+            .joinpath(r_alt_codes.get(set_code, set_code).upper())
+            .with_suffix(".yaml")
+        )
         if output_file.is_file():
-            with open(output_file, 'r') as f:
+            with open(output_file, "r") as f:
                 full = yaml.safe_load(f)
             try:
                 empties = {k for k, v in full["products"].items() if not v}
@@ -72,11 +72,12 @@ with open(jsonFile, 'rb') as allPrintings:
                 products[p["name"]] = []
         for n in existing_names:
             if n not in mtgjson_names:
-                logger.info("Product %s/%s no longer present in MTGJson data", set_code, n)
+                logger.info(
+                    "Product %s/%s no longer present in MTGJson data", set_code, n
+                )
         if products:
-            with open(output_file, 'w') as write:
+            with open(output_file, "w") as write:
                 yaml.dump({"code": set_code.lower(), "products": products}, write)
 
 
 logger.info("%s out of %s products complete", complete, total)
-
