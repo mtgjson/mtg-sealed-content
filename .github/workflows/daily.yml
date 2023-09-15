@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    runs-on: mac
+    runs-on: ubuntu-latest
     steps:
     - name: checkout repo content
       uses: actions/checkout@v2
@@ -26,3 +26,16 @@ jobs:
 
     - name: execute gatherer build
       run: python scripts/generate_original_printing_details.py
+
+    - name: commit files
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A
+        git diff-index --quiet HEAD || (git commit -a -m "updated logs" --allow-empty)
+
+    - name: push changes
+      uses: ad-m/github-push-action@v0.6.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: main 
