@@ -20,6 +20,12 @@ class card():
         if self.foil:
             data["foil"] = self.foil
         return data
+    
+    def get_uuids(self, uuid_map):
+        try:
+            self.uuid = uuid_map[self.set.lower()]["cards"][str(self.number)]
+        except:
+            self.uuid = None
 
 
 class pack():
@@ -33,6 +39,10 @@ class pack():
             "code": self.code
         }
         return data
+    
+    def get_uuids(self, uuid_map):
+        if self.code not in uuid_map[self.set.lower()]["booster"]:
+            print(f"Booster code {self.code} not found in set {self.set}")
 
 
 class deck():
@@ -46,6 +56,10 @@ class deck():
             "name": self.name
         }
         return data
+    
+    def get_uuids(self, uuid_map):
+        if self.name not in uuid_map[self.set.lower()]["decks"]:
+            print(f"Deck named {self.name} not found in set {self.set}")
 
 
 class sealed():
@@ -64,6 +78,12 @@ class sealed():
         if self.uuid:
             data["uuid"] = self.uuid
         return data
+    
+    def get_uuids(self, uuid_map):
+        try:
+            self.uuid = uuid_map[self.set.lower()]["sealedProduct"][self.name]
+        except:
+            self.uuid = None
 
 
 class other():
@@ -78,7 +98,9 @@ class other():
 
 
 class product():
-    def __init__(self, contents):
+    def __init__(self, contents, set_code=None, name=None):
+        self.name = name
+        self.set_code = set_code
         if not contents:
             contents = {}
         self.card = []
@@ -144,4 +166,22 @@ class product():
             data["variable"] = [{"configs":[v.toJson() for v in self.variable]}]
         if self.card_count:
             data["card_count"] = self.card_count
+        if self.uuid:
+            data["uuid"] = self.uuid
         return data
+    
+    def get_uuids(self, uuid_map):
+        try:
+            self.uuid = uuid_map[self.set_code.lower()]["sealedProduct"][self.name]
+        except:
+            self.uuid = None
+        for c in self.card:
+            c.get_uuids(uuid_map)
+        for p in self.pack:
+            p.get_uuids(uuid_map)
+        for d in self.deck:
+            d.get_uuids(uuid_map)
+        for s in self.sealed:
+            s.get_uuids(uuid_map)
+        for v in self.variable:
+            v.get_uuids(uuid_map)
