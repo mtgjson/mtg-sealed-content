@@ -8,7 +8,8 @@ from tqdm import tqdm
 
 
 def set_to_json(set_content):
-    return {k: v.toJson() for k, v in set_content.items()}
+    decoded = {k: v.toJson() for k, v in set_content.items()}
+    return {k: v for k, v in decoded.items() if v}
 
 
 def build_uuid_map():
@@ -74,6 +75,8 @@ def deck_links(all_products):
     deck_mapper = {}
     for set_contents in all_products.values():
         for product_contents in set_contents.values():
+            if not product_contents.uuid:
+                continue
             for deck in product_contents.deck:
                 if deck.set not in deck_mapper:
                     deck_mapper[deck.set] = {}
@@ -90,15 +93,17 @@ def main(contentFolder):
         with open(set_file, 'rb') as f:
             contents = yaml.safe_load(f)
 
-        products_contents[set_file.stem.lower()] = {}
+        products_contents[contents["code"]] = {}
         for name, p in contents["products"].items():
             if not p:
-                p = {}
+                continue
             if set(p.keys()) == {"copy"}:
                 p = contents["products"][p["copy"]]
-            compiled_product = pc.product(p, set_file.stem, name)
+            compiled_product = pc.product(p, contents["code"], name)
             compiled_product.get_uuids(uuid_map)
-            products_contents[set_file.stem.lower()][name] = compiled_product
+            products_contents[contents["code"]][name] = compiled_product
+        if not products_contents[contents["code"]]:
+            products_contents.pop(contents["code"])
     
     with open("outputs/contents.json", "w") as outfile:
         json.dump({k: set_to_json(v) for k, v in products_contents.items()}, outfile)

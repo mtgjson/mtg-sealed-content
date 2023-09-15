@@ -13,7 +13,7 @@ class card():
         data = {
             "name": self.name,
             "set": self.set,
-            "number": self.number
+            "number": str(self.number)
         }
         if self.uuid:
             data["uuid"] = self.uuid
@@ -166,8 +166,6 @@ class product():
             data["variable"] = [{"configs":[v.toJson() for v in self.variable]}]
         if self.card_count:
             data["card_count"] = self.card_count
-        if self.uuid:
-            data["uuid"] = self.uuid
         return data
     
     def get_uuids(self, uuid_map):
