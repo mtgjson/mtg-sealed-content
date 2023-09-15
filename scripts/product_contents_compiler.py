@@ -70,26 +70,44 @@ def build_uuid_map():
     return uuids
 
 
+def deck_links(all_products):
+    deck_mapper = {}
+    for set_contents in all_products.values():
+        for product_contents in set_contents.values():
+            for deck in product_contents.deck:
+                if deck.set not in deck_mapper:
+                    deck_mapper[deck.set] = {}
+                if deck.name not in deck_mapper[deck.set]:
+                    deck_mapper[deck.set][deck.name] = []
+                deck_mapper[deck.set][deck.name].append(product_contents.uuid)
+    return deck_mapper
+
+
 def main(contentFolder):
     uuid_map = build_uuid_map()
     products_contents = {}
     for set_file in contentFolder.glob("*.yaml"):
-        if set_file.stem != "VOC":
-            continue
         with open(set_file, 'rb') as f:
             contents = yaml.safe_load(f)
 
-        products_contents[set_file.stem] = {}
+        products_contents[set_file.stem.lower()] = {}
         for name, p in contents["products"].items():
+            if not p:
+                p = {}
             if set(p.keys()) == {"copy"}:
                 p = contents["products"][p["copy"]]
             compiled_product = pc.product(p, set_file.stem, name)
             compiled_product.get_uuids(uuid_map)
-            products_contents[set_file.stem][name] = compiled_product
-        break
+            products_contents[set_file.stem.lower()][name] = compiled_product
     
     with open("outputs/contents.json", "w") as outfile:
         json.dump({k: set_to_json(v) for k, v in products_contents.items()}, outfile)
+    
+    deck_map = deck_links(products_contents)
+    
+    with open("outputs/deck_map.json", "w") as outfile:
+        json.dump(deck_map, outfile)
+
 
 if __name__ == "__main__":
     main(Path("data/contents/"))
