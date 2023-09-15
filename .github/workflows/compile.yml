@@ -1,4 +1,4 @@
-name: daily compile
+name: compile new merge
 
 on:
   pull_request:
@@ -21,8 +21,8 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: execute new products
-      run: python scripts/card_to_product_compiler.py -o outputs/card_map.json
+    #- name: execute new products
+    #  run: python scripts/card_to_product_compiler.py -o outputs/card_map.json
 
     - name: execute gatherer build
       run: python scripts/product_contents_compiler.py
