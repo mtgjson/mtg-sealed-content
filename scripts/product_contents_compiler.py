@@ -87,8 +87,9 @@ def main(contentFolder):
             compiled_product.get_uuids(uuid_map)
             products_contents[set_file.stem][name] = compiled_product
         break
-            
-    print(json.dumps({k: set_to_json(v) for k, v in products_contents.items()}))
+    
+    with open("outputs/contents.json", "w") as outfile:
+        json.dump({k: set_to_json(v) for k, v in products_contents.items()}, outfile)
 
 if __name__ == "__main__":
     main(Path("data/contents/"))
