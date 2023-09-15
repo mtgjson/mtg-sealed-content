@@ -1,4 +1,5 @@
 import argparse
+import pathlib
 
 import yaml
 import json
@@ -29,6 +30,8 @@ def recursive_update(d, u):
 
 def build_uuid_map():
     file = Path("mtgJson/AllPrintings.json")
+    file.parent.mkdir(parents=True, exist_ok=True)
+
     uuids = {}
     with open(file, "rb") as jfile:
         parser = ijson.parse(jfile)
@@ -50,17 +53,17 @@ def build_uuid_map():
             elif prefix == f"data.{current_set}" and event == "map_key":
                 status = value
             elif (
-                status == "booster"
-                and prefix == f"data.{current_set}.booster"
-                and event == "map_key"
+                    status == "booster"
+                    and prefix == f"data.{current_set}.booster"
+                    and event == "map_key"
             ):
                 uuids[ccode]["booster"].add(value)
             elif status == "decks" and prefix == f"data.{current_set}.decks.item.name":
                 uuids[ccode]["decks"].add(value)
             elif status == "sealedProduct":
                 if (
-                    prefix == f"data.{current_set}.sealedProduct.item"
-                    and event == "start_map"
+                        prefix == f"data.{current_set}.sealedProduct.item"
+                        and event == "start_map"
                 ):
                     identifier = ""
                     uuid = ""
@@ -69,8 +72,8 @@ def build_uuid_map():
                 elif prefix == f"data.{current_set}.sealedProduct.item.uuid":
                     uuid = value
                 elif (
-                    prefix == f"data.{current_set}.sealedProduct.item"
-                    and event == "end_map"
+                        prefix == f"data.{current_set}.sealedProduct.item"
+                        and event == "end_map"
                 ):
                     uuids[ccode]["sealedProduct"][identifier] = uuid
             elif status == "cards":
@@ -288,7 +291,7 @@ def parse_variable(contents, logger=None):
         logger.info(str(contents))
     if options.get("replacement", False):
         for combo in itr.combinations_with_replacement(
-            contents["variable"], options.get("count", 1)
+                contents["variable"], options.get("count", 1)
         ):
             temp_variable.append(iterative_sum(combo, logger))
     else:
@@ -311,76 +314,79 @@ def deck_links(contents, uuid, logger=None):
     return link
 
 
-logfile_name = "logs/output.log"
-logger = logging.getLogger()
-logger.setLevel(logging.INFO)
-rollCheck = os.path.isfile(logfile_name)
-handler = handlers.RotatingFileHandler(logfile_name, backupCount=5, encoding="utf-8")
-formatter = logging.Formatter("%(levelname)s - %(message)s")
+if __name__ == "__main__":
+    logfile_name = "logs/output.log"
+    pathlib.Path(logfile_name).parent.mkdir(parents=True, exist_ok=True)
 
-handler.setFormatter(formatter)
-handler.setLevel(logging.INFO)
-logger.addHandler(handler)
+    logger = logging.getLogger()
+    logger.setLevel(logging.INFO)
+    rollCheck = os.path.isfile(logfile_name)
+    handler = handlers.RotatingFileHandler(logfile_name, backupCount=5, encoding="utf-8")
+    formatter = logging.Formatter("%(levelname)s - %(message)s")
 
-if rollCheck:
-    logger.handlers[0].doRollover()
+    handler.setFormatter(formatter)
+    handler.setLevel(logging.INFO)
+    logger.addHandler(handler)
 
-contents_files = list(Path("data/contents/").glob("*.yaml"))
-new_files = list(Path("data/products").glob("*.yaml"))
+    if rollCheck:
+        logger.handlers[0].doRollover()
 
-products_contents = {}
-deck_mapper = {}
-uuid_map = build_uuid_map()
+    contents_files = list(Path("data/contents/").glob("*.yaml"))
+    new_files = list(Path("data/products").glob("*.yaml"))
 
-for file in tqdm(contents_files, position=0):
-    with open(file, "rb") as f:
-        data = yaml.safe_load(f)
-    if not data["products"]:
-        logger.error("Set %s has no products", data["code"])
-        os.remove(file)
-    for product, contents in tqdm(data["products"].items(), position=1, leave=False):
-        if "copy" in contents:
-            contents = data["products"][contents["copy"]]
-        if "variable" in contents:
-            contents = parse_variable(contents)
-        if validate_contents(contents, data["code"] + "-" + product, logger, uuid_map):
-            if data["code"] not in products_contents:
-                products_contents[data["code"]] = {}
-            try:
-                self_uuid = uuid_map[data["code"]]["sealedProduct"][product]
-                deck_mapper = recursive_update(
-                    deck_mapper, deck_links(contents, self_uuid, logger)
-                )
-            except KeyError:
-                logger.warning(
-                    "Could not get UUID for sealed %s/%s", data["code"], product
-                )
-            products_contents[data["code"]][product] = contents
+    products_contents = {}
+    deck_mapper = {}
+    uuid_map = build_uuid_map()
 
-with open("outputs/contents.json", "w") as outfile:
-    json.dump(products_contents, outfile)
+    for file in tqdm(contents_files, position=0):
+        with open(file, "rb") as f:
+            data = yaml.safe_load(f)
+        if not data["products"]:
+            logger.error("Set %s has no products", data["code"])
+            os.remove(file)
+        for product, contents in tqdm(data["products"].items(), position=1, leave=False):
+            if "copy" in contents:
+                contents = data["products"][contents["copy"]]
+            if "variable" in contents:
+                contents = parse_variable(contents)
+            if validate_contents(contents, data["code"] + "-" + product, logger, uuid_map):
+                if data["code"] not in products_contents:
+                    products_contents[data["code"]] = {}
+                try:
+                    self_uuid = uuid_map[data["code"]]["sealedProduct"][product]
+                    deck_mapper = recursive_update(
+                        deck_mapper, deck_links(contents, self_uuid, logger)
+                    )
+                except KeyError:
+                    logger.warning(
+                        "Could not get UUID for sealed %s/%s", data["code"], product
+                    )
+                products_contents[data["code"]][product] = contents
 
-for set_code in deck_mapper.keys():
-    for deck in deck_mapper[set_code].keys():
-        deck_mapper[set_code][deck] = list(deck_mapper[set_code][deck])
+    with open("outputs/contents.json", "w") as outfile:
+        json.dump(products_contents, outfile)
 
-with open("outputs/deck_map.json", "w") as outfile:
-    json.dump(deck_mapper, outfile)
+    for set_code in deck_mapper.keys():
+        for deck in deck_mapper[set_code].keys():
+            deck_mapper[set_code][deck] = list(deck_mapper[set_code][deck])
 
-products_new = {}
+    with open("outputs/deck_map.json", "w") as outfile:
+        json.dump(deck_mapper, outfile)
 
-for file in tqdm(new_files):
-    with open(file, "rb") as f:
-        data = yaml.safe_load(f)
-    products_new[data["code"]] = data["products"]
+    products_new = {}
 
-with open("outputs/products.json", "w") as outfile:
-    json.dump(products_new, outfile)
+    for file in tqdm(new_files):
+        with open(file, "rb") as f:
+            data = yaml.safe_load(f)
+        products_new[data["code"]] = data["products"]
 
-card_to_product_compiler.main(
-    argparse.Namespace(
-        input_file="mtgJson/AllPrintings.json", output_file="outputs/card_map.json"
+    with open("outputs/products.json", "w") as outfile:
+        json.dump(products_new, outfile)
+
+    card_to_product_compiler.main(
+        argparse.Namespace(
+            input_file="mtgJson/AllPrintings.json", output_file="outputs/card_map.json"
+        )
     )
-)
 
-generate_original_printing_details.main()
+    generate_original_printing_details.main()

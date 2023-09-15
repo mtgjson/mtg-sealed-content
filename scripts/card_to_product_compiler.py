@@ -116,7 +116,7 @@ class MtgjsonCardLinker:
             if "uuid" not in content:
                 return []
             return self.get_cards_in_content_type(
-                content["set"].upper(), content["uuid"]
+                content["set"].upper(), content.get("uuid")
             )
 
         if content_key == "deck":
