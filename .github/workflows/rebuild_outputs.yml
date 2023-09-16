@@ -1,9 +1,13 @@
-name: compile new merge
+name: Rebuild Outputs
 on:
   push:
     branches:
       - main
+  schedule:
+    - cron: 0 0 * * *
+
 permissions: write-all
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,20 +16,26 @@ jobs:
         uses: actions/checkout@v3
         with:
           lfs: true
+
       - name: setup python
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
+
       - name: install python packages
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+
       - name: execute manual products compiler
         run: python scripts/new_products_compiler.py
+
       - name: execute contents compiler
         run: python scripts/product_contents_compiler.py
+
       - name: execute card to product mapper
         run: python scripts/card_to_product_compiler.py -o outputs/card_map.json
+
       - name: commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
