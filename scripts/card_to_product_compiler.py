@@ -203,9 +203,11 @@ class MtgjsonCardLinker:
         for deck in decks_data:
             if deck["name"] != deck_name:
                 continue
-
-            for card in deck["cards"]:
-                return_value.add(Card(card["uuid"], card["finish"]))
+            deck_cards = (deck.get("cards", []) + deck.get("commander", []) +
+                deck.get("mainBoard", []) + deck.get("sideBoard", []))
+            for card in deck_cards:
+                finish = "foil" if card.get("isFoil", False) else "nonfoil"
+                return_value.add(Card(card["uuid"], finish))
             break
 
         return list(return_value)
