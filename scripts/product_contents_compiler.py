@@ -4,7 +4,6 @@ from pathlib import Path
 import json
 import ijson
 import requests
-from tqdm import tqdm
 
 
 def set_to_json(set_content):
@@ -21,7 +20,7 @@ def build_uuid_map():
     status = ""
     identifier = ""
     uuid = ""
-    for prefix, event, value in tqdm(parser):
+    for prefix, event, value in parser:
         if prefix == "data" and event == "map_key":
             current_set = value
             ccode = current_set.lower()

@@ -3,7 +3,7 @@ import json
 import pathlib
 from collections import defaultdict
 from typing import Any, Dict, Set, List, Optional
-
+import requests
 
 class Card:
     uuid: str
@@ -25,13 +25,11 @@ class Card:
 class MtgjsonCardLinker:
     mtgjson_data: Dict[str, Any]
 
-    def __init__(self, all_printings_path: str):
-        _all_printings_path = pathlib.Path(all_printings_path).expanduser()
-        if not _all_printings_path.exists():
-            raise FileNotFoundError
+    def __init__(self):
+        _all_printings_url = "https://mtgjson.com/api/v5/AllPrintings.json"
+        request_wrapper = requests.get(_all_printings_url)
 
-        with _all_printings_path.open(encoding="utf-8") as fp:
-            self.mtgjson_data = json.load(fp).get("data")
+        self.mtgjson_data = json.loads(request_wrapper.content).get("data")
 
     def build(self) -> Dict[Card, Set[str]]:
         return_value = defaultdict(set)
@@ -225,14 +223,13 @@ def results_to_json(
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser("mtgjson5")
 
-    parser.add_argument("--input-file", "-i", type=str, required=True)
     parser.add_argument("--output-file", "-o", type=str, required=True)
 
     return parser.parse_args()
 
 
 def main(args: argparse.Namespace):
-    card_to_products_data = MtgjsonCardLinker(args.input_file).build()
+    card_to_products_data = MtgjsonCardLinker().build()
     with pathlib.Path(args.output_file).expanduser().open("w", encoding="utf-8") as fp:
         json.dump(results_to_json(card_to_products_data), fp, indent=4, sort_keys=True)
 
