@@ -1,8 +1,9 @@
 name: compile new merge
 
 on:
-  pull_request:
-    types: [closed]
+  push:
+    branches:
+    - master
 
 permissions: write-all
 
