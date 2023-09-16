@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: "0 0 * * *"
 
-permissions: [write-all, read-all]
+permissions: write-all
 
 jobs:
   build:
