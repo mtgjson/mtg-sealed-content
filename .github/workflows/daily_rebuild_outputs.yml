@@ -1,8 +1,7 @@
-name: Rebuild Outputs
+name: Daily Rebuild Outputs
 on:
-  push:
-    branches:
-      - main
+  schedule:
+    - cron: 0 0 * * *
 
 permissions: write-all
 
@@ -25,14 +24,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: execute manual products compiler
-        run: python scripts/new_products_compiler.py
+      - name: execute new products
+        run: python scripts/load_new_products.py
 
-      - name: execute contents compiler
-        run: python scripts/product_contents_compiler.py
-
-      - name: execute card to product mapper
-        run: python scripts/card_to_product_compiler.py -o outputs/card_map.json
+      - name: execute gatherer build
+        run: python scripts/generate_original_printing_details.py
 
       - name: commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
