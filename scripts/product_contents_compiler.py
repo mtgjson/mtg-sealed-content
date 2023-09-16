@@ -91,7 +91,7 @@ def main(contentFolder):
     status_file = Path("status.txt")
     with open(status_file, 'w') as f:
         f.write("Starting output\n")
-    for set_file in contentFolder.glob("*.yaml"):
+    for set_file in sorted(contentFolder.glob("*.yaml")):
         with open(set_file, 'rb') as f:
             contents = yaml.safe_load(f)
 
