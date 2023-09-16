@@ -33,14 +33,7 @@ jobs:
     - name: execute gatherer build
       run: python scripts/generate_original_printing_details.py
 
-    - name: commit files
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add -A
-        git diff-index --quiet HEAD || (git commit -a -m "updated logs" --allow-empty)
-
-    - name: push changes
+    - name: commit and push changes
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
         branch: data_compile 
