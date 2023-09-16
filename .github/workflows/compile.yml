@@ -21,13 +21,13 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    #- name: execute new products
+    #- name: execute card mapper
     #  run: python scripts/card_to_product_compiler.py -o outputs/card_map.json
 
-    - name: execute gatherer build
+    - name: execute contents compiler
       run: python scripts/product_contents_compiler.py
 
-    - name: execute gatherer build
+    - name: execute manual products compiler
       run: python scripts/new_products_compiler.py
 
     - name: commit files
@@ -40,5 +40,4 @@ jobs:
     - name: push changes
       uses: ad-m/github-push-action@v0.6.0
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: main 

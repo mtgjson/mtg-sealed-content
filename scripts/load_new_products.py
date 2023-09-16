@@ -1,7 +1,6 @@
 import pathlib
 
 import ijson
-from tqdm import tqdm
 import yaml
 from pathlib import Path
 import os
@@ -22,7 +21,7 @@ def main():
 
     codes = set()
     all_sets = dict(ijson.kvitems(r.content, "data"))
-    for set_code, contents in tqdm(all_sets.items()):
+    for set_code, contents in all_sets.items():
         output_file = (
             Path("data/contents/")
             .joinpath(r_alt_codes.get(set_code, set_code).upper())
