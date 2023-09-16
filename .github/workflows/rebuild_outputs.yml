@@ -37,4 +37,5 @@ jobs:
       - name: commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
+          commit_message: Build outputs for new data
           push_options: --force
