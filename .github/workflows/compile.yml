@@ -4,12 +4,16 @@ on:
   pull_request:
     types: [closed]
 
+permissions: [write-all, read-all]
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - name: checkout repo content
       uses: actions/checkout@v2
+      with:
+        lfs: true
 
     - name: setup python
       uses: actions/setup-python@v4
