@@ -88,6 +88,9 @@ def deck_links(all_products):
 def main(contentFolder):
     uuid_map = build_uuid_map()
     products_contents = {}
+    status_file = Path("status.txt")
+    with open(status_file, 'w') as f:
+        f.write("Starting output\n")
     for set_file in contentFolder.glob("*.yaml"):
         with open(set_file, 'rb') as f:
             contents = yaml.safe_load(f)
@@ -95,6 +98,8 @@ def main(contentFolder):
         products_contents[contents["code"]] = {}
         for name, p in contents["products"].items():
             if not p:
+                with open(status_file, 'a') as f:
+                    f.write(f"Product {contents['code']} - {name} missing contents\n")
                 continue
             if set(p.keys()) == {"copy"}:
                 p = contents["products"][p["copy"]]
