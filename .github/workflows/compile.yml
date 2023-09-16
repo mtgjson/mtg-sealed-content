@@ -2,7 +2,7 @@ name: compile new merge
 on:
   push:
     branches:
-      - master
+      - main
 permissions: write-all
 jobs:
   build:
