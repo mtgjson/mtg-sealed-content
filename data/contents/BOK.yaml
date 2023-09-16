@@ -27,7 +27,20 @@ products:
     deck:
     - name: Dark Devotion
       set: bok
-  Betrayers of Kamigawa Theme Deck Display: []
+  Betrayers of Kamigawa Theme Deck Display: 
+    sealed:
+    - set: bok
+      count: 3
+      name: Betrayers of Kamigawa Theme Deck Dark Devotion
+    - set: bok
+      count: 3
+      name: Betrayers of Kamigawa Theme Deck Ninjutsu
+    - set: bok
+      count: 3
+      name: Betrayers of Kamigawa Theme Deck Rats Nest
+    - set: bok
+      count: 3
+      name: Betrayers of Kamigawa Theme Deck Spiritcraft
   Betrayers of Kamigawa Theme Deck Ninjutsu:
     card_count: 60
     deck:
