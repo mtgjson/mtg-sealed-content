@@ -48,7 +48,14 @@ def main():
         complete += len(existing_names)
         for p in sealed_product:
             if p["name"] not in products:
+                if p["name"] not in empties:
+                    with open("status.txt", 'a') as f:
+                        f.write(f"Added new product {set_code}/{p['name']}\n")
                 products[p["name"]] = []
+        for n in existing_names:
+            if n not in mtgjson_names:
+                with open("status.txt", 'a') as f:
+                    f.write(f"Product {set_code}/{p['name']} no longer present\n")
         if products:
             with open(output_file, "w") as write:
                 yaml.dump({"code": set_code.lower(), "products": products}, write)
