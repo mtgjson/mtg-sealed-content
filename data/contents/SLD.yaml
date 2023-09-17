@@ -673,7 +673,11 @@ products:
     deck:
     - name: City Styles foil
       set: sld
-  Secret Lair Commander Deck Angels Theyre Just Like Us but Cooler and with Wings: []
+  Secret Lair Commander Deck Angels Theyre Just Like Us but Cooler and with Wings: 
+    card_count: 101
+    deck:
+    - name: Angels/ They're Just Like Us but Cooler and with Wings
+      set: pagl
   Secret Lair Cool Ocean Breeze:
     card_count: 5
     deck:
@@ -867,8 +871,16 @@ products:
     deck:
     - name: Fblthp Completely Utterly Totally Lost foil
       set: sld
-  Secret Lair Featuring Gary Baseman: []
-  Secret Lair Featuring Gary Baseman Foil Edition: []
+  Secret Lair Featuring Gary Baseman: 
+    card_count: 5
+    deck:
+    - name: Featuring Gary Baseman
+      set: sld
+  Secret Lair Featuring Gary Baseman Foil Edition: 
+    card_count: 5
+    deck:
+    - name: Featuring Gary Baseman foil
+      set: sld
   Secret Lair Featuring the Mountain Goats:
     card_count: 11
     deck:
@@ -1380,8 +1392,16 @@ products:
     deck:
     - name: Liller Walkers foil
       set: sld
-  Secret Lair Magic The Baseballing: []
-  Secret Lair Magic The Baseballing Foil Edition: []
+  Secret Lair Magic The Baseballing: 
+    card_count: 5
+    deck:
+    - name: Magic the Baseballing
+      set: sld
+  Secret Lair Magic The Baseballing Foil Edition: 
+    card_count: 5
+    deck:
+    - name: Magic the Baseballing foil
+      set: sld
   Secret Lair March of the Machine Bundle:
     sealed:
     - count: 1
@@ -2208,7 +2228,17 @@ products:
     - name: The Art of Frank Frazetta foil
       set: sld
   Secret Lair The Bundle Bundle: []
-  Secret Lair The Bundled Bundle Bundle: []
+  Secret Lair The Bundled Bundle Bundle: 
+    sealed:
+    - set: sld
+      name: Secret Lair Second Secretversary Bundle
+      count: 1
+    - set: sld
+      name: Secret Lair Second Secretversary Bundle Foil
+      count: 1
+    - set: sld
+      name: Secret Lair Heads I Win Tails You Lose
+      count: 1
   Secret Lair The Dracula Lands:
     card_count: 6
     deck:
@@ -2236,7 +2266,14 @@ products:
       set: sld
   Secret Lair The Prophets Predicted Bundle: []
   Secret Lair The Prophets Predicted Bundle Foil: []
-  Secret Lair The Prophets Predicted Everything Bundle: []
+  Secret Lair The Prophets Predicted Everything Bundle: 
+    sealed:
+    - set: sld
+      count: 1
+      name: Secret Lair The Prophets Predicted Bundle
+    - set: sld
+      count: 1
+      name: Secret Lair The Prophets Predicted Bundle Foil
   Secret Lair The Space Beyond the Stars:
     card_count: 5
     deck:
@@ -2292,7 +2329,23 @@ products:
     deck:
     - name: The Weirdest Pets in the Multiverse foil
       set: sld
-  Secret Lair Theros Stargazing Bundle Vol I V: []
+  Secret Lair Theros Stargazing Bundle Vol I V: 
+    sealed:
+    - set: sld
+      name: Secret Lair Theros Stargazing VolI Heliod
+      count: 1
+    - set: sld
+      name: Secret Lair Theros Stargazing VolII Thassa
+      count: 1
+    - set: sld
+      name: Secret Lair Theros Stargazing VolIII Erebos
+      count: 1
+    - set: sld
+      name: Secret Lair Theros Stargazing VolIV Purphoros
+      count: 1
+    - set: sld
+      name: Secret Lair Theros Stargazing VolV Nylea
+      count: 1
   Secret Lair Theros Stargazing VolI Heliod:
     card_count: 4
     deck:
@@ -2339,8 +2392,28 @@ products:
     deck:
     - name: Totally Spaced Out foil
       set: sld
-  Secret Lair Transformers Foil Bundle: []
-  Secret Lair Transformers Non Foil Bundle: []
+  Secret Lair Transformers Foil Bundle: 
+    sealed:
+    - set: sld
+      count: 1
+      name: Secret Lair Transformers One Shall Stand One Shall Fall Foil Edition
+    - set: sld
+      count: 1
+      name: Secret Lair Transformers Optimus Prime Vs Megatron Foil Edition
+    - set: sld
+      count: 1
+      name: Secret Lair Transformers Roll Out or Rise Up Foil Edition
+  Secret Lair Transformers Non Foil Bundle: 
+    sealed:
+    - set: sld
+      count: 1
+      name: Secret Lair Transformers One Shall Stand One Shall Fall
+    - set: sld
+      count: 1
+      name: Secret Lair Transformers Optimus Prime Vs Megatron
+    - set: sld
+      count: 1
+      name: Secret Lair Transformers Roll Out or Rise Up
   Secret Lair Transformers One Shall Stand One Shall Fall:
     card_count: 6
     deck:
@@ -2371,7 +2444,11 @@ products:
     deck:
     - name: Transformers Roll Out or Rise Up foil
       set: sld
-  Secret Lair Ultimate Edition - The Enemy Fetch Lands: []
+  Secret Lair Ultimate Edition - The Enemy Fetch Lands: 
+    card_count: 5
+    deck:
+    - set: slu
+      name: Making Fetch Happen
   Secret Lair Ultimate Edition 2 - Hidden Pathways - Black Box: []
   Secret Lair Valentines Day 2021 Foil:
     card_count: 7
