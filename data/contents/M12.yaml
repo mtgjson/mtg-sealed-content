@@ -33,9 +33,32 @@ products:
     deck:
     - name: Vampire Onslaught
       set: m12
-  2012 Core Set Event Decks - Set of 2: []
+  2012 Core Set Event Decks - Set of 2: 
+    sealed:
+    - set: m12
+      count: 1
+      name: 2012 Core Set Event Deck Illusionary Might
+    - set: m12
+      count: 1
+      name: 2012 Core Set Event Deck Vampire Onslaught
   2012 Core Set Fat Pack: []
-  2012 Core Set Intro Pack Display: []
+  2012 Core Set Intro Pack Display: 
+    sealed:
+    - set: m12
+      count: 3
+      name: '2012 Core Set Intro Pack: Blood and Fire (Red/Black)'
+    - set: m12
+      count: 3
+      name: '2012 Core Set Intro Pack: Entangling Webs (Green/Red)'
+    - set: m12
+      count: 3
+      name: '2012 Core Set Intro Pack: Grab for Power (Black/Blue)'
+    - set: m12
+      count: 3
+      name: '2012 Core Set Intro Pack: Mystical Might (Blue/White)'
+    - set: m12
+      count: 3
+      name: '2012 Core Set Intro Pack: Sacred Assault (White/Green)'
   '2012 Core Set Intro Pack: Blood and Fire (Red/Black)':
     card_count: 60
     deck:
@@ -81,5 +104,25 @@ products:
     - count: 1
       name: 2012 Core Set Booster Pack
       set: m12
-  2012 Core Set Set of 5 Intro Packs: []
-  Core Set 2012 6 Card Booster Pack: []
+  2012 Core Set Set of 5 Intro Packs: 
+    sealed:
+    - set: m12
+      count: 1
+      name: '2012 Core Set Intro Pack: Blood and Fire (Red/Black)'
+    - set: m12
+      count: 1
+      name: '2012 Core Set Intro Pack: Entangling Webs (Green/Red)'
+    - set: m12
+      count: 1
+      name: '2012 Core Set Intro Pack: Grab for Power (Black/Blue)'
+    - set: m12
+      count: 1
+      name: '2012 Core Set Intro Pack: Mystical Might (Blue/White)'
+    - set: m12
+      count: 1
+      name: '2012 Core Set Intro Pack: Sacred Assault (White/Green)'
+  Core Set 2012 6 Card Booster Pack: 
+    card_count: 6
+    pack:
+    - set: m12
+      code: six
