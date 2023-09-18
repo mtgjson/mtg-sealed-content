@@ -57,7 +57,23 @@ products:
     - count: 2
       name: Dragons Maze Booster Pack
       set: dgm
-  Dragons Maze Intro Pack Set of 5: []
+  Dragons Maze Intro Pack Set of 5: 
+    sealed:
+    - set: dgm
+      count: 1
+      name: Dragons Maze Intro Pack Azorius Authority
+    - set: dgm
+      count: 1
+      name: Dragons Maze Intro Pack Gruul Siege
+    - set: dgm
+      count: 1
+      name: Dragons Maze Intro Pack Orzhov Power
+    - set: dgm
+      count: 1
+      name: Dragons Maze Intro Pack Rakdos Revelry
+    - set: dgm
+      count: 1
+      name: Dragons Maze Intro Pack Simic Domination
   Dragons Maze Intro Pack Simic Domination:
     card_count: 60
     deck:
@@ -67,7 +83,38 @@ products:
     - count: 2
       name: Dragons Maze Booster Pack
       set: dgm
-  Dragons Maze Prerelease Guild Kit 10 Pack: []
+  Dragons Maze Prerelease Guild Kit 10 Pack: 
+    sealed:
+    - set: dgm
+      count: 1
+      name: Dragons Maze Prerelease Guild Kit Azorius
+    - set: dgm
+      count: 1
+      name: Dragons Maze Prerelease Guild Kit Boros
+    - set: dgm
+      count: 1
+      name: Dragons Maze Prerelease Guild Kit Dimir
+    - set: dgm
+      count: 1
+      name: Dragons Maze Prerelease Guild Kit Golgari
+    - set: dgm
+      count: 1
+      name: Dragons Maze Prerelease Guild Kit Gruul
+    - set: dgm
+      count: 1
+      name: Dragons Maze Prerelease Guild Kit Izzet
+    - set: dgm
+      count: 1
+      name: Dragons Maze Prerelease Guild Kit Orzhov
+    - set: dgm
+      count: 1
+      name: Dragons Maze Prerelease Guild Kit Rakdos
+    - set: dgm
+      count: 1
+      name: Dragons Maze Prerelease Guild Kit Selesnya
+    - set: dgm
+      count: 1
+      name: Dragons Maze Prerelease Guild Kit Simic
   Dragons Maze Prerelease Guild Kit Azorius: []
   Dragons Maze Prerelease Guild Kit Boros: []
   Dragons Maze Prerelease Guild Kit Dimir: []
