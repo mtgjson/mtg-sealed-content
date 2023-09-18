@@ -7,7 +7,7 @@ permissions: write-all
 
 jobs:
   build:
-    if: github.repository_owner == mtgjson
+    if: github.repository == 'mtgjson/mtg-sealed-content'
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo content
