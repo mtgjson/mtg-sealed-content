@@ -40,7 +40,23 @@ products:
     - name: Official Rakdos Guild Pin
     - name: Rakdos Symbol Sticker
     - name: Insert With Mission Instructions
-  Ravnica Allegiance Guild Kit Set of 5: []
+  Ravnica Allegiance Guild Kit Set of 5: 
+    sealed:
+    - set: gk2
+      name: Ravnica Allegiance Guild Kit Azorius
+      count: 1
+    - set: gk2
+      name: Ravnica Allegiance Guild Kit Gruul
+      count: 1
+    - set: gk2
+      name: Ravnica Allegiance Guild Kit Orzhov
+      count: 1
+    - set: gk2
+      name: Ravnica Allegiance Guild Kit Rakdos
+      count: 1
+    - set: gk2
+      name: Ravnica Allegiance Guild Kit Simic
+      count: 1
   Ravnica Allegiance Guild Kit Simic:
     card_count: 60
     deck:
