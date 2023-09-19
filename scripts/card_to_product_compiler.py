@@ -70,7 +70,10 @@ class MtgjsonCardLinker:
     @staticmethod
     def get_card_obj_from_card(card_content: Dict[str, Any]) -> List[Card]:
         finish = "foil" if card_content.get("foil") else "nonfoil"
-        return [Card(card_content["uuid"], finish)]
+        if "uuid" in card_content:
+            return [Card(card_content["uuid"], finish)]
+        else:
+            return []
 
     def get_cards_in_content_type(
         self, content_key: str, content: Dict[str, Any]
