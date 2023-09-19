@@ -11,20 +11,20 @@ products:
     - code: default
       set: fut
   Future Sight Fat Pack: []
-  Future Sight Theme Deck Display: 
+  Future Sight Theme Deck Display:
     sealed:
-    - set: fut
-      count: 3
+    - count: 3
       name: Future Sight Theme Deck Fate Blaster
-    - set: fut
-      count: 3
+      set: fut
+    - count: 3
       name: Future Sight Theme Deck Future Shock
-    - set: fut
-      count: 3
+      set: fut
+    - count: 3
       name: Future Sight Theme Deck Rebels Unite
-    - set: fut
-      count: 3
+      set: fut
+    - count: 3
       name: Future Sight Theme Deck Suspended Sentence
+      set: fut
   Future Sight Theme Deck Fate Blaster:
     card_count: 60
     deck:

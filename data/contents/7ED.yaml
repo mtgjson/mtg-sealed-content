@@ -25,23 +25,23 @@ products:
     deck:
     - name: Decay
       set: 7ed
-  Seventh Edition Theme Deck Display: 
+  Seventh Edition Theme Deck Display:
     sealed:
-    - set: 7ed
-      count: 3
+    - count: 3
       name: Seventh Edition Theme Deck Armada
-    - set: 7ed
-      count: 3
+      set: 7ed
+    - count: 3
       name: Seventh Edition Theme Deck Bomber
-    - set: 7ed
-      count: 3
+      set: 7ed
+    - count: 3
       name: Seventh Edition Theme Deck Decay
-    - set: 7ed
-      count: 3
+      set: 7ed
+    - count: 3
       name: Seventh Edition Theme Deck Infestation
-    - set: 7ed
-      count: 3
+      set: 7ed
+    - count: 3
       name: Seventh Edition Theme Deck Way Wild
+      set: 7ed
   Seventh Edition Theme Deck Infestation:
     card_count: 40
     deck:
@@ -52,22 +52,22 @@ products:
     deck:
     - name: Way Wild
       set: 7ed
-  Seventh Edition Two Player Starter: 
-    deck:
-    - set: 7ed
-      name: Gold Deck
-    - set: 7ed
-      name: Silver Deck
-    - set: 7ed
-      name: Gold Pack
-    - set: 7ed
-      name: Silver Pack
-    card_count: 74
+  Seventh Edition Two Player Starter:
     card:
-    - set: 7ed
-      number: 273s
+    - foil: true
       name: Thorn Elemental
-      foil: true
+      number: 273s
+      set: 7ed
+    card_count: 74
+    deck:
+    - name: Gold Deck
+      set: 7ed
+    - name: Silver Deck
+      set: 7ed
+    - name: Gold Pack
+      set: 7ed
+    - name: Silver Pack
+      set: 7ed
     other:
     - name: Two playmats
     - name: Two cardboard life counters
@@ -77,6 +77,6 @@ products:
     - name: One consumer response card
   Seventh Edition Two Player Starter Deck Display:
     sealed:
-    - set: 7ed
-      count: 6
+    - count: 6
       name: Seventh Edition Two Player Starter
+      set: 7ed
