@@ -93,7 +93,11 @@ products:
     - count: 1
       name: 2010 Core Set Booster Pack
       set: m10
-  Core Set 2010 6 Card Booster Pack: []
+  Core Set 2010 6 Card Booster Pack:
+    card_count: 6
+    pack:
+    - code: six
+      set: m10
   Magic Deck Builders Toolkit:
     card_count: 225
     deck:
