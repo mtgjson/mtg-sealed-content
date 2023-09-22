@@ -20,7 +20,7 @@ products:
     pack:
     - code: default
       set: csp
-  Coldsnap Fat Pack: 
+  Coldsnap Fat Pack:
     other:
     - name: Two card boxes
     - name: Coldsnap player guide
@@ -30,9 +30,9 @@ products:
     - name: 1 40 card Basic Land pack (all snow-covered!)
     - name: Jeff Grub's Ice Age novel The Gathering Dark
     sealed:
-    - set: csp
-      count: 6
+    - count: 6
       name: Coldsnap Booster Pack
+      set: csp
   Coldsnap Kjeldoran Cunning Precon Theme Deck:
     card_count: 60
     deck:

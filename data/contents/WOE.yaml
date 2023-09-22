@@ -60,17 +60,17 @@ products:
     pack:
     - code: default
       set: woe
-  Wilds of Eldraine Prerelease Pack: 
-    sealed:
-    - set: woe
-      name: Wilds of Eldraine Draft Booster Pack
-      count: 6
-    other: 
+  Wilds of Eldraine Prerelease Pack:
+    card_count: 1
+    other:
     - name: Wilds of Eldraine Spindown
     pack:
-    - set: woe
-      code: prerelease
-    card_count: 1
+    - code: prerelease
+      set: woe
+    sealed:
+    - count: 6
+      name: Wilds of Eldraine Draft Booster Pack
+      set: woe
   Wilds of Eldraine Set Booster Box:
     sealed:
     - count: 30

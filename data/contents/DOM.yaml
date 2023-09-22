@@ -16,18 +16,18 @@ products:
     pack:
     - code: default
       set: dom
-  Dominaria Bundle: 
-    sealed:
-    - set: dom
-      name: Dominaria Booster Pack
-      count: 10
+  Dominaria Bundle:
     other:
     - name: 1 card box
-    - name: 1 player’s guide
+    - name: "1 player\u2019s guide"
     - name: 80-card land pack
     - name: 1 learn-to-play insert
-    - name: 1 Spindown™ life counter
+    - name: "1 Spindown\u2122 life counter"
     - name: 1 Menu booklet
+    sealed:
+    - count: 10
+      name: Dominaria Booster Pack
+      set: dom
   Dominaria Planeswalker Deck Chandra:
     card_count: 60
     deck:
@@ -62,17 +62,17 @@ products:
     - count: 1
       name: Dominaria Planeswalker Deck Teferi
       set: dom
-  Dominaria Prerelease Pack: 
-    sealed:
-    - set: dom
-      name: Dominaria Booster Pack
-      count: 6
+  Dominaria Prerelease Pack:
+    card_count: 1
     other:
     - name: 1 Dominaria Spindown
     pack:
-    - set: dom
-      code: prerelease
-    card_count: 1
+    - code: prerelease
+      set: dom
+    sealed:
+    - count: 6
+      name: Dominaria Booster Pack
+      set: dom
   Dominaria Theme Booster Black:
     card_count: 35
     pack:

@@ -10,11 +10,7 @@ products:
     pack:
     - code: default
       set: con
-  Conflux Fat Pack: 
-    sealed:
-    - set: con
-      name: Conflux Booster Pack
-      count: 8
+  Conflux Fat Pack:
     other:
     - name: One card box
     - name: The Conflux Player's Guide
@@ -22,6 +18,10 @@ products:
     - name: A sample chapter from Agents of Artifice
     - name: A pack of 40 basic land
     - name: Conflux Spindown Life Counter
+    sealed:
+    - count: 8
+      name: Conflux Booster Pack
+      set: con
   Conflux Intro Pack Bant on the March:
     card_count: 41
     deck:
