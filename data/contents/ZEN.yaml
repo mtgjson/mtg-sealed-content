@@ -5,7 +5,11 @@ products:
     - count: 3
       name: Zendikar Booster Pack
       set: zen
-  Zendikar 6 Card Booster Pack: []
+  Zendikar 6 Card Booster Pack: 
+    card_count: 6
+    pack:
+    - set: zen
+      code: six
   Zendikar Booster Box:
     sealed:
     - count: 6
@@ -21,7 +25,16 @@ products:
     pack:
     - code: default
       set: zen
-  Zendikar Fat Pack: []
+  Zendikar Fat Pack: 
+    sealed:
+    - set: zen
+      count: 8
+      name: Zendikar Booster Pack
+    other:
+    - name: Zendikar life counter
+    - name: Player's Guide
+    - name: 40 card land pack
+    - name: 2 Collectible Boxes
   Zendikar Intro Pack Black Rise of the Vampires:
     card_count: 41
     deck:
@@ -67,4 +80,20 @@ products:
     - count: 1
       name: Zendikar Booster Pack
       set: zen
-  Zendikar Set of 5 Intro Packs: []
+  Zendikar Set of 5 Intro Packs: 
+    sealed:
+    - set: zen
+      count: 1
+      name: Zendikar Intro Pack Black Rise of the Vampires
+    - set: zen
+      count: 1
+      name: Zendikar Intro Pack Blue Unstable Terrain
+    - set: zen
+      count: 1
+      name: Zendikar Intro Pack Green The Adventurers
+    - set: zen
+      count: 1
+      name: Zendikar Intro Pack Red Pumped Up
+    - set: zen
+      count: 1
+      name: Zendikar Intro Pack White Kor Armory
