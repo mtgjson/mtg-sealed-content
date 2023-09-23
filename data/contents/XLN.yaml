@@ -1,6 +1,30 @@
 code: xln
 products:
-  Ixalan Booster Battle Pack: []
+  Ixalan Booster Battle Pack: 
+    variable:
+    - deck:
+      - set: w17
+        name: Amonkhet Welcome Deck - White
+    - deck:
+      - set: w17
+        name: Amonkhet Welcome Deck - Blue
+    - deck:
+      - set: w17
+        name: Amonkhet Welcome Deck - Black
+    - deck:
+      - set: w17
+        name: Amonkhet Welcome Deck - Red
+    - deck:
+      - set: w17
+        name: Amonkhet Welcome Deck - Green
+    variable_mode:
+      count: 2
+      replacement: false
+    card_count: 60
+    sealed:
+    - set: xln
+      name: Ixalan Booster Pack
+      count: 2
   Ixalan Booster Box:
     sealed:
     - count: 36
@@ -16,8 +40,62 @@ products:
     pack:
     - code: default
       set: xln
-  Ixalan Bundle: []
-  Ixalan Deck Builders Toolkit: []
+  Ixalan Bundle: 
+    sealed:
+    - set: xln
+      name: Ixalan Booster Pack
+      count: 10
+    other:
+    - name: 1 Card box
+    - name: 1 Player’s Guide with visual encyclopedia for Ixalan
+    - name: 80 Basic land cards
+    - name: 1 Magic learn-to-play guide
+    - name: 1 Spindown life counter
+    - name: 2 Deck boxes
+  Ixalan Deck Builders Toolkit: 
+    sealed:
+    - set: xln
+      name: Ixalan Booster Pack
+      count: 2
+    - set: kld
+      name: Kaladesh Booster Pack
+      count: 1
+    - count: 1
+      name: Amonkhet Booster Pack
+      set: akh
+    card_count: 225
+    deck:
+    - set: xln
+      name: Fixed Content
+    other:
+    - name: Ixalan Deck Builder's Guide
+    - name: Magic Learn to Play Guide
+    - name: Card Storage Box
+    variable:
+    - deck:
+      - set: xln
+        name: Black and White Vampires
+    - deck:
+      - set: xln
+        name: Red and Green Dinosaurs
+    - deck:
+      - set: xln
+        name: Blue and Green Merfolk
+    - deck:
+      - set: xln
+        name: Red and Black Pirates
+    - deck:
+      - set: xln
+        name: Blue and Black Pirates
+    - deck:
+      - set: xln
+        name: Red and White Dinosaurs
+    - deck:
+      - set: xln
+        name: Blue and Green Ramp
+    variable_mode:
+      replacement: false
+      count: 4
   Ixalan Planeswalker Deck Huatli:
     card_count: 60
     deck:
@@ -36,5 +114,22 @@ products:
     - count: 1
       name: Ixalan Booster Pack
       set: xln
-  Ixalan Planeswalker Decks - Set of 2: []
-  Ixalan Prerelease Pack: []
+  Ixalan Planeswalker Decks - Set of 2: 
+    sealed:
+    - set: xln
+      count: 1
+      name: Ixalan Planeswalker Deck Jace
+    - set: xln
+      count: 1
+      name: Ixalan Planeswalker Deck Huatli
+  Ixalan Prerelease Pack: 
+    sealed:
+    - set: xln
+      name: Ixalan Booster Pack
+      count: 6
+    card_count: 1
+    pack:
+    - set: xln
+      code: prerelease
+    other:
+    - name: Ixalan Spindown
