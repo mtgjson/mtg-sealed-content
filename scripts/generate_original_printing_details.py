@@ -141,6 +141,8 @@ def main():
     set_codes = scryfall_provider.get_all_scryfall_sets()
     for set_code in set_codes:
         cards = scryfall_provider.download_cards(set_code)
+        if not cards:
+            continue
 
         top_card_multiverse_ids = cards[0].get("multiverse_ids", [])
         if (
