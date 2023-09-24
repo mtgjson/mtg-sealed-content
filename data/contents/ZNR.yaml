@@ -1,39 +1,39 @@
 code: znr
 products:
-  Zendikar Rising Bundle: 
-    sealed:
-    - set: znr
-      count: 10 
-      name: Zendikar Rising Draft Booster Pack
-    other:
-    - name: 1 reusable storage box
-    - name: 20 foil basic lands
-    - name: 20 non-foil basic lands
-    - name: 1 oversized spindown counter
-    - name: 2 reference cards
+  Zendikar Rising Bundle:
     card:
-    - name: Charix, the Raging Isle
+    - foil: true
+      name: Charix, the Raging Isle
       number: 386
-      foil: true
       set: znr
-  Zendikar Rising Bundle Gift Edition: 
-    sealed:
-    - set: znr
-      count: 10 
-      name: Zendikar Rising Draft Booster Pack
-    - set: znr
-      count: 1
-      name: Zendikar Rising Collector Booster Pack
     other:
     - name: 1 reusable storage box
     - name: 20 foil basic lands
     - name: 20 non-foil basic lands
     - name: 1 oversized spindown counter
     - name: 2 reference cards
+    sealed:
+    - count: 10
+      name: Zendikar Rising Draft Booster Pack
+      set: znr
+  Zendikar Rising Bundle Gift Edition:
     card:
-    - name: Charix, the Raging Isle
+    - foil: true
+      name: Charix, the Raging Isle
       number: 386
-      foil: true
+      set: znr
+    other:
+    - name: 1 reusable storage box
+    - name: 20 foil basic lands
+    - name: 20 non-foil basic lands
+    - name: 1 oversized spindown counter
+    - name: 2 reference cards
+    sealed:
+    - count: 10
+      name: Zendikar Rising Draft Booster Pack
+      set: znr
+    - count: 1
+      name: Zendikar Rising Collector Booster Pack
       set: znr
   Zendikar Rising Collector Booster Box:
     sealed:
@@ -76,22 +76,22 @@ products:
     pack:
     - code: default
       set: znr
-  Zendikar Rising Prerelease Pack: 
-    sealed:
-    - set: znr
-      name: Zendikar Rising Draft Booster Pack
-      count: 6
+  Zendikar Rising Prerelease Pack:
+    card_count: 1
     other:
     - name: Zendikar Rising Spindown
     pack:
-    - set: znr
-      code: prerelease
-    card_count: 1
-  Zendikar Rising Prerelease Pack Case: 
+    - code: prerelease
+      set: znr
     sealed:
-    - set: znr
+    - count: 6
+      name: Zendikar Rising Draft Booster Pack
+      set: znr
+  Zendikar Rising Prerelease Pack Case:
+    sealed:
+    - count: 18
       name: Zendikar Rising Prerelease Pack
-      count: 18
+      set: znr
   Zendikar Rising Prerelease Pack plus 2 Zendikar Rising Prize Packs: []
   Zendikar Rising Set Booster Box:
     sealed:

@@ -26,16 +26,16 @@ products:
     - code: jp
       set: war
   War of the Spark Bundle:
-    sealed:
-    - set: war
-      name: War of the Spark Booster Pack
-      count: 10
     other:
     - name: 1 card box
-    - name: 1 player’s guide
+    - name: "1 player\u2019s guide"
     - name: 80-card land pack
     - name: 1 learn-to-play insert
     - name: 1 Spindown life counter
+    sealed:
+    - count: 10
+      name: War of the Spark Booster Pack
+      set: war
   War of the Spark Planeswalker Deck Display:
     sealed:
     - count: 3
@@ -70,17 +70,17 @@ products:
     - count: 1
       name: War of the Spark Planeswalker Deck Jace
       set: war
-  War of the Spark Prerelease Pack: 
-    sealed:
-    - set: war
-      name: War of the Spark Booster Pack
-      count: 6
+  War of the Spark Prerelease Pack:
+    card_count: 2
     other:
     - name: War of the Spark Spindown
     pack:
-    - set: war
-      code: prerelease
-    card_count: 2
+    - code: prerelease
+      set: war
+    sealed:
+    - count: 6
+      name: War of the Spark Booster Pack
+      set: war
   War of the Spark Theme Booster Box:
     sealed:
     - count: 2

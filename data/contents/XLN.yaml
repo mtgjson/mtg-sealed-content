@@ -1,30 +1,30 @@
 code: xln
 products:
-  Ixalan Booster Battle Pack: 
+  Ixalan Booster Battle Pack:
+    card_count: 60
+    sealed:
+    - count: 2
+      name: Ixalan Booster Pack
+      set: xln
     variable:
     - deck:
-      - set: w17
-        name: Amonkhet Welcome Deck - White
+      - name: Amonkhet Welcome Deck - White
+        set: w17
     - deck:
-      - set: w17
-        name: Amonkhet Welcome Deck - Blue
+      - name: Amonkhet Welcome Deck - Blue
+        set: w17
     - deck:
-      - set: w17
-        name: Amonkhet Welcome Deck - Black
+      - name: Amonkhet Welcome Deck - Black
+        set: w17
     - deck:
-      - set: w17
-        name: Amonkhet Welcome Deck - Red
+      - name: Amonkhet Welcome Deck - Red
+        set: w17
     - deck:
-      - set: w17
-        name: Amonkhet Welcome Deck - Green
+      - name: Amonkhet Welcome Deck - Green
+        set: w17
     variable_mode:
       count: 2
       replacement: false
-    card_count: 60
-    sealed:
-    - set: xln
-      name: Ixalan Booster Pack
-      count: 2
   Ixalan Booster Box:
     sealed:
     - count: 36
@@ -40,62 +40,62 @@ products:
     pack:
     - code: default
       set: xln
-  Ixalan Bundle: 
-    sealed:
-    - set: xln
-      name: Ixalan Booster Pack
-      count: 10
+  Ixalan Bundle:
     other:
     - name: 1 Card box
-    - name: 1 Player’s Guide with visual encyclopedia for Ixalan
+    - name: "1 Player\u2019s Guide with visual encyclopedia for Ixalan"
     - name: 80 Basic land cards
     - name: 1 Magic learn-to-play guide
     - name: 1 Spindown life counter
     - name: 2 Deck boxes
-  Ixalan Deck Builders Toolkit: 
     sealed:
-    - set: xln
+    - count: 10
       name: Ixalan Booster Pack
-      count: 2
-    - set: kld
-      name: Kaladesh Booster Pack
-      count: 1
-    - count: 1
-      name: Amonkhet Booster Pack
-      set: akh
+      set: xln
+  Ixalan Deck Builders Toolkit:
     card_count: 225
     deck:
-    - set: xln
-      name: Fixed Content
+    - name: Fixed Content
+      set: xln
     other:
     - name: Ixalan Deck Builder's Guide
     - name: Magic Learn to Play Guide
     - name: Card Storage Box
+    sealed:
+    - count: 2
+      name: Ixalan Booster Pack
+      set: xln
+    - count: 1
+      name: Kaladesh Booster Pack
+      set: kld
+    - count: 1
+      name: Amonkhet Booster Pack
+      set: akh
     variable:
     - deck:
-      - set: xln
-        name: Black and White Vampires
+      - name: Black and White Vampires
+        set: xln
     - deck:
-      - set: xln
-        name: Red and Green Dinosaurs
+      - name: Red and Green Dinosaurs
+        set: xln
     - deck:
-      - set: xln
-        name: Blue and Green Merfolk
+      - name: Blue and Green Merfolk
+        set: xln
     - deck:
-      - set: xln
-        name: Red and Black Pirates
+      - name: Red and Black Pirates
+        set: xln
     - deck:
-      - set: xln
-        name: Blue and Black Pirates
+      - name: Blue and Black Pirates
+        set: xln
     - deck:
-      - set: xln
-        name: Red and White Dinosaurs
+      - name: Red and White Dinosaurs
+        set: xln
     - deck:
-      - set: xln
-        name: Blue and Green Ramp
+      - name: Blue and Green Ramp
+        set: xln
     variable_mode:
-      replacement: false
       count: 4
+      replacement: false
   Ixalan Planeswalker Deck Huatli:
     card_count: 60
     deck:
@@ -114,22 +114,22 @@ products:
     - count: 1
       name: Ixalan Booster Pack
       set: xln
-  Ixalan Planeswalker Decks - Set of 2: 
+  Ixalan Planeswalker Decks - Set of 2:
     sealed:
-    - set: xln
-      count: 1
+    - count: 1
       name: Ixalan Planeswalker Deck Jace
-    - set: xln
-      count: 1
+      set: xln
+    - count: 1
       name: Ixalan Planeswalker Deck Huatli
-  Ixalan Prerelease Pack: 
-    sealed:
-    - set: xln
-      name: Ixalan Booster Pack
-      count: 6
+      set: xln
+  Ixalan Prerelease Pack:
     card_count: 1
-    pack:
-    - set: xln
-      code: prerelease
     other:
     - name: Ixalan Spindown
+    pack:
+    - code: prerelease
+      set: xln
+    sealed:
+    - count: 6
+      name: Ixalan Booster Pack
+      set: xln
