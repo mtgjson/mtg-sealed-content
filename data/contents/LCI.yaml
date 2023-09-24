@@ -1,17 +1,54 @@
 code: lci
 products:
   The Lost Caverns of Ixalan Bundle: []
-  The Lost Caverns of Ixalan Bundle Case: []
-  The Lost Caverns of Ixalan Collector Booster Box: []
-  The Lost Caverns of Ixalan Collector Booster Box Case: []
+  The Lost Caverns of Ixalan Bundle Case: 
+    sealed:
+    - set: lci
+      name: The Lost Caverns of Ixalan Bundle
+      count: 6
+  The Lost Caverns of Ixalan Collector Booster Box: 
+    sealed:
+    - set: lci
+      name: The Lost Caverns of Ixalan Collector Booster Pack
+      count: 12
+    - set: lci
+      name: The Lost Caverns of Ixalan Box Topper Pack - Foil
+      count: 1
+  The Lost Caverns of Ixalan Collector Booster Box Case: 
+    sealed:
+    - set: lci
+      name: The Lost Caverns of Ixalan Collector Booster Box
+      count: 6
   The Lost Caverns of Ixalan Collector Booster Box Master Case: []
   The Lost Caverns of Ixalan Collector Booster Pack: []
-  The Lost Caverns of Ixalan Draft Booster Box: []
-  The Lost Caverns of Ixalan Draft Booster Box Case: []
+  The Lost Caverns of Ixalan Draft Booster Box: 
+    sealed:
+    - set: lci
+      name: The Lost Caverns of Ixalan Draft Booster Pack
+      count: 36
+    - set: lci
+      name: The Lost Caverns of Ixalan Box Topper Pack - Nonfoil
+      count: 1
+  The Lost Caverns of Ixalan Draft Booster Box Case: 
+    sealed:
+    - set: lci
+      name: The Lost Caverns of Ixalan Draft Booster Box
+      count: 6
   The Lost Caverns of Ixalan Draft Booster Pack: []
   The Lost Caverns of Ixalan Gift Bundle: []
   The Lost Caverns of Ixalan Gift Bundle Case: []
   The Lost Caverns of Ixalan Prerelease Pack: []
-  The Lost Caverns of Ixalan Set Booster Box: []
-  The Lost Caverns of Ixalan Set Booster Box Case: []
+  The Lost Caverns of Ixalan Set Booster Box: 
+    sealed:
+    - set: lci
+      name: The Lost Caverns of Ixalan Set Booster Pack
+      count: 30
+    - set: lci
+      name: The Lost Caverns of Ixalan Box Topper Pack - Nonfoil
+      count: 1
+  The Lost Caverns of Ixalan Set Booster Box Case: 
+    sealed:
+    - set: lci
+      name: The Lost Caverns of Ixalan Set Booster Box
+      count: 6
   The Lost Caverns of Ixalan Set Booster Pack: []
