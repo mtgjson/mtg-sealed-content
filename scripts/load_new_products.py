@@ -65,11 +65,11 @@ def main():
             load_data = yaml.safe_load(yfile)
         with open(Path("data/contents").joinpath(set_file.name), 'r') as yfile:
             content_data = yaml.safe_load(yfile)
-        for p_name in load_data.keys():
+        for p_name in load_data['products'].keys():
             if p_name not in content_data['products']:
                 content_data['products'][p_name] = []
         with open(Path("data/contents").joinpath(set_file.name), 'w') as yfile:
-            yaml.dump(content_data)
+            yaml.dump(content_data, yfile)
             
 def legacy():
     codes = set()
