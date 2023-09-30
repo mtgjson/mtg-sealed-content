@@ -2,7 +2,10 @@ code: m21
 products:
   Core Set 2021 Arena Starter Kit:
     category: TWO_PLAYER_STARTER_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '233880'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/magic-arena-starter-kit
     release_date: '2020-07-03'
     subtype: STARTER
   Core Set 2021 Bundle:

@@ -56,9 +56,8 @@ def main():
         else:
             ck_review.update({product['name']: {"identifiers": {"cardKingdomId": str(product['id'])}}})
         
-    if ck_review or tg_review:
-        with open('data/review.yaml', 'w') as yfile:
-            yaml.dump({'cardKingdom': ck_review, 'tcgplayer': tg_review}, yfile)
+    with open('data/review.yaml', 'w') as yfile:
+        yaml.dump({'cardKingdom': ck_review, 'tcgplayer': tg_review}, yfile)
     
     for set_file in Path("data/products").glob("*.yaml"):
         with open(set_file, 'r') as yfile:
