@@ -1,5 +1,93 @@
 code: m10
 products:
+  2010 Core Set 3x Booster Packs draft set:
+    category: DRAFT_SET
+    identifiers:
+      tcgplayerProductId: '32531'
+    subtype: DEFAULT
+  2010 Core Set Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '127041'
+      tcgplayerProductId: '32529'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/2010-core-set-booster-box
+    subtype: DEFAULT
+  2010 Core Set Booster Box Case 6 Boxes:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '32538'
+    subtype: UNKNOWN
+  2010 Core Set Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '127042'
+      tcgplayerProductId: '32530'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/2010-core-set-booster-pack
+    subtype: DEFAULT
+  2010 Core Set Fat Pack:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '127049'
+      tcgplayerProductId: '32532'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/2010-core-set-fat-pack
+    subtype: UNKNOWN
+  2010 Core Set Intro Pack Deaths Minions:
+    category: DECK
+    identifiers:
+      cardKingdomId: '127044'
+      tcgplayerProductId: '32533'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/2010-core-set-intro-pack-deaths-minions
+    subtype: INTRO
+  2010 Core Set Intro Pack Display 10:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '32539'
+    subtype: INTRO
+  2010 Core Set Intro Pack Firebomber:
+    category: DECK
+    identifiers:
+      cardKingdomId: '127045'
+      tcgplayerProductId: '32537'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/2010-core-set-intro-pack-firebomber
+    subtype: INTRO
+  2010 Core Set Intro Pack Natures Fury:
+    category: DECK
+    identifiers:
+      cardKingdomId: '127046'
+      tcgplayerProductId: '32534'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/2010-core-set-intro-pack-natures-fury
+    subtype: INTRO
+  2010 Core Set Intro Pack Presence of Mind:
+    category: DECK
+    identifiers:
+      cardKingdomId: '127047'
+      tcgplayerProductId: '32535'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/2010-core-set-intro-pack-presence-of-mind
+    subtype: INTRO
+  2010 Core Set Intro Pack We Are Legion:
+    category: DECK
+    identifiers:
+      cardKingdomId: '127048'
+      tcgplayerProductId: '32536'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/2010-core-set-intro-pack-we-are-legion
+    subtype: INTRO
   Core Set 2010 6 Card Booster Pack:
     category: BOOSTER_PACK
+    identifiers: {}
     subtype: DEFAULT
+  Magic Deck Builders Toolkit:
+    category: BOX_SET
+    identifiers:
+      cardKingdomId: '199107'
+      tcgplayerProductId: '92505'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/deck-builders-toolkit-2010-core-set
+    subtype: DECK_BUILDERS_TOOLKIT

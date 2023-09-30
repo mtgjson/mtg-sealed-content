@@ -1,0 +1,80 @@
+code: ody
+products:
+  Odyssey Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '1421'
+      tcgplayerProductId: '27294'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/odyssey-booster-box
+    subtype: DEFAULT
+  Odyssey Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '1422'
+      tcgplayerProductId: '27356'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/odyssey-booster-pack
+    subtype: DEFAULT
+  Odyssey Fat Pack:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '240344'
+      tcgplayerProductId: '78323'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/odyssey-fat-pack
+    subtype: UNKNOWN
+  Odyssey Theme Deck Display:
+    category: DECK_BOX
+    identifiers:
+      cardKingdomId: '240178'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/odyssey-theme-deck-display
+    subtype: THEME
+  Odyssey Theme Deck Liftoff:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1427'
+      tcgplayerProductId: '215784'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/odyssey-theme-deck-liftoff
+    subtype: THEME
+  Odyssey Theme Deck One Two Punch:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1426'
+      tcgplayerProductId: '120582'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/odyssey-theme-deck-one-two-punch
+    subtype: THEME
+  Odyssey Theme Deck Pressure Cooker:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1425'
+      tcgplayerProductId: '215785'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/odyssey-theme-deck-pressure-cooker
+    subtype: THEME
+  Odyssey Theme Deck Trounce O Matic:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1424'
+      tcgplayerProductId: '215786'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/odyssey-theme-deck-trounce-o-matic
+    subtype: THEME
+  Odyssey Tournament Pack:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1423'
+      tcgplayerProductId: '139151'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/odyssey-tournament-pack
+    subtype: UNKNOWN
+  Odyssey Tournament Pack Display:
+    category: CASE
+    identifiers:
+      cardKingdomId: '240179'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/odyssey-tournament-pack-display
+    subtype: UNKNOWN

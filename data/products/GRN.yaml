@@ -1,0 +1,130 @@
+code: grn
+products:
+  Guilds of Ravnica Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '221357'
+      tcgplayerProductId: '173362'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/guilds-of-ravnica-booster-box
+    release_date: '2018-10-05'
+    subtype: DEFAULT
+  Guilds of Ravnica Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '173363'
+    release_date: '2018-10-05'
+    subtype: UNKNOWN
+  Guilds of Ravnica Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '221358'
+      tcgplayerProductId: '173364'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/guilds-of-ravnica-booster-pack
+    release_date: '2018-10-05'
+    subtype: DEFAULT
+  Guilds of Ravnica Bundle:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '221359'
+      tcgplayerProductId: '173365'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/guilds-of-ravnica-bundle
+    release_date: '2018-10-05'
+    subtype: UNKNOWN
+  Guilds of Ravnica Planeswalker Deck Display:
+    category: DECK_BOX
+    identifiers:
+      cardKingdomId: '240148'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/guilds-of-ravnica-planeswalker-deck-display
+    subtype: PLANESWALKER
+  Guilds of Ravnica Planeswalker Deck Ral:
+    category: DECK
+    identifiers:
+      cardKingdomId: '221369'
+      tcgplayerProductId: '176692'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/guilds-of-ravnica-planeswalker-deck-ral
+    release_date: '2018-10-05'
+    subtype: PLANESWALKER
+  Guilds of Ravnica Planeswalker Deck Vraska:
+    category: DECK
+    identifiers:
+      cardKingdomId: '221370'
+      tcgplayerProductId: '176691'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/guilds-of-ravnica-planeswalker-deck-vraska
+    release_date: '2018-10-05'
+    subtype: PLANESWALKER
+  Guilds of Ravnica Planeswalker Decks - Set of 2:
+    category: SUBSET
+    identifiers:
+      tcgplayerProductId: '176693'
+    subtype: PLANESWALKER
+  Guilds of Ravnica Prerelease Pack Boros:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '173371'
+    subtype: UNKNOWN
+  Guilds of Ravnica Prerelease Pack Dimir:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '173372'
+    subtype: UNKNOWN
+  Guilds of Ravnica Prerelease Pack Golgari:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '176694'
+    subtype: UNKNOWN
+  Guilds of Ravnica Prerelease Pack Izzet:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '176695'
+    subtype: UNKNOWN
+  Guilds of Ravnica Prerelease Pack Selesnya:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '176696'
+    subtype: UNKNOWN
+  Guilds of Ravnica Prerelease Pack Set of 5:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '177706'
+    subtype: UNKNOWN
+  Guilds of Ravnica Theme Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      tcgplayerProductId: '182892'
+    subtype: THEME
+  Guilds of Ravnica Theme Booster Pack Boros:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '176698'
+    subtype: THEME
+  Guilds of Ravnica Theme Booster Pack Dimir:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '176699'
+    subtype: THEME
+  Guilds of Ravnica Theme Booster Pack Golgari:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '176700'
+    subtype: THEME
+  Guilds of Ravnica Theme Booster Pack Izzet:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '176701'
+    subtype: THEME
+  Guilds of Ravnica Theme Booster Pack Selesnya:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '176702'
+    subtype: THEME
+  Guilds of Ravnica Theme Booster Pack Set of 5:
+    category: SUBSET
+    identifiers:
+      tcgplayerProductId: '176703'
+    subtype: THEME

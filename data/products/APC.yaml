@@ -1,0 +1,58 @@
+code: apc
+products:
+  Apocalypse Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '1309'
+      tcgplayerProductId: '27264'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/apocalypse-booster-box
+    subtype: DEFAULT
+  Apocalypse Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '1308'
+      tcgplayerProductId: '27326'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/apocalypse-booster-pack
+    subtype: DEFAULT
+  Apocalypse Fat Pack:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '228576'
+      tcgplayerProductId: '78303'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/apocalypse-fat-pack
+    subtype: UNKNOWN
+  Apocalypse Theme Deck Burial:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1310'
+      tcgplayerProductId: '208256'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/apocalypse-theme-deck-burial
+    subtype: THEME
+  Apocalypse Theme Deck Pandemonium:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1311'
+      tcgplayerProductId: '208254'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/apocalypse-theme-deck-pandemonium
+    subtype: THEME
+  Apocalypse Theme Deck Swoop:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1312'
+      tcgplayerProductId: '208257'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/apocalypse-theme-deck-swoop
+    subtype: THEME
+  Apocalypse Theme Deck Whirlpool:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1313'
+      tcgplayerProductId: '208255'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/apocalypse-theme-deck-whirlpool
+    subtype: THEME

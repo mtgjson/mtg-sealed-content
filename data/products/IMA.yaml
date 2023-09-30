@@ -1,0 +1,25 @@
+code: ima
+products:
+  Iconic Masters Draft Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '214898'
+      tcgplayerProductId: '145235'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/iconic-masters-booster-box
+    release_date: '2017-11-17'
+    subtype: DEFAULT
+  Iconic Masters Draft Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '145237'
+    subtype: UNKNOWN
+  Iconic Masters Draft Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '214899'
+      tcgplayerProductId: '145236'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/iconic-masters-booster-pack
+    release_date: '2017-11-17'
+    subtype: DEFAULT

@@ -1,0 +1,97 @@
+code: dom
+products:
+  Dominaria Booster Battle Pack:
+    category: TWO_PLAYER_STARTER_SET
+    identifiers:
+      tcgplayerProductId: '172939'
+    subtype: BATTLE
+  Dominaria Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '217676'
+      tcgplayerProductId: '158423'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/dominaria-booster-box
+    release_date: '2018-04-27'
+    subtype: DEFAULT
+  Dominaria Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '158424'
+    release_date: '2018-04-27'
+    subtype: UNKNOWN
+  Dominaria Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '217678'
+      tcgplayerProductId: '158425'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/dominaria-booster-pack
+    release_date: '2018-04-27'
+    subtype: DEFAULT
+  Dominaria Bundle:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '217680'
+      tcgplayerProductId: '158426'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/dominaria-bundle
+    release_date: '2018-04-27'
+    subtype: UNKNOWN
+  Dominaria Planeswalker Deck Chandra:
+    category: DECK
+    identifiers:
+      cardKingdomId: '217728'
+      tcgplayerProductId: '158427'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/dominaria-planeswalker-deck-chandra-bold-pyromancer
+    subtype: PLANESWALKER
+  Dominaria Planeswalker Deck Teferi:
+    category: DECK
+    identifiers:
+      cardKingdomId: '217727'
+      tcgplayerProductId: '158428'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/dominaria-planeswalker-deck-teferi-timebender
+    subtype: PLANESWALKER
+  Dominaria Planeswalker Decks - Set of 2:
+    category: SUBSET
+    identifiers:
+      tcgplayerProductId: '158429'
+    release_date: '2018-04-27'
+    subtype: PLANESWALKER
+  Dominaria Prerelease Pack:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '158430'
+    subtype: UNKNOWN
+  Dominaria Theme Booster Black:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '166671'
+    subtype: THEME
+  Dominaria Theme Booster Blue:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '166674'
+    subtype: THEME
+  Dominaria Theme Booster Green:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '166673'
+    subtype: THEME
+  Dominaria Theme Booster Red:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '166675'
+    subtype: THEME
+  Dominaria Theme Booster Set of 5:
+    category: SUBSET
+    identifiers:
+      tcgplayerProductId: '166676'
+    subtype: THEME
+  Dominaria Theme Booster White:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '166672'
+    subtype: THEME

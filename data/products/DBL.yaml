@@ -1,0 +1,26 @@
+code: dbl
+products:
+  Innistrad Double Feature Draft Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '253780'
+      tcgplayerProductId: '255911'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/innistrad-double-feature-draft-booster-box
+    release_date: '2022-01-28'
+    subtype: DEFAULT
+  Innistrad Double Feature Draft Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '255913'
+    release_date: '2022-01-28'
+    subtype: UNKNOWN
+  Innistrad Double Feature Draft Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '253781'
+      tcgplayerProductId: '255912'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/innistrad-double-feature-draft-booster-pack
+    release_date: '2022-01-28'
+    subtype: DEFAULT

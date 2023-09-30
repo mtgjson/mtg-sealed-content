@@ -2,4 +2,100 @@ code: nph
 products:
   New Phyrexia 6 Card Booster Pack:
     category: BOOSTER_PACK
+    identifiers: {}
     subtype: DEFAULT
+  New Phyrexia Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '184276'
+      tcgplayerProductId: '39410'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/new-phyrexia-booster-box
+    subtype: DEFAULT
+  New Phyrexia Booster Box Case 6 boxes:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '39440'
+    subtype: UNKNOWN
+  New Phyrexia Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '184277'
+      tcgplayerProductId: '39409'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/new-phyrexia-booster-pack
+    subtype: DEFAULT
+  New Phyrexia Event Deck Rot from Within:
+    category: DECK
+    identifiers:
+      cardKingdomId: '184644'
+      tcgplayerProductId: '42100'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/new-phyrexia-event-deck-rot-from-within
+    subtype: EVENT
+  New Phyrexia Event Deck War of Attrition:
+    category: DECK
+    identifiers:
+      cardKingdomId: '184645'
+      tcgplayerProductId: '42099'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/new-phyrexia-event-deck-war-of-attrition
+    subtype: EVENT
+  New Phyrexia Event Decks - Set of 2:
+    category: SUBSET
+    identifiers:
+      tcgplayerProductId: '42101'
+    subtype: UNKNOWN
+  New Phyrexia Fat Pack:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '184281'
+      tcgplayerProductId: '39402'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/new-phyrexia-fat-pack
+    subtype: UNKNOWN
+  New Phyrexia Intro Pack Artful Destruction:
+    category: DECK
+    identifiers:
+      cardKingdomId: '184457'
+      tcgplayerProductId: '39408'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/new-phyrexia-intro-pack-artful-destruction-white-green
+    subtype: INTRO
+  New Phyrexia Intro Pack Devouring Skies:
+    category: DECK
+    identifiers:
+      cardKingdomId: '184458'
+      tcgplayerProductId: '39407'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/new-phyrexia-intro-pack-devouring-skies-blue-black
+    subtype: INTRO
+  New Phyrexia Intro Pack Feast of Flesh:
+    category: DECK
+    identifiers:
+      cardKingdomId: '184459'
+      tcgplayerProductId: '39406'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/new-phyrexia-intro-pack-feast-of-flesh-black-red
+    subtype: INTRO
+  New Phyrexia Intro Pack Life for Death:
+    category: DECK
+    identifiers:
+      cardKingdomId: '184460'
+      tcgplayerProductId: '39405'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/new-phyrexia-intro-pack-life-for-death-red-white
+    subtype: INTRO
+  New Phyrexia Intro Pack Ravaging Swarm:
+    category: DECK
+    identifiers:
+      cardKingdomId: '184461'
+      tcgplayerProductId: '39404'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/new-phyrexia-intro-pack-ravaging-swarm-green-blue
+    subtype: INTRO
+  New Phyrexia Set of 5 Intro Packs:
+    category: SUBSET
+    identifiers:
+      tcgplayerProductId: '39403'
+    subtype: INTRO

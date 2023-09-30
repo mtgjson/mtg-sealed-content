@@ -1,6 +1,120 @@
 code: war
 products:
+  War of the Spark Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '224020'
+      tcgplayerProductId: '185676'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/war-of-the-spark-booster-box
+    release_date: '2019-05-03'
+    subtype: DEFAULT
+  War of the Spark Booster Box (Non-English JAPANESE):
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '224609'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/war-of-the-spark-booster-box-non-english-japanese
+    subtype: DEFAULT
+  War of the Spark Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '185675'
+    release_date: '2019-05-03'
+    subtype: UNKNOWN
+  War of the Spark Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '224021'
+      tcgplayerProductId: '185677'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/war-of-the-spark-booster-pack
+    release_date: '2019-05-03'
+    subtype: DEFAULT
   War of the Spark Booster Pack (Non-English JAPANESE):
     category: BOOSTER_PACK
+    identifiers: {}
+    release_date: '2019-05-03'
     subtype: DEFAULT
-    release_date: "2019-05-03"
+  War of the Spark Bundle:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '224023'
+      tcgplayerProductId: '185678'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/war-of-the-spark-bundle
+    release_date: '2019-05-03'
+    subtype: UNKNOWN
+  War of the Spark Planeswalker Deck Display:
+    category: DECK_BOX
+    identifiers:
+      tcgplayerProductId: '185682'
+    subtype: PLANESWALKER
+  War of the Spark Planeswalker Deck Gideon:
+    category: DECK
+    identifiers:
+      cardKingdomId: '224028'
+      tcgplayerProductId: '187178'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/war-of-the-spark-planeswalker-deck-gideon
+    subtype: PLANESWALKER
+  War of the Spark Planeswalker Deck Jace:
+    category: DECK
+    identifiers:
+      cardKingdomId: '224029'
+      tcgplayerProductId: '187179'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/war-of-the-spark-planeswalker-deck-jace
+    subtype: PLANESWALKER
+  War of the Spark Planeswalker Decks - Set of 2:
+    category: SUBSET
+    identifiers:
+      tcgplayerProductId: '185683'
+    subtype: PLANESWALKER
+  War of the Spark Prerelease Pack:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '185687'
+    subtype: UNKNOWN
+  War of the Spark Theme Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      tcgplayerProductId: '188645'
+    release_date: '2019-05-03'
+    subtype: THEME
+  War of the Spark Theme Booster Pack Black:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '188648'
+    release_date: '2019-05-03'
+    subtype: THEME
+  War of the Spark Theme Booster Pack Blue:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '188647'
+    release_date: '2019-05-03'
+    subtype: THEME
+  War of the Spark Theme Booster Pack Green:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '188650'
+    release_date: '2019-05-03'
+    subtype: THEME
+  War of the Spark Theme Booster Pack Red:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '188649'
+    release_date: '2019-05-03'
+    subtype: THEME
+  War of the Spark Theme Booster Pack Set of 5:
+    category: SUBSET
+    identifiers:
+      tcgplayerProductId: '188644'
+    release_date: '2019-05-03'
+    subtype: THEME
+  War of the Spark Theme Booster Pack White:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '188646'
+    release_date: '2019-05-03'
+    subtype: THEME

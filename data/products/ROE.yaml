@@ -1,5 +1,85 @@
 code: roe
 products:
+  Rise of the Eldrazi 3x Booster Packs draft set:
+    category: DRAFT_SET
+    identifiers:
+      tcgplayerProductId: '34681'
+    subtype: DEFAULT
   Rise of the Eldrazi 6 Card Booster Pack:
     category: BOOSTER_PACK
+    identifiers: {}
     subtype: DEFAULT
+  Rise of the Eldrazi Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '130632'
+      tcgplayerProductId: '34678'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/rise-of-the-eldrazi-booster-box
+    subtype: DEFAULT
+  Rise of the Eldrazi Booster Box Case 6 Booster Boxes:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '34679'
+    subtype: UNKNOWN
+  Rise of the Eldrazi Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '130621'
+      tcgplayerProductId: '34680'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/rise-of-the-eldrazi-booster-pack
+    subtype: DEFAULT
+  Rise of the Eldrazi Fat Pack:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '130622'
+      tcgplayerProductId: '34682'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/rise-of-the-eldrazi-fat-pack
+    subtype: UNKNOWN
+  Rise of the Eldrazi Intro Pack Eldrazi Arisen:
+    category: DECK
+    identifiers:
+      cardKingdomId: '130623'
+      tcgplayerProductId: '34687'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/rise-of-the-eldrazi-intro-pack-eldrazi-arisen
+    subtype: INTRO
+  Rise of the Eldrazi Intro Pack Invading Spawn:
+    category: DECK
+    identifiers:
+      cardKingdomId: '130624'
+      tcgplayerProductId: '34686'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/rise-of-the-eldrazi-intro-pack-invading-spawn
+    subtype: INTRO
+  Rise of the Eldrazi Intro Pack Levelers Glory:
+    category: DECK
+    identifiers:
+      cardKingdomId: '130625'
+      tcgplayerProductId: '34684'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/rise-of-the-eldrazi-intro-pack-levelers-glory
+    subtype: INTRO
+  Rise of the Eldrazi Intro Pack Levelers Scorn:
+    category: DECK
+    identifiers:
+      cardKingdomId: '130626'
+      tcgplayerProductId: '34685'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/rise-of-the-eldrazi-intro-pack-levelers-scorn
+    subtype: INTRO
+  Rise of the Eldrazi Intro Pack Totem Power:
+    category: DECK
+    identifiers:
+      cardKingdomId: '130627'
+      tcgplayerProductId: '34688'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/rise-of-the-eldrazi-intro-pack-totem-power
+    subtype: INTRO
+  Rise of the Eldrazi Set of 5 Intro Packs:
+    category: SUBSET
+    identifiers:
+      tcgplayerProductId: '34683'
+    subtype: INTRO

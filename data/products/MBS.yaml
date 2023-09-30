@@ -2,4 +2,115 @@ code: mbs
 products:
   Mirrodin Besieged 6 Card Booster Pack:
     category: BOOSTER_PACK
+    identifiers: {}
     subtype: DEFAULT
+  Mirrodin Besieged All 4 Intro Packs:
+    category: DECK
+    identifiers:
+      tcgplayerProductId: '39115'
+    subtype: INTRO
+  Mirrodin Besieged Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '133026'
+      tcgplayerProductId: '39109'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/mirrodin-besieged-booster-box
+    subtype: DEFAULT
+  Mirrodin Besieged Booster Box Case 6 Boxes:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '39114'
+    subtype: UNKNOWN
+  Mirrodin Besieged Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '133027'
+      tcgplayerProductId: '39108'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/mirrodin-besieged-booster-pack
+    subtype: DEFAULT
+  Mirrodin Besieged Event Deck Infect and Defile:
+    category: DECK
+    identifiers:
+      cardKingdomId: '147764'
+      tcgplayerProductId: '141938'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/mirrodin-besieged-event-deck-infect-defile
+    subtype: EVENT
+  Mirrodin Besieged Event Deck Into the Breach:
+    category: DECK
+    identifiers:
+      cardKingdomId: '147763'
+      tcgplayerProductId: '141937'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/mirrodin-besieged-event-deck-into-the-breach
+    subtype: EVENT
+  Mirrodin Besieged Faction Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '240437'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/mirrodin-besieged-faction-booster-box
+    subtype: DEFAULT
+  Mirrodin Besieged Fat Pack:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '133028'
+      tcgplayerProductId: '39120'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/mirrodin-besieged-fat-pack
+    subtype: UNKNOWN
+  Mirrodin Besieged Intro Pack Battle Cries:
+    category: DECK
+    identifiers:
+      cardKingdomId: '137134'
+      tcgplayerProductId: '39116'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/mirrodin-besieged-intro-pack-battle-cries-white-red
+    subtype: INTRO
+  Mirrodin Besieged Intro Pack Doom Inevitable:
+    category: DECK
+    identifiers:
+      cardKingdomId: '137135'
+      tcgplayerProductId: '39119'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/mirrodin-besieged-intro-pack-doom-inevitable-blue-black
+    subtype: INTRO
+  Mirrodin Besieged Intro Pack Mirromancy:
+    category: DECK
+    identifiers:
+      cardKingdomId: '137136'
+      tcgplayerProductId: '39118'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/mirrodin-besieged-intro-pack-mirromancy-red-blue
+    subtype: INTRO
+  Mirrodin Besieged Intro Pack Path of Blight:
+    category: DECK
+    identifiers:
+      cardKingdomId: '137137'
+      tcgplayerProductId: '39117'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/mirrodin-besieged-intro-pack-path-of-blight-green-white
+    subtype: INTRO
+  Mirrodin Besieged Mirran Faction Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '184197'
+      tcgplayerProductId: '72025'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/mirrodin-besieged-mirran-faction-booster-pack
+    subtype: DEFAULT
+  Mirrodin Besieged Phyrexian Faction Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '184196'
+      tcgplayerProductId: '72026'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/mirrodin-besieged-phyrexian-faction-booster-pack
+    subtype: DEFAULT
+  Mirrodin Besieged Prerelease Box:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '117598'
+    subtype: UNKNOWN

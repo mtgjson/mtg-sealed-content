@@ -1,0 +1,44 @@
+code: rvr
+products:
+  Ravnica Remastered Collector Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      tcgplayerProductId: '517708'
+    release_date: '2024-01-12'
+    subtype: COLLECTOR
+  Ravnica Remastered Collector Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '517710'
+    release_date: '2024-01-12'
+    subtype: COLLECTOR
+  Ravnica Remastered Collector Booster Box Master Case:
+    category: BOOSTER_BOX
+    identifiers:
+      tcgplayerProductId: '517711'
+    release_date: '2024-01-12'
+    subtype: COLLECTOR
+  Ravnica Remastered Collector Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '517707'
+    release_date: '2024-01-12'
+    subtype: COLLECTOR
+  Ravnica Remastered Draft Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      tcgplayerProductId: '517705'
+    release_date: '2024-01-12'
+    subtype: DEFAULT
+  Ravnica Remastered Draft Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '517706'
+    release_date: '2024-01-12'
+    subtype: UNKNOWN
+  Ravnica Remastered Draft Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '517704'
+    release_date: '2024-01-12'
+    subtype: DEFAULT

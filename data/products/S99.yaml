@@ -1,0 +1,76 @@
+code: s99
+products:
+  Starter 1999 Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '240216'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/starter-1999-booster-box
+    subtype: STARTER
+  Starter 1999 Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '194360'
+      tcgplayerProductId: '168359'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/starter-1999-booster-pack
+    subtype: STARTER
+  Starter 1999 Demo Game Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '257332'
+    subtype: STARTER
+  Starter 1999 Starter Game:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '240210'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/starter-1999-starter-game
+    subtype: UNKNOWN
+  Starter 1999 Starter Gift Box:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '240317'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/starter-1999-starter-gift-box
+    subtype: STARTER
+  Starter 1999 Theme Deck Blinding Fury:
+    category: DECK
+    identifiers:
+      cardKingdomId: '240211'
+      tcgplayerProductId: '500265'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/starter-1999-theme-deck-blinding-fury
+    subtype: THEME
+  Starter 1999 Theme Deck Deadly Instinct:
+    category: DECK
+    identifiers:
+      cardKingdomId: '240212'
+      tcgplayerProductId: '500269'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/starter-1999-theme-deck-deadly-instinct
+    subtype: THEME
+  Starter 1999 Theme Deck Goblin Assault:
+    category: DECK
+    identifiers:
+      cardKingdomId: '240213'
+      tcgplayerProductId: '500268'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/starter-1999-theme-deck-goblin-assault
+    subtype: THEME
+  Starter 1999 Theme Deck Impaler:
+    category: DECK
+    identifiers:
+      cardKingdomId: '240214'
+      tcgplayerProductId: '500267'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/starter-1999-theme-deck-impaler
+    subtype: THEME
+  Starter 1999 Theme Deck Time Curse:
+    category: DECK
+    identifiers:
+      cardKingdomId: '240215'
+      tcgplayerProductId: '500266'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/starter-1999-theme-deck-time-curse
+    subtype: THEME

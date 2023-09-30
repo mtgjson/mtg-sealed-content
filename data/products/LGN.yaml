@@ -1,0 +1,58 @@
+code: lgn
+products:
+  Legions Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '1531'
+      tcgplayerProductId: '27287'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/legions-booster-box
+    subtype: DEFAULT
+  Legions Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '1537'
+      tcgplayerProductId: '27349'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/legions-booster-pack
+    subtype: DEFAULT
+  Legions Elvish Rage Theme Deck:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1532'
+      tcgplayerProductId: '96427'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/legions-theme-deck-elvish-rage
+    subtype: THEME
+  Legions Fat Pack:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '240341'
+      tcgplayerProductId: '78316'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/legions-fat-pack
+    subtype: UNKNOWN
+  Legions Morph Mayhem Theme Deck:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1534'
+      tcgplayerProductId: '96426'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/legions-theme-deck-morph-mayhem
+    subtype: THEME
+  Legions Sliver Shivers Theme Deck:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1535'
+      tcgplayerProductId: '96428'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/legions-theme-deck-sliver-shivers
+    subtype: THEME
+  Legions Zombies Unleashed Theme Deck:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1533'
+      tcgplayerProductId: '96429'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/legions-theme-deck-zombies-unleashed
+    subtype: THEME

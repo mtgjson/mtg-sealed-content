@@ -1,5 +1,80 @@
 code: som
 products:
+  Scars of Mirrodin 3x Booster Packs draft set:
+    category: DRAFT_SET
+    identifiers:
+      tcgplayerProductId: '35748'
+    subtype: DEFAULT
   Scars of Mirrodin 6 Card Booster Pack:
     category: BOOSTER_PACK
+    identifiers: {}
     subtype: DEFAULT
+  Scars of Mirrodin Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '132079'
+      tcgplayerProductId: '35749'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/scars-of-mirrodin-booster-box
+    subtype: DEFAULT
+  Scars of Mirrodin Booster Box Case 6 Booster Boxes:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '35750'
+    subtype: UNKNOWN
+  Scars of Mirrodin Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '132071'
+      tcgplayerProductId: '35747'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/scars-of-mirrodin-booster-pack
+    subtype: DEFAULT
+  Scars of Mirrodin Fat Pack:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '132111'
+      tcgplayerProductId: '35746'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/scars-of-mirrodin-fat-pack
+    subtype: UNKNOWN
+  Scars of Mirrodin Intro Pack Deadspread:
+    category: DECK
+    identifiers:
+      cardKingdomId: '132546'
+      tcgplayerProductId: '196803'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/scars-of-mirrodin-intro-pack-deadspread-black-blue
+    subtype: INTRO
+  Scars of Mirrodin Intro Pack Metalcraft:
+    category: DECK
+    identifiers:
+      cardKingdomId: '132545'
+      tcgplayerProductId: '196802'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/scars-of-mirrodin-intro-pack-metalcraft-blue-red
+    subtype: INTRO
+  Scars of Mirrodin Intro Pack Myr of Mirrodin:
+    category: DECK
+    identifiers:
+      cardKingdomId: '132544'
+      tcgplayerProductId: '196801'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/scars-of-mirrodin-intro-pack-myr-of-mirrodin-white
+    subtype: INTRO
+  Scars of Mirrodin Intro Pack Phyrexian Poison:
+    category: DECK
+    identifiers:
+      cardKingdomId: '132548'
+      tcgplayerProductId: '196805'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/scars-of-mirrodin-intro-pack-phyrexian-poison-green-black
+    subtype: INTRO
+  Scars of Mirrodin Intro Pack Relic Breaker:
+    category: DECK
+    identifiers:
+      cardKingdomId: '132547'
+      tcgplayerProductId: '196804'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/scars-of-mirrodin-intro-pack-relic-breaker-red-green
+    subtype: INTRO

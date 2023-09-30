@@ -1,0 +1,23 @@
+code: leb
+products:
+  Beta Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '228581'
+      tcgplayerProductId: '27266'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/beta-booster-box
+    subtype: DEFAULT
+  Beta Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '228582'
+      tcgplayerProductId: '27328'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/beta-booster-pack
+    subtype: DEFAULT
+  Beta Starter Deck:
+    category: DECK
+    identifiers:
+      tcgplayerProductId: '137017'
+    subtype: STARTER

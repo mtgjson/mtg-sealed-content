@@ -1,5 +1,111 @@
 code: m14
 products:
+  2014 Core Set Booster Battle Pack:
+    category: TWO_PLAYER_STARTER_SET
+    identifiers:
+      tcgplayerProductId: '78289'
+    subtype: BATTLE
+  2014 Core Set Booster Battle Pack Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      tcgplayerProductId: '485828'
+    subtype: BATTLE
+  2014 Core Set Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '190469'
+      tcgplayerProductId: '69243'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/2014-core-set-booster-box
+    subtype: DEFAULT
+  2014 Core Set Booster Box Case 6 Boxes:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '69244'
+    subtype: UNKNOWN
+  2014 Core Set Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '190470'
+      tcgplayerProductId: '69245'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/2014-core-set-booster-pack
+    subtype: DEFAULT
+  2014 Core Set Deck Builders Toolkit:
+    category: BOX_SET
+    identifiers:
+      cardKingdomId: '131147'
+      tcgplayerProductId: '92502'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/2014-core-set-deck-builders-toolkit
+    subtype: DECK_BUILDERS_TOOLKIT
+  2014 Core Set Event Deck Rush of the Wild:
+    category: DECK
+    identifiers:
+      cardKingdomId: '191053'
+      tcgplayerProductId: '92501'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/2014-core-set-event-deck-rush-of-the-wild
+    subtype: EVENT
+  2014 Core Set Fat Pack:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '190471'
+      tcgplayerProductId: '69247'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/2014-core-set-fat-pack
+    subtype: UNKNOWN
+  2014 Core Set Intro Pack Bestial Strength:
+    category: DECK
+    identifiers:
+      cardKingdomId: '190587'
+      tcgplayerProductId: '70075'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/2014-core-set-intro-pack-bestial-strength
+    subtype: INTRO
+  2014 Core Set Intro Pack Death Reaper:
+    category: DECK
+    identifiers:
+      cardKingdomId: '190585'
+      tcgplayerProductId: '70078'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/2014-core-set-intro-pack-death-reaper
+    subtype: INTRO
+  2014 Core Set Intro Pack Fire Surge:
+    category: DECK
+    identifiers:
+      cardKingdomId: '190588'
+      tcgplayerProductId: '70079'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/2014-core-set-intro-pack-fire-surge
+    subtype: INTRO
+  2014 Core Set Intro Pack Lightforce:
+    category: DECK
+    identifiers:
+      cardKingdomId: '190589'
+      tcgplayerProductId: '70076'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/2014-core-set-intro-pack-lightforce
+    subtype: INTRO
+  2014 Core Set Intro Pack Psychic Labyrinth:
+    category: DECK
+    identifiers:
+      cardKingdomId: '190586'
+      tcgplayerProductId: '70077'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/2014-core-set-intro-pack-psychic-labyrinth
+    subtype: INTRO
+  2014 Core Set Intro Pack Set of 5:
+    category: SUBSET
+    identifiers:
+      tcgplayerProductId: '190866'
+    subtype: INTRO
+  2014 Core Set Land Station:
+    category: LAND_STATION
+    identifiers:
+      tcgplayerProductId: '215047'
+    subtype: UNKNOWN
   Core Set 2014 6 Card Booster Pack:
     category: BOOSTER_PACK
+    identifiers: {}
     subtype: DEFAULT

@@ -1,6 +1,7 @@
 import pathlib
 
 import ijson
+import json
 import yaml
 from pathlib import Path
 import os
@@ -9,6 +10,11 @@ import time
 import requests
 
 
+def get_cardKingdom():
+    sealed_url = "https://api.cardkingdom.com/api/sealed_pricelist"
+    r = requests.get(sealed_url)
+    return json.loads(r.content)
+
 def main():
     url = "https://mtgjson.com/api/v5/AllPrintings.json"
     r = requests.get(url, stream=True)
@@ -16,9 +22,45 @@ def main():
     alt_codes = {"con_": "con"}
     r_alt_codes = {"CON": "CON_"}
 
-    total = 0
-    complete = 0
-
+    ck_no_url = dict()
+    with open('data/ignore.yaml') as ignore_file:
+        ignore = yaml.safe_load(ignore_file)
+    ck_ids = set(ignore['cardKingdom'].keys())
+    tg_ids = set(ignore['tcgplayer'].keys())
+    ck_review = dict()
+    tg_review = dict()
+    
+    for known_file in Path("data/products").glob("*.yaml"):
+        with open(known_file, 'rb') as yfile:
+            loaded_data = yaml.safe_load(yfile)
+        ck_ids.update({p['identifiers'].get('cardKingdomId', None) for p in loaded_data['products'].values() if "cardKingdom" in p.get('purchase_url', {})})
+        ck_no_url.update({p['identifiers'].get('cardKingdomId', None):known_file for p in loaded_data['products'].values() if "cardKingdom" not in p.get('purchase_url', {})})
+        ck_ids.update({p['identifiers'].get('tcgplayerProductId', None) for p in loaded_data['products'].values()})
+    
+    ck_products = get_cardKingdom()
+    urlbase = ck_products['meta']['base_url']
+    for product in ck_products['data']:
+        if str(product['id']) in ck_ids or product['id'] in ck_ids:
+            continue
+        elif str(product['id']) in ck_no_url or product['id'] in ck_no_url:
+            file = ck_no_url[str(product['id'])]
+            with open(file, 'rb') as yfile:
+                loaded_data = yaml.safe_load(yfile)
+            for p_name in loaded_data['products'].keys():
+                if str(product['id']) == loaded_data['products'][p_name]['identifiers'].get('cardKingdomId', None):
+                    if 'purchase_url' not in loaded_data['products'][p_name]:
+                        loaded_data['products'][p_name]['purchase_url'] = {}
+                    loaded_data['products'][p_name]['purchase_url']['cardKingdom'] = urlbase + product['url']
+            with open(file, 'w') as yfile:
+                yaml.dump(loaded_data, yfile)
+        else:
+            ck_review.update({product['name']: {"identifiers": {"cardKingdomId": str(product['id'])}}})
+        
+    if ck_review or tg_review:
+        with open('data/review.yaml', 'w') as yfile:
+            yaml.dump({'cardKingdom': ck_review, 'tcgplayer': tg_review}, yfile)
+            
+def legacy():
     codes = set()
     all_sets = dict(ijson.kvitems(r.content, "data"))
     for set_code, contents in all_sets.items():

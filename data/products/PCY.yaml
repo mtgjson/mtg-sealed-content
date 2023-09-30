@@ -1,0 +1,58 @@
+code: pcy
+products:
+  Prophecy Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '1221'
+      tcgplayerProductId: '27301'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/prophecy-booster-box
+    subtype: DEFAULT
+  Prophecy Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '1226'
+      tcgplayerProductId: '27363'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/prophecy-booster-pack
+    subtype: DEFAULT
+  Prophecy Fat Pack:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '240192'
+      tcgplayerProductId: '78327'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/prophecy-fat-pack
+    subtype: UNKNOWN
+  Prophecy Theme Deck Distress:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1225'
+      tcgplayerProductId: '116046'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/prophecy-theme-deck-distress
+    subtype: THEME
+  Prophecy Theme Deck Pummel:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1222'
+      tcgplayerProductId: '116047'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/prophecy-theme-deck-pummel
+    subtype: THEME
+  Prophecy Theme Deck Slither:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1223'
+      tcgplayerProductId: '116048'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/prophecy-theme-deck-slither
+    subtype: THEME
+  Prophecy Theme Deck Turnaround:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1224'
+      tcgplayerProductId: '116049'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/prophecy-theme-deck-turnaround
+    subtype: THEME

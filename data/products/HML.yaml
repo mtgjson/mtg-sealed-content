@@ -1,0 +1,18 @@
+code: hml
+products:
+  Homelands Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '1237'
+      tcgplayerProductId: '27282'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/homelands-booster-box
+    subtype: DEFAULT
+  Homelands Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '1181'
+      tcgplayerProductId: '27344'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/homelands-booster-pack
+    subtype: DEFAULT

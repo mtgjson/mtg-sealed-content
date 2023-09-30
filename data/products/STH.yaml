@@ -1,0 +1,50 @@
+code: sth
+products:
+  Stronghold Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '124151'
+      tcgplayerProductId: '27307'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/stronghold-booster-box
+    subtype: DEFAULT
+  Stronghold Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '1196'
+      tcgplayerProductId: '27369'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/stronghold-booster-pack
+    subtype: DEFAULT
+  Stronghold Theme Deck Call of the Kor:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1197'
+      tcgplayerProductId: '139150'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/stronghold-theme-deck-call-of-the-kor
+    subtype: THEME
+  Stronghold Theme Deck Migraine:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1198'
+      tcgplayerProductId: '175072'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/stronghold-theme-deck-migraine
+    subtype: THEME
+  Stronghold Theme Deck The Sparkler:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1199'
+      tcgplayerProductId: '139149'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/stronghold-theme-deck-the-sparkler
+    subtype: THEME
+  Stronghold Theme Deck The Spikes:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1200'
+      tcgplayerProductId: '175071'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/stronghold-theme-deck-the-spikes
+    subtype: THEME

@@ -1,0 +1,50 @@
+code: dis
+products:
+  Dissension Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '120115'
+      tcgplayerProductId: '27273'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/dissension-booster-box
+    subtype: DEFAULT
+  Dissension Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '120116'
+      tcgplayerProductId: '27335'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/dissension-booster-pack
+    subtype: DEFAULT
+  Dissension Fat Pack:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '120120'
+      tcgplayerProductId: '78309'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/dissension-fat-pack
+    subtype: UNKNOWN
+  Dissension Theme Deck Azorius Ascendant:
+    category: DECK
+    identifiers:
+      cardKingdomId: '120483'
+      tcgplayerProductId: '96343'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/dissension-theme-deck-azorius-ascendant
+    subtype: THEME
+  Dissension Theme Deck Rakdos Bloodsport:
+    category: DECK
+    identifiers:
+      cardKingdomId: '120484'
+      tcgplayerProductId: '96344'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/dissension-theme-deck-rakdos-bloodsport
+    subtype: THEME
+  Dissension Theme Deck Simic Mutology:
+    category: DECK
+    identifiers:
+      cardKingdomId: '120485'
+      tcgplayerProductId: '96345'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/dissension-theme-deck-simic-mutology
+    subtype: THEME

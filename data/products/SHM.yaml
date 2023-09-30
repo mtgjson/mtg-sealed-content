@@ -1,0 +1,81 @@
+code: shm
+products:
+  Shadowmoor Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '124493'
+      tcgplayerProductId: '27306'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/shadowmoor-booster-box
+    subtype: DEFAULT
+  Shadowmoor Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '124494'
+      tcgplayerProductId: '27368'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/shadowmoor-booster-pack
+    subtype: DEFAULT
+  Shadowmoor Fat Pack:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '124502'
+      tcgplayerProductId: '78330'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/shadowmoor-fat-pack
+    subtype: UNKNOWN
+  Shadowmoor Theme Deck Army of Entropy:
+    category: DECK
+    identifiers:
+      cardKingdomId: '184198'
+      tcgplayerProductId: '185145'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/shadowmoor-theme-deck-army-of-entropy
+    subtype: THEME
+  Shadowmoor Theme Deck Aura Mastery:
+    category: DECK
+    identifiers:
+      cardKingdomId: '184199'
+      tcgplayerProductId: '185142'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/shadowmoor-theme-deck-aura-mastery
+    subtype: THEME
+  Shadowmoor Theme Deck Mortal Coil:
+    category: DECK
+    identifiers:
+      cardKingdomId: '184200'
+      tcgplayerProductId: '185144'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/shadowmoor-theme-deck-mortal-coil
+    subtype: THEME
+  Shadowmoor Theme Deck Overkill:
+    category: DECK
+    identifiers:
+      cardKingdomId: '184201'
+      tcgplayerProductId: '185143'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/shadowmoor-theme-deck-overkill
+    subtype: THEME
+  Shadowmoor Theme Deck Turnabout:
+    category: DECK
+    identifiers:
+      cardKingdomId: '184202'
+      tcgplayerProductId: '185146'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/shadowmoor-theme-deck-turnabout
+    subtype: THEME
+  Shadowmoor Tournament Pack:
+    category: DECK
+    identifiers:
+      cardKingdomId: '124496'
+      tcgplayerProductId: '185147'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/shadowmoor-tournament-pack
+    subtype: UNKNOWN
+  Shadowmoor Tournament Pack Display:
+    category: CASE
+    identifiers:
+      cardKingdomId: '240204'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/shadowmoor-tournament-pack-display
+    subtype: UNKNOWN

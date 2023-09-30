@@ -1,0 +1,18 @@
+code: all
+products:
+  Alliances Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '124152'
+      tcgplayerProductId: '27261'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/alliances-booster-box
+    subtype: DEFAULT
+  Alliances Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '1227'
+      tcgplayerProductId: '27323'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/alliances-booster-pack
+    subtype: DEFAULT

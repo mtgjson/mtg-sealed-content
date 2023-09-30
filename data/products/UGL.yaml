@@ -1,0 +1,18 @@
+code: ugl
+products:
+  Unglued Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '1212'
+      tcgplayerProductId: '27312'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/unglued-booster-box
+    subtype: DEFAULT
+  Unglued Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '1213'
+      tcgplayerProductId: '27374'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/unglued-booster-pack
+    subtype: DEFAULT

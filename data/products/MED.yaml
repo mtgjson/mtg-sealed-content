@@ -1,0 +1,24 @@
+code: med
+products:
+  Guilds of Ravnica Mythic Edition:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '222356'
+      tcgplayerProductId: '175240'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/guilds-of-ravnica-mythic-edition
+    subtype: DEFAULT
+  Ravnica Allegiance Mythic Edition:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '223910'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/ravnica-allegiance-mythic-edition
+    subtype: DEFAULT
+  War of the Spark Mythic Edition:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '224825'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/war-of-the-spark-mythic-edition
+    subtype: DEFAULT

@@ -1,10 +1,127 @@
 code: mom
 products:
+  March of the Machine Bundle:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '274980'
+      tcgplayerProductId: '475586'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/march-of-the-machine-bundle
+    release_date: '2023-04-21'
+    subtype: UNKNOWN
+  March of the Machine Bundle Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '475587'
+    subtype: UNKNOWN
+  March of the Machine Collector Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '274981'
+      tcgplayerProductId: '475584'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/march-of-the-machine-collector-booster-box
+    release_date: '2023-04-21'
+    subtype: COLLECTOR
+  March of the Machine Collector Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '475585'
+    subtype: COLLECTOR
+  March of the Machine Collector Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '274982'
+      tcgplayerProductId: '475583'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/march-of-the-machine-collector-booster-pack
+    release_date: '2023-04-21'
+    subtype: COLLECTOR
   March of the Machine Collector Booster Sample Pack:
     category: BOOSTER_PACK
+    identifiers: {}
+    release_date: '2023-04-21'
     subtype: COLLECTOR
-    release_date: "2023-04-21"
+  March of the Machine Draft Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '274983'
+      tcgplayerProductId: '475575'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/march-of-the-machine-draft-booster-box
+    release_date: '2023-04-21'
+    subtype: DEFAULT
+  March of the Machine Draft Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '475576'
+    subtype: UNKNOWN
+  March of the Machine Draft Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '274984'
+      tcgplayerProductId: '475577'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/march-of-the-machine-draft-booster-pack
+    release_date: '2023-04-21'
+    subtype: DEFAULT
+  March of the Machine Jumpstart Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '274986'
+      tcgplayerProductId: '475582'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/march-of-the-machine-jumpstart-booster-box
+    release_date: '2023-04-21'
+    subtype: JUMPSTART
+  March of the Machine Jumpstart Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '274985'
+      tcgplayerProductId: '475581'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/march-of-the-machine-jumpstart-booster-pack
+    release_date: '2023-04-21'
+    subtype: JUMPSTART
+  March of the Machine Prerelease Pack:
+    category: PRERELEASE_PACK
+    identifiers:
+      cardKingdomId: '274987'
+      tcgplayerProductId: '475588'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/march-of-the-machine-prerelease-pack
+    release_date: '2023-04-21'
+    subtype: UNKNOWN
+  March of the Machine Set Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '274991'
+      tcgplayerProductId: '475579'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/march-of-the-machine-set-booster-box
+    release_date: '2023-04-21'
+    subtype: SET
+  March of the Machine Set Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '475580'
+    subtype: UNKNOWN
+  March of the Machine Set Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '274990'
+      tcgplayerProductId: '475578'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/march-of-the-machine-set-booster-pack
+    release_date: '2023-04-21'
+    subtype: SET
+  March of the Machine Sleeved Set Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '494954'
+    subtype: SET
   March of the Machine Welcome Booster:
     category: BOOSTER_PACK
+    identifiers: {}
+    release_date: '2023-04-21'
     subtype: STARTER
-    release_date: "2023-04-21"

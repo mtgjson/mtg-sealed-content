@@ -2,7 +2,12 @@ code: 30a
 products:
   Magic 30th Anniversary Edition Booster Box:
     category: BOOSTER_BOX
+    identifiers: {}
     subtype: PREMIUM
-    release_date: null
+  Magic 30th Anniversary Edition Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '273487'
     purchase_url:
-      cardmarket: "https://www.cardmarket.com/en/Magic/Products/Booster-Boxes/30th-Anniversary-Edition-Booster-Box"
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/magic-30th-anniversary-edition-booster-pack
+    subtype: DEFAULT

@@ -1,6 +1,169 @@
 code: znr
 products:
+  Zendikar Rising Bundle:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '236809'
+      tcgplayerProductId: '220426'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/zendikar-rising-bundle
+    release_date: '2020-09-25'
+    subtype: UNKNOWN
+  Zendikar Rising Bundle Gift Edition:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '238663'
+      tcgplayerProductId: '221918'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/zendikar-rising-bundle-gift-edition
+    release_date: '2020-09-25'
+    subtype: UNKNOWN
+  Zendikar Rising Collector Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '236814'
+      tcgplayerProductId: '220423'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/zendikar-rising-collector-booster-box
+    subtype: COLLECTOR
+  Zendikar Rising Collector Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '230865'
+    subtype: COLLECTOR
+  Zendikar Rising Collector Booster Hanger Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '236693'
+    subtype: COLLECTOR
+  Zendikar Rising Collector Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '236812'
+      tcgplayerProductId: '220422'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/zendikar-rising-collector-booster-pack
+    release_date: '2020-09-25'
+    subtype: COLLECTOR
+  Zendikar Rising Draft Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '236808'
+      tcgplayerProductId: '220414'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/zendikar-rising-draft-booster-box
+    subtype: DEFAULT
+  Zendikar Rising Draft Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '220522'
+    release_date: '2020-09-25'
+    subtype: UNKNOWN
+  Zendikar Rising Draft Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '236811'
+      tcgplayerProductId: '220413'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/zendikar-rising-draft-booster-pack
+    release_date: '2020-09-25'
+    subtype: DEFAULT
+  Zendikar Rising Prerelease Pack:
+    category: PRERELEASE_PACK
+    identifiers:
+      cardKingdomId: '236807'
+      tcgplayerProductId: '221314'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/zendikar-rising-prerelease-pack
+    release_date: '2020-09-25'
+    subtype: UNKNOWN
+  Zendikar Rising Prerelease Pack Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '266779'
+    subtype: UNKNOWN
+  Zendikar Rising Prerelease Pack plus 2 Zendikar Rising Prize Packs:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '221315'
+    release_date: '2020-09-25'
+    subtype: UNKNOWN
+  Zendikar Rising Set Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '236816'
+      tcgplayerProductId: '220523'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/zendikar-rising-set-booster-box
+    release_date: '2020-09-25'
+    subtype: SET
+  Zendikar Rising Set Booster Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '509633'
+    subtype: UNKNOWN
+  Zendikar Rising Set Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '236815'
+      tcgplayerProductId: '220524'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/zendikar-rising-set-booster-pack
+    release_date: '2020-09-25'
+    subtype: SET
+  Zendikar Rising Theme Booster Black:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '220415'
+    release_date: '2020-09-25'
+    subtype: THEME
+  Zendikar Rising Theme Booster Blue:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '220416'
+    release_date: '2020-09-25'
+    subtype: THEME
+  Zendikar Rising Theme Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      tcgplayerProductId: '220420'
+    release_date: '2020-09-25'
+    subtype: THEME
+  Zendikar Rising Theme Booster Green:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '220417'
+    release_date: '2020-09-25'
+    subtype: THEME
+  Zendikar Rising Theme Booster Party:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '221915'
+    release_date: '2020-09-25'
+    subtype: THEME
+  Zendikar Rising Theme Booster Red:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '220418'
+    release_date: '2020-09-25'
+    subtype: THEME
+  Zendikar Rising Theme Booster Set of 6:
+    category: SUBSET
+    identifiers:
+      cardKingdomId: '236838'
+      tcgplayerProductId: '222008'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/zendikar-rising-theme-booster-set-of-six
+    release_date: '2020-09-25'
+    subtype: THEME
+  Zendikar Rising Theme Booster White:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '220419'
+    release_date: '2020-09-25'
+    subtype: THEME
   Zendikar Rising Welcome Booster:
     category: BOOSTER_PACK
+    identifiers: {}
+    release_date: '2020-09-25'
     subtype: STARTER
-    release_date: "2020-09-25"

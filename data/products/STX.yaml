@@ -1,18 +1,175 @@
 code: stx
 products:
-  Strixhaven School of Mages Japanese Language Draft Booster Pack:
+  Strixhaven School of Mages Bundle:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '243707'
+      tcgplayerProductId: '233245'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/strixhaven-school-of-mages-bundle
+    release_date: '2021-04-23'
+    subtype: UNKNOWN
+  Strixhaven School of Mages Collector Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '243708'
+      tcgplayerProductId: '233232'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/strixhaven-school-of-mages-collector-booster-box
+    release_date: '2021-04-23'
+    subtype: COLLECTOR
+  Strixhaven School of Mages Collector Booster Hanger Pack:
     category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '236690'
+    release_date: '2021-04-23'
+    subtype: COLLECTOR
+  Strixhaven School of Mages Collector Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '243709'
+      tcgplayerProductId: '233230'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/strixhaven-school-of-mages-collector-booster-pack
+    release_date: '2021-04-23'
+    subtype: COLLECTOR
+  Strixhaven School of Mages Draft Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '243710'
+      tcgplayerProductId: '233249'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/strixhaven-school-of-mages-draft-booster-box
+    release_date: '2021-04-23'
     subtype: DEFAULT
-    release_date: "2021-04-23"
-  Strixhaven School of Mages Japanese Language Set Booster Pack:
+  Strixhaven School of Mages Draft Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '233254'
+    release_date: '2021-04-23'
+    subtype: UNKNOWN
+  Strixhaven School of Mages Draft Booster Pack:
     category: BOOSTER_PACK
-    subtype: SET
-    release_date: "2021-04-23"
+    identifiers:
+      cardKingdomId: '243711'
+      tcgplayerProductId: '233248'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/strixhaven-school-of-mages-draft-booster-pack
+    release_date: '2021-04-23'
+    subtype: DEFAULT
   Strixhaven School of Mages Japanese Language Draft Booster Box:
     category: BOOSTER_BOX
+    identifiers: {}
+    release_date: '2021-04-23'
     subtype: DEFAULT
-    release_date: "2021-04-23"
+  Strixhaven School of Mages Japanese Language Draft Booster Pack:
+    category: BOOSTER_PACK
+    identifiers: {}
+    release_date: '2021-04-23'
+    subtype: DEFAULT
   Strixhaven School of Mages Japanese Language Set Booster Box:
     category: BOOSTER_BOX
+    identifiers: {}
+    release_date: '2021-04-23'
     subtype: SET
-    release_date: "2021-04-23"
+  Strixhaven School of Mages Japanese Language Set Booster Pack:
+    category: BOOSTER_PACK
+    identifiers: {}
+    release_date: '2021-04-23'
+    subtype: SET
+  Strixhaven School of Mages Prerelease Pack Lorehold:
+    category: PRERELEASE_PACK
+    identifiers:
+      cardKingdomId: '243725'
+      tcgplayerProductId: '233309'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/strixhaven-school-of-mages-prerelease-pack-lorehold
+    subtype: UNKNOWN
+  Strixhaven School of Mages Prerelease Pack Prismari:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '233310'
+    subtype: UNKNOWN
+  Strixhaven School of Mages Prerelease Pack Quandrix:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '233311'
+    subtype: UNKNOWN
+  Strixhaven School of Mages Prerelease Pack Set of 5:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '233312'
+    subtype: UNKNOWN
+  Strixhaven School of Mages Prerelease Pack Silverquill:
+    category: PRERELEASE_PACK
+    identifiers:
+      cardKingdomId: '243728'
+      tcgplayerProductId: '233313'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/strixhaven-school-of-mages-prerelease-pack-silverquill
+    subtype: UNKNOWN
+  Strixhaven School of Mages Prerelease Pack Witherbloom:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '233314'
+    subtype: UNKNOWN
+  Strixhaven School of Mages Set Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '243713'
+      tcgplayerProductId: '233229'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/strixhaven-school-of-mages-set-booster-box
+    release_date: '2021-04-23'
+    subtype: SET
+  Strixhaven School of Mages Set Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '243715'
+      tcgplayerProductId: '233228'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/strixhaven-school-of-mages-set-booster-pack
+    release_date: '2021-04-23'
+    subtype: SET
+  Strixhaven School of Mages Theme Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      tcgplayerProductId: '233252'
+    release_date: '2021-04-23'
+    subtype: THEME
+  Strixhaven School of Mages Theme Booster Pack Lorehold:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '233240'
+    release_date: '2021-04-23'
+    subtype: THEME
+  Strixhaven School of Mages Theme Booster Pack Prismari:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '233239'
+    release_date: '2021-04-23'
+    subtype: THEME
+  Strixhaven School of Mages Theme Booster Pack Quandrix:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '233241'
+    release_date: '2021-04-23'
+    subtype: THEME
+  Strixhaven School of Mages Theme Booster Pack Silverquill:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '233236'
+    release_date: '2021-04-23'
+    subtype: THEME
+  Strixhaven School of Mages Theme Booster Pack Witherbloom:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '233238'
+    release_date: '2021-04-23'
+    subtype: THEME
+  Strixhaven School of Mages Theme Booster Set of 5:
+    category: SUBSET
+    identifiers:
+      tcgplayerProductId: '233261'
+    release_date: '2021-04-23'
+    subtype: THEME

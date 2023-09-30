@@ -1,0 +1,48 @@
+code: dmr
+products:
+  Dominaria Remastered Collector Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '272040'
+      tcgplayerProductId: '449559'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/dominaria-remastered-collector-booster-box
+    release_date: '2023-01-13'
+    subtype: COLLECTOR
+  Dominaria Remastered Collector Booster Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '455797'
+    release_date: '2023-01-13'
+    subtype: COLLECTOR
+  Dominaria Remastered Collector Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '272041'
+      tcgplayerProductId: '449570'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/dominaria-remastered-collector-booster-pack
+    subtype: COLLECTOR
+  Dominaria Remastered Draft Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '272043'
+      tcgplayerProductId: '449558'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/dominaria-remastered-draft-booster-box
+    release_date: '2023-01-13'
+    subtype: DEFAULT
+  Dominaria Remastered Draft Booster Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '455798'
+    release_date: '2023-01-13'
+    subtype: UNKNOWN
+  Dominaria Remastered Draft Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '272042'
+      tcgplayerProductId: '449571'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/dominaria-remastered-draft-booster-pack
+    subtype: DEFAULT

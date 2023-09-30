@@ -1,0 +1,18 @@
+code: arn
+products:
+  Arabian Nights Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '228579'
+      tcgplayerProductId: '27265'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/arabian-nights-booster-box
+    subtype: DEFAULT
+  Arabian Nights Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '202190'
+      tcgplayerProductId: '27327'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/arabian-nights-booster-pack
+    subtype: DEFAULT

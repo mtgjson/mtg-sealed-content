@@ -1,0 +1,50 @@
+code: gpt
+products:
+  Guildpact Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '119571'
+      tcgplayerProductId: '27281'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/guildpact-booster-box
+    subtype: DEFAULT
+  Guildpact Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '119572'
+      tcgplayerProductId: '27343'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/guildpact-booster-pack
+    subtype: DEFAULT
+  Guildpact Fat Pack:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '119577'
+      tcgplayerProductId: '78313'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/guildpact-fat-pack
+    subtype: UNKNOWN
+  Guildpact Theme Deck Code of the Orzhov:
+    category: DECK
+    identifiers:
+      cardKingdomId: '119573'
+      tcgplayerProductId: '96340'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/guildpact-theme-deck-code-of-the-orzhov
+    subtype: THEME
+  Guildpact Theme Deck Gruul Wilding:
+    category: DECK
+    identifiers:
+      cardKingdomId: '119574'
+      tcgplayerProductId: '96341'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/guildpact-theme-deck-gruul-wilding
+    subtype: THEME
+  Guildpact Theme Deck Izzet Gizmometry:
+    category: DECK
+    identifiers:
+      cardKingdomId: '119575'
+      tcgplayerProductId: '96342'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/guildpact-theme-deck-izzet-gizmometry
+    subtype: THEME

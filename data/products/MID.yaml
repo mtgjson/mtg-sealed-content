@@ -1,6 +1,162 @@
 code: mid
 products:
+  Innistrad Midnight Hunt 3 Booster Draft Pack:
+    category: DRAFT_SET
+    identifiers:
+      tcgplayerProductId: '246268'
+    release_date: '2021-09-24'
+    subtype: DEFAULT
+  Innistrad Midnight Hunt Bundle:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '249857'
+      tcgplayerProductId: '244382'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/innistrad-midnight-hunt-bundle
+    release_date: '2021-09-24'
+    subtype: UNKNOWN
+  Innistrad Midnight Hunt Bundle Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '259193'
+    subtype: UNKNOWN
+  Innistrad Midnight Hunt Collector Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '249861'
+      tcgplayerProductId: '244384'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/innistrad-midnight-hunt-collector-booster-box
+    release_date: '2021-09-24'
+    subtype: COLLECTOR
+  Innistrad Midnight Hunt Collector Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '244385'
+    release_date: '2021-09-24'
+    subtype: COLLECTOR
+  Innistrad Midnight Hunt Collector Booster Hanger Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '281713'
+    subtype: COLLECTOR
+  Innistrad Midnight Hunt Collector Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '249860'
+      tcgplayerProductId: '244383'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/innistrad-midnight-hunt-collector-booster-pack
+    release_date: '2021-09-24'
+    subtype: COLLECTOR
+  Innistrad Midnight Hunt Draft Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '249858'
+      tcgplayerProductId: '244379'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/innistrad-midnight-hunt-draft-booster-box
+    release_date: '2021-09-24'
+    subtype: DEFAULT
+  Innistrad Midnight Hunt Draft Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '244381'
+    release_date: '2021-09-24'
+    subtype: UNKNOWN
+  Innistrad Midnight Hunt Draft Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '249859'
+      tcgplayerProductId: '244378'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/innistrad-midnight-hunt-draft-booster-pack
+    release_date: '2021-09-24'
+    subtype: DEFAULT
+  Innistrad Midnight Hunt Prerelease Pack:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '247383'
+    release_date: '2021-09-24'
+    subtype: UNKNOWN
+  Innistrad Midnight Hunt Set Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '249862'
+      tcgplayerProductId: '244389'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/innistrad-midnight-hunt-set-booster-box
+    release_date: '2021-09-24'
+    subtype: SET
+  Innistrad Midnight Hunt Set Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '244390'
+    release_date: '2021-09-24'
+    subtype: UNKNOWN
+  Innistrad Midnight Hunt Set Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '249863'
+      tcgplayerProductId: '244387'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/innistrad-midnight-hunt-set-booster-pack
+    release_date: '2021-09-24'
+    subtype: SET
+  Innistrad Midnight Hunt Theme Booster Black:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '247375'
+    release_date: '2021-09-24'
+    subtype: THEME
+  Innistrad Midnight Hunt Theme Booster Blue:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '247377'
+    release_date: '2021-09-24'
+    subtype: THEME
+  Innistrad Midnight Hunt Theme Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      tcgplayerProductId: '244392'
+    release_date: '2021-09-24'
+    subtype: THEME
+  Innistrad Midnight Hunt Theme Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '244393'
+    subtype: THEME
+  Innistrad Midnight Hunt Theme Booster Green:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '247380'
+    release_date: '2021-09-24'
+    subtype: THEME
+  Innistrad Midnight Hunt Theme Booster Red:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '247378'
+    release_date: '2021-09-24'
+    subtype: THEME
+  Innistrad Midnight Hunt Theme Booster Set of 6:
+    category: SUBSET
+    identifiers:
+      tcgplayerProductId: '247368'
+    subtype: THEME
+  Innistrad Midnight Hunt Theme Booster Werewolves:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '247381'
+    release_date: '2021-09-24'
+    subtype: THEME
+  Innistrad Midnight Hunt Theme Booster White:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '247379'
+    release_date: '2021-09-24'
+    subtype: THEME
   Innistrad Midnight Hunt Welcome Booster:
     category: BOOSTER_PACK
+    identifiers: {}
+    release_date: '2021-09-24'
     subtype: STARTER
-    release_date: "2021-09-24"

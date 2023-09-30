@@ -1,10 +1,140 @@
 code: dmu
 products:
+  Dominaria United Box Topper Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '286610'
+    subtype: TOPPER
+  Dominaria United Bundle:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '263988'
+      tcgplayerProductId: '275414'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/dominaria-united-bundle
+    release_date: '2022-09-09'
+    subtype: UNKNOWN
+  Dominaria United Bundle Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '275429'
+    release_date: '2022-09-09'
+    subtype: UNKNOWN
+  Dominaria United Collector Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '263989'
+      tcgplayerProductId: '275412'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/dominaria-united-collector-booster-box
+    release_date: '2022-09-09'
+    subtype: COLLECTOR
+  Dominaria United Collector Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '275434'
+    release_date: '2022-09-09'
+    subtype: COLLECTOR
+  Dominaria United Collector Booster Omega Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '287482'
+    release_date: '2022-09-09'
+    subtype: COLLECTOR
+  Dominaria United Collector Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '263990'
+      tcgplayerProductId: '275407'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/dominaria-united-collector-booster-pack
+    release_date: '2022-09-09'
+    subtype: COLLECTOR
   Dominaria United Collector Booster Sample Pack:
     category: BOOSTER_PACK
+    identifiers: {}
+    release_date: '2022-09-09'
     subtype: COLLECTOR
-    release_date: "2022-09-09"
+  Dominaria United Draft Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '263993'
+      tcgplayerProductId: '275403'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/dominaria-united-draft-booster-box
+    release_date: '2022-09-09'
+    subtype: DEFAULT
+  Dominaria United Draft Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '275433'
+    release_date: '2022-09-09'
+    subtype: UNKNOWN
+  Dominaria United Draft Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '263992'
+      tcgplayerProductId: '275432'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/dominaria-united-draft-booster-pack
+    release_date: '2022-09-09'
+    subtype: DEFAULT
+  Dominaria United Jumpstart Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '263994'
+      tcgplayerProductId: '275428'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/dominaria-united-jumpstart-booster-box
+    release_date: '2022-09-09'
+    subtype: JUMPSTART
+  Dominaria United Jumpstart Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '275435'
+    release_date: '2022-09-09'
+    subtype: JUMPSTART
+  Dominaria United Jumpstart Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '263995'
+      tcgplayerProductId: '275425'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/dominaria-united-jumpstart-booster-pack
+    release_date: '2022-09-09'
+    subtype: JUMPSTART
+  Dominaria United Prerelease Pack:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '275422'
+    release_date: '2022-09-09'
+    subtype: UNKNOWN
+  Dominaria United Set Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '263997'
+      tcgplayerProductId: '275430'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/dominaria-united-set-booster-box
+    release_date: '2022-09-09'
+    subtype: SET
+  Dominaria United Set Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '275431'
+    release_date: '2022-09-09'
+    subtype: UNKNOWN
+  Dominaria United Set Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '263998'
+      tcgplayerProductId: '275405'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/dominaria-united-set-booster-pack
+    release_date: '2022-09-09'
+    subtype: SET
   Dominaria United Welcome Booster:
     category: BOOSTER_PACK
+    identifiers: {}
+    release_date: '2022-09-09'
     subtype: STARTER
-    release_date: "2022-09-09"
