@@ -59,6 +59,17 @@ def main():
     if ck_review or tg_review:
         with open('data/review.yaml', 'w') as yfile:
             yaml.dump({'cardKingdom': ck_review, 'tcgplayer': tg_review}, yfile)
+    
+    for set_file in Path("data/products").glob("*.yaml"):
+        with open(set_file, 'r') as yfile:
+            load_data = yaml.safe_load(yfile)
+        with open(Path("data/contents").joinpath(set_file.name), 'r') as yfile:
+            content_data = yaml.safe_load(yfile)
+        for p_name in load_data.keys():
+            if p_name not in content_data['products']:
+                content_data['products'][p_name] = []
+        with open(Path("data/contents").joinpath(set_file.name), 'w') as yfile:
+            yaml.dump(content_data)
             
 def legacy():
     codes = set()
