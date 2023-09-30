@@ -68,6 +68,12 @@ def main():
         for p_name in load_data['products'].keys():
             if p_name not in content_data['products']:
                 content_data['products'][p_name] = []
+        removes = []
+        for p_name, p_cont in content_data['products'].items():
+            if not p_cont and p_name not in load_data['products']:
+                removes.append(p_name)
+        for n in removes:
+            content_data['products'].pop(n)
         with open(Path("data/contents").joinpath(set_file.name), 'w') as yfile:
             yaml.dump(content_data, yfile)
             
