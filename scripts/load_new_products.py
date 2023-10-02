@@ -1,5 +1,4 @@
 import pathlib
-
 import ijson
 import json
 import yaml
@@ -15,6 +14,85 @@ def get_cardKingdom():
     r = requests.get(sealed_url)
     ck_data = json.loads(r.content)
     return ck_data['meta']['base_url'], ck_data['data']
+
+
+def tcgdownload(url, params={}):
+    header = {} # Need to figure out the correct headers for TCG API
+    api_version = "version" # Need to figure out the correct version for TCG API
+    r = requests.get(url.replace("[API_VERSION]", api_version), params=params, headers=header)
+    return r.content
+
+
+def get_tcgplayer():
+    # get set ids
+    magic_set_ids = []
+    api_offset = 0
+
+    while True:
+        api_response = tcgdownload(
+            "https://api.tcgplayer.com/[API_VERSION]/catalog/categories/1/groups",
+            {"offset": str(api_offset)},
+        )
+
+        if not api_response:
+            # No more entries
+            break
+
+        response = json.loads(api_response)
+        if not response["results"]:
+            # Something went wrong
+            break
+
+        for magic_set in response["results"]:
+            magic_set_ids.append((magic_set["groupId"], magic_set["name"]))
+
+        api_offset += len(response["results"])
+    
+    sealed_data = []
+    for group_id in magic_set_ids:
+        while True:
+            api_response = TCGPlayerProvider().download(
+                "https://api.tcgplayer.com/catalog/products",
+                {
+                    "offset": str(api_offset),
+                    "limit": 100,
+                    "categoryId": 1,
+                    "groupId": str(group_id),
+                    "getExtendedFields": True,
+                    "productTypes": ",".join(TCGPlayerProvider().product_types),
+                },
+            )
+
+            if not api_response:
+                # No more entries
+                break
+
+            try:
+                response = json.loads(api_response)
+            except json.decoder.JSONDecodeError:
+                LOGGER.error(f"Unable to decode TCGPlayer API Response {api_response}")
+                break
+
+            if not response["results"]:
+                LOGGER.warning(
+                    f"Issue with Sealed Product for Group ID: {group_id}: {response}"
+                )
+                break
+            
+            cleaned_data = [
+                {
+                    "name": product['cleanName'],
+                    "id": product['productId'], 
+                    "releaseDate": product["presaleInfo"].get("releasedOn")
+                } for product in response['results']
+            ]
+            sealed_data.extend(cleaned_data)
+            api_offset += len(response["results"])
+
+            # If we got fewer results than requested, no more data is needed
+            if len(response["results"]) < 100:
+                break
+    return sealed_data
 
 
 def main():
@@ -60,6 +138,15 @@ def main():
             ck_review.update({product['name']: {"identifiers": {"cardKingdomId": str(product['id'])}}})
        
     # Load TCGPlayer products [unknown]
+    tg_products = get_tcgplayer()
+    for product in tg_products:
+        if str(product['id']) in tg_ids or product['id'] in tg_id:
+            continue
+        else:
+            tg_review[product['name']] = {
+                "identifiers": {"tcgplayerProductId": product['id']},
+                "release_date": product['releaseDate']
+            }
     
     # Dump new products into the review section    
     with open('data/review.yaml', 'w') as yfile:
