@@ -26,6 +26,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: execute new products
+        env:
+          TCG_auth: ${{ secrets.TCG_auth }}
+        run: python scripts/load_new_products.py "$TCG_auth"
+
       - name: execute manual products compiler
         run: python scripts/new_products_compiler.py
 

@@ -123,6 +123,8 @@ def get_tcgplayer(api_version, auth_code):
 
 
 def get_tcg_auth_code(secret):
+    if not secret:
+        return "v1.39.0", ""
     tcg_post = requests.post(
         "https://api.tcgplayer.com/token",
         data={
@@ -223,5 +225,8 @@ def main(secret):
 
 
 if __name__ == "__main__":
-    secret = json.loads(sys.argv[1])
+    try:
+        secret = json.loads(sys.argv[1])
+    except IndexError:
+        secret = {}
     main(secret)
