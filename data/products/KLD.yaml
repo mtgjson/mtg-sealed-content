@@ -54,12 +54,16 @@ products:
     identifiers:
       cardKingdomId: '209421'
       tcgplayerProductId: '122682'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/kaladesh-planeswalker-deck-chandra-pyrogenius
     subtype: PLANESWALKER
   Kaladesh Planeswalker Deck Nissa:
     category: DECK
     identifiers:
       cardKingdomId: '209420'
       tcgplayerProductId: '122683'
+    purchase_url:
+      cardKingdom: https://www.cardkingdom.com/mtg-sealed/kaladesh-planeswalker-deck-nissa-natures-artisan
     subtype: PLANESWALKER
   Kaladesh Planeswalker Decks - Set of 2:
     category: SUBSET

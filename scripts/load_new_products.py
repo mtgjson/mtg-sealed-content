@@ -7,6 +7,8 @@ import os
 import os.path as path
 import time
 import requests
+from datetime import datetime
+import sys
 
 
 def get_cardKingdom():
@@ -16,22 +18,42 @@ def get_cardKingdom():
     return ck_data['meta']['base_url'], ck_data['data']
 
 
-def tcgdownload(url, params={}):
-    header = {} # Need to figure out the correct headers for TCG API
-    api_version = "version" # Need to figure out the correct version for TCG API
+def tcgdownload(url, params, api_version, auth_code):
+    header = {
+        "Authorization": f"Bearer {auth_code}"
+    } # Need to figure out the correct headers for TCG API
+     # Need to figure out the correct version for TCG API
     r = requests.get(url.replace("[API_VERSION]", api_version), params=params, headers=header)
+    #print(r.ok)
     return r.content
 
 
-def get_tcgplayer():
+def get_tcgplayer(api_version, auth_code):
     # get set ids
     magic_set_ids = []
     api_offset = 0
+    product_types = [
+        "Booster Box",
+        "Booster Pack",
+        "Sealed Products",
+        "Intro Pack",
+        "Fat Pack",
+        "Box Sets",
+        "Precon/Event Decks",
+        "Magic Deck Pack",
+        "Magic Booster Box Case",
+        "All 5 Intro Packs",
+        "Intro Pack Display",
+        "3x Magic Booster Packs",
+        "Booster Battle Pack",
+    ]
 
     while True:
         api_response = tcgdownload(
             "https://api.tcgplayer.com/[API_VERSION]/catalog/categories/1/groups",
             {"offset": str(api_offset)},
+            api_version,
+            auth_code
         )
 
         if not api_response:
@@ -50,17 +72,21 @@ def get_tcgplayer():
     
     sealed_data = []
     for group_id in magic_set_ids:
+        api_offset=0
+        print(group_id)
         while True:
-            api_response = TCGPlayerProvider().download(
+            api_response = tcgdownload(
                 "https://api.tcgplayer.com/catalog/products",
                 {
                     "offset": str(api_offset),
                     "limit": 100,
                     "categoryId": 1,
-                    "groupId": str(group_id),
+                    "groupId": str(group_id[0]),
                     "getExtendedFields": True,
-                    "productTypes": ",".join(TCGPlayerProvider().product_types),
+                    "productTypes": ",".join(product_types),
                 },
+                api_version,
+                auth_code
             )
 
             if not api_response:
@@ -70,11 +96,11 @@ def get_tcgplayer():
             try:
                 response = json.loads(api_response)
             except json.decoder.JSONDecodeError:
-                LOGGER.error(f"Unable to decode TCGPlayer API Response {api_response}")
+                print(f"Unable to decode TCGPlayer API Response {api_response}")
                 break
 
             if not response["results"]:
-                LOGGER.warning(
+                print(
                     f"Issue with Sealed Product for Group ID: {group_id}: {response}"
                 )
                 break
@@ -91,13 +117,36 @@ def get_tcgplayer():
 
             # If we got fewer results than requested, no more data is needed
             if len(response["results"]) < 100:
+                print(f"Found {api_offset} products")
                 break
     return sealed_data
 
 
-def main():
+def get_tcg_auth_code(secret):
+    tcg_post = requests.post(
+        "https://api.tcgplayer.com/token",
+        data={
+            "grant_type": "client_credentials",
+            "client_id": secret.get("client_id"),
+            "client_secret": secret.get("client_secret"),
+        },
+        timeout=60,
+    )
+    if not tcg_post.ok:
+        print(f"Unable to contact TCGPlayer. Reason: {tcg_post.reason}")
+        return ""
+    request_as_json = json.loads(tcg_post.text)
+    
+    api_version = secret.get("api_version", "v1.39.0")
+    
+    return api_version, str(request_as_json.get("access_token", ""))
+
+
+def main(secret):
     url = "https://mtgjson.com/api/v5/AllPrintings.json"
     r = requests.get(url, stream=True)
+    
+    api_version, tcg_auth_code = get_tcg_auth_code(secret)
 
     alt_codes = {"con_": "con"}
     r_alt_codes = {"CON": "CON_"}
@@ -116,7 +165,7 @@ def main():
             loaded_data = yaml.safe_load(yfile)
         ck_ids.update({p['identifiers'].get('cardKingdomId', None) for p in loaded_data['products'].values() if "cardKingdom" in p.get('purchase_url', {})})
         ck_no_url.update({p['identifiers'].get('cardKingdomId', None):known_file for p in loaded_data['products'].values() if "cardKingdom" not in p.get('purchase_url', {})})
-        ck_ids.update({p['identifiers'].get('tcgplayerProductId', None) for p in loaded_data['products'].values()})
+        tg_ids.update({p['identifiers'].get('tcgplayerProductId', None) for p in loaded_data['products'].values()})
     
     # Load Card Kingdom products
     urlbase, ck_products = get_cardKingdom()
@@ -138,15 +187,17 @@ def main():
             ck_review.update({product['name']: {"identifiers": {"cardKingdomId": str(product['id'])}}})
        
     # Load TCGPlayer products [unknown]
-    tg_products = get_tcgplayer()
+    tg_products = get_tcgplayer(api_version, tcg_auth_code)
     for product in tg_products:
-        if str(product['id']) in tg_ids or product['id'] in tg_id:
+        if str(product['id']) in tg_ids or product['id'] in tg_ids:
             continue
         else:
             tg_review[product['name']] = {
-                "identifiers": {"tcgplayerProductId": product['id']},
-                "release_date": product['releaseDate']
+                "identifiers": {"tcgplayerProductId": product['id']}
             }
+            if product['releaseDate']:
+                date_obj = datetime.strptime(product['releaseDate'], '%Y-%m-%dT%H:%M:%S')
+                tg_review[product['name']]['release_date'] = date_obj.strftime("%Y-%m-%d")
     
     # Dump new products into the review section    
     with open('data/review.yaml', 'w') as yfile:
@@ -172,4 +223,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    secret = json.loads(sys.argv[1])
+    main(secret)
