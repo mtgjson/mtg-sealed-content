@@ -1,155 +1,33 @@
 code: m15
 products:
-  2015 Core Set Booster Box:
-    category: BOOSTER_BOX
-    identifiers:
-      cardKingdomId: '194903'
-      tcgplayerProductId: '90786'
-    purchase_url:
-      cardKingdom: https://www.cardkingdom.com/mtg-sealed/2015-core-set-booster-box
-    release_date: '2014-07-18'
-    subtype: DEFAULT
-  2015 Core Set Booster Box Case:
-    category: CASE
-    identifiers:
-      tcgplayerProductId: '90787'
-    subtype: UNKNOWN
-  2015 Core Set Booster Pack:
-    category: BOOSTER_PACK
-    identifiers:
-      cardKingdomId: '194904'
-      tcgplayerProductId: '90785'
-    purchase_url:
-      cardKingdom: https://www.cardkingdom.com/mtg-sealed/2015-core-set-booster-pack
-    release_date: '2014-07-18'
-    subtype: DEFAULT
-  2015 Core Set Clash Pack:
-    category: TWO_PLAYER_STARTER_SET
-    identifiers:
-      cardKingdomId: '195224'
-      tcgplayerProductId: '90793'
-    purchase_url:
-      cardKingdom: https://www.cardkingdom.com/mtg-sealed/clash-pack-2015-core-set
-    subtype: CLASH
-  2015 Core Set Deck Builders Toolkit:
-    category: BOX_SET
-    identifiers:
-      cardKingdomId: '195218'
-      tcgplayerProductId: '90791'
-    purchase_url:
-      cardKingdom: https://www.cardkingdom.com/mtg-sealed/2015-core-set-deck-builders-toolkit
-    subtype: DECK_BUILDERS_TOOLKIT
-  2015 Core Set Fat Pack:
-    category: BUNDLE
-    identifiers:
-      cardKingdomId: '194905'
-      tcgplayerProductId: '90790'
-    purchase_url:
-      cardKingdom: https://www.cardkingdom.com/mtg-sealed/2015-core-set-fat-pack
-    release_date: '2014-07-18'
-    subtype: UNKNOWN
-  2015 Core Set Intro Pack Display:
-    category: CASE
-    identifiers:
-      tcgplayerProductId: '90788'
-    subtype: INTRO
-  2015 Core Set Intro Pack Flames of the Dragon:
-    category: DECK
-    identifiers:
-      cardKingdomId: '195222'
-      tcgplayerProductId: '91077'
-    purchase_url:
-      cardKingdom: https://www.cardkingdom.com/mtg-sealed/2015-core-set-intro-pack-flames-of-the-dragon
-    subtype: INTRO
-  2015 Core Set Intro Pack Hit the Ground Running:
-    category: DECK
-    identifiers:
-      cardKingdomId: '195220'
-      tcgplayerProductId: '91075'
-    purchase_url:
-      cardKingdom: https://www.cardkingdom.com/mtg-sealed/2015-core-set-intro-pack-hit-the-ground-running
-    subtype: INTRO
-  2015 Core Set Intro Pack Infernal Intervention:
-    category: DECK
-    identifiers:
-      cardKingdomId: '195219'
-      tcgplayerProductId: '91076'
-    purchase_url:
-      cardKingdom: https://www.cardkingdom.com/mtg-sealed/2015-core-set-intro-pack-infernal-intervention
-    subtype: INTRO
-  2015 Core Set Intro Pack Price of Glory:
-    category: DECK
-    identifiers:
-      cardKingdomId: '195223'
-      tcgplayerProductId: '91074'
-    purchase_url:
-      cardKingdom: https://www.cardkingdom.com/mtg-sealed/2015-core-set-intro-pack-price-of-glory
-    subtype: INTRO
-  2015 Core Set Intro Pack Set of 5:
-    category: SUBSET
-    identifiers:
-      tcgplayerProductId: '90789'
-    subtype: INTRO
-  2015 Core Set Intro Pack Will of the Masses:
-    category: DECK
-    identifiers:
-      cardKingdomId: '195221'
-      tcgplayerProductId: '91078'
-    purchase_url:
-      cardKingdom: https://www.cardkingdom.com/mtg-sealed/2015-core-set-intro-pack-will-of-the-masses
-    subtype: INTRO
-  2015 Core Set Prerelease Hunt with Ambition:
-    category: PRERELEASE_PACK
-    identifiers:
-      tcgplayerProductId: '92490'
-    subtype: UNKNOWN
-  2015 Core Set Prerelease Hunt with Ferocity:
-    category: PRERELEASE_PACK
-    identifiers:
-      tcgplayerProductId: '92493'
-    subtype: UNKNOWN
-  2015 Core Set Prerelease Hunt with Guile:
-    category: PRERELEASE_PACK
-    identifiers:
-      tcgplayerProductId: '92491'
-    subtype: UNKNOWN
-  2015 Core Set Prerelease Hunt with Strength:
-    category: PRERELEASE_PACK
-    identifiers:
-      tcgplayerProductId: '92492'
-    subtype: UNKNOWN
-  2015 Core Set Prerelease Hunt with Valor:
-    category: PRERELEASE_PACK
-    identifiers:
-      tcgplayerProductId: '92494'
-    subtype: UNKNOWN
-  2015 Core Set Prerelease Pack Set of 5:
-    category: PRERELEASE_PACK
-    identifiers:
-      tcgplayerProductId: '199941'
-    subtype: UNKNOWN
   2015 Core Set Sample Deck Ajani Goldmane:
     category: DECK
-    identifiers: {}
-    release_date: '2014-07-18'
     subtype: STARTER
-  2015 Core Set Sample Deck Chandra Nalaar:
-    category: DECK
-    identifiers: {}
-    release_date: '2014-07-18'
-    subtype: STARTER
-  2015 Core Set Sample Deck Jace Beleren:
-    category: DECK
-    identifiers: {}
-    release_date: '2014-07-18'
-    subtype: STARTER
+    release_date: "2014-07-18"
+    purchase_url:
+      cardmarket: "https://www.cardmarket.com/en/Magic/Products/Preconstructed-Decks/Magic-2015-Ajani-Goldmane-Sample-Deck"
   2015 Core Set Sample Deck Liliana Vess:
     category: DECK
-    identifiers: {}
-    release_date: '2014-07-18'
     subtype: STARTER
+    release_date: "2014-07-18"
+    purchase_url:
+      cardmarket: "https://www.cardmarket.com/en/Magic/Products/Preconstructed-Decks/Magic-2015-Liliana-Vess-Sample-Deck"
   2015 Core Set Sample Deck Nissa Revane:
     category: DECK
-    identifiers: {}
-    release_date: '2014-07-18'
     subtype: STARTER
+    release_date: "2014-07-18"
+    purchase_url:
+      cardmarket: "https://www.cardmarket.com/en/Magic/Products/Preconstructed-Decks/Magic-2015-Nissa-Revane-Sample-Deck"
+  2015 Core Set Sample Deck Chandra Nalaar:
+    category: DECK
+    subtype: STARTER
+    release_date: "2014-07-18"
+    purchase_url:
+      cardmarket: "https://www.cardmarket.com/en/Magic/Products/Preconstructed-Decks/Magic-2015-Chandra-Nalaar-Sample-Deck"
+  2015 Core Set Sample Deck Jace Beleren:
+    category: DECK
+    subtype: STARTER
+    release_date: "2014-07-18"
+    purchase_url:
+      cardmarket: "https://www.cardmarket.com/en/Magic/Products/Preconstructed-Decks/Magic-2015-Jace-Beleren-Sample-Deck"
+ 
