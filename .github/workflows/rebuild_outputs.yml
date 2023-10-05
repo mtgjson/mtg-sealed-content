@@ -28,8 +28,8 @@ jobs:
 
       - name: execute new products
         env:
-          TCG_auth: ${{ secrets.TCG_auth }}
-        run: python scripts/load_new_products.py "$TCG_auth"
+          TCG_AUTH: ${{ secrets.TCG_AUTH }}
+        run: python scripts/load_new_products.py "$TCG_AUTH"
 
       - name: execute manual products compiler
         run: python scripts/new_products_compiler.py
