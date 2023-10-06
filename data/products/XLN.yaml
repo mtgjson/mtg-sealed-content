@@ -10,8 +10,6 @@ products:
     identifiers:
       cardKingdomId: '213868'
       tcgplayerProductId: '141989'
-    purchase_url:
-      cardKingdom: https://www.cardkingdom.com/mtg-sealed/ixalan-booster-box
     release_date: '2017-09-29'
     subtype: DEFAULT
   Ixalan Booster Box Case:
@@ -25,16 +23,12 @@ products:
     identifiers:
       cardKingdomId: '213869'
       tcgplayerProductId: '141991'
-    purchase_url:
-      cardKingdom: https://www.cardkingdom.com/mtg-sealed/ixalan-booster-pack
     subtype: DEFAULT
   Ixalan Bundle:
     category: BUNDLE
     identifiers:
       cardKingdomId: '213871'
       tcgplayerProductId: '141986'
-    purchase_url:
-      cardKingdom: https://www.cardkingdom.com/mtg-sealed/ixalan-bundle
     release_date: '2017-09-29'
     subtype: UNKNOWN
   Ixalan Deck Builders Toolkit:
@@ -42,24 +36,18 @@ products:
     identifiers:
       cardKingdomId: '213877'
       tcgplayerProductId: '148405'
-    purchase_url:
-      cardKingdom: https://www.cardkingdom.com/mtg-sealed/ixalan-deck-builders-toolkit
     subtype: DECK_BUILDERS_TOOLKIT
   Ixalan Planeswalker Deck Huatli:
     category: DECK
     identifiers:
       cardKingdomId: '213983'
       tcgplayerProductId: '144694'
-    purchase_url:
-      cardKingdom: https://www.cardkingdom.com/mtg-sealed/ixalan-planeswalker-deck-huatli-dinosaur-knight
     subtype: PLANESWALKER
   Ixalan Planeswalker Deck Jace:
     category: DECK
     identifiers:
       cardKingdomId: '213984'
       tcgplayerProductId: '144693'
-    purchase_url:
-      cardKingdom: https://www.cardkingdom.com/mtg-sealed/ixalan-planeswalker-deck-jace-ingenious-mind-mage
     subtype: PLANESWALKER
   Ixalan Planeswalker Decks - Set of 2:
     category: SUBSET
@@ -71,6 +59,4 @@ products:
     identifiers:
       cardKingdomId: '214684'
       tcgplayerProductId: '146677'
-    purchase_url:
-      cardKingdom: https://www.cardkingdom.com/mtg-sealed/ixalan-prerelease-pack
     subtype: UNKNOWN
