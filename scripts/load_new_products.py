@@ -213,6 +213,7 @@ def main(secret):
 
 if __name__ == "__main__":
     try:
+        print(sys.argv[1])
         secret = json.loads(sys.argv[1])
     except IndexError:
         secret = {}
