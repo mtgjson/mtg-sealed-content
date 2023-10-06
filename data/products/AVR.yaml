@@ -1,5 +1,89 @@
 code: avr
 products:
+  Avacyn Restored 3x Booster Packs draft set:
+    category: DRAFT_SET
+    identifiers:
+      tcgplayerProductId: '58057'
+    subtype: DEFAULT
   Avacyn Restored 6 Card Booster Pack:
     category: BOOSTER_PACK
+    identifiers: {}
     subtype: DEFAULT
+  Avacyn Restored Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '186639'
+      tcgplayerProductId: '58058'
+    release_date: '2012-05-04'
+    subtype: DEFAULT
+  Avacyn Restored Booster Box Case 6 boxes:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '58060'
+    subtype: UNKNOWN
+  Avacyn Restored Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '186745'
+      tcgplayerProductId: '58056'
+    release_date: '2012-05-04'
+    subtype: DEFAULT
+  Avacyn Restored Event Deck Deaths Encroach:
+    category: DECK
+    identifiers:
+      cardKingdomId: '187248'
+      tcgplayerProductId: '59110'
+    subtype: EVENT
+  Avacyn Restored Event Deck Humanitys Vengeance:
+    category: DECK
+    identifiers:
+      cardKingdomId: '187247'
+      tcgplayerProductId: '59109'
+    subtype: EVENT
+  Avacyn Restored Event Decks - Set of 2:
+    category: SUBSET
+    identifiers:
+      tcgplayerProductId: '59111'
+    subtype: UNKNOWN
+  Avacyn Restored Fat Pack:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '186747'
+      tcgplayerProductId: '58059'
+    release_date: '2012-05-04'
+    subtype: UNKNOWN
+  Avacyn Restored Intro Pack Angelic Might:
+    category: DECK
+    identifiers:
+      cardKingdomId: '186993'
+      tcgplayerProductId: '58262'
+    release_date: '2012-05-04'
+    subtype: INTRO
+  Avacyn Restored Intro Pack Bound by Strength:
+    category: DECK
+    identifiers:
+      cardKingdomId: '186997'
+      tcgplayerProductId: '58266'
+    release_date: '2012-05-04'
+    subtype: INTRO
+  Avacyn Restored Intro Pack Fiery Dawn:
+    category: DECK
+    identifiers:
+      cardKingdomId: '186996'
+      tcgplayerProductId: '58265'
+    release_date: '2012-05-04'
+    subtype: INTRO
+  Avacyn Restored Intro Pack Slaughterhouse:
+    category: DECK
+    identifiers:
+      cardKingdomId: '186995'
+      tcgplayerProductId: '58264'
+    release_date: '2012-05-04'
+    subtype: INTRO
+  Avacyn Restored Intro Pack Solitary Fiends:
+    category: DECK
+    identifiers:
+      cardKingdomId: '186994'
+      tcgplayerProductId: '58263'
+    release_date: '2012-05-04'
+    subtype: INTRO

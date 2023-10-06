@@ -1,16 +1,185 @@
 code: snc
 products:
-  Streets of New Capenna Collector Booster Sample Pack:
-    category: BOOSTER_PACK
-    subtype: COLLECTOR
-    release_date: "2022-04-29"
-  Streets of New Capenna Welcome Booster:
-    category: BOOSTER_PACK
-    subtype: STARTER
-    release_date: "2022-04-29"
   2022 Arena Starter Kit:
     category: TWO_PLAYER_STARTER_SET
+    identifiers: {}
+    release_date: '2022-06-03'
     subtype: STARTER
-    release_date: "2022-06-03"
-    purchase_url:
-      tcgplayer: "https://www.tcgplayer.com/product/273811/magic-arena-starter-kit-2022-arena-starter-kit"
+  Streets of New Capenna 3 Booster Draft Pack:
+    category: DRAFT_SET
+    identifiers:
+      tcgplayerProductId: '264771'
+    release_date: '2022-04-29'
+    subtype: DEFAULT
+  Streets of New Capenna Bundle:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '258173'
+      tcgplayerProductId: '264769'
+    release_date: '2022-04-29'
+    subtype: UNKNOWN
+  Streets of New Capenna Bundle Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '264770'
+    release_date: '2022-04-29'
+    subtype: UNKNOWN
+  Streets of New Capenna Collector Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '258174'
+      tcgplayerProductId: '264767'
+    release_date: '2022-04-29'
+    subtype: COLLECTOR
+  Streets of New Capenna Collector Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '264768'
+    release_date: '2022-04-29'
+    subtype: COLLECTOR
+  Streets of New Capenna Collector Booster Hanger Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '281723'
+    subtype: COLLECTOR
+  Streets of New Capenna Collector Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '258175'
+      tcgplayerProductId: '264766'
+    release_date: '2022-04-29'
+    subtype: COLLECTOR
+  Streets of New Capenna Collector Booster Sample Pack:
+    category: BOOSTER_PACK
+    identifiers: {}
+    release_date: '2022-04-29'
+    subtype: COLLECTOR
+  Streets of New Capenna Draft Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '258176'
+      tcgplayerProductId: '264760'
+    release_date: '2022-04-29'
+    subtype: DEFAULT
+  Streets of New Capenna Draft Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '264761'
+    release_date: '2022-04-29'
+    subtype: UNKNOWN
+  Streets of New Capenna Draft Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '258101'
+      tcgplayerProductId: '264759'
+    release_date: '2022-04-29'
+    subtype: DEFAULT
+  Streets of New Capenna Prerelease Pack Brokers:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '265345'
+    release_date: '2022-04-29'
+    subtype: UNKNOWN
+  Streets of New Capenna Prerelease Pack Cabaretti:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '265344'
+    release_date: '2022-04-29'
+    subtype: UNKNOWN
+  Streets of New Capenna Prerelease Pack Maestros:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '265341'
+    release_date: '2022-04-29'
+    subtype: UNKNOWN
+  Streets of New Capenna Prerelease Pack Obscura:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '264772'
+    release_date: '2022-04-29'
+    subtype: UNKNOWN
+  Streets of New Capenna Prerelease Pack Riveteers:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '265343'
+    release_date: '2022-04-29'
+    subtype: UNKNOWN
+  Streets of New Capenna Prerelease Pack Set of 5:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '265385'
+    release_date: '2022-04-29'
+    subtype: UNKNOWN
+  Streets of New Capenna Set Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '258183'
+      tcgplayerProductId: '264763'
+    release_date: '2022-04-29'
+    subtype: SET
+  Streets of New Capenna Set Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '264762'
+    release_date: '2022-04-29'
+    subtype: UNKNOWN
+  Streets of New Capenna Set Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '258182'
+      tcgplayerProductId: '264765'
+    subtype: SET
+  Streets of New Capenna Theme Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      tcgplayerProductId: '265347'
+    release_date: '2022-04-29'
+    subtype: THEME
+  Streets of New Capenna Theme Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '265383'
+    release_date: '2022-04-29'
+    subtype: THEME
+  Streets of New Capenna Theme Booster Brokers:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '265380'
+    release_date: '2022-04-29'
+    subtype: THEME
+  Streets of New Capenna Theme Booster Cabaretti:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '265377'
+    release_date: '2022-04-29'
+    subtype: THEME
+  Streets of New Capenna Theme Booster Maestros:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '265369'
+    release_date: '2022-04-29'
+    subtype: THEME
+  Streets of New Capenna Theme Booster Obscura:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '265367'
+    release_date: '2022-04-29'
+    subtype: THEME
+  Streets of New Capenna Theme Booster Riveteers:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '265375'
+    release_date: '2022-04-29'
+    subtype: THEME
+  Streets of New Capenna Theme Booster Set of 5:
+    category: SUBSET
+    identifiers:
+      cardKingdomId: '258189'
+      tcgplayerProductId: '265364'
+    release_date: '2022-04-29'
+    subtype: THEME
+  Streets of New Capenna Welcome Booster:
+    category: BOOSTER_PACK
+    identifiers: {}
+    release_date: '2022-04-29'
+    subtype: STARTER

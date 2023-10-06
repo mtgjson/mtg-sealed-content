@@ -1,0 +1,44 @@
+code: scg
+products:
+  Scourge Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '1538'
+      tcgplayerProductId: '27305'
+    subtype: DEFAULT
+  Scourge Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '1544'
+      tcgplayerProductId: '27367'
+    subtype: DEFAULT
+  Scourge Fat Pack:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '240345'
+      tcgplayerProductId: '78329'
+    subtype: UNKNOWN
+  Scourge Theme Deck Goblin Mob:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1540'
+      tcgplayerProductId: '174318'
+    subtype: THEME
+  Scourge Theme Deck Max Attax:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1541'
+      tcgplayerProductId: '174319'
+    subtype: THEME
+  Scourge Theme Deck Pulverize:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1542'
+      tcgplayerProductId: '174320'
+    subtype: THEME
+  Scourge Theme Deck Storm Surge:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1543'
+      tcgplayerProductId: '174321'
+    subtype: THEME

@@ -1,0 +1,32 @@
+code: 5ed
+products:
+  Fifth Edition Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '1170'
+      tcgplayerProductId: '27278'
+    subtype: DEFAULT
+  Fifth Edition Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '1169'
+      tcgplayerProductId: '27340'
+    subtype: DEFAULT
+  Fifth Edition Starter Deck:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1171'
+      tcgplayerProductId: '139148'
+    subtype: STARTER
+  Fifth Edition Starter Deck Display:
+    category: DECK_BOX
+    identifiers:
+      cardKingdomId: '240091'
+      tcgplayerProductId: '184221'
+    subtype: STARTER
+  Fifth Edition Two Player Starter Set:
+    category: TWO_PLAYER_STARTER_SET
+    identifiers:
+      cardKingdomId: '186283'
+      tcgplayerProductId: '232842'
+    subtype: STARTER

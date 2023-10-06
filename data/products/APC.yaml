@@ -1,0 +1,44 @@
+code: apc
+products:
+  Apocalypse Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '1309'
+      tcgplayerProductId: '27264'
+    subtype: DEFAULT
+  Apocalypse Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '1308'
+      tcgplayerProductId: '27326'
+    subtype: DEFAULT
+  Apocalypse Fat Pack:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '228576'
+      tcgplayerProductId: '78303'
+    subtype: UNKNOWN
+  Apocalypse Theme Deck Burial:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1310'
+      tcgplayerProductId: '208256'
+    subtype: THEME
+  Apocalypse Theme Deck Pandemonium:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1311'
+      tcgplayerProductId: '208254'
+    subtype: THEME
+  Apocalypse Theme Deck Swoop:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1312'
+      tcgplayerProductId: '208257'
+    subtype: THEME
+  Apocalypse Theme Deck Whirlpool:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1313'
+      tcgplayerProductId: '208255'
+    subtype: THEME

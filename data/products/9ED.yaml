@@ -1,6 +1,60 @@
 code: 9ed
 products:
+  Ninth Edition Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '117666'
+      tcgplayerProductId: '27260'
+    subtype: DEFAULT
+  Ninth Edition Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '117668'
+      tcgplayerProductId: '27322'
+    subtype: DEFAULT
+  Ninth Edition Box Two Player Starter:
+    category: TWO_PLAYER_STARTER_SET
+    identifiers:
+      tcgplayerProductId: '81799'
+    subtype: STARTER
   Ninth Edition Demo Booster:
     category: BOOSTER_PACK
+    identifiers: {}
+    release_date: '2005-07-29'
     subtype: STARTER
-    release_date: "2005-07-29"
+  Ninth Edition Fat Pack:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '228566'
+      tcgplayerProductId: '78301'
+    subtype: UNKNOWN
+  Ninth Edition Theme Deck Army of Justice:
+    category: DECK
+    identifiers:
+      cardKingdomId: '117669'
+      tcgplayerProductId: '96330'
+    subtype: THEME
+  Ninth Edition Theme Deck Custom Creatures:
+    category: DECK
+    identifiers:
+      cardKingdomId: '117673'
+      tcgplayerProductId: '96331'
+    subtype: THEME
+  Ninth Edition Theme Deck Dead Again:
+    category: DECK
+    identifiers:
+      cardKingdomId: '117671'
+      tcgplayerProductId: '96332'
+    subtype: THEME
+  Ninth Edition Theme Deck Lofty Heights:
+    category: DECK
+    identifiers:
+      cardKingdomId: '117670'
+      tcgplayerProductId: '96333'
+    subtype: THEME
+  Ninth Edition Theme Deck World Aflame:
+    category: DECK
+    identifiers:
+      cardKingdomId: '117672'
+      tcgplayerProductId: '96334'
+    subtype: THEME

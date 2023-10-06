@@ -1,29 +1,118 @@
 code: m19
 products:
-  Core Set 2019 Welcome Deck - White:
+  2018 Gift Pack:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '222238'
+    subtype: UNKNOWN
+  Core Set 2019 Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '219796'
+      tcgplayerProductId: '166550'
+    release_date: '2018-07-13'
+    subtype: DEFAULT
+  Core Set 2019 Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '166552'
+    release_date: '2018-07-13'
+    subtype: UNKNOWN
+  Core Set 2019 Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '219797'
+      tcgplayerProductId: '166551'
+    release_date: '2018-07-13'
+    subtype: DEFAULT
+  Core Set 2019 Bundle:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '219798'
+      tcgplayerProductId: '166562'
+    release_date: '2018-07-13'
+    subtype: UNKNOWN
+  Core Set 2019 Deck Builders Toolkit:
+    category: BOX_SET
+    identifiers:
+      cardKingdomId: '219802'
+      tcgplayerProductId: '166553'
+    release_date: '2018-07-13'
+    subtype: DECK_BUILDERS_TOOLKIT
+  Core Set 2019 Planeswalker Deck Ajani:
     category: DECK
-    subtype: STARTER
-    release_date: "2018-07-13"
-  Core Set 2019 Welcome Deck - Blue:
+    identifiers:
+      cardKingdomId: '220072'
+      tcgplayerProductId: '169265'
+    release_date: '2018-07-13'
+    subtype: PLANESWALKER
+  Core Set 2019 Planeswalker Deck Liliana:
     category: DECK
-    subtype: STARTER
-    release_date: "2018-07-13"
-  Core Set 2019 Welcome Deck - Black:
+    identifiers:
+      cardKingdomId: '219808'
+      tcgplayerProductId: '169268'
+    release_date: '2018-07-13'
+    subtype: PLANESWALKER
+  Core Set 2019 Planeswalker Deck Sarkhan:
     category: DECK
-    subtype: STARTER
-    release_date: "2018-07-13"
-  Core Set 2019 Welcome Deck - Red:
+    identifiers:
+      cardKingdomId: '220071'
+      tcgplayerProductId: '169266'
+    release_date: '2018-07-13'
+    subtype: PLANESWALKER
+  Core Set 2019 Planeswalker Deck Tezzeret:
     category: DECK
-    subtype: STARTER
-    release_date: "2018-07-13"
-  Core Set 2019 Welcome Deck - Green:
+    identifiers:
+      cardKingdomId: '219807'
+      tcgplayerProductId: '166560'
+    release_date: '2018-07-13'
+    subtype: PLANESWALKER
+  Core Set 2019 Planeswalker Deck Vivien:
     category: DECK
-    subtype: STARTER
-    release_date: "2018-07-13"
+    identifiers:
+      cardKingdomId: '220070'
+      tcgplayerProductId: '169267'
+    release_date: '2018-07-13'
+    subtype: PLANESWALKER
+  Core Set 2019 Planeswalker Decks - Set of 5:
+    category: SUBSET
+    identifiers:
+      tcgplayerProductId: '169269'
+    release_date: '2018-07-13'
+    subtype: PLANESWALKER
+  Core Set 2019 Prerelease Pack:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '166555'
+    release_date: '2018-07-13'
+    subtype: UNKNOWN
   Core Set 2019 Spellslinger Starter Kit:
     category: TWO_PLAYER_STARTER_SET
+    identifiers: {}
+    release_date: '2018-10-05'
     subtype: STARTER
-    release_date: "2018-10-05"
-    purchase_url:
-      card_kingdom: https://www.cardkingdom.com/mtg/starter-kits/spellslinger-starter-kit-2018
-      tcgplayer: https://www.tcgplayer.com/product/174136/magic-spellslinger-starter-kit-spellslinger-starter-kit
+  Core Set 2019 Welcome Deck - Black:
+    category: DECK
+    identifiers: {}
+    release_date: '2018-07-13'
+    subtype: STARTER
+  Core Set 2019 Welcome Deck - Blue:
+    category: DECK
+    identifiers: {}
+    release_date: '2018-07-13'
+    subtype: STARTER
+  Core Set 2019 Welcome Deck - Green:
+    category: DECK
+    identifiers: {}
+    release_date: '2018-07-13'
+    subtype: STARTER
+  Core Set 2019 Welcome Deck - Red:
+    category: DECK
+    identifiers: {}
+    release_date: '2018-07-13'
+    subtype: STARTER
+  Core Set 2019 Welcome Deck - White:
+    category: DECK
+    identifiers: {}
+    release_date: '2018-07-13'
+    subtype: STARTER

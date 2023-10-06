@@ -1,12 +1,112 @@
 code: m21
 products:
-  Core Set 2021 Welcome Booster:
-    category: BOOSTER_PACK
-    subtype: STARTER
-    release_date: "2020-07-03"
   Core Set 2021 Arena Starter Kit:
     category: TWO_PLAYER_STARTER_SET
+    identifiers:
+      cardKingdomId: '233880'
+    release_date: '2020-07-03'
     subtype: STARTER
-    release_date: "2020-07-03"
-    purchase_url:
-      tcgplayer: "https://www.tcgplayer.com/product/252732/magic-arena-starter-kit-core-set-2021-arena-starter-kit"
+  Core Set 2021 Bundle:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '233865'
+      tcgplayerProductId: '214814'
+    release_date: '2020-07-03'
+    subtype: UNKNOWN
+  Core Set 2021 Collector Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '233863'
+      tcgplayerProductId: '214818'
+    release_date: '2020-07-03'
+    subtype: COLLECTOR
+  Core Set 2021 Collector Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '233864'
+      tcgplayerProductId: '215325'
+    release_date: '2020-07-03'
+    subtype: COLLECTOR
+  Core Set 2021 Draft Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '233859'
+      tcgplayerProductId: '214811'
+    release_date: '2020-07-03'
+    subtype: DEFAULT
+  Core Set 2021 Draft Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '214810'
+    release_date: '2020-07-03'
+    subtype: UNKNOWN
+  Core Set 2021 Draft Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '233862'
+      tcgplayerProductId: '214813'
+    release_date: '2020-07-03'
+    subtype: DEFAULT
+  Core Set 2021 Planeswalker Deck Basri:
+    category: DECK
+    identifiers:
+      cardKingdomId: '233868'
+      tcgplayerProductId: '215468'
+    release_date: '2020-07-03'
+    subtype: PLANESWALKER
+  Core Set 2021 Planeswalker Deck Chandra:
+    category: DECK
+    identifiers:
+      cardKingdomId: '233871'
+      tcgplayerProductId: '215466'
+    release_date: '2020-07-03'
+    subtype: PLANESWALKER
+  Core Set 2021 Planeswalker Deck Display:
+    category: DECK_BOX
+    identifiers:
+      tcgplayerProductId: '214815'
+    release_date: '2020-07-03'
+    subtype: PLANESWALKER
+  Core Set 2021 Planeswalker Deck Garruk:
+    category: DECK
+    identifiers:
+      cardKingdomId: '233867'
+      tcgplayerProductId: '215465'
+    release_date: '2020-07-03'
+    subtype: PLANESWALKER
+  Core Set 2021 Planeswalker Deck Liliana:
+    category: DECK
+    identifiers:
+      cardKingdomId: '233870'
+      tcgplayerProductId: '215464'
+    release_date: '2020-07-03'
+    subtype: PLANESWALKER
+  Core Set 2021 Planeswalker Deck Teferi:
+    category: DECK
+    identifiers:
+      cardKingdomId: '233869'
+      tcgplayerProductId: '215467'
+    release_date: '2020-07-03'
+    subtype: PLANESWALKER
+  Core Set 2021 Planeswalker Decks - Set of 5:
+    category: SUBSET
+    identifiers:
+      tcgplayerProductId: '214817'
+    release_date: '2020-07-03'
+    subtype: PLANESWALKER
+  Core Set 2021 Prerelease Pack:
+    category: PRERELEASE_PACK
+    identifiers:
+      cardKingdomId: '233866'
+      tcgplayerProductId: '215920'
+    subtype: UNKNOWN
+  Core Set 2021 Prerelease Pack plus 2 Core Set 2021 Prize Packs:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '215918'
+    subtype: UNKNOWN
+  Core Set 2021 Welcome Booster:
+    category: BOOSTER_PACK
+    identifiers: {}
+    release_date: '2020-07-03'
+    subtype: STARTER

@@ -1,0 +1,61 @@
+code: mrd
+products:
+  Mirrodin Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '1562'
+      tcgplayerProductId: '27291'
+    subtype: DEFAULT
+  Mirrodin Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '1563'
+      tcgplayerProductId: '27353'
+    subtype: DEFAULT
+  Mirrodin Fat Pack:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '240342'
+      tcgplayerProductId: '78320'
+    subtype: UNKNOWN
+  Mirrodin Theme Deck Bait and Bludgeon:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1565'
+      tcgplayerProductId: '127422'
+    subtype: THEME
+  Mirrodin Theme Deck Box:
+    category: DECK_BOX
+    identifiers:
+      cardKingdomId: '240169'
+      tcgplayerProductId: '227597'
+    subtype: THEME
+  Mirrodin Theme Deck Little Bashers:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1566'
+      tcgplayerProductId: '127421'
+    subtype: THEME
+  Mirrodin Theme Deck Sacrificial Bam:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1568'
+      tcgplayerProductId: '127424'
+    subtype: THEME
+  Mirrodin Theme Deck Wicked Big:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1567'
+      tcgplayerProductId: '127423'
+    subtype: THEME
+  Mirrodin Tournament Pack:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1564'
+      tcgplayerProductId: '127431'
+    subtype: UNKNOWN
+  Mirrodin Tournament Pack Display:
+    category: CASE
+    identifiers:
+      cardKingdomId: '240170'
+    subtype: UNKNOWN

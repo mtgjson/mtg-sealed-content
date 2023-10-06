@@ -1,0 +1,43 @@
+code: ptk
+products:
+  Portal Three Kingdoms Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '238462'
+      tcgplayerProductId: '27300'
+    subtype: DEFAULT
+  Portal Three Kingdoms Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '238461'
+      tcgplayerProductId: '27362'
+    subtype: DEFAULT
+  Portal Three Kingdoms Shu Kingdom Theme Deck:
+    category: DECK
+    identifiers:
+      cardKingdomId: '198787'
+      tcgplayerProductId: '498730'
+    subtype: THEME
+  Portal Three Kingdoms Two Player Starter:
+    category: TWO_PLAYER_STARTER_SET
+    identifiers:
+      cardKingdomId: '240186'
+      tcgplayerProductId: '96284'
+    subtype: STARTER
+  Portal Three Kingdoms Two Player Starter Display:
+    category: TWO_PLAYER_STARTER_SET
+    identifiers:
+      tcgplayerProductId: '96285'
+    subtype: STARTER
+  Portal Three Kingdoms Wei Kingdom Theme Deck:
+    category: DECK
+    identifiers:
+      cardKingdomId: '198786'
+      tcgplayerProductId: '498732'
+    subtype: THEME
+  Portal Three Kingdoms Wu Kingdom Theme Deck:
+    category: DECK
+    identifiers:
+      cardKingdomId: '198785'
+      tcgplayerProductId: '498731'
+    subtype: THEME

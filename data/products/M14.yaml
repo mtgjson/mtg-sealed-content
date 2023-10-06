@@ -1,5 +1,91 @@
 code: m14
 products:
+  2014 Core Set Booster Battle Pack:
+    category: TWO_PLAYER_STARTER_SET
+    identifiers:
+      tcgplayerProductId: '78289'
+    subtype: BATTLE
+  2014 Core Set Booster Battle Pack Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      tcgplayerProductId: '485828'
+    subtype: BATTLE
+  2014 Core Set Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '190469'
+      tcgplayerProductId: '69243'
+    subtype: DEFAULT
+  2014 Core Set Booster Box Case 6 Boxes:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '69244'
+    subtype: UNKNOWN
+  2014 Core Set Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '190470'
+      tcgplayerProductId: '69245'
+    subtype: DEFAULT
+  2014 Core Set Deck Builders Toolkit:
+    category: BOX_SET
+    identifiers:
+      cardKingdomId: '131147'
+      tcgplayerProductId: '92502'
+    subtype: DECK_BUILDERS_TOOLKIT
+  2014 Core Set Event Deck Rush of the Wild:
+    category: DECK
+    identifiers:
+      cardKingdomId: '191053'
+      tcgplayerProductId: '92501'
+    subtype: EVENT
+  2014 Core Set Fat Pack:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '190471'
+      tcgplayerProductId: '69247'
+    subtype: UNKNOWN
+  2014 Core Set Intro Pack Bestial Strength:
+    category: DECK
+    identifiers:
+      cardKingdomId: '190587'
+      tcgplayerProductId: '70075'
+    subtype: INTRO
+  2014 Core Set Intro Pack Death Reaper:
+    category: DECK
+    identifiers:
+      cardKingdomId: '190585'
+      tcgplayerProductId: '70078'
+    subtype: INTRO
+  2014 Core Set Intro Pack Fire Surge:
+    category: DECK
+    identifiers:
+      cardKingdomId: '190588'
+      tcgplayerProductId: '70079'
+    subtype: INTRO
+  2014 Core Set Intro Pack Lightforce:
+    category: DECK
+    identifiers:
+      cardKingdomId: '190589'
+      tcgplayerProductId: '70076'
+    subtype: INTRO
+  2014 Core Set Intro Pack Psychic Labyrinth:
+    category: DECK
+    identifiers:
+      cardKingdomId: '190586'
+      tcgplayerProductId: '70077'
+    subtype: INTRO
+  2014 Core Set Intro Pack Set of 5:
+    category: SUBSET
+    identifiers:
+      tcgplayerProductId: '190866'
+    subtype: INTRO
+  2014 Core Set Land Station:
+    category: LAND_STATION
+    identifiers:
+      tcgplayerProductId: '215047'
+    subtype: UNKNOWN
   Core Set 2014 6 Card Booster Pack:
     category: BOOSTER_PACK
+    identifiers: {}
     subtype: DEFAULT

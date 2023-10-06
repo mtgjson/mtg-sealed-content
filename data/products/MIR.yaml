@@ -1,0 +1,26 @@
+code: mir
+products:
+  Mirage Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '186652'
+      tcgplayerProductId: '27290'
+    subtype: DEFAULT
+  Mirage Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '1184'
+      tcgplayerProductId: '27352'
+    subtype: DEFAULT
+  Mirage Starter Deck:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1246'
+      tcgplayerProductId: '121397'
+    subtype: STARTER
+  Mirage Starter Deck Display:
+    category: DECK_BOX
+    identifiers:
+      cardKingdomId: '240168'
+      tcgplayerProductId: '121754'
+    subtype: STARTER

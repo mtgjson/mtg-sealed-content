@@ -1,5 +1,134 @@
 code: rtr
 products:
+  Return to Ravnica 3x Booster Packs draft set:
+    category: DRAFT_SET
+    identifiers:
+      tcgplayerProductId: '60120'
+    release_date: '2012-10-05'
+    subtype: DEFAULT
   Return to Ravnica 6 Card Booster Pack:
     category: BOOSTER_PACK
+    identifiers: {}
     subtype: DEFAULT
+  Return to Ravnica Booster Battle Pack:
+    category: TWO_PLAYER_STARTER_SET
+    identifiers:
+      tcgplayerProductId: '72027'
+    subtype: BATTLE
+  Return to Ravnica Booster Battle Pack Display:
+    category: TWO_PLAYER_STARTER_SET
+    identifiers:
+      tcgplayerProductId: '485935'
+    subtype: BATTLE
+  Return to Ravnica Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '188115'
+      tcgplayerProductId: '60117'
+    subtype: DEFAULT
+  Return to Ravnica Booster Box Case 6 boxes:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '60116'
+    subtype: UNKNOWN
+  Return to Ravnica Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '188116'
+      tcgplayerProductId: '60121'
+    subtype: DEFAULT
+  Return to Ravnica Event Deck Creep and Conquer:
+    category: DECK
+    identifiers:
+      cardKingdomId: '188421'
+      tcgplayerProductId: '110552'
+    subtype: EVENT
+  Return to Ravnica Event Deck Wrack and Rage:
+    category: DECK
+    identifiers:
+      cardKingdomId: '188422'
+      tcgplayerProductId: '110551'
+    subtype: EVENT
+  Return to Ravnica Fat Pack:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '188123'
+      tcgplayerProductId: '60119'
+    release_date: '2012-10-05'
+    subtype: UNKNOWN
+  Return to Ravnica Holiday Gift Box:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '188748'
+    subtype: UNKNOWN
+  Return to Ravnica Intro Pack Azorius Advance:
+    category: DECK
+    identifiers:
+      cardKingdomId: '188118'
+      tcgplayerProductId: '66476'
+    release_date: '2012-10-05'
+    subtype: INTRO
+  Return to Ravnica Intro Pack Golgari Growth:
+    category: DECK
+    identifiers:
+      cardKingdomId: '188119'
+      tcgplayerProductId: '66479'
+    release_date: '2012-10-05'
+    subtype: INTRO
+  Return to Ravnica Intro Pack Izzet Ingenuity:
+    category: DECK
+    identifiers:
+      cardKingdomId: '188120'
+      tcgplayerProductId: '66477'
+    release_date: '2012-10-05'
+    subtype: INTRO
+  Return to Ravnica Intro Pack Rakdos Raid:
+    category: DECK
+    identifiers:
+      cardKingdomId: '188121'
+      tcgplayerProductId: '66478'
+    release_date: '2012-10-05'
+    subtype: INTRO
+  Return to Ravnica Intro Pack Selesnya Surge:
+    category: DECK
+    identifiers:
+      cardKingdomId: '188122'
+      tcgplayerProductId: '66480'
+    release_date: '2012-10-05'
+    subtype: INTRO
+  Return to Ravnica Prerelease Pack Azorius:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '190186'
+    subtype: UNKNOWN
+  Return to Ravnica Prerelease Pack Golgari:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '190187'
+    subtype: UNKNOWN
+  Return to Ravnica Prerelease Pack Izzet:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '190190'
+    subtype: UNKNOWN
+  Return to Ravnica Prerelease Pack Rakdos:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '190188'
+    subtype: UNKNOWN
+  Return to Ravnica Prerelease Pack Selesnya:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '190189'
+    subtype: UNKNOWN
+  Return to Ravnica Prerelease Pack Set of 5:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '190191'
+    subtype: UNKNOWN
+  Return to Ravnica Set of 5 Intro Packs:
+    category: SUBSET
+    identifiers:
+      tcgplayerProductId: '60118'
+    release_date: '2012-10-05'
+    subtype: INTRO

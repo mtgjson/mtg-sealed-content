@@ -1,0 +1,36 @@
+code: 6ed
+products:
+  Classic Sixth Edition Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '1160'
+      tcgplayerProductId: '27270'
+    subtype: DEFAULT
+  Classic Sixth Edition Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '1161'
+      tcgplayerProductId: '27332'
+    subtype: DEFAULT
+  Classic Sixth Edition Tournament Pack:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1159'
+      tcgplayerProductId: '118880'
+    subtype: UNKNOWN
+  Classic Sixth Edition Tournament Pack Display:
+    category: CASE
+    identifiers:
+      cardKingdomId: '240093'
+    subtype: UNKNOWN
+  Classic Sixth Edition Two Player Starter Deck:
+    category: TWO_PLAYER_STARTER_SET
+    identifiers:
+      cardKingdomId: '1157'
+      tcgplayerProductId: '184222'
+    subtype: STARTER
+  Classic Sixth Edition Two Player Starter Deck Display:
+    category: TWO_PLAYER_STARTER_SET
+    identifiers:
+      tcgplayerProductId: '184223'
+    subtype: STARTER

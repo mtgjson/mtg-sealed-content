@@ -1,0 +1,19 @@
+code: 2ed
+products:
+  Unlimited Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '240231'
+      tcgplayerProductId: '27313'
+    subtype: DEFAULT
+  Unlimited Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '27375'
+    subtype: DEFAULT
+  Unlimited Starter Deck:
+    category: DECK
+    identifiers:
+      cardKingdomId: '223909'
+      tcgplayerProductId: '162897'
+    subtype: STARTER

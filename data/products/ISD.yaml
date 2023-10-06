@@ -1,5 +1,86 @@
 code: isd
 products:
+  Innistrad 3x Booster Packs draft set:
+    category: DRAFT_SET
+    identifiers:
+      tcgplayerProductId: '47789'
+    subtype: DEFAULT
   Innistrad 6 Card Booster Pack:
     category: BOOSTER_PACK
+    identifiers: {}
     subtype: DEFAULT
+  Innistrad Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '185511'
+      tcgplayerProductId: '47791'
+    subtype: DEFAULT
+  Innistrad Booster Box Case 6 boxes:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '47792'
+    subtype: UNKNOWN
+  Innistrad Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '185512'
+      tcgplayerProductId: '47787'
+    subtype: DEFAULT
+  Innistrad Event Deck Deathfed:
+    category: DECK
+    identifiers:
+      cardKingdomId: '186163'
+      tcgplayerProductId: '56987'
+    subtype: EVENT
+  Innistrad Event Deck Hold the Line:
+    category: DECK
+    identifiers:
+      cardKingdomId: '186162'
+      tcgplayerProductId: '56988'
+    subtype: EVENT
+  Innistrad Event Decks - Set of 2:
+    category: SUBSET
+    identifiers:
+      tcgplayerProductId: '56989'
+    subtype: UNKNOWN
+  Innistrad Fat Pack:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '185513'
+      tcgplayerProductId: '47788'
+    subtype: UNKNOWN
+  Innistrad Intro Pack Carnival of Blood:
+    category: DECK
+    identifiers:
+      cardKingdomId: '185707'
+      tcgplayerProductId: '56213'
+    subtype: INTRO
+  Innistrad Intro Pack Deathly Dominion:
+    category: DECK
+    identifiers:
+      cardKingdomId: '185708'
+      tcgplayerProductId: '56212'
+    subtype: INTRO
+  Innistrad Intro Pack Eldritch Onslaught:
+    category: DECK
+    identifiers:
+      cardKingdomId: '185709'
+      tcgplayerProductId: '56211'
+    subtype: INTRO
+  Innistrad Intro Pack Repel the Dark:
+    category: DECK
+    identifiers:
+      cardKingdomId: '185710'
+      tcgplayerProductId: '56214'
+    subtype: INTRO
+  Innistrad Intro Pack Set of 5:
+    category: SUBSET
+    identifiers:
+      tcgplayerProductId: '47790'
+    subtype: INTRO
+  Innistrad Intro Pack Spectral Legions:
+    category: DECK
+    identifiers:
+      cardKingdomId: '185711'
+      tcgplayerProductId: '56210'
+    subtype: INTRO

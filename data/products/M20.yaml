@@ -1,29 +1,154 @@
 code: m20
 products:
-  Core Set 2020 Welcome Deck - White:
+  Core Set 2020 Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '225512'
+      tcgplayerProductId: '188210'
+    release_date: '2019-07-12'
+    subtype: DEFAULT
+  Core Set 2020 Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '188209'
+    release_date: '2019-07-12'
+    subtype: UNKNOWN
+  Core Set 2020 Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '225516'
+      tcgplayerProductId: '188211'
+    release_date: '2019-07-12'
+    subtype: DEFAULT
+  Core Set 2020 Bundle:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '225517'
+      tcgplayerProductId: '188213'
+    release_date: '2019-07-12'
+    subtype: UNKNOWN
+  Core Set 2020 Deck Builders Toolkit:
+    category: BOX_SET
+    identifiers:
+      cardKingdomId: '225521'
+      tcgplayerProductId: '185681'
+    release_date: '2019-07-12'
+    subtype: DECK_BUILDERS_TOOLKIT
+  Core Set 2020 Land Station:
+    category: LAND_STATION
+    identifiers:
+      tcgplayerProductId: '192758'
+    subtype: UNKNOWN
+  Core Set 2020 Planeswalker Deck Ajani:
     category: DECK
-    subtype: STARTER
-    release_date: "2019-07-12"
-  Core Set 2020 Welcome Deck - Blue:
+    identifiers:
+      cardKingdomId: '225555'
+      tcgplayerProductId: '192509'
+    release_date: '2019-07-12'
+    subtype: PLANESWALKER
+  Core Set 2020 Planeswalker Deck Chandra:
     category: DECK
-    subtype: STARTER
-    release_date: "2019-07-12"
-  Core Set 2020 Welcome Deck - Black:
+    identifiers:
+      cardKingdomId: '225556'
+      tcgplayerProductId: '192510'
+    release_date: '2019-07-12'
+    subtype: PLANESWALKER
+  Core Set 2020 Planeswalker Deck Display:
+    category: DECK_BOX
+    identifiers:
+      cardKingdomId: '240127'
+      tcgplayerProductId: '188212'
+    release_date: '2019-07-12'
+    subtype: PLANESWALKER
+  Core Set 2020 Planeswalker Deck Sorin:
     category: DECK
-    subtype: STARTER
-    release_date: "2019-07-12"
-  Core Set 2020 Welcome Deck - Red:
+    identifiers:
+      cardKingdomId: '225557'
+      tcgplayerProductId: '192512'
+    release_date: '2019-07-12'
+    subtype: PLANESWALKER
+  Core Set 2020 Planeswalker Deck Vivien:
     category: DECK
-    subtype: STARTER
-    release_date: "2019-07-12"
-  Core Set 2020 Welcome Deck - Green:
+    identifiers:
+      cardKingdomId: '225558'
+      tcgplayerProductId: '192511'
+    release_date: '2019-07-12'
+    subtype: PLANESWALKER
+  Core Set 2020 Planeswalker Deck Yanling:
     category: DECK
-    subtype: STARTER
-    release_date: "2019-07-12"
+    identifiers:
+      cardKingdomId: '225559'
+      tcgplayerProductId: '192513'
+    release_date: '2019-07-12'
+    subtype: PLANESWALKER
+  Core Set 2020 Planeswalker Decks - Set of 5:
+    category: SUBSET
+    identifiers:
+      tcgplayerProductId: '188222'
+    release_date: '2019-07-12'
+    subtype: PLANESWALKER
+  Core Set 2020 Prerelease Pack:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '193014'
+    subtype: UNKNOWN
   Core Set 2020 Spellslinger Starter Kit:
     category: TWO_PLAYER_STARTER_SET
+    identifiers: {}
+    release_date: '2019-07-12'
     subtype: STARTER
-    release_date: "2019-07-12"
-    purchase_url:
-      card_kingdom: https://www.cardkingdom.com/mtg/starter-kits/spellslinger-starter-kit-2019
-      tcgplayer: https://www.tcgplayer.com/product/192755/magic-spellslinger-starter-kit-spellslinger-starter-kit-core-set-2020
+  Core Set 2020 Theme Booster Black:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '192762'
+    subtype: THEME
+  Core Set 2020 Theme Booster Blue:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '192761'
+    subtype: THEME
+  Core Set 2020 Theme Booster Green:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '192764'
+    subtype: THEME
+  Core Set 2020 Theme Booster Red:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '192763'
+    subtype: THEME
+  Core Set 2020 Theme Booster Set of 5:
+    category: SUBSET
+    identifiers:
+      tcgplayerProductId: '192769'
+    subtype: THEME
+  Core Set 2020 Theme Booster White:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '192765'
+    subtype: THEME
+  Core Set 2020 Welcome Deck - Black:
+    category: DECK
+    identifiers: {}
+    release_date: '2019-07-12'
+    subtype: STARTER
+  Core Set 2020 Welcome Deck - Blue:
+    category: DECK
+    identifiers: {}
+    release_date: '2019-07-12'
+    subtype: STARTER
+  Core Set 2020 Welcome Deck - Green:
+    category: DECK
+    identifiers: {}
+    release_date: '2019-07-12'
+    subtype: STARTER
+  Core Set 2020 Welcome Deck - Red:
+    category: DECK
+    identifiers: {}
+    release_date: '2019-07-12'
+    subtype: STARTER
+  Core Set 2020 Welcome Deck - White:
+    category: DECK
+    identifiers: {}
+    release_date: '2019-07-12'
+    subtype: STARTER

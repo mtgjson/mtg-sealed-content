@@ -1,0 +1,49 @@
+code: fut
+products:
+  Future Sight Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '122307'
+      tcgplayerProductId: '27280'
+    subtype: DEFAULT
+  Future Sight Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '122308'
+      tcgplayerProductId: '27342'
+    subtype: DEFAULT
+  Future Sight Fat Pack:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '122310'
+      tcgplayerProductId: '78312'
+    subtype: UNKNOWN
+  Future Sight Theme Deck Display:
+    category: DECK_BOX
+    identifiers:
+      tcgplayerProductId: '106356'
+    subtype: THEME
+  Future Sight Theme Deck Fate Blaster:
+    category: DECK
+    identifiers:
+      cardKingdomId: '122698'
+      tcgplayerProductId: '106346'
+    subtype: THEME
+  Future Sight Theme Deck Future Shock:
+    category: DECK
+    identifiers:
+      cardKingdomId: '122699'
+      tcgplayerProductId: '106347'
+    subtype: THEME
+  Future Sight Theme Deck Rebels Unite:
+    category: DECK
+    identifiers:
+      cardKingdomId: '122700'
+      tcgplayerProductId: '106348'
+    subtype: THEME
+  Future Sight Theme Deck Suspended Sentence:
+    category: DECK
+    identifiers:
+      cardKingdomId: '122701'
+      tcgplayerProductId: '106349'
+    subtype: THEME

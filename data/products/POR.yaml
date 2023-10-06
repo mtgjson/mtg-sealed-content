@@ -1,0 +1,25 @@
+code: por
+products:
+  Portal Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '223167'
+      tcgplayerProductId: '27298'
+    subtype: DEFAULT
+  Portal Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '1185'
+      tcgplayerProductId: '27360'
+    subtype: DEFAULT
+  Portal Gift Box:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '1187'
+    subtype: UNKNOWN
+  Portal Two Player Starter Set:
+    category: TWO_PLAYER_STARTER_SET
+    identifiers:
+      cardKingdomId: '204735'
+      tcgplayerProductId: '81795'
+    subtype: STARTER

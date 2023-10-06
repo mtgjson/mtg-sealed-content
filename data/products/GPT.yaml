@@ -1,0 +1,38 @@
+code: gpt
+products:
+  Guildpact Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '119571'
+      tcgplayerProductId: '27281'
+    subtype: DEFAULT
+  Guildpact Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '119572'
+      tcgplayerProductId: '27343'
+    subtype: DEFAULT
+  Guildpact Fat Pack:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '119577'
+      tcgplayerProductId: '78313'
+    subtype: UNKNOWN
+  Guildpact Theme Deck Code of the Orzhov:
+    category: DECK
+    identifiers:
+      cardKingdomId: '119573'
+      tcgplayerProductId: '96340'
+    subtype: THEME
+  Guildpact Theme Deck Gruul Wilding:
+    category: DECK
+    identifiers:
+      cardKingdomId: '119574'
+      tcgplayerProductId: '96341'
+    subtype: THEME
+  Guildpact Theme Deck Izzet Gizmometry:
+    category: DECK
+    identifiers:
+      cardKingdomId: '119575'
+      tcgplayerProductId: '96342'
+    subtype: THEME

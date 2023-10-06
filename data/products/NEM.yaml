@@ -1,0 +1,44 @@
+code: nem
+products:
+  Nemesis Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '1162'
+      tcgplayerProductId: '27293'
+    subtype: DEFAULT
+  Nemesis Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '1163'
+      tcgplayerProductId: '27355'
+    subtype: DEFAULT
+  Nemesis Fat Pack:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '240343'
+      tcgplayerProductId: '78322'
+    subtype: UNKNOWN
+  Nemesis Theme Deck Breakdown:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1164'
+      tcgplayerProductId: '116042'
+    subtype: THEME
+  Nemesis Theme Deck Eruption:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1165'
+      tcgplayerProductId: '116043'
+    subtype: THEME
+  Nemesis Theme Deck Mercenaries:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1166'
+      tcgplayerProductId: '116044'
+    subtype: THEME
+  Nemesis Theme Deck Replicator:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1167'
+      tcgplayerProductId: '116045'
+    subtype: THEME

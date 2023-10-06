@@ -1,6 +1,105 @@
 code: cmm
 products:
+  Commander Masters Collector Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '279444'
+      tcgplayerProductId: '484929'
+    release_date: '2023-08-04'
+    subtype: COLLECTOR
+  Commander Masters Collector Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '497724'
+    release_date: '2023-08-04'
+    subtype: COLLECTOR
+  Commander Masters Collector Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '279443'
+      tcgplayerProductId: '484928'
+    release_date: '2023-08-04'
+    subtype: COLLECTOR
   Commander Masters Collector Booster Sample Pack:
     category: BOOSTER_PACK
+    identifiers: {}
+    release_date: '2023-07-28'
     subtype: COLLECTOR
-    release_date: "2023-07-28"
+  Commander Masters Commander Deck Eldrazi Unbound:
+    category: COMMANDER_DECK
+    identifiers:
+      cardKingdomId: '279445'
+      tcgplayerProductId: '484931'
+    subtype: UNKNOWN
+  Commander Masters Commander Deck Enduring Enchantments:
+    category: COMMANDER_DECK
+    identifiers:
+      cardKingdomId: '279446'
+      tcgplayerProductId: '484932'
+    release_date: '2023-08-04'
+    subtype: UNKNOWN
+  Commander Masters Commander Deck Planeswalker Party:
+    category: COMMANDER_DECK
+    identifiers:
+      cardKingdomId: '279447'
+      tcgplayerProductId: '484930'
+    release_date: '2023-08-04'
+    subtype: PLANESWALKER
+  Commander Masters Commander Deck Sliver Swarm:
+    category: COMMANDER_DECK
+    identifiers:
+      cardKingdomId: '279448'
+      tcgplayerProductId: '484933'
+    release_date: '2023-08-04'
+    subtype: UNKNOWN
+  Commander Masters Commander Decks - Set of 4:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '484934'
+    release_date: '2023-08-04'
+    subtype: UNKNOWN
+  Commander Masters Commander Decks - Set of Four:
+    category: CASE
+    identifiers:
+      cardKingdomId: '279449'
+    subtype: UNKNOWN
+  Commander Masters Draft Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '279450'
+      tcgplayerProductId: '484924'
+    release_date: '2023-08-04'
+    subtype: DEFAULT
+  Commander Masters Draft Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '484925'
+    release_date: '2023-08-04'
+    subtype: UNKNOWN
+  Commander Masters Draft Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '279451'
+      tcgplayerProductId: '484923'
+    release_date: '2023-08-04'
+    subtype: DEFAULT
+  Commander Masters Set Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '279453'
+      tcgplayerProductId: '484927'
+    release_date: '2023-08-04'
+    subtype: SET
+  Commander Masters Set Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '490553'
+    release_date: '2023-08-04'
+    subtype: UNKNOWN
+  Commander Masters Set Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '279452'
+      tcgplayerProductId: '484926'
+    release_date: '2023-08-04'
+    subtype: SET

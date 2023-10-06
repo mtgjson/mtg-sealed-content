@@ -1,0 +1,48 @@
+code: 2xm
+products:
+  Double Masters 3 Booster Draft Pack:
+    category: DRAFT_SET
+    identifiers:
+      tcgplayerProductId: '215119'
+    release_date: '2020-08-07'
+    subtype: DEFAULT
+  Double Masters Box Topper Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '220466'
+    subtype: TOPPER
+  Double Masters Draft Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '235949'
+      tcgplayerProductId: '214823'
+    release_date: '2020-08-07'
+    subtype: DEFAULT
+  Double Masters Draft Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '215120'
+    release_date: '2020-08-07'
+    subtype: UNKNOWN
+  Double Masters Draft Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '235950'
+      tcgplayerProductId: '214824'
+    subtype: DEFAULT
+  Double Masters VIP Edition Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '235951'
+      tcgplayerProductId: '215084'
+    subtype: VIP
+  Double Masters VIP Edition Box:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '215304'
+    subtype: VIP
+  Double Masters VIP Edition Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '215305'
+    subtype: VIP

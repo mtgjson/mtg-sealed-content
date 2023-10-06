@@ -2,4 +2,91 @@ code: mbs
 products:
   Mirrodin Besieged 6 Card Booster Pack:
     category: BOOSTER_PACK
+    identifiers: {}
     subtype: DEFAULT
+  Mirrodin Besieged All 4 Intro Packs:
+    category: DECK
+    identifiers:
+      tcgplayerProductId: '39115'
+    subtype: INTRO
+  Mirrodin Besieged Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '133026'
+      tcgplayerProductId: '39109'
+    subtype: DEFAULT
+  Mirrodin Besieged Booster Box Case 6 Boxes:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '39114'
+    subtype: UNKNOWN
+  Mirrodin Besieged Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '133027'
+      tcgplayerProductId: '39108'
+    subtype: DEFAULT
+  Mirrodin Besieged Event Deck Infect and Defile:
+    category: DECK
+    identifiers:
+      cardKingdomId: '147764'
+      tcgplayerProductId: '141938'
+    subtype: EVENT
+  Mirrodin Besieged Event Deck Into the Breach:
+    category: DECK
+    identifiers:
+      cardKingdomId: '147763'
+      tcgplayerProductId: '141937'
+    subtype: EVENT
+  Mirrodin Besieged Faction Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '240437'
+    subtype: DEFAULT
+  Mirrodin Besieged Fat Pack:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '133028'
+      tcgplayerProductId: '39120'
+    subtype: UNKNOWN
+  Mirrodin Besieged Intro Pack Battle Cries:
+    category: DECK
+    identifiers:
+      cardKingdomId: '137134'
+      tcgplayerProductId: '39116'
+    subtype: INTRO
+  Mirrodin Besieged Intro Pack Doom Inevitable:
+    category: DECK
+    identifiers:
+      cardKingdomId: '137135'
+      tcgplayerProductId: '39119'
+    subtype: INTRO
+  Mirrodin Besieged Intro Pack Mirromancy:
+    category: DECK
+    identifiers:
+      cardKingdomId: '137136'
+      tcgplayerProductId: '39118'
+    subtype: INTRO
+  Mirrodin Besieged Intro Pack Path of Blight:
+    category: DECK
+    identifiers:
+      cardKingdomId: '137137'
+      tcgplayerProductId: '39117'
+    subtype: INTRO
+  Mirrodin Besieged Mirran Faction Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '184197'
+      tcgplayerProductId: '72025'
+    subtype: DEFAULT
+  Mirrodin Besieged Phyrexian Faction Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '184196'
+      tcgplayerProductId: '72026'
+    subtype: DEFAULT
+  Mirrodin Besieged Prerelease Box:
+    category: PRERELEASE_PACK
+    identifiers:
+      tcgplayerProductId: '117598'
+    subtype: UNKNOWN

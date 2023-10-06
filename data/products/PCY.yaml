@@ -1,0 +1,44 @@
+code: pcy
+products:
+  Prophecy Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '1221'
+      tcgplayerProductId: '27301'
+    subtype: DEFAULT
+  Prophecy Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '1226'
+      tcgplayerProductId: '27363'
+    subtype: DEFAULT
+  Prophecy Fat Pack:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '240192'
+      tcgplayerProductId: '78327'
+    subtype: UNKNOWN
+  Prophecy Theme Deck Distress:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1225'
+      tcgplayerProductId: '116046'
+    subtype: THEME
+  Prophecy Theme Deck Pummel:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1222'
+      tcgplayerProductId: '116047'
+    subtype: THEME
+  Prophecy Theme Deck Slither:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1223'
+      tcgplayerProductId: '116048'
+    subtype: THEME
+  Prophecy Theme Deck Turnaround:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1224'
+      tcgplayerProductId: '116049'
+    subtype: THEME

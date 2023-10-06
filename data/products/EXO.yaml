@@ -1,0 +1,38 @@
+code: exo
+products:
+  Exodus Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '1235'
+      tcgplayerProductId: '27275'
+    subtype: DEFAULT
+  Exodus Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '1175'
+      tcgplayerProductId: '27337'
+    subtype: DEFAULT
+  Exodus Theme Deck Dominator:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1176'
+      tcgplayerProductId: '116054'
+    subtype: THEME
+  Exodus Theme Deck Groundbreaker:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1177'
+      tcgplayerProductId: '116055'
+    subtype: THEME
+  Exodus Theme Deck White Heat:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1178'
+      tcgplayerProductId: '116056'
+    subtype: THEME
+  Exodus Theme Deck Widowmaker:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1179'
+      tcgplayerProductId: '116057'
+    subtype: THEME

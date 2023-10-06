@@ -1,6 +1,33 @@
 code: uma
 products:
+  Ultimate Masters 3 Booster Draft Pack:
+    category: DRAFT_SET
+    identifiers:
+      tcgplayerProductId: '179446'
+    release_date: '2018-12-07'
+    subtype: DEFAULT
   Ultimate Masters Box Topper Pack:
     category: BOOSTER_PACK
+    identifiers: {}
+    release_date: '2018-12-07'
     subtype: COLLECTOR
-    release_date: "2018-12-07"
+  Ultimate Masters Draft Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '222450'
+      tcgplayerProductId: '179444'
+    release_date: '2018-12-07'
+    subtype: DEFAULT
+  Ultimate Masters Draft Booster Box Case:
+    category: CASE
+    identifiers:
+      tcgplayerProductId: '179443'
+    release_date: '2018-12-07'
+    subtype: UNKNOWN
+  Ultimate Masters Draft Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '222451'
+      tcgplayerProductId: '179445'
+    release_date: '2018-12-07'
+    subtype: DEFAULT

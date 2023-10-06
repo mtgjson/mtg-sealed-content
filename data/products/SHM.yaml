@@ -1,0 +1,61 @@
+code: shm
+products:
+  Shadowmoor Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '124493'
+      tcgplayerProductId: '27306'
+    subtype: DEFAULT
+  Shadowmoor Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '124494'
+      tcgplayerProductId: '27368'
+    subtype: DEFAULT
+  Shadowmoor Fat Pack:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '124502'
+      tcgplayerProductId: '78330'
+    subtype: UNKNOWN
+  Shadowmoor Theme Deck Army of Entropy:
+    category: DECK
+    identifiers:
+      cardKingdomId: '184198'
+      tcgplayerProductId: '185145'
+    subtype: THEME
+  Shadowmoor Theme Deck Aura Mastery:
+    category: DECK
+    identifiers:
+      cardKingdomId: '184199'
+      tcgplayerProductId: '185142'
+    subtype: THEME
+  Shadowmoor Theme Deck Mortal Coil:
+    category: DECK
+    identifiers:
+      cardKingdomId: '184200'
+      tcgplayerProductId: '185144'
+    subtype: THEME
+  Shadowmoor Theme Deck Overkill:
+    category: DECK
+    identifiers:
+      cardKingdomId: '184201'
+      tcgplayerProductId: '185143'
+    subtype: THEME
+  Shadowmoor Theme Deck Turnabout:
+    category: DECK
+    identifiers:
+      cardKingdomId: '184202'
+      tcgplayerProductId: '185146'
+    subtype: THEME
+  Shadowmoor Tournament Pack:
+    category: DECK
+    identifiers:
+      cardKingdomId: '124496'
+      tcgplayerProductId: '185147'
+    subtype: UNKNOWN
+  Shadowmoor Tournament Pack Display:
+    category: CASE
+    identifiers:
+      cardKingdomId: '240204'
+    subtype: UNKNOWN

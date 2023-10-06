@@ -1,0 +1,44 @@
+code: dst
+products:
+  Darksteel Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '110330'
+      tcgplayerProductId: '27272'
+    subtype: DEFAULT
+  Darksteel Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardKingdomId: '110501'
+      tcgplayerProductId: '27334'
+    subtype: DEFAULT
+  Darksteel Fat Pack:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '240338'
+      tcgplayerProductId: '78308'
+    subtype: UNKNOWN
+  Darksteel Theme Deck Master Blaster:
+    category: DECK
+    identifiers:
+      cardKingdomId: '110497'
+      tcgplayerProductId: '208246'
+    subtype: THEME
+  Darksteel Theme Deck Mind Swarm:
+    category: DECK
+    identifiers:
+      cardKingdomId: '110498'
+      tcgplayerProductId: '208247'
+    subtype: THEME
+  Darksteel Theme Deck Swarm and Slam:
+    category: DECK
+    identifiers:
+      cardKingdomId: '110499'
+      tcgplayerProductId: '208248'
+    subtype: THEME
+  Darksteel Theme Deck Transference:
+    category: DECK
+    identifiers:
+      cardKingdomId: '110500'
+      tcgplayerProductId: '208249'
+    subtype: THEME

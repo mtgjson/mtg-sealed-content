@@ -28,7 +28,7 @@ jobs:
       - name: execute new products
         env:
           TCG_AUTH: ${{ secrets.TCG_AUTH }}
-        run: python scripts/load_new_products.py "$TCG_AUTH"
+        run: python scripts/load_new_products.py $TCG_AUTH
 
       - name: execute gatherer build
         run: python scripts/generate_original_printing_details.py
