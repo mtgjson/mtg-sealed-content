@@ -164,8 +164,8 @@ def main(secret):
     for known_file in Path("data/products").glob("*.yaml"):
         with open(known_file, 'rb') as yfile:
             loaded_data = yaml.safe_load(yfile)
-        ck_ids.update({p['identifiers'].get('cardKingdomId', None) for p in loaded_data['products'].values()})
-        tg_ids.update({p['identifiers'].get('tcgplayerProductId', None) for p in loaded_data['products'].values()})
+        ck_ids.update({p['identifiers'].get('cardKingdomId', None) for p in loaded_data['products'].values() if 'identifiers' in p})
+        tg_ids.update({p['identifiers'].get('tcgplayerProductId', None) for p in loaded_data['products'].values() if 'identifiers' in p})
     
     # Load Card Kingdom products
     urlbase, ck_products = get_cardKingdom()
