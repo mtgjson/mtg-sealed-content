@@ -163,16 +163,16 @@ def main(secret):
             loaded_data = yaml.safe_load(yfile)
         ck_ids.update(
             {
-                p["identifiers"].get("cardKingdomId", None)
+                str(p["identifiers"]["cardKingdomId"])
                 for p in loaded_data["products"].values()
-                if "identifiers" in p
+                if "identifiers" in p and p["identifiers"].get("cardKingdomId")
             }
         )
         tg_ids.update(
             {
-                p["identifiers"].get("tcgplayerProductId", None)
+                str(p["identifiers"]["tcgplayerProductId"])
                 for p in loaded_data["products"].values()
-                if "identifiers" in p
+                if "identifiers" in p and p["identifiers"].get("tcgplayerProductId")
             }
         )
 
@@ -193,19 +193,15 @@ def main(secret):
     # Load TCGPlayer products [unknown]
     tg_products = get_tcgplayer(api_version, tcg_auth_code)
     for product in tg_products:
-        if str(product["id"]) in tg_ids or product["id"] in tg_ids:
+        if str(product["id"]) in tg_ids:
             continue
-        else:
-            tg_review[product["name"]] = {
-                "identifiers": {"tcgplayerProductId": product["id"]}
-            }
-            if product["releaseDate"]:
-                date_obj = datetime.strptime(
-                    product["releaseDate"], "%Y-%m-%dT%H:%M:%S"
-                )
-                tg_review[product["name"]]["release_date"] = date_obj.strftime(
-                    "%Y-%m-%d"
-                )
+
+        tg_review[product["name"]] = {
+            "identifiers": {"tcgplayerProductId": str(product["id"])}
+        }
+        if product["releaseDate"]:
+            date_obj = datetime.strptime(product["releaseDate"], "%Y-%m-%dT%H:%M:%S")
+            tg_review[product["name"]]["release_date"] = date_obj.strftime("%Y-%m-%d")
 
     # Dump new products into the review section
     with open("data/review.yaml", "w") as yfile:
