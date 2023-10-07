@@ -53,17 +53,17 @@ def build_uuid_map():
             elif prefix == f"data.{current_set}" and event == "map_key":
                 status = value
             elif (
-                    status == "booster"
-                    and prefix == f"data.{current_set}.booster"
-                    and event == "map_key"
+                status == "booster"
+                and prefix == f"data.{current_set}.booster"
+                and event == "map_key"
             ):
                 uuids[ccode]["booster"].add(value)
             elif status == "decks" and prefix == f"data.{current_set}.decks.item.name":
                 uuids[ccode]["decks"].add(value)
             elif status == "sealedProduct":
                 if (
-                        prefix == f"data.{current_set}.sealedProduct.item"
-                        and event == "start_map"
+                    prefix == f"data.{current_set}.sealedProduct.item"
+                    and event == "start_map"
                 ):
                     identifier = ""
                     uuid = ""
@@ -72,8 +72,8 @@ def build_uuid_map():
                 elif prefix == f"data.{current_set}.sealedProduct.item.uuid":
                     uuid = value
                 elif (
-                        prefix == f"data.{current_set}.sealedProduct.item"
-                        and event == "end_map"
+                    prefix == f"data.{current_set}.sealedProduct.item"
+                    and event == "end_map"
                 ):
                     uuids[ccode]["sealedProduct"][identifier] = uuid
             elif status == "cards":
@@ -291,7 +291,7 @@ def parse_variable(contents, logger=None):
         logger.info(str(contents))
     if options.get("replacement", False):
         for combo in itr.combinations_with_replacement(
-                contents["variable"], options.get("count", 1)
+            contents["variable"], options.get("count", 1)
         ):
             temp_variable.append(iterative_sum(combo, logger))
     else:
@@ -321,7 +321,9 @@ if __name__ == "__main__":
     logger = logging.getLogger()
     logger.setLevel(logging.INFO)
     rollCheck = os.path.isfile(logfile_name)
-    handler = handlers.RotatingFileHandler(logfile_name, backupCount=5, encoding="utf-8")
+    handler = handlers.RotatingFileHandler(
+        logfile_name, backupCount=5, encoding="utf-8"
+    )
     formatter = logging.Formatter("%(levelname)s - %(message)s")
 
     handler.setFormatter(formatter)
@@ -344,12 +346,16 @@ if __name__ == "__main__":
         if not data["products"]:
             logger.error("Set %s has no products", data["code"])
             os.remove(file)
-        for product, contents in tqdm(data["products"].items(), position=1, leave=False):
+        for product, contents in tqdm(
+            data["products"].items(), position=1, leave=False
+        ):
             if "copy" in contents:
                 contents = data["products"][contents["copy"]]
             if "variable" in contents:
                 contents = parse_variable(contents)
-            if validate_contents(contents, data["code"] + "-" + product, logger, uuid_map):
+            if validate_contents(
+                contents, data["code"] + "-" + product, logger, uuid_map
+            ):
                 if data["code"] not in products_contents:
                     products_contents[data["code"]] = {}
                 try:

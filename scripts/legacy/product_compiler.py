@@ -19,7 +19,9 @@ def main():
     logger = logging.getLogger()
     logger.setLevel(logging.INFO)
     rollCheck = os.path.isfile(logfile_name)
-    handler = handlers.RotatingFileHandler(logfile_name, backupCount=5, encoding="utf-8")
+    handler = handlers.RotatingFileHandler(
+        logfile_name, backupCount=5, encoding="utf-8"
+    )
     formatter = logging.Formatter("%(levelname)s - %(message)s")
 
     handler.setFormatter(formatter)
