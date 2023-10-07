@@ -1,25 +1,17 @@
 code: 40k
 products:
-  Warhammer 40,000 Collector's Edition Commander Decks - Set of Four:
-    category: CASE
-    identifiers:
-      cardKingdomId: '265873'
-    subtype: COLLECTOR
-  Warhammer 40,000 Commander Decks - Set of Four:
-    category: CASE
-    identifiers:
-      cardKingdomId: '265872'
-    subtype: UNKNOWN
   Warhammer 40000 Commander Deck Display:
-    category: COMMANDER_DECK
+    category: DECK_BOX
     identifiers:
       tcgplayerProductId: '272321'
+      cardKingdomId: '265872'
     release_date: '2022-10-07'
     subtype: UNKNOWN
   Warhammer 40000 Commander Deck Display Collectors Edition:
-    category: COMMANDER_DECK
+    category: DECK_BOX
     identifiers:
       tcgplayerProductId: '272322'
+      cardKingdomId: '265873'
     release_date: '2022-10-07'
     subtype: COLLECTOR
   Warhammer 40000 Forces of the Imperium Commander Deck:

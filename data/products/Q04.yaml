@@ -1,22 +1,42 @@
 code: q04
 products:
-  'Challenger Deck 2020: Allied Fires':
+  Challenger Deck 2020 Allied Fires:
     category: DECK
     identifiers:
       cardKingdomId: '231906'
+      tcgplayerProductId: '209420'
+    release_date: '2019-04-12'
     subtype: CHALLENGE
-  'Challenger Deck 2020: Cavalcade Charge':
+  Challenger Deck 2020 Cavalcade Charge:
     category: DECK
     identifiers:
       cardKingdomId: '231907'
+      tcgplayerProductId: '209422'
+    release_date: '2019-04-12'
     subtype: CHALLENGE
-  'Challenger Deck 2020: Final Adventure':
+  Challenger Deck 2020 Final Adventure:
     category: DECK
     identifiers:
       cardKingdomId: '231908'
+      tcgplayerProductId: '209421'
+    release_date: '2019-04-12'
     subtype: CHALLENGE
-  'Challenger Deck 2020: Flash of Ferocity':
+  Challenger Deck 2020 Flash of Ferocity:
     category: DECK
     identifiers:
       cardKingdomId: '231909'
+      tcgplayerProductId: '209423'
+    release_date: '2019-04-12'
+    subtype: CHALLENGE
+  Challenger Deck 2020 Display:
+    category: DECK
+    identifiers:
+      tcgplayerProductId: '209425'
+    release_date: '2019-04-12'
+    subtype: CHALLENGE
+  Challenger Deck 2020 Set of 4:
+    category: SUBSET
+    identifiers:
+      tcgplayerProductId: '209424'
+    release_date: '2019-04-12'
     subtype: CHALLENGE
