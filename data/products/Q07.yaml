@@ -1,22 +1,41 @@
 code: q07
 products:
-  'Challenger Deck 2022: Dimir Control':
+  Challenger Deck 2022 Dimir Control:
     category: DECK
     identifiers:
       cardKingdomId: '257493'
+      tcgplayerProductId: '263165'
+    release_date: '2019-04-12'
     subtype: CHALLENGE
-  'Challenger Deck 2022: Gruul Stompy':
+  Challenger Deck 2022 Gruul Stompy:
     category: DECK
     identifiers:
       cardKingdomId: '257495'
+      tcgplayerProductId: '263166'
+    release_date: '2019-04-12'
     subtype: CHALLENGE
-  'Challenger Deck 2022: Mono White Aggro':
+  Challenger Deck 2022 Mono White Aggro:
     category: DECK
     identifiers:
       cardKingdomId: '257492'
+      tcgplayerProductId: '263164'
+    release_date: '2019-04-12'
     subtype: CHALLENGE
-  'Challenger Deck 2022: Rakdos Vampires':
+  Challenger Deck 2022 Rakdos Vampires:
     category: DECK
     identifiers:
       cardKingdomId: '257494'
+      tcgplayerProductId: '263167'
+    release_date: '2019-04-12'
+    subtype: CHALLENGE
+  Challenger Deck 2022 Display:
+    category: DECK
+    identifiers:
+      tcgplayerProductId: '263168'
+    subtype: CHALLENGE
+  Challenger Deck 2022 Set of 4:
+    category: SUBSET
+    identifiers:
+      tcgplayerProductId: '263169'
+    release_date: '2019-04-12'
     subtype: CHALLENGE
