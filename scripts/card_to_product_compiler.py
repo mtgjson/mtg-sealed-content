@@ -2,8 +2,9 @@ import argparse
 import json
 import pathlib
 from collections import defaultdict
-from typing import Any, Dict, Set, List, Optional
+from typing import Any, Dict, Set, List
 import requests
+
 
 class Card:
     uuid: str
@@ -206,8 +207,12 @@ class MtgjsonCardLinker:
         for deck in decks_data:
             if deck["name"] != deck_name:
                 continue
-            deck_cards = (deck.get("cards", []) + deck.get("commander", []) +
-                deck.get("mainBoard", []) + deck.get("sideBoard", []))
+            deck_cards = (
+                deck.get("cards", [])
+                + deck.get("commander", [])
+                + deck.get("mainBoard", [])
+                + deck.get("sideBoard", [])
+            )
             for card in deck_cards:
                 finish = "foil" if card.get("isFoil", False) else "nonfoil"
                 return_value.add(Card(card["uuid"], finish))

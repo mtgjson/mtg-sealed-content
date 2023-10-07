@@ -34,17 +34,17 @@ def build_uuid_map():
         elif prefix == f"data.{current_set}" and event == "map_key":
             status = value
         elif (
-                status == "booster"
-                and prefix == f"data.{current_set}.booster"
-                and event == "map_key"
+            status == "booster"
+            and prefix == f"data.{current_set}.booster"
+            and event == "map_key"
         ):
             uuids[ccode]["booster"].add(value)
         elif status == "decks" and prefix == f"data.{current_set}.decks.item.name":
             uuids[ccode]["decks"].add(value)
         elif status == "sealedProduct":
             if (
-                    prefix == f"data.{current_set}.sealedProduct.item"
-                    and event == "start_map"
+                prefix == f"data.{current_set}.sealedProduct.item"
+                and event == "start_map"
             ):
                 identifier = ""
                 uuid = ""
@@ -53,8 +53,8 @@ def build_uuid_map():
             elif prefix == f"data.{current_set}.sealedProduct.item.uuid":
                 uuid = value
             elif (
-                    prefix == f"data.{current_set}.sealedProduct.item"
-                    and event == "end_map"
+                prefix == f"data.{current_set}.sealedProduct.item"
+                and event == "end_map"
             ):
                 uuids[ccode]["sealedProduct"][identifier] = uuid
         elif status == "cards":
@@ -89,16 +89,16 @@ def main(contentFolder):
     uuid_map = build_uuid_map()
     products_contents = {}
     status_file = Path("status.txt")
-    with open(status_file, 'w') as f:
+    with open(status_file, "w") as f:
         f.write("Starting output\n")
     for set_file in sorted(contentFolder.glob("*.yaml")):
-        with open(set_file, 'rb') as f:
+        with open(set_file, "rb") as f:
             contents = yaml.safe_load(f)
 
         products_contents[contents["code"]] = {}
         for name, p in contents["products"].items():
             if not p:
-                with open(status_file, 'a') as f:
+                with open(status_file, "a") as f:
                     f.write(f"Product {contents['code']} - {name} missing contents\n")
                 continue
             if set(p.keys()) == {"copy"}:
@@ -108,12 +108,12 @@ def main(contentFolder):
             products_contents[contents["code"]][name] = compiled_product
         if not products_contents[contents["code"]]:
             products_contents.pop(contents["code"])
-    
+
     with open("outputs/contents.json", "w") as outfile:
         json.dump({k: set_to_json(v) for k, v in products_contents.items()}, outfile)
-    
+
     deck_map = deck_links(products_contents)
-    
+
     with open("outputs/deck_map.json", "w") as outfile:
         json.dump(deck_map, outfile)
 
