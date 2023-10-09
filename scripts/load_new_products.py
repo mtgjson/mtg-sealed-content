@@ -161,7 +161,7 @@ def main(secret):
     for known_file in Path("data/products").glob("*.yaml"):
         with open(known_file, "rb") as yfile:
             loaded_data = yaml.safe_load(yfile)
-        with open(known_file, "wb") as yfile:
+        with open(known_file, "w") as yfile:
             yaml.dump(loaded_data, yfile)
         ck_ids.update(
             {
