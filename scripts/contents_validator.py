@@ -21,4 +21,20 @@ if __name__ == "__main__":
                 failed = True
     if failed:
         raise ImportError()
+
+    productsFolder = Path("data/products/")
+    failed = False
+    for set_file in productsFolder.glob("*.yaml"):
+        with open(set_file, "rb") as f:
+            contents = yaml.safe_load(f)
+        
+        for name, p in contents["products"]:
+            if "category" not in p.keys():
+                print(f"Product {name} in set {set_file.stem} missing category")
+                failed = True
+            if "subtype" not in p.keys():
+                print(f"Product {name} in set {set_file.stem} missing subtype")
+                failed = True
+    if failed:
+        raise ImportError()
     print("All products validated")
