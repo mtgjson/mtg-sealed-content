@@ -1,11 +1,17 @@
 code: afr
 products:
-  2022 Arena Starter Kit:
+  2021 Arena Starter Kit:
     category: TWO_PLAYER_STARTER_SET
     identifiers:
       cardKingdomId: '260696'
+      tcgplayerProductId: '243657'
     release_date: '2021-08-06'
     subtype: STARTER
+  2021 Arena Starter Kit Amazon:
+    category: TWO_PLAYER_STARTER_SET
+    subtype: STARTER
+    identifiers:
+      tcgplayerProductId: '252736'
   Adventures in the Forgotten Realms Bundle:
     category: BUNDLE
     identifiers:
