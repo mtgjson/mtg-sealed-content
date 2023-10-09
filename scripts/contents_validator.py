@@ -28,7 +28,7 @@ if __name__ == "__main__":
         with open(set_file, "rb") as f:
             contents = yaml.safe_load(f)
         
-        for name, p in contents["products"]:
+        for name, p in contents["products"].items():
             if "category" not in p.keys():
                 print(f"Product {name} in set {set_file.stem} missing category")
                 failed = True
