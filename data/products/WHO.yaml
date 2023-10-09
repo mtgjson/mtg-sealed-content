@@ -20,6 +20,11 @@ products:
       tcgplayerProductId: '496077'
     release_date: '2023-10-13'
     subtype: COLLECTOR
+  Doctor Who Collector Booster Sample Pack:
+    category: BOOSTER_PACK
+    subtype: COLLECTOR
+    identifiers: {}
+    release_date: '2023-10-13'
   Doctor Who Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -28,13 +33,13 @@ products:
     release_date: '2023-10-13'
     subtype: COLLECTOR
   Doctor Who Commander Deck Display:
-    category: COMMANDER_DECK
+    category: DECK_BOX
     identifiers:
       tcgplayerProductId: '496074'
     release_date: '2023-10-13'
     subtype: UNKNOWN
   Doctor Who Commander Decks - Set of Four:
-    category: COMMANDER_DECK
+    category: DECK_BOX
     identifiers:
       cardKingdomId: '283465'
     release_date: '2023-10-13'
