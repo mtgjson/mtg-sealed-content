@@ -1,19 +1,19 @@
 code: who
 products:
-  Doctor Who Blast From the Past Commander Deck: 
-    deck:
-    - set: who
-      name: Blast from the Past
+  Doctor Who Blast From the Past Commander Deck:
     card_count: 110
+    deck:
+    - name: Blast from the Past
+      set: who
     other:
     - name: 10 Double-faced tokens
     - name: Planar Die
     - name: Deck Box
     - name: Life Tracker
     sealed:
-    - set: who
-      count: 1
+    - count: 1
       name: Doctor Who Collector Booster Sample Pack
+      set: who
   Doctor Who Collector Booster Box:
     sealed:
     - count: 12
@@ -24,11 +24,16 @@ products:
     - count: 6
       name: Doctor Who Collector Booster Box
       set: who
-  Doctor Who Collector Booster Pack: 
-    pack:
-    - set: who
-      code: collector
+  Doctor Who Collector Booster Pack:
     card_count: 15
+    pack:
+    - code: collector
+      set: who
+  Doctor Who Collector Booster Sample Pack:
+    card_count: 2
+    pack:
+    - code: collector-sample
+      set: who
   Doctor Who Commander Deck Display:
     sealed:
     - count: 1
@@ -43,7 +48,7 @@ products:
     - count: 1
       name: Doctor Who Timey Wimey Commander Deck
       set: who
-  Doctor Who Commander Decks - Set of Four: 
+  Doctor Who Commander Decks - Set of Four:
     sealed:
     - count: 1
       name: Doctor Who Blast From the Past Commander Deck
@@ -57,50 +62,45 @@ products:
     - count: 1
       name: Doctor Who Timey Wimey Commander Deck
       set: who
-  Doctor Who Masters of Evil Commander Deck: 
-    deck:
-    - set: who
-      name: Masters of Evil
+  Doctor Who Masters of Evil Commander Deck:
     card_count: 110
+    deck:
+    - name: Masters of Evil
+      set: who
     other:
     - name: 10 Double-faced tokens
     - name: Planar Die
     - name: Deck Box
     - name: Life Tracker
     sealed:
-    - set: who
-      count: 1
+    - count: 1
       name: Doctor Who Collector Booster Sample Pack
-  Doctor Who Paradox Power Commander Deck: 
-    deck:
-    - set: who
-      name: Paradox Power
+      set: who
+  Doctor Who Paradox Power Commander Deck:
     card_count: 110
+    deck:
+    - name: Paradox Power
+      set: who
     other:
     - name: 10 Double-faced tokens
     - name: Planar Die
     - name: Deck Box
     - name: Life Tracker
     sealed:
-    - set: who
-      count: 1
+    - count: 1
       name: Doctor Who Collector Booster Sample Pack
-  Doctor Who Timey Wimey Commander Deck: 
-    deck:
-    - set: who
-      name: Timey Wimey
+      set: who
+  Doctor Who Timey Wimey Commander Deck:
     card_count: 110
+    deck:
+    - name: Timey Wimey
+      set: who
     other:
     - name: 10 Double-faced tokens
     - name: Planar Die
     - name: Deck Box
     - name: Life Tracker
     sealed:
-    - set: who
-      count: 1
+    - count: 1
       name: Doctor Who Collector Booster Sample Pack
-  Doctor Who Collector Booster Sample Pack: 
-    pack:
-    - set: who
-      code: collector-sample
-    card_count: 2
+      set: who
