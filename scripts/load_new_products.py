@@ -213,8 +213,12 @@ def main(secret):
     for set_file in Path("data/products").glob("*.yaml"):
         with open(set_file, "r") as yfile:
             load_data = yaml.safe_load(yfile)
-        with open(Path("data/contents").joinpath(set_file.name), "r") as yfile:
-            content_data = yaml.safe_load(yfile)
+        cpath = Path("data/contents").joinpath(set_file.name)
+        if cpath.is_file():
+            with open(cpath, "r") as yfile:
+                content_data = yaml.safe_load(yfile)
+        else:
+            content_data = {"code": load_data['code'], "products":{}}
         for p_name in load_data["products"].keys():
             if p_name not in content_data["products"]:
                 content_data["products"][p_name] = []
