@@ -1,5 +1,14 @@
 code: slu
 products:
-  Secret Lair Ultimate Edition 2 Box Black: []
-  Secret Lair Ultimate Edition 2 Box Grey: []
-  Secret Lair Ultimate Edition Box: []
+  Secret Lair Ultimate Edition 2 Box Black:
+    card_count: 10
+    deck:
+    - name: Hidden Pathways
+      set: slu
+  Secret Lair Ultimate Edition 2 Box Grey:
+    copy: Secret Lair Ultimate Edition 2 Box Black
+  Secret Lair Ultimate Edition Box:
+    card_count: 5
+    deck:
+    - name: Making Fetch Happen
+      set: slu
