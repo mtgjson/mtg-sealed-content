@@ -678,7 +678,11 @@ products:
     deck:
     - name: 'Angels: They''re Just Like Us but Cooler and with Wings'
       set: pagl
-  Secret Lair Commander Deck From Cute to Brute: []
+  Secret Lair Commander Deck From Cute to Brute:
+    card_count: 101
+    deck:
+    - name: 'From Cute to Brute'
+      set: pctb
   Secret Lair Cool Ocean Breeze:
     card_count: 5
     deck:
@@ -739,7 +743,11 @@ products:
     deck:
     - name: Dan Frazier is Back The Enemy Signets
       set: sld
-  Secret Lair Dan Fraziers Mox Box Foil Etched Edition: []
+  Secret Lair Dan Fraziers Mox Box Foil Etched Edition:
+    card_count: 3
+    deck:
+    - name: Dan Frazier's Mox Box
+      set: sld
   Secret Lair Death Is Temporary Metal Is Forever:
     card_count: 6
     deck:
