@@ -153,8 +153,8 @@ def main(secret):
     # Set up known product objects
     with open("data/ignore.yaml") as ignore_file:
         ignore = yaml.safe_load(ignore_file)
-    ck_ids = set(ignore["cardKingdom"].keys())
-    tg_ids = set(ignore["tcgplayer"].keys())
+    ck_ids = set(str(x) for x in ignore["cardKingdom"].keys())
+    tg_ids = set(str(x) for x in ignore["tcgplayer"].keys())
     ck_review = dict()
     tg_review = dict()
 

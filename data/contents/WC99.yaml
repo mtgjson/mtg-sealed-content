@@ -1,6 +1,22 @@
 code: wc99
 products:
-  1999 World Championship Deck Jakub Slemr: []
-  1999 World Championship Deck Kai Budde: []
-  1999 World Championship Deck Mark Le Pine: []
-  1999 World Championship Deck Matt Linde: []
+  1999 World Championship Deck Jakub Slemr: 
+    card_count: 75
+    deck:
+    - name: "Jakub \u0160lemr - Mono-Black Control"
+      set: wc99
+  1999 World Championship Deck Kai Budde: 
+    card_count: 75
+    deck:
+    - name: Kai Budde - Red-Artifact Wildfire
+      set: wc99
+  1999 World Championship Deck Mark Le Pine: 
+    card_count: 75
+    deck:
+    - name: Mark Le Pine - Sped Red
+      set: wc99
+  1999 World Championship Deck Matt Linde: 
+    card_count: 75
+    deck:
+    - name: Matt Linde - Mono-Green Stompy
+      set: wc99
