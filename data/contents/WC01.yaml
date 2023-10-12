@@ -1,6 +1,22 @@
 code: wc01
 products:
-  2001 World Championship Deck Alex Borteh: []
-  2001 World Championship Deck Antoine Ruel: []
-  2001 World Championship Deck Jan Tomcani: []
-  2001 World Championship Deck Tom van de Logt: []
+  2001 World Championship Deck Alex Borteh: 
+    card_count: 75
+    deck:
+    - name: Alex Borteh - Merfolk Opposition
+      set: wc01
+  2001 World Championship Deck Antoine Ruel: 
+    card_count: 75
+    deck:
+    - name: Antoine Ruel - Blue-Black-Red Nether-Go
+      set: wc01
+  2001 World Championship Deck Jan Tomcani: 
+    card_count: 75
+    deck:
+    - name: Jan Tomcani - Dark Fires
+      set: wc01
+  2001 World Championship Deck Tom van de Logt: 
+    card_count: 75
+    deck:
+    - name: Tom van de Logt - Machine Head
+      set: wc01

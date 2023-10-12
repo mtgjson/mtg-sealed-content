@@ -1,6 +1,22 @@
 code: wc00
 products:
-  2000 World Championship Deck Janosh Kuhn: []
-  2000 World Championship Deck Jon Finkel: []
-  2000 World Championship Deck Nicolas Labarre: []
-  2000 World Championship Deck Tom van de Logt: []
+  2000 World Championship Deck Janosh Kuhn: 
+    card_count: 75
+    deck:
+    - name: "Janosch K\xFChn - Angry Non-Hermit"
+      set: wc00
+  2000 World Championship Deck Jon Finkel: 
+    card_count: 75
+    deck:
+    - name: Jon Finkel - Mono-Blue Tinker
+      set: wc00
+  2000 World Championship Deck Nicolas Labarre: 
+    card_count: 75
+    deck:
+    - name: Nicolas Labarre - Chimera
+      set: wc00
+  2000 World Championship Deck Tom van de Logt: 
+    card_count: 75
+    deck:
+    - name: Tom van de Logt - Replenish
+      set: wc00
