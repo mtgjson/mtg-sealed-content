@@ -37,6 +37,11 @@ products:
       tcgplayerProductId: '185678'
     release_date: '2019-05-03'
     subtype: UNKNOWN
+  War of the Spark Mythic Edition:
+    category: BUNDLE
+    identifiers:
+      tcgplayerProductId: '188892'
+    subtype: COLLECTOR
   War of the Spark Planeswalker Deck Display:
     category: DECK_BOX
     identifiers:
@@ -106,8 +111,3 @@ products:
       tcgplayerProductId: '188646'
     release_date: '2019-05-03'
     subtype: THEME
-  War of the Spark Mythic Edition:
-    category: BUNDLE
-    identifiers:
-      tcgplayerProductId: '188892'
-    subtype: COLLECTOR

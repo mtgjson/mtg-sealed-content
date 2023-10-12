@@ -39,6 +39,11 @@ products:
       tcgplayerProductId: '180737'
     release_date: '2019-01-25'
     subtype: DECK_BUILDERS_TOOLKIT
+  Ravnica Allegiance Mythic Edition:
+    category: BUNDLE
+    identifiers:
+      tcgplayerProductId: '183453'
+    subtype: COLLECTOR
   Ravnica Allegiance Planeswalker Deck Domri:
     category: DECK
     identifiers:
@@ -125,8 +130,3 @@ products:
     identifiers:
       tcgplayerProductId: '183322'
     subtype: THEME
-  Ravnica Allegiance Mythic Edition:
-    category: BUNDLE
-    identifiers:
-      tcgplayerProductId: '183453'
-    subtype: COLLECTOR

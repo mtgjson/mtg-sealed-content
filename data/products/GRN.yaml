@@ -27,6 +27,10 @@ products:
       tcgplayerProductId: '173365'
     release_date: '2018-10-05'
     subtype: UNKNOWN
+  Guilds of Ravnica Mythic Edition:
+    category: BUNDLE
+    identifiers: {}
+    subtype: COLLECTOR
   Guilds of Ravnica Planeswalker Deck Display:
     category: DECK_BOX
     identifiers:
@@ -116,7 +120,3 @@ products:
     identifiers:
       tcgplayerProductId: '176703'
     subtype: THEME
-  Guilds of Ravnica Mythic Edition:
-    category: BUNDLE
-    identifiers: {}
-    subtype: COLLECTOR

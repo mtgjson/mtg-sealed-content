@@ -12,6 +12,11 @@ products:
       cardKingdomId: '1244'
       tcgplayerProductId: '27365'
     subtype: DEFAULT
+  Revised Edition Gift Box:
+    category: BUNDLE
+    identifiers:
+      tcgplayerProductId: '193784'
+    subtype: UNKNOWN
   Revised Edition Starter Deck:
     category: DECK
     identifiers:
@@ -24,8 +29,3 @@ products:
       cardKingdomId: '240089'
       tcgplayerProductId: '173066'
     subtype: STARTER
-  Revised Edition Gift Box:
-    category: BUNDLE
-    identifiers:
-      tcgplayerProductId: '193784'
-    subtype: UNKNOWN
