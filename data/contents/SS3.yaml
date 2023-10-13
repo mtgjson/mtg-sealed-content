@@ -1,3 +1,51 @@
 code: ss3
 products:
-  Signature Spellbook Chandra: []
+  Signature Spellbook Chandra: 
+    deck:
+    - name: Signature Spellbook Chandra
+      set: ss3
+    card_count: 8
+    variable:
+    - card:
+      - set: ss3
+        foil: true
+        number: 1
+        name: Chandra. Torch of Defiance
+    - card:
+      - set: ss3
+        foil: true
+        number: 2
+        name: Cathartic Reunion
+    - card:
+      - set: ss3
+        foil: true
+        number: 3
+        name: Fiery Confluence
+    - card:
+      - set: ss3
+        foil: true
+        number: 4
+        name: Past in Flames
+    - card:
+      - set: ss3
+        foil: true
+        number: 5
+        name: Pyroblast
+    - card:
+      - set: ss3
+        foil: true
+        number: 6
+        name: Pyromancer Ascension
+    - card:
+      - set: ss3
+        foil: true
+        number: 7
+        name: Rite of Flame
+    - card:
+      - set: ss3
+        foil: true
+        number: 8
+        name: Young Pyromancer
+    variable_mode:
+      replacement: false
+      count: 1

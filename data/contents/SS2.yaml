@@ -1,3 +1,51 @@
 code: ss2
 products:
-  Signature Spellbook Gideon: []
+  Signature Spellbook Gideon: 
+    deck:
+    - name: Signature Spellbook Gideon
+      set: ss2
+    card_count: 8
+    variable:
+    - card:
+      - set: ss2
+        foil: true
+        number: 1
+        name: Gideon Jura
+    - card:
+      - set: ss2
+        foil: true
+        number: 2
+        name: Martyr's Bond
+    - card:
+      - set: ss2
+        foil: true
+        number: 3
+        name: Path to Exile
+    - card:
+      - set: ss2
+        foil: true
+        number: 4
+        name: Rest in Peace
+    - card:
+      - set: ss2
+        foil: true
+        number: 5
+        name: Shielded by Faith
+    - card:
+      - set: ss2
+        foil: true
+        number: 6
+        name: True Conviction
+    - card:
+      - set: ss2
+        foil: true
+        number: 7
+        name: Worship
+    - card:
+      - set: ss2
+        foil: true
+        number: 8
+        name: Blackblade Reforged
+    variable_mode:
+      replacement: false
+      count: 1

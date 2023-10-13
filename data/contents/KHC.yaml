@@ -1,7 +1,21 @@
 code: khc
 products:
-  Kaldheim Commander Deck Display Case: []
-  Kaldheim Commander Decks - Set of 2: []
+  Kaldheim Commander Deck Display Case: 
+    sealed:
+    - set: khc
+      count: 3
+      name: Kaldheim Elven Empire Commander Deck
+    - set: khc
+      count: 3
+      name: Kaldheim Phantom Premonition Commander Deck
+  Kaldheim Commander Decks - Set of 2: 
+    sealed:
+    - set: khc
+      count: 1
+      name: Kaldheim Elven Empire Commander Deck
+    - set: khc
+      count: 1
+      name: Kaldheim Phantom Premonition Commander Deck
   Kaldheim Elven Empire Commander Deck:
     card_count: 100
     deck:
