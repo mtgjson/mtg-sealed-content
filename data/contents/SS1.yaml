@@ -1,3 +1,51 @@
 code: ss1
 products:
-  Signature Spellbook Jace: []
+  Signature Spellbook Jace: 
+    deck:
+    - name: Signature Spellbook Jace
+      set: ss1
+    card_count: 8
+    variable:
+    - card:
+      - set: ss1
+        foil: true
+        number: 1
+        name: Jace Beleren
+    - card:
+      - set: ss1
+        foil: true
+        number: 2
+        name: Blue Elemental Blast
+    - card:
+      - set: ss1
+        foil: true
+        number: 3
+        name: Brainstorm
+    - card:
+      - set: ss1
+        foil: true
+        number: 4
+        name: Counterspell
+    - card:
+      - set: ss1
+        foil: true
+        number: 5
+        name: Gifts Ungiven
+    - card:
+      - set: ss1
+        foil: true
+        number: 6
+        name: Mystical Tutor
+    - card:
+      - set: ss1
+        foil: true
+        number: 7
+        name: Negate
+    - card:
+      - set: ss1
+        foil: true
+        number: 8
+        name: Threads of Disloyalty
+    variable_mode:
+      replacement: false
+      count: 1
