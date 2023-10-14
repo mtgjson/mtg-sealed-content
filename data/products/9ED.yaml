@@ -13,21 +13,21 @@ products:
       tcgplayerProductId: '27322'
     subtype: DEFAULT
   Ninth Edition Box Two Player Starter:
-    category: TWO_PLAYER_STARTER_SET
+    category: MULTI_DECK
     identifiers:
       tcgplayerProductId: '81799'
-    subtype: STARTER
+    subtype: TWO_PLAYER_STARTER_SET
   Ninth Edition Demo Booster:
     category: BOOSTER_PACK
     identifiers: {}
     release_date: '2005-07-29'
-    subtype: STARTER
+    subtype: WELCOME
   Ninth Edition Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '228566'
       tcgplayerProductId: '78301'
-    subtype: UNKNOWN
+    subtype: FAT_PACK
   Ninth Edition Theme Deck Army of Justice:
     category: DECK
     identifiers:

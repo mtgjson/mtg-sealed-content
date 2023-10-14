@@ -18,21 +18,21 @@ products:
       tcgplayerProductId: '27321'
     subtype: DEFAULT
   Eighth Edition Box:
-    category: BOX_SET
+    category: BUNDLE
     identifiers:
       tcgplayerProductId: '245974'
     subtype: UNKNOWN
   Eighth Edition Box Two Player Starter:
-    category: TWO_PLAYER_STARTER_SET
+    category: MULTI_DECK
     identifiers:
       cardKingdomId: '1556'
       tcgplayerProductId: '81797'
-    subtype: STARTER
+    subtype: TWO_PLAYER_STARTER_SET
   Eighth Edition Demo Game Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       tcgplayerProductId: '248192'
-    subtype: DEFAULT
+    subtype: PROMOTIONAL
   Eighth Edition Theme Deck Expulsion:
     category: DECK
     identifiers:
@@ -64,7 +64,7 @@ products:
       tcgplayerProductId: '96329'
     subtype: THEME
   Eighth Edition Two Player Starter Display:
-    category: TWO_PLAYER_STARTER_SET
+    category: DECK_BOX
     identifiers:
       cardKingdomId: '240097'
-    subtype: STARTER
+    subtype: TWO_PLAYER_STARTER

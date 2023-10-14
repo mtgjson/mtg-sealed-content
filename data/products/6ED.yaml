@@ -17,20 +17,20 @@ products:
     identifiers:
       cardKingdomId: '1159'
       tcgplayerProductId: '118880'
-    subtype: UNKNOWN
+    subtype: TOURNAMENT
   Classic Sixth Edition Tournament Pack Display:
-    category: CASE
+    category: DECK_BOX
     identifiers:
       cardKingdomId: '240093'
-    subtype: UNKNOWN
+    subtype: TOURNAMENT
   Classic Sixth Edition Two Player Starter Deck:
-    category: TWO_PLAYER_STARTER_SET
+    category: MULTI_DECK
     identifiers:
       cardKingdomId: '1157'
       tcgplayerProductId: '184222'
-    subtype: STARTER
+    subtype: TWO_PLAYER_STARTER
   Classic Sixth Edition Two Player Starter Deck Display:
-    category: TWO_PLAYER_STARTER_SET
+    category: DECK_BOX
     identifiers:
       tcgplayerProductId: '184223'
-    subtype: STARTER
+    subtype: TWO_PLAYER_STARTER
