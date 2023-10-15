@@ -8,7 +8,7 @@ products:
   Avacyn Restored 6 Card Booster Pack:
     category: BOOSTER_PACK
     identifiers: {}
-    subtype: DEFAULT
+    subtype: UNKNOWN
   Avacyn Restored Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -17,10 +17,10 @@ products:
     release_date: '2012-05-04'
     subtype: DEFAULT
   Avacyn Restored Booster Box Case 6 boxes:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '58060'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Avacyn Restored Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -44,14 +44,14 @@ products:
     category: SUBSET
     identifiers:
       tcgplayerProductId: '59111'
-    subtype: UNKNOWN
+    subtype: EVENT
   Avacyn Restored Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '186747'
       tcgplayerProductId: '58059'
     release_date: '2012-05-04'
-    subtype: UNKNOWN
+    subtype: FAT_PACK
   Avacyn Restored Intro Pack Angelic Might:
     category: DECK
     identifiers:

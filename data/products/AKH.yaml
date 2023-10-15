@@ -1,7 +1,7 @@
 code: akh
 products:
   Amonkhet Booster Battle Pack:
-    category: TWO_PLAYER_STARTER_SET
+    category: MULTI_DECK
     identifiers:
       tcgplayerProductId: '217689'
     subtype: BATTLE
@@ -13,11 +13,11 @@ products:
     release_date: '2017-04-28'
     subtype: DEFAULT
   Amonkhet Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '127177'
     release_date: '2017-04-28'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Amonkhet Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -31,18 +31,18 @@ products:
       cardKingdomId: '211629'
       tcgplayerProductId: '127175'
     release_date: '2017-04-28'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Amonkhet Deck Builders Toolkit:
-    category: BOX_SET
+    category: KIT
     identifiers:
       cardKingdomId: '211677'
       tcgplayerProductId: '127176'
     subtype: DECK_BUILDERS_TOOLKIT
   Amonkhet Land Station:
-    category: LAND_STATION
+    category: KIT
     identifiers:
       tcgplayerProductId: '215049'
-    subtype: UNKNOWN
+    subtype: LAND_STATION
   Amonkhet Planeswalker Deck Gideon:
     category: DECK
     identifiers:
@@ -64,4 +64,4 @@ products:
     category: PRERELEASE_PACK
     identifiers:
       tcgplayerProductId: '127534'
-    subtype: UNKNOWN
+    subtype: DEFAULT
