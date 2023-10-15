@@ -1,24 +1,24 @@
 code: bro
 products:
   Land Station 2022:
-    category: LAND_STATION
+    category: KIT
     identifiers:
       tcgplayerProductId: '282290'
     release_date: '2022-11-18'
-    subtype: UNKNOWN
+    subtype: LAND_STATION
   The Brothers' War Bundle:
     category: BUNDLE
     identifiers:
       cardKingdomId: '267914'
       tcgplayerProductId: '282221'
     release_date: '2022-11-18'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   The Brothers' War Bundle Case:
-    category: CASE
+    category: BUNDLE_CASE
     identifiers:
       tcgplayerProductId: '282222'
     release_date: '2022-11-18'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   The Brothers' War Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -27,7 +27,7 @@ products:
     release_date: '2022-11-18'
     subtype: COLLECTOR
   The Brothers' War Collector Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '282225'
     release_date: '2022-11-18'
@@ -43,7 +43,7 @@ products:
     category: BOOSTER_PACK
     identifiers: {}
     release_date: '2022-11-18'
-    subtype: COLLECTOR
+    subtype: PROMOTIONAL
   The Brothers' War Draft Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -52,11 +52,11 @@ products:
     release_date: '2022-11-18'
     subtype: DEFAULT
   The Brothers' War Draft Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '282228'
     release_date: '2022-11-18'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   The Brothers' War Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -70,7 +70,7 @@ products:
       cardKingdomId: '267913'
       tcgplayerProductId: '448633'
     release_date: '2022-11-18'
-    subtype: UNKNOWN
+    subtype: GIFT_BUNDLE
   The Brothers' War Jumpstart Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -79,7 +79,7 @@ products:
     release_date: '2022-11-18'
     subtype: JUMPSTART
   The Brothers' War Jumpstart Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '449721'
     subtype: JUMPSTART
@@ -96,14 +96,14 @@ products:
       cardKingdomId: '267915'
       tcgplayerProductId: '285179'
     release_date: '2022-11-18'
-    subtype: UNKNOWN
+    subtype: THEME
   The Brothers' War Prerelease Pack Urzas Iron Alliance:
     category: PRERELEASE_PACK
     identifiers:
       cardKingdomId: '267912'
       tcgplayerProductId: '282232'
     release_date: '2022-11-18'
-    subtype: UNKNOWN
+    subtype: THEME
   The Brothers' War Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -112,11 +112,11 @@ products:
     release_date: '2022-11-18'
     subtype: SET
   The Brothers' War Set Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '282229'
     release_date: '2022-11-18'
-    subtype: UNKNOWN
+    subtype: SET
   The Brothers' War Set Booster Pack:
     category: BOOSTER_PACK
     identifiers:
