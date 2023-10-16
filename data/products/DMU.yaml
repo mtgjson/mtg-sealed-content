@@ -1,11 +1,11 @@
 code: dmu
 products:
   2023 Arena Starter Kit:
-    category: TWO_PLAYER_STARTER_SET
+    category: MULTI_DECK
     identifiers:
       tcgplayerProductId: '496049'
     release_date: '2023-09-08'
-    subtype: STARTER
+    subtype: TWO_PLAYER_STARTER
   Dominaria United Box Topper Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -17,13 +17,13 @@ products:
       cardKingdomId: '263988'
       tcgplayerProductId: '275414'
     release_date: '2022-09-09'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Dominaria United Bundle Case:
-    category: CASE
+    category: BUNDLE_CASE
     identifiers:
       tcgplayerProductId: '275429'
     release_date: '2022-09-09'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Dominaria United Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -32,7 +32,7 @@ products:
     release_date: '2022-09-09'
     subtype: COLLECTOR
   Dominaria United Collector Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '275434'
     release_date: '2022-09-09'
@@ -54,7 +54,7 @@ products:
     category: BOOSTER_PACK
     identifiers: {}
     release_date: '2022-09-09'
-    subtype: COLLECTOR
+    subtype: PROMOTIONAL
   Dominaria United Draft Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -63,11 +63,11 @@ products:
     release_date: '2022-09-09'
     subtype: DEFAULT
   Dominaria United Draft Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '275433'
     release_date: '2022-09-09'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Dominaria United Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -83,7 +83,7 @@ products:
     release_date: '2022-09-09'
     subtype: JUMPSTART
   Dominaria United Jumpstart Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '275435'
     release_date: '2022-09-09'
@@ -96,11 +96,11 @@ products:
     release_date: '2022-09-09'
     subtype: JUMPSTART
   Dominaria United Prerelease Pack:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '275422'
     release_date: '2022-09-09'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Dominaria United Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -109,11 +109,11 @@ products:
     release_date: '2022-09-09'
     subtype: SET
   Dominaria United Set Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '275431'
     release_date: '2022-09-09'
-    subtype: UNKNOWN
+    subtype: SET
   Dominaria United Set Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -125,4 +125,4 @@ products:
     category: BOOSTER_PACK
     identifiers: {}
     release_date: '2022-09-09'
-    subtype: STARTER
+    subtype: WELCOME

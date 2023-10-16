@@ -8,7 +8,7 @@ products:
     release_date: '2023-01-13'
     subtype: COLLECTOR
   Dominaria Remastered Collector Booster Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '455797'
     release_date: '2023-01-13'
@@ -27,11 +27,11 @@ products:
     release_date: '2023-01-13'
     subtype: DEFAULT
   Dominaria Remastered Draft Booster Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '455798'
     release_date: '2023-01-13'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Dominaria Remastered Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
