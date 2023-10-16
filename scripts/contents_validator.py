@@ -4,20 +4,22 @@ from pathlib import Path
 
 valid_categories = [
     "BOOSTER_PACK", "BOOSTER_BOX", "BOOSTER_CASE", "DECK", "MULTI_DECK",
-    "DECK_BOX", "BOX_SET", "KIT", "BUNDLE", "BUNDLE_CASE", "DRAFT_SET",
-    "PRERELEASE_PACK", "PRERELEASE_CASE", "SUBSET"
+    "DECK_BOX", "BOX_SET", "KIT", "BUNDLE", "BUNDLE_CASE",
+    "LIMITED", "LIMITED_CASE", "SUBSET"
 ]
 old_categories = [
-    "UNKNOWN", "CASE", "COMMANDER_DECK", "LAND_STATION", "TWO_PLAYER_STARTER_SET"
+    "UNKNOWN", "CASE", "COMMANDER_DECK", "LAND_STATION", "TWO_PLAYER_STARTER_SET",
+    "DRAFT_SET", "PRERELEASE_PACK", "PRERELEASE_CASE"
 ]
 valid_subtypes = [
     "DEFAULT", "SET", "COLLECTOR", "JUMPSTART", "PROMOTIONAL", "THEME", "TOURNAMENT",
     "WELCOME", "TOPPER", "PLANESWALKER", "CHALLENGE", "EVENT", "CHAMPIONSHIP",
-    "INTRO", "COMMANDER", "BRAWL", "ARCHENEMY", "PLANECHASE", "STARTER",
+    "INTRO", "COMMANDER", "BRAWL", "ARCHENEMY", "PLANECHASE", "STARTER", "DRAFT_SET",
     "TWO_PLAYER_STARTER", "DUEL", "CLASH", "BATTLE", "GAME_NIGHT", "FROM_THE_VAULT",
     "SPELLBOOK", "SECRET_LAIR", "SECRET_LAIR_BUNDLE", "COMMANDER_COLLECTION",
     "COLLECTORS_EDITION", "GUILD_KIT", "DECK_BUILDERS_TOOLKIT", "LAND_STATION",
-    "GIFT_BUNDLE", "FAT_PACK", "MINIMAL", "PREMIUM", "VIP", "DELUXE", "ADVANCED"
+    "GIFT_BUNDLE", "FAT_PACK", "MINIMAL", "PREMIUM", "VIP", "DELUXE", "ADVANCED",
+    "SEALED_SET", "PRERELEASE", "OTHER"
 ]
 
 if __name__ == "__main__":
@@ -52,8 +54,8 @@ if __name__ == "__main__":
                 failed = True
             elif p['category'] not in valid_categories:
                 if p['category'] in old_categories:
-                    #print(f"Product {name} uses an old category")
-                    pass
+                    print(f"Product {name} uses an old category")
+                    #pass
                 else:
                     print(f"Product {name} has an invalid category")
                     failed = True
@@ -62,8 +64,8 @@ if __name__ == "__main__":
                 failed = True
             elif p['subtype'] not in valid_subtypes:
                 if p['subtype'] == "UNKNOWN":
-                    #print(f"Product {name} missing a valid subtype")
-                    pass
+                    print(f"Product {name} missing a valid subtype")
+                    #pass
                 else:
                     print(f"Product {name} uses an invalid subtype")
                     failed = True
