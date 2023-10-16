@@ -19,7 +19,7 @@ valid_subtypes = [
     "SPELLBOOK", "SECRET_LAIR", "SECRET_LAIR_BUNDLE", "COMMANDER_COLLECTION",
     "COLLECTORS_EDITION", "GUILD_KIT", "DECK_BUILDERS_TOOLKIT", "LAND_STATION",
     "GIFT_BUNDLE", "FAT_PACK", "MINIMAL", "PREMIUM", "VIP", "DELUXE", "ADVANCED",
-    "SEALED_SET", "PRERELEASE", "OTHER"
+    "SEALED_SET", "PRERELEASE", "OTHER", "CHALLENGER", "SIX"
 ]
 
 if __name__ == "__main__":
@@ -44,7 +44,8 @@ if __name__ == "__main__":
 
     productsFolder = Path("data/products/")
     failed = False
-    for set_file in productsFolder.glob("*.yaml"):
+    all_files = sorted(list(productsFolder.glob("*.yaml")))
+    for set_file in all_files:
         with open(set_file, "rb") as f:
             contents = yaml.safe_load(f)
         
