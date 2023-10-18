@@ -1,7 +1,7 @@
 code: gtc
 products:
   Gatecrash Booster Battle Pack:
-    category: TWO_PLAYER_STARTER_SET
+    category: MULTI_DECK
     identifiers:
       tcgplayerProductId: '172938'
     subtype: BATTLE
@@ -11,11 +11,11 @@ products:
       cardKingdomId: '188834'
       tcgplayerProductId: '67311'
     subtype: DEFAULT
-  Gatecrash Booster Box Case 6 boxes:
-    category: CASE
+  Gatecrash Booster Box Case:
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '67310'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Gatecrash Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -41,7 +41,7 @@ products:
       cardKingdomId: '188835'
       tcgplayerProductId: '67312'
     release_date: '2013-02-01'
-    subtype: UNKNOWN
+    subtype: FAT_PACK
   Gatecrash Intro Pack Boros Battalion:
     category: DECK
     identifiers:
@@ -83,32 +83,32 @@ products:
     release_date: '2013-02-01'
     subtype: INTRO
   Gatecrash Prerelease Kit Boros:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '106351'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Gatecrash Prerelease Kit Dimir:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '106352'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Gatecrash Prerelease Kit Gruul:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '106353'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Gatecrash Prerelease Kit Orzhov:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '106354'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Gatecrash Prerelease Kit Simic:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '106355'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Gatecrash Prerelease Kits Set of 5:
-    category: PRERELEASE_PACK
+    category: SUBSET
     identifiers:
       tcgplayerProductId: '106350'
-    subtype: UNKNOWN
+    subtype: PRERELEASE

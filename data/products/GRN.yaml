@@ -8,11 +8,11 @@ products:
     release_date: '2018-10-05'
     subtype: DEFAULT
   Guilds of Ravnica Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '173363'
     release_date: '2018-10-05'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Guilds of Ravnica Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -26,11 +26,15 @@ products:
       cardKingdomId: '221359'
       tcgplayerProductId: '173365'
     release_date: '2018-10-05'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Guilds of Ravnica Mythic Edition:
-    category: BUNDLE
+    category: BOOSTER_BOX
     identifiers: {}
-    subtype: COLLECTOR
+    subtype: PREMIUM
+  Guilds of Ravnica Masterpiece Booster:
+    category: BOOSTER_PACK
+    identifiers: {}
+    subtype: PREMIUM
   Guilds of Ravnica Planeswalker Deck Display:
     category: DECK_BOX
     identifiers:
@@ -50,41 +54,41 @@ products:
       tcgplayerProductId: '176691'
     release_date: '2018-10-05'
     subtype: PLANESWALKER
-  Guilds of Ravnica Planeswalker Decks - Set of 2:
+  Guilds of Ravnica Planeswalker Decks Set of 2:
     category: SUBSET
     identifiers:
       tcgplayerProductId: '176693'
     subtype: PLANESWALKER
   Guilds of Ravnica Prerelease Pack Boros:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '173371'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Guilds of Ravnica Prerelease Pack Dimir:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '173372'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Guilds of Ravnica Prerelease Pack Golgari:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '176694'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Guilds of Ravnica Prerelease Pack Izzet:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '176695'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Guilds of Ravnica Prerelease Pack Selesnya:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '176696'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Guilds of Ravnica Prerelease Pack Set of 5:
-    category: PRERELEASE_PACK
+    category: SUBSET
     identifiers:
       tcgplayerProductId: '177706'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Guilds of Ravnica Theme Booster Box:
     category: BOOSTER_BOX
     identifiers:
