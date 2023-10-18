@@ -7,10 +7,10 @@ products:
       tcgplayerProductId: '118393'
     subtype: DEFAULT
   Eldritch Moon Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '118401'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Eldritch Moon Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -23,7 +23,7 @@ products:
       cardKingdomId: '207319'
       tcgplayerProductId: '118402'
     release_date: '2016-07-22'
-    subtype: UNKNOWN
+    subtype: FAT_PACK
   Eldritch Moon Intro Pack Dangerous Knowledge:
     category: DECK
     identifiers:
@@ -60,8 +60,8 @@ products:
       tcgplayerProductId: '118397'
     subtype: INTRO
   Eldritch Moon Prerelease Pack:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       cardKingdomId: '208089'
       tcgplayerProductId: '120775'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
