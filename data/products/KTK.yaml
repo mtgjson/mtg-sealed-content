@@ -6,11 +6,11 @@ products:
       cardKingdomId: '195601'
       tcgplayerProductId: '91650'
     subtype: DEFAULT
-  Khans of Tarkir Booster Box Case 6 Boxes:
-    category: CASE
+  Khans of Tarkir Booster Box Case:
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '91651'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Khans of Tarkir Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -29,13 +29,13 @@ products:
       cardKingdomId: '195607'
       tcgplayerProductId: '91652'
     release_date: '2014-09-24'
-    subtype: UNKNOWN
+    subtype: FAT_PACK
   Khans of Tarkir Holiday Gift Box:
     category: BUNDLE
     identifiers:
       cardKingdomId: '196747'
       tcgplayerProductId: '93314'
-    subtype: UNKNOWN
+    subtype: GIFT_BUNDLE
   Khans of Tarkir Intro Pack Abzan Siege:
     category: DECK
     identifiers:
@@ -43,7 +43,7 @@ products:
       tcgplayerProductId: '93315'
     subtype: INTRO
   Khans of Tarkir Intro Pack Display:
-    category: CASE
+    category: DECK_BOX
     identifiers:
       cardKingdomId: '240160'
       tcgplayerProductId: '92801'
@@ -78,32 +78,32 @@ products:
       tcgplayerProductId: '93319'
     subtype: INTRO
   Khans of Tarkir Prerelease Kit Abzan:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '95041'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Khans of Tarkir Prerelease Kit Jeskai:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '95043'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Khans of Tarkir Prerelease Kit Mardu:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '95042'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Khans of Tarkir Prerelease Kit Set of 5:
-    category: PRERELEASE_PACK
+    category: SUBSET
     identifiers:
       tcgplayerProductId: '95048'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Khans of Tarkir Prerelease Kit Sultai:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '95044'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Khans of Tarkir Prerelease Kit Temur:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '95045'
-    subtype: UNKNOWN
+    subtype: PRERELEASE

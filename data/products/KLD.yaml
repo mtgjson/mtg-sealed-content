@@ -7,10 +7,10 @@ products:
       tcgplayerProductId: '121527'
     subtype: DEFAULT
   Kaladesh Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '121528'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Kaladesh Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -22,9 +22,9 @@ products:
     identifiers:
       cardKingdomId: '208697'
       tcgplayerProductId: '122680'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Kaladesh Deck Builders Toolkit:
-    category: BOX_SET
+    category: KIT
     identifiers:
       cardKingdomId: '208706'
       tcgplayerProductId: '122679'
@@ -34,7 +34,7 @@ products:
     identifiers:
       cardKingdomId: '210348'
       tcgplayerProductId: '125323'
-    subtype: UNKNOWN
+    subtype: GIFT_BUNDLE
   Kaladesh Holiday Buy a Box Promo Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -52,18 +52,18 @@ products:
       cardKingdomId: '209420'
       tcgplayerProductId: '122683'
     subtype: PLANESWALKER
-  Kaladesh Planeswalker Decks - Set of 2:
+  Kaladesh Planeswalker Decks Set of 2:
     category: SUBSET
     identifiers:
       tcgplayerProductId: '122684'
     subtype: PLANESWALKER
   Kaladesh Prerelease Kit:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '122685'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Kaladesh Two Player Booster Battle Pack:
-    category: TWO_PLAYER_STARTER_SET
+    category: MULTI_DECK
     identifiers:
       tcgplayerProductId: '122681'
     subtype: BATTLE
