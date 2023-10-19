@@ -1,12 +1,12 @@
 code: m14
 products:
   2014 Core Set Booster Battle Pack:
-    category: TWO_PLAYER_STARTER_SET
+    category: MULTI_DECK
     identifiers:
       tcgplayerProductId: '78289'
     subtype: BATTLE
   2014 Core Set Booster Battle Pack Booster Box:
-    category: BOOSTER_BOX
+    category: DECK_BOX
     identifiers:
       tcgplayerProductId: '485828'
     subtype: BATTLE
@@ -16,11 +16,11 @@ products:
       cardKingdomId: '190469'
       tcgplayerProductId: '69243'
     subtype: DEFAULT
-  2014 Core Set Booster Box Case 6 Boxes:
-    category: CASE
+  2014 Core Set Booster Box Case:
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '69244'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   2014 Core Set Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -28,7 +28,7 @@ products:
       tcgplayerProductId: '69245'
     subtype: DEFAULT
   2014 Core Set Deck Builders Toolkit:
-    category: BOX_SET
+    category: KIT
     identifiers:
       cardKingdomId: '131147'
       tcgplayerProductId: '92502'
@@ -44,7 +44,7 @@ products:
     identifiers:
       cardKingdomId: '190471'
       tcgplayerProductId: '69247'
-    subtype: UNKNOWN
+    subtype: FAT_PACK
   2014 Core Set Intro Pack Bestial Strength:
     category: DECK
     identifiers:
@@ -81,11 +81,11 @@ products:
       tcgplayerProductId: '190866'
     subtype: INTRO
   2014 Core Set Land Station:
-    category: LAND_STATION
+    category: KIT
     identifiers:
       tcgplayerProductId: '215047'
-    subtype: UNKNOWN
+    subtype: LAND_STATION
   Core Set 2014 6 Card Booster Pack:
     category: BOOSTER_PACK
     identifiers: {}
-    subtype: DEFAULT
+    subtype: SIX

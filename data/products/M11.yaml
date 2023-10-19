@@ -1,10 +1,10 @@
 code: m11
 products:
   2011 Core Set 3x Booster Packs draft set:
-    category: DRAFT_SET
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '35375'
-    subtype: DEFAULT
+    subtype: DRAFT_SET
   2011 Core Set 6 Card Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -16,11 +16,11 @@ products:
       cardKingdomId: '131448'
       tcgplayerProductId: '35372'
     subtype: DEFAULT
-  2011 Core Set Booster Box Case 6 Boxes:
-    category: CASE
+  2011 Core Set Booster Box Case:
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '35373'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   2011 Core Set Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -28,7 +28,7 @@ products:
       tcgplayerProductId: '35374'
     subtype: DEFAULT
   2011 Core Set Deck Builders Toolkit:
-    category: BOX_SET
+    category: KIT
     identifiers:
       cardKingdomId: '205591'
       tcgplayerProductId: '92503'
@@ -38,7 +38,7 @@ products:
     identifiers:
       cardKingdomId: '131450'
       tcgplayerProductId: '35382'
-    subtype: UNKNOWN
+    subtype: FAT_PACK
   2011 Core Set Intro Pack Blades of Victory:
     category: DECK
     identifiers:
@@ -70,10 +70,10 @@ products:
       tcgplayerProductId: '35380'
     subtype: INTRO
   2011 Core Set Land Station:
-    category: LAND_STATION
+    category: KIT
     identifiers:
       tcgplayerProductId: '215046'
-    subtype: UNKNOWN
+    subtype: LAND_STATION
   2011 Core Set Set of 5 Intro Pack:
     category: SUBSET
     identifiers:

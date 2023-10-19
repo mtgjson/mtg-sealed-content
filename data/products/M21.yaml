@@ -1,25 +1,25 @@
 code: m21
 products:
   Core Set 2021 Arena Starter Kit:
-    category: TWO_PLAYER_STARTER_SET
+    category: MULTI_DECK
     identifiers:
       cardKingdomId: '233880'
       tcgplayerProductId: '252732'
     release_date: '2020-07-03'
-    subtype: STARTER
+    subtype: TWO_PLAYER_STARTER
   Core Set 2021 Arena Starter Kit Amazon:
-    category: TWO_PLAYER_STARTER_SET
+    category: MULTI_DECK
     identifiers:
       tcgplayerProductId: '214819'
     release_date: '2020-07-03'
-    subtype: STARTER
+    subtype: TWO_PLAYER_STARTER
   Core Set 2021 Bundle:
     category: BUNDLE
     identifiers:
       cardKingdomId: '233865'
       tcgplayerProductId: '214814'
     release_date: '2020-07-03'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Core Set 2021 Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -42,11 +42,11 @@ products:
     release_date: '2020-07-03'
     subtype: DEFAULT
   Core Set 2021 Draft Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '214810'
     release_date: '2020-07-03'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Core Set 2021 Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -95,20 +95,20 @@ products:
       tcgplayerProductId: '215467'
     release_date: '2020-07-03'
     subtype: PLANESWALKER
-  Core Set 2021 Planeswalker Decks - Set of 5:
+  Core Set 2021 Planeswalker Decks Set of 5:
     category: SUBSET
     identifiers:
       tcgplayerProductId: '214817'
     release_date: '2020-07-03'
     subtype: PLANESWALKER
   Core Set 2021 Prerelease Pack:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       cardKingdomId: '233866'
       tcgplayerProductId: '215920'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Core Set 2021 Welcome Booster:
     category: BOOSTER_PACK
     identifiers: {}
     release_date: '2020-07-03'
-    subtype: STARTER
+    subtype: WELCOME

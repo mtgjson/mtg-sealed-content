@@ -1,21 +1,21 @@
 code: m10
 products:
   2010 Core Set 3x Booster Packs draft set:
-    category: DRAFT_SET
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '32531'
-    subtype: DEFAULT
+    subtype: DRAFT_SET
   2010 Core Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '127041'
       tcgplayerProductId: '32529'
     subtype: DEFAULT
-  2010 Core Set Booster Box Case 6 Boxes:
-    category: CASE
+  2010 Core Set Booster Box Case:
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '32538'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   2010 Core Set Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -27,15 +27,15 @@ products:
     identifiers:
       cardKingdomId: '127049'
       tcgplayerProductId: '32532'
-    subtype: UNKNOWN
+    subtype: FAT_PACK
   2010 Core Set Intro Pack Deaths Minions:
     category: DECK
     identifiers:
       cardKingdomId: '127044'
       tcgplayerProductId: '32533'
     subtype: INTRO
-  2010 Core Set Intro Pack Display 10:
-    category: CASE
+  2010 Core Set Intro Pack Display:
+    category: DECK_BOX
     identifiers:
       tcgplayerProductId: '32539'
     subtype: INTRO
@@ -66,9 +66,9 @@ products:
   Core Set 2010 6 Card Booster Pack:
     category: BOOSTER_PACK
     identifiers: {}
-    subtype: DEFAULT
+    subtype: SIX
   Magic Deck Builders Toolkit:
-    category: BOX_SET
+    category: KIT
     identifiers:
       cardKingdomId: '199107'
       tcgplayerProductId: '92505'
