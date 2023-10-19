@@ -11,13 +11,13 @@ products:
       cardKingdomId: '277708'
       tcgplayerProductId: '484917'
     release_date: '2023-06-23'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   The Lord of the Rings Tales of Middle earth Bundle Case:
-    category: CASE
+    category: BUNDLE_CASE
     identifiers:
       tcgplayerProductId: '484918'
     release_date: '2023-06-23'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   The Lord of the Rings Tales of Middle earth Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -25,7 +25,7 @@ products:
       tcgplayerProductId: '484912'
     subtype: COLLECTOR
   The Lord of the Rings Tales of Middle earth Collector Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '484913'
     subtype: COLLECTOR
@@ -54,11 +54,11 @@ products:
     release_date: '2023-06-23'
     subtype: DEFAULT
   The Lord of the Rings Tales of Middle earth Draft Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '484907'
     release_date: '2023-06-23'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   The Lord of the Rings Tales of Middle earth Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -67,23 +67,23 @@ products:
     release_date: '2023-06-23'
     subtype: DEFAULT
   The Lord of the Rings Tales of Middle earth Draft Booster Pack 3 Pack:
-    category: DRAFT_SET
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '502061'
-    subtype: DEFAULT
+    subtype: DRAFT_SET
   The Lord of the Rings Tales of Middle earth Gift Bundle:
     category: BUNDLE
     identifiers:
       cardKingdomId: '277707'
       tcgplayerProductId: '484919'
     release_date: '2023-06-23'
-    subtype: UNKNOWN
+    subtype: GIFT_BUNDLE
   The Lord of the Rings Tales of Middle earth Gift Bundle Case:
-    category: CASE
+    category: BUNDLE_CASE
     identifiers:
       tcgplayerProductId: '484920'
     release_date: '2023-06-23'
-    subtype: UNKNOWN
+    subtype: GIFT_BUNDLE
   The Lord of the Rings Tales of Middle earth Jumpstart Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -92,7 +92,7 @@ products:
     release_date: '2023-06-23'
     subtype: JUMPSTART
   The Lord of the Rings Tales of Middle earth Jumpstart Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '484916'
     release_date: '2023-06-23'
@@ -105,10 +105,10 @@ products:
     release_date: '2023-06-23'
     subtype: JUMPSTART
   The Lord of the Rings Tales of Middle earth Jumpstart Booster Pack 2 Pack:
-    category: BOOSTER_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '502062'
-    subtype: JUMPSTART
+    subtype: DRAFT_SET
   The Lord of the Rings Tales of Middle earth Jumpstart Vol 2 Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -116,7 +116,7 @@ products:
     release_date: '2023-06-23'
     subtype: JUMPSTART
   The Lord of the Rings Tales of Middle earth Jumpstart Vol 2 Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '515922'
     release_date: '2023-06-23'
@@ -128,65 +128,65 @@ products:
     release_date: '2023-06-23'
     subtype: JUMPSTART
   The Lord of the Rings Tales of Middle earth Prerelease Pack:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '484922'
     release_date: '2023-06-23'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   The Lord of the Rings Tales of Middle earth Retail Tin Galadriel of Lothlorien:
-    category: UNKNOWN
+    category: BOX_SET
     identifiers:
       tcgplayerProductId: '514878'
     release_date: '2023-06-23'
-    subtype: UNKNOWN
+    subtype: OTHER
   The Lord of the Rings Tales of Middle earth Retail Tin Gandalf Friend of the Shire:
-    category: UNKNOWN
+    category: BOX_SET
     identifiers:
       tcgplayerProductId: '514877'
     release_date: '2023-06-23'
-    subtype: UNKNOWN
+    subtype: OTHER
   The Lord of the Rings Tales of Middle earth Retail Tin The One Ring:
-    category: UNKNOWN
+    category: BOX_SET
     identifiers:
       tcgplayerProductId: '514876'
     release_date: '2023-06-23'
-    subtype: UNKNOWN
+    subtype: OTHER
   The Lord of the Rings Tales of Middle earth Retail Tins Set of 3:
-    category: UNKNOWN
+    category: BOX_SET
     identifiers:
       tcgplayerProductId: '514879'
     release_date: '2023-06-23'
-    subtype: UNKNOWN
+    subtype: OTHER
   The Lord of the Rings Tales of Middle earth Scene Box Aragorn at Helms Deep:
-    category: UNKNOWN
+    category: BOX_SET
     identifiers:
       tcgplayerProductId: '515908'
     release_date: '2023-06-23'
-    subtype: UNKNOWN
+    subtype: OTHER
   The Lord of the Rings Tales of Middle earth Scene Box Flight of the Witch King:
-    category: UNKNOWN
+    category: BOX_SET
     identifiers:
       tcgplayerProductId: '515907'
     release_date: '2023-06-23'
-    subtype: UNKNOWN
+    subtype: OTHER
   The Lord of the Rings Tales of Middle earth Scene Box Gandalf in the Pelennor Fields:
-    category: UNKNOWN
+    category: BOX_SET
     identifiers:
       tcgplayerProductId: '515910'
     release_date: '2023-06-23'
-    subtype: UNKNOWN
+    subtype: OTHER
   The Lord of the Rings Tales of Middle earth Scene Box The Might of Galadriel:
-    category: UNKNOWN
+    category: BOX_SET
     identifiers:
       tcgplayerProductId: '515909'
     release_date: '2023-06-23'
-    subtype: UNKNOWN
+    subtype: OTHER
   The Lord of the Rings Tales of Middle earth Scene Boxes Set of 4:
-    category: UNKNOWN
+    category: BOX_SET
     identifiers:
       tcgplayerProductId: '515911'
     release_date: '2023-06-23'
-    subtype: UNKNOWN
+    subtype: OTHER
   The Lord of the Rings Tales of Middle earth Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -195,11 +195,11 @@ products:
     release_date: '2023-06-23'
     subtype: SET
   The Lord of the Rings Tales of Middle earth Set Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '484910'
     release_date: '2023-06-23'
-    subtype: UNKNOWN
+    subtype: SET
   The Lord of the Rings Tales of Middle earth Set Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -214,7 +214,7 @@ products:
     release_date: '2023-06-23'
     subtype: COLLECTOR
   The Lord of the Rings Tales of Middle earth Special Edition Collector Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '516254'
     release_date: '2023-06-23'
@@ -232,9 +232,9 @@ products:
     release_date: '2023-06-23'
     subtype: COLLECTOR
   The Lord of the Rings Tales of Middle earth Starter Kit:
-    category: UNKNOWN
+    category: MULTI_DECK
     identifiers:
       cardKingdomId: '277718'
       tcgplayerProductId: '484921'
     release_date: '2023-06-23'
-    subtype: UNKNOWN
+    subtype: TWO_PLAYER_STARTER

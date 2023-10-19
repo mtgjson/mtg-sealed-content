@@ -1,6 +1,6 @@
 code: lrw
 products:
-  Lorwyn Boggart Feast Theme Deck:
+  Lorwyn Theme Deck Boggart Feast:
     category: DECK
     identifiers:
       cardKingdomId: '123783'
@@ -18,13 +18,13 @@ products:
       cardKingdomId: '123484'
       tcgplayerProductId: '27350'
     subtype: DEFAULT
-  Lorwyn Elementals Path Theme Deck:
+  Lorwyn Theme Deck Elementals Path:
     category: DECK
     identifiers:
       cardKingdomId: '123786'
       tcgplayerProductId: '214972'
     subtype: THEME
-  Lorwyn Elvish Predation Theme Deck:
+  Lorwyn Theme Deck Elvish Predation:
     category: DECK
     identifiers:
       cardKingdomId: '123782'
@@ -35,27 +35,27 @@ products:
     identifiers:
       cardKingdomId: '123486'
       tcgplayerProductId: '78317'
-    subtype: UNKNOWN
-  Lorwyn Kithkin Militia Theme Deck:
+    subtype: FAT_PACK
+  Lorwyn Theme Deck Kithkin Militia:
     category: DECK
     identifiers:
       cardKingdomId: '123784'
       tcgplayerProductId: '214969'
     subtype: THEME
-  Lorwyn Merrow Riverways Theme Deck:
+  Lorwyn Theme Deck Merrow Riverways:
     category: DECK
     identifiers:
       cardKingdomId: '123785'
       tcgplayerProductId: '214970'
     subtype: THEME
   Lorwyn Tournament Pack:
-    category: DECK
+    category: LIMITED
     identifiers:
       cardKingdomId: '123487'
       tcgplayerProductId: '118878'
-    subtype: UNKNOWN
+    subtype: TOURNAMENT
   Lorwyn Tournament Pack Display:
-    category: CASE
+    category: LIMITED_CASE
     identifiers:
       cardKingdomId: '240164'
-    subtype: UNKNOWN
+    subtype: TOURNAMENT

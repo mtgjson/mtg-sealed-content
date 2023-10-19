@@ -4,24 +4,24 @@ products:
     category: BOOSTER_PACK
     identifiers: {}
     release_date: '2023-11-14'
-    subtype: COLLECTOR
+    subtype: TOPPER
   The Lost Caverns of Ixalan Box Topper Pack - Nonfoil:
     category: BOOSTER_PACK
     identifiers: {}
     release_date: '2023-11-14'
-    subtype: COLLECTOR
+    subtype: TOPPER
   The Lost Caverns of Ixalan Bundle:
     category: BUNDLE
     identifiers:
       tcgplayerProductId: '516610'
     release_date: '2023-11-17'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   The Lost Caverns of Ixalan Bundle Case:
-    category: CASE
+    category: BUNDLE_CASE
     identifiers:
       tcgplayerProductId: '516612'
     release_date: '2023-11-17'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   The Lost Caverns of Ixalan Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -29,7 +29,7 @@ products:
     release_date: '2023-11-17'
     subtype: COLLECTOR
   The Lost Caverns of Ixalan Collector Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '516616'
     release_date: '2023-11-17'
@@ -53,11 +53,11 @@ products:
     release_date: '2023-11-17'
     subtype: DEFAULT
   The Lost Caverns of Ixalan Draft Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '516620'
     release_date: '2023-11-17'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   The Lost Caverns of Ixalan Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -69,19 +69,19 @@ products:
     identifiers:
       tcgplayerProductId: '516628'
     release_date: '2023-11-17'
-    subtype: UNKNOWN
+    subtype: GIFT_BUNDLE
   The Lost Caverns of Ixalan Gift Bundle Case:
-    category: CASE
+    category: BUNDLE_CASE
     identifiers:
       tcgplayerProductId: '516631'
     release_date: '2023-11-17'
-    subtype: UNKNOWN
+    subtype: GIFT_BUNDLE
   The Lost Caverns of Ixalan Prerelease Pack:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '516678'
     release_date: '2023-11-17'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   The Lost Caverns of Ixalan Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -89,11 +89,11 @@ products:
     release_date: '2023-11-17'
     subtype: SET
   The Lost Caverns of Ixalan Set Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '516623'
     release_date: '2023-11-17'
-    subtype: UNKNOWN
+    subtype: SET
   The Lost Caverns of Ixalan Set Booster Pack:
     category: BOOSTER_PACK
     identifiers:
