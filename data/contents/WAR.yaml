@@ -36,7 +36,49 @@ products:
     - count: 10
       name: War of the Spark Booster Pack
       set: war
-  War of the Spark Mythic Edition: []
+  War of the Spark Mythic Edition:
+    card_count: 8
+    sealed:
+    - count: 24
+      name: War of the Spark Booster Pack
+      set: war
+    card:
+    - foil: true
+      name: Ugin, the Spirit Dragon
+      number: "WS1"
+      set: med
+    - foil: true
+      name: Gideon Blackblade
+      number: "WS2"
+      set: med
+    - foil: true
+      name: Jace, the Mind Sculptor
+      number: "WS3"
+      set: med
+    - foil: true
+      name: Tezzeret the Seeker
+      number: "WS4"
+      set: med
+    - foil: true
+      name: Garruk, Apex Predator
+      number: "WS5"
+      set: med
+    - foil: true
+      name: Nicol Bolas, Dragon-God
+      number: "WS6"
+      set: med
+    - foil: true
+      name: Nahiri, the Harbinger
+      number: "WS7"
+      set: med
+    - foil: true
+      name: Sarkhan Unbroken
+      number: "WS8"
+      set: med
+    other:
+    - name: Beast Token
+    - name: Dragon Token
+    - name: Garruk, Apex Predator Emblem
   War of the Spark Planeswalker Deck Display:
     sealed:
     - count: 3
