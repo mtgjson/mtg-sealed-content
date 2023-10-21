@@ -5,14 +5,18 @@ products:
     - count: 36
       name: Legends Booster Pack
       set: leg
-  Legends Booster Box (Non-English ITALIAN):
-    sealed:
-    - count: 36
-      name: Legends Booster Pack (Non-English ITALIAN)
-      set: leg
   Legends Booster Pack:
     card_count: 15
     pack:
     - code: default
       set: leg
-  Legends Booster Pack (Non-English ITALIAN): []
+  Legends Italian Booster Box:
+    sealed:
+    - count: 36
+      name: Legends Italian Booster Pack
+      set: leg
+  Legends Italian Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: leg

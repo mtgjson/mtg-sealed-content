@@ -6,19 +6,19 @@ products:
       cardKingdomId: '238459'
       tcgplayerProductId: '27286'
     subtype: DEFAULT
-  Legends Booster Box (Non-English ITALIAN):
-    language: Italian
-    category: BOOSTER_BOX
-    identifiers:
-      cardKingdomId: '238460'
-    subtype: DEFAULT
   Legends Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '124075'
       tcgplayerProductId: '27348'
     subtype: DEFAULT
-  Legends Booster Pack (Non-English ITALIAN):
+  Legends Italian Booster Box:
+    language: Italian
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '238460'
+    subtype: DEFAULT
+  Legends Italian Booster Pack:
     language: Italian
     category: BOOSTER_PACK
     identifiers:
