@@ -1,17 +1,17 @@
 code: mh2
 products:
   Modern Horizons 2 3 Booster Draft Pack:
-    category: DRAFT_SET
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '243550'
-    subtype: DEFAULT
+    subtype: DRAFT_SET
   Modern Horizons 2 Bundle:
     category: BUNDLE
     identifiers:
       cardKingdomId: '245995'
       tcgplayerProductId: '238649'
     release_date: '2021-06-18'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Modern Horizons 2 Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -20,7 +20,7 @@ products:
     release_date: '2021-06-18'
     subtype: COLLECTOR
   Modern Horizons 2 Collector Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '249163'
     subtype: COLLECTOR
@@ -49,11 +49,11 @@ products:
     release_date: '2021-06-18'
     subtype: DEFAULT
   Modern Horizons 2 Draft Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '236355'
     release_date: '2021-06-18'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Modern Horizons 2 Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -62,10 +62,10 @@ products:
     release_date: '2021-06-18'
     subtype: DEFAULT
   Modern Horizons 2 Prerelease Pack:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '238648'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Modern Horizons 2 Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -74,10 +74,10 @@ products:
     release_date: '2021-06-18'
     subtype: SET
   Modern Horizons 2 Set Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '250493'
-    subtype: UNKNOWN
+    subtype: SET
   Modern Horizons 2 Set Booster Hanger Pack:
     category: BOOSTER_PACK
     identifiers:

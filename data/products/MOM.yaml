@@ -1,22 +1,22 @@
 code: mom
 products:
   Magic The Gathering Starter Kit 2023:
-    category: TWO_PLAYER_STARTER_SET
+    category: MULTI_DECK
     identifiers:
       cardKingdomId: '281249'
-    subtype: STARTER
+    subtype: TWO_PLAYER_STARTER
   March of the Machine Bundle:
     category: BUNDLE
     identifiers:
       cardKingdomId: '274980'
       tcgplayerProductId: '475586'
     release_date: '2023-04-21'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   March of the Machine Bundle Case:
-    category: CASE
+    category: BUNDLE_CASE
     identifiers:
       tcgplayerProductId: '475587'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   March of the Machine Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -25,7 +25,7 @@ products:
     release_date: '2023-04-21'
     subtype: COLLECTOR
   March of the Machine Collector Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '475585'
     subtype: COLLECTOR
@@ -40,7 +40,7 @@ products:
     category: BOOSTER_PACK
     identifiers: {}
     release_date: '2023-04-21'
-    subtype: COLLECTOR
+    subtype: PROMOTIONAL
   March of the Machine Draft Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -49,10 +49,10 @@ products:
     release_date: '2023-04-21'
     subtype: DEFAULT
   March of the Machine Draft Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '475576'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   March of the Machine Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -75,12 +75,12 @@ products:
     release_date: '2023-04-21'
     subtype: JUMPSTART
   March of the Machine Prerelease Pack:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       cardKingdomId: '274987'
       tcgplayerProductId: '475588'
     release_date: '2023-04-21'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   March of the Machine Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -89,10 +89,10 @@ products:
     release_date: '2023-04-21'
     subtype: SET
   March of the Machine Set Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '475580'
-    subtype: UNKNOWN
+    subtype: SET
   March of the Machine Set Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -109,4 +109,4 @@ products:
     category: BOOSTER_PACK
     identifiers: {}
     release_date: '2023-04-21'
-    subtype: STARTER
+    subtype: WELCOME

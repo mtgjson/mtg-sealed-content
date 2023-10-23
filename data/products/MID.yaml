@@ -1,23 +1,23 @@
 code: mid
 products:
   Innistrad Midnight Hunt 3 Booster Draft Pack:
-    category: DRAFT_SET
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '246268'
     release_date: '2021-09-24'
-    subtype: DEFAULT
+    subtype: DRAFT_SET
   Innistrad Midnight Hunt Bundle:
     category: BUNDLE
     identifiers:
       cardKingdomId: '249857'
       tcgplayerProductId: '244382'
     release_date: '2021-09-24'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Innistrad Midnight Hunt Bundle Case:
-    category: CASE
+    category: BUNDLE_CASE
     identifiers:
       tcgplayerProductId: '259193'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Innistrad Midnight Hunt Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -26,7 +26,7 @@ products:
     release_date: '2021-09-24'
     subtype: COLLECTOR
   Innistrad Midnight Hunt Collector Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '244385'
     release_date: '2021-09-24'
@@ -51,11 +51,11 @@ products:
     release_date: '2021-09-24'
     subtype: DEFAULT
   Innistrad Midnight Hunt Draft Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '244381'
     release_date: '2021-09-24'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Innistrad Midnight Hunt Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -64,11 +64,11 @@ products:
     release_date: '2021-09-24'
     subtype: DEFAULT
   Innistrad Midnight Hunt Prerelease Pack:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '247383'
     release_date: '2021-09-24'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Innistrad Midnight Hunt Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -77,11 +77,11 @@ products:
     release_date: '2021-09-24'
     subtype: SET
   Innistrad Midnight Hunt Set Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '244390'
     release_date: '2021-09-24'
-    subtype: UNKNOWN
+    subtype: SET
   Innistrad Midnight Hunt Set Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -108,7 +108,7 @@ products:
     release_date: '2021-09-24'
     subtype: THEME
   Innistrad Midnight Hunt Theme Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '244393'
     subtype: THEME
@@ -145,4 +145,4 @@ products:
     category: BOOSTER_PACK
     identifiers: {}
     release_date: '2021-09-24'
-    subtype: STARTER
+    subtype: WELCOME

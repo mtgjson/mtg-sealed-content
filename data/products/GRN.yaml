@@ -29,7 +29,9 @@ products:
     subtype: DEFAULT
   Guilds of Ravnica Mythic Edition:
     category: BOOSTER_BOX
-    identifiers: {}
+    identifiers: 
+      cardKingdomId: '222356'
+      tcgplayerProductId: '175240'
     subtype: PREMIUM
   Guilds of Ravnica Masterpiece Booster:
     category: BOOSTER_PACK
