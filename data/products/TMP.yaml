@@ -13,7 +13,7 @@ products:
       tcgplayerProductId: '27370'
     subtype: DEFAULT
   Tempest Starter Deck Display:
-    category: DECK_BOX
+    category: LIMITED_CASE
     identifiers:
       cardKingdomId: '240221'
     subtype: STARTER
@@ -41,9 +41,9 @@ products:
       cardKingdomId: '1440'
       tcgplayerProductId: '236689'
     subtype: THEME
-  Tempest Tournament Pack:
-    category: DECK
+  Tempest Starter Deck:
+    category: LIMITED
     identifiers:
       cardKingdomId: '1202'
       tcgplayerProductId: '127433'
-    subtype: UNKNOWN
+    subtype: STARTER
