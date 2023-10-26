@@ -17,7 +17,7 @@ products:
     identifiers:
       cardKingdomId: '124502'
       tcgplayerProductId: '78330'
-    subtype: UNKNOWN
+    subtype: FAT_PACK
   Shadowmoor Theme Deck Army of Entropy:
     category: DECK
     identifiers:
@@ -49,13 +49,13 @@ products:
       tcgplayerProductId: '185146'
     subtype: THEME
   Shadowmoor Tournament Pack:
-    category: DECK
+    category: LIMITED
     identifiers:
       cardKingdomId: '124496'
       tcgplayerProductId: '185147'
-    subtype: UNKNOWN
+    subtype: TOURNAMENT
   Shadowmoor Tournament Pack Display:
-    category: CASE
+    category: LIMITED_CASE
     identifiers:
       cardKingdomId: '240204'
-    subtype: UNKNOWN
+    subtype: TOURNAMENT

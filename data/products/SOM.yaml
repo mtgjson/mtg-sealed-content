@@ -1,25 +1,25 @@
 code: som
 products:
-  Scars of Mirrodin 3x Booster Packs draft set:
-    category: DRAFT_SET
+  Scars of Mirrodin 3 Booster Packs draft set:
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '35748'
-    subtype: DEFAULT
+    subtype: DRAFT_SET
   Scars of Mirrodin 6 Card Booster Pack:
     category: BOOSTER_PACK
     identifiers: {}
-    subtype: DEFAULT
+    subtype: SIX
   Scars of Mirrodin Booster Box:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '132079'
       tcgplayerProductId: '35749'
     subtype: DEFAULT
-  Scars of Mirrodin Booster Box Case 6 Booster Boxes:
-    category: CASE
+  Scars of Mirrodin Booster Box Case:
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '35750'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Scars of Mirrodin Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -31,7 +31,7 @@ products:
     identifiers:
       cardKingdomId: '132111'
       tcgplayerProductId: '35746'
-    subtype: UNKNOWN
+    subtype: FAT_PACK
   Scars of Mirrodin Intro Pack Deadspread:
     category: DECK
     identifiers:
