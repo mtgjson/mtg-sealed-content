@@ -1,10 +1,10 @@
 code: unf
 products:
   Unfinity 3 Booster Draft Pack:
-    category: DRAFT_SET
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '476061'
-    subtype: DEFAULT
+    subtype: DRAFT_SET
   Unfinity Box Topper Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -17,7 +17,7 @@ products:
       tcgplayerProductId: '275406'
     subtype: COLLECTOR
   Unfinity Collector Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '275410'
     release_date: '2022-10-07'
@@ -36,11 +36,11 @@ products:
       tcgplayerProductId: '275404'
     subtype: DEFAULT
   Unfinity Draft Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '275411'
     release_date: '2022-10-07'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Unfinity Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
