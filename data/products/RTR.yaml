@@ -1,6 +1,6 @@
 code: rtr
 products:
-  Return to Ravnica 3x Booster Packs draft set:
+  Return to Ravnica 3 Booster Packs draft set:
     category: DRAFT_SET
     identifiers:
       tcgplayerProductId: '60120'
@@ -9,14 +9,14 @@ products:
   Return to Ravnica 6 Card Booster Pack:
     category: BOOSTER_PACK
     identifiers: {}
-    subtype: DEFAULT
+    subtype: SIX
   Return to Ravnica Booster Battle Pack:
-    category: TWO_PLAYER_STARTER_SET
+    category: MULTI_DECK
     identifiers:
       tcgplayerProductId: '72027'
     subtype: BATTLE
   Return to Ravnica Booster Battle Pack Display:
-    category: TWO_PLAYER_STARTER_SET
+    category: DECK_BOX
     identifiers:
       tcgplayerProductId: '485935'
     subtype: BATTLE
@@ -26,11 +26,11 @@ products:
       cardKingdomId: '188115'
       tcgplayerProductId: '60117'
     subtype: DEFAULT
-  Return to Ravnica Booster Box Case 6 boxes:
-    category: CASE
+  Return to Ravnica Booster Box Case:
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '60116'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Return to Ravnica Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -55,13 +55,13 @@ products:
       cardKingdomId: '188123'
       tcgplayerProductId: '60119'
     release_date: '2012-10-05'
-    subtype: UNKNOWN
+    subtype: FAT_PACK
   Return to Ravnica Holiday Gift Box:
     category: BUNDLE
     identifiers:
       cardKingdomId: '188748'
       tcgplayerProductId: '67307'
-    subtype: UNKNOWN
+    subtype: GIFT_BUNDLE
   Return to Ravnica Intro Pack Azorius Advance:
     category: DECK
     identifiers:
@@ -98,36 +98,36 @@ products:
     release_date: '2012-10-05'
     subtype: INTRO
   Return to Ravnica Prerelease Pack Azorius:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '190186'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Return to Ravnica Prerelease Pack Golgari:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '190187'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Return to Ravnica Prerelease Pack Izzet:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '190190'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Return to Ravnica Prerelease Pack Rakdos:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '190188'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Return to Ravnica Prerelease Pack Selesnya:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '190189'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Return to Ravnica Prerelease Pack Set of 5:
-    category: PRERELEASE_PACK
+    category: SUBSET
     identifiers:
       tcgplayerProductId: '190191'
-    subtype: UNKNOWN
-  Return to Ravnica Set of 5 Intro Packs:
+    subtype: PRERELEASE
+  Return to Ravnica Intro Packs Set of 5:
     category: SUBSET
     identifiers:
       tcgplayerProductId: '60118'

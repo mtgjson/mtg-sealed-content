@@ -17,7 +17,7 @@ products:
     identifiers:
       cardKingdomId: '122337'
       tcgplayerProductId: '78295'
-    subtype: UNKNOWN
+    subtype: FAT_PACK
   Ravnica Theme Deck Charge of the Boros:
     category: DECK
     identifiers:
@@ -43,14 +43,14 @@ products:
       tcgplayerProductId: '96339'
     subtype: THEME
   Ravnica Tournament Pack:
-    category: DECK
+    category: LIMITED
     identifiers:
       cardKingdomId: '118356'
       tcgplayerProductId: '118876'
-    subtype: UNKNOWN
+    subtype: TOURNAMENT
   Ravnica Tournament Pack Display:
-    category: CASE
+    category: LIMITED_CASE
     identifiers:
       cardKingdomId: '240194'
       tcgplayerProductId: '265603'
-    subtype: UNKNOWN
+    subtype: TOURNAMENT
