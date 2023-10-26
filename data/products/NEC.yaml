@@ -1,38 +1,38 @@
 code: nec
 products:
   Kamigawa Neon Dynasty Commander Deck Buckle Up:
-    category: COMMANDER_DECK
+    category: DECK
     identifiers:
       cardKingdomId: '256063'
       tcgplayerProductId: '262517'
     release_date: '2022-02-18'
-    subtype: UNKNOWN
+    subtype: COMMANDER
   Kamigawa Neon Dynasty Commander Deck Buckle Up Minimal Packaging:
-    category: COMMANDER_DECK
+    category: DECK
     identifiers:
       tcgplayerProductId: '450312'
-    subtype: MINIMAL
+    subtype: COMMANDER
   Kamigawa Neon Dynasty Commander Deck Display:
-    category: COMMANDER_DECK
+    category: DECK_BOX
     identifiers:
       tcgplayerProductId: '257579'
     release_date: '2022-02-18'
-    subtype: UNKNOWN
+    subtype: COMMANDER
   Kamigawa Neon Dynasty Commander Deck Upgrades Unleashed:
-    category: COMMANDER_DECK
+    category: DECK
     identifiers:
       cardKingdomId: '256064'
       tcgplayerProductId: '262520'
     release_date: '2022-02-18'
-    subtype: UNKNOWN
+    subtype: COMMANDER
   Kamigawa Neon Dynasty Commander Deck Upgrades Unleashed Minimal Packaging:
-    category: COMMANDER_DECK
+    category: DECK
     identifiers:
       tcgplayerProductId: '450313'
-    subtype: MINIMAL
-  Kamigawa Neon Dynasty Commander Decks - Set of 2:
-    category: CASE
+    subtype: COMMANDER
+  Kamigawa Neon Dynasty Commander Decks Set of 2:
+    category: SUBSET
     identifiers:
       tcgplayerProductId: '257578'
     release_date: '2022-02-18'
-    subtype: UNKNOWN
+    subtype: COMMANDER
