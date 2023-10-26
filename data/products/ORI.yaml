@@ -7,10 +7,10 @@ products:
       tcgplayerProductId: '96147'
     subtype: DEFAULT
   Magic Origins Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '100314'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Magic Origins Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -19,14 +19,14 @@ products:
     release_date: '2015-07-17'
     subtype: DEFAULT
   Magic Origins Clash Pack:
-    category: TWO_PLAYER_STARTER_SET
+    category: MULTI_DECK
     identifiers:
       cardKingdomId: '201586'
       tcgplayerProductId: '96150'
     release_date: '2015-07-17'
     subtype: CLASH
   Magic Origins Deck Builders Toolkit:
-    category: BOX_SET
+    category: KIT
     identifiers:
       cardKingdomId: '201587'
       tcgplayerProductId: '100028'
@@ -38,16 +38,12 @@ products:
       cardKingdomId: '201582'
       tcgplayerProductId: '96149'
     release_date: '2015-07-17'
-    subtype: UNKNOWN
-  Magic Origins Intro Pack - Assemble Victory (Blue/Red):
-    category: DECK
-    identifiers:
-      cardKingdomId: '201693'
-    subtype: INTRO
+    subtype: FAT_PACK
   Magic Origins Intro Pack Assemble Victory:
     category: DECK
     identifiers:
       tcgplayerProductId: '100026'
+      cardKingdomId: '201693'
     subtype: INTRO
   Magic Origins Intro Pack Brave the Battle:
     category: DECK
@@ -79,37 +75,37 @@ products:
       tcgplayerProductId: '101217'
     subtype: INTRO
   Magic Origins Land Station:
-    category: LAND_STATION
+    category: KIT
     identifiers:
       tcgplayerProductId: '215048'
-    subtype: UNKNOWN
+    subtype: LAND_STATION
   Magic Origins Prerelease Kit Chandra:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '101222'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Magic Origins Prerelease Kit Gideon:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '101218'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Magic Origins Prerelease Kit Jace:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '101219'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Magic Origins Prerelease Kit Liliana:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '101221'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Magic Origins Prerelease Kit Nissa:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '101220'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Magic Origins Prerelease Kit Set of 5:
-    category: PRERELEASE_PACK
+    category: SUBSET
     identifiers:
       tcgplayerProductId: '101312'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
