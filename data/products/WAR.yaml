@@ -13,11 +13,11 @@ products:
       cardKingdomId: '224609'
     subtype: DEFAULT
   War of the Spark Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '185675'
     release_date: '2019-05-03'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   War of the Spark Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -36,13 +36,13 @@ products:
       cardKingdomId: '224023'
       tcgplayerProductId: '185678'
     release_date: '2019-05-03'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   War of the Spark Mythic Edition:
     category: BUNDLE
     identifiers:
       tcgplayerProductId: '188892'
       cardKingdomId: '224825'
-    subtype: COLLECTOR
+    subtype: PREMIUM
   War of the Spark Planeswalker Deck Display:
     category: DECK_BOX
     identifiers:
@@ -60,16 +60,16 @@ products:
       cardKingdomId: '224029'
       tcgplayerProductId: '187179'
     subtype: PLANESWALKER
-  War of the Spark Planeswalker Decks - Set of 2:
+  War of the Spark Planeswalker Decks Set of 2:
     category: SUBSET
     identifiers:
       tcgplayerProductId: '185683'
     subtype: PLANESWALKER
   War of the Spark Prerelease Pack:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '185687'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   War of the Spark Theme Booster Box:
     category: BOOSTER_BOX
     identifiers:

@@ -6,13 +6,13 @@ products:
       cardKingdomId: '281236'
       tcgplayerProductId: '496046'
     release_date: '2023-09-08'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Wilds of Eldraine Bundle Case:
-    category: CASE
+    category: BUNDLE_CASE
     identifiers:
       tcgplayerProductId: '496047'
     release_date: '2023-09-08'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Wilds of Eldraine Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -21,13 +21,13 @@ products:
     release_date: '2023-09-08'
     subtype: COLLECTOR
   Wilds of Eldraine Collector Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '504452'
     release_date: '2023-09-08'
     subtype: COLLECTOR
   Wilds of Eldraine Collector Booster Box Master Case:
-    category: BOOSTER_BOX
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '496042'
     release_date: '2023-09-08'
@@ -43,7 +43,7 @@ products:
     category: BOOSTER_PACK
     identifiers: {}
     release_date: '2023-09-01'
-    subtype: COLLECTOR
+    subtype: PROMOTIONAL
   Wilds of Eldraine Draft Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -52,11 +52,11 @@ products:
     release_date: '2023-09-08'
     subtype: DEFAULT
   Wilds of Eldraine Draft Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '496036'
     release_date: '2023-09-08'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Wilds of Eldraine Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -65,11 +65,11 @@ products:
     release_date: '2023-09-08'
     subtype: DEFAULT
   Wilds of Eldraine Prerelease Pack:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '496048'
     release_date: '2023-09-08'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Wilds of Eldraine Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -78,11 +78,11 @@ products:
     release_date: '2023-09-08'
     subtype: SET
   Wilds of Eldraine Set Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '496039'
     release_date: '2023-09-08'
-    subtype: UNKNOWN
+    subtype: SET
   Wilds of Eldraine Set Booster Pack:
     category: BOOSTER_PACK
     identifiers:

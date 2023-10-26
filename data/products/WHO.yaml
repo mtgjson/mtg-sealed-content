@@ -1,12 +1,12 @@
 code: who
 products:
-  Doctor Who Blast From the Past Commander Deck:
-    category: COMMANDER_DECK
+  Doctor Who Commander Deck Blast From the Past:
+    category: DECK
     identifiers:
       cardKingdomId: '283469'
       tcgplayerProductId: '496071'
     release_date: '2023-10-13'
-    subtype: UNKNOWN
+    subtype: COMMANDER
   Doctor Who Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -15,7 +15,7 @@ products:
     release_date: '2023-10-13'
     subtype: COLLECTOR
   Doctor Who Collector Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '496077'
     release_date: '2023-10-13'
@@ -31,37 +31,37 @@ products:
     category: BOOSTER_PACK
     identifiers: {}
     release_date: '2023-10-13'
-    subtype: COLLECTOR
+    subtype: PROMOTIONAL
   Doctor Who Commander Deck Display:
     category: DECK_BOX
     identifiers:
       tcgplayerProductId: '496074'
     release_date: '2023-10-13'
-    subtype: UNKNOWN
-  Doctor Who Commander Decks - Set of Four:
-    category: DECK_BOX
+    subtype: COMMANDER
+  Doctor Who Commander Decks Set of Four:
+    category: SUBSET
     identifiers:
       cardKingdomId: '283465'
     release_date: '2023-10-13'
-    subtype: UNKNOWN
-  Doctor Who Masters of Evil Commander Deck:
-    category: COMMANDER_DECK
+    subtype: COMMANDER
+  Doctor Who Commander Deck Masters of Evil:
+    category: DECK
     identifiers:
       cardKingdomId: '283468'
       tcgplayerProductId: '496070'
     release_date: '2023-10-13'
-    subtype: UNKNOWN
-  Doctor Who Paradox Power Commander Deck:
-    category: COMMANDER_DECK
+    subtype: COMMANDER
+  Doctor Who Commander Deck Paradox Power:
+    category: DECK
     identifiers:
       cardKingdomId: '283467'
       tcgplayerProductId: '496073'
     release_date: '2023-10-13'
-    subtype: UNKNOWN
-  Doctor Who Timey Wimey Commander Deck:
-    category: COMMANDER_DECK
+    subtype: COMMANDER
+  Doctor Who Commander Deck Timey Wimey:
+    category: DECK
     identifiers:
       cardKingdomId: '283466'
       tcgplayerProductId: '496072'
     release_date: '2023-10-13'
-    subtype: UNKNOWN
+    subtype: COMMANDER
