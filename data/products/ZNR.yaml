@@ -6,14 +6,14 @@ products:
       cardKingdomId: '236809'
       tcgplayerProductId: '220426'
     release_date: '2020-09-25'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Zendikar Rising Bundle Gift Edition:
     category: BUNDLE
     identifiers:
       cardKingdomId: '238663'
       tcgplayerProductId: '221918'
     release_date: '2020-09-25'
-    subtype: UNKNOWN
+    subtype: GIFT_BUNDLE
   Zendikar Rising Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -21,7 +21,7 @@ products:
       tcgplayerProductId: '220423'
     subtype: COLLECTOR
   Zendikar Rising Collector Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '230865'
     subtype: COLLECTOR
@@ -44,11 +44,11 @@ products:
       tcgplayerProductId: '220414'
     subtype: DEFAULT
   Zendikar Rising Draft Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '220522'
     release_date: '2020-09-25'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Zendikar Rising Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -57,17 +57,17 @@ products:
     release_date: '2020-09-25'
     subtype: DEFAULT
   Zendikar Rising Prerelease Pack:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       cardKingdomId: '236807'
       tcgplayerProductId: '221314'
     release_date: '2020-09-25'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Zendikar Rising Prerelease Pack Case:
-    category: CASE
+    category: LIMITED_CASE
     identifiers:
       tcgplayerProductId: '266779'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Zendikar Rising Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -76,10 +76,10 @@ products:
     release_date: '2020-09-25'
     subtype: SET
   Zendikar Rising Set Booster Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '509633'
-    subtype: UNKNOWN
+    subtype: SET
   Zendikar Rising Set Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -140,4 +140,4 @@ products:
     category: BOOSTER_PACK
     identifiers: {}
     release_date: '2020-09-25'
-    subtype: STARTER
+    subtype: WELCOME
