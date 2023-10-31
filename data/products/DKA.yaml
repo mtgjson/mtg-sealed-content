@@ -7,11 +7,11 @@ products:
       tcgplayerProductId: '57584'
     release_date: '2012-02-03'
     subtype: DEFAULT
-  Dark Ascension Booster Box Case 6 boxes:
-    category: CASE
+  Dark Ascension Booster Box Case:
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '57585'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Dark Ascension Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -30,18 +30,18 @@ products:
       cardKingdomId: '186612'
       tcgplayerProductId: '57899'
     subtype: EVENT
-  Dark Ascension Event Decks - Set of 2:
+  Dark Ascension Event Decks Set of 2:
     category: SUBSET
     identifiers:
       tcgplayerProductId: '57900'
-    subtype: UNKNOWN
+    subtype: EVENT
   Dark Ascension Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '186265'
       tcgplayerProductId: '57580'
     release_date: '2012-02-03'
-    subtype: UNKNOWN
+    subtype: FAT_PACK
   Dark Ascension Intro Pack Dark Sacrifice:
     category: DECK
     identifiers:

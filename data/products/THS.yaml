@@ -1,6 +1,6 @@
 code: ths
 products:
-  Face the Hydra Challenge Deck:
+  Theros Challenge Deck Face the Hydra:
     category: DECK
     identifiers:
       tcgplayerProductId: '72028'
@@ -11,11 +11,11 @@ products:
       cardKingdomId: '191120'
       tcgplayerProductId: '70960'
     subtype: DEFAULT
-  Theros Booster Box Case 6 boxes:
-    category: CASE
+  Theros Booster Box Case:
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '70963'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Theros Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -33,13 +33,13 @@ products:
     identifiers:
       cardKingdomId: '191121'
       tcgplayerProductId: '70962'
-    subtype: UNKNOWN
+    subtype: FAT_PACK
   Theros Holiday Gift Box:
     category: BUNDLE
     identifiers:
       cardKingdomId: '192731'
       tcgplayerProductId: '71523'
-    subtype: UNKNOWN
+    subtype: GIFT_BUNDLE
   Theros Intro Pack Abhorrent Overlord:
     category: DECK
     identifiers:
@@ -71,36 +71,36 @@ products:
       tcgplayerProductId: '70981'
     subtype: INTRO
   Theros Prerelease Kit Path of Ambition:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '79268'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Theros Prerelease Kit Path of Battle:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '79271'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Theros Prerelease Kit Path of Honor:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '79269'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Theros Prerelease Kit Path of Might:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '79272'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Theros Prerelease Kit Path of Wisdom:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '79270'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Theros Prerelease Pack Set of 5:
-    category: PRERELEASE_PACK
+    category: SUBSET
     identifiers:
       tcgplayerProductId: '199940'
-    subtype: UNKNOWN
-  Theros Set of 5 Intro Packs:
+    subtype: PRERELEASE
+  Theros Intro Packs Set of 5:
     category: SUBSET
     identifiers:
       tcgplayerProductId: '70964'

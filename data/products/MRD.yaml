@@ -17,7 +17,7 @@ products:
     identifiers:
       cardKingdomId: '240342'
       tcgplayerProductId: '78320'
-    subtype: UNKNOWN
+    subtype: FAT_PACK
   Mirrodin Theme Deck Bait and Bludgeon:
     category: DECK
     identifiers:
@@ -49,13 +49,13 @@ products:
       tcgplayerProductId: '127423'
     subtype: THEME
   Mirrodin Tournament Pack:
-    category: DECK
+    category: LIMITED
     identifiers:
       cardKingdomId: '1564'
       tcgplayerProductId: '127431'
-    subtype: UNKNOWN
+    subtype: TOURNAMENT
   Mirrodin Tournament Pack Display:
-    category: CASE
+    category: LIMITED_CASE
     identifiers:
       cardKingdomId: '240170'
-    subtype: UNKNOWN
+    subtype: TOURNAMENT

@@ -4,9 +4,9 @@ products:
     category: BOOSTER_PACK
     identifiers:
       tcgplayerProductId: 202956
-    subtype: DEFAULT
-  Mirrodin Besieged All 4 Intro Packs:
-    category: DECK
+    subtype: SIX
+  Mirrodin Besieged Intro Packs Set of 4:
+    category: SUBSET
     identifiers:
       tcgplayerProductId: '39115'
     subtype: INTRO
@@ -16,11 +16,11 @@ products:
       cardKingdomId: '133026'
       tcgplayerProductId: '39109'
     subtype: DEFAULT
-  Mirrodin Besieged Booster Box Case 6 Boxes:
-    category: CASE
+  Mirrodin Besieged Booster Box Case:
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '39114'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Mirrodin Besieged Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -43,13 +43,13 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '240437'
-    subtype: DEFAULT
+    subtype: OTHER
   Mirrodin Besieged Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '133028'
       tcgplayerProductId: '39120'
-    subtype: UNKNOWN
+    subtype: FAT_PACK
   Mirrodin Besieged Intro Pack Battle Cries:
     category: DECK
     identifiers:
@@ -79,15 +79,15 @@ products:
     identifiers:
       cardKingdomId: '184197'
       tcgplayerProductId: '72025'
-    subtype: DEFAULT
+    subtype: OTHER
   Mirrodin Besieged Phyrexian Faction Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '184196'
       tcgplayerProductId: '72026'
-    subtype: DEFAULT
+    subtype: OTHER
   Mirrodin Besieged Prerelease Box:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '117598'
-    subtype: UNKNOWN
+    subtype: PRERELEASE

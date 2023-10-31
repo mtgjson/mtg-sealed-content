@@ -1,31 +1,31 @@
 code: afr
 products:
   2021 Arena Starter Kit:
-    category: TWO_PLAYER_STARTER_SET
+    category: MULTI_DECK
     identifiers:
       cardKingdomId: '260696'
       tcgplayerProductId: '243657'
     release_date: '2021-08-06'
-    subtype: STARTER
+    subtype: TWO_PLAYER_STARTER
   2021 Arena Starter Kit Amazon:
-    category: TWO_PLAYER_STARTER_SET
+    category: MULTI_DECK
     identifiers:
       tcgplayerProductId: '252736'
-    subtype: STARTER
+    subtype: TWO_PLAYER_STARTER
   Adventures in the Forgotten Realms Bundle:
     category: BUNDLE
     identifiers:
       cardKingdomId: '247746'
       tcgplayerProductId: '238732'
     release_date: '2021-07-23'
-    subtype: UNKNOWN
-  Adventures in the Forgotten Realms Bundle Gift Edition:
+    subtype: DEFAULT
+  Adventures in the Forgotten Realms Gift Bundle:
     category: BUNDLE
     identifiers:
       cardKingdomId: '249634'
       tcgplayerProductId: '243658'
     release_date: '2021-07-23'
-    subtype: UNKNOWN
+    subtype: GIFT_BUNDLE
   Adventures in the Forgotten Realms Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -34,7 +34,7 @@ products:
     release_date: '2021-07-23'
     subtype: COLLECTOR
   Adventures in the Forgotten Realms Collector Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '238851'
     release_date: '2021-07-23'
@@ -64,11 +64,11 @@ products:
     release_date: '2021-07-23'
     subtype: DEFAULT
   Adventures in the Forgotten Realms Draft Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '238854'
     release_date: '2021-07-23'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Adventures in the Forgotten Realms Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -77,16 +77,16 @@ products:
     release_date: '2021-07-23'
     subtype: DEFAULT
   Adventures in the Forgotten Realms Prerelease Pack:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '238845'
     release_date: '2021-07-23'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Adventures in the Forgotten Realms Prerelease Pack Case:
-    category: CASE
+    category: LIMITED_CASE
     identifiers:
       tcgplayerProductId: '251069'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Adventures in the Forgotten Realms Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -95,11 +95,11 @@ products:
     release_date: '2021-07-23'
     subtype: SET
   Adventures in the Forgotten Realms Set Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '238858'
     release_date: '2021-07-23'
-    subtype: UNKNOWN
+    subtype: SET
   Adventures in the Forgotten Realms Set Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -126,7 +126,7 @@ products:
     release_date: '2021-07-23'
     subtype: THEME
   Adventures in the Forgotten Realms Theme Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '238842'
     release_date: '2021-07-23'
@@ -165,4 +165,4 @@ products:
     category: BOOSTER_PACK
     identifiers: {}
     release_date: '2021-07-23'
-    subtype: STARTER
+    subtype: WELCOME

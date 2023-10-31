@@ -8,10 +8,10 @@ products:
     release_date: '2014-07-18'
     subtype: DEFAULT
   2015 Core Set Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '90787'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   2015 Core Set Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -20,13 +20,13 @@ products:
     release_date: '2014-07-18'
     subtype: DEFAULT
   2015 Core Set Clash Pack:
-    category: TWO_PLAYER_STARTER_SET
+    category: MULTI_DECK
     identifiers:
       cardKingdomId: '195224'
       tcgplayerProductId: '90793'
     subtype: CLASH
   2015 Core Set Deck Builders Toolkit:
-    category: BOX_SET
+    category: KIT
     identifiers:
       cardKingdomId: '195218'
       tcgplayerProductId: '90791'
@@ -37,9 +37,9 @@ products:
       cardKingdomId: '194905'
       tcgplayerProductId: '90790'
     release_date: '2014-07-18'
-    subtype: UNKNOWN
+    subtype: FAT_PACK
   2015 Core Set Intro Pack Display:
-    category: CASE
+    category: DECK_BOX
     identifiers:
       tcgplayerProductId: '90788'
     subtype: INTRO
@@ -79,35 +79,35 @@ products:
       tcgplayerProductId: '91078'
     subtype: INTRO
   2015 Core Set Prerelease Hunt with Ambition:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '92490'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   2015 Core Set Prerelease Hunt with Ferocity:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '92493'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   2015 Core Set Prerelease Hunt with Guile:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '92491'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   2015 Core Set Prerelease Hunt with Strength:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '92492'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   2015 Core Set Prerelease Hunt with Valor:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '92494'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   2015 Core Set Prerelease Pack Set of 5:
-    category: PRERELEASE_PACK
+    category: SUBSET
     identifiers:
       tcgplayerProductId: '199941'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   2015 Core Set Sample Deck Ajani Goldmane:
     category: DECK
     identifiers: {}

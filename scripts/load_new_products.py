@@ -187,7 +187,9 @@ def main(secret):
             ck_review.update(
                 {
                     product["name"]: {
-                        "identifiers": {"cardKingdomId": str(product["id"])}
+                        "identifiers": {"cardKingdomId": str(product["id"])},
+                        "category": "UNKNOWN",
+                        "subtype": "UNKNOWN"
                     }
                 }
             )
@@ -199,7 +201,9 @@ def main(secret):
             continue
 
         tg_review[product["name"]] = {
-            "identifiers": {"tcgplayerProductId": str(product["id"])}
+            "identifiers": {"tcgplayerProductId": str(product["id"])},
+            "category": "UNKNOWN",
+            "subtype": "UNKNOWN"
         }
         if product["releaseDate"]:
             date_obj = datetime.strptime(product["releaseDate"], "%Y-%m-%dT%H:%M:%S")

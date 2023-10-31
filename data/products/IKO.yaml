@@ -11,7 +11,7 @@ products:
       cardKingdomId: '232126'
       tcgplayerProductId: '208278'
     release_date: '2020-05-15'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Ikoria Lair of Behemoths Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -19,7 +19,7 @@ products:
       tcgplayerProductId: '208279'
     subtype: COLLECTOR
   Ikoria Lair of Behemoths Collector Booster Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '268993'
     subtype: COLLECTOR
@@ -29,7 +29,7 @@ products:
       tcgplayerProductId: '249638'
     subtype: COLLECTOR
   Ikoria Lair of Behemoths Collector Booster Hanger Pack Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '249639'
     subtype: COLLECTOR
@@ -48,10 +48,10 @@ products:
     release_date: '2020-05-15'
     subtype: DEFAULT
   Ikoria Lair of Behemoths Draft Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '208275'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Ikoria Lair of Behemoths Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -60,11 +60,11 @@ products:
     release_date: '2020-05-15'
     subtype: DEFAULT
   Ikoria Lair of Behemoths Prerelease Pack:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       cardKingdomId: '232127'
       tcgplayerProductId: '212284'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Ikoria Lair of Behemoths Theme Booster Black:
     category: BOOSTER_PACK
     identifiers:

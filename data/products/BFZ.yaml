@@ -7,11 +7,11 @@ products:
       tcgplayerProductId: '102715'
     subtype: DEFAULT
   Battle for Zendikar Booster Box Case 6 boxes:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '102714'
     release_date: '2015-10-02'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Battle for Zendikar Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -30,18 +30,18 @@ products:
       cardKingdomId: '202429'
       tcgplayerProductId: '102801'
     release_date: '2015-10-02'
-    subtype: UNKNOWN
+    subtype: FAT_PACK
   Battle for Zendikar Gift Box:
     category: BUNDLE
     identifiers:
       cardKingdomId: '203355'
       tcgplayerProductId: '102717'
-    subtype: UNKNOWN
+    subtype: GIFT_BUNDLE
   Battle for Zendikar Hedron Prerelease Box:
-    category: PRERELEASE_PACK
+    category: LIMITED_CASE
     identifiers:
       tcgplayerProductId: '105955'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Battle for Zendikar Intro Pack Call of Blood:
     category: DECK
     identifiers:

@@ -1,11 +1,11 @@
 code: a25
 products:
   Masters 25 3 Booster Draft Pack:
-    category: DRAFT_SET
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '161474'
     release_date: '2018-03-16'
-    subtype: DEFAULT
+    subtype: DRAFT_SET
   Masters 25 Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -14,11 +14,11 @@ products:
     release_date: '2018-03-16'
     subtype: DEFAULT
   Masters 25 Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '157860'
     release_date: '2018-03-16'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Masters 25 Booster Pack:
     category: BOOSTER_PACK
     identifiers:

@@ -1,18 +1,18 @@
 code: cmr
 products:
   Commander Legends 3 Booster Draft Pack:
-    category: DRAFT_SET
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '221321'
     release_date: '2020-11-20'
-    subtype: DEFAULT
-  Commander Legends Arm for Battle Commander Deck:
-    category: COMMANDER_DECK
+    subtype: DRAFT_SET
+  Commander Legends Commander Deck Arm for Battle:
+    category: DECK
     identifiers:
       cardKingdomId: '238724'
       tcgplayerProductId: '227387'
     release_date: '2020-11-20'
-    subtype: UNKNOWN
+    subtype: COMMANDER
   Commander Legends Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -20,7 +20,7 @@ products:
       tcgplayerProductId: '221323'
     subtype: COLLECTOR
   Commander Legends Collector Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '221394'
     subtype: COLLECTOR
@@ -37,17 +37,17 @@ products:
     release_date: '2020-11-20'
     subtype: COLLECTOR
   Commander Legends Commander Deck Display:
-    category: COMMANDER_DECK
+    category: DECK_BOX
     identifiers:
       tcgplayerProductId: '224546'
     release_date: '2020-11-20'
-    subtype: UNKNOWN
-  Commander Legends Commander Decks - Set of 2:
-    category: CASE
+    subtype: COMMANDER
+  Commander Legends Commander Decks Set of 2:
+    category: SUBSET
     identifiers:
       tcgplayerProductId: '224545'
     release_date: '2020-11-20'
-    subtype: UNKNOWN
+    subtype: COMMANDER
   Commander Legends Draft Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -56,11 +56,11 @@ products:
     release_date: '2020-11-20'
     subtype: DEFAULT
   Commander Legends Draft Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '221395'
     release_date: '2020-11-20'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Commander Legends Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -68,10 +68,10 @@ products:
       tcgplayerProductId: '221318'
     release_date: '2020-11-20'
     subtype: DEFAULT
-  Commander Legends Reap the Tides Commander Deck:
-    category: COMMANDER_DECK
+  Commander Legends Commander Deck Reap the Tides:
+    category: DECK
     identifiers:
       cardKingdomId: '238725'
       tcgplayerProductId: '227386'
     release_date: '2020-11-20'
-    subtype: UNKNOWN
+    subtype: COMMANDER

@@ -8,11 +8,11 @@ products:
     release_date: '2019-07-12'
     subtype: DEFAULT
   Core Set 2020 Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '188209'
     release_date: '2019-07-12'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Core Set 2020 Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -26,19 +26,19 @@ products:
       cardKingdomId: '225517'
       tcgplayerProductId: '188213'
     release_date: '2019-07-12'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Core Set 2020 Deck Builders Toolkit:
-    category: BOX_SET
+    category: KIT
     identifiers:
       cardKingdomId: '225521'
       tcgplayerProductId: '185681'
     release_date: '2019-07-12'
     subtype: DECK_BUILDERS_TOOLKIT
   Core Set 2020 Land Station:
-    category: LAND_STATION
+    category: KIT
     identifiers:
       tcgplayerProductId: '192758'
-    subtype: UNKNOWN
+    subtype: LAND_STATION
   Core Set 2020 Planeswalker Deck Ajani:
     category: DECK
     identifiers:
@@ -81,24 +81,24 @@ products:
       tcgplayerProductId: '192513'
     release_date: '2019-07-12'
     subtype: PLANESWALKER
-  Core Set 2020 Planeswalker Decks - Set of 5:
+  Core Set 2020 Planeswalker Decks Set of 5:
     category: SUBSET
     identifiers:
       tcgplayerProductId: '188222'
     release_date: '2019-07-12'
     subtype: PLANESWALKER
   Core Set 2020 Prerelease Pack:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '193014'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Core Set 2020 Spellslinger Starter Kit:
-    category: TWO_PLAYER_STARTER_SET
+    category: MULTI_DECK
     identifiers:
       cardKingdomId: '226730'
       tcgplayerProductId: '192755'
     release_date: '2019-07-12'
-    subtype: STARTER
+    subtype: TWO_PLAYER_STARTER
   Core Set 2020 Theme Booster Black:
     category: BOOSTER_PACK
     identifiers:

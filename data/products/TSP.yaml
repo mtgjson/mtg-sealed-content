@@ -17,7 +17,7 @@ products:
     identifiers:
       cardKingdomId: '121043'
       tcgplayerProductId: '78332'
-    subtype: UNKNOWN
+    subtype: FAT_PACK
   Time Spiral Theme Deck Fun With Fungus:
     category: DECK
     identifiers:
@@ -43,14 +43,14 @@ products:
       tcgplayerProductId: '125560'
     subtype: THEME
   Time Spiral Tournament Pack:
-    category: DECK
+    category: LIMITED
     identifiers:
       cardKingdomId: '121038'
       tcgplayerProductId: '118877'
-    subtype: UNKNOWN
+    subtype: TOURNAMENT
   Time Spiral Tournament Pack Display:
-    category: CASE
+    category: LIMITED_CASE
     identifiers:
       cardKingdomId: '240228'
       tcgplayerProductId: '453053'
-    subtype: UNKNOWN
+    subtype: TOURNAMENT

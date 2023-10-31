@@ -6,13 +6,13 @@ products:
       cardKingdomId: '273121'
       tcgplayerProductId: '451877'
     release_date: '2023-02-10'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Phyrexia All Will Be One Bundle Case:
-    category: CASE
+    category: BUNDLE_CASE
     identifiers:
       tcgplayerProductId: '451878'
     release_date: '2023-02-10'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Phyrexia All Will Be One Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -21,7 +21,7 @@ products:
     release_date: '2023-02-10'
     subtype: COLLECTOR
   Phyrexia All Will Be One Collector Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '451881'
     release_date: '2023-02-10'
@@ -37,25 +37,25 @@ products:
     category: BOOSTER_PACK
     identifiers: {}
     release_date: '2023-02-10'
-    subtype: COLLECTOR
+    subtype: PROMOTIONAL
   Phyrexia All Will Be One Compleat Bundle:
     category: BUNDLE
     identifiers:
       cardKingdomId: '273125'
       tcgplayerProductId: '451874'
     release_date: '2023-02-10'
-    subtype: UNKNOWN
+    subtype: PREMIUM
   Phyrexia All Will Be One Compleat Bundle Case:
-    category: CASE
+    category: BUNDLE_CASE
     identifiers:
       tcgplayerProductId: '478805'
     release_date: '2023-02-10'
-    subtype: UNKNOWN
+    subtype: PREMIUM
   Phyrexia All Will Be One Compleat Edition Booster:
     category: BOOSTER_PACK
     identifiers: {}
     release_date: '2023-02-10'
-    subtype: UNKNOWN
+    subtype: PREMIUM
   Phyrexia All Will Be One Draft Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -64,11 +64,11 @@ products:
     release_date: '2023-02-10'
     subtype: DEFAULT
   Phyrexia All Will Be One Draft Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '451870'
     release_date: '2023-02-10'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Phyrexia All Will Be One Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -91,12 +91,12 @@ products:
     release_date: '2023-02-10'
     subtype: JUMPSTART
   Phyrexia All Will Be One Prerelease Pack:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       cardKingdomId: '273130'
       tcgplayerProductId: '475570'
     release_date: '2023-02-10'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Phyrexia All Will Be One Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -105,11 +105,11 @@ products:
     release_date: '2023-02-10'
     subtype: SET
   Phyrexia All Will Be One Set Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '451873'
     release_date: '2023-02-10'
-    subtype: UNKNOWN
+    subtype: SET
   Phyrexia All Will Be One Set Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -121,4 +121,4 @@ products:
     category: BOOSTER_PACK
     identifiers: {}
     release_date: '2023-02-10'
-    subtype: STARTER
+    subtype: WELCOME

@@ -1,28 +1,28 @@
 code: khc
 products:
   Kaldheim Commander Deck Display Case:
-    category: CASE
+    category: DECK_BOX
     identifiers:
       tcgplayerProductId: '229374'
     release_date: '2021-02-05'
-    subtype: UNKNOWN
-  Kaldheim Commander Decks - Set of 2:
-    category: CASE
+    subtype: COMMANDER
+  Kaldheim Commander Decks Set of 2:
+    category: SUBSET
     identifiers:
       tcgplayerProductId: '229375'
     release_date: '2021-02-05'
-    subtype: UNKNOWN
+    subtype: COMMANDER
   Kaldheim Elven Empire Commander Deck:
-    category: COMMANDER_DECK
+    category: DECK
     identifiers:
       cardKingdomId: '240295'
       tcgplayerProductId: '229377'
     release_date: '2021-02-05'
-    subtype: UNKNOWN
+    subtype: COMMANDER
   Kaldheim Phantom Premonition Commander Deck:
-    category: COMMANDER_DECK
+    category: DECK
     identifiers:
       cardKingdomId: '240296'
       tcgplayerProductId: '229376'
     release_date: '2021-02-05'
-    subtype: UNKNOWN
+    subtype: COMMANDER

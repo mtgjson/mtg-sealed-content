@@ -1,24 +1,24 @@
 code: neo
 products:
   Kamigawa Neon Dynasty 3 Booster Draft Pack:
-    category: DRAFT_SET
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '257565'
     release_date: '2022-02-18'
-    subtype: DEFAULT
+    subtype: DRAFT_SET
   Kamigawa Neon Dynasty Bundle:
     category: BUNDLE
     identifiers:
       cardKingdomId: '255730'
       tcgplayerProductId: '257566'
     release_date: '2022-02-18'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Kamigawa Neon Dynasty Bundle Case:
-    category: CASE
+    category: BUNDLE_CASE
     identifiers:
       tcgplayerProductId: '259195'
     release_date: '2022-02-18'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Kamigawa Neon Dynasty Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -27,7 +27,7 @@ products:
     release_date: '2022-02-18'
     subtype: COLLECTOR
   Kamigawa Neon Dynasty Collector Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '257564'
     release_date: '2022-02-18'
@@ -52,11 +52,11 @@ products:
     release_date: '2022-02-18'
     subtype: DEFAULT
   Kamigawa Neon Dynasty Draft Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '257558'
     release_date: '2022-02-18'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Kamigawa Neon Dynasty Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -65,11 +65,11 @@ products:
     release_date: '2022-02-18'
     subtype: DEFAULT
   Kamigawa Neon Dynasty Prerelease Pack:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       cardKingdomId: '255735'
       tcgplayerProductId: '257568'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Kamigawa Neon Dynasty Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -78,10 +78,10 @@ products:
     release_date: '2022-02-18'
     subtype: SET
   Kamigawa Neon Dynasty Set Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '257559'
-    subtype: UNKNOWN
+    subtype: SET
   Kamigawa Neon Dynasty Set Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -108,7 +108,7 @@ products:
     release_date: '2022-02-18'
     subtype: THEME
   Kamigawa Neon Dynasty Theme Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '257577'
     release_date: '2022-02-18'
@@ -147,4 +147,4 @@ products:
     category: BOOSTER_PACK
     identifiers: {}
     release_date: '2022-02-18'
-    subtype: STARTER
+    subtype: WELCOME

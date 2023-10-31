@@ -1,25 +1,25 @@
 code: zen
 products:
-  Zendikar 3x Booster Packs draft set:
-    category: DRAFT_SET
+  Zendikar 3 Booster Packs draft set:
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '32792'
-    subtype: DEFAULT
+    subtype: DRAFT_SET
   Zendikar 6 Card Booster Pack:
     category: BOOSTER_PACK
     identifiers: {}
-    subtype: DEFAULT
+    subtype: SIX
   Zendikar Booster Box:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '127769'
       tcgplayerProductId: '32789'
     subtype: DEFAULT
-  Zendikar Booster Box Case 6 Booster Boxes:
-    category: CASE
+  Zendikar Booster Box Case:
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '32790'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Zendikar Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -31,7 +31,7 @@ products:
     identifiers:
       cardKingdomId: '127776'
       tcgplayerProductId: '32793'
-    subtype: UNKNOWN
+    subtype: FAT_PACK
   Zendikar Intro Pack Black Rise of the Vampires:
     category: DECK
     identifiers:

@@ -16,7 +16,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '1188'
-    subtype: UNKNOWN
+    subtype: GIFT_BUNDLE
   Portal Second Age Theme Deck Goblin Fire:
     category: DECK
     identifiers:
@@ -48,13 +48,13 @@ products:
       tcgplayerProductId: '175160'
     subtype: THEME
   Portal Second Age Two Player Starter Deck:
-    category: TWO_PLAYER_STARTER_SET
+    category: MULTI_DECK
     identifiers:
       cardKingdomId: '1189'
       tcgplayerProductId: '96282'
-    subtype: STARTER
-  Portal Second Age Two Player Starter Display 12:
-    category: TWO_PLAYER_STARTER_SET
+    subtype: TWO_PLAYER_STARTER
+  Portal Second Age Two Player Starter Display:
+    category: DECK_BOX
     identifiers:
       tcgplayerProductId: '96283'
-    subtype: STARTER
+    subtype: TWO_PLAYER_STARTER

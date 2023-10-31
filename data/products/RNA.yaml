@@ -8,11 +8,11 @@ products:
     release_date: '2019-01-25'
     subtype: DEFAULT
   Ravnica Allegiance Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '180733'
     release_date: '2019-01-25'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Ravnica Allegiance Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -26,14 +26,14 @@ products:
       cardKingdomId: '223066'
       tcgplayerProductId: '180736'
     release_date: '2019-01-25'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Ravnica Allegiance Collectors Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       tcgplayerProductId: '184538'
-    subtype: DEFAULT
+    subtype: COLLECTOR
   Ravnica Allegiance Deck Builders Toolkit:
-    category: BOX_SET
+    category: KIT
     identifiers:
       cardKingdomId: '223067'
       tcgplayerProductId: '180737'
@@ -43,7 +43,8 @@ products:
     category: BUNDLE
     identifiers:
       tcgplayerProductId: '183453'
-    subtype: COLLECTOR
+      cardKingdomId: '223910'
+    subtype: PREMIUM
   Ravnica Allegiance Planeswalker Deck Domri:
     category: DECK
     identifiers:
@@ -58,43 +59,43 @@ products:
       tcgplayerProductId: '182134'
     release_date: '2019-01-25'
     subtype: PLANESWALKER
-  Ravnica Allegiance Planeswalker Decks - Set of 2:
+  Ravnica Allegiance Planeswalker Decks Set of 2:
     category: SUBSET
     identifiers:
       tcgplayerProductId: '182132'
     release_date: '2019-01-25'
     subtype: PLANESWALKER
   Ravnica Allegiance Prerelease Pack Azorius:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '183587'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Ravnica Allegiance Prerelease Pack Gruul:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       cardKingdomId: '223079'
       tcgplayerProductId: '183588'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Ravnica Allegiance Prerelease Pack Orzhov:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '183586'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Ravnica Allegiance Prerelease Pack Rakdos:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '183590'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Ravnica Allegiance Prerelease Pack Set of 5:
-    category: PRERELEASE_PACK
+    category: SUBSET
     identifiers:
       tcgplayerProductId: '183591'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Ravnica Allegiance Prerelease Pack Simic:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '183589'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Ravnica Allegiance Theme Booster Box:
     category: BOOSTER_BOX
     identifiers:

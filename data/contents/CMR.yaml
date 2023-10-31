@@ -5,7 +5,7 @@ products:
     - count: 3
       name: Commander Legends Draft Booster Pack
       set: cmr
-  Commander Legends Arm for Battle Commander Deck:
+  Commander Legends Commander Deck Arm for Battle:
     card_count: 100
     deck:
     - name: Arm for Battle
@@ -37,18 +37,18 @@ products:
   Commander Legends Commander Deck Display:
     sealed:
     - count: 3
-      name: Commander Legends Arm for Battle Commander Deck
+      name: Commander Legends Commander Deck Arm for Battle
       set: cmr
     - count: 3
-      name: Commander Legends Reap the Tides Commander Deck
+      name: Commander Legends Commander Deck Reap the Tides
       set: cmr
-  Commander Legends Commander Decks - Set of 2:
+  Commander Legends Commander Decks Set of 2:
     sealed:
     - count: 1
-      name: Commander Legends Arm for Battle Commander Deck
+      name: Commander Legends Commander Deck Arm for Battle
       set: cmr
     - count: 1
-      name: Commander Legends Reap the Tides Commander Deck
+      name: Commander Legends Commander Deck Reap the Tides
       set: cmr
   Commander Legends Draft Booster Box:
     sealed:
@@ -65,7 +65,7 @@ products:
     pack:
     - code: default
       set: cmr
-  Commander Legends Reap the Tides Commander Deck:
+  Commander Legends Commander Deck Reap the Tides:
     card_count: 100
     deck:
     - name: Reap the Tides

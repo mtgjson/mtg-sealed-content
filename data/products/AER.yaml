@@ -7,10 +7,10 @@ products:
       tcgplayerProductId: '125794'
     subtype: DEFAULT
   Aether Revolt Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '125795'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Aether Revolt Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -23,7 +23,7 @@ products:
     identifiers:
       cardKingdomId: '210380'
       tcgplayerProductId: '125797'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Aether Revolt Planeswalker Deck Ajani:
     category: DECK
     identifiers:
@@ -42,8 +42,8 @@ products:
       tcgplayerProductId: '125800'
     subtype: PLANESWALKER
   Aether Revolt Prerelease Pack:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       cardKingdomId: '210972'
       tcgplayerProductId: '127203'
-    subtype: UNKNOWN
+    subtype: PRERELEASE

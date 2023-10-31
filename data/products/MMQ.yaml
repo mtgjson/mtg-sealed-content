@@ -17,7 +17,7 @@ products:
     identifiers:
       cardKingdomId: '228555'
       tcgplayerProductId: '78319'
-    subtype: UNKNOWN
+    subtype: FAT_PACK
   Mercadian Masques Theme Deck Deepwood Menace:
     category: DECK
     identifiers:
@@ -43,13 +43,13 @@ products:
       tcgplayerProductId: '116041'
     subtype: THEME
   Mercadian Masques Tournament Pack:
-    category: DECK
+    category: LIMITED
     identifiers:
       cardKingdomId: '1135'
       tcgplayerProductId: '125561'
-    subtype: UNKNOWN
+    subtype: TOURNAMENT
   Mercadian Masques Tournament Pack Display:
-    category: CASE
+    category: LIMITED_CASE
     identifiers:
       cardKingdomId: '240167'
-    subtype: UNKNOWN
+    subtype: TOURNAMENT

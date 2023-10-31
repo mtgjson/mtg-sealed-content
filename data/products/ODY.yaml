@@ -17,7 +17,7 @@ products:
     identifiers:
       cardKingdomId: '240344'
       tcgplayerProductId: '78323'
-    subtype: UNKNOWN
+    subtype: FAT_PACK
   Odyssey Theme Deck Display:
     category: DECK_BOX
     identifiers:
@@ -48,13 +48,13 @@ products:
       tcgplayerProductId: '215786'
     subtype: THEME
   Odyssey Tournament Pack:
-    category: DECK
+    category: LIMITED
     identifiers:
       cardKingdomId: '1423'
       tcgplayerProductId: '139151'
-    subtype: UNKNOWN
+    subtype: TOURNAMENT
   Odyssey Tournament Pack Display:
-    category: CASE
+    category: LIMITED_CASE
     identifiers:
       cardKingdomId: '240179'
-    subtype: UNKNOWN
+    subtype: TOURNAMENT

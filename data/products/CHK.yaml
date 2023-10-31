@@ -17,7 +17,7 @@ products:
     identifiers:
       cardKingdomId: '228585'
       tcgplayerProductId: '78305'
-    subtype: UNKNOWN
+    subtype: FAT_PACK
   Champions of Kamigawa Theme Deck Kami Reborn:
     category: DECK
     identifiers:
@@ -43,13 +43,13 @@ products:
       tcgplayerProductId: '100234'
     subtype: THEME
   Champions of Kamigawa Tournament Pack:
-    category: DECK
+    category: LIMITED
     identifiers:
       cardKingdomId: '112054'
       tcgplayerProductId: '118879'
-    subtype: UNKNOWN
+    subtype: TOURNAMENT
   Champions of Kamigawa Tournament Pack Display:
-    category: CASE
+    category: LIMITED_CASE
     identifiers:
       cardKingdomId: '240123'
-    subtype: UNKNOWN
+    subtype: TOURNAMENT

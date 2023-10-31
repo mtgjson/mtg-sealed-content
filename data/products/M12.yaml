@@ -1,17 +1,17 @@
 code: m12
 products:
   2012 Core Set 3x Booster Packs draft set:
-    category: DRAFT_SET
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '46955'
-    subtype: DEFAULT
+    subtype: DRAFT_SET
   2012 Core Set Booster Battle Pack:
-    category: TWO_PLAYER_STARTER_SET
+    category: MULTI_DECK
     identifiers:
       tcgplayerProductId: '55927'
     subtype: BATTLE
   2012 Core Set Booster Battle Pack Booster Box:
-    category: BOOSTER_BOX
+    category: DECK_BOX
     identifiers:
       tcgplayerProductId: '244380'
     subtype: BATTLE
@@ -21,11 +21,11 @@ products:
       cardKingdomId: '184977'
       tcgplayerProductId: '46957'
     subtype: DEFAULT
-  2012 Core Set Booster Box Case 6 Boxes:
-    category: CASE
+  2012 Core Set Booster Box Case:
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '46958'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   2012 Core Set Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -33,7 +33,7 @@ products:
       tcgplayerProductId: '46956'
     subtype: DEFAULT
   2012 Core Set Deck Builders Toolkit:
-    category: BOX_SET
+    category: KIT
     identifiers:
       tcgplayerProductId: '92504'
     subtype: DECK_BUILDERS_TOOLKIT
@@ -49,38 +49,38 @@ products:
       cardKingdomId: '185502'
       tcgplayerProductId: '47795'
     subtype: EVENT
-  2012 Core Set Event Decks - Set of 2:
+  2012 Core Set Event Decks Set of 2:
     category: SUBSET
     identifiers:
       tcgplayerProductId: '47793'
-    subtype: UNKNOWN
+    subtype: EVENT
   2012 Core Set Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '184979'
       tcgplayerProductId: '78318'
-    subtype: UNKNOWN
-  '2012 Core Set Intro Pack: Blood and Fire (Red/Black)':
+    subtype: FAT_PACK
+  '2012 Core Set Intro Pack Blood and Fire':
     category: DECK
     identifiers:
       cardKingdomId: '185246'
     subtype: INTRO
-  '2012 Core Set Intro Pack: Entangling Webs (Green/Red)':
+  '2012 Core Set Intro Pack Entangling Webs':
     category: DECK
     identifiers:
       cardKingdomId: '185247'
     subtype: INTRO
-  '2012 Core Set Intro Pack: Grab for Power (Black/Blue)':
+  '2012 Core Set Intro Pack Grab for Power':
     category: DECK
     identifiers:
       cardKingdomId: '185248'
     subtype: INTRO
-  '2012 Core Set Intro Pack: Mystical Might (Blue/White)':
+  '2012 Core Set Intro Pack Mystical Might':
     category: DECK
     identifiers:
       cardKingdomId: '185249'
     subtype: INTRO
-  '2012 Core Set Intro Pack: Sacred Assault (White/Green)':
+  '2012 Core Set Intro Pack Sacred Assault':
     category: DECK
     identifiers:
       cardKingdomId: '185250'
@@ -93,4 +93,4 @@ products:
   Core Set 2012 6 Card Booster Pack:
     category: BOOSTER_PACK
     identifiers: {}
-    subtype: DEFAULT
+    subtype: SIX

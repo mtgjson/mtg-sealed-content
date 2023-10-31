@@ -1,11 +1,11 @@
 code: vow
 products:
   Innistrad Crimson Vow 3 Booster Draft Pack:
-    category: DRAFT_SET
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '246454'
     release_date: '2021-11-19'
-    subtype: DEFAULT
+    subtype: DRAFT_SET
   Innistrad Crimson Vow Box Topper Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -17,12 +17,12 @@ products:
       cardKingdomId: '252148'
       tcgplayerProductId: '246455'
     release_date: '2021-11-19'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Innistrad Crimson Vow Bundle Case:
-    category: CASE
+    category: BUNDLE_CASE
     identifiers:
       tcgplayerProductId: '259194'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Innistrad Crimson Vow Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -31,7 +31,7 @@ products:
     release_date: '2021-11-19'
     subtype: COLLECTOR
   Innistrad Crimson Vow Collector Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '246458'
     release_date: '2021-11-19'
@@ -56,11 +56,11 @@ products:
     release_date: '2021-11-19'
     subtype: DEFAULT
   Innistrad Crimson Vow Draft Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '246468'
     release_date: '2021-11-19'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Innistrad Crimson Vow Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -73,18 +73,18 @@ products:
     identifiers:
       tcgplayerProductId: '246456'
     release_date: '2021-11-19'
-    subtype: UNKNOWN
+    subtype: GIFT_BUNDLE
   Innistrad Crimson Vow Gift Bundle Case:
-    category: CASE
+    category: BUNDLE_CASE
     identifiers:
       tcgplayerProductId: '259196'
-    subtype: UNKNOWN
+    subtype: GIFT_BUNDLE
   Innistrad Crimson Vow Prerelease Pack:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '252126'
     release_date: '2021-11-19'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Innistrad Crimson Vow Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -93,11 +93,11 @@ products:
     release_date: '2021-11-19'
     subtype: SET
   Innistrad Crimson Vow Set Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '246471'
     release_date: '2021-11-19'
-    subtype: UNKNOWN
+    subtype: SET
   Innistrad Crimson Vow Set Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -124,7 +124,7 @@ products:
     release_date: '2021-11-19'
     subtype: THEME
   Innistrad Crimson Vow Theme Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '246474'
     release_date: '2021-11-19'
@@ -163,4 +163,4 @@ products:
     category: BOOSTER_PACK
     identifiers: {}
     release_date: '2021-11-19'
-    subtype: STARTER
+    subtype: WELCOME

@@ -1,10 +1,10 @@
 code: ust
 products:
   Unstable 3 Booster Draft Pack:
-    category: DRAFT_SET
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '174456'
-    subtype: DEFAULT
+    subtype: DRAFT_SET
   Unstable Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -13,11 +13,11 @@ products:
     release_date: '2017-12-08'
     subtype: DEFAULT
   Unstable Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '152232'
     release_date: '2017-12-08'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Unstable Booster Pack:
     category: BOOSTER_PACK
     identifiers:

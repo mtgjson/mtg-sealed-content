@@ -11,12 +11,12 @@ products:
       cardKingdomId: '193877'
       tcgplayerProductId: '77322'
     subtype: DEFAULT
-  Journey Into Nyx Booster Box Case 6 boxes:
-    category: CASE
+  Journey Into Nyx Booster Box Case:
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '77324'
     release_date: '2014-05-02'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Journey Into Nyx Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -24,12 +24,12 @@ products:
       tcgplayerProductId: '80839'
     release_date: '2014-05-02'
     subtype: DEFAULT
-  Journey Into Nyx Event Deck Display 6:
+  Journey Into Nyx Event Deck Display:
     category: DECK_BOX
     identifiers:
       tcgplayerProductId: '80850'
     release_date: '2014-05-02'
-    subtype: UNKNOWN
+    subtype: EVENT
   Journey Into Nyx Event Deck Wrath of the Mortals:
     category: DECK
     identifiers:
@@ -42,9 +42,9 @@ products:
       cardKingdomId: '193879'
       tcgplayerProductId: '80836'
     release_date: '2014-05-02'
-    subtype: UNKNOWN
+    subtype: FAT_PACK
   Journey Into Nyx Intro Pack Display:
-    category: CASE
+    category: DECK_BOX
     identifiers:
       tcgplayerProductId: '80844'
     subtype: INTRO
@@ -84,32 +84,32 @@ products:
       tcgplayerProductId: '82552'
     subtype: INTRO
   Journey Into Nyx Prerelease Forged in Glory:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '80857'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Journey Into Nyx Prerelease Forged in Intellect:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '80859'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Journey Into Nyx Prerelease Forged in Pursuit:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '80863'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Journey Into Nyx Prerelease Forged in Tyranny:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '80861'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Journey Into Nyx Prerelease Forged in War:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '80862'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Journey Into Nyx Prerelease Kit Set of 5:
-    category: PRERELEASE_PACK
+    category: SUBSET
     identifiers:
       tcgplayerProductId: '199837'
-    subtype: UNKNOWN
+    subtype: PRERELEASE

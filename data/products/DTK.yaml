@@ -6,12 +6,12 @@ products:
       cardKingdomId: '199246'
       tcgplayerProductId: '96137'
     subtype: DEFAULT
-  Dragons of Tarkir Booster Box Case 6 boxes:
-    category: CASE
+  Dragons of Tarkir Booster Box Case:
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '96138'
     release_date: '2015-03-27'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Dragons of Tarkir Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -31,7 +31,7 @@ products:
       cardKingdomId: '199248'
       tcgplayerProductId: '96140'
     release_date: '2015-03-27'
-    subtype: UNKNOWN
+    subtype: FAT_PACK
   Dragons of Tarkir Intro Pack Cruel Plots:
     category: DECK
     identifiers:
@@ -68,32 +68,32 @@ products:
       tcgplayerProductId: '96152'
     subtype: INTRO
   Dragons of Tarkir Prerelease Kit Atarka:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '96477'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Dragons of Tarkir Prerelease Kit Dromoka:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '96473'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Dragons of Tarkir Prerelease Kit Kolaghan:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '96476'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Dragons of Tarkir Prerelease Kit Ojutai:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '96474'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Dragons of Tarkir Prerelease Kit Set of 5:
-    category: PRERELEASE_PACK
+    category: LIMITED_CASE
     identifiers:
       tcgplayerProductId: '96478'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Dragons of Tarkir Prerelease Kit Silumgar:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '96475'
-    subtype: UNKNOWN
+    subtype: PRERELEASE

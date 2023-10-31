@@ -51,4 +51,8 @@ products:
     - count: 1
       name: Portal Second Age Booster Pack
       set: p02
-  Portal Second Age Two Player Starter Display 12: []
+  Portal Second Age Two Player Starter Display:
+    sealed:
+    - set: p02
+      name: Portal Second Age Two Player Starter Deck
+      count: 12

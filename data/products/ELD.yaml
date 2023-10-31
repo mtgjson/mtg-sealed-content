@@ -1,53 +1,53 @@
 code: eld
 products:
   Throne of Eldraine Brawl Deck Faerie Schemes:
-    category: COMMANDER_DECK
+    category: DECK
     identifiers:
       cardKingdomId: '227303'
       tcgplayerProductId: '194910'
     release_date: '2019-10-04'
-    subtype: UNKNOWN
+    subtype: BRAWL
   Throne of Eldraine Brawl Deck Knights Charge:
-    category: COMMANDER_DECK
+    category: DECK
     identifiers:
       cardKingdomId: '227304'
       tcgplayerProductId: '194911'
     release_date: '2019-10-04'
-    subtype: UNKNOWN
+    subtype: BRAWL
   Throne of Eldraine Brawl Deck Savage Hunger:
-    category: COMMANDER_DECK
+    category: DECK
     identifiers:
       cardKingdomId: '227305'
       tcgplayerProductId: '194909'
     release_date: '2019-10-04'
-    subtype: UNKNOWN
+    subtype: BRAWL
   Throne of Eldraine Brawl Deck Wild Bounty:
-    category: COMMANDER_DECK
+    category: DECK
     identifiers:
       cardKingdomId: '227306'
       tcgplayerProductId: '194908'
     release_date: '2019-10-04'
-    subtype: UNKNOWN
-  Throne of Eldraine Brawl Decks - Set of 4:
-    category: CASE
+    subtype: BRAWL
+  Throne of Eldraine Brawl Decks Set of 4:
+    category: SUBSET
     identifiers:
       tcgplayerProductId: '194912'
     release_date: '2019-10-04'
-    subtype: UNKNOWN
+    subtype: BRAWL
   Throne of Eldraine Bundle:
     category: BUNDLE
     identifiers:
       cardKingdomId: '227294'
       tcgplayerProductId: '194894'
     release_date: '2019-10-04'
-    subtype: UNKNOWN
-  Throne of Eldraine Bundle Gift Edition:
+    subtype: DEFAULT
+  Throne of Eldraine Gift Bundle:
     category: BUNDLE
     identifiers:
       cardKingdomId: '228584'
       tcgplayerProductId: '200610'
     release_date: '2019-10-04'
-    subtype: UNKNOWN
+    subtype: GIFT_BUNDLE
   Throne of Eldraine Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -56,7 +56,7 @@ products:
     release_date: '2019-10-04'
     subtype: COLLECTOR
   Throne of Eldraine Collector Booster Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '490512'
     subtype: COLLECTOR
@@ -77,7 +77,7 @@ products:
     identifiers:
       cardKingdomId: '228238'
       tcgplayerProductId: '199489'
-    subtype: DELUXE
+    subtype: PREMIUM
   Throne of Eldraine Draft Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -86,11 +86,11 @@ products:
     release_date: '2019-10-04'
     subtype: DEFAULT
   Throne of Eldraine Draft Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '194893'
     release_date: '2019-10-04'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Throne of Eldraine Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -118,17 +118,17 @@ products:
       tcgplayerProductId: '194895'
     release_date: '2019-10-04'
     subtype: PLANESWALKER
-  Throne of Eldraine Planeswalker Decks - Set of 2:
+  Throne of Eldraine Planeswalker Decks Set of 2:
     category: SUBSET
     identifiers:
       tcgplayerProductId: '194897'
     release_date: '2019-10-04'
     subtype: PLANESWALKER
   Throne of Eldraine Prerelease Pack:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '200159'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Throne of Eldraine Theme Booster Box:
     category: BOOSTER_BOX
     identifiers:

@@ -7,12 +7,12 @@ products:
       tcgplayerProductId: '110418'
     release_date: '2016-01-22'
     subtype: DEFAULT
-  Oath of the Gatewatch Booster Box Case 6 Boxes:
-    category: CASE
+  Oath of the Gatewatch Booster Box Case:
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '110419'
     release_date: '2016-01-22'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Oath of the Gatewatch Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -25,12 +25,12 @@ products:
       cardKingdomId: '204474'
       tcgplayerProductId: '110421'
     release_date: '2016-01-22'
-    subtype: UNKNOWN
+    subtype: FAT_PACK
   Oath of the Gatewatch Hedron Prerelease Box:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '111283'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Oath of the Gatewatch Intro Pack Concerted Effort:
     category: DECK
     identifiers:
@@ -68,7 +68,7 @@ products:
       tcgplayerProductId: '110708'
     subtype: INTRO
   Oath of the Gatewatch Prerelease Pack:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       cardKingdomId: '205086'
-    subtype: UNKNOWN
+    subtype: PRERELEASE

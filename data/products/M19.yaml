@@ -1,10 +1,10 @@
 code: m19
 products:
   2018 Gift Pack:
-    category: UNKNOWN
+    category: BUNDLE
     identifiers:
       cardKingdomId: '222238'
-    subtype: UNKNOWN
+    subtype: GIFT_BUNDLE
   Core Set 2019 Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -13,11 +13,11 @@ products:
     release_date: '2018-07-13'
     subtype: DEFAULT
   Core Set 2019 Booster Box Case:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '166552'
     release_date: '2018-07-13'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Core Set 2019 Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -31,9 +31,9 @@ products:
       cardKingdomId: '219798'
       tcgplayerProductId: '166562'
     release_date: '2018-07-13'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Core Set 2019 Deck Builders Toolkit:
-    category: BOX_SET
+    category: KIT
     identifiers:
       cardKingdomId: '219802'
       tcgplayerProductId: '166553'
@@ -74,25 +74,25 @@ products:
       tcgplayerProductId: '169267'
     release_date: '2018-07-13'
     subtype: PLANESWALKER
-  Core Set 2019 Planeswalker Decks - Set of 5:
+  Core Set 2019 Planeswalker Decks Set of 5:
     category: SUBSET
     identifiers:
       tcgplayerProductId: '169269'
     release_date: '2018-07-13'
     subtype: PLANESWALKER
   Core Set 2019 Prerelease Pack:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '166555'
     release_date: '2018-07-13'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Core Set 2019 Spellslinger Starter Kit:
-    category: TWO_PLAYER_STARTER_SET
+    category: MULTI_DECK
     identifiers:
       cardKingdomId: '222236'
       tcgplayerProductId: '174136'
     release_date: '2018-10-05'
-    subtype: STARTER
+    subtype: TWO_PLAYER_STARTER
   Core Set 2019 Welcome Deck - Black:
     category: DECK
     identifiers: {}
