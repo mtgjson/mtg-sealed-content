@@ -8,10 +8,10 @@ products:
     release_date: '2015-01-21'
     subtype: DEFAULT
   Fate Reforged Booster Box Case 6 Boxes:
-    category: CASE
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '95030'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Fate Reforged Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -20,7 +20,7 @@ products:
     release_date: '2015-01-21'
     subtype: DEFAULT
   Fate Reforged Clash Pack:
-    category: TWO_PLAYER_STARTER_SET
+    category: MULTI_DECK
     identifiers:
       cardKingdomId: '198429'
       tcgplayerProductId: '95035'
@@ -31,7 +31,7 @@ products:
       cardKingdomId: '198425'
       tcgplayerProductId: '95032'
     release_date: '2015-01-21'
-    subtype: UNKNOWN
+    subtype: FAT_PACK
   Fate Reforged Intro Pack Cunning Plan:
     category: DECK
     identifiers:
@@ -39,7 +39,7 @@ products:
       tcgplayerProductId: '95261'
     subtype: INTRO
   Fate Reforged Intro Pack Display:
-    category: CASE
+    category: DECK_BOX
     identifiers:
       tcgplayerProductId: '95033'
     subtype: INTRO
@@ -73,32 +73,32 @@ products:
       tcgplayerProductId: '95262'
     subtype: INTRO
   Fate Reforged Prerelease Kit Abzan:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '95910'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Fate Reforged Prerelease Kit Jeskai:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '95912'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Fate Reforged Prerelease Kit Mardu:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '95911'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Fate Reforged Prerelease Kit Set of 5:
-    category: PRERELEASE_PACK
+    category: LIMITED_CASE
     identifiers:
       tcgplayerProductId: '95915'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Fate Reforged Prerelease Kit Sultai:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '95913'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
   Fate Reforged Prerelease Kit Temur:
-    category: PRERELEASE_PACK
+    category: LIMITED
     identifiers:
       tcgplayerProductId: '95914'
-    subtype: UNKNOWN
+    subtype: PRERELEASE
