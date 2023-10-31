@@ -1,11 +1,68 @@
 code: ptc
 products:
-  Pro Tour Collector Set: []
-  World Championship Deck 1996 Bertrand Lestree: []
-  World Championship Deck 1996 Eric Tam: []
-  World Championship Deck 1996 George Baxter: []
-  World Championship Deck 1996 Leon Lindback: []
-  World Championship Deck 1996 Mark Justice: []
-  World Championship Deck 1996 Michael Loconto: []
-  World Championship Deck 1996 Preston Poulter: []
-  World Championship Deck 1996 Shawn HAMMER Regnier: []
+  Pro Tour Collector Set:
+    sealed:
+    - count: 1
+      name: World Championship Deck 1996 Bertrand Lestree
+      set: ptc
+    - count: 1
+      name: World Championship Deck 1996 Eric Tam
+      set: ptc
+    - count: 1
+      name: World Championship Deck 1996 George Baxter
+      set: ptc
+    - count: 1
+      name: World Championship Deck 1996 Leon Lindback
+      set: ptc
+    - count: 1
+      name: World Championship Deck 1996 Mark Justice
+      set: ptc
+    - count: 1
+      name: World Championship Deck 1996 Michael Loconto
+      set: ptc
+    - count: 1
+      name: World Championship Deck 1996 Preston Poulter
+      set: ptc
+    - count: 1
+      name: World Championship Deck 1996 Shawn HAMMER Regnier
+      set: ptc
+  World Championship Deck 1996 Bertrand Lestree:
+    card_count: 75
+    deck:
+    - name: Bertrand Lestree, Finalist
+      set: ptc
+  World Championship Deck 1996 Eric Tam:
+    card_count: 75
+    deck:
+    - name: Eric Tam, Quarterfinalist
+      set: ptc
+  World Championship Deck 1996 George Baxter:
+    card_count: 75
+    deck:
+    - name: George Baxter, Quarterfinalist
+      set: ptc
+  World Championship Deck 1996 Leon Lindback:
+    card_count: 75
+    deck:
+    - name: Leon Lindback, Semifinalist
+      set: ptc
+  World Championship Deck 1996 Mark Justice:
+    card_count: 75
+    deck:
+    - name: Mark Justice, Quarterfinalist
+      set: ptc
+  World Championship Deck 1996 Michael Loconto:
+    card_count: 75
+    deck:
+    - name: Michael Loconto, Champion
+      set: ptc
+  World Championship Deck 1996 Preston Poulter:
+    card_count: 75
+    deck:
+    - name: Preston Poulter, Semifinalist
+      set: ptc
+  World Championship Deck 1996 Shawn HAMMER Regnier:
+    card_count: 75
+    deck:
+    - name: Shawn Hammer Regnier, Quarterfinalist
+      set: ptc

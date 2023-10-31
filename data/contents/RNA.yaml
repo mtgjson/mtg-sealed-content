@@ -18,7 +18,51 @@ products:
   Ravnica Allegiance Bundle: []
   Ravnica Allegiance Collectors Booster Pack: []
   Ravnica Allegiance Deck Builders Toolkit: []
-  Ravnica Allegiance Mythic Edition: []
+  Ravnica Allegiance Mythic Edition:
+    card_count: 8
+    sealed:
+    - count: 24
+      name: Ravnica Allegiance Booster Pack
+      set: rna
+    card:
+    - foil: true
+      name: Karn, Scion of Urza
+      number: "RA1"
+      set: med
+    - foil: true
+      name: Tamiyo, the Moon Sage
+      number: "RA2"
+      set: med
+    - foil: true
+      name: Sorin Markov
+      number: "RA3"
+      set: med
+    - foil: true
+      name: Jaya Ballard
+      number: "RA4"
+      set: med
+    - foil: true
+      name: Ajani, Mentor of Heroes
+      number: "RA5"
+      set: med
+    - foil: true
+      name: Dack Fayden
+      number: "RA6"
+      set: med
+    - foil: true
+      name: Domri, Chaos Bringer
+      number: "RA7"
+      set: med
+    - foil: true
+      name: Kaya, Orzhov Usurper
+      number: "RA8"
+      set: med
+    other:
+    - name: Construct Token
+    - name: Dack Fayden Emblem
+    - name: Domri, Chaos Bringer Emblem
+    - name: Jaya Ballard Emblem
+    - name: Tamiyo, the Moon Sage Emblem
   Ravnica Allegiance Planeswalker Deck Display:
     sealed:
     - count: 3

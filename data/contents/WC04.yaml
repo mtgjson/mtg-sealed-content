@@ -1,11 +1,24 @@
 code: wc04
 products:
+  2004 World Championship Deck Box San Francisco:
+    sealed:
+    - count: 3
+      name: 2004 World Championship Deck Aeo Paquette
+      set: wc04
+    - count: 3
+      name: 2004 World Championship Deck Gabriel Nassif
+      set: wc04
+    - count: 3
+      name: 2004 World Championship Deck Julien Nuijten
+      set: wc04
+    - count: 3
+      name: 2004 World Championship Deck Manuel Bevand
+      set: wc04
   2004 World Championship Deck Aeo Paquette:
     card_count: 75
     deck:
     - name: Aeo Paquette - Affinity
       set: wc04
-  2004 World Championship Deck Box San Francisco: []
   2004 World Championship Deck Gabriel Nassif:
     card_count: 75
     deck:
