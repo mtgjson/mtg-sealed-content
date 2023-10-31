@@ -18,17 +18,6 @@ products:
       cardKingdomId: '198787'
       tcgplayerProductId: '498730'
     subtype: THEME
-  Portal Three Kingdoms Two Player Starter:
-    category: MULTI_DECK
-    identifiers:
-      cardKingdomId: '240186'
-      tcgplayerProductId: '96284'
-    subtype: TWO_PLAYER_STARTER
-  Portal Three Kingdoms Two Player Starter Display:
-    category: DECK_BOX
-    identifiers:
-      tcgplayerProductId: '96285'
-    subtype: TWO_PLAYER_STARTER
   Portal Three Kingdoms Theme Deck Wei Kingdom:
     category: DECK
     identifiers:
@@ -41,3 +30,14 @@ products:
       cardKingdomId: '198785'
       tcgplayerProductId: '498731'
     subtype: THEME
+  Portal Three Kingdoms Two Player Starter:
+    category: MULTI_DECK
+    identifiers:
+      cardKingdomId: '240186'
+      tcgplayerProductId: '96284'
+    subtype: TWO_PLAYER_STARTER
+  Portal Three Kingdoms Two Player Starter Display:
+    category: DECK_BOX
+    identifiers:
+      tcgplayerProductId: '96285'
+    subtype: TWO_PLAYER_STARTER

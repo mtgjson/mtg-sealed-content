@@ -15,6 +15,16 @@ products:
     deck:
     - name: Seize Control
       set: c15
+  Commander 2015 Commander Deck Swell the Host:
+    card_count: 100
+    deck:
+    - name: Swell the Host
+      set: c15
+  Commander 2015 Commander Deck Wade into Battle:
+    card_count: 100
+    deck:
+    - name: Wade into Battle
+      set: c15
   Commander 2015 Commander Decks Set of 5:
     sealed:
     - count: 1
@@ -31,14 +41,4 @@ products:
       set: c15
     - count: 1
       name: Commander 2015 Commander Deck Wade into Battle
-      set: c15
-  Commander 2015 Commander Deck Swell the Host:
-    card_count: 100
-    deck:
-    - name: Swell the Host
-      set: c15
-  Commander 2015 Commander Deck Wade into Battle:
-    card_count: 100
-    deck:
-    - name: Wade into Battle
       set: c15

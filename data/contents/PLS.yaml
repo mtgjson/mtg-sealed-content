@@ -1,10 +1,5 @@
 code: pls
 products:
-  Planeshift Theme Deck Barrage:
-    card_count: 60
-    deck:
-    - name: Barrage
-      set: pls
   Planeshift Booster Box:
     sealed:
     - count: 36
@@ -14,16 +9,6 @@ products:
     card_count: 15
     pack:
     - code: default
-      set: pls
-  Planeshift Theme Deck Comeback:
-    card_count: 60
-    deck:
-    - name: Comeback
-      set: pls
-  Planeshift Theme Deck Domain:
-    card_count: 60
-    deck:
-    - name: Domain
       set: pls
   Planeshift Fat Pack:
     card_count: 2
@@ -35,6 +20,21 @@ products:
     sealed:
     - count: 6
       name: Planeshift Booster Pack
+      set: pls
+  Planeshift Theme Deck Barrage:
+    card_count: 60
+    deck:
+    - name: Barrage
+      set: pls
+  Planeshift Theme Deck Comeback:
+    card_count: 60
+    deck:
+    - name: Comeback
+      set: pls
+  Planeshift Theme Deck Domain:
+    card_count: 60
+    deck:
+    - name: Domain
       set: pls
   Planeshift Theme Deck Scout:
     card_count: 60

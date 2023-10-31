@@ -1,5 +1,6 @@
 code: c14
 products:
+  Commander 2014 Built from Scratch: []
   Commander 2014 Commander Deck Built from Scratch:
     card_count: 100
     deck:
@@ -20,6 +21,11 @@ products:
     deck:
     - name: Peer Through Time
       set: c14
+  Commander 2014 Commander Deck Sworn to Darkness:
+    card_count: 100
+    deck:
+    - name: Sworn To Darkness
+      set: c14
   Commander 2014 Commander Decks Set of 5:
     sealed:
     - count: 1
@@ -37,8 +43,7 @@ products:
     - count: 1
       name: Commander 2014 Commander Deck Sworn to Darkness
       set: c14
-  Commander 2014 Commander Deck Sworn to Darkness:
-    card_count: 100
-    deck:
-    - name: Sworn To Darkness
-      set: c14
+  Commander 2014 Forged in Stone: []
+  Commander 2014 Guided by Nature: []
+  Commander 2014 Peer Through Time: []
+  Commander 2014 Sworn to Darkness: []

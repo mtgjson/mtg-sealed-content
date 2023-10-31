@@ -12,6 +12,12 @@ products:
       cardKingdomId: '1201'
       tcgplayerProductId: '27370'
     subtype: DEFAULT
+  Tempest Starter Deck:
+    category: LIMITED
+    identifiers:
+      cardKingdomId: '1202'
+      tcgplayerProductId: '127433'
+    subtype: STARTER
   Tempest Starter Deck Display:
     category: LIMITED_CASE
     identifiers:
@@ -41,9 +47,3 @@ products:
       cardKingdomId: '1440'
       tcgplayerProductId: '236689'
     subtype: THEME
-  Tempest Starter Deck:
-    category: LIMITED
-    identifiers:
-      cardKingdomId: '1202'
-      tcgplayerProductId: '127433'
-    subtype: STARTER

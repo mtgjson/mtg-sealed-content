@@ -41,13 +41,6 @@ products:
       tcgplayerProductId: '194894'
     release_date: '2019-10-04'
     subtype: DEFAULT
-  Throne of Eldraine Gift Bundle:
-    category: BUNDLE
-    identifiers:
-      cardKingdomId: '228584'
-      tcgplayerProductId: '200610'
-    release_date: '2019-10-04'
-    subtype: GIFT_BUNDLE
   Throne of Eldraine Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -98,6 +91,13 @@ products:
       tcgplayerProductId: '194892'
     release_date: '2019-10-04'
     subtype: DEFAULT
+  Throne of Eldraine Gift Bundle:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '228584'
+      tcgplayerProductId: '200610'
+    release_date: '2019-10-04'
+    subtype: GIFT_BUNDLE
   Throne of Eldraine Planeswalker Deck Display:
     category: DECK_BOX
     identifiers:

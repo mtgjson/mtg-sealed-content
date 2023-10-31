@@ -21,11 +21,6 @@ products:
       tcgplayerProductId: '107625'
     release_date: '2015-11-13'
     subtype: COMMANDER
-  Commander 2015 Commander Decks Set of 5:
-    category: SUBSET
-    identifiers:
-      tcgplayerProductId: '107622'
-    subtype: COMMANDER
   Commander 2015 Commander Deck Swell the Host:
     category: DECK
     identifiers:
@@ -39,4 +34,9 @@ products:
       cardKingdomId: '203170'
       tcgplayerProductId: '107627'
     release_date: '2015-11-13'
+    subtype: COMMANDER
+  Commander 2015 Commander Decks Set of 5:
+    category: SUBSET
+    identifiers:
+      tcgplayerProductId: '107622'
     subtype: COMMANDER

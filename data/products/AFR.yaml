@@ -19,13 +19,6 @@ products:
       tcgplayerProductId: '238732'
     release_date: '2021-07-23'
     subtype: DEFAULT
-  Adventures in the Forgotten Realms Gift Bundle:
-    category: BUNDLE
-    identifiers:
-      cardKingdomId: '249634'
-      tcgplayerProductId: '243658'
-    release_date: '2021-07-23'
-    subtype: GIFT_BUNDLE
   Adventures in the Forgotten Realms Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -76,6 +69,13 @@ products:
       tcgplayerProductId: '238731'
     release_date: '2021-07-23'
     subtype: DEFAULT
+  Adventures in the Forgotten Realms Gift Bundle:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '249634'
+      tcgplayerProductId: '243658'
+    release_date: '2021-07-23'
+    subtype: GIFT_BUNDLE
   Adventures in the Forgotten Realms Prerelease Pack:
     category: LIMITED
     identifiers:

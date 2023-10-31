@@ -5,11 +5,6 @@ products:
     identifiers:
       tcgplayerProductId: 202956
     subtype: SIX
-  Mirrodin Besieged Intro Packs Set of 4:
-    category: SUBSET
-    identifiers:
-      tcgplayerProductId: '39115'
-    subtype: INTRO
   Mirrodin Besieged Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -73,6 +68,11 @@ products:
     identifiers:
       cardKingdomId: '137137'
       tcgplayerProductId: '39117'
+    subtype: INTRO
+  Mirrodin Besieged Intro Packs Set of 4:
+    category: SUBSET
+    identifiers:
+      tcgplayerProductId: '39115'
     subtype: INTRO
   Mirrodin Besieged Mirran Faction Booster Pack:
     category: BOOSTER_PACK

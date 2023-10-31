@@ -1,11 +1,5 @@
 code: inv
 products:
-  Invasion Theme Deck Blowout:
-    category: DECK
-    identifiers:
-      cardKingdomId: '1289'
-      tcgplayerProductId: '93340'
-    subtype: THEME
   Invasion Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -18,18 +12,29 @@ products:
       cardKingdomId: '1284'
       tcgplayerProductId: '27346'
     subtype: DEFAULT
-  Invasion Theme Deck Dismissal:
-    category: DECK
-    identifiers:
-      cardKingdomId: '1288'
-      tcgplayerProductId: '93342'
-    subtype: THEME
   Invasion Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '202539'
       tcgplayerProductId: '78314'
     subtype: FAT_PACK
+  Invasion Theme Deck Blowout:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1289'
+      tcgplayerProductId: '93340'
+    subtype: THEME
+  Invasion Theme Deck Dismissal:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1288'
+      tcgplayerProductId: '93342'
+    subtype: THEME
+  Invasion Theme Deck Display:
+    category: DECK_BOX
+    identifiers:
+      cardKingdomId: '240153'
+    subtype: THEME
   Invasion Theme Deck Heavy Duty:
     category: DECK
     identifiers:
@@ -41,11 +46,6 @@ products:
     identifiers:
       cardKingdomId: '1287'
       tcgplayerProductId: '93343'
-    subtype: THEME
-  Invasion Theme Deck Display:
-    category: DECK_BOX
-    identifiers:
-      cardKingdomId: '240153'
     subtype: THEME
   Invasion Tournament Pack:
     category: LIMITED

@@ -1,15 +1,5 @@
 code: csp
 products:
-  Coldsnap Theme Deck Aurochs Stampede:
-    card_count: 60
-    deck:
-    - name: Aurochs Stampede
-      set: csp
-  Coldsnap Theme Deck Beyond the Grave:
-    card_count: 60
-    deck:
-    - name: Beyond The Grave
-      set: csp
   Coldsnap Booster Box:
     sealed:
     - count: 36
@@ -32,6 +22,16 @@ products:
     sealed:
     - count: 6
       name: Coldsnap Booster Pack
+      set: csp
+  Coldsnap Theme Deck Aurochs Stampede:
+    card_count: 60
+    deck:
+    - name: Aurochs Stampede
+      set: csp
+  Coldsnap Theme Deck Beyond the Grave:
+    card_count: 60
+    deck:
+    - name: Beyond The Grave
       set: csp
   Coldsnap Theme Deck Kjeldoran Cunning:
     card_count: 60

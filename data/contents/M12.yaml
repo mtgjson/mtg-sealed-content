@@ -42,24 +42,7 @@ products:
       name: 2012 Core Set Event Deck Vampire Onslaught
       set: m12
   2012 Core Set Fat Pack: []
-  2012 Core Set Intro Pack Display:
-    sealed:
-    - count: 3
-      name: '2012 Core Set Intro Pack Blood and Fire'
-      set: m12
-    - count: 3
-      name: '2012 Core Set Intro Pack Entangling Webs'
-      set: m12
-    - count: 3
-      name: '2012 Core Set Intro Pack Grab for Power'
-      set: m12
-    - count: 3
-      name: '2012 Core Set Intro Pack Mystical Might'
-      set: m12
-    - count: 3
-      name: '2012 Core Set Intro Pack Sacred Assault'
-      set: m12
-  '2012 Core Set Intro Pack Blood and Fire':
+  2012 Core Set Intro Pack Blood and Fire:
     card_count: 60
     deck:
     - name: Blood and Fire
@@ -68,7 +51,24 @@ products:
     - count: 1
       name: 2012 Core Set Booster Pack
       set: m12
-  '2012 Core Set Intro Pack Entangling Webs':
+  2012 Core Set Intro Pack Display:
+    sealed:
+    - count: 3
+      name: 2012 Core Set Intro Pack Blood and Fire
+      set: m12
+    - count: 3
+      name: 2012 Core Set Intro Pack Entangling Webs
+      set: m12
+    - count: 3
+      name: 2012 Core Set Intro Pack Grab for Power
+      set: m12
+    - count: 3
+      name: 2012 Core Set Intro Pack Mystical Might
+      set: m12
+    - count: 3
+      name: 2012 Core Set Intro Pack Sacred Assault
+      set: m12
+  2012 Core Set Intro Pack Entangling Webs:
     card_count: 60
     deck:
     - name: Entangling Webs
@@ -77,7 +77,7 @@ products:
     - count: 1
       name: 2012 Core Set Booster Pack
       set: m12
-  '2012 Core Set Intro Pack Grab for Power':
+  2012 Core Set Intro Pack Grab for Power:
     card_count: 60
     deck:
     - name: Grab for Power
@@ -86,7 +86,7 @@ products:
     - count: 1
       name: 2012 Core Set Booster Pack
       set: m12
-  '2012 Core Set Intro Pack Mystical Might':
+  2012 Core Set Intro Pack Mystical Might:
     card_count: 60
     deck:
     - name: Mystical Might
@@ -95,7 +95,7 @@ products:
     - count: 1
       name: 2012 Core Set Booster Pack
       set: m12
-  '2012 Core Set Intro Pack Sacred Assault':
+  2012 Core Set Intro Pack Sacred Assault:
     card_count: 60
     deck:
     - name: Sacred Assault
@@ -107,19 +107,19 @@ products:
   2012 Core Set Set of 5 Intro Packs:
     sealed:
     - count: 1
-      name: '2012 Core Set Intro Pack Blood and Fire'
+      name: 2012 Core Set Intro Pack Blood and Fire
       set: m12
     - count: 1
-      name: '2012 Core Set Intro Pack Entangling Webs'
+      name: 2012 Core Set Intro Pack Entangling Webs
       set: m12
     - count: 1
-      name: '2012 Core Set Intro Pack Grab for Power'
+      name: 2012 Core Set Intro Pack Grab for Power
       set: m12
     - count: 1
-      name: '2012 Core Set Intro Pack Mystical Might'
+      name: 2012 Core Set Intro Pack Mystical Might
       set: m12
     - count: 1
-      name: '2012 Core Set Intro Pack Sacred Assault'
+      name: 2012 Core Set Intro Pack Sacred Assault
       set: m12
   Core Set 2012 6 Card Booster Pack:
     card_count: 6

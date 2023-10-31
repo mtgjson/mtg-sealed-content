@@ -5,15 +5,6 @@ products:
     - count: 3
       name: Commander Legends Draft Booster Pack
       set: cmr
-  Commander Legends Commander Deck Arm for Battle:
-    card_count: 100
-    deck:
-    - name: Arm for Battle
-      set: cmr
-    other:
-    - name: Foil Etched Cardstock Display Commander
-    - name: Commander Legends Life Wheel
-    - name: 10 Double Sided Tokens
   Commander Legends Collector Booster Box:
     sealed:
     - count: 12
@@ -34,6 +25,15 @@ products:
     pack:
     - code: collector
       set: cmr
+  Commander Legends Commander Deck Arm for Battle:
+    card_count: 100
+    deck:
+    - name: Arm for Battle
+      set: cmr
+    other:
+    - name: Foil Etched Cardstock Display Commander
+    - name: Commander Legends Life Wheel
+    - name: 10 Double Sided Tokens
   Commander Legends Commander Deck Display:
     sealed:
     - count: 3
@@ -42,6 +42,15 @@ products:
     - count: 3
       name: Commander Legends Commander Deck Reap the Tides
       set: cmr
+  Commander Legends Commander Deck Reap the Tides:
+    card_count: 100
+    deck:
+    - name: Reap the Tides
+      set: cmr
+    other:
+    - name: Foil Etched Cardstock Display Commander
+    - name: Commander Legends Life Wheel
+    - name: 10 Double Sided Tokens
   Commander Legends Commander Decks Set of 2:
     sealed:
     - count: 1
@@ -65,12 +74,3 @@ products:
     pack:
     - code: default
       set: cmr
-  Commander Legends Commander Deck Reap the Tides:
-    card_count: 100
-    deck:
-    - name: Reap the Tides
-      set: cmr
-    other:
-    - name: Foil Etched Cardstock Display Commander
-    - name: Commander Legends Life Wheel
-    - name: 10 Double Sided Tokens

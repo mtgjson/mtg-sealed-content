@@ -6,13 +6,6 @@ products:
       tcgplayerProductId: '221321'
     release_date: '2020-11-20'
     subtype: DRAFT_SET
-  Commander Legends Commander Deck Arm for Battle:
-    category: DECK
-    identifiers:
-      cardKingdomId: '238724'
-      tcgplayerProductId: '227387'
-    release_date: '2020-11-20'
-    subtype: COMMANDER
   Commander Legends Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -36,10 +29,24 @@ products:
       tcgplayerProductId: '221322'
     release_date: '2020-11-20'
     subtype: COLLECTOR
+  Commander Legends Commander Deck Arm for Battle:
+    category: DECK
+    identifiers:
+      cardKingdomId: '238724'
+      tcgplayerProductId: '227387'
+    release_date: '2020-11-20'
+    subtype: COMMANDER
   Commander Legends Commander Deck Display:
     category: DECK_BOX
     identifiers:
       tcgplayerProductId: '224546'
+    release_date: '2020-11-20'
+    subtype: COMMANDER
+  Commander Legends Commander Deck Reap the Tides:
+    category: DECK
+    identifiers:
+      cardKingdomId: '238725'
+      tcgplayerProductId: '227386'
     release_date: '2020-11-20'
     subtype: COMMANDER
   Commander Legends Commander Decks Set of 2:
@@ -68,10 +75,3 @@ products:
       tcgplayerProductId: '221318'
     release_date: '2020-11-20'
     subtype: DEFAULT
-  Commander Legends Commander Deck Reap the Tides:
-    category: DECK
-    identifiers:
-      cardKingdomId: '238725'
-      tcgplayerProductId: '227386'
-    release_date: '2020-11-20'
-    subtype: COMMANDER

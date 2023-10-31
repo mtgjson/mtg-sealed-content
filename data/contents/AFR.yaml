@@ -26,23 +26,6 @@ products:
     - count: 10
       name: Adventures in the Forgotten Realms Draft Booster Pack
       set: afr
-  Adventures in the Forgotten Realms Gift Bundle:
-    card:
-    - foil: true
-      name: Treasure Chest
-      number: 397
-      set: afr
-    other:
-    - name: Adventures in the Forgotten Realms 40-card Basic Land Bundle
-    - name: Adventures in the Forgotten Realms Premium Spindown
-    - name: 3 Oversized Dungeon Cards
-    sealed:
-    - count: 10
-      name: Adventures in the Forgotten Realms Draft Booster Pack
-      set: afr
-    - count: 1
-      name: Adventures in the Forgotten Realms Collector Booster Pack
-      set: afr
   Adventures in the Forgotten Realms Collector Booster Box:
     sealed:
     - count: 12
@@ -82,6 +65,23 @@ products:
     card_count: 15
     pack:
     - code: default
+      set: afr
+  Adventures in the Forgotten Realms Gift Bundle:
+    card:
+    - foil: true
+      name: Treasure Chest
+      number: 397
+      set: afr
+    other:
+    - name: Adventures in the Forgotten Realms 40-card Basic Land Bundle
+    - name: Adventures in the Forgotten Realms Premium Spindown
+    - name: 3 Oversized Dungeon Cards
+    sealed:
+    - count: 10
+      name: Adventures in the Forgotten Realms Draft Booster Pack
+      set: afr
+    - count: 1
+      name: Adventures in the Forgotten Realms Collector Booster Pack
       set: afr
   Adventures in the Forgotten Realms Prerelease Pack:
     card_count: 1

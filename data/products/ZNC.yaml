@@ -5,13 +5,6 @@ products:
     identifiers:
       tcgplayerProductId: '452723'
     subtype: COMMANDER
-  Zendikar Rising Commander Decks Set of 2:
-    category: SUBSET
-    identifiers:
-      cardKingdomId: '236841'
-      tcgplayerProductId: '221139'
-    release_date: '2020-09-25'
-    subtype: COMMANDER
   Zendikar Rising Commander Deck Lands Wrath:
     category: DECK
     identifiers:
@@ -24,5 +17,12 @@ products:
     identifiers:
       cardKingdomId: '236840'
       tcgplayerProductId: '221916'
+    release_date: '2020-09-25'
+    subtype: COMMANDER
+  Zendikar Rising Commander Decks Set of 2:
+    category: SUBSET
+    identifiers:
+      cardKingdomId: '236841'
+      tcgplayerProductId: '221139'
     release_date: '2020-09-25'
     subtype: COMMANDER

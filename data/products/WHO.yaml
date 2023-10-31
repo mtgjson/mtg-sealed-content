@@ -1,12 +1,5 @@
 code: who
 products:
-  Doctor Who Commander Deck Blast From the Past:
-    category: DECK
-    identifiers:
-      cardKingdomId: '283469'
-      tcgplayerProductId: '496071'
-    release_date: '2023-10-13'
-    subtype: COMMANDER
   Doctor Who Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -32,16 +25,17 @@ products:
     identifiers: {}
     release_date: '2023-10-13'
     subtype: PROMOTIONAL
+  Doctor Who Commander Deck Blast From the Past:
+    category: DECK
+    identifiers:
+      cardKingdomId: '283469'
+      tcgplayerProductId: '496071'
+    release_date: '2023-10-13'
+    subtype: COMMANDER
   Doctor Who Commander Deck Display:
     category: DECK_BOX
     identifiers:
       tcgplayerProductId: '496074'
-    release_date: '2023-10-13'
-    subtype: COMMANDER
-  Doctor Who Commander Decks Set of Four:
-    category: SUBSET
-    identifiers:
-      cardKingdomId: '283465'
     release_date: '2023-10-13'
     subtype: COMMANDER
   Doctor Who Commander Deck Masters of Evil:
@@ -63,5 +57,11 @@ products:
     identifiers:
       cardKingdomId: '283466'
       tcgplayerProductId: '496072'
+    release_date: '2023-10-13'
+    subtype: COMMANDER
+  Doctor Who Commander Decks Set of Four:
+    category: SUBSET
+    identifiers:
+      cardKingdomId: '283465'
     release_date: '2023-10-13'
     subtype: COMMANDER

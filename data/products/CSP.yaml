@@ -1,17 +1,5 @@
 code: csp
 products:
-  Coldsnap Theme Deck Aurochs Stampede:
-    category: DECK
-    identifiers:
-      cardKingdomId: '121021'
-      tcgplayerProductId: '72029'
-    subtype: THEME
-  Coldsnap Theme Deck Beyond the Grave:
-    category: DECK
-    identifiers:
-      cardKingdomId: '121022'
-      tcgplayerProductId: '72030'
-    subtype: THEME
   Coldsnap Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -30,6 +18,18 @@ products:
       cardKingdomId: '120635'
       tcgplayerProductId: '78306'
     subtype: FAT_PACK
+  Coldsnap Theme Deck Aurochs Stampede:
+    category: DECK
+    identifiers:
+      cardKingdomId: '121021'
+      tcgplayerProductId: '72029'
+    subtype: THEME
+  Coldsnap Theme Deck Beyond the Grave:
+    category: DECK
+    identifiers:
+      cardKingdomId: '121022'
+      tcgplayerProductId: '72030'
+    subtype: THEME
   Coldsnap Theme Deck Kjeldoran Cunning:
     category: DECK
     identifiers:

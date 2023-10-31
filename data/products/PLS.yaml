@@ -1,11 +1,5 @@
 code: pls
 products:
-  Planeshift Theme Deck Barrage:
-    category: DECK
-    identifiers:
-      cardKingdomId: '1297'
-      tcgplayerProductId: '93345'
-    subtype: THEME
   Planeshift Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -18,6 +12,18 @@ products:
       cardKingdomId: '1294'
       tcgplayerProductId: '27359'
     subtype: DEFAULT
+  Planeshift Fat Pack:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '240340'
+      tcgplayerProductId: '78326'
+    subtype: FAT_PACK
+  Planeshift Theme Deck Barrage:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1297'
+      tcgplayerProductId: '93345'
+    subtype: THEME
   Planeshift Theme Deck Comeback:
     category: DECK
     identifiers:
@@ -30,12 +36,6 @@ products:
       cardKingdomId: '1296'
       tcgplayerProductId: '93347'
     subtype: THEME
-  Planeshift Fat Pack:
-    category: BUNDLE
-    identifiers:
-      cardKingdomId: '240340'
-      tcgplayerProductId: '78326'
-    subtype: FAT_PACK
   Planeshift Theme Deck Scout:
     category: DECK
     identifiers:

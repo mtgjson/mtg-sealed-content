@@ -27,15 +27,15 @@ products:
       tcgplayerProductId: '173365'
     release_date: '2018-10-05'
     subtype: DEFAULT
-  Guilds of Ravnica Mythic Edition:
-    category: BOOSTER_BOX
-    identifiers: 
-      cardKingdomId: '222356'
-      tcgplayerProductId: '175240'
-    subtype: PREMIUM
   Guilds of Ravnica Masterpiece Booster:
     category: BOOSTER_PACK
     identifiers: {}
+    subtype: PREMIUM
+  Guilds of Ravnica Mythic Edition:
+    category: BOOSTER_BOX
+    identifiers:
+      cardKingdomId: '222356'
+      tcgplayerProductId: '175240'
     subtype: PREMIUM
   Guilds of Ravnica Planeswalker Deck Display:
     category: DECK_BOX

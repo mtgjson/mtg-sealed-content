@@ -1,10 +1,5 @@
 code: lrw
 products:
-  Lorwyn Theme Deck Boggart Feast:
-    card_count: 60
-    deck:
-    - name: Boggart Feast
-      set: lrw
   Lorwyn Booster Box:
     sealed:
     - count: 36
@@ -14,6 +9,12 @@ products:
     card_count: 15
     pack:
     - code: default
+      set: lrw
+  Lorwyn Fat Pack: []
+  Lorwyn Theme Deck Boggart Feast:
+    card_count: 60
+    deck:
+    - name: Boggart Feast
       set: lrw
   Lorwyn Theme Deck Elementals Path:
     card_count: 60
@@ -25,7 +26,6 @@ products:
     deck:
     - name: Elvish Predation
       set: lrw
-  Lorwyn Fat Pack: []
   Lorwyn Theme Deck Kithkin Militia:
     card_count: 60
     deck:

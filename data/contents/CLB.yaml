@@ -77,21 +77,6 @@ products:
       set: clb
   Commander Legends Battle for Baldurs Gate Commander Deck Draconic Dissent Minimal Packaging:
     copy: Commander Legends Battle for Baldurs Gate Commander Deck Draconic Dissent
-  Commander Legends Battle for Baldurs Gate Draft Booster Box:
-    sealed:
-    - count: 24
-      name: Commander Legends Battle for Baldurs Gate Draft Booster Pack
-      set: clb
-  Commander Legends Battle for Baldurs Gate Draft Booster Box Case:
-    sealed:
-    - count: 6
-      name: Commander Legends Battle for Baldurs Gate Draft Booster Box
-      set: clb
-  Commander Legends Battle for Baldurs Gate Draft Booster Pack:
-    card_count: 20
-    pack:
-    - code: default
-      set: clb
   Commander Legends Battle for Baldurs Gate Commander Deck Exit from Exile:
     card_count: 100
     deck:
@@ -137,6 +122,21 @@ products:
       set: clb
   Commander Legends Battle for Baldurs Gate Commander Deck Party Time Minimal Packaging:
     copy: Commander Legends Battle for Baldurs Gate Commander Deck Party Time
+  Commander Legends Battle for Baldurs Gate Draft Booster Box:
+    sealed:
+    - count: 24
+      name: Commander Legends Battle for Baldurs Gate Draft Booster Pack
+      set: clb
+  Commander Legends Battle for Baldurs Gate Draft Booster Box Case:
+    sealed:
+    - count: 6
+      name: Commander Legends Battle for Baldurs Gate Draft Booster Box
+      set: clb
+  Commander Legends Battle for Baldurs Gate Draft Booster Pack:
+    card_count: 20
+    pack:
+    - code: default
+      set: clb
   Commander Legends Battle for Baldurs Gate Prerelease Pack:
     card_count: 1
     other:

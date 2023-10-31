@@ -16,45 +16,42 @@ products:
     - code: default
       set: grn
   Guilds of Ravnica Bundle: []
+  Guilds of Ravnica Masterpiece Booster: []
   Guilds of Ravnica Mythic Edition:
-    card_count: 8
-    sealed:
-    - count: 24
-      name: Guilds of Ravnica Booster Pack
-      set: grn
     card:
     - foil: true
       name: Elspeth, Knight-Errant
-      number: "GR1"
+      number: GR1
       set: med
     - foil: true
       name: Liliana, the Last Hope
-      number: "GR2"
+      number: GR2
       set: med
     - foil: true
       name: Daretti, Ingenious Iconoclast
-      number: "GR3"
+      number: GR3
       set: med
     - foil: true
       name: Nicol Bolas, Planeswalker
-      number: "GR4"
+      number: GR4
       set: med
     - foil: true
       name: Ral, Izzet Viceroy
-      number: "GR5"
+      number: GR5
       set: med
     - foil: true
       name: Tezzeret, Agent of Bolas
-      number: "GR6"
+      number: GR6
       set: med
     - foil: true
       name: Teferi, Hero of Dominaria
-      number: "GR7"
+      number: GR7
       set: med
     - foil: true
       name: Vraska, Golgari Queen
-      number: "GR8"
+      number: GR8
       set: med
+    card_count: 8
     other:
     - name: Soldier Token
     - name: Zombie Token
@@ -64,6 +61,10 @@ products:
     - name: Ral, Izzet Viceroy Emblem
     - name: Teferi, Hero of Dominaria Emblem
     - name: Vraska, Golgari Queen Emblem
+    sealed:
+    - count: 24
+      name: Guilds of Ravnica Booster Pack
+      set: grn
   Guilds of Ravnica Planeswalker Deck Display:
     sealed:
     - count: 3

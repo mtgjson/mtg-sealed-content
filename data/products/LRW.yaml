@@ -1,11 +1,5 @@
 code: lrw
 products:
-  Lorwyn Theme Deck Boggart Feast:
-    category: DECK
-    identifiers:
-      cardKingdomId: '123783'
-      tcgplayerProductId: '214971'
-    subtype: THEME
   Lorwyn Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -18,6 +12,18 @@ products:
       cardKingdomId: '123484'
       tcgplayerProductId: '27350'
     subtype: DEFAULT
+  Lorwyn Fat Pack:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '123486'
+      tcgplayerProductId: '78317'
+    subtype: FAT_PACK
+  Lorwyn Theme Deck Boggart Feast:
+    category: DECK
+    identifiers:
+      cardKingdomId: '123783'
+      tcgplayerProductId: '214971'
+    subtype: THEME
   Lorwyn Theme Deck Elementals Path:
     category: DECK
     identifiers:
@@ -30,12 +36,6 @@ products:
       cardKingdomId: '123782'
       tcgplayerProductId: '214968'
     subtype: THEME
-  Lorwyn Fat Pack:
-    category: BUNDLE
-    identifiers:
-      cardKingdomId: '123486'
-      tcgplayerProductId: '78317'
-    subtype: FAT_PACK
   Lorwyn Theme Deck Kithkin Militia:
     category: DECK
     identifiers:
