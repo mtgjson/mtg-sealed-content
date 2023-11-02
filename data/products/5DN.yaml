@@ -18,27 +18,31 @@ products:
       cardKingdomId: '240347'
       tcgplayerProductId: '78311'
     subtype: FAT_PACK
-  Fifth Dawn Nuts and Bolts Theme Deck:
+  Fifth Dawn Theme Deck Nuts and Bolts:
     category: DECK
     identifiers:
       cardKingdomId: '111586'
       tcgplayerProductId: '96423'
     subtype: THEME
-  Fifth Dawn Special Forces Theme Deck:
+  Fifth Dawn Theme Deck Special Forces:
     category: DECK
     identifiers:
       cardKingdomId: '111585'
       tcgplayerProductId: '96424'
     subtype: THEME
-  Fifth Dawn Stampede Theme Deck:
+  Fifth Dawn Theme Deck Stampede:
     category: DECK
     identifiers:
       cardKingdomId: '111587'
       tcgplayerProductId: '96422'
     subtype: THEME
-  Fifth Dawn Sunburst Theme Deck:
+  Fifth Dawn Theme Deck Sunburst:
     category: DECK
     identifiers:
       cardKingdomId: '111584'
       tcgplayerProductId: '96425'
+    subtype: THEME
+  Fifth Dawn Theme Deck Display:
+    category: DECK_BOX
+    identifiers: {}
     subtype: THEME

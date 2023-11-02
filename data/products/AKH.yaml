@@ -55,7 +55,7 @@ products:
       cardKingdomId: '211624'
       tcgplayerProductId: '127533'
     subtype: PLANESWALKER
-  Amonkhet Planeswalker Decks - Set of 2:
+  Amonkhet Planeswalker Decks Set of 2:
     category: SUBSET
     identifiers:
       tcgplayerProductId: '131217'
@@ -65,3 +65,7 @@ products:
     identifiers:
       tcgplayerProductId: '127534'
     subtype: PRERELEASE
+  Amonkhet Planeswalker Deck Display:
+    category: DECK_BOX
+    identifiers: {}
+    subtype: PLANESWALKER

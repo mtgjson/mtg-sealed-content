@@ -36,7 +36,7 @@ products:
       cardKingdomId: '210377'
       tcgplayerProductId: '125799'
     subtype: PLANESWALKER
-  Aether Revolt Planeswalker Decks - Set of 2:
+  Aether Revolt Planeswalker Decks Set of 2:
     category: SUBSET
     identifiers:
       tcgplayerProductId: '125800'
@@ -47,3 +47,7 @@ products:
       cardKingdomId: '210972'
       tcgplayerProductId: '127203'
     subtype: PRERELEASE
+  Aether Revolt Planeswalker Deck Display:
+    category: DECK_BOX
+    identifiers: {}
+    subtype: PLANESWALKER
