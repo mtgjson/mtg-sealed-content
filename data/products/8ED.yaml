@@ -17,12 +17,12 @@ products:
       cardKingdomId: '1555'
       tcgplayerProductId: '27321'
     subtype: DEFAULT
-  Eighth Edition Box:
-    category: BUNDLE
+  Eighth Edition Box Set:
+    category: BOX_SET
     identifiers:
       tcgplayerProductId: '245974'
     subtype: DEFAULT
-  Eighth Edition Box Two Player Starter:
+  Eighth Edition Two Player Starter:
     category: MULTI_DECK
     identifiers:
       cardKingdomId: '1556'
@@ -68,3 +68,7 @@ products:
     identifiers:
       cardKingdomId: '240097'
     subtype: TWO_PLAYER_STARTER
+  Eighth Edition Theme Deck Display:
+    category: DECK_BOX
+    identifiers: {}
+    subtype: THEME
