@@ -28,11 +28,6 @@ products:
     pack:
     - code: default
       set: 2xm
-  Double Masters VIP Edition Booster Pack:
-    card_count: 35
-    pack:
-    - code: vip
-      set: 2xm
   Double Masters VIP Edition Booster Box:
     sealed:
     - count: 4
@@ -42,4 +37,9 @@ products:
     sealed:
     - count: 4
       name: Double Masters VIP Edition Booster Box
+      set: 2xm
+  Double Masters VIP Edition Booster Pack:
+    card_count: 35
+    pack:
+    - code: vip
       set: 2xm

@@ -43,6 +43,10 @@ products:
     identifiers:
       tcgplayerProductId: '215049'
     subtype: LAND_STATION
+  Amonkhet Planeswalker Deck Display:
+    category: DECK_BOX
+    identifiers: {}
+    subtype: PLANESWALKER
   Amonkhet Planeswalker Deck Gideon:
     category: DECK
     identifiers:
@@ -65,7 +69,3 @@ products:
     identifiers:
       tcgplayerProductId: '127534'
     subtype: PRERELEASE
-  Amonkhet Planeswalker Deck Display:
-    category: DECK_BOX
-    identifiers: {}
-    subtype: PLANESWALKER
