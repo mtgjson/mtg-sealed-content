@@ -16,11 +16,6 @@ products:
     pack:
     - code: default
       set: bng
-  Born of the Gods Destined To Conquer Prerelease: []
-  Born of the Gods Destined To Dominate Prerelease: []
-  Born of the Gods Destined To Lead Prerelease: []
-  Born of the Gods Destined To Outwit Prerelease: []
-  Born of the Gods Destined To Thrive Prerelease: []
   Born of the Gods Event Deck Case:
     sealed:
     - count: 6
@@ -32,6 +27,15 @@ products:
     - name: Underworld Herald
       set: bng
   Born of the Gods Fat Pack: []
+  Born of the Gods Intro Pack Deaths Beginning:
+    card_count: 60
+    deck:
+    - name: Death's Beginning
+      set: bng
+    sealed:
+    - count: 2
+      name: Born of the Gods Booster Pack
+      set: bng
   Born of the Gods Intro Pack Display:
     sealed:
     - count: 2
@@ -48,15 +52,6 @@ products:
       set: bng
     - count: 2
       name: Born of the Gods Intro Pack Inspiration Struck
-      set: bng
-  Born of the Gods Intro Pack Deaths Beginning:
-    card_count: 60
-    deck:
-    - name: Death's Beginning
-      set: bng
-    sealed:
-    - count: 2
-      name: Born of the Gods Booster Pack
       set: bng
   Born of the Gods Intro Pack Forged in Battle:
     card_count: 60
@@ -111,6 +106,11 @@ products:
     - count: 1
       name: Born of the Gods Intro Pack Inspiration Struck
       set: bng
+  Born of the Gods Prerelease Kit Destined To Conquer: []
+  Born of the Gods Prerelease Kit Destined To Dominate: []
+  Born of the Gods Prerelease Kit Destined To Lead: []
+  Born of the Gods Prerelease Kit Destined To Outwit: []
+  Born of the Gods Prerelease Kit Destined To Thrive: []
   Born of the Gods Prerelease Kit Set of 5:
     sealed:
     - count: 1

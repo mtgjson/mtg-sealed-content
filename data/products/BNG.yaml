@@ -24,31 +24,6 @@ products:
       tcgplayerProductId: '77982'
     release_date: '2014-02-07'
     subtype: DEFAULT
-  Born of the Gods Prerelease Kit Destined To Conquer:
-    category: LIMITED
-    identifiers:
-      tcgplayerProductId: '78293'
-    subtype: PRERELEASE
-  Born of the Gods Prerelease Kit Destined To Dominate:
-    category: LIMITED
-    identifiers:
-      tcgplayerProductId: '78292'
-    subtype: PRERELEASE
-  Born of the Gods Prerelease Kit Destined To Lead:
-    category: LIMITED
-    identifiers:
-      tcgplayerProductId: '78290'
-    subtype: PRERELEASE
-  Born of the Gods Prerelease Kit Destined To Outwit:
-    category: LIMITED
-    identifiers:
-      tcgplayerProductId: '78291'
-    subtype: PRERELEASE
-  Born of the Gods Prerelease Kit Destined To Thrive:
-    category: LIMITED
-    identifiers:
-      tcgplayerProductId: '78294'
-    subtype: PRERELEASE
   Born of the Gods Event Deck Case:
     category: DECK_BOX
     identifiers:
@@ -68,17 +43,17 @@ products:
       tcgplayerProductId: '77981'
     release_date: '2014-02-07'
     subtype: FAT_PACK
-  Born of the Gods Intro Pack Display:
-    category: DECK_BOX
-    identifiers:
-      tcgplayerProductId: '77985'
-    release_date: '2014-02-07'
-    subtype: INTRO
   Born of the Gods Intro Pack Deaths Beginning:
     category: DECK
     identifiers:
       cardKingdomId: '193248'
       tcgplayerProductId: '78748'
+    subtype: INTRO
+  Born of the Gods Intro Pack Display:
+    category: DECK_BOX
+    identifiers:
+      tcgplayerProductId: '77985'
+    release_date: '2014-02-07'
     subtype: INTRO
   Born of the Gods Intro Pack Forged in Battle:
     category: DECK
@@ -109,6 +84,31 @@ products:
     identifiers:
       tcgplayerProductId: '77984'
     subtype: INTRO
+  Born of the Gods Prerelease Kit Destined To Conquer:
+    category: LIMITED
+    identifiers:
+      tcgplayerProductId: '78293'
+    subtype: PRERELEASE
+  Born of the Gods Prerelease Kit Destined To Dominate:
+    category: LIMITED
+    identifiers:
+      tcgplayerProductId: '78292'
+    subtype: PRERELEASE
+  Born of the Gods Prerelease Kit Destined To Lead:
+    category: LIMITED
+    identifiers:
+      tcgplayerProductId: '78290'
+    subtype: PRERELEASE
+  Born of the Gods Prerelease Kit Destined To Outwit:
+    category: LIMITED
+    identifiers:
+      tcgplayerProductId: '78291'
+    subtype: PRERELEASE
+  Born of the Gods Prerelease Kit Destined To Thrive:
+    category: LIMITED
+    identifiers:
+      tcgplayerProductId: '78294'
+    subtype: PRERELEASE
   Born of the Gods Prerelease Kit Set of 5:
     category: LIMITED_CASE
     identifiers:
