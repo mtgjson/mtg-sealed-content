@@ -1,7 +1,15 @@
 code: lci
 products:
-  The Lost Caverns of Ixalan Box Topper Pack - Foil: []
-  The Lost Caverns of Ixalan Box Topper Pack - Nonfoil: []
+  The Lost Caverns of Ixalan Box Topper Pack - Foil:
+    card_count: 1
+    pack:
+    - set: lci
+      code: topper-foil
+  The Lost Caverns of Ixalan Box Topper Pack - Nonfoil: 
+    card_count: 1
+    pack: 
+    - set: lci
+      code: topper
   The Lost Caverns of Ixalan Bundle: []
   The Lost Caverns of Ixalan Bundle Case:
     sealed:
@@ -21,8 +29,16 @@ products:
     - count: 6
       name: The Lost Caverns of Ixalan Collector Booster Box
       set: lci
-  The Lost Caverns of Ixalan Collector Booster Box Master Case: []
-  The Lost Caverns of Ixalan Collector Booster Pack: []
+  The Lost Caverns of Ixalan Collector Booster Box Master Case:
+    sealed:
+    - count: 24
+      name: The Lost Caverns of Ixalan Collector Booster Box
+      set: lci
+  The Lost Caverns of Ixalan Collector Booster Pack: 
+    card_count: 15
+    pack:
+    - set: lci
+      code: collector
   The Lost Caverns of Ixalan Draft Booster Box:
     sealed:
     - count: 36
@@ -36,7 +52,11 @@ products:
     - count: 6
       name: The Lost Caverns of Ixalan Draft Booster Box
       set: lci
-  The Lost Caverns of Ixalan Draft Booster Pack: []
+  The Lost Caverns of Ixalan Draft Booster Pack: 
+    card_count: 15
+    pack:
+    - set: lci
+      code: default
   The Lost Caverns of Ixalan Gift Bundle: []
   The Lost Caverns of Ixalan Gift Bundle Case: []
   The Lost Caverns of Ixalan Prerelease Pack: []
@@ -53,4 +73,8 @@ products:
     - count: 6
       name: The Lost Caverns of Ixalan Set Booster Box
       set: lci
-  The Lost Caverns of Ixalan Set Booster Pack: []
+  The Lost Caverns of Ixalan Set Booster Pack: 
+    card_count: 12
+    pack:
+    - set: lci
+      code: set
