@@ -6,7 +6,7 @@ products:
       cardKingdomId: '202427'
       tcgplayerProductId: '102715'
     subtype: DEFAULT
-  Battle for Zendikar Booster Box Case 6 boxes:
+  Battle for Zendikar Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '102714'
@@ -76,4 +76,8 @@ products:
     identifiers:
       cardKingdomId: '202475'
       tcgplayerProductId: '102722'
+    subtype: INTRO
+  Battle for Zendikar Intro Pack Display:
+    category: DECK_BOX
+    identifiers: {}
     subtype: INTRO
