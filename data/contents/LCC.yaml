@@ -1,7 +1,33 @@
 code: lcc
 products:
-  The Lost Caverns of Ixalan Commander Deck Ahoy Mateys: []
-  The Lost Caverns of Ixalan Commander Deck Blood Rites: []
+  The Lost Caverns of Ixalan Commander Deck Ahoy Mateys: 
+    card_count: 100
+    deck:
+    - set: lcc
+      name: Ahoy Mateys
+    sealed:
+    - set: lci
+      name: The Lost Caverns of Ixalan Collector Booster Sample Pack
+      count: 1
+    other:
+    - name: 10 double faced tokens
+    - name: foil etched display commander
+    - name: deck box
+    - name: spindown life counter
+  The Lost Caverns of Ixalan Commander Deck Blood Rites: 
+    card_count: 100
+    deck:
+    - set: lcc
+      name: Bood Rites
+    sealed:
+    - set: lci
+      name: The Lost Caverns of Ixalan Collector Booster Sample Pack
+      count: 1
+    other:
+    - name: 10 double faced tokens
+    - name: foil etched display commander
+    - name: deck box
+    - name: spindown life counter
   The Lost Caverns of Ixalan Commander Deck Case:
     sealed:
     - count: 1
@@ -16,6 +42,45 @@ products:
     - count: 1
       name: The Lost Caverns of Ixalan Commander Deck Veloci Ramp Tor
       set: lcc
-  The Lost Caverns of Ixalan Commander Deck Explorers of the Deep: []
-  The Lost Caverns of Ixalan Commander Deck Set of Four: []
-  The Lost Caverns of Ixalan Commander Deck Veloci Ramp Tor: []
+  The Lost Caverns of Ixalan Commander Deck Explorers of the Deep: 
+    card_count: 100
+    deck:
+    - set: lcc
+      name: Explorers of the Deep
+    sealed:
+    - set: lci
+      name: The Lost Caverns of Ixalan Collector Booster Sample Pack
+      count: 1
+    other:
+    - name: 10 double faced tokens
+    - name: foil etched display commander
+    - name: deck box
+    - name: spindown life counter
+  The Lost Caverns of Ixalan Commander Deck Set of Four: 
+    sealed:
+    - count: 1
+      name: The Lost Caverns of Ixalan Commander Deck Ahoy Mateys
+      set: lcc
+    - count: 1
+      name: The Lost Caverns of Ixalan Commander Deck Blood Rites
+      set: lcc
+    - count: 1
+      name: The Lost Caverns of Ixalan Commander Deck Explorers of the Deep
+      set: lcc
+    - count: 1
+      name: The Lost Caverns of Ixalan Commander Deck Veloci Ramp Tor
+      set: lcc
+  The Lost Caverns of Ixalan Commander Deck Veloci Ramp Tor: 
+    card_count: 100
+    deck:
+    - set: lcc
+      name: Veloci Ramp Tor
+    sealed:
+    - set: lci
+      name: The Lost Caverns of Ixalan Collector Booster Sample Pack
+      count: 1
+    other:
+    - name: 10 double faced tokens
+    - name: foil etched display commander
+    - name: deck box
+    - name: spindown life counter
