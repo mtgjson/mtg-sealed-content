@@ -179,56 +179,59 @@ products:
     - count: 1
       name: The Lord of the Rings Tales of Middle earth Retail Tin The One Ring
       set: ltr
-  The Lord of the Rings Tales of Middle earth Scene Box Aragorn at Helms Deep: 
+  The Lord of the Rings Tales of Middle earth Scene Box Aragorn at Helms Deep:
     card_count: 6
     deck:
-    - set: ltc
-      name: Aragorn at Helms Deep
+    - name: Aragorn at Helms Deep
+      set: ltc
     sealed:
-    - set: ltr
-      count: 3
+    - count: 3
       name: The Lord of the Rings Tales of Middle earth Set Booster Pack
-  The Lord of the Rings Tales of Middle earth Scene Box Flight of the Witch King: 
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Scene Box Flight of the Witch King:
     card_count: 6
     deck:
-    - set: ltc
-      name: Flight of the Witch King
+    - name: Flight of the Witch King
+      set: ltc
     sealed:
-    - set: ltr
-      count: 3
+    - count: 3
       name: The Lord of the Rings Tales of Middle earth Set Booster Pack
-  The Lord of the Rings Tales of Middle earth Scene Box Gandalf in the Pelennor Fields: 
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Scene Box Gandalf in the Pelennor Fields:
     card_count: 6
     deck:
-    - set: ltc
-      name: Gandalf in the Pelennor Fields
+    - name: Gandalf in the Pelennor Fields
+      set: ltc
     sealed:
-    - set: ltr
-      count: 3
+    - count: 3
       name: The Lord of the Rings Tales of Middle earth Set Booster Pack
-  The Lord of the Rings Tales of Middle earth Scene Box The Might of Galadriel: 
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Scene Box The Might of Galadriel:
     card_count: 6
     deck:
-    - set: ltc
-      name: The Might of Galadriel
+    - name: The Might of Galadriel
+      set: ltc
     sealed:
-    - set: ltr
-      count: 3
+    - count: 3
       name: The Lord of the Rings Tales of Middle earth Set Booster Pack
-  The Lord of the Rings Tales of Middle earth Scene Boxes Set of 4: 
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Scene Boxes Set of 4:
     sealed:
-    - set: ltr
-      count: 1
-      name: The Lord of the Rings Tales of Middle earth Scene Box Aragorn at Helms Deep
-    - set: ltr
-      count: 1
-      name: The Lord of the Rings Tales of Middle earth Scene Box Flight of the Witch King
-    - set: ltr
-      count: 1
-      name: The Lord of the Rings Tales of Middle earth Scene Box Gandalf in the Pelennor Fields
-    - set: ltr
-      count: 1
+    - count: 1
+      name: The Lord of the Rings Tales of Middle earth Scene Box Aragorn at Helms
+        Deep
+      set: ltr
+    - count: 1
+      name: The Lord of the Rings Tales of Middle earth Scene Box Flight of the Witch
+        King
+      set: ltr
+    - count: 1
+      name: The Lord of the Rings Tales of Middle earth Scene Box Gandalf in the Pelennor
+        Fields
+      set: ltr
+    - count: 1
       name: The Lord of the Rings Tales of Middle earth Scene Box The Might of Galadriel
+      set: ltr
   The Lord of the Rings Tales of Middle earth Set Booster Box:
     sealed:
     - count: 30
@@ -247,26 +250,29 @@ products:
     pack:
     - code: set
       set: ltr
-  The Lord of the Rings Tales of Middle earth Special Edition Collector Booster Box: 
+  The Lord of the Rings Tales of Middle earth Special Edition Collector Booster Box:
     sealed:
-    - set: ltr
-      count: 12
-      name: The Lord of the Rings Tales of Middle earth Special Edition Collector Booster Pack
-  The Lord of the Rings Tales of Middle earth Special Edition Collector Booster Box Case: 
+    - count: 12
+      name: The Lord of the Rings Tales of Middle earth Special Edition Collector
+        Booster Pack
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Special Edition Collector Booster Box Case:
     sealed:
-    - set: ltr
-      count: 6
-      name: The Lord of the Rings Tales of Middle earth Special Edition Collector Booster Box
-  The Lord of the Rings Tales of Middle earth Special Edition Collector Booster Box Master Case: 
+    - count: 6
+      name: The Lord of the Rings Tales of Middle earth Special Edition Collector
+        Booster Box
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Special Edition Collector Booster Box Master Case:
     sealed:
-    - set: ltr
-      name: The Lord of the Rings Tales of Middle earth Special Edition Collector Booster Box
-      count: 24
-  The Lord of the Rings Tales of Middle earth Special Edition Collector Booster Pack: 
+    - count: 24
+      name: The Lord of the Rings Tales of Middle earth Special Edition Collector
+        Booster Box
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Special Edition Collector Booster Pack:
     card_count: 15
     pack:
-    - set: ltr
-      code: collector-special
+    - code: collector-special
+      set: ltr
   The Lord of the Rings Tales of Middle earth Starter Kit:
     card_count: 120
     deck:
