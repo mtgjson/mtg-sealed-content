@@ -13,29 +13,6 @@ products:
     - code: default
       set: 8ed
   Eighth Edition Box Set: []
-  Eighth Edition Box Two Player Starter:
-    card:
-    - foil: true
-      name: Elvish Champion
-      number: "241\u2605"
-      set: 8ed
-    card_count: 66
-    deck:
-    - name: Gold Deck
-      set: 8ed
-    - name: Silver Deck
-      set: 8ed
-    other:
-    - name: 2 Playmats
-    - name: 2 Cardboard Life Counters
-    - name: Guide To Cover 1 Demo Game
-    - name: Enhanced Eighth Edition Rule Book
-    - name: CD-ROM Including Magic Test Games
-    - name: Manual for Magic Online
-    sealed:
-    - count: 1
-      name: Eighth Edition Demo Game Booster Pack
-      set: 8ed
   Eighth Edition Demo Game Booster Pack:
     card_count: 14
     deck:
@@ -85,9 +62,31 @@ products:
     deck:
     - name: Speed Scorch
       set: 8ed
-  Eighth Edition Two Player Starter: []
-  Eighth Edition Two Player Starter Display:
+  Eighth Edition Two Player Starter: 
+    card:
+    - foil: true
+      name: Elvish Champion
+      number: "241\u2605"
+      set: 8ed
+    card_count: 66
+    deck:
+    - name: Gold Deck
+      set: 8ed
+    - name: Silver Deck
+      set: 8ed
+    other:
+    - name: 2 Playmats
+    - name: 2 Cardboard Life Counters
+    - name: Guide To Cover 1 Demo Game
+    - name: Enhanced Eighth Edition Rule Book
+    - name: CD-ROM Including Magic Test Games
+    - name: Manual for Magic Online
+    sealed:
+    - count: 1
+      name: Eighth Edition Demo Game Booster Pack
+      set: 8ed
+  Eighth Edition Two Player Starter Set Display:
     sealed:
     - count: 6
-      name: Eighth Edition Box Two Player Starter
+      name: Eighth Edition Two Player Starter
       set: 8ed
