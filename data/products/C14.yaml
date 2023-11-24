@@ -6,11 +6,6 @@ products:
       cardKingdomId: '196745'
       tcgplayerProductId: '94102'
     subtype: COMMANDER
-  Commander 2014 Commander Decks Set of 5:
-    category: SUBSET
-    identifiers:
-      tcgplayerProductId: '94098'
-    subtype: COMMANDER
   Commander 2014 Commander Deck Forged in Stone:
     category: DECK
     identifiers:
@@ -34,4 +29,9 @@ products:
     identifiers:
       cardKingdomId: '196744'
       tcgplayerProductId: '94101'
+    subtype: COMMANDER
+  Commander 2014 Commander Decks Set of 5:
+    category: SUBSET
+    identifiers:
+      tcgplayerProductId: '94098'
     subtype: COMMANDER
