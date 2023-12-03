@@ -7,7 +7,7 @@ products:
       tcgplayerProductId: '67751'
     release_date: '2013-05-03'
     subtype: DEFAULT
-  Dragons Maze Booster Box Case 6 boxes:
+  Dragons Maze Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '67750'
@@ -121,3 +121,7 @@ products:
     identifiers:
       tcgplayerProductId: '183300'
     subtype: PRERELEASE
+  Dragons Maze Intro Deck Display:
+    category: DECK_BOX
+    identifier: {}
+    subtype: INTRO
