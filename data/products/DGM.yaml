@@ -31,6 +31,10 @@ products:
       cardKingdomId: '189561'
       tcgplayerProductId: '67754'
     subtype: FAT_PACK
+  Dragons Maze Intro Deck Display:
+    category: DECK_BOX
+    identifier: {}
+    subtype: INTRO
   Dragons Maze Intro Pack Azorius Authority:
     category: DECK
     identifiers:
@@ -121,7 +125,3 @@ products:
     identifiers:
       tcgplayerProductId: '183300'
     subtype: PRERELEASE
-  Dragons Maze Intro Deck Display:
-    category: DECK_BOX
-    identifier: {}
-    subtype: INTRO

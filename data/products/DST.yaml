@@ -18,6 +18,10 @@ products:
       cardKingdomId: '240338'
       tcgplayerProductId: '78308'
     subtype: FAT_PACK
+  Darksteel Theme Deck Display:
+    category: DECK_BOX
+    identifier: {}
+    subtype: THEME
   Darksteel Theme Deck Master Blaster:
     category: DECK
     identifiers:
@@ -41,8 +45,4 @@ products:
     identifiers:
       cardKingdomId: '110500'
       tcgplayerProductId: '208249'
-    subtype: THEME
-  Darksteel Theme Deck Display:
-    category: DECK_BOX
-    identifier: {}
     subtype: THEME

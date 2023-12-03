@@ -12,6 +12,10 @@ products:
       cardKingdomId: '1175'
       tcgplayerProductId: '27337'
     subtype: DEFAULT
+  Exodus Theme Deck Display:
+    category: DECK_BOX
+    identifier: {}
+    subtype: THEME
   Exodus Theme Deck Dominator:
     category: DECK
     identifiers:
@@ -35,8 +39,4 @@ products:
     identifiers:
       cardKingdomId: '1179'
       tcgplayerProductId: '116057'
-    subtype: THEME
-  Exodus Theme Deck Display:
-    category: DECK_BOX
-    identifier: {}
     subtype: THEME

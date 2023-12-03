@@ -30,6 +30,10 @@ products:
       cardKingdomId: '121022'
       tcgplayerProductId: '72030'
     subtype: THEME
+  Coldsnap Theme Deck Display:
+    category: DECK_BOX
+    identifier: {}
+    subtype: THEME
   Coldsnap Theme Deck Kjeldoran Cunning:
     category: DECK
     identifiers:
@@ -41,8 +45,4 @@ products:
     identifiers:
       cardKingdomId: '121024'
       tcgplayerProductId: '72032'
-    subtype: THEME
-  Coldsnap Theme Deck Display:
-    category: DECK_BOX
-    identifier: {}
     subtype: THEME

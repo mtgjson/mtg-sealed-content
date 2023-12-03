@@ -24,6 +24,10 @@ products:
       cardKingdomId: '119573'
       tcgplayerProductId: '96340'
     subtype: THEME
+  Guildpact Theme Deck Display:
+    category: DECK_BOX
+    identifier: {}
+    subtype: THEME
   Guildpact Theme Deck Gruul Wilding:
     category: DECK
     identifiers:
@@ -35,8 +39,4 @@ products:
     identifiers:
       cardKingdomId: '119575'
       tcgplayerProductId: '96342'
-    subtype: THEME
-  Guildpact Theme Deck Display:
-    category: DECK_BOX
-    identifier: {}
     subtype: THEME

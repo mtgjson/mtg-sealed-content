@@ -5,6 +5,11 @@ products:
     - count: 3
       name: 2012 Core Set Booster Pack
       set: m12
+  2012 Core Set 6 Card Booster Pack:
+    card_count: 6
+    pack:
+    - code: six
+      set: m12
   2012 Core Set Booster Battle Pack: []
   2012 Core Set Booster Battle Pack Booster Box: []
   2012 Core Set Booster Box:
@@ -120,9 +125,4 @@ products:
       set: m12
     - count: 1
       name: 2012 Core Set Intro Pack Sacred Assault
-      set: m12
-  2012 Core Set 6 Card Booster Pack:
-    card_count: 6
-    pack:
-    - code: six
       set: m12

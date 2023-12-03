@@ -26,6 +26,10 @@ products:
       cardKingdomId: '212829'
       tcgplayerProductId: '131458'
     subtype: DEFAULT
+  Hour of Devastation Planeswalker Deck Display:
+    category: DECK_BOX
+    identifier: {}
+    subtype: PLANESWALKER
   Hour of Devastation Planeswalker Deck Nicol Bolas:
     category: DECK
     identifiers:
@@ -52,7 +56,3 @@ products:
       cardKingdomId: '213470'
       tcgplayerProductId: '137435'
     subtype: PRERELEASE
-  Hour of Devastation Planeswalker Deck Display:
-    category: DECK_BOX
-    identifier: {}
-    subtype: PLANESWALKER

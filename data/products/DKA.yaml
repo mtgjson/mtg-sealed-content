@@ -18,6 +18,10 @@ products:
       cardKingdomId: '186261'
       tcgplayerProductId: '57583'
     subtype: DEFAULT
+  Dark Ascension Event Deck Display:
+    category: DECK_BOX
+    identifier: {}
+    subtype: EVENT
   Dark Ascension Event Deck Gleeful Flames:
     category: DECK
     identifiers:
@@ -82,7 +86,3 @@ products:
       tcgplayerProductId: '57625'
     release_date: '2012-02-03'
     subtype: INTRO
-  Dark Ascension Event Deck Display:
-    category: DECK_BOX
-    identifier: {}
-    subtype: EVENT

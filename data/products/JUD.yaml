@@ -1,5 +1,9 @@
 code: jud
 products:
+  Judgement Theme Deck Display:
+    category: DECK_BOX
+    identifier: {}
+    subtype: THEME
   Judgment Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -40,8 +44,4 @@ products:
     identifiers:
       cardKingdomId: '1496'
       tcgplayerProductId: '175069'
-    subtype: THEME
-  Judgement Theme Deck Display:
-    category: DECK_BOX
-    identifier: {}
     subtype: THEME

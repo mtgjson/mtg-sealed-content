@@ -61,6 +61,10 @@ products:
       cardKingdomId: '185708'
       tcgplayerProductId: '56212'
     subtype: INTRO
+  Innistrad Intro Pack Display:
+    category: DECK_BOX
+    identifiers: {}
+    subtype: INTRO
   Innistrad Intro Pack Eldritch Onslaught:
     category: DECK
     identifiers:
@@ -77,10 +81,6 @@ products:
     category: SUBSET
     identifiers:
       tcgplayerProductId: '47790'
-    subtype: INTRO
-  Innistrad Intro Pack Display:
-    category: DECK_BOX
-    identifiers: {}
     subtype: INTRO
   Innistrad Intro Pack Spectral Legions:
     category: DECK

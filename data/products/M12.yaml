@@ -5,6 +5,10 @@ products:
     identifiers:
       tcgplayerProductId: '46955'
     subtype: DRAFT_SET
+  2012 Core Set 6 Card Booster Pack:
+    category: BOOSTER_PACK
+    identifiers: {}
+    subtype: SIX
   2012 Core Set Booster Battle Pack:
     category: MULTI_DECK
     identifiers:
@@ -65,6 +69,10 @@ products:
     identifiers:
       cardKingdomId: '185246'
     subtype: INTRO
+  2012 Core Set Intro Pack Display:
+    category: DECK_BOX
+    identifier: {}
+    subtype: INTRO
   2012 Core Set Intro Pack Entangling Webs:
     category: DECK
     identifiers:
@@ -89,12 +97,4 @@ products:
     category: SUBSET
     identifiers:
       tcgplayerProductId: '46954'
-    subtype: INTRO
-  2012 Core Set 6 Card Booster Pack:
-    category: BOOSTER_PACK
-    identifiers: {}
-    subtype: SIX
-  2012 Core Set Intro Pack Display:
-    category: DECK_BOX
-    identifier: {}
     subtype: INTRO
