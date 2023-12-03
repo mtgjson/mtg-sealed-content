@@ -134,10 +134,26 @@ products:
     pack:
     - code: jumpstart
       set: ltr
-  The Lord of the Rings Tales of Middle earth Jumpstart Booster Pack 2 Pack: []
-  The Lord of the Rings Tales of Middle earth Jumpstart Vol 2 Booster Box: []
-  The Lord of the Rings Tales of Middle earth Jumpstart Vol 2 Booster Box Case: []
-  The Lord of the Rings Tales of Middle earth Jumpstart Vol 2 Booster Pack: []
+  The Lord of the Rings Tales of Middle earth Jumpstart Booster Pack 2 Pack: 
+    sealed:
+    - set: ltr
+      name: The Lord of the Rings Tales of Middle earth Jumpstart Booster Pack
+      count: 2
+  The Lord of the Rings Tales of Middle earth Jumpstart Vol 2 Booster Box: 
+    sealed:
+    - count: 20
+      name: The Lord of the Rings Tales of Middle earth Jumpstart Vol 2 Booster Pack
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Jumpstart Vol 2 Booster Box Case: 
+    sealed:
+    - count: 6
+      name: The Lord of the Rings Tales of Middle earth Jumpstart Vol 2 Booster Box
+      set: ltr
+  The Lord of the Rings Tales of Middle earth Jumpstart Vol 2 Booster Pack:
+    card_count: 20
+    pack:
+    - code: jumpstart_v2
+      set: ltr
   The Lord of the Rings Tales of Middle earth Prerelease Pack:
     card_count: 2
     other:
