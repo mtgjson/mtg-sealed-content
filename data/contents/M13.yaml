@@ -5,6 +5,11 @@ products:
     - count: 3
       name: 2013 Core Set Booster Pack
       set: m13
+  2013 Core Set 6 Card Booster Pack:
+    card_count: 6
+    pack:
+    - code: six
+      set: m13
   2013 Core Set Booster Battle Pack: []
   2013 Core Set Booster Battle Pack Booster Box: []
   2013 Core Set Booster Box:
@@ -87,6 +92,8 @@ products:
     - count: 2
       name: 2013 Core Set Booster Pack
       set: m13
+  2013 Core Set Intro Packs Display: []
+  2013 Core Set Intro Packs Set of 5: []
   2013 Core Set Set of 5 Intro Packs:
     sealed:
     - count: 1
@@ -103,9 +110,4 @@ products:
       set: m13
     - count: 1
       name: 2013 Core Set Intro Pack Wild Rush Green
-      set: m13
-  2013 Core Set 6 Card Booster Pack:
-    card_count: 6
-    pack:
-    - code: six
       set: m13

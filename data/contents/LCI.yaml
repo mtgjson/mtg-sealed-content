@@ -10,24 +10,24 @@ products:
     pack:
     - code: box-topper
       set: lci
-  The Lost Caverns of Ixalan Bundle: 
+  The Lost Caverns of Ixalan Bundle:
+    card:
+    - foil: true
+      name: Hit the Mother Lode
+      number: 404
+      set: lci
+    card_count: 1
     other:
     - name: Lost Caverns of Ixalan Spindown
     - name: 40 basic land bundle
     - name: Card storage box
-    card:
-    - set: lci
-      name: Hit the Mother Lode
-      number: 404
-      foil: true
-    card_count: 1
     pack:
-    - set: lci
-      code: bundle-promo
+    - code: bundle-promo
+      set: lci
     sealed:
-    - set: lci
+    - count: 8
       name: The Lost Caverns of Ixalan Set Booster Pack
-      count: 8
+      set: lci
   The Lost Caverns of Ixalan Bundle Case:
     sealed:
     - count: 6
@@ -79,43 +79,43 @@ products:
     pack:
     - code: default
       set: lci
-  The Lost Caverns of Ixalan Gift Bundle: 
+  The Lost Caverns of Ixalan Gift Bundle:
+    card:
+    - foil: true
+      name: Hit the Mother Lode
+      number: 404
+      set: lci
+    card_count: 1
     other:
     - name: Lost Caverns of Ixalan Spindown
     - name: 40 basic land bundle
     - name: Card storage box
-    card:
-    - set: lci
-      name: Hit the Mother Lode
-      number: 404
-      foil: true
-    card_count: 1
     pack:
-    - set: lci
-      code: bundle-promo
+    - code: bundle-promo
+      set: lci
     sealed:
-    - set: lci
+    - count: 8
       name: The Lost Caverns of Ixalan Set Booster Pack
-      count: 8
-    - set: lci
+      set: lci
+    - count: 1
       name: The Lost Caverns of Ixalan Collector Booster Pack
-      count: 1
-  The Lost Caverns of Ixalan Gift Bundle Case: 
+      set: lci
+  The Lost Caverns of Ixalan Gift Bundle Case:
     sealed:
-    - set: lci
-      count: 6
+    - count: 6
       name: The Lost Caverns of Ixalan Gift Bundle
-  The Lost Caverns of Ixalan Prerelease Pack: 
-    sealed:
-    - set: lci
-      name: The Lost Caverns of Ixalan Draft Booster Pack
-      count: 6
+      set: lci
+  The Lost Caverns of Ixalan Prerelease Pack:
     card_count: 1
-    pack:
-    - set: lci
-      code: prerelease
     other:
     - name: Lost Caverns of Ixalan Spindown
+    pack:
+    - code: prerelease
+      set: lci
+    sealed:
+    - count: 6
+      name: The Lost Caverns of Ixalan Draft Booster Pack
+      set: lci
   The Lost Caverns of Ixalan Set Booster Box:
     sealed:
     - count: 30

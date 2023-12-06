@@ -6,6 +6,10 @@ products:
       tcgplayerProductId: '59122'
     release_date: '2012-07-13'
     subtype: DRAFT_SET
+  2013 Core Set 6 Card Booster Pack:
+    category: BOOSTER_PACK
+    identifiers: {}
+    subtype: SIX
   2013 Core Set Booster Battle Pack:
     category: MULTI_DECK
     identifiers:
@@ -95,17 +99,13 @@ products:
       cardKingdomId: '187708'
       tcgplayerProductId: '97817'
     subtype: INTRO
+  2013 Core Set Intro Packs Display:
+    category: DECK_BOX
+    identifier: {}
+    subtype: INTRO
   2013 Core Set Intro Packs Set of 5:
     category: SUBSET
     identifiers:
       tcgplayerProductId: '59121'
     release_date: '2012-07-13'
-    subtype: INTRO
-  2013 Core Set 6 Card Booster Pack:
-    category: BOOSTER_PACK
-    identifiers: {}
-    subtype: SIX
-  2013 Core Set Intro Packs Display:
-    category: DECK_BOX
-    identifier: {}
     subtype: INTRO
