@@ -1,85 +1,49 @@
 code: mkm
 products:
   Murders at Karlov Manor Bundle:
-    category: UNKNOWN
+    category: BUNDLE
     identifiers:
       tcgplayerProductId: '529971'
     release_date: '2024-02-09'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Murders at Karlov Manor Bundle Case:
-    category: UNKNOWN
+    category: BUNDLE_CASE
     identifiers:
       tcgplayerProductId: '529972'
     release_date: '2024-02-09'
-    subtype: UNKNOWN
-  Murders at Karlov Manor Collector Booster Display:
-    category: UNKNOWN
+    subtype: DEFAULT
+  Murders at Karlov Manor Collector Booster Box:
+    category: BOOSTER_BOX
     identifiers:
       tcgplayerProductId: '529968'
     release_date: '2024-02-09'
-    subtype: UNKNOWN
-  Murders at Karlov Manor Collector Booster Display Case:
-    category: UNKNOWN
+    subtype: COLLECTOR
+  Murders at Karlov Manor Collector Booster Box Case:
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '529969'
     release_date: '2024-02-09'
-    subtype: UNKNOWN
-  Murders at Karlov Manor Collector Booster Display Master Case:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '529970'
-    release_date: '2024-02-09'
-    subtype: UNKNOWN
+    subtype: COLLECTOR
   Murders at Karlov Manor Collector Booster Pack:
-    category: UNKNOWN
+    category: BOOSTER_PACK
     identifiers:
       tcgplayerProductId: '529967'
     release_date: '2024-02-09'
-    subtype: UNKNOWN
-  Murders at Karlov Manor Commander Deck Blame Game:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '529980'
-    release_date: '2024-02-09'
-    subtype: UNKNOWN
-  Murders at Karlov Manor Commander Deck Case:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '529981'
-    release_date: '2024-02-09'
-    subtype: UNKNOWN
-  Murders at Karlov Manor Commander Deck Deadly Disguise:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '529977'
-    release_date: '2024-02-09'
-    subtype: UNKNOWN
-  Murders at Karlov Manor Commander Deck Deep Clue Sea:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '529979'
-    release_date: '2024-02-09'
-    subtype: UNKNOWN
-  Murders at Karlov Manor Commander Deck Revenant Recon:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '529978'
-    release_date: '2024-02-09'
-    subtype: UNKNOWN
-  Murders at Karlov Manor Play Booster Display:
-    category: UNKNOWN
+    subtype: COLLECTOR
+  Murders at Karlov Manor Play Booster Box:
+    category: BOOSTER_BOX
     identifiers:
       tcgplayerProductId: '529964'
     release_date: '2024-02-09'
     subtype: UNKNOWN
-  Murders at Karlov Manor Play Booster Display Case:
-    category: UNKNOWN
+  Murders at Karlov Manor Play Booster Box Case:
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '529965'
     release_date: '2024-02-09'
     subtype: UNKNOWN
   Murders at Karlov Manor Play Booster Pack:
-    category: UNKNOWN
+    category: BOOSTER_PACK
     identifiers:
       tcgplayerProductId: '529962'
     release_date: '2024-02-09'
