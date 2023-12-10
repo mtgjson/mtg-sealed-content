@@ -62,8 +62,12 @@ products:
       cardKingdomId: '127771'
       tcgplayerProductId: '32794'
     subtype: INTRO
-  Zendikar Set of 5 Intro Packs:
+  Zendikar Intro Packs Set of 5:
     category: SUBSET
     identifiers:
       tcgplayerProductId: '32799'
+    subtype: INTRO
+  Zendikar Intro Pack Display:
+    category: DECK_BOX
+    identifier: {}
     subtype: INTRO
