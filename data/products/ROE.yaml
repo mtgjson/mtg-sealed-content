@@ -62,8 +62,12 @@ products:
       cardKingdomId: '130627'
       tcgplayerProductId: '34688'
     subtype: INTRO
-  Rise of the Eldrazi Set of 5 Intro Packs:
+  Rise of the Eldrazi Intro Packs Set of 5:
     category: SUBSET
     identifiers:
       tcgplayerProductId: '34683'
+    subtype: INTRO
+  Rise of the Eldrazi Intro Pack Display:
+    category: DECK_BOX
+    identifier: {}
     subtype: INTRO

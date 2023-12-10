@@ -75,7 +75,7 @@ products:
       cardKingdomId: '190586'
       tcgplayerProductId: '70077'
     subtype: INTRO
-  2014 Core Set Intro Pack Set of 5:
+  2014 Core Set Intro Packs Set of 5:
     category: SUBSET
     identifiers:
       tcgplayerProductId: '190866'
@@ -85,7 +85,11 @@ products:
     identifiers:
       tcgplayerProductId: '215047'
     subtype: LAND_STATION
-  Core Set 2014 6 Card Booster Pack:
+  2014 Core Set 6 Card Booster Pack:
     category: BOOSTER_PACK
     identifiers: {}
     subtype: SIX
+  2012 Core Set Intro Pack Display:
+    category: DECK_BOX
+    identifier: {}
+    subtype: INTRO
