@@ -1,9 +1,5 @@
 code: m14
 products:
-  2014 Core Set Intro Pack Display:
-    category: DECK_BOX
-    identifier: {}
-    subtype: INTRO
   2014 Core Set 6 Card Booster Pack:
     category: BOOSTER_PACK
     identifiers: {}
@@ -64,6 +60,10 @@ products:
     identifiers:
       cardKingdomId: '190585'
       tcgplayerProductId: '70078'
+    subtype: INTRO
+  2014 Core Set Intro Pack Display:
+    category: DECK_BOX
+    identifier: {}
     subtype: INTRO
   2014 Core Set Intro Pack Fire Surge:
     category: DECK
