@@ -36,6 +36,10 @@ products:
       cardKingdomId: '1512'
       tcgplayerProductId: '96348'
     subtype: THEME
+  Onslaught Theme Deck Display:
+    category: DECK_BOX
+    identifier: {}
+    subtype: THEME
   Onslaught Theme Deck Ivory Doom:
     category: DECK
     identifiers:
@@ -48,7 +52,3 @@ products:
       cardKingdomId: '1508'
       tcgplayerProductId: '167795'
     subtype: TOURNAMENT
-  Onslaught Theme Deck Display:
-    category: DECK_BOX
-    identifier: {}
-    subtype: THEME

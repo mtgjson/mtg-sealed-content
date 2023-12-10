@@ -44,6 +44,10 @@ products:
       cardKingdomId: '127775'
       tcgplayerProductId: '32795'
     subtype: INTRO
+  Zendikar Intro Pack Display:
+    category: DECK_BOX
+    identifier: {}
+    subtype: INTRO
   Zendikar Intro Pack Green The Adventurers:
     category: DECK
     identifiers:
@@ -66,8 +70,4 @@ products:
     category: SUBSET
     identifiers:
       tcgplayerProductId: '32799'
-    subtype: INTRO
-  Zendikar Intro Pack Display:
-    category: DECK_BOX
-    identifier: {}
     subtype: INTRO

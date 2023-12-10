@@ -1,5 +1,11 @@
 code: m14
 products:
+  2012 Core Set Intro Pack Display: []
+  2014 Core Set 6 Card Booster Pack:
+    card_count: 6
+    pack:
+    - code: six
+      set: m14
   2014 Core Set Booster Battle Pack: []
   2014 Core Set Booster Battle Pack Booster Box: []
   2014 Core Set Booster Box:
@@ -87,8 +93,3 @@ products:
       name: 2014 Core Set Intro Pack Psychic Labyrinth
       set: m14
   2014 Core Set Land Station: []
-  2014 Core Set 6 Card Booster Pack:
-    card_count: 6
-    pack:
-    - code: six
-      set: m14

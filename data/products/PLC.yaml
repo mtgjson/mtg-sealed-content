@@ -18,6 +18,10 @@ products:
       cardKingdomId: '121873'
       tcgplayerProductId: '78325'
     subtype: FAT_PACK
+  Planar Chaos Theme Deck Display:
+    category: DECK_BOX
+    identifier: {}
+    subtype: THEME
   Planar Chaos Theme Deck Endless March:
     category: DECK
     identifiers:
@@ -41,8 +45,4 @@ products:
     identifiers:
       cardKingdomId: '122090'
       tcgplayerProductId: '129680'
-    subtype: THEME
-  Planar Chaos Theme Deck Display:
-    category: DECK_BOX
-    identifier: {}
     subtype: THEME

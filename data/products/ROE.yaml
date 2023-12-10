@@ -32,6 +32,10 @@ products:
       cardKingdomId: '130622'
       tcgplayerProductId: '34682'
     subtype: FAT_PACK
+  Rise of the Eldrazi Intro Pack Display:
+    category: DECK_BOX
+    identifier: {}
+    subtype: INTRO
   Rise of the Eldrazi Intro Pack Eldrazi Arisen:
     category: DECK
     identifiers:
@@ -66,8 +70,4 @@ products:
     category: SUBSET
     identifiers:
       tcgplayerProductId: '34683'
-    subtype: INTRO
-  Rise of the Eldrazi Intro Pack Display:
-    category: DECK_BOX
-    identifier: {}
     subtype: INTRO

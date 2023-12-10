@@ -56,6 +56,10 @@ products:
       cardKingdomId: '184458'
       tcgplayerProductId: '39407'
     subtype: INTRO
+  New Phyrexia Intro Pack Display:
+    category: DECK_BOX
+    identifier: {}
+    subtype: INTRO
   New Phyrexia Intro Pack Feast of Flesh:
     category: DECK
     identifiers:
@@ -78,8 +82,4 @@ products:
     category: SUBSET
     identifiers:
       tcgplayerProductId: '39403'
-    subtype: INTRO
-  New Phyrexia Intro Pack Display:
-    category: DECK_BOX
-    identifier: {}
     subtype: INTRO
