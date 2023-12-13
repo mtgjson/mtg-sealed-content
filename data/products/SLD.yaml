@@ -192,6 +192,22 @@ products:
       tcgplayerProductId: 518842
     release_date: '2023-09-23'
     subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Carving Up A Barrel of Foils:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '501826'
+    release_date: '2023-09-06'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle December Superdrop Foil:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '456551'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle December Superdrop Non Foil:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '456550'
+    subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle February Superdrop Full of Foils:
     category: BOX_SET
     identifiers:
@@ -313,131 +329,27 @@ products:
       tcgplayerProductId: '528414'
     release_date: '2023-09-23'
     subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Carving Up A Barrel of Foils Bundle:
+  Secret Lair Bundle Transformers Foil:
     category: BOX_SET
     identifiers:
-      tcgplayerProductId: '501826'
-    release_date: '2023-09-06'
-    subtype: SECRET_LAIR
-  Secret Lair City Styles:
+      tcgplayerProductId: '456553'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Transformers Non Foil:
     category: BOX_SET
     identifiers:
-      tcgplayerProductId: '480469'
-    subtype: SECRET_LAIR
-  Secret Lair City Styles Foil:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '480467'
-    subtype: SECRET_LAIR
+      tcgplayerProductId: '456552'
+    subtype: SECRET_LAIR_BUNDLE
   Secret Lair Commander Deck Angels Theyre Just Like Us but Cooler and with Wings:
-    category: BOX_SET
+    category: DECK
     identifiers:
       tcgplayerProductId: '511863'
     release_date: '2023-09-06'
-    subtype: SECRET_LAIR
+    subtype: COMMANDER
   Secret Lair Commander Deck From Cute to Brute:
-    category: BOX_SET
+    category: DECK
     identifiers:
       tcgplayerProductId: 496129
-    subtype: SECRET_LAIR
-  Secret Lair Cool Ocean Breeze:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '493813'
-    subtype: SECRET_LAIR
-  Secret Lair Cool Ocean Breeze Foil Edition:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '493814'
-    subtype: SECRET_LAIR
-  Secret Lair Crocodile Jacksons Monstrous Menagerie:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '258482'
-    subtype: SECRET_LAIR
-  Secret Lair Crocodile Jacksons Monstrous Menagerie Foil Etched:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '258484'
-    subtype: SECRET_LAIR
-  Secret Lair Dan Frazier Is Back Again The Allied Talismans:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '283266'
-    subtype: SECRET_LAIR
-  Secret Lair Dan Frazier Is Back Again The Allied Talismans Foil Etched Edition:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '283267'
-    subtype: SECRET_LAIR
-  Secret Lair Dan Frazier Is Back Again The Enemy Talismans:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '283268'
-    subtype: SECRET_LAIR
-  Secret Lair Dan Frazier Is Back Again The Enemy Talismans Foil Etched Edition:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '283269'
-    subtype: SECRET_LAIR
-  Secret Lair Dan Frazier is Back The Allied Signets Foil:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '242349'
-    subtype: SECRET_LAIR
-  Secret Lair Dan Frazier is Back The Allied Signets Non Foil:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '242350'
-    subtype: SECRET_LAIR
-  Secret Lair Dan Frazier is Back The Enemy Signets Foil:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '242351'
-    subtype: SECRET_LAIR
-  Secret Lair Dan Frazier is Back The Enemy Signets Non Foil:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '242352'
-    subtype: SECRET_LAIR
-  Secret Lair Dan Fraziers Mox Box Foil Etched Edition:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '516537'
-    release_date: '2023-09-23'
-    subtype: SECRET_LAIR
-  Secret Lair Death Is Temporary Metal Is Forever:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '501839'
-    release_date: '2023-09-06'
-    subtype: SECRET_LAIR
-  Secret Lair Death Is Temporary Metal Is Forever Foil Edition:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '501836'
-    release_date: '2023-09-06'
-    subtype: SECRET_LAIR
-  Secret Lair December Superdrop Foil Bundle:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '456551'
-    subtype: SECRET_LAIR
-  Secret Lair December Superdrop Non Foil Bundle:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '456550'
-    subtype: SECRET_LAIR
-  Secret Lair Draw Your Hand:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '480460'
-    subtype: SECRET_LAIR
-  Secret Lair Draw Your Hand Foil:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '480459'
-    subtype: SECRET_LAIR
+    subtype: COMMANDER
   Secret Lair Drop Absolute Annihilation:
     category: BOX_SET
     identifiers:
@@ -807,8 +719,107 @@ products:
   Secret Lair Drop Calling All Hydra Heads:
     category: BOX_SET
     identifiers:
+      cardKingdomId: '288269'
       tcgplayerProductId: '522559'
     release_date: '2023-09-23'
+    subtype: SECRET_LAIR
+  Secret Lair Drop City Styles:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '480469'
+    subtype: SECRET_LAIR
+  Secret Lair Drop City Styles Foil:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '480467'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Cool Ocean Breeze:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '493813'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Cool Ocean Breeze Foil:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '493814'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Crocodile Jacksons Monstrous Menagerie:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '258482'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Crocodile Jacksons Monstrous Menagerie Foil Etched:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '258484'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Dan Frazier Is Back Again The Allied Talismans:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '283266'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Dan Frazier Is Back Again The Allied Talismans Foil Etched:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '283267'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Dan Frazier Is Back Again The Enemy Talismans:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '283268'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Dan Frazier Is Back Again The Enemy Talismans Foil Etched:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '283269'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Dan Frazier is Back The Allied Signets:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '242350'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Dan Frazier is Back The Allied Signets Foil:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '242349'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Dan Frazier is Back The Enemy Signets:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '242352'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Dan Frazier is Back The Enemy Signets Foil:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '242351'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Dan Fraziers Mox Box Foil Etched:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '516537'
+    release_date: '2023-09-23'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Death Is Temporary Metal Is Forever:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '501839'
+    release_date: '2023-09-06'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Death Is Temporary Metal Is Forever Foil:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '501836'
+    release_date: '2023-09-06'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Draw Your Hand:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '480460'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Draw Your Hand Foil:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '480459'
     subtype: SECRET_LAIR
   Secret Lair Drop Eldraine Wonderland:
     category: BOX_SET
@@ -1205,6 +1216,91 @@ products:
     identifiers:
       tcgplayerProductId: '528407'
     release_date: '2023-09-23'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Transformers One Shall Stand One Shall Fall:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '456528'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Transformers One Shall Stand One Shall Fall Foil:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '456529'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Transformers Optimus Prime Vs Megatron:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '456530'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Transformers Optimus Prime Vs Megatron Foil:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '456531'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Transformers Roll Out or Rise Up:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '456532'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Transformers Roll Out or Rise Up Foil:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '456533'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Valentines Day 2021:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '232600'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Valentines Day 2021 Foil:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '232599'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Valentines Day 2021 Replacement Heliod Pack:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '244977'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Valentines Day 2021 Replacement Heliod Pack Foil:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '244978'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Welcome to Castle Dracula:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '258418'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Welcome to Castle Dracula Foil:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '258419'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Welcome to the Fungal:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '456546'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Welcome to the Fungal Foil:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '456547'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Wizards of the Street:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '456544'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Wizards of the Street Foil:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '456545'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Year of the Rat:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '207451'
     subtype: SECRET_LAIR
   "Secret Lair Drop \u201Cexplosion sounds\u201D":
     category: BOX_SET
@@ -2367,99 +2463,4 @@ products:
     category: BOX_SET
     identifiers:
       tcgplayerProductId: '450621'
-    subtype: SECRET_LAIR
-  Secret Lair Transformers Foil Bundle:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '456553'
-    subtype: SECRET_LAIR
-  Secret Lair Transformers Non Foil Bundle:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '456552'
-    subtype: SECRET_LAIR
-  Secret Lair Transformers One Shall Stand One Shall Fall:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '456528'
-    subtype: SECRET_LAIR
-  Secret Lair Transformers One Shall Stand One Shall Fall Foil Edition:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '456529'
-    subtype: SECRET_LAIR
-  Secret Lair Transformers Optimus Prime Vs Megatron:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '456530'
-    subtype: SECRET_LAIR
-  Secret Lair Transformers Optimus Prime Vs Megatron Foil Edition:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '456531'
-    subtype: SECRET_LAIR
-  Secret Lair Transformers Roll Out or Rise Up:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '456532'
-    subtype: SECRET_LAIR
-  Secret Lair Transformers Roll Out or Rise Up Foil Edition:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '456533'
-    subtype: SECRET_LAIR
-  Secret Lair Valentines Day 2021 Foil:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '232599'
-    subtype: SECRET_LAIR
-  Secret Lair Valentines Day 2021 Non Foil:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '232600'
-    subtype: SECRET_LAIR
-  Secret Lair Valentines Day 2021 Replacement Heliod Pack Foil:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '244978'
-    subtype: SECRET_LAIR
-  Secret Lair Valentines Day 2021 Replacement Heliod Pack Non Foil:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '244977'
-    subtype: SECRET_LAIR
-  Secret Lair Welcome to Castle Dracula:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '258418'
-    subtype: SECRET_LAIR
-  Secret Lair Welcome to Castle Dracula Foil:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '258419'
-    subtype: SECRET_LAIR
-  Secret Lair Welcome to the Fungal:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '456546'
-    subtype: SECRET_LAIR
-  Secret Lair Welcome to the Fungal Foil Edition:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '456547'
-    subtype: SECRET_LAIR
-  Secret Lair Wizards of the Street:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '456544'
-    subtype: SECRET_LAIR
-  Secret Lair Wizards of the Street Foil Edition:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '456545'
-    subtype: SECRET_LAIR
-  Secret Lair Year of the Rat:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '207451'
     subtype: SECRET_LAIR
