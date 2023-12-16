@@ -3,6 +3,7 @@ products:
   Ravnica Remastered Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      cardKingdomId: '288174'
       tcgplayerProductId: '517708'
     release_date: '2024-01-12'
     subtype: COLLECTOR
@@ -21,12 +22,14 @@ products:
   Ravnica Remastered Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardKingdomId: '288177'
       tcgplayerProductId: '517707'
     release_date: '2024-01-12'
     subtype: COLLECTOR
   Ravnica Remastered Draft Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      cardKingdomId: '288173'
       tcgplayerProductId: '517705'
     release_date: '2024-01-12'
     subtype: DEFAULT
@@ -39,6 +42,7 @@ products:
   Ravnica Remastered Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardKingdomId: '288176'
       tcgplayerProductId: '517704'
     release_date: '2024-01-12'
     subtype: DEFAULT
