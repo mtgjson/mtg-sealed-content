@@ -509,6 +509,29 @@ products:
   Secret Lair Bundle Secretversary Superdrop 2023 Lara Crofts Adventuring: []
   Secret Lair Bundle Secretversary Superdrop 2023 Lara Crofts Adventuring Foil: []
   Secret Lair Bundle Secretversary Superdrop 2023 Welcome to Jurassic World: []
+  Secret Lair Bundle Theros Stargazing Vol I-V:
+    sealed:
+    - count: 1
+      name: Secret Lair Drop Theros Stargazing Vol I Heliod
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Theros Stargazing Vol II Thassa
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Theros Stargazing Vol III Erebos
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Theros Stargazing Vol IV Purphoros
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Theros Stargazing Vol V Nylea
+      set: sld
+  Secret Lair Bundle This One Goes Out To My Everything: []
+  Secret Lair Bundle This One Is Dedicated To My Foils: []
+  Secret Lair Bundle This One Is For My Non Foils: []
+  Secret Lair Bundle Those Foils Are Really Coming Down: []
+  Secret Lair Bundle Those Non Foils Just Wont Let Up: []
+  Secret Lair Bundle Totally Refreshing Non Foil: []
   Secret Lair Bundle Transformers Foil:
     sealed:
     - count: 1
@@ -1130,6 +1153,8 @@ products:
       set: sld
   Secret Lair Drop Secret Lair x Creepshow: []
   Secret Lair Drop Secret Lair x Creepshow Foil: []
+  Secret Lair Drop Secret Lair x Doctor Who Regeneration: []
+  Secret Lair Drop Secret Lair x Doctor Who Regeneration Foil: []
   Secret Lair Drop Secret Lair x Doctor Who The Dalek Lands: []
   Secret Lair Drop Secret Lair x Doctor Who The Dalek Lands Foil: []
   Secret Lair Drop Secret Lair x Doctor Who The Weeping Angels: []
@@ -1223,8 +1248,94 @@ products:
       set: sld
   Secret Lair Drop Tales of the Time Stoppers: []
   Secret Lair Drop Tales of the Time Stoppers Foil: []
+  Secret Lair Drop The Stars Gaze Back:
+    card_count: 5
+    deck:
+    - name: The Stars Gaze Back
+      set: sld
+  Secret Lair Drop The Stars Gaze Back Foil:
+    card_count: 5
+    deck:
+    - name: The Stars Gaze Back foil
+      set: sld
+  Secret Lair Drop The Tokyo Lands:
+    card_count: 6
+    deck:
+    - name: The Tokyo Lands
+      set: sld
+  Secret Lair Drop The Tokyo Lands Etched Foil:
+    card_count: 6
+    deck:
+    - name: The Tokyo Lands etched
+      set: sld
+  Secret Lair Drop The Unfathomable Crushing Brutality of Basic Lands:
+    card_count: 6
+    deck:
+    - name: The Unfathomable Crushing Brutality of Basic Lands
+      set: sld
+  Secret Lair Drop The Unfathomable Crushing Brutality of Basic Lands Foil:
+    card_count: 6
+    deck:
+    - name: The Unfathomable Crushing Brutality of Basic Lands foil
+      set: sld
+  Secret Lair Drop The Walking Dead:
+    card_count: 12
+    deck:
+    - name: The Walking Dead foil
+      set: sld
+  Secret Lair Drop The Weirdest Pets in the Multiverse:
+    card_count: 6
+    deck:
+    - name: The Weirdest Pets in the Multiverse
+      set: sld
+  Secret Lair Drop The Weirdest Pets in the Multiverse Foil:
+    card_count: 6
+    deck:
+    - name: The Weirdest Pets in the Multiverse foil
+      set: sld
+  Secret Lair Drop Theros Stargazing Vol I Heliod:
+    card_count: 4
+    deck:
+    - name: Theros Stargazing Volume I foil
+      set: sld
+  Secret Lair Drop Theros Stargazing Vol II Thassa:
+    card_count: 4
+    deck:
+    - name: Theros Stargazing Volume II foil
+      set: sld
+  Secret Lair Drop Theros Stargazing Vol III Erebos:
+    card_count: 4
+    deck:
+    - name: Theros Stargazing Volume III foil
+      set: sld
+  Secret Lair Drop Theros Stargazing Vol IV Purphoros:
+    card_count: 4
+    deck:
+    - name: Theros Stargazing Volume IV foil
+      set: sld
+  Secret Lair Drop Theros Stargazing Vol V Nylea:
+    card_count: 4
+    deck:
+    - name: Theros Stargazing Volume V foil
+      set: sld
   Secret Lair Drop Through the Wormhole: []
   Secret Lair Drop Through the Wormhole Galaxy Foil: []
+  Secret Lair Drop Time Trouble Two:
+    card_count: 4
+    deck:
+    - name: Time Trouble Two
+      set: sld
+  Secret Lair Drop Time Trouble Two Foil:
+    card_count: 4
+    deck:
+    - name: Time Trouble Two foil
+      set: sld
+  Secret Lair Drop Totally Spaced Out Galaxy Foil: []
+  Secret Lair Drop Totally Spaced Out Galaxy Foil Edition:
+    card_count: 5
+    deck:
+    - name: Totally Spaced Out foil
+      set: sld
   Secret Lair Drop Transformers One Shall Stand One Shall Fall:
     card_count: 6
     deck:
@@ -1296,6 +1407,11 @@ products:
     card_count: 5
     deck:
     - name: Wizards of the Street foil
+      set: sld
+  Secret Lair Drop Year of the Rat:
+    card_count: 9
+    deck:
+    - name: Year of the Rat foil
       set: sld
   "Secret Lair Drop \u201Cexplosion sounds\u201D":
     card_count: 6
@@ -2588,117 +2704,4 @@ products:
     card_count: 5
     deck:
     - name: The Space Beyond the Stars foil
-      set: sld
-  Secret Lair Drop The Stars Gaze Back:
-    card_count: 5
-    deck:
-    - name: The Stars Gaze Back
-      set: sld
-  Secret Lair Drop The Stars Gaze Back Foil:
-    card_count: 5
-    deck:
-    - name: The Stars Gaze Back foil
-      set: sld
-  Secret Lair Drop The Tokyo Lands:
-    card_count: 6
-    deck:
-    - name: The Tokyo Lands
-      set: sld
-  Secret Lair Drop The Tokyo Lands Etched Foil:
-    card_count: 6
-    deck:
-    - name: The Tokyo Lands etched
-      set: sld
-  Secret Lair Drop The Unfathomable Crushing Brutality of Basic Lands Foil:
-    card_count: 6
-    deck:
-    - name: The Unfathomable Crushing Brutality of Basic Lands foil
-      set: sld
-  Secret Lair Drop The Unfathomable Crushing Brutality of Basic Lands:
-    card_count: 6
-    deck:
-    - name: The Unfathomable Crushing Brutality of Basic Lands
-      set: sld
-  Secret Lair Drop The Walking Dead:
-    card_count: 12
-    deck:
-    - name: The Walking Dead foil
-      set: sld
-  Secret Lair Drop The Weirdest Pets in the Multiverse:
-    card_count: 6
-    deck:
-    - name: The Weirdest Pets in the Multiverse
-      set: sld
-  Secret Lair Drop The Weirdest Pets in the Multiverse Foil:
-    card_count: 6
-    deck:
-    - name: The Weirdest Pets in the Multiverse foil
-      set: sld
-  Secret Lair Bundle Theros Stargazing Vol I-V:
-    sealed:
-    - count: 1
-      name: Secret Lair Drop Theros Stargazing Vol I Heliod
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Theros Stargazing Vol II Thassa
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Theros Stargazing Vol III Erebos
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Theros Stargazing Vol IV Purphoros
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Theros Stargazing Vol V Nylea
-      set: sld
-  Secret Lair Drop Theros Stargazing Vol I Heliod:
-    card_count: 4
-    deck:
-    - name: Theros Stargazing Volume I foil
-      set: sld
-  Secret Lair Drop Theros Stargazing Vol II Thassa:
-    card_count: 4
-    deck:
-    - name: Theros Stargazing Volume II foil
-      set: sld
-  Secret Lair Drop Theros Stargazing Vol III Erebos:
-    card_count: 4
-    deck:
-    - name: Theros Stargazing Volume III foil
-      set: sld
-  Secret Lair Drop Theros Stargazing Vol IV Purphoros:
-    card_count: 4
-    deck:
-    - name: Theros Stargazing Volume IV foil
-      set: sld
-  Secret Lair Drop Theros Stargazing Vol V Nylea:
-    card_count: 4
-    deck:
-    - name: Theros Stargazing Volume V foil
-      set: sld
-  Secret Lair This One Goes Out To My Everything Bundle: []
-  Secret Lair This One Is Dedicated To My Foils Bundle: []
-  Secret Lair This One Is For My Non Foils Bundle: []
-  Secret Lair Those Foils Are Really Coming Down Bundle: []
-  Secret Lair Those Non Foils Just Wont Let Up Bundle: []
-  Secret Lair Drop Time Trouble Two:
-    card_count: 4
-    deck:
-    - name: Time Trouble Two
-      set: sld
-  Secret Lair Drop Time Trouble Two Foil:
-    card_count: 4
-    deck:
-    - name: Time Trouble Two foil
-      set: sld
-  Secret Lair Totally Refreshing Non Foil: []
-  Secret Lair Drop Totally Spaced Out Galaxy Foil Edition:
-    card_count: 5
-    deck:
-    - name: Totally Spaced Out foil
-      set: sld
-  Secret Lair Drop Year of the Rat:
-    card_count: 9
-    deck:
-    - name: Year of the Rat foil
       set: sld
