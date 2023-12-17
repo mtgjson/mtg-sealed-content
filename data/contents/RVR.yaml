@@ -1,33 +1,33 @@
 code: rvr
 products:
-  Ravnica Remastered Collector Booster Box: 
+  Ravnica Remastered Collector Booster Box:
     sealed:
-    - set: rvr
+    - count: 12
       name: Ravnica Remastered Collector Booster Pack
-      count: 12
-  Ravnica Remastered Collector Booster Box Case: 
+      set: rvr
+  Ravnica Remastered Collector Booster Box Case:
     sealed:
-    - set: rvr
+    - count: 6
       name: Ravnica Remastered Collector Booster Box
-      count: 6
+      set: rvr
   Ravnica Remastered Collector Booster Box Master Case: []
-  Ravnica Remastered Collector Booster Pack: 
-    pack:
-    - set: rvr
-      code: collector
+  Ravnica Remastered Collector Booster Pack:
     card_count: 15
-  Ravnica Remastered Draft Booster Box: 
+    pack:
+    - code: collector
+      set: rvr
+  Ravnica Remastered Draft Booster Box:
     sealed:
-    - set: rvr
+    - count: 36
       name: Ravnica Remastered Draft Booster Pack
-      count: 36
-  Ravnica Remastered Draft Booster Box Case: 
+      set: rvr
+  Ravnica Remastered Draft Booster Box Case:
     sealed:
-    - set: rvr
+    - count: 6
       name: Ravnica Remastered Draft Booster Box
-      count: 6
-  Ravnica Remastered Draft Booster Pack: 
-    pack:
-    - set: rvr
-      code: default
+      set: rvr
+  Ravnica Remastered Draft Booster Pack:
     card_count: 15
+    pack:
+    - code: default
+      set: rvr
