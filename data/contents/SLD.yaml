@@ -589,7 +589,6 @@ products:
     - count: 1
       name: Secret Lair Bundle The Worlds Non foil est Bundle
       set: sld
-  Secret Lair Bundle The Worlds Foil est Bundle: []
   Secret Lair Bundle The Worlds Non foil est Bundle: []
   Secret Lair Bundle Theros Stargazing Vol I-V:
     sealed:
@@ -1492,7 +1491,7 @@ products:
     deck:
     - name: The Weirdest Pets in the Multiverse foil
       set: sld
-  Secret Lair Drop The Worlds Foil est Bundle:
+  Secret Lair Bundle The Worlds Foil est Bundle:
     sealed:
     - count: 1
       name: Secret Lair Drop Artist Series Johannes Voss Foil
@@ -2641,22 +2640,22 @@ products:
     deck:
     - name: Ssssssnakessssss foil
       set: sld
-  Secret Lair Summer Superdrop Bundle:
+  Secret Lair Bundle Summer Superdrop:
     sealed:
     - count: 1
-      name: Secret Lair Summer Superdrop Full Sleeves The Tattoo Pack
+      name: Secret Lair Drop Full Sleeves The Tattoo Pack
       set: sld
     - count: 1
-      name: Secret Lair Summer Superdrop Can You Feel with a Heart of Steel
+      name: Secret Lair Drop Can You Feel with a Heart of Steel
       set: sld
     - count: 1
-      name: Secret Lair Summer Superdrop The Path Not Traveled
+      name: Secret Lair Drop Mountain Go
       set: sld
     - count: 1
-      name: Secret Lair Summer Superdrop The Path Not Traveled
+      name: Secret Lair Drop The Path Not Traveled
       set: sld
     - count: 1
-      name: Secret Lair Summer Superdrop Ornithological Studies
+      name: Secret Lair Drop Ornithological Studies
       set: sld
     variable:
     - card:
@@ -2681,27 +2680,27 @@ products:
         set: slu
     variable_mode:
       count: 1
-  Secret Lair Summer Superdrop Can You Feel with a Heart of Steel:
+  Secret Lair Drop Can You Feel with a Heart of Steel:
     card_count: 4
     deck:
     - name: Can You Feel with a Heart of Steel foil
       set: sld
-  Secret Lair Summer Superdrop Full Sleeves The Tattoo Pack:
+  Secret Lair Drop Full Sleeves The Tattoo Pack:
     card_count: 6
     deck:
     - name: Full Sleeves The Tattoo Pack
       set: sld
-  Secret Lair Summer Superdrop Mountain Go:
+  Secret Lair Drop Mountain Go:
     card_count: 5
     deck:
     - name: Mountain Go foil
       set: sld
-  Secret Lair Summer Superdrop Ornithological Studies:
+  Secret Lair Drop Ornithological Studies:
     card_count: 6
     deck:
     - name: Ornithological Studies
       set: sld
-  Secret Lair Summer Superdrop The Path Not Traveled:
+  Secret Lair Drop The Path Not Traveled:
     card_count: 5
     deck:
     - name: The Path Not Traveled foil
