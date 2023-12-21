@@ -509,6 +509,50 @@ products:
   Secret Lair Bundle Secretversary Superdrop 2023 Lara Crofts Adventuring: []
   Secret Lair Bundle Secretversary Superdrop 2023 Lara Crofts Adventuring Foil: []
   Secret Lair Bundle Secretversary Superdrop 2023 Welcome to Jurassic World: []
+  Secret Lair Bundle Series Full: []
+  Secret Lair Bundle Seven In Heaven: []
+  Secret Lair Bundle Shredding A Wave of Everything: []
+  Secret Lair Bundle Smitten Superdrop All Our Love: []
+  Secret Lair Bundle Summer Superdrop:
+    sealed:
+    - count: 1
+      name: Secret Lair Drop Full Sleeves The Tattoo Pack
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Can You Feel with a Heart of Steel
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Mountain Go
+      set: sld
+    - count: 1
+      name: Secret Lair Drop The Path Not Traveled
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Ornithological Studies
+      set: sld
+    variable:
+    - card:
+      - name: Marsh Flats
+        number: 1
+        set: slu
+    - card:
+      - name: Scalding Tarn
+        number: 2
+        set: slu
+    - card:
+      - name: Verdant Catacombs
+        number: 3
+        set: slu
+    - card:
+      - name: Arid Mesa
+        number: 4
+        set: slu
+    - card:
+      - name: Misty Rainforest
+        number: 5
+        set: slu
+    variable_mode:
+      count: 1
   Secret Lair Bundle Supershock:
     sealed:
     - count: 1
@@ -588,6 +632,20 @@ products:
       set: sld
     - count: 1
       name: Secret Lair Bundle The Worlds Non foil est Bundle
+      set: sld
+  Secret Lair Bundle The Worlds Foil est Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair Drop Artist Series Johannes Voss Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Artist Series Thomas Baxa Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Kamigawa Ink Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Math Is For Blockers Foil
       set: sld
   Secret Lair Bundle The Worlds Non foil est Bundle: []
   Secret Lair Bundle Theros Stargazing Vol I-V:
@@ -1010,6 +1068,11 @@ products:
     - name: Buggin Out foil
       set: sld
   Secret Lair Drop Calling All Hydra Heads: []
+  Secret Lair Drop Can You Feel with a Heart of Steel:
+    card_count: 4
+    deck:
+    - name: Can You Feel with a Heart of Steel foil
+      set: sld
   Secret Lair Drop City Styles:
     card_count: 6
     deck:
@@ -1198,6 +1261,11 @@ products:
     deck:
     - name: Featuring the Mountain Goats foil
       set: sld
+  Secret Lair Drop Full Sleeves The Tattoo Pack:
+    card_count: 6
+    deck:
+    - name: Full Sleeves The Tattoo Pack
+      set: sld
   Secret Lair Drop Gift Wrapped: []
   Secret Lair Drop Gift Wrapped Foil: []
   Secret Lair Drop Introducing Kaito Shizuki:
@@ -1233,12 +1301,22 @@ products:
   Secret Lair Drop Lil Walkers Foil Edition: []
   Secret Lair Drop Meditations on Nature: []
   Secret Lair Drop Meditations on Nature Foil: []
+  Secret Lair Drop Mountain Go:
+    card_count: 5
+    deck:
+    - name: Mountain Go foil
+      set: sld
   Secret Lair Drop Mycosynthwave: []
   Secret Lair Drop Mycosynthwave Foil: []
   Secret Lair Drop OUR SHOW IS ON FRIDAY CAN YOU MAKE IT:
     card_count: 6
     deck:
     - name: Our Show Is On Friday Can You Make It
+      set: sld
+  Secret Lair Drop Ornithological Studies:
+    card_count: 6
+    deck:
+    - name: Ornithological Studies
       set: sld
   Secret Lair Drop Paradise Frost: []
   Secret Lair Drop Paradise Frost Foil: []
@@ -1332,6 +1410,11 @@ products:
     deck:
     - name: Warhammer Age of Sigmar foil
       set: sld
+  Secret Lair Drop Seeing Visions:
+    card_count: 5
+    deck:
+    - name: Seeing Visions foil
+      set: sld
   Secret Lair Drop Shades Not Included:
     card_count: 6
     deck:
@@ -1342,10 +1425,92 @@ products:
     deck:
     - name: Shades Not Included foil
       set: sld
+  Secret Lair Drop Showcase All Will Be One Step and Compleat Foil:
+    card_count: 6
+    deck:
+    - name: Showcase All Will Be One foil
+      set: sld
+  Secret Lair Drop Showcase Dominaria United Textured Foil:
+    card_count: 6
+    deck:
+    - name: Showcase Dominaria United foil
+      set: sld
+  Secret Lair Drop Showcase Kaldheim Part 1:
+    card_count: 4
+    deck:
+    - name: Showcase Kaldheim  Part 1
+      set: sld
+  Secret Lair Drop Showcase Kaldheim Part 1 Foil:
+    card_count: 4
+    deck:
+    - name: Showcase Kaldheim  Part 1 foil
+      set: sld
+  Secret Lair Drop Showcase Kaldheim Part 2:
+    card_count: 4
+    deck:
+    - name: Showcase Kaldheim  Part 2
+      set: sld
+  Secret Lair Drop Showcase Kaldheim Part 2 Foil:
+    card_count: 4
+    deck:
+    - name: Showcase Kaldheim  Part 2 foil
+      set: sld
+  Secret Lair Drop Showcase March of the Machine Vol 1:
+    card_count: 6
+    deck:
+    - name: Showcase March of the Machine Vol 1 foil
+      set: sld
+  Secret Lair Drop Showcase March of the Machine Vol 2:
+    card_count: 6
+    deck:
+    - name: Showcase March of the Machine Vol 2 foil
+      set: sld
+  Secret Lair Drop Showcase March of the Machine Vol 3:
+    card_count: 6
+    deck:
+    - name: Showcase March of the Machine Vol 3 foil
+      set: sld
+  Secret Lair Drop Showcase Midnight Hunt:
+    card_count: 11
+    deck:
+    - name: Showcase Midnight Hunt
+      set: sld
+  Secret Lair Drop Showcase Midnight Hunt Foil: []
+  Secret Lair Drop Showcase Monster Anatomy 101:
+    card_count: 6
+    deck:
+    - name: Monster Anatomy 101
+      set: sld
+  Secret Lair Drop Showcase Monster Anatomy 101 Etched:
+    card_count: 6
+    deck:
+    - name: Monster Anatomy 101 etched
+      set: sld
   Secret Lair Drop Showcase Neon Dynasty Neon Ink Foil:
     card_count: 5
     deck:
     - name: Showcase Neon Dynasty foil
+      set: sld
+  Secret Lair Drop Showcase Read The Fine Print:
+    card_count: 6
+    deck:
+    - name: Read the Fine Print
+      set: sld
+  Secret Lair Drop Showcase Read The Fine Print Etched:
+    card_count: 6
+    deck:
+    - name: Read the Fine Print foil
+      set: sld
+  Secret Lair Drop Showcase Read The Fine Print Foil:
+    card_count: 6
+    deck:
+    - name: Read the Fine Print foil
+      set: sld
+  Secret Lair Drop Showcase Streets of New Capenna Gilded Foil: []
+  Secret Lair Drop Showcase Streets of New Capenna Gilded Foil Edition:
+    card_count: 4
+    deck:
+    - name: Showcase Streets of New Capenna Gilded Foil Edition foil
       set: sld
   Secret Lair Drop Showcase Strixhaven:
     card_count: 7
@@ -1359,6 +1524,114 @@ products:
       set: sld
   Secret Lair Drop Showcase The Lost Caverns of Ixalan: []
   Secret Lair Drop Showcase The Lost Caverns of Ixalan Foil: []
+  Secret Lair Drop Showcase Thrilling Tales of the Undead:
+    card_count: 4
+    deck:
+    - name: Thrilling Tales of the Undead
+      set: sld
+  Secret Lair Drop Showcase Thrilling Tales of the Undead Foil:
+    card_count: 4
+    deck:
+    - name: Thrilling Tales of the Undead foil
+      set: sld
+  Secret Lair Drop Showcase Zendikar Revisited:
+    card_count: 6
+    deck:
+    - name: Showcase Zendikar Revisited
+      set: sld
+  Secret Lair Drop Showcase Zendikar Revisited Foil:
+    card_count: 6
+    deck:
+    - name: Showcase Zendikar Revisited foil
+      set: sld
+  Secret Lair Drop Special Guest Fiona Staples:
+    card_count: 6
+    deck:
+    - name: Special Guest Fiona Staples
+      set: sld
+  Secret Lair Drop Special Guest Fiona Staples Foil:
+    card_count: 6
+    deck:
+    - name: Special Guest Fiona Staples foil
+      set: sld
+  Secret Lair Drop Special Guest Jen Bartel:
+    card_count: 5
+    deck:
+    - name: Special Guest Jen Bartel
+      set: sld
+  Secret Lair Drop Special Guest Jen Bartel Foil:
+    card_count: 5
+    deck:
+    - name: Special Guest Jen Bartel foil
+      set: sld
+  Secret Lair Drop Special Guest Junji Ito English:
+    card_count: 5
+    deck:
+    - name: Special Guest Junji Ito
+      set: sld
+  Secret Lair Drop Special Guest Junji Ito English Etched:
+    card_count: 5
+    deck:
+    - name: Special Guest Junji Ito etched
+      set: sld
+  Secret Lair Drop Special Guest Junji Ito Japanese:
+    copy: Secret Lair Drop Special Guest Junji Ito English
+  Secret Lair Drop Special Guest Junji Ito Japanese Etched:
+    copy: Secret Lair Drop Special Guest Junji Ito English Etched
+  Secret Lair Drop Special Guest Kelogsloops:
+    card_count: 5
+    deck:
+    - name: Special Guest Kelogsloops
+      set: sld
+  Secret Lair Drop Special Guest Kelogsloops Foil:
+    card_count: 5
+    deck:
+    - name: Special Guest Kelogsloops foil
+      set: sld
+  Secret Lair Drop Special Guest Kozyndan Another Story:
+    card_count: 6
+    deck:
+    - name: Special Guest Kozyndan  Another Story
+      set: sld
+  Secret Lair Drop Special Guest Kozyndan Another Story Foil:
+    card_count: 6
+    deck:
+    - name: Special Guest Kozyndan  Another Story foil
+      set: sld
+  Secret Lair Drop Special Guest Kozyndan The Lands:
+    card_count: 6
+    deck:
+    - name: Special Guest Kozyndan  The Lands
+      set: sld
+  Secret Lair Drop Special Guest Kozyndan The Lands Foil:
+    card_count: 6
+    deck:
+    - name: Special Guest Kozyndan  The Lands foil
+      set: sld
+  Secret Lair Drop Special Guest Matt Jukes:
+    card_count: 6
+    deck:
+    - name: Special Guest Matt Jukes
+      set: sld
+  Secret Lair Drop Special Guest Matt Jukes Foil:
+    card_count: 6
+    deck:
+    - name: Special Guest Matt Jukes foil
+      set: sld
+  Secret Lair Drop Special Guest Yoji Shinkawa English:
+    card_count: 5
+    deck:
+    - name: Special Guest Yoji Shinkawa
+      set: sld
+  Secret Lair Drop Special Guest Yoji Shinkawa English Foil:
+    card_count: 5
+    deck:
+    - name: Special Guest Yoji Shinkawa foil
+      set: sld
+  Secret Lair Drop Special Guest Yoji Shinkawa Japanese:
+    copy: Secret Lair Drop Special Guest Yoji Shinkawa English
+  Secret Lair Drop Special Guest Yoji Shinkawa Japanese Foil:
+    copy: Secret Lair Drop Special Guest Yoji Shinkawa English Foil
   Secret Lair Drop Special Guest Yuko Shimizu:
     card_count: 5
     deck:
@@ -1368,6 +1641,16 @@ products:
     card_count: 5
     deck:
     - name: Special Guest Yuko Shimizu foil
+      set: sld
+  Secret Lair Drop Ssssssnakessssss:
+    card_count: 6
+    deck:
+    - name: Ssssssnakessssss
+      set: sld
+  Secret Lair Drop Ssssssnakessssss Foil:
+    card_count: 6
+    deck:
+    - name: Ssssssnakessssss foil
       set: sld
   Secret Lair Drop Tales of the Time Stoppers: []
   Secret Lair Drop Tales of the Time Stoppers Foil: []
@@ -1436,6 +1719,11 @@ products:
     deck:
     - name: The Meaning of Life Maybe foil
       set: sld
+  Secret Lair Drop The Path Not Traveled:
+    card_count: 5
+    deck:
+    - name: The Path Not Traveled foil
+      set: sld
   Secret Lair Drop The Space Beyond the Stars:
     card_count: 5
     deck:
@@ -1490,20 +1778,6 @@ products:
     card_count: 6
     deck:
     - name: The Weirdest Pets in the Multiverse foil
-      set: sld
-  Secret Lair Bundle The Worlds Foil est Bundle:
-    sealed:
-    - count: 1
-      name: Secret Lair Drop Artist Series Johannes Voss Foil
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Artist Series Thomas Baxa Foil
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Kamigawa Ink Foil
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Math Is For Blockers Foil
       set: sld
   Secret Lair Drop Theros Stargazing Vol I Heliod:
     card_count: 4
@@ -2245,6 +2519,12 @@ products:
     deck:
     - name: Rule the Room foil
       set: sld
+  Secret Lair SDrop howcase Midnight Hunt Foil:
+    card_count: 11
+    deck:
+    - name: Showcase Midnight Hunt foil
+      set: sld
+  Secret Lair SDrop pecial Guest Kozyndan The Lands Foil: []
   Secret Lair Saturday Morning DandD Foil:
     card_count: 7
     deck:
@@ -2427,281 +2707,4 @@ products:
     card_count: 6
     deck:
     - name: Hope You Like Squirrels foil
-      set: sld
-  Secret Lair Drop Seeing Visions:
-    card_count: 5
-    deck:
-    - name: Seeing Visions foil
-      set: sld
-  Secret Lair Series Full Bundle: []
-  Secret Lair Seven In Heaven Bundle: []
-  Secret Lair Drop Showcase All Will Be One Step and Compleat Foil:
-    card_count: 6
-    deck:
-    - name: Showcase All Will Be One foil
-      set: sld
-  Secret Lair Drop Showcase Dominaria United Textured Foil:
-    card_count: 6
-    deck:
-    - name: Showcase Dominaria United foil
-      set: sld
-  Secret Lair Drop Showcase Kaldheim Part 1 Foil:
-    card_count: 4
-    deck:
-    - name: Showcase Kaldheim  Part 1 foil
-      set: sld
-  Secret Lair Drop Showcase Kaldheim Part 1:
-    card_count: 4
-    deck:
-    - name: Showcase Kaldheim  Part 1
-      set: sld
-  Secret Lair Drop Showcase Kaldheim Part 2 Foil:
-    card_count: 4
-    deck:
-    - name: Showcase Kaldheim  Part 2 foil
-      set: sld
-  Secret Lair Drop Showcase Kaldheim Part 2:
-    card_count: 4
-    deck:
-    - name: Showcase Kaldheim  Part 2
-      set: sld
-  Secret Lair Drop Showcase March of the Machine Vol 1:
-    card_count: 6
-    deck:
-    - name: Showcase March of the Machine Vol 1 foil
-      set: sld
-  Secret Lair Drop Showcase March of the Machine Vol 2:
-    card_count: 6
-    deck:
-    - name: Showcase March of the Machine Vol 2 foil
-      set: sld
-  Secret Lair Drop Showcase March of the Machine Vol 3:
-    card_count: 6
-    deck:
-    - name: Showcase March of the Machine Vol 3 foil
-      set: sld
-  Secret Lair Drop Showcase Midnight Hunt:
-    card_count: 11
-    deck:
-    - name: Showcase Midnight Hunt
-      set: sld
-  Secret Lair SDrop howcase Midnight Hunt Foil:
-    card_count: 11
-    deck:
-    - name: Showcase Midnight Hunt foil
-      set: sld
-  Secret Lair Drop Showcase Monster Anatomy 101:
-    card_count: 6
-    deck:
-    - name: Monster Anatomy 101
-      set: sld
-  Secret Lair Drop Showcase Monster Anatomy 101 Etched:
-    card_count: 6
-    deck:
-    - name: Monster Anatomy 101 etched
-      set: sld
-  Secret Lair Drop Showcase Read The Fine Print:
-    card_count: 6
-    deck:
-    - name: Read the Fine Print
-      set: sld
-  Secret Lair Drop Showcase Read The Fine Print Foil:
-    card_count: 6
-    deck:
-    - name: Read the Fine Print foil
-      set: sld
-  Secret Lair Drop Showcase Read The Fine Print Etched:
-    card_count: 6
-    deck:
-    - name: Read the Fine Print foil
-      set: sld
-  Secret Lair Drop Showcase Streets of New Capenna Gilded Foil Edition:
-    card_count: 4
-    deck:
-    - name: Showcase Streets of New Capenna Gilded Foil Edition foil
-      set: sld
-  Secret Lair Drop Showcase Thrilling Tales of the Undead:
-    card_count: 4
-    deck:
-    - name: Thrilling Tales of the Undead
-      set: sld
-  Secret Lair Drop Showcase Thrilling Tales of the Undead Foil:
-    card_count: 4
-    deck:
-    - name: Thrilling Tales of the Undead foil
-      set: sld
-  Secret Lair Drop Showcase Zendikar Revisited Foil:
-    card_count: 6
-    deck:
-    - name: Showcase Zendikar Revisited foil
-      set: sld
-  Secret Lair Drop Showcase Zendikar Revisited:
-    card_count: 6
-    deck:
-    - name: Showcase Zendikar Revisited
-      set: sld
-  Secret Lair Shredding A Wave of Everything Bundle: []
-  Secret Lair Smitten Superdrop All Our Love Bundle: []
-  Secret Lair Drop Special Guest Fiona Staples Foil:
-    card_count: 6
-    deck:
-    - name: Special Guest Fiona Staples foil
-      set: sld
-  Secret Lair Drop Special Guest Fiona Staples:
-    card_count: 6
-    deck:
-    - name: Special Guest Fiona Staples
-      set: sld
-  Secret Lair Drop Special Guest Jen Bartel Foil:
-    card_count: 5
-    deck:
-    - name: Special Guest Jen Bartel foil
-      set: sld
-  Secret Lair Drop Special Guest Jen Bartel:
-    card_count: 5
-    deck:
-    - name: Special Guest Jen Bartel
-      set: sld
-  Secret Lair Drop Special Guest Junji Ito English:
-    card_count: 5
-    deck:
-    - name: Special Guest Junji Ito
-      set: sld
-  Secret Lair Drop Special Guest Junji Ito English Etched:
-    card_count: 5
-    deck:
-    - name: Special Guest Junji Ito etched
-      set: sld
-  Secret Lair Drop Special Guest Junji Ito Japanese:
-    copy: Secret Lair Drop Special Guest Junji Ito English
-  Secret Lair Drop Special Guest Junji Ito Japanese Etched:
-    copy: Secret Lair Drop Special Guest Junji Ito English Etched
-  Secret Lair Drop Special Guest Kelogsloops:
-    card_count: 5
-    deck:
-    - name: Special Guest Kelogsloops
-      set: sld
-  Secret Lair Drop Special Guest Kelogsloops Foil:
-    card_count: 5
-    deck:
-    - name: Special Guest Kelogsloops foil
-      set: sld
-  Secret Lair Drop Special Guest Kozyndan Another Story:
-    card_count: 6
-    deck:
-    - name: Special Guest Kozyndan  Another Story
-      set: sld
-  Secret Lair Drop Special Guest Kozyndan Another Story Foil:
-    card_count: 6
-    deck:
-    - name: Special Guest Kozyndan  Another Story foil
-      set: sld
-  Secret Lair Drop Special Guest Kozyndan The Lands:
-    card_count: 6
-    deck:
-    - name: Special Guest Kozyndan  The Lands
-      set: sld
-  Secret Lair Drop Special Guest Kozyndan The Lands Foil:
-    card_count: 6
-    deck:
-    - name: Special Guest Kozyndan  The Lands foil
-      set: sld
-  Secret Lair Drop Special Guest Matt Jukes:
-    card_count: 6
-    deck:
-    - name: Special Guest Matt Jukes
-      set: sld
-  Secret Lair Drop Special Guest Matt Jukes Foil:
-    card_count: 6
-    deck:
-    - name: Special Guest Matt Jukes foil
-      set: sld
-  Secret Lair Drop Special Guest Yoji Shinkawa English:
-    card_count: 5
-    deck:
-    - name: Special Guest Yoji Shinkawa
-      set: sld
-  Secret Lair Drop Special Guest Yoji Shinkawa English Foil:
-    card_count: 5
-    deck:
-    - name: Special Guest Yoji Shinkawa foil
-      set: sld
-  Secret Lair Drop Special Guest Yoji Shinkawa Japanese:
-    copy: Secret Lair Drop Special Guest Yoji Shinkawa English
-  Secret Lair Drop Special Guest Yoji Shinkawa Japanese Foil:
-    copy: Secret Lair Drop Special Guest Yoji Shinkawa English Foil
-  Secret Lair Drop Ssssssnakessssss:
-    card_count: 6
-    deck:
-    - name: Ssssssnakessssss
-      set: sld
-  Secret Lair Drop Ssssssnakessssss Foil:
-    card_count: 6
-    deck:
-    - name: Ssssssnakessssss foil
-      set: sld
-  Secret Lair Bundle Summer Superdrop:
-    sealed:
-    - count: 1
-      name: Secret Lair Drop Full Sleeves The Tattoo Pack
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Can You Feel with a Heart of Steel
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Mountain Go
-      set: sld
-    - count: 1
-      name: Secret Lair Drop The Path Not Traveled
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Ornithological Studies
-      set: sld
-    variable:
-    - card:
-      - name: Marsh Flats
-        number: 1
-        set: slu
-    - card:
-      - name: Scalding Tarn
-        number: 2
-        set: slu
-    - card:
-      - name: Verdant Catacombs
-        number: 3
-        set: slu
-    - card:
-      - name: Arid Mesa
-        number: 4
-        set: slu
-    - card:
-      - name: Misty Rainforest
-        number: 5
-        set: slu
-    variable_mode:
-      count: 1
-  Secret Lair Drop Can You Feel with a Heart of Steel:
-    card_count: 4
-    deck:
-    - name: Can You Feel with a Heart of Steel foil
-      set: sld
-  Secret Lair Drop Full Sleeves The Tattoo Pack:
-    card_count: 6
-    deck:
-    - name: Full Sleeves The Tattoo Pack
-      set: sld
-  Secret Lair Drop Mountain Go:
-    card_count: 5
-    deck:
-    - name: Mountain Go foil
-      set: sld
-  Secret Lair Drop Ornithological Studies:
-    card_count: 6
-    deck:
-    - name: Ornithological Studies
-      set: sld
-  Secret Lair Drop The Path Not Traveled:
-    card_count: 5
-    deck:
-    - name: The Path Not Traveled foil
       set: sld
