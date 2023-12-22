@@ -479,6 +479,75 @@ products:
   Secret Lair Bundle Fill My Cauldron with Non Foils: []
   Secret Lair Bundle Places to Trick or Treat Foil Lands: []
   Secret Lair Bundle Places to Trick or Treat Non Foil Lands: []
+  Secret Lair Bundle Post Malone Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair x Post Malone Backstage Pass
+      set: sld
+    - count: 1
+      name: Secret Lair x Post Malone Backstage Pass Foil Edition
+      set: sld
+    - count: 1
+      name: Secret Lair x Post Malone The Lands
+      set: sld
+    - count: 1
+      name: Secret Lair x Post Malone The Lands Foil Edition
+      set: sld
+  Secret Lair Bundle Second Secretversary Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair Drop Secret Lair x Arcane
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Secret Lair x Arcane Lands
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Welcome to Castle Dracula
+      set: sld
+    - count: 1
+      name: Secret Lair Drop The Dracula Lands
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Fblthp Completely Utterly Totally Lost
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Far Out Man
+      set: sld
+    - count: 1
+      name: Secret Lair Drop PixelSnowLandsjpg
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Crocodile Jacksons Monstrous Menagerie
+      set: sld
+  Secret Lair Bundle Second Secretversary Bundle Foil:
+    sealed:
+    - count: 1
+      name: Secret Lair Drop Secret Lair x Arcane Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Secret Lair x Arcane Lands Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Welcome to Castle Dracula Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Drop The Dracula Lands Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Fblthp Completely Utterly Totally Lost Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Far Out Man Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Drop PixelSnowLandsjpg Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Drop PixelSnowLandsjpg Foil Etched
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Crocodile Jacksons Monstrous Menagerie Etched
+      set: sld
   Secret Lair Bundle Secret Lair x Warhammer:
     sealed:
     - count: 1
@@ -509,6 +578,16 @@ products:
   Secret Lair Bundle Secretversary Superdrop 2023 Lara Crofts Adventuring: []
   Secret Lair Bundle Secretversary Superdrop 2023 Lara Crofts Adventuring Foil: []
   Secret Lair Bundle Secretversary Superdrop 2023 Welcome to Jurassic World: []
+  Secret Lair Bundle Secretversary Superdrop Foils Forever Bundle: []
+  Secret Lair Bundle Secretversary Superdrop No Foils No Nonsense Bundle: []
+  Secret Lair Bundle Secretversary Superdrop The Bundle Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair Bundle Foils Forever Bundle
+      set: sld
+    - count: 1
+      name: Secret Lair Bundle No Foils No Nonsense Bundle
+      set: sld
   Secret Lair Bundle Series Full: []
   Secret Lair Bundle Seven In Heaven: []
   Secret Lair Bundle Shredding A Wave of Everything: []
@@ -714,6 +793,16 @@ products:
     deck:
     - name: Death is Temporary, Metal is Forever foil
       set: sld
+  Secret Lair Drop A Box of Rocks:
+    card_count: 6
+    deck:
+    - name: A Box of Rocks
+      set: sld
+  Secret Lair Drop A Box of Rocks Foil:
+    card_count: 6
+    deck:
+    - name: A Box of Rocks foil
+      set: sld
   Secret Lair Drop Absolute Annihilation:
     card_count: 4
     deck:
@@ -860,6 +949,16 @@ products:
     card_count: 5
     deck:
     - name: Artist Series Sam Burley foil
+      set: sld
+  Secret Lair Drop Artist Series Seb McKinnon:
+    card_count: 5
+    deck:
+    - name: Artist Series Seb McKinnon
+      set: sld
+  Secret Lair Drop Artist Series Seb McKinnon Foil:
+    card_count: 5
+    deck:
+    - name: Artist Series Seb McKinnon foil
       set: sld
   Secret Lair Drop Artist Series Sidharth Chaturvedi:
     card_count: 5
@@ -1267,6 +1366,17 @@ products:
       set: sld
   Secret Lair Drop Gift Wrapped: []
   Secret Lair Drop Gift Wrapped Foil: []
+  Secret Lair Drop Happy Little Gathering:
+    card_count: 11
+    deck:
+    - name: Happy Little Gathering
+      set: sld
+  Secret Lair Drop Happy Little Gathering Foil: []
+  Secret Lair Drop Happy Little Gathering Foil Edition:
+    card_count: 11
+    deck:
+    - name: Happy Little Gathering foil
+      set: sld
   Secret Lair Drop Introducing Kaito Shizuki:
     card_count: 6
     deck:
@@ -1319,6 +1429,11 @@ products:
       set: sld
   Secret Lair Drop Paradise Frost: []
   Secret Lair Drop Paradise Frost Foil: []
+  Secret Lair Drop Party Hard Shred Harder:
+    card_count: 6
+    deck:
+    - name: Party Hard Shred Harder
+      set: sld
   Secret Lair Drop Pictures of the Floating World:
     card_count: 6
     deck:
@@ -1331,6 +1446,108 @@ products:
       set: sld
   Secret Lair Drop PixelLands_v02jpg: []
   Secret Lair Drop PixelLands_v02jpg Foil: []
+  Secret Lair Drop PixelSnowLandsjpg:
+    card_count: 6
+    deck:
+    - name: PixelSnowLandsjpg
+      set: sld
+  Secret Lair Drop PixelSnowLandsjpg Etched:
+    card_count: 6
+    deck:
+    - name: PixelSnowLandsjpg etched
+      set: sld
+  Secret Lair Drop PixelSnowLandsjpg Foil:
+    card_count: 6
+    deck:
+    - name: PixelSnowLandsjpg foil
+      set: sld
+  Secret Lair Drop Ponies The Galloping 2 Extra Life 2023: []
+  Secret Lair Drop Ponies The Galloping 2 Extra Life 2023 Foil: []
+  Secret Lair Drop Pride Across the Multiverse:
+    card_count: 9
+    deck:
+    - name: Pride Across the Multiverse
+      set: sld
+  Secret Lair Drop Pride Across the Multiverse Foil:
+    card_count: 9
+    deck:
+    - name: Pride Across the Multiverse foil
+      set: sld
+  Secret Lair Drop Prime Slime:
+    card_count: 6
+    deck:
+    - name: Prime Slime
+      set: sld
+  Secret Lair Drop Purrfection:
+    card_count: 5
+    deck:
+    - name: Purrfection
+      set: sld
+  Secret Lair Drop Purrfection Foil:
+    card_count: 5
+    deck:
+    - name: Purrfection foil
+      set: sld
+  Secret Lair Drop Restless in Peace:
+    card_count: 4
+    deck:
+    - name: Restless in Peace
+      set: sld
+  Secret Lair Drop Rule the Room:
+    card_count: 5
+    deck:
+    - name: Rule the Room
+      set: sld
+  Secret Lair Drop Rule the Room Foil:
+    card_count: 5
+    deck:
+    - name: Rule the Room foil
+      set: sld
+  Secret Lair Drop Saturday Morning DandD:
+    card_count: 7
+    deck:
+    - name: Saturday Morning DD
+      set: sld
+  Secret Lair Drop Saturday Morning DandD Foil:
+    card_count: 7
+    deck:
+    - name: Saturday Morning DD foil
+      set: sld
+  Secret Lair Drop Secret Lair Extra Life 2021:
+    card_count: 8
+    deck:
+    - name: Extra Life 2021
+      set: sld
+  Secret Lair Drop Secret Lair Extra Life 2021 Foil:
+    card_count: 8
+    deck:
+    - name: Extra Life 2021 foil
+      set: sld
+  Secret Lair Drop Secret Lair X MSCHF:
+    card_count: 6
+    deck:
+    - name: MSCHF etched
+      set: sld
+  Secret Lair Drop Secret Lair x Arcane:
+    card_count: 8
+    deck:
+    - name: Arcane
+      set: sld
+  Secret Lair Drop Secret Lair x Arcane Foil:
+    card_count: 8
+    deck:
+    - name: Arcane foil
+      set: sld
+  Secret Lair Drop Secret Lair x Arcane Lands:
+    card_count: 6
+    deck:
+    - name: Arcane Lands
+      set: sld
+  Secret Lair Drop Secret Lair x Arcane Lands Foil:
+    card_count: 6
+    deck:
+    - name: Arcane Lands foil
+      set: sld
   Secret Lair Drop Secret Lair x Blood Bowl:
     card_count: 7
     deck:
@@ -1349,6 +1566,36 @@ products:
   Secret Lair Drop Secret Lair x Doctor Who The Dalek Lands Foil: []
   Secret Lair Drop Secret Lair x Doctor Who The Weeping Angels: []
   Secret Lair Drop Secret Lair x Doctor Who The Weeping Angels Foil: []
+  Secret Lair Drop Secret Lair x Dungeons and Dragons Honor Among Thieves:
+    card_count: 7
+    deck:
+    - name: DD Honor Among Thieves
+      set: sld
+  Secret Lair Drop Secret Lair x Dungeons and Dragons Honor Among Thieves Foil:
+    card_count: 7
+    deck:
+    - name: DD Honor Among Thieves foil
+      set: sld
+  Secret Lair Drop Secret Lair x Fortnite:
+    card_count: 8
+    deck:
+    - name: Fortnite
+      set: sld
+  Secret Lair Drop Secret Lair x Fortnite Foil:
+    card_count: 8
+    deck:
+    - name: Fortnite foil
+      set: sld
+  Secret Lair Drop Secret Lair x Fortnite Landmarks and Locations:
+    card_count: 6
+    deck:
+    - name: Fortnite Landmarks and Locations
+      set: sld
+  Secret Lair Drop Secret Lair x Fortnite Landmarks and Locations Foil:
+    card_count: 6
+    deck:
+    - name: Fortnite Landmarks and Locations foil
+      set: sld
   Secret Lair Drop Secret Lair x Jurassic World Dr Ian Malcolm: []
   Secret Lair Drop Secret Lair x Jurassic World Dr Ian Malcolm Foil: []
   Secret Lair Drop Secret Lair x Jurassic World Life Breaks Free: []
@@ -1372,6 +1619,16 @@ products:
     card_count: 6
     deck:
     - name: Post Malone The Lands foil
+      set: sld
+  Secret Lair Drop Secret Lair x Stranger Things:
+    card_count: 10
+    deck:
+    - name: Stranger Things
+      set: sld
+  Secret Lair Drop Secret Lair x Stranger Things Foil:
+    card_count: 10
+    deck:
+    - name: Stranger Things foil
       set: sld
   Secret Lair Drop Secret Lair x Street Fighter:
     card_count: 9
@@ -1473,6 +1730,11 @@ products:
     card_count: 11
     deck:
     - name: Showcase Midnight Hunt
+      set: sld
+  Secret Lair Drop Showcase Midnight Hunt Foil:
+    card_count: 11
+    deck:
+    - name: Showcase Midnight Hunt foil
       set: sld
   Secret Lair Drop Showcase Monster Anatomy 101:
     card_count: 6
@@ -1861,6 +2123,11 @@ products:
       set: sld
   Secret Lair Drop Valentines Day 2021 Replacement Heliod Pack: []
   Secret Lair Drop Valentines Day 2021 Replacement Heliod Pack Foil: []
+  Secret Lair Drop We Hope You Like Squirrels:
+    card_count: 6
+    deck:
+    - name: Hope You Like Squirrels foil
+      set: sld
   Secret Lair Drop Welcome to Castle Dracula:
     card_count: 4
     deck:
@@ -2442,271 +2709,4 @@ products:
     card_count: 6
     deck:
     - name: Phyrexian Praetors Compleat Edition
-      set: sld
-  Secret Lair Drop PixelSnowLandsjpg:
-    card_count: 6
-    deck:
-    - name: PixelSnowLandsjpg
-      set: sld
-  Secret Lair Drop PixelSnowLandsjpg Foil:
-    card_count: 6
-    deck:
-    - name: PixelSnowLandsjpg foil
-      set: sld
-  Secret Lair Drop PixelSnowLandsjpg Etched:
-    card_count: 6
-    deck:
-    - name: PixelSnowLandsjpg etched
-      set: sld
-  Secret Lair Drop Ponies The Galloping 2 Extra Life 2023: []
-  Secret Lair Drop Ponies The Galloping 2 Extra Life 2023 Foil Edition: []
-  Secret Lair Bundle Post Malone Bundle:
-    sealed:
-    - count: 1
-      name: Secret Lair x Post Malone Backstage Pass
-      set: sld
-    - count: 1
-      name: Secret Lair x Post Malone Backstage Pass Foil Edition
-      set: sld
-    - count: 1
-      name: Secret Lair x Post Malone The Lands
-      set: sld
-    - count: 1
-      name: Secret Lair x Post Malone The Lands Foil Edition
-      set: sld
-  Secret Lair Drop Pride Across the Multiverse:
-    card_count: 9
-    deck:
-    - name: Pride Across the Multiverse
-      set: sld
-  Secret Lair Drop Pride Across the Multiverse Foil:
-    card_count: 9
-    deck:
-    - name: Pride Across the Multiverse foil
-      set: sld
-  Secret Lair Drop Prime Slime:
-    card_count: 6
-    deck:
-    - name: Prime Slime
-      set: sld
-  Secret Lair Drop Purrfection:
-    card_count: 5
-    deck:
-    - name: Purrfection
-      set: sld
-  Secret Lair Drop Purrfection Foil:
-    card_count: 5
-    deck:
-    - name: Purrfection foil
-      set: sld
-  Secret Lair Drop Restless in Peace:
-    card_count: 4
-    deck:
-    - name: Restless in Peace
-      set: sld
-  Secret Lair Drop Rule the Room:
-    card_count: 5
-    deck:
-    - name: Rule the Room
-      set: sld
-  Secret Lair Drop Rule the Room Foil:
-    card_count: 5
-    deck:
-    - name: Rule the Room foil
-      set: sld
-  Secret Lair Drop Showcase Midnight Hunt Foil:
-    card_count: 11
-    deck:
-    - name: Showcase Midnight Hunt foil
-      set: sld
-  Secret Lair SDrop pecial Guest Kozyndan The Lands Foil: []
-  Secret Lair Drop Saturday Morning DandD Foil:
-    card_count: 7
-    deck:
-    - name: Saturday Morning DD foil
-      set: sld
-  Secret Lair Drop Saturday Morning DandD:
-    card_count: 7
-    deck:
-    - name: Saturday Morning DD
-      set: sld
-  Secret Lair Bundle Second Secretversary Bundle:
-    sealed:
-    - count: 1
-      name: Secret Lair Drop Secret Lair x Arcane
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Secret Lair x Arcane Lands
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Welcome to Castle Dracula
-      set: sld
-    - count: 1
-      name: Secret Lair Drop The Dracula Lands
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Fblthp Completely Utterly Totally Lost
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Far Out Man
-      set: sld
-    - count: 1
-      name: Secret Lair Drop PixelSnowLandsjpg
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Crocodile Jacksons Monstrous Menagerie
-      set: sld
-  Secret Lair Bundle Second Secretversary Bundle Foil:
-    sealed:
-    - count: 1
-      name: Secret Lair Drop Secret Lair x Arcane Foil
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Secret Lair x Arcane Lands Foil
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Welcome to Castle Dracula Foil
-      set: sld
-    - count: 1
-      name: Secret Lair Drop The Dracula Lands Foil
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Fblthp Completely Utterly Totally Lost Foil
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Far Out Man Foil
-      set: sld
-    - count: 1
-      name: Secret Lair Drop PixelSnowLandsjpg Foil
-      set: sld
-    - count: 1
-      name: Secret Lair Drop PixelSnowLandsjpg Foil Etched
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Crocodile Jacksons Monstrous Menagerie Etched
-      set: sld
-  Secret Lair Drop Secret Lair Extra Life 2021:
-    card_count: 8
-    deck:
-    - name: Extra Life 2021
-      set: sld
-  Secret Lair Drop Secret Lair Extra Life 2021 Foil:
-    card_count: 8
-    deck:
-    - name: Extra Life 2021 foil
-      set: sld
-  Secret Lair Drop Secret Lair X MSCHF:
-    card_count: 6
-    deck:
-    - name: MSCHF etched
-      set: sld
-  Secret Lair Drop Secret Lair x Arcane:
-    card_count: 8
-    deck:
-    - name: Arcane
-      set: sld
-  Secret Lair Drop Secret Lair x Arcane Foil:
-    card_count: 8
-    deck:
-    - name: Arcane foil
-      set: sld
-  Secret Lair Drop Secret Lair x Arcane Lands:
-    card_count: 6
-    deck:
-    - name: Arcane Lands
-      set: sld
-  Secret Lair Drop Secret Lair x Arcane Lands Foil:
-    card_count: 6
-    deck:
-    - name: Arcane Lands foil
-      set: sld
-  Secret Lair Drop Secret Lair x Dungeons and Dragons Honor Among Thieves:
-    card_count: 7
-    deck:
-    - name: DD Honor Among Thieves
-      set: sld
-  Secret Lair Drop Secret Lair x Dungeons and Dragons Honor Among Thieves Foil:
-    card_count: 7
-    deck:
-    - name: DD Honor Among Thieves foil
-      set: sld
-  Secret Lair Drop Secret Lair x Fortnite:
-    card_count: 8
-    deck:
-    - name: Fortnite
-      set: sld
-  Secret Lair Drop Secret Lair x Fortnite Foil:
-    card_count: 8
-    deck:
-    - name: Fortnite foil
-      set: sld
-  Secret Lair Drop Secret Lair x Fortnite Landmarks and Locations:
-    card_count: 6
-    deck:
-    - name: Fortnite Landmarks and Locations
-      set: sld
-  Secret Lair Drop Secret Lair x Fortnite Landmarks and Locations Foil:
-    card_count: 6
-    deck:
-    - name: Fortnite Landmarks and Locations foil
-      set: sld
-  Secret Lair Drop Secret Lair x Stranger Things:
-    card_count: 10
-    deck:
-    - name: Stranger Things
-      set: sld
-  Secret Lair Drop Secret Lair x Stranger Things Foil:
-    card_count: 10
-    deck:
-    - name: Stranger Things foil
-      set: sld
-  Secret Lair Drop A Box of Rocks:
-    card_count: 6
-    deck:
-    - name: A Box of Rocks
-      set: sld
-  Secret Lair Drop A Box of Rocks Foil:
-    card_count: 6
-    deck:
-    - name: A Box of Rocks foil
-      set: sld
-  Secret Lair Drop Artist Series Seb McKinnon:
-    card_count: 5
-    deck:
-    - name: Artist Series Seb McKinnon
-      set: sld
-  Secret Lair Drop Artist Series Seb McKinnon Foil:
-    card_count: 5
-    deck:
-    - name: Artist Series Seb McKinnon foil
-      set: sld
-  Secret Lair Bundle Foils Forever Bundle: []
-  Secret Lair Drop Happy Little Gathering:
-    card_count: 11
-    deck:
-    - name: Happy Little Gathering
-      set: sld
-  Secret Lair Drop Happy Little Gathering Foil Edition:
-    card_count: 11
-    deck:
-    - name: Happy Little Gathering foil
-      set: sld
-  Secret Lair Bundle No Foils No Nonsense Bundle: []
-  Secret Lair Drop Party Hard Shred Harder:
-    card_count: 6
-    deck:
-    - name: Party Hard Shred Harder
-      set: sld
-  Secret Lair Bundle Secretversary Superdrop The Bundle Bundle: 
-    sealed:
-    - set: sld
-      count: 1
-      name: Secret Lair Bundle Foils Forever Bundle
-    - set: sld
-      count: 1
-      name: Secret Lair Bundle No Foils No Nonsense Bundle
-  Secret Lair Drop We Hope You Like Squirrels:
-    card_count: 6
-    deck:
-    - name: Hope You Like Squirrels foil
       set: sld
