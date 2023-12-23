@@ -477,6 +477,112 @@ products:
   Secret Lair Bundle Fill My Cauldron with Dr Who: []
   Secret Lair Bundle Fill My Cauldron with Foils: []
   Secret Lair Bundle Fill My Cauldron with Non Foils: []
+  Secret Lair Bundle Its Raining Foils And Non Foils:
+    sealed:
+    - count: 1
+      name: Secret Lair Bundle Those Foils Are Really Coming Down
+      set: sld
+    - count: 1
+      name: Secret Lair Bundle Those Non Foils Just Wont Let Up
+      set: sld
+  Secret Lair Bundle June Superdrop Full of Foils:
+    sealed:
+    - count: 1
+      name: Secret Lair Drop Artist Series Chris Rahn Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Artist Series Livia Prima Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Artist Series Volkan Baga Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Rule the Room Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Special Guest Kelogsloops Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Drop The Tokyo Lands Etched Foil
+      set: sld
+  Secret Lair Bundle June Superdrop Non stop Non Foil:
+    sealed:
+    - count: 1
+      name: Secret Lair Drop Artist Series Chris Rahn
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Artist Series Livia Prima
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Artist Series Volkan Baga
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Rule the Room
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Special Guest Kelogsloops
+      set: sld
+    - count: 1
+      name: Secret Lair Drop The Tokyo Lands
+      set: sld
+  Secret Lair Bundle June Superdrop The Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair Bundle June Superdrop Full of Foils
+      set: sld
+    - count: 1
+      name: Secret Lair Bundle June Superdrop Non stop Non Foil
+      set: sld
+  Secret Lair Bundle March of the Machine:
+    sealed:
+    - count: 1
+      name: Secret Lair Drop Showcase March of the Machine Vol 1
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Showcase March of the Machine Vol 2
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Showcase March of the Machine Vol 3
+      set: sld
+  Secret Lair Bundle Miss A Drop Its Gone Superdrop Boo Tacular Bundle:
+    sealed:
+    - count: 1
+      name: Secret Lair Bundle Ferocious Foil
+      set: sld
+    - count: 1
+      name: Secret Lair Bundle Non Foil Nightmare
+      set: sld
+  Secret Lair Bundle More Adventures in Middle earth:
+    sealed:
+    - count: 1
+      name: Secret Lair Drop More Adventures in Middle earth
+      set: sld
+    - count: 1
+      name: Secret Lair Drop More Adventures in Middle earth Foil
+      set: sld
+  Secret Lair Bundle Non Foil Nightmare:
+    sealed:
+    - count: 1
+      name: Secret Lair Drop Secret Lair x Stranger Things
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Mirrodinsanity
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Showcase Monster Anatomy 101
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Monster Movie Marathon
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Showcase Read The Fine Print
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Showcase Midnight Hunt
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Showcase Thrilling Tales of the Undead
+      set: sld
   Secret Lair Bundle Places to Trick or Treat Foil Lands: []
   Secret Lair Bundle Places to Trick or Treat Non Foil Lands: []
   Secret Lair Bundle Post Malone Bundle:
@@ -783,6 +889,11 @@ products:
     deck:
     - name: From Cute to Brute
       set: pctb
+  Secret Lair Commander Deck Heads I Win Tails You Lose:
+    card_count: 101
+    deck:
+    - name: Heads I Win, Tails You Lose
+      set: phed
   Secret Lair Death Is Temporary Metal Is Forever:
     card_count: 6
     deck:
@@ -1359,6 +1470,16 @@ products:
     deck:
     - name: Featuring the Mountain Goats foil
       set: sld
+  Secret Lair Drop Finally Left Handed Magic Cards:
+    card_count: 6
+    deck:
+    - name: Finally LeftHanded Magic Cards
+      set: sld
+  Secret Lair Drop Finally Left Handed Magic Cards Foil:
+    card_count: 6
+    deck:
+    - name: Finally LeftHanded Magic Cards foil
+      set: sld
   Secret Lair Drop Full Sleeves The Tattoo Pack:
     card_count: 6
     deck:
@@ -1366,6 +1487,16 @@ products:
       set: sld
   Secret Lair Drop Gift Wrapped: []
   Secret Lair Drop Gift Wrapped Foil: []
+  Secret Lair Drop Goblin and Squabblin:
+    card_count: 6
+    deck:
+    - name: Goblin and Squabblin
+      set: sld
+  Secret Lair Drop Goblin and Squabblin Foil:
+    card_count: 6
+    deck:
+    - name: Goblin and Squabblin foil
+      set: sld
   Secret Lair Drop Happy Little Gathering:
     card_count: 11
     deck:
@@ -1377,6 +1508,60 @@ products:
     deck:
     - name: Happy Little Gathering foil
       set: sld
+  Secret Lair Drop Happy Yargle Day:
+    card_count: 6
+    deck:
+    - name: Happy Yargle Day foil
+      set: sld
+  Secret Lair Drop Happy Yargle Day Foil:
+    card_count: 6
+    deck:
+    - name: Happy Yargle Day
+      set: sld
+  Secret Lair Drop Here Be Dragons Foil:
+    card_count: 8
+    deck:
+    - name: Here Be Dragons foil
+      set: sld
+    other:
+    - name: Metal Cast Dragon Life Counter
+    - name: Leather Deck Box
+    - name: 100 Art Card Sleeves
+  Secret Lair Drop If Looks Could Kill:
+    card_count: 5
+    deck:
+    - name: If Looks Could Kill
+      set: sld
+  Secret Lair Drop If Looks Could Kill Foil:
+    card_count: 5
+    deck:
+    - name: If Looks Could Kill foil
+      set: sld
+  Secret Lair Drop Imaginary Friends:
+    card_count: 5
+    deck:
+    - name: Imaginary Friends
+      set: sld
+  Secret Lair Drop Imaginary Friends Foil:
+    card_count: 5
+    deck:
+    - name: Imaginary Friends foil
+      set: sld
+  Secret Lair Drop In Memoriam Jaya Ballard:
+    card_count: 6
+    deck:
+    - name: In Memoriam Jaya Ballard
+      set: sld
+  Secret Lair Drop In Memoriam Jaya Ballard Foil:
+    card_count: 6
+    deck:
+    - name: In Memoriam Jaya Ballard foil
+      set: sld
+  Secret Lair Drop International Womens Day 2020:
+    card_count: 6
+    deck:
+    - name: International Womens Day foil
+      set: sld
   Secret Lair Drop Introducing Kaito Shizuki:
     card_count: 6
     deck:
@@ -1387,6 +1572,41 @@ products:
     deck:
     - name: Introducing Kaito Shizuki foil
       set: sld
+  Secret Lair Drop Just Add Milk:
+    card_count: 4
+    deck:
+    - name: Just Add Milk
+      set: sld
+  Secret Lair Drop Just Add Milk Foil:
+    card_count: 4
+    deck:
+    - name: Just Add Milk foil
+      set: sld
+  Secret Lair Drop Just Some Totally Normal Guys:
+    card_count: 5
+    deck:
+    - name: Just Some Totally Normal Guys
+      set: sld
+  Secret Lair Drop Just Some Totally Normal Guys Foil:
+    card_count: 5
+    deck:
+    - name: Just Some Totally Normal Guys foil
+      set: sld
+  Secret Lair Drop Kaleidoscope Killers:
+    card_count: 4
+    deck:
+    - name: Kaleidoscope Killers foil
+      set: sld
+  Secret Lair Drop Kamigawa Ink:
+    card_count: 6
+    deck:
+    - name: Kamigawa Ink
+      set: sld
+  Secret Lair Drop Kamigawa Ink Foil:
+    card_count: 6
+    deck:
+    - name: Kamigawa Ink foil
+      set: sld
   Secret Lair Drop Kamigawa the Manga the Cards:
     card_count: 6
     deck:
@@ -1396,6 +1616,23 @@ products:
     card_count: 6
     deck:
     - name: Kamigawa The Manga The Cards foil
+      set: sld
+  Secret Lair Drop Keep Partying Hard Shred Harder Than You Previously Thought Possible: []
+  Secret Lair Drop Keep Partying Hard Shred Harder Than You Previously Thought Possible Foil: []
+  Secret Lair Drop LOOK AT THE KITTIES Foil:
+    card_count: 5
+    deck:
+    - name: Look at the Kitties foil
+      set: sld
+  Secret Lair Drop Legendary Flyers Not That Kind Foil:
+    card_count: 5
+    deck:
+    - name: Legendary Flyers Not That Kind foil
+      set: sld
+  Secret Lair Drop Lil Giri Saves the Day Foil:
+    card_count: 6
+    deck:
+    - name: Lil Giri Saves the Day foil
       set: sld
   Secret Lair Drop Lil Walkers:
     card_count: 6
@@ -1408,8 +1645,86 @@ products:
     - name: Lil Walkers foil
       set: sld
   Secret Lair Drop Lil Walkers Foil Edition: []
+  Secret Lair Drop Liler Walkers:
+    card_count: 6
+    deck:
+    - name: Liller Walkers
+      set: sld
+  Secret Lair Drop Liler Walkers Foil:
+    card_count: 6
+    deck:
+    - name: Liller Walkers foil
+      set: sld
+  Secret Lair Drop Lilest Walkers: []
+  Secret Lair Drop Lilest Walkers Foil: []
+  Secret Lair Drop Magic The Baseballing:
+    card_count: 5
+    deck:
+    - name: Magic the Baseballing
+      set: sld
+  Secret Lair Drop Magic The Baseballing Foil:
+    card_count: 5
+    deck:
+    - name: Magic the Baseballing foil
+      set: sld
+  Secret Lair Drop Math Is For Blockers:
+    card_count: 6
+    deck:
+    - name: Math is for Blockers
+      set: sld
+  Secret Lair Drop Math Is For Blockers Foil:
+    card_count: 6
+    deck:
+    - name: Math is for Blockers foil
+      set: sld
   Secret Lair Drop Meditations on Nature: []
   Secret Lair Drop Meditations on Nature Foil: []
+  Secret Lair Drop Mirrodinsanity:
+    card_count: 6
+    deck:
+    - name: Mirrodinsanity
+      set: sld
+  Secret Lair Drop Mirrodinsanity Foil:
+    card_count: 6
+    deck:
+    - name: Mirrodinsanity foil
+      set: sld
+  Secret Lair Drop Mirrodinsanity Foil Edition: []
+  Secret Lair Drop Monster Movie Marathon:
+    card_count: 5
+    deck:
+    - name: Monster Movie Marathon
+      set: sld
+  Secret Lair Drop Monster Movie Marathon Foil:
+    card_count: 5
+    deck:
+    - name: Monster Movie Marathon foil
+      set: sld
+  Secret Lair Drop More Adventures in Middle earth:
+    card_count: 5
+    deck:
+    - name: More Adventures in Middle-earth
+      set: sld
+  Secret Lair Drop More Adventures in Middle earth Foil:
+    card_count: 5
+    deck:
+    - name: More Adventures in Middle-earth foil
+      set: sld
+  Secret Lair Drop More Borderless Planeswalkers:
+    card_count: 5
+    deck:
+    - name: More Borderless Planeswalkers
+      set: sld
+  Secret Lair Drop Mothers Day 2021:
+    card_count: 5
+    deck:
+    - name: Mothers Day 2021
+      set: sld
+  Secret Lair Drop Mothers Day 2021 Foil:
+    card_count: 5
+    deck:
+    - name: Mothers Day 2021 foil
+      set: sld
   Secret Lair Drop Mountain Go:
     card_count: 5
     deck:
@@ -1417,6 +1732,23 @@ products:
       set: sld
   Secret Lair Drop Mycosynthwave: []
   Secret Lair Drop Mycosynthwave Foil: []
+  Secret Lair Drop Nature is Adorable:
+    card_count: 5
+    deck:
+    - name: Nature is Adorable
+      set: sld
+  Secret Lair Drop Nature is Adorable Foil:
+    card_count: 5
+    deck:
+    - name: Nature is Adorable foil
+      set: sld
+  Secret Lair Drop Now on VHS: []
+  Secret Lair Drop Now on VHS Foil: []
+  Secret Lair Drop OMG KITTIES:
+    card_count: 8
+    deck:
+    - name: OMG KITTIES foil
+      set: sld
   Secret Lair Drop OUR SHOW IS ON FRIDAY CAN YOU MAKE IT:
     card_count: 6
     deck:
@@ -1433,6 +1765,26 @@ products:
     card_count: 6
     deck:
     - name: Party Hard Shred Harder
+      set: sld
+  Secret Lair Drop Phyrexian Faves:
+    card_count: 6
+    deck:
+    - name: Phyrexian Faves
+      set: sld
+  Secret Lair Drop Phyrexian Faves Foil:
+    card_count: 6
+    deck:
+    - name: Phyrexian Faves foil
+      set: sld
+  Secret Lair Drop Phyrexian Praetors Compleat Edition:
+    card_count: 6
+    deck:
+    - name: Phyrexian Praetors Compleat Edition
+      set: sld
+  Secret Lair Drop Phyrexian Praetors Compleat Edition Foil:
+    card_count: 6
+    deck:
+    - name: Phyrexian Praetors Compleat Edition foil
       set: sld
   Secret Lair Drop Pictures of the Floating World:
     card_count: 6
@@ -2359,354 +2711,3 @@ products:
         set: khc
     variable_mode:
       count: 1
-  Secret Lair Drop Finally Left Handed Magic Cards:
-    card_count: 6
-    deck:
-    - name: Finally LeftHanded Magic Cards
-      set: sld
-  Secret Lair Drop Finally Left Handed Magic Cards Foil:
-    card_count: 6
-    deck:
-    - name: Finally LeftHanded Magic Cards foil
-      set: sld
-  Secret Lair Drop Goblin and Squabblin:
-    card_count: 6
-    deck:
-    - name: Goblin and Squabblin
-      set: sld
-  Secret Lair Drop Goblin and Squabblin Foil:
-    card_count: 6
-    deck:
-    - name: Goblin and Squabblin foil
-      set: sld
-  Secret Lair Drop Happy Yargle Day Foil:
-    card_count: 6
-    deck:
-    - name: Happy Yargle Day
-      set: sld
-  Secret Lair Drop Happy Yargle Day:
-    card_count: 6
-    deck:
-    - name: Happy Yargle Day foil
-      set: sld
-  Secret Lair Commander Deck Heads I Win Tails You Lose:
-    card_count: 101
-    deck:
-    - name: Heads I Win, Tails You Lose
-      set: phed
-  Secret Lair Drop Here Be Dragons Foil:
-    card_count: 8
-    deck:
-    - name: Here Be Dragons foil
-      set: sld
-    other:
-    - name: Metal Cast Dragon Life Counter
-    - name: Leather Deck Box
-    - name: 100 Art Card Sleeves
-  Secret Lair Drop If Looks Could Kill:
-    card_count: 5
-    deck:
-    - name: If Looks Could Kill
-      set: sld
-  Secret Lair Drop If Looks Could Kill Foil:
-    card_count: 5
-    deck:
-    - name: If Looks Could Kill foil
-      set: sld
-  Secret Lair Drop Imaginary Friends:
-    card_count: 5
-    deck:
-    - name: Imaginary Friends
-      set: sld
-  Secret Lair Drop Imaginary Friends Foil:
-    card_count: 5
-    deck:
-    - name: Imaginary Friends foil
-      set: sld
-  Secret Lair Drop In Memoriam Jaya Ballard:
-    card_count: 6
-    deck:
-    - name: In Memoriam Jaya Ballard
-      set: sld
-  Secret Lair Drop In Memoriam Jaya Ballard Foil:
-    card_count: 6
-    deck:
-    - name: In Memoriam Jaya Ballard foil
-      set: sld
-  Secret Lair Drop International Womens Day 2020:
-    card_count: 6
-    deck:
-    - name: International Womens Day foil
-      set: sld
-  Secret Lair Bundle Its Raining Foils And Non Foils:
-    sealed:
-    - count: 1
-      name: Secret Lair Bundle Those Foils Are Really Coming Down
-      set: sld
-    - count: 1
-      name: Secret Lair Bundle Those Non Foils Just Wont Let Up
-      set: sld
-  Secret Lair Bundle June Superdrop Full of Foils:
-    sealed:
-    - count: 1
-      name: Secret Lair Drop Artist Series Chris Rahn Foil
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Artist Series Livia Prima Foil
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Artist Series Volkan Baga Foil
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Rule the Room Foil
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Special Guest Kelogsloops Foil
-      set: sld
-    - count: 1
-      name: Secret Lair Drop The Tokyo Lands Etched Foil
-      set: sld
-  Secret Lair Bundle June Superdrop Non stop Non Foil:
-    sealed:
-    - count: 1
-      name: Secret Lair Drop Artist Series Chris Rahn
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Artist Series Livia Prima
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Artist Series Volkan Baga
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Rule the Room
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Special Guest Kelogsloops
-      set: sld
-    - count: 1
-      name: Secret Lair Drop The Tokyo Lands
-      set: sld
-  Secret Lair Bundle June Superdrop The Bundle:
-    sealed:
-    - count: 1
-      name: Secret Lair Bundle June Superdrop Full of Foils
-      set: sld
-    - count: 1
-      name: Secret Lair Bundle June Superdrop Non stop Non Foil
-      set: sld
-  Secret Lair Drop Just Add Milk:
-    card_count: 4
-    deck:
-    - name: Just Add Milk
-      set: sld
-  Secret Lair Drop Just Add Milk Foil:
-    card_count: 4
-    deck:
-    - name: Just Add Milk foil
-      set: sld
-  Secret Lair Drop Just Some Totally Normal Guys:
-    card_count: 5
-    deck:
-    - name: Just Some Totally Normal Guys
-      set: sld
-  Secret Lair Drop Just Some Totally Normal Guys Foil:
-    card_count: 5
-    deck:
-    - name: Just Some Totally Normal Guys foil
-      set: sld
-  Secret Lair Drop Kaleidoscope Killers:
-    card_count: 4
-    deck:
-    - name: Kaleidoscope Killers foil
-      set: sld
-  Secret Lair Drop Kamigawa Ink:
-    card_count: 6
-    deck:
-    - name: Kamigawa Ink
-      set: sld
-  Secret Lair Drop Kamigawa Ink Foil:
-    card_count: 6
-    deck:
-    - name: Kamigawa Ink foil
-      set: sld
-  Secret Lair Keep Partying Hard Shred Harder Than You Previously Thought Possible: []
-  Secret Lair Keep Partying Hard Shred Harder Than You Previously Thought Possible Foil Edition: []
-  Secret Lair Drop LOOK AT THE KITTIES Foil:
-    card_count: 5
-    deck:
-    - name: Look at the Kitties foil
-      set: sld
-  Secret Lair Drop Legendary Flyers Not That Kind Foil:
-    card_count: 5
-    deck:
-    - name: Legendary Flyers Not That Kind foil
-      set: sld
-  Secret Lair Drop Lil Giri Saves the Day Foil:
-    card_count: 6
-    deck:
-    - name: Lil Giri Saves the Day foil
-      set: sld
-  Secret Lair Drop Liler Walkers:
-    card_count: 6
-    deck:
-    - name: Liller Walkers
-      set: sld
-  Secret Lair Drop Liler Walkers Foil:
-    card_count: 6
-    deck:
-    - name: Liller Walkers foil
-      set: sld
-  Secret Lair Lilest Walkers: []
-  Secret Lair Lilest Walkers Foil Edition: []
-  Secret Lair Drop Magic The Baseballing:
-    card_count: 5
-    deck:
-    - name: Magic the Baseballing
-      set: sld
-  Secret Lair Drop Magic The Baseballing Foil:
-    card_count: 5
-    deck:
-    - name: Magic the Baseballing foil
-      set: sld
-  Secret Lair Bundle March of the Machine:
-    sealed:
-    - count: 1
-      name: Secret Lair Drop Showcase March of the Machine Vol 1
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Showcase March of the Machine Vol 2
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Showcase March of the Machine Vol 3
-      set: sld
-  Secret Lair Drop Math Is For Blockers:
-    card_count: 6
-    deck:
-    - name: Math is for Blockers
-      set: sld
-  Secret Lair Drop Math Is For Blockers Foil:
-    card_count: 6
-    deck:
-    - name: Math is for Blockers foil
-      set: sld
-  Secret Lair Drop Mirrodinsanity:
-    card_count: 6
-    deck:
-    - name: Mirrodinsanity
-      set: sld
-  Secret Lair Drop Mirrodinsanity Foil:
-    card_count: 6
-    deck:
-    - name: Mirrodinsanity foil
-      set: sld
-  Secret Lair Bundle Miss A Drop Its Gone Superdrop Boo Tacular Bundle:
-    sealed:
-    - count: 1
-      name: Secret Lair Bundle Ferocious Foil
-      set: sld
-    - count: 1
-      name: Secret Lair Bundle Non Foil Nightmare
-      set: sld
-  Secret Lair Drop Monster Movie Marathon:
-    card_count: 5
-    deck:
-    - name: Monster Movie Marathon
-      set: sld
-  Secret Lair Drop Monster Movie Marathon Foil:
-    card_count: 5
-    deck:
-    - name: Monster Movie Marathon foil
-      set: sld
-  Secret Lair Drop More Adventures in Middle earth:
-    card_count: 5
-    deck:
-    - name: More Adventures in Middle-earth
-      set: sld
-  Secret Lair Bundle More Adventures in Middle earth:
-    sealed:
-    - count: 1
-      name: Secret Lair Drop More Adventures in Middle earth
-      set: sld
-    - count: 1
-      name: Secret Lair Drop More Adventures in Middle earth Foil
-      set: sld
-  Secret Lair Drop More Adventures in Middle earth Foil:
-    card_count: 5
-    deck:
-    - name: More Adventures in Middle-earth foil
-      set: sld
-  Secret Lair Drop More Borderless Planeswalkers:
-    card_count: 5
-    deck:
-    - name: More Borderless Planeswalkers
-      set: sld
-  Secret Lair Drop Mothers Day 2021 Foil:
-    card_count: 5
-    deck:
-    - name: Mothers Day 2021 foil
-      set: sld
-  Secret Lair Drop Mothers Day 2021:
-    card_count: 5
-    deck:
-    - name: Mothers Day 2021
-      set: sld
-  Secret Lair Drop Nature is Adorable:
-    card_count: 5
-    deck:
-    - name: Nature is Adorable
-      set: sld
-  Secret Lair Drop Nature is Adorable Foil:
-    card_count: 5
-    deck:
-    - name: Nature is Adorable foil
-      set: sld
-  Secret Lair Bundle Non Foil Nightmare:
-    sealed:
-    - count: 1
-      name: Secret Lair Drop Secret Lair x Stranger Things
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Mirrodinsanity
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Showcase Monster Anatomy 101
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Monster Movie Marathon
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Showcase Read The Fine Print
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Showcase Midnight Hunt
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Showcase Thrilling Tales of the Undead
-      set: sld
-  Secret Lair Now on VHS: []
-  Secret Lair Now on VHS Foil Edition: []
-  Secret Lair Drop OMG KITTIES:
-    card_count: 8
-    deck:
-    - name: OMG KITTIES foil
-      set: sld
-  Secret Lair Drop Phyrexian Faves:
-    card_count: 6
-    deck:
-    - name: Phyrexian Faves
-      set: sld
-  Secret Lair Drop Phyrexian Faves Foil:
-    card_count: 6
-    deck:
-    - name: Phyrexian Faves foil
-      set: sld
-  Secret Lair Drop Phyrexian Praetors Compleat Edition Foil:
-    card_count: 6
-    deck:
-    - name: Phyrexian Praetors Compleat Edition foil
-      set: sld
-  Secret Lair Drop Phyrexian Praetors Compleat Edition:
-    card_count: 6
-    deck:
-    - name: Phyrexian Praetors Compleat Edition
-      set: sld
