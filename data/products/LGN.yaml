@@ -12,7 +12,7 @@ products:
       cardKingdomId: '1537'
       tcgplayerProductId: '27349'
     subtype: DEFAULT
-  Legions Elvish Rage Theme Deck:
+  Legions Theme Deck Elvish Rage:
     category: DECK
     identifiers:
       cardKingdomId: '1532'
@@ -24,21 +24,25 @@ products:
       cardKingdomId: '240341'
       tcgplayerProductId: '78316'
     subtype: FAT_PACK
-  Legions Morph Mayhem Theme Deck:
+  Legions Theme Deck Morph Mayhem:
     category: DECK
     identifiers:
       cardKingdomId: '1534'
       tcgplayerProductId: '96426'
     subtype: THEME
-  Legions Sliver Shivers Theme Deck:
+  Legions Theme Deck Sliver Shivers:
     category: DECK
     identifiers:
       cardKingdomId: '1535'
       tcgplayerProductId: '96428'
     subtype: THEME
-  Legions Zombies Unleashed Theme Deck:
+  Legions Theme Deck Zombies Unleashed:
     category: DECK
     identifiers:
       cardKingdomId: '1533'
       tcgplayerProductId: '96429'
     subtype: THEME
+  Legions Theme Deck Display:
+    category: DECK_BOX
+    subtype: THEME
+    identifiers: {}

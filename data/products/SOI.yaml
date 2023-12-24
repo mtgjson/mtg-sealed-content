@@ -40,19 +40,19 @@ products:
       cardKingdomId: '206525'
       tcgplayerProductId: '118345'
     subtype: GIFT_BUNDLE
-  Shadows over Innistrad Intro Pack Angelic Fury R:
+  Shadows over Innistrad Intro Pack Angelic Fury:
     category: DECK
     identifiers:
       cardKingdomId: '227626'
       tcgplayerProductId: '112959'
     subtype: INTRO
-  Shadows over Innistrad Intro Pack Ghostly Tide W:
+  Shadows over Innistrad Intro Pack Ghostly Tide:
     category: DECK
     identifiers:
       cardKingdomId: '227623'
       tcgplayerProductId: '112960'
     subtype: INTRO
-  Shadows over Innistrad Intro Pack Horrific Visions G:
+  Shadows over Innistrad Intro Pack Horrific Visions:
     category: DECK
     identifiers:
       cardKingdomId: '227627'
@@ -63,21 +63,26 @@ products:
     identifiers:
       tcgplayerProductId: '112961'
     subtype: INTRO
-  Shadows over Innistrad Intro Pack Unearthed Secrets U:
+  Shadows over Innistrad Intro Pack Unearthed Secrets:
     category: DECK
     identifiers:
       cardKingdomId: '227624'
       tcgplayerProductId: '112957'
     subtype: INTRO
-  Shadows over Innistrad Intro Pack Vampiric Thirst B:
+  Shadows over Innistrad Intro Pack Vampiric Thirst:
     category: DECK
     identifiers:
       cardKingdomId: '227625'
       tcgplayerProductId: '112956'
     subtype: INTRO
+  Shadows over Innistrad Intro Pack Display:
+    category: DECK_BOX
+    subtype: INTRO
+    identifiers: {}
   Shadows over Innistrad Prerelease Pack:
     category: LIMITED
     identifiers:
       cardKingdomId: '208088'
       tcgplayerProductId: '116926'
     subtype: PRERELEASE
+  

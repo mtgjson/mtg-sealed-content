@@ -35,6 +35,10 @@ products:
       cardKingdomId: '189136'
       tcgplayerProductId: '110553'
     subtype: EVENT
+  Gatecrash Event Deck Display:
+    category: DECK_BOX
+    subtype: EVENT
+    identifiers: {}
   Gatecrash Fat Pack:
     category: BUNDLE
     identifiers:
@@ -82,6 +86,10 @@ products:
       tcgplayerProductId: '67389'
     release_date: '2013-02-01'
     subtype: INTRO
+  Gatecrash Intro Pack Display:
+    category: DECK_BOX
+    subtype: INTRO
+    identifiers: {}
   Gatecrash Prerelease Kit Boros:
     category: LIMITED
     identifiers:
