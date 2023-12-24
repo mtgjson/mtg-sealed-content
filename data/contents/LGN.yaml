@@ -10,11 +10,6 @@ products:
     pack:
     - code: default
       set: lgn
-  Legions Theme Deck Elvish Rage:
-    card_count: 60
-    deck:
-    - name: Elvish Rage
-      set: lgn
   Legions Fat Pack:
     card_count: 2
     other:
@@ -27,16 +22,6 @@ products:
     sealed:
     - count: 6
       name: Legions Booster Pack
-      set: lgn
-  Legions Theme Deck Morph Mayhem:
-    card_count: 60
-    deck:
-    - name: Morph Mayhem
-      set: lgn
-  Legions Theme Deck Sliver Shivers:
-    card_count: 60
-    deck:
-    - name: Sliver Shivers
       set: lgn
   Legions Theme Deck Display:
     sealed:
@@ -51,6 +36,21 @@ products:
       set: lgn
     - count: 3
       name: Legions Zombies Unleashed Theme Deck
+      set: lgn
+  Legions Theme Deck Elvish Rage:
+    card_count: 60
+    deck:
+    - name: Elvish Rage
+      set: lgn
+  Legions Theme Deck Morph Mayhem:
+    card_count: 60
+    deck:
+    - name: Morph Mayhem
+      set: lgn
+  Legions Theme Deck Sliver Shivers:
+    card_count: 60
+    deck:
+    - name: Sliver Shivers
       set: lgn
   Legions Theme Deck Zombies Unleashed:
     card_count: 60

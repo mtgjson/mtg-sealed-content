@@ -46,6 +46,10 @@ products:
       tcgplayerProductId: '169265'
     release_date: '2018-07-13'
     subtype: PLANESWALKER
+  Core Set 2019 Planeswalker Deck Display:
+    category: DECK_BOX
+    identifiers: {}
+    subtype: PLANESWALKER
   Core Set 2019 Planeswalker Deck Liliana:
     category: DECK
     identifiers:
@@ -118,7 +122,3 @@ products:
     identifiers: {}
     release_date: '2018-07-13'
     subtype: STARTER
-  Core Set 2019 Planeswalker Deck Display:
-    category: DECK_BOX
-    subtype: PLANESWALKER
-    identifiers: {}

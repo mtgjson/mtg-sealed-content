@@ -12,18 +12,22 @@ products:
       cardKingdomId: '1537'
       tcgplayerProductId: '27349'
     subtype: DEFAULT
-  Legions Theme Deck Elvish Rage:
-    category: DECK
-    identifiers:
-      cardKingdomId: '1532'
-      tcgplayerProductId: '96427'
-    subtype: THEME
   Legions Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '240341'
       tcgplayerProductId: '78316'
     subtype: FAT_PACK
+  Legions Theme Deck Display:
+    category: DECK_BOX
+    identifiers: {}
+    subtype: THEME
+  Legions Theme Deck Elvish Rage:
+    category: DECK
+    identifiers:
+      cardKingdomId: '1532'
+      tcgplayerProductId: '96427'
+    subtype: THEME
   Legions Theme Deck Morph Mayhem:
     category: DECK
     identifiers:
@@ -42,7 +46,3 @@ products:
       cardKingdomId: '1533'
       tcgplayerProductId: '96429'
     subtype: THEME
-  Legions Theme Deck Display:
-    category: DECK_BOX
-    subtype: THEME
-    identifiers: {}

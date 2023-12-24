@@ -46,6 +46,10 @@ products:
       cardKingdomId: '209421'
       tcgplayerProductId: '122682'
     subtype: PLANESWALKER
+  Kaladesh Planeswalker Deck Display:
+    category: DECK_BOX
+    identifiers: {}
+    subtype: PLANESWALKER
   Kaladesh Planeswalker Deck Nissa:
     category: DECK
     identifiers:
@@ -67,7 +71,3 @@ products:
     identifiers:
       tcgplayerProductId: '122681'
     subtype: BATTLE
-  Kaladesh Planeswalker Deck Display:
-    category: DECK_BOX
-    subtype: PLANESWALKER
-    identifiers: {}

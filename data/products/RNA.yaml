@@ -45,6 +45,10 @@ products:
       cardKingdomId: '223910'
       tcgplayerProductId: '183453'
     subtype: PREMIUM
+  Ravnica Allegiance Planeswalker Deck Display:
+    category: DECK_BOX
+    identifiers: {}
+    subtype: PLANESWALKER
   Ravnica Allegiance Planeswalker Deck Domri:
     category: DECK
     identifiers:
@@ -65,10 +69,6 @@ products:
       tcgplayerProductId: '182132'
     release_date: '2019-01-25'
     subtype: PLANESWALKER
-  Ravnica Allegiance Planeswalker Deck Display:
-    category: DECK_BOX
-    subtype: PLANESWALKER
-    identifiers: {}
   Ravnica Allegiance Prerelease Pack Azorius:
     category: LIMITED
     identifiers:

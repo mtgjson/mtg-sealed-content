@@ -1,25 +1,5 @@
 code: sok
 products:
-  Saviors of Kamigawa Theme Deck Critical Mass:
-    card_count: 60
-    deck:
-    - name: Critical Mass
-      set: sok
-  Saviors of Kamigawa Theme Deck Soratamis Wisdom:
-    card_count: 60
-    deck:
-    - name: Soratami's Wisdom
-      set: sok
-  Saviors of Kamigawa Theme Deck Spirit Flames:
-    card_count: 60
-    deck:
-    - name: Spirit Flames
-      set: sok
-  Saviors of Kamigawa Theme Deck Truth Seekers:
-    card_count: 60
-    deck:
-    - name: Truth Seekers
-      set: sok
   Saviors of Kamigawa Booster Box:
     sealed:
     - count: 36
@@ -42,6 +22,11 @@ products:
     - count: 6
       name: Saviors of Kamigawa Booster Pack
       set: sok
+  Saviors of Kamigawa Theme Deck Critical Mass:
+    card_count: 60
+    deck:
+    - name: Critical Mass
+      set: sok
   Saviors of Kamigawa Theme Deck Display:
     sealed:
     - count: 1
@@ -55,4 +40,19 @@ products:
       set: sok
     - count: 1
       name: Saviors of Kamigawa Theme Deck Truth Seekers
+      set: sok
+  Saviors of Kamigawa Theme Deck Soratamis Wisdom:
+    card_count: 60
+    deck:
+    - name: Soratami's Wisdom
+      set: sok
+  Saviors of Kamigawa Theme Deck Spirit Flames:
+    card_count: 60
+    deck:
+    - name: Spirit Flames
+      set: sok
+  Saviors of Kamigawa Theme Deck Truth Seekers:
+    card_count: 60
+    deck:
+    - name: Truth Seekers
       set: sok
