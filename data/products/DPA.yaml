@@ -50,6 +50,11 @@ products:
     identifiers:
       tcgplayerProductId: '264778'
     subtype: PROMOTIONAL
+  Duels of the Planeswalkers Decks Set of 5:
+    category: SUBSET
+    identifiers:
+      tcgplayerProductId: '77294'
+    subtype: PLANESWALKER
   Duels of the Planeswalkers Ears of the Elves Nissa Revane Deck:
     category: DECK
     identifiers:
@@ -67,11 +72,6 @@ products:
     identifiers:
       cardKingdomId: '131149'
       tcgplayerProductId: '77281'
-    subtype: PLANESWALKER
-  Duels of the Planeswalkers Decks Set of 5:
-    category: SUBSET
-    identifiers:
-      tcgplayerProductId: '77294'
     subtype: PLANESWALKER
   Duels of the Planeswalkers Teeth of the Predator Garruk Wildspeaker Deck:
     category: DECK

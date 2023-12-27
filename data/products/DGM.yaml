@@ -31,15 +31,15 @@ products:
       cardKingdomId: '189561'
       tcgplayerProductId: '67754'
     subtype: FAT_PACK
-  Dragons Maze Intro Pack Display:
-    category: DECK_BOX
-    identifier: {}
-    subtype: INTRO
   Dragons Maze Intro Pack Azorius Authority:
     category: DECK
     identifiers:
       cardKingdomId: '189628'
       tcgplayerProductId: '68028'
+    subtype: INTRO
+  Dragons Maze Intro Pack Display:
+    category: DECK_BOX
+    identifier: {}
     subtype: INTRO
   Dragons Maze Intro Pack Gruul Siege:
     category: DECK

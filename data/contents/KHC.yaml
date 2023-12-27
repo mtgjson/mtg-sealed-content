@@ -8,14 +8,6 @@ products:
     - count: 3
       name: Kaldheim Commander Deck Phantom Premonition
       set: khc
-  Kaldheim Commander Decks Set of 2:
-    sealed:
-    - count: 1
-      name: Kaldheim Elven Empire Commander Deck
-      set: khc
-    - count: 1
-      name: Kaldheim Phantom Premonition Commander Deck
-      set: khc
   Kaldheim Commander Deck Elven Empire:
     card_count: 100
     deck:
@@ -34,3 +26,11 @@ products:
     - name: Foil Etched Cardstock Display Commander
     - name: Kaldheim Life Wheel
     - name: 10 Double Sided Tokens
+  Kaldheim Commander Decks Set of 2:
+    sealed:
+    - count: 1
+      name: Kaldheim Elven Empire Commander Deck
+      set: khc
+    - count: 1
+      name: Kaldheim Phantom Premonition Commander Deck
+      set: khc
