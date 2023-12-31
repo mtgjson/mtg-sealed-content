@@ -20,7 +20,16 @@ products:
     - count: 12
       name: Classic Sixth Edition Tournament Pack
       set: 6ed
-  Classic Sixth Edition Two Player Starter Deck: []
+  Classic Sixth Edition Two Player Starter Deck: 
+    card_count: 80
+    deck:
+    - set: 6ed
+      name: Deck A
+    - set: 6ed
+      name: Deck B
+    other:
+    - name: Rulebook
+    - name: Play Guide
   Classic Sixth Edition Two Player Starter Deck Display:
     sealed:
     - count: 12

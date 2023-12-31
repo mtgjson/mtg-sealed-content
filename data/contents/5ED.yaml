@@ -22,5 +22,22 @@ products:
     - count: 12
       name: Fifth Edition Starter Deck
       set: 5ed
-  Fifth Edition Two Player Starter Set: []
-  Fifth Edition Two Player Starter Set Display: []
+  Fifth Edition Two Player Starter Set:
+    card_count: 60
+    deck:
+    - set: 5ed
+      name: Deck A
+    - set: 5ed
+      name: Deck B
+    other:
+    - name: Oversized Rulebook
+    - name: Play Guide
+    sealed:
+    - set: 5ed
+      count: 1
+      name: Fifth Edition Booster Pack
+  Fifth Edition Two Player Starter Set Display:
+    sealed:
+    - set: 5ed
+      name: Fifth Edition Two Player Starter Set
+      count: 6
