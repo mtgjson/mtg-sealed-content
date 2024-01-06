@@ -1,6 +1,6 @@
 code: pc2
 products:
-  Planechase 2012 Chaos Reigns Deck:
+  Planechase 2012 Deck Chaos Reigns:
     card_count: 80
     deck:
     - name: Chaos Reigns
@@ -8,7 +8,7 @@ products:
     other:
     - name: Planechase 2012 Planar Die
     - name: Strategy Insert
-  Planechase 2012 Night of the Ninja Deck:
+  Planechase 2012 Deck Night of the Ninja:
     card_count: 80
     deck:
     - name: Night Of The Ninja
@@ -16,7 +16,7 @@ products:
     other:
     - name: Planechase 2012 Planar Die
     - name: Strategy Insert
-  Planechase 2012 Primordial Hunger Deck:
+  Planechase 2012 Deck Primordial Hunger:
     card_count: 80
     deck:
     - name: Primordial Hunger
@@ -24,7 +24,7 @@ products:
     other:
     - name: Planechase 2012 Planar Die
     - name: Strategy Insert
-  Planechase 2012 Savage Auras Deck:
+  Planechase 2012 Deck Savage Auras:
     card_count: 80
     deck:
     - name: Savage Auras
@@ -32,4 +32,17 @@ products:
     other:
     - name: Planechase 2012 Planar Die
     - name: Strategy Insert
-  Planechase 2012 Set of 4: []
+  Planechase 2012 Set of 4: 
+    sealed:
+    - set: pc2
+      count: 1
+      name: Planechase 2012 Deck Chaos Reigns
+    - set: pc2
+      count: 1
+      name: Planechase 2012 Deck Night of the Ninja
+    - set: pc2
+      count: 1
+      name: Planechase 2012 Deck Primordial Hunger
+    - set: pc2
+      count: 1
+      name: Planechase 2012 Deck Savage Auras
