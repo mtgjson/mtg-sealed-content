@@ -1,10 +1,5 @@
 code: ptc
 products:
-  Pro Tour Collector Set:
-    category: DECK_BOX
-    identifiers:
-      cardKingdomId: '240568'
-    subtype: CHAMPIONSHIP
   1996 World Championship Deck Bertrand Lestree:
     category: DECK
     identifiers:
@@ -44,4 +39,9 @@ products:
     category: DECK
     identifiers:
       tcgplayerProductId: '158321'
+    subtype: CHAMPIONSHIP
+  Pro Tour Collector Set:
+    category: DECK_BOX
+    identifiers:
+      cardKingdomId: '240568'
     subtype: CHAMPIONSHIP

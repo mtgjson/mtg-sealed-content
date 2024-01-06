@@ -1,31 +1,5 @@
 code: ptc
 products:
-  Pro Tour Collector Set:
-    sealed:
-    - count: 1
-      name: 1996 World Championship Deck Bertrand Lestree
-      set: ptc
-    - count: 1
-      name: 1996 World Championship Deck Eric Tam
-      set: ptc
-    - count: 1
-      name: 1996 World Championship Deck George Baxter
-      set: ptc
-    - count: 1
-      name: 1996 World Championship Deck Leon Lindback
-      set: ptc
-    - count: 1
-      name: 1996 World Championship Deck Mark Justice
-      set: ptc
-    - count: 1
-      name: 1996 World Championship Deck Michael Loconto
-      set: ptc
-    - count: 1
-      name: 1996 World Championship Deck Preston Poulter
-      set: ptc
-    - count: 1
-      name: 1996 World Championship Deck Shawn HAMMER Regnier
-      set: ptc
   1996 World Championship Deck Bertrand Lestree:
     card_count: 75
     deck:
@@ -65,4 +39,30 @@ products:
     card_count: 75
     deck:
     - name: Shawn Hammer Regnier, Quarterfinalist
+      set: ptc
+  Pro Tour Collector Set:
+    sealed:
+    - count: 1
+      name: 1996 World Championship Deck Bertrand Lestree
+      set: ptc
+    - count: 1
+      name: 1996 World Championship Deck Eric Tam
+      set: ptc
+    - count: 1
+      name: 1996 World Championship Deck George Baxter
+      set: ptc
+    - count: 1
+      name: 1996 World Championship Deck Leon Lindback
+      set: ptc
+    - count: 1
+      name: 1996 World Championship Deck Mark Justice
+      set: ptc
+    - count: 1
+      name: 1996 World Championship Deck Michael Loconto
+      set: ptc
+    - count: 1
+      name: 1996 World Championship Deck Preston Poulter
+      set: ptc
+    - count: 1
+      name: 1996 World Championship Deck Shawn HAMMER Regnier
       set: ptc
