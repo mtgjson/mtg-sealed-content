@@ -11,16 +11,16 @@ products:
     - code: default
       set: 3ed
   Revised Edition Gift Box:
-    sealed:
-    - set: 3ed
-      name: Revised Edition Starter Deck
-      count: 2
     other:
     - name: English Revised Edition Rule Book
     - name: Life Counter Note
     - name: Cloth Bag
     - name: 20 Light Blue Glass Counters
     - name: 10 Dark Blue Glass Counters
+    sealed:
+    - count: 2
+      name: Revised Edition Starter Deck
+      set: 3ed
   Revised Edition Starter Deck:
     card_count: 60
     other:

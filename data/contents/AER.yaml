@@ -15,17 +15,17 @@ products:
     pack:
     - code: default
       set: aer
-  Aether Revolt Bundle: 
-    sealed:
-    - set: aer
-      count: 10
-      name: Aether Revolt Booster Pack
+  Aether Revolt Bundle:
     other:
     - name: Aether Revolt Player's Guide
     - name: 80 Basic Land Pack
     - name: Magic Learn-to-play Guide
     - name: Aether Revolt Spindown
     - name: 2 Deck Boxes
+    sealed:
+    - count: 10
+      name: Aether Revolt Booster Pack
+      set: aer
   Aether Revolt Planeswalker Deck Ajani:
     card_count: 60
     deck:
@@ -60,18 +60,18 @@ products:
     - count: 1
       name: Aether Revolt Planeswalker Deck Tezzeret
       set: aer
-  Aether Revolt Prerelease Pack: 
-    sealed:
-    - set: aer
-      name: Aether Revolt Booster Pack
-      count: 4
-    - set: kld
-      name: Kaladesh Booster Pack
-      count: 2
+  Aether Revolt Prerelease Pack:
     card_count: 1
-    pack:
-    - set: aer
-      code: prerelease
     other:
     - name: Aether Revolt Prerelease Spindown
     - name: Deck Box
+    pack:
+    - code: prerelease
+      set: aer
+    sealed:
+    - count: 4
+      name: Aether Revolt Booster Pack
+      set: aer
+    - count: 2
+      name: Kaladesh Booster Pack
+      set: kld
