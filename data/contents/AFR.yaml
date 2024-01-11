@@ -11,7 +11,17 @@ products:
     - name: Play Guide Booklet
     - name: 2 Deck Boxes
     - name: First Game Walk-through Cards
-  2021 Arena Starter Kit Amazon: []
+  2021 Arena Starter Kit Amazon: 
+    card_count: 120
+    deck:
+    - name: Rough and Tumble Amazon
+      set: afr
+    - name: Sneak Attack Amazon
+      set: afr
+    other:
+    - name: Play Guide Booklet
+    - name: 2 Deck Boxes
+    - name: First Game Walk-through Cards
   Adventures in the Forgotten Realms Bundle:
     card:
     - foil: true

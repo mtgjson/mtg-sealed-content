@@ -10,7 +10,17 @@ products:
     pack:
     - code: default
       set: arb
-  Alara Reborn Fat Pack: []
+  Alara Reborn Fat Pack: 
+    sealed:
+    - set: arb
+      count: 8
+      name: Alara Reborn Booster Pack
+    other:
+    - name: Card Box
+    - name: The Alara Reborn Player's Guide
+    - name: Learn-to-play insert
+    - name: 40 Basic land pack
+    - name: Alara Reborn Spindown
   Alara Reborn Intro Pack Dead Ahead:
     card_count: 41
     deck:
@@ -20,7 +30,23 @@ products:
     - count: 1
       name: Alara Reborn Booster Pack
       set: arb
-  Alara Reborn Intro Pack Display: []
+  Alara Reborn Intro Pack Display: 
+    sealed:
+    - set: arb
+      count: 1
+      name: Alara Reborn Intro Pack Dead Ahead
+    - set: arb
+      count: 1
+      name: Alara Reborn Intro Pack Eternal Siege
+    - set: arb
+      count: 1
+      name: Alara Reborn Intro Pack Legion Aloft
+    - set: arb
+      count: 1
+      name: Alara Reborn Intro Pack Rumbler
+    - set: arb
+      count: 1
+      name: Alara Reborn Intro Pack Unnatural Schemes
   Alara Reborn Intro Pack Eternal Siege:
     card_count: 41
     deck:

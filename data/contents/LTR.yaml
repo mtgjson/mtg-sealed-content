@@ -1,6 +1,10 @@
 code: ltr
 products:
-  The Lord of the Rings Tales of Middle earth 3 Booster Draft Pack: []
+  The Lord of the Rings Tales of Middle earth 3 Booster Draft Pack: 
+    sealed:
+    - count: 3
+      name: The Lord of the Rings Tales of Middle earth Draft Booster Pack
+      set: ltr
   The Lord of the Rings Tales of Middle earth Box Topper Pack:
     card_count: 1
     pack:
@@ -81,11 +85,6 @@ products:
     card_count: 15
     pack:
     - code: default
-      set: ltr
-  The Lord of the Rings Tales of Middle earth Draft Booster Pack 3 Pack:
-    sealed:
-    - count: 3
-      name: The Lord of the Rings Tales of Middle earth Draft Booster Pack
       set: ltr
   The Lord of the Rings Tales of Middle earth Gift Bundle:
     card:
