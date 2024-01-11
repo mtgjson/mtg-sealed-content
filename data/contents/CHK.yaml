@@ -25,7 +25,20 @@ products:
     - count: 1
       name: Champions of Kamigawa Tournament Pack
       set: chk
-  Champions of Kamigawa Theme Deck Display: []
+  Champions of Kamigawa Theme Deck Display: 
+    sealed:
+    - set: chk
+      count: 3
+      name: Champions of Kamigawa Theme Deck Kami Reborn
+    - set: chk
+      count: 3
+      name: Champions of Kamigawa Theme Deck Snakes Path
+    - set: chk
+      count: 3
+      name: Champions of Kamigawa Theme Deck Spiritbane
+    - set: chk
+      count: 3
+      name: Champions of Kamigawa Theme Deck Way of the Warrior
   Champions of Kamigawa Theme Deck Kami Reborn:
     card_count: 60
     deck:
