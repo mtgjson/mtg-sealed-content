@@ -20,7 +20,7 @@ class card:
 
     def get_uuids(self, uuid_map):
         try:
-            self.uuid = uuid_map[self.set.lower()]["cards"][str(self.number)]
+            self.uuid = uuid_map.get(self.set.lower(), {})["cards"][str(self.number)]
         except:
             with open("status.txt", "a") as f:
                 f.write(f"Card number {self.number} not found in set {self.set}\n")
@@ -37,7 +37,7 @@ class pack:
         return data
 
     def get_uuids(self, uuid_map):
-        if self.code not in uuid_map[self.set.lower()]["booster"]:
+        if self.code not in uuid_map.get(self.set.lower(), {})["booster"]:
             print(f"Booster code {self.code} not found in set {self.set}")
             with open("status.txt", "a") as f:
                 f.write(f"Booster code {self.code} not found in set {self.set}\n")
@@ -53,7 +53,7 @@ class deck:
         return data
 
     def get_uuids(self, uuid_map):
-        if self.name not in uuid_map[self.set.lower()]["decks"]:
+        if self.name not in uuid_map.get(self.set.lower(), {}).get("decks"):
             print(f"Deck named {self.name} not found in set {self.set}")
             with open("status.txt", "a") as f:
                 f.write(f"Deck named {self.name} not found in set {self.set}\n")
@@ -74,7 +74,7 @@ class sealed:
 
     def get_uuids(self, uuid_map):
         try:
-            self.uuid = uuid_map[self.set.lower()]["sealedProduct"][self.name]
+            self.uuid = uuid_map.get(self.set.lower(), {})["sealedProduct"][self.name]
         except:
             with open("status.txt", "a") as f:
                 f.write(f"Product name {self.name} not found in set {self.set}\n")
