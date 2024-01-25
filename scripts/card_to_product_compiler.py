@@ -172,7 +172,10 @@ class MtgjsonCardLinker:
         return []
 
     def get_cards_in_pack(self, set_code: str, booster_code: str) -> List[Card]:
-        booster_data = self.mtgjson_data[set_code].get("booster")
+        try:
+            booster_data = self.mtgjson_data[set_code].get("booster")
+        except:
+            return []
         if not booster_data:
             return []
 
@@ -199,7 +202,10 @@ class MtgjsonCardLinker:
         return list(return_value)
 
     def get_cards_in_deck(self, set_code: str, deck_name: str) -> List[Card]:
-        decks_data = self.mtgjson_data[set_code].get("decks")
+        try:
+            decks_data = self.mtgjson_data[set_code].get("decks")
+        except:
+            return []
         if not decks_data:
             return []
 
