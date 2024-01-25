@@ -37,7 +37,11 @@ class pack:
         return data
 
     def get_uuids(self, uuid_map):
-        if self.code not in uuid_map.get(self.set.lower(), {})["booster"]:
+        try: 
+            umap = uuid_map.get(self.set.lower(), {})["booster"]
+        except:
+            f.write(f"Booster code {self.code} not found in set {self.set}\n")
+        if self.code not in umap:
             print(f"Booster code {self.code} not found in set {self.set}")
             with open("status.txt", "a") as f:
                 f.write(f"Booster code {self.code} not found in set {self.set}\n")
@@ -53,7 +57,11 @@ class deck:
         return data
 
     def get_uuids(self, uuid_map):
-        if self.name not in uuid_map.get(self.set.lower(), {}).get("decks"):
+        try:
+            umap = uuid_map.get(self.set.lower(), {}).get("decks")
+        except:
+            f.write(f"Deck named {self.name} not found in set {self.set}\n")
+        if self.name not in umap:
             print(f"Deck named {self.name} not found in set {self.set}")
             with open("status.txt", "a") as f:
                 f.write(f"Deck named {self.name} not found in set {self.set}\n")
