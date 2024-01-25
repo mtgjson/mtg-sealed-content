@@ -41,7 +41,7 @@ class pack:
             umap = uuid_map.get(self.set.lower(), {})["booster"]
         except:
             f.write(f"Booster code {self.code} not found in set {self.set}\n")
-        if self.code not in umap:
+        if umap and self.code not in umap:
             print(f"Booster code {self.code} not found in set {self.set}")
             with open("status.txt", "a") as f:
                 f.write(f"Booster code {self.code} not found in set {self.set}\n")
@@ -61,7 +61,7 @@ class deck:
             umap = uuid_map.get(self.set.lower(), {}).get("decks")
         except:
             f.write(f"Deck named {self.name} not found in set {self.set}\n")
-        if self.name not in umap:
+        if umap and self.name not in umap:
             print(f"Deck named {self.name} not found in set {self.set}")
             with open("status.txt", "a") as f:
                 f.write(f"Deck named {self.name} not found in set {self.set}\n")
