@@ -180,16 +180,16 @@ products:
     identifiers:
       tcgplayerProductId: '514991'
     subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Cards in Costume Foil:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: 518843
-    release_date: '2023-09-23'
-    subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Cards in Costume:
     category: BOX_SET
     identifiers:
       tcgplayerProductId: 518842
+    release_date: '2023-09-23'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Cards in Costume Foil:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: 518843
     release_date: '2023-09-23'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Carving Up A Barrel of Foils:
@@ -513,15 +513,15 @@ products:
     identifiers:
       tcgplayerProductId: '242356'
     subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Transformers Foil:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '456553'
-    subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Transformers:
     category: BOX_SET
     identifiers:
       tcgplayerProductId: '456552'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Transformers Foil:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '456553'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Voracious Reader:
     category: BOX_SET
@@ -1075,15 +1075,15 @@ products:
     identifiers:
       tcgplayerProductId: '205225'
     subtype: SECRET_LAIR
-  Secret Lair Drop Every Dog Has Its Day Foil:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '221330'
-    subtype: SECRET_LAIR
   Secret Lair Drop Every Dog Has Its Day:
     category: BOX_SET
     identifiers:
       tcgplayerProductId: '221329'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Every Dog Has Its Day Foil:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '221330'
     subtype: SECRET_LAIR
   Secret Lair Drop Extra Life 2020:
     category: BOX_SET
