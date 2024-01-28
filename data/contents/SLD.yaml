@@ -305,10 +305,50 @@ products:
     - count: 1
       name: Secret Lair Drop The Weirdest Pets in the Multiverse
       set: sld
-  Secret Lair Bundle Bugs Bands and Blockbusters: []
-  Secret Lair Bundle Bugs Bands and Blockbusters Bundle Foil: []
-  Secret Lair Bundle Cards in Costume Foil: []
-  Secret Lair Bundle Cards in Costume Non Foil: []
+  Secret Lair Bundle Bugs Bands and Blockbusters:
+    sealed:
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Keep Partying Hard Shred Harder Than You Previously Thought Possible
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Buggin Out
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Now on VHS
+  Secret Lair Bundle Bugs Bands and Blockbusters Bundle Foil:
+    sealed:
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Keep Partying Hard Shred Harder Than You Previously Thought Possible Foil
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Buggin Out Foil
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Now on VHS Foil
+  Secret Lair Bundle Cards in Costume Foil: 
+    sealed:
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Artist Series John Avon Foil
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x The Princess Bride Foil
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Meditations on Nature Foil
+  Secret Lair Bundle Cards in Costume:
+    sealed:
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Artist Series John Avon
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x The Princess Bride
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Meditations on Nature
   Secret Lair Bundle Carving Up A Barrel of Foils:
     sealed:
     - count: 1
@@ -473,10 +513,74 @@ products:
     - count: 1
       name: Secret Lair Drop Showcase Thrilling Tales of the Undead Foil
       set: sld
-  Secret Lair Bundle Fill My Cauldron with Almost Everything: []
-  Secret Lair Bundle Fill My Cauldron with Dr Who: []
-  Secret Lair Bundle Fill My Cauldron with Foils: []
-  Secret Lair Bundle Fill My Cauldron with Non Foils: []
+  Secret Lair Bundle Fill My Cauldron with Almost Everything:
+    sealed:
+    - set: sld
+      count: 1
+      name: Secret Lair Bundle Fill My Cauldron with Foils
+    - set: sld
+      count: 1
+      name: Secret Lair Bundle Fill My Cauldron with Non Foils
+  Secret Lair Bundle Fill My Cauldron with Dr Who: 
+    sealed:
+    - name: Secret Lair Drop Secret Lair x Doctor Who The Dalek Lands
+      set: sld
+      count: 1
+    - name: Secret Lair Drop Secret Lair x Doctor Who The Dalek Lands Foil
+      set: sld
+      count: 1
+    - name: Secret Lair Drop Secret Lair x Doctor Who The Weeping Angels
+      set: sld
+      count: 1
+    - name: Secret Lair Drop Secret Lair x Doctor Who The Weeping Angels Foil
+      set: sld
+      count: 1
+  Secret Lair Bundle Fill My Cauldron with Foils:
+    sealed:
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Creepshow Foil
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Doctor Who The Dalek Lands Foil
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Doctor Who The Weeping Angels Foil
+    - set: sld
+      name: Secret Lair Drop Secret Lair x The Princess Bride Foil
+      count: 1
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Artist Series John Avon Foil
+    - set: sld
+      count: 1
+      name: Secret Lair Drop PixelLands_v02jpg Foil
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Meditations on Nature Foil
+  Secret Lair Bundle Fill My Cauldron with Non Foils:
+    sealed:
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Creepshow
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Doctor Who The Dalek Lands
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Doctor Who The Weeping Angels
+    - set: sld
+      name: Secret Lair Drop Secret Lair x The Princess Bride
+      count: 1
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Artist Series John Avon
+    - set: sld
+      count: 1
+      name: Secret Lair Drop PixelLands_v02jpg
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Meditations on Nature
   Secret Lair Bundle Its Raining Foils And Non Foils:
     sealed:
     - count: 1
@@ -970,7 +1074,7 @@ products:
     - name: Artist Series Johannes Voss foil
       set: sld
   Secret Lair Drop Artist Series John Avon: []
-  Secret Lair Drop Artist Series John Avon Foil Edition: []
+  Secret Lair Drop Artist Series John Avon Foil: []
   Secret Lair Drop Artist Series Kev Walker:
     card_count: 4
     deck:
