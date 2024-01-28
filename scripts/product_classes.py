@@ -7,6 +7,7 @@ class card:
         self.name = contents["name"]
         self.set = contents["set"]
         self.number = contents["number"]
+        self.etched = contents.get("etched", False)
         self.foil = contents.get("foil", False)
         self.uuid = contents.get("uuid", False)
 
@@ -16,6 +17,8 @@ class card:
             data["uuid"] = self.uuid
         if self.foil:
             data["foil"] = self.foil
+        if self.etched:
+            data["etched"] = self.etched
         return data
 
     def get_uuids(self, uuid_map):
