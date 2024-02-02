@@ -1,53 +1,53 @@
 code: mkm
 products:
-  Murders at Karlov Manor Bundle: 
-    sealed:
-    - set: mkm
-      name: Murders at Karlov Manor Play Booster Pack
-      count: 9
+  Murders at Karlov Manor Bundle:
+    card:
+    - foil: true
+      name: Axebane Ferox
+      number: 428
+      set: mkm
     other:
     - name: Card Storage Box
     - name: Murders at Karlov Manor Spindown
     - name: 2 Reference Cards
     - name: 30 card basic land pack
-    card:
-    - set: mkm
-      foil: true
-      number: 428
-      name: Axebane Ferox
-  Murders at Karlov Manor Bundle Case: 
     sealed:
-    - set: mkm
-      name: Murders at Karlov Manor Bundle
-      count: 6
-  Murders at Karlov Manor Collector Booster Box: 
-    sealed:
-    - set: mkm
-      name: Murders at Karlov Manor Collector Booster Pack
-      count: 12
-  Murders at Karlov Manor Collector Booster Box Case:  
-    sealed:
-    - set: mkm
-      name: Murders at Karlov Manor Collector Booster Box
-      count: 6
-  Murders at Karlov Manor Collector Booster Pack: 
-    pack:
-    - set: mkm
-      code: collector
-    card_count: 15
-  Murders at Karlov Manor Play Booster Box: 
-    sealed: 
-    - set: mkm
+    - count: 9
       name: Murders at Karlov Manor Play Booster Pack
-      count: 36
-  Murders at Karlov Manor Play Booster Box Case:  
+      set: mkm
+  Murders at Karlov Manor Bundle Case:
     sealed:
-    - set: mkm
-      name: Murders at Karlov Manor Play Booster Box
-      count: 6
-  Murders at Karlov Manor Play Booster Pack:
+    - count: 6
+      name: Murders at Karlov Manor Bundle
+      set: mkm
+  Murders at Karlov Manor Collector Booster Box:
+    sealed:
+    - count: 12
+      name: Murders at Karlov Manor Collector Booster Pack
+      set: mkm
+  Murders at Karlov Manor Collector Booster Box Case:
+    sealed:
+    - count: 6
+      name: Murders at Karlov Manor Collector Booster Box
+      set: mkm
+  Murders at Karlov Manor Collector Booster Pack:
+    card_count: 15
     pack:
-    - set: mkm
-      code: play
+    - code: collector
+      set: mkm
+  Murders at Karlov Manor Play Booster Box:
+    sealed:
+    - count: 36
+      name: Murders at Karlov Manor Play Booster Pack
+      set: mkm
+  Murders at Karlov Manor Play Booster Box Case:
+    sealed:
+    - count: 6
+      name: Murders at Karlov Manor Play Booster Box
+      set: mkm
+  Murders at Karlov Manor Play Booster Pack:
     card_count: 14
+    pack:
+    - code: play
+      set: mkm
   Murders at Karlov Manor Prerelease Pack: []
