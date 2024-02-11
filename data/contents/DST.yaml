@@ -22,7 +22,20 @@ products:
     - count: 6
       name: Darksteel Booster Pack
       set: dst
-  Darksteel Theme Deck Display: []
+  Darksteel Theme Deck Display: 
+    sealed:
+    - set: dst
+      name: Darksteel Theme Deck Master Blaster
+      count: 3
+    - set: dst
+      name: Darksteel Theme Deck Mind Swarm
+      count: 3
+    - set: dst
+      name: Darksteel Theme Deck Swarm and Slam
+      count: 3
+    - set: dst
+      name: Darksteel Theme Deck Transference
+      count: 3
   Darksteel Theme Deck Master Blaster:
     card_count: 60
     deck:

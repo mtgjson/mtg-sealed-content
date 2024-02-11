@@ -31,7 +31,20 @@ products:
     deck:
     - name: Comeback
       set: pls
-  Planeshift Theme Deck Display: []
+  Planeshift Theme Deck Display: 
+    sealed:
+    - set: pls
+      name: Planeshift Theme Deck Barrage
+      count: 3
+    - set: pls
+      name: Planeshift Theme Deck Comeback
+      count: 3
+    - set: pls
+      name: Planeshift Theme Deck Domain
+      count: 3
+    - set: pls
+      name: Planeshift Theme Deck Scout
+      count: 3
   Planeshift Theme Deck Domain:
     card_count: 60
     deck:

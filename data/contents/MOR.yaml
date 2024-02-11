@@ -16,7 +16,20 @@ products:
     deck:
     - name: Battalion
       set: mor
-  Morningtide Theme Deck Display: []
+  Morningtide Theme Deck Display: 
+    sealed:
+    - set: mor
+      name: Morningtide Theme Deck Battalion
+      count: 3
+    - set: mor
+      name: Morningtide Theme Deck Going Rogue
+      count: 3
+    - set: mor
+      name: Morningtide Theme Deck Shamanism
+      count: 3
+    - set: mor
+      name: Morningtide Theme Deck Warriors Code
+      count: 3
   Morningtide Theme Deck Going Rogue:
     card_count: 60
     deck:

@@ -21,7 +21,47 @@ products:
     deck:
     - name: Aura Mastery
       set: shm
-  Shadowmoor Theme Deck Display: []
+  Shadowmoor Theme Deck Display: 
+    sealed:
+    - set: shm
+      name: Shadowmoor Theme Deck Army of Entropy
+      count: 2
+    - set: shm
+      name: Shadowmoor Theme Deck Aura Mastery
+      count: 2
+    - set: shm
+      name: Shadowmoor Theme Deck Mortal Coil
+      count: 2
+    - set: shm
+      name: Shadowmoor Theme Deck Overkill
+      count: 2
+    - set: shm
+      name: Shadowmoor Theme Deck Turnabout
+      count: 2
+    variable:
+    - sealed: 
+      - set: shm
+        name: Shadowmoor Theme Deck Army of Entropy
+        count: 1
+    - sealed: 
+      - set: shm
+        name: Shadowmoor Theme Deck Aura Mastery
+        count: 1
+    - sealed: 
+      - set: shm
+        name: Shadowmoor Theme Deck Mortal Coil
+        count: 1
+    - sealed: 
+      - set: shm
+        name: Shadowmoor Theme Deck Overkill
+        count: 1
+    - sealed: 
+      - set: shm
+        name: Shadowmoor Theme Deck Turnabout
+        count: 1
+    variable_mode:
+      count: 2
+      replacement: false
   Shadowmoor Theme Deck Mortal Coil:
     card_count: 60
     deck:

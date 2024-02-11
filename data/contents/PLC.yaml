@@ -11,7 +11,20 @@ products:
     - code: default
       set: plc
   Planar Chaos Fat Pack: []
-  Planar Chaos Theme Deck Display: []
+  Planar Chaos Theme Deck Display: 
+    sealed:
+    - set: plc
+      count: 3
+      name: Planar Chaos Theme Deck Endless March
+    - set: plc
+      count: 3
+      name: Planar Chaos Theme Deck Ixidors Legacy
+    - set: plc
+      count: 3
+      name: Planar Chaos Theme Deck Rituals of Rebirth
+    - set: plc
+      count: 3
+      name: Planar Chaos Theme Deck Unraveling Mind
   Planar Chaos Theme Deck Endless March:
     card_count: 60
     deck:

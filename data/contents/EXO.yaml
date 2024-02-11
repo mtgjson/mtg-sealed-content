@@ -10,7 +10,20 @@ products:
     pack:
     - code: default
       set: exo
-  Exodus Theme Deck Display: []
+  Exodus Theme Deck Display: 
+    sealed:
+    - set: exo
+      name: Exodus Theme Deck Dominator
+      count: 3
+    - set: exo
+      name: Exodus Theme Deck Groundbreaker
+      count: 3
+    - set: exo
+      name: Exodus Theme Deck White Heat
+      count: 3
+    - set: exo
+      name: Exodus Theme Deck Widowmaker
+      count: 3
   Exodus Theme Deck Dominator:
     card_count: 60
     deck:

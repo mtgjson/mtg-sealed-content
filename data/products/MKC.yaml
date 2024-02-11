@@ -4,17 +4,20 @@ products:
     category: DECK
     identifiers:
       tcgplayerProductId: '529980'
+      cardKingdomId: '289647'
     release_date: '2024-02-09'
     subtype: COMMANDER
   Murders at Karlov Manor Commander Deck Deadly Disguise:
     category: DECK
     identifiers:
+      cardKingdomId: '289648'
       tcgplayerProductId: '529977'
     release_date: '2024-02-09'
     subtype: COMMANDER
   Murders at Karlov Manor Commander Deck Deep Clue Sea:
     category: DECK
     identifiers:
+      cardKingdomId: '289649'
       tcgplayerProductId: '529979'
     release_date: '2024-02-09'
     subtype: COMMANDER
@@ -27,6 +30,12 @@ products:
   Murders at Karlov Manor Commander Deck Revenant Recon:
     category: DECK
     identifiers:
+      cardKingdomId: '289650'
       tcgplayerProductId: '529978'
     release_date: '2024-02-09'
+    subtype: COMMANDER
+  Murders at Karlov Manor Commander Decks Set of Four:
+    category: SUBSET
+    identifiers:
+      cardKingdomId: '289646'
     subtype: COMMANDER
