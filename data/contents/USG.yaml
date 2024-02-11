@@ -1,5 +1,15 @@
 code: usg
 products:
+  Urzas Saga Booster Box:
+    sealed:
+    - count: 36
+      name: Urzas Saga Booster Pack
+      set: usg
+  Urzas Saga Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: usg
   Urzas Saga Theme Deck Display:
     sealed:
     - count: 3
@@ -13,16 +23,6 @@ products:
       set: usg
     - count: 3
       name: Urzas Saga Theme Deck Tombstone
-      set: usg
-  Urzas Saga Booster Box:
-    sealed:
-    - count: 36
-      name: Urzas Saga Booster Pack
-      set: usg
-  Urzas Saga Booster Pack:
-    card_count: 15
-    pack:
-    - code: default
       set: usg
   Urzas Saga Theme Deck Sleeper:
     card_count: 60

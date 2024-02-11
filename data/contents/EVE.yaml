@@ -21,44 +21,44 @@ products:
     deck:
     - name: Death March
       set: eve
-  Eventide Theme Deck Display: 
+  Eventide Theme Deck Display:
     sealed:
-    - set: eve
+    - count: 2
       name: Eventide Theme Deck Battle Blitz
-      count: 2
-    - set: eve
+      set: eve
+    - count: 2
       name: Eventide Theme Deck Death March
-      count: 2
-    - set: eve
+      set: eve
+    - count: 2
       name: Eventide Theme Deck Life Drain
-      count: 2
-    - set: eve
+      set: eve
+    - count: 2
       name: Eventide Theme Deck Sidestep
-      count: 2
-    - set: eve
+      set: eve
+    - count: 2
       name: Eventide Theme Deck Superabundance
-      count: 2
+      set: eve
     variable:
     - sealed:
-      - set: eve
+      - count: 1
         name: Eventide Theme Deck Battle Blitz
-        count: 1
+        set: eve
     - sealed:
-      - set: eve
+      - count: 1
         name: Eventide Theme Deck Death March
-        count: 1
+        set: eve
     - sealed:
-      - set: eve
+      - count: 1
         name: Eventide Theme Deck Life Drain
-        count: 1
+        set: eve
     - sealed:
-      - set: eve
+      - count: 1
         name: Eventide Theme Deck Sidestep
-        count: 1
+        set: eve
     - sealed:
-      - set: eve
+      - count: 1
         name: Eventide Theme Deck Superabundance
-        count: 1
+        set: eve
     variable_mode:
       count: 2
       replacement: false

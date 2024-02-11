@@ -30,20 +30,20 @@ products:
     deck:
     - name: Bait and Bludgeon
       set: mrd
-  Mirrodin Theme Deck Display: 
+  Mirrodin Theme Deck Display:
     sealed:
-    - set: mrd
+    - count: 3
       name: Mirrodin Theme Deck Bait and Bludgeon
-      count: 3
-    - set: mrd
+      set: mrd
+    - count: 3
       name: Mirrodin Theme Deck Little Bashers
-      count: 3
-    - set: mrd
+      set: mrd
+    - count: 3
       name: Mirrodin Theme Deck Sacrificial Bam
-      count: 3
-    - set: mrd
+      set: mrd
+    - count: 3
       name: Mirrodin Theme Deck Wicked Big
-      count: 3
+      set: mrd
   Mirrodin Theme Deck Little Bashers:
     card_count: 60
     deck:

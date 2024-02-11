@@ -22,20 +22,20 @@ products:
     - count: 6
       name: Torment Booster Pack
       set: tor
-  Torment Theme Deck Display: 
+  Torment Theme Deck Display:
     sealed:
-    - set: tor
+    - count: 3
       name: Torment Theme Deck Grave Danger
-      count: 3
-    - set: tor
+      set: tor
+    - count: 3
       name: Torment Theme Deck Insanity
-      count: 3
-    - set: tor
+      set: tor
+    - count: 3
       name: Torment Theme Deck Sacrilege
-      count: 3
-    - set: tor
+      set: tor
+    - count: 3
       name: Torment Theme Deck Waking Nightmares
-      count: 3
+      set: tor
   Torment Theme Deck Grave Danger:
     card_count: 60
     deck:
