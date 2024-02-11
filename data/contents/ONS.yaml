@@ -40,7 +40,20 @@ products:
     deck:
     - name: Devastation
       set: ons
-  Onslaught Theme Deck Display: []
+  Onslaught Theme Deck Display: 
+    sealed:
+    - name: Onslaught Theme Deck Bait and Switch
+      count: 3
+      set: ons
+    - name: Onslaught Theme Deck Celestial Assault
+      count: 3
+      set: ons
+    - name: Onslaught Theme Deck Devastation
+      count: 3
+      set: ons
+    - name: Onslaught Theme Deck Ivory Doom
+      count: 3
+      set: ons
   Onslaught Theme Deck Ivory Doom:
     card_count: 60
     deck:

@@ -54,7 +54,23 @@ products:
     deck:
     - name: Deadly Instinct
       set: s99
-  Starter 1999 Theme Deck Display: []
+  Starter 1999 Theme Deck Display: 
+    sealed:
+    - set: s99
+      count: 3
+      name: Starter 1999 Theme Deck Blinding Fury
+    - set: s99
+      count: 3
+      name: Starter 1999 Theme Deck Deadly Instinct
+    - set: s99
+      count: 3
+      name: Starter 1999 Theme Deck Goblin Assault
+    - set: s99
+      count: 3
+      name: Starter 1999 Theme Deck Impaler
+    - set: s99
+      count: 3
+      name: Starter 1999 Theme Deck Time Curse
   Starter 1999 Theme Deck Goblin Assault:
     card_count: 40
     deck:

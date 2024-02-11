@@ -27,7 +27,20 @@ products:
     deck:
     - name: Breakdown
       set: nem
-  Nemesis Theme Deck Display: []
+  Nemesis Theme Deck Display: 
+    sealed:
+    - set: nem
+      name: Nemesis Theme Deck Breakdown
+      count: 3
+    - set: nem
+      name: Nemesis Theme Deck Eruption
+      count: 3
+    - set: nem
+      name: Nemesis Theme Deck Mercenaries
+      count: 3
+    - set: nem
+      name: Nemesis Theme Deck Replicator
+      count: 3
   Nemesis Theme Deck Eruption:
     card_count: 60
     deck:

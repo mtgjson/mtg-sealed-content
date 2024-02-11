@@ -25,7 +25,20 @@ products:
     deck:
     - name: Deep Freeze
       set: tmp
-  Tempest Theme Deck Display: []
+  Tempest Theme Deck Display: 
+    sealed:
+    - set: tmp
+      name: Tempest Theme Deck Deep Freeze
+      count: 3
+    - set: tmp
+      name: Tempest Theme Deck The Flames of Rath
+      count: 3
+    - set: tmp
+      name: Tempest Theme Deck The Slivers
+      count: 3
+    - set: tmp
+      name: Tempest Theme Deck The Swarm
+      count: 3
   Tempest Theme Deck The Flames of Rath:
     card_count: 60
     deck:
