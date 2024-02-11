@@ -16,7 +16,17 @@ products:
     deck:
     - name: Code of the Orzhov
       set: gpt
-  Guildpact Theme Deck Display: []
+  Guildpact Theme Deck Display: 
+    sealed:
+    - set: gpt
+      count: 4
+      name: Guildpact Theme Deck Code of the Orzhov
+    - set: gpt
+      count: 4
+      name: Guildpact Theme Deck Gruul Wilding
+    - set: gpt
+      count: 4
+      name: Guildpact Theme Deck Izzet Gizmometry
   Guildpact Theme Deck Gruul Wilding:
     card_count: 60
     deck:
