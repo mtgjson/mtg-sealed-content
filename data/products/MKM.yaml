@@ -4,6 +4,7 @@ products:
     category: BUNDLE
     identifiers:
       tcgplayerProductId: '529971'
+      cardKingdomId: '289643'
     release_date: '2024-02-09'
     subtype: DEFAULT
   Murders at Karlov Manor Bundle Case:
@@ -16,6 +17,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       tcgplayerProductId: '529968'
+      cardKingdomId: '289642'
     release_date: '2024-02-09'
     subtype: COLLECTOR
   Murders at Karlov Manor Collector Booster Box Case:
@@ -28,12 +30,14 @@ products:
     category: BOOSTER_PACK
     identifiers:
       tcgplayerProductId: '529967'
+      cardKingdomId: '289641'
     release_date: '2024-02-09'
     subtype: COLLECTOR
   Murders at Karlov Manor Play Booster Box:
     category: BOOSTER_BOX
     identifiers:
       tcgplayerProductId: '529964'
+      cardKingdomId: '289640'
     release_date: '2024-02-09'
     subtype: PLAY
   Murders at Karlov Manor Play Booster Box Case:
@@ -45,6 +49,7 @@ products:
   Murders at Karlov Manor Play Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardKingdomId: '289639'
       tcgplayerProductId: '529962'
     release_date: '2024-02-09'
     subtype: PLAY

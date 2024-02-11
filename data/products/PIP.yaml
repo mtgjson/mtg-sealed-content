@@ -3,6 +3,7 @@ products:
   Fallout Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      cardKingdomId: '291468'
       tcgplayerProductId: '523185'
     release_date: '2024-03-08'
     subtype: COLLECTOR
@@ -15,6 +16,7 @@ products:
   Fallout Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardKingdomId: '291469'
       tcgplayerProductId: '523180'
     release_date: '2024-03-08'
     subtype: COLLECTOR
@@ -27,24 +29,33 @@ products:
   Fallout Commander Deck Hail Caesar:
     category: DECK
     identifiers:
+      cardKingdomId: '291464'
       tcgplayerProductId: '522903'
     release_date: '2024-03-08'
     subtype: COMMANDER
   Fallout Commander Deck Mutant Menace:
     category: DECK
     identifiers:
+      cardKingdomId: '291465'
       tcgplayerProductId: '522902'
     release_date: '2024-03-08'
     subtype: COMMANDER
   Fallout Commander Deck Science:
     category: DECK
     identifiers:
+      cardKingdomId: '291466'
       tcgplayerProductId: '522905'
     release_date: '2024-03-08'
     subtype: COMMANDER
   Fallout Commander Deck Scrappy Survivors:
     category: DECK
     identifiers:
+      cardKingdomId: '291467'
       tcgplayerProductId: '522899'
     release_date: '2024-03-08'
+    subtype: COMMANDER
+  Fallout Commander Decks Set of Four:
+    category: SUBSET
+    identifiers:
+      cardKingdomId: '291470'
     subtype: COMMANDER
