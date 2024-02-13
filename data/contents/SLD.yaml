@@ -691,26 +691,26 @@ products:
       set: sld
   Secret Lair Bundle Places to Trick or Treat Foil Lands:
     sealed:
-    - set: sld
-      count: 1
+    - count: 1
       name: Secret Lair Drop Secret Lair x Doctor Who The Dalek Lands Foil
-    - set: sld
-      count: 1
+      set: sld
+    - count: 1
       name: Secret Lair Drop Meditations on Nature Foil
-    - set: sld
-      count: 1
+      set: sld
+    - count: 1
       name: Secret Lair Drop PixelLands_v02jpg Foil
-  Secret Lair Bundle Places to Trick or Treat Non Foil Lands: 
+      set: sld
+  Secret Lair Bundle Places to Trick or Treat Non Foil Lands:
     sealed:
-    - set: sld
-      count: 1
+    - count: 1
       name: Secret Lair Drop Secret Lair x Doctor Who The Dalek Lands
-    - set: sld
-      count: 1
+      set: sld
+    - count: 1
       name: Secret Lair Drop Meditations on Nature
-    - set: sld
-      count: 1
+      set: sld
+    - count: 1
       name: Secret Lair Drop PixelLands_v02jpg
+      set: sld
   Secret Lair Bundle Post Malone Bundle:
     sealed:
     - count: 1
@@ -802,70 +802,72 @@ products:
       set: sld
   Secret Lair Bundle Secretversary Superdrop 2023 Goodie Bag Loaded with Everything:
     sealed:
-    - set: sld
-      count: 1
-      name: Secret Lair Bundle Secretversary Superdrop 2023 Goodie Bag Loaded with Foils
-    - set: sld
-      count: 1
-      name: Secret Lair Bundle Secretversary Superdrop 2023 Goodie Bag Loaded with Non Foils
-  Secret Lair Bundle Secretversary Superdrop 2023 Goodie Bag Loaded with Foils: 
+    - count: 1
+      name: Secret Lair Bundle Secretversary Superdrop 2023 Goodie Bag Loaded with
+        Foils
+      set: sld
+    - count: 1
+      name: Secret Lair Bundle Secretversary Superdrop 2023 Goodie Bag Loaded with
+        Non Foils
+      set: sld
+  Secret Lair Bundle Secretversary Superdrop 2023 Goodie Bag Loaded with Foils:
     sealed:
-    - set: sld
-      count: 1
+    - count: 1
       name: Secret Lair Drop Secret Lair x Jurassic World Life Breaks Free Foil
-    - set: sld
-      count: 1
+      set: sld
+    - count: 1
       name: Secret Lair Drop Secret Lair x Jurassic World Dr Ian Malcolm Foil
-    - set: sld
-      count: 1
+      set: sld
+    - count: 1
       name: Secret Lair Drop Secret Lair x Tomb Raider Foil
-    - set: sld
-      count: 1
+      set: sld
+    - count: 1
       name: Secret Lair Drop Through the Wormhole Galaxy Foil
-    - set: sld
-      count: 1
+      set: sld
+    - count: 1
       name: Secret Lair Drop Showcase The Lost Caverns of Ixalan Foil
-    - set: sld
-      count: 1
+      set: sld
+    - count: 1
       name: Secret Lair Drop Mycosynthwave Foil
-    - set: sld
-      count: 1
+      set: sld
+    - count: 1
       name: Secret Lair Drop Tales of the Time Stoppers Foil
-    - set: sld
-      count: 1
+      set: sld
+    - count: 1
       name: Secret Lair Drop Gift Wrapped Foil
-    - set: sld
-      count: 1
+      set: sld
+    - count: 1
       name: Secret Lair Drop Paradise Frost Foil
-  Secret Lair Bundle Secretversary Superdrop 2023 Goodie Bag Loaded with Non Foils: 
+      set: sld
+  Secret Lair Bundle Secretversary Superdrop 2023 Goodie Bag Loaded with Non Foils:
     sealed:
-    - set: sld
-      count: 1
+    - count: 1
       name: Secret Lair Drop Secret Lair x Jurassic World Life Breaks Free
-    - set: sld
-      count: 1
+      set: sld
+    - count: 1
       name: Secret Lair Drop Secret Lair x Jurassic World Dr Ian Malcolm
-    - set: sld
-      count: 1
+      set: sld
+    - count: 1
       name: Secret Lair Drop Secret Lair x Tomb Raider
-    - set: sld
-      count: 1
+      set: sld
+    - count: 1
       name: Secret Lair Drop Through the Wormhole
-    - set: sld
-      count: 1
+      set: sld
+    - count: 1
       name: Secret Lair Drop Showcase The Lost Caverns of Ixalan
-    - set: sld
-      count: 1
+      set: sld
+    - count: 1
       name: Secret Lair Drop Mycosynthwave
-    - set: sld
-      count: 1
+      set: sld
+    - count: 1
       name: Secret Lair Drop Tales of the Time Stoppers
-    - set: sld
-      count: 1
+      set: sld
+    - count: 1
       name: Secret Lair Drop Gift Wrapped
-    - set: sld
-      count: 1
+      set: sld
+    - count: 1
       name: Secret Lair Drop Paradise Frost
+      set: sld
   Secret Lair Bundle Secretversary Superdrop 2023 Holiday Gift Bag: []
   Secret Lair Bundle Secretversary Superdrop 2023 Holiday Gift Bag Foil: []
   Secret Lair Bundle Secretversary Superdrop 2023 Jungle: []
@@ -1167,12 +1169,12 @@ products:
     deck:
     - name: Artist Series Johannes Voss foil
       set: sld
-  Secret Lair Drop Artist Series John Avon: 
+  Secret Lair Drop Artist Series John Avon:
     card_count: 4
     deck:
     - name: Artist Series John Avon
       set: sld
-  Secret Lair Drop Artist Series John Avon Foil: 
+  Secret Lair Drop Artist Series John Avon Foil:
     card_count: 4
     deck:
     - name: Artist Series John Avon foil
@@ -1482,7 +1484,7 @@ products:
     deck:
     - name: Buggin Out foil
       set: sld
-  Secret Lair Drop Calling All Hydra Heads: 
+  Secret Lair Drop Calling All Hydra Heads:
     card_count: 6
     deck:
     - name: Calling All Hydra Heads foil
@@ -1592,24 +1594,24 @@ products:
     deck:
     - name: Dan Frazier's Mox Box
       set: sld
-  Secret Lair Drop Death Is Temporary Metal Is Forever: 
+  Secret Lair Drop Death Is Temporary Metal Is Forever:
     card_count: 5
     deck:
     - name: Death is Temporary Metal is Forever
       set: sld
-  Secret Lair Drop Death Is Temporary Metal Is Forever Foil: 
+  Secret Lair Drop Death Is Temporary Metal Is Forever Foil:
     card_count: 5
     deck:
     - name: Death is Temporary Metal is Forever foil
       set: sld
-  Secret Lair Drop Deceptive Divination: 
+  Secret Lair Drop Deceptive Divination:
     card_count: 5
-    deck: 
+    deck:
     - name: Deceptive Divination
       set: sld
-  Secret Lair Drop Deceptive Divination Rainbow Foil: 
+  Secret Lair Drop Deceptive Divination Rainbow Foil:
     card_count: 5
-    deck: 
+    deck:
     - name: Deceptive Divination foil
       set: sld
   Secret Lair Drop Draw Your Hand:
