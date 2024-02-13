@@ -689,8 +689,28 @@ products:
     - count: 1
       name: Secret Lair Drop Showcase Thrilling Tales of the Undead
       set: sld
-  Secret Lair Bundle Places to Trick or Treat Foil Lands: []
-  Secret Lair Bundle Places to Trick or Treat Non Foil Lands: []
+  Secret Lair Bundle Places to Trick or Treat Foil Lands:
+    sealed:
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Doctor Who The Dalek Lands Foil
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Meditations on Nature Foil
+    - set: sld
+      count: 1
+      name: Secret Lair Drop PixelLands_v02jpg Foil
+  Secret Lair Bundle Places to Trick or Treat Non Foil Lands: 
+    sealed:
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Doctor Who The Dalek Lands
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Meditations on Nature
+    - set: sld
+      count: 1
+      name: Secret Lair Drop PixelLands_v02jpg
   Secret Lair Bundle Post Malone Bundle:
     sealed:
     - count: 1
@@ -780,9 +800,72 @@ products:
     - count: 1
       name: Secret Lair Drop Secret Lair x Warhammer Age of Sigmar Foil
       set: sld
-  Secret Lair Bundle Secretversary Superdrop 2023 Goodie Bag Loaded with Everything: []
-  Secret Lair Bundle Secretversary Superdrop 2023 Goodie Bag Loaded with Foils: []
-  Secret Lair Bundle Secretversary Superdrop 2023 Goodie Bag Loaded with Non Foils: []
+  Secret Lair Bundle Secretversary Superdrop 2023 Goodie Bag Loaded with Everything:
+    sealed:
+    - set: sld
+      count: 1
+      name: Secret Lair Bundle Secretversary Superdrop 2023 Goodie Bag Loaded with Foils
+    - set: sld
+      count: 1
+      name: Secret Lair Bundle Secretversary Superdrop 2023 Goodie Bag Loaded with Non Foils
+  Secret Lair Bundle Secretversary Superdrop 2023 Goodie Bag Loaded with Foils: 
+    sealed:
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Jurassic World Life Breaks Free Foil
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Jurassic World Dr Ian Malcolm Foil
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Tomb Raider Foil
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Through the Wormhole Galaxy Foil
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Showcase The Lost Caverns of Ixalan Foil
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Mycosynthwave Foil
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Tales of the Time Stoppers Foil
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Gift Wrapped Foil
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Paradise Frost Foil
+  Secret Lair Bundle Secretversary Superdrop 2023 Goodie Bag Loaded with Non Foils: 
+    sealed:
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Jurassic World Life Breaks Free
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Jurassic World Dr Ian Malcolm
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Tomb Raider
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Through the Wormhole
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Showcase The Lost Caverns of Ixalan
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Mycosynthwave
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Tales of the Time Stoppers
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Gift Wrapped
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Paradise Frost
   Secret Lair Bundle Secretversary Superdrop 2023 Holiday Gift Bag: []
   Secret Lair Bundle Secretversary Superdrop 2023 Holiday Gift Bag Foil: []
   Secret Lair Bundle Secretversary Superdrop 2023 Jungle: []
