@@ -1167,8 +1167,16 @@ products:
     deck:
     - name: Artist Series Johannes Voss foil
       set: sld
-  Secret Lair Drop Artist Series John Avon: []
-  Secret Lair Drop Artist Series John Avon Foil: []
+  Secret Lair Drop Artist Series John Avon: 
+    card_count: 4
+    deck:
+    - name: Artist Series John Avon
+      set: sld
+  Secret Lair Drop Artist Series John Avon Foil: 
+    card_count: 4
+    deck:
+    - name: Artist Series John Avon foil
+      set: sld
   Secret Lair Drop Artist Series Kev Walker:
     card_count: 4
     deck:
@@ -1474,7 +1482,11 @@ products:
     deck:
     - name: Buggin Out foil
       set: sld
-  Secret Lair Drop Calling All Hydra Heads: []
+  Secret Lair Drop Calling All Hydra Heads: 
+    card_count: 6
+    deck:
+    - name: Calling All Hydra Heads foil
+      set: sld
   Secret Lair Drop Can You Feel with a Heart of Steel:
     card_count: 4
     deck:
@@ -1580,10 +1592,26 @@ products:
     deck:
     - name: Dan Frazier's Mox Box
       set: sld
-  Secret Lair Drop Death Is Temporary Metal Is Forever: []
-  Secret Lair Drop Death Is Temporary Metal Is Forever Foil: []
-  Secret Lair Drop Deceptive Divination: []
-  Secret Lair Drop Deceptive Divination Rainbow Foil: []
+  Secret Lair Drop Death Is Temporary Metal Is Forever: 
+    card_count: 5
+    deck:
+    - name: Death is Temporary Metal is Forever
+      set: sld
+  Secret Lair Drop Death Is Temporary Metal Is Forever Foil: 
+    card_count: 5
+    deck:
+    - name: Death is Temporary Metal is Forever foil
+      set: sld
+  Secret Lair Drop Deceptive Divination: 
+    card_count: 5
+    deck: 
+    - name: Deceptive Divination
+      set: sld
+  Secret Lair Drop Deceptive Divination Rainbow Foil: 
+    card_count: 5
+    deck: 
+    - name: Deceptive Divination foil
+      set: sld
   Secret Lair Drop Draw Your Hand:
     card_count: 5
     deck:
