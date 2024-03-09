@@ -65,7 +65,23 @@ products:
     - count: 2
       name: Battle for Zendikar Booster Pack
       set: bfz
-  Battle for Zendikar Intro Pack Display: []
+  Battle for Zendikar Intro Pack Display: 
+    sealed:
+    - count: 2
+      name: Battle for Zendikar Intro Pack Call of Blood
+      set: bfz
+    - count: 2
+      name: Battle for Zendikar Intro Pack Eldrazi Assault
+      set: bfz
+    - count: 2
+      name: Battle for Zendikar Intro Pack Rallying Cry
+      set: bfz
+    - count: 2
+      name: Battle for Zendikar Intro Pack Swarming Instinct
+      set: bfz
+    - count: 2
+      name: Battle for Zendikar Intro Pack Zendikars Rage
+      set: bfz
   Battle for Zendikar Intro Pack Eldrazi Assault:
     card_count: 60
     deck:

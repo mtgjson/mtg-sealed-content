@@ -1,13 +1,69 @@
 code: blb
 products:
-  Bloomburrow Bundle: []
-  Bloomburrow Bundle Case: []
-  Bloomburrow Collector Booster Box: []
-  Bloomburrow Collector Booster Box Case: []
-  Bloomburrow Collector Booster Pack: []
-  Bloomburrow Play Booster Box: []
-  Bloomburrow Play Booster Box Case: []
-  Bloomburrow Play Booster Pack: []
-  Bloomburrow Prerelease Pack: []
-  Bloomburrow Starter Kit: []
-  Bloomburrow Starter Kit Case: []
+  Bloomburrow Bundle: 
+    sealed:
+    - set: blb
+      name: Bloomburrow Play Booster Pack
+      count: 9
+    other:
+    - name: Foil promo card
+    - name: 30 card land pack
+    - name: Bloomburrow Spindown
+  Bloomburrow Bundle Case: 
+    sealed:
+    - set: blb
+      name: Bloomburrow Bundle
+      count: 6
+  Bloomburrow Collector Booster Box: 
+    sealed:
+    - set: blb
+      name: Bloomburrow Collector Booster Pack
+      count: 12
+  Bloomburrow Collector Booster Box Case: 
+    sealed:
+    - set: blb
+      name: Bloomburrow Collector Booster Box
+      count: 6
+  Bloomburrow Collector Booster Pack: 
+    card_count: 15
+    pack:
+    - set: blb
+      code: collector
+  Bloomburrow Play Booster Box: 
+    sealed:
+    - set: blb
+      count: 36
+      name: Bloomburrow Play Booster Pack
+  Bloomburrow Play Booster Box Case: 
+    sealed:
+    - set: blb
+      count: 6
+      name: Bloomburrow Play Booster Box
+  Bloomburrow Play Booster Pack: 
+    card_count: 14
+    pack:
+    - set: blb
+      code: play
+  Bloomburrow Prerelease Pack: 
+    sealed:
+    - set: blb
+      name: Bloomburrow Play Booster Pack
+      count: 6
+    pack:
+    - set: blb
+      code: prerelease
+    card_count: 1
+    other:
+    - name: Bloomburrow Spindown
+  Bloomburrow Starter Kit: 
+    card_count: 120
+    deck:
+    - set: blb
+      name: Blue Red
+    - set: blb
+      name: Green White
+  Bloomburrow Starter Kit Case: 
+    sealed:
+    - set: blb
+      count: 12
+      name: Bloomburrow Starter Kit
