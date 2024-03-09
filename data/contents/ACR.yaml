@@ -1,12 +1,57 @@
 code: acr
 products:
-  Universes Beyond Assassins Creed Beyond Booster Box: []
-  Universes Beyond Assassins Creed Beyond Booster Box Case: []
-  Universes Beyond Assassins Creed Beyond Booster Pack: []
-  Universes Beyond Assassins Creed Bundle: []
-  Universes Beyond Assassins Creed Bundle Case: []
-  Universes Beyond Assassins Creed Collector Booster Box: []
-  Universes Beyond Assassins Creed Collector Booster Box Case: []
-  Universes Beyond Assassins Creed Collector Booster Pack: []
-  Universes Beyond Assassins Creed Starter Kit: []
-  Universes Beyond Assassins Creed Starter Kit Case: []
+  Universes Beyond Assassins Creed Beyond Booster Box: 
+    sealed:
+    - set: acr
+      name: Universes Beyond Assassins Creed Beyond Booster Pack
+      count: 24
+  Universes Beyond Assassins Creed Beyond Booster Box Case: 
+    sealed:
+    - set: acr
+      name: Universes Beyond Assassins Creed Beyond Booster Box
+      count: 6
+  Universes Beyond Assassins Creed Beyond Booster Pack: 
+    card_count: 7
+    pack:
+    - set: acr
+      code: beyond
+  Universes Beyond Assassins Creed Bundle: 
+    sealed:
+    - set: acr
+      count: 9
+      name: Universes Beyond Assassins Creed Beyond Booster Pack
+    other:
+    - name: 40 card land Pack
+    - name: Assassin's Creed spindown
+  Universes Beyond Assassins Creed Bundle Case: 
+    sealed:
+    - set: acr
+      count: 6
+      name: Universes Beyond Assassins Creed Bundle
+  Universes Beyond Assassins Creed Collector Booster Box: 
+    sealed:
+    - set: acr
+      count: 12
+      name: Universes Beyond Assassins Creed Collector Booster Pack
+  Universes Beyond Assassins Creed Collector Booster Box Case: 
+    sealed:
+    - set: acr
+      count: 6
+      name: Universes Beyond Assassins Creed Collector Booster Box
+  Universes Beyond Assassins Creed Collector Booster Pack: 
+    card_count: 10
+    pack:
+    - set: acr
+      code: collector
+  Universes Beyond Assassins Creed Starter Kit: 
+    card_count: 120
+    deck:
+    - set: acr
+      name: Blue Black
+    - set: acr
+      name: Red White
+  Universes Beyond Assassins Creed Starter Kit Case: 
+    sealed:
+    - set: acr
+      count: 12
+      name: Universes Beyond Assassins Creed Starter Kit
