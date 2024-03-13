@@ -1,4 +1,14 @@
 code: ps15
 products:
-  SDCC 2015 Magic Origins Black Planeswalkers Set: []
-  SDCC 2015 Magic Origins Black Planeswalkers Set (No Book): []
+  SDCC 2015 Magic Origins Black Planeswalkers Set:
+    card_count: 5
+    deck:
+    - name: SDCC 2015 Planeswalker Set
+      set: ps15
+    other:
+    - name: Magic Origins Planeswalker Anthology Book
+  SDCC 2015 Magic Origins Black Planeswalkers Set (No Book):
+    card_count: 5
+    deck:
+    - name: SDCC 2015 Planeswalker Set
+      set: ps15
