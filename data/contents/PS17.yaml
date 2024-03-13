@@ -1,4 +1,14 @@
 code: ps17
 products:
-  SDCC 2017 Planeswalker Set: []
-  SDCC 2017 Planeswalker Set (No Poster): []
+  SDCC 2017 Planeswalker Set:
+    card_count: 6
+    deck:
+    - name: SDCC 2017 Planeswalker Set
+      set: ps17
+    other:
+    - name: Screen print of Nicol Bolas illustrated by Brandon Holt
+  SDCC 2017 Planeswalker Set (No Poster):
+    card_count: 6
+    deck:
+    - name: SDCC 2017 Planeswalker Set
+      set: ps17
