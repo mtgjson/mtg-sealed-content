@@ -20,7 +20,17 @@ products:
     deck:
     - name: Strength Of Selesnya
       set: dgm
-  Dragons Maze Fat Pack: []
+  Dragons Maze Fat Pack: 
+    sealed:
+    - set: dgm
+      count: 9
+      name: Dragons Maze Booster Pack
+    other:
+    - name: Card Box
+    - name: Dragon's Maze Spindown Counter
+    - name: Player's Guide
+    - name: 80-card Land Pack
+    - name: Learn to Play Insert
   Dragons Maze Intro Pack Azorius Authority:
     card_count: 60
     deck:
@@ -30,7 +40,23 @@ products:
     - count: 2
       name: Dragons Maze Booster Pack
       set: dgm
-  Dragons Maze Intro Pack Display: []
+  Dragons Maze Intro Pack Display: 
+    sealed:
+    - set: dgm
+      count: 2
+      name: Dragons Maze Intro Pack Azorius Authority
+    - set: dgm
+      count: 2
+      name: Dragons Maze Intro Pack Gruul Siege
+    - set: dgm
+      count: 2
+      name: Dragons Maze Intro Pack Orzhov Power
+    - set: dgm
+      count: 2
+      name: Dragons Maze Intro Pack Rakdos Revelry
+    - set: dgm
+      count: 2
+      name: Dragons Maze Intro Pack Simic Domination
   Dragons Maze Intro Pack Gruul Siege:
     card_count: 60
     deck:
@@ -116,13 +142,223 @@ products:
     - count: 1
       name: Dragons Maze Prerelease Guild Kit Simic
       set: dgm
-  Dragons Maze Prerelease Guild Kit Azorius: []
-  Dragons Maze Prerelease Guild Kit Boros: []
-  Dragons Maze Prerelease Guild Kit Dimir: []
-  Dragons Maze Prerelease Guild Kit Golgari: []
-  Dragons Maze Prerelease Guild Kit Gruul: []
-  Dragons Maze Prerelease Guild Kit Izzet: []
-  Dragons Maze Prerelease Guild Kit Orzhov: []
-  Dragons Maze Prerelease Guild Kit Rakdos: []
-  Dragons Maze Prerelease Guild Kit Selesnya: []
-  Dragons Maze Prerelease Guild Kit Simic: []
+  Dragons Maze Prerelease Guild Kit Azorius: 
+    card_count: 30
+    pack:
+    - set: rtr
+      code: prerelease-azorius
+    sealed:
+    - set: dgm
+      count: 4
+      name: Dragons Maze Booster Pack
+    variable:
+    - pack:
+      - set: gtc
+        code: prerelease-orzhov
+      - set: gtc
+        code: prerelease-dimir
+      - set: gtc
+        code: prerelease-boros
+      - set: gtc
+        code: prerelease-simic
+    variable_mode:
+      count: 1
+      replacement: false
+  Dragons Maze Prerelease Guild Kit Boros: 
+    card_count: 30
+    pack:
+    - set: gtc
+      code: prerelease-boros
+    sealed:
+    - set: dgm
+      count: 4
+      name: Dragons Maze Booster Pack
+    variable:
+    - pack:
+      - set: rtr
+        code: prerelease-azorius
+      - set: rtr
+        code: prerelease-izzet
+      - set: rtr
+        code: prerelease-rakdos
+      - set: rtr
+        code: prerelease-selesnya
+    variable_mode:
+      count: 1
+      replacement: false
+  Dragons Maze Prerelease Guild Kit Dimir: 
+    card_count: 30
+    pack:
+    - set: gtc
+      code: prerelease-dimir
+    sealed:
+    - set: dgm
+      count: 4
+      name: Dragons Maze Booster Pack
+    variable:
+    - pack:
+      - set: rtr
+        code: prerelease-azorius
+      - set: rtr
+        code: prerelease-izzet
+      - set: rtr
+        code: prerelease-rakdos
+      - set: rtr
+        code: prerelease-golgari
+    variable_mode:
+      count: 1
+      replacement: false
+  Dragons Maze Prerelease Guild Kit Golgari: 
+    card_count: 30
+    pack:
+    - set: rtr
+      code: prerelease-golgari
+    sealed:
+    - set: dgm
+      count: 4
+      name: Dragons Maze Booster Pack
+    variable:
+    - pack:
+      - set: gtc
+        code: prerelease-orzhov
+      - set: gtc
+        code: prerelease-dimir
+      - set: gtc
+        code: prerelease-gruul
+      - set: gtc
+        code: prerelease-simic
+    variable_mode:
+      count: 1
+      replacement: false
+  Dragons Maze Prerelease Guild Kit Gruul: 
+    card_count: 30
+    pack:
+    - set: gtc
+      code: prerelease-boros
+    sealed:
+    - set: dgm
+      count: 4
+      name: Dragons Maze Booster Pack
+    variable:
+    - pack:
+      - set: rtr
+        code: prerelease-golgari
+      - set: rtr
+        code: prerelease-izzet
+      - set: rtr
+        code: prerelease-rakdos
+      - set: rtr
+        code: prerelease-selesnya
+    variable_mode:
+      count: 1
+      replacement: false
+  Dragons Maze Prerelease Guild Kit Izzet: 
+    card_count: 30
+    pack:
+    - set: rtr
+      code: prerelease-izzet
+    sealed:
+    - set: dgm
+      count: 4
+      name: Dragons Maze Booster Pack
+    variable:
+    - pack:
+      - set: gtc
+        code: prerelease-gruul
+      - set: gtc
+        code: prerelease-dimir
+      - set: gtc
+        code: prerelease-boros
+      - set: gtc
+        code: prerelease-simic
+    variable_mode:
+      count: 1
+      replacement: false
+  Dragons Maze Prerelease Guild Kit Orzhov: 
+    card_count: 30
+    pack:
+    - set: gtc
+      code: prerelease-boros
+    sealed:
+    - set: dgm
+      count: 4
+      name: Dragons Maze Booster Pack
+    variable:
+    - pack:
+      - set: rtr
+        code: prerelease-azorius
+      - set: rtr
+        code: prerelease-golgari
+      - set: rtr
+        code: prerelease-rakdos
+      - set: rtr
+        code: prerelease-selesnya
+    variable_mode:
+      count: 1
+      replacement: false
+  Dragons Maze Prerelease Guild Kit Rakdos: 
+    card_count: 30
+    pack:
+    - set: rtr
+      code: prerelease-rakdos
+    sealed:
+    - set: dgm
+      count: 4
+      name: Dragons Maze Booster Pack
+    variable:
+    - pack:
+      - set: gtc
+        code: prerelease-orzhov
+      - set: gtc
+        code: prerelease-dimir
+      - set: gtc
+        code: prerelease-boros
+      - set: gtc
+        code: prerelease-gruul
+    variable_mode:
+      count: 1
+      replacement: false
+  Dragons Maze Prerelease Guild Kit Selesnya: 
+    card_count: 30
+    pack:
+    - set: rtr
+      code: prerelease-selesnya
+    sealed:
+    - set: dgm
+      count: 4
+      name: Dragons Maze Booster Pack
+    variable:
+    - pack:
+      - set: gtc
+        code: prerelease-orzhov
+      - set: gtc
+        code: prerelease-gruul
+      - set: gtc
+        code: prerelease-boros
+      - set: gtc
+        code: prerelease-simic
+    variable_mode:
+      count: 1
+      replacement: false
+  Dragons Maze Prerelease Guild Kit Simic: 
+    card_count: 30
+    pack:
+    - set: gtc
+      code: prerelease-boros
+    sealed:
+    - set: dgm
+      count: 4
+      name: Dragons Maze Booster Pack
+    variable:
+    - pack:
+      - set: rtr
+        code: prerelease-azorius
+      - set: rtr
+        code: prerelease-izzet
+      - set: rtr
+        code: prerelease-golgari
+      - set: rtr
+        code: prerelease-selesnya
+    variable_mode:
+      count: 1
+      replacement: false

@@ -86,7 +86,23 @@ products:
     - count: 2
       name: Gatecrash Booster Pack
       set: gtc
-  Gatecrash Intro Pack Display: []
+  Gatecrash Intro Pack Display: 
+    sealed:
+    - count: 2
+      name: Gatecrash Intro Pack Boros Battalion
+      set: gtc
+    - count: 2
+      name: Gatecrash Intro Pack Dimir Dementia
+      set: gtc
+    - count: 2
+      name: Gatecrash Intro Pack Gruul Goliaths
+      set: gtc
+    - count: 2
+      name: Gatecrash Intro Pack Orzhov Oppression
+      set: gtc
+    - count: 2
+      name: Gatecrash Intro Pack Simic Synthesis
+      set: gtc
   Gatecrash Intro Pack Gruul Goliaths:
     card_count: 60
     deck:
@@ -131,11 +147,71 @@ products:
     - count: 2
       name: Gatecrash Booster Pack
       set: gtc
-  Gatecrash Prerelease Kit Boros: []
-  Gatecrash Prerelease Kit Dimir: []
-  Gatecrash Prerelease Kit Gruul: []
-  Gatecrash Prerelease Kit Orzhov: []
-  Gatecrash Prerelease Kit Simic: []
+  Gatecrash Prerelease Kit Boros: 
+    card_count: 16
+    pack:
+    - set: gtc
+      code: prerelease-boros
+    - set: gtc
+      code: prerelease-promo-boros
+    sealed:
+    - set: gtc
+      count: 5
+      name: Gatecrash Booster Pack
+    other:
+    - name: Gatecrash Spindown Life Counter
+  Gatecrash Prerelease Kit Dimir: 
+    card_count: 16
+    pack:
+    - set: gtc
+      code: prerelease-dimir
+    - set: gtc
+      code: prerelease-promo-dimir
+    sealed:
+    - set: gtc
+      count: 5
+      name: Gatecrash Booster Pack
+    other:
+    - name: Gatecrash Spindown Life Counter
+  Gatecrash Prerelease Kit Gruul: 
+    card_count: 16
+    pack:
+    - set: gtc
+      code: prerelease-gruul
+    - set: gtc
+      code: prerelease-promo-gruul
+    sealed:
+    - set: gtc
+      count: 5
+      name: Gatecrash Booster Pack
+    other:
+    - name: Gatecrash Spindown Life Counter
+  Gatecrash Prerelease Kit Orzhov: 
+    card_count: 16
+    pack:
+    - set: gtc
+      code: prerelease-orzhov
+    - set: gtc
+      code: prerelease-promo-orzhov
+    sealed:
+    - set: gtc
+      count: 5
+      name: Gatecrash Booster Pack
+    other:
+    - name: Gatecrash Spindown Life Counter
+  Gatecrash Prerelease Kit Simic: 
+    card_count: 16
+    pack:
+    - set: gtc
+      code: prerelease-simic
+    - set: gtc
+      code: prerelease-promo-simic
+    sealed:
+    - set: gtc
+      count: 5
+      name: Gatecrash Booster Pack
+    other:
+    - name: Gatecrash Spindown Life Counter
   Gatecrash Prerelease Kits Set of 5:
     sealed:
     - count: 1
