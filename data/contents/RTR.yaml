@@ -57,6 +57,23 @@ products:
     - count: 2
       name: Return to Ravnica Booster Pack
       set: rtr
+  Return to Ravnica Intro Pack Display:
+    sealed:
+    - count: 2
+      name: Return to Ravnica Intro Pack Azorius Advance
+      set: rtr
+    - count: 2
+      name: Return to Ravnica Intro Pack Golgari Growth
+      set: rtr
+    - count: 2
+      name: Return to Ravnica Intro Pack Izzet Ingenuity
+      set: rtr
+    - count: 2
+      name: Return to Ravnica Intro Pack Rakdos Raid
+      set: rtr
+    - count: 2
+      name: Return to Ravnica Intro Pack Selesnya Surge
+      set: rtr
   Return to Ravnica Intro Pack Golgari Growth:
     card_count: 60
     deck:
@@ -93,23 +110,6 @@ products:
     - count: 2
       name: Return to Ravnica Booster Pack
       set: rtr
-  Return to Ravnica Intro Pack Display:
-    sealed:
-    - count: 2
-      name: Return to Ravnica Intro Pack Azorius Advance
-      set: rtr
-    - count: 2
-      name: Return to Ravnica Intro Pack Golgari Growth
-      set: rtr
-    - count: 2
-      name: Return to Ravnica Intro Pack Izzet Ingenuity
-      set: rtr
-    - count: 2
-      name: Return to Ravnica Intro Pack Rakdos Raid
-      set: rtr
-    - count: 2
-      name: Return to Ravnica Intro Pack Selesnya Surge
-      set: rtr
   Return to Ravnica Intro Packs Set of 5:
     sealed:
     - count: 1
@@ -127,71 +127,71 @@ products:
     - count: 1
       name: Return to Ravnica Intro Pack Selesnya Surge
       set: rtr
-  Return to Ravnica Prerelease Pack Azorius: 
+  Return to Ravnica Prerelease Pack Azorius:
     card_count: 16
-    pack:
-    - set: rtr
-      code: prerelease-azorius
-    - set: rtr
-      code: prerelease-promo-azorius
-    sealed:
-    - set: rtr
-      count: 5
-      name: Return to Ravnica Booster Pack
     other:
     - name: Return to Ravnica Spindown Life Counter
-  Return to Ravnica Prerelease Pack Golgari: 
-    card_count: 16
     pack:
-    - set: rtr
-      code: prerelease-golgari
-    - set: rtr
-      code: prerelease-promo-golgari
+    - code: prerelease-azorius
+      set: rtr
+    - code: prerelease-promo-azorius
+      set: rtr
     sealed:
-    - set: rtr
-      count: 5
+    - count: 5
       name: Return to Ravnica Booster Pack
+      set: rtr
+  Return to Ravnica Prerelease Pack Golgari:
+    card_count: 16
     other:
     - name: Return to Ravnica Spindown Life Counter
-  Return to Ravnica Prerelease Pack Izzet: 
-    card_count: 16
     pack:
-    - set: rtr
-      code: prerelease-izzet
-    - set: rtr
-      code: prerelease-promo-izzet
+    - code: prerelease-golgari
+      set: rtr
+    - code: prerelease-promo-golgari
+      set: rtr
     sealed:
-    - set: rtr
-      count: 5
+    - count: 5
       name: Return to Ravnica Booster Pack
+      set: rtr
+  Return to Ravnica Prerelease Pack Izzet:
+    card_count: 16
     other:
     - name: Return to Ravnica Spindown Life Counter
-  Return to Ravnica Prerelease Pack Rakdos: 
-    card_count: 16
     pack:
-    - set: rtr
-      code: prerelease-rakdos
-    - set: rtr
-      code: prerelease-promo-rakdos
+    - code: prerelease-izzet
+      set: rtr
+    - code: prerelease-promo-izzet
+      set: rtr
     sealed:
-    - set: rtr
-      count: 5
+    - count: 5
       name: Return to Ravnica Booster Pack
+      set: rtr
+  Return to Ravnica Prerelease Pack Rakdos:
+    card_count: 16
     other:
     - name: Return to Ravnica Spindown Life Counter
-  Return to Ravnica Prerelease Pack Selesnya: 
-    card_count: 16
     pack:
-    - set: rtr
-      code: prerelease-selesnya
-    - set: rtr
-      code: prerelease-promo-selesnya
+    - code: prerelease-rakdos
+      set: rtr
+    - code: prerelease-promo-rakdos
+      set: rtr
     sealed:
-    - set: rtr
-      count: 5
+    - count: 5
       name: Return to Ravnica Booster Pack
+      set: rtr
+  Return to Ravnica Prerelease Pack Selesnya:
+    card_count: 16
     other:
     - name: Return to Ravnica Spindown Life Counter
+    pack:
+    - code: prerelease-selesnya
+      set: rtr
+    - code: prerelease-promo-selesnya
+      set: rtr
+    sealed:
+    - count: 5
+      name: Return to Ravnica Booster Pack
+      set: rtr
   Return to Ravnica Prerelease Pack Set of 5:
     sealed:
     - count: 1
