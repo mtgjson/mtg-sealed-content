@@ -32,6 +32,10 @@ if __name__ == "__main__":
         for name, p in contents["products"].items():
             if not p:
                 p = {}
+            if isinstance(p, list):
+                print(f"Product {name} in set {set_file.stem} formatted incorrectly")
+                failed = True
+                continue
             if set(p.keys()) == {"copy"}:
                 p = contents["products"][p["copy"]]
             try:
