@@ -148,14 +148,14 @@ products:
       name: Gatecrash Booster Pack
       set: gtc
   Gatecrash Prerelease Kit Boros:
+    card:
+    - foil: true
+      name: Foundry Champion
+      number: "165\u2605"
+      set: pgtc
     card_count: 16
     other:
     - name: Gatecrash Spindown Life Counter
-    card:
-    - name: Foundry Champion
-      set: pgtc
-      number: "165★"
-      foil: true
     pack:
     - code: prerelease-boros
       set: gtc
@@ -164,14 +164,14 @@ products:
       name: Gatecrash Booster Pack
       set: gtc
   Gatecrash Prerelease Kit Dimir:
+    card:
+    - foil: true
+      name: Consuming Aberration
+      number: "152\u2605"
+      set: pgtc
     card_count: 16
     other:
     - name: Gatecrash Spindown Life Counter
-    card:
-    - set: pgtc
-      foil: true
-      name: Consuming Aberration
-      number: "152★"
     pack:
     - code: prerelease-dimir
       set: gtc
@@ -180,46 +180,46 @@ products:
       name: Gatecrash Booster Pack
       set: gtc
   Gatecrash Prerelease Kit Gruul:
+    card:
+    - foil: true
+      name: Rubblehulk
+      number: "191\u2605"
+      set: pgtc
     card_count: 16
     other:
     - name: Gatecrash Spindown Life Counter
     pack:
     - code: prerelease-gruul
       set: gtc
-    card:
-    - set: pgtc
-      name: Rubblehulk
-      number: "191★"
-      foil: true
     sealed:
     - count: 5
       name: Gatecrash Booster Pack
       set: gtc
   Gatecrash Prerelease Kit Orzhov:
+    card:
+    - foil: true
+      name: Treasury Thrull
+      number: "201\u2605"
+      set: pgtc
     card_count: 16
     other:
     - name: Gatecrash Spindown Life Counter
     pack:
     - code: prerelease-orzhov
       set: gtc
-    card:
-    - set: pgtc
-      name: Treasury Thrull
-      foil: true
-      number: "201★"
     sealed:
     - count: 5
       name: Gatecrash Booster Pack
       set: gtc
   Gatecrash Prerelease Kit Simic:
+    card:
+    - foil: true
+      name: Fathom Mage
+      number: "162\u2605"
+      set: pgtc
     card_count: 16
     other:
     - name: Gatecrash Spindown Life Counter
-    card:
-    - set: pgtc
-      number: "162★"
-      name: Fathom Mage
-      foil: true
     pack:
     - code: prerelease-simic
       set: gtc
