@@ -1,12 +1,15 @@
 code: roe
 products:
-  Rise of the Eldrazi 3 Booster Draft Pack: []
-  Rise of the Eldrazi 3 Booster Packs draft set:
+  Rise of the Eldrazi 3 Booster Draft Pack:
     sealed:
     - count: 3
       name: Rise of the Eldrazi Booster Pack
       set: roe
-  Rise of the Eldrazi 6 Card Booster Pack: []
+  Rise of the Eldrazi 6 Card Booster Pack: 
+    card_count: 6
+    pack:
+    - set: roe
+      code: six
   Rise of the Eldrazi Booster Box:
     sealed:
     - count: 36
@@ -22,8 +25,35 @@ products:
     pack:
     - code: draft
       set: roe
-  Rise of the Eldrazi Fat Pack: []
-  Rise of the Eldrazi Intro Pack Display: []
+  Rise of the Eldrazi Fat Pack: 
+    sealed:
+    - set: roe
+      count: 8
+      name: Rise of the Eldrazi Booster Pack
+    other:
+    - name: Card box with panoramic art
+    - name: The Rise of the Eldrazi Palyer's Guide
+    - name: A learn-to-play insert
+    - name: A sample chapter from In the Teeth of Akoum
+    - name: An exclusive Rise of the Eldrazi Spindown Life Counter
+    - name: 40 card basic land pack
+  Rise of the Eldrazi Intro Pack Display:
+    sealed:
+    - count: 2
+      set: roe
+      name: Rise of the Eldrazi Intro Pack Eldrazi Arisen
+    - count: 2
+      set: roe
+      name: Rise of the Eldrazi Intro Pack Invading Spawn
+    - count: 2
+      set: roe
+      name: Rise of the Eldrazi Intro Pack Levelers Glory
+    - count: 2
+      set: roe
+      name: Rise of the Eldrazi Intro Pack Levelers Scorn
+    - count: 2
+      set: roe
+      name: Rise of the Eldrazi Intro Pack Totem Power
   Rise of the Eldrazi Intro Pack Eldrazi Arisen:
     card_count: 41
     deck:
@@ -69,4 +99,20 @@ products:
     - count: 1
       name: Rise of the Eldrazi Booster Pack
       set: roe
-  Rise of the Eldrazi Intro Packs Set of 5: []
+  Rise of the Eldrazi Intro Packs Set of 5: 
+    sealed:
+    - count: 1
+      set: roe
+      name: Rise of the Eldrazi Intro Pack Eldrazi Arisen
+    - count: 1
+      set: roe
+      name: Rise of the Eldrazi Intro Pack Invading Spawn
+    - count: 1
+      set: roe
+      name: Rise of the Eldrazi Intro Pack Levelers Glory
+    - count: 1
+      set: roe
+      name: Rise of the Eldrazi Intro Pack Levelers Scorn
+    - count: 1
+      set: roe
+      name: Rise of the Eldrazi Intro Pack Totem Power
