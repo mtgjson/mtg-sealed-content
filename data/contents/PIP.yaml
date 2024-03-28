@@ -1,11 +1,90 @@
 code: pip
 products:
-  Fallout Collector Booster Box: []
-  Fallout Collector Booster Box Case: []
-  Fallout Collector Booster Pack: []
-  Fallout Commander Deck Display: []
-  Fallout Commander Deck Hail Caesar: []
-  Fallout Commander Deck Mutant Menace: []
-  Fallout Commander Deck Science: []
-  Fallout Commander Deck Scrappy Survivors: []
-  Fallout Commander Decks Set of Four: []
+  Fallout Collector Booster Box: 
+    sealed:
+    - set: pip
+      name: Fallout Collector Booster Pack
+      count: 12
+  Fallout Collector Booster Box Case: 
+    sealed:
+    - set: pip
+      name: Fallout Collector Booster Box
+      count: 6
+  Fallout Collector Booster Pack: 
+    card_count: 15
+    pack:
+    - set: pip
+      code: collector
+  Fallout Commander Deck Display: 
+    copy: Fallout Commander Decks Set of Four
+  Fallout Commander Deck Hail Caesar: 
+    card_count: 100
+    deck:
+    - set: pip
+      name: Hail Caesar
+    sealed:
+    - set: pip
+      name: Fallout Collector Booster Sample Pack
+      count: 1
+    other:
+    - name: Foil etched display commander
+    - name: 10 double sided tokens
+    - name: life wheel
+  Fallout Commander Deck Mutant Menace: 
+    card_count: 100
+    deck:
+    - set: pip
+      name: Mutant Menace
+    sealed:
+    - set: pip
+      name: Fallout Collector Booster Sample Pack
+      count: 1
+    other:
+    - name: Foil etched display commander
+    - name: 10 double sided tokens
+    - name: life wheel
+  Fallout Commander Deck Science: 
+    card_count: 100
+    deck:
+    - set: pip
+      name: Science!
+    sealed:
+    - set: pip
+      name: Fallout Collector Booster Sample Pack
+      count: 1
+    other:
+    - name: Foil etched display commander
+    - name: 10 double sided tokens
+    - name: life wheel
+  Fallout Commander Deck Scrappy Survivors: 
+    card_count: 100
+    deck:
+    - set: pip
+      name: Scrappy Survivors
+    sealed:
+    - set: pip
+      name: Fallout Collector Booster Sample Pack
+      count: 1
+    other:
+    - name: Foil etched display commander
+    - name: 10 double sided tokens
+    - name: life wheel
+  Fallout Commander Decks Set of Four: 
+    sealed:
+    - set: pip
+      count: 1
+      name: Fallout Commander Deck Hail Caesar
+    - set: pip
+      count: 1
+      name: Fallout Commander Deck Mutant Menace
+    - set: pip
+      count: 1
+      name: Fallout Commander Deck Science
+    - set: pip
+      count: 1
+      name: Fallout Commander Deck Scrappy Survivors
+  Fallout Collector Booster Sample Pack:
+    card_count: 2
+    pack:
+    - set: pip
+      code: collector-sample
