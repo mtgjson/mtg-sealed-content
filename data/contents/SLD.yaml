@@ -214,10 +214,10 @@ products:
       name: Secret Lair Drop Imaginary Friends Foil
       set: sld
     - count: 1
-      name: Secret Lair Drop Dan Frazier Is Back Again The Allied Talismans Foil Etched
+      name: Secret Lair Drop Dan Frazier Is Back Again The Allied Talismans Etched
       set: sld
     - count: 1
-      name: Secret Lair Drop Dan Frazier Is Back Again The Enemy Talismans Foil Etched
+      name: Secret Lair Drop Dan Frazier Is Back Again The Enemy Talismans Etched
       set: sld
     - count: 1
       name: Secret Lair Drop In Memoriam Jaya Ballard Foil
@@ -262,10 +262,10 @@ products:
       name: Secret Lair Drop If Looks Could Kill Foil
       set: sld
     - count: 1
-      name: Secret Lair Drop Special Guest Junji Ito English Foil Etched
+      name: Secret Lair Drop Special Guest Junji Ito English Etched
       set: sld
     - count: 1
-      name: Secret Lair Drop Special Guest Junji Ito Japanese Foil Etched
+      name: Secret Lair Drop Special Guest Junji Ito Japanese Etched
       set: sld
     - count: 1
       name: Secret Lair Drop Special Guest Yoji Shinkawa English Foil
@@ -498,7 +498,7 @@ products:
       name: Secret Lair Drop Mirrodinsanity Foil
       set: sld
     - count: 1
-      name: Secret Lair Drop Showcase Monster Anatomy 101 Foil Etched
+      name: Secret Lair Drop Showcase Monster Anatomy 101 Etched
       set: sld
     - count: 1
       name: Secret Lair Drop Monster Movie Marathon Foil
@@ -507,7 +507,7 @@ products:
       name: Secret Lair Drop Showcase Read The Fine Print Foil
       set: sld
     - count: 1
-      name: Secret Lair Drop Showcase Read The Fine Print Foil Etched
+      name: Secret Lair Drop Showcase Read The Fine Print Etched
       set: sld
     - count: 1
       name: Secret Lair Drop Showcase Midnight Hunt Foil
@@ -714,16 +714,16 @@ products:
   Secret Lair Bundle Post Malone Bundle:
     sealed:
     - count: 1
-      name: Secret Lair x Post Malone Backstage Pass
+      name: Secret Lair Drop Secret Lair x Post Malone Backstage Pass
       set: sld
     - count: 1
-      name: Secret Lair x Post Malone Backstage Pass Foil Edition
+      name: Secret Lair Drop Secret Lair x Post Malone Backstage Pass Foil Edition
       set: sld
     - count: 1
-      name: Secret Lair x Post Malone The Lands
+      name: Secret Lair Drop Secret Lair x Post Malone The Lands
       set: sld
     - count: 1
-      name: Secret Lair x Post Malone The Lands Foil Edition
+      name: Secret Lair Drop Secret Lair x Post Malone The Lands Foil Edition
       set: sld
   Secret Lair Bundle Second Secretversary Bundle:
     sealed:
@@ -775,7 +775,7 @@ products:
       name: Secret Lair Drop PixelSnowLandsjpg Foil
       set: sld
     - count: 1
-      name: Secret Lair Drop PixelSnowLandsjpg Foil Etched
+      name: Secret Lair Drop PixelSnowLandsjpg Etched
       set: sld
     - count: 1
       name: Secret Lair Drop Crocodile Jacksons Monstrous Menagerie Etched
@@ -1519,7 +1519,7 @@ products:
     deck:
     - name: Crocodile Jacksons Monstrous Menagerie
       set: sld
-  Secret Lair Drop Crocodile Jacksons Monstrous Menagerie Foil Etched:
+  Secret Lair Drop Crocodile Jacksons Monstrous Menagerie Etched:
     card_count: 6
     deck:
     - name: Crocodile Jacksons Monstrous Menagerie etched
@@ -1554,7 +1554,7 @@ products:
     deck:
     - name: Dan Frazier Is Back Again The Allied Talismans
       set: sld
-  Secret Lair Drop Dan Frazier Is Back Again The Allied Talismans Foil Etched:
+  Secret Lair Drop Dan Frazier Is Back Again The Allied Talismans Etched:
     card_count: 6
     deck:
     - name: Dan Frazier Is Back Again The Allied Talismans etched
@@ -1564,7 +1564,7 @@ products:
     deck:
     - name: Dan Frazier Is Back Again The Enemy Talismans
       set: sld
-  Secret Lair Drop Dan Frazier Is Back Again The Enemy Talismans Foil Etched:
+  Secret Lair Drop Dan Frazier Is Back Again The Enemy Talismans Etched:
     card_count: 6
     deck:
     - name: Dan Frazier Is Back Again The Enemy Talismans etched
@@ -1589,7 +1589,7 @@ products:
     deck:
     - name: Dan Frazier is Back The Enemy Signets etched
       set: sld
-  Secret Lair Drop Dan Fraziers Mox Box Foil Etched:
+  Secret Lair Drop Dan Fraziers Mox Box Etched:
     card_count: 3
     deck:
     - name: Dan Frazier's Mox Box
@@ -2227,12 +2227,36 @@ products:
     deck:
     - name: Street Fighter foil
       set: sld
-  Secret Lair Drop Secret Lair x The Evil Dead: []
-  Secret Lair Drop Secret Lair x The Evil Dead Foil: []
-  Secret Lair Drop Secret Lair x The Princess Bride: []
-  Secret Lair Drop Secret Lair x The Princess Bride Foil: []
-  Secret Lair Drop Secret Lair x Tomb Raider: []
-  Secret Lair Drop Secret Lair x Tomb Raider Foil: []
+  Secret Lair Drop Secret Lair x The Evil Dead: 
+    card_count: 6
+    deck:
+    - name: Secret Lair x The Evil Dead
+      set: sld
+  Secret Lair Drop Secret Lair x The Evil Dead Foil: 
+    card_count: 6
+    deck:
+    - name: Secret Lair x The Evil Dead foil
+      set: sld
+  Secret Lair Drop Secret Lair x The Princess Bride: 
+    card_count: 9
+    deck:
+    - name: Secret Lair x The Princess Bride
+      set: sld
+  Secret Lair Drop Secret Lair x The Princess Bride Foil: 
+    card_count: 9
+    deck:
+    - name: Secret Lair x The Princess Bride foil
+      set: sld
+  Secret Lair Drop Secret Lair x Tomb Raider: 
+    card_count: 6
+    deck:
+    - name: Secret Lair x Tomb Raider
+      set: sld
+  Secret Lair Drop Secret Lair x Tomb Raider Foil: 
+    card_count: 6
+    deck:
+    - name: Secret Lair x Tomb Raider foil
+      set: sld
   Secret Lair Drop Secret Lair x Warhammer 40000 Orks:
     card_count: 6
     deck:
@@ -2333,8 +2357,16 @@ products:
     deck:
     - name: Monster Anatomy 101 etched
       set: sld
-  Secret Lair Drop Showcase Murders at Karlov Manor: []
-  Secret Lair Drop Showcase Murders at Karlov Manor Rainbow Foil: []
+  Secret Lair Drop Showcase Murders at Karlov Manor: 
+    card_count: 4
+    deck:
+    - set: sld
+      name: Showcase Murders at Karlov Manor
+  Secret Lair Drop Showcase Murders at Karlov Manor Rainbow Foil: 
+    card_count: 4
+    deck:
+    - set: sld
+      name: Showcase Murders at Karlov Manor foil
   Secret Lair Drop Showcase Neon Dynasty Neon Ink Foil:
     card_count: 5
     deck:
@@ -2370,8 +2402,16 @@ products:
     deck:
     - name: Showcase Strixhaven foil
       set: sld
-  Secret Lair Drop Showcase The Lost Caverns of Ixalan: []
-  Secret Lair Drop Showcase The Lost Caverns of Ixalan Foil: []
+  Secret Lair Drop Showcase The Lost Caverns of Ixalan: 
+    card_count: 5
+    deck:
+    - name: Showcase The Lost Caverns of Ixalan
+      set: sld
+  Secret Lair Drop Showcase The Lost Caverns of Ixalan Foil: 
+    card_count: 5
+    deck:
+    - name: Showcase The Lost Caverns of Ixalan foil
+      set: sld
   Secret Lair Drop Showcase Thrilling Tales of the Undead:
     card_count: 4
     deck:
@@ -2500,8 +2540,16 @@ products:
     deck:
     - name: Ssssssnakessssss foil
       set: sld
-  Secret Lair Drop Tales of the Time Stoppers: []
-  Secret Lair Drop Tales of the Time Stoppers Foil: []
+  Secret Lair Drop Tales of the Time Stoppers: 
+    card_count: 4
+    deck:
+    - set: sld
+      name: Tales of the Time Stoppers
+  Secret Lair Drop Tales of the Time Stoppers Foil: 
+    card_count: 4
+    deck:
+    - set: sld
+      name: Tales of the Time Stoppers foil
   Secret Lair Drop Teferis Time Trouble:
     card_count: 4
     deck:
@@ -2532,8 +2580,16 @@ products:
     deck:
     - name: The Art of Frank Frazetta foil
       set: sld
-  Secret Lair Drop The Beauty of the Beasts: []
-  Secret Lair Drop The Beauty of the Beasts Rainbow Foil: []
+  Secret Lair Drop The Beauty of the Beasts: 
+    deck:
+    - name: The Beauty of the Beasts
+      set: sld
+    card_count: 5
+  Secret Lair Drop The Beauty of the Beasts Rainbow Foil: 
+    deck:
+    - name: The Beauty of the Beasts foil
+      set: sld
+    card_count: 5
   Secret Lair Drop The Dracula Lands:
     card_count: 6
     deck:
@@ -2666,8 +2722,7 @@ products:
     deck:
     - name: Time Trouble Two foil
       set: sld
-  Secret Lair Drop Totally Spaced Out Galaxy Foil: []
-  Secret Lair Drop Totally Spaced Out Galaxy Foil Edition:
+  Secret Lair Drop Totally Spaced Out Galaxy Foil:
     card_count: 5
     deck:
     - name: Totally Spaced Out foil
