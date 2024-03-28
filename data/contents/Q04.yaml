@@ -10,7 +10,20 @@ products:
     deck:
     - name: Cavalcade Charge
       set: q04
-  Challenger Deck 2020 Display: []
+  Challenger Deck 2020 Display: 
+    sealed:
+    - set: q04
+      name: Challenger Deck 2020 Allied Fires
+      count: 2
+    - set: q04
+      name: Challenger Deck 2020 Cavalcade Charge
+      count: 2
+    - set: q04
+      name: Challenger Deck 2020 Final Adventure
+      count: 2
+    - set: q04
+      name: Challenger Deck 2020 Flash of Ferocity
+      count: 2
   Challenger Deck 2020 Final Adventure:
     card_count: 75
     deck:
@@ -21,4 +34,17 @@ products:
     deck:
     - name: Flash of Ferocity
       set: q04
-  Challenger Deck 2020 Set of 4: []
+  Challenger Deck 2020 Set of 4: 
+    sealed:
+    - set: q04
+      name: Challenger Deck 2020 Allied Fires
+      count: 1
+    - set: q04
+      name: Challenger Deck 2020 Cavalcade Charge
+      count: 1
+    - set: q04
+      name: Challenger Deck 2020 Final Adventure
+      count: 1
+    - set: q04
+      name: Challenger Deck 2020 Flash of Ferocity
+      count: 1

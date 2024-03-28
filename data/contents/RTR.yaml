@@ -134,8 +134,11 @@ products:
     pack:
     - code: prerelease-azorius
       set: rtr
-    - code: prerelease-promo-azorius
-      set: rtr
+    card:
+    - set: prtr
+      name: Archon of the Triumvirate
+      foil: true
+      number: "142★"
     sealed:
     - count: 5
       name: Return to Ravnica Booster Pack
@@ -147,8 +150,11 @@ products:
     pack:
     - code: prerelease-golgari
       set: rtr
-    - code: prerelease-promo-golgari
-      set: rtr
+    card:
+    - set: prtr
+      name: Corpsejack Menace
+      foil: true
+      number: "152★"
     sealed:
     - count: 5
       name: Return to Ravnica Booster Pack
@@ -160,8 +166,11 @@ products:
     pack:
     - code: prerelease-izzet
       set: rtr
-    - code: prerelease-promo-izzet
-      set: rtr
+    card:
+    - set: prtr
+      name: Hypersonic Dragon
+      foil: true
+      number: "170★"
     sealed:
     - count: 5
       name: Return to Ravnica Booster Pack
@@ -173,8 +182,11 @@ products:
     pack:
     - code: prerelease-rakdos
       set: rtr
-    - code: prerelease-promo-rakdos
-      set: rtr
+    card:
+    - set: prtr
+      name: Carnival Hellsteed
+      foil: true
+      number: "147★"
     sealed:
     - count: 5
       name: Return to Ravnica Booster Pack
@@ -186,8 +198,11 @@ products:
     pack:
     - code: prerelease-selesnya
       set: rtr
-    - code: prerelease-promo-selesnya
-      set: rtr
+    card:
+    - set: prtr
+      name: Grove of the Guardian
+      foil: true
+      number: "240★"
     sealed:
     - count: 5
       name: Return to Ravnica Booster Pack

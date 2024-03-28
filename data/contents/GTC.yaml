@@ -151,10 +151,13 @@ products:
     card_count: 16
     other:
     - name: Gatecrash Spindown Life Counter
+    card:
+    - name: Foundry Champion
+      set: pgtc
+      number: "165★"
+      foil: true
     pack:
     - code: prerelease-boros
-      set: gtc
-    - code: prerelease-promo-boros
       set: gtc
     sealed:
     - count: 5
@@ -164,10 +167,13 @@ products:
     card_count: 16
     other:
     - name: Gatecrash Spindown Life Counter
+    card:
+    - set: pgtc
+      foil: true
+      name: Consuming Aberration
+      number: "152★"
     pack:
     - code: prerelease-dimir
-      set: gtc
-    - code: prerelease-promo-dimir
       set: gtc
     sealed:
     - count: 5
@@ -180,8 +186,11 @@ products:
     pack:
     - code: prerelease-gruul
       set: gtc
-    - code: prerelease-promo-gruul
-      set: gtc
+    card:
+    - set: pgtc
+      name: Rubblehulk
+      number: "191★"
+      foil: true
     sealed:
     - count: 5
       name: Gatecrash Booster Pack
@@ -193,8 +202,11 @@ products:
     pack:
     - code: prerelease-orzhov
       set: gtc
-    - code: prerelease-promo-orzhov
-      set: gtc
+    card:
+    - set: pgtc
+      name: Treasury Thrull
+      foil: true
+      number: "201★"
     sealed:
     - count: 5
       name: Gatecrash Booster Pack
@@ -203,10 +215,13 @@ products:
     card_count: 16
     other:
     - name: Gatecrash Spindown Life Counter
+    card:
+    - set: pgtc
+      number: "162★"
+      name: Fathom Mage
+      foil: true
     pack:
     - code: prerelease-simic
-      set: gtc
-    - code: prerelease-promo-simic
       set: gtc
     sealed:
     - count: 5

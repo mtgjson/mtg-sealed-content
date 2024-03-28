@@ -5,7 +5,20 @@ products:
     deck:
     - name: Counter Surge
       set: q01
-  Challenger Deck 2018 Display: []
+  Challenger Deck 2018 Display: 
+    sealed:
+    - set: q01
+      name: Challenger Deck 2018 Counter Surge
+      count: 2
+    - set: q01
+      name: Challenger Deck 2018 Hazoret Aggro
+      count: 2
+    - set: q01
+      name: Challenger Deck 2018 Second Sun Control
+      count: 2
+    - set: q01
+      name: Challenger Deck 2018 Vehicle Rush
+      count: 2
   Challenger Deck 2018 Hazoret Aggro:
     card_count: 75
     deck:
@@ -16,7 +29,20 @@ products:
     deck:
     - name: Second Sun Control
       set: q01
-  Challenger Deck 2018 Set of 4: []
+  Challenger Deck 2018 Set of 4: 
+    sealed:
+    - set: q01
+      name: Challenger Deck 2018 Counter Surge
+      count: 1
+    - set: q01
+      name: Challenger Deck 2018 Hazoret Aggro
+      count: 1
+    - set: q01
+      name: Challenger Deck 2018 Second Sun Control
+      count: 1
+    - set: q01
+      name: Challenger Deck 2018 Vehicle Rush
+      count: 1
   Challenger Deck 2018 Vehicle Rush:
     card_count: 75
     deck:
