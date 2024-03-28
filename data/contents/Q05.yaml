@@ -10,7 +10,20 @@ products:
     deck:
     - name: Dimir Rogue
       set: q05
-  Challenger Deck 2021 Display: []
+  Challenger Deck 2021 Display: 
+    sealed:
+    - set: q05
+      name: Challenger Deck 2021 Azorius Control
+      count: 2
+    - set: q05
+      name: Challenger Deck 2021 Dimir Rogues
+      count: 2
+    - set: q05
+      name: Challenger Deck 2021 Mono Green Stompy
+      count: 2
+    - set: q05
+      name: Challenger Deck 2021 Mono Red Aggro
+      count: 2
   Challenger Deck 2021 Mono Green Stompy:
     card_count: 75
     deck:
@@ -21,4 +34,17 @@ products:
     deck:
     - name: Mono-Red Aggro
       set: q05
-  Challenger Deck 2021 Set of 4: []
+  Challenger Deck 2021 Set of 4: 
+    sealed:
+    - set: q05
+      name: Challenger Deck 2021 Azorius Control
+      count: 1
+    - set: q05
+      name: Challenger Deck 2021 Dimir Rogues
+      count: 1
+    - set: q05
+      name: Challenger Deck 2021 Mono Green Stompy
+      count: 1
+    - set: q05
+      name: Challenger Deck 2021 Mono Red Aggro
+      count: 1

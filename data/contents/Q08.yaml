@@ -1,6 +1,19 @@
 code: q08
 products:
-  Pioneer Challenger Deck 2022 Display: []
+  Pioneer Challenger Deck 2022 Display: 
+    sealed:
+    - set: q08
+      name: Pioneer Challenger Deck 2022 Izzet Phoenix
+      count: 2
+    - set: q08
+      name: Pioneer Challenger Deck 2022 Orzhov Humans
+      count: 2
+    - set: q08
+      name: Pioneer Challenger Deck 2022 Pioneer Dimir Control
+      count: 2
+    - set: q08
+      name: Pioneer Challenger Deck 2022 Pioneer Gruul Stompy
+      count: 2
   Pioneer Challenger Deck 2022 Izzet Phoenix:
     card_count: 75
     deck:
@@ -21,4 +34,17 @@ products:
     deck:
     - name: Gruul Stompy
       set: q08
-  Pioneer Challenger Deck 2022 Set of 4: []
+  Pioneer Challenger Deck 2022 Set of 4: 
+    sealed:
+    - set: q08
+      name: Pioneer Challenger Deck 2022 Izzet Phoenix
+      count: 1
+    - set: q08
+      name: Pioneer Challenger Deck 2022 Orzhov Humans
+      count: 1
+    - set: q08
+      name: Pioneer Challenger Deck 2022 Pioneer Dimir Control
+      count: 1
+    - set: q08
+      name: Pioneer Challenger Deck 2022 Pioneer Gruul Stompy
+      count: 1
