@@ -26,7 +26,7 @@ products:
     deck:
     - name: Underworld Herald
       set: bng
-  Born of the Gods Fat Pack: 
+  Born of the Gods Fat Pack:
     other:
     - name: Player's guide with encyclopedia
     - name: Born of the Gods card box
@@ -34,9 +34,9 @@ products:
     - name: Special edition spindown life counter
     - name: Two deck boxes
     sealed:
-    - set: bng
+    - count: 9
       name: Born of the Gods Booster Pack
-      count: 9
+      set: bng
   Born of the Gods Intro Pack Deaths Beginning:
     card_count: 60
     deck:
@@ -116,111 +116,111 @@ products:
     - count: 1
       name: Born of the Gods Intro Pack Inspiration Struck
       set: bng
-  Born of the Gods Prerelease Kit Destined To Conquer: 
-    sealed:
-    - set: bng
-      count: 2
-      name: Born of the Gods Booster Pack
-    - set: ths
-      count: 3
-      name: Theros Booster Pack
-    pack:
-    - set: bng
-      code: prerelease-conquer
-    card_count: 15
+  Born of the Gods Prerelease Kit Destined To Conquer:
     card:
-    - set: pbng
+    - foil: true
       name: Forgestoker Dragon
-      foil: true
-      number: 98★
-    - set: thp2
+      number: "98\u2605"
+      set: pbng
+    - foil: false
       name: The Warmonger
-      foil: false
       number: 4d
-  Born of the Gods Prerelease Kit Destined To Dominate: 
-    sealed:
-    - set: bng
-      count: 2
-      name: Born of the Gods Booster Pack
-    - set: ths
-      count: 3
-      name: Theros Booster Pack
-    pack:
-    - set: bng
-      code: prerelease-dominate
+      set: thp2
     card_count: 15
+    pack:
+    - code: prerelease-conquer
+      set: bng
+    sealed:
+    - count: 2
+      name: Born of the Gods Booster Pack
+      set: bng
+    - count: 3
+      name: Theros Booster Pack
+      set: ths
+  Born of the Gods Prerelease Kit Destined To Dominate:
     card:
-    - set: pbng
+    - foil: true
       name: Eater of Hope
-      foil: true
-      number: 66★
-    - set: thp2
+      number: "66\u2605"
+      set: pbng
+    - foil: false
       name: The Tyrant
-      foil: false
       number: 4c
-  Born of the Gods Prerelease Kit Destined To Lead: 
-    sealed:
-    - set: bng
-      count: 2
-      name: Born of the Gods Booster Pack
-    - set: ths
-      count: 3
-      name: Theros Booster Pack
-    pack:
-    - set: bng
-      code: prerelease-lead
+      set: thp2
     card_count: 15
+    pack:
+    - code: prerelease-dominate
+      set: bng
+    sealed:
+    - count: 2
+      name: Born of the Gods Booster Pack
+      set: bng
+    - count: 3
+      name: Theros Booster Pack
+      set: ths
+  Born of the Gods Prerelease Kit Destined To Lead:
     card:
-    - set: pbng
+    - foil: true
       name: Silent Sentinel
-      foil: true
-      number: 26★
-    - set: thp2
+      number: "26\u2605"
+      set: pbng
+    - foil: false
       name: The General
-      foil: false
       number: 4a
-  Born of the Gods Prerelease Kit Destined To Outwit: 
-    sealed:
-    - set: bng
-      count: 2
-      name: Born of the Gods Booster Pack
-    - set: ths
-      count: 3
-      name: Theros Booster Pack
-    pack:
-    - set: bng
-      code: prerelease-outwit
+      set: thp2
     card_count: 15
+    pack:
+    - code: prerelease-lead
+      set: bng
+    sealed:
+    - count: 2
+      name: Born of the Gods Booster Pack
+      set: bng
+    - count: 3
+      name: Theros Booster Pack
+      set: ths
+  Born of the Gods Prerelease Kit Destined To Outwit:
     card:
-    - set: pbng
+    - foil: true
       name: Arbiter of the Ideal
-      foil: true
-      number: 31★
-    - set: thp2
+      number: "31\u2605"
+      set: pbng
+    - foil: false
       name: The Savant
-      foil: false
       number: 4b
-  Born of the Gods Prerelease Kit Destined To Thrive: 
-    sealed:
-    - set: bng
-      count: 2
-      name: Born of the Gods Booster Pack
-    - set: ths
-      count: 3
-      name: Theros Booster Pack
-    pack:
-    - set: bng
-      code: prerelease-thrive
+      set: thp2
     card_count: 15
+    pack:
+    - code: prerelease-outwit
+      set: bng
+    sealed:
+    - count: 2
+      name: Born of the Gods Booster Pack
+      set: bng
+    - count: 3
+      name: Theros Booster Pack
+      set: ths
+  Born of the Gods Prerelease Kit Destined To Thrive:
     card:
-    - set: pbng
+    - foil: true
       name: Nessian Wild Ravager
-      foil: true
-      number: 129★
-    - set: thp2
+      number: "129\u2605"
+      set: pbng
+    - foil: false
       name: The Provider
-      foil: false
       number: 4e
+      set: thp2
+    card_count: 15
+    pack:
+    - code: prerelease-thrive
+      set: bng
+    sealed:
+    - count: 2
+      name: Born of the Gods Booster Pack
+      set: bng
+    - count: 3
+      name: Theros Booster Pack
+      set: ths
   Born of the Gods Prerelease Kit Set of 5:
     sealed:
     - count: 1
