@@ -880,10 +880,10 @@ products:
   Secret Lair Bundle Secretversary Superdrop The Bundle Bundle:
     sealed:
     - count: 1
-      name: Secret Lair Bundle Foils Forever Bundle
+      name: Secret Lair Bundle Secretversary Superdrop Foils Forever Bundle
       set: sld
     - count: 1
-      name: Secret Lair Bundle No Foils No Nonsense Bundle
+      name: Secret Lair Bundle Secretversary Superdrop No Foils No Nonsense Bundle
       set: sld
   Secret Lair Bundle Series Full: []
   Secret Lair Bundle Seven In Heaven: []
@@ -950,10 +950,10 @@ products:
   Secret Lair Bundle The Bundled Bundle:
     sealed:
     - count: 1
-      name: Secret Lair Bundle Second Secretversary
+      name: Secret Lair Bundle Second Secretversary Bundle
       set: sld
     - count: 1
-      name: Secret Lair Bundle Second Secretversary Foil
+      name: Secret Lair Bundle Second Secretversary Bundle Foil
       set: sld
     - count: 1
       name: Secret Lair Commander Deck Heads I Win Tails You Lose
@@ -1046,7 +1046,17 @@ products:
   Secret Lair Bundle Those Foils Are Really Coming Down: []
   Secret Lair Bundle Those Non Foils Just Wont Let Up: []
   Secret Lair Bundle Totally Refreshing Non Foil: []
-  Secret Lair Bundle Transformers: []
+  Secret Lair Bundle Transformers: 
+    sealed:
+    - count: 1
+      name: Secret Lair Drop Transformers One Shall Stand One Shall Fall
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Transformers Optimus Prime Vs Megatron
+      set: sld
+    - count: 1
+      name: Secret Lair Drop Transformers Roll Out or Rise Up
+      set: sld
   Secret Lair Bundle Transformers Foil:
     sealed:
     - count: 1
@@ -1057,17 +1067,6 @@ products:
       set: sld
     - count: 1
       name: Secret Lair Drop Transformers Roll Out or Rise Up Foil
-      set: sld
-  Secret Lair Bundle Transformers Non Foil:
-    sealed:
-    - count: 1
-      name: Secret Lair Drop Transformers One Shall Stand One Shall Fall
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Transformers Optimus Prime Vs Megatron
-      set: sld
-    - count: 1
-      name: Secret Lair Drop Transformers Roll Out or Rise Up
       set: sld
   Secret Lair Bundle Voracious Reader: []
   Secret Lair Bundle Voracious Reader Foil: []
