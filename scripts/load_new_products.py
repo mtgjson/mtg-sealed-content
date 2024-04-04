@@ -179,6 +179,54 @@ def get_cardmarket(productsfile):
         "Magic Theme Deck Display",
         "Magic TournamentPack",
         "Magic Starter Deck",
+        "MtG Set"
+    ]
+
+    # "MtG Set" contains a mix of sealed product and bundles of cards
+    # This list filters the bundles of cards away from all sets
+    skip_tags = [
+        "Accessories set",
+        "Art Cards Set",
+        "Art Series Set",
+        "Attraction Set",
+        "Borderless Planeswalkers Set",
+        "Common Set",
+        "Contraption Set",
+        "CustomSet",
+        "Dual Lands Set",
+        "Extended-Art Frames set",
+        "Fetchland Set",
+        "GnD Cards",
+        "Land Set",
+        "Masterpiece Set",
+        "Mythic Set",
+        "Oversized",
+        "P9 Set",
+        "Phenomena Set",
+        "Plane Set",
+        "Planechase Set",
+        "Planes Set",
+        "Rare Set",
+        "Relic Tokens",
+        "Scene Set",
+        "Scheme Set",
+        "Showcase Frame set",
+        "Special set",
+        "Sticker Set",
+        "Summary Set",
+        "Time Shifted Set",
+        "Timeshifted Set",
+        "Token Set", # we can't use "Token" because it is a common word
+        "Tokens Set",
+        "Tokens for MTG",
+        "Uncommon Set",
+    ]
+
+    # "MtG Set" has a suffix "Full Set" that implies "bundles of cards"
+    # except for these two series where it implies "sealed" instead
+    full_set_ok = [
+        "Signature Spellbook",
+        "From the Vault",
     ]
 
     sealed_data = []
@@ -187,6 +235,13 @@ def get_cardmarket(productsfile):
     reader = csv.reader(productsfile)
     for row in reader:
         if row[3] not in category_types:
+            continue
+
+        if any(tag.lower() in row[1].lower() for tag in skip_tags):
+            continue
+        if "Full Set" in row[1] and not any(tag in row[1] for tag in full_set_ok):
+            continue
+        if "Secret Lair" in row[1] and " Set" in row[1]:
             continue
 
         sealed_data.extend([
