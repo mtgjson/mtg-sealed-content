@@ -256,14 +256,8 @@ def get_cardmarket(productsfile):
 
 
 def main(secret):
-    url = "https://mtgjson.com/api/v5/AllPrintings.json"
-    r = requests.get(url, stream=True)
-
     api_version, tcg_auth_code = get_tcg_auth_code(secret)
     mkm_productsfile = get_mkm_productsfile(secret)
-
-    alt_codes = {"con_": "con"}
-    r_alt_codes = {"CON": "CON_"}
 
     # Set up known product objects
     with open("data/ignore.yaml") as ignore_file:
