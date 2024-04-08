@@ -20,7 +20,7 @@ def get_cardKingdom():
     sealed_url = "https://api.cardkingdom.com/api/sealed_pricelist"
     r = requests.get(sealed_url)
     ck_data = json.loads(r.content)
-    return ck_data["meta"]["base_url"], ck_data["data"]
+    return ck_data["data"]
 
 
 def tcgdownload(url, params, api_version, auth_code):
@@ -300,7 +300,7 @@ def main(secret):
         )
 
     # Load Card Kingdom products
-    urlbase, ck_products = get_cardKingdom()
+    ck_products = get_cardKingdom()
     for product in ck_products:
         if str(product["id"]) in ck_ids or product["id"] in ck_ids:
             continue
