@@ -206,6 +206,7 @@ def get_cardmarket(productsfile):
         "Plane Set",
         "Planechase Set",
         "Planes Set",
+        "Promo Pack",
         "Rare Set",
         "Relic Tokens",
         "Scene Set",
