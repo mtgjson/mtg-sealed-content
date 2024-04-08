@@ -20,7 +20,10 @@ def get_cardKingdom():
     sealed_url = "https://api.cardkingdom.com/api/sealed_pricelist"
     r = requests.get(sealed_url)
     ck_data = json.loads(r.content)
-    return ck_data["data"]
+    output_data = ck_data['data']
+    output_data = [x for x in output_data if "Set (Factory Sealed)" not in x['name']]
+    output_data = [x for x in output_data if "Pure Bulk:" not in x['name']]
+    return output_data
 
 
 def tcgdownload(url, params, api_version, auth_code):
