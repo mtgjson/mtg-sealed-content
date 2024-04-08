@@ -244,6 +244,8 @@ def get_cardmarket(productsfile):
             continue
         if "Secret Lair" in row[1] and " Set" in row[1]:
             continue
+        if "Secret Lair" in row[1] and " Booster" in row[1]:
+            continue
 
         sealed_data.extend([
             {
