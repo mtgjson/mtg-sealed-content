@@ -1,10 +1,19 @@
 import json
 import sys
+import os
+import io
 from datetime import datetime
 from pathlib import Path
 
+import mkmsdk.exceptions
+from mkmsdk.api_map import _API_MAP
+from mkmsdk.mkm import Mkm
+
 import requests
 import yaml
+import csv
+import base64
+import zlib
 
 
 def get_cardKingdom():
@@ -141,22 +150,124 @@ def get_tcg_auth_code(secret):
     return api_version, str(request_as_json.get("access_token", ""))
 
 
+def get_mkm_productsfile(secret):
+    os.environ["MKM_APP_TOKEN"] = secret.get("app_token")
+    os.environ["MKM_APP_SECRET"] = secret.get("app_secret")
+    os.environ["MKM_ACCESS_TOKEN"] = secret.get("access_token") or ""
+    os.environ["MKM_ACCESS_TOKEN_SECRET"] = secret.get("access_token_secret") or ""
+
+    mkm_connection = Mkm(_API_MAP["2.0"]["api"], _API_MAP["2.0"]["api_root"])
+
+    try:
+        mkm_response = mkm_connection.market_place.product_list().json()
+    except mkmsdk.exceptions.ConnectionError as exception:
+        print(f"Unable to download MKM correctly: {exception}")
+        return None
+
+    product_data = base64.b64decode(mkm_response["productsfile"])  # Un-base64
+    product_data = zlib.decompress(product_data, 16 + zlib.MAX_WBITS)  # Un-gzip
+    decoded_data = product_data.decode("utf-8")  # byte array to string
+    return io.StringIO(decoded_data)
+
+
+def get_cardmarket(productsfile):
+    category_types = [
+        "Magic Booster",
+        "Magic Display",
+        "Magic Intropack",
+        "Magic Fatpack",
+        "Magic Theme Deck Display",
+        "Magic TournamentPack",
+        "Magic Starter Deck",
+        "MtG Set"
+    ]
+
+    # "MtG Set" contains a mix of sealed product and bundles of cards
+    # This list filters the bundles of cards away from all sets
+    skip_tags = [
+        "Accessories set",
+        "Art Cards Set",
+        "Art Series Set",
+        "Attraction Set",
+        "Borderless Planeswalkers Set",
+        "Common Set",
+        "Contraption Set",
+        "CustomSet",
+        "Dual Lands Set",
+        "Extended-Art Frames set",
+        "Fetchland Set",
+        "GnD Cards",
+        "Land Set",
+        "Masterpiece Set",
+        "Mythic Set",
+        "Oversized",
+        "P9 Set",
+        "Phenomena Set",
+        "Plane Set",
+        "Planechase Set",
+        "Planes Set",
+        "Rare Set",
+        "Relic Tokens",
+        "Scene Set",
+        "Scheme Set",
+        "Showcase Frame set",
+        "Special set",
+        "Sticker Set",
+        "Summary Set",
+        "Time Shifted Set",
+        "Timeshifted Set",
+        "Token Set", # we can't use "Token" because it is a common word
+        "Tokens Set",
+        "Tokens for MTG",
+        "Uncommon Set",
+    ]
+
+    # "MtG Set" has a suffix "Full Set" that implies "bundles of cards"
+    # except for these two series where it implies "sealed" instead
+    full_set_ok = [
+        "Signature Spellbook",
+        "From the Vault",
+    ]
+
+    sealed_data = []
+
+    # idProduct,Name,"Category ID","Category","Expansion ID","Metacard ID","Date Added"
+    reader = csv.reader(productsfile)
+    for row in reader:
+        if row[3] not in category_types:
+            continue
+
+        if any(tag.lower() in row[1].lower() for tag in skip_tags):
+            continue
+        if "Full Set" in row[1] and not any(tag in row[1] for tag in full_set_ok):
+            continue
+        if "Secret Lair" in row[1] and " Set" in row[1]:
+            continue
+
+        sealed_data.extend([
+            {
+                "name": row[1],
+                "id": row[0],
+                "releaseDate": row[6],
+            }
+        ])
+
+    return sealed_data
+
+
 def main(secret):
-    url = "https://mtgjson.com/api/v5/AllPrintings.json"
-    r = requests.get(url, stream=True)
-
     api_version, tcg_auth_code = get_tcg_auth_code(secret)
-
-    alt_codes = {"con_": "con"}
-    r_alt_codes = {"CON": "CON_"}
+    mkm_productsfile = get_mkm_productsfile(secret)
 
     # Set up known product objects
     with open("data/ignore.yaml") as ignore_file:
         ignore = yaml.safe_load(ignore_file)
     ck_ids = set(str(x) for x in ignore["cardKingdom"].keys())
     tg_ids = set(str(x) for x in ignore["tcgplayer"].keys())
+    cm_ids = set(str(x) for x in ignore["cardMarket"].keys())
     ck_review = dict()
     tg_review = dict()
+    cm_review = dict()
 
     for known_file in Path("data/products").glob("*.yaml"):
         with open(known_file, "rb") as yfile:
@@ -175,6 +286,13 @@ def main(secret):
                 str(p["identifiers"]["tcgplayerProductId"])
                 for p in loaded_data["products"].values()
                 if "identifiers" in p and p["identifiers"].get("tcgplayerProductId")
+            }
+        )
+        cm_ids.update(
+            {
+                str(p["identifiers"]["mcmId"])
+                for p in loaded_data["products"].values()
+                if "identifiers" in p and p["identifiers"].get("mcmId")
             }
         )
 
@@ -209,9 +327,28 @@ def main(secret):
             date_obj = datetime.strptime(product["releaseDate"], "%Y-%m-%dT%H:%M:%S")
             tg_review[product["name"]]["release_date"] = date_obj.strftime("%Y-%m-%d")
 
+    # Load CardMarket products
+    mkm_products = get_cardmarket(mkm_productsfile)
+    for product in mkm_products:
+        if str(product["id"]) in cm_ids:
+            continue
+
+        cm_review[product["name"]] = {
+            "identifiers": {"mcmId": str(product["id"])},
+            "category": "UNKNOWN",
+            "subtype": "UNKNOWN"
+        }
+        if product["releaseDate"]:
+            date_obj = datetime.strptime(product["releaseDate"], "%Y-%m-%d %H:%M:%S")
+            cm_review[product["name"]]["release_date"] = date_obj.strftime("%Y-%m-%d")
+
     # Dump new products into the review section
     with open("data/review.yaml", "w") as yfile:
-        yaml.dump({"cardKingdom": ck_review, "tcgplayer": tg_review}, yfile)
+        yaml.dump({
+            "cardKingdom": ck_review,
+            "tcgplayer": tg_review,
+            "cardMarket": cm_review,
+        }, yfile)
 
     # Add any new/modified products to the contents files
     for set_file in Path("data/products").glob("*.yaml"):
