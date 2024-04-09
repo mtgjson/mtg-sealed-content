@@ -4,16 +4,25 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '228581'
+      mcmId: '210068'
       tcgplayerProductId: '27266'
     subtype: DEFAULT
   Beta Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '228582'
+      mcmId: '210002'
       tcgplayerProductId: '27328'
     subtype: DEFAULT
   Beta Starter Deck:
     category: LIMITED
     identifiers:
+      mcmId: '248490'
       tcgplayerProductId: '137017'
+    subtype: STARTER
+  Beta Starter Deck Display:
+    category: LIMITED_CASE
+    identifiers:
+      mcmId: '272017'
+    release_date: '2007-01-01'
     subtype: STARTER
