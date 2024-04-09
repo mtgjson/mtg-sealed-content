@@ -154,10 +154,14 @@ def get_tcg_auth_code(secret):
 
 
 def get_mkm_productsfile(secret):
-    os.environ["MKM_APP_TOKEN"] = secret.get("app_token")
-    os.environ["MKM_APP_SECRET"] = secret.get("app_secret")
-    os.environ["MKM_ACCESS_TOKEN"] = secret.get("access_token") or ""
-    os.environ["MKM_ACCESS_TOKEN_SECRET"] = secret.get("access_token_secret") or ""
+    try:
+        os.environ["MKM_APP_TOKEN"] = secret.get("app_token")
+        os.environ["MKM_APP_SECRET"] = secret.get("app_secret")
+        os.environ["MKM_ACCESS_TOKEN"] = secret.get("access_token") or ""
+        os.environ["MKM_ACCESS_TOKEN_SECRET"] = secret.get("access_token_secret") or ""
+    except TypeError:
+        print(f"Incorrectly coded MKM token")
+        return ""
 
     mkm_connection = Mkm(_API_MAP["2.0"]["api"], _API_MAP["2.0"]["api_root"])
 
@@ -165,7 +169,7 @@ def get_mkm_productsfile(secret):
         mkm_response = mkm_connection.market_place.product_list().json()
     except mkmsdk.exceptions.ConnectionError as exception:
         print(f"Unable to download MKM correctly: {exception}")
-        return None
+        return ""
 
     product_data = base64.b64decode(mkm_response["productsfile"])  # Un-base64
     product_data = zlib.decompress(product_data, 16 + zlib.MAX_WBITS)  # Un-gzip
