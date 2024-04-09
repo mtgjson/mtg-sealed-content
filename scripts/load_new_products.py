@@ -20,7 +20,10 @@ def get_cardKingdom():
     sealed_url = "https://api.cardkingdom.com/api/sealed_pricelist"
     r = requests.get(sealed_url)
     ck_data = json.loads(r.content)
-    return ck_data["meta"]["base_url"], ck_data["data"]
+    output_data = ck_data['data']
+    output_data = [x for x in output_data if "Set (Factory Sealed)" not in x['name']]
+    output_data = [x for x in output_data if "Pure Bulk:" not in x['name']]
+    return output_data
 
 
 def tcgdownload(url, params, api_version, auth_code):
@@ -206,6 +209,7 @@ def get_cardmarket(productsfile):
         "Plane Set",
         "Planechase Set",
         "Planes Set",
+        "Promo Pack",
         "Rare Set",
         "Relic Tokens",
         "Scene Set",
@@ -242,6 +246,8 @@ def get_cardmarket(productsfile):
         if "Full Set" in row[1] and not any(tag in row[1] for tag in full_set_ok):
             continue
         if "Secret Lair" in row[1] and " Set" in row[1]:
+            continue
+        if "Secret Lair" in row[1] and " Booster" in row[1]:
             continue
 
         sealed_data.extend([
@@ -297,7 +303,7 @@ def main(secret):
         )
 
     # Load Card Kingdom products
-    urlbase, ck_products = get_cardKingdom()
+    ck_products = get_cardKingdom()
     for product in ck_products:
         if str(product["id"]) in ck_ids or product["id"] in ck_ids:
             continue
