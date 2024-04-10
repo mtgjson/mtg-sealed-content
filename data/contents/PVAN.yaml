@@ -1,3 +1,12 @@
 code: pvan
 products:
-  Vanguard Gift Box: []
+  Vanguard Gift Box:
+    card_count: 8
+    deck:
+    - name: First Series
+      set: pvan
+    other:
+    - name: Italian Mirage Tournament Deck
+    - name: Traditional Chinese Visions Booster Pack
+    - name: Korean Weatherlight Booster Pack
+    - name: Vanguard Rules Sheet
