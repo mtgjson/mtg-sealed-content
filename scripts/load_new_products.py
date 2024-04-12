@@ -265,100 +265,115 @@ def get_cardmarket(productsfile):
     return sealed_data
 
 
-def main(secret):
+def load_cardkingdom(secret):
+    return get_cardKingdom()
+
+
+def preload_tcgplayer(secret):
     api_version, tcg_auth_code = get_tcg_auth_code(secret)
+    secret["api_version"] = api_version
+    secret["tcg_auth_code"] = tcg_auth_code
+
+
+def load_tcgplayer(secret):
+    api_version = secret.get("api_version")
+    tcg_auth_code = secret.get("tcg_auth_code")
+    return get_tcgplayer(api_version, tcg_auth_code)
+
+
+def preload_cardmarket(secret):
     mkm_productsfile = get_mkm_productsfile(secret)
+    secret["mkm_productsfile"] = mkm_productsfile
+
+
+def load_cardmarket(secret):
+    mkm_productsfile = secret.get("mkm_productsfile")
+    return get_cardmarket(mkm_productsfile)
+
+
+providers_dict = {
+    "cardKingdom": {
+        "identifier": "cardKingdomId",
+        "load_func": load_cardkingdom,
+    },
+    "tcgplayer": {
+        "identifier": "tcgplayerProductId",
+        "preload_func": preload_tcgplayer,
+        "load_func": load_tcgplayer,
+    },
+    "cardMarket": {
+        "identifier": "mcmId",
+        "preload_func": preload_cardmarket,
+        "load_func": load_cardmarket,
+    },
+}
+
+
+def main(secret):
+    # Load any prerequisite data (auth or similar)
+    for provider in providers_dict.values():
+        if provider.get("disabled") or provider.get("preload_func") is None:
+            continue
+        provider["preload_func"](secret)
 
     # Set up known product objects
     with open("data/ignore.yaml") as ignore_file:
         ignore = yaml.safe_load(ignore_file)
-    ck_ids = set(str(x) for x in ignore["cardKingdom"].keys())
-    tg_ids = set(str(x) for x in ignore["tcgplayer"].keys())
-    cm_ids = set(str(x) for x in ignore["cardMarket"].keys())
-    ck_review = dict()
-    tg_review = dict()
-    cm_review = dict()
 
+    ids = dict()
+    reviews = dict()
+
+    # Set up the list of ids and items to review for each provider
+    for key, provider in providers_dict.items():
+        provider_ids = set(str(x) for x in ignore[key].keys())
+        ids[key]= provider_ids
+        reviews[key] = dict()
+
+    # Load data from the known products
     for known_file in Path("data/products").glob("*.yaml"):
         with open(known_file, "rb") as yfile:
             loaded_data = yaml.safe_load(yfile)
         with open(known_file, "w") as yfile:
             yaml.dump(loaded_data, yfile)
-        ck_ids.update(
-            {
-                str(p["identifiers"]["cardKingdomId"])
-                for p in loaded_data["products"].values()
-                if "identifiers" in p and p["identifiers"].get("cardKingdomId")
-            }
-        )
-        tg_ids.update(
-            {
-                str(p["identifiers"]["tcgplayerProductId"])
-                for p in loaded_data["products"].values()
-                if "identifiers" in p and p["identifiers"].get("tcgplayerProductId")
-            }
-        )
-        cm_ids.update(
-            {
-                str(p["identifiers"]["mcmId"])
-                for p in loaded_data["products"].values()
-                if "identifiers" in p and p["identifiers"].get("mcmId")
-            }
-        )
 
-    # Load Card Kingdom products
-    ck_products = get_cardKingdom()
-    for product in ck_products:
-        if str(product["id"]) in ck_ids or product["id"] in ck_ids:
-            continue
-        else:
-            ck_review.update(
+        # For each provider, load every known id
+        for key, provider in providers_dict.items():
+            if provider.get("disabled"):
+                continue
+            ids[key].update(
                 {
-                    product["name"]: {
-                        "identifiers": {"cardKingdomId": str(product["id"])},
-                        "category": "UNKNOWN",
-                        "subtype": "UNKNOWN"
-                    }
+                    str(p["identifiers"][provider["identifier"]])
+                    for p in loaded_data["products"].values()
+                    if "identifiers" in p and p["identifiers"].get(provider["identifier"])
                 }
             )
 
-    # Load TCGPlayer products [unknown]
-    tg_products = get_tcgplayer(api_version, tcg_auth_code)
-    for product in tg_products:
-        if str(product["id"]) in tg_ids:
+    # Update all the ids
+    for key, provider in providers_dict.items():
+        if provider.get("disabled"):
             continue
+        products = provider["load_func"](secret)
 
-        tg_review[product["name"]] = {
-            "identifiers": {"tcgplayerProductId": str(product["id"])},
-            "category": "UNKNOWN",
-            "subtype": "UNKNOWN"
-        }
-        if product["releaseDate"]:
-            date_obj = datetime.strptime(product["releaseDate"], "%Y-%m-%dT%H:%M:%S")
-            tg_review[product["name"]]["release_date"] = date_obj.strftime("%Y-%m-%d")
+        for product in products:
+            if str(product["id"]) in ids[key]:
+                continue
 
-    # Load CardMarket products
-    mkm_products = get_cardmarket(mkm_productsfile)
-    for product in mkm_products:
-        if str(product["id"]) in cm_ids:
-            continue
-
-        cm_review[product["name"]] = {
-            "identifiers": {"mcmId": str(product["id"])},
-            "category": "UNKNOWN",
-            "subtype": "UNKNOWN"
-        }
-        if product["releaseDate"]:
-            date_obj = datetime.strptime(product["releaseDate"], "%Y-%m-%d %H:%M:%S")
-            cm_review[product["name"]]["release_date"] = date_obj.strftime("%Y-%m-%d")
+            reviews[key][product["name"]] = {
+                "identifiers": {provider["identifier"]: str(product["id"])},
+                "category": "UNKNOWN",
+                "subtype": "UNKNOWN"
+            }
+            if product.get("releaseDate") != None:
+                try:
+                    date_obj = datetime.strptime(product["releaseDate"], "%Y-%m-%dT%H:%M:%S")
+                except Exception:
+                    date_obj = datetime.strptime(product["releaseDate"], "%Y-%m-%d %H:%M:%S")
+                    pass
+                reviews[key][product["name"]]["release_date"] = date_obj.strftime("%Y-%m-%d")
 
     # Dump new products into the review section
     with open("data/review.yaml", "w") as yfile:
-        yaml.dump({
-            "cardKingdom": ck_review,
-            "tcgplayer": tg_review,
-            "cardMarket": cm_review,
-        }, yfile)
+        yaml.dump(reviews, yfile)
 
     # Add any new/modified products to the contents files
     for set_file in Path("data/products").glob("*.yaml"):
