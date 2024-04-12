@@ -401,6 +401,17 @@ def main(secret):
 if __name__ == "__main__":
     try:
         secret = json.loads(" ".join(sys.argv[1:])[1:-1])
-    except IndexError:
+    except Exception:
+        print("Unable to parse auth - only non-authenticated requests will succeed")
         secret = {}
+        pass
+
+    if secret.get("client_id") == None or secret.get("client_secret") == None:
+        print("TCGplayer is disabled due missing auth")
+        providers_dict["tcgplayer"]["disabled"] = True
+
+    if secret.get("app_token") == None or secret.get("app_secret") == None:
+        print("Cardmarket is disabled due missing auth")
+        providers_dict["cardMarket"]["disabled"] = True
+
     main(secret)
