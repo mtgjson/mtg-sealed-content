@@ -3,16 +3,24 @@ products:
   Alpha Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      mcmId: '210067'
       tcgplayerProductId: '27262'
     subtype: DEFAULT
   Alpha Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '228570'
+      mcmId: '210001'
       tcgplayerProductId: 27324
     subtype: DEFAULT
   Alpha Starter Deck:
     category: LIMITED
     identifiers:
+      mcmId: '248489'
       tcgplayerProductId: '139147'
+    subtype: STARTER
+  Alpha Starter Deck Display:
+    category: LIMITED_CASE
+    identifiers:
+      mcmId: '272013'
     subtype: STARTER
