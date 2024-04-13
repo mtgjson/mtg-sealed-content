@@ -1,7 +1,6 @@
 code: g17
 products:
   2017 Gift Pack:
-    card_count: 7
     card:
     - foil: true
       name: Plains
@@ -31,6 +30,10 @@ products:
       name: Kari Zev, Skyship Raider
       number: 87
       set: aer
+    card_count: 7
+    other:
+    - name: Spindown life counter
+    - name: Exclusive mini-poster featuring art from HOU
     sealed:
     - count: 1
       name: Ixalan Booster Pack
@@ -41,6 +44,3 @@ products:
     - count: 1
       name: Amonkhet Booster Pack
       set: akh
-    other:
-    - name: Spindown life counter
-    - name: Exclusive mini-poster featuring art from HOU
