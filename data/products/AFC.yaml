@@ -4,20 +4,14 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '247750'
-      tcgplayerProductId: '238759'
       mcmId: '571984'
+      tcgplayerProductId: '238759'
     release_date: '2021-07-23'
     subtype: COMMANDER
   Adventures in the Forgotten Realms Commander Deck Display:
     category: DECK_BOX
     identifiers:
       tcgplayerProductId: '238784'
-    release_date: '2021-07-23'
-    subtype: COMMANDER
-  Adventures in the Forgotten Realms Commander Decks Set of 4:
-    category: SUBSET
-    identifiers:
-      mcmId: '571985'
     release_date: '2021-07-23'
     subtype: COMMANDER
   Adventures in the Forgotten Realms Commander Deck Draconic Rage:
@@ -42,5 +36,11 @@ products:
       cardKingdomId: '247753'
       mcmId: '571982'
       tcgplayerProductId: '238755'
+    release_date: '2021-07-23'
+    subtype: COMMANDER
+  Adventures in the Forgotten Realms Commander Decks Set of 4:
+    category: SUBSET
+    identifiers:
+      mcmId: '571985'
     release_date: '2021-07-23'
     subtype: COMMANDER

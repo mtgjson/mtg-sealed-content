@@ -10,8 +10,8 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '260404'
-      tcgplayerProductId: '267034'
       mcmId: '650829'
+      tcgplayerProductId: '267034'
     release_date: '2022-06-10'
     subtype: DEFAULT
   Commander Legends Battle for Baldurs Gate Bundle Case:
@@ -24,8 +24,8 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '260406'
-      tcgplayerProductId: '267023'
       mcmId: '650825'
+      tcgplayerProductId: '267023'
     subtype: COLLECTOR
   Commander Legends Battle for Baldurs Gate Collector Booster Box Case:
     category: BOOSTER_CASE
@@ -41,13 +41,13 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '260405'
-      tcgplayerProductId: '267024'
       mcmId: '650828'
+      tcgplayerProductId: '267024'
     release_date: '2022-06-10'
     subtype: COLLECTOR
   Commander Legends Battle for Baldurs Gate Collector Booster Sample Pack:
     category: BOOSTER_PACK
-    identifiers: 
+    identifiers:
       mcmId: '668773'
     release_date: '2022-06-10'
     subtype: PROMOTIONAL
@@ -60,8 +60,8 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '260610'
-      tcgplayerProductId: '267030'
       mcmId: '651790'
+      tcgplayerProductId: '267030'
     release_date: '2022-06-10'
     subtype: COMMANDER
   Commander Legends Battle for Baldurs Gate Commander Deck Draconic Dissent Minimal Packaging:
@@ -112,6 +112,12 @@ products:
       tcgplayerProductId: '267026'
     release_date: '2022-06-10'
     subtype: COMMANDER
+  Commander Legends Battle for Baldurs Gate Commander Decks Set of Four:
+    category: SUBSET
+    identifiers:
+      cardKingdomId: '260612'
+      mcmId: '651792'
+    subtype: COMMANDER
   Commander Legends Battle for Baldurs Gate Draft Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -130,15 +136,15 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '260409'
-      tcgplayerProductId: '267020'
       mcmId: '650826'
+      tcgplayerProductId: '267020'
     release_date: '2022-06-10'
     subtype: DEFAULT
   Commander Legends Battle for Baldurs Gate Prerelease Pack:
     category: LIMITED
     identifiers:
-      tcgplayerProductId: '267035'
       mcmId: '650877'
+      tcgplayerProductId: '267035'
     release_date: '2022-06-10'
     subtype: PRERELEASE
   Commander Legends Battle for Baldurs Gate Set Booster Box:
@@ -158,13 +164,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '260411'
-      tcgplayerProductId: '267021'
       mcmId: '650827'
+      tcgplayerProductId: '267021'
     release_date: '2022-06-10'
     subtype: SET
-  Commander Legends Battle for Baldurs Gate Commander Decks Set of Four:
-    category: SUBSET
-    identifiers:
-      cardKingdomId: '260612'
-      mcmId: '651792'
-    subtype: COMMANDER
