@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '279444'
+      mcmId: '698962'
       tcgplayerProductId: '484929'
     release_date: '2023-08-04'
     subtype: COLLECTOR
@@ -17,24 +18,28 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '279443'
+      mcmId: '698959'
       tcgplayerProductId: '484928'
     release_date: '2023-08-04'
     subtype: COLLECTOR
   Commander Masters Collector Booster Sample Pack:
     category: BOOSTER_PACK
-    identifiers: {}
+    identifiers: 
+      mcmId: '729220'
     release_date: '2023-07-28'
     subtype: COLLECTOR
   Commander Masters Commander Deck Eldrazi Unbound:
     category: DECK
     identifiers:
       cardKingdomId: '279445'
+      mcmId: '711915'
       tcgplayerProductId: '484931'
     subtype: COMMANDER
   Commander Masters Commander Deck Enduring Enchantments:
     category: DECK
     identifiers:
       cardKingdomId: '279446'
+      mcmId: '711916'
       tcgplayerProductId: '484932'
     release_date: '2023-08-04'
     subtype: COMMANDER
@@ -42,6 +47,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '279447'
+      mcmId: '711917'
       tcgplayerProductId: '484930'
     release_date: '2023-08-04'
     subtype: COMMANDER
@@ -49,6 +55,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '279448'
+      mcmId: '711918'
       tcgplayerProductId: '484933'
     release_date: '2023-08-04'
     subtype: COMMANDER
@@ -56,6 +63,7 @@ products:
     category: SUBSET
     identifiers:
       cardKingdomId: '279449'
+      mcmId: '711919'
       tcgplayerProductId: '484934'
     release_date: '2023-08-04'
     subtype: COMMANDER
@@ -64,6 +72,7 @@ products:
     identifiers:
       cardKingdomId: '279450'
       tcgplayerProductId: '484924'
+      mcmId: '698961'
     release_date: '2023-08-04'
     subtype: DEFAULT
   Commander Masters Draft Booster Box Case:
@@ -76,6 +85,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '279451'
+      mcmId: '698953'
       tcgplayerProductId: '484923'
     release_date: '2023-08-04'
     subtype: DEFAULT
@@ -83,6 +93,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '279453'
+      mcmId: '698963'
       tcgplayerProductId: '484927'
     release_date: '2023-08-04'
     subtype: SET
@@ -96,6 +107,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '279452'
+      mcmId: '698957'
       tcgplayerProductId: '484926'
     release_date: '2023-08-04'
     subtype: SET

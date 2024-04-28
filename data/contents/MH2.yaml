@@ -16,13 +16,16 @@ products:
     - count: 6
       name: Modern Horizons 2 Collector Booster Box
       set: mh2
-  Modern Horizons 2 Collector Booster Hanger Pack: []
+  Modern Horizons 2 Collector Booster Hanger Pack: 
+    sealed:
+    - set: mh2
+      count: 1
+      name: Modern Horizons 2 Collector Booster Pack
   Modern Horizons 2 Collector Booster Pack:
     card_count: 15
     pack:
     - code: collector
       set: mh2
-  Modern Horizons 2 Collector Booster Pack S Box: []
   Modern Horizons 2 Draft Booster Box:
     sealed:
     - count: 36
@@ -49,7 +52,11 @@ products:
     - count: 6
       name: Modern Horizons 2 Set Booster Box
       set: mh2
-  Modern Horizons 2 Set Booster Hanger Pack: []
+  Modern Horizons 2 Set Booster Hanger Pack: 
+    sealed:
+    - set: mh2
+      count: 1
+      name: Modern Horizons 2 Set Booster Pack
   Modern Horizons 2 Set Booster Pack:
     card_count: 12
     pack:

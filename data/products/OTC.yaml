@@ -4,6 +4,7 @@ products:
     category: DECK
     identifiers:
       tcgplayerProductId: '541100'
+      cardKingdomId: '293678'
     release_date: '2024-04-19'
     subtype: COMMANDER
   Outlaws of Thunder Junction Commander Deck Display:
@@ -16,17 +17,25 @@ products:
     category: DECK
     identifiers:
       tcgplayerProductId: '541102'
+      cardKingdomId: '293679'
     release_date: '2024-04-19'
     subtype: COMMANDER
   Outlaws of Thunder Junction Commander Deck Most Wanted:
     category: DECK
     identifiers:
       tcgplayerProductId: '541103'
+      cardKingdomId: '293680'
     release_date: '2024-04-19'
     subtype: COMMANDER
   Outlaws of Thunder Junction Commander Deck Quick Draw:
     category: DECK
     identifiers:
       tcgplayerProductId: '541099'
+      cardKingdomId: '293677'
     release_date: '2024-04-19'
+    subtype: COMMANDER
+  Outlaws of Thunder Junction Commander Deck Set of Four:
+    category: SUBSET
+    identifiers:
+      cardKingdomId: '293681'
     subtype: COMMANDER
