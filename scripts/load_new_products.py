@@ -325,8 +325,10 @@ def main(secret):
 
     # Set up the list of ids and items to review for each provider
     for key, provider in providers_dict.items():
-        provider_ids = set(str(x) for x in ignore[key].keys())
-        ids[key]= provider_ids
+        provider_ids = set()
+        if ignore.get(key):
+            provider_ids = set(str(x) for x in ignore[key].keys())
+        ids[key] = provider_ids
         reviews[key] = dict()
 
     # Load data from the known products
