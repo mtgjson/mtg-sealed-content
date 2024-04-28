@@ -300,11 +300,13 @@ providers_dict = {
         "identifier": "tcgplayerProductId",
         "preload_func": preload_tcgplayer,
         "load_func": load_tcgplayer,
+        "auth": ["client_id", "client_secret"],
     },
     "cardMarket": {
         "identifier": "mcmId",
         "preload_func": preload_cardmarket,
         "load_func": load_cardmarket,
+        "auth": ["app_token", "app_secret"],
     },
 }
 
@@ -408,12 +410,9 @@ if __name__ == "__main__":
         secret = {}
         pass
 
-    if secret.get("client_id") == None or secret.get("client_secret") == None:
-        print("TCGplayer is disabled due missing auth")
-        providers_dict["tcgplayer"]["disabled"] = True
-
-    if secret.get("app_token") == None or secret.get("app_secret") == None:
-        print("Cardmarket is disabled due missing auth")
-        providers_dict["cardMarket"]["disabled"] = True
+    for key, provider in providers_dict.items():
+        if provider.get("auth") and not all(key in secret for key in provider.get("auth")):
+            print(f"{key} is disabled due missing auth")
+            providers_dict[key]["disabled"] = True
 
     main(secret)
