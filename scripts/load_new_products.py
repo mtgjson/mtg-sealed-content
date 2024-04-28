@@ -265,6 +265,71 @@ def get_cardmarket(productsfile):
     return sealed_data
 
 
+def ctdownload(url, params, token):
+    header = {
+        "Authorization": f"Bearer {token}"
+    }
+    r = requests.get(url, params=params, headers=header)
+    return r.content
+
+
+def load_cardtrader(secret):
+    token = secret.get("ct_token")
+
+    allExpansions = json.loads(ctdownload("https://api.cardtrader.com/api/v2/expansions", None, token))
+
+    # game_id = 1 -> mtg
+    mtgExpansions = [x for x in allExpansions if x["game_id"] == 1]
+
+    # all the categories containing sealed product
+    category_types = [4,5,7,10,13,17,23,24]
+
+    skip_tags = [
+        "Promo Pack",
+        "Basic Land Pack",
+        "Scene Box",
+    ]
+
+    sld_skip_tags = [
+        "Booster",
+        "Set",
+        "Serialized",
+    ]
+
+    sealed_data = []
+
+    for exp in mtgExpansions:
+        print(f"({exp['id']}, '{exp['name']}')")
+
+        blueprints = json.loads(ctdownload("https://api.cardtrader.com/api/v2/blueprints/export", {"expansion_id": exp["id"]}, token))
+
+        count = 0
+        for blueprint in blueprints:
+            if blueprint["game_id"] != 1:
+                continue
+            if blueprint["category_id"] not in category_types:
+                continue
+
+            if any(tag.lower() in blueprint["name"].lower() for tag in skip_tags):
+                continue
+
+            if "Secret Lair" in blueprint["name"]:
+                if any(tag.lower() in blueprint["name"].lower() for tag in sld_skip_tags):
+                    continue
+
+            count += 1
+            sealed_data.extend([
+                {
+                    "name": blueprint["name"],
+                    "id": blueprint["id"],
+                }
+            ])
+
+        print(f"Found {count} products")
+
+    return sealed_data
+
+
 def load_cardkingdom(secret):
     return get_cardKingdom()
 
@@ -307,6 +372,11 @@ providers_dict = {
         "preload_func": preload_cardmarket,
         "load_func": load_cardmarket,
         "auth": ["app_token", "app_secret"],
+    },
+    "cardTrader": {
+        "identifier": "cardtraderId",
+        "load_func": load_cardtrader,
+        "auth": ["ct_token"],
     },
 }
 
