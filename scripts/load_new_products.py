@@ -356,6 +356,56 @@ def load_cardmarket(secret):
     return get_cardmarket(mkm_productsfile)
 
 
+def mmdownload(paging):
+    params = {
+        "format": "json",
+        "version": "V2",
+        "start": str(paging["start"]),
+        "rows": str(paging["rows"]),
+        "variants": "true",
+        "variants.count": "10",
+        "fields": "*",
+        "facet.multiselect": "true",
+        "selectedfacet": "true",
+        "pagetype": "boolean",
+        "p": "categoryPath:\"Trading Card Games\"",
+        "filter": [
+            "categoryPath1_fq:\"Trading Card Games\"",
+            "categoryPath2_fq:\"Trading Card Games>Magic the Gathering\"",
+	        "stock_status_uFilter:\"In Stock\"",
+            "manufacturer_uFilter:\"Wizards of the Coast\"",
+        ],
+    }
+
+    r = requests.get("https://search.unbxd.io/fb500edbf5c28edfa74cc90561fe33c3/prod-miniaturemarket-com811741582229555/category", params=params)
+    return json.loads(r.content)
+
+
+def load_miniaturemarket(secret):
+    pagination = mmdownload({"start": 0, "rows": 0})
+    pages = pagination["response"]["numberOfProducts"]
+
+    print(f"Processing {pages} pages")
+
+    sealed_data = []
+
+    for x in range(pages):
+        products = mmdownload({"start": x, "rows": 32})
+
+        for product in products["response"]["products"]:
+            sealed_data.extend([
+                {
+                    # the 'title' field is full of tags like 'clearance' that we don't really need
+                    "name": product["google_shopping_name"],
+                    "id": product["entity_id"],
+                    "releaseDate": product["created_at"],
+                }
+            ])
+
+    print(f"Retrieved {len(sealed_data)} products")
+
+    return sealed_data
+
 providers_dict = {
     "cardKingdom": {
         "identifier": "cardKingdomId",
@@ -377,6 +427,10 @@ providers_dict = {
         "identifier": "cardtraderId",
         "load_func": load_cardtrader,
         "auth": ["ct_token"],
+    },
+    "miniaturemarket": {
+        "identifier": "miniaturemarketId",
+        "load_func": load_miniaturemarket,
     },
 }
 
