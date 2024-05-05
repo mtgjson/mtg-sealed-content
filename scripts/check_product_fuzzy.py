@@ -8,7 +8,7 @@ with open("data/review.yaml", "r") as review_file:
 review_products = []
 for provider in review_data.values():
     for name, contents in provider.items():
-        review_products.append((name, contents["identifiers"]))
+        review_products.append((name, contents["identifiers"], contents.get("release_date", False)))
 
 known_products = []
 for contentfile in Path("data/products").glob("*.yaml"):
@@ -33,7 +33,7 @@ for product in review_products:
         for provider, identifier in product[1].items():
             if provider not in ignore_content:
                 ignore_content[provider] = {}
-            ignore_content[provider].update(identifier, product[0])
+            ignore_content[provider].update({identifier: product[0]})
         with open("data/ignore.yaml", "w") as ignore_file:
             yaml.dump(ignore_content, ignore_file)
     elif product_check in "01234":
@@ -41,6 +41,16 @@ for product in review_products:
         product_link = known_products[check_index]
         with open(product_link[1], 'r') as product_file:
             import_products = yaml.safe_load(product_file)
+        if "identifiers" not in import_products["products"][product_link[0]]:
+            import_products["products"][product_link[0]]["identifiers"] = {}
         import_products["products"][product_link[0]]["identifiers"].update(product[1])
+        if product[2]:
+            if "release_date" not in import_products["products"][product_link[0]]:
+                import_products["products"][product_link[0]]["release_date"] = product[2]
+            elif import_products["products"][product_link[0]]["release_date"] != product[2]:
+                d = import_products["products"][product_link[0]]["release_date"]
+                check = input(f"Update current date {d} with new date {product[2]}? ")
+                if "y" in check:
+                    import_products["products"][product_link[0]]["release_date"] = product[2]
         with open(product_link[1], 'w') as product_file:
             yaml.dump(import_products, product_file)
