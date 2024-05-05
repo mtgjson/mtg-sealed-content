@@ -4,6 +4,7 @@ products:
     category: MULTI_DECK
     identifiers:
       cardKingdomId: '233880'
+      mcmId: '486939'
       tcgplayerProductId: '252732'
     release_date: '2020-07-03'
     subtype: TWO_PLAYER_STARTER
@@ -17,6 +18,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '233865'
+      mcmId: '466039'
       tcgplayerProductId: '214814'
     release_date: '2020-07-03'
     subtype: DEFAULT
@@ -24,6 +26,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '233863'
+      mcmId: '466034'
       tcgplayerProductId: '214818'
     release_date: '2020-07-03'
     subtype: COLLECTOR
@@ -31,6 +34,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '233864'
+      mcmId: '466029'
       tcgplayerProductId: '215325'
     release_date: '2020-07-03'
     subtype: COLLECTOR
@@ -58,6 +62,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '233868'
+      mcmId: '467329'
       tcgplayerProductId: '215468'
     release_date: '2020-07-03'
     subtype: PLANESWALKER
@@ -65,6 +70,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '233871'
+      mcmId: '467344'
       tcgplayerProductId: '215466'
     release_date: '2020-07-03'
     subtype: PLANESWALKER
@@ -78,6 +84,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '233867'
+      mcmId: '467349'
       tcgplayerProductId: '215465'
     release_date: '2020-07-03'
     subtype: PLANESWALKER
@@ -85,6 +92,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '233870'
+      mcmId: '467339'
       tcgplayerProductId: '215464'
     release_date: '2020-07-03'
     subtype: PLANESWALKER
@@ -92,6 +100,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '233869'
+      mcmId: '467334'
       tcgplayerProductId: '215467'
     release_date: '2020-07-03'
     subtype: PLANESWALKER
@@ -105,10 +114,13 @@ products:
     category: LIMITED
     identifiers:
       cardKingdomId: '233866'
+      mcmId: '476879'
       tcgplayerProductId: '215920'
+    release_date: '2020-06-30'
     subtype: PRERELEASE
   Core Set 2021 Welcome Booster:
     category: BOOSTER_PACK
-    identifiers: {}
+    identifiers:
+      mcmId: '486944'
     release_date: '2020-07-03'
     subtype: WELCOME

@@ -1,8 +1,32 @@
 code: cma
 products:
   Commander Anthology:
-    category: MULTI_DECK
+    category: BOX_SET
     identifiers:
       cardKingdomId: '212386'
       tcgplayerProductId: '131447'
+    subtype: COMMANDER
+  Commander Anthology Commander Deck Evasive Maneuvers:
+    category: DECK
+    identifiers:
+      mcmId: '298276'
+    release_date: '2017-06-01'
+    subtype: COMMANDER
+  Commander Anthology Commander Deck Guided by Nature:
+    category: DECK
+    identifiers:
+      mcmId: '298277'
+    release_date: '2017-06-01'
+    subtype: COMMANDER
+  Commander Anthology Commander Deck Heavenly Inferno:
+    category: DECK
+    identifiers:
+      mcmId: '298278'
+    release_date: '2017-06-01'
+    subtype: COMMANDER
+  Commander Anthology Commander Deck Plunder the Graves:
+    category: DECK
+    identifiers:
+      mcmId: '298279'
+    release_date: '2017-06-01'
     subtype: COMMANDER

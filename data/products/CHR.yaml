@@ -14,3 +14,15 @@ products:
       mcmId: '210012'
       tcgplayerProductId: '27331'
     subtype: DEFAULT
+  Chronicles Japanese Booster Pack:
+    category: BOOSTER_PACK
+    language: Japanese
+    identifiers:
+      mcmId: '311372'
+    subtype: DEFAULT
+  Chronicles Japanese Booster Box:
+    category: BOOSTER_BOX
+    language: Japanese
+    identifiers:
+      mcmId: '311371'
+    subtype: DEFAULT

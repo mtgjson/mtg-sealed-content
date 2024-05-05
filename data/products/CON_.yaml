@@ -4,18 +4,21 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '126253'
+      mcmId: '210138'
       tcgplayerProductId: '93516'
     subtype: DEFAULT
   Conflux Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '126254'
+      mcmId: '210137'
       tcgplayerProductId: '108337'
     subtype: DEFAULT
   Conflux Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '126255'
+      mcmId: '210159'
       tcgplayerProductId: '78307'
     subtype: FAT_PACK
   Conflux Intro Pack Bant on the March:
@@ -27,8 +30,9 @@ products:
     subtype: INTRO
   Conflux Intro Pack Display:
     category: DECK_BOX
-    identifier:
+    identifiers:
       tcgplayerProductId: '536267'
+      mcmId: '210205'
     subtype: INTRO
   Conflux Intro Pack Esper Air Assault:
     category: DECK
@@ -54,3 +58,8 @@ products:
       cardKingdomId: '126579'
       tcgplayerProductId: '501421'
     subtype: INTRO
+  Conflux Six card Booster:
+    category: BOOSTER_PACK
+    identifiers:
+      mcmId: '253803'
+    subtype: SIX

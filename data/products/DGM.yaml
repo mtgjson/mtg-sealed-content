@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '189559'
+      mcmId: '261117'
       tcgplayerProductId: '67751'
     release_date: '2013-05-03'
     subtype: DEFAULT
@@ -23,76 +24,92 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '189958'
+      mcmId: '262924'
       tcgplayerProductId: '105047'
     subtype: EVENT
   Dragons Maze Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '189561'
+      mcmId: '261118'
       tcgplayerProductId: '67754'
     subtype: FAT_PACK
   Dragons Maze Intro Pack Azorius Authority:
     category: DECK
     identifiers:
       cardKingdomId: '189628'
+      mcmId: '261681'
       tcgplayerProductId: '68028'
     subtype: INTRO
   Dragons Maze Intro Pack Display:
     category: DECK_BOX
     identifier: {}
+    identifiers:
+      mcmId: '261687'
     subtype: INTRO
   Dragons Maze Intro Pack Gruul Siege:
     category: DECK
     identifiers:
       cardKingdomId: '189631'
+      mcmId: '261684'
       tcgplayerProductId: '68031'
     subtype: INTRO
   Dragons Maze Intro Pack Orzhov Power:
     category: DECK
     identifiers:
       cardKingdomId: '189629'
+      mcmId: '261682'
       tcgplayerProductId: '68029'
     subtype: INTRO
   Dragons Maze Intro Pack Rakdos Revelry:
     category: DECK
     identifiers:
       cardKingdomId: '189630'
+      mcmId: '261683'
       tcgplayerProductId: '68030'
     subtype: INTRO
   Dragons Maze Intro Pack Set of 5:
     category: SUBSET
     identifiers:
+      mcmId: '261686'
       tcgplayerProductId: '67753'
     subtype: INTRO
   Dragons Maze Intro Pack Simic Domination:
     category: DECK
     identifiers:
       cardKingdomId: '189632'
+      mcmId: '261685'
       tcgplayerProductId: '68032'
     subtype: INTRO
   Dragons Maze Prerelease Guild Kit 10 Pack:
     category: LIMITED_CASE
     identifiers:
+      mcmId: '273051'
       tcgplayerProductId: '183301'
+    release_date: '2015-03-02'
     subtype: PRERELEASE
   Dragons Maze Prerelease Guild Kit Azorius:
     category: LIMITED
     identifiers:
+      mcmId: '261871'
       tcgplayerProductId: '183291'
     subtype: PRERELEASE
   Dragons Maze Prerelease Guild Kit Boros:
     category: LIMITED
     identifiers:
+      mcmId: '261876'
       tcgplayerProductId: '183299'
     subtype: PRERELEASE
   Dragons Maze Prerelease Guild Kit Dimir:
     category: LIMITED
     identifiers:
+      mcmId: '261878'
       tcgplayerProductId: '183292'
     subtype: PRERELEASE
   Dragons Maze Prerelease Guild Kit Golgari:
     category: LIMITED
     identifiers:
+      mcmId: '261872'
       tcgplayerProductId: '183298'
     subtype: PRERELEASE
   Dragons Maze Prerelease Guild Kit Gruul:
