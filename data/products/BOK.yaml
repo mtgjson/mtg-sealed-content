@@ -4,18 +4,21 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '113972'
+      mcmId: '210116'
       tcgplayerProductId: '27267'
     subtype: DEFAULT
   Betrayers of Kamigawa Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '113977'
+      mcmId: '210050'
       tcgplayerProductId: '27329'
     subtype: DEFAULT
   Betrayers of Kamigawa Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '205590'
+      mcmId: '210175'
       tcgplayerProductId: '78304'
     subtype: FAT_PACK
   Betrayers of Kamigawa Theme Deck Dark Devotion:
@@ -26,7 +29,7 @@ products:
     subtype: THEME
   Betrayers of Kamigawa Theme Deck Display:
     category: DECK_BOX
-    identifier: {}
+    identifiers: {}
     subtype: THEME
   Betrayers of Kamigawa Theme Deck Ninjutsu:
     category: DECK
