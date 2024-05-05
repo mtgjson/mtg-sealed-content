@@ -11,6 +11,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '131302'
+      mcmId: '240523'
       tcgplayerProductId: '185139'
     subtype: ARCHENEMY
   Archenemy Theme Deck Scorch the World with Dragonfire:
@@ -24,4 +25,10 @@ products:
     identifiers:
       cardKingdomId: '131303'
       tcgplayerProductId: '185140'
+    subtype: ARCHENEMY
+  Archenemy Theme Decks Set of 4:
+    category: SUBSET
+    identifiers:
+      mcmId: '240526'
+    release_date: '2007-01-01'
     subtype: ARCHENEMY

@@ -4,56 +4,66 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '112048'
+      mcmId: '210113'
       tcgplayerProductId: '27268'
     subtype: DEFAULT
   Champions of Kamigawa Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '112047'
+      mcmId: '210047'
       tcgplayerProductId: '27330'
     subtype: DEFAULT
   Champions of Kamigawa Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '228585'
+      mcmId: '210176'
       tcgplayerProductId: '78305'
     subtype: FAT_PACK
   Champions of Kamigawa Theme Deck Display:
     category: DECK_BOX
-    identifier: {}
+    identifiers:
+      mcmId: '210218'
     subtype: THEME
   Champions of Kamigawa Theme Deck Kami Reborn:
     category: DECK
     identifiers:
       cardKingdomId: '112049'
+      mcmId: '253692'
       tcgplayerProductId: '100232'
     subtype: THEME
   Champions of Kamigawa Theme Deck Snakes Path:
     category: DECK
     identifiers:
       cardKingdomId: '112051'
+      mcmId: '253693'
       tcgplayerProductId: '100233'
     subtype: THEME
   Champions of Kamigawa Theme Deck Spiritbane:
     category: DECK
     identifiers:
       cardKingdomId: '112052'
+      mcmId: '253694'
       tcgplayerProductId: '100231'
     subtype: THEME
   Champions of Kamigawa Theme Deck Way of the Warrior:
     category: DECK
     identifiers:
       cardKingdomId: '112053'
+      mcmId: '253695'
       tcgplayerProductId: '100234'
     subtype: THEME
   Champions of Kamigawa Tournament Pack:
     category: LIMITED
     identifiers:
       cardKingdomId: '112054'
+      mcmId: '248477'
       tcgplayerProductId: '118879'
     subtype: TOURNAMENT
   Champions of Kamigawa Tournament Pack Display:
     category: LIMITED_CASE
     identifiers:
       cardKingdomId: '240123'
+      mcmId: '253861'
     subtype: TOURNAMENT
