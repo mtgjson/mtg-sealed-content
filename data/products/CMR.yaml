@@ -10,7 +10,9 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '238688'
+      mcmId: '492099'
       tcgplayerProductId: '221323'
+    release_date: '2020-08-24'
     subtype: COLLECTOR
   Commander Legends Collector Booster Box Case:
     category: BOOSTER_CASE
@@ -26,6 +28,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '238689'
+      mcmId: '492109'
       tcgplayerProductId: '221322'
     release_date: '2020-11-20'
     subtype: COLLECTOR
@@ -33,6 +36,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '238724'
+      mcmId: '510035'
       tcgplayerProductId: '227387'
     release_date: '2020-11-20'
     subtype: COMMANDER
@@ -46,12 +50,14 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '238725'
+      mcmId: '510040'
       tcgplayerProductId: '227386'
     release_date: '2020-11-20'
     subtype: COMMANDER
   Commander Legends Commander Decks Set of 2:
     category: SUBSET
     identifiers:
+      mcmId: '509115'
       tcgplayerProductId: '224545'
     release_date: '2020-11-20'
     subtype: COMMANDER
@@ -59,6 +65,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '238690'
+      mcmId: '492104'
       tcgplayerProductId: '221319'
     release_date: '2020-11-20'
     subtype: DEFAULT
@@ -72,6 +79,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '238691'
+      mcmId: '492114'
       tcgplayerProductId: '221318'
     release_date: '2020-11-20'
     subtype: DEFAULT
