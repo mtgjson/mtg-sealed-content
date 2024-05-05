@@ -4,45 +4,54 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '120632'
+      mcmId: '210117'
       tcgplayerProductId: '27271'
     subtype: DEFAULT
   Coldsnap Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '120633'
+      mcmId: '210051'
       tcgplayerProductId: '27333'
     subtype: DEFAULT
   Coldsnap Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '120635'
+      mcmId: '210169'
       tcgplayerProductId: '78306'
     subtype: FAT_PACK
   Coldsnap Theme Deck Aurochs Stampede:
     category: DECK
     identifiers:
       cardKingdomId: '121021'
+      mcmId: '253665'
       tcgplayerProductId: '72029'
     subtype: THEME
   Coldsnap Theme Deck Beyond the Grave:
     category: DECK
     identifiers:
       cardKingdomId: '121022'
+      mcmId: '253666'
       tcgplayerProductId: '72030'
     subtype: THEME
   Coldsnap Theme Deck Display:
     category: DECK_BOX
     identifier: {}
+    identifiers:
+      mcmId: '210211'
     subtype: THEME
   Coldsnap Theme Deck Kjeldoran Cunning:
     category: DECK
     identifiers:
       cardKingdomId: '121023'
+      mcmId: '253667'
       tcgplayerProductId: '72031'
     subtype: THEME
   Coldsnap Theme Deck Snowscape:
     category: DECK
     identifiers:
       cardKingdomId: '121024'
+      mcmId: '253668'
       tcgplayerProductId: '72032'
     subtype: THEME
