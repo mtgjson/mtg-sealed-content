@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '202427'
+      mcmId: '284302'
       tcgplayerProductId: '102715'
     subtype: DEFAULT
   Battle for Zendikar Booster Box Case:
@@ -16,18 +17,21 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '202428'
+      mcmId: '284301'
       tcgplayerProductId: '102716'
     subtype: DEFAULT
   Battle for Zendikar Event Deck Ultimate Sacrifice:
     category: DECK
     identifiers:
       cardKingdomId: '202468'
+      mcmId: '284353'
       tcgplayerProductId: '102800'
     subtype: EVENT
   Battle for Zendikar Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '202429'
+      mcmId: '284303'
       tcgplayerProductId: '102801'
     release_date: '2015-10-02'
     subtype: FAT_PACK
@@ -35,49 +39,58 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '203355'
+      mcmId: '285621'
       tcgplayerProductId: '102717'
     subtype: GIFT_BUNDLE
   Battle for Zendikar Hedron Prerelease Box:
     category: LIMITED_CASE
     identifiers:
+      mcmId: '284373'
       tcgplayerProductId: '105955'
     subtype: PRERELEASE
   Battle for Zendikar Intro Pack Call of Blood:
     category: DECK
     identifiers:
       cardKingdomId: '202474'
+      mcmId: '284346'
       tcgplayerProductId: '102721'
     subtype: INTRO
   Battle for Zendikar Intro Pack Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      mcmId: '284352'
     subtype: INTRO
   Battle for Zendikar Intro Pack Eldrazi Assault:
     category: DECK
     identifiers:
       cardKingdomId: '202472'
+      mcmId: '284349'
       tcgplayerProductId: '102723'
     subtype: INTRO
   Battle for Zendikar Intro Pack Rallying Cry:
     category: DECK
     identifiers:
       cardKingdomId: '202476'
+      mcmId: '284350'
       tcgplayerProductId: '102719'
     subtype: INTRO
   Battle for Zendikar Intro Pack Set of 5:
     category: SUBSET
     identifiers:
+      mcmId: '284351'
       tcgplayerProductId: '102718'
     subtype: INTRO
   Battle for Zendikar Intro Pack Swarming Instinct:
     category: DECK
     identifiers:
       cardKingdomId: '202473'
+      mcmId: '284347'
       tcgplayerProductId: '102720'
     subtype: INTRO
   Battle for Zendikar Intro Pack Zendikars Rage:
     category: DECK
     identifiers:
       cardKingdomId: '202475'
+      mcmId: '284348'
       tcgplayerProductId: '102722'
     subtype: INTRO

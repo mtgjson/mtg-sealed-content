@@ -9,6 +9,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '211617'
+      mcmId: '292573'
       tcgplayerProductId: '127174'
     release_date: '2017-04-28'
     subtype: DEFAULT
@@ -22,6 +23,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '211618'
+      mcmId: '292574'
       tcgplayerProductId: '127173'
     release_date: '2017-04-28'
     subtype: DEFAULT
@@ -29,6 +31,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '211629'
+      mcmId: '292572'
       tcgplayerProductId: '127175'
     release_date: '2017-04-28'
     subtype: DEFAULT
@@ -51,12 +54,14 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '211623'
+      mcmId: '295697'
       tcgplayerProductId: '127532'
     subtype: PLANESWALKER
   Amonkhet Planeswalker Deck Liliana:
     category: DECK
     identifiers:
       cardKingdomId: '211624'
+      mcmId: '295698'
       tcgplayerProductId: '127533'
     subtype: PLANESWALKER
   Amonkhet Planeswalker Decks Set of 2:
@@ -67,5 +72,6 @@ products:
   Amonkhet Prerelease Pack:
     category: LIMITED
     identifiers:
+      mcmId: '295696'
       tcgplayerProductId: '127534'
     subtype: PRERELEASE

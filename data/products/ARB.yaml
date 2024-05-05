@@ -4,18 +4,21 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '126650'
+      mcmId: '210140'
       tcgplayerProductId: '31841'
     subtype: DEFAULT
   Alara Reborn Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '126651'
+      mcmId: '210139'
       tcgplayerProductId: '31840'
     subtype: DEFAULT
   Alara Reborn Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '126732'
+      mcmId: '210157'
       tcgplayerProductId: '78302'
     subtype: FAT_PACK
   Alara Reborn Intro Pack Dead Ahead:
@@ -26,7 +29,8 @@ products:
     subtype: INTRO
   Alara Reborn Intro Pack Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      mcmId: '210204'
     subtype: INTRO
   Alara Reborn Intro Pack Eternal Siege:
     category: DECK
