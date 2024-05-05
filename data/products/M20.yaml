@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '225512'
+      mcmId: '371536'
       tcgplayerProductId: '188210'
     release_date: '2019-07-12'
     subtype: DEFAULT
@@ -17,6 +18,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '225516'
+      mcmId: '371537'
       tcgplayerProductId: '188211'
     release_date: '2019-07-12'
     subtype: DEFAULT
@@ -24,6 +26,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '225517'
+      mcmId: '371535'
       tcgplayerProductId: '188213'
     release_date: '2019-07-12'
     subtype: DEFAULT
@@ -31,6 +34,7 @@ products:
     category: KIT
     identifiers:
       cardKingdomId: '225521'
+      mcmId: '380322'
       tcgplayerProductId: '185681'
     release_date: '2019-07-12'
     subtype: DECK_BUILDERS_TOOLKIT
@@ -43,6 +47,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '225555'
+      mcmId: '378279'
       tcgplayerProductId: '192509'
     release_date: '2019-07-12'
     subtype: PLANESWALKER
@@ -50,6 +55,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '225556'
+      mcmId: '378288'
       tcgplayerProductId: '192510'
     release_date: '2019-07-12'
     subtype: PLANESWALKER
@@ -64,6 +70,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '225557'
+      mcmId: '378285'
       tcgplayerProductId: '192512'
     release_date: '2019-07-12'
     subtype: PLANESWALKER
@@ -71,6 +78,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '225558'
+      mcmId: '378291'
       tcgplayerProductId: '192511'
     release_date: '2019-07-12'
     subtype: PLANESWALKER
@@ -78,6 +86,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '225559'
+      mcmId: '378282'
       tcgplayerProductId: '192513'
     release_date: '2019-07-12'
     subtype: PLANESWALKER
@@ -90,34 +99,45 @@ products:
   Core Set 2020 Prerelease Pack:
     category: LIMITED
     identifiers:
+      mcmId: '380316'
       tcgplayerProductId: '193014'
+    release_date: '2019-06-27'
     subtype: PRERELEASE
   Core Set 2020 Spellslinger Starter Kit:
     category: MULTI_DECK
     identifiers:
       cardKingdomId: '226730'
+      mcmId: '380319'
       tcgplayerProductId: '192755'
     release_date: '2019-07-12'
     subtype: TWO_PLAYER_STARTER
   Core Set 2020 Theme Booster Black:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '379662'
       tcgplayerProductId: '192762'
+    release_date: '2019-06-26'
     subtype: THEME
   Core Set 2020 Theme Booster Blue:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '379665'
       tcgplayerProductId: '192761'
+    release_date: '2019-06-26'
     subtype: THEME
   Core Set 2020 Theme Booster Green:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '379668'
       tcgplayerProductId: '192764'
+    release_date: '2019-06-26'
     subtype: THEME
   Core Set 2020 Theme Booster Red:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '379671'
       tcgplayerProductId: '192763'
+    release_date: '2019-06-26'
     subtype: THEME
   Core Set 2020 Theme Booster Set of 5:
     category: SUBSET
@@ -127,30 +147,37 @@ products:
   Core Set 2020 Theme Booster White:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '379674'
       tcgplayerProductId: '192765'
+    release_date: '2019-06-26'
     subtype: THEME
   Core Set 2020 Welcome Deck - Black:
     category: DECK
-    identifiers: {}
+    identifiers:
+      mcmId: '380304'
     release_date: '2019-07-12'
     subtype: STARTER
   Core Set 2020 Welcome Deck - Blue:
     category: DECK
-    identifiers: {}
+    identifiers:
+      mcmId: '380307'
     release_date: '2019-07-12'
     subtype: STARTER
   Core Set 2020 Welcome Deck - Green:
     category: DECK
-    identifiers: {}
+    identifiers:
+      mcmId: '380310'
     release_date: '2019-07-12'
     subtype: STARTER
   Core Set 2020 Welcome Deck - Red:
     category: DECK
-    identifiers: {}
+    identifiers:
+      mcmId: '380301'
     release_date: '2019-07-12'
     subtype: STARTER
   Core Set 2020 Welcome Deck - White:
     category: DECK
-    identifiers: {}
+    identifiers:
+      mcmId: '380298'
     release_date: '2019-07-12'
     subtype: STARTER

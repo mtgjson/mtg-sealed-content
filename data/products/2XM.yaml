@@ -15,6 +15,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '235949'
+      mcmId: '462549'
       tcgplayerProductId: '214823'
     release_date: '2020-08-07'
     subtype: DEFAULT
@@ -28,12 +29,16 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '235950'
+      mcmId: '462554'
       tcgplayerProductId: '214824'
+    release_date: '2020-05-22'
     subtype: DEFAULT
   Double Masters VIP Edition Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      mcmId: '679618'
       tcgplayerProductId: '215304'
+    release_date: '2022-10-12'
     subtype: PREMIUM
   Double Masters VIP Edition Booster Box Case:
     category: BOOSTER_CASE
@@ -44,5 +49,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '235951'
+      mcmId: '482384'
       tcgplayerProductId: '215084'
+    release_date: '2020-07-16'
     subtype: PREMIUM

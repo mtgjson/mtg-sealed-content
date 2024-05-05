@@ -16,6 +16,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '263988'
+      mcmId: '669037'
       tcgplayerProductId: '275414'
     release_date: '2022-09-09'
     subtype: DEFAULT
@@ -29,6 +30,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '263989'
+      mcmId: '657414'
       tcgplayerProductId: '275412'
     release_date: '2022-09-09'
     subtype: COLLECTOR
@@ -48,18 +50,21 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '263990'
+      mcmId: '657405'
       tcgplayerProductId: '275407'
     release_date: '2022-09-09'
     subtype: COLLECTOR
   Dominaria United Collector Booster Sample Pack:
     category: BOOSTER_PACK
-    identifiers: {}
+    identifiers:
+      mcmId: '678642'
     release_date: '2022-09-09'
     subtype: PROMOTIONAL
   Dominaria United Draft Booster Box:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '263993'
+      mcmId: '657417'
       tcgplayerProductId: '275403'
     release_date: '2022-09-09'
     subtype: DEFAULT
@@ -73,6 +78,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '263992'
+      mcmId: '657394'
       tcgplayerProductId: '275432'
     release_date: '2022-09-09'
     subtype: DEFAULT
@@ -80,6 +86,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '263994'
+      mcmId: '657426'
       tcgplayerProductId: '275428'
     release_date: '2022-09-09'
     subtype: JUMPSTART
@@ -93,12 +100,14 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '263995'
+      mcmId: '657409'
       tcgplayerProductId: '275425'
     release_date: '2022-09-09'
     subtype: JUMPSTART
   Dominaria United Prerelease Pack:
     category: LIMITED
     identifiers:
+      mcmId: '669038'
       tcgplayerProductId: '275422'
     release_date: '2022-09-09'
     subtype: PRERELEASE
@@ -106,6 +115,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '263997'
+      mcmId: '657415'
       tcgplayerProductId: '275430'
     release_date: '2022-09-09'
     subtype: SET
@@ -119,11 +129,13 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '263998'
+      mcmId: '657397'
       tcgplayerProductId: '275405'
     release_date: '2022-09-09'
     subtype: SET
   Dominaria United Welcome Booster:
     category: BOOSTER_PACK
-    identifiers: {}
+    identifiers:
+      mcmId: '691262'
     release_date: '2022-09-09'
     subtype: WELCOME

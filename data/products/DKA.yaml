@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '186260'
+      mcmId: '252462'
       tcgplayerProductId: '57584'
     release_date: '2012-02-03'
     subtype: DEFAULT
@@ -16,6 +17,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '186261'
+      mcmId: '252461'
       tcgplayerProductId: '57583'
     subtype: DEFAULT
   Dark Ascension Event Deck Display:
@@ -26,23 +28,27 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '186611'
+      mcmId: '253039'
       tcgplayerProductId: '57898'
     subtype: EVENT
   Dark Ascension Event Deck Spiraling Doom:
     category: DECK
     identifiers:
       cardKingdomId: '186612'
+      mcmId: '253040'
       tcgplayerProductId: '57899'
     subtype: EVENT
   Dark Ascension Event Decks Set of 2:
     category: SUBSET
     identifiers:
+      mcmId: '253041'
       tcgplayerProductId: '57900'
     subtype: EVENT
   Dark Ascension Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '186265'
+      mcmId: '252463'
       tcgplayerProductId: '57580'
     release_date: '2012-02-03'
     subtype: FAT_PACK
@@ -50,6 +56,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '186292'
+      mcmId: '252508'
       tcgplayerProductId: '57627'
     release_date: '2012-02-03'
     subtype: INTRO
@@ -57,6 +64,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '186293'
+      mcmId: '252510'
       tcgplayerProductId: '57629'
     release_date: '2012-02-03'
     subtype: INTRO
@@ -64,6 +72,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '186294'
+      mcmId: '252509'
       tcgplayerProductId: '57628'
     release_date: '2012-02-03'
     subtype: INTRO
@@ -71,18 +80,21 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '186295'
+      mcmId: '252507'
       tcgplayerProductId: '57626'
     release_date: '2012-02-03'
     subtype: INTRO
   Dark Ascension Intro Pack Set of 5:
     category: SUBSET
     identifiers:
+      mcmId: '252464'
       tcgplayerProductId: '57582'
     subtype: INTRO
   Dark Ascension Intro Pack Swift Justice:
     category: DECK
     identifiers:
       cardKingdomId: '186296'
+      mcmId: '252506'
       tcgplayerProductId: '57625'
     release_date: '2012-02-03'
     subtype: INTRO

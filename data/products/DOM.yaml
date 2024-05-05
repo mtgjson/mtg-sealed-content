@@ -9,6 +9,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '217676'
+      mcmId: '298744'
       tcgplayerProductId: '158423'
     release_date: '2018-04-27'
     subtype: DEFAULT
@@ -22,6 +23,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '217678'
+      mcmId: '298745'
       tcgplayerProductId: '158425'
     release_date: '2018-04-27'
     subtype: DEFAULT
@@ -29,6 +31,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '217680'
+      mcmId: '298743'
       tcgplayerProductId: '158426'
     release_date: '2018-04-27'
     subtype: DEFAULT
@@ -36,7 +39,9 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '217728'
+      mcmId: '319290'
       tcgplayerProductId: '158427'
+    release_date: '2018-03-01'
     subtype: PLANESWALKER
   Dominaria Planeswalker Deck Display:
     category: DECK_BOX
@@ -46,7 +51,9 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '217727'
+      mcmId: '319291'
       tcgplayerProductId: '158428'
+    release_date: '2018-03-01'
     subtype: PLANESWALKER
   Dominaria Planeswalker Decks Set of 2:
     category: SUBSET
@@ -57,27 +64,37 @@ products:
   Dominaria Prerelease Pack:
     category: LIMITED
     identifiers:
+      mcmId: '355773'
       tcgplayerProductId: '158430'
+    release_date: '2018-04-23'
     subtype: PRERELEASE
   Dominaria Theme Booster Black:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '356946'
       tcgplayerProductId: '166671'
+    release_date: '2018-05-04'
     subtype: THEME
   Dominaria Theme Booster Blue:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '356944'
       tcgplayerProductId: '166674'
+    release_date: '2018-05-04'
     subtype: THEME
   Dominaria Theme Booster Green:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '356943'
       tcgplayerProductId: '166673'
+    release_date: '2018-05-04'
     subtype: THEME
   Dominaria Theme Booster Red:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '356947'
       tcgplayerProductId: '166675'
+    release_date: '2018-05-04'
     subtype: THEME
   Dominaria Theme Booster Set of 5:
     category: SUBSET
@@ -87,5 +104,7 @@ products:
   Dominaria Theme Booster White:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '356945'
       tcgplayerProductId: '166672'
+    release_date: '2018-05-04'
     subtype: THEME
