@@ -2048,8 +2048,16 @@ products:
     deck:
     - name: PixelSnowLandsjpg foil
       set: sld
-  Secret Lair Drop Ponies The Galloping 2 Extra Life 2023: []
-  Secret Lair Drop Ponies The Galloping 2 Extra Life 2023 Foil: []
+  Secret Lair Drop Ponies The Galloping 2 Extra Life 2023:
+    card_count: 5
+    deck:
+    - name: Ponies the Galloping 2
+      set: sld
+  Secret Lair Drop Ponies The Galloping 2 Extra Life 2023 Foil:
+    card_count: 5
+    deck:
+    - name: Ponies the Galloping 2 foil
+      set: sld
   Secret Lair Drop Pride Across the Multiverse:
     card_count: 9
     deck:
