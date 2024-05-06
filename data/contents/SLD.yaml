@@ -1092,7 +1092,11 @@ products:
     deck:
     - name: Heads I Win, Tails You Lose
       set: sld
-  Secret Lair Commander Deck Raining Cats and Dogs: []
+  Secret Lair Commander Deck Raining Cats and Dogs:
+    card_count: 101
+    deck:
+    - name: Raining Cats and Dogs
+      set: sld
   Secret Lair Death Is Temporary Metal Is Forever:
     card_count: 6
     deck:
