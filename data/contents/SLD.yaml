@@ -1856,12 +1856,12 @@ products:
     card_count: 6
     deck:
     - name: Keep Partying Hard Shred Harder Than You Previously Thought Possible
-      set: sld 
+      set: sld
   Secret Lair Drop Keep Partying Hard Shred Harder Than You Previously Thought Possible Foil:
     card_count: 6
     deck:
     - name: Keep Partying Hard Shred Harder Than You Previously Thought Possible foil
-      set: sld 
+      set: sld
   Secret Lair Drop LOOK AT THE KITTIES Foil:
     card_count: 5
     deck:
@@ -2819,20 +2819,20 @@ products:
     - name: Valentines Day 2021 foil
       set: sld
   Secret Lair Drop Valentines Day 2021 Replacement Heliod Pack:
-    card_count: 6
     card:
     - name: Heliod, Sun-Crowned
       number: 214
       set: sld
+    card_count: 6
     other:
     - name: 5 Goblin Token from 'Secret Lair Drop Valentines Day 2021'
   Secret Lair Drop Valentines Day 2021 Replacement Heliod Pack Foil:
-    card_count: 6
     card:
-    - name: Heliod, Sun-Crowned
+    - foil: true
+      name: Heliod, Sun-Crowned
       number: 214
       set: sld
-      foil: true
+    card_count: 6
     other:
     - name: 5 foil Goblin Token from 'Secret Lair Drop Valentines Day 2021 Foil'
   Secret Lair Drop We Hope You Like Squirrels:
