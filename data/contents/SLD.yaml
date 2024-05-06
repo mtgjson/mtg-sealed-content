@@ -1092,7 +1092,11 @@ products:
     deck:
     - name: Heads I Win, Tails You Lose
       set: sld
-  Secret Lair Commander Deck Raining Cats and Dogs: []
+  Secret Lair Commander Deck Raining Cats and Dogs:
+    card_count: 101
+    deck:
+    - name: Raining Cats and Dogs
+      set: sld
   Secret Lair Death Is Temporary Metal Is Forever:
     card_count: 6
     deck:
@@ -1730,8 +1734,7 @@ products:
     deck:
     - name: Happy Little Gathering
       set: sld
-  Secret Lair Drop Happy Little Gathering Foil: []
-  Secret Lair Drop Happy Little Gathering Foil Edition:
+  Secret Lair Drop Happy Little Gathering Foil:
     card_count: 11
     deck:
     - name: Happy Little Gathering foil
@@ -1849,8 +1852,16 @@ products:
     deck:
     - name: Kamigawa The Manga The Cards foil
       set: sld
-  Secret Lair Drop Keep Partying Hard Shred Harder Than You Previously Thought Possible: []
-  Secret Lair Drop Keep Partying Hard Shred Harder Than You Previously Thought Possible Foil: []
+  Secret Lair Drop Keep Partying Hard Shred Harder Than You Previously Thought Possible:
+    card_count: 6
+    deck:
+    - name: Keep Partying Hard Shred Harder Than You Previously Thought Possible
+      set: sld 
+  Secret Lair Drop Keep Partying Hard Shred Harder Than You Previously Thought Possible Foil:
+    card_count: 6
+    deck:
+    - name: Keep Partying Hard Shred Harder Than You Previously Thought Possible foil
+      set: sld 
   Secret Lair Drop LOOK AT THE KITTIES Foil:
     card_count: 5
     deck:
@@ -1866,7 +1877,8 @@ products:
     deck:
     - name: Lil Giri Saves the Day foil
       set: sld
-  Secret Lair Drop Lil Giri Saves the Day Roadshow Edition Foil: []
+  Secret Lair Drop Lil Giri Saves the Day Roadshow Edition Foil:
+    copy: Secret Lair Drop Lil Giri Saves the Day Foil
   Secret Lair Drop Lil Walkers:
     card_count: 6
     deck:
@@ -2044,8 +2056,16 @@ products:
     deck:
     - name: PixelSnowLandsjpg foil
       set: sld
-  Secret Lair Drop Ponies The Galloping 2 Extra Life 2023: []
-  Secret Lair Drop Ponies The Galloping 2 Extra Life 2023 Foil: []
+  Secret Lair Drop Ponies The Galloping 2 Extra Life 2023:
+    card_count: 5
+    deck:
+    - name: Ponies the Galloping 2
+      set: sld
+  Secret Lair Drop Ponies The Galloping 2 Extra Life 2023 Foil:
+    card_count: 5
+    deck:
+    - name: Ponies the Galloping 2 foil
+      set: sld
   Secret Lair Drop Pride Across the Multiverse:
     card_count: 9
     deck:
@@ -2144,14 +2164,46 @@ products:
     deck:
     - name: Blood Bowl foil
       set: sld
-  Secret Lair Drop Secret Lair x Creepshow: []
-  Secret Lair Drop Secret Lair x Creepshow Foil: []
-  Secret Lair Drop Secret Lair x Doctor Who Regeneration: []
-  Secret Lair Drop Secret Lair x Doctor Who Regeneration Foil: []
-  Secret Lair Drop Secret Lair x Doctor Who The Dalek Lands: []
-  Secret Lair Drop Secret Lair x Doctor Who The Dalek Lands Foil: []
-  Secret Lair Drop Secret Lair x Doctor Who The Weeping Angels: []
-  Secret Lair Drop Secret Lair x Doctor Who The Weeping Angels Foil: []
+  Secret Lair Drop Secret Lair x Creepshow:
+    card_count: 6
+    deck:
+    - name: Creepshow
+      set: sld
+  Secret Lair Drop Secret Lair x Creepshow Foil:
+    card_count: 6
+    deck:
+    - name: Creepshow foil
+      set: sld
+  Secret Lair Drop Secret Lair x Doctor Who Regeneration:
+    card_count: 6
+    deck:
+    - name: Doctor Who Regeneration
+      set: sld
+  Secret Lair Drop Secret Lair x Doctor Who Regeneration Foil:
+    card_count: 6
+    deck:
+    - name: Doctor Who Regeneration foil
+      set: sld
+  Secret Lair Drop Secret Lair x Doctor Who The Dalek Lands:
+    card_count: 6
+    deck:
+    - name: Doctor Who The Dalek Lands
+      set: sld
+  Secret Lair Drop Secret Lair x Doctor Who The Dalek Lands Foil:
+    card_count: 6
+    deck:
+    - name: Doctor Who The Dalek Lands foil
+      set: sld
+  Secret Lair Drop Secret Lair x Doctor Who The Weeping Angels:
+    card_count: 6
+    deck:
+    - name: Doctor Who The Weeping Angels
+      set: sld
+  Secret Lair Drop Secret Lair x Doctor Who The Weeping Angels Foil:
+    card_count: 6
+    deck:
+    - name: Doctor Who The Weeping Angels foil
+      set: sld
   Secret Lair Drop Secret Lair x Dungeons and Dragons Honor Among Thieves:
     card_count: 7
     deck:
@@ -2766,8 +2818,23 @@ products:
     deck:
     - name: Valentines Day 2021 foil
       set: sld
-  Secret Lair Drop Valentines Day 2021 Replacement Heliod Pack: []
-  Secret Lair Drop Valentines Day 2021 Replacement Heliod Pack Foil: []
+  Secret Lair Drop Valentines Day 2021 Replacement Heliod Pack:
+    card_count: 6
+    card:
+    - name: Heliod, Sun-Crowned
+      number: 214
+      set: sld
+    other:
+    - name: 5 Goblin Token from 'Secret Lair Drop Valentines Day 2021'
+  Secret Lair Drop Valentines Day 2021 Replacement Heliod Pack Foil:
+    card_count: 6
+    card:
+    - name: Heliod, Sun-Crowned
+      number: 214
+      set: sld
+      foil: true
+    other:
+    - name: 5 foil Goblin Token from 'Secret Lair Drop Valentines Day 2021 Foil'
   Secret Lair Drop We Hope You Like Squirrels:
     card_count: 6
     deck:
