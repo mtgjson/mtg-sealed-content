@@ -2158,12 +2158,36 @@ products:
       set: sld
   Secret Lair Drop Secret Lair x Creepshow: []
   Secret Lair Drop Secret Lair x Creepshow Foil: []
-  Secret Lair Drop Secret Lair x Doctor Who Regeneration: []
-  Secret Lair Drop Secret Lair x Doctor Who Regeneration Foil: []
-  Secret Lair Drop Secret Lair x Doctor Who The Dalek Lands: []
-  Secret Lair Drop Secret Lair x Doctor Who The Dalek Lands Foil: []
-  Secret Lair Drop Secret Lair x Doctor Who The Weeping Angels: []
-  Secret Lair Drop Secret Lair x Doctor Who The Weeping Angels Foil: []
+  Secret Lair Drop Secret Lair x Doctor Who Regeneration:
+    card_count: 6
+    deck:
+    - name: Doctor Who Regeneration
+      set: sld
+  Secret Lair Drop Secret Lair x Doctor Who Regeneration Foil:
+    card_count: 6
+    deck:
+    - name: Doctor Who Regeneration foil
+      set: sld
+  Secret Lair Drop Secret Lair x Doctor Who The Dalek Lands:
+    card_count: 6
+    deck:
+    - name: Doctor Who The Dalek Lands
+      set: sld
+  Secret Lair Drop Secret Lair x Doctor Who The Dalek Lands Foil:
+    card_count: 6
+    deck:
+    - name: Doctor Who The Dalek Lands foil
+      set: sld
+  Secret Lair Drop Secret Lair x Doctor Who The Weeping Angels:
+    card_count: 6
+    deck:
+    - name: Doctor Who The Weeping Angels
+      set: sld
+  Secret Lair Drop Secret Lair x Doctor Who The Weeping Angels Foil:
+    card_count: 6
+    deck:
+    - name: Doctor Who The Weeping Angels foil
+      set: sld
   Secret Lair Drop Secret Lair x Dungeons and Dragons Honor Among Thieves:
     card_count: 7
     deck:
