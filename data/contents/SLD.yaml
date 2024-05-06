@@ -1853,8 +1853,16 @@ products:
     deck:
     - name: Kamigawa The Manga The Cards foil
       set: sld
-  Secret Lair Drop Keep Partying Hard Shred Harder Than You Previously Thought Possible: []
-  Secret Lair Drop Keep Partying Hard Shred Harder Than You Previously Thought Possible Foil: []
+  Secret Lair Drop Keep Partying Hard Shred Harder Than You Previously Thought Possible:
+    card_count: 6
+    deck:
+    - name: Keep Partying Hard Shred Harder Than You Previously Thought Possible
+      set: sld 
+  Secret Lair Drop Keep Partying Hard Shred Harder Than You Previously Thought Possible Foil:
+    card_count: 6
+    deck:
+    - name: Keep Partying Hard Shred Harder Than You Previously Thought Possible foil
+      set: sld 
   Secret Lair Drop LOOK AT THE KITTIES Foil:
     card_count: 5
     deck:
