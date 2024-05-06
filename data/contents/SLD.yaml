@@ -2156,8 +2156,16 @@ products:
     deck:
     - name: Blood Bowl foil
       set: sld
-  Secret Lair Drop Secret Lair x Creepshow: []
-  Secret Lair Drop Secret Lair x Creepshow Foil: []
+  Secret Lair Drop Secret Lair x Creepshow:
+    card_count: 6
+    deck:
+    - name: Creepshow
+      set: sld
+  Secret Lair Drop Secret Lair x Creepshow Foil:
+    card_count: 6
+    deck:
+    - name: Creepshow foil
+      set: sld
   Secret Lair Drop Secret Lair x Doctor Who Regeneration:
     card_count: 6
     deck:
