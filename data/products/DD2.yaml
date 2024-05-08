@@ -4,12 +4,27 @@ products:
     category: MULTI_DECK
     identifiers:
       cardKingdomId: '110085'
+      cardtraderId: '47375'
       tcgplayerProductId: '32804'
     subtype: DUEL
   Duel Deck Jace vs Chandra Japanese:
     category: MULTI_DECK
     identifiers:
       cardKingdomId: '132597'
+      mcmId: '245055'
+      cardtraderId: '47374'
       tcgplayerProductId: '78341'
     language: Japanese
     subtype: DUEL
+  Duel Deck Jace vs Chandra Jace Deck:
+    category: DECK
+    subtype: DUEL
+    identifiers: {}
+  Duel Deck Jace vs Chandra Chandra Deck:
+    category: DECK
+    subtype: DUEL
+    identifiers: {}
+  Duel Deck Jace vs Chandra Display:
+    category: DECK_BOX
+    subtype: DUEL
+    identifiers: {}

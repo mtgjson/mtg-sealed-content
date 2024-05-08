@@ -6,3 +6,18 @@ products:
       cardKingdomId: '191063'
       tcgplayerProductId: '70927'
     subtype: DUEL
+  Duel Deck Heroes vs Monsters Display:
+    category: DECK_BOX
+    identifiers:
+      mcmId: '263891'
+    subtype: DUEL
+  Duel Deck Heroes vs Monsters Heroes Deck:
+    category: DECK
+    identifiers:
+      mcmId: '263889'
+    subtype: DUEL
+  Duel Deck Heroes vs Monsters Monsters Deck:
+    category: DECK
+    identifiers:
+      mcmId: '263890'
+    subtype: DUEL

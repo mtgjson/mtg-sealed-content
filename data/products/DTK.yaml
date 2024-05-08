@@ -4,7 +4,9 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '199246'
+      mcmId: '273069'
       tcgplayerProductId: '96137'
+    release_date: '2015-03-04'
     subtype: DEFAULT
   Dragons of Tarkir Booster Box Case:
     category: BOOSTER_CASE
@@ -16,6 +18,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '199247'
+      mcmId: '273068'
       tcgplayerProductId: '96139'
     release_date: '2015-03-27'
     subtype: DEFAULT
@@ -23,12 +26,15 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '199380'
+      mcmId: '281990'
       tcgplayerProductId: '96151'
+    release_date: '2015-03-20'
     subtype: EVENT
   Dragons of Tarkir Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '199248'
+      mcmId: '273070'
       tcgplayerProductId: '96140'
     release_date: '2015-03-27'
     subtype: FAT_PACK
@@ -36,56 +42,73 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '199656'
+      mcmId: '273073'
       tcgplayerProductId: '96411'
     subtype: INTRO
   Dragons of Tarkir Intro Pack Enlightened Mastery:
     category: DECK
     identifiers:
       cardKingdomId: '199655'
+      mcmId: '273072'
       tcgplayerProductId: '96408'
     subtype: INTRO
   Dragons of Tarkir Intro Pack Furious Forces:
     category: DECK
     identifiers:
       cardKingdomId: '199658'
+      mcmId: '273075'
       tcgplayerProductId: '96410'
     subtype: INTRO
   Dragons of Tarkir Intro Pack Massed Ranks:
     category: DECK
     identifiers:
       cardKingdomId: '199654'
+      mcmId: '273071'
       tcgplayerProductId: '96407'
     subtype: INTRO
   Dragons of Tarkir Intro Pack Relentless Rush:
     category: DECK
     identifiers:
       cardKingdomId: '199657'
+      mcmId: '273074'
       tcgplayerProductId: '96409'
     subtype: INTRO
   Dragons of Tarkir Intro Pack Set of 5:
     category: SUBSET
     identifiers:
+      mcmId: '283157'
       tcgplayerProductId: '96152'
+    release_date: '2015-06-03'
+    subtype: INTRO
+  Dragons of Tarkir Intro Pack Display:
+    category: DECK_BOX
+    identifiers:
+      mcmId: '283158'
+    release_date: '2015-06-03'
     subtype: INTRO
   Dragons of Tarkir Prerelease Kit Atarka:
     category: LIMITED
     identifiers:
       tcgplayerProductId: '96477'
+      mcmId: '282045'
     subtype: PRERELEASE
   Dragons of Tarkir Prerelease Kit Dromoka:
     category: LIMITED
     identifiers:
       tcgplayerProductId: '96473'
+      mcmId: '282043'
     subtype: PRERELEASE
   Dragons of Tarkir Prerelease Kit Kolaghan:
     category: LIMITED
     identifiers:
       tcgplayerProductId: '96476'
+      mcmId: '282046'
     subtype: PRERELEASE
   Dragons of Tarkir Prerelease Kit Ojutai:
     category: LIMITED
     identifiers:
       tcgplayerProductId: '96474'
+      mcmId: '282042'
     subtype: PRERELEASE
   Dragons of Tarkir Prerelease Kit Set of 5:
     category: SUBSET
@@ -96,4 +119,5 @@ products:
     category: LIMITED
     identifiers:
       tcgplayerProductId: '96475'
+      mcmId: '282044'
     subtype: PRERELEASE

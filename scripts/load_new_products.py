@@ -235,6 +235,7 @@ def get_cardmarket(productsfile):
     full_set_ok = [
         "Signature Spellbook",
         "From the Vault",
+        "Duel Deck"
     ]
 
     sealed_data = []
@@ -287,7 +288,6 @@ def load_cardtrader(secret):
     skip_tags = [
         "Promo Pack",
         "Basic Land Pack",
-        "Scene Box",
     ]
 
     sld_skip_tags = [

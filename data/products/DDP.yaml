@@ -7,3 +7,19 @@ products:
       tcgplayerProductId: '101886'
     release_date: '2015-08-28'
     subtype: DUEL
+  Duel Deck Zendikar vs Eldrazi Display:
+    category: DECK_BOX
+    identifiers: {}
+    subtype: DUEL
+  Duel Deck Zendikar vs Eldrazi Eldrazi Deck:
+    category: DECK
+    identifiers:
+      mcmId: '283996'
+    release_date: '2015-08-18'
+    subtype: DUEL
+  Duel Deck Zendikar vs Eldrazi Zendikar Deck:
+    category: DECK
+    identifiers:
+      mcmId: '283995'
+    release_date: '2015-08-18'
+    subtype: DUEL

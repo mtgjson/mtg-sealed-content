@@ -4,7 +4,14 @@ from pathlib import Path
 with open("data/ignore.yaml", "r") as ifile:
     ignore_data = yaml.safe_load(ifile)
 
-check_data = {provider: set([int(k) for k in products.keys()]) for provider, products in ignore_data.items()}
+provmap = {
+    "cardMarket": "mcmId",
+    "cardTrader": "cardtraderId",
+    "cardKingdom": "cardKingdomId",
+    "tcgplayer": "tcgplayerProductId"
+}
+
+check_data = {provmap[provider]: set([int(k) for k in products.keys()]) for provider, products in ignore_data.items()}
 
 for known_file in Path("data/products").glob("*.yaml"):
     with open(known_file, "r") as kfile:

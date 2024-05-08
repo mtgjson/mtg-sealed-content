@@ -1,5 +1,10 @@
 code: dgm
 products:
+  Dragon's Maze 6 Card Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      mcmId: '315715'
+    subtype: SIX
   Dragons Maze Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -17,6 +22,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '189560'
+      mcmId: '261116'
       tcgplayerProductId: '67752'
     release_date: '2013-05-03'
     subtype: DEFAULT
@@ -115,30 +121,36 @@ products:
   Dragons Maze Prerelease Guild Kit Gruul:
     category: LIMITED
     identifiers:
+      mcmId: '261879'
       tcgplayerProductId: '183294'
     subtype: PRERELEASE
   Dragons Maze Prerelease Guild Kit Izzet:
     category: LIMITED
     identifiers:
+      mcmId: '261873'
       tcgplayerProductId: '183297'
     subtype: PRERELEASE
   Dragons Maze Prerelease Guild Kit Orzhov:
     category: LIMITED
     identifiers:
+      mcmId: '261877'
       tcgplayerProductId: '183296'
     subtype: PRERELEASE
   Dragons Maze Prerelease Guild Kit Rakdos:
     category: LIMITED
     identifiers:
+      mcmId: '261874'
       tcgplayerProductId: '183293'
     subtype: PRERELEASE
   Dragons Maze Prerelease Guild Kit Selesnya:
     category: LIMITED
     identifiers:
+      mcmId: '261875'
       tcgplayerProductId: '183295'
     subtype: PRERELEASE
   Dragons Maze Prerelease Guild Kit Simic:
     category: LIMITED
     identifiers:
+      mcmId: '261880'
       tcgplayerProductId: '183300'
     subtype: PRERELEASE
