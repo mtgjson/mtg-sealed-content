@@ -4,33 +4,40 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '1170'
+      mcmId: '210088'
       tcgplayerProductId: '27278'
     subtype: DEFAULT
   Fifth Edition Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1169'
+      mcmId: '210022'
       tcgplayerProductId: '27340'
     subtype: DEFAULT
   Fifth Edition Starter Deck:
     category: LIMITED
     identifiers:
       cardKingdomId: '1171'
+      mcmId: '248497'
       tcgplayerProductId: '139148'
     subtype: STARTER
   Fifth Edition Starter Deck Display:
     category: LIMITED_CASE
     identifiers:
       cardKingdomId: '240091'
+      mcmId: '749684'
       tcgplayerProductId: '184221'
+    release_date: '2024-01-02'
     subtype: STARTER
   Fifth Edition Two Player Starter Set:
     category: MULTI_DECK
     identifiers:
       cardKingdomId: '186283'
+      mcmId: '254937'
       tcgplayerProductId: '232842'
     subtype: TWO_PLAYER_STARTER
   Fifth Edition Two Player Starter Set Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      mcmId: '272029'
     subtype: TWO_PLAYER_STARTER

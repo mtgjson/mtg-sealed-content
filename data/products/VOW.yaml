@@ -15,6 +15,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '252148'
+      mcmId: '573800'
       tcgplayerProductId: '246455'
     release_date: '2021-11-19'
     subtype: DEFAULT
@@ -27,6 +28,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '252163'
+      mcmId: '573796'
       tcgplayerProductId: '246457'
     release_date: '2021-11-19'
     subtype: COLLECTOR
@@ -45,6 +47,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '252164'
+      mcmId: '573799'
       tcgplayerProductId: '246459'
     release_date: '2021-11-19'
     subtype: COLLECTOR
@@ -52,6 +55,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '252153'
+      mcmId: '573794'
       tcgplayerProductId: '246467'
     release_date: '2021-11-19'
     subtype: DEFAULT
@@ -65,12 +69,14 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '252162'
+      mcmId: '573797'
       tcgplayerProductId: '246469'
     release_date: '2021-11-19'
     subtype: DEFAULT
   Innistrad Crimson Vow Gift Bundle:
     category: BUNDLE
     identifiers:
+      mcmId: '583878'
       tcgplayerProductId: '246456'
     release_date: '2021-11-19'
     subtype: GIFT_BUNDLE
@@ -82,6 +88,7 @@ products:
   Innistrad Crimson Vow Prerelease Pack:
     category: LIMITED
     identifiers:
+      mcmId: '583506'
       tcgplayerProductId: '252126'
     release_date: '2021-11-19'
     subtype: PRERELEASE
@@ -89,6 +96,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '252165'
+      mcmId: '573795'
       tcgplayerProductId: '246470'
     release_date: '2021-11-19'
     subtype: SET
@@ -102,24 +110,28 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '252166'
+      mcmId: '573798'
       tcgplayerProductId: '246472'
     release_date: '2021-11-19'
     subtype: SET
   Innistrad Crimson Vow Theme Booster Black:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '581623'
       tcgplayerProductId: '253823'
     release_date: '2021-11-19'
     subtype: THEME
   Innistrad Crimson Vow Theme Booster Blue:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '581620'
       tcgplayerProductId: '253824'
     release_date: '2021-11-19'
     subtype: THEME
   Innistrad Crimson Vow Theme Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      mcmId: '754922'
       tcgplayerProductId: '246473'
     release_date: '2021-11-19'
     subtype: THEME
@@ -132,12 +144,14 @@ products:
   Innistrad Crimson Vow Theme Booster Green:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '581622'
       tcgplayerProductId: '253825'
     release_date: '2021-11-19'
     subtype: THEME
   Innistrad Crimson Vow Theme Booster Red:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '581621'
       tcgplayerProductId: '253826'
     release_date: '2021-11-19'
     subtype: THEME
@@ -150,17 +164,20 @@ products:
   Innistrad Crimson Vow Theme Booster Vampires:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '581624'
       tcgplayerProductId: '253828'
     release_date: '2021-11-19'
     subtype: THEME
   Innistrad Crimson Vow Theme Booster White:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '581619'
       tcgplayerProductId: '253827'
     release_date: '2021-11-19'
     subtype: THEME
   Innistrad Crimson Vow Welcome Booster:
     category: BOOSTER_PACK
-    identifiers: {}
+    identifiers:
+      mcmId: '583879'
     release_date: '2021-11-19'
     subtype: WELCOME

@@ -10,6 +10,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '255730'
+      mcmId: '587699'
       tcgplayerProductId: '257566'
     release_date: '2022-02-18'
     subtype: DEFAULT
@@ -23,6 +24,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '255732'
+      mcmId: '587696'
       tcgplayerProductId: '257563'
     release_date: '2022-02-18'
     subtype: COLLECTOR
@@ -41,6 +43,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '255731'
+      mcmId: '587688'
       tcgplayerProductId: '257562'
     release_date: '2022-02-18'
     subtype: COLLECTOR
@@ -48,6 +51,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '255733'
+      mcmId: '587698'
       tcgplayerProductId: '257557'
     release_date: '2022-02-18'
     subtype: DEFAULT
@@ -61,6 +65,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '255734'
+      mcmId: '587686'
       tcgplayerProductId: '257556'
     release_date: '2022-02-18'
     subtype: DEFAULT
@@ -68,12 +73,15 @@ products:
     category: LIMITED
     identifiers:
       cardKingdomId: '255735'
+      mcmId: '609500'
       tcgplayerProductId: '257568'
+    release_date: '2022-02-18'
     subtype: PRERELEASE
   Kamigawa Neon Dynasty Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '255736'
+      mcmId: '587697'
       tcgplayerProductId: '257560'
     release_date: '2022-02-18'
     subtype: SET
@@ -86,24 +94,28 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '256054'
+      mcmId: '587687'
       tcgplayerProductId: '257561'
     release_date: '2022-02-18'
     subtype: SET
   Kamigawa Neon Dynasty Theme Booster Black:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '587691'
       tcgplayerProductId: '257569'
     release_date: '2022-02-18'
     subtype: THEME
   Kamigawa Neon Dynasty Theme Booster Blue:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '587692'
       tcgplayerProductId: '257571'
     release_date: '2022-02-18'
     subtype: THEME
   Kamigawa Neon Dynasty Theme Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      mcmId: '587695'
       tcgplayerProductId: '257576'
     release_date: '2022-02-18'
     subtype: THEME
@@ -116,18 +128,21 @@ products:
   Kamigawa Neon Dynasty Theme Booster Green:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '587690'
       tcgplayerProductId: '257572'
     release_date: '2022-02-18'
     subtype: THEME
   Kamigawa Neon Dynasty Theme Booster Ninjas:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '587694'
       tcgplayerProductId: '257574'
     release_date: '2022-02-18'
     subtype: THEME
   Kamigawa Neon Dynasty Theme Booster Red:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '587693'
       tcgplayerProductId: '257573'
     release_date: '2022-02-18'
     subtype: THEME
@@ -140,11 +155,13 @@ products:
   Kamigawa Neon Dynasty Theme Booster White:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '587689'
       tcgplayerProductId: '257570'
     release_date: '2022-02-18'
     subtype: THEME
   Kamigawa Neon Dynasty Welcome Booster:
     category: BOOSTER_PACK
-    identifiers: {}
+    identifiers:
+      mcmId: '609499'
     release_date: '2022-02-18'
     subtype: WELCOME

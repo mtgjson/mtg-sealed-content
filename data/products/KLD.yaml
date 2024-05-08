@@ -4,7 +4,9 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '208692'
+      mcmId: '290526'
       tcgplayerProductId: '121527'
+    release_date: '2016-05-30'
     subtype: DEFAULT
   Kaladesh Booster Box Case:
     category: BOOSTER_CASE
@@ -15,13 +17,17 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '208693'
+      mcmId: '290527'
       tcgplayerProductId: '121529'
+    release_date: '2016-05-30'
     subtype: DEFAULT
   Kaladesh Bundle:
     category: BUNDLE
     identifiers:
       cardKingdomId: '208697'
+      mcmId: '292537'
       tcgplayerProductId: '122680'
+    release_date: '2016-09-06'
     subtype: DEFAULT
   Kaladesh Deck Builders Toolkit:
     category: KIT
@@ -35,18 +41,24 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '210348'
+      mcmId: '293173'
       tcgplayerProductId: '125323'
+    release_date: '2016-10-07'
     subtype: GIFT_BUNDLE
   Kaladesh Holiday Buy a Box Promo Pack:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '294236'
       tcgplayerProductId: '264814'
+    release_date: '2016-11-21'
     subtype: DEFAULT
   Kaladesh Planeswalker Deck Chandra:
     category: DECK
     identifiers:
       cardKingdomId: '209421'
+      mcmId: '292528'
       tcgplayerProductId: '122682'
+    release_date: '2016-09-06'
     subtype: PLANESWALKER
   Kaladesh Planeswalker Deck Display:
     category: DECK_BOX
@@ -56,7 +68,9 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '209420'
+      mcmId: '292527'
       tcgplayerProductId: '122683'
+    release_date: '2016-09-06'
     subtype: PLANESWALKER
   Kaladesh Planeswalker Decks Set of 2:
     category: SUBSET
@@ -66,7 +80,9 @@ products:
   Kaladesh Prerelease Kit:
     category: LIMITED
     identifiers:
+      mcmId: '292529'
       tcgplayerProductId: '122685'
+    release_date: '2016-09-06'
     subtype: PRERELEASE
   Kaladesh Two Player Booster Battle Pack:
     category: MULTI_DECK

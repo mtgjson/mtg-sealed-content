@@ -4,6 +4,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '240247'
+      mcmId: '527280'
       tcgplayerProductId: '228248'
     release_date: '2021-02-05'
     subtype: DEFAULT
@@ -11,6 +12,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '240242'
+      mcmId: '527325'
       tcgplayerProductId: '228249'
     release_date: '2021-02-05'
     subtype: COLLECTOR
@@ -28,6 +30,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '240243'
+      mcmId: '527340'
       tcgplayerProductId: '228250'
     release_date: '2021-02-05'
     subtype: COLLECTOR
@@ -35,6 +38,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '240240'
+      mcmId: '527330'
       tcgplayerProductId: '228245'
     release_date: '2021-02-05'
     subtype: DEFAULT
@@ -48,6 +52,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '240241'
+      mcmId: '527345'
       tcgplayerProductId: '228246'
     release_date: '2021-02-05'
     subtype: DEFAULT
@@ -55,12 +60,15 @@ products:
     category: LIMITED
     identifiers:
       cardKingdomId: '240255'
+      mcmId: '529287'
       tcgplayerProductId: '230377'
+    release_date: '2021-01-07'
     subtype: PRERELEASE
   Kaldheim Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '240244'
+      mcmId: '527320'
       tcgplayerProductId: '228251'
     release_date: '2021-02-05'
     subtype: SET
@@ -68,33 +76,44 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '240245'
+      mcmId: '527335'
       tcgplayerProductId: '228252'
     release_date: '2021-02-05'
     subtype: SET
   Kaldheim Theme Booster Black:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '527290'
       tcgplayerProductId: '229196'
+    release_date: '2020-12-15'
     subtype: THEME
   Kaldheim Theme Booster Blue:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '527295'
       tcgplayerProductId: '229195'
+    release_date: '2020-12-15'
     subtype: THEME
   Kaldheim Theme Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      mcmId: '527285'
       tcgplayerProductId: '229245'
+    release_date: '2020-12-15'
     subtype: THEME
   Kaldheim Theme Booster Green:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '527300'
       tcgplayerProductId: '229198'
+    release_date: '2020-12-15'
     subtype: THEME
   Kaldheim Theme Booster Red:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '527305'
       tcgplayerProductId: '229197'
+    release_date: '2020-12-15'
     subtype: THEME
   Kaldheim Theme Booster Set of 6:
     category: SUBSET
@@ -105,10 +124,14 @@ products:
   Kaldheim Theme Booster Viking:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '527315'
       tcgplayerProductId: '229199'
+    release_date: '2020-12-15'
     subtype: THEME
   Kaldheim Theme Booster White:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '527310'
       tcgplayerProductId: '229194'
+    release_date: '2020-12-15'
     subtype: THEME
