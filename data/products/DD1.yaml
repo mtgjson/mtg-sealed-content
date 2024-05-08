@@ -7,15 +7,15 @@ products:
       cardtraderId: '47273'
       tcgplayerProductId: '32805'
     subtype: DUEL
-  Duel Deck Elves vs Goblins Elves Deck:
-    category: DECK
-    subtype: DUEL
-    identifiers: {}
-  Duel Deck Elves vs Goblins Goblins Deck:
-    category: DECK
-    subtype: DUEL
-    identifiers: {}
   Duel Deck Elves vs Goblins Display:
     category: DECK_BOX
-    subtype: DUEL
     identifiers: {}
+    subtype: DUEL
+  Duel Deck Elves vs Goblins Elves Deck:
+    category: DECK
+    identifiers: {}
+    subtype: DUEL
+  Duel Deck Elves vs Goblins Goblins Deck:
+    category: DECK
+    identifiers: {}
+    subtype: DUEL

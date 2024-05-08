@@ -7,6 +7,11 @@ products:
       cardtraderId: '47530'
       tcgplayerProductId: '78338'
     subtype: DUEL
+  Duel Deck Elspeth vs Tezzeret Display:
+    category: DECK_BOX
+    identifiers:
+      mcmId: '245322'
+    subtype: DUEL
   Duel Deck Elspeth vs Tezzeret Elspeth Deck:
     category: DECK
     identifiers:
@@ -16,9 +21,4 @@ products:
     category: DECK
     identifiers:
       mcmId: '245321'
-    subtype: DUEL
-  Duel Deck Elspeth vs Tezzeret Display:
-    category: DECK_BOX
-    identifiers:
-      mcmId: '245322'
     subtype: DUEL

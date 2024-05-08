@@ -34,6 +34,11 @@ products:
       mcmId: '253802'
       tcgplayerProductId: '248192'
     subtype: PROMOTIONAL
+  Eighth Edition Sampler Booster:
+    category: BOOSTER_PACK
+    identifiers:
+      mcmId: '758891'
+    subtype: PROMOTIONAL
   Eighth Edition Theme Deck Display:
     category: DECK_BOX
     identifiers:
@@ -81,8 +86,3 @@ products:
     identifiers:
       cardKingdomId: '240097'
     subtype: TWO_PLAYER_STARTER
-  Eighth Edition Sampler Booster:
-    category: BOOSTER_PACK
-    identifiers:
-      mcmId: '758891'
-    subtype: PROMOTIONAL

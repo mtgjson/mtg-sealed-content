@@ -7,15 +7,15 @@ products:
       cardtraderId: '47444'
       tcgplayerProductId: '32806'
     subtype: DUEL
-  Duel Deck Garruk vs Liliana Garruk Deck:
-    category: DECK
-    subtype: DUEL
-    identifiers: {}
-  Duel Deck Garruk vs Liliana Liliana Deck:
-    category: DECK
-    subtype: DUEL
-    identifiers: {}
   Duel Deck Garruk vs Liliana Display:
     category: DECK_BOX
-    subtype: DUEL
     identifiers: {}
+    subtype: DUEL
+  Duel Deck Garruk vs Liliana Garruk Deck:
+    category: DECK
+    identifiers: {}
+    subtype: DUEL
+  Duel Deck Garruk vs Liliana Liliana Deck:
+    category: DECK
+    identifiers: {}
+    subtype: DUEL

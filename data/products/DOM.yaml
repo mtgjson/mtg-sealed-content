@@ -68,6 +68,12 @@ products:
       tcgplayerProductId: '158430'
     release_date: '2018-04-23'
     subtype: PRERELEASE
+  Dominaria Standard Showdown Booster:
+    category: BOOSTER_PACK
+    identifiers:
+      mcmId: '357195'
+    release_date: '2018-05-17'
+    subtype: PROMOTIONAL
   Dominaria Theme Booster Black:
     category: BOOSTER_PACK
     identifiers:
@@ -108,9 +114,3 @@ products:
       tcgplayerProductId: '166672'
     release_date: '2018-05-04'
     subtype: THEME
-  Dominaria Standard Showdown Booster:
-    category: BOOSTER_PACK
-    identifiers:
-      mcmId: '357195'
-    release_date: '2018-05-17'
-    subtype: PROMOTIONAL

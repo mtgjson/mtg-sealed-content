@@ -6,16 +6,16 @@ products:
       cardKingdomId: '195557'
       tcgplayerProductId: '91644'
     subtype: DUEL
-  Duel Deck Speed vs Cunning Speed Deck:
-    category: DECK
-    subtype: DUEL
-    identifiers: {}
   Duel Deck Speed vs Cunning Cunning Deck:
     category: DECK
-    subtype: DUEL
     identifiers: {}
+    subtype: DUEL
   Duel Deck Speed vs Cunning Display:
     category: DECK_BOX
-    subtype: DUEL
-    identifiers: 
+    identifiers:
       mcmId: '268662'
+    subtype: DUEL
+  Duel Deck Speed vs Cunning Speed Deck:
+    category: DECK
+    identifiers: {}
+    subtype: DUEL

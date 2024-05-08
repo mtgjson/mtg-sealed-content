@@ -45,6 +45,12 @@ products:
       mcmId: '273073'
       tcgplayerProductId: '96411'
     subtype: INTRO
+  Dragons of Tarkir Intro Pack Display:
+    category: DECK_BOX
+    identifiers:
+      mcmId: '283158'
+    release_date: '2015-06-03'
+    subtype: INTRO
   Dragons of Tarkir Intro Pack Enlightened Mastery:
     category: DECK
     identifiers:
@@ -80,35 +86,29 @@ products:
       tcgplayerProductId: '96152'
     release_date: '2015-06-03'
     subtype: INTRO
-  Dragons of Tarkir Intro Pack Display:
-    category: DECK_BOX
-    identifiers:
-      mcmId: '283158'
-    release_date: '2015-06-03'
-    subtype: INTRO
   Dragons of Tarkir Prerelease Kit Atarka:
     category: LIMITED
     identifiers:
-      tcgplayerProductId: '96477'
       mcmId: '282045'
+      tcgplayerProductId: '96477'
     subtype: PRERELEASE
   Dragons of Tarkir Prerelease Kit Dromoka:
     category: LIMITED
     identifiers:
-      tcgplayerProductId: '96473'
       mcmId: '282043'
+      tcgplayerProductId: '96473'
     subtype: PRERELEASE
   Dragons of Tarkir Prerelease Kit Kolaghan:
     category: LIMITED
     identifiers:
-      tcgplayerProductId: '96476'
       mcmId: '282046'
+      tcgplayerProductId: '96476'
     subtype: PRERELEASE
   Dragons of Tarkir Prerelease Kit Ojutai:
     category: LIMITED
     identifiers:
-      tcgplayerProductId: '96474'
       mcmId: '282042'
+      tcgplayerProductId: '96474'
     subtype: PRERELEASE
   Dragons of Tarkir Prerelease Kit Set of 5:
     category: SUBSET
@@ -118,6 +118,6 @@ products:
   Dragons of Tarkir Prerelease Kit Silumgar:
     category: LIMITED
     identifiers:
-      tcgplayerProductId: '96475'
       mcmId: '282044'
+      tcgplayerProductId: '96475'
     subtype: PRERELEASE
