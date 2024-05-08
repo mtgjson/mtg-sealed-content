@@ -396,7 +396,7 @@ def load_miniaturemarket(secret):
             sealed_data.extend([
                 {
                     # the 'title' field is full of tags like 'clearance' that we don't really need
-                    "name": product["google_shopping_name"],
+                    "name": product.get("google_shopping_name", product["title"]),
                     "id": product["entity_id"],
                     "releaseDate": product["created_at"],
                 }
