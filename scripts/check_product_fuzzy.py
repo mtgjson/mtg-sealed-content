@@ -9,6 +9,13 @@ except:
     with open("data/review.yaml", "r") as review_file:
         review_data = yaml.safe_load(review_file)
 
+provmap = {
+    "mcmId": "cardMarket",
+    "cardtraderId": "cardTrader",
+    "cardKingdomId": "cardKingdom",
+    "tcgplayerProductId": "tcgplayer"
+}
+
 review_products = []
 for provider in review_data.values():
     for name, contents in provider.items():
@@ -35,9 +42,9 @@ for product in review_products:
         with open("data/ignore.yaml", "r") as ignore_file:
             ignore_content = yaml.safe_load(ignore_file)
         for provider, identifier in product[1].items():
-            if provider not in ignore_content:
-                ignore_content[provider] = {}
-            ignore_content[provider].update({int(identifier): product[0]})
+            if provmap[provider] not in ignore_content:
+                ignore_content[provmap[provider]] = {}
+            ignore_content[provmap[provider]].update({int(identifier): product[0]})
         with open("data/ignore.yaml", "w") as ignore_file:
             yaml.dump(ignore_content, ignore_file)
     elif product_check in "01234":

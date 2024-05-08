@@ -4,7 +4,9 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '207313'
+      mcmId: '288399'
       tcgplayerProductId: '118393'
+    release_date: '2016-02-16'
     subtype: DEFAULT
   Eldritch Moon Booster Box Case:
     category: BOOSTER_CASE
@@ -15,12 +17,15 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '207314'
+      mcmId: '288400'
       tcgplayerProductId: '118394'
+    release_date: '2016-02-16'
     subtype: DEFAULT
   Eldritch Moon Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '207319'
+      mcmId: '288401'
       tcgplayerProductId: '118402'
     release_date: '2016-07-22'
     subtype: FAT_PACK
@@ -28,44 +33,60 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '209450'
+      mcmId: '290947'
       tcgplayerProductId: '118396'
+    release_date: '2016-06-29'
     subtype: INTRO
   Eldritch Moon Intro Pack Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      mcmId: '290951'
+    release_date: '2016-06-29'
     subtype: INTRO
   Eldritch Moon Intro Pack Set of 5:
     category: SUBSET
     identifiers:
+      mcmId: '290950'
       tcgplayerProductId: '118400'
+    release_date: '2016-06-29'
     subtype: INTRO
   Eldritch Moon Intro Pack Shallow Graves:
     category: DECK
     identifiers:
       cardKingdomId: '209451'
+      mcmId: '290949'
       tcgplayerProductId: '118395'
+    release_date: '2016-06-29'
     subtype: INTRO
   Eldritch Moon Intro Pack Unlikely Alliances:
     category: DECK
     identifiers:
       cardKingdomId: '209449'
+      mcmId: '290946'
       tcgplayerProductId: '118399'
+    release_date: '2016-06-29'
     subtype: INTRO
   Eldritch Moon Intro Pack Untamed Wild:
     category: DECK
     identifiers:
       cardKingdomId: '209452'
+      mcmId: '290948'
       tcgplayerProductId: '118398'
+    release_date: '2016-06-29'
     subtype: INTRO
   Eldritch Moon Intro Pack Weapons and Wards:
     category: DECK
     identifiers:
       cardKingdomId: '209453'
+      mcmId: '290945'
       tcgplayerProductId: '118397'
+    release_date: '2016-06-29'
     subtype: INTRO
   Eldritch Moon Prerelease Pack:
     category: LIMITED
     identifiers:
       cardKingdomId: '208089'
+      mcmId: '290909'
       tcgplayerProductId: '120775'
+    release_date: '2016-06-20'
     subtype: PRERELEASE
