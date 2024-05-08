@@ -8,7 +8,8 @@ provmap = {
     "cardMarket": "mcmId",
     "cardTrader": "cardtraderId",
     "cardKingdom": "cardKingdomId",
-    "tcgplayer": "tcgplayerProductId"
+    "tcgplayer": "tcgplayerProductId",
+    "miniaturemarket": "miniaturemarketId"
 }
 
 check_data = {provmap[provider]: set([int(k) for k in products.keys()]) for provider, products in ignore_data.items()}
