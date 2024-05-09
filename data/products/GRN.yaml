@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '221357'
+      mcmId: '361217'
       tcgplayerProductId: '173362'
     release_date: '2018-10-05'
     subtype: DEFAULT
@@ -17,6 +18,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '221358'
+      mcmId: '361218'
       tcgplayerProductId: '173364'
     release_date: '2018-10-05'
     subtype: DEFAULT
@@ -24,6 +26,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '221359'
+      mcmId: '361219'
       tcgplayerProductId: '173365'
     release_date: '2018-10-05'
     subtype: DEFAULT
@@ -35,7 +38,9 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '222356'
+      mcmId: '364803'
       tcgplayerProductId: '175240'
+    release_date: '2018-10-05'
     subtype: PREMIUM
   Guilds of Ravnica Planeswalker Deck Display:
     category: DECK_BOX
@@ -46,6 +51,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '221369'
+      mcmId: '363628'
       tcgplayerProductId: '176692'
     release_date: '2018-10-05'
     subtype: PLANESWALKER
@@ -53,6 +59,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '221370'
+      mcmId: '363629'
       tcgplayerProductId: '176691'
     release_date: '2018-10-05'
     subtype: PLANESWALKER
@@ -64,27 +71,37 @@ products:
   Guilds of Ravnica Prerelease Pack Boros:
     category: LIMITED
     identifiers:
+      mcmId: '363633'
       tcgplayerProductId: '173371'
+    release_date: '2018-09-05'
     subtype: PRERELEASE
   Guilds of Ravnica Prerelease Pack Dimir:
     category: LIMITED
     identifiers:
+      mcmId: '363630'
       tcgplayerProductId: '173372'
+    release_date: '2018-09-05'
     subtype: PRERELEASE
   Guilds of Ravnica Prerelease Pack Golgari:
     category: LIMITED
     identifiers:
+      mcmId: '363632'
       tcgplayerProductId: '176694'
+    release_date: '2018-09-05'
     subtype: PRERELEASE
   Guilds of Ravnica Prerelease Pack Izzet:
     category: LIMITED
     identifiers:
+      mcmId: '363631'
       tcgplayerProductId: '176695'
+    release_date: '2018-09-05'
     subtype: PRERELEASE
   Guilds of Ravnica Prerelease Pack Selesnya:
     category: LIMITED
     identifiers:
+      mcmId: '363634'
       tcgplayerProductId: '176696'
+    release_date: '2018-09-05'
     subtype: PRERELEASE
   Guilds of Ravnica Prerelease Pack Set of 5:
     category: SUBSET
@@ -94,32 +111,44 @@ products:
   Guilds of Ravnica Theme Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      mcmId: '364598'
       tcgplayerProductId: '182892'
+    release_date: '2018-09-26'
     subtype: THEME
   Guilds of Ravnica Theme Booster Pack Boros:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '364602'
       tcgplayerProductId: '176698'
+    release_date: '2018-09-26'
     subtype: THEME
   Guilds of Ravnica Theme Booster Pack Dimir:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '364599'
       tcgplayerProductId: '176699'
+    release_date: '2018-09-26'
     subtype: THEME
   Guilds of Ravnica Theme Booster Pack Golgari:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '364601'
       tcgplayerProductId: '176700'
+    release_date: '2018-09-26'
     subtype: THEME
   Guilds of Ravnica Theme Booster Pack Izzet:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '364600'
       tcgplayerProductId: '176701'
+    release_date: '2018-09-26'
     subtype: THEME
   Guilds of Ravnica Theme Booster Pack Selesnya:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '364603'
       tcgplayerProductId: '176702'
+    release_date: '2018-09-26'
     subtype: THEME
   Guilds of Ravnica Theme Booster Pack Set of 5:
     category: SUBSET

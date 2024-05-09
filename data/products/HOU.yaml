@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '212827'
+      mcmId: '292568'
       tcgplayerProductId: '131456'
     release_date: '2017-07-14'
     subtype: DEFAULT
@@ -17,6 +18,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '212828'
+      mcmId: '292569'
       tcgplayerProductId: '131457'
     release_date: '2017-07-14'
     subtype: DEFAULT
@@ -24,7 +26,9 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '212829'
+      mcmId: '292567'
       tcgplayerProductId: '131458'
+    release_date: '2016-09-07'
     subtype: DEFAULT
   Hour of Devastation Planeswalker Deck Display:
     category: DECK_BOX
@@ -34,6 +38,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '212882'
+      mcmId: '298473'
       tcgplayerProductId: '134894'
     release_date: '2017-07-14'
     subtype: PLANESWALKER
@@ -41,6 +46,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '212881'
+      mcmId: '298556'
       tcgplayerProductId: '134895'
     release_date: '2017-07-14'
     subtype: PLANESWALKER
@@ -54,5 +60,7 @@ products:
     category: LIMITED
     identifiers:
       cardKingdomId: '213470'
+      mcmId: '299022'
       tcgplayerProductId: '137435'
+    release_date: '2017-07-07'
     subtype: PRERELEASE

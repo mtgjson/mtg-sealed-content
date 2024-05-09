@@ -15,6 +15,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '213868'
+      mcmId: '297873'
       tcgplayerProductId: '141989'
     release_date: '2017-09-29'
     subtype: DEFAULT
@@ -28,12 +29,15 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '213869'
+      mcmId: '297874'
       tcgplayerProductId: '141991'
+    release_date: '2017-05-09'
     subtype: DEFAULT
   Ixalan Bundle:
     category: BUNDLE
     identifiers:
       cardKingdomId: '213871'
+      mcmId: '297872'
       tcgplayerProductId: '141986'
     release_date: '2017-09-29'
     subtype: DEFAULT
@@ -49,13 +53,17 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '213983'
+      mcmId: '301283'
       tcgplayerProductId: '144694'
+    release_date: '2017-09-04'
     subtype: PLANESWALKER
   Ixalan Planeswalker Deck Jace:
     category: DECK
     identifiers:
       cardKingdomId: '213984'
+      mcmId: '301282'
       tcgplayerProductId: '144693'
+    release_date: '2017-09-04'
     subtype: PLANESWALKER
   Ixalan Planeswalker Decks Set of 2:
     category: SUBSET
@@ -66,5 +74,7 @@ products:
     category: LIMITED
     identifiers:
       cardKingdomId: '214684'
+      mcmId: '302094'
       tcgplayerProductId: '146677'
+    release_date: '2017-09-22'
     subtype: PRERELEASE

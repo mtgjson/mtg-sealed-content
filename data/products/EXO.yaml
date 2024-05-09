@@ -4,17 +4,21 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '1235'
+      mcmId: '210086'
       tcgplayerProductId: '27275'
     subtype: DEFAULT
   Exodus Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1175'
+      mcmId: '210020'
       tcgplayerProductId: '27337'
     subtype: DEFAULT
   Exodus Theme Deck Display:
     category: DECK_BOX
     identifier: {}
+    identifiers:
+      mcmId: '210228'
     subtype: THEME
   Exodus Theme Deck Dominator:
     category: DECK
@@ -27,6 +31,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1177'
+      mcmId: '244175'
       tcgplayerProductId: '116055'
     subtype: THEME
   Exodus Theme Deck White Heat:

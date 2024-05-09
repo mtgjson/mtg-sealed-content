@@ -13,7 +13,8 @@ provmap = {
     "mcmId": "cardMarket",
     "cardtraderId": "cardTrader",
     "cardKingdomId": "cardKingdom",
-    "tcgplayerProductId": "tcgplayer"
+    "tcgplayerProductId": "tcgplayer",
+    "miniaturemarketId": "miniaturemarket"
 }
 
 review_products = []

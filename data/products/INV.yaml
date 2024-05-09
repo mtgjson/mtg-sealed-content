@@ -4,56 +4,66 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '1283'
+      mcmId: '210099'
       tcgplayerProductId: '27284'
     subtype: DEFAULT
   Invasion Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1284'
+      mcmId: '210033'
       tcgplayerProductId: '27346'
     subtype: DEFAULT
   Invasion Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '202539'
+      mcmId: '210188'
       tcgplayerProductId: '78314'
     subtype: FAT_PACK
   Invasion Theme Deck Blowout:
     category: DECK
     identifiers:
       cardKingdomId: '1289'
+      mcmId: '253745'
       tcgplayerProductId: '93340'
     subtype: THEME
   Invasion Theme Deck Dismissal:
     category: DECK
     identifiers:
       cardKingdomId: '1288'
+      mcmId: '253746'
       tcgplayerProductId: '93342'
     subtype: THEME
   Invasion Theme Deck Display:
     category: DECK_BOX
     identifiers:
       cardKingdomId: '240153'
+      mcmId: '210229'
     subtype: THEME
   Invasion Theme Deck Heavy Duty:
     category: DECK
     identifiers:
       cardKingdomId: '1290'
+      mcmId: '253747'
       tcgplayerProductId: '93341'
     subtype: THEME
   Invasion Theme Deck Spectrum:
     category: DECK
     identifiers:
       cardKingdomId: '1287'
+      mcmId: '253748'
       tcgplayerProductId: '93343'
     subtype: THEME
   Invasion Tournament Pack:
     category: LIMITED
     identifiers:
       cardKingdomId: '1286'
+      mcmId: '248478'
       tcgplayerProductId: '93344'
     subtype: TOURNAMENT
   Invasion Tournament Pack Display:
     category: LIMITED_CASE
-    identifiers: {}
+    identifiers:
+      mcmId: '253857'
     subtype: TOURNAMENT

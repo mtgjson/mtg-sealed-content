@@ -4,45 +4,53 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '111582'
+      mcmId: '210112'
       tcgplayerProductId: '27277'
     subtype: DEFAULT
   Fifth Dawn Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '111583'
+      mcmId: '210046'
       tcgplayerProductId: '27339'
     subtype: DEFAULT
   Fifth Dawn Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '240347'
+      mcmId: '210177'
       tcgplayerProductId: '78311'
     subtype: FAT_PACK
   Fifth Dawn Theme Deck Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      mcmId: '210223'
     subtype: THEME
   Fifth Dawn Theme Deck Nuts and Bolts:
     category: DECK
     identifiers:
       cardKingdomId: '111586'
+      mcmId: '253696'
       tcgplayerProductId: '96423'
     subtype: THEME
   Fifth Dawn Theme Deck Special Forces:
     category: DECK
     identifiers:
       cardKingdomId: '111585'
+      mcmId: '253697'
       tcgplayerProductId: '96424'
     subtype: THEME
   Fifth Dawn Theme Deck Stampede:
     category: DECK
     identifiers:
       cardKingdomId: '111587'
+      mcmId: '253698'
       tcgplayerProductId: '96422'
     subtype: THEME
   Fifth Dawn Theme Deck Sunburst:
     category: DECK
     identifiers:
       cardKingdomId: '111584'
+      mcmId: '253699'
       tcgplayerProductId: '96425'
     subtype: THEME

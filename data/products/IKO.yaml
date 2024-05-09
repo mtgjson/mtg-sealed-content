@@ -3,12 +3,15 @@ products:
   Ikoria Lair of Behemoths Box Topper Pack:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '679620'
       tcgplayerProductId: '214395'
+    release_date: '2022-10-12'
     subtype: TOPPER
   Ikoria Lair of Behemoths Bundle:
     category: BUNDLE
     identifiers:
       cardKingdomId: '232126'
+      mcmId: '410984'
       tcgplayerProductId: '208278'
     release_date: '2020-05-15'
     subtype: DEFAULT
@@ -16,7 +19,9 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '232125'
+      mcmId: '426991'
       tcgplayerProductId: '208279'
+    release_date: '2019-11-28'
     subtype: COLLECTOR
   Ikoria Lair of Behemoths Collector Booster Case:
     category: BOOSTER_CASE
@@ -37,6 +42,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '232124'
+      mcmId: '426981'
       tcgplayerProductId: '208280'
     release_date: '2020-05-15'
     subtype: COLLECTOR
@@ -44,6 +50,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '232120'
+      mcmId: '410989'
       tcgplayerProductId: '208273'
     release_date: '2020-05-15'
     subtype: DEFAULT
@@ -56,6 +63,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '232123'
+      mcmId: '410994'
       tcgplayerProductId: '208277'
     release_date: '2020-05-15'
     subtype: DEFAULT
@@ -63,41 +71,49 @@ products:
     category: LIMITED
     identifiers:
       cardKingdomId: '232127'
+      mcmId: '459879'
       tcgplayerProductId: '212284'
+    release_date: '2020-05-06'
     subtype: PRERELEASE
   Ikoria Lair of Behemoths Theme Booster Black:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '426966'
       tcgplayerProductId: '208285'
     release_date: '2020-05-15'
     subtype: THEME
   Ikoria Lair of Behemoths Theme Booster Blue:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '426961'
       tcgplayerProductId: '208287'
     release_date: '2020-05-15'
     subtype: THEME
   Ikoria Lair of Behemoths Theme Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      mcmId: '426986'
       tcgplayerProductId: '208282'
     release_date: '2020-05-15'
     subtype: THEME
   Ikoria Lair of Behemoths Theme Booster Green:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '426976'
       tcgplayerProductId: '208288'
     release_date: '2020-05-15'
     subtype: THEME
   Ikoria Lair of Behemoths Theme Booster Monsters:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '452073'
       tcgplayerProductId: '212110'
     release_date: '2020-05-15'
     subtype: THEME
   Ikoria Lair of Behemoths Theme Booster Red:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '426971'
       tcgplayerProductId: '208289'
     release_date: '2020-05-15'
     subtype: THEME
@@ -110,6 +126,7 @@ products:
   Ikoria Lair of Behemoths Theme Booster White:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '426956'
       tcgplayerProductId: '208290'
     release_date: '2020-05-15'
     subtype: THEME

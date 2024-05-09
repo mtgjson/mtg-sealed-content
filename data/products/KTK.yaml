@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '195601'
+      mcmId: '268636'
       tcgplayerProductId: '91650'
     subtype: DEFAULT
   Khans of Tarkir Booster Box Case:
@@ -15,18 +16,21 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '195602'
+      mcmId: '268637'
       tcgplayerProductId: '91653'
     subtype: DEFAULT
   Khans of Tarkir Event Deck Conquering Hordes:
     category: DECK
     identifiers:
       cardKingdomId: '195604'
+      mcmId: '269221'
       tcgplayerProductId: '92803'
     subtype: EVENT
   Khans of Tarkir Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '195607'
+      mcmId: '268639'
       tcgplayerProductId: '91652'
     release_date: '2014-09-24'
     subtype: FAT_PACK
@@ -34,57 +38,67 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '196747'
+      mcmId: '269585'
       tcgplayerProductId: '93314'
     subtype: GIFT_BUNDLE
   Khans of Tarkir Intro Pack Abzan Siege:
     category: DECK
     identifiers:
       cardKingdomId: '196179'
+      mcmId: '269599'
       tcgplayerProductId: '93315'
     subtype: INTRO
   Khans of Tarkir Intro Pack Display:
     category: DECK_BOX
     identifiers:
       cardKingdomId: '240160'
+      mcmId: '269598'
       tcgplayerProductId: '92801'
     subtype: INTRO
   Khans of Tarkir Intro Pack Jeskai Monks:
     category: DECK
     identifiers:
       cardKingdomId: '196180'
+      mcmId: '269600'
       tcgplayerProductId: '93316'
     subtype: INTRO
   Khans of Tarkir Intro Pack Mardu Raiders:
     category: DECK
     identifiers:
       cardKingdomId: '196182'
+      mcmId: '269601'
       tcgplayerProductId: '93317'
     subtype: INTRO
   Khans of Tarkir Intro Pack Set of 5:
     category: SUBSET
     identifiers:
+      mcmId: '269597'
       tcgplayerProductId: '92802'
     subtype: INTRO
   Khans of Tarkir Intro Pack Sultai Schemers:
     category: DECK
     identifiers:
       cardKingdomId: '196181'
+      mcmId: '269602'
       tcgplayerProductId: '93318'
     subtype: INTRO
   Khans of Tarkir Intro Pack Temur Avalanche:
     category: DECK
     identifiers:
       cardKingdomId: '196183'
+      mcmId: '269603'
       tcgplayerProductId: '93319'
     subtype: INTRO
   Khans of Tarkir Prerelease Kit Abzan:
     category: LIMITED
     identifiers:
+      mcmId: '271409'
       tcgplayerProductId: '95041'
     subtype: PRERELEASE
   Khans of Tarkir Prerelease Kit Jeskai:
     category: LIMITED
     identifiers:
+      mcmId: '271408'
       tcgplayerProductId: '95043'
     subtype: PRERELEASE
   Khans of Tarkir Prerelease Kit Mardu:
@@ -95,15 +109,19 @@ products:
   Khans of Tarkir Prerelease Kit Set of 5:
     category: SUBSET
     identifiers:
+      mcmId: '273047'
       tcgplayerProductId: '95048'
+    release_date: '2015-03-02'
     subtype: PRERELEASE
   Khans of Tarkir Prerelease Kit Sultai:
     category: LIMITED
     identifiers:
+      mcmId: '271410'
       tcgplayerProductId: '95044'
     subtype: PRERELEASE
   Khans of Tarkir Prerelease Kit Temur:
     category: LIMITED
     identifiers:
+      mcmId: '271411'
       tcgplayerProductId: '95045'
     subtype: PRERELEASE
