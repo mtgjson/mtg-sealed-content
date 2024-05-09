@@ -1,5 +1,20 @@
 code: 2ed
 products:
+  European Unlimited Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      mcmId: '210127'
+    subtype: DEFAULT
+  European Unlimited Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      mcmId: '210061'
+    subtype: DEFAULT
+  European Unlimited Starter Deck:
+    category: LIMITED
+    identifiers:
+      mcmId: '248493'
+    subtype: STARTER
   Unlimited Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -24,19 +39,4 @@ products:
     category: LIMITED_CASE
     identifiers:
       mcmId: '272018'
-    subtype: STARTER
-  European Unlimited Booster Pack:
-    category: BOOSTER_PACK
-    identifiers:
-      mcmId: '210061'
-    subtype: DEFAULT
-  European Unlimited Booster Box:
-    category: BOOSTER_BOX
-    identifiers:
-      mcmId: '210127'
-    subtype: DEFAULT
-  European Unlimited Starter Deck:
-    category: LIMITED
-    identifiers:
-      mcmId: '248493'
     subtype: STARTER
