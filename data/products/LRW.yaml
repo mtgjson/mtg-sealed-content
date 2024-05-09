@@ -4,62 +4,73 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '123483'
+      mcmId: '210130'
       tcgplayerProductId: '27288'
     subtype: DEFAULT
   Lorwyn Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '123484'
+      mcmId: '210064'
       tcgplayerProductId: '27350'
     subtype: DEFAULT
   Lorwyn Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '123486'
+      mcmId: '210164'
       tcgplayerProductId: '78317'
     subtype: FAT_PACK
   Lorwyn Theme Deck Boggart Feast:
     category: DECK
     identifiers:
       cardKingdomId: '123783'
+      mcmId: '253643'
       tcgplayerProductId: '214971'
     subtype: THEME
   Lorwyn Theme Deck Display:
     category: DECK_BOX
-    identifier: {}
+    identifiers:
+      mcmId: '210210'
     subtype: THEME
   Lorwyn Theme Deck Elementals Path:
     category: DECK
     identifiers:
       cardKingdomId: '123786'
+      mcmId: '253644'
       tcgplayerProductId: '214972'
     subtype: THEME
   Lorwyn Theme Deck Elvish Predation:
     category: DECK
     identifiers:
       cardKingdomId: '123782'
+      mcmId: '253645'
       tcgplayerProductId: '214968'
     subtype: THEME
   Lorwyn Theme Deck Kithkin Militia:
     category: DECK
     identifiers:
       cardKingdomId: '123784'
+      mcmId: '253646'
       tcgplayerProductId: '214969'
     subtype: THEME
   Lorwyn Theme Deck Merrow Riverways:
     category: DECK
     identifiers:
       cardKingdomId: '123785'
+      mcmId: '253647'
       tcgplayerProductId: '214970'
     subtype: THEME
   Lorwyn Tournament Pack:
     category: LIMITED
     identifiers:
       cardKingdomId: '123487'
+      mcmId: '248479'
       tcgplayerProductId: '118878'
     subtype: TOURNAMENT
   Lorwyn Tournament Pack Display:
     category: LIMITED_CASE
     identifiers:
       cardKingdomId: '240164'
+      mcmId: '253864'
     subtype: TOURNAMENT

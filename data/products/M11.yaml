@@ -8,12 +8,14 @@ products:
   2011 Core Set 6 Card Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '253815'
       tcgplayerProductId: '244377'
     subtype: SIX
   2011 Core Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '131448'
+      mcmId: '241075'
       tcgplayerProductId: '35372'
     subtype: DEFAULT
   2011 Core Set Booster Box Case:
@@ -25,6 +27,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '131449'
+      mcmId: '241074'
       tcgplayerProductId: '35374'
     subtype: DEFAULT
   2011 Core Set Deck Builders Toolkit:
@@ -38,6 +41,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '131450'
+      mcmId: '241076'
       tcgplayerProductId: '35382'
     subtype: FAT_PACK
   2011 Core Set Intro Pack Blades of Victory:
