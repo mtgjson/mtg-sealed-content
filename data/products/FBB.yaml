@@ -1,10 +1,5 @@
 code: fbb
 products:
-  Foreign Black Bordered Starter Deck Display:
-    category: LIMITED_CASE
-    identifiers:
-      mcmId: '272025'
-    subtype: STARTER
   Foreign Black Bordered Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -19,4 +14,9 @@ products:
     category: LIMITED
     identifiers:
       cardtraderId: '43452'
+    subtype: STARTER
+  Foreign Black Bordered Starter Deck Display:
+    category: LIMITED_CASE
+    identifiers:
+      mcmId: '272025'
     subtype: STARTER

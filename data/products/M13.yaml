@@ -6,11 +6,6 @@ products:
       tcgplayerProductId: '59122'
     release_date: '2012-07-13'
     subtype: DRAFT_SET
-  2013 Core Set Six Card Booster Pack:
-    category: BOOSTER_PACK
-    identifiers:
-      mcmId: '315712'
-    subtype: SIX
   2013 Core Set Booster Battle Pack:
     category: MULTI_DECK
     identifiers:
@@ -50,6 +45,11 @@ products:
       cardKingdomId: '199663'
       tcgplayerProductId: '245962'
     subtype: DECK_BUILDERS_TOOLKIT
+  2013 Core Set Event Deck Display:
+    category: DECK_BOX
+    identifiers:
+      mcmId: '257499'
+    subtype: EVENT
   2013 Core Set Event Deck Repeat Performance:
     category: DECK
     identifiers:
@@ -69,11 +69,6 @@ products:
     identifiers:
       mcmId: '257498'
       tcgplayerProductId: '60111'
-    subtype: EVENT
-  2013 Core Set Event Deck Display:
-    category: DECK_BOX
-    identifiers:
-      mcmId: '257499'
     subtype: EVENT
   2013 Core Set Fat Pack:
     category: BUNDLE
@@ -130,28 +125,33 @@ products:
       tcgplayerProductId: '59121'
     release_date: '2012-07-13'
     subtype: INTRO
-  2013 Core Set Sample Deck Liliana Vess:
+  2013 Core Set Sample Deck Ajani Goldmane:
     category: DECK
     identifiers:
-      mcmId: '287584'
-    subtype: STARTER
-  2013 Core Set Sample Deck Jace Beleren:
-    category: DECK
-    identifiers:
-      mcmId: '287583'
-    subtype: STARTER
-  2013 Core Set Sample Deck Garruk Wildspeaker:
-    category: DECK
-    identifiers:
-      mcmId: '287582'
+      mcmId: '287580'
     subtype: STARTER
   2013 Core Set Sample Deck Chandra Nalaar:
     category: DECK
     identifiers:
       mcmId: '287581'
     subtype: STARTER
-  2013 Core Set Sample Deck Ajani Goldmane:
+  2013 Core Set Sample Deck Garruk Wildspeaker:
     category: DECK
     identifiers:
-      mcmId: '287580'
+      mcmId: '287582'
     subtype: STARTER
+  2013 Core Set Sample Deck Jace Beleren:
+    category: DECK
+    identifiers:
+      mcmId: '287583'
+    subtype: STARTER
+  2013 Core Set Sample Deck Liliana Vess:
+    category: DECK
+    identifiers:
+      mcmId: '287584'
+    subtype: STARTER
+  2013 Core Set Six Card Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      mcmId: '315712'
+    subtype: SIX

@@ -5,11 +5,6 @@ products:
     identifiers:
       tcgplayerProductId: '46955'
     subtype: DRAFT_SET
-  2012 Core Set Six Card Booster Pack:
-    category: BOOSTER_PACK
-    identifiers:
-      mcmId: '315708'
-    subtype: SIX
   2012 Core Set Booster Battle Pack:
     category: MULTI_DECK
     identifiers:
@@ -115,15 +110,20 @@ products:
       mcmId: '247795'
       tcgplayerProductId: '46954'
     subtype: INTRO
-  2012 Core Set Sample Deck Gideon Jura:
-    category: DECK
-    identifiers:
-      mcmId: '287577'
-    subtype: STARTER
   2012 Core Set Sample Deck Chandra Nalaar:
     category: DECK
     identifiers:
       mcmId: '287575'
+    subtype: STARTER
+  2012 Core Set Sample Deck Garruk Wildspeaker:
+    category: DECK
+    identifiers:
+      mcmId: '287576'
+    subtype: STARTER
+  2012 Core Set Sample Deck Gideon Jura:
+    category: DECK
+    identifiers:
+      mcmId: '287577'
     subtype: STARTER
   2012 Core Set Sample Deck Jace Beleren:
     category: DECK
@@ -135,8 +135,8 @@ products:
     identifiers:
       mcmId: '287579'
     subtype: STARTER
-  2012 Core Set Sample Deck Garruk Wildspeaker:
-    category: DECK
+  2012 Core Set Six Card Booster Pack:
+    category: BOOSTER_PACK
     identifiers:
-      mcmId: '287576'
-    subtype: STARTER
+      mcmId: '315708'
+    subtype: SIX

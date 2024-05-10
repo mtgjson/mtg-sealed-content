@@ -5,12 +5,6 @@ products:
     identifiers:
       tcgplayerProductId: '35375'
     subtype: DRAFT_SET
-  2011 Core Set Six Card Booster Pack:
-    category: BOOSTER_PACK
-    identifiers:
-      mcmId: '253815'
-      tcgplayerProductId: '244377'
-    subtype: SIX
   2011 Core Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -87,11 +81,6 @@ products:
     identifiers:
       tcgplayerProductId: '215046'
     subtype: LAND_STATION
-  2011 Core Set Set of 5 Intro Pack:
-    category: SUBSET
-    identifiers:
-      tcgplayerProductId: '35381'
-    subtype: INTRO
   2011 Core Set Sample Deck Ajani Goldmane:
     category: DECK
     identifiers:
@@ -101,6 +90,11 @@ products:
     category: DECK
     identifiers:
       mcmId: '287571'
+    subtype: STARTER
+  2011 Core Set Sample Deck Garruk Wildspeaker:
+    category: DECK
+    identifiers:
+      mcmId: '287572'
     subtype: STARTER
   2011 Core Set Sample Deck Jace Beleren:
     category: DECK
@@ -112,8 +106,14 @@ products:
     identifiers:
       mcmId: '287574'
     subtype: STARTER
-  2011 Core Set Sample Deck Garruk Wildspeaker:
-    category: DECK
+  2011 Core Set Set of 5 Intro Pack:
+    category: SUBSET
     identifiers:
-      mcmId: '287572'
-    subtype: STARTER
+      tcgplayerProductId: '35381'
+    subtype: INTRO
+  2011 Core Set Six Card Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      mcmId: '253815'
+      tcgplayerProductId: '244377'
+    subtype: SIX

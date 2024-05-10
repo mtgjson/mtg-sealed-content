@@ -5,10 +5,6 @@ products:
     identifiers:
       tcgplayerProductId: '34681'
     subtype: DRAFT_SET
-  Rise of the Eldrazi Six Card Booster Pack:
-    category: BOOSTER_PACK
-    identifiers: {}
-    subtype: SIX
   Rise of the Eldrazi Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -75,3 +71,7 @@ products:
     identifiers:
       tcgplayerProductId: '34683'
     subtype: INTRO
+  Rise of the Eldrazi Six Card Booster Pack:
+    category: BOOSTER_PACK
+    identifiers: {}
+    subtype: SIX

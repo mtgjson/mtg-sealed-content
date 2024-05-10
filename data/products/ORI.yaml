@@ -128,8 +128,8 @@ products:
   Magic Origins Prerelease Kit Liliana:
     category: LIMITED
     identifiers:
-      tcgplayerProductId: '101221'
       mcmId: '283815'
+      tcgplayerProductId: '101221'
     subtype: PRERELEASE
   Magic Origins Prerelease Kit Nissa:
     category: LIMITED
@@ -143,21 +143,6 @@ products:
     identifiers:
       tcgplayerProductId: '101312'
     subtype: PRERELEASE
-  Magic Origins Sample Deck Liliana Vess:
-    category: DECK
-    identifiers:
-      mcmId: '287563'
-    subtype: STARTER
-  Magic Origins Sample Deck Jace Beleren:
-    category: DECK
-    identifiers:
-      mcmId: '287562'
-    subtype: STARTER
-  Magic Origins Sample Deck Nissa Revane:
-    category: DECK
-    identifiers:
-      mcmId: '287564'
-    subtype: STARTER
   Magic Origins Sample Deck Chandra Nalaar:
     category: DECK
     identifiers:
@@ -167,4 +152,19 @@ products:
     category: DECK
     identifiers:
       mcmId: '287561'
+    subtype: STARTER
+  Magic Origins Sample Deck Jace Beleren:
+    category: DECK
+    identifiers:
+      mcmId: '287562'
+    subtype: STARTER
+  Magic Origins Sample Deck Liliana Vess:
+    category: DECK
+    identifiers:
+      mcmId: '287563'
+    subtype: STARTER
+  Magic Origins Sample Deck Nissa Revane:
+    category: DECK
+    identifiers:
+      mcmId: '287564'
     subtype: STARTER

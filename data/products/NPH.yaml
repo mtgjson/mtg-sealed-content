@@ -1,9 +1,5 @@
 code: nph
 products:
-  New Phyrexia Six Card Booster Pack:
-    category: BOOSTER_PACK
-    identifiers: {}
-    subtype: SIX
   New Phyrexia Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -83,3 +79,7 @@ products:
     identifiers:
       tcgplayerProductId: '39403'
     subtype: INTRO
+  New Phyrexia Six Card Booster Pack:
+    category: BOOSTER_PACK
+    identifiers: {}
+    subtype: SIX

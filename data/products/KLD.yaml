@@ -84,6 +84,12 @@ products:
       tcgplayerProductId: '122685'
     release_date: '2016-09-06'
     subtype: PRERELEASE
+  Kaladesh Standard Showdown Booster:
+    category: BOOSTER_PACK
+    identifiers:
+      mcmId: '294534'
+    release_date: '2016-11-29'
+    subtype: PROMOTIONAL
   Kaladesh Two Player Booster Battle Pack:
     category: MULTI_DECK
     identifiers:
@@ -91,9 +97,3 @@ products:
       tcgplayerProductId: '122681'
     release_date: '2016-09-06'
     subtype: BATTLE
-  Kaladesh Standard Showdown Booster:
-    category: BOOSTER_PACK
-    identifiers:
-      mcmId: '294534'
-    release_date: '2016-11-29'
-    subtype: PROMOTIONAL

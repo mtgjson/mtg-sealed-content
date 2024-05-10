@@ -1,14 +1,14 @@
 code: 4bb
 products:
-  Fourth Edition Black Bordered Booster Pack:
-    category: BOOSTER_PACK
-    identifiers:
-      mcmId: '298958'
-    subtype: DEFAULT
   Fourth Edition Black Bordered Booster Box:
     category: BOOSTER_BOX
     identifiers:
       mcmId: '298959'
+    subtype: DEFAULT
+  Fourth Edition Black Bordered Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      mcmId: '298958'
     subtype: DEFAULT
   Fourth Edition Black Bordered Starter Deck:
     category: LIMITED

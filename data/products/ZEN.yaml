@@ -5,10 +5,6 @@ products:
     identifiers:
       tcgplayerProductId: '32792'
     subtype: DRAFT_SET
-  Zendikar Six Card Booster Pack:
-    category: BOOSTER_PACK
-    identifiers: {}
-    subtype: SIX
   Zendikar Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -72,3 +68,7 @@ products:
     identifiers:
       tcgplayerProductId: '32799'
     subtype: INTRO
+  Zendikar Six Card Booster Pack:
+    category: BOOSTER_PACK
+    identifiers: {}
+    subtype: SIX

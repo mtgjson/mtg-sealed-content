@@ -41,8 +41,8 @@ products:
   2010 Core Set Intro Pack Display:
     category: DECK_BOX
     identifiers:
-      tcgplayerProductId: '32539'
       mcmId: '210203'
+      tcgplayerProductId: '32539'
     subtype: INTRO
   2010 Core Set Intro Pack Firebomber:
     category: DECK
@@ -72,6 +72,31 @@ products:
       mcmId: '271289'
       tcgplayerProductId: '32536'
     subtype: INTRO
+  2010 Core Set Sample Deck Ajani Goldmane:
+    category: DECK
+    identifiers:
+      mcmId: '287565'
+    subtype: STARTER
+  2010 Core Set Sample Deck Chandra Nalaar:
+    category: DECK
+    identifiers:
+      mcmId: '287566'
+    subtype: STARTER
+  2010 Core Set Sample Deck Garruk Wildspeaker:
+    category: DECK
+    identifiers:
+      mcmId: '287567'
+    subtype: STARTER
+  2010 Core Set Sample Deck Jace Beleren:
+    category: DECK
+    identifiers:
+      mcmId: '287568'
+    subtype: STARTER
+  2010 Core Set Sample Deck Liliana Vess:
+    category: DECK
+    identifiers:
+      mcmId: '287569'
+    subtype: STARTER
   2010 Core Set Six Card Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -85,28 +110,3 @@ products:
       mcmId: '210256'
       tcgplayerProductId: '92505'
     subtype: DECK_BUILDERS_TOOLKIT
-  2010 Core Set Sample Deck Ajani Goldmane:
-    category: DECK
-    identifiers:
-      mcmId: '287565'
-    subtype: STARTER
-  2010 Core Set Sample Deck Chandra Nalaar:
-    category: DECK
-    identifiers:
-      mcmId: '287566'
-    subtype: STARTER
-  2010 Core Set Sample Deck Jace Beleren:
-    category: DECK
-    identifiers:
-      mcmId: '287568'
-    subtype: STARTER
-  2010 Core Set Sample Deck Liliana Vess:
-    category: DECK
-    identifiers:
-      mcmId: '287569'
-    subtype: STARTER
-  2010 Core Set Sample Deck Garruk Wildspeaker:
-    category: DECK
-    identifiers:
-      mcmId: '287567'
-    subtype: STARTER

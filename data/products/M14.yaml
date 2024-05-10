@@ -1,9 +1,5 @@
 code: m14
 products:
-  2014 Core Set Six Card Booster Pack:
-    category: BOOSTER_PACK
-    identifiers: {}
-    subtype: SIX
   2014 Core Set Booster Battle Pack:
     category: MULTI_DECK
     identifiers:
@@ -99,36 +95,40 @@ products:
   2014 Core Set Intro Packs Set of 5:
     category: SUBSET
     identifiers:
-      tcgplayerProductId: '190866'
       mcmId: '263031'
+      tcgplayerProductId: '190866'
     subtype: INTRO
   2014 Core Set Land Station:
     category: KIT
     identifiers:
       tcgplayerProductId: '215047'
     subtype: LAND_STATION
-  2014 Core Set Sample Deck Liliana Vess:
+  2014 Core Set Sample Deck Ajani Goldmane:
     category: DECK
     identifiers:
-      mcmId: '264364'
-    subtype: STARTER
-  2014 Core Set Sample Deck Jace Beleren:
-    category: DECK
-    identifiers:
-      mcmId: '264362'
-    subtype: STARTER
-  2014 Core Set Sample Deck Garruk Wildspeaker:
-    category: DECK
-    identifiers:
-      mcmId: '264363'
+      mcmId: '264366'
     subtype: STARTER
   2014 Core Set Sample Deck Chandra Nalaar:
     category: DECK
     identifiers:
       mcmId: '264365'
     subtype: STARTER
-  2014 Core Set Sample Deck Ajani Goldmane:
+  2014 Core Set Sample Deck Garruk Wildspeaker:
     category: DECK
     identifiers:
-      mcmId: '264366'
+      mcmId: '264363'
     subtype: STARTER
+  2014 Core Set Sample Deck Jace Beleren:
+    category: DECK
+    identifiers:
+      mcmId: '264362'
+    subtype: STARTER
+  2014 Core Set Sample Deck Liliana Vess:
+    category: DECK
+    identifiers:
+      mcmId: '264364'
+    subtype: STARTER
+  2014 Core Set Six Card Booster Pack:
+    category: BOOSTER_PACK
+    identifiers: {}
+    subtype: SIX
