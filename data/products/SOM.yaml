@@ -5,10 +5,6 @@ products:
     identifiers:
       tcgplayerProductId: '35748'
     subtype: DRAFT_SET
-  Scars of Mirrodin Six Card Booster Pack:
-    category: BOOSTER_PACK
-    identifiers: {}
-    subtype: SIX
   Scars of Mirrodin Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -47,12 +43,14 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '132545'
+      mcmId: '242639'
       tcgplayerProductId: '196802'
     subtype: INTRO
   Scars of Mirrodin Intro Pack Myr of Mirrodin:
     category: DECK
     identifiers:
       cardKingdomId: '132544'
+      mcmId: '242638'
       tcgplayerProductId: '196801'
     subtype: INTRO
   Scars of Mirrodin Intro Pack Phyrexian Poison:
@@ -67,3 +65,7 @@ products:
       cardKingdomId: '132547'
       tcgplayerProductId: '196804'
     subtype: INTRO
+  Scars of Mirrodin Six Card Booster Pack:
+    category: BOOSTER_PACK
+    identifiers: {}
+    subtype: SIX

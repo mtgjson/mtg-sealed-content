@@ -61,7 +61,8 @@ products:
     subtype: INTRO
   2011 Core Set Intro Pack Display:
     category: DECK_BOX
-    identifier: {}
+    identifiers:
+      mcmId: '241077'
     subtype: INTRO
   2011 Core Set Intro Pack Power of Prophecy:
     category: DECK
@@ -91,3 +92,28 @@ products:
     identifiers:
       tcgplayerProductId: '35381'
     subtype: INTRO
+  2011 Core Set Sample Deck Ajani Goldmane:
+    category: DECK
+    identifiers:
+      mcmId: '287570'
+    subtype: STARTER
+  2011 Core Set Sample Deck Chandra Nalaar:
+    category: DECK
+    identifiers:
+      mcmId: '287571'
+    subtype: STARTER
+  2011 Core Set Sample Deck Jace Beleren:
+    category: DECK
+    identifiers:
+      mcmId: '287573'
+    subtype: STARTER
+  2011 Core Set Sample Deck Liliana Vess:
+    category: DECK
+    identifiers:
+      mcmId: '287574'
+    subtype: STARTER
+  2011 Core Set Sample Deck Garruk Wildspeaker:
+    category: DECK
+    identifiers:
+      mcmId: '287572'
+    subtype: STARTER

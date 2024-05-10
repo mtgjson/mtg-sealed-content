@@ -3,7 +3,7 @@ products:
   Gatecrash Booster Battle Pack:
     category: MULTI_DECK
     identifiers:
-      mcmId: '260418'
+      mcmId: '260417'
       tcgplayerProductId: '172938'
     subtype: BATTLE
   Gatecrash Booster Box:
@@ -44,6 +44,11 @@ products:
       cardKingdomId: '189136'
       mcmId: '260461'
       tcgplayerProductId: '110553'
+    subtype: EVENT
+  Gatecrash Event Decks Set of 2:
+    category: SUBSET
+    identifiers:
+      mcmId: '260462'
     subtype: EVENT
   Gatecrash Fat Pack:
     category: BUNDLE
