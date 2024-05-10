@@ -4,56 +4,66 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '1132'
+      mcmId: '210096'
       tcgplayerProductId: '27289'
     subtype: DEFAULT
   Mercadian Masques Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1133'
+      mcmId: '210030'
       tcgplayerProductId: '27351'
     subtype: DEFAULT
   Mercadian Masques Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '228555'
+      mcmId: '210191'
       tcgplayerProductId: '78319'
     subtype: FAT_PACK
   Mercadian Masques Theme Deck Deepwood Menace:
     category: DECK
     identifiers:
       cardKingdomId: '1138'
+      mcmId: '253757'
       tcgplayerProductId: '116038'
     subtype: THEME
   Mercadian Masques Theme Deck Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      mcmId: '210232'
     subtype: THEME
   Mercadian Masques Theme Deck Disrupter:
     category: DECK
     identifiers:
       cardKingdomId: '1137'
+      mcmId: '253758'
       tcgplayerProductId: '116039'
     subtype: THEME
   Mercadian Masques Theme Deck Rebels Call:
     category: DECK
     identifiers:
       cardKingdomId: '1139'
+      mcmId: '253759'
       tcgplayerProductId: '116040'
     subtype: THEME
   Mercadian Masques Theme Deck Tidal Mastery:
     category: DECK
     identifiers:
       cardKingdomId: '1136'
+      mcmId: '253760'
       tcgplayerProductId: '116041'
     subtype: THEME
   Mercadian Masques Tournament Pack:
     category: LIMITED
     identifiers:
       cardKingdomId: '1135'
+      mcmId: '248480'
       tcgplayerProductId: '125561'
     subtype: TOURNAMENT
   Mercadian Masques Tournament Pack Display:
     category: LIMITED_CASE
     identifiers:
       cardKingdomId: '240167'
+      mcmId: '253856'
     subtype: TOURNAMENT

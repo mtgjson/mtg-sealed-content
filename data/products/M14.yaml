@@ -1,6 +1,6 @@
 code: m14
 products:
-  2014 Core Set 6 Card Booster Pack:
+  2014 Core Set Six Card Booster Pack:
     category: BOOSTER_PACK
     identifiers: {}
     subtype: SIX
@@ -46,6 +46,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '191053'
+      mcmId: '264067'
       tcgplayerProductId: '92501'
     subtype: EVENT
   2014 Core Set Fat Pack:
@@ -71,7 +72,8 @@ products:
     subtype: INTRO
   2014 Core Set Intro Pack Display:
     category: DECK_BOX
-    identifier: {}
+    identifiers:
+      mcmId: '263030'
     subtype: INTRO
   2014 Core Set Intro Pack Fire Surge:
     category: DECK
@@ -98,9 +100,35 @@ products:
     category: SUBSET
     identifiers:
       tcgplayerProductId: '190866'
+      mcmId: '263031'
     subtype: INTRO
   2014 Core Set Land Station:
     category: KIT
     identifiers:
       tcgplayerProductId: '215047'
     subtype: LAND_STATION
+  2014 Core Set Sample Deck Liliana Vess:
+    category: DECK
+    identifiers:
+      mcmId: '264364'
+    subtype: STARTER
+  2014 Core Set Sample Deck Jace Beleren:
+    category: DECK
+    identifiers:
+      mcmId: '264362'
+    subtype: STARTER
+  2014 Core Set Sample Deck Garruk Wildspeaker:
+    category: DECK
+    identifiers:
+      mcmId: '264363'
+    subtype: STARTER
+  2014 Core Set Sample Deck Chandra Nalaar:
+    category: DECK
+    identifiers:
+      mcmId: '264365'
+    subtype: STARTER
+  2014 Core Set Sample Deck Ajani Goldmane:
+    category: DECK
+    identifiers:
+      mcmId: '264366'
+    subtype: STARTER

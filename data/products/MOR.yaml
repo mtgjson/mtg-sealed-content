@@ -4,45 +4,54 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '124154'
+      mcmId: '210131'
       tcgplayerProductId: '27292'
     subtype: DEFAULT
   Morningtide Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '124155'
+      mcmId: '210065'
       tcgplayerProductId: '27354'
     subtype: DEFAULT
   Morningtide Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '124156'
+      mcmId: '210163'
       tcgplayerProductId: '78321'
     subtype: FAT_PACK
   Morningtide Theme Deck Battalion:
     category: DECK
     identifiers:
       cardKingdomId: '124463'
+      mcmId: '253639'
       tcgplayerProductId: '249987'
     subtype: THEME
   Morningtide Theme Deck Display:
     category: DECK_BOX
     identifier: {}
+    identifiers:
+      mcmId: '210209'
     subtype: THEME
   Morningtide Theme Deck Going Rogue:
     category: DECK
     identifiers:
       cardKingdomId: '124464'
+      mcmId: '253640'
       tcgplayerProductId: '249988'
     subtype: THEME
   Morningtide Theme Deck Shamanism:
     category: DECK
     identifiers:
       cardKingdomId: '124465'
+      mcmId: '253641'
       tcgplayerProductId: '249989'
     subtype: THEME
   Morningtide Theme Deck Warriors Code:
     category: DECK
     identifiers:
       cardKingdomId: '124466'
+      mcmId: '253642'
       tcgplayerProductId: '249990'
     subtype: THEME

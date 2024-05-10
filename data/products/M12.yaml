@@ -5,11 +5,10 @@ products:
     identifiers:
       tcgplayerProductId: '46955'
     subtype: DRAFT_SET
-  2012 Core Set 6 Card Booster Pack:
+  2012 Core Set Six Card Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       mcmId: '315708'
-    release_date: '2018-01-16'
     subtype: SIX
   2012 Core Set Booster Battle Pack:
     category: MULTI_DECK
@@ -39,6 +38,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '184978'
+      mcmId: '247792'
       tcgplayerProductId: '46956'
     subtype: DEFAULT
   2012 Core Set Deck Builders Toolkit:
@@ -82,7 +82,8 @@ products:
     subtype: INTRO
   2012 Core Set Intro Pack Display:
     category: DECK_BOX
-    identifier: {}
+    identifiers:
+      mcmId: '247796'
     subtype: INTRO
   2012 Core Set Intro Pack Entangling Webs:
     category: DECK
@@ -114,3 +115,28 @@ products:
       mcmId: '247795'
       tcgplayerProductId: '46954'
     subtype: INTRO
+  2012 Core Set Sample Deck Gideon Jura:
+    category: DECK
+    identifiers:
+      mcmId: '287577'
+    subtype: STARTER
+  2012 Core Set Sample Deck Chandra Nalaar:
+    category: DECK
+    identifiers:
+      mcmId: '287575'
+    subtype: STARTER
+  2012 Core Set Sample Deck Jace Beleren:
+    category: DECK
+    identifiers:
+      mcmId: '287578'
+    subtype: STARTER
+  2012 Core Set Sample Deck Sorin Markov:
+    category: DECK
+    identifiers:
+      mcmId: '287579'
+    subtype: STARTER
+  2012 Core Set Sample Deck Garruk Wildspeaker:
+    category: DECK
+    identifiers:
+      mcmId: '287576'
+    subtype: STARTER

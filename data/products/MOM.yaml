@@ -9,6 +9,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '274980'
+      mcmId: '689787'
       tcgplayerProductId: '475586'
     release_date: '2023-04-21'
     subtype: DEFAULT
@@ -21,6 +22,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '274981'
+      mcmId: '696391'
       tcgplayerProductId: '475584'
     release_date: '2023-04-21'
     subtype: COLLECTOR
@@ -33,18 +35,21 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '274982'
+      mcmId: '696392'
       tcgplayerProductId: '475583'
     release_date: '2023-04-21'
     subtype: COLLECTOR
   March of the Machine Collector Booster Sample Pack:
     category: BOOSTER_PACK
-    identifiers: {}
+    identifiers:
+      mcmId: '712816'
     release_date: '2023-04-21'
     subtype: PROMOTIONAL
   March of the Machine Draft Booster Box:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '274983'
+      mcmId: '689788'
       tcgplayerProductId: '475575'
     release_date: '2023-04-21'
     subtype: DEFAULT
@@ -57,6 +62,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '274984'
+      mcmId: '696395'
       tcgplayerProductId: '475577'
     release_date: '2023-04-21'
     subtype: DEFAULT
@@ -64,6 +70,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '274986'
+      mcmId: '689789'
       tcgplayerProductId: '475582'
     release_date: '2023-04-21'
     subtype: JUMPSTART
@@ -71,6 +78,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '274985'
+      mcmId: '696393'
       tcgplayerProductId: '475581'
     release_date: '2023-04-21'
     subtype: JUMPSTART
@@ -78,6 +86,7 @@ products:
     category: LIMITED
     identifiers:
       cardKingdomId: '274987'
+      mcmId: '689790'
       tcgplayerProductId: '475588'
     release_date: '2023-04-21'
     subtype: PRERELEASE
@@ -85,6 +94,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '274991'
+      mcmId: '689792'
       tcgplayerProductId: '475579'
     release_date: '2023-04-21'
     subtype: SET
@@ -97,6 +107,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '274990'
+      mcmId: '696394'
       tcgplayerProductId: '475578'
     release_date: '2023-04-21'
     subtype: SET
@@ -107,6 +118,7 @@ products:
     subtype: SET
   March of the Machine Welcome Booster:
     category: BOOSTER_PACK
-    identifiers: {}
+    identifiers:
+      mcmId: '706470'
     release_date: '2023-04-21'
     subtype: WELCOME

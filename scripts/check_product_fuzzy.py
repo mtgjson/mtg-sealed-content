@@ -55,6 +55,12 @@ for product in review_products:
             import_products = yaml.safe_load(product_file)
         if "identifiers" not in import_products["products"][product_link[0]]:
             import_products["products"][product_link[0]]["identifiers"] = {}
+        keep = True
+        for key in product[1].keys():
+            if key in import_products["products"][product_link[0]]["identifiers"]:
+                keep = input("Confirm overwrite of existing id? [Y] ").lower() == "y"
+        if not keep:
+            continue
         import_products["products"][product_link[0]]["identifiers"].update(product[1])
         if product[2]:
             if "release_date" not in import_products["products"][product_link[0]]:
