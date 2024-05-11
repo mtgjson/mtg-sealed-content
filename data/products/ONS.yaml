@@ -4,55 +4,65 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '1506'
+      mcmId: '210106'
       tcgplayerProductId: '27295'
     subtype: DEFAULT
   Onslaught Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1507'
+      mcmId: '210040'
       tcgplayerProductId: '27357'
     subtype: DEFAULT
   Onslaught Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '240339'
+      mcmId: '210182'
       tcgplayerProductId: '78324'
     subtype: FAT_PACK
   Onslaught Theme Deck Bait and Switch:
     category: DECK
     identifiers:
       cardKingdomId: '1509'
+      mcmId: '253716'
       tcgplayerProductId: '96346'
     subtype: THEME
   Onslaught Theme Deck Celestial Assault:
     category: DECK
     identifiers:
       cardKingdomId: '1510'
+      mcmId: '253717'
       tcgplayerProductId: '96347'
     subtype: THEME
   Onslaught Theme Deck Devastation:
     category: DECK
     identifiers:
       cardKingdomId: '1512'
+      mcmId: '253718'
       tcgplayerProductId: '96348'
     subtype: THEME
   Onslaught Theme Deck Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      mcmId: '210235'
     subtype: THEME
   Onslaught Theme Deck Ivory Doom:
     category: DECK
     identifiers:
       cardKingdomId: '1511'
+      mcmId: '253719'
       tcgplayerProductId: '96349'
     subtype: THEME
   Onslaught Tournament Pack:
     category: LIMITED
     identifiers:
       cardKingdomId: '1508'
+      mcmId: '248483'
       tcgplayerProductId: '167795'
     subtype: TOURNAMENT
   Onslaught Tournament Pack Display:
     category: LIMITED_CASE
-    identifiers: {}
+    identifiers:
+      mcmId: '253859'
     subtype: TOURNAMENT

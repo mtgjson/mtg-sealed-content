@@ -18,33 +18,39 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '240343'
+      mcmId: '210190'
       tcgplayerProductId: '78322'
     subtype: FAT_PACK
   Nemesis Theme Deck Breakdown:
     category: DECK
     identifiers:
       cardKingdomId: '1164'
+      mcmId: '253753'
       tcgplayerProductId: '116042'
     subtype: THEME
   Nemesis Theme Deck Display:
     category: DECK_BOX
-    identifier: {}
+    identifiers:
+      mcmId: '210233'
     subtype: THEME
   Nemesis Theme Deck Eruption:
     category: DECK
     identifiers:
       cardKingdomId: '1165'
+      mcmId: '253754'
       tcgplayerProductId: '116043'
     subtype: THEME
   Nemesis Theme Deck Mercenaries:
     category: DECK
     identifiers:
       cardKingdomId: '1166'
+      mcmId: '253755'
       tcgplayerProductId: '116044'
     subtype: THEME
   Nemesis Theme Deck Replicator:
     category: DECK
     identifiers:
       cardKingdomId: '1167'
+      mcmId: '253756'
       tcgplayerProductId: '116045'
     subtype: THEME
