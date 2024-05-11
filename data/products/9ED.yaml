@@ -4,17 +4,20 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '117666'
+      mcmId: '210114'
       tcgplayerProductId: '27260'
     subtype: DEFAULT
   Ninth Edition Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '117668'
+      mcmId: '210048'
       tcgplayerProductId: '27322'
     subtype: DEFAULT
   Ninth Edition Box Two Player Starter:
     category: MULTI_DECK
     identifiers:
+      mcmId: '254939'
       tcgplayerProductId: '81799'
     subtype: TWO_PLAYER_STARTER
   Ninth Edition Demo Booster:
@@ -26,40 +29,47 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '228566'
+      mcmId: '210173'
       tcgplayerProductId: '78301'
     subtype: FAT_PACK
   Ninth Edition Theme Deck Army of Justice:
     category: DECK
     identifiers:
       cardKingdomId: '117669'
+      mcmId: '253679'
       tcgplayerProductId: '96330'
     subtype: THEME
   Ninth Edition Theme Deck Custom Creatures:
     category: DECK
     identifiers:
       cardKingdomId: '117673'
+      mcmId: '253680'
       tcgplayerProductId: '96331'
     subtype: THEME
   Ninth Edition Theme Deck Dead Again:
     category: DECK
     identifiers:
       cardKingdomId: '117671'
+      mcmId: '253681'
       tcgplayerProductId: '96332'
     subtype: THEME
   Ninth Edition Theme Deck Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      mcmId: '210216'
     subtype: THEME
   Ninth Edition Theme Deck Lofty Heights:
     category: DECK
     identifiers:
       cardKingdomId: '117670'
+      mcmId: '253682'
       tcgplayerProductId: '96333'
     subtype: THEME
   Ninth Edition Theme Deck World Aflame:
     category: DECK
     identifiers:
       cardKingdomId: '117672'
+      mcmId: '253683'
       tcgplayerProductId: '96334'
     subtype: THEME
   Ninth Edition Two Player Starter Display:

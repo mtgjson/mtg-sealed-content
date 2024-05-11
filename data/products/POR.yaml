@@ -4,12 +4,14 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '223167'
+      mcmId: '210090'
       tcgplayerProductId: '27298'
     subtype: DEFAULT
   Portal Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1185'
+      mcmId: '210024'
       tcgplayerProductId: '27360'
     subtype: DEFAULT
   Portal Gift Box:
@@ -21,5 +23,6 @@ products:
     category: MULTI_DECK
     identifiers:
       cardKingdomId: '204735'
+      mcmId: '253633'
       tcgplayerProductId: '81795'
     subtype: TWO_PLAYER_STARTER

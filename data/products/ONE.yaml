@@ -4,6 +4,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '273121'
+      mcmId: '683497'
       tcgplayerProductId: '451877'
     release_date: '2023-02-10'
     subtype: DEFAULT
@@ -17,6 +18,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '273123'
+      mcmId: '683494'
       tcgplayerProductId: '451880'
     release_date: '2023-02-10'
     subtype: COLLECTOR
@@ -30,18 +32,21 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '273124'
+      mcmId: '683492'
       tcgplayerProductId: '451879'
     release_date: '2023-02-10'
     subtype: COLLECTOR
   Phyrexia All Will Be One Collector Booster Sample Pack:
     category: BOOSTER_PACK
-    identifiers: {}
+    identifiers:
+      mcmId: '696244'
     release_date: '2023-02-10'
     subtype: PROMOTIONAL
   Phyrexia All Will Be One Compleat Bundle:
     category: BUNDLE
     identifiers:
       cardKingdomId: '273125'
+      mcmId: '687469'
       tcgplayerProductId: '451874'
     release_date: '2023-02-10'
     subtype: PREMIUM
@@ -53,13 +58,15 @@ products:
     subtype: PREMIUM
   Phyrexia All Will Be One Compleat Edition Booster:
     category: BOOSTER_PACK
-    identifiers: {}
+    identifiers:
+      mcmId: '687468'
     release_date: '2023-02-10'
     subtype: PREMIUM
   Phyrexia All Will Be One Draft Booster Box:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '273126'
+      mcmId: '683495'
       tcgplayerProductId: '451869'
     release_date: '2023-02-10'
     subtype: DEFAULT
@@ -73,6 +80,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '273127'
+      mcmId: '683489'
       tcgplayerProductId: '451868'
     release_date: '2023-02-10'
     subtype: DEFAULT
@@ -80,6 +88,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '273128'
+      mcmId: '683493'
       tcgplayerProductId: '451876'
     release_date: '2023-02-10'
     subtype: JUMPSTART
@@ -87,6 +96,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '273129'
+      mcmId: '683491'
       tcgplayerProductId: '451875'
     release_date: '2023-02-10'
     subtype: JUMPSTART
@@ -94,6 +104,7 @@ products:
     category: LIMITED
     identifiers:
       cardKingdomId: '273130'
+      mcmId: '683486'
       tcgplayerProductId: '475570'
     release_date: '2023-02-10'
     subtype: PRERELEASE
@@ -101,6 +112,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '273131'
+      mcmId: '683496'
       tcgplayerProductId: '451872'
     release_date: '2023-02-10'
     subtype: SET
@@ -114,11 +126,13 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '273132'
+      mcmId: '683490'
       tcgplayerProductId: '451871'
     release_date: '2023-02-10'
     subtype: SET
   Phyrexia All Will Be One Welcome Booster:
     category: BOOSTER_PACK
-    identifiers: {}
+    identifiers:
+      mcmId: '710616'
     release_date: '2023-02-10'
     subtype: WELCOME

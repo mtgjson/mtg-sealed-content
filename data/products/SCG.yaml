@@ -4,45 +4,53 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '1538'
+      mcmId: '210108'
       tcgplayerProductId: '27305'
     subtype: DEFAULT
   Scourge Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1544'
+      mcmId: '210042'
       tcgplayerProductId: '27367'
     subtype: DEFAULT
   Scourge Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '240345'
+      mcmId: '210180'
       tcgplayerProductId: '78329'
     subtype: FAT_PACK
   Scourge Theme Deck Display:
     category: DECK_BOX
-    identifier: {}
+    identifiers:
+      mcmId: '210238'
     subtype: THEME
   Scourge Theme Deck Goblin Mob:
     category: DECK
     identifiers:
       cardKingdomId: '1540'
+      mcmId: '253708'
       tcgplayerProductId: '174318'
     subtype: THEME
   Scourge Theme Deck Max Attax:
     category: DECK
     identifiers:
       cardKingdomId: '1541'
+      mcmId: '253709'
       tcgplayerProductId: '174319'
     subtype: THEME
   Scourge Theme Deck Pulverize:
     category: DECK
     identifiers:
       cardKingdomId: '1542'
+      mcmId: '253710'
       tcgplayerProductId: '174320'
     subtype: THEME
   Scourge Theme Deck Storm Surge:
     category: DECK
     identifiers:
       cardKingdomId: '1543'
+      mcmId: '253711'
       tcgplayerProductId: '174321'
     subtype: THEME
