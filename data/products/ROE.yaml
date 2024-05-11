@@ -5,10 +5,6 @@ products:
     identifiers:
       tcgplayerProductId: '34681'
     subtype: DRAFT_SET
-  Rise of the Eldrazi 6 Card Booster Pack:
-    category: BOOSTER_PACK
-    identifiers: {}
-    subtype: SIX
   Rise of the Eldrazi Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -54,12 +50,14 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '130625'
+      mcmId: '210251'
       tcgplayerProductId: '34684'
     subtype: INTRO
   Rise of the Eldrazi Intro Pack Levelers Scorn:
     category: DECK
     identifiers:
       cardKingdomId: '130626'
+      mcmId: '210252'
       tcgplayerProductId: '34685'
     subtype: INTRO
   Rise of the Eldrazi Intro Pack Totem Power:
@@ -73,3 +71,7 @@ products:
     identifiers:
       tcgplayerProductId: '34683'
     subtype: INTRO
+  Rise of the Eldrazi Six Card Booster Pack:
+    category: BOOSTER_PACK
+    identifiers: {}
+    subtype: SIX

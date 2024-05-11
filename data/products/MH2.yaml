@@ -9,6 +9,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '245995'
+      mcmId: '562094'
       tcgplayerProductId: '238649'
     release_date: '2021-06-18'
     subtype: DEFAULT
@@ -16,6 +17,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '245999'
+      mcmId: '562095'
       tcgplayerProductId: '236348'
     release_date: '2021-06-18'
     subtype: COLLECTOR
@@ -33,6 +35,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '245996'
+      mcmId: '562099'
       tcgplayerProductId: '236349'
     release_date: '2021-06-18'
     subtype: COLLECTOR
@@ -40,6 +43,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '246000'
+      mcmId: '562097'
       tcgplayerProductId: '236354'
     release_date: '2021-06-18'
     subtype: DEFAULT
@@ -53,18 +57,22 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '245997'
+      mcmId: '562100'
       tcgplayerProductId: '236356'
     release_date: '2021-06-18'
     subtype: DEFAULT
   Modern Horizons 2 Prerelease Pack:
     category: LIMITED
     identifiers:
+      mcmId: '567808'
       tcgplayerProductId: '238648'
+    release_date: '2021-06-08'
     subtype: PRERELEASE
   Modern Horizons 2 Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '246001'
+      mcmId: '562096'
       tcgplayerProductId: '236353'
     release_date: '2021-06-18'
     subtype: SET
@@ -82,6 +90,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '245998'
+      mcmId: '562098'
       tcgplayerProductId: '236351'
     release_date: '2021-06-18'
     subtype: SET

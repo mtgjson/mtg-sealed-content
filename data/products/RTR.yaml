@@ -6,10 +6,6 @@ products:
       tcgplayerProductId: '60120'
     release_date: '2012-10-05'
     subtype: DRAFT_SET
-  Return to Ravnica 6 Card Booster Pack:
-    category: BOOSTER_PACK
-    identifiers: {}
-    subtype: SIX
   Return to Ravnica Booster Battle Pack:
     category: MULTI_DECK
     identifiers:
@@ -141,3 +137,7 @@ products:
     identifiers:
       tcgplayerProductId: '190191'
     subtype: PRERELEASE
+  Return to Ravnica Six Card Booster Pack:
+    category: BOOSTER_PACK
+    identifiers: {}
+    subtype: SIX

@@ -5,15 +5,11 @@ products:
     identifiers:
       tcgplayerProductId: '35375'
     subtype: DRAFT_SET
-  2011 Core Set 6 Card Booster Pack:
-    category: BOOSTER_PACK
-    identifiers:
-      tcgplayerProductId: '244377'
-    subtype: SIX
   2011 Core Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '131448'
+      mcmId: '241075'
       tcgplayerProductId: '35372'
     subtype: DEFAULT
   2011 Core Set Booster Box Case:
@@ -25,6 +21,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '131449'
+      mcmId: '241074'
       tcgplayerProductId: '35374'
     subtype: DEFAULT
   2011 Core Set Deck Builders Toolkit:
@@ -38,6 +35,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '131450'
+      mcmId: '241076'
       tcgplayerProductId: '35382'
     subtype: FAT_PACK
   2011 Core Set Intro Pack Blades of Victory:
@@ -57,7 +55,8 @@ products:
     subtype: INTRO
   2011 Core Set Intro Pack Display:
     category: DECK_BOX
-    identifier: {}
+    identifiers:
+      mcmId: '241077'
     subtype: INTRO
   2011 Core Set Intro Pack Power of Prophecy:
     category: DECK
@@ -82,8 +81,39 @@ products:
     identifiers:
       tcgplayerProductId: '215046'
     subtype: LAND_STATION
+  2011 Core Set Sample Deck Ajani Goldmane:
+    category: DECK
+    identifiers:
+      mcmId: '287570'
+    subtype: STARTER
+  2011 Core Set Sample Deck Chandra Nalaar:
+    category: DECK
+    identifiers:
+      mcmId: '287571'
+    subtype: STARTER
+  2011 Core Set Sample Deck Garruk Wildspeaker:
+    category: DECK
+    identifiers:
+      mcmId: '287572'
+    subtype: STARTER
+  2011 Core Set Sample Deck Jace Beleren:
+    category: DECK
+    identifiers:
+      mcmId: '287573'
+    subtype: STARTER
+  2011 Core Set Sample Deck Liliana Vess:
+    category: DECK
+    identifiers:
+      mcmId: '287574'
+    subtype: STARTER
   2011 Core Set Set of 5 Intro Pack:
     category: SUBSET
     identifiers:
       tcgplayerProductId: '35381'
     subtype: INTRO
+  2011 Core Set Six Card Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      mcmId: '253815'
+      tcgplayerProductId: '244377'
+    subtype: SIX

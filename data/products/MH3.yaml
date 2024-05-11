@@ -3,6 +3,7 @@ products:
   Modern Horizons 3 Bundle:
     category: BUNDLE
     identifiers:
+      mcmId: '758484'
       tcgplayerProductId: '541185'
     release_date: '2024-06-14'
     subtype: DEFAULT
@@ -15,6 +16,7 @@ products:
   Modern Horizons 3 Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      mcmId: '758483'
       tcgplayerProductId: '541179'
     release_date: '2024-06-14'
     subtype: COLLECTOR
@@ -27,12 +29,14 @@ products:
   Modern Horizons 3 Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '758481'
       tcgplayerProductId: '541173'
     release_date: '2024-06-14'
     subtype: COLLECTOR
   Modern Horizons 3 Gift Bundle:
     category: BUNDLE
     identifiers:
+      mcmId: '758485'
       tcgplayerProductId: '541190'
     release_date: '2024-06-14'
     subtype: GIFT_BUNDLE
@@ -45,6 +49,7 @@ products:
   Modern Horizons 3 Play Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      mcmId: '758482'
       tcgplayerProductId: '541164'
     release_date: '2024-06-14'
     subtype: PLAY
@@ -57,12 +62,14 @@ products:
   Modern Horizons 3 Play Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '758480'
       tcgplayerProductId: '541163'
     release_date: '2024-06-14'
     subtype: PLAY
   Modern Horizons 3 Prerelease Pack:
     category: LIMITED
     identifiers:
+      mcmId: '758486'
       tcgplayerProductId: '541159'
     release_date: '2024-06-14'
     subtype: PRERELEASE

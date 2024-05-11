@@ -6,24 +6,23 @@ products:
       tcgplayerProductId: '59122'
     release_date: '2012-07-13'
     subtype: DRAFT_SET
-  2013 Core Set 6 Card Booster Pack:
-    category: BOOSTER_PACK
-    identifiers: {}
-    subtype: SIX
   2013 Core Set Booster Battle Pack:
     category: MULTI_DECK
     identifiers:
+      mcmId: '257500'
       tcgplayerProductId: '97819'
     subtype: BATTLE
   2013 Core Set Booster Battle Pack Display:
     category: DECK_BOX
     identifiers:
+      mcmId: '257501'
       tcgplayerProductId: '485831'
     subtype: BATTLE
   2013 Core Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '187473'
+      mcmId: '256382'
       tcgplayerProductId: '59120'
     release_date: '2012-07-13'
     subtype: DEFAULT
@@ -36,6 +35,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '187474'
+      mcmId: '256381'
       tcgplayerProductId: '59123'
     release_date: '2012-07-13'
     subtype: DEFAULT
@@ -45,27 +45,36 @@ products:
       cardKingdomId: '199663'
       tcgplayerProductId: '245962'
     subtype: DECK_BUILDERS_TOOLKIT
+  2013 Core Set Event Deck Display:
+    category: DECK_BOX
+    identifiers:
+      mcmId: '257499'
+    subtype: EVENT
   2013 Core Set Event Deck Repeat Performance:
     category: DECK
     identifiers:
       cardKingdomId: '187957'
+      mcmId: '257497'
       tcgplayerProductId: '60109'
     subtype: EVENT
   2013 Core Set Event Deck Sweet Revenge:
     category: DECK
     identifiers:
       cardKingdomId: '187958'
+      mcmId: '257496'
       tcgplayerProductId: '60110'
     subtype: EVENT
   2013 Core Set Event Decks Set of 2:
     category: SUBSET
     identifiers:
+      mcmId: '257498'
       tcgplayerProductId: '60111'
     subtype: EVENT
   2013 Core Set Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '187475'
+      mcmId: '256383'
       tcgplayerProductId: '59124'
     release_date: '2012-07-13'
     subtype: FAT_PACK
@@ -73,59 +82,76 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '187705'
+      mcmId: '256763'
       tcgplayerProductId: '97814'
     subtype: INTRO
   2013 Core Set Intro Pack Display:
     category: DECK_BOX
-    identifier: {}
+    identifiers:
+      mcmId: '256768'
     subtype: INTRO
   2013 Core Set Intro Pack Mob Rule Red:
     category: DECK
     identifiers:
       cardKingdomId: '187707'
+      mcmId: '256765'
       tcgplayerProductId: '97816'
     subtype: INTRO
   2013 Core Set Intro Pack Path to Victory White:
     category: DECK
     identifiers:
       cardKingdomId: '187704'
+      mcmId: '256762'
       tcgplayerProductId: '97813'
     subtype: INTRO
   2013 Core Set Intro Pack Sole Domination Black:
     category: DECK
     identifiers:
       cardKingdomId: '187706'
+      mcmId: '256764'
       tcgplayerProductId: '97815'
     subtype: INTRO
   2013 Core Set Intro Pack Wild Rush Green:
     category: DECK
     identifiers:
       cardKingdomId: '187708'
+      mcmId: '256766'
       tcgplayerProductId: '97817'
     subtype: INTRO
   2013 Core Set Intro Packs Set of 5:
     category: SUBSET
     identifiers:
+      mcmId: '256767'
       tcgplayerProductId: '59121'
     release_date: '2012-07-13'
     subtype: INTRO
-  2103 Core Set Sample Deck Black:
+  2013 Core Set Sample Deck Ajani Goldmane:
     category: DECK
-    identifiers: {}
-    subtype: WELCOME
-  2103 Core Set Sample Deck Blue:
+    identifiers:
+      mcmId: '287580'
+    subtype: STARTER
+  2013 Core Set Sample Deck Chandra Nalaar:
     category: DECK
-    identifiers: {}
-    subtype: WELCOME
-  2103 Core Set Sample Deck Green:
+    identifiers:
+      mcmId: '287581'
+    subtype: STARTER
+  2013 Core Set Sample Deck Garruk Wildspeaker:
     category: DECK
-    identifiers: {}
-    subtype: WELCOME
-  2103 Core Set Sample Deck Red:
+    identifiers:
+      mcmId: '287582'
+    subtype: STARTER
+  2013 Core Set Sample Deck Jace Beleren:
     category: DECK
-    identifiers: {}
-    subtype: WELCOME
-  2103 Core Set Sample Deck White:
+    identifiers:
+      mcmId: '287583'
+    subtype: STARTER
+  2013 Core Set Sample Deck Liliana Vess:
     category: DECK
-    identifiers: {}
-    subtype: WELCOME
+    identifiers:
+      mcmId: '287584'
+    subtype: STARTER
+  2013 Core Set Six Card Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      mcmId: '315712'
+    subtype: SIX

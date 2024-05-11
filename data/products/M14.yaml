@@ -1,23 +1,22 @@
 code: m14
 products:
-  2014 Core Set 6 Card Booster Pack:
-    category: BOOSTER_PACK
-    identifiers: {}
-    subtype: SIX
   2014 Core Set Booster Battle Pack:
     category: MULTI_DECK
     identifiers:
+      mcmId: '264068'
       tcgplayerProductId: '78289'
     subtype: BATTLE
   2014 Core Set Booster Battle Pack Display:
     category: DECK_BOX
     identifiers:
+      mcmId: '264069'
       tcgplayerProductId: '485828'
     subtype: BATTLE
   2014 Core Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '190469'
+      mcmId: '262403'
       tcgplayerProductId: '69243'
     subtype: DEFAULT
   2014 Core Set Booster Box Case:
@@ -29,6 +28,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '190470'
+      mcmId: '262402'
       tcgplayerProductId: '69245'
     subtype: DEFAULT
   2014 Core Set Deck Builders Toolkit:
@@ -42,51 +42,60 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '191053'
+      mcmId: '264067'
       tcgplayerProductId: '92501'
     subtype: EVENT
   2014 Core Set Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '190471'
+      mcmId: '262404'
       tcgplayerProductId: '69247'
     subtype: FAT_PACK
   2014 Core Set Intro Pack Bestial Strength:
     category: DECK
     identifiers:
       cardKingdomId: '190587'
+      mcmId: '263028'
       tcgplayerProductId: '70075'
     subtype: INTRO
   2014 Core Set Intro Pack Death Reaper:
     category: DECK
     identifiers:
       cardKingdomId: '190585'
+      mcmId: '263027'
       tcgplayerProductId: '70078'
     subtype: INTRO
   2014 Core Set Intro Pack Display:
     category: DECK_BOX
-    identifier: {}
+    identifiers:
+      mcmId: '263030'
     subtype: INTRO
   2014 Core Set Intro Pack Fire Surge:
     category: DECK
     identifiers:
       cardKingdomId: '190588'
+      mcmId: '263026'
       tcgplayerProductId: '70079'
     subtype: INTRO
   2014 Core Set Intro Pack Lightforce:
     category: DECK
     identifiers:
       cardKingdomId: '190589'
+      mcmId: '263025'
       tcgplayerProductId: '70076'
     subtype: INTRO
   2014 Core Set Intro Pack Psychic Labyrinth:
     category: DECK
     identifiers:
       cardKingdomId: '190586'
+      mcmId: '263029'
       tcgplayerProductId: '70077'
     subtype: INTRO
   2014 Core Set Intro Packs Set of 5:
     category: SUBSET
     identifiers:
+      mcmId: '263031'
       tcgplayerProductId: '190866'
     subtype: INTRO
   2014 Core Set Land Station:
@@ -94,3 +103,32 @@ products:
     identifiers:
       tcgplayerProductId: '215047'
     subtype: LAND_STATION
+  2014 Core Set Sample Deck Ajani Goldmane:
+    category: DECK
+    identifiers:
+      mcmId: '264366'
+    subtype: STARTER
+  2014 Core Set Sample Deck Chandra Nalaar:
+    category: DECK
+    identifiers:
+      mcmId: '264365'
+    subtype: STARTER
+  2014 Core Set Sample Deck Garruk Wildspeaker:
+    category: DECK
+    identifiers:
+      mcmId: '264363'
+    subtype: STARTER
+  2014 Core Set Sample Deck Jace Beleren:
+    category: DECK
+    identifiers:
+      mcmId: '264362'
+    subtype: STARTER
+  2014 Core Set Sample Deck Liliana Vess:
+    category: DECK
+    identifiers:
+      mcmId: '264364'
+    subtype: STARTER
+  2014 Core Set Six Card Booster Pack:
+    category: BOOSTER_PACK
+    identifiers: {}
+    subtype: SIX

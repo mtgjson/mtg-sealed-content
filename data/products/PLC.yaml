@@ -4,45 +4,53 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '121870'
+      mcmId: '210123'
       tcgplayerProductId: '27296'
     subtype: DEFAULT
   Planar Chaos Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '121871'
+      mcmId: '210057'
       tcgplayerProductId: '27358'
     subtype: DEFAULT
   Planar Chaos Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '121873'
+      mcmId: '210167'
       tcgplayerProductId: '78325'
     subtype: FAT_PACK
   Planar Chaos Theme Deck Display:
     category: DECK_BOX
-    identifier: {}
+    identifiers:
+      mcmId: '210217'
     subtype: THEME
   Planar Chaos Theme Deck Endless March:
     category: DECK
     identifiers:
       cardKingdomId: '122087'
+      mcmId: '253657'
       tcgplayerProductId: '129677'
     subtype: THEME
   Planar Chaos Theme Deck Ixidors Legacy:
     category: DECK
     identifiers:
       cardKingdomId: '122088'
+      mcmId: '253658'
       tcgplayerProductId: '129678'
     subtype: THEME
   Planar Chaos Theme Deck Rituals of Rebirth:
     category: DECK
     identifiers:
       cardKingdomId: '122089'
+      mcmId: '253659'
       tcgplayerProductId: '129679'
     subtype: THEME
   Planar Chaos Theme Deck Unraveling Mind:
     category: DECK
     identifiers:
       cardKingdomId: '122090'
+      mcmId: '253660'
       tcgplayerProductId: '129680'
     subtype: THEME

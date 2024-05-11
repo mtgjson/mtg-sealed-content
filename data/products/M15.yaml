@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '194903'
+      mcmId: '267171'
       tcgplayerProductId: '90786'
     release_date: '2014-07-18'
     subtype: DEFAULT
@@ -16,6 +17,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '194904'
+      mcmId: '267170'
       tcgplayerProductId: '90785'
     release_date: '2014-07-18'
     subtype: DEFAULT
@@ -23,6 +25,7 @@ products:
     category: MULTI_DECK
     identifiers:
       cardKingdomId: '195224'
+      mcmId: '267989'
       tcgplayerProductId: '90793'
     subtype: CLASH
   2015 Core Set Deck Builders Toolkit:
@@ -36,101 +39,121 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '194905'
+      mcmId: '267172'
       tcgplayerProductId: '90790'
     release_date: '2014-07-18'
     subtype: FAT_PACK
   2015 Core Set Intro Pack Display:
     category: DECK_BOX
     identifiers:
+      mcmId: '267975'
       tcgplayerProductId: '90788'
     subtype: INTRO
   2015 Core Set Intro Pack Flames of the Dragon:
     category: DECK
     identifiers:
       cardKingdomId: '195222'
+      mcmId: '267970'
       tcgplayerProductId: '91077'
     subtype: INTRO
   2015 Core Set Intro Pack Hit the Ground Running:
     category: DECK
     identifiers:
       cardKingdomId: '195220'
+      mcmId: '267972'
       tcgplayerProductId: '91075'
     subtype: INTRO
   2015 Core Set Intro Pack Infernal Intervention:
     category: DECK
     identifiers:
       cardKingdomId: '195219'
+      mcmId: '267971'
       tcgplayerProductId: '91076'
     subtype: INTRO
   2015 Core Set Intro Pack Price of Glory:
     category: DECK
     identifiers:
       cardKingdomId: '195223'
+      mcmId: '267969'
       tcgplayerProductId: '91074'
     subtype: INTRO
   2015 Core Set Intro Pack Set of 5:
     category: SUBSET
     identifiers:
+      mcmId: '267974'
       tcgplayerProductId: '90789'
     subtype: INTRO
   2015 Core Set Intro Pack Will of the Masses:
     category: DECK
     identifiers:
       cardKingdomId: '195221'
+      mcmId: '267973'
       tcgplayerProductId: '91078'
     subtype: INTRO
   2015 Core Set Prerelease Hunt with Ambition:
     category: LIMITED
     identifiers:
+      mcmId: '268625'
       tcgplayerProductId: '92490'
     subtype: PRERELEASE
   2015 Core Set Prerelease Hunt with Ferocity:
     category: LIMITED
     identifiers:
+      mcmId: '268628'
       tcgplayerProductId: '92493'
     subtype: PRERELEASE
   2015 Core Set Prerelease Hunt with Guile:
     category: LIMITED
     identifiers:
+      mcmId: '268626'
       tcgplayerProductId: '92491'
     subtype: PRERELEASE
   2015 Core Set Prerelease Hunt with Strength:
     category: LIMITED
     identifiers:
+      mcmId: '268627'
       tcgplayerProductId: '92492'
     subtype: PRERELEASE
   2015 Core Set Prerelease Hunt with Valor:
     category: LIMITED
     identifiers:
+      mcmId: '268629'
       tcgplayerProductId: '92494'
     subtype: PRERELEASE
   2015 Core Set Prerelease Pack Set of 5:
     category: SUBSET
     identifiers:
+      mcmId: '273052'
       tcgplayerProductId: '199941'
+    release_date: '2015-03-02'
     subtype: PRERELEASE
   2015 Core Set Sample Deck Ajani Goldmane:
     category: DECK
-    identifiers: {}
+    identifiers:
+      mcmId: '267925'
     release_date: '2014-07-18'
     subtype: STARTER
   2015 Core Set Sample Deck Chandra Nalaar:
     category: DECK
-    identifiers: {}
+    identifiers:
+      mcmId: '267922'
     release_date: '2014-07-18'
     subtype: STARTER
   2015 Core Set Sample Deck Jace Beleren:
     category: DECK
-    identifiers: {}
+    identifiers:
+      mcmId: '267924'
     release_date: '2014-07-18'
     subtype: STARTER
   2015 Core Set Sample Deck Liliana Vess:
     category: DECK
-    identifiers: {}
+    identifiers:
+      mcmId: '267923'
     release_date: '2014-07-18'
     subtype: STARTER
   2015 Core Set Sample Deck Nissa Revane:
     category: DECK
-    identifiers: {}
+    identifiers:
+      mcmId: '267921'
     release_date: '2014-07-18'
     subtype: STARTER

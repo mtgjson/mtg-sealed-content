@@ -9,6 +9,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '127041'
+      mcmId: '210142'
       tcgplayerProductId: '32529'
     subtype: DEFAULT
   2010 Core Set Booster Box Case:
@@ -20,52 +21,87 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '127042'
+      mcmId: '210141'
       tcgplayerProductId: '32530'
     subtype: DEFAULT
   2010 Core Set Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '127049'
+      mcmId: '210158'
       tcgplayerProductId: '32532'
     subtype: FAT_PACK
   2010 Core Set Intro Pack Deaths Minions:
     category: DECK
     identifiers:
       cardKingdomId: '127044'
+      mcmId: '271291'
       tcgplayerProductId: '32533'
     subtype: INTRO
   2010 Core Set Intro Pack Display:
     category: DECK_BOX
     identifiers:
+      mcmId: '210203'
       tcgplayerProductId: '32539'
     subtype: INTRO
   2010 Core Set Intro Pack Firebomber:
     category: DECK
     identifiers:
       cardKingdomId: '127045'
+      mcmId: '271292'
       tcgplayerProductId: '32537'
     subtype: INTRO
   2010 Core Set Intro Pack Natures Fury:
     category: DECK
     identifiers:
       cardKingdomId: '127046'
+      mcmId: '271293'
       tcgplayerProductId: '32534'
     subtype: INTRO
   2010 Core Set Intro Pack Presence of Mind:
     category: DECK
     identifiers:
       cardKingdomId: '127047'
+      mcmId: '271290'
       tcgplayerProductId: '32535'
     subtype: INTRO
   2010 Core Set Intro Pack We Are Legion:
     category: DECK
     identifiers:
       cardKingdomId: '127048'
+      mcmId: '271289'
       tcgplayerProductId: '32536'
     subtype: INTRO
-  Core Set 2010 6 Card Booster Pack:
+  2010 Core Set Sample Deck Ajani Goldmane:
+    category: DECK
+    identifiers:
+      mcmId: '287565'
+    subtype: STARTER
+  2010 Core Set Sample Deck Chandra Nalaar:
+    category: DECK
+    identifiers:
+      mcmId: '287566'
+    subtype: STARTER
+  2010 Core Set Sample Deck Garruk Wildspeaker:
+    category: DECK
+    identifiers:
+      mcmId: '287567'
+    subtype: STARTER
+  2010 Core Set Sample Deck Jace Beleren:
+    category: DECK
+    identifiers:
+      mcmId: '287568'
+    subtype: STARTER
+  2010 Core Set Sample Deck Liliana Vess:
+    category: DECK
+    identifiers:
+      mcmId: '287569'
+    subtype: STARTER
+  2010 Core Set Six Card Booster Pack:
     category: BOOSTER_PACK
-    identifiers: {}
+    identifiers:
+      mcmId: '315701'
+    release_date: '2018-01-16'
     subtype: SIX
   Magic Deck Builders Toolkit:
     category: KIT

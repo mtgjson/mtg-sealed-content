@@ -5,12 +5,6 @@ products:
     identifiers:
       tcgplayerProductId: '47789'
     subtype: DRAFT_SET
-  Innistrad 6 Card Booster Pack:
-    category: BOOSTER_PACK
-    identifiers:
-      mcmId: '315709'
-    release_date: '2018-01-16'
-    subtype: SIX
   Innistrad Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -103,3 +97,8 @@ products:
       mcmId: '250771'
       tcgplayerProductId: '56210'
     subtype: INTRO
+  Innistrad Six Card Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      mcmId: '315709'
+    subtype: SIX
