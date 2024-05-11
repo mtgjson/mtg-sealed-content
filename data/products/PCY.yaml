@@ -4,45 +4,53 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '1221'
+      mcmId: '210098'
       tcgplayerProductId: '27301'
     subtype: DEFAULT
   Prophecy Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1226'
+      mcmId: '210032'
       tcgplayerProductId: '27363'
     subtype: DEFAULT
   Prophecy Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '240192'
+      mcmId: '210189'
       tcgplayerProductId: '78327'
     subtype: FAT_PACK
   Prophecy Theme Deck Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      mcmId: '210237'
     subtype: THEME
   Prophecy Theme Deck Distress:
     category: DECK
     identifiers:
       cardKingdomId: '1225'
+      mcmId: '253749'
       tcgplayerProductId: '116046'
     subtype: THEME
   Prophecy Theme Deck Pummel:
     category: DECK
     identifiers:
       cardKingdomId: '1222'
+      mcmId: '253750'
       tcgplayerProductId: '116047'
     subtype: THEME
   Prophecy Theme Deck Slither:
     category: DECK
     identifiers:
       cardKingdomId: '1223'
+      mcmId: '253751'
       tcgplayerProductId: '116048'
     subtype: THEME
   Prophecy Theme Deck Turnaround:
     category: DECK
     identifiers:
       cardKingdomId: '1224'
+      mcmId: '253752'
       tcgplayerProductId: '116049'
     subtype: THEME

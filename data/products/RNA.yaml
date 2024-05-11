@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '223064'
+      mcmId: '367073'
       tcgplayerProductId: '180734'
     release_date: '2019-01-25'
     subtype: DEFAULT
@@ -17,6 +18,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '223063'
+      mcmId: '367074'
       tcgplayerProductId: '180735'
     release_date: '2019-01-25'
     subtype: DEFAULT
@@ -24,13 +26,16 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '223066'
+      mcmId: '367072'
       tcgplayerProductId: '180736'
     release_date: '2019-01-25'
     subtype: DEFAULT
   Ravnica Allegiance Collectors Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '370212'
       tcgplayerProductId: '184538'
+    release_date: '2019-02-19'
     subtype: COLLECTOR
   Ravnica Allegiance Deck Builders Toolkit:
     category: KIT
@@ -44,7 +49,9 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '223910'
+      mcmId: '368641'
       tcgplayerProductId: '183453'
+    release_date: '2019-01-14'
     subtype: PREMIUM
   Ravnica Allegiance Planeswalker Deck Display:
     category: DECK_BOX
@@ -54,6 +61,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '223061'
+      mcmId: '367805'
       tcgplayerProductId: '182133'
     release_date: '2019-01-25'
     subtype: PLANESWALKER
@@ -61,6 +69,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '223062'
+      mcmId: '367806'
       tcgplayerProductId: '182134'
     release_date: '2019-01-25'
     subtype: PLANESWALKER
@@ -73,23 +82,31 @@ products:
   Ravnica Allegiance Prerelease Pack Azorius:
     category: LIMITED
     identifiers:
+      mcmId: '368859'
       tcgplayerProductId: '183587'
+    release_date: '2019-01-18'
     subtype: PRERELEASE
   Ravnica Allegiance Prerelease Pack Gruul:
     category: LIMITED
     identifiers:
       cardKingdomId: '223079'
+      mcmId: '368860'
       tcgplayerProductId: '183588'
+    release_date: '2019-01-18'
     subtype: PRERELEASE
   Ravnica Allegiance Prerelease Pack Orzhov:
     category: LIMITED
     identifiers:
+      mcmId: '368861'
       tcgplayerProductId: '183586'
+    release_date: '2019-01-18'
     subtype: PRERELEASE
   Ravnica Allegiance Prerelease Pack Rakdos:
     category: LIMITED
     identifiers:
+      mcmId: '368862'
       tcgplayerProductId: '183590'
+    release_date: '2019-01-18'
     subtype: PRERELEASE
   Ravnica Allegiance Prerelease Pack Set of 5:
     category: SUBSET
@@ -99,32 +116,44 @@ products:
   Ravnica Allegiance Prerelease Pack Simic:
     category: LIMITED
     identifiers:
+      mcmId: '368863'
       tcgplayerProductId: '183589'
+    release_date: '2019-01-18'
     subtype: PRERELEASE
   Ravnica Allegiance Theme Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      mcmId: '370593'
       tcgplayerProductId: '183337'
+    release_date: '2019-02-26'
     subtype: THEME
   Ravnica Allegiance Theme Booster Pack Azorius:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '368517'
       tcgplayerProductId: '183318'
+    release_date: '2019-01-11'
     subtype: THEME
   Ravnica Allegiance Theme Booster Pack Gruul:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '368520'
       tcgplayerProductId: '183319'
+    release_date: '2019-01-11'
     subtype: THEME
   Ravnica Allegiance Theme Booster Pack Orzhov:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '368518'
       tcgplayerProductId: '183320'
+    release_date: '2019-01-11'
     subtype: THEME
   Ravnica Allegiance Theme Booster Pack Rakdos:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '368519'
       tcgplayerProductId: '183321'
+    release_date: '2019-01-11'
     subtype: THEME
   Ravnica Allegiance Theme Booster Pack Set of 5:
     category: SUBSET
@@ -134,5 +163,7 @@ products:
   Ravnica Allegiance Theme Booster Pack Simic:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '368521'
       tcgplayerProductId: '183322'
+    release_date: '2019-01-11'
     subtype: THEME

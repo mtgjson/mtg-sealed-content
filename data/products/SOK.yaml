@@ -4,45 +4,53 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '116997'
+      mcmId: '210115'
       tcgplayerProductId: '27304'
     subtype: DEFAULT
   Saviors of Kamigawa Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '117165'
+      mcmId: '210049'
       tcgplayerProductId: '27366'
     subtype: DEFAULT
   Saviors of Kamigawa Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '130436'
+      mcmId: '210174'
       tcgplayerProductId: '78328'
     subtype: FAT_PACK
   Saviors of Kamigawa Theme Deck Critical Mass:
     category: DECK
     identifiers:
       cardKingdomId: '117166'
+      mcmId: '253684'
       tcgplayerProductId: '96350'
     subtype: THEME
   Saviors of Kamigawa Theme Deck Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      mcmId: '210215'
     subtype: THEME
   Saviors of Kamigawa Theme Deck Soratamis Wisdom:
     category: DECK
     identifiers:
       cardKingdomId: '117167'
+      mcmId: '253685'
       tcgplayerProductId: '96352'
     subtype: THEME
   Saviors of Kamigawa Theme Deck Spirit Flames:
     category: DECK
     identifiers:
       cardKingdomId: '117168'
+      mcmId: '253686'
       tcgplayerProductId: '96351'
     subtype: THEME
   Saviors of Kamigawa Theme Deck Truth Seekers:
     category: DECK
     identifiers:
       cardKingdomId: '117169'
+      mcmId: '253687'
       tcgplayerProductId: '96353'
     subtype: THEME

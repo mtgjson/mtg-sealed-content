@@ -9,17 +9,20 @@ products:
   Return to Ravnica Booster Battle Pack:
     category: MULTI_DECK
     identifiers:
+      mcmId: '259466'
       tcgplayerProductId: '72027'
     subtype: BATTLE
   Return to Ravnica Booster Battle Pack Display:
     category: DECK_BOX
     identifiers:
+      mcmId: '259467'
       tcgplayerProductId: '485935'
     subtype: BATTLE
   Return to Ravnica Booster Box:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '188115'
+      mcmId: '258182'
       tcgplayerProductId: '60117'
     subtype: DEFAULT
   Return to Ravnica Booster Box Case:
@@ -31,28 +34,33 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '188116'
+      mcmId: '258181'
       tcgplayerProductId: '60121'
     subtype: DEFAULT
   Return to Ravnica Event Deck Creep and Conquer:
     category: DECK
     identifiers:
       cardKingdomId: '188421'
+      mcmId: '259290'
       tcgplayerProductId: '110552'
     subtype: EVENT
   Return to Ravnica Event Deck Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      mcmId: '259293'
     subtype: EVENT
   Return to Ravnica Event Deck Wrack and Rage:
     category: DECK
     identifiers:
       cardKingdomId: '188422'
+      mcmId: '259291'
       tcgplayerProductId: '110551'
     subtype: EVENT
   Return to Ravnica Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '188123'
+      mcmId: '258183'
       tcgplayerProductId: '60119'
     release_date: '2012-10-05'
     subtype: FAT_PACK
@@ -60,23 +68,27 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '188748'
+      mcmId: '259351'
       tcgplayerProductId: '67307'
     subtype: GIFT_BUNDLE
   Return to Ravnica Intro Pack Azorius Advance:
     category: DECK
     identifiers:
       cardKingdomId: '188118'
+      mcmId: '258297'
       tcgplayerProductId: '66476'
     release_date: '2012-10-05'
     subtype: INTRO
   Return to Ravnica Intro Pack Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      mcmId: '258185'
     subtype: INTRO
   Return to Ravnica Intro Pack Golgari Growth:
     category: DECK
     identifiers:
       cardKingdomId: '188119'
+      mcmId: '258300'
       tcgplayerProductId: '66479'
     release_date: '2012-10-05'
     subtype: INTRO
@@ -84,6 +96,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '188120'
+      mcmId: '258298'
       tcgplayerProductId: '66477'
     release_date: '2012-10-05'
     subtype: INTRO
@@ -91,6 +104,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '188121'
+      mcmId: '258299'
       tcgplayerProductId: '66478'
     release_date: '2012-10-05'
     subtype: INTRO
@@ -98,46 +112,58 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '188122'
+      mcmId: '258301'
       tcgplayerProductId: '66480'
     release_date: '2012-10-05'
     subtype: INTRO
   Return to Ravnica Intro Packs Set of 5:
     category: SUBSET
     identifiers:
+      mcmId: '258184'
       tcgplayerProductId: '60118'
     release_date: '2012-10-05'
     subtype: INTRO
   Return to Ravnica Prerelease Pack Azorius:
     category: LIMITED
     identifiers:
+      mcmId: '259207'
       tcgplayerProductId: '190186'
     subtype: PRERELEASE
   Return to Ravnica Prerelease Pack Golgari:
     category: LIMITED
     identifiers:
+      mcmId: '259208'
       tcgplayerProductId: '190187'
     subtype: PRERELEASE
   Return to Ravnica Prerelease Pack Izzet:
     category: LIMITED
     identifiers:
+      mcmId: '259209'
       tcgplayerProductId: '190190'
     subtype: PRERELEASE
   Return to Ravnica Prerelease Pack Rakdos:
     category: LIMITED
     identifiers:
+      mcmId: '259210'
       tcgplayerProductId: '190188'
     subtype: PRERELEASE
   Return to Ravnica Prerelease Pack Selesnya:
     category: LIMITED
     identifiers:
+      mcmId: '259211'
       tcgplayerProductId: '190189'
+    release_date: '2015-12-09'
     subtype: PRERELEASE
   Return to Ravnica Prerelease Pack Set of 5:
     category: SUBSET
     identifiers:
+      mcmId: '273053'
       tcgplayerProductId: '190191'
+    release_date: '2015-03-02'
     subtype: PRERELEASE
   Return to Ravnica Six Card Booster Pack:
     category: BOOSTER_PACK
-    identifiers: {}
+    identifiers:
+      mcmId: '315713'
+    release_date: '2018-01-16'
     subtype: SIX

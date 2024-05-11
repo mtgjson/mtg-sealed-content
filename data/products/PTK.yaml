@@ -4,40 +4,47 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '238462'
+      mcmId: '210095'
       tcgplayerProductId: '27300'
     subtype: DEFAULT
   Portal Three Kingdoms Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '238461'
+      mcmId: '210029'
       tcgplayerProductId: '27362'
     subtype: DEFAULT
   Portal Three Kingdoms Theme Deck Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      mcmId: '679535'
     subtype: THEME
   Portal Three Kingdoms Theme Deck Shu Kingdom:
     category: DECK
     identifiers:
       cardKingdomId: '198787'
+      mcmId: '253766'
       tcgplayerProductId: '498730'
     subtype: THEME
   Portal Three Kingdoms Theme Deck Wei Kingdom:
     category: DECK
     identifiers:
       cardKingdomId: '198786'
+      mcmId: '253767'
       tcgplayerProductId: '498732'
     subtype: THEME
   Portal Three Kingdoms Theme Deck Wu Kingdom:
     category: DECK
     identifiers:
       cardKingdomId: '198785'
+      mcmId: '253768'
       tcgplayerProductId: '498731'
     subtype: THEME
   Portal Three Kingdoms Two Player Starter:
     category: MULTI_DECK
     identifiers:
       cardKingdomId: '240186'
+      mcmId: '253631'
       tcgplayerProductId: '96284'
     subtype: TWO_PLAYER_STARTER
   Portal Three Kingdoms Two Player Starter Display:

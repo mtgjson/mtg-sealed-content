@@ -9,6 +9,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '132079'
+      mcmId: '242507'
       tcgplayerProductId: '35749'
     subtype: DEFAULT
   Scars of Mirrodin Booster Box Case:
@@ -20,12 +21,14 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '132071'
+      mcmId: '242506'
       tcgplayerProductId: '35747'
     subtype: DEFAULT
   Scars of Mirrodin Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '132111'
+      mcmId: '242508'
       tcgplayerProductId: '35746'
     subtype: FAT_PACK
   Scars of Mirrodin Intro Pack Deadspread:
@@ -37,7 +40,8 @@ products:
     subtype: INTRO
   Scars of Mirrodin Intro Pack Display:
     category: DECK
-    identifiers: {}
+    identifiers:
+      mcmId: '242509'
     subtype: INTRO
   Scars of Mirrodin Intro Pack Metalcraft:
     category: DECK
@@ -64,9 +68,11 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '132547'
+      mcmId: '242641'
       tcgplayerProductId: '196804'
     subtype: INTRO
   Scars of Mirrodin Six Card Booster Pack:
     category: BOOSTER_PACK
-    identifiers: {}
+    identifiers:
+      mcmId: '315705'
     subtype: SIX

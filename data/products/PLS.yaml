@@ -4,45 +4,53 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '1293'
+      mcmId: '210100'
       tcgplayerProductId: '27297'
     subtype: DEFAULT
   Planeshift Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1294'
+      mcmId: '210034'
       tcgplayerProductId: '27359'
     subtype: DEFAULT
   Planeshift Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '240340'
+      mcmId: '210187'
       tcgplayerProductId: '78326'
     subtype: FAT_PACK
   Planeshift Theme Deck Barrage:
     category: DECK
     identifiers:
       cardKingdomId: '1297'
+      mcmId: '253741'
       tcgplayerProductId: '93345'
     subtype: THEME
   Planeshift Theme Deck Comeback:
     category: DECK
     identifiers:
       cardKingdomId: '1295'
+      mcmId: '253742'
       tcgplayerProductId: '93346'
     subtype: THEME
   Planeshift Theme Deck Display:
     category: DECK_BOX
-    identifier: {}
+    identifiers:
+      mcmId: '210236'
     subtype: THEME
   Planeshift Theme Deck Domain:
     category: DECK
     identifiers:
       cardKingdomId: '1296'
+      mcmId: '253743'
       tcgplayerProductId: '93347'
     subtype: THEME
   Planeshift Theme Deck Scout:
     category: DECK
     identifiers:
       cardKingdomId: '1298'
+      mcmId: '253744'
       tcgplayerProductId: '93348'
     subtype: THEME
