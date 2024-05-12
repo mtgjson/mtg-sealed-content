@@ -30,11 +30,17 @@ products:
       tcgplayerProductId: '180736'
     release_date: '2019-01-25'
     subtype: DEFAULT
-  Ravnica Allegiance Collectors Booster Pack:
+  Ravnica Allegiance Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       mcmId: '370212'
       tcgplayerProductId: '184538'
+    release_date: '2019-02-19'
+    subtype: COLLECTOR
+  Ravnica Allegiance Collector Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      mcmId: '370211'
     release_date: '2019-02-19'
     subtype: COLLECTOR
   Ravnica Allegiance Deck Builders Toolkit:
@@ -167,3 +173,8 @@ products:
       tcgplayerProductId: '183322'
     release_date: '2019-01-11'
     subtype: THEME
+  Ravnica Allegiance Standard Showdown Booster:
+    category: BOOSTER_PACK
+    identifiers:
+      mcmId: '367823'
+    subtype: PROMOTIONAL
