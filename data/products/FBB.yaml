@@ -20,15 +20,15 @@ products:
     identifiers:
       mcmId: '272025'
     subtype: STARTER
-  Foreign Limited Booster Pack:
-    category: BOOSTER_PACK
-    identifiers:
-      mcmId: '210056'
-    subtype: DEFAULT
   Foreign Limited Booster Box:
     category: BOOSTER_BOX
     identifiers:
       mcmId: '210122'
+    subtype: DEFAULT
+  Foreign Limited Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      mcmId: '210056'
     subtype: DEFAULT
   Foreign Limited Starter Deck:
     category: LIMITED

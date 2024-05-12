@@ -49,6 +49,11 @@ products:
       mcmId: '287203'
       tcgplayerProductId: '110707'
     subtype: INTRO
+  Oath of the Gatewatch Intro Pack Display:
+    category: DECK_BOX
+    identifiers:
+      mcmId: '287205'
+    subtype: INTRO
   Oath of the Gatewatch Intro Pack Set of 5:
     category: SUBSET
     identifiers:
@@ -84,8 +89,3 @@ products:
       mcmId: '287166'
     release_date: '2015-12-22'
     subtype: PRERELEASE
-  Oath of the Gatewatch Intro Pack Display:
-    category: DECK_BOX
-    identifiers:
-      mcmId: '287205'
-    subtype: INTRO

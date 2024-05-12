@@ -1,5 +1,20 @@
 code: fwb
 products:
+  Foreign Unlimited Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      mcmId: '210127'
+    subtype: DEFAULT
+  Foreign Unlimited Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      mcmId: '210061'
+    subtype: DEFAULT
+  Foreign Unlimited Starter Deck:
+    category: LIMITED
+    identifiers:
+      mcmId: '248493'
+    subtype: STARTER
   Foreign White Bordered Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -20,19 +35,4 @@ products:
     identifiers:
       cardtraderId: '43533'
       mcmId: '283341'
-    subtype: STARTER
-  Foreign Unlimited Booster Box:
-    category: BOOSTER_BOX
-    identifiers:
-      mcmId: '210127'
-    subtype: DEFAULT
-  Foreign Unlimited Booster Pack:
-    category: BOOSTER_PACK
-    identifiers:
-      mcmId: '210061'
-    subtype: DEFAULT
-  Foreign Unlimited Starter Deck:
-    category: LIMITED
-    identifiers:
-      mcmId: '248493'
     subtype: STARTER

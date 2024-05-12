@@ -8,12 +8,6 @@ products:
       tcgplayerProductId: '529974'
     release_date: '2024-02-23'
     subtype: GAME_NIGHT
-  Ravnica Clue Edition Case:
-    category: BUNDLE_CASE
-    identifiers:
-      tcgplayerProductId: '529975'
-    release_date: '2024-02-23'
-    subtype: GAME_NIGHT
   Ravnica Clue Edition Booster:
     category: BOOSTER_PACK
     identifiers:
@@ -24,3 +18,9 @@ products:
     identifiers:
       mcmId: '749353'
     subtype: TOPPER
+  Ravnica Clue Edition Case:
+    category: BUNDLE_CASE
+    identifiers:
+      tcgplayerProductId: '529975'
+    release_date: '2024-02-23'
+    subtype: GAME_NIGHT

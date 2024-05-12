@@ -14,6 +14,11 @@ products:
       mcmId: '210023'
       tcgplayerProductId: '27361'
     subtype: DEFAULT
+  Portal Second Age Demo Game Booster:
+    category: BOOSTER_PACK
+    identifiers:
+      mcmId: '758895'
+    subtype: ADVANCED
   Portal Second Age Gift Box:
     category: BUNDLE
     identifiers:
@@ -70,8 +75,3 @@ products:
     identifiers:
       tcgplayerProductId: '96283'
     subtype: TWO_PLAYER_STARTER
-  Portal Second Age Demo Game Booster:
-    category: BOOSTER_PACK
-    identifiers:
-      mcmId: '758895'
-    subtype: ADVANCED
