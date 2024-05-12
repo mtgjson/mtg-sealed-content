@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '125621'
+      mcmId: '210136'
       tcgplayerProductId: '28640'
     subtype: DEFAULT
   Shards of Alara Booster Box Case:
@@ -15,12 +16,14 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '125622'
+      mcmId: '210135'
       tcgplayerProductId: '28639'
     subtype: DEFAULT
   Shards of Alara Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '125625'
+      mcmId: '210160'
       tcgplayerProductId: '78331'
     subtype: FAT_PACK
   Shards of Alara Intro Pack Bant Exalted:
@@ -32,7 +35,8 @@ products:
     subtype: INTRO
   Shards of Alara Intro Pack Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      mcmId: '210206'
     subtype: INTRO
   Shards of Alara Intro Pack Esper Artifice:
     category: DECK
@@ -80,10 +84,12 @@ products:
     category: LIMITED_CASE
     identifiers:
       cardKingdomId: '240207'
+      mcmId: '253866'
     subtype: TOURNAMENT
   Shards of Alara Tournament Pack:
     category: LIMITED
     identifiers:
       cardKingdomId: '125623'
+      mcmId: '248486'
       tcgplayerProductId: '118881'
     subtype: TOURNAMENT

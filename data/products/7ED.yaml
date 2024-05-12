@@ -4,52 +4,61 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '1301'
+      mcmId: '210102'
       tcgplayerProductId: '27258'
     subtype: DEFAULT
   Seventh Edition Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1302'
+      mcmId: '210036'
       tcgplayerProductId: '27320'
     subtype: DEFAULT
   Seventh Edition Theme Deck Armada:
     category: DECK
     identifiers:
       cardKingdomId: '1303'
+      mcmId: '253736'
       tcgplayerProductId: '96320'
     subtype: THEME
   Seventh Edition Theme Deck Bomber:
     category: DECK
     identifiers:
       cardKingdomId: '1304'
+      mcmId: '253737'
       tcgplayerProductId: '96321'
     subtype: THEME
   Seventh Edition Theme Deck Decay:
     category: DECK
     identifiers:
       cardKingdomId: '1305'
+      mcmId: '253738'
       tcgplayerProductId: '96322'
     subtype: THEME
   Seventh Edition Theme Deck Display:
     category: DECK_BOX
-    identifier: {}
+    identifiers:
+      mcmId: '210239'
     subtype: THEME
   Seventh Edition Theme Deck Infestation:
     category: DECK
     identifiers:
       cardKingdomId: '1306'
+      mcmId: '253739'
       tcgplayerProductId: '96323'
     subtype: THEME
   Seventh Edition Theme Deck Way Wild:
     category: DECK
     identifiers:
       cardKingdomId: '1307'
+      mcmId: '253740'
       tcgplayerProductId: '96324'
     subtype: THEME
   Seventh Edition Two Player Starter:
     category: MULTI_DECK
     identifiers:
       cardKingdomId: '213505'
+      mcmId: '254936'
       tcgplayerProductId: '244394'
     subtype: TWO_PLAYER_STARTER
   Seventh Edition Two Player Starter Set Display:
