@@ -4,62 +4,80 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '124493'
+      mcmId: '210132'
       tcgplayerProductId: '27306'
     subtype: DEFAULT
   Shadowmoor Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '124494'
+      mcmId: '210066'
       tcgplayerProductId: '27368'
     subtype: DEFAULT
   Shadowmoor Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '124502'
+      mcmId: '210162'
       tcgplayerProductId: '78330'
     subtype: FAT_PACK
   Shadowmoor Theme Deck Army of Entropy:
     category: DECK
     identifiers:
       cardKingdomId: '184198'
+      mcmId: '253635'
       tcgplayerProductId: '185145'
     subtype: THEME
   Shadowmoor Theme Deck Aura Mastery:
     category: DECK
     identifiers:
       cardKingdomId: '184199'
+      mcmId: '253634'
       tcgplayerProductId: '185142'
     subtype: THEME
   Shadowmoor Theme Deck Display:
     category: DECK_BOX
     identifier: {}
+    identifiers:
+      mcmId: '210208'
+    release_date: '2007-01-01'
     subtype: THEME
   Shadowmoor Theme Deck Mortal Coil:
     category: DECK
     identifiers:
       cardKingdomId: '184200'
+      mcmId: '253636'
       tcgplayerProductId: '185144'
+    release_date: '2007-01-01'
     subtype: THEME
   Shadowmoor Theme Deck Overkill:
     category: DECK
     identifiers:
       cardKingdomId: '184201'
+      mcmId: '253637'
       tcgplayerProductId: '185143'
+    release_date: '2007-01-01'
     subtype: THEME
   Shadowmoor Theme Deck Turnabout:
     category: DECK
     identifiers:
       cardKingdomId: '184202'
+      mcmId: '253638'
       tcgplayerProductId: '185146'
+    release_date: '2007-01-01'
     subtype: THEME
   Shadowmoor Tournament Pack:
     category: LIMITED
     identifiers:
       cardKingdomId: '124496'
+      mcmId: '248485'
       tcgplayerProductId: '185147'
+    release_date: '2007-01-01'
     subtype: TOURNAMENT
   Shadowmoor Tournament Pack Display:
     category: LIMITED_CASE
     identifiers:
       cardKingdomId: '240204'
+      mcmId: '253865'
+    release_date: '2007-01-01'
     subtype: TOURNAMENT

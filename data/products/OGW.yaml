@@ -39,12 +39,14 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '205070'
+      mcmId: '287201'
       tcgplayerProductId: '110705'
     subtype: INTRO
   Oath of the Gatewatch Intro Pack Desperate Stand:
     category: DECK
     identifiers:
       cardKingdomId: '205066'
+      mcmId: '287203'
       tcgplayerProductId: '110707'
     subtype: INTRO
   Oath of the Gatewatch Intro Pack Set of 5:
@@ -58,18 +60,21 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '205069'
+      mcmId: '287202'
       tcgplayerProductId: '110706'
     subtype: INTRO
   Oath of the Gatewatch Intro Pack Twisted Reality:
     category: DECK
     identifiers:
       cardKingdomId: '205067'
+      mcmId: '287200'
       tcgplayerProductId: '110709'
     subtype: INTRO
   Oath of the Gatewatch Intro Pack Vicious Cycle:
     category: DECK
     identifiers:
       cardKingdomId: '205068'
+      mcmId: '287199'
       tcgplayerProductId: '110708'
     subtype: INTRO
   Oath of the Gatewatch Prerelease Pack:
@@ -79,3 +84,8 @@ products:
       mcmId: '287166'
     release_date: '2015-12-22'
     subtype: PRERELEASE
+  Oath of the Gatewatch Intro Pack Display:
+    category: DECK_BOX
+    identifiers:
+      mcmId: '287205'
+    subtype: INTRO

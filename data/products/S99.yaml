@@ -4,22 +4,26 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '240216'
+      mcmId: '242503'
     subtype: STARTER
   Starter 1999 Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '194360'
+      mcmId: '242502'
       tcgplayerProductId: '168359'
     subtype: STARTER
   Starter 1999 Demo Game Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '758896'
       tcgplayerProductId: '257332'
     subtype: PROMOTIONAL
   Starter 1999 Starter Game:
     category: MULTI_DECK
     identifiers:
       cardKingdomId: '240210'
+      mcmId: '242504'
       tcgplayerProductId: '532800'
     subtype: TWO_PLAYER_STARTER
   Starter 1999 Starter Game Display:
@@ -30,17 +34,20 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '240317'
+      mcmId: '257406'
     subtype: GIFT_BUNDLE
   Starter 1999 Theme Deck Blinding Fury:
     category: DECK
     identifiers:
       cardKingdomId: '240211'
+      mcmId: '253761'
       tcgplayerProductId: '500265'
     subtype: THEME
   Starter 1999 Theme Deck Deadly Instinct:
     category: DECK
     identifiers:
       cardKingdomId: '240212'
+      mcmId: '253762'
       tcgplayerProductId: '500269'
     subtype: THEME
   Starter 1999 Theme Deck Display:
@@ -51,17 +58,20 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '240213'
+      mcmId: '253763'
       tcgplayerProductId: '500268'
     subtype: THEME
   Starter 1999 Theme Deck Impaler:
     category: DECK
     identifiers:
       cardKingdomId: '240214'
+      mcmId: '253764'
       tcgplayerProductId: '500267'
     subtype: THEME
   Starter 1999 Theme Deck Time Curse:
     category: DECK
     identifiers:
       cardKingdomId: '240215'
+      mcmId: '253765'
       tcgplayerProductId: '500266'
     subtype: THEME

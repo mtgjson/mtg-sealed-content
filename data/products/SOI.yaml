@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '205527'
+      mcmId: '288302'
       tcgplayerProductId: '112706'
     release_date: '2016-04-08'
     subtype: DEFAULT
@@ -17,6 +18,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '205528'
+      mcmId: '288301'
       tcgplayerProductId: '112708'
     release_date: '2016-04-08'
     subtype: DEFAULT
@@ -32,6 +34,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '205530'
+      mcmId: '288303'
       tcgplayerProductId: '112723'
     release_date: '2016-04-08'
     subtype: FAT_PACK
@@ -39,50 +42,68 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '206525'
+      mcmId: '289033'
       tcgplayerProductId: '118345'
+    release_date: '2016-03-21'
     subtype: GIFT_BUNDLE
   Shadows over Innistrad Intro Pack Angelic Fury:
     category: DECK
     identifiers:
       cardKingdomId: '227626'
+      mcmId: '288894'
       tcgplayerProductId: '112959'
+    release_date: '2016-03-15'
     subtype: INTRO
   Shadows over Innistrad Intro Pack Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      mcmId: '288899'
+    release_date: '2016-03-15'
     subtype: INTRO
   Shadows over Innistrad Intro Pack Ghostly Tide:
     category: DECK
     identifiers:
       cardKingdomId: '227623'
+      mcmId: '288893'
       tcgplayerProductId: '112960'
+    release_date: '2016-03-15'
     subtype: INTRO
   Shadows over Innistrad Intro Pack Horrific Visions:
     category: DECK
     identifiers:
       cardKingdomId: '227627'
+      mcmId: '288895'
       tcgplayerProductId: '112958'
+    release_date: '2016-03-15'
     subtype: INTRO
   Shadows over Innistrad Intro Pack Set of 5:
     category: SUBSET
     identifiers:
+      mcmId: '288898'
       tcgplayerProductId: '112961'
+    release_date: '2016-03-15'
     subtype: INTRO
   Shadows over Innistrad Intro Pack Unearthed Secrets:
     category: DECK
     identifiers:
       cardKingdomId: '227624'
+      mcmId: '288896'
       tcgplayerProductId: '112957'
+    release_date: '2016-03-15'
     subtype: INTRO
   Shadows over Innistrad Intro Pack Vampiric Thirst:
     category: DECK
     identifiers:
       cardKingdomId: '227625'
+      mcmId: '288897'
       tcgplayerProductId: '112956'
+    release_date: '2016-03-15'
     subtype: INTRO
   Shadows over Innistrad Prerelease Pack:
     category: LIMITED
     identifiers:
       cardKingdomId: '208088'
+      mcmId: '288638'
       tcgplayerProductId: '116926'
+    release_date: '2016-03-07'
     subtype: PRERELEASE
