@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '224020'
+      mcmId: '370644'
       tcgplayerProductId: '185676'
     release_date: '2019-05-03'
     subtype: DEFAULT
@@ -22,6 +23,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '224021'
+      mcmId: '370646'
       tcgplayerProductId: '185677'
     release_date: '2019-05-03'
     subtype: DEFAULT
@@ -34,6 +36,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '224023'
+      mcmId: '370645'
       tcgplayerProductId: '185678'
     release_date: '2019-05-03'
     subtype: DEFAULT
@@ -41,7 +44,9 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '224825'
+      mcmId: '372921'
       tcgplayerProductId: '188892'
+    release_date: '2019-04-24'
     subtype: PREMIUM
   War of the Spark Planeswalker Deck Display:
     category: DECK_BOX
@@ -52,13 +57,17 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '224028'
+      mcmId: '371859'
       tcgplayerProductId: '187178'
+    release_date: '2019-04-01'
     subtype: PLANESWALKER
   War of the Spark Planeswalker Deck Jace:
     category: DECK
     identifiers:
       cardKingdomId: '224029'
+      mcmId: '371860'
       tcgplayerProductId: '187179'
+    release_date: '2019-04-01'
     subtype: PLANESWALKER
   War of the Spark Planeswalker Decks Set of 2:
     category: SUBSET
@@ -68,35 +77,42 @@ products:
   War of the Spark Prerelease Pack:
     category: LIMITED
     identifiers:
+      mcmId: '373063'
       tcgplayerProductId: '185687'
+    release_date: '2019-04-26'
     subtype: PRERELEASE
   War of the Spark Theme Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      mcmId: '577364'
       tcgplayerProductId: '188645'
     release_date: '2019-05-03'
     subtype: THEME
   War of the Spark Theme Booster Pack Black:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '372522'
       tcgplayerProductId: '188648'
     release_date: '2019-05-03'
     subtype: THEME
   War of the Spark Theme Booster Pack Blue:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '372523'
       tcgplayerProductId: '188647'
     release_date: '2019-05-03'
     subtype: THEME
   War of the Spark Theme Booster Pack Green:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '372520'
       tcgplayerProductId: '188650'
     release_date: '2019-05-03'
     subtype: THEME
   War of the Spark Theme Booster Pack Red:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '372521'
       tcgplayerProductId: '188649'
     release_date: '2019-05-03'
     subtype: THEME
@@ -109,6 +125,7 @@ products:
   War of the Spark Theme Booster Pack White:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '372524'
       tcgplayerProductId: '188646'
     release_date: '2019-05-03'
     subtype: THEME

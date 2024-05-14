@@ -4,51 +4,60 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '122703'
+      mcmId: '210128'
       tcgplayerProductId: '27257'
     subtype: DEFAULT
   Tenth Edition Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '122704'
+      mcmId: '210062'
       tcgplayerProductId: '27319'
     subtype: DEFAULT
   Tenth Edition Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '122711'
+      mcmId: '210165'
       tcgplayerProductId: '78300'
     subtype: FAT_PACK
   Tenth Edition Theme Deck Arcaniss Guile:
     category: DECK
     identifiers:
       cardKingdomId: '122706'
+      mcmId: '253648'
       tcgplayerProductId: '127427'
     subtype: THEME
   Tenth Edition Theme Deck Cho Mannos Resolve:
     category: DECK
     identifiers:
       cardKingdomId: '122705'
+      mcmId: '253649'
       tcgplayerProductId: '127426'
     subtype: THEME
   Tenth Edition Theme Deck Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      mcmId: '210212'
     subtype: THEME
   Tenth Edition Theme Deck Evincars Tyranny:
     category: DECK
     identifiers:
       cardKingdomId: '122707'
+      mcmId: '253650'
       tcgplayerProductId: '127428'
     subtype: THEME
   Tenth Edition Theme Deck Kamahls Temper:
     category: DECK
     identifiers:
       cardKingdomId: '122708'
+      mcmId: '253651'
       tcgplayerProductId: '127425'
     subtype: THEME
   Tenth Edition Theme Deck Molimos Might:
     category: DECK
     identifiers:
       cardKingdomId: '122709'
+      mcmId: '253652'
       tcgplayerProductId: '127429'
     subtype: THEME

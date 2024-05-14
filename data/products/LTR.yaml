@@ -8,6 +8,7 @@ products:
   The Lord of the Rings Tales of Middle earth Box Topper Pack:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '720928'
       tcgplayerProductId: '522644'
     release_date: '2023-06-23'
     subtype: TOPPER
@@ -15,6 +16,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '277708'
+      mcmId: '698908'
       tcgplayerProductId: '484917'
     release_date: '2023-06-23'
     subtype: DEFAULT
@@ -28,7 +30,9 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '277710'
+      mcmId: '698912'
       tcgplayerProductId: '484912'
+    release_date: '2023-02-22'
     subtype: COLLECTOR
   The Lord of the Rings Tales of Middle earth Collector Booster Box Case:
     category: BOOSTER_CASE
@@ -44,18 +48,21 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '277709'
+      mcmId: '698903'
       tcgplayerProductId: '484911'
     release_date: '2023-06-23'
     subtype: COLLECTOR
   The Lord of the Rings Tales of Middle earth Collector Booster Sample Pack:
     category: BOOSTER_PACK
-    identifiers: {}
+    identifiers:
+      mcmId: '719541'
     release_date: '2023-06-23'
     subtype: PROMOTIONAL
   The Lord of the Rings Tales of Middle earth Draft Booster Box:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '277711'
+      mcmId: '698913'
       tcgplayerProductId: '484906'
     release_date: '2023-06-23'
     subtype: DEFAULT
@@ -69,6 +76,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '277712'
+      mcmId: '698905'
       tcgplayerProductId: '484905'
     release_date: '2023-06-23'
     subtype: DEFAULT
@@ -76,6 +84,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '277707'
+      mcmId: '698909'
       tcgplayerProductId: '484919'
     release_date: '2023-06-23'
     subtype: GIFT_BUNDLE
@@ -89,6 +98,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '277714'
+      mcmId: '698911'
       tcgplayerProductId: '484915'
     release_date: '2023-06-23'
     subtype: JUMPSTART
@@ -102,6 +112,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '277713'
+      mcmId: '698904'
       tcgplayerProductId: '484914'
     release_date: '2023-06-23'
     subtype: JUMPSTART
@@ -114,6 +125,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '283563'
+      mcmId: '732334'
       tcgplayerProductId: '515921'
     release_date: '2023-06-23'
     subtype: JUMPSTART
@@ -127,12 +139,14 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '283562'
+      mcmId: '732331'
       tcgplayerProductId: '515920'
     release_date: '2023-06-23'
     subtype: JUMPSTART
   The Lord of the Rings Tales of Middle earth Prerelease Pack:
     category: LIMITED
     identifiers:
+      mcmId: '698914'
       tcgplayerProductId: '484922'
     release_date: '2023-06-23'
     subtype: PRERELEASE
@@ -164,6 +178,7 @@ products:
     category: BOX_SET
     identifiers:
       cardKingdomId: '283568'
+      mcmId: '732328'
       tcgplayerProductId: '515908'
     release_date: '2023-06-23'
     subtype: OTHER
@@ -171,6 +186,7 @@ products:
     category: BOX_SET
     identifiers:
       cardKingdomId: '283569'
+      mcmId: '732327'
       tcgplayerProductId: '515907'
     release_date: '2023-06-23'
     subtype: OTHER
@@ -178,6 +194,7 @@ products:
     category: BOX_SET
     identifiers:
       cardKingdomId: '283570'
+      mcmId: '732330'
       tcgplayerProductId: '515910'
     release_date: '2023-06-23'
     subtype: OTHER
@@ -185,6 +202,7 @@ products:
     category: BOX_SET
     identifiers:
       cardKingdomId: '283571'
+      mcmId: '732329'
       tcgplayerProductId: '515909'
     release_date: '2023-06-23'
     subtype: OTHER
@@ -192,6 +210,7 @@ products:
     category: BOX_SET
     identifiers:
       cardKingdomId: '285814'
+      mcmId: '733595'
       tcgplayerProductId: '515911'
     release_date: '2023-06-23'
     subtype: OTHER
@@ -199,6 +218,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '277717'
+      mcmId: '698910'
       tcgplayerProductId: '484909'
     release_date: '2023-06-23'
     subtype: SET
@@ -212,6 +232,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '277716'
+      mcmId: '698906'
       tcgplayerProductId: '484908'
     release_date: '2023-06-23'
     subtype: SET
@@ -219,6 +240,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '283560'
+      mcmId: '732335'
       tcgplayerProductId: '515906'
     release_date: '2023-06-23'
     subtype: COLLECTOR
@@ -238,6 +260,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '283561'
+      mcmId: '732333'
       tcgplayerProductId: '515905'
     release_date: '2023-06-23'
     subtype: COLLECTOR
@@ -245,6 +268,7 @@ products:
     category: MULTI_DECK
     identifiers:
       cardKingdomId: '277718'
+      mcmId: '698915'
       tcgplayerProductId: '484921'
     release_date: '2023-06-23'
     subtype: TWO_PLAYER_STARTER

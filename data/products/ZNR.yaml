@@ -4,6 +4,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '236809'
+      mcmId: '486969'
       tcgplayerProductId: '220426'
     release_date: '2020-09-25'
     subtype: DEFAULT
@@ -11,6 +12,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '238663'
+      mcmId: '495234'
       tcgplayerProductId: '221918'
     release_date: '2020-09-25'
     subtype: GIFT_BUNDLE
@@ -18,7 +20,9 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '236814'
+      mcmId: '486979'
       tcgplayerProductId: '220423'
+    release_date: '2020-07-31'
     subtype: COLLECTOR
   Zendikar Rising Collector Booster Box Case:
     category: BOOSTER_CASE
@@ -34,6 +38,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '236812'
+      mcmId: '487019'
       tcgplayerProductId: '220422'
     release_date: '2020-09-25'
     subtype: COLLECTOR
@@ -41,7 +46,9 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '236808'
+      mcmId: '486989'
       tcgplayerProductId: '220414'
+    release_date: '2020-07-31'
     subtype: DEFAULT
   Zendikar Rising Draft Booster Box Case:
     category: BOOSTER_CASE
@@ -53,6 +60,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '236811'
+      mcmId: '487029'
       tcgplayerProductId: '220413'
     release_date: '2020-09-25'
     subtype: DEFAULT
@@ -60,6 +68,7 @@ products:
     category: LIMITED
     identifiers:
       cardKingdomId: '236807'
+      mcmId: '486964'
       tcgplayerProductId: '221314'
     release_date: '2020-09-25'
     subtype: PRERELEASE
@@ -72,6 +81,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '236816'
+      mcmId: '486984'
       tcgplayerProductId: '220523'
     release_date: '2020-09-25'
     subtype: SET
@@ -84,42 +94,49 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '236815'
+      mcmId: '487024'
       tcgplayerProductId: '220524'
     release_date: '2020-09-25'
     subtype: SET
   Zendikar Rising Theme Booster Black:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '487004'
       tcgplayerProductId: '220415'
     release_date: '2020-09-25'
     subtype: THEME
   Zendikar Rising Theme Booster Blue:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '486999'
       tcgplayerProductId: '220416'
     release_date: '2020-09-25'
     subtype: THEME
   Zendikar Rising Theme Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      mcmId: '486974'
       tcgplayerProductId: '220420'
     release_date: '2020-09-25'
     subtype: THEME
   Zendikar Rising Theme Booster Green:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '487014'
       tcgplayerProductId: '220417'
     release_date: '2020-09-25'
     subtype: THEME
   Zendikar Rising Theme Booster Party:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '495229'
       tcgplayerProductId: '221915'
     release_date: '2020-09-25'
     subtype: THEME
   Zendikar Rising Theme Booster Red:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '487009'
       tcgplayerProductId: '220418'
     release_date: '2020-09-25'
     subtype: THEME
@@ -133,11 +150,13 @@ products:
   Zendikar Rising Theme Booster White:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '486994'
       tcgplayerProductId: '220419'
     release_date: '2020-09-25'
     subtype: THEME
   Zendikar Rising Welcome Booster:
     category: BOOSTER_PACK
-    identifiers: {}
+    identifiers:
+      mcmId: '502810'
     release_date: '2020-09-25'
     subtype: WELCOME

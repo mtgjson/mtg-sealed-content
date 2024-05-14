@@ -4,50 +4,59 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '1204'
+      mcmId: '210091'
       tcgplayerProductId: '27316'
     subtype: DEFAULT
   Urzas Saga Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1203'
+      mcmId: '210025'
       tcgplayerProductId: '27378'
     subtype: DEFAULT
   Urzas Saga Theme Deck Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      mcmId: '210243'
     subtype: THEME
   Urzas Saga Theme Deck Sleeper:
     category: DECK
     identifiers:
       cardKingdomId: '1205'
+      mcmId: '253777'
       tcgplayerProductId: '116050'
     subtype: THEME
   Urzas Saga Theme Deck Special Delivery:
     category: DECK
     identifiers:
       cardKingdomId: '1206'
+      mcmId: '253778'
       tcgplayerProductId: '116051'
     subtype: THEME
   Urzas Saga Theme Deck The Plague:
     category: DECK
     identifiers:
       cardKingdomId: '1207'
+      mcmId: '253779'
       tcgplayerProductId: '116052'
     subtype: THEME
   Urzas Saga Theme Deck Tombstone:
     category: DECK
     identifiers:
       cardKingdomId: '1208'
+      mcmId: '253780'
       tcgplayerProductId: '116053'
     subtype: THEME
   Urzas Saga Tournament Pack:
     category: LIMITED
     identifiers:
       cardKingdomId: '1209'
+      mcmId: '244178'
       tcgplayerProductId: '127432'
     subtype: TOURNAMENT
   Urzas Saga Tournament Pack Display:
     category: LIMITED_CASE
     identifiers:
+      mcmId: '253854'
       tcgplayerProductId: '234726'
     subtype: TOURNAMENT

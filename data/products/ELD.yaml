@@ -4,6 +4,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '227303'
+      mcmId: '399069'
       tcgplayerProductId: '194910'
     release_date: '2019-10-04'
     subtype: BRAWL
@@ -11,6 +12,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '227304'
+      mcmId: '399074'
       tcgplayerProductId: '194911'
     release_date: '2019-10-04'
     subtype: BRAWL
@@ -18,6 +20,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '227305'
+      mcmId: '399064'
       tcgplayerProductId: '194909'
     release_date: '2019-10-04'
     subtype: BRAWL
@@ -25,12 +28,14 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '227306'
+      mcmId: '399059'
       tcgplayerProductId: '194908'
     release_date: '2019-10-04'
     subtype: BRAWL
   Throne of Eldraine Brawl Decks Set of 4:
     category: SUBSET
     identifiers:
+      mcmId: '399089'
       tcgplayerProductId: '194912'
     release_date: '2019-10-04'
     subtype: BRAWL
@@ -38,6 +43,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '227294'
+      mcmId: '389642'
       tcgplayerProductId: '194894'
     release_date: '2019-10-04'
     subtype: DEFAULT
@@ -45,6 +51,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '227308'
+      mcmId: '398849'
       tcgplayerProductId: '194907'
     release_date: '2019-10-04'
     subtype: COLLECTOR
@@ -62,6 +69,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '227309'
+      mcmId: '389652'
       tcgplayerProductId: '194906'
     release_date: '2019-10-04'
     subtype: COLLECTOR
@@ -69,12 +77,15 @@ products:
     category: BOX_SET
     identifiers:
       cardKingdomId: '228238'
+      mcmId: '402789'
       tcgplayerProductId: '199489'
+    release_date: '2019-09-20'
     subtype: PREMIUM
   Throne of Eldraine Draft Booster Box:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '227289'
+      mcmId: '389647'
       tcgplayerProductId: '194891'
     release_date: '2019-10-04'
     subtype: DEFAULT
@@ -88,6 +99,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '227290'
+      mcmId: '389657'
       tcgplayerProductId: '194892'
     release_date: '2019-10-04'
     subtype: DEFAULT
@@ -95,6 +107,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '228584'
+      mcmId: '405594'
       tcgplayerProductId: '200610'
     release_date: '2019-10-04'
     subtype: GIFT_BUNDLE
@@ -108,6 +121,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '227292'
+      mcmId: '399084'
       tcgplayerProductId: '194896'
     release_date: '2019-10-04'
     subtype: PLANESWALKER
@@ -115,6 +129,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '227293'
+      mcmId: '399079'
       tcgplayerProductId: '194895'
     release_date: '2019-10-04'
     subtype: PLANESWALKER
@@ -127,7 +142,9 @@ products:
   Throne of Eldraine Prerelease Pack:
     category: LIMITED
     identifiers:
+      mcmId: '404059'
       tcgplayerProductId: '200159'
+    release_date: '2019-09-26'
     subtype: PRERELEASE
   Throne of Eldraine Theme Booster Box:
     category: BOOSTER_BOX
@@ -137,24 +154,28 @@ products:
   Throne of Eldraine Theme Booster Pack Black:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '389637'
       tcgplayerProductId: '194900'
     release_date: '2019-10-04'
     subtype: THEME
   Throne of Eldraine Theme Booster Pack Blue:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '389622'
       tcgplayerProductId: '194903'
     release_date: '2019-10-04'
     subtype: THEME
   Throne of Eldraine Theme Booster Pack Green:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '389627'
       tcgplayerProductId: '194901'
     release_date: '2019-10-04'
     subtype: THEME
   Throne of Eldraine Theme Booster Pack Red:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '389617'
       tcgplayerProductId: '194902'
     release_date: '2019-10-04'
     subtype: THEME
@@ -167,6 +188,7 @@ products:
   Throne of Eldraine Theme Booster Pack White:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '389632'
       tcgplayerProductId: '194904'
     release_date: '2019-10-04'
     subtype: THEME

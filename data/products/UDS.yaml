@@ -4,39 +4,46 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '1151'
+      mcmId: '210093'
       tcgplayerProductId: '27314'
     subtype: DEFAULT
   Urzas Destiny Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1152'
+      mcmId: '210027'
       tcgplayerProductId: '27376'
     subtype: DEFAULT
   Urzas Destiny Theme Deck Assassin:
     category: DECK
     identifiers:
       cardKingdomId: '1153'
+      mcmId: '253769'
       tcgplayerProductId: '116058'
     subtype: THEME
   Urzas Destiny Theme Deck Battle Surge:
     category: DECK
     identifiers:
       cardKingdomId: '1154'
+      mcmId: '253770'
       tcgplayerProductId: '116059'
     subtype: THEME
   Urzas Destiny Theme Deck Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      mcmId: '210245'
     subtype: THEME
   Urzas Destiny Theme Deck Enchanter:
     category: DECK
     identifiers:
       cardKingdomId: '1155'
+      mcmId: '253771'
       tcgplayerProductId: '116061'
     subtype: THEME
   Urzas Destiny Theme Deck Fiendish Nature:
     category: DECK
     identifiers:
       cardKingdomId: '1156'
+      mcmId: '253772'
       tcgplayerProductId: '116060'
     subtype: THEME

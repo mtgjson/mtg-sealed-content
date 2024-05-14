@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '191120'
+      mcmId: '263893'
       tcgplayerProductId: '70960'
     subtype: DEFAULT
   Theros Booster Box Case:
@@ -15,29 +16,34 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '191119'
+      mcmId: '263892'
       tcgplayerProductId: '70961'
     subtype: DEFAULT
   Theros Challenge Deck Face the Hydra:
     category: DECK
     identifiers:
+      mcmId: '265220'
       tcgplayerProductId: '72028'
     subtype: CHALLENGE
   Theros Event Deck Inspiring Heroics:
     category: DECK
     identifiers:
       cardKingdomId: '191728'
+      mcmId: '264769'
       tcgplayerProductId: '70986'
     subtype: EVENT
   Theros Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '191121'
+      mcmId: '263894'
       tcgplayerProductId: '70962'
     subtype: FAT_PACK
   Theros Holiday Gift Box:
     category: BUNDLE
     identifiers:
       cardKingdomId: '192731'
+      mcmId: '265339'
       tcgplayerProductId: '71523'
     subtype: GIFT_BUNDLE
   Theros Intro Pack Abhorrent Overlord:
@@ -50,6 +56,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '191126'
+      mcmId: '264174'
       tcgplayerProductId: '70984'
     subtype: INTRO
   Theros Intro Pack Celestial Archon:
@@ -73,35 +80,43 @@ products:
   Theros Intro Packs Set of 5:
     category: SUBSET
     identifiers:
+      mcmId: '264176'
       tcgplayerProductId: '70964'
     subtype: INTRO
   Theros Prerelease Kit Path of Ambition:
     category: LIMITED
     identifiers:
+      mcmId: '264374'
       tcgplayerProductId: '79268'
     subtype: PRERELEASE
   Theros Prerelease Kit Path of Battle:
     category: LIMITED
     identifiers:
+      mcmId: '264376'
       tcgplayerProductId: '79271'
     subtype: PRERELEASE
   Theros Prerelease Kit Path of Honor:
     category: LIMITED
     identifiers:
+      mcmId: '264372'
       tcgplayerProductId: '79269'
     subtype: PRERELEASE
   Theros Prerelease Kit Path of Might:
     category: LIMITED
     identifiers:
+      mcmId: '264375'
       tcgplayerProductId: '79272'
     subtype: PRERELEASE
   Theros Prerelease Kit Path of Wisdom:
     category: LIMITED
     identifiers:
+      mcmId: '264373'
       tcgplayerProductId: '79270'
     subtype: PRERELEASE
   Theros Prerelease Pack Set of 5:
     category: SUBSET
     identifiers:
+      mcmId: '273054'
       tcgplayerProductId: '199940'
+    release_date: '2015-03-02'
     subtype: PRERELEASE

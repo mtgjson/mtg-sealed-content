@@ -4,6 +4,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '281236'
+      mcmId: '719687'
       tcgplayerProductId: '496046'
     release_date: '2023-09-08'
     subtype: DEFAULT
@@ -17,6 +18,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '281237'
+      mcmId: '719684'
       tcgplayerProductId: '496041'
     release_date: '2023-09-08'
     subtype: COLLECTOR
@@ -30,18 +32,21 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '281238'
+      mcmId: '719681'
       tcgplayerProductId: '496040'
     release_date: '2023-09-08'
     subtype: COLLECTOR
   Wilds of Eldraine Collector Booster Sample Pack:
     category: BOOSTER_PACK
-    identifiers: {}
+    identifiers:
+      mcmId: '733410'
     release_date: '2023-09-01'
     subtype: PROMOTIONAL
   Wilds of Eldraine Draft Booster Box:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '281239'
+      mcmId: '719682'
       tcgplayerProductId: '496035'
     release_date: '2023-09-08'
     subtype: DEFAULT
@@ -55,12 +60,14 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '281240'
+      mcmId: '719679'
       tcgplayerProductId: '496034'
     release_date: '2023-09-08'
     subtype: DEFAULT
   Wilds of Eldraine Prerelease Pack:
     category: LIMITED
     identifiers:
+      mcmId: '719678'
       tcgplayerProductId: '496048'
     release_date: '2023-09-08'
     subtype: PRERELEASE
@@ -68,6 +75,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '281242'
+      mcmId: '719683'
       tcgplayerProductId: '496038'
     release_date: '2023-09-08'
     subtype: SET
@@ -81,6 +89,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '281243'
+      mcmId: '719680'
       tcgplayerProductId: '496037'
     release_date: '2023-09-08'
     subtype: SET

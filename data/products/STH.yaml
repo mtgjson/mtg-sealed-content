@@ -4,39 +4,46 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '124151'
+      mcmId: '210085'
       tcgplayerProductId: '27307'
     subtype: DEFAULT
   Stronghold Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1196'
+      mcmId: '210019'
       tcgplayerProductId: '27369'
     subtype: DEFAULT
   Stronghold Theme Deck Call of the Kor:
     category: DECK
     identifiers:
       cardKingdomId: '1197'
+      mcmId: '253786'
       tcgplayerProductId: '139150'
     subtype: THEME
   Stronghold Theme Deck Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      mcmId: '210240'
     subtype: THEME
   Stronghold Theme Deck Migraine:
     category: DECK
     identifiers:
       cardKingdomId: '1198'
+      mcmId: '253787'
       tcgplayerProductId: '175072'
     subtype: THEME
   Stronghold Theme Deck The Sparkler:
     category: DECK
     identifiers:
       cardKingdomId: '1199'
+      mcmId: '253788'
       tcgplayerProductId: '139149'
     subtype: THEME
   Stronghold Theme Deck The Spikes:
     category: DECK
     identifiers:
       cardKingdomId: '1200'
+      mcmId: '253789'
       tcgplayerProductId: '175071'
     subtype: THEME

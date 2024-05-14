@@ -4,45 +4,53 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '1430'
+      mcmId: '210104'
       tcgplayerProductId: '27311'
     subtype: DEFAULT
   Torment Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1431'
+      mcmId: '210038'
       tcgplayerProductId: '27373'
     subtype: DEFAULT
   Torment Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '240346'
+      mcmId: '210184'
       tcgplayerProductId: '78333'
     subtype: FAT_PACK
   Torment Theme Deck Display:
     category: DECK_BOX
-    identifier: {}
+    identifiers:
+      mcmId: '210242'
     subtype: THEME
   Torment Theme Deck Grave Danger:
     category: DECK
     identifiers:
       cardKingdomId: '1433'
+      mcmId: '253724'
       tcgplayerProductId: '120583'
     subtype: THEME
   Torment Theme Deck Insanity:
     category: DECK
     identifiers:
       cardKingdomId: '1432'
+      mcmId: '253725'
       tcgplayerProductId: '244386'
     subtype: THEME
   Torment Theme Deck Sacrilege:
     category: DECK
     identifiers:
       cardKingdomId: '1434'
+      mcmId: '253726'
       tcgplayerProductId: '120585'
     subtype: THEME
   Torment Theme Deck Waking Nightmares:
     category: DECK
     identifiers:
       cardKingdomId: '1435'
+      mcmId: '253727'
       tcgplayerProductId: '120584'
     subtype: THEME
