@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '283462'
+      mcmId: '710800'
       tcgplayerProductId: '496076'
     release_date: '2023-10-13'
     subtype: COLLECTOR
@@ -17,18 +18,21 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '283464'
+      mcmId: '710799'
       tcgplayerProductId: '496075'
     release_date: '2023-10-13'
     subtype: COLLECTOR
   Doctor Who Collector Booster Sample Pack:
     category: BOOSTER_PACK
-    identifiers: {}
+    identifiers:
+      mcmId: '740399'
     release_date: '2023-10-13'
     subtype: PROMOTIONAL
   Doctor Who Commander Deck Blast From the Past:
     category: DECK
     identifiers:
       cardKingdomId: '283469'
+      mcmId: '710802'
       tcgplayerProductId: '496071'
     release_date: '2023-10-13'
     subtype: COMMANDER
@@ -42,6 +46,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '283468'
+      mcmId: '710801'
       tcgplayerProductId: '496070'
     release_date: '2023-10-13'
     subtype: COMMANDER
@@ -49,6 +54,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '283467'
+      mcmId: '710804'
       tcgplayerProductId: '496073'
     release_date: '2023-10-13'
     subtype: COMMANDER
@@ -56,6 +62,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '283466'
+      mcmId: '710803'
       tcgplayerProductId: '496072'
     release_date: '2023-10-13'
     subtype: COMMANDER
@@ -63,5 +70,6 @@ products:
     category: SUBSET
     identifiers:
       cardKingdomId: '283465'
+      mcmId: '711973'
     release_date: '2023-10-13'
     subtype: COMMANDER

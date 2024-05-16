@@ -4,6 +4,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '243707'
+      mcmId: '540461'
       tcgplayerProductId: '233245'
     release_date: '2021-04-23'
     subtype: DEFAULT
@@ -11,6 +12,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '243708'
+      mcmId: '540411'
       tcgplayerProductId: '233232'
     release_date: '2021-04-23'
     subtype: COLLECTOR
@@ -24,6 +26,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '243709'
+      mcmId: '540451'
       tcgplayerProductId: '233230'
     release_date: '2021-04-23'
     subtype: COLLECTOR
@@ -31,6 +34,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '243710'
+      mcmId: '540416'
       tcgplayerProductId: '233249'
     release_date: '2021-04-23'
     subtype: DEFAULT
@@ -44,6 +48,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '243711'
+      mcmId: '540456'
       tcgplayerProductId: '233248'
     release_date: '2021-04-23'
     subtype: DEFAULT
@@ -75,17 +80,23 @@ products:
     category: LIMITED
     identifiers:
       cardKingdomId: '243725'
+      mcmId: '540291'
       tcgplayerProductId: '233309'
+    release_date: '2021-02-19'
     subtype: PRERELEASE
   Strixhaven School of Mages Prerelease Pack Prismari:
     category: LIMITED
     identifiers:
+      mcmId: '540311'
       tcgplayerProductId: '233310'
+    release_date: '2021-02-19'
     subtype: PRERELEASE
   Strixhaven School of Mages Prerelease Pack Quandrix:
     category: LIMITED
     identifiers:
+      mcmId: '540326'
       tcgplayerProductId: '233311'
+    release_date: '2021-02-19'
     subtype: PRERELEASE
   Strixhaven School of Mages Prerelease Pack Set of 5:
     category: SUBSET
@@ -96,17 +107,22 @@ products:
     category: LIMITED
     identifiers:
       cardKingdomId: '243728'
+      mcmId: '540336'
       tcgplayerProductId: '233313'
+    release_date: '2021-02-19'
     subtype: PRERELEASE
   Strixhaven School of Mages Prerelease Pack Witherbloom:
     category: LIMITED
     identifiers:
+      mcmId: '540351'
       tcgplayerProductId: '233314'
+    release_date: '2021-02-19'
     subtype: PRERELEASE
   Strixhaven School of Mages Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '243713'
+      mcmId: '540406'
       tcgplayerProductId: '233229'
     release_date: '2021-04-23'
     subtype: SET
@@ -114,42 +130,49 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '243715'
+      mcmId: '540446'
       tcgplayerProductId: '233228'
     release_date: '2021-04-23'
     subtype: SET
   Strixhaven School of Mages Theme Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      mcmId: '540396'
       tcgplayerProductId: '233252'
     release_date: '2021-04-23'
     subtype: THEME
   Strixhaven School of Mages Theme Booster Pack Lorehold:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '540421'
       tcgplayerProductId: '233240'
     release_date: '2021-04-23'
     subtype: THEME
   Strixhaven School of Mages Theme Booster Pack Prismari:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '540426'
       tcgplayerProductId: '233239'
     release_date: '2021-04-23'
     subtype: THEME
   Strixhaven School of Mages Theme Booster Pack Quandrix:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '540431'
       tcgplayerProductId: '233241'
     release_date: '2021-04-23'
     subtype: THEME
   Strixhaven School of Mages Theme Booster Pack Silverquill:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '540436'
       tcgplayerProductId: '233236'
     release_date: '2021-04-23'
     subtype: THEME
   Strixhaven School of Mages Theme Booster Pack Witherbloom:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '540441'
       tcgplayerProductId: '233238'
     release_date: '2021-04-23'
     subtype: THEME

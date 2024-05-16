@@ -3,12 +3,14 @@ products:
   The Lost Caverns of Ixalan Box Topper Pack - Foil:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '734168'
       tcgplayerProductId: '529641'
     release_date: '2023-11-14'
     subtype: TOPPER
   The Lost Caverns of Ixalan Box Topper Pack - Nonfoil:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '734167'
       tcgplayerProductId: '529640'
     release_date: '2023-11-14'
     subtype: TOPPER
@@ -16,6 +18,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '285492'
+      mcmId: '734163'
       tcgplayerProductId: '516610'
     release_date: '2023-11-17'
     subtype: DEFAULT
@@ -29,6 +32,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '285493'
+      mcmId: '734175'
       tcgplayerProductId: '516614'
     release_date: '2023-11-17'
     subtype: COLLECTOR
@@ -48,17 +52,21 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '285494'
+      mcmId: '734169'
       tcgplayerProductId: '516613'
     release_date: '2023-11-17'
     subtype: COLLECTOR
   The Lost Caverns of Ixalan Collector Booster Sample Pack:
     category: BOOSTER_PACK
-    identifiers: {}
+    identifiers:
+      mcmId: '743326'
+    release_date: '2023-11-02'
     subtype: PROMOTIONAL
   The Lost Caverns of Ixalan Draft Booster Box:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '285495'
+      mcmId: '734176'
       tcgplayerProductId: '516619'
     release_date: '2023-11-17'
     subtype: DEFAULT
@@ -72,6 +80,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '285496'
+      mcmId: '734164'
       tcgplayerProductId: '516618'
     release_date: '2023-11-17'
     subtype: DEFAULT
@@ -79,6 +88,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '285506'
+      mcmId: '734174'
       tcgplayerProductId: '516628'
     release_date: '2023-11-17'
     subtype: GIFT_BUNDLE
@@ -92,6 +102,7 @@ products:
     category: LIMITED
     identifiers:
       cardKingdomId: '285491'
+      mcmId: '734178'
       tcgplayerProductId: '516678'
     release_date: '2023-11-17'
     subtype: PRERELEASE
@@ -99,6 +110,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '285497'
+      mcmId: '734177'
       tcgplayerProductId: '516622'
     release_date: '2023-11-17'
     subtype: SET
@@ -112,6 +124,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '285498'
+      mcmId: '734166'
       tcgplayerProductId: '516621'
     release_date: '2023-11-17'
     subtype: SET

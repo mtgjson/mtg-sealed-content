@@ -33,3 +33,13 @@ products:
       mcmId: '272020'
       tcgplayerProductId: '173066'
     subtype: STARTER
+  Summer Magic Booster:
+    category: BOOSTER_PACK
+    identifiers:
+      mcmId: '210063'
+    subtype: DEFAULT
+  Summer Magic Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      mcmId: '210129'
+    subtype: DEFAULT

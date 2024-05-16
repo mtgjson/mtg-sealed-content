@@ -9,6 +9,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '127769'
+      mcmId: '210144'
       tcgplayerProductId: '32789'
     subtype: DEFAULT
   Zendikar Booster Box Case:
@@ -20,12 +21,14 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '127851'
+      mcmId: '210143'
       tcgplayerProductId: '32791'
     subtype: DEFAULT
   Zendikar Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '127776'
+      mcmId: '210145'
       tcgplayerProductId: '32793'
     subtype: FAT_PACK
   Zendikar Intro Pack Black Rise of the Vampires:
@@ -39,16 +42,19 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '127775'
+      mcmId: '210147'
       tcgplayerProductId: '32795'
     subtype: INTRO
   Zendikar Intro Pack Display:
     category: DECK_BOX
-    identifier: {}
+    identifiers:
+      mcmId: '210151'
     subtype: INTRO
   Zendikar Intro Pack Green The Adventurers:
     category: DECK
     identifiers:
       cardKingdomId: '127774'
+      mcmId: '210150'
       tcgplayerProductId: '32798'
     subtype: INTRO
   Zendikar Intro Pack Red Pumped Up:
@@ -72,5 +78,7 @@ products:
     subtype: INTRO
   Zendikar Six Card Booster Pack:
     category: BOOSTER_PACK
-    identifiers: {}
+    identifiers:
+      mcmId: '315702'
+    release_date: '2018-01-16'
     subtype: SIX

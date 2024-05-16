@@ -15,6 +15,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '267914'
+      mcmId: '677799'
       tcgplayerProductId: '282221'
     release_date: '2022-11-18'
     subtype: DEFAULT
@@ -28,6 +29,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '267923'
+      mcmId: '677805'
       tcgplayerProductId: '282224'
     release_date: '2022-11-18'
     subtype: COLLECTOR
@@ -41,18 +43,21 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '267922'
+      mcmId: '677800'
       tcgplayerProductId: '282223'
     release_date: '2022-11-18'
     subtype: COLLECTOR
   The Brothers' War Collector Booster Sample Pack:
     category: BOOSTER_PACK
-    identifiers: {}
+    identifiers:
+      mcmId: '677804'
     release_date: '2022-11-18'
     subtype: PROMOTIONAL
   The Brothers' War Draft Booster Box:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '267917'
+      mcmId: '677806'
       tcgplayerProductId: '282226'
     release_date: '2022-11-18'
     subtype: DEFAULT
@@ -66,6 +71,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '267916'
+      mcmId: '677801'
       tcgplayerProductId: '282227'
     release_date: '2022-11-18'
     subtype: DEFAULT
@@ -73,6 +79,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '267913'
+      mcmId: '677809'
       tcgplayerProductId: '448633'
     release_date: '2022-11-18'
     subtype: GIFT_BUNDLE
@@ -80,6 +87,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '267921'
+      mcmId: '677808'
       tcgplayerProductId: '449719'
     release_date: '2022-11-18'
     subtype: JUMPSTART
@@ -92,6 +100,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '267920'
+      mcmId: '677802'
       tcgplayerProductId: '449720'
     release_date: '2022-11-18'
     subtype: JUMPSTART
@@ -99,6 +108,7 @@ products:
     category: LIMITED
     identifiers:
       cardKingdomId: '267915'
+      mcmId: '677811'
       tcgplayerProductId: '285179'
     release_date: '2022-11-18'
     subtype: PRERELEASE
@@ -106,6 +116,7 @@ products:
     category: LIMITED
     identifiers:
       cardKingdomId: '267912'
+      mcmId: '677810'
       tcgplayerProductId: '282232'
     release_date: '2022-11-18'
     subtype: PRERELEASE
@@ -113,6 +124,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '267919'
+      mcmId: '677807'
       tcgplayerProductId: '282230'
     release_date: '2022-11-18'
     subtype: SET
@@ -126,6 +138,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '267918'
+      mcmId: '677803'
       tcgplayerProductId: '282231'
     release_date: '2022-11-18'
     subtype: SET

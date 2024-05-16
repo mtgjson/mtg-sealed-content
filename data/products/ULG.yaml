@@ -4,39 +4,46 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '1145'
+      mcmId: '210092'
       tcgplayerProductId: '27315'
     subtype: DEFAULT
   Urzas Legacy Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1146'
+      mcmId: '210026'
       tcgplayerProductId: '27377'
     subtype: DEFAULT
   Urzas Legacy Theme Deck Crusher:
     category: DECK
     identifiers:
       cardKingdomId: '1147'
+      mcmId: '253773'
       tcgplayerProductId: '125553'
     subtype: THEME
   Urzas Legacy Theme Deck Display:
     category: DECK_BOX
-    identifier: {}
+    identifiers:
+      mcmId: '210244'
     subtype: THEME
   Urzas Legacy Theme Deck Phyrexian Assault:
     category: DECK
     identifiers:
       cardKingdomId: '1149'
+      mcmId: '253774'
       tcgplayerProductId: '125554'
     subtype: THEME
   Urzas Legacy Theme Deck Radiants Revenge:
     category: DECK
     identifiers:
       cardKingdomId: '1150'
+      mcmId: '253775'
       tcgplayerProductId: '125555'
     subtype: THEME
   Urzas Legacy Theme Deck Time Drain:
     category: DECK
     identifiers:
       cardKingdomId: '1148'
+      mcmId: '253776'
       tcgplayerProductId: '125556'
     subtype: THEME

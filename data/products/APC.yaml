@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '1309'
+      cardtraderId: '45773'
       mcmId: '210101'
       tcgplayerProductId: '27264'
     subtype: DEFAULT
@@ -11,6 +12,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1308'
+      cardtraderId: '45772'
       mcmId: '210035'
       tcgplayerProductId: '27326'
     subtype: DEFAULT
@@ -18,6 +20,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '228576'
+      cardtraderId: '45774'
       mcmId: '210186'
       tcgplayerProductId: '78303'
     subtype: FAT_PACK
@@ -25,18 +28,21 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1310'
+      cardtraderId: '45775'
       mcmId: '253732'
       tcgplayerProductId: '208256'
     subtype: THEME
   Apocalypse Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '45779'
       mcmId: '210226'
     subtype: THEME
   Apocalypse Theme Deck Pandemonium:
     category: DECK
     identifiers:
       cardKingdomId: '1311'
+      cardtraderId: '45776'
       mcmId: '253733'
       tcgplayerProductId: '208254'
     subtype: THEME
@@ -44,6 +50,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1312'
+      cardtraderId: '45777'
       mcmId: '253734'
       tcgplayerProductId: '208257'
     subtype: THEME
@@ -51,6 +58,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1313'
+      cardtraderId: '45778'
       mcmId: '253735'
       tcgplayerProductId: '208255'
     subtype: THEME
