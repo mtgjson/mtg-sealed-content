@@ -1,37 +1,25 @@
 code: fbb
 products:
-  Foreign Black Bordered Booster Box:
+  Foreign Black Border Booster Box:
     category: BOOSTER_BOX
     identifiers:
       cardtraderId: '43451'
+      mcmId: '210122'
     subtype: DEFAULT
-  Foreign Black Bordered Booster Pack:
+  Foreign Black Border Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardtraderId: '43450'
+      mcmId: '210056'
     subtype: DEFAULT
-  Foreign Black Bordered Starter Deck:
+  Foreign Black Border Starter Deck:
     category: LIMITED
     identifiers:
       cardtraderId: '43452'
+      mcmId: '248492'
     subtype: STARTER
-  Foreign Black Bordered Starter Deck Display:
+  Foreign Black Border Starter Deck Display:
     category: LIMITED_CASE
     identifiers:
       mcmId: '272025'
-    subtype: STARTER
-  Foreign Limited Booster Box:
-    category: BOOSTER_BOX
-    identifiers:
-      mcmId: '210122'
-    subtype: DEFAULT
-  Foreign Limited Booster Pack:
-    category: BOOSTER_PACK
-    identifiers:
-      mcmId: '210056'
-    subtype: DEFAULT
-  Foreign Limited Starter Deck:
-    category: LIMITED
-    identifiers:
-      mcmId: '248492'
     subtype: STARTER
