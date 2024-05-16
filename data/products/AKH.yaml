@@ -9,6 +9,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '211617'
+      cardtraderId: '48518'
       mcmId: '292573'
       tcgplayerProductId: '127174'
     release_date: '2017-04-28'
@@ -23,6 +24,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '211618'
+      cardtraderId: '48517'
       mcmId: '292574'
       tcgplayerProductId: '127173'
     release_date: '2017-04-28'
@@ -31,6 +33,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '211629'
+      cardtraderId: '48527'
       mcmId: '292572'
       tcgplayerProductId: '127175'
     release_date: '2017-04-28'
@@ -56,6 +59,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '211623'
+      cardtraderId: '48528'
       mcmId: '295697'
       tcgplayerProductId: '127532'
     subtype: PLANESWALKER
@@ -63,6 +67,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '211624'
+      cardtraderId: '48529'
       mcmId: '295698'
       tcgplayerProductId: '127533'
     subtype: PLANESWALKER
@@ -74,12 +79,14 @@ products:
   Amonkhet Prerelease Pack:
     category: LIMITED
     identifiers:
+      cardtraderId: '48530'
       mcmId: '295696'
       tcgplayerProductId: '127534'
     subtype: PRERELEASE
   Amonkhet Standard Showdown Booster:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '49715'
       mcmId: '297862'
     release_date: '2017-05-09'
     subtype: PROMOTIONAL

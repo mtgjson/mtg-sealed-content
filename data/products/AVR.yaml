@@ -9,6 +9,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '186639'
+      cardtraderId: '47726'
       mcmId: '253455'
       tcgplayerProductId: '58058'
     release_date: '2012-05-04'
@@ -22,6 +23,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '186745'
+      cardtraderId: '47724'
       mcmId: '253454'
       tcgplayerProductId: '58056'
     release_date: '2012-05-04'
@@ -30,6 +32,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '187248'
+      cardtraderId: '47740'
       mcmId: '255440'
       tcgplayerProductId: '59110'
     subtype: EVENT
@@ -43,6 +46,7 @@ products:
   Avacyn Restored Event Decks Set of 2:
     category: SUBSET
     identifiers:
+      cardtraderId: '47742'
       mcmId: '255441'
       tcgplayerProductId: '59111'
     subtype: EVENT
@@ -50,6 +54,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '186747'
+      cardtraderId: '47734'
       mcmId: '253456'
       tcgplayerProductId: '58059'
     release_date: '2012-05-04'
@@ -58,6 +63,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '186993'
+      cardtraderId: '47735'
       mcmId: '254190'
       tcgplayerProductId: '58262'
     release_date: '2012-05-04'
@@ -66,6 +72,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '186997'
+      cardtraderId: '47737'
       mcmId: '254194'
       tcgplayerProductId: '58266'
     release_date: '2012-05-04'
@@ -73,12 +80,14 @@ products:
   Avacyn Restored Intro Pack Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '47743'
       mcmId: '254189'
     subtype: INTRO
   Avacyn Restored Intro Pack Fiery Dawn:
     category: DECK
     identifiers:
       cardKingdomId: '186996'
+      cardtraderId: '47738'
       mcmId: '254193'
       tcgplayerProductId: '58265'
     release_date: '2012-05-04'
@@ -87,6 +96,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '186995'
+      cardtraderId: '47736'
       mcmId: '254192'
       tcgplayerProductId: '58264'
     release_date: '2012-05-04'
@@ -95,6 +105,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '186994'
+      cardtraderId: '47739'
       mcmId: '254191'
       tcgplayerProductId: '58263'
     release_date: '2012-05-04'
@@ -102,11 +113,13 @@ products:
   Avacyn Restored Intro Packs Set of 5:
     category: SUBSET
     identifiers:
+      cardtraderId: '47744'
       mcmId: '254188'
     release_date: '2007-01-01'
     subtype: INTRO
   Avacyn Restored Six Card Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '47725'
       mcmId: '315711'
     subtype: SIX

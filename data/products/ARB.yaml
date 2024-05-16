@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '126650'
+      cardtraderId: '47356'
       mcmId: '210140'
       tcgplayerProductId: '31841'
     subtype: DEFAULT
@@ -11,6 +12,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '126651'
+      cardtraderId: '47354'
       mcmId: '210139'
       tcgplayerProductId: '31840'
     subtype: DEFAULT
@@ -18,6 +20,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '126732'
+      cardtraderId: '47363'
       mcmId: '210157'
       tcgplayerProductId: '78302'
     subtype: FAT_PACK
@@ -31,6 +34,7 @@ products:
   Alara Reborn Intro Pack Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '47369'
       mcmId: '210204'
     subtype: INTRO
   Alara Reborn Intro Pack Eternal Siege:
@@ -64,6 +68,7 @@ products:
   Alara Reborn Six Card Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '47355'
       mcmId: '315700'
     release_date: '2018-01-16'
     subtype: SIX
