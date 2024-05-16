@@ -11,8 +11,19 @@ products:
     category: MULTI_DECK
     identifiers:
       cardKingdomId: '240217'
+      mcmId: '242505'
     subtype: TWO_PLAYER_STARTER
   Starter 2000 Two Player Starter Game Display:
     category: DECK_BOX
     identifiers: {}
     subtype: TWO_PLAYER_STARTER
+  Starter 2000 Advanced Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      mcmId: '260971'
+    subtype: ADVANCED
+  Starter 2000 Demo Game Booster:
+    category: BOOSTER_PACK
+    identifiers:
+      mcmId: '260970'
+    subtype: PROMOTIONAL
