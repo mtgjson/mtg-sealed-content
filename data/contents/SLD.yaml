@@ -800,6 +800,7 @@ products:
     - count: 1
       name: Secret Lair Drop Secret Lair x Warhammer Age of Sigmar Foil
       set: sld
+  Secret Lair Bundle Secretversary Bundle: []
   Secret Lair Bundle Secretversary Superdrop 2023 Goodie Bag Loaded with Everything:
     sealed:
     - count: 1
@@ -1252,6 +1253,8 @@ products:
     deck:
     - name: Artist Series Rebecca Guay foil
       set: sld
+  Secret Lair Drop Artist Series Rovina Cai: []
+  Secret Lair Drop Artist Series Rovina Cai Foil: []
   Secret Lair Drop Artist Series Ryan Alexander Lee:
     card_count: 5
     deck:
@@ -1617,6 +1620,8 @@ products:
     deck:
     - name: Deceptive Divination foil
       set: sld
+  Secret Lair Drop Diabolical Dioramas: []
+  Secret Lair Drop Diabolical Dioramas Foil: []
   Secret Lair Drop Draw Your Hand:
     card_count: 5
     deck:
@@ -1692,6 +1697,8 @@ products:
     deck:
     - name: Featuring Gary Baseman foil
       set: sld
+  Secret Lair Drop Featuring Phoebe Wahl: []
+  Secret Lair Drop Featuring Phoebe Wahl Foil: []
   Secret Lair Drop Featuring the Mountain Goats:
     card_count: 11
     deck:
@@ -2214,6 +2221,12 @@ products:
     deck:
     - name: DD Honor Among Thieves foil
       set: sld
+  Secret Lair Drop Secret Lair x Fallout Points of Interest: []
+  Secret Lair Drop Secret Lair x Fallout Points of Interest Foil: []
+  Secret Lair Drop Secret Lair x Fallout SPECIAL: []
+  Secret Lair Drop Secret Lair x Fallout SPECIAL Foil: []
+  Secret Lair Drop Secret Lair x Fallout Vault Boy: []
+  Secret Lair Drop Secret Lair x Fallout Vault Boy Foil: []
   Secret Lair Drop Secret Lair x Fortnite:
     card_count: 8
     deck:
@@ -2860,6 +2873,9 @@ products:
     deck:
     - name: Welcome to the Fungal foil
       set: sld
+  ? Secret Lair Drop Wizards of the Coast Presents After Great Deliberation We Have
+    Compiled and Remastered the Greatest Magic The Gathering Cards of All Time Ever
+  : []
   Secret Lair Drop Wizards of the Street:
     card_count: 5
     deck:
@@ -2932,34 +2948,6 @@ products:
     - count: 1
       name: Dominaria Remastered Draft Booster Box
       set: dmr
-  Secret Lair Festival in a Box Magic 30 2022 Bundle:
-    card:
-    - foil: true
-      name: Sol Ring
-      number: 7
-      set: pf19
-    - foil: true
-      name: Arcane Signet
-      number: 1F
-      set: p30m
-    other:
-    - name: Virtual ticket to Magic 30 Virtual Experience
-    - name: Guardians of New Benalia playmat w/ 30th Anniversary Logo
-    - name: Dominaria United Stained Glass Deck Box w/ 30th Anniversary Logo
-    - name: "Set of 100 Li\u2019l Giri Sleeves w/ 30th Anniversary Logo"
-    sealed:
-    - count: 1
-      name: Mystery Booster Booster Box (Convention Edition - 2021)
-      set: mb1
-    - count: 1
-      name: Secret Lair Drop Lil Giri Saves the Day Foil
-      set: sld
-    - count: 1
-      name: Kamigawa Neon Dynasty Commander Deck Buckle Up
-      set: nec
-    - count: 1
-      name: Kamigawa Neon Dynasty Commander Deck Upgrades Unleashed
-      set: nec
   Secret Lair Festival in a Box Las Vegas 2023 Bundle:
     card:
     - name: Relentless Rats
@@ -3005,6 +2993,34 @@ products:
     - count: 2
       name: Innistrad Midnight Hunt Draft Booster Pack
       set: mid
+  Secret Lair Festival in a Box Magic 30 2022 Bundle:
+    card:
+    - foil: true
+      name: Sol Ring
+      number: 7
+      set: pf19
+    - foil: true
+      name: Arcane Signet
+      number: 1F
+      set: p30m
+    other:
+    - name: Virtual ticket to Magic 30 Virtual Experience
+    - name: Guardians of New Benalia playmat w/ 30th Anniversary Logo
+    - name: Dominaria United Stained Glass Deck Box w/ 30th Anniversary Logo
+    - name: "Set of 100 Li\u2019l Giri Sleeves w/ 30th Anniversary Logo"
+    sealed:
+    - count: 1
+      name: Mystery Booster Booster Box (Convention Edition - 2021)
+      set: mb1
+    - count: 1
+      name: Secret Lair Drop Lil Giri Saves the Day Foil
+      set: sld
+    - count: 1
+      name: Kamigawa Neon Dynasty Commander Deck Buckle Up
+      set: nec
+    - count: 1
+      name: Kamigawa Neon Dynasty Commander Deck Upgrades Unleashed
+      set: nec
   Secret Lair Festival in a Box Minneapolis 2023 Bundle:
     card:
     - foil: true

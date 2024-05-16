@@ -46,13 +46,6 @@ products:
       mcmId: '265339'
       tcgplayerProductId: '71523'
     subtype: GIFT_BUNDLE
-  Theros Intro Pack Devotion to Darkness:
-    category: DECK
-    identifiers:
-      cardKingdomId: '191125'
-      mcmId: '264172'
-      tcgplayerProductId: '70982'
-    subtype: INTRO
   Theros Intro Pack Anthousas Army:
     category: DECK
     identifiers:
@@ -60,19 +53,31 @@ products:
       mcmId: '264174'
       tcgplayerProductId: '70984'
     subtype: INTRO
-  Theros Intro Pack Favors from Nyx:
-    category: DECK
-    identifiers:
-      cardKingdomId: '191122'
-      mcmId: '264170'
-      tcgplayerProductId: '70980'
-    subtype: INTRO
   Theros Intro Pack Blazing Beasts of Myth:
     category: DECK
     identifiers:
       cardKingdomId: '191124'
       mcmId: '264173'
       tcgplayerProductId: '70983'
+    subtype: INTRO
+  Theros Intro Pack Devotion to Darkness:
+    category: DECK
+    identifiers:
+      cardKingdomId: '191125'
+      mcmId: '264172'
+      tcgplayerProductId: '70982'
+    subtype: INTRO
+  Theros Intro Pack Display:
+    category: DECK_BOX
+    identifiers:
+      mcmId: '264175'
+    subtype: INTRO
+  Theros Intro Pack Favors from Nyx:
+    category: DECK
+    identifiers:
+      cardKingdomId: '191122'
+      mcmId: '264170'
+      tcgplayerProductId: '70980'
     subtype: INTRO
   Theros Intro Pack Manipulative Monstrosities:
     category: DECK
@@ -86,11 +91,6 @@ products:
     identifiers:
       mcmId: '264176'
       tcgplayerProductId: '70964'
-    subtype: INTRO
-  Theros Intro Pack Display:
-    category: DECK_BOX
-    identifiers:
-      mcmId: '264175'
     subtype: INTRO
   Theros Prerelease Kit Path of Ambition:
     category: LIMITED

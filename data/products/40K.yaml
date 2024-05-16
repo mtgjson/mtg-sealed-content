@@ -1,5 +1,10 @@
 code: 40k
 products:
+  Warhammer 40000 Commander Deck Collectors Edition Set of 4:
+    category: SUBSET
+    identifiers:
+      mcmId: '674343'
+    subtype: COMMANDER
   Warhammer 40000 Commander Deck Display:
     category: DECK_BOX
     identifiers:
@@ -46,6 +51,11 @@ products:
       tcgplayerProductId: '272311'
     release_date: '2022-10-07'
     subtype: COMMANDER
+  Warhammer 40000 Commander Deck Set of 4:
+    category: SUBSET
+    identifiers:
+      mcmId: '674342'
+    subtype: COMMANDER
   Warhammer 40000 Commander Deck The Ruinous Powers:
     category: DECK
     identifiers:
@@ -77,14 +87,4 @@ products:
       mcmId: '657355'
       tcgplayerProductId: '272312'
     release_date: '2022-10-07'
-    subtype: COMMANDER
-  Warhammer 40000 Commander Deck Set of 4:
-    category: SUBSET
-    identifiers: 
-      mcmId: '674342'
-    subtype: COMMANDER
-  Warhammer 40000 Commander Deck Collectors Edition Set of 4:
-    category: SUBSET
-    identifiers: 
-      mcmId: '674343'
     subtype: COMMANDER

@@ -21,16 +21,20 @@ products:
       mcmId: '210016'
       tcgplayerProductId: '27379'
     subtype: DEFAULT
-  Visions Theme Deck Legion of Glory:
-    category: DECK
-    identifiers:
-      mcmId: '253794'
-    subtype: THEME
   Visions Preview Printing Booster:
     category: BOOSTER_PACK
     identifiers:
       mcmId: '758898'
     subtype: PROMOTIONAL
+  Visions Theme Deck Display:
+    category: DECK_BOX
+    identifiers: {}
+    subtype: THEME
+  Visions Theme Deck Legion of Glory:
+    category: DECK
+    identifiers:
+      mcmId: '253794'
+    subtype: THEME
   Visions Theme Deck Savage Stompdown:
     category: DECK
     identifiers:
@@ -45,10 +49,6 @@ products:
     category: DECK
     identifiers:
       mcmId: '253797'
-    subtype: THEME
-  Visions Theme Deck Display:
-    category: DECK_BOX
-    identifiers: {}
     subtype: THEME
   Visions Theme Decks Set of 4:
     category: SUBSET

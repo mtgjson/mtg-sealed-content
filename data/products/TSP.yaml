@@ -21,6 +21,16 @@ products:
       mcmId: '210168'
       tcgplayerProductId: '78332'
     subtype: FAT_PACK
+  Time Spiral Gift Box:
+    category: BUNDLE
+    identifiers:
+      mcmId: '200021'
+    subtype: GIFT_BUNDLE
+  Time Spiral Theme Deck Display:
+    category: DECK_BOX
+    identifiers:
+      mcmId: '210219'
+    subtype: THEME
   Time Spiral Theme Deck Fun With Fungus:
     category: DECK
     identifiers:
@@ -63,13 +73,3 @@ products:
       mcmId: '253863'
       tcgplayerProductId: '453053'
     subtype: TOURNAMENT
-  Time Spiral Theme Deck Display:
-    category: DECK_BOX
-    identifiers:
-      mcmId: '210219'
-    subtype: THEME
-  Time Spiral Gift Box:
-    category: BUNDLE
-    identifiers:
-      mcmId: '200021'
-    subtype: GIFT_BUNDLE

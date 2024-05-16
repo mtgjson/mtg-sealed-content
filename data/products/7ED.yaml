@@ -1,5 +1,10 @@
 code: 7ed
 products:
+  Seventh Edition Advanced Booster:
+    category: BOOSTER_PACK
+    identifiers:
+      mcmId: '283067'
+    subtype: ADVANCED
   Seventh Edition Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -14,6 +19,11 @@ products:
       mcmId: '210036'
       tcgplayerProductId: '27320'
     subtype: DEFAULT
+  Seventh Edition Sampler Booster:
+    category: BOOSTER_PACK
+    identifiers:
+      mcmId: '673104'
+    subtype: PROMOTIONAL
   Seventh Edition Theme Deck Armada:
     category: DECK
     identifiers:
@@ -65,13 +75,3 @@ products:
     category: DECK_BOX
     identifier: {}
     subtype: TWO_PLAYER_STARTER
-  Seventh Edition Advanced Booster:
-    category: BOOSTER_PACK
-    identifiers:
-      mcmId: '283067'
-    subtype: ADVANCED
-  Seventh Edition Sampler Booster:
-    category: BOOSTER_PACK
-    identifiers:
-      mcmId: '673104'
-    subtype: PROMOTIONAL

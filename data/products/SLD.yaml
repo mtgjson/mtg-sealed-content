@@ -10,8 +10,8 @@ products:
   Secret Lair Bundle All Natural Totally Refreshing Superdrop All 4 U:
     category: BOX_SET
     identifiers:
-      tcgplayerProductId: '242354'
       mcmId: '569957'
+      tcgplayerProductId: '242354'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle April Superdrop Full of Foils:
     category: BOX_SET
@@ -230,8 +230,8 @@ products:
   Secret Lair Bundle Ferocious Foil:
     category: BOX_SET
     identifiers:
-      tcgplayerProductId: '251741'
       mcmId: '579344'
+      tcgplayerProductId: '251741'
     release_date: '2021-10-15'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Fill My Cauldron with Almost Everything:
@@ -286,8 +286,8 @@ products:
   Secret Lair Bundle Miss A Drop Its Gone Superdrop Boo Tacular Bundle:
     category: BOX_SET
     identifiers:
-      tcgplayerProductId: '251736'
       mcmId: '579345'
+      tcgplayerProductId: '251736'
     release_date: '2021-10-15'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle More Adventures in Middle earth:
@@ -320,12 +320,6 @@ products:
     identifiers:
       tcgplayerProductId: '450512'
     subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Secretversary Bundle:
-    category: BOX_SET
-    identifiers:
-      mcmId: '523595'
-    release_date: '2020-11-30'
-    subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Second Secretversary Bundle:
     category: BOX_SET
     identifiers:
@@ -340,6 +334,12 @@ products:
     category: BOX_SET
     identifiers:
       tcgplayerProductId: '450513'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Secretversary Bundle:
+    category: BOX_SET
+    identifiers:
+      mcmId: '523595'
+    release_date: '2020-11-30'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Secretversary Superdrop 2023 Goodie Bag Loaded with Everything:
     category: BOX_SET
@@ -496,8 +496,8 @@ products:
   Secret Lair Bundle The Worlds Bundliest Bundle:
     category: BOX_SET
     identifiers:
-      tcgplayerProductId: '247330'
       mcmId: '577210'
+      tcgplayerProductId: '247330'
     release_date: '2021-10-06'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle The Worlds Foil est Bundle:
@@ -679,23 +679,6 @@ products:
       tcgplayerProductId: '493806'
     release_date: '2023-07-07'
     subtype: SECRET_LAIR
-  'Secret Lair Drop Wizards of the Coast Presents After Great Deliberation We Have Compiled and Remastered the Greatest Magic The Gathering Cards of All Time Ever':
-    category: BOX_SET
-    identifiers:
-      mcmId: '464684'
-    release_date: '2020-05-28'
-    subtype: SECRET_LAIR
-  Secret Lair Drop Artist Series Rovina Cai:
-    category: BOX_SET
-    identifiers:
-      mcmId: '765961'
-    release_date: '2024-04-16'
-    subtype: SECRET_LAIR
-  Secret Lair Drop Artist Series Rovina Cai Foil:
-    category: BOX_SET
-    identifiers: {}
-    release_date: '2024-04-16'
-    subtype: SECRET_LAIR
   Secret Lair Drop Artist Series Alayna Danner Foil:
     category: BOX_SET
     identifiers:
@@ -833,6 +816,17 @@ products:
     category: BOX_SET
     identifiers:
       tcgplayerProductId: '493810'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Artist Series Rovina Cai:
+    category: BOX_SET
+    identifiers:
+      mcmId: '765961'
+    release_date: '2024-04-16'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Artist Series Rovina Cai Foil:
+    category: BOX_SET
+    identifiers: {}
+    release_date: '2024-04-16'
     subtype: SECRET_LAIR
   Secret Lair Drop Artist Series Ryan Alexander Lee:
     category: BOX_SET
@@ -1108,8 +1102,8 @@ products:
   Secret Lair Drop Buggin Out:
     category: BOX_SET
     identifiers:
-      tcgplayerProductId: '515012'
       mcmId: '732834'
+      tcgplayerProductId: '515012'
     subtype: SECRET_LAIR
   Secret Lair Drop Buggin Out Foil:
     category: BOX_SET
@@ -1288,6 +1282,15 @@ products:
     identifiers:
       tcgplayerProductId: '537689'
     release_date: '2024-03-15'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Diabolical Dioramas:
+    category: BOX_SET
+    identifiers:
+      mcmId: '765962'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Diabolical Dioramas Foil:
+    category: BOX_SET
+    identifiers: {}
     subtype: SECRET_LAIR
   Secret Lair Drop Draw Your Hand:
     category: BOX_SET
@@ -1492,8 +1495,8 @@ products:
   Secret Lair Drop Here Be Dragons Foil:
     category: BOX_SET
     identifiers:
-      tcgplayerProductId: '275788'
       mcmId: '663248'
+      tcgplayerProductId: '275788'
     release_date: '2022-06-15'
     subtype: SECRET_LAIR
   Secret Lair Drop If Looks Could Kill:
@@ -1662,17 +1665,8 @@ products:
   Secret Lair Drop Lil Walkers:
     category: BOX_SET
     identifiers:
-      tcgplayerProductId: '267772'
       mcmId: '650453'
-    subtype: SECRET_LAIR
-  Secret Lair Drop Diabolical Dioramas:
-    category: BOX_SET
-    identifiers:
-      mcmId: '765962'
-    subtype: SECRET_LAIR
-  Secret Lair Drop Diabolical Dioramas Foil:
-    category: BOX_SET
-    identifiers: {}
+      tcgplayerProductId: '267772'
     subtype: SECRET_LAIR
   Secret Lair Drop Lil Walkers Foil:
     category: BOX_SET
@@ -2025,8 +2019,8 @@ products:
   Secret Lair Drop Roadshow Edition Burning Revelations Rainbow Foil:
     category: BOX_SET
     identifiers:
-      tcgplayerProductId: '540769'
       mcmId: '759086'
+      tcgplayerProductId: '540769'
     subtype: SECRET_LAIR
   Secret Lair Drop Rule the Room:
     category: BOX_SET
@@ -2082,33 +2076,6 @@ products:
     category: BOX_SET
     identifiers:
       tcgplayerProductId: '258400'
-    subtype: SECRET_LAIR
-  Secret Lair Drop Secret Lair x Fallout Points of Interest:
-    category: BOX_SET
-    identifiers: 
-      mcmId: '765966'
-    subtype: SECRET_LAIR
-  Secret Lair Drop Secret Lair x Fallout Points of Interest Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: SECRET_LAIR
-  Secret Lair Drop Secret Lair x Fallout SPECIAL:
-    category: BOX_SET
-    identifiers:
-      mcmId: '765973'
-    subtype: SECRET_LAIR
-  Secret Lair Drop Secret Lair x Fallout SPECIAL Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: SECRET_LAIR
-  Secret Lair Drop Secret Lair x Fallout Vault Boy:
-    category: BOX_SET
-    identifiers: 
-      mcmId: '765978'
-    subtype: SECRET_LAIR
-  Secret Lair Drop Secret Lair x Fallout Vault Boy Foil:
-    category: BOX_SET
-    identifiers: {}
     subtype: SECRET_LAIR
   Secret Lair Drop Secret Lair x Arcane Lands:
     category: BOX_SET
@@ -2197,6 +2164,33 @@ products:
     category: BOX_SET
     identifiers:
       tcgplayerProductId: '490200'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Secret Lair x Fallout Points of Interest:
+    category: BOX_SET
+    identifiers:
+      mcmId: '765966'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Secret Lair x Fallout Points of Interest Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: SECRET_LAIR
+  Secret Lair Drop Secret Lair x Fallout SPECIAL:
+    category: BOX_SET
+    identifiers:
+      mcmId: '765973'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Secret Lair x Fallout SPECIAL Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: SECRET_LAIR
+  Secret Lair Drop Secret Lair x Fallout Vault Boy:
+    category: BOX_SET
+    identifiers:
+      mcmId: '765978'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Secret Lair x Fallout Vault Boy Foil:
+    category: BOX_SET
+    identifiers: {}
     subtype: SECRET_LAIR
   Secret Lair Drop Secret Lair x Fortnite:
     category: BOX_SET
@@ -3047,6 +3041,13 @@ products:
     identifiers:
       tcgplayerProductId: '456547'
     subtype: SECRET_LAIR
+  ? Secret Lair Drop Wizards of the Coast Presents After Great Deliberation We Have
+    Compiled and Remastered the Greatest Magic The Gathering Cards of All Time Ever
+  : category: BOX_SET
+    identifiers:
+      mcmId: '464684'
+    release_date: '2020-05-28'
+    subtype: SECRET_LAIR
   Secret Lair Drop Wizards of the Street:
     category: BOX_SET
     identifiers:
@@ -3083,17 +3084,17 @@ products:
     identifiers:
       tcgplayerProductId: '497382'
     subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Festival in a Box Magic 30 2022 Bundle:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '282287'
-      mcmId: '671282'
-    subtype: SECRET_LAIR_BUNDLE
   Secret Lair Festival in a Box Las Vegas 2023 Bundle:
     category: BOX_SET
     identifiers:
       tcgplayerProductId: '516536'
     release_date: '2023-09-23'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Festival in a Box Magic 30 2022 Bundle:
+    category: BOX_SET
+    identifiers:
+      mcmId: '671282'
+      tcgplayerProductId: '282287'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Festival in a Box Minneapolis 2023 Bundle:
     category: BOX_SET

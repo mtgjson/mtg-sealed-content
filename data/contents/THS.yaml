@@ -23,18 +23,6 @@ products:
       set: ths
   Theros Fat Pack: []
   Theros Holiday Gift Box: []
-  Theros Intro Pack Devotion to Darkness:
-    card_count: 60
-    deck:
-    - name: Devotion to Darkness
-      set: ths
-    other:
-    - name: Magic Strategy and Mechanics Guide
-    - name: Learn-to-Play Insert
-    sealed:
-    - count: 2
-      name: Theros Booster Pack
-      set: ths
   Theros Intro Pack Anthousas Army:
     card_count: 60
     deck:
@@ -47,10 +35,10 @@ products:
     - count: 2
       name: Theros Booster Pack
       set: ths
-  Theros Intro Pack Favors from Nyx:
+  Theros Intro Pack Blazing Beasts of Myth:
     card_count: 60
     deck:
-    - name: Favors From Nyx
+    - name: Blazing Beasts of Myth
       set: ths
     other:
     - name: Magic Strategy and Mechanics Guide
@@ -59,10 +47,23 @@ products:
     - count: 2
       name: Theros Booster Pack
       set: ths
-  Theros Intro Pack Blazing Beasts of Myth:
+  Theros Intro Pack Devotion to Darkness:
     card_count: 60
     deck:
-    - name: Blazing Beasts of Myth
+    - name: Devotion to Darkness
+      set: ths
+    other:
+    - name: Magic Strategy and Mechanics Guide
+    - name: Learn-to-Play Insert
+    sealed:
+    - count: 2
+      name: Theros Booster Pack
+      set: ths
+  Theros Intro Pack Display: []
+  Theros Intro Pack Favors from Nyx:
+    card_count: 60
+    deck:
+    - name: Favors From Nyx
       set: ths
     other:
     - name: Magic Strategy and Mechanics Guide

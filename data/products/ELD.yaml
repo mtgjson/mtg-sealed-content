@@ -1,5 +1,10 @@
 code: eld
 products:
+  Throne of Eldraine Brawl Deck Display:
+    category: DECK_BOX
+    identifiers:
+      mcmId: '401719'
+    subtype: BRAWL
   Throne of Eldraine Brawl Deck Faerie Schemes:
     category: DECK
     identifiers:
@@ -38,11 +43,6 @@ products:
       mcmId: '399089'
       tcgplayerProductId: '194912'
     release_date: '2019-10-04'
-    subtype: BRAWL
-  Throne of Eldraine Brawl Deck Display:
-    category: DECK_BOX
-    identifiers:
-      mcmId: '401719'
     subtype: BRAWL
   Throne of Eldraine Bundle:
     category: BUNDLE
