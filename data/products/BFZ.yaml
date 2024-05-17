@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '202427'
+      cardtraderId: '48332'
       mcmId: '284302'
       tcgplayerProductId: '102715'
     subtype: DEFAULT
@@ -17,6 +18,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '202428'
+      cardtraderId: '48331'
       mcmId: '284301'
       tcgplayerProductId: '102716'
     subtype: DEFAULT
@@ -24,6 +26,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '202468'
+      cardtraderId: '48350'
       mcmId: '284353'
       tcgplayerProductId: '102800'
     subtype: EVENT
@@ -31,6 +34,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '202429'
+      cardtraderId: '48343'
       mcmId: '284303'
       tcgplayerProductId: '102801'
     release_date: '2015-10-02'
@@ -39,12 +43,14 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '203355'
+      cardtraderId: '48352'
       mcmId: '285621'
       tcgplayerProductId: '102717'
     subtype: GIFT_BUNDLE
   Battle for Zendikar Hedron Prerelease Box:
     category: LIMITED_CASE
     identifiers:
+      cardtraderId: '48351'
       mcmId: '284373'
       tcgplayerProductId: '105955'
     subtype: PRERELEASE
@@ -52,18 +58,21 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '202474'
+      cardtraderId: '48345'
       mcmId: '284346'
       tcgplayerProductId: '102721'
     subtype: INTRO
   Battle for Zendikar Intro Pack Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '48353'
       mcmId: '284352'
     subtype: INTRO
   Battle for Zendikar Intro Pack Eldrazi Assault:
     category: DECK
     identifiers:
       cardKingdomId: '202472'
+      cardtraderId: '48349'
       mcmId: '284349'
       tcgplayerProductId: '102723'
     subtype: INTRO
@@ -71,12 +80,14 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '202476'
+      cardtraderId: '48347'
       mcmId: '284350'
       tcgplayerProductId: '102719'
     subtype: INTRO
   Battle for Zendikar Intro Pack Set of 5:
     category: SUBSET
     identifiers:
+      cardtraderId: '48354'
       mcmId: '284351'
       tcgplayerProductId: '102718'
     subtype: INTRO
@@ -84,6 +95,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '202473'
+      cardtraderId: '48348'
       mcmId: '284347'
       tcgplayerProductId: '102720'
     subtype: INTRO
@@ -91,6 +103,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '202475'
+      cardtraderId: '48344'
       mcmId: '284348'
       tcgplayerProductId: '102722'
     subtype: INTRO

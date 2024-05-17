@@ -3,6 +3,7 @@ products:
   Bloomburrow Bundle:
     category: BUNDLE
     identifiers:
+      cardtraderId: '280430'
       tcgplayerProductId: '541241'
     release_date: '2024-08-02'
     subtype: DEFAULT
@@ -15,6 +16,7 @@ products:
   Bloomburrow Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      cardtraderId: '280426'
       tcgplayerProductId: '541238'
     release_date: '2024-08-02'
     subtype: COLLECTOR
@@ -27,12 +29,14 @@ products:
   Bloomburrow Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '280429'
       tcgplayerProductId: '541237'
     release_date: '2024-08-02'
     subtype: COLLECTOR
   Bloomburrow Play Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      cardtraderId: '280424'
       tcgplayerProductId: '541235'
     release_date: '2024-08-02'
     subtype: PLAY
@@ -45,18 +49,21 @@ products:
   Bloomburrow Play Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '280428'
       tcgplayerProductId: '541234'
     release_date: '2024-08-02'
     subtype: PLAY
   Bloomburrow Prerelease Pack:
     category: LIMITED
     identifiers:
+      cardtraderId: '280427'
       tcgplayerProductId: '541245'
     release_date: '2024-08-02'
     subtype: PRERELEASE
   Bloomburrow Starter Kit:
     category: MULTI_DECK
     identifiers:
+      cardtraderId: '280425'
       tcgplayerProductId: '541243'
     release_date: '2024-08-02'
     subtype: TWO_PLAYER_STARTER

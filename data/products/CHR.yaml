@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '207307'
+      cardtraderId: '43719'
       mcmId: '210078'
       tcgplayerProductId: '27269'
     subtype: DEFAULT
@@ -11,18 +12,21 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1465'
+      cardtraderId: '43718'
       mcmId: '210012'
       tcgplayerProductId: '27331'
     subtype: DEFAULT
   Chronicles Japanese Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      cardtraderId: '43729'
       mcmId: '311371'
     language: Japanese
     subtype: DEFAULT
   Chronicles Japanese Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '43727'
       mcmId: '311372'
     language: Japanese
     subtype: DEFAULT
