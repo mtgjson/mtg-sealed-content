@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '186260'
+      cardtraderId: '47694'
       mcmId: '252462'
       tcgplayerProductId: '57584'
     release_date: '2012-02-03'
@@ -17,6 +18,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '186261'
+      cardtraderId: '47692'
       mcmId: '252461'
       tcgplayerProductId: '57583'
     subtype: DEFAULT
@@ -28,6 +30,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '186611'
+      cardtraderId: '47709'
       mcmId: '253039'
       tcgplayerProductId: '57898'
     subtype: EVENT
@@ -35,12 +38,14 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '186612'
+      cardtraderId: '47710'
       mcmId: '253040'
       tcgplayerProductId: '57899'
     subtype: EVENT
   Dark Ascension Event Decks Set of 2:
     category: SUBSET
     identifiers:
+      cardtraderId: '47708'
       mcmId: '253041'
       tcgplayerProductId: '57900'
     subtype: EVENT
@@ -48,6 +53,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '186265'
+      cardtraderId: '47701'
       mcmId: '252463'
       tcgplayerProductId: '57580'
     release_date: '2012-02-03'
@@ -56,6 +62,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '186292'
+      cardtraderId: '47706'
       mcmId: '252508'
       tcgplayerProductId: '57627'
     release_date: '2012-02-03'
@@ -63,12 +70,14 @@ products:
   Dark Ascension Intro Pack Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '47711'
       mcmId: '252465'
     subtype: INTRO
   Dark Ascension Intro Pack Grave Power:
     category: DECK
     identifiers:
       cardKingdomId: '186293'
+      cardtraderId: '47704'
       mcmId: '252510'
       tcgplayerProductId: '57629'
     release_date: '2012-02-03'
@@ -77,6 +86,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '186294'
+      cardtraderId: '47705'
       mcmId: '252509'
       tcgplayerProductId: '57628'
     release_date: '2012-02-03'
@@ -85,6 +95,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '186295'
+      cardtraderId: '47703'
       mcmId: '252507'
       tcgplayerProductId: '57626'
     release_date: '2012-02-03'
@@ -92,6 +103,7 @@ products:
   Dark Ascension Intro Pack Set of 5:
     category: SUBSET
     identifiers:
+      cardtraderId: '47712'
       mcmId: '252464'
       tcgplayerProductId: '57582'
     subtype: INTRO
@@ -99,6 +111,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '186296'
+      cardtraderId: '47707'
       mcmId: '252506'
       tcgplayerProductId: '57625'
     release_date: '2012-02-03'
@@ -106,5 +119,6 @@ products:
   Dark Ascension Six Card Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '47693'
       mcmId: '315710'
     subtype: SIX
