@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '225512'
+      cardtraderId: '57961'
       mcmId: '371536'
       tcgplayerProductId: '188210'
     release_date: '2019-07-12'
@@ -18,6 +19,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '225516'
+      cardtraderId: '57960'
       mcmId: '371537'
       tcgplayerProductId: '188211'
     release_date: '2019-07-12'
@@ -26,6 +28,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '225517'
+      cardtraderId: '57967'
       mcmId: '371535'
       tcgplayerProductId: '188213'
     release_date: '2019-07-12'
@@ -34,6 +37,7 @@ products:
     category: KIT
     identifiers:
       cardKingdomId: '225521'
+      cardtraderId: '164547'
       mcmId: '380322'
       tcgplayerProductId: '185681'
     release_date: '2019-07-12'
@@ -47,6 +51,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '225555'
+      cardtraderId: '169300'
       mcmId: '378279'
       tcgplayerProductId: '192509'
     release_date: '2019-07-12'
@@ -55,6 +60,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '225556'
+      cardtraderId: '169299'
       mcmId: '378288'
       tcgplayerProductId: '192510'
     release_date: '2019-07-12'
@@ -70,6 +76,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '225557'
+      cardtraderId: '169301'
       mcmId: '378285'
       tcgplayerProductId: '192512'
     release_date: '2019-07-12'
@@ -78,6 +85,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '225558'
+      cardtraderId: '169298'
       mcmId: '378291'
       tcgplayerProductId: '192511'
     release_date: '2019-07-12'
@@ -86,6 +94,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '225559'
+      cardtraderId: '169302'
       mcmId: '378282'
       tcgplayerProductId: '192513'
     release_date: '2019-07-12'
@@ -99,6 +108,7 @@ products:
   Core Set 2020 Prerelease Pack:
     category: LIMITED
     identifiers:
+      cardtraderId: '164578'
       mcmId: '380316'
       tcgplayerProductId: '193014'
     release_date: '2019-06-27'
@@ -107,6 +117,7 @@ products:
     category: MULTI_DECK
     identifiers:
       cardKingdomId: '226730'
+      cardtraderId: '164279'
       mcmId: '380319'
       tcgplayerProductId: '192755'
     release_date: '2019-07-12'
@@ -154,30 +165,35 @@ products:
   Core Set 2020 Welcome Deck - Black:
     category: DECK
     identifiers:
+      cardtraderId: '164278'
       mcmId: '380304'
     release_date: '2019-07-12'
     subtype: STARTER
   Core Set 2020 Welcome Deck - Blue:
     category: DECK
     identifiers:
+      cardtraderId: '164277'
       mcmId: '380307'
     release_date: '2019-07-12'
     subtype: STARTER
   Core Set 2020 Welcome Deck - Green:
     category: DECK
     identifiers:
+      cardtraderId: '164275'
       mcmId: '380310'
     release_date: '2019-07-12'
     subtype: STARTER
   Core Set 2020 Welcome Deck - Red:
     category: DECK
     identifiers:
+      cardtraderId: '164276'
       mcmId: '380301'
     release_date: '2019-07-12'
     subtype: STARTER
   Core Set 2020 Welcome Deck - White:
     category: DECK
     identifiers:
+      cardtraderId: '164274'
       mcmId: '380298'
     release_date: '2019-07-12'
     subtype: STARTER

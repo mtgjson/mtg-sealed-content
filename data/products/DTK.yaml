@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '199246'
+      cardtraderId: '48252'
       mcmId: '273069'
       tcgplayerProductId: '96137'
     release_date: '2015-03-04'
@@ -18,6 +19,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '199247'
+      cardtraderId: '48251'
       mcmId: '273068'
       tcgplayerProductId: '96139'
     release_date: '2015-03-27'
@@ -34,6 +36,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '199248'
+      cardtraderId: '48260'
       mcmId: '273070'
       tcgplayerProductId: '96140'
     release_date: '2015-03-27'
@@ -48,6 +51,7 @@ products:
   Dragons of Tarkir Intro Pack Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '48272'
       mcmId: '283158'
     release_date: '2015-06-03'
     subtype: INTRO
@@ -82,6 +86,7 @@ products:
   Dragons of Tarkir Intro Pack Set of 5:
     category: SUBSET
     identifiers:
+      cardtraderId: '48273'
       mcmId: '283157'
       tcgplayerProductId: '96152'
     release_date: '2015-06-03'

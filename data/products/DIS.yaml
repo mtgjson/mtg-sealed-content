@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '120115'
+      cardtraderId: '47099'
       mcmId: '210118'
       tcgplayerProductId: '27273'
     subtype: DEFAULT
@@ -11,6 +12,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '120116'
+      cardtraderId: '47098'
       mcmId: '210052'
       tcgplayerProductId: '27335'
     subtype: DEFAULT
@@ -18,6 +20,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '120120'
+      cardtraderId: '47100'
       mcmId: '210170'
       tcgplayerProductId: '78309'
     subtype: FAT_PACK
@@ -25,18 +28,21 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '120483'
+      cardtraderId: '47101'
       mcmId: '253669'
       tcgplayerProductId: '96343'
     subtype: THEME
   Dissension Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '47104'
       mcmId: '210222'
     subtype: THEME
   Dissension Theme Deck Rakdos Bloodsport:
     category: DECK
     identifiers:
       cardKingdomId: '120484'
+      cardtraderId: '47102'
       mcmId: '253670'
       tcgplayerProductId: '96344'
     subtype: THEME
@@ -44,6 +50,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '120485'
+      cardtraderId: '47103'
       mcmId: '253671'
       tcgplayerProductId: '96345'
     subtype: THEME

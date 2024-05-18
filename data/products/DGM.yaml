@@ -3,12 +3,14 @@ products:
   Dragon's Maze Six Card Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '47933'
       mcmId: '315715'
     subtype: SIX
   Dragons Maze Booster Box:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '189559'
+      cardtraderId: '47934'
       mcmId: '261117'
       tcgplayerProductId: '67751'
     release_date: '2013-05-03'
@@ -22,6 +24,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '189560'
+      cardtraderId: '47932'
       mcmId: '261116'
       tcgplayerProductId: '67752'
     release_date: '2013-05-03'
@@ -30,6 +33,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '189958'
+      cardtraderId: '47948'
       mcmId: '262924'
       tcgplayerProductId: '105047'
     subtype: EVENT
@@ -37,6 +41,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '189561'
+      cardtraderId: '47941'
       mcmId: '261118'
       tcgplayerProductId: '67754'
     subtype: FAT_PACK
@@ -44,6 +49,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '189628'
+      cardtraderId: '47944'
       mcmId: '261681'
       tcgplayerProductId: '68028'
     subtype: INTRO
@@ -51,12 +57,14 @@ products:
     category: DECK_BOX
     identifier: {}
     identifiers:
+      cardtraderId: '47959'
       mcmId: '261687'
     subtype: INTRO
   Dragons Maze Intro Pack Gruul Siege:
     category: DECK
     identifiers:
       cardKingdomId: '189631'
+      cardtraderId: '47942'
       mcmId: '261684'
       tcgplayerProductId: '68031'
     subtype: INTRO
@@ -64,6 +72,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '189629'
+      cardtraderId: '47945'
       mcmId: '261682'
       tcgplayerProductId: '68029'
     subtype: INTRO
@@ -71,12 +80,14 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '189630'
+      cardtraderId: '47943'
       mcmId: '261683'
       tcgplayerProductId: '68030'
     subtype: INTRO
   Dragons Maze Intro Pack Set of 5:
     category: SUBSET
     identifiers:
+      cardtraderId: '47960'
       mcmId: '261686'
       tcgplayerProductId: '67753'
     subtype: INTRO
@@ -84,12 +95,14 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '189632'
+      cardtraderId: '47946'
       mcmId: '261685'
       tcgplayerProductId: '68032'
     subtype: INTRO
   Dragons Maze Prerelease Guild Kit 10 Pack:
     category: LIMITED_CASE
     identifiers:
+      cardtraderId: '47961'
       mcmId: '273051'
       tcgplayerProductId: '183301'
     release_date: '2015-03-02'
@@ -97,60 +110,70 @@ products:
   Dragons Maze Prerelease Guild Kit Azorius:
     category: LIMITED
     identifiers:
+      cardtraderId: '47949'
       mcmId: '261871'
       tcgplayerProductId: '183291'
     subtype: PRERELEASE
   Dragons Maze Prerelease Guild Kit Boros:
     category: LIMITED
     identifiers:
+      cardtraderId: '47951'
       mcmId: '261876'
       tcgplayerProductId: '183299'
     subtype: PRERELEASE
   Dragons Maze Prerelease Guild Kit Dimir:
     category: LIMITED
     identifiers:
+      cardtraderId: '47952'
       mcmId: '261878'
       tcgplayerProductId: '183292'
     subtype: PRERELEASE
   Dragons Maze Prerelease Guild Kit Golgari:
     category: LIMITED
     identifiers:
+      cardtraderId: '47950'
       mcmId: '261872'
       tcgplayerProductId: '183298'
     subtype: PRERELEASE
   Dragons Maze Prerelease Guild Kit Gruul:
     category: LIMITED
     identifiers:
+      cardtraderId: '47953'
       mcmId: '261879'
       tcgplayerProductId: '183294'
     subtype: PRERELEASE
   Dragons Maze Prerelease Guild Kit Izzet:
     category: LIMITED
     identifiers:
+      cardtraderId: '47954'
       mcmId: '261873'
       tcgplayerProductId: '183297'
     subtype: PRERELEASE
   Dragons Maze Prerelease Guild Kit Orzhov:
     category: LIMITED
     identifiers:
+      cardtraderId: '47955'
       mcmId: '261877'
       tcgplayerProductId: '183296'
     subtype: PRERELEASE
   Dragons Maze Prerelease Guild Kit Rakdos:
     category: LIMITED
     identifiers:
+      cardtraderId: '47956'
       mcmId: '261874'
       tcgplayerProductId: '183293'
     subtype: PRERELEASE
   Dragons Maze Prerelease Guild Kit Selesnya:
     category: LIMITED
     identifiers:
+      cardtraderId: '47957'
       mcmId: '261875'
       tcgplayerProductId: '183295'
     subtype: PRERELEASE
   Dragons Maze Prerelease Guild Kit Simic:
     category: LIMITED
     identifiers:
+      cardtraderId: '47958'
       mcmId: '261880'
       tcgplayerProductId: '183300'
     subtype: PRERELEASE

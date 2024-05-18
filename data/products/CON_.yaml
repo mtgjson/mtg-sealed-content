@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '126253'
+      cardtraderId: '47339'
       mcmId: '210138'
       tcgplayerProductId: '93516'
     subtype: DEFAULT
@@ -11,6 +12,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '126254'
+      cardtraderId: '47337'
       mcmId: '210137'
       tcgplayerProductId: '108337'
     subtype: DEFAULT
@@ -18,6 +20,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '126255'
+      cardtraderId: '47345'
       mcmId: '210159'
       tcgplayerProductId: '78307'
     subtype: FAT_PACK
@@ -25,12 +28,14 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '126576'
+      cardtraderId: '47347'
       mcmId: '244159'
       tcgplayerProductId: '501419'
     subtype: INTRO
   Conflux Intro Pack Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '47351'
       mcmId: '210205'
       tcgplayerProductId: '536267'
     subtype: INTRO
@@ -65,5 +70,6 @@ products:
   Conflux Six Card Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '47338'
       mcmId: '253803'
     subtype: SIX

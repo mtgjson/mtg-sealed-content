@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '110330'
+      cardtraderId: '46534'
       mcmId: '210111'
       tcgplayerProductId: '27272'
     subtype: DEFAULT
@@ -11,6 +12,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '110501'
+      cardtraderId: '46533'
       mcmId: '210045'
       tcgplayerProductId: '27334'
     subtype: DEFAULT
@@ -18,6 +20,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '240338'
+      cardtraderId: '46535'
       mcmId: '210178'
       tcgplayerProductId: '78308'
     subtype: FAT_PACK
@@ -25,12 +28,14 @@ products:
     category: DECK_BOX
     identifier: {}
     identifiers:
+      cardtraderId: '46540'
       mcmId: '210224'
     subtype: THEME
   Darksteel Theme Deck Master Blaster:
     category: DECK
     identifiers:
       cardKingdomId: '110497'
+      cardtraderId: '46538'
       mcmId: '253700'
       tcgplayerProductId: '208246'
     subtype: THEME
@@ -38,6 +43,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '110498'
+      cardtraderId: '46539'
       mcmId: '253701'
       tcgplayerProductId: '208247'
     subtype: THEME
@@ -45,6 +51,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '110499'
+      cardtraderId: '46537'
       mcmId: '253702'
       tcgplayerProductId: '208248'
     subtype: THEME
@@ -52,6 +59,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '110500'
+      cardtraderId: '46536'
       mcmId: '253703'
       tcgplayerProductId: '208249'
     subtype: THEME
