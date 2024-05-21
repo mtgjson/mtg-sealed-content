@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '111582'
+      cardtraderId: '46553'
       mcmId: '210112'
       tcgplayerProductId: '27277'
     subtype: DEFAULT
@@ -11,6 +12,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '111583'
+      cardtraderId: '46552'
       mcmId: '210046'
       tcgplayerProductId: '27339'
     subtype: DEFAULT
@@ -18,18 +20,21 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '240347'
+      cardtraderId: '46554'
       mcmId: '210177'
       tcgplayerProductId: '78311'
     subtype: FAT_PACK
   Fifth Dawn Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '46563'
       mcmId: '210223'
     subtype: THEME
   Fifth Dawn Theme Deck Nuts and Bolts:
     category: DECK
     identifiers:
       cardKingdomId: '111586'
+      cardtraderId: '46555'
       mcmId: '253696'
       tcgplayerProductId: '96423'
     subtype: THEME
@@ -37,6 +42,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '111585'
+      cardtraderId: '46560'
       mcmId: '253697'
       tcgplayerProductId: '96424'
     subtype: THEME
@@ -44,6 +50,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '111587'
+      cardtraderId: '46556'
       mcmId: '253698'
       tcgplayerProductId: '96422'
     subtype: THEME
@@ -51,6 +58,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '111584'
+      cardtraderId: '46558'
       mcmId: '253699'
       tcgplayerProductId: '96425'
     subtype: THEME
