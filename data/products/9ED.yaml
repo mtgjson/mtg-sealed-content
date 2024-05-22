@@ -3,12 +3,14 @@ products:
   Ninth Edition Advanced Booster:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '46939'
       mcmId: '283069'
     subtype: ADVANCED
   Ninth Edition Booster Box:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '117666'
+      cardtraderId: '46941'
       mcmId: '210114'
       tcgplayerProductId: '27260'
     subtype: DEFAULT
@@ -16,12 +18,14 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '117668'
+      cardtraderId: '46938'
       mcmId: '210048'
       tcgplayerProductId: '27322'
     subtype: DEFAULT
   Ninth Edition Box Two Player Starter:
     category: MULTI_DECK
     identifiers:
+      cardtraderId: '46948'
       mcmId: '254939'
       tcgplayerProductId: '81799'
     subtype: TWO_PLAYER_STARTER
@@ -34,18 +38,21 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '228566'
+      cardtraderId: '46942'
       mcmId: '210173'
       tcgplayerProductId: '78301'
     subtype: FAT_PACK
   Ninth Edition Sample Booster:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '46940'
       mcmId: '269766'
     subtype: PROMOTIONAL
   Ninth Edition Theme Deck Army of Justice:
     category: DECK
     identifiers:
       cardKingdomId: '117669'
+      cardtraderId: '46943'
       mcmId: '253679'
       tcgplayerProductId: '96330'
     subtype: THEME
@@ -53,6 +60,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '117673'
+      cardtraderId: '46945'
       mcmId: '253680'
       tcgplayerProductId: '96331'
     subtype: THEME
@@ -60,18 +68,21 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '117671'
+      cardtraderId: '46946'
       mcmId: '253681'
       tcgplayerProductId: '96332'
     subtype: THEME
   Ninth Edition Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '46950'
       mcmId: '210216'
     subtype: THEME
   Ninth Edition Theme Deck Lofty Heights:
     category: DECK
     identifiers:
       cardKingdomId: '117670'
+      cardtraderId: '46944'
       mcmId: '253682'
       tcgplayerProductId: '96333'
     subtype: THEME
@@ -79,6 +90,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '117672'
+      cardtraderId: '46947'
       mcmId: '253683'
       tcgplayerProductId: '96334'
     subtype: THEME
