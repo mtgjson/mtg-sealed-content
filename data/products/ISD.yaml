@@ -9,6 +9,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '185511'
+      cardtraderId: '47666'
       mcmId: '250569'
       tcgplayerProductId: '47791'
     subtype: DEFAULT
@@ -21,6 +22,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '185512'
+      cardtraderId: '47664'
       mcmId: '250568'
       tcgplayerProductId: '47787'
     subtype: DEFAULT
@@ -28,6 +30,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '186163'
+      cardtraderId: '47682'
       mcmId: '251812'
       tcgplayerProductId: '56987'
     subtype: EVENT
@@ -35,12 +38,14 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '186162'
+      cardtraderId: '47681'
       mcmId: '251811'
       tcgplayerProductId: '56988'
     subtype: EVENT
   Innistrad Event Decks Set of 2:
     category: SUBSET
     identifiers:
+      cardtraderId: '47683'
       mcmId: '251813'
       tcgplayerProductId: '56989'
     subtype: EVENT
@@ -48,6 +53,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '185513'
+      cardtraderId: '47674'
       mcmId: '250570'
       tcgplayerProductId: '47788'
     subtype: FAT_PACK
@@ -55,6 +61,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '185707'
+      cardtraderId: '47676'
       mcmId: '250774'
       tcgplayerProductId: '56213'
     subtype: INTRO
@@ -62,18 +69,21 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '185708'
+      cardtraderId: '47677'
       mcmId: '250773'
       tcgplayerProductId: '56212'
     subtype: INTRO
   Innistrad Intro Pack Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '47684'
       mcmId: '250777'
     subtype: INTRO
   Innistrad Intro Pack Eldritch Onslaught:
     category: DECK
     identifiers:
       cardKingdomId: '185709'
+      cardtraderId: '47679'
       mcmId: '250772'
       tcgplayerProductId: '56211'
     subtype: INTRO
@@ -81,12 +91,14 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '185710'
+      cardtraderId: '47675'
       mcmId: '250775'
       tcgplayerProductId: '56214'
     subtype: INTRO
   Innistrad Intro Pack Set of 5:
     category: SUBSET
     identifiers:
+      cardtraderId: '47685'
       mcmId: '250776'
       tcgplayerProductId: '47790'
     subtype: INTRO
@@ -94,11 +106,13 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '185711'
+      cardtraderId: '47680'
       mcmId: '250771'
       tcgplayerProductId: '56210'
     subtype: INTRO
   Innistrad Six Card Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '47665'
       mcmId: '315709'
     subtype: SIX
