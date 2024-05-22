@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '184276'
+      cardtraderId: '47600'
       mcmId: '245808'
       tcgplayerProductId: '39410'
     subtype: DEFAULT
@@ -16,6 +17,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '184277'
+      cardtraderId: '47598'
       mcmId: '245807'
       tcgplayerProductId: '39409'
     subtype: DEFAULT
@@ -23,6 +25,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '184644'
+      cardtraderId: '47617'
       mcmId: '246678'
       tcgplayerProductId: '42100'
     subtype: EVENT
@@ -30,12 +33,14 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '184645'
+      cardtraderId: '47618'
       mcmId: '246677'
       tcgplayerProductId: '42099'
     subtype: EVENT
   New Phyrexia Event Decks Set of 2:
     category: SUBSET
     identifiers:
+      cardtraderId: '47616'
       mcmId: '246676'
       tcgplayerProductId: '42101'
     subtype: EVENT
@@ -43,6 +48,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '184281'
+      cardtraderId: '47608'
       mcmId: '245809'
       tcgplayerProductId: '39402'
     subtype: FAT_PACK
@@ -50,6 +56,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '184457'
+      cardtraderId: '47609'
       mcmId: '246236'
       tcgplayerProductId: '39408'
     subtype: INTRO
@@ -57,18 +64,21 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '184458'
+      cardtraderId: '47610'
       mcmId: '246237'
       tcgplayerProductId: '39407'
     subtype: INTRO
   New Phyrexia Intro Pack Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '47619'
       mcmId: '246242'
     subtype: INTRO
   New Phyrexia Intro Pack Feast of Flesh:
     category: DECK
     identifiers:
       cardKingdomId: '184459'
+      cardtraderId: '47611'
       mcmId: '246238'
       tcgplayerProductId: '39406'
     subtype: INTRO
@@ -76,6 +86,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '184460'
+      cardtraderId: '47613'
       mcmId: '246239'
       tcgplayerProductId: '39405'
     subtype: INTRO
@@ -83,18 +94,21 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '184461'
+      cardtraderId: '47615'
       mcmId: '246240'
       tcgplayerProductId: '39404'
     subtype: INTRO
   New Phyrexia Intro Packs Set of 5:
     category: SUBSET
     identifiers:
+      cardtraderId: '47620'
       mcmId: '246241'
       tcgplayerProductId: '39403'
     subtype: INTRO
   New Phyrexia Six Card Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '47599'
       mcmId: '315707'
     release_date: '2018-01-16'
     subtype: SIX

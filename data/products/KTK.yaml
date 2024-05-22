@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '195601'
+      cardtraderId: '48184'
       mcmId: '268636'
       tcgplayerProductId: '91650'
     subtype: DEFAULT
@@ -16,6 +17,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '195602'
+      cardtraderId: '48183'
       mcmId: '268637'
       tcgplayerProductId: '91653'
     subtype: DEFAULT
@@ -23,6 +25,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '195604'
+      cardtraderId: '48192'
       mcmId: '269221'
       tcgplayerProductId: '92803'
     subtype: EVENT
@@ -30,6 +33,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '195607'
+      cardtraderId: '51226'
       mcmId: '268639'
       tcgplayerProductId: '91652'
     release_date: '2014-09-24'
@@ -38,6 +42,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '196747'
+      cardtraderId: '48203'
       mcmId: '269585'
       tcgplayerProductId: '93314'
     subtype: GIFT_BUNDLE
@@ -45,6 +50,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '196179'
+      cardtraderId: '48193'
       mcmId: '269599'
       tcgplayerProductId: '93315'
     subtype: INTRO
@@ -52,6 +58,7 @@ products:
     category: DECK_BOX
     identifiers:
       cardKingdomId: '240160'
+      cardtraderId: '48204'
       mcmId: '269598'
       tcgplayerProductId: '92801'
     subtype: INTRO
@@ -59,6 +66,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '196180'
+      cardtraderId: '48196'
       mcmId: '269600'
       tcgplayerProductId: '93316'
     subtype: INTRO
@@ -66,12 +74,14 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '196182'
+      cardtraderId: '48194'
       mcmId: '269601'
       tcgplayerProductId: '93317'
     subtype: INTRO
   Khans of Tarkir Intro Pack Set of 5:
     category: SUBSET
     identifiers:
+      cardtraderId: '48205'
       mcmId: '269597'
       tcgplayerProductId: '92802'
     subtype: INTRO
@@ -79,6 +89,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '196181'
+      cardtraderId: '48197'
       mcmId: '269602'
       tcgplayerProductId: '93318'
     subtype: INTRO
@@ -86,43 +97,50 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '196183'
+      cardtraderId: '48195'
       mcmId: '269603'
       tcgplayerProductId: '93319'
     subtype: INTRO
-  Khans of Tarkir Prerelease Kit Abzan:
+  Khans of Tarkir Prerelease Kit Abzan Battle with Endurance:
     category: LIMITED
     identifiers:
+      cardtraderId: '48199'
       mcmId: '271409'
       tcgplayerProductId: '95041'
     subtype: PRERELEASE
-  Khans of Tarkir Prerelease Kit Jeskai:
+  Khans of Tarkir Prerelease Kit Jeskai Battle with Cunning:
     category: LIMITED
     identifiers:
+      cardtraderId: '48198'
       mcmId: '271408'
       tcgplayerProductId: '95043'
     subtype: PRERELEASE
-  Khans of Tarkir Prerelease Kit Mardu:
+  Khans of Tarkir Prerelease Kit Mardu Battle with Speed:
     category: LIMITED
     identifiers:
+      cardtraderId: '48202'
       mcmId: '271412'
       tcgplayerProductId: '95042'
     subtype: PRERELEASE
   Khans of Tarkir Prerelease Kit Set of 5:
     category: SUBSET
     identifiers:
+      cardtraderId: '48206'
       mcmId: '273047'
       tcgplayerProductId: '95048'
     release_date: '2015-03-02'
     subtype: PRERELEASE
-  Khans of Tarkir Prerelease Kit Sultai:
+  Khans of Tarkir Prerelease Kit Sultai Battle with Ruthlessness:
     category: LIMITED
     identifiers:
+      cardtraderId: '48200'
       mcmId: '271410'
       tcgplayerProductId: '95044'
     subtype: PRERELEASE
-  Khans of Tarkir Prerelease Kit Temur:
+  Khans of Tarkir Prerelease Kit Temur Battle with Savagery:
     category: LIMITED
     identifiers:
+      cardtraderId: '48201'
       mcmId: '271411'
       tcgplayerProductId: '95045'
     subtype: PRERELEASE

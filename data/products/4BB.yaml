@@ -3,15 +3,23 @@ products:
   Fourth Edition Black Bordered Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      cardtraderId: '43625'
       mcmId: '298959'
     subtype: DEFAULT
   Fourth Edition Black Bordered Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '43623'
       mcmId: '298958'
     subtype: DEFAULT
   Fourth Edition Black Bordered Starter Deck:
     category: LIMITED
     identifiers:
+      cardtraderId: '43627'
       mcmId: '270437'
+    subtype: STARTER
+  Fourth Edition Black Bordered Starter Deck Box:
+    category: LIMITED_CASE
+    identifiers:
+      cardtraderId: '43631'
     subtype: STARTER

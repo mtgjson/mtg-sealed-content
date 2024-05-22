@@ -9,6 +9,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '127041'
+      cardtraderId: '47386'
       mcmId: '210142'
       tcgplayerProductId: '32529'
     subtype: DEFAULT
@@ -21,6 +22,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '127042'
+      cardtraderId: '47384'
       mcmId: '210141'
       tcgplayerProductId: '32530'
     subtype: DEFAULT
@@ -35,6 +37,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '127044'
+      cardtraderId: '47400'
       mcmId: '271291'
       tcgplayerProductId: '32533'
     subtype: INTRO
@@ -48,6 +51,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '127045'
+      cardtraderId: '47401'
       mcmId: '271292'
       tcgplayerProductId: '32537'
     subtype: INTRO
@@ -55,6 +59,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '127046'
+      cardtraderId: '47402'
       mcmId: '271293'
       tcgplayerProductId: '32534'
     subtype: INTRO
@@ -62,6 +67,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '127047'
+      cardtraderId: '47403'
       mcmId: '271290'
       tcgplayerProductId: '32535'
     subtype: INTRO
@@ -69,37 +75,44 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '127048'
+      cardtraderId: '47404'
       mcmId: '271289'
       tcgplayerProductId: '32536'
     subtype: INTRO
   2010 Core Set Sample Deck Ajani Goldmane:
     category: DECK
     identifiers:
+      cardtraderId: '47395'
       mcmId: '287565'
     subtype: STARTER
   2010 Core Set Sample Deck Chandra Nalaar:
     category: DECK
     identifiers:
+      cardtraderId: '47396'
       mcmId: '287566'
     subtype: STARTER
   2010 Core Set Sample Deck Garruk Wildspeaker:
     category: DECK
     identifiers:
+      cardtraderId: '47397'
       mcmId: '287567'
     subtype: STARTER
   2010 Core Set Sample Deck Jace Beleren:
     category: DECK
     identifiers:
+      cardtraderId: '47398'
       mcmId: '287568'
     subtype: STARTER
   2010 Core Set Sample Deck Liliana Vess:
     category: DECK
     identifiers:
+      cardtraderId: '47399'
       mcmId: '287569'
     subtype: STARTER
   2010 Core Set Six Card Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '47385'
       mcmId: '315701'
     release_date: '2018-01-16'
     subtype: SIX
@@ -107,7 +120,7 @@ products:
     category: KIT
     identifiers:
       cardKingdomId: '199107'
-      cardtraderId: '62565'
+      cardtraderId: '47406'
       mcmId: '210256'
       tcgplayerProductId: '92505'
     subtype: DECK_BUILDERS_TOOLKIT

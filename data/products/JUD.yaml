@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '1481'
+      cardtraderId: '46015'
       mcmId: '210105'
       tcgplayerProductId: '27285'
     subtype: DEFAULT
@@ -11,12 +12,14 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1500'
+      cardtraderId: '46014'
       mcmId: '210039'
       tcgplayerProductId: '27347'
     subtype: DEFAULT
   Judgment Fat Pack:
     category: BUNDLE
     identifiers:
+      cardtraderId: '46016'
       mcmId: '210183'
       tcgplayerProductId: '78315'
     subtype: FAT_PACK
@@ -24,6 +27,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1497'
+      cardtraderId: '46017'
       mcmId: '253720'
       tcgplayerProductId: '175068'
     subtype: THEME
@@ -31,12 +35,14 @@ products:
     category: DECK_BOX
     identifier: {}
     identifiers:
+      cardtraderId: '46021'
       mcmId: '210230'
     subtype: THEME
   Judgment Theme Deck Inundation:
     category: DECK
     identifiers:
       cardKingdomId: '1499'
+      cardtraderId: '46018'
       mcmId: '253721'
       tcgplayerProductId: '175070'
     subtype: THEME
@@ -44,6 +50,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1498'
+      cardtraderId: '46019'
       mcmId: '253722'
       tcgplayerProductId: '175067'
     subtype: THEME
@@ -51,6 +58,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1496'
+      cardtraderId: '46020'
       mcmId: '253723'
       tcgplayerProductId: '175069'
     subtype: THEME

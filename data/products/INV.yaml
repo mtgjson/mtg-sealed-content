@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '1283'
+      cardtraderId: '45736'
       mcmId: '210099'
       tcgplayerProductId: '27284'
     subtype: DEFAULT
@@ -11,6 +12,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1284'
+      cardtraderId: '45735'
       mcmId: '210033'
       tcgplayerProductId: '27346'
     subtype: DEFAULT
@@ -18,6 +20,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '202539'
+      cardtraderId: '45737'
       mcmId: '210188'
       tcgplayerProductId: '78314'
     subtype: FAT_PACK
@@ -25,6 +28,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1289'
+      cardtraderId: '45738'
       mcmId: '253745'
       tcgplayerProductId: '93340'
     subtype: THEME
@@ -32,6 +36,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1288'
+      cardtraderId: '45739'
       mcmId: '253746'
       tcgplayerProductId: '93342'
     subtype: THEME
@@ -39,12 +44,14 @@ products:
     category: DECK_BOX
     identifiers:
       cardKingdomId: '240153'
+      cardtraderId: '45744'
       mcmId: '210229'
     subtype: THEME
   Invasion Theme Deck Heavy Duty:
     category: DECK
     identifiers:
       cardKingdomId: '1290'
+      cardtraderId: '45741'
       mcmId: '253747'
       tcgplayerProductId: '93341'
     subtype: THEME
@@ -52,6 +59,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1287'
+      cardtraderId: '45742'
       mcmId: '253748'
       tcgplayerProductId: '93343'
     subtype: THEME
@@ -59,11 +67,13 @@ products:
     category: LIMITED
     identifiers:
       cardKingdomId: '1286'
+      cardtraderId: '45743'
       mcmId: '248478'
       tcgplayerProductId: '93344'
     subtype: TOURNAMENT
   Invasion Tournament Pack Display:
     category: LIMITED_CASE
     identifiers:
+      cardtraderId: '45745'
       mcmId: '253857'
     subtype: TOURNAMENT

@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '207306'
+      cardtraderId: '43544'
       mcmId: '210076'
       tcgplayerProductId: '27279'
     subtype: DEFAULT
@@ -11,12 +12,14 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1168'
+      cardtraderId: '43543'
       mcmId: '210010'
       tcgplayerProductId: '27341'
     subtype: DEFAULT
   Fourth Edition Gift Box:
     category: BUNDLE
     identifiers:
+      cardtraderId: '164546'
       mcmId: '369562'
       tcgplayerProductId: '250109'
     release_date: '2019-01-29'
@@ -25,12 +28,14 @@ products:
     category: LIMITED
     identifiers:
       cardKingdomId: '111754'
+      cardtraderId: '43545'
       mcmId: '248495'
       tcgplayerProductId: '194420'
     subtype: STARTER
   Fourth Edition Starter Deck Display:
     category: LIMITED_CASE
     identifiers:
+      cardtraderId: '43546'
       mcmId: '272023'
       tcgplayerProductId: '250110'
     subtype: STARTER

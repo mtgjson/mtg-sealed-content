@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '133026'
+      cardtraderId: '47566'
       mcmId: '245274'
       tcgplayerProductId: '39109'
     subtype: DEFAULT
@@ -16,6 +17,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '133027'
+      cardtraderId: '47562'
       mcmId: '245273'
       tcgplayerProductId: '39108'
     subtype: DEFAULT
@@ -27,6 +29,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '147764'
+      cardtraderId: '47580'
       mcmId: '245281'
       tcgplayerProductId: '141938'
     subtype: EVENT
@@ -34,24 +37,28 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '147763'
+      cardtraderId: '47581'
       mcmId: '245280'
       tcgplayerProductId: '141937'
     subtype: EVENT
   Mirrodin Besieged Event Decks Set of 2:
     category: SUBSET
     identifiers:
+      cardtraderId: '47582'
       mcmId: '245714'
     subtype: EVENT
   Mirrodin Besieged Faction Booster Box:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '240437'
+      cardtraderId: '51195'
       mcmId: '245556'
     subtype: OTHER
   Mirrodin Besieged Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '133028'
+      cardtraderId: '47575'
       mcmId: '245275'
       tcgplayerProductId: '39120'
     subtype: FAT_PACK
@@ -59,6 +66,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '137134'
+      cardtraderId: '47579'
       mcmId: '245279'
       tcgplayerProductId: '39116'
     subtype: INTRO
@@ -66,6 +74,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '137135'
+      cardtraderId: '47576'
       mcmId: '245278'
       tcgplayerProductId: '39119'
     subtype: INTRO
@@ -73,6 +82,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '137136'
+      cardtraderId: '47577'
       mcmId: '245277'
       tcgplayerProductId: '39118'
     subtype: INTRO
@@ -80,12 +90,14 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '137137'
+      cardtraderId: '47578'
       mcmId: '245276'
       tcgplayerProductId: '39117'
     subtype: INTRO
   Mirrodin Besieged Intro Packs Set of 4:
     category: SUBSET
     identifiers:
+      cardtraderId: '47583'
       mcmId: '245318'
       tcgplayerProductId: '39115'
     subtype: INTRO
@@ -93,6 +105,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '184197'
+      cardtraderId: '47564'
       mcmId: '245272'
       tcgplayerProductId: '72025'
     subtype: OTHER
@@ -100,6 +113,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '184196'
+      cardtraderId: '47563'
       mcmId: '245271'
       tcgplayerProductId: '72026'
     subtype: OTHER
@@ -111,6 +125,7 @@ products:
   Mirrodin Besieged Six Card Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '47565'
       mcmId: '315706'
       tcgplayerProductId: 202956
     release_date: '2018-01-16'

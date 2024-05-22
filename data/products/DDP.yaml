@@ -4,6 +4,7 @@ products:
     category: MULTI_DECK
     identifiers:
       cardKingdomId: '202252'
+      cardtraderId: '48327'
       mcmId: '283986'
       tcgplayerProductId: '101886'
     release_date: '2015-08-28'
@@ -15,12 +16,14 @@ products:
   Duel Deck Zendikar vs Eldrazi Eldrazi Deck:
     category: DECK
     identifiers:
+      cardtraderId: '48329'
       mcmId: '283996'
     release_date: '2015-08-18'
     subtype: DUEL
   Duel Deck Zendikar vs Eldrazi Zendikar Deck:
     category: DECK
     identifiers:
+      cardtraderId: '48330'
       mcmId: '283995'
     release_date: '2015-08-18'
     subtype: DUEL

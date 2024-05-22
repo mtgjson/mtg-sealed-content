@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '208692'
+      cardtraderId: '48461'
       mcmId: '290526'
       tcgplayerProductId: '121527'
     release_date: '2016-05-30'
@@ -17,6 +18,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '208693'
+      cardtraderId: '48459'
       mcmId: '290527'
       tcgplayerProductId: '121529'
     release_date: '2016-05-30'
@@ -25,6 +27,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '208697'
+      cardtraderId: '48469'
       mcmId: '292537'
       tcgplayerProductId: '122680'
     release_date: '2016-09-06'
@@ -42,6 +45,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '210348'
+      cardtraderId: '48475'
       mcmId: '293173'
       tcgplayerProductId: '125323'
     release_date: '2016-10-07'
@@ -49,6 +53,7 @@ products:
   Kaladesh Holiday Buy a Box Promo Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '48460'
       mcmId: '294236'
       tcgplayerProductId: '264814'
     release_date: '2016-11-21'
@@ -57,6 +62,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '209421'
+      cardtraderId: '48471'
       mcmId: '292528'
       tcgplayerProductId: '122682'
     release_date: '2016-09-06'
@@ -69,6 +75,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '209420'
+      cardtraderId: '48470'
       mcmId: '292527'
       tcgplayerProductId: '122683'
     release_date: '2016-09-06'
@@ -81,6 +88,7 @@ products:
   Kaladesh Prerelease Kit:
     category: LIMITED
     identifiers:
+      cardtraderId: '48473'
       mcmId: '292529'
       tcgplayerProductId: '122685'
     release_date: '2016-09-06'
@@ -88,12 +96,14 @@ products:
   Kaladesh Standard Showdown Booster:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '49716'
       mcmId: '294534'
     release_date: '2016-11-29'
     subtype: PROMOTIONAL
   Kaladesh Two Player Booster Battle Pack:
     category: MULTI_DECK
     identifiers:
+      cardtraderId: '48472'
       mcmId: '292530'
       tcgplayerProductId: '122681'
     release_date: '2016-09-06'

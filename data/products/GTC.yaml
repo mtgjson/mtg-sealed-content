@@ -3,18 +3,21 @@ products:
   Gatecrash Booster Battle Pack:
     category: MULTI_DECK
     identifiers:
+      cardtraderId: '47891'
       mcmId: '260417'
       tcgplayerProductId: '172938'
     subtype: BATTLE
   Gatecrash Booster Battle Pack Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '47903'
       mcmId: '260418'
     subtype: BATTLE
   Gatecrash Booster Box:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '188834'
+      cardtraderId: '47878'
       mcmId: '259794'
       tcgplayerProductId: '67311'
     subtype: DEFAULT
@@ -27,6 +30,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '188833'
+      cardtraderId: '47876'
       mcmId: '259793'
       tcgplayerProductId: '67313'
     release_date: '2013-02-01'
@@ -34,12 +38,14 @@ products:
   Gatecrash Event Deck Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '47904'
       mcmId: '260463'
     subtype: EVENT
   Gatecrash Event Deck Rally and Rout:
     category: DECK
     identifiers:
       cardKingdomId: '189135'
+      cardtraderId: '47892'
       mcmId: '260460'
       tcgplayerProductId: '110554'
     subtype: EVENT
@@ -47,18 +53,21 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '189136'
+      cardtraderId: '47893'
       mcmId: '260461'
       tcgplayerProductId: '110553'
     subtype: EVENT
   Gatecrash Event Decks Set of 2:
     category: SUBSET
     identifiers:
+      cardtraderId: '47894'
       mcmId: '260462'
     subtype: EVENT
   Gatecrash Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '188835'
+      cardtraderId: '47885'
       mcmId: '259795'
       tcgplayerProductId: '67312'
     release_date: '2013-02-01'
@@ -67,6 +76,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '188887'
+      cardtraderId: '47886'
       mcmId: '259873'
       tcgplayerProductId: '67388'
     release_date: '2013-02-01'
@@ -75,6 +85,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '188885'
+      cardtraderId: '47887'
       mcmId: '259874'
       tcgplayerProductId: '67386'
     release_date: '2013-02-01'
@@ -82,12 +93,14 @@ products:
   Gatecrash Intro Pack Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '47901'
       mcmId: '259879'
     subtype: INTRO
   Gatecrash Intro Pack Gruul Goliaths:
     category: DECK
     identifiers:
       cardKingdomId: '188886'
+      cardtraderId: '47888'
       mcmId: '259875'
       tcgplayerProductId: '67387'
     release_date: '2013-02-01'
@@ -96,6 +109,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '188884'
+      cardtraderId: '47889'
       mcmId: '259876'
       tcgplayerProductId: '67385'
     release_date: '2013-02-01'
@@ -103,6 +117,7 @@ products:
   Gatecrash Intro Pack Set of 5:
     category: SUBSET
     identifiers:
+      cardtraderId: '47902'
       mcmId: '259878'
       tcgplayerProductId: '67384'
     subtype: INTRO
@@ -110,6 +125,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '188888'
+      cardtraderId: '47890'
       mcmId: '259877'
       tcgplayerProductId: '67389'
     release_date: '2013-02-01'
@@ -117,36 +133,42 @@ products:
   Gatecrash Prerelease Kit Boros:
     category: LIMITED
     identifiers:
+      cardtraderId: '47895'
       mcmId: '260419'
       tcgplayerProductId: '106351'
     subtype: PRERELEASE
   Gatecrash Prerelease Kit Dimir:
     category: LIMITED
     identifiers:
+      cardtraderId: '47896'
       mcmId: '260421'
       tcgplayerProductId: '106352'
     subtype: PRERELEASE
   Gatecrash Prerelease Kit Gruul:
     category: LIMITED
     identifiers:
+      cardtraderId: '47897'
       mcmId: '260422'
       tcgplayerProductId: '106353'
     subtype: PRERELEASE
   Gatecrash Prerelease Kit Orzhov:
     category: LIMITED
     identifiers:
+      cardtraderId: '47898'
       mcmId: '260420'
       tcgplayerProductId: '106354'
     subtype: PRERELEASE
   Gatecrash Prerelease Kit Simic:
     category: LIMITED
     identifiers:
+      cardtraderId: '47899'
       mcmId: '260423'
       tcgplayerProductId: '106355'
     subtype: PRERELEASE
   Gatecrash Prerelease Kits Set of 5:
     category: SUBSET
     identifiers:
+      cardtraderId: '47900'
       mcmId: '273049'
       tcgplayerProductId: '106350'
     release_date: '2015-03-02'
@@ -154,5 +176,6 @@ products:
   Gatecrash Six Card Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '47877'
       mcmId: '315714'
     subtype: SIX

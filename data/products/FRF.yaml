@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '198423'
+      cardtraderId: '48215'
       mcmId: '271443'
       tcgplayerProductId: '94746'
     release_date: '2015-01-21'
@@ -17,6 +18,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '198424'
+      cardtraderId: '48214'
       mcmId: '271455'
       tcgplayerProductId: '95031'
     release_date: '2015-01-21'
@@ -25,6 +27,7 @@ products:
     category: MULTI_DECK
     identifiers:
       cardKingdomId: '198429'
+      cardtraderId: '48224'
       mcmId: '271577'
       tcgplayerProductId: '95035'
     subtype: CLASH
@@ -32,6 +35,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '198425'
+      cardtraderId: '48223'
       mcmId: '271456'
       tcgplayerProductId: '95032'
     release_date: '2015-01-21'
@@ -40,12 +44,14 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '198994'
+      cardtraderId: '48226'
       mcmId: '271558'
       tcgplayerProductId: '95261'
     subtype: INTRO
   Fate Reforged Intro Pack Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '48237'
       mcmId: '272136'
       tcgplayerProductId: '95033'
     release_date: '2015-01-26'
@@ -54,12 +60,14 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '198995'
+      cardtraderId: '48227'
       mcmId: '271559'
       tcgplayerProductId: '95259'
     subtype: INTRO
   Fate Reforged Intro Pack Set of 5:
     category: SUBSET
     identifiers:
+      cardtraderId: '48236'
       mcmId: '272135'
       tcgplayerProductId: '95034'
     release_date: '2015-01-26'
@@ -68,6 +76,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '198996'
+      cardtraderId: '48228'
       mcmId: '271560'
       tcgplayerProductId: '95258'
     subtype: INTRO
@@ -75,6 +84,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '198997'
+      cardtraderId: '48229'
       mcmId: '271561'
       tcgplayerProductId: '95260'
     subtype: INTRO
@@ -82,43 +92,50 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '198993'
+      cardtraderId: '48225'
       mcmId: '271557'
       tcgplayerProductId: '95262'
     subtype: INTRO
-  Fate Reforged Prerelease Kit Abzan:
+  Fate Reforged Prerelease Kit Abzan Battle with Endurance:
     category: LIMITED
     identifiers:
+      cardtraderId: '48231'
       mcmId: '272438'
       tcgplayerProductId: '95910'
     subtype: PRERELEASE
-  Fate Reforged Prerelease Kit Jeskai:
+  Fate Reforged Prerelease Kit Jeskai Battle with Cunning:
     category: LIMITED
     identifiers:
+      cardtraderId: '48230'
       mcmId: '272437'
       tcgplayerProductId: '95912'
     subtype: PRERELEASE
-  Fate Reforged Prerelease Kit Mardu:
+  Fate Reforged Prerelease Kit Mardu Battle with Speed:
     category: LIMITED
     identifiers:
+      cardtraderId: '48234'
       mcmId: '272441'
       tcgplayerProductId: '95911'
     subtype: PRERELEASE
   Fate Reforged Prerelease Kit Set of 5:
     category: SUBSET
     identifiers:
+      cardtraderId: '48235'
       mcmId: '273046'
       tcgplayerProductId: '95915'
     release_date: '2015-03-02'
     subtype: PRERELEASE
-  Fate Reforged Prerelease Kit Sultai:
+  Fate Reforged Prerelease Kit Sultai Battle with Ruthlessness:
     category: LIMITED
     identifiers:
+      cardtraderId: '48232'
       mcmId: '272439'
       tcgplayerProductId: '95913'
     subtype: PRERELEASE
-  Fate Reforged Prerelease Kit Temur:
+  Fate Reforged Prerelease Kit Temur Battle with Savagery:
     category: LIMITED
     identifiers:
+      cardtraderId: '48233'
       mcmId: '272440'
       tcgplayerProductId: '95914'
     subtype: PRERELEASE

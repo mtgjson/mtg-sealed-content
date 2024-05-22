@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '124154'
+      cardtraderId: '47258'
       mcmId: '210131'
       tcgplayerProductId: '27292'
     subtype: DEFAULT
@@ -11,6 +12,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '124155'
+      cardtraderId: '47257'
       mcmId: '210065'
       tcgplayerProductId: '27354'
     subtype: DEFAULT
@@ -18,6 +20,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '124156'
+      cardtraderId: '47264'
       mcmId: '210163'
       tcgplayerProductId: '78321'
     subtype: FAT_PACK
@@ -25,6 +28,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '124463'
+      cardtraderId: '47267'
       mcmId: '253639'
       tcgplayerProductId: '249987'
     subtype: THEME
@@ -32,12 +36,14 @@ products:
     category: DECK_BOX
     identifier: {}
     identifiers:
+      cardtraderId: '47269'
       mcmId: '210209'
     subtype: THEME
   Morningtide Theme Deck Going Rogue:
     category: DECK
     identifiers:
       cardKingdomId: '124464'
+      cardtraderId: '47265'
       mcmId: '253640'
       tcgplayerProductId: '249988'
     subtype: THEME
@@ -45,6 +51,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '124465'
+      cardtraderId: '47268'
       mcmId: '253641'
       tcgplayerProductId: '249989'
     subtype: THEME
@@ -52,6 +59,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '124466'
+      cardtraderId: '47266'
       mcmId: '253642'
       tcgplayerProductId: '249990'
     subtype: THEME

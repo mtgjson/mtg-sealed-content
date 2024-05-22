@@ -28,6 +28,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '199380'
+      cardtraderId: '48261'
       mcmId: '281990'
       tcgplayerProductId: '96151'
     release_date: '2015-03-20'
@@ -91,27 +92,31 @@ products:
       tcgplayerProductId: '96152'
     release_date: '2015-06-03'
     subtype: INTRO
-  Dragons of Tarkir Prerelease Kit Atarka:
+  Dragons of Tarkir Prerelease Kit Atarka Battle with Savagery:
     category: LIMITED
     identifiers:
+      cardtraderId: '48270'
       mcmId: '282045'
       tcgplayerProductId: '96477'
     subtype: PRERELEASE
-  Dragons of Tarkir Prerelease Kit Dromoka:
+  Dragons of Tarkir Prerelease Kit Dromoka Battle with Endurance:
     category: LIMITED
     identifiers:
+      cardtraderId: '48268'
       mcmId: '282043'
       tcgplayerProductId: '96473'
     subtype: PRERELEASE
-  Dragons of Tarkir Prerelease Kit Kolaghan:
+  Dragons of Tarkir Prerelease Kit Kolaghan Battle with Speed:
     category: LIMITED
     identifiers:
+      cardtraderId: '48271'
       mcmId: '282046'
       tcgplayerProductId: '96476'
     subtype: PRERELEASE
-  Dragons of Tarkir Prerelease Kit Ojutai:
+  Dragons of Tarkir Prerelease Kit Ojutai Battle with Cunning:
     category: LIMITED
     identifiers:
+      cardtraderId: '48267'
       mcmId: '282042'
       tcgplayerProductId: '96474'
     subtype: PRERELEASE
@@ -120,9 +125,10 @@ products:
     identifiers:
       tcgplayerProductId: '96478'
     subtype: PRERELEASE
-  Dragons of Tarkir Prerelease Kit Silumgar:
+  Dragons of Tarkir Prerelease Kit Silumgar Battle with Ruthlessness:
     category: LIMITED
     identifiers:
+      cardtraderId: '48269'
       mcmId: '282044'
       tcgplayerProductId: '96475'
     subtype: PRERELEASE

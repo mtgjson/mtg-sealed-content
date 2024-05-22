@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '122307'
+      cardtraderId: '47194'
       mcmId: '210126'
       tcgplayerProductId: '27280'
     subtype: DEFAULT
@@ -11,6 +12,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '122308'
+      cardtraderId: '47193'
       mcmId: '210060'
       tcgplayerProductId: '27342'
     subtype: DEFAULT
@@ -18,12 +20,14 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '122310'
+      cardtraderId: '47195'
       mcmId: '210166'
       tcgplayerProductId: '78312'
     subtype: FAT_PACK
   Future Sight Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '47200'
       mcmId: '210214'
       tcgplayerProductId: '106356'
     subtype: THEME
@@ -31,6 +35,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '122698'
+      cardtraderId: '47196'
       mcmId: '253653'
       tcgplayerProductId: '106346'
     subtype: THEME
@@ -38,6 +43,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '122699'
+      cardtraderId: '47197'
       mcmId: '253654'
       tcgplayerProductId: '106347'
     subtype: THEME
@@ -45,6 +51,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '122700'
+      cardtraderId: '47198'
       mcmId: '253655'
       tcgplayerProductId: '106348'
     subtype: THEME
@@ -52,6 +59,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '122701'
+      cardtraderId: '47199'
       mcmId: '253656'
       tcgplayerProductId: '106349'
     subtype: THEME

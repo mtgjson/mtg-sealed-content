@@ -3,6 +3,7 @@ products:
   Eighth Edition Advanced Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '46032'
       mcmId: '283068'
       tcgplayerProductId: '248193'
     subtype: ADVANCED
@@ -10,6 +11,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '1548'
+      cardtraderId: '46033'
       mcmId: '210109'
       tcgplayerProductId: '27259'
     subtype: DEFAULT
@@ -17,12 +19,14 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1555'
+      cardtraderId: '46030'
       mcmId: '210043'
       tcgplayerProductId: '27321'
     subtype: DEFAULT
   Eighth Edition Box Set:
     category: BOX_SET
     identifiers:
+      cardtraderId: '46040'
       mcmId: '283064'
       tcgplayerProductId: '245974'
     release_date: '2015-05-18'
@@ -30,6 +34,7 @@ products:
   Eighth Edition Demo Game Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '51004'
       mcmId: '253802'
       tcgplayerProductId: '248192'
     subtype: PROMOTIONAL
@@ -41,12 +46,14 @@ products:
   Eighth Edition Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '46041'
       mcmId: '210227'
     subtype: THEME
   Eighth Edition Theme Deck Expulsion:
     category: DECK
     identifiers:
       cardKingdomId: '1552'
+      cardtraderId: '46038'
       mcmId: '210152'
       tcgplayerProductId: '96325'
     subtype: THEME
@@ -54,6 +61,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1554'
+      cardtraderId: '46034'
       mcmId: '210153'
       tcgplayerProductId: '96326'
     subtype: THEME
@@ -61,6 +69,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1550'
+      cardtraderId: '46035'
       mcmId: '210154'
       tcgplayerProductId: '96327'
     subtype: THEME
@@ -82,6 +91,7 @@ products:
     category: MULTI_DECK
     identifiers:
       cardKingdomId: '1556'
+      cardtraderId: '46039'
       mcmId: '253816'
       tcgplayerProductId: '81797'
     subtype: TWO_PLAYER_STARTER

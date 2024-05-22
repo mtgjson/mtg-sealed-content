@@ -9,6 +9,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '131448'
+      cardtraderId: '47502'
       mcmId: '241075'
       tcgplayerProductId: '35372'
     subtype: DEFAULT
@@ -21,6 +22,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '131449'
+      cardtraderId: '47500'
       mcmId: '241074'
       tcgplayerProductId: '35374'
     subtype: DEFAULT
@@ -90,26 +92,31 @@ products:
   2011 Core Set Sample Deck Ajani Goldmane:
     category: DECK
     identifiers:
+      cardtraderId: '47516'
       mcmId: '287570'
     subtype: STARTER
   2011 Core Set Sample Deck Chandra Nalaar:
     category: DECK
     identifiers:
+      cardtraderId: '47517'
       mcmId: '287571'
     subtype: STARTER
   2011 Core Set Sample Deck Garruk Wildspeaker:
     category: DECK
     identifiers:
+      cardtraderId: '47518'
       mcmId: '287572'
     subtype: STARTER
   2011 Core Set Sample Deck Jace Beleren:
     category: DECK
     identifiers:
+      cardtraderId: '47519'
       mcmId: '287573'
     subtype: STARTER
   2011 Core Set Sample Deck Liliana Vess:
     category: DECK
     identifiers:
+      cardtraderId: '47520'
       mcmId: '287574'
     subtype: STARTER
   2011 Core Set Set of 5 Intro Pack:
@@ -120,6 +127,7 @@ products:
   2011 Core Set Six Card Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '47501'
       mcmId: '253815'
       tcgplayerProductId: '244377'
     subtype: SIX

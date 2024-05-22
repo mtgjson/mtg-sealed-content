@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '119571'
+      cardtraderId: '47080'
       mcmId: '210119'
       tcgplayerProductId: '27281'
     subtype: DEFAULT
@@ -11,6 +12,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '119572'
+      cardtraderId: '47079'
       mcmId: '210053'
       tcgplayerProductId: '27343'
     subtype: DEFAULT
@@ -18,6 +20,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '119577'
+      cardtraderId: '47081'
       mcmId: '210171'
       tcgplayerProductId: '78313'
     subtype: FAT_PACK
@@ -25,6 +28,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '119573'
+      cardtraderId: '47082'
       mcmId: '253672'
       tcgplayerProductId: '96340'
     subtype: THEME
@@ -32,12 +36,14 @@ products:
     category: DECK_BOX
     identifier: {}
     identifiers:
+      cardtraderId: '47087'
       mcmId: '210221'
     subtype: THEME
   Guildpact Theme Deck Gruul Wilding:
     category: DECK
     identifiers:
       cardKingdomId: '119574'
+      cardtraderId: '47084'
       mcmId: '253673'
       tcgplayerProductId: '96341'
     subtype: THEME
@@ -45,6 +51,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '119575'
+      cardtraderId: '47085'
       mcmId: '253674'
       tcgplayerProductId: '96342'
     subtype: THEME

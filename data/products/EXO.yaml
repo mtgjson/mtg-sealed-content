@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '1235'
+      cardtraderId: '45418'
       mcmId: '210086'
       tcgplayerProductId: '27275'
     subtype: DEFAULT
@@ -11,6 +12,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1175'
+      cardtraderId: '45417'
       mcmId: '210020'
       tcgplayerProductId: '27337'
     subtype: DEFAULT
@@ -18,12 +20,14 @@ products:
     category: DECK_BOX
     identifier: {}
     identifiers:
+      cardtraderId: '45423'
       mcmId: '210228'
     subtype: THEME
   Exodus Theme Deck Dominator:
     category: DECK
     identifiers:
       cardKingdomId: '1176'
+      cardtraderId: '45419'
       mcmId: '244174'
       tcgplayerProductId: '116054'
     subtype: THEME
@@ -31,6 +35,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1177'
+      cardtraderId: '45420'
       mcmId: '244175'
       tcgplayerProductId: '116055'
     subtype: THEME
@@ -38,6 +43,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1178'
+      cardtraderId: '45421'
       mcmId: '244176'
       tcgplayerProductId: '116056'
     subtype: THEME
@@ -45,6 +51,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1179'
+      cardtraderId: '45422'
       mcmId: '244177'
       tcgplayerProductId: '116057'
     subtype: THEME

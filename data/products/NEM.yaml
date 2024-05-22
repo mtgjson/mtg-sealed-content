@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '1162'
+      cardtraderId: '45616'
       mcmId: '210097'
       tcgplayerProductId: '27293'
     subtype: DEFAULT
@@ -11,6 +12,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1163'
+      cardtraderId: '45615'
       mcmId: '210031'
       tcgplayerProductId: '27355'
     subtype: DEFAULT
@@ -18,6 +20,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '240343'
+      cardtraderId: '45618'
       mcmId: '210190'
       tcgplayerProductId: '78322'
     subtype: FAT_PACK
@@ -25,18 +28,21 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1164'
+      cardtraderId: '45619'
       mcmId: '253753'
       tcgplayerProductId: '116042'
     subtype: THEME
   Nemesis Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '45623'
       mcmId: '210233'
     subtype: THEME
   Nemesis Theme Deck Eruption:
     category: DECK
     identifiers:
       cardKingdomId: '1165'
+      cardtraderId: '45620'
       mcmId: '253754'
       tcgplayerProductId: '116043'
     subtype: THEME
@@ -44,6 +50,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1166'
+      cardtraderId: '45621'
       mcmId: '253755'
       tcgplayerProductId: '116044'
     subtype: THEME
@@ -51,6 +58,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1167'
+      cardtraderId: '45622'
       mcmId: '253756'
       tcgplayerProductId: '116045'
     subtype: THEME

@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '1531'
+      cardtraderId: '46336'
       mcmId: '210107'
       tcgplayerProductId: '27287'
     subtype: DEFAULT
@@ -11,6 +12,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1537'
+      cardtraderId: '46335'
       mcmId: '210041'
       tcgplayerProductId: '27349'
     subtype: DEFAULT
@@ -18,18 +20,21 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '240341'
+      cardtraderId: '46337'
       mcmId: '210181'
       tcgplayerProductId: '78316'
     subtype: FAT_PACK
   Legions Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '46343'
       mcmId: '210231'
     subtype: THEME
   Legions Theme Deck Elvish Rage:
     category: DECK
     identifiers:
       cardKingdomId: '1532'
+      cardtraderId: '46338'
       mcmId: '253712'
       tcgplayerProductId: '96427'
     subtype: THEME
@@ -37,6 +42,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1534'
+      cardtraderId: '46339'
       mcmId: '253713'
       tcgplayerProductId: '96426'
     subtype: THEME
@@ -44,6 +50,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1535'
+      cardtraderId: '46340'
       mcmId: '253714'
       tcgplayerProductId: '96428'
     subtype: THEME
@@ -51,6 +58,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1533'
+      cardtraderId: '46341'
       mcmId: '253715'
       tcgplayerProductId: '96429'
     subtype: THEME
