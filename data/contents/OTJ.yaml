@@ -1,12 +1,66 @@
 code: otj
 products:
-  Outlaws of Thunder Junction Bundle: []
-  Outlaws of Thunder Junction Bundle Case: []
-  Outlaws of Thunder Junction Collector Booster Box: []
-  Outlaws of Thunder Junction Collector Booster Box Case: []
-  Outlaws of Thunder Junction Collector Booster Pack: []
-  Outlaws of Thunder Junction Collector Booster Sample Pack: []
-  Outlaws of Thunder Junction Play Booster Box: []
-  Outlaws of Thunder Junction Play Booster Box Case: []
-  Outlaws of Thunder Junction Play Booster Pack: []
-  Outlaws of Thunder Junction Prerelease Pack: []
+  Outlaws of Thunder Junction Bundle: 
+    sealed:
+    - set: otj
+      count: 9
+      name: Outlaws of Thunder Junction Play Booster Pack
+    card:
+    - set: otj
+      number: 373
+      foil: true
+      name: The Key to the Vault
+    other:
+    - name: 30 card basic land bundle
+    - name: Outlaws of Thunder Junction Spindown
+  Outlaws of Thunder Junction Bundle Case: 
+    sealed:
+    - set: otj
+      count: 6
+      name: Outlaws of Thunder Junction Bundle
+  Outlaws of Thunder Junction Collector Booster Box: 
+    sealed:
+    - set: otj
+      count: 12
+      name: Outlaws of Thunder Junction Collector Booster Pack
+  Outlaws of Thunder Junction Collector Booster Box Case: 
+    sealed:
+    - set: otj
+      count: 6
+      name: Outlaws of Thunder Junction Collector Booster Box
+  Outlaws of Thunder Junction Collector Booster Pack: 
+    pack:
+    - set: otj
+      code: collector
+    card_count: 15
+  Outlaws of Thunder Junction Collector Booster Sample Pack: 
+    pack:
+    - set: otj
+      code: collector-sample
+    card_count: 2
+  Outlaws of Thunder Junction Play Booster Box: 
+    sealed:
+    - set: otj
+      count: 36
+      name: Outlaws of Thunder Junction Play Booster Pack
+  Outlaws of Thunder Junction Play Booster Box Case: 
+    sealed: 
+    - set: otj
+      count: 6
+      name: Outlaws of Thunder Junction Play Booster Box
+  Outlaws of Thunder Junction Play Booster Pack: 
+    pack:
+    - set: otj
+      code: play
+    card_count: 14
+  Outlaws of Thunder Junction Prerelease Pack: 
+    sealed:
+    - set: otj
+      name: Outlaws of Thunder Junction Play Booster Pack
+      count: 6
+    card_count: 1
+    pack:
+    - set: otj
+      code: prerelease
+    other:
+    - name: Outlaws of Thunder Junction Spindown
