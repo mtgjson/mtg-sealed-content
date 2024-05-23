@@ -480,7 +480,12 @@ def main(secret):
     for key, provider in providers_dict.items():
         if provider.get("disabled"):
             continue
-        products = provider["load_func"](secret)
+        try:
+            products = provider["load_func"](secret)
+        except Exception as e:
+            print(f"Could not load provider {key}")
+            print(repr(e))
+            products = []
 
         for product in products:
             if str(product["id"]) in ids[key]:
