@@ -1,78 +1,78 @@
 code: otc
 products:
-  Outlaws of Thunder Junction Commander Deck Desert Bloom: 
+  Outlaws of Thunder Junction Commander Deck Desert Bloom:
     card_count: 100
     deck:
-    - set: otc
-      name: Desert Bloom
-    sealed:
-    - set: otj
-      name: Outlaws of Thunder Junction Collector Booster Sample Pack
-      count: 1
+    - name: Desert Bloom
+      set: otc
     other:
     - name: Deck Box
     - name: Life Wheel
-  Outlaws of Thunder Junction Commander Deck Display: 
     sealed:
-    - set: otc
-      count: 1
+    - count: 1
+      name: Outlaws of Thunder Junction Collector Booster Sample Pack
+      set: otj
+  Outlaws of Thunder Junction Commander Deck Display:
+    sealed:
+    - count: 1
       name: Outlaws of Thunder Junction Commander Deck Desert Bloom
-    - set: otc
-      count: 1
+      set: otc
+    - count: 1
       name: Outlaws of Thunder Junction Commander Deck Grand Larceny
-    - set: otc
-      count: 1
+      set: otc
+    - count: 1
       name: Outlaws of Thunder Junction Commander Deck Most Wanted
-    - set: otc
-      count: 1
+      set: otc
+    - count: 1
       name: Outlaws of Thunder Junction Commander Deck Quick Draw
-  Outlaws of Thunder Junction Commander Deck Grand Larceny: 
+      set: otc
+  Outlaws of Thunder Junction Commander Deck Grand Larceny:
     card_count: 100
     deck:
-    - set: otc
-      name: Grand Larceny
-    sealed:
-    - set: otj
-      name: Outlaws of Thunder Junction Collector Booster Sample Pack
-      count: 1
+    - name: Grand Larceny
+      set: otc
     other:
     - name: Deck Box
     - name: Life Wheel
-  Outlaws of Thunder Junction Commander Deck Most Wanted: 
+    sealed:
+    - count: 1
+      name: Outlaws of Thunder Junction Collector Booster Sample Pack
+      set: otj
+  Outlaws of Thunder Junction Commander Deck Most Wanted:
     card_count: 100
     deck:
-    - set: otc
-      name: Most Wanted
-    sealed:
-    - set: otj
-      name: Outlaws of Thunder Junction Collector Booster Sample Pack
-      count: 1
+    - name: Most Wanted
+      set: otc
     other:
     - name: Deck Box
     - name: Life Wheel
-  Outlaws of Thunder Junction Commander Deck Quick Draw: 
+    sealed:
+    - count: 1
+      name: Outlaws of Thunder Junction Collector Booster Sample Pack
+      set: otj
+  Outlaws of Thunder Junction Commander Deck Quick Draw:
     card_count: 100
     deck:
-    - set: otc
-      name: Quick Draw
-    sealed:
-    - set: otj
-      name: Outlaws of Thunder Junction Collector Booster Sample Pack
-      count: 1
+    - name: Quick Draw
+      set: otc
     other:
     - name: Deck Box
     - name: Life Wheel
-  Outlaws of Thunder Junction Commander Deck Set of Four: 
     sealed:
-    - set: otc
-      count: 1
+    - count: 1
+      name: Outlaws of Thunder Junction Collector Booster Sample Pack
+      set: otj
+  Outlaws of Thunder Junction Commander Deck Set of Four:
+    sealed:
+    - count: 1
       name: Outlaws of Thunder Junction Commander Deck Desert Bloom
-    - set: otc
-      count: 1
+      set: otc
+    - count: 1
       name: Outlaws of Thunder Junction Commander Deck Grand Larceny
-    - set: otc
-      count: 1
+      set: otc
+    - count: 1
       name: Outlaws of Thunder Junction Commander Deck Most Wanted
-    - set: otc
-      count: 1
+      set: otc
+    - count: 1
       name: Outlaws of Thunder Junction Commander Deck Quick Draw
+      set: otc
