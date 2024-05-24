@@ -9,6 +9,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '132079'
+      cardtraderId: '47538'
       mcmId: '242507'
       tcgplayerProductId: '35749'
     subtype: DEFAULT
@@ -21,6 +22,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '132071'
+      cardtraderId: '47536'
       mcmId: '242506'
       tcgplayerProductId: '35747'
     subtype: DEFAULT
@@ -28,6 +30,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '132111'
+      cardtraderId: '47546'
       mcmId: '242508'
       tcgplayerProductId: '35746'
     subtype: FAT_PACK
@@ -42,6 +45,7 @@ products:
   Scars of Mirrodin Intro Pack Display:
     category: DECK
     identifiers:
+      cardtraderId: '47552'
       mcmId: '242509'
     subtype: INTRO
   Scars of Mirrodin Intro Pack Metalcraft:
@@ -79,10 +83,12 @@ products:
   Scars of Mirrodin Intro Pack Set of 5:
     category: SUBSET
     identifiers:
+      cardtraderId: '47554'
       mcmId: '242643'
     subtype: INTRO
   Scars of Mirrodin Six Card Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '47537'
       mcmId: '315705'
     subtype: SIX

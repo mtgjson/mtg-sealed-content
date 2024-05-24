@@ -3,16 +3,19 @@ products:
   Starter 2000 Advanced Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '45731'
       mcmId: '260971'
     subtype: ADVANCED
   Starter 2000 Demo Game Booster:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '45730'
       mcmId: '260970'
     subtype: PROMOTIONAL
   Starter 2000 Sampler Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '51003'
       mcmId: '369561'
       tcgplayerProductId: '257333'
     release_date: '2019-01-29'

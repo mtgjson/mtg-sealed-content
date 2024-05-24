@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '125621'
+      cardtraderId: '47316'
       mcmId: '210136'
       tcgplayerProductId: '28640'
     subtype: DEFAULT
@@ -16,6 +17,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '125622'
+      cardtraderId: '47315'
       mcmId: '210135'
       tcgplayerProductId: '28639'
     subtype: DEFAULT
@@ -23,6 +25,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '125625'
+      cardtraderId: '47324'
       mcmId: '210160'
       tcgplayerProductId: '78331'
     subtype: FAT_PACK
@@ -37,6 +40,7 @@ products:
   Shards of Alara Intro Pack Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '47331'
       mcmId: '210206'
     subtype: INTRO
   Shards of Alara Intro Pack Esper Artifice:
@@ -91,12 +95,14 @@ products:
     category: LIMITED_CASE
     identifiers:
       cardKingdomId: '240207'
+      cardtraderId: '47332'
       mcmId: '253866'
     subtype: TOURNAMENT
   Shards of Alara Tournament Pack:
     category: LIMITED
     identifiers:
       cardKingdomId: '125623'
+      cardtraderId: '47330'
       mcmId: '248486'
       tcgplayerProductId: '118881'
     subtype: TOURNAMENT

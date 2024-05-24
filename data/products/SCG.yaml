@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '1538'
+      cardtraderId: '46496'
       mcmId: '210108'
       tcgplayerProductId: '27305'
     subtype: DEFAULT
@@ -11,6 +12,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1544'
+      cardtraderId: '46355'
       mcmId: '210042'
       tcgplayerProductId: '27367'
     subtype: DEFAULT
@@ -18,18 +20,21 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '240345'
+      cardtraderId: '46497'
       mcmId: '210180'
       tcgplayerProductId: '78329'
     subtype: FAT_PACK
   Scourge Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '46502'
       mcmId: '210238'
     subtype: THEME
   Scourge Theme Deck Goblin Mob:
     category: DECK
     identifiers:
       cardKingdomId: '1540'
+      cardtraderId: '46498'
       mcmId: '253708'
       tcgplayerProductId: '174318'
     subtype: THEME
@@ -37,6 +42,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1541'
+      cardtraderId: '46499'
       mcmId: '253709'
       tcgplayerProductId: '174319'
     subtype: THEME
@@ -44,6 +50,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1542'
+      cardtraderId: '46500'
       mcmId: '253710'
       tcgplayerProductId: '174320'
     subtype: THEME
@@ -51,6 +58,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1543'
+      cardtraderId: '46501'
       mcmId: '253711'
       tcgplayerProductId: '174321'
     subtype: THEME
