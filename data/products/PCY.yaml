@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '1221'
+      cardtraderId: '45634'
       mcmId: '210098'
       tcgplayerProductId: '27301'
     subtype: DEFAULT
@@ -11,6 +12,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1226'
+      cardtraderId: '45633'
       mcmId: '210032'
       tcgplayerProductId: '27363'
     subtype: DEFAULT
@@ -18,18 +20,21 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '240192'
+      cardtraderId: '45635'
       mcmId: '210189'
       tcgplayerProductId: '78327'
     subtype: FAT_PACK
   Prophecy Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '45640'
       mcmId: '210237'
     subtype: THEME
   Prophecy Theme Deck Distress:
     category: DECK
     identifiers:
       cardKingdomId: '1225'
+      cardtraderId: '45637'
       mcmId: '253749'
       tcgplayerProductId: '116046'
     subtype: THEME
@@ -37,6 +42,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1222'
+      cardtraderId: '45638'
       mcmId: '253750'
       tcgplayerProductId: '116047'
     subtype: THEME
@@ -44,6 +50,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1223'
+      cardtraderId: '45636'
       mcmId: '253751'
       tcgplayerProductId: '116048'
     subtype: THEME
@@ -51,6 +58,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1224'
+      cardtraderId: '45639'
       mcmId: '253752'
       tcgplayerProductId: '116049'
     subtype: THEME

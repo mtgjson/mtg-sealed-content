@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '1506'
+      cardtraderId: '46311'
       mcmId: '210106'
       tcgplayerProductId: '27295'
     subtype: DEFAULT
@@ -11,6 +12,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1507'
+      cardtraderId: '46309'
       mcmId: '210040'
       tcgplayerProductId: '27357'
     subtype: DEFAULT
@@ -18,6 +20,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '240339'
+      cardtraderId: '46312'
       mcmId: '210182'
       tcgplayerProductId: '78324'
     subtype: FAT_PACK
@@ -25,6 +28,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1509'
+      cardtraderId: '46314'
       mcmId: '253716'
       tcgplayerProductId: '96346'
     subtype: THEME
@@ -32,6 +36,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1510'
+      cardtraderId: '46315'
       mcmId: '253717'
       tcgplayerProductId: '96347'
     subtype: THEME
@@ -39,18 +44,21 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1512'
+      cardtraderId: '46316'
       mcmId: '253718'
       tcgplayerProductId: '96348'
     subtype: THEME
   Onslaught Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '46322'
       mcmId: '210235'
     subtype: THEME
   Onslaught Theme Deck Ivory Doom:
     category: DECK
     identifiers:
       cardKingdomId: '1511'
+      cardtraderId: '46317'
       mcmId: '253719'
       tcgplayerProductId: '96349'
     subtype: THEME
@@ -58,11 +66,13 @@ products:
     category: LIMITED
     identifiers:
       cardKingdomId: '1508'
+      cardtraderId: '46320'
       mcmId: '248483'
       tcgplayerProductId: '167795'
     subtype: TOURNAMENT
   Onslaught Tournament Pack Display:
     category: LIMITED_CASE
     identifiers:
+      cardtraderId: '46323'
       mcmId: '253859'
     subtype: TOURNAMENT

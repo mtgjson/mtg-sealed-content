@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '116997'
+      cardtraderId: '46923'
       mcmId: '210115'
       tcgplayerProductId: '27304'
     subtype: DEFAULT
@@ -11,6 +12,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '117165'
+      cardtraderId: '46922'
       mcmId: '210049'
       tcgplayerProductId: '27366'
     subtype: DEFAULT
@@ -18,6 +20,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '130436'
+      cardtraderId: '46924'
       mcmId: '210174'
       tcgplayerProductId: '78328'
     subtype: FAT_PACK
@@ -25,18 +28,21 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '117166'
+      cardtraderId: '46925'
       mcmId: '253684'
       tcgplayerProductId: '96350'
     subtype: THEME
   Saviors of Kamigawa Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '46930'
       mcmId: '210215'
     subtype: THEME
   Saviors of Kamigawa Theme Deck Soratamis Wisdom:
     category: DECK
     identifiers:
       cardKingdomId: '117167'
+      cardtraderId: '46926'
       mcmId: '253685'
       tcgplayerProductId: '96352'
     subtype: THEME
@@ -44,6 +50,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '117168'
+      cardtraderId: '46928'
       mcmId: '253686'
       tcgplayerProductId: '96351'
     subtype: THEME
@@ -51,6 +58,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '117169'
+      cardtraderId: '46929'
       mcmId: '253687'
       tcgplayerProductId: '96353'
     subtype: THEME

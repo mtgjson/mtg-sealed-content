@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '1421'
+      cardtraderId: '45972'
       mcmId: '210103'
       tcgplayerProductId: '27294'
     subtype: DEFAULT
@@ -11,6 +12,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1422'
+      cardtraderId: '45971'
       mcmId: '210037'
       tcgplayerProductId: '27356'
     subtype: DEFAULT
@@ -18,6 +20,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '240344'
+      cardtraderId: '45973'
       mcmId: '210185'
       tcgplayerProductId: '78323'
     subtype: FAT_PACK
@@ -26,11 +29,13 @@ products:
     identifiers:
       cardKingdomId: '240178'
       mcmId: '210234'
+      cardtraderId: '45979'
     subtype: THEME
   Odyssey Theme Deck Liftoff:
     category: DECK
     identifiers:
       cardKingdomId: '1427'
+      cardtraderId: '45974'
       mcmId: '253728'
       tcgplayerProductId: '215784'
     subtype: THEME
@@ -38,6 +43,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1426'
+      cardtraderId: '45975'
       mcmId: '253729'
       tcgplayerProductId: '120582'
     subtype: THEME
@@ -45,6 +51,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1425'
+      cardtraderId: '45976'
       mcmId: '253730'
       tcgplayerProductId: '215785'
     subtype: THEME
@@ -52,6 +59,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1424'
+      cardtraderId: '45977'
       mcmId: '253731'
       tcgplayerProductId: '215786'
     subtype: THEME
@@ -59,6 +67,7 @@ products:
     category: LIMITED
     identifiers:
       cardKingdomId: '1423'
+      cardtraderId: '45978'
       mcmId: '248482'
       tcgplayerProductId: '139151'
     subtype: TOURNAMENT
@@ -66,5 +75,6 @@ products:
     category: LIMITED_CASE
     identifiers:
       cardKingdomId: '240179'
+      cardtraderId: '45980'
       mcmId: '253858'
     subtype: TOURNAMENT
