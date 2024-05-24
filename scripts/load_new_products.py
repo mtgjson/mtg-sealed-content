@@ -305,6 +305,8 @@ def load_cardtrader(secret):
 
         count = 0
         for blueprint in blueprints:
+            if not isinstance(blueprint, dict):
+                print(f"Product {blueprint} incorrectly formatted")
             if blueprint["game_id"] != 1:
                 continue
             if blueprint["category_id"] not in category_types:
@@ -485,7 +487,10 @@ def main(secret):
         except Exception as e:
             print(f"Could not load provider {key}")
             print(repr(e))
-            products = []
+            products = [{
+                "name": f"Could not load provider {key}",
+                "id": ""
+            }]
 
         for product in products:
             if str(product["id"]) in ids[key]:
