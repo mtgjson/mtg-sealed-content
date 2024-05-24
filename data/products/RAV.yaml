@@ -4,25 +4,25 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '118354'
+      cardtraderId: '47058'
       mcmId: '210120'
       tcgplayerProductId: '27302'
-      cardtraderId: '47058'
     subtype: DEFAULT
   Ravnica Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '118355'
+      cardtraderId: '47057'
       mcmId: '210054'
       tcgplayerProductId: '27364'
-      cardtraderId: '47057'
     subtype: DEFAULT
   Ravnica Fat Pack:
     category: BUNDLE
     identifiers:
       cardKingdomId: '122337'
+      cardtraderId: '47059'
       mcmId: '210172'
       tcgplayerProductId: '78295'
-      cardtraderId: '47059'
     subtype: FAT_PACK
   Ravnica Theme Deck Charge of the Boros:
     category: DECK
@@ -43,8 +43,8 @@ products:
   Ravnica Theme Deck Display:
     category: DECK_BOX
     identifiers:
-      mcmId: '210220'
       cardtraderId: '47065'
+      mcmId: '210220'
     subtype: THEME
   Ravnica Theme Deck Golgari Deathcreep:
     category: DECK
@@ -74,7 +74,7 @@ products:
     category: LIMITED_CASE
     identifiers:
       cardKingdomId: '240194'
+      cardtraderId: '47066'
       mcmId: '253862'
       tcgplayerProductId: '265603'
-      cardtraderId: '47066'
     subtype: TOURNAMENT
