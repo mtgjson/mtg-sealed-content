@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '121870'
+      cardtraderId: '47177'
       mcmId: '210123'
       tcgplayerProductId: '27296'
     subtype: DEFAULT
@@ -11,6 +12,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '121871'
+      cardtraderId: '47176'
       mcmId: '210057'
       tcgplayerProductId: '27358'
     subtype: DEFAULT
@@ -18,18 +20,21 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '121873'
+      cardtraderId: '47178'
       mcmId: '210167'
       tcgplayerProductId: '78325'
     subtype: FAT_PACK
   Planar Chaos Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '47183'
       mcmId: '210217'
     subtype: THEME
   Planar Chaos Theme Deck Endless March:
     category: DECK
     identifiers:
       cardKingdomId: '122087'
+      cardtraderId: '47180'
       mcmId: '253657'
       tcgplayerProductId: '129677'
     subtype: THEME
@@ -37,6 +42,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '122088'
+      cardtraderId: '47181'
       mcmId: '253658'
       tcgplayerProductId: '129678'
     subtype: THEME
@@ -44,6 +50,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '122089'
+      cardtraderId: '47179'
       mcmId: '253659'
       tcgplayerProductId: '129679'
     subtype: THEME
@@ -51,6 +58,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '122090'
+      cardtraderId: '47182'
       mcmId: '253660'
       tcgplayerProductId: '129680'
     subtype: THEME

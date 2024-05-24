@@ -9,6 +9,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '130632'
+      cardtraderId: '47470'
       mcmId: '210248'
       tcgplayerProductId: '34678'
     subtype: DEFAULT
@@ -21,6 +22,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '130621'
+      cardtraderId: '47468'
       mcmId: '210247'
       tcgplayerProductId: '34680'
     subtype: DEFAULT
@@ -34,6 +36,7 @@ products:
   Rise of the Eldrazi Intro Pack Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '47484'
       mcmId: '210250'
     subtype: INTRO
   Rise of the Eldrazi Intro Pack Eldrazi Arisen:
@@ -83,6 +86,7 @@ products:
   Rise of the Eldrazi Six Card Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '47469'
       mcmId: '315704'
     release_date: '2018-01-16'
     subtype: SIX

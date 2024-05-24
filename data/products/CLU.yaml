@@ -4,6 +4,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '289644'
+      cardtraderId: '270470'
       mcmId: '749351'
       tcgplayerProductId: '529974'
     release_date: '2024-02-23'
@@ -11,11 +12,13 @@ products:
   Ravnica Clue Edition Booster:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '270500'
       mcmId: '749352'
     subtype: OTHER
   Ravnica Clue Edition Box Topper Booster:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '270502'
       mcmId: '749353'
     subtype: TOPPER
   Ravnica Clue Edition Case:

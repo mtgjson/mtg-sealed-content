@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '204444'
+      cardtraderId: '48368'
       mcmId: '287019'
       tcgplayerProductId: '110418'
     release_date: '2016-01-22'
@@ -18,6 +19,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '204445'
+      cardtraderId: '48367'
       mcmId: '287018'
       tcgplayerProductId: '110420'
     release_date: '2015-12-14'
@@ -26,6 +28,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '204474'
+      cardtraderId: '48376'
       mcmId: '287054'
       tcgplayerProductId: '110421'
     release_date: '2016-01-22'
@@ -52,11 +55,13 @@ products:
   Oath of the Gatewatch Intro Pack Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '48383'
       mcmId: '287205'
     subtype: INTRO
   Oath of the Gatewatch Intro Pack Set of 5:
     category: SUBSET
     identifiers:
+      cardtraderId: '48384'
       mcmId: '287204'
       tcgplayerProductId: '110710'
     release_date: '2016-01-22'
@@ -86,6 +91,7 @@ products:
     category: LIMITED
     identifiers:
       cardKingdomId: '205086'
+      cardtraderId: '48382'
       mcmId: '287166'
     release_date: '2015-12-22'
     subtype: PRERELEASE
