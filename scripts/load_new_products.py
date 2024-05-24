@@ -496,7 +496,12 @@ def main(secret):
             if str(product["id"]) in ids[key]:
                 continue
 
-            reviews[key][product["name"]] = {
+            prod_name = product["name"]
+            i = 0
+            while prod_name in reviews[key]:
+                i = i + 1
+                prod_name = product["name"] + str(i)
+            reviews[key][prod_name] = {
                 "identifiers": {provider["identifier"]: str(product["id"])},
                 "category": "UNKNOWN",
                 "subtype": "UNKNOWN"
