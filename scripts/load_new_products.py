@@ -311,18 +311,23 @@ def load_cardtrader(secret):
                 continue
             if blueprint["category_id"] not in category_types:
                 continue
+            
+            if blueprint.get("version", ""):
+                product_name = blueprint["name"]+blueprint["version"]
+            else:
+                product_name = blueprint["name"]
 
-            if any(tag.lower() in blueprint["name"].lower() for tag in skip_tags):
+            if any(tag.lower() in product_name.lower() for tag in skip_tags):
                 continue
 
-            if "Secret Lair" in blueprint["name"]:
-                if any(tag.lower() in blueprint["name"].lower() for tag in sld_skip_tags):
+            if "Secret Lair" in product_name:
+                if any(tag.lower() in product_name.lower() for tag in sld_skip_tags):
                     continue
 
             count += 1
             sealed_data.extend([
                 {
-                    "name": blueprint["name"],
+                    "name": product_name,
                     "id": blueprint["id"],
                 }
             ])
