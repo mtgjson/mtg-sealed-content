@@ -313,7 +313,7 @@ def load_cardtrader(secret):
                 continue
             
             if blueprint.get("version", ""):
-                product_name = blueprint["name"]+blueprint["version"]
+                product_name = blueprint["name"]+" "+blueprint["version"]
             else:
                 product_name = blueprint["name"]
 
@@ -497,6 +497,8 @@ def main(secret):
                 "id": ""
             }]
 
+        procuts = [dict(t) for t in {tuple(sorted(d.items())) for d in products}]
+
         for product in products:
             if str(product["id"]) in ids[key]:
                 continue
@@ -505,7 +507,7 @@ def main(secret):
             i = 0
             while prod_name in reviews[key]:
                 i = i + 1
-                prod_name = product["name"] + str(i)
+                prod_name = product["name"] + " " + str(i)
             reviews[key][prod_name] = {
                 "identifiers": {provider["identifier"]: str(product["id"])},
                 "category": "UNKNOWN",

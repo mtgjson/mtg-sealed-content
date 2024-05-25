@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '122703'
+      cardtraderId: '47213'
       mcmId: '210128'
       tcgplayerProductId: '27257'
     subtype: DEFAULT
@@ -11,6 +12,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '122704'
+      cardtraderId: '47212'
       mcmId: '210062'
       tcgplayerProductId: '27319'
     subtype: DEFAULT
@@ -18,6 +20,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '122711'
+      cardtraderId: '47219'
       mcmId: '210165'
       tcgplayerProductId: '78300'
     subtype: FAT_PACK
@@ -25,6 +28,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '122706'
+      cardtraderId: '47220'
       mcmId: '253648'
       tcgplayerProductId: '127427'
     subtype: THEME
@@ -32,18 +36,21 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '122705'
+      cardtraderId: '47221'
       mcmId: '253649'
       tcgplayerProductId: '127426'
     subtype: THEME
   Tenth Edition Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '47230'
       mcmId: '210212'
     subtype: THEME
   Tenth Edition Theme Deck Evincars Tyranny:
     category: DECK
     identifiers:
       cardKingdomId: '122707'
+      cardtraderId: '47222'
       mcmId: '253650'
       tcgplayerProductId: '127428'
     subtype: THEME
@@ -51,6 +58,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '122708'
+      cardtraderId: '47223'
       mcmId: '253651'
       tcgplayerProductId: '127425'
     subtype: THEME
@@ -58,11 +66,13 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '122709'
+      cardtraderId: '47224'
       mcmId: '253652'
       tcgplayerProductId: '127429'
     subtype: THEME
   Tenth Edition Two Player Starter Game:
     category: MULTI_DECK
     identifiers:
+      cardtraderId: '47225'
       mcmId: '254940'
     subtype: TWO_PLAYER_STARTER

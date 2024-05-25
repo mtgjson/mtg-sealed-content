@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '210333'
+      cardtraderId: '43476'
       mcmId: '210074'
       tcgplayerProductId: '27309'
     subtype: DEFAULT
@@ -11,18 +12,21 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1464'
+      cardtraderId: '43475'
       mcmId: '210008'
       tcgplayerProductId: '27371'
     subtype: DEFAULT
   The Dark Italian Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      cardtraderId: '43509'
       mcmId: '300136'
     language: Italian
     subtype: DEFAULT
   The Dark Italian Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '43508'
       mcmId: '300137'
     language: Italian
     subtype: DEFAULT
