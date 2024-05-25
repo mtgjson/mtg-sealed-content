@@ -497,6 +497,8 @@ def main(secret):
                 "id": ""
             }]
 
+        procuts = [dict(t) for t in {tuple(sorted(d.items())) for d in products}]
+
         for product in products:
             if str(product["id"]) in ids[key]:
                 continue
