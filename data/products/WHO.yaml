@@ -27,6 +27,7 @@ products:
   Doctor Who Collector Booster Sample Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '264375'
       mcmId: '740399'
     release_date: '2023-10-13'
     subtype: PROMOTIONAL
@@ -34,7 +35,9 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '283469'
+      cardtraderId: '246951'
       mcmId: '710802'
+      miniaturemarketId: '293212'
       tcgplayerProductId: '496071'
     release_date: '2023-10-13'
     subtype: COMMANDER
@@ -48,6 +51,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '283468'
+      cardtraderId: '246950'
       mcmId: '710801'
       tcgplayerProductId: '496070'
     release_date: '2023-10-13'
@@ -56,7 +60,9 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '283467'
+      cardtraderId: '246953'
       mcmId: '710804'
+      miniaturemarketId: '293214'
       tcgplayerProductId: '496073'
     release_date: '2023-10-13'
     subtype: COMMANDER
@@ -64,6 +70,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '283466'
+      cardtraderId: '246952'
       mcmId: '710803'
       tcgplayerProductId: '496072'
     release_date: '2023-10-13'

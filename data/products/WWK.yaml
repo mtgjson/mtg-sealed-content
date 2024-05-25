@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '129934'
+      cardtraderId: '47448'
       mcmId: '210195'
       tcgplayerProductId: '34468'
     subtype: DEFAULT
@@ -11,6 +12,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '129938'
+      cardtraderId: '47446'
       mcmId: '210194'
       tcgplayerProductId: '34469'
     subtype: DEFAULT
@@ -18,6 +20,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '129939'
+      cardtraderId: '47455'
       mcmId: '210196'
       tcgplayerProductId: '78334'
     subtype: FAT_PACK
@@ -32,6 +35,7 @@ products:
   Worldwake Intro Pack Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '47461'
       mcmId: '210197'
     subtype: INTRO
   Worldwake Intro Pack Fangs of the Bloodchief:
@@ -69,5 +73,6 @@ products:
   Worldwake Six Card Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '47447'
       mcmId: '315703'
     subtype: SIX

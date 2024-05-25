@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '224020'
+      cardtraderId: '56893'
       mcmId: '370644'
       tcgplayerProductId: '185676'
     release_date: '2019-05-03'
@@ -23,6 +24,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '224021'
+      cardtraderId: '56887'
       mcmId: '370646'
       tcgplayerProductId: '185677'
     release_date: '2019-05-03'
@@ -36,6 +38,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '224023'
+      cardtraderId: '56901'
       mcmId: '370645'
       tcgplayerProductId: '185678'
     release_date: '2019-05-03'
@@ -44,6 +47,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '224825'
+      cardtraderId: '56836'
       mcmId: '372921'
       tcgplayerProductId: '188892'
     release_date: '2019-04-24'
@@ -57,6 +61,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '224028'
+      cardtraderId: '56903'
       mcmId: '371859'
       tcgplayerProductId: '187178'
     release_date: '2019-04-01'
@@ -65,6 +70,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '224029'
+      cardtraderId: '56902'
       mcmId: '371860'
       tcgplayerProductId: '187179'
     release_date: '2019-04-01'
@@ -77,6 +83,7 @@ products:
   War of the Spark Prerelease Pack:
     category: LIMITED
     identifiers:
+      cardtraderId: '56904'
       mcmId: '373063'
       tcgplayerProductId: '185687'
     release_date: '2019-04-26'
@@ -84,12 +91,14 @@ products:
   War of the Spark Standard Showdown Booster:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '56822'
       mcmId: '371875'
     release_date: '2019-04-02'
     subtype: PROMOTIONAL
   War of the Spark Theme Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      cardtraderId: '171260'
       mcmId: '577364'
       tcgplayerProductId: '188645'
     release_date: '2019-05-03'

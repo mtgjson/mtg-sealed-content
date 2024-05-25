@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '1145'
+      cardtraderId: '45460'
       mcmId: '210092'
       tcgplayerProductId: '27315'
     subtype: DEFAULT
@@ -11,6 +12,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1146'
+      cardtraderId: '45459'
       mcmId: '210026'
       tcgplayerProductId: '27377'
     subtype: DEFAULT
@@ -18,18 +20,21 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1147'
+      cardtraderId: '45462'
       mcmId: '253773'
       tcgplayerProductId: '125553'
     subtype: THEME
   Urzas Legacy Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '45465'
       mcmId: '210244'
     subtype: THEME
   Urzas Legacy Theme Deck Phyrexian Assault:
     category: DECK
     identifiers:
       cardKingdomId: '1149'
+      cardtraderId: '45461'
       mcmId: '253774'
       tcgplayerProductId: '125554'
     subtype: THEME
@@ -37,6 +42,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1150'
+      cardtraderId: '45463'
       mcmId: '253775'
       tcgplayerProductId: '125555'
     subtype: THEME
@@ -44,6 +50,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1148'
+      cardtraderId: '45464'
       mcmId: '253776'
       tcgplayerProductId: '125556'
     subtype: THEME

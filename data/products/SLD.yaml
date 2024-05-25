@@ -848,7 +848,8 @@ products:
     subtype: SECRET_LAIR
   Secret Lair Drop Artist Series Rovina Cai Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '545721'
     release_date: '2024-04-16'
     subtype: SECRET_LAIR
   Secret Lair Drop Artist Series Ryan Alexander Lee:
@@ -1347,7 +1348,9 @@ products:
     subtype: SECRET_LAIR
   Secret Lair Drop Diabolical Dioramas Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '545716'
+    release_date: '2024-04-25'
     subtype: SECRET_LAIR
   Secret Lair Drop Draw Your Hand:
     category: BOX_SET
@@ -1458,7 +1461,8 @@ products:
     subtype: SECRET_LAIR
   Secret Lair Drop Featuring Phoebe Wahl Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '545723'
     release_date: '2024-04-16'
     subtype: SECRET_LAIR
   Secret Lair Drop Featuring the Mountain Goats:
@@ -1773,6 +1777,7 @@ products:
     identifiers:
       cardKingdomId: '293642'
       mcmId: '734184'
+      miniaturemarketId: '299947'
       tcgplayerProductId: '517679'
     release_date: '2023-09-23'
     subtype: SECRET_LAIR
@@ -2280,28 +2285,40 @@ products:
     category: BOX_SET
     identifiers:
       mcmId: '765966'
+      tcgplayerProductId: '545711'
+    release_date: '2024-04-25'
     subtype: SECRET_LAIR
   Secret Lair Drop Secret Lair x Fallout Points of Interest Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '545710'
+    release_date: '2024-04-25'
     subtype: SECRET_LAIR
   Secret Lair Drop Secret Lair x Fallout SPECIAL:
     category: BOX_SET
     identifiers:
       mcmId: '765973'
+      tcgplayerProductId: '545713'
+    release_date: '2024-04-25'
     subtype: SECRET_LAIR
   Secret Lair Drop Secret Lair x Fallout SPECIAL Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '545712'
+    release_date: '2024-04-25'
     subtype: SECRET_LAIR
   Secret Lair Drop Secret Lair x Fallout Vault Boy:
     category: BOX_SET
     identifiers:
       mcmId: '765978'
+      tcgplayerProductId: '545709'
+    release_date: '2024-04-25'
     subtype: SECRET_LAIR
   Secret Lair Drop Secret Lair x Fallout Vault Boy Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '545708'
+    release_date: '2024-04-25'
     subtype: SECRET_LAIR
   Secret Lair Drop Secret Lair x Fortnite:
     category: BOX_SET
