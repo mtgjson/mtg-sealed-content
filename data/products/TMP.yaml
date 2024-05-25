@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '1242'
+      cardtraderId: '45307'
       mcmId: '210084'
       tcgplayerProductId: '27308'
     subtype: DEFAULT
@@ -11,6 +12,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1201'
+      cardtraderId: '45306'
       mcmId: '210018'
       tcgplayerProductId: '27370'
     subtype: DEFAULT
@@ -18,6 +20,7 @@ products:
     category: LIMITED
     identifiers:
       cardKingdomId: '1202'
+      cardtraderId: '45312'
       mcmId: '248499'
       tcgplayerProductId: '127433'
     subtype: STARTER
@@ -25,24 +28,28 @@ products:
     category: LIMITED_CASE
     identifiers:
       cardKingdomId: '240221'
+      cardtraderId: '45314'
       mcmId: '272078'
     subtype: STARTER
   Tempest Theme Deck Deep Freeze:
     category: DECK
     identifiers:
       cardKingdomId: '1437'
+      cardtraderId: '45308'
       mcmId: '253790'
       tcgplayerProductId: '236686'
     subtype: THEME
   Tempest Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '45313'
       mcmId: '210241'
     subtype: THEME
   Tempest Theme Deck The Flames of Rath:
     category: DECK
     identifiers:
       cardKingdomId: '1438'
+      cardtraderId: '45309'
       mcmId: '253791'
       tcgplayerProductId: '236687'
     subtype: THEME
@@ -50,6 +57,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1439'
+      cardtraderId: '45310'
       mcmId: '253792'
       tcgplayerProductId: '236688'
     subtype: THEME
@@ -57,6 +65,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1440'
+      cardtraderId: '45311'
       mcmId: '253793'
       tcgplayerProductId: '236689'
     subtype: THEME

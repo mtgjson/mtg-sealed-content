@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '124151'
+      cardtraderId: '45333'
       mcmId: '210085'
       tcgplayerProductId: '27307'
     subtype: DEFAULT
@@ -11,6 +12,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1196'
+      cardtraderId: '45332'
       mcmId: '210019'
       tcgplayerProductId: '27369'
     subtype: DEFAULT
@@ -18,18 +20,21 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1197'
+      cardtraderId: '45335'
       mcmId: '253786'
       tcgplayerProductId: '139150'
     subtype: THEME
   Stronghold Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '45338'
       mcmId: '210240'
     subtype: THEME
   Stronghold Theme Deck Migraine:
     category: DECK
     identifiers:
       cardKingdomId: '1198'
+      cardtraderId: '45336'
       mcmId: '253787'
       tcgplayerProductId: '175072'
     subtype: THEME
@@ -37,6 +42,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1199'
+      cardtraderId: '45334'
       mcmId: '253788'
       tcgplayerProductId: '139149'
     subtype: THEME
@@ -44,6 +50,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1200'
+      cardtraderId: '45337'
       mcmId: '253789'
       tcgplayerProductId: '175071'
     subtype: THEME
