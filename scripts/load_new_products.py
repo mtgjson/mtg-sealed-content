@@ -511,7 +511,7 @@ def main(secret):
                 "category": "UNKNOWN",
                 "subtype": "UNKNOWN"
             }
-            ids[key].update(str(product["id"]))
+            ids[key].add(str(product["id"]))
             if product.get("releaseDate") != None:
                 try:
                     date_obj = datetime.strptime(product["releaseDate"], "%Y-%m-%dT%H:%M:%S")
