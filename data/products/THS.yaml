@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '191120'
+      cardtraderId: '48020'
       mcmId: '263893'
       tcgplayerProductId: '70960'
     subtype: DEFAULT
@@ -16,12 +17,14 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '191119'
+      cardtraderId: '48019'
       mcmId: '263892'
       tcgplayerProductId: '70961'
     subtype: DEFAULT
   Theros Challenge Deck Face the Hydra:
     category: DECK
     identifiers:
+      cardtraderId: '48029'
       mcmId: '265220'
       tcgplayerProductId: '72028'
     subtype: CHALLENGE
@@ -29,6 +32,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '191728'
+      cardtraderId: '48030'
       mcmId: '264769'
       tcgplayerProductId: '70986'
     subtype: EVENT
@@ -36,6 +40,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '191121'
+      cardtraderId: '48028'
       mcmId: '263894'
       tcgplayerProductId: '70962'
     subtype: FAT_PACK
@@ -43,6 +48,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '192731'
+      cardtraderId: '48041'
       mcmId: '265339'
       tcgplayerProductId: '71523'
     subtype: GIFT_BUNDLE
@@ -50,6 +56,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '191126'
+      cardtraderId: '48031'
       mcmId: '264174'
       tcgplayerProductId: '70984'
     subtype: INTRO
@@ -57,6 +64,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '191124'
+      cardtraderId: '48032'
       mcmId: '264173'
       tcgplayerProductId: '70983'
     subtype: INTRO
@@ -64,18 +72,21 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '191125'
+      cardtraderId: '48033'
       mcmId: '264172'
       tcgplayerProductId: '70982'
     subtype: INTRO
   Theros Intro Pack Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '48043'
       mcmId: '264175'
     subtype: INTRO
   Theros Intro Pack Favors from Nyx:
     category: DECK
     identifiers:
       cardKingdomId: '191122'
+      cardtraderId: '48034'
       mcmId: '264170'
       tcgplayerProductId: '70980'
     subtype: INTRO
@@ -83,48 +94,56 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '191123'
+      cardtraderId: '48035'
       mcmId: '264171'
       tcgplayerProductId: '70981'
     subtype: INTRO
   Theros Intro Packs Set of 5:
     category: SUBSET
     identifiers:
+      cardtraderId: '48042'
       mcmId: '264176'
       tcgplayerProductId: '70964'
     subtype: INTRO
   Theros Prerelease Kit Path of Ambition:
     category: LIMITED
     identifiers:
+      cardtraderId: '48036'
       mcmId: '264374'
       tcgplayerProductId: '79268'
     subtype: PRERELEASE
   Theros Prerelease Kit Path of Battle:
     category: LIMITED
     identifiers:
+      cardtraderId: '48037'
       mcmId: '264376'
       tcgplayerProductId: '79271'
     subtype: PRERELEASE
   Theros Prerelease Kit Path of Honor:
     category: LIMITED
     identifiers:
+      cardtraderId: '48038'
       mcmId: '264372'
       tcgplayerProductId: '79269'
     subtype: PRERELEASE
   Theros Prerelease Kit Path of Might:
     category: LIMITED
     identifiers:
+      cardtraderId: '48039'
       mcmId: '264375'
       tcgplayerProductId: '79272'
     subtype: PRERELEASE
   Theros Prerelease Kit Path of Wisdom:
     category: LIMITED
     identifiers:
+      cardtraderId: '48040'
       mcmId: '264373'
       tcgplayerProductId: '79270'
     subtype: PRERELEASE
   Theros Prerelease Pack Set of 5:
     category: SUBSET
     identifiers:
+      cardtraderId: '48044'
       mcmId: '273054'
       tcgplayerProductId: '199940'
     release_date: '2015-03-02'

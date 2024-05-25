@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '1430'
+      cardtraderId: '45999'
       mcmId: '210104'
       tcgplayerProductId: '27311'
     subtype: DEFAULT
@@ -11,6 +12,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1431'
+      cardtraderId: '45998'
       mcmId: '210038'
       tcgplayerProductId: '27373'
     subtype: DEFAULT
@@ -18,18 +20,21 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '240346'
+      cardtraderId: '46000'
       mcmId: '210184'
       tcgplayerProductId: '78333'
     subtype: FAT_PACK
   Torment Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '46005'
       mcmId: '210242'
     subtype: THEME
   Torment Theme Deck Grave Danger:
     category: DECK
     identifiers:
       cardKingdomId: '1433'
+      cardtraderId: '46001'
       mcmId: '253724'
       tcgplayerProductId: '120583'
     subtype: THEME
@@ -37,6 +42,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1432'
+      cardtraderId: '46002'
       mcmId: '253725'
       tcgplayerProductId: '244386'
     subtype: THEME
@@ -44,6 +50,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1434'
+      cardtraderId: '46003'
       mcmId: '253726'
       tcgplayerProductId: '120585'
     subtype: THEME
@@ -51,6 +58,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1435'
+      cardtraderId: '46004'
       mcmId: '253727'
       tcgplayerProductId: '120584'
     subtype: THEME

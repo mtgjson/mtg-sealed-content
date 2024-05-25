@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '121036'
+      cardtraderId: '47155'
       mcmId: '210121'
       tcgplayerProductId: '27310'
     subtype: DEFAULT
@@ -11,6 +12,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '121037'
+      cardtraderId: '47154'
       mcmId: '210055'
       tcgplayerProductId: '27372'
     subtype: DEFAULT
@@ -18,23 +20,27 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '121043'
+      cardtraderId: '47156'
       mcmId: '210168'
       tcgplayerProductId: '78332'
     subtype: FAT_PACK
   Time Spiral Gift Box:
     category: BUNDLE
     identifiers:
+      cardtraderId: '47162'
       mcmId: '200021'
     subtype: GIFT_BUNDLE
   Time Spiral Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '47163'
       mcmId: '210219'
     subtype: THEME
   Time Spiral Theme Deck Fun With Fungus:
     category: DECK
     identifiers:
       cardKingdomId: '121453'
+      cardtraderId: '47159'
       mcmId: '253661'
       tcgplayerProductId: '125558'
     subtype: THEME
@@ -42,6 +48,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '121454'
+      cardtraderId: '47158'
       mcmId: '253662'
       tcgplayerProductId: '125557'
     subtype: THEME
@@ -49,6 +56,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '121455'
+      cardtraderId: '47160'
       mcmId: '253663'
       tcgplayerProductId: '125559'
     subtype: THEME
@@ -56,6 +64,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '121456'
+      cardtraderId: '47157'
       mcmId: '253664'
       tcgplayerProductId: '125560'
     subtype: THEME
@@ -63,6 +72,7 @@ products:
     category: LIMITED
     identifiers:
       cardKingdomId: '121038'
+      cardtraderId: '47161'
       mcmId: '248487'
       tcgplayerProductId: '118877'
     subtype: TOURNAMENT
@@ -70,6 +80,7 @@ products:
     category: LIMITED_CASE
     identifiers:
       cardKingdomId: '240228'
+      cardtraderId: '47164'
       mcmId: '253863'
       tcgplayerProductId: '453053'
     subtype: TOURNAMENT
