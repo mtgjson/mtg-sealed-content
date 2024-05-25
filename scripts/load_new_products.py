@@ -497,8 +497,6 @@ def main(secret):
                 "id": ""
             }]
 
-        procuts = [dict(t) for t in {tuple(sorted(d.items())) for d in products}]
-
         for product in products:
             if str(product["id"]) in ids[key]:
                 continue
@@ -513,6 +511,7 @@ def main(secret):
                 "category": "UNKNOWN",
                 "subtype": "UNKNOWN"
             }
+            ids[key].update(str(product["id"]))
             if product.get("releaseDate") != None:
                 try:
                     date_obj = datetime.strptime(product["releaseDate"], "%Y-%m-%dT%H:%M:%S")
