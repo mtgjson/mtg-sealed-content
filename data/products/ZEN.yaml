@@ -9,6 +9,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '127769'
+      cardtraderId: '47422'
       mcmId: '210144'
       tcgplayerProductId: '32789'
     subtype: DEFAULT
@@ -21,6 +22,7 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '127851'
+      cardtraderId: '47420'
       mcmId: '210143'
       tcgplayerProductId: '32791'
     subtype: DEFAULT
@@ -28,6 +30,7 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '127776'
+      cardtraderId: '47430'
       mcmId: '210145'
       tcgplayerProductId: '32793'
     subtype: FAT_PACK
@@ -43,12 +46,14 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '127775'
+      cardtraderId: '47435'
       mcmId: '210147'
       tcgplayerProductId: '32795'
     subtype: INTRO
   Zendikar Intro Pack Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '47436'
       mcmId: '210151'
     subtype: INTRO
   Zendikar Intro Pack Green The Adventurers:
@@ -83,6 +88,7 @@ products:
   Zendikar Six Card Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '47421'
       mcmId: '315702'
     release_date: '2018-01-16'
     subtype: SIX

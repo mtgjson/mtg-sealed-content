@@ -4,12 +4,14 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '240231'
+      cardtraderId: '39402'
       mcmId: '210003'
       tcgplayerProductId: '27313'
     subtype: DEFAULT
   Unlimited Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '39401'
       mcmId: '210069'
       tcgplayerProductId: '27375'
     subtype: DEFAULT
@@ -17,11 +19,13 @@ products:
     category: LIMITED
     identifiers:
       cardKingdomId: '223909'
+      cardtraderId: '39403'
       mcmId: '248491'
       tcgplayerProductId: '162897'
     subtype: STARTER
   Unlimited Starter Deck Display:
     category: LIMITED_CASE
     identifiers:
+      cardtraderId: '39404'
       mcmId: '272018'
     subtype: STARTER

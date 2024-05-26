@@ -4,6 +4,7 @@ products:
     category: BOOSTER_BOX
     identifiers:
       cardKingdomId: '1204'
+      cardtraderId: '45441'
       mcmId: '210091'
       tcgplayerProductId: '27316'
     subtype: DEFAULT
@@ -11,18 +12,21 @@ products:
     category: BOOSTER_PACK
     identifiers:
       cardKingdomId: '1203'
+      cardtraderId: '45440'
       mcmId: '210025'
       tcgplayerProductId: '27378'
     subtype: DEFAULT
   Urzas Saga Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      cardtraderId: '45447'
       mcmId: '210243'
     subtype: THEME
   Urzas Saga Theme Deck Sleeper:
     category: DECK
     identifiers:
       cardKingdomId: '1205'
+      cardtraderId: '45442'
       mcmId: '253777'
       tcgplayerProductId: '116050'
     subtype: THEME
@@ -30,6 +34,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1206'
+      cardtraderId: '45443'
       mcmId: '253778'
       tcgplayerProductId: '116051'
     subtype: THEME
@@ -37,6 +42,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1207'
+      cardtraderId: '45444'
       mcmId: '253779'
       tcgplayerProductId: '116052'
     subtype: THEME
@@ -44,6 +50,7 @@ products:
     category: DECK
     identifiers:
       cardKingdomId: '1208'
+      cardtraderId: '45445'
       mcmId: '253780'
       tcgplayerProductId: '116053'
     subtype: THEME
@@ -51,12 +58,14 @@ products:
     category: LIMITED
     identifiers:
       cardKingdomId: '1209'
+      cardtraderId: '45446'
       mcmId: '244178'
       tcgplayerProductId: '127432'
     subtype: TOURNAMENT
   Urzas Saga Tournament Pack Display:
     category: LIMITED_CASE
     identifiers:
+      cardtraderId: '45448'
       mcmId: '253854'
       tcgplayerProductId: '234726'
     subtype: TOURNAMENT
