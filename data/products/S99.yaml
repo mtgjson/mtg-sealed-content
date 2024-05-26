@@ -31,7 +31,8 @@ products:
     subtype: TWO_PLAYER_STARTER
   Starter 1999 Starter Game Display:
     category: DECK_BOX
-    identifier: {}
+    identifiers: 
+      cardtraderId: '45575'
     subtype: TWO_PLAYER_STARTER
   Starter 1999 Starter Gift Box:
     category: BUNDLE
@@ -60,6 +61,7 @@ products:
     category: DECK_BOX
     identifiers:
       mcmId: '263932'
+      cardtraderId: '45576'
     subtype: THEME
   Starter 1999 Theme Deck Goblin Assault:
     category: DECK
