@@ -84,4 +84,8 @@ products:
     - count: 1
       name: Conflux Booster Pack
       set: con
-  Conflux Six Card Booster Pack: []
+  Conflux Six Card Booster Pack:
+    card_count: 6
+    pack:
+    - set: con
+      code: six

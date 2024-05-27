@@ -1,20 +1,39 @@
 code: cm2
 products:
   Commander Anthology Volume II:
-    card_count: 400
-    deck:
-    - name: Breed Lethality
-      set: cm2
-    - name: Built From Scratch
-      set: cm2
-    - name: Devour for Power
-      set: cm2
-    - name: Wade into Battle
-      set: cm2
+    sealed:
+    - set: cm2
+      count: 1
+      name: Commander Anthology Volume II Commander Deck Breed Lethality
+    - set: cm2
+      count: 1
+      name: Commander Anthology Volume II Commander Deck Built from Scratch
+    - set: cm2
+      count: 1
+      name: ommander Anthology Volume II Commander Deck Devour for Power
+    - set: cm2
+      count: 1
+      name: Commander Anthology Volume II Commander Deck Wade into Battle
     other:
     - name: Specialized Life Counters
     - name: Tokens for All Decks
-  Commander Anthology Volume II Commander Deck Breed Lethality: []
-  Commander Anthology Volume II Commander Deck Built from Scratch: []
-  Commander Anthology Volume II Commander Deck Devour for Power: []
-  Commander Anthology Volume II Commander Deck Wade into Battle: []
+  Commander Anthology Volume II Commander Deck Breed Lethality:
+    deck:
+    - set: cm2
+      name: Breed Lethality
+    card_count: 100
+  Commander Anthology Volume II Commander Deck Built from Scratch:
+    deck:
+    - set: cm2
+      name: Built From Scratch
+    card_count: 100
+  Commander Anthology Volume II Commander Deck Devour for Power:
+    deck:
+    - set: cm2
+      name: Devour for Power
+    card_count: 100
+  Commander Anthology Volume II Commander Deck Wade into Battle:
+    deck:
+    - set: cm2
+      name: Wade into Battle
+    card_count: 100
