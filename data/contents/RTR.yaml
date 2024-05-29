@@ -1,15 +1,9 @@
 code: rtr
 products:
-  Return to Ravnica 3 Booster Draft Pack: []
-  Return to Ravnica 3 Booster Packs draft set:
+  Return to Ravnica 3 Booster Draft Pack:
     sealed:
     - count: 3
       name: Return to Ravnica Booster Pack
-      set: rtr
-  Return to Ravnica 6 Card Booster Pack:
-    card_count: 6
-    pack:
-    - code: six
       set: rtr
   Return to Ravnica Booster Battle Pack: []
   Return to Ravnica Booster Battle Pack Display: []
@@ -41,7 +35,14 @@ products:
     - count: 3
       name: Return to Ravnica Event Deck Wrack and Rage
       set: rtr
-  Return to Ravnica Event Deck Set of 2: []
+  Return to Ravnica Event Deck Set of 2:
+    sealed:
+    - count: 1
+      name: Return to Ravnica Event Deck Creep and Conquer
+      set: rtr
+    - count: 1
+      name: Return to Ravnica Event Deck Wrack and Rage
+      set: rtr
   Return to Ravnica Event Deck Wrack and Rage:
     card_count: 75
     deck:
@@ -225,4 +226,8 @@ products:
     - count: 1
       name: Return to Ravnica Prerelease Pack Selesnya
       set: rtr
-  Return to Ravnica Six Card Booster Pack: []
+  Return to Ravnica Six Card Booster Pack:
+    card_count: 6
+    pack:
+    - code: six
+      set: rtr

@@ -25,7 +25,14 @@ products:
     deck:
     - name: War of Attrition
       set: nph
-  New Phyrexia Event Decks Set of 2: []
+  New Phyrexia Event Decks Set of 2:
+    sealed:
+    - set: nph
+      count: 1
+      name: New Phyrexia Event Deck War of Attrition
+    - set: nph
+      count: 1
+      name: New Phyrexia Event Deck Rot from Within
   New Phyrexia Fat Pack: []
   New Phyrexia Intro Pack Artful Destruction:
     card_count: 60
@@ -73,5 +80,25 @@ products:
     - count: 1
       name: New Phyrexia Booster Pack
       set: nph
-  New Phyrexia Intro Packs Set of 5: []
-  New Phyrexia Six Card Booster Pack: []
+  New Phyrexia Intro Packs Set of 5:
+    sealed:
+    - set: nph
+      name: New Phyrexia Intro Pack Artful Destruction
+      count: 1
+    - set: nph
+      name: New Phyrexia Intro Pack Devouring Skies
+      count: 1
+    - set: nph
+      name: New Phyrexia Intro Pack Feast of Flesh
+      count: 1
+    - set: nph
+      name: New Phyrexia Intro Pack Life for Death
+      count: 1
+    - set: nph
+      name: New Phyrexia Intro Pack Ravaging Swarm
+      count: 1
+  New Phyrexia Six Card Booster Pack:
+    card_count: 6
+    pack:
+    - set: nph
+      code: six

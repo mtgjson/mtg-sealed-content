@@ -5,11 +5,6 @@ products:
     - count: 3
       name: Rise of the Eldrazi Booster Pack
       set: roe
-  Rise of the Eldrazi 6 Card Booster Pack:
-    card_count: 6
-    pack:
-    - code: six
-      set: roe
   Rise of the Eldrazi Booster Box:
     sealed:
     - count: 36
@@ -116,4 +111,8 @@ products:
     - count: 1
       name: Rise of the Eldrazi Intro Pack Totem Power
       set: roe
-  Rise of the Eldrazi Six Card Booster Pack: []
+  Rise of the Eldrazi Six Card Booster Pack:
+    card_count: 6
+    pack:
+    - code: six
+      set: roe
