@@ -485,6 +485,7 @@ providers_dict = {
     "miniaturemarket": {
         "identifier": "miniaturemarketId",
         "load_func": load_miniaturemarket,
+    },
     "starcitygames": {
         "identifier": "scgId",
         "load_func": load_starcity,
