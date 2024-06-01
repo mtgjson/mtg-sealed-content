@@ -413,6 +413,53 @@ def load_miniaturemarket(secret):
 
     return sealed_data
 
+
+def scgreq(guid, page):
+    header = {
+        "X-HawkSearch-IgnoreTracking": "true",
+        "Content-Type": "application/json",
+    }
+
+    facet = {}
+    facet["product_type"] = ["Sealed"]
+    facet["game"] = "Magic: The Gathering"
+
+    payload = {}
+    payload["PageNo"] = page
+    payload["MaxPerPage"] = 96
+    payload["clientguid"] = guid
+    payload["FacetSelections"] = facet
+
+    r = requests.post("https://essearchapi-na.hawksearch.com/api/v2/search", json=payload, headers=header)
+    return json.loads(r.content)
+
+
+def load_starcity(secret):
+    guid = secret.get("scg_guid")
+    numOfPages = scgreq(guid, 0)["Pagination"]["NofPages"]
+
+    sealed_data = []
+
+    for page in range(1, numOfPages + 1):
+        resp = scgreq(guid, page)
+        for result in resp["Results"]:
+            title = result["Document"]["item_display_name"][0]
+
+            if any(tag.lower() in title.lower() for tag in ["Lorcana", "Flesh and Blood"]):
+                continue
+
+            sealed_data.extend([
+                {
+                    "name": title,
+                    "id": result["Document"]["unique_id"][0],
+                }
+            ])
+
+    print(f"Retrieved {len(sealed_data)} products")
+
+    return sealed_data
+
+
 providers_dict = {
     "cardKingdom": {
         "identifier": "cardKingdomId",
@@ -438,6 +485,10 @@ providers_dict = {
     "miniaturemarket": {
         "identifier": "miniaturemarketId",
         "load_func": load_miniaturemarket,
+    "starcitygames": {
+        "identifier": "scgId",
+        "load_func": load_starcity,
+        "auth": ["scg_guid"],
     },
 }
 
