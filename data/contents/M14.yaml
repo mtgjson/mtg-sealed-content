@@ -93,9 +93,29 @@ products:
       name: 2014 Core Set Intro Pack Psychic Labyrinth
       set: m14
   2014 Core Set Land Station: []
-  2014 Core Set Sample Deck Ajani Goldmane: []
-  2014 Core Set Sample Deck Chandra Nalaar: []
-  2014 Core Set Sample Deck Garruk Wildspeaker: []
-  2014 Core Set Sample Deck Jace Beleren: []
-  2014 Core Set Sample Deck Liliana Vess: []
+  2014 Core Set Sample Deck Ajani Goldmane:
+    card count: 35
+    deck:
+    - name: White Deck
+      set: m14
+  2014 Core Set Sample Deck Chandra Nalaar:
+    card count: 35
+    deck:
+    - name: Red Deck
+      set: m14
+  2014 Core Set Sample Deck Garruk Wildspeaker:
+    card count: 35
+    deck:
+    - name: Green Deck
+      set: m14
+  2014 Core Set Sample Deck Jace Beleren:
+    card count: 35
+    deck:
+    - name: Blue Deck
+      set: m14
+  2014 Core Set Sample Deck Liliana Vess:
+    card count: 35
+    deck:
+    - name: Black Deck
+      set: m14
   2014 Core Set Six Card Booster Pack: []

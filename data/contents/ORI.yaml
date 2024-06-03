@@ -126,8 +126,28 @@ products:
     - count: 1
       name: Magic Origins Prerelease Kit Nissa
       set: ori
-  Magic Origins Sample Deck Chandra Nalaar: []
-  Magic Origins Sample Deck Gideon Jura: []
-  Magic Origins Sample Deck Jace Beleren: []
-  Magic Origins Sample Deck Liliana Vess: []
-  Magic Origins Sample Deck Nissa Revane: []
+  Magic Origins Sample Deck Chandra Nalaar:
+    card count: 35
+    deck:
+    - name: Red Deck
+      set: ori
+  Magic Origins Sample Deck Gideon Jura:
+    card count: 35
+    deck:
+    - name: White Deck
+      set: ori
+  Magic Origins Sample Deck Jace Beleren:
+    card count: 35
+    deck:
+    - name: Blue Deck
+      set: ori
+  Magic Origins Sample Deck Liliana Vess:
+    card count: 35
+    deck:
+    - name: Black Deck
+      set: ori
+  Magic Origins Sample Deck Nissa Revane:
+    card count: 35
+    deck:
+    - name: Green Deck
+      set: ori

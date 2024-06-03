@@ -111,9 +111,29 @@ products:
     - count: 1
       name: 2013 Core Set Intro Pack Wild Rush Green
       set: m13
-  2013 Core Set Sample Deck Ajani Goldmane: []
-  2013 Core Set Sample Deck Chandra Nalaar: []
-  2013 Core Set Sample Deck Garruk Wildspeaker: []
-  2013 Core Set Sample Deck Jace Beleren: []
-  2013 Core Set Sample Deck Liliana Vess: []
+  2013 Core Set Sample Deck Ajani Goldmane:
+    card count: 30
+    deck:
+    - name: White Sample Deck
+      set: m13
+  2013 Core Set Sample Deck Chandra Nalaar:
+    card count: 30
+    deck:
+    - name: Red Sample Deck
+      set: m13
+  2013 Core Set Sample Deck Garruk Wildspeaker:
+    card count: 30
+    deck:
+    - name: Green Sample Deck
+      set: m13
+  2013 Core Set Sample Deck Jace Beleren:
+    card count: 30
+    deck:
+    - name: Blue Sample Deck
+      set: m13
+  2013 Core Set Sample Deck Liliana Vess:
+    card count: 30
+    deck:
+    - name: Black Sample Deck
+      set: m13
   2013 Core Set Six Card Booster Pack: []
