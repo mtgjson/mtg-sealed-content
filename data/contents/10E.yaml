@@ -62,3 +62,63 @@ products:
     - name: Molimo's Might
       set: 10e
   Tenth Edition Two Player Starter Game: []
+  Tenth Edition Sample Deck Ajani Goldmane:
+    card count: 30
+    variable:
+    - deck:
+      - name: White Deck A
+        set: 10e
+    - deck:
+      - name: White Deck B
+        set: 10e
+    variable_mode:
+      count: 1
+      replacement: false
+  Tenth Edition Sample Deck Chandra Nalaar:
+    card count: 30
+    variable:
+    - deck:
+      - name: Red Deck A
+        set: 10e
+    - deck:
+      - name: Red Deck B
+        set: 10e
+    variable_mode:
+      count: 1
+      replacement: false
+  Tenth Edition Sample Deck Garruk Wildspeaker:
+    card count: 30
+    variable:
+    - deck:
+      - name: Green Deck A
+        set: 10e
+    - deck:
+      - name: Green Deck B
+        set: 10e
+    variable_mode:
+      count: 1
+      replacement: false
+  Tenth Edition Sample Deck Jace Beleren:
+    card count: 30
+    variable:
+    - deck:
+      - name: Blue Deck A
+        set: 10e
+    - deck:
+      - name: Blue Deck B
+        set: 10e
+    variable_mode:
+      count: 1
+      replacement: false
+  Tenth Edition Sample Deck Liliana Vess:
+    card count: 30
+    variable:
+    - deck:
+      - name: Black Deck A
+        set: 10e
+    - deck:
+      - name: Black Deck B
+        set: 10e
+    variable_mode:
+      count: 1
+      replacement: false
