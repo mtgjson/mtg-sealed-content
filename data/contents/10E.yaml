@@ -19,49 +19,6 @@ products:
     - count: 6
       name: Tenth Edition Booster Pack
       set: 10e
-  Tenth Edition Theme Deck Arcaniss Guile:
-    card_count: 40
-    deck:
-    - name: Arcanis's Guile
-      set: 10e
-  Tenth Edition Theme Deck Cho Mannos Resolve:
-    card_count: 40
-    deck:
-    - name: Cho-Manno's Resolve
-      set: 10e
-  Tenth Edition Theme Deck Display:
-    sealed:
-    - count: 3
-      name: Tenth Edition Theme Deck Arcaniss Guile
-      set: 10e
-    - count: 3
-      name: Tenth Edition Theme Deck Cho Mannos Resolve
-      set: 10e
-    - count: 3
-      name: Tenth Edition Theme Deck Evincars Tyranny
-      set: 10e
-    - count: 3
-      name: Tenth Edition Theme Deck Kamahls Temper
-      set: 10e
-    - count: 3
-      name: Tenth Edition Theme Deck Molimos Might
-      set: 10e
-  Tenth Edition Theme Deck Evincars Tyranny:
-    card_count: 40
-    deck:
-    - name: Evincar's Tyranny
-      set: 10e
-  Tenth Edition Theme Deck Kamahls Temper:
-    card_count: 40
-    deck:
-    - name: Kamahl's Temper
-      set: 10e
-  Tenth Edition Theme Deck Molimos Might:
-    card_count: 40
-    deck:
-    - name: Molimo's Might
-      set: 10e
-  Tenth Edition Two Player Starter Game: []
   Tenth Edition Sample Deck Ajani Goldmane:
     card count: 30
     variable:
@@ -122,3 +79,46 @@ products:
     variable_mode:
       count: 1
       replacement: false
+  Tenth Edition Theme Deck Arcaniss Guile:
+    card_count: 40
+    deck:
+    - name: Arcanis's Guile
+      set: 10e
+  Tenth Edition Theme Deck Cho Mannos Resolve:
+    card_count: 40
+    deck:
+    - name: Cho-Manno's Resolve
+      set: 10e
+  Tenth Edition Theme Deck Display:
+    sealed:
+    - count: 3
+      name: Tenth Edition Theme Deck Arcaniss Guile
+      set: 10e
+    - count: 3
+      name: Tenth Edition Theme Deck Cho Mannos Resolve
+      set: 10e
+    - count: 3
+      name: Tenth Edition Theme Deck Evincars Tyranny
+      set: 10e
+    - count: 3
+      name: Tenth Edition Theme Deck Kamahls Temper
+      set: 10e
+    - count: 3
+      name: Tenth Edition Theme Deck Molimos Might
+      set: 10e
+  Tenth Edition Theme Deck Evincars Tyranny:
+    card_count: 40
+    deck:
+    - name: Evincar's Tyranny
+      set: 10e
+  Tenth Edition Theme Deck Kamahls Temper:
+    card_count: 40
+    deck:
+    - name: Kamahl's Temper
+      set: 10e
+  Tenth Edition Theme Deck Molimos Might:
+    card_count: 40
+    deck:
+    - name: Molimo's Might
+      set: 10e
+  Tenth Edition Two Player Starter Game: []
