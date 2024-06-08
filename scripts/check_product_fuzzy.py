@@ -14,7 +14,8 @@ provmap = {
     "cardtraderId": "cardTrader",
     "cardKingdomId": "cardKingdom",
     "tcgplayerProductId": "tcgplayer",
-    "miniaturemarketId": "miniaturemarket"
+    "miniaturemarketId": "miniaturemarket",
+    "scgId": "starcitygames",
 }
 
 review_products = []
