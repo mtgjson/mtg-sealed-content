@@ -451,7 +451,7 @@ def load_starcity(secret):
             sealed_data.extend([
                 {
                     "name": title,
-                    "id": result["Document"]["unique_id"][0],
+                    "id": result["Document"]["hawk_child_attributes"][0]["variant_sku"][0],
                 }
             ])
 
