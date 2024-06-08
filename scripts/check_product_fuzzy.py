@@ -1,3 +1,4 @@
+import sys
 import yaml
 from pathlib import Path
 from thefuzz import fuzz
@@ -35,7 +36,12 @@ for product in review_products:
     known_products.sort(key=lambda x: fuzz.token_sort_ratio(x[0], product[0]), reverse=True)
     for i in range(5):
         print(f"  {i} - {known_products[i][0]}")
-    product_check = input("Select action (q - quit / s - skip / i - ignore / [0-9] - pick): ")
+
+    try:
+        product_check = input("Select action (q - quit / s - skip / i - ignore / [0-9] - pick): ")
+    except EOFError:
+        sys.exit(1)
+
     if product_check == "q":
         break
     elif product_check == "s":
@@ -59,8 +65,11 @@ for product in review_products:
         keep = True
         for key in product[1].keys():
             if key in import_products["products"][product_link[0]]["identifiers"]:
-                ask = input("Confirm overwrite of existing id? [Y] ").lower()
-                keep = ask == "y" or ask == ""
+                try:
+                    ask = input("Confirm overwrite of existing id? [Y] ").lower()
+                    keep = ask == "y" or ask == ""
+                except EOFError:
+                    sys.exit(1)
         if not keep:
             continue
         import_products["products"][product_link[0]]["identifiers"].update(product[1])
@@ -69,8 +78,11 @@ for product in review_products:
                 import_products["products"][product_link[0]]["release_date"] = product[2]
             elif import_products["products"][product_link[0]]["release_date"] != product[2]:
                 d = import_products["products"][product_link[0]]["release_date"]
-                ask = input(f"Update current date {d} with new date {product[2]}? [Y] ").lower()
-                check = ask == "y" or ask == ""
+                try:
+                    ask = input(f"Update current date {d} with new date {product[2]}? [Y] ").lower()
+                    check = ask == "y" or ask == ""
+                except EOFError:
+                    sys.exit(1)
                 if check:
                     import_products["products"][product_link[0]]["release_date"] = product[2]
         with open(product_link[1], 'w') as product_file:
