@@ -77,7 +77,7 @@ while index < len(review_products):
             import_products["products"][product_link[0]]["identifiers"] = {}
         keep = True
         for key in product[1].keys():
-            if key in import_products["products"][product_link[0]]["identifiers"]:
+            if key in import_products["products"][product_link[0]]["identifiers"] and import_products['products'][product_link[0]]['identifiers'][key] != product[1][key]:
                 try:
                     ask = input("Confirm overwrite of existing id? [Y] ").lower()
                     keep = ask == "y" or ask == ""
