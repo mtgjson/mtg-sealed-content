@@ -32,6 +32,7 @@ for contentfile in Path("data/products").glob("*.yaml"):
         known_products.append((product_name, contentfile))
 
 index = 0
+offset = 0
 while index < len(review_products):
     product = review_products[index]
     index += 1
@@ -39,7 +40,7 @@ while index < len(review_products):
     print(f"Finding similar products for {product[0]}")
     known_products.sort(key=lambda x: fuzz.token_sort_ratio(x[0], product[0]), reverse=True)
     for i in range(5):
-        print(f"  {i} - {known_products[i][0]}")
+        print(f"  {i} - {known_products[i + offset][0]}")
 
     try:
         product_check = input("Select action ('h' for help): ")
@@ -49,7 +50,13 @@ while index < len(review_products):
     if product_check == "q":
         break
     elif product_check == "s":
+        offset = 0
         continue
+    elif product_check == "m":
+        index -= 1
+        offset += 5
+        if offset + 5 > len(known_products):
+            offset = 0
     elif product_check == "i":
         with open("data/ignore.yaml", "r") as ignore_file:
             ignore_content = yaml.safe_load(ignore_file)
@@ -62,7 +69,7 @@ while index < len(review_products):
     elif product_check in "01234":
         if product_check == "":
             product_check = "0"
-        check_index = int(product_check)
+        check_index = int(product_check) + offset
         product_link = known_products[check_index]
         with open(product_link[1], 'r') as product_file:
             import_products = yaml.safe_load(product_file)
@@ -97,4 +104,7 @@ while index < len(review_products):
         index -= 1
         if product_check != "h":
             print(f"Invalid action: {product_check}")
-        print("Available actions: q - quit / s - skip / i - ignore / [0]124 - pick")
+        print("Available actions: q - quit / s - skip / i - ignore / m - more / [0]124 - pick")
+
+    if product_check != "m":
+        offset = 0
