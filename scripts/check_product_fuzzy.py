@@ -35,7 +35,7 @@ for product in review_products:
     known_products.sort(key=lambda x: fuzz.token_sort_ratio(x[0], product[0]), reverse=True)
     for i in range(5):
         print(f"  {i} - {known_products[i][0]}")
-    product_check = input("Which product or action? ")
+    product_check = input("Select action (q - quit / s - skip / i - ignore / [0-9] - pick): ")
     if product_check == "q":
         break
     elif product_check == "s":
