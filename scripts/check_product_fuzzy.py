@@ -84,6 +84,7 @@ while index < len(review_products):
                 except EOFError:
                     sys.exit(1)
         if not keep:
+            index -= 1
             continue
         import_products["products"][product_link[0]]["identifiers"].update(product[1])
         if product[2]:
