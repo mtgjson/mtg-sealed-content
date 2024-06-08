@@ -46,7 +46,7 @@ for product in review_products:
         for provider, identifier in product[1].items():
             if provmap[provider] not in ignore_content:
                 ignore_content[provmap[provider]] = {}
-            ignore_content[provmap[provider]].update({int(identifier): product[0]})
+            ignore_content[provmap[provider]].update({identifier: product[0]})
         with open("data/ignore.yaml", "w") as ignore_file:
             yaml.dump(ignore_content, ignore_file)
     elif product_check in "01234":
