@@ -59,7 +59,8 @@ for product in review_products:
         keep = True
         for key in product[1].keys():
             if key in import_products["products"][product_link[0]]["identifiers"]:
-                keep = input("Confirm overwrite of existing id? [Y] ").lower() == "y"
+                ask = input("Confirm overwrite of existing id? [Y] ").lower()
+                keep = ask == "y" or ask == ""
         if not keep:
             continue
         import_products["products"][product_link[0]]["identifiers"].update(product[1])
@@ -68,8 +69,9 @@ for product in review_products:
                 import_products["products"][product_link[0]]["release_date"] = product[2]
             elif import_products["products"][product_link[0]]["release_date"] != product[2]:
                 d = import_products["products"][product_link[0]]["release_date"]
-                check = input(f"Update current date {d} with new date {product[2]}? ")
-                if "y" in check:
+                ask = input(f"Update current date {d} with new date {product[2]}? [Y] ").lower()
+                check = ask == "y" or ask == ""
+                if check:
                     import_products["products"][product_link[0]]["release_date"] = product[2]
         with open(product_link[1], 'w') as product_file:
             yaml.dump(import_products, product_file)
