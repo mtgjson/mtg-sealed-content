@@ -31,14 +31,18 @@ for contentfile in Path("data/products").glob("*.yaml"):
     for product_name in known_data["products"].keys():
         known_products.append((product_name, contentfile))
 
-for product in review_products:
+index = 0
+while index < len(review_products):
+    product = review_products[index]
+    index += 1
+
     print(f"Finding similar products for {product[0]}")
     known_products.sort(key=lambda x: fuzz.token_sort_ratio(x[0], product[0]), reverse=True)
     for i in range(5):
         print(f"  {i} - {known_products[i][0]}")
 
     try:
-        product_check = input("Select action (q - quit / s - skip / i - ignore / [0-9] - pick): ")
+        product_check = input("Select action ('h' for help): ")
     except EOFError:
         sys.exit(1)
 
@@ -89,3 +93,8 @@ for product in review_products:
                     import_products["products"][product_link[0]]["release_date"] = product[2]
         with open(product_link[1], 'w') as product_file:
             yaml.dump(import_products, product_file)
+    else:
+        index -= 1
+        if product_check != "h":
+            print(f"Invalid action: {product_check}")
+        print("Available actions: q - quit / s - skip / i - ignore / [0]124 - pick")
