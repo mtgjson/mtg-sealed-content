@@ -56,6 +56,8 @@ for product in review_products:
         with open("data/ignore.yaml", "w") as ignore_file:
             yaml.dump(ignore_content, ignore_file)
     elif product_check in "01234":
+        if product_check == "":
+            product_check = "0"
         check_index = int(product_check)
         product_link = known_products[check_index]
         with open(product_link[1], 'r') as product_file:
