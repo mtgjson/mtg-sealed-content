@@ -414,7 +414,7 @@ def load_miniaturemarket(secret):
     return sealed_data
 
 
-def scgreq(guid, page):
+def scgretaildownload(guid, page):
     header = {
         "X-HawkSearch-IgnoreTracking": "true",
         "Content-Type": "application/json",
@@ -434,14 +434,44 @@ def scgreq(guid, page):
     return json.loads(r.content)
 
 
-def load_starcity(secret):
-    guid = secret.get("scg_guid")
-    numOfPages = scgreq(guid, 0)["Pagination"]["NofPages"]
+def scgbuylistdownload(bearer, offset, limit):
+    header = {
+        "Authorization": f"Bearer {bearer}",
+        "Content-Type": "application/json",
+    }
 
+    payload = {}
+    # price_category_id = 2 is sealed
+    payload["filter"] = "game_id = 1 AND price_category_id = 2"
+    payload["matchingStrategy"] = "all"
+    payload["offset"] = offset
+    payload["limit"] = limit
+    payload["sort"] = ["name:asc", "set_name:asc", "finish:desc"]
+
+    r = requests.post("https://search.starcitygames.com/indexes/sell_list_products_v2/search", json=payload, headers=header)
+    return json.loads(r.content)
+
+
+def load_starcity(secret):
+    retail_data = load_starcity_retail(secret)
+    print(f"Retrieved {len(retail_data)} products from retail")
+
+    buylist_data = load_starcity_buylist(secret)
+    print(f"Retrieved {len(buylist_data)} products from buylist")
+
+    retail_data.extend(x for x in buylist_data if x not in retail_data)
+    print(f"Total {len(retail_data)} products")
+
+    return retail_data
+
+
+def load_starcity_retail(secret):
+    guid = secret.get("scg_guid")
     sealed_data = []
 
+    numOfPages = scgretaildownload(guid, 0)["Pagination"]["NofPages"]
     for page in range(1, numOfPages + 1):
-        resp = scgreq(guid, page)
+        resp = scgretaildownload(guid, page)
         for result in resp["Results"]:
             title = result["Document"]["item_display_name"][0]
 
@@ -451,11 +481,34 @@ def load_starcity(secret):
             sealed_data.extend([
                 {
                     "name": title,
-                    "id": result["Document"]["unique_id"][0],
+                    "id": result["Document"]["hawk_child_attributes"][0]["variant_sku"][0],
                 }
             ])
 
-    print(f"Retrieved {len(sealed_data)} products")
+    return sealed_data
+
+
+def load_starcity_buylist(secret):
+    bearer = secret.get("scg_bearer")
+    sealed_data = []
+
+    numOfElements = scgbuylistdownload(bearer, 0, 1)["estimatedTotalHits"]
+    for page in range(0, numOfElements, 200):
+        resp = scgbuylistdownload(bearer, page, 200)
+        for result in resp["hits"]:
+            title = result["name"]
+            if result["subtitle"]:
+                title += " " + result["subtitle"]
+
+            if any(tag.lower() in title.lower() for tag in ["Lorcana", "Flesh and Blood"]):
+                continue
+
+            sealed_data.extend([
+                {
+                    "name": title,
+                    "id": result["variants"][0]["sku"],
+                }
+            ])
 
     return sealed_data
 
@@ -489,7 +542,7 @@ providers_dict = {
     "starcitygames": {
         "identifier": "scgId",
         "load_func": load_starcity,
-        "auth": ["scg_guid"],
+        "auth": ["scg_guid", "scg_bearer"],
     },
 }
 

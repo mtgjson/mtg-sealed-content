@@ -7,7 +7,7 @@ products:
       cardtraderId: '270469'
       mcmId: '748054'
       miniaturemarketId: '296328'
-      scgId: '618598'
+      scgId: SLD-MTG-BUN-MKM-EN
       tcgplayerProductId: '529971'
     release_date: '2024-02-09'
     subtype: DEFAULT
@@ -24,7 +24,7 @@ products:
       cardtraderId: '270465'
       mcmId: '748052'
       miniaturemarketId: '296320'
-      scgId: '618597'
+      scgId: SLD-MTG-BBX-MKMCOLLECTOR-EN
       tcgplayerProductId: '529968'
     release_date: '2024-02-09'
     subtype: COLLECTOR
@@ -40,7 +40,7 @@ products:
       cardKingdomId: '289641'
       cardtraderId: '270467'
       mcmId: '748050'
-      scgId: '618596'
+      scgId: SLD-MTG-PCK-MKMCOLLECTOR-EN
       tcgplayerProductId: '529967'
     release_date: '2024-02-09'
     subtype: COLLECTOR
@@ -57,13 +57,14 @@ products:
       cardtraderId: '270464'
       mcmId: '748053'
       miniaturemarketId: '296317'
-      scgId: '618595'
+      scgId: SLD-MTG-BBX-MKMPLAY-EN
       tcgplayerProductId: '529964'
     release_date: '2024-02-09'
     subtype: PLAY
   Murders at Karlov Manor Play Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
+      scgId: SLD-MTG-BBX-MKMPLAYCASE-EN
       tcgplayerProductId: '529965'
     release_date: '2024-02-09'
     subtype: PLAY
@@ -73,7 +74,7 @@ products:
       cardKingdomId: '289639'
       cardtraderId: '270466'
       mcmId: '748049'
-      scgId: '618592'
+      scgId: SLD-MTG-PCK-MKMPLAY-EN
       tcgplayerProductId: '529962'
     release_date: '2024-02-09'
     subtype: PLAY
@@ -82,6 +83,8 @@ products:
     identifiers:
       cardtraderId: '270481'
       mcmId: '748128'
+      miniaturemarketId: '299395'
+      scgId: SLD-MTG-INT-MKMPRE-EN
       tcgplayerProductId: '531817'
-    release_date: '2024-02-09'
+    release_date: '2024-02-27'
     subtype: PRERELEASE

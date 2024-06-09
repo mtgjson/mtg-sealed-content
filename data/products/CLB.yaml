@@ -12,6 +12,7 @@ products:
       cardKingdomId: '260404'
       cardtraderId: '207758'
       mcmId: '650829'
+      scgId: SLD-MTG-BUN-CLB-EN
       tcgplayerProductId: '267034'
     release_date: '2022-06-10'
     subtype: DEFAULT
@@ -27,7 +28,7 @@ products:
       cardKingdomId: '260406'
       cardtraderId: '207759'
       mcmId: '650825'
-      scgId: '561061'
+      scgId: SLD-MTG-BBX-CLBCOLLECTOR-EN
       tcgplayerProductId: '267023'
     subtype: COLLECTOR
   Commander Legends Battle for Baldurs Gate Collector Booster Box Case:
@@ -46,7 +47,7 @@ products:
       cardKingdomId: '260405'
       cardtraderId: '207754'
       mcmId: '650828'
-      scgId: '561058'
+      scgId: SLD-MTG-PCK-CLBCOLLECTOR-EN
       tcgplayerProductId: '267024'
     release_date: '2022-06-10'
     subtype: COLLECTOR
@@ -55,7 +56,8 @@ products:
     identifiers:
       cardtraderId: '219465'
       mcmId: '668773'
-    release_date: '2022-06-10'
+      miniaturemarketId: '285491'
+    release_date: '2022-05-04'
     subtype: PROMOTIONAL
   Commander Legends Battle for Baldurs Gate Commander Deck Display:
     category: DECK_BOX
@@ -68,6 +70,7 @@ products:
       cardKingdomId: '260610'
       cardtraderId: '208731'
       mcmId: '651790'
+      scgId: SLD-MTG-MLT-CLB-EN-DRACONIC
       tcgplayerProductId: '267030'
     release_date: '2022-06-10'
     subtype: COMMANDER
@@ -83,6 +86,7 @@ products:
       cardKingdomId: '260611'
       cardtraderId: '208730'
       mcmId: '651791'
+      scgId: SLD-MTG-MLT-CLB-EN-EXILE
       tcgplayerProductId: '267031'
     release_date: '2022-06-10'
     subtype: COMMANDER
@@ -98,6 +102,7 @@ products:
       cardKingdomId: '260609'
       cardtraderId: '208732'
       mcmId: '651789'
+      scgId: SLD-MTG-MLT-CLB-EN-MIND
       tcgplayerProductId: '267027'
     release_date: '2022-06-10'
     subtype: COMMANDER
@@ -113,6 +118,7 @@ products:
       cardKingdomId: '260608'
       cardtraderId: '208733'
       mcmId: '651788'
+      scgId: SLD-MTG-MLT-CLB-EN-PARTY
       tcgplayerProductId: '267025'
     release_date: '2022-06-10'
     subtype: COMMANDER
@@ -128,7 +134,7 @@ products:
       cardKingdomId: '260612'
       cardtraderId: '208734'
       mcmId: '651792'
-      scgId: '562901'
+      scgId: SLD-MTG-MLT-CLB-EN-SET4
     subtype: COMMANDER
   Commander Legends Battle for Baldurs Gate Draft Booster Box:
     category: BOOSTER_BOX
@@ -136,7 +142,7 @@ products:
       cardKingdomId: '260408'
       cardtraderId: '207756'
       mcmId: '650823'
-      scgId: '561002'
+      scgId: SLD-MTG-BBX-CLBDRAFT-EN
       tcgplayerProductId: '267019'
     release_date: '2022-06-10'
     subtype: DEFAULT
@@ -152,13 +158,14 @@ products:
       cardKingdomId: '260409'
       cardtraderId: '207752'
       mcmId: '650826'
-      scgId: '561059'
+      scgId: SLD-MTG-PCK-CLBDRAFT-EN
       tcgplayerProductId: '267020'
     release_date: '2022-06-10'
     subtype: DEFAULT
   Commander Legends Battle for Baldurs Gate Prerelease Pack:
     category: LIMITED
     identifiers:
+      cardKingdomId: '260410'
       cardtraderId: '207891'
       mcmId: '650877'
       tcgplayerProductId: '267035'
@@ -170,7 +177,7 @@ products:
       cardKingdomId: '260412'
       cardtraderId: '207757'
       mcmId: '650824'
-      scgId: '561062'
+      scgId: SLD-MTG-BBX-CLBSET-EN
       tcgplayerProductId: '267022'
     subtype: SET
   Commander Legends Battle for Baldurs Gate Set Booster Box Case:
@@ -185,7 +192,7 @@ products:
       cardKingdomId: '260411'
       cardtraderId: '207753'
       mcmId: '650827'
-      scgId: '561060'
+      scgId: SLD-MTG-PCK-CLBSET-EN
       tcgplayerProductId: '267021'
     release_date: '2022-06-10'
     subtype: SET
