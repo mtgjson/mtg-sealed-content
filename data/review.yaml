@@ -34,85 +34,7 @@ cardKingdom:
     identifiers:
       cardKingdomId: '297397'
     subtype: UNKNOWN
-cardMarket:
-  Bloomburrow Collector Booster:
-    category: UNKNOWN
-    identifiers:
-      mcmId: '774108'
-    release_date: '2024-06-10'
-    subtype: UNKNOWN
-  Bloomburrow Collector Booster Box:
-    category: UNKNOWN
-    identifiers:
-      mcmId: '774110'
-    release_date: '2024-06-10'
-    subtype: UNKNOWN
-  Bloomburrow Fat Pack Bundle:
-    category: UNKNOWN
-    identifiers:
-      mcmId: '774128'
-    release_date: '2024-06-11'
-    subtype: UNKNOWN
-  Bloomburrow Play Booster:
-    category: UNKNOWN
-    identifiers:
-      mcmId: '774107'
-    release_date: '2024-06-10'
-    subtype: UNKNOWN
-  Bloomburrow Play Booster Box:
-    category: UNKNOWN
-    identifiers:
-      mcmId: '774109'
-    release_date: '2024-06-10'
-    subtype: UNKNOWN
-  'Bloomburrow: Prerelease Pack':
-    category: UNKNOWN
-    identifiers:
-      mcmId: '774133'
-    release_date: '2024-06-11'
-    subtype: UNKNOWN
-  'Bloomburrow: Starter Kit':
-    category: UNKNOWN
-    identifiers:
-      mcmId: '774132'
-    release_date: '2024-06-11'
-    subtype: UNKNOWN
-  'Commander: Bloomburrow: "Animated Army" Commander Deck':
-    category: UNKNOWN
-    identifiers:
-      mcmId: '774134'
-    release_date: '2024-06-11'
-    subtype: UNKNOWN
-  'Commander: Bloomburrow: "Family Matters" Commander Deck':
-    category: UNKNOWN
-    identifiers:
-      mcmId: '774135'
-    release_date: '2024-06-11'
-    subtype: UNKNOWN
-  'Commander: Bloomburrow: "Peace Offering" Commander Deck':
-    category: UNKNOWN
-    identifiers:
-      mcmId: '774136'
-    release_date: '2024-06-11'
-    subtype: UNKNOWN
-  'Commander: Bloomburrow: "Squirreled Away" Commander Deck':
-    category: UNKNOWN
-    identifiers:
-      mcmId: '774137'
-    release_date: '2024-06-11'
-    subtype: UNKNOWN
-  'Commander: Bloomburrow: Deck Set':
-    category: UNKNOWN
-    identifiers:
-      mcmId: '774140'
-    release_date: '2024-06-11'
-    subtype: UNKNOWN
-  Modern Horizons 3 Collector Booster Sample Pack:
-    category: UNKNOWN
-    identifiers:
-      mcmId: '773848'
-    release_date: '2024-06-07'
-    subtype: UNKNOWN
+cardMarket: {}
 cardTrader:
   Adventures in the Forgotten Realms Theme Booster:
     category: UNKNOWN
@@ -551,7 +473,7 @@ starcitygames:
     identifiers:
       scgId: SLD-MTG-PCK-ACRBEYOND-EN
     subtype: UNKNOWN
-  Assassin's Creed Beyond Combo Pack (Combo Booster Box &amp; Bundle):
+  Assassin's Creed Beyond Combo Pack:
     category: UNKNOWN
     identifiers:
       scgId: SLD-MTG-BBX-ACRBEYONDCOMBO-EN
@@ -576,11 +498,21 @@ starcitygames:
     identifiers:
       scgId: SLD-MTG-INT-ACRSTARTER-EN
     subtype: UNKNOWN
+  Test Sealed Item for BC:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-TEST-EN
+    subtype: UNKNOWN
 tcgplayer:
   Secret Lair Drop Secret Lair Promo Seedborn Muse Rainbow Foil Edition:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '554987'
+    subtype: UNKNOWN
+  The Brothers War Collector Booster Pack Minimal Packaging:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '555061'
     subtype: UNKNOWN
   Universes Beyond The Lord of the Rings Tales of Middle earth Special Edition Collector Booster Omega Pack:
     category: UNKNOWN
