@@ -151,11 +151,66 @@ products:
       name: 2011 Core Set Booster Pack
       set: m11
   2011 Core Set Land Station: []
-  2011 Core Set Sample Deck Ajani Goldmane: []
-  2011 Core Set Sample Deck Chandra Nalaar: []
-  2011 Core Set Sample Deck Garruk Wildspeaker: []
-  2011 Core Set Sample Deck Jace Beleren: []
-  2011 Core Set Sample Deck Liliana Vess: []
+  2011 Core Set Sample Deck Ajani Goldmane:
+    card count: 30
+    variable:
+    - deck:
+      - name: White Deck A
+        set: m11
+    - deck:
+      - name: White Deck B
+        set: m11
+    variable_mode:
+      count: 1
+      replacement: false
+  2011 Core Set Sample Deck Chandra Nalaar:
+    card count: 30
+    variable:
+    - deck:
+      - name: Red Deck A
+        set: m11
+    - deck:
+      - name: Red Deck B
+        set: m11
+    variable_mode:
+      count: 1
+      replacement: false
+  2011 Core Set Sample Deck Garruk Wildspeaker:
+    card count: 30
+    variable:
+    - deck:
+      - name: Green Deck A
+        set: m11
+    - deck:
+      - name: Green Deck B
+        set: m11
+    variable_mode:
+      count: 1
+      replacement: false
+  2011 Core Set Sample Deck Jace Beleren:
+    card count: 30
+    variable:
+    - deck:
+      - name: Blue Deck A
+        set: m11
+    - deck:
+      - name: Blue Deck B
+        set: m11
+    variable_mode:
+      count: 1
+      replacement: false
+  2011 Core Set Sample Deck Liliana Vess:
+    card count: 30
+    variable:
+    - deck:
+      - name: Black Deck A
+        set: m11
+    - deck:
+      - name: Black Deck B
+        set: m11
+    variable_mode:
+      count: 1
+      replacement: false
   2011 Core Set Set of 5 Intro Pack:
     sealed:
     - count: 1

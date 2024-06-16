@@ -7,6 +7,7 @@ products:
       cardtraderId: '279370'
       mcmId: '758484'
       miniaturemarketId: '299643'
+      scgId: SLD-MTG-BUN-MH3-EN
       tcgplayerProductId: '541185'
     release_date: '2024-06-14'
     subtype: DEFAULT
@@ -23,6 +24,7 @@ products:
       cardtraderId: '279369'
       mcmId: '758483'
       miniaturemarketId: '299634'
+      scgId: SLD-MTG-BBX-MH3COLLECTOR-EN
       tcgplayerProductId: '541179'
     release_date: '2024-06-14'
     subtype: COLLECTOR
@@ -39,6 +41,7 @@ products:
       cardtraderId: '279374'
       mcmId: '758481'
       miniaturemarketId: '299636'
+      scgId: SLD-MTG-PCK-MH3COLLECTOR-EN
       tcgplayerProductId: '541173'
     release_date: '2024-06-14'
     subtype: COLLECTOR
@@ -47,6 +50,7 @@ products:
     identifiers:
       cardtraderId: '279371'
       mcmId: '758485'
+      scgId: SLD-MTG-BUN-MH3GIFT-EN
       tcgplayerProductId: '541190'
     release_date: '2024-06-14'
     subtype: GIFT_BUNDLE
@@ -63,12 +67,14 @@ products:
       cardtraderId: '279368'
       mcmId: '758482'
       miniaturemarketId: '299631'
+      scgId: SLD-MTG-BBX-MH3PLAY-EN
       tcgplayerProductId: '541164'
     release_date: '2024-06-14'
     subtype: PLAY
   Modern Horizons 3 Play Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
+      scgId: SLD-MTG-BBX-MH3PLAYCASE-EN
       tcgplayerProductId: '541166'
     release_date: '2024-06-14'
     subtype: PLAY
@@ -79,6 +85,7 @@ products:
       cardtraderId: '279373'
       mcmId: '758480'
       miniaturemarketId: '299633'
+      scgId: SLD-MTG-PCK-MH3PLAY-EN
       tcgplayerProductId: '541163'
     release_date: '2024-06-14'
     subtype: PLAY
@@ -87,6 +94,7 @@ products:
     identifiers:
       cardtraderId: '279372'
       mcmId: '758486'
+      scgId: SLD-MTG-INT-MH3PRE-EN
       tcgplayerProductId: '541159'
     release_date: '2024-06-14'
     subtype: PRERELEASE

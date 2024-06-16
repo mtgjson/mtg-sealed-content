@@ -21,6 +21,7 @@ products:
       cardKingdomId: '285492'
       cardtraderId: '261710'
       mcmId: '734163'
+      scgId: SLD-MTG-BUN-LCI-EN
       tcgplayerProductId: '516610'
     release_date: '2023-11-17'
     subtype: DEFAULT
@@ -36,6 +37,7 @@ products:
       cardKingdomId: '285493'
       cardtraderId: '261708'
       mcmId: '734175'
+      scgId: SLD-MTG-BBX-LCICOLLECTOR-EN
       tcgplayerProductId: '516614'
     release_date: '2023-11-17'
     subtype: COLLECTOR
@@ -57,6 +59,7 @@ products:
       cardKingdomId: '285494'
       cardtraderId: '261715'
       mcmId: '734169'
+      scgId: SLD-MTG-PCK-LCICOLLECTOR-EN
       tcgplayerProductId: '516613'
     release_date: '2023-11-17'
     subtype: COLLECTOR
@@ -73,12 +76,14 @@ products:
       cardKingdomId: '285495'
       cardtraderId: '261707'
       mcmId: '734176'
+      scgId: SLD-MTG-BBX-LCIDRAFT-EN
       tcgplayerProductId: '516619'
     release_date: '2023-11-17'
     subtype: DEFAULT
   The Lost Caverns of Ixalan Draft Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
+      scgId: SLD-MTG-BBX-LCIDRAFTCASE-EN
       tcgplayerProductId: '516620'
     release_date: '2023-11-17'
     subtype: DEFAULT
@@ -88,6 +93,7 @@ products:
       cardKingdomId: '285496'
       cardtraderId: '261713'
       mcmId: '734164'
+      scgId: SLD-MTG-PCK-LCIDRAFT-EN
       tcgplayerProductId: '516618'
     release_date: '2023-11-17'
     subtype: DEFAULT
@@ -97,6 +103,7 @@ products:
       cardKingdomId: '285506'
       cardtraderId: '261711'
       mcmId: '734174'
+      scgId: SLD-MTG-BUN-LCIGIFT-EN
       tcgplayerProductId: '516628'
     release_date: '2023-11-17'
     subtype: GIFT_BUNDLE
@@ -112,6 +119,7 @@ products:
       cardKingdomId: '285491'
       cardtraderId: '261712'
       mcmId: '734178'
+      scgId: SLD-MTG-INT-LCIPRE-EN
       tcgplayerProductId: '516678'
     release_date: '2023-11-17'
     subtype: PRERELEASE
@@ -122,12 +130,14 @@ products:
       cardtraderId: '261709'
       mcmId: '734177'
       miniaturemarketId: '295864'
+      scgId: SLD-MTG-BBX-LCISET-EN
       tcgplayerProductId: '516622'
     release_date: '2023-11-17'
     subtype: SET
   The Lost Caverns of Ixalan Set Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
+      scgId: SLD-MTG-BBX-LCISETCASE-EN
       tcgplayerProductId: '516623'
     release_date: '2023-11-17'
     subtype: SET
@@ -137,6 +147,7 @@ products:
       cardKingdomId: '285498'
       cardtraderId: '261714'
       mcmId: '734166'
+      scgId: SLD-MTG-PCK-LCISET-EN
       tcgplayerProductId: '516621'
     release_date: '2023-11-17'
     subtype: SET

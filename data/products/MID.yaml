@@ -12,6 +12,7 @@ products:
       cardKingdomId: '249857'
       cardtraderId: '164060'
       mcmId: '573786'
+      scgId: SLD-MTG-BUN-MID-EN
       tcgplayerProductId: '244382'
     release_date: '2021-09-24'
     subtype: DEFAULT
@@ -26,6 +27,7 @@ products:
       cardKingdomId: '249861'
       cardtraderId: '164054'
       mcmId: '573781'
+      scgId: SLD-MTG-BBX-MIDCOLLECTOR-EN
       tcgplayerProductId: '244384'
     release_date: '2021-09-24'
     subtype: COLLECTOR
@@ -46,6 +48,7 @@ products:
       cardKingdomId: '249860'
       cardtraderId: '164080'
       mcmId: '573784'
+      scgId: SLD-MTG-PCK-MIDCOLLECTOR-EN
       tcgplayerProductId: '244383'
     release_date: '2021-09-24'
     subtype: COLLECTOR
@@ -55,6 +58,7 @@ products:
       cardKingdomId: '249858'
       cardtraderId: '164052'
       mcmId: '573780'
+      scgId: SLD-MTG-BBX-MIDDRAFT-EN
       tcgplayerProductId: '244379'
     release_date: '2021-09-24'
     subtype: DEFAULT
@@ -70,12 +74,14 @@ products:
       cardKingdomId: '249859'
       cardtraderId: '164078'
       mcmId: '573785'
+      scgId: SLD-MTG-PCK-MIDDRAFT-EN
       tcgplayerProductId: '244378'
     release_date: '2021-09-24'
     subtype: DEFAULT
   Innistrad Midnight Hunt Prerelease Pack:
     category: LIMITED
     identifiers:
+      cardKingdomId: '249873'
       cardtraderId: '164074'
       mcmId: '576139'
       tcgplayerProductId: '247383'
@@ -87,6 +93,7 @@ products:
       cardKingdomId: '249862'
       cardtraderId: '164053'
       mcmId: '573782'
+      scgId: SLD-MTG-BBX-MIDSET-EN
       tcgplayerProductId: '244389'
     release_date: '2021-09-24'
     subtype: SET
@@ -102,6 +109,7 @@ products:
       cardKingdomId: '249863'
       cardtraderId: '164079'
       mcmId: '573783'
+      scgId: SLD-MTG-PCK-MIDSET-EN
       tcgplayerProductId: '244387'
     release_date: '2021-09-24'
     subtype: SET
@@ -118,8 +126,9 @@ products:
     identifiers:
       cardtraderId: '167190'
       mcmId: '576142'
+      miniaturemarketId: '280221'
       tcgplayerProductId: '247377'
-    release_date: '2021-09-24'
+    release_date: '2021-07-14'
     subtype: THEME
   Innistrad Midnight Hunt Theme Booster Box:
     category: BOOSTER_BOX
