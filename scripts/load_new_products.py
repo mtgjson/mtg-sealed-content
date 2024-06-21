@@ -201,6 +201,7 @@ def get_cardmarket(productsfile):
         "Contraption Set",
         "CustomSet",
         "Dual Lands Set",
+        "Empty",
         "Extended-Art Frames set",
         "Fetchland Set",
         "GnD Cards",
