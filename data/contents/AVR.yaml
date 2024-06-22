@@ -5,11 +5,7 @@ products:
     - count: 6
       name: Avacyn Restored Booster Pack
       set: avr
-  Avacyn Restored 6 Card Booster Pack:
-    card_count: 6
-    pack:
-    - code: six
-      set: avr
+  Avacyn Restored 6 Card Booster Pack: []
   Avacyn Restored Booster Box:
     sealed:
     - count: 36
@@ -123,5 +119,25 @@ products:
     - count: 1
       name: Avacyn Restored Booster Pack
       set: avr
-  Avacyn Restored Intro Packs Set of 5: []
-  Avacyn Restored Six Card Booster Pack: []
+  Avacyn Restored Intro Packs Set of 5: 
+    sealed:
+    - count: 1
+      name: Avacyn Restored Intro Pack Angelic Might
+      set: avr
+    - count: 1
+      name: Avacyn Restored Intro Pack Bound by Strength
+      set: avr
+    - count: 1
+      name: Avacyn Restored Intro Pack Fiery Dawn
+      set: avr
+    - count: 1
+      name: Avacyn Restored Intro Pack Slaughterhouse
+      set: avr
+    - count: 1
+      name: Avacyn Restored Intro Pack Solitary Fiends
+      set: avr
+  Avacyn Restored Six Card Booster Pack: 
+    card_count: 6
+    pack:
+    - code: six
+      set: avr

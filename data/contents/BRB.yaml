@@ -1,17 +1,36 @@
 code: brb
 products:
   Battle Royale Multi Player Box set:
-    card_count: 160
+    sealed:
+    - set: brb
+      count: 1
+      name: Battle Royale Theme Deck Chargoyf
+    - set: brb
+      count: 1
+      name: Battle Royale Theme Deck Cinder Heart
+    - set: brb
+      count: 1
+      name: Battle Royale Theme Deck Spirit Gale
+    - set: brb
+      count: 1
+      name: Battle Royale Theme Deck The Deluge
+  Battle Royale Theme Deck Chargoyf:
+    card_count: 40
     deck:
     - name: Chargoyf
       set: brb
+  Battle Royale Theme Deck Cinder Heart:
+    card_count: 40
+    deck:
     - name: Cinder Heart
       set: brb
+  Battle Royale Theme Deck Spirit Gale:
+    card_count: 40
+    deck:
     - name: Spirit Gale
       set: brb
+  Battle Royale Theme Deck The Deluge:
+    card_count: 40
+    deck:
     - name: The Deluge
       set: brb
-  Battle Royale Theme Deck Chargoyf: []
-  Battle Royale Theme Deck Cinder Heart: []
-  Battle Royale Theme Deck Spirit Gale: []
-  Battle Royale Theme Deck The Deluge: []
