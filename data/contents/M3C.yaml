@@ -1,14 +1,170 @@
 code: m3c
 products:
-  Modern Horizons 3 Commander Deck Creative Energy: []
-  Modern Horizons 3 Commander Deck Creative Energy Collectors Edition: []
-  Modern Horizons 3 Commander Deck Display: []
-  Modern Horizons 3 Commander Deck Display Collectors Edition: []
-  Modern Horizons 3 Commander Deck Eldrazi Incursion: []
-  Modern Horizons 3 Commander Deck Eldrazi Incursion Collectors Edition: []
-  Modern Horizons 3 Commander Deck Graveyard Overdrive: []
-  Modern Horizons 3 Commander Deck Graveyard Overdrive Collectors Edition: []
-  Modern Horizons 3 Commander Deck Tricky Terrain: []
-  Modern Horizons 3 Commander Deck Tricky Terrain Collectors Edition: []
-  Modern Horizons 3 Commander Decks Set of 4: []
-  Modern Horizons 3 Commander Decks Set of 4 Collectors Edition: []
+  Modern Horizons 3 Commander Deck Creative Energy:
+    deck:
+    - set: m3c
+      name: Creative Energy
+    card_count: 100
+    sealed:
+    - set: mh3
+      name: Modern Horizons 3 Collector Booster Sample Pack
+      count: 1
+    other:
+    - name: Foil etched display commander
+    - name: Life wheel
+    - name: 10 double sided tokens
+    - name: Deck box
+  Modern Horizons 3 Commander Deck Creative Energy Collectors Edition:
+    deck:
+    - set: m3c
+      name: Creative Energy Collectors Edition
+    card_count: 100
+    sealed:
+    - set: mh3
+      name: Modern Horizons 3 Collector Booster Sample Pack
+      count: 1
+    other:
+    - name: Foil etched display commander
+    - name: Life wheel
+    - name: 10 double sided tokens
+    - name: Deck box
+  Modern Horizons 3 Commander Deck Display:
+    sealed:
+    - set: mh3
+      count: 1
+      name: Modern Horizons 3 Commander Deck Creative Energy
+    - set: mh3
+      count: 1
+      name: Modern Horizons 3 Commander Deck Eldrazi Incursion
+    - set: mh3
+      count: 1
+      name: Modern Horizons 3 Commander Deck Graveyard Overdrive
+    - set: mh3
+      count: 1
+      name: Modern Horizons 3 Commander Deck Tricky Terrain
+  Modern Horizons 3 Commander Deck Display Collectors Edition:
+    sealed:
+    - set: mh3
+      count: 1
+      name: Modern Horizons 3 Commander Deck Creative Energy Collectors Edition
+    - set: mh3
+      count: 1
+      name: Modern Horizons 3 Commander Deck Eldrazi Incursion Collectors Edition
+    - set: mh3
+      count: 1
+      name: Modern Horizons 3 Commander Deck Graveyard Overdrive Collectors Edition
+    - set: mh3
+      count: 1
+      name: Modern Horizons 3 Commander Deck Tricky Terrain Collectors Edition
+  Modern Horizons 3 Commander Deck Eldrazi Incursion: 
+    deck:
+    - set: m3c
+      name: Eldrazi Incursion
+    card_count: 100
+    sealed:
+    - set: mh3
+      name: Modern Horizons 3 Collector Booster Sample Pack
+      count: 1
+    other:
+    - name: Foil etched display commander
+    - name: Life wheel
+    - name: 10 double sided tokens
+    - name: Deck box
+  Modern Horizons 3 Commander Deck Eldrazi Incursion Collectors Edition:
+    deck:
+    - set: m3c
+      name: Eldrazi Incursion Collectors Edition
+    card_count: 100
+    sealed:
+    - set: mh3
+      name: Modern Horizons 3 Collector Booster Sample Pack
+      count: 1
+    other:
+    - name: Foil etched display commander
+    - name: Life wheel
+    - name: 10 double sided tokens
+    - name: Deck box
+  Modern Horizons 3 Commander Deck Graveyard Overdrive:
+    deck:
+    - set: m3c
+      name: Graveyard Overdrive
+    card_count: 100
+    sealed:
+    - set: mh3
+      name: Modern Horizons 3 Collector Booster Sample Pack
+      count: 1
+    other:
+    - name: Foil etched display commander
+    - name: Life wheel
+    - name: 10 double sided tokens
+    - name: Deck box
+  Modern Horizons 3 Commander Deck Graveyard Overdrive Collectors Edition:
+    deck:
+    - set: m3c
+      name: Graveyard Overdrive Collectors Edition
+    card_count: 100
+    sealed:
+    - set: mh3
+      name: Modern Horizons 3 Collector Booster Sample Pack
+      count: 1
+    other:
+    - name: Foil etched display commander
+    - name: Life wheel
+    - name: 10 double sided tokens
+    - name: Deck box
+  Modern Horizons 3 Commander Deck Tricky Terrain:
+    deck:
+    - set: m3c
+      name: Tricky Terrain
+    card_count: 100
+    sealed:
+    - set: mh3
+      name: Modern Horizons 3 Collector Booster Sample Pack
+      count: 1
+    other:
+    - name: Foil etched display commander
+    - name: Life wheel
+    - name: 10 double sided tokens
+    - name: Deck box
+  Modern Horizons 3 Commander Deck Tricky Terrain Collectors Edition:
+    deck:
+    - set: m3c
+      name: Tricky Terrain Collectors Edition
+    card_count: 100
+    sealed:
+    - set: mh3
+      name: Modern Horizons 3 Collector Booster Sample Pack
+      count: 1
+    other:
+    - name: Foil etched display commander
+    - name: Life wheel
+    - name: 10 double sided tokens
+    - name: Deck box
+  Modern Horizons 3 Commander Decks Set of 4:
+    sealed:
+    - set: mh3
+      count: 1
+      name: Modern Horizons 3 Commander Deck Creative Energy
+    - set: mh3
+      count: 1
+      name: Modern Horizons 3 Commander Deck Eldrazi Incursion
+    - set: mh3
+      count: 1
+      name: Modern Horizons 3 Commander Deck Graveyard Overdrive
+    - set: mh3
+      count: 1
+      name: Modern Horizons 3 Commander Deck Tricky Terrain
+  Modern Horizons 3 Commander Decks Set of 4 Collectors Edition:
+    sealed:
+    - set: mh3
+      count: 1
+      name: Modern Horizons 3 Commander Deck Creative Energy Collectors Edition
+    - set: mh3
+      count: 1
+      name: Modern Horizons 3 Commander Deck Eldrazi Incursion Collectors Edition
+    - set: mh3
+      count: 1
+      name: Modern Horizons 3 Commander Deck Graveyard Overdrive Collectors Edition
+    - set: mh3
+      count: 1
+      name: Modern Horizons 3 Commander Deck Tricky Terrain Collectors Edition
