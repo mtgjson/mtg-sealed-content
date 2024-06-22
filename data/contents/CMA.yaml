@@ -1,23 +1,23 @@
 code: cma
 products:
   Commander Anthology:
-    sealed:
-    - set: cma
-      name: Commander Anthology Commander Deck Evasive Maneuvers
-      count: 1
-    - set: cma
-      name: Commander Anthology Commander Deck Guided by Nature
-      count: 1
-    - set: cma
-      name: Commander Anthology Commander Deck Heavenly Inferno
-      count: 1
-    - set: cma
-      name: Commander Anthology Commander Deck Plunder the Graves
-      count: 1
     other:
     - name: 4 Specialized Life Counters
     - name: Tokens for All Decks
-  Commander Anthology Commander Deck Evasive Maneuvers: 
+    sealed:
+    - count: 1
+      name: Commander Anthology Commander Deck Evasive Maneuvers
+      set: cma
+    - count: 1
+      name: Commander Anthology Commander Deck Guided by Nature
+      set: cma
+    - count: 1
+      name: Commander Anthology Commander Deck Heavenly Inferno
+      set: cma
+    - count: 1
+      name: Commander Anthology Commander Deck Plunder the Graves
+      set: cma
+  Commander Anthology Commander Deck Evasive Maneuvers:
     card_count: 100
     deck:
     - name: Evasive Maneuvers

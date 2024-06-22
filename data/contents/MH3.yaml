@@ -4,34 +4,35 @@ products:
   Modern Horizons 3 Bundle Case: []
   Modern Horizons 3 Collector Booster Box:
     sealed:
-    - set: mh3
+    - count: 12
       name: Modern Horizons 3 Collector Booster Pack
-      count: 12
+      set: mh3
   Modern Horizons 3 Collector Booster Box Case:
     sealed:
-    - set: mh3
-      count: 6
+    - count: 6
       name: Modern Horizons 3 Collector Booster Box
-  Modern Horizons 3 Collector Booster Pack: 
-    pack:
-    - set: mh3
-      code: collector
+      set: mh3
+  Modern Horizons 3 Collector Booster Pack:
     card_count: 15
+    pack:
+    - code: collector
+      set: mh3
+  Modern Horizons 3 Collector Booster Sample Pack: []
   Modern Horizons 3 Gift Bundle: []
   Modern Horizons 3 Gift Bundle Case: []
   Modern Horizons 3 Play Booster Box:
     sealed:
-    - set: mh3
+    - count: 36
       name: Modern Horizons 3 Play Booster Pack
-      count: 36
+      set: mh3
   Modern Horizons 3 Play Booster Box Case:
     sealed:
-    - set: mh3
+    - count: 6
       name: Modern Horizons 3 Play Booster Box
-      count: 6
+      set: mh3
   Modern Horizons 3 Play Booster Pack:
-    pack:
-    - set: mh3
-      code: play
     card_count: 14
+    pack:
+    - code: play
+      set: mh3
   Modern Horizons 3 Prerelease Pack: []

@@ -2,19 +2,19 @@ code: dd1
 products:
   Duel Deck Elves vs Goblins:
     sealed:
-    - set: dd1
-      count: 1
+    - count: 1
       name: Duel Deck Elves vs Goblins Elves Deck
-    - set: dd1
-      count: 1
+      set: dd1
+    - count: 1
       name: Duel Deck Elves vs Goblins Goblins Deck
+      set: dd1
   Duel Deck Elves vs Goblins Display: []
-  Duel Deck Elves vs Goblins Elves Deck: 
+  Duel Deck Elves vs Goblins Elves Deck:
     card_count: 60
     deck:
     - name: Elves
       set: dd1
-  Duel Deck Elves vs Goblins Goblins Deck: 
+  Duel Deck Elves vs Goblins Goblins Deck:
     card_count: 60
     deck:
     - name: Goblin
