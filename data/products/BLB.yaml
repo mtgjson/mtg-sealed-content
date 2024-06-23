@@ -22,6 +22,7 @@ products:
       mcmId: '774110'
       miniaturemarketId: '299648'
       tcgplayerProductId: '541238'
+      scgId: SLD-MTG-BBX-BLBCOLLECTOR-EN
     release_date: '2024-08-02'
     subtype: COLLECTOR
   Bloomburrow Collector Booster Box Case:
@@ -35,6 +36,7 @@ products:
     identifiers:
       cardtraderId: '280429'
       mcmId: '774108'
+      scgId: SLD-MTG-PCK-BLBCOLLECTOR-EN
       miniaturemarketId: '299650'
       tcgplayerProductId: '541237'
     release_date: '2024-08-02'
@@ -46,12 +48,14 @@ products:
       mcmId: '774109'
       miniaturemarketId: '299645'
       tcgplayerProductId: '541235'
+      scgId: SLD-MTG-BBX-BLBPLAY-EN
     release_date: '2024-08-02'
     subtype: PLAY
   Bloomburrow Play Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '541236'
+      scgId: SLD-MTG-BBX-BLBPLAYCASE-EN
     release_date: '2024-08-02'
     subtype: PLAY
   Bloomburrow Play Booster Pack:
@@ -59,6 +63,7 @@ products:
     identifiers:
       cardtraderId: '280428'
       mcmId: '774107'
+      scgId: SLD-MTG-PCK-BLBPLAY-EN
       miniaturemarketId: '299647'
       tcgplayerProductId: '541234'
     release_date: '2024-08-02'
@@ -68,6 +73,7 @@ products:
     identifiers:
       cardtraderId: '280427'
       mcmId: '774133'
+      scgId: SLD-MTG-INT-BLBPRE-EN
       tcgplayerProductId: '541245'
     release_date: '2024-08-02'
     subtype: PRERELEASE
@@ -75,6 +81,7 @@ products:
     category: MULTI_DECK
     identifiers:
       cardtraderId: '280425'
+      scgId: SLD-MTG-INT-BLBSTARTER-EN
       mcmId: '774132'
       miniaturemarketId: '299657'
       tcgplayerProductId: '541243'
