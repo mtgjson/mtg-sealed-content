@@ -1,24 +1,24 @@
 code: mh3
 products:
   Modern Horizons 3 Bundle:
-    sealed:
-    - set: mh3
-      count: 9
-      name: Modern Horizons 3 Play Booster Pack
+    card:
+    - foil: true
+      name: Powerbalance
+      number: 495
+      set: mh3
     other:
     - name: Card storage box
     - name: Modern Horizons 3 spindown
     - name: 30 card basic land bundle
-    card:
-    - set: mh3
-      foil: true
-      name: Powerbalance
-      number: 495
+    sealed:
+    - count: 9
+      name: Modern Horizons 3 Play Booster Pack
+      set: mh3
   Modern Horizons 3 Bundle Case:
     sealed:
-    - set: mh3
+    - count: 6
       name: Modern Horizons 3 Bundle
-      count: 6
+      set: mh3
   Modern Horizons 3 Collector Booster Box:
     sealed:
     - count: 12
@@ -35,32 +35,32 @@ products:
     - code: collector
       set: mh3
   Modern Horizons 3 Collector Booster Sample Pack:
+    card_count: 2
     pack:
     - code: collector-sample
       set: mh3
-    card_count: 2
   Modern Horizons 3 Gift Bundle:
-    sealed:
-    - set: mh3
-      count: 9
-      name: Modern Horizons 3 Play Booster Pack
-    - set: mh3
-      count: 1
-      name: Modern Horizons 3 Collector Booster Pack
+    card:
+    - foil: true
+      name: Powerbalance
+      number: 495
+      set: mh3
     other:
     - name: Card storage box
     - name: Modern Horizons 3 spindown
     - name: 30 card basic land bundle
-    card:
-    - set: mh3
-      foil: true
-      name: Powerbalance
-      number: 495
+    sealed:
+    - count: 9
+      name: Modern Horizons 3 Play Booster Pack
+      set: mh3
+    - count: 1
+      name: Modern Horizons 3 Collector Booster Pack
+      set: mh3
   Modern Horizons 3 Gift Bundle Case:
     sealed:
-    - set: mh3
+    - count: 6
       name: Modern Horizons 3 Gift Bundle Case
-      count: 6
+      set: mh3
   Modern Horizons 3 Play Booster Box:
     sealed:
     - count: 36
