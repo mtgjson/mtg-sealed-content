@@ -1135,145 +1135,396 @@ products:
     deck:
     - name: A Box of Rocks
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Kasmina, Enigmatic Mentor
+        number: 507
+        set: sld
+    - card:
+      - foil: true
+        name: Ob Nixilis, the Hate-Twisted
+        number: 511
+        set: sld
+    - card:
+      - foil: true
+        name: Chandra, Fire Artisan
+        number: 512
+        set: sld
+    - card:
+      - foil: true
+        name: Ral, Storm Conduit
+        number: 523
+        set: sld
+    - card:
+      - foil: true
+        name: Samut, Tyrant Smasher
+        number: 535
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop A Box of Rocks Foil:
     card_count: 6
     deck:
     - name: A Box of Rocks foil
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Kasmina, Enigmatic Mentor
+        number: 507
+        set: sld
+    - card:
+      - foil: true
+        name: Ob Nixilis, the Hate-Twisted
+        number: 511
+        set: sld
+    - card:
+      - foil: true
+        name: Chandra, Fire Artisan
+        number: 512
+        set: sld
+    - card:
+      - foil: true
+        name: Ral, Storm Conduit
+        number: 523
+        set: sld
+    - card:
+      - foil: true
+        name: Samut, Tyrant Smasher
+        number: 535
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Absolute Annihilation:
     card_count: 4
     deck:
     - name: Absolute Annihilation
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Thorncast Sliver
+        number: 645
+        set: sld
+    - card:
+      - foil: true
+        name: Sedge Sliver
+        number: 642
+        set: sld
+    - card:
+      - foil: true
+        name: Basal Sliver
+        number: 629
+        set: sld
+    - card:
+      - foil: true
+        name: Shadowborn Apostle
+        number: 686
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Absolute Annihilation Foil:
     card_count: 4
     deck:
     - name: Absolute Annihilation foil
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Thorncast Sliver
+        number: 645
+        set: sld
+    - card:
+      - foil: true
+        name: Sedge Sliver
+        number: 642
+        set: sld
+    - card:
+      - foil: true
+        name: Basal Sliver
+        number: 629
+        set: sld
+    - card:
+      - foil: true
+        name: Shadowborn Apostle
+        number: 686
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop April Fools:
     card_count: 4
     deck:
     - name: April Fools foil
+      set: sld
+    card:
+    - name: Tibalt, the Fiend-Blooded
+      number: 537
       set: sld
   Secret Lair Drop Artist Series Alayna Danner:
     card_count: 5
     deck:
     - name: Artist Series Alayna Danner
       set: sld
+    card:
+    - name: Seraph Sanctuary
+      number: 733
+      set: sld
   Secret Lair Drop Artist Series Alayna Danner Foil:
     card_count: 5
     deck:
     - name: Artist Series Alayna Danner foil
+      set: sld
+    card:
+    - foil: true
+      name: Seraph Sanctuary
+      number: 733
       set: sld
   Secret Lair Drop Artist Series Aleksi Briclot:
     card_count: 5
     deck:
     - name: Artist Series Aleksi Briclot
       set: sld
+    card:
+    - name: Thought-Knot Seer
+      number: 720
+      set: sld
   Secret Lair Drop Artist Series Aleksi Briclot Foil:
     card_count: 5
     deck:
     - name: Artist Series Aleksi Briclot foil
+      set: sld
+    card:
+    - foil: true
+      name: Thought-Knot Seer
+      number: 720
       set: sld
   Secret Lair Drop Artist Series Chris Rahn:
     card_count: 5
     deck:
     - name: Artist Series Chris Rahn
       set: sld
+    card:
+    - foil: true
+      name: Huntmaster of the Fells
+      number: 700a
+      set: sld
   Secret Lair Drop Artist Series Chris Rahn Foil:
     card_count: 5
     deck:
     - name: Artist Series Chris Rahn foil
+      set: sld
+    card:
+    - foil: true
+      name: Huntmaster of the Fells
+      number: 700a
       set: sld
   Secret Lair Drop Artist Series Johannes Voss:
     card_count: 5
     deck:
     - name: Artist Series Johannes Voss
       set: sld
+    variable:
+    - card:
+      - name: Sphere of Safety
+        number: 588
+        set: sld
+      chance: 93
+    - pack:
+      - code: blueprint-mk1
+        set: sld
+      chance: 7
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Artist Series Johannes Voss Foil:
     card_count: 5
     deck:
     - name: Artist Series Johannes Voss foil
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Sphere of Safety
+        number: 588
+        set: sld
+      chance: 93
+    - pack:
+      - code: blueprint-mk1
+        set: sld
+      chance: 7
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Artist Series John Avon:
-    card_count: 4
+    card_count: 5
     deck:
     - name: Artist Series John Avon
       set: sld
+    card:
+    - name: Brainstorm
+      number: 723
+      set: sld
   Secret Lair Drop Artist Series John Avon Foil:
-    card_count: 4
+    card_count: 5
     deck:
     - name: Artist Series John Avon foil
       set: sld
+    card:
+    - foil: true
+      name: Brainstorm
+      number: 723
+      set: sld
   Secret Lair Drop Artist Series Kev Walker:
-    card_count: 4
+    card_count: 5
     deck:
     - name: Artist Series Kev Walker
       set: sld
+    card:
+    - name: Fleshbag Marauder
+      number: 725
+      set: sld
   Secret Lair Drop Artist Series Kev Walker Foil:
-    card_count: 4
+    card_count: 5
     deck:
     - name: Artist Series Kev Walker foil
+      set: sld
+    card:
+    - foil: true
+      name: Fleshbag Marauder
+      number: 725
       set: sld
   Secret Lair Drop Artist Series Livia Prima:
     card_count: 5
     deck:
     - name: Artist Series Livia Prima
       set: sld
+    card:
+    - name: Olivia, Mobilized for War
+      number: 699
+      set: sld
   Secret Lair Drop Artist Series Livia Prima Foil:
     card_count: 5
     deck:
     - name: Artist Series Livia Prima foil
+      set: sld
+    card:
+    - foil: true
+      name: Olivia, Mobilized for War
+      number: 699
       set: sld
   Secret Lair Drop Artist Series Magali Villeneuve:
     card_count: 5
     deck:
     - name: Artist Series Magali Villeneuve
       set: sld
+    card:
+    - name: Forest
+      number: 690
+      set: sld
   Secret Lair Drop Artist Series Magali Villeneuve Foil:
     card_count: 5
     deck:
     - name: Artist Series Magali Villeneuve foil
+      set: sld
+    card:
+    - foil: true
+      name: Forest
+      number: 690
       set: sld
   Secret Lair Drop Artist Series Mark Poole:
     card_count: 7
     deck:
     - name: Artist Series Mark Poole
       set: sld
+    variable:
+    - card:
+      - name: Brainstorm
+        number: 582
+        set: sld
+      chance: 93
+    - pack:
+      - code: blueprint-mk1
+        set: sld
+      chance: 7
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Artist Series Mark Poole Foil:
     card_count: 7
     deck:
     - name: Artist Series Mark Poole foil
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Brainstorm
+        number: 582
+        set: sld
+      chance: 93
+    - pack:
+      - code: blueprint-mk1
+        set: sld
+      chance: 7
+    variable_mode:
+      count: 1
+      weight: 500
   Secret Lair Drop Artist Series Nils Hamm:
     card_count: 5
     deck:
     - name: Artist Series Nils Hamm
+      set: sld
+    card:
+    - name: Tireless Tracker
+      number: 711
       set: sld
   Secret Lair Drop Artist Series Nils Hamm Foil:
     card_count: 5
     deck:
     - name: Artist Series Nils Hamm foil
       set: sld
+    card:
+    - foil: true
+      name: Tireless Tracker
+      number: 711
+      set: sld
   Secret Lair Drop Artist Series Randy Vargas:
     card_count: 5
     deck:
     - name: Artist Series Randy Vargas
+      set: sld
+    card:
+    - name: Selfless Savior
+      number: 732
       set: sld
   Secret Lair Drop Artist Series Randy Vargas Foil:
     card_count: 5
     deck:
     - name: Artist Series Randy Vargas foil
       set: sld
+    card:
+    - foil: true
+      name: Selfless Savior
+      number: 732
+      set: sld
   Secret Lair Drop Artist Series Rebecca Guay:
     card_count: 5
     deck:
     - name: Artist Series Rebecca Guay
       set: sld
+    card:
+    - name: Cleansing Nova
+      number: 730
+      set: sld
   Secret Lair Drop Artist Series Rebecca Guay Foil:
     card_count: 5
     deck:
     - name: Artist Series Rebecca Guay foil
+      set: sld
+    card:
+    - foil: true
+      name: Cleansing Nova
+      number: 730
       set: sld
   Secret Lair Drop Artist Series Rovina Cai: []
   Secret Lair Drop Artist Series Rovina Cai Foil: []
@@ -1283,80 +1534,183 @@ products:
     deck:
     - name: Artist Series Ryan Alexander Lee
       set: sld
+    card:
+    - name: Gaea's Blessing
+      number: 735
+      set: sld
   Secret Lair Drop Artist Series Ryan Alexander Lee Foil:
     card_count: 5
     deck:
     - name: Artist Series Ryan Alexander Lee foil
+      set: sld
+    card:
+    - foil: true
+      name: Gaea's Blessing
+      number: 735
       set: sld
   Secret Lair Drop Artist Series Sam Burley:
     card_count: 5
     deck:
     - name: Artist Series Sam Burley
       set: sld
+    card:
+    - foil: true
+      name: Braid of Fire
+      number: 729
+      set: sld
   Secret Lair Drop Artist Series Sam Burley Foil:
     card_count: 5
     deck:
     - name: Artist Series Sam Burley foil
+      set: sld
+    card:
+    - foil: true
+      name: Braid of Fire
+      number: 729
       set: sld
   Secret Lair Drop Artist Series Seb McKinnon:
     card_count: 5
     deck:
     - name: Artist Series Seb McKinnon
       set: sld
+    card:
+    - name: Swamp
+      number: 539
+      set: sld
   Secret Lair Drop Artist Series Seb McKinnon Foil:
     card_count: 5
     deck:
     - name: Artist Series Seb McKinnon foil
+      set: sld
+    card:
+    - foil: true
+      name: Swamp
+      number: 539
       set: sld
   Secret Lair Drop Artist Series Sidharth Chaturvedi:
     card_count: 5
     deck:
     - name: Artist Series Sidharth Chaturvedi
       set: sld
+    card:
+    - name: Ghost Quarter
+      number: 539
+      set: sld
   Secret Lair Drop Artist Series Sidharth Chaturvedi Foil:
     card_count: 5
     deck:
     - name: Artist Series Sidharth Chaturvedi foil
+      set: sld
+    card:
+    - foil: true
+      name: Ghost Quarter
+      number: 539
       set: sld
   Secret Lair Drop Artist Series Thomas Baxa:
     card_count: 5
     deck:
     - name: Artist Series Thomas Baxa
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Island
+        number: 551
+        set: sld
+      chance: 93
+    - card:
+      - name: Spellskite
+        number: 587
+        set: sld
+      chance: 93
+    - pack:
+      - code: blueprint-mk1
+        set: sld
+      chance: 14
+    variable_mode:
+      count: 1
+      weight: 200
   Secret Lair Drop Artist Series Thomas Baxa Foil:
     card_count: 5
     deck:
     - name: Artist Series Thomas Baxa foil
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Island
+        number: 551
+        set: sld
+      chance: 93
+    - card:
+      - foil: true
+        name: Spellskite
+        number: 587
+        set: sld
+      chance: 93
+    - pack:
+      - code: blueprint-mk1
+        set: sld
+      chance: 14
+    variable_mode:
+      count: 1
+      weight: 200
   Secret Lair Drop Artist Series Victor Adame Minguez:
     card_count: 5
     deck:
     - name: Artist Series Victor Adame Minguez
+      set: sld
+    card:
+    - name: Knight Exemplar
+      number: 707
       set: sld
   Secret Lair Drop Artist Series Victor Adame Minguez Foil:
     card_count: 5
     deck:
     - name: Artist Series Victor Adame Minguez foil
       set: sld
+    card:
+    - foil: true
+      name: Knight Exemplar
+      number: 707
+      set: sld
   Secret Lair Drop Artist Series Volkan Baga:
     card_count: 5
     deck:
     - name: Artist Series Volkan Baga
+      set: sld
+    card:
+    - name: Elspeth, Knight-Errant
+      number: 701
       set: sld
   Secret Lair Drop Artist Series Volkan Baga Foil:
     card_count: 5
     deck:
     - name: Artist Series Volkan Baga foil
       set: sld
+    card:
+    - foil: true
+      name: Elspeth, Knight-Errant
+      number: 701
+      set: sld
   Secret Lair Drop Artist Series Wayne Reynolds:
     card_count: 5
     deck:
     - name: Artist Series Wayne Reynolds
       set: sld
+    card:
+    - name: Torbran, Thane of Red Fell
+      number: 678
+      set: sld
   Secret Lair Drop Artist Series Wayne Reynolds Foil:
     card_count: 5
     deck:
     - name: Artist Series Wayne Reynolds foil
+      set: sld
+    card:
+    - foil: true
+      name: Torbran, Thane of Red Fell
+      number: 678
       set: sld
   Secret Lair Drop Astrology Lands Aquarius:
     card_count: 6
@@ -1493,46 +1847,230 @@ products:
     deck:
     - name: Bitterblossom Dreams
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Gideon Blackblade
+        number: 503
+        set: sld
+    - card:
+      - foil: true
+        name: Ajani, the Greathearted
+        number: 520
+        set: sld
+    - card:
+      - foil: true
+        name: Domri, Anarch of Bolas
+        number: 521
+        set: sld
+    - card:
+      - foil: true
+        name: Ral, Storm Conduit
+        number: 523
+        set: sld
+    - card:
+      - foil: true
+        name: Sorin, Vengeful Bloodlord
+        number: 527
+        set: sld
+    - card:
+      - foil: true
+        name: Huatli, the Sun's Heart
+        number: 530
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Black is Magic:
     card_count: 8
     deck:
     - name: Black is Magic
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Vivien, Champion of the Wilds
+        number: 519
+        set: sld
+    - card:
+      - foil: true
+        name: Teferi, Time Raveler
+        number: 526
+        set: sld
+    - card:
+      - foil: true
+        name: Kaya, Bane of the Dead
+        number: 531
+        set: sld
+    - card:
+      - foil: true
+        name: Samut, Tyrant Smasher
+        number: 535
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Black is Magic Foil:
     card_count: 8
     deck:
     - name: Black is Magic foil
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Vivien, Champion of the Wilds
+        number: 519
+        set: sld
+    - card:
+      - foil: true
+        name: Teferi, Time Raveler
+        number: 526
+        set: sld
+    - card:
+      - foil: true
+        name: Kaya, Bane of the Dead
+        number: 531
+        set: sld
+    - card:
+      - foil: true
+        name: Samut, Tyrant Smasher
+        number: 535
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Buggin Out:
-    card_count: 5
+    card_count: 6
     deck:
     - name: Buggin Out
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Magma Sliver
+        number: 641
+        set: sld
+    - card:
+      - foil: true
+        name: Psionic Sliver
+        number: 621
+        set: sld
+    - card:
+      - foil: true
+        name: Screeching Sliver
+        number: 622
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Buggin Out Foil:
-    card_count: 5
+    card_count: 6
     deck:
     - name: Buggin Out foil
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Magma Sliver
+        number: 641
+        set: sld
+    - card:
+      - foil: true
+        name: Psionic Sliver
+        number: 621
+        set: sld
+    - card:
+      - foil: true
+        name: Screeching Sliver
+        number: 622
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Calling All Hydra Heads:
-    card_count: 6
+    card_count: 7
     deck:
     - name: Calling All Hydra Heads foil
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Muscle Sliver
+        number: 653
+        set: sld
+    - card:
+      - foil: true
+        name: Shdaow Sliver
+        number: 624
+        set: sld
+    - card:
+      - foil: true
+        name: Screeching Sliver
+        number: 622
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Can You Feel with a Heart of Steel:
     card_count: 4
     deck:
     - name: Can You Feel with a Heart of Steel foil
+      set: sld
+    card:
+    - foil: true
+      name: Karn, the Great Creator
+      number: 501
       set: sld
   Secret Lair Drop City Styles:
     card_count: 6
     deck:
     - name: City Styles
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Sidewinder Sliver
+        number: 615
+        set: sld
+    - card:
+      - foil: true
+        name: Thorncast Sliver
+        number: 645
+        set: sld
+    - card:
+      - foil: true
+        name: Homing Sliver
+        number: 640
+        set: sld
+    - card:
+      - foil: true
+        name: Shadowborn Apostle
+        number: 681
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop City Styles Foil:
     card_count: 6
     deck:
     - name: City Styles foil
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Sidewinder Sliver
+        number: 615
+        set: sld
+    - card:
+      - foil: true
+        name: Thorncast Sliver
+        number: 645
+        set: sld
+    - card:
+      - foil: true
+        name: Homing Sliver
+        number: 640
+        set: sld
+    - card:
+      - foil: true
+        name: Shadowborn Apostle
+        number: 681
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Cool Ocean Breeze:
     card_count: 5
     deck:
@@ -1548,36 +2086,217 @@ products:
     deck:
     - name: Crocodile Jacksons Monstrous Menagerie
       set: sld
+    card:
+    - name: Lurking Crocodile
+      number: 590
+      set: sld
   Secret Lair Drop Crocodile Jacksons Monstrous Menagerie Etched:
     card_count: 6
     deck:
     - name: Crocodile Jacksons Monstrous Menagerie etched
+      set: sld
+    card:
+    - foil: true
+      name: Lurking Crocodile
+      number: 590
       set: sld
   Secret Lair Drop Culture Shocks Bant:
     card_count: 4
     deck:
     - name: Culture Shocks Bant
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Teferi, Time Raveler
+        number: 526
+        set: sld
+      chance: 93
+    - card:
+      - foil: true
+        name: Huatli, the Sun's Heart
+        number: 530
+        set: sld
+      chance: 93
+    - card:
+      - foil: true
+        name: Ajani, the Greathearted
+        number: 520
+        set: sld
+      chance: 93
+    - card:
+      - foil: true
+        name: Kiora, Behemoth Beckoner
+        number: 532
+        set: sld
+      chance: 93
+    - pack:
+      - code: blueprint-mk1
+        set: sld
+      chance: 28
+    variable_mode:
+      count: 1
+      weight: 400
   Secret Lair Drop Culture Shocks Esper:
     card_count: 4
     deck:
     - name: Culture Shocks Esper
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Teferi, Time Raveler
+        number: 526
+        set: sld
+      chance: 93
+    - card:
+      - foil: true
+        name: Dovin, Hand of Control
+        number: 529
+        set: sld
+      chance: 93
+    - card:
+      - foil: true
+        name: Ashiok, Dream Render
+        number: 528
+        set: sld
+      chance: 93
+    - card:
+      - foil: true
+        name: Sorin, Vengeful Bloodlord
+        number: 524
+        set: sld
+      chance: 93
+    - card:
+      - foil: true
+        name: Kaya, Bane of the Dead
+        number: 531
+        set: sld
+      chance: 93
+    - pack:
+      - code: blueprint-mk1
+        set: sld
+      chance: 35
+    variable_mode:
+      count: 1
+      weight: 500
   Secret Lair Drop Culture Shocks Grixis:
     card_count: 4
     deck:
     - name: Culture Shocks Grixis
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Angrath, Captain of Chaos
+        number: 527
+        set: sld
+      chance: 93
+    - card:
+      - foil: true
+        name: Ashiok, Dream Render
+        number: 528
+        set: sld
+      chance: 93
+    - card:
+      - foil: true
+        name: Kaya, Bane of the Dead
+        number: 531
+        set: sld
+      chance: 93
+    - card:
+      - foil: true
+        name: Nicol Bolas, Dragon-God
+        number: 522
+        set: sld
+      chance: 93
+    - card:
+      - foil: true
+        name: Ral, Storm Conduit
+        number: 523
+        set: sld
+      chance: 93
+    - pack:
+      - code: blueprint-mk1
+        set: sld
+      chance: 35
+    variable_mode:
+      count: 1
+      weight: 500
   Secret Lair Drop Culture Shocks Jund:
     card_count: 4
     deck:
     - name: Culture Shocks Jund
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Angrath, Captain of Chaos
+        number: 527
+        set: sld
+      chance: 93
+    - card:
+      - foil: true
+        name: Domri, Anarch of Bolas
+        number: 521
+        set: sld
+      chance: 93
+    - card:
+      - foil: true
+        name: Samut, Tyrant Smasher
+        number: 535
+        set: sld
+      chance: 93
+    - card:
+      - foil: true
+        name: Vraska, Swarm's Eminence
+        number: 536
+        set: sld
+      chance: 93
+    - pack:
+      - code: blueprint-mk1
+        set: sld
+      chance: 28
+    variable_mode:
+      count: 1
+      weight: 400
   Secret Lair Drop Culture Shocks Naya:
     card_count: 4
     deck:
     - name: Culture Shocks Naya
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Ajani, the Greathearted
+        number: 520
+        set: sld
+      chance: 93
+    - card:
+      - foil: true
+        name: Domri, Anarch of Bolas
+        number: 521
+        set: sld
+      chance: 93
+    - card:
+      - foil: true
+        name: Samut, Tyrant Smasher
+        number: 535
+        set: sld
+      chance: 93
+    - card:
+      - foil: true
+        name: Huatli, the Sun's Heart
+        number: 530
+        set: sld
+      chance: 93
+    - pack:
+      - code: blueprint-mk1
+        set: sld
+      chance: 28
+    variable_mode:
+      count: 1
+      weight: 400
   Secret Lair Drop Dan Frazier Is Back Again The Allied Talismans:
     card_count: 6
     deck:
@@ -2185,20 +2904,38 @@ products:
     deck:
     - name: Arcane
       set: sld
+    card:
+    - name: Spore Frog
+      number: 696
+      set: sld
   Secret Lair Drop Secret Lair x Arcane Foil:
     card_count: 8
     deck:
     - name: Arcane foil
+      set: sld
+    card:
+    - foil: true
+      name: Spore Frog
+      number: 696
       set: sld
   Secret Lair Drop Secret Lair x Arcane Lands:
     card_count: 6
     deck:
     - name: Arcane Lands
       set: sld
+    card:
+    - name: Command Tower
+      number: 697
+      set: sld
   Secret Lair Drop Secret Lair x Arcane Lands Foil:
     card_count: 6
     deck:
     - name: Arcane Lands foil
+      set: sld
+    card:
+    - foil: true
+      name: Command Tower
+      number: 697
       set: sld
   Secret Lair Drop Secret Lair x Assassins Creed Da Vincis Designs: []
   Secret Lair Drop Secret Lair x Assassins Creed Da Vincis Designs Rainbow Foil: []
@@ -2209,20 +2946,38 @@ products:
     deck:
     - name: Blood Bowl
       set: sld
+    card:
+    - name: Wastes
+      number: 706
+      set: sld
   Secret Lair Drop Secret Lair x Blood Bowl Foil:
     card_count: 7
     deck:
     - name: Blood Bowl foil
+      set: sld
+    card:
+    - foil: true
+      name: Wastes
+      number: 706
       set: sld
   Secret Lair Drop Secret Lair x Creepshow:
     card_count: 6
     deck:
     - name: Creepshow
       set: sld
+    card:
+    - name: Terror
+      number: 750a
+      set: sld
   Secret Lair Drop Secret Lair x Creepshow Foil:
     card_count: 6
     deck:
     - name: Creepshow foil
+      set: sld
+    card:
+    - foil: true
+      name: Terror
+      number: 750a
       set: sld
   Secret Lair Drop Secret Lair x Doctor Who Regeneration:
     card_count: 6
