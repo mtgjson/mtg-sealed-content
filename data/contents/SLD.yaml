@@ -2302,45 +2302,86 @@ products:
     deck:
     - name: Dan Frazier Is Back Again The Allied Talismans
       set: sld
+    card:
+    - name: Fellwar Stone
+      number: 708
+      set: sld
   Secret Lair Drop Dan Frazier Is Back Again The Allied Talismans Etched:
     card_count: 6
     deck:
     - name: Dan Frazier Is Back Again The Allied Talismans etched
+      set: sld
+    card:
+    - foil: true
+      name: Fellwar Stone
+      number: 708
       set: sld
   Secret Lair Drop Dan Frazier Is Back Again The Enemy Talismans:
     card_count: 6
     deck:
     - name: Dan Frazier Is Back Again The Enemy Talismans
       set: sld
+    card:
+    - name: Fellwar Stone
+      number: 708
+      set: sld
   Secret Lair Drop Dan Frazier Is Back Again The Enemy Talismans Etched:
     card_count: 6
     deck:
     - name: Dan Frazier Is Back Again The Enemy Talismans etched
+      set: sld
+    card:
+    - foil: true
+      name: Fellwar Stone
+      number: 708
       set: sld
   Secret Lair Drop Dan Frazier is Back The Allied Signets:
     card_count: 6
     deck:
     - name: Dan Frazier is Back The Allied Signets
       set: sld
+    card:
+    - name: Arcane Signet
+      number: 589
+      set: sld
   Secret Lair Drop Dan Frazier is Back The Allied Signets Foil:
     card_count: 6
     deck:
     - name: Dan Frazier is Back The Allied Signets etched
+      set: sld
+    card:
+    - foil: true
+      name: Arcane Signet
+      number: 589
       set: sld
   Secret Lair Drop Dan Frazier is Back The Enemy Signets:
     card_count: 6
     deck:
     - name: Dan Frazier is Back The Enemy Signets
       set: sld
+    card:
+    - name: Arcane Signet
+      number: 589
+      set: sld
   Secret Lair Drop Dan Frazier is Back The Enemy Signets Foil:
     card_count: 6
     deck:
     - name: Dan Frazier is Back The Enemy Signets etched
       set: sld
+    card:
+    - foil: true
+      name: Arcane Signet
+      number: 589
+      set: sld
   Secret Lair Drop Dan Fraziers Mox Box Etched:
-    card_count: 3
+    card_count: 4
     deck:
     - name: Dan Frazier's Mox Box
+      set: sld
+    card:
+    - foil: true
+      name: Arcane Signet
+      number: 589
       set: sld
   Secret Lair Drop Death Is Temporary Metal Is Forever:
     card_count: 5
@@ -2380,40 +2421,109 @@ products:
     deck:
     - name: Eldraine Wonderland foil
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Gideon Blackblade
+        number: 503
+        set: sld
+    - card:
+      - foil: true
+        name: Teyo, the Shieldmage
+        number: 504
+        set: sld
+    - card:
+      - foil: true
+        name: The Wanderer
+        number: 505
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Every Dog Has Its Day:
     card_count: 5
     deck:
     - name: Every Dog Has Its Day
+      set: sld
+    card:
+    - foil: true
+      name: Jiang Yanggu, Wildcrafter
+      number: 517
       set: sld
   Secret Lair Drop Every Dog Has Its Day Foil:
     card_count: 5
     deck:
     - name: Every Dog Has Its Day foil
       set: sld
+    card:
+    - foil: true
+      name: Jiang Yanggu, Wildcrafter
+      number: 517
+      set: sld
   Secret Lair Drop Extra Life 2020:
     card_count: 5
     deck:
     - name: Extra Life 2020 foil
+      set: sld
+    card:
+    - foil: true
+      name: Ajani, the Greathearted
+      number: 520
       set: sld
   Secret Lair Drop Extra Life 2021:
     card_count: 8
     deck:
     - name: Extra Life 2021
       set: sld
+    card:
+    - name: Questing Phelddagrif
+      number: 671
+      set: sld
+    card:
+    - name: Questing Phelddagrif
+      number: 672
+      set: sld
   Secret Lair Drop Extra Life 2021 Foil:
     card_count: 8
     deck:
     - name: Extra Life 2021 foil
       set: sld
-  Secret Lair Drop Extra Life 2022:
+    card:
+    - foil: true
+      name: Questing Phelddagrif
+      number: 671
+      set: sld
+    card:
+    - foil: true
+      name: Questing Phelddagrif
+      number: 672
+      set: sld
+  Secret Lair Dr  Secret Lair Drop Extra Life 2022:
     card_count: 8
     deck:
     - name: Extra Life 2022
+      set: sld
+    card:
+    - name: Maro
+      number: 718
+      set: sld
+    card:
+    - name: Maro
+      number: 719
       set: sld
   Secret Lair Drop Extra Life 2022 Foil:
     card_count: 8
     deck:
     - name: Extra Life 2022 foil
+      set: sld
+    card:
+    - foil: true
+      name: Maro
+      number: 718
+      set: sld
+    card:
+    - foil: true
+      name: Maro
+      number: 719
       set: sld
   Secret Lair Drop Extra Life 2023 Ponies The Galloping 2:
     card_count: 5
@@ -2430,6 +2540,24 @@ products:
     deck:
     - name: Faerie Faerie Faerie Rad foil
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Chandra, Fire Artisan
+        number: 512
+        set: sld
+    - card:
+      - foil: true
+        name: Dovin, Hand of Control
+        number: 529
+        set: sld
+    - card:
+      - foil: true
+        name: Saheeli, Sublime Artificer
+        number: 534
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Far Out Man:
     card_count: 6
     deck:
@@ -2445,10 +2573,19 @@ products:
     deck:
     - name: Fblthp Completely Utterly Totally Lost
       set: sld
+    card:
+    - name: Fblthp, the Lost
+      number: 583
+      set: sld
   Secret Lair Drop Fblthp Completely Utterly Totally Lost Foil:
     card_count: 6
     deck:
     - name: Fblthp Completely Utterly Totally Lost foil
+      set: sld
+    card:
+    - foil: true
+      name: Fblthp, the Lost
+      number: 583
       set: sld
   Secret Lair Drop Featuring Gary Baseman:
     card_count: 5
@@ -2472,25 +2609,46 @@ products:
     deck:
     - name: Featuring the Mountain Goats
       set: sld
+    card:
+    - name: Mountain Goat
+      number: 737
+      set: sld
   Secret Lair Drop Featuring the Mountain Goats Foil:
     card_count: 11
     deck:
     - name: Featuring the Mountain Goats foil
+      set: sld
+    card:
+    - foil: true
+      name: Mountain Goat
+      number: 737
       set: sld
   Secret Lair Drop Finally Left Handed Magic Cards:
     card_count: 6
     deck:
     - name: Finally LeftHanded Magic Cards
       set: sld
+    card:
+    - name: Dakkon Blackblade
+      number: 698
+      set: sld
   Secret Lair Drop Finally Left Handed Magic Cards Foil:
     card_count: 6
     deck:
     - name: Finally LeftHanded Magic Cards foil
       set: sld
+    card:
+    - foil: true
+      name: Dakkon Blackblade
+      number: 698
+      set: sld
   Secret Lair Drop Full Sleeves The Tattoo Pack:
     card_count: 6
     deck:
     - name: Full Sleeves The Tattoo Pack
+      set: sld
+    pack:
+    - code: stainedglass-tattoo
       set: sld
   Secret Lair Drop Gift Wrapped: []
   Secret Lair Drop Gift Wrapped Foil: []
@@ -2511,20 +2669,35 @@ products:
     deck:
     - name: Happy Little Gathering
       set: sld
+    card:
+    - name: Evolving Wilds
+      number: 538
+      set: sld
   Secret Lair Drop Happy Little Gathering Foil:
     card_count: 11
     deck:
     - name: Happy Little Gathering foil
+      set: sld
+    card:
+    - foil: true
+      name: Evolving Wilds
+      number: 538
       set: sld
   Secret Lair Drop Happy Yargle Day:
     card_count: 6
     deck:
     - name: Happy Yargle Day
       set: sld
+    pack:
+    - code: stainedglass-uncommon
+      set: sld
   Secret Lair Drop Happy Yargle Day Foil:
     card_count: 6
     deck:
     - name: Happy Yargle Day foil
+      set: sld
+    pack:
+    - code: stainedglass-uncommon
       set: sld
   Secret Lair Drop Hard Boiled Thrillers: []
   Secret Lair Drop Hard Boiled Thrillers Rainbow Foil: []
@@ -2532,6 +2705,11 @@ products:
     card_count: 8
     deck:
     - name: Here Be Dragons foil
+      set: sld
+    card:
+    - foil: true
+      name: Dragon's Hoard
+      number: 709
       set: sld
     other:
     - name: Metal Cast Dragon Life Counter
@@ -2572,6 +2750,9 @@ products:
     deck:
     - name: International Womens Day foil
       set: sld
+    pack:
+    - code: stainedglass-iwd
+      set: sld
   Secret Lair Drop Introducing Kaito Shizuki:
     card_count: 6
     deck:
@@ -2599,26 +2780,118 @@ products:
     deck:
     - name: Just Some Totally Normal Guys
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Diffusion Sliver
+        number: 618
+        set: sld
+    - card:
+      - foil: true
+        name: Manaweft Sliver
+        number: 650
+        set: sld
+    - card:
+      - foil: true
+        name: Might Sliver
+        number: 652
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Just Some Totally Normal Guys Foil:
     card_count: 5
     deck:
     - name: Just Some Totally Normal Guys foil
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Diffusion Sliver
+        number: 618
+        set: sld
+    - card:
+      - foil: true
+        name: Manaweft Sliver
+        number: 650
+        set: sld
+    - card:
+      - foil: true
+        name: Might Sliver
+        number: 652
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Kaleidoscope Killers:
     card_count: 4
     deck:
     - name: Kaleidoscope Killers foil
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Ajani, the Greathearted
+        number: 520
+        set: sld
+    - card:
+      - foil: true
+        name: Nicol Bolas, Dragon-God
+        number: 522
+        set: sld
+    - card:
+      - foil: true
+        name: Ral, Storm Conduit
+        number: 523
+        set: sld
+    - card:
+      - foil: true
+        name: Tamiyo, Collector of Tales
+        number: 525
+        set: sld
+    - card:
+      - foil: true
+        name: Teferi, Time Raveler
+        number: 526
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Kamigawa Ink:
     card_count: 6
     deck:
     - name: Kamigawa Ink
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Island
+        number: 553
+        set: sld
+      chance: 93
+    - pack:
+      - code: blueprint-mk1
+        set: sld
+      chance: 7
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Kamigawa Ink Foil:
     card_count: 6
     deck:
     - name: Kamigawa Ink foil
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Island
+        number: 553
+        set: sld
+      chance: 93
+    - pack:
+      - code: blueprint-mk1
+        set: sld
+      chance: 7
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Kamigawa the Manga the Cards:
     card_count: 6
     deck:
@@ -2653,6 +2926,11 @@ products:
     card_count: 6
     deck:
     - name: Lil Giri Saves the Day foil
+      set: sld
+    card:
+    - foil: true
+      name: Manaweft Sliver
+      number: 650
       set: sld
   Secret Lair Drop Lil Giri Saves the Day Roadshow Edition Foil:
     copy: Secret Lair Drop Lil Giri Saves the Day Foil
@@ -2693,11 +2971,39 @@ products:
     deck:
     - name: Math is for Blockers
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Wrexial, the Risen Deep
+        number: 584
+        set: sld
+      chance: 93
+    - pack:
+      - code: blueprint-mk1
+        set: sld
+      chance: 7
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Math Is For Blockers Foil:
     card_count: 6
     deck:
     - name: Math is for Blockers foil
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Wrexial, the Risen Deep
+        number: 584
+        set: sld
+      chance: 93
+    - pack:
+      - code: blueprint-mk1
+        set: sld
+      chance: 7
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Meditations on Nature: []
   Secret Lair Drop Meditations on Nature Foil: []
   Secret Lair Drop Mirrodinsanity:
@@ -2705,10 +3011,19 @@ products:
     deck:
     - name: Mirrodinsanity
       set: sld
+    card:
+    - name: Darksteel Citadel
+      number: 607
+      set: sld
   Secret Lair Drop Mirrodinsanity Foil:
     card_count: 6
     deck:
     - name: Mirrodinsanity foil
+      set: sld
+    card:
+    - foil: true
+      name: Darksteel Citadel
+      number: 607
       set: sld
   Secret Lair Drop Monster Movie Marathon:
     card_count: 5
@@ -2740,15 +3055,46 @@ products:
     deck:
     - name: Mothers Day 2021
       set: sld
+    variable:
+    - card:
+      - name: Island
+        number: 552
+        set: sld
+    - card:
+      - name: Swamp
+        number: 556
+        set: sld
+    - card:
+      - name: Mountain
+        number: 571
+        set: sld
   Secret Lair Drop Mothers Day 2021 Foil:
     card_count: 5
     deck:
     - name: Mothers Day 2021 foil
       set: sld
+    variable:
+    - card:
+      - name: Island
+        number: 552
+        set: sld
+    - card:
+      - name: Swamp
+        number: 556
+        set: sld
+    - card:
+      - name: Mountain
+        number: 571
+        set: sld
   Secret Lair Drop Mountain Go:
     card_count: 5
     deck:
     - name: Mountain Go foil
+      set: sld
+    card:
+    - foil: true
+      name: Ral, Storm Conduit
+      number: 523
       set: sld
   Secret Lair Drop Mycosynthwave: []
   Secret Lair Drop Mycosynthwave Foil: []
@@ -2899,6 +3245,11 @@ products:
     deck:
     - name: MSCHF etched
       set: sld
+    card:
+    - foil: true
+      name: Plains
+      number: 670
+      set: sld
   Secret Lair Drop Secret Lair x Arcane:
     card_count: 8
     deck:
@@ -2984,40 +3335,76 @@ products:
     deck:
     - name: Doctor Who Regeneration
       set: sld
+    card:
+    - name: Sonic Screwdriver
+      number: 803
+      set: sld
   Secret Lair Drop Secret Lair x Doctor Who Regeneration Foil:
     card_count: 6
     deck:
     - name: Doctor Who Regeneration foil
+      set: sld
+    card:
+    - foil: true
+      name: Sonic Screwdriver
+      number: 803
       set: sld
   Secret Lair Drop Secret Lair x Doctor Who The Dalek Lands:
     card_count: 6
     deck:
     - name: Doctor Who The Dalek Lands
       set: sld
+    card:
+    - name: Woodland Cemetery
+      number: 738
+      set: sld
   Secret Lair Drop Secret Lair x Doctor Who The Dalek Lands Foil:
     card_count: 6
     deck:
     - name: Doctor Who The Dalek Lands foil
+      set: sld
+    card:
+    - foil: true
+      name: Woodland Cemetery
+      number: 738
       set: sld
   Secret Lair Drop Secret Lair x Doctor Who The Weeping Angels:
     card_count: 6
     deck:
     - name: Doctor Who The Weeping Angels
       set: sld
+    card:
+    - name: Isolated Chapel
+      number: 739
+      set: sld
   Secret Lair Drop Secret Lair x Doctor Who The Weeping Angels Foil:
     card_count: 6
     deck:
     - name: Doctor Who The Weeping Angels foil
+      set: sld
+    card:
+    - foil: true
+      name: Isolated Chapel
+      number: 739
       set: sld
   Secret Lair Drop Secret Lair x Dungeons and Dragons Honor Among Thieves:
     card_count: 7
     deck:
     - name: DD Honor Among Thieves
       set: sld
+    card:
+    - name: Themberchaud
+      number: 728
+      set: sld
   Secret Lair Drop Secret Lair x Dungeons and Dragons Honor Among Thieves Foil:
     card_count: 7
     deck:
     - name: DD Honor Among Thieves foil
+      set: sld
+    card:
+    - foil: true
+      name: Themberchaud
+      number: 728
       set: sld
   Secret Lair Drop Secret Lair x Fallout Points of Interest: []
   Secret Lair Drop Secret Lair x Fallout Points of Interest Foil: []
@@ -3030,20 +3417,38 @@ products:
     deck:
     - name: Fortnite
       set: sld
+    card:
+    - name: Pyrite Spellbomb
+      number: 676
+      set: sld
   Secret Lair Drop Secret Lair x Fortnite Foil:
     card_count: 8
     deck:
     - name: Fortnite foil
+      set: sld
+    card:
+    - foil: true
+      name: Pyrite Spellbomb
+      number: 676
       set: sld
   Secret Lair Drop Secret Lair x Fortnite Landmarks and Locations:
     card_count: 6
     deck:
     - name: Fortnite Landmarks and Locations
       set: sld
+    card:
+    - name: Command Tower
+      number: 677
+      set: sld
   Secret Lair Drop Secret Lair x Fortnite Landmarks and Locations Foil:
     card_count: 6
     deck:
     - name: Fortnite Landmarks and Locations foil
+      set: sld
+    card:
+    - foil: true
+      name: Command Tower
+      number: 677
       set: sld
   Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation English: []
   Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation English Rainbow Foil: []
@@ -3664,6 +4069,29 @@ products:
     deck:
     - name: Hope You Like Squirrels foil
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Arlinn, Voice of the Pack
+        number: 516
+        set: sld
+    - card:
+      - foil: true
+        name: Jiang Yanggu, Wildcrafter
+        number: 517
+        set: sld
+    - card:
+      - foil: true
+        name: Nissa, Who Shakes the World
+        number: 518
+        set: sld
+    - card:
+      - foil: true
+        name: Vivien, Champion of the Wilds
+        number: 519
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Welcome to Castle Dracula:
     card_count: 4
     deck:
