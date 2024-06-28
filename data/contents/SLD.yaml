@@ -2530,10 +2530,19 @@ products:
     deck:
     - name: Ponies the Galloping 2
       set: sld
+    card:
+    - name: Discord, Lord of Disharmony
+      number: 798
+      set: sld
   Secret Lair Drop Extra Life 2023 Ponies The Galloping 2 Foil:
     card_count: 5
     deck:
     - name: Ponies the Galloping 2 foil
+      set: sld
+    card:
+    - foil: true
+      name: Discord, Lord of Disharmony
+      number: 798
       set: sld
   Secret Lair Drop Faerie Faerie Faerie Rad Foil:
     card_count: 5
@@ -3115,16 +3124,53 @@ products:
     deck:
     - name: OMG KITTIES foil
       set: sld
+    card:
+    - foil: true
+      name: Ajani, the Greathearted
+      number: 520
+      set: sld
   Secret Lair Drop OUR SHOW IS ON FRIDAY CAN YOU MAKE IT:
     card_count: 6
     deck:
     - name: Our Show Is On Friday Can You Make It
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Arlinn, Voice of the Pack
+        number: 516
+        set: sld
+      chance: 93
+    - pack:
+      - code: blueprint-mk1
+        set: sld
+      chance: 7
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Ornithological Studies:
     card_count: 6
     deck:
     - name: Ornithological Studies
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Ugin, the Ineffable
+        number: 502
+        set: sld
+    - card:
+      - foil: true
+        name: Ob Nixilis, the Hate-Twisted
+        number: 511
+        set: sld
+    - card:
+      - foil: true
+        name: Nicol Bolas, Dragon-God
+        number: 522
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Outlaw Anthology Vol 1 Rebellious Renegades: []
   Secret Lair Drop Outlaw Anthology Vol 1 Rebellious Renegades Rainbow Foil: []
   Secret Lair Drop Outlaw Anthology Vol 2 Sinister Scoundrels: []
@@ -3135,6 +3181,11 @@ products:
     card_count: 6
     deck:
     - name: Party Hard Shred Harder
+      set: sld
+    card:
+    - foil: true
+      name: Angrath, Captain of Chaos
+      number: 527
       set: sld
   Secret Lair Drop Phyrexian Faves:
     card_count: 6
@@ -3151,11 +3202,51 @@ products:
     deck:
     - name: Phyrexian Praetors Compleat Edition
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Swamp
+        number: 560
+        set: sld
+      chance: 464
+    - card:
+      - foil: true
+        name: Viscera Seer
+        number: VS
+        set: sld
+      chance: 1
+    - pack:
+      - code: blueprint-mk1
+        set: sld
+      chance: 35
+    variable_mode:
+      count: 1
+      weight: 500
   Secret Lair Drop Phyrexian Praetors Compleat Edition Foil:
     card_count: 6
     deck:
     - name: Phyrexian Praetors Compleat Edition foil
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Swamp
+        number: 560
+        set: sld
+      chance: 464
+    - card:
+      - foil: true
+        name: Viscera Seer
+        number: VS
+        set: sld
+      chance: 1
+    - pack:
+      - code: blueprint-mk1
+        set: sld
+      chance: 35
+    variable_mode:
+      count: 1
+      weight: 500
   Secret Lair Drop Pictures of the Floating World:
     card_count: 6
     deck:
@@ -3190,15 +3281,46 @@ products:
     deck:
     - name: Pride Across the Multiverse
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Huatli, the Sun's Heart
+        number: 530
+        set: sld
+    - card:
+      - foil: true
+        name: Saheeli, Sublime Artificer
+        number: 534
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Pride Across the Multiverse Foil:
     card_count: 9
     deck:
     - name: Pride Across the Multiverse foil
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Huatli, the Sun's Heart
+        number: 530
+        set: sld
+    - card:
+      - foil: true
+        name: Saheeli, Sublime Artificer
+        number: 534
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Prime Slime:
     card_count: 6
     deck:
     - name: Prime Slime
+      set: sld
+    card:
+    - foil: true
+      name: Vraska, Swarm's Eminence
+      number: 536
       set: sld
   Secret Lair Drop Prints of Darkness: []
   Secret Lair Drop Prints of Darkness Rainbow Foil: []
@@ -3219,6 +3341,29 @@ products:
     deck:
     - name: Restless in Peace
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Jace, Wielder of Mysteries
+        number: 506
+        set: sld
+    - card:
+      - foil: true
+        name: Sorin, Vengeful Bloodlord
+        number: 524
+        set: sld
+    - card:
+      - foil: true
+        name: Tamiyo, Collector of Tales
+        number: 525
+        set: sld
+    - card:
+      - foil: true
+        name: Ashiok, Dream Render
+        number: 528
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Roadshow Edition Burning Revelations Rainbow Foil: []
   Secret Lair Drop Rule the Room:
     card_count: 5
@@ -3235,10 +3380,19 @@ products:
     deck:
     - name: Saturday Morning DD
       set: sld
+    card:
+    - name: Crash Through
+      number: 591
+      set: sld
   Secret Lair Drop Saturday Morning DandD Foil:
     card_count: 7
     deck:
     - name: Saturday Morning DD foil
+      set: sld
+    card:
+    - foil: true
+      name: Crash Through
+      number: 591
       set: sld
   Secret Lair Drop Secret Lair X MSCHF:
     card_count: 6
@@ -3467,40 +3621,78 @@ products:
     deck:
     - name: Post Malone Backstage Pass
       set: sld
+    card:
+    - foil: true
+      name: Zur the Enchanter
+      number: 726
+      set: sld
   Secret Lair Drop Secret Lair x Post Malone Backstage Pass Foil:
     card_count: 5
     deck:
     - name: Post Malone Backstage Pass foil
+      set: sld
+    card:
+    - foil: true
+      name: Zur the Enchanter
+      number: 726
       set: sld
   Secret Lair Drop Secret Lair x Post Malone The Lands:
     card_count: 6
     deck:
     - name: Post Malone The Lands
       set: sld
+    card:
+    - foil: true
+      name: Fabled Passage
+      number: 727
+      set: sld
   Secret Lair Drop Secret Lair x Post Malone The Lands Foil:
     card_count: 6
     deck:
     - name: Post Malone The Lands foil
+      set: sld
+    card:
+    - foil: true
+      name: Fabled Passage
+      number: 727
       set: sld
   Secret Lair Drop Secret Lair x Stranger Things:
     card_count: 10
     deck:
     - name: Stranger Things
       set: sld
+    card:
+    - name: Havengul Laboratory
+      number: 609a
+      set: sld
   Secret Lair Drop Secret Lair x Stranger Things Foil:
     card_count: 10
     deck:
     - name: Stranger Things foil
+      set: sld
+    card:
+    - foil: true
+      name: Havengul Laboratory
+      number: 609a
       set: sld
   Secret Lair Drop Secret Lair x Street Fighter:
     card_count: 9
     deck:
     - name: Street Fighter
       set: sld
+    card:
+    - name: Lightning Bolt
+      number: 675
+      set: sld
   Secret Lair Drop Secret Lair x Street Fighter Foil:
     card_count: 9
     deck:
     - name: Street Fighter foil
+      set: sld
+    card:
+    - foil: true
+      name: Lightning Bolt
+      number: 675
       set: sld
   Secret Lair Drop Secret Lair x The Evil Dead:
     card_count: 6
@@ -3557,6 +3749,11 @@ products:
     deck:
     - name: Seeing Visions foil
       set: sld
+    card:
+    - foil: true
+      name: Ashiok, Dream Render
+      number: 528
+      set: sld
   Secret Lair Drop Shades Not Included:
     card_count: 6
     deck:
@@ -3584,21 +3781,73 @@ products:
     deck:
     - name: Showcase Kaldheim  Part 1
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Island
+        number: 555
+        set: sld
+    - card:
+      - foil: true
+        name: Forest
+        number: 573
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Showcase Kaldheim Part 1 Foil:
     card_count: 4
     deck:
     - name: Showcase Kaldheim  Part 1 foil
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Island
+        number: 555
+        set: sld
+    - card:
+      - foil: true
+        name: Forest
+        number: 573
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Showcase Kaldheim Part 2:
     card_count: 4
     deck:
     - name: Showcase Kaldheim  Part 2
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Swamp
+        number: 557
+        set: sld
+    - card:
+      - foil: true
+        name: Mountain
+        number: 566
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Showcase Kaldheim Part 2 Foil:
     card_count: 4
     deck:
     - name: Showcase Kaldheim  Part 2 foil
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Swamp
+        number: 557
+        set: sld
+    - card:
+      - foil: true
+        name: Mountain
+        number: 566
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Showcase March of the Machine Vol 1:
     card_count: 6
     deck:
@@ -3656,15 +3905,30 @@ products:
     deck:
     - name: Read the Fine Print
       set: sld
+    card:
+    - foil: true
+      name: Liliana, Dreadhorde General
+      number: 510
+      set: sld
   Secret Lair Drop Showcase Read The Fine Print Etched:
     card_count: 6
     deck:
     - name: Read the Fine Print etched
       set: sld
+    card:
+    - foil: true
+      name: Liliana, Dreadhorde General
+      number: 510
+      set: sld
   Secret Lair Drop Showcase Read The Fine Print Foil:
     card_count: 6
     deck:
     - name: Read the Fine Print foil
+      set: sld
+    card:
+    - foil: true
+      name: Liliana, Dreadhorde General
+      number: 510
       set: sld
   Secret Lair Drop Showcase Streets of New Capenna Gilded Foil:
     card_count: 4
@@ -3706,21 +3970,83 @@ products:
     deck:
     - name: Showcase Zendikar Revisited
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Nissa, Who Shakes the World
+        number: 518
+        set: sld
+    - card:
+      - foil: true
+        name: Kiora, Behemoth Beckoner
+        number: 532
+        set: sld
+    - card:
+      - foil: true
+        name: Nahiri, Storm of Stone
+        number: 533
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Showcase Zendikar Revisited Foil:
     card_count: 6
     deck:
     - name: Showcase Zendikar Revisited foil
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Nissa, Who Shakes the World
+        number: 518
+        set: sld
+    - card:
+      - foil: true
+        name: Kiora, Behemoth Beckoner
+        number: 532
+        set: sld
+    - card:
+      - foil: true
+        name: Nahiri, Storm of Stone
+        number: 533
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Special Guest Fiona Staples:
     card_count: 6
     deck:
     - name: Special Guest Fiona Staples
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Jaya, Venerated Firemage
+        number: 513
+        set: sld
+    - card:
+      - foil: true
+        name: Sarkhan the Masterless
+        number: 514
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Special Guest Fiona Staples Foil:
     card_count: 6
     deck:
     - name: Special Guest Fiona Staples foil
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Jaya, Venerated Firemage
+        number: 513
+        set: sld
+    - card:
+      - foil: true
+        name: Sarkhan the Masterless
+        number: 514
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Special Guest Jen Bartel:
     card_count: 5
     deck:
@@ -3780,11 +4106,47 @@ products:
     deck:
     - name: Special Guest Matt Jukes
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Frenetic Sliver
+        number: 662
+        set: sld
+    - card:
+      - foil: true
+        name: Lavabelly Sliver
+        number: 665
+        set: sld
+    - card:
+      - foil: true
+        name: Opaline Sliver
+        number: 667
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Special Guest Matt Jukes Foil:
     card_count: 6
     deck:
     - name: Special Guest Matt Jukes foil
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Frenetic Sliver
+        number: 662
+        set: sld
+    - card:
+      - foil: true
+        name: Lavabelly Sliver
+        number: 665
+        set: sld
+    - card:
+      - foil: true
+        name: Opaline Sliver
+        number: 667
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Special Guest Yoji Shinkawa English:
     card_count: 5
     deck:
@@ -3895,6 +4257,11 @@ products:
     deck:
     - name: The Godzilla Lands foil
       set: sld
+    card:
+    - foil: true
+      name: Nissa, Who Shakes the World
+      number: 518
+      set: sld
   Secret Lair Drop The Meaning of Life Maybe:
     card_count: 6
     deck:
@@ -3954,6 +4321,11 @@ products:
     card_count: 12
     deck:
     - name: The Walking Dead foil
+      set: sld
+    card:
+    - foil: true
+      name: Gisa's Favorite Shovel
+      number: 581
       set: sld
   Secret Lair Drop The Weirdest Pets in the Multiverse:
     card_count: 6
