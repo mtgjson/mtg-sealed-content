@@ -9,10 +9,11 @@ provmap = {
     "cardTrader": "cardtraderId",
     "cardKingdom": "cardKingdomId",
     "tcgplayer": "tcgplayerProductId",
-    "miniaturemarket": "miniaturemarketId"
+    "miniaturemarket": "miniaturemarketId",
+    "starcitygames": "scgId"
 }
 
-check_data = {provmap[provider]: set([int(k) for k in products.keys()]) for provider, products in ignore_data.items()}
+check_data = {provmap[provider]: set([str(k) for k in products.keys()]) for provider, products in ignore_data.items()}
 
 for known_file in Path("data/products").glob("*.yaml"):
     with open(known_file, "r") as kfile:
@@ -21,7 +22,7 @@ for known_file in Path("data/products").glob("*.yaml"):
         for provider, id in product.get("identifiers", {}).items():
             if provider not in check_data:
                 check_data[provider] = set()
-            check_data[provider].add(int(id))
+            check_data[provider].add(str(id))
 
 with open("data/review.yaml", "r") as rfile:
     review_current = yaml.safe_load(rfile)
@@ -33,7 +34,7 @@ for provider, products in review_current.items():
     for p_name, info in products.items():
         known = False
         for prov, id in info["identifiers"].items():
-            if prov in check_data and int(id) in check_data[prov]:
+            if prov in check_data and str(id) in check_data[prov]:
                 known = True
         if not known:
             review_new[provider][p_name] = info

@@ -120,6 +120,8 @@ class product:
             self.deck.append(deck(d))
         self.sealed = []
         for s in contents.get("sealed", []):
+            if s['name'] == self.name:
+                raise ValueError(f"Self-referrential product {self.name}")
             self.sealed.append(sealed(s))
         self.other = []
         for o in contents.get("other", []):
