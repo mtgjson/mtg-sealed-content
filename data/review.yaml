@@ -1,9 +1,4 @@
-cardKingdom:
-  'Modern Horizons 3 Bundle: Gift Edition':
-    category: UNKNOWN
-    identifiers:
-      cardKingdomId: '295750'
-    subtype: UNKNOWN
+cardKingdom: {}
 cardMarket: {}
 cardTrader:
   Adventures in the Forgotten Realms Theme Booster:
@@ -110,26 +105,6 @@ cardTrader:
     category: UNKNOWN
     identifiers:
       cardtraderId: '48266'
-    subtype: UNKNOWN
-  'Duel Decks: Duel Decks: Izzet vs. Golgari - Jarad Deck':
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '169312'
-    subtype: UNKNOWN
-  'Duel Decks: Duel Decks: Izzet vs. Golgari - Niv-Mizzet Deck':
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '169313'
-    subtype: UNKNOWN
-  'Duel Decks: Sorin vs. Tibalt - Sorin Deck':
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '169303'
-    subtype: UNKNOWN
-  'Duel Decks: Sorin vs. Tibalt - Tibalt Deck':
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '169304'
     subtype: UNKNOWN
   Guilds of Ravnica Theme Booster:
     category: UNKNOWN
@@ -426,58 +401,12 @@ cardTrader:
     identifiers:
       cardtraderId: '146526'
     subtype: UNKNOWN
-miniaturemarket:
-  'MtG Modern Horizons 3: Gift Bundle':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: '299644'
-    release_date: '2024-03-20'
-    subtype: UNKNOWN
+miniaturemarket: {}
 starcitygames:
   6th Edition Booster Pack:
     category: UNKNOWN
     identifiers:
       scgId: SLD-MTG-PCK-6ED-EN
-    subtype: UNKNOWN
-  Bloomburrow Bundle:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-BUN-BLB-EN
-    subtype: UNKNOWN
-  Dominaria United Jumpstart Booster Box:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-BBX-DMUJUMPSTART-EN
-    subtype: UNKNOWN
-  Dominaria United Jumpstart Booster Pack:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-PCK-DMUJUMPSTART-EN
-    subtype: UNKNOWN
-  Eldritch Moon Booster Pack:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-PCK-EMN-EN
-    subtype: UNKNOWN
-  Homelands Booster Pack:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-PCK-HML-EN
-    subtype: UNKNOWN
-  Stronghold Booster Pack:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-PCK-STH-EN
-    subtype: UNKNOWN
-  Tempest Booster Pack:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-PCK-TMP-EN
-    subtype: UNKNOWN
-  The Dark Booster Pack:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-PCK-DRK-EN
     subtype: UNKNOWN
 tcgplayer:
   Secret Lair Drop Featuring Julie Bell Non Foil Edition:
