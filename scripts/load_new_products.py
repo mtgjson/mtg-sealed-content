@@ -199,6 +199,7 @@ def get_cardmarket(productsfile):
         "Borderless Planeswalkers Set",
         "Common Set",
         "Contraption Set",
+        "Creature Forge",
         "CustomSet",
         "Dual Lands Set",
         "Empty",
@@ -206,6 +207,7 @@ def get_cardmarket(productsfile):
         "Fetchland Set",
         "GnD Cards",
         "Land Set",
+        "LocalProAlters Tokens",
         "Masterpiece Set",
         "Mythic Set",
         "Oversized",
@@ -217,6 +219,7 @@ def get_cardmarket(productsfile):
         "Promo Pack",
         "Rare Set",
         "Relic Tokens",
+        "SAWATARIX",
         "Scene Set",
         "Scheme Set",
         "Showcase Frame set",
@@ -289,6 +292,8 @@ def load_cardtrader(secret):
     skip_tags = [
         "Promo Pack",
         "Basic Land Pack",
+        "Relic Tokens",
+        "Creature Forge",
     ]
 
     sld_skip_tags = [
@@ -308,6 +313,7 @@ def load_cardtrader(secret):
         for blueprint in blueprints:
             if not isinstance(blueprint, dict):
                 print(f"Product {blueprint} incorrectly formatted")
+                continue
             if blueprint["game_id"] != 1:
                 continue
             if blueprint["category_id"] not in category_types:
