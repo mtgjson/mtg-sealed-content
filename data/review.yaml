@@ -1,5 +1,53 @@
 cardKingdom: {}
-cardMarket: {}
+cardMarket:
+  'Duskmourn: House of Horror Collector Booster':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '776440'
+    release_date: '2024-07-02'
+    subtype: UNKNOWN
+  'Duskmourn: House of Horror Collector Booster Box':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '776442'
+    release_date: '2024-07-02'
+    subtype: UNKNOWN
+  'Duskmourn: House of Horror Collector Booster Sample Pack':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '776441'
+    release_date: '2024-07-02'
+    subtype: UNKNOWN
+  'Duskmourn: House of Horror Fat Pack Bundle':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '776445'
+    release_date: '2024-07-02'
+    subtype: UNKNOWN
+  'Duskmourn: House of Horror Play Booster':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '776439'
+    release_date: '2024-07-02'
+    subtype: UNKNOWN
+  'Duskmourn: House of Horror Play Booster Box':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '776443'
+    release_date: '2024-07-02'
+    subtype: UNKNOWN
+  'Duskmourn: House of Horror: Nightmare  Fat Pack Bundle':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '776446'
+    release_date: '2024-07-02'
+    subtype: UNKNOWN
+  'Duskmourn: House of Horror: Prerelease Pack':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '776444'
+    release_date: '2024-07-02'
+    subtype: UNKNOWN
 cardTrader:
   Could not load provider cardTrader:
     category: UNKNOWN
@@ -12,6 +60,11 @@ starcitygames:
     category: UNKNOWN
     identifiers:
       scgId: SLD-MTG-PCK-6ED-EN
+    subtype: UNKNOWN
+  The Lord of the Rings Bundle:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BUN-LTR-EN
     subtype: UNKNOWN
 tcgplayer:
   Secret Lair Drop Featuring Julie Bell Non Foil Edition:
