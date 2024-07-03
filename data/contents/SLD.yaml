@@ -3729,20 +3729,38 @@ products:
     deck:
     - name: Warhammer 40000 Orks
       set: sld
+    card:
+    - name: Wastes
+      number: 704
+      set: sld
   Secret Lair Drop Secret Lair x Warhammer 40000 Orks Foil:
     card_count: 6
     deck:
     - name: Warhammer 40000 Orks foil
+      set: sld
+    card:
+    - foil: true
+      name: Wastes
+      number: 704
       set: sld
   Secret Lair Drop Secret Lair x Warhammer Age of Sigmar:
     card_count: 6
     deck:
     - name: Warhammer Age of Sigmar
       set: sld
+    card:
+    - name: Wastes
+      number: 704
+      set: sld
   Secret Lair Drop Secret Lair x Warhammer Age of Sigmar Foil:
     card_count: 6
     deck:
     - name: Warhammer Age of Sigmar foil
+      set: sld
+    card:
+    - foil: true
+      name: Wastes
+      number: 704
       set: sld
   Secret Lair Drop Seeing Visions:
     card_count: 5
@@ -4202,6 +4220,19 @@ products:
     deck:
     - name: Thalia  Beyond the Helvault foil
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Dovin, Hand of Control
+        number: 529
+        set: sld
+    - card:
+      - foil: true
+        name: Kasmina, Enigmatic Mentor
+        number: 507
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop The 90s Binder Experience:
     card_count: 6
     deck:
@@ -4217,10 +4248,19 @@ products:
     deck:
     - name: The Art of Frank Frazetta
       set: sld
+    card:
+    - name: Lightning Strike
+      number: 724
+      set: sld
   Secret Lair Drop The Art of Frank Frazetta Foil:
     card_count: 6
     deck:
     - name: The Art of Frank Frazetta foil
+      set: sld
+    card:
+    - foil: true
+      name: Lightning Strike
+      number: 724
       set: sld
   Secret Lair Drop The Beauty of the Beasts:
     card_count: 5
@@ -4247,11 +4287,37 @@ products:
     deck:
     - name: The FullText Lands
       set: sld
+    variable:
+    - card:
+      - name: Terramorphic Expanse
+        number: 585
+        set: sld
+      chance: 93
+    - pack:
+      - code: blueprint-mk1
+        set: sld
+      chance: 7
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop The Full Text Lands Foil:
     card_count: 6
     deck:
     - name: The FullText Lands foil
       set: sld
+    variable:
+    - card:
+      - name: Terramorphic Expanse
+        number: 585
+        set: sld
+      chance: 93
+    - pack:
+      - code: blueprint-mk1
+        set: sld
+      chance: 7
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop The Godzilla Lands:
     card_count: 6
     deck:
@@ -4277,6 +4343,29 @@ products:
     deck:
     - name: The Path Not Traveled foil
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Ajani, the Greathearted
+        number: 520
+        set: sld
+    - card:
+      - foil: true
+        name: Domri, Anarch of Bolas
+        number: 521
+        set: sld
+    - card:
+      - foil: true
+        name: Tamiyo, Collector of Tales
+        number: 525
+        set: sld
+    - card:
+      - foil: true
+        name: Vraska, Swarm's Eminence
+        number: 536
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop The Space Beyond the Stars:
     card_count: 5
     deck:
@@ -4312,11 +4401,47 @@ products:
     deck:
     - name: The Unfathomable Crushing Brutality of Basic Lands
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Swamp
+        number: 558
+        set: sld
+    - card:
+      - foil: true
+        name: Swamp
+        number: 561
+        set: sld
+    - card:
+      - foil: true
+        name: Swamp
+        number: 563
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop The Unfathomable Crushing Brutality of Basic Lands Foil:
     card_count: 6
     deck:
     - name: The Unfathomable Crushing Brutality of Basic Lands foil
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Swamp
+        number: 558
+        set: sld
+    - card:
+      - foil: true
+        name: Swamp
+        number: 561
+        set: sld
+    - card:
+      - foil: true
+        name: Swamp
+        number: 563
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop The Walking Dead:
     card_count: 12
     deck:
@@ -4342,25 +4467,40 @@ products:
     deck:
     - name: Theros Stargazing Volume I foil
       set: sld
+    pack:
+    - code: stainedglass-w
+      set: sld
   Secret Lair Drop Theros Stargazing Vol II Thassa:
     card_count: 4
     deck:
     - name: Theros Stargazing Volume II foil
+      set: sld
+    pack:
+    - code: stainedglass-u
       set: sld
   Secret Lair Drop Theros Stargazing Vol III Erebos:
     card_count: 4
     deck:
     - name: Theros Stargazing Volume III foil
       set: sld
+    pack:
+    - code: stainedglass-b
+      set: sld
   Secret Lair Drop Theros Stargazing Vol IV Purphoros:
     card_count: 4
     deck:
     - name: Theros Stargazing Volume IV foil
       set: sld
+    pack:
+    - code: stainedglass-r
+      set: sld
   Secret Lair Drop Theros Stargazing Vol V Nylea:
     card_count: 4
     deck:
     - name: Theros Stargazing Volume V foil
+      set: sld
+    pack:
+    - code: stainedglass-g
       set: sld
   Secret Lair Drop Through the Wormhole: []
   Secret Lair Drop Through the Wormhole Galaxy Foil: []
@@ -4384,40 +4524,77 @@ products:
     deck:
     - name: Transformers One Shall Stand One Shall Fall
       set: sld
+    card:
+    - name: Command Tower
+      number: 710
+      set: sld
   Secret Lair Drop Transformers One Shall Stand One Shall Fall Foil:
     card_count: 6
     deck:
     - name: Transformers One Shall Stand One Shall Fall foil
+      set: sld
+    card:
+    - foil: true
+      name: Command Tower
+      number: 710
       set: sld
   Secret Lair Drop Transformers Optimus Prime Vs Megatron:
     card_count: 4
     deck:
     - name: Transformers Optimus Prime vs Megatron
       set: sld
+    card:
+    - name: Command Tower
+      number: 710
+      set: sld
   Secret Lair Drop Transformers Optimus Prime Vs Megatron Foil:
     card_count: 4
     deck:
     - name: Transformers Optimus Prime vs Megatron foil
+      set: sld
+    card:
+    - foil: true
+      name: Command Tower
+      number: 710
       set: sld
   Secret Lair Drop Transformers Roll Out or Rise Up:
     card_count: 7
     deck:
     - name: Transformers Roll Out or Rise Up
       set: sld
+    card:
+    - name: Command Tower
+      number: 710
+      set: sld
   Secret Lair Drop Transformers Roll Out or Rise Up Foil:
     card_count: 7
     deck:
     - name: Transformers Roll Out or Rise Up foil
+      set: sld
+    card:
+    - foil: true
+      name: Command Tower
+      number: 710
       set: sld
   Secret Lair Drop Valentines Day 2021:
     card_count: 7
     deck:
     - name: Valentines Day 2021
       set: sld
+    card:
+    - foil: true
+      name: Forest
+      number: 572
+      set: sld
   Secret Lair Drop Valentines Day 2021 Foil:
     card_count: 7
     deck:
     - name: Valentines Day 2021 foil
+      set: sld
+    card:
+    - foil: true
+      name: Command Tower
+      number: 710
       set: sld
   Secret Lair Drop Valentines Day 2021 Replacement Heliod Pack:
     card:
@@ -4469,10 +4646,20 @@ products:
     deck:
     - name: Welcome to Castle Dracula
       set: sld
+    card:
+    - foil: true
+      name: Swamp
+      number: 562
+      set: sld
   Secret Lair Drop Welcome to Castle Dracula Foil:
     card_count: 4
     deck:
     - name: Welcome to Castle Dracula foil
+      set: sld
+    card:
+    - foil: true
+      name: Swamp
+      number: 562
       set: sld
   Secret Lair Drop Welcome to the Fungal:
     card_count: 5
@@ -4502,6 +4689,29 @@ products:
     deck:
     - name: Year of the Rat foil
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Teyo, the Shieldmage
+        number: 504
+        set: sld
+    - card:
+      - foil: true
+        name: Sarkhan the Masterless
+        number: 514
+        set: sld
+    - card:
+      - foil: true
+        name: Arlinn, Voice of the Pack
+        number: 516
+        set: sld
+    - card:
+      - foil: true
+        name: Ral, Storm Conduit
+        number: 523
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop sAnS mERcY: []
   Secret Lair Drop sAnS mERcY Rainbow Foil: []
   "Secret Lair Drop \u201Cexplosion sounds\u201D":
@@ -4509,6 +4719,34 @@ products:
     deck:
     - name: explosion sounds
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Gideon Blackblade
+        number: 503
+        set: sld
+    - card:
+      - foil: true
+        name: Domri, Anarch of Bolas
+        number: 521
+        set: sld
+    - card:
+      - foil: true
+        name: Ral, Storm Conduit
+        number: 523
+        set: sld
+    - card:
+      - foil: true
+        name: Angrath, Captain of Chaos
+        number: 527
+        set: sld
+    - card:
+      - foil: true
+        name: Nahiri, Storm of Stone
+        number: 533
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Festival in a Box Barcelona 2023 Commander Fan Bundle:
     card:
     - foil: true
