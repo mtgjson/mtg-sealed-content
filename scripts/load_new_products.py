@@ -308,6 +308,7 @@ def load_cardtrader(secret):
         for blueprint in blueprints:
             if not isinstance(blueprint, dict):
                 print(f"Product {blueprint} incorrectly formatted")
+                continue
             if blueprint["game_id"] != 1:
                 continue
             if blueprint["category_id"] not in category_types:
