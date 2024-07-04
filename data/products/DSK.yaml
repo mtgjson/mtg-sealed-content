@@ -1,0 +1,57 @@
+code: dsk
+products:
+  Duskmourn House of Horror Bundle:
+    category: BUNDLE
+    identifiers:
+      cardtraderId: '292182'
+      mcmId: '776445'
+    release_date: '2024-07-02'
+    subtype: DEFAULT
+  Duskmourn House of Horror Collector Booster:
+    category: BOOSTER_PACK
+    identifiers:
+      cardtraderId: '292185'
+      mcmId: '776440'
+    release_date: '2024-07-02'
+    subtype: COLLECTOR
+  Duskmourn House of Horror Collector Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardtraderId: '292181'
+      mcmId: '776442'
+    release_date: '2024-07-02'
+    subtype: COLLECTOR
+  Duskmourn House of Horror Collector Booster Sample Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      mcmId: '776441'
+    release_date: '2024-07-02'
+    subtype: PROMOTIONAL
+  Duskmourn House of Horror Nightmare Bundle:
+    category: BUNDLE
+    identifiers:
+      cardtraderId: '292183'
+      mcmId: '776446'
+    release_date: '2024-07-02'
+    subtype: PREMIUM
+  Duskmourn House of Horror Play Booster:
+    category: BOOSTER_PACK
+    identifiers:
+      cardtraderId: '292184'
+      mcmId: '776439'
+    release_date: '2024-07-02'
+    subtype: PLAY
+  Duskmourn House of Horror Play Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardtraderId: '292180'
+      mcmId: '776443'
+    release_date: '2024-07-02'
+    subtype: PLAY
+  Duskmourn House of Horror Prerelease Pack:
+    category: LIMITED
+    identifiers:
+      cardtraderId: '292186'
+      mcmId: '776444'
+    release_date: '2024-07-02'
+    subtype: PRERELEASE
