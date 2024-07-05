@@ -153,31 +153,12 @@ def get_tcg_auth_code(secret):
     return api_version, str(request_as_json.get("access_token", ""))
 
 
-def get_mkm_productsfile(secret):
-    try:
-        os.environ["MKM_APP_TOKEN"] = secret.get("app_token")
-        os.environ["MKM_APP_SECRET"] = secret.get("app_secret")
-        os.environ["MKM_ACCESS_TOKEN"] = secret.get("access_token") or ""
-        os.environ["MKM_ACCESS_TOKEN_SECRET"] = secret.get("access_token_secret") or ""
-    except TypeError:
-        print(f"Incorrectly coded MKM token")
-        return ""
+def get_cardmarket():
+    product_list_url = "https://downloads.s3.cardmarket.com/productCatalog/productList/products_nonsingles_1.json"
+    r = requests.get(product_list_url)
+    mkm_data = json.loads(r.content)
+    product_list = mkm_data["products"]
 
-    mkm_connection = Mkm(_API_MAP["2.0"]["api"], _API_MAP["2.0"]["api_root"])
-
-    try:
-        mkm_response = mkm_connection.market_place.product_list().json()
-    except mkmsdk.exceptions.ConnectionError as exception:
-        print(f"Unable to download MKM correctly: {exception}")
-        return ""
-
-    product_data = base64.b64decode(mkm_response["productsfile"])  # Un-base64
-    product_data = zlib.decompress(product_data, 16 + zlib.MAX_WBITS)  # Un-gzip
-    decoded_data = product_data.decode("utf-8")  # byte array to string
-    return io.StringIO(decoded_data)
-
-
-def get_cardmarket(productsfile):
     category_types = [
         "Magic Booster",
         "Magic Display",
@@ -245,27 +226,29 @@ def get_cardmarket(productsfile):
     sealed_data = []
 
     # idProduct,Name,"Category ID","Category","Expansion ID","Metacard ID","Date Added"
-    reader = csv.reader(productsfile)
-    for row in reader:
-        if row[3] not in category_types:
+    for product in product_list:
+        if product["categoryName"] not in category_types:
             continue
 
-        if any(tag.lower() in row[1].lower() for tag in skip_tags):
+        product_name = product["name"]
+        if any(tag.lower() in product_name.lower() for tag in skip_tags):
             continue
-        if "Full Set" in row[1] and not any(tag in row[1] for tag in full_set_ok):
+        if "Full Set" in product_name and not any(tag in product_name for tag in full_set_ok):
             continue
-        if "Secret Lair" in row[1] and " Set" in row[1]:
+        if "Secret Lair" in product_name and " Set" in product_name:
             continue
-        if "Secret Lair" in row[1] and " Booster" in row[1]:
+        if "Secret Lair" in product_name and " Booster" in product_name:
             continue
 
         sealed_data.extend([
             {
-                "name": row[1],
-                "id": row[0],
-                "releaseDate": row[6],
+                "name": product_name,
+                "id": product["idProduct"],
+                "releaseDate": product["dateAdded"],
             }
         ])
+
+    print(f"Parsed {len(sealed_data)} products")
 
     return sealed_data
 
@@ -360,14 +343,8 @@ def load_tcgplayer(secret):
     return get_tcgplayer(api_version, tcg_auth_code)
 
 
-def preload_cardmarket(secret):
-    mkm_productsfile = get_mkm_productsfile(secret)
-    secret["mkm_productsfile"] = mkm_productsfile
-
-
 def load_cardmarket(secret):
-    mkm_productsfile = secret.get("mkm_productsfile")
-    return get_cardmarket(mkm_productsfile)
+    return get_cardmarket()
 
 
 def mmdownload(paging):
@@ -533,9 +510,7 @@ providers_dict = {
     },
     "cardMarket": {
         "identifier": "mcmId",
-        "preload_func": preload_cardmarket,
         "load_func": load_cardmarket,
-        "auth": ["app_token", "app_secret"],
     },
     "cardTrader": {
         "identifier": "cardtraderId",
