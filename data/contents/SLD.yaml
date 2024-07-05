@@ -1105,20 +1105,53 @@ products:
     deck:
     - name: Angels They're Just Like Us but Cooler and with Wings
       set: sld
+    card:
+    - foil: true
+      name: Sigarda's Aid
+      number: 731
+      set: sld
   Secret Lair Commander Deck From Cute to Brute:
     card_count: 101
     deck:
     - name: From Cute to Brute
+      set: sld
+    card:
+    - foil: true
+      name: Delver of Secrets
+      number: 722
       set: sld
   Secret Lair Commander Deck Heads I Win Tails You Lose:
     card_count: 101
     deck:
     - name: Heads I Win, Tails You Lose
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Island
+        number: 673
+        set: sld
+    - card:
+      - foil: true
+        name: Mountain
+        number: 674
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Commander Deck Raining Cats and Dogs:
-    card_count: 101
+    card_count: 102
     deck:
     - name: Raining Cats and Dogs
+      set: sld
+    card:
+    - foil: true
+      name: Nine Lives
+      number: 793
+      set: sld
+    card:
+    - foil: true
+      name: Yoshimaru, Ever Faithful
+      number: 794
       set: sld
   Secret Lair Death Is Temporary Metal Is Forever:
     card_count: 6
