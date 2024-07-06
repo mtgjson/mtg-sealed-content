@@ -3082,10 +3082,19 @@ products:
     deck:
     - name: More Adventures in Middle-earth
       set: sld
+    card:
+    - name: Gríma Wormtongue
+      number: 734
+      set: sld
   Secret Lair Drop More Adventures in Middle earth Foil:
     card_count: 5
     deck:
     - name: More Adventures in Middle-earth foil
+      set: sld
+    card:
+    - foil: true
+      name: Gríma Wormtongue
+      number: 734
       set: sld
   Secret Lair Drop More Borderless Planeswalkers:
     card_count: 5
@@ -3732,20 +3741,38 @@ products:
     deck:
     - name: Secret Lair x The Evil Dead
       set: sld
+    card:
+    - name: Colossus Hammer
+      number: 736
+      set: sld
   Secret Lair Drop Secret Lair x The Evil Dead Foil:
     card_count: 6
     deck:
     - name: Secret Lair x The Evil Dead foil
+      set: sld
+    card:
+    - foil: true
+      name: Colossus Hammer
+      number: 736
       set: sld
   Secret Lair Drop Secret Lair x The Princess Bride:
     card_count: 9
     deck:
     - name: Secret Lair x The Princess Bride
       set: sld
+    card:
+    - name: Command Tower
+      number: 744
+      set: sld
   Secret Lair Drop Secret Lair x The Princess Bride Foil:
     card_count: 9
     deck:
     - name: Secret Lair x The Princess Bride foil
+      set: sld
+    card:
+    - foil: true
+      name: Command Tower
+      number: 744
       set: sld
   Secret Lair Drop Secret Lair x Tomb Raider:
     card_count: 6
