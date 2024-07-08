@@ -1,6 +1,24 @@
 code: 4bb
 products:
-  Fourth Edition Black Bordered Booster Box: []
-  Fourth Edition Black Bordered Booster Pack: []
-  Fourth Edition Black Bordered Starter Deck: []
-  Fourth Edition Black Bordered Starter Deck Box: []
+  Fourth Edition Black Bordered Booster Box:
+    sealed:
+    - set: 4bb
+      name: Fourth Edition Black Bordered Booster Pack
+      count: 36
+  Fourth Edition Black Bordered Booster Pack:
+    pack:
+    - set: 4bb
+      code: default
+    card_count: 15
+  Fourth Edition Black Bordered Starter Deck:
+    card_count: 60
+    other:
+    - name: Fourth Edition Starter Deck Rule Book
+    pack:
+    - code: starter
+      set: 4bb
+  Fourth Edition Black Bordered Starter Deck Box:
+    sealed:
+    - set: 4bb
+      count: 10
+      name: Fourth Edition Black Bordered Starter Deck
