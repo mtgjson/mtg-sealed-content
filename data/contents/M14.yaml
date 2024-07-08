@@ -1,10 +1,5 @@
 code: m14
 products:
-  2014 Core Set 6 Card Booster Pack:
-    card_count: 6
-    pack:
-    - code: six
-      set: m14
   2014 Core Set Booster Battle Pack: []
   2014 Core Set Booster Battle Pack Display: []
   2014 Core Set Booster Box:
@@ -118,4 +113,8 @@ products:
     deck:
     - name: Black Deck
       set: m14
-  2014 Core Set Six Card Booster Pack: []
+  2014 Core Set Six Card Booster Pack:
+    card_count: 6
+    pack:
+    - code: six
+      set: m14
