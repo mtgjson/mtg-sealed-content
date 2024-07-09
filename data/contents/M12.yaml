@@ -5,11 +5,6 @@ products:
     - count: 3
       name: 2012 Core Set Booster Pack
       set: m12
-  2012 Core Set 6 Card Booster Pack:
-    card_count: 6
-    pack:
-    - code: six
-      set: m12
   2012 Core Set Booster Battle Pack: []
   2012 Core Set Booster Battle Pack Display: []
   2012 Core Set Booster Box:
@@ -186,4 +181,8 @@ products:
     variable_mode:
       count: 1
       replacement: false
-  2012 Core Set Six Card Booster Pack: []
+  2012 Core Set Six Card Booster Pack:
+    card_count: 6
+    pack:
+    - code: six
+      set: m12
