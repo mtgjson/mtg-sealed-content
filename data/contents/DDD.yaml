@@ -1,12 +1,21 @@
 code: ddd
 products:
   Duel Deck Garruk vs Liliana:
-    card_count: 120
+    sealed:
+    - set: ddd
+      name: Duel Deck Garruk vs Liliana Garruk Deck
+      count: 1
+    - set: ddd
+      name: Duel Deck Garruk vs Liliana Liliana Deck
+      count: 1
+  Duel Deck Garruk vs Liliana Display: []
+  Duel Deck Garruk vs Liliana Garruk Deck:
+    card_count: 60
     deck:
     - name: Garruk
       set: ddd
+  Duel Deck Garruk vs Liliana Liliana Deck:
+    card_count: 60
+    deck:
     - name: Liliana
       set: ddd
-  Duel Deck Garruk vs Liliana Display: []
-  Duel Deck Garruk vs Liliana Garruk Deck: []
-  Duel Deck Garruk vs Liliana Liliana Deck: []

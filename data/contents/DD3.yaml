@@ -1,31 +1,70 @@
 code: dd3
 products:
   Duel Deck Anthology:
-    card_count: 480
-    deck:
-    - name: Demonic
-      set: dvd
-    - name: Divine
-      set: dvd
-    - name: Elves
-      set: evg
-    - name: Goblins
-      set: evg
-    - name: Garruk
-      set: gvl
-    - name: Liliana
-      set: gvl
-    - name: Chandra
-      set: jvc
-    - name: Jace
-      set: jvc
+    sealed:
+    - set: dd3
+      count: 1
+      name: Duel Deck Anthology Chandra Deck
+    - set: dd3
+      count: 1
+      name: Duel Deck Anthology Jace Deck
+    - set: dd3
+      count: 1
+      name: Duel Deck Anthology Demonic Deck
+    - set: dd3
+      count: 1
+      name: Duel Deck Anthology Divine Deck
+    - set: dd3
+      count: 1
+      name: Duel Deck Anthology Elves Deck
+    - set: dd3
+      count: 1
+      name: Duel Deck Anthology Goblins Deck
+    - set: dd3
+      count: 1
+      name: Duel Deck Anthology Garruk Deck
+    - set: dd3
+      count: 1
+      name: Duel Deck Anthology Liliana Deck
     other:
     - name: 35 Tokens
-  Duel Deck Anthology Chandra Deck: []
-  Duel Deck Anthology Demonic Deck: []
-  Duel Deck Anthology Divine Deck: []
-  Duel Deck Anthology Elves Deck: []
-  Duel Deck Anthology Garruk Deck: []
-  Duel Deck Anthology Goblins Deck: []
-  Duel Deck Anthology Jace Deck: []
-  Duel Deck Anthology Liliana Deck: []
+  Duel Deck Anthology Chandra Deck:
+    deck:
+    - set: jvc
+      name: Chandra
+    card_count: 60
+  Duel Deck Anthology Demonic Deck:
+    deck:
+    - set: dvd
+      name: Demonic
+    card_count: 60
+  Duel Deck Anthology Divine Deck:
+    deck:
+    - set: dvd
+      name: Divine
+    card_count: 60
+  Duel Deck Anthology Elves Deck:
+    card_count: 60
+    deck:
+    - set: evg
+      name: Elves
+  Duel Deck Anthology Garruk Deck:
+    card_count: 60
+    deck:
+    - set: gvl
+      deck: Garruk
+  Duel Deck Anthology Goblins Deck:
+    card_count: 60
+    deck:
+    - set: evg
+      name: Goblins
+  Duel Deck Anthology Jace Deck:
+    card_count: 60
+    deck:
+    - set: jvc
+      name: Jace
+  Duel Deck Anthology Liliana Deck:
+    card_count: 60
+    deck:
+    - set: gvl
+      name: Liliana
