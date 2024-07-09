@@ -5,11 +5,6 @@ products:
     - count: 3
       name: 2011 Core Set Booster Pack
       set: m11
-  2011 Core Set 6 Card Booster Pack:
-    card_count: 6
-    pack:
-    - code: six
-      set: m11
   2011 Core Set Booster Box:
     sealed:
     - count: 36
@@ -228,4 +223,8 @@ products:
     - count: 1
       name: 2011 Core Set Intro Pack Stampede of Beasts
       set: m11
-  2011 Core Set Six Card Booster Pack: []
+  2011 Core Set Six Card Booster Pack:
+    card_count: 6
+    pack:
+    - code: six
+      set: m11

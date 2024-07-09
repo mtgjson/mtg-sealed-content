@@ -1,15 +1,24 @@
 code: dd2
 products:
   Duel Deck Jace vs Chandra:
-    card_count: 120
+    sealed:
+    - set: dd2
+      count: 1
+      name: Duel Deck Jace vs Chandra Chandra Deck
+    - set: dd2
+      count: 1
+      name: Duel Deck Jace vs Chandra Jace Deck
+  Duel Deck Jace vs Chandra Chandra Deck:
+    deck:
+    - name: Chandra
+      set: dd2
+    card_count: 60
+  Duel Deck Jace vs Chandra Display: []
+  Duel Deck Jace vs Chandra Jace Deck:
     deck:
     - name: Jace
       set: dd2
-    - name: Chandra
-      set: dd2
-  Duel Deck Jace vs Chandra Chandra Deck: []
-  Duel Deck Jace vs Chandra Display: []
-  Duel Deck Jace vs Chandra Jace Deck: []
+    card_count: 60
   Duel Deck Jace vs Chandra Japanese:
     card_count: 120
     deck:
