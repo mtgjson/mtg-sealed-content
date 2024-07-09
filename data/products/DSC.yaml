@@ -1,11 +1,5 @@
 code: dsc
 products:
-  Duskmourn House of Horror Commander Decks Set of 4:
-    category: SUBSET
-    identifiers:
-      cardtraderId: '292187'
-      mcmId: '777183'
-    subtype: COMMANDER
   Duskmourn House of Horror Commander Deck Death Toll:
     category: DECK
     identifiers:
@@ -25,4 +19,10 @@ products:
     category: DECK
     identifiers:
       mcmId: '777179'
+    subtype: COMMANDER
+  Duskmourn House of Horror Commander Decks Set of 4:
+    category: SUBSET
+    identifiers:
+      cardtraderId: '292187'
+      mcmId: '777183'
     subtype: COMMANDER

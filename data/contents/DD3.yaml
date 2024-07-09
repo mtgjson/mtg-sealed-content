@@ -1,70 +1,70 @@
 code: dd3
 products:
   Duel Deck Anthology:
-    sealed:
-    - set: dd3
-      count: 1
-      name: Duel Deck Anthology Chandra Deck
-    - set: dd3
-      count: 1
-      name: Duel Deck Anthology Jace Deck
-    - set: dd3
-      count: 1
-      name: Duel Deck Anthology Demonic Deck
-    - set: dd3
-      count: 1
-      name: Duel Deck Anthology Divine Deck
-    - set: dd3
-      count: 1
-      name: Duel Deck Anthology Elves Deck
-    - set: dd3
-      count: 1
-      name: Duel Deck Anthology Goblins Deck
-    - set: dd3
-      count: 1
-      name: Duel Deck Anthology Garruk Deck
-    - set: dd3
-      count: 1
-      name: Duel Deck Anthology Liliana Deck
     other:
     - name: 35 Tokens
+    sealed:
+    - count: 1
+      name: Duel Deck Anthology Chandra Deck
+      set: dd3
+    - count: 1
+      name: Duel Deck Anthology Jace Deck
+      set: dd3
+    - count: 1
+      name: Duel Deck Anthology Demonic Deck
+      set: dd3
+    - count: 1
+      name: Duel Deck Anthology Divine Deck
+      set: dd3
+    - count: 1
+      name: Duel Deck Anthology Elves Deck
+      set: dd3
+    - count: 1
+      name: Duel Deck Anthology Goblins Deck
+      set: dd3
+    - count: 1
+      name: Duel Deck Anthology Garruk Deck
+      set: dd3
+    - count: 1
+      name: Duel Deck Anthology Liliana Deck
+      set: dd3
   Duel Deck Anthology Chandra Deck:
-    deck:
-    - set: jvc
-      name: Chandra
     card_count: 60
+    deck:
+    - name: Chandra
+      set: jvc
   Duel Deck Anthology Demonic Deck:
-    deck:
-    - set: dvd
-      name: Demonic
     card_count: 60
+    deck:
+    - name: Demonic
+      set: dvd
   Duel Deck Anthology Divine Deck:
-    deck:
-    - set: dvd
-      name: Divine
     card_count: 60
+    deck:
+    - name: Divine
+      set: dvd
   Duel Deck Anthology Elves Deck:
     card_count: 60
     deck:
-    - set: evg
-      name: Elves
+    - name: Elves
+      set: evg
   Duel Deck Anthology Garruk Deck:
     card_count: 60
     deck:
-    - set: gvl
-      name: Garruk
+    - name: Garruk
+      set: gvl
   Duel Deck Anthology Goblins Deck:
     card_count: 60
     deck:
-    - set: evg
-      name: Goblins
+    - name: Goblins
+      set: evg
   Duel Deck Anthology Jace Deck:
     card_count: 60
     deck:
-    - set: jvc
-      name: Jace
+    - name: Jace
+      set: jvc
   Duel Deck Anthology Liliana Deck:
     card_count: 60
     deck:
-    - set: gvl
-      name: Liliana
+    - name: Liliana
+      set: gvl
