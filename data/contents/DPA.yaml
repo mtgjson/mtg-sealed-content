@@ -72,7 +72,23 @@ products:
     pack:
     - code: duelspromo
       set: m15
-  Duels of the Planeswalkers Decks Set of 5: []
+  Duels of the Planeswalkers Decks Set of 5:
+    sealed:
+    - count: 1
+      name: Duels of the Planeswalkers Ears of the Elves Nissa Revane Deck
+      set: dpa
+    - count: 1
+      name: Duels of the Planeswalkers Eyes of Shadow Liliana Vess Deck
+      set: dpa
+    - count: 1
+      name: Duels of the Planeswalkers Hands of Flame Chandra Nalaar Deck
+      set: dpa
+    - count: 1
+      name: Duels of the Planeswalkers Teeth of the Predator Garruk Wildspeaker Deck
+      set: dpa
+    - count: 1
+      name: Duels of the Planeswalkers Thoughts of the Wind Jace Beleren Deck
+      set: dpa
   Duels of the Planeswalkers Ears of the Elves Nissa Revane Deck:
     card_count: 60
     deck:
