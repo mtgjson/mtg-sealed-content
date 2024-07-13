@@ -1,12 +1,21 @@
 code: ddg
 products:
   Duel Deck Knights vs Dragons:
-    card_count: 120
-    deck:
-    - name: Knights
-      set: ddg
-    - name: Dragons
-      set: ddg
+    sealed:
+    - set: ddg
+      name: Duel Deck Knights vs Dragons Knights Deck
+      count: 1
+    - set: ddg
+      name: Duel Deck Knights vs Dragons Dragons Deck
+      count: 1
   Duel Deck Knights vs Dragons Display: []
-  Duel Deck Knights vs Dragons Dragons Deck: []
-  Duel Deck Knights vs Dragons Knights Deck: []
+  Duel Deck Knights vs Dragons Dragons Deck:
+    card_count: 60
+    deck:
+    - set: ddg
+      name: Dragons
+  Duel Deck Knights vs Dragons Knights Deck:
+    card_count: 60
+    deck:
+    - set: ddg
+      name: Knights

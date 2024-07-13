@@ -83,4 +83,8 @@ products:
     - count: 1
       name: Alara Reborn Booster Pack
       set: arb
-  Alara Reborn Six Card Booster Pack: []
+  Alara Reborn Six Card Booster Pack:
+    card_count: 6
+    pack:
+    - set: arb
+      code: six
