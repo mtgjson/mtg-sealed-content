@@ -57,7 +57,23 @@ products:
     - count: 1
       name: Core Set 2021 Draft Booster Pack
       set: m21
-  Core Set 2021 Planeswalker Deck Display: []
+  Core Set 2021 Planeswalker Deck Display:
+    sealed: 
+    - set: m21
+      count: 2
+      name: Core Set 2021 Planeswalker Deck Basri
+    - set: m21
+      count: 2
+      name: Core Set 2021 Planeswalker Deck Chandra
+    - set: m21
+      count: 2
+      name: Core Set 2021 Planeswalker Deck Garruk
+    - set: m21
+      count: 2
+      name: Core Set 2021 Planeswalker Deck Liliana
+    - set: m21
+      count: 2
+      name: Core Set 2021 Planeswalker Deck Teferi
   Core Set 2021 Planeswalker Deck Garruk:
     card_count: 60
     deck:
@@ -85,7 +101,23 @@ products:
     - count: 1
       name: Core Set 2021 Draft Booster Pack
       set: m21
-  Core Set 2021 Planeswalker Decks Set of 5: []
+  Core Set 2021 Planeswalker Decks Set of 5:
+    sealed: 
+    - set: m21
+      count: 1
+      name: Core Set 2021 Planeswalker Deck Basri
+    - set: m21
+      count: 1
+      name: Core Set 2021 Planeswalker Deck Chandra
+    - set: m21
+      count: 1
+      name: Core Set 2021 Planeswalker Deck Garruk
+    - set: m21
+      count: 1
+      name: Core Set 2021 Planeswalker Deck Liliana
+    - set: m21
+      count: 1
+      name: Core Set 2021 Planeswalker Deck Teferi
   Core Set 2021 Prerelease Pack: []
   Core Set 2021 Welcome Booster:
     card_count: 10
