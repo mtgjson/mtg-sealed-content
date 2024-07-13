@@ -38,18 +38,18 @@ products:
       set: mkm
   Murders at Karlov Manor Commander Deck Display:
     sealed:
-    - set: mkc
-      count: 1
+    - count: 1
       name: Murders at Karlov Manor Commander Deck Revenant Recon
-    - set: mkc
-      count: 1
+      set: mkc
+    - count: 1
       name: Murders at Karlov Manor Commander Deck Deep Clue Sea
-    - set: mkc
-      count: 1
+      set: mkc
+    - count: 1
       name: Murders at Karlov Manor Commander Deck Deadly Disguise
-    - set: mkc
-      count: 1
+      set: mkc
+    - count: 1
       name: Murders at Karlov Manor Commander Deck Blame Game
+      set: mkc
   Murders at Karlov Manor Commander Deck Revenant Recon:
     card_count: 100
     deck:
@@ -64,15 +64,15 @@ products:
       set: mkm
   Murders at Karlov Manor Commander Decks Set of Four:
     sealed:
-    - set: mkc
-      count: 1
+    - count: 1
       name: Murders at Karlov Manor Commander Deck Revenant Recon
-    - set: mkc
-      count: 1
+      set: mkc
+    - count: 1
       name: Murders at Karlov Manor Commander Deck Deep Clue Sea
-    - set: mkc
-      count: 1
+      set: mkc
+    - count: 1
       name: Murders at Karlov Manor Commander Deck Deadly Disguise
-    - set: mkc
-      count: 1
+      set: mkc
+    - count: 1
       name: Murders at Karlov Manor Commander Deck Blame Game
+      set: mkc
