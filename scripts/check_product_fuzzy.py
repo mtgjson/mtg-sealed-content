@@ -17,6 +17,7 @@ provmap = {
     "tcgplayerProductId": "tcgplayer",
     "miniaturemarketId": "miniaturemarket",
     "scgId": "starcitygames",
+    "csiId": "coolstuffinc",
 }
 
 review_products = []

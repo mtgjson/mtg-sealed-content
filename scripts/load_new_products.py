@@ -15,6 +15,8 @@ import csv
 import base64
 import zlib
 
+from bs4 import BeautifulSoup
+from urllib.parse import urlparse
 
 def get_cardKingdom():
     sealed_url = "https://api.cardkingdom.com/api/sealed_pricelist"
@@ -497,6 +499,72 @@ def load_starcity_buylist(secret):
     return sealed_data
 
 
+def load_coolstuffinc_retail(secret):
+    sealed_data = []
+    skip_tags = [
+        "Basic Land",
+        "Card Box",
+        "Complete Set (Mint/Near Mint Condition)",
+        "Complete Set (Partially Sealed)",
+        "CoolStuffInc.com",
+        "D6 Dice",
+        "Enamel Pin",
+        "Factory Sealed Complete Set",
+        "Grab Bag",
+        "Japanese Booster",
+        "Magic Rares",
+        "Magic: The Gathering - New Player Deck",
+        "Player's Guide",
+        "Random Foil",
+        "Russian Booster",
+        "Set of 5 Dice",
+        "Spindown Life",
+        "Spinning Life Counter",
+        "Token Pack",
+        "Token Set",
+        "Variety Pack",
+    ]
+
+    page = 0
+    while True:
+        page += 1
+        link = "https://www.coolstuffinc.com/sq/1556988?page=" + str(page)
+        print(f"Parsing page {page}")
+
+        header = {
+            "User-Agent": "curl/8.6",
+        }
+        r = requests.get(link, headers=header)
+        soup = BeautifulSoup(r.content, 'html.parser')
+
+        for div in soup.find_all('div', attrs={"class": "row product-search-row main-container"}):
+            try:
+                title = div.find('span', attrs={"itemprop": "name"}).get_text()
+                productURL = div.find('link', attrs={"itemprop": "url"}).get("content")
+            except Exception:
+                continue
+
+            if any(tag.lower() in title.lower() for tag in skip_tags):
+                continue
+
+            u = urlparse(productURL)
+            csiId = u.path.removeprefix("/p/")
+
+            sealed_data.extend([
+                {
+                    "name": title,
+                    "id": csiId,
+                }
+            ])
+
+        # Exit loop condition, only when the Next field has no future links
+        nextPage = soup.find('span', attrs={"id": "nextLink"})
+        if not nextPage or not nextPage.find('a'):
+            break
+
+    return sealed_data
+
+
 providers_dict = {
     "cardKingdom": {
         "identifier": "cardKingdomId",
@@ -525,6 +593,10 @@ providers_dict = {
         "identifier": "scgId",
         "load_func": load_starcity,
         "auth": ["scg_guid", "scg_bearer"],
+    },
+    "coolstuffinc": {
+        "identifier": "csiId",
+        "load_func": load_coolstuffinc_retail,
     },
 }
 
