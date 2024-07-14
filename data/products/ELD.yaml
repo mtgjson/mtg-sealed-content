@@ -19,6 +19,7 @@ products:
     identifiers:
       cardKingdomId: '227304'
       cardtraderId: '59638'
+      csiId: '285170'
       mcmId: '399074'
       tcgplayerProductId: '194911'
     release_date: '2019-10-04'
@@ -37,6 +38,7 @@ products:
     identifiers:
       cardKingdomId: '227306'
       cardtraderId: '59639'
+      csiId: '285171'
       mcmId: '399059'
       scgId: SLD-MTG-INT-ELDBRAWL-EN-B
       tcgplayerProductId: '194908'
@@ -56,6 +58,7 @@ products:
     identifiers:
       cardKingdomId: '227294'
       cardtraderId: '59125'
+      csiId: '281873'
       mcmId: '389642'
       scgId: SLD-MTG-BUN-ELD-EN
       tcgplayerProductId: '194894'
@@ -66,6 +69,7 @@ products:
     identifiers:
       cardKingdomId: '227308'
       cardtraderId: '59636'
+      csiId: '282616'
       mcmId: '398849'
       scgId: SLD-MTG-BBX-ELDCOLLECTOR-EN
       tcgplayerProductId: '194907'
@@ -86,6 +90,7 @@ products:
     identifiers:
       cardKingdomId: '227309'
       cardtraderId: '59127'
+      csiId: '282617'
       mcmId: '389652'
       tcgplayerProductId: '194906'
     release_date: '2019-10-04'
@@ -120,6 +125,7 @@ products:
     identifiers:
       cardKingdomId: '227290'
       cardtraderId: '59128'
+      csiId: '281872'
       mcmId: '389657'
       scgId: SLD-MTG-PCK-ELDDRAFT-EN
       tcgplayerProductId: '194892'
@@ -130,6 +136,7 @@ products:
     identifiers:
       cardKingdomId: '228584'
       cardtraderId: '60151'
+      csiId: '286355'
       mcmId: '405594'
       tcgplayerProductId: '200610'
     release_date: '2019-10-04'
@@ -145,6 +152,7 @@ products:
     identifiers:
       cardKingdomId: '227292'
       cardtraderId: '59643'
+      csiId: '281875'
       mcmId: '399084'
       tcgplayerProductId: '194896'
     release_date: '2019-10-04'
@@ -154,6 +162,7 @@ products:
     identifiers:
       cardKingdomId: '227293'
       cardtraderId: '59642'
+      csiId: '281876'
       mcmId: '399079'
       tcgplayerProductId: '194895'
     release_date: '2019-10-04'
@@ -168,6 +177,7 @@ products:
     category: LIMITED
     identifiers:
       cardtraderId: '60217'
+      csiId: '286101'
       mcmId: '404059'
       tcgplayerProductId: '200159'
     release_date: '2019-09-26'
@@ -175,11 +185,13 @@ products:
   Throne of Eldraine Theme Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      csiId: '281868'
       tcgplayerProductId: '194899'
     subtype: THEME
   Throne of Eldraine Theme Booster Pack Black:
     category: BOOSTER_PACK
     identifiers:
+      csiId: '286358'
       mcmId: '389637'
       tcgplayerProductId: '194900'
     release_date: '2019-10-04'
@@ -194,6 +206,7 @@ products:
   Throne of Eldraine Theme Booster Pack Green:
     category: BOOSTER_PACK
     identifiers:
+      csiId: '286360'
       mcmId: '389627'
       tcgplayerProductId: '194901'
     release_date: '2019-10-04'
