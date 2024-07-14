@@ -15,15 +15,6 @@ products:
       tcgplayerProductId: '557250'
     release_date: '2024-09-27'
     subtype: DEFAULT
-  Duskmourn House of Horror Collector Booster Pack:
-    category: BOOSTER_PACK
-    identifiers:
-      cardtraderId: '292185'
-      csiId: '391973'
-      mcmId: '776440'
-      tcgplayerProductId: '557243'
-    release_date: '2024-09-27'
-    subtype: COLLECTOR
   Duskmourn House of Horror Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -37,6 +28,15 @@ products:
     category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '557245'
+    release_date: '2024-09-27'
+    subtype: COLLECTOR
+  Duskmourn House of Horror Collector Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardtraderId: '292185'
+      csiId: '391973'
+      mcmId: '776440'
+      tcgplayerProductId: '557243'
     release_date: '2024-09-27'
     subtype: COLLECTOR
   Duskmourn House of Horror Collector Booster Sample Pack:
@@ -53,15 +53,6 @@ products:
       tcgplayerProductId: '557251'
     release_date: '2024-09-27'
     subtype: PREMIUM
-  Duskmourn House of Horror Play Booster Pack:
-    category: BOOSTER_PACK
-    identifiers:
-      cardtraderId: '292184'
-      csiId: '391968'
-      mcmId: '776439'
-      tcgplayerProductId: '557240'
-    release_date: '2024-09-27'
-    subtype: PLAY
   Duskmourn House of Horror Play Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -75,6 +66,15 @@ products:
     category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '557242'
+    release_date: '2024-09-27'
+    subtype: PLAY
+  Duskmourn House of Horror Play Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardtraderId: '292184'
+      csiId: '391968'
+      mcmId: '776439'
+      tcgplayerProductId: '557240'
     release_date: '2024-09-27'
     subtype: PLAY
   Duskmourn House of Horror Prerelease Pack:
