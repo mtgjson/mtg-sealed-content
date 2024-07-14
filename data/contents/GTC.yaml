@@ -60,12 +60,12 @@ products:
       set: gtc
   Gatecrash Event Decks Set of 2:
     sealed:
-    - set: gtc
-      count: 1
+    - count: 1
       name: Gatecrash Event Deck Rally and Rout
-    - set: gtc
-      count: 1
+      set: gtc
+    - count: 1
       name: Gatecrash Event Deck Thrive and Thrash
+      set: gtc
   Gatecrash Fat Pack:
     other:
     - name: Gatecrash themed card box
@@ -256,5 +256,5 @@ products:
   Gatecrash Six Card Booster Pack:
     card_count: 6
     pack:
-    - set: gtc
-      code: six
+    - code: six
+      set: gtc
