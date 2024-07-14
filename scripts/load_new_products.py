@@ -499,10 +499,10 @@ def load_starcity_buylist(secret):
     return sealed_data
 
 
-def load_coolstuffinc_retail(secret):
-    sealed_data = []
+def load_coolstuffinc(secret):
     skip_tags = [
         "Basic Land",
+        "Bulk",
         "Card Box",
         "Complete Set (Mint/Near Mint Condition)",
         "Complete Set (Partially Sealed)",
@@ -524,6 +524,21 @@ def load_coolstuffinc_retail(secret):
         "Token Set",
         "Variety Pack",
     ]
+
+    retail_data = load_coolstuffinc_retail(skip_tags)
+    print(f"Retrieved {len(retail_data)} products from retail")
+
+    buylist_data = load_coolstuffinc_buylist(skip_tags)
+    print(f"Retrieved {len(buylist_data)} products from buylist")
+
+    retail_data.extend(x for x in buylist_data if x not in retail_data)
+    print(f"Total {len(retail_data)} products")
+
+    return retail_data
+
+
+def load_coolstuffinc_retail(skip_tags):
+    sealed_data = []
 
     page = 0
     while True:
@@ -565,6 +580,34 @@ def load_coolstuffinc_retail(secret):
     return sealed_data
 
 
+def load_coolstuffinc_buylist(skip_tags):
+    sealed_data = []
+
+    header = {
+        "User-Agent": "curl/8.6",
+    }
+    r = requests.get("https://www.coolstuffinc.com/GeneratedFiles/SellList/Section-mtg.json", headers=header)
+    buylist = json.loads(r.content)
+
+    for product in buylist:
+        if product.get("RarityName") != "Box":
+            continue
+
+        name = product.get("Name")
+
+        if any(tag.lower() in name.lower() for tag in skip_tags):
+            continue
+
+        sealed_data.extend([
+            {
+                "name": name,
+                "id": product.get("PID"),
+            }
+        ])
+
+    return sealed_data
+
+
 providers_dict = {
     "cardKingdom": {
         "identifier": "cardKingdomId",
@@ -596,7 +639,7 @@ providers_dict = {
     },
     "coolstuffinc": {
         "identifier": "csiId",
-        "load_func": load_coolstuffinc_retail,
+        "load_func": load_coolstuffinc,
     },
 }
 
