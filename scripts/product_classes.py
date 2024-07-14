@@ -126,6 +126,7 @@ class product:
         self.other = []
         for o in contents.get("other", []):
             self.other.append(other(o))
+        self.chance = contents.get("chance", 1)
 
         self.card_count = contents.get("card_count", 0)
 
@@ -148,6 +149,9 @@ class product:
                     for c in combo:
                         p_temp.merge(product(c))
                     self.variable.append(p_temp)
+            if "weight" in options:
+                if sum(v.chance for v in self.variable) != options['weight']:
+                    raise ValueError(f"Weight incorrectly assigned for product {self.name}")
         elif "variable" in contents:
             self.variable = [product(p) for p in contents["variable"]]
 
@@ -159,6 +163,7 @@ class product:
         self.variable += target.variable
         self.card_count += target.card_count
         self.other += target.other
+        self.chance *= target.chance
 
     def toJson(self):
         data = {}
@@ -176,6 +181,8 @@ class product:
             data["variable"] = [{"configs": [v.toJson() for v in self.variable]}]
         if self.card_count:
             data["card_count"] = self.card_count
+        if self.chance > 1:
+            data["chance"] = self.chance
         return data
 
     def get_uuids(self, uuid_map):
