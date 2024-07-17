@@ -127,6 +127,7 @@ class product:
         for o in contents.get("other", []):
             self.other.append(other(o))
         self.chance = contents.get("chance", 1)
+        self.weight = contents.get("weight", 0)
 
         self.card_count = contents.get("card_count", 0)
 
@@ -152,6 +153,10 @@ class product:
             if "weight" in options:
                 if sum(v.chance for v in self.variable) != options['weight']:
                     raise ValueError(f"Weight incorrectly assigned for product {self.name}")
+            else:
+                options["weight"] = sum(v.chance for v in self.variable)
+            for v in self.variable:
+                v.weight = options["weight"]
         elif "variable" in contents:
             self.variable = [product(p) for p in contents["variable"]]
 
@@ -182,7 +187,7 @@ class product:
         if self.card_count:
             data["card_count"] = self.card_count
         if self.chance > 1:
-            data["chance"] = self.chance
+            data["varable_config"] = [{"chance": self.chance, "weight": self.weight}]
         return data
 
     def get_uuids(self, uuid_map):
