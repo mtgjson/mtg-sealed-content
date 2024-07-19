@@ -186,7 +186,7 @@ class product:
             data["variable"] = [{"configs": [v.toJson() for v in self.variable]}]
         if self.card_count:
             data["card_count"] = self.card_count
-        if self.chance > 1:
+        if self.weight:
             data["varable_config"] = [{"chance": self.chance, "weight": self.weight}]
         return data
 
