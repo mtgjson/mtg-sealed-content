@@ -3,80 +3,80 @@ products:
   Bloomburrow Commander Deck Animated Army:
     card_count: 100
     deck:
-    - set: blc
-      name: Animated Army
-    sealed:
-    - set: blb
-      name: Bloomburrow Collector Booster Sample Pack
-      count: 1
+    - name: Animated Army
+      set: blc
     other:
     - name: Spinning life counter
     - name: 10 double sided tokens
     - name: Paper deck box
+    sealed:
+    - count: 1
+      name: Bloomburrow Collector Booster Sample Pack
+      set: blb
   Bloomburrow Commander Deck Display:
     sealed:
-    - set: blc
+    - count: 1
       name: Bloomburrow Commander Deck Animated Army
-      count: 1
-    - set: blc
+      set: blc
+    - count: 1
       name: Bloomburrow Commander Deck Family Matters
-      count: 1
-    - set: blc
+      set: blc
+    - count: 1
       name: Bloomburrow Commander Deck Peace Offering
-      count: 1
-    - set: blc
+      set: blc
+    - count: 1
       name: Bloomburrow Commander Deck Squirreled Away
-      count: 1
+      set: blc
   Bloomburrow Commander Deck Family Matters:
     card_count: 100
     deck:
-    - set: blc
-      name: Family Matters
-    sealed:
-    - set: blb
-      name: Bloomburrow Collector Booster Sample Pack
-      count: 1
+    - name: Family Matters
+      set: blc
     other:
     - name: Spinning life counter
     - name: 10 double sided tokens
     - name: Paper deck box
+    sealed:
+    - count: 1
+      name: Bloomburrow Collector Booster Sample Pack
+      set: blb
   Bloomburrow Commander Deck Peace Offering:
     card_count: 100
     deck:
-    - set: blc
-      name: Peace Offering
-    sealed:
-    - set: blb
-      name: Bloomburrow Collector Booster Sample Pack
-      count: 1
+    - name: Peace Offering
+      set: blc
     other:
     - name: Spinning life counter
     - name: 10 double sided tokens
     - name: Paper deck box
+    sealed:
+    - count: 1
+      name: Bloomburrow Collector Booster Sample Pack
+      set: blb
   Bloomburrow Commander Deck Squirreled Away:
     card_count: 100
     deck:
-    - set: blc
-      name: Squirreled Away
-    sealed:
-    - set: blb
-      name: Bloomburrow Collector Booster Sample Pack
-      count: 1
+    - name: Squirreled Away
+      set: blc
     other:
     - name: Spinning life counter
     - name: 10 double sided tokens
     - name: Paper deck box
+    sealed:
+    - count: 1
+      name: Bloomburrow Collector Booster Sample Pack
+      set: blb
   Bloomburrow Commander Decks Set of 4:
     sealed:
-    - set: blc
+    - count: 1
       name: Bloomburrow Commander Deck Animated Army
-      count: 1
-    - set: blc
+      set: blc
+    - count: 1
       name: Bloomburrow Commander Deck Family Matters
-      count: 1
-    - set: blc
+      set: blc
+    - count: 1
       name: Bloomburrow Commander Deck Peace Offering
-      count: 1
-    - set: blc
+      set: blc
+    - count: 1
       name: Bloomburrow Commander Deck Squirreled Away
-      count: 1
+      set: blc
