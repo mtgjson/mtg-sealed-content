@@ -1,5 +1,17 @@
 cardKingdom: {}
-cardMarket: {}
+cardMarket:
+  '#LocExpName: Prerelease Promo Cards Booster':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '780047'
+    release_date: '2024-07-24'
+    subtype: UNKNOWN
+  'Bloomburrow: Prerelease Promo Cards Booster':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '780048'
+    release_date: '2024-07-24'
+    subtype: UNKNOWN
 cardTrader:
   Adventures in the Forgotten Realms Theme Booster:
     category: UNKNOWN
@@ -412,6 +424,12 @@ coolstuffinc:
     identifiers:
       csiId: '385033'
     subtype: UNKNOWN
-miniaturemarket: {}
+miniaturemarket:
+  'Magic the Gathering: Commander 2018 - Deck - Exquisite Invention':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '206067'
+    release_date: '2018-03-02'
+    subtype: UNKNOWN
 starcitygames: {}
 tcgplayer: {}
