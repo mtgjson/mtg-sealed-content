@@ -23,8 +23,8 @@ class card:
 
     def get_uuids(self, uuid_map):
         try:
-            self.uuid = uuid_map.get(self.set.lower(), {})["cards"][str(self.number)]
-        except:
+            self.uuid = uuid_map[self.set.lower()]["cards"][str(self.number)]
+        except KeyError:
             with open("status.txt", "a") as f:
                 f.write(f"Card number {self.number} not found in set {self.set}\n")
             self.uuid = None
@@ -41,7 +41,7 @@ class pack:
 
     def get_uuids(self, uuid_map):
         try: 
-            umap = uuid_map.get(self.set.lower(), {})["booster"]
+            umap = uuid_map[self.set.lower()]["booster"]
         except:
             with open("status.txt", "a") as f:
                 f.write(f"Booster code {self.code} not found in set {self.set}\n")
@@ -62,8 +62,8 @@ class deck:
 
     def get_uuids(self, uuid_map):
         try:
-            umap = uuid_map.get(self.set.lower(), {}).get("decks")
-        except:
+            umap = uuid_map[self.set.lower()]["decks"]
+        except KeyError:
             with open("status.txt", "a") as f:
                 f.write(f"Deck named {self.name} not found in set {self.set}\n")
         if umap and self.name not in umap:
@@ -87,8 +87,8 @@ class sealed:
 
     def get_uuids(self, uuid_map):
         try:
-            self.uuid = uuid_map.get(self.set.lower(), {})["sealedProduct"][self.name]
-        except:
+            self.uuid = uuid_map[self.set.lower()]["sealedProduct"][self.name]
+        except KeyError:
             with open("status.txt", "a") as f:
                 f.write(f"Product name {self.name} not found in set {self.set}\n")
             self.uuid = None
@@ -191,14 +191,16 @@ class product:
         return data
 
     def get_uuids(self, uuid_map):
-        try:
-            self.uuid = uuid_map[self.set_code.lower()]["sealedProduct"][self.name]
-        except:
-            if self.name:
+        if self.name:
+            try:
+                self.uuid = uuid_map[self.set_code.lower()]["sealedProduct"][self.name]
+            except KeyError:
                 with open("status.txt", "a") as f:
                     f.write(
                         f"Product name {self.name} not found in set {self.set_code}\n"
                     )
+                self.uuid = None
+        else:
             self.uuid = None
         for c in self.card:
             c.get_uuids(uuid_map)
