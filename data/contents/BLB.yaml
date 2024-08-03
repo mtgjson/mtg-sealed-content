@@ -29,7 +29,11 @@ products:
     pack:
     - code: collector
       set: blb
-  Bloomburrow Collector Booster Sample Pack: []
+  Bloomburrow Collector Booster Sample Pack:
+    card_count: 2
+    pack:
+    - set: blb
+      code: collector-sample
   Bloomburrow Play Booster Box:
     sealed:
     - count: 36
@@ -59,9 +63,9 @@ products:
   Bloomburrow Starter Kit:
     card_count: 120
     deck:
-    - name: Blue Red
+    - name: Otter Limits
       set: blb
-    - name: Green White
+    - name: Hare Raising
       set: blb
   Bloomburrow Starter Kit Case:
     sealed:
