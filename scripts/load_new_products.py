@@ -199,6 +199,7 @@ def get_cardmarket():
         "Plane Set",
         "Planechase Set",
         "Planes Set",
+        "Prerelease Promo",
         "Promo Pack",
         "Rare Set",
         "Relic Tokens",
