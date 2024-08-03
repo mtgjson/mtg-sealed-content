@@ -1,17 +1,5 @@
 cardKingdom: {}
-cardMarket:
-  '#LocExpName: Prerelease Promo Cards Booster':
-    category: UNKNOWN
-    identifiers:
-      mcmId: '780047'
-    release_date: '2024-07-24'
-    subtype: UNKNOWN
-  'Bloomburrow: Prerelease Promo Cards Booster':
-    category: UNKNOWN
-    identifiers:
-      mcmId: '780048'
-    release_date: '2024-07-24'
-    subtype: UNKNOWN
+cardMarket: {}
 cardTrader:
   Adventures in the Forgotten Realms Theme Booster:
     category: UNKNOWN
@@ -42,11 +30,6 @@ cardTrader:
     category: UNKNOWN
     identifiers:
       cardtraderId: '160981'
-    subtype: UNKNOWN
-  'Commander Masters: Collector Booster Sample Pack':
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '294300'
     subtype: UNKNOWN
   Core 2020 Theme Booster:
     category: UNKNOWN
@@ -429,83 +412,8 @@ coolstuffinc:
     identifiers:
       csiId: '385033'
     subtype: UNKNOWN
-miniaturemarket:
-  'Magic the Gathering: Commander 2018 - Deck - Exquisite Invention':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: '206067'
-    release_date: '2018-03-02'
-    subtype: UNKNOWN
-  'MtG Duskmourn: House of Horror - Bundle':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: '302351'
-    release_date: '2024-08-02'
-    subtype: UNKNOWN
-  'MtG Duskmourn: House of Horror - Collector Booster Box (12)':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: '302343'
-    release_date: '2024-08-02'
-    subtype: UNKNOWN
-  'MtG Duskmourn: House of Horror - Collector Booster Case (6)':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: '302345'
-    release_date: '2024-08-02'
-    subtype: UNKNOWN
-  'MtG Duskmourn: House of Horror - Collector Booster Pack':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: '302344'
-    release_date: '2024-08-02'
-    subtype: UNKNOWN
-  'MtG Duskmourn: House of Horror - Commander Deck Set (4)':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: '302346'
-    release_date: '2024-08-02'
-    subtype: UNKNOWN
-  'MtG Duskmourn: House of Horror - Nightmare Bundle':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: '302352'
-    release_date: '2024-08-02'
-    subtype: UNKNOWN
-  'MtG Duskmourn: House of Horror - Play Booster Box (36)':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: '302340'
-    release_date: '2024-08-02'
-    subtype: UNKNOWN
-  'MtG Duskmourn: House of Horror - Play Booster Case':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: '302342'
-    release_date: '2024-08-02'
-    subtype: UNKNOWN
-  'MtG Duskmourn: House of Horror - Play Booster Pack':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: '302341'
-    release_date: '2024-08-02'
-    subtype: UNKNOWN
-starcitygames:
-  5th Edition Booster Pack:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-PCK-5ED-EN
-    subtype: UNKNOWN
-  Alara Reborn Booster Pack:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-PCK-ARB-EN
-    subtype: UNKNOWN
-  Avacyn Restored Booster Pack:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-PCK-AVR-EN
-    subtype: UNKNOWN
+miniaturemarket: {}
+starcitygames: {}
 tcgplayer:
   Secret Lair Drop Featuring Andrew Maclean Non Foil Edition:
     category: UNKNOWN
