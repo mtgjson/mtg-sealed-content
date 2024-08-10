@@ -81,7 +81,8 @@ products:
     subtype: DEFAULT
   Strixhaven School of Mages Japanese Set Booster Box:
     category: BOOSTER_BOX
-    identifiers: {}
+    identifiers:
+      scgId: SLD-MTG-BBX-STXSET-JA
     language: Japanese
     release_date: '2021-04-23'
     subtype: SET
@@ -171,6 +172,7 @@ products:
   Strixhaven School of Mages Theme Booster Pack Lorehold:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '153216'
       csiId: '312319'
       mcmId: '540421'
       tcgplayerProductId: '233240'
@@ -179,6 +181,7 @@ products:
   Strixhaven School of Mages Theme Booster Pack Prismari:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '153217'
       mcmId: '540426'
       tcgplayerProductId: '233239'
     release_date: '2021-04-23'
@@ -186,6 +189,7 @@ products:
   Strixhaven School of Mages Theme Booster Pack Quandrix:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '153218'
       mcmId: '540431'
       tcgplayerProductId: '233241'
     release_date: '2021-04-23'
@@ -193,6 +197,7 @@ products:
   Strixhaven School of Mages Theme Booster Pack Silverquill:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '153219'
       mcmId: '540436'
       tcgplayerProductId: '233236'
     release_date: '2021-04-23'
@@ -200,6 +205,7 @@ products:
   Strixhaven School of Mages Theme Booster Pack Witherbloom:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '153220'
       mcmId: '540441'
       tcgplayerProductId: '233238'
     release_date: '2021-04-23'
