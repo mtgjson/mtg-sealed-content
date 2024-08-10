@@ -9,12 +9,25 @@ products:
       tcgplayerProductId: '562167'
     release_date: '2024-11-15'
     subtype: STARTER
+  Foundations Beginner Box Case:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '562169'
+    release_date: '2024-11-15'
+    subtype: STARTER
   Foundations Bundle:
     category: BUNDLE
     identifiers:
       cardtraderId: '295760'
       csiId: '393758'
+      mcmId: '781943'
       tcgplayerProductId: '562125'
+    release_date: '2024-11-15'
+    subtype: DEFAULT
+  Foundations Bundle Case:
+    category: BUNDLE_CASE
+    identifiers:
+      tcgplayerProductId: '562126'
     release_date: '2024-11-15'
     subtype: DEFAULT
   Foundations Collector Booster Box:
@@ -24,6 +37,12 @@ products:
       csiId: '393533'
       mcmId: '781941'
       tcgplayerProductId: '562122'
+    release_date: '2024-11-15'
+    subtype: COLLECTOR
+  Foundations Collector Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers:
+      tcgplayerProductId: '562123'
     release_date: '2024-11-15'
     subtype: COLLECTOR
   Foundations Collector Booster Pack:
@@ -42,6 +61,13 @@ products:
       csiId: '393529'
       mcmId: '781940'
       tcgplayerProductId: '562118'
+    release_date: '2024-11-15'
+    subtype: PLAY
+  Foundations Play Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers:
+      csiId: '393531'
+      tcgplayerProductId: '562119'
     release_date: '2024-11-15'
     subtype: PLAY
   Foundations Play Booster Pack:
@@ -68,5 +94,11 @@ products:
       csiId: '393762'
       mcmId: '781946'
       tcgplayerProductId: '562162'
+    release_date: '2024-11-15'
+    subtype: STARTER
+  Foundations Starter Collection Case:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '562163'
     release_date: '2024-11-15'
     subtype: STARTER
