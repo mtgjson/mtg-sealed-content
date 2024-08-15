@@ -1,15 +1,9 @@
 code: zen
 products:
-  Zendikar 3 Booster Draft Pack: []
-  Zendikar 3 Booster Packs draft set:
+  Zendikar 3 Booster Draft Pack:
     sealed:
     - count: 3
       name: Zendikar Booster Pack
-      set: zen
-  Zendikar 6 Card Booster Pack:
-    card_count: 6
-    pack:
-    - code: six
       set: zen
   Zendikar Booster Box:
     sealed:
@@ -99,4 +93,8 @@ products:
     - count: 1
       name: Zendikar Intro Pack White Kor Armory
       set: zen
-  Zendikar Six Card Booster Pack: []
+  Zendikar Six Card Booster Pack:
+    card_count: 6
+    pack:
+    - code: six
+      set: zen
