@@ -11,7 +11,11 @@ products:
     - name: Play Guide Booklet
     - name: 2 Deck Boxes
     - name: First Game Walk-through Cards
-  2022 Arena Starter Kit Case: []
+  2022 Arena Starter Kit Case:
+    sealed:
+    - set: snc
+      name: 2022 Arena Starter Kit
+      count: 6
   Streets of New Capenna 3 Booster Draft Pack:
     sealed:
     - count: 3

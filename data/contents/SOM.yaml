@@ -5,11 +5,6 @@ products:
     - count: 3
       name: Scars of Mirrodin Booster Pack
       set: som
-  Scars of Mirrodin 6 Card Booster Pack:
-    card_count: 6
-    pack:
-    - code: six
-      set: som
   Scars of Mirrodin Booster Box:
     sealed:
     - count: 36
@@ -88,5 +83,25 @@ products:
     - count: 1
       name: Scars of Mirrodin Booster Pack
       set: som
-  Scars of Mirrodin Intro Pack Set of 5: []
-  Scars of Mirrodin Six Card Booster Pack: []
+  Scars of Mirrodin Intro Pack Set of 5:
+    sealed:
+    - count: 1
+      name: Scars of Mirrodin Intro Pack Deadspread
+      set: som
+    - count: 1
+      name: Scars of Mirrodin Intro Pack Metalcraft
+      set: som
+    - count: 1
+      name: Scars of Mirrodin Intro Pack Myr of Mirrodin
+      set: som
+    - count: 1
+      name: Scars of Mirrodin Intro Pack Phyrexian Poison
+      set: som
+    - count: 1
+      name: Scars of Mirrodin Intro Pack Relic Breaker
+      set: som
+  Scars of Mirrodin Six Card Booster Pack:
+    card_count: 6
+    pack:
+    - code: six
+      set: som

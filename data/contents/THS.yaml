@@ -84,10 +84,42 @@ products:
     - count: 2
       name: Theros Booster Pack
       set: ths
-  Theros Intro Packs Set of 5: []
+  Theros Intro Packs Set of 5:
+    sealed:
+    - set: ths
+      count: 1
+      name: Theros Intro Pack Anthousas Army
+    - set: ths
+      count: 1
+      name: Theros Intro Pack Blazing Beasts of Myth
+    - set: ths
+      count: 1
+      name: Theros Intro Pack Devotion to Darkness
+    - set: ths
+      count: 1
+      name: Theros Intro Pack Favors from Nyx
+    - set: ths
+      count: 1
+      name: Theros Intro Pack Manipulative Monstrosities
   Theros Prerelease Kit Path of Ambition: []
   Theros Prerelease Kit Path of Battle: []
   Theros Prerelease Kit Path of Honor: []
   Theros Prerelease Kit Path of Might: []
   Theros Prerelease Kit Path of Wisdom: []
-  Theros Prerelease Pack Set of 5: []
+  Theros Prerelease Pack Set of 5:
+    sealed:
+    - set: ths
+      count: 1
+      name: Theros Prerelease Kit Path of Ambition
+    - set: ths
+      count: 1
+      name: Theros Prerelease Kit Path of Battle
+    - set: ths
+      count: 1
+      name: Theros Prerelease Kit Path of Honor
+    - set: ths
+      count: 1
+      name: Theros Prerelease Kit Path of Might
+    - set: ths
+      count: 1
+      name: Theros Prerelease Kit Path of Wisdom
