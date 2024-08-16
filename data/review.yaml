@@ -45,7 +45,57 @@ cardTrader:
     identifiers:
       cardtraderId: '45247'
     subtype: UNKNOWN
-coolstuffinc: {}
+coolstuffinc:
+  Could not load provider coolstuffinc:
+    category: UNKNOWN
+    identifiers:
+      csiId: ''
+    subtype: UNKNOWN
 miniaturemarket: {}
-starcitygames: {}
+starcitygames:
+  Duskmourn Commander Deck - Death Toll:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-MLT-DSC-EN-DEATH
+    subtype: UNKNOWN
+  Duskmourn Commander Deck - Endless Punishment:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-MLT-DSC-EN-ENDLESS
+    subtype: UNKNOWN
+  Duskmourn Commander Deck - Jump Scare:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-MLT-DSC-EN-JUMP
+    subtype: UNKNOWN
+  Duskmourn Commander Deck - Miracle Worker:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-MLT-DSC-EN-MIRACLE
+    subtype: UNKNOWN
+  Duskmourn Prerelease Kit:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-DSKPRE-EN
+    subtype: UNKNOWN
+  'Duskmourn: House of Horror Commander Deck - Set of 4':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-MLT-DSC-EN-SET4
+    subtype: UNKNOWN
+  'Duskmourn: House of Horror Nightmare Bundle':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BUN-DSKNIGHTMARE-EN
+    subtype: UNKNOWN
+  'Duskmourn: House of Horror Play Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-DSKPLAY-EN
+    subtype: UNKNOWN
+  'Duskmourn: House of Horror Play Combo Pack':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-DSKPLAYCOMBO-EN
+    subtype: UNKNOWN
 tcgplayer: {}
