@@ -45,13 +45,62 @@ cardTrader:
     identifiers:
       cardtraderId: '45247'
     subtype: UNKNOWN
-coolstuffinc:
-  Could not load provider coolstuffinc:
+coolstuffinc: {}
+miniaturemarket:
+  'MTG Foundations: Bundle':
     category: UNKNOWN
     identifiers:
-      csiId: ''
+      miniaturemarketId: '302596'
+    release_date: '2024-08-16'
     subtype: UNKNOWN
-miniaturemarket: {}
+  'MTG Foundations: Collector Booster Box (12)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '302593'
+    release_date: '2024-08-16'
+    subtype: UNKNOWN
+  'MTG Foundations: Collector Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '302594'
+    release_date: '2024-08-16'
+    subtype: UNKNOWN
+  'MTG Foundations: Jumpstart Booster Box':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '302587'
+    release_date: '2024-08-16'
+    subtype: UNKNOWN
+  'MTG Foundations: Jumpstart Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '302588'
+    release_date: '2024-08-16'
+    subtype: UNKNOWN
+  'MTG Foundations: Learn to Play Beginner Box':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '302597'
+    release_date: '2024-08-16'
+    subtype: UNKNOWN
+  'MTG Foundations: Play Booster Display (36)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '302590'
+    release_date: '2024-08-16'
+    subtype: UNKNOWN
+  'MTG Foundations: Play Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '302591'
+    release_date: '2024-08-16'
+    subtype: UNKNOWN
+  'MTG Foundations: Starter Collection':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '302595'
+    release_date: '2024-08-16'
+    subtype: UNKNOWN
 starcitygames:
   Duskmourn Commander Deck - Death Toll:
     category: UNKNOWN
@@ -73,6 +122,11 @@ starcitygames:
     identifiers:
       scgId: SLD-MTG-MLT-DSC-EN-MIRACLE
     subtype: UNKNOWN
+  Duskmourn Play Combo Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-DSKPLAYCOMBO-EN
+    subtype: UNKNOWN
   Duskmourn Prerelease Kit:
     category: UNKNOWN
     identifiers:
@@ -93,9 +147,19 @@ starcitygames:
     identifiers:
       scgId: SLD-MTG-PCK-DSKPLAY-EN
     subtype: UNKNOWN
-  'Duskmourn: House of Horror Play Combo Pack':
+  Rosetta Booster Case (4 Boxes) & SCG-Exclusive (4x) Card Runechant:
     category: UNKNOWN
     identifiers:
-      scgId: SLD-MTG-BBX-DSKPLAYCOMBO-EN
+      scgId: SLD-FAB-BBX-ROSCASECARD-EN
     subtype: UNKNOWN
-tcgplayer: {}
+tcgplayer:
+  Modern Horizons 3 Sleeved Play Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '564079'
+    subtype: UNKNOWN
+  Outlaws of Thunder Junction Sleeved Play Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '564080'
+    subtype: UNKNOWN
