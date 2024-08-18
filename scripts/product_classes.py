@@ -187,7 +187,7 @@ class product:
         if self.card_count:
             data["card_count"] = self.card_count
         if self.weight:
-            data["varable_config"] = [{"chance": self.chance, "weight": self.weight}]
+            data["variable_config"] = [{"chance": self.chance, "weight": self.weight}]
         return data
 
     def get_uuids(self, uuid_map):

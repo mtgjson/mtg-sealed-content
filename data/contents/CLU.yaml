@@ -1,6 +1,34 @@
 code: clu
 products:
-  Ravnica Clue Edition: []
-  Ravnica Clue Edition Booster Pack: []
-  Ravnica Clue Edition Box Topper Booster Pack: []
-  Ravnica Clue Edition Case: []
+  Ravnica Clue Edition:
+    sealed:
+    - set: clu
+      count: 8
+      name: Ravnica Clue Edition Booster Pack
+    - set: clu
+      count: 1
+      name: Ravnica Clue Edition Box Topper Booster Pack
+    deck:
+    - set: clu
+      name: evidence
+    card_count: 21
+    other:
+    - name: 4 hidden info screens
+    - name: Evidence notepad
+    - name: Case file envelope
+    - name: Card storage box
+  Ravnica Clue Edition Booster Pack:
+    pack:
+    - set: clu
+      code: default
+    card_count: 20
+  Ravnica Clue Edition Box Topper Booster Pack:
+    pack:
+    - set: clu
+      code: box-topper
+    card_count: 1
+  Ravnica Clue Edition Case:
+    sealed:
+    - set: clu
+      name: Ravnica Clue Edition
+      count: 6
