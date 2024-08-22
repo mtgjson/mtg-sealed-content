@@ -1,10 +1,10 @@
 code: dgm
 products:
-  Dragon's Maze Six Card Booster Pack: 
+  Dragon's Maze Six Card Booster Pack:
     card_count: 6
     pack:
-    - set: dgm
-      code: six
+    - code: six
+      set: dgm
   Dragons Maze Booster Box:
     sealed:
     - count: 36

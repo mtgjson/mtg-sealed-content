@@ -85,22 +85,22 @@ products:
       set: mbs
   Mirrodin Besieged Intro Packs Set of 4:
     sealed:
-    - set: mbs
-      count: 1
+    - count: 1
       name: Mirrodin Besieged Intro Pack Battle Cries
-    - set: mbs
-      count: 1
+      set: mbs
+    - count: 1
       name: Mirrodin Besieged Intro Pack Doom Inevitable
-    - set: mbs
-      count: 1
+      set: mbs
+    - count: 1
       name: Mirrodin Besieged Intro Pack Mirromancy
-    - set: mbs
-      count: 1
+      set: mbs
+    - count: 1
       name: Mirrodin Besieged Intro Pack Path of Blight
+      set: mbs
   Mirrodin Besieged Mirran Faction Booster Pack: []
   Mirrodin Besieged Phyrexian Faction Booster Pack: []
   Mirrodin Besieged Prerelease Box: []
-  Mirrodin Besieged Six Card Booster Pack: 
+  Mirrodin Besieged Six Card Booster Pack:
     card_count: 6
     pack:
     - code: six

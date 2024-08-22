@@ -1,12 +1,12 @@
 code: 7ed
 products:
   Seventh Edition Advanced Booster:
+    card_count: 14
     deck:
     - name: Gold Pack
       set: 7ed
     - name: Silver Pack
       set: 7ed
-    card_count: 14
   Seventh Edition Booster Box:
     sealed:
     - count: 36
@@ -20,8 +20,8 @@ products:
   Seventh Edition Sampler Booster:
     card_count: 10
     deck:
-    - set: 7ed
-      name: Sampler Booster
+    - name: Sampler Booster
+      set: 7ed
   Seventh Edition Theme Deck Armada:
     card_count: 40
     deck:
@@ -76,10 +76,6 @@ products:
       set: 7ed
     - name: Silver Deck
       set: 7ed
-    sealed:
-    - set: 7ed
-      count: 1
-      name: Seventh Edition Advanced Booster
     other:
     - name: Two playmats
     - name: Two cardboard life counters
@@ -87,6 +83,10 @@ products:
     - name: One enhanced rule book
     - name: One CD with additional test games
     - name: One consumer response card
+    sealed:
+    - count: 1
+      name: Seventh Edition Advanced Booster
+      set: 7ed
   Seventh Edition Two Player Starter Set Display:
     sealed:
     - count: 6
