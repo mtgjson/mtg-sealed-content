@@ -21,7 +21,11 @@ products:
       set: 8ed
     - name: Silver Pack
       set: 8ed
-  Eighth Edition Sampler Booster: []
+  Eighth Edition Sampler Booster:
+    card_count: 10
+    deck:
+    - set: 8ed
+      name: Sampler Booster
   Eighth Edition Theme Deck Display:
     sealed:
     - count: 3

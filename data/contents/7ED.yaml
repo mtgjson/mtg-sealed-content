@@ -1,6 +1,12 @@
 code: 7ed
 products:
-  Seventh Edition Advanced Booster: []
+  Seventh Edition Advanced Booster:
+    deck:
+    - name: Gold Pack
+      set: 7ed
+    - name: Silver Pack
+      set: 7ed
+    card_count: 14
   Seventh Edition Booster Box:
     sealed:
     - count: 36
@@ -11,7 +17,11 @@ products:
     pack:
     - code: draft
       set: 7ed
-  Seventh Edition Sampler Booster: []
+  Seventh Edition Sampler Booster:
+    card_count: 10
+    deck:
+    - set: 7ed
+      name: Sampler Booster
   Seventh Edition Theme Deck Armada:
     card_count: 40
     deck:
@@ -60,16 +70,16 @@ products:
       name: Thorn Elemental
       number: "273\u2605"
       set: 7ed
-    card_count: 74
+    card_count: 60
     deck:
     - name: Gold Deck
       set: 7ed
     - name: Silver Deck
       set: 7ed
-    - name: Gold Pack
-      set: 7ed
-    - name: Silver Pack
-      set: 7ed
+    sealed:
+    - set: 7ed
+      count: 1
+      name: Seventh Edition Advanced Booster
     other:
     - name: Two playmats
     - name: Two cardboard life counters
