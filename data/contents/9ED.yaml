@@ -1,6 +1,7 @@
 code: 9ed
 products:
-  Ninth Edition Advanced Booster: []
+  Ninth Edition Advanced Booster:
+    copy: Ninth Edition Demo Booster
   Ninth Edition Booster Box:
     sealed:
     - count: 36
@@ -49,7 +50,11 @@ products:
     - count: 6
       name: Ninth Edition Booster Pack
       set: 9ed
-  Ninth Edition Sample Booster: []
+  Ninth Edition Sampler Booster:
+    card_count: 10
+    deck:
+    - set: 9ed
+      name: Sampler Booster
   Ninth Edition Theme Deck Army of Justice:
     card_count: 40
     deck:
