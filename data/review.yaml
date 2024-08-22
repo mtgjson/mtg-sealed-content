@@ -1,6 +1,11 @@
 cardKingdom: {}
 cardMarket: {}
-cardTrader: {}
+cardTrader:
+  Mystery Booster 2 Booster:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '297225'
+    subtype: UNKNOWN
 coolstuffinc:
   'Duskmourn: House of Horror - Nightmare Bundle':
     category: UNKNOWN
@@ -14,6 +19,12 @@ tcgplayer:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '564083'
+    subtype: UNKNOWN
+  Duskmourn House of Horror Nightmare Bundle Case:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '564285'
+    release_date: '2024-09-27'
     subtype: UNKNOWN
   Secret Lair Drop Lil Legends Traditional Foil Edition:
     category: UNKNOWN
