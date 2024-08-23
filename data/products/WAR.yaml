@@ -10,19 +10,20 @@ products:
       scgId: SLD-MTG-BBX-WAR-EN
       tcgplayerProductId: '185676'
     release_date: '2019-05-03'
-    subtype: DEFAULT
-  War of the Spark Booster Box (Non-English JAPANESE):
+    subtype: DRAFT
+  War of the Spark Japanese Booster Box:
     category: BOOSTER_BOX
+    language: Japanese
     identifiers:
       cardKingdomId: '224609'
       csiId: '277220'
-    subtype: DEFAULT
+    subtype: DRAFT
   War of the Spark Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '185675'
     release_date: '2019-05-03'
-    subtype: DEFAULT
+    subtype: DRAFT
   War of the Spark Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -33,13 +34,14 @@ products:
       scgId: SLD-MTG-PCK-WAR-EN
       tcgplayerProductId: '185677'
     release_date: '2019-05-03'
-    subtype: DEFAULT
-  War of the Spark Booster Pack (Non-English JAPANESE):
+    subtype: DRAFT
+  War of the Spark Japanese Booster Pack:
     category: BOOSTER_PACK
+    language: Japanese
     identifiers:
       csiId: '277364'
     release_date: '2019-05-03'
-    subtype: DEFAULT
+    subtype: DRAFT
   War of the Spark Bundle:
     category: BUNDLE
     identifiers:
