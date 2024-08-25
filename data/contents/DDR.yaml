@@ -2,24 +2,24 @@ code: ddr
 products:
   Duel Deck Nissa Vs Ob Nixilis:
     sealed:
-    - set: ddr
+    - count: 1
       name: Duel Deck Nissa Vs Ob Nixilis Nissa Deck
-      count: 1
-    - set: ddr
+      set: ddr
+    - count: 1
       name: Duel Deck Nissa Vs Ob Nixilis Ob Nixilis Deck
-      count: 1
+      set: ddr
   Duel Deck Nissa Vs Ob Nixilis Display:
     sealed:
-    - set: ddr
+    - count: 6
       name: Duel Deck Nissa Vs Ob Nixilis
-      count: 6
+      set: ddr
   Duel Deck Nissa Vs Ob Nixilis Nissa Deck:
     card_count: 60
-    deck: 
-    - set: ddr
-      name: Nissa
-  Duel Deck Nissa Vs Ob Nixilis Ob Nixilis Deck: 
+    deck:
+    - name: Nissa
+      set: ddr
+  Duel Deck Nissa Vs Ob Nixilis Ob Nixilis Deck:
     card_count: 60
-    deck: 
-    - set: ddr
-      name: Ob Nixilis
+    deck:
+    - name: Ob Nixilis
+      set: ddr

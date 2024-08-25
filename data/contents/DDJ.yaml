@@ -2,24 +2,24 @@ code: ddj
 products:
   Duel Deck Izzet vs Golgari:
     sealed:
-    - set: ddj
+    - count: 1
       name: Duel Deck Izzet vs Golgari Golgari Deck
-      count: 1
-    - set: ddj
+      set: ddj
+    - count: 1
       name: Duel Deck Izzet vs Golgari Izzet Deck
-      count: 1
+      set: ddj
   Duel Deck Izzet vs Golgari Display:
     sealed:
-    - set: ddj
+    - count: 6
       name: Duel Deck Izzet vs Golgari
-      count: 6
+      set: ddj
   Duel Deck Izzet vs Golgari Golgari Deck:
-    deck:
-    - set: ddj
-      name: Golgari
     card_count: 60
+    deck:
+    - name: Golgari
+      set: ddj
   Duel Deck Izzet vs Golgari Izzet Deck:
     card_count: 60
     deck:
-    - set: ddj
-      name: Izzet
+    - name: Izzet
+      set: ddj

@@ -2,24 +2,24 @@ code: ddn
 products:
   Duel Deck Speed vs Cunning:
     sealed:
-    - set: ddn
+    - count: 1
       name: Duel Deck Speed vs Cunning Cunning Deck
-      count: 1
-    - set: ddn
+      set: ddn
+    - count: 1
       name: Duel Deck Speed vs Cunning Speed Deck
-      count: 1
+      set: ddn
   Duel Deck Speed vs Cunning Cunning Deck:
     card_count: 60
     deck:
-    - set: ddn
-      name: Cunning
-  Duel Deck Speed vs Cunning Display: 
+    - name: Cunning
+      set: ddn
+  Duel Deck Speed vs Cunning Display:
     sealed:
-    - set: ddn
+    - count: 6
       name: Duel Deck Speed vs Cunning
-      count: 6
+      set: ddn
   Duel Deck Speed vs Cunning Speed Deck:
     card_count: 60
     deck:
-    - set: ddn
-      name: Speed
+    - name: Speed
+      set: ddn

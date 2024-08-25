@@ -2,24 +2,24 @@ code: dds
 products:
   Duel Deck Mind vs Might:
     sealed:
-    - set: dds
-      count: 1
+    - count: 1
       name: Duel Deck Mind vs Might Might Deck
-    - set: dds
-      count: 1
+      set: dds
+    - count: 1
       name: Duel Deck Mind vs Might Mind Deck
+      set: dds
   Duel Deck Mind vs Might Display:
     sealed:
-    - set: dds
+    - count: 6
       name: Duel Deck Mind vs Might
-      count: 6
+      set: dds
   Duel Deck Mind vs Might Might Deck:
     card_count: 60
     deck:
-    - set: dds
-      name: Might
+    - name: Might
+      set: dds
   Duel Deck Mind vs Might Mind Deck:
     card_count: 60
     deck:
-    - set: dds
-      name: Mind
+    - name: Mind
+      set: dds

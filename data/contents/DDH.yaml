@@ -2,24 +2,24 @@ code: ddh
 products:
   Duel Deck Ajani vs Nicol Bolas:
     sealed:
-    - set: ddh
-      count: 1
+    - count: 1
       name: Duel Deck Ajani vs Nicol Bolas Ajani Deck
-    - set: ddh
-      count: 1
+      set: ddh
+    - count: 1
       name: Duel Deck Ajani vs Nicol Bolas Nicol Bolas Deck
+      set: ddh
   Duel Deck Ajani vs Nicol Bolas Ajani Deck:
     card_count: 60
     deck:
-    - set: ddh
-      name: Ajani Goldmane
+    - name: Ajani Goldmane
+      set: ddh
   Duel Deck Ajani vs Nicol Bolas Display:
     sealed:
-    - set: ddh
+    - count: 6
       name: Duel Deck Ajani vs Nicol Bolas
-      count: 6
+      set: ddh
   Duel Deck Ajani vs Nicol Bolas Nicol Bolas Deck:
     card_count: 60
     deck:
-    - set: ddh
-      name: Nicol Bolas
+    - name: Nicol Bolas
+      set: ddh

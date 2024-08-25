@@ -2,24 +2,24 @@ code: ddu
 products:
   Duel Deck Elves vs Inventors:
     sealed:
-    - set: ddu
+    - count: 1
       name: Duel Deck Elves vs Inventors Elves Deck
-      count: 1
-    - set: ddu
+      set: ddu
+    - count: 1
       name: Duel Deck Elves vs Inventors Inventors Deck
-      count: 1
+      set: ddu
   Duel Deck Elves vs Inventors Display:
     sealed:
-    - name: Duel Deck Elves vs Inventors
-      count: 6
+    - count: 6
+      name: Duel Deck Elves vs Inventors
       set: ddu
   Duel Deck Elves vs Inventors Elves Deck:
     card_count: 60
     deck:
-    - set: ddu
-      name: Woodland Warriors
+    - name: Woodland Warriors
+      set: ddu
   Duel Deck Elves vs Inventors Inventors Deck:
     card_count: 60
     deck:
-    - set: ddu
-      name: Ingenious Machinists
+    - name: Ingenious Machinists
+      set: ddu

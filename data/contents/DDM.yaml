@@ -2,17 +2,17 @@ code: ddm
 products:
   Duel Deck Jace vs Vraska:
     sealed:
-    - set: ddm
+    - count: 1
       name: Duel Deck Jace vs Vraska Jace Deck
-      count: 1
-    - set: ddm
+      set: ddm
+    - count: 1
       name: Duel Deck Jace vs Vraska Vraska Deck
-      count: 1
+      set: ddm
   Duel Deck Jace vs Vraska Display:
     sealed:
-    - set: ddm
+    - count: 6
       name: Duel Deck Jace vs Vraska
-      count: 6
+      set: ddm
   Duel Deck Jace vs Vraska Jace Deck:
     card_count: 60
     deck:

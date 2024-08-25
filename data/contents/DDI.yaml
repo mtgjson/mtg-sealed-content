@@ -2,17 +2,17 @@ code: ddi
 products:
   Duel Deck Venser vs Koth:
     sealed:
-    - set: ddi
-      count: 1
+    - count: 1
       name: Duel Deck Venser vs Koth Koth Deck
-    - set: ddi
-      count: 1
+      set: ddi
+    - count: 1
       name: Duel Deck Venser vs Koth Venser Deck
+      set: ddi
   Duel Deck Venser vs Koth Display:
     sealed:
-    - set: ddi
-      count: 6
+    - count: 6
       name: Duel Deck Venser vs Koth
+      set: ddi
   Duel Deck Venser vs Koth Koth Deck:
     card_count: 60
     deck:
