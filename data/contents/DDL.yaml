@@ -1,12 +1,25 @@
 code: ddl
 products:
   Duel Deck Heroes vs Monsters:
-    card_count: 120
+    sealed:
+    - set: ddl
+      name: Duel Deck Heroes vs Monsters Heroes Deck
+      count: 1
+    - set: ddl
+      name: Duel Deck Heroes vs Monsters Monsters Deck
+      count: 1
+  Duel Deck Heroes vs Monsters Display:
+    sealed:
+    - set: ddl
+      name: Duel Deck Heroes vs Monsters
+      count: 6
+  Duel Deck Heroes vs Monsters Heroes Deck:
+    card_count: 60
     deck:
-    - name: Heroes
-      set: ddl
-    - name: Monsters
-      set: ddl
-  Duel Deck Heroes vs Monsters Display: []
-  Duel Deck Heroes vs Monsters Heroes Deck: []
-  Duel Deck Heroes vs Monsters Monsters Deck: []
+    - set: ddl
+      name: Heroes
+  Duel Deck Heroes vs Monsters Monsters Deck:
+    card_count: 60
+    deck:
+    - set: ddl
+      name: Monsters

@@ -8,7 +8,11 @@ products:
     - count: 1
       name: Duel Deck Elspeth vs Tezzeret Tezzeret Deck
       set: ddf
-  Duel Deck Elspeth vs Tezzeret Display: []
+  Duel Deck Elspeth vs Tezzeret Display:
+    sealed:
+    - set: ddf
+      name: Duel Deck Elspeth vs Tezzeret
+      count: 6
   Duel Deck Elspeth vs Tezzeret Elspeth Deck:
     card_count: 60
     deck:

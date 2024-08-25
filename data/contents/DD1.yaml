@@ -8,7 +8,11 @@ products:
     - count: 1
       name: Duel Deck Elves vs Goblins Goblins Deck
       set: dd1
-  Duel Deck Elves vs Goblins Display: []
+  Duel Deck Elves vs Goblins Display:
+    sealed:
+    - set: dd1
+      name: Duel Deck Elves vs Goblins
+      count: 6
   Duel Deck Elves vs Goblins Elves Deck:
     card_count: 60
     deck:
@@ -17,5 +21,5 @@ products:
   Duel Deck Elves vs Goblins Goblins Deck:
     card_count: 60
     deck:
-    - name: Goblin
+    - name: Goblins
       set: dd1

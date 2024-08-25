@@ -1,12 +1,25 @@
 code: ddq
 products:
   Duel Deck Blessed vs Cursed:
-    card_count: 120
+    sealed:
+    - set: ddq
+      name: Duel Deck Blessed vs Cursed Blessed Deck
+      count: 1
+    - set: ddq
+      name: Duel Deck Blessed vs Cursed Cursed Deck
+      count: 1
+  Duel Deck Blessed vs Cursed Blessed Deck:
+    card_count: 60
     deck:
-    - name: Blessed
-      set: ddq
-    - name: Cursed
-      set: ddq
-  Duel Deck Blessed vs Cursed Blessed Deck: []
-  Duel Deck Blessed vs Cursed Cursed Deck: []
-  Duel Deck Blessed vs Cursed Display: []
+    - set: ddq
+      name: Blessed
+  Duel Deck Blessed vs Cursed Cursed Deck: 
+    card_count: 60
+    deck:
+    - set: ddq
+      name: Cursed
+  Duel Deck Blessed vs Cursed Display:
+    sealed:
+    - set: ddq
+      name: Duel Deck Blessed vs Cursed
+      count: 6

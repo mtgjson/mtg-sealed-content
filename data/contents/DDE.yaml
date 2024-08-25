@@ -8,7 +8,11 @@ products:
     - count: 1
       name: Duel Deck Phyrexia vs the Coalition The Coalition Deck
       set: dde
-  Duel Deck Phyrexia vs the Coalition Display: []
+  Duel Deck Phyrexia vs the Coalition Display:
+    sealed:
+    - set: dde
+      name: Duel Deck Phyrexia vs the Coalition
+      count: 6
   Duel Deck Phyrexia vs the Coalition Phyrexia Deck:
     card_count: 60
     deck:
