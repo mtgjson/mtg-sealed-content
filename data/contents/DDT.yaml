@@ -1,12 +1,25 @@
 code: ddt
 products:
   Duel Deck Merfolk vs Goblins:
-    card_count: 120
+    sealed:
+    - set: ddt
+      name: uel Deck Merfolk vs Goblins Goblins Deck
+      count: 1
+    - set: ddt
+      name: Duel Deck Merfolk vs Goblins Merfolk Deck
+      count: 1
+  Duel Deck Merfolk vs Goblins Display:
+    sealed:
+    - set: ddt
+      name: Duel Deck Merfolk vs Goblins
+      count: 6
+  Duel Deck Merfolk vs Goblins Goblins Deck: 
+    card_count: 60
     deck:
-    - name: Merfolk
-      set: ddt
-    - name: Goblins
-      set: ddt
-  Duel Deck Merfolk vs Goblins Display: []
-  Duel Deck Merfolk vs Goblins Goblins Deck: []
-  Duel Deck Merfolk vs Goblins Merfolk Deck: []
+    - set: ddt
+      name: Goblins
+  Duel Deck Merfolk vs Goblins Merfolk Deck:
+    card_count: 60
+    deck:
+    - set: ddt
+      name: Merfolk
