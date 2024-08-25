@@ -57,4 +57,8 @@ products:
     - count: 1
       name: Worldwake Booster Pack
       set: wwk
-  Worldwake Six Card Booster Pack: []
+  Worldwake Six Card Booster Pack: 
+    card_count: 6
+    pack:
+    - set: wwk
+      code: six
