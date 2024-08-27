@@ -28,8 +28,15 @@ with open("data/contents/SLD.yaml", 'r') as sfile:
     sld_products = yaml.safe_load(sfile)
 
 product_names = list(sld_products["products"].keys())
+mapped_decks = {}
+for k, v in sld_products["products"].items():
+    if "deck" in v:
+        for dk in v["deck"]:
+            mapped_decks[dk["name"]] = k
 
 for d in decks:
+    if d["name"] in mapped_decks:
+        continue
     product_names.sort(key=lambda x: fuzz.token_sort_ratio(x, d["name"]), reverse=True)
     print(f"Finding similar products for {d['name']}")
     for i in range(5):

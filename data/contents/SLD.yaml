@@ -3320,7 +3320,13 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop Now on VHS Foil: []
+  Secret Lair Drop Now on VHS Foil:
+    card_count: 4
+    deck:
+    - name: Now on VHS foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop OMG KITTIES:
     card:
     - foil: true
@@ -3947,7 +3953,7 @@ products:
       set: sld
     card_count: 5
     deck:
-    - name: Secret Lair x The Evil Dead
+    - name: Evil Dead
       set: sld
   Secret Lair Drop Secret Lair x The Evil Dead Foil:
     card:
@@ -3957,7 +3963,7 @@ products:
       set: sld
     card_count: 5
     deck:
-    - name: Secret Lair x The Evil Dead foil
+    - name: Evil Dead foil
       set: sld
   Secret Lair Drop Secret Lair x The Princess Bride:
     card:
@@ -3966,7 +3972,7 @@ products:
       set: sld
     card_count: 9
     deck:
-    - name: Secret Lair x The Princess Bride
+    - name: The Princess Bride
       set: sld
   Secret Lair Drop Secret Lair x The Princess Bride Foil:
     card:
@@ -3976,7 +3982,7 @@ products:
       set: sld
     card_count: 9
     deck:
-    - name: Secret Lair x The Princess Bride foil
+    - name: The Princess Bride foil
       set: sld
   Secret Lair Drop Secret Lair x Tomb Raider:
     card_count: 6
