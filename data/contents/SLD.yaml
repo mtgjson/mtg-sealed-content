@@ -731,13 +731,13 @@ products:
       name: Secret Lair Drop Secret Lair x Post Malone Backstage Pass
       set: sld
     - count: 1
-      name: Secret Lair Drop Secret Lair x Post Malone Backstage Pass Foil Edition
+      name: Secret Lair Drop Secret Lair x Post Malone Backstage Pass Foil
       set: sld
     - count: 1
       name: Secret Lair Drop Secret Lair x Post Malone The Lands
       set: sld
     - count: 1
-      name: Secret Lair Drop Secret Lair x Post Malone The Lands Foil Edition
+      name: Secret Lair Drop Secret Lair x Post Malone The Lands Foil
       set: sld
   Secret Lair Bundle Second Secretversary Bundle:
     sealed:
@@ -1159,20 +1159,6 @@ products:
     deck:
     - name: Raining Cats and Dogs
       set: sld
-  Secret Lair Death Is Temporary Metal Is Forever:
-    card_count: 5
-    deck:
-    - name: Death is Temporary, Metal is Forever
-      set: sld
-    other:
-    - name: Bonus card unknown
-  Secret Lair Death Is Temporary Metal Is Forever Foil Edition:
-    card_count: 5
-    deck:
-    - name: Death is Temporary, Metal is Forever foil
-      set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Dr  Secret Lair Drop Extra Life 2022:
     card:
     - name: Maro
@@ -3716,7 +3702,7 @@ products:
   Secret Lair Drop Secret Lair x Creepshow:
     card:
     - name: Terror
-      number: 750a
+      number: 750
       set: sld
     card_count: 5
     deck:
@@ -3726,7 +3712,7 @@ products:
     card:
     - foil: true
       name: Terror
-      number: 750a
+      number: 750
       set: sld
     card_count: 5
     deck:
