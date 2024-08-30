@@ -56,7 +56,12 @@ cardKingdom:
     subtype: UNKNOWN
 cardMarket: {}
 cardTrader: {}
-coolstuffinc: {}
+coolstuffinc:
+  Could not load provider coolstuffinc:
+    category: UNKNOWN
+    identifiers:
+      csiId: ''
+    subtype: UNKNOWN
 miniaturemarket: {}
 starcitygames:
   'Innistrad: Crimson Vow Bundle (Gift Edition)':
