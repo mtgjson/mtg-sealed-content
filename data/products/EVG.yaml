@@ -1,9 +1,12 @@
 code: evg
 products:
-  Duel Deck Elves vs Goblins:
-    category: MULTI_DECK
+  Duel Deck Anthology Elves Deck:
+    category: DECK
     identifiers:
-      csiId: '97584'
-      scgId: SLD-MTG-BXS-EVG-EN
-      tcgplayerProductId: '32805'
+      mcmId: '270802'
+    subtype: DUEL
+  Duel Deck Anthology Goblins Deck:
+    category: DECK
+    identifiers:
+      mcmId: '270803'
     subtype: DUEL

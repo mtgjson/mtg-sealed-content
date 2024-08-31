@@ -432,6 +432,9 @@ products:
     - count: 1
       name: Secret Lair Drop Wizards of the Street
       set: sld
+  Secret Lair Bundle Dungeons and Dragons 50th Anniversary Loot the Room with Everything: []
+  Secret Lair Bundle Dungeons and Dragons 50th Anniversary Loot the Room with Foils: []
+  Secret Lair Bundle Dungeons and Dragons 50th Anniversary Loot the Room with Non Foils: []
   Secret Lair Bundle Equinox Superdrop 2024 A Celebration of Everything Foil and Non Foil: []
   Secret Lair Bundle Equinox Superdrop 2024 Fallout Bundle: []
   Secret Lair Bundle Equinox Superdrop 2024 Fallout Bundle Foil: []
@@ -731,13 +734,13 @@ products:
       name: Secret Lair Drop Secret Lair x Post Malone Backstage Pass
       set: sld
     - count: 1
-      name: Secret Lair Drop Secret Lair x Post Malone Backstage Pass Foil Edition
+      name: Secret Lair Drop Secret Lair x Post Malone Backstage Pass Foil
       set: sld
     - count: 1
       name: Secret Lair Drop Secret Lair x Post Malone The Lands
       set: sld
     - count: 1
-      name: Secret Lair Drop Secret Lair x Post Malone The Lands Foil Edition
+      name: Secret Lair Drop Secret Lair x Post Malone The Lands Foil
       set: sld
   Secret Lair Bundle Second Secretversary Bundle:
     sealed:
@@ -1159,20 +1162,6 @@ products:
     deck:
     - name: Raining Cats and Dogs
       set: sld
-  Secret Lair Death Is Temporary Metal Is Forever:
-    card_count: 5
-    deck:
-    - name: Death is Temporary, Metal is Forever
-      set: sld
-    other:
-    - name: Bonus card unknown
-  Secret Lair Death Is Temporary Metal Is Forever Foil Edition:
-    card_count: 5
-    deck:
-    - name: Death is Temporary, Metal is Forever foil
-      set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Dr  Secret Lair Drop Extra Life 2022:
     card:
     - name: Maro
@@ -2494,12 +2483,14 @@ products:
   Secret Lair Drop Death Is Temporary Metal Is Forever:
     card_count: 5
     deck:
-    - name: Death is Temporary Metal is Forever
+    - name: Death is Temporary, Metal is Forever
       set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Death Is Temporary Metal Is Forever Foil:
     card_count: 5
     deck:
-    - name: Death is Temporary Metal is Forever foil
+    - name: Death is Temporary, Metal is Forever foil
       set: sld
     other:
     - name: Bonus card unknown
@@ -3716,7 +3707,7 @@ products:
   Secret Lair Drop Secret Lair x Creepshow:
     card:
     - name: Terror
-      number: 750a
+      number: 750
       set: sld
     card_count: 5
     deck:
@@ -3726,7 +3717,7 @@ products:
     card:
     - foil: true
       name: Terror
-      number: 750a
+      number: 750
       set: sld
     card_count: 5
     deck:
@@ -3789,6 +3780,14 @@ products:
     deck:
     - name: Doctor Who The Weeping Angels foil
       set: sld
+  Secret Lair Drop Secret Lair x Dungeons and Dragons An Exhibition of Adventure: []
+  Secret Lair Drop Secret Lair x Dungeons and Dragons An Exhibition of Adventure Rainbow Foil: []
+  Secret Lair Drop Secret Lair x Dungeons and Dragons Astarions Thirst: []
+  Secret Lair Drop Secret Lair x Dungeons and Dragons Astarions Thirst Rainbow Foil: []
+  Secret Lair Drop Secret Lair x Dungeons and Dragons Death is in the Eyes of the Beholder I: []
+  Secret Lair Drop Secret Lair x Dungeons and Dragons Death is in the Eyes of the Beholder I Rainbow Foil: []
+  Secret Lair Drop Secret Lair x Dungeons and Dragons Death is in the Eyes of the Beholder II: []
+  Secret Lair Drop Secret Lair x Dungeons and Dragons Death is in the Eyes of the Beholder II Rainbow Foil: []
   Secret Lair Drop Secret Lair x Dungeons and Dragons Honor Among Thieves:
     card:
     - name: Themberchaud
@@ -3808,6 +3807,8 @@ products:
     deck:
     - name: DD Honor Among Thieves foil
       set: sld
+  Secret Lair Drop Secret Lair x Dungeons and Dragons Karlachs Rage: []
+  Secret Lair Drop Secret Lair x Dungeons and Dragons Karlachs Rage Rainbow Foil: []
   Secret Lair Drop Secret Lair x Fallout Points of Interest: []
   Secret Lair Drop Secret Lair x Fallout Points of Interest Foil: []
   Secret Lair Drop Secret Lair x Fallout SPECIAL: []
