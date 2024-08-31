@@ -56,18 +56,28 @@ cardKingdom:
     subtype: UNKNOWN
 cardMarket: {}
 cardTrader: {}
-coolstuffinc:
-  Could not load provider coolstuffinc:
-    category: UNKNOWN
-    identifiers:
-      csiId: ''
-    subtype: UNKNOWN
+coolstuffinc: {}
 miniaturemarket: {}
 starcitygames:
+  Battlebond Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-BBD-EN
+    subtype: UNKNOWN
   'Innistrad: Crimson Vow Bundle (Gift Edition)':
     category: UNKNOWN
     identifiers:
       scgId: SLD-MTG-BUN-VOWGIFT-EN
+    subtype: UNKNOWN
+  Magic 2010 Core Set Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-M10-EN
+    subtype: UNKNOWN
+  Mirrodin Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-MRD-EN
     subtype: UNKNOWN
 tcgplayer:
   Secret Lair Drop Dungeons and Dragons 50th Anniversary Loot the Room with Everything Bundle:
@@ -140,7 +150,7 @@ tcgplayer:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '565553'
-    release_date: '2024-09-06'
+    release_date: '2024-08-31'
     subtype: UNKNOWN
   Secret Lair Drop Secret Lair x Dungeons and Dragons Karlachs Rage Rainbow Foil Edition:
     category: UNKNOWN
