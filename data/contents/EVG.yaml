@@ -1,4 +1,12 @@
 code: evg
 products:
-  Duel Deck Anthology Elves Deck: []
-  Duel Deck Anthology Goblins Deck: []
+  Duel Deck Anthology Elves Deck:
+    card_count: 60
+    deck:
+    - name: Elves
+      set: evg
+  Duel Deck Anthology Goblins Deck:
+    card_count: 60
+    deck:
+    - name: Goblins
+      set: evg

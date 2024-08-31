@@ -1,4 +1,12 @@
 code: dvd
 products:
-  Duel Deck Anthology Demonic Deck: []
-  Duel Deck Anthology Divine Deck: []
+  Duel Deck Anthology Demonic Deck:
+    card_count: 60
+    deck:
+    - name: Demonic
+      set: dvd
+  Duel Deck Anthology Divine Deck:
+    card_count: 60
+    deck:
+    - name: Divine
+      set: dvd

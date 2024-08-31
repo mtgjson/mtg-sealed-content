@@ -1,4 +1,12 @@
 code: gvl
 products:
-  Duel Deck Anthology Garruk Deck: []
-  Duel Deck Anthology Liliana Deck: []
+  Duel Deck Anthology Garruk Deck:
+    card_count: 60
+    deck:
+    - name: Garruk
+      set: gvl
+  Duel Deck Anthology Liliana Deck:
+    card_count: 60
+    deck:
+    - name: Liliana
+      set: gvl

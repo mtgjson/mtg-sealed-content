@@ -1,4 +1,12 @@
 code: jvc
 products:
-  Duel Deck Anthology Chandra Deck: []
-  Duel Deck Anthology Jace Deck: []
+  Duel Deck Anthology Jace Deck:
+    card_count: 60
+    deck:
+    - name: Jace
+      set: jvc
+  Duel Deck Anthology Chandra Deck:
+    card_count: 60
+    deck:
+    - name: Chandra
+      set: jvc
