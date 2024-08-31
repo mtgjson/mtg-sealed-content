@@ -1,9 +1,84 @@
-cardKingdom: {}
+cardKingdom:
+  'Duskmourn: House of Horror Bundle':
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '300716'
+    subtype: UNKNOWN
+  'Duskmourn: House of Horror Collector Booster Box':
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '300720'
+    subtype: UNKNOWN
+  'Duskmourn: House of Horror Collector Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '300719'
+    subtype: UNKNOWN
+  'Duskmourn: House of Horror Commander Deck - Death Toll':
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '300724'
+    subtype: UNKNOWN
+  'Duskmourn: House of Horror Commander Deck - Endless Punishment':
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '300723'
+    subtype: UNKNOWN
+  'Duskmourn: House of Horror Commander Deck - Jump Scare!':
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '300725'
+    subtype: UNKNOWN
+  'Duskmourn: House of Horror Commander Deck - Miracle Worker':
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '300722'
+    subtype: UNKNOWN
+  'Duskmourn: House of Horror Play Booster Box':
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '300718'
+    subtype: UNKNOWN
+  'Duskmourn: House of Horror Play Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '300717'
+    subtype: UNKNOWN
+  'Duskmourn: House of Horror Variety Pack':
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '300734'
+    subtype: UNKNOWN
+  'Duskmourn: House of Horrors Commander Deck - Set of Four':
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '300726'
+    subtype: UNKNOWN
 cardMarket: {}
 cardTrader: {}
 coolstuffinc: {}
 miniaturemarket: {}
-starcitygames: {}
+starcitygames:
+  Battlebond Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-BBD-EN
+    subtype: UNKNOWN
+  'Innistrad: Crimson Vow Bundle (Gift Edition)':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BUN-VOWGIFT-EN
+    subtype: UNKNOWN
+  Magic 2010 Core Set Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-M10-EN
+    subtype: UNKNOWN
+  Mirrodin Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-MRD-EN
+    subtype: UNKNOWN
 tcgplayer:
   Secret Lair Drop Dungeons and Dragons 50th Anniversary Loot the Room with Everything Bundle:
     category: UNKNOWN
@@ -75,7 +150,7 @@ tcgplayer:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '565553'
-    release_date: '2024-09-06'
+    release_date: '2024-08-31'
     subtype: UNKNOWN
   Secret Lair Drop Secret Lair x Dungeons and Dragons Karlachs Rage Rainbow Foil Edition:
     category: UNKNOWN
