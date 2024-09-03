@@ -19,6 +19,7 @@ provmap = {
     "scgId": "starcitygames",
     "csiId": "coolstuffinc",
     "abuId": "abugames",
+    "tntId": "trollandtoad",
 }
 
 review_products = []

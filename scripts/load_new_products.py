@@ -658,6 +658,63 @@ def load_abugames(nothing):
     return sealed_data
 
 
+def load_tnt(nothing):
+    sealed_data = []
+
+    skip_tags = [
+        "Omega Collector",
+        "Silver Stamped",
+        "- Promo",
+        " | Clue Token",
+        "Italian",
+        "Spanish",
+        "Portuguese",
+        "German",
+        "French",
+        "Chinese",
+    ]
+
+    page = 0
+    while True:
+        page += 1
+        link = "https://www.trollandtoad.com/magic-the-gathering/magic-the-gathering-sealed-product/909?page-no=" + str(page)
+        print(f"Parsing page {page}")
+
+        header = {
+            "User-Agent": "curl/8.6",
+        }
+        r = requests.get(link, headers=header)
+        soup = BeautifulSoup(r.content, 'html.parser')
+
+        for div in soup.find_all('div', attrs={"class": "product-info card-body col pl-0 pl-sm-3"}):
+            try:
+                name = div.find('div', attrs={"class": "col-11 prod-title"}).get_text().strip()
+                productURL = div.find('a', attrs={"class": "card-text"}).get("href")
+                print(f"Found {title} {productURL}")
+            except Exception:
+                continue
+
+            if any(tag.lower() in name.lower() for tag in skip_tags):
+                continue
+
+            tntId = productURL.rsplit('/', 1)[-1]
+            print(f"Found {title} {tntId}")
+
+            sealed_data.extend([
+                {
+                    "name": name,
+                    "id": tntId,
+                }
+            ])
+
+        # Exit loop condition, only when the Next field has no future links
+        nextPage = soup.find('div', attrs={"class": "pageText px-1 d-none d-md-block"})
+        if not nextPage:
+            break
+
+    return sealed_data
+
+
 providers_dict = {
     "cardKingdom": {
         "identifier": "cardKingdomId",
@@ -694,6 +751,10 @@ providers_dict = {
     "abugames": {
         "identifier": "abuId",
         "load_func": load_abugames,
+    },
+    "trollandtoad": {
+        "identifier": "tntId",
+        "load_func": load_tnt,
     },
 }
 
