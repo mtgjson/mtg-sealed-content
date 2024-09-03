@@ -529,11 +529,14 @@ def load_coolstuffinc(secret):
     retail_data = load_coolstuffinc_retail(skip_tags)
     print(f"Retrieved {len(retail_data)} products from retail")
 
-    buylist_data = load_coolstuffinc_buylist(skip_tags)
-    print(f"Retrieved {len(buylist_data)} products from buylist")
+    try:
+        buylist_data = load_coolstuffinc_buylist(skip_tags)
+        print(f"Retrieved {len(buylist_data)} products from buylist")
 
-    retail_data.extend(x for x in buylist_data if x not in retail_data)
-    print(f"Total {len(retail_data)} products")
+        retail_data.extend(x for x in buylist_data if x not in retail_data)
+        print(f"Total {len(retail_data)} products")
+    except Exception:
+        pass
 
     return retail_data
 
