@@ -59,6 +59,20 @@ while index < len(review_products):
         offset += 5
         if offset + 5 > len(known_products):
             offset = 0
+    elif product_check == "b":
+        index -= 1
+        if index < 0:
+            index = 0
+        offset -= 5
+        if offset < 0:
+            print("NOTE: No previous choices available")
+            offset = 0
+    elif product_check == "u":
+        index -= 2
+        if index < 0:
+            print("NOTE: There is no product before this one")
+            index = 0
+        offset = 0
     elif product_check == "i":
         with open("data/ignore.yaml", "r") as ignore_file:
             ignore_content = yaml.safe_load(ignore_file)
@@ -107,7 +121,7 @@ while index < len(review_products):
         index -= 1
         if product_check != "h":
             print(f"Invalid action: {product_check}")
-        print("Available actions: q - quit / s - skip / i - ignore / m - more / [0]124 - pick")
+        print("Available actions: q - quit / s - skip / i - ignore / m - more / b - back / u - undo / [0]124 - pick")
 
-    if product_check != "m":
+    if product_check not in "mb":
         offset = 0
