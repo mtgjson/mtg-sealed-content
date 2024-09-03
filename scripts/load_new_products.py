@@ -690,6 +690,7 @@ providers_dict = {
     "coolstuffinc": {
         "identifier": "csiId",
         "load_func": load_coolstuffinc,
+    },
     "abugames": {
         "identifier": "abuId",
         "load_func": load_abugames,
