@@ -3,6 +3,7 @@ products:
   Fifth Edition Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1107727'
       cardKingdomId: '1170'
       cardtraderId: '45278'
       csiId: '97290'
@@ -13,6 +14,7 @@ products:
   Fifth Edition Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476803'
       cardKingdomId: '1169'
       cardtraderId: '45277'
       csiId: '97292'
@@ -23,6 +25,7 @@ products:
   Fifth Edition Starter Deck:
     category: LIMITED
     identifiers:
+      abuId: '1100052'
       cardKingdomId: '1171'
       cardtraderId: '45279'
       csiId: '97623'
@@ -43,6 +46,7 @@ products:
   Fifth Edition Two Player Starter Set:
     category: MULTI_DECK
     identifiers:
+      abuId: '1100038'
       cardKingdomId: '186283'
       cardtraderId: '45280'
       mcmId: '254937'
@@ -51,6 +55,7 @@ products:
   Fifth Edition Two Player Starter Set Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1100050'
       cardtraderId: '45281'
       mcmId: '272029'
     subtype: TWO_PLAYER_STARTER

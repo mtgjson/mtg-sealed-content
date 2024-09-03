@@ -3,6 +3,7 @@ products:
   Kaladesh Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1100678'
       cardKingdomId: '208692'
       cardtraderId: '48461'
       csiId: '228449'
@@ -19,6 +20,7 @@ products:
   Kaladesh Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1796209'
       cardKingdomId: '208693'
       cardtraderId: '48459'
       csiId: '228450'
@@ -30,6 +32,7 @@ products:
   Kaladesh Bundle:
     category: BUNDLE
     identifiers:
+      abuId: '1100684'
       cardKingdomId: '208697'
       cardtraderId: '48469'
       csiId: '228462'
@@ -41,6 +44,7 @@ products:
   Kaladesh Deck Builders Toolkit:
     category: KIT
     identifiers:
+      abuId: '1100370'
       cardKingdomId: '208706'
       cardtraderId: '48474'
       mcmId: '292536'
@@ -50,6 +54,7 @@ products:
   Kaladesh Gift Box:
     category: BUNDLE
     identifiers:
+      abuId: '1101194'
       cardKingdomId: '210348'
       cardtraderId: '48475'
       csiId: '229097'
@@ -68,6 +73,7 @@ products:
   Kaladesh Planeswalker Deck Chandra:
     category: DECK
     identifiers:
+      abuId: '1100685'
       cardKingdomId: '209421'
       cardtraderId: '48471'
       csiId: '228463'
@@ -82,6 +88,7 @@ products:
   Kaladesh Planeswalker Deck Nissa:
     category: DECK
     identifiers:
+      abuId: '1100686'
       cardKingdomId: '209420'
       cardtraderId: '48470'
       csiId: '228464'
@@ -92,11 +99,13 @@ products:
   Kaladesh Planeswalker Decks Set of 2:
     category: SUBSET
     identifiers:
+      abuId: '1100687'
       tcgplayerProductId: '122684'
     subtype: PLANESWALKER
   Kaladesh Prerelease Kit:
     category: LIMITED
     identifiers:
+      abuId: '1100688'
       cardtraderId: '48473'
       mcmId: '292529'
       tcgplayerProductId: '122685'

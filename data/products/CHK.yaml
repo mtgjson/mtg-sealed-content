@@ -3,6 +3,7 @@ products:
   Champions of Kamigawa Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1100303'
       cardKingdomId: '112048'
       cardtraderId: '46880'
       csiId: '97470'
@@ -13,6 +14,7 @@ products:
   Champions of Kamigawa Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476858'
       cardKingdomId: '112047'
       cardtraderId: '46879'
       csiId: '97485'
@@ -33,12 +35,14 @@ products:
   Champions of Kamigawa Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1476859'
       cardtraderId: '46888'
       mcmId: '210218'
     subtype: THEME
   Champions of Kamigawa Theme Deck Kami Reborn:
     category: DECK
     identifiers:
+      abuId: '1100306'
       cardKingdomId: '112049'
       cardtraderId: '46886'
       mcmId: '253692'
@@ -47,6 +51,7 @@ products:
   Champions of Kamigawa Theme Deck Snakes Path:
     category: DECK
     identifiers:
+      abuId: '1100307'
       cardKingdomId: '112051'
       cardtraderId: '46883'
       mcmId: '253693'
@@ -55,6 +60,7 @@ products:
   Champions of Kamigawa Theme Deck Spiritbane:
     category: DECK
     identifiers:
+      abuId: '1100308'
       cardKingdomId: '112052'
       cardtraderId: '46884'
       mcmId: '253694'
@@ -63,6 +69,7 @@ products:
   Champions of Kamigawa Theme Deck Way of the Warrior:
     category: DECK
     identifiers:
+      abuId: '1100311'
       cardKingdomId: '112053'
       cardtraderId: '46885'
       mcmId: '253695'
@@ -71,6 +78,7 @@ products:
   Champions of Kamigawa Tournament Pack:
     category: LIMITED
     identifiers:
+      abuId: '1100305'
       cardKingdomId: '112054'
       cardtraderId: '46887'
       mcmId: '248477'

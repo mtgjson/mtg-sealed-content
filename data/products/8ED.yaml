@@ -10,6 +10,7 @@ products:
   Eighth Edition Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1107746'
       cardKingdomId: '1548'
       cardtraderId: '46033'
       csiId: '97300'
@@ -20,6 +21,7 @@ products:
   Eighth Edition Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476806'
       cardKingdomId: '1555'
       cardtraderId: '46030'
       csiId: '97310'
@@ -30,6 +32,7 @@ products:
   Eighth Edition Box Set:
     category: BOX_SET
     identifiers:
+      abuId: '1100075'
       cardtraderId: '46040'
       mcmId: '283064'
       tcgplayerProductId: '245974'
@@ -56,6 +59,7 @@ products:
   Eighth Edition Theme Deck Expulsion:
     category: DECK
     identifiers:
+      abuId: '1100077'
       cardKingdomId: '1552'
       cardtraderId: '46038'
       mcmId: '210152'
@@ -64,6 +68,7 @@ products:
   Eighth Edition Theme Deck Heavy Hitters:
     category: DECK
     identifiers:
+      abuId: '1100078'
       cardKingdomId: '1554'
       cardtraderId: '46034'
       mcmId: '210153'
@@ -72,6 +77,7 @@ products:
   Eighth Edition Theme Deck Life Boost:
     category: DECK
     identifiers:
+      abuId: '1100076'
       cardKingdomId: '1550'
       cardtraderId: '46035'
       csiId: '279800'
@@ -81,6 +87,7 @@ products:
   Eighth Edition Theme Deck Sky Slam:
     category: DECK
     identifiers:
+      abuId: '1100079'
       cardKingdomId: '1551'
       cardtraderId: '46036'
       mcmId: '210155'
@@ -89,6 +96,7 @@ products:
   Eighth Edition Theme Deck Speed Scorch:
     category: DECK
     identifiers:
+      abuId: '1100080'
       cardKingdomId: '1553'
       cardtraderId: '46037'
       mcmId: '210156'
@@ -105,5 +113,6 @@ products:
   Eighth Edition Two Player Starter Set Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1107747'
       cardKingdomId: '240097'
     subtype: TWO_PLAYER_STARTER

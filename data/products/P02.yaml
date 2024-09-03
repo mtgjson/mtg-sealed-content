@@ -3,6 +3,7 @@ products:
   Portal Second Age Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1107972'
       cardKingdomId: '238463'
       cardtraderId: '45404'
       csiId: '98002'
@@ -13,6 +14,7 @@ products:
   Portal Second Age Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476925'
       cardKingdomId: '1186'
       cardtraderId: '45403'
       csiId: '98004'
@@ -33,11 +35,13 @@ products:
     subtype: GIFT_BUNDLE
   Portal Second Age Theme Deck Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      abuId: '1476926'
     subtype: THEME
   Portal Second Age Theme Deck Goblin Fire:
     category: DECK
     identifiers:
+      abuId: '1101013'
       cardKingdomId: '1191'
       cardtraderId: '45405'
       mcmId: '253781'
@@ -46,6 +50,7 @@ products:
   Portal Second Age Theme Deck Martial Law:
     category: DECK
     identifiers:
+      abuId: '1100966'
       cardKingdomId: '1195'
       cardtraderId: '45406'
       mcmId: '253782'
@@ -54,6 +59,7 @@ products:
   Portal Second Age Theme Deck Natures Assault:
     category: DECK
     identifiers:
+      abuId: '1100992'
       cardKingdomId: '1192'
       cardtraderId: '45407'
       mcmId: '253783'
@@ -62,6 +68,7 @@ products:
   Portal Second Age Theme Deck Spellweaver:
     category: DECK
     identifiers:
+      abuId: '1101014'
       cardKingdomId: '1194'
       cardtraderId: '45408'
       mcmId: '253784'
@@ -70,6 +77,7 @@ products:
   Portal Second Age Theme Deck The Nightstalkers:
     category: DECK
     identifiers:
+      abuId: '1101015'
       cardKingdomId: '1193'
       cardtraderId: '45409'
       mcmId: '253785'
@@ -78,6 +86,7 @@ products:
   Portal Second Age Two Player Starter Deck:
     category: MULTI_DECK
     identifiers:
+      abuId: '1101012'
       cardKingdomId: '1189'
       cardtraderId: '45410'
       mcmId: '254938'

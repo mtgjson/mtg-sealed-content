@@ -3,6 +3,7 @@ products:
   Tenth Edition Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1107726'
       cardKingdomId: '122703'
       cardtraderId: '47213'
       csiId: '97262'
@@ -13,6 +14,7 @@ products:
   Tenth Edition Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476801'
       cardKingdomId: '122704'
       cardtraderId: '47212'
       csiId: '97282'
@@ -23,6 +25,7 @@ products:
   Tenth Edition Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1107725'
       cardKingdomId: '122711'
       cardtraderId: '47219'
       csiId: '97283'
@@ -72,6 +75,7 @@ products:
   Tenth Edition Theme Deck Cho Mannos Resolve:
     category: DECK
     identifiers:
+      abuId: '1100045'
       cardKingdomId: '122705'
       cardtraderId: '47221'
       csiId: '219002'
@@ -81,12 +85,14 @@ products:
   Tenth Edition Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1100049'
       cardtraderId: '47230'
       mcmId: '210212'
     subtype: THEME
   Tenth Edition Theme Deck Evincars Tyranny:
     category: DECK
     identifiers:
+      abuId: '1100046'
       cardKingdomId: '122707'
       cardtraderId: '47222'
       mcmId: '253650'
@@ -95,6 +101,7 @@ products:
   Tenth Edition Theme Deck Kamahls Temper:
     category: DECK
     identifiers:
+      abuId: '1100047'
       cardKingdomId: '122708'
       cardtraderId: '47223'
       csiId: '219005'
@@ -104,6 +111,7 @@ products:
   Tenth Edition Theme Deck Molimos Might:
     category: DECK
     identifiers:
+      abuId: '1100048'
       cardKingdomId: '122709'
       cardtraderId: '47224'
       csiId: '219009'
@@ -113,6 +121,7 @@ products:
   Tenth Edition Two Player Starter Game:
     category: MULTI_DECK
     identifiers:
+      abuId: '1100044'
       cardtraderId: '47225'
       mcmId: '254940'
     subtype: TWO_PLAYER_STARTER

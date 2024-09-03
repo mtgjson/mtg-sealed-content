@@ -3,6 +3,7 @@ products:
   Core Set 2020 Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1580464'
       cardKingdomId: '225512'
       cardtraderId: '57961'
       csiId: '276708'
@@ -20,6 +21,7 @@ products:
   Core Set 2020 Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1580465'
       cardKingdomId: '225516'
       cardtraderId: '57960'
       csiId: '276709'
@@ -30,6 +32,7 @@ products:
   Core Set 2020 Bundle:
     category: BUNDLE
     identifiers:
+      abuId: '1580463'
       cardKingdomId: '225517'
       cardtraderId: '57967'
       csiId: '276711'
@@ -41,6 +44,7 @@ products:
   Core Set 2020 Deck Builders Toolkit:
     category: KIT
     identifiers:
+      abuId: '1580843'
       cardKingdomId: '225521'
       cardtraderId: '164547'
       csiId: '276712'
@@ -56,6 +60,7 @@ products:
   Core Set 2020 Planeswalker Deck Ajani:
     category: DECK
     identifiers:
+      abuId: '1580842'
       cardKingdomId: '225555'
       cardtraderId: '169300'
       csiId: '276713'
@@ -66,6 +71,7 @@ products:
   Core Set 2020 Planeswalker Deck Chandra:
     category: DECK
     identifiers:
+      abuId: '1580839'
       cardKingdomId: '225556'
       cardtraderId: '169299'
       mcmId: '378288'
@@ -82,6 +88,7 @@ products:
   Core Set 2020 Planeswalker Deck Sorin:
     category: DECK
     identifiers:
+      abuId: '1580840'
       cardKingdomId: '225557'
       cardtraderId: '169301'
       csiId: '276715'
@@ -92,6 +99,7 @@ products:
   Core Set 2020 Planeswalker Deck Vivien:
     category: DECK
     identifiers:
+      abuId: '1580838'
       cardKingdomId: '225558'
       cardtraderId: '169298'
       mcmId: '378291'
@@ -101,6 +109,7 @@ products:
   Core Set 2020 Planeswalker Deck Yanling:
     category: DECK
     identifiers:
+      abuId: '1580841'
       cardKingdomId: '225559'
       cardtraderId: '169302'
       csiId: '276714'
@@ -111,12 +120,14 @@ products:
   Core Set 2020 Planeswalker Decks Set of 5:
     category: SUBSET
     identifiers:
+      abuId: '1580487'
       tcgplayerProductId: '188222'
     release_date: '2019-07-12'
     subtype: PLANESWALKER
   Core Set 2020 Prerelease Pack:
     category: LIMITED
     identifiers:
+      abuId: '1581081'
       cardtraderId: '164578'
       csiId: '281201'
       mcmId: '380316'
@@ -136,6 +147,7 @@ products:
   Core Set 2020 Theme Booster Black:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1580835'
       cardtraderId: '58399'
       csiId: '281199'
       mcmId: '379662'
@@ -145,6 +157,7 @@ products:
   Core Set 2020 Theme Booster Blue:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1580834'
       cardtraderId: '58398'
       mcmId: '379665'
       tcgplayerProductId: '192761'
@@ -153,6 +166,7 @@ products:
   Core Set 2020 Theme Booster Green:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1580837'
       cardtraderId: '58401'
       csiId: '281197'
       mcmId: '379668'
@@ -162,6 +176,7 @@ products:
   Core Set 2020 Theme Booster Red:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1580836'
       cardtraderId: '58400'
       mcmId: '379671'
       tcgplayerProductId: '192763'
@@ -175,6 +190,7 @@ products:
   Core Set 2020 Theme Booster White:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1580833'
       cardtraderId: '58397'
       mcmId: '379674'
       tcgplayerProductId: '192765'

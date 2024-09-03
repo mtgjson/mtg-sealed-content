@@ -3,6 +3,7 @@ products:
   Strixhaven School of Mages Bundle:
     category: BUNDLE
     identifiers:
+      abuId: '2012071'
       cardKingdomId: '243707'
       cardtraderId: '153201'
       csiId: '312182'
@@ -14,6 +15,7 @@ products:
   Strixhaven School of Mages Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2012065'
       cardKingdomId: '243708'
       cardtraderId: '153213'
       csiId: '312179'
@@ -31,6 +33,7 @@ products:
   Strixhaven School of Mages Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2012063'
       cardKingdomId: '243709'
       cardtraderId: '153214'
       csiId: '312180'
@@ -42,6 +45,7 @@ products:
   Strixhaven School of Mages Draft Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2012067'
       cardKingdomId: '243710'
       cardtraderId: '153198'
       csiId: '312161'
@@ -59,6 +63,7 @@ products:
   Strixhaven School of Mages Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2012069'
       cardKingdomId: '243711'
       cardtraderId: '153203'
       csiId: '312174'
@@ -88,7 +93,8 @@ products:
     subtype: SET
   Strixhaven School of Mages Japanese Set Booster Pack:
     category: BOOSTER_PACK
-    identifiers: {}
+    identifiers:
+      abuId: '2016419'
     language: Japanese
     release_date: '2021-04-23'
     subtype: SET
@@ -142,6 +148,7 @@ products:
   Strixhaven School of Mages Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2005224'
       cardKingdomId: '243713'
       cardtraderId: '153199'
       csiId: '312176'
@@ -153,6 +160,7 @@ products:
   Strixhaven School of Mages Set Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2012051'
       cardKingdomId: '243715'
       cardtraderId: '153200'
       csiId: '312177'
@@ -172,6 +180,7 @@ products:
   Strixhaven School of Mages Theme Booster Pack Lorehold:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2012059'
       cardtraderId: '153216'
       csiId: '312319'
       mcmId: '540421'
@@ -181,6 +190,7 @@ products:
   Strixhaven School of Mages Theme Booster Pack Prismari:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2012057'
       cardtraderId: '153217'
       mcmId: '540426'
       tcgplayerProductId: '233239'
@@ -189,6 +199,7 @@ products:
   Strixhaven School of Mages Theme Booster Pack Quandrix:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2012061'
       cardtraderId: '153218'
       mcmId: '540431'
       tcgplayerProductId: '233241'
@@ -197,6 +208,7 @@ products:
   Strixhaven School of Mages Theme Booster Pack Silverquill:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2012053'
       cardtraderId: '153219'
       mcmId: '540436'
       tcgplayerProductId: '233236'
@@ -205,6 +217,7 @@ products:
   Strixhaven School of Mages Theme Booster Pack Witherbloom:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2012055'
       cardtraderId: '153220'
       mcmId: '540441'
       tcgplayerProductId: '233238'

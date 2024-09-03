@@ -3,6 +3,7 @@ products:
   Ravnica Allegiance Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1551804'
       cardKingdomId: '223064'
       cardtraderId: '48899'
       csiId: '266859'
@@ -20,6 +21,7 @@ products:
   Ravnica Allegiance Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1973139'
       cardKingdomId: '223063'
       cardtraderId: '48893'
       csiId: '266865'
@@ -30,6 +32,7 @@ products:
   Ravnica Allegiance Bundle:
     category: BUNDLE
     identifiers:
+      abuId: '1551805'
       cardKingdomId: '223066'
       cardtraderId: '48900'
       csiId: '266867'
@@ -56,6 +59,7 @@ products:
   Ravnica Allegiance Deck Builders Toolkit:
     category: KIT
     identifiers:
+      abuId: '1554653'
       cardKingdomId: '223067'
       cardtraderId: '48903'
       csiId: '266873'
@@ -81,6 +85,7 @@ products:
   Ravnica Allegiance Planeswalker Deck Domri:
     category: DECK
     identifiers:
+      abuId: '1553807'
       cardKingdomId: '223061'
       cardtraderId: '48902'
       csiId: '266869'
@@ -91,6 +96,7 @@ products:
   Ravnica Allegiance Planeswalker Deck Dovin:
     category: DECK
     identifiers:
+      abuId: '1553802'
       cardKingdomId: '223062'
       cardtraderId: '48901'
       csiId: '266868'
@@ -101,12 +107,14 @@ products:
   Ravnica Allegiance Planeswalker Decks Set of 2:
     category: SUBSET
     identifiers:
+      abuId: '1551806'
       tcgplayerProductId: '182132'
     release_date: '2019-01-25'
     subtype: PLANESWALKER
   Ravnica Allegiance Prerelease Pack Azorius:
     category: LIMITED
     identifiers:
+      abuId: '1557884'
       cardtraderId: '48976'
       mcmId: '368859'
       tcgplayerProductId: '183587'
@@ -124,6 +132,7 @@ products:
   Ravnica Allegiance Prerelease Pack Orzhov:
     category: LIMITED
     identifiers:
+      abuId: '1557883'
       cardtraderId: '48972'
       mcmId: '368861'
       tcgplayerProductId: '183586'
@@ -132,6 +141,7 @@ products:
   Ravnica Allegiance Prerelease Pack Rakdos:
     category: LIMITED
     identifiers:
+      abuId: '1557882'
       cardtraderId: '48974'
       csiId: '270269'
       mcmId: '368862'
@@ -168,6 +178,7 @@ products:
   Ravnica Allegiance Theme Booster Pack Azorius:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1558146'
       cardtraderId: '48894'
       csiId: '271373'
       mcmId: '368517'
@@ -177,6 +188,7 @@ products:
   Ravnica Allegiance Theme Booster Pack Gruul:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1558147'
       cardtraderId: '48895'
       mcmId: '368520'
       tcgplayerProductId: '183319'
@@ -185,6 +197,7 @@ products:
   Ravnica Allegiance Theme Booster Pack Orzhov:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1558148'
       cardtraderId: '48896'
       mcmId: '368518'
       tcgplayerProductId: '183320'
@@ -193,6 +206,7 @@ products:
   Ravnica Allegiance Theme Booster Pack Rakdos:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1558149'
       cardtraderId: '48897'
       csiId: '271376'
       mcmId: '368519'
@@ -202,11 +216,13 @@ products:
   Ravnica Allegiance Theme Booster Pack Set of 5:
     category: SUBSET
     identifiers:
+      abuId: '1558174'
       tcgplayerProductId: '183323'
     subtype: THEME
   Ravnica Allegiance Theme Booster Pack Simic:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1558150'
       cardtraderId: '48898'
       csiId: '271377'
       mcmId: '368521'
