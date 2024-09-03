@@ -10,12 +10,14 @@ products:
       mcmId: '299343'
       scgId: SLD-MTG-BBX-M19-EN
       tcgplayerProductId: '166550'
+      tntId: '1178161'
     release_date: '2018-07-13'
     subtype: DEFAULT
   Core Set 2019 Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '166552'
+      tntId: '1178160'
     release_date: '2018-07-13'
     subtype: DEFAULT
   Core Set 2019 Booster Pack:
@@ -27,6 +29,7 @@ products:
       csiId: '244773'
       mcmId: '299344'
       tcgplayerProductId: '166551'
+      tntId: '1178164'
     release_date: '2018-07-13'
     subtype: DEFAULT
   Core Set 2019 Bundle:
@@ -39,6 +42,7 @@ products:
       mcmId: '299342'
       scgId: SLD-MTG-BUN-M19-EN
       tcgplayerProductId: '166562'
+      tntId: '1178162'
     release_date: '2018-07-13'
     subtype: DEFAULT
   Core Set 2019 Deck Builders Toolkit:
@@ -50,6 +54,7 @@ products:
       csiId: '244848'
       mcmId: '319293'
       tcgplayerProductId: '166553'
+      tntId: '1181273'
     release_date: '2018-07-13'
     subtype: DECK_BUILDERS_TOOLKIT
   Core Set 2019 Gift Pack:
@@ -67,11 +72,13 @@ products:
       cardtraderId: '48704'
       mcmId: '359993'
       tcgplayerProductId: '169265'
+      tntId: '1178165'
     release_date: '2018-07-13'
     subtype: PLANESWALKER
   Core Set 2019 Planeswalker Deck Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      tntId: '1178163'
     subtype: PLANESWALKER
   Core Set 2019 Planeswalker Deck Liliana:
     category: DECK
@@ -82,6 +89,7 @@ products:
       csiId: '244777'
       mcmId: '360016'
       tcgplayerProductId: '169268'
+      tntId: '1178934'
     release_date: '2018-07-13'
     subtype: PLANESWALKER
   Core Set 2019 Planeswalker Deck Sarkhan:
@@ -93,6 +101,7 @@ products:
       mcmId: '360015'
       scgId: SLD-MTG-INT-M19PWDECK-EN-SARKHAN
       tcgplayerProductId: '169266'
+      tntId: '1178935'
     release_date: '2018-07-13'
     subtype: PLANESWALKER
   Core Set 2019 Planeswalker Deck Tezzeret:
@@ -103,6 +112,7 @@ products:
       cardtraderId: '48707'
       mcmId: '319292'
       tcgplayerProductId: '166560'
+      tntId: '1178166'
     release_date: '2018-07-13'
     subtype: PLANESWALKER
   Core Set 2019 Planeswalker Deck Vivien:
@@ -113,6 +123,7 @@ products:
       cardtraderId: '48705'
       mcmId: '359978'
       tcgplayerProductId: '169267'
+      tntId: '1178936'
     release_date: '2018-07-13'
     subtype: PLANESWALKER
   Core Set 2019 Planeswalker Decks Set of 5:
@@ -139,6 +150,7 @@ products:
       csiId: '263991'
       mcmId: '362757'
       tcgplayerProductId: '174136'
+      tntId: '1189134'
     release_date: '2018-10-05'
     subtype: TWO_PLAYER_STARTER
   Core Set 2019 Standard Showdown Booster:

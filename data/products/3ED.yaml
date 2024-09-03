@@ -10,6 +10,7 @@ products:
       mcmId: '210072'
       scgId: SLD-MTG-BBX-3ED-EN
       tcgplayerProductId: '27303'
+      tntId: '87534'
     subtype: DEFAULT
   Revised Edition Booster Pack:
     category: BOOSTER_PACK
@@ -21,11 +22,13 @@ products:
       mcmId: '210006'
       scgId: SLD-MTG-PCK-3ED-EN
       tcgplayerProductId: '27365'
+      tntId: '118983'
     subtype: DEFAULT
   Revised Edition Gift Box:
     category: BUNDLE
     identifiers:
       tcgplayerProductId: '193784'
+      tntId: '87544'
     subtype: GIFT_BUNDLE
   Revised Edition Starter Deck:
     category: LIMITED
@@ -37,6 +40,7 @@ products:
       mcmId: '248494'
       scgId: SLD-MTG-PCK-3EDSTARTER-EN
       tcgplayerProductId: '57941'
+      tntId: '87558'
     subtype: STARTER
   Revised Edition Starter Deck Display:
     category: LIMITED_CASE
@@ -47,4 +51,5 @@ products:
       mcmId: '272020'
       scgId: SLD-MTG-BBX-3EDSTARTER-EN
       tcgplayerProductId: '173066'
+      tntId: '118984'
     subtype: STARTER

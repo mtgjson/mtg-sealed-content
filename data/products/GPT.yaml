@@ -10,6 +10,7 @@ products:
       mcmId: '210119'
       scgId: SLD-MTG-BBX-GPT-EN
       tcgplayerProductId: '27281'
+      tntId: '138464'
     subtype: DEFAULT
   Guildpact Booster Pack:
     category: BOOSTER_PACK
@@ -21,6 +22,7 @@ products:
       mcmId: '210053'
       scgId: SLD-MTG-PCK-GPT-EN
       tcgplayerProductId: '27343'
+      tntId: '138463'
     subtype: DEFAULT
   Guildpact Fat Pack:
     category: BUNDLE
@@ -32,6 +34,7 @@ products:
       mcmId: '210171'
       scgId: SLD-MTG-BUN-GPT-EN
       tcgplayerProductId: '78313'
+      tntId: '155115'
     subtype: FAT_PACK
   Guildpact Theme Deck Code of the Orzhov:
     category: DECK
@@ -41,6 +44,7 @@ products:
       cardtraderId: '47082'
       mcmId: '253672'
       tcgplayerProductId: '96340'
+      tntId: '138462'
     subtype: THEME
   Guildpact Theme Deck Display:
     category: DECK_BOX
@@ -48,6 +52,7 @@ products:
       abuId: '1100586'
       cardtraderId: '47087'
       mcmId: '210221'
+      tntId: '138468'
     subtype: THEME
   Guildpact Theme Deck Gruul Wilding:
     category: DECK
@@ -57,6 +62,7 @@ products:
       cardtraderId: '47084'
       mcmId: '253673'
       tcgplayerProductId: '96341'
+      tntId: '138466'
     subtype: THEME
   Guildpact Theme Deck Izzet Gizmometry:
     category: DECK
@@ -66,4 +72,5 @@ products:
       cardtraderId: '47085'
       mcmId: '253674'
       tcgplayerProductId: '96342'
+      tntId: '138465'
     subtype: THEME

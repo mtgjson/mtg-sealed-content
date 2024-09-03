@@ -10,6 +10,7 @@ products:
       mcmId: '210098'
       scgId: SLD-MTG-BBX-PCY-EN
       tcgplayerProductId: '27301'
+      tntId: '86992'
     subtype: DEFAULT
   Prophecy Booster Pack:
     category: BOOSTER_PACK
@@ -20,6 +21,7 @@ products:
       csiId: '98047'
       mcmId: '210032'
       tcgplayerProductId: '27363'
+      tntId: '86993'
     subtype: DEFAULT
   Prophecy Fat Pack:
     category: BUNDLE
@@ -31,12 +33,14 @@ products:
       mcmId: '210189'
       scgId: SLD-MTG-BUN-PCY-EN
       tcgplayerProductId: '78327'
+      tntId: '155289'
     subtype: FAT_PACK
   Prophecy Theme Deck Display:
     category: DECK_BOX
     identifiers:
       cardtraderId: '45640'
       mcmId: '210237'
+      tntId: '86995'
     subtype: THEME
   Prophecy Theme Deck Distress:
     category: DECK
@@ -46,6 +50,7 @@ products:
       cardtraderId: '45637'
       mcmId: '253749'
       tcgplayerProductId: '116046'
+      tntId: '106957'
     subtype: THEME
   Prophecy Theme Deck Pummel:
     category: DECK
@@ -56,6 +61,7 @@ products:
       csiId: '279663'
       mcmId: '253750'
       tcgplayerProductId: '116047'
+      tntId: '106929'
     subtype: THEME
   Prophecy Theme Deck Slither:
     category: DECK
@@ -66,6 +72,7 @@ products:
       csiId: '279664'
       mcmId: '253751'
       tcgplayerProductId: '116048'
+      tntId: '106920'
     subtype: THEME
   Prophecy Theme Deck Turnaround:
     category: DECK
@@ -76,4 +83,5 @@ products:
       csiId: '279665'
       mcmId: '253752'
       tcgplayerProductId: '116049'
+      tntId: '106931'
     subtype: THEME

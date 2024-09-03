@@ -10,12 +10,14 @@ products:
       mcmId: '367073'
       scgId: SLD-MTG-BBX-RNA-EN
       tcgplayerProductId: '180734'
+      tntId: '1419451'
     release_date: '2019-01-25'
     subtype: DEFAULT
   Ravnica Allegiance Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '180733'
+      tntId: '1419450'
     release_date: '2019-01-25'
     subtype: DEFAULT
   Ravnica Allegiance Booster Pack:
@@ -27,6 +29,7 @@ products:
       csiId: '266865'
       mcmId: '367074'
       tcgplayerProductId: '180735'
+      tntId: '1419452'
     release_date: '2019-01-25'
     subtype: DEFAULT
   Ravnica Allegiance Bundle:
@@ -39,6 +42,7 @@ products:
       mcmId: '367072'
       scgId: SLD-MTG-BUN-RNA-EN
       tcgplayerProductId: '180736'
+      tntId: '1419453'
     release_date: '2019-01-25'
     subtype: DEFAULT
   Ravnica Allegiance Collector Booster Box:
@@ -65,6 +69,7 @@ products:
       csiId: '266873'
       mcmId: '367804'
       tcgplayerProductId: '180737'
+      tntId: '1458103'
     release_date: '2019-01-25'
     subtype: DECK_BUILDERS_TOOLKIT
   Ravnica Allegiance Mythic Edition:
@@ -76,11 +81,13 @@ products:
       mcmId: '368641'
       scgId: SLD-MTG-BXS-MED_RNA-EN
       tcgplayerProductId: '183453'
+      tntId: '1458689'
     release_date: '2019-01-14'
     subtype: PREMIUM
   Ravnica Allegiance Planeswalker Deck Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      tntId: '1419454'
     subtype: PLANESWALKER
   Ravnica Allegiance Planeswalker Deck Domri:
     category: DECK
@@ -91,6 +98,7 @@ products:
       csiId: '266869'
       mcmId: '367805'
       tcgplayerProductId: '182133'
+      tntId: '1419455'
     release_date: '2019-01-25'
     subtype: PLANESWALKER
   Ravnica Allegiance Planeswalker Deck Dovin:
@@ -102,6 +110,7 @@ products:
       csiId: '266868'
       mcmId: '367806'
       tcgplayerProductId: '182134'
+      tntId: '1419456'
     release_date: '2019-01-25'
     subtype: PLANESWALKER
   Ravnica Allegiance Planeswalker Decks Set of 2:
@@ -183,6 +192,7 @@ products:
       csiId: '271373'
       mcmId: '368517'
       tcgplayerProductId: '183318'
+      tntId: '1457872'
     release_date: '2019-01-11'
     subtype: THEME
   Ravnica Allegiance Theme Booster Pack Gruul:
@@ -192,6 +202,7 @@ products:
       cardtraderId: '48895'
       mcmId: '368520'
       tcgplayerProductId: '183319'
+      tntId: '1457873'
     release_date: '2019-01-11'
     subtype: THEME
   Ravnica Allegiance Theme Booster Pack Orzhov:
@@ -201,6 +212,7 @@ products:
       cardtraderId: '48896'
       mcmId: '368518'
       tcgplayerProductId: '183320'
+      tntId: '1457874'
     release_date: '2019-01-11'
     subtype: THEME
   Ravnica Allegiance Theme Booster Pack Rakdos:
@@ -211,6 +223,7 @@ products:
       csiId: '271376'
       mcmId: '368519'
       tcgplayerProductId: '183321'
+      tntId: '1457875'
     release_date: '2019-01-11'
     subtype: THEME
   Ravnica Allegiance Theme Booster Pack Set of 5:
@@ -227,5 +240,6 @@ products:
       csiId: '271377'
       mcmId: '368521'
       tcgplayerProductId: '183322'
+      tntId: '1457876'
     release_date: '2019-01-11'
     subtype: THEME

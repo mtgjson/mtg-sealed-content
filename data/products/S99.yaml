@@ -9,6 +9,7 @@ products:
       csiId: '98213'
       mcmId: '242503'
       scgId: SLD-MTG-BBX-S99-EN
+      tntId: '88829'
     subtype: STARTER
   Starter 1999 Booster Pack:
     category: BOOSTER_PACK
@@ -20,12 +21,14 @@ products:
       mcmId: '242502'
       scgId: SLD-MTG-PCK-S99-EN
       tcgplayerProductId: '168359'
+      tntId: '88830'
     subtype: STARTER
   Starter 1999 Demo Game Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       mcmId: '758896'
       tcgplayerProductId: '257332'
+      tntId: '1566257'
     subtype: PROMOTIONAL
   Starter 1999 Starter Game:
     category: MULTI_DECK
@@ -34,11 +37,13 @@ products:
       cardtraderId: '45574'
       mcmId: '242504'
       tcgplayerProductId: '532800'
+      tntId: '132210'
     subtype: TWO_PLAYER_STARTER
   Starter 1999 Starter Game Display:
     category: DECK_BOX
     identifiers:
       cardtraderId: '45575'
+      tntId: '88834'
     subtype: TWO_PLAYER_STARTER
   Starter 1999 Starter Gift Box:
     category: BUNDLE
@@ -56,6 +61,7 @@ products:
       cardtraderId: '45569'
       mcmId: '253761'
       tcgplayerProductId: '500265'
+      tntId: '114237'
     subtype: THEME
   Starter 1999 Theme Deck Deadly Instinct:
     category: DECK
@@ -65,12 +71,14 @@ products:
       cardtraderId: '45570'
       mcmId: '253762'
       tcgplayerProductId: '500269'
+      tntId: '114258'
     subtype: THEME
   Starter 1999 Theme Deck Display:
     category: DECK_BOX
     identifiers:
       cardtraderId: '45576'
       mcmId: '263932'
+      tntId: '114311'
     subtype: THEME
   Starter 1999 Theme Deck Goblin Assault:
     category: DECK
@@ -80,6 +88,7 @@ products:
       cardtraderId: '45571'
       mcmId: '253763'
       tcgplayerProductId: '500268'
+      tntId: '114259'
     subtype: THEME
   Starter 1999 Theme Deck Impaler:
     category: DECK
@@ -89,6 +98,7 @@ products:
       cardtraderId: '45572'
       mcmId: '253764'
       tcgplayerProductId: '500267'
+      tntId: '114280'
     subtype: THEME
   Starter 1999 Theme Deck Time Curse:
     category: DECK
@@ -98,4 +108,5 @@ products:
       cardtraderId: '45573'
       mcmId: '253765'
       tcgplayerProductId: '500266'
+      tntId: '114312'
     subtype: THEME

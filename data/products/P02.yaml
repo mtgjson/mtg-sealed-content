@@ -10,6 +10,7 @@ products:
       mcmId: '210089'
       scgId: SLD-MTG-BBX-P02-EN
       tcgplayerProductId: '27299'
+      tntId: '113978'
     subtype: DEFAULT
   Portal Second Age Booster Pack:
     category: BOOSTER_PACK
@@ -21,6 +22,7 @@ products:
       mcmId: '210023'
       scgId: SLD-MTG-PCK-P02-EN
       tcgplayerProductId: '27361'
+      tntId: '113979'
     subtype: DEFAULT
   Portal Second Age Demo Game Booster:
     category: BOOSTER_PACK
@@ -32,11 +34,13 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '1188'
+      tntId: '86853'
     subtype: GIFT_BUNDLE
   Portal Second Age Theme Deck Display:
     category: DECK_BOX
     identifiers:
       abuId: '1476926'
+      tntId: '112138'
     subtype: THEME
   Portal Second Age Theme Deck Goblin Fire:
     category: DECK
@@ -46,6 +50,7 @@ products:
       cardtraderId: '45405'
       mcmId: '253781'
       tcgplayerProductId: '175142'
+      tntId: '94565'
     subtype: THEME
   Portal Second Age Theme Deck Martial Law:
     category: DECK
@@ -55,6 +60,7 @@ products:
       cardtraderId: '45406'
       mcmId: '253782'
       tcgplayerProductId: '175150'
+      tntId: '95415'
     subtype: THEME
   Portal Second Age Theme Deck Natures Assault:
     category: DECK
@@ -64,6 +70,7 @@ products:
       cardtraderId: '45407'
       mcmId: '253783'
       tcgplayerProductId: '175158'
+      tntId: '94566'
     subtype: THEME
   Portal Second Age Theme Deck Spellweaver:
     category: DECK
@@ -73,6 +80,7 @@ products:
       cardtraderId: '45408'
       mcmId: '253784'
       tcgplayerProductId: '175162'
+      tntId: '107468'
     subtype: THEME
   Portal Second Age Theme Deck The Nightstalkers:
     category: DECK
@@ -82,6 +90,7 @@ products:
       cardtraderId: '45409'
       mcmId: '253785'
       tcgplayerProductId: '175160'
+      tntId: '92075'
     subtype: THEME
   Portal Second Age Two Player Starter Deck:
     category: MULTI_DECK
@@ -91,9 +100,11 @@ products:
       cardtraderId: '45410'
       mcmId: '254938'
       tcgplayerProductId: '96282'
+      tntId: '113693'
     subtype: TWO_PLAYER_STARTER
   Portal Second Age Two Player Starter Display:
     category: DECK_BOX
     identifiers:
       tcgplayerProductId: '96283'
+      tntId: '113694'
     subtype: TWO_PLAYER_STARTER

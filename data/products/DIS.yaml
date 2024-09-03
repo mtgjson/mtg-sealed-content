@@ -10,6 +10,7 @@ products:
       mcmId: '210118'
       scgId: SLD-MTG-BBX-DIS-EN
       tcgplayerProductId: '27273'
+      tntId: '137770'
     subtype: DEFAULT
   Dissension Booster Pack:
     category: BOOSTER_PACK
@@ -20,6 +21,7 @@ products:
       csiId: '97528'
       mcmId: '210052'
       tcgplayerProductId: '27335'
+      tntId: '137771'
     subtype: DEFAULT
   Dissension Fat Pack:
     category: BUNDLE
@@ -31,6 +33,7 @@ products:
       mcmId: '210170'
       scgId: SLD-MTG-BUN-DIS-EN
       tcgplayerProductId: '78309'
+      tntId: '155110'
     subtype: FAT_PACK
   Dissension Theme Deck Azorius Ascendant:
     category: DECK
@@ -40,12 +43,14 @@ products:
       cardtraderId: '47101'
       mcmId: '253669'
       tcgplayerProductId: '96343'
+      tntId: '137773'
     subtype: THEME
   Dissension Theme Deck Display:
     category: DECK_BOX
     identifiers:
       cardtraderId: '47104'
       mcmId: '210222'
+      tntId: '137772'
     subtype: THEME
   Dissension Theme Deck Rakdos Bloodsport:
     category: DECK
@@ -55,6 +60,7 @@ products:
       cardtraderId: '47102'
       mcmId: '253670'
       tcgplayerProductId: '96344'
+      tntId: '137775'
     subtype: THEME
   Dissension Theme Deck Simic Mutology:
     category: DECK
@@ -64,4 +70,5 @@ products:
       cardtraderId: '47103'
       mcmId: '253671'
       tcgplayerProductId: '96345'
+      tntId: '137774'
     subtype: THEME

@@ -10,6 +10,7 @@ products:
       mcmId: '268661'
       scgId: SLD-MTG-BXS-DDN-EN
       tcgplayerProductId: '91644'
+      tntId: '1059180'
     subtype: DUEL
   Duel Deck Speed vs Cunning Cunning Deck:
     category: DECK
@@ -22,5 +23,6 @@ products:
     subtype: DUEL
   Duel Deck Speed vs Cunning Speed Deck:
     category: DECK
-    identifiers: {}
+    identifiers:
+      tntId: '1060116'
     subtype: DUEL

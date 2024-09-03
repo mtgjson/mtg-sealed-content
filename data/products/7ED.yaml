@@ -16,6 +16,7 @@ products:
       mcmId: '210102'
       scgId: SLD-MTG-BBX-7ED-EN
       tcgplayerProductId: '27258'
+      tntId: '91202'
     subtype: DEFAULT
   Seventh Edition Booster Pack:
     category: BOOSTER_PACK
@@ -27,6 +28,7 @@ products:
       mcmId: '210036'
       scgId: SLD-MTG-PCK-7ED-EN
       tcgplayerProductId: '27320'
+      tntId: '91209'
     subtype: DEFAULT
   Seventh Edition Sampler Booster:
     category: BOOSTER_PACK
@@ -41,6 +43,7 @@ products:
       cardtraderId: '45959'
       mcmId: '253736'
       tcgplayerProductId: '96320'
+      tntId: '91204'
     subtype: THEME
   Seventh Edition Theme Deck Bomber:
     category: DECK
@@ -50,6 +53,7 @@ products:
       cardtraderId: '45960'
       mcmId: '253737'
       tcgplayerProductId: '96321'
+      tntId: '91205'
     subtype: THEME
   Seventh Edition Theme Deck Decay:
     category: DECK
@@ -60,6 +64,7 @@ products:
       csiId: '262440'
       mcmId: '253738'
       tcgplayerProductId: '96322'
+      tntId: '91206'
     subtype: THEME
   Seventh Edition Theme Deck Display:
     category: DECK_BOX
@@ -67,6 +72,7 @@ products:
       abuId: '1526727'
       cardtraderId: '45965'
       mcmId: '210239'
+      tntId: '91994'
     subtype: THEME
   Seventh Edition Theme Deck Infestation:
     category: DECK
@@ -77,6 +83,7 @@ products:
       csiId: '262441'
       mcmId: '253739'
       tcgplayerProductId: '96323'
+      tntId: '91207'
     subtype: THEME
   Seventh Edition Theme Deck Way Wild:
     category: DECK
@@ -87,6 +94,7 @@ products:
       csiId: '279810'
       mcmId: '253740'
       tcgplayerProductId: '96324'
+      tntId: '91208'
     subtype: THEME
   Seventh Edition Two Player Starter:
     category: MULTI_DECK
@@ -96,9 +104,11 @@ products:
       cardtraderId: '45964'
       mcmId: '254936'
       tcgplayerProductId: '244394'
+      tntId: '112136'
     subtype: TWO_PLAYER_STARTER
   Seventh Edition Two Player Starter Set Display:
     category: DECK_BOX
     identifiers:
       abuId: '1526730'
+      tntId: '112135'
     subtype: TWO_PLAYER_STARTER

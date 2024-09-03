@@ -10,6 +10,7 @@ products:
       mcmId: '240364'
       scgId: SLD-MTG-BXS-DD2-EN
       tcgplayerProductId: '32804'
+      tntId: '231074'
     subtype: DUEL
   Duel Deck Jace vs Chandra Chandra Deck:
     category: DECK
@@ -17,7 +18,8 @@ products:
     subtype: DUEL
   Duel Deck Jace vs Chandra Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      tntId: '231075'
     subtype: DUEL
   Duel Deck Jace vs Chandra Jace Deck:
     category: DECK
@@ -30,5 +32,6 @@ products:
       cardtraderId: '47374'
       mcmId: '245055'
       tcgplayerProductId: '78341'
+      tntId: '301156'
     language: Japanese
     subtype: DUEL

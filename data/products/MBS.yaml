@@ -10,6 +10,7 @@ products:
       mcmId: '245274'
       scgId: SLD-MTG-BBX-MBS-EN
       tcgplayerProductId: '39109'
+      tntId: '299371'
     subtype: DEFAULT
   Mirrodin Besieged Booster Box Case:
     category: BOOSTER_CASE
@@ -26,10 +27,12 @@ products:
       mcmId: '245273'
       scgId: SLD-MTG-PCK-MBS-EN
       tcgplayerProductId: '39108'
+      tntId: '299372'
     subtype: DEFAULT
   Mirrodin Besieged Event Deck Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      tntId: '306948'
     subtype: EVENT
   Mirrodin Besieged Event Deck Infect and Defile:
     category: DECK
@@ -39,6 +42,7 @@ products:
       cardtraderId: '47580'
       mcmId: '245281'
       tcgplayerProductId: '141938'
+      tntId: '306950'
     subtype: EVENT
   Mirrodin Besieged Event Deck Into the Breach:
     category: DECK
@@ -48,6 +52,7 @@ products:
       cardtraderId: '47581'
       mcmId: '245280'
       tcgplayerProductId: '141937'
+      tntId: '306949'
     subtype: EVENT
   Mirrodin Besieged Event Decks Set of 2:
     category: SUBSET
@@ -75,6 +80,7 @@ products:
       mcmId: '245275'
       scgId: SLD-MTG-BUN-MBS-EN
       tcgplayerProductId: '39120'
+      tntId: '299374'
     subtype: FAT_PACK
   Mirrodin Besieged Intro Pack Battle Cries:
     category: DECK
@@ -84,6 +90,7 @@ products:
       cardtraderId: '47579'
       mcmId: '245279'
       tcgplayerProductId: '39116'
+      tntId: '299376'
     subtype: INTRO
   Mirrodin Besieged Intro Pack Doom Inevitable:
     category: DECK
@@ -93,6 +100,7 @@ products:
       cardtraderId: '47576'
       mcmId: '245278'
       tcgplayerProductId: '39119'
+      tntId: '299378'
     subtype: INTRO
   Mirrodin Besieged Intro Pack Mirromancy:
     category: DECK
@@ -102,6 +110,7 @@ products:
       cardtraderId: '47577'
       mcmId: '245277'
       tcgplayerProductId: '39118'
+      tntId: '299377'
     subtype: INTRO
   Mirrodin Besieged Intro Pack Path of Blight:
     category: DECK
@@ -111,6 +120,7 @@ products:
       cardtraderId: '47578'
       mcmId: '245276'
       tcgplayerProductId: '39117'
+      tntId: '299379'
     subtype: INTRO
   Mirrodin Besieged Intro Packs Set of 4:
     category: SUBSET
@@ -129,6 +139,7 @@ products:
       csiId: '97908'
       mcmId: '245272'
       tcgplayerProductId: '72025'
+      tntId: '305942'
     subtype: OTHER
   Mirrodin Besieged Phyrexian Faction Booster Pack:
     category: BOOSTER_PACK
@@ -139,6 +150,7 @@ products:
       csiId: '97909'
       mcmId: '245271'
       tcgplayerProductId: '72026'
+      tntId: '305941'
     subtype: OTHER
   Mirrodin Besieged Prerelease Box:
     category: LIMITED

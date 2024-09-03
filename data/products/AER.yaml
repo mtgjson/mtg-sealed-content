@@ -10,11 +10,13 @@ products:
       mcmId: '290528'
       scgId: SLD-MTG-BBX-AER-EN
       tcgplayerProductId: '125794'
+      tntId: '1096471'
     subtype: DEFAULT
   Aether Revolt Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '125795'
+      tntId: '1096470'
     subtype: DEFAULT
   Aether Revolt Booster Pack:
     category: BOOSTER_PACK
@@ -25,6 +27,7 @@ products:
       csiId: '228467'
       mcmId: '290529'
       tcgplayerProductId: '125793'
+      tntId: '1096472'
     release_date: '2017-01-20'
     subtype: DEFAULT
   Aether Revolt Bundle:
@@ -37,6 +40,7 @@ products:
       mcmId: '293337'
       scgId: SLD-MTG-BUN-AER-EN
       tcgplayerProductId: '125797'
+      tntId: '1096473'
     subtype: DEFAULT
   Aether Revolt Planeswalker Deck Ajani:
     category: DECK
@@ -47,10 +51,12 @@ products:
       csiId: '228479'
       mcmId: '294547'
       tcgplayerProductId: '125798'
+      tntId: '1098352'
     subtype: PLANESWALKER
   Aether Revolt Planeswalker Deck Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      tntId: '1109862'
     subtype: PLANESWALKER
   Aether Revolt Planeswalker Deck Tezzeret:
     category: DECK
@@ -60,6 +66,7 @@ products:
       cardtraderId: '48502'
       mcmId: '294546'
       tcgplayerProductId: '125799'
+      tntId: '1098351'
     subtype: PLANESWALKER
   Aether Revolt Planeswalker Decks Set of 2:
     category: SUBSET

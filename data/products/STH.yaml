@@ -10,6 +10,7 @@ products:
       mcmId: '210085'
       scgId: SLD-MTG-BBX-STH-EN
       tcgplayerProductId: '27307'
+      tntId: '89055'
     subtype: DEFAULT
   Stronghold Booster Pack:
     category: BOOSTER_PACK
@@ -21,6 +22,7 @@ products:
       mcmId: '210019'
       scgId: SLD-MTG-PCK-STH-EN
       tcgplayerProductId: '27369'
+      tntId: '89056'
     subtype: DEFAULT
   Stronghold Theme Deck Call of the Kor:
     category: DECK
@@ -30,12 +32,14 @@ products:
       cardtraderId: '45335'
       mcmId: '253786'
       tcgplayerProductId: '139150'
+      tntId: '106944'
     subtype: THEME
   Stronghold Theme Deck Display:
     category: DECK_BOX
     identifiers:
       cardtraderId: '45338'
       mcmId: '210240'
+      tntId: '89067'
     subtype: THEME
   Stronghold Theme Deck Migraine:
     category: DECK
@@ -45,6 +49,7 @@ products:
       cardtraderId: '45336'
       mcmId: '253787'
       tcgplayerProductId: '175072'
+      tntId: '106951'
     subtype: THEME
   Stronghold Theme Deck The Sparkler:
     category: DECK
@@ -54,6 +59,7 @@ products:
       cardtraderId: '45334'
       mcmId: '253788'
       tcgplayerProductId: '139149'
+      tntId: '106921'
     subtype: THEME
   Stronghold Theme Deck The Spikes:
     category: DECK
@@ -63,4 +69,5 @@ products:
       cardtraderId: '45337'
       mcmId: '253789'
       tcgplayerProductId: '175071'
+      tntId: '106955'
     subtype: THEME
