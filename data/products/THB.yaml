@@ -3,6 +3,7 @@ products:
   Theros Beyond Death Bundle:
     category: BUNDLE
     identifiers:
+      abuId: '1797814'
       cardKingdomId: '230635'
       cardtraderId: '62419'
       csiId: '287291'
@@ -14,6 +15,7 @@ products:
   Theros Beyond Death Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1797815'
       cardKingdomId: '230652'
       cardtraderId: '62563'
       csiId: '287303'
@@ -30,6 +32,7 @@ products:
   Theros Beyond Death Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2183768'
       cardKingdomId: '230651'
       cardtraderId: '62564'
       csiId: '287304'
@@ -40,6 +43,7 @@ products:
   Theros Beyond Death Deck Builders Toolkit:
     category: KIT
     identifiers:
+      abuId: '1797817'
       cardKingdomId: '230653'
       cardtraderId: '62565'
       csiId: '287305'
@@ -50,6 +54,7 @@ products:
   Theros Beyond Death Draft Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1797812'
       cardKingdomId: '230630'
       cardtraderId: '62418'
       csiId: '287287'
@@ -67,6 +72,7 @@ products:
   Theros Beyond Death Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1797813'
       cardKingdomId: '230629'
       cardtraderId: '62417'
       csiId: '287290'
@@ -77,6 +83,7 @@ products:
   Theros Beyond Death Planeswalker Deck Ashiok:
     category: DECK
     identifiers:
+      abuId: '1807650'
       cardKingdomId: '230632'
       cardtraderId: '104648'
       csiId: '287293'
@@ -94,6 +101,7 @@ products:
   Theros Beyond Death Planeswalker Deck Elspeth:
     category: DECK
     identifiers:
+      abuId: '1797818'
       cardKingdomId: '230633'
       cardtraderId: '104649'
       csiId: '287292'
@@ -104,12 +112,14 @@ products:
   Theros Beyond Death Planeswalker Decks Set of 2:
     category: SUBSET
     identifiers:
+      abuId: '1797819'
       tcgplayerProductId: '206257'
     release_date: '2020-01-24'
     subtype: PLANESWALKER
   Theros Beyond Death Prerelease Pack:
     category: LIMITED
     identifiers:
+      abuId: '1807651'
       cardtraderId: '105942'
       csiId: '292665'
       mcmId: '435694'
@@ -132,6 +142,7 @@ products:
   Theros Beyond Death Theme Booster Pack Black:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1812191'
       cardtraderId: '62557'
       csiId: '287306'
       mcmId: '426891'
@@ -141,6 +152,7 @@ products:
   Theros Beyond Death Theme Booster Pack Blue:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1812190'
       cardtraderId: '62556'
       csiId: '287307'
       mcmId: '426886'
@@ -150,6 +162,7 @@ products:
   Theros Beyond Death Theme Booster Pack Green:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1812193'
       cardtraderId: '62561'
       csiId: '287308'
       mcmId: '426901'
@@ -159,6 +172,7 @@ products:
   Theros Beyond Death Theme Booster Pack Red:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1812192'
       cardtraderId: '62559'
       csiId: '287309'
       mcmId: '426896'
@@ -175,6 +189,7 @@ products:
   Theros Beyond Death Theme Booster Pack White:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1812189'
       cardtraderId: '62555'
       csiId: '287310'
       mcmId: '426881'

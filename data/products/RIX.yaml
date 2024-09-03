@@ -3,6 +3,7 @@ products:
   Rivals of Ixalan Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1486300'
       cardKingdomId: '215984'
       cardtraderId: '48619'
       csiId: '243762'
@@ -20,6 +21,7 @@ products:
   Rivals of Ixalan Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1973144'
       cardKingdomId: '215985'
       cardtraderId: '48618'
       csiId: '244209'
@@ -30,6 +32,7 @@ products:
   Rivals of Ixalan Bundle:
     category: BUNDLE
     identifiers:
+      abuId: '1486342'
       cardKingdomId: '215986'
       cardtraderId: '48627'
       csiId: '244214'
@@ -41,6 +44,7 @@ products:
   Rivals of Ixalan Planeswalker Deck Angrath:
     category: DECK
     identifiers:
+      abuId: '1486346'
       cardKingdomId: '216002'
       cardtraderId: '48629'
       csiId: '244213'
@@ -55,6 +59,7 @@ products:
   Rivals of Ixalan Planeswalker Deck Vraska:
     category: DECK
     identifiers:
+      abuId: '1486379'
       cardKingdomId: '216001'
       cardtraderId: '48628'
       csiId: '244212'
@@ -65,12 +70,14 @@ products:
   Rivals of Ixalan Planeswalker Decks Set of 2:
     category: SUBSET
     identifiers:
+      abuId: '1486380'
       tcgplayerProductId: '154416'
     release_date: '2018-01-19'
     subtype: PLANESWALKER
   Rivals of Ixalan Prerelease Pack:
     category: LIMITED
     identifiers:
+      abuId: '1486381'
       cardKingdomId: '217030'
       cardtraderId: '48630'
       mcmId: '315639'

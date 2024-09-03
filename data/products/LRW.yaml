@@ -3,6 +3,7 @@ products:
   Lorwyn Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1100731'
       cardKingdomId: '123483'
       cardtraderId: '47236'
       csiId: '97725'
@@ -13,6 +14,7 @@ products:
   Lorwyn Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476895'
       cardKingdomId: '123484'
       cardtraderId: '47235'
       csiId: '97745'
@@ -23,6 +25,7 @@ products:
   Lorwyn Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1100732'
       cardKingdomId: '123486'
       cardtraderId: '47243'
       csiId: '97746'
@@ -33,6 +36,7 @@ products:
   Lorwyn Theme Deck Boggart Feast:
     category: DECK
     identifiers:
+      abuId: '1100734'
       cardKingdomId: '123783'
       cardtraderId: '47245'
       mcmId: '253643'
@@ -41,12 +45,14 @@ products:
   Lorwyn Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1107904'
       cardtraderId: '47251'
       mcmId: '210210'
     subtype: THEME
   Lorwyn Theme Deck Elementals Path:
     category: DECK
     identifiers:
+      abuId: '1100735'
       cardKingdomId: '123786'
       cardtraderId: '47246'
       mcmId: '253644'
@@ -55,6 +61,7 @@ products:
   Lorwyn Theme Deck Elvish Predation:
     category: DECK
     identifiers:
+      abuId: '1100737'
       cardKingdomId: '123782'
       cardtraderId: '47247'
       mcmId: '253645'
@@ -63,6 +70,7 @@ products:
   Lorwyn Theme Deck Kithkin Militia:
     category: DECK
     identifiers:
+      abuId: '1100738'
       cardKingdomId: '123784'
       cardtraderId: '47244'
       mcmId: '253646'
@@ -71,6 +79,7 @@ products:
   Lorwyn Theme Deck Merrow Riverways:
     category: DECK
     identifiers:
+      abuId: '1107902'
       cardKingdomId: '123785'
       cardtraderId: '47248'
       mcmId: '253647'
@@ -79,6 +88,7 @@ products:
   Lorwyn Tournament Pack:
     category: LIMITED
     identifiers:
+      abuId: '1100733'
       cardKingdomId: '123487'
       cardtraderId: '47249'
       mcmId: '248479'
@@ -88,6 +98,7 @@ products:
   Lorwyn Tournament Pack Display:
     category: LIMITED_CASE
     identifiers:
+      abuId: '1107899'
       cardKingdomId: '240164'
       cardtraderId: '47250'
       mcmId: '253864'

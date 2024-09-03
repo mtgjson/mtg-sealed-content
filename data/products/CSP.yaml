@@ -3,6 +3,7 @@ products:
   Coldsnap Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1107818'
       cardKingdomId: '120632'
       cardtraderId: '47117'
       csiId: '97436'
@@ -13,6 +14,7 @@ products:
   Coldsnap Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476861'
       cardKingdomId: '120633'
       cardtraderId: '47116'
       csiId: '97446'
@@ -23,6 +25,7 @@ products:
   Coldsnap Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1107819'
       cardKingdomId: '120635'
       cardtraderId: '47118'
       csiId: '97447'
@@ -33,6 +36,7 @@ products:
   Coldsnap Theme Deck Aurochs Stampede:
     category: DECK
     identifiers:
+      abuId: '1107817'
       cardKingdomId: '121021'
       cardtraderId: '47120'
       mcmId: '253665'
@@ -41,6 +45,7 @@ products:
   Coldsnap Theme Deck Beyond the Grave:
     category: DECK
     identifiers:
+      abuId: '1107823'
       cardKingdomId: '121022'
       cardtraderId: '47122'
       mcmId: '253666'
@@ -49,12 +54,14 @@ products:
   Coldsnap Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1476862'
       cardtraderId: '47123'
       mcmId: '210211'
     subtype: THEME
   Coldsnap Theme Deck Kjeldoran Cunning:
     category: DECK
     identifiers:
+      abuId: '1107824'
       cardKingdomId: '121023'
       cardtraderId: '47121'
       mcmId: '253667'
@@ -63,6 +70,7 @@ products:
   Coldsnap Theme Deck Snowscape:
     category: DECK
     identifiers:
+      abuId: '1100315'
       cardKingdomId: '121024'
       cardtraderId: '47119'
       mcmId: '253668'

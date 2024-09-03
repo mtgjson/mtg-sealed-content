@@ -3,6 +3,7 @@ products:
   Guildpact Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1100578'
       cardKingdomId: '119571'
       cardtraderId: '47080'
       csiId: '97646'
@@ -13,6 +14,7 @@ products:
   Guildpact Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476883'
       cardKingdomId: '119572'
       cardtraderId: '47079'
       csiId: '97656'
@@ -23,6 +25,7 @@ products:
   Guildpact Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1107869'
       cardKingdomId: '119577'
       cardtraderId: '47081'
       csiId: '97657'
@@ -33,6 +36,7 @@ products:
   Guildpact Theme Deck Code of the Orzhov:
     category: DECK
     identifiers:
+      abuId: '1100579'
       cardKingdomId: '119573'
       cardtraderId: '47082'
       mcmId: '253672'
@@ -41,12 +45,14 @@ products:
   Guildpact Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1100586'
       cardtraderId: '47087'
       mcmId: '210221'
     subtype: THEME
   Guildpact Theme Deck Gruul Wilding:
     category: DECK
     identifiers:
+      abuId: '1100580'
       cardKingdomId: '119574'
       cardtraderId: '47084'
       mcmId: '253673'
@@ -55,6 +61,7 @@ products:
   Guildpact Theme Deck Izzet Gizmometry:
     category: DECK
     identifiers:
+      abuId: '1100584'
       cardKingdomId: '119575'
       cardtraderId: '47085'
       mcmId: '253674'

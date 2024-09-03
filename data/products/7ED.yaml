@@ -9,6 +9,7 @@ products:
   Seventh Edition Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1100064'
       cardKingdomId: '1301'
       cardtraderId: '45958'
       csiId: '97296'
@@ -19,6 +20,7 @@ products:
   Seventh Edition Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476805'
       cardKingdomId: '1302'
       cardtraderId: '45956'
       csiId: '97298'
@@ -34,6 +36,7 @@ products:
   Seventh Edition Theme Deck Armada:
     category: DECK
     identifiers:
+      abuId: '1100065'
       cardKingdomId: '1303'
       cardtraderId: '45959'
       mcmId: '253736'
@@ -42,6 +45,7 @@ products:
   Seventh Edition Theme Deck Bomber:
     category: DECK
     identifiers:
+      abuId: '1100066'
       cardKingdomId: '1304'
       cardtraderId: '45960'
       mcmId: '253737'
@@ -50,6 +54,7 @@ products:
   Seventh Edition Theme Deck Decay:
     category: DECK
     identifiers:
+      abuId: '1100068'
       cardKingdomId: '1305'
       cardtraderId: '45961'
       csiId: '262440'
@@ -59,12 +64,14 @@ products:
   Seventh Edition Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1526727'
       cardtraderId: '45965'
       mcmId: '210239'
     subtype: THEME
   Seventh Edition Theme Deck Infestation:
     category: DECK
     identifiers:
+      abuId: '1100069'
       cardKingdomId: '1306'
       cardtraderId: '45962'
       csiId: '262441'
@@ -74,6 +81,7 @@ products:
   Seventh Edition Theme Deck Way Wild:
     category: DECK
     identifiers:
+      abuId: '1100070'
       cardKingdomId: '1307'
       cardtraderId: '45963'
       csiId: '279810'
@@ -83,6 +91,7 @@ products:
   Seventh Edition Two Player Starter:
     category: MULTI_DECK
     identifiers:
+      abuId: '1100067'
       cardKingdomId: '213505'
       cardtraderId: '45964'
       mcmId: '254936'
@@ -90,5 +99,6 @@ products:
     subtype: TWO_PLAYER_STARTER
   Seventh Edition Two Player Starter Set Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      abuId: '1526730'
     subtype: TWO_PLAYER_STARTER

@@ -3,6 +3,7 @@ products:
   Aether Revolt Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1476808'
       cardKingdomId: '210368'
       cardtraderId: '48493'
       csiId: '228466'
@@ -18,6 +19,7 @@ products:
   Aether Revolt Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1796159'
       cardKingdomId: '210369'
       cardtraderId: '48492'
       csiId: '228467'
@@ -28,6 +30,7 @@ products:
   Aether Revolt Bundle:
     category: BUNDLE
     identifiers:
+      abuId: '1476821'
       cardKingdomId: '210380'
       cardtraderId: '48500'
       csiId: '228470'
@@ -38,6 +41,7 @@ products:
   Aether Revolt Planeswalker Deck Ajani:
     category: DECK
     identifiers:
+      abuId: '1476822'
       cardKingdomId: '210388'
       cardtraderId: '48501'
       csiId: '228479'
@@ -51,6 +55,7 @@ products:
   Aether Revolt Planeswalker Deck Tezzeret:
     category: DECK
     identifiers:
+      abuId: '1476823'
       cardKingdomId: '210377'
       cardtraderId: '48502'
       mcmId: '294546'
@@ -59,11 +64,13 @@ products:
   Aether Revolt Planeswalker Decks Set of 2:
     category: SUBSET
     identifiers:
+      abuId: '1476824'
       tcgplayerProductId: '125800'
     subtype: PLANESWALKER
   Aether Revolt Prerelease Pack:
     category: LIMITED
     identifiers:
+      abuId: '1476825'
       cardKingdomId: '210972'
       cardtraderId: '48503'
       mcmId: '294545'

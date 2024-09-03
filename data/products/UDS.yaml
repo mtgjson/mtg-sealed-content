@@ -3,6 +3,7 @@ products:
   Urzas Destiny Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1100035'
       cardKingdomId: '1151'
       cardtraderId: '45487'
       csiId: '98252'
@@ -13,6 +14,7 @@ products:
   Urzas Destiny Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476958'
       cardKingdomId: '1152'
       cardtraderId: '45486'
       csiId: '98255'
@@ -23,6 +25,7 @@ products:
   Urzas Destiny Theme Deck Assassin:
     category: DECK
     identifiers:
+      abuId: '1100295'
       cardKingdomId: '1153'
       cardtraderId: '45488'
       mcmId: '253769'
@@ -39,12 +42,14 @@ products:
   Urzas Destiny Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1476959'
       cardtraderId: '45493'
       mcmId: '210245'
     subtype: THEME
   Urzas Destiny Theme Deck Enchanter:
     category: DECK
     identifiers:
+      abuId: '1100299'
       cardKingdomId: '1155'
       cardtraderId: '45490'
       mcmId: '253771'
@@ -53,6 +58,7 @@ products:
   Urzas Destiny Theme Deck Fiendish Nature:
     category: DECK
     identifiers:
+      abuId: '1100297'
       cardKingdomId: '1156'
       cardtraderId: '45491'
       csiId: '262435'

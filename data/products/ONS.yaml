@@ -3,6 +3,7 @@ products:
   Onslaught Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1100954'
       cardKingdomId: '1506'
       cardtraderId: '46311'
       csiId: '97989'
@@ -13,6 +14,7 @@ products:
   Onslaught Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476918'
       cardKingdomId: '1507'
       cardtraderId: '46309'
       csiId: '97997'
@@ -33,6 +35,7 @@ products:
   Onslaught Theme Deck Bait and Switch:
     category: DECK
     identifiers:
+      abuId: '1476919'
       cardKingdomId: '1509'
       cardtraderId: '46314'
       mcmId: '253716'
@@ -41,6 +44,7 @@ products:
   Onslaught Theme Deck Celestial Assault:
     category: DECK
     identifiers:
+      abuId: '1100963'
       cardKingdomId: '1510'
       cardtraderId: '46315'
       mcmId: '253717'
@@ -49,6 +53,7 @@ products:
   Onslaught Theme Deck Devastation:
     category: DECK
     identifiers:
+      abuId: '1100965'
       cardKingdomId: '1512'
       cardtraderId: '46316'
       mcmId: '253718'
@@ -57,12 +62,14 @@ products:
   Onslaught Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1100968'
       cardtraderId: '46322'
       mcmId: '210235'
     subtype: THEME
   Onslaught Theme Deck Ivory Doom:
     category: DECK
     identifiers:
+      abuId: '1100967'
       cardKingdomId: '1511'
       cardtraderId: '46317'
       mcmId: '253719'
@@ -71,6 +78,7 @@ products:
   Onslaught Tournament Pack:
     category: LIMITED
     identifiers:
+      abuId: '1100952'
       cardKingdomId: '1508'
       cardtraderId: '46320'
       mcmId: '248483'
@@ -80,6 +88,7 @@ products:
   Onslaught Tournament Pack Display:
     category: LIMITED_CASE
     identifiers:
+      abuId: '1100960'
       cardtraderId: '46323'
       mcmId: '253859'
       scgId: SLD-MTG-BBX-ONSTOURNAMENT-EN

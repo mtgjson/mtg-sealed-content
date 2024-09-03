@@ -3,6 +3,7 @@ products:
   Exodus Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1100503'
       cardKingdomId: '1235'
       cardtraderId: '45418'
       csiId: '97600'
@@ -13,6 +14,7 @@ products:
   Exodus Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476875'
       cardKingdomId: '1175'
       cardtraderId: '45417'
       csiId: '97602'
@@ -23,12 +25,14 @@ products:
   Exodus Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1476876'
       cardtraderId: '45423'
       mcmId: '210228'
     subtype: THEME
   Exodus Theme Deck Dominator:
     category: DECK
     identifiers:
+      abuId: '1100504'
       cardKingdomId: '1176'
       cardtraderId: '45419'
       mcmId: '244174'
@@ -37,6 +41,7 @@ products:
   Exodus Theme Deck Groundbreaker:
     category: DECK
     identifiers:
+      abuId: '1100497'
       cardKingdomId: '1177'
       cardtraderId: '45420'
       mcmId: '244175'
@@ -45,6 +50,7 @@ products:
   Exodus Theme Deck White Heat:
     category: DECK
     identifiers:
+      abuId: '1100495'
       cardKingdomId: '1178'
       cardtraderId: '45421'
       mcmId: '244176'
@@ -53,6 +59,7 @@ products:
   Exodus Theme Deck Widowmaker:
     category: DECK
     identifiers:
+      abuId: '1100498'
       cardKingdomId: '1179'
       cardtraderId: '45422'
       mcmId: '244177'

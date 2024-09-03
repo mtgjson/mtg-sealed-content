@@ -3,6 +3,7 @@ products:
   2017 Gift Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1476799'
       csiId: '243743'
       mcmId: '299077'
     subtype: GIFT_BUNDLE
@@ -21,6 +22,7 @@ products:
   Ixalan Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1476982'
       cardKingdomId: '213868'
       cardtraderId: '48567'
       csiId: '241704'
@@ -38,6 +40,7 @@ products:
   Ixalan Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1796201'
       cardKingdomId: '213869'
       cardtraderId: '48566'
       csiId: '241703'
@@ -49,6 +52,7 @@ products:
   Ixalan Bundle:
     category: BUNDLE
     identifiers:
+      abuId: '1476989'
       cardKingdomId: '213871'
       cardtraderId: '48575'
       csiId: '241727'
@@ -60,6 +64,7 @@ products:
   Ixalan Deck Builders Toolkit:
     category: KIT
     identifiers:
+      abuId: '1476975'
       cardKingdomId: '213877'
       cardtraderId: '48579'
       mcmId: '301842'
@@ -69,6 +74,7 @@ products:
   Ixalan Planeswalker Deck Huatli:
     category: DECK
     identifiers:
+      abuId: '1476990'
       cardKingdomId: '213983'
       cardtraderId: '48576'
       csiId: '241701'
@@ -79,6 +85,7 @@ products:
   Ixalan Planeswalker Deck Jace:
     category: DECK
     identifiers:
+      abuId: '1476991'
       cardKingdomId: '213984'
       cardtraderId: '48577'
       csiId: '241700'
@@ -89,11 +96,13 @@ products:
   Ixalan Planeswalker Decks Set of 2:
     category: SUBSET
     identifiers:
+      abuId: '1476992'
       tcgplayerProductId: '145218'
     subtype: PLANESWALKER
   Ixalan Prerelease Pack:
     category: LIMITED
     identifiers:
+      abuId: '1476993'
       cardKingdomId: '214684'
       cardtraderId: '48578'
       mcmId: '302094'

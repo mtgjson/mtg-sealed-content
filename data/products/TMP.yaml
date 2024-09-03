@@ -3,6 +3,7 @@ products:
   Tempest Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1108012'
       cardKingdomId: '1242'
       cardtraderId: '45307'
       csiId: '98221'
@@ -13,6 +14,7 @@ products:
   Tempest Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476947'
       cardKingdomId: '1201'
       cardtraderId: '45306'
       csiId: '98222'
@@ -23,6 +25,7 @@ products:
   Tempest Starter Deck:
     category: LIMITED
     identifiers:
+      abuId: '1101183'
       cardKingdomId: '1202'
       cardtraderId: '45312'
       mcmId: '248499'
@@ -40,6 +43,7 @@ products:
   Tempest Theme Deck Deep Freeze:
     category: DECK
     identifiers:
+      abuId: '1101185'
       cardKingdomId: '1437'
       cardtraderId: '45308'
       mcmId: '253790'
@@ -48,12 +52,14 @@ products:
   Tempest Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1476948'
       cardtraderId: '45313'
       mcmId: '210241'
     subtype: THEME
   Tempest Theme Deck The Flames of Rath:
     category: DECK
     identifiers:
+      abuId: '1101186'
       cardKingdomId: '1438'
       cardtraderId: '45309'
       mcmId: '253791'
@@ -62,6 +68,7 @@ products:
   Tempest Theme Deck The Slivers:
     category: DECK
     identifiers:
+      abuId: '1101187'
       cardKingdomId: '1439'
       cardtraderId: '45310'
       mcmId: '253792'
@@ -70,6 +77,7 @@ products:
   Tempest Theme Deck The Swarm:
     category: DECK
     identifiers:
+      abuId: '1101188'
       cardKingdomId: '1440'
       cardtraderId: '45311'
       mcmId: '253793'

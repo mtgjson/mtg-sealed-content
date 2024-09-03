@@ -3,6 +3,7 @@ products:
   Urzas Saga Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1107800'
       cardKingdomId: '1204'
       cardtraderId: '45441'
       csiId: '98379'
@@ -13,6 +14,7 @@ products:
   Urzas Saga Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476962'
       cardKingdomId: '1203'
       cardtraderId: '45440'
       csiId: '98381'
@@ -23,12 +25,14 @@ products:
   Urzas Saga Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1476963'
       cardtraderId: '45447'
       mcmId: '210243'
     subtype: THEME
   Urzas Saga Theme Deck Sleeper:
     category: DECK
     identifiers:
+      abuId: '1100276'
       cardKingdomId: '1205'
       cardtraderId: '45442'
       csiId: '279786'
@@ -38,6 +42,7 @@ products:
   Urzas Saga Theme Deck Special Delivery:
     category: DECK
     identifiers:
+      abuId: '1100271'
       cardKingdomId: '1206'
       cardtraderId: '45443'
       mcmId: '253778'
@@ -46,6 +51,7 @@ products:
   Urzas Saga Theme Deck The Plague:
     category: DECK
     identifiers:
+      abuId: '1100281'
       cardKingdomId: '1207'
       cardtraderId: '45444'
       mcmId: '253779'
@@ -54,6 +60,7 @@ products:
   Urzas Saga Theme Deck Tombstone:
     category: DECK
     identifiers:
+      abuId: '1100283'
       cardKingdomId: '1208'
       cardtraderId: '45445'
       csiId: '279787'
@@ -63,6 +70,7 @@ products:
   Urzas Saga Tournament Pack:
     category: LIMITED
     identifiers:
+      abuId: '1100268'
       cardKingdomId: '1209'
       cardtraderId: '45446'
       mcmId: '244178'
@@ -72,6 +80,7 @@ products:
   Urzas Saga Tournament Pack Display:
     category: LIMITED_CASE
     identifiers:
+      abuId: '1107802'
       cardtraderId: '45448'
       mcmId: '253854'
       scgId: SLD-MTG-BBX-USGTOURNAMENT-EN

@@ -3,6 +3,7 @@ products:
   Morningtide Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1107957'
       cardKingdomId: '124154'
       cardtraderId: '47258'
       csiId: '97923'
@@ -13,6 +14,7 @@ products:
   Morningtide Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476911'
       cardKingdomId: '124155'
       cardtraderId: '47257'
       csiId: '97936'
@@ -23,6 +25,7 @@ products:
   Morningtide Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1100899'
       cardKingdomId: '124156'
       cardtraderId: '47264'
       csiId: '97937'
@@ -33,6 +36,7 @@ products:
   Morningtide Theme Deck Battalion:
     category: DECK
     identifiers:
+      abuId: '1100900'
       cardKingdomId: '124463'
       cardtraderId: '47267'
       mcmId: '253639'
@@ -41,12 +45,14 @@ products:
   Morningtide Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1476912'
       cardtraderId: '47269'
       mcmId: '210209'
     subtype: THEME
   Morningtide Theme Deck Going Rogue:
     category: DECK
     identifiers:
+      abuId: '1100903'
       cardKingdomId: '124464'
       cardtraderId: '47265'
       mcmId: '253640'
@@ -55,6 +61,7 @@ products:
   Morningtide Theme Deck Shamanism:
     category: DECK
     identifiers:
+      abuId: '1100904'
       cardKingdomId: '124465'
       cardtraderId: '47268'
       mcmId: '253641'
@@ -63,6 +70,7 @@ products:
   Morningtide Theme Deck Warriors Code:
     category: DECK
     identifiers:
+      abuId: '1100901'
       cardKingdomId: '124466'
       cardtraderId: '47266'
       mcmId: '253642'
