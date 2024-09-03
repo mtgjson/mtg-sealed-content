@@ -18,6 +18,7 @@ provmap = {
     "miniaturemarketId": "miniaturemarket",
     "scgId": "starcitygames",
     "csiId": "coolstuffinc",
+    "abuId": "abugames",
 }
 
 review_products = []
