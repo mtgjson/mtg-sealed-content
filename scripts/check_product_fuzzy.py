@@ -49,6 +49,12 @@ while index < len(review_products):
     except EOFError:
         sys.exit(1)
 
+    # Look for the product name itself
+    for i in range(len(known_products)):
+        if product_check.strip().lower() == known_products[i][0].lower():
+            product_check = "0"
+            offset = i
+
     if product_check == "q":
         break
     elif product_check == "s":
@@ -121,7 +127,7 @@ while index < len(review_products):
         index -= 1
         if product_check != "h":
             print(f"Invalid action: {product_check}")
-        print("Available actions: q - quit / s - skip / i - ignore / m - more / b - back / u - undo / [0]124 - pick")
+        print("Available actions: q - quit / s - skip / i - ignore / m - more / b - back / u - undo / [0]124 - pick / use the exact name of the product")
 
     if product_check not in "mb":
         offset = 0
