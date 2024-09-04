@@ -10,10 +10,12 @@ products:
       mcmId: '245725'
       scgId: SLD-MTG-BXS-DDG-EN
       tcgplayerProductId: '78342'
+      tntId: '322682'
     subtype: DUEL
   Duel Deck Knights vs Dragons Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      tntId: '322681'
     subtype: DUEL
   Duel Deck Knights vs Dragons Dragons Deck:
     category: DECK

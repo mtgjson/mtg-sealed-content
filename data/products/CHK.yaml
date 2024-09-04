@@ -10,6 +10,7 @@ products:
       mcmId: '210113'
       scgId: SLD-MTG-BBX-CHK-EN
       tcgplayerProductId: '27268'
+      tntId: '118451'
     subtype: DEFAULT
   Champions of Kamigawa Booster Pack:
     category: BOOSTER_PACK
@@ -21,6 +22,7 @@ products:
       mcmId: '210047'
       scgId: SLD-MTG-PCK-CHK-EN
       tcgplayerProductId: '27330'
+      tntId: '118452'
     subtype: DEFAULT
   Champions of Kamigawa Fat Pack:
     category: BUNDLE
@@ -31,6 +33,7 @@ products:
       mcmId: '210176'
       scgId: SLD-MTG-BUN-CHK-EN
       tcgplayerProductId: '78305'
+      tntId: '155104'
     subtype: FAT_PACK
   Champions of Kamigawa Theme Deck Display:
     category: DECK_BOX
@@ -38,6 +41,7 @@ products:
       abuId: '1476859'
       cardtraderId: '46888'
       mcmId: '210218'
+      tntId: '118459'
     subtype: THEME
   Champions of Kamigawa Theme Deck Kami Reborn:
     category: DECK
@@ -47,6 +51,7 @@ products:
       cardtraderId: '46886'
       mcmId: '253692'
       tcgplayerProductId: '100232'
+      tntId: '118455'
     subtype: THEME
   Champions of Kamigawa Theme Deck Snakes Path:
     category: DECK
@@ -56,6 +61,7 @@ products:
       cardtraderId: '46883'
       mcmId: '253693'
       tcgplayerProductId: '100233'
+      tntId: '118456'
     subtype: THEME
   Champions of Kamigawa Theme Deck Spiritbane:
     category: DECK
@@ -65,6 +71,7 @@ products:
       cardtraderId: '46884'
       mcmId: '253694'
       tcgplayerProductId: '100231'
+      tntId: '118457'
     subtype: THEME
   Champions of Kamigawa Theme Deck Way of the Warrior:
     category: DECK
@@ -74,6 +81,7 @@ products:
       cardtraderId: '46885'
       mcmId: '253695'
       tcgplayerProductId: '100234'
+      tntId: '118458'
     subtype: THEME
   Champions of Kamigawa Tournament Pack:
     category: LIMITED
@@ -84,12 +92,15 @@ products:
       mcmId: '248477'
       scgId: SLD-MTG-PCK-CHKTOURNAMENT-EN
       tcgplayerProductId: '118879'
+      tntId: '118454'
     subtype: TOURNAMENT
   Champions of Kamigawa Tournament Pack Display:
     category: LIMITED_CASE
     identifiers:
+      abuId: '1107816'
       cardKingdomId: '240123'
       cardtraderId: '46889'
       mcmId: '253861'
       scgId: SLD-MTG-BBX-CHKTOURNAMENT-EN
+      tntId: '118453'
     subtype: TOURNAMENT

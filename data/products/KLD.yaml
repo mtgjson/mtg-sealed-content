@@ -10,12 +10,14 @@ products:
       mcmId: '290526'
       scgId: SLD-MTG-BBX-KLD-EN
       tcgplayerProductId: '121527'
+      tntId: '1096465'
     release_date: '2016-05-30'
     subtype: DEFAULT
   Kaladesh Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '121528'
+      tntId: '1096464'
     subtype: DEFAULT
   Kaladesh Booster Pack:
     category: BOOSTER_PACK
@@ -27,6 +29,7 @@ products:
       mcmId: '290527'
       scgId: SLD-MTG-PCK-KLD-EN
       tcgplayerProductId: '121529'
+      tntId: '1096466'
     release_date: '2016-05-30'
     subtype: DEFAULT
   Kaladesh Bundle:
@@ -39,6 +42,7 @@ products:
       mcmId: '292537'
       scgId: SLD-MTG-BUN-KLD-EN
       tcgplayerProductId: '122680'
+      tntId: '1096467'
     release_date: '2016-09-06'
     subtype: DEFAULT
   Kaladesh Deck Builders Toolkit:
@@ -49,6 +53,7 @@ products:
       cardtraderId: '48474'
       mcmId: '292536'
       tcgplayerProductId: '122679'
+      tntId: '1098356'
     release_date: '2016-09-06'
     subtype: DECK_BUILDERS_TOOLKIT
   Kaladesh Gift Box:
@@ -60,6 +65,7 @@ products:
       csiId: '229097'
       mcmId: '293173'
       tcgplayerProductId: '125323'
+      tntId: '1102288'
     release_date: '2016-10-07'
     subtype: GIFT_BUNDLE
   Kaladesh Holiday Buy a Box Promo Pack:
@@ -79,11 +85,13 @@ products:
       csiId: '228463'
       mcmId: '292528'
       tcgplayerProductId: '122682'
+      tntId: '1098354'
     release_date: '2016-09-06'
     subtype: PLANESWALKER
   Kaladesh Planeswalker Deck Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      tntId: '1104005'
     subtype: PLANESWALKER
   Kaladesh Planeswalker Deck Nissa:
     category: DECK
@@ -94,6 +102,7 @@ products:
       csiId: '228464'
       mcmId: '292527'
       tcgplayerProductId: '122683'
+      tntId: '1098355'
     release_date: '2016-09-06'
     subtype: PLANESWALKER
   Kaladesh Planeswalker Decks Set of 2:
@@ -101,6 +110,7 @@ products:
     identifiers:
       abuId: '1100687'
       tcgplayerProductId: '122684'
+      tntId: '1177925'
     subtype: PLANESWALKER
   Kaladesh Prerelease Kit:
     category: LIMITED

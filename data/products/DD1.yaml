@@ -10,10 +10,12 @@ products:
       mcmId: '240333'
       scgId: SLD-MTG-BXS-EVG-EN
       tcgplayerProductId: '32805'
+      tntId: '171165'
     subtype: DUEL
   Duel Deck Elves vs Goblins Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      tntId: '171164'
     subtype: DUEL
   Duel Deck Elves vs Goblins Elves Deck:
     category: DECK

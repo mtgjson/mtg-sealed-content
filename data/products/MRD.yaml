@@ -10,6 +10,7 @@ products:
       mcmId: '210110'
       scgId: SLD-MTG-BBX-MRD-EN
       tcgplayerProductId: '27291'
+      tntId: '110760'
     subtype: DEFAULT
   Mirrodin Booster Pack:
     category: BOOSTER_PACK
@@ -21,6 +22,7 @@ products:
       mcmId: '210044'
       scgId: SLD-MTG-PCK-MRD-EN
       tcgplayerProductId: '27353'
+      tntId: '110757'
     subtype: DEFAULT
   Mirrodin Fat Pack:
     category: BUNDLE
@@ -31,6 +33,7 @@ products:
       mcmId: '210179'
       scgId: SLD-MTG-BUN-MRD-EN
       tcgplayerProductId: '78320'
+      tntId: '155271'
     subtype: FAT_PACK
   Mirrodin Theme Deck Bait and Bludgeon:
     category: DECK
@@ -40,14 +43,17 @@ products:
       cardtraderId: '46518'
       mcmId: '253704'
       tcgplayerProductId: '127422'
+      tntId: '110754'
     subtype: THEME
   Mirrodin Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1107947'
       cardKingdomId: '240169'
       cardtraderId: '46523'
       mcmId: '210225'
       tcgplayerProductId: '227597'
+      tntId: '110758'
     subtype: THEME
   Mirrodin Theme Deck Little Bashers:
     category: DECK
@@ -57,6 +63,7 @@ products:
       cardtraderId: '46520'
       mcmId: '253705'
       tcgplayerProductId: '127421'
+      tntId: '110753'
     subtype: THEME
   Mirrodin Theme Deck Sacrificial Bam:
     category: DECK
@@ -66,6 +73,7 @@ products:
       cardtraderId: '46521'
       mcmId: '253706'
       tcgplayerProductId: '127424'
+      tntId: '110751'
     subtype: THEME
   Mirrodin Theme Deck Wicked Big:
     category: DECK
@@ -75,6 +83,7 @@ products:
       cardtraderId: '46519'
       mcmId: '253707'
       tcgplayerProductId: '127423'
+      tntId: '110752'
     subtype: THEME
   Mirrodin Tournament Pack:
     category: LIMITED
@@ -85,6 +94,7 @@ products:
       mcmId: '248481'
       scgId: SLD-MTG-PCK-MRDTOURNAMENT-EN
       tcgplayerProductId: '127431'
+      tntId: '110755'
     subtype: TOURNAMENT
   Mirrodin Tournament Pack Display:
     category: LIMITED_CASE
@@ -93,4 +103,5 @@ products:
       cardtraderId: '46524'
       mcmId: '253860'
       scgId: SLD-MTG-BBX-MRDTOURNAMENT-EN
+      tntId: '110759'
     subtype: TOURNAMENT

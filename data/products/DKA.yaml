@@ -10,6 +10,7 @@ products:
       mcmId: '252462'
       scgId: SLD-MTG-BBX-DKA-EN
       tcgplayerProductId: '57584'
+      tntId: '324358'
     release_date: '2012-02-03'
     subtype: DEFAULT
   Dark Ascension Booster Box Case:
@@ -27,10 +28,12 @@ products:
       mcmId: '252461'
       scgId: SLD-MTG-PCK-DKA-EN
       tcgplayerProductId: '57583'
+      tntId: '324359'
     subtype: DEFAULT
   Dark Ascension Event Deck Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      tntId: '330920'
     subtype: EVENT
   Dark Ascension Event Deck Gleeful Flames:
     category: DECK
@@ -40,6 +43,7 @@ products:
       cardtraderId: '47709'
       mcmId: '253039'
       tcgplayerProductId: '57898'
+      tntId: '330875'
     subtype: EVENT
   Dark Ascension Event Deck Spiraling Doom:
     category: DECK
@@ -49,6 +53,7 @@ products:
       cardtraderId: '47710'
       mcmId: '253040'
       tcgplayerProductId: '57899'
+      tntId: '330876'
     subtype: EVENT
   Dark Ascension Event Decks Set of 2:
     category: SUBSET
@@ -67,6 +72,7 @@ products:
       mcmId: '252463'
       scgId: SLD-MTG-BUN-DKA-EN
       tcgplayerProductId: '57580'
+      tntId: '324360'
     release_date: '2012-02-03'
     subtype: FAT_PACK
   Dark Ascension Intro Pack Dark Sacrifice:
@@ -77,6 +83,7 @@ products:
       cardtraderId: '47706'
       mcmId: '252508'
       tcgplayerProductId: '57627'
+      tntId: '329608'
     release_date: '2012-02-03'
     subtype: INTRO
   Dark Ascension Intro Pack Display:
@@ -84,6 +91,7 @@ products:
     identifiers:
       cardtraderId: '47711'
       mcmId: '252465'
+      tntId: '324361'
     subtype: INTRO
   Dark Ascension Intro Pack Grave Power:
     category: DECK
@@ -93,6 +101,7 @@ products:
       cardtraderId: '47704'
       mcmId: '252510'
       tcgplayerProductId: '57629'
+      tntId: '329610'
     release_date: '2012-02-03'
     subtype: INTRO
   Dark Ascension Intro Pack Monstrous Surprise:
@@ -103,6 +112,7 @@ products:
       cardtraderId: '47705'
       mcmId: '252509'
       tcgplayerProductId: '57628'
+      tntId: '329609'
     release_date: '2012-02-03'
     subtype: INTRO
   Dark Ascension Intro Pack Relentless Dead:
@@ -113,6 +123,7 @@ products:
       cardtraderId: '47703'
       mcmId: '252507'
       tcgplayerProductId: '57626'
+      tntId: '329607'
     release_date: '2012-02-03'
     subtype: INTRO
   Dark Ascension Intro Pack Set of 5:
@@ -130,6 +141,7 @@ products:
       cardtraderId: '47707'
       mcmId: '252506'
       tcgplayerProductId: '57625'
+      tntId: '329606'
     release_date: '2012-02-03'
     subtype: INTRO
   Dark Ascension Six Card Booster Pack:

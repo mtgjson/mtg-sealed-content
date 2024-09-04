@@ -10,12 +10,14 @@ products:
       mcmId: '292568'
       scgId: SLD-MTG-BBX-HOU-EN
       tcgplayerProductId: '131456'
+      tntId: '1102285'
     release_date: '2017-07-14'
     subtype: DEFAULT
   Hour of Devastation Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '131459'
+      tntId: '1102286'
     release_date: '2017-07-14'
     subtype: DEFAULT
   Hour of Devastation Booster Pack:
@@ -27,6 +29,7 @@ products:
       csiId: '232556'
       mcmId: '292569'
       tcgplayerProductId: '131457'
+      tntId: '1102284'
     release_date: '2017-07-14'
     subtype: DEFAULT
   Hour of Devastation Bundle:
@@ -39,11 +42,13 @@ products:
       mcmId: '292567'
       scgId: SLD-MTG-BUN-HOU-EN
       tcgplayerProductId: '131458'
+      tntId: '1114737'
     release_date: '2016-09-07'
     subtype: DEFAULT
   Hour of Devastation Planeswalker Deck Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      tntId: '1122076'
     subtype: PLANESWALKER
   Hour of Devastation Planeswalker Deck Nicol Bolas:
     category: DECK
@@ -54,6 +59,7 @@ products:
       csiId: '232590'
       mcmId: '298473'
       tcgplayerProductId: '134894'
+      tntId: '1102283'
     release_date: '2017-07-14'
     subtype: PLANESWALKER
   Hour of Devastation Planeswalker Deck Nissa:
@@ -65,6 +71,7 @@ products:
       csiId: '232591'
       mcmId: '298556'
       tcgplayerProductId: '134895'
+      tntId: '1102282'
     release_date: '2017-07-14'
     subtype: PLANESWALKER
   Hour of Devastation Planeswalker Decks Set of 2:
@@ -81,6 +88,7 @@ products:
       cardtraderId: '48562'
       mcmId: '299022'
       tcgplayerProductId: '137435'
+      tntId: '1190937'
     release_date: '2017-07-07'
     subtype: PRERELEASE
   Hour of Devastation Standard Showdown Booster:

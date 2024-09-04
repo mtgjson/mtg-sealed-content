@@ -10,6 +10,7 @@ products:
       mcmId: '210084'
       scgId: SLD-MTG-BBX-TMP-EN
       tcgplayerProductId: '27308'
+      tntId: '89387'
     subtype: DEFAULT
   Tempest Booster Pack:
     category: BOOSTER_PACK
@@ -21,6 +22,7 @@ products:
       mcmId: '210018'
       scgId: SLD-MTG-PCK-TMP-EN
       tcgplayerProductId: '27370'
+      tntId: '89386'
     subtype: DEFAULT
   Tempest Starter Deck:
     category: LIMITED
@@ -31,14 +33,17 @@ products:
       mcmId: '248499'
       scgId: SLD-MTG-PCK-TMPSTARTER-EN
       tcgplayerProductId: '127433'
+      tntId: '95962'
     subtype: STARTER
   Tempest Starter Deck Display:
     category: LIMITED_CASE
     identifiers:
+      abuId: '1101184'
       cardKingdomId: '240221'
       cardtraderId: '45314'
       mcmId: '272078'
       scgId: SLD-MTG-BBX-TMPSTARTER-EN
+      tntId: '89401'
     subtype: STARTER
   Tempest Theme Deck Deep Freeze:
     category: DECK
@@ -48,6 +53,7 @@ products:
       cardtraderId: '45308'
       mcmId: '253790'
       tcgplayerProductId: '236686'
+      tntId: '89398'
     subtype: THEME
   Tempest Theme Deck Display:
     category: DECK_BOX
@@ -55,6 +61,7 @@ products:
       abuId: '1476948'
       cardtraderId: '45313'
       mcmId: '210241'
+      tntId: '89399'
     subtype: THEME
   Tempest Theme Deck The Flames of Rath:
     category: DECK
@@ -64,6 +71,7 @@ products:
       cardtraderId: '45309'
       mcmId: '253791'
       tcgplayerProductId: '236687'
+      tntId: '107459'
     subtype: THEME
   Tempest Theme Deck The Slivers:
     category: DECK
@@ -73,6 +81,7 @@ products:
       cardtraderId: '45310'
       mcmId: '253792'
       tcgplayerProductId: '236688'
+      tntId: '92077'
     subtype: THEME
   Tempest Theme Deck The Swarm:
     category: DECK
@@ -82,4 +91,5 @@ products:
       cardtraderId: '45311'
       mcmId: '253793'
       tcgplayerProductId: '236689'
+      tntId: '94572'
     subtype: THEME

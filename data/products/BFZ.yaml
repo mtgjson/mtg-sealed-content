@@ -10,6 +10,7 @@ products:
       mcmId: '284302'
       scgId: SLD-MTG-BBX-BFZ-EN
       tcgplayerProductId: '102715'
+      tntId: '1075323'
     subtype: DEFAULT
   Battle for Zendikar Booster Box Case:
     category: BOOSTER_CASE
@@ -27,6 +28,7 @@ products:
       mcmId: '284301'
       scgId: SLD-MTG-PCK-BFZ-EN
       tcgplayerProductId: '102716'
+      tntId: '1075324'
     subtype: DEFAULT
   Battle for Zendikar Event Deck Ultimate Sacrifice:
     category: DECK
@@ -36,6 +38,7 @@ products:
       cardtraderId: '48350'
       mcmId: '284353'
       tcgplayerProductId: '102800'
+      tntId: '1075337'
     subtype: EVENT
   Battle for Zendikar Fat Pack:
     category: BUNDLE
@@ -47,6 +50,7 @@ products:
       mcmId: '284303'
       scgId: SLD-MTG-BUN-BFZ-EN
       tcgplayerProductId: '102801'
+      tntId: '1075325'
     release_date: '2015-10-02'
     subtype: FAT_PACK
   Battle for Zendikar Gift Box:
@@ -56,6 +60,7 @@ products:
       cardtraderId: '48352'
       mcmId: '285621'
       tcgplayerProductId: '102717'
+      tntId: '1081635'
     subtype: GIFT_BUNDLE
   Battle for Zendikar Hedron Prerelease Box:
     category: LIMITED_CASE
@@ -63,6 +68,7 @@ products:
       cardtraderId: '48351'
       mcmId: '284373'
       tcgplayerProductId: '105955'
+      tntId: '1096352'
     subtype: PRERELEASE
   Battle for Zendikar Intro Pack Call of Blood:
     category: DECK
@@ -72,12 +78,14 @@ products:
       cardtraderId: '48345'
       mcmId: '284346'
       tcgplayerProductId: '102721'
+      tntId: '1079427'
     subtype: INTRO
   Battle for Zendikar Intro Pack Display:
     category: DECK_BOX
     identifiers:
       cardtraderId: '48353'
       mcmId: '284352'
+      tntId: '1075326'
     subtype: INTRO
   Battle for Zendikar Intro Pack Eldrazi Assault:
     category: DECK
@@ -87,6 +95,7 @@ products:
       cardtraderId: '48349'
       mcmId: '284349'
       tcgplayerProductId: '102723'
+      tntId: '1079428'
     subtype: INTRO
   Battle for Zendikar Intro Pack Rallying Cry:
     category: DECK
@@ -97,6 +106,7 @@ products:
       csiId: '213629'
       mcmId: '284350'
       tcgplayerProductId: '102719'
+      tntId: '1079425'
     subtype: INTRO
   Battle for Zendikar Intro Pack Set of 5:
     category: SUBSET
@@ -113,6 +123,7 @@ products:
       cardtraderId: '48348'
       mcmId: '284347'
       tcgplayerProductId: '102720'
+      tntId: '1079426'
     subtype: INTRO
   Battle for Zendikar Intro Pack Zendikars Rage:
     category: DECK
@@ -122,4 +133,5 @@ products:
       cardtraderId: '48344'
       mcmId: '284348'
       tcgplayerProductId: '102722'
+      tntId: '1079429'
     subtype: INTRO

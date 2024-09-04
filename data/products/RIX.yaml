@@ -10,12 +10,14 @@ products:
       mcmId: '299079'
       scgId: SLD-MTG-BBX-RIX-EN
       tcgplayerProductId: '149404'
+      tntId: '1145971'
     release_date: '2018-01-19'
     subtype: DEFAULT
   Rivals of Ixalan Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '149406'
+      tntId: '1145973'
     release_date: '2018-01-19'
     subtype: DEFAULT
   Rivals of Ixalan Booster Pack:
@@ -27,6 +29,7 @@ products:
       csiId: '244209'
       mcmId: '299080'
       tcgplayerProductId: '149405'
+      tntId: '1145972'
     release_date: '2018-01-19'
     subtype: DEFAULT
   Rivals of Ixalan Bundle:
@@ -39,6 +42,7 @@ products:
       mcmId: '299078'
       scgId: SLD-MTG-BUN-RIX-EN
       tcgplayerProductId: '154729'
+      tntId: '1145979'
     release_date: '2018-01-19'
     subtype: DEFAULT
   Rivals of Ixalan Planeswalker Deck Angrath:
@@ -50,11 +54,13 @@ products:
       csiId: '244213'
       mcmId: '314997'
       tcgplayerProductId: '154414'
+      tntId: '1145976'
     release_date: '2018-01-19'
     subtype: PLANESWALKER
   Rivals of Ixalan Planeswalker Deck Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      tntId: '1145978'
     subtype: PLANESWALKER
   Rivals of Ixalan Planeswalker Deck Vraska:
     category: DECK
@@ -65,6 +71,7 @@ products:
       csiId: '244212'
       mcmId: '314998'
       tcgplayerProductId: '154415'
+      tntId: '1145975'
     release_date: '2018-01-19'
     subtype: PLANESWALKER
   Rivals of Ixalan Planeswalker Decks Set of 2:

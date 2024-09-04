@@ -10,26 +10,31 @@ products:
       mcmId: '210120'
       scgId: SLD-MTG-BBX-RAV-EN
       tcgplayerProductId: '27302'
+      tntId: '128863'
     subtype: DEFAULT
   Ravnica Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476933'
       cardKingdomId: '118355'
       cardtraderId: '47057'
       csiId: '98072'
       mcmId: '210054'
       scgId: SLD-MTG-PCK-RAV-EN
       tcgplayerProductId: '27364'
+      tntId: '128853'
     subtype: DEFAULT
   Ravnica Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1101053'
       cardKingdomId: '122337'
       cardtraderId: '47059'
       csiId: '98073'
       mcmId: '210172'
       scgId: SLD-MTG-BUN-RAV-EN
       tcgplayerProductId: '78295'
+      tntId: '155295'
     subtype: FAT_PACK
   Ravnica Theme Deck Charge of the Boros:
     category: DECK
@@ -39,6 +44,7 @@ products:
       cardtraderId: '47061'
       mcmId: '253675'
       tcgplayerProductId: '96335'
+      tntId: '128857'
     subtype: THEME
   Ravnica Theme Deck Dimir Intrigues:
     category: DECK
@@ -48,6 +54,7 @@ products:
       cardtraderId: '47062'
       mcmId: '253676'
       tcgplayerProductId: '96336'
+      tntId: '128856'
     subtype: THEME
   Ravnica Theme Deck Display:
     category: DECK_BOX
@@ -64,6 +71,7 @@ products:
       cardtraderId: '47060'
       mcmId: '253677'
       tcgplayerProductId: '96337'
+      tntId: '128855'
     subtype: THEME
   Ravnica Theme Deck Selesnya United:
     category: DECK
@@ -73,6 +81,7 @@ products:
       cardtraderId: '47063'
       mcmId: '253678'
       tcgplayerProductId: '96339'
+      tntId: '128858'
     subtype: THEME
   Ravnica Tournament Pack:
     category: LIMITED
@@ -83,6 +92,7 @@ products:
       mcmId: '248484'
       scgId: SLD-MTG-PCK-RAVTOURNAMENT-EN
       tcgplayerProductId: '118876'
+      tntId: '128860'
     subtype: TOURNAMENT
   Ravnica Tournament Pack Display:
     category: LIMITED_CASE
@@ -93,4 +103,5 @@ products:
       mcmId: '253862'
       scgId: SLD-MTG-BBX-RAVTOURNAMENT-EN
       tcgplayerProductId: '265603'
+      tntId: '128859'
     subtype: TOURNAMENT

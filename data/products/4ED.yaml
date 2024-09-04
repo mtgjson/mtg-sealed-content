@@ -10,6 +10,7 @@ products:
       mcmId: '210076'
       scgId: SLD-MTG-BBX-4ED-EN
       tcgplayerProductId: '27279'
+      tntId: '79215'
     subtype: DEFAULT
   Fourth Edition Booster Pack:
     category: BOOSTER_PACK
@@ -21,6 +22,7 @@ products:
       mcmId: '210010'
       scgId: SLD-MTG-PCK-4ED-EN
       tcgplayerProductId: '27341'
+      tntId: '143406'
     subtype: DEFAULT
   Fourth Edition Gift Box:
     category: BUNDLE
@@ -28,6 +30,7 @@ products:
       cardtraderId: '164546'
       mcmId: '369562'
       tcgplayerProductId: '250109'
+      tntId: '92048'
     release_date: '2019-01-29'
     subtype: GIFT_BUNDLE
   Fourth Edition Starter Deck:
@@ -39,12 +42,15 @@ products:
       mcmId: '248495'
       scgId: SLD-MTG-PCK-4EDSTARTER-EN
       tcgplayerProductId: '194420'
+      tntId: '94544'
     subtype: STARTER
   Fourth Edition Starter Deck Display:
     category: LIMITED_CASE
     identifiers:
+      abuId: '1107724'
       cardtraderId: '43546'
       mcmId: '272023'
       scgId: SLD-MTG-BBX-4EDSTARTER-EN
       tcgplayerProductId: '250110'
+      tntId: '79218'
     subtype: STARTER

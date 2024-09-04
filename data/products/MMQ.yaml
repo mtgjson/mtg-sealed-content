@@ -10,6 +10,7 @@ products:
       mcmId: '210096'
       scgId: SLD-MTG-BBX-MMQ-EN
       tcgplayerProductId: '27289'
+      tntId: '85498'
     subtype: DEFAULT
   Mercadian Masques Booster Pack:
     category: BOOSTER_PACK
@@ -21,6 +22,7 @@ products:
       mcmId: '210030'
       scgId: SLD-MTG-PCK-MMQ-EN
       tcgplayerProductId: '27351'
+      tntId: '85499'
     subtype: DEFAULT
   Mercadian Masques Fat Pack:
     category: BUNDLE
@@ -32,6 +34,7 @@ products:
       mcmId: '210191'
       scgId: SLD-MTG-BUN-MMQ-EN
       tcgplayerProductId: '78319'
+      tntId: '155124'
     subtype: FAT_PACK
   Mercadian Masques Theme Deck Deepwood Menace:
     category: DECK
@@ -42,12 +45,14 @@ products:
       csiId: '279779'
       mcmId: '253757'
       tcgplayerProductId: '116038'
+      tntId: '106922'
     subtype: THEME
   Mercadian Masques Theme Deck Display:
     category: DECK_BOX
     identifiers:
       cardtraderId: '45604'
       mcmId: '210232'
+      tntId: '85512'
     subtype: THEME
   Mercadian Masques Theme Deck Disrupter:
     category: DECK
@@ -58,6 +63,7 @@ products:
       csiId: '279778'
       mcmId: '253758'
       tcgplayerProductId: '116039'
+      tntId: '106938'
     subtype: THEME
   Mercadian Masques Theme Deck Rebels Call:
     category: DECK
@@ -68,6 +74,7 @@ products:
       csiId: '279780'
       mcmId: '253759'
       tcgplayerProductId: '116040'
+      tntId: '106937'
     subtype: THEME
   Mercadian Masques Theme Deck Tidal Mastery:
     category: DECK
@@ -78,6 +85,7 @@ products:
       csiId: '279784'
       mcmId: '253760'
       tcgplayerProductId: '116041'
+      tntId: '106927'
     subtype: THEME
   Mercadian Masques Tournament Pack:
     category: LIMITED
@@ -88,12 +96,15 @@ products:
       mcmId: '248480'
       scgId: SLD-MTG-PCK-MMQTOURNAMENT-EN
       tcgplayerProductId: '125561'
+      tntId: '85515'
     subtype: TOURNAMENT
   Mercadian Masques Tournament Pack Display:
     category: LIMITED_CASE
     identifiers:
+      abuId: '1107941'
       cardKingdomId: '240167'
       cardtraderId: '45605'
       mcmId: '253856'
       scgId: SLD-MTG-BBX-MMQTOURNAMENT-EN
+      tntId: '85514'
     subtype: TOURNAMENT
