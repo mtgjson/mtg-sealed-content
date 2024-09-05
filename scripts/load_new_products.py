@@ -612,22 +612,22 @@ def load_coolstuffinc_buylist(skip_tags):
     return sealed_data
 
 
-def get_abu_link(page):
-    return "https://data.abugames.com/solr/nodes/select?facet.field=magic_edition_related&facet.field=packaging_type&facet.field=price&facet.field=language_magic_sealed_product&facet.field=condition&facet.field=promotion&facet.field=production_status&facet.field=quantity&facet.mincount=1&facet.limit=-1&facet=on&indent=on&q=*:*&fq=%2Bcategory%3A%22Magic%20the%20Gathering%20Sealed%20Product%22%20-offline_item%3Atrue%20OR%20-title%3A%22STORE%22%20OR%20-price%3A0%20%2B((%2Bquantity%3A%5B1%20TO%20*%5D)%20OR%20(%2Bquantity%3A0%20%2Balways_show_inventory%3A1))%20-magic_features%3A(%22Actual%20Picture%20Card%22)%20%2Bpackaging_type%3A((*%3A*)%20AND%20(%22Archenemy%20Deck%22%20OR%20%22Archenemy%20Deck%20Set%22%20OR%20%22Battle%20Pack%22%20OR%20%22Booster%20Box%22%20OR%20%22Booster%20Pack%22%20OR%20%22Box%20Set%22%20OR%20%22Brawl%20Deck%22%20OR%20%22Brawl%20Deck%20Set%22%20OR%20%22Challenge%20Deck%22%20OR%20%22Clash%20Pack%22%20OR%20%22Comic%20Con%20Exclusive%22%20OR%20%22Commander%20Deck%22%20OR%20%22Commander%20Deck%20Set%22%20OR%20%22Deck%20Builder%27s%20Toolkit%22%20OR%20%22Duel%20Deck%20%2F%20Global%20Series%22%20OR%20%22Event%20%2F%20Challenger%20Deck%22%20OR%20%22Event%20%2F%20Challenger%20Deck%20Set%22%20OR%20%22Fat%20Pack%20%2F%20Bundle%22%20OR%20%22From%20the%20Vault%22%20OR%20%22Gift%20Box%22%20OR%20%22Guild%20Kit%22%20OR%20%22Intro%20Pack%22%20OR%20%22Intro%20Pack%20Set%22%20OR%20%22Land%20Pack%22%20OR%20%22Planechase%20Deck%22%20OR%20%22Planechase%20Deck%20Set%22%20OR%20%22Planeswalker%20Deck%22%20OR%20%22Planeswalker%20Deck%20Set%22%20OR%20%22Prerelease%20Pack%22%20OR%20%22Prerelease%20Pack%20Set%22%20OR%20%22Promo%20%2F%20Sample%22%20OR%20%22Starter%20%2F%20Tournament%20Box%22%20OR%20%22Starter%20%2F%20Tournament%20Deck%22%20OR%20%22Starter%20Kit%22%20OR%20%22Theme%20Deck%22%20OR%20%22Theme%20Deck%20Box%22%20OR%20%22Theme%20Deck%20Set%22%20OR%20%22Themed%20Booster%20Pack%22%20OR%20%22Two-Player%20Starter%20Set%22))%20%2Bdisplay_title%3A*&sort=display_title%20asc&rows=40&wt=json&start=" + str(page * 40)
+def get_abu_link(page, limit):
+    return "https://data.abugames.com/solr/nodes/select?q=*:*&fq=%2Bcategory%3A%22Magic%20the%20Gathering%20Sealed%20Product%22%20-offline_item%3Atrue%20OR%20-title%3A%22STORE%22%20OR%20-title%3A%22AUCTION%22%20OR%20-title%3A%22OVERSTOCK%22%20%2Blanguage_magic_sealed_product%3A(%22English%22)&sort=display_title%20asc&wt=json&rows=" + str(limit) + "&start=" + str(page * limit)
 
 
 def load_abugames(nothing):
     sealed_data = []
 
     skip_tags = [
-        "OVERSTOCK",
         "VHS Video",
     ]
 
     page = 0
+    limit = 40
     while True:
         print(f"Parsing page {page}")
-        link = get_abu_link(page)
+        link = get_abu_link(page, limit)
 
         header = {
             "User-Agent": "curl/8.6",
