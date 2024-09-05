@@ -648,6 +648,7 @@ def load_abugames(nothing):
                 continue
 
             if name.endswith("(Loose)"):
+                added = False
                 for i in range(len(sealed_data)):
                     if name.startswith(sealed_data[i].get("name")):
                         sealed_data[i]["name"] = name
