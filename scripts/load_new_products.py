@@ -631,7 +631,7 @@ def load_abugames(nothing):
         data = json.loads(r.content)
         response = data.get("response")
 
-        if page * 40 > response.get("numFound"):
+        if len(response.get("docs")) == 0:
             break
         page += 1
 
