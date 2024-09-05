@@ -651,6 +651,10 @@ def load_abugames(nothing):
                 if added:
                     continue
 
+            # some older products have outdated conditions
+            if product.get("condition") != "NM":
+                continue
+
             sealed_data.extend([
                 {
                     "name": name,
