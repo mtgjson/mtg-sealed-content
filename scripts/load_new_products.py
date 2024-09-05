@@ -619,6 +619,11 @@ def get_abu_link(page):
 def load_abugames(nothing):
     sealed_data = []
 
+    skip_tags = [
+        "OVERSTOCK",
+        "VHS Video",
+    ]
+
     page = 0
     while True:
         print(f"Parsing page {page}")
@@ -650,6 +655,9 @@ def load_abugames(nothing):
                         added = True
                 if added:
                     continue
+
+            if any(tag.lower() in name.lower() for tag in skip_tags):
+                continue
 
             # some older products have outdated conditions
             if product.get("condition") != "NM":
