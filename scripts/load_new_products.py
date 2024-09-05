@@ -624,7 +624,10 @@ def load_abugames(nothing):
         print(f"Parsing page {page}")
         link = get_abu_link(page)
 
-        r = requests.get(link)
+        header = {
+            "User-Agent": "curl/8.6",
+        }
+        r = requests.get(link, headers=header)
         data = json.loads(r.content)
         response = data.get("response")
 
