@@ -1,5 +1,10 @@
 code: wc02
 products:
+  2002 World Championship Deck Box:
+    category: DECK_BOX
+    identifiers:
+      abuId: '1527129'
+    subtype: CHAMPIONSHIP
   2002 World Championship Deck Brian Kibler:
     category: DECK
     identifiers:
@@ -46,11 +51,6 @@ products:
       scgId: SLD-MTG-BXS-WCH2002-EN-SIMHANHOW
       tcgplayerProductId: '158301'
       tntId: '106431'
-    subtype: CHAMPIONSHIP
-  2002 World Championship Deck Box:
-    category: DECK_BOX
-    identifiers:
-      abuId: '1527129'
     subtype: CHAMPIONSHIP
   2002 World Championship Decks Set of 4:
     category: SUBSET

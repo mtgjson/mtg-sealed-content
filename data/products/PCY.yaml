@@ -12,11 +12,6 @@ products:
       tcgplayerProductId: '27301'
       tntId: '86992'
     subtype: DEFAULT
-  Prophecy Theme Decks Set of 4:
-    category: SUBSET
-    identifiers:
-      abuId: '1101056'
-    subtype: THEME
   Prophecy Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -89,4 +84,9 @@ products:
       mcmId: '253752'
       tcgplayerProductId: '116049'
       tntId: '106931'
+    subtype: THEME
+  Prophecy Theme Decks Set of 4:
+    category: SUBSET
+    identifiers:
+      abuId: '1101056'
     subtype: THEME

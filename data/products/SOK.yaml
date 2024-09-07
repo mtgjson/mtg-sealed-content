@@ -12,11 +12,6 @@ products:
       tcgplayerProductId: '27304'
       tntId: '123119'
     subtype: DEFAULT
-  Saviors of Kamigawa Theme Decks Set of 4:
-    category: SUBSET
-    identifiers:
-      abuId: '1101112'
-    subtype: THEME
   Saviors of Kamigawa Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -87,4 +82,9 @@ products:
       mcmId: '253687'
       tcgplayerProductId: '96353'
       tntId: '123115'
+    subtype: THEME
+  Saviors of Kamigawa Theme Decks Set of 4:
+    category: SUBSET
+    identifiers:
+      abuId: '1101112'
     subtype: THEME

@@ -12,11 +12,6 @@ products:
       tcgplayerProductId: '27315'
       tntId: '141903'
     subtype: DEFAULT
-  Urzas Legacy Theme Decks Set of 4:
-    category: SUBSET
-    identifiers:
-      abuId: '1100289'
-    subtype: THEME
   Urzas Legacy Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -75,4 +70,9 @@ products:
       mcmId: '253776'
       tcgplayerProductId: '125556'
       tntId: '106935'
+    subtype: THEME
+  Urzas Legacy Theme Decks Set of 4:
+    category: SUBSET
+    identifiers:
+      abuId: '1100289'
     subtype: THEME

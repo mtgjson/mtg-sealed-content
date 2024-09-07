@@ -12,11 +12,6 @@ products:
       tcgplayerProductId: '27314'
       tntId: '90150'
     subtype: DEFAULT
-  Urzas Destiny Theme Decks Set of 4:
-    category: SUBSET
-    identifiers:
-      abuId: '1100298'
-    subtype: THEME
   Urzas Destiny Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -77,4 +72,9 @@ products:
       mcmId: '253772'
       tcgplayerProductId: '116060'
       tntId: '106925'
+    subtype: THEME
+  Urzas Destiny Theme Decks Set of 4:
+    category: SUBSET
+    identifiers:
+      abuId: '1100298'
     subtype: THEME

@@ -12,11 +12,6 @@ products:
       tcgplayerProductId: '27305'
       tntId: '108323'
     subtype: DEFAULT
-  Scourge Theme Decks Set of 4:
-    category: SUBSET
-    identifiers:
-      abuId: '1101130'
-    subtype: THEME
   Scourge Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -88,4 +83,9 @@ products:
       mcmId: '253711'
       tcgplayerProductId: '174321'
       tntId: '108318'
+    subtype: THEME
+  Scourge Theme Decks Set of 4:
+    category: SUBSET
+    identifiers:
+      abuId: '1101130'
     subtype: THEME

@@ -12,11 +12,6 @@ products:
       tcgplayerProductId: '27316'
       tntId: '90179'
     subtype: DEFAULT
-  Urzas Saga Theme Decks Set of 4:
-    category: SUBSET
-    identifiers:
-      abuId: '1100284'
-    subtype: THEME
   Urzas Saga Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -77,6 +72,11 @@ products:
       mcmId: '253780'
       tcgplayerProductId: '116053'
       tntId: '106942'
+    subtype: THEME
+  Urzas Saga Theme Decks Set of 4:
+    category: SUBSET
+    identifiers:
+      abuId: '1100284'
     subtype: THEME
   Urzas Saga Tournament Pack:
     category: LIMITED
