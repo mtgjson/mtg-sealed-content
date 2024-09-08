@@ -92,7 +92,23 @@ products:
     deck:
     - name: Lofty Heights
       set: 9ed
-  Ninth Edition Theme Deck Set of 5: []
+  Ninth Edition Theme Deck Set of 5:
+    sealed:
+    - count: 1
+      name: Ninth Edition Theme Deck Army of Justice
+      set: 9ed
+    - count: 1
+      name: Ninth Edition Theme Deck Custom Creatures
+      set: 9ed
+    - count: 1
+      name: Ninth Edition Theme Deck Dead Again
+      set: 9ed
+    - count: 1
+      name: Ninth Edition Theme Deck Lofty Heights
+      set: 9ed
+    - count: 1
+      name: Ninth Edition Theme Deck World Aflame
+      set: 9ed
   Ninth Edition Theme Deck World Aflame:
     card_count: 40
     deck:
