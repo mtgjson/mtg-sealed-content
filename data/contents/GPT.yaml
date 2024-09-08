@@ -37,4 +37,14 @@ products:
     deck:
     - name: Izzet Gizmometry
       set: gpt
-  Guildpact Theme Decks Set of 3: []
+  Guildpact Theme Decks Set of 3:
+    sealed:
+    - count: 1
+      name: Guildpact Theme Deck Code of the Orzhov
+      set: gpt
+    - count: 1
+      name: Guildpact Theme Deck Gruul Wilding
+      set: gpt
+    - count: 1
+      name: Guildpact Theme Deck Izzet Gizmometry
+      set: gpt
