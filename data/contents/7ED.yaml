@@ -59,7 +59,23 @@ products:
     deck:
     - name: Infestation
       set: 7ed
-  Seventh Edition Theme Deck Set of 5: []
+  Seventh Edition Theme Deck Set of 5:
+    sealed:
+    - count: 1
+      name: Seventh Edition Theme Deck Armada
+      set: 7ed
+    - count: 1
+      name: Seventh Edition Theme Deck Bomber
+      set: 7ed
+    - count: 1
+      name: Seventh Edition Theme Deck Decay
+      set: 7ed
+    - count: 1
+      name: Seventh Edition Theme Deck Infestation
+      set: 7ed
+    - count: 1
+      name: Seventh Edition Theme Deck Way Wild
+      set: 7ed
   Seventh Edition Theme Deck Way Wild:
     card_count: 40
     deck:

@@ -58,7 +58,23 @@ products:
     deck:
     - name: Life Boost
       set: 8ed
-  Eighth Edition Theme Deck Set of 5: []
+  Eighth Edition Theme Deck Set of 5:
+    sealed:
+    - count: 1
+      name: Eighth Edition Theme Deck Expulsion
+      set: 8ed
+    - count: 1
+      name: Eighth Edition Theme Deck Heavy Hitters
+      set: 8ed
+    - count: 1
+      name: Eighth Edition Theme Deck Life Boost
+      set: 8ed
+    - count: 1
+      name: Eighth Edition Theme Deck Sky Slam
+      set: 8ed
+    - count: 1
+      name: Eighth Edition Theme Deck Speed Scorch
+      set: 8ed
   Eighth Edition Theme Deck Sky Slam:
     card_count: 40
     deck:
