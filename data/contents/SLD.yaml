@@ -1558,8 +1558,20 @@ products:
     deck:
     - name: Artist Series Rebecca Guay foil
       set: sld
-  Secret Lair Drop Artist Series Rovina Cai: []
-  Secret Lair Drop Artist Series Rovina Cai Foil: []
+  Secret Lair Drop Artist Series Rovina Cai:
+    card_count: 4
+    deck:
+    - name: Artist Series Rovina Cai
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Artist Series Rovina Cai Foil:
+    card_count: 4
+    deck:
+    - name: Artist Series Rovina Cai foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Artist Series Rovina Cai Rainbow Foil: []
   Secret Lair Drop Artist Series Ryan Alexander Lee:
     card:
@@ -2495,8 +2507,20 @@ products:
     deck:
     - name: Deceptive Divination foil
       set: sld
-  Secret Lair Drop Diabolical Dioramas: []
-  Secret Lair Drop Diabolical Dioramas Foil: []
+  Secret Lair Drop Diabolical Dioramas:
+    card_count: 4
+    deck:
+    - name: Diabolical Dioramas
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Diabolical Dioramas Foil:
+    card_count: 4
+    deck:
+    - name: Diabolical Dioramas foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Diabolical Dioramas Rainbow Foil: []
   Secret Lair Drop Draw Your Hand:
     card_count: 4
@@ -2678,8 +2702,20 @@ products:
     deck:
     - name: Fblthp Completely Utterly Totally Lost foil
       set: sld
-  Secret Lair Drop Featuring Andrew Maclean: []
-  Secret Lair Drop Featuring Andrew Maclean Rainbow Foil: []
+  Secret Lair Drop Featuring Andrew Maclean:
+    card_count: 4
+    deck:
+    - name: Featuring Andrew MacLean
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Featuring Andrew Maclean Rainbow Foil:
+    card_count: 4
+    deck:
+    - name: Featuring Andrew MacLean foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Featuring Gary Baseman:
     card_count: 5
     deck:
@@ -2694,12 +2730,48 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop Featuring Julie Bell: []
-  Secret Lair Drop Featuring Julie Bell Rainbow Foil: []
-  Secret Lair Drop Featuring Not a Wolf: []
-  Secret Lair Drop Featuring Not a Wolf Rainbow Foil: []
-  Secret Lair Drop Featuring Phoebe Wahl: []
-  Secret Lair Drop Featuring Phoebe Wahl Foil: []
+  Secret Lair Drop Featuring Julie Bell:
+    card_count: 5
+    deck:
+    - name: Featuring Julie Bell
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Featuring Julie Bell Rainbow Foil:
+    card_count: 5
+    deck:
+    - name: Featuring Julie Bell foil
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Featuring Not a Wolf:
+    card_count: 5
+    deck:
+    - name: Featuring Not a Wolf
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Featuring Not a Wolf Rainbow Foil:
+    card_count: 5
+    deck:
+    - name: Featuring Not a Wolf foil
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Featuring Phoebe Wahl:
+    card_count: 5
+    deck:
+    - name: Featuring Phoebe Wahl
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Featuring Phoebe Wahl Foil:
+    card_count: 5
+    deck:
+    - name: Featuring Phoebe Wahl foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Featuring Phoebe Wahl Rainbow Foil: []
   Secret Lair Drop Featuring the Mountain Goats:
     card:
@@ -2747,8 +2819,20 @@ products:
     pack:
     - code: stainedglass-tattoo
       set: sld
-  Secret Lair Drop Gift Wrapped: []
-  Secret Lair Drop Gift Wrapped Foil: []
+  Secret Lair Drop Gift Wrapped:
+    card_count: 5
+    deck:
+    - name: Gift Wrapped
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Gift Wrapped Foil:
+    card_count: 5
+    deck:
+    - name: Gift Wrapped foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Goblin and Squabblin:
     card_count: 5
     deck:
@@ -2763,8 +2847,20 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop Goblingram: []
-  Secret Lair Drop Goblingram Rainbow Foil: []
+  Secret Lair Drop Goblingram:
+    card_count: 5
+    deck:
+    - name: Goblingram
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Goblingram Rainbow Foil:
+    card_count: 5
+    deck:
+    - name: Goblingram foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Happy Little Gathering:
     card:
     - name: Evolving Wilds
@@ -2800,8 +2896,20 @@ products:
     pack:
     - code: stainedglass-uncommon
       set: sld
-  Secret Lair Drop Hard Boiled Thrillers: []
-  Secret Lair Drop Hard Boiled Thrillers Rainbow Foil: []
+  Secret Lair Drop Hard Boiled Thrillers:
+    card_count: 5
+    deck:
+    - name: Hard Boiled Thrillers
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Hard Boiled Thrillers Rainbow Foil:
+    card_count: 5
+    deck:
+    - name: Hard Boiled Thrillers foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Here Be Dragons Foil:
     card:
     - foil: true
@@ -2894,8 +3002,20 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop Just Add Milk Second Helpings: []
-  Secret Lair Drop Just Add Milk Second Helpings Rainbow Foil: []
+  Secret Lair Drop Just Add Milk Second Helpings:
+    card_count: 3
+    deck:
+    - name: Just Add Milk Second Helpings
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Just Add Milk Second Helpings Rainbow Foil:
+    card_count: 3
+    deck:
+    - name: Just Add Milk Second Helpings foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Just Some Totally Normal Guys:
     card_count: 4
     deck:
@@ -3281,8 +3401,20 @@ products:
     deck:
     - name: Mountain Go foil
       set: sld
-  Secret Lair Drop Mycosynthwave: []
-  Secret Lair Drop Mycosynthwave Foil: []
+  Secret Lair Drop Mycosynthwave:
+    card_count: 3
+    deck:
+    - name: Mycosynthwave
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Mycosynthwave Foil:
+    card_count: 3
+    deck:
+    - name: Mycosynthwave foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Nature is Adorable:
     card_count: 4
     deck:
@@ -3363,12 +3495,48 @@ products:
         set: sld
     variable_mode:
       count: 1
-  Secret Lair Drop Outlaw Anthology Vol 1 Rebellious Renegades: []
-  Secret Lair Drop Outlaw Anthology Vol 1 Rebellious Renegades Rainbow Foil: []
-  Secret Lair Drop Outlaw Anthology Vol 2 Sinister Scoundrels: []
-  Secret Lair Drop Outlaw Anthology Vol 2 Sinister Scoundrels Rainbow Foil: []
-  Secret Lair Drop Paradise Frost: []
-  Secret Lair Drop Paradise Frost Foil: []
+  Secret Lair Drop Outlaw Anthology Vol 1 Rebellious Renegades:
+    card_count: 4
+    deck:
+    - name: Outlaw Anthology Vol 1 Rebellious Renegades
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Outlaw Anthology Vol 1 Rebellious Renegades Rainbow Foil:
+    card_count: 4
+    deck:
+    - name: Outlaw Anthology Vol 1 Rebellious Renegades foil
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Outlaw Anthology Vol 2 Sinister Scoundrels:
+    card_count: 4
+    deck:
+    - name: Outlaw Anthology Vol 2 Sinister Scoundrels
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Outlaw Anthology Vol 2 Sinister Scoundrels Rainbow Foil:
+    card_count: 4
+    deck:
+    - name: Outlaw Anthology Vol 2 Sinister Scoundrels foil
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Paradise Frost:
+    card_count: 5
+    deck:
+    - name: Paradise Frost
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Paradise Frost Foil:
+    card_count: 5
+    deck:
+    - name: Paradise Frost foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Party Hard Shred Harder:
     card:
     - foil: true
@@ -3492,8 +3660,20 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop Poker Faces: []
-  Secret Lair Drop Poker Faces Rainbow Foil: []
+  Secret Lair Drop Poker Faces:
+    card_count: 5
+    deck:
+    - name: Poker Faces
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Poker Faces Rainbow Foil:
+    card_count: 5
+    deck:
+    - name: Poker Faces foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Pride Across the Multiverse:
     card_count: 8
     deck:
@@ -3540,10 +3720,34 @@ products:
     deck:
     - name: Prime Slime
       set: sld
-  Secret Lair Drop Prints of Darkness: []
-  Secret Lair Drop Prints of Darkness Rainbow Foil: []
-  Secret Lair Drop Prismatic Nightmares: []
-  Secret Lair Drop Prismatic Nightmares Rainbow Foil: []
+  Secret Lair Drop Prints of Darkness:
+    card_count: 5
+    deck:
+    - name: Prints of Darkness
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Prints of Darkness Rainbow Foil:
+    card_count: 5
+    deck:
+    - name: Prints of Darkness foil
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Prismatic Nightmares:
+    card_count: 5
+    deck:
+    - name: Prismatic Nightmares
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Prismatic Nightmares Rainbow Foil:
+    card_count: 5
+    deck:
+    - name: Prismatic Nightmares foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Purrfection:
     card_count: 4
     deck:
@@ -3674,10 +3878,34 @@ products:
     deck:
     - name: Arcane Lands foil
       set: sld
-  Secret Lair Drop Secret Lair x Assassins Creed Da Vincis Designs: []
-  Secret Lair Drop Secret Lair x Assassins Creed Da Vincis Designs Rainbow Foil: []
-  Secret Lair Drop Secret Lair x Assassins Creed Lethal Legends: []
-  Secret Lair Drop Secret Lair x Assassins Creed Lethal Legends Rainbow Foil: []
+  Secret Lair Drop Secret Lair x Assassins Creed Da Vincis Designs:
+    card_count: 5
+    deck:
+    - name: Assassins Creed Da Vincis Designs
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Assassins Creed Da Vincis Designs Rainbow Foil:
+    card_count: 5
+    deck:
+    - name: Assassins Creed Da Vincis Designs foil
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Assassins Creed Lethal Legends:
+    card_count: 5
+    deck:
+    - name: Assassins Creed Lethal Legends
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Assassins Creed Lethal Legends Rainbow Foil:
+    card_count: 5
+    deck:
+    - name: Assassins Creed Lethal Legends foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Blood Bowl:
     card:
     - name: Wastes
@@ -3697,12 +3925,42 @@ products:
     deck:
     - name: Blood Bowl foil
       set: sld
-  Secret Lair Drop Secret Lair x Brain Dead Creatures: []
-  Secret Lair Drop Secret Lair x Brain Dead Creatures Rainbow Foil: []
-  Secret Lair Drop Secret Lair x Brain Dead Lands: []
+  Secret Lair Drop Secret Lair x Brain Dead Creatures:
+    card_count: 5
+    deck:
+    - name: Brain Dead Creatures
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Brain Dead Creatures Rainbow Foil:
+    card_count: 5
+    deck:
+    - name: Brain Dead Creatures foil
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Brain Dead Lands:
+    card_count: 10
+    deck:
+    - name: Brain Dead Lands
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Brain Dead Lands Rainbow Foil: []
-  Secret Lair Drop Secret Lair x Brain Dead Stapes Rainbow Foil: []
-  Secret Lair Drop Secret Lair x Brain Dead Staples: []
+  Secret Lair Drop Secret Lair x Brain Dead Stapes Rainbow Foil:
+    card_count: 5
+    deck:
+    - name: Brain Dead Staples foil
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Brain Dead Staples:
+    card_count: 5
+    deck:
+    - name: Brain Dead Staples
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Creepshow:
     card:
     - name: Terror
@@ -3779,14 +4037,50 @@ products:
     deck:
     - name: Doctor Who The Weeping Angels foil
       set: sld
-  Secret Lair Drop Secret Lair x Dungeons and Dragons An Exhibition of Adventure: []
-  Secret Lair Drop Secret Lair x Dungeons and Dragons An Exhibition of Adventure Rainbow Foil: []
+  Secret Lair Drop Secret Lair x Dungeons and Dragons An Exhibition of Adventure:
+    card_count: 7
+    deck:
+    - name: An Exhibition of Adventure
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Dungeons and Dragons An Exhibition of Adventure Rainbow Foil:
+    card_count: 7
+    deck:
+    - name: An Exhibition of Adventure foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Dungeons and Dragons Astarions Thirst: []
   Secret Lair Drop Secret Lair x Dungeons and Dragons Astarions Thirst Rainbow Foil: []
-  Secret Lair Drop Secret Lair x Dungeons and Dragons Death is in the Eyes of the Beholder I: []
-  Secret Lair Drop Secret Lair x Dungeons and Dragons Death is in the Eyes of the Beholder I Rainbow Foil: []
-  Secret Lair Drop Secret Lair x Dungeons and Dragons Death is in the Eyes of the Beholder II: []
-  Secret Lair Drop Secret Lair x Dungeons and Dragons Death is in the Eyes of the Beholder II Rainbow Foil: []
+  Secret Lair Drop Secret Lair x Dungeons and Dragons Death is in the Eyes of the Beholder I:
+    card_count: 6
+    deck:
+    - name: Death Is in the Eyes of the Beholder I
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Dungeons and Dragons Death is in the Eyes of the Beholder I Rainbow Foil:
+    card_count: 6
+    deck:
+    - name: Death Is in the Eyes of the Beholder I foil
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Dungeons and Dragons Death is in the Eyes of the Beholder II:
+    card_count: 6
+    deck:
+    - name: Death is In the Eyes of the Beholder II
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Dungeons and Dragons Death is in the Eyes of the Beholder II Rainbow Foil:
+    card_count: 6
+    deck:
+    - name: Death is In the Eyes of the Beholder II foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Dungeons and Dragons Honor Among Thieves:
     card:
     - name: Themberchaud
@@ -3808,12 +4102,48 @@ products:
       set: sld
   Secret Lair Drop Secret Lair x Dungeons and Dragons Karlachs Rage: []
   Secret Lair Drop Secret Lair x Dungeons and Dragons Karlachs Rage Rainbow Foil: []
-  Secret Lair Drop Secret Lair x Fallout Points of Interest: []
-  Secret Lair Drop Secret Lair x Fallout Points of Interest Foil: []
-  Secret Lair Drop Secret Lair x Fallout SPECIAL: []
-  Secret Lair Drop Secret Lair x Fallout SPECIAL Foil: []
-  Secret Lair Drop Secret Lair x Fallout Vault Boy: []
-  Secret Lair Drop Secret Lair x Fallout Vault Boy Foil: []
+  Secret Lair Drop Secret Lair x Fallout Points of Interest:
+    card_count: 5
+    deck:
+    - name: Fallout Points of Interest
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Fallout Points of Interest Foil:
+    card_count: 5
+    deck:
+    - name: Fallout Points of Interest foil
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Fallout SPECIAL:
+    card_count: 7
+    deck:
+    - name: Fallout SPECIAL
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Fallout SPECIAL Foil:
+    card_count: 7
+    deck:
+    - name: Fallout SPECIAL foil
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Fallout Vault Boy:
+    card_count: 4
+    deck:
+    - name: Fallout Vault Boy
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Fallout Vault Boy Foil:
+    card_count: 4
+    deck:
+    - name: Fallout Vault Boy foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Fortnite:
     card:
     - name: Pyrite Spellbomb
@@ -3852,22 +4182,94 @@ products:
     deck:
     - name: Fortnite Landmarks and Locations foil
       set: sld
-  Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation English: []
-  Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation English Rainbow Foil: []
+  Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation English:
+    card_count: 6
+    deck:
+    - name: Hatsune Miku Digital Sensation
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation English Rainbow Foil:
+    card_count: 6
+    deck:
+    - name: Hatsune Miku Digital Sensation foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation Japanese: []
   Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation Japanese Rainbow Foil: []
-  Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar English: []
-  Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar English Rainbow Foil: []
+  Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar English:
+    card_count: 6
+    deck:
+    - name: Hatsune Miku Sakura Superstar
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar English Rainbow Foil:
+    card_count: 6
+    deck:
+    - name: Hatsune Miku Sakura Superstar foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar Japanese: []
   Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar Japanese Rainbow Foil: []
-  Secret Lair Drop Secret Lair x Jurassic World Dr Ian Malcolm: []
-  Secret Lair Drop Secret Lair x Jurassic World Dr Ian Malcolm Foil: []
-  Secret Lair Drop Secret Lair x Jurassic World Life Breaks Free: []
-  Secret Lair Drop Secret Lair x Jurassic World Life Breaks Free Foil: []
-  Secret Lair Drop Secret Lair x Monty Python Monty Python and the Holy Grail Vol 1: []
-  Secret Lair Drop Secret Lair x Monty Python Monty Python and the Holy Grail Vol 1 Foil: []
-  Secret Lair Drop Secret Lair x Monty Python Monty Python and the Holy Grail Vol 2: []
-  Secret Lair Drop Secret Lair x Monty Python Monty Python and the Holy Grail Vol 2 Foil: []
+  Secret Lair Drop Secret Lair x Jurassic World Dr Ian Malcolm:
+    card_count: 4
+    deck:
+    - name: Jurassic World Dr Ian Malcolm
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Jurassic World Dr Ian Malcolm Foil:
+    card_count: 4
+    deck:
+    - name: Jurassic World Dr Ian Malcolm foil
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Jurassic World Life Breaks Free:
+    card_count: 5
+    deck:
+    - name: Jurassic World Life Breaks Free
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Jurassic World Life Breaks Free Foil:
+    card_count: 5
+    deck:
+    - name: Jurassic World Life Breaks Free foil
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Monty Python Monty Python and the Holy Grail Vol 1:
+    card_count: 5
+    deck:
+    - name: Monty Python and the Holy Grail Vol 1
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Monty Python Monty Python and the Holy Grail Vol 1 Foil:
+    card_count: 5
+    deck:
+    - name: Monty Python and the Holy Grail Vol 1 foil
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Monty Python Monty Python and the Holy Grail Vol 2:
+    card_count: 3
+    deck:
+    - name: Monty Python and the Holy Grail Vol 2
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Monty Python Monty Python and the Holy Grail Vol 2 Foil:
+    card_count: 3
+    deck:
+    - name: Monty Python and the Holy Grail Vol 2 foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Post Malone Backstage Pass:
     card:
     - foil: true
@@ -3989,11 +4391,15 @@ products:
     deck:
     - name: Secret Lair x Tomb Raider
       set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Tomb Raider Foil:
     card_count: 6
     deck:
     - name: Secret Lair x Tomb Raider foil
       set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Warhammer 40000 Orks:
     card:
     - name: Wastes
@@ -4056,8 +4462,20 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop Sheldons Spellbook: []
-  Secret Lair Drop Sheldons Spellbook Foil: []
+  Secret Lair Drop Sheldons Spellbook:
+    card_count: 7
+    deck:
+    - name: Sheldons Spellbook
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Sheldons Spellbook Foil:
+    card_count: 7
+    deck:
+    - name: Sheldons Spellbook foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Showcase All Will Be One Step and Compleat Foil:
     card_count: 5
     deck:
@@ -4065,8 +4483,20 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop Showcase Bloomburrow: []
-  Secret Lair Drop Showcase Bloomburrow Rainbow Foil: []
+  Secret Lair Drop Showcase Bloomburrow:
+    card_count: 5
+    deck:
+    - name: Showcase Bloomburrow
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Showcase Bloomburrow Rainbow Foil:
+    card_count: 5
+    deck:
+    - name: Showcase Bloomburrow foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Showcase Dominaria United Textured Foil:
     card_count: 5
     deck:
@@ -4212,8 +4642,20 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop Showcase Outlaws of Thunder Junction: []
-  Secret Lair Drop Showcase Outlaws of Thunder Junction Foil: []
+  Secret Lair Drop Showcase Outlaws of Thunder Junction:
+    card_count: 4
+    deck:
+    - name: Showcase Outlaws of Thunder Junction
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Showcase Outlaws of Thunder Junction Foil:
+    card_count: 4
+    deck:
+    - name: Showcase Outlaws of Thunder Junction foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Showcase Read The Fine Print:
     card:
     - foil: true
@@ -4870,8 +5312,20 @@ products:
     pack:
     - code: stainedglass-g
       set: sld
-  Secret Lair Drop Through the Wormhole: []
-  Secret Lair Drop Through the Wormhole Galaxy Foil: []
+  Secret Lair Drop Through the Wormhole:
+    card_count: 5
+    deck:
+    - name: Through the Wormhole
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Through the Wormhole Galaxy Foil:
+    card_count: 5
+    deck:
+    - name: Through the Wormhole foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Time Trouble Two:
     card_count: 3
     deck:
@@ -5094,8 +5548,20 @@ products:
         set: sld
     variable_mode:
       count: 1
-  Secret Lair Drop sAnS mERcY: []
-  Secret Lair Drop sAnS mERcY Rainbow Foil: []
+  Secret Lair Drop sAnS mERcY:
+    card_count: 5
+    deck:
+    - name: sAnS mERcY
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop sAnS mERcY Rainbow Foil:
+    card_count: 5
+    deck:
+    - name: sAnS mERcY foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   "Secret Lair Drop \u201Cexplosion sounds\u201D":
     card_count: 5
     deck:
