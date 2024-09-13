@@ -52,6 +52,7 @@ products:
   Duskmourn House of Horror Collector Booster Sample Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '300080'
       mcmId: '776441'
     release_date: '2024-09-27'
     subtype: PROMOTIONAL
@@ -65,6 +66,11 @@ products:
       scgId: SLD-MTG-BUN-DSKNIGHTMARE-EN
       tcgplayerProductId: '557251'
     release_date: '2024-09-27'
+    subtype: PREMIUM
+  Duskmourn House of Horror Nightmare Bundle Booster:
+    category: BOOSTER_PACK
+    identifiers:
+      cardtraderId: '300090'
     subtype: PREMIUM
   Duskmourn House of Horror Nightmare Bundle Case:
     category: BUNDLE_CASE
