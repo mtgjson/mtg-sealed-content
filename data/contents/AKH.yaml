@@ -51,7 +51,62 @@ products:
     - count: 10
       name: Amonkhet Booster Pack
       set: akh
-  Amonkhet Deck Builders Toolkit: []
+  Amonkhet Deck Builders Toolkit:
+    card_count: 225
+    deck:
+    - set: akh
+      name: Deck Builder's Toolkit Fixed Content
+    sealed:
+    - set: akh
+      name: Amonkhet Booster Pack
+      count: 2
+    - set: kld
+      name: Kaladesh Booster Pack
+      count: 1
+    - set: aer
+      name: Aether Revolt Booster Pack
+      count: 1
+    other: 
+    - name: Deck Builder's Guide
+    - name: Magic Learn to Play Guide
+    - name: Card storage box
+    variable:
+    - deck:
+      - set: akh
+        name: Black and Blue Noncreatures
+    - deck:
+      - set: akh
+        name: Black and Green Counters
+    - deck:
+      - set: akh
+        name: Black and Red Artifacts
+    - deck:
+      - set: akh
+        name: Blue and Colorless Artifacts
+    - deck:
+      - set: akh
+        name: Blue and Green Ramp
+    - deck:
+      - set: akh
+        name: Blue and White Flying
+    - deck:
+      - set: akh
+        name: Green and White
+    - deck:
+      - set: akh
+        name: Red and Colorless Artifacts
+    - deck:
+      - set: akh
+        name: Red and Green Aggro
+    - deck:
+      - set: akh
+        name: Red and White Aggro
+    - deck:
+      - set: akh
+        name: White and Black Zombies
+    variable_mode:
+      count: 4
+      replacement: false
   Amonkhet Land Station:
     other:
     - name: 400 Amonkhet Basic Lands (80 of Each Color)
