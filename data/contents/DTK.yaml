@@ -128,51 +128,51 @@ products:
   Dragons of Tarkir Prerelease Kit Atarka Battle with Savagery:
     card_count: 16
     pack:
-    - set: dtk
-      code: prerelease-atarka
+    - code: prerelease-atarka
+      set: dtk
     sealed:
-    - set: dtk
-      count: 4
+    - count: 4
       name: Dragons of Tarkir Booster Pack
-    - set: frf
-      count: 1
+      set: dtk
+    - count: 1
       name: Fate Reforged Booster Pack
+      set: frf
   Dragons of Tarkir Prerelease Kit Dromoka Battle with Endurance:
     card_count: 16
     pack:
-    - set: dtk
-      code: prerelease-dromoka
+    - code: prerelease-dromoka
+      set: dtk
     sealed:
-    - set: dtk
-      count: 4
+    - count: 4
       name: Dragons of Tarkir Booster Pack
-    - set: frf
-      count: 1
+      set: dtk
+    - count: 1
       name: Fate Reforged Booster Pack
+      set: frf
   Dragons of Tarkir Prerelease Kit Kolaghan Battle with Speed:
     card_count: 16
     pack:
-    - set: dtk
-      code: prerelease-kolaghan
+    - code: prerelease-kolaghan
+      set: dtk
     sealed:
-    - set: dtk
-      count: 4
+    - count: 4
       name: Dragons of Tarkir Booster Pack
-    - set: frf
-      count: 1
+      set: dtk
+    - count: 1
       name: Fate Reforged Booster Pack
+      set: frf
   Dragons of Tarkir Prerelease Kit Ojutai Battle with Cunning:
     card_count: 16
     pack:
-    - set: dtk
-      code: prerelease-ojutai
+    - code: prerelease-ojutai
+      set: dtk
     sealed:
-    - set: dtk
-      count: 4
+    - count: 4
       name: Dragons of Tarkir Booster Pack
-    - set: frf
-      count: 1
+      set: dtk
+    - count: 1
       name: Fate Reforged Booster Pack
+      set: frf
   Dragons of Tarkir Prerelease Kit Set of 5:
     sealed:
     - count: 1
@@ -193,12 +193,12 @@ products:
   Dragons of Tarkir Prerelease Kit Silumgar Battle with Ruthlessness:
     card_count: 16
     pack:
-    - set: dtk
-      code: prerelease-silumgar
+    - code: prerelease-silumgar
+      set: dtk
     sealed:
-    - set: dtk
-      count: 4
+    - count: 4
       name: Dragons of Tarkir Booster Pack
-    - set: frf
-      count: 1
+      set: dtk
+    - count: 1
       name: Fate Reforged Booster Pack
+      set: frf

@@ -54,56 +54,56 @@ products:
   Amonkhet Deck Builders Toolkit:
     card_count: 225
     deck:
-    - set: akh
-      name: Deck Builder's Toolkit Fixed Content
-    sealed:
-    - set: akh
-      name: Amonkhet Booster Pack
-      count: 2
-    - set: kld
-      name: Kaladesh Booster Pack
-      count: 1
-    - set: aer
-      name: Aether Revolt Booster Pack
-      count: 1
-    other: 
+    - name: Deck Builder's Toolkit Fixed Content
+      set: akh
+    other:
     - name: Deck Builder's Guide
     - name: Magic Learn to Play Guide
     - name: Card storage box
+    sealed:
+    - count: 2
+      name: Amonkhet Booster Pack
+      set: akh
+    - count: 1
+      name: Kaladesh Booster Pack
+      set: kld
+    - count: 1
+      name: Aether Revolt Booster Pack
+      set: aer
     variable:
     - deck:
-      - set: akh
-        name: Black and Blue Noncreatures
+      - name: Black and Blue Noncreatures
+        set: akh
     - deck:
-      - set: akh
-        name: Black and Green Counters
+      - name: Black and Green Counters
+        set: akh
     - deck:
-      - set: akh
-        name: Black and Red Artifacts
+      - name: Black and Red Artifacts
+        set: akh
     - deck:
-      - set: akh
-        name: Blue and Colorless Artifacts
+      - name: Blue and Colorless Artifacts
+        set: akh
     - deck:
-      - set: akh
-        name: Blue and Green Ramp
+      - name: Blue and Green Ramp
+        set: akh
     - deck:
-      - set: akh
-        name: Blue and White Flying
+      - name: Blue and White Flying
+        set: akh
     - deck:
-      - set: akh
-        name: Green and White
+      - name: Green and White
+        set: akh
     - deck:
-      - set: akh
-        name: Red and Colorless Artifacts
+      - name: Red and Colorless Artifacts
+        set: akh
     - deck:
-      - set: akh
-        name: Red and Green Aggro
+      - name: Red and Green Aggro
+        set: akh
     - deck:
-      - set: akh
-        name: Red and White Aggro
+      - name: Red and White Aggro
+        set: akh
     - deck:
-      - set: akh
-        name: White and Black Zombies
+      - name: White and Black Zombies
+        set: akh
     variable_mode:
       count: 4
       replacement: false
