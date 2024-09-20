@@ -21,4 +21,17 @@ products:
     deck:
     - name: Tom van de Logt - Replenish
       set: wc00
-  2000 World Championship Decks Set of 4: []
+  2000 World Championship Decks Set of 4:
+    sealed:
+    - set: wc00
+      name: 2000 World Championship Deck Janosch Kuhn
+      count: 1
+    - set: wc00
+      name: 2000 World Championship Deck Jon Finkel
+      count: 1
+    - set: wc00
+      name: 2000 World Championship Deck Nicolas Labarre
+      count: 1
+    - set: wc00
+      name: 2000 World Championship Deck Tom van de Logt
+      count: 1
