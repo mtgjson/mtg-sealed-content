@@ -59,7 +59,20 @@ products:
     deck:
     - name: Tidal Mastery
       set: mmq
-  Mercadian Masques Theme Decks Set of 4: []
+  Mercadian Masques Theme Decks Set of 4:
+    sealed:
+    - count: 1
+      name: Mercadian Masques Theme Deck Deepwood Menace
+      set: mmq
+    - count: 1
+      name: Mercadian Masques Theme Deck Disrupter
+      set: mmq
+    - count: 1
+      name: Mercadian Masques Theme Deck Rebels Call
+      set: mmq
+    - count: 1
+      name: Mercadian Masques Theme Deck Tidal Mastery
+      set: mmq
   Mercadian Masques Tournament Pack:
     card_count: 75
     pack:

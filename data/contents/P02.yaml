@@ -54,7 +54,23 @@ products:
     deck:
     - name: The Nightstalkers
       set: p02
-  Portal Second Age Theme Decks Set of 5: []
+  Portal Second Age Theme Decks Set of 5:
+    sealed:
+    - count: 1
+      name: Portal Second Age Theme Deck Goblin Fire
+      set: p02
+    - count: 1
+      name: Portal Second Age Theme Deck Martial Law
+      set: p02
+    - count: 1
+      name: Portal Second Age Theme Deck Natures Assault
+      set: p02
+    - count: 1
+      name: Portal Second Age Theme Deck Spellweaver
+      set: p02
+    - count: 1
+      name: Portal Second Age Theme Deck The Nightstalkers
+      set: p02
   Portal Second Age Two Player Starter Deck:
     card_count: 60
     deck:
