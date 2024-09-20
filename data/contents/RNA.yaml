@@ -16,8 +16,16 @@ products:
     - code: draft
       set: rna
   Ravnica Allegiance Bundle: []
-  Ravnica Allegiance Collector Booster Box: []
-  Ravnica Allegiance Collector Booster Pack: []
+  Ravnica Allegiance Collector Booster Box:
+    sealed:
+    - set: rna
+      count: 12
+      name: Ravnica Allegiance Collector Booster Pack
+  Ravnica Allegiance Collector Booster Pack:
+    card_count: 15
+    pack:
+    - set: rna
+      code: collector
   Ravnica Allegiance Deck Builders Toolkit: []
   Ravnica Allegiance Mythic Edition:
     card:
@@ -104,19 +112,19 @@ products:
   Ravnica Allegiance Prerelease Pack Rakdos: []
   Ravnica Allegiance Prerelease Pack Set of 5:
     sealed:
-    - count: 2
+    - count: 1
       name: Ravnica Allegiance Prerelease Pack Azorius
       set: rna
-    - count: 2
+    - count: 1
       name: Ravnica Allegiance Prerelease Pack Gruul
       set: rna
-    - count: 2
+    - count: 1
       name: Ravnica Allegiance Prerelease Pack Orzhov
       set: rna
-    - count: 2
+    - count: 1
       name: Ravnica Allegiance Prerelease Pack Rakdos
       set: rna
-    - count: 2
+    - count: 1
       name: Ravnica Allegiance Prerelease Pack Simic
       set: rna
   Ravnica Allegiance Prerelease Pack Simic: []
