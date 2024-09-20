@@ -14,7 +14,22 @@ abugames:
     identifiers:
       abuId: '1100218'
     subtype: UNKNOWN
-cardKingdom: {}
+cardKingdom:
+  Invasion Tournament Pack Display:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '240154'
+    subtype: UNKNOWN
+  Onslaught Tournament Pack Display:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '240180'
+    subtype: UNKNOWN
+  Urza's Saga Tournament Pack Display:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '240235'
+    subtype: UNKNOWN
 cardMarket:
   'Duskmourn: House of Horror: Extras: SetNames_Tip Card':
     category: UNKNOWN
@@ -39,13 +54,7 @@ cardTrader:
       cardtraderId: '300086'
     subtype: UNKNOWN
 coolstuffinc: {}
-miniaturemarket:
-  'MtG Universes Beyond: Fallout Commander Deck - Mutant Menace':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: '296509'
-    release_date: '2023-10-27'
-    subtype: UNKNOWN
+miniaturemarket: {}
 starcitygames: {}
 tcgplayer:
   Bloomburrow Collector Booster Sample Pack:
