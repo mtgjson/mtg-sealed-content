@@ -9,7 +9,11 @@ products:
       mcmId: '210113'
       scgId: SLD-MTG-BBX-CHK-EN
       tcgplayerProductId: '27268'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Champions of Kamigawa Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Champions of Kamigawa Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -19,7 +23,7 @@ products:
       mcmId: '210047'
       scgId: SLD-MTG-PCK-CHK-EN
       tcgplayerProductId: '27330'
-    subtype: DEFAULT
+    subtype: DRAFT
   Champions of Kamigawa Fat Pack:
     category: BUNDLE
     identifiers:

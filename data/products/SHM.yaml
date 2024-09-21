@@ -9,7 +9,11 @@ products:
       mcmId: '210132'
       scgId: SLD-MTG-BBX-SHM-EN
       tcgplayerProductId: '27306'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Shadowmoor Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Shadowmoor Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -19,7 +23,7 @@ products:
       mcmId: '210066'
       scgId: SLD-MTG-PCK-SHM-EN
       tcgplayerProductId: '27368'
-    subtype: DEFAULT
+    subtype: DRAFT
   Shadowmoor Fat Pack:
     category: BUNDLE
     identifiers:

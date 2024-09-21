@@ -9,7 +9,11 @@ products:
       mcmId: '210112'
       scgId: SLD-MTG-BBX-5DN-EN
       tcgplayerProductId: '27277'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Fifth Dawn Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Fifth Dawn Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -19,7 +23,7 @@ products:
       mcmId: '210046'
       scgId: SLD-MTG-PCK-5DN-EN
       tcgplayerProductId: '27339'
-    subtype: DEFAULT
+    subtype: DRAFT
   Fifth Dawn Fat Pack:
     category: BUNDLE
     identifiers:

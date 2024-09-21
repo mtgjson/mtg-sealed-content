@@ -9,7 +9,11 @@ products:
       mcmId: '210116'
       scgId: SLD-MTG-BBX-BOK-EN
       tcgplayerProductId: '27267'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Betrayers of Kamigawa Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Betrayers of Kamigawa Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -19,7 +23,7 @@ products:
       mcmId: '210050'
       scgId: SLD-MTG-PCK-BOK-EN
       tcgplayerProductId: '27329'
-    subtype: DEFAULT
+    subtype: DRAFT
   Betrayers of Kamigawa Fat Pack:
     category: BUNDLE
     identifiers:
