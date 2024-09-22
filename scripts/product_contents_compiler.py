@@ -58,6 +58,10 @@ def build_uuid_map():
             ):
                 uuids[ccode]["sealedProduct"][identifier] = uuid
         elif status == "cards":
+            # Only preserve the "main" face of the card
+            if (f"data.{current_set}.cards.item.side" == "" or f"data.{current_set}.cards.item.side" == "a"):
+                continue
+
             if prefix == f"data.{current_set}.cards.item" and event == "start_map":
                 identifier = ""
                 uuid = ""
