@@ -1,15 +1,94 @@
 code: dsk
 products:
-  Duskmourn House of Horror Bundle: []
-  Duskmourn House of Horror Bundle Case: []
-  Duskmourn House of Horror Collector Booster Box: []
-  Duskmourn House of Horror Collector Booster Box Case: []
-  Duskmourn House of Horror Collector Booster Pack: []
-  Duskmourn House of Horror Collector Booster Sample Pack: []
-  Duskmourn House of Horror Nightmare Bundle: []
-  Duskmourn House of Horror Nightmare Bundle Booster: []
-  Duskmourn House of Horror Nightmare Bundle Case: []
-  Duskmourn House of Horror Play Booster Box: []
-  Duskmourn House of Horror Play Booster Box Case: []
-  Duskmourn House of Horror Play Booster Pack: []
-  Duskmourn House of Horror Prerelease Pack: []
+  Duskmourn House of Horror Bundle: 
+    sealed:
+    - set: dsk
+      name: Duskmourn House of Horror Play Booster Pack
+      count: 9
+    other:
+    - name: 30 basic lands
+    - name: Duskmourn Spindown
+    - name: Deck Box
+    card:
+    - set: dsk
+      number: 416
+      name: Grievous Wound
+      foil: true
+  Duskmourn House of Horror Bundle Case:
+    sealed:
+    - set: dsk
+      name: Duskmourn House of Horror Bundle
+      count: 6
+  Duskmourn House of Horror Collector Booster Box:
+    sealed:
+    - set: dsk
+      name: Duskmourn House of Horror Collector Booster Pack
+      count: 12
+  Duskmourn House of Horror Collector Booster Box Case:
+    sealed:
+    - set: dsk
+      name: Duskmourn House of Horror Collector Booster Box
+      count: 6
+  Duskmourn House of Horror Collector Booster Pack:
+    card_count: 15
+    pack:
+    - set: dsk
+      code: collector
+  Duskmourn House of Horror Collector Booster Sample Pack:
+    card_count: 2
+    pack:
+    - set: dsk
+      code: collector-sample
+  Duskmourn House of Horror Nightmare Bundle:
+    sealed:
+    - set: dsk
+      name: Duskmourn House of Horror Play Booster Pack
+      count: 6
+    - set: dsk
+      name: Duskmourn House of Horror Collector Booster Pack
+      count: 2
+    - set: dsk
+      name: Duskmourn House of Horror Nightmare Bundle Booster
+      count: 1
+    other:
+    - name: 3 double-sided movie posters
+    - name: Glow-in-the-dark spindown die
+    - name: Deck box
+    - name: 20 foil full-art lands
+  Duskmourn House of Horror Nightmare Bundle Booster:
+    card_count: 2
+    pack:
+    - set: dsk
+      code: nightmare
+  Duskmourn House of Horror Nightmare Bundle Case:
+    sealed:
+    - set: dsk
+      count: 6
+      name: Duskmourn House of Horror Nightmare Bundle
+  Duskmourn House of Horror Play Booster Box:
+    sealed:
+    - set: dsk
+      name: Duskmourn House of Horror Play Booster Pack
+      count: 36
+  Duskmourn House of Horror Play Booster Box Case:
+    sealed:
+    - set: dsk
+      name: Duskmourn House of Horror Play Booster Box
+      count: 6
+  Duskmourn House of Horror Play Booster Pack:
+    card_count: 14
+    pack:
+    - set: dsk
+      code: play
+  Duskmourn House of Horror Prerelease Pack:
+    card_count: 1
+    pack:
+    - set: dsk
+      code: prerelease
+    sealed:
+    - set: dsk
+      name: Duskmourn House of Horror Play Booster Pack
+      count: 6
+    other:
+    - name: Deck box
+    - name: Duskmourn spindown

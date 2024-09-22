@@ -1,7 +1,64 @@
 code: dsc
 products:
-  Duskmourn House of Horror Commander Deck Death Toll: []
-  Duskmourn House of Horror Commander Deck Endless Punishment: []
-  Duskmourn House of Horror Commander Deck Jump Scare: []
-  Duskmourn House of Horror Commander Deck Miracle Worker: []
-  Duskmourn House of Horror Commander Decks Set of 4: []
+  Duskmourn House of Horror Commander Deck Death Toll:
+    card_count: 100
+    deck:
+    - set: dsc
+      name: Death Toll
+    sealed:
+    - set: dsk
+      name: Duskmourn House of Horror Collector Booster Sample Pack
+      count: 1
+    other:
+    - name: 10 Double-sided tokens
+    - name: Deck box
+  Duskmourn House of Horror Commander Deck Endless Punishment:
+    card_count: 100
+    deck:
+    - set: dsc
+      name: Endless Punishment
+    sealed:
+    - set: dsk
+      name: Duskmourn House of Horror Collector Booster Sample Pack
+      count: 1
+    other:
+    - name: 10 Double-sided tokens
+    - name: Deck box
+  Duskmourn House of Horror Commander Deck Jump Scare:
+    card_count: 100
+    deck:
+    - set: dsc
+      name: Jump Scare
+    sealed:
+    - set: dsk
+      name: Duskmourn House of Horror Collector Booster Sample Pack
+      count: 1
+    other:
+    - name: 10 Double-sided tokens
+    - name: Deck box
+  Duskmourn House of Horror Commander Deck Miracle Worker:
+    card_count: 100
+    deck:
+    - set: dsc
+      name: Miracle Worker
+    sealed:
+    - set: dsk
+      name: Duskmourn House of Horror Collector Booster Sample Pack
+      count: 1
+    other:
+    - name: 10 Double-sided tokens
+    - name: Deck box
+  Duskmourn House of Horror Commander Decks Set of 4:
+    sealed:
+    - set: dsc
+      name: Duskmourn House of Horror Commander Deck Death Toll
+      count: 1
+    - set: dsc
+      name: Duskmourn House of Horror Commander Deck Endless Punishment
+      count: 1
+    - set: dsc
+      name: Duskmourn House of Horror Commander Deck Jump Scare
+      count: 1
+    - set: dsc
+      name: Duskmourn House of Horror Commander Deck Miracle Worker
+      count: 1
