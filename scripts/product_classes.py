@@ -23,10 +23,16 @@ class card:
 
     def get_uuids(self, uuid_map):
         try:
-            self.uuid = uuid_map[self.set.lower()]["cards"][str(self.number)]
+            self.uuid = uuid_map[self.set.lower()]["cards"][str(self.number)][0]
+            if self.name != uuid_map[self.set.lower()]["cards"][str(self.number)][1]:
+                raise ValueError("name and number do not match", self.name, self.name)
         except KeyError:
             with open("status.txt", "a") as f:
-                f.write(f"Card number {self.number} not found in set {self.set}\n")
+                f.write(f"Card number {self.set}:{self.number} not found in set {self.set}\n")
+            self.uuid = None
+        except ValueError:
+            with open("status.txt", "a") as f:
+                f.write(f"Card number {self.set}:{self.number} not found with name {self.name}\n")
             self.uuid = None
 
 
@@ -42,7 +48,7 @@ class pack:
     def get_uuids(self, uuid_map):
         try: 
             umap = uuid_map[self.set.lower()]["booster"]
-        except:
+        except KeyError:
             umap = False
             with open("status.txt", "a") as f:
                 f.write(f"Booster code {self.code} not found in set {self.set}\n")
