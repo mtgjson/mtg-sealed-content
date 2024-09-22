@@ -18,8 +18,10 @@ def build_uuid_map():
     parser = ijson.parse(r.content)
     current_set = ""
     status = ""
-    identifier = ""
+    name = ""
+    number = ""
     uuid = ""
+    holding = ""
     for prefix, event, value in parser:
         if prefix == "data" and event == "map_key":
             current_set = value
@@ -46,31 +48,36 @@ def build_uuid_map():
                 prefix == f"data.{current_set}.sealedProduct.item"
                 and event == "start_map"
             ):
-                identifier = ""
+                name = ""
                 uuid = ""
             elif prefix == f"data.{current_set}.sealedProduct.item.name":
-                identifier = value
+                name = value
             elif prefix == f"data.{current_set}.sealedProduct.item.uuid":
                 uuid = value
             elif (
                 prefix == f"data.{current_set}.sealedProduct.item"
                 and event == "end_map"
             ):
-                uuids[ccode]["sealedProduct"][identifier] = uuid
+                uuids[ccode]["sealedProduct"][name] = uuid
         elif status == "cards":
             # Only preserve the "main" face of the card
-            if (f"data.{current_set}.cards.item.side" == "" or f"data.{current_set}.cards.item.side" == "a"):
-                continue
-
+            if prefix == f"data.{current_set}.cards.item.side":
+                if value != "a":
+                    holding = "skip"
             if prefix == f"data.{current_set}.cards.item" and event == "start_map":
-                identifier = ""
+                number = ""
+                name = ""
                 uuid = ""
             elif prefix == f"data.{current_set}.cards.item.number":
-                identifier = value
+                number = value
+            elif prefix == f"data.{current_set}.cards.item.name":
+                name = value
             elif prefix == f"data.{current_set}.cards.item.uuid":
                 uuid = value
             elif prefix == f"data.{current_set}.cards.item" and event == "end_map":
-                uuids[ccode]["cards"][identifier] = uuid
+                if holding != "skip":
+                    uuids[ccode]["cards"][number] = (uuid, name)
+                holding = ""
     return uuids
 
 
