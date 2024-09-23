@@ -24,7 +24,7 @@ class card:
     def get_uuids(self, uuid_map):
         try:
             self.uuid = uuid_map[self.set.lower()]["cards"][str(self.number)][0]
-            if self.name != uuid_map[self.set.lower()]["cards"][str(self.number)][1]:
+            if self.name not in uuid_map[self.set.lower()]["cards"][str(self.number)][1]:
                 raise ValueError("name and number do not match", self.name, self.name)
         except KeyError:
             with open("status.txt", "a") as f:
