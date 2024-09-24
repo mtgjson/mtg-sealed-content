@@ -4226,8 +4226,10 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation Japanese: []
-  Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation Japanese Rainbow Foil: []
+  Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation Japanese:
+    copy: Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation English
+  Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation Japanese Rainbow Foil:
+    copy: Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation English Rainbow Foil
   Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar English:
     card_count: 6
     deck:
@@ -4242,8 +4244,10 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar Japanese: []
-  Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar Japanese Rainbow Foil: []
+  Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar Japanese:
+    copy: Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar English
+  Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar Japanese Rainbow Foil:
+    copy: Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar English Rainbow Foil
   Secret Lair Drop Secret Lair x Jurassic World Dr Ian Malcolm:
     card_count: 4
     deck:
