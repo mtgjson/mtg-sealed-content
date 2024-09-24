@@ -3184,7 +3184,13 @@ products:
       set: sld
   Secret Lair Drop Lil Giri Saves the Day Roadshow Edition Foil:
     copy: Secret Lair Drop Lil Giri Saves the Day Foil
-  Secret Lair Drop Lil Legends Foil: []
+  Secret Lair Drop Lil Legends Foil:
+    card_count: 5
+    deck:
+    - name: Lil Legends
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Lil Walkers:
     card_count: 5
     deck:
