@@ -890,7 +890,9 @@ products:
   Secret Lair Drop April Fools:
     category: BOX_SET
     identifiers:
+      cardtraderId: '169894'
       csiId: '305128'
+      mcmId: '464684'
       tcgplayerProductId: '223086'
     subtype: SECRET_LAIR
   Secret Lair Drop Artist Series Alayna Danner:
@@ -1087,18 +1089,13 @@ products:
       cardtraderId: '290281'
       csiId: '386608'
       mcmId: '765961'
-    release_date: '2024-04-16'
-    subtype: SECRET_LAIR
-  Secret Lair Drop Artist Series Rovina Cai Foil:
-    category: BOX_SET
-    identifiers:
-      csiId: '386609'
       tcgplayerProductId: '545721'
     release_date: '2024-04-16'
     subtype: SECRET_LAIR
   Secret Lair Drop Artist Series Rovina Cai Rainbow Foil:
     category: BOX_SET
     identifiers:
+      csiId: '386609'
       tcgplayerProductId: '545719'
     release_date: '2024-04-25'
     subtype: SECRET_LAIR
@@ -1697,12 +1694,7 @@ products:
       cardtraderId: '290288'
       csiId: '386566'
       mcmId: '765962'
-    subtype: SECRET_LAIR
-  Secret Lair Drop Diabolical Dioramas Foil:
-    category: BOX_SET
-    identifiers:
       tcgplayerProductId: '545716'
-    release_date: '2024-04-25'
     subtype: SECRET_LAIR
   Secret Lair Drop Diabolical Dioramas Rainbow Foil:
     category: BOX_SET
@@ -1911,13 +1903,8 @@ products:
       cardtraderId: '290287'
       csiId: '386559'
       mcmId: '765963'
-    release_date: '2024-04-16'
-    subtype: SECRET_LAIR
-  Secret Lair Drop Featuring Phoebe Wahl Foil:
-    category: BOX_SET
-    identifiers:
       tcgplayerProductId: '545723'
-    release_date: '2024-04-16'
+    release_date: '2024-04-25'
     subtype: SECRET_LAIR
   Secret Lair Drop Featuring Phoebe Wahl Rainbow Foil:
     category: BOX_SET
@@ -3939,7 +3926,7 @@ products:
       tcgplayerProductId: '267780'
       tntId: '1757599'
     subtype: SECRET_LAIR
-  Secret Lair Drop Spring Superdrop 2024 Outlaws of Thunder Junction:
+  Secret Lair Drop Spring Superdrop 2024 Outlaws of Thunder Junction Bundle:
     category: BOX_SET
     identifiers:
       tcgplayerProductId: '551419'
@@ -4400,14 +4387,6 @@ products:
     identifiers:
       csiId: '374438'
       tcgplayerProductId: '456547'
-    subtype: SECRET_LAIR
-  ? Secret Lair Drop Wizards of the Coast Presents After Great Deliberation We Have
-    Compiled and Remastered the Greatest Magic The Gathering Cards of All Time Ever
-  : category: BOX_SET
-    identifiers:
-      cardtraderId: '169894'
-      mcmId: '464684'
-    release_date: '2020-05-28'
     subtype: SECRET_LAIR
   Secret Lair Drop Wizards of the Street:
     category: BOX_SET

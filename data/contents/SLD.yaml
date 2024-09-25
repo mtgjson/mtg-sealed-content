@@ -1565,14 +1565,13 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop Artist Series Rovina Cai Foil:
+  Secret Lair Drop Artist Series Rovina Cai Rainbow Foil:
     card_count: 4
     deck:
     - name: Artist Series Rovina Cai foil
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop Artist Series Rovina Cai Rainbow Foil: []
   Secret Lair Drop Artist Series Ryan Alexander Lee:
     card:
     - name: Gaea's Blessing
@@ -1634,7 +1633,7 @@ products:
   Secret Lair Drop Artist Series Sidharth Chaturvedi:
     card:
     - name: Ghost Quarter
-      number: 468
+      number: 679
       set: sld
     card_count: 4
     deck:
@@ -1644,7 +1643,7 @@ products:
     card:
     - foil: true
       name: Ghost Quarter
-      number: 468
+      number: 679
       set: sld
     card_count: 4
     deck:
@@ -2514,14 +2513,13 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop Diabolical Dioramas Foil:
+  Secret Lair Drop Diabolical Dioramas Rainbow Foil:
     card_count: 4
     deck:
     - name: Diabolical Dioramas foil
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop Diabolical Dioramas Rainbow Foil: []
   Secret Lair Drop Draw Your Hand:
     card_count: 4
     deck:
@@ -2765,14 +2763,13 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop Featuring Phoebe Wahl Foil:
+  Secret Lair Drop Featuring Phoebe Wahl Rainbow Foil:
     card_count: 5
     deck:
     - name: Featuring Phoebe Wahl foil
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop Featuring Phoebe Wahl Rainbow Foil: []
   Secret Lair Drop Featuring the Mountain Goats:
     card:
     - name: Mountain Goat
@@ -3187,7 +3184,13 @@ products:
       set: sld
   Secret Lair Drop Lil Giri Saves the Day Roadshow Edition Foil:
     copy: Secret Lair Drop Lil Giri Saves the Day Foil
-  Secret Lair Drop Lil Legends Foil: []
+  Secret Lair Drop Lil Legends Foil:
+    card_count: 5
+    deck:
+    - name: Lil Legends
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Lil Walkers:
     card_count: 5
     deck:
@@ -4226,8 +4229,10 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation Japanese: []
-  Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation Japanese Rainbow Foil: []
+  Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation Japanese:
+    copy: Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation English
+  Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation Japanese Rainbow Foil:
+    copy: Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation English Rainbow Foil
   Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar English:
     card_count: 6
     deck:
@@ -4242,8 +4247,10 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar Japanese: []
-  Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar Japanese Rainbow Foil: []
+  Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar Japanese:
+    copy: Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar English
+  Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar Japanese Rainbow Foil:
+    copy: Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar English Rainbow Foil
   Secret Lair Drop Secret Lair x Jurassic World Dr Ian Malcolm:
     card_count: 4
     deck:
@@ -4995,7 +5002,7 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop Spring Superdrop 2024 Outlaws of Thunder Junction: []
+  Secret Lair Drop Spring Superdrop 2024 Outlaws of Thunder Junction Bundle: []
   Secret Lair Drop Ssssssnakessssss:
     card_count: 5
     deck:
@@ -5533,9 +5540,6 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
-  ? Secret Lair Drop Wizards of the Coast Presents After Great Deliberation We Have
-    Compiled and Remastered the Greatest Magic The Gathering Cards of All Time Ever
-  : []
   Secret Lair Drop Wizards of the Street:
     card_count: 4
     deck:
