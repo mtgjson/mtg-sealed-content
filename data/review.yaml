@@ -4,46 +4,6 @@ abugames:
     identifiers:
       abuId: '1520913'
     subtype: UNKNOWN
-  'Duskmourn: House of Horror Bundle (Limit: 1 Per Customer)':
-    category: UNKNOWN
-    identifiers:
-      abuId: '2529114'
-    subtype: UNKNOWN
-  'Duskmourn: House of Horror Collector Booster Box':
-    category: UNKNOWN
-    identifiers:
-      abuId: '2529110'
-    subtype: UNKNOWN
-  'Duskmourn: House of Horror Collector Booster Pack':
-    category: UNKNOWN
-    identifiers:
-      abuId: '2529109'
-    subtype: UNKNOWN
-  'Duskmourn: House of Horror Commander Deck #1 Miracle Worker':
-    category: UNKNOWN
-    identifiers:
-      abuId: '2529111'
-    subtype: UNKNOWN
-  'Duskmourn: House of Horror Commander Deck #2 Jump Scare!':
-    category: UNKNOWN
-    identifiers:
-      abuId: '2531127'
-    subtype: UNKNOWN
-  'Duskmourn: House of Horror Commander Deck #3 Death Toll':
-    category: UNKNOWN
-    identifiers:
-      abuId: '2529112'
-    subtype: UNKNOWN
-  'Duskmourn: House of Horror Commander Deck #4 Endless Punishment':
-    category: UNKNOWN
-    identifiers:
-      abuId: '2529113'
-    subtype: UNKNOWN
-  'Duskmourn: House of Horror Play Booster Pack':
-    category: UNKNOWN
-    identifiers:
-      abuId: '2529107'
-    subtype: UNKNOWN
   Ixalan Land Pack (80ct):
     category: UNKNOWN
     identifiers:
@@ -54,119 +14,16 @@ abugames:
     identifiers:
       abuId: '1100218'
     subtype: UNKNOWN
-cardKingdom:
-  4th Edition Starter Deck Display:
-    category: UNKNOWN
-    identifiers:
-      cardKingdomId: '240090'
-    subtype: UNKNOWN
-cardMarket:
-  'Duskmourn: House of Horror Nightmare Bundle Booster':
-    category: UNKNOWN
-    identifiers:
-      mcmId: '790111'
-    release_date: '2024-09-24'
-    subtype: UNKNOWN
+cardKingdom: {}
+cardMarket: {}
 cardTrader:
-  'Commander: March of the Machine "Call for Backup" Commander Kit':
+  Could not load provider cardTrader:
     category: UNKNOWN
     identifiers:
-      cardtraderId: '302221'
-    subtype: UNKNOWN
-  'Commander: March of the Machine "Calvalry Charge" Commander Kit':
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '302219'
-    subtype: UNKNOWN
-  'Commander: March of the Machine "Divine Convocation" Commander Kit':
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '302220'
-    subtype: UNKNOWN
-  'Commander: March of the Machine "Growing Threat Deluxe" Commander Kit':
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '302218'
-    subtype: UNKNOWN
-  'Commander: March of the Machine "Tinker Time" Commander Kit':
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '302222'
-    subtype: UNKNOWN
-  'Duskmourn: House of Horror Collector Booster Japanese Version':
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '300087'
-    subtype: UNKNOWN
-  'Duskmourn: House of Horror | Collector Booster Box Japanese Version':
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '300086'
+      cardtraderId: ''
     subtype: UNKNOWN
 coolstuffinc: {}
 miniaturemarket: {}
-starcitygames:
-  Foundations Beginner Box:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-INT-FDNBEGINNER-EN
-    subtype: UNKNOWN
-  Foundations Bundle:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-BUN-FDN-EN
-    subtype: UNKNOWN
-  Foundations Collector Booster Box:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-BBX-FDNCOLLECTOR-EN
-    subtype: UNKNOWN
-  Foundations Collector Booster Pack:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-PCK-FDNCOLLECTOR-EN
-    subtype: UNKNOWN
-  Foundations Jumpstart Booster Box:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-BBX-J25-EN
-    subtype: UNKNOWN
-  Foundations Jumpstart Booster Pack:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-PCK-J25-EN
-    subtype: UNKNOWN
-  Foundations Play Booster Box:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-BBX-FDNPLAY-EN
-    subtype: UNKNOWN
-  Foundations Play Booster Case (6 boxes):
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-BBX-FDNPLAYCASE-EN
-    subtype: UNKNOWN
-  Foundations Play Booster Pack:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-PCK-FDNPLAY-EN
-    subtype: UNKNOWN
-  Foundations Play Combo Pack:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-BBX-FDNPLAYCOMBO-EN
-    subtype: UNKNOWN
-tcgplayer:
-  Duskmourn House of Horror Foil Promo Pack:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '583725'
-    release_date: '2024-09-27'
-    subtype: UNKNOWN
-  Duskmourn House of Horror Promo Pack:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '583724'
-    release_date: '2024-09-27'
-    subtype: UNKNOWN
+starcitygames: {}
+tcgplayer: {}
 trollandtoad: {}

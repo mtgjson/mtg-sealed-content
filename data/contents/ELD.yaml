@@ -57,19 +57,19 @@ products:
       name: Throne of Eldraine Brawl Deck Wild Bounty
       set: eld
   Throne of Eldraine Bundle:
-    sealed:
-    - set: eld
-      name: Throne of Eldraine Draft Booster Pack
-      count: 10
+    card:
+    - foil: true
+      name: Piper of the Swarm
+      number: 392
+      set: eld
     other:
     - name: 20 foil basic lands
     - name: 20 nonfoil basic lands
     - name: Throne of Eldraine oversized spindown
     - name: Reusable card storage box
-    card:
-    - name: Piper of the Swarm
-      number: 392
-      foil: true
+    sealed:
+    - count: 10
+      name: Throne of Eldraine Draft Booster Pack
       set: eld
   Throne of Eldraine Collector Booster Box:
     sealed:
@@ -126,22 +126,22 @@ products:
     - code: draft
       set: eld
   Throne of Eldraine Gift Bundle:
-    sealed:
-    - set: eld
-      name: Throne of Eldraine Draft Booster Pack
-      count: 10
-    - set: eld
-      name: Throne of Eldraine Collector Booster Pack
-      count: 1
+    card:
+    - foil: true
+      name: Piper of the Swarm
+      number: 392
+      set: eld
     other:
     - name: 20 foil basic lands
     - name: 20 nonfoil basic lands
     - name: Throne of Eldraine oversized spindown
     - name: Reusable card storage box
-    card:
-    - name: Piper of the Swarm
-      number: 392
-      foil: true
+    sealed:
+    - count: 10
+      name: Throne of Eldraine Draft Booster Pack
+      set: eld
+    - count: 1
+      name: Throne of Eldraine Collector Booster Pack
       set: eld
   Throne of Eldraine Planeswalker Deck Display:
     sealed:
@@ -179,15 +179,15 @@ products:
       set: eld
   Throne of Eldraine Prerelease Pack:
     card_count: 1
-    pack:
-    - set: eld
-      code: prerelease
     other:
     - name: Throne of Eldraine Spindown
+    pack:
+    - code: prerelease
+      set: eld
     sealed:
-    - set: eld
+    - count: 6
       name: Throne of Eldraine Draft Booster Pack
-      count: 6
+      set: eld
   Throne of Eldraine Theme Booster Box:
     sealed:
     - count: 2
