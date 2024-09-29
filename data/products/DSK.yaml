@@ -3,6 +3,7 @@ products:
   Duskmourn House of Horror Bundle:
     category: BUNDLE
     identifiers:
+      abuId: '2529114'
       cardKingdomId: '300716'
       cardtraderId: '292182'
       csiId: '391975'
@@ -21,6 +22,7 @@ products:
   Duskmourn House of Horror Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2529110'
       cardKingdomId: '300720'
       cardtraderId: '292181'
       csiId: '391972'
@@ -40,6 +42,7 @@ products:
   Duskmourn House of Horror Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2529109'
       cardKingdomId: '300719'
       cardtraderId: '292185'
       csiId: '391973'
@@ -56,6 +59,20 @@ products:
       mcmId: '776441'
     release_date: '2024-09-27'
     subtype: PROMOTIONAL
+  Duskmourn House of Horror Japanese Collector Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardtraderId: '300086'
+    language: Japanese
+    release_date: '2024-09-27'
+    subtype: COLLECTOR
+  Duskmourn House of Horror Japanese Collector Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardtraderId: '300087'
+    language: Japanese
+    release_date: '2024-09-27'
+    subtype: COLLECTOR
   Duskmourn House of Horror Nightmare Bundle:
     category: BUNDLE
     identifiers:
@@ -104,6 +121,7 @@ products:
   Duskmourn House of Horror Play Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2529107'
       cardKingdomId: '300717'
       cardtraderId: '292184'
       csiId: '391968'
