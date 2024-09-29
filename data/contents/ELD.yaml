@@ -1,6 +1,19 @@
 code: eld
 products:
-  Throne of Eldraine Brawl Deck Display: []
+  Throne of Eldraine Brawl Deck Display:
+    sealed:
+    - count: 2
+      name: Throne of Eldraine Brawl Deck Faerie Schemes
+      set: eld
+    - count: 2
+      name: Throne of Eldraine Brawl Deck Knights Charge
+      set: eld
+    - count: 2
+      name: Throne of Eldraine Brawl Deck Savage Hunger
+      set: eld
+    - count: 2
+      name: Throne of Eldraine Brawl Deck Wild Bounty
+      set: eld
   Throne of Eldraine Brawl Deck Faerie Schemes:
     card_count: 60
     deck:
@@ -43,7 +56,21 @@ products:
     - count: 1
       name: Throne of Eldraine Brawl Deck Wild Bounty
       set: eld
-  Throne of Eldraine Bundle: []
+  Throne of Eldraine Bundle:
+    sealed:
+    - set: eld
+      name: Throne of Eldraine Draft Booster Pack
+      count: 10
+    other:
+    - name: 20 foil basic lands
+    - name: 20 nonfoil basic lands
+    - name: Throne of Eldraine spindown
+    - name: Reusable card storage box
+    card:
+    - name: Piper of the Swarm
+      number: 392
+      foil: true
+      set: eld
   Throne of Eldraine Collector Booster Box:
     sealed:
     - count: 12
@@ -98,7 +125,24 @@ products:
     pack:
     - code: draft
       set: eld
-  Throne of Eldraine Gift Bundle: []
+  Throne of Eldraine Gift Bundle:
+    sealed:
+    - set: eld
+      name: Throne of Eldraine Draft Booster Pack
+      count: 10
+    - set: eld
+      name: Throne of Eldraine Collector Booster Pack
+      count: 1
+    other:
+    - name: 20 foil basic lands
+    - name: 20 nonfoil basic lands
+    - name: Throne of Eldraine spindown
+    - name: Reusable card storage box
+    card:
+    - name: Piper of the Swarm
+      number: 392
+      foil: true
+      set: eld
   Throne of Eldraine Planeswalker Deck Display:
     sealed:
     - count: 3
@@ -133,7 +177,17 @@ products:
     - count: 1
       name: Throne of Eldraine Planeswalker Deck Rowan
       set: eld
-  Throne of Eldraine Prerelease Pack: []
+  Throne of Eldraine Prerelease Pack:
+    card_count: 1
+    pack:
+    - set: eld
+      code: prerelease
+    other:
+    - name: Throne of Eldraine Spindown
+    sealed:
+    - set: eld
+      name: Throne of Eldraine Draft Booster Pack
+      count: 6
   Throne of Eldraine Theme Booster Box:
     sealed:
     - count: 2
