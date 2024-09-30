@@ -2910,19 +2910,25 @@ products:
     - code: stainedglass-uncommon
       set: sld
   Secret Lair Drop Hard Boiled Thrillers:
+    card:
+    - foil: true
+      name: Skemfar Shadowsag
+      number: 759
+      set: sld
     card_count: 5
     deck:
     - name: Hard Boiled Thrillers
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Hard Boiled Thrillers Rainbow Foil:
+    card:
+    - foil: true
+      name: Skemfar Shadowsag
+      number: 759
+      set: sld
     card_count: 5
     deck:
     - name: Hard Boiled Thrillers foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Here Be Dragons Foil:
     card:
     - foil: true
