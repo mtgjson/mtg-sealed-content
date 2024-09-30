@@ -4609,19 +4609,23 @@ products:
     - name: The Princess Bride foil
       set: sld
   Secret Lair Drop Secret Lair x Tomb Raider:
+    card:
+    - name: Command Tower
+      number: 792
+      set: sld
     card_count: 6
     deck:
     - name: Tomb Raider
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Tomb Raider Foil:
+    card:
+    - name: Command Tower
+      number: 792
+      set: sld
     card_count: 6
     deck:
     - name: Tomb Raider foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Warhammer 40000 Orks:
     card:
     - name: Wastes
