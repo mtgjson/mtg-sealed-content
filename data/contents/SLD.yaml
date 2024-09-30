@@ -3882,33 +3882,43 @@ products:
     - name: Arcane Lands foil
       set: sld
   Secret Lair Drop Secret Lair x Assassins Creed Da Vincis Designs:
+    card:
+    - name: Haystack
+      number: 802
+      set: sld
     card_count: 5
     deck:
     - name: Assassins Creed Da Vincis Designs
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Assassins Creed Da Vincis Designs Rainbow Foil:
+    card:
+    - foil: true
+      name: Haystack
+      number: 802
+      set: sld
     card_count: 5
     deck:
     - name: Assassins Creed Da Vincis Designs foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Assassins Creed Lethal Legends:
+    card:
+    - name: Haystack
+      number: 802
+      set: sld
     card_count: 5
     deck:
     - name: Assassins Creed Lethal Legends
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Assassins Creed Lethal Legends Rainbow Foil:
+    card:
+    - foil: true
+      name: Haystack
+      number: 802
+      set: sld
     card_count: 5
     deck:
     - name: Assassins Creed Lethal Legends foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Blood Bowl:
     card:
     - name: Wastes
