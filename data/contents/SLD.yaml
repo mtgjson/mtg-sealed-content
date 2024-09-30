@@ -2595,6 +2595,9 @@ products:
   Secret Lair Drop Extra Life 2021:
     card:
     - name: Questing Phelddagrif
+      number: 671
+      set: sld
+    - name: Questing Phelddagrif
       number: 672
       set: sld
     card_count: 6
@@ -2605,6 +2608,10 @@ products:
     card:
     - foil: true
       name: Questing Phelddagrif
+      number: 671
+      set: sld
+    - foil: true
+      name: Questing Phelddagrif
       number: 672
       set: sld
     card_count: 6
@@ -2613,7 +2620,12 @@ products:
       set: sld
   Secret Lair Drop Extra Life 2022:
     card:
-    - name: Maro
+    - foil: true
+      name: Maro
+      number: 718
+      set: sld
+    - foil: true
+      name: Maro
       number: 719
       set: sld
     card_count: 8
@@ -2622,6 +2634,10 @@ products:
       set: sld
   Secret Lair Drop Extra Life 2022 Foil:
     card:
+    - foil: true
+      name: Maro
+      number: 718
+      set: sld
     - foil: true
       name: Maro
       number: 719
