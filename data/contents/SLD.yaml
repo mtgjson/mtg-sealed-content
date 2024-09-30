@@ -2850,19 +2850,25 @@ products:
     other:
     - name: Bonus card unknown
   Secret Lair Drop Goblingram:
+    card:
+    - foil: true
+      name: Thrun, the Last Troll
+      number: 810
+      set: sld
     card_count: 5
     deck:
     - name: Goblingram
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Goblingram Rainbow Foil:
+    card:
+    - foil: true
+      name: Thrun, the Last Troll
+      number: 810
+      set: sld
     card_count: 5
     deck:
     - name: Goblingram foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Happy Little Gathering:
     card:
     - name: Evolving Wilds
