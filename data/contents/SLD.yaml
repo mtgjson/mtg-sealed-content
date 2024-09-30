@@ -4412,29 +4412,39 @@ products:
     deck:
     - name: Monty Python and the Holy Grail Vol 1
       set: sld
-    other:
-    - name: Bonus card unknown
+    card:
+    - name: Goblin Bombardment
+      number: 825
+      set: sld
   Secret Lair Drop Secret Lair x Monty Python Monty Python and the Holy Grail Vol 1 Foil:
     card_count: 5
     deck:
     - name: Monty Python and the Holy Grail Vol 1 foil
       set: sld
-    other:
-    - name: Bonus card unknown
+    card:
+    - foil: true
+      name: Goblin Bombardment
+      number: 825
+      set: sld
   Secret Lair Drop Secret Lair x Monty Python Monty Python and the Holy Grail Vol 2:
     card_count: 3
     deck:
     - name: Monty Python and the Holy Grail Vol 2
       set: sld
-    other:
-    - name: Bonus card unknown
+    card:
+    - name: Kezzerdrix
+      number: 826
+      set: sld
   Secret Lair Drop Secret Lair x Monty Python Monty Python and the Holy Grail Vol 2 Foil:
     card_count: 3
     deck:
     - name: Monty Python and the Holy Grail Vol 2 foil
       set: sld
-    other:
-    - name: Bonus card unknown
+    card:
+    - foil: true
+      name: Kezzerdrix
+      number: 826
+      set: sld
   Secret Lair Drop Secret Lair x Post Malone Backstage Pass:
     card:
     - foil: true
