@@ -1559,19 +1559,24 @@ products:
     - name: Artist Series Rebecca Guay foil
       set: sld
   Secret Lair Drop Artist Series Rovina Cai:
+    card:
+    - name: Arcane Signet
+      number: 820
+      set: sld
     card_count: 4
     deck:
     - name: Artist Series Rovina Cai
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Artist Series Rovina Cai Rainbow Foil:
+    card:
+    - foil: true
+      name: Arcane Signet
+      number: 820
+      set: sld
     card_count: 4
     deck:
     - name: Artist Series Rovina Cai foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Artist Series Ryan Alexander Lee:
     card:
     - name: Gaea's Blessing
