@@ -4839,19 +4839,24 @@ products:
     other:
     - name: Bonus card unknown
   Secret Lair Drop Showcase Outlaws of Thunder Junction:
+    card:
+    - name: Norin the Wary
+      number: 827
+      set: sld
     card_count: 4
     deck:
     - name: Showcase Outlaws of Thunder Junction
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Showcase Outlaws of Thunder Junction Foil:
+    card:
+    - foil: true
+      name: Norin the Wary
+      number: 827
+      set: sld
     card_count: 4
     deck:
     - name: Showcase Outlaws of Thunder Junction foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Showcase Read The Fine Print:
     card:
     - foil: true
