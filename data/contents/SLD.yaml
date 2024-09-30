@@ -5736,19 +5736,24 @@ products:
     variable_mode:
       count: 1
   Secret Lair Drop sAnS mERcY:
+    card:
+    - name: Spiteful Prankster
+      number: 801
+      set: sld
     card_count: 5
     deck:
     - name: sAnS mERcY
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop sAnS mERcY Rainbow Foil:
+    card:
+    - foil: true
+      name: Spiteful Prankster
+      number: 801
+      set: sld
     card_count: 5
     deck:
     - name: sAnS mERcY foil
       set: sld
-    other:
-    - name: Bonus card unknown
   "Secret Lair Drop \u201Cexplosion sounds\u201D":
     card_count: 5
     deck:
