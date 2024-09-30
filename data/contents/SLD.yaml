@@ -5546,19 +5546,24 @@ products:
     - code: stainedglass-g
       set: sld
   Secret Lair Drop Through the Wormhole:
+    card:
+    - name: Solemn Simulacrum
+      number: 791
+      set: sld
     card_count: 5
     deck:
     - name: Through the Wormhole
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Through the Wormhole Galaxy Foil:
+    card:
+    - foil: true
+      name: Solemn Simulacrum
+      number: "791\u2605"
+      set: sld
     card_count: 5
     deck:
     - name: Through the Wormhole foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Time Trouble Two:
     card_count: 3
     deck:
