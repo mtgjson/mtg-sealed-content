@@ -3656,19 +3656,24 @@ products:
     other:
     - name: Bonus card unknown
   Secret Lair Drop PixelLands_v02jpg:
+    card:
+    - name: Command Tower
+      number: 758
+      set: sld
     card_count: 5
     deck:
     - name: PixelLands_v02jpg
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop PixelLands_v02jpg Foil:
+    card:
+    - foil: true
+      name: Command Tower
+      number: 758
+      set: sld
     card_count: 5
     deck:
     - name: PixelLands_v02jpg foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop PixelSnowLandsjpg:
     card_count: 5
     deck:
