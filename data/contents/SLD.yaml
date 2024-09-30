@@ -2743,19 +2743,24 @@ products:
     other:
     - name: Bonus card unknown
   Secret Lair Drop Featuring Not a Wolf:
+    card:
+    - name: Immerwolf
+      number: 809
+      set: sld
     card_count: 5
     deck:
     - name: Featuring Not a Wolf
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Featuring Not a Wolf Rainbow Foil:
+    card:
+    - foil: true
+      name: Immerwolf
+      number: 809
+      set: sld
     card_count: 5
     deck:
     - name: Featuring Not a Wolf foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Featuring Phoebe Wahl:
     card_count: 5
     deck:
