@@ -4664,19 +4664,25 @@ products:
     other:
     - name: Bonus card unknown
   Secret Lair Drop Sheldons Spellbook:
+    card:
+    - foil: true
+      name: Keen Duelist
+      number: 828
+      set: sld
     card_count: 7
     deck:
     - name: Sheldons Spellbook
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Sheldons Spellbook Foil:
+    card:
+    - foil: true
+      name: Keen Duelist
+      number: 828
+      set: sld
     card_count: 7
     deck:
     - name: Sheldons Spellbook foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Showcase All Will Be One Step and Compleat Foil:
     card_count: 5
     deck:
