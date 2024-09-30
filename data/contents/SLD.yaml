@@ -4417,33 +4417,43 @@ products:
     copy: Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar English Rainbow
       Foil
   Secret Lair Drop Secret Lair x Jurassic World Dr Ian Malcolm:
+    card:
+    - name: Chaos Warp
+      number: 741
+      set: sld
     card_count: 4
     deck:
     - name: Jurassic World Dr Ian Malcolm
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Jurassic World Dr Ian Malcolm Foil:
+    card:
+    - foil: true
+      name: Chaos Warp
+      number: 741
+      set: sld
     card_count: 4
     deck:
     - name: Jurassic World Dr Ian Malcolm foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Jurassic World Life Breaks Free:
+    card:
+    - name: Colossal Dreadmaw
+      number: 740
+      set: sld
     card_count: 5
     deck:
     - name: Jurassic World Life Breaks Free
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Jurassic World Life Breaks Free Foil:
+    card:
+    - foil: true
+      name: Colossal Dreadmaw
+      number: 740
+      set: sld
     card_count: 5
     deck:
     - name: Jurassic World Life Breaks Free foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Monty Python Monty Python and the Holy Grail Vol 1:
     card_count: 5
     deck:
