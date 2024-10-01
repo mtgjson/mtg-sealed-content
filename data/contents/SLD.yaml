@@ -1333,8 +1333,7 @@ products:
       set: sld
   Secret Lair Drop Artist Series Chris Rahn:
     card:
-    - foil: true
-      name: Huntmaster of the Fells
+    - name: Huntmaster of the Fells
       number: 700
       set: sld
     card_count: 4
@@ -1559,19 +1558,24 @@ products:
     - name: Artist Series Rebecca Guay foil
       set: sld
   Secret Lair Drop Artist Series Rovina Cai:
+    card:
+    - name: Arcane Signet
+      number: 820
+      set: sld
     card_count: 4
     deck:
     - name: Artist Series Rovina Cai
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Artist Series Rovina Cai Rainbow Foil:
+    card:
+    - foil: true
+      name: Arcane Signet
+      number: 820
+      set: sld
     card_count: 4
     deck:
     - name: Artist Series Rovina Cai foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Artist Series Ryan Alexander Lee:
     card:
     - name: Gaea's Blessing
@@ -2590,6 +2594,9 @@ products:
   Secret Lair Drop Extra Life 2021:
     card:
     - name: Questing Phelddagrif
+      number: 671
+      set: sld
+    - name: Questing Phelddagrif
       number: 672
       set: sld
     card_count: 6
@@ -2600,6 +2607,10 @@ products:
     card:
     - foil: true
       name: Questing Phelddagrif
+      number: 671
+      set: sld
+    - foil: true
+      name: Questing Phelddagrif
       number: 672
       set: sld
     card_count: 6
@@ -2608,7 +2619,12 @@ products:
       set: sld
   Secret Lair Drop Extra Life 2022:
     card:
-    - name: Maro
+    - foil: true
+      name: Maro
+      number: 718
+      set: sld
+    - foil: true
+      name: Maro
       number: 719
       set: sld
     card_count: 8
@@ -2617,6 +2633,10 @@ products:
       set: sld
   Secret Lair Drop Extra Life 2022 Foil:
     card:
+    - foil: true
+      name: Maro
+      number: 718
+      set: sld
     - foil: true
       name: Maro
       number: 719
@@ -2743,19 +2763,24 @@ products:
     other:
     - name: Bonus card unknown
   Secret Lair Drop Featuring Not a Wolf:
+    card:
+    - name: Immerwolf
+      number: 809
+      set: sld
     card_count: 5
     deck:
     - name: Featuring Not a Wolf
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Featuring Not a Wolf Rainbow Foil:
+    card:
+    - foil: true
+      name: Immerwolf
+      number: 809
+      set: sld
     card_count: 5
     deck:
     - name: Featuring Not a Wolf foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Featuring Phoebe Wahl:
     card_count: 5
     deck:
@@ -2845,19 +2870,25 @@ products:
     other:
     - name: Bonus card unknown
   Secret Lair Drop Goblingram:
+    card:
+    - foil: true
+      name: Thrun, the Last Troll
+      number: 810
+      set: sld
     card_count: 5
     deck:
     - name: Goblingram
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Goblingram Rainbow Foil:
+    card:
+    - foil: true
+      name: Thrun, the Last Troll
+      number: 810
+      set: sld
     card_count: 5
     deck:
     - name: Goblingram foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Happy Little Gathering:
     card:
     - name: Evolving Wilds
@@ -2894,19 +2925,25 @@ products:
     - code: stainedglass-uncommon
       set: sld
   Secret Lair Drop Hard Boiled Thrillers:
+    card:
+    - foil: true
+      name: Skemfar Shadowsag
+      number: 759
+      set: sld
     card_count: 5
     deck:
     - name: Hard Boiled Thrillers
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Hard Boiled Thrillers Rainbow Foil:
+    card:
+    - foil: true
+      name: Skemfar Shadowsag
+      number: 759
+      set: sld
     card_count: 5
     deck:
     - name: Hard Boiled Thrillers foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Here Be Dragons Foil:
     card:
     - foil: true
@@ -3000,19 +3037,24 @@ products:
     other:
     - name: Bonus card unknown
   Secret Lair Drop Just Add Milk Second Helpings:
-    card_count: 3
+    card:
+    - name: Coveted Jewel
+      number: 799
+      set: sld
+    card_count: 4
     deck:
     - name: Just Add Milk Second Helpings
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Just Add Milk Second Helpings Rainbow Foil:
-    card_count: 3
+    card:
+    - foil: true
+      name: Coveted Jewel
+      number: 799
+      set: sld
+    card_count: 4
     deck:
     - name: Just Add Milk Second Helpings foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Just Some Totally Normal Guys:
     card_count: 4
     deck:
@@ -3629,19 +3671,24 @@ products:
     other:
     - name: Bonus card unknown
   Secret Lair Drop PixelLands_v02jpg:
+    card:
+    - name: Command Tower
+      number: 758
+      set: sld
     card_count: 5
     deck:
     - name: PixelLands_v02jpg
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop PixelLands_v02jpg Foil:
+    card:
+    - foil: true
+      name: Command Tower
+      number: 758
+      set: sld
     card_count: 5
     deck:
     - name: PixelLands_v02jpg foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop PixelSnowLandsjpg:
     card_count: 5
     deck:
@@ -3882,33 +3929,43 @@ products:
     - name: Arcane Lands foil
       set: sld
   Secret Lair Drop Secret Lair x Assassins Creed Da Vincis Designs:
+    card:
+    - name: Haystack
+      number: 802
+      set: sld
     card_count: 5
     deck:
     - name: Assassins Creed Da Vincis Designs
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Assassins Creed Da Vincis Designs Rainbow Foil:
+    card:
+    - foil: true
+      name: Haystack
+      number: 802
+      set: sld
     card_count: 5
     deck:
     - name: Assassins Creed Da Vincis Designs foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Assassins Creed Lethal Legends:
+    card:
+    - name: Haystack
+      number: 802
+      set: sld
     card_count: 5
     deck:
     - name: Assassins Creed Lethal Legends
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Assassins Creed Lethal Legends Rainbow Foil:
+    card:
+    - foil: true
+      name: Haystack
+      number: 802
+      set: sld
     card_count: 5
     deck:
     - name: Assassins Creed Lethal Legends foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Blood Bowl:
     card:
     - name: Wastes
@@ -3933,43 +3990,169 @@ products:
     deck:
     - name: Brain Dead Creatures
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Echo of Eons
+        number: 821
+        set: sld
+    - card:
+      - foil: true
+        name: Hive Mind
+        number: 822
+        set: sld
+    - card:
+      - foil: true
+        name: Chaos Warp 
+        number: 823
+        set: sld
+    - card:
+      - foil: true
+        name: Evolving Wilds
+        number: 824
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Secret Lair x Brain Dead Creatures Rainbow Foil:
     card_count: 5
     deck:
     - name: Brain Dead Creatures foil
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Echo of Eons
+        number: 821
+        set: sld
+    - card:
+      - foil: true
+        name: Hive Mind
+        number: 822
+        set: sld
+    - card:
+      - foil: true
+        name: Chaos Warp 
+        number: 823
+        set: sld
+    - card:
+      - foil: true
+        name: Evolving Wilds
+        number: 824
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Secret Lair x Brain Dead Lands:
     card_count: 10
     deck:
     - name: Brain Dead Lands
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Echo of Eons
+        number: 821
+        set: sld
+    - card:
+      - foil: true
+        name: Hive Mind
+        number: 822
+        set: sld
+    - card:
+      - foil: true
+        name: Chaos Warp 
+        number: 823
+        set: sld
+    - card:
+      - foil: true
+        name: Evolving Wilds
+        number: 824
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Secret Lair x Brain Dead Lands Rainbow Foil:
     card_count: 10
     deck:
     - name: Brain Dead Lands foil
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Echo of Eons
+        number: 821
+        set: sld
+    - card:
+      - foil: true
+        name: Hive Mind
+        number: 822
+        set: sld
+    - card:
+      - foil: true
+        name: Chaos Warp 
+        number: 823
+        set: sld
+    - card:
+      - foil: true
+        name: Evolving Wilds
+        number: 824
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Secret Lair x Brain Dead Staples:
     card_count: 5
     deck:
     - name: Brain Dead Staples
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Echo of Eons
+        number: 821
+        set: sld
+    - card:
+      - foil: true
+        name: Hive Mind
+        number: 822
+        set: sld
+    - card:
+      - foil: true
+        name: Chaos Warp 
+        number: 823
+        set: sld
+    - card:
+      - foil: true
+        name: Evolving Wilds
+        number: 824
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Secret Lair x Brain Dead Staples Rainbow Foil:
     card_count: 5
     deck:
     - name: Brain Dead Staples foil
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Echo of Eons
+        number: 821
+        set: sld
+    - card:
+      - foil: true
+        name: Hive Mind
+        number: 822
+        set: sld
+    - card:
+      - foil: true
+        name: Chaos Warp 
+        number: 823
+        set: sld
+    - card:
+      - foil: true
+        name: Evolving Wilds
+        number: 824
+        set: sld
+    variable_mode:
+      count: 1
   Secret Lair Drop Secret Lair x Creepshow:
     card:
     - name: Terror
@@ -4254,61 +4437,81 @@ products:
     copy: Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar English Rainbow
       Foil
   Secret Lair Drop Secret Lair x Jurassic World Dr Ian Malcolm:
+    card:
+    - name: Chaos Warp
+      number: 741
+      set: sld
     card_count: 4
     deck:
     - name: Jurassic World Dr Ian Malcolm
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Jurassic World Dr Ian Malcolm Foil:
+    card:
+    - foil: true
+      name: Chaos Warp
+      number: 741
+      set: sld
     card_count: 4
     deck:
     - name: Jurassic World Dr Ian Malcolm foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Jurassic World Life Breaks Free:
+    card:
+    - name: Colossal Dreadmaw
+      number: 740
+      set: sld
     card_count: 5
     deck:
     - name: Jurassic World Life Breaks Free
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Jurassic World Life Breaks Free Foil:
+    card:
+    - foil: true
+      name: Colossal Dreadmaw
+      number: 740
+      set: sld
     card_count: 5
     deck:
     - name: Jurassic World Life Breaks Free foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Monty Python Monty Python and the Holy Grail Vol 1:
     card_count: 5
     deck:
     - name: Monty Python and the Holy Grail Vol 1
       set: sld
-    other:
-    - name: Bonus card unknown
+    card:
+    - name: Goblin Bombardment
+      number: 825
+      set: sld
   Secret Lair Drop Secret Lair x Monty Python Monty Python and the Holy Grail Vol 1 Foil:
     card_count: 5
     deck:
     - name: Monty Python and the Holy Grail Vol 1 foil
       set: sld
-    other:
-    - name: Bonus card unknown
+    card:
+    - foil: true
+      name: Goblin Bombardment
+      number: 825
+      set: sld
   Secret Lair Drop Secret Lair x Monty Python Monty Python and the Holy Grail Vol 2:
     card_count: 3
     deck:
     - name: Monty Python and the Holy Grail Vol 2
       set: sld
-    other:
-    - name: Bonus card unknown
+    card:
+    - name: Kezzerdrix
+      number: 826
+      set: sld
   Secret Lair Drop Secret Lair x Monty Python Monty Python and the Holy Grail Vol 2 Foil:
     card_count: 3
     deck:
     - name: Monty Python and the Holy Grail Vol 2 foil
       set: sld
-    other:
-    - name: Bonus card unknown
+    card:
+    - foil: true
+      name: Kezzerdrix
+      number: 826
+      set: sld
   Secret Lair Drop Secret Lair x Post Malone Backstage Pass:
     card:
     - foil: true
@@ -4426,19 +4629,23 @@ products:
     - name: The Princess Bride foil
       set: sld
   Secret Lair Drop Secret Lair x Tomb Raider:
+    card:
+    - name: Command Tower
+      number: 792
+      set: sld
     card_count: 6
     deck:
     - name: Tomb Raider
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Tomb Raider Foil:
+    card:
+    - name: Command Tower
+      number: 792
+      set: sld
     card_count: 6
     deck:
     - name: Tomb Raider foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Warhammer 40000 Orks:
     card:
     - name: Wastes
@@ -4461,7 +4668,7 @@ products:
   Secret Lair Drop Secret Lair x Warhammer Age of Sigmar:
     card:
     - name: Wastes
-      number: 704
+      number: 705
       set: sld
     card_count: 5
     deck:
@@ -4471,7 +4678,7 @@ products:
     card:
     - foil: true
       name: Wastes
-      number: 704
+      number: 705
       set: sld
     card_count: 5
     deck:
@@ -4502,19 +4709,25 @@ products:
     other:
     - name: Bonus card unknown
   Secret Lair Drop Sheldons Spellbook:
+    card:
+    - foil: true
+      name: Keen Duelist
+      number: 828
+      set: sld
     card_count: 7
     deck:
     - name: Sheldons Spellbook
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Sheldons Spellbook Foil:
+    card:
+    - foil: true
+      name: Keen Duelist
+      number: 828
+      set: sld
     card_count: 7
     deck:
     - name: Sheldons Spellbook foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Showcase All Will Be One Step and Compleat Foil:
     card_count: 5
     deck:
@@ -4682,19 +4895,24 @@ products:
     other:
     - name: Bonus card unknown
   Secret Lair Drop Showcase Outlaws of Thunder Junction:
+    card:
+    - name: Norin the Wary
+      number: 827
+      set: sld
     card_count: 4
     deck:
     - name: Showcase Outlaws of Thunder Junction
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Showcase Outlaws of Thunder Junction Foil:
+    card:
+    - foil: true
+      name: Norin the Wary
+      number: 827
+      set: sld
     card_count: 4
     deck:
     - name: Showcase Outlaws of Thunder Junction foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Showcase Read The Fine Print:
     card:
     - foil: true
@@ -5352,19 +5570,24 @@ products:
     - code: stainedglass-g
       set: sld
   Secret Lair Drop Through the Wormhole:
+    card:
+    - name: Solemn Simulacrum
+      number: 791
+      set: sld
     card_count: 5
     deck:
     - name: Through the Wormhole
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Through the Wormhole Galaxy Foil:
+    card:
+    - foil: true
+      name: Solemn Simulacrum
+      number: "791\u2605"
+      set: sld
     card_count: 5
     deck:
     - name: Through the Wormhole foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Time Trouble Two:
     card_count: 3
     deck:
@@ -5585,19 +5808,24 @@ products:
     variable_mode:
       count: 1
   Secret Lair Drop sAnS mERcY:
+    card:
+    - name: Spiteful Prankster
+      number: 801
+      set: sld
     card_count: 5
     deck:
     - name: sAnS mERcY
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop sAnS mERcY Rainbow Foil:
+    card:
+    - foil: true
+      name: Spiteful Prankster
+      number: 801
+      set: sld
     card_count: 5
     deck:
     - name: sAnS mERcY foil
       set: sld
-    other:
-    - name: Bonus card unknown
   "Secret Lair Drop \u201Cexplosion sounds\u201D":
     card_count: 5
     deck:
