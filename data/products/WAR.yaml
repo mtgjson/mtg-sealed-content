@@ -13,15 +13,6 @@ products:
       tntId: '1469257'
     release_date: '2019-05-03'
     subtype: DRAFT
-  War of the Spark Japanese Booster Box:
-    category: BOOSTER_BOX
-    language: Japanese
-    identifiers:
-      abuId: '1580829'
-      cardKingdomId: '224609'
-      csiId: '277220'
-      tntId: '1478914'
-    subtype: DRAFT
   War of the Spark Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
@@ -42,14 +33,6 @@ products:
       tntId: '1469258'
     release_date: '2019-05-03'
     subtype: DRAFT
-  War of the Spark Japanese Booster Pack:
-    category: BOOSTER_PACK
-    language: Japanese
-    identifiers:
-      csiId: '277364'
-      tntId: '1642780'
-    release_date: '2019-05-03'
-    subtype: DRAFT
   War of the Spark Bundle:
     category: BUNDLE
     identifiers:
@@ -63,6 +46,23 @@ products:
       tntId: '1469259'
     release_date: '2019-05-03'
     subtype: DEFAULT
+  War of the Spark Japanese Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      abuId: '1580829'
+      cardKingdomId: '224609'
+      csiId: '277220'
+      tntId: '1478914'
+    language: Japanese
+    subtype: DRAFT
+  War of the Spark Japanese Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      csiId: '277364'
+      tntId: '1642780'
+    language: Japanese
+    release_date: '2019-05-03'
+    subtype: DRAFT
   War of the Spark Mythic Edition:
     category: BUNDLE
     identifiers:
