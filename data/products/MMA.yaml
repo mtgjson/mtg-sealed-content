@@ -11,7 +11,7 @@ products:
       scgId: SLD-MTG-BBX-MMA-EN
       tcgplayerProductId: '68104'
       tntId: '1026688'
-    subtype: DEFAULT
+    subtype: DRAFT
   Modern Masters Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -23,4 +23,8 @@ products:
       scgId: SLD-MTG-PCK-MMA-EN
       tcgplayerProductId: '68105'
       tntId: '1026689'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Modern Masters Draft Booster Box Case:
+    category: BOOSTER_CASE
+    subtype: DRAFT
+    identifiers: {}

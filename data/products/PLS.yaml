@@ -11,7 +11,11 @@ products:
       scgId: SLD-MTG-BBX-PLS-EN
       tcgplayerProductId: '27297'
       tntId: '86751'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Planeshift Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Planeshift Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -23,7 +27,7 @@ products:
       scgId: SLD-MTG-PCK-PLS-EN
       tcgplayerProductId: '27359'
       tntId: '114587'
-    subtype: DEFAULT
+    subtype: DRAFT
   Planeshift Fat Pack:
     category: BUNDLE
     identifiers:

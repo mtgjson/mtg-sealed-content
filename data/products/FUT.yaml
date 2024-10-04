@@ -11,7 +11,11 @@ products:
       scgId: SLD-MTG-BBX-FUT-EN
       tcgplayerProductId: '27280'
       tntId: '144505'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Future Sight Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Future Sight Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -23,7 +27,7 @@ products:
       scgId: SLD-MTG-PCK-FUT-EN
       tcgplayerProductId: '27342'
       tntId: '144498'
-    subtype: DEFAULT
+    subtype: DRAFT
   Future Sight Fat Pack:
     category: BUNDLE
     identifiers:

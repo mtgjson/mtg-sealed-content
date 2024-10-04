@@ -11,7 +11,11 @@ products:
       scgId: SLD-MTG-BBX-MRD-EN
       tcgplayerProductId: '27291'
       tntId: '110760'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Mirrodin Booster Box Case:
+    category: BOOSTER_CASE
+    subtype: DRAFT
+    identifiers: {}
   Mirrodin Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -23,7 +27,7 @@ products:
       scgId: SLD-MTG-PCK-MRD-EN
       tcgplayerProductId: '27353'
       tntId: '110757'
-    subtype: DEFAULT
+    subtype: DRAFT
   Mirrodin Fat Pack:
     category: BUNDLE
     identifiers:

@@ -11,7 +11,11 @@ products:
       scgId: SLD-MTG-BBX-JUD-EN
       tcgplayerProductId: '27285'
       tntId: '104104'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Judgment Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Judgment Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -23,7 +27,7 @@ products:
       scgId: SLD-MTG-PCK-JUD-EN
       tcgplayerProductId: '27347'
       tntId: '107761'
-    subtype: DEFAULT
+    subtype: DRAFT
   Judgment Fat Pack:
     category: BUNDLE
     identifiers:

@@ -11,7 +11,11 @@ products:
       scgId: SLD-MTG-BBX-ODY-EN
       tcgplayerProductId: '27294'
       tntId: '92402'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Odyssey Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Odyssey Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -22,7 +26,7 @@ products:
       mcmId: '210037'
       tcgplayerProductId: '27356'
       tntId: '96346'
-    subtype: DEFAULT
+    subtype: DRAFT
   Odyssey Fat Pack:
     category: BUNDLE
     identifiers:

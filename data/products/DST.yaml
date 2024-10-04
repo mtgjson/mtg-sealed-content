@@ -11,7 +11,11 @@ products:
       scgId: SLD-MTG-BBX-DST-EN
       tcgplayerProductId: '27272'
       tntId: '112351'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Darksteel Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Darksteel Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -23,7 +27,7 @@ products:
       scgId: SLD-MTG-PCK-DST-EN
       tcgplayerProductId: '27334'
       tntId: '112350'
-    subtype: DEFAULT
+    subtype: DRAFT
   Darksteel Fat Pack:
     category: BUNDLE
     identifiers:

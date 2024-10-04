@@ -11,7 +11,11 @@ products:
       scgId: SLD-MTG-BBX-NEM-EN
       tcgplayerProductId: '27293'
       tntId: '113974'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Nemesis Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Nemesis Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -23,7 +27,7 @@ products:
       scgId: SLD-MTG-PCK-NEM-EN
       tcgplayerProductId: '27355'
       tntId: '113975'
-    subtype: DEFAULT
+    subtype: DRAFT
   Nemesis Fat Pack:
     category: BUNDLE
     identifiers:

@@ -11,7 +11,11 @@ products:
       scgId: SLD-MTG-BBX-UDS-EN
       tcgplayerProductId: '27314'
       tntId: '90150'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Urzas Destiny Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Urzas Destiny Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -23,7 +27,7 @@ products:
       scgId: SLD-MTG-PCK-UDS-EN
       tcgplayerProductId: '27376'
       tntId: '90151'
-    subtype: DEFAULT
+    subtype: DRAFT
   Urzas Destiny Theme Deck Assassin:
     category: DECK
     identifiers:

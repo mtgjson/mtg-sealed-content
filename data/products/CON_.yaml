@@ -11,7 +11,11 @@ products:
       scgId: SLD-MTG-BBX-CFX-EN
       tcgplayerProductId: '93516'
       tntId: '237690'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Conflux Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Conflux Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -22,7 +26,7 @@ products:
       mcmId: '210137'
       tcgplayerProductId: '108337'
       tntId: '237691'
-    subtype: DEFAULT
+    subtype: DRAFT
   Conflux Fat Pack:
     category: BUNDLE
     identifiers:

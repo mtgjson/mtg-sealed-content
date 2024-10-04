@@ -11,7 +11,11 @@ products:
       scgId: SLD-MTG-BBX-EVE-EN
       tcgplayerProductId: '27274'
       tntId: '179874'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Eventide Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Eventide Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -23,7 +27,7 @@ products:
       scgId: SLD-MTG-PCK-EVE-EN
       tcgplayerProductId: '27336'
       tntId: '179875'
-    subtype: DEFAULT
+    subtype: DRAFT
   Eventide Fat Pack:
     category: BUNDLE
     identifiers:

@@ -11,7 +11,11 @@ products:
       scgId: SLD-MTG-BBX-EXO-EN
       tcgplayerProductId: '27275'
       tntId: '82439'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Exodus Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Exodus Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -23,7 +27,7 @@ products:
       scgId: SLD-MTG-PCK-EXO-EN
       tcgplayerProductId: '27337'
       tntId: '82440'
-    subtype: DEFAULT
+    subtype: DRAFT
   Exodus Theme Deck Display:
     category: DECK_BOX
     identifiers:

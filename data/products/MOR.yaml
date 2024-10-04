@@ -11,7 +11,11 @@ products:
       scgId: SLD-MTG-BBX-MOR-EN
       tcgplayerProductId: '27292'
       tntId: '160540'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Morningtide Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Morningtide Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -23,7 +27,7 @@ products:
       scgId: SLD-MTG-PCK-MOR-EN
       tcgplayerProductId: '27354'
       tntId: '160541'
-    subtype: DEFAULT
+    subtype: DRAFT
   Morningtide Fat Pack:
     category: BUNDLE
     identifiers:

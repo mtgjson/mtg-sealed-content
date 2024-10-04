@@ -11,7 +11,11 @@ products:
       scgId: SLD-MTG-BBX-10E-EN
       tcgplayerProductId: '27257'
       tntId: '154066'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Tenth Edition Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Tenth Edition Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -23,7 +27,7 @@ products:
       scgId: SLD-MTG-PCK-10E-EN
       tcgplayerProductId: '27319'
       tntId: '154065'
-    subtype: DEFAULT
+    subtype: DRAFT
   Tenth Edition Fat Pack:
     category: BUNDLE
     identifiers:

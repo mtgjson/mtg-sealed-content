@@ -11,7 +11,11 @@ products:
       scgId: SLD-MTG-BBX-PLC-EN
       tcgplayerProductId: '27296'
       tntId: '141922'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Planar Chaos Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Planar Chaos Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -23,7 +27,7 @@ products:
       scgId: SLD-MTG-PCK-PLC-EN
       tcgplayerProductId: '27358'
       tntId: '141913'
-    subtype: DEFAULT
+    subtype: DRAFT
   Planar Chaos Fat Pack:
     category: BUNDLE
     identifiers:

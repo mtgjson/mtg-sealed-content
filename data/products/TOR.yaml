@@ -11,7 +11,11 @@ products:
       scgId: SLD-MTG-BBX-TOR-EN
       tcgplayerProductId: '27311'
       tntId: '98976'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Torment Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Torment Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -23,7 +27,7 @@ products:
       scgId: SLD-MTG-PCK-TOR-EN
       tcgplayerProductId: '27373'
       tntId: '101330'
-    subtype: DEFAULT
+    subtype: DRAFT
   Torment Fat Pack:
     category: BUNDLE
     identifiers:

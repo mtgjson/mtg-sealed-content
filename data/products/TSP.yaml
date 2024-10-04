@@ -11,7 +11,11 @@ products:
       scgId: SLD-MTG-BBX-TSP-EN
       tcgplayerProductId: '27310'
       tntId: '141923'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Time Spiral Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Time Spiral Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -23,7 +27,7 @@ products:
       scgId: SLD-MTG-PCK-TSP-EN
       tcgplayerProductId: '27372'
       tntId: '141924'
-    subtype: DEFAULT
+    subtype: DRAFT
   Time Spiral Fat Pack:
     category: BUNDLE
     identifiers:

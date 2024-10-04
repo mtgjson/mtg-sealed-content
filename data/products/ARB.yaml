@@ -11,7 +11,11 @@ products:
       scgId: SLD-MTG-BBX-ARB-EN
       tcgplayerProductId: '31841'
       tntId: '237694'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Alara Reborn Booster Box Case:
+    category: BOOSTER_CASE
+    subtype: DRAFT
+    identifiers: {}
   Alara Reborn Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -23,7 +27,7 @@ products:
       scgId: SLD-MTG-PCK-ARB-EN
       tcgplayerProductId: '31840'
       tntId: '237695'
-    subtype: DEFAULT
+    subtype: DRAFT
   Alara Reborn Fat Pack:
     category: BUNDLE
     identifiers:

@@ -11,7 +11,11 @@ products:
       scgId: SLD-MTG-BBX-LRW-EN
       tcgplayerProductId: '27288'
       tntId: '160527'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Lorwyn Booster Box Case:
+    category: BOOSTER_CASE
+    subtype: DRAFT
+    identifiers: {}
   Lorwyn Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -23,7 +27,7 @@ products:
       scgId: SLD-MTG-PCK-LRW-EN
       tcgplayerProductId: '27350'
       tntId: '160528'
-    subtype: DEFAULT
+    subtype: DRAFT
   Lorwyn Fat Pack:
     category: BUNDLE
     identifiers:

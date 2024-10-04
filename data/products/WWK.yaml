@@ -11,7 +11,11 @@ products:
       scgId: SLD-MTG-BBX-WWK-EN
       tcgplayerProductId: '34468'
       tntId: '287098'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Worldwake Booster Box Case:
+    category: BOOSTER_CASE
+    subtype: DRAFT
+    identifiers: {}
   Worldwake Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -23,7 +27,7 @@ products:
       scgId: SLD-MTG-PCK-WWK-EN
       tcgplayerProductId: '34469'
       tntId: '287099'
-    subtype: DEFAULT
+    subtype: DRAFT
   Worldwake Fat Pack:
     category: BUNDLE
     identifiers:

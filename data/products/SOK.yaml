@@ -11,7 +11,11 @@ products:
       scgId: SLD-MTG-BBX-SOK-EN
       tcgplayerProductId: '27304'
       tntId: '123119'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Saviors of Kamigawa Booster Box Case:
+    category: BOOSTER_BOX
+    identifiers: {}
+    subtype: DRAFT
   Saviors of Kamigawa Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -22,7 +26,7 @@ products:
       mcmId: '210049'
       tcgplayerProductId: '27366'
       tntId: '123110'
-    subtype: DEFAULT
+    subtype: DRAFT
   Saviors of Kamigawa Fat Pack:
     category: BUNDLE
     identifiers:

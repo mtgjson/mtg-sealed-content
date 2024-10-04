@@ -11,7 +11,11 @@ products:
       scgId: SLD-MTG-BBX-CSP-EN
       tcgplayerProductId: '27271'
       tntId: '141889'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Coldsnap Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Coldsnap Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -23,7 +27,7 @@ products:
       scgId: SLD-MTG-PCK-CSP-EN
       tcgplayerProductId: '27333'
       tntId: '141888'
-    subtype: DEFAULT
+    subtype: DRAFT
   Coldsnap Fat Pack:
     category: BUNDLE
     identifiers:

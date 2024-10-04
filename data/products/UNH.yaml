@@ -11,7 +11,11 @@ products:
       scgId: SLD-MTG-BBX-UNH-EN
       tcgplayerProductId: '79290'
       tntId: '119811'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Unhinged Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Unhinged Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -23,4 +27,4 @@ products:
       scgId: SLD-MTG-PCK-UNH-EN
       tcgplayerProductId: '79291'
       tntId: '119810'
-    subtype: DEFAULT
+    subtype: DRAFT

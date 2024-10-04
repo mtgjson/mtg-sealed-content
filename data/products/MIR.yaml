@@ -11,7 +11,11 @@ products:
       scgId: SLD-MTG-BBX-MIR-EN
       tcgplayerProductId: '27290'
       tntId: '85666'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Mirage Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Mirage Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -23,7 +27,7 @@ products:
       scgId: SLD-MTG-PCK-MIR-EN
       tcgplayerProductId: '27352'
       tntId: '85667'
-    subtype: DEFAULT
+    subtype: DRAFT
   Mirage Starter Deck:
     category: LIMITED
     identifiers:

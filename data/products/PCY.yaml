@@ -11,7 +11,11 @@ products:
       scgId: SLD-MTG-BBX-PCY-EN
       tcgplayerProductId: '27301'
       tntId: '86992'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Prophecy Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Prophecy Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -22,7 +26,7 @@ products:
       mcmId: '210032'
       tcgplayerProductId: '27363'
       tntId: '86993'
-    subtype: DEFAULT
+    subtype: DRAFT
   Prophecy Fat Pack:
     category: BUNDLE
     identifiers:

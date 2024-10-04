@@ -11,7 +11,11 @@ products:
       scgId: SLD-MTG-BBX-RAV-EN
       tcgplayerProductId: '27302'
       tntId: '128863'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Ravnica Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Ravnica Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -23,7 +27,7 @@ products:
       scgId: SLD-MTG-PCK-RAV-EN
       tcgplayerProductId: '27364'
       tntId: '128853'
-    subtype: DEFAULT
+    subtype: DRAFT
   Ravnica Fat Pack:
     category: BUNDLE
     identifiers:

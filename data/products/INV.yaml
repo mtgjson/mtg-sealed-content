@@ -11,7 +11,11 @@ products:
       scgId: SLD-MTG-BBX-INV-EN
       tcgplayerProductId: '27284'
       tntId: '84066'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Invasion Booster Box Case:
+    category: BOOSTER_CASE
+    subtype: DRAFT
+    identifiers: {}
   Invasion Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -23,7 +27,7 @@ products:
       scgId: SLD-MTG-PCK-INV-EN
       tcgplayerProductId: '27346'
       tntId: '138496'
-    subtype: DEFAULT
+    subtype: DRAFT
   Invasion Fat Pack:
     category: BUNDLE
     identifiers:

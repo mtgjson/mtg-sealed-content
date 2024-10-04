@@ -11,7 +11,11 @@ products:
       scgId: SLD-MTG-BBX-GPT-EN
       tcgplayerProductId: '27281'
       tntId: '138464'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Guildpact Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Guildpact Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -23,7 +27,7 @@ products:
       scgId: SLD-MTG-PCK-GPT-EN
       tcgplayerProductId: '27343'
       tntId: '138463'
-    subtype: DEFAULT
+    subtype: DRAFT
   Guildpact Fat Pack:
     category: BUNDLE
     identifiers:

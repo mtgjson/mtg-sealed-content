@@ -11,7 +11,11 @@ products:
       scgId: SLD-MTG-BBX-DIS-EN
       tcgplayerProductId: '27273'
       tntId: '137770'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Dissension Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Dissension Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -22,7 +26,7 @@ products:
       mcmId: '210052'
       tcgplayerProductId: '27335'
       tntId: '137771'
-    subtype: DEFAULT
+    subtype: DRAFT
   Dissension Fat Pack:
     category: BUNDLE
     identifiers:

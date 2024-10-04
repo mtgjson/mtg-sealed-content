@@ -11,7 +11,11 @@ products:
       scgId: SLD-MTG-BBX-ONS-EN
       tcgplayerProductId: '27295'
       tntId: '104432'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Onslaught Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Onslaught Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -23,7 +27,7 @@ products:
       scgId: SLD-MTG-PCK-ONS-EN
       tcgplayerProductId: '27357'
       tntId: '104433'
-    subtype: DEFAULT
+    subtype: DRAFT
   Onslaught Fat Pack:
     category: BUNDLE
     identifiers:
