@@ -9,7 +9,11 @@ products:
       mcmId: '210085'
       scgId: SLD-MTG-BBX-STH-EN
       tcgplayerProductId: '27307'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Stronghold Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Stronghold Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -19,7 +23,7 @@ products:
       mcmId: '210019'
       scgId: SLD-MTG-PCK-STH-EN
       tcgplayerProductId: '27369'
-    subtype: DEFAULT
+    subtype: DRAFT
   Stronghold Theme Deck Call of the Kor:
     category: DECK
     identifiers:

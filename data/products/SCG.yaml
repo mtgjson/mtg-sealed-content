@@ -9,7 +9,11 @@ products:
       mcmId: '210108'
       scgId: SLD-MTG-BBX-SCG-EN
       tcgplayerProductId: '27305'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Scourge Booster Box Case:
+    category: BOOSTER_CASE
+    subtype: DRAFT
+    identifiers: {}
   Scourge Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -19,7 +23,7 @@ products:
       mcmId: '210042'
       scgId: SLD-MTG-PCK-SCG-EN
       tcgplayerProductId: '27367'
-    subtype: DEFAULT
+    subtype: DRAFT
   Scourge Fat Pack:
     category: BUNDLE
     identifiers:

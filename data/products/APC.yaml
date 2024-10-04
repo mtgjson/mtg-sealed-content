@@ -9,7 +9,11 @@ products:
       mcmId: '210101'
       scgId: SLD-MTG-BBX-APC-EN
       tcgplayerProductId: '27264'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Apocalypse Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Apocalypse Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -19,7 +23,7 @@ products:
       mcmId: '210035'
       scgId: SLD-MTG-PCK-APC-EN
       tcgplayerProductId: '27326'
-    subtype: DEFAULT
+    subtype: DRAFT
   Apocalypse Fat Pack:
     category: BUNDLE
     identifiers:

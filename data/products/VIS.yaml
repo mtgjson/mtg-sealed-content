@@ -17,7 +17,11 @@ products:
       mcmId: '210082'
       scgId: SLD-MTG-BBX-VIS-EN
       tcgplayerProductId: '27317'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Visions Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Visions Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -27,7 +31,7 @@ products:
       mcmId: '210016'
       scgId: SLD-MTG-PCK-VIS-EN
       tcgplayerProductId: '27379'
-    subtype: DEFAULT
+    subtype: DRAFT
   Visions Preview Printing Booster Pack:
     category: BOOSTER_PACK
     identifiers:

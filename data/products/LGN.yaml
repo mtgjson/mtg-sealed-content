@@ -9,7 +9,11 @@ products:
       mcmId: '210107'
       scgId: SLD-MTG-BBX-LGN-EN
       tcgplayerProductId: '27287'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Legions Booster Box Case:
+    category: BOOSTER_CASE
+    subtype: DRAFT
+    identifiers: {}
   Legions Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -19,7 +23,7 @@ products:
       mcmId: '210041'
       scgId: SLD-MTG-PCK-LGN-EN
       tcgplayerProductId: '27349'
-    subtype: DEFAULT
+    subtype: DRAFT
   Legions Fat Pack:
     category: BUNDLE
     identifiers:

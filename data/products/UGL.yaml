@@ -9,7 +9,11 @@ products:
       mcmId: '210087'
       scgId: SLD-MTG-BBX-UGL-EN
       tcgplayerProductId: '27312'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Unglued Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Unglued Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -18,4 +22,4 @@ products:
       csiId: '98257'
       mcmId: '210021'
       tcgplayerProductId: '27374'
-    subtype: DEFAULT
+    subtype: DRAFT

@@ -9,7 +9,11 @@ products:
       mcmId: '210084'
       scgId: SLD-MTG-BBX-TMP-EN
       tcgplayerProductId: '27308'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Tempest Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Tempest Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -19,7 +23,7 @@ products:
       mcmId: '210018'
       scgId: SLD-MTG-PCK-TMP-EN
       tcgplayerProductId: '27370'
-    subtype: DEFAULT
+    subtype: DRAFT
   Tempest Starter Deck:
     category: LIMITED
     identifiers:

@@ -9,7 +9,11 @@ products:
       mcmId: '210096'
       scgId: SLD-MTG-BBX-MMQ-EN
       tcgplayerProductId: '27289'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Mercadian Masques Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Mercadian Masques Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -19,7 +23,7 @@ products:
       mcmId: '210030'
       scgId: SLD-MTG-PCK-MMQ-EN
       tcgplayerProductId: '27351'
-    subtype: DEFAULT
+    subtype: DRAFT
   Mercadian Masques Fat Pack:
     category: BUNDLE
     identifiers:

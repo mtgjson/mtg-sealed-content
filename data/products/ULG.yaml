@@ -9,7 +9,11 @@ products:
       mcmId: '210092'
       scgId: SLD-MTG-BBX-ULG-EN
       tcgplayerProductId: '27315'
-    subtype: DEFAULT
+    subtype: DRAFT
+  Urzas Legacy Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Urzas Legacy Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -18,7 +22,7 @@ products:
       csiId: '98387'
       mcmId: '210026'
       tcgplayerProductId: '27377'
-    subtype: DEFAULT
+    subtype: DRAFT
   Urzas Legacy Theme Deck Crusher:
     category: DECK
     identifiers:
