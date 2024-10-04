@@ -3,17 +3,20 @@ products:
   Duel Deck Merfolk vs Goblins:
     category: MULTI_DECK
     identifiers:
+      abuId: '1477018'
       cardKingdomId: '214721'
       cardtraderId: '48584'
       csiId: '243744'
       mcmId: '298751'
       scgId: SLD-MTG-BXS-DDT-EN
       tcgplayerProductId: '146998'
+      tntId: '1139822'
     release_date: '2017-06-28'
     subtype: DUEL
   Duel Deck Merfolk vs Goblins Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      tntId: '1139823'
     subtype: DUEL
   Duel Deck Merfolk vs Goblins Goblins Deck:
     category: DECK

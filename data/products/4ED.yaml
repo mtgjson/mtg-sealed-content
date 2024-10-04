@@ -3,45 +3,56 @@ products:
   Fourth Edition Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1100033'
       cardKingdomId: '207306'
       cardtraderId: '43544'
       csiId: '97284'
       mcmId: '210076'
       scgId: SLD-MTG-BBX-4ED-EN
       tcgplayerProductId: '27279'
+      tntId: '79215'
     subtype: DEFAULT
   Fourth Edition Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476802'
       cardKingdomId: '1168'
       cardtraderId: '43543'
       csiId: '97288'
       mcmId: '210010'
       scgId: SLD-MTG-PCK-4ED-EN
       tcgplayerProductId: '27341'
+      tntId: '143406'
     subtype: DEFAULT
   Fourth Edition Gift Box:
-    category: BUNDLE
+    category: MULTI_DECK
     identifiers:
+      abuId: '1100039'
       cardtraderId: '164546'
       mcmId: '369562'
       tcgplayerProductId: '250109'
+      tntId: '92048'
     release_date: '2019-01-29'
-    subtype: GIFT_BUNDLE
+    subtype: TWO_PLAYER_STARTER
   Fourth Edition Starter Deck:
     category: LIMITED
     identifiers:
+      abuId: '1107723'
       cardKingdomId: '111754'
       cardtraderId: '43545'
       mcmId: '248495'
       scgId: SLD-MTG-PCK-4EDSTARTER-EN
       tcgplayerProductId: '194420'
+      tntId: '94544'
     subtype: STARTER
   Fourth Edition Starter Deck Display:
     category: LIMITED_CASE
     identifiers:
+      abuId: '1107724'
+      cardKingdomId: '240090'
       cardtraderId: '43546'
       mcmId: '272023'
       scgId: SLD-MTG-BBX-4EDSTARTER-EN
       tcgplayerProductId: '250110'
+      tntId: '79218'
     subtype: STARTER

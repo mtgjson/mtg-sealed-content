@@ -1,5 +1,6 @@
 code: wc99
 products:
+  1999 World Championship Deck Box: []
   1999 World Championship Deck Jakub Slemr:
     card_count: 75
     deck:
@@ -19,4 +20,18 @@ products:
     card_count: 75
     deck:
     - name: Matt Linde - Mono-Green Stompy
+      set: wc99
+  1999 World Championship Decks Set of 4:
+    sealed:
+    - count: 1
+      name: 1999 World Championship Deck Jakub Slemr
+      set: wc99
+    - count: 1
+      name: 1999 World Championship Deck Kai Budde
+      set: wc99
+    - count: 1
+      name: 1999 World Championship Deck Mark Le Pine
+      set: wc99
+    - count: 1
+      name: 1999 World Championship Deck Matt Linde
       set: wc99

@@ -3,12 +3,14 @@ products:
   Judgment Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1100663'
       cardKingdomId: '1481'
       cardtraderId: '46015'
       csiId: '97700'
       mcmId: '210105'
       scgId: SLD-MTG-BBX-JUD-EN
       tcgplayerProductId: '27285'
+      tntId: '104104'
     subtype: DRAFT
   Judgment Booster Box Case:
     category: BOOSTER_CASE
@@ -17,57 +19,75 @@ products:
   Judgment Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476890'
       cardKingdomId: '1500'
       cardtraderId: '46014'
       csiId: '97703'
       mcmId: '210039'
       scgId: SLD-MTG-PCK-JUD-EN
       tcgplayerProductId: '27347'
+      tntId: '107761'
     subtype: DRAFT
   Judgment Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1496414'
       cardtraderId: '46016'
       csiId: '97704'
       mcmId: '210183'
       scgId: SLD-MTG-BUN-JUD-EN
       tcgplayerProductId: '78315'
+      tntId: '155256'
     subtype: FAT_PACK
   Judgment Theme Deck Air Razers:
     category: DECK
     identifiers:
+      abuId: '1100664'
       cardKingdomId: '1497'
       cardtraderId: '46017'
       mcmId: '253720'
       tcgplayerProductId: '175068'
+      tntId: '104015'
     subtype: THEME
   Judgment Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1100673'
       cardtraderId: '46021'
       mcmId: '210230'
     subtype: THEME
   Judgment Theme Deck Inundation:
     category: DECK
     identifiers:
+      abuId: '1100665'
       cardKingdomId: '1499'
       cardtraderId: '46018'
       mcmId: '253721'
       tcgplayerProductId: '175070'
+      tntId: '103734'
     subtype: THEME
   Judgment Theme Deck Painflow:
     category: DECK
     identifiers:
+      abuId: '1100667'
       cardKingdomId: '1498'
       cardtraderId: '46019'
       mcmId: '253722'
       tcgplayerProductId: '175067'
+      tntId: '103735'
     subtype: THEME
   Judgment Theme Deck Spectral Slam:
     category: DECK
     identifiers:
+      abuId: '1100672'
       cardKingdomId: '1496'
       cardtraderId: '46020'
       mcmId: '253723'
       tcgplayerProductId: '175069'
+      tntId: '103736'
+    subtype: THEME
+  Judgment Theme Decks Set of 4:
+    category: SUBSET
+    identifiers:
+      abuId: '1100675'
     subtype: THEME

@@ -3,12 +3,14 @@ products:
   Nemesis Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1100902'
       cardKingdomId: '1162'
       cardtraderId: '45616'
       csiId: '97972'
       mcmId: '210097'
       scgId: SLD-MTG-BBX-NEM-EN
       tcgplayerProductId: '27293'
+      tntId: '113974'
     subtype: DRAFT
   Nemesis Booster Box Case:
     category: BOOSTER_CASE
@@ -17,62 +19,80 @@ products:
   Nemesis Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476915'
       cardKingdomId: '1163'
       cardtraderId: '45615'
       csiId: '97976'
       mcmId: '210031'
       scgId: SLD-MTG-PCK-NEM-EN
       tcgplayerProductId: '27355'
+      tntId: '113975'
     subtype: DRAFT
   Nemesis Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1100908'
       cardKingdomId: '240343'
       cardtraderId: '45618'
       csiId: '97973'
       mcmId: '210190'
       scgId: SLD-MTG-BUN-NEM-EN
       tcgplayerProductId: '78322'
+      tntId: '155273'
     subtype: FAT_PACK
   Nemesis Theme Deck Breakdown:
     category: DECK
     identifiers:
+      abuId: '1100909'
       cardKingdomId: '1164'
       cardtraderId: '45619'
       csiId: '279774'
       mcmId: '253753'
       tcgplayerProductId: '116042'
+      tntId: '106946'
     subtype: THEME
   Nemesis Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1100914'
       cardtraderId: '45623'
       mcmId: '210233'
     subtype: THEME
   Nemesis Theme Deck Eruption:
     category: DECK
     identifiers:
+      abuId: '1100910'
       cardKingdomId: '1165'
       cardtraderId: '45620'
       csiId: '279775'
       mcmId: '253754'
       tcgplayerProductId: '116043'
+      tntId: '106959'
     subtype: THEME
   Nemesis Theme Deck Mercenaries:
     category: DECK
     identifiers:
+      abuId: '1100911'
       cardKingdomId: '1166'
       cardtraderId: '45621'
       csiId: '279776'
       mcmId: '253755'
       tcgplayerProductId: '116044'
+      tntId: '106941'
     subtype: THEME
   Nemesis Theme Deck Replicator:
     category: DECK
     identifiers:
+      abuId: '1100913'
       cardKingdomId: '1167'
       cardtraderId: '45622'
       csiId: '279777'
       mcmId: '253756'
       tcgplayerProductId: '116045'
+      tntId: '106924'
+    subtype: THEME
+  Nemesis Theme Decks Set of 4:
+    category: SUBSET
+    identifiers:
+      abuId: '1107961'
     subtype: THEME

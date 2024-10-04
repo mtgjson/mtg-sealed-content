@@ -3,12 +3,14 @@ products:
   Dissension Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1100389'
       cardKingdomId: '120115'
       cardtraderId: '47099'
       csiId: '97517'
       mcmId: '210118'
       scgId: SLD-MTG-BBX-DIS-EN
       tcgplayerProductId: '27273'
+      tntId: '137770'
     subtype: DRAFT
   Dissension Booster Box Case:
     category: BOOSTER_CASE
@@ -17,49 +19,60 @@ products:
   Dissension Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476870'
       cardKingdomId: '120116'
       cardtraderId: '47098'
       csiId: '97528'
       mcmId: '210052'
       tcgplayerProductId: '27335'
+      tntId: '137771'
     subtype: DRAFT
   Dissension Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1100390'
       cardKingdomId: '120120'
       cardtraderId: '47100'
       csiId: '97529'
       mcmId: '210170'
       scgId: SLD-MTG-BUN-DIS-EN
       tcgplayerProductId: '78309'
+      tntId: '155110'
     subtype: FAT_PACK
   Dissension Theme Deck Azorius Ascendant:
     category: DECK
     identifiers:
+      abuId: '1100391'
       cardKingdomId: '120483'
       cardtraderId: '47101'
       mcmId: '253669'
       tcgplayerProductId: '96343'
+      tntId: '137773'
     subtype: THEME
   Dissension Theme Deck Display:
     category: DECK_BOX
     identifiers:
       cardtraderId: '47104'
       mcmId: '210222'
+      tntId: '137772'
     subtype: THEME
   Dissension Theme Deck Rakdos Bloodsport:
     category: DECK
     identifiers:
+      abuId: '1100394'
       cardKingdomId: '120484'
       cardtraderId: '47102'
       mcmId: '253670'
       tcgplayerProductId: '96344'
+      tntId: '137775'
     subtype: THEME
   Dissension Theme Deck Simic Mutology:
     category: DECK
     identifiers:
+      abuId: '1100395'
       cardKingdomId: '120485'
       cardtraderId: '47103'
       mcmId: '253671'
       tcgplayerProductId: '96345'
+      tntId: '137774'
     subtype: THEME

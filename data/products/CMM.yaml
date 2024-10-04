@@ -3,12 +3,14 @@ products:
   Commander Masters Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2380014'
       cardKingdomId: '279444'
       cardtraderId: '238381'
       csiId: '357349'
       mcmId: '698962'
       scgId: SLD-MTG-BBX-CMMCOLLECTOR-EN
       tcgplayerProductId: '484929'
+      tntId: '1774298'
     release_date: '2023-08-04'
     subtype: COLLECTOR
   Commander Masters Collector Booster Box Case:
@@ -20,12 +22,14 @@ products:
   Commander Masters Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2380019'
       cardKingdomId: '279443'
       cardtraderId: '249851'
       csiId: '368384'
       mcmId: '698959'
       scgId: SLD-MTG-PCK-CMMCOLLECTOR-EN
       tcgplayerProductId: '484928'
+      tntId: '1774299'
     release_date: '2023-08-04'
     subtype: COLLECTOR
   Commander Masters Collector Booster Sample Pack:
@@ -33,49 +37,58 @@ products:
     identifiers:
       cardtraderId: '294300'
       mcmId: '729220'
+      tcgplayerProductId: '579968'
     release_date: '2023-07-28'
     subtype: COLLECTOR
   Commander Masters Commander Deck Eldrazi Unbound:
     category: DECK
     identifiers:
+      abuId: '2380015'
       cardKingdomId: '279445'
       cardtraderId: '238387'
       csiId: '357350'
       mcmId: '711915'
       scgId: SLD-MTG-MLT-CMM-EN-ELDRAZI
       tcgplayerProductId: '484931'
+      tntId: '1774301'
     subtype: COMMANDER
   Commander Masters Commander Deck Enduring Enchantments:
     category: DECK
     identifiers:
+      abuId: '2380016'
       cardKingdomId: '279446'
       cardtraderId: '238391'
       csiId: '357351'
       mcmId: '711916'
       scgId: SLD-MTG-MLT-CMM-EN-ENDURING
       tcgplayerProductId: '484932'
+      tntId: '1774302'
     release_date: '2023-08-04'
     subtype: COMMANDER
   Commander Masters Commander Deck Planeswalker Party:
     category: DECK
     identifiers:
+      abuId: '2380017'
       cardKingdomId: '279447'
       cardtraderId: '238393'
       csiId: '357352'
       mcmId: '711917'
       scgId: SLD-MTG-MLT-CMM-EN-PLANESWALKER
       tcgplayerProductId: '484930'
+      tntId: '1774303'
     release_date: '2023-08-04'
     subtype: COMMANDER
   Commander Masters Commander Deck Sliver Swarm:
     category: DECK
     identifiers:
+      abuId: '2380018'
       cardKingdomId: '279448'
       cardtraderId: '238394'
       csiId: '357353'
       mcmId: '711918'
       scgId: SLD-MTG-MLT-CMM-EN-SLIVER
       tcgplayerProductId: '484933'
+      tntId: '1774304'
     release_date: '2023-08-04'
     subtype: COMMANDER
   Commander Masters Commander Decks Set of 4:
@@ -93,6 +106,7 @@ products:
   Commander Masters Draft Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2376361'
       cardKingdomId: '279450'
       cardtraderId: '238379'
       csiId: '357348'
@@ -100,6 +114,7 @@ products:
       miniaturemarketId: '291548'
       scgId: SLD-MTG-BBX-CMMDRAFT-EN
       tcgplayerProductId: '484924'
+      tntId: '1774294'
     release_date: '2023-08-04'
     subtype: DRAFT
   Commander Masters Draft Booster Box Case:
@@ -111,17 +126,20 @@ products:
   Commander Masters Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2376362'
       cardKingdomId: '279451'
       cardtraderId: '249850'
       csiId: '357356'
       mcmId: '698953'
       scgId: SLD-MTG-PCK-CMMDRAFT-EN
       tcgplayerProductId: '484923'
+      tntId: '1774295'
     release_date: '2023-08-04'
     subtype: DRAFT
   Commander Masters Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2380012'
       cardKingdomId: '279453'
       cardtraderId: '238382'
       csiId: '357347'
@@ -129,6 +147,7 @@ products:
       miniaturemarketId: '291550'
       scgId: SLD-MTG-BBX-CMMSET-EN
       tcgplayerProductId: '484927'
+      tntId: '1774296'
     release_date: '2023-08-04'
     subtype: SET
   Commander Masters Set Booster Box Case:
@@ -140,11 +159,13 @@ products:
   Commander Masters Set Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2380013'
       cardKingdomId: '279452'
       cardtraderId: '249852'
       csiId: '357355'
       mcmId: '698957'
       scgId: SLD-MTG-PCK-CMMSET-EN
       tcgplayerProductId: '484926'
+      tntId: '1774297'
     release_date: '2023-08-04'
     subtype: SET

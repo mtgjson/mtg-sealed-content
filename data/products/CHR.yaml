@@ -3,34 +3,24 @@ products:
   Chronicles Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1100313'
       cardKingdomId: '207307'
       cardtraderId: '43719'
       csiId: '97467'
       mcmId: '210078'
       scgId: SLD-MTG-BBX-CHR-EN
       tcgplayerProductId: '27269'
+      tntId: '80772'
     subtype: DEFAULT
   Chronicles Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476860'
       cardKingdomId: '1465'
       cardtraderId: '43718'
       csiId: '97468'
       mcmId: '210012'
       scgId: SLD-MTG-PCK-CHR-EN
       tcgplayerProductId: '27331'
-    subtype: DEFAULT
-  Chronicles Japanese Booster Box:
-    category: BOOSTER_BOX
-    identifiers:
-      cardtraderId: '43729'
-      mcmId: '311371'
-    language: Japanese
-    subtype: DEFAULT
-  Chronicles Japanese Booster Pack:
-    category: BOOSTER_PACK
-    identifiers:
-      cardtraderId: '43727'
-      mcmId: '311372'
-    language: Japanese
+      tntId: '80773'
     subtype: DEFAULT

@@ -3,12 +3,14 @@ products:
   Saviors of Kamigawa Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1101108'
       cardKingdomId: '116997'
       cardtraderId: '46923'
       csiId: '98179'
       mcmId: '210115'
       scgId: SLD-MTG-BBX-SOK-EN
       tcgplayerProductId: '27304'
+      tntId: '123119'
     subtype: DRAFT
   Saviors of Kamigawa Booster Box Case:
     category: BOOSTER_BOX
@@ -17,57 +19,76 @@ products:
   Saviors of Kamigawa Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476938'
       cardKingdomId: '117165'
       cardtraderId: '46922'
       csiId: '98191'
       mcmId: '210049'
       tcgplayerProductId: '27366'
+      tntId: '123110'
     subtype: DRAFT
   Saviors of Kamigawa Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1101101'
       cardKingdomId: '130436'
       cardtraderId: '46924'
       csiId: '98192'
       mcmId: '210174'
       scgId: SLD-MTG-BUN-SOK-EN
       tcgplayerProductId: '78328'
+      tntId: '155137'
     subtype: FAT_PACK
   Saviors of Kamigawa Theme Deck Critical Mass:
     category: DECK
     identifiers:
+      abuId: '1101106'
       cardKingdomId: '117166'
       cardtraderId: '46925'
       mcmId: '253684'
       tcgplayerProductId: '96350'
+      tntId: '123112'
     subtype: THEME
   Saviors of Kamigawa Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1107995'
       cardtraderId: '46930'
       mcmId: '210215'
+      tntId: '123111'
     subtype: THEME
   Saviors of Kamigawa Theme Deck Soratamis Wisdom:
     category: DECK
     identifiers:
+      abuId: '1101109'
       cardKingdomId: '117167'
       cardtraderId: '46926'
       mcmId: '253685'
       tcgplayerProductId: '96352'
+      tntId: '123113'
     subtype: THEME
   Saviors of Kamigawa Theme Deck Spirit Flames:
     category: DECK
     identifiers:
+      abuId: '1101110'
       cardKingdomId: '117168'
       cardtraderId: '46928'
       mcmId: '253686'
       tcgplayerProductId: '96351'
+      tntId: '123114'
     subtype: THEME
   Saviors of Kamigawa Theme Deck Truth Seekers:
     category: DECK
     identifiers:
+      abuId: '1101111'
       cardKingdomId: '117169'
       cardtraderId: '46929'
       mcmId: '253687'
       tcgplayerProductId: '96353'
+      tntId: '123115'
+    subtype: THEME
+  Saviors of Kamigawa Theme Decks Set of 4:
+    category: SUBSET
+    identifiers:
+      abuId: '1101112'
     subtype: THEME

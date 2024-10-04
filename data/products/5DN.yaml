@@ -3,12 +3,14 @@ products:
   Fifth Dawn Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1107858'
       cardKingdomId: '111582'
       cardtraderId: '46553'
       csiId: '97608'
       mcmId: '210112'
       scgId: SLD-MTG-BBX-5DN-EN
       tcgplayerProductId: '27277'
+      tntId: '113277'
     subtype: DRAFT
   Fifth Dawn Booster Box Case:
     category: BOOSTER_CASE
@@ -17,58 +19,72 @@ products:
   Fifth Dawn Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476879'
       cardKingdomId: '111583'
       cardtraderId: '46552'
       csiId: '97619'
       mcmId: '210046'
       scgId: SLD-MTG-PCK-5DN-EN
       tcgplayerProductId: '27339'
+      tntId: '113276'
     subtype: DRAFT
   Fifth Dawn Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1100532'
       cardKingdomId: '240347'
       cardtraderId: '46554'
       csiId: '97620'
       mcmId: '210177'
       scgId: SLD-MTG-BUN-5DN-EN
       tcgplayerProductId: '78311'
+      tntId: '155113'
     subtype: FAT_PACK
   Fifth Dawn Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1107859'
       cardtraderId: '46563'
       mcmId: '210223'
+      tntId: '113285'
     subtype: THEME
   Fifth Dawn Theme Deck Nuts and Bolts:
     category: DECK
     identifiers:
+      abuId: '1100533'
       cardKingdomId: '111586'
       cardtraderId: '46555'
       mcmId: '253696'
       tcgplayerProductId: '96423'
+      tntId: '113278'
     subtype: THEME
   Fifth Dawn Theme Deck Special Forces:
     category: DECK
     identifiers:
+      abuId: '1100535'
       cardKingdomId: '111585'
       cardtraderId: '46560'
       mcmId: '253697'
       tcgplayerProductId: '96424'
+      tntId: '113279'
     subtype: THEME
   Fifth Dawn Theme Deck Stampede:
     category: DECK
     identifiers:
+      abuId: '1100536'
       cardKingdomId: '111587'
       cardtraderId: '46556'
       mcmId: '253698'
       tcgplayerProductId: '96422'
+      tntId: '113280'
     subtype: THEME
   Fifth Dawn Theme Deck Sunburst:
     category: DECK
     identifiers:
+      abuId: '1100537'
       cardKingdomId: '111584'
       cardtraderId: '46558'
       mcmId: '253699'
       tcgplayerProductId: '96425'
+      tntId: '113281'
     subtype: THEME

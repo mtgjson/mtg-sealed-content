@@ -3,12 +3,14 @@ products:
   Eventide Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1100492'
       cardKingdomId: '125093'
       cardtraderId: '47275'
       csiId: '97587'
       mcmId: '210134'
       scgId: SLD-MTG-BBX-EVE-EN
       tcgplayerProductId: '27274'
+      tntId: '179874'
     subtype: DRAFT
   Eventide Booster Box Case:
     category: BOOSTER_CASE
@@ -17,66 +19,81 @@ products:
   Eventide Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476874'
       cardKingdomId: '125094'
       cardtraderId: '47274'
       csiId: '97598'
       mcmId: '210133'
       scgId: SLD-MTG-PCK-EVE-EN
       tcgplayerProductId: '27336'
+      tntId: '179875'
     subtype: DRAFT
   Eventide Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1107853'
       cardKingdomId: '125097'
       cardtraderId: '47281'
       csiId: '97599'
       mcmId: '210161'
       scgId: SLD-MTG-BUN-EVE-EN
       tcgplayerProductId: '78310'
+      tntId: '179881'
     subtype: FAT_PACK
   Eventide Theme Deck Battle Blitz:
     category: DECK
     identifiers:
+      abuId: '1100493'
       cardKingdomId: '125508'
       cardtraderId: '47282'
       mcmId: '245685'
       tcgplayerProductId: '175099'
+      tntId: '179879'
     subtype: THEME
   Eventide Theme Deck Death March:
     category: DECK
     identifiers:
+      abuId: '1100494'
       cardKingdomId: '125507'
       cardtraderId: '47283'
       mcmId: '245686'
       tcgplayerProductId: '175110'
+      tntId: '179878'
     subtype: THEME
   Eventide Theme Deck Display:
     category: DECK_BOX
     identifiers:
       cardtraderId: '47288'
       mcmId: '210207'
+      tntId: '179880'
     subtype: THEME
   Eventide Theme Deck Life Drain:
     category: DECK
     identifiers:
+      abuId: '1100496'
       cardKingdomId: '125509'
       cardtraderId: '47285'
       mcmId: '245687'
       tcgplayerProductId: '175113'
+      tntId: '179876'
     subtype: THEME
   Eventide Theme Deck Sidestep:
     category: DECK
     identifiers:
+      abuId: '1100499'
       cardKingdomId: '125510'
       cardtraderId: '47286'
       mcmId: '245688'
       tcgplayerProductId: '175115'
+      tntId: '179877'
     subtype: THEME
   Eventide Theme Deck Superabundance:
     category: DECK
     identifiers:
+      abuId: '1100500'
       cardKingdomId: '125511'
       cardtraderId: '47287'
       mcmId: '245689'
       tcgplayerProductId: '175116'
+      tntId: '214279'
     subtype: THEME

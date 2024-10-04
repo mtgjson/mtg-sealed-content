@@ -3,12 +3,14 @@ products:
   Prophecy Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1101047'
       cardKingdomId: '1221'
       cardtraderId: '45634'
       csiId: '98040'
       mcmId: '210098'
       scgId: SLD-MTG-BBX-PCY-EN
       tcgplayerProductId: '27301'
+      tntId: '86992'
     subtype: DRAFT
   Prophecy Booster Box Case:
     category: BOOSTER_CASE
@@ -17,60 +19,78 @@ products:
   Prophecy Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476931'
       cardKingdomId: '1226'
       cardtraderId: '45633'
       csiId: '98047'
       mcmId: '210032'
       tcgplayerProductId: '27363'
+      tntId: '86993'
     subtype: DRAFT
   Prophecy Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1101048'
       cardKingdomId: '240192'
       cardtraderId: '45635'
       csiId: '98042'
       mcmId: '210189'
       scgId: SLD-MTG-BUN-PCY-EN
       tcgplayerProductId: '78327'
+      tntId: '155289'
     subtype: FAT_PACK
   Prophecy Theme Deck Display:
     category: DECK_BOX
     identifiers:
       cardtraderId: '45640'
       mcmId: '210237'
+      tntId: '86995'
     subtype: THEME
   Prophecy Theme Deck Distress:
     category: DECK
     identifiers:
+      abuId: '1101049'
       cardKingdomId: '1225'
       cardtraderId: '45637'
       mcmId: '253749'
       tcgplayerProductId: '116046'
+      tntId: '106957'
     subtype: THEME
   Prophecy Theme Deck Pummel:
     category: DECK
     identifiers:
+      abuId: '1101050'
       cardKingdomId: '1222'
       cardtraderId: '45638'
       csiId: '279663'
       mcmId: '253750'
       tcgplayerProductId: '116047'
+      tntId: '106929'
     subtype: THEME
   Prophecy Theme Deck Slither:
     category: DECK
     identifiers:
+      abuId: '1101051'
       cardKingdomId: '1223'
       cardtraderId: '45636'
       csiId: '279664'
       mcmId: '253751'
       tcgplayerProductId: '116048'
+      tntId: '106920'
     subtype: THEME
   Prophecy Theme Deck Turnaround:
     category: DECK
     identifiers:
+      abuId: '1101054'
       cardKingdomId: '1224'
       cardtraderId: '45639'
       csiId: '279665'
       mcmId: '253752'
       tcgplayerProductId: '116049'
+      tntId: '106931'
+    subtype: THEME
+  Prophecy Theme Decks Set of 4:
+    category: SUBSET
+    identifiers:
+      abuId: '1101056'
     subtype: THEME

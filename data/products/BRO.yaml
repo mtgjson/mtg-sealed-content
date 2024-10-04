@@ -12,10 +12,12 @@ products:
   The Brothers' War Bundle:
     category: BUNDLE
     identifiers:
+      abuId: '2261771'
       cardKingdomId: '267914'
       cardtraderId: '219840'
       mcmId: '677799'
       tcgplayerProductId: '282221'
+      tntId: '1759346'
     release_date: '2022-11-18'
     subtype: DEFAULT
   The Brothers' War Bundle Case:
@@ -27,11 +29,13 @@ products:
   The Brothers' War Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2261768'
       cardKingdomId: '267923'
       cardtraderId: '219836'
       mcmId: '677805'
       scgId: SLD-MTG-BBX-BROCOLLECTOR-EN
       tcgplayerProductId: '282224'
+      tntId: '1759348'
     release_date: '2022-11-18'
     subtype: COLLECTOR
   The Brothers' War Collector Booster Box Case:
@@ -43,11 +47,13 @@ products:
   The Brothers' War Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2261767'
       cardKingdomId: '267922'
       cardtraderId: '219833'
       mcmId: '677800'
       scgId: SLD-MTG-PCK-BROCOLLECTOR-EN
       tcgplayerProductId: '282223'
+      tntId: '1759340'
     release_date: '2022-11-18'
     subtype: COLLECTOR
   The Brothers' War Collector Booster Sample Pack:
@@ -55,54 +61,64 @@ products:
     identifiers:
       cardtraderId: '219834'
       mcmId: '677804'
+      tcgplayerProductId: '579978'
     release_date: '2022-11-18'
     subtype: PROMOTIONAL
   The Brothers' War Draft Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2261762'
       cardKingdomId: '267917'
       cardtraderId: '219835'
       csiId: '346437'
       mcmId: '677806'
       scgId: SLD-MTG-BBX-BRODRAFT-EN
       tcgplayerProductId: '282226'
+      tntId: '1759345'
     release_date: '2022-11-18'
     subtype: DRAFT
   The Brothers' War Draft Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '282228'
+      tntId: '1759337'
     release_date: '2022-11-18'
     subtype: DRAFT
   The Brothers' War Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2261761'
       cardKingdomId: '267916'
       cardtraderId: '219832'
       csiId: '346438'
       mcmId: '677801'
       scgId: SLD-MTG-PCK-BRODRAFT-EN
       tcgplayerProductId: '282227'
+      tntId: '1759338'
     release_date: '2022-11-18'
     subtype: DRAFT
   The Brothers' War Gift Bundle:
     category: BUNDLE
     identifiers:
+      abuId: '2275528'
       cardKingdomId: '267913'
       cardtraderId: '219841'
       mcmId: '677809'
       tcgplayerProductId: '448633'
+      tntId: '1770678'
     release_date: '2022-11-18'
     subtype: GIFT_BUNDLE
   The Brothers' War Jumpstart Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2261766'
       cardKingdomId: '267921'
       cardtraderId: '219837'
       csiId: '346446'
       mcmId: '677808'
       scgId: SLD-MTG-BBX-BROJUMPSTART-EN
       tcgplayerProductId: '449719'
+      tntId: '1764214'
     release_date: '2022-11-18'
     subtype: JUMPSTART
   The Brothers' War Jumpstart Booster Box Case:
@@ -113,11 +129,13 @@ products:
   The Brothers' War Jumpstart Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2261765'
       cardKingdomId: '267920'
       cardtraderId: '219838'
       csiId: '346447'
       mcmId: '677802'
       tcgplayerProductId: '449720'
+      tntId: '1764215'
     release_date: '2022-11-18'
     subtype: JUMPSTART
   The Brothers' War Jumpstart Booster Pack 2 Pack:
@@ -128,6 +146,7 @@ products:
   The Brothers' War Prerelease Pack Mishras Burnished Banner:
     category: LIMITED
     identifiers:
+      abuId: '2261760'
       cardKingdomId: '267915'
       cardtraderId: '221680'
       mcmId: '677811'
@@ -137,6 +156,7 @@ products:
   The Brothers' War Prerelease Pack Urzas Iron Alliance:
     category: LIMITED
     identifiers:
+      abuId: '2261759'
       cardKingdomId: '267912'
       cardtraderId: '221679'
       mcmId: '677810'
@@ -146,12 +166,14 @@ products:
   The Brothers' War Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2261764'
       cardKingdomId: '267919'
       cardtraderId: '221678'
       csiId: '346431'
       mcmId: '677807'
       scgId: SLD-MTG-BBX-BROSET-EN
       tcgplayerProductId: '282230'
+      tntId: '1759347'
     release_date: '2022-11-18'
     subtype: SET
   The Brothers' War Set Booster Box Case:
@@ -163,11 +185,13 @@ products:
   The Brothers' War Set Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2261763'
       cardKingdomId: '267918'
       cardtraderId: '221677'
       csiId: '346432'
       mcmId: '677803'
       scgId: SLD-MTG-PCK-BROSET-EN
       tcgplayerProductId: '282231'
+      tntId: '1759339'
     release_date: '2022-11-18'
     subtype: SET

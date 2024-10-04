@@ -1,13 +1,5 @@
 code: dmu
 products:
-  2023 Arena Starter Kit:
-    category: MULTI_DECK
-    identifiers:
-      mcmId: '728134'
-      scgId: SLD-MTG-INT-2023STARTER-EN
-      tcgplayerProductId: '496049'
-    release_date: '2023-09-08'
-    subtype: TWO_PLAYER_STARTER
   Dominaria United Box Topper Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -18,11 +10,13 @@ products:
   Dominaria United Bundle:
     category: BUNDLE
     identifiers:
+      abuId: '2220755'
       cardKingdomId: '263988'
       cardtraderId: '218745'
       mcmId: '669037'
       scgId: SLD-MTG-BUN-DMU-EN
       tcgplayerProductId: '275414'
+      tntId: '1751754'
     release_date: '2022-09-09'
     subtype: DEFAULT
   Dominaria United Bundle Case:
@@ -34,11 +28,13 @@ products:
   Dominaria United Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2207744'
       cardKingdomId: '263989'
       cardtraderId: '211583'
       mcmId: '657414'
       scgId: SLD-MTG-BBX-DMUCOLLECTOR-EN
       tcgplayerProductId: '275412'
+      tntId: '1751757'
     release_date: '2022-09-09'
     subtype: COLLECTOR
   Dominaria United Collector Booster Box Case:
@@ -47,65 +43,69 @@ products:
       tcgplayerProductId: '275434'
     release_date: '2022-09-09'
     subtype: COLLECTOR
-  Dominaria United Collector Booster Omega Pack:
-    category: BOOSTER_PACK
-    identifiers:
-      tcgplayerProductId: '287482'
-    release_date: '2022-09-09'
-    subtype: COLLECTOR
   Dominaria United Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2220777'
       cardKingdomId: '263990'
       cardtraderId: '211755'
       mcmId: '657405'
       scgId: SLD-MTG-PCK-DMUCOLLECTOR-EN
       tcgplayerProductId: '275407'
+      tntId: '1751758'
     release_date: '2022-09-09'
     subtype: COLLECTOR
   Dominaria United Collector Booster Sample Pack:
     category: BOOSTER_PACK
     identifiers:
       mcmId: '678642'
+      tcgplayerProductId: '579979'
     release_date: '2022-09-09'
     subtype: PROMOTIONAL
   Dominaria United Draft Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2207670'
       cardKingdomId: '263993'
       cardtraderId: '211582'
       csiId: '341635'
       mcmId: '657417'
       scgId: SLD-MTG-BBX-DMUDRAFT-EN
       tcgplayerProductId: '275403'
+      tntId: '1751752'
     release_date: '2022-09-09'
     subtype: DRAFT
   Dominaria United Draft Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '275433'
+      tntId: '1751751'
     release_date: '2022-09-09'
     subtype: DRAFT
   Dominaria United Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2220760'
       cardKingdomId: '263992'
       cardtraderId: '211753'
       csiId: '341636'
       mcmId: '657394'
       scgId: SLD-MTG-PCK-DMUDRAFT-EN
       tcgplayerProductId: '275432'
+      tntId: '1751753'
     release_date: '2022-09-09'
     subtype: DRAFT
   Dominaria United Jumpstart Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2220756'
       cardKingdomId: '263994'
       cardtraderId: '211758'
       mcmId: '657426'
       miniaturemarketId: '286800'
       scgId: SLD-MTG-BBX-DMUJUMPSTART-EN
       tcgplayerProductId: '275428'
+      tntId: '1751765'
     release_date: '2022-09-09'
     subtype: JUMPSTART
   Dominaria United Jumpstart Booster Box Case:
@@ -117,16 +117,19 @@ products:
   Dominaria United Jumpstart Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2220757'
       cardKingdomId: '263995'
       cardtraderId: '219839'
       mcmId: '657409'
       scgId: SLD-MTG-PCK-DMUJUMPSTART-EN
       tcgplayerProductId: '275425'
+      tntId: '1751766'
     release_date: '2022-09-09'
     subtype: JUMPSTART
   Dominaria United Prerelease Pack:
     category: LIMITED
     identifiers:
+      abuId: '2207745'
       cardtraderId: '218868'
       mcmId: '669038'
       tcgplayerProductId: '275422'
@@ -135,12 +138,14 @@ products:
   Dominaria United Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2207729'
       cardKingdomId: '263997'
       cardtraderId: '211587'
       csiId: '341637'
       mcmId: '657415'
       scgId: SLD-MTG-BBX-DMUSET-EN
       tcgplayerProductId: '275430'
+      tntId: '1751755'
     release_date: '2022-09-09'
     subtype: SET
   Dominaria United Set Booster Box Case:
@@ -152,12 +157,14 @@ products:
   Dominaria United Set Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2220761'
       cardKingdomId: '263998'
       cardtraderId: '211754'
       csiId: '341638'
       mcmId: '657397'
       scgId: SLD-MTG-PCK-DMUSET-EN
       tcgplayerProductId: '275405'
+      tntId: '1751756'
     release_date: '2022-09-09'
     subtype: SET
   Dominaria United Welcome Booster:

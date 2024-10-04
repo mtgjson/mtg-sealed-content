@@ -3,12 +3,14 @@ products:
   Exodus Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1100503'
       cardKingdomId: '1235'
       cardtraderId: '45418'
       csiId: '97600'
       mcmId: '210086'
       scgId: SLD-MTG-BBX-EXO-EN
       tcgplayerProductId: '27275'
+      tntId: '82439'
     subtype: DRAFT
   Exodus Booster Box Case:
     category: BOOSTER_CASE
@@ -17,48 +19,59 @@ products:
   Exodus Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476875'
       cardKingdomId: '1175'
       cardtraderId: '45417'
       csiId: '97602'
       mcmId: '210020'
       scgId: SLD-MTG-PCK-EXO-EN
       tcgplayerProductId: '27337'
+      tntId: '82440'
     subtype: DRAFT
   Exodus Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1476876'
       cardtraderId: '45423'
       mcmId: '210228'
     subtype: THEME
   Exodus Theme Deck Dominator:
     category: DECK
     identifiers:
+      abuId: '1100504'
       cardKingdomId: '1176'
       cardtraderId: '45419'
       mcmId: '244174'
       tcgplayerProductId: '116054'
+      tntId: '106928'
     subtype: THEME
   Exodus Theme Deck Groundbreaker:
     category: DECK
     identifiers:
+      abuId: '1100497'
       cardKingdomId: '1177'
       cardtraderId: '45420'
       mcmId: '244175'
       tcgplayerProductId: '116055'
+      tntId: '106956'
     subtype: THEME
   Exodus Theme Deck White Heat:
     category: DECK
     identifiers:
+      abuId: '1100495'
       cardKingdomId: '1178'
       cardtraderId: '45421'
       mcmId: '244176'
       tcgplayerProductId: '116056'
+      tntId: '106932'
     subtype: THEME
   Exodus Theme Deck Widowmaker:
     category: DECK
     identifiers:
+      abuId: '1100498'
       cardKingdomId: '1179'
       cardtraderId: '45422'
       mcmId: '244177'
       tcgplayerProductId: '116057'
+      tntId: '106923'
     subtype: THEME

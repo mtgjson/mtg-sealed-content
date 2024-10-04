@@ -3,12 +3,14 @@ products:
   Urzas Destiny Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1100035'
       cardKingdomId: '1151'
       cardtraderId: '45487'
       csiId: '98252'
       mcmId: '210093'
       scgId: SLD-MTG-BBX-UDS-EN
       tcgplayerProductId: '27314'
+      tntId: '90150'
     subtype: DRAFT
   Urzas Destiny Booster Box Case:
     category: BOOSTER_CASE
@@ -17,49 +19,66 @@ products:
   Urzas Destiny Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476958'
       cardKingdomId: '1152'
       cardtraderId: '45486'
       csiId: '98255'
       mcmId: '210027'
       scgId: SLD-MTG-PCK-UDS-EN
       tcgplayerProductId: '27376'
+      tntId: '90151'
     subtype: DRAFT
   Urzas Destiny Theme Deck Assassin:
     category: DECK
     identifiers:
+      abuId: '1100295'
       cardKingdomId: '1153'
       cardtraderId: '45488'
       mcmId: '253769'
       tcgplayerProductId: '116058'
+      tntId: '106950'
     subtype: THEME
   Urzas Destiny Theme Deck Battle Surge:
     category: DECK
     identifiers:
+      abuId: '1100296'
       cardKingdomId: '1154'
       cardtraderId: '45489'
       mcmId: '253770'
       tcgplayerProductId: '116059'
+      tntId: '106934'
     subtype: THEME
   Urzas Destiny Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1476959'
       cardtraderId: '45493'
       mcmId: '210245'
+      tntId: '90154'
     subtype: THEME
   Urzas Destiny Theme Deck Enchanter:
     category: DECK
     identifiers:
+      abuId: '1100299'
       cardKingdomId: '1155'
       cardtraderId: '45490'
       mcmId: '253771'
       tcgplayerProductId: '116061'
+      tntId: '106948'
     subtype: THEME
   Urzas Destiny Theme Deck Fiendish Nature:
     category: DECK
     identifiers:
+      abuId: '1100297'
       cardKingdomId: '1156'
       cardtraderId: '45491'
       csiId: '262435'
       mcmId: '253772'
       tcgplayerProductId: '116060'
+      tntId: '106925'
+    subtype: THEME
+  Urzas Destiny Theme Decks Set of 4:
+    category: SUBSET
+    identifiers:
+      abuId: '1100298'
     subtype: THEME

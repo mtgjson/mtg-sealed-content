@@ -3,12 +3,14 @@ products:
   Duel Deck Divine vs Demonic:
     category: MULTI_DECK
     identifiers:
+      abuId: '1100393'
       cardKingdomId: '126713'
       cardtraderId: '47379'
       csiId: '97582'
       mcmId: '240371'
       scgId: SLD-MTG-BXS-DDC-EN
       tcgplayerProductId: '32807'
+      tntId: '245978'
     subtype: DUEL
   Duel Deck Divine vs Demonic Demonic Deck:
     category: DECK
@@ -16,7 +18,8 @@ products:
     subtype: DUEL
   Duel Deck Divine vs Demonic Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      tntId: '245977'
     subtype: DUEL
   Duel Deck Divine vs Demonic Divine Deck:
     category: DECK

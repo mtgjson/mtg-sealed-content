@@ -5,7 +5,21 @@ products:
     pack:
     - code: box-topper
       set: iko
-  Ikoria Lair of Behemoths Bundle: []
+  Ikoria Lair of Behemoths Bundle:
+    card:
+    - foil: true
+      name: Colossification
+      number: 364
+      set: iko
+    other:
+    - name: 20 foil basic lands
+    - name: 20 nonfoil basic lands
+    - name: Ikoria oversized spindown
+    - name: Reusable card storage box
+    sealed:
+    - count: 10
+      name: Ikoria Lair of Behemoths Draft Booster Pack
+      set: iko
   Ikoria Lair of Behemoths Collector Booster Box:
     sealed:
     - count: 12
@@ -52,7 +66,17 @@ products:
     pack:
     - code: draft
       set: iko
-  Ikoria Lair of Behemoths Prerelease Pack: []
+  Ikoria Lair of Behemoths Prerelease Pack:
+    card_count: 1
+    other:
+    - name: Ikoria Spindown
+    pack:
+    - code: prerelease
+      set: iko
+    sealed:
+    - count: 6
+      name: Ikoria Lair of Behemoths Draft Booster Pack
+      set: iko
   Ikoria Lair of Behemoths Theme Booster Black:
     card_count: 35
     pack:

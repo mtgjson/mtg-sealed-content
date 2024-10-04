@@ -3,12 +3,14 @@ products:
   Torment Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1101233'
       cardKingdomId: '1430'
       cardtraderId: '45999'
       csiId: '98225'
       mcmId: '210104'
       scgId: SLD-MTG-BBX-TOR-EN
       tcgplayerProductId: '27311'
+      tntId: '98976'
     subtype: DRAFT
   Torment Booster Box Case:
     category: BOOSTER_CASE
@@ -17,59 +19,78 @@ products:
   Torment Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476953'
       cardKingdomId: '1431'
       cardtraderId: '45998'
       csiId: '98227'
       mcmId: '210038'
       scgId: SLD-MTG-PCK-TOR-EN
       tcgplayerProductId: '27373'
+      tntId: '101330'
     subtype: DRAFT
   Torment Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1101234'
       cardKingdomId: '240346'
       cardtraderId: '46000'
       csiId: '218272'
       mcmId: '210184'
       scgId: SLD-MTG-BUN-TOR-EN
       tcgplayerProductId: '78333'
+      tntId: '155326'
     subtype: FAT_PACK
   Torment Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1101241'
       cardtraderId: '46005'
       csiId: '98224'
       mcmId: '210242'
+      tntId: '101331'
     subtype: THEME
   Torment Theme Deck Grave Danger:
     category: DECK
     identifiers:
+      abuId: '1101235'
       cardKingdomId: '1433'
       cardtraderId: '46001'
       mcmId: '253724'
       tcgplayerProductId: '120583'
+      tntId: '101643'
     subtype: THEME
   Torment Theme Deck Insanity:
     category: DECK
     identifiers:
+      abuId: '1101239'
       cardKingdomId: '1432'
       cardtraderId: '46002'
       mcmId: '253725'
       tcgplayerProductId: '244386'
+      tntId: '101642'
     subtype: THEME
   Torment Theme Deck Sacrilege:
     category: DECK
     identifiers:
+      abuId: '1101240'
       cardKingdomId: '1434'
       cardtraderId: '46003'
       mcmId: '253726'
       tcgplayerProductId: '120585'
+      tntId: '101644'
     subtype: THEME
   Torment Theme Deck Waking Nightmares:
     category: DECK
     identifiers:
+      abuId: '1101243'
       cardKingdomId: '1435'
       cardtraderId: '46004'
       mcmId: '253727'
       tcgplayerProductId: '120584'
+      tntId: '101645'
+    subtype: THEME
+  Torment Theme Decks Set of 4:
+    category: SUBSET
+    identifiers:
+      abuId: '1101244'
     subtype: THEME

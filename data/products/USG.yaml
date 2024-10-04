@@ -3,12 +3,14 @@ products:
   Urzas Saga Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1107800'
       cardKingdomId: '1204'
       cardtraderId: '45441'
       csiId: '98379'
       mcmId: '210091'
       scgId: SLD-MTG-BBX-USG-EN
       tcgplayerProductId: '27316'
+      tntId: '90179'
     subtype: DRAFT
   Urzas Saga Booster Box Case:
     category: BOOSTER_CASE
@@ -17,67 +19,88 @@ products:
   Urzas Saga Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476962'
       cardKingdomId: '1203'
       cardtraderId: '45440'
       csiId: '98381'
       mcmId: '210025'
       scgId: SLD-MTG-PCK-USG-EN
       tcgplayerProductId: '27378'
+      tntId: '90180'
     subtype: DRAFT
   Urzas Saga Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1476963'
       cardtraderId: '45447'
       mcmId: '210243'
     subtype: THEME
   Urzas Saga Theme Deck Sleeper:
     category: DECK
     identifiers:
+      abuId: '1100276'
       cardKingdomId: '1205'
       cardtraderId: '45442'
       csiId: '279786'
       mcmId: '253777'
       tcgplayerProductId: '116050'
+      tntId: '106954'
     subtype: THEME
   Urzas Saga Theme Deck Special Delivery:
     category: DECK
     identifiers:
+      abuId: '1100271'
       cardKingdomId: '1206'
       cardtraderId: '45443'
       mcmId: '253778'
       tcgplayerProductId: '116051'
+      tntId: '106958'
     subtype: THEME
   Urzas Saga Theme Deck The Plague:
     category: DECK
     identifiers:
+      abuId: '1100281'
       cardKingdomId: '1207'
       cardtraderId: '45444'
       mcmId: '253779'
       tcgplayerProductId: '116052'
+      tntId: '106930'
     subtype: THEME
   Urzas Saga Theme Deck Tombstone:
     category: DECK
     identifiers:
+      abuId: '1100283'
       cardKingdomId: '1208'
       cardtraderId: '45445'
       csiId: '279787'
       mcmId: '253780'
       tcgplayerProductId: '116053'
+      tntId: '106942'
+    subtype: THEME
+  Urzas Saga Theme Decks Set of 4:
+    category: SUBSET
+    identifiers:
+      abuId: '1100284'
     subtype: THEME
   Urzas Saga Tournament Pack:
     category: LIMITED
     identifiers:
+      abuId: '1100268'
       cardKingdomId: '1209'
       cardtraderId: '45446'
       mcmId: '244178'
       scgId: SLD-MTG-PCK-USGTOURNAMENT-EN
       tcgplayerProductId: '127432'
+      tntId: '90186'
     subtype: TOURNAMENT
   Urzas Saga Tournament Pack Display:
     category: LIMITED_CASE
     identifiers:
+      abuId: '1107802'
+      cardKingdomId: '240235'
       cardtraderId: '45448'
       mcmId: '253854'
       scgId: SLD-MTG-BBX-USGTOURNAMENT-EN
       tcgplayerProductId: '234726'
+      tntId: '90185'
     subtype: TOURNAMENT

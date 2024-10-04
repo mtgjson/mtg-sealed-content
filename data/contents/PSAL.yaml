@@ -1,12 +1,63 @@
 code: psal
 products:
-  Salvat Theme Deck Elfos: []
-  Salvat Theme Deck Embestida Salvaje: []
-  "Salvat Theme Deck Esp\xEDritus": []
-  Salvat Theme Deck Fragmentadores: []
-  Salvat Theme Deck Hechiceros: []
-  Salvat Theme Deck Ninjas: []
-  Salvat Theme Deck Ratas Hambrientas: []
-  "Salvat Theme Deck T\xE1lidos y Saprolines": []
-  Salvat Theme Deck Zombies: []
-  "Salvat Theme Deck \xC1ngeles": []
+  Salvat Theme Deck Elfos:
+    card_count: 60
+    deck:
+    - name: Elves
+      set: psal
+  Salvat Theme Deck Embestida Salvaje:
+    card_count: 60
+    deck:
+    - name: Berserk
+      set: psal
+  "Salvat Theme Deck Esp\xEDritus":
+    card_count: 60
+    deck:
+    - name: Spirits
+      set: psal
+  Salvat Theme Deck Fragmentadores:
+    card_count: 60
+    deck:
+    - name: Slivers
+      set: psal
+  Salvat Theme Deck Ganado:
+    card_count: 60
+    deck:
+    - name: Beasts
+      set: psal
+  Salvat Theme Deck Ganato: []
+  Salvat Theme Deck Gatos:
+    card_count: 60
+    deck:
+    - name: Cats
+      set: psal
+  Salvat Theme Deck Hechiceros:
+    card_count: 60
+    deck:
+    - name: Wizards
+      set: psal
+  Salvat Theme Deck Ninjas:
+    card_count: 60
+    deck:
+    - name: Ninjas
+      set: psal
+  Salvat Theme Deck Ratas Hambrientas:
+    card_count: 60
+    deck:
+    - name: Ravenous Rats
+      set: psal
+  "Salvat Theme Deck T\xE1lidos y Saprolines":
+    card_count: 60
+    deck:
+    - name: Thallids
+      set: psal
+  Salvat Theme Deck Zombies:
+    card_count: 60
+    deck:
+    - name: Zombies
+      set: psal
+  "Salvat Theme Deck \xC1ngeles":
+    card_count: 60
+    deck:
+    - name: Angels
+      set: psal

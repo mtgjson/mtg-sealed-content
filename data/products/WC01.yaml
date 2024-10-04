@@ -3,40 +3,58 @@ products:
   2001 World Championship Deck Alex Borteh:
     category: DECK
     identifiers:
+      abuId: '1100248'
       cardKingdomId: '240329'
       cardtraderId: '39910'
       csiId: '97865'
       mcmId: '250170'
       scgId: SLD-MTG-BXS-WCH2001-EN-ALEXBORTEH
       tcgplayerProductId: '158296'
+      tntId: '101266'
     subtype: CHAMPIONSHIP
   2001 World Championship Deck Antoine Ruel:
     category: DECK
     identifiers:
+      abuId: '1100253'
       cardKingdomId: '240330'
       cardtraderId: '39911'
       csiId: '97859'
       mcmId: '250169'
       scgId: SLD-MTG-BXS-WCH2001-EN-ANTOINERUEL
       tcgplayerProductId: '158297'
+      tntId: '101267'
+    subtype: CHAMPIONSHIP
+  2001 World Championship Deck Box:
+    category: DECK_BOX
+    identifiers:
+      abuId: '1476972'
     subtype: CHAMPIONSHIP
   2001 World Championship Deck Jan Tomcani:
     category: DECK
     identifiers:
+      abuId: '1100254'
       cardKingdomId: '240331'
       cardtraderId: '39912'
       csiId: '97861'
       mcmId: '250168'
       scgId: SLD-MTG-BXS-WCH2001-EN-JANTOMCANI
       tcgplayerProductId: '158298'
+      tntId: '101268'
     subtype: CHAMPIONSHIP
   2001 World Championship Deck Tom van de Logt:
     category: DECK
     identifiers:
+      abuId: '1100255'
       cardKingdomId: '240332'
       cardtraderId: '39909'
       csiId: '97863'
       mcmId: '250171'
       scgId: SLD-MTG-BXS-WCH2001-EN-TOMVANDELOGT
       tcgplayerProductId: '158294'
+      tntId: '101269'
+    subtype: CHAMPIONSHIP
+  2001 World Championship Decks Set of 4:
+    category: SUBSET
+    identifiers:
+      abuId: '1107796'
     subtype: CHAMPIONSHIP

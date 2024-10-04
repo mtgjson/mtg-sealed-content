@@ -3,12 +3,14 @@ products:
   Onslaught Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1100954'
       cardKingdomId: '1506'
       cardtraderId: '46311'
       csiId: '97989'
       mcmId: '210106'
       scgId: SLD-MTG-BBX-ONS-EN
       tcgplayerProductId: '27295'
+      tntId: '104432'
     subtype: DRAFT
   Onslaught Booster Box Case:
     category: BOOSTER_CASE
@@ -17,12 +19,14 @@ products:
   Onslaught Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476918'
       cardKingdomId: '1507'
       cardtraderId: '46309'
       csiId: '97997'
       mcmId: '210040'
       scgId: SLD-MTG-PCK-ONS-EN
       tcgplayerProductId: '27357'
+      tntId: '104433'
     subtype: DRAFT
   Onslaught Fat Pack:
     category: BUNDLE
@@ -33,59 +37,80 @@ products:
       mcmId: '210182'
       scgId: SLD-MTG-BUN-ONS-EN
       tcgplayerProductId: '78324'
+      tntId: '155129'
     subtype: FAT_PACK
   Onslaught Theme Deck Bait and Switch:
     category: DECK
     identifiers:
+      abuId: '1476919'
       cardKingdomId: '1509'
       cardtraderId: '46314'
       mcmId: '253716'
       tcgplayerProductId: '96346'
+      tntId: '104513'
     subtype: THEME
   Onslaught Theme Deck Celestial Assault:
     category: DECK
     identifiers:
+      abuId: '1100963'
       cardKingdomId: '1510'
       cardtraderId: '46315'
       mcmId: '253717'
       tcgplayerProductId: '96347'
+      tntId: '106133'
     subtype: THEME
   Onslaught Theme Deck Devastation:
     category: DECK
     identifiers:
+      abuId: '1100965'
       cardKingdomId: '1512'
       cardtraderId: '46316'
       mcmId: '253718'
       tcgplayerProductId: '96348'
+      tntId: '104515'
     subtype: THEME
   Onslaught Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1100968'
       cardtraderId: '46322'
       mcmId: '210235'
+      tntId: '104436'
     subtype: THEME
   Onslaught Theme Deck Ivory Doom:
     category: DECK
     identifiers:
+      abuId: '1100967'
       cardKingdomId: '1511'
       cardtraderId: '46317'
       mcmId: '253719'
       tcgplayerProductId: '96349'
+      tntId: '104514'
+    subtype: THEME
+  Onslaught Theme Decks Set of 4:
+    category: SUBSET
+    identifiers:
+      abuId: '1100973'
     subtype: THEME
   Onslaught Tournament Pack:
     category: LIMITED
     identifiers:
+      abuId: '1100952'
       cardKingdomId: '1508'
       cardtraderId: '46320'
       mcmId: '248483'
       scgId: SLD-MTG-PCK-ONSTOURNAMENT-EN
       tcgplayerProductId: '167795'
+      tntId: '104435'
     subtype: TOURNAMENT
   Onslaught Tournament Pack Display:
     category: LIMITED_CASE
     identifiers:
+      abuId: '1100960'
+      cardKingdomId: '240180'
       cardtraderId: '46323'
       mcmId: '253859'
       scgId: SLD-MTG-BBX-ONSTOURNAMENT-EN
       tcgplayerProductId: '544192'
+      tntId: '104434'
     subtype: TOURNAMENT

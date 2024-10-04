@@ -1,12 +1,22 @@
 code: woe
 products:
+  Magic The Gathering Starter Kit 2023:
+    category: MULTI_DECK
+    identifiers:
+      cardKingdomId: '281249'
+      mcmId: '728134'
+      scgId: SLD-MTG-INT-2023STARTER-EN
+      tcgplayerProductId: '496049'
+    subtype: TWO_PLAYER_STARTER
   Wilds of Eldraine Bundle:
     category: BUNDLE
     identifiers:
+      abuId: '2394715'
       cardKingdomId: '281236'
       cardtraderId: '246962'
       mcmId: '719687'
       tcgplayerProductId: '496046'
+      tntId: '1786373'
     release_date: '2023-09-08'
     subtype: DEFAULT
   Wilds of Eldraine Bundle Case:
@@ -18,11 +28,13 @@ products:
   Wilds of Eldraine Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2394716'
       cardKingdomId: '281237'
       cardtraderId: '246955'
       mcmId: '719684'
       scgId: SLD-MTG-BBX-WOECOLLECTOR-EN
       tcgplayerProductId: '496041'
+      tntId: '1786378'
     release_date: '2023-09-08'
     subtype: COLLECTOR
   Wilds of Eldraine Collector Booster Box Case:
@@ -34,28 +46,33 @@ products:
   Wilds of Eldraine Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2394717'
       cardKingdomId: '281238'
       cardtraderId: '246959'
       mcmId: '719681'
       scgId: SLD-MTG-PCK-WOECOLLECTOR-EN
       tcgplayerProductId: '496040'
+      tntId: '1786379'
     release_date: '2023-09-08'
     subtype: COLLECTOR
   Wilds of Eldraine Collector Booster Sample Pack:
     category: BOOSTER_PACK
     identifiers:
       mcmId: '733410'
+      tcgplayerProductId: '579965'
     release_date: '2023-09-01'
     subtype: PROMOTIONAL
   Wilds of Eldraine Draft Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2394723'
       cardKingdomId: '281239'
       cardtraderId: '246954'
       csiId: '365526'
       mcmId: '719682'
       scgId: SLD-MTG-BBX-WOEDRAFT-EN
       tcgplayerProductId: '496035'
+      tntId: '1786371'
     release_date: '2023-09-08'
     subtype: DRAFT
   Wilds of Eldraine Draft Booster Box Case:
@@ -67,17 +84,20 @@ products:
   Wilds of Eldraine Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2394724'
       cardKingdomId: '281240'
       cardtraderId: '246957'
       csiId: '365524'
       mcmId: '719679'
       scgId: SLD-MTG-PCK-WOEDRAFT-EN
       tcgplayerProductId: '496034'
+      tntId: '1786372'
     release_date: '2023-09-08'
     subtype: DRAFT
   Wilds of Eldraine Prerelease Pack:
     category: LIMITED
     identifiers:
+      abuId: '2394728'
       cardKingdomId: '281241'
       cardtraderId: '246963'
       mcmId: '719678'
@@ -87,12 +107,14 @@ products:
   Wilds of Eldraine Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2394727'
       cardKingdomId: '281242'
       cardtraderId: '246956'
       csiId: '365492'
       mcmId: '719683'
       scgId: SLD-MTG-BBX-WOESET-EN
       tcgplayerProductId: '496038'
+      tntId: '1786376'
     release_date: '2023-09-08'
     subtype: SET
   Wilds of Eldraine Set Booster Box Case:
@@ -104,11 +126,13 @@ products:
   Wilds of Eldraine Set Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2394726'
       cardKingdomId: '281243'
       cardtraderId: '246958'
       csiId: '365494'
       mcmId: '719680'
       scgId: SLD-MTG-PCK-WOESET-EN
       tcgplayerProductId: '496037'
+      tntId: '1786377'
     release_date: '2023-09-08'
     subtype: SET

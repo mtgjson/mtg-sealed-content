@@ -3,16 +3,19 @@ products:
   Duel Deck Garruk vs Liliana:
     category: MULTI_DECK
     identifiers:
+      abuId: '1100549'
       cardKingdomId: '128320'
       cardtraderId: '47444'
       csiId: '97658'
       mcmId: '240396'
       scgId: SLD-MTG-BXS-DDD-EN
       tcgplayerProductId: '32806'
+      tntId: '286278'
     subtype: DUEL
   Duel Deck Garruk vs Liliana Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      tntId: '286280'
     subtype: DUEL
   Duel Deck Garruk vs Liliana Garruk Deck:
     category: DECK

@@ -8,12 +8,14 @@ products:
   Innistrad Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1107876'
       cardKingdomId: '185511'
       cardtraderId: '47666'
       csiId: '97671'
       mcmId: '250569'
       scgId: SLD-MTG-BBX-ISD-EN
       tcgplayerProductId: '47791'
+      tntId: '319809'
     subtype: DRAFT
   Innistrad Booster Box Case:
     category: BOOSTER_CASE
@@ -23,28 +25,34 @@ products:
   Innistrad Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476887'
       cardKingdomId: '185512'
       cardtraderId: '47664'
       csiId: '97690'
       mcmId: '250568'
       scgId: SLD-MTG-PCK-ISD-EN
       tcgplayerProductId: '47787'
+      tntId: '319810'
     subtype: DRAFT
   Innistrad Event Deck Deathfed:
     category: DECK
     identifiers:
+      abuId: '1100597'
       cardKingdomId: '186163'
       cardtraderId: '47682'
       mcmId: '251812'
       tcgplayerProductId: '56987'
+      tntId: '323595'
     subtype: EVENT
   Innistrad Event Deck Hold the Line:
     category: DECK
     identifiers:
+      abuId: '1100598'
       cardKingdomId: '186162'
       cardtraderId: '47681'
       mcmId: '251811'
       tcgplayerProductId: '56988'
+      tntId: '323596'
     subtype: EVENT
   Innistrad Event Decks Set of 2:
     category: SUBSET
@@ -56,50 +64,61 @@ products:
   Innistrad Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1107881'
       cardKingdomId: '185513'
       cardtraderId: '47674'
       csiId: '153875'
       mcmId: '250570'
       scgId: SLD-MTG-BUN-ISD-EN
       tcgplayerProductId: '47788'
+      tntId: '319958'
     subtype: FAT_PACK
   Innistrad Intro Pack Carnival of Blood:
     category: DECK
     identifiers:
+      abuId: '1100599'
       cardKingdomId: '185707'
       cardtraderId: '47676'
       mcmId: '250774'
       tcgplayerProductId: '56213'
+      tntId: '321620'
     subtype: INTRO
   Innistrad Intro Pack Deathly Dominion:
     category: DECK
     identifiers:
+      abuId: '1100601'
       cardKingdomId: '185708'
       cardtraderId: '47677'
       mcmId: '250773'
       tcgplayerProductId: '56212'
+      tntId: '321619'
     subtype: INTRO
   Innistrad Intro Pack Display:
     category: DECK_BOX
     identifiers:
       cardtraderId: '47684'
       mcmId: '250777'
+      tntId: '321631'
     subtype: INTRO
   Innistrad Intro Pack Eldritch Onslaught:
     category: DECK
     identifiers:
+      abuId: '1100603'
       cardKingdomId: '185709'
       cardtraderId: '47679'
       mcmId: '250772'
       tcgplayerProductId: '56211'
+      tntId: '321618'
     subtype: INTRO
   Innistrad Intro Pack Repel the Dark:
     category: DECK
     identifiers:
+      abuId: '1100604'
       cardKingdomId: '185710'
       cardtraderId: '47675'
       mcmId: '250775'
       tcgplayerProductId: '56214'
+      tntId: '321621'
     subtype: INTRO
   Innistrad Intro Pack Set of 5:
     category: SUBSET
@@ -111,10 +130,12 @@ products:
   Innistrad Intro Pack Spectral Legions:
     category: DECK
     identifiers:
+      abuId: '1100605'
       cardKingdomId: '185711'
       cardtraderId: '47680'
       mcmId: '250771'
       tcgplayerProductId: '56210'
+      tntId: '321614'
     subtype: INTRO
   Innistrad Six Card Booster Pack:
     category: BOOSTER_PACK

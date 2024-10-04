@@ -1,14 +1,62 @@
 code: ps11
 products:
-  Salvat 2011 Theme Deck Alas de luz: []
-  Salvat 2011 Theme Deck Colmillos del depredador: []
-  Salvat 2011 Theme Deck Eones de maldad: []
-  Salvat 2011 Theme Deck Escamas de furia: []
-  Salvat 2011 Theme Deck Garras de venganza: []
-  Salvat 2011 Theme Deck Gritos de ira: []
-  Salvat 2011 Theme Deck Manos de fuego: []
-  "Salvat 2011 Theme Deck Mente del vac\xEDo": []
-  Salvat 2011 Theme Deck Ojos de sombra: []
-  Salvat 2011 Theme Deck Orejas de los elfos: []
-  Salvat 2011 Theme Deck Pensamientos del viento: []
-  "Salvat 2011 Theme Deck Reliquias de perdici\xF3n": []
+  Salvat 2011 Theme Deck Alas de luz:
+    card_count: 60
+    deck:
+    - name: Wings of Light
+      set: ps11
+  Salvat 2011 Theme Deck Colmillos del depredador:
+    card_count: 60
+    deck:
+    - name: Fangs of the Predator
+      set: ps11
+  Salvat 2011 Theme Deck Eones de maldad:
+    card_count: 60
+    deck:
+    - name: Eons of Evil
+      set: ps11
+  Salvat 2011 Theme Deck Escamas de furia:
+    card_count: 60
+    deck:
+    - name: Scales of Fury
+      set: ps11
+  Salvat 2011 Theme Deck Garras de venganza:
+    card_count: 60
+    deck:
+    - name: Claws of Vengeance
+      set: ps11
+  Salvat 2011 Theme Deck Gritos de ira:
+    card_count: 60
+    deck:
+    - name: Cries of Rage
+      set: ps11
+  Salvat 2011 Theme Deck Manos de fuego:
+    card_count: 60
+    deck:
+    - name: Hands of Fire
+      set: ps11
+  "Salvat 2011 Theme Deck Mente del vac\xEDo":
+    card_count: 60
+    deck:
+    - name: Mind of the Void
+      set: ps11
+  Salvat 2011 Theme Deck Ojos de sombra:
+    card_count: 60
+    deck:
+    - name: Eyes of Shadow
+      set: ps11
+  Salvat 2011 Theme Deck Orejas de los elfos:
+    card_count: 60
+    deck:
+    - name: Ears of the Elves
+      set: ps11
+  Salvat 2011 Theme Deck Pensamientos del viento:
+    card_count: 60
+    deck:
+    - name: Thoughts of the Wind
+      set: ps11
+  "Salvat 2011 Theme Deck Reliquias de perdici\xF3n":
+    card_count: 60
+    deck:
+    - name: Relics of Doom
+      set: ps11

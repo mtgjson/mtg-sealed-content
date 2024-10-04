@@ -15,7 +15,11 @@ products:
     - count: 24
       name: Mystery Booster Booster Pack (Retail Edition)
       set: mb1
-  Mystery Booster Booster Box Case (Convention Edition - 2021): []
+  Mystery Booster Booster Box Case (Convention Edition - 2021):
+    sealed:
+    - count: 6
+      name: Mystery Booster Booster Box (Convention Edition - 2021)
+      set: mb1
   Mystery Booster Booster Pack (Convention Edition - 2021):
     card_count: 15
     pack:

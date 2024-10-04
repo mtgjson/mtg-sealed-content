@@ -15,7 +15,14 @@ products:
     pack:
     - code: draft
       set: dka
-  Dark Ascension Event Deck Display: []
+  Dark Ascension Event Deck Display:
+    sealed:
+    - count: 3
+      name: Dark Ascension Event Deck Gleeful Flames
+      set: dka
+    - count: 3
+      name: Dark Ascension Event Deck Spiraling Doom
+      set: dka
   Dark Ascension Event Deck Gleeful Flames:
     card_count: 75
     deck:
@@ -44,7 +51,23 @@ products:
     - count: 1
       name: Dark Ascension Booster Pack
       set: dka
-  Dark Ascension Intro Pack Display: []
+  Dark Ascension Intro Pack Display:
+    sealed:
+    - count: 2
+      name: Dark Ascension Intro Pack Dark Sacrifice
+      set: dka
+    - count: 2
+      name: Dark Ascension Intro Pack Grave Power
+      set: dka
+    - count: 2
+      name: Dark Ascension Intro Pack Monstrous Surprise
+      set: dka
+    - count: 2
+      name: Dark Ascension Intro Pack Relentless Dead
+      set: dka
+    - count: 2
+      name: Dark Ascension Intro Pack Swift Justice
+      set: dka
   Dark Ascension Intro Pack Grave Power:
     card_count: 60
     deck:
@@ -98,4 +121,8 @@ products:
     - count: 1
       name: Dark Ascension Booster Pack
       set: dka
-  Dark Ascension Six Card Booster Pack: []
+  Dark Ascension Six Card Booster Pack:
+    card_count: 6
+    pack:
+    - code: six
+      set: dka

@@ -3,32 +3,38 @@ products:
   Tenth Edition Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1107726'
       cardKingdomId: '122703'
       cardtraderId: '47213'
       csiId: '97262'
       mcmId: '210128'
       scgId: SLD-MTG-BBX-10E-EN
       tcgplayerProductId: '27257'
+      tntId: '154066'
     subtype: DRAFT
   Tenth Edition Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476801'
       cardKingdomId: '122704'
       cardtraderId: '47212'
       csiId: '97282'
       mcmId: '210062'
       scgId: SLD-MTG-PCK-10E-EN
       tcgplayerProductId: '27319'
+      tntId: '154065'
     subtype: DRAFT
   Tenth Edition Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1107725'
       cardKingdomId: '122711'
       cardtraderId: '47219'
       csiId: '97283'
       mcmId: '210165'
       scgId: SLD-MTG-BUN-10E-EN
       tcgplayerProductId: '78300'
+      tntId: '155094'
     subtype: FAT_PACK
   Tenth Edition Sample Deck Ajani Goldmane:
     category: DECK
@@ -68,51 +74,64 @@ products:
       csiId: '219003'
       mcmId: '253648'
       tcgplayerProductId: '127427'
+      tntId: '160512'
     subtype: THEME
   Tenth Edition Theme Deck Cho Mannos Resolve:
     category: DECK
     identifiers:
+      abuId: '1100045'
       cardKingdomId: '122705'
       cardtraderId: '47221'
       csiId: '219002'
       mcmId: '253649'
       tcgplayerProductId: '127426'
+      tntId: '160514'
     subtype: THEME
   Tenth Edition Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1100049'
       cardtraderId: '47230'
       mcmId: '210212'
+      tntId: '154062'
     subtype: THEME
   Tenth Edition Theme Deck Evincars Tyranny:
     category: DECK
     identifiers:
+      abuId: '1100046'
       cardKingdomId: '122707'
       cardtraderId: '47222'
       mcmId: '253650'
       tcgplayerProductId: '127428'
+      tntId: '1129333'
     subtype: THEME
   Tenth Edition Theme Deck Kamahls Temper:
     category: DECK
     identifiers:
+      abuId: '1100047'
       cardKingdomId: '122708'
       cardtraderId: '47223'
       csiId: '219005'
       mcmId: '253651'
       tcgplayerProductId: '127425'
+      tntId: '160516'
     subtype: THEME
   Tenth Edition Theme Deck Molimos Might:
     category: DECK
     identifiers:
+      abuId: '1100048'
       cardKingdomId: '122709'
       cardtraderId: '47224'
       csiId: '219009'
       mcmId: '253652'
       tcgplayerProductId: '127429'
+      tntId: '160515'
     subtype: THEME
   Tenth Edition Two Player Starter Game:
     category: MULTI_DECK
     identifiers:
+      abuId: '1100044'
       cardtraderId: '47225'
       mcmId: '254940'
+      tntId: '168663'
     subtype: TWO_PLAYER_STARTER

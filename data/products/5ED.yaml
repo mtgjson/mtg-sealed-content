@@ -3,46 +3,55 @@ products:
   Fifth Edition Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1107727'
       cardKingdomId: '1170'
       cardtraderId: '45278'
       csiId: '97290'
       mcmId: '210088'
       scgId: SLD-MTG-BBX-5ED-EN
       tcgplayerProductId: '27278'
+      tntId: '141904'
     subtype: DRAFT
   Fifth Edition Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476803'
       cardKingdomId: '1169'
       cardtraderId: '45277'
       csiId: '97292'
       mcmId: '210022'
       scgId: SLD-MTG-PCK-5ED-EN
       tcgplayerProductId: '27340'
+      tntId: '79222'
     subtype: DRAFT
   Fifth Edition Starter Deck:
     category: LIMITED
     identifiers:
+      abuId: '1100052'
       cardKingdomId: '1171'
       cardtraderId: '45279'
       csiId: '97623'
       mcmId: '248497'
       scgId: SLD-MTG-PCK-5EDSTARTER-EN
       tcgplayerProductId: '139148'
+      tntId: '79225'
     subtype: STARTER
   Fifth Edition Starter Deck Display:
     category: LIMITED_CASE
     identifiers:
+      abuId: '1107728'
       cardKingdomId: '240091'
       cardtraderId: '272335'
       mcmId: '749684'
       scgId: SLD-MTG-BBX-5EDSTARTER-EN
       tcgplayerProductId: '184221'
+      tntId: '79224'
     release_date: '2024-01-02'
     subtype: STARTER
   Fifth Edition Two Player Starter Set:
     category: MULTI_DECK
     identifiers:
+      abuId: '1100038'
       cardKingdomId: '186283'
       cardtraderId: '45280'
       mcmId: '254937'
@@ -51,6 +60,8 @@ products:
   Fifth Edition Two Player Starter Set Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1100050'
       cardtraderId: '45281'
       mcmId: '272029'
+      tntId: '108263'
     subtype: TWO_PLAYER_STARTER

@@ -3,12 +3,14 @@ products:
   Ravnica Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1101052'
       cardKingdomId: '118354'
       cardtraderId: '47058'
       csiId: '98058'
       mcmId: '210120'
       scgId: SLD-MTG-BBX-RAV-EN
       tcgplayerProductId: '27302'
+      tntId: '128863'
     subtype: DRAFT
   Ravnica Booster Box Case:
     category: BOOSTER_CASE
@@ -17,76 +19,98 @@ products:
   Ravnica Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476933'
       cardKingdomId: '118355'
       cardtraderId: '47057'
       csiId: '98072'
       mcmId: '210054'
       scgId: SLD-MTG-PCK-RAV-EN
       tcgplayerProductId: '27364'
+      tntId: '128853'
     subtype: DRAFT
   Ravnica Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1101053'
       cardKingdomId: '122337'
       cardtraderId: '47059'
       csiId: '98073'
       mcmId: '210172'
       scgId: SLD-MTG-BUN-RAV-EN
       tcgplayerProductId: '78295'
+      tntId: '155295'
     subtype: FAT_PACK
   Ravnica Theme Deck Charge of the Boros:
     category: DECK
     identifiers:
+      abuId: '1101059'
       cardKingdomId: '118942'
       cardtraderId: '47061'
       mcmId: '253675'
       tcgplayerProductId: '96335'
+      tntId: '128857'
     subtype: THEME
   Ravnica Theme Deck Dimir Intrigues:
     category: DECK
     identifiers:
+      abuId: '1101060'
       cardKingdomId: '118941'
       cardtraderId: '47062'
       mcmId: '253676'
       tcgplayerProductId: '96336'
+      tntId: '128856'
     subtype: THEME
   Ravnica Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1101065'
       cardtraderId: '47065'
       mcmId: '210220'
     subtype: THEME
   Ravnica Theme Deck Golgari Deathcreep:
     category: DECK
     identifiers:
+      abuId: '1101061'
       cardKingdomId: '118940'
       cardtraderId: '47060'
       mcmId: '253677'
       tcgplayerProductId: '96337'
+      tntId: '128855'
     subtype: THEME
   Ravnica Theme Deck Selesnya United:
     category: DECK
     identifiers:
+      abuId: '1101063'
       cardKingdomId: '118943'
       cardtraderId: '47063'
       mcmId: '253678'
       tcgplayerProductId: '96339'
+      tntId: '128858'
+    subtype: THEME
+  Ravnica Theme Decks Set of 4:
+    category: SUBSET
+    identifiers:
+      abuId: '1101064'
     subtype: THEME
   Ravnica Tournament Pack:
     category: LIMITED
     identifiers:
+      abuId: '1101058'
       cardKingdomId: '118356'
       cardtraderId: '47064'
       mcmId: '248484'
       scgId: SLD-MTG-PCK-RAVTOURNAMENT-EN
       tcgplayerProductId: '118876'
+      tntId: '128860'
     subtype: TOURNAMENT
   Ravnica Tournament Pack Display:
     category: LIMITED_CASE
     identifiers:
+      abuId: '1101055'
       cardKingdomId: '240194'
       cardtraderId: '47066'
       mcmId: '253862'
       scgId: SLD-MTG-BBX-RAVTOURNAMENT-EN
       tcgplayerProductId: '265603'
+      tntId: '128859'
     subtype: TOURNAMENT

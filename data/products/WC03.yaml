@@ -1,42 +1,60 @@
 code: wc03
 products:
+  2003 World Championship Deck Box:
+    category: DECK_BOX
+    identifiers:
+      abuId: '1476974'
+    subtype: CHAMPIONSHIP
   2003 World Championship Deck Daniel Zink:
     category: DECK
     identifiers:
+      abuId: '1100241'
       cardKingdomId: '240333'
       cardtraderId: '39917'
       csiId: '97875'
       mcmId: '250179'
       scgId: SLD-MTG-BXS-WCH2003-EN-DANIELZINK
       tcgplayerProductId: '158305'
+      tntId: '112088'
     subtype: CHAMPIONSHIP
   2003 World Championship Deck Dave Humpherys:
     category: DECK
     identifiers:
+      abuId: '1100249'
       cardKingdomId: '240334'
       cardtraderId: '39918'
       csiId: '97881'
       mcmId: '250178'
       scgId: SLD-MTG-BXS-WCH2003-EN-DAVEHUMPHERYS
       tcgplayerProductId: '158306'
+      tntId: '112089'
     subtype: CHAMPIONSHIP
   2003 World Championship Deck Peer Kroger:
     category: DECK
     identifiers:
+      abuId: '1100259'
       cardKingdomId: '240335'
       cardtraderId: '39920'
       csiId: '97879'
       mcmId: '250176'
       scgId: SLD-MTG-BXS-WCH2003-EN-PEERKROGER
       tcgplayerProductId: '158309'
+      tntId: '112090'
     subtype: CHAMPIONSHIP
   2003 World Championship Deck Wolfgang Eder:
     category: DECK
     identifiers:
+      abuId: '1100260'
       cardKingdomId: '240336'
       cardtraderId: '39919'
       csiId: '97877'
       mcmId: '250177'
       scgId: SLD-MTG-BXS-WCH2003-EN-WOLFGANGEDER
       tcgplayerProductId: '158308'
+      tntId: '112091'
+    subtype: CHAMPIONSHIP
+  2003 World Championship Decks Set of 4:
+    category: SUBSET
+    identifiers:
+      abuId: '1107797'
     subtype: CHAMPIONSHIP

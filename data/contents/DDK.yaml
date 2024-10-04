@@ -1,12 +1,25 @@
 code: ddk
 products:
   Duel Deck Sorin vs Tibalt:
-    card_count: 120
+    sealed:
+    - count: 1
+      name: Duel Deck Sorin vs Tibalt Sorin Deck
+      set: ddk
+    - count: 1
+      name: Duel Deck Sorin vs Tibalt Tibalt Deck
+      set: ddk
+  Duel Deck Sorin vs Tibalt Display:
+    sealed:
+    - count: 6
+      name: Duel Deck Sorin vs Tibalt
+      set: ddk
+  Duel Deck Sorin vs Tibalt Sorin Deck:
+    card_count: 60
     deck:
     - name: Sorin
       set: ddk
+  Duel Deck Sorin vs Tibalt Tibalt Deck:
+    card_count: 60
+    deck:
     - name: Tibalt
       set: ddk
-  Duel Deck Sorin vs Tibalt Display: []
-  Duel Deck Sorin vs Tibalt Sorin Deck: []
-  Duel Deck Sorin vs Tibalt Tibalt Deck: []

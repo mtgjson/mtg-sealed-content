@@ -3,6 +3,7 @@ products:
   Murders at Karlov Manor Bundle:
     category: BUNDLE
     identifiers:
+      abuId: '2452908'
       cardKingdomId: '289643'
       cardtraderId: '270469'
       csiId: '377208'
@@ -10,6 +11,7 @@ products:
       miniaturemarketId: '296328'
       scgId: SLD-MTG-BUN-MKM-EN
       tcgplayerProductId: '529971'
+      tntId: '1797263'
     release_date: '2024-02-09'
     subtype: DEFAULT
   Murders at Karlov Manor Bundle Case:
@@ -21,6 +23,7 @@ products:
   Murders at Karlov Manor Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2452859'
       cardKingdomId: '289642'
       cardtraderId: '270465'
       csiId: '377206'
@@ -28,6 +31,7 @@ products:
       miniaturemarketId: '296320'
       scgId: SLD-MTG-BBX-MKMCOLLECTOR-EN
       tcgplayerProductId: '529968'
+      tntId: '1797261'
     release_date: '2024-02-09'
     subtype: COLLECTOR
   Murders at Karlov Manor Collector Booster Box Case:
@@ -39,12 +43,14 @@ products:
   Murders at Karlov Manor Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2452854'
       cardKingdomId: '289641'
       cardtraderId: '270467'
       csiId: '377207'
       mcmId: '748050'
       scgId: SLD-MTG-PCK-MKMCOLLECTOR-EN
       tcgplayerProductId: '529967'
+      tntId: '1797262'
     release_date: '2024-02-09'
     subtype: COLLECTOR
   Murders at Karlov Manor Collector Booster Sample Pack:
@@ -52,10 +58,12 @@ products:
     identifiers:
       cardtraderId: '270468'
       mcmId: '748051'
+      tcgplayerProductId: '579920'
     subtype: PROMOTIONAL
   Murders at Karlov Manor Play Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2452856'
       cardKingdomId: '289640'
       cardtraderId: '270464'
       csiId: '376973'
@@ -63,6 +71,7 @@ products:
       miniaturemarketId: '296317'
       scgId: SLD-MTG-BBX-MKMPLAY-EN
       tcgplayerProductId: '529964'
+      tntId: '1797259'
     release_date: '2024-02-09'
     subtype: PLAY
   Murders at Karlov Manor Play Booster Box Case:
@@ -75,12 +84,14 @@ products:
   Murders at Karlov Manor Play Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2452852'
       cardKingdomId: '289639'
       cardtraderId: '270466'
       csiId: '377205'
       mcmId: '748049'
       scgId: SLD-MTG-PCK-MKMPLAY-EN
       tcgplayerProductId: '529962'
+      tntId: '1797260'
     release_date: '2024-02-09'
     subtype: PLAY
   Murders at Karlov Manor Prerelease Pack:

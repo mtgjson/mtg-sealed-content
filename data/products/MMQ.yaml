@@ -3,12 +3,14 @@ products:
   Mercadian Masques Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1107940'
       cardKingdomId: '1132'
       cardtraderId: '45597'
       csiId: '97917'
       mcmId: '210096'
       scgId: SLD-MTG-BBX-MMQ-EN
       tcgplayerProductId: '27289'
+      tntId: '85498'
     subtype: DRAFT
   Mercadian Masques Booster Box Case:
     category: BOOSTER_CASE
@@ -17,79 +19,101 @@ products:
   Mercadian Masques Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476903'
       cardKingdomId: '1133'
       cardtraderId: '45596'
       csiId: '97920'
       mcmId: '210030'
       scgId: SLD-MTG-PCK-MMQ-EN
       tcgplayerProductId: '27351'
+      tntId: '85499'
     subtype: DRAFT
   Mercadian Masques Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1100867'
       cardKingdomId: '228555'
       cardtraderId: '45598'
       csiId: '218275'
       mcmId: '210191'
       scgId: SLD-MTG-BUN-MMQ-EN
       tcgplayerProductId: '78319'
+      tntId: '155124'
     subtype: FAT_PACK
   Mercadian Masques Theme Deck Deepwood Menace:
     category: DECK
     identifiers:
+      abuId: '1100868'
       cardKingdomId: '1138'
       cardtraderId: '45600'
       csiId: '279779'
       mcmId: '253757'
       tcgplayerProductId: '116038'
+      tntId: '106922'
     subtype: THEME
   Mercadian Masques Theme Deck Display:
     category: DECK_BOX
     identifiers:
       cardtraderId: '45604'
       mcmId: '210232'
+      tntId: '85512'
     subtype: THEME
   Mercadian Masques Theme Deck Disrupter:
     category: DECK
     identifiers:
+      abuId: '1100869'
       cardKingdomId: '1137'
       cardtraderId: '45601'
       csiId: '279778'
       mcmId: '253758'
       tcgplayerProductId: '116039'
+      tntId: '106938'
     subtype: THEME
   Mercadian Masques Theme Deck Rebels Call:
     category: DECK
     identifiers:
+      abuId: '1100870'
       cardKingdomId: '1139'
       cardtraderId: '45602'
       csiId: '279780'
       mcmId: '253759'
       tcgplayerProductId: '116040'
+      tntId: '106937'
     subtype: THEME
   Mercadian Masques Theme Deck Tidal Mastery:
     category: DECK
     identifiers:
+      abuId: '1100871'
       cardKingdomId: '1136'
       cardtraderId: '45599'
       csiId: '279784'
       mcmId: '253760'
       tcgplayerProductId: '116041'
+      tntId: '106927'
+    subtype: THEME
+  Mercadian Masques Theme Decks Set of 4:
+    category: SUBSET
+    identifiers:
+      abuId: '1100873'
     subtype: THEME
   Mercadian Masques Tournament Pack:
     category: LIMITED
     identifiers:
+      abuId: '1107942'
       cardKingdomId: '1135'
       cardtraderId: '45603'
       mcmId: '248480'
       scgId: SLD-MTG-PCK-MMQTOURNAMENT-EN
       tcgplayerProductId: '125561'
+      tntId: '85515'
     subtype: TOURNAMENT
   Mercadian Masques Tournament Pack Display:
     category: LIMITED_CASE
     identifiers:
+      abuId: '1107941'
       cardKingdomId: '240167'
       cardtraderId: '45605'
       mcmId: '253856'
       scgId: SLD-MTG-BBX-MMQTOURNAMENT-EN
+      tntId: '85514'
     subtype: TOURNAMENT

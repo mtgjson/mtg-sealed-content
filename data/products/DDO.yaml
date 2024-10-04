@@ -3,17 +3,20 @@ products:
   Duel Deck Elspeth vs Kiora:
     category: MULTI_DECK
     identifiers:
+      abuId: '1100486'
       cardKingdomId: '199087'
       cardtraderId: '48245'
       csiId: '209774'
       mcmId: '272164'
       scgId: SLD-MTG-BXS-DDO-EN
       tcgplayerProductId: '96064'
+      tntId: '1067704'
     release_date: '2015-01-27'
     subtype: DUEL
   Duel Deck Elspeth vs Kiora Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      tntId: '1067705'
     subtype: DUEL
   Duel Deck Elspeth vs Kiora Elspeth Deck:
     category: DECK

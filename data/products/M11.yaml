@@ -8,12 +8,14 @@ products:
   2011 Core Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1107907'
       cardKingdomId: '131448'
       cardtraderId: '47502'
       csiId: '97776'
       mcmId: '241075'
       scgId: SLD-MTG-BBX-M11-EN
       tcgplayerProductId: '35372'
+      tntId: '289828'
     subtype: DRAFT
   2011 Core Set Booster Box Case:
     category: BOOSTER_CASE
@@ -23,80 +25,97 @@ products:
   2011 Core Set Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476897'
       cardKingdomId: '131449'
       cardtraderId: '47500'
       csiId: '97792'
       mcmId: '241074'
       scgId: SLD-MTG-PCK-M11-EN
       tcgplayerProductId: '35374'
+      tntId: '289829'
     subtype: DRAFT
   2011 Core Set Deck Builders Toolkit:
     category: KIT
     identifiers:
+      abuId: '1100373'
       cardKingdomId: '205591'
       cardtraderId: '47522'
       mcmId: '261009'
       tcgplayerProductId: '92503'
+      tntId: '305828'
     subtype: DECK_BUILDERS_TOOLKIT
   2011 Core Set Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1100746'
       cardKingdomId: '131450'
       cardtraderId: '47510'
       csiId: '97794'
       mcmId: '241076'
       scgId: SLD-MTG-BUN-M11-EN
       tcgplayerProductId: '35382'
+      tntId: '289830'
     subtype: FAT_PACK
   2011 Core Set Intro Pack Blades of Victory:
     category: DECK
     identifiers:
+      abuId: '1100742'
       cardKingdomId: '131451'
       cardtraderId: '47511'
       csiId: '279846'
       mcmId: '241795'
       tcgplayerProductId: '35376'
+      tntId: '289832'
     release_date: '2007-01-01'
     subtype: INTRO
   2011 Core Set Intro Pack Breath of Fire:
     category: DECK
     identifiers:
+      abuId: '1100749'
       cardKingdomId: '131453'
       cardtraderId: '47512'
       csiId: '279847'
       mcmId: '241798'
       tcgplayerProductId: '35379'
+      tntId: '289835'
     subtype: INTRO
   2011 Core Set Intro Pack Display:
     category: DECK_BOX
     identifiers:
       cardtraderId: '47521'
       mcmId: '241077'
+      tntId: '289831'
     subtype: INTRO
   2011 Core Set Intro Pack Power of Prophecy:
     category: DECK
     identifiers:
+      abuId: '1100750'
       cardKingdomId: '131456'
       cardtraderId: '47513'
       mcmId: '241796'
       tcgplayerProductId: '35377'
+      tntId: '289833'
     subtype: INTRO
   2011 Core Set Intro Pack Reign of Vampirism:
     category: DECK
     identifiers:
+      abuId: '1100752'
       cardKingdomId: '131452'
       cardtraderId: '47514'
       mcmId: '241797'
       tcgplayerProductId: '35378'
+      tntId: '289834'
     subtype: INTRO
   2011 Core Set Intro Pack Stampede of Beasts:
     category: DECK
     identifiers:
+      abuId: '1100754'
       cardKingdomId: '131454'
       cardtraderId: '47515'
       csiId: '279848'
       mcmId: '241799'
       tcgplayerProductId: '35380'
+      tntId: '289836'
     subtype: INTRO
   2011 Core Set Land Station:
     category: KIT
@@ -136,6 +155,7 @@ products:
   2011 Core Set Set of 5 Intro Pack:
     category: SUBSET
     identifiers:
+      abuId: '1100753'
       tcgplayerProductId: '35381'
     subtype: INTRO
   2011 Core Set Six Card Booster Pack:

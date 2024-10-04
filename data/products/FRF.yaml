@@ -3,12 +3,14 @@ products:
   Fate Reforged Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1100514'
       cardKingdomId: '198423'
       cardtraderId: '48215'
       csiId: '207395'
       mcmId: '271443'
       scgId: SLD-MTG-BBX-FRF-EN
       tcgplayerProductId: '94746'
+      tntId: '1062934'
     release_date: '2015-01-21'
     subtype: DRAFT
   Fate Reforged Booster Box Case:
@@ -19,39 +21,47 @@ products:
   Fate Reforged Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476878'
       cardKingdomId: '198424'
       cardtraderId: '48214'
       csiId: '207396'
       mcmId: '271455'
       tcgplayerProductId: '95031'
+      tntId: '1062935'
     release_date: '2015-01-21'
     subtype: DRAFT
   Fate Reforged Clash Pack:
     category: MULTI_DECK
     identifiers:
+      abuId: '1100521'
       cardKingdomId: '198429'
       cardtraderId: '48224'
       mcmId: '271577'
       tcgplayerProductId: '95035'
+      tntId: '1062944'
     subtype: CLASH
   Fate Reforged Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1100522'
       cardKingdomId: '198425'
       cardtraderId: '48223'
       csiId: '207405'
       mcmId: '271456'
       scgId: SLD-MTG-BUN-FRF-EN
       tcgplayerProductId: '95032'
+      tntId: '1062936'
     release_date: '2015-01-21'
     subtype: FAT_PACK
   Fate Reforged Intro Pack Cunning Plan:
     category: DECK
     identifiers:
+      abuId: '1100525'
       cardKingdomId: '198994'
       cardtraderId: '48226'
       mcmId: '271558'
       tcgplayerProductId: '95261'
+      tntId: '1065449'
     subtype: INTRO
   Fate Reforged Intro Pack Display:
     category: DECK_BOX
@@ -59,20 +69,24 @@ products:
       cardtraderId: '48237'
       mcmId: '272136'
       tcgplayerProductId: '95033'
+      tntId: '1062937'
     release_date: '2015-01-26'
     subtype: INTRO
   Fate Reforged Intro Pack Grave Advantage:
     category: DECK
     identifiers:
+      abuId: '1100526'
       cardKingdomId: '198995'
       cardtraderId: '48227'
       csiId: '207412'
       mcmId: '271559'
       tcgplayerProductId: '95259'
+      tntId: '1065450'
     subtype: INTRO
   Fate Reforged Intro Pack Set of 5:
     category: SUBSET
     identifiers:
+      abuId: '1100529'
       cardtraderId: '48236'
       mcmId: '272135'
       tcgplayerProductId: '95034'
@@ -81,47 +95,59 @@ products:
   Fate Reforged Intro Pack Stampeding Hordes:
     category: DECK
     identifiers:
+      abuId: '1100527'
       cardKingdomId: '198996'
       cardtraderId: '48228'
       mcmId: '271560'
       tcgplayerProductId: '95258'
+      tntId: '1065448'
     subtype: INTRO
   Fate Reforged Intro Pack Surprise Attack:
     category: DECK
     identifiers:
+      abuId: '1100528'
       cardKingdomId: '198997'
       cardtraderId: '48229'
       mcmId: '271561'
       tcgplayerProductId: '95260'
+      tntId: '1065451'
     subtype: INTRO
   Fate Reforged Intro Pack Unflinching Assault:
     category: DECK
     identifiers:
+      abuId: '1100523'
       cardKingdomId: '198993'
       cardtraderId: '48225'
       mcmId: '271557'
       tcgplayerProductId: '95262'
+      tntId: '1065447'
     subtype: INTRO
   Fate Reforged Prerelease Kit Abzan Battle with Endurance:
     category: LIMITED
     identifiers:
+      abuId: '1100530'
       cardtraderId: '48231'
       mcmId: '272438'
       tcgplayerProductId: '95910'
+      tntId: '1182111'
     subtype: PRERELEASE
   Fate Reforged Prerelease Kit Jeskai Battle with Cunning:
     category: LIMITED
     identifiers:
+      abuId: '1973126'
       cardtraderId: '48230'
       mcmId: '272437'
       tcgplayerProductId: '95912'
+      tntId: '1182100'
     subtype: PRERELEASE
   Fate Reforged Prerelease Kit Mardu Battle with Speed:
     category: LIMITED
     identifiers:
+      abuId: '1973127'
       cardtraderId: '48234'
       mcmId: '272441'
       tcgplayerProductId: '95911'
+      tntId: '1660290'
     subtype: PRERELEASE
   Fate Reforged Prerelease Kit Set of 5:
     category: SUBSET
@@ -134,14 +160,18 @@ products:
   Fate Reforged Prerelease Kit Sultai Battle with Ruthlessness:
     category: LIMITED
     identifiers:
+      abuId: '1100531'
       cardtraderId: '48232'
       mcmId: '272439'
       tcgplayerProductId: '95913'
+      tntId: '1660291'
     subtype: PRERELEASE
   Fate Reforged Prerelease Kit Temur Battle with Savagery:
     category: LIMITED
     identifiers:
+      abuId: '1100524'
       cardtraderId: '48233'
       mcmId: '272440'
       tcgplayerProductId: '95914'
+      tntId: '1660292'
     subtype: PRERELEASE

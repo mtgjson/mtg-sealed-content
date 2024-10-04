@@ -3,12 +3,14 @@ products:
   Mirage Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1107943'
       cardKingdomId: '186652'
       cardtraderId: '45223'
       csiId: '97913'
       mcmId: '210081'
       scgId: SLD-MTG-BBX-MIR-EN
       tcgplayerProductId: '27290'
+      tntId: '85666'
     subtype: DRAFT
   Mirage Booster Box Case:
     category: BOOSTER_CASE
@@ -17,29 +19,35 @@ products:
   Mirage Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476905'
       cardKingdomId: '1184'
       cardtraderId: '45222'
       csiId: '97915'
       mcmId: '210015'
       scgId: SLD-MTG-PCK-MIR-EN
       tcgplayerProductId: '27352'
+      tntId: '85667'
     subtype: DRAFT
   Mirage Starter Deck:
     category: LIMITED
     identifiers:
+      abuId: '1100877'
       cardKingdomId: '1246'
       cardtraderId: '45229'
       csiId: '97914'
       mcmId: '248498'
       scgId: SLD-MTG-PCK-MIRTOURNAMENT-EN
       tcgplayerProductId: '121397'
+      tntId: '85675'
     subtype: STARTER
   Mirage Starter Deck Display:
     category: LIMITED_CASE
     identifiers:
+      abuId: '1107944'
       cardKingdomId: '240168'
       cardtraderId: '45230'
       mcmId: '272027'
       scgId: SLD-MTG-BBX-MIRTOURNAMENT-EN
       tcgplayerProductId: '121754'
+      tntId: '85674'
     subtype: STARTER

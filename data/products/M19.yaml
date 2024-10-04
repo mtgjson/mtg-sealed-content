@@ -3,49 +3,58 @@ products:
   Core Set 2019 Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1497961'
       cardKingdomId: '219796'
       cardtraderId: '48696'
       csiId: '243768'
       mcmId: '299343'
       scgId: SLD-MTG-BBX-M19-EN
       tcgplayerProductId: '166550'
+      tntId: '1178161'
     release_date: '2018-07-13'
     subtype: DRAFT
   Core Set 2019 Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '166552'
+      tntId: '1178160'
     release_date: '2018-07-13'
     subtype: DRAFT
   Core Set 2019 Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1973117'
       cardKingdomId: '219797'
       cardtraderId: '48695'
       csiId: '244773'
       mcmId: '299344'
       tcgplayerProductId: '166551'
+      tntId: '1178164'
     release_date: '2018-07-13'
     subtype: DRAFT
   Core Set 2019 Bundle:
     category: BUNDLE
     identifiers:
+      abuId: '1502741'
       cardKingdomId: '219798'
       cardtraderId: '48703'
       csiId: '244845'
       mcmId: '299342'
       scgId: SLD-MTG-BUN-M19-EN
       tcgplayerProductId: '166562'
+      tntId: '1178162'
     release_date: '2018-07-13'
     subtype: DEFAULT
   Core Set 2019 Deck Builders Toolkit:
     category: KIT
     identifiers:
+      abuId: '1511001'
       cardKingdomId: '219802'
       cardtraderId: '48710'
       csiId: '244848'
       mcmId: '319293'
       tcgplayerProductId: '166553'
+      tntId: '1181273'
     release_date: '2018-07-13'
     subtype: DECK_BUILDERS_TOOLKIT
   Core Set 2019 Gift Pack:
@@ -58,52 +67,63 @@ products:
   Core Set 2019 Planeswalker Deck Ajani:
     category: DECK
     identifiers:
+      abuId: '1511006'
       cardKingdomId: '220072'
       cardtraderId: '48704'
       mcmId: '359993'
       tcgplayerProductId: '169265'
+      tntId: '1178165'
     release_date: '2018-07-13'
     subtype: PLANESWALKER
   Core Set 2019 Planeswalker Deck Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      tntId: '1178163'
     subtype: PLANESWALKER
   Core Set 2019 Planeswalker Deck Liliana:
     category: DECK
     identifiers:
+      abuId: '1511008'
       cardKingdomId: '219808'
       cardtraderId: '48706'
       csiId: '244777'
       mcmId: '360016'
       tcgplayerProductId: '169268'
+      tntId: '1178934'
     release_date: '2018-07-13'
     subtype: PLANESWALKER
   Core Set 2019 Planeswalker Deck Sarkhan:
     category: DECK
     identifiers:
+      abuId: '1511009'
       cardKingdomId: '220071'
       cardtraderId: '48708'
       mcmId: '360015'
       scgId: SLD-MTG-INT-M19PWDECK-EN-SARKHAN
       tcgplayerProductId: '169266'
+      tntId: '1178935'
     release_date: '2018-07-13'
     subtype: PLANESWALKER
   Core Set 2019 Planeswalker Deck Tezzeret:
     category: DECK
     identifiers:
+      abuId: '1511007'
       cardKingdomId: '219807'
       cardtraderId: '48707'
       mcmId: '319292'
       tcgplayerProductId: '166560'
+      tntId: '1178166'
     release_date: '2018-07-13'
     subtype: PLANESWALKER
   Core Set 2019 Planeswalker Deck Vivien:
     category: DECK
     identifiers:
+      abuId: '1511010'
       cardKingdomId: '220070'
       cardtraderId: '48705'
       mcmId: '359978'
       tcgplayerProductId: '169267'
+      tntId: '1178936'
     release_date: '2018-07-13'
     subtype: PLANESWALKER
   Core Set 2019 Planeswalker Decks Set of 5:
@@ -116,6 +136,7 @@ products:
   Core Set 2019 Prerelease Pack:
     category: LIMITED
     identifiers:
+      abuId: '1516786'
       cardtraderId: '48709'
       mcmId: '361003'
       tcgplayerProductId: '166555'
@@ -124,10 +145,12 @@ products:
   Core Set 2019 Spellslinger Starter Kit:
     category: MULTI_DECK
     identifiers:
+      abuId: '1534232'
       cardKingdomId: '222236'
       csiId: '263991'
       mcmId: '362757'
       tcgplayerProductId: '174136'
+      tntId: '1189134'
     release_date: '2018-10-05'
     subtype: TWO_PLAYER_STARTER
   Core Set 2019 Standard Showdown Booster:

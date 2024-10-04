@@ -1,5 +1,6 @@
 code: wc97
 products:
+  1997 World Championship Deck Box: []
   1997 World Championship Deck Jakub Slemr:
     card_count: 75
     deck:
@@ -19,4 +20,18 @@ products:
     card_count: 75
     deck:
     - name: Svend Geertsen - Green Stompy
+      set: wc97
+  1997 World Championship Decks Set of 4:
+    sealed:
+    - count: 1
+      name: 1997 World Championship Deck Jakub Slemr
+      set: wc97
+    - count: 1
+      name: 1997 World Championship Deck Janosch Kuhn
+      set: wc97
+    - count: 1
+      name: 1997 World Championship Deck Paul McCabe
+      set: wc97
+    - count: 1
+      name: 1997 World Championship Deck Svend Geertsen
       set: wc97

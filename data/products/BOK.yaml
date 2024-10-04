@@ -3,12 +3,14 @@ products:
   Betrayers of Kamigawa Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1100150'
       cardKingdomId: '113972'
       cardtraderId: '46904'
       csiId: '97399'
       mcmId: '210116'
       scgId: SLD-MTG-BBX-BOK-EN
       tcgplayerProductId: '27267'
+      tntId: '121456'
     subtype: DRAFT
   Betrayers of Kamigawa Booster Box Case:
     category: BOOSTER_CASE
@@ -17,63 +19,77 @@ products:
   Betrayers of Kamigawa Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476855'
       cardKingdomId: '113977'
       cardtraderId: '46903'
       csiId: '97412'
       mcmId: '210050'
       scgId: SLD-MTG-PCK-BOK-EN
       tcgplayerProductId: '27329'
+      tntId: '121457'
     subtype: DRAFT
   Betrayers of Kamigawa Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1100159'
       cardKingdomId: '205590'
       cardtraderId: '46905'
       csiId: '97413'
       mcmId: '210175'
       scgId: SLD-MTG-BUN-BOK-EN
       tcgplayerProductId: '78304'
+      tntId: '155100'
     subtype: FAT_PACK
   Betrayers of Kamigawa Theme Deck Dark Devotion:
     category: DECK
     identifiers:
+      abuId: '1100160'
       cardKingdomId: '113973'
       cardtraderId: '46907'
       mcmId: '253688'
       tcgplayerProductId: '136940'
+      tntId: '121459'
     release_date: '2007-01-01'
     subtype: THEME
   Betrayers of Kamigawa Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1476856'
       cardtraderId: '46911'
       mcmId: '210213'
+      tntId: '121458'
     release_date: '2007-01-01'
     subtype: THEME
   Betrayers of Kamigawa Theme Deck Ninjutsu:
     category: DECK
     identifiers:
+      abuId: '1100161'
       cardKingdomId: '113974'
       cardtraderId: '46909'
       mcmId: '253689'
       tcgplayerProductId: '136939'
+      tntId: '121460'
     release_date: '2007-01-01'
     subtype: THEME
   Betrayers of Kamigawa Theme Deck Rats Nest:
     category: DECK
     identifiers:
+      abuId: '1100165'
       cardKingdomId: '113975'
       cardtraderId: '46910'
       mcmId: '253690'
       tcgplayerProductId: '136941'
+      tntId: '121461'
     release_date: '2007-01-01'
     subtype: THEME
   Betrayers of Kamigawa Theme Deck Spiritcraft:
     category: DECK
     identifiers:
+      abuId: '1100166'
       cardKingdomId: '113976'
       cardtraderId: '46908'
       mcmId: '253691'
       tcgplayerProductId: '136942'
+      tntId: '121462'
     release_date: '2007-01-01'
     subtype: THEME

@@ -121,4 +121,12 @@ products:
     deck:
     - name: Molimo's Might
       set: 10e
-  Tenth Edition Two Player Starter Game: []
+  Tenth Edition Two Player Starter Game:
+    other:
+    - name: 20 basic lands
+    - name: Rules sheet
+    - name: Pro tour player promo card
+    sealed:
+    - count: 2
+      name: Tenth Edition Booster Pack
+      set: 10e

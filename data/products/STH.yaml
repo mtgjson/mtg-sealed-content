@@ -3,12 +3,14 @@ products:
   Stronghold Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1108013'
       cardKingdomId: '124151'
       cardtraderId: '45333'
       csiId: '98216'
       mcmId: '210085'
       scgId: SLD-MTG-BBX-STH-EN
       tcgplayerProductId: '27307'
+      tntId: '89055'
     subtype: DRAFT
   Stronghold Booster Box Case:
     category: BOOSTER_CASE
@@ -17,48 +19,64 @@ products:
   Stronghold Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476945'
       cardKingdomId: '1196'
       cardtraderId: '45332'
       csiId: '98218'
       mcmId: '210019'
       scgId: SLD-MTG-PCK-STH-EN
       tcgplayerProductId: '27369'
+      tntId: '89056'
     subtype: DRAFT
   Stronghold Theme Deck Call of the Kor:
     category: DECK
     identifiers:
+      abuId: '1101177'
       cardKingdomId: '1197'
       cardtraderId: '45335'
       mcmId: '253786'
       tcgplayerProductId: '139150'
+      tntId: '106944'
     subtype: THEME
   Stronghold Theme Deck Display:
     category: DECK_BOX
     identifiers:
       cardtraderId: '45338'
       mcmId: '210240'
+      tntId: '89067'
     subtype: THEME
   Stronghold Theme Deck Migraine:
     category: DECK
     identifiers:
+      abuId: '1101178'
       cardKingdomId: '1198'
       cardtraderId: '45336'
       mcmId: '253787'
       tcgplayerProductId: '175072'
+      tntId: '106951'
     subtype: THEME
   Stronghold Theme Deck The Sparkler:
     category: DECK
     identifiers:
+      abuId: '1101179'
       cardKingdomId: '1199'
       cardtraderId: '45334'
       mcmId: '253788'
       tcgplayerProductId: '139149'
+      tntId: '106921'
     subtype: THEME
   Stronghold Theme Deck The Spikes:
     category: DECK
     identifiers:
+      abuId: '1101180'
       cardKingdomId: '1200'
       cardtraderId: '45337'
       mcmId: '253789'
       tcgplayerProductId: '175071'
+      tntId: '106955'
+    subtype: THEME
+  Stronghold Theme Decks Set of 4:
+    category: SUBSET
+    identifiers:
+      abuId: '1101181'
     subtype: THEME

@@ -1,7 +1,64 @@
 code: dsc
 products:
-  Duskmourn House of Horror Commander Deck Death Toll: []
-  Duskmourn House of Horror Commander Deck Endless Punishment: []
-  Duskmourn House of Horror Commander Deck Jump Scare: []
-  Duskmourn House of Horror Commander Deck Miracle Worker: []
-  Duskmourn House of Horror Commander Decks Set of 4: []
+  Duskmourn House of Horror Commander Deck Death Toll:
+    card_count: 100
+    deck:
+    - name: Death Toll
+      set: dsc
+    other:
+    - name: 10 Double-sided tokens
+    - name: Deck box
+    sealed:
+    - count: 1
+      name: Duskmourn House of Horror Collector Booster Sample Pack
+      set: dsk
+  Duskmourn House of Horror Commander Deck Endless Punishment:
+    card_count: 100
+    deck:
+    - name: Endless Punishment
+      set: dsc
+    other:
+    - name: 10 Double-sided tokens
+    - name: Deck box
+    sealed:
+    - count: 1
+      name: Duskmourn House of Horror Collector Booster Sample Pack
+      set: dsk
+  Duskmourn House of Horror Commander Deck Jump Scare:
+    card_count: 100
+    deck:
+    - name: Jump Scare!
+      set: dsc
+    other:
+    - name: 10 Double-sided tokens
+    - name: Deck box
+    sealed:
+    - count: 1
+      name: Duskmourn House of Horror Collector Booster Sample Pack
+      set: dsk
+  Duskmourn House of Horror Commander Deck Miracle Worker:
+    card_count: 100
+    deck:
+    - name: Miracle Worker
+      set: dsc
+    other:
+    - name: 10 Double-sided tokens
+    - name: Deck box
+    sealed:
+    - count: 1
+      name: Duskmourn House of Horror Collector Booster Sample Pack
+      set: dsk
+  Duskmourn House of Horror Commander Decks Set of 4:
+    sealed:
+    - count: 1
+      name: Duskmourn House of Horror Commander Deck Death Toll
+      set: dsc
+    - count: 1
+      name: Duskmourn House of Horror Commander Deck Endless Punishment
+      set: dsc
+    - count: 1
+      name: Duskmourn House of Horror Commander Deck Jump Scare
+      set: dsc
+    - count: 1
+      name: Duskmourn House of Horror Commander Deck Miracle Worker
+      set: dsc

@@ -3,6 +3,7 @@ products:
   Ravnica Remastered Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2442861'
       cardKingdomId: '288174'
       cardtraderId: '262674'
       csiId: '376815'
@@ -10,6 +11,7 @@ products:
       miniaturemarketId: '296247'
       scgId: SLD-MTG-BBX-RVRCOLLECTOR-EN
       tcgplayerProductId: '517708'
+      tntId: '1797206'
     release_date: '2024-01-12'
     subtype: COLLECTOR
   Ravnica Remastered Collector Booster Box Case:
@@ -27,6 +29,7 @@ products:
   Ravnica Remastered Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2442863'
       cardKingdomId: '288177'
       cardtraderId: '262676'
       csiId: '376816'
@@ -34,11 +37,13 @@ products:
       miniaturemarketId: '296248'
       scgId: SLD-MTG-PCK-RVRCOLLECTOR-EN
       tcgplayerProductId: '517707'
+      tntId: '1797207'
     release_date: '2024-01-12'
     subtype: COLLECTOR
   Ravnica Remastered Draft Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2442860'
       cardKingdomId: '288173'
       cardtraderId: '262673'
       csiId: '376796'
@@ -46,6 +51,7 @@ products:
       miniaturemarketId: '296244'
       scgId: SLD-MTG-BBX-RVRDRAFT-EN
       tcgplayerProductId: '517705'
+      tntId: '1797204'
     release_date: '2024-01-12'
     subtype: DEFAULT
   Ravnica Remastered Draft Booster Box Case:
@@ -58,11 +64,13 @@ products:
   Ravnica Remastered Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2442862'
       cardKingdomId: '288176'
       cardtraderId: '262675'
       csiId: '376797'
       mcmId: '737482'
       scgId: SLD-MTG-PCK-RVRDRAFT-EN
       tcgplayerProductId: '517704'
+      tntId: '1797205'
     release_date: '2024-01-12'
     subtype: DEFAULT

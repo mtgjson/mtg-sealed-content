@@ -3,12 +3,14 @@ products:
   Guildpact Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1100578'
       cardKingdomId: '119571'
       cardtraderId: '47080'
       csiId: '97646'
       mcmId: '210119'
       scgId: SLD-MTG-BBX-GPT-EN
       tcgplayerProductId: '27281'
+      tntId: '138464'
     subtype: DRAFT
   Guildpact Booster Box Case:
     category: BOOSTER_CASE
@@ -17,50 +19,67 @@ products:
   Guildpact Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476883'
       cardKingdomId: '119572'
       cardtraderId: '47079'
       csiId: '97656'
       mcmId: '210053'
       scgId: SLD-MTG-PCK-GPT-EN
       tcgplayerProductId: '27343'
+      tntId: '138463'
     subtype: DRAFT
   Guildpact Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1107869'
       cardKingdomId: '119577'
       cardtraderId: '47081'
       csiId: '97657'
       mcmId: '210171'
       scgId: SLD-MTG-BUN-GPT-EN
       tcgplayerProductId: '78313'
+      tntId: '155115'
     subtype: FAT_PACK
   Guildpact Theme Deck Code of the Orzhov:
     category: DECK
     identifiers:
+      abuId: '1100579'
       cardKingdomId: '119573'
       cardtraderId: '47082'
       mcmId: '253672'
       tcgplayerProductId: '96340'
+      tntId: '138462'
     subtype: THEME
   Guildpact Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1100586'
       cardtraderId: '47087'
       mcmId: '210221'
+      tntId: '138468'
     subtype: THEME
   Guildpact Theme Deck Gruul Wilding:
     category: DECK
     identifiers:
+      abuId: '1100580'
       cardKingdomId: '119574'
       cardtraderId: '47084'
       mcmId: '253673'
       tcgplayerProductId: '96341'
+      tntId: '138466'
     subtype: THEME
   Guildpact Theme Deck Izzet Gizmometry:
     category: DECK
     identifiers:
+      abuId: '1100584'
       cardKingdomId: '119575'
       cardtraderId: '47085'
       mcmId: '253674'
       tcgplayerProductId: '96342'
+      tntId: '138465'
+    subtype: THEME
+  Guildpact Theme Decks Set of 3:
+    category: SUBSET
+    identifiers:
+      abuId: '1100585'
     subtype: THEME

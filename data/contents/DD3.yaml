@@ -6,65 +6,25 @@ products:
     sealed:
     - count: 1
       name: Duel Deck Anthology Chandra Deck
-      set: dd3
+      set: jvc
     - count: 1
       name: Duel Deck Anthology Jace Deck
-      set: dd3
+      set: jvc
     - count: 1
       name: Duel Deck Anthology Demonic Deck
-      set: dd3
+      set: dvd
     - count: 1
       name: Duel Deck Anthology Divine Deck
-      set: dd3
+      set: dvd
     - count: 1
       name: Duel Deck Anthology Elves Deck
-      set: dd3
+      set: evg
     - count: 1
       name: Duel Deck Anthology Goblins Deck
-      set: dd3
+      set: evg
     - count: 1
       name: Duel Deck Anthology Garruk Deck
-      set: dd3
+      set: gvl
     - count: 1
       name: Duel Deck Anthology Liliana Deck
-      set: dd3
-  Duel Deck Anthology Chandra Deck:
-    card_count: 60
-    deck:
-    - name: Chandra
-      set: jvc
-  Duel Deck Anthology Demonic Deck:
-    card_count: 60
-    deck:
-    - name: Demonic
-      set: dvd
-  Duel Deck Anthology Divine Deck:
-    card_count: 60
-    deck:
-    - name: Divine
-      set: dvd
-  Duel Deck Anthology Elves Deck:
-    card_count: 60
-    deck:
-    - name: Elves
-      set: evg
-  Duel Deck Anthology Garruk Deck:
-    card_count: 60
-    deck:
-    - name: Garruk
-      set: gvl
-  Duel Deck Anthology Goblins Deck:
-    card_count: 60
-    deck:
-    - name: Goblins
-      set: evg
-  Duel Deck Anthology Jace Deck:
-    card_count: 60
-    deck:
-    - name: Jace
-      set: jvc
-  Duel Deck Anthology Liliana Deck:
-    card_count: 60
-    deck:
-    - name: Liliana
       set: gvl

@@ -3,12 +3,14 @@ products:
   Legions Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1107895'
       cardKingdomId: '1531'
       cardtraderId: '46336'
       csiId: '97714'
       mcmId: '210107'
       scgId: SLD-MTG-BBX-LGN-EN
       tcgplayerProductId: '27287'
+      tntId: '107465'
     subtype: DRAFT
   Legions Booster Box Case:
     category: BOOSTER_CASE
@@ -17,22 +19,26 @@ products:
   Legions Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476894'
       cardKingdomId: '1537'
       cardtraderId: '46335'
       csiId: '97723'
       mcmId: '210041'
       scgId: SLD-MTG-PCK-LGN-EN
       tcgplayerProductId: '27349'
+      tntId: '107464'
     subtype: DRAFT
   Legions Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1100721'
       cardKingdomId: '240341'
       cardtraderId: '46337'
       csiId: '97724'
       mcmId: '210181'
       scgId: SLD-MTG-BUN-LGN-EN
       tcgplayerProductId: '78316'
+      tntId: '155264'
     subtype: FAT_PACK
   Legions Theme Deck Display:
     category: DECK_BOX
@@ -43,32 +49,45 @@ products:
   Legions Theme Deck Elvish Rage:
     category: DECK
     identifiers:
+      abuId: '1100722'
       cardKingdomId: '1532'
       cardtraderId: '46338'
       mcmId: '253712'
       tcgplayerProductId: '96427'
+      tntId: '107455'
     subtype: THEME
   Legions Theme Deck Morph Mayhem:
     category: DECK
     identifiers:
+      abuId: '1100723'
       cardKingdomId: '1534'
       cardtraderId: '46339'
       mcmId: '253713'
       tcgplayerProductId: '96426'
+      tntId: '107453'
     subtype: THEME
   Legions Theme Deck Sliver Shivers:
     category: DECK
     identifiers:
+      abuId: '1100725'
       cardKingdomId: '1535'
       cardtraderId: '46340'
       mcmId: '253714'
       tcgplayerProductId: '96428'
+      tntId: '107466'
     subtype: THEME
   Legions Theme Deck Zombies Unleashed:
     category: DECK
     identifiers:
+      abuId: '1100727'
       cardKingdomId: '1533'
       cardtraderId: '46341'
       mcmId: '253715'
       tcgplayerProductId: '96429'
+      tntId: '107458'
+    subtype: THEME
+  Legions Theme Decks Set of 4:
+    category: SUBSET
+    identifiers:
+      abuId: '1100728'
     subtype: THEME

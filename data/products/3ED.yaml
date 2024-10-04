@@ -3,44 +3,54 @@ products:
   Revised Edition Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1101093'
       cardKingdomId: '190457'
       cardtraderId: '39414'
       csiId: '98111'
       mcmId: '210072'
       scgId: SLD-MTG-BBX-3ED-EN
       tcgplayerProductId: '27303'
+      tntId: '87534'
     subtype: DEFAULT
   Revised Edition Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476935'
       cardKingdomId: '1244'
       cardtraderId: '39413'
       csiId: '98112'
       mcmId: '210006'
       scgId: SLD-MTG-PCK-3ED-EN
       tcgplayerProductId: '27365'
+      tntId: '118983'
     subtype: DEFAULT
   Revised Edition Gift Box:
     category: BUNDLE
     identifiers:
+      abuId: '1101090'
       tcgplayerProductId: '193784'
+      tntId: '87544'
     subtype: GIFT_BUNDLE
   Revised Edition Starter Deck:
     category: LIMITED
     identifiers:
+      abuId: '1101094'
       cardKingdomId: '1245'
       cardtraderId: '39415'
       csiId: '98080'
       mcmId: '248494'
       scgId: SLD-MTG-PCK-3EDSTARTER-EN
       tcgplayerProductId: '57941'
+      tntId: '87558'
     subtype: STARTER
   Revised Edition Starter Deck Display:
     category: LIMITED_CASE
     identifiers:
+      abuId: '1476936'
       cardKingdomId: '240089'
       cardtraderId: '50982'
       mcmId: '272020'
       scgId: SLD-MTG-BBX-3EDSTARTER-EN
       tcgplayerProductId: '173066'
+      tntId: '118984'
     subtype: STARTER

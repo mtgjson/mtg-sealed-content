@@ -3,12 +3,14 @@ products:
   Planeshift Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1101003'
       cardKingdomId: '1293'
       cardtraderId: '45759'
       csiId: '98049'
       mcmId: '210100'
       scgId: SLD-MTG-BBX-PLS-EN
       tcgplayerProductId: '27297'
+      tntId: '86751'
     subtype: DRAFT
   Planeshift Booster Box Case:
     category: BOOSTER_CASE
@@ -17,58 +19,76 @@ products:
   Planeshift Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476922'
       cardKingdomId: '1294'
       cardtraderId: '45758'
       csiId: '98052'
       mcmId: '210034'
       scgId: SLD-MTG-PCK-PLS-EN
       tcgplayerProductId: '27359'
+      tntId: '114587'
     subtype: DRAFT
   Planeshift Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1100991'
       cardKingdomId: '240340'
       cardtraderId: '45760'
       csiId: '98051'
       mcmId: '210187'
       scgId: SLD-MTG-BUN-PLS-EN
       tcgplayerProductId: '78326'
+      tntId: '155131'
     subtype: FAT_PACK
   Planeshift Theme Deck Barrage:
     category: DECK
     identifiers:
+      abuId: '1100998'
       cardKingdomId: '1297'
       cardtraderId: '45762'
       mcmId: '253741'
       tcgplayerProductId: '93345'
+      tntId: '106947'
     subtype: THEME
   Planeshift Theme Deck Comeback:
     category: DECK
     identifiers:
+      abuId: '1101004'
       cardKingdomId: '1295'
       cardtraderId: '45763'
       mcmId: '253742'
       tcgplayerProductId: '93346'
+      tntId: '106939'
     subtype: THEME
   Planeshift Theme Deck Display:
     category: DECK_BOX
     identifiers:
       cardtraderId: '45765'
       mcmId: '210236'
+      tntId: '86749'
     subtype: THEME
   Planeshift Theme Deck Domain:
     category: DECK
     identifiers:
+      abuId: '1101005'
       cardKingdomId: '1296'
       cardtraderId: '45761'
       mcmId: '253743'
       tcgplayerProductId: '93347'
+      tntId: '106933'
     subtype: THEME
   Planeshift Theme Deck Scout:
     category: DECK
     identifiers:
+      abuId: '1101007'
       cardKingdomId: '1298'
       cardtraderId: '45764'
       mcmId: '253744'
       tcgplayerProductId: '93348'
+      tntId: '106943'
+    subtype: THEME
+  Planeshift Theme Decks Set of 4:
+    category: SUBSET
+    identifiers:
+      abuId: '1101008'
     subtype: THEME

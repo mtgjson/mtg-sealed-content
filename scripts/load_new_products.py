@@ -529,11 +529,14 @@ def load_coolstuffinc(secret):
     retail_data = load_coolstuffinc_retail(skip_tags)
     print(f"Retrieved {len(retail_data)} products from retail")
 
-    buylist_data = load_coolstuffinc_buylist(skip_tags)
-    print(f"Retrieved {len(buylist_data)} products from buylist")
+    try:
+        buylist_data = load_coolstuffinc_buylist(skip_tags)
+        print(f"Retrieved {len(buylist_data)} products from buylist")
 
-    retail_data.extend(x for x in buylist_data if x not in retail_data)
-    print(f"Total {len(retail_data)} products")
+        retail_data.extend(x for x in buylist_data if x not in retail_data)
+        print(f"Total {len(retail_data)} products")
+    except Exception:
+        pass
 
     return retail_data
 
@@ -609,6 +612,125 @@ def load_coolstuffinc_buylist(skip_tags):
     return sealed_data
 
 
+def get_abu_link(page, limit):
+    return "https://data.abugames.com/solr/nodes/select?q=*:*&fq=%2Bcategory%3A%22Magic%20the%20Gathering%20Sealed%20Product%22%20-offline_item%3Atrue%20OR%20-title%3A%22STORE%22%20OR%20-title%3A%22AUCTION%22%20OR%20-title%3A%22OVERSTOCK%22%20%2Blanguage_magic_sealed_product%3A(%22English%22)&sort=display_title%20asc&wt=json&rows=" + str(limit) + "&start=" + str(page * limit)
+
+
+def load_abugames(nothing):
+    sealed_data = []
+
+    skip_tags = [
+        "VHS Video",
+    ]
+
+    page = 0
+    limit = 40
+    while True:
+        print(f"Parsing page {page}")
+        link = get_abu_link(page, limit)
+
+        header = {
+            "User-Agent": "curl/8.6",
+        }
+        r = requests.get(link, headers=header)
+        data = json.loads(r.content)
+        response = data.get("response")
+
+        if len(response.get("docs")) == 0:
+            break
+        page += 1
+
+        for product in response.get("docs"):
+            product_id = product.get("id")
+            name = product.get("display_title")
+
+            if product.get("language_magic_sealed_product")[0] != "English":
+                continue
+
+            if name.endswith("(Loose)"):
+                added = False
+                for i in range(len(sealed_data)):
+                    if name.startswith(sealed_data[i].get("name")):
+                        sealed_data[i]["name"] = name
+                        sealed_data[i]["id"] = product_id
+                        added = True
+                if added:
+                    continue
+
+            if any(tag.lower() in name.lower() for tag in skip_tags):
+                continue
+
+            # some older products have outdated conditions
+            if product.get("condition") != "NM":
+                continue
+
+            sealed_data.extend([
+                {
+                    "name": name,
+                    "id": product_id,
+                }
+            ])
+
+    return sealed_data
+
+
+def load_tnt(nothing):
+    sealed_data = []
+
+    skip_tags = [
+        "Omega Collector",
+        "Silver Stamped",
+        "- Promo",
+        " | Clue Token",
+        "Italian",
+        "Spanish",
+        "Portuguese",
+        "German",
+        "French",
+        "Chinese",
+    ]
+
+    page = 0
+    while True:
+        page += 1
+        link = "https://www.trollandtoad.com/magic-the-gathering/magic-the-gathering-sealed-product/909?page-no=" + str(page)
+        print(f"Parsing page {page}")
+
+        header = {
+            "User-Agent": "curl/8.6",
+        }
+        r = requests.get(link, headers=header)
+        soup = BeautifulSoup(r.content, 'html.parser')
+
+        for div in soup.find_all('div', attrs={"class": "product-info card-body col pl-0 pl-sm-3"}):
+            try:
+                name = div.find('div', attrs={"class": "col-11 prod-title"}).get_text().strip()
+                productURL = div.find('a', attrs={"class": "card-text"}).get("href")
+                print(f"Found {title} {productURL}")
+            except Exception:
+                continue
+
+            if any(tag.lower() in name.lower() for tag in skip_tags):
+                continue
+
+            tntId = productURL.rsplit('/', 1)[-1]
+            print(f"Found {title} {tntId}")
+
+            sealed_data.extend([
+                {
+                    "name": name,
+                    "id": tntId,
+                }
+            ])
+
+        # Exit loop condition, only when the Next field has no future links
+        nextPage = soup.find('div', attrs={"class": "pageText px-1 d-none d-md-block"})
+        if not nextPage:
+            break
+
+    return sealed_data
+
+
 providers_dict = {
     "cardKingdom": {
         "identifier": "cardKingdomId",
@@ -641,6 +763,14 @@ providers_dict = {
     "coolstuffinc": {
         "identifier": "csiId",
         "load_func": load_coolstuffinc,
+    },
+    "abugames": {
+        "identifier": "abuId",
+        "load_func": load_abugames,
+    },
+    "trollandtoad": {
+        "identifier": "tntId",
+        "load_func": load_tnt,
     },
 }
 

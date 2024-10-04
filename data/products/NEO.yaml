@@ -9,11 +9,13 @@ products:
   Kamigawa Neon Dynasty Bundle:
     category: BUNDLE
     identifiers:
+      abuId: '2122845'
       cardKingdomId: '255730'
       cardtraderId: '201797'
       mcmId: '587699'
       scgId: SLD-MTG-BUN-NEO-EN
       tcgplayerProductId: '257566'
+      tntId: '1739455'
     release_date: '2022-02-18'
     subtype: DEFAULT
   Kamigawa Neon Dynasty Bundle Case:
@@ -25,6 +27,7 @@ products:
   Kamigawa Neon Dynasty Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2122846'
       cardKingdomId: '255732'
       cardtraderId: '202593'
       csiId: '327516'
@@ -32,6 +35,7 @@ products:
       miniaturemarketId: '286093'
       scgId: SLD-MTG-BBX-NEOCOLLECTOR-EN
       tcgplayerProductId: '257563'
+      tntId: '1739458'
     release_date: '2022-02-18'
     subtype: COLLECTOR
   Kamigawa Neon Dynasty Collector Booster Box Case:
@@ -40,100 +44,113 @@ products:
       tcgplayerProductId: '257564'
     release_date: '2022-02-18'
     subtype: COLLECTOR
-  Kamigawa Neon Dynasty Collector Booster Omega Pack:
-    category: BOOSTER_PACK
-    identifiers:
-      tcgplayerProductId: '507625'
-    subtype: COLLECTOR
   Kamigawa Neon Dynasty Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2122847'
       cardKingdomId: '255731'
       cardtraderId: '202595'
       csiId: '327517'
       mcmId: '587688'
       scgId: SLD-MTG-PCK-NEOCOLLECTOR-EN
       tcgplayerProductId: '257562'
+      tntId: '1739459'
     release_date: '2022-02-18'
     subtype: COLLECTOR
   Kamigawa Neon Dynasty Draft Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2122844'
       cardKingdomId: '255733'
       cardtraderId: '202573'
       csiId: '327531'
       mcmId: '587698'
       scgId: SLD-MTG-BBX-NEODRAFT-EN
       tcgplayerProductId: '257557'
+      tntId: '1739453'
     release_date: '2022-02-18'
     subtype: DRAFT
   Kamigawa Neon Dynasty Draft Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '257558'
+      tntId: '1739452'
     release_date: '2022-02-18'
     subtype: DRAFT
   Kamigawa Neon Dynasty Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2122849'
       cardKingdomId: '255734'
       cardtraderId: '201802'
       csiId: '327532'
       mcmId: '587686'
       scgId: SLD-MTG-PCK-NEODRAFT-EN
       tcgplayerProductId: '257556'
+      tntId: '1739454'
     release_date: '2022-02-18'
     subtype: DRAFT
   Kamigawa Neon Dynasty Prerelease Pack:
     category: LIMITED
     identifiers:
+      abuId: '2151470'
       cardKingdomId: '255735'
       cardtraderId: '202603'
       mcmId: '609500'
       tcgplayerProductId: '257568'
+      tntId: '1758999'
     release_date: '2022-02-18'
     subtype: PRERELEASE
   Kamigawa Neon Dynasty Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2122843'
       cardKingdomId: '255736'
       cardtraderId: '202574'
       csiId: '327511'
       mcmId: '587697'
       scgId: SLD-MTG-BBX-NEOSET-EN
       tcgplayerProductId: '257560'
+      tntId: '1739456'
     release_date: '2022-02-18'
     subtype: SET
   Kamigawa Neon Dynasty Set Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '257559'
+      tntId: '1746631'
     subtype: SET
   Kamigawa Neon Dynasty Set Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2122848'
       cardKingdomId: '256054'
       cardtraderId: '202594'
       csiId: '328908'
       mcmId: '587687'
       scgId: SLD-MTG-PCK-NEOSET-EN
       tcgplayerProductId: '257561'
+      tntId: '1739457'
     release_date: '2022-02-18'
     subtype: SET
   Kamigawa Neon Dynasty Theme Booster Black:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2122852'
       cardtraderId: '202602'
       mcmId: '587691'
       tcgplayerProductId: '257569'
+      tntId: '1740834'
     release_date: '2022-02-18'
     subtype: THEME
   Kamigawa Neon Dynasty Theme Booster Blue:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2122851'
       cardtraderId: '202600'
       mcmId: '587692'
       tcgplayerProductId: '257571'
+      tntId: '1740835'
     release_date: '2022-02-18'
     subtype: THEME
   Kamigawa Neon Dynasty Theme Booster Box:
@@ -153,25 +170,31 @@ products:
   Kamigawa Neon Dynasty Theme Booster Green:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2122854'
       cardtraderId: '202598'
       mcmId: '587690'
       tcgplayerProductId: '257572'
+      tntId: '1740836'
     release_date: '2022-02-18'
     subtype: THEME
   Kamigawa Neon Dynasty Theme Booster Ninjas:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2122855'
       cardtraderId: '202597'
       mcmId: '587694'
       tcgplayerProductId: '257574'
+      tntId: '1740839'
     release_date: '2022-02-18'
     subtype: THEME
   Kamigawa Neon Dynasty Theme Booster Red:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2122853'
       cardtraderId: '202599'
       mcmId: '587693'
       tcgplayerProductId: '257573'
+      tntId: '1740837'
     release_date: '2022-02-18'
     subtype: THEME
   Kamigawa Neon Dynasty Theme Booster Set of 6:
@@ -183,9 +206,11 @@ products:
   Kamigawa Neon Dynasty Theme Booster White:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2122850'
       cardtraderId: '202601'
       mcmId: '587689'
       tcgplayerProductId: '257570'
+      tntId: '1740838'
     release_date: '2022-02-18'
     subtype: THEME
   Kamigawa Neon Dynasty Welcome Booster:

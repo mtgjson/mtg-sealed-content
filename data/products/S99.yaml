@@ -3,27 +3,32 @@ products:
   Starter 1999 Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1108011'
       cardKingdomId: '240216'
       cardtraderId: '45568'
       csiId: '98213'
       mcmId: '242503'
       scgId: SLD-MTG-BBX-S99-EN
+      tntId: '88829'
     subtype: STARTER
   Starter 1999 Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476943'
       cardKingdomId: '194360'
       cardtraderId: '45567'
       csiId: '98215'
       mcmId: '242502'
       scgId: SLD-MTG-PCK-S99-EN
       tcgplayerProductId: '168359'
+      tntId: '88830'
     subtype: STARTER
   Starter 1999 Demo Game Booster Pack:
     category: BOOSTER_PACK
     identifiers:
       mcmId: '758896'
       tcgplayerProductId: '257332'
+      tntId: '1566257'
     subtype: PROMOTIONAL
   Starter 1999 Starter Game:
     category: MULTI_DECK
@@ -32,15 +37,18 @@ products:
       cardtraderId: '45574'
       mcmId: '242504'
       tcgplayerProductId: '532800'
+      tntId: '132210'
     subtype: TWO_PLAYER_STARTER
   Starter 1999 Starter Game Display:
     category: DECK_BOX
     identifiers:
       cardtraderId: '45575'
+      tntId: '88834'
     subtype: TWO_PLAYER_STARTER
   Starter 1999 Starter Gift Box:
     category: BUNDLE
     identifiers:
+      abuId: '1101168'
       cardKingdomId: '240317'
       cardtraderId: '45577'
       mcmId: '257406'
@@ -48,46 +56,62 @@ products:
   Starter 1999 Theme Deck Blinding Fury:
     category: DECK
     identifiers:
+      abuId: '1101170'
       cardKingdomId: '240211'
       cardtraderId: '45569'
       mcmId: '253761'
       tcgplayerProductId: '500265'
+      tntId: '114237'
     subtype: THEME
   Starter 1999 Theme Deck Deadly Instinct:
     category: DECK
     identifiers:
+      abuId: '1101171'
       cardKingdomId: '240212'
       cardtraderId: '45570'
       mcmId: '253762'
       tcgplayerProductId: '500269'
+      tntId: '114258'
     subtype: THEME
   Starter 1999 Theme Deck Display:
     category: DECK_BOX
     identifiers:
       cardtraderId: '45576'
       mcmId: '263932'
+      tntId: '114311'
     subtype: THEME
   Starter 1999 Theme Deck Goblin Assault:
     category: DECK
     identifiers:
+      abuId: '1101172'
       cardKingdomId: '240213'
       cardtraderId: '45571'
       mcmId: '253763'
       tcgplayerProductId: '500268'
+      tntId: '114259'
     subtype: THEME
   Starter 1999 Theme Deck Impaler:
     category: DECK
     identifiers:
+      abuId: '1101173'
       cardKingdomId: '240214'
       cardtraderId: '45572'
       mcmId: '253764'
       tcgplayerProductId: '500267'
+      tntId: '114280'
     subtype: THEME
   Starter 1999 Theme Deck Time Curse:
     category: DECK
     identifiers:
+      abuId: '1101161'
       cardKingdomId: '240215'
       cardtraderId: '45573'
       mcmId: '253765'
       tcgplayerProductId: '500266'
+      tntId: '114312'
+    subtype: THEME
+  Starter 1999 Theme Decks Set of 5:
+    category: SUBSET
+    identifiers:
+      abuId: '1101174'
     subtype: THEME

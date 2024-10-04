@@ -9,12 +9,14 @@ products:
   Dragons Maze Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1100403'
       cardKingdomId: '189559'
       cardtraderId: '47934'
       csiId: '183182'
       mcmId: '261117'
       scgId: SLD-MTG-BBX-DGM-EN
       tcgplayerProductId: '67751'
+      tntId: '929151'
     release_date: '2013-05-03'
     subtype: DRAFT
   Dragons Maze Booster Box Case:
@@ -25,77 +27,93 @@ products:
   Dragons Maze Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476873'
       cardKingdomId: '189560'
       cardtraderId: '47932'
       csiId: '183185'
       mcmId: '261116'
       scgId: SLD-MTG-PCK-DGM-EN
       tcgplayerProductId: '67752'
+      tntId: '929152'
     release_date: '2013-05-03'
     subtype: DRAFT
   Dragons Maze Event Deck Strength of Selesnya:
     category: DECK
     identifiers:
+      abuId: '1100407'
       cardKingdomId: '189958'
       cardtraderId: '47948'
       mcmId: '262924'
       tcgplayerProductId: '105047'
+      tntId: '1026695'
     subtype: EVENT
   Dragons Maze Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1100412'
       cardKingdomId: '189561'
       cardtraderId: '47941'
       csiId: '183193'
       mcmId: '261118'
       scgId: SLD-MTG-BUN-DGM-EN
       tcgplayerProductId: '67754'
+      tntId: '929157'
     subtype: FAT_PACK
   Dragons Maze Intro Pack Azorius Authority:
     category: DECK
     identifiers:
+      abuId: '1100413'
       cardKingdomId: '189628'
       cardtraderId: '47944'
       csiId: '192760'
       mcmId: '261681'
       tcgplayerProductId: '68028'
+      tntId: '1026690'
     subtype: INTRO
   Dragons Maze Intro Pack Display:
     category: DECK_BOX
     identifiers:
       cardtraderId: '47959'
       mcmId: '261687'
+      tntId: '929153'
     subtype: INTRO
   Dragons Maze Intro Pack Gruul Siege:
     category: DECK
     identifiers:
+      abuId: '1100415'
       cardKingdomId: '189631'
       cardtraderId: '47942'
       csiId: '192763'
       mcmId: '261684'
       tcgplayerProductId: '68031'
+      tntId: '1026693'
     subtype: INTRO
   Dragons Maze Intro Pack Orzhov Power:
     category: DECK
     identifiers:
+      abuId: '1100416'
       cardKingdomId: '189629'
       cardtraderId: '47945'
       csiId: '192761'
       mcmId: '261682'
       tcgplayerProductId: '68029'
+      tntId: '1026691'
     subtype: INTRO
   Dragons Maze Intro Pack Rakdos Revelry:
     category: DECK
     identifiers:
+      abuId: '1100418'
       cardKingdomId: '189630'
       cardtraderId: '47943'
       csiId: '192764'
       mcmId: '261683'
       tcgplayerProductId: '68030'
+      tntId: '1026692'
     subtype: INTRO
   Dragons Maze Intro Pack Set of 5:
     category: SUBSET
     identifiers:
+      abuId: '1100420'
       cardtraderId: '47960'
       mcmId: '261686'
       tcgplayerProductId: '67753'
@@ -103,11 +121,13 @@ products:
   Dragons Maze Intro Pack Simic Domination:
     category: DECK
     identifiers:
+      abuId: '1100409'
       cardKingdomId: '189632'
       cardtraderId: '47946'
       csiId: '192762'
       mcmId: '261685'
       tcgplayerProductId: '68032'
+      tntId: '1026694'
     subtype: INTRO
   Dragons Maze Prerelease Guild Kit 10 Pack:
     category: LIMITED_CASE

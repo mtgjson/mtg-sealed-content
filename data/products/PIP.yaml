@@ -3,12 +3,14 @@ products:
   Fallout Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2470260'
       cardKingdomId: '291468'
       cardtraderId: '265023'
       csiId: '374362'
       mcmId: '745340'
       scgId: SLD-MTG-BBX-PIPCOLLECTOR-EN
       tcgplayerProductId: '523185'
+      tntId: '1801794'
     release_date: '2024-03-08'
     subtype: COLLECTOR
   Fallout Collector Booster Box Case:
@@ -20,12 +22,14 @@ products:
   Fallout Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2470261'
       cardKingdomId: '291469'
       cardtraderId: '265024'
       csiId: '374363'
       mcmId: '745339'
       scgId: SLD-MTG-PCK-PIPCOLLECTOR-EN
       tcgplayerProductId: '523180'
+      tntId: '1801795'
     release_date: '2024-03-08'
     subtype: COLLECTOR
   Fallout Collector Booster Sample Pack:
@@ -33,6 +37,7 @@ products:
     identifiers:
       cardtraderId: '265025'
       mcmId: '745338'
+      tcgplayerProductId: '579919'
     release_date: '2023-11-14'
     subtype: PROMOTIONAL
   Fallout Commander Deck Display:
@@ -44,39 +49,46 @@ products:
   Fallout Commander Deck Hail Caesar:
     category: DECK
     identifiers:
+      abuId: '2470262'
       cardKingdomId: '291464'
       cardtraderId: '265027'
       csiId: '374366'
       mcmId: '745333'
       scgId: SLD-MTG-MLT-PIP-EN-CAESAR
       tcgplayerProductId: '522903'
+      tntId: '1801789'
     release_date: '2024-03-08'
     subtype: COMMANDER
   Fallout Commander Deck Mutant Menace:
     category: DECK
     identifiers:
+      abuId: '2470264'
       cardKingdomId: '291465'
       cardtraderId: '265029'
       csiId: '374365'
       mcmId: '745334'
       scgId: SLD-MTG-MLT-PIP-EN-MUTANT
       tcgplayerProductId: '522902'
+      tntId: '1801790'
     release_date: '2024-03-08'
     subtype: COMMANDER
   Fallout Commander Deck Science:
     category: DECK
     identifiers:
+      abuId: '2470263'
       cardKingdomId: '291466'
       cardtraderId: '265028'
       csiId: '374367'
       mcmId: '745335'
       scgId: SLD-MTG-MLT-PIP-EN-SCIENCE
       tcgplayerProductId: '522905'
+      tntId: '1801791'
     release_date: '2024-03-08'
     subtype: COMMANDER
   Fallout Commander Deck Scrappy Survivors:
     category: DECK
     identifiers:
+      abuId: '2470355'
       cardKingdomId: '291467'
       cardtraderId: '265026'
       csiId: '374364'
@@ -84,6 +96,7 @@ products:
       miniaturemarketId: '296507'
       scgId: SLD-MTG-MLT-PIP-EN-SCRAPPY
       tcgplayerProductId: '522899'
+      tntId: '1801792'
     release_date: '2024-03-08'
     subtype: COMMANDER
   Fallout Commander Decks Set of Four:
@@ -95,5 +108,6 @@ products:
       mcmId: '745337'
       miniaturemarketId: '296505'
       scgId: SLD-MTG-MLT-PIP-EN-SET4
+      tntId: '1801793'
     release_date: '2023-11-14'
     subtype: COMMANDER

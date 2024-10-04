@@ -3,12 +3,14 @@ products:
   Future Sight Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1107862'
       cardKingdomId: '122307'
       cardtraderId: '47194'
       csiId: '97626'
       mcmId: '210126'
       scgId: SLD-MTG-BBX-FUT-EN
       tcgplayerProductId: '27280'
+      tntId: '144505'
     subtype: DRAFT
   Future Sight Booster Box Case:
     category: BOOSTER_CASE
@@ -17,12 +19,14 @@ products:
   Future Sight Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476880'
       cardKingdomId: '122308'
       cardtraderId: '47193'
       csiId: '97637'
       mcmId: '210060'
       scgId: SLD-MTG-PCK-FUT-EN
       tcgplayerProductId: '27342'
+      tntId: '144498'
     subtype: DRAFT
   Future Sight Fat Pack:
     category: BUNDLE
@@ -33,6 +37,7 @@ products:
       mcmId: '210166'
       scgId: SLD-MTG-BUN-FUT-EN
       tcgplayerProductId: '78312'
+      tntId: '155241'
     subtype: FAT_PACK
   Future Sight Theme Deck Display:
     category: DECK_BOX
@@ -40,36 +45,45 @@ products:
       cardtraderId: '47200'
       mcmId: '210214'
       tcgplayerProductId: '106356'
+      tntId: '144504'
     subtype: THEME
   Future Sight Theme Deck Fate Blaster:
     category: DECK
     identifiers:
+      abuId: '1100546'
       cardKingdomId: '122698'
       cardtraderId: '47196'
       mcmId: '253653'
       tcgplayerProductId: '106346'
+      tntId: '144499'
     subtype: THEME
   Future Sight Theme Deck Future Shock:
     category: DECK
     identifiers:
+      abuId: '1100547'
       cardKingdomId: '122699'
       cardtraderId: '47197'
       mcmId: '253654'
       tcgplayerProductId: '106347'
+      tntId: '144500'
     subtype: THEME
   Future Sight Theme Deck Rebels Unite:
     category: DECK
     identifiers:
+      abuId: '1100548'
       cardKingdomId: '122700'
       cardtraderId: '47198'
       mcmId: '253655'
       tcgplayerProductId: '106348'
+      tntId: '144501'
     subtype: THEME
   Future Sight Theme Deck Suspended Sentence:
     category: DECK
     identifiers:
+      abuId: '1100550'
       cardKingdomId: '122701'
       cardtraderId: '47199'
       mcmId: '253656'
       tcgplayerProductId: '106349'
+      tntId: '144502'
     subtype: THEME

@@ -1,5 +1,6 @@
 code: wc03
 products:
+  2003 World Championship Deck Box: []
   2003 World Championship Deck Daniel Zink:
     card_count: 75
     deck:
@@ -19,4 +20,18 @@ products:
     card_count: 75
     deck:
     - name: Wolfgang Eder - Goblin Bidding
+      set: wc03
+  2003 World Championship Decks Set of 4:
+    sealed:
+    - count: 1
+      name: 2003 World Championship Deck Daniel Zink
+      set: wc03
+    - count: 1
+      name: 2003 World Championship Deck Dave Humpherys
+      set: wc03
+    - count: 1
+      name: 2003 World Championship Deck Peer Kroger
+      set: wc03
+    - count: 1
+      name: 2003 World Championship Deck Wolfgang Eder
       set: wc03

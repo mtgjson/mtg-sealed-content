@@ -3,12 +3,14 @@ products:
   Time Spiral Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1101227'
       cardKingdomId: '121036'
       cardtraderId: '47155'
       csiId: '98230'
       mcmId: '210121'
       scgId: SLD-MTG-BBX-TSP-EN
       tcgplayerProductId: '27310'
+      tntId: '141923'
     subtype: DRAFT
   Time Spiral Booster Box Case:
     category: BOOSTER_CASE
@@ -17,83 +19,102 @@ products:
   Time Spiral Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476951'
       cardKingdomId: '121037'
       cardtraderId: '47154'
       csiId: '98251'
       mcmId: '210055'
       scgId: SLD-MTG-PCK-TSP-EN
       tcgplayerProductId: '27372'
+      tntId: '141924'
     subtype: DRAFT
   Time Spiral Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1101229'
       cardKingdomId: '121043'
       cardtraderId: '47156'
       csiId: '98245'
       mcmId: '210168'
       scgId: SLD-MTG-BUN-TSP-EN
       tcgplayerProductId: '78332'
+      tntId: '155325'
     subtype: FAT_PACK
   Time Spiral Gift Box:
     category: BUNDLE
     identifiers:
+      abuId: '1101228'
       cardtraderId: '47162'
       mcmId: '200021'
     subtype: GIFT_BUNDLE
   Time Spiral Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1101237'
       cardtraderId: '47163'
       mcmId: '210219'
+      tntId: '141930'
     subtype: THEME
   Time Spiral Theme Deck Fun With Fungus:
     category: DECK
     identifiers:
+      abuId: '1101230'
       cardKingdomId: '121453'
       cardtraderId: '47159'
       mcmId: '253661'
       tcgplayerProductId: '125558'
+      tntId: '141927'
     subtype: THEME
   Time Spiral Theme Deck Hopes Crusaders:
     category: DECK
     identifiers:
+      abuId: '1101231'
       cardKingdomId: '121454'
       cardtraderId: '47158'
       mcmId: '253662'
       tcgplayerProductId: '125557'
+      tntId: '141928'
     subtype: THEME
   Time Spiral Theme Deck Reality Fracture:
     category: DECK
     identifiers:
+      abuId: '1101232'
       cardKingdomId: '121455'
       cardtraderId: '47160'
       mcmId: '253663'
       tcgplayerProductId: '125559'
+      tntId: '141926'
     subtype: THEME
   Time Spiral Theme Deck Sliver Evolution:
     category: DECK
     identifiers:
+      abuId: '1101236'
       cardKingdomId: '121456'
       cardtraderId: '47157'
       mcmId: '253664'
       tcgplayerProductId: '125560'
+      tntId: '141925'
     subtype: THEME
   Time Spiral Tournament Pack:
     category: LIMITED
     identifiers:
+      abuId: '1108018'
       cardKingdomId: '121038'
       cardtraderId: '47161'
       csiId: '98237'
       mcmId: '248487'
       scgId: SLD-MTG-PCK-TSPTOURNAMENT-EN
       tcgplayerProductId: '118877'
+      tntId: '141934'
     subtype: TOURNAMENT
   Time Spiral Tournament Pack Display:
     category: LIMITED_CASE
     identifiers:
+      abuId: '1108019'
       cardKingdomId: '240228'
       cardtraderId: '47164'
       mcmId: '253863'
       scgId: SLD-MTG-BBX-TSPTOURNAMENT-EN
       tcgplayerProductId: '453053'
+      tntId: '141933'
     subtype: TOURNAMENT

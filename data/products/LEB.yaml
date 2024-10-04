@@ -3,30 +3,37 @@ products:
   Beta Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1107777'
       cardKingdomId: '228581'
       cardtraderId: '39354'
       mcmId: '210068'
       tcgplayerProductId: '27266'
+      tntId: '80110'
     subtype: DEFAULT
   Beta Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476853'
       cardKingdomId: '228582'
       cardtraderId: '39353'
       mcmId: '210002'
       tcgplayerProductId: '27328'
+      tntId: '137103'
     subtype: DEFAULT
   Beta Starter Deck:
     category: LIMITED
     identifiers:
+      abuId: '1107778'
       cardtraderId: '39355'
       mcmId: '248490'
       tcgplayerProductId: '137017'
+      tntId: '80116'
     subtype: STARTER
   Beta Starter Deck Display:
     category: LIMITED_CASE
     identifiers:
       cardtraderId: '39356'
       mcmId: '272017'
+      tntId: '119364'
     release_date: '2007-01-01'
     subtype: STARTER

@@ -3,12 +3,14 @@ products:
   Apocalypse Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1100106'
       cardKingdomId: '1309'
       cardtraderId: '45773'
       csiId: '97340'
       mcmId: '210101'
       scgId: SLD-MTG-BBX-APC-EN
       tcgplayerProductId: '27264'
+      tntId: '92409'
     subtype: DRAFT
   Apocalypse Booster Box Case:
     category: BOOSTER_CASE
@@ -17,58 +19,76 @@ products:
   Apocalypse Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476848'
       cardKingdomId: '1308'
       cardtraderId: '45772'
       csiId: '97342'
       mcmId: '210035'
       scgId: SLD-MTG-PCK-APC-EN
       tcgplayerProductId: '27326'
+      tntId: '92410'
     subtype: DRAFT
   Apocalypse Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1107760'
       cardKingdomId: '228576'
       cardtraderId: '45774'
       csiId: '218274'
       mcmId: '210186'
       scgId: SLD-MTG-BUN-APC-EN
       tcgplayerProductId: '78303'
+      tntId: '155338'
     subtype: FAT_PACK
   Apocalypse Theme Deck Burial:
     category: DECK
     identifiers:
+      abuId: '1100107'
       cardKingdomId: '1310'
       cardtraderId: '45775'
       mcmId: '253732'
       tcgplayerProductId: '208256'
+      tntId: '92242'
     subtype: THEME
   Apocalypse Theme Deck Display:
     category: DECK_BOX
     identifiers:
       cardtraderId: '45779'
       mcmId: '210226'
+      tntId: '92413'
     subtype: THEME
   Apocalypse Theme Deck Pandemonium:
     category: DECK
     identifiers:
+      abuId: '1100109'
       cardKingdomId: '1311'
       cardtraderId: '45776'
       mcmId: '253733'
       tcgplayerProductId: '208254'
+      tntId: '92243'
     subtype: THEME
   Apocalypse Theme Deck Swoop:
     category: DECK
     identifiers:
+      abuId: '1100112'
       cardKingdomId: '1312'
       cardtraderId: '45777'
       mcmId: '253734'
       tcgplayerProductId: '208257'
+      tntId: '92244'
     subtype: THEME
   Apocalypse Theme Deck Whirlpool:
     category: DECK
     identifiers:
+      abuId: '1100113'
       cardKingdomId: '1313'
       cardtraderId: '45778'
       mcmId: '253735'
       tcgplayerProductId: '208255'
+      tntId: '92245'
+    subtype: THEME
+  Apocalypse Theme Decks Set of 4:
+    category: SUBSET
+    identifiers:
+      abuId: '1100108'
     subtype: THEME

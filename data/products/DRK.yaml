@@ -3,22 +3,26 @@ products:
   The Dark Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1101192'
       cardKingdomId: '210333'
       cardtraderId: '43476'
       csiId: '97558'
       mcmId: '210074'
       scgId: SLD-MTG-BBX-DRK-EN
       tcgplayerProductId: '27309'
+      tntId: '117074'
     subtype: DEFAULT
   The Dark Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476949'
       cardKingdomId: '1464'
       cardtraderId: '43475'
       csiId: '97561'
       mcmId: '210008'
       scgId: SLD-MTG-PCK-DRK-EN
       tcgplayerProductId: '27371'
+      tntId: '117075'
     subtype: DEFAULT
   The Dark Italian Booster Box:
     category: BOOSTER_BOX
@@ -30,6 +34,7 @@ products:
   The Dark Italian Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1101191'
       cardtraderId: '43508'
       mcmId: '300137'
     language: Italian

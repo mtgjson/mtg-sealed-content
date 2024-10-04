@@ -23,11 +23,15 @@ products:
   Starter 2000 Two Player Starter Game:
     category: MULTI_DECK
     identifiers:
+      abuId: '1101169'
       cardKingdomId: '240217'
       cardtraderId: '45732'
       mcmId: '242505'
+      tntId: '113692'
     subtype: TWO_PLAYER_STARTER
   Starter 2000 Two Player Starter Game Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      abuId: '1101175'
+      tntId: '113691'
     subtype: TWO_PLAYER_STARTER

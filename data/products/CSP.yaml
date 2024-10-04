@@ -3,12 +3,14 @@ products:
   Coldsnap Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1107818'
       cardKingdomId: '120632'
       cardtraderId: '47117'
       csiId: '97436'
       mcmId: '210117'
       scgId: SLD-MTG-BBX-CSP-EN
       tcgplayerProductId: '27271'
+      tntId: '141889'
     subtype: DRAFT
   Coldsnap Booster Box Case:
     category: BOOSTER_CASE
@@ -17,58 +19,72 @@ products:
   Coldsnap Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476861'
       cardKingdomId: '120633'
       cardtraderId: '47116'
       csiId: '97446'
       mcmId: '210051'
       scgId: SLD-MTG-PCK-CSP-EN
       tcgplayerProductId: '27333'
+      tntId: '141888'
     subtype: DRAFT
   Coldsnap Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1107819'
       cardKingdomId: '120635'
       cardtraderId: '47118'
       csiId: '97447'
       mcmId: '210169'
       scgId: SLD-MTG-BUN-CSP-EN
       tcgplayerProductId: '78306'
+      tntId: '141892'
     subtype: FAT_PACK
   Coldsnap Theme Deck Aurochs Stampede:
     category: DECK
     identifiers:
+      abuId: '1107817'
       cardKingdomId: '121021'
       cardtraderId: '47120'
       mcmId: '253665'
       tcgplayerProductId: '72029'
+      tntId: '141897'
     subtype: THEME
   Coldsnap Theme Deck Beyond the Grave:
     category: DECK
     identifiers:
+      abuId: '1107823'
       cardKingdomId: '121022'
       cardtraderId: '47122'
       mcmId: '253666'
       tcgplayerProductId: '72030'
+      tntId: '141893'
     subtype: THEME
   Coldsnap Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1476862'
       cardtraderId: '47123'
       mcmId: '210211'
+      tntId: '141896'
     subtype: THEME
   Coldsnap Theme Deck Kjeldoran Cunning:
     category: DECK
     identifiers:
+      abuId: '1107824'
       cardKingdomId: '121023'
       cardtraderId: '47121'
       mcmId: '253667'
       tcgplayerProductId: '72031'
+      tntId: '141894'
     subtype: THEME
   Coldsnap Theme Deck Snowscape:
     category: DECK
     identifiers:
+      abuId: '1100315'
       cardKingdomId: '121024'
       cardtraderId: '47119'
       mcmId: '253668'
       tcgplayerProductId: '72032'
+      tntId: '141895'
     subtype: THEME

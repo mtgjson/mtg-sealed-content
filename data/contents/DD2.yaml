@@ -13,7 +13,11 @@ products:
     deck:
     - name: Chandra
       set: dd2
-  Duel Deck Jace vs Chandra Display: []
+  Duel Deck Jace vs Chandra Display:
+    sealed:
+    - count: 6
+      name: Duel Deck Jace vs Chandra
+      set: dd2
   Duel Deck Jace vs Chandra Jace Deck:
     card_count: 60
     deck:

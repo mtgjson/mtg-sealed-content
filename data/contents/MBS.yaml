@@ -1,31 +1,11 @@
 code: mbs
 products:
-  Mirrodin Besieged 6 Card Booster Pack:
-    card_count: 6
-    pack:
-    - code: six
-      set: mbs
-  Mirrodin Besieged All 4 Intro Packs:
-    sealed:
-    - count: 1
-      name: Mirrodin Besieged Intro Pack Battle Cries
-      set: mbs
-    - count: 1
-      name: Mirrodin Besieged Intro Pack Doom Inevitable
-      set: mbs
-    - count: 1
-      name: Mirrodin Besieged Intro Pack Mirromancy
-      set: mbs
-    - count: 1
-      name: Mirrodin Besieged Intro Pack Path of Blight
-      set: mbs
   Mirrodin Besieged Booster Box:
     sealed:
     - count: 36
       name: Mirrodin Besieged Booster Pack
       set: mbs
-  Mirrodin Besieged Booster Box Case: []
-  Mirrodin Besieged Booster Box Case 6 Boxes:
+  Mirrodin Besieged Booster Box Case:
     sealed:
     - count: 6
       name: Mirrodin Besieged Booster Box
@@ -57,7 +37,14 @@ products:
     deck:
     - name: Into the Breach
       set: mbs
-  Mirrodin Besieged Event Decks Set of 2: []
+  Mirrodin Besieged Event Decks Set of 2:
+    sealed:
+    - count: 1
+      name: Mirrodin Besieged Event Deck Infect and Defile
+      set: mbs
+    - count: 1
+      name: Mirrodin Besieged Event Deck Into the Breach
+      set: mbs
   Mirrodin Besieged Faction Booster Box: []
   Mirrodin Besieged Fat Pack: []
   Mirrodin Besieged Intro Pack Battle Cries:
@@ -96,8 +83,25 @@ products:
     - count: 1
       name: Mirrodin Besieged Booster Pack
       set: mbs
-  Mirrodin Besieged Intro Packs Set of 4: []
+  Mirrodin Besieged Intro Packs Set of 4:
+    sealed:
+    - count: 1
+      name: Mirrodin Besieged Intro Pack Battle Cries
+      set: mbs
+    - count: 1
+      name: Mirrodin Besieged Intro Pack Doom Inevitable
+      set: mbs
+    - count: 1
+      name: Mirrodin Besieged Intro Pack Mirromancy
+      set: mbs
+    - count: 1
+      name: Mirrodin Besieged Intro Pack Path of Blight
+      set: mbs
   Mirrodin Besieged Mirran Faction Booster Pack: []
   Mirrodin Besieged Phyrexian Faction Booster Pack: []
   Mirrodin Besieged Prerelease Box: []
-  Mirrodin Besieged Six Card Booster Pack: []
+  Mirrodin Besieged Six Card Booster Pack:
+    card_count: 6
+    pack:
+    - code: six
+      set: mbs

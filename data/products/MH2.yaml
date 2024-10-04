@@ -8,23 +8,27 @@ products:
   Modern Horizons 2 Bundle:
     category: BUNDLE
     identifiers:
+      abuId: '2040141'
       cardKingdomId: '245995'
       cardtraderId: '155609'
       csiId: '315773'
       mcmId: '562094'
       scgId: SLD-MTG-BUN-MH2-EN
       tcgplayerProductId: '238649'
+      tntId: '1711981'
     release_date: '2021-06-18'
     subtype: DEFAULT
   Modern Horizons 2 Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2040140'
       cardKingdomId: '245999'
       cardtraderId: '155604'
       csiId: '315772'
       mcmId: '562095'
       scgId: SLD-MTG-BBX-MH2COLLECTOR-EN
       tcgplayerProductId: '236348'
+      tntId: '1711979'
     release_date: '2021-06-18'
     subtype: COLLECTOR
   Modern Horizons 2 Collector Booster Box Case:
@@ -40,23 +44,27 @@ products:
   Modern Horizons 2 Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2040144'
       cardKingdomId: '245996'
       cardtraderId: '155608'
       csiId: '315821'
       mcmId: '562099'
       scgId: SLD-MTG-PCK-MH2COLLECTOR-EN
       tcgplayerProductId: '236349'
+      tntId: '1711980'
     release_date: '2021-06-18'
     subtype: COLLECTOR
   Modern Horizons 2 Draft Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2040139'
       cardKingdomId: '246000'
       cardtraderId: '155602'
       csiId: '315771'
       mcmId: '562097'
       scgId: SLD-MTG-BBX-MH2DRAFT-EN
       tcgplayerProductId: '236354'
+      tntId: '1711975'
     release_date: '2021-06-18'
     subtype: DRAFT
   Modern Horizons 2 Draft Booster Box Case:
@@ -68,17 +76,20 @@ products:
   Modern Horizons 2 Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2040143'
       cardKingdomId: '245997'
       cardtraderId: '155607'
       csiId: '315819'
       mcmId: '562100'
       scgId: SLD-MTG-PCK-MH2DRAFT-EN
       tcgplayerProductId: '236356'
+      tntId: '1711976'
     release_date: '2021-06-18'
     subtype: DRAFT
   Modern Horizons 2 Prerelease Pack:
     category: LIMITED
     identifiers:
+      abuId: '2031252'
       cardtraderId: '155605'
       mcmId: '567808'
       tcgplayerProductId: '238648'
@@ -87,12 +98,14 @@ products:
   Modern Horizons 2 Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2031251'
       cardKingdomId: '246001'
       cardtraderId: '155603'
       csiId: '315768'
       mcmId: '562096'
       scgId: SLD-MTG-BBX-MH2SET-EN
       tcgplayerProductId: '236353'
+      tntId: '1711977'
     release_date: '2021-06-18'
     subtype: SET
   Modern Horizons 2 Set Booster Box Case:
@@ -104,14 +117,17 @@ products:
     category: BOOSTER_PACK
     identifiers:
       tcgplayerProductId: '450089'
+      tntId: '1740502'
     subtype: SET
   Modern Horizons 2 Set Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2040142'
       cardKingdomId: '245998'
       cardtraderId: '155606'
       csiId: '315820'
       mcmId: '562098'
       tcgplayerProductId: '236351'
+      tntId: '1711978'
     release_date: '2021-06-18'
     subtype: SET

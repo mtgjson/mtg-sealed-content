@@ -4,53 +4,63 @@ products:
     category: MULTI_DECK
     identifiers:
       tcgplayerProductId: '217689'
+      tntId: '1643172'
     subtype: BATTLE
   Amonkhet Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1476839'
       cardKingdomId: '211617'
       cardtraderId: '48518'
       csiId: '232533'
       mcmId: '292573'
       scgId: SLD-MTG-BBX-AKH-EN
       tcgplayerProductId: '127174'
+      tntId: '1102277'
     release_date: '2017-04-28'
     subtype: DRAFT
   Amonkhet Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '127177'
+      tntId: '1102278'
     release_date: '2017-04-28'
     subtype: DRAFT
   Amonkhet Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1796161'
       cardKingdomId: '211618'
       cardtraderId: '48517'
       csiId: '232537'
       mcmId: '292574'
       scgId: SLD-MTG-PCK-AKH-EN
       tcgplayerProductId: '127173'
+      tntId: '1102276'
     release_date: '2017-04-28'
     subtype: DRAFT
   Amonkhet Bundle:
     category: BUNDLE
     identifiers:
+      abuId: '1476841'
       cardKingdomId: '211629'
       cardtraderId: '48527'
       csiId: '238913'
       mcmId: '292572'
       scgId: SLD-MTG-BUN-AKH-EN
       tcgplayerProductId: '127175'
+      tntId: '1114736'
     release_date: '2017-04-28'
     subtype: DEFAULT
   Amonkhet Deck Builders Toolkit:
     category: KIT
     identifiers:
+      abuId: '1476846'
       cardKingdomId: '211677'
       cardtraderId: '48531'
       mcmId: '297299'
       tcgplayerProductId: '127176'
+      tntId: '1102275'
     release_date: '2017-04-19'
     subtype: DECK_BUILDERS_TOOLKIT
   Amonkhet Land Station:
@@ -60,20 +70,24 @@ products:
     subtype: LAND_STATION
   Amonkhet Planeswalker Deck Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      tntId: '1115618'
     subtype: PLANESWALKER
   Amonkhet Planeswalker Deck Gideon:
     category: DECK
     identifiers:
+      abuId: '1476842'
       cardKingdomId: '211623'
       cardtraderId: '48528'
       csiId: '232568'
       mcmId: '295697'
       tcgplayerProductId: '127532'
+      tntId: '1102273'
     subtype: PLANESWALKER
   Amonkhet Planeswalker Deck Liliana:
     category: DECK
     identifiers:
+      abuId: '1476843'
       cardKingdomId: '211624'
       cardtraderId: '48529'
       mcmId: '295698'
@@ -87,10 +101,12 @@ products:
   Amonkhet Prerelease Pack:
     category: LIMITED
     identifiers:
+      abuId: '1476845'
       cardtraderId: '48530'
       csiId: '238920'
       mcmId: '295696'
       tcgplayerProductId: '127534'
+      tntId: '1680197'
     subtype: PRERELEASE
   Amonkhet Standard Showdown Booster:
     category: BOOSTER_PACK

@@ -3,12 +3,14 @@ products:
   Planar Chaos Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1107968'
       cardKingdomId: '121870'
       cardtraderId: '47177'
       csiId: '98027'
       mcmId: '210123'
       scgId: SLD-MTG-BBX-PLC-EN
       tcgplayerProductId: '27296'
+      tntId: '141922'
     subtype: DRAFT
   Planar Chaos Booster Box Case:
     category: BOOSTER_CASE
@@ -17,58 +19,76 @@ products:
   Planar Chaos Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476920'
       cardKingdomId: '121871'
       cardtraderId: '47176'
       csiId: '98038'
       mcmId: '210057'
       scgId: SLD-MTG-PCK-PLC-EN
       tcgplayerProductId: '27358'
+      tntId: '141913'
     subtype: DRAFT
   Planar Chaos Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1107967'
       cardKingdomId: '121873'
       cardtraderId: '47178'
       csiId: '98039'
       mcmId: '210167'
       scgId: SLD-MTG-BUN-PLC-EN
       tcgplayerProductId: '78325'
+      tntId: '155130'
     subtype: FAT_PACK
   Planar Chaos Theme Deck Display:
     category: DECK_BOX
     identifiers:
       cardtraderId: '47183'
       mcmId: '210217'
+      tntId: '141919'
     subtype: THEME
   Planar Chaos Theme Deck Endless March:
     category: DECK
     identifiers:
+      abuId: '1100978'
       cardKingdomId: '122087'
       cardtraderId: '47180'
       mcmId: '253657'
       tcgplayerProductId: '129677'
+      tntId: '141917'
     subtype: THEME
   Planar Chaos Theme Deck Ixidors Legacy:
     category: DECK
     identifiers:
+      abuId: '1100955'
       cardKingdomId: '122088'
       cardtraderId: '47181'
       mcmId: '253658'
       tcgplayerProductId: '129678'
+      tntId: '141916'
     subtype: THEME
   Planar Chaos Theme Deck Rituals of Rebirth:
     category: DECK
     identifiers:
+      abuId: '1100980'
       cardKingdomId: '122089'
       cardtraderId: '47179'
       mcmId: '253659'
       tcgplayerProductId: '129679'
+      tntId: '141914'
     subtype: THEME
   Planar Chaos Theme Deck Unraveling Mind:
     category: DECK
     identifiers:
+      abuId: '1100982'
       cardKingdomId: '122090'
       cardtraderId: '47182'
       mcmId: '253660'
       tcgplayerProductId: '129680'
+      tntId: '141915'
+    subtype: THEME
+  Planar Chaos Theme Decks Set of 4:
+    category: SUBSET
+    identifiers:
+      abuId: '1100983'
     subtype: THEME

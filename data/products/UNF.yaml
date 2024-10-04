@@ -16,12 +16,14 @@ products:
   Unfinity Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2243050'
       cardKingdomId: '255553'
       cardtraderId: '201038'
       csiId: '327729'
       mcmId: '586736'
       scgId: SLD-MTG-BBX-UNFCOLLECTOR-EN
       tcgplayerProductId: '275406'
+      tntId: '1740845'
     release_date: '2021-11-30'
     subtype: COLLECTOR
   Unfinity Collector Booster Box Case:
@@ -33,6 +35,7 @@ products:
   Unfinity Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2243052'
       cardKingdomId: '255567'
       cardtraderId: '201040'
       csiId: '327730'
@@ -40,17 +43,20 @@ products:
       miniaturemarketId: '282927'
       scgId: SLD-MTG-PCK-UNFCOLLECTOR-EN
       tcgplayerProductId: '275409'
+      tntId: '1740846'
     release_date: '2022-10-07'
     subtype: COLLECTOR
   Unfinity Draft Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2243049'
       cardKingdomId: '255568'
       cardtraderId: '201037'
       csiId: '327727'
       mcmId: '586738'
       scgId: SLD-MTG-BBX-UNFDRAFT-EN
       tcgplayerProductId: '275404'
+      tntId: '1740843'
     release_date: '2021-11-30'
     subtype: DRAFT
   Unfinity Draft Booster Box Case:
@@ -62,6 +68,7 @@ products:
   Unfinity Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2243051'
       cardKingdomId: '265871'
       cardtraderId: '201039'
       csiId: '327728'
@@ -69,5 +76,6 @@ products:
       miniaturemarketId: '282925'
       scgId: SLD-MTG-PCK-UNFDRAFT-EN
       tcgplayerProductId: '275408'
+      tntId: '1740844'
     release_date: '2022-10-07'
     subtype: DRAFT

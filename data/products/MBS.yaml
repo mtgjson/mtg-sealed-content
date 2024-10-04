@@ -3,12 +3,14 @@ products:
   Mirrodin Besieged Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1107949'
       cardKingdomId: '133026'
       cardtraderId: '47566'
       csiId: '97892'
       mcmId: '245274'
       scgId: SLD-MTG-BBX-MBS-EN
       tcgplayerProductId: '39109'
+      tntId: '299371'
     subtype: DRAFT
   Mirrodin Besieged Booster Box Case:
     category: BOOSTER_CASE
@@ -18,42 +20,51 @@ products:
   Mirrodin Besieged Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476908'
       cardKingdomId: '133027'
       cardtraderId: '47562'
       csiId: '97911'
       mcmId: '245273'
       scgId: SLD-MTG-PCK-MBS-EN
       tcgplayerProductId: '39108'
+      tntId: '299372'
     subtype: DRAFT
   Mirrodin Besieged Event Deck Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      tntId: '306948'
     subtype: EVENT
   Mirrodin Besieged Event Deck Infect and Defile:
     category: DECK
     identifiers:
+      abuId: '1100885'
       cardKingdomId: '147764'
       cardtraderId: '47580'
       mcmId: '245281'
       tcgplayerProductId: '141938'
+      tntId: '306950'
     subtype: EVENT
   Mirrodin Besieged Event Deck Into the Breach:
     category: DECK
     identifiers:
+      abuId: '1107951'
       cardKingdomId: '147763'
       cardtraderId: '47581'
       mcmId: '245280'
       tcgplayerProductId: '141937'
+      tntId: '306949'
     subtype: EVENT
   Mirrodin Besieged Event Decks Set of 2:
     category: SUBSET
     identifiers:
+      abuId: '1107952'
       cardtraderId: '47582'
       mcmId: '245714'
     subtype: EVENT
   Mirrodin Besieged Faction Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1107953'
       cardKingdomId: '240437'
       cardtraderId: '51195'
       csiId: '97907'
@@ -62,48 +73,59 @@ products:
   Mirrodin Besieged Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1100886'
       cardKingdomId: '133028'
       cardtraderId: '47575'
       csiId: '153897'
       mcmId: '245275'
       scgId: SLD-MTG-BUN-MBS-EN
       tcgplayerProductId: '39120'
+      tntId: '299374'
     subtype: FAT_PACK
   Mirrodin Besieged Intro Pack Battle Cries:
     category: DECK
     identifiers:
+      abuId: '1100887'
       cardKingdomId: '137134'
       cardtraderId: '47579'
       mcmId: '245279'
       tcgplayerProductId: '39116'
+      tntId: '299376'
     subtype: INTRO
   Mirrodin Besieged Intro Pack Doom Inevitable:
     category: DECK
     identifiers:
+      abuId: '1100889'
       cardKingdomId: '137135'
       cardtraderId: '47576'
       mcmId: '245278'
       tcgplayerProductId: '39119'
+      tntId: '299378'
     subtype: INTRO
   Mirrodin Besieged Intro Pack Mirromancy:
     category: DECK
     identifiers:
+      abuId: '1100890'
       cardKingdomId: '137136'
       cardtraderId: '47577'
       mcmId: '245277'
       tcgplayerProductId: '39118'
+      tntId: '299377'
     subtype: INTRO
   Mirrodin Besieged Intro Pack Path of Blight:
     category: DECK
     identifiers:
+      abuId: '1100888'
       cardKingdomId: '137137'
       cardtraderId: '47578'
       mcmId: '245276'
       tcgplayerProductId: '39117'
+      tntId: '299379'
     subtype: INTRO
   Mirrodin Besieged Intro Packs Set of 4:
     category: SUBSET
     identifiers:
+      abuId: '1100896'
       cardtraderId: '47583'
       mcmId: '245318'
       tcgplayerProductId: '39115'
@@ -111,20 +133,24 @@ products:
   Mirrodin Besieged Mirran Faction Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1796220'
       cardKingdomId: '184197'
       cardtraderId: '47564'
       csiId: '97908'
       mcmId: '245272'
       tcgplayerProductId: '72025'
+      tntId: '305942'
     subtype: OTHER
   Mirrodin Besieged Phyrexian Faction Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1796221'
       cardKingdomId: '184196'
       cardtraderId: '47563'
       csiId: '97909'
       mcmId: '245271'
       tcgplayerProductId: '72026'
+      tntId: '305941'
     subtype: OTHER
   Mirrodin Besieged Prerelease Box:
     category: LIMITED

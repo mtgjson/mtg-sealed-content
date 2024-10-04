@@ -3,35 +3,43 @@ products:
   Legends Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1107893'
       cardKingdomId: '238459'
       cardtraderId: '43460'
       csiId: '97710'
       mcmId: '210073'
       scgId: SLD-MTG-BBX-LEG-EN
       tcgplayerProductId: '27286'
+      tntId: '114548'
     subtype: DEFAULT
   Legends Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476892'
       cardKingdomId: '124075'
       cardtraderId: '43459'
       mcmId: '210007'
       scgId: SLD-MTG-PCK-LEG-EN
       tcgplayerProductId: '27348'
+      tntId: '114549'
     subtype: DEFAULT
   Legends Italian Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1107894'
       cardKingdomId: '238460'
       cardtraderId: '43482'
       mcmId: '300138'
+      tntId: '1020822'
     language: Italian
     subtype: DEFAULT
   Legends Italian Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1100719'
       cardKingdomId: '186216'
       cardtraderId: '43481'
       mcmId: '300139'
+      tntId: '1020823'
     language: Italian
     subtype: DEFAULT

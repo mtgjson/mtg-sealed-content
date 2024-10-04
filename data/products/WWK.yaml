@@ -3,12 +3,14 @@ products:
   Worldwake Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1107790'
       cardKingdomId: '129934'
       cardtraderId: '47448'
       csiId: '98413'
       mcmId: '210195'
       scgId: SLD-MTG-BBX-WWK-EN
       tcgplayerProductId: '34468'
+      tntId: '287098'
     subtype: DRAFT
   Worldwake Booster Box Case:
     category: BOOSTER_CASE
@@ -17,21 +19,26 @@ products:
   Worldwake Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476966'
       cardKingdomId: '129938'
       cardtraderId: '47446'
       csiId: '98431'
       mcmId: '210194'
+      scgId: SLD-MTG-PCK-WWK-EN
       tcgplayerProductId: '34469'
+      tntId: '287099'
     subtype: DRAFT
   Worldwake Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1100202'
       cardKingdomId: '129939'
       cardtraderId: '47455'
       csiId: '98432'
       mcmId: '210196'
       scgId: SLD-MTG-BUN-WWK-EN
       tcgplayerProductId: '78334'
+      tntId: '287100'
     subtype: FAT_PACK
   Worldwake Intro Pack Brute Force:
     category: DECK
@@ -40,36 +47,44 @@ products:
       cardtraderId: '47456'
       mcmId: '210198'
       tcgplayerProductId: '196799'
+      tntId: '287101'
     subtype: INTRO
   Worldwake Intro Pack Display:
     category: DECK_BOX
     identifiers:
       cardtraderId: '47461'
       mcmId: '210197'
+      tntId: '287106'
     subtype: INTRO
   Worldwake Intro Pack Fangs of the Bloodchief:
     category: DECK
     identifiers:
+      abuId: '1100217'
       cardKingdomId: '129943'
       cardtraderId: '47457'
       mcmId: '210200'
       tcgplayerProductId: '196798'
+      tntId: '287103'
     subtype: INTRO
   Worldwake Intro Pack Flyover:
     category: DECK
     identifiers:
+      abuId: '1107791'
       cardKingdomId: '129945'
       cardtraderId: '47458'
       mcmId: '210202'
       tcgplayerProductId: '196796'
+      tntId: '287105'
     subtype: INTRO
   Worldwake Intro Pack Mysterious Realms:
     category: DECK
     identifiers:
+      abuId: '1107792'
       cardKingdomId: '129944'
       cardtraderId: '47459'
       mcmId: '210201'
       tcgplayerProductId: '196800'
+      tntId: '287104'
     subtype: INTRO
   Worldwake Intro Pack Rapid Fire:
     category: DECK
@@ -78,6 +93,7 @@ products:
       cardtraderId: '47460'
       mcmId: '210199'
       tcgplayerProductId: '196797'
+      tntId: '287102'
     subtype: INTRO
   Worldwake Six Card Booster Pack:
     category: BOOSTER_PACK

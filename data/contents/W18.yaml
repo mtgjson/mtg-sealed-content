@@ -1,7 +1,27 @@
 code: w18
 products:
-  Welcome Deck 2018 Black Deck: []
-  Welcome Deck 2018 Blue Deck: []
-  Welcome Deck 2018 Green Deck: []
-  Welcome Deck 2018 Red Deck: []
-  Welcome Deck 2018 White Deck: []
+  Welcome Deck 2018 Black Deck:
+    card_count: 30
+    deck:
+    - name: Black Deck
+      set: w18
+  Welcome Deck 2018 Blue Deck:
+    card_count: 30
+    deck:
+    - name: Blue Deck
+      set: w18
+  Welcome Deck 2018 Green Deck:
+    card_count: 30
+    deck:
+    - name: Green Deck
+      set: w18
+  Welcome Deck 2018 Red Deck:
+    card_count: 30
+    deck:
+    - name: Red Deck
+      set: w18
+  Welcome Deck 2018 White Deck:
+    card_count: 30
+    deck:
+    - name: White Deck
+      set: w18

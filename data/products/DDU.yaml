@@ -3,17 +3,20 @@ products:
   Duel Deck Elves vs Inventors:
     category: MULTI_DECK
     identifiers:
+      abuId: '1496793'
       cardKingdomId: '217618'
       cardtraderId: '48644'
       csiId: '253920'
       mcmId: '315273'
       scgId: SLD-MTG-BXS-DDU-EN
       tcgplayerProductId: '162110'
+      tntId: '1158681'
     release_date: '2018-04-06'
     subtype: DUEL
   Duel Deck Elves vs Inventors Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      tntId: '1158682'
     subtype: DUEL
   Duel Deck Elves vs Inventors Elves Deck:
     category: DECK

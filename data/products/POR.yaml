@@ -3,22 +3,26 @@ products:
   Portal Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1101011'
       cardKingdomId: '223167'
       cardtraderId: '45234'
       csiId: '97999'
       mcmId: '210090'
       scgId: SLD-MTG-BBX-POR-EN
       tcgplayerProductId: '27298'
+      tntId: '86849'
     subtype: DEFAULT
   Portal Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476924'
       cardKingdomId: '1185'
       cardtraderId: '45233'
       csiId: '98001'
       mcmId: '210024'
       scgId: SLD-MTG-PCK-POR-EN
       tcgplayerProductId: '27360'
+      tntId: '86850'
     subtype: DEFAULT
   Portal Demo Game Booster:
     category: BOOSTER_PACK
@@ -29,12 +33,20 @@ products:
     category: BUNDLE
     identifiers:
       cardKingdomId: '1187'
+      tntId: '138150'
     subtype: GIFT_BUNDLE
   Portal Two Player Starter Set:
     category: MULTI_DECK
     identifiers:
+      abuId: '1100995'
       cardKingdomId: '204735'
       cardtraderId: '45235'
       mcmId: '253633'
       tcgplayerProductId: '81795'
+      tntId: '86856'
+    subtype: TWO_PLAYER_STARTER
+  Portal Two Player Starter Set Display:
+    category: DECK_BOX
+    identifiers:
+      abuId: '1527123'
     subtype: TWO_PLAYER_STARTER

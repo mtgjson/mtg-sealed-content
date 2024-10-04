@@ -8,9 +8,11 @@ products:
   2012 Core Set Booster Battle Pack:
     category: MULTI_DECK
     identifiers:
+      abuId: '1100756'
       cardtraderId: '47642'
       mcmId: '250596'
       tcgplayerProductId: '55927'
+      tntId: '321403'
     subtype: BATTLE
   2012 Core Set Booster Battle Pack Display:
     category: DECK_BOX
@@ -18,16 +20,19 @@ products:
       cardtraderId: '47650'
       mcmId: '250597'
       tcgplayerProductId: '244380'
+      tntId: '321402'
     subtype: BATTLE
   2012 Core Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1100743'
       cardKingdomId: '184977'
       cardtraderId: '47625'
       csiId: '97797'
       mcmId: '247793'
       scgId: SLD-MTG-BBX-M12-EN
       tcgplayerProductId: '46957'
+      tntId: '319978'
     subtype: DRAFT
   2012 Core Set Booster Box Case:
     category: BOOSTER_CASE
@@ -37,11 +42,13 @@ products:
   2012 Core Set Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476898'
       cardKingdomId: '184978'
       cardtraderId: '47623'
       csiId: '97820'
       mcmId: '247792'
       tcgplayerProductId: '46956'
+      tntId: '319979'
     subtype: DRAFT
   2012 Core Set Deck Builders Toolkit:
     category: KIT
@@ -53,80 +60,100 @@ products:
   2012 Core Set Event Deck Illusionary Might:
     category: DECK
     identifiers:
+      abuId: '1100759'
       cardKingdomId: '185501'
       cardtraderId: '47640'
       mcmId: '248501'
       tcgplayerProductId: '47794'
+      tntId: '319981'
     subtype: EVENT
   2012 Core Set Event Deck Vampire Onslaught:
     category: DECK
     identifiers:
+      abuId: '1100761'
       cardKingdomId: '185502'
       cardtraderId: '47639'
       mcmId: '248502'
       tcgplayerProductId: '47795'
+      tntId: '319982'
     subtype: EVENT
   2012 Core Set Event Decks Set of 2:
     category: SUBSET
     identifiers:
+      abuId: '1100762'
       cardtraderId: '47641'
       mcmId: '248500'
       tcgplayerProductId: '47793'
+      tntId: '324465'
     subtype: EVENT
   2012 Core Set Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1100763'
       cardKingdomId: '184979'
       cardtraderId: '47633'
       csiId: '97822'
       mcmId: '247794'
       scgId: SLD-MTG-BUN-M12-EN
       tcgplayerProductId: '78318'
+      tntId: '319980'
     subtype: FAT_PACK
   2012 Core Set Intro Pack Blood and Fire:
     category: DECK
     identifiers:
+      abuId: '1107911'
       cardKingdomId: '185246'
       cardtraderId: '47634'
       mcmId: '248059'
+      tntId: '319947'
     subtype: INTRO
   2012 Core Set Intro Pack Display:
     category: DECK_BOX
     identifiers:
       cardtraderId: '47648'
       mcmId: '247796'
+      tntId: '319943'
     subtype: INTRO
   2012 Core Set Intro Pack Entangling Webs:
     category: DECK
     identifiers:
+      abuId: '1100765'
       cardKingdomId: '185247'
       cardtraderId: '47635'
       mcmId: '248058'
+      tntId: '319948'
     subtype: INTRO
   2012 Core Set Intro Pack Grab for Power:
     category: DECK
     identifiers:
+      abuId: '1107913'
       cardKingdomId: '185248'
       cardtraderId: '47636'
       mcmId: '248056'
+      tntId: '319946'
     subtype: INTRO
   2012 Core Set Intro Pack Mystical Might:
     category: DECK
     identifiers:
+      abuId: '1100766'
       cardKingdomId: '185249'
       cardtraderId: '47637'
       mcmId: '248057'
+      tntId: '319945'
     subtype: INTRO
   2012 Core Set Intro Pack Sacred Assault:
     category: DECK
     identifiers:
+      abuId: '1107915'
       cardKingdomId: '185250'
       cardtraderId: '47638'
       mcmId: '248060'
+      tntId: '319944'
     subtype: INTRO
   2012 Core Set Intro Packs Set of 5:
     category: SUBSET
     identifiers:
+      abuId: '1107919'
       cardtraderId: '47649'
       mcmId: '247795'
       tcgplayerProductId: '46954'
@@ -134,32 +161,42 @@ products:
   2012 Core Set Sample Deck Chandra Nalaar:
     category: DECK
     identifiers:
+      abuId: '1101044'
       cardtraderId: '47643'
       mcmId: '287575'
     subtype: STARTER
   2012 Core Set Sample Deck Garruk Wildspeaker:
     category: DECK
     identifiers:
+      abuId: '1101045'
       cardtraderId: '47644'
       mcmId: '287576'
     subtype: STARTER
   2012 Core Set Sample Deck Gideon Jura:
     category: DECK
     identifiers:
+      abuId: '1101046'
       cardtraderId: '47645'
       mcmId: '287577'
     subtype: STARTER
   2012 Core Set Sample Deck Jace Beleren:
     category: DECK
     identifiers:
+      abuId: '1101031'
       cardtraderId: '47646'
       mcmId: '287578'
     subtype: STARTER
   2012 Core Set Sample Deck Sorin Markov:
     category: DECK
     identifiers:
+      abuId: '1101041'
       cardtraderId: '47647'
       mcmId: '287579'
+    subtype: STARTER
+  2012 Core Set Sample Decks Set of 5:
+    category: SUBSET
+    identifiers:
+      abuId: '1101043'
     subtype: STARTER
   2012 Core Set Six Card Booster Pack:
     category: BOOSTER_PACK

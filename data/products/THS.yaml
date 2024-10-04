@@ -3,12 +3,14 @@ products:
   Theros Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1101203'
       cardKingdomId: '191120'
       cardtraderId: '48020'
       csiId: '187079'
       mcmId: '263893'
       scgId: SLD-MTG-BBX-THS-EN
       tcgplayerProductId: '70960'
+      tntId: '1026682'
     subtype: DRAFT
   Theros Booster Box Case:
     category: BOOSTER_CASE
@@ -18,95 +20,117 @@ products:
   Theros Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476950'
       cardKingdomId: '191119'
       cardtraderId: '48019'
       csiId: '187082'
       mcmId: '263892'
       scgId: SLD-MTG-PCK-THS-EN
       tcgplayerProductId: '70961'
+      tntId: '1026683'
     subtype: DRAFT
   Theros Challenge Deck Face the Hydra:
     category: DECK
     identifiers:
+      abuId: '1101210'
       cardtraderId: '48029'
       mcmId: '265220'
       tcgplayerProductId: '72028'
+      tntId: '1639921'
     subtype: CHALLENGE
   Theros Event Deck Inspiring Heroics:
     category: DECK
     identifiers:
+      abuId: '1101208'
       cardKingdomId: '191728'
       cardtraderId: '48030'
       mcmId: '264769'
       tcgplayerProductId: '70986'
+      tntId: '1043367'
     subtype: EVENT
   Theros Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1101212'
       cardKingdomId: '191121'
       cardtraderId: '48028'
       csiId: '187089'
       mcmId: '263894'
       scgId: SLD-MTG-BUN-THS-EN
       tcgplayerProductId: '70962'
+      tntId: '1043357'
     subtype: FAT_PACK
   Theros Holiday Gift Box:
     category: BUNDLE
     identifiers:
+      abuId: '1100593'
       cardKingdomId: '192731'
       cardtraderId: '48041'
       mcmId: '265339'
       tcgplayerProductId: '71523'
+      tntId: '1047007'
     subtype: GIFT_BUNDLE
   Theros Intro Pack Anthousas Army:
     category: DECK
     identifiers:
+      abuId: '1101211'
       cardKingdomId: '191126'
       cardtraderId: '48031'
       mcmId: '264174'
       tcgplayerProductId: '70984'
+      tntId: '1043366'
     subtype: INTRO
   Theros Intro Pack Blazing Beasts of Myth:
     category: DECK
     identifiers:
+      abuId: '1101213'
       cardKingdomId: '191124'
       cardtraderId: '48032'
       mcmId: '264173'
       tcgplayerProductId: '70983'
+      tntId: '1043365'
     subtype: INTRO
   Theros Intro Pack Devotion to Darkness:
     category: DECK
     identifiers:
+      abuId: '1101214'
       cardKingdomId: '191125'
       cardtraderId: '48033'
       mcmId: '264172'
       tcgplayerProductId: '70982'
+      tntId: '1043364'
     subtype: INTRO
   Theros Intro Pack Display:
     category: DECK_BOX
     identifiers:
       cardtraderId: '48043'
       mcmId: '264175'
+      tntId: '1043353'
     subtype: INTRO
   Theros Intro Pack Favors from Nyx:
     category: DECK
     identifiers:
+      abuId: '1101215'
       cardKingdomId: '191122'
       cardtraderId: '48034'
       mcmId: '264170'
       tcgplayerProductId: '70980'
+      tntId: '1043362'
     subtype: INTRO
   Theros Intro Pack Manipulative Monstrosities:
     category: DECK
     identifiers:
+      abuId: '1101216'
       cardKingdomId: '191123'
       cardtraderId: '48035'
       mcmId: '264171'
       tcgplayerProductId: '70981'
+      tntId: '1043363'
     subtype: INTRO
   Theros Intro Packs Set of 5:
     category: SUBSET
     identifiers:
+      abuId: '1101217'
       cardtraderId: '48042'
       mcmId: '264176'
       tcgplayerProductId: '70964'
@@ -114,41 +138,52 @@ products:
   Theros Prerelease Kit Path of Ambition:
     category: LIMITED
     identifiers:
+      abuId: '1101220'
       cardtraderId: '48036'
       mcmId: '264374'
       tcgplayerProductId: '79268'
+      tntId: '1660313'
     subtype: PRERELEASE
   Theros Prerelease Kit Path of Battle:
     category: LIMITED
     identifiers:
+      abuId: '1101221'
       cardtraderId: '48037'
       mcmId: '264376'
       tcgplayerProductId: '79271'
+      tntId: '1182109'
     subtype: PRERELEASE
   Theros Prerelease Kit Path of Honor:
     category: LIMITED
     identifiers:
+      abuId: '1101222'
       cardtraderId: '48038'
       mcmId: '264372'
       tcgplayerProductId: '79269'
+      tntId: '1660314'
     subtype: PRERELEASE
   Theros Prerelease Kit Path of Might:
     category: LIMITED
     identifiers:
+      abuId: '1101223'
       cardtraderId: '48039'
       mcmId: '264375'
       tcgplayerProductId: '79272'
+      tntId: '1660315'
     subtype: PRERELEASE
   Theros Prerelease Kit Path of Wisdom:
     category: LIMITED
     identifiers:
+      abuId: '1101224'
       cardtraderId: '48040'
       mcmId: '264373'
       tcgplayerProductId: '79270'
+      tntId: '1660316'
     subtype: PRERELEASE
   Theros Prerelease Pack Set of 5:
     category: SUBSET
     identifiers:
+      abuId: '1101225'
       cardtraderId: '48044'
       mcmId: '273054'
       tcgplayerProductId: '199940'

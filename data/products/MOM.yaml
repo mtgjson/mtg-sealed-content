@@ -1,18 +1,15 @@
 code: mom
 products:
-  Magic The Gathering Starter Kit 2023:
-    category: MULTI_DECK
-    identifiers:
-      cardKingdomId: '281249'
-    subtype: TWO_PLAYER_STARTER
   March of the Machine Bundle:
     category: BUNDLE
     identifiers:
+      abuId: '2323036'
       cardKingdomId: '274980'
       cardtraderId: '231982'
       mcmId: '689787'
       scgId: SLD-MTG-BUN-MOM-EN
       tcgplayerProductId: '475586'
+      tntId: '1774260'
     release_date: '2023-04-21'
     subtype: DEFAULT
   March of the Machine Bundle Case:
@@ -23,11 +20,13 @@ products:
   March of the Machine Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2323035'
       cardKingdomId: '274981'
       cardtraderId: '238098'
       mcmId: '696391'
       scgId: SLD-MTG-BBX-MOMCOLLECTOR-EN
       tcgplayerProductId: '475584'
+      tntId: '1774262'
     release_date: '2023-04-21'
     subtype: COLLECTOR
   March of the Machine Collector Booster Box Case:
@@ -38,64 +37,76 @@ products:
   March of the Machine Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2323034'
       cardKingdomId: '274982'
       cardtraderId: '241936'
       mcmId: '696392'
       scgId: SLD-MTG-PCK-MOMCOLLECTOR-EN
       tcgplayerProductId: '475583'
+      tntId: '1774246'
     release_date: '2023-04-21'
     subtype: COLLECTOR
   March of the Machine Collector Booster Sample Pack:
     category: BOOSTER_PACK
     identifiers:
       mcmId: '712816'
+      tcgplayerProductId: '579974'
     release_date: '2023-04-21'
     subtype: PROMOTIONAL
   March of the Machine Draft Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2323029'
       cardKingdomId: '274983'
       cardtraderId: '231905'
       csiId: '354519'
       mcmId: '689788'
       scgId: SLD-MTG-BBX-MOMDRAFT-EN
       tcgplayerProductId: '475575'
+      tntId: '1774259'
     release_date: '2023-04-21'
     subtype: DRAFT
   March of the Machine Draft Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '475576'
+      tntId: '1774243'
     subtype: DRAFT
   March of the Machine Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2323028'
       cardKingdomId: '274984'
       cardtraderId: '241932'
       csiId: '354528'
       mcmId: '696395'
       scgId: SLD-MTG-PCK-MOMDRAFT-EN
       tcgplayerProductId: '475577'
+      tntId: '1774244'
     release_date: '2023-04-21'
     subtype: DRAFT
   March of the Machine Jumpstart Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2323033'
       cardKingdomId: '274986'
       cardtraderId: '231981'
       mcmId: '689789'
       scgId: SLD-MTG-BBX-MOMJUMPSTART-EN
       tcgplayerProductId: '475582'
+      tntId: '1774263'
     release_date: '2023-04-21'
     subtype: JUMPSTART
   March of the Machine Jumpstart Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2323032'
       cardKingdomId: '274985'
       cardtraderId: '241935'
       mcmId: '696393'
       scgId: SLD-MTG-PCK-MOMJUMPSTART-EN
       tcgplayerProductId: '475581'
+      tntId: '1774264'
     release_date: '2023-04-21'
     subtype: JUMPSTART
   March of the Machine Prerelease Pack:
@@ -111,12 +122,14 @@ products:
   March of the Machine Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2323031'
       cardKingdomId: '274991'
       cardtraderId: '231980'
       csiId: '354508'
       mcmId: '689792'
       scgId: SLD-MTG-BBX-MOMSET-EN
       tcgplayerProductId: '475579'
+      tntId: '1774261'
     release_date: '2023-04-21'
     subtype: SET
   March of the Machine Set Booster Box Case:
@@ -127,12 +140,14 @@ products:
   March of the Machine Set Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2323030'
       cardKingdomId: '274990'
       cardtraderId: '241934'
       csiId: '354517'
       mcmId: '696394'
       scgId: SLD-MTG-PCK-MOMSET-EN
       tcgplayerProductId: '475578'
+      tntId: '1774245'
     release_date: '2023-04-21'
     subtype: SET
   March of the Machine Sleeved Set Booster Pack:

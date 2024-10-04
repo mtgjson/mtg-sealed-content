@@ -9,9 +9,11 @@ products:
   2013 Core Set Booster Battle Pack:
     category: MULTI_DECK
     identifiers:
+      abuId: '1100768'
       cardtraderId: '47788'
       mcmId: '257500'
       tcgplayerProductId: '97819'
+      tntId: '385253'
     subtype: BATTLE
   2013 Core Set Booster Battle Pack Display:
     category: DECK_BOX
@@ -19,16 +21,19 @@ products:
       cardtraderId: '47792'
       mcmId: '257501'
       tcgplayerProductId: '485831'
+      tntId: '385254'
     subtype: BATTLE
   2013 Core Set Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1100767'
       cardKingdomId: '187473'
       cardtraderId: '47766'
       csiId: '164820'
       mcmId: '256382'
       scgId: SLD-MTG-BBX-M13-EN
       tcgplayerProductId: '59120'
+      tntId: '328587'
     release_date: '2012-07-13'
     subtype: DRAFT
   2013 Core Set Booster Box Case:
@@ -39,46 +44,56 @@ products:
   2013 Core Set Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476899'
       cardKingdomId: '187474'
       cardtraderId: '47764'
       csiId: '164840'
       mcmId: '256381'
       tcgplayerProductId: '59123'
+      tntId: '367776'
     release_date: '2012-07-13'
     subtype: DRAFT
   2013 Core Set Deck Builders Toolkit:
     category: KIT
     identifiers:
+      abuId: '1100362'
       cardKingdomId: '199663'
       tcgplayerProductId: '245962'
+      tntId: '385248'
     subtype: DECK_BUILDERS_TOOLKIT
   2013 Core Set Event Deck Display:
     category: DECK_BOX
     identifiers:
       cardtraderId: '47793'
       mcmId: '257499'
+      tntId: '385252'
     subtype: EVENT
   2013 Core Set Event Deck Repeat Performance:
     category: DECK
     identifiers:
+      abuId: '1100770'
       cardKingdomId: '187957'
       cardtraderId: '47781'
       csiId: '164838'
       mcmId: '257497'
       tcgplayerProductId: '60109'
+      tntId: '385250'
     subtype: EVENT
   2013 Core Set Event Deck Sweet Revenge:
     category: DECK
     identifiers:
+      abuId: '1100771'
       cardKingdomId: '187958'
       cardtraderId: '47780'
       csiId: '164839'
       mcmId: '257496'
       tcgplayerProductId: '60110'
+      tntId: '385249'
     subtype: EVENT
   2013 Core Set Event Decks Set of 2:
     category: SUBSET
     identifiers:
+      abuId: '1100772'
       cardtraderId: '47782'
       mcmId: '257498'
       tcgplayerProductId: '60111'
@@ -86,65 +101,79 @@ products:
   2013 Core Set Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1100776'
       cardKingdomId: '187475'
       cardtraderId: '47774'
       csiId: '164845'
       mcmId: '256383'
       scgId: SLD-MTG-BUN-M13-EN
       tcgplayerProductId: '59124'
+      tntId: '367777'
     release_date: '2012-07-13'
     subtype: FAT_PACK
   2013 Core Set Intro Pack Depths of Power Blue:
     category: DECK
     identifiers:
+      abuId: '1100777'
       cardKingdomId: '187705'
       cardtraderId: '47775'
       csiId: '279856'
       mcmId: '256763'
       tcgplayerProductId: '97814'
+      tntId: '383298'
     subtype: INTRO
   2013 Core Set Intro Pack Display:
     category: DECK_BOX
     identifiers:
       cardtraderId: '47790'
       mcmId: '256768'
+      tntId: '367778'
     subtype: INTRO
   2013 Core Set Intro Pack Mob Rule Red:
     category: DECK
     identifiers:
+      abuId: '1100778'
       cardKingdomId: '187707'
       cardtraderId: '47776'
       mcmId: '256765'
       tcgplayerProductId: '97816'
+      tntId: '383300'
     subtype: INTRO
   2013 Core Set Intro Pack Path to Victory White:
     category: DECK
     identifiers:
+      abuId: '1100782'
       cardKingdomId: '187704'
       cardtraderId: '47777'
       mcmId: '256762'
       tcgplayerProductId: '97813'
+      tntId: '383297'
     subtype: INTRO
   2013 Core Set Intro Pack Sole Domination Black:
     category: DECK
     identifiers:
+      abuId: '1100783'
       cardKingdomId: '187706'
       cardtraderId: '47778'
       mcmId: '256764'
       tcgplayerProductId: '97815'
+      tntId: '383299'
     subtype: INTRO
   2013 Core Set Intro Pack Wild Rush Green:
     category: DECK
     identifiers:
+      abuId: '1100784'
       cardKingdomId: '187708'
       cardtraderId: '47779'
       csiId: '279858'
       mcmId: '256766'
       tcgplayerProductId: '97817'
+      tntId: '383301'
     subtype: INTRO
   2013 Core Set Intro Packs Set of 5:
     category: SUBSET
     identifiers:
+      abuId: '1100788'
       cardtraderId: '47791'
       mcmId: '256767'
       tcgplayerProductId: '59121'

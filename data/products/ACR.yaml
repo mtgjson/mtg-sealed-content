@@ -3,6 +3,7 @@ products:
   Assassins Creed Beyond Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2509381'
       cardKingdomId: '297392'
       cardtraderId: '280369'
       csiId: '384238'
@@ -10,6 +11,7 @@ products:
       miniaturemarketId: '299658'
       scgId: SLD-MTG-BBX-ACRBEYOND-EN
       tcgplayerProductId: '541220'
+      tntId: '1808838'
     release_date: '2024-07-05'
     subtype: OTHER
   Assassins Creed Beyond Booster Box Case:
@@ -22,6 +24,7 @@ products:
   Assassins Creed Beyond Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2509378'
       cardKingdomId: '297393'
       cardtraderId: '280371'
       csiId: '384239'
@@ -29,11 +32,13 @@ products:
       miniaturemarketId: '299660'
       scgId: SLD-MTG-PCK-ACRBEYOND-EN
       tcgplayerProductId: '541218'
+      tntId: '1808839'
     release_date: '2024-07-05'
     subtype: OTHER
   Assassins Creed Bundle:
     category: BUNDLE
     identifiers:
+      abuId: '2509374'
       cardKingdomId: '297394'
       cardtraderId: '280368'
       csiId: '384241'
@@ -41,6 +46,7 @@ products:
       miniaturemarketId: '299665'
       scgId: SLD-MTG-BUN-ACR-EN
       tcgplayerProductId: '541228'
+      tntId: '1808836'
     release_date: '2024-07-05'
     subtype: DEFAULT
   Assassins Creed Bundle Case:
@@ -52,6 +58,7 @@ products:
   Assassins Creed Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2509382'
       cardKingdomId: '297395'
       cardtraderId: '280370'
       csiId: '384242'
@@ -59,6 +66,7 @@ products:
       miniaturemarketId: '299661'
       scgId: SLD-MTG-BBX-ACRCOLLECTOR-EN
       tcgplayerProductId: '541225'
+      tntId: '1808840'
     release_date: '2024-07-05'
     subtype: COLLECTOR
   Assassins Creed Collector Booster Box Case:
@@ -70,6 +78,7 @@ products:
   Assassins Creed Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2509379'
       cardKingdomId: '297396'
       cardtraderId: '280372'
       csiId: '384243'
@@ -77,17 +86,20 @@ products:
       miniaturemarketId: '299663'
       scgId: SLD-MTG-PCK-ACRCOLLECTOR-EN
       tcgplayerProductId: '541224'
+      tntId: '1808841'
     release_date: '2024-07-05'
     subtype: COLLECTOR
   Assassins Creed Starter Kit:
     category: MULTI_DECK
     identifiers:
+      abuId: '2509383'
       cardKingdomId: '297397'
       cardtraderId: '280373'
       mcmId: '758500'
       miniaturemarketId: '299664'
       scgId: SLD-MTG-INT-ACRSTARTER-EN
       tcgplayerProductId: '541230'
+      tntId: '1808837'
     release_date: '2024-07-05'
     subtype: TWO_PLAYER_STARTER
   Assassins Creed Starter Kit Case:
@@ -95,5 +107,6 @@ products:
     identifiers:
       csiId: '384240'
       tcgplayerProductId: '541231'
+      tntId: '1808837'
     release_date: '2024-07-05'
     subtype: TWO_PLAYER_STARTER

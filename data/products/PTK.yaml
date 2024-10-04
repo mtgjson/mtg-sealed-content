@@ -3,61 +3,76 @@ products:
   Portal Three Kingdoms Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1476928'
       cardKingdomId: '238462'
       cardtraderId: '45585'
       csiId: '98005'
       mcmId: '210095'
       tcgplayerProductId: '27300'
+      tntId: '118982'
     subtype: DEFAULT
   Portal Three Kingdoms Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476929'
       cardKingdomId: '238461'
       cardtraderId: '45584'
       csiId: '98006'
       mcmId: '210029'
       tcgplayerProductId: '27362'
+      tntId: '86848'
     subtype: DEFAULT
   Portal Three Kingdoms Theme Deck Display:
     category: DECK_BOX
     identifiers:
       cardtraderId: '224493'
       mcmId: '679535'
+      tntId: '106940'
     subtype: THEME
   Portal Three Kingdoms Theme Deck Shu Kingdom:
     category: DECK
     identifiers:
+      abuId: '1101025'
       cardKingdomId: '198787'
       cardtraderId: '45586'
       mcmId: '253766'
       tcgplayerProductId: '498730'
+      tntId: '99637'
     subtype: THEME
   Portal Three Kingdoms Theme Deck Wei Kingdom:
     category: DECK
     identifiers:
+      abuId: '1101027'
       cardKingdomId: '198786'
       cardtraderId: '45587'
       mcmId: '253767'
       tcgplayerProductId: '498732'
+      tntId: '113977'
     subtype: THEME
   Portal Three Kingdoms Theme Deck Wu Kingdom:
     category: DECK
     identifiers:
+      abuId: '1101030'
       cardKingdomId: '198785'
       cardtraderId: '45588'
       mcmId: '253768'
       tcgplayerProductId: '498731'
+      tntId: '99638'
     subtype: THEME
   Portal Three Kingdoms Two Player Starter:
     category: MULTI_DECK
     identifiers:
+      abuId: '1101017'
       cardKingdomId: '240186'
       cardtraderId: '45589'
       mcmId: '253631'
       tcgplayerProductId: '96284'
+      tntId: '106945'
     subtype: TWO_PLAYER_STARTER
   Portal Three Kingdoms Two Player Starter Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1101021'
       tcgplayerProductId: '96285'
+      tntId: '86845'
     subtype: TWO_PLAYER_STARTER

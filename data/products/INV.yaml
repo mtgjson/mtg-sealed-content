@@ -3,12 +3,14 @@ products:
   Invasion Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1100610'
       cardKingdomId: '1283'
       cardtraderId: '45736'
       csiId: '97668'
       mcmId: '210099'
       scgId: SLD-MTG-BBX-INV-EN
       tcgplayerProductId: '27284'
+      tntId: '84066'
     subtype: DRAFT
   Invasion Booster Box Case:
     category: BOOSTER_CASE
@@ -17,75 +19,99 @@ products:
   Invasion Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476888'
       cardKingdomId: '1284'
       cardtraderId: '45735'
       csiId: '97696'
       mcmId: '210033'
       scgId: SLD-MTG-PCK-INV-EN
       tcgplayerProductId: '27346'
+      tntId: '138496'
     subtype: DRAFT
   Invasion Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1100606'
       cardKingdomId: '202539'
       cardtraderId: '45737'
       csiId: '97669'
       mcmId: '210188'
       scgId: SLD-MTG-BUN-INV-EN
       tcgplayerProductId: '78314'
+      tntId: '155255'
     subtype: FAT_PACK
   Invasion Theme Deck Blowout:
     category: DECK
     identifiers:
+      abuId: '1100611'
       cardKingdomId: '1289'
       cardtraderId: '45738'
       mcmId: '253745'
       tcgplayerProductId: '93340'
+      tntId: '107457'
     subtype: THEME
   Invasion Theme Deck Dismissal:
     category: DECK
     identifiers:
+      abuId: '1100612'
       cardKingdomId: '1288'
       cardtraderId: '45739'
       mcmId: '253746'
       tcgplayerProductId: '93342'
+      tntId: '106936'
     subtype: THEME
   Invasion Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1100623'
       cardKingdomId: '240153'
       cardtraderId: '45744'
       mcmId: '210229'
+      tntId: '84072'
     subtype: THEME
   Invasion Theme Deck Heavy Duty:
     category: DECK
     identifiers:
+      abuId: '1100614'
       cardKingdomId: '1290'
       cardtraderId: '45741'
       mcmId: '253747'
       tcgplayerProductId: '93341'
+      tntId: '106953'
+    subtype: THEME
+  Invasion Theme Deck Set of 4:
+    category: SUBSET
+    identifiers:
+      abuId: '1100618'
     subtype: THEME
   Invasion Theme Deck Spectrum:
     category: DECK
     identifiers:
+      abuId: '1100616'
       cardKingdomId: '1287'
       cardtraderId: '45742'
       mcmId: '253748'
       tcgplayerProductId: '93343'
+      tntId: '106952'
     subtype: THEME
   Invasion Tournament Pack:
     category: LIMITED
     identifiers:
+      abuId: '1100600'
       cardKingdomId: '1286'
       cardtraderId: '45743'
       mcmId: '248478'
       scgId: SLD-MTG-PCK-INVTOURNAMENT-EN
       tcgplayerProductId: '93344'
+      tntId: '84075'
     subtype: TOURNAMENT
   Invasion Tournament Pack Display:
     category: LIMITED_CASE
     identifiers:
+      abuId: '1100602'
+      cardKingdomId: '240154'
       cardtraderId: '45745'
       mcmId: '253857'
       scgId: SLD-MTG-BBX-INVTOURNAMENT-EN
+      tntId: '84074'
     subtype: TOURNAMENT

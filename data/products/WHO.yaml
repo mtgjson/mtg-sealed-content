@@ -20,6 +20,7 @@ products:
   Doctor Who Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2407567'
       cardKingdomId: '283464'
       cardtraderId: '246948'
       csiId: '362392'
@@ -27,6 +28,7 @@ products:
       miniaturemarketId: '293208'
       scgId: SLD-MTG-PCK-WHOCOLLECTOR-EN
       tcgplayerProductId: '496075'
+      tntId: '1789043'
     release_date: '2023-10-13'
     subtype: COLLECTOR
   Doctor Who Collector Booster Sample Pack:
@@ -34,11 +36,13 @@ products:
     identifiers:
       cardtraderId: '264375'
       mcmId: '740399'
+      tcgplayerProductId: '579922'
     release_date: '2023-10-13'
     subtype: PROMOTIONAL
   Doctor Who Commander Deck Blast From the Past:
     category: DECK
     identifiers:
+      abuId: '2407570'
       cardKingdomId: '283469'
       cardtraderId: '246951'
       csiId: '362395'
@@ -46,6 +50,7 @@ products:
       miniaturemarketId: '293212'
       scgId: SLD-MTG-MLT-WHO-EN-BLAST
       tcgplayerProductId: '496071'
+      tntId: '1789040'
     release_date: '2023-10-13'
     subtype: COMMANDER
   Doctor Who Commander Deck Display:
@@ -57,17 +62,20 @@ products:
   Doctor Who Commander Deck Masters of Evil:
     category: DECK
     identifiers:
+      abuId: '2407569'
       cardKingdomId: '283468'
       cardtraderId: '246950'
       csiId: '362394'
       mcmId: '710801'
       scgId: SLD-MTG-MLT-WHO-EN-MASTERS
       tcgplayerProductId: '496070'
+      tntId: '1789038'
     release_date: '2023-10-13'
     subtype: COMMANDER
   Doctor Who Commander Deck Paradox Power:
     category: DECK
     identifiers:
+      abuId: '2407572'
       cardKingdomId: '283467'
       cardtraderId: '246953'
       csiId: '362396'
@@ -75,17 +83,20 @@ products:
       miniaturemarketId: '293214'
       scgId: SLD-MTG-MLT-WHO-EN-PARADOX
       tcgplayerProductId: '496073'
+      tntId: '1789039'
     release_date: '2023-10-13'
     subtype: COMMANDER
   Doctor Who Commander Deck Timey Wimey:
     category: DECK
     identifiers:
+      abuId: '2407571'
       cardKingdomId: '283466'
       cardtraderId: '246952'
       csiId: '362393'
       mcmId: '710803'
       scgId: SLD-MTG-MLT-WHO-EN-TIMEY
       tcgplayerProductId: '496072'
+      tntId: '1789037'
     release_date: '2023-10-13'
     subtype: COMMANDER
   Doctor Who Commander Decks Set of Four:
@@ -96,5 +107,6 @@ products:
       csiId: '362397'
       mcmId: '711973'
       scgId: SLD-MTG-MLT-WHO-EN-SET4
+      tntId: '1789041'
     release_date: '2023-10-13'
     subtype: COMMANDER

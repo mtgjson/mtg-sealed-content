@@ -3,12 +3,14 @@ products:
   Morningtide Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1107957'
       cardKingdomId: '124154'
       cardtraderId: '47258'
       csiId: '97923'
       mcmId: '210131'
       scgId: SLD-MTG-BBX-MOR-EN
       tcgplayerProductId: '27292'
+      tntId: '160540'
     subtype: DRAFT
   Morningtide Booster Box Case:
     category: BOOSTER_CASE
@@ -17,58 +19,77 @@ products:
   Morningtide Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476911'
       cardKingdomId: '124155'
       cardtraderId: '47257'
       csiId: '97936'
       mcmId: '210065'
       scgId: SLD-MTG-PCK-MOR-EN
       tcgplayerProductId: '27354'
+      tntId: '160541'
     subtype: DRAFT
   Morningtide Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1100899'
       cardKingdomId: '124156'
       cardtraderId: '47264'
       csiId: '97937'
       mcmId: '210163'
       scgId: SLD-MTG-BUN-MOR-EN
       tcgplayerProductId: '78321'
+      tntId: '160544'
     subtype: FAT_PACK
   Morningtide Theme Deck Battalion:
     category: DECK
     identifiers:
+      abuId: '1100900'
       cardKingdomId: '124463'
       cardtraderId: '47267'
       mcmId: '253639'
       tcgplayerProductId: '249987'
+      tntId: '160546'
     subtype: THEME
   Morningtide Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1476912'
       cardtraderId: '47269'
       mcmId: '210209'
+      tntId: '160545'
     subtype: THEME
   Morningtide Theme Deck Going Rogue:
     category: DECK
     identifiers:
+      abuId: '1100903'
       cardKingdomId: '124464'
       cardtraderId: '47265'
       mcmId: '253640'
       tcgplayerProductId: '249988'
+      tntId: '160547'
+    subtype: THEME
+  Morningtide Theme Deck Set of 4:
+    category: SUBSET
+    identifiers:
+      abuId: '1100905'
     subtype: THEME
   Morningtide Theme Deck Shamanism:
     category: DECK
     identifiers:
+      abuId: '1100904'
       cardKingdomId: '124465'
       cardtraderId: '47268'
       mcmId: '253641'
       tcgplayerProductId: '249989'
+      tntId: '160548'
     subtype: THEME
   Morningtide Theme Deck Warriors Code:
     category: DECK
     identifiers:
+      abuId: '1100901'
       cardKingdomId: '124466'
       cardtraderId: '47266'
       mcmId: '253642'
       tcgplayerProductId: '249990'
+      tntId: '160549'
     subtype: THEME

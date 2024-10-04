@@ -1,12 +1,25 @@
 code: ddp
 products:
   Duel Deck Zendikar vs Eldrazi:
-    card_count: 120
+    sealed:
+    - count: 1
+      name: Duel Deck Zendikar vs Eldrazi Eldrazi Deck
+      set: ddp
+    - count: 1
+      name: Duel Deck Zendikar vs Eldrazi Zendikar Deck
+      set: ddp
+  Duel Deck Zendikar vs Eldrazi Display:
+    sealed:
+    - count: 6
+      name: Duel Deck Zendikar vs Eldrazi
+      set: ddp
+  Duel Deck Zendikar vs Eldrazi Eldrazi Deck:
+    card_count: 60
+    deck:
+    - name: Eldrazi
+      set: ddp
+  Duel Deck Zendikar vs Eldrazi Zendikar Deck:
+    card_count: 60
     deck:
     - name: Zendikar
       set: ddp
-    - name: Eldrazi
-      set: ddp
-  Duel Deck Zendikar vs Eldrazi Display: []
-  Duel Deck Zendikar vs Eldrazi Eldrazi Deck: []
-  Duel Deck Zendikar vs Eldrazi Zendikar Deck: []

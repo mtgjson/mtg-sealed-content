@@ -1,7 +1,27 @@
 code: w16
 products:
-  Welcome Deck 2016 Black Deck: []
-  Welcome Deck 2016 Blue Deck: []
-  Welcome Deck 2016 Green Deck: []
-  Welcome Deck 2016 Red Deck: []
-  Welcome Deck 2016 White Deck: []
+  Welcome Deck 2016 Black Deck:
+    card_count: 30
+    deck:
+    - name: Black Deck
+      set: w16
+  Welcome Deck 2016 Blue Deck:
+    card_count: 30
+    deck:
+    - name: Blue Deck
+      set: w16
+  Welcome Deck 2016 Green Deck:
+    card_count: 30
+    deck:
+    - name: Green Deck
+      set: w16
+  Welcome Deck 2016 Red Deck:
+    card_count: 30
+    deck:
+    - name: Red Deck
+      set: w16
+  Welcome Deck 2016 White Deck:
+    card_count: 30
+    deck:
+    - name: White Deck
+      set: w16

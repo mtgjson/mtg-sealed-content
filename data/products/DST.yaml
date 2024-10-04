@@ -3,12 +3,14 @@ products:
   Darksteel Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1107842'
       cardKingdomId: '110330'
       cardtraderId: '46534'
       csiId: '97568'
       mcmId: '210111'
       scgId: SLD-MTG-BBX-DST-EN
       tcgplayerProductId: '27272'
+      tntId: '112351'
     subtype: DRAFT
   Darksteel Booster Box Case:
     category: BOOSTER_CASE
@@ -17,58 +19,72 @@ products:
   Darksteel Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476869'
       cardKingdomId: '110501'
       cardtraderId: '46533'
       csiId: '97580'
       mcmId: '210045'
       scgId: SLD-MTG-PCK-DST-EN
       tcgplayerProductId: '27334'
+      tntId: '112350'
     subtype: DRAFT
   Darksteel Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1100382'
       cardKingdomId: '240338'
       cardtraderId: '46535'
       csiId: '97581'
       mcmId: '210178'
       scgId: SLD-MTG-BUN-DST-EN
       tcgplayerProductId: '78308'
+      tntId: '155108'
     subtype: FAT_PACK
   Darksteel Theme Deck Display:
     category: DECK_BOX
     identifiers:
+      abuId: '1526824'
       cardtraderId: '46540'
       mcmId: '210224'
+      tntId: '112358'
     subtype: THEME
   Darksteel Theme Deck Master Blaster:
     category: DECK
     identifiers:
+      abuId: '1100356'
       cardKingdomId: '110497'
       cardtraderId: '46538'
       mcmId: '253700'
       tcgplayerProductId: '208246'
+      tntId: '112352'
     subtype: THEME
   Darksteel Theme Deck Mind Swarm:
     category: DECK
     identifiers:
+      abuId: '1100366'
       cardKingdomId: '110498'
       cardtraderId: '46539'
       mcmId: '253701'
       tcgplayerProductId: '208247'
+      tntId: '112353'
     subtype: THEME
   Darksteel Theme Deck Swarm and Slam:
     category: DECK
     identifiers:
+      abuId: '1100383'
       cardKingdomId: '110499'
       cardtraderId: '46537'
       mcmId: '253702'
       tcgplayerProductId: '208248'
+      tntId: '112354'
     subtype: THEME
   Darksteel Theme Deck Transference:
     category: DECK
     identifiers:
+      abuId: '1100384'
       cardKingdomId: '110500'
       cardtraderId: '46536'
       mcmId: '253703'
       tcgplayerProductId: '208249'
+      tntId: '112355'
     subtype: THEME

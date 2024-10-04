@@ -3,12 +3,14 @@ products:
   New Phyrexia Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1107960'
       cardKingdomId: '184276'
       cardtraderId: '47600'
       csiId: '97938'
       mcmId: '245808'
       scgId: SLD-MTG-BBX-NPH-EN
       tcgplayerProductId: '39410'
+      tntId: '319938'
     subtype: DRAFT
   New Phyrexia Booster Box Case:
     category: BOOSTER_CASE
@@ -18,32 +20,39 @@ products:
   New Phyrexia Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1100915'
       cardKingdomId: '184277'
       cardtraderId: '47598'
       csiId: '97951'
       mcmId: '245807'
       scgId: SLD-MTG-PCK-NPH-EN
       tcgplayerProductId: '39409'
+      tntId: '319941'
     subtype: DRAFT
   New Phyrexia Event Deck Rot from Within:
     category: DECK
     identifiers:
+      abuId: '1100912'
       cardKingdomId: '184644'
       cardtraderId: '47617'
       mcmId: '246678'
       tcgplayerProductId: '42100'
+      tntId: '319976'
     subtype: EVENT
   New Phyrexia Event Deck War of Attrition:
     category: DECK
     identifiers:
+      abuId: '1100916'
       cardKingdomId: '184645'
       cardtraderId: '47618'
       mcmId: '246677'
       tcgplayerProductId: '42099'
+      tntId: '319977'
     subtype: EVENT
   New Phyrexia Event Decks Set of 2:
     category: SUBSET
     identifiers:
+      abuId: '1100917'
       cardtraderId: '47616'
       mcmId: '246676'
       tcgplayerProductId: '42101'
@@ -51,62 +60,76 @@ products:
   New Phyrexia Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1100918'
       cardKingdomId: '184281'
       cardtraderId: '47608'
       csiId: '153898'
       mcmId: '245809'
       scgId: SLD-MTG-BUN-NPH-EN
       tcgplayerProductId: '39402'
+      tntId: '319963'
     subtype: FAT_PACK
   New Phyrexia Intro Pack Artful Destruction:
     category: DECK
     identifiers:
+      abuId: '1100919'
       cardKingdomId: '184457'
       cardtraderId: '47609'
       mcmId: '246236'
       tcgplayerProductId: '39408'
+      tntId: '319974'
     subtype: INTRO
   New Phyrexia Intro Pack Devouring Skies:
     category: DECK
     identifiers:
+      abuId: '1100920'
       cardKingdomId: '184458'
       cardtraderId: '47610'
       mcmId: '246237'
       tcgplayerProductId: '39407'
+      tntId: '319973'
     subtype: INTRO
   New Phyrexia Intro Pack Display:
     category: DECK_BOX
     identifiers:
       cardtraderId: '47619'
       mcmId: '246242'
+      tntId: '323454'
     subtype: INTRO
   New Phyrexia Intro Pack Feast of Flesh:
     category: DECK
     identifiers:
+      abuId: '1100923'
       cardKingdomId: '184459'
       cardtraderId: '47611'
       mcmId: '246238'
       tcgplayerProductId: '39406'
+      tntId: '319972'
     subtype: INTRO
   New Phyrexia Intro Pack Life for Death:
     category: DECK
     identifiers:
+      abuId: '1100927'
       cardKingdomId: '184460'
       cardtraderId: '47613'
       mcmId: '246239'
       tcgplayerProductId: '39405'
+      tntId: '319971'
     subtype: INTRO
   New Phyrexia Intro Pack Ravaging Swarm:
     category: DECK
     identifiers:
+      abuId: '1100929'
       cardKingdomId: '184461'
       cardtraderId: '47615'
       mcmId: '246240'
       tcgplayerProductId: '39404'
+      tntId: '319970'
     subtype: INTRO
   New Phyrexia Intro Packs Set of 5:
     category: SUBSET
     identifiers:
+      abuId: '1100928'
       cardtraderId: '47620'
       mcmId: '246241'
       tcgplayerProductId: '39403'

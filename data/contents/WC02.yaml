@@ -1,5 +1,6 @@
 code: wc02
 products:
+  2002 World Championship Deck Box: []
   2002 World Championship Deck Brian Kibler:
     card_count: 75
     deck:
@@ -19,4 +20,18 @@ products:
     card_count: 75
     deck:
     - name: Sim Han How - Squirrel Opposition
+      set: wc02
+  2002 World Championship Decks Set of 4:
+    sealed:
+    - count: 1
+      name: 2002 World Championship Deck Brian Kibler
+      set: wc02
+    - count: 1
+      name: 2002 World Championship Deck Carlos Romao
+      set: wc02
+    - count: 1
+      name: 2002 World Championship Deck Raphael Levy
+      set: wc02
+    - count: 1
+      name: 2002 World Championship Deck Sim Han How
       set: wc02

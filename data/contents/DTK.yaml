@@ -43,7 +43,23 @@ products:
     - count: 2
       name: Dragons of Tarkir Booster Pack
       set: dtk
-  Dragons of Tarkir Intro Pack Display: []
+  Dragons of Tarkir Intro Pack Display:
+    sealed:
+    - count: 2
+      name: Dragons of Tarkir Intro Pack Cruel Plots
+      set: dtk
+    - count: 2
+      name: Dragons of Tarkir Intro Pack Enlightened Mastery
+      set: dtk
+    - count: 2
+      name: Dragons of Tarkir Intro Pack Furious Forces
+      set: dtk
+    - count: 2
+      name: Dragons of Tarkir Intro Pack Massed Ranks
+      set: dtk
+    - count: 2
+      name: Dragons of Tarkir Intro Pack Relentless Rush
+      set: dtk
   Dragons of Tarkir Intro Pack Enlightened Mastery:
     card_count: 60
     deck:
@@ -109,10 +125,54 @@ products:
     - count: 1
       name: Dragons of Tarkir Intro Pack Relentless Rush
       set: dtk
-  Dragons of Tarkir Prerelease Kit Atarka Battle with Savagery: []
-  Dragons of Tarkir Prerelease Kit Dromoka Battle with Endurance: []
-  Dragons of Tarkir Prerelease Kit Kolaghan Battle with Speed: []
-  Dragons of Tarkir Prerelease Kit Ojutai Battle with Cunning: []
+  Dragons of Tarkir Prerelease Kit Atarka Battle with Savagery:
+    card_count: 16
+    pack:
+    - code: prerelease-atarka
+      set: dtk
+    sealed:
+    - count: 4
+      name: Dragons of Tarkir Booster Pack
+      set: dtk
+    - count: 1
+      name: Fate Reforged Booster Pack
+      set: frf
+  Dragons of Tarkir Prerelease Kit Dromoka Battle with Endurance:
+    card_count: 16
+    pack:
+    - code: prerelease-dromoka
+      set: dtk
+    sealed:
+    - count: 4
+      name: Dragons of Tarkir Booster Pack
+      set: dtk
+    - count: 1
+      name: Fate Reforged Booster Pack
+      set: frf
+  Dragons of Tarkir Prerelease Kit Kolaghan Battle with Speed:
+    card_count: 16
+    pack:
+    - code: prerelease-kolaghan
+      set: dtk
+    sealed:
+    - count: 4
+      name: Dragons of Tarkir Booster Pack
+      set: dtk
+    - count: 1
+      name: Fate Reforged Booster Pack
+      set: frf
+  Dragons of Tarkir Prerelease Kit Ojutai Battle with Cunning:
+    card_count: 16
+    pack:
+    - code: prerelease-ojutai
+      set: dtk
+    sealed:
+    - count: 4
+      name: Dragons of Tarkir Booster Pack
+      set: dtk
+    - count: 1
+      name: Fate Reforged Booster Pack
+      set: frf
   Dragons of Tarkir Prerelease Kit Set of 5:
     sealed:
     - count: 1
@@ -130,4 +190,15 @@ products:
     - count: 1
       name: Dragons of Tarkir Prerelease Kit Silumgar Battle with Ruthlessness
       set: dtk
-  Dragons of Tarkir Prerelease Kit Silumgar Battle with Ruthlessness: []
+  Dragons of Tarkir Prerelease Kit Silumgar Battle with Ruthlessness:
+    card_count: 16
+    pack:
+    - code: prerelease-silumgar
+      set: dtk
+    sealed:
+    - count: 4
+      name: Dragons of Tarkir Booster Pack
+      set: dtk
+    - count: 1
+      name: Fate Reforged Booster Pack
+      set: frf

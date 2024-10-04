@@ -8,64 +8,76 @@ products:
   Dominaria Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1496446'
       cardKingdomId: '217676'
       cardtraderId: '48654'
       csiId: '243766'
       mcmId: '298744'
       scgId: SLD-MTG-BBX-DOM-EN
       tcgplayerProductId: '158423'
+      tntId: '1158687'
     release_date: '2018-04-27'
     subtype: DRAFT
   Dominaria Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '158424'
+      tntId: '1158688'
     release_date: '2018-04-27'
     subtype: DRAFT
   Dominaria Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1973121'
       cardKingdomId: '217678'
       cardtraderId: '48648'
       csiId: '244628'
       mcmId: '298745'
       scgId: SLD-MTG-PCK-DOM-EN
       tcgplayerProductId: '158425'
+      tntId: '1158686'
     release_date: '2018-04-27'
     subtype: DRAFT
   Dominaria Bundle:
     category: BUNDLE
     identifiers:
+      abuId: '1496685'
       cardKingdomId: '217680'
       cardtraderId: '48662'
       csiId: '244642'
       mcmId: '298743'
       scgId: SLD-MTG-BUN-DOM-EN
       tcgplayerProductId: '158426'
+      tntId: '1158697'
     release_date: '2018-04-27'
     subtype: DEFAULT
   Dominaria Planeswalker Deck Chandra:
     category: DECK
     identifiers:
+      abuId: '1496444'
       cardKingdomId: '217728'
       cardtraderId: '48664'
       csiId: '244640'
       mcmId: '319290'
       tcgplayerProductId: '158427'
+      tntId: '1158684'
     release_date: '2018-03-01'
     subtype: PLANESWALKER
   Dominaria Planeswalker Deck Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      tntId: '1158689'
     subtype: PLANESWALKER
   Dominaria Planeswalker Deck Teferi:
     category: DECK
     identifiers:
+      abuId: '1496445'
       cardKingdomId: '217727'
       cardtraderId: '48663'
       csiId: '244641'
       mcmId: '319291'
       tcgplayerProductId: '158428'
+      tntId: '1158685'
     release_date: '2018-03-01'
     subtype: PLANESWALKER
   Dominaria Planeswalker Decks Set of 2:
@@ -77,6 +89,7 @@ products:
   Dominaria Prerelease Pack:
     category: LIMITED
     identifiers:
+      abuId: '1499386'
       cardtraderId: '48665'
       mcmId: '355773'
       tcgplayerProductId: '158430'

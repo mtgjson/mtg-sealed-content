@@ -1,42 +1,60 @@
 code: wc97
 products:
+  1997 World Championship Deck Box:
+    category: DECK_BOX
+    identifiers:
+      abuId: '1527128'
+    subtype: CHAMPIONSHIP
   1997 World Championship Deck Jakub Slemr:
     category: DECK
     identifiers:
+      abuId: '1100220'
       cardKingdomId: '240318'
       cardtraderId: '39896'
       csiId: '97845'
       mcmId: '250153'
       scgId: SLD-MTG-BXS-WCH1997-EN-JAKUBSLEMR
       tcgplayerProductId: '158276'
+      tntId: '108303'
     subtype: CHAMPIONSHIP
   1997 World Championship Deck Janosch Kuhn:
     category: DECK
     identifiers:
+      abuId: '1100225'
       cardKingdomId: '240319'
       cardtraderId: '39895'
       csiId: '97843'
       mcmId: '250154'
       scgId: SLD-MTG-BXS-WCH1997-EN-JANOSCHKUHN
       tcgplayerProductId: '158277'
+      tntId: '108304'
     subtype: CHAMPIONSHIP
   1997 World Championship Deck Paul McCabe:
     category: DECK
     identifiers:
+      abuId: '1100226'
       cardKingdomId: '240321'
       cardtraderId: '39894'
       csiId: '97847'
       mcmId: '249107'
       scgId: SLD-MTG-BXS-WCH1997-EN-PAULMCCABE
       tcgplayerProductId: '158279'
+      tntId: '108302'
     subtype: CHAMPIONSHIP
   1997 World Championship Deck Svend Geertsen:
     category: DECK
     identifiers:
+      abuId: '1100205'
       cardKingdomId: '240320'
       cardtraderId: '39893'
       csiId: '97849'
       mcmId: '250155'
       scgId: SLD-MTG-BXS-WCH1997-EN-SVENDGEERTSEN
       tcgplayerProductId: '158278'
+      tntId: '108305'
+    subtype: CHAMPIONSHIP
+  1997 World Championship Decks Set of 4:
+    category: SUBSET
+    identifiers:
+      abuId: '1476969'
     subtype: CHAMPIONSHIP

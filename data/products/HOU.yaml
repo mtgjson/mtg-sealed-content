@@ -3,63 +3,75 @@ products:
   Hour of Devastation Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1477004'
       cardKingdomId: '212827'
       cardtraderId: '48550'
       csiId: '232552'
       mcmId: '292568'
       scgId: SLD-MTG-BBX-HOU-EN
       tcgplayerProductId: '131456'
+      tntId: '1102285'
     release_date: '2017-07-14'
     subtype: DRAFT
   Hour of Devastation Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '131459'
+      tntId: '1102286'
     release_date: '2017-07-14'
     subtype: DRAFT
   Hour of Devastation Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1796198'
       cardKingdomId: '212828'
       cardtraderId: '48549'
       csiId: '232556'
       mcmId: '292569'
       tcgplayerProductId: '131457'
+      tntId: '1102284'
     release_date: '2017-07-14'
     subtype: DRAFT
   Hour of Devastation Bundle:
     category: BUNDLE
     identifiers:
+      abuId: '1477010'
       cardKingdomId: '212829'
       cardtraderId: '48559'
       csiId: '241726'
       mcmId: '292567'
       scgId: SLD-MTG-BUN-HOU-EN
       tcgplayerProductId: '131458'
+      tntId: '1114737'
     release_date: '2016-09-07'
     subtype: DEFAULT
   Hour of Devastation Planeswalker Deck Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      tntId: '1122076'
     subtype: PLANESWALKER
   Hour of Devastation Planeswalker Deck Nicol Bolas:
     category: DECK
     identifiers:
+      abuId: '1477011'
       cardKingdomId: '212882'
       cardtraderId: '48560'
       csiId: '232590'
       mcmId: '298473'
       tcgplayerProductId: '134894'
+      tntId: '1102283'
     release_date: '2017-07-14'
     subtype: PLANESWALKER
   Hour of Devastation Planeswalker Deck Nissa:
     category: DECK
     identifiers:
+      abuId: '1477012'
       cardKingdomId: '212881'
       cardtraderId: '48561'
       csiId: '232591'
       mcmId: '298556'
       tcgplayerProductId: '134895'
+      tntId: '1102282'
     release_date: '2017-07-14'
     subtype: PLANESWALKER
   Hour of Devastation Planeswalker Decks Set of 2:
@@ -71,10 +83,12 @@ products:
   Hour of Devastation Prerelease Pack:
     category: LIMITED
     identifiers:
+      abuId: '1477014'
       cardKingdomId: '213470'
       cardtraderId: '48562'
       mcmId: '299022'
       tcgplayerProductId: '137435'
+      tntId: '1190937'
     release_date: '2017-07-07'
     subtype: PRERELEASE
   Hour of Devastation Standard Showdown Booster:

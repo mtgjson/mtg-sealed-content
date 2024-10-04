@@ -3,74 +3,88 @@ products:
   Rivals of Ixalan Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1486300'
       cardKingdomId: '215984'
       cardtraderId: '48619'
       csiId: '243762'
       mcmId: '299079'
       scgId: SLD-MTG-BBX-RIX-EN
       tcgplayerProductId: '149404'
+      tntId: '1145971'
     release_date: '2018-01-19'
     subtype: DRAFT
   Rivals of Ixalan Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '149406'
+      tntId: '1145973'
     release_date: '2018-01-19'
     subtype: DRAFT
   Rivals of Ixalan Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1973144'
       cardKingdomId: '215985'
       cardtraderId: '48618'
       csiId: '244209'
       mcmId: '299080'
       tcgplayerProductId: '149405'
+      tntId: '1145972'
     release_date: '2018-01-19'
     subtype: DRAFT
   Rivals of Ixalan Bundle:
     category: BUNDLE
     identifiers:
+      abuId: '1486342'
       cardKingdomId: '215986'
       cardtraderId: '48627'
       csiId: '244214'
       mcmId: '299078'
       scgId: SLD-MTG-BUN-RIX-EN
       tcgplayerProductId: '154729'
+      tntId: '1145979'
     release_date: '2018-01-19'
     subtype: DEFAULT
   Rivals of Ixalan Planeswalker Deck Angrath:
     category: DECK
     identifiers:
+      abuId: '1486346'
       cardKingdomId: '216002'
       cardtraderId: '48629'
       csiId: '244213'
       mcmId: '314997'
       tcgplayerProductId: '154414'
+      tntId: '1145976'
     release_date: '2018-01-19'
     subtype: PLANESWALKER
   Rivals of Ixalan Planeswalker Deck Display:
     category: DECK_BOX
-    identifiers: {}
+    identifiers:
+      tntId: '1145978'
     subtype: PLANESWALKER
   Rivals of Ixalan Planeswalker Deck Vraska:
     category: DECK
     identifiers:
+      abuId: '1486379'
       cardKingdomId: '216001'
       cardtraderId: '48628'
       csiId: '244212'
       mcmId: '314998'
       tcgplayerProductId: '154415'
+      tntId: '1145975'
     release_date: '2018-01-19'
     subtype: PLANESWALKER
   Rivals of Ixalan Planeswalker Decks Set of 2:
     category: SUBSET
     identifiers:
+      abuId: '1486380'
       tcgplayerProductId: '154416'
     release_date: '2018-01-19'
     subtype: PLANESWALKER
   Rivals of Ixalan Prerelease Pack:
     category: LIMITED
     identifiers:
+      abuId: '1486381'
       cardKingdomId: '217030'
       cardtraderId: '48630'
       mcmId: '315639'

@@ -8,12 +8,14 @@ products:
   Scars of Mirrodin Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '1107992'
       cardKingdomId: '132079'
       cardtraderId: '47538'
       csiId: '98193'
       mcmId: '242507'
       scgId: SLD-MTG-BBX-SOM-EN
       tcgplayerProductId: '35749'
+      tntId: '299359'
     subtype: DRAFT
   Scars of Mirrodin Booster Box Case:
     category: BOOSTER_CASE
@@ -23,72 +25,88 @@ products:
   Scars of Mirrodin Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '1476939'
       cardKingdomId: '132071'
       cardtraderId: '47536'
       csiId: '98210'
       mcmId: '242506'
       scgId: SLD-MTG-PCK-SOM-EN
       tcgplayerProductId: '35747'
+      tntId: '299360'
     subtype: DRAFT
   Scars of Mirrodin Fat Pack:
     category: BUNDLE
     identifiers:
+      abuId: '1101099'
       cardKingdomId: '132111'
       cardtraderId: '47546'
       csiId: '98212'
       mcmId: '242508'
       scgId: SLD-MTG-BUN-SOM-EN
       tcgplayerProductId: '35746'
+      tntId: '299361'
     subtype: FAT_PACK
   Scars of Mirrodin Intro Pack Deadspread:
     category: DECK
     identifiers:
+      abuId: '1101103'
       cardKingdomId: '132546'
       cardtraderId: '47549'
       mcmId: '242640'
       tcgplayerProductId: '196803'
+      tntId: '299367'
     subtype: INTRO
   Scars of Mirrodin Intro Pack Display:
     category: DECK
     identifiers:
       cardtraderId: '47552'
       mcmId: '242509'
+      tntId: '299362'
     subtype: INTRO
   Scars of Mirrodin Intro Pack Metalcraft:
     category: DECK
     identifiers:
+      abuId: '1101114'
       cardKingdomId: '132545'
       cardtraderId: '47547'
       mcmId: '242639'
       tcgplayerProductId: '196802'
+      tntId: '299364'
     subtype: INTRO
   Scars of Mirrodin Intro Pack Myr of Mirrodin:
     category: DECK
     identifiers:
+      abuId: '1101115'
       cardKingdomId: '132544'
       cardtraderId: '47550'
       mcmId: '242638'
       tcgplayerProductId: '196801'
+      tntId: '299363'
     subtype: INTRO
   Scars of Mirrodin Intro Pack Phyrexian Poison:
     category: DECK
     identifiers:
+      abuId: '1101117'
       cardKingdomId: '132548'
       cardtraderId: '47551'
       mcmId: '242642'
       tcgplayerProductId: '196805'
+      tntId: '299366'
     subtype: INTRO
   Scars of Mirrodin Intro Pack Relic Breaker:
     category: DECK
     identifiers:
+      abuId: '1101119'
       cardKingdomId: '132547'
       cardtraderId: '47548'
       mcmId: '242641'
       tcgplayerProductId: '196804'
+      tntId: '299365'
     subtype: INTRO
   Scars of Mirrodin Intro Pack Set of 5:
     category: SUBSET
     identifiers:
+      abuId: '1101122'
       cardtraderId: '47554'
       mcmId: '242643'
     subtype: INTRO
