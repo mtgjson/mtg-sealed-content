@@ -1,4 +1,17 @@
 code: bchr
 products:
-  Chronicles Foreign Black Border Japanese Booster Box: []
-  Chronicles Foreign Black Border Japanese Booster Pack: []
+  Chronicles Foreign Black Border Japanese Booster Box:
+    sealed:
+    - set: bchr
+      name: Chronicles Foreign Black Border Japanese Booster Pack
+      count: 45
+  Chronicles Foreign Black Border Japanese Booster Box Case: 
+    sealed:
+    - set: bchr
+      name: Chronicles Foreign Black Border Japanese Booster Box
+      count: 6
+  Chronicles Foreign Black Border Japanese Booster Pack: 
+    card_count: 12
+    pack:
+    - set: chr
+      code: default
