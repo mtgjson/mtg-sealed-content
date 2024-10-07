@@ -1,6 +1,19 @@
 code: fwb
 products:
-  Foreign White Border Booster Box: []
+  Foreign White Border Booster Box:
+    sealed:
+    - set: fwb
+      name: Foreign White Border Booster Pack
+      count: 36
+  Foreign White Border Booster Box Case:
+    sealed:
+    - set: fwb
+      name: Foreign White Border Booster Box
+      count: 6
   Foreign White Border Booster Pack: []
   Foreign White Border Starter Deck: []
-  Foreign White Border Starter Deck Display: []
+  Foreign White Border Starter Deck Display:
+    sealed:
+    - set: fwb
+      name: Foreign White Border Starter Deck
+      count: 10
