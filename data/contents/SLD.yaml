@@ -4032,23 +4032,28 @@ products:
         name: Echo of Eons
         number: 821
         set: sld
+      chance: 1
     - card:
       - foil: true
         name: Hive Mind
         number: 822
         set: sld
+      chance: 99
     - card:
       - foil: true
         name: Chaos Warp
         number: 823
         set: sld
+      chance: 200
     - card:
       - foil: true
         name: Evolving Wilds
         number: 824
         set: sld
+      chance: 200
     variable_mode:
       count: 1
+      weight: 500
   Secret Lair Drop Secret Lair x Brain Dead Creatures Rainbow Foil:
     card_count: 5
     deck:
@@ -4060,23 +4065,28 @@ products:
         name: Echo of Eons
         number: 821
         set: sld
+      chance: 1
     - card:
       - foil: true
         name: Hive Mind
         number: 822
         set: sld
+      chance: 99
     - card:
       - foil: true
         name: Chaos Warp
         number: 823
         set: sld
+      chance: 200
     - card:
       - foil: true
         name: Evolving Wilds
         number: 824
         set: sld
+      chance: 200
     variable_mode:
       count: 1
+      weight: 500
   Secret Lair Drop Secret Lair x Brain Dead Lands:
     card_count: 10
     deck:
@@ -4088,23 +4098,28 @@ products:
         name: Echo of Eons
         number: 821
         set: sld
+      chance: 1
     - card:
       - foil: true
         name: Hive Mind
         number: 822
         set: sld
+      chance: 99
     - card:
       - foil: true
         name: Chaos Warp
         number: 823
         set: sld
+      chance: 200
     - card:
       - foil: true
         name: Evolving Wilds
         number: 824
         set: sld
+      chance: 200
     variable_mode:
       count: 1
+      weight: 500
   Secret Lair Drop Secret Lair x Brain Dead Lands Rainbow Foil:
     card_count: 10
     deck:
@@ -4116,23 +4131,28 @@ products:
         name: Echo of Eons
         number: 821
         set: sld
+      chance: 1
     - card:
       - foil: true
         name: Hive Mind
         number: 822
         set: sld
+      chance: 99
     - card:
       - foil: true
         name: Chaos Warp
         number: 823
         set: sld
+      chance: 200
     - card:
       - foil: true
         name: Evolving Wilds
         number: 824
         set: sld
+      chance: 200
     variable_mode:
       count: 1
+      weight: 500
   Secret Lair Drop Secret Lair x Brain Dead Staples:
     card_count: 5
     deck:
