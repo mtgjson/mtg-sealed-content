@@ -4190,19 +4190,24 @@ products:
     variable_mode:
       count: 1
   Secret Lair Drop Secret Lair x Chucky:
+    card:
+    - name: Stuffy Doll
+      number: 880
+      set: sld
     card_count: 5
     deck:
     - name: Chucky
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Chucky Foil:
+    card:
+    - foil: true
+      name: Stuffy Doll
+      number: 880
+      set: sld
     card_count: 5
     deck:
     - name: Chucky foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Creepshow:
     card:
     - name: Terror
@@ -4449,33 +4454,43 @@ products:
     - name: Fortnite Landmarks and Locations foil
       set: sld
   Secret Lair Drop Secret Lair x Ghostbusters Slimer:
+    card:
+    - name: Yargle and Multani
+      number: 872
+      set: sld
     card_count: 5
     deck:
     - name: Ghostbusters Slimer
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Ghostbusters Slimer Rainbow Foil:
+    card:
+    - foil: true
+      name: Yargle and Multani
+      number: 872
+      set: sld
     card_count: 5
     deck:
     - name: Ghostbusters Slimer foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Ghostbusters The Real Ghostbusters:
+    card:
+    - name: Soul-Guide Lantern
+      number: 871
+      set: sld
     card_count: 5
     deck:
     - name: Ghostbusters The Real Ghostbusters
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Ghostbusters The Real Ghostbusters Rainbow Foil:
+    card:
+    - foil: true
+      name: Soul-Guide Lantern
+      number: 871
+      set: sld
     card_count: 5
     deck:
     - name: Ghostbusters The Real Ghostbusters foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation English:
     card_count: 6
     deck:
@@ -4496,19 +4511,24 @@ products:
     copy: Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation English Rainbow
       Foil
   Secret Lair Drop Secret Lair x Hatsune Miku Electric Entourage English:
+    card:
+    - name: Chandra, Flamecaller
+      number: 807
+      set: sld
     card_count: 5
     deck:
     - name: Hatsune Miku Electric Entourage
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Hatsune Miku Electric Entourage English Rainbow Foil:
+    card:
+    - foil: true
+      name: Chandra, Flamecaller
+      number: 807
+      set: sld
     card_count: 5
     deck:
     - name: Hatsune Miku Electric Entourage foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Hatsune Miku Electric Entourage Japanese: []
   Secret Lair Drop Secret Lair x Hatsune Miku Electric Entourage Japanese Rainbow Foil: []
   Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar English:
@@ -4804,8 +4824,7 @@ products:
     - name: Bonus card unknown
   Secret Lair Drop Sheldons Spellbook:
     card:
-    - foil: true
-      name: Keen Duelist
+    - name: Keen Duelist
       number: 828
       set: sld
     card_count: 7
