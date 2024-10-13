@@ -52,6 +52,10 @@ products:
       mcmId: '370211'
     release_date: '2019-02-19'
     subtype: COLLECTOR
+  Ravnica Allegiance Collector Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: COLLECTOR
   Ravnica Allegiance Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -185,6 +189,10 @@ products:
       mcmId: '370593'
       tcgplayerProductId: '183337'
     release_date: '2019-02-26'
+    subtype: THEME
+  Ravnica Allegiance Theme Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
     subtype: THEME
   Ravnica Allegiance Theme Booster Pack Azorius:
     category: BOOSTER_PACK

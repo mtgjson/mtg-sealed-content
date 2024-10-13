@@ -5,7 +5,11 @@ products:
     - count: 36
       name: Tenth Edition Booster Pack
       set: 10e
-  Tenth Edition Booster Box Case: []
+  Tenth Edition Booster Box Case:
+    sealed:
+    - count: 6
+      name: Tenth Edition Booster Box
+      set: 10e
   Tenth Edition Booster Pack:
     card_count: 15
     pack:

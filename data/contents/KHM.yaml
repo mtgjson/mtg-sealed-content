@@ -42,6 +42,11 @@ products:
     - count: 30
       name: Kaldheim Set Booster Pack
       set: khm
+  Kaldheim Set Booster Box Case:
+    sealed:
+    - set: khm
+      name: Kaldheim Set Booster Box
+      count: 6
   Kaldheim Set Booster Pack:
     card_count: 11
     pack:
@@ -77,6 +82,11 @@ products:
     - count: 2
       name: Kaldheim Theme Booster Viking
       set: khm
+  Kaldheim Theme Booster Box Case:
+    sealed:
+    - set: khm
+      name: Kaldheim Theme Booster Box
+      count: 6
   Kaldheim Theme Booster Green:
     card_count: 35
     pack:

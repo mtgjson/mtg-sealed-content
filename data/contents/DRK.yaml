@@ -5,6 +5,11 @@ products:
     - count: 60
       name: The Dark Booster Pack
       set: drk
+  The Dark Booster Box Case:
+    sealed:
+    - set: drk
+      count: 6
+      name: The Dark Booster Box
   The Dark Booster Pack:
     card_count: 8
     pack:
@@ -14,6 +19,11 @@ products:
     sealed:
     - count: 60
       name: The Dark Italian Booster Pack
+      set: drk
+  The Dark Italian Booster Box Case:
+    sealed:
+    - count: 6
+      name: The Dark Italian Booster Box
       set: drk
   The Dark Italian Booster Pack:
     card_count: 8

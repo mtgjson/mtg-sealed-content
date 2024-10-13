@@ -775,87 +775,88 @@ providers_dict = {
 }
 
 
-def main(secret):
-    # Load any prerequisite data (auth or similar)
-    for provider in providers_dict.values():
-        if provider.get("disabled") or provider.get("preload_func") is None:
-            continue
-        provider["preload_func"](secret)
-
-    # Set up known product objects
-    with open("data/ignore.yaml") as ignore_file:
-        ignore = yaml.safe_load(ignore_file)
-
-    ids = dict()
-    reviews = dict()
-
-    # Set up the list of ids and items to review for each provider
-    for key, provider in providers_dict.items():
-        provider_ids = set()
-        if ignore.get(key):
-            provider_ids = set(str(x) for x in ignore[key].keys())
-        ids[key] = provider_ids
-        reviews[key] = dict()
-
-    # Load data from the known products
-    for known_file in Path("data/products").glob("*.yaml"):
-        with open(known_file, "rb") as yfile:
-            loaded_data = yaml.safe_load(yfile)
-        with open(known_file, "w") as yfile:
-            yaml.dump(loaded_data, yfile)
-
-        # For each provider, load every known id
+def main(secret, pull_data=True):
+    if pull_data:
+        # Load any prerequisite data (auth or similar)
+        for provider in providers_dict.values():
+            if provider.get("disabled") or provider.get("preload_func") is None:
+                continue
+            provider["preload_func"](secret)
+    
+        # Set up known product objects
+        with open("data/ignore.yaml") as ignore_file:
+            ignore = yaml.safe_load(ignore_file)
+    
+        ids = dict()
+        reviews = dict()
+    
+        # Set up the list of ids and items to review for each provider
+        for key, provider in providers_dict.items():
+            provider_ids = set()
+            if ignore.get(key):
+                provider_ids = set(str(x) for x in ignore[key].keys())
+            ids[key] = provider_ids
+            reviews[key] = dict()
+    
+        # Load data from the known products
+        for known_file in Path("data/products").glob("*.yaml"):
+            with open(known_file, "rb") as yfile:
+                loaded_data = yaml.safe_load(yfile)
+            with open(known_file, "w") as yfile:
+                yaml.dump(loaded_data, yfile)
+    
+            # For each provider, load every known id
+            for key, provider in providers_dict.items():
+                if provider.get("disabled"):
+                    continue
+                ids[key].update(
+                    {
+                        str(p["identifiers"][provider["identifier"]])
+                        for p in loaded_data["products"].values()
+                        if "identifiers" in p and p["identifiers"].get(provider["identifier"])
+                    }
+                )
+    
+        # Update all the ids
         for key, provider in providers_dict.items():
             if provider.get("disabled"):
                 continue
-            ids[key].update(
-                {
-                    str(p["identifiers"][provider["identifier"]])
-                    for p in loaded_data["products"].values()
-                    if "identifiers" in p and p["identifiers"].get(provider["identifier"])
+            try:
+                products = provider["load_func"](secret)
+            except Exception as e:
+                print(f"Could not load provider {key}")
+                print(repr(e))
+                products = [{
+                    "name": f"Could not load provider {key}",
+                    "id": ""
+                }]
+    
+            for product in products:
+                if str(product["id"]) in ids[key]:
+                    continue
+    
+                prod_name = product["name"]
+                i = 0
+                while prod_name in reviews[key]:
+                    i = i + 1
+                    prod_name = product["name"] + " " + str(i)
+                reviews[key][prod_name] = {
+                    "identifiers": {provider["identifier"]: str(product["id"])},
+                    "category": "UNKNOWN",
+                    "subtype": "UNKNOWN"
                 }
-            )
-
-    # Update all the ids
-    for key, provider in providers_dict.items():
-        if provider.get("disabled"):
-            continue
-        try:
-            products = provider["load_func"](secret)
-        except Exception as e:
-            print(f"Could not load provider {key}")
-            print(repr(e))
-            products = [{
-                "name": f"Could not load provider {key}",
-                "id": ""
-            }]
-
-        for product in products:
-            if str(product["id"]) in ids[key]:
-                continue
-
-            prod_name = product["name"]
-            i = 0
-            while prod_name in reviews[key]:
-                i = i + 1
-                prod_name = product["name"] + " " + str(i)
-            reviews[key][prod_name] = {
-                "identifiers": {provider["identifier"]: str(product["id"])},
-                "category": "UNKNOWN",
-                "subtype": "UNKNOWN"
-            }
-            ids[key].add(str(product["id"]))
-            if product.get("releaseDate") != None:
-                try:
-                    date_obj = datetime.strptime(product["releaseDate"], "%Y-%m-%dT%H:%M:%S")
-                except Exception:
-                    date_obj = datetime.strptime(product["releaseDate"], "%Y-%m-%d %H:%M:%S")
-                    pass
-                reviews[key][product["name"]]["release_date"] = date_obj.strftime("%Y-%m-%d")
-
-    # Dump new products into the review section
-    with open("data/review.yaml", "w") as yfile:
-        yaml.dump(reviews, yfile)
+                ids[key].add(str(product["id"]))
+                if product.get("releaseDate") != None:
+                    try:
+                        date_obj = datetime.strptime(product["releaseDate"], "%Y-%m-%dT%H:%M:%S")
+                    except Exception:
+                        date_obj = datetime.strptime(product["releaseDate"], "%Y-%m-%d %H:%M:%S")
+                        pass
+                    reviews[key][product["name"]]["release_date"] = date_obj.strftime("%Y-%m-%d")
+    
+        # Dump new products into the review section
+        with open("data/review.yaml", "w") as yfile:
+            yaml.dump(reviews, yfile)
 
     # Add any new/modified products to the contents files
     for set_file in Path("data/products").glob("*.yaml"):
@@ -886,6 +887,9 @@ if __name__ == "__main__":
     except Exception:
         print("Unable to parse auth - only non-authenticated requests will succeed")
         secret = {}
+        if sys.argv[1] == "--parseonly":
+            main({}, False)
+            quit()
         pass
 
     for key, provider in providers_dict.items():

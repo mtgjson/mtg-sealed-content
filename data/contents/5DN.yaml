@@ -5,7 +5,11 @@ products:
     - count: 36
       name: Fifth Dawn Booster Pack
       set: 5dn
-  Fifth Dawn Booster Box Case: []
+  Fifth Dawn Booster Box Case:
+    sealed:
+    - count: 6
+      name: Fifth Dawn Booster Box
+      set: 5dn
   Fifth Dawn Booster Pack:
     card_count: 15
     pack:

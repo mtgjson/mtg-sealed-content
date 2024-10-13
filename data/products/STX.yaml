@@ -26,11 +26,9 @@ products:
       tntId: '1699179'
     release_date: '2021-04-23'
     subtype: COLLECTOR
-  Strixhaven School of Mages Collector Booster Hanger Pack:
-    category: BOOSTER_PACK
-    identifiers:
-      tcgplayerProductId: '236690'
-    release_date: '2021-04-23'
+  Strixhaven School of Mages Collector Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
     subtype: COLLECTOR
   Strixhaven School of Mages Collector Booster Pack:
     category: BOOSTER_PACK
@@ -83,6 +81,10 @@ products:
     language: Japanese
     release_date: '2021-04-23'
     subtype: DRAFT
+  Strixhaven School of Mages Japanese Draft Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: DRAFT
   Strixhaven School of Mages Japanese Draft Booster Pack:
     category: BOOSTER_PACK
     identifiers: {}
@@ -96,6 +98,10 @@ products:
       tntId: '1711048'
     language: Japanese
     release_date: '2021-04-23'
+    subtype: SET
+  Strixhaven School of Mages Japanese Set Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
     subtype: SET
   Strixhaven School of Mages Japanese Set Booster Pack:
     category: BOOSTER_PACK
@@ -164,6 +170,10 @@ products:
       tntId: '1699177'
     release_date: '2021-04-23'
     subtype: SET
+  Strixhaven School of Mages Set Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
+    subtype: SET
   Strixhaven School of Mages Set Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -184,6 +194,10 @@ products:
       mcmId: '540396'
       tcgplayerProductId: '233252'
     release_date: '2021-04-23'
+    subtype: THEME
+  Strixhaven School of Mages Theme Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers: {}
     subtype: THEME
   Strixhaven School of Mages Theme Booster Pack Lorehold:
     category: BOOSTER_PACK

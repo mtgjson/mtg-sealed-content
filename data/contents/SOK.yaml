@@ -5,7 +5,11 @@ products:
     - count: 36
       name: Saviors of Kamigawa Booster Pack
       set: sok
-  Saviors of Kamigawa Booster Box Case: []
+  Saviors of Kamigawa Booster Box Case:
+    sealed:
+    - set: sok
+      name: Saviors of Kamigawa Booster Box
+      count: 6
   Saviors of Kamigawa Booster Pack:
     card_count: 15
     pack:

@@ -45,7 +45,19 @@ products:
     - count: 1
       name: Mirrodin Besieged Event Deck Into the Breach
       set: mbs
-  Mirrodin Besieged Faction Booster Box: []
+  Mirrodin Besieged Faction Booster Box:
+    sealed:
+    - set: mbs
+      name: Mirrodin Besieged Mirran Faction Booster Pack
+      count: 18
+    - set: mbs
+      name: Mirrodin Besieged Phyrexian Faction Booster Pack
+      count: 18
+  Mirrodin Besieged Faction Booster Box Case:
+    sealed:
+    - set: mbs
+      name: Mirrodin Besieged Faction Booster Box
+      count: 6
   Mirrodin Besieged Fat Pack: []
   Mirrodin Besieged Intro Pack Battle Cries:
     card_count: 60
@@ -99,7 +111,6 @@ products:
       set: mbs
   Mirrodin Besieged Mirran Faction Booster Pack: []
   Mirrodin Besieged Phyrexian Faction Booster Pack: []
-  Mirrodin Besieged Prerelease Box: []
   Mirrodin Besieged Six Card Booster Pack:
     card_count: 6
     pack:

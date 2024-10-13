@@ -1,6 +1,19 @@
 code: fbb
 products:
-  Foreign Black Border Booster Box: []
+  Foreign Black Border Booster Box:
+    sealed:
+    - set: fbb
+      count: 36
+      name: Foreign Black Border Booster Pack
+  Foreign Black Border Booster Box Case:
+    sealed:
+    - set: fbb
+      count: 6
+      name: Foreign Black Border Booster Box
   Foreign Black Border Booster Pack: []
   Foreign Black Border Starter Deck: []
-  Foreign Black Border Starter Deck Display: []
+  Foreign Black Border Starter Deck Display:
+    sealed:
+    - set: fbb
+      name: Foreign Black Border Starter Deck
+      count: 10
