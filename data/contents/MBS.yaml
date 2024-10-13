@@ -47,17 +47,17 @@ products:
       set: mbs
   Mirrodin Besieged Faction Booster Box:
     sealed:
-    - set: mbs
+    - count: 18
       name: Mirrodin Besieged Mirran Faction Booster Pack
-      count: 18
-    - set: mbs
+      set: mbs
+    - count: 18
       name: Mirrodin Besieged Phyrexian Faction Booster Pack
-      count: 18
+      set: mbs
   Mirrodin Besieged Faction Booster Box Case:
     sealed:
-    - set: mbs
+    - count: 6
       name: Mirrodin Besieged Faction Booster Box
-      count: 6
+      set: mbs
   Mirrodin Besieged Fat Pack: []
   Mirrodin Besieged Intro Pack Battle Cries:
     card_count: 60

@@ -21,9 +21,9 @@ products:
       set: stx
   Strixhaven School of Mages Collector Booster Box Case:
     sealed:
-    - set: stx
+    - count: 6
       name: Strixhaven School of Mages Collector Booster Box
-      count: 6
+      set: stx
   Strixhaven School of Mages Collector Booster Pack:
     card_count: 15
     pack:
@@ -51,9 +51,9 @@ products:
       set: stx
   Strixhaven School of Mages Japanese Draft Booster Box Case:
     sealed:
-    - set: stx
+    - count: 6
       name: Strixhaven School of Mages Japanese Draft Booster Box
-      count: 6
+      set: stx
   Strixhaven School of Mages Japanese Draft Booster Pack:
     card_count: 15
     pack:
@@ -66,9 +66,9 @@ products:
       set: stx
   Strixhaven School of Mages Japanese Set Booster Box Case:
     sealed:
-    - set: stx
-      count: 6
+    - count: 6
       name: Strixhaven School of Mages Japanese Set Booster Box
+      set: stx
   Strixhaven School of Mages Japanese Set Booster Pack:
     card_count: 12
     pack:
@@ -103,9 +103,9 @@ products:
       set: stx
   Strixhaven School of Mages Set Booster Box Case:
     sealed:
-    - set: stx
+    - count: 6
       name: Strixhaven School of Mages Set Booster Box
-      count: 6
+      set: stx
   Strixhaven School of Mages Set Booster Pack:
     card_count: 12
     pack:
@@ -130,9 +130,9 @@ products:
       set: stx
   Strixhaven School of Mages Theme Booster Box Case:
     sealed:
-    - set: stx
+    - count: 6
       name: Strixhaven School of Mages Theme Booster Box
-      count: 6
+      set: stx
   Strixhaven School of Mages Theme Booster Pack Lorehold:
     card_count: 35
     pack:
