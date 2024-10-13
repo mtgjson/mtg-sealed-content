@@ -100,7 +100,7 @@ products:
     - count: 1
       name: Zendikar Rising Expedition Box Topper
       set: zne
-  Zendikar Rising Set Booster Case:
+  Zendikar Rising Set Booster Box Case:
     sealed:
     - count: 6
       name: Zendikar Rising Set Booster Box
@@ -140,6 +140,11 @@ products:
     - count: 2
       name: Zendikar Rising Theme Booster Party
       set: znr
+  Zendikar Rising Theme Booster Box Case:
+    sealed:
+    - set: znr
+      name: Zendikar Rising Theme Booster Box
+      count: 6
   Zendikar Rising Theme Booster Green:
     card_count: 35
     pack:

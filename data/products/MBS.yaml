@@ -69,6 +69,7 @@ products:
       cardtraderId: '51195'
       csiId: '97907'
       mcmId: '245556'
+      tcgplayerProductId: '117598'
     subtype: OTHER
   Mirrodin Besieged Faction Booster Box Case:
     category: BOOSTER_CASE
@@ -156,11 +157,6 @@ products:
       tcgplayerProductId: '72026'
       tntId: '305941'
     subtype: OTHER
-  Mirrodin Besieged Prerelease Box:
-    category: LIMITED
-    identifiers:
-      tcgplayerProductId: '117598'
-    subtype: PRERELEASE
   Mirrodin Besieged Six Card Booster Pack:
     category: BOOSTER_PACK
     identifiers:
