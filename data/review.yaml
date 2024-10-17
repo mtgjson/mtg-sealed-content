@@ -19,44 +19,61 @@ abugames:
     identifiers:
       abuId: '1100221'
     subtype: UNKNOWN
-cardKingdom: {}
+cardKingdom:
+  Foundations Beginner Box:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '304694'
+    subtype: UNKNOWN
+  Foundations Bundle:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '304695'
+    subtype: UNKNOWN
+  Foundations Collector Booster Box:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '304696'
+    subtype: UNKNOWN
+  Foundations Collector Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '304697'
+    subtype: UNKNOWN
+  Foundations Jumpstart Booster Box:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '304698'
+    subtype: UNKNOWN
+  Foundations Jumpstart Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '304699'
+    subtype: UNKNOWN
+  Foundations Play Booster Box:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '304700'
+    subtype: UNKNOWN
+  Foundations Play Booster Combo Pack:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '304705'
+    subtype: UNKNOWN
+  Foundations Play Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '304701'
+    subtype: UNKNOWN
+  Foundations Starter Collection:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '304703'
+    subtype: UNKNOWN
 cardMarket: {}
 cardTrader: {}
 coolstuffinc: {}
 miniaturemarket: {}
-starcitygames:
-  Could not load provider starcitygames:
-    category: UNKNOWN
-    identifiers:
-      scgId: ''
-    subtype: UNKNOWN
-tcgplayer:
-  Duskmourn House of Horror Collector Booster Omega Box:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '586669'
-    subtype: UNKNOWN
-  Ravnica Remastered Collector Booster Display Master Case:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '517711'
-    subtype: UNKNOWN
-  Strixhaven School of Mages Collector Booster Hanger Pack:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '236690'
-    release_date: '2021-04-23'
-    subtype: UNKNOWN
-  The Lord of the Rings Tales of Middle earth Special Edition Collector Booster Display Master Case:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '515915'
-    release_date: '2023-06-23'
-    subtype: UNKNOWN
-  The Lost Caverns of Ixalan Collector Booster Display Master Case:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '516617'
-    release_date: '2023-11-17'
-    subtype: UNKNOWN
+starcitygames: {}
+tcgplayer: {}
 trollandtoad: {}
