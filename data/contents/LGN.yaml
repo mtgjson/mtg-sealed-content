@@ -5,7 +5,11 @@ products:
     - count: 36
       name: Legions Booster Pack
       set: lgn
-  Legions Booster Box Case: []
+  Legions Booster Box Case:
+    sealed:
+    - set: lgn
+      name: Legions Booster Box
+      count: 6
   Legions Booster Pack:
     card_count: 15
     pack:
@@ -58,4 +62,17 @@ products:
     deck:
     - name: Zombies Unleashed
       set: lgn
-  Legions Theme Decks Set of 4: []
+  Legions Theme Decks Set of 4:
+    sealed:
+    - set: lgn
+      name: Legions Theme Deck Elvish Rage
+      count: 1
+    - set: lgn
+      name: Legions Theme Deck Morph Mayhem
+      count: 1
+    - set: lgn
+      name: Legions Theme Deck Sliver Shivers
+      count: 1
+    - set: lgn
+      name: Legions Theme Deck Zombies Unleashed
+      count: 1

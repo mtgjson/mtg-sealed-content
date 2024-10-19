@@ -35,8 +35,40 @@ products:
     - count: 2
       name: Oath of the Gatewatch Booster Pack
       set: ogw
-  Oath of the Gatewatch Intro Pack Display: []
-  Oath of the Gatewatch Intro Pack Set of 5: []
+  Oath of the Gatewatch Intro Pack Display:
+    sealed:
+    - set: ogw
+      name: Oath of the Gatewatch Intro Pack Concerted Effort
+      count: 2
+    - set: ogw
+      name: Oath of the Gatewatch Intro Pack Desperate Stand
+      count: 2
+    - set: ogw
+      name: Oath of the Gatewatch Intro Pack Surge of Resistance
+      count: 2
+    - set: ogw
+      name: Oath of the Gatewatch Intro Pack Twisted Reality
+      count: 2
+    - set: ogw
+      name: Oath of the Gatewatch Intro Pack Vicious Cycle
+      count: 2
+  Oath of the Gatewatch Intro Pack Set of 5:
+    sealed:
+    - set: ogw
+      name: Oath of the Gatewatch Intro Pack Concerted Effort
+      count: 1
+    - set: ogw
+      name: Oath of the Gatewatch Intro Pack Desperate Stand
+      count: 1
+    - set: ogw
+      name: Oath of the Gatewatch Intro Pack Surge of Resistance
+      count: 1
+    - set: ogw
+      name: Oath of the Gatewatch Intro Pack Twisted Reality
+      count: 1
+    - set: ogw
+      name: Oath of the Gatewatch Intro Pack Vicious Cycle
+      count: 1
   Oath of the Gatewatch Intro Pack Surge of Resistance:
     card_count: 60
     deck:

@@ -5,7 +5,11 @@ products:
     - count: 36
       name: Invasion Booster Pack
       set: inv
-  Invasion Booster Box Case: []
+  Invasion Booster Box Case:
+    sealed:
+    - set: inv
+      count: 6
+      name: Invasion Booster Box
   Invasion Booster Pack:
     card_count: 15
     pack:
