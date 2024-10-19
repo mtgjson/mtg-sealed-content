@@ -1,5 +1,17 @@
 code: mb2
 products:
-  Mystery Booster 2 Box: []
-  Mystery Booster 2 Box Case: []
-  Mystery Booster 2 Pack: []
+  Mystery Booster 2 Box: 
+    sealed:
+    - set: mb2
+      name: Mystery Booster 2 Pack
+      count: 24
+  Mystery Booster 2 Box Case:
+    sealed:
+    - set: mb2
+      count: 6
+      name: Mystery Booster 2 Box
+  Mystery Booster 2 Pack:
+    pack:
+    - set: mb2
+      code: default
+    card_count: 15

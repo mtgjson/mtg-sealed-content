@@ -5,7 +5,11 @@ products:
     - count: 36
       name: Scourge Booster Pack
       set: scg
-  Scourge Booster Box Case: []
+  Scourge Booster Box Case:
+    sealed:
+    - set: scg
+      name: Scourge Booster Box
+      count: 6
   Scourge Booster Pack:
     card_count: 15
     pack:
@@ -57,4 +61,17 @@ products:
     deck:
     - name: Storm Surge
       set: scg
-  Scourge Theme Decks Set of 4: []
+  Scourge Theme Decks Set of 4:
+    sealed:
+    - count: 1
+      name: Scourge Theme Deck Goblin Mob
+      set: scg
+    - count: 1
+      name: Scourge Theme Deck Max Attax
+      set: scg
+    - count: 1
+      name: Scourge Theme Deck Pulverize
+      set: scg
+    - count: 1
+      name: Scourge Theme Deck Storm Surge
+      set: scg
