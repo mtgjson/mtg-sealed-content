@@ -5,7 +5,11 @@ products:
     - count: 36
       name: Ravnica Booster Pack
       set: rav
-  Ravnica Booster Box Case: []
+  Ravnica Booster Box Case:
+    sealed:
+    - set: rav
+      name: Ravnica Booster Box
+      count: 6
   Ravnica Booster Pack:
     card_count: 15
     pack:
@@ -46,7 +50,20 @@ products:
     deck:
     - name: Selesnya United
       set: rav
-  Ravnica Theme Decks Set of 4: []
+  Ravnica Theme Decks Set of 4:
+    sealed:
+    - count: 1
+      name: Ravnica Theme Deck Charge of the Boros
+      set: rav
+    - count: 1
+      name: Ravnica Theme Deck Dimir Intrigues
+      set: rav
+    - count: 1
+      name: Ravnica Theme Deck Golgari Deathcreep
+      set: rav
+    - count: 1
+      name: Ravnica Theme Deck Selesnya United
+      set: rav
   Ravnica Tournament Pack:
     card_count: 75
     pack:
