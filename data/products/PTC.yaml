@@ -56,6 +56,11 @@ products:
       mcmId: '250152'
       tcgplayerProductId: '158321'
     subtype: CHAMPIONSHIP
+  1996 World Championship Decks Set of Eight:
+    category: SUBSET
+    identifiers:
+      abuId: '1476968'
+    subtype: CHAMPIONSHIP
   Pro Tour Collector Set:
     category: DECK_BOX
     identifiers:
@@ -66,8 +71,3 @@ products:
       scgId: SLD-MTG-BXS-PTCOLLECTORSET-EN
       tntId: '133437'
     subtype: CHAMPIONSHIP
-  1996 World Championship Decks Set of Eight:
-    category: SUBSET
-    subtype: CHAMPIONSHIP
-    identifiers:
-      abuId: '1476968'
