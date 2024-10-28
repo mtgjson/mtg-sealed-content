@@ -6117,7 +6117,36 @@ products:
     - count: 2
       name: Innistrad Midnight Hunt Draft Booster Pack
       set: mid
-  Secret Lair Festival in a Box Las Vegas 2024 Bundle: []
+  Secret Lair Festival in a Box Las Vegas 2024 Bundle:
+    card:
+    - name: Ponder
+      number: 19
+      set: slp
+    - name: Swords to Plowshares
+      number: 20
+      set: slp
+    - name: Plains
+      number: 31
+      set: slp
+    - name: Convention Maro
+      number: "999-CM"
+      set: slp
+    sealed:
+    - count: 1
+      name: Mystery Booster 2 Booster Box
+      set: mb2
+    - count: 1
+      name: Commander Masters Collector Booster Pack
+      set: cmm
+    - count: 1
+      name: Wilds of Eldraine Collector Booster Pack
+      set: woe
+    - count: 1
+      name: The Lost Caverns of Ixalan Collector Booster Pack
+      set: lci
+    - count: 1
+      name: Secret Lair Drop Lil Legends Foil
+      set: sld
   Secret Lair Festival in a Box Magic 30 2022 Bundle:
     card:
     - foil: true
