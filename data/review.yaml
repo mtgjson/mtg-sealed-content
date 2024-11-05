@@ -69,7 +69,19 @@ cardMarket:
     subtype: UNKNOWN
 cardTrader: {}
 coolstuffinc: {}
-miniaturemarket: {}
+miniaturemarket:
+  'MtG Universes Beyond: Fallout Commander Deck - Hail, Caesar':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '296506'
+    release_date: '2023-10-27'
+    subtype: UNKNOWN
+  'MtG Universes Beyond: Fallout Commander Deck - Science!':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '296508'
+    release_date: '2023-10-27'
+    subtype: UNKNOWN
 starcitygames: {}
 tcgplayer: {}
 trollandtoad: {}
