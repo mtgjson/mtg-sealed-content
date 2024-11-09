@@ -1,114 +1,114 @@
 code: fdn
 products:
   Foundations Beginner Box:
+    card_count: 200
+    deck:
+    - name: Cats
+      set: fdn
+    - name: Elves
+      set: fdn
+    - name: Goblins
+      set: fdn
+    - name: Healing
+      set: fdn
+    - name: Inferno
+      set: fdn
+    - name: Pirates
+      set: fdn
+    - name: Primal
+      set: fdn
+    - name: Undead
+      set: fdn
+    - name: Vampires
+      set: fdn
+    - name: Wizards
+      set: fdn
     other:
     - name: 2 Reference cards
     - name: Reference guide booklet
     - name: 2 How to Play guides
     - name: 2 Gameboard playmats
     - name: 2 Spindown life counters
-    deck:
-    - set: fdn
-      name: Cats
-    - set: fdn
-      name: Elves
-    - set: fdn
-      name: Goblins
-    - set: fdn
-      name: Healing
-    - set: fdn
-      name: Inferno
-    - set: fdn
-      name: Pirates
-    - set: fdn
-      name: Primal
-    - set: fdn
-      name: Undead
-    - set: fdn
-      name: Vampires
-    - set: fdn
-      name: Wizards
-    card_count: 200
   Foundations Beginner Box Case:
     sealed:
-    - set: fdn
+    - count: 6
       name: Foundations Beginner Box
-      count: 6
+      set: fdn
   Foundations Bundle:
-    sealed:
-    - set: fdn
-      name: Foundations Play Booster Pack
-      count: 9
+    card:
+    - foil: true
+      name: Phyrexian Arena
+      number: 728
+      set: fdn
     other:
     - name: 40 basic land pack
     - name: Oversize spindown life counter
     - name: Deck box
-    card:
-    - set: fdn
-      number: 728
-      foil: true
-      name: Phyrexian Arena
+    sealed:
+    - count: 9
+      name: Foundations Play Booster Pack
+      set: fdn
   Foundations Bundle Case:
     sealed:
-    - set: fdn
+    - count: 6
       name: Foundations Bundle
-      count: 6
+      set: fdn
   Foundations Collector Booster Box:
     sealed:
-    - set: fdn
+    - count: 12
       name: Foundations Collector Booster Pack
-      count: 12
+      set: fdn
   Foundations Collector Booster Box Case:
     sealed:
-    - set: fdn
+    - count: 6
       name: oundations Collector Booster Box
-      count: 6
+      set: fdn
   Foundations Collector Booster Pack:
     card_count: 15
     pack:
-    - set: fdn
-      code: collector
+    - code: collector
+      set: fdn
   Foundations Play Booster Box:
     sealed:
-    - set: fdn
+    - count: 36
       name: Foundations Play Booster Pack
-      count: 36
-  Foundations Play Booster Box Case: 
+      set: fdn
+  Foundations Play Booster Box Case:
     sealed:
-    - set: fdn
+    - count: 6
       name: Foundations Play Booster Box
-      count: 6
+      set: fdn
   Foundations Play Booster Pack:
     card_count: 14
     pack:
-    - set: fdn
-      code: play
+    - code: play
+      set: fdn
   Foundations Prerelease Pack:
-    sealed:
-    - set: fdn
-      name: Foundations Play Booster Pack
-      count: 6
     card_count: 1
-    pack:
-    - set: fdn
-      code: prerelease
     other:
     - name: Foundations Spindown
+    pack:
+    - code: prerelease
+      set: fdn
+    sealed:
+    - count: 6
+      name: Foundations Play Booster Pack
+      set: fdn
   Foundations Starter Collection:
-    deck:
-    - set: fdn
-      name: Starter Collection
     card_count: 387
+    deck:
+    - name: Starter Collection
+      set: fdn
     other:
     - name: 2 Reference cards
     - name: How to Build Your Deck booklet
     - name: Click wheel
     sealed:
-    - set: fdn
+    - count: 3
       name: Foundations Play Booster Pack
-      count: 3
+      set: fdn
   Foundations Starter Collection Case:
     sealed:
-    - set: fdn
+    - count: 6
       name: Foundations Starter Collection
-      count: 6
+      set: fdn
