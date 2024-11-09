@@ -1,0 +1,34 @@
+code: inr
+products:
+  Innistrad Remastered Collector Booster:
+    category: BOOSTER_PACK
+    identifiers:
+      mcmId: '795094'
+    release_date: '2025-01-24'
+    subtype: COLLECTOR
+  Innistrad Remastered Collector Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      mcmId: '795092'
+    release_date: '2025-01-24'
+    subtype: COLLECTOR
+  Innistrad Remastered Collector Booster Box Case:
+    category: BOOSTER_CASE
+    subtype: COLLECTOR
+    identifiers: {}
+  Innistrad Remastered Play Booster:
+    category: BOOSTER_PACK
+    identifiers:
+      mcmId: '795093'
+    release_date: '2025-01-24'
+    subtype: PLAY
+  Innistrad Remastered Play Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      mcmId: '795091'
+    release_date: '2025-01-24'
+    subtype: PLAY
+  Innistrad Remastered Play Booster Box Case:
+    category: BOOSTER_CASE
+    subtype: PLAY
+    identifiers: {}
