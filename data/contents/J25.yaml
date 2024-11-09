@@ -1,5 +1,17 @@
 code: j25
 products:
-  Foundations Jumpstart Booster Box: []
-  Foundations Jumpstart Booster Box Case: []
-  Foundations Jumpstart Booster Pack: []
+  Foundations Jumpstart Booster Box:
+    sealed:
+    - set: j25
+      count: 24
+      name: Foundations Jumpstart Booster Pack
+  Foundations Jumpstart Booster Box Case:
+    sealed:
+    - set: j25
+      name: oundations Jumpstart Booster Box
+      count: 6
+  Foundations Jumpstart Booster Pack:
+    pack:
+    - set: j25
+      code: jumpstart
+    card_count: 20
