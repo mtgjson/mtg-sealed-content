@@ -4164,23 +4164,28 @@ products:
         name: Echo of Eons
         number: 821
         set: sld
+      chance: 1
     - card:
       - foil: true
         name: Hive Mind
         number: 822
         set: sld
+      chance: 99
     - card:
       - foil: true
         name: Chaos Warp
         number: 823
         set: sld
+      chance: 200
     - card:
       - foil: true
         name: Evolving Wilds
         number: 824
         set: sld
+      chance: 200
     variable_mode:
       count: 1
+      weight: 500
   Secret Lair Drop Secret Lair x Brain Dead Staples Rainbow Foil:
     card_count: 5
     deck:
@@ -4192,23 +4197,28 @@ products:
         name: Echo of Eons
         number: 821
         set: sld
+      chance: 1
     - card:
       - foil: true
         name: Hive Mind
         number: 822
         set: sld
+      chance: 99
     - card:
       - foil: true
         name: Chaos Warp
         number: 823
         set: sld
+      chance: 200
     - card:
       - foil: true
         name: Evolving Wilds
         number: 824
         set: sld
+      chance: 200
     variable_mode:
       count: 1
+      weight: 500
   Secret Lair Drop Secret Lair x Chucky:
     card:
     - name: Stuffy Doll
@@ -5483,7 +5493,8 @@ products:
       set: sld
     variable:
     - card:
-      - name: Terramorphic Expanse
+      - foil: true
+        name: Terramorphic Expanse
         number: 585
         set: sld
       chance: 93
@@ -5501,7 +5512,8 @@ products:
       set: sld
     variable:
     - card:
-      - name: Terramorphic Expanse
+      - foil: true
+        name: Terramorphic Expanse
         number: 585
         set: sld
       chance: 93
