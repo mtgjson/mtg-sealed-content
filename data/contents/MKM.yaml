@@ -35,7 +35,11 @@ products:
     pack:
     - code: collector
       set: mkm
-  Murders at Karlov Manor Collector Booster Sample Pack: []
+  Murders at Karlov Manor Collector Booster Sample Pack:
+    card_count: 2
+    pack:
+    - code: collector-sample
+      set: mkm
   Murders at Karlov Manor Play Booster Box:
     sealed:
     - count: 36
@@ -51,4 +55,14 @@ products:
     pack:
     - code: play
       set: mkm
-  Murders at Karlov Manor Prerelease Pack: []
+  Murders at Karlov Manor Prerelease Pack:
+    pack:
+    - set: mkm
+      code: prerelease
+    card_count: 1
+    sealed:
+    - set: mkm
+      name: Murders at Karlov Manor Play Booster Pack
+      count: 6
+    other:
+    - name: Murders at Karlov Manor Spindown
