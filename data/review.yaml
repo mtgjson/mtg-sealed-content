@@ -1,9 +1,2192 @@
 abugames: {}
 cardKingdom: {}
 cardMarket: {}
-cardTrader: {}
+cardTrader:
+  Aetherdrift Play Booster Box:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '308755'
+    subtype: UNKNOWN
+  'Festival in a Box: Las Vegas 2024':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '309987'
+    subtype: UNKNOWN
+  Innistrad Remastered Collector Booster:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '308748'
+    subtype: UNKNOWN
+  Innistrad Remastered Collector Booster Box:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '308746'
+    subtype: UNKNOWN
+  Innistrad Remastered Play Booster:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '308747'
+    subtype: UNKNOWN
+  Innistrad Remastered Play Booster Box:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '308745'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: Featuring | Peach Momoko':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '305384'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: Li''l Legends':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '308771'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: Monstrous Magazines':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '305385'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: Showcase | Duskmourn':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '305386'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: Tome of the Astral Sorceress':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '305383'
+    subtype: UNKNOWN
+  Secret Lair x Chucky:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '305388'
+    subtype: UNKNOWN
+  'Secret Lair x Ghostbusters: Slimer':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '305387'
+    subtype: UNKNOWN
+  'Secret Lair x Ghostbusters: The Real Ghostbusters':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '305389'
+    subtype: UNKNOWN
+  'Secret Lair x Hatsune Miku: Electric Entourage':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '305382'
+    subtype: UNKNOWN
+  'Tarkir: Dragonstorm Play Booster Box':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '308759'
+    subtype: UNKNOWN
 coolstuffinc: {}
 miniaturemarket: {}
-starcitygames: {}
-tcgplayer: {}
+starcitygames:
+  2010 Core Set Intro Pack - Death's Minions:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M10INTRO-EN-DEATHS
+    subtype: UNKNOWN
+  2010 Core Set Intro Pack - Firebomber:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M10INTRO-EN-FIREBOMBER
+    subtype: UNKNOWN
+  2010 Core Set Intro Pack - Nature's Fury:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M10INTRO-EN-NATURES
+    subtype: UNKNOWN
+  2010 Core Set Intro Pack - Presence of Mind:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M10INTRO-EN-PRESENCE
+    subtype: UNKNOWN
+  2010 Core Set Intro Pack - We Are Legion:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M10INTRO-EN-LEGION
+    subtype: UNKNOWN
+  2011 Core Set Intro Pack - Blades of Victory:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M11INTRO-EN-BLADES
+    subtype: UNKNOWN
+  2011 Core Set Intro Pack - Breath of Fire:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M11INTRO-EN-BREATH
+    subtype: UNKNOWN
+  2011 Core Set Intro Pack - Power of Prophecy:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M11INTRO-EN-POWER
+    subtype: UNKNOWN
+  2011 Core Set Intro Pack - Reign of Vampirism:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M11INTRO-EN-REIGN
+    subtype: UNKNOWN
+  2011 Core Set Intro Pack - Stampede of Beasts:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M11INTRO-EN-STAMPEDE
+    subtype: UNKNOWN
+  2012 Core Set Intro Pack - Blood and Fire:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M12INTRO-EN-BLOOD
+    subtype: UNKNOWN
+  2012 Core Set Intro Pack - Entangling Webs:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M12INTRO-EN-ENTANGLING
+    subtype: UNKNOWN
+  2012 Core Set Intro Pack - Grab for Power:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M12INTRO-EN-GRAB
+    subtype: UNKNOWN
+  2012 Core Set Intro Pack - Mystical Might:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M12INTRO-EN-MYSTICAL
+    subtype: UNKNOWN
+  2012 Core Set Intro Pack - Sacred Assault:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M12INTRO-EN-SACRED
+    subtype: UNKNOWN
+  2013 Core Set Intro Pack - Depths of Power:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M13INTRO-EN-DEPTHS
+    subtype: UNKNOWN
+  2013 Core Set Intro Pack - Mob Rule:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M13INTRO-EN-MOB
+    subtype: UNKNOWN
+  2013 Core Set Intro Pack - Path to Victory:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M13INTRO-EN-PATH
+    subtype: UNKNOWN
+  2013 Core Set Intro Pack - Sole Domination:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M13INTRO-EN-SOLE
+    subtype: UNKNOWN
+  2013 Core Set Intro Pack - Wild Rush:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M13INTRO-EN-WILD
+    subtype: UNKNOWN
+  2014 Core Set Intro Pack - Bestial Strength:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M14INTRO-EN-BESTIAL
+    subtype: UNKNOWN
+  2014 Core Set Intro Pack - Death Reaper:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M14INTRO-EN-DEATH
+    subtype: UNKNOWN
+  2014 Core Set Intro Pack - Fire Surge:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M14INTRO-EN-FIRE
+    subtype: UNKNOWN
+  2014 Core Set Intro Pack - Lightforce:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M14INTRO-EN-LIGHTFORCE
+    subtype: UNKNOWN
+  2014 Core Set Intro Pack - Psychic Labyrinth:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M14INTRO-EN-PSYCHIC
+    subtype: UNKNOWN
+  2015 Core Set Intro Pack - Flames of the Dragon:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M15INTRO-EN-FLAMES
+    subtype: UNKNOWN
+  2015 Core Set Intro Pack - Hit the Ground Running:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M15INTRO-EN-HIT
+    subtype: UNKNOWN
+  2015 Core Set Intro Pack - Infernal Intervention:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M15INTRO-EN-INFERNAL
+    subtype: UNKNOWN
+  2015 Core Set Intro Pack - Price of Glory:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M15INTRO-EN-PRICE
+    subtype: UNKNOWN
+  2015 Core Set Intro Pack - Will of the Masses:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M15INTRO-EN-WILL
+    subtype: UNKNOWN
+  Aether Revolt Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-AER-EN
+    subtype: UNKNOWN
+  Aether Revolt Planeswalker Deck - Ajani:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-AERPWDECK-EN-AJANI
+    subtype: UNKNOWN
+  Aether Revolt Planeswalker Deck - Tezzeret:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-AERPWDECK-EN-TEZZERET
+    subtype: UNKNOWN
+  Aether Revolt Planeswalker Deck -- Set of 2:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-AERPWDECK-EN-SET2
+    subtype: UNKNOWN
+  Alara Reborn Intro Pack - Dead Ahead:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ARBINTRO-EN-DEAD
+    subtype: UNKNOWN
+  Alara Reborn Intro Pack - Eternal Siege:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ARBINTRO-EN-ETERNAL
+    subtype: UNKNOWN
+  Alara Reborn Intro Pack - Legion Aloft:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ARBINTRO-EN-LEGION
+    subtype: UNKNOWN
+  Alara Reborn Intro Pack - Rumbler:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ARBINTRO-EN-RUMBLER
+    subtype: UNKNOWN
+  Alara Reborn Intro Pack - Unnatural Schemes:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ARBINTRO-EN-UNNATURAL
+    subtype: UNKNOWN
+  Alliances Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-ALL-EN
+    subtype: UNKNOWN
+  Alpha Starter Deck:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-LEASTARTER-EN
+    subtype: UNKNOWN
+  Amonkhet Deck Builder's Toolkit:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-AKHTOOLKIT-EN
+    subtype: UNKNOWN
+  Amonkhet Planeswalker Deck - Gideon:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-AKHPWDECK-EN-GIDEON
+    subtype: UNKNOWN
+  Amonkhet Planeswalker Deck - Liliana:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-AKHPWDECK-EN-LILIANA
+    subtype: UNKNOWN
+  Amonkhet Planeswalker Deck -- Set of 2:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-AKHPWDECK-EN-SET2
+    subtype: UNKNOWN
+  Antiquities Booster Box:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-ATQ-EN
+    subtype: UNKNOWN
+  Antiquities Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-ATQ-EN
+    subtype: UNKNOWN
+  Arabian Nights Booster Box:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-ARN-EN
+    subtype: UNKNOWN
+  Arabian Nights Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-ARN-EN
+    subtype: UNKNOWN
+  Avacyn Restored Event Deck - Death's Encroach:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-AVREVENT-EN-DEATHS
+    subtype: UNKNOWN
+  Avacyn Restored Event Deck - Humanity's Vengeance:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-AVREVENT-EN-HUMANITYS
+    subtype: UNKNOWN
+  Avacyn Restored Intro Pack - Angelic Might:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-AVRINTRO-EN-ANGELIC
+    subtype: UNKNOWN
+  Avacyn Restored Intro Pack - Bound by Strength:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-AVRINTRO-EN-BOUND
+    subtype: UNKNOWN
+  Avacyn Restored Intro Pack - Fiery Dawn:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-AVRINTRO-EN-FIERY
+    subtype: UNKNOWN
+  Avacyn Restored Intro Pack - Slaughterhouse:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-AVRINTRO-EN-SLAUGHTERHOUSE
+    subtype: UNKNOWN
+  Avacyn Restored Intro Pack - Solitary Fiends:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-AVRINTRO-EN-SOLITARY
+    subtype: UNKNOWN
+  Battle for Zendikar Event Deck:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-BFZEVENT-EN
+    subtype: UNKNOWN
+  Battle for Zendikar Gift Box:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BXS-M15GIFT-EN
+    subtype: UNKNOWN
+  Battle for Zendikar Intro Pack -- Set of 5:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-BFZINTRO-EN-SET5
+    subtype: UNKNOWN
+  Beta Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-LEB-EN
+    subtype: UNKNOWN
+  Beta Starter Deck:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-LEBSTARTER-EN
+    subtype: UNKNOWN
+  Born of the Gods Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-BNG-EN
+    subtype: UNKNOWN
+  Born of the Gods Event Deck - Underworld Herald:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-BNGEVENT-EN-UNDERWORLD
+    subtype: UNKNOWN
+  Born of the Gods Intro Pack - Death's Beginning:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-BNGINTRO-EN-DEATHS
+    subtype: UNKNOWN
+  Born of the Gods Intro Pack - Forged in Battle:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-BNGINTRO-EN-FORGED
+    subtype: UNKNOWN
+  Born of the Gods Intro Pack - Gifts of the Gods:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-BNGINTRO-EN-GIFTS
+    subtype: UNKNOWN
+  Born of the Gods Intro Pack - Insatiable Hunger:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-BNGINTRO-EN-INSATIABLE
+    subtype: UNKNOWN
+  Born of the Gods Intro Pack - Inspiration-Struck:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-BNGINTRO-EN-INSPIRATION
+    subtype: UNKNOWN
+  Challenger Deck 2018 - Counter Surge:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-Q01-EN-COUNTER
+    subtype: UNKNOWN
+  Challenger Deck 2018 - Hazoret Aggro:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-Q01-EN-HAZORET
+    subtype: UNKNOWN
+  Challenger Deck 2018 - Second Sun Control:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-Q01-EN-SECONDSUN
+    subtype: UNKNOWN
+  Challenger Deck 2018 - Vehicle Rush:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-Q01-EN-VEHICLE
+    subtype: UNKNOWN
+  Challenger Deck 2018 -- Set of 4:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-Q01-EN-SET4
+    subtype: UNKNOWN
+  Challenger Deck 2019 - Arcane Tempo:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-Q02-EN-ARCANE
+    subtype: UNKNOWN
+  Challenger Deck 2019 - Deadly Discovery:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-Q02-EN-DEADLY
+    subtype: UNKNOWN
+  Challenger Deck 2019 - Lightning Aggro:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-Q02-EN-LIGHTNING
+    subtype: UNKNOWN
+  Challenger Deck 2019 - United Assault:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-Q02-EN-UNITED
+    subtype: UNKNOWN
+  Challenger Deck 2019 -- Set of 4:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-Q02-EN-SET4
+    subtype: UNKNOWN
+  Commander 2011 Deck -- Set of Five:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-MLT-CMD-EN-SET5
+    subtype: UNKNOWN
+  Commander 2013 Deck -- Set of 5:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-MLT-C13-EN-SET5
+    subtype: UNKNOWN
+  Commander 2014 Deck -- Set of Five:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-MLT-C14-EN-SET5
+    subtype: UNKNOWN
+  Commander 2015 Deck -- Set of Five:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-MLT-C15-EN-SET5
+    subtype: UNKNOWN
+  Commander 2016 Deck -- Set of Five:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-MLT-C16-EN-SET5
+    subtype: UNKNOWN
+  Commander 2017 Deck -- Set of 4:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-MLT-C17-EN-SET4
+    subtype: UNKNOWN
+  Commander 2018 Deck -- Set of 4:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-MLT-C18-EN-SET4
+    subtype: UNKNOWN
+  Commander 2019 Deck -- Set of 4:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-MLT-C19-EN-SET4
+    subtype: UNKNOWN
+  Conflux Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-CFX-EN
+    subtype: UNKNOWN
+  Conflux Intro Pack - Bant on the March:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-CFXINTRO-EN-BANT
+    subtype: UNKNOWN
+  Conflux Intro Pack - Esper Air Assault:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-CFXINTRO-EN-ESPER
+    subtype: UNKNOWN
+  Conflux Intro Pack - Grixis Shambling Army:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-CFXINTRO-EN-GRIXIS
+    subtype: UNKNOWN
+  Conflux Intro Pack - Jund Appetite for War:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-CFXINTRO-EN-JUND
+    subtype: UNKNOWN
+  Conflux Intro Pack - Naya Domain:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-CFXINTRO-EN-NAYA
+    subtype: UNKNOWN
+  Conspiracy Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-CNS-EN
+    subtype: UNKNOWN
+  'Conspiracy: Take the Crown Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-CN2-EN
+    subtype: UNKNOWN
+  Core Set 2019 Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-M19-EN
+    subtype: UNKNOWN
+  Core Set 2019 Deck Builder's Toolkit:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M19TOOLKIT-EN
+    subtype: UNKNOWN
+  Core Set 2019 Planeswalker Deck - Ajani:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M19PWDECK-EN-AJANI
+    subtype: UNKNOWN
+  Core Set 2019 Planeswalker Deck - Liliana:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M19PWDECK-EN-LILIANA
+    subtype: UNKNOWN
+  Core Set 2019 Planeswalker Deck - Tezzeret:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M19PWDECK-EN-TEZZERET
+    subtype: UNKNOWN
+  Core Set 2019 Planeswalker Deck - Vivien:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M19PWDECK-EN-VIVIEN
+    subtype: UNKNOWN
+  Core Set 2019 Planeswalker Deck -- Set of 5:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M19PWDECK-EN-SET5
+    subtype: UNKNOWN
+  Core Set 2020 Booster Case (6 boxes):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-M20CASE-EN
+    subtype: UNKNOWN
+  Core Set 2020 Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-M20-EN
+    subtype: UNKNOWN
+  Core Set 2020 Combo Pack (Booster Box &amp; Bundle):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-M20COMBO-EN
+    subtype: UNKNOWN
+  Core Set 2020 Deck Builder's Toolkit:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M20TOOLKIT-EN
+    subtype: UNKNOWN
+  Core Set 2020 Planeswalker Deck - Ajani:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M20PWDECK-EN-AJANI
+    subtype: UNKNOWN
+  Core Set 2020 Planeswalker Deck - Chandra:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M20PWDECK-EN-CHANDRA
+    subtype: UNKNOWN
+  Core Set 2020 Planeswalker Deck - Sorin:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M20PWDECK-EN-SORIN
+    subtype: UNKNOWN
+  Core Set 2020 Planeswalker Deck - Vivien:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M20PWDECK-EN-VIVIEN
+    subtype: UNKNOWN
+  Core Set 2020 Planeswalker Deck - Yanling:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M20PWDECK-EN-YANLING
+    subtype: UNKNOWN
+  Core Set 2020 Planeswalker Deck -- Set of 5:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M20PWDECK-EN-SET5
+    subtype: UNKNOWN
+  Core Set 2020 Spellslinger Starter Kit:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M20SPELLSLINGER-EN
+    subtype: UNKNOWN
+  Core Set 2020 Theme Booster - Black:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-M20THEME-EN-BLACK
+    subtype: UNKNOWN
+  Core Set 2020 Theme Booster - Blue:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-M20THEME-EN-BLUE
+    subtype: UNKNOWN
+  Core Set 2020 Theme Booster - Green:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-M20THEME-EN-GREEN
+    subtype: UNKNOWN
+  Core Set 2020 Theme Booster - Red:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-M20THEME-EN-RED
+    subtype: UNKNOWN
+  Core Set 2020 Theme Booster - White:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-M20THEME-EN-WHITE
+    subtype: UNKNOWN
+  Core Set 2020 Theme Booster -- Set of 5:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-M20THEME-EN-SET5
+    subtype: UNKNOWN
+  Dark Ascension Event Deck - Gleeful Flames:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-DKAEVENT-EN-GLEEFUL
+    subtype: UNKNOWN
+  Dark Ascension Event Deck - Spiraling Doom:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-DKAEVENT-EN-SPIRALING
+    subtype: UNKNOWN
+  Dark Ascension Intro Pack - Dark Sacrifice (B/W):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-DKAINTRO-EN-DARK
+    subtype: UNKNOWN
+  Dark Ascension Intro Pack - Grave Power (G/U):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-DKAINTRO-EN-GRAVE
+    subtype: UNKNOWN
+  Dark Ascension Intro Pack - Monstrous Surprise (R/G):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-DKAINTRO-EN-MONSTROUS
+    subtype: UNKNOWN
+  Dark Ascension Intro Pack - Relentless Dead (U/B):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-DKAINTRO-EN-RELENTLESS
+    subtype: UNKNOWN
+  Dark Ascension Intro Pack - Swift Justice (W/R):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-DKAINTRO-EN-SWIFT
+    subtype: UNKNOWN
+  Deck Builder's Toolkit:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M12TOOLKIT-EN
+    subtype: UNKNOWN
+  Deck Builder's Toolkit (Magic 2013 Version):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M13TOOLKIT-EN
+    subtype: UNKNOWN
+  Deck Builder's Toolkit (Magic 2014 Version):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M14TOOLKIT-EN
+    subtype: UNKNOWN
+  Deck Builder's Toolkit (Magic 2015 Version):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M15TOOLKIT-EN
+    subtype: UNKNOWN
+  Deck Builder's Toolkit (Magic Origins Edition):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ORITOOLKIT-EN
+    subtype: UNKNOWN
+  Dissension Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-DIS-EN
+    subtype: UNKNOWN
+  Dominaria Planeswalker Deck - Chandra:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-DOMPWDECK-EN-CHANDRA
+    subtype: UNKNOWN
+  Dominaria Planeswalker Deck - Teferi:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-DOMPWDECK-EN-TEFERI
+    subtype: UNKNOWN
+  Dominaria Planeswalker Deck -- Set of 2:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-DOMPWDECK-EN-SET2
+    subtype: UNKNOWN
+  Dragon's Maze Event Deck - Strength of Selesnya:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-DGMEVENT-EN-STRENGTH
+    subtype: UNKNOWN
+  Dragon's Maze Intro Pack - Azorius Authority:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-DGMINTRO-EN-AZORIUS
+    subtype: UNKNOWN
+  Dragon's Maze Intro Pack - Gruul Siege:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-DGMINTRO-EN-GRUUL
+    subtype: UNKNOWN
+  Dragon's Maze Intro Pack - Orzhov Power:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-DGMINTRO-EN-ORZHOV
+    subtype: UNKNOWN
+  Dragon's Maze Intro Pack - Rakdos Revelry:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-DGMINTRO-EN-RAKDOS
+    subtype: UNKNOWN
+  Dragon's Maze Intro Pack - Simic Domination:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-DGMINTRO-EN-SIMIC
+    subtype: UNKNOWN
+  Dragons of Tarkir Event Deck:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-DTKEVENT-EN
+    subtype: UNKNOWN
+  Dragons of Tarkir Intro Pack -  Furious Forces:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-DTKINTRO-EN-FURIOUS
+    subtype: UNKNOWN
+  Dragons of Tarkir Intro Pack - Cruel Plots:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-DTKINTRO-EN-CRUEL
+    subtype: UNKNOWN
+  Dragons of Tarkir Intro Pack - Enlightened Mastery:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-DTKINTRO-EN-ENLIGHTENED
+    subtype: UNKNOWN
+  Dragons of Tarkir Intro Pack - Massed Ranks:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-DTKINTRO-EN-MASSED
+    subtype: UNKNOWN
+  Dragons of Tarkir Intro Pack - Relentless Rush:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-DTKINTRO-EN-RELENTLESS
+    subtype: UNKNOWN
+  Duels of the Planeswalkers - Chandra Nalaar - Hands of Flame:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-DPADECK-EN-CHANDRA
+    subtype: UNKNOWN
+  Duels of the Planeswalkers - Garruk Wildspeaker - Teeth of the Predator:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-DPADECK-EN-GARRUK
+    subtype: UNKNOWN
+  Duels of the Planeswalkers - Jace Beleren - Thoughts of the Wind:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-DPADECK-EN-JACE
+    subtype: UNKNOWN
+  Duels of the Planeswalkers - Liliana Vess - Eyes of Shadow:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-DPADECK-EN-LILIANA
+    subtype: UNKNOWN
+  Duels of the Planeswalkers - Nissa Revane - Ears of the Elves:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-DPADECK-EN-NISSA
+    subtype: UNKNOWN
+  Eldritch Moon Intro Pack - Set of 5:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-EMNINTRO-EN-SET5
+    subtype: UNKNOWN
+  Eternal Masters Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-EMA-EN
+    subtype: UNKNOWN
+  Fate Reforged Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-FRF-EN
+    subtype: UNKNOWN
+  Fate Reforged Clash Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-FRFCLASH-EN
+    subtype: UNKNOWN
+  Fate Reforged Intro Pack - Cunning Plan:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-FRFINTRO-EN-CUNNING
+    subtype: UNKNOWN
+  Fate Reforged Intro Pack - Grave Advantage:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-FRFINTRO-EN-GRAVE
+    subtype: UNKNOWN
+  Fate Reforged Intro Pack - Stampeding Hordes:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-FRFINTRO-EN-STAMPEDING
+    subtype: UNKNOWN
+  Fate Reforged Intro Pack - Surprise Attack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-FRFINTRO-EN-SURPRISE
+    subtype: UNKNOWN
+  Fate Reforged Intro Pack - Unflinching Assault:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-FRFINTRO-EN-UNFLINCHING
+    subtype: UNKNOWN
+  Gatecrash Event Deck - Rally and Rout (Boros):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-GTCEVENT-EN-RALLY
+    subtype: UNKNOWN
+  Gatecrash Event Deck - Thrive and Thrash (Simic):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-GTCEVENT-EN-THRIVE
+    subtype: UNKNOWN
+  Gatecrash Intro Pack - Boros Battalion:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-GTCINTRO-EN-BOROS
+    subtype: UNKNOWN
+  Gatecrash Intro Pack - Dimir Dementia:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-GTCINTRO-EN-DIMIR
+    subtype: UNKNOWN
+  Gatecrash Intro Pack - Gruul Goliaths:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-GTCINTRO-EN-GRUUL
+    subtype: UNKNOWN
+  Gatecrash Intro Pack - Orzhov Oppression:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-GTCINTRO-EN-ORZHOV
+    subtype: UNKNOWN
+  Gatecrash Intro Pack - Simic Synthesis:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-GTCINTRO-EN-SIMIC
+    subtype: UNKNOWN
+  Gift Pack (2017):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BXS-GFT2017-EN
+    subtype: UNKNOWN
+  Gift Pack (2018):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BXS-GFT2018-EN
+    subtype: UNKNOWN
+  Guild Kit -- Set of 5 (Guilds of Ravnica):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BXS-GK1-EN-SET5
+    subtype: UNKNOWN
+  Guild Kit -- Set of 5 (Ravnica Allegiance):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BXS-GK2-EN-SET5
+    subtype: UNKNOWN
+  Guilds of Ravnica Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-GRN-EN
+    subtype: UNKNOWN
+  Guilds of Ravnica Planeswalker Deck - Ral:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-GRNPWDECK-EN-RAL
+    subtype: UNKNOWN
+  Guilds of Ravnica Planeswalker Deck - Vraska:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-GRNPWDECK-EN-VRASKA
+    subtype: UNKNOWN
+  Guilds of Ravnica Planeswalker Deck -- Set of 2:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-GRNPWDECK-EN-SET2
+    subtype: UNKNOWN
+  Guilds of Ravnica Theme Booster - Boros (White/Red):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-GRNTHEME-EN-BOROS
+    subtype: UNKNOWN
+  Guilds of Ravnica Theme Booster - Dimir (Blue/Black):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-GRNTHEME-EN-DIMIR
+    subtype: UNKNOWN
+  Guilds of Ravnica Theme Booster - Golgari (Black/Green):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-GRNTHEME-EN-GOLGARI
+    subtype: UNKNOWN
+  Guilds of Ravnica Theme Booster - Izzet (Blue/Red):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-GRNTHEME-EN-IZZET
+    subtype: UNKNOWN
+  Guilds of Ravnica Theme Booster - Selesnya (White/Green):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-GRNTHEME-EN-SELESNYA
+    subtype: UNKNOWN
+  Guilds of Ravnica Theme Booster -- Set of 5:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-GRNTHEME-EN-SET5
+    subtype: UNKNOWN
+  Holiday Gift Box (2012):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BXS-GFT2012-EN
+    subtype: UNKNOWN
+  Holiday Gift Box (2013):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BXS-GFT2013-EN
+    subtype: UNKNOWN
+  Holiday Gift Box (Khans of Tarkir Edition):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BXS-GFTKTK-EN
+    subtype: UNKNOWN
+  Hour of Devastation Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-HOU-EN
+    subtype: UNKNOWN
+  Hour of Devastation Planeswalker Deck - Nicol Bolas:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-HOUPWDECK-EN-BOLAS
+    subtype: UNKNOWN
+  Hour of Devastation Planeswalker Deck - Nissa:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-HOUPWDECK-EN-NISSA
+    subtype: UNKNOWN
+  Hour of Devastation Planeswalker Deck -- Set of 2:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-HOUPWDECK-EN-SET2
+    subtype: UNKNOWN
+  Iconic Masters Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-IMA-EN
+    subtype: UNKNOWN
+  Innistrad Event Deck - Deathfed:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ISDEVENT-EN-DEATHFED
+    subtype: UNKNOWN
+  Innistrad Event Deck - Hold the Line:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ISDEVENT-EN-HOLD
+    subtype: UNKNOWN
+  Innistrad Intro Pack - Carnival of Blood:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ISDINTRO-EN-CARNIVAL
+    subtype: UNKNOWN
+  Innistrad Intro Pack - Deathly Dominion:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ISDINTRO-EN-DEATHLY
+    subtype: UNKNOWN
+  Innistrad Intro Pack - Eldritch Onslaught:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ISDINTRO-EN-ELDRITCH
+    subtype: UNKNOWN
+  Innistrad Intro Pack - Repel the Dark:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ISDINTRO-EN-REPEL
+    subtype: UNKNOWN
+  Innistrad Intro Pack - Spectral Legions:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ISDINTRO-EN-SPECTRAL
+    subtype: UNKNOWN
+  Ixalan Deck Builder's Toolkit:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-XLNTOOLKIT-EN
+    subtype: UNKNOWN
+  Ixalan Planeswalker Deck - Huatli:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-XLNPWDECK-EN-HUATLI
+    subtype: UNKNOWN
+  Ixalan Planeswalker Deck - Jace:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-XLNPWDECK-EN-JACE
+    subtype: UNKNOWN
+  Ixalan Planeswalker Deck -- Set of 2:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-XLNPWDECK-EN-SET2
+    subtype: UNKNOWN
+  Journey into Nyx Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-JOU-EN
+    subtype: UNKNOWN
+  Journey into Nyx Event Deck - Wrath of the Mortals (U/R):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-JOUEVENT-EN-WRATH
+    subtype: UNKNOWN
+  Journey into Nyx Intro Pack - Fates Foreseen:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-JOUINTRO-EN-FATES
+    subtype: UNKNOWN
+  Journey into Nyx Intro Pack - Mortals of Myth:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-JOUINTRO-EN-MORTALS
+    subtype: UNKNOWN
+  Journey into Nyx Intro Pack - Pantheon's Power:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-JOUINTRO-EN-PANTHEONS
+    subtype: UNKNOWN
+  Journey into Nyx Intro Pack - The Wilds and the Deep:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-JOUINTRO-EN-WILDS
+    subtype: UNKNOWN
+  Journey into Nyx Intro Pack - Voracious Rage:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-JOUINTRO-EN-VORACIOUS
+    subtype: UNKNOWN
+  Kaladesh Deck Builder's Toolkit:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-KLDTOOLKIT-EN
+    subtype: UNKNOWN
+  Kaladesh Planeswalker Deck - Chandra:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-KLDPWDECK-EN-CHANDRA
+    subtype: UNKNOWN
+  Kaladesh Planeswalker Deck - Nissa:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-KLDPWDECK-EN-NISSA
+    subtype: UNKNOWN
+  Kaladesh Planeswalker Deck -- Set of 2:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-KLDPWDECK-EN-SET2
+    subtype: UNKNOWN
+  Khans of Tarkir Event Deck - Conquering Hordes:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-KTKEVENT-EN-CONQUERING
+    subtype: UNKNOWN
+  Khans of Tarkir Intro Pack - Abzan Siege:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-KTKINTRO-EN-ABZAN
+    subtype: UNKNOWN
+  Khans of Tarkir Intro Pack - Jeskai Monks:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-KTKINTRO-EN-JESKAI
+    subtype: UNKNOWN
+  Khans of Tarkir Intro Pack - Mardu Raiders:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-KTKINTRO-EN-MARDU
+    subtype: UNKNOWN
+  Khans of Tarkir Intro Pack - Sultai Schemers:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-KTKINTRO-EN-SULTAI
+    subtype: UNKNOWN
+  Khans of Tarkir Intro Pack - Temur Avalanche:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-KTKINTRO-EN-TEMUR
+    subtype: UNKNOWN
+  Magic 2012 Core Set Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-M12-EN
+    subtype: UNKNOWN
+  Magic 2012 Core Set Event Deck - Illusionary Might:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M12EVENT-EN-ILLUSIONARY
+    subtype: UNKNOWN
+  Magic 2012 Core Set Event Deck - Vampire Onslaught:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M12EVENT-EN-VAMPIRE
+    subtype: UNKNOWN
+  Magic 2013 Core Set Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-M13-EN
+    subtype: UNKNOWN
+  Magic 2013 Core Set Event Deck - Repeat Performance:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M13EVENT-EN-REPEAT
+    subtype: UNKNOWN
+  Magic 2013 Core Set Event Deck - Sweet Revenge:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M13EVENT-EN-SWEET
+    subtype: UNKNOWN
+  Magic 2014 Core Set Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-M14-EN
+    subtype: UNKNOWN
+  Magic 2014 Core Set Event Deck - Rush of the Wild:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M14EVENT-EN-RUSH
+    subtype: UNKNOWN
+  Magic 2015 Core Set Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-M15-EN
+    subtype: UNKNOWN
+  Magic 2015 Core Set Clash Pack - Fate and Fury:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M15CLASH-EN-FATE
+    subtype: UNKNOWN
+  Magic Origins Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-ORI-EN
+    subtype: UNKNOWN
+  Magic Origins Clash Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ORICLASH-EN
+    subtype: UNKNOWN
+  Magic Origins Intro Pack - Assemble Victory:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ORIINTRO-EN-ASSEMBLE
+    subtype: UNKNOWN
+  Magic Origins Intro Pack - Brave the Battle:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ORIINTRO-EN-BRAVE
+    subtype: UNKNOWN
+  Magic Origins Intro Pack - Demonic Deals:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ORIINTRO-EN-DEMONIC
+    subtype: UNKNOWN
+  Magic Origins Intro Pack - Hunting Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ORIINTRO-EN-HUNTING
+    subtype: UNKNOWN
+  Magic Origins Intro Pack - Take to the Sky:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ORIINTRO-EN-TAKE
+    subtype: UNKNOWN
+  Magic Origins Intro Pack -- Set of 5:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ORIINTRO-EN-SET5
+    subtype: UNKNOWN
+  Masters 25 Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-A25-EN
+    subtype: UNKNOWN
+  Mirrodin Besieged Event Deck - Infect and Defile:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-MBSEVENT-EN-INFECT
+    subtype: UNKNOWN
+  Mirrodin Besieged Event Deck - Into the Breach:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-MBSEVENT-EN-INTO
+    subtype: UNKNOWN
+  Mirrodin Besieged Faction Pack - Mirran Faction:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-MBSFACTION-EN-MIRRAN
+    subtype: UNKNOWN
+  Mirrodin Besieged Faction Pack - Phyrexian Faction:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-MBSFACTION-EN-PHYREXIAN
+    subtype: UNKNOWN
+  Mirrodin Besieged Faction Packs Box:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-MBSFACTION-EN
+    subtype: UNKNOWN
+  Mirrodin Besieged Intro Pack - Battle Cries:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-MBSINTRO-EN-BATTLE
+    subtype: UNKNOWN
+  Mirrodin Besieged Intro Pack - Doom Inevitable:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-MBSINTRO-EN-DOOM
+    subtype: UNKNOWN
+  Mirrodin Besieged Intro Pack - Mirromancy:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-MBSINTRO-EN-MIRROMANCY
+    subtype: UNKNOWN
+  Mirrodin Besieged Intro Pack - Path of Blight:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-MBSINTRO-EN-PATH
+    subtype: UNKNOWN
+  Modern Horizons Booster Case (6 boxes):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-MH1CASE-EN
+    subtype: UNKNOWN
+  Modern Horizons Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-MH1-EN
+    subtype: UNKNOWN
+  Modern Masters (2015 Edition) Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-MM2-EN
+    subtype: UNKNOWN
+  Modern Masters (2017 Edition) Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-MM3-EN
+    subtype: UNKNOWN
+  Multiverse Gift Box:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BXS-GFTMULTIVERSE-EN
+    subtype: UNKNOWN
+  New Phyrexia Event Deck - Rot from Within:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-NPHEVENT-EN-ROT
+    subtype: UNKNOWN
+  New Phyrexia Event Deck - War of Attrition:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-NPHEVENT-EN-WAR
+    subtype: UNKNOWN
+  New Phyrexia Intro Pack - Artful Destruction:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-NPHINTRO-EN-ARTFUL
+    subtype: UNKNOWN
+  New Phyrexia Intro Pack - Devouring Skies:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-NPHINTRO-EN-DEVOURING
+    subtype: UNKNOWN
+  New Phyrexia Intro Pack - Feast of Flesh:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-NPHINTRO-EN-FEAST
+    subtype: UNKNOWN
+  New Phyrexia Intro Pack - Life for Death:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-NPHINTRO-EN-LIFE
+    subtype: UNKNOWN
+  New Phyrexia Intro Pack - Ravaging Swarm:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-NPHINTRO-EN-RAVAGING
+    subtype: UNKNOWN
+  Oath of the Gatewatch Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-OGW-EN
+    subtype: UNKNOWN
+  Oath of the Gatewatch Intro Pack - Set of 5:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-OGWINTRO-EN-SET5
+    subtype: UNKNOWN
+  Odyssey Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-ODY-EN
+    subtype: UNKNOWN
+  'Portal: Three Kingdoms Booster Box':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-P3K-EN
+    subtype: UNKNOWN
+  'Portal: Three Kingdoms Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-P3K-EN
+    subtype: UNKNOWN
+  'Portal: Three Kingdoms Two-Player Game (Japanese)':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-P3K2PLAYER-JA
+    subtype: UNKNOWN
+  Prophecy Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-PCY-EN
+    subtype: UNKNOWN
+  Ravnica Allegiance Booster Case (6 boxes):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-RNACASE-EN
+    subtype: UNKNOWN
+  Ravnica Allegiance Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-RNA-EN
+    subtype: UNKNOWN
+  Ravnica Allegiance Combo Pack (Booster Box &amp; Bundle):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-RNACOMBO-EN
+    subtype: UNKNOWN
+  Ravnica Allegiance Deck Builder's Toolkit:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-RNATOOLKIT-EN
+    subtype: UNKNOWN
+  Ravnica Allegiance Planeswalker Deck - Domri:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-RNAPWDECK-EN-DOMRI
+    subtype: UNKNOWN
+  Ravnica Allegiance Planeswalker Deck - Dovin:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-RNAPWDECK-EN-DOVIN
+    subtype: UNKNOWN
+  Ravnica Allegiance Planeswalker Deck -- Set of 2:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-RNAPWDECK-EN-SET2
+    subtype: UNKNOWN
+  Ravnica Allegiance Theme Booster - Azorius (White/Blue):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-RNATHEME-EN-AZORIUS
+    subtype: UNKNOWN
+  Ravnica Allegiance Theme Booster - Gruul (Red/Green):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-RNATHEME-EN-GRUUL
+    subtype: UNKNOWN
+  Ravnica Allegiance Theme Booster - Orzhov (White/Black):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-RNATHEME-EN-ORZHOV
+    subtype: UNKNOWN
+  Ravnica Allegiance Theme Booster - Rakdos (Black/Red):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-RNATHEME-EN-RAKDOS
+    subtype: UNKNOWN
+  Ravnica Allegiance Theme Booster - Simic (Green/Blue):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-RNATHEME-EN-SIMIC
+    subtype: UNKNOWN
+  Ravnica Allegiance Theme Booster -- Set of 5:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-RNATHEME-EN-SET5
+    subtype: UNKNOWN
+  'Ravnica Theme Deck: Charge of the Boros (French)':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-RAVTHEME-FR-BOROS
+    subtype: UNKNOWN
+  'Ravnica Theme Deck: Dimir Intrigues (French)':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-RAVTHEME-FR-DIMIR
+    subtype: UNKNOWN
+  'Ravnica Theme Deck: Golgari Deathcreep (French)':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-RAVTHEME-FR-GOLGARI
+    subtype: UNKNOWN
+  'Ravnica Theme Deck: Selesnya United (French)':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-RAVTHEME-FR-SELESNYA
+    subtype: UNKNOWN
+  Return to Ravnica Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-RTR-EN
+    subtype: UNKNOWN
+  Return to Ravnica Event Deck - Creep and Conquer (Golgari):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-RTREVENT-EN-CREEP
+    subtype: UNKNOWN
+  Return to Ravnica Event Deck - Wrack and Rage (Rakdos):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-RTREVENT-EN-WRACK
+    subtype: UNKNOWN
+  Return to Ravnica Intro Pack - Azorius Advance:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-RTRINTRO-EN-AZORIUS
+    subtype: UNKNOWN
+  Return to Ravnica Intro Pack - Golgari Growth:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-RTRINTRO-EN-GOLGARI
+    subtype: UNKNOWN
+  Return to Ravnica Intro Pack - Izzet Ingenuity:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-RTRINTRO-EN-IZZET
+    subtype: UNKNOWN
+  Return to Ravnica Intro Pack - Rakdos Raid:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-RTRINTRO-EN-RAKDOS
+    subtype: UNKNOWN
+  Return to Ravnica Intro Pack - Selesnya Surge:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-RTRINTRO-EN-SELESNYA
+    subtype: UNKNOWN
+  Return to Ravnica Intro Pack -- Set of Five:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-RTRINTRO-EN-SET5
+    subtype: UNKNOWN
+  Rise of the Eldrazi Intro Pack - Eldrazi Arisen:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ROEINTRO-EN-ELDRAZI
+    subtype: UNKNOWN
+  Rise of the Eldrazi Intro Pack - Invading Spawn:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ROEINTRO-EN-INVADING
+    subtype: UNKNOWN
+  Rise of the Eldrazi Intro Pack - Levelers' Glory:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ROEINTRO-EN-GLORY
+    subtype: UNKNOWN
+  Rise of the Eldrazi Intro Pack - Levelers' Scorn:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ROEINTRO-EN-SCORN
+    subtype: UNKNOWN
+  Rise of the Eldrazi Intro Pack - Totem Power:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ROEINTRO-EN-TOTEM
+    subtype: UNKNOWN
+  Rise of the Eldrazi Intro Pack -- Set of Five:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ROEINTRO-EN-SET5
+    subtype: UNKNOWN
+  Rivals of Ixalan Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-RIX-EN
+    subtype: UNKNOWN
+  Rivals of Ixalan Planeswalker Deck - Angrath:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-RIXPWDECK-EN-ANGRATH
+    subtype: UNKNOWN
+  Rivals of Ixalan Planeswalker Deck - Vraska:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-RIXPWDECK-EN-VRASKA
+    subtype: UNKNOWN
+  Rivals of Ixalan Planeswalker Deck -- Set of 2:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-RIXPWDECK-EN-SET2
+    subtype: UNKNOWN
+  San Diego Comic-Con 2014 - Black Planeswalker Card Boxed Set-of-6 (SDCC 2014) (Incl. Garruk's Axe):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BXS-SDCC2014-EN-WITHAXE
+    subtype: UNKNOWN
+  Saviors of Kamigawa Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-SOK-EN
+    subtype: UNKNOWN
+  Scars of Mirrodin Intro Pack - Deadspread:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-SOMINTRO-EN-DEADSPREAD
+    subtype: UNKNOWN
+  Scars of Mirrodin Intro Pack - Metalcraft:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-SOMINTRO-EN-METALCRAFT
+    subtype: UNKNOWN
+  Scars of Mirrodin Intro Pack - Myr of Mirrodin:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-SOMINTRO-EN-MYR
+    subtype: UNKNOWN
+  Scars of Mirrodin Intro Pack - Phyrexian Poison:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-SOMINTRO-EN-PHRYEXIAN
+    subtype: UNKNOWN
+  Scars of Mirrodin Intro Pack - Relic Breaker:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-SOMINTRO-EN-RELIC
+    subtype: UNKNOWN
+  Scars of Mirrodin Intro Pack -- Set of Five:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-SOMINTRO-EN-SET5
+    subtype: UNKNOWN
+  'Scourge Theme Deck: Goblin Mob (Japanese)':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-SCGTHEME-JA-GOBLIN
+    subtype: UNKNOWN
+  'Scourge Theme Deck: Pulverize (Japanese)':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-SCGTHEME-JA-PULVERIZE
+    subtype: UNKNOWN
+  'Scourge Theme Deck: Storm Surge (Japanese)':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-SCGTHEME-JA-STORM
+    subtype: UNKNOWN
+  Shadowmoor Theme Deck Display (Japanese):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-SHMTHEME-JA
+    subtype: UNKNOWN
+  Shadows over Innistrad Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-SOI-EN
+    subtype: UNKNOWN
+  Shadows over Innistrad Deck Builder's Toolkit:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-SOITOOLKIT-EN
+    subtype: UNKNOWN
+  Shadows over Innistrad Gift Box:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BXS-SOIGIFT-EN
+    subtype: UNKNOWN
+  Shadows over Innistrad Intro Pack - Set of 5:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-SOIINTRO-EN
+    subtype: UNKNOWN
+  Shards of Alara Block Foil Premium Booster Box:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-ALAPREMIUM-EN
+    subtype: UNKNOWN
+  Shards of Alara Block Foil Premium Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-ALABLOCKFOIL-EN
+    subtype: UNKNOWN
+  Shards of Alara Intro Pack - Bant Exalted:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ALAINTRO-EN-BANT
+    subtype: UNKNOWN
+  Shards of Alara Intro Pack - Esper Artifice:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ALAINTRO-EN-ESPER
+    subtype: UNKNOWN
+  Shards of Alara Intro Pack - Grixis Undead:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ALAINTRO-EN-GRIXIS
+    subtype: UNKNOWN
+  Shards of Alara Intro Pack - Naya Behemoths:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ALAINTRO-EN-NAYA
+    subtype: UNKNOWN
+  Shards of Alara Intro Pack - Primordial Jund:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ALAINTRO-EN-JUND
+    subtype: UNKNOWN
+  Spellslinger Starter Kit:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M19SPELLSLINGER-EN
+    subtype: UNKNOWN
+  Starter 1999 Starter Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-S99STARTER-EN
+    subtype: UNKNOWN
+  Theros Beyond Death Collector Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-THBCOLLECTOR-EN
+    subtype: UNKNOWN
+  Theros Beyond Death Combo Pack (Booster Box &amp; Bundle):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-THBCOMBO-EN
+    subtype: UNKNOWN
+  Theros Beyond Death Deck Builder's Toolkit:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-THBTOOLKIT-EN
+    subtype: UNKNOWN
+  Theros Beyond Death Draft Booster Case (6 boxes):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-THBDRAFTCASE-EN
+    subtype: UNKNOWN
+  Theros Beyond Death Draft Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-THBDRAFT-EN
+    subtype: UNKNOWN
+  Theros Beyond Death Planeswalker Deck - Ashiok:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-THBPWDECK-EN-B
+    subtype: UNKNOWN
+  Theros Beyond Death Planeswalker Deck - Elspeth:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-THBPWDECK-EN-A
+    subtype: UNKNOWN
+  Theros Beyond Death Planeswalker Deck -- Set of 2:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-THBPWDECK-EN-SET2
+    subtype: UNKNOWN
+  Theros Beyond Death Theme Booster - Black:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-THBTHEME-EN-BLACK
+    subtype: UNKNOWN
+  Theros Beyond Death Theme Booster - Blue:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-THBTHEME-EN-BLUE
+    subtype: UNKNOWN
+  Theros Beyond Death Theme Booster - Green:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-THBTHEME-EN-GREEN
+    subtype: UNKNOWN
+  Theros Beyond Death Theme Booster - Red:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-THBTHEME-EN-RED
+    subtype: UNKNOWN
+  Theros Beyond Death Theme Booster - White:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-THBTHEME-EN-WHITE
+    subtype: UNKNOWN
+  Theros Beyond Death Theme Booster -- Set of 5:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-THBTHEME-EN-SET5
+    subtype: UNKNOWN
+  Theros Event Deck - Inspiring Heroics:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-THSEVENT-EN
+    subtype: UNKNOWN
+  Theros Intro Pack - Anthousa's Army:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-THSINTRO-EN-ANTHOUSA
+    subtype: UNKNOWN
+  Theros Intro Pack - Blazing Beasts of Myth:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-THSINTRO-EN-BLAZING
+    subtype: UNKNOWN
+  Theros Intro Pack - Devotion to Darkness:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-THSINTRO-EN-DEVOTION
+    subtype: UNKNOWN
+  Theros Intro Pack - Favors from Nyx:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-THSINTRO-EN-FAVORS
+    subtype: UNKNOWN
+  Theros Intro Pack - Manipulative Monstrosities:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-THSINTRO-EN-MANIPULATIVE
+    subtype: UNKNOWN
+  Theros Intro Pack -- Set of Five:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-THSINTRO-EN-SET5
+    subtype: UNKNOWN
+  Throne of Eldraine Brawl Deck - Faerie Schemes:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ELDBRAWL-EN-C
+    subtype: UNKNOWN
+  Throne of Eldraine Brawl Deck - Knights' Charge:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ELDBRAWL-EN-A
+    subtype: UNKNOWN
+  Throne of Eldraine Brawl Deck - Savage Hunger:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ELDBRAWL-EN-D
+    subtype: UNKNOWN
+  Throne of Eldraine Bundle (Gift Edition):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BUN-ELDGIFT-EN
+    subtype: UNKNOWN
+  Throne of Eldraine Collector Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-ELDCOLLECTOR-EN
+    subtype: UNKNOWN
+  Throne of Eldraine Combo Pack (Booster Box &amp; Bundle):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-ELDCOMBO-EN
+    subtype: UNKNOWN
+  Throne of Eldraine Draft Booster Case (6 boxes):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-ELDDRAFTCASE-EN
+    subtype: UNKNOWN
+  Throne of Eldraine Planeswalker Deck - Oko:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ELDPWDECK-EN-B
+    subtype: UNKNOWN
+  Throne of Eldraine Planeswalker Deck - Rowan:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ELDPWDECK-EN-A
+    subtype: UNKNOWN
+  Throne of Eldraine Planeswalker Deck -- Set of 2:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ELDPWDECK-EN-SET2
+    subtype: UNKNOWN
+  Throne of Eldraine Theme Booster - Black:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-ELDTHEME-EN-BLACK
+    subtype: UNKNOWN
+  Throne of Eldraine Theme Booster - Blue:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-ELDTHEME-EN-BLUE
+    subtype: UNKNOWN
+  Throne of Eldraine Theme Booster - Green:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-ELDTHEME-EN-GREEN
+    subtype: UNKNOWN
+  Throne of Eldraine Theme Booster - Red:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-ELDTHEME-EN-RED
+    subtype: UNKNOWN
+  Throne of Eldraine Theme Booster - White:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-ELDTHEME-EN-WHITE
+    subtype: UNKNOWN
+  Throne of Eldraine Theme Booster -- Set of 5:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-ELDTHEME-EN-SET5
+    subtype: UNKNOWN
+  'Time Spiral Theme Deck: Fun With Fungus (Italian)':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-TSPTHEME-IT-FUN
+    subtype: UNKNOWN
+  'Time Spiral Theme Deck: Hope''s Crusaders (Italian)':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-TSPTHEME-IT-HOPE
+    subtype: UNKNOWN
+  'Time Spiral Theme Deck: Reality Fracture (Italian)':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-TSPTHEME-IT-REALITY
+    subtype: UNKNOWN
+  'Time Spiral Theme Deck: Sliver Evolution (Italian)':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-TSPTHEME-IT-SLIVER
+    subtype: UNKNOWN
+  Unlimited Booster Box:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-2ED-EN
+    subtype: UNKNOWN
+  Unlimited Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-2ED-EN
+    subtype: UNKNOWN
+  'Urza''s Destiny Theme Deck: Battle Surge (Japanese)':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-UDSTHEME-JA
+    subtype: UNKNOWN
+  Urza's Legacy Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-ULG-EN
+    subtype: UNKNOWN
+  Vanguard Gift Box:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BXS-VAN-EN
+    subtype: UNKNOWN
+  War of the Spark Booster Case (6 boxes):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-WARCASE-EN
+    subtype: UNKNOWN
+  War of the Spark Planeswalker Deck - Gideon:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-WARPWDECK-EN-GIDEON
+    subtype: UNKNOWN
+  War of the Spark Planeswalker Deck - Jace:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-WARPWDECK-EN-JACE
+    subtype: UNKNOWN
+  War of the Spark Planeswalker Deck -- Set of 2:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-WARPWDECK-EN-SET2
+    subtype: UNKNOWN
+  War of the Spark Theme Booster - Black:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-WARTHEME-EN-BLACK
+    subtype: UNKNOWN
+  War of the Spark Theme Booster - Blue:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-WARTHEME-EN-BLUE
+    subtype: UNKNOWN
+  War of the Spark Theme Booster - Green:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-WARTHEME-EN-GREEN
+    subtype: UNKNOWN
+  War of the Spark Theme Booster - Red:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-WARTHEME-EN-RED
+    subtype: UNKNOWN
+  War of the Spark Theme Booster - White:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-WARTHEME-EN-WHITE
+    subtype: UNKNOWN
+  War of the Spark Theme Booster -- Set of 5:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-WARTHEME-EN-SET5
+    subtype: UNKNOWN
+  Warhammer 40,000 Collector's Edition Commander Deck - Forces of Imperium:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-MLT-40KCOLLECTOR-EN-IMPERIUM
+    subtype: UNKNOWN
+  Warhammer 40,000 Collector's Edition Commander Deck - Necron Dynasties:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-MLT-40KCOLLECTOR-EN-NECRON
+    subtype: UNKNOWN
+  Warhammer 40,000 Collector's Edition Commander Deck - The Ruinous Powers:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-MLT-40KCOLLECTOR-EN-POWERS
+    subtype: UNKNOWN
+  Warhammer 40,000 Collector's Edition Commander Deck - Tyranid Swarm:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-MLT-40KCOLLECTOR-EN-TYRANID
+    subtype: UNKNOWN
+  'World Championship 1998 Deck & Video: Ben Rubin':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BXS-WCH1998WITHVIDEO-EN-BENRUBIN
+    subtype: UNKNOWN
+  'World Championship 1998 Deck &amp; Video: Brian Hacker':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BXS-WCH1998WITHVIDEO-EN-BRIANHACKER
+    subtype: UNKNOWN
+  'World Championship 1998 Deck &amp; Video: Brian Selden':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BXS-WCH1998WITHVIDEO-EN-BRIANSELDEN
+    subtype: UNKNOWN
+  'World Championship 1998 Deck &amp; Video: Randy Buehler':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BXS-WCH1998WITHVIDEO-EN-RANDYBUEHLER
+    subtype: UNKNOWN
+  'World Championship 2002 Deck: Carlos Romao':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BXS-WCH2002-EN-CARLOSROMAO
+    subtype: UNKNOWN
+  Worldwake Intro Pack - Brute Force:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-WWKINTRO-EN-BRUTE
+    subtype: UNKNOWN
+  Worldwake Intro Pack - Fangs of the Bloodchief:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-WWKINTRO-EN-FANGS
+    subtype: UNKNOWN
+  Worldwake Intro Pack - Flyover:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-WWKINTRO-EN-FLYOVER
+    subtype: UNKNOWN
+  Worldwake Intro Pack - Mysterious Realms:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-WWKINTRO-EN-MYSTERIOUS
+    subtype: UNKNOWN
+  Worldwake Intro Pack - Rapid Fire:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-WWKINTRO-EN-RAPID
+    subtype: UNKNOWN
+  Worldwake Intro Pack -- Set of Five:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-WWKINTRO-EN-SET5
+    subtype: UNKNOWN
+  Zendikar Intro Pack - Kor Armory:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ZENINTRO-EN-KOR
+    subtype: UNKNOWN
+  Zendikar Intro Pack - Pumped Up:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ZENINTRO-EN-PUMPED
+    subtype: UNKNOWN
+  Zendikar Intro Pack - Rise of the Vampires:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ZENINTRO-EN-RISE
+    subtype: UNKNOWN
+  Zendikar Intro Pack - The Adventurers:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ZENINTRO-EN-ADVENTURERS
+    subtype: UNKNOWN
+  Zendikar Intro Pack - Unstable Terrain:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ZENINTRO-EN-UNSTABLE
+    subtype: UNKNOWN
+  Zendikar Intro Pack -- Set of Five:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ZENINTRO-EN-SET5
+    subtype: UNKNOWN
+tcgplayer:
+  Secret Lair Drop Marvel Superdrop The Astonishing Foil Bundle:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '592059'
+    release_date: '2024-08-31'
+    subtype: UNKNOWN
+  Secret Lair Drop Marvel Superdrop The Heroic Everything Bundle:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '592056'
+    release_date: '2024-08-31'
+    subtype: UNKNOWN
+  Secret Lair Drop Marvel Superdrop The Mighty Non Foil Bundle:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '592060'
+    release_date: '2024-08-31'
+    subtype: UNKNOWN
+  Secret Lair Drop Pixel Perfect Extra Life 2024 Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '586952'
+    subtype: UNKNOWN
+  Secret Lair Drop Pixel Perfect Extra Life 2024 Rainbow Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '586953'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x Marvels Black Panther Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '592086'
+    release_date: '2024-08-31'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x Marvels Black Panther Rainbow Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '592081'
+    release_date: '2024-08-31'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x Marvels Captain America Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '592062'
+    release_date: '2024-08-31'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x Marvels Captain America Rainbow Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '592061'
+    release_date: '2024-08-31'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x Marvels Iron Man Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '592070'
+    release_date: '2024-08-31'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x Marvels Iron Man Rainbow Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '592067'
+    release_date: '2024-08-31'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x Marvels Storm Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '592080'
+    release_date: '2024-08-31'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x Marvels Storm Rainbow Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '592079'
+    release_date: '2024-08-31'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x Marvels Wolverine Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '592074'
+    release_date: '2024-08-31'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x Marvels Wolverine Rainbow Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '592073'
+    release_date: '2024-08-31'
+    subtype: UNKNOWN
+  Tempest Tournament Pack Display:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '593440'
+    subtype: UNKNOWN
 trollandtoad: {}
