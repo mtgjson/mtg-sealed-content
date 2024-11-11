@@ -1,0 +1,27 @@
+code: dft
+products:
+  Aetherdrift Play Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardtraderId: '308755'
+    subtype: PLAY
+  Aetherdrift Play Booster Pack:
+    category: BOOSTER_PACK
+    subtype: PLAY
+    identifiers: {}
+  Aetherdrift Play Booster Box Case:
+    category: BOOSTER_CASE
+    subtype: PLAY
+    identifiers: {}
+  Aetherdrift Collector Booster Box:
+    category: BOOSTER_BOX
+    subtype: COLLECTOR
+    identifiers: {}
+  Aetherdrift Collector Booster Pack:
+    category: COLLECTOR_PACK
+    subtype: COLLECTOR
+    identifiers: {}
+  Aetherdrift Collector Booster Box Case:
+    category: BOOSTER_BOX
+    subtype: CATEGORY
+    identifiers: {}
