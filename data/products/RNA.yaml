@@ -16,6 +16,7 @@ products:
   Ravnica Allegiance Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
+      scgId: SLD-MTG-BBX-RNACASE-EN
       tcgplayerProductId: '180733'
       tntId: '1419450'
     release_date: '2019-01-25'
@@ -28,6 +29,7 @@ products:
       cardtraderId: '48893'
       csiId: '266865'
       mcmId: '367074'
+      scgId: SLD-MTG-PCK-RNA-EN
       tcgplayerProductId: '180735'
       tntId: '1419452'
     release_date: '2019-01-25'
@@ -72,6 +74,7 @@ products:
       cardtraderId: '48903'
       csiId: '266873'
       mcmId: '367804'
+      scgId: SLD-MTG-INT-RNATOOLKIT-EN
       tcgplayerProductId: '180737'
       tntId: '1458103'
     release_date: '2019-01-25'
@@ -101,6 +104,7 @@ products:
       cardtraderId: '48902'
       csiId: '266869'
       mcmId: '367805'
+      scgId: SLD-MTG-INT-RNAPWDECK-EN-DOMRI
       tcgplayerProductId: '182133'
       tntId: '1419455'
     release_date: '2019-01-25'
@@ -113,6 +117,7 @@ products:
       cardtraderId: '48901'
       csiId: '266868'
       mcmId: '367806'
+      scgId: SLD-MTG-INT-RNAPWDECK-EN-DOVIN
       tcgplayerProductId: '182134'
       tntId: '1419456'
     release_date: '2019-01-25'
@@ -121,6 +126,7 @@ products:
     category: SUBSET
     identifiers:
       abuId: '1551806'
+      scgId: SLD-MTG-INT-RNAPWDECK-EN-SET2
       tcgplayerProductId: '182132'
     release_date: '2019-01-25'
     subtype: PLANESWALKER
@@ -201,6 +207,7 @@ products:
       cardtraderId: '48894'
       csiId: '271373'
       mcmId: '368517'
+      scgId: SLD-MTG-INT-RNATHEME-EN-AZORIUS
       tcgplayerProductId: '183318'
       tntId: '1457872'
     release_date: '2019-01-11'
@@ -211,6 +218,7 @@ products:
       abuId: '1558147'
       cardtraderId: '48895'
       mcmId: '368520'
+      scgId: SLD-MTG-INT-RNATHEME-EN-GRUUL
       tcgplayerProductId: '183319'
       tntId: '1457873'
     release_date: '2019-01-11'
@@ -221,6 +229,7 @@ products:
       abuId: '1558148'
       cardtraderId: '48896'
       mcmId: '368518'
+      scgId: SLD-MTG-INT-RNATHEME-EN-ORZHOV
       tcgplayerProductId: '183320'
       tntId: '1457874'
     release_date: '2019-01-11'
@@ -232,6 +241,7 @@ products:
       cardtraderId: '48897'
       csiId: '271376'
       mcmId: '368519'
+      scgId: SLD-MTG-INT-RNATHEME-EN-RAKDOS
       tcgplayerProductId: '183321'
       tntId: '1457875'
     release_date: '2019-01-11'
@@ -240,6 +250,7 @@ products:
     category: SUBSET
     identifiers:
       abuId: '1558174'
+      scgId: SLD-MTG-INT-RNATHEME-EN-SET5
       tcgplayerProductId: '183323'
     subtype: THEME
   Ravnica Allegiance Theme Booster Pack Simic:
@@ -249,6 +260,7 @@ products:
       cardtraderId: '48898'
       csiId: '271377'
       mcmId: '368521'
+      scgId: SLD-MTG-INT-RNATHEME-EN-SIMIC
       tcgplayerProductId: '183322'
       tntId: '1457876'
     release_date: '2019-01-11'

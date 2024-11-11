@@ -16,6 +16,7 @@ products:
   War of the Spark Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
+      scgId: SLD-MTG-BBX-WARCASE-EN
       tcgplayerProductId: '185675'
       tntId: '1469256'
     release_date: '2019-05-03'
@@ -91,6 +92,7 @@ products:
       cardtraderId: '56903'
       csiId: '272415'
       mcmId: '371859'
+      scgId: SLD-MTG-INT-WARPWDECK-EN-GIDEON
       tcgplayerProductId: '187178'
       tntId: '1469261'
     release_date: '2019-04-01'
@@ -103,6 +105,7 @@ products:
       cardtraderId: '56902'
       csiId: '272416'
       mcmId: '371860'
+      scgId: SLD-MTG-INT-WARPWDECK-EN-JACE
       tcgplayerProductId: '187179'
       tntId: '1469262'
     release_date: '2019-04-01'
@@ -111,6 +114,7 @@ products:
     category: SUBSET
     identifiers:
       abuId: '1568034'
+      scgId: SLD-MTG-INT-WARPWDECK-EN-SET2
       tcgplayerProductId: '185683'
     subtype: PLANESWALKER
   War of the Spark Prerelease Pack:
@@ -147,6 +151,7 @@ products:
       abuId: '1573548'
       cardtraderId: '56890'
       mcmId: '372522'
+      scgId: SLD-MTG-PCK-WARTHEME-EN-BLACK
       tcgplayerProductId: '188648'
       tntId: '1480806'
     release_date: '2019-05-03'
@@ -157,6 +162,7 @@ products:
       abuId: '1573547'
       cardtraderId: '56889'
       mcmId: '372523'
+      scgId: SLD-MTG-PCK-WARTHEME-EN-BLUE
       tcgplayerProductId: '188647'
       tntId: '1480805'
     release_date: '2019-05-03'
@@ -168,6 +174,7 @@ products:
       cardtraderId: '56892'
       csiId: '277299'
       mcmId: '372520'
+      scgId: SLD-MTG-PCK-WARTHEME-EN-GREEN
       tcgplayerProductId: '188650'
       tntId: '1480808'
     release_date: '2019-05-03'
@@ -178,6 +185,7 @@ products:
       abuId: '1573549'
       cardtraderId: '56891'
       mcmId: '372521'
+      scgId: SLD-MTG-PCK-WARTHEME-EN-RED
       tcgplayerProductId: '188649'
       tntId: '1480807'
     release_date: '2019-05-03'
@@ -185,6 +193,7 @@ products:
   War of the Spark Theme Booster Pack Set of 5:
     category: SUBSET
     identifiers:
+      scgId: SLD-MTG-PCK-WARTHEME-EN-SET5
       tcgplayerProductId: '188644'
     release_date: '2019-05-03'
     subtype: THEME
@@ -194,6 +203,7 @@ products:
       abuId: '1573546'
       cardtraderId: '56888'
       mcmId: '372524'
+      scgId: SLD-MTG-PCK-WARTHEME-EN-WHITE
       tcgplayerProductId: '188646'
       tntId: '1480804'
     release_date: '2019-05-03'

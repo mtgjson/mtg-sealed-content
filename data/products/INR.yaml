@@ -3,6 +3,7 @@ products:
   Innistrad Remastered Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      cardtraderId: '308746'
       mcmId: '795092'
     release_date: '2025-01-24'
     subtype: COLLECTOR
@@ -13,12 +14,14 @@ products:
   Innistrad Remastered Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '308748'
       mcmId: '795094'
     release_date: '2025-01-24'
     subtype: COLLECTOR
   Innistrad Remastered Play Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      cardtraderId: '308745'
       mcmId: '795091'
     release_date: '2025-01-24'
     subtype: PLAY
@@ -29,6 +32,7 @@ products:
   Innistrad Remastered Play Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '308747'
       mcmId: '795093'
     release_date: '2025-01-24'
     subtype: PLAY

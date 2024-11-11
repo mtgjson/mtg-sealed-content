@@ -59,6 +59,7 @@ products:
       cardKingdomId: '211677'
       cardtraderId: '48531'
       mcmId: '297299'
+      scgId: SLD-MTG-INT-AKHTOOLKIT-EN
       tcgplayerProductId: '127176'
       tntId: '1102275'
     release_date: '2017-04-19'
@@ -81,6 +82,7 @@ products:
       cardtraderId: '48528'
       csiId: '232568'
       mcmId: '295697'
+      scgId: SLD-MTG-INT-AKHPWDECK-EN-GIDEON
       tcgplayerProductId: '127532'
       tntId: '1102273'
     subtype: PLANESWALKER
@@ -91,11 +93,13 @@ products:
       cardKingdomId: '211624'
       cardtraderId: '48529'
       mcmId: '295698'
+      scgId: SLD-MTG-INT-AKHPWDECK-EN-LILIANA
       tcgplayerProductId: '127533'
     subtype: PLANESWALKER
   Amonkhet Planeswalker Decks Set of 2:
     category: SUBSET
     identifiers:
+      scgId: SLD-MTG-INT-AKHPWDECK-EN-SET2
       tcgplayerProductId: '131217'
     subtype: PLANESWALKER
   Amonkhet Prerelease Pack:
