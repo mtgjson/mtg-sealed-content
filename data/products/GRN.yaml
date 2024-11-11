@@ -28,6 +28,7 @@ products:
       cardtraderId: '48716'
       csiId: '259663'
       mcmId: '361218'
+      scgId: SLD-MTG-PCK-GRN-EN
       tcgplayerProductId: '173364'
       tntId: '1188180'
     release_date: '2018-10-05'
@@ -78,6 +79,7 @@ products:
       cardtraderId: '48731'
       csiId: '259703'
       mcmId: '363628'
+      scgId: SLD-MTG-INT-GRNPWDECK-EN-RAL
       tcgplayerProductId: '176692'
       tntId: '1188183'
     release_date: '2018-10-05'
@@ -89,6 +91,7 @@ products:
       cardKingdomId: '221370'
       cardtraderId: '48730'
       mcmId: '363629'
+      scgId: SLD-MTG-INT-GRNPWDECK-EN-VRASKA
       tcgplayerProductId: '176691'
       tntId: '1188184'
     release_date: '2018-10-05'
@@ -96,6 +99,7 @@ products:
   Guilds of Ravnica Planeswalker Decks Set of 2:
     category: SUBSET
     identifiers:
+      scgId: SLD-MTG-INT-GRNPWDECK-EN-SET2
       tcgplayerProductId: '176693'
     subtype: PLANESWALKER
   Guilds of Ravnica Prerelease Pack Boros:
@@ -173,6 +177,7 @@ products:
       abuId: '1536776'
       cardtraderId: '48717'
       mcmId: '364602'
+      scgId: SLD-MTG-PCK-GRNTHEME-EN-BOROS
       tcgplayerProductId: '176698'
       tntId: '1347955'
     release_date: '2018-09-26'
@@ -183,6 +188,7 @@ products:
       abuId: '1536788'
       cardtraderId: '48718'
       mcmId: '364599'
+      scgId: SLD-MTG-PCK-GRNTHEME-EN-DIMIR
       tcgplayerProductId: '176699'
       tntId: '1347958'
     release_date: '2018-09-26'
@@ -193,6 +199,7 @@ products:
       abuId: '1536780'
       cardtraderId: '48719'
       mcmId: '364601'
+      scgId: SLD-MTG-PCK-GRNTHEME-EN-GOLGARI
       tcgplayerProductId: '176700'
       tntId: '1347954'
     release_date: '2018-09-26'
@@ -203,6 +210,7 @@ products:
       abuId: '1536785'
       cardtraderId: '48720'
       mcmId: '364600'
+      scgId: SLD-MTG-PCK-GRNTHEME-EN-IZZET
       tcgplayerProductId: '176701'
       tntId: '1347957'
     release_date: '2018-09-26'
@@ -213,6 +221,7 @@ products:
       abuId: '1536764'
       cardtraderId: '48721'
       mcmId: '364603'
+      scgId: SLD-MTG-PCK-GRNTHEME-EN-SELESNYA
       tcgplayerProductId: '176702'
       tntId: '1347956'
     release_date: '2018-09-26'
@@ -220,5 +229,6 @@ products:
   Guilds of Ravnica Theme Booster Pack Set of 5:
     category: SUBSET
     identifiers:
+      scgId: SLD-MTG-PCK-GRNTHEME-EN-SET5
       tcgplayerProductId: '176703'
     subtype: THEME

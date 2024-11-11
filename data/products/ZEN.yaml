@@ -53,6 +53,7 @@ products:
       cardKingdomId: '127773'
       cardtraderId: '47433'
       mcmId: '210148'
+      scgId: SLD-MTG-INT-ZENINTRO-EN-RISE
       tcgplayerProductId: '32796'
       tntId: '279890'
     subtype: INTRO
@@ -63,6 +64,7 @@ products:
       cardKingdomId: '127775'
       cardtraderId: '47435'
       mcmId: '210147'
+      scgId: SLD-MTG-INT-ZENINTRO-EN-UNSTABLE
       tcgplayerProductId: '32795'
       tntId: '279892'
     subtype: INTRO
@@ -80,6 +82,7 @@ products:
       cardKingdomId: '127774'
       cardtraderId: '47434'
       mcmId: '210150'
+      scgId: SLD-MTG-INT-ZENINTRO-EN-ADVENTURERS
       tcgplayerProductId: '32798'
       tntId: '279891'
     subtype: INTRO
@@ -90,6 +93,7 @@ products:
       cardKingdomId: '127772'
       cardtraderId: '47432'
       mcmId: '210149'
+      scgId: SLD-MTG-INT-ZENINTRO-EN-PUMPED
       tcgplayerProductId: '32797'
       tntId: '279889'
     subtype: INTRO
@@ -100,12 +104,14 @@ products:
       cardKingdomId: '127771'
       cardtraderId: '47431'
       mcmId: '210146'
+      scgId: SLD-MTG-INT-ZENINTRO-EN-KOR
       tcgplayerProductId: '32794'
       tntId: '279888'
     subtype: INTRO
   Zendikar Intro Packs Set of 5:
     category: SUBSET
     identifiers:
+      scgId: SLD-MTG-INT-ZENINTRO-EN-SET5
       tcgplayerProductId: '32799'
     subtype: INTRO
   Zendikar Six Card Booster Pack:

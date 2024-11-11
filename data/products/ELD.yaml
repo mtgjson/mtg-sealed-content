@@ -12,6 +12,7 @@ products:
       cardKingdomId: '227303'
       cardtraderId: '59637'
       mcmId: '399069'
+      scgId: SLD-MTG-INT-ELDBRAWL-EN-C
       tcgplayerProductId: '194910'
       tntId: '1604224'
     release_date: '2019-10-04'
@@ -24,6 +25,7 @@ products:
       cardtraderId: '59638'
       csiId: '285170'
       mcmId: '399074'
+      scgId: SLD-MTG-INT-ELDBRAWL-EN-A
       tcgplayerProductId: '194911'
       tntId: '1604226'
     release_date: '2019-10-04'
@@ -35,6 +37,7 @@ products:
       cardKingdomId: '227305'
       cardtraderId: '59641'
       mcmId: '399064'
+      scgId: SLD-MTG-INT-ELDBRAWL-EN-D
       tcgplayerProductId: '194909'
       tntId: '1604223'
     release_date: '2019-10-04'
@@ -112,6 +115,7 @@ products:
       cardtraderId: '59127'
       csiId: '282617'
       mcmId: '389652'
+      scgId: SLD-MTG-PCK-ELDCOLLECTOR-EN
       tcgplayerProductId: '194906'
       tntId: '1603935'
     release_date: '2019-10-04'
@@ -139,6 +143,7 @@ products:
   Throne of Eldraine Draft Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
+      scgId: SLD-MTG-BBX-ELDDRAFTCASE-EN
       tcgplayerProductId: '194893'
     release_date: '2019-10-04'
     subtype: DRAFT
@@ -163,6 +168,7 @@ products:
       cardtraderId: '60151'
       csiId: '286355'
       mcmId: '405594'
+      scgId: SLD-MTG-BUN-ELDGIFT-EN
       tcgplayerProductId: '200610'
       tntId: '1612151'
     release_date: '2019-10-04'
@@ -182,6 +188,7 @@ products:
       cardtraderId: '59643'
       csiId: '281875'
       mcmId: '399084'
+      scgId: SLD-MTG-INT-ELDPWDECK-EN-B
       tcgplayerProductId: '194896'
       tntId: '1585803'
     release_date: '2019-10-04'
@@ -194,6 +201,7 @@ products:
       cardtraderId: '59642'
       csiId: '281876'
       mcmId: '399079'
+      scgId: SLD-MTG-INT-ELDPWDECK-EN-A
       tcgplayerProductId: '194895'
       tntId: '1585802'
     release_date: '2019-10-04'
@@ -202,6 +210,7 @@ products:
     category: SUBSET
     identifiers:
       abuId: '1596557'
+      scgId: SLD-MTG-INT-ELDPWDECK-EN-SET2
       tcgplayerProductId: '194897'
     release_date: '2019-10-04'
     subtype: PLANESWALKER
@@ -233,6 +242,7 @@ products:
       cardtraderId: '59122'
       csiId: '286358'
       mcmId: '389637'
+      scgId: SLD-MTG-PCK-ELDTHEME-EN-BLACK
       tcgplayerProductId: '194900'
       tntId: '1604217'
     release_date: '2019-10-04'
@@ -243,6 +253,7 @@ products:
       abuId: '1602779'
       cardtraderId: '59121'
       mcmId: '389622'
+      scgId: SLD-MTG-PCK-ELDTHEME-EN-BLUE
       tcgplayerProductId: '194903'
       tntId: '1604218'
     release_date: '2019-10-04'
@@ -254,6 +265,7 @@ products:
       cardtraderId: '59124'
       csiId: '286360'
       mcmId: '389627'
+      scgId: SLD-MTG-PCK-ELDTHEME-EN-GREEN
       tcgplayerProductId: '194901'
       tntId: '1604219'
     release_date: '2019-10-04'
@@ -264,6 +276,7 @@ products:
       abuId: '1602781'
       cardtraderId: '59123'
       mcmId: '389617'
+      scgId: SLD-MTG-PCK-ELDTHEME-EN-RED
       tcgplayerProductId: '194902'
       tntId: '1604220'
     release_date: '2019-10-04'
@@ -271,6 +284,7 @@ products:
   Throne of Eldraine Theme Booster Pack Set of 5:
     category: SUBSET
     identifiers:
+      scgId: SLD-MTG-PCK-ELDTHEME-EN-SET5
       tcgplayerProductId: '194905'
     release_date: '2019-10-04'
     subtype: THEME
@@ -280,6 +294,7 @@ products:
       abuId: '1602778'
       cardtraderId: '59120'
       mcmId: '389632'
+      scgId: SLD-MTG-PCK-ELDTHEME-EN-WHITE
       tcgplayerProductId: '194904'
       tntId: '1604221'
     release_date: '2019-10-04'
