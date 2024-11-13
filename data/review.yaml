@@ -1,6 +1,12 @@
 abugames: {}
 cardKingdom: {}
-cardMarket: {}
+cardMarket:
+  'Foundations Jumpstart: SetNames_Tip Card':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '799932'
+    release_date: '2024-11-12'
+    subtype: UNKNOWN
 cardTrader: {}
 coolstuffinc: {}
 miniaturemarket: {}
@@ -46,6 +52,36 @@ starcitygames:
       scgId: SLD-MTG-INT-WWKINTRO-EN-SET5
     subtype: UNKNOWN
 tcgplayer:
+  Innistrad Remastered Collector Booster Display:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '594681'
+    release_date: '2025-01-24'
+    subtype: UNKNOWN
+  Innistrad Remastered Collector Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '594678'
+    release_date: '2025-01-24'
+    subtype: UNKNOWN
+  Innistrad Remastered Play Booster Display:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '594672'
+    release_date: '2025-01-24'
+    subtype: UNKNOWN
+  Innistrad Remastered Play Booster Display Case:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '594676'
+    release_date: '2025-01-24'
+    subtype: UNKNOWN
+  Innistrad Remastered Play Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '594669'
+    release_date: '2025-01-24'
+    subtype: UNKNOWN
   Tempest Tournament Pack Display:
     category: UNKNOWN
     identifiers:
