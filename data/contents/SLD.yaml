@@ -4645,71 +4645,211 @@ products:
     deck:
     - name: Marvel's Black Panther
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Nature's Lore
+        number: 867
+        set: sld
+      chance: 499
+    - card:
+      - foil: true
+        name: Abundant Growth
+        number: 870
+        set: sld
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 500
   Secret Lair Drop Secret Lair x Marvels Black Panther Rainbow Foil:
     card_count: 5
     deck:
     - name: Marvel's Black Panther foil
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Nature's Lore
+        number: 867
+        set: sld
+      chance: 499
+    - card:
+      - foil: true
+        name: Abundant Growth
+        number: 870
+        set: sld
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 500
   Secret Lair Drop Secret Lair x Marvels Captain America:
     card_count: 5
     deck:
     - name: Marvel's Captain America
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Masterwork of Ingenuity
+        number: 863
+        set: sld
+      chance: 499
+    - card:
+      - foil: true
+        name: Abundant Growth
+        number: 870
+        set: sld
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 500
   Secret Lair Drop Secret Lair x Marvels Captain America Rainbow Foil:
     card_count: 5
     deck:
     - name: Marvel's Captain America foil
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Masterwork of Ingenuity
+        number: 863
+        set: sld
+      chance: 499
+    - card:
+      - foil: true
+        name: Abundant Growth
+        number: 870
+        set: sld
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 500
   Secret Lair Drop Secret Lair x Marvels Iron Man:
     card_count: 5
     deck:
     - name: Marvel's Iron Man
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Sculpting Steel
+        number: 864
+        set: sld
+      chance: 499
+    - card:
+      - foil: true
+        name: Abundant Growth
+        number: 870
+        set: sld
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 500
   Secret Lair Drop Secret Lair x Marvels Iron Man Rainbow Foil:
     card_count: 5
     deck:
     - name: Marvel's Iron Man foil
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Sculpting Steel
+        number: 864
+        set: sld
+      chance: 499
+    - card:
+      - foil: true
+        name: Abundant Growth
+        number: 870
+        set: sld
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 500
   Secret Lair Drop Secret Lair x Marvels Storm:
     card_count: 5
     deck:
     - name: Marvel's Storm
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Regrowth
+        number: 866
+        set: sld
+      chance: 499
+    - card:
+      - foil: true
+        name: Abundant Growth
+        number: 870
+        set: sld
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 500
   Secret Lair Drop Secret Lair x Marvels Storm Rainbow Foil:
     card_count: 5
     deck:
     - name: Marvel's Storm foil
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Regrowth
+        number: 866
+        set: sld
+      chance: 499
+    - card:
+      - foil: true
+        name: Abundant Growth
+        number: 870
+        set: sld
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 500
   Secret Lair Drop Secret Lair x Marvels Wolverine:
     card_count: 5
     deck:
     - name: Marvel's Wolverine
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Unnatural Growth
+        number: 865
+        set: sld
+      chance: 499
+    - card:
+      - foil: true
+        name: Abundant Growth
+        number: 870
+        set: sld
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 500
   Secret Lair Drop Secret Lair x Marvels Wolverine Rainbow Foil:
     card_count: 5
     deck:
     - name: Marvel's Wolverine foil
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Unnatural Growth
+        number: 865
+        set: sld
+      chance: 499
+    - card:
+      - foil: true
+        name: Abundant Growth
+        number: 870
+        set: sld
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 500
   Secret Lair Drop Secret Lair x Monty Python Monty Python and the Holy Grail Vol 1:
     card:
     - name: Goblin Bombardment
