@@ -48,7 +48,23 @@ products:
     - count: 1
       name: Zendikar Booster Pack
       set: zen
-  Zendikar Intro Pack Display: []
+  Zendikar Intro Pack Display:
+    sealed:
+    - count: 2
+      name: Zendikar Intro Pack Black Rise of the Vampires
+      set: zen
+    - count: 2
+      name: Zendikar Intro Pack Blue Unstable Terrain
+      set: zen
+    - count: 2
+      name: Zendikar Intro Pack Green The Adventurers
+      set: zen
+    - count: 2
+      name: Zendikar Intro Pack Red Pumped Up
+      set: zen
+    - count: 2
+      name: Zendikar Intro Pack White Kor Armory
+      set: zen
   Zendikar Intro Pack Green The Adventurers:
     card_count: 41
     deck:
