@@ -5,13 +5,28 @@ products:
     - count: 36
       name: Worldwake Booster Pack
       set: wwk
-  Worldwake Booster Box Case: []
+  Worldwake Booster Box Case:
+    sealed:
+    - set: wwk
+      name: Worldwake Booster Box
+      count: 6
   Worldwake Booster Pack:
     card_count: 15
     pack:
     - code: draft
       set: wwk
-  Worldwake Fat Pack: []
+  Worldwake Fat Pack:
+    other:
+    - name: One card box with panoramic art
+    - name: The Worldwake Player's Guide
+    - name: A learn-to-play insert
+    - name: An excerpt from In the Teeth of Akoum
+    - name: An exclusive Worldwake Spindown Life Counter
+    - name: 40 Zendikar extended art basic lands
+    sealed:
+    - set: wwk
+      name: Worldwake Booster Pack
+      count: 8
   Worldwake Intro Pack Brute Force:
     card_count: 41
     deck:
@@ -21,7 +36,23 @@ products:
     - count: 1
       name: Worldwake Booster Pack
       set: wwk
-  Worldwake Intro Pack Display: []
+  Worldwake Intro Pack Display:
+    sealed:
+    - set: wwk
+      count: 2
+      name: Worldwake Intro Pack Brute Force
+    - set: wwk
+      count: 2
+      name: Worldwake Intro Pack Fangs of the Bloodchief
+    - set: wwk
+      count: 2
+      name: Worldwake Intro Pack Flyover
+    - set: wwk
+      count: 2
+      name: Worldwake Intro Pack Mysterious Realms
+    - set: wwk
+      count: 2
+      name: Worldwake Intro Pack Rapid Fire
   Worldwake Intro Pack Fangs of the Bloodchief:
     card_count: 41
     deck:
@@ -58,7 +89,23 @@ products:
     - count: 1
       name: Worldwake Booster Pack
       set: wwk
-  Worldwake Intro Packs Set of 5: []
+  Worldwake Intro Packs Set of 5:
+    sealed:
+    - set: wwk
+      count: 1
+      name: Worldwake Intro Pack Brute Force
+    - set: wwk
+      count: 1
+      name: Worldwake Intro Pack Fangs of the Bloodchief
+    - set: wwk
+      count: 1
+      name: Worldwake Intro Pack Flyover
+    - set: wwk
+      count: 1
+      name: Worldwake Intro Pack Mysterious Realms
+    - set: wwk
+      count: 1
+      name: Worldwake Intro Pack Rapid Fire
   Worldwake Six Card Booster Pack:
     card_count: 6
     pack:

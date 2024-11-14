@@ -1,7 +1,10 @@
 code: xln
 products:
-  2017 Gift Pack: []
-  Buy-a-Box Treasure Chest Booster: []
+  Buy-a-Box Treasure Chest Booster:
+    card_count: 9
+    pack:
+    - set: xln
+      code: treasure-chest
   Ixalan Booster Battle Pack:
     card_count: 60
     sealed:
