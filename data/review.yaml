@@ -63,7 +63,30 @@ cardTrader:
       cardtraderId: '311068'
     subtype: UNKNOWN
 coolstuffinc: {}
-miniaturemarket: {}
+miniaturemarket:
+  'MtG Innistrad: Remastered - Collector Booster Box':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '304275'
+    release_date: '2024-11-18'
+    subtype: UNKNOWN
+  'MtG Innistrad: Remastered - Collector Booster Box 1':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '304274'
+    subtype: UNKNOWN
+  'MtG Innistrad: Remastered - Play Booster Box (36)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '304271'
+    release_date: '2024-11-18'
+    subtype: UNKNOWN
+  'MtG Innistrad: Remastered - Play Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '304272'
+    release_date: '2024-11-18'
+    subtype: UNKNOWN
 starcitygames:
   Holiday Gift Box (2012):
     category: UNKNOWN
@@ -81,6 +104,12 @@ starcitygames:
       scgId: SLD-MTG-INT-M19SPELLSLINGER-EN
     subtype: UNKNOWN
 tcgplayer:
+  Innistrad Remastered Collector Booster Display Case:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '596262'
+    release_date: '2025-01-24'
+    subtype: UNKNOWN
   Tempest Tournament Pack Display:
     category: UNKNOWN
     identifiers:
