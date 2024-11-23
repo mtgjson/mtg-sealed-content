@@ -5,7 +5,11 @@ products:
     - count: 48
       name: Unglued Booster Pack
       set: ugl
-  Unglued Booster Box Case: []
+  Unglued Booster Box Case: 
+    sealed:
+    - set: ugl
+      count: 6
+      name: Unglued Booster Box
   Unglued Booster Pack:
     card_count: 10
     pack:
