@@ -5,7 +5,11 @@ products:
     - count: 36
       name: Odyssey Booster Pack
       set: ody
-  Odyssey Booster Box Case: []
+  Odyssey Booster Box Case:
+    sealed:
+    - set: ody
+      count: 6
+      name: Odyssey Booster Box
   Odyssey Booster Pack:
     card_count: 15
     pack:
