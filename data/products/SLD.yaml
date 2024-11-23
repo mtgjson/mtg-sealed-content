@@ -1,5 +1,11 @@
 code: sld
 products:
+  Secret Lair Bundle All Natural Totally Refreshing Superdrop All 4 U:
+    category: BOX_SET
+    identifiers:
+      mcmId: '569957'
+      tcgplayerProductId: '242354'
+    subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle All Natural Totally Refreshing Superdrop All Natural Foil:
     category: BOX_SET
     identifiers:
@@ -7,11 +13,12 @@ products:
       tcgplayerProductId: '242355'
     release_date: '2021-06-21'
     subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle All Natural Totally Refreshing Superdrop All 4 U:
+  Secret Lair Bundle All Natural Totally Refreshing Superdrop Totally Refreshing Non Foil:
     category: BOX_SET
     identifiers:
-      mcmId: '569957'
-      tcgplayerProductId: '242354'
+      mcmId: '569955'
+      tcgplayerProductId: '242356'
+    release_date: '2021-06-21'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle April Superdrop Full of Foils:
     category: BOX_SET
@@ -163,36 +170,10 @@ products:
     identifiers:
       tcgplayerProductId: '283288'
     subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle October Superdrop 2022 Big Foil Bundle:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '450514'
-    subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle October Superdrop 2022 Big Non Foil Bundle:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '450515'
-    subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Fall Superdrop 2023 Bugs Bands and Blockbusters:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '514992'
-    subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Fall Superdrop 2023 Bugs Bands and Blockbusters Bundle Foil:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '514991'
-    subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Camp Totally Safe Superdrop Hatsune Miku Electric Entourage Bundle:
     category: BOX_SET
     identifiers:
       tcgplayerProductId: '584515'
-    release_date: '2024-08-31'
-    subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Camp Totally Safe Superdrop Night Swim Bundle Foil:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '584518'
     release_date: '2024-08-31'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Camp Totally Safe Superdrop Night Swim Bundle:
@@ -201,16 +182,22 @@ products:
       tcgplayerProductId: '584519'
     release_date: '2024-08-31'
     subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Camp Totally Safe Superdrop Noise from the Woods Bundle Foil:
+  Secret Lair Bundle Camp Totally Safe Superdrop Night Swim Bundle Foil:
     category: BOX_SET
     identifiers:
-      tcgplayerProductId: '584516'
+      tcgplayerProductId: '584518'
     release_date: '2024-08-31'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Camp Totally Safe Superdrop Noise from the Woods Bundle:
     category: BOX_SET
     identifiers:
       tcgplayerProductId: '584517'
+    release_date: '2024-08-31'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Camp Totally Safe Superdrop Noise from the Woods Bundle Foil:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '584516'
     release_date: '2024-08-31'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Camp Totally Safe Superdrop The Cabin with Everything Bundle:
@@ -225,6 +212,12 @@ products:
       tcgplayerProductId: '584513'
     release_date: '2024-08-31'
     subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Camp Totally Safe Superdrop The Cabin with Non Foils Bundle:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '584514'
+    release_date: '2024-08-31'
+    subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Cards in Costume:
     category: BOX_SET
     identifiers:
@@ -236,12 +229,6 @@ products:
     identifiers:
       tcgplayerProductId: 518843
     release_date: '2023-09-23'
-    subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Summer Superdrop 2023 Carving Up A Barrel of Foils:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '501826'
-    release_date: '2023-09-06'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle December Superdrop Foil:
     category: BOX_SET
@@ -313,6 +300,31 @@ products:
       tcgplayerProductId: '545703'
     release_date: '2024-04-25'
     subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Fall Superdrop 2023 Bugs Bands and Blockbusters:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '514992'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Fall Superdrop 2023 Bugs Bands and Blockbusters Bundle Foil:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '514991'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Fall Superdrop 2023 This One Goes Out To My Everything:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '514917'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Fall Superdrop 2023 This One Is Dedicated To My Foils:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '514919'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Fall Superdrop 2023 This One Is For My Non Foils:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '514921'
+    subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle February Superdrop Full of Foils:
     category: BOX_SET
     identifiers:
@@ -327,14 +339,6 @@ products:
     category: BOX_SET
     identifiers:
       tcgplayerProductId: '267767'
-    subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle October Superdrop 2021 Ferocious Foil:
-    category: BOX_SET
-    identifiers:
-      cardtraderId: '171514'
-      mcmId: '579344'
-      tcgplayerProductId: '251741'
-    release_date: '2021-10-15'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Fill My Cauldron with Almost Everything:
     category: BOX_SET
@@ -450,11 +454,13 @@ products:
       tcgplayerProductId: '251736'
     release_date: '2021-10-15'
     subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Summer Superdrop 2023 More Adventures in Middle earth:
+  Secret Lair Bundle October Superdrop 2021 Ferocious Foil:
     category: BOX_SET
     identifiers:
-      tcgplayerProductId: '501833'
-    release_date: '2023-09-06'
+      cardtraderId: '171514'
+      mcmId: '579344'
+      tcgplayerProductId: '251741'
+    release_date: '2021-10-15'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle October Superdrop 2021 Non Foil Nightmare:
     category: BOX_SET
@@ -463,6 +469,26 @@ products:
       mcmId: '579343'
       tcgplayerProductId: '251740'
     release_date: '2021-10-15'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle October Superdrop 2022 Big Foil Bundle:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '450514'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle October Superdrop 2022 Big Non Foil Bundle:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '450515'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle October Superdrop 2022 Post Malone Bundle:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '450512'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle October Superdrop 2022 Secret Lair x Warhammer:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '450513'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Places to Trick or Treat Foil Lands:
     category: BOX_SET
@@ -476,11 +502,6 @@ products:
       tcgplayerProductId: 518840
     release_date: '2023-09-23'
     subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle October Superdrop 2022 Post Malone Bundle:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '450512'
-    subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Second Secretversary Bundle:
     category: BOX_SET
     identifiers:
@@ -491,10 +512,10 @@ products:
     identifiers:
       tcgplayerProductId: '258494'
     subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle October Superdrop 2022 Secret Lair x Warhammer:
+  Secret Lair Bundle Second Secretversary The Bundled Bundle:
     category: BOX_SET
     identifiers:
-      tcgplayerProductId: '450513'
+      tcgplayerProductId: '258496'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Secretversary Bundle:
     category: BOX_SET
@@ -597,12 +618,6 @@ products:
       tcgplayerProductId: '511864'
     release_date: '2023-09-06'
     subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Summer Superdrop 2023 Shredding A Wave of Everything:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '501823'
-    release_date: '2023-09-06'
-    subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Smitten Superdrop All Our Love:
     category: BOX_SET
     identifiers:
@@ -661,6 +676,30 @@ products:
       tcgplayerProductId: '214937'
     release_date: '2020-05-28'
     subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Summer Superdrop 2023 Carving Up A Barrel of Foils:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '501826'
+    release_date: '2023-09-06'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Summer Superdrop 2023 More Adventures in Middle earth:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '501833'
+    release_date: '2023-09-06'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Summer Superdrop 2023 Shredding A Wave of Everything:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '501823'
+    release_date: '2023-09-06'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Summer Superdrop 2023 Tearing Up A Sick Tube of Non Foils:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '501828'
+    release_date: '2023-09-06'
+    subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Summer Superdrop 2024 Hatsune Miku Digital Sensation:
     category: BOX_SET
     identifiers:
@@ -717,17 +756,6 @@ products:
       tcgplayerProductId: '237614'
     release_date: '2021-06-14'
     subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Summer Superdrop 2023 Tearing Up A Sick Tube of Non Foils:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '501828'
-    release_date: '2023-09-06'
-    subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Second Secretversary The Bundled Bundle:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '258496'
-    subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle The Main Event:
     category: BOX_SET
     identifiers:
@@ -783,21 +811,6 @@ products:
       tntId: '1655972'
     release_date: '2020-02-17'
     subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Fall Superdrop 2023 This One Goes Out To My Everything:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '514917'
-    subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Fall Superdrop 2023 This One Is Dedicated To My Foils:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '514919'
-    subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Fall Superdrop 2023 This One Is For My Non Foils:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '514921'
-    subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Those Foils Are Really Coming Down:
     category: BOX_SET
     identifiers:
@@ -807,13 +820,6 @@ products:
     category: BOX_SET
     identifiers:
       tcgplayerProductId: '493795'
-    subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle All Natural Totally Refreshing Superdrop Totally Refreshing Non Foil:
-    category: BOX_SET
-    identifiers:
-      mcmId: '569955'
-      tcgplayerProductId: '242356'
-    release_date: '2021-06-21'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Transformers:
     category: BOX_SET
@@ -1527,12 +1533,6 @@ products:
       tcgplayerProductId: '522559'
     release_date: '2023-09-23'
     subtype: SECRET_LAIR
-  Secret Lair Bundle Camp Totally Safe Superdrop The Cabin with Non Foils Bundle:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '584514'
-    release_date: '2024-08-31'
-    subtype: SECRET_LAIR_BUNDLE
   Secret Lair Drop Can You Feel with a Heart of Steel:
     category: BOX_SET
     identifiers:
