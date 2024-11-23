@@ -50,7 +50,13 @@ abugames:
       abuId: '2546191'
     subtype: UNKNOWN
 cardKingdom: {}
-cardMarket: {}
+cardMarket:
+  'From the Vault: Lore: Full Set':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '801537'
+    release_date: '2024-11-22'
+    subtype: UNKNOWN
 cardTrader:
   Innistrad Remastered | Collector Booster Omega Pack:
     category: UNKNOWN
@@ -107,6 +113,12 @@ miniaturemarket:
       miniaturemarketId: '304272'
     release_date: '2024-11-18'
     subtype: UNKNOWN
+  'MtG Ravnica Remastered: Draft Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '296245'
+    release_date: '2023-10-16'
+    subtype: UNKNOWN
 starcitygames:
   Holiday Gift Box (2012):
     category: UNKNOWN
@@ -123,11 +135,26 @@ starcitygames:
     identifiers:
       scgId: SLD-MTG-INT-M19SPELLSLINGER-EN
     subtype: UNKNOWN
+  Vibes - Enter the Huddle Booster Box & SCG-Exclusive Promo "Buddy Up":
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-VIBE-BBX-ETH-EN
+    subtype: UNKNOWN
+  Vibes - Enter the Huddle Booster Case & SCG-Exclusive Promo "Buddy Up":
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-VIBE-BBX-ETHCASE-EN
+    subtype: UNKNOWN
 tcgplayer:
   Commander Legends Sleeved Draft Booster Pack:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '596366'
+    subtype: UNKNOWN
+  Duskmourn House of Horror Sleeved Play Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '598060'
     subtype: UNKNOWN
   Eldritch Moon Sleeved Booster Pack:
     category: UNKNOWN
