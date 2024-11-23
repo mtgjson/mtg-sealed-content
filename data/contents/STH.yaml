@@ -5,7 +5,11 @@ products:
     - count: 36
       name: Stronghold Booster Pack
       set: sth
-  Stronghold Booster Box Case: []
+  Stronghold Booster Box Case:
+    sealed:
+    - set: sth
+      name: Stronghold Booster Box
+      count: 6
   Stronghold Booster Pack:
     card_count: 15
     pack:
@@ -45,4 +49,17 @@ products:
     deck:
     - name: The Spikes
       set: sth
-  Stronghold Theme Decks Set of 4: []
+  Stronghold Theme Decks Set of 4:
+    sealed:
+    - count: 1
+      name: Stronghold Theme Deck Call of the Kor
+      set: sth
+    - count: 1
+      name: Stronghold Theme Deck Migraine
+      set: sth
+    - count: 1
+      name: Stronghold Theme Deck The Sparkler
+      set: sth
+    - count: 1
+      name: Stronghold Theme Deck The Spikes
+      set: sth
