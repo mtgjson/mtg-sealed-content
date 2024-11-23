@@ -5,13 +5,28 @@ products:
     - count: 36
       name: Planar Chaos Booster Pack
       set: plc
-  Planar Chaos Booster Box Case: []
+  Planar Chaos Booster Box Case:
+    sealed:
+    - set: plc
+      name: Planar Chaos Booster Box
+      count: 6
   Planar Chaos Booster Pack:
     card_count: 15
     pack:
     - code: draft
       set: plc
-  Planar Chaos Fat Pack: []
+  Planar Chaos Fat Pack:
+    sealed:
+    - set: plc
+      name: Planar Chaos Booster Pack
+      count: 6
+    other:
+    - name: 2 card deck boxes
+    - name: Player's Guide
+    - name: 40 basic land cards
+    - name: Planar Chaos Spindown Life Counter
+    - name: 1 Random Pro Tour player card from PT07 set
+    - name: Planar Chaos novel
   Planar Chaos Theme Deck Display:
     sealed:
     - count: 3

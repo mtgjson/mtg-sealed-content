@@ -5,7 +5,11 @@ products:
     - count: 36
       name: Onslaught Booster Pack
       set: ons
-  Onslaught Booster Box Case: []
+  Onslaught Booster Box Case:
+    sealed:
+    - set: ons
+      name: Onslaught Booster Box
+      count: 6
   Onslaught Booster Pack:
     card_count: 15
     pack:

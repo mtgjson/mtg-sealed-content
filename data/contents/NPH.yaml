@@ -33,7 +33,17 @@ products:
     - count: 1
       name: New Phyrexia Event Deck Rot from Within
       set: nph
-  New Phyrexia Fat Pack: []
+  New Phyrexia Fat Pack:
+    sealed:
+    - set: nph
+      count: 9
+      name: New Phyrexia Booster Pack
+    other:
+    - name: 80 basic land cards
+    - name: New Phyrexia spindown life counter
+    - name: player's guide
+    - name: card storage box
+    - name: two 60-card deck boxes
   New Phyrexia Intro Pack Artful Destruction:
     card_count: 60
     deck:
@@ -52,7 +62,23 @@ products:
     - count: 1
       name: New Phyrexia Booster Pack
       set: nph
-  New Phyrexia Intro Pack Display: []
+  New Phyrexia Intro Pack Display:
+    sealed:
+    - count: 2
+      name: New Phyrexia Intro Pack Artful Destruction
+      set: nph
+    - count: 2
+      name: New Phyrexia Intro Pack Devouring Skies
+      set: nph
+    - count: 2
+      name: New Phyrexia Intro Pack Feast of Flesh
+      set: nph
+    - count: 2
+      name: New Phyrexia Intro Pack Life for Death
+      set: nph
+    - count: 2
+      name: New Phyrexia Intro Pack Ravaging Swarm
+      set: nph
   New Phyrexia Intro Pack Feast of Flesh:
     card_count: 60
     deck:

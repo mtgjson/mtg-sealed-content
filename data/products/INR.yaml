@@ -10,7 +10,9 @@ products:
     subtype: COLLECTOR
   Innistrad Remastered Collector Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '596262'
+    release_date: '2025-01-24'
     subtype: COLLECTOR
   Innistrad Remastered Collector Booster Pack:
     category: BOOSTER_PACK
@@ -25,6 +27,7 @@ products:
     identifiers:
       cardtraderId: '308745'
       mcmId: '795091'
+      miniaturemarketId: '304271'
       tcgplayerProductId: '594672'
     release_date: '2025-01-24'
     subtype: PLAY
@@ -39,6 +42,7 @@ products:
     identifiers:
       cardtraderId: '308747'
       mcmId: '795093'
+      miniaturemarketId: '304272'
       tcgplayerProductId: '594669'
     release_date: '2025-01-24'
     subtype: PLAY
