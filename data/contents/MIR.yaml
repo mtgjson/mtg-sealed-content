@@ -5,7 +5,11 @@ products:
     - count: 36
       name: Mirage Booster Pack
       set: mir
-  Mirage Booster Box Case: []
+  Mirage Booster Box Case:
+    sealed:
+    - set: mir
+      name: Mirage Booster Box
+      count: 6
   Mirage Booster Pack:
     card_count: 15
     pack:

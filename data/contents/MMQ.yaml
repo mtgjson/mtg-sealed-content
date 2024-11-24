@@ -5,7 +5,11 @@ products:
     - count: 36
       name: Mercadian Masques Booster Pack
       set: mmq
-  Mercadian Masques Booster Box Case: []
+  Mercadian Masques Booster Box Case:
+    sealed:
+    - set: mmq
+      name: Mercadian Masques Booster Box
+      count: 6
   Mercadian Masques Booster Pack:
     card_count: 15
     pack:
