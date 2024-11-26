@@ -5,7 +5,11 @@ products:
     - count: 36
       name: Weatherlight Booster Pack
       set: wth
-  Weatherlight Booster Box Case: []
+  Weatherlight Booster Box Case:
+    sealed:
+    - set: wth
+      name: Weatherlight Booster Box
+      count: 6
   Weatherlight Booster Pack:
     card_count: 15
     pack:
