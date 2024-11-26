@@ -218,18 +218,6 @@ products:
       tcgplayerProductId: '584514'
     release_date: '2024-08-31'
     subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Spookydrop 2023 Cards in Costume:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: 518842
-    release_date: '2023-09-23'
-    subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Spookydrop 2023 Cards in Costume Foil:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: 518843
-    release_date: '2023-09-23'
-    subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle December Superdrop Foil:
     category: BOX_SET
     identifiers:
@@ -239,6 +227,31 @@ products:
     category: BOX_SET
     identifiers:
       tcgplayerProductId: '456550'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Dr Lairs Secretorium Superdrop Supershock Bundle:
+    category: BOX_SET
+    identifiers:
+      cardtraderId: '158664'
+      mcmId: '569072'
+      tcgplayerProductId: '237614'
+    release_date: '2021-06-14'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Dr Lairs Secretorium Superdrop The Main Event:
+    category: BOX_SET
+    identifiers:
+      mcmId: '569073'
+      tcgplayerProductId: '237617'
+    release_date: '2021-06-14'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Dr Lairs Secretorium Superdrop Voracious Reader:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '237615'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Dr Lairs Secretorium Superdrop Voracious Reader Foil:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '237616'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Dungeons and Dragons 50th Anniversary Loot the Room with Everything:
     category: BOX_SET
@@ -340,30 +353,6 @@ products:
     identifiers:
       tcgplayerProductId: '267767'
     subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Spookydrop 2023 Fill My Cauldron with Almost Everything:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: 518850
-    release_date: '2023-09-23'
-    subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Spookydrop 2023 Fill My Cauldron with Dr Who:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: 518844
-    release_date: '2023-09-23'
-    subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Spookydrop 2023 Fill My Cauldron with Foils:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: 518849
-    release_date: '2023-09-23'
-    subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Spookydrop 2023 Fill My Cauldron with Non Foils:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: 518847
-    release_date: '2023-09-23'
-    subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Inside an Elevator Superdrop Brain Dead:
     category: BOX_SET
     identifiers:
@@ -405,11 +394,6 @@ products:
     identifiers:
       tcgplayerProductId: '561526'
     release_date: '2024-06-07'
-    subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Spring Superdrop 2023 Its Raining Foils And Non Foils:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '493793'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle June Superdrop Full of Foils:
     category: BOX_SET
@@ -489,18 +473,6 @@ products:
     category: BOX_SET
     identifiers:
       tcgplayerProductId: '450513'
-    subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Spookydrop 2023 Places to Trick or Treat Foil Lands:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: 518841
-    release_date: '2023-09-23'
-    subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Spookydrop 2023 Places to Trick or Treat Non Foil Lands:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: 518840
-    release_date: '2023-09-23'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Second Secretversary Bundle:
     category: BOX_SET
@@ -626,6 +598,54 @@ products:
       tcgplayerProductId: '233762'
     release_date: '2021-02-12'
     subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Spookydrop 2023 Cards in Costume:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: 518842
+    release_date: '2023-09-23'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Spookydrop 2023 Cards in Costume Foil:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: 518843
+    release_date: '2023-09-23'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Spookydrop 2023 Fill My Cauldron with Almost Everything:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: 518850
+    release_date: '2023-09-23'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Spookydrop 2023 Fill My Cauldron with Dr Who:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: 518844
+    release_date: '2023-09-23'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Spookydrop 2023 Fill My Cauldron with Foils:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: 518849
+    release_date: '2023-09-23'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Spookydrop 2023 Fill My Cauldron with Non Foils:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: 518847
+    release_date: '2023-09-23'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Spookydrop 2023 Places to Trick or Treat Foil Lands:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: 518841
+    release_date: '2023-09-23'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Spookydrop 2023 Places to Trick or Treat Non Foil Lands:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: 518840
+    release_date: '2023-09-23'
+    subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Spring Into Action:
     category: BOX_SET
     identifiers:
@@ -637,6 +657,21 @@ products:
     identifiers:
       tcgplayerProductId: '551413'
     release_date: '2024-04-25'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Spring Superdrop 2023 Its Raining Foils And Non Foils:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '493793'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Spring Superdrop 2023 Those Foils Are Really Coming Down:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '493794'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Spring Superdrop 2023 Those Non Foils Just Wont Let Up:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '493795'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Spring Superdrop 2024 All The Foils Are Blooming:
     category: BOX_SET
@@ -748,36 +783,6 @@ products:
       tcgplayerProductId: '556783'
     release_date: '2024-04-25'
     subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Dr Lairs Secretorium Superdrop Supershock Bundle:
-    category: BOX_SET
-    identifiers:
-      cardtraderId: '158664'
-      mcmId: '569072'
-      tcgplayerProductId: '237614'
-    release_date: '2021-06-14'
-    subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Dr Lairs Secretorium Superdrop The Main Event:
-    category: BOX_SET
-    identifiers:
-      mcmId: '569073'
-      tcgplayerProductId: '237617'
-    release_date: '2021-06-14'
-    subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Winter Superdrop 2023 The Prophets Predicted:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '480451'
-    subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Winter Superdrop 2023 The Prophets Predicted Everything:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '480439'
-    subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Winter Superdrop 2023 The Prophets Predicted Foil:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '480444'
-    subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle The Worlds Bundliest Bundle:
     category: BOX_SET
     identifiers:
@@ -811,16 +816,6 @@ products:
       tntId: '1655972'
     release_date: '2020-02-17'
     subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Spring Superdrop 2023 Those Foils Are Really Coming Down:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '493794'
-    subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Spring Superdrop 2023 Those Non Foils Just Wont Let Up:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '493795'
-    subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Transformers:
     category: BOX_SET
     identifiers:
@@ -831,15 +826,20 @@ products:
     identifiers:
       tcgplayerProductId: '456553'
     subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Dr Lairs Secretorium Superdrop Voracious Reader:
+  Secret Lair Bundle Winter Superdrop 2023 The Prophets Predicted:
     category: BOX_SET
     identifiers:
-      tcgplayerProductId: '237615'
+      tcgplayerProductId: '480451'
     subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Dr Lairs Secretorium Superdrop Voracious Reader Foil:
+  Secret Lair Bundle Winter Superdrop 2023 The Prophets Predicted Everything:
     category: BOX_SET
     identifiers:
-      tcgplayerProductId: '237616'
+      tcgplayerProductId: '480439'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Winter Superdrop 2023 The Prophets Predicted Foil:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '480444'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Winter Superdrop 2024 All the Savory Non Foils:
     category: BOX_SET
