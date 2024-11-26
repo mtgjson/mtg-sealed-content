@@ -5,7 +5,11 @@ products:
     - count: 36
       name: Tempest Booster Pack
       set: tmp
-  Tempest Booster Box Case: []
+  Tempest Booster Box Case:
+    sealed:
+    - set: tmp
+      name: Tempest Booster Box
+      count: 6
   Tempest Booster Pack:
     card_count: 15
     pack:

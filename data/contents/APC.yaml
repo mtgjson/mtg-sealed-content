@@ -5,7 +5,11 @@ products:
     - count: 36
       name: Apocalypse Booster Pack
       set: apc
-  Apocalypse Booster Box Case: []
+  Apocalypse Booster Box Case:
+    sealed:
+    - set: apc
+      name: Apocalypse Booster Box
+      count: 6
   Apocalypse Booster Pack:
     card_count: 15
     pack:

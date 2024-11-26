@@ -181,7 +181,23 @@ products:
     variable_mode:
       count: 1
       replacement: false
-  2012 Core Set Sample Decks Set of 5: []
+  2012 Core Set Sample Decks Set of 5:
+    sealed:
+    - set: m12
+      name: 2012 Core Set Sample Deck Chandra Nalaar
+      count: 1
+    - set: m12
+      name: 2012 Core Set Sample Deck Garruk Wildspeaker
+      count: 1
+    - set: m12
+      name: 2012 Core Set Sample Deck Gideon Jura
+      count: 1
+    - set: m12
+      name: 2012 Core Set Sample Deck Jace Beleren
+      count: 1
+    - set: m12
+      name: 2012 Core Set Sample Deck Sorin Markov
+      count: 1
   2012 Core Set Six Card Booster Pack:
     card_count: 6
     pack:
