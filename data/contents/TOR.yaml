@@ -5,7 +5,11 @@ products:
     - count: 36
       name: Torment Booster Pack
       set: tor
-  Torment Booster Box Case: []
+  Torment Booster Box Case:
+    sealed:
+    - set: tor
+      name: Torment Booster Box
+      count: 6
   Torment Booster Pack:
     card_count: 15
     pack:
