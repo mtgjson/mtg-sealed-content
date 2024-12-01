@@ -6,7 +6,11 @@ products:
     - count: 36
       name: Visions Booster Pack
       set: vis
-  Visions Booster Box Case: []
+  Visions Booster Box Case:
+    sealed:
+    - set: vis
+      count: 6
+      name: Visions Booster Box
   Visions Booster Pack:
     card_count: 15
     pack:
