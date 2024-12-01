@@ -228,6 +228,16 @@ products:
     identifiers:
       tcgplayerProductId: '456550'
     subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle December Superdrop Transformers:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '456552'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle December Superdrop Transformers Foil:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '456553'
+    subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Dr Lairs Secretorium Superdrop Supershock Bundle:
     category: BOX_SET
     identifiers:
@@ -410,11 +420,6 @@ products:
     identifiers:
       tcgplayerProductId: '275822'
     subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Spring Superdrop 2023 March of the Machine:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '493796'
-    subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Marvel Superdrop The Astonishing Foil Bundle:
     category: BOX_SET
     identifiers:
@@ -474,6 +479,30 @@ products:
     identifiers:
       tcgplayerProductId: '450513'
     subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Out of Time Superdrop The Worlds Bundliest Bundle:
+    category: BOX_SET
+    identifiers:
+      cardtraderId: '171120'
+      mcmId: '577210'
+      tcgplayerProductId: '247330'
+    release_date: '2021-10-06'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Out of Time Superdrop The Worlds Foil est Bundle:
+    category: BOX_SET
+    identifiers:
+      cardtraderId: '171119'
+      mcmId: '577209'
+      tcgplayerProductId: '247334'
+    release_date: '2021-10-06'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Out of Time Superdrop The Worlds Non foil est Bundle:
+    category: BOX_SET
+    identifiers:
+      cardtraderId: '171118'
+      mcmId: '577208'
+      tcgplayerProductId: '247335'
+    release_date: '2021-10-06'
+    subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Second Secretversary Bundle:
     category: BOX_SET
     identifiers:
@@ -488,6 +517,13 @@ products:
     category: BOX_SET
     identifiers:
       tcgplayerProductId: '258496'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Secret Lair Drop Series Full:
+    category: BOX_SET
+    identifiers:
+      mcmId: '426601'
+      tcgplayerProductId: '205231'
+    release_date: '2019-11-26'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Secretversary Superdrop 2023 Goodie Bag Loaded with Everything:
     category: BOX_SET
@@ -569,22 +605,9 @@ products:
     category: BOX_SET
     identifiers:
       cardtraderId: '164551'
-      tcgplayerProductId: '228711'
       mcmId: '523595'
+      tcgplayerProductId: '228711'
     release_date: '2020-11-30'
-    subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Secret Lair Drop Series Full:
-    category: BOX_SET
-    identifiers:
-      mcmId: '426601'
-      tcgplayerProductId: '205231'
-    release_date: '2019-11-26'
-    subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Summer Superdrop 2023 Seven In Heaven:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '511864'
-    release_date: '2023-09-06'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Smitten Superdrop All Our Love:
     category: BOX_SET
@@ -642,22 +665,15 @@ products:
       tcgplayerProductId: 518840
     release_date: '2023-09-23'
     subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Spring Superdrop 2024 Spring Into Action:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '551415'
-    release_date: '2024-04-25'
-    subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Spring Superdrop 2024 Spring Into Action Foil:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '551413'
-    release_date: '2024-04-25'
-    subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Spring Superdrop 2023 Its Raining Foils And Non Foils:
     category: BOX_SET
     identifiers:
       tcgplayerProductId: '493793'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Spring Superdrop 2023 March of the Machine:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '493796'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Spring Superdrop 2023 Those Foils Are Really Coming Down:
     category: BOX_SET
@@ -693,19 +709,29 @@ products:
       tcgplayerProductId: '551411'
     release_date: '2024-04-25'
     subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Spring Superdrop 2024 Outlaws of Thunder Junction Bundle:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '551419'
+    release_date: '2024-04-25'
+    subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Spring Superdrop 2024 Outlaws of Thunder Junction Foil:
     category: BOX_SET
     identifiers:
       tcgplayerProductId: '551417'
     release_date: '2024-04-25'
     subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Summer Superdrop Summer Superdrop Bundle:
+  Secret Lair Bundle Spring Superdrop 2024 Spring Into Action:
     category: BOX_SET
     identifiers:
-      cardtraderId: '164552'
-      mcmId: '464719'
-      tcgplayerProductId: '214937'
-    release_date: '2020-05-28'
+      tcgplayerProductId: '551415'
+    release_date: '2024-04-25'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Spring Superdrop 2024 Spring Into Action Foil:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '551413'
+    release_date: '2024-04-25'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Summer Superdrop 2023 Carving Up A Barrel of Foils:
     category: BOX_SET
@@ -717,6 +743,12 @@ products:
     category: BOX_SET
     identifiers:
       tcgplayerProductId: '501833'
+    release_date: '2023-09-06'
+    subtype: SECRET_LAIR_BUNDLE
+  Secret Lair Bundle Summer Superdrop 2023 Seven In Heaven:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '511864'
     release_date: '2023-09-06'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Summer Superdrop 2023 Shredding A Wave of Everything:
@@ -779,29 +811,13 @@ products:
       tcgplayerProductId: '556783'
     release_date: '2024-04-25'
     subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Out of Time Superdrop The Worlds Bundliest Bundle:
+  Secret Lair Bundle Summer Superdrop Summer Superdrop Bundle:
     category: BOX_SET
     identifiers:
-      cardtraderId: '171120'
-      mcmId: '577210'
-      tcgplayerProductId: '247330'
-    release_date: '2021-10-06'
-    subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Out of Time Superdrop The Worlds Foil est Bundle:
-    category: BOX_SET
-    identifiers:
-      cardtraderId: '171119'
-      mcmId: '577209'
-      tcgplayerProductId: '247334'
-    release_date: '2021-10-06'
-    subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle Out of Time Superdrop The Worlds Non foil est Bundle:
-    category: BOX_SET
-    identifiers:
-      cardtraderId: '171118'
-      mcmId: '577208'
-      tcgplayerProductId: '247335'
-    release_date: '2021-10-06'
+      cardtraderId: '164552'
+      mcmId: '464719'
+      tcgplayerProductId: '214937'
+    release_date: '2020-05-28'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Theros Stargazing Vol I-V:
     category: BOX_SET
@@ -811,16 +827,6 @@ products:
       tcgplayerProductId: '209384'
       tntId: '1655972'
     release_date: '2020-02-17'
-    subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle December Superdrop Transformers:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '456552'
-    subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Bundle December Superdrop Transformers Foil:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '456553'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Bundle Winter Superdrop 2023 The Prophets Predicted:
     category: BOX_SET
@@ -4157,12 +4163,6 @@ products:
       tcgplayerProductId: '267780'
       tntId: '1757599'
     subtype: SECRET_LAIR
-  Secret Lair Bundle Spring Superdrop 2024 Outlaws of Thunder Junction Bundle:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '551419'
-    release_date: '2024-04-25'
-    subtype: SECRET_LAIR_BUNDLE
   Secret Lair Drop Ssssssnakessssss:
     category: BOX_SET
     identifiers:
