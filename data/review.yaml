@@ -1,20 +1,108 @@
 abugames: {}
 cardKingdom: {}
-cardMarket: {}
-cardTrader: {}
+cardMarket:
+  'Secret Lair Commander Deck: 20 Ways to Win Deck':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '802761'
+    release_date: '2024-12-03'
+    subtype: UNKNOWN
+cardTrader:
+  'Secret Lair Drop Series: Extra Life 2024 | Pixel Perfect':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '312794'
+    subtype: UNKNOWN
 coolstuffinc: {}
 miniaturemarket:
   'MtG Innistrad: Remastered - Collector Booster Box':
     category: UNKNOWN
     identifiers:
+      miniaturemarketId: '304274'
+    release_date: '2024-11-18'
+    subtype: UNKNOWN
+  'MtG Innistrad: Remastered - Collector Booster Pack':
+    category: UNKNOWN
+    identifiers:
       miniaturemarketId: '304275'
     release_date: '2024-11-18'
     subtype: UNKNOWN
-  'MtG Innistrad: Remastered - Collector Booster Box 1':
+starcitygames:
+  Aetherdrift Bundle:
     category: UNKNOWN
     identifiers:
-      miniaturemarketId: '304274'
+      scgId: SLD-MTG-BUN-DFT-EN
     subtype: UNKNOWN
-starcitygames: {}
-tcgplayer: {}
+  Aetherdrift Collector Booster Box:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-DFTCOLLECTOR-EN
+    subtype: UNKNOWN
+  Aetherdrift Collector Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-DFTCOLLECTOR-EN
+    subtype: UNKNOWN
+  Aetherdrift Play Booster Box:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-DFTPLAY-EN
+    subtype: UNKNOWN
+  Aetherdrift Play Booster Case:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-DFTPLAYCASE-EN
+    subtype: UNKNOWN
+  Aetherdrift Play Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-DFTPLAY-EN
+    subtype: UNKNOWN
+  Aetherdrift Play Combo Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-DFTPLAYCOMBO-EN
+    subtype: UNKNOWN
+  Innistrad Remastered Collector Booster Box:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-INRCOLLECTOR-EN
+    subtype: UNKNOWN
+  Innistrad Remastered Collector Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-INRCOLLECTOR-EN
+    subtype: UNKNOWN
+  Innistrad Remastered Play Booster Box:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-INRPLAY-EN
+    subtype: UNKNOWN
+  Innistrad Remastered Play Booster Case (6 boxes):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-INRPLAYCASE-EN
+    subtype: UNKNOWN
+  Innistrad Remastered Play Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-INRPLAY-EN
+    subtype: UNKNOWN
+tcgplayer:
+  Duskmourn House of Horror Nightmare Bundle Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '600426'
+    subtype: UNKNOWN
+  Secret Lair Commander Deck 20 Ways to Win:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '599975'
+    release_date: '2024-10-09'
+    subtype: UNKNOWN
+  The Lord of the Rings Tales of Middle earth Deluxe Commander Kit Food and Fellowship:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '599992'
+    subtype: UNKNOWN
 trollandtoad: {}
