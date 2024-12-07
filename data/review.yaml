@@ -7,19 +7,25 @@ cardMarket:
       mcmId: '802761'
     release_date: '2024-12-03'
     subtype: UNKNOWN
-cardTrader: {}
+cardTrader:
+  'Secret Lair Drop Series: Extra Life 2024 | Pixel Perfect':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '312794'
+    subtype: UNKNOWN
 coolstuffinc: {}
 miniaturemarket:
   'MtG Innistrad: Remastered - Collector Booster Box':
     category: UNKNOWN
     identifiers:
-      miniaturemarketId: '304275'
+      miniaturemarketId: '304274'
     release_date: '2024-11-18'
     subtype: UNKNOWN
-  'MtG Innistrad: Remastered - Collector Booster Box 1':
+  'MtG Innistrad: Remastered - Collector Booster Pack':
     category: UNKNOWN
     identifiers:
-      miniaturemarketId: '304274'
+      miniaturemarketId: '304275'
+    release_date: '2024-11-18'
     subtype: UNKNOWN
 starcitygames:
   Aetherdrift Bundle:
