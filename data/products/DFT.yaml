@@ -1,5 +1,14 @@
 code: dft
 products:
+  Aetherdrift Bundle:
+    category: BUNDLE
+    identifiers:
+      scgId: SLD-MTG-BUN-DFT-EN
+    subtype: DEFAULT
+  Aetherdrift Bundle Case:
+    category: BUNDLE_CASE
+    identifiers: {}
+    subtype: DEFAULT
   Aetherdrift Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -30,12 +39,3 @@ products:
     identifiers:
       scgId: SLD-MTG-PCK-DFTPLAY-EN
     subtype: PLAY
-  Aetherdrift Bundle:
-    category: BUNDLE
-    identifiers:
-      scgId: SLD-MTG-BUN-DFT-EN
-    subtype: DEFAULT
-  Aetherdrift Bundle Case:
-    category: BUNDLE_CASE
-    identifiers: {}
-    subtype: DEFAULT
