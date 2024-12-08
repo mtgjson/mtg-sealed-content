@@ -5,6 +5,8 @@ products:
     identifiers:
       cardtraderId: '308746'
       mcmId: '795092'
+      miniaturemarketId: '304274'
+      scgId: SLD-MTG-BBX-INRCOLLECTOR-EN
       tcgplayerProductId: '594681'
     release_date: '2025-01-24'
     subtype: COLLECTOR
@@ -19,6 +21,8 @@ products:
     identifiers:
       cardtraderId: '308748'
       mcmId: '795094'
+      miniaturemarketId: '304275'
+      scgId: SLD-MTG-PCK-INRCOLLECTOR-EN
       tcgplayerProductId: '594678'
     release_date: '2025-01-24'
     subtype: COLLECTOR
@@ -28,12 +32,14 @@ products:
       cardtraderId: '308745'
       mcmId: '795091'
       miniaturemarketId: '304271'
+      scgId: SLD-MTG-BBX-INRPLAY-EN
       tcgplayerProductId: '594672'
     release_date: '2025-01-24'
     subtype: PLAY
   Innistrad Remastered Play Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
+      scgId: SLD-MTG-BBX-INRPLAYCASE-EN
       tcgplayerProductId: '594676'
     release_date: '2025-01-24'
     subtype: PLAY
@@ -43,6 +49,7 @@ products:
       cardtraderId: '308747'
       mcmId: '795093'
       miniaturemarketId: '304272'
+      scgId: SLD-MTG-PCK-INRPLAY-EN
       tcgplayerProductId: '594669'
     release_date: '2025-01-24'
     subtype: PLAY

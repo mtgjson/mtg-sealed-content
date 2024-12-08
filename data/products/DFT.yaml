@@ -2,7 +2,8 @@ code: dft
 products:
   Aetherdrift Collector Booster Box:
     category: BOOSTER_BOX
-    identifiers: {}
+    identifiers:
+      scgId: SLD-MTG-BBX-DFTCOLLECTOR-EN
     subtype: COLLECTOR
   Aetherdrift Collector Booster Box Case:
     category: BOOSTER_BOX
@@ -10,18 +11,31 @@ products:
     subtype: COLLECTOR
   Aetherdrift Collector Booster Pack:
     category: BOOSTER_PACK
-    identifiers: {}
+    identifiers:
+      scgId: SLD-MTG-PCK-DFTCOLLECTOR-EN
     subtype: COLLECTOR
   Aetherdrift Play Booster Box:
     category: BOOSTER_BOX
     identifiers:
       cardtraderId: '308755'
+      scgId: SLD-MTG-BBX-DFTPLAY-EN
     subtype: PLAY
   Aetherdrift Play Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
+    identifiers:
+      scgId: SLD-MTG-BBX-DFTPLAYCASE-EN
     subtype: PLAY
   Aetherdrift Play Booster Pack:
     category: BOOSTER_PACK
-    identifiers: {}
+    identifiers:
+      scgId: SLD-MTG-PCK-DFTPLAY-EN
     subtype: PLAY
+  Aetherdrift Bundle:
+    category: BUNDLE
+    identifiers:
+      scgId: SLD-MTG-BUN-DFT-EN
+    subtype: DEFAULT
+  Aetherdrift Bundle Case:
+    category: BUNDLE_CASE
+    identifiers: {}
+    subtype: DEFAULT
