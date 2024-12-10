@@ -5,7 +5,11 @@ products:
     - count: 36
       name: Betrayers of Kamigawa Booster Pack
       set: bok
-  Betrayers of Kamigawa Booster Box Case: []
+  Betrayers of Kamigawa Booster Box Case:
+    sealed:
+    - set: bok
+      name: Betrayers of Kamigawa Booster Box
+      count: 6
   Betrayers of Kamigawa Booster Pack:
     card_count: 15
     pack:

@@ -5,13 +5,28 @@ products:
     - count: 36
       name: Future Sight Booster Pack
       set: fut
-  Future Sight Booster Box Case: []
+  Future Sight Booster Box Case:
+    sealed:
+    - set: fut
+      name: Future Sight Booster Box
+      count: 6
   Future Sight Booster Pack:
     card_count: 15
     pack:
     - code: draft
       set: fut
-  Future Sight Fat Pack: []
+  Future Sight Fat Pack:
+    sealed:
+    - set: fut
+      name: Future Sight Booster Pack
+      count: 6
+    other:
+    - name: 40 Basic Land Pack
+    - name: 2 Card Storage Boxes
+    - name: Future Sight Spindown
+    - name: Future Sight Novel
+    - name: Random Pro Tour Player Card
+    - name: Six Color-Coded Mana Dividers
   Future Sight Theme Deck Display:
     sealed:
     - count: 3

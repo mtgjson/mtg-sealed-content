@@ -5,7 +5,11 @@ products:
     - count: 36
       name: Exodus Booster Pack
       set: exo
-  Exodus Booster Box Case: []
+  Exodus Booster Box Case:
+    sealed:
+    - set: exo
+      name: Exodus Booster Box
+      count: 6
   Exodus Booster Pack:
     card_count: 15
     pack:
@@ -44,4 +48,18 @@ products:
     card_count: 60
     deck:
     - name: Widowmaker - Basic Deck
+      set: exo
+  Exodus Theme Decks Set of 4:
+    sealed:
+    - count: 1
+      name: Exodus Theme Deck Dominator
+      set: exo
+    - count: 1
+      name: Exodus Theme Deck Groundbreaker
+      set: exo
+    - count: 1
+      name: Exodus Theme Deck White Heat
+      set: exo
+    - count: 1
+      name: Exodus Theme Deck Widowmaker
       set: exo

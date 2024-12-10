@@ -5,7 +5,11 @@ products:
     - count: 36
       name: Conflux Booster Pack
       set: con
-  Conflux Booster Box Case: []
+  Conflux Booster Box Case:
+    sealed:
+    - set: con
+      name: Conflux Booster Box
+      count: 6
   Conflux Booster Pack:
     card_count: 15
     pack:

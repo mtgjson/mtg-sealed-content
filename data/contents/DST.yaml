@@ -5,7 +5,11 @@ products:
     - count: 36
       name: Darksteel Booster Pack
       set: dst
-  Darksteel Booster Box Case: []
+  Darksteel Booster Box Case:
+    sealed:
+    - set: dst
+      name: Darksteel Booster Box
+      count: 6
   Darksteel Booster Pack:
     card_count: 15
     pack:

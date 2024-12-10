@@ -5,7 +5,11 @@ products:
     - count: 36
       name: Coldsnap Booster Pack
       set: csp
-  Coldsnap Booster Box Case: []
+  Coldsnap Booster Box Case:  
+    sealed:
+    - set: csp
+      name: Coldsnap Booster Box
+      count: 6
   Coldsnap Booster Pack:
     card_count: 15
     pack:
