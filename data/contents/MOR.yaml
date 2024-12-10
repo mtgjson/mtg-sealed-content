@@ -7,19 +7,15 @@ products:
       set: mor
   Morningtide Booster Box Case:
     sealed:
-    - set: mor
+    - count: 6
       name: Morningtide Booster Box
-      count: 6
+      set: mor
   Morningtide Booster Pack:
     card_count: 15
     pack:
     - code: draft
       set: mor
   Morningtide Fat Pack:
-    sealed:
-    - set: mor
-      name: Morningtide Booster Pack
-      count: 6
     other:
     - name: 40 Basic Land Bundle
     - name: 2 Card Storage Boxes
@@ -27,6 +23,10 @@ products:
     - name: One random Pro Tour Player Card
     - name: The Morningtide novel
     - name: Six color-coded plastic card dividers
+    sealed:
+    - count: 6
+      name: Morningtide Booster Pack
+      set: mor
   Morningtide Theme Deck Battalion:
     card_count: 60
     deck:

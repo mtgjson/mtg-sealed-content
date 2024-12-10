@@ -5,28 +5,28 @@ products:
     - count: 36
       name: Guildpact Booster Pack
       set: gpt
-  Guildpact Booster Box Case: 
+  Guildpact Booster Box Case:
     sealed:
-    - set: gpt
+    - count: 6
       name: Guildpact Booster Box
-      count: 6
+      set: gpt
   Guildpact Booster Pack:
     card_count: 15
     pack:
     - code: draft
       set: gpt
   Guildpact Fat Pack:
-    sealed:
-    - set: gpt
-      name: Guildpact Booster Pack
-      count: 6
-    other: 
+    other:
     - name: 40 Basic Land Bundle
     - name: 2 Card Storage Boxes
     - name: One random Pro Tour Player Card
     - name: The Guildpact novel
     - name: Six color-coded plastic card dividers
     - name: Life counter with a circle spinner featuring Niv-Mizzet, the Firemind.
+    sealed:
+    - count: 6
+      name: Guildpact Booster Pack
+      set: gpt
   Guildpact Theme Deck Code of the Orzhov:
     card_count: 60
     deck:
