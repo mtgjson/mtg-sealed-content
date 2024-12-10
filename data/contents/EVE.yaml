@@ -5,13 +5,27 @@ products:
     - count: 36
       name: Eventide Booster Pack
       set: eve
-  Eventide Booster Box Case: []
+  Eventide Booster Box Case:
+    sealed:
+    - set: eve
+      name: Eventide Booster Box
+      count: 6
   Eventide Booster Pack:
     card_count: 15
     pack:
     - code: draft
       set: eve
-  Eventide Fat Pack: []
+  Eventide Fat Pack:
+    sealed:
+    - set: eve
+      name: Eventide Booster Pack
+      count: 8
+    other:
+    - name: Eventide Spindown
+    - name: 40 basic land bundle
+    - name: Card storage box
+    - name: Eventide Novel
+    - name: Random Pro Tour Player Card
   Eventide Theme Deck Battle Blitz:
     card_count: 60
     deck:

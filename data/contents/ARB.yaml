@@ -5,7 +5,11 @@ products:
     - count: 36
       name: Alara Reborn Booster Pack
       set: arb
-  Alara Reborn Booster Box Case: []
+  Alara Reborn Booster Box Case:
+    sealed:
+    - set: arb
+      name: Alara Reborn Booster Box
+      count: 6
   Alara Reborn Booster Pack:
     card_count: 15
     pack:

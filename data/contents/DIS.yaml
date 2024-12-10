@@ -5,7 +5,11 @@ products:
     - count: 36
       name: Dissension Booster Pack
       set: dis
-  Dissension Booster Box Case: []
+  Dissension Booster Box Case:
+    sealed:
+    - set: dis
+      name: Dissension Booster Box
+      count: 6
   Dissension Booster Pack:
     card_count: 15
     pack:
