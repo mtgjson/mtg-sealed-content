@@ -351,9 +351,72 @@ products:
     - count: 1
       name: Secret Lair Drop Tome of the Astral Sorceress Rainbow Foil
       set: sld
-  Secret Lair Bundle Camp Totally Safe Superdrop The Cabin with Everything Bundle: []
-  Secret Lair Bundle Camp Totally Safe Superdrop The Cabin with Foils Bundle: []
-  Secret Lair Bundle Camp Totally Safe Superdrop The Cabin with Non Foils Bundle: []
+  Secret Lair Bundle Camp Totally Safe Superdrop The Cabin with Everything Bundle:
+    sealed:
+    - set: sld
+      count: 1
+      name: Secret Lair Bundle Camp Totally Safe Superdrop The Cabin with Foils Bundle
+    - set: sld
+      count: 1
+      name: Secret Lair Bundle Camp Totally Safe Superdrop The Cabin with Non Foils Bundle
+  Secret Lair Bundle Camp Totally Safe Superdrop The Cabin with Foils Bundle:
+    sealed:
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Hatsune Miku Electric Entourage English Rainbow Foil
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Hatsune Miku Electric Entourage Japanese Rainbow Foil
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Ghostbusters The Real Ghostbusters Rainbow Foil
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Ghostbusters Slimer Rainbow Foil
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Chucky Foil
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Showcase Duskmourn Rainbow Foil
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Monstrous Magazines Rainbow Foil
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Featuring Peach Momoko Rainbow Foil
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Tome of the Astral Sorceress Rainbow Foil
+  Secret Lair Bundle Camp Totally Safe Superdrop The Cabin with Non Foils Bundle:
+    sealed:
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Hatsune Miku Electric Entourage English
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Hatsune Miku Electric Entourage Japanese
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Ghostbusters The Real Ghostbusters
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Ghostbusters Slimer
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Chucky
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Showcase Duskmourn
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Monstrous Magazines
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Featuring Peach Momoko
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Tome of the Astral Sorceress
   Secret Lair Bundle December Superdrop Foil:
     sealed:
     - count: 1
@@ -434,7 +497,7 @@ products:
     - count: 1
       name: Secret Lair Drop Transformers Roll Out or Rise Up Foil
       set: sld
-  Secret Lair Bundle Dr Lairs Secretorium Superdrop Supershock:
+  Secret Lair Bundle Dr Lairs Secretorium Superdrop Supershock Bundle:
     sealed:
     - count: 1
       name: Secret Lair Drop Culture Shocks Bant
@@ -451,7 +514,6 @@ products:
     - count: 1
       name: Secret Lair Drop Culture Shocks Naya
       set: sld
-  Secret Lair Bundle Dr Lairs Secretorium Superdrop Supershock Bundle: []
   Secret Lair Bundle Dr Lairs Secretorium Superdrop The Main Event:
     sealed:
     - count: 1
@@ -484,11 +546,58 @@ products:
     - count: 1
       name: Secret Lair Drop OUR SHOW IS ON FRIDAY CAN YOU MAKE IT
       set: sld
-  Secret Lair Bundle Dr Lairs Secretorium Superdrop Voracious Reader: []
-  Secret Lair Bundle Dr Lairs Secretorium Superdrop Voracious Reader Foil: []
-  Secret Lair Bundle Dungeons and Dragons 50th Anniversary Loot the Room with Everything: []
-  Secret Lair Bundle Dungeons and Dragons 50th Anniversary Loot the Room with Foils: []
-  Secret Lair Bundle Dungeons and Dragons 50th Anniversary Loot the Room with Non Foils: []
+  Secret Lair Bundle Dr Lairs Secretorium Superdrop Voracious Reader:
+    sealed:
+    - set: sld
+      name: Secret Lair Drop The Full Text Lands
+      count: 10
+  Secret Lair Bundle Dr Lairs Secretorium Superdrop Voracious Reader Foil:
+    sealed:
+    - set: sld
+      name: Secret Lair Drop The Full Text Lands Foil
+      count: 10
+  Secret Lair Bundle Dungeons and Dragons 50th Anniversary Loot the Room with Everything:
+    sealed:
+    - set: sld
+      count: 1
+      name: Secret Lair Bundle Dungeons and Dragons 50th Anniversary Loot the Room with Foils
+    - set: sld
+      count: 1
+      name: Secret Lair Bundle Dungeons and Dragons 50th Anniversary Loot the Room with Non Foils
+  Secret Lair Bundle Dungeons and Dragons 50th Anniversary Loot the Room with Foils:
+    sealed:
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Dungeons and Dragons An Exhibition of Adventure Rainbow Foil
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Dungeons and Dragons Death is in the Eyes of the Beholder I Rainbow Foil
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Dungeons and Dragons Death is in the Eyes of the Beholder II Rainbow Foil
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Dungeons and Dragons Astarions Thirst Rainbow Foil
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Dungeons and Dragons Karlachs Rage Rainbow Foil
+  Secret Lair Bundle Dungeons and Dragons 50th Anniversary Loot the Room with Non Foils:
+    sealed:
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Dungeons and Dragons An Exhibition of Adventure
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Dungeons and Dragons Death is in the Eyes of the Beholder I
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Dungeons and Dragons Death is in the Eyes of the Beholder II
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Dungeons and Dragons Astarions Thirst
+    - set: sld
+      count: 1
+      name: Secret Lair Drop Secret Lair x Dungeons and Dragons Karlachs Rage
   Secret Lair Bundle Equinox Superdrop 2024 A Celebration of Everything Foil and Non Foil: []
   Secret Lair Bundle Equinox Superdrop 2024 Fallout Bundle: []
   Secret Lair Bundle Equinox Superdrop 2024 Fallout Bundle Foil: []
