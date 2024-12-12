@@ -3,39 +3,84 @@ products:
   Aetherdrift Bundle:
     category: BUNDLE
     identifiers:
+      miniaturemarketId: '304733'
       scgId: SLD-MTG-BUN-DFT-EN
+      tcgplayerProductId: '604256'
     subtype: DEFAULT
   Aetherdrift Bundle Case:
     category: BUNDLE_CASE
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '604260'
     subtype: DEFAULT
   Aetherdrift Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      mcmId: '803869'
+      miniaturemarketId: '304726'
       scgId: SLD-MTG-BBX-DFTCOLLECTOR-EN
+      tcgplayerProductId: '604253'
     subtype: COLLECTOR
   Aetherdrift Collector Booster Box Case:
     category: BOOSTER_BOX
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '604254'
     subtype: COLLECTOR
   Aetherdrift Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '803853'
+      miniaturemarketId: '304727'
       scgId: SLD-MTG-PCK-DFTCOLLECTOR-EN
+      tcgplayerProductId: '604252'
     subtype: COLLECTOR
   Aetherdrift Play Booster Box:
     category: BOOSTER_BOX
     identifiers:
       cardtraderId: '308755'
+      mcmId: '803868'
+      miniaturemarketId: '304723'
       scgId: SLD-MTG-BBX-DFTPLAY-EN
+      tcgplayerProductId: '604250'
     subtype: PLAY
   Aetherdrift Play Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
+      miniaturemarketId: '304725'
       scgId: SLD-MTG-BBX-DFTPLAYCASE-EN
+      tcgplayerProductId: '604251'
     subtype: PLAY
   Aetherdrift Play Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      mcmId: '803854'
+      miniaturemarketId: '304724'
       scgId: SLD-MTG-PCK-DFTPLAY-EN
+      tcgplayerProductId: '604249'
     subtype: PLAY
+  Aetherdrift Box Topper Booster:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '604408'
+      mcmId: '803857'
+    subtype: TOPPER
+  Aetherdrift Collector Booster Sample Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      mcmId: '803866'
+    subtype: PROMOTIONAL
+  Aetherdrift Prerelease Pack:
+    category: LIMITED
+    identifiers:
+      tcgplayerProductId: '604255'
+    subtype: PRERELEASE
+  Aetherdrift Finish Line Bundle Case:
+    category: BUNDLE_CASE
+    identifiers:
+      tcgplayerProductId: '604261'
+    subtype: PREMIUM
+  Aetherdrift Finish Line Bundle:
+    category: BUNDLE
+    identifiers:
+      miniaturemarketId: '304734'
+      tcgplayerProductId: '604257'
+    subtype: PREMIUM
