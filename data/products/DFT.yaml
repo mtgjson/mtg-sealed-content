@@ -57,3 +57,30 @@ products:
       scgId: SLD-MTG-PCK-DFTPLAY-EN
       tcgplayerProductId: '604249'
     subtype: PLAY
+  Aetherdrift Box Topper Booster:
+    category: BOOSTER_PACK
+    identifiers:
+      tcgplayerProductId: '604408'
+      mcmId: '803857'
+    subtype: TOPPER
+  Aetherdrift Collector Booster Sample Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      mcmId: '803866'
+    subtype: PROMOTIONAL
+  Aetherdrift Prerelease Pack:
+    category: LIMITED
+    identifiers:
+      tcgplayerProductId: '604255'
+    subtype: PRERELEASE
+  Aetherdrift Finish Line Bundle Case:
+    category: BUNDLE_CASE
+    identifiers:
+      tcgplayerProductId: '604261'
+    subtype: PREMIUM
+  Aetherdrift Finish Line Bundle:
+    category: BUNDLE
+    identifiers:
+      miniaturemarketId: '304734'
+      tcgplayerProductId: '604257'
+    subtype: PREMIUM
