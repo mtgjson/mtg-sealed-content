@@ -625,6 +625,7 @@ products:
       name: Ignoble Hierarch
       foil: true
   Secret Lair Bundle Equinox Superdrop 2024 Fallout Bundle:
+    sealed:
     - count: 1
       set: sld
       name: Secret Lair Drop Secret Lair x Fallout Vault Boy
@@ -635,6 +636,7 @@ products:
       set: sld
       name: Secret Lair Drop Secret Lair x Fallout Points of Interest
   Secret Lair Bundle Equinox Superdrop 2024 Fallout Bundle Foil:
+    sealed:
     - count: 1
       set: sld
       name: Secret Lair Drop Secret Lair x Fallout Vault Boy Foil
@@ -645,6 +647,7 @@ products:
       set: sld
       name: Secret Lair Drop Secret Lair x Fallout Points of Interest Foil
   Secret Lair Bundle Equinox Superdrop 2024 Sunlight and Moonbeams:
+    sealed:
     - count: 1
       set: sld
       name: Secret Lair Drop Featuring Phoebe Wahl
@@ -655,6 +658,7 @@ products:
       set: sld
       name: Secret Lair Drop Artist Series Rovina Cai
   Secret Lair Bundle Equinox Superdrop 2024 Sunlight and Moonbeams Foil:
+    sealed:
     - count: 1
       set: sld
       name: Secret Lair Drop Featuring Phoebe Wahl Rainbow Foil
@@ -665,6 +669,7 @@ products:
       set: sld
       name: Secret Lair Drop Artist Series Rovina Cai Rainbow Foil
   Secret Lair Bundle Equinox Superdrop 2024 We Celebrate the Foils:
+    sealed:
     - count: 1
       set: sld
       name: Secret Lair Drop Secret Lair x Fallout Vault Boy Foil
@@ -689,6 +694,7 @@ products:
       name: Ignoble Hierarch
       foil: true
   Secret Lair Bundle Equinox Superdrop 2024 We Celebrate the Non Foils:
+    sealed:
     - count: 1
       set: sld
       name: Secret Lair Drop Secret Lair x Fallout Vault Boy
@@ -736,9 +742,60 @@ products:
     - count: 1
       name: Secret Lair Drop Now on VHS Foil
       set: sld
-  Secret Lair Bundle Fall Superdrop 2023 This One Goes Out To My Everything: []
-  Secret Lair Bundle Fall Superdrop 2023 This One Is Dedicated To My Foils: []
-  Secret Lair Bundle Fall Superdrop 2023 This One Is For My Non Foils: []
+  Secret Lair Bundle Fall Superdrop 2023 This One Goes Out To My Everything:
+    sealed:
+    - set: sld
+      name: Secret Lair Bundle Fall Superdrop 2023 This One Is Dedicated To My Foils
+      count: 1
+    - set: sld
+      name: Secret Lair Bundle Fall Superdrop 2023 This One Is For My Non Foils
+      count: 1
+  Secret Lair Bundle Fall Superdrop 2023 This One Is Dedicated To My Foils:
+    sealed:
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Artist Series Kev Walker Foil
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Keep Partying Hard Shred Harder Than You Previously Thought Possible Foil
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Buggin Out Foil
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Absolute Annihilation Foil
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Now on VHS Foil
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Magic The Baseballing Foil
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Featuring Gary Baseman Foil
+  Secret Lair Bundle Fall Superdrop 2023 This One Is For My Non Foils:
+    sealed:
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Artist Series Kev Walker
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Keep Partying Hard Shred Harder Than You Previously Thought Possible
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Buggin Out
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Absolute Annihilation
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Now on VHS
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Magic The Baseballing
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Featuring Gary Baseman
   Secret Lair Bundle February Superdrop Full of Foils:
     sealed:
     - count: 1
