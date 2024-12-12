@@ -611,13 +611,107 @@ products:
     - count: 1
       name: Secret Lair Drop Secret Lair x Dungeons and Dragons Karlachs Rage
       set: sld
-  Secret Lair Bundle Equinox Superdrop 2024 A Celebration of Everything Foil and Non Foil: []
-  Secret Lair Bundle Equinox Superdrop 2024 Fallout Bundle: []
-  Secret Lair Bundle Equinox Superdrop 2024 Fallout Bundle Foil: []
-  Secret Lair Bundle Equinox Superdrop 2024 Sunlight and Moonbeams: []
-  Secret Lair Bundle Equinox Superdrop 2024 Sunlight and Moonbeams Foil: []
-  Secret Lair Bundle Equinox Superdrop 2024 We Celebrate the Foils: []
-  Secret Lair Bundle Equinox Superdrop 2024 We Celebrate the Non Foils: []
+  Secret Lair Bundle Equinox Superdrop 2024 A Celebration of Everything Foil and Non Foil:
+    sealed:
+    - count: 1
+      set: sld
+      name: Secret Lair Bundle Equinox Superdrop 2024 We Celebrate the Foils
+    - count: 1
+      set: sld
+      name: Secret Lair Bundle Equinox Superdrop 2024 We Celebrate the Non Foils
+    card:
+    - number: 906
+      set: sld
+      name: Ignoble Hierarch
+      foil: true
+  Secret Lair Bundle Equinox Superdrop 2024 Fallout Bundle:
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Secret Lair x Fallout Vault Boy
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Secret Lair x Fallout SPECIAL
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Secret Lair x Fallout Points of Interest
+  Secret Lair Bundle Equinox Superdrop 2024 Fallout Bundle Foil:
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Secret Lair x Fallout Vault Boy Foil
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Secret Lair x Fallout SPECIAL Foil
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Secret Lair x Fallout Points of Interest Foil
+  Secret Lair Bundle Equinox Superdrop 2024 Sunlight and Moonbeams:
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Featuring Phoebe Wahl
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Diabolical Dioramas
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Artist Series Rovina Cai
+  Secret Lair Bundle Equinox Superdrop 2024 Sunlight and Moonbeams Foil:
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Featuring Phoebe Wahl Rainbow Foil
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Diabolical Dioramas Rainbow Foil
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Artist Series Rovina Cai Rainbow Foil
+  Secret Lair Bundle Equinox Superdrop 2024 We Celebrate the Foils:
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Secret Lair x Fallout Vault Boy Foil
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Secret Lair x Fallout SPECIAL Foil
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Secret Lair x Fallout Points of Interest Foil
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Featuring Phoebe Wahl Rainbow Foil
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Diabolical Dioramas Rainbow Foil
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Artist Series Rovina Cai Rainbow Foil
+    card:
+    - number: 906
+      set: sld
+      name: Ignoble Hierarch
+      foil: true
+  Secret Lair Bundle Equinox Superdrop 2024 We Celebrate the Non Foils:
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Secret Lair x Fallout Vault Boy
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Secret Lair x Fallout SPECIAL
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Secret Lair x Fallout Points of Interest
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Featuring Phoebe Wahl
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Diabolical Dioramas
+    - count: 1
+      set: sld
+      name: Secret Lair Drop Artist Series Rovina Cai
+    card:
+    - number: 906
+      set: sld
+      name: Ignoble Hierarch
+      foil: true
   Secret Lair Bundle Fall Superdrop 2023 Bugs Bands and Blockbusters:
     sealed:
     - count: 1
