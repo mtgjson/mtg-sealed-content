@@ -1488,7 +1488,16 @@ products:
   Secret Lair Bundle Winter Superdrop 2024 Dark Mysteries Bundle Foil: []
   Secret Lair Bundle Winter Superdrop 2024 Dark Mysteries Bundle Non-Foil: []
   Secret Lair Bundle Winter Superdrop 2024 Everything on the Menu: []
-  Secret Lair Commander Deck 20 Ways to Win: []
+  Secret Lair Commander Deck 20 Ways to Win:
+    card_count: 100
+    card:
+    - foil: true
+      name: Enduring Ideal
+      number: 887
+      set: sld
+    deck:
+    - name: 20 Ways to Win
+      set: sld
   Secret Lair Commander Deck Angels Theyre Just Like Us but Cooler and with Wings:
     card:
     - foil: true
@@ -6088,7 +6097,13 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop The Fairest Drop of All Foil: []
+  Secret Lair Drop The Fairest Drop of All Foil:
+    card_count: 4
+    deck:
+    - name: The Fairest Drop of All foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop The Full Text Lands:
     card_count: 5
     deck:
