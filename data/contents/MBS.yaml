@@ -116,3 +116,13 @@ products:
     pack:
     - code: six
       set: mbs
+  Mirrodin Besieged MTGO Redemption Foil:
+    card_count: 155
+    deck:
+    - name: "Mirrodin Besieged Foil Redemption"
+      set: mbs
+  Mirrodin Besieged MTGO Redemption:
+    card_count: 155
+    deck:
+    - name: "Mirrodin Besieged Redemption"
+      set: mbs

@@ -118,3 +118,13 @@ products:
     - count: 6
       name: Eighth Edition Two Player Starter
       set: 8ed
+  Eighth Edition MTGO Redemption Foil:
+    card_count: 350
+    deck:
+    - name: "Eighth Edition Foil Redemption"
+      set: 8ed
+  Eighth Edition MTGO Redemption:
+    card_count: 350
+    deck:
+    - name: "Eighth Edition Redemption"
+      set: 8ed

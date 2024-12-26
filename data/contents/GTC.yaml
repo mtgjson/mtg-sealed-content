@@ -258,3 +258,13 @@ products:
     pack:
     - code: six
       set: gtc
+  Gatecrash MTGO Redemption Foil:
+    card_count: 249
+    deck:
+    - name: "Gatecrash Foil Redemption"
+      set: gtc
+  Gatecrash MTGO Redemption:
+    card_count: 249
+    deck:
+    - name: "Gatecrash Redemption"
+      set: gtc

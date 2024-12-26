@@ -65,3 +65,13 @@ products:
     - count: 12
       name: Lorwyn Tournament Pack
       set: lrw
+  Lorwyn MTGO Redemption Foil:
+    card_count: 301
+    deck:
+    - name: "Lorwyn Foil Redemption"
+      set: lrw
+  Lorwyn MTGO Redemption:
+    card_count: 301
+    deck:
+    - name: "Lorwyn Redemption"
+      set: lrw

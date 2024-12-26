@@ -203,3 +203,13 @@ products:
     pack:
     - code: six
       set: m12
+  Magic 2012 MTGO Redemption Foil:
+    card_count: 249
+    deck:
+    - name: "Magic 2012 Foil Redemption"
+      set: m12
+  Magic 2012 MTGO Redemption:
+    card_count: 249
+    deck:
+    - name: "Magic 2012 Redemption"
+      set: m12

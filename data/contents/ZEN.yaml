@@ -114,3 +114,13 @@ products:
     pack:
     - code: six
       set: zen
+  Zendikar MTGO Redemption Foil:
+    card_count: 249
+    deck:
+    - name: "Zendikar Foil Redemption"
+      set: zen
+  Zendikar MTGO Redemption:
+    card_count: 249
+    deck:
+    - name: "Zendikar Redemption"
+      set: zen

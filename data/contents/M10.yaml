@@ -150,3 +150,13 @@ products:
     variable_mode:
       count: 4
       replacement: false
+  Magic 2010 MTGO Redemption Foil:
+    card_count: 249
+    deck:
+    - name: "Magic 2010 Foil Redemption"
+      set: m10
+  Magic 2010 MTGO Redemption:
+    card_count: 249
+    deck:
+    - name: "Magic 2010 Redemption"
+      set: m10

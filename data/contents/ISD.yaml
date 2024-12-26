@@ -132,3 +132,13 @@ products:
     pack:
     - code: six
       set: isd
+  Innistrad MTGO Redemption Foil:
+    card_count: 264
+    deck:
+    - name: "Innistrad Foil Redemption"
+      set: isd
+  Innistrad MTGO Redemption:
+    card_count: 264
+    deck:
+    - name: "Innistrad Redemption"
+      set: isd

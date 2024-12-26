@@ -76,3 +76,13 @@ products:
     - count: 1
       name: Legions Theme Deck Zombies Unleashed
       set: lgn
+  Legions MTGO Redemption Foil:
+    card_count: 145
+    deck:
+    - name: "Legions Foil Redemption"
+      set: lgn
+  Legions MTGO Redemption:
+    card_count: 145
+    deck:
+    - name: "Legions Redemption"
+      set: lgn

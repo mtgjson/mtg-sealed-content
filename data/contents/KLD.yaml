@@ -169,3 +169,13 @@ products:
     variable_mode:
       count: 2
       replacement: false
+  Kaladesh MTGO Redemption Foil:
+    card_count: 264
+    deck:
+    - name: "Kaladesh Foil Redemption"
+      set: kld
+  Kaladesh MTGO Redemption:
+    card_count: 264
+    deck:
+    - name: "Kaladesh Redemption"
+      set: kld

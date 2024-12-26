@@ -44,3 +44,13 @@ products:
     - count: 12
       name: Time Spiral Tournament Pack
       set: tsp
+  Time Spiral MTGO Redemption Foil:
+    card_count: 301
+    deck:
+    - name: "Time Spiral Foil Redemption"
+      set: tsp
+  Time Spiral MTGO Redemption:
+    card_count: 301
+    deck:
+    - name: "Time Spiral Redemption"
+      set: tsp

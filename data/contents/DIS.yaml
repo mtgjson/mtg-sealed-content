@@ -59,3 +59,13 @@ products:
       set: dis
     other:
     - name: Dissension Simic Mutology Strategy Guide
+  Dissension MTGO Redemption Foil:
+    card_count: 180
+    deck:
+    - name: "Dissension Foil Redemption"
+      set: dis
+  Dissension MTGO Redemption:
+    card_count: 180
+    deck:
+    - name: "Dissension Redemption"
+      set: dis

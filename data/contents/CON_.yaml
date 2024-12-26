@@ -94,3 +94,13 @@ products:
     pack:
     - code: six
       set: con
+  Conflux MTGO Redemption Foil:
+    card_count: 145
+    deck:
+    - name: "Conflux Foil Redemption"
+      set: con
+  Conflux MTGO Redemption:
+    card_count: 145
+    deck:
+    - name: "Conflux Redemption"
+      set: con

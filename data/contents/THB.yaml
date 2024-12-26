@@ -145,3 +145,13 @@ products:
     pack:
     - code: theme-w
       set: thb
+  Theros Beyond Death MTGO Redemption Foil:
+    card_count: 254
+    deck:
+    - name: "Theros Beyond Death Foil Redemption"
+      set: thb
+  Theros Beyond Death MTGO Redemption:
+    card_count: 254
+    deck:
+    - name: "Theros Beyond Death Redemption"
+      set: thb

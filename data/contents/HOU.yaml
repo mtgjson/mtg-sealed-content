@@ -45,3 +45,13 @@ products:
       set: hou
   Hour of Devastation Prerelease Pack: []
   Hour of Devastation Standard Showdown Booster: []
+  Hour of Devastation MTGO Redemption Foil:
+    card_count: 199
+    deck:
+    - name: "Hour of Devastation Foil Redemption"
+      set: hou
+  Hour of Devastation MTGO Redemption:
+    card_count: 199
+    deck:
+    - name: "Hour of Devastation Redemption"
+      set: hou

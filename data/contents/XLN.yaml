@@ -139,3 +139,13 @@ products:
       name: Ixalan Booster Pack
       set: xln
   Ixalan Standard Showdown Booster: []
+  Ixalan MTGO Redemption Foil:
+    card_count: 279
+    deck:
+    - name: "Ixalan Foil Redemption"
+      set: xln
+  Ixalan MTGO Redemption:
+    card_count: 279
+    deck:
+    - name: "Ixalan Redemption"
+      set: xln
