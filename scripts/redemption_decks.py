@@ -1,5 +1,6 @@
 import ijson
 import requests
+import string
 
 def get_decks(setup=""):
     if not setup:
@@ -58,16 +59,24 @@ if __name__ == "__main__":
                 set_upper = set_code.upper()
             with open(rf'/Users/samzimmerman/Source/mtg-sealed-content/data/products/{set_upper}.yaml', 'a') as prod_file:
                 for p, _ in redemption:
-                    prod_file.write(f"""  {p}:
+                    if "Foil" in p:
+                        p_clean = p[:-15].translate(str.maketrans('', '', string.punctuation))+"MTGO Redemption Foil"
+                    else:
+                        p_clean = p[:-10].translate(str.maketrans('', '', string.punctuation))+"MTGO Redemption"
+                    prod_file.write(f"""  {p_clean}MTGO Redemption:
     category: BOX_SET
     identifiers: {{}}
     subtype: REDEMPTION
 """)
             with open(rf'/Users/samzimmerman/Source/mtg-sealed-content/data/contents/{set_upper}.yaml', 'a') as cont_file:
                 for p, s in redemption:
-                    cont_file.write(f"""  {p}:
+                    if "Foil" in p:
+                        p_clean = p[:-15].translate(str.maketrans('', '', string.punctuation))+"MTGO Redemption Foil"
+                    else:
+                        p_clean = p[:-10].translate(str.maketrans('', '', string.punctuation))+"MTGO Redemption"
+                    cont_file.write(f"""  {p_clean}:
     card_count: {s}
     deck:
-    - name: {p}
+    - name: "{p}"
       set: {set_code}
 """)
