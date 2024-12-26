@@ -175,3 +175,13 @@ products:
     - count: 1
       name: Strixhaven School of Mages Theme Booster Pack Witherbloom
       set: stx
+  Strixhaven School of Mages MTGO Redemption Foil:
+    card_count: 275
+    deck:
+    - name: "Strixhaven: School of Mages Foil Redemption"
+      set: stx
+  Strixhaven School of Mages MTGO Redemption:
+    card_count: 275
+    deck:
+    - name: "Strixhaven: School of Mages Redemption"
+      set: stx

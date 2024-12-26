@@ -124,3 +124,13 @@ products:
     - count: 6
       name: Ninth Edition Box Two Player Starter
       set: 9ed
+  Ninth Edition MTGO Redemption Foil:
+    card_count: 350
+    deck:
+    - name: "Ninth Edition Foil Redemption"
+      set: 9ed
+  Ninth Edition MTGO Redemption:
+    card_count: 350
+    deck:
+    - name: "Ninth Edition Redemption"
+      set: 9ed

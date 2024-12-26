@@ -187,3 +187,13 @@ products:
     - count: 1
       name: Guilds of Ravnica Theme Booster Pack Selesnya
       set: grn
+  Guilds of Ravnica MTGO Redemption Foil:
+    card_count: 259
+    deck:
+    - name: "Guilds of Ravnica Foil Redemption"
+      set: grn
+  Guilds of Ravnica MTGO Redemption:
+    card_count: 259
+    deck:
+    - name: "Guilds of Ravnica Redemption"
+      set: grn

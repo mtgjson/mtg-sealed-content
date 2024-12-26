@@ -198,3 +198,13 @@ products:
     pack:
     - code: theme-simic
       set: rna
+  Ravnica Allegiance MTGO Redemption Foil:
+    card_count: 259
+    deck:
+    - name: "Ravnica Allegiance Foil Redemption"
+      set: rna
+  Ravnica Allegiance MTGO Redemption:
+    card_count: 259
+    deck:
+    - name: "Ravnica Allegiance Redemption"
+      set: rna

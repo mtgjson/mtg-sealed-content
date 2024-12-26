@@ -156,3 +156,13 @@ products:
       name: Amonkhet Booster Pack
       set: akh
   Amonkhet Standard Showdown Booster: []
+  Amonkhet MTGO Redemption Foil:
+    card_count: 269
+    deck:
+    - name: "Amonkhet Foil Redemption"
+      set: akh
+  Amonkhet MTGO Redemption:
+    card_count: 269
+    deck:
+    - name: "Amonkhet Redemption"
+      set: akh

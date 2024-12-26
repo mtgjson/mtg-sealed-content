@@ -367,3 +367,13 @@ products:
     variable_mode:
       count: 1
       replacement: false
+  Dragons Maze MTGO Redemption Foil:
+    card_count: 156
+    deck:
+    - name: "Dragon's Maze Foil Redemption"
+      set: dgm
+  Dragons Maze MTGO Redemption:
+    card_count: 156
+    deck:
+    - name: "Dragon's Maze Redemption"
+      set: dgm

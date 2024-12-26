@@ -64,3 +64,13 @@ products:
     - count: 6
       name: Outlaws of Thunder Junction Play Booster Pack
       set: otj
+  Outlaws of Thunder Junction MTGO Redemption Foil:
+    card_count: 286
+    deck:
+    - name: "Outlaws of Thunder Junction Foil Redemption"
+      set: otj
+  Outlaws of Thunder Junction MTGO Redemption:
+    card_count: 286
+    deck:
+    - name: "Outlaws of Thunder Junction Redemption"
+      set: otj

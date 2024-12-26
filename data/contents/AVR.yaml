@@ -140,3 +140,13 @@ products:
     pack:
     - code: six
       set: avr
+  Avacyn Restored MTGO Redemption Foil:
+    card_count: 244
+    deck:
+    - name: "Avacyn Restored Foil Redemption"
+      set: avr
+  Avacyn Restored MTGO Redemption:
+    card_count: 244
+    deck:
+    - name: "Avacyn Restored Redemption"
+      set: avr

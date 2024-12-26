@@ -74,3 +74,13 @@ products:
     - count: 12
       name: Champions of Kamigawa Tournament Pack
       set: chk
+  Champions of Kamigawa MTGO Redemption Foil:
+    card_count: 307
+    deck:
+    - name: "Champions of Kamigawa Foil Redemption"
+      set: chk
+  Champions of Kamigawa MTGO Redemption:
+    card_count: 307
+    deck:
+    - name: "Champions of Kamigawa Redemption"
+      set: chk

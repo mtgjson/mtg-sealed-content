@@ -74,3 +74,13 @@ products:
     - count: 12
       name: Ravnica Tournament Pack
       set: rav
+  Ravnica City of Guilds MTGO Redemption Foil:
+    card_count: 306
+    deck:
+    - name: "Ravnica: City of Guilds Foil Redemption"
+      set: rav
+  Ravnica City of Guilds MTGO Redemption:
+    card_count: 306
+    deck:
+    - name: "Ravnica: City of Guilds Redemption"
+      set: rav

@@ -127,3 +127,13 @@ products:
     pack:
     - code: theme-w
       set: khm
+  Kaldheim MTGO Redemption Foil:
+    card_count: 285
+    deck:
+    - name: "Kaldheim Foil Redemption"
+      set: khm
+  Kaldheim MTGO Redemption:
+    card_count: 285
+    deck:
+    - name: "Kaldheim Redemption"
+      set: khm
