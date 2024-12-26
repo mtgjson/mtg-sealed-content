@@ -63,7 +63,7 @@ if __name__ == "__main__":
                         p_clean = p[:-15].translate(str.maketrans('', '', string.punctuation))+"MTGO Redemption Foil"
                     else:
                         p_clean = p[:-10].translate(str.maketrans('', '', string.punctuation))+"MTGO Redemption"
-                    prod_file.write(f"""  {p_clean}MTGO Redemption:
+                    prod_file.write(f"""  {p_clean}:
     category: BOX_SET
     identifiers: {{}}
     subtype: REDEMPTION
