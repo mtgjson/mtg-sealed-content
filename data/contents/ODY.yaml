@@ -30,6 +30,16 @@ products:
     - count: 1
       name: Odyssey Tournament Pack
       set: ody
+  Odyssey MTGO Redemption:
+    card_count: 350
+    deck:
+    - name: Odyssey Redemption
+      set: ody
+  Odyssey MTGO Redemption Foil:
+    card_count: 350
+    deck:
+    - name: Odyssey Foil Redemption
+      set: ody
   Odyssey Theme Deck Display:
     sealed:
     - count: 3
@@ -87,14 +97,4 @@ products:
     sealed:
     - count: 12
       name: Odyssey Tournament Pack
-      set: ody
-  Odyssey MTGO Redemption Foil:
-    card_count: 350
-    deck:
-    - name: "Odyssey Foil Redemption"
-      set: ody
-  Odyssey MTGO Redemption:
-    card_count: 350
-    deck:
-    - name: "Odyssey Redemption"
       set: ody

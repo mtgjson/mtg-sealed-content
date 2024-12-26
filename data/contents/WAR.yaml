@@ -41,6 +41,16 @@ products:
     pack:
     - code: jp
       set: war
+  War of the Spark MTGO Redemption:
+    card_count: 264
+    deck:
+    - name: War of the Spark Redemption
+      set: war
+  War of the Spark MTGO Redemption Foil:
+    card_count: 264
+    deck:
+    - name: War of the Spark Foil Redemption
+      set: war
   War of the Spark Mythic Edition:
     card:
     - foil: true
@@ -193,14 +203,4 @@ products:
     card_count: 35
     pack:
     - code: theme-w
-      set: war
-  War of the Spark MTGO Redemption Foil:
-    card_count: 264
-    deck:
-    - name: "War of the Spark Foil Redemption"
-      set: war
-  War of the Spark MTGO Redemption:
-    card_count: 264
-    deck:
-    - name: "War of the Spark Redemption"
       set: war

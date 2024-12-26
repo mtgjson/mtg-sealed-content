@@ -27,6 +27,16 @@ products:
     - count: 6
       name: Torment Booster Pack
       set: tor
+  Torment MTGO Redemption:
+    card_count: 143
+    deck:
+    - name: Torment Redemption
+      set: tor
+  Torment MTGO Redemption Foil:
+    card_count: 143
+    deck:
+    - name: Torment Foil Redemption
+      set: tor
   Torment Theme Deck Display:
     sealed:
     - count: 3
@@ -74,14 +84,4 @@ products:
       set: tor
     - count: 1
       name: Torment Theme Deck Waking Nightmares
-      set: tor
-  Torment MTGO Redemption Foil:
-    card_count: 143
-    deck:
-    - name: "Torment Foil Redemption"
-      set: tor
-  Torment MTGO Redemption:
-    card_count: 143
-    deck:
-    - name: "Torment Redemption"
       set: tor

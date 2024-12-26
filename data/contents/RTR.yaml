@@ -129,6 +129,16 @@ products:
     - count: 1
       name: Return to Ravnica Intro Pack Selesnya Surge
       set: rtr
+  Return to Ravnica MTGO Redemption:
+    card_count: 274
+    deck:
+    - name: Return to Ravnica Redemption
+      set: rtr
+  Return to Ravnica MTGO Redemption Foil:
+    card_count: 274
+    deck:
+    - name: Return to Ravnica Foil Redemption
+      set: rtr
   Return to Ravnica Prerelease Pack Azorius:
     card:
     - foil: true
@@ -230,14 +240,4 @@ products:
     card_count: 6
     pack:
     - code: six
-      set: rtr
-  Return to Ravnica MTGO Redemption Foil:
-    card_count: 274
-    deck:
-    - name: "Return to Ravnica Foil Redemption"
-      set: rtr
-  Return to Ravnica MTGO Redemption:
-    card_count: 274
-    deck:
-    - name: "Return to Ravnica Redemption"
       set: rtr

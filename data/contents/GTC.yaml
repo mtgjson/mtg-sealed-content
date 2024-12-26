@@ -156,6 +156,16 @@ products:
     - count: 2
       name: Gatecrash Booster Pack
       set: gtc
+  Gatecrash MTGO Redemption:
+    card_count: 249
+    deck:
+    - name: Gatecrash Redemption
+      set: gtc
+  Gatecrash MTGO Redemption Foil:
+    card_count: 249
+    deck:
+    - name: Gatecrash Foil Redemption
+      set: gtc
   Gatecrash Prerelease Kit Boros:
     card:
     - foil: true
@@ -257,14 +267,4 @@ products:
     card_count: 6
     pack:
     - code: six
-      set: gtc
-  Gatecrash MTGO Redemption Foil:
-    card_count: 249
-    deck:
-    - name: "Gatecrash Foil Redemption"
-      set: gtc
-  Gatecrash MTGO Redemption:
-    card_count: 249
-    deck:
-    - name: "Gatecrash Redemption"
       set: gtc

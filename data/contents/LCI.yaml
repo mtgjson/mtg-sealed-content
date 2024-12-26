@@ -100,6 +100,16 @@ products:
     - count: 6
       name: The Lost Caverns of Ixalan Gift Bundle
       set: lci
+  The Lost Caverns of Ixalan MTGO Redemption:
+    card_count: 291
+    deck:
+    - name: The Lost Caverns of Ixalan Redemption
+      set: lci
+  The Lost Caverns of Ixalan MTGO Redemption Foil:
+    card_count: 291
+    deck:
+    - name: The Lost Caverns of Ixalan Foil Redemption
+      set: lci
   The Lost Caverns of Ixalan Prerelease Pack:
     card_count: 1
     other:
@@ -128,14 +138,4 @@ products:
     card_count: 12
     pack:
     - code: set
-      set: lci
-  The Lost Caverns of Ixalan MTGO Redemption Foil:
-    card_count: 291
-    deck:
-    - name: "The Lost Caverns of Ixalan Foil Redemption"
-      set: lci
-  The Lost Caverns of Ixalan MTGO Redemption:
-    card_count: 291
-    deck:
-    - name: "The Lost Caverns of Ixalan Redemption"
       set: lci

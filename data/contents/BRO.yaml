@@ -3,6 +3,16 @@ products:
   Land Station 2022:
     other:
     - name: 400 Assorted Basic Lands (80 of Each Type)
+  The Brothers War MTGO Redemption:
+    card_count: 287
+    deck:
+    - name: The Brothers' War Redemption
+      set: bro
+  The Brothers War MTGO Redemption Foil:
+    card_count: 287
+    deck:
+    - name: The Brothers' War Foil Redemption
+      set: bro
   The Brothers' War Bundle:
     card:
     - foil: true
@@ -129,14 +139,4 @@ products:
     card_count: 12
     pack:
     - code: set
-      set: bro
-  The Brothers War MTGO Redemption Foil:
-    card_count: 287
-    deck:
-    - name: "The Brothers' War Foil Redemption"
-      set: bro
-  The Brothers War MTGO Redemption:
-    card_count: 287
-    deck:
-    - name: "The Brothers' War Redemption"
       set: bro

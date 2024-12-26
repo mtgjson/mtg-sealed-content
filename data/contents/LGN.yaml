@@ -28,6 +28,16 @@ products:
     - count: 6
       name: Legions Booster Pack
       set: lgn
+  Legions MTGO Redemption:
+    card_count: 145
+    deck:
+    - name: Legions Redemption
+      set: lgn
+  Legions MTGO Redemption Foil:
+    card_count: 145
+    deck:
+    - name: Legions Foil Redemption
+      set: lgn
   Legions Theme Deck Display:
     sealed:
     - count: 3
@@ -75,14 +85,4 @@ products:
       set: lgn
     - count: 1
       name: Legions Theme Deck Zombies Unleashed
-      set: lgn
-  Legions MTGO Redemption Foil:
-    card_count: 145
-    deck:
-    - name: "Legions Foil Redemption"
-      set: lgn
-  Legions MTGO Redemption:
-    card_count: 145
-    deck:
-    - name: "Legions Redemption"
       set: lgn

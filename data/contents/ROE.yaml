@@ -111,18 +111,18 @@ products:
     - count: 1
       name: Rise of the Eldrazi Intro Pack Totem Power
       set: roe
-  Rise of the Eldrazi Six Card Booster Pack:
-    card_count: 6
-    pack:
-    - code: six
+  Rise of the Eldrazi MTGO Redemption:
+    card_count: 248
+    deck:
+    - name: Rise of the Eldrazi Redemption
       set: roe
   Rise of the Eldrazi MTGO Redemption Foil:
     card_count: 248
     deck:
-    - name: "Rise of the Eldrazi Foil Redemption"
+    - name: Rise of the Eldrazi Foil Redemption
       set: roe
-  Rise of the Eldrazi MTGO Redemption:
-    card_count: 248
-    deck:
-    - name: "Rise of the Eldrazi Redemption"
+  Rise of the Eldrazi Six Card Booster Pack:
+    card_count: 6
+    pack:
+    - code: six
       set: roe

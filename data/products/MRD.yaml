@@ -39,6 +39,14 @@ products:
       tcgplayerProductId: '78320'
       tntId: '155271'
     subtype: FAT_PACK
+  Mirrodin MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  Mirrodin MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   Mirrodin Theme Deck Bait and Bludgeon:
     category: DECK
     identifiers:
@@ -114,11 +122,3 @@ products:
       scgId: SLD-MTG-BBX-MRDTOURNAMENT-EN
       tntId: '110759'
     subtype: TOURNAMENT
-  Mirrodin MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  Mirrodin MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

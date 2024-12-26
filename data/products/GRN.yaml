@@ -46,6 +46,14 @@ products:
       tntId: '1188181'
     release_date: '2018-10-05'
     subtype: DEFAULT
+  Guilds of Ravnica MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  Guilds of Ravnica MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   Guilds of Ravnica Masterpiece Booster:
     category: BOOSTER_PACK
     identifiers: {}
@@ -232,11 +240,3 @@ products:
       scgId: SLD-MTG-PCK-GRNTHEME-EN-SET5
       tcgplayerProductId: '176703'
     subtype: THEME
-  Guilds of Ravnica MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  Guilds of Ravnica MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

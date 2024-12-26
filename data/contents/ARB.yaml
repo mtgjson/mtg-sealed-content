@@ -88,18 +88,18 @@ products:
     - count: 1
       name: Alara Reborn Booster Pack
       set: arb
-  Alara Reborn Six Card Booster Pack:
-    card_count: 6
-    pack:
-    - code: six
+  Alara Reborn MTGO Redemption:
+    card_count: 145
+    deck:
+    - name: Alara Reborn Redemption
       set: arb
   Alara Reborn MTGO Redemption Foil:
     card_count: 145
     deck:
-    - name: "Alara Reborn Foil Redemption"
+    - name: Alara Reborn Foil Redemption
       set: arb
-  Alara Reborn MTGO Redemption:
-    card_count: 145
-    deck:
-    - name: "Alara Reborn Redemption"
+  Alara Reborn Six Card Booster Pack:
+    card_count: 6
+    pack:
+    - code: six
       set: arb

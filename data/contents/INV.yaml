@@ -30,6 +30,16 @@ products:
     - count: 1
       name: Invasion Tournament Pack
       set: inv
+  Invasion MTGO Redemption:
+    card_count: 350
+    deck:
+    - name: Invasion Redemption
+      set: inv
+  Invasion MTGO Redemption Foil:
+    card_count: 350
+    deck:
+    - name: Invasion Foil Redemption
+      set: inv
   Invasion Theme Deck Blowout:
     card_count: 60
     deck:
@@ -87,14 +97,4 @@ products:
     sealed:
     - count: 12
       name: Invasion Tournament Pack
-      set: inv
-  Invasion MTGO Redemption Foil:
-    card_count: 350
-    deck:
-    - name: "Invasion Foil Redemption"
-      set: inv
-  Invasion MTGO Redemption:
-    card_count: 350
-    deck:
-    - name: "Invasion Redemption"
       set: inv

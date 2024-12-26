@@ -88,6 +88,16 @@ products:
     - count: 1
       name: Shards of Alara Booster Pack
       set: ala
+  Shards of Alara MTGO Redemption:
+    card_count: 249
+    deck:
+    - name: Shards of Alara Redemption
+      set: ala
+  Shards of Alara MTGO Redemption Foil:
+    card_count: 249
+    deck:
+    - name: Shards of Alara Foil Redemption
+      set: ala
   Shards of Alara Premium Foil Booster Box:
     sealed:
     - count: 12
@@ -107,14 +117,4 @@ products:
     card_count: 75
     pack:
     - code: tournament
-      set: ala
-  Shards of Alara MTGO Redemption Foil:
-    card_count: 249
-    deck:
-    - name: "Shards of Alara Foil Redemption"
-      set: ala
-  Shards of Alara MTGO Redemption:
-    card_count: 249
-    deck:
-    - name: "Shards of Alara Redemption"
       set: ala

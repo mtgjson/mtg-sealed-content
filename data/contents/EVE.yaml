@@ -26,6 +26,16 @@ products:
     - count: 8
       name: Eventide Booster Pack
       set: eve
+  Eventide MTGO Redemption:
+    card_count: 180
+    deck:
+    - name: Eventide Redemption
+      set: eve
+  Eventide MTGO Redemption Foil:
+    card_count: 180
+    deck:
+    - name: Eventide Foil Redemption
+      set: eve
   Eventide Theme Deck Battle Blitz:
     card_count: 60
     deck:
@@ -91,14 +101,4 @@ products:
     card_count: 60
     deck:
     - name: Superabundance
-      set: eve
-  Eventide MTGO Redemption Foil:
-    card_count: 180
-    deck:
-    - name: "Eventide Foil Redemption"
-      set: eve
-  Eventide MTGO Redemption:
-    card_count: 180
-    deck:
-    - name: "Eventide Redemption"
       set: eve

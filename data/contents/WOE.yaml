@@ -65,6 +65,16 @@ products:
     pack:
     - code: draft
       set: woe
+  Wilds of Eldraine MTGO Redemption:
+    card_count: 276
+    deck:
+    - name: Wilds of Eldraine Redemption
+      set: woe
+  Wilds of Eldraine MTGO Redemption Foil:
+    card_count: 276
+    deck:
+    - name: Wilds of Eldraine Foil Redemption
+      set: woe
   Wilds of Eldraine Prerelease Pack:
     card_count: 1
     other:
@@ -90,14 +100,4 @@ products:
     card_count: 12
     pack:
     - code: set
-      set: woe
-  Wilds of Eldraine MTGO Redemption Foil:
-    card_count: 276
-    deck:
-    - name: "Wilds of Eldraine Foil Redemption"
-      set: woe
-  Wilds of Eldraine MTGO Redemption:
-    card_count: 276
-    deck:
-    - name: "Wilds of Eldraine Redemption"
       set: woe

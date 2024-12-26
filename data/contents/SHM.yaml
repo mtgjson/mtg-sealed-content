@@ -12,6 +12,16 @@ products:
     - code: draft
       set: shm
   Shadowmoor Fat Pack: []
+  Shadowmoor MTGO Redemption:
+    card_count: 301
+    deck:
+    - name: Shadowmoor Redemption
+      set: shm
+  Shadowmoor MTGO Redemption Foil:
+    card_count: 301
+    deck:
+    - name: Shadowmoor Foil Redemption
+      set: shm
   Shadowmoor Theme Deck Army of Entropy:
     card_count: 60
     deck:
@@ -87,14 +97,4 @@ products:
     sealed:
     - count: 12
       name: Shadowmoor Tournament Pack
-      set: shm
-  Shadowmoor MTGO Redemption Foil:
-    card_count: 301
-    deck:
-    - name: "Shadowmoor Foil Redemption"
-      set: shm
-  Shadowmoor MTGO Redemption:
-    card_count: 301
-    deck:
-    - name: "Shadowmoor Redemption"
       set: shm

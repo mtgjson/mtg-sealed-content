@@ -141,6 +141,14 @@ products:
       mcmId: '246241'
       tcgplayerProductId: '39403'
     subtype: INTRO
+  New Phyrexia MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  New Phyrexia MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   New Phyrexia Six Card Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -148,11 +156,3 @@ products:
       mcmId: '315707'
     release_date: '2018-01-16'
     subtype: SIX
-  New Phyrexia MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  New Phyrexia MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

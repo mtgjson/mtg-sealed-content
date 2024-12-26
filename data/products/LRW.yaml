@@ -40,6 +40,14 @@ products:
       tcgplayerProductId: '78317'
       tntId: '160531'
     subtype: FAT_PACK
+  Lorwyn MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  Lorwyn MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   Lorwyn Theme Deck Boggart Feast:
     category: DECK
     identifiers:
@@ -118,11 +126,3 @@ products:
       scgId: SLD-MTG-BBX-LRWTOURNAMENT-EN
       tntId: '160533'
     subtype: TOURNAMENT
-  Lorwyn MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  Lorwyn MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

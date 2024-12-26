@@ -135,18 +135,18 @@ products:
     - count: 1
       name: Avacyn Restored Intro Pack Solitary Fiends
       set: avr
-  Avacyn Restored Six Card Booster Pack:
-    card_count: 6
-    pack:
-    - code: six
+  Avacyn Restored MTGO Redemption:
+    card_count: 244
+    deck:
+    - name: Avacyn Restored Redemption
       set: avr
   Avacyn Restored MTGO Redemption Foil:
     card_count: 244
     deck:
-    - name: "Avacyn Restored Foil Redemption"
+    - name: Avacyn Restored Foil Redemption
       set: avr
-  Avacyn Restored MTGO Redemption:
-    card_count: 244
-    deck:
-    - name: "Avacyn Restored Redemption"
+  Avacyn Restored Six Card Booster Pack:
+    card_count: 6
+    pack:
+    - code: six
       set: avr

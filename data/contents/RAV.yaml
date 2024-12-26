@@ -15,6 +15,16 @@ products:
     pack:
     - code: draft
       set: rav
+  Ravnica City of Guilds MTGO Redemption:
+    card_count: 306
+    deck:
+    - name: 'Ravnica: City of Guilds Redemption'
+      set: rav
+  Ravnica City of Guilds MTGO Redemption Foil:
+    card_count: 306
+    deck:
+    - name: 'Ravnica: City of Guilds Foil Redemption'
+      set: rav
   Ravnica Fat Pack: []
   Ravnica Theme Deck Charge of the Boros:
     card_count: 60
@@ -73,14 +83,4 @@ products:
     sealed:
     - count: 12
       name: Ravnica Tournament Pack
-      set: rav
-  Ravnica City of Guilds MTGO Redemption Foil:
-    card_count: 306
-    deck:
-    - name: "Ravnica: City of Guilds Foil Redemption"
-      set: rav
-  Ravnica City of Guilds MTGO Redemption:
-    card_count: 306
-    deck:
-    - name: "Ravnica: City of Guilds Redemption"
       set: rav

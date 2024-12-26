@@ -40,6 +40,14 @@ products:
       tcgplayerProductId: '78329'
       tntId: '155302'
     subtype: FAT_PACK
+  Scourge MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  Scourge MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   Scourge Theme Deck Display:
     category: DECK_BOX
     identifiers:
@@ -96,11 +104,3 @@ products:
     identifiers:
       abuId: '1101130'
     subtype: THEME
-  Scourge MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  Scourge MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

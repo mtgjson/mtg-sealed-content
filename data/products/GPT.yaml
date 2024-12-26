@@ -40,6 +40,14 @@ products:
       tcgplayerProductId: '78313'
       tntId: '155115'
     subtype: FAT_PACK
+  Guildpact MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  Guildpact MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   Guildpact Theme Deck Code of the Orzhov:
     category: DECK
     identifiers:
@@ -83,11 +91,3 @@ products:
     identifiers:
       abuId: '1100585'
     subtype: THEME
-  Guildpact MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  Guildpact MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

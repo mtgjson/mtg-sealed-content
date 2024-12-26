@@ -89,6 +89,16 @@ products:
     pack:
     - code: draft
       set: snc
+  Streets of New Capenna MTGO Redemption:
+    card_count: 281
+    deck:
+    - name: Streets of New Capenna Redemption
+      set: snc
+  Streets of New Capenna MTGO Redemption Foil:
+    card_count: 281
+    deck:
+    - name: Streets of New Capenna Foil Redemption
+      set: snc
   Streets of New Capenna Prerelease Pack Brokers:
     card_count: 15
     other:
@@ -249,14 +259,4 @@ products:
     card_count: 10
     deck:
     - name: Streets of New Capenna Welcome Booster
-      set: snc
-  Streets of New Capenna MTGO Redemption Foil:
-    card_count: 281
-    deck:
-    - name: "Streets of New Capenna Foil Redemption"
-      set: snc
-  Streets of New Capenna MTGO Redemption:
-    card_count: 281
-    deck:
-    - name: "Streets of New Capenna Redemption"
       set: snc

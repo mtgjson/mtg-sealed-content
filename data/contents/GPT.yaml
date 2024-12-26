@@ -27,6 +27,16 @@ products:
     - count: 6
       name: Guildpact Booster Pack
       set: gpt
+  Guildpact MTGO Redemption:
+    card_count: 165
+    deck:
+    - name: Guildpact Redemption
+      set: gpt
+  Guildpact MTGO Redemption Foil:
+    card_count: 165
+    deck:
+    - name: Guildpact Foil Redemption
+      set: gpt
   Guildpact Theme Deck Code of the Orzhov:
     card_count: 60
     deck:
@@ -63,14 +73,4 @@ products:
       set: gpt
     - count: 1
       name: Guildpact Theme Deck Izzet Gizmometry
-      set: gpt
-  Guildpact MTGO Redemption Foil:
-    card_count: 165
-    deck:
-    - name: "Guildpact Foil Redemption"
-      set: gpt
-  Guildpact MTGO Redemption:
-    card_count: 165
-    deck:
-    - name: "Guildpact Redemption"
       set: gpt

@@ -40,6 +40,16 @@ products:
     pack:
     - code: collector-sample
       set: mkm
+  Murders at Karlov Manor MTGO Redemption:
+    card_count: 286
+    deck:
+    - name: Murders at Karlov Manor Redemption
+      set: mkm
+  Murders at Karlov Manor MTGO Redemption Foil:
+    card_count: 286
+    deck:
+    - name: Murders at Karlov Manor Foil Redemption
+      set: mkm
   Murders at Karlov Manor Play Booster Box:
     sealed:
     - count: 36
@@ -65,14 +75,4 @@ products:
     sealed:
     - count: 6
       name: Murders at Karlov Manor Play Booster Pack
-      set: mkm
-  Murders at Karlov Manor MTGO Redemption Foil:
-    card_count: 286
-    deck:
-    - name: "Murders at Karlov Manor Foil Redemption"
-      set: mkm
-  Murders at Karlov Manor MTGO Redemption:
-    card_count: 286
-    deck:
-    - name: "Murders at Karlov Manor Redemption"
       set: mkm

@@ -106,18 +106,18 @@ products:
     - count: 1
       name: Worldwake Intro Pack Rapid Fire
       set: wwk
-  Worldwake Six Card Booster Pack:
-    card_count: 6
-    pack:
-    - code: six
+  Worldwake MTGO Redemption:
+    card_count: 145
+    deck:
+    - name: Worldwake Redemption
       set: wwk
   Worldwake MTGO Redemption Foil:
     card_count: 145
     deck:
-    - name: "Worldwake Foil Redemption"
+    - name: Worldwake Foil Redemption
       set: wwk
-  Worldwake MTGO Redemption:
-    card_count: 145
-    deck:
-    - name: "Worldwake Redemption"
+  Worldwake Six Card Booster Pack:
+    card_count: 6
+    pack:
+    - code: six
       set: wwk

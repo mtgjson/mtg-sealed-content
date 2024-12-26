@@ -28,6 +28,16 @@ products:
     - count: 10
       name: Dominaria Booster Pack
       set: dom
+  Dominaria MTGO Redemption:
+    card_count: 269
+    deck:
+    - name: Dominaria Redemption
+      set: dom
+  Dominaria MTGO Redemption Foil:
+    card_count: 269
+    deck:
+    - name: Dominaria Foil Redemption
+      set: dom
   Dominaria Planeswalker Deck Chandra:
     card_count: 60
     deck:
@@ -115,14 +125,4 @@ products:
     card_count: 35
     pack:
     - code: theme-w
-      set: dom
-  Dominaria MTGO Redemption Foil:
-    card_count: 269
-    deck:
-    - name: "Dominaria Foil Redemption"
-      set: dom
-  Dominaria MTGO Redemption:
-    card_count: 269
-    deck:
-    - name: "Dominaria Redemption"
       set: dom

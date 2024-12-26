@@ -100,18 +100,18 @@ products:
     - count: 1
       name: Scars of Mirrodin Intro Pack Relic Breaker
       set: som
-  Scars of Mirrodin Six Card Booster Pack:
-    card_count: 6
-    pack:
-    - code: six
+  Scars of Mirrodin MTGO Redemption:
+    card_count: 249
+    deck:
+    - name: Scars of Mirrodin Redemption
       set: som
   Scars of Mirrodin MTGO Redemption Foil:
     card_count: 249
     deck:
-    - name: "Scars of Mirrodin Foil Redemption"
+    - name: Scars of Mirrodin Foil Redemption
       set: som
-  Scars of Mirrodin MTGO Redemption:
-    card_count: 249
-    deck:
-    - name: "Scars of Mirrodin Redemption"
+  Scars of Mirrodin Six Card Booster Pack:
+    card_count: 6
+    pack:
+    - code: six
       set: som

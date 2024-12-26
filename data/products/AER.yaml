@@ -43,6 +43,14 @@ products:
       tcgplayerProductId: '125797'
       tntId: '1096473'
     subtype: DEFAULT
+  Aether Revolt MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  Aether Revolt MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   Aether Revolt Planeswalker Deck Ajani:
     category: DECK
     identifiers:
@@ -87,11 +95,3 @@ products:
       mcmId: '294545'
       tcgplayerProductId: '127203'
     subtype: PRERELEASE
-  Aether Revolt MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  Aether Revolt MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

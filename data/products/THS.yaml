@@ -143,6 +143,14 @@ products:
       scgId: SLD-MTG-INT-THSINTRO-EN-SET5
       tcgplayerProductId: '70964'
     subtype: INTRO
+  Theros MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  Theros MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   Theros Prerelease Kit Path of Ambition:
     category: LIMITED
     identifiers:
@@ -197,11 +205,3 @@ products:
       tcgplayerProductId: '199940'
     release_date: '2015-03-02'
     subtype: PRERELEASE
-  Theros MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  Theros MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

@@ -27,6 +27,16 @@ products:
     - count: 6
       name: Judgment Booster Pack
       set: jud
+  Judgment MTGO Redemption:
+    card_count: 143
+    deck:
+    - name: Judgment Redemption
+      set: jud
+  Judgment MTGO Redemption Foil:
+    card_count: 143
+    deck:
+    - name: Judgment Foil Redemption
+      set: jud
   Judgment Theme Deck Air Razers:
     card_count: 60
     deck:
@@ -62,13 +72,3 @@ products:
     - name: Spectral Slam
       set: jud
   Judgment Theme Decks Set of 4: []
-  Judgment MTGO Redemption Foil:
-    card_count: 143
-    deck:
-    - name: "Judgment Foil Redemption"
-      set: jud
-  Judgment MTGO Redemption:
-    card_count: 143
-    deck:
-    - name: "Judgment Redemption"
-      set: jud

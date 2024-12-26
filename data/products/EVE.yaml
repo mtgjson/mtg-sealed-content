@@ -40,6 +40,14 @@ products:
       tcgplayerProductId: '78310'
       tntId: '179881'
     subtype: FAT_PACK
+  Eventide MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  Eventide MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   Eventide Theme Deck Battle Blitz:
     category: DECK
     identifiers:
@@ -97,11 +105,3 @@ products:
       tcgplayerProductId: '175116'
       tntId: '214279'
     subtype: THEME
-  Eventide MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  Eventide MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

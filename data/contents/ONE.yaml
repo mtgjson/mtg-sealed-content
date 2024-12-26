@@ -93,6 +93,16 @@ products:
     pack:
     - code: jumpstart
       set: one
+  Phyrexia All Will Be One MTGO Redemption:
+    card_count: 271
+    deck:
+    - name: 'Phyrexia: All Will Be One Redemption'
+      set: one
+  Phyrexia All Will Be One MTGO Redemption Foil:
+    card_count: 271
+    deck:
+    - name: 'Phyrexia: All Will Be One Foil Redemption'
+      set: one
   Phyrexia All Will Be One Prerelease Pack:
     card_count: 1
     other:
@@ -123,14 +133,4 @@ products:
     card_count: 10
     deck:
     - name: Phyrexia All Will Be One Welcome Booster
-      set: one
-  Phyrexia All Will Be One MTGO Redemption Foil:
-    card_count: 271
-    deck:
-    - name: "Phyrexia: All Will Be One Foil Redemption"
-      set: one
-  Phyrexia All Will Be One MTGO Redemption:
-    card_count: 271
-    deck:
-    - name: "Phyrexia: All Will Be One Redemption"
       set: one

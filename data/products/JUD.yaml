@@ -39,6 +39,14 @@ products:
       tcgplayerProductId: '78315'
       tntId: '155256'
     subtype: FAT_PACK
+  Judgment MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  Judgment MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   Judgment Theme Deck Air Razers:
     category: DECK
     identifiers:
@@ -91,11 +99,3 @@ products:
     identifiers:
       abuId: '1100675'
     subtype: THEME
-  Judgment MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  Judgment MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

@@ -40,6 +40,14 @@ products:
       tcgplayerProductId: '78326'
       tntId: '155131'
     subtype: FAT_PACK
+  Planeshift MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  Planeshift MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   Planeshift Theme Deck Barrage:
     category: DECK
     identifiers:
@@ -92,11 +100,3 @@ products:
     identifiers:
       abuId: '1101008'
     subtype: THEME
-  Planeshift MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  Planeshift MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

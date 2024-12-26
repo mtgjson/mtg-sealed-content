@@ -121,18 +121,18 @@ products:
     - count: 1
       name: Dark Ascension Booster Pack
       set: dka
-  Dark Ascension Six Card Booster Pack:
-    card_count: 6
-    pack:
-    - code: six
+  Dark Ascension MTGO Redemption:
+    card_count: 158
+    deck:
+    - name: Dark Ascension Redemption
       set: dka
   Dark Ascension MTGO Redemption Foil:
     card_count: 158
     deck:
-    - name: "Dark Ascension Foil Redemption"
+    - name: Dark Ascension Foil Redemption
       set: dka
-  Dark Ascension MTGO Redemption:
-    card_count: 158
-    deck:
-    - name: "Dark Ascension Redemption"
+  Dark Ascension Six Card Booster Pack:
+    card_count: 6
+    pack:
+    - code: six
       set: dka

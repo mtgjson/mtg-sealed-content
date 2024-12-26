@@ -127,18 +127,18 @@ products:
     - count: 1
       name: Innistrad Booster Pack
       set: isd
-  Innistrad Six Card Booster Pack:
-    card_count: 6
-    pack:
-    - code: six
+  Innistrad MTGO Redemption:
+    card_count: 264
+    deck:
+    - name: Innistrad Redemption
       set: isd
   Innistrad MTGO Redemption Foil:
     card_count: 264
     deck:
-    - name: "Innistrad Foil Redemption"
+    - name: Innistrad Foil Redemption
       set: isd
-  Innistrad MTGO Redemption:
-    card_count: 264
-    deck:
-    - name: "Innistrad Redemption"
+  Innistrad Six Card Booster Pack:
+    card_count: 6
+    pack:
+    - code: six
       set: isd

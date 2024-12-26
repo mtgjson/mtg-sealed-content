@@ -38,6 +38,16 @@ products:
     pack:
     - code: collector-sample
       set: otj
+  Outlaws of Thunder Junction MTGO Redemption:
+    card_count: 286
+    deck:
+    - name: Outlaws of Thunder Junction Redemption
+      set: otj
+  Outlaws of Thunder Junction MTGO Redemption Foil:
+    card_count: 286
+    deck:
+    - name: Outlaws of Thunder Junction Foil Redemption
+      set: otj
   Outlaws of Thunder Junction Play Booster Box:
     sealed:
     - count: 36
@@ -63,14 +73,4 @@ products:
     sealed:
     - count: 6
       name: Outlaws of Thunder Junction Play Booster Pack
-      set: otj
-  Outlaws of Thunder Junction MTGO Redemption Foil:
-    card_count: 286
-    deck:
-    - name: "Outlaws of Thunder Junction Foil Redemption"
-      set: otj
-  Outlaws of Thunder Junction MTGO Redemption:
-    card_count: 286
-    deck:
-    - name: "Outlaws of Thunder Junction Redemption"
       set: otj

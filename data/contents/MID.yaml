@@ -58,6 +58,16 @@ products:
     pack:
     - code: draft
       set: mid
+  Innistrad Midnight Hunt MTGO Redemption:
+    card_count: 277
+    deck:
+    - name: 'Innistrad: Midnight Hunt Redemption'
+      set: mid
+  Innistrad Midnight Hunt MTGO Redemption Foil:
+    card_count: 277
+    deck:
+    - name: 'Innistrad: Midnight Hunt Foil Redemption'
+      set: mid
   Innistrad Midnight Hunt Prerelease Pack:
     card_count: 1
     other:
@@ -163,14 +173,4 @@ products:
     card_count: 10
     deck:
     - name: Innistrad Midnight Hunt Welcome Booster
-      set: mid
-  Innistrad Midnight Hunt MTGO Redemption Foil:
-    card_count: 277
-    deck:
-    - name: "Innistrad: Midnight Hunt Foil Redemption"
-      set: mid
-  Innistrad Midnight Hunt MTGO Redemption:
-    card_count: 277
-    deck:
-    - name: "Innistrad: Midnight Hunt Redemption"
       set: mid

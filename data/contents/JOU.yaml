@@ -128,13 +128,13 @@ products:
     - count: 1
       name: Journey Into Nyx Prerelease Forged in War
       set: jou
-  Journey into Nyx MTGO Redemption Foil:
-    card_count: 165
-    deck:
-    - name: "Journey into Nyx Foil Redemption"
-      set: jou
   Journey into Nyx MTGO Redemption:
     card_count: 165
     deck:
-    - name: "Journey into Nyx Redemption"
+    - name: Journey into Nyx Redemption
+      set: jou
+  Journey into Nyx MTGO Redemption Foil:
+    card_count: 165
+    deck:
+    - name: Journey into Nyx Foil Redemption
       set: jou

@@ -40,6 +40,14 @@ products:
       tcgplayerProductId: '78306'
       tntId: '141892'
     subtype: FAT_PACK
+  Coldsnap MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  Coldsnap MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   Coldsnap Theme Deck Aurochs Stampede:
     category: DECK
     identifiers:
@@ -88,11 +96,3 @@ products:
       tcgplayerProductId: '72032'
       tntId: '141895'
     subtype: THEME
-  Coldsnap MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  Coldsnap MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

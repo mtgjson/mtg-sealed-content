@@ -135,13 +135,13 @@ products:
     - count: 2
       name: Battle for Zendikar Booster Pack
       set: bfz
-  Battle for Zendikar MTGO Redemption Foil:
-    card_count: 274
-    deck:
-    - name: "Battle for Zendikar Foil Redemption"
-      set: bfz
   Battle for Zendikar MTGO Redemption:
     card_count: 274
     deck:
-    - name: "Battle for Zendikar Redemption"
+    - name: Battle for Zendikar Redemption
+      set: bfz
+  Battle for Zendikar MTGO Redemption Foil:
+    card_count: 274
+    deck:
+    - name: Battle for Zendikar Foil Redemption
       set: bfz

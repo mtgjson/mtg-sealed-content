@@ -30,6 +30,16 @@ products:
     - count: 1
       name: Mirrodin Tournament Pack
       set: mrd
+  Mirrodin MTGO Redemption:
+    card_count: 306
+    deck:
+    - name: Mirrodin Redemption
+      set: mrd
+  Mirrodin MTGO Redemption Foil:
+    card_count: 306
+    deck:
+    - name: Mirrodin Foil Redemption
+      set: mrd
   Mirrodin Theme Deck Bait and Bludgeon:
     card_count: 60
     deck:
@@ -87,14 +97,4 @@ products:
     sealed:
     - count: 12
       name: Mirrodin Tournament Pack
-      set: mrd
-  Mirrodin MTGO Redemption Foil:
-    card_count: 306
-    deck:
-    - name: "Mirrodin Foil Redemption"
-      set: mrd
-  Mirrodin MTGO Redemption:
-    card_count: 306
-    deck:
-    - name: "Mirrodin Redemption"
       set: mrd

@@ -24,6 +24,16 @@ products:
     - count: 6
       name: Tenth Edition Booster Pack
       set: 10e
+  Tenth Edition MTGO Redemption:
+    card_count: 383
+    deck:
+    - name: Tenth Edition Redemption
+      set: 10e
+  Tenth Edition MTGO Redemption Foil:
+    card_count: 383
+    deck:
+    - name: Tenth Edition Foil Redemption
+      set: 10e
   Tenth Edition Sample Deck Ajani Goldmane:
     card count: 30
     variable:
@@ -134,14 +144,4 @@ products:
     sealed:
     - count: 2
       name: Tenth Edition Booster Pack
-      set: 10e
-  Tenth Edition MTGO Redemption Foil:
-    card_count: 383
-    deck:
-    - name: "Tenth Edition Foil Redemption"
-      set: 10e
-  Tenth Edition MTGO Redemption:
-    card_count: 383
-    deck:
-    - name: "Tenth Edition Redemption"
       set: 10e

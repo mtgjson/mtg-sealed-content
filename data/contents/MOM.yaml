@@ -68,6 +68,16 @@ products:
     pack:
     - code: jumpstart
       set: mom
+  March of the Machine MTGO Redemption:
+    card_count: 291
+    deck:
+    - name: March of the Machine Redemption
+      set: mom
+  March of the Machine MTGO Redemption Foil:
+    card_count: 291
+    deck:
+    - name: March of the Machine Foil Redemption
+      set: mom
   March of the Machine Prerelease Pack:
     card_count: 2
     other:
@@ -103,14 +113,4 @@ products:
     card_count: 10
     deck:
     - name: March of the Machine Welcome Booster
-      set: mom
-  March of the Machine MTGO Redemption Foil:
-    card_count: 291
-    deck:
-    - name: "March of the Machine Foil Redemption"
-      set: mom
-  March of the Machine MTGO Redemption:
-    card_count: 291
-    deck:
-    - name: "March of the Machine Redemption"
       set: mom

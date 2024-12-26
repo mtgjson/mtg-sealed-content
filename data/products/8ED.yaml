@@ -52,6 +52,14 @@ products:
       tcgplayerProductId: '248192'
       tntId: '108680'
     subtype: PROMOTIONAL
+  Eighth Edition MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  Eighth Edition MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   Eighth Edition Sampler Booster:
     category: BOOSTER_PACK
     identifiers:
@@ -138,11 +146,3 @@ products:
       cardKingdomId: '240097'
       tntId: '109591'
     subtype: TWO_PLAYER_STARTER
-  Eighth Edition MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  Eighth Edition MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

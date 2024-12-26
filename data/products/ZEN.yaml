@@ -114,6 +114,14 @@ products:
       scgId: SLD-MTG-INT-ZENINTRO-EN-SET5
       tcgplayerProductId: '32799'
     subtype: INTRO
+  Zendikar MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  Zendikar MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   Zendikar Six Card Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -121,11 +129,3 @@ products:
       mcmId: '315702'
     release_date: '2018-01-16'
     subtype: SIX
-  Zendikar MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  Zendikar MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

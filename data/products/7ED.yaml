@@ -34,6 +34,14 @@ products:
       tcgplayerProductId: '27320'
       tntId: '91209'
     subtype: DRAFT
+  Seventh Edition MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  Seventh Edition MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   Seventh Edition Sampler Booster:
     category: BOOSTER_PACK
     identifiers:
@@ -121,11 +129,3 @@ products:
       abuId: '1526730'
       tntId: '112135'
     subtype: TWO_PLAYER_STARTER
-  Seventh Edition MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  Seventh Edition MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

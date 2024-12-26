@@ -27,6 +27,16 @@ products:
     - count: 6
       name: Apocalypse Booster Pack
       set: apc
+  Apocalypse MTGO Redemption:
+    card_count: 143
+    deck:
+    - name: Apocalypse Redemption
+      set: apc
+  Apocalypse MTGO Redemption Foil:
+    card_count: 143
+    deck:
+    - name: Apocalypse Foil Redemption
+      set: apc
   Apocalypse Theme Deck Burial:
     card_count: 60
     deck:
@@ -74,14 +84,4 @@ products:
       set: apc
     - count: 1
       name: Apocalypse Theme Deck Whirlpool
-      set: apc
-  Apocalypse MTGO Redemption Foil:
-    card_count: 143
-    deck:
-    - name: "Apocalypse Foil Redemption"
-      set: apc
-  Apocalypse MTGO Redemption:
-    card_count: 143
-    deck:
-    - name: "Apocalypse Redemption"
       set: apc

@@ -101,6 +101,16 @@ products:
     - count: 1
       name: Theros Intro Pack Manipulative Monstrosities
       set: ths
+  Theros MTGO Redemption:
+    card_count: 249
+    deck:
+    - name: Theros Redemption
+      set: ths
+  Theros MTGO Redemption Foil:
+    card_count: 249
+    deck:
+    - name: Theros Foil Redemption
+      set: ths
   Theros Prerelease Kit Path of Ambition: []
   Theros Prerelease Kit Path of Battle: []
   Theros Prerelease Kit Path of Honor: []
@@ -122,14 +132,4 @@ products:
       set: ths
     - count: 1
       name: Theros Prerelease Kit Path of Wisdom
-      set: ths
-  Theros MTGO Redemption Foil:
-    card_count: 249
-    deck:
-    - name: "Theros Foil Redemption"
-      set: ths
-  Theros MTGO Redemption:
-    card_count: 249
-    deck:
-    - name: "Theros Redemption"
       set: ths

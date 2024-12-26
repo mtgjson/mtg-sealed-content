@@ -39,6 +39,14 @@ products:
       tcgplayerProductId: '78323'
       tntId: '155285'
     subtype: FAT_PACK
+  Odyssey MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  Odyssey MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   Odyssey Theme Deck Display:
     category: DECK_BOX
     identifiers:
@@ -113,11 +121,3 @@ products:
       scgId: SLD-MTG-BBX-ODYTOURNAMENT-EN
       tntId: '92405'
     subtype: TOURNAMENT
-  Odyssey MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  Odyssey MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

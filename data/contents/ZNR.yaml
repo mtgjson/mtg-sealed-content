@@ -76,6 +76,16 @@ products:
     pack:
     - code: draft
       set: znr
+  Zendikar Rising MTGO Redemption:
+    card_count: 280
+    deck:
+    - name: Zendikar Rising Redemption
+      set: znr
+  Zendikar Rising MTGO Redemption Foil:
+    card_count: 280
+    deck:
+    - name: Zendikar Rising Foil Redemption
+      set: znr
   Zendikar Rising Prerelease Pack:
     card_count: 1
     other:
@@ -189,14 +199,4 @@ products:
     card_count: 10
     deck:
     - name: Zendikar Rising Welcome Booster
-      set: znr
-  Zendikar Rising MTGO Redemption Foil:
-    card_count: 280
-    deck:
-    - name: "Zendikar Rising Foil Redemption"
-      set: znr
-  Zendikar Rising MTGO Redemption:
-    card_count: 280
-    deck:
-    - name: "Zendikar Rising Redemption"
       set: znr

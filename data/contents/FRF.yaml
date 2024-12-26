@@ -102,6 +102,16 @@ products:
     - count: 2
       name: Fate Reforged Booster Pack
       set: frf
+  Fate Reforged MTGO Redemption:
+    card_count: 185
+    deck:
+    - name: Fate Reforged Redemption
+      set: frf
+  Fate Reforged MTGO Redemption Foil:
+    card_count: 185
+    deck:
+    - name: Fate Reforged Foil Redemption
+      set: frf
   Fate Reforged Prerelease Kit Abzan Battle with Endurance: []
   Fate Reforged Prerelease Kit Jeskai Battle with Cunning: []
   Fate Reforged Prerelease Kit Mardu Battle with Speed: []
@@ -124,13 +134,3 @@ products:
       set: frf
   Fate Reforged Prerelease Kit Sultai Battle with Ruthlessness: []
   Fate Reforged Prerelease Kit Temur Battle with Savagery: []
-  Fate Reforged MTGO Redemption Foil:
-    card_count: 185
-    deck:
-    - name: "Fate Reforged Foil Redemption"
-      set: frf
-  Fate Reforged MTGO Redemption:
-    card_count: 185
-    deck:
-    - name: "Fate Reforged Redemption"
-      set: frf

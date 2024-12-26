@@ -30,6 +30,16 @@ products:
     - count: 1
       name: Onslaught Tournament Pack
       set: ons
+  Onslaught MTGO Redemption:
+    card_count: 350
+    deck:
+    - name: Onslaught Redemption
+      set: ons
+  Onslaught MTGO Redemption Foil:
+    card_count: 350
+    deck:
+    - name: Onslaught Foil Redemption
+      set: ons
   Onslaught Theme Deck Bait and Switch:
     card_count: 60
     deck:
@@ -87,14 +97,4 @@ products:
     sealed:
     - count: 12
       name: Onslaught Tournament Pack
-      set: ons
-  Onslaught MTGO Redemption Foil:
-    card_count: 350
-    deck:
-    - name: "Onslaught Foil Redemption"
-      set: ons
-  Onslaught MTGO Redemption:
-    card_count: 350
-    deck:
-    - name: "Onslaught Redemption"
       set: ons

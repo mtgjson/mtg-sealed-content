@@ -77,6 +77,14 @@ products:
       tcgplayerProductId: '264814'
     release_date: '2016-11-21'
     subtype: DEFAULT
+  Kaladesh MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  Kaladesh MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   Kaladesh Planeswalker Deck Chandra:
     category: DECK
     identifiers:
@@ -140,11 +148,3 @@ products:
       tcgplayerProductId: '122681'
     release_date: '2016-09-06'
     subtype: BATTLE
-  Kaladesh MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  Kaladesh MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

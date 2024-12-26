@@ -39,6 +39,14 @@ products:
       tcgplayerProductId: '78324'
       tntId: '155129'
     subtype: FAT_PACK
+  Onslaught MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  Onslaught MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   Onslaught Theme Deck Bait and Switch:
     category: DECK
     identifiers:
@@ -114,11 +122,3 @@ products:
       tcgplayerProductId: '544192'
       tntId: '104434'
     subtype: TOURNAMENT
-  Onslaught MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  Onslaught MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

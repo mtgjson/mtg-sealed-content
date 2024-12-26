@@ -27,6 +27,16 @@ products:
     - count: 6
       name: Scourge Booster Pack
       set: scg
+  Scourge MTGO Redemption:
+    card_count: 143
+    deck:
+    - name: Scourge Redemption
+      set: scg
+  Scourge MTGO Redemption Foil:
+    card_count: 143
+    deck:
+    - name: Scourge Foil Redemption
+      set: scg
   Scourge Theme Deck Display:
     sealed:
     - count: 3
@@ -74,14 +84,4 @@ products:
       set: scg
     - count: 1
       name: Scourge Theme Deck Storm Surge
-      set: scg
-  Scourge MTGO Redemption Foil:
-    card_count: 143
-    deck:
-    - name: "Scourge Foil Redemption"
-      set: scg
-  Scourge MTGO Redemption:
-    card_count: 143
-    deck:
-    - name: "Scourge Redemption"
       set: scg

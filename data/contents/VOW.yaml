@@ -90,6 +90,16 @@ products:
     - count: 6
       name: Innistrad Crimson Vow Gift Bundle
       set: vow
+  Innistrad Crimson Vow MTGO Redemption:
+    card_count: 277
+    deck:
+    - name: 'Innistrad: Crimson Vow Redemption'
+      set: vow
+  Innistrad Crimson Vow MTGO Redemption Foil:
+    card_count: 277
+    deck:
+    - name: 'Innistrad: Crimson Vow Foil Redemption'
+      set: vow
   Innistrad Crimson Vow Prerelease Pack:
     card_count: 1
     other:
@@ -198,14 +208,4 @@ products:
     card_count: 10
     deck:
     - name: Innistrad Crimson Vow Welcome Booster
-      set: vow
-  Innistrad Crimson Vow MTGO Redemption Foil:
-    card_count: 277
-    deck:
-    - name: "Innistrad: Crimson Vow Foil Redemption"
-      set: vow
-  Innistrad Crimson Vow MTGO Redemption:
-    card_count: 277
-    deck:
-    - name: "Innistrad: Crimson Vow Redemption"
       set: vow

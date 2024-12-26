@@ -26,6 +26,16 @@ products:
     - count: 10
       name: Aether Revolt Booster Pack
       set: aer
+  Aether Revolt MTGO Redemption:
+    card_count: 184
+    deck:
+    - name: Aether Revolt Redemption
+      set: aer
+  Aether Revolt MTGO Redemption Foil:
+    card_count: 184
+    deck:
+    - name: Aether Revolt Foil Redemption
+      set: aer
   Aether Revolt Planeswalker Deck Ajani:
     card_count: 60
     deck:
@@ -75,13 +85,3 @@ products:
     - count: 2
       name: Kaladesh Booster Pack
       set: kld
-  Aether Revolt MTGO Redemption Foil:
-    card_count: 184
-    deck:
-    - name: "Aether Revolt Foil Redemption"
-      set: aer
-  Aether Revolt MTGO Redemption:
-    card_count: 184
-    deck:
-    - name: "Aether Revolt Redemption"
-      set: aer

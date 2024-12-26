@@ -123,18 +123,18 @@ products:
     - count: 1
       name: New Phyrexia Intro Pack Ravaging Swarm
       set: nph
-  New Phyrexia Six Card Booster Pack:
-    card_count: 6
-    pack:
-    - code: six
+  New Phyrexia MTGO Redemption:
+    card_count: 175
+    deck:
+    - name: New Phyrexia Redemption
       set: nph
   New Phyrexia MTGO Redemption Foil:
     card_count: 175
     deck:
-    - name: "New Phyrexia Foil Redemption"
+    - name: New Phyrexia Foil Redemption
       set: nph
-  New Phyrexia MTGO Redemption:
-    card_count: 175
-    deck:
-    - name: "New Phyrexia Redemption"
+  New Phyrexia Six Card Booster Pack:
+    card_count: 6
+    pack:
+    - code: six
       set: nph

@@ -22,6 +22,16 @@ products:
     pack:
     - code: draft
       set: 7ed
+  Seventh Edition MTGO Redemption:
+    card_count: 350
+    deck:
+    - name: Seventh Edition Redemption
+      set: 7ed
+  Seventh Edition MTGO Redemption Foil:
+    card_count: 350
+    deck:
+    - name: Seventh Edition Foil Redemption
+      set: 7ed
   Seventh Edition Sampler Booster:
     card_count: 10
     deck:
@@ -113,14 +123,4 @@ products:
     sealed:
     - count: 6
       name: Seventh Edition Two Player Starter
-      set: 7ed
-  Seventh Edition MTGO Redemption Foil:
-    card_count: 350
-    deck:
-    - name: "Seventh Edition Foil Redemption"
-      set: 7ed
-  Seventh Edition MTGO Redemption:
-    card_count: 350
-    deck:
-    - name: "Seventh Edition Redemption"
       set: 7ed

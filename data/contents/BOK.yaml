@@ -27,6 +27,16 @@ products:
     - count: 6
       name: Betrayers of Kamigawa Booster Pack
       set: bok
+  Betrayers of Kamigawa MTGO Redemption:
+    card_count: 165
+    deck:
+    - name: Betrayers of Kamigawa Redemption
+      set: bok
+  Betrayers of Kamigawa MTGO Redemption Foil:
+    card_count: 165
+    deck:
+    - name: Betrayers of Kamigawa Foil Redemption
+      set: bok
   Betrayers of Kamigawa Theme Deck Dark Devotion:
     card_count: 60
     deck:
@@ -60,14 +70,4 @@ products:
     card_count: 60
     deck:
     - name: Spiritcraft
-      set: bok
-  Betrayers of Kamigawa MTGO Redemption Foil:
-    card_count: 165
-    deck:
-    - name: "Betrayers of Kamigawa Foil Redemption"
-      set: bok
-  Betrayers of Kamigawa MTGO Redemption:
-    card_count: 165
-    deck:
-    - name: "Betrayers of Kamigawa Redemption"
       set: bok

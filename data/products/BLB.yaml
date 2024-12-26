@@ -56,6 +56,14 @@ products:
       mcmId: '778454'
       tcgplayerProductId: '579916'
     subtype: PROMOTIONAL
+  Bloomburrow MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  Bloomburrow MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   Bloomburrow Play Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -119,11 +127,3 @@ products:
       tcgplayerProductId: '541244'
     release_date: '2024-08-02'
     subtype: TWO_PLAYER_STARTER
-  Bloomburrow MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  Bloomburrow MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

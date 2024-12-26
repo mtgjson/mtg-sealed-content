@@ -45,6 +45,16 @@ products:
       name: Dominaria Booster Pack
       set: dom
   Core Set 2019 Gift Pack: []
+  Core Set 2019 MTGO Redemption:
+    card_count: 280
+    deck:
+    - name: Core Set 2019 Redemption
+      set: m19
+  Core Set 2019 MTGO Redemption Foil:
+    card_count: 280
+    deck:
+    - name: Core Set 2019 Foil Redemption
+      set: m19
   Core Set 2019 Planeswalker Deck Ajani:
     card_count: 60
     deck:
@@ -168,14 +178,4 @@ products:
     card_count: 30
     deck:
     - name: Core 2019 Welcome Deck - White
-      set: m19
-  Core Set 2019 MTGO Redemption Foil:
-    card_count: 280
-    deck:
-    - name: "Core Set 2019 Foil Redemption"
-      set: m19
-  Core Set 2019 MTGO Redemption:
-    card_count: 280
-    deck:
-    - name: "Core Set 2019 Redemption"
       set: m19

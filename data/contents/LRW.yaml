@@ -16,6 +16,16 @@ products:
     - code: draft
       set: lrw
   Lorwyn Fat Pack: []
+  Lorwyn MTGO Redemption:
+    card_count: 301
+    deck:
+    - name: Lorwyn Redemption
+      set: lrw
+  Lorwyn MTGO Redemption Foil:
+    card_count: 301
+    deck:
+    - name: Lorwyn Foil Redemption
+      set: lrw
   Lorwyn Theme Deck Boggart Feast:
     card_count: 60
     deck:
@@ -64,14 +74,4 @@ products:
     sealed:
     - count: 12
       name: Lorwyn Tournament Pack
-      set: lrw
-  Lorwyn MTGO Redemption Foil:
-    card_count: 301
-    deck:
-    - name: "Lorwyn Foil Redemption"
-      set: lrw
-  Lorwyn MTGO Redemption:
-    card_count: 301
-    deck:
-    - name: "Lorwyn Redemption"
       set: lrw

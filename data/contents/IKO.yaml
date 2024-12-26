@@ -66,6 +66,16 @@ products:
     pack:
     - code: draft
       set: iko
+  Ikoria Lair of Behemoths MTGO Redemption:
+    card_count: 274
+    deck:
+    - name: 'Ikoria: Lair of Behemoths Redemption'
+      set: iko
+  Ikoria Lair of Behemoths MTGO Redemption Foil:
+    card_count: 274
+    deck:
+    - name: 'Ikoria: Lair of Behemoths Foil Redemption'
+      set: iko
   Ikoria Lair of Behemoths Prerelease Pack:
     card_count: 1
     other:
@@ -151,14 +161,4 @@ products:
     card_count: 35
     pack:
     - code: theme-w
-      set: iko
-  Ikoria Lair of Behemoths MTGO Redemption Foil:
-    card_count: 274
-    deck:
-    - name: "Ikoria: Lair of Behemoths Foil Redemption"
-      set: iko
-  Ikoria Lair of Behemoths MTGO Redemption:
-    card_count: 274
-    deck:
-    - name: "Ikoria: Lair of Behemoths Redemption"
       set: iko

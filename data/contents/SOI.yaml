@@ -97,14 +97,14 @@ products:
     - count: 2
       name: Shadows over Innistrad Booster Pack
       set: soi
-  Shadows over Innistrad Prerelease Pack: []
-  Shadows over Innistrad MTGO Redemption Foil:
-    card_count: 297
-    deck:
-    - name: "Shadows over Innistrad Foil Redemption"
-      set: soi
   Shadows over Innistrad MTGO Redemption:
     card_count: 297
     deck:
-    - name: "Shadows over Innistrad Redemption"
+    - name: Shadows over Innistrad Redemption
       set: soi
+  Shadows over Innistrad MTGO Redemption Foil:
+    card_count: 297
+    deck:
+    - name: Shadows over Innistrad Foil Redemption
+      set: soi
+  Shadows over Innistrad Prerelease Pack: []

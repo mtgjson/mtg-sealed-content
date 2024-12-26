@@ -148,6 +148,16 @@ products:
     - count: 1
       name: Throne of Eldraine Collector Booster Pack
       set: eld
+  Throne of Eldraine MTGO Redemption:
+    card_count: 269
+    deck:
+    - name: Throne of Eldraine Redemption
+      set: eld
+  Throne of Eldraine MTGO Redemption Foil:
+    card_count: 269
+    deck:
+    - name: Throne of Eldraine Foil Redemption
+      set: eld
   Throne of Eldraine Planeswalker Deck Display:
     sealed:
     - count: 3
@@ -256,14 +266,4 @@ products:
     card_count: 35
     pack:
     - code: theme-w
-      set: eld
-  Throne of Eldraine MTGO Redemption Foil:
-    card_count: 269
-    deck:
-    - name: "Throne of Eldraine Foil Redemption"
-      set: eld
-  Throne of Eldraine MTGO Redemption:
-    card_count: 269
-    deck:
-    - name: "Throne of Eldraine Redemption"
       set: eld

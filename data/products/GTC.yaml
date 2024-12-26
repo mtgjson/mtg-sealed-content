@@ -171,6 +171,14 @@ products:
       tntId: '1012440'
     release_date: '2013-02-01'
     subtype: INTRO
+  Gatecrash MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  Gatecrash MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   Gatecrash Prerelease Kit Boros:
     category: LIMITED
     identifiers:
@@ -231,11 +239,3 @@ products:
       cardtraderId: '47877'
       mcmId: '315714'
     subtype: SIX
-  Gatecrash MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  Gatecrash MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

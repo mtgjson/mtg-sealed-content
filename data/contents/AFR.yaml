@@ -93,6 +93,16 @@ products:
     - count: 1
       name: Adventures in the Forgotten Realms Collector Booster Pack
       set: afr
+  Adventures in the Forgotten Realms MTGO Redemption:
+    card_count: 281
+    deck:
+    - name: Adventures in the Forgotten Realms Redemption
+      set: afr
+  Adventures in the Forgotten Realms MTGO Redemption Foil:
+    card_count: 281
+    deck:
+    - name: Adventures in the Forgotten Realms Foil Redemption
+      set: afr
   Adventures in the Forgotten Realms Prerelease Pack:
     card_count: 1
     other:
@@ -204,14 +214,4 @@ products:
     card_count: 9
     deck:
     - name: Adventures in the Forgotten Realms Welcome Booster
-      set: afr
-  Adventures in the Forgotten Realms MTGO Redemption Foil:
-    card_count: 281
-    deck:
-    - name: "Adventures in the Forgotten Realms Foil Redemption"
-      set: afr
-  Adventures in the Forgotten Realms MTGO Redemption:
-    card_count: 281
-    deck:
-    - name: "Adventures in the Forgotten Realms Redemption"
       set: afr

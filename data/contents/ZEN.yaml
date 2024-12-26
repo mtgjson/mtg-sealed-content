@@ -109,18 +109,18 @@ products:
     - count: 1
       name: Zendikar Intro Pack White Kor Armory
       set: zen
-  Zendikar Six Card Booster Pack:
-    card_count: 6
-    pack:
-    - code: six
+  Zendikar MTGO Redemption:
+    card_count: 249
+    deck:
+    - name: Zendikar Redemption
       set: zen
   Zendikar MTGO Redemption Foil:
     card_count: 249
     deck:
-    - name: "Zendikar Foil Redemption"
+    - name: Zendikar Foil Redemption
       set: zen
-  Zendikar MTGO Redemption:
-    card_count: 249
-    deck:
-    - name: "Zendikar Redemption"
+  Zendikar Six Card Booster Pack:
+    card_count: 6
+    pack:
+    - code: six
       set: zen

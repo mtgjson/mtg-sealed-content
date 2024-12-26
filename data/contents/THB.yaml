@@ -45,6 +45,16 @@ products:
     pack:
     - code: draft
       set: thb
+  Theros Beyond Death MTGO Redemption:
+    card_count: 254
+    deck:
+    - name: Theros Beyond Death Redemption
+      set: thb
+  Theros Beyond Death MTGO Redemption Foil:
+    card_count: 254
+    deck:
+    - name: Theros Beyond Death Foil Redemption
+      set: thb
   Theros Beyond Death Planeswalker Deck Ashiok:
     card_count: 60
     deck:
@@ -144,14 +154,4 @@ products:
     card_count: 35
     pack:
     - code: theme-w
-      set: thb
-  Theros Beyond Death MTGO Redemption Foil:
-    card_count: 254
-    deck:
-    - name: "Theros Beyond Death Foil Redemption"
-      set: thb
-  Theros Beyond Death MTGO Redemption:
-    card_count: 254
-    deck:
-    - name: "Theros Beyond Death Redemption"
       set: thb

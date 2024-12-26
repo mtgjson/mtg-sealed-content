@@ -28,6 +28,16 @@ products:
     - count: 6
       name: Coldsnap Booster Pack
       set: csp
+  Coldsnap MTGO Redemption:
+    card_count: 155
+    deck:
+    - name: Coldsnap Redemption
+      set: csp
+  Coldsnap MTGO Redemption Foil:
+    card_count: 155
+    deck:
+    - name: Coldsnap Foil Redemption
+      set: csp
   Coldsnap Theme Deck Aurochs Stampede:
     card_count: 60
     deck:
@@ -61,14 +71,4 @@ products:
     card_count: 60
     deck:
     - name: Snowscape
-      set: csp
-  Coldsnap MTGO Redemption Foil:
-    card_count: 155
-    deck:
-    - name: "Coldsnap Foil Redemption"
-      set: csp
-  Coldsnap MTGO Redemption:
-    card_count: 155
-    deck:
-    - name: "Coldsnap Redemption"
       set: csp

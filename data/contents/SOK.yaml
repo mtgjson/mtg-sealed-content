@@ -27,6 +27,16 @@ products:
     - count: 6
       name: Saviors of Kamigawa Booster Pack
       set: sok
+  Saviors of Kamigawa MTGO Redemption:
+    card_count: 165
+    deck:
+    - name: Saviors of Kamigawa Redemption
+      set: sok
+  Saviors of Kamigawa MTGO Redemption Foil:
+    card_count: 165
+    deck:
+    - name: Saviors of Kamigawa Foil Redemption
+      set: sok
   Saviors of Kamigawa Theme Deck Critical Mass:
     card_count: 60
     deck:
@@ -74,14 +84,4 @@ products:
       set: sok
     - count: 1
       name: Saviors of Kamigawa Theme Deck Truth Seekers
-      set: sok
-  Saviors of Kamigawa MTGO Redemption Foil:
-    card_count: 165
-    deck:
-    - name: "Saviors of Kamigawa Foil Redemption"
-      set: sok
-  Saviors of Kamigawa MTGO Redemption:
-    card_count: 165
-    deck:
-    - name: "Saviors of Kamigawa Redemption"
       set: sok

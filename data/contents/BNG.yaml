@@ -116,6 +116,16 @@ products:
     - count: 1
       name: Born of the Gods Intro Pack Inspiration Struck
       set: bng
+  Born of the Gods MTGO Redemption:
+    card_count: 165
+    deck:
+    - name: Born of the Gods Redemption
+      set: bng
+  Born of the Gods MTGO Redemption Foil:
+    card_count: 165
+    deck:
+    - name: Born of the Gods Foil Redemption
+      set: bng
   Born of the Gods Prerelease Kit Destined To Conquer:
     card:
     - foil: true
@@ -237,14 +247,4 @@ products:
       set: bng
     - count: 1
       name: Born of the Gods Prerelease Kit Destined To Thrive
-      set: bng
-  Born of the Gods MTGO Redemption Foil:
-    card_count: 165
-    deck:
-    - name: "Born of the Gods Foil Redemption"
-      set: bng
-  Born of the Gods MTGO Redemption:
-    card_count: 165
-    deck:
-    - name: "Born of the Gods Redemption"
       set: bng

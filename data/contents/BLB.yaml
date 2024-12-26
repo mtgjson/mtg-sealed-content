@@ -34,6 +34,16 @@ products:
     pack:
     - code: collector-sample
       set: blb
+  Bloomburrow MTGO Redemption:
+    card_count: 281
+    deck:
+    - name: Bloomburrow Redemption
+      set: blb
+  Bloomburrow MTGO Redemption Foil:
+    card_count: 281
+    deck:
+    - name: Bloomburrow Foil Redemption
+      set: blb
   Bloomburrow Play Booster Box:
     sealed:
     - count: 36
@@ -71,14 +81,4 @@ products:
     sealed:
     - count: 12
       name: Bloomburrow Starter Kit
-      set: blb
-  Bloomburrow MTGO Redemption Foil:
-    card_count: 281
-    deck:
-    - name: "Bloomburrow Foil Redemption"
-      set: blb
-  Bloomburrow MTGO Redemption:
-    card_count: 281
-    deck:
-    - name: "Bloomburrow Redemption"
       set: blb

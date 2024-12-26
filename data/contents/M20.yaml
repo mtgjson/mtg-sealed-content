@@ -50,6 +50,16 @@ products:
   Core Set 2020 Land Station:
     other:
     - name: 400 Basic Lands
+  Core Set 2020 MTGO Redemption:
+    card_count: 280
+    deck:
+    - name: Core Set 2020 Redemption
+      set: m20
+  Core Set 2020 MTGO Redemption Foil:
+    card_count: 280
+    deck:
+    - name: Core Set 2020 Foil Redemption
+      set: m20
   Core Set 2020 Planeswalker Deck Ajani:
     card_count: 60
     deck:
@@ -216,14 +226,4 @@ products:
     card_count: 30
     deck:
     - name: White Deck
-      set: m20
-  Core Set 2020 MTGO Redemption Foil:
-    card_count: 280
-    deck:
-    - name: "Core Set 2020 Foil Redemption"
-      set: m20
-  Core Set 2020 MTGO Redemption:
-    card_count: 280
-    deck:
-    - name: "Core Set 2020 Redemption"
       set: m20

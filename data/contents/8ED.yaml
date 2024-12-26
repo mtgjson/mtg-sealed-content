@@ -26,6 +26,16 @@ products:
       set: 8ed
     - name: Silver Pack
       set: 8ed
+  Eighth Edition MTGO Redemption:
+    card_count: 350
+    deck:
+    - name: Eighth Edition Redemption
+      set: 8ed
+  Eighth Edition MTGO Redemption Foil:
+    card_count: 350
+    deck:
+    - name: Eighth Edition Foil Redemption
+      set: 8ed
   Eighth Edition Sampler Booster:
     card_count: 10
     deck:
@@ -117,14 +127,4 @@ products:
     sealed:
     - count: 6
       name: Eighth Edition Two Player Starter
-      set: 8ed
-  Eighth Edition MTGO Redemption Foil:
-    card_count: 350
-    deck:
-    - name: "Eighth Edition Foil Redemption"
-      set: 8ed
-  Eighth Edition MTGO Redemption:
-    card_count: 350
-    deck:
-    - name: "Eighth Edition Redemption"
       set: 8ed

@@ -16,6 +16,16 @@ products:
     - code: draft
       set: rix
   Rivals of Ixalan Bundle: []
+  Rivals of Ixalan MTGO Redemption:
+    card_count: 196
+    deck:
+    - name: Rivals of Ixalan Redemption
+      set: rix
+  Rivals of Ixalan MTGO Redemption Foil:
+    card_count: 196
+    deck:
+    - name: Rivals of Ixalan Foil Redemption
+      set: rix
   Rivals of Ixalan Planeswalker Deck Angrath:
     card_count: 60
     deck:
@@ -52,13 +62,3 @@ products:
       set: rix
   Rivals of Ixalan Prerelease Pack: []
   Rivals of Ixalan Standard Showdown Booster: []
-  Rivals of Ixalan MTGO Redemption Foil:
-    card_count: 196
-    deck:
-    - name: "Rivals of Ixalan Foil Redemption"
-      set: rix
-  Rivals of Ixalan MTGO Redemption:
-    card_count: 196
-    deck:
-    - name: "Rivals of Ixalan Redemption"
-      set: rix

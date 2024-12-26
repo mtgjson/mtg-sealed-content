@@ -36,6 +36,16 @@ products:
     pack:
     - code: draft
       set: khm
+  Kaldheim MTGO Redemption:
+    card_count: 285
+    deck:
+    - name: Kaldheim Redemption
+      set: khm
+  Kaldheim MTGO Redemption Foil:
+    card_count: 285
+    deck:
+    - name: Kaldheim Foil Redemption
+      set: khm
   Kaldheim Prerelease Pack: []
   Kaldheim Set Booster Box:
     sealed:
@@ -126,14 +136,4 @@ products:
     card_count: 35
     pack:
     - code: theme-w
-      set: khm
-  Kaldheim MTGO Redemption Foil:
-    card_count: 285
-    deck:
-    - name: "Kaldheim Foil Redemption"
-      set: khm
-  Kaldheim MTGO Redemption:
-    card_count: 285
-    deck:
-    - name: "Kaldheim Redemption"
       set: khm

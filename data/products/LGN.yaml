@@ -40,6 +40,14 @@ products:
       tcgplayerProductId: '78316'
       tntId: '155264'
     subtype: FAT_PACK
+  Legions MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  Legions MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   Legions Theme Deck Display:
     category: DECK_BOX
     identifiers:
@@ -91,11 +99,3 @@ products:
     identifiers:
       abuId: '1100728'
     subtype: THEME
-  Legions MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  Legions MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

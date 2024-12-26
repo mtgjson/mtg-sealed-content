@@ -13,6 +13,16 @@ products:
       set: tsp
   Time Spiral Fat Pack: []
   Time Spiral Gift Box: []
+  Time Spiral MTGO Redemption:
+    card_count: 301
+    deck:
+    - name: Time Spiral Redemption
+      set: tsp
+  Time Spiral MTGO Redemption Foil:
+    card_count: 301
+    deck:
+    - name: Time Spiral Foil Redemption
+      set: tsp
   Time Spiral Theme Deck Display: []
   Time Spiral Theme Deck Fun With Fungus:
     card_count: 60
@@ -43,14 +53,4 @@ products:
     sealed:
     - count: 12
       name: Time Spiral Tournament Pack
-      set: tsp
-  Time Spiral MTGO Redemption Foil:
-    card_count: 301
-    deck:
-    - name: "Time Spiral Foil Redemption"
-      set: tsp
-  Time Spiral MTGO Redemption:
-    card_count: 301
-    deck:
-    - name: "Time Spiral Redemption"
       set: tsp

@@ -103,6 +103,14 @@ products:
       tcgplayerProductId: '501421'
       tntId: '242003'
     subtype: INTRO
+  Conflux MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  Conflux MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   Conflux Six Card Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -110,11 +118,3 @@ products:
       cardtraderId: '47338'
       mcmId: '253803'
     subtype: SIX
-  Conflux MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  Conflux MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

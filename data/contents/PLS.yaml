@@ -26,6 +26,16 @@ products:
     - count: 6
       name: Planeshift Booster Pack
       set: pls
+  Planeshift MTGO Redemption:
+    card_count: 143
+    deck:
+    - name: Planeshift Redemption
+      set: pls
+  Planeshift MTGO Redemption Foil:
+    card_count: 143
+    deck:
+    - name: Planeshift Foil Redemption
+      set: pls
   Planeshift Theme Deck Barrage:
     card_count: 60
     deck:
@@ -73,14 +83,4 @@ products:
       set: pls
     - count: 1
       name: Planeshift Theme Deck Scout
-      set: pls
-  Planeshift MTGO Redemption Foil:
-    card_count: 143
-    deck:
-    - name: "Planeshift Foil Redemption"
-      set: pls
-  Planeshift MTGO Redemption:
-    card_count: 143
-    deck:
-    - name: "Planeshift Redemption"
       set: pls

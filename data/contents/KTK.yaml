@@ -101,6 +101,16 @@ products:
     - count: 2
       name: Khans of Tarkir Booster Pack
       set: ktk
+  Khans of Tarkir MTGO Redemption:
+    card_count: 269
+    deck:
+    - name: Khans of Tarkir Redemption
+      set: ktk
+  Khans of Tarkir MTGO Redemption Foil:
+    card_count: 269
+    deck:
+    - name: Khans of Tarkir Foil Redemption
+      set: ktk
   Khans of Tarkir Prerelease Kit Abzan Battle with Endurance: []
   Khans of Tarkir Prerelease Kit Jeskai Battle with Cunning: []
   Khans of Tarkir Prerelease Kit Mardu Battle with Speed: []
@@ -123,13 +133,3 @@ products:
       set: ktk
   Khans of Tarkir Prerelease Kit Sultai Battle with Ruthlessness: []
   Khans of Tarkir Prerelease Kit Temur Battle with Savagery: []
-  Khans of Tarkir MTGO Redemption Foil:
-    card_count: 269
-    deck:
-    - name: "Khans of Tarkir Foil Redemption"
-      set: ktk
-  Khans of Tarkir MTGO Redemption:
-    card_count: 269
-    deck:
-    - name: "Khans of Tarkir Redemption"
-      set: ktk

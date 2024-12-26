@@ -40,6 +40,14 @@ products:
       tcgplayerProductId: '78314'
       tntId: '155255'
     subtype: FAT_PACK
+  Invasion MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  Invasion MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   Invasion Theme Deck Blowout:
     category: DECK
     identifiers:
@@ -115,11 +123,3 @@ products:
       scgId: SLD-MTG-BBX-INVTOURNAMENT-EN
       tntId: '84074'
     subtype: TOURNAMENT
-  Invasion MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  Invasion MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

@@ -110,6 +110,16 @@ products:
   Amonkhet Land Station:
     other:
     - name: 400 Amonkhet Basic Lands (80 of Each Color)
+  Amonkhet MTGO Redemption:
+    card_count: 269
+    deck:
+    - name: Amonkhet Redemption
+      set: akh
+  Amonkhet MTGO Redemption Foil:
+    card_count: 269
+    deck:
+    - name: Amonkhet Foil Redemption
+      set: akh
   Amonkhet Planeswalker Deck Display:
     sealed:
     - count: 3
@@ -156,13 +166,3 @@ products:
       name: Amonkhet Booster Pack
       set: akh
   Amonkhet Standard Showdown Booster: []
-  Amonkhet MTGO Redemption Foil:
-    card_count: 269
-    deck:
-    - name: "Amonkhet Foil Redemption"
-      set: akh
-  Amonkhet MTGO Redemption:
-    card_count: 269
-    deck:
-    - name: "Amonkhet Redemption"
-      set: akh

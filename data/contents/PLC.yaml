@@ -27,6 +27,16 @@ products:
     - count: 6
       name: Planar Chaos Booster Pack
       set: plc
+  Planar Chaos MTGO Redemption:
+    card_count: 165
+    deck:
+    - name: Planar Chaos Redemption
+      set: plc
+  Planar Chaos MTGO Redemption Foil:
+    card_count: 165
+    deck:
+    - name: Planar Chaos Foil Redemption
+      set: plc
   Planar Chaos Theme Deck Display:
     sealed:
     - count: 3
@@ -74,14 +84,4 @@ products:
       set: plc
     - count: 1
       name: Planar Chaos Theme Deck Unraveling Mind
-      set: plc
-  Planar Chaos MTGO Redemption Foil:
-    card_count: 165
-    deck:
-    - name: "Planar Chaos Foil Redemption"
-      set: plc
-  Planar Chaos MTGO Redemption:
-    card_count: 165
-    deck:
-    - name: "Planar Chaos Redemption"
       set: plc

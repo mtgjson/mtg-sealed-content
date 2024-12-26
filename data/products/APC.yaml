@@ -40,6 +40,14 @@ products:
       tcgplayerProductId: '78303'
       tntId: '155338'
     subtype: FAT_PACK
+  Apocalypse MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  Apocalypse MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   Apocalypse Theme Deck Burial:
     category: DECK
     identifiers:
@@ -92,11 +100,3 @@ products:
     identifiers:
       abuId: '1100108'
     subtype: THEME
-  Apocalypse MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  Apocalypse MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

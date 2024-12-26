@@ -60,6 +60,14 @@ products:
       tcgplayerProductId: '78301'
       tntId: '155095'
     subtype: FAT_PACK
+  Ninth Edition MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  Ninth Edition MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   Ninth Edition Sampler Booster:
     category: BOOSTER_PACK
     identifiers:
@@ -134,11 +142,3 @@ products:
     identifiers:
       tntId: '123096'
     subtype: TWO_PLAYER_STARTER
-  Ninth Edition MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  Ninth Edition MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

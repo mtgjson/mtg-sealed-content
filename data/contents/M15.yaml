@@ -232,13 +232,13 @@ products:
     deck:
     - name: Green Sample Deck
       set: m15
-  Magic 2015 MTGO Redemption Foil:
-    card_count: 269
-    deck:
-    - name: "Magic 2015 Foil Redemption"
-      set: m15
   Magic 2015 MTGO Redemption:
     card_count: 269
     deck:
-    - name: "Magic 2015 Redemption"
+    - name: Magic 2015 Redemption
+      set: m15
+  Magic 2015 MTGO Redemption Foil:
+    card_count: 269
+    deck:
+    - name: Magic 2015 Foil Redemption
       set: m15

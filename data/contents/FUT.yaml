@@ -27,6 +27,16 @@ products:
     - count: 6
       name: Future Sight Booster Pack
       set: fut
+  Future Sight MTGO Redemption:
+    card_count: 180
+    deck:
+    - name: Future Sight Redemption
+      set: fut
+  Future Sight MTGO Redemption Foil:
+    card_count: 180
+    deck:
+    - name: Future Sight Foil Redemption
+      set: fut
   Future Sight Theme Deck Display:
     sealed:
     - count: 3
@@ -60,14 +70,4 @@ products:
     card_count: 60
     deck:
     - name: Suspended Sentence
-      set: fut
-  Future Sight MTGO Redemption Foil:
-    card_count: 180
-    deck:
-    - name: "Future Sight Foil Redemption"
-      set: fut
-  Future Sight MTGO Redemption:
-    card_count: 180
-    deck:
-    - name: "Future Sight Redemption"
       set: fut

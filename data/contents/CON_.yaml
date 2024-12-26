@@ -89,18 +89,18 @@ products:
     - count: 1
       name: Conflux Booster Pack
       set: con
-  Conflux Six Card Booster Pack:
-    card_count: 6
-    pack:
-    - code: six
+  Conflux MTGO Redemption:
+    card_count: 145
+    deck:
+    - name: Conflux Redemption
       set: con
   Conflux MTGO Redemption Foil:
     card_count: 145
     deck:
-    - name: "Conflux Foil Redemption"
+    - name: Conflux Foil Redemption
       set: con
-  Conflux MTGO Redemption:
-    card_count: 145
-    deck:
-    - name: "Conflux Redemption"
+  Conflux Six Card Booster Pack:
+    card_count: 6
+    pack:
+    - code: six
       set: con

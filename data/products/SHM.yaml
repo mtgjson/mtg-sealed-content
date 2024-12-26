@@ -40,6 +40,14 @@ products:
       tcgplayerProductId: '78330'
       tntId: '178631'
     subtype: FAT_PACK
+  Shadowmoor MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  Shadowmoor MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   Shadowmoor Theme Deck Army of Entropy:
     category: DECK
     identifiers:
@@ -126,11 +134,3 @@ products:
       tntId: '178632'
     release_date: '2007-01-01'
     subtype: TOURNAMENT
-  Shadowmoor MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  Shadowmoor MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

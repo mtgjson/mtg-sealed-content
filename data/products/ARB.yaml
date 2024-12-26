@@ -102,6 +102,14 @@ products:
       tcgplayerProductId: '96432'
       tntId: '247408'
     subtype: INTRO
+  Alara Reborn MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  Alara Reborn MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   Alara Reborn Six Card Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -109,11 +117,3 @@ products:
       mcmId: '315700'
     release_date: '2018-01-16'
     subtype: SIX
-  Alara Reborn MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  Alara Reborn MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

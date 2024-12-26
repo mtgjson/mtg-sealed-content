@@ -116,6 +116,14 @@ products:
     identifiers:
       tcgplayerProductId: '259196'
     subtype: GIFT_BUNDLE
+  Innistrad Crimson Vow MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  Innistrad Crimson Vow MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   Innistrad Crimson Vow Prerelease Pack:
     category: LIMITED
     identifiers:
@@ -252,11 +260,3 @@ products:
       mcmId: '583879'
     release_date: '2021-11-19'
     subtype: WELCOME
-  Innistrad Crimson Vow MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  Innistrad Crimson Vow MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

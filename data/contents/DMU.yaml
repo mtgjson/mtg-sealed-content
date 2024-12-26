@@ -79,6 +79,16 @@ products:
     pack:
     - code: jumpstart
       set: dmu
+  Dominaria United MTGO Redemption:
+    card_count: 281
+    deck:
+    - name: Dominaria United Redemption
+      set: dmu
+  Dominaria United MTGO Redemption Foil:
+    card_count: 281
+    deck:
+    - name: Dominaria United Foil Redemption
+      set: dmu
   Dominaria United Prerelease Pack:
     card_count: 1
     other:
@@ -112,14 +122,4 @@ products:
     card_count: 10
     deck:
     - name: Dominaria United Welcome Booster
-      set: dmu
-  Dominaria United MTGO Redemption Foil:
-    card_count: 281
-    deck:
-    - name: "Dominaria United Foil Redemption"
-      set: dmu
-  Dominaria United MTGO Redemption:
-    card_count: 281
-    deck:
-    - name: "Dominaria United Redemption"
       set: dmu

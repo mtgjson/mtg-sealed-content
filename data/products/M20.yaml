@@ -65,6 +65,14 @@ products:
     identifiers:
       tcgplayerProductId: '192758'
     subtype: LAND_STATION
+  Core Set 2020 MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  Core Set 2020 MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   Core Set 2020 Planeswalker Deck Ajani:
     category: DECK
     identifiers:
@@ -265,11 +273,3 @@ products:
       mcmId: '380298'
     release_date: '2019-07-12'
     subtype: STARTER
-  Core Set 2020 MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  Core Set 2020 MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

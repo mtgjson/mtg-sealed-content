@@ -51,6 +51,14 @@ products:
       tntId: '1158697'
     release_date: '2018-04-27'
     subtype: DEFAULT
+  Dominaria MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  Dominaria MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   Dominaria Planeswalker Deck Chandra:
     category: DECK
     identifiers:
@@ -150,11 +158,3 @@ products:
       tcgplayerProductId: '166672'
     release_date: '2018-05-04'
     subtype: THEME
-  Dominaria MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  Dominaria MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

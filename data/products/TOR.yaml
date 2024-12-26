@@ -40,6 +40,14 @@ products:
       tcgplayerProductId: '78333'
       tntId: '155326'
     subtype: FAT_PACK
+  Torment MTGO Redemption:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
+  Torment MTGO Redemption Foil:
+    category: BOX_SET
+    identifiers: {}
+    subtype: REDEMPTION
   Torment Theme Deck Display:
     category: DECK_BOX
     identifiers:
@@ -94,11 +102,3 @@ products:
     identifiers:
       abuId: '1101244'
     subtype: THEME
-  Torment MTGO Redemption Foil:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION
-  Torment MTGO Redemption:
-    category: BOX_SET
-    identifiers: {}
-    subtype: REDEMPTION

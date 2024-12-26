@@ -136,13 +136,13 @@ products:
     pack:
     - code: six
       set: m13
-  Magic 2013 MTGO Redemption Foil:
-    card_count: 249
-    deck:
-    - name: "Magic 2013 Foil Redemption"
-      set: m13
   Magic 2013 MTGO Redemption:
     card_count: 249
     deck:
-    - name: "Magic 2013 Redemption"
+    - name: Magic 2013 Redemption
+      set: m13
+  Magic 2013 MTGO Redemption Foil:
+    card_count: 249
+    deck:
+    - name: Magic 2013 Foil Redemption
       set: m13
