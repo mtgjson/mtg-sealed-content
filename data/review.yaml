@@ -70,6 +70,11 @@ cardKingdom:
     identifiers:
       cardKingdomId: '307719'
     subtype: UNKNOWN
+  'Duskmourn: House of Horror Prerelease Pack':
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '300733'
+    subtype: UNKNOWN
   Innistrad Remastered Collector Booster Box:
     category: UNKNOWN
     identifiers:
@@ -97,12 +102,7 @@ cardKingdom:
     subtype: UNKNOWN
 cardMarket: {}
 cardTrader: {}
-coolstuffinc:
-  Could not load provider coolstuffinc:
-    category: UNKNOWN
-    identifiers:
-      csiId: ''
-    subtype: UNKNOWN
+coolstuffinc: {}
 miniaturemarket: {}
 starcitygames:
   Aetherdrift Commander Deck - Eternal Might:
