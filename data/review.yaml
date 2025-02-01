@@ -100,9 +100,44 @@ cardKingdom:
     identifiers:
       cardKingdomId: '240225'
     subtype: UNKNOWN
-cardMarket: {}
+cardMarket:
+  'Secret Lair Drop Series: Chaos Vault: The Strange Sands: Forest':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '809056'
+    release_date: '2025-01-30'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: Chaos Vault: The Strange Sands: Island':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '809055'
+    release_date: '2025-01-30'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: Chaos Vault: The Strange Sands: Mountain':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '809059'
+    release_date: '2025-01-30'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: Chaos Vault: The Strange Sands: Plains':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '809058'
+    release_date: '2025-01-30'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: Chaos Vault: The Strange Sands: Swamp':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '809057'
+    release_date: '2025-01-30'
+    subtype: UNKNOWN
 cardTrader: {}
-coolstuffinc: {}
+coolstuffinc:
+  Could not load provider coolstuffinc:
+    category: UNKNOWN
+    identifiers:
+      csiId: ''
+    subtype: UNKNOWN
 miniaturemarket: {}
 starcitygames:
   Aetherdrift Commander Deck - Set of 2:
