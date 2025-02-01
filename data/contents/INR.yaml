@@ -1,8 +1,32 @@
 code: inr
 products:
-  Innistrad Remastered Collector Booster Box: []
-  Innistrad Remastered Collector Booster Box Case: []
-  Innistrad Remastered Collector Booster Pack: []
-  Innistrad Remastered Play Booster Box: []
-  Innistrad Remastered Play Booster Box Case: []
-  Innistrad Remastered Play Booster Pack: []
+  Innistrad Remastered Collector Booster Box:
+    sealed:
+    - count: 12
+      name: Innistrad Remastered Collector Booster Pack
+      set: inr
+  Innistrad Remastered Collector Booster Box Case:
+    sealed:
+    - count: 6
+      name: Innistrad Remastered Collector Booster Box
+      set: inr
+  Innistrad Remastered Collector Booster Pack:
+    card_count: 15
+    pack:
+    - code: collector
+      set: inr
+  Innistrad Remastered Play Booster Box:
+    sealed:
+    - count: 36
+      name: Innistrad Remastered Play Booster Pack
+      set: inr
+  Innistrad Remastered Play Booster Box Case:
+    sealed:
+    - count: 6
+      name: Innistrad Remastered Play Booster Box
+      set: inr
+  Innistrad Remastered Play Booster Pack:
+    card_count: 14
+    pack:
+    - code: play
+      set: inr
