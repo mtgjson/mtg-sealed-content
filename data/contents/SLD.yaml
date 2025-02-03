@@ -1672,6 +1672,11 @@ products:
         set: sld
     variable_mode:
       count: 1
+  Secret Lair Drop Animar and Friends:
+    card_count: 5
+    deck:
+    - name: Animar and Friends
+      set: sld
   Secret Lair Drop April Fools:
     card:
     - name: Tibalt, the Fiend-Blooded
@@ -6702,6 +6707,30 @@ products:
     - count: 1
       name: Dominaria Remastered Draft Booster Box
       set: dmr
+  Secret Lair Festival in a Box Chicago 2025 Bundle:
+    card:
+    - foil: true
+      name: Serra the Benevolent
+      number: 1
+      set: pf25
+    - foil: true
+      name: Ponder
+      number: 2
+      set: pf25
+    - foil: true
+      name: The First Sliver
+      number: 3
+      set: pf25
+    - name: Second City
+      number: 6
+      set: pf25
+    sealed:
+    - count: 1
+      name: Secret Lair Drop Animar and Friends
+      set: sld
+    - count: 1
+      name: Mystery Booster 2 Booster Box
+      set: mb2
   Secret Lair Festival in a Box Las Vegas 2023 Bundle:
     card:
     - name: Relentless Rats
