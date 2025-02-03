@@ -132,7 +132,12 @@ cardMarket:
     release_date: '2025-01-30'
     subtype: UNKNOWN
 cardTrader: {}
-coolstuffinc: {}
+coolstuffinc:
+  Could not load provider coolstuffinc:
+    category: UNKNOWN
+    identifiers:
+      csiId: ''
+    subtype: UNKNOWN
 miniaturemarket: {}
 starcitygames:
   Aetherdrift Commander Deck - Set of 2:
