@@ -3,6 +3,7 @@ products:
   Aetherdrift Commander Deck Eternal Might:
     category: DECK
     identifiers:
+      cardKingdomId: '307718'
       cardtraderId: '314239'
       mcmId: '804062'
       miniaturemarketId: '304731'
@@ -11,6 +12,7 @@ products:
   Aetherdrift Commander Deck Living Energy:
     category: DECK
     identifiers:
+      cardKingdomId: '307717'
       cardtraderId: '314238'
       mcmId: '804061'
       miniaturemarketId: '304732'
@@ -19,7 +21,11 @@ products:
   Aetherdrift Commander Decks Set of 2:
     category: SUBSET
     identifiers:
+      cardKingdomId: '308897'
       cardtraderId: '314240'
       mcmId: '804068'
       miniaturemarketId: '304730'
+      scgId: SLD-MTG-MLT-DRC-EN-SETOF2
+      tcgplayerProductId: '609612'
+    release_date: '2025-02-14'
     subtype: COMMANDER

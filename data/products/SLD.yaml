@@ -962,6 +962,9 @@ products:
     subtype: SECRET_LAIR
   Secret Lair Drop Animar and Friends:
     category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '616921'
+    release_date: '2025-01-22'
     subtype: SECRET_LAIR
   Secret Lair Drop April Fools:
     category: BOX_SET
@@ -1289,6 +1292,7 @@ products:
   Secret Lair Drop Artist Series Wayne Reynolds:
     category: BOX_SET
     identifiers:
+      cardtraderId: '320217'
       csiId: '343818'
       mcmId: '653472'
       tcgplayerProductId: '273600'
@@ -4116,6 +4120,7 @@ products:
   Secret Lair Drop Special Guest Matt Jukes:
     category: BOX_SET
     identifiers:
+      cardtraderId: '320208'
       csiId: '343785'
       mcmId: '653478'
       tcgplayerProductId: '273595'
@@ -4377,42 +4382,67 @@ products:
     subtype: SECRET_LAIR
   Secret Lair Drop The Strange Sands Forest:
     category: BOX_SET
+    identifiers:
+      mcmId: '809056'
+      tcgplayerProductId: '610794'
     release_date: '2025-01-15'
     subtype: SECRET_LAIR
   Secret Lair Drop The Strange Sands Forest Foil:
     category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '610795'
     release_date: '2025-01-15'
     subtype: SECRET_LAIR
   Secret Lair Drop The Strange Sands Island:
     category: BOX_SET
+    identifiers:
+      mcmId: '809055'
+      tcgplayerProductId: '610788'
     release_date: '2025-01-15'
     subtype: SECRET_LAIR
   Secret Lair Drop The Strange Sands Island Foil:
     category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '610789'
     release_date: '2025-01-15'
     subtype: SECRET_LAIR
   Secret Lair Drop The Strange Sands Mountain:
     category: BOX_SET
+    identifiers:
+      mcmId: '809059'
+      tcgplayerProductId: '610792'
     release_date: '2025-01-15'
     subtype: SECRET_LAIR
   Secret Lair Drop The Strange Sands Mountain Foil:
     category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '610793'
     release_date: '2025-01-15'
     subtype: SECRET_LAIR
   Secret Lair Drop The Strange Sands Plains:
     category: BOX_SET
+    identifiers:
+      mcmId: '809058'
+      tcgplayerProductId: '610786'
     release_date: '2025-01-15'
     subtype: SECRET_LAIR
   Secret Lair Drop The Strange Sands Plains Foil:
     category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '610787'
     release_date: '2025-01-15'
     subtype: SECRET_LAIR
   Secret Lair Drop The Strange Sands Swamp:
     category: BOX_SET
+    identifiers:
+      mcmId: '809057'
+      tcgplayerProductId: '610790'
     release_date: '2025-01-15'
     subtype: SECRET_LAIR
   Secret Lair Drop The Strange Sands Swamp Foil:
     category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '610791'
     release_date: '2025-01-15'
     subtype: SECRET_LAIR
   Secret Lair Drop The Tokyo Lands:
@@ -4754,6 +4784,10 @@ products:
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Festival in a Box Chicago 2025 Bundle:
     category: BOX_SET
+    identifiers:
+      cardtraderId: '320345'
+      tcgplayerProductId: '616923'
+    release_date: '2025-01-22'
     subtype: SECRET_LAIR_BUNDLE
   Secret Lair Festival in a Box Las Vegas 2023 Bundle:
     category: BOX_SET
