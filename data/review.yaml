@@ -1,23 +1,8 @@
 abugames:
-  Innistrad Remastered Collector Booster Box:
+  Could not load provider abugames:
     category: UNKNOWN
     identifiers:
-      abuId: '2563257'
-    subtype: UNKNOWN
-  Innistrad Remastered Collector Booster Pack:
-    category: UNKNOWN
-    identifiers:
-      abuId: '2563259'
-    subtype: UNKNOWN
-  Innistrad Remastered Play Booster Box:
-    category: UNKNOWN
-    identifiers:
-      abuId: '2563256'
-    subtype: UNKNOWN
-  Innistrad Remastered Play Booster Pack:
-    category: UNKNOWN
-    identifiers:
-      abuId: '2563258'
+      abuId: ''
     subtype: UNKNOWN
 cardKingdom:
   Aetherdrift Bundle:
@@ -96,6 +81,30 @@ cardKingdom:
       cardKingdomId: '240225'
     subtype: UNKNOWN
 cardMarket:
+  'Antiquities: Strip Mine Four Seasons Set':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '809700'
+    release_date: '2025-02-04'
+    subtype: UNKNOWN
+  'Antiquities: Urza''s Mine Four Seasons Set':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '809701'
+    release_date: '2025-02-04'
+    subtype: UNKNOWN
+  'Antiquities: Urza''s Power Plant Four Seasons Set':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '809702'
+    release_date: '2025-02-04'
+    subtype: UNKNOWN
+  'Antiquities: Urza''s Tower Four Seasons Set':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '809703'
+    release_date: '2025-02-04'
+    subtype: UNKNOWN
   'Secret Lair Drop Series: Chaos Vault: The Strange Sands: Forest':
     category: UNKNOWN
     identifiers:
@@ -126,7 +135,22 @@ cardMarket:
       mcmId: '809057'
     release_date: '2025-01-30'
     subtype: UNKNOWN
-cardTrader: {}
+cardTrader:
+  'Festival in a Box: Chicago 2025':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '320345'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: Special Guest | Matt Jukes':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '320208'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: Special Guest | Wayne Reynolds':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '320217'
+    subtype: UNKNOWN
 coolstuffinc: {}
 miniaturemarket: {}
 starcitygames:
