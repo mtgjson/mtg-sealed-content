@@ -1672,6 +1672,11 @@ products:
         set: sld
     variable_mode:
       count: 1
+  Secret Lair Drop Animar and Friends:
+    card_count: 5
+    deck:
+    - name: Animar and Friends
+      set: sld
   Secret Lair Drop April Fools:
     card:
     - name: Tibalt, the Fiend-Blooded
@@ -4776,7 +4781,7 @@ products:
       set: sld
     card_count: 6
     deck:
-    - name: DD Honor Among Thieves
+    - name: Honor Among Thieves
       set: sld
   Secret Lair Drop Secret Lair x Dungeons and Dragons Honor Among Thieves Foil:
     card:
@@ -4786,7 +4791,7 @@ products:
       set: sld
     card_count: 6
     deck:
-    - name: DD Honor Among Thieves foil
+    - name: Honor Among Thieves foil
       set: sld
   Secret Lair Drop Secret Lair x Dungeons and Dragons Karlachs Rage:
     card_count: 5
@@ -6222,6 +6227,56 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
+  Secret Lair Drop The Strange Sands Forest:
+    card_count: 10
+    deck:
+    - name: The Strange Sands Forest
+      set: sld
+  Secret Lair Drop The Strange Sands Forest Foil:
+    card_count: 10
+    deck:
+    - name: The Strange Sands Forest foil
+      set: sld
+  Secret Lair Drop The Strange Sands Island:
+    card_count: 10
+    deck:
+    - name: The Strange Sands Island
+      set: sld
+  Secret Lair Drop The Strange Sands Island Foil:
+    card_count: 10
+    deck:
+    - name: The Strange Sands Island foil
+      set: sld
+  Secret Lair Drop The Strange Sands Mountain:
+    card_count: 10
+    deck:
+    - name: The Strange Sands Mountain
+      set: sld
+  Secret Lair Drop The Strange Sands Mountain Foil:
+    card_count: 10
+    deck:
+    - name: The Strange Sands Mountain foil
+      set: sld
+  Secret Lair Drop The Strange Sands Plains:
+    card_count: 10
+    deck:
+    - name: The Strange Sands Plains
+      set: sld
+  Secret Lair Drop The Strange Sands Plains Foil:
+    card_count: 10
+    deck:
+    - name: The Strange Sands Plains foil
+      set: sld
+  Secret Lair Drop The Strange Sands Swamp:
+    card_count: 10
+    deck:
+    - name: The Strange Sands Swamp
+      set: sld
+  Secret Lair Drop The Strange Sands Swamp Foil:
+    card_count: 10
+    deck:
+    - name: The Strange Sands Swamp foil
+      set: sld
   Secret Lair Drop The Tokyo Lands:
     card_count: 5
     deck:
@@ -6702,6 +6757,30 @@ products:
     - count: 1
       name: Dominaria Remastered Draft Booster Box
       set: dmr
+  Secret Lair Festival in a Box Chicago 2025 Bundle:
+    card:
+    - foil: true
+      name: Serra the Benevolent
+      number: 1
+      set: pf25
+    - foil: true
+      name: Ponder
+      number: 2
+      set: pf25
+    - foil: true
+      name: The First Sliver
+      number: 3
+      set: pf25
+    - name: Second City
+      number: 6
+      set: pf25
+    sealed:
+    - count: 1
+      name: Secret Lair Drop Animar and Friends
+      set: sld
+    - count: 1
+      name: Mystery Booster 2 Booster Box
+      set: mb2
   Secret Lair Festival in a Box Las Vegas 2023 Bundle:
     card:
     - name: Relentless Rats

@@ -10,6 +10,7 @@ products:
   Aetherdrift Bundle:
     category: BUNDLE
     identifiers:
+      cardKingdomId: '307714'
       cardtraderId: '313990'
       mcmId: '803870'
       miniaturemarketId: '304733'
@@ -24,6 +25,7 @@ products:
   Aetherdrift Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      cardKingdomId: '307712'
       cardtraderId: '313989'
       mcmId: '803869'
       miniaturemarketId: '304726'
@@ -38,6 +40,7 @@ products:
   Aetherdrift Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardKingdomId: '307713'
       cardtraderId: '314234'
       mcmId: '803853'
       miniaturemarketId: '304727'
@@ -53,9 +56,11 @@ products:
   Aetherdrift Finish Line Bundle:
     category: BUNDLE
     identifiers:
+      cardKingdomId: '307715'
       cardtraderId: '313991'
       mcmId: '803871'
       miniaturemarketId: '304734'
+      scgId: SLD-MTG-BUN-DFTFINISHLINE-EN
       tcgplayerProductId: '604257'
     subtype: PREMIUM
   Aetherdrift Finish Line Bundle Case:
@@ -66,6 +71,7 @@ products:
   Aetherdrift Play Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      cardKingdomId: '307710'
       cardtraderId: '308755'
       mcmId: '803868'
       miniaturemarketId: '304723'
@@ -82,6 +88,7 @@ products:
   Aetherdrift Play Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardKingdomId: '307711'
       cardtraderId: '313988'
       mcmId: '803854'
       miniaturemarketId: '304724'
