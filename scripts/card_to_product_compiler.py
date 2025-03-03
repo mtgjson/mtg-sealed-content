@@ -215,9 +215,11 @@ class MtgjsonCardLinker:
                 continue
             deck_cards = (
                 deck.get("cards", [])
+                + deck.get("sideboard", [])
+                + deck.get("displayCommander", [])
                 + deck.get("commander", [])
-                + deck.get("mainBoard", [])
-                + deck.get("sideBoard", [])
+                + deck.get("planarDeck", [])
+                + deck.get("schemeDeck", [])
             )
             for card in deck_cards:
                 finish = "foil" if card.get("isFoil", False) else "nonfoil"
