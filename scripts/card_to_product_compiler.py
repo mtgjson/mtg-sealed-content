@@ -239,7 +239,7 @@ def results_to_json(
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser("mtgjson5")
+    parser = argparse.ArgumentParser("card2product")
 
     parser.add_argument("--output-file", "-o", type=str, required=True)
 
