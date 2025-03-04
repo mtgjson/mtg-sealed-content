@@ -39,10 +39,14 @@ class MtgjsonCardLinker:
 
         self.mtgjson_data = json.loads(request_wrapper.content).get("data")
 
-    def build(self) -> Dict[Card, Set[str]]:
+    def build(self, code: str) -> Dict[Card, Set[str]]:
         return_value = defaultdict(set)
 
-        for set_code, set_data in self.mtgjson_data.items():
+        set_codes = self.mtgjson_data.items()
+        if code:
+            set_codes = [(code, self.mtgjson_data.get(code))]
+
+        for set_code, set_data in set_codes:
             if not set_data.get("sealedProduct"):
                 print(f"Sealed Product for {set_code} not found, skipping")
                 continue
@@ -250,12 +254,13 @@ def parse_args() -> argparse.Namespace:
 
     parser.add_argument("--output-file", "-o", type=str, required=True)
     parser.add_argument("--mtgjson", "-m", type=str, required=False)
+    parser.add_argument("--set", "-s", type=str, required=False)
 
     return parser.parse_args()
 
 
 def main(args: argparse.Namespace):
-    card_to_products_data = MtgjsonCardLinker(args.mtgjson).build()
+    card_to_products_data = MtgjsonCardLinker(args.mtgjson).build(args.set.upper())
     with pathlib.Path(args.output_file).expanduser().open("w", encoding="utf-8") as fp:
         json.dump(results_to_json(card_to_products_data), fp, indent=4, sort_keys=True)
 
