@@ -226,7 +226,8 @@ class MtgjsonCardLinker:
                 continue
             deck_cards = (
                 deck.get("cards", [])
-                + deck.get("sideboard", [])
+                + deck.get("mainBoard", [])
+                + deck.get("sideBoard", [])
                 + deck.get("displayCommander", [])
                 + deck.get("commander", [])
                 + deck.get("planarDeck", [])
