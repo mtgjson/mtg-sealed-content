@@ -26,7 +26,14 @@ class Card:
 class MtgjsonCardLinker:
     mtgjson_data: Dict[str, Any]
 
-    def __init__(self):
+    def __init__(self, mtgjson_path: str):
+        if mtgjson_path:
+            print("Loading local AllPrintings.json")
+            with open(mtgjson_path) as f:
+                self.mtgjson_data = json.load(f).get("data")
+            return
+
+        print("Downloading latest AllPrintings.json")
         _all_printings_url = "https://mtgjson.com/api/v5/AllPrintings.json"
         request_wrapper = requests.get(_all_printings_url)
 
@@ -242,12 +249,13 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser("card2product")
 
     parser.add_argument("--output-file", "-o", type=str, required=True)
+    parser.add_argument("--mtgjson", "-m", type=str, required=False)
 
     return parser.parse_args()
 
 
 def main(args: argparse.Namespace):
-    card_to_products_data = MtgjsonCardLinker().build()
+    card_to_products_data = MtgjsonCardLinker(args.mtgjson).build()
     with pathlib.Path(args.output_file).expanduser().open("w", encoding="utf-8") as fp:
         json.dump(results_to_json(card_to_products_data), fp, indent=4, sort_keys=True)
 
