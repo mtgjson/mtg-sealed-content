@@ -234,7 +234,13 @@ class MtgjsonCardLinker:
                 + deck.get("schemeDeck", [])
             )
             for card in deck_cards:
-                finish = "foil" if card.get("isFoil", False) else "nonfoil"
+                finish = "nonfoil"
+                # This only matters with SLD decks, but since isFoil is
+                # a boolean, we have no other way to capture this information
+                if deck_name.endswith("etched"):
+                    finish = "etched"
+                elif card.get("isFoil", False):
+                    finish = "foil"
                 return_value.add(Card(card["uuid"], finish))
             break
 
