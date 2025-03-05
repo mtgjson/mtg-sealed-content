@@ -44,7 +44,7 @@ class MtgjsonCardLinker:
 
         set_codes = self.mtgjson_data.items()
         if code:
-            set_codes = [(code, self.mtgjson_data.get(code))]
+            set_codes = [(code.upper(), self.mtgjson_data.get(code.upper()))]
 
         for set_code, set_data in set_codes:
             if not set_data.get("sealedProduct"):
@@ -267,7 +267,7 @@ def parse_args() -> argparse.Namespace:
 
 
 def main(args: argparse.Namespace):
-    card_to_products_data = MtgjsonCardLinker(args.mtgjson).build(args.set.upper())
+    card_to_products_data = MtgjsonCardLinker(args.mtgjson).build(args.set)
     with pathlib.Path(args.output_file).expanduser().open("w", encoding="utf-8") as fp:
         json.dump(results_to_json(card_to_products_data), fp, indent=4, sort_keys=True)
 
