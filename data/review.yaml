@@ -97,6 +97,48 @@ cardMarket:
       mcmId: '813347'
     release_date: '2025-02-24'
     subtype: UNKNOWN
+  'Magic: The Gathering | Marvel''s Spider-Man Collector Booster':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '814354'
+    release_date: '2025-03-03'
+    subtype: UNKNOWN
+  'Magic: The Gathering | Marvel''s Spider-Man Collector Booster Box':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '814380'
+    release_date: '2025-03-03'
+    subtype: UNKNOWN
+  'Magic: The Gathering | Marvel''s Spider-Man Fat Pack Bundle':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '814427'
+    release_date: '2025-03-03'
+    subtype: UNKNOWN
+  'Magic: The Gathering | Marvel''s Spider-Man Play Booster':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '814348'
+    release_date: '2025-03-03'
+    subtype: UNKNOWN
+  'Magic: The Gathering | Marvel''s Spider-Man Play Booster Box':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '814386'
+    release_date: '2025-03-03'
+    subtype: UNKNOWN
+  'Magic: The Gathering | Marvel''s Spider-Man: Prerelease Pack':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '814450'
+    release_date: '2025-03-03'
+    subtype: UNKNOWN
+  'Magic: The Gathering | Marvel''s Spider-Man: Scene Box':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '814458'
+    release_date: '2025-03-03'
+    subtype: UNKNOWN
   "Magic: The Gathering\u2014FINAL FANTASY Collector Booster":
     category: UNKNOWN
     identifiers:
@@ -216,6 +258,12 @@ cardMarket:
     identifiers:
       mcmId: '814280'
     release_date: '2025-02-28'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: Festival in a Box: Chicago 2025 ""Animar & Friends""':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '814733'
+    release_date: '2025-03-04'
     subtype: UNKNOWN
   'Secret Lair Drop Series: Winter Superdrop 2025: Aether Drifters':
     category: UNKNOWN
@@ -497,6 +545,66 @@ cardTrader:
     identifiers:
       cardtraderId: '322111'
     subtype: UNKNOWN
+  Marvel's Spider-Man Collector Booster:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '323544'
+    subtype: UNKNOWN
+  Marvel's Spider-Man Collector Booster Box:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '323531'
+    subtype: UNKNOWN
+  Marvel's Spider-Man Fat Pack Bundle:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '323534'
+    subtype: UNKNOWN
+  Marvel's Spider-Man Play Booster:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '323543'
+    subtype: UNKNOWN
+  Marvel's Spider-Man Play Booster Box:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '323529'
+    subtype: UNKNOWN
+  Marvel's Spider-Man Prerelease Pack:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '323538'
+    subtype: UNKNOWN
+  Marvel's Spider-Man Scene Box:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '323536'
+    subtype: UNKNOWN
+  Marvel's Spider-Man Welcome Deck | Black:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '323551'
+    subtype: UNKNOWN
+  Marvel's Spider-Man Welcome Deck | Blue:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '323549'
+    subtype: UNKNOWN
+  Marvel's Spider-Man Welcome Deck | Green:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '323553'
+    subtype: UNKNOWN
+  Marvel's Spider-Man Welcome Deck | Red:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '323552'
+    subtype: UNKNOWN
+  Marvel's Spider-Man Welcome Deck | White:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '323547'
+    subtype: UNKNOWN
   'Secret Lair Drop Series: Aether Drifters':
     category: UNKNOWN
     identifiers:
@@ -637,22 +745,28 @@ miniaturemarket:
       miniaturemarketId: '305949'
     release_date: '2025-03-03'
     subtype: UNKNOWN
+  'MtG Universes Beyond: Final Fantasy - Bundle':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305710'
+    release_date: '2025-02-18'
+    subtype: UNKNOWN
   'MtG Universes Beyond: Final Fantasy - Play Booster Box (30)':
     category: UNKNOWN
     identifiers:
       miniaturemarketId: '305693'
     release_date: '2025-02-18'
     subtype: UNKNOWN
+  'MtG Universes Beyond: Final Fantasy - Starter Kit':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305711'
+    release_date: '2025-02-18'
+    subtype: UNKNOWN
   'MtG Universes Beyond: Spider-Man - Bundle':
     category: UNKNOWN
     identifiers:
       miniaturemarketId: '305968'
-    release_date: '2025-03-03'
-    subtype: UNKNOWN
-  'MtG Universes Beyond: Spider-Man - Collector Booster Box (12)':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: '305965'
     release_date: '2025-03-03'
     subtype: UNKNOWN
   'MtG Universes Beyond: Spider-Man - Play Booster Box (30':
@@ -665,12 +779,6 @@ miniaturemarket:
     category: UNKNOWN
     identifiers:
       miniaturemarketId: '305969'
-    release_date: '2025-03-03'
-    subtype: UNKNOWN
-  'MtG Universes Beyond: Spider-Man - Welcome Deck Set (5 Decks)':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: '305970'
     release_date: '2025-03-03'
     subtype: UNKNOWN
 starcitygames:
