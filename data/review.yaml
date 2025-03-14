@@ -1,4 +1,9 @@
-abugames: {}
+abugames:
+  'The Lord of the Rings: Tales of Middle-earth Jumpstart Vol. 2 Booster Box':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2422772'
+    subtype: UNKNOWN
 cardKingdom:
   'Tarkir: Dragonstorm Bundle':
     category: UNKNOWN
@@ -864,7 +869,7 @@ starcitygames:
   Final Fantasy Collector's Edition Commander Deck - Revival Trance:
     category: UNKNOWN
     identifiers:
-      scgId: SLD-MTG-PCK-FICCOLLECTOR-EN-REVIVAL
+      scgId: SLD-MTG-MLT-FICCOLLECTOR-EN-REVIVAL
     subtype: UNKNOWN
   Final Fantasy Collector's Edition Commander Deck - Scions & Spellcraft:
     category: UNKNOWN
@@ -985,6 +990,31 @@ starcitygames:
     category: UNKNOWN
     identifiers:
       scgId: SLD-MTG-BBX-TDMPLAYCOMBO-EN
+    subtype: UNKNOWN
+  'Tarkir: Dragonstorm Prerelease Kit - Abzan':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-TDMPRE-EN-ABZAN
+    subtype: UNKNOWN
+  'Tarkir: Dragonstorm Prerelease Kit - Jeskai':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-TDMPRE-EN-JESKAI
+    subtype: UNKNOWN
+  'Tarkir: Dragonstorm Prerelease Kit - Mardu':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-TDMPRE-EN-MARDU
+    subtype: UNKNOWN
+  'Tarkir: Dragonstorm Prerelease Kit - Sultai':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-TDMPRE-EN-SULTAI
+    subtype: UNKNOWN
+  'Tarkir: Dragonstorm Prerelease Kit - Temur':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-TDMPRE-EN-TEMUR
     subtype: UNKNOWN
   The Lord of the Rings Jumpstart Booster Box:
     category: UNKNOWN
