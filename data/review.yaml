@@ -810,12 +810,6 @@ miniaturemarket:
       miniaturemarketId: '305949'
     release_date: '2025-03-03'
     subtype: UNKNOWN
-  'MtG Universes Beyond: Final Fantasy - Bundle':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: '305710'
-    release_date: '2025-02-18'
-    subtype: UNKNOWN
   'MtG Universes Beyond: Final Fantasy - Play Booster Box (30)':
     category: UNKNOWN
     identifiers:
@@ -846,7 +840,18 @@ miniaturemarket:
       miniaturemarketId: '305969'
     release_date: '2025-03-03'
     subtype: UNKNOWN
+  'MtG: Secret Lair X Marvel 6, Nonfoil':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '306423'
+    release_date: '2025-03-18'
+    subtype: UNKNOWN
 starcitygames:
+  Arcane Rising Booster Box - 1st Edition:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-FAB-BBX-ARC-EN-1ST
+    subtype: UNKNOWN
   'Commander Legends: Battle for Baldur''s Gate Draft Combo Pack':
     category: UNKNOWN
     identifiers:
@@ -856,6 +861,11 @@ starcitygames:
     category: UNKNOWN
     identifiers:
       scgId: SLD-MTG-BBX-CLBSETCOMBO-EN
+    subtype: UNKNOWN
+  Crucible of War Booster Box - 1st Edition:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-FAB-BBX-CRU-EN-1ST
     subtype: UNKNOWN
   Final Fantasy Bundle:
     category: UNKNOWN
@@ -1623,6 +1633,11 @@ tcgplayer:
     identifiers:
       tcgplayerProductId: '619663'
     release_date: '2025-04-11'
+    subtype: UNKNOWN
+  Throne of Eldraine Collector Booster Hanger Pack Case:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '623645'
     subtype: UNKNOWN
   Universes Beyond FINAL FANTASY Bundle:
     category: UNKNOWN
