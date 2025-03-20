@@ -1,17 +1,23 @@
 code: fin
 products:
-  Final Fantasy Collector Booster Box:
-    category: BOOSTER_BOX
-    identifiers:
-      tcgplayerProductId: '618893'
-    release_date: '2025-06-13'
-    subtype: COLLECTOR
   Final Fantasy Bundle:
     category: BUNDLE
     identifiers:
       tcgplayerProductId: '618897'
     release_date: '2025-06-13'
     subtype: DEFAULT
+  Final Fantasy Bundle Gift Edition:
+    category: BUNDLE
+    identifiers:
+      tcgplayerProductId: '618899'
+    release_date: '2025-06-13'
+    subtype: GIFT_BUNDLE
+  Final Fantasy Collector Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      tcgplayerProductId: '618893'
+    release_date: '2025-06-13'
+    subtype: COLLECTOR
   Final Fantasy Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -30,21 +36,15 @@ products:
       tcgplayerProductId: '618889'
     release_date: '2025-06-13'
     subtype: PLAY
-  Final Fantasy Starter Kit:
-    category: MULTI_DECK
-    identifiers:
-      tcgplayerProductId: '618901'
-    release_date: '2025-06-13'
-    subtype: TWO_PLAYER_STARTER
   Final Fantasy Prerelease Pack:
     category: LIMITED
     identifiers:
       tcgplayerProductId: '618896'
     release_date: '2025-06-13'
     subtype: PRERELEASE
-  Final Fantasy Bundle Gift Edition:
-    category: BUNDLE
+  Final Fantasy Starter Kit:
+    category: MULTI_DECK
     identifiers:
-      tcgplayerProductId: '618899'
+      tcgplayerProductId: '618901'
     release_date: '2025-06-13'
-    subtype: GIFT_BUNDLE
+    subtype: TWO_PLAYER_STARTER
