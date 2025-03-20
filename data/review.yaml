@@ -324,6 +324,18 @@ cardMarket:
       mcmId: '814280'
     release_date: '2025-02-28'
     subtype: UNKNOWN
+  'Secret Lair Drop Series: Chaos Vault: Cats Are Better Than Dogs':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '817807'
+    release_date: '2025-03-18'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: Chaos Vault: Dogs Are Better Than Cats':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '817808'
+    release_date: '2025-03-18'
+    subtype: UNKNOWN
   'Secret Lair Drop Series: Festival in a Box: Chicago 2025 ""Animar & Friends""':
     category: UNKNOWN
     identifiers:
@@ -792,18 +804,6 @@ miniaturemarket:
       miniaturemarketId: '305961'
     release_date: '2025-03-03'
     subtype: UNKNOWN
-  'MtG Tarkir Dragonstorm: Collector Booster Box (12)':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: '305952'
-    release_date: '2025-03-03'
-    subtype: UNKNOWN
-  'MtG Tarkir Dragonstorm: Commander Deck Set (5)':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: '305955'
-    release_date: '2025-03-03'
-    subtype: UNKNOWN
   'MtG Tarkir Dragonstorm: Play Booster Box (30)':
     category: UNKNOWN
     identifiers:
@@ -1186,40 +1186,16 @@ tcgplayer:
       tcgplayerProductId: '619675'
     release_date: '2025-08-01'
     subtype: UNKNOWN
-  FINAL FANTASY Commander Deck Collectors Edition Display:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '618912'
-    release_date: '2025-06-13'
-    subtype: UNKNOWN
-  FINAL FANTASY Commander Deck Collectors Edition FINAL FANTASY VI Revival Trance:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '618908'
-    release_date: '2025-06-13'
-    subtype: UNKNOWN
-  FINAL FANTASY Commander Deck Collectors Edition FINAL FANTASY VII Limit Break:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '618909'
-    release_date: '2025-06-13'
-    subtype: UNKNOWN
-  FINAL FANTASY Commander Deck Collectors Edition FINAL FANTASY X Counter Blitz:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '618910'
-    release_date: '2025-06-13'
-    subtype: UNKNOWN
-  FINAL FANTASY Commander Deck Collectors Edition FINAL FANTASY XIV Scions and Spellcraft:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '618911'
-    release_date: '2025-06-13'
-    subtype: UNKNOWN
   FINAL FANTASY Commander Deck Display:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '618907'
+    release_date: '2025-06-13'
+    subtype: UNKNOWN
+  FINAL FANTASY Commander Deck Display Collectors Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '618912'
     release_date: '2025-06-13'
     subtype: UNKNOWN
   FINAL FANTASY Commander Deck FINAL FANTASY VI Revival Trance:
@@ -1228,10 +1204,22 @@ tcgplayer:
       tcgplayerProductId: '618903'
     release_date: '2025-06-13'
     subtype: UNKNOWN
+  FINAL FANTASY Commander Deck FINAL FANTASY VI Revival Trance Collectors Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '618908'
+    release_date: '2025-06-13'
+    subtype: UNKNOWN
   FINAL FANTASY Commander Deck FINAL FANTASY VII Limit Break:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '618904'
+    release_date: '2025-06-13'
+    subtype: UNKNOWN
+  FINAL FANTASY Commander Deck FINAL FANTASY VII Limit Break Collectors Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '618909'
     release_date: '2025-06-13'
     subtype: UNKNOWN
   FINAL FANTASY Commander Deck FINAL FANTASY X Counter Blitz:
@@ -1240,10 +1228,22 @@ tcgplayer:
       tcgplayerProductId: '618905'
     release_date: '2025-06-13'
     subtype: UNKNOWN
+  FINAL FANTASY Commander Deck FINAL FANTASY X Counter Blitz Collectors Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '618910'
+    release_date: '2025-06-13'
+    subtype: UNKNOWN
   FINAL FANTASY Commander Deck FINAL FANTASY XIV Scions and Spellcraft:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '618906'
+    release_date: '2025-06-13'
+    subtype: UNKNOWN
+  FINAL FANTASY Commander Deck FINAL FANTASY XIV Scions and Spellcraft Collectors Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '618911'
     release_date: '2025-06-13'
     subtype: UNKNOWN
   Kaldheim Set Booster Display Case:
