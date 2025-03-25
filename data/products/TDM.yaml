@@ -1,8 +1,28 @@
 code: tdm
 products:
+  Tarkir Dragonstorm Bundle:
+    category: BUNDLE
+    identifiers:
+      cardKingdomId: '310809'
+      cardtraderId: '322523'
+      mcmId: '813082'
+      miniaturemarketId: '305961'
+      scgId: SLD-MTG-BUN-TDM-EN
+      tcgplayerProductId: '619653'
+    subtype: DEFAULT
+  Tarkir Dragonstorm Bundle Case:
+    category: BUNDLE_CASE
+    identifiers:
+      tcgplayerProductId: '619655'
+    subtype: DEFAULT
   Tarkir Dragonstorm Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      cardKingdomId: '310808'
+      cardtraderId: '322522'
+      mcmId: '813080'
+      miniaturemarketId: '305952'
+      scgId: SLD-MTG-BBX-TDMCOLLECTOR-EN
       tcgplayerProductId: '619649'
     subtype: COLLECTOR
   Tarkir Dragonstorm Collector Booster Box Case:
@@ -13,24 +33,88 @@ products:
   Tarkir Dragonstorm Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardKingdomId: '310807'
+      cardtraderId: '322536'
+      mcmId: '813078'
+      scgId: SLD-MTG-PCK-TDMCOLLECTOR-EN
       tcgplayerProductId: '619648'
     subtype: COLLECTOR
+  Tarkir Dragonstorm Collector Booster Sample Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardtraderId: '322537'
+      mcmId: '813088'
+    subtype: PROMOTIONAL
   Tarkir Dragonstorm Play Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      cardKingdomId: '310806'
       cardtraderId: '308759'
+      mcmId: '813081'
+      miniaturemarketId: '305949'
+      scgId: SLD-MTG-BBX-TDMPLAY-EN
       tcgplayerProductId: '619645'
     release_date: '2025-04-11'
     subtype: PLAY
   Tarkir Dragonstorm Play Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
+      scgId: SLD-MTG-BBX-TDMCASE-EN
       tcgplayerProductId: '619647'
     release_date: '2025-04-11'
     subtype: PLAY
   Tarkir Dragonstorm Play Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardKingdomId: '310805'
+      cardtraderId: '322535'
+      mcmId: '813079'
+      scgId: SLD-MTG-PCK-TDM-EN
       tcgplayerProductId: '619644'
     release_date: '2025-04-11'
     subtype: PLAY
+  Tarkir Dragonstorm Prerelease Pack Abzan:
+    category: LIMITED
+    identifiers:
+      cardtraderId: '322524'
+      mcmId: '813083'
+      scgId: SLD-MTG-INT-TDMPRE-EN-ABZAN
+      tcgplayerProductId: '619659'
+    subtype: PRERELEASE
+  Tarkir Dragonstorm Prerelease Pack Jeskai:
+    category: LIMITED
+    identifiers:
+      cardtraderId: '322526'
+      mcmId: '813084'
+      scgId: SLD-MTG-INT-TDMPRE-EN-JESKAI
+      tcgplayerProductId: '619660'
+    subtype: PRERELEASE
+  Tarkir Dragonstorm Prerelease Pack Mardu:
+    category: LIMITED
+    identifiers:
+      cardtraderId: '322528'
+      mcmId: '813086'
+      scgId: SLD-MTG-INT-TDMPRE-EN-MARDU
+      tcgplayerProductId: '619662'
+    subtype: PRERELEASE
+  Tarkir Dragonstorm Prerelease Pack Sultai:
+    category: LIMITED
+    identifiers:
+      cardtraderId: '322527'
+      mcmId: '813085'
+      scgId: SLD-MTG-INT-TDMPRE-EN-SULTAI
+      tcgplayerProductId: '619661'
+    subtype: PRERELEASE
+  Tarkir Dragonstorm Prerelease Pack Temur:
+    category: LIMITED
+    identifiers:
+      cardtraderId: '322525'
+      mcmId: '813087'
+      scgId: SLD-MTG-INT-TDMPRE-EN-TEMUR
+      tcgplayerProductId: '619663'
+    subtype: PRERELEASE
+  Tarkir Dragonstorm Prerelease Packs Set of 5:
+    category: SUBSET
+    identifiers:
+      tcgplayerProductId: '620244'
+    subtype: PRERELEASE

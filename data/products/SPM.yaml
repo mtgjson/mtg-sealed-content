@@ -1,0 +1,104 @@
+code: spm
+products:
+  Marvels Spider Man Bundle:
+    category: BUNDLE
+    identifiers:
+      cardtraderId: '323534'
+      mcmId: '814427'
+      miniaturemarketId: '305968'
+      tcgplayerProductId: '621115'
+    subtype: DEFAULT
+  Marvels Spider Man Bundle Case:
+    category: BUNDLE_CASE
+    identifiers:
+      tcgplayerProductId: '621116'
+    subtype: DEFAULT
+  Marvels Spider Man Collector Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardtraderId: '323531'
+      mcmId: '814380'
+      tcgplayerProductId: '621110'
+    subtype: COLLECTOR
+  Marvels Spider Man Collector Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers:
+      tcgplayerProductId: '621111'
+    subtype: COLLECTOR
+  Marvels Spider Man Collector Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardtraderId: '323544'
+      mcmId: '814354'
+      tcgplayerProductId: '621109'
+    subtype: COLLECTOR
+  Marvels Spider Man Play Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardtraderId: '323529'
+      mcmId: '814386'
+      miniaturemarketId: '305962'
+      tcgplayerProductId: '621107'
+    subtype: PLAY
+  Marvels Spider Man Play Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers:
+      tcgplayerProductId: '621108'
+    subtype: PLAY
+  Marvels Spider Man Play Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardtraderId: '323543'
+      mcmId: '814348'
+      tcgplayerProductId: '621106'
+    subtype: PLAY
+  Marvels Spider Man Prerelease Pack:
+    category: LIMITED
+    identifiers:
+      cardtraderId: '323538'
+      mcmId: '814450'
+      tcgplayerProductId: '621112'
+    subtype: PRERELEASE
+  Marvels Spider Man Scene Box:
+    category: BOX_SET
+    identifiers:
+      cardtraderId: '323536'
+      mcmId: '814458'
+      miniaturemarketId: '305969'
+      tcgplayerProductId: '621113'
+    subtype: OTHER
+  Marvels Spider Man Welcome Deck Black:
+    category: DECK
+    identifiers:
+      cardtraderId: '323551'
+      tcgplayerProductId: '621119'
+    subtype: WELCOME
+  Marvels Spider Man Welcome Deck Blue:
+    category: DECK
+    identifiers:
+      cardtraderId: '323549'
+      tcgplayerProductId: '621118'
+    subtype: WELCOME
+  Marvels Spider Man Welcome Deck Green:
+    category: DECK
+    identifiers:
+      cardtraderId: '323553'
+      tcgplayerProductId: '621121'
+    subtype: WELCOME
+  Marvels Spider Man Welcome Deck Red:
+    category: DECK
+    identifiers:
+      cardtraderId: '323552'
+      tcgplayerProductId: '621120'
+    subtype: WELCOME
+  Marvels Spider Man Welcome Deck White:
+    category: DECK
+    identifiers:
+      cardtraderId: '323547'
+      tcgplayerProductId: '621117'
+    subtype: WELCOME
+  Marvels Spider Man Welcome Decks Set of 5:
+    category: SUBSET
+    identifiers:
+      tcgplayerProductId: '621122'
+    subtype: WELCOME

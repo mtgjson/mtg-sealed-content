@@ -3,48 +3,105 @@ products:
   Final Fantasy Bundle:
     category: BUNDLE
     identifiers:
+      cardtraderId: '322077'
+      mcmId: '812575'
+      scgId: SLD-MTG-BUN-FIN-EN
       tcgplayerProductId: '618897'
     release_date: '2025-06-13'
+    subtype: DEFAULT
+  Final Fantasy Bundle Case:
+    category: BUNDLE_CASE
+    identifiers:
+      tcgplayerProductId: '618898'
     subtype: DEFAULT
   Final Fantasy Bundle Gift Edition:
     category: BUNDLE
     identifiers:
+      cardtraderId: '322078'
+      mcmId: '812576'
+      scgId: SLD-MTG-BUN-FINGIFT-EN
       tcgplayerProductId: '618899'
     release_date: '2025-06-13'
     subtype: GIFT_BUNDLE
   Final Fantasy Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      cardtraderId: '322073'
+      mcmId: '812573'
+      scgId: SLD-MTG-BBX-FINCOLLECTOR-EN
       tcgplayerProductId: '618893'
     release_date: '2025-06-13'
+    subtype: COLLECTOR
+  Final Fantasy Collector Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers:
+      tcgplayerProductId: '618894'
     subtype: COLLECTOR
   Final Fantasy Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '322075'
+      mcmId: '812571'
+      scgId: SLD-MTG-PCK-FINCOLLECTOR-EN
       tcgplayerProductId: '618892'
     release_date: '2025-06-13'
     subtype: COLLECTOR
+  Final Fantasy Collector Booster Sample Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      mcmId: '812570'
+    subtype: PROMOTIONAL
+  Final Fantasy Gift Bundle Case:
+    category: BUNDLE_CASE
+    identifiers:
+      tcgplayerProductId: '618900'
+    subtype: GIFT_BUNDLE
   Final Fantasy Play Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      cardtraderId: '322072'
+      mcmId: '812574'
+      miniaturemarketId: '305693'
+      scgId: SLD-MTG-BBX-FINPLAY-EN
       tcgplayerProductId: '618890'
     release_date: '2025-06-13'
+    subtype: PLAY
+  Final Fantasy Play Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers:
+      scgId: SLD-MTG-BBX-FINPLAYCASE-EN
+      tcgplayerProductId: '618891'
     subtype: PLAY
   Final Fantasy Play Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '322074'
+      mcmId: '812572'
+      scgId: SLD-MTG-PCK-FINPLAY-EN
       tcgplayerProductId: '618889'
     release_date: '2025-06-13'
     subtype: PLAY
   Final Fantasy Prerelease Pack:
     category: LIMITED
     identifiers:
+      cardtraderId: '322110'
+      mcmId: '812587'
+      scgId: SLD-MTG-INT-FINPRE-EN
       tcgplayerProductId: '618896'
     release_date: '2025-06-13'
     subtype: PRERELEASE
   Final Fantasy Starter Kit:
     category: MULTI_DECK
     identifiers:
+      cardtraderId: '322111'
+      mcmId: '812588'
+      miniaturemarketId: '305711'
+      scgId: SLD-MTG-INT-FINSTARTER-EN
       tcgplayerProductId: '618901'
     release_date: '2025-06-13'
     subtype: TWO_PLAYER_STARTER
+  Final Fantasy Starter Kit Case:
+    category: DECK_BOX
+    identifiers:
+      tcgplayerProductId: '618902'
+    subtype: STARTER
