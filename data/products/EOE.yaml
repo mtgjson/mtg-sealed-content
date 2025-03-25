@@ -1,0 +1,67 @@
+code: eoe
+products:
+  Edge of Eternities Bundle:
+    category: BUNDLE
+    identifiers:
+      cardtraderId: '322696'
+      mcmId: '813310'
+      miniaturemarketId: '305947'
+      tcgplayerProductId: '619673'
+    subtype: DEFAULT
+  Edge of Eternities Bundle Case:
+    category: BUNDLE_CASE
+    identifiers:
+      tcgplayerProductId: '619693'
+    subtype: DEFAULT
+  Edge of Eternities Collector Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardtraderId: '322544'
+      mcmId: '813293'
+      miniaturemarketId: '305941'
+      tcgplayerProductId: '619672'
+    subtype: COLLECTOR
+  Edge of Eternities Collector Booster Box Case:
+    category: BOOSTER_BOX
+    identifiers:
+      tcgplayerProductId: '619694'
+    subtype: COLLECTOR
+  Edge of Eternities Collector Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardtraderId: '322687'
+      mcmId: '813301'
+      tcgplayerProductId: '619696'
+    subtype: COLLECTOR
+  Edge of Eternities Collector Booster Sample Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      mcmId: '813304'
+    subtype: PROMOTIONAL
+  Edge of Eternities Play Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardtraderId: '322543'
+      mcmId: '813290'
+      miniaturemarketId: '305938'
+      tcgplayerProductId: '619674'
+    subtype: PLAY
+  Edge of Eternities Play Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers:
+      tcgplayerProductId: '619699'
+    subtype: PLAY
+  Edge of Eternities Play Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardtraderId: '322686'
+      mcmId: '813298'
+      tcgplayerProductId: '619697'
+    subtype: PLAY
+  Edge of Eternities Prerelease Pack:
+    category: LIMITED
+    identifiers:
+      cardtraderId: '322695'
+      mcmId: '813347'
+      tcgplayerProductId: '619675'
+    subtype: PRERELEASE
