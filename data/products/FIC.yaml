@@ -3,12 +3,18 @@ products:
   Final Fantasy Commander Deck Counter Blitz:
     category: DECK
     identifiers:
+      cardtraderId: '322098'
+      mcmId: '812581'
+      scgId: SLD-MTG-MLT-FIC-EN-COUNTER
       tcgplayerProductId: '618905'
     release_date: '2025-06-13'
     subtype: COMMANDER
   Final Fantasy Commander Deck Counter Blitz Collectors Edition:
     category: DECK
     identifiers:
+      cardtraderId: '322104'
+      mcmId: '812582'
+      scgId: SLD-MTG-MLT-FICCOLLECTOR-EN-COUNTER
       tcgplayerProductId: '618910'
     release_date: '2025-06-13'
     subtype: COMMANDER
@@ -27,36 +33,68 @@ products:
   Final Fantasy Commander Deck Limit Break:
     category: DECK
     identifiers:
+      cardtraderId: '322095'
+      mcmId: '812577'
+      scgId: SLD-MTG-MLT-FIC-EN-LIMIT
       tcgplayerProductId: '618904'
     release_date: '2025-06-13'
     subtype: COMMANDER
   Final Fantasy Commander Deck Limit Break Collectors Edition:
     category: DECK
     identifiers:
+      cardtraderId: '322103'
+      mcmId: '812578'
+      scgId: SLD-MTG-MLT-FICCOLLECTOR-EN-LIMIT
       tcgplayerProductId: '618909'
     release_date: '2025-06-13'
     subtype: COMMANDER
   Final Fantasy Commander Deck Revival Trance:
     category: DECK
     identifiers:
+      cardtraderId: '322101'
+      mcmId: '812579'
+      scgId: SLD-MTG-MLT-FIC-EN-REVIVAL
       tcgplayerProductId: '618903'
     release_date: '2025-06-13'
     subtype: COMMANDER
   Final Fantasy Commander Deck Revival Trance Collectors Edition:
     category: DECK
     identifiers:
+      cardtraderId: '322107'
+      mcmId: '812580'
+      scgId: SLD-MTG-MLT-FICCOLLECTOR-EN-REVIVAL
       tcgplayerProductId: '618908'
     release_date: '2025-06-13'
     subtype: COMMANDER
   Final Fantasy Commander Deck Scions & Spellcraft:
     category: DECK
     identifiers:
+      cardtraderId: '322100'
+      mcmId: '812583'
+      scgId: SLD-MTG-MLT-FIC-EN-SCIONS
       tcgplayerProductId: '618906'
     release_date: '2025-06-13'
     subtype: COMMANDER
   Final Fantasy Commander Deck Scions & Spellcraft Collectors Edition:
     category: DECK
     identifiers:
+      cardtraderId: '322106'
+      mcmId: '812584'
+      scgId: SLD-MTG-MLT-FICCOLLECTOR-EN-SCIONS
       tcgplayerProductId: '618911'
     release_date: '2025-06-13'
+    subtype: COMMANDER
+  Final Fantasy Commander Decks Collectors Edition Set of 4:
+    category: SUBSET
+    identifiers:
+      cardtraderId: '322109'
+      mcmId: '812586'
+      scgId: SLD-MTG-MLT-FICCOLLECTOR-EN-SET4
+    subtype: COMMANDER
+  Final Fantasy Commander Decks Set of 4:
+    category: SUBSET
+    identifiers:
+      cardtraderId: '322108'
+      mcmId: '812585'
+      scgId: SLD-MTG-MLT-FIC-EN-SET4
     subtype: COMMANDER

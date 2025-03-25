@@ -110,18 +110,6 @@ while index < len(review_products):
             index -= 1
             continue
         import_products["products"][product_link[0]]["identifiers"].update(product[1])
-        if product[2]:
-            if "release_date" not in import_products["products"][product_link[0]]:
-                import_products["products"][product_link[0]]["release_date"] = product[2]
-            elif import_products["products"][product_link[0]]["release_date"] != product[2]:
-                d = import_products["products"][product_link[0]]["release_date"]
-                try:
-                    ask = input(f"Update current date {d} with new date {product[2]}? [Y] ").lower()
-                    check = ask == "y" or ask == ""
-                except EOFError:
-                    sys.exit(1)
-                if check:
-                    import_products["products"][product_link[0]]["release_date"] = product[2]
         with open(product_link[1], 'w') as product_file:
             yaml.dump(import_products, product_file)
     else:
