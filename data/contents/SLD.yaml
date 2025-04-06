@@ -1624,7 +1624,13 @@ products:
         set: sld
     variable_mode:
       count: 1
-  Secret Lair Drop A Devastation of Dragons Rainbow Foil: []
+  Secret Lair Drop A Devastation of Dragons Rainbow Foil:
+    card_count: 4
+    deck:
+    - name: A Devastation of Dragons
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Absolute Annihilation:
     card_count: 4
     deck:
@@ -1681,8 +1687,20 @@ products:
         set: sld
     variable_mode:
       count: 1
-  Secret Lair Drop Aether Drifters: []
-  Secret Lair Drop Aether Drifters Foil: []
+  Secret Lair Drop Aether Drifters:
+    card_count: 5
+    deck:
+    - name: Aether Drifters
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Aether Drifters Foil:
+    card_count: 5
+    deck:
+    - name: Aether Drifters foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Animar and Friends:
     card_count: 5
     deck:
@@ -1697,8 +1715,20 @@ products:
     deck:
     - name: April Fools
       set: sld
-  Secret Lair Drop Arcade Racers: []
-  Secret Lair Drop Arcade Racers Rainbow Foil: []
+  Secret Lair Drop Arcade Racers:
+    card_count: 5
+    deck:
+    - name: Arcade Racers
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Arcade Racers Rainbow Foil:
+    card_count: 5
+    deck:
+    - name: Arcade Racers foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Artist Series Alayna Danner:
     card:
     - name: Seraph Sanctuary
@@ -1756,8 +1786,20 @@ products:
     deck:
     - name: Artist Series Chris Rahn foil
       set: sld
-  Secret Lair Drop Artist Series Jesper Ejsing: []
-  Secret Lair Drop Artist Series Jesper Ejsing Rainbow Foil: []
+  Secret Lair Drop Artist Series Jesper Ejsing:
+    card_count: 4
+    deck:
+    - name: Artist Series Jesper Ejsing
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Artist Series Jesper Ejsing Rainbow Foil:
+    card_count: 4
+    deck:
+    - name: Artist Series Jesper Ejsing foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Artist Series Johannes Voss:
     card_count: 4
     deck:
@@ -2552,8 +2594,20 @@ products:
         set: sld
     variable_mode:
       count: 1
-  Secret Lair Drop City Styles 2 Dressed to Kill: []
-  Secret Lair Drop City Styles 2 Dressed to Kill Rainbow Foil: []
+  Secret Lair Drop City Styles 2 Dressed to Kill:
+    card_count: 5
+    deck:
+    - name: City Styles 2 Dressed to Kill
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop City Styles 2 Dressed to Kill Rainbow Foil:
+    card_count: 5
+    deck:
+    - name: City Styles 2 Dressed to Kill foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop City Styles Foil:
     card_count: 5
     deck:
@@ -3195,10 +3249,34 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop Featuring Luke Pearson: []
-  Secret Lair Drop Featuring Luke Pearson Rainbow Foil: []
-  Secret Lair Drop Featuring Mitsuhiro Arita: []
-  Secret Lair Drop Featuring Mitsuhiro Arita Rainbow Foil: []
+  Secret Lair Drop Featuring Luke Pearson:
+    card_count: 4
+    deck:
+    - name: Featuring Luke Pearson
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Featuring Luke Pearson Rainbow Foil:
+    card_count: 4
+    deck:
+    - name: Featuring Luke Pearson foil
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Featuring Mitsuhiro Arita:
+    card_count: 4
+    deck:
+    - name: Featuring Mitsuhiro Arita
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Featuring Mitsuhiro Arita Rainbow Foil:
+    card_count: 4
+    deck:
+    - name: Featuring Mitsuhiro Arita foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Featuring Not a Wolf:
     card:
     - name: Immerwolf
@@ -3726,8 +3804,20 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop Lorwyn Lightboxes: []
-  Secret Lair Drop Lorwyn Lightboxes Rainbow Foil: []
+  Secret Lair Drop Lorwyn Lightboxes:
+    card_count: 5
+    deck:
+    - name: Lorwyn Lightboxes
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Lorwyn Lightboxes Rainbow Foil:
+    card_count: 5
+    deck:
+    - name: Lorwyn Lightboxes foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Magic The Baseballing:
     card_count: 5
     deck:
@@ -5014,8 +5104,20 @@ products:
   Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar Japanese Rainbow Foil:
     copy: Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar English Rainbow
       Foil
-  Secret Lair Drop Secret Lair x Hatsune Miku Winter Diva English: []
-  Secret Lair Drop Secret Lair x Hatsune Miku Winter Diva English Rainbow Foil: []
+  Secret Lair Drop Secret Lair x Hatsune Miku Winter Diva English:
+    card_count: 6
+    deck:
+    - name: Hatsune Miku Winter Diva
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Hatsune Miku Winter Diva English Rainbow Foil:
+    card_count: 6
+    deck:
+    - name: Hatsune Miku Winter Diva foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Hatsune Miku Winter Diva Japanese: []
   Secret Lair Drop Secret Lair x Hatsune Miku Winter Diva Japanese Rainbow Foil: []
   Secret Lair Drop Secret Lair x Jurassic World Dr Ian Malcolm:
