@@ -1,5 +1,15 @@
 abugames: {}
-cardKingdom: {}
+cardKingdom:
+  'Commander 2020: Set of Five':
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '232119'
+    subtype: UNKNOWN
+  'Commander 2021: Set of Five':
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '243824'
+    subtype: UNKNOWN
 cardMarket:
   'Commander: Edge of Eternities: ""Counter Intelligence"" Commander Deck':
     category: UNKNOWN
@@ -185,7 +195,32 @@ miniaturemarket:
       miniaturemarketId: '305955'
     release_date: '2025-03-03'
     subtype: UNKNOWN
-starcitygames: {}
+starcitygames:
+  Edge of Eternities Bundle:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BUN-EOE-EN
+    subtype: UNKNOWN
+  Edge of Eternities Collector Booster Box:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-EOECOLLECTOR-EN
+    subtype: UNKNOWN
+  Edge of Eternities Collector Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-EOECOLLECTOR-EN
+    subtype: UNKNOWN
+  Edge of Eternities Play Booster Box:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-EOE-EN
+    subtype: UNKNOWN
+  Edge of Eternities Play Booster Case (6 Boxes):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-EOECASE-EN
+    subtype: UNKNOWN
 tcgplayer:
   Edge of Eternities Commander Deck Case:
     category: UNKNOWN
@@ -209,6 +244,11 @@ tcgplayer:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '622966'
+    subtype: UNKNOWN
+  Outlaws of Thunder Junction Deluxe Commander Kit Quick Draw:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '627689'
     subtype: UNKNOWN
   Secret Lair Drop Oishii Tokens Non Foil Edition:
     category: UNKNOWN
@@ -344,6 +384,11 @@ tcgplayer:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '624714'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair Promo Deadeye Navigator Rainbow Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '627697'
     subtype: UNKNOWN
   Secret Lair Drop Secret Lair x Marvels Deadpool April Pools Day Non Foil Edition:
     category: UNKNOWN
