@@ -6685,7 +6685,13 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop They Grow Up So Fast Rainbow Foil: []
+  Secret Lair Drop They Grow Up So Fast Rainbow Foil:
+    card_count: 5
+    deck:
+    - name: They Grow Up So Fast foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Through the Wormhole:
     card:
     - name: Solemn Simulacrum
@@ -7070,7 +7076,6 @@ products:
     - count: 1
       name: Dominaria Remastered Draft Booster Box
       set: dmr
-  Secret Lair Festival in a Box Chicago 2025 Animar and Friends: []
   Secret Lair Festival in a Box Chicago 2025 Bundle:
     card:
     - foil: true
@@ -7152,8 +7157,8 @@ products:
       number: 31
       set: slp
     - name: Convention Maro
-      number: 999-CM
-      set: slp
+      number: 2
+      set: pf24
     sealed:
     - count: 1
       name: Mystery Booster 2 Booster Box
