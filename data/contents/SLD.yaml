@@ -6685,7 +6685,13 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop They Grow Up So Fast Rainbow Foil: []
+  Secret Lair Drop They Grow Up So Fast Rainbow Foil:
+    card_count: 5
+    deck:
+    - name: They Grow Up So Fast foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Through the Wormhole:
     card:
     - name: Solemn Simulacrum
