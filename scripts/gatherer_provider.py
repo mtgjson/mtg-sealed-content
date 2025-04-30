@@ -9,6 +9,7 @@ import ratelimit
 import requests
 import urllib3.exceptions
 
+from urllib.parse import urlparse, parse_qs 
 from retryable_session import retryable_session
 
 
@@ -106,7 +107,8 @@ class GathererProvider:
     GATHERER_CARD = "https://gatherer.wizards.com/Pages/Card/Details.aspx"
     SET_CHECKLIST_URL = "https://gatherer.wizards.com/Pages/Search/Default.aspx?page={}&output=checklist&set=[%22{}%22]"
     SETS_TO_REMOVE_PARENTHESES = {"10E"}
-
+    SKIP_THIS = 'Alchemy'
+    
     @ratelimit.limits(calls=40, period=1)
     def download(
         self, url: str, params: Optional[Dict[str, Union[str, int]]] = None
@@ -120,6 +122,10 @@ class GathererProvider:
         session = retryable_session(retries=3)
         urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
+        parsed_url = urlparse(url)
+        query_params = parse_qs(parsed_url.query)
+        if 'format' in query_params and query_params['format'][0] == self.SKIP_THIS:
+            return None
         try:
             response = session.get(url, params=params, verify=False)
         except (
