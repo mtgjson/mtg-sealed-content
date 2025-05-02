@@ -75,6 +75,11 @@ abugames:
       abuId: '2581981'
     subtype: UNKNOWN
 cardKingdom:
+  Aetherdrift Prerelease Pack:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '307716'
+    subtype: UNKNOWN
   Mystery Booster 2 Booster Box:
     category: UNKNOWN
     identifiers:
@@ -109,6 +114,12 @@ cardMarket:
     identifiers:
       mcmId: '813418'
     release_date: '2025-02-24'
+    subtype: UNKNOWN
+  'Secret Lair Commander Deck: Everyone''s Invited!':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '823414'
+    release_date: '2025-04-29'
     subtype: UNKNOWN
   'Secret Lair Drop Series: Camp Totally Safe Superdrop: Featuring: Peach Momoko':
     category: UNKNOWN
@@ -310,6 +321,48 @@ cardMarket:
       mcmId: '776854'
     release_date: '2024-07-03'
     subtype: UNKNOWN
+  'Secret Lair Drop Series: The Ultimate Pencil Superdrop: EVERYTHING IS ON FIRE':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '823310'
+    release_date: '2025-04-29'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: The Ultimate Pencil Superdrop: EVERYTHING IS ON FIRE (Raised Foil)':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '823320'
+    release_date: '2025-04-29'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: The Ultimate Pencil Superdrop: Featuring: Jay Howell':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '823328'
+    release_date: '2025-04-29'
+    subtype: UNKNOWN
+  "Secret Lair Drop Series: The Ultimate Pencil Superdrop: Secret Lair x KEXP: Where the Music Matters\xAE":
+    category: UNKNOWN
+    identifiers:
+      mcmId: '823333'
+    release_date: '2025-04-29'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: The Ultimate Pencil Superdrop: Secret Lair x KEXP: You Are Not Alone':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '823354'
+    release_date: '2025-04-29'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: The Ultimate Pencil Superdrop: vroooOOOMMMMMM!':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '823343'
+    release_date: '2025-04-29'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: The Ultimate Pencil Superdrop: vroooOOOMMMMMM! (Raised Foil)':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '823351'
+    release_date: '2025-04-29'
+    subtype: UNKNOWN
   'Street Clans: Giant Street Clans Tokens Bundle':
     category: UNKNOWN
     identifiers:
@@ -365,6 +418,31 @@ cardMarket:
     release_date: '2024-07-17'
     subtype: UNKNOWN
 cardTrader:
+  '2024 Welcome Decks: Black Deck':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '331095'
+    subtype: UNKNOWN
+  '2024 Welcome Decks: Blue Deck':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '331094'
+    subtype: UNKNOWN
+  '2024 Welcome Decks: Green Deck':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '331097'
+    subtype: UNKNOWN
+  '2024 Welcome Decks: Red Deck':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '331096'
+    subtype: UNKNOWN
+  '2024 Welcome Decks: White Deck':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '331093'
+    subtype: UNKNOWN
   Edge of Eternities Commander Deck Set 2 Commander Decks:
     category: UNKNOWN
     identifiers:
@@ -379,6 +457,11 @@ cardTrader:
     category: UNKNOWN
     identifiers:
       cardtraderId: '322694'
+    subtype: UNKNOWN
+  'Secret Lair Commander Deck: Everyone''s Invited!':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '331092'
     subtype: UNKNOWN
   'Secret Lair Drop Series: Adventures of the Little Witch':
     category: UNKNOWN
@@ -421,7 +504,7 @@ starcitygames:
     identifiers:
       scgId: SLD-MTG-BBX-FINCOLLECTOR-JA
     subtype: UNKNOWN
-  Final Fantasy Collector Booster Pack:
+  Final Fantasy Collector Booster Pack (Japanese):
     category: UNKNOWN
     identifiers:
       scgId: SLD-MTG-PCK-FINCOLLECTOR-JA
@@ -503,5 +586,10 @@ tcgplayer:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '629829'
+    subtype: UNKNOWN
+  World Championship Deck 1996 New York City Inaugural Edition 8 Decks:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '629898'
     subtype: UNKNOWN
 trollandtoad: {}
