@@ -475,10 +475,34 @@ cardTrader:
     subtype: UNKNOWN
 coolstuffinc: {}
 miniaturemarket:
+  'MtG Edge of Eternities: Collector Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305942'
+    release_date: '2025-03-03'
+    subtype: UNKNOWN
+  'MtG Edge of Eternities: Commander Deck - Counter Intelligence':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305945'
+    release_date: '2025-03-03'
+    subtype: UNKNOWN
+  'MtG Edge of Eternities: Commander Deck - World Shaper':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305946'
+    release_date: '2025-03-03'
+    subtype: UNKNOWN
   'MtG Edge of Eternities: Commander Deck Set (2)':
     category: UNKNOWN
     identifiers:
       miniaturemarketId: '305944'
+    release_date: '2025-03-03'
+    subtype: UNKNOWN
+  'MtG Edge of Eternities: Play Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305939'
     release_date: '2025-03-03'
     subtype: UNKNOWN
   'MtG Tarkir Dragonstorm: Commander Deck Set (5)':
@@ -486,6 +510,18 @@ miniaturemarket:
     identifiers:
       miniaturemarketId: '305955'
     release_date: '2025-03-03'
+    subtype: UNKNOWN
+  'MtG Universes Beyond: Final Fantasy - Bundle':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305710'
+    release_date: '2025-02-18'
+    subtype: UNKNOWN
+  'MtG Universes Beyond: Final Fantasy - Play Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305694'
+    release_date: '2025-02-18'
     subtype: UNKNOWN
   'MtG: Secret Lair X Marvel 6, Nonfoil':
     category: UNKNOWN
@@ -508,6 +544,16 @@ starcitygames:
     category: UNKNOWN
     identifiers:
       scgId: SLD-MTG-PCK-FINCOLLECTOR-JA
+    subtype: UNKNOWN
+  'Star Wars: Unlimited - Jump to Lightspeed Booster Box':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-SWU-BBX-JTL-EN
+    subtype: UNKNOWN
+  'Star Wars: Unlimited - Jump to Lightspeed Booster Case':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-SWU-BBX-JTLCASE-EN
     subtype: UNKNOWN
 tcgplayer:
   Edge of Eternities Commander Deck Case:
