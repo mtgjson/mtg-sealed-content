@@ -548,12 +548,7 @@ cardTrader:
     identifiers:
       cardtraderId: '329940'
     subtype: UNKNOWN
-coolstuffinc:
-  Could not load provider coolstuffinc:
-    category: UNKNOWN
-    identifiers:
-      csiId: ''
-    subtype: UNKNOWN
+coolstuffinc: {}
 miniaturemarket:
   'Magic the Gathering: Tales of Middle-earth - Set Booster Box (30)':
     category: UNKNOWN
@@ -620,12 +615,6 @@ miniaturemarket:
     identifiers:
       miniaturemarketId: '305950'
     release_date: '2025-03-03'
-    subtype: UNKNOWN
-  'MtG Universes Beyond: Final Fantasy - Bundle':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: '305710'
-    release_date: '2025-02-18'
     subtype: UNKNOWN
   'MtG Universes Beyond: Final Fantasy - Play Booster Pack':
     category: UNKNOWN
