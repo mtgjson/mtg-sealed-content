@@ -550,11 +550,35 @@ cardTrader:
     subtype: UNKNOWN
 coolstuffinc: {}
 miniaturemarket:
+  'Magic the Gathering: Tales of Middle-earth - Commander Deck Set (4)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '291542'
+    release_date: '2023-03-15'
+    subtype: UNKNOWN
   'Magic the Gathering: Tales of Middle-earth - Set Booster Box (30)':
     category: UNKNOWN
     identifiers:
       miniaturemarketId: '291539'
     release_date: '2023-03-15'
+    subtype: UNKNOWN
+  'Magic the Gathering: Tales of Middle-earth - Set Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '291538'
+    release_date: '2023-03-15'
+    subtype: UNKNOWN
+  'Magic the Gathering: Wilds of Eldraine - Draft Booster Box (36)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '293192'
+    release_date: '2023-05-17'
+    subtype: UNKNOWN
+  'Magic the Gathering: Wilds of Eldraine - Draft Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '293193'
+    release_date: '2023-05-17'
     subtype: UNKNOWN
   'MtG Edge of Eternities: Collector Booster Pack':
     category: UNKNOWN
@@ -586,17 +610,29 @@ miniaturemarket:
       miniaturemarketId: '305939'
     release_date: '2025-03-03'
     subtype: UNKNOWN
-  'MtG Tarkir Dragonstorm: Commander Deck - Abzan Armor':
+  'MtG Lost Caverns of Ixalan: Draft Booster Box':
     category: UNKNOWN
     identifiers:
-      miniaturemarketId: '305956'
-    release_date: '2025-03-03'
+      miniaturemarketId: '295861'
+    release_date: '2023-09-15'
     subtype: UNKNOWN
-  'MtG Tarkir Dragonstorm: Commander Deck - Jeskai Striker':
+  'MtG Lost Caverns of Ixalan: Draft Booster Pack':
     category: UNKNOWN
     identifiers:
-      miniaturemarketId: '305957'
-    release_date: '2025-03-03'
+      miniaturemarketId: '295862'
+    release_date: '2023-09-15'
+    subtype: UNKNOWN
+  'MtG Lost Caverns of Ixalan: Set Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '295865'
+    release_date: '2023-09-15'
+    subtype: UNKNOWN
+  'MtG Murders at Karlov Manor: Play Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '296318'
+    release_date: '2023-10-20'
     subtype: UNKNOWN
   'MtG Tarkir Dragonstorm: Commander Deck Set (5)':
     category: UNKNOWN
@@ -698,6 +734,12 @@ tcgplayer:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '630331'
+    subtype: UNKNOWN
+  Secret Lair Commander Deck Everyones Invited Double Rainbow Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '631564'
+    release_date: '2025-05-02'
     subtype: UNKNOWN
   Secret Lair Drop Adventures of the Little Witch Non Foil Edition:
     category: UNKNOWN
