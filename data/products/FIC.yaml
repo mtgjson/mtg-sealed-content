@@ -22,12 +22,18 @@ products:
     category: DECK_BOX
     identifiers:
       tcgplayerProductId: '618907'
+      cardtraderId: '322108'
+      mcmId: '812585'
+      scgId: SLD-MTG-MLT-FIC-EN-SET4
     release_date: '2025-06-13'
     subtype: COMMANDER
   Final Fantasy Commander Deck Display Collectors Edition:
     category: DECK_BOX
     identifiers:
       tcgplayerProductId: '618912'
+      cardtraderId: '322109'
+      mcmId: '812586'
+      scgId: SLD-MTG-MLT-FICCOLLECTOR-EN-SET4
     release_date: '2025-06-13'
     subtype: COMMANDER
   Final Fantasy Commander Deck Limit Break:
@@ -83,18 +89,4 @@ products:
       scgId: SLD-MTG-MLT-FICCOLLECTOR-EN-SCIONS
       tcgplayerProductId: '618911'
     release_date: '2025-06-13'
-    subtype: COMMANDER
-  Final Fantasy Commander Decks Collectors Edition Set of 4:
-    category: SUBSET
-    identifiers:
-      cardtraderId: '322109'
-      mcmId: '812586'
-      scgId: SLD-MTG-MLT-FICCOLLECTOR-EN-SET4
-    subtype: COMMANDER
-  Final Fantasy Commander Decks Set of 4:
-    category: SUBSET
-    identifiers:
-      cardtraderId: '322108'
-      mcmId: '812585'
-      scgId: SLD-MTG-MLT-FIC-EN-SET4
     subtype: COMMANDER
