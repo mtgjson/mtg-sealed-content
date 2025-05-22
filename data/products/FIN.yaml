@@ -3,6 +3,7 @@ products:
   Final Fantasy Bundle:
     category: BUNDLE
     identifiers:
+      cardKingdomId: '312843'
       cardtraderId: '322077'
       mcmId: '812575'
       scgId: SLD-MTG-BUN-FIN-EN
@@ -26,6 +27,7 @@ products:
   Final Fantasy Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      cardKingdomId: '312841'
       cardtraderId: '322073'
       mcmId: '812573'
       scgId: SLD-MTG-BBX-FINCOLLECTOR-EN
@@ -40,6 +42,7 @@ products:
   Final Fantasy Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardKingdomId: '312839'
       cardtraderId: '322075'
       mcmId: '812571'
       scgId: SLD-MTG-PCK-FINCOLLECTOR-EN
@@ -59,6 +62,7 @@ products:
   Final Fantasy Play Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      cardKingdomId: '312842'
       cardtraderId: '322072'
       mcmId: '812574'
       miniaturemarketId: '305693'
@@ -75,8 +79,10 @@ products:
   Final Fantasy Play Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardKingdomId: '312840'
       cardtraderId: '322074'
       mcmId: '812572'
+      miniaturemarketId: '305694'
       scgId: SLD-MTG-PCK-FINPLAY-EN
       tcgplayerProductId: '618889'
     release_date: '2025-06-13'
@@ -93,6 +99,7 @@ products:
   Final Fantasy Starter Kit:
     category: MULTI_DECK
     identifiers:
+      cardKingdomId: '312845'
       cardtraderId: '322111'
       mcmId: '812588'
       miniaturemarketId: '305711'
