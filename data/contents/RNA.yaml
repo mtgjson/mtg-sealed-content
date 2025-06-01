@@ -15,7 +15,17 @@ products:
     pack:
     - code: draft
       set: rna
-  Ravnica Allegiance Bundle: []
+  Ravnica Allegiance Bundle:
+    other:
+    - name: 1 card box
+    - name: "1 player\u2019s guide"
+    - name: 80-card land pack (1 foil, 7 nonfoil for each type)
+    - name: 1 learn-to-play insert
+    - name: 1 Spindown life counter
+    sealed:
+    - count: 10
+      name: Ravnica Allegiance Booster Pack
+      set: rna
   Ravnica Allegiance Collector Booster Box:
     sealed:
     - count: 12
