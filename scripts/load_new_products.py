@@ -890,7 +890,7 @@ if __name__ == "__main__":
     except Exception:
         print("Unable to parse auth - only non-authenticated requests will succeed")
         secret = {}
-        if sys.argv[1] == "--parseonly":
+        if len(sys.argv) > 1 and sys.argv[1] == "--parseonly":
             main({}, False)
             quit()
         pass
