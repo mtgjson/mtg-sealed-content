@@ -461,6 +461,9 @@ def load_starcity_retail(secret):
         resp = scgretaildownload(guid, page)
         for result in resp["Results"]:
             title = result["Document"]["item_display_name"][0]
+            subtitles = result["Document"].get("subtitle")
+            if subtitles:
+                title = f"{title} {subtitles[0]}"
 
             if any(tag.lower() in title.lower() for tag in ["Lorcana", "Flesh and Blood", "Star Wars", "Vibes"]):
                 continue
