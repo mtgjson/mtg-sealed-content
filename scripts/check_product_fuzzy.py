@@ -40,7 +40,7 @@ while index < len(review_products):
     product = review_products[index]
     index += 1
 
-    print(f"Finding similar products for {product[0]}")
+    print(f"Finding similar products for {product[0]} {product[1]}")
     known_products.sort(key=lambda x: fuzz.token_sort_ratio(x[0], product[0]), reverse=True)
     for i in range(5):
         print(f"  {i} - {known_products[i + offset][0]}")
