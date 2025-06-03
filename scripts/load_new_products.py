@@ -462,7 +462,7 @@ def load_starcity_retail(secret):
         for result in resp["Results"]:
             title = result["Document"]["item_display_name"][0]
 
-            if any(tag.lower() in title.lower() for tag in ["Lorcana", "Flesh and Blood"]):
+            if any(tag.lower() in title.lower() for tag in ["Lorcana", "Flesh and Blood", "Star Wars", "Vibes"]):
                 continue
 
             sealed_data.extend([
