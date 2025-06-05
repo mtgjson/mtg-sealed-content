@@ -4,7 +4,12 @@ abugames:
     identifiers:
       abuId: '1100093'
     subtype: UNKNOWN
-cardKingdom: {}
+cardKingdom:
+  Final Fantasy Collector Booster Box (Non-English JAPANESE):
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '313172'
+    subtype: UNKNOWN
 cardMarket:
   'Commander: Edge of Eternities: ""Counter Intelligence"" Commander Deck':
     category: UNKNOWN
@@ -257,6 +262,12 @@ miniaturemarket:
       miniaturemarketId: '305958'
     release_date: '2025-03-03'
     subtype: UNKNOWN
+  'MtG Universes Beyond: Spider-Man - Collector Booster Box (12)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305965'
+    release_date: '2025-03-03'
+    subtype: UNKNOWN
 starcitygames:
   Edge of Eternities Commander Decks - Set of 2:
     category: UNKNOWN
@@ -295,6 +306,12 @@ tcgplayer:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '619676'
+    release_date: '2025-08-01'
+    subtype: UNKNOWN
+  Edge of Eternities Commander Decks Set of 2:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '636222'
     release_date: '2025-08-01'
     subtype: UNKNOWN
   Innistrad Remastered Omega Collector Booster:
@@ -519,5 +536,10 @@ tcgplayer:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '628285'
+    subtype: UNKNOWN
+  Worlds Smallest Magic The Gathering Exclusive Collector Set:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '636164'
     subtype: UNKNOWN
 trollandtoad: {}
