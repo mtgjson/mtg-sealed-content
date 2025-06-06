@@ -1,9 +1,4 @@
-abugames:
-  Alara Block Premium Foil Booster Box:
-    category: UNKNOWN
-    identifiers:
-      abuId: '1100093'
-    subtype: UNKNOWN
+abugames: {}
 cardKingdom:
   Final Fantasy Collector Booster Box (Non-English JAPANESE):
     category: UNKNOWN
@@ -40,12 +35,6 @@ cardMarket:
     identifiers:
       mcmId: '822335'
     release_date: '2025-04-23'
-    subtype: UNKNOWN
-  'Secret Lair Drop Series: Festival in a Box: Las Vegas 2024':
-    category: UNKNOWN
-    identifiers:
-      mcmId: '785814'
-    release_date: '2024-08-29'
     subtype: UNKNOWN
   'Secret Lair Drop Series: Festival in a Box: Las Vegas 2025: ""Slay the Day""':
     category: UNKNOWN
@@ -212,30 +201,19 @@ cardTrader:
     identifiers:
       cardtraderId: '333401'
     subtype: UNKNOWN
-  'The Lord of the Rings: Tales of Middle-earth Prerelease Booster':
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '335131'
-    subtype: UNKNOWN
 coolstuffinc: {}
 miniaturemarket:
-  'Magic the Gathering: Dominaria United - Draft Booster Box (36)':
+  'MTG: Universes Beyond: Final Fantasy - Bundle':
     category: UNKNOWN
     identifiers:
-      miniaturemarketId: '286794'
-    release_date: '2022-07-27'
+      miniaturemarketId: '305710'
+    release_date: '2025-02-18'
     subtype: UNKNOWN
-  'Magic the Gathering: Dominaria United - Draft Booster Pack':
+  'MTG: Universes Beyond: Final Fantasy - Collector Booster Box':
     category: UNKNOWN
     identifiers:
-      miniaturemarketId: '286795'
-    release_date: '2022-07-27'
-    subtype: UNKNOWN
-  'Magic the Gathering: Wilds of Eldraine - Set Booster Pack':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: '293196'
-    release_date: '2023-05-17'
+      miniaturemarketId: '305696'
+    release_date: '2025-02-18'
     subtype: UNKNOWN
   'MtG Edge of Eternities: Commander Deck - Counter Intelligence':
     category: UNKNOWN
@@ -255,16 +233,10 @@ miniaturemarket:
       miniaturemarketId: '305944'
     release_date: '2025-03-03'
     subtype: UNKNOWN
-  'MtG Tarkir Dragonstorm: Commander Deck - Jeskai Striker':
+  'MtG Universes Beyond: Spider-Man - Collector Booster Box (12)':
     category: UNKNOWN
     identifiers:
-      miniaturemarketId: '305957'
-    release_date: '2025-03-03'
-    subtype: UNKNOWN
-  'MtG Tarkir Dragonstorm: Commander Deck - Mardu Surge':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: '305958'
+      miniaturemarketId: '305965'
     release_date: '2025-03-03'
     subtype: UNKNOWN
 starcitygames:
@@ -273,10 +245,40 @@ starcitygames:
     identifiers:
       scgId: SLD-MTG-MLT-EOC-EN-SET2
     subtype: UNKNOWN
-  Final Fantasy Collector Booster Box:
+  Final Fantasy Collector Booster Box (Japanese):
     category: UNKNOWN
     identifiers:
       scgId: SLD-MTG-BBX-FINCOLLECTOR-JA
+    subtype: UNKNOWN
+  Vibes - Enter the Huddle Booster Box:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-VIBE-BBX-ETH-EN-NOPROMO
+    subtype: UNKNOWN
+  Vibes - Enter the Huddle Booster Box & SCG-Exclusive Promo "Buddy Up":
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-VIBE-BBX-ETH-EN
+    subtype: UNKNOWN
+  Vibes - Enter the Huddle Booster Case:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-VIBE-BBX-ETHCASE-EN-NOPROMO
+    subtype: UNKNOWN
+  Vibes - Enter the Huddle Booster Case & SCG-Exclusive Promo "Buddy Up":
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-VIBE-BBX-ETHCASE-EN
+    subtype: UNKNOWN
+  Vibes - Starter Decks - Advanced Red & Blue:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-VIBE-INT-VIBES-REDBLUE
+    subtype: UNKNOWN
+  Vibes - Starter Decks - Beginner Yellow & Green:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-VIBE-INT-VIBES-YELOWGREEN
     subtype: UNKNOWN
 tcgplayer:
   10th Edition Theme Decks Set of 5:
@@ -313,25 +315,10 @@ tcgplayer:
     identifiers:
       tcgplayerProductId: '628284'
     subtype: UNKNOWN
-  Invasion Tournament Pack Display:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '633386'
-    subtype: UNKNOWN
   Land Station 2025:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '622966'
-    subtype: UNKNOWN
-  Mercadian Masques Tournament Pack Display:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '633387'
-    subtype: UNKNOWN
-  Odyssey Tournament Pack Display:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '633388'
     subtype: UNKNOWN
   Onslaught Tournament Pack Display:
     category: UNKNOWN
