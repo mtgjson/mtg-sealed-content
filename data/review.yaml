@@ -5,6 +5,11 @@ cardKingdom:
     identifiers:
       cardKingdomId: '313172'
     subtype: UNKNOWN
+  'Magic: The Gathering 2025 Land Station':
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '315940'
+    subtype: UNKNOWN
 cardMarket:
   'Commander: Edge of Eternities: ""Counter Intelligence"" Commander Deck':
     category: UNKNOWN
@@ -209,6 +214,24 @@ cardTrader:
     subtype: UNKNOWN
 coolstuffinc: {}
 miniaturemarket:
+  'MTG: Universes Beyond: Final Fantasy - Bundle':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305710'
+    release_date: '2025-02-18'
+    subtype: UNKNOWN
+  'MTG: Universes Beyond: Final Fantasy - Collector Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305697'
+    release_date: '2025-02-18'
+    subtype: UNKNOWN
+  'Magic the Gathering: Commander Masters Set Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '291551'
+    release_date: '2023-03-15'
+    subtype: UNKNOWN
   'MtG Edge of Eternities: Commander Deck - Counter Intelligence':
     category: UNKNOWN
     identifiers:
@@ -225,12 +248,6 @@ miniaturemarket:
     category: UNKNOWN
     identifiers:
       miniaturemarketId: '305944'
-    release_date: '2025-03-03'
-    subtype: UNKNOWN
-  'MtG Universes Beyond: Spider-Man - Collector Booster Box (12)':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: '305965'
     release_date: '2025-03-03'
     subtype: UNKNOWN
 starcitygames:
