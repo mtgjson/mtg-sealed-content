@@ -53,6 +53,18 @@ cardMarket:
       mcmId: '825061'
     release_date: '2025-05-14'
     subtype: UNKNOWN
+  'Secret Lair Drop Series: Summer Superdrop 2025: Artist Series: Phil Foglio':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '829802'
+    release_date: '2025-06-10'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: Summer Superdrop 2025: Featuring: Imiri Sakabashira':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '829801'
+    release_date: '2025-06-10'
+    subtype: UNKNOWN
   'Secret Lair Drop Series: Summer Superdrop 2025: Secret Lair x FINAL FANTASY: Game Over':
     category: UNKNOWN
     identifiers:
@@ -70,6 +82,12 @@ cardMarket:
     identifiers:
       mcmId: '825272'
     release_date: '2025-05-15'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: Summer Superdrop 2025: The Art of Frank Frazetta: The Second Exhibition':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '829799'
+    release_date: '2025-06-10'
     subtype: UNKNOWN
   'Secret Lair Drop Series: The Ultimate Pencil Superdrop: EVERYTHING IS ON FIRE':
     category: UNKNOWN
@@ -162,10 +180,55 @@ cardMarket:
     release_date: '2024-07-17'
     subtype: UNKNOWN
 cardTrader:
-  Could not load provider cardTrader:
+  Edge of Eternities Commander Deck Set 2 Commander Decks:
     category: UNKNOWN
     identifiers:
-      cardtraderId: ''
+      cardtraderId: '322702'
+    subtype: UNKNOWN
+  'Edge of Eternities: "Counter Intelligence" Commander Deck':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '322693'
+    subtype: UNKNOWN
+  'Edge of Eternities: "World Shaper" Commander Deck':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '322694'
+    subtype: UNKNOWN
+  "Magic: The Gathering \u2014 FINAL FANTASY | Prerelease Booster":
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '335997'
+    subtype: UNKNOWN
+  'Secret Lair Commander Deck: Everyone''s Invited!':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '331092'
+    subtype: UNKNOWN
+  Secret Lair Drop Series | Slay the Day:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '333403'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: Adventures of the Little Witch':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '330213'
+    subtype: UNKNOWN
+  'Secret Lair x FINAL FANTASY: Game Over':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '333399'
+    subtype: UNKNOWN
+  'Secret Lair x FINAL FANTASY: Grimoire':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '333400'
+    subtype: UNKNOWN
+  'Secret Lair x FINAL FANTASY: Weapons':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '333401'
     subtype: UNKNOWN
 coolstuffinc: {}
 miniaturemarket:
@@ -173,6 +236,12 @@ miniaturemarket:
     category: UNKNOWN
     identifiers:
       miniaturemarketId: '305710'
+    release_date: '2025-02-18'
+    subtype: UNKNOWN
+  'MTG: Universes Beyond: Final Fantasy - Commander Deck - Set of 4':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305699'
     release_date: '2025-02-18'
     subtype: UNKNOWN
   'Magic the Gathering: Commander Masters Set Booster Pack':
@@ -493,16 +562,76 @@ tcgplayer:
       tcgplayerProductId: '632028'
     release_date: '2025-05-02'
     subtype: UNKNOWN
-  Secret Lair x NALAC Drop Nuestra Magia Non Foil:
+  Secret Lair x FINAL FANTASY Game Over JP Non Foil Edition:
     category: UNKNOWN
     identifiers:
-      tcgplayerProductId: '636315'
+      tcgplayerProductId: '637468'
     release_date: '2025-05-02'
     subtype: UNKNOWN
-  Secret Lair x NALAC Drop Nuestra Magia Rainbow Foil:
+  Secret Lair x FINAL FANTASY Game Over JP Rainbow Foil Edition:
     category: UNKNOWN
     identifiers:
-      tcgplayerProductId: '636316'
+      tcgplayerProductId: '637469'
+    release_date: '2025-05-02'
+    subtype: UNKNOWN
+  Secret Lair x FINAL FANTASY Game Over Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '637467'
+    release_date: '2025-05-02'
+    subtype: UNKNOWN
+  Secret Lair x FINAL FANTASY Game Over Rainbow Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '637466'
+    release_date: '2025-05-02'
+    subtype: UNKNOWN
+  Secret Lair x FINAL FANTASY Grimoire JP Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '637472'
+    release_date: '2025-05-02'
+    subtype: UNKNOWN
+  Secret Lair x FINAL FANTASY Grimoire JP Rainbow Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '637471'
+    release_date: '2025-05-02'
+    subtype: UNKNOWN
+  Secret Lair x FINAL FANTASY Grimoire Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '637473'
+    release_date: '2025-05-02'
+    subtype: UNKNOWN
+  Secret Lair x FINAL FANTASY Grimoire Rainbow Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '637470'
+    release_date: '2025-05-02'
+    subtype: UNKNOWN
+  Secret Lair x FINAL FANTASY Weapons JP Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '637475'
+    release_date: '2025-05-02'
+    subtype: UNKNOWN
+  Secret Lair x FINAL FANTASY Weapons JP Rainbow Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '637476'
+    release_date: '2025-05-02'
+    subtype: UNKNOWN
+  Secret Lair x FINAL FANTASY Weapons Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '637474'
+    release_date: '2025-05-02'
+    subtype: UNKNOWN
+  Secret Lair x FINAL FANTASY Weapons Rainbow Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '637477'
     release_date: '2025-05-02'
     subtype: UNKNOWN
   Tarkir Dragonstorm Omega Collector Booster:
