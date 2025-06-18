@@ -280,6 +280,11 @@ cardTrader:
     identifiers:
       cardtraderId: '335997'
     subtype: UNKNOWN
+  'Portal: Demo Game Booster | Two Player Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '337167'
+    subtype: UNKNOWN
   'Secret Lair Commander Deck: Everyone''s Invited!':
     category: UNKNOWN
     identifiers:
@@ -312,34 +317,10 @@ cardTrader:
     subtype: UNKNOWN
 coolstuffinc: {}
 miniaturemarket:
-  'MTG: Edge of Eternities - Commander Deck - Counter Intelligence (Preorder)':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: '305945'
-    release_date: '2025-03-03'
-    subtype: UNKNOWN
-  'MTG: Edge of Eternities - Commander Deck - Set of 2 (Preorder)':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: '305944'
-    release_date: '2025-03-03'
-    subtype: UNKNOWN
-  'MTG: Edge of Eternities - Commander Deck - World Shaper (Preorder)':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: '305946'
-    release_date: '2025-03-03'
-    subtype: UNKNOWN
   'MTG: Universes Beyond: Final Fantasy - Bundle':
     category: UNKNOWN
     identifiers:
       miniaturemarketId: '305710'
-    release_date: '2025-02-18'
-    subtype: UNKNOWN
-  'MTG: Universes Beyond: Final Fantasy - Collector Booster Box':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: '305696'
     release_date: '2025-02-18'
     subtype: UNKNOWN
   'MTG: Universes Beyond: Final Fantasy - Commander Deck - Set of 4':
@@ -348,17 +329,29 @@ miniaturemarket:
       miniaturemarketId: '305699'
     release_date: '2025-02-18'
     subtype: UNKNOWN
-  'MTG: Universes Beyond: Final Fantasy - Gift Edition Bundle (Preorder)':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: '305709'
-    release_date: '2025-02-18'
-    subtype: UNKNOWN
   'Magic the Gathering: Commander Masters Set Booster Pack':
     category: UNKNOWN
     identifiers:
       miniaturemarketId: '291551'
     release_date: '2023-03-15'
+    subtype: UNKNOWN
+  'MtG Edge of Eternities: Commander Deck - Counter Intelligence':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305945'
+    release_date: '2025-03-03'
+    subtype: UNKNOWN
+  'MtG Edge of Eternities: Commander Deck - World Shaper':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305946'
+    release_date: '2025-03-03'
+    subtype: UNKNOWN
+  'MtG Edge of Eternities: Commander Deck Set (2)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305944'
+    release_date: '2025-03-03'
     subtype: UNKNOWN
 starcitygames:
   Edge of Eternities Commander Decks - Set of 2:
@@ -461,7 +454,7 @@ starcitygames:
     identifiers:
       scgId: SLD-WOTF-INT-EX-EN-WITNESS
     subtype: UNKNOWN
-  'Wonders of the First: Existence - Orbital Starter Deck Case - Set of 6':
+  'Wonders of the First: Existence - Orbital Starter Deck Case (Set of 6)':
     category: UNKNOWN
     identifiers:
       scgId: SLD-WOTF-INT-EX-EN-SET6
@@ -471,6 +464,11 @@ tcgplayer:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '630831'
+    subtype: UNKNOWN
+  Aetherdrift Sleeved Play Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '638084'
     subtype: UNKNOWN
   Edge of Eternities Commander Deck Case:
     category: UNKNOWN
@@ -797,61 +795,73 @@ tcgplayer:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '637468'
+    release_date: '2025-05-02'
     subtype: UNKNOWN
   Secret Lair x FINAL FANTASY Game Over JP Rainbow Foil Edition:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '637469'
+    release_date: '2025-05-02'
     subtype: UNKNOWN
   Secret Lair x FINAL FANTASY Game Over Non Foil Edition:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '637467'
+    release_date: '2025-05-02'
     subtype: UNKNOWN
   Secret Lair x FINAL FANTASY Game Over Rainbow Foil Edition:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '637466'
+    release_date: '2025-05-02'
     subtype: UNKNOWN
   Secret Lair x FINAL FANTASY Grimoire JP Non Foil Edition:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '637472'
+    release_date: '2025-05-02'
     subtype: UNKNOWN
   Secret Lair x FINAL FANTASY Grimoire JP Rainbow Foil Edition:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '637471'
+    release_date: '2025-05-02'
     subtype: UNKNOWN
   Secret Lair x FINAL FANTASY Grimoire Non Foil Edition:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '637473'
+    release_date: '2025-05-02'
     subtype: UNKNOWN
   Secret Lair x FINAL FANTASY Grimoire Rainbow Foil Edition:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '637470'
+    release_date: '2025-05-02'
     subtype: UNKNOWN
   Secret Lair x FINAL FANTASY Weapons JP Non Foil Edition:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '637475'
+    release_date: '2025-05-02'
     subtype: UNKNOWN
   Secret Lair x FINAL FANTASY Weapons JP Rainbow Foil Edition:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '637476'
+    release_date: '2025-05-02'
     subtype: UNKNOWN
   Secret Lair x FINAL FANTASY Weapons Non Foil Edition:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '637474'
+    release_date: '2025-05-02'
     subtype: UNKNOWN
   Secret Lair x FINAL FANTASY Weapons Rainbow Foil Edition:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '637477'
+    release_date: '2025-05-02'
     subtype: UNKNOWN
   Tarkir Dragonstorm Collector Booster Sample Pack:
     category: UNKNOWN
