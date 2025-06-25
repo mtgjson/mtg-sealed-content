@@ -327,6 +327,18 @@ cardTrader:
     subtype: UNKNOWN
 coolstuffinc: {}
 miniaturemarket:
+  'MTG: Universes Beyond: Final Fantasy - Bundle':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305710'
+    release_date: '2025-02-18'
+    subtype: UNKNOWN
+  'MTG: Universes Beyond: Final Fantasy - Collector Booster Box':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305696'
+    release_date: '2025-02-18'
+    subtype: UNKNOWN
   'Magic the Gathering: Commander Masters Set Booster Pack':
     category: UNKNOWN
     identifiers:
@@ -351,6 +363,24 @@ miniaturemarket:
       miniaturemarketId: '305944'
     release_date: '2025-03-03'
     subtype: UNKNOWN
+  'MtG Universes Beyond: Final Fantasy - Gift Edition Bundle':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305709'
+    release_date: '2025-02-18'
+    subtype: UNKNOWN
+  'MtG Universes Beyond: Spider-Man - Collector Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305966'
+    release_date: '2025-03-03'
+    subtype: UNKNOWN
+  'MtG Universes Beyond: Spider-Man - Play Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305963'
+    release_date: '2025-03-03'
+    subtype: UNKNOWN
 starcitygames:
   Bo Jackson Battle Arena 2025 Alpha Update - Collector Booster Box:
     category: UNKNOWN
@@ -366,6 +396,11 @@ starcitygames:
     category: UNKNOWN
     identifiers:
       scgId: SLD-BOBA-BBX-A25JUMBOHOBBY-EN
+    subtype: UNKNOWN
+  Collectors' Edition Box Set:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BXS-CED-EN
     subtype: UNKNOWN
   Edge of Eternities Commander Decks - Set of 2:
     category: UNKNOWN
@@ -396,6 +431,11 @@ starcitygames:
     category: UNKNOWN
     identifiers:
       scgId: SLD-FAB-INT-RNR-EN
+    subtype: UNKNOWN
+  International Collectors' Edition Box Set:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BXS-CEI-EN
     subtype: UNKNOWN
   Vibes - Enter the Huddle Booster Box:
     category: UNKNOWN
@@ -704,49 +744,41 @@ tcgplayer:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '637676'
-    release_date: '2025-05-02'
     subtype: UNKNOWN
   Secret Lair Drop Summer Superdrop 2025 The Artist Spotlight Bundle Rainbow Foil Edition:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '637677'
-    release_date: '2025-05-02'
     subtype: UNKNOWN
   Secret Lair Drop Summer Superdrop 2025 The Complete FINAL FANTASY Bundle:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '637682'
-    release_date: '2025-05-02'
     subtype: UNKNOWN
   Secret Lair Drop Summer Superdrop 2025 The English FINAL FANTASY Bundle:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '637680'
-    release_date: '2025-05-02'
     subtype: UNKNOWN
   Secret Lair Drop Summer Superdrop 2025 The Japanese FINAL FANTASY Bundle:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '637681'
-    release_date: '2025-05-02'
     subtype: UNKNOWN
   Secret Lair Drop Summer Superdrop 2025 The Summer Superdrop Bundle Non Foil Edition:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '637679'
-    release_date: '2025-05-02'
     subtype: UNKNOWN
   Secret Lair Drop Summer Superdrop 2025 The Summer Superdrop Bundle Rainbow Foil Edition:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '637678'
-    release_date: '2025-05-02'
     subtype: UNKNOWN
   Secret Lair Drop Summer Superdrop 2025 The Summer Superdrop Everything Bundle:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '637683'
-    release_date: '2025-05-02'
     subtype: UNKNOWN
   Secret Lair Drop The Ultimate Pencil Almost Everything Bundle:
     category: UNKNOWN
