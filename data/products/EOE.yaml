@@ -3,6 +3,7 @@ products:
   Edge of Eternities Bundle:
     category: BUNDLE
     identifiers:
+      cardKingdomId: '316074'
       cardtraderId: '322696'
       mcmId: '813310'
       miniaturemarketId: '305947'
@@ -17,6 +18,7 @@ products:
   Edge of Eternities Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      cardKingdomId: '316072'
       cardtraderId: '322544'
       mcmId: '813293'
       miniaturemarketId: '305941'
@@ -31,6 +33,7 @@ products:
   Edge of Eternities Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardKingdomId: '316070'
       cardtraderId: '322687'
       mcmId: '813301'
       miniaturemarketId: '305942'
@@ -45,6 +48,7 @@ products:
   Edge of Eternities Play Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      cardKingdomId: '316073'
       cardtraderId: '322543'
       mcmId: '813290'
       miniaturemarketId: '305938'
@@ -60,9 +64,11 @@ products:
   Edge of Eternities Play Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardKingdomId: '316071'
       cardtraderId: '322686'
       mcmId: '813298'
       miniaturemarketId: '305939'
+      scgId: SLD-MTG-PCK-EOE-EN
       tcgplayerProductId: '619697'
     subtype: PLAY
   Edge of Eternities Prerelease Pack:
@@ -70,5 +76,6 @@ products:
     identifiers:
       cardtraderId: '322695'
       mcmId: '813347'
+      scgId: SLD-MTG-INT-EOEPRE-EN
       tcgplayerProductId: '619675'
     subtype: PRERELEASE
