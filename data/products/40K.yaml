@@ -1,17 +1,13 @@
 code: 40k
 products:
-  Warhammer 40000 Commander Deck Collectors Edition Set of 4:
-    category: SUBSET
-    identifiers:
-      cardtraderId: '221754'
-      csiId: '339087'
-      mcmId: '674343'
-      scgId: SLD-MTG-MLT-40KCOLLECTOR-EN-SET4
-    subtype: COMMANDER
   Warhammer 40000 Commander Deck Display:
     category: DECK_BOX
     identifiers:
       cardKingdomId: '265872'
+      cardtraderId: '221755'
+      csiId: '339082'
+      mcmId: '674342'
+      scgId: SLD-MTG-MLT-40K-EN-SET4
       tcgplayerProductId: '272321'
     release_date: '2022-10-07'
     subtype: COMMANDER
@@ -19,6 +15,10 @@ products:
     category: DECK_BOX
     identifiers:
       cardKingdomId: '265873'
+      cardtraderId: '221754'
+      csiId: '339087'
+      mcmId: '674343'
+      scgId: SLD-MTG-MLT-40KCOLLECTOR-EN-SET4
       tcgplayerProductId: '272322'
     release_date: '2022-10-07'
     subtype: COMMANDER
@@ -73,14 +73,6 @@ products:
       tcgplayerProductId: '272311'
       tntId: '1751749'
     release_date: '2022-10-07'
-    subtype: COMMANDER
-  Warhammer 40000 Commander Deck Set of 4:
-    category: SUBSET
-    identifiers:
-      cardtraderId: '221755'
-      csiId: '339082'
-      mcmId: '674342'
-      scgId: SLD-MTG-MLT-40K-EN-SET4
     subtype: COMMANDER
   Warhammer 40000 Commander Deck The Ruinous Powers:
     category: DECK
