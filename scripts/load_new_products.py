@@ -465,13 +465,14 @@ def load_starcity_retail(secret):
             if subtitles:
                 title = f"{title} {subtitles[0]}"
 
-            if any(tag.lower() in title.lower() for tag in ["Lorcana", "Flesh and Blood", "Star Wars", "Vibes"]):
+            scgId = result["Document"]["hawk_child_attributes"][0]["variant_sku"][0]
+            if not scgId.startswith("SLD-MTG"):
                 continue
 
             sealed_data.extend([
                 {
                     "name": title,
-                    "id": result["Document"]["hawk_child_attributes"][0]["variant_sku"][0],
+                    "id": scgId,
                 }
             ])
 
@@ -490,13 +491,14 @@ def load_starcity_buylist(secret):
             if result["subtitle"]:
                 title += " " + result["subtitle"]
 
-            if any(tag.lower() in title.lower() for tag in ["Lorcana", "Flesh and Blood"]):
+            scgId = result["variants"][0]["sku"]
+            if not scgId.startswith("SLD-MTG"):
                 continue
 
             sealed_data.extend([
                 {
                     "name": title,
-                    "id": result["variants"][0]["sku"],
+                    "id": scgId,
                 }
             ])
 
