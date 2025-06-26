@@ -70,6 +70,46 @@ abugames:
       abuId: '2594503'
     subtype: UNKNOWN
 cardKingdom:
+  Edge of Eternities Bundle:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '316074'
+    subtype: UNKNOWN
+  Edge of Eternities Collector Booster Box:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '316072'
+    subtype: UNKNOWN
+  Edge of Eternities Collector Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '316070'
+    subtype: UNKNOWN
+  Edge of Eternities Commander Deck - Counter Intelligence:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '316077'
+    subtype: UNKNOWN
+  Edge of Eternities Commander Deck - World Shaper:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '316076'
+    subtype: UNKNOWN
+  Edge of Eternities Commander Decks - Set of Two:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '316078'
+    subtype: UNKNOWN
+  Edge of Eternities Play Booster Box:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '316073'
+    subtype: UNKNOWN
+  Edge of Eternities Play Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '316071'
+    subtype: UNKNOWN
   Final Fantasy Collector Booster Box (Non-English JAPANESE):
     category: UNKNOWN
     identifiers:
@@ -132,6 +172,18 @@ cardMarket:
     identifiers:
       mcmId: '825061'
     release_date: '2025-05-14'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: Secret Lair x National Association of Latino Arts and Cultures: Nuestra Magia':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '830613'
+    release_date: '2025-06-24'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: Secret Lair x National Association of Latino Arts and Cultures: Nuestra Magia (Rainbow Foil)':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '830614'
+    release_date: '2025-06-24'
     subtype: UNKNOWN
   'Secret Lair Drop Series: Summer Superdrop 2025: Artist Series: Phil Foglio':
     category: UNKNOWN
@@ -275,6 +327,11 @@ cardTrader:
     identifiers:
       cardtraderId: '322694'
     subtype: UNKNOWN
+  'Festival in a Box: Las Vegas 2025':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '338153'
+    subtype: UNKNOWN
   "Magic: The Gathering \u2014 FINAL FANTASY Collector Booster | Sample Pack Sample Pack":
     category: UNKNOWN
     identifiers:
@@ -333,10 +390,10 @@ miniaturemarket:
       miniaturemarketId: '305710'
     release_date: '2025-02-18'
     subtype: UNKNOWN
-  'MTG: Universes Beyond: Final Fantasy - Collector Booster Box':
+  'MTG: Universes Beyond: Final Fantasy - Commander Deck - Set of 4':
     category: UNKNOWN
     identifiers:
-      miniaturemarketId: '305696'
+      miniaturemarketId: '305699'
     release_date: '2025-02-18'
     subtype: UNKNOWN
   'Magic the Gathering: Commander Masters Set Booster Pack':
@@ -362,12 +419,6 @@ miniaturemarket:
     identifiers:
       miniaturemarketId: '305944'
     release_date: '2025-03-03'
-    subtype: UNKNOWN
-  'MtG Universes Beyond: Final Fantasy - Gift Edition Bundle':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: '305709'
-    release_date: '2025-02-18'
     subtype: UNKNOWN
   'MtG Universes Beyond: Spider-Man - Collector Booster Pack':
     category: UNKNOWN
@@ -402,10 +453,30 @@ starcitygames:
     identifiers:
       scgId: SLD-MTG-BXS-CED-EN
     subtype: UNKNOWN
+  Edge of Eternities Commander Deck - Counter Intelligence:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-MLT-EOC-EN-COUNTER
+    subtype: UNKNOWN
+  Edge of Eternities Commander Deck - World Shaper:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-MLT-EOC-EN-WORLD
+    subtype: UNKNOWN
   Edge of Eternities Commander Decks - Set of 2:
     category: UNKNOWN
     identifiers:
       scgId: SLD-MTG-MLT-EOC-EN-SET2
+    subtype: UNKNOWN
+  Edge of Eternities Play Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-EOE-EN
+    subtype: UNKNOWN
+  Edge of Eternities Prerelease Kit:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-EOEPRE-EN
     subtype: UNKNOWN
   Final Fantasy Collector Booster Box (Japanese):
     category: UNKNOWN
@@ -551,6 +622,11 @@ tcgplayer:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '637663'
+    subtype: UNKNOWN
+  FINAL FANTASY Collector Booster Pack Minimal Packaging:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '639464'
     subtype: UNKNOWN
   FINAL FANTASY Collector Booster Sample Pack:
     category: UNKNOWN
