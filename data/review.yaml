@@ -1,4 +1,9 @@
 abugames:
+  'Final Fantasy Gift Bundle [Limit: 1 Per customer]':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2594499'
+    subtype: UNKNOWN
   'Strixhaven: School of Mages Japanese Set Booster Pack [LIMIT 6 PER CUSTOMER]':
     category: UNKNOWN
     identifiers:
@@ -19,6 +24,11 @@ cardKingdom:
     category: UNKNOWN
     identifiers:
       cardKingdomId: '316078'
+    subtype: UNKNOWN
+  Final Fantasy Gift Bundle:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '312844'
     subtype: UNKNOWN
 cardMarket:
   'Commander: Edge of Eternities: ""Counter Intelligence"" Commander Deck':
@@ -257,6 +267,18 @@ cardTrader:
     subtype: UNKNOWN
 coolstuffinc: {}
 miniaturemarket:
+  'MTG: Universes Beyond: Final Fantasy - Collector Booster Box':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305696'
+    release_date: '2025-02-18'
+    subtype: UNKNOWN
+  'MTG: Universes Beyond: Final Fantasy - Collector Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305697'
+    release_date: '2025-02-18'
+    subtype: UNKNOWN
   'MTG: Universes Beyond: Final Fantasy - Gift Bundle':
     category: UNKNOWN
     identifiers:
@@ -279,6 +301,12 @@ miniaturemarket:
     category: UNKNOWN
     identifiers:
       miniaturemarketId: '305944'
+    release_date: '2025-03-03'
+    subtype: UNKNOWN
+  'MtG Tarkir Dragonstorm: Commander Deck - Abzan Armor':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305956'
     release_date: '2025-03-03'
     subtype: UNKNOWN
   'MtG Universes Beyond: Spider-Man - Play Booster Pack':
