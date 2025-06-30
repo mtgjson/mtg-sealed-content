@@ -1,5 +1,36 @@
 code: drc
 products:
-  Aetherdrift Commander Deck Eternal Might: []
-  Aetherdrift Commander Deck Living Energy: []
-  Aetherdrift Commander Decks Set of 2: []
+  Aetherdrift Commander Deck Eternal Might:
+    card_count: 100
+    deck:
+    - set: drc
+      name: Eternal Might
+    sealed:
+    - set: dft
+      name: Aetherdrift Collector Booster Sample Pack
+      count: 1
+    other:
+    - name: Reference Card
+    - name: Deck Box
+    - name: 10 Double Sided Tokens
+  Aetherdrift Commander Deck Living Energy:
+    card_count: 100
+    deck:
+    - set: drc
+      name: Living Energy
+    sealed:
+    - set: dft
+      name: Aetherdrift Collector Booster Sample Pack
+      count: 1
+    other:
+    - name: Reference Card
+    - name: Deck Box
+    - name: 10 Double Sided Tokens
+  Aetherdrift Commander Decks Set of 2: 
+    sealed:
+    - set: drc
+      count: 1
+      name: Aetherdrift Commander Deck Eternal Might
+    - set: drc
+      count: 1
+      name: Aetherdrift Commander Deck Living Energy
