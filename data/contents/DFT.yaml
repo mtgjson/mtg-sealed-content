@@ -3,114 +3,114 @@ products:
   Aetherdrift Box Topper Booster:
     card_count: 2
     pack:
-    - set: dft
-      code: box-topper
+    - code: box-topper
+      set: dft
   Aetherdrift Bundle:
-    sealed:
-    - set: dft
-      name: Aetherdrift Play Booster Pack
-      count: 9
     card:
-    - set: dft
+    - foil: true
       name: Lumbering Worldwagon
       number: 422
-      foil: true
+      set: dft
     other:
     - name: 40 Basic Lands Bundle
     - name: 2 Reference Cards
     - name: 1 Spindown Die
     - name: Aetherdrift Card Storage Box
+    sealed:
+    - count: 9
+      name: Aetherdrift Play Booster Pack
+      set: dft
   Aetherdrift Bundle Case:
     sealed:
-    - set: dft
+    - count: 6
       name: Aetherdrift Bundle
-      count: 6
+      set: dft
   Aetherdrift Collector Booster Box:
     sealed:
-    - set: dft
-      count: 12
+    - count: 12
       name: etherdrift Collector Booster Pack
-    - set: dft
-      count: 1
+      set: dft
+    - count: 1
       name: Aetherdrift Box Topper Booster
+      set: dft
   Aetherdrift Collector Booster Box Case:
     sealed:
-    - set: dft
-      count: 6
+    - count: 6
       name: Aetherdrift Collector Booster Box
+      set: dft
   Aetherdrift Collector Booster Pack:
     card_count: 15
     pack:
-    - set: dft
-      code: collector
+    - code: collector
+      set: dft
   Aetherdrift Collector Booster Sample Pack:
     card_count: 2
     pack:
-    - set: dft
-      code: collector-sample
+    - code: collector-sample
+      set: dft
   Aetherdrift Finish Line Bundle:
-    sealed:
-    - set: dft
-      count: 6
-      name: Aetherdrift Play Booster Pack
-    - set: dft
-      count: 2
-      name: Aetherdrift Collector Booster Pack
-    - set: dft
-      count: 1
-      name: Aetherdrift Box Topper Booster
+    card:
+    - foil: true
+      name: Avishkar Raceway
+      number: 425
+      set: dft
+    - foil: true
+      name: Amonkhet Raceway
+      number: 424
+      set: dft
+    - foil: true
+      name: Muraganda Raceway
+      number: 426
+      set: dft
     other:
     - name: 15 Foil Basic Lands Bundle
     - name: 5 First-Place Foil Basic Lands Bundle
     - name: 5 Stickers
     - name: 1 Aetherdrift Spindown
     - name: 1 Aetherdrift Card Storage Box
-    card:
-    - set: dft
-      name: Avishkar Raceway
-      number: 425
-      foil: true
-    - set: dft
-      name: Amonkhet Raceway
-      number: 424
-      foil: true
-    - set: dft
-      name: Muraganda Raceway
-      number: 426
-      foil: true
+    sealed:
+    - count: 6
+      name: Aetherdrift Play Booster Pack
+      set: dft
+    - count: 2
+      name: Aetherdrift Collector Booster Pack
+      set: dft
+    - count: 1
+      name: Aetherdrift Box Topper Booster
+      set: dft
   Aetherdrift Finish Line Bundle Case:
     sealed:
-    - set: dft
+    - count: 6
       name: Aetherdrift Finish Line Bundle
-      count: 6
-  Aetherdrift Play Booster Box: 
+      set: dft
+  Aetherdrift Play Booster Box:
     sealed:
-    - set: dft
-      count: 30
+    - count: 30
       name: Aetherdrift Play Booster Pack
-    - set: dft
-      count: 1
+      set: dft
+    - count: 1
       name: Aetherdrift Box Topper Booster
+      set: dft
   Aetherdrift Play Booster Box Case:
     sealed:
-    - set: dft
-      count: 6
+    - count: 6
       name: Aetherdrift Play Booster Box
+      set: dft
   Aetherdrift Play Booster Pack:
     card_count: 14
     pack:
-    - set: dft
-      code: play
+    - code: play
+      set: dft
   Aetherdrift Prerelease Pack:
     card_count: 1
-    sealed:
-    - set: dft
-      count: 6
-      name: Aetherdrift Play Booster Pack
-    pack:
-    - set: dft
-      code: prerelease
     other:
     - name: Max Speed Helper Card
     - name: Deck Box
     - name: Aetherdrift Spindown Die
+    pack:
+    - code: prerelease
+      set: dft
+    sealed:
+    - count: 6
+      name: Aetherdrift Play Booster Pack
+      set: dft
