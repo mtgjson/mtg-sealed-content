@@ -1,104 +1,104 @@
 code: fin
 products:
   Final Fantasy Bundle:
-    sealed: 
-    - set: fin
-      count: 9
-      name: Final Fantasy Play Booster Pack
     card_count: 2
-    pack:
-    - set: fin
-      code: bundle-promo
     other:
     - name: 32 Full Art Basic Land Pack
     - name: Final Fantasy Spindown
     - name: Final Fantasy Card Storage Box
+    pack:
+    - code: bundle-promo
+      set: fin
+    sealed:
+    - count: 9
+      name: Final Fantasy Play Booster Pack
+      set: fin
   Final Fantasy Bundle Case:
     sealed:
-    - set: fin
+    - count: 6
       name: Final Fantasy Bundle
-      count: 6
-  Final Fantasy Gift Bundle:
-    sealed:
-    - set: fin
-      count: 9
-      name: Final Fantasy Play Booster Pack
-    - set: fin
-      count: 1
-      name: Final Fantasy Collector Booster Pack
-    card_count: 2
-    pack:
-    - set: fin
-      code: bundle-promo
-    other:
-    - name: 32 Full Art Basic Land Pack
-    - name: Final Fantasy Spindown
-    - name: Final Fantasy Card Storage Box
+      set: fin
   Final Fantasy Collector Booster Box:
     sealed:
-    - set: fin
-      count: 12
+    - count: 12
       name: Final Fantasy Collector Booster Pack
+      set: fin
   Final Fantasy Collector Booster Box Case:
     sealed:
-    - set: fin
+    - count: 6
       name: Final Fantasy Collector Booster Box
-      count: 6
+      set: fin
   Final Fantasy Collector Booster Pack:
     card_count: 15
     pack:
-    - set: fin
-      code: collector
+    - code: collector
+      set: fin
   Final Fantasy Collector Booster Sample Pack:
     card_count: 2
     pack:
-    - set: fin
-      code: collector-sample
+    - code: collector-sample
+      set: fin
+  Final Fantasy Gift Bundle:
+    card_count: 2
+    other:
+    - name: 32 Full Art Basic Land Pack
+    - name: Final Fantasy Spindown
+    - name: Final Fantasy Card Storage Box
+    pack:
+    - code: bundle-promo
+      set: fin
+    sealed:
+    - count: 9
+      name: Final Fantasy Play Booster Pack
+      set: fin
+    - count: 1
+      name: Final Fantasy Collector Booster Pack
+      set: fin
   Final Fantasy Gift Bundle Case:
     sealed:
-    - set: fin
+    - count: 6
       name: Final Fantasy Gift Bundle
-      count: 6
+      set: fin
   Final Fantasy Play Booster Box:
     sealed:
-    - set: fin
-      count: 30
+    - count: 30
       name: Final Fantasy Play Booster Pack
+      set: fin
   Final Fantasy Play Booster Box Case:
     sealed:
-    - set: fin
-      count: 6
+    - count: 6
       name: Final Fantasy Play Booster Box
+      set: fin
   Final Fantasy Play Booster Pack:
     card_count: 14
     pack:
-    - set: fin
-      code: play
+    - code: play
+      set: fin
   Final Fantasy Prerelease Pack:
-    sealed:
-    - set: fin
-      name: Final Fantasy Play Booster Pack
-      count: 6
     card_count: 1
-    pack:
-    - set: fin
-      code: prerelease
     other:
     - name: Deck Box
     - name: Final Fantasy Spindown
+    pack:
+    - code: prerelease
+      set: fin
+    sealed:
+    - count: 6
+      name: Final Fantasy Play Booster Pack
+      set: fin
   Final Fantasy Starter Kit:
     card_count: 120
     deck:
-    - set: fin
-      name: Blue-Black
-    - set: fin
-      name: Red-White
+    - name: Blue-Black
+      set: fin
+    - name: Red-White
+      set: fin
     other:
     - name: 4 Double-Sided Tokens
     - name: 2 MTG Arena Code Cards
     - name: 2 Deck Boxes
   Final Fantasy Starter Kit Case:
     sealed:
-    - set: fin
-      count: 6
+    - count: 6
       name: Final Fantasy Starter Kit
+      set: fin
