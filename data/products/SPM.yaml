@@ -6,6 +6,7 @@ products:
       cardtraderId: '323534'
       mcmId: '814427'
       miniaturemarketId: '305968'
+      scgId: SLD-MTG-BUN-SPM-EN
       tcgplayerProductId: '621115'
     subtype: DEFAULT
   Marvels Spider Man Bundle Case:
@@ -18,6 +19,7 @@ products:
     identifiers:
       cardtraderId: '323531'
       mcmId: '814380'
+      scgId: SLD-MTG-BBX-SPMCOLLECTOR-EN
       tcgplayerProductId: '621110'
     subtype: COLLECTOR
   Marvels Spider Man Collector Booster Box Case:
@@ -30,6 +32,7 @@ products:
     identifiers:
       cardtraderId: '323544'
       mcmId: '814354'
+      scgId: SLD-MTG-PCK-SPMCOLLECTOR-EN
       tcgplayerProductId: '621109'
     subtype: COLLECTOR
   Marvels Spider Man Play Booster Box:
@@ -38,11 +41,13 @@ products:
       cardtraderId: '323529'
       mcmId: '814386'
       miniaturemarketId: '305962'
+      scgId: SLD-MTG-BBX-SPMPLAY-EN
       tcgplayerProductId: '621107'
     subtype: PLAY
   Marvels Spider Man Play Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
+      scgId: SLD-MTG-BBX-SPMPLAYCASE-EN
       tcgplayerProductId: '621108'
     subtype: PLAY
   Marvels Spider Man Play Booster Pack:
@@ -51,6 +56,7 @@ products:
       cardtraderId: '323543'
       mcmId: '814348'
       miniaturemarketId: '305963'
+      scgId: SLD-MTG-PCK-SPMPLAY-EN
       tcgplayerProductId: '621106'
     subtype: PLAY
   Marvels Spider Man Prerelease Pack:
@@ -66,6 +72,7 @@ products:
       cardtraderId: '323536'
       mcmId: '814458'
       miniaturemarketId: '305969'
+      scgId: SLD-MTG-BXS-SPMSCENE-EN-SPIDEYS
       tcgplayerProductId: '621113'
     subtype: OTHER
   Marvels Spider Man Welcome Deck Black:
