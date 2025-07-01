@@ -17,18 +17,6 @@ products:
     identifiers:
       tcgplayerProductId: '618898'
     subtype: DEFAULT
-  Final Fantasy Bundle Gift Edition:
-    category: BUNDLE
-    identifiers:
-      abuId: '2594499'
-      cardKingdomId: '312844'
-      cardtraderId: '322078'
-      mcmId: '812576'
-      miniaturemarketId: '305709'
-      scgId: SLD-MTG-BUN-FINGIFT-EN
-      tcgplayerProductId: '618899'
-    release_date: '2025-06-13'
-    subtype: GIFT_BUNDLE
   Final Fantasy Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -36,6 +24,7 @@ products:
       cardKingdomId: '312841'
       cardtraderId: '322073'
       mcmId: '812573'
+      miniaturemarketId: '305696'
       scgId: SLD-MTG-BBX-FINCOLLECTOR-EN
       tcgplayerProductId: '618893'
     release_date: '2025-06-13'
@@ -64,6 +53,18 @@ products:
       mcmId: '812570'
       tcgplayerProductId: '637653'
     subtype: PROMOTIONAL
+  Final Fantasy Gift Bundle:
+    category: BUNDLE
+    identifiers:
+      abuId: '2594499'
+      cardKingdomId: '312844'
+      cardtraderId: '322078'
+      mcmId: '812576'
+      miniaturemarketId: '305709'
+      scgId: SLD-MTG-BUN-FINGIFT-EN
+      tcgplayerProductId: '618899'
+    release_date: '2025-06-13'
+    subtype: GIFT_BUNDLE
   Final Fantasy Gift Bundle Case:
     category: BUNDLE_CASE
     identifiers:
