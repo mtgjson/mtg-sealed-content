@@ -1,7 +1,5 @@
 code: sld
 products:
-  Secret Lair Adventures of the Little Witch: []
-  Secret Lair Adventures of the Little Witch Foil: []
   Secret Lair Bundle All Natural Totally Refreshing Superdrop All 4 U:
     sealed:
     - count: 1
@@ -1697,7 +1695,16 @@ products:
         set: sld
     variable_mode:
       count: 1
-  Secret Lair Drop Adventures of the Little Witch: []
+  Secret Lair Drop Adventures of the Little Witch:
+    card_count: 4
+    deck:
+    - name: Adventures of the Little Witch
+      set: sld
+  Secret Lair Drop Adventures of the Little Witch Foil:
+    card_count: 4
+    deck:
+    - name: Adventures of the Little Witch foil
+      set: sld
   Secret Lair Drop Aether Drifters:
     card_count: 5
     deck:
