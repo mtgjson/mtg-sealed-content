@@ -1987,7 +1987,25 @@ products:
     deck:
     - name: Artist Series Nils Hamm foil
       set: sld
-  Secret Lair Drop Artist Series Phil Foglio: []
+  Secret Lair Drop Artist Series Phil Foglio:
+    card:
+    - name: Goblin Bombardment
+      number: 7022
+      set: sld
+    card_count: 4
+    deck:
+    - name: Artist Series Phil Foglio
+      set: sld
+  Secret Lair Drop Artist Series Phil Foglio Rainbow Foil:
+    card:
+    - foil: true
+      name: Goblin Bombardment
+      number: 7022
+      set: sld
+    card_count: 4
+    deck:
+    - name: Artist Series Phil Foglio foil
+      set: sld
   Secret Lair Drop Artist Series Randy Vargas:
     card:
     - name: Selfless Savior
@@ -3280,8 +3298,34 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop Featuring Imiri Sakabashira: []
-  Secret Lair Drop Featuring Jay Howell: []
+  Secret Lair Drop Featuring Imiri Sakabashira:
+    card_count: 4
+    deck:
+    - name: Featuring Imiri Sakabashira
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Featuring Imiri Sakabashira Rainbow Foil:
+    card_count: 4
+    deck:
+    - name: Featuring Imiri Sakabashira foil
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Featuring Jay Howell:
+    card_count: 5
+    deck:
+    - name: Featuring Jay Howell
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Featuring Jay Howell Rainbow Foil:
+    card_count: 5
+    deck:
+    - name: Featuring Jay Howell foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Featuring Julie Bell:
     card_count: 5
     deck:
@@ -6378,7 +6422,20 @@ products:
     deck:
     - name: The Art of Frank Frazetta foil
       set: sld
-  Secret Lair Drop The Art of Frank Frazetta The Second Exhibition: []
+  Secret Lair Drop The Art of Frank Frazetta The Second Exhibition:
+    card_count: 5
+    deck:
+    - name: The Art of Frank Frazetta The Second Exhibition
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop The Art of Frank Frazetta The Second Exhibition Rainbow Foil:
+    card_count: 5
+    deck:
+    - name: The Art of Frank Frazetta The Second Exhibition foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop The Beauty of the Beasts:
     card_count: 5
     deck:
