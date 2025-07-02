@@ -16,6 +16,12 @@ products:
   Bloomburrow Commander Deck Display:
     category: DECK_BOX
     identifiers:
+      cardKingdomId: '298742'
+      cardtraderId: '280724'
+      csiId: '384258'
+      mcmId: '774140'
+      miniaturemarketId: '299651'
+      scgId: SLD-MTG-MLT-BLC-EN-SET4
       tcgplayerProductId: '541250'
     release_date: '2024-08-02'
     subtype: COMMANDER
@@ -57,15 +63,4 @@ products:
       scgId: SLD-MTG-MLT-BLC-EN-SQUIRRELED
       tcgplayerProductId: '541249'
     release_date: '2024-08-02'
-    subtype: COMMANDER
-  Bloomburrow Commander Decks Set of 4:
-    category: SUBSET
-    identifiers:
-      cardKingdomId: '298742'
-      cardtraderId: '280724'
-      csiId: '384258'
-      mcmId: '774140'
-      miniaturemarketId: '299651'
-      scgId: SLD-MTG-MLT-BLC-EN-SET4
-    release_date: '2024-03-20'
     subtype: COMMANDER
