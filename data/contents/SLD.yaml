@@ -5376,8 +5376,34 @@ products:
     deck:
     - name: Jurassic World Life Breaks Free foil
       set: sld
-  Secret Lair Drop Secret Lair x KEXP Where the Music Matters: []
-  Secret Lair Drop Secret Lair x KEXP You Are Not Alone: []
+  Secret Lair Drop Secret Lair x KEXP Where the Music Matters:
+    card_count: 10
+    deck:
+    - name: KEXP Where the Music Matters
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x KEXP Where the Music Matters Rainbow Foil:
+    card_count: 10
+    deck:
+    - name: KEXP Where the Music Matters foil
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x KEXP You Are Not Alone:
+    card_count: 5
+    deck:
+    - name: KEXP You Are Not Alone
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x KEXP You Are Not Alone Rainbow Foil:
+    card_count: 5
+    deck:
+    - name: KEXP You Are Not Alone foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Marvels Black Panther:
     card_count: 5
     deck:
