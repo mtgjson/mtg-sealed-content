@@ -3067,8 +3067,27 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop EVERYTHING IS ON FIRE: []
-  Secret Lair Drop EVERYTHING IS ON FIRE (Raised Foil): []
+  Secret Lair Drop EVERYTHING IS ON FIRE:
+    card_count: 5
+    deck:
+    - name: EVERYTHING IS ON FIRE
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop EVERYTHING IS ON FIRE (Rainbow Foil):
+    card_count: 5
+    deck:
+    - name: EVERYTHING IS ON FIRE foil
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop EVERYTHING IS ON FIRE (Raised Foil):
+    card_count: 5
+    deck:
+    - name: EVERYTHING IS ON FIRE Raised foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Eldraine Wonderland:
     card_count: 5
     deck:
