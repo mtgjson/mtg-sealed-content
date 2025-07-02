@@ -5,6 +5,8 @@ products:
     subtype: SECRET_LAIR
   Secret Lair Adventures of the Little Witch Foil:
     category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '629762'
     subtype: SECRET_LAIR
   Secret Lair Bundle All Natural Totally Refreshing Superdrop All 4 U:
     category: BOX_SET
@@ -1908,6 +1910,7 @@ products:
   Secret Lair Drop Dan Fraziers Mox Box Etched:
     category: BOX_SET
     identifiers:
+      cardtraderId: '339020'
       mcmId: '734194'
       tcgplayerProductId: '516537'
     release_date: '2023-09-23'
@@ -3938,12 +3941,14 @@ products:
     category: BOX_SET
     identifiers:
       mcmId: '830613'
+      tcgplayerProductId: '636315'
     release_date: '2025-06-24'
     subtype: SECRET_LAIR
   Secret Lair Drop Secret Lair x NALAC Nuestra Magia (Rainbow Foil):
     category: BOX_SET
     identifiers:
       mcmId: '830614'
+      tcgplayerProductId: '636316'
     release_date: '2025-06-24'
     subtype: SECRET_LAIR
   Secret Lair Drop Secret Lair x Post Malone Backstage Pass:
@@ -3996,7 +4001,7 @@ products:
   Secret Lair Drop Secret Lair x Street Fighter:
     category: BOX_SET
     identifiers:
-      cardtraderId: '207089'
+      cardtraderId: '204462'
       csiId: '343516'
       mcmId: '650457'
       tcgplayerProductId: '267781'
