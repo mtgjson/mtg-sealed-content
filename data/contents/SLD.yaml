@@ -7182,8 +7182,27 @@ products:
     deck:
     - name: sAnS mERcY foil
       set: sld
-  Secret Lair Drop vroooOOOMMMMMM!: []
-  Secret Lair Drop vroooOOOMMMMMM! (Raised Foil): []
+  Secret Lair Drop vroooOOOMMMMMM!:
+    card_count: 5
+    deck:
+    - name: vroooOOOMMMMMM
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop vroooOOOMMMMMM! (Rainbow Foil):
+    card_count: 5
+    deck:
+    - name: vroooOOOMMMMMM foil
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop vroooOOOMMMMMM! (Raised Foil):
+    card_count: 5
+    deck:
+    - name: vroooOOOMMMMMM Raised foil
+      set: sld
+    other:
+    - name: Bonus card unknown
   "Secret Lair Drop \u201Cexplosion sounds\u201D":
     card_count: 5
     deck:
