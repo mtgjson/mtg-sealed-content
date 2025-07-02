@@ -1523,7 +1523,16 @@ products:
     deck:
     - name: Angels They're Just Like Us but Cooler and with Wings
       set: sld
-  Secret Lair Commander Deck Everyones Invited!: []
+  Secret Lair Commander Deck Everyones Invited!:
+    card:
+    - foil: true
+      name: Changeling Outcast
+      number: 894
+      set: sld
+    card_count: 100
+    deck:
+    - name: Everyone's Invited!
+      set: sld
   Secret Lair Commander Deck From Cute to Brute:
     card:
     - foil: true
