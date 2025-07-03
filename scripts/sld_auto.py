@@ -34,11 +34,11 @@ for k, v in sld_products["products"].items():
         for dk in v["deck"]:
             mapped_decks[dk["name"]] = k
 
-for d in decks:
-    if d["name"] in mapped_decks:
+for deck in decks:
+    if deck["name"] in mapped_decks:
         continue
-    product_names.sort(key=lambda x: fuzz.token_sort_ratio(x, d["name"]), reverse=True)
-    print(f"Finding similar products for {d['name']}")
+    product_names.sort(key=lambda x: fuzz.token_sort_ratio(x, deck["name"]), reverse=True)
+    print(f"Finding similar products for {deck['name']}")
     for i in range(5):
         print(f"  {i} - {product_names[i]}")
     
@@ -56,14 +56,14 @@ for d in decks:
         if isinstance(sld_products["products"][p_name], list):
             sld_products["products"][p_name] = {}
         if "card_count" in sld_products["products"][p_name]:
-            if sld_products["products"][p_name]['card_count'] != d["count"]:
-                rp = input(f"Replace count {sld_products['products'][p_name]['card_count']} with {d['count']}? (y/n): ")
+            if sld_products["products"][p_name]['card_count'] != deck["count"]:
+                rp = input(f"Replace count {sld_products['products'][p_name]['card_count']} with {deck['count']}? (y/n): ")
                 if rp == "y":
-                    sld_products["products"][p_name]['card_count'] = d["count"]
+                    sld_products["products"][p_name]['card_count'] = deck["count"]
         else:
-            sld_products["products"][p_name]['card_count'] = d["count"]
+            sld_products["products"][p_name]['card_count'] = deck["count"]
         if "deck" not in sld_products["products"][p_name]:
-            sld_products["products"][p_name]["deck"] = [{"name": d["name"], "set": "sld"}]
+            sld_products["products"][p_name]["deck"] = [{"name": deck["name"], "set": "sld"}]
         if ("card" not in sld_products["products"][p_name]) and ("pack" not in sld_products["products"][p_name]) and ("variable" not in sld_products["products"][p_name]):
             sld_products["products"][p_name]["other"] = [{"name": "Bonus card unknown"}]
         print(sld_products["products"][p_name])
