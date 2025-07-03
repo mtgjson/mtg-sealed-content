@@ -43,16 +43,16 @@ for d in decks:
         print(f"  {i} - {product_names[i]}")
     
     try:
-        product_number = input("Select action ('h' for help): ")
+        product_check = input("Select action ('h' for help): ")
     except EOFError:
         sys.exit(1)
     
-    if product_number == "q":
+    if product_check == "q":
         break
-    elif product_number == "s":
+    elif product_check == "s":
         continue
-    elif product_number in "01234":
-        p_name = product_names[int(product_number)]
+    elif product_check in "01234":
+        p_name = product_names[int(product_check)]
         if isinstance(sld_products["products"][p_name], list):
             sld_products["products"][p_name] = {}
         if "card_count" in sld_products["products"][p_name]:
