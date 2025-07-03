@@ -175,6 +175,12 @@ class MtgjsonCardLinker:
                             sealed["set"].upper(), sealed.get("uuid", None)
                         )
                     )
+                for pack in config.get("pack", []):
+                    return_value.update(
+                        self.get_cards_in_pack(
+                            content["set"].upper(), content["code"]
+                        )
+                    )
                 for card in config.get("card", []):
                     return_value.update(self.get_card_obj_from_card(card))
 
