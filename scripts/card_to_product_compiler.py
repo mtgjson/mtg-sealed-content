@@ -178,7 +178,7 @@ class MtgjsonCardLinker:
                 for pack in config.get("pack", []):
                     return_value.update(
                         self.get_cards_in_pack(
-                            content["set"].upper(), content["code"]
+                            pack["set"].upper(), pack["code"]
                         )
                     )
                 for card in config.get("card", []):
