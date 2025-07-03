@@ -1709,11 +1709,15 @@ products:
     deck:
     - name: Adventures of the Little Witch
       set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Adventures of the Little Witch Foil:
     card_count: 4
     deck:
     - name: Adventures of the Little Witch foil
       set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Aether Drifters:
     card_count: 5
     deck:
@@ -1814,19 +1818,24 @@ products:
     - name: Artist Series Chris Rahn foil
       set: sld
   Secret Lair Drop Artist Series Jesper Ejsing:
+    card:
+    - name: Llanowar Elves
+      number: 800
+      set: sld
     card_count: 4
     deck:
     - name: Artist Series Jesper Ejsing
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Artist Series Jesper Ejsing Rainbow Foil:
+    card:
+    - foil: true
+      name: Llanowar Elves
+      number: 800
+      set: sld
     card_count: 4
     deck:
     - name: Artist Series Jesper Ejsing foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Artist Series Johannes Voss:
     card_count: 4
     deck:
@@ -2611,19 +2620,24 @@ products:
     - name: Can You Feel with a Heart of Steel
       set: sld
   Secret Lair Drop Cats Are Better Than Dogs:
+    card:
+    - name: Helpful Hunter
+      number: 895
+      set: sld
     card_count: 5
     deck:
     - name: Cats Are Better Than Dogs
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Cats Are Better Than Dogs Rainbow Foil:
+    card:
+    - foil: true
+      name: Helpful Hunter
+      number: 895
+      set: sld
     card_count: 5
     deck:
     - name: Cats Are Better Than Dogs foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop City Styles:
     card_count: 5
     deck:
@@ -3049,19 +3063,24 @@ products:
     other:
     - name: Bonus card unknown
   Secret Lair Drop Dogs Are Better Than Cats Rainbow Foil:
+    card:
+    - foil: true
+      name: Spirited Companion
+      number: 896
+      set: sld
     card_count: 5
     deck:
     - name: Dogs Are Better Than Cats foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Dogs are Better Than Cats:
+    card:
+    - name: Spirited Companion
+      number: 896
+      set: sld
     card_count: 5
     deck:
     - name: Dogs Are Better Than Cats
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Draw Your Hand:
     card_count: 4
     deck:
@@ -4616,8 +4635,8 @@ products:
   Secret Lair Drop Secret Lair X MSCHF:
     card:
     - foil: true
-      name: Plains
-      number: 670
+      name: Battlefield Forge
+      number: 669
       set: sld
     card_count: 5
     deck:
@@ -5391,19 +5410,24 @@ products:
     other:
     - name: Bonus card unknown
   Secret Lair Drop Secret Lair x KEXP You Are Not Alone:
+    card:
+    - name: Minds Aglow
+      number: 7028
+      set: sld
     card_count: 5
     deck:
     - name: KEXP You Are Not Alone
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x KEXP You Are Not Alone Rainbow Foil:
+    card:
+    - foil: true
+      name: Minds Aglow
+      number: 7028
+      set: sld
     card_count: 5
     deck:
     - name: KEXP You Are Not Alone foil
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Marvels Black Panther:
     card_count: 5
     deck:
@@ -5493,8 +5517,22 @@ products:
     deck:
     - name: Marvel's Deadpool
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Harmless Offering
+        number: 868
+        set: sld
+      chance: 499
+    - card:
+      - foil: true
+        name: Blacker Lotus
+        number: 869
+        set: sld
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 500
   Secret Lair Drop Secret Lair x Marvels Deadpool April Pools Day Rainbow Foil:
     card_count: 5
     deck:
