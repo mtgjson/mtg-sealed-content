@@ -99,11 +99,6 @@ products:
       tcgplayerProductId: '127426'
       tntId: '160514'
     subtype: THEME
-  Tenth Edition Theme Decks Set of 5:
-    category: SUBSET
-    subtype: THEME
-    identifiers:
-      tcgplayerProductId: '630831'
   Tenth Edition Theme Deck Display:
     category: DECK_BOX
     identifiers:
@@ -143,6 +138,11 @@ products:
       mcmId: '253652'
       tcgplayerProductId: '127429'
       tntId: '160515'
+    subtype: THEME
+  Tenth Edition Theme Decks Set of 5:
+    category: SUBSET
+    identifiers:
+      tcgplayerProductId: '630831'
     subtype: THEME
   Tenth Edition Two Player Starter Game:
     category: MULTI_DECK

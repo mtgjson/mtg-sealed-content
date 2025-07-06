@@ -1,5 +1,10 @@
 code: fin
 products:
+  FINAL FANTASY Prerelease Pack Case:
+    category: LIMITED_CASE
+    identifiers:
+      tcgplayerProductId: '638168'
+    subtype: PRERELEASE
   Final Fantasy Bundle:
     category: BUNDLE
     identifiers:
@@ -126,8 +131,3 @@ products:
     identifiers:
       tcgplayerProductId: '618902'
     subtype: STARTER
-  FINAL FANTASY Prerelease Pack Case:
-    category: LIMITED_CASE
-    identifiers:
-      tcgplayerProductId: '638168'
-    subtype: PRERELEASE
