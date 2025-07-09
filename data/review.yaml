@@ -1,16 +1,12 @@
 abugames: {}
-cardKingdom:
-  'Secret Lair Drop - Secret Lair x Hatsune Miku: Electric Entourage - Foil':
+cardKingdom: {}
+cardMarket:
+  'Magic: The Gathering - FINAL FANTASY Collector Booster (Omega Box)':
     category: UNKNOWN
     identifiers:
-      cardKingdomId: '313166'
+      mcmId: '833750'
+    release_date: '2025-07-08'
     subtype: UNKNOWN
-  'Secret Lair Drop - Secret Lair x Hatsune Miku: Electric Entourage - Non-Foil':
-    category: UNKNOWN
-    identifiers:
-      cardKingdomId: '313167'
-    subtype: UNKNOWN
-cardMarket: {}
 cardTrader: {}
 coolstuffinc: {}
 miniaturemarket: {}
@@ -35,11 +31,6 @@ tcgplayer:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '641713'
-    subtype: UNKNOWN
-  Lorwyn Tournament Pack Display:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '641599'
     subtype: UNKNOWN
   Outlaws of Thunder Junction Deluxe Commander Kit Desert Bloom:
     category: UNKNOWN
