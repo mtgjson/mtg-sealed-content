@@ -2,42 +2,42 @@ code: eoc
 products:
   Edge of Eternities Commander Deck Case:
     sealed:
-    - set: eoc
+    - count: 2
       name: Edge of Eternities Commander Deck Counter Intelligence
-      count: 2
-    - set: eoc
+      set: eoc
+    - count: 2
       name: Edge of Eternities Commander Deck World Shaper
-      count: 2
+      set: eoc
   Edge of Eternities Commander Deck Counter Intelligence:
     card_count: 100
     deck:
-    - set: eoc
-      name: Counter Intelligence
-    sealed:
-    - set: eoe
-      name: Edge of Eternities Collector Booster Sample Pack
-      count: 1
+    - name: Counter Intelligence
+      set: eoc
     other:
     - name: 6 Double Sided Tokens
     - name: 4 Punch-out Counters
     - name: Deck Box
-  Edge of Eternities Commander Deck World Shaper: 
+    sealed:
+    - count: 1
+      name: Edge of Eternities Collector Booster Sample Pack
+      set: eoe
+  Edge of Eternities Commander Deck World Shaper:
     card_count: 100
     deck:
-    - set: eoc
-      name: World Shaper
-    sealed:
-    - set: eoe
-      name: Edge of Eternities Collector Booster Sample Pack
-      count: 1
+    - name: World Shaper
+      set: eoc
     other:
     - name: 10 Double Sided Tokens
     - name: Deck Box
+    sealed:
+    - count: 1
+      name: Edge of Eternities Collector Booster Sample Pack
+      set: eoe
   Edge of Eternities Commander Decks Set of Two:
     sealed:
-    - set: eoc
+    - count: 1
       name: Edge of Eternities Commander Deck Counter Intelligence
-      count: 1
-    - set: eoc
+      set: eoc
+    - count: 1
       name: Edge of Eternities Commander Deck World Shaper
-      count: 1
+      set: eoc

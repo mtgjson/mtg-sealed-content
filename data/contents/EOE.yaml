@@ -1,14 +1,7 @@
 code: eoe
 products:
   Edge of Eternities Bundle:
-    sealed:
-    - set: eoe
-      name: Edge of Eternities Play Booster Pack
-      count: 9
     card_count: 1
-    pack:
-    - set: eoe
-      code: bundle-promo
     other:
     - name: 10 Nonfoil Basic Lands
     - name: 10 Foil Basic Lands
@@ -16,55 +9,62 @@ products:
     - name: 5 Foil Full-art Basic Lands
     - name: Edge of Eternities Spindown
     - name: Edge of Eternities Card Storage Box
+    pack:
+    - code: bundle-promo
+      set: eoe
+    sealed:
+    - count: 9
+      name: Edge of Eternities Play Booster Pack
+      set: eoe
   Edge of Eternities Bundle Case:
     sealed:
-    - set: eoe
+    - count: 6
       name: Edge of Eternities Bundle
-      count: 6
+      set: eoe
   Edge of Eternities Collector Booster Box:
     sealed:
-    - set: eoe
+    - count: 12
       name: Edge of Eternities Collector Booster Pack
-      count: 12
+      set: eoe
   Edge of Eternities Collector Booster Box Case:
     sealed:
-    - set: eoe
+    - count: 6
       name: Edge of Eternities Collector Booster Box
-      count: 6
+      set: eoe
   Edge of Eternities Collector Booster Pack:
     card_count: 15
     pack:
-    - set: eoe
-      code: collector
+    - code: collector
+      set: eoe
   Edge of Eternities Collector Booster Sample Pack:
     card_count: 2
     pack:
-    - set: eoe
-      code: collector-sample
+    - code: collector-sample
+      set: eoe
   Edge of Eternities Play Booster Box:
     sealed:
-    - set: eoe
+    - count: 30
       name: Edge of Eternities Play Booster Pack
-      count: 30
+      set: eoe
   Edge of Eternities Play Booster Box Case:
     sealed:
-    - set: eoe
+    - count: 6
       name: Edge of Eternities Play Booster Box
-      count: 6
+      set: eoe
   Edge of Eternities Play Booster Pack:
     card_count: 14
     pack:
-    - set: eoe
-      code: play
+    - code: play
+      set: eoe
   Edge of Eternities Prerelease Pack:
-    sealed:
-    - set: eoe
-      name: Edge of Eternities Play Booster Pack
-      count: 6
     card_count: 1
-    pack:
-    - set: eoe
-      code: prerelease
     other:
     - name: Deck Box
     - name: Edge of Eternities Spindown
+    pack:
+    - code: prerelease
+      set: eoe
+    sealed:
+    - count: 6
+      name: Edge of Eternities Play Booster Pack
+      set: eoe

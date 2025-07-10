@@ -1,10 +1,5 @@
 code: fin
 products:
-  Final Fantasy Prerelease Pack Case:
-    category: LIMITED_CASE
-    identifiers:
-      tcgplayerProductId: '638168'
-    subtype: PRERELEASE
   Final Fantasy Bundle:
     category: BUNDLE
     identifiers:
@@ -114,6 +109,11 @@ products:
       scgId: SLD-MTG-INT-FINPRE-EN
       tcgplayerProductId: '618896'
     release_date: '2025-06-13'
+    subtype: PRERELEASE
+  Final Fantasy Prerelease Pack Case:
+    category: LIMITED_CASE
+    identifiers:
+      tcgplayerProductId: '638168'
     subtype: PRERELEASE
   Final Fantasy Starter Kit:
     category: MULTI_DECK
