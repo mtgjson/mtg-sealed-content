@@ -50,9 +50,7 @@ class pack:
             umap = uuid_map[self.set.lower()]["booster"]
         except KeyError:
             umap = False
-            with open("status.txt", "a") as f:
-                f.write(f"Booster code {self.code} not found in set {self.set}\n")
-        if umap and self.code not in umap:
+        if not umap or (self.code not in umap):
             print(f"Booster code {self.code} not found in set {self.set}")
             with open("status.txt", "a") as f:
                 f.write(f"Booster code {self.code} not found in set {self.set}\n")
@@ -72,9 +70,7 @@ class deck:
             umap = uuid_map[self.set.lower()]["decks"]
         except KeyError:
             umap = False
-            with open("status.txt", "a") as f:
-                f.write(f"Deck named {self.name} not found in set {self.set}\n")
-        if umap and self.name not in umap:
+        if not umap or (self.name not in umap):
             print(f"Deck named {self.name} not found in set {self.set}")
             with open("status.txt", "a") as f:
                 f.write(f"Deck named {self.name} not found in set {self.set}\n")
