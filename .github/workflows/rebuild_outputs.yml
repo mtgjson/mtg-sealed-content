@@ -31,11 +31,11 @@ jobs:
           TCG_AUTH: ${{ secrets.TCG_AUTH }}
         run: python scripts/load_new_products.py $TCG_AUTH
 
-      - name: execute manual products compiler
-        run: python scripts/new_products_compiler.py
-
       - name: execute contents compiler
         run: python scripts/product_contents_compiler.py
+
+      - name: execute manual products compiler
+        run: python scripts/new_products_compiler.py
 
       - name: execute card to product mapper
         run: python scripts/card_to_product_compiler.py -o outputs/card_map.json
