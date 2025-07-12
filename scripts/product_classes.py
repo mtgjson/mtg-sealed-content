@@ -130,6 +130,9 @@ class product:
         self.other = []
         for o in contents.get("other", []):
             self.other.append(other(o))
+            if o['name'] == "Bonus card unknown":
+                with open("status.txt", "a") as f:
+                    f.write(f"Product name {self.name} missing bonus card definition\n")
         self.chance = contents.get("chance", 1)
         self.weight = contents.get("weight", 0)
 
