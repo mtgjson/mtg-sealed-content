@@ -32,12 +32,12 @@ jobs:
 
       - name: execute gatherer build
         run: python scripts/generate_original_printing_details.py
-        
-      - name: execute manual products compiler
-        run: python scripts/new_products_compiler.py
 
       - name: execute contents compiler
         run: python scripts/product_contents_compiler.py
+        
+      - name: execute manual products compiler
+        run: python scripts/new_products_compiler.py
 
       - name: execute card to product mapper
         run: python scripts/card_to_product_compiler.py -o outputs/card_map.json
