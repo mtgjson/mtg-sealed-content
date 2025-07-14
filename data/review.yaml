@@ -7,7 +7,12 @@ cardMarket:
       mcmId: '834552'
     release_date: '2025-07-11'
     subtype: UNKNOWN
-cardTrader: {}
+cardTrader:
+  Could not load provider cardTrader:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: ''
+    subtype: UNKNOWN
 coolstuffinc: {}
 miniaturemarket:
   'Magic the Gathering: Starter Commander Deck - Draconic Destruction':
