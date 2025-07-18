@@ -42,15 +42,19 @@ cardTrader:
       cardtraderId: '341105'
     subtype: UNKNOWN
 coolstuffinc: {}
-miniaturemarket:
-  'MtG Universes Beyond: Spider-Man - Collector Booster Pack':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: '305966'
-    release_date: '2025-03-03'
-    subtype: UNKNOWN
+miniaturemarket: {}
 starcitygames: {}
 tcgplayer:
+  Eventide Theme Deck Display:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '644353'
+    subtype: UNKNOWN
+  Secret Lair x FINAL FANTASY Gilded Lotus Rainbow Foil Edition Japanese:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '643964'
+    subtype: UNKNOWN
   Secret Lair x Sonic the Hedgehog Superdrop Chasing Adventure Non Foil:
     category: UNKNOWN
     identifiers:
@@ -104,6 +108,11 @@ tcgplayer:
     identifiers:
       tcgplayerProductId: '643596'
     release_date: '2025-05-02'
+    subtype: UNKNOWN
+  Shadowmoor Theme Deck Display:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '644349'
     subtype: UNKNOWN
   Strixhaven School of Mages Set Booster Display Case:
     category: UNKNOWN
