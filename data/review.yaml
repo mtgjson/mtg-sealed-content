@@ -41,8 +41,19 @@ cardTrader:
     identifiers:
       cardtraderId: '341105'
     subtype: UNKNOWN
-coolstuffinc: {}
-miniaturemarket: {}
+coolstuffinc:
+  Could not load provider coolstuffinc:
+    category: UNKNOWN
+    identifiers:
+      csiId: ''
+    subtype: UNKNOWN
+miniaturemarket:
+  'MTG: Universes Beyond: Marvel''s Spider-Man - Prerelease Pack':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '308254'
+    release_date: '2025-07-18'
+    subtype: UNKNOWN
 starcitygames: {}
 tcgplayer:
   Eventide Theme Deck Display:
