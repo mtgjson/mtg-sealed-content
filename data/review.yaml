@@ -1,15 +1,39 @@
 abugames: {}
-cardKingdom:
-  Urza's Destiny Theme Deck Display:
-    category: UNKNOWN
-    identifiers:
-      cardKingdomId: '240233'
-    subtype: UNKNOWN
+cardKingdom: {}
 cardMarket: {}
 cardTrader: {}
 coolstuffinc: {}
-miniaturemarket: {}
-starcitygames: {}
+miniaturemarket:
+  'MtG Universes Beyond: Final Fantasy - Commander Deck - Counter Blitz':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305702'
+    release_date: '2025-02-18'
+    subtype: UNKNOWN
+  'MtG Universes Beyond: Final Fantasy - Commander Deck - Limit Break':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305701'
+    release_date: '2025-02-18'
+    subtype: UNKNOWN
+  'MtG Universes Beyond: Final Fantasy - Commander Deck - Revival Trance':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305700'
+    release_date: '2025-02-18'
+    subtype: UNKNOWN
+  'MtG: Final Fantasy Commander Deck Scions and Spellcraft':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305703'
+    release_date: '2025-02-18'
+    subtype: UNKNOWN
+starcitygames:
+  Mystery Booster 2 Booster Box:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-MB2-EN
+    subtype: UNKNOWN
 tcgplayer:
   Marvels Spider Man Scene Box Case:
     category: UNKNOWN
