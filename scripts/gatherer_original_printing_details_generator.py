@@ -24,9 +24,13 @@ class GathererDownloader:
             }
         )
 
+        # The original printed text is stored in a <script> tag, and we need to parse it out
         self.original_text_regex = re.compile(r"\"instanceText\":\"(.*?)\",")
+        # We need to know the multiverse ID of the card, and again we need to <script> tag search it
         self.multiverse_id_text_regex = re.compile(r'\\"multiverseId\\":([0-9]+)')
+        # Adventures are wonky, this will let us parse out the real contents easier
         self.adventure_text_regex = re.compile(r"\n?//ADV//\n(?:.*?\n){3}(.*)")
+        # Mana symbols on older cards are wonky and not in the {0} etc format we expect
         self.old_school_mana_regex = re.compile(r"o?o([0-9]+|[WUBRGX])")
 
     def __del__(self) -> None:
@@ -89,7 +93,7 @@ class GathererDownloader:
         card_data_response = html.unescape(
             self.session.get(card_url)
             .content.decode("unicode_escape")
-            .replace("\u2028", "")  # Annoying exception case
+            .replace("\u2028", "")  # Exception case for WWK #4 - Battle Hurda
             .encode("latin1")
             .decode("utf-8")
         )
