@@ -19,7 +19,10 @@ class GathererDownloader:
     def __init__(self, session: requests_cache.CachedSession) -> None:
         self.session = session
         self.session.headers.update(
-            {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:141.0) Gecko/20100101 Firefox/141.0"})
+            {
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:141.0) Gecko/20100101 Firefox/141.0"
+            }
+        )
 
         self.original_text_regex = re.compile(r"\"instanceText\":\"(.*?)\",")
         self.multiverse_id_text_regex = re.compile(r'\\"multiverseId\\":([0-9]+)')
@@ -191,7 +194,9 @@ def main():
         int(key): value
         for key, value in combined_multiverse_id_to_printed_text_mappings.items()
     }
-    with pathlib.Path("outputs/gatherer_mapping.json").open("w", encoding="utf-8") as out:
+    with pathlib.Path("outputs/gatherer_mapping.json").open(
+        "w", encoding="utf-8"
+    ) as out:
         json.dump(final_result, out, indent=4, ensure_ascii=False, sort_keys=True)
 
 
