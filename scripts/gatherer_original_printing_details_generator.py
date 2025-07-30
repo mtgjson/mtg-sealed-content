@@ -6,6 +6,7 @@ import re
 import html
 import multiprocessing
 import pathlib
+import random
 import requests_cache
 
 
@@ -13,14 +14,18 @@ class GathererDownloader:
     session: requests_cache.CachedSession
     original_text_regex: re.Pattern
     multiverse_id_text_regex: re.Pattern
-    adventure_text_regex: re.Pattern
+    split_card_regex: re.Pattern
     old_school_mana_regex: re.Pattern
+    adventure_omen_text_regex: re.Pattern
+    fuse_and_doors_regex: re.Pattern
 
     def __init__(self, session: requests_cache.CachedSession) -> None:
         self.session = session
+
+        version = random.randint(100, 150)
         self.session.headers.update(
             {
-                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:141.0) Gecko/20100101 Firefox/141.0"
+                "User-Agent": f"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:{version}.0) Gecko/20100101 Firefox/{version}.0"
             }
         )
 
@@ -28,10 +33,13 @@ class GathererDownloader:
         self.original_text_regex = re.compile(r"\"instanceText\":\"(.*?)\",")
         # We need to know the multiverse ID of the card, and again we need to <script> tag search it
         self.multiverse_id_text_regex = re.compile(r'\\"multiverseId\\":([0-9]+)')
-        # Adventures are wonky, this will let us parse out the real contents easier
-        self.adventure_text_regex = re.compile(r"\n?//ADV//\n(?:.*?\n){3}(.*)")
-        # Mana symbols on older cards are wonky and not in the {0} etc format we expect
+        self.split_card_regex = re.compile(r"(.*?)\n?///?\n(?:.*?\n){3}(.*)", re.DOTALL)
+        # Mana symbols on older cards are wonky and not in the {0} etc. format we expect
         self.old_school_mana_regex = re.compile(r"o?o([0-9]+|[WUBRGX])")
+        self.adventure_omen_text_regex = re.compile(
+            r"(.*?)\n?//(?:ADV|OMEN)//\n(?:.*?\n){3}(.*)", re.DOTALL
+        )
+        self.fuse_and_doors_regex = re.compile(r"(.*?)\n?///?\n(?:.*?\n){2}(.*)//\n?(.*)", re.DOTALL)
 
     def __del__(self) -> None:
         self.session.close()
@@ -87,7 +95,7 @@ class GathererDownloader:
         multiverse_ids = self.multiverse_id_text_regex.findall(card_data_response)
         if multiverse_ids:
             return int(multiverse_ids[0])
-        raise Exception(f"No multiverse ID found for {card_url}\n{card_data_response}")
+        raise Exception(f"No multiverse ID found for {card_url}\t{card_data_response}")
 
     def get_card_original_printed_text(self, card_url: str) -> Optional[str]:
         card_data_response = html.unescape(
@@ -105,7 +113,10 @@ class GathererDownloader:
         text = original_texts[0]
         functions = [
             self.__strip_slashes,
-            self.__strip_adventure_component,
+            self.__strip_adventure_or_omen_component,
+            self.__strip_fuse_and_doors,
+            self.__strip_class_levels,
+            self.__strip_split_component,
             self.__fix_old_school_mana,
             self.__strip_html,
         ]
@@ -117,12 +128,42 @@ class GathererDownloader:
     def __strip_slashes(card_text: str) -> str:
         return card_text.replace("\\n", "\n").replace('\\"', '"')
 
-    def __strip_adventure_component(self, card_text: str) -> str:
-        if "//ADV//" not in card_text:
+    def __strip_adventure_or_omen_component(self, card_text: str) -> str:
+        if "//ADV//" not in card_text and "//OMEN//" not in card_text:
             return card_text
 
-        adventure_texts = self.adventure_text_regex.findall(card_text)
-        return adventure_texts[0]
+        texts = self.adventure_omen_text_regex.findall(card_text)
+        if texts and len(texts[0]) == 2:
+            return f"{texts[0][1]} // {texts[0][0]}"
+
+        return card_text
+
+    def __strip_fuse_and_doors(self, card_text: str) -> str:
+        if "door" not in card_text and "Fuse" not in card_text:
+            return card_text
+
+        texts = self.fuse_and_doors_regex.findall(card_text)
+        if texts and len(texts[0]) == 3:
+            return f"{texts[0][0]} // {texts[0][1]}{texts[0][2]}"
+
+        return card_text
+
+    @staticmethod
+    def __strip_class_levels(card_text: str) -> str:
+        if "Level_" not in card_text:
+            return card_text
+
+        return re.sub(r"//Level_[0-9]+//\n", "", card_text)
+
+    def __strip_split_component(self, card_text: str) -> str:
+        if "//" not in card_text:
+            return card_text
+
+        split_texts = self.split_card_regex.findall(card_text)
+        if split_texts and len(split_texts[0]) == 2:
+            return f"{split_texts[0][0]} // {split_texts[0][1]}"
+
+        return card_text
 
     def __fix_old_school_mana(self, card_text: str) -> str:
         return self.old_school_mana_regex.sub(r"{\1}", card_text)
@@ -140,7 +181,6 @@ def download_set(set_code: str) -> None:
     cached_session = requests_cache.CachedSession(
         cache_name=f"caches/gatherer_cache_{set_code}",
         expire_after=datetime.timedelta(days=100),
-        stale_if_error=True,
     )
     downloader = GathererDownloader(cached_session)
 
@@ -166,7 +206,6 @@ def get_set_codes():
     cached_session = requests_cache.CachedSession(
         cache_name=f"caches/gatherer_cache_main",
         expire_after=datetime.timedelta(days=100),
-        stale_if_error=True,
     )
     try:
         downloader = GathererDownloader(cached_session)
@@ -193,6 +232,12 @@ def main():
             data = json.load(f)
             combined_multiverse_id_to_printed_text_mappings.update(data)
 
+    # Support manual overrides, when necessary
+    with pathlib.Path("data/gatherer_multiverse_id_overrides.json").open(
+        "r", encoding="utf-8"
+    ) as fp:
+        combined_multiverse_id_to_printed_text_mappings.update(json.load(fp))
+
     # Convert all keys to integers (they are strings in the JSON dumps)
     final_result = {
         int(key): value
@@ -200,8 +245,8 @@ def main():
     }
     with pathlib.Path("outputs/gatherer_mapping.json").open(
         "w", encoding="utf-8"
-    ) as out:
-        json.dump(final_result, out, indent=4, ensure_ascii=False, sort_keys=True)
+    ) as fp:
+        json.dump(final_result, fp, indent=4, ensure_ascii=False, sort_keys=True)
 
 
 if __name__ == "__main__":
