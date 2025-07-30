@@ -39,7 +39,9 @@ class GathererDownloader:
         self.adventure_omen_text_regex = re.compile(
             r"(.*?)\n?//(?:ADV|OMEN)//\n(?:.*?\n){3}(.*)", re.DOTALL
         )
-        self.fuse_and_doors_regex = re.compile(r"(.*?)\n?///?\n(?:.*?\n){2}(.*)//\n?(.*)", re.DOTALL)
+        self.fuse_and_doors_regex = re.compile(
+            r"(.*?)\n?///?\n(?:.*?\n){2}(.*)//\n?(.*)", re.DOTALL
+        )
 
     def __del__(self) -> None:
         self.session.close()
@@ -240,8 +242,9 @@ def main():
 
     # Convert all keys to integers (they are strings in the JSON dumps)
     final_result = {
-        int(key): value
+        int(key): [{"original_text": value}]
         for key, value in combined_multiverse_id_to_printed_text_mappings.items()
+        if value
     }
     with pathlib.Path("outputs/gatherer_mapping.json").open(
         "w", encoding="utf-8"
