@@ -1752,6 +1752,44 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
+  Secret Lair Drop Alien Auroras:
+    card_count: 5
+    deck:
+    - name: Alien Auroras foil
+      set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Seven Dwarves
+        number: 818
+        set: sld
+      chance: 1
+    - chance: 99
+      pack:
+      - code: deceptive-lands
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 100
+  Secret Lair Drop Alien Auroras Galaxy Foil:
+    card_count: 5
+    deck:
+    - name: Alien Auroras foil
+      set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Seven Dwarves
+        number: 818
+        set: sld
+      chance: 1
+    - chance: 99
+      pack:
+      - code: deceptive-lands
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Animar and Friends:
     card_count: 5
     deck:
@@ -3351,6 +3389,44 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
+  Secret Lair Drop Featuring Deathburger:
+    card_count: 5
+    deck:
+    - name: Featuring Deathburger
+      set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Seven Dwarves
+        number: 818
+        set: sld
+      chance: 1
+    - chance: 99
+      pack:
+      - code: deceptive-lands
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 100
+  Secret Lair Drop Featuring Deathburger Galaxy Foil:
+    card_count: 5
+    deck:
+    - name: Featuring Deathburger foil
+      set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Seven Dwarves
+        number: 818
+        set: sld
+      chance: 1
+    - chance: 99
+      pack:
+      - code: deceptive-lands
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Featuring Gary Baseman:
     card_count: 5
     deck:
