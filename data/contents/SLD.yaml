@@ -5241,43 +5241,112 @@ products:
     deck:
     - name: FINAL FANTASY Game Over
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - name: Feed the Swarm
+        number: 7001
+        set: sld
+      chance: 299
+    - chance: 1
+      pack:
+      - code: fin-elementals
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 300
   Secret Lair Drop Secret Lair x FINAL FANTASY Game Over Rainbow Foil:
     card_count: 5
     deck:
     - name: FINAL FANTASY Game Over foil
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Feed the Swarm
+        number: 7001
+        set: sld
+      chance: 299
+    - chance: 1
+      pack:
+      - code: fin-elementals
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 300
   Secret Lair Drop Secret Lair x FINAL FANTASY Grimoire:
     card_count: 5
     deck:
     - name: FINAL FANTASY Grimoire
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - name: Silence
+        number: 7003
+        set: sld
+      chance: 299
+    - chance: 1
+      pack:
+      - code: fin-elementals
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 300
   Secret Lair Drop Secret Lair x FINAL FANTASY Grimoire Rainbow Foil:
     card_count: 5
     deck:
     - name: FINAL FANTASY Grimoire foil
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Silence
+        number: 7003
+        set: sld
+      chance: 299
+    - chance: 1
+      pack:
+      - code: fin-elementals
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 300
   Secret Lair Drop Secret Lair x FINAL FANTASY Weapons:
     card_count: 5
     deck:
     - name: FINAL FANTASY Weapons
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - name: Forge Anew
+        number: 7002
+        set: sld
+      chance: 299
+    - chance: 1
+      pack:
+      - code: fin-elementals
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 300
   Secret Lair Drop Secret Lair x FINAL FANTASY Weapons Rainbow Foil:
     card_count: 5
     deck:
     - name: FINAL FANTASY Weapons foil
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Forge Anew
+        number: 7002
+        set: sld
+      chance: 299
+    - chance: 1
+      pack:
+      - code: fin-elementals
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 300
   Secret Lair Drop Secret Lair x Fallout Points of Interest:
     card_count: 5
     deck:
