@@ -1,9 +1,50 @@
 abugames: {}
 cardKingdom: {}
-cardMarket: {}
-cardTrader: {}
+cardMarket:
+  'Secret Lair Drop Series: Chaos Vault: Alien Auroras':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '839945'
+    release_date: '2025-07-30'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: Chaos Vault: Alien Auroras (Galaxy Foil)':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '839946'
+    release_date: '2025-07-30'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: Chaos Vault: Featuring: Deathburger':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '839948'
+    release_date: '2025-07-30'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: Chaos Vault: Featuring: Deathburger (Galaxy Foil)':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '839947'
+    release_date: '2025-07-30'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: Festival in a Box: Las Vegas 2025':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '840003'
+    release_date: '2025-07-30'
+    subtype: UNKNOWN
+cardTrader:
+  'Secret Lair Drop Series: Alien Auroras':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '344308'
+    subtype: UNKNOWN
 coolstuffinc: {}
 miniaturemarket:
+  'MtG Universes Beyond: Final Fantasy - Commander Deck - Counter Blitz':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305702'
+    release_date: '2025-02-18'
+    subtype: UNKNOWN
   'MtG Universes Beyond: Final Fantasy - Commander Deck - Limit Break':
     category: UNKNOWN
     identifiers:
