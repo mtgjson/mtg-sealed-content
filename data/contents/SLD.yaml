@@ -5401,39 +5401,86 @@ products:
     deck:
     - name: Hatsune Miku Digital Sensation
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - name: Command Tower
+        number: 806
+        set: sld
+      chance: 199
+    - card:
+      - name: Snapcaster Mage
+        number: 808
+        set: sld
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 200
   Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation English Rainbow Foil:
     card_count: 6
     deck:
     - name: Hatsune Miku Digital Sensation foil
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Command Tower
+        number: 806
+        set: sld
+      chance: 199
+    - card:
+      - foil: true
+        name: Snapcaster Mage
+        number: 808
+        set: sld
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 200
   Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation Japanese:
     copy: Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation English
   Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation Japanese Rainbow Foil:
     copy: Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation English Rainbow
       Foil
   Secret Lair Drop Secret Lair x Hatsune Miku Electric Entourage English:
-    card:
-    - name: Chandra, Flamecaller
-      number: 807
-      set: sld
     card_count: 5
     deck:
     - name: Hatsune Miku Electric Entourage
       set: sld
+    variable:
+    - card:
+      - name: Chandra, Flamecaller
+        number: 807
+        set: sld
+      chance: 199
+    - card:
+      - name: Snapcaster Mage
+        number: 808
+        set: sld
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 200
   Secret Lair Drop Secret Lair x Hatsune Miku Electric Entourage English Rainbow Foil:
-    card:
-    - foil: true
-      name: Chandra, Flamecaller
-      number: 807
-      set: sld
     card_count: 5
     deck:
     - name: Hatsune Miku Electric Entourage foil
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Chandra, Flamecaller
+        number: 807
+        set: sld
+      chance: 199
+    - card:
+      - foil: true
+        name: Snapcaster Mage
+        number: 808
+        set: sld
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 200
   Secret Lair Drop Secret Lair x Hatsune Miku Electric Entourage Japanese:
     copy: Secret Lair Drop Secret Lair x Hatsune Miku Electric Entourage English
   Secret Lair Drop Secret Lair x Hatsune Miku Electric Entourage Japanese Rainbow Foil:
@@ -5444,15 +5491,41 @@ products:
     deck:
     - name: Hatsune Miku Sakura Superstar
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - name: Elvish Mystic
+        number: 805
+        set: sld
+      chance: 199
+    - card:
+      - name: Snapcaster Mage
+        number: 808
+        set: sld
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 200
   Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar English Rainbow Foil:
     card_count: 6
     deck:
     - name: Hatsune Miku Sakura Superstar foil
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Elvish Mystic
+        number: 805
+        set: sld
+      chance: 199
+    - card:
+      - foil: true
+        name: Snapcaster Mage
+        number: 808
+        set: sld
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 200
   Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar Japanese:
     copy: Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar English
   Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar Japanese Rainbow Foil:
@@ -5463,15 +5536,41 @@ products:
     deck:
     - name: Hatsune Miku Winter Diva
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - name: Beloved Princess
+        number: 804
+        set: sld
+      chance: 199
+    - card:
+      - name: Snapcaster Mage
+        number: 808
+        set: sld
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 200
   Secret Lair Drop Secret Lair x Hatsune Miku Winter Diva English Rainbow Foil:
     card_count: 6
     deck:
     - name: Hatsune Miku Winter Diva foil
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Beloved Princess
+        number: 804
+        set: sld
+      chance: 399
+    - card:
+      - foil: true
+        name: Snapcaster Mage
+        number: 808
+        set: sld
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 400
   Secret Lair Drop Secret Lair x Hatsune Miku Winter Diva Japanese: []
   Secret Lair Drop Secret Lair x Hatsune Miku Winter Diva Japanese Rainbow Foil: []
   Secret Lair Drop Secret Lair x Jurassic World Dr Ian Malcolm:
