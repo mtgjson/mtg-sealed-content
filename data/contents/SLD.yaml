@@ -5757,8 +5757,22 @@ products:
     deck:
     - name: Marvel's Deadpool foil
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Harmless Offering
+        number: 868
+        set: sld
+      chance: 299
+    - card:
+      - foil: true
+        name: Blacker Lotus
+        number: 869
+        set: sld
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 300
   Secret Lair Drop Secret Lair x Marvels Iron Man:
     card_count: 5
     deck:
