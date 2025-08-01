@@ -5571,8 +5571,11 @@ products:
     variable_mode:
       count: 1
       weight: 400
-  Secret Lair Drop Secret Lair x Hatsune Miku Winter Diva Japanese: []
-  Secret Lair Drop Secret Lair x Hatsune Miku Winter Diva Japanese Rainbow Foil: []
+  Secret Lair Drop Secret Lair x Hatsune Miku Winter Diva Japanese:
+    copy: Secret Lair Drop Secret Lair x Hatsune Miku Winter Diva English
+  Secret Lair Drop Secret Lair x Hatsune Miku Winter Diva Japanese Rainbow Foil:
+    copy: Secret Lair Drop Secret Lair x Hatsune Miku Winter Diva English Rainbow
+      Foil
   Secret Lair Drop Secret Lair x Jurassic World Dr Ian Malcolm:
     card:
     - name: Chaos Warp
