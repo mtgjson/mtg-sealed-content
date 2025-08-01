@@ -5885,43 +5885,115 @@ products:
     deck:
     - name: Sonic Chasing Adventure
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Command Tower
+        number: 7030
+        set: sld
+      chance: 299
+    - chance: 1
+      pack:
+      - code: chaos-emeralds
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 300
   Secret Lair Drop Secret Lair x Sonic the Hedgehog Chasing Adventure Rainbow Foil:
     card_count: 6
     deck:
     - name: Sonic Chasing Adventure foil
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Command Tower
+        number: 7030
+        set: sld
+      chance: 299
+    - chance: 1
+      pack:
+      - code: chaos-emeralds
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 300
   Secret Lair Drop Secret Lair x Sonic the Hedgehog Friends and Foes:
     card_count: 7
     deck:
     - name: Sonic Friends and Foes
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Command Tower
+        number: 7030
+        set: sld
+      chance: 299
+    - chance: 1
+      pack:
+      - code: chaos-emeralds
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 300
   Secret Lair Drop Secret Lair x Sonic the Hedgehog Friends and Foes Rainbow Foil:
     card_count: 7
     deck:
     - name: Sonic Friends and Foes foil
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Command Tower
+        number: 7030
+        set: sld
+      chance: 299
+    - chance: 1
+      pack:
+      - code: chaos-emeralds
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 300
   Secret Lair Drop Secret Lair x Sonic the Hedgehog Turbo Gear:
     card_count: 6
     deck:
     - name: Sonic Turbo Gear
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Command Tower
+        number: 7030
+        set: sld
+      chance: 299
+    - chance: 1
+      pack:
+      - code: chaos-emeralds
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 300
   Secret Lair Drop Secret Lair x Sonic the Hedgehog Turbo Gear Rainbow Foil:
     card_count: 6
     deck:
     - name: Sonic Turbo Gear foil
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Command Tower
+        number: 7030
+        set: sld
+      chance: 299
+    - chance: 1
+      pack:
+      - code: chaos-emeralds
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 300
   Secret Lair Drop Secret Lair x Stranger Things:
     card:
     - name: Havengul Laboratory
