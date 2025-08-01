@@ -1,7 +1,7 @@
-name: Daily Rebuild Outputs
+name: Weekly Rebuild Outputs
 on:
   schedule:
-    - cron: 0 0 * * *
+    - cron: 0 0 * * 0
   workflow_dispatch:
 
 permissions: write-all
@@ -26,22 +26,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: execute new products
-        env:
-          TCG_AUTH: ${{ secrets.TCG_AUTH }}
-        run: python scripts/load_new_products.py $TCG_AUTH
-
-      - name: execute contents compiler
-        run: python scripts/product_contents_compiler.py
-        
-      - name: execute manual products compiler
-        run: python scripts/new_products_compiler.py
-
-      - name: execute card to product mapper
-        run: python scripts/card_to_product_compiler.py -o outputs/card_map.json
+      - name: execute gatherer original printing generator
+        run: python scripts/gatherer_original_printing_details_generator.py
 
       - name: commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Pull new daily content
+          file_pattern: 'outputs/*.json'
+          commit_message: Pull new weekly content
           push_options: --force
