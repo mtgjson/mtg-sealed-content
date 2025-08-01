@@ -1,4 +1,44 @@
-abugames: {}
+abugames:
+  'Edge of Eternities Bundle [Limit: 1 per customer]':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2617208'
+    subtype: UNKNOWN
+  'Edge of Eternities Collector Booster Box [Limit: 1 per customer]':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2617206'
+    subtype: UNKNOWN
+  'Edge of Eternities Collector Booster Pack [Limit: 2 per customer]':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2617205'
+    subtype: UNKNOWN
+  'Edge of Eternities Commander Deck #1 World Shaper':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2617209'
+    subtype: UNKNOWN
+  'Edge of Eternities Commander Deck #2 Counter Intelligence':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2617210'
+    subtype: UNKNOWN
+  'Edge of Eternities Play Booster Box [Limit: 2 per customer]':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2617207'
+    subtype: UNKNOWN
+  'Edge of Eternities Play Booster Pack [Limit: 3 per person]':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2616421'
+    subtype: UNKNOWN
+  Edge of Eternities Prerelease Kit:
+    category: UNKNOWN
+    identifiers:
+      abuId: '2617211'
+    subtype: UNKNOWN
 cardKingdom: {}
 cardMarket: {}
 cardTrader: {}
@@ -6,6 +46,11 @@ coolstuffinc: {}
 miniaturemarket: {}
 starcitygames: {}
 tcgplayer:
+  Edge of Eternities Collector Booster Omega Pack:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '647089'
+    subtype: UNKNOWN
   Innistrad Remastered Collector Booster Display Master Case:
     category: UNKNOWN
     identifiers:
