@@ -97,7 +97,9 @@ class GathererDownloader:
         multiverse_ids = self.multiverse_id_text_regex.findall(card_data_response)
         if multiverse_ids:
             return int(multiverse_ids[0])
-        raise Exception(f"No multiverse ID found for {card_url}\t{card_data_response}")
+
+        print(f"No multiverse ID found for {card_url}")
+        return 0
 
     def get_card_original_printed_text(self, card_url: str) -> Optional[str]:
         card_data_response = html.unescape(
@@ -191,8 +193,9 @@ def download_set(set_code: str) -> None:
     card_urls = downloader.get_card_urls_from_set_code(set_code)
     for card_url in card_urls:
         multiverse_id = downloader.get_card_multiverse_id(card_url)
-        original_printed_text = downloader.get_card_original_printed_text(card_url)
-        multiverse_id_to_printed_text_mapping[multiverse_id] = original_printed_text
+        if multiverse_id:
+            original_printed_text = downloader.get_card_original_printed_text(card_url)
+            multiverse_id_to_printed_text_mapping[multiverse_id] = original_printed_text
 
     with pathlib.Path(f"dumps/{set_code}.json").open("w") as dump_file:
         json.dump(
