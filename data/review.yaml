@@ -44,11 +44,135 @@ abugames:
     identifiers:
       abuId: '2299753'
     subtype: UNKNOWN
-cardKingdom: {}
-cardMarket: {}
+cardKingdom:
+  Amonkhet Prerelease Pack:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '212308'
+    subtype: UNKNOWN
+  Battle for Zendikar Prerelease Pack:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '205604'
+    subtype: UNKNOWN
+  Dominaria Prerelease Pack:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '218500'
+    subtype: UNKNOWN
+  Gatecrash Prerelease Guild Pack (Boros):
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '189535'
+    subtype: UNKNOWN
+  Gatecrash Prerelease Guild Pack (Dimir):
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '189536'
+    subtype: UNKNOWN
+  Gatecrash Prerelease Guild Pack (Gruul):
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '189537'
+    subtype: UNKNOWN
+  Gatecrash Prerelease Guild Pack (Orzhov):
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '189538'
+    subtype: UNKNOWN
+  Gatecrash Prerelease Guild Pack (Simic):
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '189539'
+    subtype: UNKNOWN
+  Kaladesh Prerelease Pack:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '215252'
+    subtype: UNKNOWN
+  Return to Ravnica Prerelease Guild Pack (Azorius):
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '212254'
+    subtype: UNKNOWN
+  Return to Ravnica Prerelease Guild Pack (Golgari):
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '204874'
+    subtype: UNKNOWN
+  Return to Ravnica Prerelease Guild Pack (Izzet):
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '212255'
+    subtype: UNKNOWN
+  Return to Ravnica Prerelease Guild Pack (Rakdos):
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '204873'
+    subtype: UNKNOWN
+  Return to Ravnica Prerelease Guild Pack (Selesnya):
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '204872'
+    subtype: UNKNOWN
+cardMarket:
+  'Magic: The Gathering | Marvel''s Spider-Man Fat Pack Bundle: Gift Edition':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '840803'
+    release_date: '2025-08-04'
+    subtype: UNKNOWN
+  'Magic: The Gathering | Marvel''s Spider-Man Welcome Deck: Black Deck':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '840811'
+    release_date: '2025-08-04'
+    subtype: UNKNOWN
+  'Magic: The Gathering | Marvel''s Spider-Man Welcome Deck: Blue Deck':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '840810'
+    release_date: '2025-08-04'
+    subtype: UNKNOWN
+  'Magic: The Gathering | Marvel''s Spider-Man Welcome Deck: Green Deck':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '840813'
+    release_date: '2025-08-04'
+    subtype: UNKNOWN
+  'Magic: The Gathering | Marvel''s Spider-Man Welcome Deck: Red Deck':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '840812'
+    release_date: '2025-08-04'
+    subtype: UNKNOWN
+  'Magic: The Gathering | Marvel''s Spider-Man Welcome Deck: White Deck':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '840809'
+    release_date: '2025-08-04'
+    subtype: UNKNOWN
 cardTrader: {}
 coolstuffinc: {}
-miniaturemarket: {}
+miniaturemarket:
+  'MtG Modern Horizons 3: Commander Deck - Eldrazi Incursion':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '299639'
+    release_date: '2024-03-20'
+    subtype: UNKNOWN
+  'MtG Tarkir Dragonstorm: Commander Deck - Sultai Arisen':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305959'
+    release_date: '2025-03-03'
+    subtype: UNKNOWN
+  'MtG Tarkir Dragonstorm: Commander Deck - Temur Roar':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305960'
+    release_date: '2025-03-03'
+    subtype: UNKNOWN
 starcitygames: {}
 tcgplayer:
   Edge of Eternities Collector Booster Omega Pack:
@@ -138,5 +262,10 @@ tcgplayer:
     identifiers:
       tcgplayerProductId: '643598'
     release_date: '2025-05-02'
+    subtype: UNKNOWN
+  Tarkir Dragonstorm Sleeved Play Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '647714'
     subtype: UNKNOWN
 trollandtoad: {}
