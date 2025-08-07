@@ -45,6 +45,31 @@ abugames:
       abuId: '2299753'
     subtype: UNKNOWN
 cardKingdom:
+  2015 Core Set Prerelease Pack - Hunt With Ambition:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '223905'
+    subtype: UNKNOWN
+  2015 Core Set Prerelease Pack - Hunt With Ferocity:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '223906'
+    subtype: UNKNOWN
+  2015 Core Set Prerelease Pack - Hunt With Guile:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '196506'
+    subtype: UNKNOWN
+  2015 Core Set Prerelease Pack - Hunt With Strength:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '223907'
+    subtype: UNKNOWN
+  2015 Core Set Prerelease Pack - Hunt With Valor:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '223904'
+    subtype: UNKNOWN
   Amonkhet Prerelease Pack:
     category: UNKNOWN
     identifiers:
@@ -54,6 +79,31 @@ cardKingdom:
     category: UNKNOWN
     identifiers:
       cardKingdomId: '205604'
+    subtype: UNKNOWN
+  Born of the Gods Prerelease Pack - Destined to Conquer:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '193711'
+    subtype: UNKNOWN
+  Born of the Gods Prerelease Pack - Destined to Dominate:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '193709'
+    subtype: UNKNOWN
+  Born of the Gods Prerelease Pack - Destined to Lead:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '193710'
+    subtype: UNKNOWN
+  Born of the Gods Prerelease Pack - Destined to Outwit:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '193708'
+    subtype: UNKNOWN
+  Born of the Gods Prerelease Pack - Destined to Thrive:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '193712'
     subtype: UNKNOWN
   Dominaria Prerelease Pack:
     category: UNKNOWN
@@ -85,10 +135,60 @@ cardKingdom:
     identifiers:
       cardKingdomId: '189539'
     subtype: UNKNOWN
+  Journey into Nyx Prerelease Pack - Forged in Glory:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '223903'
+    subtype: UNKNOWN
+  Journey into Nyx Prerelease Pack - Forged in Intellect:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '194352'
+    subtype: UNKNOWN
+  Journey into Nyx Prerelease Pack - Forged in Pursuit:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '194354'
+    subtype: UNKNOWN
+  Journey into Nyx Prerelease Pack - Forged in Tyranny:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '194351'
+    subtype: UNKNOWN
+  Journey into Nyx Prerelease Pack - Forged in War:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '194353'
+    subtype: UNKNOWN
   Kaladesh Prerelease Pack:
     category: UNKNOWN
     identifiers:
       cardKingdomId: '215252'
+    subtype: UNKNOWN
+  Magic Origins Prerelease Pack - Chandra Nalaar:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '202231'
+    subtype: UNKNOWN
+  Magic Origins Prerelease Pack - Gideon Jura:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '202230'
+    subtype: UNKNOWN
+  Magic Origins Prerelease Pack - Jace Beleren:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '202232'
+    subtype: UNKNOWN
+  Magic Origins Prerelease Pack - Liliana Vess:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '202233'
+    subtype: UNKNOWN
+  Magic Origins Prerelease Pack - Nissa Revane:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '202234'
     subtype: UNKNOWN
   Return to Ravnica Prerelease Guild Pack (Azorius):
     category: UNKNOWN
@@ -114,6 +214,31 @@ cardKingdom:
     category: UNKNOWN
     identifiers:
       cardKingdomId: '204872'
+    subtype: UNKNOWN
+  Theros Prerelease Pack - Path of Ambition (Black):
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '191752'
+    subtype: UNKNOWN
+  Theros Prerelease Pack - Path of Battle (Red):
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '191754'
+    subtype: UNKNOWN
+  Theros Prerelease Pack - Path of Honor (White):
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '191756'
+    subtype: UNKNOWN
+  Theros Prerelease Pack - Path of Might (Green):
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '191753'
+    subtype: UNKNOWN
+  Theros Prerelease Pack - Path of Wisdom (Blue):
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '191755'
     subtype: UNKNOWN
 cardMarket:
   'Magic: The Gathering | Marvel''s Spider-Man Fat Pack Bundle: Gift Edition':
@@ -152,7 +277,17 @@ cardMarket:
       mcmId: '840809'
     release_date: '2025-08-04'
     subtype: UNKNOWN
-cardTrader: {}
+cardTrader:
+  Marvel's Spider-Man Fat Pack Gift Bundle Gift Bundle:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '345036'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series | Featuring: Deathburger':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '345130'
+    subtype: UNKNOWN
 coolstuffinc: {}
 miniaturemarket:
   'MtG Modern Horizons 3: Commander Deck - Eldrazi Incursion':
@@ -160,18 +295,6 @@ miniaturemarket:
     identifiers:
       miniaturemarketId: '299639'
     release_date: '2024-03-20'
-    subtype: UNKNOWN
-  'MtG Tarkir Dragonstorm: Commander Deck - Sultai Arisen':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: '305959'
-    release_date: '2025-03-03'
-    subtype: UNKNOWN
-  'MtG Tarkir Dragonstorm: Commander Deck - Temur Roar':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: '305960'
-    release_date: '2025-03-03'
     subtype: UNKNOWN
 starcitygames: {}
 tcgplayer:
