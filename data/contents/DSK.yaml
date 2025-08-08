@@ -2,107 +2,111 @@ code: dsk
 products:
   Duskmourn House of Horror Bundle:
     card:
-    - foil: true
-      name: Grievous Wound
-      number: 416
-      set: dsk
+      - foil: true
+        name: Grievous Wound
+        number: 416
+        set: dsk
     other:
-    - name: 30 basic lands
-    - name: Duskmourn Spindown
-    - name: Deck Box
+      - name: 30 basic lands
+      - name: Duskmourn Spindown
+      - name: Deck Box
     sealed:
-    - count: 9
-      name: Duskmourn House of Horror Play Booster Pack
-      set: dsk
+      - count: 9
+        name: Duskmourn House of Horror Play Booster Pack
+        set: dsk
   Duskmourn House of Horror Bundle Case:
     sealed:
-    - count: 6
-      name: Duskmourn House of Horror Bundle
-      set: dsk
+      - count: 6
+        name: Duskmourn House of Horror Bundle
+        set: dsk
   Duskmourn House of Horror Collector Booster Box:
     sealed:
-    - count: 12
-      name: Duskmourn House of Horror Collector Booster Pack
-      set: dsk
+      - count: 12
+        name: Duskmourn House of Horror Collector Booster Pack
+        set: dsk
   Duskmourn House of Horror Collector Booster Box Case:
     sealed:
-    - count: 6
-      name: Duskmourn House of Horror Collector Booster Box
-      set: dsk
+      - count: 6
+        name: Duskmourn House of Horror Collector Booster Box
+        set: dsk
   Duskmourn House of Horror Collector Booster Pack:
     card_count: 15
     pack:
-    - code: collector
-      set: dsk
+      - code: collector
+        set: dsk
   Duskmourn House of Horror Collector Booster Sample Pack:
     card_count: 2
     pack:
-    - code: collector-sample
-      set: dsk
+      - code: collector-sample
+        set: dsk
   Duskmourn House of Horror MTGO Redemption:
     card_count: 286
     deck:
-    - name: 'Duskmourn: House of Horror Redemption'
-      set: dsk
+      - name: "Duskmourn: House of Horror Redemption"
+        set: dsk
   Duskmourn House of Horror MTGO Redemption Foil:
     card_count: 286
     deck:
-    - name: 'Duskmourn: House of Horror Foil Redemption'
-      set: dsk
+      - name: "Duskmourn: House of Horror Foil Redemption"
+        set: dsk
   Duskmourn House of Horror Nightmare Bundle:
     other:
-    - name: 3 double-sided movie posters
-    - name: Glow-in-the-dark spindown die
-    - name: Deck box
-    - name: 20 foil full-art lands
+      - name: 3 double-sided movie posters
+      - name: Glow-in-the-dark spindown die
+      - name: Deck box
+      - name: 20 foil full-art lands
     sealed:
-    - count: 6
-      name: Duskmourn House of Horror Play Booster Pack
-      set: dsk
-    - count: 2
-      name: Duskmourn House of Horror Collector Booster Pack
-      set: dsk
-    - count: 1
-      name: Duskmourn House of Horror Nightmare Bundle Booster
-      set: dsk
+      - count: 6
+        name: Duskmourn House of Horror Play Booster Pack
+        set: dsk
+      - count: 2
+        name: Duskmourn House of Horror Collector Booster Pack
+        set: dsk
+      - count: 1
+        name: Duskmourn House of Horror Nightmare Bundle Booster
+        set: dsk
   Duskmourn House of Horror Nightmare Bundle Booster:
     card_count: 2
     pack:
-    - code: nightmare
-      set: dsk
+      - code: nightmare
+        set: dsk
   Duskmourn House of Horror Nightmare Bundle Case:
     sealed:
-    - count: 6
-      name: Duskmourn House of Horror Nightmare Bundle
-      set: dsk
+      - count: 6
+        name: Duskmourn House of Horror Nightmare Bundle
+        set: dsk
   Duskmourn House of Horror Play Booster Box:
     sealed:
-    - count: 36
-      name: Duskmourn House of Horror Play Booster Pack
-      set: dsk
+      - count: 36
+        name: Duskmourn House of Horror Play Booster Pack
+        set: dsk
   Duskmourn House of Horror Play Booster Box Case:
     sealed:
-    - count: 6
-      name: Duskmourn House of Horror Play Booster Box
-      set: dsk
+      - count: 6
+        name: Duskmourn House of Horror Play Booster Box
+        set: dsk
   Duskmourn House of Horror Play Booster Pack:
     card_count: 14
     pack:
-    - code: play
-      set: dsk
+      - code: play
+        set: dsk
   Duskmourn House of Horror Prerelease Pack:
     card_count: 1
     other:
-    - name: Deck box
-    - name: Duskmourn spindown
+      - name: Deck box
+      - name: Duskmourn spindown
     pack:
-    - code: prerelease
-      set: dsk
+      - code: prerelease
+        set: dsk
     sealed:
-    - count: 6
-      name: Duskmourn House of Horror Play Booster Pack
-      set: dsk
-  Duskmourn House of Horror Prerelease Pack Case: []
+      - count: 6
+        name: Duskmourn House of Horror Play Booster Pack
+        set: dsk
+  Duskmourn House of Horror Prerelease Pack Case:
+    sealed:
+      - count: 15
+        name: Duskmourn House of Horror Prerelease pack
+        set: dsk
   Welcome Deck 2024 Black Deck: []
   Welcome Deck 2024 Blue Deck: []
   Welcome Deck 2024 Green Deck: []

@@ -2,142 +2,146 @@ code: bro
 products:
   Land Station 2022:
     other:
-    - name: 400 Assorted Basic Lands (80 of Each Type)
+      - name: 400 Assorted Basic Lands (80 of Each Type)
   The Brothers War MTGO Redemption:
     card_count: 287
     deck:
-    - name: The Brothers' War Redemption
-      set: bro
+      - name: The Brothers' War Redemption
+        set: bro
   The Brothers War MTGO Redemption Foil:
     card_count: 287
     deck:
-    - name: The Brothers' War Foil Redemption
-      set: bro
+      - name: The Brothers' War Foil Redemption
+        set: bro
   The Brothers' War Bundle:
     card:
-    - foil: true
-      name: Queen Kayla bin-Kroog
-      number: 379
-      set: bro
+      - foil: true
+        name: Queen Kayla bin-Kroog
+        number: 379
+        set: bro
     other:
-    - name: The Brothers' War Bundle Land Pack
-    - name: The Brothers' War Spindown Die
+      - name: The Brothers' War Bundle Land Pack
+      - name: The Brothers' War Spindown Die
     sealed:
-    - count: 8
-      name: The Brothers' War Set Booster Pack
-      set: bro
+      - count: 8
+        name: The Brothers' War Set Booster Pack
+        set: bro
   The Brothers' War Bundle Case:
     sealed:
-    - count: 6
-      name: The Brothers' War Bundle
-      set: bro
+      - count: 6
+        name: The Brothers' War Bundle
+        set: bro
   The Brothers' War Collector Booster Box:
     sealed:
-    - count: 12
-      name: The Brothers' War Collector Booster Pack
-      set: bro
+      - count: 12
+        name: The Brothers' War Collector Booster Pack
+        set: bro
   The Brothers' War Collector Booster Box Case:
     sealed:
-    - count: 6
-      name: The Brothers' War Collector Booster Box
-      set: bro
+      - count: 6
+        name: The Brothers' War Collector Booster Box
+        set: bro
   The Brothers' War Collector Booster Pack:
     card_count: 15
     pack:
-    - code: collector
-      set: bro
+      - code: collector
+        set: bro
   The Brothers' War Collector Booster Sample Pack:
     card_count: 2
     pack:
-    - code: collector-sample
-      set: bro
+      - code: collector-sample
+        set: bro
   The Brothers' War Draft Booster Box:
     sealed:
-    - count: 36
-      name: The Brothers' War Draft Booster Pack
-      set: bro
+      - count: 36
+        name: The Brothers' War Draft Booster Pack
+        set: bro
   The Brothers' War Draft Booster Box Case:
     sealed:
-    - count: 6
-      name: The Brothers' War Draft Booster Box
-      set: bro
+      - count: 6
+        name: The Brothers' War Draft Booster Box
+        set: bro
   The Brothers' War Draft Booster Pack:
     card_count: 15
     pack:
-    - code: draft
-      set: bro
+      - code: draft
+        set: bro
   The Brothers' War Gift Bundle:
     card:
-    - foil: true
-      name: Queen Kayla bin-Kroog
-      number: 379
-      set: bro
+      - foil: true
+        name: Queen Kayla bin-Kroog
+        number: 379
+        set: bro
     other:
-    - name: The Brothers' War Gift Bundle Land Pack
-    - name: Foil Mythic Rare Transformers Card
-    - name: The Brothers' War Spindown Die
+      - name: The Brothers' War Gift Bundle Land Pack
+      - name: Foil Mythic Rare Transformers Card
+      - name: The Brothers' War Spindown Die
     sealed:
-    - count: 1
-      name: The Brothers' War Collector Booster Pack
-      set: bro
-    - count: 8
-      name: The Brothers' War Set Booster Pack
-      set: bro
-  The Brothers' War Gift Bundle Case: []
+      - count: 1
+        name: The Brothers' War Collector Booster Pack
+        set: bro
+      - count: 8
+        name: The Brothers' War Set Booster Pack
+        set: bro
+  The Brothers' War Gift Bundle Case:
+    sealed:
+      - count: 6
+        name: The Brothers' War Gift Bundle
+        set: bro
   The Brothers' War Jumpstart Booster Box:
     sealed:
-    - count: 18
-      name: The Brothers' War Jumpstart Booster Pack
-      set: bro
+      - count: 18
+        name: The Brothers' War Jumpstart Booster Pack
+        set: bro
   The Brothers' War Jumpstart Booster Box Case:
     sealed:
-    - count: 6
-      name: The Brothers' War Jumpstart Booster Box
-      set: bro
+      - count: 6
+        name: The Brothers' War Jumpstart Booster Box
+        set: bro
   The Brothers' War Jumpstart Booster Pack:
     card_count: 20
     pack:
-    - code: jumpstart
-      set: bro
+      - code: jumpstart
+        set: bro
   The Brothers' War Jumpstart Booster Pack 2 Pack:
     sealed:
-    - count: 2
-      name: The Brothers' War Jumpstart Booster Pack
-      set: bro
+      - count: 2
+        name: The Brothers' War Jumpstart Booster Pack
+        set: bro
   The Brothers' War Prerelease Pack Mishras Burnished Banner:
     card_count: 1
     other:
-    - name: The Brothers' War Spindown Die
+      - name: The Brothers' War Spindown Die
     pack:
-    - code: prerelease
-      set: bro
+      - code: prerelease
+        set: bro
     sealed:
-    - count: 6
-      name: The Brothers' War Draft Booster Pack
-      set: bro
+      - count: 6
+        name: The Brothers' War Draft Booster Pack
+        set: bro
   The Brothers' War Prerelease Pack Urzas Iron Alliance:
     card_count: 1
     other:
-    - name: The Brothers War' Spindown Die
+      - name: The Brothers War' Spindown Die
     pack:
-    - code: prerelease
-      set: bro
+      - code: prerelease
+        set: bro
     sealed:
-    - count: 6
-      name: The Brothers' War Draft Booster Pack
-      set: bro
+      - count: 6
+        name: The Brothers' War Draft Booster Pack
+        set: bro
   The Brothers' War Set Booster Box:
     sealed:
-    - count: 30
-      name: The Brothers' War Set Booster Pack
-      set: bro
+      - count: 30
+        name: The Brothers' War Set Booster Pack
+        set: bro
   The Brothers' War Set Booster Box Case:
     sealed:
-    - count: 6
-      name: The Brothers' War Set Booster Box
-      set: bro
+      - count: 6
+        name: The Brothers' War Set Booster Box
+        set: bro
   The Brothers' War Set Booster Pack:
     card_count: 12
     pack:
-    - code: set
-      set: bro
+      - code: set
+        set: bro
