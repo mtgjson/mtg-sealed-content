@@ -184,7 +184,43 @@ cardTrader:
       cardtraderId: '345130'
     subtype: UNKNOWN
 coolstuffinc: {}
-miniaturemarket: {}
+miniaturemarket:
+  'MTG: Secret Lair X Sonic the Hedgehog - Friends & Foes (Non-foil)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '308213'
+    release_date: '2025-07-17'
+    subtype: UNKNOWN
+  'MTG: Universes Beyond Avatar the Last Airbender Jumpstart Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '308230'
+    release_date: '2025-07-17'
+    subtype: UNKNOWN
+  'MTG: Universes Beyond: Avatar the Last Airbender - Beginner Box':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '308227'
+    release_date: '2025-07-17'
+    subtype: UNKNOWN
+  'MTG: Universes Beyond: Avatar the Last Airbender - Bundle':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '308225'
+    release_date: '2025-07-17'
+    subtype: UNKNOWN
+  'MTG: Universes Beyond: Avatar the Last Airbender - Play Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '308219'
+    release_date: '2025-07-17'
+    subtype: UNKNOWN
+  'MTG: Universes Beyond: Avatar the Last Airbender Jumpstart Booster Box':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '308229'
+    release_date: '2025-07-17'
+    subtype: UNKNOWN
 starcitygames: {}
 tcgplayer:
   Marvels Spider Man Scene Box Case:
@@ -192,5 +228,10 @@ tcgplayer:
     identifiers:
       tcgplayerProductId: '645315'
     release_date: '2025-09-26'
+    subtype: UNKNOWN
+  Murders at Karlov Manor Collector Booster Omega Pack:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '648191'
     subtype: UNKNOWN
 trollandtoad: {}
