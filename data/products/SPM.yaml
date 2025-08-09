@@ -9,19 +9,6 @@ products:
       scgId: SLD-MTG-BUN-SPM-EN
       tcgplayerProductId: '621115'
     subtype: DEFAULT
-  Marvels Spider Man Gift Bundle:
-    category: BUNDLE
-    identifiers:
-      cardtraderId: '345036'
-      mcmId: '840803'
-      scgId: SLD-MTG-BUN-SPMGIFT-EN
-      tcgplayerProductId: '648457'
-    subtype: GIFT_BUNDLE
-  Marvels Spider Man Gift Bundle Case:
-    category: BUNDLE_CASE
-    identifiers:
-      tcgplayerProductId: '648458'
-    subtype: GIFT_BUNDLE
   Marvels Spider Man Bundle Case:
     category: BUNDLE_CASE
     identifiers:
@@ -48,6 +35,19 @@ products:
       scgId: SLD-MTG-PCK-SPMCOLLECTOR-EN
       tcgplayerProductId: '621109'
     subtype: COLLECTOR
+  Marvels Spider Man Gift Bundle:
+    category: BUNDLE
+    identifiers:
+      cardtraderId: '345036'
+      mcmId: '840803'
+      scgId: SLD-MTG-BUN-SPMGIFT-EN
+      tcgplayerProductId: '648457'
+    subtype: GIFT_BUNDLE
+  Marvels Spider Man Gift Bundle Case:
+    category: BUNDLE_CASE
+    identifiers:
+      tcgplayerProductId: '648458'
+    subtype: GIFT_BUNDLE
   Marvels Spider Man Play Booster Box:
     category: BOOSTER_BOX
     identifiers:
