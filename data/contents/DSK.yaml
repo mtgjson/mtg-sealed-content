@@ -42,12 +42,12 @@ products:
   Duskmourn House of Horror MTGO Redemption:
     card_count: 286
     deck:
-    - name: 'Duskmourn: House of Horror Redemption'
+    - name: "Duskmourn: House of Horror Redemption"
       set: dsk
   Duskmourn House of Horror MTGO Redemption Foil:
     card_count: 286
     deck:
-    - name: 'Duskmourn: House of Horror Foil Redemption'
+    - name: "Duskmourn: House of Horror Foil Redemption"
       set: dsk
   Duskmourn House of Horror Nightmare Bundle:
     other:
@@ -102,7 +102,11 @@ products:
     - count: 6
       name: Duskmourn House of Horror Play Booster Pack
       set: dsk
-  Duskmourn House of Horror Prerelease Pack Case: []
+  Duskmourn House of Horror Prerelease Pack Case:
+    sealed:
+    - count: 15
+      name: Duskmourn House of Horror Prerelease pack
+      set: dsk
   Welcome Deck 2024 Black Deck: []
   Welcome Deck 2024 Blue Deck: []
   Welcome Deck 2024 Green Deck: []

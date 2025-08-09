@@ -83,7 +83,11 @@ products:
     - count: 8
       name: The Brothers' War Set Booster Pack
       set: bro
-  The Brothers' War Gift Bundle Case: []
+  The Brothers' War Gift Bundle Case:
+    sealed:
+    - count: 6
+      name: The Brothers' War Gift Bundle
+      set: bro
   The Brothers' War Jumpstart Booster Box:
     sealed:
     - count: 18

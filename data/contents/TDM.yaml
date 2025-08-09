@@ -1,14 +1,61 @@
 code: tdm
 products:
-  Tarkir Dragonstorm Bundle: []
-  Tarkir Dragonstorm Bundle Case: []
-  Tarkir Dragonstorm Collector Booster Box: []
-  Tarkir Dragonstorm Collector Booster Box Case: []
-  Tarkir Dragonstorm Collector Booster Pack: []
-  Tarkir Dragonstorm Collector Booster Sample Pack: []
-  Tarkir Dragonstorm Play Booster Box: []
-  Tarkir Dragonstorm Play Booster Box Case: []
-  Tarkir Dragonstorm Play Booster Pack: []
+  Tarkir Dragonstorm Bundle:
+    card:
+    - foil: true
+      name: Temur Battlecrier
+      number: 425
+      set: tdm
+    other:
+    - name: 15 Foil Basic Land Pack
+    - name: 15 Non-Foil Basic Land Pack
+    - name: Tarkir Dragonstorm Spindown
+    - name: Tarkir Dragonstorm Foil Bundle Land Pack
+    - name: Tarkir Dragonstorm Bundle Land Pack
+    sealed:
+    - count: 9
+      name: Tarkir Dragonstorm Play Booster Pack
+      set: tdm
+  Tarkir Dragonstorm Bundle Case:
+    sealed:
+    - count: 6
+      name: Tarkir Dragonstorm Bundle
+      set: tdm
+  Tarkir Dragonstorm Collector Booster Box:
+    sealed:
+    - count: 12
+      name: Tarkir Dragonstorm Collector Booster Pack
+      set: tdm
+  Tarkir Dragonstorm Collector Booster Box Case:
+    sealed:
+    - count: 6
+      name: Tarkir Dragonstorm Collector Booster Box
+      set: tdm
+  Tarkir Dragonstorm Collector Booster Pack:
+    card_count: 15
+    pack:
+    - code: collector
+      set: tdm
+  Tarkir Dragonstorm Collector Booster Sample Pack:
+    card_count: 2
+    pack:
+    - code: collector-sample
+      set: tdm
+  Tarkir Dragonstorm Play Booster Box:
+    sealed:
+    - count: 30
+      name: Tarkir Dragonstorm Play Booster Pack
+      set: tdm
+  Tarkir Dragonstorm Play Booster Box Case:
+    sealed:
+    - count: 6
+      name: Tarkir Dragonstorm Collector Booster Box
+      set: tdm
+  Tarkir Dragonstorm Play Booster Pack:
+    card_count: 14
+    pack:
+    - code: play
+      set: tdm
   Tarkir Dragonstorm Prerelease Booster Abzan: []
   Tarkir Dragonstorm Prerelease Booster Jeskai: []
   Tarkir Dragonstorm Prerelease Booster Mardu: []

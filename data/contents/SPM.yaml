@@ -1,15 +1,102 @@
 code: spm
 products:
-  Marvels Spider Man Bundle: []
-  Marvels Spider Man Bundle Case: []
-  Marvels Spider Man Collector Booster Box: []
-  Marvels Spider Man Collector Booster Box Case: []
-  Marvels Spider Man Collector Booster Pack: []
-  Marvels Spider Man Play Booster Box: []
-  Marvels Spider Man Play Booster Box Case: []
-  Marvels Spider Man Play Booster Pack: []
-  Marvels Spider Man Prerelease Pack: []
-  Marvels Spider Man Scene Box: []
+  Marvels Spider Man Bundle:
+    other:
+    - name: 15 Foil Basic Land Pack
+    - name: 15 Non-Foil Basic Land Pack
+    - name: Marvels Spider Man Spindown
+    - name: Marvels Spider Man Foil Bundle Land Pack
+    - name: Marvels Spider Man Bundle Land Pack
+    - name: Marvels Spider Man Card Storage Box
+    sealed:
+    - count: 9
+      name: Marvels Spider Man Play Booster Pack
+      set: spm
+  Marvels Spider Man Gift Bundle:
+    card_count: 1
+    other:
+    - name: 30 Basic Land Pack
+    - name: Marvels Spider Man Spindown
+    - name: Marvels Spider Man Card Storage Box
+    pack:
+    - code: bundle-promo
+      set: spm
+    sealed:
+    - count: 9
+      name: Marvels Spider Man Play Booster Pack
+      set: spm
+    - count: 1
+      name: Marvels Spider Man Collector Booster Pack
+      set: spm
+  Marvels Spider Man Gift Bundle Case:
+    sealed:
+    - count: 6
+      name: Marvels Spider Man Gift Bundle
+      set: spm
+  Marvels Spider Man Bundle Case:
+    sealed:
+    - count: 6
+      name: Marvels Spider Man Bundle
+      set: spm
+  Marvels Spider Man Collector Booster Box:
+    sealed:
+    - count: 12
+      name: Marvels Spider Man Collector Booster Pack
+      set: spm
+  Marvels Spider Man Collector Booster Box Case:
+    sealed:
+    - count: 6
+      name: Marvels Spider Man Collector Booster Box
+      set: spm
+  Marvels Spider Man Collector Booster Pack:
+    card_count: 15
+    pack:
+    - code: collector
+      set: spm
+  Marvels Spider Man Play Booster Box:
+    sealed:
+    - count: 30
+      name: Marvels Spider Man Play Booster Pack
+      set: spm
+  Marvels Spider Man Play Booster Box Case:
+    sealed:
+    - count: 6
+      name: Marvels Spider Man Collector Booster Box
+      set: spm
+  Marvels Spider Man Play Booster Pack:
+    card_count: 14
+    pack:
+    - code: play
+      set: spm
+  Marvels Spider Man Prerelease Pack:
+    card_count: 1
+    other:
+    - name: Deck Box
+    - name: Marvels Spider Man Spindown
+    pack:
+    - code: prerelease
+      set: spm
+    sealed:
+    - count: 6
+      name: Marvels Spider Man Play Booster Pack
+      set: spm
+  Marvels Spider Man Prerelease Pack Case:
+    sealed:
+    - count: 15
+      name: Marvels Spider Man Prerelease Pack
+      set: spm
+  Marvels Spider Man Scene Box:
+    card_count: 6
+    sealed:
+    - count: 3
+      name: Marvels Spider Man Play Booster Pack
+      set: spm
+    other:
+    - name: 6 Art Only Scene Cards
+    - name: Marvels Spider Man Display Easel
+    deck:
+    - name: Scene Box
+      set: spe
   Marvels Spider Man Welcome Deck Black: []
   Marvels Spider Man Welcome Deck Blue: []
   Marvels Spider Man Welcome Deck Green: []
