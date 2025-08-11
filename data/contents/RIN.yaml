@@ -1,5 +1,17 @@
 code: rin
 products:
-  Renaissance Italian Booster Box: []
-  Renaissance Italian Booster Box Case: []
-  Renaissance Italian Booster Pack: []
+  Renaissance Italian Booster Box:
+    sealed:
+    - count: 60
+      name: Renaissance Italian Booster Pack
+      set: rin
+  Renaissance Italian Booster Box Case:
+    sealed:
+    - count: 6
+      name: Renaissance Italian Booster Box
+      set: rin
+  Renaissance Italian Booster Pack:
+    card_count: 8
+    pack:
+    - code: default
+      set: rin
