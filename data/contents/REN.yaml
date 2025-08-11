@@ -1,8 +1,29 @@
 code: ren
 products:
-  Renaissance French Booster Box: []
-  Renaissance French Booster Box Case: []
-  Renaissance French Booster Pack: []
-  Renaissance German Booster Box: []
-  Renaissance German Booster Box Case: []
-  Renaissance German Booster Pack: []
+  Renaissance French Booster Box:
+    sealed:
+    - count: 60
+      name: Renaissance French Booster Pack
+      set: rin
+  Renaissance French Booster Box Case:
+    sealed:
+    - count: 6
+      name: Renaissance French Booster Box
+      set: rin
+  Renaissance French Booster Pack:
+    card_count: 8
+    pack:
+    - code: default
+      set: rin
+  Renaissance German Booster Box:
+    sealed:
+    - count: 60
+      name: Renaissance German Booster Pack
+      set: rin
+  Renaissance German Booster Box Case:
+    sealed:
+    - count: 6
+      name: Renaissance German Booster Box
+      set: rin
+  Renaissance German Booster Pack:
+    copy: Renaissance French Booster Pack
