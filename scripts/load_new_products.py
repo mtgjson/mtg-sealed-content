@@ -401,6 +401,63 @@ def load_miniaturemarket(secret):
     return sealed_data
 
 
+def mvpdownload(session, page):
+    header = {
+        "Cookie": "ASP.NET_SessionId="+session,
+    }
+
+    payload = {
+        'SearchKey': '',
+        'PageNumber': page,
+        'PageSize': 25 * page,
+        'SortBy': 'MostPopular',
+        'SortType': '',
+        'PriceRange': '',
+        'ItemStatus': 'ALL',
+    }
+
+    r = requests.post("https://go.mvpsportsandgames.com/GetSearchResults?CategoryId=62100000", data=payload, headers=header)
+    return json.loads(r.content)
+
+
+def load_mvp(secret):
+    sealed_data = []
+    page = 1
+    session = secret.get("mvp_session_id")
+
+    skip_tags = [
+        "FOREIGN",
+    ]
+
+    while True:
+        products = mvpdownload(session, page)
+        print(f"Page {page} has {products['PageSize']} products")
+
+        for product in products["DataList"]:
+            title = product["Name"]
+
+            if any(tag.lower() in title.lower() for tag in skip_tags):
+                continue
+
+            sealed_data.extend([
+                {
+                    "name": title,
+                    "id": product["Id"],
+                }
+            ])
+
+        # exit when we've processed all pages, or when a failover threshold is reached
+        if products["PageNumber"] == products["PagesCount"] or page > 10:
+            break
+
+        page += 1
+
+
+    print(f"Retrieved {len(sealed_data)} products")
+
+    return sealed_data
+
+
 def scgretaildownload(guid, page):
     header = {
         "X-HawkSearch-IgnoreTracking": "true",
@@ -776,6 +833,11 @@ providers_dict = {
     "trollandtoad": {
         "identifier": "tntId",
         "load_func": load_tnt,
+    },
+    "mvpsportsandgames": {
+        "identifier": "mvpId",
+        "load_func": load_mvp,
+        "auth": ["mvp_session_id"],
     },
 }
 
