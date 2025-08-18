@@ -1,38 +1,17 @@
 code: tla
 products:
-  Avatar The Last Airbender Play Booster Pack:
-    category: BOOSTER_PACK
+  Avatar The Last Airbender Beginner Box:
+    category: BOX_SET
     identifiers:
-      tcgplayerProductId: '648640'
-    subtype: PLAY
-  Avatar The Last Airbender Play Booster Box:
-    category: BOOSTER_BOX
-    identifiers:
-      tcgplayerProductId: '648643'
-    subtype: PLAY
-  Avatar The Last Airbender Play Booster Box Case:
-    category: BOOSTER_CASE
-    identifiers:
-      tcgplayerProductId: '648644'
-    subtype: PLAY
-  Avatar The Last Airbender Collector Booster Pack:
-    category: BOOSTER_PACK
-    identifiers:
-      tcgplayerProductId: '648646'
-    subtype: COLLECTOR
-  Avatar The Last Airbender Collector Booster Box:
-    category: BOOSTER_BOX
-    identifiers:
-      tcgplayerProductId: '648650'
-    subtype: COLLECTOR
-  Avatar The Last Airbender Collector Booster Box Case:
-    category: BOOSTER_CASE
-    identifiers:
-      tcgplayerProductId: '648659'
-    subtype: COLLECTOR
+      cardtraderId: '345888'
+      mcmId: '842780'
+      tcgplayerProductId: '648682'
+    subtype: STARTER
   Avatar The Last Airbender Bundle:
     category: BUNDLE
     identifiers:
+      cardtraderId: '345884'
+      mcmId: '842630'
       tcgplayerProductId: '648684'
     subtype: DEFAULT
   Avatar The Last Airbender Bundle Case:
@@ -40,9 +19,30 @@ products:
     identifiers:
       tcgplayerProductId: '648691'
     subtype: DEFAULT
+  Avatar The Last Airbender Collector Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardtraderId: '345869'
+      mcmId: '842564'
+      tcgplayerProductId: '648650'
+    subtype: COLLECTOR
+  Avatar The Last Airbender Collector Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers:
+      tcgplayerProductId: '648659'
+    subtype: COLLECTOR
+  Avatar The Last Airbender Collector Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardtraderId: '345877'
+      mcmId: '842532'
+      tcgplayerProductId: '648646'
+    subtype: COLLECTOR
   Avatar The Last Airbender Commanders Bundle:
     category: BUNDLE
     identifiers:
+      cardtraderId: '345885'
+      mcmId: '842670'
       tcgplayerProductId: '648686'
     subtype: GIFT_BUNDLE
   Avatar The Last Airbender Commanders Bundle Case:
@@ -50,73 +50,107 @@ products:
     identifiers:
       tcgplayerProductId: '648694'
     subtype: GIFT_BUNDLE
+  Avatar The Last Airbender Play Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardtraderId: '345868'
+      mcmId: '842629'
+      tcgplayerProductId: '648643'
+    subtype: PLAY
+  Avatar The Last Airbender Play Booster Box Case:
+    category: BOOSTER_CASE
+    identifiers:
+      tcgplayerProductId: '648644'
+    subtype: PLAY
+  Avatar The Last Airbender Play Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardtraderId: '345876'
+      mcmId: '842539'
+      miniaturemarketId: '308219'
+      tcgplayerProductId: '648640'
+    subtype: PLAY
   Avatar The Last Airbender Prerelease Booster Aang:
     category: BOOSTER_PACK
     identifiers:
-    subtype: PRERELEASE
-  Avatar The Last Airbender Prerelease Booster Zuko:
-    category: BOOSTER_PACK
-    identifiers:
-    subtype: PRERELEASE
-  Avatar The Last Airbender Prerelease Booster Katara:
-    category: BOOSTER_PACK
-    identifiers:
-    subtype: PRERELEASE
-  Avatar The Last Airbender Prerelease Booster Toph:
-    category: BOOSTER_PACK
-    identifiers:
+      cardtraderId: '345878'
     subtype: PRERELEASE
   Avatar The Last Airbender Prerelease Booster Azula:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '345880'
+    subtype: PRERELEASE
+  Avatar The Last Airbender Prerelease Booster Katara:
+    category: BOOSTER_PACK
+    identifiers:
+      cardtraderId: '345879'
+    subtype: PRERELEASE
+  Avatar The Last Airbender Prerelease Booster Toph:
+    category: BOOSTER_PACK
+    identifiers:
+      cardtraderId: '345882'
+    subtype: PRERELEASE
+  Avatar The Last Airbender Prerelease Booster Zuko:
+    category: BOOSTER_PACK
+    identifiers:
+      cardtraderId: '345881'
     subtype: PRERELEASE
   Avatar The Last Airbender Prerelease Pack Aang:
     category: LIMITED
     identifiers:
+      cardtraderId: '345871'
+      mcmId: '842730'
       tcgplayerProductId: '648719'
     subtype: PRERELEASE
-  Avatar The Last Airbender Prerelease Pack Zuko:
+  Avatar The Last Airbender Prerelease Pack Azula:
     category: LIMITED
     identifiers:
-      tcgplayerProductId: '648722'
+      cardtraderId: '345873'
+      mcmId: '842751'
+      tcgplayerProductId: '648721'
     subtype: PRERELEASE
   Avatar The Last Airbender Prerelease Pack Katara:
     category: LIMITED
     identifiers:
+      cardtraderId: '345872'
+      mcmId: '842752'
       tcgplayerProductId: '648720'
     subtype: PRERELEASE
   Avatar The Last Airbender Prerelease Pack Toph:
     category: LIMITED
     identifiers:
+      cardtraderId: '345875'
+      mcmId: '842753'
       tcgplayerProductId: '648723'
     subtype: PRERELEASE
-  Avatar The Last Airbender Prerelease Pack Azula:
+  Avatar The Last Airbender Prerelease Pack Zuko:
     category: LIMITED
     identifiers:
-      tcgplayerProductId: '648721'
+      cardtraderId: '345874'
+      mcmId: '842754'
+      tcgplayerProductId: '648722'
     subtype: PRERELEASE
   Avatar The Last Airbender Prerelease Packs Set of 5:
     category: SUBSET
     identifiers:
       tcgplayerProductId: '648724'
     subtype: PRERELEASE
-  Avatar The Last Airbender Beginner Box:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '648682'
-    subtype: STARTER
-  Avatar The Last Airbender Scene Box The Black Sun Invasion:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '648713'
-    subtype: OTHER
-  Avatar The Last Airbender Scene Box Tea Time at the Jasmine Dragon:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '648716'
-    subtype: OTHER
   Avatar The Last Airbender Scene Box Set of 2:
     category: SUBSET
     identifiers:
       tcgplayerProductId: '648717'
+    subtype: OTHER
+  Avatar The Last Airbender Scene Box Tea Time at the Jasmine Dragon:
+    category: BOX_SET
+    identifiers:
+      cardtraderId: '345887'
+      mcmId: '842755'
+      tcgplayerProductId: '648716'
+    subtype: OTHER
+  Avatar The Last Airbender Scene Box The Black Sun Invasion:
+    category: BOX_SET
+    identifiers:
+      cardtraderId: '345886'
+      mcmId: '842756'
+      tcgplayerProductId: '648713'
     subtype: OTHER
