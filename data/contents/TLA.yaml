@@ -1,35 +1,6 @@
 code: tla
 products:
-  Avatar The Last Airbender Play Booster Pack:
-    card_count: 14
-    pack:
-    - code: play
-      set: tla
-  Avatar The Last Airbender Play Booster Box:
-    sealed:
-    - count: 30
-      name: Avatar The Last Airbender Play Booster Pack
-      set: tla
-  Avatar The Last Airbender Play Booster Box Case:
-    sealed:
-    - count: 6
-      name: Avatar The Last Airbender Play Booster Box
-      set: tla
-  Avatar The Last Airbender Collector Booster Pack:
-    card_count: 15
-    pack:
-    - code: collector
-      set: tla
-  Avatar The Last Airbender Collector Booster Box:
-    sealed:
-    - count: 12
-      name: Avatar The Last Airbender Collector Booster Pack
-      set: tla
-  Avatar The Last Airbender Collector Booster Box Case:
-    sealed:
-    - count: 6
-      name: Avatar The Last Airbender Collector Booster Box
-      set: tla
+  Avatar The Last Airbender Beginner Box: []
   Avatar The Last Airbender Bundle:
     other:
     - name: Avatar The Last Airbender Spindown
@@ -45,24 +16,54 @@ products:
     - count: 6
       name: Avatar The Last Airbender Bundle
       set: tla
-  Avatar The Last Airbender Commanders Bundle: [] # This is the gift bundle. Will need to wait to see what the promo cards are.
+  Avatar The Last Airbender Collector Booster Box:
+    sealed:
+    - count: 12
+      name: Avatar The Last Airbender Collector Booster Pack
+      set: tla
+  Avatar The Last Airbender Collector Booster Box Case:
+    sealed:
+    - count: 6
+      name: Avatar The Last Airbender Collector Booster Box
+      set: tla
+  Avatar The Last Airbender Collector Booster Pack:
+    card_count: 15
+    pack:
+    - code: collector
+      set: tla
+  Avatar The Last Airbender Commanders Bundle: []
   Avatar The Last Airbender Commanders Bundle Case:
     sealed:
     - count: 6
       name: Avatar The Last Airbender Commanders Bundle
       set: tla
-  Avatar The Last Airbender Beginner Box: []
+  Avatar The Last Airbender Play Booster Box:
+    sealed:
+    - count: 30
+      name: Avatar The Last Airbender Play Booster Pack
+      set: tla
+  Avatar The Last Airbender Play Booster Box Case:
+    sealed:
+    - count: 6
+      name: Avatar The Last Airbender Play Booster Box
+      set: tla
+  Avatar The Last Airbender Play Booster Pack:
+    card_count: 14
+    pack:
+    - code: play
+      set: tla
   Avatar The Last Airbender Prerelease Booster Aang: []
-  Avatar The Last Airbender Prerelease Booster Zuko: []
+  Avatar The Last Airbender Prerelease Booster Azula: []
   Avatar The Last Airbender Prerelease Booster Katara: []
   Avatar The Last Airbender Prerelease Booster Toph: []
-  Avatar The Last Airbender Prerelease Booster Azula: []
+  Avatar The Last Airbender Prerelease Booster Zuko: []
   Avatar The Last Airbender Prerelease Pack Aang: []
-  Avatar The Last Airbender Prerelease Pack Zuko: []
+  Avatar The Last Airbender Prerelease Pack Azula: []
   Avatar The Last Airbender Prerelease Pack Katara: []
   Avatar The Last Airbender Prerelease Pack Toph: []
-  Avatar The Last Airbender Prerelease Pack Azula: []
+  Avatar The Last Airbender Prerelease Pack Zuko: []
   Avatar The Last Airbender Prerelease Packs Set of 5: []
-  Avatar The Last Airbender Scene Box The Black Sun Invasion: []
-  Avatar The Last Airbender Scene Box Tea Time at the Jasmine Dragon: []
+  Avatar The Last Airbender Scene Box Case: []
   Avatar The Last Airbender Scene Box Set of 2: []
+  Avatar The Last Airbender Scene Box Tea Time at the Jasmine Dragon: []
+  Avatar The Last Airbender Scene Box The Black Sun Invasion: []

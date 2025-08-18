@@ -1,10 +1,6 @@
 code: tle
 products:
-  Avatar The Last Airbender Jumpstart Booster Pack:
-    card_count: 20
-    pack:
-    - code: jumpstart
-      set: tle
+  Avatar The Last Airbender Jumpstart Booster 2 Pack: []
   Avatar The Last Airbender Jumpstart Booster Box:
     sealed:
     - count: 30
@@ -15,4 +11,8 @@ products:
     - count: 6
       name: Avatar The Last Airbender Jumpstart Booster Box
       set: tle
-  
+  Avatar The Last Airbender Jumpstart Booster Pack:
+    card_count: 20
+    pack:
+    - code: jumpstart
+      set: tle
