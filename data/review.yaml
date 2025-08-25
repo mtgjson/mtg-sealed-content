@@ -32,16 +32,137 @@ cardKingdom:
     subtype: UNKNOWN
 cardMarket: {}
 cardTrader: {}
-coolstuffinc: {}
-miniaturemarket: {}
+coolstuffinc:
+  'MTG - Aetherdrift - Bundle: The Finish Line':
+    category: UNKNOWN
+    identifiers:
+      csiId: '404477'
+    subtype: UNKNOWN
+  MTG - Aetherdrift - Collector Booster Box:
+    category: UNKNOWN
+    identifiers:
+      csiId: '404083'
+    subtype: UNKNOWN
+  MTG - Edge of Eternities - Collector Booster Box:
+    category: UNKNOWN
+    identifiers:
+      csiId: '409093'
+    subtype: UNKNOWN
+  'MTG - Tarkir: Dragonstorm - Bundle':
+    category: UNKNOWN
+    identifiers:
+      csiId: '408611'
+    subtype: UNKNOWN
+  'MTG - Tarkir: Dragonstorm - Collector Booster Box':
+    category: UNKNOWN
+    identifiers:
+      csiId: '408613'
+    subtype: UNKNOWN
+  'MTG - Universes Beyond: Final Fantasy - Bundle':
+    category: UNKNOWN
+    identifiers:
+      csiId: '408926'
+    subtype: UNKNOWN
+  'MTG - Universes Beyond: Final Fantasy - Bundle - Gift Edition':
+    category: UNKNOWN
+    identifiers:
+      csiId: '408927'
+    subtype: UNKNOWN
+  'MTG - Universes Beyond: Final Fantasy - Collector Booster Box':
+    category: UNKNOWN
+    identifiers:
+      csiId: '408626'
+    subtype: UNKNOWN
+  'MTG - Universes Beyond: Final Fantasy - Play Booster Box':
+    category: UNKNOWN
+    identifiers:
+      csiId: '408624'
+    subtype: UNKNOWN
+  'The Lord of the Rings: Tales of Middle-earth - Bundle':
+    category: UNKNOWN
+    identifiers:
+      csiId: '357367'
+    subtype: UNKNOWN
+  'The Lord of the Rings: Tales of Middle-earth - Collector Booster Box':
+    category: UNKNOWN
+    identifiers:
+      csiId: '357365'
+    subtype: UNKNOWN
+  'The Lord of the Rings: Tales of Middle-earth - Collector Booster Box (Special Edition)':
+    category: UNKNOWN
+    identifiers:
+      csiId: '364055'
+    subtype: UNKNOWN
+  The Lost Caverns of Ixalan - Bundle:
+    category: UNKNOWN
+    identifiers:
+      csiId: '370660'
+    subtype: UNKNOWN
+  Wilds of Eldraine - Bundle:
+    category: UNKNOWN
+    identifiers:
+      csiId: '365497'
+    subtype: UNKNOWN
+  Wilds of Eldraine - Collector Booster Box:
+    category: UNKNOWN
+    identifiers:
+      csiId: '365498'
+    subtype: UNKNOWN
+miniaturemarket:
+  'Magic the Gathering: Commander Masters Draft Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '291549'
+    release_date: '2023-03-15'
+    subtype: UNKNOWN
 mvpsportsandgames:
   Could not load provider mvpsportsandgames:
     category: UNKNOWN
     identifiers:
       mvpId: ''
     subtype: UNKNOWN
-starcitygames: {}
+starcitygames:
+  'Avatar: The Last Airbender Bundle':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BUN-TLA-EN
+    subtype: UNKNOWN
+  'Avatar: The Last Airbender Collector Booster Box':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-TLACOLLECTOR-EN
+    subtype: UNKNOWN
+  'Avatar: The Last Airbender Collector Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-TLACOLLECTOR-EN
+    subtype: UNKNOWN
+  'Avatar: The Last Airbender Jumpstart Booster Box':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-TLAJUMPSTART-EN
+    subtype: UNKNOWN
+  'Avatar: The Last Airbender Jumpstart Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-TLAJUMPSTART-EN
+    subtype: UNKNOWN
+  'Avatar: The Last Airbender Play Booster Case':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-TLAPLAYCASE-EN
+    subtype: UNKNOWN
+  'Avatar: The Last Airbender Play Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-TLAPLAY-EN
+    subtype: UNKNOWN
 tcgplayer:
+  FINAL FANTASY Sleeved Play Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '650422'
+    subtype: UNKNOWN
   Secret Lair Drop Festival in a Box Atlanta 2025 Bundle:
     category: UNKNOWN
     identifiers:
