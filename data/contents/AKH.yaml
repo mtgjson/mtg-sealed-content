@@ -54,7 +54,7 @@ products:
   Amonkhet Deck Builders Toolkit:
     card_count: 225
     deck:
-    - name: Deck Builder's Toolkit Fixed Content
+    - name: "Fixed Content"
       set: akh
     other:
     - name: Deck Builder's Guide
@@ -72,7 +72,7 @@ products:
       set: aer
     variable:
     - deck:
-      - name: Black and Blue Noncreatures
+      - name: "Blue and Black Noncreatures"
         set: akh
     - deck:
       - name: Black and Green Counters
