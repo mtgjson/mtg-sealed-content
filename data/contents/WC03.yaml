@@ -1,6 +1,19 @@
 code: wc03
 products:
-  2003 World Championship Deck Box: []
+  2003 World Championship Deck Box:
+    sealed:
+    - count: 4
+      name: 2003 World Championship Deck Daniel Zink
+      set: wc03
+    - count: 2
+      name: 2003 World Championship Deck Dave Humpherys
+      set: wc03
+    - count: 3
+      name: 2003 World Championship Deck Peer Kroger
+      set: wc03
+    - count: 3
+      name: 2003 World Championship Deck Wolfgang Eder
+      set: wc03
   2003 World Championship Deck Daniel Zink:
     card_count: 75
     deck:

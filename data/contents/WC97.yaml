@@ -1,6 +1,19 @@
 code: wc97
 products:
-  1997 World Championship Deck Box: []
+  1997 World Championship Deck Box:
+    sealed:
+    - count: 5
+      name: 1997 World Championship Deck Jakub Slemr
+      set: wc97
+    - count: 3
+      name: 1997 World Championship Deck Janosch Kuhn
+      set: wc97
+    - count: 2
+      name: 1997 World Championship Deck Paul McCabe
+      set: wc97
+    - count: 2
+      name: 1997 World Championship Deck Svend Geertsen
+      set: wc97
   1997 World Championship Deck Jakub Slemr:
     card_count: 75
     deck:
