@@ -107,8 +107,103 @@ products:
     - count: 15
       name: Duskmourn House of Horror Prerelease Pack
       set: dsk
-  Welcome Deck 2024 Black Deck: []
-  Welcome Deck 2024 Blue Deck: []
-  Welcome Deck 2024 Green Deck: []
-  Welcome Deck 2024 Red Deck: []
-  Welcome Deck 2024 White Deck: []
+  Welcome Deck 2024 Black Deck:
+    deck:
+    - name: Black Deck
+      set: dsk
+    variable:
+    - deck:
+      - name: Blue Deck
+        set: dsk
+    - deck:
+      - name: Green Deck
+        set: dsk
+    - deck:
+      - name: Red Deck
+        set: dsk
+    - deck:
+      - name: White Deck
+        set: dsk
+    variable_mode:
+      count: 1
+      replacement: false
+  Welcome Deck 2024 Blue Deck:
+    deck:
+    - name: Blue Deck
+      set: dsk
+    variable:
+    - deck:
+      - name: Black Deck
+        set: dsk
+    - deck:
+      - name: Green Deck
+        set: dsk
+    - deck:
+      - name: Red Deck
+        set: dsk
+    - deck:
+      - name: White Deck
+        set: dsk
+    variable_mode:
+      count: 1
+      replacement: false
+  Welcome Deck 2024 Green Deck:
+    deck:
+    - name: Green Deck
+      set: dsk
+    variable:
+    - deck:
+      - name: Black Deck
+        set: dsk
+    - deck:
+      - name: Blue Deck
+        set: dsk
+    - deck:
+      - name: Red Deck
+        set: dsk
+    - deck:
+      - name: White Deck
+        set: dsk
+    variable_mode:
+      count: 1
+      replacement: false
+  Welcome Deck 2024 Red Deck:
+    deck:
+    - name: Red Deck
+      set: dsk
+    variable:
+    - deck:
+      - name: Black Deck
+        set: dsk
+    - deck:
+      - name: Blue Deck
+        set: dsk
+    - deck:
+      - name: Green Deck
+        set: dsk
+    - deck:
+      - name: White Deck
+        set: dsk
+    variable_mode:
+      count: 1
+      replacement: false
+  Welcome Deck 2024 White Deck:
+    deck:
+    - name: White Deck
+      set: dsk
+    variable:
+    - deck:
+      - name: Black Deck
+        set: dsk
+    - deck:
+      - name: Blue Deck
+        set: dsk
+    - deck:
+      - name: Green Deck
+        set: dsk
+    - deck:
+      - name: Red Deck
+        set: dsk
+    variable_mode:
+      count: 1
+      replacement: false
