@@ -1,9 +1,35 @@
-abugames: {}
+abugames:
+  'Secret Lair x Sonic: Friends & Foes':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2629312'
+    subtype: UNKNOWN
 cardKingdom: {}
 cardMarket: {}
-cardTrader: {}
+cardTrader:
+  Double Masters Box Topper Booster:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '348431'
+    subtype: UNKNOWN
+  'Ikoria: Lair of Behemoths Box Topper Booster':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '348432'
+    subtype: UNKNOWN
+  Planechase 2012 Deck set 4  Decks:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '348496'
+    subtype: UNKNOWN
 coolstuffinc: {}
-miniaturemarket: {}
+miniaturemarket:
+  'MtG Lost Caverns of Ixalan: Commander Deck Set (4)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '295868'
+    release_date: '2023-09-15'
+    subtype: UNKNOWN
 mvpsportsandgames:
   Could not load provider mvpsportsandgames:
     category: UNKNOWN
