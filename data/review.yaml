@@ -1,4 +1,14 @@
 abugames:
+  '10th Edition Theme Deck #1 Arcanis''s Guile':
+    category: UNKNOWN
+    identifiers:
+      abuId: '1100040'
+    subtype: UNKNOWN
+  Rivals Magic Quick Start Box Set:
+    category: UNKNOWN
+    identifiers:
+      abuId: '1101105'
+    subtype: UNKNOWN
   'Secret Lair x Sonic: Friends & Foes':
     category: UNKNOWN
     identifiers:
@@ -17,6 +27,11 @@ cardTrader:
     identifiers:
       cardtraderId: '348432'
     subtype: UNKNOWN
+  Modern Horizons 3 Collector Booster | Sample Pack Sample Pack:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '349045'
+    subtype: UNKNOWN
   Planechase 2012 Deck set 4  Decks:
     category: UNKNOWN
     identifiers:
@@ -30,12 +45,64 @@ miniaturemarket:
       miniaturemarketId: '295868'
     release_date: '2023-09-15'
     subtype: UNKNOWN
+  'MtG Universes Beyond: Spider-Man - Collector Booster Box (12)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305965'
+    release_date: '2025-03-03'
+    subtype: UNKNOWN
+  'MtG Universes Beyond: Spider-Man - Collector Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: '305966'
+    release_date: '2025-03-03'
+    subtype: UNKNOWN
 mvpsportsandgames:
   Could not load provider mvpsportsandgames:
     category: UNKNOWN
     identifiers:
       mvpId: ''
     subtype: UNKNOWN
-starcitygames: {}
+starcitygames:
+  Core Set 2021 Prerelease Kit:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-M21PRE-EN
+    subtype: UNKNOWN
+  'Kamigawa: Neon Dynasty Prerelease Kit':
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-NEOPRE-EN
+    subtype: UNKNOWN
+  Modern Horizons 3 Prerelease Kit:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-MH3-EN
+    subtype: UNKNOWN
+  Streets of New Capenna Prerelease Kit - Brokers:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-SNCPRE-EN-BROKERS
+    subtype: UNKNOWN
+  Streets of New Capenna Prerelease Kit - Cabaretti:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-SNCPRE-EN-CABARETTI
+    subtype: UNKNOWN
+  Streets of New Capenna Prerelease Kit - Maestros:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-SNCPRE-EN-MAESTROS
+    subtype: UNKNOWN
+  Streets of New Capenna Prerelease Kit - Obscura:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-SNCPRE-EN-OBSCURA
+    subtype: UNKNOWN
+  Streets of New Capenna Prerelease Kit - Riveteers:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-SNCPRE-EN-RIVETEERS
+    subtype: UNKNOWN
 tcgplayer: {}
 trollandtoad: {}
