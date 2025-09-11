@@ -21,7 +21,7 @@ products:
     - code: collector-sample
       set: pip
   Fallout Commander Deck Display:
-    copy: Fallout Commander Decks Set of Four
+    copy: Fallout Commander Decks Set of 4
   Fallout Commander Deck Hail Caesar:
     card_count: 100
     deck:
@@ -74,7 +74,7 @@ products:
     - count: 1
       name: Fallout Collector Booster Sample Pack
       set: pip
-  Fallout Commander Decks Set of Four:
+  Fallout Commander Decks Set of 4:
     sealed:
     - count: 1
       name: Fallout Commander Deck Hail Caesar
