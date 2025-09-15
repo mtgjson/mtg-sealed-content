@@ -237,6 +237,8 @@ class MtgjsonCardLinker:
                 + deck.get("displayCommander", [])
                 + deck.get("commander", [])
                 + deck.get("tokens", [])
+                + deck.get("schemes", [])
+                + deck.get("planes", [])
                 + deck.get("planarDeck", [])
                 + deck.get("schemeDeck", [])
             )
