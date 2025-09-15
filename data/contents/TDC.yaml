@@ -1,8 +1,79 @@
 code: tdc
 products:
-  Tarkir Dragonstorm Commander Deck Abzan Armor: []
-  Tarkir Dragonstorm Commander Deck Jeskai Striker: []
-  Tarkir Dragonstorm Commander Deck Mardu Surge: []
-  Tarkir Dragonstorm Commander Deck Sultai Arisen: []
-  Tarkir Dragonstorm Commander Deck Temur Roar: []
-  Tarkir Dragonstorm Commander Decks Set of 5: []
+  Tarkir Dragonstorm Commander Deck Abzan Armor:
+    card_count: 100
+    deck:
+    - name: Abzan Armor
+      set: tdc
+    other:
+    - name: 10 Double Sided Tokens
+    - name: 1 Deck Box
+    sealed:
+    - count: 1
+      name: Tarkir Dragonstorm Collector Booster Sample Pack
+      set: tdm
+  Tarkir Dragonstorm Commander Deck Jeskai Striker:
+    card_count: 100
+    deck:
+    - name: Jeskai Striker
+      set: tdc
+    other:
+    - name: 10 Double Sided Tokens
+    - name: 1 Deck Box
+    sealed:
+    - count: 1
+      name: Tarkir Dragonstorm Collector Booster Sample Pack
+      set: tdm
+  Tarkir Dragonstorm Commander Deck Mardu Surge:
+    card_count: 100
+    deck:
+    - name: Mardu Surge
+      set: tdc
+    other:
+    - name: 10 Double Sided Tokens
+    - name: 1 Deck Box
+    sealed:
+    - count: 1
+      name: Tarkir Dragonstorm Collector Booster Sample Pack
+      set: tdm
+  Tarkir Dragonstorm Commander Deck Sultai Arisen:
+    card_count: 100
+    deck:
+    - name: Sultai Arisen
+      set: tdc
+    other:
+    - name: 10 Double Sided Tokens
+    - name: 1 Deck Box
+    sealed:
+    - count: 1
+      name: Tarkir Dragonstorm Collector Booster Sample Pack
+      set: tdm
+  Tarkir Dragonstorm Commander Deck Temur Roar:
+    card_count: 100
+    deck:
+    - name: Temur Roar
+      set: tdc
+    other:
+    - name: 10 Double Sided Tokens
+    - name: 1 Deck Box
+    sealed:
+    - count: 1
+      name: Tarkir Dragonstorm Collector Booster Sample Pack
+      set: tdm
+  Tarkir Dragonstorm Commander Decks Set of 5:
+    sealed:
+    - count: 1
+      name: Tarkir Dragonstorm Commander Deck Abzan Armor
+      set: tdc
+    - count: 1
+      name: Tarkir Dragonstorm Commander Deck Jeskai Striker
+      set: tdc
+    - count: 1
+      name: Tarkir Dragonstorm Commander Deck Mardu Surge
+      set: tdc
+    - count: 1
+      name: Tarkir Dragonstorm Commander Deck Sultai Arisen
+      set: tdc
+    - count: 1
+      name: Tarkir Dragonstorm Commander Deck Temur Roar
+      set: tdc
