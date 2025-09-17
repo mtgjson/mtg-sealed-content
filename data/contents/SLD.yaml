@@ -4213,8 +4213,9 @@ products:
     deck:
     - name: 'MagicCon: the Gathering'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: deceptive-districts
+      set: sld
   Secret Lair Drop Math Is For Blockers:
     card_count: 5
     deck:
