@@ -36,7 +36,7 @@ def generate_scryfall_to_mtgjson_uuid_mapping(
     with all_printings_path.open("r", encoding="utf8") as fp:
         all_printings_data = json.load(fp)
 
-    scryfall_to_mtgjson_uuid_mapping = prior_mapping
+    sf_to_mtgjson_mapping = prior_mapping
 
     for set_code, set_data in all_printings_data.get("data", {}).items():
         for mtgjson_card in set_data.get("cards", []):
@@ -44,17 +44,18 @@ def generate_scryfall_to_mtgjson_uuid_mapping(
             if not scryfall_id:
                 continue
 
-            if scryfall_id not in scryfall_to_mtgjson_uuid_mapping:
-                scryfall_to_mtgjson_uuid_mapping[scryfall_id] = {}
+            if scryfall_id not in sf_to_mtgjson_mapping:
+                sf_to_mtgjson_mapping[scryfall_id] = {}
 
-            scryfall_to_mtgjson_uuid_mapping[scryfall_id][
-                mtgjson_card.get("side", "a")
-            ] = mtgjson_card["uuid"]
-            scryfall_to_mtgjson_uuid_mapping[scryfall_id]["_name"] = mtgjson_card[
-                "name"
-            ]
+            mtgjson_card_side = mtgjson_card.get("side", "a")
+            if mtgjson_card_side in sf_to_mtgjson_mapping[scryfall_id]:
+                # We don't want to overwrite a side if it already exists, so we skip it
+                continue
 
-    return scryfall_to_mtgjson_uuid_mapping
+            sf_to_mtgjson_mapping[scryfall_id][mtgjson_card_side] = mtgjson_card["uuid"]
+            sf_to_mtgjson_mapping[scryfall_id]["_name"] = mtgjson_card["name"]
+
+    return sf_to_mtgjson_mapping
 
 
 def save_scryfall_to_mtgjson_uuid_mapping(
