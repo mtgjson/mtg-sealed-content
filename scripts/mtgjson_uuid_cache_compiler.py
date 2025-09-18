@@ -22,7 +22,7 @@ def download_and_save_mtgjson_all_printings(save_path: pathlib.Path) -> None:
 
 def load_prior_scryfall_to_mtgjson_uuid_mapping(
     load_path: pathlib.Path,
-) -> Dict[str, str]:
+) -> Dict[str, Dict[str, str]]:
     if not load_path.exists():
         return {}
 
@@ -31,8 +31,8 @@ def load_prior_scryfall_to_mtgjson_uuid_mapping(
 
 
 def generate_scryfall_to_mtgjson_uuid_mapping(
-    all_printings_path: pathlib.Path, prior_mapping: Dict[str, str]
-) -> Dict[str, str]:
+    all_printings_path: pathlib.Path, prior_mapping: Dict[str, Dict[str, str]]
+) -> Dict[str, Dict[str, str]]:
     with all_printings_path.open("r", encoding="utf8") as fp:
         all_printings_data = json.load(fp)
 
@@ -41,14 +41,24 @@ def generate_scryfall_to_mtgjson_uuid_mapping(
     for set_code, set_data in all_printings_data.get("data", {}).items():
         for mtgjson_card in set_data.get("cards", []):
             scryfall_id = mtgjson_card.get("identifiers", {}).get("scryfallId")
-            if scryfall_id and scryfall_id not in scryfall_to_mtgjson_uuid_mapping:
-                scryfall_to_mtgjson_uuid_mapping[scryfall_id] = mtgjson_card["uuid"]
+            if not scryfall_id:
+                continue
+
+            if scryfall_id not in scryfall_to_mtgjson_uuid_mapping:
+                scryfall_to_mtgjson_uuid_mapping[scryfall_id] = {}
+
+            scryfall_to_mtgjson_uuid_mapping[scryfall_id][
+                mtgjson_card.get("side", "a")
+            ] = mtgjson_card["uuid"]
+            scryfall_to_mtgjson_uuid_mapping[scryfall_id]["_name"] = mtgjson_card[
+                "name"
+            ]
 
     return scryfall_to_mtgjson_uuid_mapping
 
 
 def save_scryfall_to_mtgjson_uuid_mapping(
-    new_mapping: Dict[str, str], save_path: pathlib.Path
+    new_mapping: Dict[str, Dict[str, str]], save_path: pathlib.Path
 ) -> None:
     with save_path.open("w", encoding="utf8") as fp:
         json.dump(new_mapping, fp, indent=4, sort_keys=True)
