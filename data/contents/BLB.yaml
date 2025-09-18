@@ -83,8 +83,44 @@ products:
     - count: 12
       name: Bloomburrow Starter Kit
       set: blb
-  Bloomburrow Tin Mouse: []
-  Bloomburrow Tin Otter: []
-  Bloomburrow Tin Skunk: []
-  Bloomburrow Tins Set of 3: []
+  Bloomburrow Tin Mouse:
+    copy: Bloomburrow Tin Otter
+  Bloomburrow Tin Otter:
+    sealed:
+    - count: 2
+      name: Bloomburrow Play Booster Pack
+      set: blb
+    - count: 1
+      name: Foundations Play Booster Pack
+      set: blb
+    - count: 1
+      name: Outlaws of Thunder Junction Play Booster Pack
+      set: blb
+    - count: 1
+      name: Murders at Karlov Manor Play Booster Pack
+      set: blb
+    card:
+    - count: 1
+      foil: true
+      name: Patchwork Banner
+      number: 2024-7
+      set: pmei
+    - count: 1
+      foil: true
+      name: Liliana of the Dark Realms
+      number: 2024-8
+      set: pmei
+  Bloomburrow Tin Skunk:
+    copy: Bloomburrow Tin Otter
+  Bloomburrow Tins Set of 3:
+    sealed:
+    - count: 1
+      name: Bloomburrow Tin Mouse
+      set: blb
+    - count: 1
+      name: Bloomburrow Tin Otter
+      set: blb
+    - count: 1
+      name: Bloomburrow Tin Skunk
+      set: blb
   Bloomburrow Value Booster: []
