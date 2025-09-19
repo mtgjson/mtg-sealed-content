@@ -5887,15 +5887,20 @@ products:
     deck:
     - name: 'KEXP: Where the Music Matters'
       set: sld
-    other:
-    - name: Bonus card unknown
+    card:
+    - name: Command Tower
+      number: 7029
+      set: sld
   Secret Lair Drop Secret Lair x KEXP Where the Music Matters Rainbow Foil:
     card_count: 10
     deck:
     - name: 'KEXP: Where the Music Matters Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    card:
+    - foil: true
+      name: Command Tower
+      number: 7029
+      set: sld
   Secret Lair Drop Secret Lair x KEXP You Are Not Alone:
     card:
     - name: Minds Aglow
