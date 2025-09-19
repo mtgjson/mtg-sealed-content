@@ -5369,43 +5369,115 @@ products:
     deck:
     - name: Astarion's Thirst
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Minsc & Boo, Timeless Heroes
+        number: 879
+        set: sld
+      chance: 1
+    - chance: 199
+      pack:
+      - code: dnd-50th-anniversary
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 200
   Secret Lair Drop Secret Lair x Dungeons and Dragons Astarions Thirst Rainbow Foil:
     card_count: 5
     deck:
     - name: Astarion's Thirst Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Minsc & Boo, Timeless Heroes
+        number: 879
+        set: sld
+      chance: 1
+    - chance: 199
+      pack:
+      - code: dnd-50th-anniversary
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 200
   Secret Lair Drop Secret Lair x Dungeons and Dragons Death is in the Eyes of the Beholder I:
     card_count: 6
     deck:
     - name: Death Is in the Eyes of the Beholder I
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Minsc & Boo, Timeless Heroes
+        number: 879
+        set: sld
+      chance: 1
+    - chance: 199
+      pack:
+      - code: dnd-50th-anniversary
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 200
   Secret Lair Drop Secret Lair x Dungeons and Dragons Death is in the Eyes of the Beholder I Rainbow Foil:
     card_count: 6
     deck:
     - name: Death Is in the Eyes of the Beholder I Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Minsc & Boo, Timeless Heroes
+        number: 879
+        set: sld
+      chance: 1
+    - chance: 199
+      pack:
+      - code: dnd-50th-anniversary
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 200
   Secret Lair Drop Secret Lair x Dungeons and Dragons Death is in the Eyes of the Beholder II:
     card_count: 6
     deck:
     - name: Death is In the Eyes of the Beholder II
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Minsc & Boo, Timeless Heroes
+        number: 879
+        set: sld
+      chance: 1
+    - chance: 199
+      pack:
+      - code: dnd-50th-anniversary
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 200
   Secret Lair Drop Secret Lair x Dungeons and Dragons Death is in the Eyes of the Beholder II Rainbow Foil:
     card_count: 6
     deck:
     - name: Death is In the Eyes of the Beholder II Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Minsc & Boo, Timeless Heroes
+        number: 879
+        set: sld
+      chance: 1
+    - chance: 199
+      pack:
+      - code: dnd-50th-anniversary
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 200
   Secret Lair Drop Secret Lair x Dungeons and Dragons Honor Among Thieves:
     card:
     - name: Themberchaud
@@ -5430,15 +5502,39 @@ products:
     deck:
     - name: Karlach's Rage
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Minsc & Boo, Timeless Heroes
+        number: 879
+        set: sld
+      chance: 1
+    - chance: 199
+      pack:
+      - code: dnd-50th-anniversary
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 200
   Secret Lair Drop Secret Lair x Dungeons and Dragons Karlachs Rage Rainbow Foil:
     card_count: 5
     deck:
     - name: Karlach's Rage Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Minsc & Boo, Timeless Heroes
+        number: 879
+        set: sld
+      chance: 1
+    - chance: 199
+      pack:
+      - code: dnd-50th-anniversary
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 200
   Secret Lair Drop Secret Lair x FINAL FANTASY Game Over:
     card_count: 5
     deck:
