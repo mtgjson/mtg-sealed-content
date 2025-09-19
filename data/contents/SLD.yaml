@@ -7673,15 +7673,79 @@ products:
     deck:
     - name: Twisted Toons
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Silence
+        number: 881
+        set: sld
+      chance: 2
+    - card:
+      - foil: true
+        name: Winds of Abandon
+        number: 882
+        set: sld
+      chance: 2
+    - card:
+      - foil: true
+        name: Culling the Weak
+        number: 883
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Fatal Push
+        number: 884
+        set: sld
+      chance: 5
+    - card:
+      - foil: true
+        name: Young Wolf
+        number: 885
+        set: sld
+      chance: 5
+    variable_mode:
+      count: 1
+      weight: 15
   Secret Lair Drop Twisted Toons Rainbow Foil:
     card_count: 5
     deck:
     - name: Twisted Toons Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Silence
+        number: 881
+        set: sld
+      chance: 2
+    - card:
+      - foil: true
+        name: Winds of Abandon
+        number: 882
+        set: sld
+      chance: 2
+    - card:
+      - foil: true
+        name: Culling the Weak
+        number: 883
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Fatal Push
+        number: 884
+        set: sld
+      chance: 5
+    - card:
+      - foil: true
+        name: Young Wolf
+        number: 885
+        set: sld
+      chance: 5
+    variable_mode:
+      count: 1
+      weight: 15
   Secret Lair Drop Valentines Day 2021:
     card:
     - foil: true
