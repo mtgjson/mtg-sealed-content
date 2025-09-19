@@ -7298,43 +7298,199 @@ products:
     deck:
     - name: 'SpongeBob SquarePants: Internet Sensation'
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Command Tower
+        number: 7012
+        set: sld
+      chance: 181
+    - card:
+      - foil: true
+        name: Smothering Tithe
+        number: 7023
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Counterspell
+        number: 7024
+        set: sld
+      chance: 8
+    - card:
+      - foil: true
+        name: Dismember
+        number: 20
+        set: sld
+      chance: 10
+    variable_mode:
+      count: 1
+      weight: 200
   Secret Lair Drop Spongebob Squarepants Internet Sensation Rainbow Foil:
     card_count: 5
     deck:
     - name: 'SpongeBob SquarePants: Internet Sensation Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Command Tower
+        number: 7012
+        set: sld
+      chance: 181
+    - card:
+      - foil: true
+        name: Smothering Tithe
+        number: 7023
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Counterspell
+        number: 7024
+        set: sld
+      chance: 8
+    - card:
+      - foil: true
+        name: Dismember
+        number: 20
+        set: sld
+      chance: 10
+    variable_mode:
+      count: 1
+      weight: 200
   Secret Lair Drop Spongebob Squarepants Lands Under the Sea:
     card_count: 10
     deck:
     - name: 'SpongeBob SquarePants: Lands Under the Sea'
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Command Tower
+        number: 7012
+        set: sld
+      chance: 181
+    - card:
+      - foil: true
+        name: Smothering Tithe
+        number: 7023
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Counterspell
+        number: 7024
+        set: sld
+      chance: 8
+    - card:
+      - foil: true
+        name: Dismember
+        number: 20
+        set: sld
+      chance: 10
+    variable_mode:
+      count: 1
+      weight: 200
   Secret Lair Drop Spongebob Squarepants Lands Under the Sea Rainbow Foil:
     card_count: 10
     deck:
     - name: 'SpongeBob SquarePants: Lands Under the Sea Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Command Tower
+        number: 7012
+        set: sld
+      chance: 181
+    - card:
+      - foil: true
+        name: Smothering Tithe
+        number: 7023
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Counterspell
+        number: 7024
+        set: sld
+      chance: 8
+    - card:
+      - foil: true
+        name: Dismember
+        number: 20
+        set: sld
+      chance: 10
+    variable_mode:
+      count: 1
+      weight: 200
   Secret Lair Drop Spongebob Squarepants Legends of Bikini Bottom:
     card_count: 7
     deck:
     - name: 'SpongeBob SquarePants: Legends of Bikini Bottom'
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Command Tower
+        number: 7012
+        set: sld
+      chance: 181
+    - card:
+      - foil: true
+        name: Smothering Tithe
+        number: 7023
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Counterspell
+        number: 7024
+        set: sld
+      chance: 8
+    - card:
+      - foil: true
+        name: Dismember
+        number: 20
+        set: sld
+      chance: 10
+    variable_mode:
+      count: 1
+      weight: 200
   Secret Lair Drop Spongebob Squarepants Legends of Bikini Bottom Rainbow Foil:
     card_count: 7
     deck:
     - name: 'SpongeBob SquarePants: Legends of Bikini Bottom Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Command Tower
+        number: 7012
+        set: sld
+      chance: 181
+    - card:
+      - foil: true
+        name: Smothering Tithe
+        number: 7023
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Counterspell
+        number: 7024
+        set: sld
+      chance: 8
+    - card:
+      - foil: true
+        name: Dismember
+        number: 20
+        set: sld
+      chance: 10
+    variable_mode:
+      count: 1
+      weight: 200
   Secret Lair Drop Ssssssnakessssss:
     card_count: 5
     deck:
