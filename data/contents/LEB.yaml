@@ -20,4 +20,8 @@ products:
     pack:
     - code: starter
       set: leb
-  Beta Starter Deck Display: []
+  Beta Starter Deck Display:
+    sealed:
+    - count: 10
+      name: Beta Starter Deck
+      set: leb
