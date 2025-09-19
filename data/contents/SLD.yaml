@@ -3574,15 +3574,67 @@ products:
     deck:
     - name: 'Featuring: Imiri Sakabashira'
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Consecrated Sphinx
+        number: 7023
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Resculpt
+        number: 7024
+        set: sld
+      chance: 119
+    - card:
+      - foil: true
+        name: Mirage Mirror
+        number: 7025
+        set: sld
+      chance: 70
+    - card:
+      - foil: true
+        name: Scion of Draco
+        number: 7026
+        set: sld
+      chance: 10
+    variable_mode:
+      count: 1
+      weight: 200
   Secret Lair Drop Featuring Imiri Sakabashira Rainbow Foil:
     card_count: 4
     deck:
     - name: 'Featuring: Imiri Sakabashira Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Consecrated Sphinx
+        number: 7023
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Resculpt
+        number: 7024
+        set: sld
+      chance: 119
+    - card:
+      - foil: true
+        name: Mirage Mirror
+        number: 7025
+        set: sld
+      chance: 70
+    - card:
+      - foil: true
+        name: Scion of Draco
+        number: 7026
+        set: sld
+      chance: 10
+    variable_mode:
+      count: 1
+      weight: 200
   Secret Lair Drop Featuring Jay Howell:
     card_count: 5
     deck:
