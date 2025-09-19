@@ -20,4 +20,8 @@ products:
     pack:
     - code: starter
       set: lea
-  Alpha Starter Deck Display: []
+  Alpha Starter Deck Display:
+    sealed:
+    - count: 10
+      name: Alpha Starter Deck
+      set: lea
