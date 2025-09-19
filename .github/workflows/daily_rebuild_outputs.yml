@@ -40,9 +40,6 @@ jobs:
       - name: execute card to product mapper
         run: python scripts/card_to_product_compiler.py -o outputs/card_map.json
 
-      - name: execute mtgjson uuid cache compiler
-        run: python scripts/mtgjson_uuid_cache_compiler.py
-
       - name: commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
