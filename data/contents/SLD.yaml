@@ -2261,7 +2261,7 @@ products:
     card:
     - foil: true
       name: Arcane Signet
-      number: "820★"
+      number: "820\u2605"
       set: sld
     card_count: 4
     deck:
@@ -5347,13 +5347,13 @@ products:
     - name: 'Doctor Who: The Weeping Angels Foil Edition'
       set: sld
   Secret Lair Drop Secret Lair x Dungeons and Dragons An Exhibition of Adventure:
-    card_count: 7
-    deck:
-    - name: An Exhibition of Adventure
-      set: sld
     card:
     - name: Dark Deal
       number: 873
+      set: sld
+    card_count: 7
+    deck:
+    - name: An Exhibition of Adventure
       set: sld
   Secret Lair Drop Secret Lair x Dungeons and Dragons An Exhibition of Adventure Rainbow Foil:
     card_count: 7
@@ -6077,7 +6077,7 @@ products:
     card:
     - foil: true
       name: Chaos Warp
-      number: "741★"
+      number: "741\u2605"
       set: sld
     card_count: 4
     deck:
@@ -6096,30 +6096,30 @@ products:
     card:
     - foil: true
       name: Colossal Dreadmaw
-      number: "740★"
+      number: "740\u2605"
       set: sld
     card_count: 5
     deck:
     - name: 'Jurassic World: Life Breaks Free Foil Edition'
       set: sld
   Secret Lair Drop Secret Lair x KEXP Where the Music Matters:
-    card_count: 10
-    deck:
-    - name: 'KEXP: Where the Music Matters'
-      set: sld
     card:
     - name: Command Tower
       number: 7029
       set: sld
-  Secret Lair Drop Secret Lair x KEXP Where the Music Matters Rainbow Foil:
     card_count: 10
     deck:
-    - name: 'KEXP: Where the Music Matters Foil Edition'
+    - name: 'KEXP: Where the Music Matters'
       set: sld
+  Secret Lair Drop Secret Lair x KEXP Where the Music Matters Rainbow Foil:
     card:
     - foil: true
       name: Command Tower
       number: 7029
+      set: sld
+    card_count: 10
+    deck:
+    - name: 'KEXP: Where the Music Matters Foil Edition'
       set: sld
   Secret Lair Drop Secret Lair x KEXP You Are Not Alone:
     card:

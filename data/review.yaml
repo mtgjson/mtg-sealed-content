@@ -6,7 +6,12 @@ abugames:
     subtype: UNKNOWN
 cardKingdom: {}
 cardMarket: {}
-cardTrader: {}
+cardTrader:
+  Could not load provider cardTrader:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: ''
+    subtype: UNKNOWN
 coolstuffinc: {}
 miniaturemarket: {}
 mvpsportsandgames:
@@ -31,6 +36,12 @@ tcgplayer:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '653253'
+    subtype: UNKNOWN
+  Marvels Spider Man Collector Booster Display Master Case:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '654626'
+    release_date: '2025-09-26'
     subtype: UNKNOWN
   Murders at Karlov Manor Prerelease Pack Case:
     category: UNKNOWN
