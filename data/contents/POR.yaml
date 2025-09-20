@@ -15,7 +15,16 @@ products:
     pack:
     - code: default
       set: por
-  Portal Demo Game Booster: []
+  Portal Demo Game Booster:
+    deck:
+    - name: Demo deck A
+      set: por
+    - name: Demo deck B
+      set: por
+    other:
+    - name: Tip Card
+    - name: Rebate Card
+    - name: 2 Instruction sheets
   Portal Gift Box:
     other:
     - name: Score Keeping Beads
