@@ -5356,13 +5356,14 @@ products:
     - name: An Exhibition of Adventure
       set: sld
   Secret Lair Drop Secret Lair x Dungeons and Dragons An Exhibition of Adventure Rainbow Foil:
-    card_count: 7
-    deck:
-    - name: An Exhibition of Adventure Foil Edition
-      set: sld
+    card:
     - foil: true
       name: Dark Deal
       number: 873
+      set: sld
+    card_count: 7
+    deck:
+    - name: An Exhibition of Adventure Foil Edition
       set: sld
   Secret Lair Drop Secret Lair x Dungeons and Dragons Astarions Thirst:
     card_count: 5
