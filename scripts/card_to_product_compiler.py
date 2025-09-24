@@ -250,15 +250,21 @@ class MtgjsonCardLinker:
                 + deck.get("planarDeck", [])
                 + deck.get("schemeDeck", [])
             )
-            for card in deck_cards:
+            for deck_card in deck_cards:
                 finish = "nonfoil"
-                # This only matters with SLD decks, but since isFoil is
-                # a boolean, we have no other way to capture this information
-                if deck_name.endswith("etched"):
+                # Validate a card can effectively be etched or foil by looking
+                # at the finish array. To retrieve this info we need to iterate
+                # on the possible set codes present in the deck
+                for code in deck["sourceSetCodes"]:
+                    for card in self.mtgjson_data[code]["cards"]:
+                        if deck_card["uuid"] == card["uuid"]:
+                            finishes = card["finishes"]
+
+                if (deck_name.endswith("etched") or deck_card.get("isFoil", False)) and "etched" in finishes:
                     finish = "etched"
-                elif card.get("isFoil", False):
+                elif deck_card.get("isFoil", False) and "foil" in finishes:
                     finish = "foil"
-                return_value.add(Card(card["uuid"], finish))
+                return_value.add(Card(deck_card["uuid"], finish))
             break
 
         return list(return_value)
