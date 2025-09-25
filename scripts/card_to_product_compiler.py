@@ -208,12 +208,20 @@ class MtgjsonCardLinker:
         for sheet in sheets_to_poll:
             cards_in_sheet = sheet_data["sheets"][sheet]["cards"]
 
-            if "etched" in sheet.lower():
-                finish = "etched"
-            else:
-                finish = "foil" if sheet_data["sheets"][sheet]["foil"] else "nonfoil"
-
             for card_uuid in cards_in_sheet.keys():
+                # Validate a card can effectively be etched or foil by looking
+                # at the finish array. To retrieve this info we need to iterate
+                # on the possible set codes present in the pack
+                for code in sheet_data["sourceSetCodes"]:
+                    for card in self.mtgjson_data[code]["cards"]:
+                        if card_uuid == card["uuid"]:
+                            finishes = card["finishes"]
+
+                if "etched" in sheet.lower() and "etched" in finishes:
+                    finish = "etched"
+                else:
+                    finish = "foil" if sheet_data["sheets"][sheet]["foil"] and "foil" in finishes else "nonfoil"
+
                 return_value.add(Card(card_uuid, finish))
 
         return list(return_value)
