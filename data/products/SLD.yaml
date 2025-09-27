@@ -2300,7 +2300,8 @@ products:
     subtype: SECRET_LAIR
   Secret Lair Drop Extra Life 2025 Secret Lair x Play-Doh Squishful Thinking:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      mcmId: '850970'
     release_date: '2025-09-26'
     subtype: SECRET_LAIR
   Secret Lair Drop Extra Life 2025 Secret Lair x Play-Doh Squishful Thinking Rainbow Foil:
@@ -3900,12 +3901,14 @@ products:
     subtype: SECRET_LAIR
   Secret Lair Drop Secret Lair x Flower Power:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '655935'
     release_date: '2025-09-25'
     subtype: SECRET_LAIR
   Secret Lair Drop Secret Lair x Flower Power Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '655936'
     release_date: '2025-09-25'
     subtype: SECRET_LAIR
   Secret Lair Drop Secret Lair x Fortnite:
@@ -5731,6 +5734,7 @@ products:
   Secret Lair Festival in a Box Atlanta 2025 Bundle:
     category: BOX_SET
     identifiers:
+      mcmId: '850656'
       tcgplayerProductId: '648635'
     release_date: '2025-08-18'
     subtype: SECRET_LAIR_BUNDLE
