@@ -217,7 +217,7 @@ class MtgjsonCardLinker:
                         if card_uuid == card["uuid"]:
                             finishes = card["finishes"]
 
-                if "etched" in sheet.lower() and "etched" in finishes:
+                if ("etched" in sheet.lower() or sheet_data["sheets"][sheet]["foil"]) and "etched" in finishes:
                     finish = "etched"
                 else:
                     finish = "foil" if sheet_data["sheets"][sheet]["foil"] and "foil" in finishes else "nonfoil"
