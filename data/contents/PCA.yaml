@@ -1,6 +1,15 @@
 code: pca
 products:
   Planechase Anthology:
+    deck:
+    - name: Planechase Anthology Planes
+      set: pca
+    other:
+    - name: 4 Deck Boxes
+    - name: 35 Double-Sided Tokens
+    - name: Special Edition Planar Die
+    - name: 4 Planechase Anthology Spindowns
+    - name: Strategy Insert
     sealed:
     - count: 1
       name: Planechase Anthology Planechase Deck Chaos Reigns
@@ -14,15 +23,6 @@ products:
     - count: 1
       name: Planechase Anthology Planechase Deck Savage Auras
       set: pca
-    deck:
-    - name: Planechase Anthology Planes
-      set: pca
-    other:
-    - name: 4 Deck Boxes
-    - name: 35 Double-Sided Tokens
-    - name: Special Edition Planar Die
-    - name: 4 Planechase Anthology Spindowns
-    - name: Strategy Insert
   Planechase Anthology Planechase Deck Chaos Reigns:
     card_count: 80
     deck:
