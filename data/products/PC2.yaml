@@ -1,5 +1,12 @@
 code: pc2
 products:
+  Planechase 2012:
+    category: SUBSET
+    identifiers:
+      abuId: '1100997'
+      cardtraderId: '348496'
+      tcgplayerProductId: '59114'
+    subtype: PLANECHASE
   Planechase 2012 Deck Chaos Reigns:
     category: DECK
     identifiers:
@@ -51,11 +58,4 @@ products:
       tcgplayerProductId: '59118'
       tntId: '375632'
     release_date: '2012-06-01'
-    subtype: PLANECHASE
-  Planechase 2012 Set of 4:
-    category: SUBSET
-    identifiers:
-      abuId: '1100997'
-      cardtraderId: '348496'
-      tcgplayerProductId: '59114'
     subtype: PLANECHASE
