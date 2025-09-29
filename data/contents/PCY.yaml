@@ -5,7 +5,11 @@ products:
     - count: 36
       name: Prophecy Booster Pack
       set: pcy
-  Prophecy Booster Box Case: []
+  Prophecy Booster Box Case:
+    sealed:
+    - count: 6
+      name: Prophecy Booster Box
+      set: pcy
   Prophecy Booster Pack:
     card_count: 15
     pack:

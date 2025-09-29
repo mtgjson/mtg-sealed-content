@@ -5,7 +5,11 @@ products:
     - count: 36
       name: Urzas Saga Booster Pack
       set: usg
-  Urzas Saga Booster Box Case: []
+  Urzas Saga Booster Box Case:
+    sealed:
+    - count: 6
+      name: Urzas Saga Booster Box
+      set: usg
   Urzas Saga Booster Pack:
     card_count: 15
     pack:

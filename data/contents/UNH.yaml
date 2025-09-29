@@ -5,7 +5,11 @@ products:
     - count: 36
       name: Unhinged Booster Pack
       set: unh
-  Unhinged Booster Box Case: []
+  Unhinged Booster Box Case:
+    sealed:
+    - count: 6
+      name: Unhinged Booster Box
+      set: unh
   Unhinged Booster Pack:
     card_count: 15
     pack:
