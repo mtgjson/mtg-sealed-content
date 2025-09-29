@@ -27,7 +27,20 @@ products:
     deck:
     - name: Time Spiral Foil Redemption
       set: tsp
-  Time Spiral Theme Deck Display: []
+  Time Spiral Theme Deck Display:
+    sealed:
+    - count: 3
+      name: Time Spiral Theme Deck Fun With Fungus
+      set: tsp
+    - count: 3
+      name: Theme Deck Hopes Crusaders
+      set: tsp
+    - count: 3
+      name: Theme Deck Reality Fracture
+      set: tsp
+    - count: 3
+      name: Time Spiral Theme Deck Sliver Evolution
+      set: tsp
   Time Spiral Theme Deck Fun With Fungus:
     card_count: 60
     deck:
