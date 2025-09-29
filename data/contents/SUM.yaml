@@ -1,5 +1,9 @@
 code: sum
 products:
   Summer Magic Booster Box: []
-  Summer Magic Booster Box Case: []
+  Summer Magic Booster Box Case:
+    sealed:
+    - count: 6
+      name: Summer Magic Booster Box
+      set: sum
   Summer Magic Booster Pack: []

@@ -5,7 +5,11 @@ products:
     - count: 36
       name: Urzas Legacy Booster Pack
       set: ulg
-  Urzas Legacy Booster Box Case: []
+  Urzas Legacy Booster Box Case:
+    sealed:
+    - count: 6
+      name: Urzas Legacy Booster Box
+      set: ulg
   Urzas Legacy Booster Pack:
     card_count: 15
     pack:

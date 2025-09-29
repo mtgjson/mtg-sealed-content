@@ -5,7 +5,11 @@ products:
     - count: 36
       name: Urzas Destiny Booster Pack
       set: uds
-  Urzas Destiny Booster Box Case: []
+  Urzas Destiny Booster Box Case:
+    sealed:
+    - count: 6
+      name: Urzas Destiny Booster Box
+      set: uds
   Urzas Destiny Booster Pack:
     card_count: 15
     pack:
