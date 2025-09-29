@@ -3447,8 +3447,25 @@ products:
     deck:
     - name: Pixel Perfect Foil Edition
       set: sld
-  Secret Lair Drop Extra Life 2025 Secret Lair x Play-Doh Squishful Thinking: {}
-  Secret Lair Drop Extra Life 2025 Secret Lair x Play-Doh Squishful Thinking Rainbow Foil: {}
+  Secret Lair Drop Extra Life 2025 Secret Lair x Play-Doh Squishful Thinking:
+    card:
+    - name: Scute Swarm
+      number: 7048
+      set: sld
+    card_count: 4
+    deck:
+    - name: 'Play-Doh: Squishful Thinking'
+      set: sld
+  Secret Lair Drop Extra Life 2025 Secret Lair x Play-Doh Squishful Thinking Rainbow Foil:
+    card:
+    - foil: true
+      name: Scute Swarm
+      number: 7048
+      set: sld
+    card_count: 4
+    deck:
+    - name: 'Play-Doh: Squishful Thinking Foil Edition'
+      set: sld
   Secret Lair Drop Faerie Faerie Faerie Rad Foil:
     card_count: 4
     deck:
