@@ -1,16 +1,20 @@
 code: pca
 products:
   Planechase Anthology:
-    card_count: 326
+    sealed:
+    - count: 1
+      name: Planechase Anthology Planechase Deck Chaos Reigns
+      set: pca
+    - count: 1
+      name: Planechase Anthology Planechase Deck Night of the Ninja
+      set: pca
+    - count: 1
+      name: Planechase Anthology Planechase Deck Primordial Hunger
+      set: pca
+    - count: 1
+      name: Planechase Anthology Planechase Deck Savage Auras
+      set: pca
     deck:
-    - name: Chaos Reigns
-      set: pca
-    - name: Night Of The Ninja
-      set: pca
-    - name: Primordial Hunger
-      set: pca
-    - name: Savage Auras
-      set: pca
     - name: Planechase Anthology Planes
       set: pca
     other:
@@ -19,7 +23,23 @@ products:
     - name: Special Edition Planar Die
     - name: 4 Planechase Anthology Spindowns
     - name: Strategy Insert
-  Planechase Anthology Planechase Deck Chaos Reigns: []
-  Planechase Anthology Planechase Deck Night of the Ninja: []
-  Planechase Anthology Planechase Deck Primordial Hunger: []
-  Planechase Anthology Planechase Deck Savage Auras: []
+  Planechase Anthology Planechase Deck Chaos Reigns:
+    card_count: 80
+    deck:
+    - name: Chaos Reigns
+      set: pca
+  Planechase Anthology Planechase Deck Night of the Ninja:
+    card_count: 80
+    deck:
+    - name: Night Of The Ninja
+      set: pca
+  Planechase Anthology Planechase Deck Primordial Hunger:
+    card_count: 80
+    deck:
+    - name: Primordial Hunger
+      set: pca
+  Planechase Anthology Planechase Deck Savage Auras:
+    card_count: 80
+    deck:
+    - name: Savage Auras
+      set: pca
