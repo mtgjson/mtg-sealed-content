@@ -5828,8 +5828,16 @@ products:
     variable_mode:
       count: 1
       weight: 301
-  Secret Lair Drop Secret Lair x Flower Power: {}
-  Secret Lair Drop Secret Lair x Flower Power Foil: {}
+  Secret Lair Drop Secret Lair x Flower Power:
+    card_count: 5
+    deck:
+    - name: Flower Power
+      set: sld
+  Secret Lair Drop Secret Lair x Flower Power Foil:
+    card_count: 5
+    deck:
+    - name: Flower Power Foil Edition
+      set: sld
   Secret Lair Drop Secret Lair x Fortnite:
     card:
     - name: Pyrite Spellbomb
