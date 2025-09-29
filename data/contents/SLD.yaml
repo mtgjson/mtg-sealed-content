@@ -6338,17 +6338,83 @@ products:
     variable_mode:
       count: 1
       weight: 300
-  Secret Lair Drop Secret Lair x Marvels Spider-Man Daily Bugle Breaking News: {}
-  Secret Lair Drop Secret Lair x Marvels Spider-Man Daily Bugle Breaking News Foil: {}
-  Secret Lair Drop Secret Lair x Marvels Spider-Man Heroic Deeds: {}
-  Secret Lair Drop Secret Lair x Marvels Spider-Man Heroic Deeds Foil: {}
-  Secret Lair Drop Secret Lair x Marvels Spider-Man Mana Symbiote Raised Foil: {}
-  Secret Lair Drop Secret Lair x Marvels Spider-Man Venom Unleashed Colors: {}
-  Secret Lair Drop Secret Lair x Marvels Spider-Man Venom Unleashed Colors Foil: {}
-  Secret Lair Drop Secret Lair x Marvels Spider-Man Venom Unleashed Inks: {}
-  Secret Lair Drop Secret Lair x Marvels Spider-Man Venom Unleashed Inks Foil: {}
-  Secret Lair Drop Secret Lair x Marvels Spider-Man Villainous Plots: {}
-  Secret Lair Drop Secret Lair x Marvels Spider-Man Villainous Plots Foil: {}
+  Secret Lair Drop Secret Lair x Marvels Spider-Man Daily Bugle Breaking News:
+    card_count: 5
+    deck:
+    - name: 'Marvel''s Spider-Man: Daily Bugle Breaking News'
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Marvels Spider-Man Daily Bugle Breaking News Foil:
+    card_count: 5
+    deck:
+    - name: Marvel's Spider-Man- Daily Bugle Breaking News Foil Edition
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Marvels Spider-Man Heroic Deeds:
+    card_count: 5
+    deck:
+    - name: 'Marvel''s Spider-Man: Heroic Deeds'
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Marvels Spider-Man Heroic Deeds Foil:
+    card_count: 5
+    deck:
+    - name: 'Marvel''s Spider-Man: Heroic Deeds Foil Edition'
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Marvels Spider-Man Mana Symbiote Raised Foil:
+    card_count: 5
+    deck:
+    - name: 'Marvel''s Spider-Man: Mana Symbiote Raised Foil Edition'
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Marvels Spider-Man Venom Unleashed Colors:
+    card_count: 5
+    deck:
+    - name: 'Marvel''s Spider-Man: Venom Unleashed (Colors)'
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Marvels Spider-Man Venom Unleashed Colors Foil:
+    card_count: 5
+    deck:
+    - name: 'Marvel''s Spider-Man: Venom Unleashed (Colors) Foil Edition'
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Marvels Spider-Man Venom Unleashed Inks:
+    card_count: 5
+    deck:
+    - name: 'Marvel''s Spider-Man: Venom Unleashed (Inks)'
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Marvels Spider-Man Venom Unleashed Inks Foil:
+    card_count: 5
+    deck:
+    - name: 'Marvel''s Spider-Man: Venom Unleashed (Inks)'
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Marvels Spider-Man Villainous Plots:
+    card_count: 5
+    deck:
+    - name: 'Marvel''s Spider-Man: Villainous Plots'
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Secret Lair x Marvels Spider-Man Villainous Plots Foil:
+    card_count: 5
+    deck:
+    - name: 'Marvel''s Spider-Man: Villainous Plots Foil Edition'
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Secret Lair x Marvels Storm:
     card_count: 5
     deck:
