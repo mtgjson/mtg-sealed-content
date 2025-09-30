@@ -42,7 +42,23 @@ products:
     - count: 2
       name: 2014 Core Set Booster Pack
       set: m14
-  2014 Core Set Intro Pack Display: []
+  2014 Core Set Intro Pack Display:
+    sealed:
+    - count: 2
+      name: 2014 Core Set Intro Pack Bestial Strength
+      set: m14
+    - count: 2
+      name: 2014 Core Set Intro Pack Death Reaper
+      set: m14
+    - count: 2
+      name: 2014 Core Set Intro Pack Fire Surge
+      set: m14
+    - count: 2
+      name: 2014 Core Set Intro Pack Lightforce
+      set: m14
+    - count: 2
+      name: 2014 Core Set Intro Pack Psychic Labyrinth
+      set: m14
   2014 Core Set Intro Pack Fire Surge:
     card_count: 60
     deck:
