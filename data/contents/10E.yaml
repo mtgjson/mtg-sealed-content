@@ -136,7 +136,23 @@ products:
     deck:
     - name: Molimo's Might
       set: 10e
-  Tenth Edition Theme Decks Set of 5: []
+  Tenth Edition Theme Decks Set of 5:
+    sealed:
+    - count: 1
+      name: Tenth Edition Theme Deck Arcaniss Guile
+      set: 10e
+    - count: 1
+      name: Tenth Edition Theme Deck Cho Mannos Resolve
+      set: 10e
+    - count: 1
+      name: Tenth Edition Theme Deck Evincars Tyranny
+      set: 10e
+    - count: 1
+      name: Tenth Edition Theme Deck Kamahls Temper
+      set: 10e
+    - count: 1
+      name: Tenth Edition Theme Deck Molimos Might
+      set: 10e
   Tenth Edition Two Player Starter Game:
     other:
     - name: 20 basic lands
