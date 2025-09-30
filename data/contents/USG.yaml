@@ -49,7 +49,20 @@ products:
     deck:
     - name: Tombstone
       set: usg
-  Urzas Saga Theme Decks Set of 4: []
+  Urzas Saga Theme Decks Set of 4:
+    sealed:
+    - count: 1
+      name: Urzas Saga Theme Deck Sleeper
+      set: usg
+    - count: 1
+      name: Urzas Saga Theme Deck Special Delivery
+      set: usg
+    - count: 1
+      name: Urzas Saga Theme Deck The Plague
+      set: usg
+    - count: 1
+      name: Urzas Saga Theme Deck Tombstone
+      set: usg
   Urzas Saga Tournament Pack:
     card_count: 75
     pack:
