@@ -59,7 +59,23 @@ products:
     - count: 2
       name: Theros Booster Pack
       set: ths
-  Theros Intro Pack Display: []
+  Theros Intro Pack Display:
+    sealed:
+    - count: 2
+      name: Theros Intro Pack Anthousas Army
+      set: ths
+    - count: 2
+      name: Theros Intro Pack Blazing Beasts of Myth
+      set: ths
+    - count: 2
+      name: Theros Intro Pack Devotion to Darkness
+      set: ths
+    - count: 2
+      name: Theros Intro Pack Favors from Nyx
+      set: ths
+    - count: 2
+      name: Theros Intro Pack Manipulative Monstrosities
+      set: ths
   Theros Intro Pack Favors from Nyx:
     card_count: 60
     deck:

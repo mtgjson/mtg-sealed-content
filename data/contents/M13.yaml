@@ -52,7 +52,23 @@ products:
     - count: 2
       name: 2013 Core Set Booster Pack
       set: m13
-  2013 Core Set Intro Pack Display: []
+  2013 Core Set Intro Pack Display:
+    sealed:
+    - count: 2
+      name: 2013 Core Set Intro Pack Depths of Power Blue
+      set: m13
+    - count: 2
+      name: 2013 Core Set Intro Pack Mob Rule Red
+      set: m13
+    - count: 2
+      name: 2013 Core Set Intro Pack Path to Victory White
+      set: m13
+    - count: 2
+      name: 2013 Core Set Intro Pack Sole Domination Black
+      set: m13
+    - count: 2
+      name: 2013 Core Set Intro Pack Wild Rush Green
+      set: m13
   2013 Core Set Intro Pack Mob Rule Red:
     card_count: 60
     deck:
