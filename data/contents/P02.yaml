@@ -15,8 +15,27 @@ products:
     pack:
     - code: default
       set: p02
-  Portal Second Age Demo Game Booster Pack: []
-  Portal Second Age Gift Box: []
+  Portal Second Age Demo Game Booster Pack:
+    deck:
+    - name: Demo deck A
+      set: p02
+    - name: Demo deck B
+      set: p02
+    other:
+    - name: Tip Card
+    - name: Rebate Card
+    - name: 2 Instruction sheets
+  Portal Second Age Gift Box:
+    sealed:
+    - count: 1
+      name: Portal Second Age Booster Pack
+      set: p02
+    - count: 1
+      name: Portal Second Age Demo Game Booster
+      set: p02
+    other:
+    - name: Two score-keeping beads
+    - name: Official guide to Portal Second Age
   Portal Second Age Theme Deck Display:
     sealed:
     - count: 3
