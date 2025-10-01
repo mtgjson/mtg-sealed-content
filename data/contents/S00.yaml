@@ -1,7 +1,18 @@
 code: s00
 products:
   Starter 2000 Advanced Booster Pack: []
-  Starter 2000 Demo Game Booster Pack: []
+  Starter 2000 Demo Game Booster:
+    deck:
+    - name: Demo deck A
+      set: p02
+    - name: Demo deck B
+      set: p02
+    - name: Starter 2000 sampler pack
+      set: s00
+    other:
+    - name: Tip Card
+    - name: Rebate Card
+    - name: 2 Instruction sheets
   Starter 2000 Sampler Booster Pack:
     card_count: 10
     deck:
