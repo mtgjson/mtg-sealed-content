@@ -19,7 +19,7 @@ def tcgplayer_token_to_mtgjson_token_products_entry(
 ) -> Dict[str, Any]:
     return {
         "identifiers": {
-            "tcgplayerProductId": tcgplayer_token["productId"],
+            "tcgplayerProductId": str(tcgplayer_token["productId"]),
         },
         "purchaseUrls": {
             "tcgplayer": TCGPLAYER_REFERRAL_URL.format(tcgplayer_token["productId"])
