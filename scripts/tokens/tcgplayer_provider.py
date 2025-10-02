@@ -4,7 +4,6 @@ import multiprocessing
 import os
 from typing import Dict, Any, Iterable, List
 
-import pathlib
 import requests
 
 from scripts.retryable_session import retryable_session
