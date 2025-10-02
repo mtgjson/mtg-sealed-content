@@ -51,20 +51,12 @@ class TcgplayerProvider:
     def download(self, url: str, params: Dict[str, Any]):
         print(f"Downloading {url} with params {params}")
 
-        path = pathlib.Path(f"~/Desktop/ugh/{params}.json").expanduser()
-        if path.exists():
-            with path.open("r") as f:
-                return json.load(f)
-
         response = self.__session.get(url, params=params)
         response_decoded = response.content.decode()
 
         try:
             response = json.loads(response_decoded)
-            results = list(response.get("results", []))
-            with path.open("w") as f:
-                json.dump(results, f)
-            return results
+            return list(response.get("results", []))
         except json.decoder.JSONDecodeError:
             return []
 
