@@ -1,3 +1,4 @@
+import io
 import json
 import lzma
 import pathlib
@@ -21,21 +22,25 @@ class AllPrintings:
 
     @staticmethod
     def __download_all_printings() -> pathlib.Path:
-        file_bytes = b""
-        file_data = retryable_session().get(
+        buffer = io.BytesIO()
+        response = retryable_session().get(
             "https://mtgjson.com/api/v5/AllPrintings.json.xz", stream=True, timeout=60
         )
-        for chunk in file_data.iter_content(chunk_size=1024 * 36):
+
+        for chunk in response.iter_content(chunk_size=1024 * 36):
             if chunk:
-                file_bytes += chunk
+                buffer.write(chunk)
+
+        buffer.seek(0)
+        decompressed_data = lzma.decompress(buffer.read()).decode("utf-8")
 
         save_location = tempfile.NamedTemporaryFile(delete=False, delete_on_close=False)
-        save_location_pathlib = pathlib.Path(save_location.name)
+        save_location_path = pathlib.Path(save_location.name)
 
-        with save_location_pathlib.open("w", encoding="utf8") as f:
-            f.write(lzma.decompress(file_bytes).decode())
+        with save_location_path.open("w", encoding="utf8") as f:
+            f.write(decompressed_data)
 
-        return save_location_pathlib
+        return save_location_path
 
     def __read_all_printings(self) -> Dict[str, Any]:
         with self.__temp_file.open("r", encoding="utf8") as f:
