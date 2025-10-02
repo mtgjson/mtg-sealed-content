@@ -43,6 +43,9 @@ jobs:
       - name: execute card to product mapper
         run: python scripts/card_to_product_compiler.py -o outputs/card_map.json
 
+      - name: execute token products mapping compiler
+        run: python scripts/tokens/main.py
+
       - name: commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
