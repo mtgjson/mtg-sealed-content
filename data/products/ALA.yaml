@@ -105,11 +105,13 @@ products:
     subtype: INTRO
   Shards of Alara MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '223053'
     subtype: REDEMPTION
   Shards of Alara MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '223052'
     subtype: REDEMPTION
   Shards of Alara Premium Foil Booster Box:
     category: BOOSTER_BOX

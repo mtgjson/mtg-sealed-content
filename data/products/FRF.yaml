@@ -131,11 +131,13 @@ products:
     subtype: INTRO
   Fate Reforged MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210848'
     subtype: REDEMPTION
   Fate Reforged MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '211510'
     subtype: REDEMPTION
   Fate Reforged Prerelease Kit Abzan Battle with Endurance:
     category: LIMITED

@@ -42,11 +42,13 @@ products:
     subtype: FAT_PACK
   Scourge MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241618'
     subtype: REDEMPTION
   Scourge MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241617'
     subtype: REDEMPTION
   Scourge Theme Deck Display:
     category: DECK_BOX

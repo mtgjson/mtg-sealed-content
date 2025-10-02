@@ -49,11 +49,13 @@ products:
     subtype: GIFT_BUNDLE
   Time Spiral MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241641'
     subtype: REDEMPTION
   Time Spiral MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241640'
     subtype: REDEMPTION
   Time Spiral Theme Deck Display:
     category: DECK_BOX

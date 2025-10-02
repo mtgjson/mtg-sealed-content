@@ -144,11 +144,13 @@ products:
     subtype: INTRO
   Mirrodin Besieged MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210877'
     subtype: REDEMPTION
   Mirrodin Besieged MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210859'
     subtype: REDEMPTION
   Mirrodin Besieged Mirran Faction Booster Pack:
     category: BOOSTER_PACK

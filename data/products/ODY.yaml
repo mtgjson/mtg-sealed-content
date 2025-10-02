@@ -41,11 +41,13 @@ products:
     subtype: FAT_PACK
   Odyssey MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241608'
     subtype: REDEMPTION
   Odyssey MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241607'
     subtype: REDEMPTION
   Odyssey Theme Deck Display:
     category: DECK_BOX

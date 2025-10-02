@@ -177,11 +177,13 @@ products:
     subtype: GIFT_BUNDLE
   Throne of Eldraine MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '228554'
     subtype: REDEMPTION
   Throne of Eldraine MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '228553'
     subtype: REDEMPTION
   Throne of Eldraine Planeswalker Deck Display:
     category: DECK_BOX

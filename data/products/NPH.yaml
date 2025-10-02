@@ -143,11 +143,13 @@ products:
     subtype: INTRO
   New Phyrexia MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210880'
     subtype: REDEMPTION
   New Phyrexia MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210861'
     subtype: REDEMPTION
   New Phyrexia Six Card Booster Pack:
     category: BOOSTER_PACK

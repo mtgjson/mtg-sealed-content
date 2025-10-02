@@ -42,11 +42,13 @@ products:
     subtype: FAT_PACK
   Torment MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241610'
     subtype: REDEMPTION
   Torment MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241609'
     subtype: REDEMPTION
   Torment Theme Deck Display:
     category: DECK_BOX

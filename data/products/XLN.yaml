@@ -73,11 +73,13 @@ products:
     subtype: DECK_BUILDERS_TOOLKIT
   Ixalan MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '217133'
     subtype: REDEMPTION
   Ixalan MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '217134'
     subtype: REDEMPTION
   Ixalan Planeswalker Deck Huatli:
     category: DECK

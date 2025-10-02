@@ -173,11 +173,13 @@ products:
     subtype: INTRO
   Gatecrash MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210855'
     subtype: REDEMPTION
   Gatecrash MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210870'
     subtype: REDEMPTION
   Gatecrash Prerelease Kit Boros:
     category: LIMITED

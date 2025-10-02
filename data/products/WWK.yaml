@@ -109,11 +109,13 @@ products:
     subtype: INTRO
   Worldwake MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241657'
     subtype: REDEMPTION
   Worldwake MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241656'
     subtype: REDEMPTION
   Worldwake Six Card Booster Pack:
     category: BOOSTER_PACK

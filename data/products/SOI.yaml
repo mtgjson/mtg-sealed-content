@@ -146,11 +146,13 @@ products:
     subtype: INTRO
   Shadows over Innistrad MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210362'
     subtype: REDEMPTION
   Shadows over Innistrad MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210885'
     subtype: REDEMPTION
   Shadows over Innistrad Prerelease Pack:
     category: LIMITED

@@ -48,11 +48,13 @@ products:
     subtype: DEFAULT
   Rivals of Ixalan MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '217135'
     subtype: REDEMPTION
   Rivals of Ixalan MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '217136'
     subtype: REDEMPTION
   Rivals of Ixalan Planeswalker Deck Angrath:
     category: DECK

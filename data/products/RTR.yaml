@@ -194,11 +194,13 @@ products:
     subtype: INTRO
   Return to Ravnica MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210857'
     subtype: REDEMPTION
   Return to Ravnica MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210865'
     subtype: REDEMPTION
   Return to Ravnica Prerelease Pack Azorius:
     category: LIMITED

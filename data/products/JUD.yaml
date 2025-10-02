@@ -41,11 +41,13 @@ products:
     subtype: FAT_PACK
   Judgment MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241612'
     subtype: REDEMPTION
   Judgment MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241611'
     subtype: REDEMPTION
   Judgment Theme Deck Air Razers:
     category: DECK

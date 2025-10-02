@@ -145,11 +145,13 @@ products:
     subtype: JUMPSTART
   Phyrexia All Will Be One MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '274802'
     subtype: REDEMPTION
   Phyrexia All Will Be One MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '274803'
     subtype: REDEMPTION
   Phyrexia All Will Be One Prerelease Pack:
     category: LIMITED

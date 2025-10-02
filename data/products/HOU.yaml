@@ -48,11 +48,13 @@ products:
     subtype: DEFAULT
   Hour of Devastation MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '213467'
     subtype: REDEMPTION
   Hour of Devastation MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '213466'
     subtype: REDEMPTION
   Hour of Devastation Planeswalker Deck Display:
     category: DECK_BOX

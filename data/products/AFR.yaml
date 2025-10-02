@@ -120,11 +120,13 @@ products:
     subtype: GIFT_BUNDLE
   Adventures in the Forgotten Realms MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '249663'
     subtype: REDEMPTION
   Adventures in the Forgotten Realms MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '249664'
     subtype: REDEMPTION
   Adventures in the Forgotten Realms Prerelease Pack:
     category: LIMITED

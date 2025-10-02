@@ -62,7 +62,8 @@ products:
     subtype: PROMOTIONAL
   Duskmourn House of Horror MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '300735'
     subtype: REDEMPTION
   Duskmourn House of Horror MTGO Redemption Foil:
     category: BOX_SET

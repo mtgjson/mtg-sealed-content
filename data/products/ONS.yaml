@@ -41,11 +41,13 @@ products:
     subtype: FAT_PACK
   Onslaught MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241614'
     subtype: REDEMPTION
   Onslaught MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241613'
     subtype: REDEMPTION
   Onslaught Theme Deck Bait and Switch:
     category: DECK

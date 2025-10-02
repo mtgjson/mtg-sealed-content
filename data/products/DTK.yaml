@@ -134,11 +134,13 @@ products:
     subtype: INTRO
   Dragons of Tarkir MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210849'
     subtype: REDEMPTION
   Dragons of Tarkir MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210868'
     subtype: REDEMPTION
   Dragons of Tarkir Prerelease Kit Atarka Battle with Savagery:
     category: LIMITED

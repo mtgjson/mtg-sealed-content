@@ -45,11 +45,13 @@ products:
     subtype: DEFAULT
   Aether Revolt MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '212311'
     subtype: REDEMPTION
   Aether Revolt MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '211546'
     subtype: REDEMPTION
   Aether Revolt Planeswalker Deck Ajani:
     category: DECK

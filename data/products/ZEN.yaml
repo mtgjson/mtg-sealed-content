@@ -116,11 +116,13 @@ products:
     subtype: INTRO
   Zendikar MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '223902'
     subtype: REDEMPTION
   Zendikar MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241655'
     subtype: REDEMPTION
   Zendikar Six Card Booster Pack:
     category: BOOSTER_PACK

@@ -211,9 +211,11 @@ products:
     subtype: PRERELEASE
   Journey into Nyx MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210881'
     subtype: REDEMPTION
   Journey into Nyx MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210856'
     subtype: REDEMPTION

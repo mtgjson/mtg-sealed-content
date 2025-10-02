@@ -121,11 +121,13 @@ products:
     subtype: DRAFT
   Streets of New Capenna MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '260362'
     subtype: REDEMPTION
   Streets of New Capenna MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '260361'
     subtype: REDEMPTION
   Streets of New Capenna Prerelease Pack Brokers:
     category: LIMITED

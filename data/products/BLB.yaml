@@ -58,7 +58,8 @@ products:
     subtype: PROMOTIONAL
   Bloomburrow MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '300432'
     subtype: REDEMPTION
   Bloomburrow MTGO Redemption Foil:
     category: BOX_SET

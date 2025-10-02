@@ -115,7 +115,8 @@ products:
     subtype: JUMPSTART
   March of the Machine MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '275000'
     subtype: REDEMPTION
   March of the Machine MTGO Redemption Foil:
     category: BOX_SET

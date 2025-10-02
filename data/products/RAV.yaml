@@ -30,11 +30,13 @@ products:
     subtype: DRAFT
   Ravnica City of Guilds MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241633'
     subtype: REDEMPTION
   Ravnica City of Guilds MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241632'
     subtype: REDEMPTION
   Ravnica Fat Pack:
     category: BUNDLE

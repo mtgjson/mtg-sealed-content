@@ -102,11 +102,13 @@ products:
     subtype: DRAFT
   Wilds of Eldraine MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '283508'
     subtype: REDEMPTION
   Wilds of Eldraine MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '283507'
     subtype: REDEMPTION
   Wilds of Eldraine Prerelease Pack:
     category: LIMITED

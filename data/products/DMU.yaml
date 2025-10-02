@@ -130,11 +130,13 @@ products:
     subtype: JUMPSTART
   Dominaria United MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '264063'
     subtype: REDEMPTION
   Dominaria United MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '264062'
     subtype: REDEMPTION
   Dominaria United Prerelease Pack:
     category: LIMITED

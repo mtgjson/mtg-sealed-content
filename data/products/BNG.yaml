@@ -153,11 +153,13 @@ products:
     subtype: INTRO
   Born of the Gods MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210882'
     subtype: REDEMPTION
   Born of the Gods MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210853'
     subtype: REDEMPTION
   Born of the Gods Prerelease Kit Destined To Conquer:
     category: LIMITED

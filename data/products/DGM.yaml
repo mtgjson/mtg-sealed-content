@@ -137,11 +137,13 @@ products:
     subtype: INTRO
   Dragons Maze MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210847'
     subtype: REDEMPTION
   Dragons Maze MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210852'
     subtype: REDEMPTION
   Dragons Maze Prerelease Guild Kit 10 Pack:
     category: LIMITED_CASE

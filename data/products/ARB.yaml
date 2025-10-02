@@ -104,11 +104,13 @@ products:
     subtype: INTRO
   Alara Reborn MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '223057'
     subtype: REDEMPTION
   Alara Reborn MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '223056'
     subtype: REDEMPTION
   Alara Reborn Six Card Booster Pack:
     category: BOOSTER_PACK

@@ -95,11 +95,13 @@ products:
     subtype: DRAFT
   Core Set 2021 MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '233881'
     subtype: REDEMPTION
   Core Set 2021 MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '233882'
     subtype: REDEMPTION
   Core Set 2021 Planeswalker Deck Basri:
     category: DECK

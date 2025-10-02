@@ -62,11 +62,13 @@ products:
     subtype: PROMOTIONAL
   Murders at Karlov Manor MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '291403'
     subtype: REDEMPTION
   Murders at Karlov Manor MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '291404'
     subtype: REDEMPTION
   Murders at Karlov Manor Play Booster Box:
     category: BOOSTER_BOX

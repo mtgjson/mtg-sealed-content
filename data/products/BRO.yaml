@@ -11,11 +11,13 @@ products:
     subtype: LAND_STATION
   The Brothers War MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '274801'
     subtype: REDEMPTION
   The Brothers War MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '274800'
     subtype: REDEMPTION
   The Brothers' War Bundle:
     category: BUNDLE

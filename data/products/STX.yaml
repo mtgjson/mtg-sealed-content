@@ -78,11 +78,13 @@ products:
     subtype: DRAFT
   Strixhaven School of Mages MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '245435'
     subtype: REDEMPTION
   Strixhaven School of Mages MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '245434'
     subtype: REDEMPTION
   Strixhaven School of Mages Prerelease Pack Lorehold:
     category: LIMITED
