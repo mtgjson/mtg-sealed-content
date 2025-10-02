@@ -45,6 +45,9 @@ jobs:
 
       - name: execute token products mapping compiler
         run: python scripts/tokens/main.py
+        env:
+          TCGPLAYER_CLIENT_ID: ${{ secrets.TCGPLAYER_CLIENT_ID }}
+          TCGPLAYER_CLIENT_SECRET: ${{ secrets.TCGPLAYER_CLIENT_SECRET }}
 
       - name: commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
