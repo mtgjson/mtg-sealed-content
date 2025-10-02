@@ -83,6 +83,11 @@ products:
     - count: 6
       name: Aetherdrift Finish Line Bundle
       set: dft
+  Aetherdrift MTGO Redemption:
+    card_count: 291
+    deck:
+    - name: Aetherdrift Redemption
+      set: dft
   Aetherdrift Play Booster Box:
     sealed:
     - count: 30

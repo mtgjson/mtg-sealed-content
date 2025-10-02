@@ -95,4 +95,14 @@ products:
     - count: 2
       name: Eldritch Moon Booster Pack
       set: emn
+  Eldritch Moon MTGO Redemption:
+    card_count: 208
+    deck:
+    - name: Eldritch Moon Redemption
+      set: emn
+  Eldritch Moon MTGO Redemption Foil:
+    card_count: 208
+    deck:
+    - name: Eldritch Moon Redemption Foil
+      set: emn
   Eldritch Moon Prerelease Pack: []
