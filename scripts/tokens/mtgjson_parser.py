@@ -1,4 +1,4 @@
-from typing import Dict, Set, OrderedDict
+from typing import Dict, Set, OrderedDict, List, Any
 
 from scripts.tokens.all_printings import AllPrintings
 
@@ -21,7 +21,7 @@ class MtgjsonParser:
     def get_associated_mtgjson_tokens(
         self,
         set_code: str,
-    ):
+    ) -> Dict[str, List[Dict[str, Any]]]:
         mtgjson_tokens = OrderedDict()
         mtgjson_tokens[set_code] = self.__all_printings.get_tokens_from_set_code(
             set_code

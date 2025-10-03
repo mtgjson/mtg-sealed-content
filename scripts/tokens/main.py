@@ -28,7 +28,7 @@ def tcgplayer_token_to_mtgjson_token_products_entry(
 
 
 def add_mtgjson_uuids_to_tcgplayer_token_face_details(
-    mtgjson_tokens: List[Dict[str, Any]],
+    mtgjson_tokens: Dict[str, List[Dict[str, Any]]],
     tcgplayer_token_face_details: List[Dict[str, Any]],
 ) -> None:
     for tcgplayer_token_face_index, tcgplayer_token_face in enumerate(
@@ -59,7 +59,7 @@ def filter_tokens_without_uuids(
 ) -> Dict[str, List[Dict[str, Any]]]:
     output_dict_of_tokens = defaultdict(list)
     for output_token in output_tokens:
-        for token_part in output_token["token_parts"]:
+        for token_part in output_token["tokenParts"]:
             if "uuid" in token_part:
                 output_dict_of_tokens[token_part["uuid"]].append(output_token)
 
@@ -67,7 +67,7 @@ def filter_tokens_without_uuids(
 
 
 def build_tokens_mapping(
-    mtgjson_tokens,
+    mtgjson_tokens: Dict[str, List[Dict[str, Any]]],
     tcgplayer_tokens,
     tcgplayer_token_parser: TcgplayerTokenParser,
 ):
