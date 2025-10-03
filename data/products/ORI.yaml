@@ -156,11 +156,13 @@ products:
     subtype: LAND_STATION
   Magic Origins MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210878'
     subtype: REDEMPTION
   Magic Origins MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '211254'
     subtype: REDEMPTION
   Magic Origins Prerelease Kit Chandra:
     category: LIMITED

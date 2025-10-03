@@ -54,7 +54,8 @@ products:
     subtype: PROMOTIONAL
   Tarkir Dragonstorm MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '310857'
     subtype: REDEMPTION
   Tarkir Dragonstorm Play Booster Box:
     category: BOOSTER_BOX
