@@ -42,11 +42,13 @@ products:
     subtype: FAT_PACK
   Future Sight MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241645'
     subtype: REDEMPTION
   Future Sight MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241644'
     subtype: REDEMPTION
   Future Sight Theme Deck Display:
     category: DECK_BOX

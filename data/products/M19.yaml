@@ -68,11 +68,13 @@ products:
     subtype: GIFT_BUNDLE
   Core Set 2019 MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '221344'
     subtype: REDEMPTION
   Core Set 2019 MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '221343'
     subtype: REDEMPTION
   Core Set 2019 Planeswalker Deck Ajani:
     category: DECK

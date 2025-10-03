@@ -129,11 +129,13 @@ products:
     subtype: GIFT_BUNDLE
   The Lost Caverns of Ixalan MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '288155'
     subtype: REDEMPTION
   The Lost Caverns of Ixalan MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '288154'
     subtype: REDEMPTION
   The Lost Caverns of Ixalan Prerelease Pack:
     category: LIMITED

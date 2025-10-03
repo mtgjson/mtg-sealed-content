@@ -67,11 +67,13 @@ products:
     subtype: LAND_STATION
   Core Set 2020 MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '228502'
     subtype: REDEMPTION
   Core Set 2020 MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '228501'
     subtype: REDEMPTION
   Core Set 2020 Planeswalker Deck Ajani:
     category: DECK

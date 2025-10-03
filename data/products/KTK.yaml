@@ -138,11 +138,13 @@ products:
     subtype: INTRO
   Khans of Tarkir MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210888'
     subtype: REDEMPTION
   Khans of Tarkir MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210872'
     subtype: REDEMPTION
   Khans of Tarkir Prerelease Kit Abzan Battle with Endurance:
     category: LIMITED

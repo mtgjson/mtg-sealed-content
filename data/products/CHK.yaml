@@ -42,11 +42,13 @@ products:
     subtype: FAT_PACK
   Champions of Kamigawa MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '219829'
     subtype: REDEMPTION
   Champions of Kamigawa MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '228583'
     subtype: REDEMPTION
   Champions of Kamigawa Theme Deck Display:
     category: DECK_BOX

@@ -42,11 +42,13 @@ products:
     subtype: FAT_PACK
   Tenth Edition MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241647'
     subtype: REDEMPTION
   Tenth Edition MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241646'
     subtype: REDEMPTION
   Tenth Edition Sample Deck Ajani Goldmane:
     category: DECK

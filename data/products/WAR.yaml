@@ -71,11 +71,13 @@ products:
     subtype: DRAFT
   War of the Spark MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '225508'
     subtype: REDEMPTION
   War of the Spark MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '225509'
     subtype: REDEMPTION
   War of the Spark Mythic Edition:
     category: BUNDLE

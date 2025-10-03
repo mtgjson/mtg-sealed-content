@@ -42,11 +42,13 @@ products:
     subtype: FAT_PACK
   Morningtide MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241651'
     subtype: REDEMPTION
   Morningtide MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241650'
     subtype: REDEMPTION
   Morningtide Theme Deck Battalion:
     category: DECK

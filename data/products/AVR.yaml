@@ -154,11 +154,13 @@ products:
     subtype: INTRO
   Avacyn Restored MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210858'
     subtype: REDEMPTION
   Avacyn Restored MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210874'
     subtype: REDEMPTION
   Avacyn Restored Six Card Booster Pack:
     category: BOOSTER_PACK

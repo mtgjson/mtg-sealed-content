@@ -48,11 +48,13 @@ products:
     subtype: DEFAULT
   Guilds of Ravnica MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '222251'
     subtype: REDEMPTION
   Guilds of Ravnica MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '222250'
     subtype: REDEMPTION
   Guilds of Ravnica Mythic Edition:
     category: BOOSTER_BOX

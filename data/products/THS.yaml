@@ -145,11 +145,13 @@ products:
     subtype: INTRO
   Theros MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210854'
     subtype: REDEMPTION
   Theros MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210869'
     subtype: REDEMPTION
   Theros Prerelease Kit Path of Ambition:
     category: LIMITED

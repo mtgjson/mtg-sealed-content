@@ -92,11 +92,13 @@ products:
     subtype: DRAFT
   Kamigawa Neon Dynasty MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '257923'
     subtype: REDEMPTION
   Kamigawa Neon Dynasty MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '257922'
     subtype: REDEMPTION
   Kamigawa Neon Dynasty Prerelease Pack:
     category: LIMITED

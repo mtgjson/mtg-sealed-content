@@ -42,11 +42,13 @@ products:
     subtype: FAT_PACK
   Planeshift MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241602'
     subtype: REDEMPTION
   Planeshift MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241601'
     subtype: REDEMPTION
   Planeshift Theme Deck Barrage:
     category: DECK

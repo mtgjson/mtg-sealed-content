@@ -96,11 +96,13 @@ products:
     subtype: DRAFT
   Zendikar Rising MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '236867'
     subtype: REDEMPTION
   Zendikar Rising MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '236866'
     subtype: REDEMPTION
   Zendikar Rising Prerelease Pack:
     category: LIMITED

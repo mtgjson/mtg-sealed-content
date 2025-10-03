@@ -71,11 +71,13 @@ products:
     subtype: LAND_STATION
   Amonkhet MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '212399'
     subtype: REDEMPTION
   Amonkhet MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '212400'
     subtype: REDEMPTION
   Amonkhet Planeswalker Deck Display:
     category: DECK_BOX

@@ -83,11 +83,13 @@ products:
     subtype: DRAFT
   Kaldheim MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241591'
     subtype: REDEMPTION
   Kaldheim MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241590'
     subtype: REDEMPTION
   Kaldheim Prerelease Pack:
     category: LIMITED

@@ -92,11 +92,13 @@ products:
     subtype: DRAFT
   Theros Beyond Death MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '231850'
     subtype: REDEMPTION
   Theros Beyond Death MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '231849'
     subtype: REDEMPTION
   Theros Beyond Death Planeswalker Deck Ashiok:
     category: DECK

@@ -120,11 +120,13 @@ products:
     subtype: INTRO
   Oath of the Gatewatch MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210363'
     subtype: REDEMPTION
   Oath of the Gatewatch MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210873'
     subtype: REDEMPTION
   Oath of the Gatewatch Prerelease Pack:
     category: LIMITED

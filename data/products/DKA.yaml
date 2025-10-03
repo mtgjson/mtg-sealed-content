@@ -153,11 +153,13 @@ products:
     subtype: INTRO
   Dark Ascension MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210846'
     subtype: REDEMPTION
   Dark Ascension MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210860'
     subtype: REDEMPTION
   Dark Ascension Six Card Booster Pack:
     category: BOOSTER_PACK

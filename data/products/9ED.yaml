@@ -62,11 +62,13 @@ products:
     subtype: FAT_PACK
   Ninth Edition MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241631'
     subtype: REDEMPTION
   Ninth Edition MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241630'
     subtype: REDEMPTION
   Ninth Edition Sampler Booster:
     category: BOOSTER_PACK

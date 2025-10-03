@@ -42,11 +42,13 @@ products:
     subtype: FAT_PACK
   Betrayers of Kamigawa MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '219828'
     subtype: REDEMPTION
   Betrayers of Kamigawa MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241627'
     subtype: REDEMPTION
   Betrayers of Kamigawa Theme Deck Dark Devotion:
     category: DECK

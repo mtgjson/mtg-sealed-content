@@ -54,11 +54,13 @@ products:
     subtype: PROMOTIONAL
   Eighth Edition MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241620'
     subtype: REDEMPTION
   Eighth Edition MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241619'
     subtype: REDEMPTION
   Eighth Edition Sampler Booster:
     category: BOOSTER_PACK

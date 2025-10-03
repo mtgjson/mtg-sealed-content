@@ -81,11 +81,13 @@ products:
     subtype: DECK_BUILDERS_TOOLKIT
   Ravnica Allegiance MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '223965'
     subtype: REDEMPTION
   Ravnica Allegiance MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '223966'
     subtype: REDEMPTION
   Ravnica Allegiance Mythic Edition:
     category: BUNDLE

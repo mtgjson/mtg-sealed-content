@@ -41,11 +41,13 @@ products:
     subtype: FAT_PACK
   Mirrodin MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241621'
     subtype: REDEMPTION
   Mirrodin MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241622'
     subtype: REDEMPTION
   Mirrodin Theme Deck Bait and Bludgeon:
     category: DECK

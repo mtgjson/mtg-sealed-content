@@ -36,11 +36,13 @@ products:
     subtype: DRAFT
   Seventh Edition MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241604'
     subtype: REDEMPTION
   Seventh Edition MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241603'
     subtype: REDEMPTION
   Seventh Edition Sampler Booster:
     category: BOOSTER_PACK

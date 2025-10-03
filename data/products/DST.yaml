@@ -42,11 +42,13 @@ products:
     subtype: FAT_PACK
   Darksteel MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241624'
     subtype: REDEMPTION
   Darksteel MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241623'
     subtype: REDEMPTION
   Darksteel Theme Deck Display:
     category: DECK_BOX

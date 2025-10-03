@@ -98,11 +98,13 @@ products:
     subtype: DRAFT
   Ikoria Lair of Behemoths MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '233884'
     subtype: REDEMPTION
   Ikoria Lair of Behemoths MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '233883'
     subtype: REDEMPTION
   Ikoria Lair of Behemoths Prerelease Pack:
     category: LIMITED

@@ -61,11 +61,13 @@ products:
     subtype: PROMOTIONAL
   Outlaws of Thunder Junction MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '293776'
     subtype: REDEMPTION
   Outlaws of Thunder Junction MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '293777'
     subtype: REDEMPTION
   Outlaws of Thunder Junction Play Booster Box:
     category: BOOSTER_BOX

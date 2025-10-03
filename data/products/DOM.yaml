@@ -53,11 +53,13 @@ products:
     subtype: DEFAULT
   Dominaria MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '219038'
     subtype: REDEMPTION
   Dominaria MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '218502'
     subtype: REDEMPTION
   Dominaria Planeswalker Deck Chandra:
     category: DECK

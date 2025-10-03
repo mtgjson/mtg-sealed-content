@@ -79,11 +79,13 @@ products:
     subtype: DEFAULT
   Kaladesh MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210360'
     subtype: REDEMPTION
   Kaladesh MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210365'
     subtype: REDEMPTION
   Kaladesh Planeswalker Deck Chandra:
     category: DECK

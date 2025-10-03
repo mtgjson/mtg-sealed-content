@@ -94,11 +94,13 @@ products:
     subtype: DRAFT
   Innistrad Midnight Hunt MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '251916'
     subtype: REDEMPTION
   Innistrad Midnight Hunt MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '251915'
     subtype: REDEMPTION
   Innistrad Midnight Hunt Prerelease Pack:
     category: LIMITED

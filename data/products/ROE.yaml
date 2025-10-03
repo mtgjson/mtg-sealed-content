@@ -116,11 +116,13 @@ products:
     subtype: INTRO
   Rise of the Eldrazi MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241659'
     subtype: REDEMPTION
   Rise of the Eldrazi MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '241658'
     subtype: REDEMPTION
   Rise of the Eldrazi Six Card Booster Pack:
     category: BOOSTER_PACK
