@@ -256,6 +256,9 @@ class MtgjsonCardLinker:
                 # at the finish array. To retrieve this info we need to iterate
                 # on the possible set codes present in the deck
                 for code in deck["sourceSetCodes"]:
+                    if code not in self.mtgjson_data:
+                        print(f"Note: {code} was NOT found in mtgjson")
+                        continue
                     for card in self.mtgjson_data[code]["cards"]:
                         if deck_card["uuid"] == card["uuid"]:
                             finishes = card["finishes"]
