@@ -168,11 +168,13 @@ products:
     subtype: INTRO
   2012 Core Set MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210886'
     subtype: REDEMPTION
   2012 Core Set MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210862'
     subtype: REDEMPTION
   2012 Core Set Sample Deck Chandra Nalaar:
     category: DECK

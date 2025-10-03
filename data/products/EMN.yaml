@@ -120,11 +120,13 @@ products:
     subtype: INTRO
   Eldritch Moon MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210361'
     subtype: REDEMPTION
   Eldritch Moon MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210879'
     subtype: REDEMPTION
   Eldritch Moon Prerelease Pack:
     category: LIMITED

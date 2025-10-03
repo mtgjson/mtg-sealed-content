@@ -78,7 +78,8 @@ products:
     subtype: PREMIUM
   Aetherdrift MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '310247'
     subtype: REDEMPTION
   Aetherdrift Play Booster Box:
     category: BOOSTER_BOX

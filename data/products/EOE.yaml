@@ -52,7 +52,8 @@ products:
     subtype: PROMOTIONAL
   Edge of Eternities MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '316086'
     subtype: REDEMPTION
   Edge of Eternities Play Booster Box:
     category: BOOSTER_BOX

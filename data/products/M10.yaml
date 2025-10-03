@@ -111,11 +111,13 @@ products:
     subtype: INTRO
   2010 Core Set MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '223054'
     subtype: REDEMPTION
   2010 Core Set MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '223055'
     subtype: REDEMPTION
   2010 Core Set Six Card Booster Pack:
     category: BOOSTER_PACK

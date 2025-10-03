@@ -161,11 +161,13 @@ products:
     subtype: LAND_STATION
   2014 Core Set MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210851'
     subtype: REDEMPTION
   2014 Core Set MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210867'
     subtype: REDEMPTION
   2014 Core Set Sample Deck Ajani Goldmane:
     category: DECK

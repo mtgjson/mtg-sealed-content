@@ -129,11 +129,13 @@ products:
     subtype: LAND_STATION
   2011 Core Set MTGO Redemption:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210887'
     subtype: REDEMPTION
   2011 Core Set MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '210875'
     subtype: REDEMPTION
   2011 Core Set Sample Deck Ajani Goldmane:
     category: DECK
