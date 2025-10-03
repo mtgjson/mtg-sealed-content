@@ -84,7 +84,7 @@ def build_tokens_mapping(
         output_tokens.append(
             {
                 **tcgplayer_token_to_mtgjson_token_products_entry(tcgplayer_token),
-                "token_parts": tcgplayer_token_face_details,
+                "tokenParts": tcgplayer_token_face_details,
             }
         )
 
