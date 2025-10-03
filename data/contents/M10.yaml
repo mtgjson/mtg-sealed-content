@@ -93,11 +93,6 @@ products:
     - count: 1
       name: 2010 Core Set Booster Pack
       set: m10
-  2010 Core Set Six Card Booster Pack:
-    card_count: 6
-    pack:
-    - code: six
-      set: m10
   2010 Core Set MTGO Redemption:
     card_count: 249
     deck:
@@ -107,6 +102,11 @@ products:
     card_count: 249
     deck:
     - name: Magic 2010 Foil Redemption
+      set: m10
+  2010 Core Set Six Card Booster Pack:
+    card_count: 6
+    pack:
+    - code: six
       set: m10
   Magic Deck Builders Toolkit:
     card_count: 225

@@ -185,6 +185,16 @@ products:
     - count: 2
       name: 2015 Core Set Booster Pack
       set: m15
+  2015 Core Set MTGO Redemption:
+    card_count: 269
+    deck:
+    - name: Magic 2015 Redemption
+      set: m15
+  2015 Core Set MTGO Redemption Foil:
+    card_count: 269
+    deck:
+    - name: Magic 2015 Foil Redemption
+      set: m15
   2015 Core Set Prerelease Hunt with Ambition: []
   2015 Core Set Prerelease Hunt with Ferocity: []
   2015 Core Set Prerelease Hunt with Guile: []
@@ -231,14 +241,4 @@ products:
     card_count: 35
     deck:
     - name: Green Sample Deck
-      set: m15
-  2015 Core Set MTGO Redemption:
-    card_count: 269
-    deck:
-    - name: Magic 2015 Redemption
-      set: m15
-  2015 Core Set MTGO Redemption Foil:
-    card_count: 269
-    deck:
-    - name: Magic 2015 Foil Redemption
       set: m15

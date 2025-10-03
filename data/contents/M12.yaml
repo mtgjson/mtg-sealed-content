@@ -121,6 +121,16 @@ products:
     - count: 1
       name: 2012 Core Set Intro Pack Sacred Assault
       set: m12
+  2012 Core Set MTGO Redemption:
+    card_count: 249
+    deck:
+    - name: Magic 2012 Redemption
+      set: m12
+  2012 Core Set MTGO Redemption Foil:
+    card_count: 249
+    deck:
+    - name: Magic 2012 Foil Redemption
+      set: m12
   2012 Core Set Sample Deck Chandra Nalaar:
     card count: 30
     variable:
@@ -202,14 +212,4 @@ products:
     card_count: 6
     pack:
     - code: six
-      set: m12
-  2012 Core Set MTGO Redemption:
-    card_count: 249
-    deck:
-    - name: Magic 2012 Redemption
-      set: m12
-  2012 Core Set MTGO Redemption Foil:
-    card_count: 249
-    deck:
-    - name: Magic 2012 Foil Redemption
       set: m12

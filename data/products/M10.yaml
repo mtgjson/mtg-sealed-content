@@ -109,13 +109,6 @@ products:
       tcgplayerProductId: '32536'
       tntId: '275093'
     subtype: INTRO
-  2010 Core Set Six Card Booster Pack:
-    category: BOOSTER_PACK
-    identifiers:
-      cardtraderId: '47385'
-      mcmId: '315701'
-    release_date: '2018-01-16'
-    subtype: SIX
   2010 Core Set MTGO Redemption:
     category: BOX_SET
     identifiers: {}
@@ -124,6 +117,13 @@ products:
     category: BOX_SET
     identifiers: {}
     subtype: REDEMPTION
+  2010 Core Set Six Card Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardtraderId: '47385'
+      mcmId: '315701'
+    release_date: '2018-01-16'
+    subtype: SIX
   Magic Deck Builders Toolkit:
     category: KIT
     identifiers:

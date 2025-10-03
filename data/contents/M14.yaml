@@ -104,6 +104,16 @@ products:
       name: 2014 Core Set Intro Pack Psychic Labyrinth
       set: m14
   2014 Core Set Land Station: []
+  2014 Core Set MTGO Redemption:
+    card_count: 249
+    deck:
+    - name: Magic 2014 Redemption
+      set: m14
+  2014 Core Set MTGO Redemption Foil:
+    card_count: 249
+    deck:
+    - name: Magic 2014 Foil Redemption
+      set: m14
   2014 Core Set Sample Deck Ajani Goldmane:
     card count: 35
     deck:
@@ -133,14 +143,4 @@ products:
     card_count: 6
     pack:
     - code: six
-      set: m14
-  2014 Core Set MTGO Redemption:
-    card_count: 249
-    deck:
-    - name: Magic 2014 Redemption
-      set: m14
-  2014 Core Set MTGO Redemption Foil:
-    card_count: 249
-    deck:
-    - name: Magic 2014 Foil Redemption
       set: m14
