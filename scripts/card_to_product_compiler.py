@@ -222,6 +222,16 @@ class MtgjsonCardLinker:
                                 finishes = card["finishes"]
                                 theCode = code
 
+                                # This set is particularly complicated because only certain portions
+                                # of the cards have this problem, therefore parse the number and skip
+                                # any fixing if it's not in the right range
+                                if theCode == "MH2":
+                                    num = int(card["number"])
+                                    # 262-441 has all the non basic cards that could be foil or etched
+                                    # so process those below and skip otherwise
+                                    if num < 262 or num > 441:
+                                        theCode = ""
+
                     if "etched" in sheet.lower() and "etched" in finishes:
                         finish = "etched"
                     elif "foil" in finishes:
@@ -230,7 +240,7 @@ class MtgjsonCardLinker:
                 return_value.add(Card(card_uuid, finish))
 
                 # Upstream does not track etched version of these cards, so we duplicate them here
-                if theCode and theCode in ["H1R", "STA"]:
+                if theCode and theCode in ["H1R", "MH2", "STA"]:
                     return_value.add(Card(card_uuid, "etched"))
 
         return list(return_value)
