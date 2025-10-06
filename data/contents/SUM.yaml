@@ -1,9 +1,17 @@
 code: sum
 products:
-  Summer Magic Booster Box: []
+  Summer Magic Booster Box:
+    sealed:
+    - count: 36
+      name: Summer Magic Booster Pack
+      set: sum
   Summer Magic Booster Box Case:
     sealed:
     - count: 6
       name: Summer Magic Booster Box
       set: sum
-  Summer Magic Booster Pack: []
+  Summer Magic Booster Pack:
+    card_count: 15
+    pack:
+    - code: default
+      set: sum
