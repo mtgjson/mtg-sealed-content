@@ -209,20 +209,29 @@ class MtgjsonCardLinker:
             cards_in_sheet = sheet_data["sheets"][sheet]["cards"]
 
             for card_uuid in cards_in_sheet.keys():
+                finish = "nonfoil"
+                theCode = ""
+
                 # Validate a card can effectively be etched or foil by looking
                 # at the finish array. To retrieve this info we need to iterate
                 # on the possible set codes present in the pack
-                for code in sheet_data["sourceSetCodes"]:
-                    for card in self.mtgjson_data[code]["cards"]:
-                        if card_uuid == card["uuid"]:
-                            finishes = card["finishes"]
+                if sheet_data["sheets"][sheet]["foil"]:
+                    for code in sheet_data["sourceSetCodes"]:
+                        for card in self.mtgjson_data[code]["cards"]:
+                            if card_uuid == card["uuid"]:
+                                finishes = card["finishes"]
+                                theCode = code
 
-                if ("etched" in sheet.lower() or sheet_data["sheets"][sheet]["foil"]) and "etched" in finishes:
-                    finish = "etched"
-                else:
-                    finish = "foil" if sheet_data["sheets"][sheet]["foil"] and "foil" in finishes else "nonfoil"
+                    if "etched" in sheet.lower() and "etched" in finishes:
+                        finish = "etched"
+                    elif "foil" in finishes:
+                        finish = "foil"
 
                 return_value.add(Card(card_uuid, finish))
+
+                # Upstream does not track etched version of these cards, so we duplicate them here
+                if theCode and theCode in ["H1R", "STA"]:
+                    return_value.add(Card(card_uuid, "etched"))
 
         return list(return_value)
 
