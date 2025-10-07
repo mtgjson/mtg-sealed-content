@@ -1,20 +1,5 @@
 code: lci
 products:
-  The Lost Caverns of Ixalan Foil Box Topper Pack:
-    category: BOOSTER_PACK
-    identifiers:
-      cardtraderId: '261718'
-      mcmId: '734168'
-      tcgplayerProductId: '529641'
-    release_date: '2023-11-14'
-    subtype: TOPPER
-  The Lost Caverns of Ixalan Non-Foil Box Topper Pack:
-    category: BOOSTER_PACK
-    identifiers:
-      mcmId: '734167'
-      tcgplayerProductId: '529640'
-    release_date: '2023-11-14'
-    subtype: TOPPER
   The Lost Caverns of Ixalan Bundle:
     category: BUNDLE
     identifiers:
@@ -109,6 +94,14 @@ products:
       tntId: '1789534'
     release_date: '2023-11-17'
     subtype: DRAFT
+  The Lost Caverns of Ixalan Foil Box Topper Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardtraderId: '261718'
+      mcmId: '734168'
+      tcgplayerProductId: '529641'
+    release_date: '2023-11-14'
+    subtype: TOPPER
   The Lost Caverns of Ixalan Gift Bundle:
     category: BUNDLE
     identifiers:
@@ -137,6 +130,13 @@ products:
     identifiers:
       cardKingdomId: '288154'
     subtype: REDEMPTION
+  The Lost Caverns of Ixalan Non-Foil Box Topper Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      mcmId: '734167'
+      tcgplayerProductId: '529640'
+    release_date: '2023-11-14'
+    subtype: TOPPER
   The Lost Caverns of Ixalan Prerelease Pack:
     category: LIMITED
     identifiers:
