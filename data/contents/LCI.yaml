@@ -1,15 +1,7 @@
 code: lci
 products:
-  The Lost Caverns of Ixalan Foil Box Topper Pack:
-    card_count: 1
-    pack:
-    - code: box-topper-foil
-      set: lci
-  The Lost Caverns of Ixalan Non-Foil Box Topper Pack:
-    card_count: 1
-    pack:
-    - code: box-topper
-      set: lci
+  The Lost Caverns of Ixalan Box Foil Topper Pack: []
+  The Lost Caverns of Ixalan Box Non-Foil Topper Pack: []
   The Lost Caverns of Ixalan Bundle:
     card:
     - foil: true
@@ -74,6 +66,11 @@ products:
     pack:
     - code: draft
       set: lci
+  The Lost Caverns of Ixalan Foil Box Topper Pack:
+    card_count: 1
+    pack:
+    - code: box-topper-foil
+      set: lci
   The Lost Caverns of Ixalan Gift Bundle:
     card:
     - foil: true
@@ -109,6 +106,11 @@ products:
     card_count: 291
     deck:
     - name: The Lost Caverns of Ixalan Foil Redemption
+      set: lci
+  The Lost Caverns of Ixalan Non-Foil Box Topper Pack:
+    card_count: 1
+    pack:
+    - code: box-topper
       set: lci
   The Lost Caverns of Ixalan Prerelease Pack:
     card_count: 1
