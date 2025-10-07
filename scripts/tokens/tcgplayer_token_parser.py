@@ -1,46 +1,37 @@
-from typing import List, Optional, Any, Dict
+from typing import List, Any, Dict
 import re
 
 
 class TcgplayerTokenParser:
     __emblem_regex: re.Pattern
-    __get_all_face_names_regex: re.Pattern
-    __get_punch_card_regex: re.Pattern
+    __double_sided_token_regex: re.Pattern
 
     def __init__(self) -> None:
         self.__emblem_regex = re.compile(r"Emblem - (.*)")
-        self.__get_all_face_names_regex = re.compile(
-            r"^(.*?)(?: \(.*?\))? // (.*?)(?: \(.*?\))? Double[- ]Sided Token.*"
-        )
-        self.__get_punch_card_regex = re.compile(r"^Punch ?Card Token.*")
+        self.__double_sided_token_regex = re.compile(r"^(.*) [Dd]ouble[- ][Ss]ided")
 
-    def __fix_emblem_names(self, tokens: List[Optional[str]]) -> None:
-        for index, token in enumerate(tokens):
-            if token:
-                if match := self.__emblem_regex.match(token):
-                    tokens[index] = match.group(1) + " Emblem"
+    def __fix_emblem_names(self, token) -> str:
+        if match := self.__emblem_regex.match(token):
+            return match.group(1) + " Emblem"
+        return token
 
     def __get_token_face_names(self, token_name: str) -> List[str]:
-        """
-        NAME_1A NAME_1B (ID_1) // NAME_2A NAME_2B (ID_2) Double-Sided Token Extra Data Here
-        NAME_1A NAME_1B // NAME_2A NAME_2B (ID_2) Double-Sided Token Extra Data Here
-        NAME_1A NAME_1B (ID_1) // NAME_2A NAME_2B Double-Sided Token Extra Data Here
-        NAME_1A NAME_1B // NAME_2A NAME_2B Double-Sided Token Extra Data Here
-        Punch Card Token (ID_1 // ID_2)
-        """
-
-        if match := self.__get_all_face_names_regex.match(token_name):
-            results = [match.group(1), match.group(2)]
-            self.__fix_emblem_names(results)
-            return results
-
-        if self.__get_punch_card_regex.match(token_name):
+        if token_name.lower().startswith(("punch card", "punchcard")):
             return ["Punchcard", "Punchcard"]
 
-        try:
-            return [token_name.split(" Token")[0]]
-        except IndexError:
-            return [token_name]
+        if " // " in token_name:
+            if match := self.__double_sided_token_regex.match(token_name):
+                left, right = [
+                    part.split(" (")[0] for part in match.group(1).split(" // ")
+                ]
+                return [
+                    self.__fix_emblem_names(left.strip()),
+                    self.__fix_emblem_names(right.strip()),
+                ]
+
+        if "(" in token_name:
+            token_name = token_name.split(" (", 1)[0]
+        return [self.__fix_emblem_names(token_name.split(" Token")[0])]
 
     def split_tcgplayer_token_faces_details(
         self,
