@@ -93,7 +93,7 @@ class TcgplayerProvider:
         tokens = []
         for card_or_token in cards_and_tokens:
             for data_entry in card_or_token.get("extendedData", {}):
-                if self.__entry_is_token(data_entry):
+                if self.__entry_is_token(card_or_token["name"], data_entry):
                     tokens.append(card_or_token)
                     break
         return tokens
@@ -111,6 +111,9 @@ class TcgplayerProvider:
         )
 
     @staticmethod
-    def __entry_is_token(data_entry: Dict[str, Any]) -> bool:
+    def __entry_is_token(card_name: str, data_entry: Dict[str, Any]) -> bool:
         # Some tokens are labeled as 'P'romo vs 'T'oken
-        return data_entry["name"] == "Rarity" and data_entry["value"] in ["P", "T"]
+        return (data_entry["name"] == "Rarity" and data_entry["value"] == "T") or (
+            (data_entry["name"] == "Rarity" and data_entry["value"] == "P")
+            and "token" in card_name.lower()
+        )
