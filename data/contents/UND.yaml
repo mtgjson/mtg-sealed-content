@@ -1,18 +1,6 @@
 code: und
 products:
   Unsanctioned:
-    card_count: 150
-    deck:
-    - name: White
-      set: und
-    - name: Blue
-      set: und
-    - name: Black
-      set: und
-    - name: Red
-      set: und
-    - name: Green
-      set: und
     card:
     - name: Plains
       number: 88
@@ -48,6 +36,18 @@ products:
     - foil: true
       name: Forest
       number: 96
+      set: und
+    card_count: 150
+    deck:
+    - name: White
+      set: und
+    - name: Blue
+      set: und
+    - name: Black
+      set: und
+    - name: Red
+      set: und
+    - name: Green
       set: und
     other:
     - name: 2 Six-Sided Dice
