@@ -282,7 +282,7 @@ class MtgjsonCardLinker:
                         if deck_card["uuid"] == card["uuid"]:
                             finishes = card["finishes"]
 
-                if deck_card.get("isFoil", False) and "etched" in finishes:
+                if deck_card.get("isEtched", False) and "etched" in finishes:
                     finish = "etched"
                 elif deck_card.get("isFoil", False) and "foil" in finishes:
                     finish = "foil"
