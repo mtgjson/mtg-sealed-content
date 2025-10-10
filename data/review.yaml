@@ -260,6 +260,11 @@ cardMarket:
     release_date: '2025-09-30'
     subtype: UNKNOWN
 cardTrader:
+  Bloomburrow | Collector Booster Sample Pack:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '353120'
+    subtype: UNKNOWN
   'Commander: Lorwyn Eclipsed Deck Set 2 Commander Decks':
     category: UNKNOWN
     identifiers:
@@ -390,7 +395,12 @@ cardTrader:
     identifiers:
       cardtraderId: '352424'
     subtype: UNKNOWN
-coolstuffinc: {}
+coolstuffinc:
+  MTG - Edge of Eternities - Bundle:
+    category: UNKNOWN
+    identifiers:
+      csiId: '409096'
+    subtype: UNKNOWN
 miniaturemarket: {}
 mvpsportsandgames:
   Could not load provider mvpsportsandgames:
