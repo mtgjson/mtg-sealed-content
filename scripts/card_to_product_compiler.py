@@ -278,9 +278,10 @@ class MtgjsonCardLinker:
                     if code not in self.mtgjson_data:
                         print(f"Note: {code} was NOT found in mtgjson")
                         continue
-                    for card in self.mtgjson_data[code]["cards"]:
+                    for card in self.mtgjson_data[code]["cards"] + self.mtgjson_data[code]["tokens"]:
                         if deck_card["uuid"] == card["uuid"]:
                             finishes = card["finishes"]
+                            break
 
                 if deck_card.get("isEtched", False) and "etched" in finishes:
                     finish = "etched"
