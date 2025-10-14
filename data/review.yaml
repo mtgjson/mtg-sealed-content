@@ -7,6 +7,12 @@ cardMarket:
       mcmId: '851276'
     release_date: '2025-09-29'
     subtype: UNKNOWN
+  'Commander: Magic: The Gathering | Teenage Mutant Ninja Turtles: ""Turtle Power!"" Commander Deck':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '853738'
+    release_date: '2025-10-13'
+    subtype: UNKNOWN
   'Fourth Edition: Starter Deck (Alternate Edition)':
     category: UNKNOWN
     identifiers:
@@ -126,6 +132,60 @@ cardMarket:
     identifiers:
       mcmId: '851656'
     release_date: '2025-09-29'
+    subtype: UNKNOWN
+  'Magic: The Gathering | Teenage Mutant Ninja Turtles Collector Booster':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '853666'
+    release_date: '2025-10-13'
+    subtype: UNKNOWN
+  'Magic: The Gathering | Teenage Mutant Ninja Turtles Collector Booster Box':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '853671'
+    release_date: '2025-10-13'
+    subtype: UNKNOWN
+  'Magic: The Gathering | Teenage Mutant Ninja Turtles Draft Night':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '853716'
+    release_date: '2025-10-13'
+    subtype: UNKNOWN
+  'Magic: The Gathering | Teenage Mutant Ninja Turtles Fat Pack Bundle':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '853682'
+    release_date: '2025-10-13'
+    subtype: UNKNOWN
+  'Magic: The Gathering | Teenage Mutant Ninja Turtles Pizza Bundle':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '853692'
+    release_date: '2025-10-13'
+    subtype: UNKNOWN
+  'Magic: The Gathering | Teenage Mutant Ninja Turtles Play Booster':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '853660'
+    release_date: '2025-10-13'
+    subtype: UNKNOWN
+  'Magic: The Gathering | Teenage Mutant Ninja Turtles Play Booster Box':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '853674'
+    release_date: '2025-10-13'
+    subtype: UNKNOWN
+  'Magic: The Gathering | Teenage Mutant Ninja Turtles Turtle Team-Up':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '853728'
+    release_date: '2025-10-13'
+    subtype: UNKNOWN
+  'Magic: The Gathering | Teenage Mutant Ninja Turtles: Prerelease Pack':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '853735'
+    release_date: '2025-10-13'
     subtype: UNKNOWN
   'Secret Lair Drop Series: Secret Scare Superdrop: Artist Series: Kieran Yanner':
     category: UNKNOWN
@@ -260,11 +320,6 @@ cardMarket:
     release_date: '2025-09-30'
     subtype: UNKNOWN
 cardTrader:
-  Bloomburrow | Collector Booster Sample Pack:
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '353120'
-    subtype: UNKNOWN
   'Commander: Lorwyn Eclipsed Deck Set 2 Commander Decks':
     category: UNKNOWN
     identifiers:
@@ -380,33 +435,13 @@ cardTrader:
     identifiers:
       cardtraderId: '352411'
     subtype: UNKNOWN
-  Magic Battle Festival | Stainless Steel "Clue Token" Box Protective Wooden Box + Metal Card:
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '352423'
-    subtype: UNKNOWN
-  Magic Battle Festival | Stainless Steel "Sephiroth, One-Winged Angel Emblem" Box Protective Wooden Box + Metal Card:
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '352422'
-    subtype: UNKNOWN
-  Magic Battle Festival | Stainless Steel "Treasure Token" Box Protective Wooden Box + Metal Card:
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '352424'
-    subtype: UNKNOWN
-coolstuffinc:
-  MTG - Edge of Eternities - Bundle:
-    category: UNKNOWN
-    identifiers:
-      csiId: '409096'
-    subtype: UNKNOWN
+coolstuffinc: {}
 miniaturemarket: {}
 mvpsportsandgames:
-  Could not load provider mvpsportsandgames:
+  MTG Magic Tarkir Dragonstorm PLAY Booster Box - 30 packs:
     category: UNKNOWN
     identifiers:
-      mvpId: ''
+      mvpId: CGM25TDMPLBX
     subtype: UNKNOWN
 starcitygames:
   Final Fantasy Chocobo Bundle:
@@ -435,12 +470,6 @@ tcgplayer:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '656619'
-    release_date: '2025-06-13'
-    subtype: UNKNOWN
-  FINAL FANTASY Chocobo Bundle Japanese:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '657030'
     release_date: '2025-06-13'
     subtype: UNKNOWN
   FINAL FANTASY Commander Deck FINAL FANTASY VII Limit Break Case Game Edition:
@@ -611,11 +640,6 @@ tcgplayer:
       tcgplayerProductId: '656336'
     release_date: '2026-01-23'
     subtype: UNKNOWN
-  Marvels Spider Man Collector Booster Omega Pack:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '656309'
-    subtype: UNKNOWN
   Marvels Spider Man Sleeved Play Booster Pack:
     category: UNKNOWN
     identifiers:
@@ -625,6 +649,30 @@ tcgplayer:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '654532'
+    subtype: UNKNOWN
+  Secret Lair Drop Artist Series Kieran Yanner Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '656333'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair Drop Artist Series Kieran Yanner Rainbow Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '656335'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair Drop Dreaming Darkly Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '656344'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair Drop Dreaming Darkly Rainbow Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '656345'
+    release_date: '2025-09-18'
     subtype: UNKNOWN
   Secret Lair Drop Secret Lair x Marvels Spider Man The Amazing Everything Bundle:
     category: UNKNOWN
@@ -644,14 +692,250 @@ tcgplayer:
       tcgplayerProductId: '655097'
     release_date: '2025-09-18'
     subtype: UNKNOWN
-  Secret Lair x Play Doh Squishful Thinking Extra Life 2025 Non Foil Edition:
+  Secret Lair Drop Secret Scare Superdrop Eddies Metal As Hell All Foil Bundle:
     category: UNKNOWN
     identifiers:
-      tcgplayerProductId: '655503'
+      tcgplayerProductId: '657868'
+    release_date: '2025-09-18'
     subtype: UNKNOWN
-  Secret Lair x Play Doh Squishful Thinking Extra Life 2025 Rainbow Foil Edition:
+  Secret Lair Drop Secret Scare Superdrop The Ay loh Tee wee lah Confetti Foil Bundle:
     category: UNKNOWN
     identifiers:
-      tcgplayerProductId: '655504'
+      tcgplayerProductId: '657870'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Scare Superdrop The Gonna Need a Bigger Boat Everything Bundle:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '657867'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Scare Superdrop The Scranton Strangler Non Foil Bundle:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '657869'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair Drop Trick or Treat Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '656351'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair Drop Trick or Treat Rainbow Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '656353'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair x Furby Doo ay Noo lah Confetti Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '656357'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair x Furby Doo ay Noo lah Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '656355'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair x Furby Doo ay Noo lah Rainbow Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '656356'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair x Furby The Gathering Confetti Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '656361'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair x Furby The Gathering Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '656358'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair x Furby The Gathering Rainbow Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '656360'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair x Furby The Oddbodies Confetti Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '656371'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair x Furby The Oddbodies Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '656367'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair x Furby The Oddbodies Rainbow Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '656369'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair x Iron Maiden Album Art Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '656346'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair x Iron Maiden Album Art Rainbow Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '656347'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair x Iron Maiden Eddie Unchained Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '656349'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair x Iron Maiden Eddie Unchained Rainbow Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '656350'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair x Jaws Terror of Amity Island Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '656337'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair x Jaws Terror of Amity Island Rainbow Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '656338'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair x The Office Dwights Destiny Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '656339'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair x The Office Dwights Destiny Traditional Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '656341'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Bundle:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '657856'
+    release_date: '2026-03-06'
+    subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Bundle Case:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '657857'
+    release_date: '2026-03-06'
+    subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Collector Booster Display:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '657852'
+    release_date: '2026-03-06'
+    subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Collector Booster Display Case:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '657853'
+    release_date: '2026-03-06'
+    subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Collector Booster Display MasterCase:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '657854'
+    release_date: '2026-03-06'
+    subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Collector Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '657851'
+    release_date: '2026-03-06'
+    subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Commander Deck Turtle Power:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '657865'
+    release_date: '2026-03-06'
+    subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Commander Deck Turtle Power Case:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '657866'
+    release_date: '2026-03-06'
+    subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Draft Night:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '657860'
+    release_date: '2026-03-06'
+    subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Draft Night Case:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '657861'
+    release_date: '2026-03-06'
+    subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Pizza Bundle:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '657863'
+    release_date: '2026-03-06'
+    subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Pizza Bundle Case:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '657864'
+    release_date: '2026-03-06'
+    subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Play Booster Display:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '657849'
+    release_date: '2026-03-06'
+    subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Play Booster Display Case:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '657850'
+    release_date: '2026-03-06'
+    subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Play Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '657848'
+    release_date: '2026-03-06'
+    subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Prerelease Pack:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '657862'
+    release_date: '2026-03-06'
+    subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Turtle Team Up:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '657858'
+    release_date: '2026-03-06'
+    subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Turtle Team Up Case:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '657859'
+    release_date: '2026-03-06'
     subtype: UNKNOWN
 trollandtoad: {}
