@@ -232,7 +232,9 @@ class MtgjsonCardLinker:
                                     if num < 262 or num > 441:
                                         theCode = ""
 
-                    if "etched" in sheet.lower() and "etched" in finishes:
+                    # Check if sheet contains "etched" or if there is a single finish (matching to "etched")
+                    # ie. for some MH3 etched-only cards, otherwise check if there is a valid foil finish
+                    if ("etched" in sheet.lower() or len(finishes) == 1) and "etched" in finishes:
                         finish = "etched"
                     elif "foil" in finishes:
                         finish = "foil"
