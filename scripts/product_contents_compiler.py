@@ -1,3 +1,4 @@
+import argparse
 import yaml
 import product_classes as pc
 from pathlib import Path
@@ -11,11 +12,23 @@ def set_to_json(set_content):
     return {k: v for k, v in decoded.items() if v}
 
 
-def build_uuid_map():
-    url = "https://mtgjson.com/api/v5/AllPrintings.json"
-    r = requests.get(url, stream=True)
+def build_uuid_map(mtgjson_path):
+    print("🤖 loading mtgjson...")
+    try:
+        if mtgjson_path:
+            print("⚙️  using local AllPrintings.json")
+            f = open(mtgjson_path, 'rb')
+            parser = ijson.parse(f)
+        else:
+            print("⚙️  donwloading AllPrintings.json")
+            url = "https://mtgjson.com/api/v5/AllPrintings.json"
+            r = requests.get(url, stream=True)
+            parser = ijson.parse(r.content)
+    except:
+        print("Could not load AllPrintings")
+        return
+
     uuids = {}
-    parser = ijson.parse(r.content)
     current_set = ""
     status = ""
     name = ""
@@ -78,6 +91,10 @@ def build_uuid_map():
                 if holding != "skip":
                     uuids[ccode]["cards"][number] = (uuid, name)
                 holding = ""
+
+    if mtgjson_path:
+        f.close()
+
     return uuids
 
 
@@ -96,13 +113,13 @@ def deck_links(all_products):
     return deck_mapper
 
 
-def main(contentFolder):
-    uuid_map = build_uuid_map()
+def main(args: argparse.Namespace):
+    uuid_map = build_uuid_map(args.mtgjson)
     products_contents = {}
     status_file = Path("status.txt")
     with open(status_file, "w") as f:
         f.write("Starting output\n")
-    for set_file in sorted(contentFolder.glob("*.yaml")):
+    for set_file in sorted(Path("data/contents/").glob("*.yaml")):
         with open(set_file, "rb") as f:
             contents = yaml.safe_load(f)
 
@@ -129,5 +146,13 @@ def main(contentFolder):
         json.dump(deck_map, outfile)
 
 
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser("product_contents_compiler")
+
+    parser.add_argument("--mtgjson", "-m", type=str, required=False)
+
+    return parser.parse_args()
+
+
 if __name__ == "__main__":
-    main(Path("data/contents/"))
+    main(parse_args())
