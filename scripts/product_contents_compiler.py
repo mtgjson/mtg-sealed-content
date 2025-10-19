@@ -28,6 +28,8 @@ def build_uuid_map(mtgjson_path):
         print("Could not load AllPrintings")
         return
 
+    print("🤖 filtering sealed products...")
+
     uuids = {}
     current_set = ""
     status = ""
@@ -119,6 +121,9 @@ def main(args: argparse.Namespace):
     status_file = Path("status.txt")
     with open(status_file, "w") as f:
         f.write("Starting output\n")
+
+    print("🤖 loading existing products files...")
+
     for set_file in sorted(Path("data/contents/").glob("*.yaml")):
         with open(set_file, "rb") as f:
             contents = yaml.safe_load(f)
@@ -136,6 +141,8 @@ def main(args: argparse.Namespace):
             products_contents[contents["code"]][name] = compiled_product
         if not products_contents[contents["code"]]:
             products_contents.pop(contents["code"])
+
+    print("🤖 saving results...")
 
     with open("outputs/contents.json", "w") as outfile:
         json.dump({k: set_to_json(v) for k, v in products_contents.items()}, outfile)
