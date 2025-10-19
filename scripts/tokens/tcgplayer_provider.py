@@ -2,6 +2,7 @@ import itertools
 import json
 import multiprocessing
 import os
+import pathlib
 from typing import Dict, Any, Iterable, List
 
 import requests
@@ -48,14 +49,26 @@ class TcgplayerProvider:
             ) from exception
 
     def download(self, url: str, params: Dict[str, Any]):
-        print(f"Downloading {url} with params {params}")
+        cache_path = pathlib.Path(
+            f"outputs/tcgplayer_cache/{params['groupId']}-{params['offset']}.json"
+        )
+        if cache_path.exists():
+            # print(f"Using cached response for {url} with params {params}")
+            with cache_path.open("r") as fp:
+                return json.load(fp)
 
+        print(f"Downloading {url} with params {params}")
         response = self.__session.get(url, params=params)
         response_decoded = response.content.decode()
 
         try:
             response = json.loads(response_decoded)
-            return list(response.get("results", []))
+            results = list(response.get("results", []))
+
+            with cache_path.open("w") as fp:
+                json.dump(results, fp, indent=4, ensure_ascii=False, sort_keys=True)
+            return results
+
         except json.decoder.JSONDecodeError:
             return []
 
@@ -112,8 +125,15 @@ class TcgplayerProvider:
 
     @staticmethod
     def __entry_is_token(card_name: str, data_entry: Dict[str, Any]) -> bool:
-        # Some tokens are labeled as 'P'romo vs 'T'oken
-        return (data_entry["name"] == "Rarity" and data_entry["value"] == "T") or (
-            (data_entry["name"] == "Rarity" and data_entry["value"] == "P")
-            and "token" in card_name.lower()
-        )
+        print(f"TESTING {card_name} {data_entry}")
+        # Some tokens are labeled as 'P'romo vs 'T'oken vs 'S'pecial
+        if (
+            "token" not in card_name.lower()
+            and "art" not in card_name.lower()
+            and "theme" not in card_name.lower()
+            and "bio" not in card_name.lower()
+            and "decklist" not in card_name.lower()
+        ):
+            return False
+
+        return data_entry["name"] == "Rarity" and data_entry["value"] in ["S", "T", "P"]

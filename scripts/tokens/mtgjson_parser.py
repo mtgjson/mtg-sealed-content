@@ -18,15 +18,21 @@ class MtgjsonParser:
             self.__all_printings.create_mapping_mtgjson_parent_set_code_to_children_set_codes()
         )
 
+        # Manual overrides because TCGplayer is lacking :(
+        self.__set_code_to_group_ids["30A"].add(17666)
+        # self.__set_code_to_group_ids["GK1"].add(2290)
+
     def get_associated_mtgjson_tokens(
         self,
         set_code: str,
     ) -> Dict[str, List[Dict[str, Any]]]:
         mtgjson_tokens = OrderedDict()
+        print(f"Supporting {set_code}")
         mtgjson_tokens[set_code] = self.__all_printings.get_tokens_from_set_code(
             set_code
         )
         for child_set_code in self.__set_code_to_children_set_codes.get(set_code, []):
+            print(f"Supporting {child_set_code} for {set_code}")
             mtgjson_tokens[child_set_code] = (
                 self.__all_printings.get_tokens_from_set_code(child_set_code)
             )

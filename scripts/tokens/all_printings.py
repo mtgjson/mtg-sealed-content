@@ -18,10 +18,13 @@ class AllPrintings:
         self.__temp_file_data = self.__read_all_printings()
 
     def __del__(self) -> None:
-        self.__temp_file.unlink()
+        # self.__temp_file.unlink()
+        pass
 
     @staticmethod
     def __download_all_printings() -> pathlib.Path:
+        return pathlib.Path("/Users/zach/Downloads/AllPrintings.json")
+
         buffer = io.BytesIO()
         response = retryable_session().get(
             "https://mtgjson.com/api/v5/AllPrintings.json.xz", stream=True, timeout=60
@@ -52,15 +55,28 @@ class AllPrintings:
         set_code_to_tcgplayer_group_ids = defaultdict(set)
 
         for set_code, set_data in self.__temp_file_data.get("data").items():
+            # print(f"OPS {set_code}")
             if "tcgplayerGroupId" not in set_data:
+                print(
+                    "No tcgplayerGroupId found for ",
+                    set_code,
+                )
                 continue
 
             mapping_key = set_data.get("parentCode") or set_data.get("code")
             if not mapping_key:
+                print(
+                    "No parentCode or code found for ",
+                    set_code,
+                )
                 continue
 
             set_code_to_tcgplayer_group_ids[mapping_key].add(
                 set_data.get("tcgplayerGroupId")
+            )
+            # print(f"Found {set_data['tcgplayerGroupId']} for {set_code}")
+            print(
+                f"set_code_to_tcgplayer_group_ids[{mapping_key}].add({set_data.get('tcgplayerGroupId')}) for {set_code}"
             )
 
         return set_code_to_tcgplayer_group_ids
@@ -81,3 +97,6 @@ class AllPrintings:
     def get_tokens_from_set_code(self, set_code: str) -> List[Dict[str, Any]]:
         set_data = self.__temp_file_data.get("data").get(set_code)
         return set_data.get("tokens", [])
+
+    def get_data(self) -> Dict[str, Any]:
+        return self.__temp_file_data
