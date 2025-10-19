@@ -62,7 +62,7 @@ if __name__ == "__main__":
                     print(f"Product {name} uses an old category")
                     #pass
                 else:
-                    print(f"Product {name} has an invalid category")
+                    print(f"Product {name} has an invalid category: {p['category']}")
                     failed = True
             if "subtype" not in p.keys():
                 print(f"Product {name} in set {set_file.stem} missing subtype")
@@ -72,7 +72,7 @@ if __name__ == "__main__":
                     print(f"Product {name} missing a valid subtype")
                     #pass
                 else:
-                    print(f"Product {name} uses an invalid subtype")
+                    print(f"Product {name} uses an invalid subtype: {p['subtype']}")
                     failed = True
     if failed:
         raise ImportError()
