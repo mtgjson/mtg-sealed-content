@@ -4,7 +4,7 @@ from pathlib import Path
 
 valid_categories = [
     "BOOSTER_PACK", "BOOSTER_BOX", "BOOSTER_CASE", "DECK", "MULTI_DECK",
-    "DECK_BOX", "BOX_SET", "KIT", "BUNDLE", "BUNDLE_CASE",
+    "DECK_BOX", "BOX_SET", "BOX", "KIT", "BUNDLE", "BUNDLE_CASE",
     "LIMITED", "LIMITED_CASE", "SUBSET"
 ]
 old_categories = [
@@ -19,7 +19,8 @@ valid_subtypes = [
     "SPELLBOOK", "SECRET_LAIR", "SECRET_LAIR_BUNDLE", "COMMANDER_COLLECTION",
     "COLLECTORS_EDITION", "GUILD_KIT", "DECK_BUILDERS_TOOLKIT", "LAND_STATION",
     "GIFT_BUNDLE", "FAT_PACK", "MINIMAL", "PREMIUM", "ADVANCED", "DRAFT", "PLAY",
-    "SEALED_SET", "PRERELEASE", "OTHER", "CHALLENGER", "SIX", "CONVENTION", "REDEMPTION"
+    "SEALED_SET", "PRERELEASE", "OTHER", "CHALLENGER", "SIX", "CONVENTION", "REDEMPTION",
+    "SECRET_LAIR_DROP",
 ]
 
 if __name__ == "__main__":
@@ -62,7 +63,7 @@ if __name__ == "__main__":
                     print(f"Product {name} uses an old category")
                     #pass
                 else:
-                    print(f"Product {name} has an invalid category")
+                    print(f"Product {name} has an invalid category: {p['category']}")
                     failed = True
             if "subtype" not in p.keys():
                 print(f"Product {name} in set {set_file.stem} missing subtype")
@@ -72,7 +73,7 @@ if __name__ == "__main__":
                     print(f"Product {name} missing a valid subtype")
                     #pass
                 else:
-                    print(f"Product {name} uses an invalid subtype")
+                    print(f"Product {name} uses an invalid subtype: {p['subtype']}")
                     failed = True
     if failed:
         raise ImportError()
