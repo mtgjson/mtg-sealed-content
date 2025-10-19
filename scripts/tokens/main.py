@@ -1,11 +1,11 @@
 import json
-import re
 from collections import defaultdict
 
 import pathlib
 from typing import Dict, List, Any
 
 from scripts.tokens.mtgjson_parser import MtgjsonParser
+from scripts.tokens.mtgjson_to_tcgplayer_mapper import MtgjsonToTcgplayerMapper
 from scripts.tokens.tcgplayer_provider import TcgplayerProvider
 from scripts.tokens.tcgplayer_token_parser import TcgplayerTokenParser
 
@@ -28,98 +28,6 @@ def tcgplayer_token_to_mtgjson_token_products_entry(
     }
 
 
-def add_mtgjson_uuids_to_tcgplayer_token_face_details(
-    mtgjson_tokens: Dict[str, List[Dict[str, Any]]],
-    tcgplayer_token_face_details: List[Dict[str, Any]],
-) -> None:
-    print(f"Looking for {tcgplayer_token_face_details}")
-
-    for tcgplayer_token_face_index, tcgplayer_token_face in enumerate(
-        tcgplayer_token_face_details
-    ):
-        found = False
-        for mtgjson_token_key, mtgjson_token_data in mtgjson_tokens.items():
-            for mtgjson_token_index, mtgjson_token in enumerate(mtgjson_token_data):
-                # Handle Art Cards
-                if tcgplayer_token_face["tokenType"] == "Art":
-                    if mtgjson_token["layout"] == "art_series":
-                        if (
-                            f"{tcgplayer_token_face['faceName']} // {tcgplayer_token_face['faceName']}"
-                            == mtgjson_token["name"]
-                            and mtgjson_token["number"].rstrip("s")
-                            == tcgplayer_token_face["faceId"]
-                        ):
-                            print(f"> Found Art Card for {tcgplayer_token_face}")
-                            tcgplayer_token_face_details[tcgplayer_token_face_index][
-                                "uuid"
-                            ] = mtgjson_token["uuid"]
-                            found = True
-                            break
-                # Handle theme headers
-                elif tcgplayer_token_face["tokenType"] == "Theme":
-                    if mtgjson_token["layout"] == "token":
-                        if (
-                            f"{tcgplayer_token_face['faceName']}"
-                            == mtgjson_token["name"]
-                            and mtgjson_token["number"]
-                            == tcgplayer_token_face["faceId"]
-                        ):
-                            print(f"> Found Theme Card for {tcgplayer_token_face}")
-                            tcgplayer_token_face_details[tcgplayer_token_face_index][
-                                "uuid"
-                            ] = mtgjson_token["uuid"]
-                            found = True
-                            break
-                # Handle Tokens
-                elif tcgplayer_token_face["tokenType"] == "Token":
-                    if (mtgjson_token["name"] == tcgplayer_token_face["faceName"]) and (
-                        mtgjson_token["number"] == tcgplayer_token_face["faceId"]
-                    ):
-                        print(f"> Found Token for {tcgplayer_token_face}")
-                        tcgplayer_token_face_details[tcgplayer_token_face_index][
-                            "uuid"
-                        ] = mtgjson_token["uuid"]
-                        found = True
-                        break
-                    elif (
-                        mtgjson_token["layout"] == "double_faced_token"
-                        and tcgplayer_token_face["faceName"] in mtgjson_token["faceName"]
-                        and mtgjson_token["number"] == tcgplayer_token_face["faceId"]
-                    ):
-                        print(f"> Found DF Token for {tcgplayer_token_face}")
-                        tcgplayer_token_face_details[tcgplayer_token_face_index][
-                            "uuid"
-                        ] = mtgjson_token["uuid"]
-                        found = True
-                        break
-                elif tcgplayer_token_face["tokenType"] == "Bio":
-                    # 1996 Bertrand Lestree Biography Card
-                    if match := re.match(r"\d+ (.*) (.*) Biography", tcgplayer_token_face["faceName"]):
-                        result = str(match.group(1)) + " " + str(match.group(2)) + " Bio"
-                        if mtgjson_token["name"] == result:
-                            print(f"> Found Bio for {tcgplayer_token_face}")
-                            tcgplayer_token_face_details[tcgplayer_token_face_index][
-                                "uuid"
-                            ] = mtgjson_token["uuid"]
-                            found = True
-                            break
-                elif tcgplayer_token_face["tokenType"] == "Decklist":
-                    if match := re.match(r"\d+ (.*) (.*) Decklist", tcgplayer_token_face["faceName"]):
-                        result = str(match.group(1)) + " " + str(match.group(2)) + " Decklist"
-                        if mtgjson_token["name"] == result:
-                            print(f"> Found Decklist for {tcgplayer_token_face}")
-                            tcgplayer_token_face_details[tcgplayer_token_face_index][
-                                "uuid"
-                            ] = mtgjson_token["uuid"]
-                            found = True
-                            break
-
-
-        if not found:
-            pass
-            print(f">> UNABLE to find UUID for {tcgplayer_token_face}")
-
-
 def filter_tokens_without_uuids(
     output_tokens: List[Dict[str, Any]],
 ) -> Dict[str, List[Dict[str, Any]]]:
@@ -132,19 +40,42 @@ def filter_tokens_without_uuids(
     return output_dict_of_tokens
 
 
+def add_backside_of_art_cards(
+    filtered_tokens_uuid_mapping: Dict[str, List[Dict[str, Any]]],
+    mtgjson_art_cards_front_to_back_mapping: Dict[str, str],
+) -> Dict[str, List[Dict[str, Any]]]:
+    new_output_tokens = defaultdict(list)
+
+    for uuid, token_parts in filtered_tokens_uuid_mapping.items():
+        if uuid in mtgjson_art_cards_front_to_back_mapping:
+            back_side_uuid = mtgjson_art_cards_front_to_back_mapping[uuid]
+            new_output_tokens[back_side_uuid].extend(token_parts)
+
+        new_output_tokens[uuid].extend(token_parts)
+
+    return new_output_tokens
+
+
 def build_tokens_mapping(
     mtgjson_tokens: Dict[str, List[Dict[str, Any]]],
-    tcgplayer_tokens,
+    tcgplayer_tokens: List[Dict[str, Any]],
     tcgplayer_token_parser: TcgplayerTokenParser,
 ):
     output_tokens = []
+    mapper = MtgjsonToTcgplayerMapper()
+
+    mtgjson_art_cards_front_to_back_mapping = (
+        MtgjsonToTcgplayerMapper().mtgjson_art_card_front_to_back_mapping(
+            mtgjson_tokens
+        )
+    )
 
     for tcgplayer_token in tcgplayer_tokens:
         print(f"TCGPlayer Token: {tcgplayer_token}")
         tcgplayer_token_face_details = (
             tcgplayer_token_parser.split_tcgplayer_token_faces_details(tcgplayer_token)
         )
-        add_mtgjson_uuids_to_tcgplayer_token_face_details(
+        mapper.add_mtgjson_uuids_to_tcgplayer_token_face_details(
             mtgjson_tokens, tcgplayer_token_face_details
         )
 
@@ -155,7 +86,8 @@ def build_tokens_mapping(
             }
         )
 
-    return filter_tokens_without_uuids(output_tokens)
+    filtered = filter_tokens_without_uuids(output_tokens)
+    return add_backside_of_art_cards(filtered, mtgjson_art_cards_front_to_back_mapping)
 
 
 def save_output(set_code: str, output: Dict[str, List[Dict[str, Any]]]) -> None:
@@ -171,7 +103,7 @@ def main():
     tcgplayer_token_parser = TcgplayerTokenParser()
 
     for set_code, group_ids in mtgjson_parser.get_iter().items():
-        # if set_code != "WC00":
+        # if set_code != "WOE":
         #     continue
         print(f"Processing {set_code}")
         mtgjson_tokens = mtgjson_parser.get_associated_mtgjson_tokens(set_code)

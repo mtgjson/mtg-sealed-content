@@ -125,7 +125,7 @@ class TcgplayerProvider:
 
     @staticmethod
     def __entry_is_token(card_name: str, data_entry: Dict[str, Any]) -> bool:
-        print(f"TESTING {card_name} {data_entry}")
+        # print(f"TESTING {card_name} {data_entry}")
         # Some tokens are labeled as 'P'romo vs 'T'oken vs 'S'pecial
         if (
             "token" not in card_name.lower()
