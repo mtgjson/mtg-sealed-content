@@ -29,6 +29,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: execute import of new deck
+        run: python scripts/import_new_decks.py
+
       - name: execute contents compiler
         run: python scripts/product_contents_compiler.py
 
