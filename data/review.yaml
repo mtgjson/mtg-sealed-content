@@ -16,6 +16,12 @@ cardKingdom:
       cardKingdomId: '318211'
     subtype: UNKNOWN
 cardMarket:
+  Anthologies Box Set:
+    category: UNKNOWN
+    identifiers:
+      mcmId: '855004'
+    release_date: '2025-10-21'
+    subtype: UNKNOWN
   'Commander: Lorwyn Eclipsed: Deck Set':
     category: UNKNOWN
     identifiers:
@@ -202,6 +208,12 @@ cardMarket:
       mcmId: '853735'
     release_date: '2025-10-13'
     subtype: UNKNOWN
+  'Secret Lair Drop Series: Chaos Vault: Flower Power':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '854911'
+    release_date: '2025-10-21'
+    subtype: UNKNOWN
   'Secret Lair Drop Series: Secret Scare Superdrop: Artist Series: Kieran Yanner':
     category: UNKNOWN
     identifiers:
@@ -335,6 +347,11 @@ cardMarket:
     release_date: '2025-09-30'
     subtype: UNKNOWN
 cardTrader:
+  'Artist Series: Kieran Yanner':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354228'
+    subtype: UNKNOWN
   'Commander: Lorwyn Eclipsed Deck Set 2 Commander Decks':
     category: UNKNOWN
     identifiers:
@@ -450,6 +467,131 @@ cardTrader:
     identifiers:
       cardtraderId: '352411'
     subtype: UNKNOWN
+  'Secret Lair Drop Series: Dreaming Darkly':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354234'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: Pick ''Em and Stick ''Em':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354202'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: They Grow Up So Fast':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354207'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: Tragic Romance':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354209'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: Trick or Treat':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354240'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: Twisted Toons':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354200'
+    subtype: UNKNOWN
+  'Secret Lair High: Class of ''87':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354204'
+    subtype: UNKNOWN
+  'Secret Lair x Furby: Doo-ay Noo-lah':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354242'
+    subtype: UNKNOWN
+  'Secret Lair x Furby: Doo-ay Noo-lah Confetti Foil':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354245'
+    subtype: UNKNOWN
+  'Secret Lair x Furby: The Gathering':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354246'
+    subtype: UNKNOWN
+  'Secret Lair x Furby: The Gathering Confetti Foil':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354247'
+    subtype: UNKNOWN
+  'Secret Lair x Furby: The OddBodies':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354250'
+    subtype: UNKNOWN
+  'Secret Lair x Furby: The OddBodies Confetti Foil':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354251'
+    subtype: UNKNOWN
+  Secret Lair x Ghost of Tsushima:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354223'
+    subtype: UNKNOWN
+  'Secret Lair x God of War: Greek':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354215'
+    subtype: UNKNOWN
+  'Secret Lair x God of War: Norse':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354217'
+    subtype: UNKNOWN
+  'Secret Lair x Horizon: Into the Forbidden West':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354221'
+    subtype: UNKNOWN
+  'Secret Lair x Iron Maiden: Album Art':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354236'
+    subtype: UNKNOWN
+  'Secret Lair x Iron Maiden: Eddie Unchained':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354238'
+    subtype: UNKNOWN
+  'Secret Lair x Jaws: Terror of Amity Island':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354230'
+    subtype: UNKNOWN
+  'Secret Lair x Play-Doh: Squishful Thinking':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354226'
+    subtype: UNKNOWN
+  Secret Lair x The Last of Us Part I:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354211'
+    subtype: UNKNOWN
+  Secret Lair x The Last of Us Part II:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354213'
+    subtype: UNKNOWN
+  'Secret Lair x The Office: Dwight''s Destiny':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354232'
+    subtype: UNKNOWN
+  Secret Lair x Uncharted:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354219'
+    subtype: UNKNOWN
   Teenage Mutant Ninja Turtles Collector Booster:
     category: UNKNOWN
     identifiers:
@@ -501,7 +643,12 @@ cardTrader:
       cardtraderId: '354096'
     subtype: UNKNOWN
 coolstuffinc: {}
-miniaturemarket: {}
+miniaturemarket:
+  Could not load provider miniaturemarket:
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: ''
+    subtype: UNKNOWN
 mvpsportsandgames:
   Could not load provider mvpsportsandgames:
     category: UNKNOWN
