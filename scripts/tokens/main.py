@@ -35,7 +35,8 @@ def filter_tokens_without_uuids(
     for output_token in output_tokens:
         for token_part in output_token["tokenParts"]:
             if "uuid" in token_part:
-                output_dict_of_tokens[token_part["uuid"]].append(output_token)
+                for uuid in token_part["uuid"]:
+                    output_dict_of_tokens[uuid].append(output_token)
 
     return output_dict_of_tokens
 
@@ -87,7 +88,10 @@ def build_tokens_mapping(
         )
 
     filtered = filter_tokens_without_uuids(output_tokens)
-    return add_backside_of_art_cards(filtered, mtgjson_art_cards_front_to_back_mapping)
+    filtered = add_backside_of_art_cards(
+        filtered, mtgjson_art_cards_front_to_back_mapping
+    )
+    return filtered
 
 
 def save_output(set_code: str, output: Dict[str, List[Dict[str, Any]]]) -> None:
@@ -103,7 +107,7 @@ def main():
     tcgplayer_token_parser = TcgplayerTokenParser()
 
     for set_code, group_ids in mtgjson_parser.get_iter().items():
-        # if set_code != "WOE":
+        # if set_code != "MID":
         #     continue
         print(f"Processing {set_code}")
         mtgjson_tokens = mtgjson_parser.get_associated_mtgjson_tokens(set_code)
@@ -115,7 +119,6 @@ def main():
 
         if output_token_mapping:
             save_output(set_code, output_token_mapping)
-        # break
 
 
 if __name__ == "__main__":
