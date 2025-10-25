@@ -20,7 +20,13 @@ class MtgjsonParser:
 
         # Manual overrides because TCGplayer is lacking :(
         self.__set_code_to_group_ids["30A"].add(17666)
-        # self.__set_code_to_group_ids["GK1"].add(2290)
+        self.__set_code_to_group_ids["ONE"].add(1163)
+        self.__set_code_to_group_ids["MOM"].add(1163)
+        self.__set_code_to_group_ids["WOE"].add(1163)
+        self.__set_code_to_group_ids["MKM"].add(1163)
+        self.__set_code_to_group_ids["FIN"].add(1163)
+        self.__set_code_to_group_ids["DMU"].add(1163)
+        self.__set_code_to_group_ids["J25"].add(23792)
 
     def get_associated_mtgjson_tokens(
         self,

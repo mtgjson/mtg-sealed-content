@@ -15,6 +15,7 @@ class TcgplayerTokenParser:
         self.__treatment_double_side_regex = re.compile(
             r".*[Dd]oubled?[- ][Ss]ided Token \((.*?)\)"
         )
+        self.__role_regex = re.compile(r"(.*) Role / (.*) Role")
 
     def __fix_emblem_names(self, token) -> str:
         if match := self.__emblem_regex.match(token):
@@ -24,26 +25,37 @@ class TcgplayerTokenParser:
     def __get_token_face_names(self, token_name: str) -> List[str]:
         if token_name.lower().startswith(("punch card", "punchcard")):
             return ["Punchcard", "Punchcard"]
+        if "helper card" in token_name.lower():
+            return ["Helper Card"]
 
         if " // " in token_name:
             if match := self.__double_sided_token_regex.match(token_name):
                 left, right = [
                     part.split(" (")[0] for part in match.group(1).split(" // ")
                 ]
+
+                left = left.strip()
+                right = right.strip()
+
+                if match := self.__role_regex.match(left):
+                    left = f"{match.group(1)} // {match.group(2)}"
+                if match := self.__role_regex.match(right):
+                    right = f"{match.group(1)} // {match.group(2)}"
+
                 return [
-                    self.__fix_emblem_names(left.strip()),
-                    self.__fix_emblem_names(right.strip()),
+                    self.__fix_emblem_names(left),
+                    self.__fix_emblem_names(right),
                 ]
 
         if "(" in token_name:
             token_name = token_name.split(" (", 1)[0]
-
         if "Art Card" in token_name:
             return [token_name.split(" Art Card")[0]]
         if "(Art Series)" in token_name:
             return [token_name.split(" (Art Series)")[0]]
         if "Theme Card" in token_name:
             return [token_name.split(" Theme Card")[0]]
+
         return [self.__fix_emblem_names(token_name.split(" Token")[0])]
 
     def split_tcgplayer_token_faces_details(
@@ -64,7 +76,12 @@ class TcgplayerTokenParser:
         additional_side_a = {}
         additional_side_b = {}
         additional = {}
-        if "token" in tcgplayer_token["name"].lower():
+        if (
+            "token" in tcgplayer_token["name"].lower()
+            or "emblem" in tcgplayer_token["name"].lower()
+            or "punch" in tcgplayer_token["name"].lower()
+            or "helper" in tcgplayer_token["name"].lower()
+        ):
             additional["tokenType"] = "Token"
         elif "art" in tcgplayer_token["name"].lower():
             additional["tokenType"] = "Art"

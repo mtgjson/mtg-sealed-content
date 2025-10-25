@@ -109,6 +109,7 @@ class TcgplayerProvider:
                 if self.__entry_is_token(card_or_token["name"], data_entry):
                     tokens.append(card_or_token)
                     break
+        # print(json.dumps(tokens, indent=4))
         return tokens
 
     def get_tokens_from_group_id(self, group_id: int) -> List[Dict[str, Any]]:
@@ -133,6 +134,9 @@ class TcgplayerProvider:
             and "theme" not in card_name.lower()
             and "bio" not in card_name.lower()
             and "decklist" not in card_name.lower()
+            and "emblem" not in card_name.lower()
+            and "punch" not in card_name.lower()
+            and "helper" not in card_name.lower()
         ):
             return False
 
