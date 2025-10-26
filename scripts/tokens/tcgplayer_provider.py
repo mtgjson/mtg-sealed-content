@@ -109,7 +109,7 @@ class TcgplayerProvider:
                 if self.__entry_is_token(card_or_token["name"], data_entry):
                     tokens.append(card_or_token)
                     break
-        # print(json.dumps(tokens, indent=4))
+
         return tokens
 
     def get_tokens_from_group_id(self, group_id: int) -> List[Dict[str, Any]]:
@@ -126,18 +126,26 @@ class TcgplayerProvider:
 
     @staticmethod
     def __entry_is_token(card_name: str, data_entry: Dict[str, Any]) -> bool:
-        # print(f"TESTING {card_name} {data_entry}")
-        # Some tokens are labeled as 'P'romo vs 'T'oken vs 'S'pecial
-        if (
-            "token" not in card_name.lower()
-            and "art" not in card_name.lower()
-            and "theme" not in card_name.lower()
-            and "bio" not in card_name.lower()
-            and "decklist" not in card_name.lower()
-            and "emblem" not in card_name.lower()
-            and "punch" not in card_name.lower()
-            and "helper" not in card_name.lower()
+        if any(
+            [
+                x in card_name.lower()
+                for x in [
+                    "token",
+                    "art",
+                    "theme",
+                    "bio",
+                    "decklist",
+                    "emblem",
+                    "punch",
+                    "helper",
+                ]
+            ]
         ):
-            return False
+            # Some tokens are labeled as 'P'romo vs 'T'oken vs 'S'pecial
+            return data_entry["name"] == "Rarity" and data_entry["value"] in [
+                "S",
+                "T",
+                "P",
+            ]
 
-        return data_entry["name"] == "Rarity" and data_entry["value"] in ["S", "T", "P"]
+        return False

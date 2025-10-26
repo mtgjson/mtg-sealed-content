@@ -55,12 +55,8 @@ class AllPrintings:
         set_code_to_tcgplayer_group_ids = defaultdict(set)
 
         for set_code, set_data in self.__temp_file_data.get("data").items():
-            # print(f"OPS {set_code}")
             if "tcgplayerGroupId" not in set_data:
-                print(
-                    "No tcgplayerGroupId found for ",
-                    set_code,
-                )
+                print(f"No tcgplayerGroupId found for {set_code}")
                 continue
 
             mapping_key = set_data.get("parentCode") or set_data.get("code")
@@ -74,7 +70,6 @@ class AllPrintings:
             set_code_to_tcgplayer_group_ids[mapping_key].add(
                 set_data.get("tcgplayerGroupId")
             )
-            # print(f"Found {set_data['tcgplayerGroupId']} for {set_code}")
             print(
                 f"set_code_to_tcgplayer_group_ids[{mapping_key}].add({set_data.get('tcgplayerGroupId')}) for {set_code}"
             )
