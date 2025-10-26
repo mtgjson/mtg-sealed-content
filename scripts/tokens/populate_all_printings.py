@@ -43,16 +43,21 @@ def main2():
         data = json.load(fp)
 
     with pathlib.Path("/Users/zach/Desktop/missing.txt").open("w") as fp:
+        found = 0
+        missing = 0
         for set_code, set_data in data.get("data").items():
             # if set_code != "AZNR":
             #     continue
             for index, token_details in enumerate(set_data.get("tokens", [])):
                 if "tokenProducts" in token_details:
+                    found += 1
                     continue
                 print(f"Unable to find tokenProducts for {token_details}")
                 fp.write(
                     f"Missing tokenProducts {set_code} - {token_details['name']} ({token_details['number']}-{token_details.get('side', 'NO_SIDE')})\n"
                 )
+                missing += 1
+        fp.write(f"Found {found}/{found + missing} ({found / (found + missing) * 100}%) tokens")
 
 
 if __name__ == "__main__":

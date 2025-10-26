@@ -107,7 +107,7 @@ def main():
     tcgplayer_token_parser = TcgplayerTokenParser()
 
     for set_code, group_ids in mtgjson_parser.get_iter().items():
-        # if set_code != "MID":
+        # if set_code != "PLST":
         #     continue
         print(f"Processing {set_code}")
         mtgjson_tokens = mtgjson_parser.get_associated_mtgjson_tokens(set_code)
