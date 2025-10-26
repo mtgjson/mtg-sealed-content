@@ -61,10 +61,8 @@ class TcgplayerTokenParser:
     @staticmethod
     def get_additional_dict(tcgplayer_token_name_lower) -> Dict[str, str]:
         additional = {}
-        if "token" in tcgplayer_token_name_lower:
+        if any([x in tcgplayer_token_name_lower for x in ["token", "emblem"]]):
             additional["tokenType"] = "Token"
-        elif "emblem" in tcgplayer_token_name_lower:
-            additional["tokenType"] = "Emblem"
         elif "punch" in tcgplayer_token_name_lower:
             additional["tokenType"] = "Punch"
         elif "helper" in tcgplayer_token_name_lower:
