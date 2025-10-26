@@ -136,11 +136,13 @@ class MtgjsonToTcgplayerMapper:
         tcgplayer_token_face_index,
         tcgplayer_token_face,
     ):
+        # if tcgplayer_token_face["faceName"] == "Faerie Rogue":
+        #     print(f">>> {mtgjson_token['number']}, {mtgjson_token['number'].split('-')[-1]}")
         if self.compare_face_name_and_number(
             tcgplayer_token_face["faceName"],
             tcgplayer_token_face["faceId"],
             mtgjson_token["name"],
-            mtgjson_token["number"],
+            mtgjson_token["number"].split("-")[-1],
         ):
             print(f"> Found Token for {tcgplayer_token_face}")
 
@@ -271,12 +273,13 @@ class MtgjsonToTcgplayerMapper:
             for mtgjson_token_data in mtgjson_tokens.values():
                 for mtgjson_token in mtgjson_token_data:
                     if tcgplayer_token_face["tokenType"] in function_mapping:
-                        found = function_mapping[tcgplayer_token_face["tokenType"]](
+                        new_found = function_mapping[tcgplayer_token_face["tokenType"]](
                             mtgjson_token,
                             tcgplayer_token_face_details,
                             tcgplayer_token_face_index,
                             tcgplayer_token_face,
                         )
+                        found = found or new_found
 
             if not found:
                 pass
