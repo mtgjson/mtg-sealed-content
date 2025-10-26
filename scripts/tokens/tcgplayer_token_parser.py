@@ -58,6 +58,33 @@ class TcgplayerTokenParser:
 
         return [self.__fix_emblem_names(token_name.split(" Token")[0])]
 
+    @staticmethod
+    def get_additional_dict(tcgplayer_token_name_lower) -> Dict[str, str]:
+        additional = {}
+        if "token" in tcgplayer_token_name_lower:
+            additional["tokenType"] = "Token"
+        elif "emblem" in tcgplayer_token_name_lower:
+            additional["tokenType"] = "Emblem"
+        elif "punch" in tcgplayer_token_name_lower:
+            additional["tokenType"] = "Punch"
+        elif "helper" in tcgplayer_token_name_lower:
+            additional["tokenType"] = "Helper"
+        elif "art" in tcgplayer_token_name_lower:
+            additional["tokenType"] = "Art"
+        elif "theme" in tcgplayer_token_name_lower:
+            additional["tokenType"] = "Theme"
+        elif "bio" in tcgplayer_token_name_lower:
+            additional["tokenType"] = "Bio"
+        elif "decklist" in tcgplayer_token_name_lower:
+            additional["tokenType"] = "Decklist"
+
+        if "gold-stamped" in tcgplayer_token_name_lower:
+            if "faceAttribute" not in additional:
+                additional["faceAttribute"] = []
+            additional["faceAttribute"].append("Gold Stamped")
+
+        return additional
+
     def split_tcgplayer_token_faces_details(
         self,
         tcgplayer_token: Dict[str, Any],
@@ -75,27 +102,7 @@ class TcgplayerTokenParser:
 
         additional_side_a = {}
         additional_side_b = {}
-        additional = {}
-        if (
-            "token" in tcgplayer_token["name"].lower()
-            or "emblem" in tcgplayer_token["name"].lower()
-            or "punch" in tcgplayer_token["name"].lower()
-            or "helper" in tcgplayer_token["name"].lower()
-        ):
-            additional["tokenType"] = "Token"
-        elif "art" in tcgplayer_token["name"].lower():
-            additional["tokenType"] = "Art"
-        elif "theme" in tcgplayer_token["name"].lower():
-            additional["tokenType"] = "Theme"
-        elif "bio" in tcgplayer_token["name"].lower():
-            additional["tokenType"] = "Bio"
-        elif "decklist" in tcgplayer_token["name"].lower():
-            additional["tokenType"] = "Decklist"
-
-        if "Gold-Stamped" in tcgplayer_token["name"]:
-            if "faceAttribute" not in additional:
-                additional["faceAttribute"] = []
-            additional["faceAttribute"].append("Gold Stamped")
+        additional = self.get_additional_dict(tcgplayer_token["name"].lower())
 
         if match := self.__treatment_single_side_regex.match(tcgplayer_token["name"]):
             if match.group(1) and "Foil" in match.group(1):
