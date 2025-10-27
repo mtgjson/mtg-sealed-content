@@ -57,7 +57,9 @@ def main2():
                     f"Missing tokenProducts {set_code} - {token_details['name']} ({token_details['number']}-{token_details.get('side', 'NO_SIDE')})\n"
                 )
                 missing += 1
-        fp.write(f"Found {found}/{found + missing} ({found / (found + missing) * 100}%) tokens")
+        fp.write(
+            f"Found {found}/{found + missing} ({found / (found + missing) * 100}%) tokens"
+        )
 
 
 if __name__ == "__main__":
