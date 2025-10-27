@@ -28,7 +28,7 @@ def tcgplayer_token_to_mtgjson_token_products_entry(
     }
 
 
-def setup_token_faces_better(
+def map_uuids_back_to_single_uuid(
     filtered: Dict[str, List[Dict[str, Any]]],
 ) -> Dict[str, List[Dict[str, Any]]]:
     for uuid, output_tokens in filtered.items():
@@ -114,7 +114,7 @@ def build_tokens_mapping(
         )
 
     filtered = filter_tokens_without_uuids(output_tokens)
-    filtered = setup_token_faces_better(filtered)
+    filtered = map_uuids_back_to_single_uuid(filtered)
     filtered = add_backside_of_art_cards(
         filtered, mtgjson_art_cards_front_to_back_mapping
     )
