@@ -55,16 +55,18 @@ class TcgplayerTokenParser:
             return [token_name.split(" (Art Series)")[0]]
         if "Theme Card" in token_name:
             return [token_name.split(" Theme Card")[0]]
+        if "Magic Minigame" in token_name:
+            return [token_name.split("Magic Minigame: ")[-1]]
 
         return [self.__fix_emblem_names(token_name.split(" Token")[0])]
 
     @staticmethod
-    def get_additional_dict(tcgplayer_token_name_lower) -> Dict[str, str]:
+    def get_additional_dict(tcgplayer_token_name_lower) -> Dict[str, str | list[str]]:
         additional = {}
-        if any([x in tcgplayer_token_name_lower for x in ["token", "emblem"]]):
-            additional["tokenType"] = "Token"
-        elif "punch" in tcgplayer_token_name_lower:
+        if "punch" in tcgplayer_token_name_lower:
             additional["tokenType"] = "Punch"
+        if "magic minigame" in tcgplayer_token_name_lower:
+            additional["tokenType"] = "Minigame"
         elif "helper" in tcgplayer_token_name_lower:
             additional["tokenType"] = "Helper"
         elif "art" in tcgplayer_token_name_lower:
@@ -75,6 +77,10 @@ class TcgplayerTokenParser:
             additional["tokenType"] = "Bio"
         elif "decklist" in tcgplayer_token_name_lower:
             additional["tokenType"] = "Decklist"
+        elif any([x in tcgplayer_token_name_lower for x in ["token", "emblem"]]):
+            additional["tokenType"] = "Token"
+        elif "world championship" in tcgplayer_token_name_lower:
+            additional["tokenType"] = "WorldChampionship"
 
         if "gold-stamped" in tcgplayer_token_name_lower:
             if "faceAttribute" not in additional:
@@ -96,7 +102,12 @@ class TcgplayerTokenParser:
                         map(str.strip, raw_extended_data["value"].split("//"))
                     )
                 else:
-                    first_face_id = raw_extended_data["value"].split("//")[0]
+                    first_face_id = (
+                        raw_extended_data["value"]
+                        .split("//")[0]
+                        .split("/")[0]
+                        .lstrip("0")
+                    )
 
         additional_side_a = {}
         additional_side_b = {}
@@ -116,6 +127,10 @@ class TcgplayerTokenParser:
                 if "faceAttribute" not in additional:
                     additional["faceAttribute"] = []
                 additional["faceAttribute"].append(match.group(1))
+
+        # Hack to account for the Bounty tokens
+        if token_face_names[0].startswith("Bounty:"):
+            second_face_id = first_face_id
 
         if len(token_face_names) == 2:
             return [

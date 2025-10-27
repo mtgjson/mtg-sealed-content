@@ -138,6 +138,7 @@ class TcgplayerProvider:
                     "emblem",
                     "punch",
                     "helper",
+                    "minigame",
                 ]
             ]
         ):

@@ -28,14 +28,39 @@ def tcgplayer_token_to_mtgjson_token_products_entry(
     }
 
 
+def setup_token_faces_better(
+    filtered: Dict[str, List[Dict[str, Any]]],
+) -> Dict[str, List[Dict[str, Any]]]:
+    for uuid, output_tokens in filtered.items():
+        for output_index, output_token in enumerate(output_tokens):
+            for token_part_index, token_part in enumerate(
+                output_token.get("tokenParts", [])
+            ):
+                if "uuids" not in token_part:
+                    continue
+                if uuid in token_part["uuids"]:
+                    filtered[uuid][output_index]["tokenParts"][token_part_index][
+                        "uuid"
+                    ] = uuid
+                else:
+                    filtered[uuid][output_index]["tokenParts"][token_part_index][
+                        "uuid"
+                    ] = token_part["uuids"][0]
+                del filtered[uuid][output_index]["tokenParts"][token_part_index][
+                    "uuids"
+                ]
+
+    return filtered
+
+
 def filter_tokens_without_uuids(
     output_tokens: List[Dict[str, Any]],
 ) -> Dict[str, List[Dict[str, Any]]]:
     output_dict_of_tokens = defaultdict(list)
     for output_token in output_tokens:
         for token_part in output_token["tokenParts"]:
-            if "uuid" in token_part:
-                for uuid in token_part["uuid"]:
+            if "uuids" in token_part:
+                for uuid in token_part["uuids"]:
                     output_dict_of_tokens[uuid].append(output_token)
 
     return output_dict_of_tokens
@@ -58,6 +83,7 @@ def add_backside_of_art_cards(
 
 
 def build_tokens_mapping(
+    set_code,
     mtgjson_tokens: Dict[str, List[Dict[str, Any]]],
     tcgplayer_tokens: List[Dict[str, Any]],
     tcgplayer_token_parser: TcgplayerTokenParser,
@@ -77,7 +103,7 @@ def build_tokens_mapping(
             tcgplayer_token_parser.split_tcgplayer_token_faces_details(tcgplayer_token)
         )
         mapper.add_mtgjson_uuids_to_tcgplayer_token_face_details(
-            mtgjson_tokens, tcgplayer_token_face_details
+            set_code, mtgjson_tokens, tcgplayer_token_face_details
         )
 
         output_tokens.append(
@@ -88,6 +114,7 @@ def build_tokens_mapping(
         )
 
     filtered = filter_tokens_without_uuids(output_tokens)
+    filtered = setup_token_faces_better(filtered)
     filtered = add_backside_of_art_cards(
         filtered, mtgjson_art_cards_front_to_back_mapping
     )
@@ -107,14 +134,14 @@ def main():
     tcgplayer_token_parser = TcgplayerTokenParser()
 
     for set_code, group_ids in mtgjson_parser.get_iter().items():
-        # if set_code != "PLST":
+        # if set_code != "WC97":
         #     continue
         print(f"Processing {set_code}")
         mtgjson_tokens = mtgjson_parser.get_associated_mtgjson_tokens(set_code)
         tcgplayer_tokens = tcgplayer_provider.get_tokens_from_group_ids(group_ids)
 
         output_token_mapping = build_tokens_mapping(
-            mtgjson_tokens, tcgplayer_tokens, tcgplayer_token_parser
+            set_code, mtgjson_tokens, tcgplayer_tokens, tcgplayer_token_parser
         )
 
         if output_token_mapping:

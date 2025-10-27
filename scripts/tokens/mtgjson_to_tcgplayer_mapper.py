@@ -12,6 +12,7 @@ class MtgjsonToTcgplayerMapper:
     def __init__(self) -> None:
         self.bio_regex = re.compile(r"(\d+) (.*) Biography")
         self.decklist_regex = re.compile(r"(\d+) (.*) Decklist")
+        self.wc_blank_regex = re.compile(r"(\d+) World Championship Blank Card")
 
     @staticmethod
     def strip_star(number: str | None) -> str | None:
@@ -19,21 +20,25 @@ class MtgjsonToTcgplayerMapper:
             return number.replace("*", "").replace("★", "")
         return ""
 
+    @staticmethod
+    def strip_quotes(mtgjson_token_name: str) -> str:
+        return mtgjson_token_name.replace('"', "")
+
     def compare_face_name_and_number(
         self, tcgplayer_face_name, tcgplayer_face_id, mtgjson_name, mtgjson_number
     ):
         return (
             unidecode.unidecode(tcgplayer_face_name)
-            == unidecode.unidecode(mtgjson_name)
+            == unidecode.unidecode(self.strip_quotes(mtgjson_name))
         ) and (self.strip_star(mtgjson_number).rstrip("s") == tcgplayer_face_id)
 
     @staticmethod
     def add_uuid_to_list(
         tcgplayer_token_face_details, tcgplayer_token_face_index, mtgjson_token
     ):
-        if "uuid" not in tcgplayer_token_face_details[tcgplayer_token_face_index]:
-            tcgplayer_token_face_details[tcgplayer_token_face_index]["uuid"] = []
-        tcgplayer_token_face_details[tcgplayer_token_face_index]["uuid"].append(
+        if "uuids" not in tcgplayer_token_face_details[tcgplayer_token_face_index]:
+            tcgplayer_token_face_details[tcgplayer_token_face_index]["uuids"] = []
+        tcgplayer_token_face_details[tcgplayer_token_face_index]["uuids"].append(
             mtgjson_token["uuid"]
         )
 
@@ -51,10 +56,12 @@ class MtgjsonToTcgplayerMapper:
 
         if unidecode.unidecode(
             f"{tcgplayer_token_face['faceName']} //"
-        ) in unidecode.unidecode(mtgjson_token["name"]) or unidecode.unidecode(
+        ) in unidecode.unidecode(
+            self.strip_quotes(mtgjson_token["name"])
+        ) or unidecode.unidecode(
             f"// {tcgplayer_token_face['faceName']}"
         ) in unidecode.unidecode(
-            mtgjson_token["name"]
+            self.strip_quotes(mtgjson_token["name"])
         ):
             return True
 
@@ -72,11 +79,12 @@ class MtgjsonToTcgplayerMapper:
 
     def match_bio_card(self, mtgjson_token, tcgplayer_token_face):
         if match := self.bio_regex.match(tcgplayer_token_face["faceName"]):
-            result = str(match.group(2)) + " Bio"
+            result = unidecode.unidecode(str(match.group(2)) + " Bio")
             year = match.group(1)
             if (
                 unidecode.unidecode(mtgjson_token["name"]) == result
                 or unidecode.unidecode(mtgjson_token["name"]) == result + f" ({year})"
+                or unidecode.unidecode(mtgjson_token["name"]) == result + f" {year}"
             ):
                 return True
 
@@ -86,16 +94,17 @@ class MtgjsonToTcgplayerMapper:
         if match := self.decklist_regex.match(tcgplayer_token_face["faceName"]):
             result = str(match.group(2)) + " Decklist"
             year = str(match.group(1))
-            # print(f">>>Checking {result} against {unidecode.unidecode(mtgjson_token['name'])}")
             if (
                 unidecode.unidecode(mtgjson_token["name"]) == result
                 or unidecode.unidecode(mtgjson_token["name"]) == result + f" ({year})"
+                or unidecode.unidecode(mtgjson_token["name"]) == result + f" {year}"
             ):
                 return True
         return False
 
     def handle_art_cards(
         self,
+        set_code,
         mtgjson_token,
         tcgplayer_token_face_details,
         tcgplayer_token_face_index,
@@ -113,6 +122,7 @@ class MtgjsonToTcgplayerMapper:
 
     def handle_theme_cards(
         self,
+        set_code,
         mtgjson_token,
         tcgplayer_token_face_details,
         tcgplayer_token_face_index,
@@ -131,18 +141,26 @@ class MtgjsonToTcgplayerMapper:
 
     def handle_tokens(
         self,
+        set_code,
         mtgjson_token,
         tcgplayer_token_face_details,
         tcgplayer_token_face_index,
         tcgplayer_token_face,
     ):
-        # if tcgplayer_token_face["faceName"] == "Faerie Rogue":
-        #     print(f">>> {mtgjson_token['number']}, {mtgjson_token['number'].split('-')[-1]}")
+
+        mtgjson_token_number = mtgjson_token["number"].split("-")[-1]
+        if mtgjson_token_number[0].isalpha() and set_code in {"MED"}:
+            mtgjson_token_number = str(mtgjson_token_number[1:])
+
         if self.compare_face_name_and_number(
             tcgplayer_token_face["faceName"],
             tcgplayer_token_face["faceId"],
-            mtgjson_token["name"],
-            mtgjson_token["number"].split("-")[-1],
+            (
+                mtgjson_token.get("faceName", mtgjson_token.get("name"))
+                if set_code in {"UST"}
+                else mtgjson_token["name"]
+            ),
+            mtgjson_token_number,
         ):
             print(f"> Found Token for {tcgplayer_token_face}")
 
@@ -169,10 +187,24 @@ class MtgjsonToTcgplayerMapper:
             )
             return True
 
+        # OTJ Bounty Cards are weird
+        if mtgjson_token["layout"] == "double_faced_token" and mtgjson_token[
+            "name"
+        ].startswith("Bounty:"):
+            if tcgplayer_token_face["faceId"] == mtgjson_token["number"]:
+                print(f"> Found Bounty Token for {tcgplayer_token_face}")
+                self.add_uuid_to_list(
+                    tcgplayer_token_face_details,
+                    tcgplayer_token_face_index,
+                    mtgjson_token,
+                )
+                return True
+
         return False
 
     def handle_punch_cards(
         self,
+        set_code,
         mtgjson_token,
         tcgplayer_token_face_details,
         tcgplayer_token_face_index,
@@ -193,6 +225,7 @@ class MtgjsonToTcgplayerMapper:
 
     def handle_helper_cards(
         self,
+        set_code,
         mtgjson_token,
         tcgplayer_token_face_details,
         tcgplayer_token_face_index,
@@ -216,6 +249,7 @@ class MtgjsonToTcgplayerMapper:
 
     def handle_decklist_cards(
         self,
+        set_code,
         mtgjson_token,
         tcgplayer_token_face_details,
         tcgplayer_token_face_index,
@@ -231,8 +265,41 @@ class MtgjsonToTcgplayerMapper:
         )
         return True
 
+    def handle_minigame_cards(
+        self,
+        set_code,
+        mtgjson_token,
+        tcgplayer_token_face_details,
+        tcgplayer_token_face_index,
+        tcgplayer_token_face,
+    ):
+        # print(f">>>> {tcgplayer_token_face['faceName']} vs {mtgjson_token.get('faceName', '')}")
+        # print(f">>>> {tcgplayer_token_face['faceId']} vs {mtgjson_token.get('number', '')}")
+
+        if tcgplayer_token_face["faceName"].strip() == "Find The Assassin":
+            if mtgjson_token.get("faceName", "").lower() == "find the assassin":
+                pass
+
+        if self.compare_face_name_and_number(
+            tcgplayer_token_face["faceName"].lower(),
+            tcgplayer_token_face["faceId"],
+            mtgjson_token.get("faceName", "").lower(),
+            mtgjson_token["number"],
+        ):
+            print(f"> Found Minigame for {tcgplayer_token_face}")
+
+            self.add_uuid_to_list(
+                tcgplayer_token_face_details,
+                tcgplayer_token_face_index,
+                mtgjson_token,
+            )
+            return True
+
+        return False
+
     def handle_bio_cards(
         self,
+        set_code,
         mtgjson_token,
         tcgplayer_token_face_details,
         tcgplayer_token_face_index,
@@ -251,12 +318,13 @@ class MtgjsonToTcgplayerMapper:
 
     def add_mtgjson_uuids_to_tcgplayer_token_face_details(
         self,
+        set_code,
         mtgjson_tokens: Dict[str, List[Dict[str, Any]]],
         tcgplayer_token_face_details: List[Dict[str, Any]],
     ) -> None:
         print(f"Looking for {tcgplayer_token_face_details}")
 
-        function_mapping: Dict[str, Callable[[Any, Any, Any, Any], bool]] = {
+        function_mapping: Dict[str, Callable[[Any, Any, Any, Any, Any], bool]] = {
             "Art": self.handle_art_cards,
             "Theme": self.handle_theme_cards,
             "Token": self.handle_tokens,
@@ -264,6 +332,7 @@ class MtgjsonToTcgplayerMapper:
             "Helper": self.handle_helper_cards,
             "Bio": self.handle_bio_cards,
             "Decklist": self.handle_decklist_cards,
+            "Minigame": self.handle_minigame_cards,
         }
 
         for tcgplayer_token_face_index, tcgplayer_token_face in enumerate(
@@ -274,6 +343,7 @@ class MtgjsonToTcgplayerMapper:
                 for mtgjson_token in mtgjson_token_data:
                     if tcgplayer_token_face["tokenType"] in function_mapping:
                         new_found = function_mapping[tcgplayer_token_face["tokenType"]](
+                            set_code,
                             mtgjson_token,
                             tcgplayer_token_face_details,
                             tcgplayer_token_face_index,
@@ -282,7 +352,6 @@ class MtgjsonToTcgplayerMapper:
                         found = found or new_found
 
             if not found:
-                pass
                 print(f">> UNABLE to find UUID for {tcgplayer_token_face}")
 
     @staticmethod
