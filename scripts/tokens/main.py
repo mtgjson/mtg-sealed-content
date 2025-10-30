@@ -1,3 +1,4 @@
+import copy
 import json
 from collections import defaultdict
 
@@ -13,6 +14,47 @@ TCGPLAYER_REFERRAL_URL: str = (
     "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u="
     "https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F{}%3Fpage%3D1"
 )
+
+
+def import_overrides():
+    """
+    The data structure looks like the following:
+
+    {
+        "MTGJSON_UUID_1": {
+          "parentSetCode": "ABC",
+          "identifiers": {
+            "tcgplayerProductId": "1234567890"
+          },
+          "tokenParts": [
+            {
+              "uuid": "MTGJSON_UUID_1"
+            },
+            {
+              "uuid": "MTGJSON_UUID_2"
+            }
+          ]
+        },
+        ...
+    }
+    """
+    # Load overrides into memory
+    with pathlib.Path("data/token_manual_overrides.json").open() as fp:
+        data = json.load(fp)
+
+    # Expand overrides with relevant details
+    overrides = defaultdict(lambda : defaultdict(list))
+    for mtgjson_uuid, token_entries in data.items():
+        for token_entry in token_entries:
+            token_entry["purchaseUrls"] = {
+                "tcgplayer": TCGPLAYER_REFERRAL_URL.format(token_entry["identifiers"]["tcgplayerProductId"])
+            }
+            # Remove the helper component
+            set_code = token_entry["parentSetCode"]
+            del token_entry["parentSetCode"]
+            overrides[set_code][mtgjson_uuid].append(token_entry)
+
+    return overrides
 
 
 def tcgplayer_token_to_mtgjson_token_products_entry(
@@ -60,6 +102,10 @@ def filter_tokens_without_uuids(
     for output_token in output_tokens:
         for token_part in output_token["tokenParts"]:
             if "uuids" in token_part:
+                # These entities are for internal use only
+                token_part.pop("tokenType")
+                token_part.pop("faceId")
+                token_part.pop("faceName")
                 for uuid in token_part["uuids"]:
                     output_dict_of_tokens[uuid].append(output_token)
 
@@ -133,8 +179,9 @@ def main():
     tcgplayer_provider = TcgplayerProvider()
     tcgplayer_token_parser = TcgplayerTokenParser()
 
+    overrides = import_overrides()
     for set_code, group_ids in mtgjson_parser.get_iter().items():
-        # if set_code != "WC97":
+        # if set_code != "40K":
         #     continue
         print(f"Processing {set_code}")
         mtgjson_tokens = mtgjson_parser.get_associated_mtgjson_tokens(set_code)
@@ -143,6 +190,7 @@ def main():
         output_token_mapping = build_tokens_mapping(
             set_code, mtgjson_tokens, tcgplayer_tokens, tcgplayer_token_parser
         )
+        output_token_mapping.update(overrides.get(set_code, []))
 
         if output_token_mapping:
             save_output(set_code, output_token_mapping)
