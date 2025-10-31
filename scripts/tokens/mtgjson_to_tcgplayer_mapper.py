@@ -375,7 +375,7 @@ class MtgjsonToTcgplayerMapper:
                 print(f">> UNABLE to find UUID for {tcgplayer_token_face}")
 
     @staticmethod
-    def mtgjson_art_card_front_to_back_mapping(mtgjson_tokens) -> Dict[str, str]:
+    def art_card_front_to_back_mapping(mtgjson_tokens) -> Dict[str, str]:
         front_to_back_mapping = {}
 
         for mtgjson_token_data in mtgjson_tokens.values():

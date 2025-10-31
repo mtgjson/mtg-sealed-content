@@ -126,27 +126,32 @@ class TcgplayerProvider:
 
     @staticmethod
     def __entry_is_token(card_name: str, data_entry: Dict[str, Any]) -> bool:
-        if any(
-            [
-                x in card_name.lower()
-                for x in [
-                    "token",
-                    "art",
-                    "theme",
-                    "bio",
-                    "decklist",
-                    "emblem",
-                    "punch",
-                    "helper",
-                    "minigame",
-                ]
-            ]
-        ):
-            # Some tokens are labeled as 'P'romo vs 'T'oken vs 'S'pecial
-            return data_entry["name"] == "Rarity" and data_entry["value"] in [
-                "S",
-                "T",
-                "P",
-            ]
+        """
+        TCGPlayer tokens have a lot of words in their name that indicate they're a token and
+        not a card. Those words include "token" and "art", but the full exhaustive list is annotated
+        below within code. Tokens can also have a variety of rarities, because of course they can.
+        :param card_name: Card (or Token) name to check
+        :param data_entry: Enhanced data entry from TCGPlayer to check
+        :return: Is the card_name provided a token?
+        """
+        valid_token_name_parts = [
+            "token",
+            "art",
+            "theme",
+            "bio",
+            "decklist",
+            "emblem",
+            "punch",
+            "helper",
+            "minigame",
+        ]
+        # Some tokens are labeled as 'S'pecial vs 'T'oken vs 'P'romo.
+        valid_token_rarities = ["S", "T", "P"]
+
+        if any([part in card_name.lower() for part in valid_token_name_parts]):
+            return (
+                data_entry["name"] == "Rarity"
+                and data_entry["value"] in valid_token_rarities
+            )
 
         return False
