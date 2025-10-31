@@ -27,10 +27,17 @@ class MtgjsonToTcgplayerMapper:
     def compare_face_name_and_number(
         self, tcgplayer_face_name, tcgplayer_face_id, mtgjson_name, mtgjson_number
     ):
-        return (
-            unidecode.unidecode(tcgplayer_face_name)
-            == unidecode.unidecode(self.strip_quotes(mtgjson_name))
-        ) and (self.strip_star(mtgjson_number).rstrip("s") == tcgplayer_face_id)
+        name_match = unidecode.unidecode(tcgplayer_face_name) == unidecode.unidecode(
+            self.strip_quotes(mtgjson_name)
+        )
+
+        mtgjson_clean_num = self.strip_star(mtgjson_number)
+        if not mtgjson_clean_num:
+            return False
+
+        number_match = self.compare_numbers_safely(mtgjson_clean_num, tcgplayer_face_id)
+
+        return name_match and number_match
 
     @staticmethod
     def add_uuid_to_list(
@@ -41,6 +48,19 @@ class MtgjsonToTcgplayerMapper:
         tcgplayer_token_face_details[tcgplayer_token_face_index]["uuids"].append(
             mtgjson_token["uuid"]
         )
+
+    @staticmethod
+    def compare_numbers_safely(mtgjson_num: str, tcgplayer_id: str) -> bool:
+        if not mtgjson_num:
+            return False
+
+        if mtgjson_num == tcgplayer_id:
+            return True
+
+        if mtgjson_num.endswith("s") and mtgjson_num.rstrip("s") == tcgplayer_id:
+            return True
+
+        return False
 
     def match_art_card(self, mtgjson_token, tcgplayer_token_face):
         if mtgjson_token["layout"] != "art_series":

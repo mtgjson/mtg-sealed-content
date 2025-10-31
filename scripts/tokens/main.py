@@ -43,11 +43,13 @@ def import_overrides():
         data = json.load(fp)
 
     # Expand overrides with relevant details
-    overrides = defaultdict(lambda : defaultdict(list))
+    overrides = defaultdict(lambda: defaultdict(list))
     for mtgjson_uuid, token_entries in data.items():
         for token_entry in token_entries:
             token_entry["purchaseUrls"] = {
-                "tcgplayer": TCGPLAYER_REFERRAL_URL.format(token_entry["identifiers"]["tcgplayerProductId"])
+                "tcgplayer": TCGPLAYER_REFERRAL_URL.format(
+                    token_entry["identifiers"]["tcgplayerProductId"]
+                )
             }
             # Remove the helper component
             set_code = token_entry["parentSetCode"]
