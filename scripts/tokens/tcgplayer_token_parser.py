@@ -5,8 +5,21 @@ import re
 class TcgplayerTokenParser:
     __emblem_regex: re.Pattern
     __double_sided_token_regex: re.Pattern
+    __treatment_single_side_regex: re.Pattern
+    __treatment_double_side_regex: re.Pattern
+    __role_regex: re.Pattern
 
     def __init__(self) -> None:
+        """
+        These regular expressions capture the essence of what TCGplayer tokens look like,
+        in one form or another.
+
+        Regexes supported:
+        emblem: TCGPlayer emblems are "Emblem - <name>" whereas MTGJSON is "<name> Emblem".
+        double_sided_token: TCGPlayer tokens are a bit wild and have inconsistent spacing/capitalization/spelling.
+        treatment_single_side: TCGPlayer tokens are a bit wild and have inconsistent spacing/capitalization/spelling.
+        role: Some TCGPlayer tokens are four tokens in one (Role1 Role // Role2 Role // Role3 Role // Role4 Role)
+        """
         self.__emblem_regex = re.compile(r"Emblem - (.*)")
         self.__double_sided_token_regex = re.compile(r"^(.*) [Dd]oubled?[- ][Ss]ided")
         self.__treatment_single_side_regex = re.compile(
@@ -29,6 +42,7 @@ class TcgplayerTokenParser:
             return ["Helper Card"]
 
         if " // " in token_name:
+            # Split cards are broken down into a left half and right half
             if match := self.__double_sided_token_regex.match(token_name):
                 left, right = [
                     part.split(" (")[0] for part in match.group(1).split(" // ")
@@ -47,12 +61,13 @@ class TcgplayerTokenParser:
                     self.__fix_emblem_names(right),
                 ]
 
+        # It's possible there's still a "(" in cards. We address this here
+        if "(Art Series)" in token_name:
+            return [token_name.split(" (Art Series)")[0]]
         if "(" in token_name:
             token_name = token_name.split(" (", 1)[0]
         if "Art Card" in token_name:
             return [token_name.split(" Art Card")[0]]
-        if "(Art Series)" in token_name:
-            return [token_name.split(" (Art Series)")[0]]
         if "Theme Card" in token_name:
             return [token_name.split(" Theme Card")[0]]
         if "Magic Minigame" in token_name:
@@ -61,26 +76,41 @@ class TcgplayerTokenParser:
         return [self.__fix_emblem_names(token_name.split(" Token")[0])]
 
     @staticmethod
-    def get_additional_dict(tcgplayer_token_name_lower) -> Dict[str, str | list[str]]:
-        additional = {}
-        if "punch" in tcgplayer_token_name_lower:
-            additional["tokenType"] = "Punch"
-        if "magic minigame" in tcgplayer_token_name_lower:
-            additional["tokenType"] = "Minigame"
-        elif "helper" in tcgplayer_token_name_lower:
-            additional["tokenType"] = "Helper"
-        elif "art" in tcgplayer_token_name_lower:
-            additional["tokenType"] = "Art"
-        elif "theme" in tcgplayer_token_name_lower:
-            additional["tokenType"] = "Theme"
-        elif "bio" in tcgplayer_token_name_lower:
-            additional["tokenType"] = "Bio"
-        elif "decklist" in tcgplayer_token_name_lower:
-            additional["tokenType"] = "Decklist"
-        elif any([x in tcgplayer_token_name_lower for x in ["token", "emblem"]]):
+    def get_additional_dict(
+        tcgplayer_token_name_lower: str,
+    ) -> Dict[str, str | list[str]]:
+        """
+        Determines the 'tokenType' and potential 'faceAttributes' based on keywords
+        found in the TCGplayer product name.
+
+        The tokenType is assigned based on a defined priority list, where the first
+        match found in the name is assigned.
+        """
+        additional: Dict[str, str | list[str]] = {}
+
+        token_type_priorities: list[tuple[str, str]] = [
+            # Highest priority exceptions (Punch/Minigame usually override)
+            ("punch", "Punch"),
+            ("magic minigame", "Minigame"),
+            # Specific token card types
+            ("decklist", "Decklist"),
+            ("bio", "Bio"),
+            ("theme", "Theme"),
+            ("art", "Art"),
+            ("helper", "Helper"),
+            ("world championship", "WorldChampionship"),
+            # Tokens/Emblems (the general case)
+        ]
+
+        for keyword, token_type in token_type_priorities:
+            if keyword in tcgplayer_token_name_lower:
+                additional["tokenType"] = token_type
+                break
+
+        if "tokenType" not in additional and any(
+            x in tcgplayer_token_name_lower for x in ["token", "emblem"]
+        ):
             additional["tokenType"] = "Token"
-        elif "world championship" in tcgplayer_token_name_lower:
-            additional["tokenType"] = "WorldChampionship"
 
         if "gold-stamped" in tcgplayer_token_name_lower:
             if "faceAttribute" not in additional:

@@ -18,13 +18,10 @@ class AllPrintings:
         self.__temp_file_data = self.__read_all_printings()
 
     def __del__(self) -> None:
-        # self.__temp_file.unlink()
-        pass
+        self.__temp_file.unlink()
 
     @staticmethod
     def __download_all_printings() -> pathlib.Path:
-        return pathlib.Path("/Users/zach/Downloads/AllPrintings.json")
-
         buffer = io.BytesIO()
         response = retryable_session().get(
             "https://mtgjson.com/api/v5/AllPrintings.json.xz", stream=True, timeout=60
@@ -61,17 +58,14 @@ class AllPrintings:
 
             mapping_key = set_data.get("parentCode") or set_data.get("code")
             if not mapping_key:
-                print(
-                    "No parentCode or code found for ",
-                    set_code,
-                )
+                print(f"No parentCode or code found for {set_code}")
                 continue
 
             set_code_to_tcgplayer_group_ids[mapping_key].add(
                 set_data.get("tcgplayerGroupId")
             )
             print(
-                f"set_code_to_tcgplayer_group_ids[{mapping_key}].add({set_data.get('tcgplayerGroupId')}) for {set_code}"
+                f"[{mapping_key}].add({set_data.get('tcgplayerGroupId')}) for {set_code}"
             )
 
         return set_code_to_tcgplayer_group_ids

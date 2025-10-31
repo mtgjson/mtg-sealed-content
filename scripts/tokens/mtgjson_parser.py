@@ -44,8 +44,5 @@ class MtgjsonParser:
             )
         return mtgjson_tokens
 
-    def get_associated_set_codes(self, set_code: str) -> Set[int]:
-        return self.__set_code_to_group_ids.get(set_code, {})
-
-    def get_iter(self) -> Dict[str, Set[int]]:
+    def get_codes_to_group_ids_mapping(self) -> Dict[str, Set[int]]:
         return self.__set_code_to_group_ids
