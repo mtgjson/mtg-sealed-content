@@ -2097,8 +2097,20 @@ products:
     deck:
     - name: 'Artist Series: Kev Walker Foil Edition'
       set: sld
-  Secret Lair Drop Artist Series Kieran Yanner: []
-  Secret Lair Drop Artist Series Kieran Yanner Foil: []
+  Secret Lair Drop Artist Series Kieran Yanner:
+    card_count: 4
+    deck:
+    - name: 'Artist Series: Kieran Yanner'
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Artist Series Kieran Yanner Foil:
+    card_count: 4
+    deck:
+    - name: 'Artist Series: Kieran Yanner Foil Edition'
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Artist Series Livia Prima:
     card:
     - name: Olivia, Mobilized for War
@@ -3283,8 +3295,20 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop Dreaming Darkly: []
-  Secret Lair Drop Dreaming Darkly Foil: []
+  Secret Lair Drop Dreaming Darkly:
+    card_count: 4
+    deck:
+    - name: Dreaming Darkly
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Dreaming Darkly Foil:
+    card_count: 4
+    deck:
+    - name: Dreaming Darkly Foil Edition
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop EVERYTHING IS ON FIRE:
     card_count: 5
     deck:
@@ -3807,14 +3831,62 @@ products:
     pack:
     - code: stainedglass-tattoo
       set: sld
-  Secret Lair Drop Furby Doo ay Noo lah: []
-  Secret Lair Drop Furby Doo ay Noo lah Confetti Foil: []
-  Secret Lair Drop Furby Doo ay Noo lah Foil: []
-  Secret Lair Drop Furby Furbys The Gathering: []
-  Secret Lair Drop Furby Furbys The Gathering Foil: []
-  Secret Lair Drop Furby The Oddbodies: []
-  Secret Lair Drop Furby The Oddbodies Confetti Foil: []
-  Secret Lair Drop Furby The Oddbodies Foil: []
+  Secret Lair Drop Furby Doo ay Noo lah:
+    card_count: 5
+    deck:
+    - name: 'Furby: Doo-ay Noo-lah'
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Furby Doo ay Noo lah Confetti Foil:
+    card_count: 5
+    deck:
+    - name: 'Furby: Doo-ay Noo-lah Confetti Foil Edition'
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Furby Doo ay Noo lah Foil:
+    card_count: 5
+    deck:
+    - name: 'Furby: Doo-ay Noo-lah Foil Edition'
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Furby Furbys The Gathering:
+    card_count: 5
+    deck:
+    - name: 'Furby: Furbys: The Gathering'
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Furby Furbys The Gathering Foil:
+    card_count: 5
+    deck:
+    - name: 'Furby: Furbys: The Gathering Foil Edition'
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Furby The Oddbodies:
+    card_count: 5
+    deck:
+    - name: 'Furby: The Oddbodies'
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Furby The Oddbodies Confetti Foil:
+    card_count: 5
+    deck:
+    - name: 'Furby: The Oddbodies Confetti Foil Edition'
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Furby The Oddbodies Foil:
+    card_count: 5
+    deck:
+    - name: 'Furby: The Oddbodies Foil Edition'
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Garden Buds:
     card_count: 5
     deck:
@@ -4009,12 +4081,48 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop Iron Maiden Album Art: []
-  Secret Lair Drop Iron Maiden Album Art Foil: []
-  Secret Lair Drop Iron Maiden Eddie Unchained: []
-  Secret Lair Drop Iron Maiden Eddie Unchained Foil: []
-  Secret Lair Drop Jaws Terror of Amity Island: []
-  Secret Lair Drop Jaws Terror of Amity Island Foil: []
+  Secret Lair Drop Iron Maiden Album Art:
+    card_count: 6
+    deck:
+    - name: 'Iron Maiden: Album Art'
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Iron Maiden Album Art Foil:
+    card_count: 6
+    deck:
+    - name: 'Iron Maiden: Album Art Foil Edition'
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Iron Maiden Eddie Unchained:
+    card_count: 6
+    deck:
+    - name: 'Iron Maiden: Eddie Unchained'
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Iron Maiden Eddie Unchained Foil:
+    card_count: 6
+    deck:
+    - name: 'Iron Maiden: Eddie Unchained Foil Edition'
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Jaws Terror of Amity Island:
+    card_count: 5
+    deck:
+    - name: 'Jaws: Terror of Amity Island'
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Jaws Terror of Amity Island Foil:
+    card_count: 5
+    deck:
+    - name: 'Jaws: Terror of Amity Island Foil Edition'
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Just Add Milk:
     card_count: 3
     deck:
@@ -7820,8 +7928,20 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop The Office Dwights Destiny: []
-  Secret Lair Drop The Office Dwights Destiny Foil: []
+  Secret Lair Drop The Office Dwights Destiny:
+    card_count: 6
+    deck:
+    - name: 'The Office: Dwight''s Destiny'
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop The Office Dwights Destiny Foil:
+    card_count: 6
+    deck:
+    - name: 'The Office: Dwight''s Destiny Foil Edition'
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop The Path Not Traveled:
     card_count: 4
     deck:
@@ -8191,8 +8311,20 @@ products:
     deck:
     - name: 'Transformers: Roll Out or Rise Up Foil Edition'
       set: sld
-  Secret Lair Drop Trick or Treat: []
-  Secret Lair Drop Trick or Treat Foil: []
+  Secret Lair Drop Trick or Treat:
+    card_count: 5
+    deck:
+    - name: Trick or Treat
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Trick or Treat Foil:
+    card_count: 5
+    deck:
+    - name: Trick or Treat Foil Edition
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Twisted Toons:
     card_count: 5
     deck:
