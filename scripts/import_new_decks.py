@@ -101,7 +101,10 @@ for deck in decks:
 
         with open(contents_path, "rb") as f:
             contents = yaml.safe_load(f)
-            new_content = contents["products"].get(name, {})
+            new_content = contents["products"].get(name)
+            if not isinstance(new_content, dict):
+                new_content = {}
+
             new_content["card_count"] = len(deck["cards"])
             new_content["deck"] = [{
                 "name": deck["name"],
