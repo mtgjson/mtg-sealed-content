@@ -5966,11 +5966,39 @@ products:
     deck:
     - name: Flower Power
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Seven Dwarves
+        number: 819
+        set: sld
+      chance: 1
+    - chance: 99
+      pack:
+      - code: deceptive-districts
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Secret Lair x Flower Power Foil:
     card_count: 5
     deck:
     - name: Flower Power Foil Edition
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Seven Dwarves
+        number: 819
+        set: sld
+      chance: 1
+    - chance: 99
+      pack:
+      - code: deceptive-districts
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Secret Lair x Fortnite:
     card:
     - name: Pyrite Spellbomb
