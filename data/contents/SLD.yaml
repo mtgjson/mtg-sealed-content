@@ -3859,7 +3859,13 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop Furby Furbys The Gathering Confetti Foil: []
+  Secret Lair Drop Furby Furbys The Gathering Confetti Foil:
+    card_count: 5
+    deck:
+    - name: 'Furby: Furbys: The Gathering Confetti Foil Edition'
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Furby Furbys The Gathering Foil:
     card_count: 5
     deck:
