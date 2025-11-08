@@ -76,10 +76,10 @@ for deck in decks:
         with open(products_path, "rb") as f:
             products = yaml.safe_load(f)
 
-            # Prepare new product (load any existing data)
-            new_product = products["products"].get(name, {})
+            # Prepare new product definition -- if a previous identifiers is present preserve it
+            new_product = {}
             new_product["category"] = deck["category"].upper().replace(" ", "_")
-            new_product["identifiers"] = {}
+            new_product["identifiers"] = products["products"].get(name, {}).get("identifiers", {})
             new_product["subtype"] = deck["type"].upper().replace(" ", "_")
             new_product["release_date"] = deck["release_date"]
 
