@@ -56,7 +56,7 @@ for deck in decks:
         print(f"Adding {deck['name']} to {set_code}")
 
         name = f"{deck['set_name']} {deck['type']} {deck['name']}"
-        if set_code == "sld":
+        if set_code in ["sld", "slc"]:
             name = f"{deck['set_name']} {deck['name']}"
             # TODO: we should really follow upstream instead of tweaking the name
             name = name.replace(" Edition", "").replace("'", "").replace(":","").replace("-", " ")
