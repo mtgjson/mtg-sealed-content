@@ -3940,8 +3940,20 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop Ghost of Tsushima: []
-  Secret Lair Drop Ghost of Tsushima Foil: []
+  Secret Lair Drop Ghost of Tsushima:
+    card_count: 5
+    deck:
+    - name: Ghost of Tsushima
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Ghost of Tsushima Foil:
+    card_count: 5
+    deck:
+    - name: Ghost of Tsushima Foil Edition
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Gift Wrapped:
     card_count: 5
     deck:
@@ -3989,10 +4001,34 @@ products:
     deck:
     - name: Goblingram Foil Edition
       set: sld
-  Secret Lair Drop God of War Greek: []
-  Secret Lair Drop God of War Greek Foil: []
-  Secret Lair Drop God of War Norse: []
-  Secret Lair Drop God of War Norse Foil: []
+  Secret Lair Drop God of War Greek:
+    card_count: 5
+    deck:
+    - name: 'God of War: Greek'
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop God of War Greek Foil:
+    card_count: 5
+    deck:
+    - name: 'God of War: Greek Foil Edition'
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop God of War Norse:
+    card_count: 4
+    deck:
+    - name: 'God of War: Norse'
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop God of War Norse Foil:
+    card_count: 4
+    deck:
+    - name: 'God of War: Norse Foil Edition'
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Happy Little Gathering:
     card:
     - name: Evolving Wilds
@@ -4062,8 +4098,20 @@ products:
     - name: Metal Cast Dragon Life Counter
     - name: Leather Deck Box
     - name: 100 Art Card Sleeves
-  Secret Lair Drop Horizon Into the Forbidden West: []
-  Secret Lair Drop Horizon Into the Forbidden West Foil: []
+  Secret Lair Drop Horizon Into the Forbidden West:
+    card_count: 5
+    deck:
+    - name: 'Horizon: Into the Forbidden West'
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Horizon Into the Forbidden West Foil:
+    card_count: 5
+    deck:
+    - name: 'Horizon: Into the Forbidden West Foil Edition'
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop If Looks Could Kill:
     card_count: 4
     deck:
@@ -8016,10 +8064,34 @@ products:
     deck:
     - name: The Godzilla Lands
       set: sld
-  Secret Lair Drop The Last of Us Part I: []
-  Secret Lair Drop The Last of Us Part I Foil: []
-  Secret Lair Drop The Last of Us Part II: []
-  Secret Lair Drop The Last of Us Part II Foil: []
+  Secret Lair Drop The Last of Us Part I:
+    card_count: 4
+    deck:
+    - name: The Last of Us Part I
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop The Last of Us Part I Foil:
+    card_count: 4
+    deck:
+    - name: The Last of Us Part I Foil Edition
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop The Last of Us Part II:
+    card_count: 4
+    deck:
+    - name: The Last of Us Part II
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop The Last of Us Part II Foil:
+    card_count: 4
+    deck:
+    - name: The Last of Us Part II Foil Edition
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop The Meaning of Life Maybe:
     card_count: 5
     deck:
@@ -8549,8 +8621,20 @@ products:
     variable_mode:
       count: 1
       weight: 15
-  Secret Lair Drop Uncharted: []
-  Secret Lair Drop Uncharted Foil: []
+  Secret Lair Drop Uncharted:
+    card_count: 5
+    deck:
+    - name: Uncharted
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Uncharted Foil:
+    card_count: 5
+    deck:
+    - name: Uncharted Foil Edition
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Valentines Day 2021:
     card:
     - foil: true
