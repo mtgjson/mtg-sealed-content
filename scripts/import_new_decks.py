@@ -117,7 +117,7 @@ for deck in decks:
                     "name": "Bonus card unknown",
                 }]
 
-            products["products"][name] = new_content
+            contents["products"][name] = new_content
 
         with open(contents_path, "w") as f:
             yaml.safe_dump(contents, f)
