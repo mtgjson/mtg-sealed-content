@@ -2753,7 +2753,10 @@ products:
     subtype: SECRET_LAIR_DROP
   Secret Lair Drop Furby Furbys The Gathering Confetti Foil:
     category: BOX
-    identifiers: {}
+    identifiers:
+      cardtraderId: '354247'
+      mcmId: '851831'
+      tcgplayerProductId: '656361'
     release_date: '2025-10-27'
     subtype: SECRET_LAIR_DROP
   Secret Lair Drop Furby Furbys The Gathering Foil:
