@@ -3941,19 +3941,24 @@ products:
     other:
     - name: Bonus card unknown
   Secret Lair Drop Ghost of Tsushima:
+    card:
+    - name: Tetsuko Umezawa, Fugitive
+      number: 7055
+      set: sld
     card_count: 5
     deck:
     - name: Ghost of Tsushima
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Ghost of Tsushima Foil:
+    card:
+    - foil: true
+      name: Tetsuko Umezawa, Fugitive
+      number: 7055
+      set: sld
     card_count: 5
     deck:
     - name: Ghost of Tsushima Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Gift Wrapped:
     card_count: 5
     deck:
@@ -4002,33 +4007,43 @@ products:
     - name: Goblingram Foil Edition
       set: sld
   Secret Lair Drop God of War Greek:
+    card:
+    - name: Seething Song
+      number: 7051
+      set: sld
     card_count: 5
     deck:
     - name: 'God of War: Greek'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop God of War Greek Foil:
+    card:
+    - foil: true
+      name: Seething Song
+      number: 7051
+      set: sld
     card_count: 5
     deck:
     - name: 'God of War: Greek Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop God of War Norse:
+    card:
+    - name: Unbreakable Formation
+      number: 7052
+      set: sld
     card_count: 4
     deck:
     - name: 'God of War: Norse'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop God of War Norse Foil:
+    card:
+    - foil: true
+      name: Unbreakable Formation
+      number: 7052
+      set: sld
     card_count: 4
     deck:
     - name: 'God of War: Norse Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Happy Little Gathering:
     card:
     - name: Evolving Wilds
@@ -4099,19 +4114,24 @@ products:
     - name: Leather Deck Box
     - name: 100 Art Card Sleeves
   Secret Lair Drop Horizon Into the Forbidden West:
+    card:
+    - name: Growth Spiral
+      number: 7054
+      set: sld
     card_count: 5
     deck:
     - name: 'Horizon: Into the Forbidden West'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Horizon Into the Forbidden West Foil:
+    card:
+    - foil: true
+      name: Growth Spiral
+      number: 7054
+      set: sld
     card_count: 5
     deck:
     - name: 'Horizon: Into the Forbidden West Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop If Looks Could Kill:
     card_count: 4
     deck:
@@ -8065,33 +8085,43 @@ products:
     - name: The Godzilla Lands
       set: sld
   Secret Lair Drop The Last of Us Part I:
+    card:
+    - name: Wild Growth
+      number: 7049
+      set: sld
     card_count: 4
     deck:
     - name: The Last of Us Part I
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop The Last of Us Part I Foil:
+    card:
+    - foil: true
+      name: Wild Growth
+      number: 7049
+      set: sld
     card_count: 4
     deck:
     - name: The Last of Us Part I Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop The Last of Us Part II:
+    card:
+    - name: Unleash Fury
+      number: 7050
+      set: sld
     card_count: 4
     deck:
     - name: The Last of Us Part II
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop The Last of Us Part II Foil:
+    card:
+    - foil: true
+      name: Unleash Fury
+      number: 7050
+      set: sld
     card_count: 4
     deck:
     - name: The Last of Us Part II Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop The Meaning of Life Maybe:
     card_count: 5
     deck:
@@ -8622,19 +8652,24 @@ products:
       count: 1
       weight: 15
   Secret Lair Drop Uncharted:
+    card:
+    - name: Expedition Map
+      number: 7053
+      set: sld
     card_count: 5
     deck:
     - name: Uncharted
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Uncharted Foil:
+    card:
+    - foil: true
+      name: Expedition Map
+      number: 7053
+      set: sld
     card_count: 5
     deck:
     - name: Uncharted Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Valentines Day 2021:
     card:
     - foil: true
