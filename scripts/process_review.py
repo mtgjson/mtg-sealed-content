@@ -74,7 +74,7 @@ def process_review_file(input_file: str, output_file: str = None):
 if __name__ == "__main__":
     import sys
     
-    input_file = sys.argv[1] if len(sys.argv) > 1 else "review.yaml"
+    input_file = sys.argv[1] if len(sys.argv) > 1 else "data/review.yaml"
     output_file = sys.argv[2] if len(sys.argv) > 2 else None
     
     process_review_file(input_file, output_file)
