@@ -240,24 +240,28 @@ class ReleaseSet:
     
     @staticmethod
     def _name_quality_score(name: str) -> int:
-        """Score a product name's quality (higher is better)"""
+        """Score a product name's quality for different nomenclature variants during merges"""
         score = 0
-        
+
         if ':' in name:
             score += 10
-        
-        if '""' in name:
-            score -= 20
-        
-        if re.search(r':\s*"[^"]+"\s+', name):
-            score += 15
+
+        if '|' in name:
+            score -= 25
+
+        if '"' in name or '"' in name or '"' in name:
+            score -= 15
+
+        if re.search(r':\s*"[^"]+"\s+(commander|theme)\s+deck', name, re.IGNORECASE):
+            score += 20
+
+        if re.search(r'\d+-card', name, re.IGNORECASE):
+            score += 5
 
         if re.search(r'\s+(commander|deck|booster|bundle|pack)\s+\w+$', name.lower()):
-            if not name.lower().endswith(('commander deck', 'booster pack', 'booster box')):
+            if not name.lower().endswith(('commander deck', 'booster pack', 'booster box', 'theme deck')):
                 score -= 5
-        
-        score -= len(name) // 10
-        
+
         return score
     
 @dataclass
