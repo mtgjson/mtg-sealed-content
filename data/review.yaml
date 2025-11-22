@@ -1,4 +1,59 @@
-abugames: {}
+abugames:
+  'Avatar: The Last Airbender Beginner Box':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2640496'
+    subtype: UNKNOWN
+  'Avatar: The Last Airbender Bundle':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2640492'
+    subtype: UNKNOWN
+  'Avatar: The Last Airbender Bundle - Commander Edition [Limit: 1 per customer]':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2640493'
+    subtype: UNKNOWN
+  'Avatar: The Last Airbender Collector Booster Box':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2640488'
+    subtype: UNKNOWN
+  'Avatar: The Last Airbender Collector Booster Pack [Limit: 6 per customer]':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2640486'
+    subtype: UNKNOWN
+  'Avatar: The Last Airbender Jumpstart Booster Box':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2640490'
+    subtype: UNKNOWN
+  'Avatar: The Last Airbender Jumpstart Booster Pack':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2640489'
+    subtype: UNKNOWN
+  'Avatar: The Last Airbender Play Booster Box [Limit: 1 per customer]':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2640485'
+    subtype: UNKNOWN
+  'Avatar: The Last Airbender Play Booster Pack [Limit: 12 per customer]':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2640484'
+    subtype: UNKNOWN
+  'Avatar: The Last Airbender Scene Box - #1 The Black Sun Invasion':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2640494'
+    subtype: UNKNOWN
+  'Avatar: The Last Airbender Scene Box - #2 Tea Time at the Jasmine Dragon':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2640495'
+    subtype: UNKNOWN
 cardKingdom: {}
 cardMarket:
   'Commander: Lorwyn Eclipsed: Deck Set':
@@ -768,22 +823,16 @@ tcgplayer:
       tcgplayerProductId: '657869'
     release_date: '2025-09-18'
     subtype: UNKNOWN
-  Secret Lair x Avatar The Last Airbender A Lot To Learn Foil Edition:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '662593'
-    release_date: '2025-09-18'
-    subtype: UNKNOWN
   Secret Lair x Avatar The Last Airbender A Lot To Learn Non Foil Edition:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '662592'
     release_date: '2025-09-18'
     subtype: UNKNOWN
-  Secret Lair x Avatar The Last Airbender Everything Changed Foil Edition:
+  Secret Lair x Avatar The Last Airbender A Lot To Learn Rainbow Foil Edition:
     category: UNKNOWN
     identifiers:
-      tcgplayerProductId: '662590'
+      tcgplayerProductId: '662593'
     release_date: '2025-09-18'
     subtype: UNKNOWN
   Secret Lair x Avatar The Last Airbender Everything Changed Non Foil Edition:
@@ -792,10 +841,10 @@ tcgplayer:
       tcgplayerProductId: '662586'
     release_date: '2025-09-18'
     subtype: UNKNOWN
-  Secret Lair x Avatar The Last Airbender My Cabbages Foil Edition:
+  Secret Lair x Avatar The Last Airbender Everything Changed Rainbow Foil Edition:
     category: UNKNOWN
     identifiers:
-      tcgplayerProductId: '662581'
+      tcgplayerProductId: '662590'
     release_date: '2025-09-18'
     subtype: UNKNOWN
   Secret Lair x Avatar The Last Airbender My Cabbages Non Foil Edition:
@@ -804,16 +853,22 @@ tcgplayer:
       tcgplayerProductId: '662577'
     release_date: '2025-09-18'
     subtype: UNKNOWN
-  Secret Lair x Avatar The Last Airbender One with the Elements Foil Edition:
+  Secret Lair x Avatar The Last Airbender My Cabbages Rainbow Foil Edition:
     category: UNKNOWN
     identifiers:
-      tcgplayerProductId: '662597'
+      tcgplayerProductId: '662581'
     release_date: '2025-09-18'
     subtype: UNKNOWN
   Secret Lair x Avatar The Last Airbender One with the Elements Non Foil Edition:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '662596'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair x Avatar The Last Airbender One with the Elements Rainbow Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '662597'
     release_date: '2025-09-18'
     subtype: UNKNOWN
   Secret Lair x Avatar The Last Airbender Superdrop Avatar State Foil Bundle:
@@ -834,16 +889,16 @@ tcgplayer:
       tcgplayerProductId: '664030'
     release_date: '2025-09-18'
     subtype: UNKNOWN
-  Secret Lair x Avatar The Last Airbender The Ember Island Players Foil Edition:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '662602'
-    release_date: '2025-09-18'
-    subtype: UNKNOWN
   Secret Lair x Avatar The Last Airbender The Ember Island Players Non Foil Edition:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '662601'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair x Avatar The Last Airbender The Ember Island Players Rainbow Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '662602'
     release_date: '2025-09-18'
     subtype: UNKNOWN
   Secret Lair x Playstation Superdrop Foil Trophy Bundle:
