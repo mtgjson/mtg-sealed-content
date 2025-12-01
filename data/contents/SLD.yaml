@@ -8213,19 +8213,23 @@ products:
       set: sld
     variable:
     - card:
-      - name: Council's Judgment
+      - foil: true
+        name: Council's Judgment
         number: 7041
         set: sld
     - card:
-      - name: Ghostly Prison
+      - foil: true
+        name: Ghostly Prison
         number: 7042
         set: sld
     - card:
-      - name: Tragic Slip
+      - foil: true
+        name: Tragic Slip
         number: 7043
         set: sld
     - card:
-      - name: Seize the Spotlight
+      - foil: true
+        name: Seize the Spotlight
         number: 7044
         set: sld
     variable_mode:
