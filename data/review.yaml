@@ -282,6 +282,12 @@ cardMarket:
       mcmId: '853735'
     release_date: '2025-10-13'
     subtype: UNKNOWN
+  'Phyrexia: All Will Be One Collector Booster (Omega Booster)':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '861965'
+    release_date: '2025-12-02'
+    subtype: UNKNOWN
   'Secret Lair Drop Series: Secret Lair Countdown Kit: An Encyclopedia of Magic (The Book Club Bundle)':
     category: UNKNOWN
     identifiers:
@@ -317,6 +323,12 @@ cardMarket:
     identifiers:
       mcmId: '859680'
     release_date: '2025-11-18'
+    subtype: UNKNOWN
+  The Brothers' War Collector Booster (Omega Booster):
+    category: UNKNOWN
+    identifiers:
+      mcmId: '861923'
+    release_date: '2025-12-02'
     subtype: UNKNOWN
 cardTrader:
   'Commander: Lorwyn Eclipsed Deck Set 2 Commander Decks':
@@ -363,6 +375,11 @@ cardTrader:
     category: UNKNOWN
     identifiers:
       cardtraderId: '352431'
+    subtype: UNKNOWN
+  'Festival in a Box: Atlanta 2025 | "MagicCon: The Gathering"':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '360493'
     subtype: UNKNOWN
   Lorwyn Eclipsed Collector Booster:
     category: UNKNOWN
@@ -579,19 +596,149 @@ cardTrader:
     identifiers:
       cardtraderId: '354096'
     subtype: UNKNOWN
-coolstuffinc: {}
+coolstuffinc:
+  MTG - Secret Lair Drop Series - Marvel's Black Panther Rainbow Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      csiId: '399073'
+    subtype: UNKNOWN
+  MTG - Secret Lair Drop Series - Marvel's Captain America Rainbow Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      csiId: '403139'
+    subtype: UNKNOWN
+  MTG - Secret Lair Drop Series - Marvel's Iron Man Rainbow Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      csiId: '403141'
+    subtype: UNKNOWN
+  MTG - Secret Lair Drop Series - Marvel's Storm Rainbow Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      csiId: '403143'
+    subtype: UNKNOWN
+  MTG - Secret Lair Drop Series - Marvel's Wolverine Rainbow Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      csiId: '403145'
+    subtype: UNKNOWN
+  MTG - Secret Lair Drop Series - The Fairest Drop of All Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      csiId: '404460'
+    subtype: UNKNOWN
 miniaturemarket: {}
 mvpsportsandgames:
-  Could not load provider mvpsportsandgames:
+  '* FIRST FLASH *  MTG Magic Final Fantasy VII Limit Break Commander Deck - Game Edition':
     category: UNKNOWN
     identifiers:
-      mvpId: ''
+      mvpId: CGM25FINCM-GE
+    subtype: UNKNOWN
+  '* FIRST FLASH * All 4 MTG Magic the Gathering Final Fantasy Scene Boxes':
+    category: UNKNOWN
+    identifiers:
+      mvpId: CGM25FINSCN4
+    subtype: UNKNOWN
+  '* FIRST FLASH * MTG Magic Final Fantasy Chocobo Bundle - 9 booster packs':
+    category: UNKNOWN
+    identifiers:
+      mvpId: CGM25FINCHBND
+    subtype: UNKNOWN
+  '* FIRST FLASH * MTG Magic Final Fantasy Chocobo Bundle Japanese - 9 booster packs':
+    category: UNKNOWN
+    identifiers:
+      mvpId: CGM25FINCHB-JP
     subtype: UNKNOWN
 starcitygames:
-  Could not load provider starcitygames:
+  Final Fantasy - Scene Box - Camp Comrades:
     category: UNKNOWN
     identifiers:
-      scgId: ''
+      scgId: SLD-MTG-BXS-FIN-EN-CAMP
+    subtype: UNKNOWN
+  Final Fantasy - Scene Box - Children of Fate:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BXS-FIN-EN-CHILDREN
+    subtype: UNKNOWN
+  Final Fantasy - Scene Box - Garland at the Chaos Shrine:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BXS-FIN-EN-GARLAND
+    subtype: UNKNOWN
+  Final Fantasy - Scene Box - The Siege of Alexandria:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BXS-FIN-EN-SIEGE
+    subtype: UNKNOWN
+  Final Fantasy Chocobo Bundle:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BUN-FIN-EN-CHOCOBO
+    subtype: UNKNOWN
+  Final Fantasy Commander Deck - Limit Break - Game Edition:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-MLT-FIC-EN-LIMITGAME
+    subtype: UNKNOWN
+  Lorwyn Eclipsed 60-Card Theme Deck - Angels:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ECLTHEME-EN-ANGELS
+    subtype: UNKNOWN
+  Lorwyn Eclipsed 60-Card Theme Deck - Pirates:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ECLTHEME-EN-PIRATES
+    subtype: UNKNOWN
+  Lorwyn Eclipsed Bundle:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BUN-ECL-EN
+    subtype: UNKNOWN
+  Lorwyn Eclipsed Collector Booster Box:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-ECLCOLLECTOR-EN
+    subtype: UNKNOWN
+  Lorwyn Eclipsed Collector Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-ECLCOLLECTOR-EN
+    subtype: UNKNOWN
+  Lorwyn Eclipsed Commander Deck - Blight Curse:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-MLT-ECC-EN-BLIGHT
+    subtype: UNKNOWN
+  Lorwyn Eclipsed Commander Deck - Dance of the Elements:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-MLT-ECC-EN-DANCE
+    subtype: UNKNOWN
+  Lorwyn Eclipsed Commander Decks - Set of 2:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-MLT-ECC-EN-SET2
+    subtype: UNKNOWN
+  Lorwyn Eclipsed Draft Night:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-DRAFTNIGHT-ECL-EN
+    subtype: UNKNOWN
+  Lorwyn Eclipsed Play Booster Box:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-ECLPLAY-EN
+    subtype: UNKNOWN
+  Lorwyn Eclipsed Play Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-ECLPLAY-EN
+    subtype: UNKNOWN
+  Lorwyn Eclipsed Play Combo Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-ECLPLAYCOMBO-EN
     subtype: UNKNOWN
 tcgplayer:
   Avatar The Last Airbender Beginner Box Case:
