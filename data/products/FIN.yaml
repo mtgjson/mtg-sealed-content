@@ -1,5 +1,10 @@
 code: fin
 products:
+  Final Fantasy - Scene Box Case:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '656624'
+    subtype: OTHER
   Final Fantasy Bundle:
     category: BUNDLE
     identifiers:
@@ -18,6 +23,11 @@ products:
     identifiers:
       tcgplayerProductId: '618898'
     subtype: DEFAULT
+  Final Fantasy Chocobo Bundle:
+    category: BUNDLE
+    identifiers:
+      tcgplayerProductId: '656616'
+    subtype: GIFT_BUNDLE
   Final Fantasy Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -121,6 +131,26 @@ products:
     identifiers:
       tcgplayerProductId: '638168'
     subtype: PRERELEASE
+  Final Fantasy Scene Box Camp Comrades:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '656623'
+    subtype: OTHER
+  Final Fantasy Scene Box Children of Fate:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '656621'
+    subtype: OTHER
+  Final Fantasy Scene Box Garland at the Chaos Shrine:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '656620'
+    subtype: OTHER
+  Final Fantasy Scene Box The Siege of Alexandria:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '656622'
+    subtype: OTHER
   Final Fantasy Starter Kit:
     category: MULTI_DECK
     identifiers:
@@ -138,33 +168,3 @@ products:
     identifiers:
       tcgplayerProductId: '618902'
     subtype: STARTER
-  Final Fantasy - Scene Box Case:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '656624'
-    subtype: OTHER
-  Final Fantasy Scene Box The Siege of Alexandria:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '656622'
-    subtype: OTHER
-  Final Fantasy Scene Box Garland at the Chaos Shrine:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '656620'
-    subtype: OTHER
-  Final Fantasy Scene Box Camp Comrades:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '656623'
-    subtype: OTHER
-  Final Fantasy Scene Box Children of Fate:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '656621'
-    subtype: OTHER
-  Final Fantasy Chocobo Bundle:
-    category: BUNDLE
-    identifiers:
-      tcgplayerProductId: '656616'
-    subtype: GIFT_BUNDLE
