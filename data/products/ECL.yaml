@@ -1,0 +1,71 @@
+code: ecl
+products:
+  Lorwyn Eclipsed Collector Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardtraderId: '352397'
+      mcmId: '851267'
+      scgId: SLD-MTG-PCK-ECLCOLLECTOR-EN
+      tcgplayerProductId: '656318'
+    release_date: '2026-01-23'
+    subtype: COLLECTOR
+  Lorwyn Eclipsed Play Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardtraderId: '352396'
+      mcmId: '851268'
+      scgId: SLD-MTG-PCK-ECLPLAY-EN
+      tcgplayerProductId: '656311'
+    release_date: '2026-01-23'
+    subtype: PLAY
+  Lorwyn Eclipsed Collector Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardtraderId: '352395'
+      mcmId: '851271'
+      scgId: SLD-MTG-BBX-ECLCOLLECTOR-EN
+      tcgplayerProductId: '656322'
+    release_date: '2026-01-23'
+    subtype: COLLECTOR
+  Lorwyn Eclipsed Play Booster Box:
+    category: BOOSTER_BOX
+    identifiers:
+      cardtraderId: '352394'
+      mcmId: '851272'
+      scgId: SLD-MTG-BBX-ECLPLAY-EN
+      tcgplayerProductId: '656312'
+    release_date: '2026-01-23'
+    subtype: PLAY
+  Lorwyn Eclipsed Bundle:
+    category: BUNDLE
+    identifiers:
+      scgId: SLD-MTG-BUN-ECL-EN
+      tcgplayerProductId: '656340'
+    release_date: '2026-01-23'
+    subtype: DEFAULT
+  Lorwyn Eclipsed Prerelease Pack:
+    category: LIMITED
+    identifiers:
+      cardtraderId: '352404'
+      mcmId: '851277'
+      tcgplayerProductId: '656336'
+    release_date: '2026-01-23'
+    subtype: PRERELEASE
+  Lorwyn Eclipsed 60-Card Theme Deck Pirates:
+    category: DECK
+    identifiers:
+      cardtraderId: '352403'
+      mcmId: '851279'
+      scgId: SLD-MTG-INT-ECLTHEME-EN-PIRATES
+      tcgplayerProductId: '656330'
+    release_date: '2026-01-23'
+    subtype: THEME
+  Lorwyn Eclipsed 60-Card Theme Deck Angels:
+    category: DECK
+    identifiers:
+      scgId: SLD-MTG-INT-ECLTHEME-EN-ANGELS
+      cardtraderId: '352402'
+      mcmId: '851278'
+      tcgplayerProductId: '656331'
+    release_date: '2026-01-23'
+    subtype: THEME
