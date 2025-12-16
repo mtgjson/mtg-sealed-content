@@ -564,7 +564,12 @@ cardTrader:
     subtype: UNKNOWN
 coolstuffinc: {}
 miniaturemarket: {}
-mvpsportsandgames: {}
+mvpsportsandgames:
+  Could not load provider mvpsportsandgames:
+    category: UNKNOWN
+    identifiers:
+      mvpId: ''
+    subtype: UNKNOWN
 starcitygames:
   Final Fantasy - Scene Box - Camp Comrades:
     category: UNKNOWN
@@ -596,10 +601,20 @@ starcitygames:
     identifiers:
       scgId: SLD-MTG-MLT-FIC-EN-LIMITGAME
     subtype: UNKNOWN
+  Lorwyn Eclipsed 60-Card Theme Deck - Set of 2:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-ECLTHEME-EN-SET2
+    subtype: UNKNOWN
   Lorwyn Eclipsed Draft Night:
     category: UNKNOWN
     identifiers:
       scgId: SLD-MTG-DRAFTNIGHT-ECL-EN
+    subtype: UNKNOWN
+  Lorwyn Eclipsed Play Booster Case (6 Boxes):
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-ECLPLAYCASE-EN
     subtype: UNKNOWN
   Lorwyn Eclipsed Play Combo Pack:
     category: UNKNOWN
@@ -611,15 +626,30 @@ starcitygames:
     identifiers:
       scgId: SLD-MTG-BUN-TMTBUNDLE-EN
     subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Collector Booster Box:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-TMTCOLLECTOR-EN
+    subtype: UNKNOWN
   Teenage Mutant Ninja Turtles Collector Booster Pack:
     category: UNKNOWN
     identifiers:
       scgId: SLD-MTG-PCK-TMTCOLLECTOR-EN
     subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Commander Deck - Turtle Power:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-MLT-TMC-EN-TURTLE
+    subtype: UNKNOWN
   Teenage Mutant Ninja Turtles Draft Night:
     category: UNKNOWN
     identifiers:
       scgId: SLD-MTG-BUN-TMTDRAFT-EN
+    subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Pizza Bundle:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BUN-TMTPIZZA-EN
     subtype: UNKNOWN
   Teenage Mutant Ninja Turtles Play Booster Box:
     category: UNKNOWN
@@ -640,6 +670,16 @@ starcitygames:
     category: UNKNOWN
     identifiers:
       scgId: SLD-MTG-BBX-TMTPLAYCOMBO-EN
+    subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Prerelease Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-INT-TMTPRE-EN
+    subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Turtle Team-Up:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-MLT-TMT-EN-TEAMUP
     subtype: UNKNOWN
 tcgplayer:
   Avatar The Last Airbender Beginner Box Case:
