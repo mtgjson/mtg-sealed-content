@@ -26,6 +26,11 @@ products:
   Final Fantasy Chocobo Bundle:
     category: BUNDLE
     identifiers:
+      abuId: '2640478'
+      cardKingdomId: '321466'
+      cardtraderId: '352425'
+      mcmId: '851596'
+      scgId: SLD-MTG-BUN-FIN-EN-CHOCOBO
       tcgplayerProductId: '656616'
     subtype: GIFT_BUNDLE
   Final Fantasy Collector Booster Box:
@@ -134,21 +139,41 @@ products:
   Final Fantasy Scene Box Camp Comrades:
     category: BOX_SET
     identifiers:
+      abuId: '2640483'
+      cardKingdomId: '321470'
+      cardtraderId: '352429'
+      mcmId: '851595'
+      scgId: SLD-MTG-BXS-FIN-EN-CAMP
       tcgplayerProductId: '656623'
     subtype: OTHER
   Final Fantasy Scene Box Children of Fate:
     category: BOX_SET
     identifiers:
+      abuId: '2640481'
+      cardKingdomId: '321468'
+      cardtraderId: '352428'
+      mcmId: '851594'
+      scgId: SLD-MTG-BXS-FIN-EN-CHILDREN
       tcgplayerProductId: '656621'
     subtype: OTHER
   Final Fantasy Scene Box Garland at the Chaos Shrine:
     category: BOX_SET
     identifiers:
+      abuId: '2640480'
+      cardKingdomId: '321467'
+      cardtraderId: '352427'
+      mcmId: '851593'
+      scgId: SLD-MTG-BXS-FIN-EN-GARLAND
       tcgplayerProductId: '656620'
     subtype: OTHER
   Final Fantasy Scene Box The Siege of Alexandria:
     category: BOX_SET
     identifiers:
+      abuId: '2640482'
+      cardKingdomId: '321469'
+      cardtraderId: '352430'
+      mcmId: '851655'
+      scgId: SLD-MTG-BXS-FIN-EN-SIEGE
       tcgplayerProductId: '656622'
     subtype: OTHER
   Final Fantasy Starter Kit:

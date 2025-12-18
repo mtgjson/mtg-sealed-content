@@ -21,6 +21,9 @@ products:
   Lorwyn Eclipsed Bundle:
     category: BUNDLE
     identifiers:
+      cardKingdomId: '321610'
+      cardtraderId: '352401'
+      mcmId: '851273'
       scgId: SLD-MTG-BUN-ECL-EN
       tcgplayerProductId: '656340'
     release_date: '2026-01-23'
@@ -28,6 +31,7 @@ products:
   Lorwyn Eclipsed Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      cardKingdomId: '321607'
       cardtraderId: '352395'
       mcmId: '851271'
       scgId: SLD-MTG-BBX-ECLCOLLECTOR-EN
@@ -37,6 +41,7 @@ products:
   Lorwyn Eclipsed Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardKingdomId: '321606'
       cardtraderId: '352397'
       mcmId: '851267'
       scgId: SLD-MTG-PCK-ECLCOLLECTOR-EN
@@ -46,6 +51,7 @@ products:
   Lorwyn Eclipsed Play Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      cardKingdomId: '321609'
       cardtraderId: '352394'
       mcmId: '851272'
       scgId: SLD-MTG-BBX-ECLPLAY-EN
@@ -55,6 +61,7 @@ products:
   Lorwyn Eclipsed Play Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardKingdomId: '321608'
       cardtraderId: '352396'
       mcmId: '851268'
       scgId: SLD-MTG-PCK-ECLPLAY-EN
