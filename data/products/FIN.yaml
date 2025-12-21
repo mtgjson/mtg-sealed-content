@@ -18,6 +18,13 @@ products:
     identifiers:
       tcgplayerProductId: '618898'
     subtype: DEFAULT
+  Final Fantasy Chocobo Booster Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardtraderId: '364434'
+      mcmId: '863259'
+    release_date: '2025-12-05'
+    subtype: GIFT_BUNDLE
   Final Fantasy Chocobo Bundle:
     category: BUNDLE
     identifiers:
@@ -27,6 +34,13 @@ products:
       mcmId: '851596'
       scgId: SLD-MTG-BUN-FIN-EN-CHOCOBO
       tcgplayerProductId: '656616'
+    release_date: '2025-12-05'
+    subtype: GIFT_BUNDLE
+  Final Fantasy Chocobo Bundle Case:
+    category: BUNDLE_CASE
+    identifiers:
+      tcgplayerProductId: '656619'
+    release_date: '2025-12-05'
     subtype: GIFT_BUNDLE
   Final Fantasy Collector Booster Box:
     category: BOOSTER_BOX
