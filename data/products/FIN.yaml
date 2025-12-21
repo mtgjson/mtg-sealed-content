@@ -1,10 +1,5 @@
 code: fin
 products:
-  Final Fantasy - Scene Box Case:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '656624'
-    subtype: OTHER
   Final Fantasy Bundle:
     category: BUNDLE
     identifiers:
@@ -165,6 +160,11 @@ products:
       mcmId: '851593'
       scgId: SLD-MTG-BXS-FIN-EN-GARLAND
       tcgplayerProductId: '656620'
+    subtype: OTHER
+  Final Fantasy Scene Box Set of 4:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '656624'
     subtype: OTHER
   Final Fantasy Scene Box The Siege of Alexandria:
     category: BOX_SET
