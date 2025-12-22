@@ -51,12 +51,12 @@ products:
       name: Final Fantasy Collector Booster Sample Pack
       set: fin
   Final Fantasy Commander Deck Limit Break Game Edition:
-    card_count: 100
     card:
     - foil: true
       name: Cloud, Midgar Mercenary
-      number: "2025-21"
+      number: 2025-21
       set: pmei
+    card_count: 100
     other:
     - name: Code to redeedm for Final Fantasy VII digital game
     sealed:
