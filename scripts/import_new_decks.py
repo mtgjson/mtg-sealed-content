@@ -21,6 +21,8 @@ for deck in decks:
         "MTGO Duel",
         "MTGO Theme",
         "Shandalar",
+        # skip artificial decks
+        "Bundle Land Pack",
         # skip randomized decks
         "Clash Pack",
         "Sample Deck",
