@@ -1,10 +1,19 @@
 code: blb
 products:
   Bloomburrow Bundle:
+    card:
+    - foil: true
+      name: Thundertrap Trainer
+      number: 386
+      set: blb
+    card_count: 1
+    deck:
+    - name: Bloomburrow Bundle Land Pack
+      set: blb
     other:
-    - name: Foil promo card
-    - name: 30 card land pack
     - name: Bloomburrow Spindown
+    - name: Card-storage box
+    - name: 2 Reference cards
     sealed:
     - count: 9
       name: Bloomburrow Play Booster Pack
