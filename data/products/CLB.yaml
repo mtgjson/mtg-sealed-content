@@ -68,11 +68,6 @@ products:
       tcgplayerProductId: '579980'
     release_date: '2022-05-04'
     subtype: PROMOTIONAL
-  Commander Legends Battle for Baldurs Gate Commander Deck Display:
-    category: DECK_BOX
-    identifiers:
-      tcgplayerProductId: '271583'
-    subtype: COMMANDER
   Commander Legends Battle for Baldurs Gate Commander Deck Draconic Dissent:
     category: DECK
     identifiers:
@@ -150,13 +145,14 @@ products:
     release_date: '2022-06-10'
     subtype: COMMANDER
   Commander Legends Battle for Baldurs Gate Commander Decks Set of 4:
-    category: SUBSET
+    category: DECK_BOX
     identifiers:
       cardKingdomId: '260612'
       cardtraderId: '208734'
       csiId: '334350'
       mcmId: '651792'
       scgId: SLD-MTG-MLT-CLB-EN-SET4
+      tcgplayerProductId: '271583'
       tntId: '1747117'
     subtype: COMMANDER
   Commander Legends Battle for Baldurs Gate Draft Booster Box:
