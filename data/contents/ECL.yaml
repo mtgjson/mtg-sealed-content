@@ -1,11 +1,73 @@
 code: ecl
 products:
-  Lorwyn Eclipsed 60-Card Theme Deck Angels: []
-  Lorwyn Eclipsed 60-Card Theme Deck Pirates: []
-  Lorwyn Eclipsed Bundle: []
-  Lorwyn Eclipsed Collector Booster Box: []
-  Lorwyn Eclipsed Collector Booster Pack: []
-  Lorwyn Eclipsed Draft Night: []
-  Lorwyn Eclipsed Play Booster Box: []
-  Lorwyn Eclipsed Play Booster Pack: []
-  Lorwyn Eclipsed Prerelease Pack: []
+  Lorwyn Eclipsed 60-Card Theme Deck Angels:
+    card_count: 60
+    deck:
+    - name: Angels
+      set: ecl
+    other:
+    - name: 5 Non-foil double-sided tokens
+    - name: 1 Double-sided reference card
+    - name: 1 Strategy insert
+  Lorwyn Eclipsed 60-Card Theme Deck Pirates:
+    card_count: 60
+    deck:
+    - name: Pirates
+      set: ecl
+    other:
+    - name: 5 Non-foil double-sided tokens
+    - name: 1 Double-sided reference card
+    - name: 1 Strategy insert
+  Lorwyn Eclipsed Bundle:
+    card_count: 1
+    other:
+    - name: 2 Reference cards
+    - name: 1 Spindown die
+    - name: 1 Card-storage box
+    pack:
+    - code: bundle-promo
+      set: ecl
+    sealed:
+    - count: 9
+      name: Lorwyn Eclipsed Play Booster Pack
+      set: ecl
+  Lorwyn Eclipsed Collector Booster Box:
+      sealed:
+    - count: 12
+      name: Lorwyn Eclipsed Collector Booster Pack
+      set: ecl
+  Lorwyn Eclipsed Collector Booster Pack:
+    card_count: 15
+    pack:
+    - code: collector
+      set: ecl
+  Lorwyn Eclipsed Draft Night:
+    other:
+    - name: 90 Non-foil basic lands
+    - name: 10 Non-foil double-sided tokens
+    - name: 1 Draft insert
+    sealed:
+    - count: 12
+      name: Lorwyn Eclipsed Play Booster Pack
+      set: ecl
+    - count: 1
+      name: Lorwyn Eclipsed Collector Booster Pack
+      set: ecl
+  Lorwyn Eclipsed Play Booster Box:
+      sealed:
+    - count: 30
+      name: Lorwyn Eclipsed Play Booster Pack
+      set: ecl
+  Lorwyn Eclipsed Play Booster Pack:
+    card_count: 14
+    pack:
+    - code: play
+      set: ecl
+  Lorwyn Eclipsed Prerelease Pack:
+    card_count: 1
+    other:
+    - name: Deck box
+    - name: Spindown die
+    pack:
+    - code: prerelease
+      set: ecl
