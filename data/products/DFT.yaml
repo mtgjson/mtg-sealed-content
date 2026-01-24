@@ -15,7 +15,6 @@ products:
       cardtraderId: '313990'
       csiId: '404085'
       mcmId: '803870'
-      miniaturemarketId: '304733'
       scgId: SLD-MTG-BUN-DFT-EN
       tcgplayerProductId: '604256'
     subtype: DEFAULT
@@ -32,7 +31,6 @@ products:
       cardtraderId: '313989'
       csiId: '404083'
       mcmId: '803869'
-      miniaturemarketId: '304726'
       scgId: SLD-MTG-BBX-DFTCOLLECTOR-EN
       tcgplayerProductId: '604253'
     subtype: COLLECTOR
@@ -48,7 +46,6 @@ products:
       cardKingdomId: '307713'
       cardtraderId: '314234'
       mcmId: '803853'
-      miniaturemarketId: '304727'
       scgId: SLD-MTG-PCK-DFTCOLLECTOR-EN
       tcgplayerProductId: '604252'
     subtype: COLLECTOR
@@ -67,7 +64,6 @@ products:
       cardtraderId: '313991'
       csiId: '404477'
       mcmId: '803871'
-      miniaturemarketId: '304734'
       scgId: SLD-MTG-BUN-DFTFINISHLINE-EN
       tcgplayerProductId: '604257'
     subtype: PREMIUM
@@ -88,14 +84,12 @@ products:
       cardKingdomId: '307710'
       cardtraderId: '308755'
       mcmId: '803868'
-      miniaturemarketId: '304723'
       scgId: SLD-MTG-BBX-DFTPLAY-EN
       tcgplayerProductId: '604250'
     subtype: PLAY
   Aetherdrift Play Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
-      miniaturemarketId: '304725'
       scgId: SLD-MTG-BBX-DFTPLAYCASE-EN
       tcgplayerProductId: '604251'
     subtype: PLAY
@@ -106,7 +100,6 @@ products:
       cardKingdomId: '307711'
       cardtraderId: '313988'
       mcmId: '803854'
-      miniaturemarketId: '304724'
       scgId: SLD-MTG-PCK-DFTPLAY-EN
       tcgplayerProductId: '604249'
     subtype: PLAY
@@ -117,6 +110,5 @@ products:
       cardKingdomId: '307716'
       cardtraderId: '314233'
       mcmId: '804202'
-      miniaturemarketId: '304735'
       tcgplayerProductId: '604255'
     subtype: PRERELEASE
