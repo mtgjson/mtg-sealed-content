@@ -3,6 +3,8 @@ products:
   Lorwyn Eclipsed 60-Card Theme Deck Angels:
     category: DECK
     identifiers:
+      abuId: '2656215'
+      cardKingdomId: '321615'
       cardtraderId: '352402'
       mcmId: '851278'
       scgId: SLD-MTG-INT-ECLTHEME-EN-ANGELS
@@ -12,6 +14,8 @@ products:
   Lorwyn Eclipsed 60-Card Theme Deck Pirates:
     category: DECK
     identifiers:
+      abuId: '2656216'
+      cardKingdomId: '321614'
       cardtraderId: '352403'
       mcmId: '851279'
       scgId: SLD-MTG-INT-ECLTHEME-EN-PIRATES
@@ -21,6 +25,7 @@ products:
   Lorwyn Eclipsed Bundle:
     category: BUNDLE
     identifiers:
+      abuId: '2656217'
       cardKingdomId: '321610'
       cardtraderId: '352401'
       mcmId: '851273'
@@ -31,6 +36,7 @@ products:
   Lorwyn Eclipsed Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2656209'
       cardKingdomId: '321607'
       cardtraderId: '352395'
       mcmId: '851271'
@@ -41,6 +47,7 @@ products:
   Lorwyn Eclipsed Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2656208'
       cardKingdomId: '321606'
       cardtraderId: '352397'
       mcmId: '851267'
@@ -51,14 +58,18 @@ products:
   Lorwyn Eclipsed Draft Night:
     category: BUNDLE
     identifiers:
+      abuId: '2656218'
+      cardKingdomId: '321617'
       cardtraderId: '352405'
-      mcmId: ''
+      mcmId: '851280'
+      scgId: SLD-MTG-DRAFTNIGHT-ECL-EN
       tcgplayerProductId: '656343'
     release_date: '2026-01-23'
     subtype: DEFAULT
   Lorwyn Eclipsed Play Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2656206'
       cardKingdomId: '321609'
       cardtraderId: '352394'
       mcmId: '851272'
@@ -69,6 +80,7 @@ products:
   Lorwyn Eclipsed Play Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      abuId: '2656207'
       cardKingdomId: '321608'
       cardtraderId: '352396'
       mcmId: '851268'
@@ -79,6 +91,7 @@ products:
   Lorwyn Eclipsed Prerelease Pack:
     category: LIMITED
     identifiers:
+      abuId: '2656214'
       cardtraderId: '352404'
       mcmId: '851277'
       tcgplayerProductId: '656336'
