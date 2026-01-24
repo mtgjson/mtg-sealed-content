@@ -1,4 +1,59 @@
-abugames: {}
+abugames:
+  'Lorwyn Eclipsed Bundle [Limit: 1 Per Customer]':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2656217'
+    subtype: UNKNOWN
+  'Lorwyn Eclipsed Collector Booster Box [Limit: 1 Per Customer]':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2656209'
+    subtype: UNKNOWN
+  'Lorwyn Eclipsed Collector Booster Pack [Limit: 6 Per Customer]':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2656208'
+    subtype: UNKNOWN
+  'Lorwyn Eclipsed Commander Deck #1 Blight Curse [Limit: 2 Per Customer]':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2656211'
+    subtype: UNKNOWN
+  'Lorwyn Eclipsed Commander Deck #2 Dance of the Elements [Limit: 2 Per Customer]':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2656212'
+    subtype: UNKNOWN
+  'Lorwyn Eclipsed Draft Night [Limit: 1 Per Customer]':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2656218'
+    subtype: UNKNOWN
+  'Lorwyn Eclipsed Play Booster Box [Limit: 2 Per Customer]':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2656206'
+    subtype: UNKNOWN
+  'Lorwyn Eclipsed Play Booster Pack [Limit: 6 Per Customer]':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2656207'
+    subtype: UNKNOWN
+  Lorwyn Eclipsed Prerelease Pack:
+    category: UNKNOWN
+    identifiers:
+      abuId: '2656214'
+    subtype: UNKNOWN
+  'Lorwyn Eclipsed Theme Deck #1 Angels':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2656215'
+    subtype: UNKNOWN
+  'Lorwyn Eclipsed Theme Deck #2 Pirates':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2656216'
+    subtype: UNKNOWN
 cardKingdom:
   Lorwyn Eclipsed 60-Card Theme Deck - Angels:
     category: UNKNOWN
@@ -105,10 +160,100 @@ cardMarket:
     release_date: '2025-10-13'
     subtype: UNKNOWN
 cardTrader:
-  Could not load provider cardTrader:
+  Lorwyn Eclipsed | Foil Rare/Mythic Booster:
     category: UNKNOWN
     identifiers:
-      cardtraderId: ''
+      cardtraderId: '352400'
+    subtype: UNKNOWN
+  'Lorwyn Eclipsed: Sleeved Play Booster':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '352409'
+    subtype: UNKNOWN
+  'Lorwyn Eclipsed: Theme Deck Display 6 Planeswalker Decks':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '352411'
+    subtype: UNKNOWN
+  Marvel's Spider-Man Prerelease Promo Cards Booster:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '355277'
+    subtype: UNKNOWN
+  "Marvel's Spider-Man Web-Slinger\u2019s Kit Costco Bundle":
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '359076'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series | Showcase: March of the Machine Vol. 1 Halo Foil':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '360857'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series | Showcase: March of the Machine Vol. 2 Halo Foil':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '360856'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series | Showcase: March of the Machine Vol. 3 Halo Foil':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '360858'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series | Transformers: One Shall Stand, One Shall Fall':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '367018'
+    subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Collector Booster:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354090'
+    subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Collector Booster Box:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354088'
+    subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Draft Night:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354094'
+    subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Fat Pack Bundle:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354091'
+    subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Pizza Bundle:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354092'
+    subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Play Booster:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354089'
+    subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Play Booster Box:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354087'
+    subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Prerelease Pack:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354093'
+    subtype: UNKNOWN
+  Teenage Mutant Ninja Turtles Turtle Team-Up:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354095'
+    subtype: UNKNOWN
+  'Teenage Mutant Ninja Turtles: "Turtle Power!" Commander Deck':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '354096'
     subtype: UNKNOWN
 coolstuffinc: {}
 miniaturemarket: {}
@@ -283,11 +428,26 @@ tcgplayer:
       tcgplayerProductId: '656348'
     release_date: '2026-01-23'
     subtype: UNKNOWN
+  Lorwyn Eclipsed Foil Promo Pack:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '673732'
+    subtype: UNKNOWN
   Lorwyn Eclipsed Play Booster Display Case:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '656315'
     release_date: '2026-01-23'
+    subtype: UNKNOWN
+  Lorwyn Eclipsed Promo Pack:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '673733'
+    subtype: UNKNOWN
+  Lorwyn Eclipsed Sleeved Play Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '673734'
     subtype: UNKNOWN
   Lorwyn Eclipsed Theme Decks Set of 2:
     category: UNKNOWN
@@ -310,6 +470,11 @@ tcgplayer:
     identifiers:
       tcgplayerProductId: '662006'
     release_date: '2025-11-10'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair Promo x Twisted Metal Sol Ring Rainbow Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '674453'
     subtype: UNKNOWN
   Secret Lair Drop Secret Lair x Marvels Spider Man The Amazing Everything Bundle:
     category: UNKNOWN
