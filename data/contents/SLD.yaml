@@ -5301,16 +5301,6 @@ products:
       number: 912
       set: sld
     card_count: 1
-  Secret Lair Drop Secret Lair X MSCHF:
-    card:
-    - foil: true
-      name: Battlefield Forge
-      number: 669
-      set: sld
-    card_count: 5
-    deck:
-    - name: MSCHF
-      set: sld
   Secret Lair Drop Secret Lair x Arcane:
     card:
     - name: Spore Frog
@@ -6531,6 +6521,16 @@ products:
     card_count: 5
     deck:
     - name: 'KEXP: You Are Not Alone Foil Edition'
+      set: sld
+  Secret Lair Drop Secret Lair x MSCHF:
+    card:
+    - foil: true
+      name: Battlefield Forge
+      number: 669
+      set: sld
+    card_count: 5
+    deck:
+    - name: MSCHF
       set: sld
   Secret Lair Drop Secret Lair x Marvels Black Panther:
     card_count: 5
