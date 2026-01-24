@@ -349,51 +349,57 @@ def load_cardmarket(secret):
     return get_cardmarket()
 
 
-def mmdownload(paging):
-    params = {
-        "format": "json",
-        "version": "V2",
-        "start": str(paging["start"]),
-        "rows": str(paging["rows"]),
-        "variants": "true",
-        "variants.count": "10",
-        "fields": "*",
-        "facet.multiselect": "true",
-        "selectedfacet": "true",
-        "pagetype": "boolean",
-        "p": "categoryPath:\"Trading Card Games\"",
-        "filter": [
-            "categoryPath1_fq:\"Trading Card Games\"",
-            "categoryPath2_fq:\"Trading Card Games>Magic the Gathering\"",
-	        "stock_status_uFilter:\"In Stock\"",
-            "manufacturer_uFilter:\"Wizards of the Coast\"",
-        ],
-    }
-
-    r = requests.get("https://search.unbxd.io/fb500edbf5c28edfa74cc90561fe33c3/prod-miniaturemarket-com811741582229555/category", params=params)
-    return json.loads(r.content)
-
-
 def load_miniaturemarket(secret):
-    pagination = mmdownload({"start": 0, "rows": 0})
-    pages = pagination["response"]["numberOfProducts"]
-
-    print(f"Processing {pages} pages")
+    skip_tags = [
+        "100+",
+        "Alcove Edge",
+        "Alcove Edge",
+        "Arkhive",
+        "Counter",
+        "Life Pad",
+        "Playmat",
+        "Pocket",
+        "Sleeve",
+        "Soft Crate",
+        "Tray",
+        "Xenoskin",
+    ]
 
     sealed_data = []
 
-    for x in range(pages):
-        products = mmdownload({"start": x, "rows": 32})
+    page = 0
+    while True:
+        page += 1
+        link = "https://www.miniaturemarket.com/widgets/cms/navigation/be53d253d6bc3258a8160556dda3e9b2?no-aggregations=1&order=name-asc&p=" + str(page)
+        print(f"Parsing page {page}")
 
-        for product in products["response"]["products"]:
+        header = {
+            "User-Agent": "curl/8.6",
+        }
+        r = requests.get(link, headers=header)
+        soup = BeautifulSoup(r.content, 'html.parser')
+
+        for div in soup.find_all('div', attrs={"class": "card-body"}):
+            try:
+                title = div.find('input', attrs={"name": "product-name"}).get("value")
+                mmId = div.find('input', attrs={"name": "product-id"}).get("value")
+            except Exception:
+                continue
+
+            if any(tag.lower() in title.lower() for tag in skip_tags):
+                continue
+
             sealed_data.extend([
                 {
-                    # the 'title' field is full of tags like 'clearance' that we don't really need
-                    "name": product.get("google_shopping_name", product["title"]),
-                    "id": product["entity_id"],
-                    "releaseDate": product["created_at"],
+                    "name": title,
+                    "id": mmId,
                 }
             ])
+
+        # Exit loop condition
+        nextPage = soup.find('input', attrs={"id": "p-last-bottom"})
+        if not nextPage:
+            break
 
     print(f"Retrieved {len(sealed_data)} products")
 
