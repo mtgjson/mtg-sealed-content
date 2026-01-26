@@ -112,11 +112,85 @@ while index < len(review_products):
         import_products["products"][product_link[0]]["identifiers"].update(product[1])
         with open(product_link[1], 'w') as product_file:
             yaml.dump(import_products, product_file)
+    elif product_check == "c":
+        try:
+            set_code = input(f"OK, which set code? ").upper().strip()
+        except EOFError:
+            sys.exit(1)
+        if set_code == "":
+            print("set code is required, aborting")
+            index -= 1
+            continue
+
+        try:
+            product_name = input(f"Insert the product name or press Enter to use the loaded one: ").strip()
+            if product_name == "":
+                product_name = product[0]
+        except EOFError:
+            sys.exit(1)
+
+        target_path = Path(f"data/products/{set_code}.yaml")
+        if target_path.exists():
+            with open(target_path, "r") as f:
+                content = yaml.safe_load(f) or {}
+            if product_name in content["products"].keys():
+                print("Product already exists, not creating.")
+                index -= 1
+                continue
+        else:
+            content = {}
+            content.setdefault("code", set_code)
+            content.setdefault("products", {})
+
+        category = "UNKNOWN"
+        if "Booster Box Case" in product_name:
+            category = "BOOSTER_CASE"
+        elif "Booster Box" in product_name:
+            category = "BOOSTER_BOX"
+        elif "Booster Pack" in product_name:
+            category = "BOOSTER_PACK"
+        elif "Bundle" in product_name:
+            category = "BUNDLE"
+        elif "Set of" in product_name:
+            category = "SUBSET"
+        elif "Deck" in product_name:
+            category = "DECK"
+        elif "Prerelease" in product_name:
+            category = "LIMITED"
+
+        subtype = "UNKNOWN"
+        if "Collector Booster" in product_name:
+            subtype = "COLLECTOR"
+        elif "Play Booster" in product_name:
+            subtype = "PLAY"
+        elif "Set Booster" in product_name:
+            subtype = "SET"
+        elif "Commander" in product_name:
+            subtype = "COMMANDER"
+        elif "Prerelease" in product_name:
+            subtype = "PRERELEASE"
+
+        if "Secret Lair" in product_name && "Bundle" in product_name:
+            category = "BOX_SET"
+            subtype = "SECRET_LAIR_BUNDLE"
+
+        content["products"][product_name] = {
+            "category": category,
+            "identifiers": dict(product[1]),
+            "subtype": subtype,
+        }
+
+        with target_path.open("w") as product_file:
+            yaml.dump(content, product_file)
+
+        known_products.append((product_name, str(target_path)))
+        print("Product added, don't forget to review and update default fields")
+
     else:
         index -= 1
         if product_check != "h":
             print(f"Invalid action: {product_check}")
-        print("Available actions: q - quit / s - skip / i - ignore / m - more / b - back / u - undo / [0]124 - pick / use the exact name of the product")
+        print("Available actions: q - quit / s - skip / i - ignore / m - more / b - back / u - undo / c - create / [0]124 - pick / use the exact name of the product")
 
     if product_check not in "mb":
         offset = 0
