@@ -11,6 +11,17 @@ products:
       tcgplayerProductId: '656331'
     release_date: '2026-01-23'
     subtype: THEME
+  Lorwyn Eclipsed 60-Card Theme Deck Display:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '352411'
+      tcgplayerProductId: '656332'
+    subtype: THEME
+  Lorwyn Eclipsed 60-Card Theme Deck Display Case:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '656334'
+    subtype: THEME
   Lorwyn Eclipsed 60-Card Theme Deck Pirates:
     category: DECK
     identifiers:
@@ -22,6 +33,13 @@ products:
       tcgplayerProductId: '656330'
     release_date: '2026-01-23'
     subtype: THEME
+  Lorwyn Eclipsed 60-Card Theme Deck Set of 2:
+    category: SUBSET
+    identifiers:
+      cardKingdomId: '321616'
+      scgId: SLD-MTG-INT-ECLTHEME-EN-SET2
+      tcgplayerProductId: '669262'
+    subtype: THEME
   Lorwyn Eclipsed Bundle:
     category: BUNDLE
     identifiers:
@@ -32,6 +50,11 @@ products:
       scgId: SLD-MTG-BUN-ECL-EN
       tcgplayerProductId: '656340'
     release_date: '2026-01-23'
+    subtype: DEFAULT
+  Lorwyn Eclipsed Bundle Case:
+    category: BUNDLE
+    identifiers:
+      tcgplayerProductId: '656342'
     subtype: DEFAULT
   Lorwyn Eclipsed Collector Booster Box:
     category: BOOSTER_BOX
@@ -45,6 +68,11 @@ products:
       tcgplayerProductId: '656322'
     release_date: '2026-01-23'
     subtype: COLLECTOR
+  Lorwyn Eclipsed Collector Booster Box Case:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '656325'
+    subtype: UNKNOWN
   Lorwyn Eclipsed Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -68,6 +96,11 @@ products:
       tcgplayerProductId: '656343'
     release_date: '2026-01-23'
     subtype: DEFAULT
+  Lorwyn Eclipsed Draft Night Case:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '656348'
+    subtype: UNKNOWN
   Lorwyn Eclipsed Play Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -79,6 +112,12 @@ products:
       tcgplayerProductId: '656312'
     release_date: '2026-01-23'
     subtype: PLAY
+  Lorwyn Eclipsed Play Booster Box Case:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-ECLPLAYCASE-EN
+      tcgplayerProductId: '656315'
+    subtype: UNKNOWN
   Lorwyn Eclipsed Play Booster Pack:
     category: BOOSTER_PACK
     identifiers:
