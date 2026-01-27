@@ -17,30 +17,6 @@ cardMarket:
       mcmId: '853738'
     release_date: '2025-10-13'
     subtype: UNKNOWN
-  'Fourth Edition: Starter Deck (Alternate Edition)':
-    category: UNKNOWN
-    identifiers:
-      mcmId: '794211'
-    release_date: '2024-10-23'
-    subtype: UNKNOWN
-  Lorwyn Eclipsed Collector Booster (Omega Box):
-    category: UNKNOWN
-    identifiers:
-      mcmId: '868128'
-    release_date: '2026-01-23'
-    subtype: UNKNOWN
-  Lorwyn Eclipsed Play Booster (Sleeve):
-    category: UNKNOWN
-    identifiers:
-      mcmId: '868129'
-    release_date: '2026-01-23'
-    subtype: UNKNOWN
-  'Lorwyn Eclipsed: Foil Rare/Mythic Booster':
-    category: UNKNOWN
-    identifiers:
-      mcmId: '851281'
-    release_date: '2025-09-29'
-    subtype: UNKNOWN
   'Magic: The Gathering | Teenage Mutant Ninja Turtles Collector Booster':
     category: UNKNOWN
     identifiers:
@@ -95,46 +71,45 @@ cardMarket:
       mcmId: '853735'
     release_date: '2025-10-13'
     subtype: UNKNOWN
+  "Secret Lair Drop Series: Rad Superdrop: Secret Lair x Fallout\xAE: Beyond Vault 33":
+    category: UNKNOWN
+    identifiers:
+      mcmId: '868493'
+    release_date: '2026-01-26'
+    subtype: UNKNOWN
+  "Secret Lair Drop Series: Rad Superdrop: Secret Lair x Fallout\xAE: Greet the Dog\u200B":
+    category: UNKNOWN
+    identifiers:
+      mcmId: '868503'
+    release_date: '2026-01-26'
+    subtype: UNKNOWN
+  "Secret Lair Drop Series: Rad Superdrop: Secret Lair x Fallout\xAE: Rad\u200B":
+    category: UNKNOWN
+    identifiers:
+      mcmId: '868512'
+    release_date: '2026-01-26'
+    subtype: UNKNOWN
+  "Secret Lair Drop Series: Rad Superdrop: Secret Lair x Fallout\xAE: Welcome to New Vegas\u200B":
+    category: UNKNOWN
+    identifiers:
+      mcmId: '868520'
+    release_date: '2026-01-26'
+    subtype: UNKNOWN
 cardTrader:
-  Lorwyn Eclipsed | Foil Rare/Mythic Booster:
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '352400'
-    subtype: UNKNOWN
-  'Lorwyn Eclipsed: Sleeved Play Booster':
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '352409'
-    subtype: UNKNOWN
   'Lorwyn Eclipsed: Theme Deck Display 6 Planeswalker Decks':
     category: UNKNOWN
     identifiers:
       cardtraderId: '352411'
-    subtype: UNKNOWN
-  Marvel's Spider-Man Prerelease Promo Cards Booster:
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '355277'
     subtype: UNKNOWN
   "Marvel's Spider-Man Web-Slinger\u2019s Kit Costco Bundle":
     category: UNKNOWN
     identifiers:
       cardtraderId: '359076'
     subtype: UNKNOWN
-  'Secret Lair Drop Series | Showcase: March of the Machine Vol. 1 Halo Foil':
+  "Secret Lair x Fallout\xAE | Beyond Vault 33":
     category: UNKNOWN
     identifiers:
-      cardtraderId: '360857'
-    subtype: UNKNOWN
-  'Secret Lair Drop Series | Showcase: March of the Machine Vol. 2 Halo Foil':
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '360856'
-    subtype: UNKNOWN
-  'Secret Lair Drop Series | Showcase: March of the Machine Vol. 3 Halo Foil':
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '360858'
+      cardtraderId: '368636'
     subtype: UNKNOWN
   Teenage Mutant Ninja Turtles Collector Booster:
     category: UNKNOWN
@@ -264,11 +239,6 @@ starcitygames:
     identifiers:
       scgId: SLD-MTG-PCK-TMTPLAY-EN
     subtype: UNKNOWN
-  Teenage Mutant Ninja Turtles Play Combo Pack:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-BBX-TMTPLAYCOMBO-EN
-    subtype: UNKNOWN
   Teenage Mutant Ninja Turtles Prerelease Pack:
     category: UNKNOWN
     identifiers:
@@ -306,11 +276,6 @@ tcgplayer:
     identifiers:
       tcgplayerProductId: '672162'
     subtype: UNKNOWN
-  Innistrad Midnight Hunt Sleeved Set Booster Pack:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '673066'
-    subtype: UNKNOWN
   Lorwyn Eclipsed 60 Card Theme Deck Display:
     category: UNKNOWN
     identifiers:
@@ -335,12 +300,6 @@ tcgplayer:
       tcgplayerProductId: '656325'
     release_date: '2026-01-23'
     subtype: UNKNOWN
-  Lorwyn Eclipsed Collector Booster Display Master Case:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '656326'
-    release_date: '2026-01-23'
-    subtype: UNKNOWN
   Lorwyn Eclipsed Commander Deck Display:
     category: UNKNOWN
     identifiers:
@@ -359,11 +318,6 @@ tcgplayer:
       tcgplayerProductId: '656315'
     release_date: '2026-01-23'
     subtype: UNKNOWN
-  Lorwyn Eclipsed Sleeved Play Booster Pack:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '673734'
-    subtype: UNKNOWN
   Lorwyn Eclipsed Theme Decks Set of 2:
     category: UNKNOWN
     identifiers:
@@ -374,11 +328,6 @@ tcgplayer:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '663011'
-    subtype: UNKNOWN
-  Murders at Karlov Manor Prerelease Pack Case:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '654532'
     subtype: UNKNOWN
   Secret Lair Countdown Kit An Encyclopedia of Magic Book Club Bundle:
     category: UNKNOWN
