@@ -687,37 +687,7 @@ cardTrader:
       cardtraderId: '354096'
     subtype: UNKNOWN
 coolstuffinc: {}
-miniaturemarket:
-  'MTG: Lorwyn Eclipsed - Play Booster Box (30) (New Arrival)':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: 8d2c2b970cb140e9dbc5f864f1306f95
-    subtype: UNKNOWN
-  'MTG: Lost Caverns of Ixalan - Commander Deck - Veloci-Ramp-Tor':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: 0190f598bdd0707fb7b7b8b50e106cc9
-    subtype: UNKNOWN
-  'MTG: Phyrexia: All Will Be One - Set Booster Box (30)':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: 0190f592ea9371109b0bf3767326007f
-    subtype: UNKNOWN
-  'MTG: Teenage Mutant Ninja Turtles - Commander Deck - Turtle Power (Preorder)':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: 019b32a45e0170ce9cf8f1a9a07ff2b5
-    subtype: UNKNOWN
-  'MTG: Teenage Mutant Ninja Turtles - Play Booster Box (30) (Preorder)':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: 019b32a3f9ba717d8e3a66c2aeb58bb3
-    subtype: UNKNOWN
-  'MTG: Teenage Mutant Ninja Turtles - Play Booster Pack (Preorder)':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: 019b32a40af5712fbf5920ea1c471331
-    subtype: UNKNOWN
+miniaturemarket: {}
 starcitygames:
   Lorwyn Eclipsed 60-Card Theme Deck - Set of 2:
     category: UNKNOWN
@@ -790,6 +760,11 @@ tcgplayer:
     identifiers:
       tcgplayerProductId: '662272'
     release_date: '2025-11-21'
+    subtype: UNKNOWN
+  Avatar The Last Airbender Play Pack:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '675733'
     subtype: UNKNOWN
   Bloomburrow Deluxe Commander Kit Animated Army:
     category: UNKNOWN
