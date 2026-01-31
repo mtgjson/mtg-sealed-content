@@ -64,6 +64,21 @@ products:
       tcgplayerProductId: '657861'
     release_date: '2026-03-06'
     subtype: DRAFT_SET
+  Teenage Mutant Ninja Turtles Pizza Bundle:
+    category: BUNDLE
+    identifiers:
+      cardtraderId: '354092'
+      mcmId: '853692'
+      scgId: SLD-MTG-BUN-TMTPIZZA-EN
+      tcgplayerProductId: '657863'
+    release_date: '2026-03-06'
+    subtype: DEFAULT
+  Teenage Mutant Ninja Turtles Pizza Bundle Case:
+    category: BUNDLE_CASE
+    identifiers:
+      tcgplayerProductId: '657864'
+    release_date: '2026-03-06'
+    subtype: DEFAULT
   Teenage Mutant Ninja Turtles Play Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -91,21 +106,6 @@ products:
       tcgplayerProductId: '657848'
     release_date: '2026-03-06'
     subtype: PLAY
-  Teenage Mutant Ninja Turtles Pizza Bundle:
-    category: BUNDLE
-    identifiers:
-      cardtraderId: '354092'
-      mcmId: '853692'
-      scgId: SLD-MTG-BUN-TMTPIZZA-EN
-      tcgplayerProductId: '657863'
-    release_date: '2026-03-06'
-    subtype: DEFAULT
-  Teenage Mutant Ninja Turtles Pizza Bundle Case:
-    category: BUNDLE_CASE
-    identifiers:
-      tcgplayerProductId: '657864'
-    release_date: '2026-03-06'
-    subtype: DEFAULT
   Teenage Mutant Ninja Turtles Prerelease Pack:
     category: LIMITED
     identifiers:
