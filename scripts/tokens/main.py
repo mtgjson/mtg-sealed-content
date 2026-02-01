@@ -4,10 +4,10 @@ from collections import defaultdict
 import pathlib
 from typing import Dict, List, Any
 
-from scripts.tokens.mtgjson_parser import MtgjsonParser
-from scripts.tokens.mtgjson_to_tcgplayer_mapper import MtgjsonToTcgplayerMapper
-from scripts.tokens.tcgplayer_provider import TcgplayerProvider
-from scripts.tokens.tcgplayer_token_parser import TcgplayerTokenParser
+from mtgjson_parser import MtgjsonParser
+from mtgjson_to_tcgplayer_mapper import MtgjsonToTcgplayerMapper
+from tcgplayer_provider import TcgplayerProvider
+from tcgplayer_token_parser import TcgplayerTokenParser
 
 TCGPLAYER_REFERRAL_URL: str = (
     "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u="
