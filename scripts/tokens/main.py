@@ -189,13 +189,19 @@ def save_output(parent_set_code: str, output: Dict[str, List[Dict[str, Any]]]) -
 
 
 def main():
+    print("Initializing MTGJSON parser...")
     mtgjson_parser = MtgjsonParser()
+    print("Initializing TCGplayer provider...")
     tcgplayer_provider = TcgplayerProvider()
     tcgplayer_token_parser = TcgplayerTokenParser()
 
     overrides = import_overrides()
-    for set_code, group_ids in mtgjson_parser.get_codes_to_group_ids_mapping().items():
-        print(f"Processing {set_code}")
+    set_code_mapping = mtgjson_parser.get_codes_to_group_ids_mapping()
+    total = len(set_code_mapping)
+    print(f"Processing {total} sets...")
+
+    for i, (set_code, group_ids) in enumerate(set_code_mapping.items(), 1):
+        print(f"[{i}/{total}] Processing {set_code} (group IDs: {group_ids})")
         mtgjson_tokens = mtgjson_parser.get_associated_mtgjson_tokens(set_code)
         tcgplayer_tokens = tcgplayer_provider.get_tokens_from_group_ids(group_ids)
 
@@ -206,6 +212,11 @@ def main():
 
         if output_token_mapping:
             save_output(set_code, output_token_mapping)
+            print(f"  Saved {len(output_token_mapping)} token mapping(s)")
+        else:
+            print(f"  No token mappings found, skipping")
+
+    print("Done!")
 
 
 if __name__ == "__main__":

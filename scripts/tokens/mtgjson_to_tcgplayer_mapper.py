@@ -386,8 +386,11 @@ class MtgjsonToTcgplayerMapper:
                 if mtgjson_token["side"] != "a":
                     continue
 
-                front_to_back_mapping[mtgjson_token["uuid"]] = mtgjson_token_data[
-                    index + 1
-                ]["uuid"]
+                try:
+                    front_to_back_mapping[mtgjson_token["uuid"]] = mtgjson_token_data[
+                        index + 1
+                    ]["uuid"]
+                except IndexError:
+                    print("Unable to get backside for " + mtgjson_token["name"] + " : " + mtgjson_token["uuid"])
 
         return front_to_back_mapping

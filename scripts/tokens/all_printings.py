@@ -34,7 +34,7 @@ class AllPrintings:
         buffer.seek(0)
         decompressed_data = lzma.decompress(buffer.read()).decode("utf-8")
 
-        save_location = tempfile.NamedTemporaryFile(delete=False, delete_on_close=False)
+        save_location = tempfile.NamedTemporaryFile(delete=False)
         save_location_path = pathlib.Path(save_location.name)
 
         with save_location_path.open("w", encoding="utf8") as f:
