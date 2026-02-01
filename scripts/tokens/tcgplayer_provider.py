@@ -50,8 +50,9 @@ class TcgplayerProvider:
 
     def download(self, url: str, params: Dict[str, Any]):
         cache_path = pathlib.Path(
-            f"outputs/tcgplayer_cache/{params['groupId']}-{params['offset']}.json"
+            f"caches/tcgplayer/{params['groupId']}-{params['offset']}.json"
         )
+        cache_path.parent.mkdir(parents=True, exist_ok=True)
         if cache_path.exists():
             # print(f"Using cached response for {url} with params {params}")
             with cache_path.open("r") as fp:
