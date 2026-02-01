@@ -7,7 +7,7 @@ from typing import Dict, Any, Iterable, List
 
 import requests
 
-from scripts.retryable_session import retryable_session
+from ..retryable_session import retryable_session
 
 
 class TcgplayerProvider:

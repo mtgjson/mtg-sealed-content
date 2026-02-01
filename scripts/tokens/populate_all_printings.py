@@ -9,7 +9,7 @@ Make sure the working directory is Repo Root (probably "mtg-sealed-content")
 import json
 import pathlib
 
-from all_printings import AllPrintings
+from .all_printings import AllPrintings
 
 ENHANCED_ALL_PRINTINGS_PATH = pathlib.Path(
     "outputs/AllPrintings_withTokenParts_temporary.json"

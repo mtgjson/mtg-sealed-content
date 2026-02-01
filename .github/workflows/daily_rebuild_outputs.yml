@@ -44,7 +44,7 @@ jobs:
         run: python scripts/card_to_product_compiler.py -o outputs/card_map.json
 
       - name: execute token products mapping compiler
-        run: python scripts/tokens/main.py
+        run: python -m scripts.tokens.main
         env:
           TCGPLAYER_CLIENT_ID: ${{ secrets.TCGPLAYER_CLIENT_ID }}
           TCGPLAYER_CLIENT_SECRET: ${{ secrets.TCGPLAYER_CLIENT_SECRET }}

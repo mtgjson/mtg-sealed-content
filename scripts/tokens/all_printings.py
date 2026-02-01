@@ -6,7 +6,7 @@ import tempfile
 from collections import defaultdict
 from typing import Dict, Any, Set, List
 
-from scripts.retryable_session import retryable_session
+from ..retryable_session import retryable_session
 
 
 class AllPrintings:

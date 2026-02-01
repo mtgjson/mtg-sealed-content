@@ -1,6 +1,6 @@
 from typing import Dict, Set, OrderedDict, List, Any
 
-from all_printings import AllPrintings
+from .all_printings import AllPrintings
 
 
 class MtgjsonParser:
