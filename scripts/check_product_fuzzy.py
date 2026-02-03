@@ -139,7 +139,7 @@ while index < len(review_products):
                 continue
         else:
             content = {}
-            content.setdefault("code", set_code)
+            content.setdefault("code", set_code.lower())
             content.setdefault("products", {})
 
         category = "UNKNOWN"
