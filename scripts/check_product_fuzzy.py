@@ -170,7 +170,7 @@ while index < len(review_products):
         elif "Prerelease" in product_name:
             subtype = "PRERELEASE"
 
-        if "Secret Lair" in product_name && "Bundle" in product_name:
+        if "Secret Lair" in product_name and "Bundle" in product_name:
             category = "BOX_SET"
             subtype = "SECRET_LAIR_BUNDLE"
 
