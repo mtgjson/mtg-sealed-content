@@ -2952,7 +2952,7 @@ cardTrader:
     subtype: UNKNOWN
 coolstuffinc: {}
 miniaturemarket:
-  'MTG: Lorwyn Eclipsed - Draft Night Box (Preorder)':
+  'MTG: Lorwyn Eclipsed - Draft Night Box (New Arrival)':
     category: UNKNOWN
     identifiers:
       miniaturemarketId: 3ddb171062e8fb8a57d9169504e12ae1
@@ -3116,5 +3116,10 @@ tcgplayer:
     identifiers:
       tcgplayerProductId: '660335'
     release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Stronghold Theme Deck Box:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '677508'
     subtype: UNKNOWN
 trollandtoad: {}
