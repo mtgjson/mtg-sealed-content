@@ -2981,7 +2981,42 @@ cardTrader:
       cardtraderId: '370608'
     subtype: UNKNOWN
 coolstuffinc: {}
-miniaturemarket: {}
+miniaturemarket:
+  'MTG: Bloomburrow - Commander Deck - Peace Offering':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 0190f59c6a80720b9acfb93636025015
+    subtype: UNKNOWN
+  'MTG: Bloomburrow - Play Booster Box (36)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 0190f59c6a527129ae699ea1102c503c
+    subtype: UNKNOWN
+  'MTG: Lorwyn Eclipsed - Draft Night Box (New Arrival)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 3ddb171062e8fb8a57d9169504e12ae1
+    subtype: UNKNOWN
+  'MTG: Secrets of Strixhaven - Bundle (Preorder)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 019c06a14c5a737fa0dfa955d8c70f5b
+    subtype: UNKNOWN
+  'MTG: Secrets of Strixhaven - Commander Deck Set (5) (Preorder)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 019c06a6aa0d725cb4862fa48f477807
+    subtype: UNKNOWN
+  'MTG: Secrets of Strixhaven - Play Booster Box (30) (Preorder)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 019c06a10339725989d65be610b39907
+    subtype: UNKNOWN
+  'MTG: Secrets of Strixhaven - Play Booster Pack (Preorder)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 019c06a10f63737b971b89a9a842639e
+    subtype: UNKNOWN
 starcitygames: {}
 tcgplayer:
   Double Masters Sleeved Booster Pack:
@@ -2989,17 +3024,118 @@ tcgplayer:
     identifiers:
       tcgplayerProductId: '677320'
     subtype: UNKNOWN
-  Secret Lair Drop Prints Charming Foil Edition:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '677179'
-    release_date: '2025-09-18'
-    subtype: UNKNOWN
   Secret Lair Drop Prints Charming Non Foil Edition:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '677178'
     release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair Drop Prints Charming Traditional Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '677179'
+    subtype: UNKNOWN
+  Secret Lair Drop Roll for Initiative Superdrop The All Dice Cast Bundle:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '677414'
+    release_date: '2026-03-06'
+    subtype: UNKNOWN
+  Secret Lair Drop Roll for Initiative Superdrop The Bag of Holding Non Foil Bundle:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '677416'
+    release_date: '2026-03-06'
+    subtype: UNKNOWN
+  Secret Lair Drop Roll for Initiative Superdrop The Chromatic Dragons Hoard Foil Bundle:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '677415'
+    release_date: '2026-03-06'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x Dungeons and Dragons Black Lights and Dark Dungeons Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '677405'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x Dungeons and Dragons Black Lights and Dark Dungeons Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '677404'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x Dungeons and Dragons Gales Ambition Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '677403'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x Dungeons and Dragons Gales Ambition Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '677402'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x Dungeons and Dragons Lands of the Forgotten Realms Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '677413'
+    release_date: '2026-03-06'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x Dungeons and Dragons Lands of the Forgotten Realms Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '677412'
+    release_date: '2026-03-06'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x Dungeons and Dragons Shadowhearts Devotion Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '677401'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x Dungeons and Dragons Shadowhearts Devotion Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '677400'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x Dungeons and Dragons Shadows Over Baldurs Gate Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '677407'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x Dungeons and Dragons Shadows Over Baldurs Gate Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '677406'
+    release_date: '2025-09-18'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x Dungeons and Dragons Strahds Descent Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '677411'
+    release_date: '2026-03-06'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x Dungeons and Dragons Strahds Descent Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '677410'
+    release_date: '2026-03-06'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x Dungeons and Dragons Whispers in Candlekeep Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '677409'
+    release_date: '2026-03-06'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x Dungeons and Dragons Whispers in Candlekeep Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '677408'
+    release_date: '2026-03-06'
     subtype: UNKNOWN
   Secret Lair Drop Secret Lair x Fallout Beyond Vault 33 Non Foil Edition:
     category: UNKNOWN
