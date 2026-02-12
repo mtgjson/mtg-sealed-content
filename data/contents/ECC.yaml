@@ -10,5 +10,16 @@ products:
     deck:
     - name: Dance of the Elements
       set: ecc
-  Lorwyn Eclipsed Commander Deck Display: []
-  Lorwyn Eclipsed Commander Deck Set of 2: []
+  Lorwyn Eclipsed Commander Deck Display:
+    sealed:
+    - count: 2
+      name: Lorwyn Eclipsed Commander Deck Set of 2
+      set: ecc
+  Lorwyn Eclipsed Commander Deck Set of 2:
+    sealed:
+    - count: 1
+      name: Lorwyn Eclipsed Commander Deck Blight Curse
+      set: ecc
+    - count: 1
+      name: Lorwyn Eclipsed Commander Deck Dance of the Elements
+      set: ecc
