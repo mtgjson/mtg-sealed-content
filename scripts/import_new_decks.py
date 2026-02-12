@@ -63,6 +63,9 @@ for deck in decks:
             # TODO: we should really follow upstream instead of tweaking the name
             name = name.replace(" Edition", "").replace("'", "").replace(":","").replace("-", " ")
 
+        # Avoid duplicating the Commander tag from edition name and deck type above
+        name = name.replace("Commander Commander", "Commander")
+
         products_path = Path(f"data/products/{set_code.upper()}.yaml")
 
         # Create if non-existing
