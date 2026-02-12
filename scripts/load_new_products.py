@@ -64,6 +64,7 @@ def get_tcgplayer(api_version, auth_code):
         "Omega Box",
         "Omega Booster",
         "Omega Collector",
+        "Promo Pack",
     ]
 
     while True:
