@@ -157,6 +157,8 @@ while index < len(review_products):
             category = "DECK"
         elif "Prerelease" in product_name:
             category = "LIMITED"
+        elif "Redemption" in product_name:
+            category = "BOX_SET"
 
         subtype = "UNKNOWN"
         if "Collector Booster" in product_name:
@@ -171,6 +173,8 @@ while index < len(review_products):
             subtype = "PRERELEASE"
         elif "Theme" in product_name:
             subytpe = "THEME"
+        elif "Redemption" in product_name:
+            category = "REDEMPTION"
 
         if "Secret Lair" in product_name and "Bundle" in product_name:
             category = "BOX_SET"
