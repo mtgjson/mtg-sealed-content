@@ -71,6 +71,10 @@ def get_tcgplayer(api_version, auth_code):
         "Sleeved Set",
     ]
 
+    sld_skip_tags = [
+        "Bundle",
+    ]
+
     while True:
         api_response = tcgdownload(
             "https://api.tcgplayer.com/[API_VERSION]/catalog/categories/1/groups",
@@ -126,12 +130,17 @@ def get_tcgplayer(api_version, auth_code):
                 print(f"Issue with Sealed Product for Group ID: {group_id}: {response}")
                 break
 
-            if any(tag.lower() in product["cleanName"].lower() for tag in skip_tags):
+            product_name = product["cleanName"]
+            if any(tag.lower() in product_name.lower() for tag in skip_tags):
                 continue
+
+            if "Secret Lair" in product_name:
+                if any(tag.lower() in product_name.lower() for tag in sld_skip_tags):
+                    continue
 
             cleaned_data = [
                 {
-                    "name": product["cleanName"],
+                    "name": product_name,
                     "id": product["productId"],
                     "releaseDate": product["presaleInfo"].get("releasedOn"),
                 }
