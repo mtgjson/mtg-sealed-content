@@ -98,6 +98,7 @@ products:
       cardKingdomId: '321617'
       cardtraderId: '352405'
       mcmId: '851280'
+      miniaturemarketId: 3ddb171062e8fb8a57d9169504e12ae1
       scgId: SLD-MTG-DRAFTNIGHT-ECL-EN
       tcgplayerProductId: '656343'
     release_date: '2026-01-23'
@@ -107,6 +108,11 @@ products:
     identifiers:
       tcgplayerProductId: '656348'
     subtype: UNKNOWN
+  Lorwyn Eclipsed MTGO Redemption:
+    category: BOX_SET
+    identifiers:
+      cardKingdomId: '323159'
+    subtype: REDEMPTION
   Lorwyn Eclipsed Play Booster Box:
     category: BOOSTER_BOX
     identifiers:
