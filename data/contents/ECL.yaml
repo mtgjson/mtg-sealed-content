@@ -9,8 +9,16 @@ products:
     - name: 5 Non-foil double-sided tokens
     - name: 1 Double-sided reference card
     - name: 1 Strategy insert
-  Lorwyn Eclipsed 60-Card Theme Deck Display: []
-  Lorwyn Eclipsed 60-Card Theme Deck Display Case: []
+  Lorwyn Eclipsed 60-Card Theme Deck Display:
+    sealed:
+    - count: 4
+      name: Lorwyn Eclipsed 60-Card Theme Deck Set of 2
+      set: ecl
+  Lorwyn Eclipsed 60-Card Theme Deck Display Case:
+    sealed:
+    - count: 4
+      name: Lorwyn Eclipsed 60-Card Theme Deck Display
+      set: ecl
   Lorwyn Eclipsed 60-Card Theme Deck Pirates:
     card_count: 60
     deck:
@@ -20,7 +28,14 @@ products:
     - name: 5 Non-foil double-sided tokens
     - name: 1 Double-sided reference card
     - name: 1 Strategy insert
-  Lorwyn Eclipsed 60-Card Theme Deck Set of 2: []
+  Lorwyn Eclipsed 60-Card Theme Deck Set of 2:
+    sealed:
+    - count: 1
+      name: Lorwyn Eclipsed 60-Card Theme Deck Angels
+      set: ecl
+    - count: 1
+      name: Lorwyn Eclipsed 60-Card Theme Deck Pirates
+      set: ecl
   Lorwyn Eclipsed Bundle:
     card_count: 1
     other:
@@ -34,13 +49,21 @@ products:
     - count: 9
       name: Lorwyn Eclipsed Play Booster Pack
       set: ecl
-  Lorwyn Eclipsed Bundle Case: []
+  Lorwyn Eclipsed Bundle Case:
+    sealed:
+    - count: 6
+      name: Lorwyn Eclipsed Bundle
+      set: ecl
   Lorwyn Eclipsed Collector Booster Box:
     sealed:
     - count: 12
       name: Lorwyn Eclipsed Collector Booster Pack
       set: ecl
-  Lorwyn Eclipsed Collector Booster Box Case: []
+  Lorwyn Eclipsed Collector Booster Box Case:
+    sealed:
+    - count: 6
+      name: Lorwyn Eclipsed Collector Booster Box
+      set: ecl
   Lorwyn Eclipsed Collector Booster Pack:
     card_count: 15
     pack:
@@ -58,13 +81,26 @@ products:
     - count: 1
       name: Lorwyn Eclipsed Collector Booster Pack
       set: ecl
-  Lorwyn Eclipsed Draft Night Case: []
+  Lorwyn Eclipsed Draft Night Case:
+    sealed:
+    - count: 6
+      name: Lorwyn Eclipsed Draft Night
+      set: ecl
+  Lorwyn Eclipsed MTGO Redemption:
+    card_count: 273
+    deck:
+    - name: Lorwyn Eclipsed Redemption
+      set: ecl
   Lorwyn Eclipsed Play Booster Box:
     sealed:
     - count: 30
       name: Lorwyn Eclipsed Play Booster Pack
       set: ecl
-  Lorwyn Eclipsed Play Booster Box Case: []
+  Lorwyn Eclipsed Play Booster Box Case:
+    sealed:
+    - count: 6
+      name: Lorwyn Eclipsed Play Booster Box
+      set: ecl
   Lorwyn Eclipsed Play Booster Pack:
     card_count: 14
     pack:
