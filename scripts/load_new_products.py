@@ -65,6 +65,10 @@ def get_tcgplayer(api_version, auth_code):
         "Omega Booster",
         "Omega Collector",
         "Promo Pack",
+        "Sleeved Booster",
+        "Sleeved Draft",
+        "Sleeved Play",
+        "Sleeved Set",
     ]
 
     while True:
@@ -185,6 +189,7 @@ def get_cardmarket():
     # "MtG Set" contains a mix of sealed product and bundles of cards
     # This list filters the bundles of cards away from all sets
     skip_tags = [
+        "(Sleeve)",
         "Accessories set",
         "Art Cards Set",
         "Art Series Set",
@@ -293,6 +298,7 @@ def load_cardtrader(secret):
         "Creature Forge",
         "Omega Pack",
         "Omega Box",
+        "Sleeved",
     ]
 
     sld_skip_tags = [
