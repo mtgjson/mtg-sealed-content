@@ -59,6 +59,13 @@ def get_tcgplayer(api_version, auth_code):
         "Booster Battle Pack",
     ]
 
+    skip_tags = [
+        "Omega Pack",
+        "Omega Box",
+        "Omega Booster",
+        "Omega Collector",
+    ]
+
     while True:
         api_response = tcgdownload(
             "https://api.tcgplayer.com/[API_VERSION]/catalog/categories/1/groups",
@@ -113,6 +120,9 @@ def get_tcgplayer(api_version, auth_code):
             if not response["results"]:
                 print(f"Issue with Sealed Product for Group ID: {group_id}: {response}")
                 break
+
+            if any(tag.lower() in product["cleanName"].lower() for tag in skip_tags):
+                continue
 
             cleaned_data = [
                 {
@@ -192,6 +202,7 @@ def get_cardmarket():
         "LocalProAlters Tokens",
         "Masterpiece Set",
         "Mythic Set",
+        "Omega Booster",
         "Oversized",
         "P9 Set",
         "Phenomena Set",
@@ -279,6 +290,8 @@ def load_cardtrader(secret):
         "Basic Land Pack",
         "Relic Tokens",
         "Creature Forge",
+        "Omega Pack",
+        "Omega Box",
     ]
 
     sld_skip_tags = [
@@ -363,6 +376,7 @@ def load_miniaturemarket(secret):
         "Soft Crate",
         "Tray",
         "Xenoskin",
+        "Omega Box",
     ]
 
     sealed_data = []
