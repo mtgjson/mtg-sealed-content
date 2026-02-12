@@ -59,6 +59,22 @@ def get_tcgplayer(api_version, auth_code):
         "Booster Battle Pack",
     ]
 
+    skip_tags = [
+        "Omega Pack",
+        "Omega Box",
+        "Omega Booster",
+        "Omega Collector",
+        "Promo Pack",
+        "Sleeved Booster",
+        "Sleeved Draft",
+        "Sleeved Play",
+        "Sleeved Set",
+    ]
+
+    sld_skip_tags = [
+        "Bundle",
+    ]
+
     while True:
         api_response = tcgdownload(
             "https://api.tcgplayer.com/[API_VERSION]/catalog/categories/1/groups",
@@ -114,9 +130,17 @@ def get_tcgplayer(api_version, auth_code):
                 print(f"Issue with Sealed Product for Group ID: {group_id}: {response}")
                 break
 
+            product_name = product["cleanName"]
+            if any(tag.lower() in product_name.lower() for tag in skip_tags):
+                continue
+
+            if "Secret Lair" in product_name:
+                if any(tag.lower() in product_name.lower() for tag in sld_skip_tags):
+                    continue
+
             cleaned_data = [
                 {
-                    "name": product["cleanName"],
+                    "name": product_name,
                     "id": product["productId"],
                     "releaseDate": product["presaleInfo"].get("releasedOn"),
                 }
@@ -174,6 +198,7 @@ def get_cardmarket():
     # "MtG Set" contains a mix of sealed product and bundles of cards
     # This list filters the bundles of cards away from all sets
     skip_tags = [
+        "(Sleeve)",
         "Accessories set",
         "Art Cards Set",
         "Art Series Set",
@@ -192,6 +217,7 @@ def get_cardmarket():
         "LocalProAlters Tokens",
         "Masterpiece Set",
         "Mythic Set",
+        "Omega Booster",
         "Oversized",
         "P9 Set",
         "Phenomena Set",
@@ -279,6 +305,9 @@ def load_cardtrader(secret):
         "Basic Land Pack",
         "Relic Tokens",
         "Creature Forge",
+        "Omega Pack",
+        "Omega Box",
+        "Sleeved",
     ]
 
     sld_skip_tags = [
@@ -363,6 +392,7 @@ def load_miniaturemarket(secret):
         "Soft Crate",
         "Tray",
         "Xenoskin",
+        "Omega Box",
     ]
 
     sealed_data = []
