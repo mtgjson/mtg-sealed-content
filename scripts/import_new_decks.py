@@ -88,6 +88,11 @@ for deck in decks:
             new_product["subtype"] = deck["type"].upper().replace(" ", "_")
             new_product["release_date"] = deck["release_date"]
 
+            # Override fields for specific sets
+            if set_code in ["sld", "slc"]:
+                new_product["category"] = "BOX_SET"
+                new_product["subtype"] = "SECRET_LAIR"
+
             products["products"][name] = new_product
         # Update file
         with open(products_path, "w") as f:

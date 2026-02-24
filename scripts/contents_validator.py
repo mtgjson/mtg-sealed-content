@@ -4,7 +4,7 @@ from pathlib import Path
 
 valid_categories = [
     "BOOSTER_PACK", "BOOSTER_BOX", "BOOSTER_CASE", "DECK", "MULTI_DECK",
-    "DECK_BOX", "BOX_SET", "BOX", "KIT", "BUNDLE", "BUNDLE_CASE",
+    "DECK_BOX", "BOX_SET", "KIT", "BUNDLE", "BUNDLE_CASE",
     "LIMITED", "LIMITED_CASE", "SUBSET"
 ]
 old_categories = [
@@ -20,7 +20,6 @@ valid_subtypes = [
     "COLLECTORS_EDITION", "GUILD_KIT", "DECK_BUILDERS_TOOLKIT", "LAND_STATION",
     "GIFT_BUNDLE", "FAT_PACK", "MINIMAL", "PREMIUM", "ADVANCED", "DRAFT", "PLAY",
     "SEALED_SET", "PRERELEASE", "OTHER", "CHALLENGER", "SIX", "CONVENTION", "REDEMPTION",
-    "SECRET_LAIR_DROP",
 ]
 
 if __name__ == "__main__":
