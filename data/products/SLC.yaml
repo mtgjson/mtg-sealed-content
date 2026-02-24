@@ -11,15 +11,15 @@ products:
     release_date: '2022-11-16'
     subtype: SECRET_LAIR
   Secret Lair Countdown An Encyclopedia of Magic:
-    category: BOX
+    category: BOX_SET
     identifiers:
       cardtraderId: '358254'
       mcmId: '859727'
       tcgplayerProductId: '660745'
     release_date: '2025-11-03'
-    subtype: SECRET_LAIR_DROP
+    subtype: SECRET_LAIR
   Secret Lair Countdown An Encyclopedia of Magic Set of 2:
     category: SUBSET
     identifiers:
       tcgplayerProductId: '662006'
-    subtype: UNKNOWN
+    subtype: SECRET_LAIR_BUNDLE
