@@ -199,6 +199,7 @@ def get_cardmarket():
     # This list filters the bundles of cards away from all sets
     skip_tags = [
         "(Sleeve)",
+        "(Sleeves)",
         "Accessories set",
         "Art Cards Set",
         "Art Series Set",
@@ -218,6 +219,7 @@ def get_cardmarket():
         "Masterpiece Set",
         "Mythic Set",
         "Omega Booster",
+        "Omega Box",
         "Oversized",
         "P9 Set",
         "Phenomena Set",
