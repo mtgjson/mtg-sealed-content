@@ -70,11 +70,6 @@ cardTrader:
     subtype: UNKNOWN
 coolstuffinc: {}
 miniaturemarket:
-  MTG TMNT Prerelease In-Store Event Entry (Rock Hill) - Saturday 2/28:
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: 019c76fc8ac871b7ba443661cc7f199d
-    subtype: UNKNOWN
   'MTG: Tarkir Dragonstorm - Commander Deck - Abzan Armor':
     category: UNKNOWN
     identifiers:
@@ -110,7 +105,32 @@ miniaturemarket:
     identifiers:
       miniaturemarketId: 019b32a4781271e3b2169c39e2b4f066
     subtype: UNKNOWN
-starcitygames: {}
+starcitygames:
+  Secrets of Strixhaven Bundle:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BUN-SOS-EN
+    subtype: UNKNOWN
+  Secrets of Strixhaven Codex Bundle:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BUN-SOS-EN-CODEX
+    subtype: UNKNOWN
+  Secrets of Strixhaven Collector Booster Box:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-SOSCOLLECTOR-EN
+    subtype: UNKNOWN
+  Secrets of Strixhaven Commander Decks - Set of 5:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-CMD-SOC-EN-SETOF5
+    subtype: UNKNOWN
+  Secrets of Strixhaven Play Booster Box:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-SOSPLAY-EN
+    subtype: UNKNOWN
 tcgplayer:
   Could not load provider tcgplayer:
     category: UNKNOWN
