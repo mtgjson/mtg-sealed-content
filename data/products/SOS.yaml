@@ -15,6 +15,7 @@ products:
     identifiers:
       cardtraderId: '370612'
       mcmId: '869384'
+      scgId: SLD-MTG-STD-SOS-EN-EERIE
       tcgplayerProductId: '675579'
     subtype: THEME
   Secrets of Strixhaven 60-Card Theme Deck Lifegain:
@@ -22,6 +23,7 @@ products:
     identifiers:
       cardtraderId: '370611'
       mcmId: '869385'
+      scgId: SLD-MTG-STD-SOS-EN-LIFEGAIN
       tcgplayerProductId: '675580'
     subtype: THEME
   Secrets of Strixhaven Bundle:
@@ -30,6 +32,7 @@ products:
       cardtraderId: '370613'
       mcmId: '869387'
       miniaturemarketId: 019c06a14c5a737fa0dfa955d8c70f5b
+      scgId: SLD-MTG-BUN-SOS-EN
       tcgplayerProductId: '675561'
     subtype: UNKNOWN
   Secrets of Strixhaven Bundle Case:
@@ -42,6 +45,7 @@ products:
     identifiers:
       cardtraderId: '370614'
       mcmId: '869389'
+      scgId: SLD-MTG-BUN-SOS-EN-CODEX
       tcgplayerProductId: '675563'
     subtype: UNKNOWN
   Secrets of Strixhaven Codex Bundle Case:
@@ -54,6 +58,7 @@ products:
     identifiers:
       cardtraderId: '370594'
       mcmId: '869357'
+      scgId: SLD-MTG-BBX-SOSCOLLECTOR-EN
       tcgplayerProductId: '675558'
     subtype: COLLECTOR
   Secrets of Strixhaven Collector Booster Box Case:
@@ -71,6 +76,7 @@ products:
     identifiers:
       cardtraderId: '370592'
       mcmId: '869355'
+      scgId: SLD-MTG-PCK-SOSCOLLECTOR-EN
       tcgplayerProductId: '675557'
     subtype: COLLECTOR
   Secrets of Strixhaven Draft Night:
@@ -78,6 +84,7 @@ products:
     identifiers:
       cardtraderId: '370615'
       mcmId: '869392'
+      scgId: SLD-MTG-DFT-SOS-EN
       tcgplayerProductId: '675565'
     subtype: UNKNOWN
   Secrets of Strixhaven Draft Night Case:
@@ -91,11 +98,13 @@ products:
       cardtraderId: '370593'
       mcmId: '869356'
       miniaturemarketId: 019c06a10339725989d65be610b39907
+      scgId: SLD-MTG-BBX-SOSPLAY-EN
       tcgplayerProductId: '675555'
     subtype: PLAY
   Secrets of Strixhaven Play Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
+      scgId: SLD-MTG-BBX-SOSPLAYCASE-EN
       tcgplayerProductId: '675556'
     subtype: PLAY
   Secrets of Strixhaven Play Booster Pack:
@@ -104,6 +113,7 @@ products:
       cardtraderId: '370591'
       mcmId: '869353'
       miniaturemarketId: 019c06a10f63737b971b89a9a842639e
+      scgId: SLD-MTG-PCK-SOSPLAY-EN
       tcgplayerProductId: '675554'
     subtype: PLAY
   Secrets of Strixhaven Prerelease Pack Lorehold:
@@ -111,6 +121,7 @@ products:
     identifiers:
       cardtraderId: '370603'
       mcmId: '869373'
+      scgId: SLD-MTG-PRE-SOS-EN-LOREHOLD
       tcgplayerProductId: '675576'
     subtype: PRERELEASE
   Secrets of Strixhaven Prerelease Pack Prismari:
@@ -118,6 +129,7 @@ products:
     identifiers:
       cardtraderId: '370602'
       mcmId: '869372'
+      scgId: SLD-MTG-PRE-SOS-EN-PRISMARI
       tcgplayerProductId: '675574'
     subtype: PRERELEASE
   Secrets of Strixhaven Prerelease Pack Quandrix:
@@ -125,6 +137,7 @@ products:
     identifiers:
       cardtraderId: '370604'
       mcmId: '869374'
+      scgId: SLD-MTG-PRE-SOS-EN-QUANDRIX
       tcgplayerProductId: '675577'
     subtype: PRERELEASE
   Secrets of Strixhaven Prerelease Pack Set of 5:
@@ -137,6 +150,7 @@ products:
     identifiers:
       cardtraderId: '370601'
       mcmId: '869370'
+      scgId: SLD-MTG-PRE-SOS-EN-SILVERQUILL
       tcgplayerProductId: '675573'
     subtype: PRERELEASE
   Secrets of Strixhaven Prerelease Pack Witherbloom:
@@ -144,6 +158,7 @@ products:
     identifiers:
       cardtraderId: '370605'
       mcmId: '869375'
+      scgId: SLD-MTG-PRE-SOS-EN-WITHERBLOOM
       tcgplayerProductId: '675575'
     subtype: PRERELEASE
   Secrets of Strixhaven Theme Decks Set of 2:
