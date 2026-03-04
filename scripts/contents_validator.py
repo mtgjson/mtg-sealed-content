@@ -7,10 +7,7 @@ valid_categories = [
     "DECK_BOX", "BOX_SET", "KIT", "BUNDLE", "BUNDLE_CASE",
     "LIMITED", "LIMITED_CASE", "SUBSET"
 ]
-old_categories = [
-    "UNKNOWN", "CASE", "COMMANDER_DECK", "LAND_STATION", "TWO_PLAYER_STARTER_SET",
-    "DRAFT_SET", "PRERELEASE_PACK", "PRERELEASE_CASE"
-]
+
 valid_subtypes = [
     "DEFAULT", "SET", "COLLECTOR", "JUMPSTART", "PROMOTIONAL", "THEME", "TOURNAMENT",
     "WELCOME", "TOPPER", "PLANESWALKER", "CHALLENGE", "EVENT", "CHAMPIONSHIP",
@@ -58,8 +55,8 @@ if __name__ == "__main__":
                 print(f"Product {name} in set {set_file.stem} missing category")
                 failed = True
             elif p['category'] not in valid_categories:
-                if p['category'] in old_categories:
-                    print(f"Product {name} uses an old category")
+                if p['category'] == "UNKNOWN":
+                    print(f"Product {name} missing a valid category")
                     #pass
                 else:
                     print(f"Product {name} has an invalid category: {p['category']}")
