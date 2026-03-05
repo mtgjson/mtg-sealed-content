@@ -1,17 +1,6 @@
 abugames: {}
-cardKingdom:
-  Teenage Mutant Ninja Turtles Prerelease Pack:
-    category: UNKNOWN
-    identifiers:
-      cardKingdomId: '323224'
-    subtype: UNKNOWN
+cardKingdom: {}
 cardMarket:
-  'Magic: The Gathering | Marvel Super Heroes ""Foil Rare/Mythic"" Prerelease Booster':
-    category: UNKNOWN
-    identifiers:
-      mcmId: '869493'
-    release_date: '2026-01-28'
-    subtype: UNKNOWN
   'Secrets of Strixhaven: ""Lorehold"" Seeded Booster':
     category: UNKNOWN
     identifiers:
@@ -43,11 +32,6 @@ cardMarket:
     release_date: '2026-01-28'
     subtype: UNKNOWN
 cardTrader:
-  Marvel Super Heroes "Foil Rare/Mythic" Prerelease Booster:
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '370622'
-    subtype: UNKNOWN
   'Secrets of Strixhaven: "Lorehold" Seeded Booster':
     category: UNKNOWN
     identifiers:
@@ -73,124 +57,9 @@ cardTrader:
     identifiers:
       cardtraderId: '370608'
     subtype: UNKNOWN
-  'Teenage Mutant Ninja Turtles: Foil Rare/Mythic Booster':
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '375880'
-    subtype: UNKNOWN
 coolstuffinc: {}
-miniaturemarket:
-  'MTG: Bloomburrow - Starter Kit':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: 0190f59c6a89714a9687190796a1d30f
-    subtype: UNKNOWN
-starcitygames:
-  Secrets of Strixhaven Bundle:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-BUN-SOS-EN
-    subtype: UNKNOWN
-  Secrets of Strixhaven Codex Bundle:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-BUN-SOS-EN-CODEX
-    subtype: UNKNOWN
-  Secrets of Strixhaven Collector Booster Box:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-BBX-SOSCOLLECTOR-EN
-    subtype: UNKNOWN
-  Secrets of Strixhaven Collector Booster Pack:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-PCK-SOSCOLLECTOR-EN
-    subtype: UNKNOWN
-  Secrets of Strixhaven Commander Deck - Lorehold Spirit:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-CMD-SOC-EN-LOREHOLD
-    subtype: UNKNOWN
-  Secrets of Strixhaven Commander Deck - Prismari Artistry:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-CMD-SOC-EN-PRISMARI
-    subtype: UNKNOWN
-  Secrets of Strixhaven Commander Deck - Quandrix Unlimited:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-CMD-SOC-EN-QUANDRIX
-    subtype: UNKNOWN
-  Secrets of Strixhaven Commander Deck - Silverquill Influence:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-CMD-SOC-EN-SILVERQUILL
-    subtype: UNKNOWN
-  Secrets of Strixhaven Commander Deck - Witherbloom Pestilence:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-CMD-SOC-EN-WITHERBLOOM
-    subtype: UNKNOWN
-  Secrets of Strixhaven Commander Decks - Set of 5:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-CMD-SOC-EN-SETOF5
-    subtype: UNKNOWN
-  Secrets of Strixhaven Draft Night:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-DFT-SOS-EN
-    subtype: UNKNOWN
-  Secrets of Strixhaven Play Booster Box:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-BBX-SOSPLAY-EN
-    subtype: UNKNOWN
-  Secrets of Strixhaven Play Booster Case:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-BBX-SOSPLAYCASE-EN
-    subtype: UNKNOWN
-  Secrets of Strixhaven Play Booster Pack:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-PCK-SOSPLAY-EN
-    subtype: UNKNOWN
-  Secrets of Strixhaven Prerelease Kit - Lorehold:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-PRE-SOS-EN-LOREHOLD
-    subtype: UNKNOWN
-  Secrets of Strixhaven Prerelease Kit - Prismari:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-PRE-SOS-EN-PRISMARI
-    subtype: UNKNOWN
-  Secrets of Strixhaven Prerelease Kit - Quandrix:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-PRE-SOS-EN-QUANDRIX
-    subtype: UNKNOWN
-  Secrets of Strixhaven Prerelease Kit - Silverquill:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-PRE-SOS-EN-SILVERQUILL
-    subtype: UNKNOWN
-  Secrets of Strixhaven Prerelease Kit - Witherbloom:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-PRE-SOS-EN-WITHERBLOOM
-    subtype: UNKNOWN
-  Secrets of Strixhaven Theme Deck - Eerie:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-STD-SOS-EN-EERIE
-    subtype: UNKNOWN
-  Secrets of Strixhaven Theme Deck - Lifegain:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-STD-SOS-EN-LIFEGAIN
-    subtype: UNKNOWN
+miniaturemarket: {}
+starcitygames: {}
 tcgplayer:
   Could not load provider tcgplayer:
     category: UNKNOWN
