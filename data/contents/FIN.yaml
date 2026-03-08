@@ -2,8 +2,10 @@ code: fin
 products:
   Final Fantasy Bundle:
     card_count: 2
+    deck:
+    - name: Final Fantasy Bundle Land Pack
+      set: fin
     other:
-    - name: 32 Full Art Basic Land Pack
     - name: Final Fantasy Spindown
     - name: Final Fantasy Card Storage Box
     pack:
@@ -28,6 +30,7 @@ products:
       name: Birds of Paradise
       number: 483
       set: fic
+    card_count: 1
     sealed:
     - count: 10
       name: Final Fantasy Play Booster Pack
@@ -38,8 +41,12 @@ products:
     pack:
     - code: bundle-chocobo-scene
       set: fin
+    deck:
+    - name: Final Fantasy Bundle Land Pack
+      set: fin
     other:
-    - name: 32 Landmark Full-Art Basic Lands
+    - name: Final Fantasy Spindown
+    - name: Final Fantasy Card Storage Box
   Final Fantasy Chocobo Bundle Case:
     sealed:
     - count: 6
@@ -67,8 +74,10 @@ products:
       set: fin
   Final Fantasy Gift Bundle:
     card_count: 2
+    deck:
+    - name: Final Fantasy Bundle Land Pack
+      set: fin
     other:
-    - name: 32 Full Art Basic Land Pack
     - name: Final Fantasy Spindown
     - name: Final Fantasy Card Storage Box
     pack:
