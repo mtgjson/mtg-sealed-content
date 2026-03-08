@@ -99,6 +99,10 @@ for deck in decks:
                 new_product["category"] = "BOX_SET"
                 new_product["subtype"] = "SECRET_LAIR"
 
+            # Fixup a type
+            if new_product["subtype"] == "THEME_DECK":
+                new_product["subtype"] = "THEME"
+
             products["products"][name] = new_product
         # Update file
         with open(products_path, "w") as f:
