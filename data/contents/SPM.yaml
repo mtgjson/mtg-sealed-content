@@ -1,6 +1,12 @@
 code: spm
 products:
   Marvels Spider Man Bundle:
+    card:
+    - foil: true
+      name: Radioactive Spider
+      number: 285
+      set: spm
+    card_count: 1
     other:
     - name: Marvels Spider Man Spindown
     - name: Marvels Spider Man Foil Bundle Land Pack
@@ -31,6 +37,11 @@ products:
     - code: collector
       set: spm
   Marvels Spider Man Gift Bundle:
+    card:
+    - foil: true
+      name: Gwenom, Remorseless
+      number: 286
+      set: spm
     card_count: 1
     other:
     - name: 30 Basic Land Pack

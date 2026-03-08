@@ -16,10 +16,15 @@ products:
     - code: default
       set: acr
   Assassins Creed Bundle:
+    card:
+    - foil: true
+      name: Royal Assassin
+      number: 306
+      set: acr
+    card_count: 1
     other:
     - name: 40 card land Pack
     - name: Assassin's Creed spindown
-    - name: Foil promo
     sealed:
     - count: 9
       name: Assassins Creed Beyond Booster Pack

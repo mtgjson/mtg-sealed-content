@@ -37,6 +37,11 @@ products:
       name: Lorwyn Eclipsed 60-Card Theme Deck Pirates
       set: ecl
   Lorwyn Eclipsed Bundle:
+    card:
+    - foil: true
+      name: Kinbinding
+      number: 407
+      set: ecl
     card_count: 1
     other:
     - name: 2 Reference cards
