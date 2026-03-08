@@ -5,7 +5,21 @@ products:
     - count: 3
       name: Modern Horizons 2 Draft Booster Pack
       set: mh2
-  Modern Horizons 2 Bundle: []
+  Modern Horizons 2 Bundle:
+    card:
+    - foil: true
+      name: Yusri, Fortune's Flame
+      number: 492
+      set: mh2
+    other:
+    - name: Modern Horizons 2 20-card Basic Land Bundle Non-Foil
+    - name: Modern Horizons 2 20-card Basic Land Bundle Foil
+    - name: Modern Horizons 2 Spindown
+    - name: Reusable Storage Box
+    sealed:
+    - count: 10
+      name: Modern Horizons 2 Draft Booster Pack
+      set: mh2
   Modern Horizons 2 Collector Booster Box:
     sealed:
     - count: 12

@@ -1,7 +1,29 @@
 code: tmt
 products:
-  Teenage Mutant Ninja Turtles Bundle: []
-  Teenage Mutant Ninja Turtles Bundle Case: []
+  Teenage Mutant Ninja Turtles Bundle:
+    card:
+    - foil: true
+      name: Shark Shredder, Killer Clone
+      number: 320
+      set: tmt
+    card_count: 1
+    other:
+    - name: Reference cards
+    - name: Spindown die
+    - name: Card-storage box
+    - name: 40 card land Pack
+    pack:
+    - code: bundle-promo
+      set: tmt
+    sealed:
+    - count: 9
+      name: Teenage Mutant Ninja Turtles Play Booster Pack
+      set: tmt
+  Teenage Mutant Ninja Turtles Bundle Case:
+    sealed:
+    - count: 6
+      name: Teenage Mutant Ninja Turtles Bundle
+      set: tmt
   Teenage Mutant Ninja Turtles Collector Booster Box: []
   Teenage Mutant Ninja Turtles Collector Booster Box Case: []
   Teenage Mutant Ninja Turtles Collector Booster Box Master Case: []

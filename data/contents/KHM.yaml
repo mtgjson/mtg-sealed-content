@@ -1,6 +1,20 @@
 code: khm
 products:
-  Kaldheim Bundle: []
+  Kaldheim Bundle:
+    card:
+    - foil: true
+      name: Reflections of Littjara
+      number: 400
+      set: khm
+    other:
+    - name: Kaldheim 20-card Basic Land Bundle Non-Foil
+    - name: Kaldheim 20-card Basic Land Bundle Foil
+    - name: Kaldheim Spindown
+    - name: Reusable Storage Box
+    sealed:
+    - count: 10
+      name: Kaldheim Draft Booster Pack
+      set: khm
   Kaldheim Collector Booster Box:
     sealed:
     - count: 12
