@@ -21,7 +21,21 @@ products:
     - name: Conquering Hordes
       set: ktk
   Khans of Tarkir Fat Pack: []
-  Khans of Tarkir Holiday Gift Box: []
+  Khans of Tarkir Holiday Gift Box:
+    card_count: 1
+    card:
+    - foil: true
+      name: Sultai Charm
+      number: 204
+      set: pktk
+    sealed:
+    - count: 4
+      name: Khans of Tarkir Booster Pack
+      set: ktk
+    other:
+    - name: Land Pack
+    - name: Dividers
+    - name: Stickers
   Khans of Tarkir Intro Pack Abzan Siege:
     card_count: 60
     deck:

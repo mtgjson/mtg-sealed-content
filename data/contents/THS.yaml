@@ -22,7 +22,21 @@ products:
     - name: Inspiring Heroics
       set: ths
   Theros Fat Pack: []
-  Theros Holiday Gift Box: []
+  Theros Holiday Gift Box:
+    card_count: 1
+    card:
+    - foil: true
+      name: Karametra's Acolyte
+      number: 160
+      set: pths
+    sealed:
+    - count: 4
+      name: Theros Booster Pack
+      set: ths
+    other:
+    - name: Land Pack
+    - name: Dividers
+    - name: Stickers
   Theros Intro Pack Anthousas Army:
     card_count: 60
     deck:
