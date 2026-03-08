@@ -18,9 +18,33 @@ products:
     - count: 6
       name: Final Fantasy Bundle
       set: fin
-  Final Fantasy Chocobo Booster Pack: []
-  Final Fantasy Chocobo Bundle: []
-  Final Fantasy Chocobo Bundle Case: []
+  Final Fantasy Chocobo Booster Pack:
+    pack:
+    - code: bundle-chocobo
+      set: fin
+  Final Fantasy Chocobo Bundle:
+    card:
+    - foil: true
+      name: Birds of Paradise
+      number: 483
+      set: fic
+    sealed:
+    - count: 10
+      name: Final Fantasy Play Booster Pack
+      set: fin
+    - count: 1
+      name: Final Fantasy Chocobo Booster Pack
+      set: fin
+    pack:
+    - code: bundle-chocobo-scene
+      set: fin
+    other:
+    - name: 32 Landmark Full-Art Basic Lands
+  Final Fantasy Chocobo Bundle Case:
+    sealed:
+    - count: 6
+      name: Final Fantasy Chocobo Bundle
+      set: fin
   Final Fantasy Collector Booster Box:
     sealed:
     - count: 12
