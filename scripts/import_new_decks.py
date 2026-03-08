@@ -7,8 +7,14 @@ import yaml
 with open("outputs/deck_map.json", "rb") as f:
     current_decks = json.load(f)
 
-gh_request = requests.get("https://github.com/taw/magic-preconstructed-decks-data/blob/master/decks_v2.json?raw=true")
-decks = json.loads(gh_request.content)
+gh_request = requests.get("https://raw.githubusercontent.com/taw/magic-preconstructed-decks-data/refs/heads/master/decks_v2.json")
+
+try:
+    decks = json.loads(gh_request.content)
+except:
+    print("unable to load magic-preconstructed-decks-data file, here are the contents")
+    print(gh_request.content)
+    exit(1)
 
 for deck in decks:
     set_code = deck["set_code"]
