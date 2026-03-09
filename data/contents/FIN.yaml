@@ -31,6 +31,15 @@ products:
       number: 483
       set: fic
     card_count: 1
+    deck:
+    - name: Final Fantasy Bundle Land Pack
+      set: fin
+    other:
+    - name: Final Fantasy Spindown
+    - name: Final Fantasy Card Storage Box
+    pack:
+    - code: bundle-chocobo-scene
+      set: fin
     sealed:
     - count: 10
       name: Final Fantasy Play Booster Pack
@@ -38,15 +47,6 @@ products:
     - count: 1
       name: Final Fantasy Chocobo Booster Pack
       set: fin
-    pack:
-    - code: bundle-chocobo-scene
-      set: fin
-    deck:
-    - name: Final Fantasy Bundle Land Pack
-      set: fin
-    other:
-    - name: Final Fantasy Spindown
-    - name: Final Fantasy Card Storage Box
   Final Fantasy Chocobo Bundle Case:
     sealed:
     - count: 6

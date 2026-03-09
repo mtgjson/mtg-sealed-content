@@ -50,20 +50,20 @@ products:
       set: rtr
   Return to Ravnica Fat Pack: []
   Return to Ravnica Holiday Gift Box:
-    card_count: 1
     card:
     - foil: true
       name: Dreg Mangler
       number: 158
       set: prtr
-    sealed:
-    - count: 4
-      name: Return to Ravnica Booster Pack
-      set: rtr
+    card_count: 1
     other:
     - name: Land Pack
     - name: Dividers
     - name: Stickers
+    sealed:
+    - count: 4
+      name: Return to Ravnica Booster Pack
+      set: rtr
   Return to Ravnica Intro Pack Azorius Advance:
     card_count: 60
     deck:
