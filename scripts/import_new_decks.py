@@ -84,7 +84,7 @@ for deck in decks:
                 yaml.safe_dump(new_file, f)
 
         # Load existing products and add the new one
-        with open(products_path, "rb") as f:
+        with open(products_path, "r") as f:
             products = yaml.safe_load(f)
 
             # Prepare new product definition -- if a previous identifiers is present preserve it
@@ -119,7 +119,7 @@ for deck in decks:
             with open(contents_path, "w") as f:
                 yaml.safe_dump(new_file, f)
 
-        with open(contents_path, "rb") as f:
+        with open(contents_path, "r") as f:
             contents = yaml.safe_load(f)
 
             new_content = {}
