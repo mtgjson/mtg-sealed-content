@@ -6,7 +6,7 @@ from thefuzz import fuzz
 try:
     with open("data/review_temp.yaml") as review_file:
         review_data = yaml.safe_load(review_file)
-except:
+except FileNotFoundError:
     with open("data/review.yaml", "r") as review_file:
         review_data = yaml.safe_load(review_file)
 
