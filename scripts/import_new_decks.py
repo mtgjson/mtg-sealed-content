@@ -17,43 +17,45 @@ except json.JSONDecodeError:
     print(gh_request.content)
     sys.exit(1)
 
-for deck in decks:
-    set_code = deck["set_code"]
+skip_types = [
+    # skip mtgo decks
+    "Arena",
+    "Historic Brawl",
+    "MTGO Commander",
+    "MTGO Duel",
+    "MTGO Theme",
+    "Shandalar",
+    # skip artificial decks
+    "Bundle Land Pack",
+    # skip randomized decks
+    "Clash Pack",
+    "Sample Deck",
+    "Toolkit",
+    "Jumpstart",
+    # not supported downstream
+    "Enhanced Deck",
+    "Advanced Deck",
+]
 
-    skip_types = [
-        # skip mtgo decks
-        "Arena",
-        "Historic Brawl",
-        "MTGO Commander",
-        "MTGO Duel",
-        "MTGO Theme",
-        "Shandalar",
-        # skip artificial decks
-        "Bundle Land Pack",
-        # skip randomized decks
-        "Clash Pack",
-        "Sample Deck",
-        "Toolkit",
-        "Jumpstart",
-        # not supported downstream
-        "Enhanced Deck",
-        "Advanced Deck",
-    ]
+skip_sets = [
+    # The decks found in this set are not associated to any product
+    "pvan",
+    # The SDCC promos are duplicated and already loaded
+    "psdc", "ps14", "ps15", "ps16", "ps17", "ps18", "ps19",
+    # More online-only sets
+    "td0", "td2",
+]
+
+for deck in decks:
     if any(tag in deck["type"] for tag in skip_types):
         continue
-    skip_sets = [
-        # The decks found in this set are not associated to any product
-        "pvan",
-        # The SDCC promos are duplicated and already loaded
-        "psdc", "ps14", "ps15", "ps16", "ps17", "ps18", "ps19",
-        # More online-only sets
-        "td0", "td2",
-    ]
-    if any(tag in set_code for tag in skip_sets):
+    if any(tag in deck["set_code"] for tag in skip_sets):
         continue
     # Randomized decks
     if "Battle Pack" in deck["name"]:
         continue
+
+    set_code = deck["set_code"]
 
     is_present = False
     for current_deck in current_decks.get(set_code, []):
