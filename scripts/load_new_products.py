@@ -130,23 +130,24 @@ def get_tcgplayer(api_version, auth_code):
                 print(f"Issue with Sealed Product for Group ID: {group_id}: {response}")
                 break
 
-            product_name = product["cleanName"]
-            if any(tag.lower() in product_name.lower() for tag in skip_tags):
-                continue
-
-            if "Secret Lair" in product_name:
-                if any(tag.lower() in product_name.lower() for tag in sld_skip_tags):
+            for product in response["results"]:
+                product_name = product["cleanName"]
+                if any(tag.lower() in product_name.lower() for tag in skip_tags):
                     continue
 
-            cleaned_data = [
-                {
-                    "name": product_name,
-                    "id": product["productId"],
-                    "releaseDate": product["presaleInfo"].get("releasedOn"),
-                }
-                for product in response["results"]
-            ]
-            sealed_data.extend(cleaned_data)
+                if "Secret Lair" in product_name:
+                    if any(tag.lower() in product_name.lower() for tag in sld_skip_tags):
+                        continue
+
+                cleaned_data = [
+                    {
+                        "name": product_name,
+                        "id": product["productId"],
+                        "releaseDate": product["presaleInfo"].get("releasedOn"),
+                    }
+                ]
+                sealed_data.extend(cleaned_data)
+
             api_offset += len(response["results"])
 
             # If we got fewer results than requested, no more data is needed
