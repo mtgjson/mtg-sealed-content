@@ -55,7 +55,7 @@ for deck in decks:
         continue
 
     is_present = False
-    for current_deck in current_decks.get(set_code, ""):
+    for current_deck in current_decks.get(set_code, []):
         if current_deck == deck["name"]:
             is_present = True
             break
