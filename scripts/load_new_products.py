@@ -575,7 +575,8 @@ def load_coolstuffinc(secret):
 
         retail_data.extend(x for x in buylist_data if x not in retail_data)
         print(f"Total {len(retail_data)} products")
-    except Exception:
+    except Exception as e:
+        print(f"Exception for coolstuffinc: {repr(e)}")
         pass
 
     return retail_data
