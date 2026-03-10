@@ -95,6 +95,10 @@ while index < len(review_products):
             yaml.dump(ignore_content, ignore_file)
     elif product_check in ["0","1","2","3","4"]:
         check_index = int(product_check) + offset
+        if check_index >= len(known_products):
+            print(f"NOTE: Selection out of range, max index is {len(known_products) - 1}")
+            index -= 1
+            continue
         product_link = known_products[check_index]
         with open(product_link[1], 'r') as product_file:
             import_products = yaml.safe_load(product_file)
