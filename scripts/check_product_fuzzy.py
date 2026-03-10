@@ -144,9 +144,7 @@ while index < len(review_products):
                 index -= 1
                 continue
         else:
-            content = {}
-            content.setdefault("code", set_code.lower())
-            content.setdefault("products", {})
+            content = {"code": set_code.lower(), "products": {}}
 
         category = "UNKNOWN"
         if "Booster Box Case" in product_name:
