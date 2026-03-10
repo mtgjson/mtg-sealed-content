@@ -755,7 +755,7 @@ def load_tnt(nothing):
             try:
                 name = div.find('div', attrs={"class": "col-11 prod-title"}).get_text().strip()
                 productURL = div.find('a', attrs={"class": "card-text"}).get("href")
-                print(f"Found {title} {productURL}")
+                print(f"Found {name} {productURL}")
             except Exception:
                 continue
 
@@ -763,7 +763,7 @@ def load_tnt(nothing):
                 continue
 
             tntId = productURL.rsplit('/', 1)[-1]
-            print(f"Found {title} {tntId}")
+            print(f"Found {name} {tntId}")
 
             sealed_data.extend([
                 {
