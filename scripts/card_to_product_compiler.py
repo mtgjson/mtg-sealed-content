@@ -210,28 +210,28 @@ class MtgjsonCardLinker:
 
             for card_uuid in cards_in_sheet.keys():
                 finish = "nonfoil"
-                theCode = ""
+                code = ""
 
                 # Validate a card can effectively be etched or foil by looking
                 # at the finish array. To retrieve this info we need to iterate
                 # on the possible set codes present in the pack
                 if sheet_data["sheets"][sheet]["foil"]:
                     finishes = []
-                    for code in sheet_data["sourceSetCodes"]:
-                        for card in self.mtgjson_data[code]["cards"]:
+                    for source_code in sheet_data["sourceSetCodes"]:
+                        for card in self.mtgjson_data[source_code]["cards"]:
                             if card_uuid == card["uuid"]:
                                 finishes = card["finishes"]
-                                theCode = code
+                                code = source_code
 
                                 # This set is particularly complicated because only certain portions
                                 # of the cards have this problem, therefore parse the number and skip
                                 # any fixing if it's not in the right range
-                                if theCode == "MH2":
+                                if code == "MH2":
                                     num = int(card["number"])
                                     # 262-441 has all the non basic cards that could be foil or etched
                                     # so process those below and skip otherwise
                                     if num < 262 or num > 441:
-                                        theCode = ""
+                                        code = ""
 
                     # Check if sheet contains "etched" or if there is a single finish (matching to "etched")
                     # ie. for some MH3 etched-only cards, otherwise check if there is a valid foil finish
@@ -243,7 +243,7 @@ class MtgjsonCardLinker:
                 return_value.add(Card(card_uuid, finish))
 
                 # Upstream does not track etched version of these cards, so we duplicate them here
-                if theCode and theCode in ["H1R", "MH2", "STA"]:
+                if code and code in ["H1R", "MH2", "STA"]:
                     return_value.add(Card(card_uuid, "etched"))
 
         return list(return_value)
