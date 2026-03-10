@@ -89,6 +89,10 @@ class MtgjsonCardLinker:
     def get_cards_in_content_type(
         self, content_key: str, content: Dict[str, Any]
     ) -> List[Card]:
+
+        if content_key not in ["card", "pack", "sealed", "deck", "variable", "other"]:
+            raise ValueError(f"Unknown content_key: {content_key}")
+
         if content_key == "card":
             """
             "card": [
