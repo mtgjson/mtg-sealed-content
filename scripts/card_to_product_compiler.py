@@ -216,6 +216,7 @@ class MtgjsonCardLinker:
                 # at the finish array. To retrieve this info we need to iterate
                 # on the possible set codes present in the pack
                 if sheet_data["sheets"][sheet]["foil"]:
+                    finishes = []
                     for code in sheet_data["sourceSetCodes"]:
                         for card in self.mtgjson_data[code]["cards"]:
                             if card_uuid == card["uuid"]:
@@ -276,6 +277,7 @@ class MtgjsonCardLinker:
                 # Validate a card can effectively be etched or foil by looking
                 # at the finish array. To retrieve this info we need to iterate
                 # on the possible set codes present in the deck
+                finishes = []
                 for code in deck["sourceSetCodes"]:
                     if code not in self.mtgjson_data:
                         print(f"Note: {code} was NOT found in mtgjson")
