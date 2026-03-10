@@ -11,7 +11,7 @@ gh_request = requests.get("https://raw.githubusercontent.com/taw/magic-preconstr
 
 try:
     decks = json.loads(gh_request.content)
-except:
+except json.JSONDecodeError:
     print("unable to load magic-preconstructed-decks-data file, here are the contents")
     print(gh_request.content)
     exit(1)
