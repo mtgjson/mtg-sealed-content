@@ -1,4 +1,5 @@
 import json
+import sys
 from pathlib import Path
 import requests
 import yaml
@@ -14,7 +15,7 @@ try:
 except json.JSONDecodeError:
     print("unable to load magic-preconstructed-decks-data file, here are the contents")
     print(gh_request.content)
-    exit(1)
+    sys.exit(1)
 
 for deck in decks:
     set_code = deck["set_code"]
