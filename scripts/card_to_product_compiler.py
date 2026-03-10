@@ -53,18 +53,18 @@ class MtgjsonCardLinker:
 
             print(f"Building {set_code}")
             for sealed_product in set_data["sealedProduct"]:
-                cards_map = self.get_cards_in_sealed_product(
+                cards_list = self.get_cards_in_sealed_product(
                     set_code, sealed_product.get("uuid")
                 )
-                for card in cards_map.keys():
+                for card in cards_list:
                     return_value[card].add(sealed_product.get("uuid"))
 
         return return_value
 
     def get_cards_in_sealed_product(
         self, set_code: str, sealed_product_uuid: str
-    ) -> Dict[Card, Set[str]]:
-        return_value = defaultdict(set)
+    ) -> List[Card]:
+        return_value = set()
 
         for sealed_product in self.mtgjson_data[set_code]["sealedProduct"]:
             if sealed_product_uuid != sealed_product.get("uuid"):
@@ -73,11 +73,10 @@ class MtgjsonCardLinker:
             for content_key, contents in sealed_product.get("contents", {}).items():
                 for content in contents:
                     cards = self.get_cards_in_content_type(content_key, content)
-                    for card in cards:
-                        return_value[card].add(sealed_product_uuid)
+                    return_value.update(cards)
             break
 
-        return return_value
+        return list(return_value)
 
     @staticmethod
     def get_card_obj_from_card(card_content: Dict[str, Any]) -> List[Card]:
