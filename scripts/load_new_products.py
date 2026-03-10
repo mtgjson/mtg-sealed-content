@@ -665,7 +665,7 @@ def get_abu_link(page, limit):
     return "https://data.abugames.com/solr/nodes/select?q=*:*&fq=%2Bcategory%3A%22Magic%20the%20Gathering%20Sealed%20Product%22%20-offline_item%3Atrue%20OR%20-title%3A%22STORE%22%20OR%20-title%3A%22AUCTION%22%20OR%20-title%3A%22OVERSTOCK%22%20%2Blanguage_magic_sealed_product%3A(%22English%22)&sort=display_title%20asc&wt=json&rows=" + str(limit) + "&start=" + str(page * limit)
 
 
-def load_abugames(nothing):
+def load_abugames(_):
     sealed_data = []
 
     skip_tags = [
@@ -723,7 +723,7 @@ def load_abugames(nothing):
     return sealed_data
 
 
-def load_tnt(nothing):
+def load_tnt(_):
     sealed_data = []
 
     skip_tags = [
