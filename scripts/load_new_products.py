@@ -895,7 +895,7 @@ def main(secret, pull_data=True):
                     "subtype": "UNKNOWN"
                 }
                 ids[key].add(str(product["id"]))
-                if product.get("releaseDate") != None:
+                if product.get("releaseDate") is not None:
                     try:
                         date_obj = datetime.strptime(product["releaseDate"], "%Y-%m-%dT%H:%M:%S")
                     except Exception:
@@ -946,4 +946,4 @@ if __name__ == "__main__":
             print(f"{key} is disabled due missing auth")
             providers_dict[key]["disabled"] = True
 
-    main(secret)
+
