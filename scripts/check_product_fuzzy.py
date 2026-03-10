@@ -193,7 +193,7 @@ while index < len(review_products):
         with target_path.open("w") as product_file:
             yaml.dump(content, product_file)
 
-        known_products.append((product_name, str(target_path)))
+        known_products.append((product_name, target_path))
         print("Product added, don't forget to review and update default fields")
 
     else:
