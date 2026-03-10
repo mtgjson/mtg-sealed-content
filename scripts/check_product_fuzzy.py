@@ -56,6 +56,10 @@ while index < len(review_products):
             product_check = "0"
             offset = i
 
+    # Default selection
+    if product_check == "":
+        product_check = "0"
+
     if product_check == "q":
         break
     elif product_check == "s":
@@ -89,9 +93,7 @@ while index < len(review_products):
             ignore_content[provmap[provider]].update({identifier: product[0]})
         with open("data/ignore.yaml", "w") as ignore_file:
             yaml.dump(ignore_content, ignore_file)
-    elif product_check in "01234":
-        if product_check == "":
-            product_check = "0"
+    elif product_check in ["0","1","2","3","4"]:
         check_index = int(product_check) + offset
         product_link = known_products[check_index]
         with open(product_link[1], 'r') as product_file:
