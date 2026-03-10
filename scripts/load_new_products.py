@@ -1,19 +1,10 @@
 import json
 import sys
-import os
-import io
 from datetime import datetime
 from pathlib import Path
 
-import mkmsdk.exceptions
-from mkmsdk.api_map import _API_MAP
-from mkmsdk.mkm import Mkm
-
 import requests
 import yaml
-import csv
-import base64
-import zlib
 
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
