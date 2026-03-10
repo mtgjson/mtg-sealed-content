@@ -901,7 +901,7 @@ def main(secret, pull_data=True):
                     except Exception:
                         date_obj = datetime.strptime(product["releaseDate"], "%Y-%m-%d %H:%M:%S")
                         pass
-                    reviews[key][product["name"]]["release_date"] = date_obj.strftime("%Y-%m-%d")
+                    reviews[key][prod_name]["release_date"] = date_obj.strftime("%Y-%m-%d")
     
         # Dump new products into the review section
         with open("data/review.yaml", "w") as yfile:
