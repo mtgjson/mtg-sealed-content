@@ -125,8 +125,6 @@ class MtgjsonCardLinker:
                 }
             ]
             """
-            if "uuid" not in content:
-                return []
             return self.get_cards_in_sealed_product(
                 content["set"].upper(), content.get("uuid")
             )
