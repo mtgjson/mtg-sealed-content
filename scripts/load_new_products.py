@@ -18,6 +18,10 @@ import zlib
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 
+
+DEFAULT_TCGAPI_VERSION = "v1.39.0"
+
+
 def get_cardKingdom():
     sealed_url = "https://api.cardkingdom.com/api/sealed_pricelist"
     r = requests.get(sealed_url)
@@ -161,7 +165,7 @@ def get_tcgplayer(api_version, auth_code):
 
 def get_tcg_auth_code(secret):
     if not secret:
-        return "v1.39.0", ""
+        return DEFAULT_TCGAPI_VERSION, ""
     tcg_post = requests.post(
         "https://api.tcgplayer.com/token",
         data={
@@ -173,10 +177,10 @@ def get_tcg_auth_code(secret):
     )
     if not tcg_post.ok:
         print(f"Unable to contact TCGPlayer. Reason: {tcg_post.reason}")
-        return ""
+        return DEFAULT_TCGAPI_VERSION, ""
     request_as_json = json.loads(tcg_post.text)
 
-    api_version = secret.get("api_version", "v1.39.0")
+    api_version = secret.get("api_version", DEFAULT_TCGAPI_VERSION)
 
     return api_version, str(request_as_json.get("access_token", ""))
 
