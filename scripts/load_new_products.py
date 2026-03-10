@@ -97,6 +97,8 @@ def get_tcgplayer(api_version, auth_code):
 
         api_offset += len(response["results"])
 
+    print(f"Loaded {len(magic_set_ids)} sets")
+
     sealed_data = []
     for group_id in magic_set_ids:
         api_offset = 0
