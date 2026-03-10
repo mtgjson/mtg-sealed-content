@@ -46,13 +46,17 @@ skip_sets = [
     "td0", "td2",
 ]
 
+skip_names = [
+    # Randomized decks
+    "Battle Pack",
+]
+
 for deck in decks:
     if any(tag in deck["type"] for tag in skip_types):
         continue
     if any(tag in deck["set_code"] for tag in skip_sets):
         continue
-    # Randomized decks
-    if "Battle Pack" in deck["name"]:
+    if any(tag in deck["name"] for tag in skip_names):
         continue
 
     set_code = deck["set_code"]
