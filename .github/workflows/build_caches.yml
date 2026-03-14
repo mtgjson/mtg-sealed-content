@@ -33,6 +33,19 @@ jobs:
       - name: execute card to product mapper
         run: python scripts/card_to_product_compiler.py -o outputs/card_map.json
 
+      - name: validate card_map is not empty
+        run: |
+          if [ ! -s outputs/card_map.json ]; then
+            echo "ERROR: card_map.json is empty or missing"
+            exit 1
+          fi
+          KEYS=$(python -c "import json; print(len(json.load(open('outputs/card_map.json'))))")
+          if [ "$KEYS" -eq 0 ]; then
+            echo "ERROR: card_map.json has no entries"
+            exit 1
+          fi
+          echo "card_map.json has $KEYS entries"
+
       - name: commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
