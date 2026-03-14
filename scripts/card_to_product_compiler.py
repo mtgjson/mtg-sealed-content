@@ -31,13 +31,16 @@ class MtgjsonCardLinker:
             print("Loading local AllPrintings.json")
             with open(mtgjson_path) as f:
                 self.mtgjson_data = json.load(f).get("data")
-            return
+        else:
+            print("Downloading latest AllPrintings.json")
+            _all_printings_url = "https://mtgjson.com/api/v5/AllPrintings.json"
+            request_wrapper = requests.get(_all_printings_url)
+            request_wrapper.raise_for_status()
 
-        print("Downloading latest AllPrintings.json")
-        _all_printings_url = "https://mtgjson.com/api/v5/AllPrintings.json"
-        request_wrapper = requests.get(_all_printings_url)
+            self.mtgjson_data = json.loads(request_wrapper.content).get("data")
 
-        self.mtgjson_data = json.loads(request_wrapper.content).get("data")
+        if not self.mtgjson_data:
+            raise RuntimeError("AllPrintings data is empty or missing 'data' key")
 
     def build(self, code: str) -> Dict[Card, Set[str]]:
         return_value = defaultdict(set)
@@ -319,6 +322,10 @@ def parse_args() -> argparse.Namespace:
 
 def main(args: argparse.Namespace):
     card_to_products_data = MtgjsonCardLinker(args.mtgjson).build(args.set)
+
+    if not card_to_products_data:
+        raise RuntimeError("Build produced no card-to-product mappings; refusing to write empty output")
+
     with pathlib.Path(args.output_file).expanduser().open("w", encoding="utf-8") as fp:
         json.dump(results_to_json(card_to_products_data), fp, indent=4, sort_keys=True)
 
