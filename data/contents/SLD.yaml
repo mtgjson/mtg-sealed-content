@@ -6747,15 +6747,29 @@ products:
     - name: 'KEXP: You Are Not Alone Foil Edition'
       set: sld
   Secret Lair Drop Secret Lair x MSCHF:
-    card:
-    - foil: true
-      name: Battlefield Forge
-      number: 669
-      set: sld
     card_count: 5
     deck:
     - name: MSCHF
       set: sld
+    # This is the same bonus card, but both facesare present in the catalog.
+    # List them both here, and make one impossible to find via drop rate chance,
+    # so that card mapping works, and ev is not affected.
+    variable:
+    - card:
+      - foil: true
+        name: Plains
+        number: 670
+        set: sld
+      chance: 0
+    - card:
+      - foil: true
+        name: Battlefield Forge
+        number: 669
+        set: sld
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 1
   Secret Lair Drop Secret Lair x Marvels Black Panther:
     card_count: 5
     deck:
