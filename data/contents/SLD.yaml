@@ -3314,6 +3314,13 @@ products:
     deck:
     - name: Dan Frazier's Mox Box
       set: sld
+  "Secret Lair Drop Dand\xE2n Deck":
+    card_count: 27
+    deck:
+    - name: "Dand\xE2n Deck"
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Death Is Temporary Metal Is Forever:
     card_count: 5
     deck:
@@ -6751,9 +6758,6 @@ products:
     deck:
     - name: MSCHF
       set: sld
-    # This is the same bonus card, but both facesare present in the catalog.
-    # List them both here, and make one impossible to find via drop rate chance,
-    # so that card mapping works, and ev is not affected.
     variable:
     - card:
       - foil: true
