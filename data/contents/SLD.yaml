@@ -6758,6 +6758,8 @@ products:
     deck:
     - name: MSCHF
       set: sld
+    other:
+    - name: "NOTE: The bonus card is the same, but both faces are present in the catalog. List them both here, and make one impossible to find via drop rate chance, so that card mapping works, and ev is not affected."
     variable:
     - card:
       - foil: true
