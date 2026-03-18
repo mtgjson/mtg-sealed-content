@@ -313,7 +313,7 @@ def results_to_json(
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser("card2product")
 
-    parser.add_argument("--output-file", "-o", type=str, required=True)
+    parser.add_argument("--output-file", "-o", type=str, required=False)
     parser.add_argument("--mtgjson", "-m", type=str, required=False)
     parser.add_argument("--set", "-s", type=str, required=False)
 
@@ -321,6 +321,12 @@ def parse_args() -> argparse.Namespace:
 
 
 def main(args: argparse.Namespace):
+    if not args.output_file:
+        if args.set:
+            args.output_file = args.set + ".json"
+        else:
+            raise RuntimeError("Missing output path")
+
     card_to_products_data = MtgjsonCardLinker(args.mtgjson).build(args.set)
 
     if not card_to_products_data:
