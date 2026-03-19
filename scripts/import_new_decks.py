@@ -105,21 +105,28 @@ def add_content(set_code, name, deck):
     with open(contents_path, "r") as f:
         contents = yaml.safe_load(f)
 
-        new_content = {}
+        # use setdefault to write fields that aren't already present in the
+        # existing entry and create new ones if we're adding a new product
+        content = contents["products"].get(name, {})
+
         card_count = sum(card["count"] for card in deck["cards"])
-        new_content["card_count"] = card_count
-        new_content["deck"] = [{
+        content.setdefault("card_count", card_count)
+
+        new_deck = [{
             "name": deck["name"],
             "set": set_code,
         }]
+        content.setdefault("deck", new_deck)
 
-        # if it's a new SLD deck we need to add a bonus card entry
-        if set_code == "sld":
-            new_content["other"] = [{
+        # we need to add a bonus card entry if no card has been set and there
+        # isn't any other note (i.e. to mention that the drop has no bonus card
+        if set_code == "sld" and ("card" not in content and "other" not in existing_content):
+            note = [{
                 "name": "Bonus card unknown",
             }]
+            content.setdefault("other", note)
 
-        contents["products"][name] = new_content
+        contents["products"][name] = content
 
     with open(contents_path, "w") as f:
         yaml.safe_dump(contents, f)
