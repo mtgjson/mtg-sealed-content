@@ -84,13 +84,16 @@ def get_tcgplayer(api_version, auth_code):
 
         response = json.loads(api_response)
         if not response["results"]:
-            # Something went wrong
+            # No more entries
             break
 
         for magic_set in response["results"]:
             magic_set_ids.append((magic_set["groupId"], magic_set["name"]))
 
         api_offset += len(response["results"])
+
+        if len(response["results"]) < 100:
+            break
 
     print(f"Loaded {len(magic_set_ids)} sets")
 
