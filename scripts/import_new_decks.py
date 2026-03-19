@@ -140,17 +140,19 @@ for deck in decks:
             is_present = True
             break
 
-    if not is_present:
-        print(f"Adding {deck['name']} to {set_code}")
+    if is_present:
+        continue
 
-        name = f"{deck['set_name']} {deck['type']} {deck['name']}"
-        if set_code in ["sld", "slc"]:
-            name = f"{deck['set_name']} {deck['name']}"
-            # TODO: we should really follow upstream instead of tweaking the name
-            name = name.replace(" Edition", "").replace("'", "").replace(":","").replace("-", " ")
+    print(f"Adding {deck['name']} to {set_code}")
 
-        # Avoid duplicating the Commander tag from edition name and deck type above
-        name = name.replace("Commander Commander", "Commander")
+    name = f"{deck['set_name']} {deck['type']} {deck['name']}"
+    if set_code in ["sld", "slc"]:
+        name = f"{deck['set_name']} {deck['name']}"
+        # TODO: we should really follow upstream instead of tweaking the name
+        name = name.replace(" Edition", "").replace("'", "").replace(":","").replace("-", " ")
 
-        add_product(set_code, name, deck)
-        add_content(set_code, name, deck)
+    # Avoid duplicating the Commander tag from edition name and deck type above
+    name = name.replace("Commander Commander", "Commander")
+
+    add_product(set_code, name, deck)
+    add_content(set_code, name, deck)
