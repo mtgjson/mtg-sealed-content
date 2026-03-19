@@ -841,10 +841,10 @@ def main(secret, pull_data=True):
     
         # Load data from the known products
         for known_file in Path("data/products").glob("*.yaml"):
-            with open(known_file, "rb") as yfile:
+            with open(known_file, "r") as yfile:
                 loaded_data = yaml.safe_load(yfile)
             with open(known_file, "w") as yfile:
-                yaml.dump(loaded_data, yfile)
+                yaml.safe_dump(loaded_data, yfile)
     
             # For each provider, load every known id
             for key, provider in providers_dict.items():
@@ -897,7 +897,7 @@ def main(secret, pull_data=True):
     
         # Dump new products into the review section
         with open("data/review.yaml", "w") as yfile:
-            yaml.dump(reviews, yfile)
+            yaml.safe_dump(reviews, yfile)
 
     # Add any new/modified products to the contents files
     for set_file in Path("data/products").glob("*.yaml"):
@@ -919,7 +919,7 @@ def main(secret, pull_data=True):
         for n in removes:
             content_data["products"].pop(n)
         with open(Path("data/contents").joinpath(set_file.name), "w") as yfile:
-            yaml.dump(content_data, yfile)
+            yaml.safe_dump(content_data, yfile)
 
 
 if __name__ == "__main__":
