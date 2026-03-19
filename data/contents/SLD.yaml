@@ -4073,19 +4073,24 @@ products:
     other:
     - name: Bonus card unknown
   Secret Lair Drop Featuring Stan Sakai:
+    card:
+    - name: Big Score
+      number: 7076
+      set: sld
     card_count: 5
     deck:
     - name: 'Featuring: Stan Sakai'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Featuring Stan Sakai Foil:
+    card:
+    - foil: true
+      name: Big Score
+      number: 7076
+      set: sld
     card_count: 5
     deck:
     - name: 'Featuring: Stan Sakai Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Featuring the Mountain Goats:
     card:
     - name: Mountain Goat
