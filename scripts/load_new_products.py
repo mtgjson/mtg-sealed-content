@@ -816,8 +816,8 @@ providers_dict = {
 }
 
 
-def main(secret, pull_data=True):
-    if pull_data:
+def main(secret):
+    if secret:
         # Load any prerequisite data (auth or similar)
         for provider in providers_dict.values():
             if provider.get("disabled") or provider.get("preload_func") is None:
@@ -923,17 +923,16 @@ def main(secret, pull_data=True):
 
 
 if __name__ == "__main__":
+    secret = {}
+
     try:
         secret = json.loads(" ".join(sys.argv[1:])[1:-1])
     except Exception:
         print("Unable to parse auth - only non-authenticated requests will succeed")
-        secret = {}
-        if len(sys.argv) > 1 and sys.argv[1] == "--parseonly":
-            main({}, False)
-            quit()
-        pass
 
     for key, provider in providers_dict.items():
         if provider.get("auth") and not all(key in secret for key in provider.get("auth")):
             print(f"{key} is disabled due missing auth")
             providers_dict[key]["disabled"] = True
+
+    main(secret)
