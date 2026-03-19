@@ -3314,12 +3314,19 @@ products:
     - name: Dan Frazier's Mox Box
       set: sld
   "Secret Lair Drop Dand\xE2n Deck":
-    card_count: 27
+    card:
+    - foil: true
+      name: Vision Charm
+      number: 7040
+      set: sld
+    - foil: true
+      name: Vision Charm
+      number: 7040
+      set: sld
+    card_count: 80
     deck:
     - name: "Dand\xE2n Deck"
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Death Is Temporary Metal Is Forever:
     card_count: 5
     deck:
