@@ -911,7 +911,7 @@ def main(secret, pull_data=True):
             content_data = {"code": load_data['code'], "products":{}}
         for p_name in load_data["products"].keys():
             if p_name not in content_data["products"]:
-                content_data["products"][p_name] = []
+                content_data["products"][p_name] = {}
         removes = []
         for p_name, p_cont in content_data["products"].items():
             if not p_cont and p_name not in load_data["products"]:
@@ -937,5 +937,3 @@ if __name__ == "__main__":
         if provider.get("auth") and not all(key in secret for key in provider.get("auth")):
             print(f"{key} is disabled due missing auth")
             providers_dict[key]["disabled"] = True
-
-
