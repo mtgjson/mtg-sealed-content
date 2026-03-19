@@ -106,7 +106,8 @@ def add_content(set_code, name, deck):
         contents = yaml.safe_load(f)
 
         new_content = {}
-        new_content["card_count"] = len(deck["cards"])
+        card_count = sum(card["count"] for card in deck["cards"])
+        new_content["card_count"] = card_count
         new_content["deck"] = [{
             "name": deck["name"],
             "set": set_code,
