@@ -526,8 +526,8 @@ def load_starcity_buylist(secret):
         resp = scgbuylistdownload(bearer, page, 200)
         for result in resp["hits"]:
             title = result["name"]
-            if result["subtitle"]:
-                title += " " + result["subtitle"]
+            if result.get("subtitle"):
+                title += " " + result.get("subtitle")
 
             scgId = result["variants"][0]["sku"]
             if not scgId.startswith("SLD-MTG"):
