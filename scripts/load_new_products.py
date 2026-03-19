@@ -677,11 +677,12 @@ def load_abugames(_):
         data = json.loads(r.content)
         response = data.get("response")
 
-        if len(response.get("docs")) == 0:
+        docs = response.get("docs")
+        if len(docs) == 0:
             break
         page += 1
 
-        for product in response.get("docs"):
+        for product in docs:
             product_id = product.get("id")
             name = product.get("display_title")
 
@@ -711,6 +712,9 @@ def load_abugames(_):
                     "id": product_id,
                 }
             ])
+
+        if len(docs) < limit:
+            break
 
     return sealed_data
 
