@@ -938,7 +938,7 @@ if __name__ == "__main__":
         print("Unable to parse auth - only non-authenticated requests will succeed")
 
     for key, provider in providers_dict.items():
-        if provider.get("auth") and not all(key in secret for key in provider.get("auth")):
+        if provider.get("auth") and not all(auth_key in secret for auth_key in provider.get("auth")):
             print(f"{key} is disabled due missing auth")
             providers_dict[key]["disabled"] = True
 
