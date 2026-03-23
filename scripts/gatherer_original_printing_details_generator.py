@@ -13,6 +13,7 @@ import requests_cache
 class GathererDownloader:
     session: requests_cache.CachedSession
     original_text_regex: re.Pattern
+    original_type_regex: re.Pattern
     multiverse_id_text_regex: re.Pattern
     split_card_regex: re.Pattern
     old_school_mana_regex: re.Pattern
@@ -29,8 +30,9 @@ class GathererDownloader:
             }
         )
 
-        # The original printed text is stored in a <script> tag, and we need to parse it out
+        # The original printed text/type are stored in a <script> tag, and we need to parse them out
         self.original_text_regex = re.compile(r"\"instanceText\":\"(.*?)\",")
+        self.original_type_regex = re.compile(r"\"instanceTypeLine\":\"(.*?)\",")
         # We need to know the multiverse ID of the card, and again we need to <script> tag search it
         self.multiverse_id_text_regex = re.compile(r'\\"multiverseId\\":([0-9]+)')
         self.split_card_regex = re.compile(r"(.*?)\n?///?\n(?:.*?\n){3}(.*)", re.DOTALL)
@@ -101,14 +103,17 @@ class GathererDownloader:
         print(f"No multiverse ID found for {card_url}")
         return 0
 
-    def get_card_original_printed_text(self, card_url: str) -> Optional[str]:
-        card_data_response = html.unescape(
+    def _get_decoded_card_response(self, card_url: str) -> str:
+        return html.unescape(
             self.session.get(card_url)
             .content.decode("unicode_escape")
             .replace("\u2028", "")  # Exception case for WWK #4 - Battle Hurda
             .encode("latin1")
             .decode("utf-8")
         )
+
+    def get_card_original_printed_text(self, card_url: str) -> Optional[str]:
+        card_data_response = self._get_decoded_card_response(card_url)
 
         original_texts = self.original_text_regex.findall(card_data_response)
         if not original_texts:
@@ -127,6 +132,18 @@ class GathererDownloader:
         for func in functions:
             text = func(text)
         return text
+
+    def get_card_original_printed_type(self, card_url: str) -> Optional[str]:
+        card_data_response = self._get_decoded_card_response(card_url)
+
+        original_types = self.original_type_regex.findall(card_data_response)
+        if not original_types:
+            return ""
+
+        type_line = original_types[0]
+        type_line = self.__strip_slashes(type_line)
+        type_line = self.__strip_html(type_line)
+        return type_line
 
     @staticmethod
     def __strip_slashes(card_text: str) -> str:
@@ -188,18 +205,22 @@ def download_set(set_code: str) -> None:
     )
     downloader = GathererDownloader(cached_session)
 
-    multiverse_id_to_printed_text_mapping = dict()
+    multiverse_id_to_printed_details_mapping = dict()
 
     card_urls = downloader.get_card_urls_from_set_code(set_code)
     for card_url in card_urls:
         multiverse_id = downloader.get_card_multiverse_id(card_url)
         if multiverse_id:
             original_printed_text = downloader.get_card_original_printed_text(card_url)
-            multiverse_id_to_printed_text_mapping[multiverse_id] = original_printed_text
+            original_printed_type = downloader.get_card_original_printed_type(card_url)
+            multiverse_id_to_printed_details_mapping[multiverse_id] = {
+                "text": original_printed_text,
+                "type": original_printed_type,
+            }
 
     with pathlib.Path(f"dumps/{set_code}.json").open("w") as dump_file:
         json.dump(
-            multiverse_id_to_printed_text_mapping,
+            multiverse_id_to_printed_details_mapping,
             dump_file,
             indent=4,
             sort_keys=True,
@@ -229,26 +250,37 @@ def main():
     with multiprocessing.Pool() as pool:
         pool.map(download_set, set_codes)
 
-    combined_multiverse_id_to_printed_text_mappings = {}
+    combined_multiverse_id_to_printed_details_mappings = {}
 
     # Load and merge each JSON file from 'dumps' into the combined dictionary
     for done_set_path in pathlib.Path("dumps").glob("*.json"):
         with done_set_path.open("r", encoding="utf-8") as f:
             data = json.load(f)
-            combined_multiverse_id_to_printed_text_mappings.update(data)
+            combined_multiverse_id_to_printed_details_mappings.update(data)
 
-    # Support manual overrides, when necessary
+    # Support manual text overrides, when necessary
     with pathlib.Path("data/gatherer_multiverse_id_overrides.json").open(
         "r", encoding="utf-8"
     ) as fp:
-        combined_multiverse_id_to_printed_text_mappings.update(json.load(fp))
+        for key, value in json.load(fp).items():
+            if key in combined_multiverse_id_to_printed_details_mappings:
+                combined_multiverse_id_to_printed_details_mappings[key]["text"] = value
+            else:
+                combined_multiverse_id_to_printed_details_mappings[key] = {
+                    "text": value,
+                    "type": "",
+                }
 
     # Convert all keys to integers (they are strings in the JSON dumps)
-    final_result = {
-        int(key): [{"original_text": value}]
-        for key, value in combined_multiverse_id_to_printed_text_mappings.items()
-        if value
-    }
+    final_result = {}
+    for key, value in combined_multiverse_id_to_printed_details_mappings.items():
+        text = value.get("text", "") if isinstance(value, dict) else value
+        type_line = value.get("type", "") if isinstance(value, dict) else ""
+        if text or type_line:
+            entry = {"original_text": text}
+            if type_line:
+                entry["original_type"] = type_line
+            final_result[int(key)] = [entry]
     with pathlib.Path("outputs/gatherer_mapping.json").open(
         "w", encoding="utf-8"
     ) as fp:
