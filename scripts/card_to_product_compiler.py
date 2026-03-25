@@ -56,6 +56,8 @@ class MtgjsonCardLinker:
 
             print(f"Building {set_code}")
             for sealed_product in set_data["sealedProduct"]:
+                print(f"Mapping {sealed_product.get('name')}")
+
                 cards_list = self.get_cards_in_sealed_product(
                     set_code, sealed_product.get("uuid")
                 )
