@@ -5,6 +5,7 @@ products:
     identifiers:
       cardtraderId: '370625'
       mcmId: '869508'
+      scgId: SLD-MTG-BXS-MSHBEGINNER-EN
       tcgplayerProductId: '675613'
     subtype: UNKNOWN
   Marvel Super Heroes Beginner Box Case:
@@ -17,6 +18,7 @@ products:
     identifiers:
       cardtraderId: '370624'
       mcmId: '869513'
+      scgId: SLD-MTG-BUN-MSH-EN
       tcgplayerProductId: '675615'
     subtype: UNKNOWN
   Marvel Super Heroes Bundle Case:
@@ -29,6 +31,7 @@ products:
     identifiers:
       cardtraderId: '370618'
       mcmId: '869496'
+      scgId: SLD-MTG-BBX-MSH-EN
       tcgplayerProductId: '675606'
     subtype: COLLECTOR
   Marvel Super Heroes Collector Booster Box Case:
@@ -46,6 +49,7 @@ products:
     identifiers:
       cardtraderId: '370621'
       mcmId: '869492'
+      scgId: SLD-MTG-PCK-MSHCOLLECTOR-EN
       tcgplayerProductId: '675605'
     subtype: COLLECTOR
   Marvel Super Heroes Draft Night:
@@ -53,6 +57,7 @@ products:
     identifiers:
       cardtraderId: '370623'
       mcmId: '869507'
+      scgId: SLD-MTG-DFT-MSH-EN
       tcgplayerProductId: '675625'
     subtype: UNKNOWN
   Marvel Super Heroes Draft Night Case:
@@ -65,6 +70,7 @@ products:
     identifiers:
       cardtraderId: '370626'
       mcmId: '869525'
+      scgId: SLD-MTG-BUN-MSHGIFT-EN
       tcgplayerProductId: '675617'
     subtype: UNKNOWN
   Marvel Super Heroes Gift Bundle Case:
@@ -77,6 +83,7 @@ products:
     identifiers:
       cardtraderId: '370617'
       mcmId: '869495'
+      scgId: SLD-MTG-BBX-MSHJUMPSTART-EN
       tcgplayerProductId: '675623'
     subtype: UNKNOWN
   Marvel Super Heroes Jumpstart Booster Box Case:
@@ -89,6 +96,7 @@ products:
     identifiers:
       cardtraderId: '370620'
       mcmId: '869491'
+      scgId: SLD-MTG-PCK-MSHJUMPSTART-EN
       tcgplayerProductId: '675622'
     subtype: UNKNOWN
   Marvel Super Heroes Play Booster Box:
@@ -96,11 +104,13 @@ products:
     identifiers:
       cardtraderId: '370616'
       mcmId: '869494'
+      scgId: SLD-MTG-BBX-MSHPLAY-EN
       tcgplayerProductId: '675603'
     subtype: PLAY
   Marvel Super Heroes Play Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
+      scgId: SLD-MTG-BBX-MSHPLAYCASE-EN
       tcgplayerProductId: '675604'
     subtype: PLAY
   Marvel Super Heroes Play Booster Pack:
@@ -108,6 +118,7 @@ products:
     identifiers:
       cardtraderId: '370619'
       mcmId: '869490'
+      scgId: SLD-MTG-PCK-MSHPLAY-EN
       tcgplayerProductId: '675602'
     subtype: PLAY
   Marvel Super Heroes Prerelease Pack:
@@ -115,6 +126,7 @@ products:
     identifiers:
       cardtraderId: '370627'
       mcmId: '869532'
+      scgId: SLD-MTG-PRE-MSH-EN
       tcgplayerProductId: '675610'
     subtype: PRERELEASE
   Marvel Super Heroes Prerelease Pack Case:
@@ -132,6 +144,7 @@ products:
     identifiers:
       cardtraderId: '370628'
       mcmId: '869509'
+      scgId: SLD-MTG-BXS-MSHSCENE-EN-UNITED
       tcgplayerProductId: '675619'
     subtype: UNKNOWN
   Marvel Super Heroes Scene Box Villains Unleashed:
@@ -139,5 +152,6 @@ products:
     identifiers:
       cardtraderId: '370629'
       mcmId: '869510'
+      scgId: SLD-MTG-BXS-MSHSCENE-EN-VILLAINS
       tcgplayerProductId: '675620'
     subtype: UNKNOWN
