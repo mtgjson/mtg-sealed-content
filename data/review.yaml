@@ -79,6 +79,11 @@ cardMarket:
     release_date: '2026-01-28'
     subtype: UNKNOWN
 cardTrader:
+  "Chaos Vault: Dand\xE2n Deck":
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '380361'
+    subtype: UNKNOWN
   FINAL FANTASY Basic Booster:
     category: UNKNOWN
     identifiers:
@@ -114,12 +119,7 @@ cardTrader:
     identifiers:
       cardtraderId: '370608'
     subtype: UNKNOWN
-coolstuffinc:
-  'Magic: the Gathering - Marvel''s Spider-Man - Bundle':
-    category: UNKNOWN
-    identifiers:
-      csiId: '417502'
-    subtype: UNKNOWN
+coolstuffinc: {}
 miniaturemarket: {}
 starcitygames:
   Marvel Super Heroes - Scene Box - Heroes United:
