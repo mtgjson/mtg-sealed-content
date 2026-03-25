@@ -42,7 +42,7 @@ class MtgjsonCardLinker:
         if not self.mtgjson_data:
             raise RuntimeError("AllPrintings data is empty or missing 'data' key")
 
-    def build(self, code: str) -> Dict[Card, Set[str]]:
+    def build(self, code: str, debug: bool) -> Dict[Card, Set[str]]:
         return_value = defaultdict(set)
 
         set_codes = self.mtgjson_data.items()
@@ -59,8 +59,11 @@ class MtgjsonCardLinker:
                 cards_list = self.get_cards_in_sealed_product(
                     set_code, sealed_product.get("uuid")
                 )
+                product = sealed_product.get("uuid")
+                if debug:
+                    product = sealed_product.get("name")
                 for card in cards_list:
-                    return_value[card].add(sealed_product.get("uuid"))
+                    return_value[card].add(product)
 
         return return_value
 
@@ -316,6 +319,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--output-file", "-o", type=str, required=False)
     parser.add_argument("--mtgjson", "-m", type=str, required=False)
     parser.add_argument("--set", "-s", type=str, required=False)
+    parser.add_argument("--debug", "-d", type=bool, required=False)
 
     return parser.parse_args()
 
@@ -327,7 +331,7 @@ def main(args: argparse.Namespace):
         else:
             raise RuntimeError("Missing output path")
 
-    card_to_products_data = MtgjsonCardLinker(args.mtgjson).build(args.set)
+    card_to_products_data = MtgjsonCardLinker(args.mtgjson).build(args.set, args.debug)
 
     if not card_to_products_data:
         raise RuntimeError("Build produced no card-to-product mappings; refusing to write empty output")
