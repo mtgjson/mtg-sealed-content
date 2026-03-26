@@ -28,6 +28,8 @@ products:
   Teenage Mutant Ninja Turtles Collector Booster Box Case: []
   Teenage Mutant Ninja Turtles Collector Booster Box Master Case: []
   Teenage Mutant Ninja Turtles Collector Booster Pack: []
+  Teenage Mutant Ninja Turtles Collector Booster Pack Minimal Packaging:
+    copy: Teenage Mutant Ninja Turtles Collector Booster Pack
   Teenage Mutant Ninja Turtles Draft Night: []
   Teenage Mutant Ninja Turtles Draft Night Case: []
   Teenage Mutant Ninja Turtles Enemy Deck:
@@ -63,3 +65,35 @@ products:
       set: tmt
   Teenage Mutant Ninja Turtles Turtle Team-Up: []
   Teenage Mutant Ninja Turtles Turtle Team-Up Case: []
+  Teenage Mutant Ninja Turtles Tin Donatello:
+    other:
+    - name: Exclusive Sticker
+    sealed:
+    - count: 3
+      name: Teenage Mutant Ninja Turtles Play Booster Pack
+      set: tmt
+  Teenage Mutant Ninja Turtles Tin Leonardo:
+    copy: Teenage Mutant Ninja Turtles Tin Donatello
+  Teenage Mutant Ninja Turtles Tin Michelangelo:
+    copy: Teenage Mutant Ninja Turtles Tin Donatello
+  Teenage Mutant Ninja Turtles Tin Raphael:
+    copy: Teenage Mutant Ninja Turtles Tin Donatello
+  Teenage Mutant Ninja Turtles Tin Set of 5:
+    sealed:
+    - count: 1
+      name: Teenage Mutant Ninja Turtles Tin Donatello
+      set: tmt
+    - count: 1
+      name: Teenage Mutant Ninja Turtles Tin Leonardo
+      set: tmt
+    - count: 1
+      name: Teenage Mutant Ninja Turtles Tin Michelangelo
+      set: tmt
+    - count: 1
+      name: Teenage Mutant Ninja Turtles Tin Raphael
+      set: tmt
+    - count: 1
+      name: Teenage Mutant Ninja Turtles Tin Shredder
+      set: tmt
+  Teenage Mutant Ninja Turtles Tin Shredder:
+    copy: Teenage Mutant Ninja Turtles Tin Donatello
