@@ -1,52 +1,11 @@
 abugames: {}
-cardKingdom:
-  Alpha Booster Box:
-    category: UNKNOWN
-    identifiers:
-      cardKingdomId: '324783'
-    subtype: UNKNOWN
-  Alpha Starter Deck:
-    category: UNKNOWN
-    identifiers:
-      cardKingdomId: '201558'
-    subtype: UNKNOWN
-  Alpha Starter Deck Display:
-    category: UNKNOWN
-    identifiers:
-      cardKingdomId: '240111'
-    subtype: UNKNOWN
-  Beta Starter Deck:
-    category: UNKNOWN
-    identifiers:
-      cardKingdomId: '223982'
-    subtype: UNKNOWN
-  Beta Starter Deck Display:
-    category: UNKNOWN
-    identifiers:
-      cardKingdomId: '240118'
-    subtype: UNKNOWN
-  Unlimited Booster Pack:
-    category: UNKNOWN
-    identifiers:
-      cardKingdomId: '240230'
-    subtype: UNKNOWN
-  Unlimited Starter Deck Display:
-    category: UNKNOWN
-    identifiers:
-      cardKingdomId: '240232'
-    subtype: UNKNOWN
+cardKingdom: {}
 cardMarket:
-  FINAL FANTASY Basic Booster:
+  'Magic: The Gathering | Marvel''s Spider-Man: Scene Box Set':
     category: UNKNOWN
     identifiers:
-      mcmId: '878072'
-    release_date: '2026-03-20'
-    subtype: UNKNOWN
-  FINAL FANTASY Basic Booster Box:
-    category: UNKNOWN
-    identifiers:
-      mcmId: '878073'
-    release_date: '2026-03-20'
+      mcmId: '850126'
+    release_date: '2025-09-19'
     subtype: UNKNOWN
   'Secrets of Strixhaven: ""Lorehold"" Seeded Booster':
     category: UNKNOWN
@@ -79,21 +38,6 @@ cardMarket:
     release_date: '2026-01-28'
     subtype: UNKNOWN
 cardTrader:
-  "Chaos Vault: Dand\xE2n Deck":
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '380361'
-    subtype: UNKNOWN
-  FINAL FANTASY Basic Booster:
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '380335'
-    subtype: UNKNOWN
-  FINAL FANTASY Basic Booster Box 10 Boosters:
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '380334'
-    subtype: UNKNOWN
   'Secrets of Strixhaven: "Lorehold" Seeded Booster':
     category: UNKNOWN
     identifiers:
@@ -119,144 +63,34 @@ cardTrader:
     identifiers:
       cardtraderId: '370608'
     subtype: UNKNOWN
-coolstuffinc: {}
-miniaturemarket: {}
-starcitygames:
-  Marvel Super Heroes - Scene Box - Heroes United:
+coolstuffinc:
+  'Magic: the Gathering - Marvel''s Spider-Man - Bundle':
     category: UNKNOWN
     identifiers:
-      scgId: SLD-MTG-BXS-MSHSCENE-EN-UNITED
+      csiId: '417502'
     subtype: UNKNOWN
-  Marvel Super Heroes - Scene Box - Villains Unleashed:
+miniaturemarket:
+  MTG Secrets of Strixhaven Prerelease In-Store Event Entry (Cave Springs) - Friday 4/17:
     category: UNKNOWN
     identifiers:
-      scgId: SLD-MTG-BXS-MSHSCENE-EN-VILLAINS
+      miniaturemarketId: 019c76fc6e4c722ba63754e748b4ac28
     subtype: UNKNOWN
-  Marvel Super Heroes Beginner Box:
+  MTG Secrets of Strixhaven Prerelease In-Store Event Entry (Cave Springs) - Sunday 4/19:
     category: UNKNOWN
     identifiers:
-      scgId: SLD-MTG-BXS-MSHBEGINNER-EN
+      miniaturemarketId: 019c76fc78d671b4af8c312c9f5ff8a2
     subtype: UNKNOWN
-  Marvel Super Heroes Bundle:
+  MTG Secrets of Strixhaven Prerelease In-Store Event Entry (Rock Hill) - Friday 4/17:
     category: UNKNOWN
     identifiers:
-      scgId: SLD-MTG-BUN-MSH-EN
+      miniaturemarketId: 019c76fc824a723b880362ced769ca5e
     subtype: UNKNOWN
-  Marvel Super Heroes Collector Booster Box:
+  MTG Secrets of Strixhaven Prerelease In-Store Event Entry (Rock Hill) - Saturday 4/18:
     category: UNKNOWN
     identifiers:
-      scgId: SLD-MTG-BBX-MSH-EN
+      miniaturemarketId: 019c76fc8ac871b7ba443661cc7f199d
     subtype: UNKNOWN
-  Marvel Super Heroes Collector Booster Pack:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-PCK-MSHCOLLECTOR-EN
-    subtype: UNKNOWN
-  Marvel Super Heroes Collector's Edition Commander Deck - Avengers Assemble:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-CMD-MSCCOLLECTOR-EN-AVENGERS
-    subtype: UNKNOWN
-  Marvel Super Heroes Collector's Edition Commander Deck - Doom Prevails:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-CMD-MSCCOLLECTOR-EN-DOOM
-    subtype: UNKNOWN
-  Marvel Super Heroes Collector's Edition Commander Deck - The Fantastic Four:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-CMD-MSCCOLLECTOR-EN-FANTASTIC
-    subtype: UNKNOWN
-  Marvel Super Heroes Collector's Edition Commander Deck - Wakanda Forever:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-CMD-MSCCOLLECTOR-EN-WAKANDA
-    subtype: UNKNOWN
-  Marvel Super Heroes Collector's Edition Commander Decks - Set of 4:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-CMD-MSCCOLLECTOR-EN-SET4
-    subtype: UNKNOWN
-  Marvel Super Heroes Commander Deck - Avengers Assemble:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-CMD-MSC-EN-AVENGERS
-    subtype: UNKNOWN
-  Marvel Super Heroes Commander Deck - Doom Prevails:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-CMD-MSC-EN-DOOM
-    subtype: UNKNOWN
-  Marvel Super Heroes Commander Deck - The Fantastic Four:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-CMD-MSC-EN-FANTASTIC
-    subtype: UNKNOWN
-  Marvel Super Heroes Commander Deck - Wakanda Forever:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-CMD-MSC-EN-WAKANDA
-    subtype: UNKNOWN
-  Marvel Super Heroes Commander Decks - Set of 4:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-CMD-MSC-EN-SET4
-    subtype: UNKNOWN
-  Marvel Super Heroes Draft Night:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-DFT-MSH-EN
-    subtype: UNKNOWN
-  Marvel Super Heroes Gift Bundle:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-BUN-MSHGIFT-EN
-    subtype: UNKNOWN
-  Marvel Super Heroes Jumpstart Booster Box:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-BBX-MSHJUMPSTART-EN
-    subtype: UNKNOWN
-  Marvel Super Heroes Jumpstart Booster Pack:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-PCK-MSHJUMPSTART-EN
-    subtype: UNKNOWN
-  Marvel Super Heroes Play Booster Box:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-BBX-MSHPLAY-EN
-    subtype: UNKNOWN
-  Marvel Super Heroes Play Booster Case (6 Boxes):
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-BBX-MSHPLAYCASE-EN
-    subtype: UNKNOWN
-  Marvel Super Heroes Play Booster Pack:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-PCK-MSHPLAY-EN
-    subtype: UNKNOWN
-  Marvel Super Heroes Play Combo Pack:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-BBX-MSHPLAYCOMBO-EN
-    subtype: UNKNOWN
-  Marvel Super Heroes Prerelease Kit:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-PRE-MSH-EN
-    subtype: UNKNOWN
-  Secrets of Strixhaven Play Combo Pack:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-BBX-SOSPLAYCOMBO-EN
-    subtype: UNKNOWN
-  Secrets of Strixhaven Theme Deck - Set of 2:
-    category: UNKNOWN
-    identifiers:
-      scgId: SLD-MTG-STD-SOS-EN-SETOF2
-    subtype: UNKNOWN
+starcitygames: {}
 tcgplayer:
   Teenage Mutant Ninja Turtles Collector Booster Pack Minimal Packaging:
     category: UNKNOWN
