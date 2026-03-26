@@ -396,6 +396,7 @@ def load_miniaturemarket(secret):
         "Tray",
         "Xenoskin",
         "Omega Box",
+        "In-Store Event",
     ]
 
     sealed_data = []
