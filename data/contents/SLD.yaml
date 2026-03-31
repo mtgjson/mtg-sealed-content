@@ -2029,7 +2029,8 @@ products:
       set: sld
     variable:
     - card:
-      - name: Sphere of Safety
+      - foil: true
+        name: Sphere of Safety
         number: 588
         set: sld
       chance: 93
@@ -2161,7 +2162,8 @@ products:
       set: sld
     variable:
     - card:
-      - name: Brainstorm
+      - foil: true
+        name: Brainstorm
         number: 582
         set: sld
       chance: 93
@@ -4380,7 +4382,7 @@ products:
   Secret Lair Drop Hard Boiled Thrillers:
     card:
     - foil: true
-      name: Skemfar Shadowsag
+      name: Skemfar Shadowsage
       number: 759
       set: sld
     card_count: 5
@@ -4390,7 +4392,7 @@ products:
   Secret Lair Drop Hard Boiled Thrillers Rainbow Foil:
     card:
     - foil: true
-      name: Skemfar Shadowsag
+      name: Skemfar Shadowsage
       number: 759
       set: sld
     card_count: 5
@@ -4984,15 +4986,18 @@ products:
       set: sld
     variable:
     - card:
-      - name: Island
+      - foil: true
+        name: Island
         number: 552
         set: sld
     - card:
-      - name: Swamp
+      - foil: true
+        name: Swamp
         number: 556
         set: sld
     - card:
-      - name: Mountain
+      - foil: true
+        name: Mountain
         number: 571
         set: sld
   Secret Lair Drop Mothers Day 2021 Foil:
@@ -5002,15 +5007,18 @@ products:
       set: sld
     variable:
     - card:
-      - name: Island
+      - foil: true
+        name: Island
         number: 552
         set: sld
     - card:
-      - name: Swamp
+      - foil: true
+        name: Swamp
         number: 556
         set: sld
     - card:
-      - name: Mountain
+      - foil: true
+        name: Mountain
         number: 571
         set: sld
   Secret Lair Drop Mountain Go:
@@ -6141,7 +6149,8 @@ products:
       set: sld
     variable:
     - card:
-      - name: Feed the Swarm
+      - foil: true
+        name: Feed the Swarm
         number: 7001
         set: sld
       chance: 299
@@ -6178,7 +6187,8 @@ products:
       set: sld
     variable:
     - card:
-      - name: Silence
+      - foil: true
+        name: Silence
         number: 7003
         set: sld
       chance: 299
@@ -6215,7 +6225,8 @@ products:
       set: sld
     variable:
     - card:
-      - name: Forge Anew
+      - foil: true
+        name: Forge Anew
         number: 7002
         set: sld
       chance: 299
