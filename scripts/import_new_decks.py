@@ -120,7 +120,7 @@ def add_content(set_code, name, deck):
 
         # we need to add a bonus card entry if no card has been set and there
         # isn't any other note (i.e. to mention that the drop has no bonus card
-        if set_code == "sld" and ("card" not in content and "other" not in existing_content):
+        if set_code == "sld" and ("card" not in content and "other" not in content):
             note = [{
                 "name": "Bonus card unknown",
             }]
