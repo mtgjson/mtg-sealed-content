@@ -1,8 +1,28 @@
 code: soc
 products:
-  Secrets of Strixhaven Commander Deck Lorehold Spirit: {}
-  Secrets of Strixhaven Commander Deck Prismari Artistry: {}
-  Secrets of Strixhaven Commander Deck Quandrix Unlimited: {}
+  Secrets of Strixhaven Commander Deck Lorehold Spirit:
+    card_count: 99
+    deck:
+    - name: Lorehold Spirit
+      set: soc
+  Secrets of Strixhaven Commander Deck Prismari Artistry:
+    card_count: 99
+    deck:
+    - name: Prismari Artistry
+      set: soc
+  Secrets of Strixhaven Commander Deck Quandrix Unlimited:
+    card_count: 99
+    deck:
+    - name: Quandrix Unlimited
+      set: soc
   Secrets of Strixhaven Commander Deck Set of 5: {}
-  Secrets of Strixhaven Commander Deck Silverquill Influence: {}
-  Secrets of Strixhaven Commander Deck Witherbloom Pestilence: {}
+  Secrets of Strixhaven Commander Deck Silverquill Influence:
+    card_count: 99
+    deck:
+    - name: Silverquill Influence
+      set: soc
+  Secrets of Strixhaven Commander Deck Witherbloom Pestilence:
+    card_count: 99
+    deck:
+    - name: Witherbloom Pestilence
+      set: soc
