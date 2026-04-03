@@ -24,14 +24,40 @@ products:
     - count: 6
       name: Teenage Mutant Ninja Turtles Bundle
       set: tmt
-  Teenage Mutant Ninja Turtles Collector Booster Box: []
-  Teenage Mutant Ninja Turtles Collector Booster Box Case: []
+  Teenage Mutant Ninja Turtles Collector Booster Box:
+    sealed:
+    - count: 12
+      name: Teenage Mutant Ninja Turtles Collector Booster Pack
+      set: tmt
+  Teenage Mutant Ninja Turtles Collector Booster Box Case:
+    sealed:
+    - count: 6
+      name: Teenage Mutant Ninja Turtles Collector Booster Box
+      set: tmt
   Teenage Mutant Ninja Turtles Collector Booster Box Master Case: []
-  Teenage Mutant Ninja Turtles Collector Booster Pack: []
+  Teenage Mutant Ninja Turtles Collector Booster Pack:
+    card_count: 15
+    pack:
+    - code: collector
+      set: tmt
   Teenage Mutant Ninja Turtles Collector Booster Pack Minimal Packaging:
     copy: Teenage Mutant Ninja Turtles Collector Booster Pack
-  Teenage Mutant Ninja Turtles Draft Night: []
-  Teenage Mutant Ninja Turtles Draft Night Case: []
+  Teenage Mutant Ninja Turtles Draft Night:
+    other:
+    - name: 90 Non-foil basic lands
+    - name: 1 Draft insert
+    sealed:
+    - count: 12
+      name: Teenage Mutant Ninja Turtles Play Booster Pack
+      set: tmt
+    - count: 1
+      name: Teenage Mutant Ninja Turtles Collector Booster Pack
+      set: tmt
+  Teenage Mutant Ninja Turtles Draft Night Case:
+    sealed:
+    - count: 6
+      name: Teenage Mutant Ninja Turtles Draft Night
+      set: tmt
   Teenage Mutant Ninja Turtles Enemy Deck:
     card_count: 38
     deck:
@@ -39,10 +65,30 @@ products:
       set: tmt
   Teenage Mutant Ninja Turtles Pizza Bundle: []
   Teenage Mutant Ninja Turtles Pizza Bundle Case: []
-  Teenage Mutant Ninja Turtles Play Booster Box: []
-  Teenage Mutant Ninja Turtles Play Booster Box Case: []
-  Teenage Mutant Ninja Turtles Play Booster Pack: []
-  Teenage Mutant Ninja Turtles Prerelease Pack: []
+  Teenage Mutant Ninja Turtles Play Booster Box:
+    sealed:
+    - count: 30
+      name: Teenage Mutant Ninja Turtles Play Booster Pack
+      set: tmt
+  Teenage Mutant Ninja Turtles Play Booster Box Case:
+    sealed:
+    - count: 6
+      name: Teenage Mutant Ninja Turtles Play Booster Box
+      set: tmt
+  Teenage Mutant Ninja Turtles Play Booster Pack:
+    card_count: 14
+    pack:
+    - code: play
+      set: tmt
+  Teenage Mutant Ninja Turtles Prerelease Pack:
+    card_count: 1
+    other:
+    - name: Deck box
+    - name: Spindown die
+    sealed:
+    - count: 6
+      name: Teenage Mutant Ninja Turtles Play Booster Pack
+      set: tmt
   Teenage Mutant Ninja Turtles Theme Deck Donatello:
     card_count: 21
     deck:
@@ -95,5 +141,28 @@ products:
       set: tmt
   Teenage Mutant Ninja Turtles Tin Shredder:
     copy: Teenage Mutant Ninja Turtles Tin Donatello
-  Teenage Mutant Ninja Turtles Turtle Team-Up: []
-  Teenage Mutant Ninja Turtles Turtle Team-Up Case: []
+  Teenage Mutant Ninja Turtles Turtle Team-Up:
+    sealed:
+    - count: 1
+      name: Teenage Mutant Ninja Turtles Theme Deck Raphael
+      set: tmt
+    - count: 1
+      name: Teenage Mutant Ninja Turtles Theme Deck Leonardo
+      set: tmt
+    - count: 1
+      name: Teenage Mutant Ninja Turtles Theme Deck Michealangelo
+      set: tmt
+    - count: 1
+      name: Teenage Mutant Ninja Turtles Theme Deck Raphael
+      set: tmt
+    - count: 1
+      name: Teenage Mutant Ninja Turtles Enemy Deck
+      set: tmt
+    - count: 4
+      name: Teenage Mutant Ninja Turtles Draft Night
+      set: tmt
+  Teenage Mutant Ninja Turtles Turtle Team-Up Case:
+    sealed:
+    - count: 4
+      name: Teenage Mutant Ninja Turtles Turtle Team-Up
+      set: tmt
