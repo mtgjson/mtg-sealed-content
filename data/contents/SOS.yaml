@@ -1,26 +1,203 @@
 code: sos
 products:
-  Secrets of Strixhaven 60-Card Theme Deck Display: []
-  Secrets of Strixhaven 60-Card Theme Deck Display Case: []
-  Secrets of Strixhaven 60-Card Theme Deck Eerie: []
-  Secrets of Strixhaven 60-Card Theme Deck Lifegain: []
-  Secrets of Strixhaven Bundle: []
-  Secrets of Strixhaven Bundle Case: []
-  Secrets of Strixhaven Codex Bundle: []
-  Secrets of Strixhaven Codex Bundle Case: []
-  Secrets of Strixhaven Collector Booster Box: []
-  Secrets of Strixhaven Collector Booster Box Case: []
+  Secrets of Strixhaven 60-Card Theme Deck Display:
+    sealed:
+    - count: 4
+      name: Secrets of Strixhaven 60-Card Theme Deck Set of 2
+      set: sos
+  Secrets of Strixhaven 60-Card Theme Deck Display Case:
+    sealed:
+    - count: 4
+      name: Secrets of Strixhaven 60-Card Theme Deck Display
+      set: sos
+  Secrets of Strixhaven 60-Card Theme Deck Eerie:
+    card_count: 60
+    deck:
+    - name: Eerie
+      set: sos
+    other:
+    - name: 5 Non-foil double-sided tokens
+    - name: 1 Double-sided reference card
+    - name: 1 Strategy insert
+    - name: 1 Deck box
+  Secrets of Strixhaven 60-Card Theme Deck Lifegain:
+    card_count: 60
+    deck:
+    - name: Lifegain
+      set: sos
+    other:
+    - name: 5 Non-foil double-sided tokens
+    - name: 1 Double-sided reference card
+    - name: 1 Strategy insert
+    - name: 1 Deck box
+  Secrets of Strixhaven Bundle:
+    card: []
+    card_count: 1
+    other:
+    - name: 1 Spindown die
+    - name: 1 Card-storage box
+    pack:
+    - code: bundle-promo
+      set: sos
+    sealed:
+    - count: 9
+      name: Secrets of Strixhaven Play Booster Pack
+      set: sos
+  Secrets of Strixhaven Bundle Case:
+    sealed:
+    - count: 6
+      name: Secrets of Strixhaven Bundle
+      set: sos
+  Secrets of Strixhaven Codex Bundle:
+    card_count: 2
+    pack:
+    - code: codex-bundle
+      set: sos
+    other:
+    - name: 1 Spindown die
+    - name: 20 Foil basic lands
+    - name: 1 Codex Booster
+    sealed:
+    - count: 6
+      name: Secrets of Strixhaven Play Booster Pack
+      set: sos
+    - count: 2
+      name: Secrets of Strixhaven Collector Booster Pack
+      set: sos
+  Secrets of Strixhaven Codex Bundle Case:
+    sealed:
+    - count: 6
+      name: Secrets of Strixhaven Codex Bundle
+      set: sos
+  Secrets of Strixhaven Collector Booster Box:
+    sealed:
+    - count: 12
+      name: Secrets of Strixhaven Collector Booster Pack
+      set: sos
+  Secrets of Strixhaven Collector Booster Box Case:
+    sealed:
+    - count: 6
+      name: Secrets of Strixhaven Collector Booster Box
+      set: sos
   Secrets of Strixhaven Collector Booster Box Master Case: []
-  Secrets of Strixhaven Collector Booster Pack: []
-  Secrets of Strixhaven Draft Night: []
-  Secrets of Strixhaven Draft Night Case: []
-  Secrets of Strixhaven Play Booster Box: []
-  Secrets of Strixhaven Play Booster Box Case: []
-  Secrets of Strixhaven Play Booster Pack: []
-  Secrets of Strixhaven Prerelease Pack Lorehold: []
-  Secrets of Strixhaven Prerelease Pack Prismari: []
-  Secrets of Strixhaven Prerelease Pack Quandrix: []
-  Secrets of Strixhaven Prerelease Pack Set of 5: []
-  Secrets of Strixhaven Prerelease Pack Silverquill: []
-  Secrets of Strixhaven Prerelease Pack Witherbloom: []
-  Secrets of Strixhaven Theme Decks Set of 2: []
+  Secrets of Strixhaven Collector Booster Pack:
+    card_count: 15
+    pack:
+    - code: collector
+      set: sos
+  Secrets of Strixhaven Draft Night:
+    other:
+    - name: 90 Non-foil basic lands
+    - name: 1 Draft insert
+    sealed:
+    - count: 12
+      name: Secrets of Strixhaven Play Booster Pack
+      set: ecl
+    - count: 1
+      name: Secrets of Strixhaven Collector Booster Pack
+      set: sos
+  Secrets of Strixhaven Draft Night Case:
+    sealed:
+    - count: 6
+      name: Secrets of Strixhaven Draft Night
+      set: sos
+  Secrets of Strixhaven Play Booster Box:
+    sealed:
+    - count: 30
+      name: Secrets of Strixhaven Play Booster Pack
+      set: sos
+  Secrets of Strixhaven Play Booster Box Case:
+    sealed:
+    - count: 6
+      name: Secrets of Strixhaven Play Booster Box
+      set: sos
+  Secrets of Strixhaven Play Booster Pack:
+    card_count: 14
+    pack:
+    - code: play
+      set: sos
+  Secrets of Strixhaven Prerelease Pack Lorehold:
+    card_count: 1
+    other:
+    - name: Deck box
+    - name: Spindown die
+    pack:
+    - code: lorehold-prerelease
+      set: sos
+    sealed:
+    - count: 5
+      name: Secrets of Strixhaven Play Booster Pack
+      set: sos
+  Secrets of Strixhaven Prerelease Pack Prismari:
+    card_count: 1
+    other:
+    - name: Deck box
+    - name: Spindown die
+    pack:
+    - code: prismari-prerelease
+      set: sos
+    sealed:
+    - count: 5
+      name: Secrets of Strixhaven Play Booster Pack
+      set: sos
+  Secrets of Strixhaven Prerelease Pack Quandrix:
+    card_count: 1
+    other:
+    - name: Deck box
+    - name: Spindown die
+    pack:
+    - code: quandrix-prerelease
+      set: sos
+    sealed:
+    - count: 5
+      name: Secrets of Strixhaven Play Booster Pack
+      set: sos
+  Secrets of Strixhaven Prerelease Pack Set of 5:
+    sealed:
+    - count: 1
+      name: Secrets of Strixhaven Prerelease Pack Silverquill
+      set: sos
+    - count: 1
+      name: Secrets of Strixhaven Prerelease Pack Witherbloom
+      set: sos
+    - count: 1
+      name: Secrets of Strixhaven Prerelease Pack Quandrix
+      set: sos
+    - count: 1
+      name: Secrets of Strixhaven Prerelease Pack Lorehold
+      set: sos
+    - count: 1
+      name: Secrets of Strixhaven Prerelease Pack Prismari
+      set: sos
+  Secrets of Strixhaven Prerelease Pack Silverquill:
+    card_count: 1
+    other:
+    - name: Deck box
+    - name: Spindown die
+    pack:
+    - code: silverquill-prerelease
+      set: sos
+    sealed:
+    - count: 5
+      name: Secrets of Strixhaven Play Booster Pack
+      set: sos
+  Secrets of Strixhaven Prerelease Pack Witherbloom:
+    card_count: 1
+    other:
+    - name: Deck box
+    - name: Spindown die
+    pack:
+    - code: witherbloom-prerelease
+      set: sos
+    sealed:
+    - count: 5
+      name: Secrets of Strixhaven Play Booster Pack
+      set: sos
+  Secrets of Strixhaven Theme Decks Set of 2:
+    sealed:
+    - count: 1
+      name: Secrets of Strixhaven 60-Card Theme Deck Eerie
+      set: sos
+    - count: 1
+      name: Secrets of Strixhaven 60-Card Theme Deck Lifegain
+      set: sos
