@@ -1,4 +1,51 @@
 {
+    "023515e1-6755-56be-a01a-6f75b668a182": [
+        {
+            "identifiers": {
+                "tcgplayerProductId": "263330"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F263330%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "023515e1-6755-56be-a01a-6f75b668a182"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "264058"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F264058%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "0979b2d0-05a6-5616-b7be-75c1777f6cb6"
+                },
+                {
+                    "uuid": "023515e1-6755-56be-a01a-6f75b668a182"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "264114"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F264114%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "af3f43ba-5ccd-5df8-bb7b-5b26307c67b1"
+                },
+                {
+                    "uuid": "023515e1-6755-56be-a01a-6f75b668a182"
+                }
+            ]
+        }
+    ],
     "02b359b4-f76a-519b-b539-f7ec4f0de621": [
         {
             "identifiers": {
@@ -377,9 +424,7 @@
                     "uuid": "0979b2d0-05a6-5616-b7be-75c1777f6cb6"
                 },
                 {
-                    "faceId": "14",
-                    "faceName": "Mechtitan",
-                    "tokenType": "Token"
+                    "uuid": "023515e1-6755-56be-a01a-6f75b668a182"
                 }
             ]
         },
@@ -6795,9 +6840,7 @@
                     "uuid": "af3f43ba-5ccd-5df8-bb7b-5b26307c67b1"
                 },
                 {
-                    "faceId": "14",
-                    "faceName": "Mechtitan",
-                    "tokenType": "Token"
+                    "uuid": "023515e1-6755-56be-a01a-6f75b668a182"
                 }
             ]
         },
