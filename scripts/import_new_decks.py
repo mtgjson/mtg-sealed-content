@@ -80,9 +80,12 @@ def add_product(set_code, name, deck):
             new_product["category"] = "BOX_SET"
             new_product["subtype"] = "SECRET_LAIR"
 
-        # Fixup a type
+        # Fixup subtypes
+        # XXX maybe we should propagate these types from upstream instead of having our own?
         if new_product["subtype"] == "THEME_DECK":
             new_product["subtype"] = "THEME"
+        elif new_product["subtype"] == "COMMANDER_DECK":
+            new_product["subtype"] = "COMMANDER"
 
         products["products"][name] = new_product
 
