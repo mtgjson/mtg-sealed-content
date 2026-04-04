@@ -49,13 +49,13 @@ products:
       set: sos
   Secrets of Strixhaven Codex Bundle:
     card_count: 2
-    pack:
-    - code: codex-bundle
-      set: sos
     other:
     - name: 1 Spindown die
     - name: 20 Foil basic lands
     - name: 1 Codex Booster
+    pack:
+    - code: codex-bundle
+      set: sos
     sealed:
     - count: 6
       name: Secrets of Strixhaven Play Booster Pack
