@@ -430,9 +430,9 @@ def load_miniaturemarket(secret):
                 }
             ])
 
-        # Exit loop condition
-        nextPage = soup.find('input', attrs={"id": "p-last-bottom"})
-        if not nextPage:
+        # Exit loop condition: stop when there's no "next" page link
+        nextPage = soup.find('li', attrs={"class": "page-next"})
+        if not nextPage or "disabled" in nextPage.get("class", []):
             break
 
     print(f"Retrieved {len(sealed_data)} products")
