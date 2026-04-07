@@ -224,7 +224,12 @@ miniaturemarket:
     identifiers:
       miniaturemarketId: 019b32a4781271e3b2169c39e2b4f066
     subtype: UNKNOWN
-starcitygames: {}
+starcitygames:
+  Could not load provider starcitygames:
+    category: UNKNOWN
+    identifiers:
+      scgId: ''
+    subtype: UNKNOWN
 tcgplayer:
   Teenage Mutant Ninja Turtles Prerelease Pack Case:
     category: UNKNOWN
