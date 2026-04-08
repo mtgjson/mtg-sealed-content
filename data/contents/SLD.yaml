@@ -4861,17 +4861,17 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
-  Secret Lair Drop Marvels Deadpool I Fixed It (Youre Welcome) Pool Party Dazzle Foil:
-    card_count: 5
-    deck:
-    - name: 'Marvel''s Deadpool: I Fixed It (You''re Welcome) Pool Party Foil Edition'
-      set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Marvels Deadpool I Fixed It (Youre Welcome) Foil:
     card_count: 5
     deck:
     - name: 'Marvel''s Deadpool: I Fixed It (You''re Welcome) Foil Edition'
+      set: sld
+    other:
+    - name: Bonus card unknown
+  Secret Lair Drop Marvels Deadpool I Fixed It (Youre Welcome) Pool Party Dazzle Foil:
+    card_count: 5
+    deck:
+    - name: 'Marvel''s Deadpool: I Fixed It (You''re Welcome) Pool Party Foil Edition'
       set: sld
     other:
     - name: Bonus card unknown
@@ -8450,6 +8450,7 @@ products:
       set: sld
     other:
     - name: Bonus card unknown
+  Secret Lair Drop The Eyes Have It: {}
   Secret Lair Drop The Fairest Drop of All Foil:
     card_count: 4
     deck:
