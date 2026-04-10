@@ -1,6 +1,12 @@
 abugames: {}
 cardKingdom: {}
-cardMarket: {}
+cardMarket:
+  'Teenage Mutant Ninja Turtles: ""Foil Rare/Mythic"" Prerelease Booster':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '882832'
+    release_date: '2026-04-09'
+    subtype: UNKNOWN
 cardTrader:
   Welcome Deck 2026 Set:
     category: UNKNOWN
@@ -18,11 +24,6 @@ miniaturemarket:
     category: UNKNOWN
     identifiers:
       miniaturemarketId: 019d6e98b6637270b667cd9392e4f1a6
-    subtype: UNKNOWN
-  'MTG: Secrets of Strixhaven - Codex Bundle (Preorder)':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: 019c06a15500708085e9501898049ca2
     subtype: UNKNOWN
   'MTG: Secrets of Strixhaven - Commander Deck - Lorehold Spirit (Preorder)':
     category: UNKNOWN
