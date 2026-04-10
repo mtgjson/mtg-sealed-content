@@ -34,6 +34,97 @@ for contentfile in Path("data/products").glob("*.yaml"):
     for product_name in known_data["products"].keys():
         known_products.append((product_name, contentfile))
 
+
+def infer_product_definition(product_name):
+    category = "UNKNOWN"
+    subtype = "UNKNOWN"
+
+    if "Draft Night Case" in product_name:
+        category = "LIMITED_CASE"
+        subtype = "DRAFT"
+    elif "Draft Night" in product_name:
+        category = "LIMITED"
+        subtype = "DRAFT"
+    elif "Gift Bundle Case" in product_name:
+        category = "BUNDLE_CASE"
+        subtype = "GIFT_BUNDLE"
+    elif "Gift Bundle" in product_name:
+        category = "BUNDLE"
+        subtype = "GIFT_BUNDLE"
+    elif "Jumpstart Booster Box Case" in product_name:
+        category = "BOOSTER_CASE"
+        subtype = "JUMPSTART"
+    elif "Jumpstart Booster Box" in product_name:
+        category = "BOOSTER_BOX"
+        subtype = "JUMPSTART"
+    elif "Jumpstart Booster Pack" in product_name:
+        category = "BOOSTER_PACK"
+        subtype = "JUMPSTART"
+    elif "Beginner Box Case" in product_name:
+        category = "BOX_SET"
+        subtype = "STARTER"
+    elif "Beginner Box" in product_name:
+        category = "BOX_SET"
+        subtype = "STARTER"
+    elif "Scene Box Case" in product_name:
+        category = "BOX_SET"
+        subtype = "OTHER"
+    elif "Scene Box" in product_name:
+        category = "BOX_SET"
+        subtype = "OTHER"
+    elif "Theme Deck Display Case" in product_name:
+        category = "DECK_BOX"
+        subtype = "THEME"
+    elif "Theme Deck Display" in product_name:
+        category = "DECK_BOX"
+        subtype = "THEME"
+    elif "Welcome Deck" in product_name:
+        category = "DECK"
+        subtype = "WELCOME"
+    elif "Prerelease Pack Case" in product_name:
+        category = "LIMITED_CASE"
+        subtype = "PRERELEASE"
+    elif "Booster Box Case" in product_name:
+        category = "BOOSTER_CASE"
+    elif "Booster Box" in product_name:
+        category = "BOOSTER_BOX"
+    elif "Booster Pack" in product_name:
+        category = "BOOSTER_PACK"
+    elif "Bundle Case" in product_name:
+        category = "BUNDLE_CASE"
+    elif "Bundle" in product_name:
+        category = "BUNDLE"
+    elif "Set of" in product_name:
+        category = "SUBSET"
+    elif "Deck" in product_name:
+        category = "DECK"
+    elif "Prerelease" in product_name:
+        category = "LIMITED"
+    elif "Redemption" in product_name:
+        category = "BOX_SET"
+
+    if subtype == "UNKNOWN":
+        if "Collector Booster" in product_name:
+            subtype = "COLLECTOR"
+        elif "Play Booster" in product_name:
+            subtype = "PLAY"
+        elif "Set Booster" in product_name:
+            subtype = "SET"
+        elif "Commander" in product_name:
+            subtype = "COMMANDER"
+        elif "Prerelease" in product_name:
+            subtype = "PRERELEASE"
+        elif "Theme" in product_name:
+            subtype = "THEME"
+        elif "Redemption" in product_name:
+            subtype = "REDEMPTION"
+
+    if "Secret Lair" in product_name and "Bundle" in product_name:
+        category = "BOX_SET"
+        subtype = "SECRET_LAIR_BUNDLE"
+
+    return category, subtype
+
 index = 0
 offset = 0
 while index < len(review_products):
@@ -146,43 +237,7 @@ while index < len(review_products):
         else:
             content = {"code": set_code.lower(), "products": {}}
 
-        category = "UNKNOWN"
-        if "Booster Box Case" in product_name:
-            category = "BOOSTER_CASE"
-        elif "Booster Box" in product_name:
-            category = "BOOSTER_BOX"
-        elif "Booster Pack" in product_name:
-            category = "BOOSTER_PACK"
-        elif "Bundle" in product_name:
-            category = "BUNDLE"
-        elif "Set of" in product_name:
-            category = "SUBSET"
-        elif "Deck" in product_name:
-            category = "DECK"
-        elif "Prerelease" in product_name:
-            category = "LIMITED"
-        elif "Redemption" in product_name:
-            category = "BOX_SET"
-
-        subtype = "UNKNOWN"
-        if "Collector Booster" in product_name:
-            subtype = "COLLECTOR"
-        elif "Play Booster" in product_name:
-            subtype = "PLAY"
-        elif "Set Booster" in product_name:
-            subtype = "SET"
-        elif "Commander" in product_name:
-            subtype = "COMMANDER"
-        elif "Prerelease" in product_name:
-            subtype = "PRERELEASE"
-        elif "Theme" in product_name:
-            subtype = "THEME"
-        elif "Redemption" in product_name:
-            subtype = "REDEMPTION"
-
-        if "Secret Lair" in product_name and "Bundle" in product_name:
-            category = "BOX_SET"
-            subtype = "SECRET_LAIR_BUNDLE"
+        category, subtype = infer_product_definition(product_name)
 
         content["products"][product_name] = {
             "category": category,
