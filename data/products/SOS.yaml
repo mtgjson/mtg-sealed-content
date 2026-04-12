@@ -1,12 +1,12 @@
 code: sos
 products:
   Secrets of Strixhaven 60-Card Theme Deck Display:
-    category: DECK
+    category: DECK_BOX
     identifiers:
       tcgplayerProductId: '675581'
     subtype: THEME
   Secrets of Strixhaven 60-Card Theme Deck Display Case:
-    category: DECK
+    category: DECK_BOX
     identifiers:
       tcgplayerProductId: '675582'
     subtype: THEME
@@ -37,12 +37,12 @@ products:
       miniaturemarketId: 019c06a14c5a737fa0dfa955d8c70f5b
       scgId: SLD-MTG-BUN-SOS-EN
       tcgplayerProductId: '675561'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Secrets of Strixhaven Bundle Case:
-    category: BUNDLE
+    category: BUNDLE_CASE
     identifiers:
       tcgplayerProductId: '675562'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Secrets of Strixhaven Codex Bundle:
     category: BUNDLE
     identifiers:
@@ -52,7 +52,7 @@ products:
       tcgplayerProductId: '675563'
     subtype: UNKNOWN
   Secrets of Strixhaven Codex Bundle Case:
-    category: BUNDLE
+    category: BUNDLE_CASE
     identifiers:
       tcgplayerProductId: '675564'
     subtype: UNKNOWN
@@ -87,7 +87,7 @@ products:
       tcgplayerProductId: '675557'
     subtype: COLLECTOR
   Secrets of Strixhaven Draft Night:
-    category: UNKNOWN
+    category: LIMITED
     identifiers:
       cardKingdomId: '324620'
       cardtraderId: '370615'
@@ -95,12 +95,12 @@ products:
       miniaturemarketId: 019c06a15fa870a7b84d4d59ad0a32c5
       scgId: SLD-MTG-DFT-SOS-EN
       tcgplayerProductId: '675565'
-    subtype: UNKNOWN
+    subtype: DRAFT
   Secrets of Strixhaven Draft Night Case:
-    category: UNKNOWN
+    category: LIMITED_CASE
     identifiers:
       tcgplayerProductId: '675566'
-    subtype: UNKNOWN
+    subtype: DRAFT
   Secrets of Strixhaven Play Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -178,29 +178,29 @@ products:
       cardKingdomId: '324625'
       scgId: SLD-MTG-STD-SOS-EN-SETOF2
       tcgplayerProductId: '675583'
-    subtype: UNKNOWN
+    subtype: THEME
   Welcome Deck 2026 Black Deck:
     category: DECK
     identifiers:
       cardtraderId: '380934'
-    subtype: UNKNOWN
+    subtype: WELCOME
   Welcome Deck 2026 Blue Deck:
     category: DECK
     identifiers:
       cardtraderId: '380933'
-    subtype: UNKNOWN
+    subtype: WELCOME
   Welcome Deck 2026 Green Deck:
     category: DECK
     identifiers:
       cardtraderId: '380936'
-    subtype: UNKNOWN
+    subtype: WELCOME
   Welcome Deck 2026 Red Deck:
     category: DECK
     identifiers:
       cardtraderId: '380935'
-    subtype: UNKNOWN
+    subtype: WELCOME
   Welcome Deck 202666 Red Deck:
     category: DECK
     identifiers:
       cardtraderId: '380932'
-    subtype: UNKNOWN
+    subtype: WELCOME

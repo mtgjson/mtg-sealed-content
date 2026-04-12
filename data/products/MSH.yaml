@@ -1,19 +1,19 @@
 code: msh
 products:
   Marvel Super Heroes Beginner Box:
-    category: UNKNOWN
+    category: BOX_SET
     identifiers:
       cardtraderId: '370625'
       mcmId: '869508'
       miniaturemarketId: 019c06a2a79f733fa39031207956adee
       scgId: SLD-MTG-BXS-MSHBEGINNER-EN
       tcgplayerProductId: '675613'
-    subtype: UNKNOWN
+    subtype: STARTER
   Marvel Super Heroes Beginner Box Case:
-    category: UNKNOWN
+    category: BOX_SET
     identifiers:
       tcgplayerProductId: '675614'
-    subtype: UNKNOWN
+    subtype: STARTER
   Marvel Super Heroes Bundle:
     category: BUNDLE
     identifiers:
@@ -22,12 +22,12 @@ products:
       miniaturemarketId: 019c06a268fb70b5a070c45a8729f9bd
       scgId: SLD-MTG-BUN-MSH-EN
       tcgplayerProductId: '675615'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Marvel Super Heroes Bundle Case:
-    category: BUNDLE
+    category: BUNDLE_CASE
     identifiers:
       tcgplayerProductId: '675616'
-    subtype: UNKNOWN
+    subtype: DEFAULT
   Marvel Super Heroes Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -55,19 +55,19 @@ products:
       tcgplayerProductId: '675605'
     subtype: COLLECTOR
   Marvel Super Heroes Draft Night:
-    category: UNKNOWN
+    category: LIMITED
     identifiers:
       cardtraderId: '370623'
       mcmId: '869507'
       miniaturemarketId: 019c06a29dd4722981ba3d6a41018cff
       scgId: SLD-MTG-DFT-MSH-EN
       tcgplayerProductId: '675625'
-    subtype: UNKNOWN
+    subtype: DRAFT
   Marvel Super Heroes Draft Night Case:
-    category: UNKNOWN
+    category: LIMITED_CASE
     identifiers:
       tcgplayerProductId: '675626'
-    subtype: UNKNOWN
+    subtype: DRAFT
   Marvel Super Heroes Gift Bundle:
     category: BUNDLE
     identifiers:
@@ -75,12 +75,12 @@ products:
       mcmId: '869525'
       scgId: SLD-MTG-BUN-MSHGIFT-EN
       tcgplayerProductId: '675617'
-    subtype: UNKNOWN
+    subtype: GIFT_BUNDLE
   Marvel Super Heroes Gift Bundle Case:
-    category: BUNDLE
+    category: BUNDLE_CASE
     identifiers:
       tcgplayerProductId: '675618'
-    subtype: UNKNOWN
+    subtype: GIFT_BUNDLE
   Marvel Super Heroes Jumpstart Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -89,12 +89,12 @@ products:
       miniaturemarketId: 019c06a2560a7194afe63628f18840e4
       scgId: SLD-MTG-BBX-MSHJUMPSTART-EN
       tcgplayerProductId: '675623'
-    subtype: UNKNOWN
+    subtype: JUMPSTART
   Marvel Super Heroes Jumpstart Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '675624'
-    subtype: UNKNOWN
+    subtype: JUMPSTART
   Marvel Super Heroes Jumpstart Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -102,7 +102,7 @@ products:
       mcmId: '869491'
       scgId: SLD-MTG-PCK-MSHJUMPSTART-EN
       tcgplayerProductId: '675622'
-    subtype: UNKNOWN
+    subtype: JUMPSTART
   Marvel Super Heroes Play Booster Box:
     category: BOOSTER_BOX
     identifiers:
@@ -136,30 +136,30 @@ products:
       tcgplayerProductId: '675610'
     subtype: PRERELEASE
   Marvel Super Heroes Prerelease Pack Case:
-    category: LIMITED
+    category: LIMITED_CASE
     identifiers:
       tcgplayerProductId: '675611'
     subtype: PRERELEASE
   Marvel Super Heroes Scene Box Case:
-    category: UNKNOWN
+    category: BOX_SET
     identifiers:
       tcgplayerProductId: '675621'
-    subtype: UNKNOWN
+    subtype: OTHER
   Marvel Super Heroes Scene Box Heroes United:
-    category: UNKNOWN
+    category: BOX_SET
     identifiers:
       cardtraderId: '370628'
       mcmId: '869509'
       miniaturemarketId: 019c06a28b077313ba2c21dc4eb74aa3
       scgId: SLD-MTG-BXS-MSHSCENE-EN-UNITED
       tcgplayerProductId: '675619'
-    subtype: UNKNOWN
+    subtype: OTHER
   Marvel Super Heroes Scene Box Villains Unleashed:
-    category: UNKNOWN
+    category: BOX_SET
     identifiers:
       cardtraderId: '370629'
       mcmId: '869510'
       miniaturemarketId: 019c06a29492727c83a73ba32bd5330d
       scgId: SLD-MTG-BXS-MSHSCENE-EN-VILLAINS
       tcgplayerProductId: '675620'
-    subtype: UNKNOWN
+    subtype: OTHER

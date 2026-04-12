@@ -12,13 +12,13 @@ products:
     release_date: '2026-01-23'
     subtype: THEME
   Lorwyn Eclipsed 60-Card Theme Deck Display:
-    category: UNKNOWN
+    category: DECK_BOX
     identifiers:
       cardtraderId: '352411'
       tcgplayerProductId: '656332'
     subtype: THEME
   Lorwyn Eclipsed 60-Card Theme Deck Display Case:
-    category: UNKNOWN
+    category: DECK_BOX
     identifiers:
       tcgplayerProductId: '656334'
     subtype: THEME
@@ -56,7 +56,7 @@ products:
     release_date: '2026-01-23'
     subtype: DEFAULT
   Lorwyn Eclipsed Bundle Case:
-    category: BUNDLE
+    category: BUNDLE_CASE
     identifiers:
       tcgplayerProductId: '656342'
     subtype: DEFAULT
@@ -74,10 +74,10 @@ products:
     release_date: '2026-01-23'
     subtype: COLLECTOR
   Lorwyn Eclipsed Collector Booster Box Case:
-    category: UNKNOWN
+    category: BOOSTER_CASE
     identifiers:
       tcgplayerProductId: '656325'
-    subtype: UNKNOWN
+    subtype: COLLECTOR
   Lorwyn Eclipsed Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
@@ -91,7 +91,7 @@ products:
     release_date: '2026-01-23'
     subtype: COLLECTOR
   Lorwyn Eclipsed Draft Night:
-    category: BUNDLE
+    category: LIMITED
     identifiers:
       abuId: '2656218'
       cardKingdomId: '321617'
@@ -101,12 +101,12 @@ products:
       scgId: SLD-MTG-DRAFTNIGHT-ECL-EN
       tcgplayerProductId: '656343'
     release_date: '2026-01-23'
-    subtype: DEFAULT
+    subtype: DRAFT
   Lorwyn Eclipsed Draft Night Case:
-    category: UNKNOWN
+    category: LIMITED_CASE
     identifiers:
       tcgplayerProductId: '656348'
-    subtype: UNKNOWN
+    subtype: DRAFT
   Lorwyn Eclipsed MTGO Redemption:
     category: BOX_SET
     identifiers:
@@ -125,11 +125,11 @@ products:
     release_date: '2026-01-23'
     subtype: PLAY
   Lorwyn Eclipsed Play Booster Box Case:
-    category: UNKNOWN
+    category: BOOSTER_CASE
     identifiers:
       scgId: SLD-MTG-BBX-ECLPLAYCASE-EN
       tcgplayerProductId: '656315'
-    subtype: UNKNOWN
+    subtype: PLAY
   Lorwyn Eclipsed Play Booster Pack:
     category: BOOSTER_PACK
     identifiers:

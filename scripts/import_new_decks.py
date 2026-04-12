@@ -52,6 +52,18 @@ skip_names = [
 ]
 
 
+category_fixups = {
+    "BOX": "BOX_SET",
+}
+
+subtype_fixups = {
+    "BOX_SET": "OTHER",
+    "COMMANDER_DECK": "COMMANDER",
+    "THEME_DECK": "THEME",
+    "WELCOME_DECK": "WELCOME",
+}
+
+
 def add_product(set_code, name, deck):
     products_path = Path(f"data/products/{set_code.upper()}.yaml")
 
@@ -75,6 +87,9 @@ def add_product(set_code, name, deck):
         new_product["subtype"] = deck["type"].upper().replace(" ", "_")
         new_product["release_date"] = deck["release_date"]
 
+        if new_product["category"] in category_fixups:
+            new_product["category"] = category_fixups[new_product["category"]]
+
         # Override fields for specific sets
         if set_code in ["sld", "slc"]:
             new_product["category"] = "BOX_SET"
@@ -82,10 +97,15 @@ def add_product(set_code, name, deck):
 
         # Fixup subtypes
         # XXX maybe we should propagate these types from upstream instead of having our own?
-        if new_product["subtype"] == "THEME_DECK":
-            new_product["subtype"] = "THEME"
-        elif new_product["subtype"] == "COMMANDER_DECK":
-            new_product["subtype"] = "COMMANDER"
+        if new_product["subtype"] in subtype_fixups:
+            new_product["subtype"] = subtype_fixups[new_product["subtype"]]
+
+        if name.endswith("Draft Night Case"):
+            new_product["category"] = "LIMITED_CASE"
+            new_product["subtype"] = "DRAFT"
+        elif name.endswith("Draft Night"):
+            new_product["category"] = "LIMITED"
+            new_product["subtype"] = "DRAFT"
 
         products["products"][name] = new_product
 
