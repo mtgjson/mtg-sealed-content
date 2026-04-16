@@ -1,5 +1,15 @@
 abugames: {}
-cardKingdom: {}
+cardKingdom:
+  'Chaos Vault - Secret Lair x Brain Dead: New Earth Mentality - Foil':
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '324499'
+    subtype: UNKNOWN
+  'Chaos Vault - Secret Lair x Brain Dead: New Earth Mentality - Non-Foil':
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '324500'
+    subtype: UNKNOWN
 cardMarket:
   'Secret Lair Drop Series: Festival in a Box: Las Vegas 2026':
     category: UNKNOWN
@@ -80,10 +90,5 @@ miniaturemarket:
       miniaturemarketId: 019c06a169d873349ae1d8e47294263a
     subtype: UNKNOWN
 starcitygames: {}
-tcgplayer:
-  Teenage Mutant Ninja Turtles Prerelease Pack Case:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '688629'
-    subtype: UNKNOWN
+tcgplayer: {}
 trollandtoad: {}
