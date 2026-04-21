@@ -2184,12 +2184,14 @@ products:
   Secret Lair Drop Brain Dead New Earth Mentality:
     category: BOX_SET
     identifiers:
+      cardKingdomId: '324500'
       tcgplayerProductId: '680611'
     release_date: '2026-02-24'
     subtype: SECRET_LAIR
   Secret Lair Drop Brain Dead New Earth Mentality Foil:
     category: BOX_SET
     identifiers:
+      cardKingdomId: '324499'
       tcgplayerProductId: '680617'
     release_date: '2026-02-24'
     subtype: SECRET_LAIR
@@ -2836,6 +2838,7 @@ products:
     identifiers:
       cardtraderId: '368636'
       mcmId: '868493'
+      miniaturemarketId: 019d6e98b6637270b667cd9392e4f1a6
       tcgplayerProductId: '673773'
     release_date: '2026-02-16'
     subtype: SECRET_LAIR
@@ -3875,6 +3878,7 @@ products:
     category: BOX_SET
     identifiers:
       cardtraderId: '381507'
+      mcmId: '882898'
     release_date: '2026-04-06'
     subtype: SECRET_LAIR
   Secret Lair Drop Marvels Deadpool I Fixed It (Youre Welcome) Foil:
@@ -3889,7 +3893,8 @@ products:
     subtype: UNKNOWN
   Secret Lair Drop Marvels Deadpool I Fixed It (Youre Welcome) Pool Party Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      mcmId: '882899'
     release_date: '2026-04-06'
     subtype: SECRET_LAIR
   Secret Lair Drop Math Is For Blockers:
@@ -7320,6 +7325,8 @@ products:
   Secret Lair Festival in a Box Las Vegas 2026 Bundle:
     category: BOX_SET
     identifiers:
+      cardtraderId: '384937'
+      mcmId: '883463'
       tcgplayerProductId: '689835'
     release_date: '2026-05-01'
     subtype: SECRET_LAIR_BUNDLE

@@ -16,6 +16,7 @@ products:
       cardKingdomId: '324606'
       cardtraderId: '370612'
       mcmId: '869384'
+      miniaturemarketId: 019c06a173777270a68066767b5f3d82
       scgId: SLD-MTG-STD-SOS-EN-EERIE
       tcgplayerProductId: '675579'
     subtype: THEME
@@ -25,6 +26,7 @@ products:
       cardKingdomId: '324607'
       cardtraderId: '370611'
       mcmId: '869385'
+      miniaturemarketId: 019c06a17d227187b1e29941a6f598b3
       scgId: SLD-MTG-STD-SOS-EN-LIFEGAIN
       tcgplayerProductId: '675580'
     subtype: THEME
@@ -134,6 +136,7 @@ products:
     identifiers:
       cardtraderId: '370603'
       mcmId: '869373'
+      miniaturemarketId: 019c06a1870270f9b26a75b6e07fb01d
       scgId: SLD-MTG-PRE-SOS-EN-LOREHOLD
       tcgplayerProductId: '675576'
     subtype: PRERELEASE
@@ -142,6 +145,7 @@ products:
     identifiers:
       cardtraderId: '370602'
       mcmId: '869372'
+      miniaturemarketId: 019c06a191ed7264961766c929685ed2
       scgId: SLD-MTG-PRE-SOS-EN-PRISMARI
       tcgplayerProductId: '675574'
     subtype: PRERELEASE
@@ -150,6 +154,7 @@ products:
     identifiers:
       cardtraderId: '370604'
       mcmId: '869374'
+      miniaturemarketId: 019c06a19bd971de8d22622ef70bf172
       scgId: SLD-MTG-PRE-SOS-EN-QUANDRIX
       tcgplayerProductId: '675577'
     subtype: PRERELEASE
@@ -163,6 +168,7 @@ products:
     identifiers:
       cardtraderId: '370601'
       mcmId: '869370'
+      miniaturemarketId: 019c06a1a503723481f75ace8731e75f
       scgId: SLD-MTG-PRE-SOS-EN-SILVERQUILL
       tcgplayerProductId: '675573'
     subtype: PRERELEASE
@@ -171,6 +177,7 @@ products:
     identifiers:
       cardtraderId: '370605'
       mcmId: '869375'
+      miniaturemarketId: 019c06a1af4e72f9919a6f4384275bb1
       scgId: SLD-MTG-PRE-SOS-EN-WITHERBLOOM
       tcgplayerProductId: '675575'
     subtype: PRERELEASE
@@ -178,6 +185,7 @@ products:
     category: SUBSET
     identifiers:
       cardKingdomId: '324625'
+      miniaturemarketId: 019c06a169d873349ae1d8e47294263a
       scgId: SLD-MTG-STD-SOS-EN-SETOF2
       tcgplayerProductId: '675583'
     subtype: THEME
@@ -185,24 +193,34 @@ products:
     category: DECK
     identifiers:
       cardtraderId: '380934'
+      mcmId: '884061'
     subtype: WELCOME
   Welcome Deck 2026 Blue Deck:
     category: DECK
     identifiers:
       cardtraderId: '380933'
+      mcmId: '884058'
     subtype: WELCOME
   Welcome Deck 2026 Green Deck:
     category: DECK
     identifiers:
       cardtraderId: '380936'
+      mcmId: '884062'
     subtype: WELCOME
   Welcome Deck 2026 Red Deck:
     category: DECK
     identifiers:
       cardtraderId: '380935'
+      mcmId: '884064'
+    subtype: WELCOME
+  Welcome Deck 2026 Set of 5:
+    category: DECK
+    identifiers:
+      cardtraderId: '380937'
     subtype: WELCOME
   Welcome Deck 202666 Red Deck:
     category: DECK
     identifiers:
       cardtraderId: '380932'
+      mcmId: '884056'
     subtype: WELCOME
