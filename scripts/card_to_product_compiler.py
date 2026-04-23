@@ -137,9 +137,8 @@ class MtgjsonCardLinker:
                 }
             ]
             """
-            return self.get_cards_in_sealed_product(
-                content["set"].upper(), content.get("uuid")
-            )
+            # do nothing, cards need not to be mapped to products containing products
+            return []
 
         if content_key == "deck":
             """
@@ -179,11 +178,8 @@ class MtgjsonCardLinker:
                         self.get_cards_in_deck(deck["set"].upper(), deck["name"])
                     )
                 for sealed in config.get("sealed", []):
-                    return_value.update(
-                        self.get_cards_in_sealed_product(
-                            sealed["set"].upper(), sealed.get("uuid", None)
-                        )
-                    )
+                    # do nothing, like above
+                    return_value = return_value
                 for pack in config.get("pack", []):
                     return_value.update(
                         self.get_cards_in_pack(
