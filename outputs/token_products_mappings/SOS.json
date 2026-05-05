@@ -25,9 +25,7 @@
             },
             "tokenParts": [
                 {
-                    "faceId": "13",
-                    "faceName": "Professor Dellian Fel",
-                    "tokenType": "Token"
+                    "uuid": "557d0e61-7450-5948-8f06-6d658b73ce1d"
                 },
                 {
                     "uuid": "00a0801d-0212-5890-8957-3cde30f382f9"
@@ -329,6 +327,24 @@
                 },
                 {
                     "uuid": "48d55c9e-8d4b-567e-a493-5f3c03136c00"
+                }
+            ]
+        }
+    ],
+    "557d0e61-7450-5948-8f06-6d658b73ce1d": [
+        {
+            "identifiers": {
+                "tcgplayerProductId": "690426"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F690426%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "557d0e61-7450-5948-8f06-6d658b73ce1d"
+                },
+                {
+                    "uuid": "00a0801d-0212-5890-8957-3cde30f382f9"
                 }
             ]
         }
