@@ -608,7 +608,12 @@ miniaturemarket:
     identifiers:
       miniaturemarketId: 0190f5912fd1707f87fbee00ad95e891
     subtype: UNKNOWN
-starcitygames: {}
+starcitygames:
+  Could not load provider starcitygames:
+    category: UNKNOWN
+    identifiers:
+      scgId: ''
+    subtype: UNKNOWN
 tcgplayer:
   Reality Fracture Bundle:
     category: UNKNOWN
