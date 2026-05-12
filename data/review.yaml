@@ -165,11 +165,6 @@ cardKingdom:
     identifiers:
       cardKingdomId: '325638'
     subtype: UNKNOWN
-  "Secret Lair Drop - Secret Lair x Marvel's Deadpool: I Fixed It (You\u2019re Welcome) - Pool Party Foil":
-    category: UNKNOWN
-    identifiers:
-      cardKingdomId: '325639'
-    subtype: UNKNOWN
 cardMarket:
   'Commander: Foundations: ""Calling All Angels"" Commander Deck':
     category: UNKNOWN
@@ -546,12 +541,27 @@ cardTrader:
     identifiers:
       cardtraderId: '389305'
     subtype: UNKNOWN
-coolstuffinc: {}
+coolstuffinc:
+  MTG - Secrets of Strixhaven - Collector Booster Box:
+    category: UNKNOWN
+    identifiers:
+      csiId: '432415'
+    subtype: UNKNOWN
+  MTG - Teenage Mutant Ninja Turtles - Collector Booster Box:
+    category: UNKNOWN
+    identifiers:
+      csiId: '425650'
+    subtype: UNKNOWN
 miniaturemarket:
   'MTG: Lorwyn Eclipsed - Commander Deck - Blight Curse':
     category: UNKNOWN
     identifiers:
       miniaturemarketId: 2fe161653e157f63b4eab880d123a28c
+    subtype: UNKNOWN
+  'MTG: Marvel Super Heroes - Collector Booster Box (12) (Preorder)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 019c06a1cb7773f0ad583d51c9fd4bbe
     subtype: UNKNOWN
   'MTG: Marvel Super Heroes - Collector Booster Pack (Preorder)':
     category: UNKNOWN
@@ -562,6 +572,11 @@ miniaturemarket:
     category: UNKNOWN
     identifiers:
       miniaturemarketId: 019c06a285627116a4998fb933691b58
+    subtype: UNKNOWN
+  'MTG: Secrets of Strixhaven - Codex Bundle (Preorder)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 019c06a15500708085e9501898049ca2
     subtype: UNKNOWN
   'MTG: Secrets of Strixhaven - Commander Deck - Prismari Artistry (New Arrival)':
     category: UNKNOWN
