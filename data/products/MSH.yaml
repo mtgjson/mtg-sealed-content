@@ -3,6 +3,7 @@ products:
   Marvel Super Heroes Beginner Box:
     category: BOX_SET
     identifiers:
+      abuId: '2686957'
       cardtraderId: '370625'
       mcmId: '869508'
       miniaturemarketId: 019c06a2a79f733fa39031207956adee
@@ -17,6 +18,7 @@ products:
   Marvel Super Heroes Bundle:
     category: BUNDLE
     identifiers:
+      abuId: '2686958'
       cardtraderId: '370624'
       mcmId: '869513'
       miniaturemarketId: 019c06a268fb70b5a070c45a8729f9bd
@@ -31,6 +33,7 @@ products:
   Marvel Super Heroes Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2686905'
       cardtraderId: '370618'
       mcmId: '869496'
       scgId: SLD-MTG-BBX-MSH-EN
@@ -44,6 +47,7 @@ products:
   Marvel Super Heroes Collector Booster Box Master Case:
     category: BOOSTER_BOX
     identifiers:
+      miniaturemarketId: 019c06a1cb7773f0ad583d51c9fd4bbe
       tcgplayerProductId: '675608'
     subtype: COLLECTOR
   Marvel Super Heroes Collector Booster Pack:
@@ -51,12 +55,14 @@ products:
     identifiers:
       cardtraderId: '370621'
       mcmId: '869492'
+      miniaturemarketId: 019c06a1d5f0712693e05f3da3115a69
       scgId: SLD-MTG-PCK-MSHCOLLECTOR-EN
       tcgplayerProductId: '675605'
     subtype: COLLECTOR
   Marvel Super Heroes Draft Night:
     category: LIMITED
     identifiers:
+      abuId: '2686962'
       cardtraderId: '370623'
       mcmId: '869507'
       miniaturemarketId: 019c06a29dd4722981ba3d6a41018cff
@@ -71,6 +77,7 @@ products:
   Marvel Super Heroes Gift Bundle:
     category: BUNDLE
     identifiers:
+      abuId: '2686961'
       cardtraderId: '370626'
       mcmId: '869525'
       scgId: SLD-MTG-BUN-MSHGIFT-EN
@@ -84,6 +91,7 @@ products:
   Marvel Super Heroes Jumpstart Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2686929'
       cardtraderId: '370617'
       mcmId: '869495'
       miniaturemarketId: 019c06a2560a7194afe63628f18840e4
@@ -106,6 +114,7 @@ products:
   Marvel Super Heroes Play Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      abuId: '2686903'
       cardtraderId: '370616'
       mcmId: '869494'
       miniaturemarketId: 019c06a1b846728597414ac125184e78
@@ -130,6 +139,7 @@ products:
   Marvel Super Heroes Prerelease Pack:
     category: LIMITED
     identifiers:
+      abuId: '2687007'
       cardtraderId: '370627'
       mcmId: '869532'
       scgId: SLD-MTG-PRE-MSH-EN
@@ -143,11 +153,13 @@ products:
   Marvel Super Heroes Scene Box Case:
     category: BOX_SET
     identifiers:
+      miniaturemarketId: 019c06a285627116a4998fb933691b58
       tcgplayerProductId: '675621'
     subtype: OTHER
   Marvel Super Heroes Scene Box Heroes United:
     category: BOX_SET
     identifiers:
+      abuId: '2686959'
       cardtraderId: '370628'
       mcmId: '869509'
       miniaturemarketId: 019c06a28b077313ba2c21dc4eb74aa3
@@ -157,6 +169,7 @@ products:
   Marvel Super Heroes Scene Box Villains Unleashed:
     category: BOX_SET
     identifiers:
+      abuId: '2686960'
       cardtraderId: '370629'
       mcmId: '869510'
       miniaturemarketId: 019c06a29492727c83a73ba32bd5330d
