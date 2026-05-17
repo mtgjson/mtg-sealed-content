@@ -2134,6 +2134,16 @@ products:
       tcgplayerProductId: '662602'
     release_date: '2025-11-18'
     subtype: SECRET_LAIR
+  Secret Lair Drop Back in My Day!:
+    category: BOX_SET
+    identifiers: {}
+    release_date: '2026-05-29'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Back in My Day! Foil:
+    category: BOX_SET
+    identifiers: {}
+    release_date: '2026-05-29'
+    subtype: SECRET_LAIR
   Secret Lair Drop Bad to the Bones:
     category: BOX_SET
     identifiers:
@@ -3542,6 +3552,16 @@ products:
       csiId: '345075'
       tcgplayerProductId: '283282'
     release_date: '2022-10-25'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Inked:
+    category: BOX_SET
+    identifiers: {}
+    release_date: '2026-05-29'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Inked Foil:
+    category: BOX_SET
+    identifiers: {}
+    release_date: '2026-05-29'
     subtype: SECRET_LAIR
   Secret Lair Drop International Womens Day 2020:
     category: BOX_SET
@@ -6201,11 +6221,12 @@ products:
     release_date: '2025-05-19'
     subtype: SECRET_LAIR
   Secret Lair Drop So Salty:
-    category: UNKNOWN
+    category: BOX_SET
     identifiers:
       cardtraderId: '388496'
       mcmId: '882895'
-    subtype: UNKNOWN
+    release_date: '2025-04-22'
+    subtype: SECRET_LAIR
   Secret Lair Drop Special Guest Fiona Staples:
     category: BOX_SET
     identifiers:
@@ -7239,6 +7260,17 @@ products:
       tntId: '1729095'
     release_date: '2021-05-27'
     subtype: SECRET_LAIR
+  Secret Lair Drop Viva Las Rakdos:
+    category: BOX_SET
+    identifiers: {}
+    release_date: '2025-05-13'
+    subtype: SECRET_LAIR
+  Secret Lair Drop Viva Las Rakdos Rainbow Foil:
+    category: BOX_SET
+    identifiers:
+      tcgplayerProductId: '689836'
+    release_date: '2025-05-13'
+    subtype: SECRET_LAIR
   Secret Lair Drop We Hope You Like Squirrels:
     category: BOX_SET
     identifiers:
@@ -7447,9 +7479,3 @@ products:
       tcgplayerProductId: '455833'
     release_date: '2023-03-10'
     subtype: SECRET_LAIR_BUNDLE
-  Secret Lair Drop Viva Las Rakdos Rainbow Foil:
-    category: BOX_SET
-    identifiers:
-      tcgplayerProductId: '689836'
-    release_date: '2025-05-13'
-    subtype: SECRET_LAIR
