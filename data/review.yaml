@@ -1,4 +1,44 @@
-abugames: {}
+abugames:
+  'The Lord of the Rings: Tales of Middle-earth Collector Booster Pack (Loose)':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2688381'
+    subtype: UNKNOWN
+  'The Lord of the Rings: Tales of Middle-earth Draft Booster Pack (Loose)':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2688384'
+    subtype: UNKNOWN
+  The Lost Caverns of Ixalan Collector Booster Pack (Loose):
+    category: UNKNOWN
+    identifiers:
+      abuId: '2688371'
+    subtype: UNKNOWN
+  The Lost Caverns of Ixalan Draft Booster Pack (Loose):
+    category: UNKNOWN
+    identifiers:
+      abuId: '2688372'
+    subtype: UNKNOWN
+  The Lost Caverns of Ixalan Set Booster Pack (Loose):
+    category: UNKNOWN
+    identifiers:
+      abuId: '2688373'
+    subtype: UNKNOWN
+  Time Spiral Remastered Draft Booster Pack (Loose):
+    category: UNKNOWN
+    identifiers:
+      abuId: '2688336'
+    subtype: UNKNOWN
+  Unfinity Collector Booster Pack (Loose):
+    category: UNKNOWN
+    identifiers:
+      abuId: '2688278'
+    subtype: UNKNOWN
+  Unfinity Draft Booster Pack (Loose):
+    category: UNKNOWN
+    identifiers:
+      abuId: '2688295'
+    subtype: UNKNOWN
 cardKingdom: {}
 cardMarket:
   Reality Fracture Collector Booster:
@@ -239,7 +279,12 @@ cardTrader:
       cardtraderId: '389305'
     subtype: UNKNOWN
 coolstuffinc: {}
-miniaturemarket: {}
+miniaturemarket:
+  'MTG: Marvel Super Heroes - Jumpstart Booster Pack (Preorder)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 019c06a25f6573b1bbd678573603c0a3
+    subtype: UNKNOWN
 starcitygames: {}
 tcgplayer:
   Reality Fracture Bundle:
