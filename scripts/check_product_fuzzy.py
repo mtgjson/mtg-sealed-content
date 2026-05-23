@@ -1,7 +1,22 @@
+import argparse
 import sys
 import yaml
 from pathlib import Path
 from thefuzz import fuzz
+
+parser = argparse.ArgumentParser(
+    description="Interactively match review entries to known products."
+)
+parser.add_argument(
+    "--skip",
+    action="append",
+    default=[],
+    metavar="PATTERN",
+    help="Skip review entries whose name contains PATTERN (case-insensitive). "
+         "May be passed multiple times.",
+)
+args = parser.parse_args()
+skip_patterns = [p.lower() for p in args.skip]
 
 try:
     with open("data/review_temp.yaml") as review_file:
@@ -23,9 +38,16 @@ provmap = {
 }
 
 review_products = []
+skipped_count = 0
 for provider in review_data.values():
     for name, contents in provider.items():
+        if any(p in name.lower() for p in skip_patterns):
+            skipped_count += 1
+            continue
         review_products.append((name, contents["identifiers"], contents.get("release_date", False)))
+
+if skip_patterns:
+    print(f"Skipping {skipped_count} review entries matching: {args.skip}")
 
 known_products = []
 for contentfile in Path("data/products").glob("*.yaml"):
