@@ -456,7 +456,7 @@ def scgretaildownload(guid, page):
     payload["clientguid"] = guid
     payload["FacetSelections"] = facet
 
-    r = requests.post("https://essearchapi-na.hawksearch.com/api/v2/search", json=payload, headers=header)
+    r = requests.post("https://starcitygamesv2.searchapi-na.hawksearch.com/api/v2/search", json=payload, headers=header)
     return json.loads(r.content)
 
 
