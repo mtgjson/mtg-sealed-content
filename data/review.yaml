@@ -64,6 +64,11 @@ abugames:
     identifiers:
       abuId: '2689632'
     subtype: UNKNOWN
+  'Secrets of Strixhaven Codex Bundle [Limit: 1 Per customer]':
+    category: UNKNOWN
+    identifiers:
+      abuId: '2675221'
+    subtype: UNKNOWN
 cardKingdom: {}
 cardMarket:
   'Commander: Reality Fracture: ""Multiverse Reforged"" Commander Deck':
@@ -353,14 +358,59 @@ cardTrader:
     identifiers:
       cardtraderId: '389305'
     subtype: UNKNOWN
-coolstuffinc:
-  Could not load provider coolstuffinc:
+coolstuffinc: {}
+miniaturemarket: {}
+starcitygames:
+  The Hobbit Bundle:
     category: UNKNOWN
     identifiers:
-      csiId: ''
+      scgId: SLD-MTG-BUN-HOB-EN
     subtype: UNKNOWN
-miniaturemarket: {}
-starcitygames: {}
+  The Hobbit Collector Booster Box:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-HOBCOLLECTOR-EN
+    subtype: UNKNOWN
+  The Hobbit Collector Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-HOBCOLLECTOR-EN
+    subtype: UNKNOWN
+  The Hobbit Play Booster Box:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-HOBPLAY-EN
+    subtype: UNKNOWN
+  The Hobbit Play Booster Case:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-HOBPLAYCASE-EN
+    subtype: UNKNOWN
+  The Hobbit Play Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PCK-HOBPLAY-EN
+    subtype: UNKNOWN
+  The Hobbit Play Combo Pack:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BBX-HOBPLAYCOMBO-EN
+    subtype: UNKNOWN
+  The Hobbit Prerelease Kit:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-PRE-HOB-EN
+    subtype: UNKNOWN
+  The Hobbit Scene Box - Crack the Plates:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BXS-HOBSCENE-CRACK
+    subtype: UNKNOWN
+  The Hobbit Scene Box - Treasures of Smaug:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BXS-HOBSCENE-TREASURES
+    subtype: UNKNOWN
 tcgplayer:
   Reality Fracture Bundle:
     category: UNKNOWN
