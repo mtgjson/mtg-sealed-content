@@ -69,7 +69,12 @@ abugames:
     identifiers:
       abuId: '2675221'
     subtype: UNKNOWN
-cardKingdom: {}
+cardKingdom:
+  Secret Lair Commander Deck - Goblin Storm:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '327161'
+    subtype: UNKNOWN
 cardMarket:
   'Commander: Reality Fracture: ""Multiverse Reforged"" Commander Deck':
     category: UNKNOWN
@@ -381,6 +386,16 @@ starcitygames:
     category: UNKNOWN
     identifiers:
       scgId: SLD-MTG-PCK-HOBCOLLECTOR-EN
+    subtype: UNKNOWN
+  The Hobbit Draft Night:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-DFT-HOB-EN
+    subtype: UNKNOWN
+  The Hobbit Gift Bundle:
+    category: UNKNOWN
+    identifiers:
+      scgId: SLD-MTG-BUN-HOBGIFT-EN
     subtype: UNKNOWN
   The Hobbit Play Booster Box:
     category: UNKNOWN
