@@ -370,7 +370,12 @@ cardTrader:
       cardtraderId: '389305'
     subtype: UNKNOWN
 coolstuffinc: {}
-miniaturemarket: {}
+miniaturemarket:
+  'MTG: Marvel Super Heroes - Gift Bundle (Preorder)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 019c06a2745570b4a0c96b085e33b38f
+    subtype: UNKNOWN
 starcitygames:
   The Hobbit Bundle:
     category: UNKNOWN
