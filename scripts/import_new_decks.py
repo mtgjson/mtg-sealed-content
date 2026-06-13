@@ -129,8 +129,12 @@ def add_content(set_code, name, deck):
         contents = yaml.safe_load(f)
 
         # use setdefault to write fields that aren't already present in the
-        # existing entry and create new ones if we're adding a new product
+        # existing entry and create new ones if we're adding a new product.
+        # Existing entries may be empty-list placeholders (e.g. `name: []`) —
+        # treat those as empty dicts so setdefault works.
         content = contents["products"].get(name, {})
+        if not isinstance(content, dict):
+            content = {}
 
         card_count = sum(card["count"] for card in deck["cards"])
         content.setdefault("card_count", card_count)
