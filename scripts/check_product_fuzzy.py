@@ -18,12 +18,9 @@ parser.add_argument(
 args = parser.parse_args()
 skip_patterns = [p.lower() for p in args.skip]
 
-try:
-    with open("data/review_temp.yaml") as review_file:
-        review_data = yaml.safe_load(review_file)
-except FileNotFoundError:
-    with open("data/review.yaml", "r") as review_file:
-        review_data = yaml.safe_load(review_file)
+review_path = Path("data/review.yaml")
+with open(review_path) as review_file:
+    review_data = yaml.safe_load(review_file)
 
 provmap = {
     "mcmId": "cardMarket",
@@ -36,6 +33,21 @@ provmap = {
     "abuId": "abugames",
     "tntId": "trollandtoad",
 }
+
+
+def remove_from_review(handled):
+    """Drop the just-handled entry from the review data and persist it so a
+    re-run does not prompt for the same product again."""
+    name, identifiers = handled[0], handled[1]
+    removed = False
+    for provider_products in review_data.values():
+        entry = provider_products.get(name)
+        if entry is not None and entry.get("identifiers") == identifiers:
+            del provider_products[name]
+            removed = True
+    if removed:
+        with open(review_path, "w") as review_file:
+            yaml.dump(review_data, review_file)
 
 review_products = []
 skipped_count = 0
@@ -206,6 +218,7 @@ while index < len(review_products):
             ignore_content[provmap[provider]].update({identifier: product[0]})
         with open("data/ignore.yaml", "w") as ignore_file:
             yaml.dump(ignore_content, ignore_file)
+        remove_from_review(product)
     elif product_check in ["0","1","2","3","4"]:
         check_index = int(product_check) + offset
         if check_index >= len(known_products):
@@ -231,6 +244,7 @@ while index < len(review_products):
         import_products["products"][product_link[0]]["identifiers"].update(product[1])
         with open(product_link[1], 'w') as product_file:
             yaml.dump(import_products, product_file)
+        remove_from_review(product)
     elif product_check == "c":
         try:
             set_code = input(f"OK, which set code? ").upper().strip()
@@ -270,6 +284,7 @@ while index < len(review_products):
         with target_path.open("w") as product_file:
             yaml.dump(content, product_file)
 
+        remove_from_review(product)
         known_products.append((product_name, target_path))
         print("Product added, don't forget to review and update default fields")
 
