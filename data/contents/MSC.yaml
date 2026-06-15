@@ -10,7 +10,20 @@ products:
     deck:
     - name: Avengers Assemble Collector's Edition
       set: msc
-  Marvel Super Heroes Commander Deck Collectors Edition Set of 4: []
+  Marvel Super Heroes Commander Deck Collector's Edition Set of 4:
+    sealed:
+    - count: 1
+      name: Marvel Super Heroes Commander Deck Avengers Assemble Collector's Edition
+      set: msc
+    - count: 1
+      name: Marvel Super Heroes Commander Deck Doom Prevails Collector's Edition
+      set: msc
+    - count: 1
+      name: Marvel Super Heroes Commander Deck The Fantastic Four Collector's Edition
+      set: msc
+    - count: 1
+      name: Marvel Super Heroes Commander Deck Wakanda Forever Collector's Edition
+      set: msc
   Marvel Super Heroes Commander Deck Doom Prevails:
     card_count: 99
     deck:
@@ -21,7 +34,20 @@ products:
     deck:
     - name: Doom Prevails Collector's Edition
       set: msc
-  Marvel Super Heroes Commander Deck Set of 4: []
+  Marvel Super Heroes Commander Deck Set of 4:
+    sealed:
+    - count: 1
+      name: Marvel Super Heroes Commander Deck Avengers Assemble
+      set: msc
+    - count: 1
+      name: Marvel Super Heroes Commander Deck Doom Prevails
+      set: msc
+    - count: 1
+      name: Marvel Super Heroes Commander Deck The Fantastic Four
+      set: msc
+    - count: 1
+      name: Marvel Super Heroes Commander Deck Wakanda Forever
+      set: msc
   Marvel Super Heroes Commander Deck The Fantastic Four:
     card_count: 99
     deck:
