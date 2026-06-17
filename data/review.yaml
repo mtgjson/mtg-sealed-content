@@ -345,13 +345,18 @@ cardTrader:
     identifiers:
       cardtraderId: '389305'
     subtype: UNKNOWN
-coolstuffinc:
-  Could not load provider coolstuffinc:
+coolstuffinc: {}
+miniaturemarket:
+  'MTG: Marvel Super Heroes - Prerelease Kit (Preorder)':
     category: UNKNOWN
     identifiers:
-      csiId: ''
+      miniaturemarketId: 019c06a2b2df709397e62129af97d97b
     subtype: UNKNOWN
-miniaturemarket: {}
+  'MTG: The Hobbit - Play Booster Pack (Preorder)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 019df9af40ac73d1969e6100717333b8
+    subtype: UNKNOWN
 starcitygames:
   The Hobbit Bundle:
     category: UNKNOWN
