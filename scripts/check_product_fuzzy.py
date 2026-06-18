@@ -1,8 +1,17 @@
 import argparse
+import re
 import sys
 import yaml
 from pathlib import Path
 from thefuzz import fuzz
+
+# Some terminals wrap pasted text in bracketed-paste markers (ESC[200~ ... ESC[201~);
+# input() does not strip them, so remove them to keep pasted product names usable.
+BRACKETED_PASTE_RE = re.compile(r"\x1b\[20[01]~")
+
+
+def read_input(prompt=""):
+    return BRACKETED_PASTE_RE.sub("", input(prompt))
 
 parser = argparse.ArgumentParser(
     description="Interactively match review entries to known products."
@@ -171,7 +180,7 @@ while index < len(review_products):
         print(f"  {i} - {known_products[i + offset][0]}")
 
     try:
-        product_check = input("Select action ('h' for help): ")
+        product_check = read_input("Select action ('h' for help): ")
     except EOFError:
         sys.exit(1)
 
@@ -234,7 +243,7 @@ while index < len(review_products):
         for key in product[1].keys():
             if key in import_products["products"][product_link[0]]["identifiers"] and import_products['products'][product_link[0]]['identifiers'][key] != product[1][key]:
                 try:
-                    ask = input(f"Confirm overwrite of existing id ({import_products['products'][product_link[0]]['identifiers'][key]})? [Y] ").lower()
+                    ask = read_input(f"Confirm overwrite of existing id ({import_products['products'][product_link[0]]['identifiers'][key]})? [Y] ").lower()
                     keep = ask == "y" or ask == ""
                 except EOFError:
                     sys.exit(1)
@@ -247,7 +256,7 @@ while index < len(review_products):
         remove_from_review(product)
     elif product_check == "c":
         try:
-            set_code = input(f"OK, which set code? ").upper().strip()
+            set_code = read_input(f"OK, which set code? ").upper().strip()
         except EOFError:
             sys.exit(1)
         if set_code == "":
@@ -256,7 +265,7 @@ while index < len(review_products):
             continue
 
         try:
-            product_name = input(f"Insert the product name or press Enter to use the loaded one: ").strip()
+            product_name = read_input(f"Insert the product name or press Enter to use the loaded one: ").strip()
             if product_name == "":
                 product_name = product[0]
         except EOFError:
