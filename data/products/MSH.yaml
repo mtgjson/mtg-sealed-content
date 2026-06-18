@@ -153,6 +153,7 @@ products:
       abuId: '2687007'
       cardtraderId: '370627'
       mcmId: '869532'
+      miniaturemarketId: 019c06a2b2df709397e62129af97d97b
       scgId: SLD-MTG-PRE-MSH-EN
       tcgplayerProductId: '675610'
     subtype: PRERELEASE
@@ -190,3 +191,28 @@ products:
       scgId: SLD-MTG-BXS-MSHSCENE-EN-VILLAINS
       tcgplayerProductId: '675620'
     subtype: OTHER
+  Marvel Super Heroes Welcome Deck Black:
+    category: DECK
+    identifiers:
+      cardtraderId: '395271'
+    subtype: WELCOME
+  Marvel Super Heroes Welcome Deck Blue:
+    category: DECK
+    identifiers:
+      cardtraderId: '395270'
+    subtype: WELCOME
+  Marvel Super Heroes Welcome Deck Green:
+    category: DECK
+    identifiers:
+      cardtraderId: '395273'
+    subtype: WELCOME
+  Marvel Super Heroes Welcome Deck Red:
+    category: DECK
+    identifiers:
+      cardtraderId: '395272'
+    subtype: WELCOME
+  Marvel Super Heroes Welcome Deck White:
+    category: DECK
+    identifiers:
+      cardtraderId: '395269'
+    subtype: WELCOME
