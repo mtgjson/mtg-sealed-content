@@ -12,6 +12,36 @@ cardMarket:
       mcmId: '888391'
     release_date: '2026-05-20'
     subtype: UNKNOWN
+  'Marvel Super Heroes Welcome Deck: Black Deck':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '894059'
+    release_date: '2026-06-18'
+    subtype: UNKNOWN
+  'Marvel Super Heroes Welcome Deck: Blue Deck':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '894058'
+    release_date: '2026-06-18'
+    subtype: UNKNOWN
+  'Marvel Super Heroes Welcome Deck: Green Deck':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '894062'
+    release_date: '2026-06-18'
+    subtype: UNKNOWN
+  'Marvel Super Heroes Welcome Deck: Red Deck':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '894060'
+    release_date: '2026-06-18'
+    subtype: UNKNOWN
+  'Marvel Super Heroes Welcome Deck: White Deck':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '894057'
+    release_date: '2026-06-18'
+    subtype: UNKNOWN
   Reality Fracture Collector Booster:
     category: UNKNOWN
     identifiers:
@@ -59,6 +89,12 @@ cardMarket:
     identifiers:
       mcmId: '885567'
     release_date: '2026-05-02'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: Secret Lair x Marvel: Spinner Rack Specials':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '894152'
+    release_date: '2026-06-18'
     subtype: UNKNOWN
   The Hobbit Box Topper Booster:
     category: UNKNOWN
@@ -239,12 +275,7 @@ cardTrader:
       cardtraderId: '389305'
     subtype: UNKNOWN
 coolstuffinc: {}
-miniaturemarket:
-  'MTG: The Hobbit - Play Booster Pack (Preorder)':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: 019df9af40ac73d1969e6100717333b8
-    subtype: UNKNOWN
+miniaturemarket: {}
 starcitygames:
   The Hobbit Bundle:
     category: UNKNOWN
