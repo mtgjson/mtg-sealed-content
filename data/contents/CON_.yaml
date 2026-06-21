@@ -99,7 +99,11 @@ products:
     deck:
     - name: Conflux Foil Redemption
       set: con
-  Conflux Six Card Booster Box: {}
+  Conflux Six Card Booster Box:
+    sealed:
+    - count: 100
+      name: Conflux Six Card Booster Pack
+      set: con
   Conflux Six Card Booster Pack:
     card_count: 6
     pack:
