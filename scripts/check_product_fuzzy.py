@@ -24,6 +24,33 @@ parser.add_argument(
     help="Skip review entries whose name contains PATTERN (case-insensitive). "
          "May be passed multiple times.",
 )
+parser.add_argument(
+    "--auto",
+    action="store_true",
+    help="Non-interactively apply only high-confidence, unambiguous matches, "
+         "leaving everything else in review.yaml for a manual pass.",
+)
+parser.add_argument(
+    "--auto-score",
+    type=int,
+    default=96,
+    metavar="N",
+    help="Minimum fuzzy score (0-100) required to auto-match (default: 96).",
+)
+parser.add_argument(
+    "--auto-margin",
+    type=int,
+    default=8,
+    metavar="N",
+    help="Minimum gap between the best and second-best score required to "
+         "auto-match, to avoid false friends (default: 8).",
+)
+parser.add_argument(
+    "--dry-run",
+    action="store_true",
+    help="With --auto, print the matches that would be applied without "
+         "writing any files.",
+)
 args = parser.parse_args()
 skip_patterns = [p.lower() for p in args.skip]
 
@@ -46,6 +73,72 @@ def remove_from_review(handled):
         with open(review_path, "w") as review_file:
             yaml.dump(review_data, review_file)
 
+
+def apply_identifier(handled, target_name, target_file):
+    """Write the review entry's identifier into the chosen known product.
+    Returns (True, None) on success, or (False, existing) without writing when
+    a different value is already set for one of the identifier keys (a conflict
+    a human should resolve)."""
+    with open(target_file) as product_file:
+        import_products = yaml.safe_load(product_file)
+    identifiers = import_products["products"][target_name].setdefault("identifiers", {})
+    for key, value in handled[1].items():
+        if key in identifiers and identifiers[key] != value:
+            return False, identifiers[key]
+    identifiers.update(handled[1])
+    with open(target_file, "w") as product_file:
+        yaml.dump(import_products, product_file)
+    return True, None
+
+
+def run_auto():
+    """Auto-apply only high-confidence, unambiguous matches; anything below
+    the score/margin thresholds is left in review.yaml for the manual pass."""
+    matched = conflicts = ambiguous = 0
+    for handled in list(review_products):
+        # Drop the kept [set code] and (pack count) tags for matching; mtgjson
+        # product names don't carry them and they only lower the fuzzy score.
+        query = re.sub(r"\[[^\]]*\]|\([^)]*\)", " ", handled[0])
+        query = re.sub(r"\s+", " ", query).strip()
+
+        best_score = second_score = -1
+        best = None
+        for candidate in known_products:
+            score = fuzz.token_sort_ratio(query, candidate[0])
+            if score > best_score:
+                second_score = best_score
+                best_score, best = score, candidate
+            elif score > second_score:
+                second_score = score
+
+        margin = best_score - second_score
+        if best is None or best_score < args.auto_score or margin < args.auto_margin:
+            ambiguous += 1
+            continue
+
+        # Edition code of the matched product (its data/products/<CODE>.yaml file)
+        code = best[1].stem
+        identifier = "/".join(str(v) for v in handled[1].values())
+
+        if args.dry_run:
+            print(f"[{best_score}/{margin}] {query!r} ({identifier}) -> {best[0]!r} [{code}]")
+            matched += 1
+            continue
+
+        ok, _ = apply_identifier(handled, best[0], best[1])
+        if ok:
+            remove_from_review(handled)
+            matched += 1
+            print(f"matched [{best_score}/{margin}] {query!r} ({identifier}) -> {best[0]!r} [{code}]")
+        else:
+            conflicts += 1
+
+    print(
+        f"\nAuto-match: {matched} matched, {conflicts} conflicts, "
+        f"{ambiguous + conflicts} left for review"
+        + (" (dry run, nothing written)" if args.dry_run else "")
+    )
+
 review_products = []
 skipped_count = 0
 for provider_name, provider in review_data.items():
@@ -64,6 +157,10 @@ for contentfile in Path("data/products").glob("*.yaml"):
         known_data = yaml.safe_load(known_file)
     for product_name in known_data["products"].keys():
         known_products.append((product_name, contentfile))
+
+if args.auto:
+    run_auto()
+    sys.exit(0)
 
 
 def infer_product_definition(product_name):
