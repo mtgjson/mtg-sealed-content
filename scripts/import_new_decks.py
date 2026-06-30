@@ -58,6 +58,7 @@ category_fixups = {
 
 subtype_fixups = {
     "BOX_SET": "OTHER",
+    "BRAWL_DECK": "BRAWL",
     "COMMANDER_DECK": "COMMANDER",
     "THEME_DECK": "THEME",
     "WELCOME_DECK": "WELCOME",
