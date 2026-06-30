@@ -1,5 +1,7 @@
 import json
+import re
 import sys
+import unicodedata
 from datetime import datetime
 from pathlib import Path
 
@@ -780,6 +782,181 @@ def load_tnt(_):
     return sealed_data
 
 
+def normalize_hareruya_name(name):
+    """Reduce a raw Hareruya product title to the bare product name so it
+    lines up with the mtgjson naming used by the other scrapers: normalize
+    fullwidth characters, drop shipping notes, language tags and the Japanese
+    quotation glyphs. The pack count (e.g. "(24Packs)") and the trailing [set
+    code] tag are kept as they help later detection."""
+    # Drop trademark/registered/copyright glyphs (mtgjson names omit them);
+    # strip before NFKC so "™" is removed rather than folded to "TM".
+    name = re.sub(r"[®™©℠]", "", name)
+    # Fold fullwidth latin/digits/punctuation (e.g. "ｔｈ", "Deckｓ", "［...］")
+    # down to ASCII; Japanese text is left untouched for the glyph stripping.
+    name = unicodedata.normalize("NFKC", name)
+    name = name.replace("*ships to domestic only", " ")
+    # Bare quantity tokens like "1BOX"/"6BOX" (digit glued to BOX); the spaced
+    # form "2015 BOX" is a real product name, so only strip the glued one.
+    name = re.sub(r"\b\d+BOX\b", " ", name)
+    # Keep the trailing [set code] tag(s) -- they aid detection -- and strip
+    # every other bracket tag (e.g. language tags inside the title).
+    trailing = ""
+    m = re.search(r"((?:\s*\[[^\]]+\])+)\s*$", name)
+    if m:
+        trailing = " " + m.group(1).strip()
+        name = name[:m.start()]
+    name = re.sub(r"\[[^\]]*\]", " ", name)
+    name = re.sub(r"【[^】]*】", " ", name)
+    # Strip only parentheticals containing Japanese text (e.g. "(12個セット)");
+    # keep English ones like pack counts, years and player names.
+    name = re.sub(r"\([^)]*[぀-ヿ一-鿿][^)]*\)", " ", name)
+    for ch in "《》『』「」":
+        name = name.replace(ch, " ")
+    return (re.sub(r"\s+", " ", name).strip() + trailing).strip()
+
+
+# Hareruya's English titles drop the booster type, so Draft/Set/Play/Collector
+# variants of a set share a name; the type only appears in the Japanese title.
+HARERUYA_BOOSTER_TYPES = {
+    "ドラフト": "Draft",
+    "セット": "Set",
+    "コレクター": "Collector",
+    "プレイ": "Play",
+    "ジャンプスタート": "Jumpstart",
+}
+
+
+def add_hareruya_booster_type(name, japanese_name):
+    """Insert the booster type recovered from the Japanese title before
+    'Booster' in the English name (unless it is already present), so same-named
+    Draft/Set/Play/Collector variants become distinguishable."""
+    if "Booster" not in name:
+        return name
+    match = re.search("(" + "|".join(HARERUYA_BOOSTER_TYPES) + r")・?ブースター", japanese_name)
+    if not match:
+        return name
+    booster_type = HARERUYA_BOOSTER_TYPES[match.group(1)]
+    if re.search(rf"\b{booster_type}\b", name):
+        return name
+    return name.replace("Booster", f"{booster_type} Booster", 1)
+
+
+def load_hareruya(_):
+    products = []
+
+    # Hareruya lists the same product in several languages, encoding the
+    # language as a tag in the name. Skip anything explicitly non-English;
+    # English-default products often carry no language tag at all, so those
+    # are kept.
+    non_english_tags = [
+        "[JP]", "[JPN]", "【JP】", "【JPN】", "[Japanese Ver.]",
+        "[IT]", "[ITA]", "[Italian]", "[ITALY]", "(IT)",
+        "[FR]", "[FRA]", "(FR)", "【FR】",
+        "[DE]", "[GER]", "[German]", "(DE)",
+        "[ES]", "[ESP]", "[SP]", "【SP】",
+        "[SC]", "Simplified Chinese", "【SC】", "[CT]", "【CT】",
+        "[KOR]",
+    ]
+
+    # Language markers that only appear in the Japanese title (the English
+    # title is sometimes left untagged, e.g. Traditional Chinese boosters)
+    non_english_jp_markers = [
+        "繁体字",      # Traditional Chinese
+        "簡体字",      # Simplified Chinese
+        "中国語",      # Chinese
+        "韓国語",      # Korean
+        "イタリア語",  # Italian
+        "フランス語",  # French
+        "ドイツ語",    # German
+        "スペイン語",  # Spanish
+        "ポルトガル語",  # Portuguese
+        "ロシア語",    # Russian
+    ]
+
+    # Sealed products live under the "Product Category > Sealed Product" tree,
+    # which the site queries with the category_id 177:505 (parent:child).
+    page = 0
+    while True:
+        page += 1
+        link = (
+            "https://www.hareruyamtg.com/en/products/search/unisearch_api"
+            "?fq.category_id=177:505&fq.price=1~*&rows=60&page=" + str(page)
+        )
+        print(f"Parsing page {page}")
+
+        header = {
+            "User-Agent": "curl/8.6",
+        }
+        r = requests.get(link, headers=header)
+        docs = json.loads(r.content).get("response", {}).get("docs", [])
+
+        # Exit loop condition: stop once a page returns no more products
+        if not docs:
+            break
+
+        for product in docs:
+            name = product.get("product_name_en", "").strip()
+            if not name:
+                continue
+
+            if any(tag in name for tag in non_english_tags):
+                continue
+
+            # Some non-English products are only marked in the Japanese title
+            # (e.g. 繁体字版 "Traditional Chinese" with an untagged English name)
+            japanese_title = product.get("product_name", "")
+            if any(marker in japanese_title for marker in non_english_jp_markers):
+                continue
+
+            # Empty boxes are packaging collectibles, not real sealed products
+            if "empty box" in name.lower():
+                continue
+
+            # Skip the 4th Edition Black Border variant (not tracked separately)
+            if "4EDBB" in name:
+                continue
+
+            # Skip PSA-graded items (e.g. "... PSA9") -- graded collectibles
+            if re.search(r"\bPSA\s?(?:10|[0-9])\b", name):
+                continue
+
+            name = normalize_hareruya_name(name)
+            if not name:
+                continue
+
+            japanese_name = product.get("product_name", "")
+            name = add_hareruya_booster_type(name, japanese_name)
+
+            # The language is only in the Japanese title. 日本語版 reliably means
+            # Japanese; 【JP】 alone is ambiguous (it also marks Japan-region SKUs
+            # of English-only products), so the two are handled differently below.
+            has_english = "英語版" in japanese_name or "【EN】" in japanese_name
+            products.append({
+                "name": name,
+                "id": product["product"],
+                "japanese_lang": "日本語版" in japanese_name and not has_english,
+                "japanese_region": "【JP】" in japanese_name and not has_english,
+            })
+
+    # Drop anything explicitly Japanese-language (日本語版) outright. For the
+    # ambiguous 【JP】-only listings, drop them only when an English/neutral
+    # listing of the same name exists, so English-only products keep their SKU.
+    known_english = {
+        p["name"] for p in products
+        if not (p["japanese_lang"] or p["japanese_region"])
+    }
+    sealed_data = [
+        {"name": p["name"], "id": p["id"]}
+        for p in products
+        if not (p["japanese_lang"]
+                or (p["japanese_region"] and p["name"] in known_english))
+    ]
+
+    print(f"Retrieved {len(sealed_data)} products")
+
+    return sealed_data
+
+
 providers_dict = {
     "cardKingdom": {
         "identifier": "cardKingdomId",
@@ -820,6 +997,10 @@ providers_dict = {
     "trollandtoad": {
         "identifier": "tntId",
         "load_func": load_tnt,
+    },
+    "hareruya": {
+        "identifier": "hareruyaId",
+        "load_func": load_hareruya,
     },
 }
 
