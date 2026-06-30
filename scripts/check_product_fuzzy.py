@@ -31,18 +31,6 @@ review_path = Path("data/review.yaml")
 with open(review_path) as review_file:
     review_data = yaml.safe_load(review_file)
 
-provmap = {
-    "mcmId": "cardMarket",
-    "cardtraderId": "cardTrader",
-    "cardKingdomId": "cardKingdom",
-    "tcgplayerProductId": "tcgplayer",
-    "miniaturemarketId": "miniaturemarket",
-    "scgId": "starcitygames",
-    "csiId": "coolstuffinc",
-    "abuId": "abugames",
-    "tntId": "trollandtoad",
-}
-
 
 def remove_from_review(handled):
     """Drop the just-handled entry from the review data and persist it so a
@@ -60,12 +48,12 @@ def remove_from_review(handled):
 
 review_products = []
 skipped_count = 0
-for provider in review_data.values():
+for provider_name, provider in review_data.items():
     for name, contents in provider.items():
         if any(p in name.lower() for p in skip_patterns):
             skipped_count += 1
             continue
-        review_products.append((name, contents["identifiers"], contents.get("release_date", False)))
+        review_products.append((name, contents["identifiers"], contents.get("release_date", False), provider_name))
 
 if skip_patterns:
     print(f"Skipping {skipped_count} review entries matching: {args.skip}")
@@ -220,11 +208,11 @@ while index < len(review_products):
         offset = 0
     elif product_check == "i":
         with open("data/ignore.yaml", "r") as ignore_file:
-            ignore_content = yaml.safe_load(ignore_file)
-        for provider, identifier in product[1].items():
-            if provmap[provider] not in ignore_content:
-                ignore_content[provmap[provider]] = {}
-            ignore_content[provmap[provider]].update({identifier: product[0]})
+            ignore_content = yaml.safe_load(ignore_file) or {}
+        # The review entry's provider name is the ignore.yaml section name
+        section = ignore_content.setdefault(product[3], {})
+        for identifier in product[1].values():
+            section[identifier] = product[0]
         with open("data/ignore.yaml", "w") as ignore_file:
             yaml.dump(ignore_content, ignore_file)
         remove_from_review(product)
