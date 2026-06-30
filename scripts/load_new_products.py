@@ -930,12 +930,33 @@ def main(secret):
 
 
 if __name__ == "__main__":
+    # Optional --<scraper> flags restrict the run to those scrapers and skip
+    # the rest. Pull them out before parsing the auth blob so its existing
+    # parsing stays intact.
+    selected = set()
+    auth_args = []
+    for arg in sys.argv[1:]:
+        if arg.startswith("--"):
+            name = arg[2:]
+            if name not in providers_dict:
+                print(f"Unknown scraper '{arg}'. Available: {', '.join(sorted(providers_dict))}")
+                sys.exit(1)
+            selected.add(name)
+        else:
+            auth_args.append(arg)
+
     secret = {}
 
     try:
-        secret = json.loads(" ".join(sys.argv[1:])[1:-1])
+        secret = json.loads(" ".join(auth_args)[1:-1])
     except Exception:
         print("Unable to parse auth - only non-authenticated requests will succeed")
+
+    # When specific scrapers are requested, skip all the others
+    if selected:
+        for key in providers_dict:
+            if key not in selected:
+                providers_dict[key]["disabled"] = True
 
     for key, provider in providers_dict.items():
         if provider.get("auth") and not all(auth_key in secret for auth_key in provider.get("auth")):
