@@ -1,0 +1,108 @@
+code: hob
+products:
+  The Hobbit Bundle:
+    card_count: 1
+    other:
+    - name: Spindown die
+    - name: 40 card land pack
+    - name: Card storage box
+    pack:
+    - code: bundle-promo
+      set: hob
+    sealed:
+    - count: 9
+      name: The Hobbit Play Booster Pack
+      set: hob
+  The Hobbit Bundle Case:
+    sealed:
+    - count: 6
+      name: The Hobbit Bundle
+      set: hob
+  The Hobbit Collector Booster Box:
+    sealed:
+    - count: 12
+      name: The Hobbit Collector Booster Pack
+      set: hob
+  The Hobbit Collector Booster Box Case:
+    sealed:
+    - count: 6
+      name: The Hobbit Collector Booster Box
+      set: hob
+  The Hobbit Collector Booster Box Master Case: []
+  The Hobbit Collector Booster Pack:
+    card_count: 15
+    pack:
+    - code: collector
+      set: hob
+  The Hobbit Draft Night: []
+  The Hobbit Draft Night Case: []
+  The Hobbit Gift Bundle:
+    card_count: 1
+    other:
+    - name: Spindown die
+    - name: 40 card land pack
+    - name: Card storage box
+    pack:
+    - code: bundle-promo
+      set: hob
+    sealed:
+    - count: 9
+      name: The Hobbit Play Booster Pack
+      set: hob
+    - count: 1
+      name: The Hobbit Collector Booster Pack
+      set: hob
+  The Hobbit Gift Bundle Case:
+    sealed:
+    - count: 6
+      name: The Hobbit Gift Bundle
+      set: hob
+  The Hobbit Play Booster Box:
+    sealed:
+    - count: 30
+      name: The Hobbit Play Booster Pack
+      set: hob
+  The Hobbit Play Booster Box Case:
+    sealed:
+    - count: 6
+      name: The Hobbit Play Booster Box
+      set: hob
+  The Hobbit Play Booster Pack:
+    card_count: 14
+    pack:
+    - code: play
+      set: hob
+  The Hobbit Prerelease Case:
+    sealed:
+    - count: 15
+      name: The Hobbit Prerelease Pack
+      set: hob
+  The Hobbit Prerelease Pack:
+    card_count: 1
+    other:
+    - name: Deck box
+    - name: Spindown die
+    pack:
+    - code: prerelease
+      set: hob
+    sealed:
+    - count: 6
+      name: The Hobbit Play Booster Pack
+      set: hob
+  The Hobbit Scene Box Case: []
+  The Hobbit Scene Box Crack the Plates:
+    card_count: 6
+    other:
+    - name: 6 borderless scene cards
+    sealed:
+    - count: 3
+      name: The Hobbit Play Booster Pack
+      set: hob
+  The Hobbit Scene Box Treasures of Smaug:
+    card_count: 6
+    other:
+    - name: 6 borderless scene cards
+    sealed:
+    - count: 3
+      name: The Hobbit Play Booster Pack
+      set: hob
