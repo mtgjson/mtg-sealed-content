@@ -96,9 +96,11 @@ def run_auto():
     the score/margin thresholds is left in review.yaml for the manual pass."""
     matched = conflicts = ambiguous = 0
     for handled in list(review_products):
-        # Drop the kept [set code] and (pack count) tags for matching; mtgjson
-        # product names don't carry them and they only lower the fuzzy score.
-        query = re.sub(r"\[[^\]]*\]|\([^)]*\)", " ", handled[0])
+        # Drop [set code] tags and booster pack counts like "(36Packs)" for
+        # matching (mtgjson names lack them), but keep years, player names and
+        # "(N Starter Pack)" counts -- the count is the only thing telling a
+        # single starter/tournament pack apart from its display box.
+        query = re.sub(r"\[[^\]]*\]|\(\s*\d+\s*Packs?\s*\)", " ", handled[0], flags=re.I)
         query = re.sub(r"\s+", " ", query).strip()
 
         best_score = second_score = -1
@@ -121,7 +123,7 @@ def run_auto():
         identifier = "/".join(str(v) for v in handled[1].values())
 
         if args.dry_run:
-            print(f"[{best_score}/{margin}] {query!r} ({identifier}) -> {best[0]!r} [{code}]")
+            print(f"[{best_score}/{margin}] {handled[0]!r} ({identifier}) -> {best[0]!r} [{code}]")
             matched += 1
             continue
 
@@ -129,7 +131,7 @@ def run_auto():
         if ok:
             remove_from_review(handled)
             matched += 1
-            print(f"matched [{best_score}/{margin}] {query!r} ({identifier}) -> {best[0]!r} [{code}]")
+            print(f"matched [{best_score}/{margin}] {handled[0]!r} ({identifier}) -> {best[0]!r} [{code}]")
         else:
             conflicts += 1
 
