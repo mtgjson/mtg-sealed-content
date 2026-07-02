@@ -848,8 +848,12 @@ def load_hareruya(_):
     # language as a tag in the name. Skip anything explicitly non-English;
     # English-default products often carry no language tag at all, so those
     # are kept.
+    # Note: [JP]/[JPN] are NOT hard-excluded here. In the English title they
+    # mark a Japan-region SKU, which is ambiguous -- it also applies to the
+    # domestic-only SKU of English-language products. Those are resolved below
+    # via the Japanese title, which states the language unambiguously.
     non_english_tags = [
-        "[JP]", "[JPN]", "【JP】", "【JPN】", "[Japanese Ver.]",
+        "[Japanese Ver.]",
         "[IT]", "[ITA]", "[Italian]", "[ITALY]", "(IT)",
         "[FR]", "[FRA]", "(FR)", "【FR】",
         "[DE]", "[GER]", "[German]", "(DE)",
@@ -906,6 +910,15 @@ def load_hareruya(_):
             # (e.g. 繁体字版 "Traditional Chinese" with an untagged English name)
             japanese_title = product.get("product_name", "")
             if any(marker in japanese_title for marker in non_english_jp_markers):
+                continue
+
+            # A [JP]/[JPN] region tag in the English title is ambiguous: it marks
+            # both Japanese-language products and the Japan-domestic SKU of English
+            # products. The Japanese title is authoritative, so keep such listings
+            # only when it explicitly says English (英語版/【EN】).
+            if re.search(r"\[JPN?\]", name) and not (
+                "英語版" in japanese_title or "【EN】" in japanese_title
+            ):
                 continue
 
             # Empty boxes are packaging collectibles, not real sealed products
