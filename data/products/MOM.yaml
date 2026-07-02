@@ -125,7 +125,8 @@ products:
     subtype: REDEMPTION
   March of the Machine MTGO Redemption Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '274999'
     subtype: REDEMPTION
   March of the Machine Prerelease Pack:
     category: LIMITED
