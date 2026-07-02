@@ -3,6 +3,7 @@ products:
   The Hobbit Bundle:
     category: BUNDLE
     identifiers:
+      scgId: SLD-MTG-BUN-HOB-EN
       tcgplayerProductId: '692966'
     release_date: '2026-08-14'
     subtype: DEFAULT
@@ -15,6 +16,10 @@ products:
   The Hobbit Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      cardtraderId: '389301'
+      mcmId: '885552'
+      miniaturemarketId: 019df9af4e3e70d18bff08b624cfd32f
+      scgId: SLD-MTG-BBX-HOBCOLLECTOR-EN
       tcgplayerProductId: '692963'
     release_date: '2026-08-14'
     subtype: COLLECTOR
@@ -33,12 +38,18 @@ products:
   The Hobbit Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '389311'
+      mcmId: '885550'
+      scgId: SLD-MTG-PCK-HOBCOLLECTOR-EN
       tcgplayerProductId: '692962'
     release_date: '2026-08-14'
     subtype: COLLECTOR
   The Hobbit Draft Night:
     category: LIMITED
     identifiers:
+      cardtraderId: '389306'
+      mcmId: '885555'
+      scgId: SLD-MTG-DFT-HOB-EN
       tcgplayerProductId: '692975'
     release_date: '2026-08-14'
     subtype: DRAFT_SET
@@ -51,30 +62,41 @@ products:
   The Hobbit Gift Bundle:
     category: BUNDLE
     identifiers:
+      cardtraderId: '389304'
+      mcmId: '885554'
+      scgId: SLD-MTG-BUN-HOBGIFT-EN
       tcgplayerProductId: '692971'
     release_date: '2026-09-04'
     subtype: GIFT_BUNDLE
   The Hobbit Gift Bundle Case:
     category: BUNDLE_CASE
     identifiers:
+      mcmId: '885554'
       tcgplayerProductId: '692972'
     release_date: '2026-09-04'
     subtype: GIFT_BUNDLE
   The Hobbit Play Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      cardtraderId: '389300'
+      mcmId: '885551'
+      miniaturemarketId: 019df9af2f9f717d92591d4e05baf58c
+      scgId: SLD-MTG-BBX-HOBPLAY-EN
       tcgplayerProductId: '692960'
     release_date: '2026-08-14'
     subtype: PLAY
   The Hobbit Play Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
+      scgId: SLD-MTG-BBX-HOBPLAYCASE-EN
       tcgplayerProductId: '692961'
     release_date: '2026-08-14'
     subtype: PLAY
   The Hobbit Play Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      miniaturemarketId: 019df9af40ac73d1969e6100717333b8
+      scgId: SLD-MTG-PCK-HOBPLAY-EN
       tcgplayerProductId: '692959'
     release_date: '2026-08-14'
     subtype: PLAY
@@ -87,24 +109,35 @@ products:
   The Hobbit Prerelease Pack:
     category: LIMITED
     identifiers:
+      cardtraderId: '389305'
+      mcmId: '885556'
+      scgId: SLD-MTG-PRE-HOB-EN
       tcgplayerProductId: '692973'
     release_date: '2026-08-14'
     subtype: PRERELEASE
   The Hobbit Scene Box Case:
     category: BOX_SET
     identifiers:
+      cardtraderId: '389309'
+      mcmId: '885559'
       tcgplayerProductId: '692970'
     release_date: '2026-08-14'
     subtype: OTHER
   The Hobbit Scene Box Crack the Plates:
     category: BOX_SET
     identifiers:
+      cardtraderId: '389307'
+      mcmId: '885557'
+      scgId: SLD-MTG-BXS-HOBSCENE-CRACK
       tcgplayerProductId: '692968'
     release_date: '2026-08-14'
     subtype: OTHER
   The Hobbit Scene Box Treasures of Smaug:
     category: BOX_SET
     identifiers:
+      cardtraderId: '389308'
+      mcmId: '885558'
+      scgId: SLD-MTG-BXS-HOBSCENE-TREASURES
       tcgplayerProductId: '692969'
     release_date: '2026-08-14'
     subtype: OTHER
