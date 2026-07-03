@@ -912,11 +912,12 @@ def load_hareruya(_):
             if any(marker in japanese_title for marker in non_english_jp_markers):
                 continue
 
-            # A [JP]/[JPN] region tag in the English title is ambiguous: it marks
-            # both Japanese-language products and the Japan-domestic SKU of English
-            # products. The Japanese title is authoritative, so keep such listings
-            # only when it explicitly says English (英語版/【EN】).
-            if re.search(r"\[JPN?\]", name) and not (
+            # A JP/JPN region tag in the English title (ASCII [JP] or fullwidth
+            # 【JP】 brackets) is ambiguous: it marks both Japanese-language
+            # products and the Japan-domestic SKU of English products. The
+            # Japanese title is authoritative, so keep such listings only when
+            # it explicitly says English (英語版/【EN】).
+            if re.search(r"\[JPN?\]|【JPN?】", name) and not (
                 "英語版" in japanese_title or "【EN】" in japanese_title
             ):
                 continue
