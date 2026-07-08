@@ -2,9 +2,11 @@ code: hob
 products:
   The Hobbit Bundle:
     card_count: 1
+    deck:
+    - name: The Hobbit Bundle Land Pack
+      set: hob
     other:
     - name: Spindown die
-    - name: 40 card land pack
     - name: Card storage box
     pack:
     - code: bundle-promo
@@ -38,9 +40,11 @@ products:
   The Hobbit Draft Night Case: []
   The Hobbit Gift Bundle:
     card_count: 1
+    deck:
+    - name: The Hobbit Bundle Land Pack
+      set: hob
     other:
     - name: Spindown die
-    - name: 40 card land pack
     - name: Card storage box
     pack:
     - code: bundle-promo
