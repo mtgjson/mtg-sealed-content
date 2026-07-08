@@ -141,11 +141,106 @@ products:
     deck:
     - name: Theros Foil Redemption
       set: ths
-  Theros Prerelease Kit Path of Ambition: []
-  Theros Prerelease Kit Path of Battle: []
-  Theros Prerelease Kit Path of Honor: []
-  Theros Prerelease Kit Path of Might: []
-  Theros Prerelease Kit Path of Wisdom: []
+  Theros Prerelease Kit Path of Ambition:
+    card:
+    - foil: true
+      name: Abhorrent Overlord
+      number: "75\u2605"
+      set: pths
+    - foil: false
+      name: The Avenger
+      number: 1c
+      set: thp1
+    card_count: 15
+    pack:
+    - code: prerelease-ambition
+      set: ths
+    other:
+    - name: Spindown die
+    sealed:
+    - count: 5
+      name: Theros Booster Pack
+      set: ths
+  Theros Prerelease Kit Path of Battle:
+    card:
+    - foil: true
+      name: Ember Swallower
+      number: "120\u2605"
+      set: pths
+    - foil: false
+      name: The Warrior
+      number: 1d
+      set: thp1
+    card_count: 15
+    pack:
+    - code: prerelease-battle
+      set: ths
+    other:
+    - name: Spindown die
+    sealed:
+    - count: 5
+      name: Theros Booster Pack
+      set: ths
+  Theros Prerelease Kit Path of Honor:
+    card:
+    - foil: true
+      name: Celestial Archon
+      number: "3\u2605"
+      set: pths
+    - foil: false
+      name: The Protector
+      number: 1a
+      set: thp1
+    card_count: 15
+    pack:
+    - code: prerelease-honor
+      set: ths
+    other:
+    - name: Spindown die
+    sealed:
+    - count: 5
+      name: Theros Booster Pack
+      set: ths
+  Theros Prerelease Kit Path of Might:
+    card:
+    - foil: true
+      name: Anthousa, Setessan Hero
+      number: "149\u2605"
+      set: pths
+    - foil: false
+      name: The Hunter
+      number: 1e
+      set: thp1
+    card_count: 15
+    pack:
+    - code: prerelease-might
+      set: ths
+    other:
+    - name: Spindown die
+    sealed:
+    - count: 5
+      name: Theros Booster Pack
+      set: ths
+  Theros Prerelease Kit Path of Wisdom:
+    card:
+    - foil: true
+      name: Shipbreaker Kraken
+      number: "63\u2605"
+      set: pths
+    - foil: false
+      name: The Philosopher
+      number: 1b
+      set: thp1
+    card_count: 15
+    pack:
+    - code: prerelease-wisdom
+      set: ths
+    other:
+    - name: Spindown die
+    sealed:
+    - count: 5
+      name: Theros Booster Pack
+      set: ths
   Theros Prerelease Pack Set of 5:
     sealed:
     - count: 1
