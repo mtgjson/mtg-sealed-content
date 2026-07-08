@@ -18,7 +18,18 @@ products:
   Marvel Super Heroes Play Booster Box: []
   Marvel Super Heroes Play Booster Box Case: []
   Marvel Super Heroes Play Booster Pack: []
-  Marvel Super Heroes Prerelease Pack: []
+  Marvel Super Heroes Prerelease Pack:
+    card_count: 1
+    other:
+    - name: Deck box
+    - name: Spindown die
+    pack:
+    - code: prerelease
+      set: msh
+    sealed:
+    - count: 6
+      name: Marvel Super Heroes Play Booster Pack
+      set: msh
   Marvel Super Heroes Prerelease Pack Case: []
   Marvel Super Heroes Scene Box Case: []
   Marvel Super Heroes Scene Box Heroes United: []
