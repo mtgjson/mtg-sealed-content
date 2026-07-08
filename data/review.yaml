@@ -55,11 +55,23 @@ cardMarket:
       mcmId: '885567'
     release_date: '2026-05-02'
     subtype: UNKNOWN
+  'Secret Lair Drop Series: Festival in a Box: Amsterdam 2026':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '895922'
+    release_date: '2026-07-07'
+    subtype: UNKNOWN
   'Secret Lair Drop Series: Secret Lair x Marvel: Spinner Rack Specials':
     category: UNKNOWN
     identifiers:
       mcmId: '894152'
     release_date: '2026-06-18'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: Wild in Bloom':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '895925'
+    release_date: '2026-07-07'
     subtype: UNKNOWN
   The Hobbit Box Topper Booster:
     category: UNKNOWN
@@ -150,7 +162,27 @@ hareruya:
     identifiers:
       hareruyaId: '85895'
     subtype: UNKNOWN
-miniaturemarket: {}
+miniaturemarket:
+  'MTG: Marvel Super Heroes - Collector Commander Deck - Avengers Assemble (New Arrival)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 019c06a22bb272e88501eb7ba620fb3f
+    subtype: UNKNOWN
+  'MTG: Marvel Super Heroes - Collector Commander Deck - Doom Prevails (New Arrival)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 019c06a237aa71c6bc8cdf67515e1be8
+    subtype: UNKNOWN
+  'MTG: Marvel Super Heroes - Collector Commander Deck - The Fantastic Four (New Arrival)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 019c06a24184702d9373b99728a33b0b
+    subtype: UNKNOWN
+  'MTG: Marvel Super Heroes - Collector Commander Deck - Wakanda Forever (New Arrival)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 019c06a24ca470758c6b18aab43f3d6e
+    subtype: UNKNOWN
 starcitygames: {}
 tcgplayer:
   Reality Fracture Bundle:

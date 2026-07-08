@@ -200,6 +200,31 @@ products:
     - count: 1
       name: Secrets of Strixhaven 60-Card Theme Deck Lifegain
       set: sos
+  Secrets of Strixhaven Welcome Deck Black Deck:
+    card_count: 40
+    deck:
+    - name: Black Deck
+      set: sos
+  Secrets of Strixhaven Welcome Deck Blue Deck:
+    card_count: 40
+    deck:
+    - name: Blue Deck
+      set: sos
+  Secrets of Strixhaven Welcome Deck Green Deck:
+    card_count: 40
+    deck:
+    - name: Green Deck
+      set: sos
+  Secrets of Strixhaven Welcome Deck Red Deck:
+    card_count: 40
+    deck:
+    - name: Red Deck
+      set: sos
+  Secrets of Strixhaven Welcome Deck White Deck:
+    card_count: 40
+    deck:
+    - name: White Deck
+      set: sos
   Welcome Deck 2026 Black Deck: {}
   Welcome Deck 2026 Blue Deck: {}
   Welcome Deck 2026 Green Deck: {}
