@@ -112,9 +112,42 @@ products:
     deck:
     - name: Fate Reforged Foil Redemption
       set: frf
-  Fate Reforged Prerelease Kit Abzan Battle with Endurance: []
-  Fate Reforged Prerelease Kit Jeskai Battle with Cunning: []
-  Fate Reforged Prerelease Kit Mardu Battle with Speed: []
+  Fate Reforged Prerelease Kit Abzan Battle with Endurance:
+    card_count: 16
+    pack:
+    - code: prerelease-abzan
+      set: frf
+    sealed:
+    - count: 4
+      name: Fate Reforged Booster Pack
+      set: frf
+    - count: 1
+      name: Khans of Tarkir Booster Pack
+      set: ktk
+  Fate Reforged Prerelease Kit Jeskai Battle with Cunning:
+    card_count: 16
+    pack:
+    - code: prerelease-jeskai
+      set: frf
+    sealed:
+    - count: 4
+      name: Fate Reforged Booster Pack
+      set: frf
+    - count: 1
+      name: Khans of Tarkir Booster Pack
+      set: ktk
+  Fate Reforged Prerelease Kit Mardu Battle with Speed:
+    card_count: 16
+    pack:
+    - code: prerelease-mardu
+      set: frf
+    sealed:
+    - count: 4
+      name: Fate Reforged Booster Pack
+      set: frf
+    - count: 1
+      name: Khans of Tarkir Booster Pack
+      set: ktk
   Fate Reforged Prerelease Kit Set of 5:
     sealed:
     - count: 1
@@ -132,8 +165,30 @@ products:
     - count: 1
       name: Fate Reforged Prerelease Kit Temur Battle with Savagery
       set: frf
-  Fate Reforged Prerelease Kit Sultai Battle with Ruthlessness: []
-  Fate Reforged Prerelease Kit Temur Battle with Savagery: []
+  Fate Reforged Prerelease Kit Sultai Battle with Ruthlessness:
+    card_count: 16
+    pack:
+    - code: prerelease-sultai
+      set: frf
+    sealed:
+    - count: 4
+      name: Fate Reforged Booster Pack
+      set: frf
+    - count: 1
+      name: Khans of Tarkir Booster Pack
+      set: ktk
+  Fate Reforged Prerelease Kit Temur Battle with Savagery:
+    card_count: 16
+    pack:
+    - code: prerelease-temur
+      set: frf
+    sealed:
+    - count: 4
+      name: Fate Reforged Booster Pack
+      set: frf
+    - count: 1
+      name: Khans of Tarkir Booster Pack
+      set: ktk
   Ugins Fate Event Booster Pack:
     pack:
     - code: fate

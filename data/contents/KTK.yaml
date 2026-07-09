@@ -125,9 +125,33 @@ products:
     deck:
     - name: Khans of Tarkir Foil Redemption
       set: ktk
-  Khans of Tarkir Prerelease Kit Abzan Battle with Endurance: []
-  Khans of Tarkir Prerelease Kit Jeskai Battle with Cunning: []
-  Khans of Tarkir Prerelease Kit Mardu Battle with Speed: []
+  Khans of Tarkir Prerelease Kit Abzan Battle with Endurance:
+    card_count: 16
+    pack:
+    - code: prerelease-abzan
+      set: ktk
+    sealed:
+    - count: 5
+      name: Khans of Tarkir Booster Pack
+      set: ktk
+  Khans of Tarkir Prerelease Kit Jeskai Battle with Cunning:
+    card_count: 16
+    pack:
+    - code: prerelease-jeskai
+      set: ktk
+    sealed:
+    - count: 5
+      name: Khans of Tarkir Booster Pack
+      set: ktk
+  Khans of Tarkir Prerelease Kit Mardu Battle with Speed:
+    card_count: 16
+    pack:
+    - code: prerelease-mardu
+      set: ktk
+    sealed:
+    - count: 5
+      name: Khans of Tarkir Booster Pack
+      set: ktk
   Khans of Tarkir Prerelease Kit Set of 5:
     sealed:
     - count: 1
@@ -145,5 +169,21 @@ products:
     - count: 1
       name: Khans of Tarkir Prerelease Kit Temur Battle with Savagery
       set: ktk
-  Khans of Tarkir Prerelease Kit Sultai Battle with Ruthlessness: []
-  Khans of Tarkir Prerelease Kit Temur Battle with Savagery: []
+  Khans of Tarkir Prerelease Kit Sultai Battle with Ruthlessness:
+    card_count: 16
+    pack:
+    - code: prerelease-sultai
+      set: ktk
+    sealed:
+    - count: 5
+      name: Khans of Tarkir Booster Pack
+      set: ktk
+  Khans of Tarkir Prerelease Kit Temur Battle with Savagery:
+    card_count: 16
+    pack:
+    - code: prerelease-temur
+      set: ktk
+    sealed:
+    - count: 5
+      name: Khans of Tarkir Booster Pack
+      set: ktk
