@@ -41,7 +41,17 @@ products:
     - count: 1
       name: 2012 Core Set Event Deck Vampire Onslaught
       set: m12
-  2012 Core Set Fat Pack: []
+  2012 Core Set Fat Pack:
+    other:
+    - name: Magic 2012 Card Box
+    - name: Magic 2012 Player's Guide
+    - name: Learn-to-Play Insert
+    - name: 80-card basic land pack
+    - name: Magic 2012 Spindown Life Counter
+    sealed:
+    - count: 9
+      name: 2012 Core Set Booster Pack
+      set: m12
   2012 Core Set Intro Pack Blood and Fire:
     card_count: 60
     deck:

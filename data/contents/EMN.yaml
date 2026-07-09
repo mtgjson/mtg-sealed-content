@@ -15,7 +15,16 @@ products:
     pack:
     - code: draft
       set: emn
-  Eldritch Moon Fat Pack: []
+  Eldritch Moon Fat Pack:
+    other:
+    - name: Eldritch Moon Player's Guide
+    - name: Eldritch Moon Card Box
+    - name: Eldritch Moon 80-card Basic Land Bundle
+    - name: Eldritch Moon Spindown
+    sealed:
+    - count: 9
+      name: Eldritch Moon Booster Pack
+      set: emn
   Eldritch Moon Intro Pack Dangerous Knowledge:
     card_count: 60
     deck:

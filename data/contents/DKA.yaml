@@ -41,7 +41,16 @@ products:
     - count: 1
       name: Dark Ascension Event Deck Spiraling Doom
       set: dka
-  Dark Ascension Fat Pack: []
+  Dark Ascension Fat Pack:
+    other:
+    - name: Dark Ascension Players Guide
+    - name: 70-card Basic Land Bundle
+    - name: Dark Ascension Spindown Life Counter
+    - name: Two 60-card Deck Boxes
+    sealed:
+    - count: 9
+      name: Dark Ascension Booster Pack
+      set: dka
   Dark Ascension Intro Pack Dark Sacrifice:
     card_count: 60
     deck:

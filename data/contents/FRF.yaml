@@ -22,7 +22,17 @@ products:
       set: frf
     - name: Power
       set: frf
-  Fate Reforged Fat Pack: []
+  Fate Reforged Fat Pack:
+    other:
+    - name: Fate Reforged 80-card Basic Land Bundle
+    - name: Fate Reforged Special Edition Spindown
+    - name: Full Art Card Box
+    - name: Two Deck Boxes
+    - name: Player's Guide with Visual Encyclopedia
+    sealed:
+    - count: 9
+      name: Fate Reforged Booster Pack
+      set: frf
   Fate Reforged Intro Pack Cunning Plan:
     card_count: 60
     deck:

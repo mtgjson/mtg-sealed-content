@@ -15,7 +15,16 @@ products:
     pack:
     - code: draft
       set: ogw
-  Oath of the Gatewatch Fat Pack: []
+  Oath of the Gatewatch Fat Pack:
+    other:
+    - name: Oath of the Gatewatch Player's Guide
+    - name: Oath of the Gatewatch Card Box
+    - name: Oath of the Gatewatch Basic Land Bundle
+    - name: Oath of the Gatewatch Premium Spindown
+    sealed:
+    - count: 9
+      name: Oath of the Gatewatch Booster Pack
+      set: ogw
   Oath of the Gatewatch Intro Pack Concerted Effort:
     card_count: 60
     deck:

@@ -23,7 +23,16 @@ products:
     - name: Dangerous
       set: ori
   Magic Origins Deck Builders Toolkit: []
-  Magic Origins Fat Pack: []
+  Magic Origins Fat Pack:
+    other:
+    - name: Magic Origins Player's Guide and Visual Encyclopedia
+    - name: Magic Origins 80-card Land Bundle
+    - name: Special Edition Life Counter
+    - name: Two Deck Boxes
+    sealed:
+    - count: 9
+      name: Magic Origins Booster Pack
+      set: ori
   Magic Origins Intro Pack Assemble Victory:
     card_count: 60
     deck:

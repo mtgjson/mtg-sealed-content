@@ -20,7 +20,17 @@ products:
     deck:
     - name: Conquering Hordes
       set: ktk
-  Khans of Tarkir Fat Pack: []
+  Khans of Tarkir Fat Pack:
+    other:
+    - name: Khans of Tarkir 80-card Basic Land Bundle
+    - name: Khans of Tarkir Special Edition Spindown
+    - name: Full Art Card Box
+    - name: Two Deck Boxes
+    - name: Player's Guide with Visual Encyclopedia
+    sealed:
+    - count: 9
+      name: Khans of Tarkir Booster Pack
+      set: ktk
   Khans of Tarkir Holiday Gift Box:
     card:
     - foil: true

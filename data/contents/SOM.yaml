@@ -20,7 +20,17 @@ products:
     pack:
     - code: draft
       set: som
-  Scars of Mirrodin Fat Pack: []
+  Scars of Mirrodin Fat Pack:
+    other:
+    - name: 40 basic land cards
+    - name: Scars of Mirrodin spindown life counter
+    - name: player's guide
+    - name: card storage box
+    - name: two 60-card deck boxes
+    sealed:
+    - count: 8
+      name: Scars of Mirrodin Booster Pack
+      set: som
   Scars of Mirrodin Intro Pack Deadspread:
     card_count: 60
     deck:
