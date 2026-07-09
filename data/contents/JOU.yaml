@@ -1,6 +1,10 @@
 code: jou
 products:
-  Defeat a God Challenge Deck: []
+  Defeat a God Challenge Deck:
+    card_count: 60
+    deck:
+    - name: Defeat a God
+      set: tdag
   Journey Into Nyx Booster Box:
     sealed:
     - count: 36

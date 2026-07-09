@@ -1,6 +1,10 @@
 code: bng
 products:
-  Battle the Horde Challenge Deck: []
+  Battle the Horde Challenge Deck:
+    card_count: 60
+    deck:
+    - name: Battle the Horde
+      set: tbth
   Born of the Gods Booster Box:
     sealed:
     - count: 36
