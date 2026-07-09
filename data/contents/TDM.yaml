@@ -61,14 +61,120 @@ products:
     pack:
     - code: play
       set: tdm
-  Tarkir Dragonstorm Prerelease Booster Abzan: []
-  Tarkir Dragonstorm Prerelease Booster Jeskai: []
-  Tarkir Dragonstorm Prerelease Booster Mardu: []
-  Tarkir Dragonstorm Prerelease Booster Sultai: []
-  Tarkir Dragonstorm Prerelease Booster Temur: []
-  Tarkir Dragonstorm Prerelease Pack Abzan: []
-  Tarkir Dragonstorm Prerelease Pack Jeskai: []
-  Tarkir Dragonstorm Prerelease Pack Mardu: []
-  Tarkir Dragonstorm Prerelease Pack Sultai: []
-  Tarkir Dragonstorm Prerelease Pack Temur: []
-  Tarkir Dragonstorm Prerelease Packs Set of 5: []
+  Tarkir Dragonstorm Prerelease Booster Abzan:
+    card_count: 14
+    pack:
+    - code: prerelease-abzan
+      set: tdm
+  Tarkir Dragonstorm Prerelease Booster Jeskai:
+    card_count: 14
+    pack:
+    - code: prerelease-jeskai
+      set: tdm
+  Tarkir Dragonstorm Prerelease Booster Mardu:
+    card_count: 14
+    pack:
+    - code: prerelease-mardu
+      set: tdm
+  Tarkir Dragonstorm Prerelease Booster Sultai:
+    card_count: 14
+    pack:
+    - code: prerelease-sultai
+      set: tdm
+  Tarkir Dragonstorm Prerelease Booster Temur:
+    card_count: 14
+    pack:
+    - code: prerelease-temur
+      set: tdm
+  Tarkir Dragonstorm Prerelease Pack Abzan:
+    card_count: 1
+    other:
+    - name: Deck box
+    - name: Tarkir Dragonstorm Spindown
+    pack:
+    - code: prerelease
+      set: tdm
+    sealed:
+    - count: 5
+      name: Tarkir Dragonstorm Play Booster Pack
+      set: tdm
+    - count: 1
+      name: Tarkir Dragonstorm Prerelease Booster Abzan
+      set: tdm
+  Tarkir Dragonstorm Prerelease Pack Jeskai:
+    card_count: 1
+    other:
+    - name: Deck box
+    - name: Tarkir Dragonstorm Spindown
+    pack:
+    - code: prerelease
+      set: tdm
+    sealed:
+    - count: 5
+      name: Tarkir Dragonstorm Play Booster Pack
+      set: tdm
+    - count: 1
+      name: Tarkir Dragonstorm Prerelease Booster Jeskai
+      set: tdm
+  Tarkir Dragonstorm Prerelease Pack Mardu:
+    card_count: 1
+    other:
+    - name: Deck box
+    - name: Tarkir Dragonstorm Spindown
+    pack:
+    - code: prerelease
+      set: tdm
+    sealed:
+    - count: 5
+      name: Tarkir Dragonstorm Play Booster Pack
+      set: tdm
+    - count: 1
+      name: Tarkir Dragonstorm Prerelease Booster Mardu
+      set: tdm
+  Tarkir Dragonstorm Prerelease Pack Sultai:
+    card_count: 1
+    other:
+    - name: Deck box
+    - name: Tarkir Dragonstorm Spindown
+    pack:
+    - code: prerelease
+      set: tdm
+    sealed:
+    - count: 5
+      name: Tarkir Dragonstorm Play Booster Pack
+      set: tdm
+    - count: 1
+      name: Tarkir Dragonstorm Prerelease Booster Sultai
+      set: tdm
+  Tarkir Dragonstorm Prerelease Pack Temur:
+    card_count: 1
+    other:
+    - name: Deck box
+    - name: Tarkir Dragonstorm Spindown
+    pack:
+    - code: prerelease
+      set: tdm
+    sealed:
+    - count: 5
+      name: Tarkir Dragonstorm Play Booster Pack
+      set: tdm
+    - count: 1
+      name: Tarkir Dragonstorm Prerelease Booster Temur
+      set: tdm
+  Tarkir Dragonstorm Prerelease Packs Set of 5:
+    sealed:
+    - count: 1
+      name: Tarkir Dragonstorm Prerelease Pack Abzan
+      set: tdm
+    - count: 1
+      name: Tarkir Dragonstorm Prerelease Pack Jeskai
+      set: tdm
+    - count: 1
+      name: Tarkir Dragonstorm Prerelease Pack Mardu
+      set: tdm
+    - count: 1
+      name: Tarkir Dragonstorm Prerelease Pack Sultai
+      set: tdm
+    - count: 1
+      name: Tarkir Dragonstorm Prerelease Pack Temur
+      set: tdm
