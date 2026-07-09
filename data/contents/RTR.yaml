@@ -48,7 +48,17 @@ products:
     deck:
     - name: Wrack and Rage
       set: rtr
-  Return to Ravnica Fat Pack: []
+  Return to Ravnica Fat Pack:
+    other:
+    - name: Return to Ravnica themed card box
+    - name: Return to Ravnica player's guide
+    - name: Two deck boxes
+    - name: 80-card basic land pack
+    - name: Return to Ravnica spindown
+    sealed:
+    - count: 9
+      name: Return to Ravnica Booster Pack
+      set: rtr
   Return to Ravnica Holiday Gift Box:
     card:
     - foil: true

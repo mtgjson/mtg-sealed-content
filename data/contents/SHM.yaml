@@ -15,7 +15,19 @@ products:
     pack:
     - code: draft
       set: shm
-  Shadowmoor Fat Pack: []
+  Shadowmoor Fat Pack:
+    deck:
+    - name: Shadowmoor Fat Pack Land Pack
+      set: shm
+    other:
+    - name: Shadowmoor Spindown
+    - name: Card storage box
+    - name: Shadowmoor Novel
+    - name: Random Pro Tour Player Card
+    sealed:
+    - count: 8
+      name: Shadowmoor Booster Pack
+      set: shm
   Shadowmoor MTGO Redemption:
     card_count: 301
     deck:

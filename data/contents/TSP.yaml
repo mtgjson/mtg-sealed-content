@@ -15,7 +15,18 @@ products:
     pack:
     - code: draft
       set: tsp
-  Time Spiral Fat Pack: []
+  Time Spiral Fat Pack:
+    other:
+    - name: 2 card deck boxes
+    - name: Player's Guide
+    - name: 40 basic land cards
+    - name: Time Spiral Spindown Life Counter
+    - name: 1 Random Pro Tour player card
+    - name: Time Spiral novel
+    sealed:
+    - count: 6
+      name: Time Spiral Booster Pack
+      set: tsp
   Time Spiral Gift Box: []
   Time Spiral MTGO Redemption:
     card_count: 301

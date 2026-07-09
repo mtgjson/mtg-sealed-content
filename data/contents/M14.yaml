@@ -23,7 +23,17 @@ products:
     deck:
     - name: Rush of the Wild
       set: m14
-  2014 Core Set Fat Pack: []
+  2014 Core Set Fat Pack:
+    other:
+    - name: Magic 2014 Player's Guide
+    - name: Magic 2014 Card Box
+    - name: 80-card basic land pack
+    - name: Special edition spindown life counter
+    - name: Two deck boxes
+    sealed:
+    - count: 9
+      name: 2014 Core Set Booster Pack
+      set: m14
   2014 Core Set Intro Pack Bestial Strength:
     card_count: 60
     deck:

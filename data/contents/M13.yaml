@@ -42,7 +42,17 @@ products:
     - count: 1
       name: 2013 Core Set Event Deck Sweet Revenge
       set: m13
-  2013 Core Set Fat Pack: []
+  2013 Core Set Fat Pack:
+    other:
+    - name: Magic 2013 Player's Guide
+    - name: Magic 2013 Card Box
+    - name: 80-card basic land pack
+    - name: Special edition spindown life counter
+    - name: Two deck boxes
+    sealed:
+    - count: 9
+      name: 2013 Core Set Booster Pack
+      set: m13
   2013 Core Set Intro Pack Depths of Power Blue:
     card_count: 60
     deck:

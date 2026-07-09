@@ -15,7 +15,20 @@ products:
     pack:
     - code: draft
       set: lrw
-  Lorwyn Fat Pack: []
+  Lorwyn Fat Pack:
+    deck:
+    - name: Lorwyn Fat Pack Land Pack
+      set: lrw
+    other:
+    - name: 2 Card Storage Boxes
+    - name: Lorwyn Spindown
+    - name: One random Pro Tour Player Card
+    - name: The Lorwyn novel
+    - name: Six color-coded plastic card dividers
+    sealed:
+    - count: 6
+      name: Lorwyn Booster Pack
+      set: lrw
   Lorwyn MTGO Redemption:
     card_count: 301
     deck:

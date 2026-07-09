@@ -25,7 +25,20 @@ products:
     deck:
     - name: 'Ravnica: City of Guilds Foil Redemption'
       set: rav
-  Ravnica Fat Pack: []
+  Ravnica Fat Pack:
+    deck:
+    - name: Ravnica Fat Pack Land Pack
+      set: rav
+    other:
+    - name: 2 Card Storage Boxes
+    - name: One random Pro Tour Player Card
+    - name: The Ravnica City of Guilds novel
+    - name: Six color-coded plastic card dividers
+    - name: Ravnica Life Counter
+    sealed:
+    - count: 6
+      name: Ravnica Booster Pack
+      set: rav
   Ravnica Theme Deck Charge of the Boros:
     card_count: 60
     deck:

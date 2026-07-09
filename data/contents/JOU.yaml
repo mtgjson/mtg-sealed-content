@@ -26,7 +26,17 @@ products:
     deck:
     - name: Wrath of the Mortals
       set: jou
-  Journey Into Nyx Fat Pack: []
+  Journey Into Nyx Fat Pack:
+    other:
+    - name: Player's guide with encyclopedia
+    - name: Journey Into Nyx card box
+    - name: 80-card basic land pack
+    - name: Special edition spindown life counter
+    - name: Two deck boxes
+    sealed:
+    - count: 9
+      name: Journey Into Nyx Booster Pack
+      set: jou
   Journey Into Nyx Intro Pack Display:
     sealed:
     - count: 2
