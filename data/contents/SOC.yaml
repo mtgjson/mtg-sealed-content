@@ -15,7 +15,23 @@ products:
     deck:
     - name: Quandrix Unlimited
       set: soc
-  Secrets of Strixhaven Commander Deck Set of 5: {}
+  Secrets of Strixhaven Commander Deck Set of 5:
+    sealed:
+    - count: 1
+      name: Secrets of Strixhaven Commander Deck Lorehold Spirit
+      set: soc
+    - count: 1
+      name: Secrets of Strixhaven Commander Deck Prismari Artistry
+      set: soc
+    - count: 1
+      name: Secrets of Strixhaven Commander Deck Quandrix Unlimited
+      set: soc
+    - count: 1
+      name: Secrets of Strixhaven Commander Deck Silverquill Influence
+      set: soc
+    - count: 1
+      name: Secrets of Strixhaven Commander Deck Witherbloom Pestilence
+      set: soc
   Secrets of Strixhaven Commander Deck Silverquill Influence:
     card_count: 99
     deck:

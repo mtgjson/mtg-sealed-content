@@ -88,7 +88,11 @@ products:
     - count: 6
       name: Secrets of Strixhaven Collector Booster Box
       set: sos
-  Secrets of Strixhaven Collector Booster Box Master Case: []
+  Secrets of Strixhaven Collector Booster Box Master Case:
+    sealed:
+    - count: 4
+      name: Secrets of Strixhaven Collector Booster Box Case
+      set: sos
   Secrets of Strixhaven Collector Booster Pack:
     card_count: 15
     pack:
@@ -202,7 +206,14 @@ products:
     - count: 5
       name: Secrets of Strixhaven Play Booster Pack
       set: sos
-  Secrets of Strixhaven Theme Decks Set of 2: {}
+  Secrets of Strixhaven Theme Decks Set of 2:
+    sealed:
+    - count: 1
+      name: Secrets of Strixhaven 60-Card Theme Deck Eerie
+      set: sos
+    - count: 1
+      name: Secrets of Strixhaven 60-Card Theme Deck Lifegain
+      set: sos
   Secrets of Strixhaven Welcome Deck Black Deck:
     card_count: 40
     deck:

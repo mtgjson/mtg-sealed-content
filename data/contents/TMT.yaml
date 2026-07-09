@@ -33,7 +33,11 @@ products:
     - count: 6
       name: Teenage Mutant Ninja Turtles Collector Booster Box
       set: tmt
-  Teenage Mutant Ninja Turtles Collector Booster Box Master Case: []
+  Teenage Mutant Ninja Turtles Collector Booster Box Master Case:
+    sealed:
+    - count: 4
+      name: Teenage Mutant Ninja Turtles Collector Booster Box Case
+      set: tmt
   Teenage Mutant Ninja Turtles Collector Booster Pack:
     card_count: 15
     pack:

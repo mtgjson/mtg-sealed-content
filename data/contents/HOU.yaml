@@ -36,7 +36,14 @@ products:
     deck:
     - name: Hour of Devastation Foil Redemption
       set: hou
-  Hour of Devastation Planeswalker Deck Display: []
+  Hour of Devastation Planeswalker Deck Display:
+    sealed:
+    - count: 3
+      name: Hour of Devastation Planeswalker Deck Nicol Bolas
+      set: hou
+    - count: 3
+      name: Hour of Devastation Planeswalker Deck Nissa
+      set: hou
   Hour of Devastation Planeswalker Deck Nicol Bolas:
     card_count: 60
     deck:
