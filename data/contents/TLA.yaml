@@ -1,6 +1,35 @@
 code: tla
 products:
-  Avatar The Last Airbender Beginner Box: []
+  Avatar The Last Airbender Beginner Box:
+    card_count: 202
+    deck:
+    - name: Beginner Box - Aang Tutorial
+      set: tla
+    - name: Beginner Box - Allies
+      set: tla
+    - name: Beginner Box - Attacking
+      set: tla
+    - name: Beginner Box - Big Creatures
+      set: tla
+    - name: Beginner Box - Counters
+      set: tla
+    - name: Beginner Box - Earthbending
+      set: tla
+    - name: Beginner Box - Firebending
+      set: tla
+    - name: Beginner Box - Spells
+      set: tla
+    - name: Beginner Box - Waterbending
+      set: tla
+    - name: Beginner Box - Zuko Tutorial
+      set: tla
+    other:
+    - name: 5 Non-foil tokens
+    - name: 2 Gameboard playmats
+    - name: 2 How to Play guides
+    - name: 2 Reference cards
+    - name: 2 Spindown dice
+    - name: Reference guide booklet
   Avatar The Last Airbender Beginner Box Case: []
   Avatar The Last Airbender Bundle:
     card:
@@ -38,7 +67,23 @@ products:
     pack:
     - code: collector
       set: tla
-  Avatar The Last Airbender Commanders Bundle: []
+  Avatar The Last Airbender Commanders Bundle:
+    card_count: 13
+    deck:
+    - name: Commander's Bundle
+      set: tla
+    other:
+    - name: 15 Traditional Foil Land cards
+    - name: 15 Land cards
+    - name: Click Wheel life counter
+    - name: Card storage box
+    sealed:
+    - count: 9
+      name: Avatar The Last Airbender Play Booster Pack
+      set: tla
+    - count: 1
+      name: Avatar The Last Airbender Collector Booster Pack
+      set: tla
   Avatar The Last Airbender Commanders Bundle Case:
     sealed:
     - count: 6
@@ -178,6 +223,35 @@ products:
       name: Avatar The Last Airbender Prerelease Pack Zuko
       set: tla
   Avatar The Last Airbender Scene Box Case: []
-  Avatar The Last Airbender Scene Box Set of 2: []
-  Avatar The Last Airbender Scene Box Tea Time at the Jasmine Dragon: []
-  Avatar The Last Airbender Scene Box The Black Sun Invasion: []
+  Avatar The Last Airbender Scene Box Set of 2:
+    sealed:
+    - count: 1
+      name: Avatar The Last Airbender Scene Box Tea Time at the Jasmine Dragon
+      set: tla
+    - count: 1
+      name: Avatar The Last Airbender Scene Box The Black Sun Invasion
+      set: tla
+  Avatar The Last Airbender Scene Box Tea Time at the Jasmine Dragon:
+    card_count: 6
+    deck:
+    - name: Tea Time at the Jasmine Dragon
+      set: tla
+    other:
+    - name: 6 Art-only scene cards
+    - name: Paper display easel
+    sealed:
+    - count: 3
+      name: Avatar The Last Airbender Play Booster Pack
+      set: tla
+  Avatar The Last Airbender Scene Box The Black Sun Invasion:
+    card_count: 6
+    deck:
+    - name: The Black Sun Invasion
+      set: tla
+    other:
+    - name: 6 Art-only scene cards
+    - name: Paper display easel
+    sealed:
+    - count: 3
+      name: Avatar The Last Airbender Play Booster Pack
+      set: tla
