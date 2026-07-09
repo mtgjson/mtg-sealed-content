@@ -121,4 +121,14 @@ products:
     deck:
     - name: Shadows over Innistrad Foil Redemption
       set: soi
-  Shadows over Innistrad Prerelease Pack: []
+  Shadows over Innistrad Prerelease Pack:
+    card_count: 1
+    other:
+    - name: 1 Shadows over Innistrad Spindown
+    pack:
+    - code: prerelease
+      set: soi
+    sealed:
+    - count: 6
+      name: Shadows over Innistrad Booster Pack
+      set: soi
