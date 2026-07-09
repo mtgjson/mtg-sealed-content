@@ -106,11 +106,116 @@ products:
     - count: 2
       name: Journey Into Nyx Booster Pack
       set: jou
-  Journey Into Nyx Prerelease Forged in Glory: []
-  Journey Into Nyx Prerelease Forged in Intellect: []
-  Journey Into Nyx Prerelease Forged in Pursuit: []
-  Journey Into Nyx Prerelease Forged in Tyranny: []
-  Journey Into Nyx Prerelease Forged in War: []
+  Journey Into Nyx Prerelease Forged in Glory:
+    card:
+    - foil: false
+      name: Spear of the General
+      number: 7a
+      set: thp3
+    card_count: 15
+    pack:
+    - code: prerelease-glory
+      set: jou
+    other:
+    - name: Spindown die
+    sealed:
+    - count: 2
+      name: Journey Into Nyx Booster Pack
+      set: jou
+    - count: 1
+      name: Born of the Gods Booster Pack
+      set: bng
+    - count: 2
+      name: Theros Booster Pack
+      set: ths
+  Journey Into Nyx Prerelease Forged in Intellect:
+    card:
+    - foil: false
+      name: Cloak of the Philosopher
+      number: 7b
+      set: thp3
+    card_count: 15
+    pack:
+    - code: prerelease-intellect
+      set: jou
+    other:
+    - name: Spindown die
+    sealed:
+    - count: 2
+      name: Journey Into Nyx Booster Pack
+      set: jou
+    - count: 1
+      name: Born of the Gods Booster Pack
+      set: bng
+    - count: 2
+      name: Theros Booster Pack
+      set: ths
+  Journey Into Nyx Prerelease Forged in Pursuit:
+    card:
+    - foil: false
+      name: Bow of the Hunter
+      number: 7e
+      set: thp3
+    card_count: 15
+    pack:
+    - code: prerelease-pursuit
+      set: jou
+    other:
+    - name: Spindown die
+    sealed:
+    - count: 2
+      name: Journey Into Nyx Booster Pack
+      set: jou
+    - count: 1
+      name: Born of the Gods Booster Pack
+      set: bng
+    - count: 2
+      name: Theros Booster Pack
+      set: ths
+  Journey Into Nyx Prerelease Forged in Tyranny:
+    card:
+    - foil: false
+      name: Lash of the Tyrant
+      number: 7c
+      set: thp3
+    card_count: 15
+    pack:
+    - code: prerelease-tyranny
+      set: jou
+    other:
+    - name: Spindown die
+    sealed:
+    - count: 2
+      name: Journey Into Nyx Booster Pack
+      set: jou
+    - count: 1
+      name: Born of the Gods Booster Pack
+      set: bng
+    - count: 2
+      name: Theros Booster Pack
+      set: ths
+  Journey Into Nyx Prerelease Forged in War:
+    card:
+    - foil: false
+      name: Axe of the Warmonger
+      number: 7d
+      set: thp3
+    card_count: 15
+    pack:
+    - code: prerelease-war
+      set: jou
+    other:
+    - name: Spindown die
+    sealed:
+    - count: 2
+      name: Journey Into Nyx Booster Pack
+      set: jou
+    - count: 1
+      name: Born of the Gods Booster Pack
+      set: bng
+    - count: 2
+      name: Theros Booster Pack
+      set: ths
   Journey Into Nyx Prerelease Kit Set of 5:
     sealed:
     - count: 1
