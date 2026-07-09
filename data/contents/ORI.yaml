@@ -114,11 +114,51 @@ products:
     deck:
     - name: Magic Origins Foil Redemption
       set: ori
-  Magic Origins Prerelease Kit Chandra: []
-  Magic Origins Prerelease Kit Gideon: []
-  Magic Origins Prerelease Kit Jace: []
-  Magic Origins Prerelease Kit Liliana: []
-  Magic Origins Prerelease Kit Nissa: []
+  Magic Origins Prerelease Kit Chandra:
+    card_count: 7
+    pack:
+    - code: prerelease-chandra
+      set: ori
+    sealed:
+    - count: 6
+      name: Magic Origins Booster Pack
+      set: ori
+  Magic Origins Prerelease Kit Gideon:
+    card_count: 7
+    pack:
+    - code: prerelease-gideon
+      set: ori
+    sealed:
+    - count: 6
+      name: Magic Origins Booster Pack
+      set: ori
+  Magic Origins Prerelease Kit Jace:
+    card_count: 7
+    pack:
+    - code: prerelease-jace
+      set: ori
+    sealed:
+    - count: 6
+      name: Magic Origins Booster Pack
+      set: ori
+  Magic Origins Prerelease Kit Liliana:
+    card_count: 7
+    pack:
+    - code: prerelease-liliana
+      set: ori
+    sealed:
+    - count: 6
+      name: Magic Origins Booster Pack
+      set: ori
+  Magic Origins Prerelease Kit Nissa:
+    card_count: 7
+    pack:
+    - code: prerelease-nissa
+      set: ori
+    sealed:
+    - count: 6
+      name: Magic Origins Booster Pack
+      set: ori
   Magic Origins Prerelease Kit Set of 5:
     sealed:
     - count: 1
