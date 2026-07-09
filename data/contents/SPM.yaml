@@ -103,7 +103,11 @@ products:
     - count: 3
       name: Marvels Spider Man Play Booster Pack
       set: spm
-  Marvels Spider Man Scene Box Case: []
+  Marvels Spider Man Scene Box Case:
+    sealed:
+    - count: 4
+      name: Marvels Spider Man Scene Box
+      set: spm
   Marvels Spider Man Welcome Deck Black:
     deck:
     - name: Black Deck
