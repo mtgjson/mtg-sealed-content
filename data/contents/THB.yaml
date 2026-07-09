@@ -102,7 +102,11 @@ products:
     - count: 6
       name: Theros Beyond Death Draft Booster Pack
       set: thb
-  Theros Beyond Death Prerelease Pack Case: []
+  Theros Beyond Death Prerelease Pack Case:
+    sealed:
+    - count: 18
+      name: Theros Beyond Death Prerelease Pack
+      set: thb
   Theros Beyond Death Theme Booster Box:
     sealed:
     - count: 2

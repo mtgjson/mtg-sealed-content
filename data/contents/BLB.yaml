@@ -74,7 +74,11 @@ products:
     - count: 6
       name: Bloomburrow Play Booster Pack
       set: blb
-  Bloomburrow Prerelease Pack Case: []
+  Bloomburrow Prerelease Pack Case:
+    sealed:
+    - count: 15
+      name: Bloomburrow Prerelease Pack
+      set: blb
   Bloomburrow Starter Kit:
     card_count: 120
     deck:
