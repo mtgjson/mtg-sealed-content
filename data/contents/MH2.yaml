@@ -55,7 +55,19 @@ products:
     pack:
     - code: draft
       set: mh2
-  Modern Horizons 2 Prerelease Pack: []
+  Modern Horizons 2 Prerelease Pack:
+    card_count: 1
+    other:
+    - name: 5 Non-foil double-sided tokens
+    - name: Deck box
+    - name: Modern Horizons 2 Spindown
+    pack:
+    - code: prerelease
+      set: mh2
+    sealed:
+    - count: 6
+      name: Modern Horizons 2 Draft Booster Pack
+      set: mh2
   Modern Horizons 2 Set Booster Box:
     sealed:
     - count: 30

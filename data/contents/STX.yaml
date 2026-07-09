@@ -56,9 +56,39 @@ products:
     deck:
     - name: 'Strixhaven: School of Mages Foil Redemption'
       set: stx
-  Strixhaven School of Mages Prerelease Pack Lorehold: []
-  Strixhaven School of Mages Prerelease Pack Prismari: []
-  Strixhaven School of Mages Prerelease Pack Quandrix: []
+  Strixhaven School of Mages Prerelease Pack Lorehold:
+    card_count: 15
+    other:
+    - name: Strixhaven Spindown
+    pack:
+    - code: prerelease-lorehold
+      set: stx
+    sealed:
+    - count: 5
+      name: Strixhaven School of Mages Draft Booster Pack
+      set: stx
+  Strixhaven School of Mages Prerelease Pack Prismari:
+    card_count: 15
+    other:
+    - name: Strixhaven Spindown
+    pack:
+    - code: prerelease-prismari
+      set: stx
+    sealed:
+    - count: 5
+      name: Strixhaven School of Mages Draft Booster Pack
+      set: stx
+  Strixhaven School of Mages Prerelease Pack Quandrix:
+    card_count: 15
+    other:
+    - name: Strixhaven Spindown
+    pack:
+    - code: prerelease-quandrix
+      set: stx
+    sealed:
+    - count: 5
+      name: Strixhaven School of Mages Draft Booster Pack
+      set: stx
   Strixhaven School of Mages Prerelease Pack Set of 5:
     sealed:
     - count: 1
@@ -76,8 +106,28 @@ products:
     - count: 1
       name: Strixhaven School of Mages Prerelease Pack Witherbloom
       set: stx
-  Strixhaven School of Mages Prerelease Pack Silverquill: []
-  Strixhaven School of Mages Prerelease Pack Witherbloom: []
+  Strixhaven School of Mages Prerelease Pack Silverquill:
+    card_count: 15
+    other:
+    - name: Strixhaven Spindown
+    pack:
+    - code: prerelease-silverquill
+      set: stx
+    sealed:
+    - count: 5
+      name: Strixhaven School of Mages Draft Booster Pack
+      set: stx
+  Strixhaven School of Mages Prerelease Pack Witherbloom:
+    card_count: 15
+    other:
+    - name: Strixhaven Spindown
+    pack:
+    - code: prerelease-witherbloom
+      set: stx
+    sealed:
+    - count: 5
+      name: Strixhaven School of Mages Draft Booster Pack
+      set: stx
   Strixhaven School of Mages Set Booster Box:
     sealed:
     - count: 30

@@ -61,7 +61,17 @@ products:
     deck:
     - name: Kaldheim Foil Redemption
       set: khm
-  Kaldheim Prerelease Pack: []
+  Kaldheim Prerelease Pack:
+    card_count: 1
+    other:
+    - name: Kaldheim Spindown
+    pack:
+    - code: prerelease
+      set: khm
+    sealed:
+    - count: 6
+      name: Kaldheim Draft Booster Pack
+      set: khm
   Kaldheim Set Booster Box:
     sealed:
     - count: 30
