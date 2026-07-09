@@ -120,11 +120,61 @@ products:
     - count: 1
       name: Guilds of Ravnica Planeswalker Deck Vraska
       set: grn
-  Guilds of Ravnica Prerelease Pack Boros: []
-  Guilds of Ravnica Prerelease Pack Dimir: []
-  Guilds of Ravnica Prerelease Pack Golgari: []
-  Guilds of Ravnica Prerelease Pack Izzet: []
-  Guilds of Ravnica Prerelease Pack Selesnya: []
+  Guilds of Ravnica Prerelease Pack Boros:
+    card_count: 15
+    other:
+    - name: Guilds of Ravnica Spindown
+    pack:
+    - code: prerelease-boros
+      set: grn
+    sealed:
+    - count: 5
+      name: Guilds of Ravnica Booster Pack
+      set: grn
+  Guilds of Ravnica Prerelease Pack Dimir:
+    card_count: 15
+    other:
+    - name: Guilds of Ravnica Spindown
+    pack:
+    - code: prerelease-dimir
+      set: grn
+    sealed:
+    - count: 5
+      name: Guilds of Ravnica Booster Pack
+      set: grn
+  Guilds of Ravnica Prerelease Pack Golgari:
+    card_count: 15
+    other:
+    - name: Guilds of Ravnica Spindown
+    pack:
+    - code: prerelease-golgari
+      set: grn
+    sealed:
+    - count: 5
+      name: Guilds of Ravnica Booster Pack
+      set: grn
+  Guilds of Ravnica Prerelease Pack Izzet:
+    card_count: 15
+    other:
+    - name: Guilds of Ravnica Spindown
+    pack:
+    - code: prerelease-izzet
+      set: grn
+    sealed:
+    - count: 5
+      name: Guilds of Ravnica Booster Pack
+      set: grn
+  Guilds of Ravnica Prerelease Pack Selesnya:
+    card_count: 15
+    other:
+    - name: Guilds of Ravnica Spindown
+    pack:
+    - code: prerelease-selesnya
+      set: grn
+    sealed:
+    - count: 5
+      name: Guilds of Ravnica Booster Pack
+      set: grn
   Guilds of Ravnica Prerelease Pack Set of 5:
     sealed:
     - count: 1

@@ -91,7 +91,17 @@ products:
     - count: 1
       name: Theros Beyond Death Planeswalker Deck Ashiok
       set: thb
-  Theros Beyond Death Prerelease Pack: []
+  Theros Beyond Death Prerelease Pack:
+    card_count: 1
+    other:
+    - name: Theros Beyond Death Spindown
+    pack:
+    - code: prerelease
+      set: thb
+    sealed:
+    - count: 6
+      name: Theros Beyond Death Draft Booster Pack
+      set: thb
   Theros Beyond Death Prerelease Pack Case: []
   Theros Beyond Death Theme Booster Box:
     sealed:

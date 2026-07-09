@@ -157,7 +157,17 @@ products:
     - count: 1
       name: Core Set 2021 Planeswalker Deck Teferi
       set: m21
-  Core Set 2021 Prerelease Pack: []
+  Core Set 2021 Prerelease Pack:
+    card_count: 1
+    other:
+    - name: Core Set 2021 Spindown
+    pack:
+    - code: prerelease
+      set: m21
+    sealed:
+    - count: 6
+      name: Core Set 2021 Draft Booster Pack
+      set: m21
   Core Set 2021 Welcome Booster:
     card_count: 10
     deck:

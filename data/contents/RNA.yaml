@@ -133,10 +133,50 @@ products:
     - count: 1
       name: Ravnica Allegiance Planeswalker Deck Dovin
       set: rna
-  Ravnica Allegiance Prerelease Pack Azorius: []
-  Ravnica Allegiance Prerelease Pack Gruul: []
-  Ravnica Allegiance Prerelease Pack Orzhov: []
-  Ravnica Allegiance Prerelease Pack Rakdos: []
+  Ravnica Allegiance Prerelease Pack Azorius:
+    card_count: 15
+    other:
+    - name: Ravnica Allegiance Spindown
+    pack:
+    - code: prerelease-azorius
+      set: rna
+    sealed:
+    - count: 5
+      name: Ravnica Allegiance Booster Pack
+      set: rna
+  Ravnica Allegiance Prerelease Pack Gruul:
+    card_count: 15
+    other:
+    - name: Ravnica Allegiance Spindown
+    pack:
+    - code: prerelease-gruul
+      set: rna
+    sealed:
+    - count: 5
+      name: Ravnica Allegiance Booster Pack
+      set: rna
+  Ravnica Allegiance Prerelease Pack Orzhov:
+    card_count: 15
+    other:
+    - name: Ravnica Allegiance Spindown
+    pack:
+    - code: prerelease-orzhov
+      set: rna
+    sealed:
+    - count: 5
+      name: Ravnica Allegiance Booster Pack
+      set: rna
+  Ravnica Allegiance Prerelease Pack Rakdos:
+    card_count: 15
+    other:
+    - name: Ravnica Allegiance Spindown
+    pack:
+    - code: prerelease-rakdos
+      set: rna
+    sealed:
+    - count: 5
+      name: Ravnica Allegiance Booster Pack
+      set: rna
   Ravnica Allegiance Prerelease Pack Set of 5:
     sealed:
     - count: 1
@@ -154,7 +194,17 @@ products:
     - count: 1
       name: Ravnica Allegiance Prerelease Pack Simic
       set: rna
-  Ravnica Allegiance Prerelease Pack Simic: []
+  Ravnica Allegiance Prerelease Pack Simic:
+    card_count: 15
+    other:
+    - name: Ravnica Allegiance Spindown
+    pack:
+    - code: prerelease-simic
+      set: rna
+    sealed:
+    - count: 5
+      name: Ravnica Allegiance Booster Pack
+      set: rna
   Ravnica Allegiance Standard Showdown Booster: []
   Ravnica Allegiance Theme Booster Box:
     sealed:
