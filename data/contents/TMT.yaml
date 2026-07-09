@@ -62,8 +62,24 @@ products:
     deck:
     - name: Enemy Deck
       set: tmt
-  Teenage Mutant Ninja Turtles Pizza Bundle: []
-  Teenage Mutant Ninja Turtles Pizza Bundle Case: []
+  Teenage Mutant Ninja Turtles Pizza Bundle:
+    other:
+    - name: 5 traditional foil full-art pizza basic land cards
+    - name: 25 non-foil full-art pizza basic land cards
+    - name: 2 of 6 pizza-themed promo cards
+    - name: Oversized Pizza Bundle Spindown life counter
+    sealed:
+    - count: 9
+      name: Teenage Mutant Ninja Turtles Play Booster Pack
+      set: tmt
+    - count: 1
+      name: Teenage Mutant Ninja Turtles Collector Booster Pack
+      set: tmt
+  Teenage Mutant Ninja Turtles Pizza Bundle Case:
+    sealed:
+    - count: 6
+      name: Teenage Mutant Ninja Turtles Pizza Bundle
+      set: tmt
   Teenage Mutant Ninja Turtles Play Booster Box:
     sealed:
     - count: 30
