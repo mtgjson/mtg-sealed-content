@@ -16,7 +16,6 @@ products:
     - code: draft
       set: ogw
   Oath of the Gatewatch Fat Pack: []
-  Oath of the Gatewatch Hedron Prerelease Box: []
   Oath of the Gatewatch Intro Pack Concerted Effort:
     card_count: 60
     deck:
@@ -106,4 +105,17 @@ products:
     deck:
     - name: Oath of the Gatewatch Foil Redemption
       set: ogw
-  Oath of the Gatewatch Prerelease Pack: []
+  Oath of the Gatewatch Prerelease Pack:
+    card_count: 1
+    other:
+    - name: 1 Oath of the Gatewatch Spindown
+    pack:
+    - code: prerelease
+      set: ogw
+    sealed:
+    - count: 4
+      name: Oath of the Gatewatch Booster Pack
+      set: ogw
+    - count: 2
+      name: Battle for Zendikar Booster Pack
+      set: bfz

@@ -60,5 +60,18 @@ products:
     - count: 1
       name: Rivals of Ixalan Planeswalker Deck Vraska
       set: rix
-  Rivals of Ixalan Prerelease Pack: []
+  Rivals of Ixalan Prerelease Pack:
+    card_count: 1
+    other:
+    - name: 1 Rivals of Ixalan Spindown
+    pack:
+    - code: prerelease
+      set: rix
+    sealed:
+    - count: 4
+      name: Rivals of Ixalan Booster Pack
+      set: rix
+    - count: 2
+      name: Ixalan Booster Pack
+      set: xln
   Rivals of Ixalan Standard Showdown Booster: []

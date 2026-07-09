@@ -105,4 +105,17 @@ products:
     deck:
     - name: Eldritch Moon Foil Redemption
       set: emn
-  Eldritch Moon Prerelease Pack: []
+  Eldritch Moon Prerelease Pack:
+    card_count: 1
+    other:
+    - name: 1 Eldritch Moon Spindown
+    pack:
+    - code: prerelease
+      set: emn
+    sealed:
+    - count: 4
+      name: Eldritch Moon Booster Pack
+      set: emn
+    - count: 2
+      name: Shadows over Innistrad Booster Pack
+      set: soi

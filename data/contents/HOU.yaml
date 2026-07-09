@@ -53,5 +53,18 @@ products:
     - count: 1
       name: Hour of Devastation Planeswalker Deck Nissa
       set: hou
-  Hour of Devastation Prerelease Pack: []
+  Hour of Devastation Prerelease Pack:
+    card_count: 1
+    other:
+    - name: 1 Hour of Devastation Spindown
+    pack:
+    - code: prerelease
+      set: hou
+    sealed:
+    - count: 4
+      name: Hour of Devastation Booster Pack
+      set: hou
+    - count: 2
+      name: Amonkhet Booster Pack
+      set: akh
   Hour of Devastation Standard Showdown Booster: []
