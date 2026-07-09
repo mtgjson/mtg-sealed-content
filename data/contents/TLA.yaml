@@ -60,17 +60,123 @@ products:
     - code: play
       set: tla
   Avatar The Last Airbender Play Pack: []
-  Avatar The Last Airbender Prerelease Booster Aang: []
-  Avatar The Last Airbender Prerelease Booster Azula: []
-  Avatar The Last Airbender Prerelease Booster Katara: []
-  Avatar The Last Airbender Prerelease Booster Toph: []
-  Avatar The Last Airbender Prerelease Booster Zuko: []
-  Avatar The Last Airbender Prerelease Pack Aang: []
-  Avatar The Last Airbender Prerelease Pack Azula: []
-  Avatar The Last Airbender Prerelease Pack Katara: []
-  Avatar The Last Airbender Prerelease Pack Toph: []
-  Avatar The Last Airbender Prerelease Pack Zuko: []
-  Avatar The Last Airbender Prerelease Packs Set of 5: []
+  Avatar The Last Airbender Prerelease Booster Aang:
+    card_count: 14
+    pack:
+    - code: prerelease-aang
+      set: tla
+  Avatar The Last Airbender Prerelease Booster Azula:
+    card_count: 14
+    pack:
+    - code: prerelease-azula
+      set: tla
+  Avatar The Last Airbender Prerelease Booster Katara:
+    card_count: 14
+    pack:
+    - code: prerelease-katara
+      set: tla
+  Avatar The Last Airbender Prerelease Booster Toph:
+    card_count: 14
+    pack:
+    - code: prerelease-toph
+      set: tla
+  Avatar The Last Airbender Prerelease Booster Zuko:
+    card_count: 14
+    pack:
+    - code: prerelease-zuko
+      set: tla
+  Avatar The Last Airbender Prerelease Pack Aang:
+    card_count: 1
+    other:
+    - name: 2 Non-foil double-sided tokens
+    - name: Avatar The Last Airbender Spindown
+    pack:
+    - code: prerelease
+      set: tla
+    sealed:
+    - count: 5
+      name: Avatar The Last Airbender Play Booster Pack
+      set: tla
+    - count: 1
+      name: Avatar The Last Airbender Prerelease Booster Aang
+      set: tla
+  Avatar The Last Airbender Prerelease Pack Azula:
+    card_count: 1
+    other:
+    - name: 2 Non-foil double-sided tokens
+    - name: Avatar The Last Airbender Spindown
+    pack:
+    - code: prerelease
+      set: tla
+    sealed:
+    - count: 5
+      name: Avatar The Last Airbender Play Booster Pack
+      set: tla
+    - count: 1
+      name: Avatar The Last Airbender Prerelease Booster Azula
+      set: tla
+  Avatar The Last Airbender Prerelease Pack Katara:
+    card_count: 1
+    other:
+    - name: 2 Non-foil double-sided tokens
+    - name: Avatar The Last Airbender Spindown
+    pack:
+    - code: prerelease
+      set: tla
+    sealed:
+    - count: 5
+      name: Avatar The Last Airbender Play Booster Pack
+      set: tla
+    - count: 1
+      name: Avatar The Last Airbender Prerelease Booster Katara
+      set: tla
+  Avatar The Last Airbender Prerelease Pack Toph:
+    card_count: 1
+    other:
+    - name: 2 Non-foil double-sided tokens
+    - name: Avatar The Last Airbender Spindown
+    pack:
+    - code: prerelease
+      set: tla
+    sealed:
+    - count: 5
+      name: Avatar The Last Airbender Play Booster Pack
+      set: tla
+    - count: 1
+      name: Avatar The Last Airbender Prerelease Booster Toph
+      set: tla
+  Avatar The Last Airbender Prerelease Pack Zuko:
+    card_count: 1
+    other:
+    - name: 2 Non-foil double-sided tokens
+    - name: Avatar The Last Airbender Spindown
+    pack:
+    - code: prerelease
+      set: tla
+    sealed:
+    - count: 5
+      name: Avatar The Last Airbender Play Booster Pack
+      set: tla
+    - count: 1
+      name: Avatar The Last Airbender Prerelease Booster Zuko
+      set: tla
+  Avatar The Last Airbender Prerelease Packs Set of 5:
+    sealed:
+    - count: 1
+      name: Avatar The Last Airbender Prerelease Pack Aang
+      set: tla
+    - count: 1
+      name: Avatar The Last Airbender Prerelease Pack Azula
+      set: tla
+    - count: 1
+      name: Avatar The Last Airbender Prerelease Pack Katara
+      set: tla
+    - count: 1
+      name: Avatar The Last Airbender Prerelease Pack Toph
+      set: tla
+    - count: 1
+      name: Avatar The Last Airbender Prerelease Pack Zuko
+      set: tla
   Avatar The Last Airbender Scene Box Case: []
   Avatar The Last Airbender Scene Box Set of 2: []
   Avatar The Last Airbender Scene Box Tea Time at the Jasmine Dragon: []
