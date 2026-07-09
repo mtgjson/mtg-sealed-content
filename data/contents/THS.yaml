@@ -15,7 +15,11 @@ products:
     pack:
     - code: draft
       set: ths
-  Theros Challenge Deck Face the Hydra: []
+  Theros Challenge Deck Face the Hydra:
+    card_count: 60
+    deck:
+    - name: Face the Hydra
+      set: tfth
   Theros Event Deck Inspiring Heroics:
     card_count: 75
     deck:
