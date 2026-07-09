@@ -147,15 +147,59 @@ products:
     - count: 15
       name: Final Fantasy Prerelease Pack
       set: fin
-  Final Fantasy Scene Box Camp Comrades: []
-  Final Fantasy Scene Box Children of Fate: []
-  Final Fantasy Scene Box Garland at the Chaos Shrine: []
+  Final Fantasy Scene Box Camp Comrades:
+    card_count: 6
+    deck:
+    - name: Camp Comrades
+      set: fin
+    other:
+    - name: 6 Art-Only Scene Cards
+    - name: Final Fantasy Display Easel
+    sealed:
+    - count: 3
+      name: Final Fantasy Play Booster Pack
+      set: fin
+  Final Fantasy Scene Box Children of Fate:
+    card_count: 6
+    deck:
+    - name: Children of Fate
+      set: fin
+    other:
+    - name: 6 Art-Only Scene Cards
+    - name: Final Fantasy Display Easel
+    sealed:
+    - count: 3
+      name: Final Fantasy Play Booster Pack
+      set: fin
+  Final Fantasy Scene Box Garland at the Chaos Shrine:
+    card_count: 6
+    deck:
+    - name: Garland at the Chaos Shrine
+      set: fin
+    other:
+    - name: 6 Art-Only Scene Cards
+    - name: Final Fantasy Display Easel
+    sealed:
+    - count: 3
+      name: Final Fantasy Play Booster Pack
+      set: fin
   Final Fantasy Scene Box Set of 4:
     sealed:
     - count: 1
       name: Final Fantasy Scene Box The Siege of Alexandria
       set: fin
-  Final Fantasy Scene Box The Siege of Alexandria: []
+  Final Fantasy Scene Box The Siege of Alexandria:
+    card_count: 6
+    deck:
+    - name: The Siege of Alexandria
+      set: fin
+    other:
+    - name: 6 Art-Only Scene Cards
+    - name: Final Fantasy Display Easel
+    sealed:
+    - count: 3
+      name: Final Fantasy Play Booster Pack
+      set: fin
   Final Fantasy Starter Kit:
     card_count: 120
     deck:
