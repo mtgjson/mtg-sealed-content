@@ -80,4 +80,15 @@ products:
     pack:
     - code: play
       set: mh3
-  Modern Horizons 3 Prerelease Pack: []
+  Modern Horizons 3 Prerelease Pack:
+    card_count: 1
+    other:
+    - name: Deck box
+    - name: Modern Horizons 3 spindown
+    pack:
+    - code: prerelease
+      set: mh3
+    sealed:
+    - count: 6
+      name: Modern Horizons 3 Play Booster Pack
+      set: mh3
