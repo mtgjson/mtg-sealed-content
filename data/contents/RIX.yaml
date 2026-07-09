@@ -15,7 +15,18 @@ products:
     pack:
     - code: draft
       set: rix
-  Rivals of Ixalan Bundle: []
+  Rivals of Ixalan Bundle:
+    other:
+    - name: 1 Card box
+    - name: "1 Player\u2019s Guide with visual encyclopedia for Rivals of Ixalan"
+    - name: 80 Basic land cards
+    - name: 1 Magic learn-to-play guide
+    - name: 1 Spindown life counter
+    - name: 2 Deck boxes
+    sealed:
+    - count: 10
+      name: Rivals of Ixalan Booster Pack
+      set: rix
   Rivals of Ixalan MTGO Redemption:
     card_count: 196
     deck:

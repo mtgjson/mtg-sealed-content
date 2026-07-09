@@ -228,9 +228,45 @@ products:
     deck:
     - name: White Deck
       set: sos
-  Welcome Deck 2026 Black Deck: {}
-  Welcome Deck 2026 Blue Deck: {}
-  Welcome Deck 2026 Green Deck: {}
-  Welcome Deck 2026 Red Deck: {}
-  Welcome Deck 2026 Set of 5: {}
-  Welcome Deck 2026 White Deck: {}
+  Welcome Deck 2026 Black Deck:
+    card_count: 40
+    deck:
+    - name: Black Deck
+      set: sos
+  Welcome Deck 2026 Blue Deck:
+    card_count: 40
+    deck:
+    - name: Blue Deck
+      set: sos
+  Welcome Deck 2026 Green Deck:
+    card_count: 40
+    deck:
+    - name: Green Deck
+      set: sos
+  Welcome Deck 2026 Red Deck:
+    card_count: 40
+    deck:
+    - name: Red Deck
+      set: sos
+  Welcome Deck 2026 Set of 5:
+    sealed:
+    - count: 1
+      name: Welcome Deck 2026 Black Deck
+      set: sos
+    - count: 1
+      name: Welcome Deck 2026 Blue Deck
+      set: sos
+    - count: 1
+      name: Welcome Deck 2026 Green Deck
+      set: sos
+    - count: 1
+      name: Welcome Deck 2026 Red Deck
+      set: sos
+    - count: 1
+      name: Welcome Deck 2026 White Deck
+      set: sos
+  Welcome Deck 2026 White Deck:
+    card_count: 40
+    deck:
+    - name: White Deck
+      set: sos
