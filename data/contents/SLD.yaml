@@ -4177,17 +4177,47 @@ products:
     deck:
     - name: Far Out, Man
       set: sld
-    pack:
-    - code: jumpstart-lands
-      set: sld
+    variable:
+    - chance: 93
+      pack:
+      - code: jumpstart-lands
+        set: sld
+    - chance: 5
+      pack:
+      - code: blueprint-mk1
+        set: sld
+    - card:
+      - foil: true
+        name: Persistent Petitioners
+        number: 599
+        set: sld
+      chance: 2
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Far Out Man Foil:
     card_count: 5
     deck:
     - name: Far Out, Man Foil Edition
       set: sld
-    pack:
-    - code: jumpstart-lands
-      set: sld
+    variable:
+    - chance: 93
+      pack:
+      - code: jumpstart-lands
+        set: sld
+    - chance: 5
+      pack:
+      - code: blueprint-mk1
+        set: sld
+    - card:
+      - foil: true
+        name: Persistent Petitioners
+        number: 599
+        set: sld
+      chance: 2
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Fblthp Completely Utterly Totally Lost:
     card:
     - name: Fblthp, the Lost
@@ -6139,25 +6169,70 @@ products:
     deck:
     - name: PixelSnowLands.jpg
       set: sld
-    pack:
-    - code: jumpstart-lands
-      set: sld
+    variable:
+    - chance: 93
+      pack:
+      - code: jumpstart-lands
+        set: sld
+    - chance: 5
+      pack:
+      - code: blueprint-mk1
+        set: sld
+    - card:
+      - foil: true
+        name: Persistent Petitioners
+        number: 599
+        set: sld
+      chance: 2
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop PixelSnowLandsjpg Etched:
     card_count: 5
     deck:
     - name: PixelSnowLands.jpg Foil Etched Edition
       set: sld
-    pack:
-    - code: jumpstart-lands
-      set: sld
+    variable:
+    - chance: 93
+      pack:
+      - code: jumpstart-lands
+        set: sld
+    - chance: 5
+      pack:
+      - code: blueprint-mk1
+        set: sld
+    - card:
+      - foil: true
+        name: Persistent Petitioners
+        number: 599
+        set: sld
+      chance: 2
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop PixelSnowLandsjpg Foil:
     card_count: 5
     deck:
     - name: PixelSnowLands.jpg Foil Edition
       set: sld
-    pack:
-    - code: jumpstart-lands
-      set: sld
+    variable:
+    - chance: 93
+      pack:
+      - code: jumpstart-lands
+        set: sld
+    - chance: 5
+      pack:
+      - code: blueprint-mk1
+        set: sld
+    - card:
+      - foil: true
+        name: Persistent Petitioners
+        number: 599
+        set: sld
+      chance: 2
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Poker Faces:
     card_count: 5
     deck:
@@ -9495,17 +9570,47 @@ products:
     deck:
     - name: The Dracula Lands
       set: sld
-    pack:
-    - code: jumpstart-lands
-      set: sld
+    variable:
+    - chance: 93
+      pack:
+      - code: jumpstart-lands
+        set: sld
+    - chance: 5
+      pack:
+      - code: blueprint-mk1
+        set: sld
+    - card:
+      - foil: true
+        name: Persistent Petitioners
+        number: 599
+        set: sld
+      chance: 2
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop The Dracula Lands Foil:
     card_count: 5
     deck:
     - name: The Dracula Lands Foil Edition
       set: sld
-    pack:
-    - code: jumpstart-lands
-      set: sld
+    variable:
+    - chance: 93
+      pack:
+      - code: jumpstart-lands
+        set: sld
+    - chance: 5
+      pack:
+      - code: blueprint-mk1
+        set: sld
+    - card:
+      - foil: true
+        name: Persistent Petitioners
+        number: 599
+        set: sld
+      chance: 2
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop The Eyes Have It:
     card_count: 5
     deck:
@@ -10362,25 +10467,55 @@ products:
     variable_mode:
       count: 1
   Secret Lair Drop Welcome to Castle Dracula:
-    card:
-    - foil: true
-      name: Swamp
-      number: 562
-      set: sld
     card_count: 3
     deck:
     - name: Welcome to Castle Dracula
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Swamp
+        number: 562
+        set: sld
+      chance: 93
+    - chance: 5
+      pack:
+      - code: blueprint-mk1
+        set: sld
+    - card:
+      - foil: true
+        name: Persistent Petitioners
+        number: 599
+        set: sld
+      chance: 2
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Welcome to Castle Dracula Foil:
-    card:
-    - foil: true
-      name: Swamp
-      number: 562
-      set: sld
     card_count: 3
     deck:
     - name: Welcome to Castle Dracula Foil Edition
       set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Swamp
+        number: 562
+        set: sld
+      chance: 93
+    - chance: 5
+      pack:
+      - code: blueprint-mk1
+        set: sld
+    - card:
+      - foil: true
+        name: Persistent Petitioners
+        number: 599
+        set: sld
+      chance: 2
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Welcome to the Fungal:
     card_count: 4
     deck:
