@@ -3,8 +3,10 @@ products:
   The Hobbit Bundle:
     category: BUNDLE
     identifiers:
+      cardKingdomId: '330102'
       cardtraderId: '389303'
       mcmId: '885553'
+      miniaturemarketId: 019df9af6606732093ca0a7f2150e65b
       scgId: SLD-MTG-BUN-HOB-EN
       tcgplayerProductId: '692966'
     release_date: '2026-08-14'
@@ -18,6 +20,7 @@ products:
   The Hobbit Collector Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      cardKingdomId: '330104'
       cardtraderId: '389301'
       mcmId: '885552'
       miniaturemarketId: 019df9af4e3e70d18bff08b624cfd32f
@@ -40,6 +43,7 @@ products:
   The Hobbit Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardKingdomId: '330105'
       cardtraderId: '389311'
       mcmId: '885550'
       scgId: SLD-MTG-PCK-HOBCOLLECTOR-EN
@@ -49,6 +53,7 @@ products:
   The Hobbit Draft Night:
     category: LIMITED
     identifiers:
+      cardKingdomId: '330103'
       cardtraderId: '389306'
       mcmId: '885555'
       scgId: SLD-MTG-DFT-HOB-EN
@@ -80,6 +85,7 @@ products:
   The Hobbit Play Booster Box:
     category: BOOSTER_BOX
     identifiers:
+      cardKingdomId: '330106'
       cardtraderId: '389300'
       mcmId: '885551'
       miniaturemarketId: 019df9af2f9f717d92591d4e05baf58c
@@ -97,6 +103,7 @@ products:
   The Hobbit Play Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardKingdomId: '330107'
       cardtraderId: '389310'
       mcmId: '885549'
       miniaturemarketId: 019df9af40ac73d1969e6100717333b8
@@ -130,8 +137,10 @@ products:
   The Hobbit Scene Box Crack the Plates:
     category: BOX_SET
     identifiers:
+      cardKingdomId: '330108'
       cardtraderId: '389307'
       mcmId: '885557'
+      miniaturemarketId: 019df9af86297390868617f201e01fd8
       scgId: SLD-MTG-BXS-HOBSCENE-CRACK
       tcgplayerProductId: '692968'
     release_date: '2026-08-14'
@@ -139,8 +148,10 @@ products:
   The Hobbit Scene Box Treasures of Smaug:
     category: BOX_SET
     identifiers:
+      cardKingdomId: '330109'
       cardtraderId: '389308'
       mcmId: '885558'
+      miniaturemarketId: 019df9af92b57350983fd06d9462298b
       scgId: SLD-MTG-BXS-HOBSCENE-TREASURES
       tcgplayerProductId: '692969'
     release_date: '2026-08-14'

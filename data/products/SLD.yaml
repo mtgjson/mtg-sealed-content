@@ -2344,12 +2344,14 @@ products:
   Secret Lair Drop Cats of Chaos:
     category: BOX_SET
     identifiers:
+      cardKingdomId: '330079'
       mcmId: '893957'
     release_date: '2026-06-16'
     subtype: SECRET_LAIR
   Secret Lair Drop Cats of Chaos Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '330078'
     release_date: '2026-06-16'
     subtype: SECRET_LAIR
   Secret Lair Drop City Styles:
@@ -2826,6 +2828,7 @@ products:
   Secret Lair Drop Dwarf Fortress Create New World:
     category: BOX_SET
     identifiers:
+      cardKingdomId: '326858'
       cardtraderId: '388497'
       mcmId: '884808'
       tcgplayerProductId: '691187'
@@ -3850,6 +3853,8 @@ products:
   Secret Lair Drop Inked:
     category: BOX_SET
     identifiers:
+      cardtraderId: '399556'
+      mcmId: '896250'
       tcgplayerProductId: '694710'
     release_date: '2026-05-29'
     subtype: SECRET_LAIR
@@ -4245,6 +4250,7 @@ products:
   "Secret Lair Drop Mah\u014D Gakuin Seishun Hakusho \u2014 \u9B54\u6CD5\u5B66\u9662\u9752\u6625\u767D\u66F8 Foil":
     category: BOX_SET
     identifiers:
+      cardKingdomId: '326851'
       tcgplayerProductId: '691194'
     release_date: '2026-05-12'
     subtype: SECRET_LAIR
@@ -4443,6 +4449,7 @@ products:
   Secret Lair Drop My Little Pony Friendship is Magic:
     category: BOX_SET
     identifiers:
+      cardKingdomId: '326854'
       cardtraderId: '388490'
       mcmId: '884811'
       tcgplayerProductId: '691175'
@@ -4591,6 +4598,7 @@ products:
   Secret Lair Drop Omens of Chaos Foil:
     category: BOX_SET
     identifiers:
+      cardKingdomId: '326849'
       tcgplayerProductId: '691186'
     release_date: '2026-05-12'
     subtype: SECRET_LAIR
@@ -4927,13 +4935,15 @@ products:
   Secret Lair Drop Purr Majesty:
     category: BOX_SET
     identifiers:
+      cardKingdomId: '330081'
       cardtraderId: '392540'
       mcmId: '889134'
     release_date: '2026-06-16'
     subtype: SECRET_LAIR
   Secret Lair Drop Purr Majesty Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '330080'
     release_date: '2026-06-16'
     subtype: SECRET_LAIR
   Secret Lair Drop Purrfection:
@@ -4978,6 +4988,7 @@ products:
   Secret Lair Drop Return to Mystical Archive Foil:
     category: BOX_SET
     identifiers:
+      cardKingdomId: '326848'
       tcgplayerProductId: '691198'
     release_date: '2026-05-12'
     subtype: SECRET_LAIR
@@ -7286,6 +7297,7 @@ products:
   Secret Lair Drop The Eyes Have It Foil:
     category: BOX_SET
     identifiers:
+      cardKingdomId: '326843'
       tcgplayerProductId: '691192'
     release_date: '2026-05-12'
     subtype: SECRET_LAIR
@@ -7729,12 +7741,14 @@ products:
   Secret Lair Drop Tobys Journey by Gary Baseman:
     category: BOX_SET
     identifiers:
+      cardKingdomId: '330091'
       mcmId: '891445'
     release_date: '2026-06-16'
     subtype: SECRET_LAIR
   Secret Lair Drop Tobys Journey by Gary Baseman Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '330090'
     release_date: '2026-06-16'
     subtype: SECRET_LAIR
   Secret Lair Drop Tome of the Astral Sorceress:
@@ -7992,13 +8006,15 @@ products:
   Secret Lair Drop Witchs Familiar:
     category: BOX_SET
     identifiers:
+      cardKingdomId: '330093'
       cardtraderId: '392542'
       mcmId: '889137'
     release_date: '2026-06-16'
     subtype: SECRET_LAIR
   Secret Lair Drop Witchs Familiar Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardKingdomId: '330092'
     release_date: '2026-06-16'
     subtype: SECRET_LAIR
   Secret Lair Drop Wizards of the Street:
@@ -8090,6 +8106,11 @@ products:
       tntId: '1640799'
     release_date: '2019-12-07'
     subtype: SECRET_LAIR
+  Secret Lair Festival in a Box Amsterdam 2026 Bundle:
+    category: BOX_SET
+    identifiers:
+      mcmId: '895922'
+    subtype: SECRET_LAIR_BUNDLE
   Secret Lair Festival in a Box Atlanta 2025 Bundle:
     category: BOX_SET
     identifiers:
