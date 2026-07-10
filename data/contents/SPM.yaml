@@ -145,8 +145,40 @@ products:
     - count: 1
       name: Marvels Spider Man Welcome Deck White
       set: spm
-  Marvels Spider-Man Marvel Legends Figure Set Agent Anti-Venom: []
-  Marvels Spider-Man Marvel Legends Figure Set Man-Wolf: []
-  Marvels Spider-Man Marvel Legends Figure Set Mary Jane Watson Iron Spider: []
-  Marvels Spider-Man Marvel Legends Figure Set Spider-Man Battle-Damaged: []
+  Marvels Spider-Man Marvel Legends Figure Set Agent Anti-Venom:
+    card:
+    - foil: true
+      name: Anti-Venom, Horrifying Healer
+      number: '1'
+      set: lmar
+    card_count: 1
+    other:
+    - name: Marvel Legends Agent Anti-Venom action figure
+  Marvels Spider-Man Marvel Legends Figure Set Man-Wolf:
+    card:
+    - foil: true
+      name: Huntmaster of the Fells // Ravager of the Fells
+      number: '3'
+      set: lmar
+    card_count: 1
+    other:
+    - name: Marvel Legends Man-Wolf action figure
+  Marvels Spider-Man Marvel Legends Figure Set Mary Jane Watson Iron Spider:
+    card:
+    - foil: true
+      name: Iron Spider, Stark Upgrade
+      number: '4'
+      set: lmar
+    card_count: 1
+    other:
+    - name: Marvel Legends Mary Jane Watson (Iron Spider) action figure
+  Marvels Spider-Man Marvel Legends Figure Set Spider-Man Battle-Damaged:
+    card:
+    - foil: true
+      name: Spectacular Spider-Man
+      number: '2'
+      set: lmar
+    card_count: 1
+    other:
+    - name: Marvel Legends Battle-Damaged Spider-Man action figure
   Marvels Spider-Man Web-Slingers Kit: []
