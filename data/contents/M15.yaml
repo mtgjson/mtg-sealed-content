@@ -197,6 +197,8 @@ products:
       set: m15
   2015 Core Set Prerelease Hunt with Ambition:
     card_count: 15
+    other:
+    - name: Spindown die
     pack:
     - code: prerelease-ambition
       set: m15
@@ -204,10 +206,10 @@ products:
     - count: 5
       name: 2015 Core Set Booster Pack
       set: m15
-    other:
-    - name: Spindown die
   2015 Core Set Prerelease Hunt with Ferocity:
     card_count: 15
+    other:
+    - name: Spindown die
     pack:
     - code: prerelease-ferocity
       set: m15
@@ -215,10 +217,10 @@ products:
     - count: 5
       name: 2015 Core Set Booster Pack
       set: m15
-    other:
-    - name: Spindown die
   2015 Core Set Prerelease Hunt with Guile:
     card_count: 15
+    other:
+    - name: Spindown die
     pack:
     - code: prerelease-guile
       set: m15
@@ -226,10 +228,10 @@ products:
     - count: 5
       name: 2015 Core Set Booster Pack
       set: m15
-    other:
-    - name: Spindown die
   2015 Core Set Prerelease Hunt with Strength:
     card_count: 15
+    other:
+    - name: Spindown die
     pack:
     - code: prerelease-strength
       set: m15
@@ -237,10 +239,10 @@ products:
     - count: 5
       name: 2015 Core Set Booster Pack
       set: m15
-    other:
-    - name: Spindown die
   2015 Core Set Prerelease Hunt with Valor:
     card_count: 15
+    other:
+    - name: Spindown die
     pack:
     - code: prerelease-valor
       set: m15
@@ -248,8 +250,6 @@ products:
     - count: 5
       name: 2015 Core Set Booster Pack
       set: m15
-    other:
-    - name: Spindown die
   2015 Core Set Prerelease Pack Set of 5:
     sealed:
     - count: 1
