@@ -27,7 +27,15 @@ products:
     - count: 6
       name: Time Spiral Booster Pack
       set: tsp
-  Time Spiral Gift Box: []
+  Time Spiral Gift Box:
+    other:
+    - name: 5 exclusive card dividers
+    - name: Metal mana symbol pendant and necklace
+    - name: 'Magic: The Gathering T-shirt'
+    sealed:
+    - count: 3
+      name: Time Spiral Booster Pack
+      set: tsp
   Time Spiral MTGO Redemption:
     card_count: 301
     deck:
