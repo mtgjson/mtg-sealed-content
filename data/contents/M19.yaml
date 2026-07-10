@@ -44,7 +44,55 @@ products:
     - count: 1
       name: Dominaria Booster Pack
       set: dom
-  Core Set 2019 Gift Pack: []
+  Core Set 2019 Gift Pack:
+    card:
+    - foil: true
+      name: Angelic Guardian
+      number: GP1
+      set: g18
+    - foil: true
+      name: Angler Turtle
+      number: GP2
+      set: g18
+    - foil: true
+      name: Vengeant Vampire
+      number: GP3
+      set: g18
+    - foil: true
+      name: Immortal Phoenix
+      number: GP4
+      set: g18
+    - foil: true
+      name: Rampaging Brontodon
+      number: GP5
+      set: g18
+    - foil: true
+      name: Plains
+      number: '261'
+      set: m19
+    - foil: true
+      name: Island
+      number: '268'
+      set: m19
+    - foil: true
+      name: Swamp
+      number: '269'
+      set: m19
+    - foil: true
+      name: Mountain
+      number: '276'
+      set: m19
+    - foil: true
+      name: Forest
+      number: '277'
+      set: m19
+    card_count: 10
+    other:
+    - name: Spindown life counter
+    sealed:
+    - count: 4
+      name: Core Set 2019 Booster Pack
+      set: m19
   Core Set 2019 MTGO Redemption:
     card_count: 280
     deck:
