@@ -97,7 +97,11 @@ products:
     - count: 5
       name: Kaladesh Booster Pack
       set: kld
-  Kaladesh Holiday Buy a Box Promo Pack: []
+  Kaladesh Holiday Buy a Box Promo Pack:
+    card_count: 3
+    pack:
+    - code: buyabox
+      set: kld
   Kaladesh MTGO Redemption:
     card_count: 264
     deck:
