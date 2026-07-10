@@ -2860,15 +2860,17 @@ products:
     deck:
     - name: Bad to the Bones
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: surprise-slivers
+      set: sld
   Secret Lair Drop Bad to the Bones Foil:
     card_count: 5
     deck:
     - name: Bad to the Bones Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: surprise-slivers
+      set: sld
   Secret Lair Drop Bitterblossom Dreams:
     card_count: 6
     deck:
@@ -3220,15 +3222,17 @@ products:
     deck:
     - name: Cool Ocean Breeze
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: surprise-slivers
+      set: sld
   Secret Lair Drop Cool Ocean Breeze Foil:
     card_count: 4
     deck:
     - name: Cool Ocean Breeze Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: surprise-slivers
+      set: sld
   Secret Lair Drop Crocodile Jacksons Monstrous Menagerie:
     card:
     - name: Lurking Crocodile
@@ -3550,15 +3554,17 @@ products:
     deck:
     - name: Death Is Temporary, Metal Is Forever
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: surprise-slivers
+      set: sld
   Secret Lair Drop Death Is Temporary Metal Is Forever Foil:
     card_count: 5
     deck:
     - name: Death Is Temporary, Metal Is Forever Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: surprise-slivers
+      set: sld
   Secret Lair Drop Deceptive Divination:
     card_count: 5
     deck:
@@ -3609,15 +3615,75 @@ products:
     deck:
     - name: Draw Your Hand
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Plague Sliver
+        number: 633Φ
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Toxin Sliver
+        number: 635Φ
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Virulent Sliver
+        number: 659Φ
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Shadowborn Apostle
+        number: 681Φ
+        set: sld
+      chance: 1
+    - chance: 96
+      pack:
+      - code: surprise-slivers
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Draw Your Hand Foil:
     card_count: 4
     deck:
     - name: Draw Your Hand Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Plague Sliver
+        number: 633Φ
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Toxin Sliver
+        number: 635Φ
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Virulent Sliver
+        number: 659Φ
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Shadowborn Apostle
+        number: 681Φ
+        set: sld
+      chance: 1
+    - chance: 96
+      pack:
+      - code: surprise-slivers
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Dreaming Darkly:
     card_count: 4
     deck:
@@ -4186,15 +4252,17 @@ products:
     deck:
     - name: 'Featuring: Gary Baseman'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: surprise-slivers
+      set: sld
   Secret Lair Drop Featuring Gary Baseman Foil:
     card_count: 5
     deck:
     - name: 'Featuring: Gary Baseman Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: surprise-slivers
+      set: sld
   Secret Lair Drop Featuring Imiri Sakabashira:
     card_count: 4
     deck:
@@ -4698,15 +4766,17 @@ products:
     deck:
     - name: Goblin & Squabblin'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: surprise-slivers
+      set: sld
   Secret Lair Drop Goblin and Squabblin Foil:
     card_count: 5
     deck:
     - name: Goblin & Squabblin' Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: surprise-slivers
+      set: sld
   Secret Lair Drop Goblingram:
     card:
     - name: Thrun, the Last Troll
@@ -5154,16 +5224,18 @@ products:
     deck:
     - name: Keep Partying Hard, Shred Harder Than You Previously Thought Possible
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: surprise-slivers
+      set: sld
   Secret Lair Drop Keep Partying Hard Shred Harder Than You Previously Thought Possible Foil:
     card_count: 4
     deck:
     - name: Keep Partying Hard, Shred Harder Than You Previously Thought Possible
         Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: surprise-slivers
+      set: sld
   Secret Lair Drop LOOK AT THE KITTIES:
     card_count: 4
     deck:
@@ -5176,8 +5248,9 @@ products:
     deck:
     - name: Legendary Flyers (Not That Kind)
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: surprise-slivers
+      set: sld
   Secret Lair Drop Lil Giri Saves the Day Foil:
     card:
     - foil: true
@@ -5263,17 +5336,35 @@ products:
     deck:
     - name: 'Magic: The Baseballing'
       set: sld
-    pack:
-    - code: baseball-signed
-      set: sld
+    variable:
+    - chance: 1
+      pack:
+      - code: baseball-signed
+        set: sld
+    - chance: 99
+      pack:
+      - code: surprise-slivers
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Magic The Baseballing Foil:
     card_count: 5
     deck:
     - name: 'Magic: The Baseballing Foil Edition'
       set: sld
-    pack:
-    - code: baseball-signed
-      set: sld
+    variable:
+    - chance: 1
+      pack:
+      - code: baseball-signed
+        set: sld
+    - chance: 99
+      pack:
+      - code: surprise-slivers
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop MagicCon The Gathering:
     card_count: 4
     deck:
@@ -5499,8 +5590,9 @@ products:
     deck:
     - name: More Borderless Planeswalkers
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: surprise-slivers
+      set: sld
   Secret Lair Drop Mothers Day 2021:
     card_count: 4
     deck:
@@ -5612,15 +5704,17 @@ products:
     deck:
     - name: Nature Is Adorable
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: surprise-slivers
+      set: sld
   Secret Lair Drop Nature is Adorable Foil:
     card_count: 4
     deck:
     - name: Nature Is Adorable Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: surprise-slivers
+      set: sld
   Secret Lair Drop Notebook Genius:
     card_count: 4
     deck:
@@ -5642,15 +5736,17 @@ products:
     deck:
     - name: Now on VHS!
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: surprise-slivers
+      set: sld
   Secret Lair Drop Now on VHS Foil:
     card_count: 4
     deck:
     - name: Now on VHS! Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: surprise-slivers
+      set: sld
   Secret Lair Drop OMG KITTIES:
     card:
     - foil: true
@@ -5821,15 +5917,75 @@ products:
     deck:
     - name: Phyrexian Faves
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Plague Sliver
+        number: 633Φ
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Toxin Sliver
+        number: 635Φ
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Virulent Sliver
+        number: 659Φ
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Shadowborn Apostle
+        number: 681Φ
+        set: sld
+      chance: 1
+    - chance: 96
+      pack:
+      - code: surprise-slivers
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Phyrexian Faves Foil:
     card_count: 5
     deck:
     - name: Phyrexian Faves Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Plague Sliver
+        number: 633Φ
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Toxin Sliver
+        number: 635Φ
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Virulent Sliver
+        number: 659Φ
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Shadowborn Apostle
+        number: 681Φ
+        set: sld
+      chance: 1
+    - chance: 96
+      pack:
+      - code: surprise-slivers
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Phyrexian Praetors Compleat Edition:
     card_count: 5
     deck:
@@ -8232,8 +8388,38 @@ products:
     deck:
     - name: 'Showcase: All Will Be One Step-and-Compleat Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Plague Sliver
+        number: 633Φ
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Toxin Sliver
+        number: 635Φ
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Virulent Sliver
+        number: 659Φ
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Shadowborn Apostle
+        number: 681Φ
+        set: sld
+      chance: 1
+    - chance: 96
+      pack:
+      - code: surprise-slivers
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Showcase Bloomburrow:
     card_count: 5
     deck:
@@ -8350,22 +8536,25 @@ products:
     deck:
     - name: 'Showcase: March of the Machine Vol. 1'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: surprise-slivers
+      set: sld
   Secret Lair Drop Showcase March of the Machine Vol 2:
     card_count: 5
     deck:
     - name: 'Showcase: March of the Machine Vol. 2'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: surprise-slivers
+      set: sld
   Secret Lair Drop Showcase March of the Machine Vol 3:
     card_count: 5
     deck:
     - name: 'Showcase: March of the Machine Vol. 3'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: surprise-slivers
+      set: sld
   Secret Lair Drop Showcase Midnight Hunt:
     card_count: 10
     deck:
@@ -8958,15 +9147,75 @@ products:
     deck:
     - name: Ssssssnakessssss
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Plague Sliver
+        number: 633Φ
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Toxin Sliver
+        number: 635Φ
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Virulent Sliver
+        number: 659Φ
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Shadowborn Apostle
+        number: 681Φ
+        set: sld
+      chance: 1
+    - chance: 96
+      pack:
+      - code: surprise-slivers
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Ssssssnakessssss Foil:
     card_count: 5
     deck:
     - name: Ssssssnakessssss Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Plague Sliver
+        number: 633Φ
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Toxin Sliver
+        number: 635Φ
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Virulent Sliver
+        number: 659Φ
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Shadowborn Apostle
+        number: 681Φ
+        set: sld
+      chance: 1
+    - chance: 96
+      pack:
+      - code: surprise-slivers
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Tales of the Time Stoppers:
     card_count: 4
     deck:
@@ -9049,15 +9298,75 @@ products:
     deck:
     - name: The '90s Binder Experience
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Plague Sliver
+        number: 633Φ
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Toxin Sliver
+        number: 635Φ
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Virulent Sliver
+        number: 659Φ
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Shadowborn Apostle
+        number: 681Φ
+        set: sld
+      chance: 1
+    - chance: 96
+      pack:
+      - code: surprise-slivers
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop The 90s Binder Experience Foil:
     card_count: 5
     deck:
     - name: The '90s Binder Experience Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Plague Sliver
+        number: 633Φ
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Toxin Sliver
+        number: 635Φ
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Virulent Sliver
+        number: 659Φ
+        set: sld
+      chance: 1
+    - card:
+      - foil: true
+        name: Shadowborn Apostle
+        number: 681Φ
+        set: sld
+      chance: 1
+    - chance: 96
+      pack:
+      - code: surprise-slivers
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop The Art of Frank Frazetta:
     card:
     - name: Lightning Strike
@@ -9344,15 +9653,17 @@ products:
     deck:
     - name: The Stars Gaze Back
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: surprise-slivers
+      set: sld
   Secret Lair Drop The Stars Gaze Back Foil:
     card_count: 4
     deck:
     - name: The Stars Gaze Back Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: surprise-slivers
+      set: sld
   Secret Lair Drop The Strange Sands Forest:
     card_count: 10
     deck:
