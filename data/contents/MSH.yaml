@@ -58,8 +58,31 @@ products:
       set: msh
   Marvel Super Heroes Draft Night: []
   Marvel Super Heroes Draft Night Case: []
-  Marvel Super Heroes Gift Bundle: []
-  Marvel Super Heroes Gift Bundle Case: []
+  Marvel Super Heroes Gift Bundle:
+    card:
+    - foil: true
+      name: Daredevil, Man Without Fear
+      number: 432
+      set: msh
+    card_count: 1
+    deck:
+    - name: Marvel Super Heroes Bundle Land Pack
+      set: msh
+    other:
+    - name: Spindown life counter
+    - name: Foil card storage box
+    sealed:
+    - count: 9
+      name: Marvel Super Heroes Play Booster Pack
+      set: msh
+    - count: 1
+      name: Marvel Super Heroes Collector Booster Pack
+      set: msh
+  Marvel Super Heroes Gift Bundle Case:
+    sealed:
+    - count: 6
+      name: Marvel Super Heroes Gift Bundle
+      set: msh
   Marvel Super Heroes Jumpstart Booster Box:
     sealed:
     - count: 24
