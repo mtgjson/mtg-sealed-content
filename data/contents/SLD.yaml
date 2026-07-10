@@ -5883,15 +5883,17 @@ products:
     deck:
     - name: Purrfection
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: jumpstart-lands
+      set: sld
   Secret Lair Drop Purrfection Foil:
     card_count: 4
     deck:
     - name: Purrfection Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: jumpstart-lands
+      set: sld
   Secret Lair Drop Restless in Peace:
     card_count: 3
     deck:
@@ -8266,15 +8268,17 @@ products:
     deck:
     - name: 'Showcase: Strixhaven'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: jumpstart-lands
+      set: sld
   Secret Lair Drop Showcase Strixhaven Foil:
     card_count: 6
     deck:
     - name: 'Showcase: Strixhaven Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: jumpstart-lands
+      set: sld
   Secret Lair Drop Showcase The Lost Caverns of Ixalan:
     card_count: 5
     deck:
@@ -8400,15 +8404,17 @@ products:
     deck:
     - name: 'Special Guest: Jen Bartel'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: jumpstart-lands
+      set: sld
   Secret Lair Drop Special Guest Jen Bartel Foil:
     card_count: 4
     deck:
     - name: 'Special Guest: Jen Bartel Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: jumpstart-lands
+      set: sld
   Secret Lair Drop Special Guest Junji Ito English:
     card_count: 4
     deck:
@@ -8816,8 +8822,9 @@ products:
     deck:
     - name: Teferi's Time Trouble
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: jumpstart-lands
+      set: sld
   Secret Lair Drop Thalia Beyond the Helvault:
     card_count: 4
     deck:
