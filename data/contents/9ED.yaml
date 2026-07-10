@@ -45,7 +45,17 @@ products:
       set: 9ed
     - name: Demo Booster Player 2
       set: 9ed
-  Ninth Edition Fast Track Two Player Starter: []
+  Ninth Edition Fast Track Two Player Starter:
+    card_count: 22
+    deck:
+    - name: Demo Booster Player 1
+      set: 9ed
+    - name: Demo Booster Player 2
+      set: 9ed
+    other:
+    - name: Step-by-step instruction sheet
+    - name: Playmat
+    - name: CD-ROM
   Ninth Edition Fat Pack:
     deck:
     - name: Ninth Edition Fat Pack Land Pack
