@@ -37,8 +37,8 @@ jobs:
       - name: associate names
         run: python scripts/check_product_fuzzy.py --auto --auto-margin 3
 
-      - name: execute contents compiler
-        run: python scripts/product_contents_compiler.py
+      - name: rebuild status + deck map
+        run: python scripts/contents_validator.py --status
         
       - name: execute manual products compiler
         run: python scripts/new_products_compiler.py
