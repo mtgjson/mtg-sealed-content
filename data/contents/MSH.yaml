@@ -2,8 +2,29 @@ code: msh
 products:
   Marvel Super Heroes Beginner Box: []
   Marvel Super Heroes Beginner Box Case: []
-  Marvel Super Heroes Bundle: []
-  Marvel Super Heroes Bundle Case: []
+  Marvel Super Heroes Bundle:
+    card:
+    - foil: true
+      name: The Scarlet Witch
+      number: 431
+      set: msh
+    card_count: 1
+    deck:
+    - name: Marvel Super Heroes Bundle Land Pack
+      set: msh
+    other:
+    - name: Oversized Spindown life counter
+    - name: Card storage box
+    - name: 2 reference cards
+    sealed:
+    - count: 9
+      name: Marvel Super Heroes Play Booster Pack
+      set: msh
+  Marvel Super Heroes Bundle Case:
+    sealed:
+    - count: 6
+      name: Marvel Super Heroes Bundle
+      set: msh
   Marvel Super Heroes Collector Booster Box:
     sealed:
     - count: 12
@@ -24,8 +45,22 @@ products:
     pack:
     - code: collector
       set: msh
-  Marvel Super Heroes Draft Night: []
-  Marvel Super Heroes Draft Night Case: []
+  Marvel Super Heroes Draft Night:
+    other:
+    - name: 90 basic lands
+    - name: 10 non-foil double-sided tokens
+    sealed:
+    - count: 12
+      name: Marvel Super Heroes Play Booster Pack
+      set: msh
+    - count: 1
+      name: Marvel Super Heroes Collector Booster Pack
+      set: msh
+  Marvel Super Heroes Draft Night Case:
+    sealed:
+    - count: 6
+      name: Marvel Super Heroes Draft Night
+      set: msh
   Marvel Super Heroes Gift Bundle: []
   Marvel Super Heroes Gift Bundle Case: []
   Marvel Super Heroes Jumpstart Booster Box:
