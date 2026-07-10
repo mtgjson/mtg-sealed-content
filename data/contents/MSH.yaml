@@ -1,7 +1,39 @@
 code: msh
 products:
-  Marvel Super Heroes Beginner Box: []
-  Marvel Super Heroes Beginner Box Case: []
+  Marvel Super Heroes Beginner Box:
+    card_count: 200
+    deck:
+    - name: Beginner Box - Heroes
+      set: msh
+    - name: Beginner Box - Captain America Tutorial
+      set: msh
+    - name: Beginner Box - Artifacts
+      set: msh
+    - name: Beginner Box - Card Draw
+      set: msh
+    - name: Beginner Box - HYDRA
+      set: msh
+    - name: Beginner Box - Villains
+      set: msh
+    - name: Beginner Box - Iron Man Tutorial
+      set: msh
+    - name: Beginner Box - Young Avengers
+      set: msh
+    - name: Beginner Box - Counters
+      set: msh
+    - name: Beginner Box - Ramp
+      set: msh
+    other:
+    - name: 5 double-sided tokens
+    - name: 2 Gameboard playmats
+    - name: 2 How to Play guides
+    - name: Reference guide booklet
+    - name: 2 Spindown life counters
+  Marvel Super Heroes Beginner Box Case:
+    sealed:
+    - count: 3
+      name: Marvel Super Heroes Beginner Box
+      set: msh
   Marvel Super Heroes Bundle: []
   Marvel Super Heroes Bundle Case: []
   Marvel Super Heroes Collector Booster Box:
@@ -26,8 +58,31 @@ products:
       set: msh
   Marvel Super Heroes Draft Night: []
   Marvel Super Heroes Draft Night Case: []
-  Marvel Super Heroes Gift Bundle: []
-  Marvel Super Heroes Gift Bundle Case: []
+  Marvel Super Heroes Gift Bundle:
+    card:
+    - foil: true
+      name: Daredevil, Man Without Fear
+      number: 432
+      set: msh
+    card_count: 1
+    deck:
+    - name: Marvel Super Heroes Bundle Land Pack
+      set: msh
+    other:
+    - name: Spindown life counter
+    - name: Foil card storage box
+    sealed:
+    - count: 9
+      name: Marvel Super Heroes Play Booster Pack
+      set: msh
+    - count: 1
+      name: Marvel Super Heroes Collector Booster Pack
+      set: msh
+  Marvel Super Heroes Gift Bundle Case:
+    sealed:
+    - count: 6
+      name: Marvel Super Heroes Gift Bundle
+      set: msh
   Marvel Super Heroes Jumpstart Booster Box:
     sealed:
     - count: 24
@@ -75,9 +130,38 @@ products:
     - count: 15
       name: Marvel Super Heroes Prerelease Pack
       set: msh
-  Marvel Super Heroes Scene Box Case: []
-  Marvel Super Heroes Scene Box Heroes United: []
-  Marvel Super Heroes Scene Box Villains Unleashed: []
+  Marvel Super Heroes Scene Box Case:
+    sealed:
+    - count: 2
+      name: Marvel Super Heroes Scene Box Heroes United
+      set: msh
+    - count: 2
+      name: Marvel Super Heroes Scene Box Villains Unleashed
+      set: msh
+  Marvel Super Heroes Scene Box Heroes United:
+    card_count: 6
+    deck:
+    - name: Heroes United
+      set: msh
+    other:
+    - name: 6 Art-Only Scene Cards
+    - name: Marvel Super Heroes Display Easel
+    sealed:
+    - count: 3
+      name: Marvel Super Heroes Play Booster Pack
+      set: msh
+  Marvel Super Heroes Scene Box Villains Unleashed:
+    card_count: 6
+    deck:
+    - name: Villains Unleashed
+      set: msh
+    other:
+    - name: 6 Art-Only Scene Cards
+    - name: Marvel Super Heroes Display Easel
+    sealed:
+    - count: 3
+      name: Marvel Super Heroes Play Booster Pack
+      set: msh
   Marvel Super Heroes Welcome Deck Black:
     card_count: 30
     deck:
