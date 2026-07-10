@@ -1,7 +1,39 @@
 code: msh
 products:
-  Marvel Super Heroes Beginner Box: []
-  Marvel Super Heroes Beginner Box Case: []
+  Marvel Super Heroes Beginner Box:
+    card_count: 200
+    deck:
+    - name: Beginner Box - Heroes
+      set: msh
+    - name: Beginner Box - Captain America Tutorial
+      set: msh
+    - name: Beginner Box - Artifacts
+      set: msh
+    - name: Beginner Box - Card Draw
+      set: msh
+    - name: Beginner Box - HYDRA
+      set: msh
+    - name: Beginner Box - Villains
+      set: msh
+    - name: Beginner Box - Iron Man Tutorial
+      set: msh
+    - name: Beginner Box - Young Avengers
+      set: msh
+    - name: Beginner Box - Counters
+      set: msh
+    - name: Beginner Box - Ramp
+      set: msh
+    other:
+    - name: 5 double-sided tokens
+    - name: 2 Gameboard playmats
+    - name: 2 How to Play guides
+    - name: Reference guide booklet
+    - name: 2 Spindown life counters
+  Marvel Super Heroes Beginner Box Case:
+    sealed:
+    - count: 3
+      name: Marvel Super Heroes Beginner Box
+      set: msh
   Marvel Super Heroes Bundle: []
   Marvel Super Heroes Bundle Case: []
   Marvel Super Heroes Collector Booster Box:
