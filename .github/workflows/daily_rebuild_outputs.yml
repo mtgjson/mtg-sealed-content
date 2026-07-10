@@ -34,6 +34,9 @@ jobs:
           TCG_AUTH: ${{ secrets.TCG_AUTH }}
         run: python scripts/load_new_products.py $TCG_AUTH
 
+      - name: associate names
+        run: python scripts/check_product_fuzzy.py --auto --auto-margin 3
+
       - name: execute contents compiler
         run: python scripts/product_contents_compiler.py
         
