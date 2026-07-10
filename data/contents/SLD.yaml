@@ -3453,15 +3453,17 @@ products:
     deck:
     - name: Diabolical Dioramas
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: elusive-elves-early
+      set: sld
   Secret Lair Drop Diabolical Dioramas Rainbow Foil:
     card_count: 4
     deck:
     - name: Diabolical Dioramas Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: elusive-elves-early
+      set: sld
   Secret Lair Drop Dogs Are Better Than Cats:
     card:
     - name: Spirited Companion
@@ -4006,15 +4008,17 @@ products:
     deck:
     - name: 'Featuring: Andrew MacLean'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: elusive-elves-late
+      set: sld
   Secret Lair Drop Featuring Andrew Maclean Rainbow Foil:
     card_count: 4
     deck:
     - name: 'Featuring: Andrew MacLean Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: elusive-elves-late
+      set: sld
   Secret Lair Drop Featuring Deathburger:
     card_count: 5
     deck:
@@ -4152,15 +4156,17 @@ products:
     deck:
     - name: 'Featuring: Julie Bell'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: elusive-elves-late
+      set: sld
   Secret Lair Drop Featuring Julie Bell Rainbow Foil:
     card_count: 5
     deck:
     - name: 'Featuring: Julie Bell Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: elusive-elves-late
+      set: sld
   Secret Lair Drop Featuring Kevin Eastman (Colors):
     card:
     - name: Butcher of Malakir
@@ -4251,29 +4257,33 @@ products:
     deck:
     - name: 'Featuring: Peach Momoko'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: elusive-elves-late
+      set: sld
   Secret Lair Drop Featuring Peach Momoko Rainbow Foil:
     card_count: 5
     deck:
     - name: 'Featuring: Peach Momoko Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: elusive-elves-late
+      set: sld
   Secret Lair Drop Featuring Phoebe Wahl:
     card_count: 5
     deck:
     - name: 'Featuring: Phoebe Wahl'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: elusive-elves-early
+      set: sld
   Secret Lair Drop Featuring Phoebe Wahl Rainbow Foil:
     card_count: 5
     deck:
     - name: 'Featuring: Phoebe Wahl Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: elusive-elves-early
+      set: sld
   Secret Lair Drop Featuring Stan Sakai:
     card:
     - name: Big Score
@@ -4656,24 +4666,20 @@ products:
     - code: stainedglass-uncommon
       set: sld
   Secret Lair Drop Hard Boiled Thrillers:
-    card:
-    - foil: true
-      name: Skemfar Shadowsage
-      number: 759
-      set: sld
     card_count: 5
     deck:
     - name: Hard-Boiled Thrillers
       set: sld
-  Secret Lair Drop Hard Boiled Thrillers Rainbow Foil:
-    card:
-    - foil: true
-      name: Skemfar Shadowsage
-      number: 759
+    pack:
+    - code: elusive-elves-early
       set: sld
+  Secret Lair Drop Hard Boiled Thrillers Rainbow Foil:
     card_count: 5
     deck:
     - name: Hard-Boiled Thrillers Foil Edition
+      set: sld
+    pack:
+    - code: elusive-elves-early
       set: sld
   Secret Lair Drop Here Be Dragons:
     card:
@@ -5053,8 +5059,9 @@ products:
     deck:
     - name: Lil Legends
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: elusive-elves-late
+      set: sld
   Secret Lair Drop Lil Walkers:
     card_count: 5
     deck:
@@ -5311,15 +5318,17 @@ products:
     deck:
     - name: Monstrous Magazines
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: elusive-elves-late
+      set: sld
   Secret Lair Drop Monstrous Magazines Rainbow Foil:
     card_count: 5
     deck:
     - name: Monstrous Magazines Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: elusive-elves-late
+      set: sld
   Secret Lair Drop More Adventures in Middle earth:
     card:
     - name: "Gr\xEDma Wormtongue"
@@ -5578,29 +5587,55 @@ products:
     deck:
     - name: 'Outlaw Anthology Vol. 1: Rebellious Renegades'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: elusive-elves-late
+      set: sld
   Secret Lair Drop Outlaw Anthology Vol 1 Rebellious Renegades Rainbow Foil:
     card_count: 4
     deck:
     - name: 'Outlaw Anthology Vol. 1: Rebellious Renegades Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: elusive-elves-late
+      set: sld
   Secret Lair Drop Outlaw Anthology Vol 2 Sinister Scoundrels:
     card_count: 4
     deck:
     - name: 'Outlaw Anthology Vol. 2: Sinister Scoundrels'
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Elesh Norn, Grand Cenobite
+        number: 811
+        set: sld
+      chance: 1
+    - chance: 99
+      pack:
+      - code: elusive-elves-late
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Outlaw Anthology Vol 2 Sinister Scoundrels Rainbow Foil:
     card_count: 4
     deck:
     - name: 'Outlaw Anthology Vol. 2: Sinister Scoundrels Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Elesh Norn, Grand Cenobite
+        number: 811
+        set: sld
+      chance: 1
+    - chance: 99
+      pack:
+      - code: elusive-elves-late
+        set: sld
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Paradise Frost:
     card_count: 5
     deck:
@@ -5762,15 +5797,17 @@ products:
     deck:
     - name: Poker Faces
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: elusive-elves-late
+      set: sld
   Secret Lair Drop Poker Faces Rainbow Foil:
     card_count: 5
     deck:
     - name: Poker Faces Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: elusive-elves-late
+      set: sld
   Secret Lair Drop Pride Across the Multiverse:
     card_count: 8
     deck:
@@ -5836,29 +5873,33 @@ products:
     deck:
     - name: Prints of Darkness
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: elusive-elves-late
+      set: sld
   Secret Lair Drop Prints of Darkness Rainbow Foil:
     card_count: 5
     deck:
     - name: Prints of Darkness Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: elusive-elves-late
+      set: sld
   Secret Lair Drop Prismatic Nightmares:
     card_count: 5
     deck:
     - name: Prismatic Nightmares
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: elusive-elves-early
+      set: sld
   Secret Lair Drop Prismatic Nightmares Rainbow Foil:
     card_count: 5
     deck:
     - name: Prismatic Nightmares Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: elusive-elves-early
+      set: sld
   Secret Lair Drop Purr Majesty:
     card:
     - name: Hellish Rebuke
@@ -5944,8 +5985,9 @@ products:
     deck:
     - name: Burning Revelations
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: elusive-elves-early
+      set: sld
   Secret Lair Drop Rule the Room:
     card_count: 4
     deck:
@@ -8037,15 +8079,17 @@ products:
     deck:
     - name: 'Showcase: Bloomburrow'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: elusive-elves-late
+      set: sld
   Secret Lair Drop Showcase Bloomburrow Rainbow Foil:
     card_count: 5
     deck:
     - name: 'Showcase: Bloomburrow Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: elusive-elves-late
+      set: sld
   Secret Lair Drop Showcase Dominaria United Textured Foil:
     card_count: 5
     deck:
@@ -8058,15 +8102,17 @@ products:
     deck:
     - name: 'Showcase: Duskmourn'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: elusive-elves-late
+      set: sld
   Secret Lair Drop Showcase Duskmourn Rainbow Foil:
     card_count: 5
     deck:
     - name: 'Showcase: Duskmourn Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: elusive-elves-late
+      set: sld
   Secret Lair Drop Showcase Kaldheim Part 1:
     card_count: 3
     deck:
@@ -8926,8 +8972,9 @@ products:
     deck:
     - name: The Fairest Drop of All Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: elusive-elves-late
+      set: sld
   Secret Lair Drop The Full Text Lands:
     card_count: 5
     deck:
@@ -9380,15 +9427,17 @@ products:
     deck:
     - name: Tome of the Astral Sorceress
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: elusive-elves-late
+      set: sld
   Secret Lair Drop Tome of the Astral Sorceress Rainbow Foil:
     card_count: 4
     deck:
     - name: Tome of the Astral Sorceress Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: elusive-elves-late
+      set: sld
   Secret Lair Drop Totally Spaced Out Galaxy Foil:
     card_count: 4
     deck:
