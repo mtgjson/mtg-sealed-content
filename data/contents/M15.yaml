@@ -195,11 +195,61 @@ products:
     deck:
     - name: Magic 2015 Foil Redemption
       set: m15
-  2015 Core Set Prerelease Hunt with Ambition: []
-  2015 Core Set Prerelease Hunt with Ferocity: []
-  2015 Core Set Prerelease Hunt with Guile: []
-  2015 Core Set Prerelease Hunt with Strength: []
-  2015 Core Set Prerelease Hunt with Valor: []
+  2015 Core Set Prerelease Hunt with Ambition:
+    card_count: 15
+    pack:
+    - code: prerelease-ambition
+      set: m15
+    sealed:
+    - count: 5
+      name: 2015 Core Set Booster Pack
+      set: m15
+    other:
+    - name: Spindown die
+  2015 Core Set Prerelease Hunt with Ferocity:
+    card_count: 15
+    pack:
+    - code: prerelease-ferocity
+      set: m15
+    sealed:
+    - count: 5
+      name: 2015 Core Set Booster Pack
+      set: m15
+    other:
+    - name: Spindown die
+  2015 Core Set Prerelease Hunt with Guile:
+    card_count: 15
+    pack:
+    - code: prerelease-guile
+      set: m15
+    sealed:
+    - count: 5
+      name: 2015 Core Set Booster Pack
+      set: m15
+    other:
+    - name: Spindown die
+  2015 Core Set Prerelease Hunt with Strength:
+    card_count: 15
+    pack:
+    - code: prerelease-strength
+      set: m15
+    sealed:
+    - count: 5
+      name: 2015 Core Set Booster Pack
+      set: m15
+    other:
+    - name: Spindown die
+  2015 Core Set Prerelease Hunt with Valor:
+    card_count: 15
+    pack:
+    - code: prerelease-valor
+      set: m15
+    sealed:
+    - count: 5
+      name: 2015 Core Set Booster Pack
+      set: m15
+    other:
+    - name: Spindown die
   2015 Core Set Prerelease Pack Set of 5:
     sealed:
     - count: 1
