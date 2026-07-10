@@ -78,8 +78,28 @@ products:
   Marvel Super Heroes Scene Box Case: []
   Marvel Super Heroes Scene Box Heroes United: []
   Marvel Super Heroes Scene Box Villains Unleashed: []
-  Marvel Super Heroes Welcome Deck Black: {}
-  Marvel Super Heroes Welcome Deck Blue: {}
-  Marvel Super Heroes Welcome Deck Green: {}
-  Marvel Super Heroes Welcome Deck Red: {}
-  Marvel Super Heroes Welcome Deck White: {}
+  Marvel Super Heroes Welcome Deck Black:
+    card_count: 30
+    deck:
+    - name: Black Deck
+      set: msh
+  Marvel Super Heroes Welcome Deck Blue:
+    card_count: 30
+    deck:
+    - name: Blue Deck
+      set: msh
+  Marvel Super Heroes Welcome Deck Green:
+    card_count: 30
+    deck:
+    - name: Green Deck
+      set: msh
+  Marvel Super Heroes Welcome Deck Red:
+    card_count: 30
+    deck:
+    - name: Red Deck
+      set: msh
+  Marvel Super Heroes Welcome Deck White:
+    card_count: 30
+    deck:
+    - name: White Deck
+      set: msh
