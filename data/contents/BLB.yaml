@@ -131,4 +131,8 @@ products:
     - count: 1
       name: Bloomburrow Tin Skunk
       set: blb
-  Bloomburrow Value Booster: []
+  Bloomburrow Value Booster:
+    card_count: 7
+    pack:
+    - code: value
+      set: blb
