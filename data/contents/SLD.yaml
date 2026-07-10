@@ -8822,9 +8822,20 @@ products:
     deck:
     - name: Teferi's Time Trouble
       set: sld
-    pack:
-    - code: jumpstart-lands
-      set: sld
+    variable:
+    - chance: 98
+      pack:
+      - code: jumpstart-lands
+        set: sld
+    - card:
+      - foil: true
+        name: Persistent Petitioners
+        number: 597
+        set: sld
+      chance: 2
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Thalia Beyond the Helvault:
     card_count: 4
     deck:
