@@ -2720,19 +2720,24 @@ products:
     other:
     - name: Bonus card unknown
   Secret Lair Drop Back in My Day!:
+    card:
+    - name: Utopia Sprawl
+      number: 7070
+      set: sld
     card_count: 4
     deck:
     - name: Back in My Day!
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Back in My Day! Foil:
+    card:
+    - foil: true
+      name: Utopia Sprawl
+      number: 7070
+      set: sld
     card_count: 4
     deck:
     - name: Back in My Day! Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Bad to the Bones:
     card_count: 5
     deck:
@@ -2846,15 +2851,67 @@ products:
     deck:
     - name: 'Brain Dead: New Earth Mentality'
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Invasion Plans
+        number: 7107
+        set: sld
+      chance: 49
+    - card:
+      - foil: true
+        name: Tidal Barracuda
+        number: 7105
+        set: sld
+      chance: 25
+    - card:
+      - foil: true
+        name: Master of the Feast
+        number: 7106
+        set: sld
+      chance: 25
+    - card:
+      - foil: true
+        name: Miren, the Moaning Well
+        number: 7108
+        set: sld
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Brain Dead New Earth Mentality Foil:
     card_count: 10
     deck:
     - name: 'Brain Dead: New Earth Mentality Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Invasion Plans
+        number: 7107
+        set: sld
+      chance: 49
+    - card:
+      - foil: true
+        name: Tidal Barracuda
+        number: 7105
+        set: sld
+      chance: 25
+    - card:
+      - foil: true
+        name: Master of the Feast
+        number: 7106
+        set: sld
+      chance: 25
+    - card:
+      - foil: true
+        name: Miren, the Moaning Well
+        number: 7108
+        set: sld
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Buggin Out:
     card_count: 5
     deck:
@@ -3455,117 +3512,178 @@ products:
     - code: deceptive-districts
       set: sld
   Secret Lair Drop Dungeons & Dragons Black Lights & Dark Dungeons:
+    card:
+    - name: Dungeon Delver
+      number: 7103
+      set: sld
     card_count: 4
     deck:
     - name: 'Dungeons & Dragons: Black Lights & Dark Dungeons'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Dungeons & Dragons Black Lights & Dark Dungeons Foil:
+    card:
+    - foil: true
+      name: Dungeon Delver
+      number: 7103
+      set: sld
     card_count: 4
     deck:
     - name: 'Dungeons & Dragons: Black Lights & Dark Dungeons Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Dungeons & Dragons Gales Ambition:
+    card:
+    - name: Secrets of the Dead
+      number: 7099
+      set: sld
     card_count: 5
     deck:
     - name: 'Dungeons & Dragons: Gale''s Ambition'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Dungeons & Dragons Gales Ambition Foil:
+    card:
+    - foil: true
+      name: Secrets of the Dead
+      number: 7099
+      set: sld
     card_count: 5
     deck:
     - name: 'Dungeons & Dragons: Gale''s Ambition Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Dungeons & Dragons Lands of the Forgotten Realms:
+    card:
+    - name: Reliquary Tower
+      number: 7104
+      set: sld
     card_count: 5
     deck:
     - name: 'Dungeons & Dragons: Lands of the Forgotten Realms'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Dungeons & Dragons Lands of the Forgotten Realms Foil:
+    card:
+    - foil: true
+      name: Reliquary Tower
+      number: 7104
+      set: sld
     card_count: 5
     deck:
     - name: 'Dungeons & Dragons: Lands of the Forgotten Realms Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Dungeons & Dragons Shadowhearts Devotion:
+    card:
+    - name: Pride of the Perfect
+      number: 7098
+      set: sld
     card_count: 5
     deck:
     - name: 'Dungeons & Dragons: Shadowheart''s Devotion'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Dungeons & Dragons Shadowhearts Devotion Foil:
+    card:
+    - foil: true
+      name: Pride of the Perfect
+      number: 7098
+      set: sld
     card_count: 5
     deck:
     - name: 'Dungeons & Dragons: Shadowheart''s Devotion Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Dungeons & Dragons Shadows Over Baldurs Gate:
+    card:
+    - name: You Find Some Prisoners
+      number: 7100
+      set: sld
     card_count: 4
     deck:
     - name: 'Dungeons & Dragons: Shadows Over Baldur''s Gate'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Dungeons & Dragons Shadows Over Baldurs Gate Foil:
+    card:
+    - foil: true
+      name: You Find Some Prisoners
+      number: 7100
+      set: sld
     card_count: 4
     deck:
     - name: 'Dungeons & Dragons: Shadows Over Baldur''s Gate Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Dungeons & Dragons Strahds Descent:
+    card:
+    - name: Bloody Betrayal
+      number: 7102
+      set: sld
     card_count: 4
     deck:
     - name: 'Dungeons & Dragons: Strahd''s Descent'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Dungeons & Dragons Strahds Descent Foil:
+    card:
+    - foil: true
+      name: Bloody Betrayal
+      number: 7102
+      set: sld
     card_count: 4
     deck:
     - name: 'Dungeons & Dragons: Strahd''s Descent Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Dungeons & Dragons Whispers in Candlekeep:
+    card:
+    - name: Scaled Nurturer
+      number: 7101
+      set: sld
     card_count: 4
     deck:
     - name: 'Dungeons & Dragons: Whispers in Candlekeep'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Dungeons & Dragons Whispers in Candlekeep Foil:
+    card:
+    - foil: true
+      name: Scaled Nurturer
+      number: 7101
+      set: sld
     card_count: 4
     deck:
     - name: 'Dungeons & Dragons: Whispers in Candlekeep Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Dwarf Fortress Create New World:
     card_count: 5
     deck:
     - name: 'Dwarf Fortress: Create New World'
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - name: Crucible of Worlds
+        number: 7162
+        set: sld
+      chance: 99
+    - card:
+      - name: Glorious End
+        number: 7161
+        set: sld
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Dwarf Fortress Create New World Foil:
     card_count: 5
     deck:
     - name: 'Dwarf Fortress: Create New World Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Crucible of Worlds
+        number: 7162
+        set: sld
+      chance: 99
+    - card:
+      - foil: true
+        name: Glorious End
+        number: 7161
+        set: sld
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop EVERYTHING IS ON FIRE:
     card_count: 5
     deck:
@@ -3775,61 +3893,81 @@ products:
     variable_mode:
       count: 1
   Secret Lair Drop Fallout Beyond Vault 33:
+    card:
+    - name: Academy Manufactor
+      number: 7094
+      set: sld
     card_count: 6
     deck:
     - name: 'Fallout: Beyond Vault 33'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Fallout Beyond Vault 33 Foil:
+    card:
+    - foil: true
+      name: Academy Manufactor
+      number: 7094
+      set: sld
     card_count: 6
     deck:
     - name: 'Fallout: Beyond Vault 33 Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Fallout Greet the Dog:
+    card:
+    - name: Command Tower
+      number: 7097
+      set: sld
     card_count: 5
     deck:
     - name: 'Fallout: Greet the Dog'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Fallout Greet the Dog Foil:
+    card:
+    - foil: true
+      name: Command Tower
+      number: 7097
+      set: sld
     card_count: 5
     deck:
     - name: 'Fallout: Greet the Dog Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Fallout Rad:
+    card:
+    - name: Ruin Crab
+      number: 7095
+      set: sld
     card_count: 5
     deck:
     - name: 'Fallout: Rad'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Fallout Rad Foil:
+    card:
+    - foil: true
+      name: Ruin Crab
+      number: 7095
+      set: sld
     card_count: 5
     deck:
     - name: 'Fallout: Rad Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Fallout Welcome to New Vegas:
+    card:
+    - name: Big Score
+      number: 7096
+      set: sld
     card_count: 5
     deck:
     - name: 'Fallout: Welcome to New Vegas'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Fallout Welcome to New Vegas Foil:
+    card:
+    - foil: true
+      name: Big Score
+      number: 7096
+      set: sld
     card_count: 5
     deck:
     - name: 'Fallout: Welcome to New Vegas Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Far Out Man:
     card_count: 5
     deck:
@@ -4024,33 +4162,43 @@ products:
     other:
     - name: Bonus card unknown
   Secret Lair Drop Featuring Kevin Eastman (Colors):
+    card:
+    - name: Butcher of Malakir
+      number: 7072
+      set: sld
     card_count: 4
     deck:
     - name: 'Featuring: Kevin Eastman (Colors)'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Featuring Kevin Eastman (Colors) Foil:
+    card:
+    - foil: true
+      name: Butcher of Malakir
+      number: 7072
+      set: sld
     card_count: 4
     deck:
     - name: 'Featuring: Kevin Eastman (Colors) Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Featuring Kevin Eastman (Inks):
+    card:
+    - name: Butcher of Malakir
+      number: 7071
+      set: sld
     card_count: 4
     deck:
     - name: 'Featuring: Kevin Eastman (Inks)'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Featuring Kevin Eastman (Inks) Foil:
+    card:
+    - foil: true
+      name: Butcher of Malakir
+      number: 7071
+      set: sld
     card_count: 4
     deck:
     - name: 'Featuring: Kevin Eastman (Inks) Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Featuring Luke Pearson:
     card_count: 4
     deck:
@@ -4165,19 +4313,24 @@ products:
     - name: 'Featuring: the Mountain Goats Foil Edition'
       set: sld
   Secret Lair Drop Felix the Cat Magic Bag of Tricks:
+    card:
+    - name: Warp World
+      number: 7172
+      set: sld
     card_count: 5
     deck:
     - name: 'Felix the Cat: Magic Bag of Tricks'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Felix the Cat Magic Bag of Tricks Foil:
+    card:
+    - foil: true
+      name: Warp World
+      number: 7172
+      set: sld
     card_count: 5
     deck:
     - name: 'Felix the Cat: Magic Bag of Tricks Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Finally Left Handed Magic Cards:
     card:
     - name: Dakkon Blackblade
@@ -4307,47 +4460,62 @@ products:
     other:
     - name: Bonus card unknown
   Secret Lair Drop Garfield As Intended:
+    card:
+    - name: Clone
+      number: 7164
+      set: sld
     card_count: 5
     deck:
     - name: 'Garfield: As Intended'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Garfield As Intended Foil:
+    card:
+    - foil: true
+      name: Clone
+      number: 7164
+      set: sld
     card_count: 5
     deck:
     - name: 'Garfield: As Intended Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Garfield Motivationally Challenged:
+    card:
+    - name: Shiny Impetus
+      number: 7165
+      set: sld
     card_count: 5
     deck:
     - name: 'Garfield: Motivationally Challenged'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Garfield Motivationally Challenged Foil:
+    card:
+    - foil: true
+      name: Shiny Impetus
+      number: 7165
+      set: sld
     card_count: 5
     deck:
     - name: 'Garfield: Motivationally Challenged Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Garfield Our Only Thought is to Entertain You:
+    card:
+    - name: Shoot the Sheriff
+      number: 7166
+      set: sld
     card_count: 5
     deck:
     - name: 'Garfield: Our Only Thought is to Entertain You'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Garfield Our Only Thought is to Entertain You Foil:
+    card:
+    - foil: true
+      name: Shoot the Sheriff
+      number: 7166
+      set: sld
     card_count: 5
     deck:
     - name: 'Garfield: Our Only Thought is to Entertain You Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Ghost of Tsushima:
     card:
     - name: Tetsuko Umezawa, Fugitive
@@ -4997,22 +5165,62 @@ products:
     deck:
     - name: 'Marvel''s Deadpool: I Fixed It (You''re Welcome)'
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - name: Mountain
+        number: 7126
+        set: sld
+      chance: 99
+    - card:
+      - name: Deadpool, Trading Card
+        number: 7127
+        set: sld
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Marvels Deadpool I Fixed It (Youre Welcome) Foil:
     card_count: 5
     deck:
     - name: 'Marvel''s Deadpool: I Fixed It (You''re Welcome) Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Mountain
+        number: 7126
+        set: sld
+      chance: 99
+    - card:
+      - foil: true
+        name: Deadpool, Trading Card
+        number: 7127
+        set: sld
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Marvels Deadpool I Fixed It (Youre Welcome) Pool Party Dazzle Foil:
     card_count: 5
     deck:
     - name: 'Marvel''s Deadpool: I Fixed It (You''re Welcome) Pool Party Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    variable:
+    - card:
+      - foil: true
+        name: Mountain
+        number: 7128
+        set: sld
+      chance: 99
+    - card:
+      - foil: true
+        name: Deadpool, Trading Card
+        number: 7129
+        set: sld
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 100
   Secret Lair Drop Math Is For Blockers:
     card_count: 5
     deck:
@@ -5191,33 +5399,43 @@ products:
     - name: Mountain, Go
       set: sld
   Secret Lair Drop My Little Pony Friendship is Magic:
+    card:
+    - name: Relic of Legends
+      number: 7109
+      set: sld
     card_count: 6
     deck:
     - name: 'My Little Pony: Friendship is Magic'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop My Little Pony Friendship is Magic Foil:
+    card:
+    - foil: true
+      name: Relic of Legends
+      number: 7109
+      set: sld
     card_count: 6
     deck:
     - name: 'My Little Pony: Friendship is Magic Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop My Little Pony The Lands of Equestria:
+    card:
+    - name: Night's Whisper
+      number: 7110
+      set: sld
     card_count: 10
     deck:
     - name: 'My Little Pony: The Lands of Equestria'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop My Little Pony The Lands of Equestria Foil:
+    card:
+    - foil: true
+      name: Night's Whisper
+      number: 7110
+      set: sld
     card_count: 10
     deck:
     - name: 'My Little Pony: The Lands of Equestria Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Mycosynthwave:
     card_count: 3
     deck:
@@ -5642,19 +5860,24 @@ products:
     other:
     - name: Bonus card unknown
   Secret Lair Drop Purr Majesty:
+    card:
+    - name: Hellish Rebuke
+      number: 7171
+      set: sld
     card_count: 5
     deck:
     - name: Purr Majesty
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Purr Majesty Foil:
+    card:
+    - foil: true
+      name: Hellish Rebuke
+      number: 7171
+      set: sld
     card_count: 5
     deck:
     - name: Purr Majesty Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Purrfection:
     card_count: 4
     deck:
@@ -5698,19 +5921,24 @@ products:
     variable_mode:
       count: 1
   Secret Lair Drop Return to Mystical Archive:
+    card:
+    - name: Return the Favor
+      number: 7080
+      set: sld
     card_count: 5
     deck:
     - name: Return to Mystical Archive
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Return to Mystical Archive Foil:
+    card:
+    - foil: true
+      name: Return the Favor
+      number: 7080
+      set: sld
     card_count: 5
     deck:
     - name: Return to Mystical Archive Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Roadshow Edition Burning Revelations Rainbow Foil:
     card_count: 5
     deck:
