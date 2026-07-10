@@ -14,7 +14,11 @@ products:
     - count: 6
       name: Marvel Super Heroes Collector Booster Box
       set: msh
-  Marvel Super Heroes Collector Booster Box Master Case: []
+  Marvel Super Heroes Collector Booster Box Master Case:
+    sealed:
+    - count: 24
+      name: Marvel Super Heroes Collector Booster Box
+      set: msh
   Marvel Super Heroes Collector Booster Pack:
     card_count: 15
     pack:
