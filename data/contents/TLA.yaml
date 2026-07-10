@@ -108,7 +108,17 @@ products:
     pack:
     - code: play
       set: tla
-  Avatar The Last Airbender Play Pack: []
+  Avatar The Last Airbender Play Pack:
+    card:
+    - foil: true
+      name: Aang, Air Nomad
+      number: 2025-25
+      set: pmei
+    card_count: 1
+    sealed:
+    - count: 3
+      name: Avatar The Last Airbender Play Booster Pack
+      set: tla
   Avatar The Last Airbender Prerelease Booster Aang:
     card_count: 14
     pack:
