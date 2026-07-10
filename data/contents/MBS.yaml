@@ -130,8 +130,16 @@ products:
     deck:
     - name: Mirrodin Besieged Foil Redemption
       set: mbs
-  Mirrodin Besieged Mirran Faction Booster Pack: []
-  Mirrodin Besieged Phyrexian Faction Booster Pack: []
+  Mirrodin Besieged Mirran Faction Booster Pack:
+    card_count: 15
+    pack:
+    - code: mirran
+      set: mbs
+  Mirrodin Besieged Phyrexian Faction Booster Pack:
+    card_count: 15
+    pack:
+    - code: phyrexian
+      set: mbs
   Mirrodin Besieged Six Card Booster Pack:
     card_count: 6
     pack:
