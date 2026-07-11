@@ -34,6 +34,16 @@ products:
     - count: 3
       name: Marvel Super Heroes Beginner Box
       set: msh
+  Marvel Super Heroes Box Set Heroes United:
+    card_count: 6
+    deck:
+    - name: Heroes United
+      set: msh
+  Marvel Super Heroes Box Set Villains Unleashed:
+    card_count: 6
+    deck:
+    - name: Villains Unleashed
+      set: msh
   Marvel Super Heroes Bundle: []
   Marvel Super Heroes Bundle Case: []
   Marvel Super Heroes Collector Booster Box:
@@ -167,7 +177,17 @@ products:
     deck:
     - name: Black Deck
       set: msh
+  Marvel Super Heroes Welcome Deck Black Deck:
+    card_count: 30
+    deck:
+    - name: Black Deck
+      set: msh
   Marvel Super Heroes Welcome Deck Blue:
+    card_count: 30
+    deck:
+    - name: Blue Deck
+      set: msh
+  Marvel Super Heroes Welcome Deck Blue Deck:
     card_count: 30
     deck:
     - name: Blue Deck
@@ -177,12 +197,27 @@ products:
     deck:
     - name: Green Deck
       set: msh
+  Marvel Super Heroes Welcome Deck Green Deck:
+    card_count: 30
+    deck:
+    - name: Green Deck
+      set: msh
   Marvel Super Heroes Welcome Deck Red:
     card_count: 30
     deck:
     - name: Red Deck
       set: msh
+  Marvel Super Heroes Welcome Deck Red Deck:
+    card_count: 30
+    deck:
+    - name: Red Deck
+      set: msh
   Marvel Super Heroes Welcome Deck White:
+    card_count: 30
+    deck:
+    - name: White Deck
+      set: msh
+  Marvel Super Heroes Welcome Deck White Deck:
     card_count: 30
     deck:
     - name: White Deck
