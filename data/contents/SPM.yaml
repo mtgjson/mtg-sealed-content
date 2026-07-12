@@ -7,10 +7,13 @@ products:
       number: 285
       set: spm
     card_count: 1
+    deck:
+    - name: Marvel's Spider-Man Foil Bundle Land Pack
+      set: spm
+    - name: Marvel's Spider-Man Bundle Land Pack
+      set: spm
     other:
     - name: Marvels Spider Man Spindown
-    - name: Marvels Spider Man Foil Bundle Land Pack
-    - name: Marvels Spider Man Bundle Land Pack
     - name: Marvels Spider Man Card Storage Box
     sealed:
     - count: 9
@@ -43,8 +46,12 @@ products:
       number: 286
       set: spm
     card_count: 1
+    deck:
+    - name: Marvel's Spider-Man Foil Bundle Land Pack
+      set: spm
+    - name: Marvel's Spider-Man Bundle Land Pack
+      set: spm
     other:
-    - name: 30 Basic Land Pack
     - name: Marvels Spider Man Spindown
     - name: Marvels Spider Man Card Storage Box
     sealed:
@@ -188,9 +195,13 @@ products:
       number: 2025-23
       set: pmei
     card_count: 1
-    other:
-    - name: 15 traditional foil basic lands
-    - name: 30 regular basic lands
+    deck:
+    - name: Marvel's Spider-Man Foil Bundle Land Pack
+      set: spm
+    - name: Marvel's Spider-Man Bundle Land Pack
+      set: spm
+    - name: Marvel's Spider-Man Bundle Land Pack
+      set: spm
     sealed:
     - count: 6
       name: Marvels Spider Man Play Booster Pack
