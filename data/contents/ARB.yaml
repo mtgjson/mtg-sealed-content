@@ -16,11 +16,13 @@ products:
     - code: draft
       set: arb
   Alara Reborn Fat Pack:
+    deck:
+    - name: "Shards of Alara Fat Pack Land Pack"
+      set: ala
     other:
     - name: Card Box
     - name: The Alara Reborn Player's Guide
     - name: Learn-to-play insert
-    - name: 40 Basic land pack
     - name: Alara Reborn Spindown
     sealed:
     - count: 8

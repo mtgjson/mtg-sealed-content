@@ -16,9 +16,11 @@ products:
     - code: draft
       set: aer
   Aether Revolt Bundle:
+    deck:
+    - name: "Kaladesh Bundle Land Pack"
+      set: kld
     other:
     - name: Aether Revolt Player's Guide
-    - name: 80 Basic Land Pack
     - name: Magic Learn-to-play Guide
     - name: Aether Revolt Spindown
     - name: 2 Deck Boxes
