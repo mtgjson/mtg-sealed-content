@@ -82,9 +82,11 @@ products:
       count: 4
       replacement: false
   2015 Core Set Fat Pack:
+    deck:
+    - name: "Magic 2015 Fat Pack Land Pack"
+      set: m15
     other:
     - name: M15 Player's Guide and Visual Encyclopedia
-    - name: M15 Fat Pack 80-card Land Bundle
     - name: Special Edition Life Counter
     - name: Two Deck Boxes
     sealed:

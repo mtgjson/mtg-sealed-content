@@ -24,9 +24,11 @@ products:
       set: ori
   Magic Origins Deck Builders Toolkit: []
   Magic Origins Fat Pack:
+    deck:
+    - name: "Magic Origins Fat Pack Land Pack"
+      set: ori
     other:
     - name: Magic Origins Player's Guide and Visual Encyclopedia
-    - name: Magic Origins 80-card Land Bundle
     - name: Special Edition Life Counter
     - name: Two Deck Boxes
     sealed:
