@@ -16,8 +16,10 @@ products:
     - code: draft
       set: fut
   Future Sight Fat Pack:
+    deck:
+    - name: "Time Spiral Fat Pack Land Pack"
+      set: tsp
     other:
-    - name: 40 Basic Land Pack
     - name: 2 Card Storage Boxes
     - name: Future Sight Spindown
     - name: Future Sight Novel
