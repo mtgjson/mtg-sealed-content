@@ -16,10 +16,12 @@ products:
     - code: draft
       set: war
   War of the Spark Bundle:
+    deck:
+    - name: War of the Spark Bundle Land Pack
+      set: war
     other:
     - name: 1 card box
     - name: "1 player\u2019s guide"
-    - name: 80-card land pack
     - name: 1 learn-to-play insert
     - name: 1 Spindown life counter
     sealed:
