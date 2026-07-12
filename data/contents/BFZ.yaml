@@ -21,10 +21,12 @@ products:
     - name: Ultimate Sacrifice
       set: bfz
   Battle for Zendikar Fat Pack:
+    deck:
+    - name: "Battle for Zendikar Fat Pack Land Pack"
+      set: bfz
     other:
     - name: Battle for Zendikar Player's Guide
     - name: Battle for Zendikar Card Box
-    - name: Battle for Zendikar Basic Land Bundle
     - name: Battle for Zendikar Premium Spindown
     sealed:
     - count: 9
