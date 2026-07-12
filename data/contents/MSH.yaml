@@ -66,8 +66,24 @@ products:
     pack:
     - code: collector
       set: msh
-  Marvel Super Heroes Draft Night: []
-  Marvel Super Heroes Draft Night Case: []
+  Marvel Super Heroes Draft Night:
+    deck:
+    - name: Marvel Super Heroes Draft Night Land Pack
+      set: msh
+    other:
+    - name: 1 Draft insert
+    sealed:
+    - count: 12
+      name: Marvel Super Heroes Play Booster Pack
+      set: msh
+    - count: 1
+      name: Marvel Super Heroes Collector Booster Pack
+      set: msh
+  Marvel Super Heroes Draft Night Case:
+    sealed:
+    - count: 6
+      name: Marvel Super Heroes Draft Night
+      set: msh
   Marvel Super Heroes Gift Bundle:
     card:
     - foil: true
