@@ -42,10 +42,11 @@ products:
       number: 394
       set: tla
     card_count: 1
+    deck:
+    - name: 'Avatar: The Last Airbender Bundle Land Pack'
+      set: tla
     other:
     - name: Avatar The Last Airbender Spindown
-    - name: Avatar The Last Airbender Foil Bundle Land Pack
-    - name: Avatar The Last Airbender Bundle Land Pack
     - name: Avatar The Last Airbender Card Storage Box
     sealed:
     - count: 9
@@ -74,11 +75,11 @@ products:
   Avatar The Last Airbender Commanders Bundle:
     card_count: 13
     deck:
+    - name: 'Avatar: The Last Airbender Bundle Land Pack'
+      set: tla
     - name: Commander's Bundle
       set: tla
     other:
-    - name: 15 Traditional Foil Land cards
-    - name: 15 Land cards
     - name: Click Wheel life counter
     - name: Card storage box
     sealed:
