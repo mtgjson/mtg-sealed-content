@@ -23,8 +23,10 @@ products:
     - name: Power
       set: frf
   Fate Reforged Fat Pack:
+    deck:
+    - name: "Fate Reforged Fat Pack Land Pack"
+      set: frf
     other:
-    - name: Fate Reforged 80-card Basic Land Bundle
     - name: Fate Reforged Special Edition Spindown
     - name: Full Art Card Box
     - name: Two Deck Boxes

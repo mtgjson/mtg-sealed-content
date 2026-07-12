@@ -47,9 +47,11 @@ products:
       name: Avacyn Restored Event Deck Humanitys Vengeance
       set: avr
   Avacyn Restored Fat Pack:
+    deck:
+    - name: "Avacyn Restored Fat Pack Land Pack"
+      set: avr
     other:
     - name: Card Box with Avacyn Restored Artwork
-    - name: Avacyn Restored 70-card Basic Land Bundle
     - name: Avacyn Restored Spindown
     - name: Avacyn Restored Players Guide
     sealed:

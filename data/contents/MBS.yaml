@@ -59,8 +59,12 @@ products:
       name: Mirrodin Besieged Faction Booster Box
       set: mbs
   Mirrodin Besieged Fat Pack:
+    deck:
+    - name: Scars of Mirrodin Fat Pack Land Pack
+      set: som
+    - name: Mirrodin Besieged Fat Pack Land Pack
+      set: mbs
     other:
-    - name: 80 basic land cards
     - name: Mirrodin Besieged spindown life counter
     - name: player's guide
     - name: learn-to-play insert
