@@ -31,7 +31,24 @@ products:
     pack:
     - code: collector
       set: thb
-  Theros Beyond Death Deck Builders Toolkit: []
+  Theros Beyond Death Deck Builders Toolkit:
+    card_count: 225
+    deck:
+    - name: Deck Builder's Toolkit
+      set: thb
+    sealed:
+    - count: 1
+      name: Theros Beyond Death Draft Booster Pack
+      set: thb
+    - count: 1
+      name: Throne of Eldraine Draft Booster Pack
+      set: eld
+    - count: 1
+      name: Core Set 2020 Booster Pack
+      set: m20
+    - count: 1
+      name: War of the Spark Booster Pack
+      set: war
   Theros Beyond Death Draft Booster Box:
     sealed:
     - count: 36

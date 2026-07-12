@@ -43,7 +43,24 @@ products:
     pack:
     - code: collector
       set: rna
-  Ravnica Allegiance Deck Builders Toolkit: []
+  Ravnica Allegiance Deck Builders Toolkit:
+    card_count: 225
+    deck:
+    - name: Deck Builder's Toolkit
+      set: rna
+    sealed:
+    - count: 1
+      name: Ravnica Allegiance Booster Pack
+      set: rna
+    - count: 1
+      name: Guilds of Ravnica Booster Pack
+      set: grn
+    - count: 1
+      name: Core Set 2019 Booster Pack
+      set: m19
+    - count: 1
+      name: Dominaria Booster Pack
+      set: dom
   Ravnica Allegiance MTGO Redemption:
     card_count: 259
     deck:
