@@ -5,8 +5,31 @@ import requests
 import yaml
 
 
-with open("outputs/deck_map.json", "rb") as f:
-    current_decks = json.load(f)
+def load_referenced_decks():
+    """Collect every (set, deck_name) already referenced by a `deck` entry in
+    any data/contents/*.yaml.
+
+    This is a live scan of the source files. It replaces an earlier check against
+    outputs/deck_map.json, which is a compiled snapshot that can lag behind
+    manually-added products: a deck already modeled under a hand-authored product
+    name (e.g. "... Welcome Deck Black" referencing the "Black Deck" decklist)
+    would then get a second stub product created for it ("... Welcome Deck Black
+    Deck") on the next run.
+    """
+    referenced = set()
+    for path in Path("data/contents").glob("*.yaml"):
+        with open(path) as f:
+            data = yaml.safe_load(f) or {}
+        for product in (data.get("products") or {}).values():
+            if not isinstance(product, dict):
+                continue
+            for entry in product.get("deck", []) or []:
+                if isinstance(entry, dict) and entry.get("name"):
+                    referenced.add((entry.get("set"), entry["name"]))
+    return referenced
+
+
+referenced_decks = load_referenced_decks()
 
 gh_request = requests.get("https://raw.githubusercontent.com/taw/magic-preconstructed-decks-data/refs/heads/master/decks_v2.json")
 
@@ -173,13 +196,11 @@ for deck in decks:
 
     set_code = deck["set_code"]
 
-    is_present = False
-    for current_deck in current_decks.get(set_code, []):
-        if current_deck == deck["name"]:
-            is_present = True
-            break
-
-    if is_present:
+    # If this decklist is already referenced by an existing contents entry, it is
+    # already modeled (often under a hand-authored product name) -- don't create a
+    # duplicate stub product for it.
+    if (set_code, deck["name"]) in referenced_decks:
+        print(f"Skipping {deck['name']} in {set_code}: deck already referenced in contents")
         continue
 
     print(f"Adding {deck['name']} to {set_code}")
