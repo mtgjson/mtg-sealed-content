@@ -16,10 +16,12 @@ products:
     - code: draft
       set: emn
   Eldritch Moon Fat Pack:
+    deck:
+    - name: "Shadows over Innistrad Fat Pack Land Pack"
+      set: soi
     other:
     - name: Eldritch Moon Player's Guide
     - name: Eldritch Moon Card Box
-    - name: Eldritch Moon 80-card Basic Land Bundle
     - name: Eldritch Moon Spindown
     sealed:
     - count: 9
