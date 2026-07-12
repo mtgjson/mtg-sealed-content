@@ -17,7 +17,65 @@ products:
     pack:
     - code: draft
       set: m14
-  2014 Core Set Deck Builders Toolkit: []
+  2014 Core Set Deck Builders Toolkit:
+    card_count: 225
+    deck:
+    - name: Fixed Content
+      set: m14
+    other:
+    - name: Magic 2014 Deck Builder's Guide
+    - name: Magic "Learn to Play" Guide
+    - name: Full-art Reusable Storage Box
+    sealed:
+    - count: 1
+      name: 2014 Core Set Booster Pack
+      set: m14
+    - count: 1
+      name: 2013 Core Set Booster Pack
+      set: m13
+    - count: 1
+      name: Return to Ravnica Booster Pack
+      set: rtr
+    - count: 1
+      name: Gatecrash Booster Pack
+      set: gtc
+    variable:
+    - deck:
+      - name: Life Gain
+        set: m14
+    - deck:
+      - name: Counterburn
+        set: m14
+    - deck:
+      - name: Slivers
+        set: m14
+    - deck:
+      - name: Sacrifice
+        set: m14
+    - deck:
+      - name: Library Depletion
+        set: m14
+    - deck:
+      - name: Red-Green Aggression
+        set: m14
+    - deck:
+      - name: Skies
+        set: m14
+    - deck:
+      - name: Tokens
+        set: m14
+    - deck:
+      - name: Red-White Swarm
+        set: m14
+    - deck:
+      - name: Mana Ramp
+        set: m14
+    - deck:
+      - name: Black Control
+        set: m14
+    variable_mode:
+      count: 4
+      replacement: false
   2014 Core Set Event Deck Rush of the Wild:
     card_count: 75
     deck:
