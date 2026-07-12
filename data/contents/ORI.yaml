@@ -22,7 +22,65 @@ products:
       set: ori
     - name: Dangerous
       set: ori
-  Magic Origins Deck Builders Toolkit: []
+  Magic Origins Deck Builders Toolkit:
+    card_count: 225
+    deck:
+    - name: Fixed Content
+      set: ori
+    other:
+    - name: Magic Origins Deck Builder's Guide
+    - name: Magic "Learn to Play" Guide
+    - name: Full-art Reusable Storage Box
+    sealed:
+    - count: 1
+      name: Journey Into Nyx Booster Pack
+      set: jou
+    - count: 1
+      name: Fate Reforged Booster Pack
+      set: frf
+    - count: 1
+      name: Dragons of Tarkir Booster Pack
+      set: dtk
+    - count: 1
+      name: Magic Origins Booster Pack
+      set: ori
+    variable:
+    - deck:
+      - name: White Black Warriors
+        set: ori
+    - deck:
+      - name: White Black Auras
+        set: ori
+    - deck:
+      - name: White Blue Prowess
+        set: ori
+    - deck:
+      - name: Blue Red Artifacts
+        set: ori
+    - deck:
+      - name: Blue Red Counterburn
+        set: ori
+    - deck:
+      - name: Green Red Beatdown
+        set: ori
+    - deck:
+      - name: Red Burn
+        set: ori
+    - deck:
+      - name: Black Green Toughness
+        set: ori
+    - deck:
+      - name: White Green Aggro
+        set: ori
+    - deck:
+      - name: Blue Black Exploit
+        set: ori
+    - deck:
+      - name: Blue Green Secret Plans Morph
+        set: ori
+    variable_mode:
+      count: 4
+      replacement: false
   Magic Origins Fat Pack:
     other:
     - name: Magic Origins Player's Guide and Visual Encyclopedia
