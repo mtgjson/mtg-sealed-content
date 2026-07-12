@@ -22,7 +22,65 @@ products:
     pack:
     - code: draft
       set: m13
-  2013 Core Set Deck Builders Toolkit: []
+  2013 Core Set Deck Builders Toolkit:
+    card_count: 225
+    deck:
+    - name: Fixed Content
+      set: m13
+    other:
+    - name: Magic 2013 Deck Builder's Guide
+    - name: Magic "Learn to Play" Guide
+    - name: Full-art Reusable Storage Box
+    sealed:
+    - count: 1
+      name: 2013 Core Set Booster Pack
+      set: m13
+    - count: 1
+      name: Innistrad Booster Pack
+      set: isd
+    - count: 1
+      name: Dark Ascension Booster Pack
+      set: dka
+    - count: 1
+      name: Avacyn Restored Booster Pack
+      set: avr
+    variable:
+    - deck:
+      - name: Blue Black Evasion
+        set: m13
+    - deck:
+      - name: Humans
+        set: m13
+    - deck:
+      - name: Library Depletion
+        set: m13
+    - deck:
+      - name: Tokens
+        set: m13
+    - deck:
+      - name: Midrange Green
+        set: m13
+    - deck:
+      - name: Exalted
+        set: m13
+    - deck:
+      - name: Spirits
+        set: m13
+    - deck:
+      - name: Angels
+        set: m13
+    - deck:
+      - name: Vampires
+        set: m13
+    - deck:
+      - name: Zombies
+        set: m13
+    - deck:
+      - name: Red Burn
+        set: m13
+    variable_mode:
+      count: 4
+      replacement: false
   2013 Core Set Event Deck Display:
     sealed:
     - count: 3
