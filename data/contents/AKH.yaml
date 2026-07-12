@@ -41,8 +41,10 @@ products:
     - code: draft
       set: akh
   Amonkhet Bundle:
+    deck:
+    - name: "Amonkhet Bundle Land Pack"
+      set: akh
     other:
-    - name: Amonkhet 80-card Basic Land Bundle
     - name: 20 Double-sided Tokens
     - name: Amonkhet Reusable Card Storage Box
     - name: Amonkhet Bundle Spindown
