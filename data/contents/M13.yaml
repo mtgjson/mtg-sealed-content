@@ -108,10 +108,12 @@ products:
       name: 2013 Core Set Event Deck Sweet Revenge
       set: m13
   2013 Core Set Fat Pack:
+    deck:
+    - name: "Magic 2013 Fat Pack Land Pack"
+      set: m13
     other:
     - name: Magic 2013 Player's Guide
     - name: Magic 2013 Card Box
-    - name: 80-card basic land pack
     - name: Special edition spindown life counter
     - name: Two deck boxes
     sealed:
