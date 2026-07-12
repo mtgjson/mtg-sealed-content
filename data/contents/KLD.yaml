@@ -16,10 +16,12 @@ products:
     - code: draft
       set: kld
   Kaladesh Bundle:
+    deck:
+    - name: Kaladesh Bundle Land Pack
+      set: kld
     other:
     - name: Card Storage Box
     - name: Player's Guide and Visual Encyclopaedia
-    - name: Kaladesh 80-card Basic Land Bundle
     - name: Magic Learn-to-Play Guide
     - name: Kaladesh Bundle Spindown
     sealed:
@@ -88,8 +90,10 @@ products:
       name: Chief of the Foundry
       number: 200
       set: pkld
+    deck:
+    - name: Kaladesh Gift Box Land Pack
+      set: kld
     other:
-    - name: Kaladesh 20-card Basic Land Bundle
     - name: Card Storage Box
     - name: Six Illustrated Plastic Dividers
     - name: Kaladesh Sticker Sheet
