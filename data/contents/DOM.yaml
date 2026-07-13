@@ -1,6 +1,30 @@
 code: dom
 products:
-  Dominaria Booster Battle Pack: []
+  Dominaria Booster Battle Pack:
+    card_count: 60
+    sealed:
+    - count: 2
+      name: Dominaria Booster Pack
+      set: dom
+    variable:
+    - deck:
+      - name: Amonkhet Welcome Deck - White
+        set: w17
+    - deck:
+      - name: Amonkhet Welcome Deck - Blue
+        set: w17
+    - deck:
+      - name: Amonkhet Welcome Deck - Black
+        set: w17
+    - deck:
+      - name: Amonkhet Welcome Deck - Red
+        set: w17
+    - deck:
+      - name: Amonkhet Welcome Deck - Green
+        set: w17
+    variable_mode:
+      count: 2
+      replacement: false
   Dominaria Booster Box:
     sealed:
     - count: 36
