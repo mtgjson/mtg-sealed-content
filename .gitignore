@@ -10,3 +10,5 @@ pyvenv.cfg
 caches/
 .DS_Store
 .claude/
+# daily workflow: source checkout used to build the decklist JSON
+/preconstructed-decks/
