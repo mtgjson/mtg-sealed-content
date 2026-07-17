@@ -205,6 +205,11 @@ cardMarket:
     release_date: '2026-05-04'
     subtype: UNKNOWN
 cardTrader:
+  'Chaos Vault: Back in My Day!':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '401088'
+    subtype: UNKNOWN
   Reality Fracture Collector Booster:
     category: UNKNOWN
     identifiers:
@@ -254,6 +259,11 @@ cardTrader:
     category: UNKNOWN
     identifiers:
       cardtraderId: '400478'
+    subtype: UNKNOWN
+  'Secret Lair x Brain Dead: New Earth Mentality':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '401089'
     subtype: UNKNOWN
   Star Trek Beam Me Up:
     category: UNKNOWN
@@ -357,12 +367,7 @@ hareruya:
     identifiers:
       hareruyaId: '195033'
     subtype: UNKNOWN
-miniaturemarket:
-  'MTG: The Hobbit - Gift Bundle (Preorder)':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: 019df9af70417396827bd98faa48bd6c
-    subtype: UNKNOWN
+miniaturemarket: {}
 starcitygames: {}
 tcgplayer:
   Reality Fracture Bundle:
