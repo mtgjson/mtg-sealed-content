@@ -2205,6 +2205,7 @@ products:
   Secret Lair Drop Back in My Day!:
     category: BOX_SET
     identifiers:
+      cardtraderId: '401088'
       mcmId: '893951'
       tcgplayerProductId: '694704'
     release_date: '2026-05-29'
@@ -2271,6 +2272,7 @@ products:
     category: BOX_SET
     identifiers:
       cardKingdomId: '324500'
+      cardtraderId: '401089'
       hareruyaId: '189917'
       mcmId: '886804'
       tcgplayerProductId: '680611'
@@ -3398,12 +3400,14 @@ products:
   Secret Lair Drop Felix the Cat Magic Bag of Tricks:
     category: BOX_SET
     identifiers:
+      hareruyaId: '195032'
       mcmId: '891444'
     release_date: '2026-06-16'
     subtype: SECRET_LAIR
   Secret Lair Drop Felix the Cat Magic Bag of Tricks Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      hareruyaId: '195028'
     release_date: '2026-06-16'
     subtype: SECRET_LAIR
   Secret Lair Drop Finally Left Handed Magic Cards:
@@ -3546,36 +3550,42 @@ products:
     category: BOX_SET
     identifiers:
       cardtraderId: '392536'
+      hareruyaId: '195030'
       mcmId: '889124'
     release_date: '2026-06-16'
     subtype: SECRET_LAIR
   Secret Lair Drop Garfield As Intended Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      hareruyaId: '195026'
     release_date: '2026-06-16'
     subtype: SECRET_LAIR
   Secret Lair Drop Garfield Motivationally Challenged:
     category: BOX_SET
     identifiers:
       cardtraderId: '392534'
+      hareruyaId: '195029'
       mcmId: '889123'
     release_date: '2026-06-16'
     subtype: SECRET_LAIR
   Secret Lair Drop Garfield Motivationally Challenged Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      hareruyaId: '195025'
     release_date: '2026-06-16'
     subtype: SECRET_LAIR
   Secret Lair Drop Garfield Our Only Thought is to Entertain You:
     category: BOX_SET
     identifiers:
       cardtraderId: '392538'
+      hareruyaId: '195031'
       mcmId: '889125'
     release_date: '2026-06-16'
     subtype: SECRET_LAIR
   Secret Lair Drop Garfield Our Only Thought is to Entertain You Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      hareruyaId: '195027'
     release_date: '2026-06-16'
     subtype: SECRET_LAIR
   Secret Lair Drop Ghost of Tsushima:
@@ -4256,7 +4266,8 @@ products:
     subtype: SECRET_LAIR
   Secret Lair Drop Marvel Spinner Rack Specials:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      mcmId: '894152'
     release_date: '2026-07-21'
     subtype: SECRET_LAIR
   Secret Lair Drop Marvel Spinner Rack Specials Foil:
@@ -7957,6 +7968,7 @@ products:
   Secret Lair Drop Viva Las Rakdos:
     category: BOX_SET
     identifiers:
+      cardtraderId: '400478'
       tcgplayerProductId: '689836'
     release_date: '2025-05-13'
     subtype: SECRET_LAIR
