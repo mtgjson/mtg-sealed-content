@@ -26,7 +26,29 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      # Build the decklist JSON straight from the magic-preconstructed-decks
+      # source so decks added today are available today, rather than waiting for
+      # the separately-scheduled magic-preconstructed-decks-data export.
+      - name: checkout preconstructed decklists source
+        uses: actions/checkout@v4
+        with:
+          repository: taw/magic-preconstructed-decks
+          path: preconstructed-decks
+
+      - name: setup ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+          working-directory: preconstructed-decks
+
+      - name: build decklist json from source
+        working-directory: preconstructed-decks
+        run: bundle exec ruby bin/build_jsons "$RUNNER_TEMP/decks.json"
+
       - name: execute import of new deck
+        env:
+          DECKS_JSON: ${{ runner.temp }}/decks.json
         run: python scripts/import_new_decks.py
 
       - name: execute new products
