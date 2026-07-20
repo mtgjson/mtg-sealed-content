@@ -1,5 +1,10 @@
 code: hob
 products:
+  The Hobbit Box Topper Pack:
+    card_count: 1
+    pack:
+    - code: box-topper
+      set: hob
   The Hobbit Bundle:
     card_count: 1
     deck:
@@ -30,14 +35,32 @@ products:
     - count: 6
       name: The Hobbit Collector Booster Box
       set: hob
-  The Hobbit Collector Booster Box Master Case: []
+  The Hobbit Collector Booster Box Master Case:
+    sealed:
+    - count: 4
+      name: The Hobbit Collector Booster Box Case
+      set: hob
   The Hobbit Collector Booster Pack:
     card_count: 15
     pack:
     - code: collector
       set: hob
-  The Hobbit Draft Night: []
-  The Hobbit Draft Night Case: []
+  The Hobbit Draft Night:
+    other:
+    - name: 90 Non-foil basic lands
+    - name: 1 Draft insert
+    sealed:
+    - count: 12
+      name: The Hobbit Play Booster Pack
+      set: hob
+    - count: 1
+      name: The Hobbit Collector Booster Pack
+      set: hob
+  The Hobbit Draft Night Case:
+    sealed:
+    - count: 6
+      name: The Hobbit Draft Night
+      set: hob
   The Hobbit Gift Bundle:
     card_count: 1
     deck:
@@ -93,7 +116,14 @@ products:
     - count: 6
       name: The Hobbit Play Booster Pack
       set: hob
-  The Hobbit Scene Box Case: []
+  The Hobbit Scene Box Case:
+    sealed:
+    - count: 2
+      name: The Hobbit Scene Box Crack the Plates
+      set: hob
+    - count: 2
+      name: The Hobbit Scene Box Treasures of Smaug
+      set: hob
   The Hobbit Scene Box Crack the Plates:
     card_count: 6
     other:
@@ -101,6 +131,14 @@ products:
     sealed:
     - count: 3
       name: The Hobbit Play Booster Pack
+      set: hob
+  The Hobbit Scene Box Set of 2:
+    sealed:
+    - count: 1
+      name: The Hobbit Scene Box Crack the Plates
+      set: hob
+    - count: 1
+      name: The Hobbit Scene Box Treasures of Smaug
       set: hob
   The Hobbit Scene Box Treasures of Smaug:
     card_count: 6

@@ -1,5 +1,12 @@
 code: hob
 products:
+  The Hobbit Box Topper Pack:
+    category: BOOSTER_PACK
+    identifiers:
+      cardtraderId: '389312'
+      mcmId: '885578'
+    release_date: '2026-08-14'
+    subtype: TOPPER
   The Hobbit Bundle:
     category: BUNDLE
     identifiers:
@@ -143,6 +150,12 @@ products:
       miniaturemarketId: 019df9af86297390868617f201e01fd8
       scgId: SLD-MTG-BXS-HOBSCENE-CRACK
       tcgplayerProductId: '692968'
+    release_date: '2026-08-14'
+    subtype: OTHER
+  The Hobbit Scene Box Set of 2:
+    category: SUBSET
+    identifiers:
+      cardKingdomId: '330110'
     release_date: '2026-08-14'
     subtype: OTHER
   The Hobbit Scene Box Treasures of Smaug:
