@@ -73,15 +73,15 @@ products:
     - code: collector
       set: tla
   Avatar The Last Airbender Commanders Bundle:
-    card_count: 13
     deck:
     - name: 'Avatar: The Last Airbender Bundle Land Pack'
-      set: tla
-    - name: Commander's Bundle
       set: tla
     other:
     - name: Click Wheel life counter
     - name: Card storage box
+    pack:
+    - code: commander-bundle
+      set: tla
     sealed:
     - count: 9
       name: Avatar The Last Airbender Play Booster Pack
