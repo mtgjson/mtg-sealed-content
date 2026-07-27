@@ -73,11 +73,19 @@ products:
     - code: collector
       set: tla
   Avatar The Last Airbender Commanders Bundle:
-    card_count: 13
+    card:
+    - name: Arcane Signet
+      number: 315
+      set: tle
+    - name: Sol Ring
+      number: 316
+      set: tle
+    - name: Swiftfoot Boots
+      number: 317
+      set: tle
+    card_count: 5
     deck:
     - name: 'Avatar: The Last Airbender Bundle Land Pack'
-      set: tla
-    - name: Commander's Bundle
       set: tla
     other:
     - name: Click Wheel life counter
@@ -89,6 +97,50 @@ products:
     - count: 1
       name: Avatar The Last Airbender Collector Booster Pack
       set: tla
+    variable:
+    - card:
+      - name: Enlightened Tutor
+        number: 305
+        set: tle
+    - card:
+      - name: Flawless Maneuver
+        number: 306
+        set: tle
+    - card:
+      - name: Fierce Guardianship
+        number: 307
+        set: tle
+    - card:
+      - name: Mystical Tutor
+        number: 308
+        set: tle
+    - card:
+      - name: Deadly Rollick
+        number: 309
+        set: tle
+    - card:
+      - name: Entomb
+        number: 310
+        set: tle
+    - card:
+      - name: Deflecting Swat
+        number: 311
+        set: tle
+    - card:
+      - name: Gamble
+        number: 312
+        set: tle
+    - card:
+      - name: Obscuring Haze
+        number: 313
+        set: tle
+    - card:
+      - name: Worldly Tutor
+        number: 314
+        set: tle
+    variable_mode:
+      count: 2
+      replacement: false
   Avatar The Last Airbender Commanders Bundle Case:
     sealed:
     - count: 6
