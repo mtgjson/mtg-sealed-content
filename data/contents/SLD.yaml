@@ -11353,7 +11353,30 @@ products:
         set: sld
     variable_mode:
       count: 1
-  Secret Lair Festival in a Box Amsterdam 2026 Bundle: {}
+  Secret Lair Festival in a Box Amsterdam 2026 Bundle:
+    card:
+    - foil: true
+      name: Llanowar Elves
+      number: 8
+      set: pf26
+    - foil: true
+      name: Utopia Sprawl
+      number: 9
+      set: pf26
+    - foil: true
+      name: Atraxa, Praetors' Voice
+      number: 10
+      set: pf26
+    - name: Bicycle Elemental
+      number: 11
+      set: pf26
+    sealed:
+    - count: 1
+      name: Mystery Booster 2 Booster Box
+      set: mb2
+    - count: 1
+      name: Secret Lair Drop Wild in Bloom
+      set: sld
   Secret Lair Festival in a Box Atlanta 2025 Bundle:
     card:
     - foil: true
