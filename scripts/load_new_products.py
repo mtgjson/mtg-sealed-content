@@ -75,7 +75,7 @@ def get_tcgplayer(api_version, auth_code):
     while True:
         api_response = tcgdownload(
             "https://api.tcgplayer.com/[API_VERSION]/catalog/categories/1/groups",
-            {"offset": str(api_offset)},
+            {"offset": str(api_offset), "limit": 100},
             api_version,
             auth_code,
         )
