@@ -380,6 +380,22 @@ while index < len(review_products):
         with target_path.open("w") as product_file:
             yaml.dump(content, product_file)
 
+        # Mirror the new product into the contents file as an empty placeholder,
+        # so it is tracked there too (its contents get filled in separately).
+        contents_path = Path(f"data/contents/{set_code}.yaml")
+        if contents_path.exists():
+            with open(contents_path, "r") as f:
+                contents_data = yaml.safe_load(f) or {}
+            contents_data.setdefault("code", set_code.lower())
+            contents_data.setdefault("products", {})
+        else:
+            contents_data = {"code": set_code.lower(), "products": {}}
+
+        contents_data["products"].setdefault(product_name, {})
+
+        with contents_path.open("w") as contents_file:
+            yaml.dump(contents_data, contents_file)
+
         remove_from_review(product)
         known_products.append((product_name, target_path))
         print("Product added, don't forget to review and update default fields")
