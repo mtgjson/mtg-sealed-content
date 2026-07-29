@@ -2347,6 +2347,7 @@ products:
     category: BOX_SET
     identifiers:
       cardKingdomId: '330079'
+      cardtraderId: '403119'
       mcmId: '893957'
     release_date: '2026-06-16'
     subtype: SECRET_LAIR
@@ -3400,6 +3401,7 @@ products:
   Secret Lair Drop Felix the Cat Magic Bag of Tricks:
     category: BOX_SET
     identifiers:
+      cardtraderId: '403121'
       hareruyaId: '195032'
       mcmId: '891444'
     release_date: '2026-06-16'
@@ -4267,6 +4269,7 @@ products:
   Secret Lair Drop Marvel Spinner Rack Specials:
     category: BOX_SET
     identifiers:
+      cardtraderId: '403118'
       mcmId: '894152'
     release_date: '2026-07-21'
     subtype: SECRET_LAIR
@@ -5111,6 +5114,11 @@ products:
     identifiers: {}
     release_date: '2026-01-26'
     subtype: SECRET_LAIR
+  Secret Lair Drop Secret Lair Promo x Garfield Lasagna Food Token:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '403122'
+    subtype: UNKNOWN
   Secret Lair Drop Secret Lair Promo x Twisted Metal Sol Ring:
     category: BOX_SET
     identifiers:
@@ -7647,7 +7655,9 @@ products:
     subtype: SECRET_LAIR
   Secret Lair Drop Their Magic is Limitless:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardtraderId: '403115'
+      mcmId: '898294'
     release_date: '2026-07-22'
     subtype: SECRET_LAIR
   Secret Lair Drop Their Magic is Limitless Foil:
@@ -7773,6 +7783,7 @@ products:
     category: BOX_SET
     identifiers:
       cardKingdomId: '330091'
+      cardtraderId: '403120'
       mcmId: '891445'
     release_date: '2026-06-16'
     subtype: SECRET_LAIR
