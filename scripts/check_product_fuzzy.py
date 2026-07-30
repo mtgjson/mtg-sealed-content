@@ -264,7 +264,8 @@ while index < len(review_products):
     print(f"Finding similar products for {product[0]} {product[1]}")
     known_products.sort(key=lambda x: fuzz.token_sort_ratio(x[0], product[0]), reverse=True)
     for i in range(5):
-        print(f"  {i} - {known_products[i + offset][0]}")
+        name, code_path = known_products[i + offset]
+        print(f"  {i} - [{code_path.stem}] {name}")
 
     try:
         product_check = read_input("Select action ('h' for help): ")
