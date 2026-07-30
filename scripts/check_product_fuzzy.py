@@ -351,6 +351,20 @@ while index < len(review_products):
             index -= 1
             continue
 
+        # Warn before creating a brand-new set: usually this means the code was
+        # mistyped rather than that a genuinely new set is being introduced.
+        if not Path(f"data/products/{set_code}.yaml").exists():
+            try:
+                confirm = read_input(
+                    f"WARNING: no data/products/{set_code}.yaml exists yet -- this creates a NEW set code. Continue? [y/N] "
+                ).strip().lower()
+            except EOFError:
+                sys.exit(1)
+            if confirm != "y":
+                print("Aborting create.")
+                index -= 1
+                continue
+
         try:
             product_name = read_input(f"Insert the product name or press Enter to use the loaded one: ").strip()
             if product_name == "":
