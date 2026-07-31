@@ -377,7 +377,8 @@ def main(args: argparse.Namespace):
     card_to_products_data = MtgjsonCardLinker(args.mtgjson).build(args.set, args.debug)
 
     if not card_to_products_data:
-        raise RuntimeError("Build produced no card-to-product mappings; refusing to write empty output")
+        print("Build produced no card-to-product mappings; skipping write to avoid clobbering existing output")
+        return
 
     with pathlib.Path(args.output_file).expanduser().open("w", encoding="utf-8") as fp:
         json.dump(results_to_json(card_to_products_data), fp, indent=4, sort_keys=True)
