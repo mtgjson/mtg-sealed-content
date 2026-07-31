@@ -12,12 +12,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo content
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           lfs: true
 
       - name: setup python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.10"
 
@@ -66,7 +66,7 @@ jobs:
           echo "card_map.json has $KEYS entries"
 
       - name: commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: Pull new daily content
           push_options: --force
