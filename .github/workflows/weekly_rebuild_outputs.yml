@@ -20,6 +20,7 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: "3.10"
+          cache: "pip"
 
       - name: install python packages
         run: |
@@ -28,6 +29,20 @@ jobs:
 
       - name: execute gatherer original printing generator
         run: python scripts/gatherer_original_printing_details_generator.py
+
+      - name: validate gatherer_mapping is populated
+        run: |
+          FILE=outputs/gatherer_mapping.json
+          if [ ! -s "$FILE" ]; then
+            echo "ERROR: $FILE is empty or missing"
+            exit 1
+          fi
+          KEYS=$(python -c "import json; print(len(json.load(open('$FILE'))))")
+          if [ "$KEYS" -lt 50000 ]; then
+            echo "ERROR: $FILE has only $KEYS entries (expected >= 50000); refusing to commit a degraded scrape"
+            exit 1
+          fi
+          echo "$FILE has $KEYS entries"
 
       - name: commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v7
