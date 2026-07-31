@@ -1,4 +1,4 @@
-name: Daily Rebuild Outputs
+name: Twice-Daily Rebuild Outputs
 on:
   schedule:
     - cron: 0 */12 * * *
@@ -20,6 +20,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.10"
+          cache: "pip"
 
       - name: install python packages
         run: |
@@ -39,7 +40,7 @@ jobs:
 
       - name: execute contents compiler
         run: python scripts/product_contents_compiler.py
-        
+
       - name: execute manual products compiler
         run: python scripts/new_products_compiler.py
 
@@ -66,7 +67,7 @@ jobs:
           echo "card_map.json has $KEYS entries"
 
       - name: commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: Pull new daily content
           push_options: --force

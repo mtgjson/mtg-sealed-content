@@ -20,6 +20,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.10"
+          cache: "pip"
 
       - name: install python packages
         run: |
@@ -30,7 +31,7 @@ jobs:
         run: python scripts/gatherer_original_printing_details_generator.py
 
       - name: commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           file_pattern: 'outputs/*.json'
           commit_message: Pull new weekly content
