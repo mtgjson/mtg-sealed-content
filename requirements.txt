@@ -2,12 +2,12 @@ unidecode~=1.4.0
 tqdm~=4.66.1
 ijson~=3.2.3
 pyyaml~=6.0.1
-pathlib~=1.0.1
-requests>=2.33.0
+# requests 2.34+ breaks requests_cache 1.2.1's cattrs serializer
+# (NameError: RequestsCookieJar); keep below 2.34 until requests_cache updates.
+requests>=2.33.0,<2.34
 requests_cache~=1.2.1
 beautifulsoup4~=4.12.2
 urllib3>=2.7.0
 ratelimit~=2.2.1
 mkmsdk==0.6.0
-beautifulsoup4
 thefuzz
