@@ -1,5 +1,6 @@
 import argparse
 import json
+import lzma
 import os
 import pathlib
 from collections import defaultdict
@@ -33,6 +34,9 @@ class MtgjsonCardLinker:
             with open(mtgjson_path) as f:
                 self.mtgjson_data = json.load(f).get("data")
         else:
+            # Prefer the .xz build: ~92 MB vs ~622 MB for the raw .json, so the
+            # download is several times faster and stdlib lzma handles it.
+            #
             # NOTE (2026-07-31): the live v5 build (5.3.0+20260731) temporarily
             # dropped `sealedProduct` and `decks` from AllPrintings, which this
             # mapper requires. Fall back to the v5_backup snapshot (last good:
@@ -40,13 +44,17 @@ class MtgjsonCardLinker:
             # the v5 URL to revert once upstream is restored.
             _all_printings_url = os.environ.get(
                 "MTGJSON_ALLPRINTINGS_URL",
-                "https://mtgjson.com/api/v5_backup/AllPrintings.json",
+                "https://mtgjson.com/api/v5_backup/AllPrintings.json.xz",
             )
             print(f"Downloading latest AllPrintings.json from {_all_printings_url}")
             request_wrapper = requests.get(_all_printings_url)
             request_wrapper.raise_for_status()
 
-            self.mtgjson_data = json.loads(request_wrapper.content).get("data")
+            content = request_wrapper.content
+            if _all_printings_url.endswith(".xz"):
+                content = lzma.decompress(content)
+
+            self.mtgjson_data = json.loads(content).get("data")
 
         if not self.mtgjson_data:
             raise RuntimeError("AllPrintings data is empty or missing 'data' key")
