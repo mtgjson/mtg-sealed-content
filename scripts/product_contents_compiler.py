@@ -20,7 +20,7 @@ def build_uuid_map(mtgjson_path):
             f = open(mtgjson_path, 'rb')
             parser = ijson.parse(f)
         else:
-            print("⚙️  donwloading AllPrintings.json")
+            print("⚙️  downloading AllPrintings.json")
             url = "https://mtgjson.com/api/v5/AllPrintings.json"
             r = requests.get(url, stream=True)
             parser = ijson.parse(r.content)
