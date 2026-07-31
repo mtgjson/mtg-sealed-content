@@ -117,6 +117,8 @@ def deck_links(all_products):
 
 def main(args: argparse.Namespace):
     uuid_map = build_uuid_map(args.mtgjson)
+    if not uuid_map:
+        raise SystemExit("Aborting: AllPrintings could not be loaded")
     products_contents = {}
     status_file = Path("status.txt")
     with open(status_file, "w") as f:
