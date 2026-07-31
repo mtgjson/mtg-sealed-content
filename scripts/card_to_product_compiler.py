@@ -1,5 +1,7 @@
 import argparse
 import json
+import lzma
+import os
 import pathlib
 from collections import defaultdict
 from typing import Any, Dict, Set, List
@@ -26,21 +28,60 @@ class Card:
 class MtgjsonCardLinker:
     mtgjson_data: Dict[str, Any]
 
+    # We grab the .xz build (~92 MB vs ~622 MB raw) and decompress with stdlib
+    # lzma. Try the live v5 feed first, then fall back to the v5_backup snapshot
+    # if it's unreachable or missing the sealed/deck data this mapper needs (as
+    # happened with the 5.3.0+20260731 build). Both are overridable via env.
+    PRIMARY_URL = os.environ.get(
+        "MTGJSON_ALLPRINTINGS_URL",
+        "https://mtgjson.com/api/v5/AllPrintings.json.xz",
+    )
+    BACKUP_URL = os.environ.get(
+        "MTGJSON_ALLPRINTINGS_BACKUP_URL",
+        "https://mtgjson.com/api/v5_backup/AllPrintings.json.xz",
+    )
+
     def __init__(self, mtgjson_path: str):
         if mtgjson_path:
             print("Loading local AllPrintings.json")
             with open(mtgjson_path) as f:
                 self.mtgjson_data = json.load(f).get("data")
         else:
-            print("Downloading latest AllPrintings.json")
-            _all_printings_url = "https://mtgjson.com/api/v5/AllPrintings.json"
-            request_wrapper = requests.get(_all_printings_url)
-            request_wrapper.raise_for_status()
-
-            self.mtgjson_data = json.loads(request_wrapper.content).get("data")
+            self.mtgjson_data = self._download_mtgjson_data()
 
         if not self.mtgjson_data:
             raise RuntimeError("AllPrintings data is empty or missing 'data' key")
+
+    def _download_mtgjson_data(self) -> Dict[str, Any]:
+        try:
+            data = self._fetch_all_printings(self.PRIMARY_URL)
+            if self._has_required_data(data):
+                return data
+            print("Live AllPrintings is missing sealed/deck data, using backup")
+        except requests.RequestException as exc:
+            print(f"Failed to download live AllPrintings ({exc}), using backup")
+
+        return self._fetch_all_printings(self.BACKUP_URL)
+
+    @staticmethod
+    def _fetch_all_printings(url: str) -> Dict[str, Any]:
+        print(f"Downloading AllPrintings from {url}")
+        request_wrapper = requests.get(url)
+        request_wrapper.raise_for_status()
+
+        content = request_wrapper.content
+        if url.endswith(".xz"):
+            content = lzma.decompress(content)
+
+        return json.loads(content).get("data")
+
+    @staticmethod
+    def _has_required_data(data: Dict[str, Any]) -> bool:
+        if not data:
+            return False
+        has_sealed = any(s.get("sealedProduct") for s in data.values())
+        has_decks = any(s.get("decks") for s in data.values())
+        return has_sealed and has_decks
 
     def build(self, code: str, debug: bool) -> Dict[Card, Set[str]]:
         return_value = defaultdict(set)
