@@ -1,5 +1,6 @@
 import argparse
 import json
+import os
 import pathlib
 from collections import defaultdict
 from typing import Any, Dict, Set, List
@@ -32,8 +33,16 @@ class MtgjsonCardLinker:
             with open(mtgjson_path) as f:
                 self.mtgjson_data = json.load(f).get("data")
         else:
-            print("Downloading latest AllPrintings.json")
-            _all_printings_url = "https://mtgjson.com/api/v5/AllPrintings.json"
+            # NOTE (2026-07-31): the live v5 build (5.3.0+20260731) temporarily
+            # dropped `sealedProduct` and `decks` from AllPrintings, which this
+            # mapper requires. Fall back to the v5_backup snapshot (last good:
+            # 2026-07-30) until the live feed is fixed. Set the env var below to
+            # the v5 URL to revert once upstream is restored.
+            _all_printings_url = os.environ.get(
+                "MTGJSON_ALLPRINTINGS_URL",
+                "https://mtgjson.com/api/v5_backup/AllPrintings.json",
+            )
+            print(f"Downloading latest AllPrintings.json from {_all_printings_url}")
             request_wrapper = requests.get(_all_printings_url)
             request_wrapper.raise_for_status()
 
