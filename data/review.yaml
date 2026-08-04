@@ -364,11 +364,6 @@ cardTrader:
 coolstuffinc: {}
 hareruya: {}
 miniaturemarket:
-  'MTG: Reality Fracture - Commander Deck - Multiverse Reforged (Preorder)':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: 019df9afdcf2712c9d6f86125db62fa3
-    subtype: UNKNOWN
   'MTG: Reality Fracture - Play Booster Pack (Preorder)':
     category: UNKNOWN
     identifiers:
@@ -476,6 +471,24 @@ tcgplayer:
     identifiers:
       tcgplayerProductId: '684659'
     subtype: UNKNOWN
+  Mystery Booster Commander Edition Booster Display:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '709724'
+    release_date: '2026-10-01'
+    subtype: UNKNOWN
+  Mystery Booster Commander Edition Booster Display Case:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '709726'
+    release_date: '2026-10-01'
+    subtype: UNKNOWN
+  Mystery Booster Commander Edition Booster Pack:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '709720'
+    release_date: '2026-10-01'
+    subtype: UNKNOWN
   Reality Fracture Bundle:
     category: UNKNOWN
     identifiers:
@@ -559,6 +572,16 @@ tcgplayer:
     identifiers:
       tcgplayerProductId: '692977'
     release_date: '2026-09-25'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x Global Fund for Women Their Magic is Limitless Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '704918'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x Global Fund for Women Their Magic is Limitless Traditional Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '704919'
     subtype: UNKNOWN
   Secret Lair Drop Secret Lair x Stardew Valley A Flicker in the Deep Non Foil Edition:
     category: UNKNOWN
