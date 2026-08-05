@@ -4311,6 +4311,7 @@ products:
   Secret Lair Drop Marvels Deadpool I Fixed It (Youre Welcome) Pool Party Dazzle Foil:
     category: UNKNOWN
     identifiers:
+      cardKingdomId: '325639'
       cardtraderId: '381508'
       hareruyaId: '189910'
       mcmId: '882899'
@@ -4509,6 +4510,7 @@ products:
   Secret Lair Drop My Little Pony The Lands of Equestria Foil:
     category: BOX_SET
     identifiers:
+      cardKingdomId: '326855'
       tcgplayerProductId: '691184'
     release_date: '2026-05-12'
     subtype: SECRET_LAIR
@@ -7153,32 +7155,42 @@ products:
     subtype: SECRET_LAIR
   Secret Lair Drop Stardew Valley A Flicker in the Deep:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      mcmId: '899769'
+      tcgplayerProductId: '707168'
     release_date: '2026-08-03'
     subtype: SECRET_LAIR
   Secret Lair Drop Stardew Valley A Flicker in the Deep Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '707169'
     release_date: '2026-08-03'
     subtype: SECRET_LAIR
   Secret Lair Drop Stardew Valley Life in Pelican Town:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      mcmId: '899770'
+      tcgplayerProductId: '707165'
     release_date: '2026-08-03'
     subtype: SECRET_LAIR
   Secret Lair Drop Stardew Valley Life in Pelican Town Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '707167'
     release_date: '2026-08-03'
     subtype: SECRET_LAIR
   Secret Lair Drop Stardew Valley Welcome to Stardew Valley:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardtraderId: '403116'
+      mcmId: '899771'
+      tcgplayerProductId: '707163'
     release_date: '2026-08-03'
     subtype: SECRET_LAIR
   Secret Lair Drop Stardew Valley Welcome to Stardew Valley Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '707164'
     release_date: '2026-08-03'
     subtype: SECRET_LAIR
   Secret Lair Drop Tales of the Time Stoppers:
@@ -7211,6 +7223,7 @@ products:
   Secret Lair Drop Teenage Mutant Ninja Turtles The Last Ronin Foil:
     category: BOX_SET
     identifiers:
+      cardKingdomId: '324582'
       hareruyaId: '189905'
       tcgplayerProductId: '680227'
     release_date: '2026-03-03'
@@ -7714,11 +7727,13 @@ products:
     identifiers:
       cardtraderId: '403115'
       mcmId: '898294'
+      tcgplayerProductId: '704918'
     release_date: '2026-07-22'
     subtype: SECRET_LAIR
   Secret Lair Drop Their Magic is Limitless Foil:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '704919'
     release_date: '2026-07-22'
     subtype: SECRET_LAIR
   Secret Lair Drop Theros Stargazing Vol I Heliod:
@@ -8106,7 +8121,10 @@ products:
     subtype: SECRET_LAIR
   Secret Lair Drop Wild in Bloom:
     category: BOX_SET
-    identifiers: {}
+    identifiers:
+      cardtraderId: '403117'
+      mcmId: '895925'
+      tcgplayerProductId: '703903'
     release_date: '2026-07-13'
     subtype: SECRET_LAIR
   Secret Lair Drop Witchs Familiar:
