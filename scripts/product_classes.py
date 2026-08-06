@@ -23,8 +23,16 @@ class card:
 
     def get_uuids(self, uuid_map):
         try:
-            self.uuid = uuid_map[self.set.lower()]["cards"][str(self.number)][0]
-            if self.name not in uuid_map[self.set.lower()]["cards"][str(self.number)][1]:
+            set_map = uuid_map[self.set.lower()]
+            number = str(self.number)
+            # Tokens (e.g. SLD 918 "Food") live in a separate map, so fall back
+            # to it when the number isn't among the regular cards.
+            if number in set_map["cards"]:
+                entry = set_map["cards"][number]
+            else:
+                entry = set_map["tokens"][number]
+            self.uuid = entry[0]
+            if self.name not in entry[1]:
                 raise ValueError("name and number do not match", self.name, self.name)
         except KeyError:
             with open("status.txt", "a") as f:

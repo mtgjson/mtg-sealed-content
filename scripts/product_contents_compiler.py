@@ -46,6 +46,7 @@ def build_uuid_map(mtgjson_path):
                 "decks": set(),
                 "sealedProduct": {},
                 "cards": {},
+                "tokens": {},
             }
             status = ""
         elif prefix == f"data.{current_set}" and event == "map_key":
@@ -92,6 +93,27 @@ def build_uuid_map(mtgjson_path):
             elif prefix == f"data.{current_set}.cards.item" and event == "end_map":
                 if holding != "skip":
                     uuids[ccode]["cards"][number] = (uuid, name)
+                holding = ""
+        elif status == "tokens":
+            # Tokens live in a separate array from cards but are referenced the
+            # same way (by collector number), e.g. SLD 918 "Food". Index them so
+            # card lookups can fall back here. Only keep the "main" face.
+            if prefix == f"data.{current_set}.tokens.item.side":
+                if value != "a":
+                    holding = "skip"
+            if prefix == f"data.{current_set}.tokens.item" and event == "start_map":
+                number = ""
+                name = ""
+                uuid = ""
+            elif prefix == f"data.{current_set}.tokens.item.number":
+                number = value
+            elif prefix == f"data.{current_set}.tokens.item.name":
+                name = value
+            elif prefix == f"data.{current_set}.tokens.item.uuid":
+                uuid = value
+            elif prefix == f"data.{current_set}.tokens.item" and event == "end_map":
+                if holding != "skip":
+                    uuids[ccode]["tokens"][number] = (uuid, name)
                 holding = ""
 
     if mtgjson_path:
