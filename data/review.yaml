@@ -1,20 +1,5 @@
 abugames: {}
-cardKingdom:
-  "Secret Lair Drop - Secret Lair x Marvel's Deadpool: I Fixed It (You\u2019re Welcome) - Pool Party Foil":
-    category: UNKNOWN
-    identifiers:
-      cardKingdomId: '325639'
-    subtype: UNKNOWN
-  'Secret Lair Drop - Secret Lair x My Little Pony: The Lands of Equestria - Foil':
-    category: UNKNOWN
-    identifiers:
-      cardKingdomId: '326855'
-    subtype: UNKNOWN
-  'Secret Lair Drop - Secret Lair x Teenage Mutant Ninja Turtles: The Last Ronin - Foil':
-    category: UNKNOWN
-    identifiers:
-      cardKingdomId: '324582'
-    subtype: UNKNOWN
+cardKingdom: {}
 cardMarket:
   'Commander: Reality Fracture: ""Multiverse Reforged"" Commander Deck':
     category: UNKNOWN
@@ -130,30 +115,6 @@ cardMarket:
       mcmId: '885567'
     release_date: '2026-05-02'
     subtype: UNKNOWN
-  'Secret Lair Drop Series: Superdrop of the Moonlight Jellies: Secret Lair x Stardew Valley: A Flicker in the Deep':
-    category: UNKNOWN
-    identifiers:
-      mcmId: '899769'
-    release_date: '2026-07-28'
-    subtype: UNKNOWN
-  'Secret Lair Drop Series: Superdrop of the Moonlight Jellies: Secret Lair x Stardew Valley: Life in Pelican Town':
-    category: UNKNOWN
-    identifiers:
-      mcmId: '899770'
-    release_date: '2026-07-28'
-    subtype: UNKNOWN
-  'Secret Lair Drop Series: Superdrop of the Moonlight Jellies: Secret Lair x Stardew Valley: Welcome to Stardew Valley':
-    category: UNKNOWN
-    identifiers:
-      mcmId: '899771'
-    release_date: '2026-07-28'
-    subtype: UNKNOWN
-  'Secret Lair Drop Series: Wild in Bloom':
-    category: UNKNOWN
-    identifiers:
-      mcmId: '895925'
-    release_date: '2026-07-07'
-    subtype: UNKNOWN
   Star Trek ""Beam Me Up"" Fat Pack Bundle:
     category: UNKNOWN
     identifiers:
@@ -221,16 +182,6 @@ cardMarket:
     release_date: '2026-07-15'
     subtype: UNKNOWN
 cardTrader:
-  'Mystery Booster: Commander Edition Booster':
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '404500'
-    subtype: UNKNOWN
-  'Mystery Booster: Commander Edition Booster Box':
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '404499'
-    subtype: UNKNOWN
   Reality Fracture Collector Booster:
     category: UNKNOWN
     identifiers:
@@ -280,16 +231,6 @@ cardTrader:
     category: UNKNOWN
     identifiers:
       cardtraderId: '402410'
-    subtype: UNKNOWN
-  'Secret Lair Drop Series: Wild in Bloom':
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '403117'
-    subtype: UNKNOWN
-  'Secret Lair x Stardew Valley: Welcome to Stardew Valley':
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '403116'
     subtype: UNKNOWN
   'Secret Lair x The Hobbit: Over the Edge of the Wild':
     category: UNKNOWN
@@ -386,6 +327,31 @@ cardTrader:
     identifiers:
       cardtraderId: '400891'
     subtype: UNKNOWN
+  The Hobbit Welcome Deck Black:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '405094'
+    subtype: UNKNOWN
+  The Hobbit Welcome Deck Blue:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '405093'
+    subtype: UNKNOWN
+  The Hobbit Welcome Deck Green:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '405096'
+    subtype: UNKNOWN
+  The Hobbit Welcome Deck Red:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '405095'
+    subtype: UNKNOWN
+  The Hobbit Welcome Deck White:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '405092'
+    subtype: UNKNOWN
 coolstuffinc: {}
 hareruya: {}
 miniaturemarket:
@@ -408,11 +374,6 @@ miniaturemarket:
     category: UNKNOWN
     identifiers:
       miniaturemarketId: 019df9afb912704a936e2951d2e54b6f
-    subtype: UNKNOWN
-  'MTG: The Hobbit - Gift Bundle (Preorder)':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: 019df9af70417396827bd98faa48bd6c
     subtype: UNKNOWN
 starcitygames:
   Reality Fracture Bundle:
@@ -516,24 +477,6 @@ tcgplayer:
     identifiers:
       tcgplayerProductId: '684659'
     subtype: UNKNOWN
-  Mystery Booster Commander Edition Booster Display:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '709724'
-    release_date: '2026-10-01'
-    subtype: UNKNOWN
-  Mystery Booster Commander Edition Booster Display Case:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '709726'
-    release_date: '2026-10-01'
-    subtype: UNKNOWN
-  Mystery Booster Commander Edition Booster Pack:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '709720'
-    release_date: '2026-10-01'
-    subtype: UNKNOWN
   Reality Fracture Bundle:
     category: UNKNOWN
     identifiers:
@@ -617,58 +560,6 @@ tcgplayer:
     identifiers:
       tcgplayerProductId: '692977'
     release_date: '2026-09-25'
-    subtype: UNKNOWN
-  Secret Lair Drop Secret Lair x Global Fund for Women Their Magic is Limitless Non Foil Edition:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '704918'
-    subtype: UNKNOWN
-  Secret Lair Drop Secret Lair x Global Fund for Women Their Magic is Limitless Traditional Foil Edition:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '704919'
-    subtype: UNKNOWN
-  Secret Lair Drop Secret Lair x Stardew Valley A Flicker in the Deep Non Foil Edition:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '707168'
-    release_date: '2026-08-07'
-    subtype: UNKNOWN
-  Secret Lair Drop Secret Lair x Stardew Valley A Flicker in the Deep Traditional Foil Edition:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '707169'
-    release_date: '2026-08-07'
-    subtype: UNKNOWN
-  Secret Lair Drop Secret Lair x Stardew Valley Life in Pelican Town Non Foil Edition:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '707165'
-    release_date: '2026-08-07'
-    subtype: UNKNOWN
-  Secret Lair Drop Secret Lair x Stardew Valley Life in Pelican Town Traditional Foil Edition:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '707167'
-    release_date: '2026-08-07'
-    subtype: UNKNOWN
-  Secret Lair Drop Secret Lair x Stardew Valley Welcome to Stardew Valley Non Foil Edition:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '707163'
-    release_date: '2026-08-07'
-    subtype: UNKNOWN
-  Secret Lair Drop Secret Lair x Stardew Valley Welcome to Stardew Valley Traditional Foil Edition:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '707164'
-    release_date: '2026-08-07'
-    subtype: UNKNOWN
-  Secret Lair Drop Wild in Bloom Traditional Foil Edition:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '703903'
-    release_date: '2026-07-17'
     subtype: UNKNOWN
   Secrets of Strixhaven Play Pack:
     category: UNKNOWN
@@ -884,12 +775,6 @@ tcgplayer:
     category: UNKNOWN
     identifiers:
       tcgplayerProductId: '691162'
-    subtype: UNKNOWN
-  The Hobbit Box Topper:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '709910'
-    release_date: '2026-08-14'
     subtype: UNKNOWN
   Universes Beyond Assassins Creed Collector Booster Pack Minimal Packaging:
     category: UNKNOWN
