@@ -148,8 +148,28 @@ products:
     - count: 3
       name: The Hobbit Play Booster Pack
       set: hob
-  The Hobbit Welcome Deck Black: {}
-  The Hobbit Welcome Deck Blue: {}
-  The Hobbit Welcome Deck Green: {}
-  The Hobbit Welcome Deck Red: {}
-  The Hobbit Welcome Deck White: {}
+  The Hobbit Welcome Deck Black:
+    card_count: 40
+    deck:
+    - name: Black Deck
+      set: hob
+  The Hobbit Welcome Deck Blue:
+    card_count: 40
+    deck:
+    - name: Blue Deck
+      set: hob
+  The Hobbit Welcome Deck Green:
+    card_count: 40
+    deck:
+    - name: Green Deck
+      set: hob
+  The Hobbit Welcome Deck Red:
+    card_count: 40
+    deck:
+    - name: Red Deck
+      set: hob
+  The Hobbit Welcome Deck White:
+    card_count: 40
+    deck:
+    - name: White Deck
+      set: hob
