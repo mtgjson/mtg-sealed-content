@@ -247,7 +247,7 @@ def infer_product_definition(product_name):
         elif "Theme" in product_name:
             subtype = "THEME"
         elif "Redemption" in product_name:
-            subtype = "REDEMPTION"
+            subtype = "MTGO_REDEMPTION"
 
     if "Secret Lair" in product_name and "Bundle" in product_name:
         category = "BOX_SET"

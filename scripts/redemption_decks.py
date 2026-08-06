@@ -66,7 +66,7 @@ if __name__ == "__main__":
                     prod_file.write(f"""  {p_clean}:
     category: BOX_SET
     identifiers: {{}}
-    subtype: REDEMPTION
+    subtype: MTGO_REDEMPTION
 """)
             with open(rf'/Users/samzimmerman/Source/mtg-sealed-content/data/contents/{set_upper}.yaml', 'a') as cont_file:
                 for p, s in redemption:
