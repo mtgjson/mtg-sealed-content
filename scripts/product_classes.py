@@ -9,6 +9,7 @@ class card:
         self.number = contents["number"]
         self.etched = contents.get("etched", False)
         self.foil = contents.get("foil", False)
+        self.token = contents.get("token", False)
         self.uuid = contents.get("uuid", False)
 
     def toJson(self):
@@ -19,18 +20,29 @@ class card:
             data["foil"] = self.foil
         if self.etched:
             data["etched"] = self.etched
+        if self.token:
+            data["token"] = self.token
         return data
 
     def get_uuids(self, uuid_map):
         try:
             set_map = uuid_map[self.set.lower()]
             number = str(self.number)
-            # Tokens (e.g. SLD 918 "Food") live in a separate map, so fall back
-            # to it when the number isn't among the regular cards.
-            if number in set_map["cards"]:
-                entry = set_map["cards"][number]
+            # Tokens (e.g. SLD 918 "Food") live in a separate map from the
+            # regular cards, and the token flag picks which one to look in.
+            primary = "tokens" if self.token else "cards"
+            fallback = "cards" if self.token else "tokens"
+            if number in set_map[primary]:
+                entry = set_map[primary][number]
             else:
-                entry = set_map["tokens"][number]
+                # Still resolve it, but report the mismatch so the flag can be
+                # corrected in the YAML.
+                entry = set_map[fallback][number]
+                with open("status.txt", "a") as f:
+                    f.write(
+                        f"Card number {self.set}:{self.number} found in {fallback}, "
+                        f"token flag should be {not self.token}\n"
+                    )
             self.uuid = entry[0]
             if self.name not in entry[1]:
                 raise ValueError("name and number do not match", self.name, self.name)

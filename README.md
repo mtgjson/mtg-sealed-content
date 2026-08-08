@@ -212,8 +212,13 @@ name: [str] Full card name
 set: [str] Set code
 number: [str or int] Collector number
 foil: [bool, optional] True if card is traditional or etched foil
+token: [bool, optional] True if the collector number refers to a token instead of a card, ie. SLD 918 "Food"
 uuid: [str, calculated] The card's MTGJson UUID. This is calculated by the compiler and you should not enter this in the YAML.
 ```
+
+Tokens live in `{set}.tokens` rather than `{set}.cards` in MTGJson, so the flag
+tells the compiler where to resolve the collector number, and is carried into the
+output so consumers know to look for the UUID in the same place.
 
 Example card YAML input:
 
