@@ -78,8 +78,10 @@ products:
     - name: The Brothers' War Bundle Land Pack
       set: bro
     other:
-    - name: Foil Mythic Rare Transformers Card
     - name: The Brothers' War Spindown Die
+    pack:
+    - code: gift-bundle-transformers
+      set: bro
     sealed:
     - count: 1
       name: The Brothers' War Collector Booster Pack
