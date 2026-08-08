@@ -67,8 +67,11 @@ products:
       name: Bloomburrow Collector Booster Sample Pack
       set: blb
   Bloomburrow Deluxe Commander Kit Animated Army:
-    other:
-    - name: Exclusive foil promo card
+    card:
+    - foil: true
+      name: Kaalia of the Vast
+      number: 2025-19
+      set: pmei
     sealed:
     - count: 1
       name: Bloomburrow Commander Deck Animated Army
@@ -86,8 +89,11 @@ products:
       name: Aetherdrift Play Booster Pack
       set: dft
   Bloomburrow Deluxe Commander Kit Family Matters:
-    other:
-    - name: Exclusive foil promo card
+    card:
+    - foil: true
+      name: Kaalia of the Vast
+      number: 2025-19
+      set: pmei
     sealed:
     - count: 1
       name: Bloomburrow Commander Deck Family Matters
@@ -105,8 +111,11 @@ products:
       name: Aetherdrift Play Booster Pack
       set: dft
   Bloomburrow Deluxe Commander Kit Peace Offering:
-    other:
-    - name: Exclusive foil promo card
+    card:
+    - foil: true
+      name: Kaalia of the Vast
+      number: 2025-19
+      set: pmei
     sealed:
     - count: 1
       name: Bloomburrow Commander Deck Peace Offering
@@ -124,8 +133,11 @@ products:
       name: Aetherdrift Play Booster Pack
       set: dft
   Bloomburrow Deluxe Commander Kit Squirreled Away:
-    other:
-    - name: Exclusive foil promo card
+    card:
+    - foil: true
+      name: Kaalia of the Vast
+      number: 2025-19
+      set: pmei
     sealed:
     - count: 1
       name: Bloomburrow Commander Deck Squirreled Away
