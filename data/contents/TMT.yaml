@@ -71,8 +71,10 @@ products:
     - name: Teenage Mutant Ninja Turtles Pizza Bundle Land Pack
       set: tmt
     other:
-    - name: 2 of 6 pizza-themed promo cards
     - name: Oversized Pizza Bundle Spindown life counter
+    pack:
+    - code: pizza-bundle
+      set: tmt
     sealed:
     - count: 9
       name: Teenage Mutant Ninja Turtles Play Booster Pack
