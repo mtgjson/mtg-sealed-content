@@ -49,6 +49,24 @@
                     "uuid": "10173943-4e6c-5451-9123-e8d236294818"
                 }
             ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "710662"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F710662%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "10173943-4e6c-5451-9123-e8d236294818"
+                },
+                {
+                    "faceId": "21",
+                    "faceName": "Elf Warrior",
+                    "tokenType": "Token"
+                }
+            ]
         }
     ],
     "1341f978-9f77-559e-8a9c-08fabe5eeb6a": [
@@ -1837,6 +1855,42 @@
                 },
                 {
                     "uuid": "f8ca07e3-9212-555d-984f-2551a9c6bb34"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "710658"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F710658%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "f8ca07e3-9212-555d-984f-2551a9c6bb34"
+                },
+                {
+                    "faceId": "3",
+                    "faceName": "Angel",
+                    "tokenType": "Token"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "710661"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F710661%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "f8ca07e3-9212-555d-984f-2551a9c6bb34"
+                },
+                {
+                    "faceId": "7",
+                    "faceName": "Dinosaur",
+                    "tokenType": "Token"
                 }
             ]
         }
