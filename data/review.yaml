@@ -194,6 +194,11 @@ cardMarket:
     release_date: '2026-07-15'
     subtype: UNKNOWN
 cardTrader:
+  Battle of the Five Armies Co-op Kit:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '406069'
+    subtype: UNKNOWN
   Reality Fracture Collector Booster:
     category: UNKNOWN
     identifiers:
@@ -372,10 +377,20 @@ miniaturemarket:
     identifiers:
       miniaturemarketId: 019e495b8dee704ebf2294f899408200
     subtype: UNKNOWN
+  'MTG: Reality Fracture - Bundle (Preorder)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 019df9afe9eb71578c01c6404edbc447
+    subtype: UNKNOWN
   'MTG: Reality Fracture - Commander Deck - Multiverse Reforged (Preorder)':
     category: UNKNOWN
     identifiers:
       miniaturemarketId: 019df9afdcf2712c9d6f86125db62fa3
+    subtype: UNKNOWN
+  'MTG: Reality Fracture - Draft Night Box (Preorder)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 019df9b0030c7360aa66ce5dec173407
     subtype: UNKNOWN
   'MTG: Reality Fracture - Play Booster Box (30) (Preorder)':
     category: UNKNOWN
