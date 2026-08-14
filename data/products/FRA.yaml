@@ -3,6 +3,9 @@ products:
   Reality Fracture Bundle:
     category: BUNDLE
     identifiers:
+      cardtraderId: '389394'
+      mcmId: '885564'
+      miniaturemarketId: 019df9afe9eb71578c01c6404edbc447
       scgId: SLD-MTG-BUN-FRA-EN
       tcgplayerProductId: '692985'
     release_date: '2026-10-02'
@@ -10,6 +13,7 @@ products:
   Reality Fracture Bundle Case:
     category: BUNDLE_CASE
     identifiers:
+      cardtraderId: '405217'
       tcgplayerProductId: '692986'
     release_date: '2026-10-02'
     subtype: DEFAULT
@@ -31,6 +35,8 @@ products:
   Reality Fracture Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '389393'
+      mcmId: '885561'
       scgId: SLD-MTG-PCK-FRACOLLECTOR-EN
       tcgplayerProductId: '692982'
     release_date: '2026-10-02'
@@ -38,6 +44,9 @@ products:
   Reality Fracture Commander Deck Multiverse Reforged:
     category: DECK
     identifiers:
+      cardtraderId: '389403'
+      mcmId: '888391'
+      miniaturemarketId: 019df9afdcf2712c9d6f86125db62fa3
       scgId: SLD-MTG-CMD-FRC-EN
       tcgplayerProductId: '692989'
     release_date: '2026-10-02'
@@ -53,6 +62,7 @@ products:
     identifiers:
       cardtraderId: '389397'
       mcmId: '885565'
+      miniaturemarketId: 019df9b0030c7360aa66ce5dec173407
       scgId: SLD-MTG-DFT-FRA-EN
       tcgplayerProductId: '692987'
     release_date: '2026-10-02'
@@ -68,6 +78,7 @@ products:
     identifiers:
       cardtraderId: '389390'
       mcmId: '885562'
+      miniaturemarketId: 019df9afa7627321b6f0e2057fe2ecf6
       scgId: SLD-MTG-BBX-FRAPLAY-EN
       tcgplayerProductId: '692980'
     release_date: '2026-10-02'
@@ -75,12 +86,16 @@ products:
   Reality Fracture Play Booster Box Case:
     category: BOOSTER_CASE
     identifiers:
+      scgId: SLD-MTG-BBX-FRAPLAYCASE-EN
       tcgplayerProductId: '692981'
     release_date: '2026-10-02'
     subtype: PLAY
   Reality Fracture Play Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      cardtraderId: '389392'
+      mcmId: '885560'
+      miniaturemarketId: 019df9afb912704a936e2951d2e54b6f
       scgId: SLD-MTG-PCK-FRAPLAY-EN
       tcgplayerProductId: '692979'
     release_date: '2026-10-02'
@@ -90,6 +105,7 @@ products:
     identifiers:
       cardtraderId: '389396'
       mcmId: '885567'
+      scgId: SLD-MTG-PRE-FRA-EN
       tcgplayerProductId: '692977'
     release_date: '2026-09-25'
     subtype: PRERELEASE
