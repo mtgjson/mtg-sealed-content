@@ -1,69 +1,5 @@
 code: fra
 products:
-  Reality Fracture Play Booster Pack:
-    card_count: 14
-    pack:
-    - code: play
-      set: fra
-  Reality Fracture Play Booster Box:
-    sealed:
-    - count: 30
-      name: Reality Fracture Play Booster Pack
-      set: fra
-  Reality Fracture Play Booster Box Case:
-    sealed:
-    - count: 6
-      name: Reality Fracture Play Booster Box
-      set: fra
-  Reality Fracture Prerelease Pack:
-    card_count: 1
-    other:
-    - name: Deck box
-    - name: Spindown die
-    pack:
-    - code: prerelease
-      set: fra
-    sealed:
-    - count: 6
-      name: Reality Fracture Play Booster Pack
-      set: fra
-  Reality Fracture Prerelease Pack Case:
-    sealed:
-    - count: 15
-      name: Reality Fracture Prerelease Pack
-      set: fra
-  Reality Fracture Collector Booster Pack:
-    card_count: 15
-    pack:
-    - code: collector
-      set: fra
-  Reality Fracture Collector Booster Box:
-    sealed:
-    - count: 12
-      name: Reality Fracture Collector Booster Pack
-      set: fra
-  Reality Fracture Collector Booster Box Case:
-    sealed:
-    - count: 6
-      name: Reality Fracture Collector Booster Box
-      set: fra
-  Reality Fracture Draft Night:
-    other:
-    - name: 90 Non-foil basic lands
-    - name: 10 Non-foil double-sided tokens
-    - name: 1 Draft insert
-    sealed:
-    - count: 12
-      name: Reality Fracture Play Booster Pack
-      set: fra
-    - count: 1
-      name: Reality Fracture Collector Booster Pack
-      set: fra
-  Reality Fracture Draft Night Case:
-    sealed:
-    - count: 6
-      name: Reality Fracture Draft Night
-      set: fra
   Reality Fracture Bundle:
     card_count: 1
     deck:
@@ -81,6 +17,72 @@ products:
     sealed:
     - count: 6
       name: Reality Fracture Bundle
+      set: fra
+  Reality Fracture Collector Booster Box:
+    sealed:
+    - count: 12
+      name: Reality Fracture Collector Booster Pack
+      set: fra
+  Reality Fracture Collector Booster Box Case:
+    sealed:
+    - count: 6
+      name: Reality Fracture Collector Booster Box
+      set: fra
+  Reality Fracture Collector Booster Pack:
+    card_count: 15
+    pack:
+    - code: collector
+      set: fra
+  Reality Fracture Commander Deck Multiverse Reforged: {}
+  Reality Fracture Commander Deck Multiverse Reforged Case: {}
+  Reality Fracture Draft Night:
+    other:
+    - name: 90 Non-foil basic lands
+    - name: 10 Non-foil double-sided tokens
+    - name: 1 Draft insert
+    sealed:
+    - count: 12
+      name: Reality Fracture Play Booster Pack
+      set: fra
+    - count: 1
+      name: Reality Fracture Collector Booster Pack
+      set: fra
+  Reality Fracture Draft Night Case:
+    sealed:
+    - count: 6
+      name: Reality Fracture Draft Night
+      set: fra
+  Reality Fracture Play Booster Box:
+    sealed:
+    - count: 30
+      name: Reality Fracture Play Booster Pack
+      set: fra
+  Reality Fracture Play Booster Box Case:
+    sealed:
+    - count: 6
+      name: Reality Fracture Play Booster Box
+      set: fra
+  Reality Fracture Play Booster Pack:
+    card_count: 14
+    pack:
+    - code: play
+      set: fra
+  Reality Fracture Prerelease Pack:
+    card_count: 1
+    other:
+    - name: Deck box
+    - name: Spindown die
+    pack:
+    - code: prerelease
+      set: fra
+    sealed:
+    - count: 6
+      name: Reality Fracture Play Booster Pack
+      set: fra
+  Reality Fracture Prerelease Pack Case:
+    sealed:
+    - count: 15
+      name: Reality Fracture Prerelease Pack
       set: fra
   Reality Fracture Secret Lair Bundle:
     card_count: 2
