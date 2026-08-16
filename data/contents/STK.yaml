@@ -1,0 +1,181 @@
+code: stk
+products:
+  Star Trek Bundle:
+    card_count: 1
+    other:
+    - name: 1 Spindown die
+    - name: 1 Card-storage box
+    - name: 10 Basic Lands
+    - name: 5 Full-art lands
+    - name: 10 Traditional Foil Basic Lands
+    - name: 5 Traditional Foil Full-art Lands
+    sealed:
+    - count: 9
+      name: Star Trek Play Booster Pack
+      set: stk
+
+  Star Trek Bundle Case:
+    sealed:
+    - count: 6
+      name: Star Trek Bundle
+      set: stk
+  
+  Star Trek Beam Me Up Bundle:
+    card_count: 1
+    other:
+    - name: 1 Spindown die
+    - name: 1 Card-storage box
+    - name: 10 Basic Lands
+    - name: 5 Full-art lands
+    - name: 10 Traditional Foil Basic Lands
+    - name: 5 Traditional Foil Full-art Lands
+    sealed:
+    - count: 8
+      name: Star Trek Play Booster Pack
+      set: stk
+    - count: 1
+      name: Star Trek Collector Booster Pack
+      set: stk
+  
+  Star Trek Beam Me Up Bundle Case:
+    sealed:
+    - count: 6
+      name: Star Trek Beam Me Up Bundle
+      set: stk
+  
+  Star Trek Play Booster Pack:
+    card_count: 14
+    pack:
+    - code: play
+      set: stk
+  
+  Star Trek Play Booster Box:
+    sealed:
+    - count: 30
+      name: Star Trek Play Booster Pack
+      set: stk
+  
+  Star Trek Play Booster Box Case:
+    sealed:
+    - count: 6
+      name: Star Trek Play Booster Box
+      set: stk
+  
+  Star Trek Collector Booster Pack:
+    card_count: 15
+    pack:
+    - code: collector
+      set: stk
+  
+  Star Trek Collector Booster Box:
+    sealed:
+    - count: 12
+      name: Star Trek Collector Booster Pack
+      set: stk
+  
+  Star Trek Collector Booster Box Case:
+    sealed:
+    - count: 6
+      name: Star Trek Collector Booster Box
+      set: stk
+  
+  Star Trek Collector Booster Box Master Case:
+    sealed:
+    - count: 6
+      name: Star Trek Collector Booster Box Case
+      set: stk
+  
+  Star Trek Draft Night:
+    other:
+    - name: 90 Non-foil basic lands
+    - name: 10 Non-foil double-sided tokens
+    - name: 1 Draft insert
+    sealed:
+    - count: 12
+      name: Star Trek Play Booster Pack
+      set: stk
+    - count: 1
+      name: Star Trek Collector Booster Pack
+      set: stk
+  
+  Star Trek Draft Night Case:
+    sealed:
+    - count: 6
+      name: Star Trek Draft Night
+      set: stk
+  
+  Star Trek Beginner Box:
+    other:
+    - name: 2 Instant Play Decks
+    - name: 8 Jumpstart Decks
+    - name: 2 Learn-to-Play guides
+    - name: 2 Spindown life counters
+    - name: 2 Playmats
+  
+  Star Trek Prerelease Pack:
+    sealed:
+    - count: 6
+      name: Star Trek Play Booster Pack
+      set: stk
+    other:
+    - name: 1 Spindown die
+    - name: 1 Traditional Foil Rare/Mythic Rare Card
+  
+  Star Trek Prerelease Pack Case:
+    sealed:
+    - count: 15
+      name: Star Trek Prerelease Pack
+      set: stk
+  
+  Star Trek Scene Box Enterprise-Q:
+    card_count: 6
+    deck:
+    - name: Enterprise-Q
+      set: stk
+    other:
+    - name: 6 Art-Only Scene Cards
+    - name: Star Trek Display Easel
+    sealed:
+    - count: 3
+      name: Star Trek Play Booster Pack
+      set: stk
+  
+  Star Trek Scene Box Divergent Timelines:
+    card_count: 6
+    deck:
+    - name: Divergent Timelines
+      set: stk
+    other:
+    - name: 6 Art-Only Scene Cards
+    - name: Star Trek Display Easel
+    sealed:
+    - count: 3
+      name: Star Trek Play Booster Pack
+      set: stk
+  
+  Star Trek Scene Box Case:
+    sealed:
+    - count: 2
+      name: Star Trek Scene Box Enterprise-Q
+      set: stk
+    - count: 2
+      name: Star Trek Scene Box Divergent Timelines
+      set: stk
+  
+  # Star Trek Commander Deck Federation Fleet:
+  
+  # Star Trek Commander Deck Landing Party:
+  
+  # Star Trek Commander Deck Klingon Fury:
+  
+  # Star Trek Commander Deck We Are the Borg:
+  
+  # Star Trek Commander Deck Case:
+  
+  # Star Trek Collector Commander Deck Landing Party:
+  
+  # Star Trek Collector Commander Deck Klingon Fury:
+  
+  # Star Trek Collector Commander Deck We Are the Borg:
+  
+  # Star Trek Collector Commander Deck Case:
