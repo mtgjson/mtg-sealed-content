@@ -1,4 +1,4 @@
-code: stk
+code: trk
 products:
   Star Trek Bundle:
     card_count: 1
@@ -12,13 +12,13 @@ products:
     sealed:
     - count: 9
       name: Star Trek Play Booster Pack
-      set: stk
+      set: trk
 
   Star Trek Bundle Case:
     sealed:
     - count: 6
       name: Star Trek Bundle
-      set: stk
+      set: trk
   
   Star Trek Beam Me Up Bundle:
     card_count: 1
@@ -32,58 +32,58 @@ products:
     sealed:
     - count: 8
       name: Star Trek Play Booster Pack
-      set: stk
+      set: trk
     - count: 1
       name: Star Trek Collector Booster Pack
-      set: stk
+      set: trk
   
   Star Trek Beam Me Up Bundle Case:
     sealed:
     - count: 6
       name: Star Trek Beam Me Up Bundle
-      set: stk
+      set: trk
   
   Star Trek Play Booster Pack:
     card_count: 14
     pack:
     - code: play
-      set: stk
+      set: trk
   
   Star Trek Play Booster Box:
     sealed:
     - count: 30
       name: Star Trek Play Booster Pack
-      set: stk
+      set: trk
   
   Star Trek Play Booster Box Case:
     sealed:
     - count: 6
       name: Star Trek Play Booster Box
-      set: stk
+      set: trk
   
   Star Trek Collector Booster Pack:
     card_count: 15
     pack:
     - code: collector
-      set: stk
+      set: trk
   
   Star Trek Collector Booster Box:
     sealed:
     - count: 12
       name: Star Trek Collector Booster Pack
-      set: stk
+      set: trk
   
   Star Trek Collector Booster Box Case:
     sealed:
     - count: 6
       name: Star Trek Collector Booster Box
-      set: stk
+      set: trk
   
   Star Trek Collector Booster Box Master Case:
     sealed:
     - count: 6
       name: Star Trek Collector Booster Box Case
-      set: stk
+      set: trk
   
   Star Trek Draft Night:
     other:
@@ -93,16 +93,16 @@ products:
     sealed:
     - count: 12
       name: Star Trek Play Booster Pack
-      set: stk
+      set: trk
     - count: 1
       name: Star Trek Collector Booster Pack
-      set: stk
+      set: trk
   
   Star Trek Draft Night Case:
     sealed:
     - count: 6
       name: Star Trek Draft Night
-      set: stk
+      set: trk
   
   Star Trek Beginner Box:
     other:
@@ -116,7 +116,7 @@ products:
     sealed:
     - count: 6
       name: Star Trek Play Booster Pack
-      set: stk
+      set: trk
     other:
     - name: 1 Spindown die
     - name: 1 Traditional Foil Rare/Mythic Rare Card
@@ -125,42 +125,42 @@ products:
     sealed:
     - count: 15
       name: Star Trek Prerelease Pack
-      set: stk
+      set: trk
   
   Star Trek Scene Box Enterprise-Q:
     card_count: 6
     deck:
     - name: Enterprise-Q
-      set: stk
+      set: trk
     other:
     - name: 6 Art-Only Scene Cards
     - name: Star Trek Display Easel
     sealed:
     - count: 3
       name: Star Trek Play Booster Pack
-      set: stk
+      set: trk
   
   Star Trek Scene Box Divergent Timelines:
     card_count: 6
     deck:
     - name: Divergent Timelines
-      set: stk
+      set: trk
     other:
     - name: 6 Art-Only Scene Cards
     - name: Star Trek Display Easel
     sealed:
     - count: 3
       name: Star Trek Play Booster Pack
-      set: stk
+      set: trk
   
   Star Trek Scene Box Case:
     sealed:
     - count: 2
       name: Star Trek Scene Box Enterprise-Q
-      set: stk
+      set: trk
     - count: 2
       name: Star Trek Scene Box Divergent Timelines
-      set: stk
+      set: trk
   
   # Star Trek Commander Deck Federation Fleet:
   
