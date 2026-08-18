@@ -1,5 +1,20 @@
 abugames: {}
-cardKingdom: {}
+cardKingdom:
+  'Secret Lair Drop - Secret Lair x Dwarf Fortress: Create New World - Foil':
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '326857'
+    subtype: UNKNOWN
+  'Secret Lair Drop - Secret Lair x My Little Pony: Friendship is Magic - Foil':
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '326853'
+    subtype: UNKNOWN
+  Secret Lair Drop - Their Magic is Limitless - Non-Foil:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '330545'
+    subtype: UNKNOWN
 cardMarket:
   'Commander: Foundations: Deck Set':
     category: UNKNOWN
@@ -190,6 +205,11 @@ cardTrader:
     identifiers:
       cardtraderId: '406499'
     subtype: UNKNOWN
+  'Secret Lair x The Hobbit: He Who Walks Unseen':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '406643'
+    subtype: UNKNOWN
   'Secret Lair x The Hobbit: Over the Edge of the Wild':
     category: UNKNOWN
     identifiers:
@@ -302,7 +322,12 @@ cardTrader:
     subtype: UNKNOWN
 coolstuffinc: {}
 hareruya: {}
-miniaturemarket: {}
+miniaturemarket:
+  'MTG: Reality Fracture - Collector Booster Box (12) (Preorder)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 019df9afc7f07014a26f352ff147be67
+    subtype: UNKNOWN
 starcitygames: {}
 tcgplayer:
   Aetherdrift Collector Booster Pack Minimal Packaging:
@@ -355,6 +380,60 @@ tcgplayer:
     identifiers:
       tcgplayerProductId: '709981'
     release_date: '2026-08-16'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x The Hobbit Desolation Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '711019'
+    release_date: '2026-08-21'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x The Hobbit Desolation Traditional Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '711024'
+    release_date: '2026-08-21'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x The Hobbit He Who Walks Unseen Out Of Sight Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '711390'
+    release_date: '2026-08-21'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x The Hobbit Over the Edge of the Wild Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '711014'
+    release_date: '2026-08-21'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x The Hobbit Over the Edge of the Wild Traditional Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '711015'
+    release_date: '2026-08-21'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x The Hobbit Second Breakfast and Beyond Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '707501'
+    release_date: '2026-08-21'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x The Hobbit Second Breakfast and Beyond Traditional Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '707502'
+    release_date: '2026-08-21'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x The Hobbit Smaugs Spoils Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '711016'
+    release_date: '2026-08-21'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x The Hobbit Smaugs Spoils Traditional Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '711017'
+    release_date: '2026-08-21'
     subtype: UNKNOWN
   Secrets of Strixhaven Play Pack:
     category: UNKNOWN
