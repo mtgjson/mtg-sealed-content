@@ -333,13 +333,23 @@ cardTrader:
       cardtraderId: '405218'
     subtype: UNKNOWN
 coolstuffinc: {}
-hareruya: {}
-miniaturemarket:
-  'MTG: Reality Fracture - Collector Booster Box (12) (Preorder)':
+hareruya:
+  DuelDecks:Heroes vs. Monsters [HvM]:
     category: UNKNOWN
     identifiers:
-      miniaturemarketId: 019df9afc7f07014a26f352ff147be67
+      hareruyaId: '162455'
     subtype: UNKNOWN
+  DuelDecks:Izzet vs. Golgari [IvG]:
+    category: UNKNOWN
+    identifiers:
+      hareruyaId: '162456'
+    subtype: UNKNOWN
+  DuelDecks:Sorin vs. Tibalt [SvT]:
+    category: UNKNOWN
+    identifiers:
+      hareruyaId: '162454'
+    subtype: UNKNOWN
+miniaturemarket: {}
 starcitygames: {}
 tcgplayer:
   Aetherdrift Collector Booster Pack Minimal Packaging:
