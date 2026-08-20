@@ -1,5 +1,20 @@
 abugames: {}
-cardKingdom: {}
+cardKingdom:
+  'Secret Lair Drop - Secret Lair x Dwarf Fortress: Create New World - Foil':
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '326857'
+    subtype: UNKNOWN
+  'Secret Lair Drop - Secret Lair x My Little Pony: Friendship is Magic - Foil':
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '326853'
+    subtype: UNKNOWN
+  Secret Lair Drop - Their Magic is Limitless - Non-Foil:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '330545'
+    subtype: UNKNOWN
 cardMarket:
   'Commander: Foundations: Deck Set':
     category: UNKNOWN
@@ -73,17 +88,17 @@ cardMarket:
       mcmId: '902217'
     release_date: '2026-08-11'
     subtype: UNKNOWN
-  'Secret Lair Commander Deck: Hatsune Miku':
-    category: UNKNOWN
-    identifiers:
-      mcmId: '902208'
-    release_date: '2026-08-10'
-    subtype: UNKNOWN
   'Secret Lair Drop Series: A Marvelous Mathom Superdrop: Secret Lair x The Hobbit: Desolation':
     category: UNKNOWN
     identifiers:
       mcmId: '902553'
     release_date: '2026-08-12'
+    subtype: UNKNOWN
+  'Secret Lair Drop Series: A Marvelous Mathom Superdrop: Secret Lair x The Hobbit: He Who Walks Unseen':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '903128'
+    release_date: '2026-08-17'
     subtype: UNKNOWN
   'Secret Lair Drop Series: A Marvelous Mathom Superdrop: Secret Lair x The Hobbit: Over the Edge of the Wild':
     category: UNKNOWN
@@ -169,16 +184,23 @@ cardMarket:
       mcmId: '897520'
     release_date: '2026-07-15'
     subtype: UNKNOWN
+  'Star Trek: Scene Box Set':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '903175'
+    release_date: '2026-08-17'
+    subtype: UNKNOWN
+  'The Hobbit: Prerelease Cards Booster':
+    category: UNKNOWN
+    identifiers:
+      mcmId: '903183'
+    release_date: '2026-08-18'
+    subtype: UNKNOWN
 cardTrader:
   Battle of the Five Armies Co-op Kit:
     category: UNKNOWN
     identifiers:
       cardtraderId: '406069'
-    subtype: UNKNOWN
-  'Secret Lair Commander Deck: Hatsune Miku':
-    category: UNKNOWN
-    identifiers:
-      cardtraderId: '402410'
     subtype: UNKNOWN
   'Secret Lair x Marvel: True Belivers in Love':
     category: UNKNOWN
@@ -189,6 +211,11 @@ cardTrader:
     category: UNKNOWN
     identifiers:
       cardtraderId: '406499'
+    subtype: UNKNOWN
+  'Secret Lair x The Hobbit: He Who Walks Unseen':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '406643'
     subtype: UNKNOWN
   'Secret Lair x The Hobbit: Over the Edge of the Wild':
     category: UNKNOWN
@@ -239,6 +266,11 @@ cardTrader:
     category: UNKNOWN
     identifiers:
       cardtraderId: '400885'
+    subtype: UNKNOWN
+  Star Trek Scene Box Set Set of 2:
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '406821'
     subtype: UNKNOWN
   Star Trek | "Divergent Timeline" Scene Box:
     category: UNKNOWN
@@ -301,7 +333,22 @@ cardTrader:
       cardtraderId: '405218'
     subtype: UNKNOWN
 coolstuffinc: {}
-hareruya: {}
+hareruya:
+  DuelDecks:Heroes vs. Monsters [HvM]:
+    category: UNKNOWN
+    identifiers:
+      hareruyaId: '162455'
+    subtype: UNKNOWN
+  DuelDecks:Izzet vs. Golgari [IvG]:
+    category: UNKNOWN
+    identifiers:
+      hareruyaId: '162456'
+    subtype: UNKNOWN
+  DuelDecks:Sorin vs. Tibalt [SvT]:
+    category: UNKNOWN
+    identifiers:
+      hareruyaId: '162454'
+    subtype: UNKNOWN
 miniaturemarket: {}
 starcitygames: {}
 tcgplayer:
@@ -350,11 +397,59 @@ tcgplayer:
     identifiers:
       tcgplayerProductId: '684659'
     subtype: UNKNOWN
-  Secret Lair Commander Deck Hatsune Miku:
+  Secret Lair Drop Secret Lair x The Hobbit Desolation Non Foil Edition:
     category: UNKNOWN
     identifiers:
-      tcgplayerProductId: '709981'
-    release_date: '2026-08-16'
+      tcgplayerProductId: '711019'
+    release_date: '2026-08-21'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x The Hobbit Desolation Traditional Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '711024'
+    release_date: '2026-08-21'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x The Hobbit He Who Walks Unseen Out Of Sight Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '711390'
+    release_date: '2026-08-21'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x The Hobbit Over the Edge of the Wild Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '711014'
+    release_date: '2026-08-21'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x The Hobbit Over the Edge of the Wild Traditional Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '711015'
+    release_date: '2026-08-21'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x The Hobbit Second Breakfast and Beyond Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '707501'
+    release_date: '2026-08-21'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x The Hobbit Second Breakfast and Beyond Traditional Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '707502'
+    release_date: '2026-08-21'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x The Hobbit Smaugs Spoils Non Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '711016'
+    release_date: '2026-08-21'
+    subtype: UNKNOWN
+  Secret Lair Drop Secret Lair x The Hobbit Smaugs Spoils Traditional Foil Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '711017'
+    release_date: '2026-08-21'
     subtype: UNKNOWN
   Secrets of Strixhaven Play Pack:
     category: UNKNOWN
