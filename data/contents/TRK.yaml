@@ -1,25 +1,5 @@
 code: trk
 products:
-  Star Trek Bundle:
-    card_count: 1
-    other:
-    - name: 1 Spindown die
-    - name: 1 Card-storage box
-    - name: 10 Basic Lands
-    - name: 5 Full-art lands
-    - name: 10 Traditional Foil Basic Lands
-    - name: 5 Traditional Foil Full-art Lands
-    sealed:
-    - count: 9
-      name: Star Trek Play Booster Pack
-      set: trk
-
-  Star Trek Bundle Case:
-    sealed:
-    - count: 6
-      name: Star Trek Bundle
-      set: trk
-  
   Star Trek Beam Me Up Bundle:
     card_count: 1
     other:
@@ -36,55 +16,57 @@ products:
     - count: 1
       name: Star Trek Collector Booster Pack
       set: trk
-  
   Star Trek Beam Me Up Bundle Case:
     sealed:
     - count: 6
       name: Star Trek Beam Me Up Bundle
       set: trk
-  
-  Star Trek Play Booster Pack:
-    card_count: 14
-    pack:
-    - code: play
-      set: trk
-  
-  Star Trek Play Booster Box:
+  Star Trek Beginner Box:
+    other:
+    - name: 2 Instant Play Decks
+    - name: 8 Jumpstart Decks
+    - name: 2 Learn-to-Play guides
+    - name: 2 Spindown life counters
+    - name: 2 Playmats
+  Star Trek Beginner Box Case: {}
+  Star Trek Bundle:
+    card_count: 1
+    other:
+    - name: 1 Spindown die
+    - name: 1 Card-storage box
+    - name: 10 Basic Lands
+    - name: 5 Full-art lands
+    - name: 10 Traditional Foil Basic Lands
+    - name: 5 Traditional Foil Full-art Lands
     sealed:
-    - count: 30
+    - count: 9
       name: Star Trek Play Booster Pack
       set: trk
-  
-  Star Trek Play Booster Box Case:
+  Star Trek Bundle Case:
     sealed:
     - count: 6
-      name: Star Trek Play Booster Box
+      name: Star Trek Bundle
       set: trk
-  
-  Star Trek Collector Booster Pack:
-    card_count: 15
-    pack:
-    - code: collector
-      set: trk
-  
   Star Trek Collector Booster Box:
     sealed:
     - count: 12
       name: Star Trek Collector Booster Pack
       set: trk
-  
   Star Trek Collector Booster Box Case:
     sealed:
     - count: 6
       name: Star Trek Collector Booster Box
       set: trk
-  
   Star Trek Collector Booster Box Master Case:
     sealed:
     - count: 6
       name: Star Trek Collector Booster Box Case
       set: trk
-  
+  Star Trek Collector Booster Pack:
+    card_count: 15
+    pack:
+    - code: collector
+      set: trk
   Star Trek Draft Night:
     other:
     - name: 90 Non-foil basic lands
@@ -97,49 +79,47 @@ products:
     - count: 1
       name: Star Trek Collector Booster Pack
       set: trk
-  
   Star Trek Draft Night Case:
     sealed:
     - count: 6
       name: Star Trek Draft Night
       set: trk
-  
-  Star Trek Beginner Box:
-    other:
-    - name: 2 Instant Play Decks
-    - name: 8 Jumpstart Decks
-    - name: 2 Learn-to-Play guides
-    - name: 2 Spindown life counters
-    - name: 2 Playmats
-  
+  Star Trek Play Booster Box:
+    sealed:
+    - count: 30
+      name: Star Trek Play Booster Pack
+      set: trk
+  Star Trek Play Booster Box Case:
+    sealed:
+    - count: 6
+      name: Star Trek Play Booster Box
+      set: trk
+  Star Trek Play Booster Pack:
+    card_count: 14
+    pack:
+    - code: play
+      set: trk
   Star Trek Prerelease Pack:
+    other:
+    - name: 1 Spindown die
+    - name: 1 Traditional Foil Rare/Mythic Rare Card
     sealed:
     - count: 6
       name: Star Trek Play Booster Pack
       set: trk
-    other:
-    - name: 1 Spindown die
-    - name: 1 Traditional Foil Rare/Mythic Rare Card
-  
   Star Trek Prerelease Pack Case:
     sealed:
     - count: 15
       name: Star Trek Prerelease Pack
       set: trk
-  
-  Star Trek Scene Box Enterprise-Q:
-    card_count: 6
-    deck:
-    - name: Enterprise-Q
-      set: trk
-    other:
-    - name: 6 Art-Only Scene Cards
-    - name: Star Trek Display Easel
+  Star Trek Scene Box Case:
     sealed:
-    - count: 3
-      name: Star Trek Play Booster Pack
+    - count: 2
+      name: Star Trek Scene Box Enterprise-Q
       set: trk
-  
+    - count: 2
+      name: Star Trek Scene Box Divergent Timelines
+      set: trk
   Star Trek Scene Box Divergent Timelines:
     card_count: 6
     deck:
@@ -152,30 +132,15 @@ products:
     - count: 3
       name: Star Trek Play Booster Pack
       set: trk
-  
-  Star Trek Scene Box Case:
+  Star Trek Scene Box Enterprise-Q:
+    card_count: 6
+    deck:
+    - name: Enterprise-Q
+      set: trk
+    other:
+    - name: 6 Art-Only Scene Cards
+    - name: Star Trek Display Easel
     sealed:
-    - count: 2
-      name: Star Trek Scene Box Enterprise-Q
+    - count: 3
+      name: Star Trek Play Booster Pack
       set: trk
-    - count: 2
-      name: Star Trek Scene Box Divergent Timelines
-      set: trk
-  
-  # Star Trek Commander Deck Federation Fleet:
-  
-  # Star Trek Commander Deck Landing Party:
-  
-  # Star Trek Commander Deck Klingon Fury:
-  
-  # Star Trek Commander Deck We Are the Borg:
-  
-  # Star Trek Commander Deck Case:
-  
-  # Star Trek Collector Commander Deck Landing Party:
-  
-  # Star Trek Collector Commander Deck Klingon Fury:
-  
-  # Star Trek Collector Commander Deck We Are the Borg:
-  
-  # Star Trek Collector Commander Deck Case:
