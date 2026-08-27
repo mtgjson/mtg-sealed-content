@@ -3,6 +3,7 @@ products:
   Star Trek Beam Me Up Bundle:
     category: BUNDLE
     identifiers:
+      scgId: SLD-MTG-BUN-TRKBEAM-EN
       tcgplayerProductId: '706154'
     subtype: GIFT_BUNDLE
   Star Trek Beam Me Up Bundle Case:
@@ -26,6 +27,7 @@ products:
   Star Trek Bundle:
     category: BUNDLE
     identifiers:
+      scgId: SLD-MTG-BUN-TRK-EN
       tcgplayerProductId: '706150'
     subtype: DEFAULT
   Star Trek Bundle Case:
@@ -38,6 +40,7 @@ products:
     identifiers:
       cardtraderId: '400880'
       mcmId: '897523'
+      scgId: SLD-MTG-BBX-TRKCOLLECTOR-EN
       tcgplayerProductId: '706142'
     subtype: COLLECTOR
   Star Trek Collector Booster Box Case:
