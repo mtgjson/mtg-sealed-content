@@ -56,6 +56,7 @@ products:
   Star Trek Collector Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      scgId: SLD-MTG-PCK-TRKCOLLECTOR-EN
       tcgplayerProductId: '706141'
     subtype: COLLECTOR
   Star Trek Draft Night:
@@ -63,6 +64,7 @@ products:
     identifiers:
       cardtraderId: '400883'
       mcmId: '897536'
+      scgId: SLD-MTG-DFT-TRK-EN
       tcgplayerProductId: '706162'
     subtype: DRAFT
   Star Trek Draft Night Case:
@@ -85,6 +87,7 @@ products:
   Star Trek Play Booster Pack:
     category: BOOSTER_PACK
     identifiers:
+      scgId: SLD-MTG-PCK-TRKPLAY-EN
       tcgplayerProductId: '706136'
     subtype: PLAY
   Star Trek Prerelease Pack:
@@ -109,6 +112,7 @@ products:
     identifiers:
       cardtraderId: '400887'
       mcmId: '897535'
+      scgId: SLD-MTG-BXS-TRK-EN-DIVERGENT
       tcgplayerProductId: '706158'
     subtype: OTHER
   Star Trek Scene Box Enterprise-Q:
@@ -116,5 +120,6 @@ products:
     identifiers:
       cardtraderId: '400886'
       mcmId: '897534'
+      scgId: SLD-MTG-BXS-TRK-EN-ENTERPRISEQ
       tcgplayerProductId: '706157'
     subtype: OTHER
