@@ -3,68 +3,91 @@ products:
   Star Trek Commander Deck Collectors Edition Set of 4:
     category: SUBSET
     identifiers:
+      mcmId: '897545'
+      scgId: SLD-MTG-CMD-TRCCOLLECTOR-EN-SET4
       tcgplayerProductId: '706181'
-    release_date: '2026-11-13'
-    subtype: COMMANDER
-  Star Trek Commander Deck Federation Fleet Collectors Edition:
-    category: DECK
-    identifiers:
-      tcgplayerProductId: '706177'
-    release_date: '2026-11-13'
-    subtype: COMMANDER
-  Star Trek Commander Deck Klingon Fury Collectors Edition:
-    category: DECK
-    identifiers:
-      tcgplayerProductId: '706174'
-    release_date: '2026-11-13'
-    subtype: COMMANDER
-  Star Trek Commander Deck Landing Party Collectors Edition:
-    category: DECK
-    identifiers:
-      tcgplayerProductId: '706175'
-    release_date: '2026-11-13'
-    subtype: COMMANDER
-  Star Trek Commander Deck We Are the Borg Collectors Edition:
-    category: DECK
-    identifiers:
-      tcgplayerProductId: '706173'
-    release_date: '2026-11-13'
-    subtype: COMMANDER
-  Star Trek Commander Deck Set of 4:
-    category: SUBSET
-    identifiers:
-      tcgplayerProductId: '706179'
     release_date: '2026-11-13'
     subtype: COMMANDER
   Star Trek Commander Deck Federation Fleet:
     category: DECK
     identifiers:
       cardtraderId: '400888'
+      mcmId: '897537'
       scgId: SLD-MTG-CMD-TRC-EN-FEDERATION
       tcgplayerProductId: '706167'
+    release_date: '2026-11-13'
+    subtype: COMMANDER
+  Star Trek Commander Deck Federation Fleet Collectors Edition:
+    category: DECK
+    identifiers:
+      cardtraderId: '400892'
+      mcmId: '897544'
+      scgId: SLD-MTG-CMD-TRCCOLLECTOR-EN-FEDERATION
+      tcgplayerProductId: '706177'
     release_date: '2026-11-13'
     subtype: COMMANDER
   Star Trek Commander Deck Klingon Fury:
     category: DECK
     identifiers:
       cardtraderId: '400890'
+      mcmId: '897539'
+      miniaturemarketId: 019f815cab7b73919f444e14d61a3560
       scgId: SLD-MTG-CMD-TRC-EN-KLINGON
       tcgplayerProductId: '706169'
+    release_date: '2026-11-13'
+    subtype: COMMANDER
+  Star Trek Commander Deck Klingon Fury Collectors Edition:
+    category: DECK
+    identifiers:
+      cardtraderId: '400894'
+      mcmId: '897542'
+      scgId: SLD-MTG-CMD-TRCCOLLECTOR-EN-KLINGON
+      tcgplayerProductId: '706174'
     release_date: '2026-11-13'
     subtype: COMMANDER
   Star Trek Commander Deck Landing Party:
     category: DECK
     identifiers:
       cardtraderId: '400889'
+      mcmId: '897538'
+      miniaturemarketId: 019f815cb5197038b0eab6e7942c5d7b
       scgId: SLD-MTG-CMD-TRC-EN-LANDING
       tcgplayerProductId: '706168'
+    release_date: '2026-11-13'
+    subtype: COMMANDER
+  Star Trek Commander Deck Landing Party Collectors Edition:
+    category: DECK
+    identifiers:
+      cardtraderId: '400893'
+      mcmId: '897543'
+      scgId: SLD-MTG-CMD-TRCCOLLECTOR-EN-LANDING
+      tcgplayerProductId: '706175'
+    release_date: '2026-11-13'
+    subtype: COMMANDER
+  Star Trek Commander Deck Set of 4:
+    category: SUBSET
+    identifiers:
+      mcmId: '897546'
+      scgId: SLD-MTG-CMD-TRC-EN-SET4
+      tcgplayerProductId: '706179'
     release_date: '2026-11-13'
     subtype: COMMANDER
   Star Trek Commander Deck We Are the Borg:
     category: DECK
     identifiers:
       cardtraderId: '400891'
+      mcmId: '897540'
+      miniaturemarketId: 019f815cbf30735991f57c16352de91e
       scgId: SLD-MTG-CMD-TRC-EN-BORG
       tcgplayerProductId: '706171'
+    release_date: '2026-11-13'
+    subtype: COMMANDER
+  Star Trek Commander Deck We Are the Borg Collectors Edition:
+    category: DECK
+    identifiers:
+      cardtraderId: '400895'
+      mcmId: '897541'
+      scgId: SLD-MTG-CMD-TRCCOLLECTOR-EN-BORG
+      tcgplayerProductId: '706173'
     release_date: '2026-11-13'
     subtype: COMMANDER
