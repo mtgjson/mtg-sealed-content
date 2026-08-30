@@ -67,6 +67,31 @@ products:
     pack:
     - code: draft
       set: iko
+  Ikoria Lair of Behemoths Japanese Collector Booster Box:
+    sealed:
+    - count: 12
+      name: Ikoria Lair of Behemoths Japanese Collector Booster Pack
+      set: iko
+  Ikoria Lair of Behemoths Japanese Collector Booster Pack:
+    card_count: 15
+    pack:
+    - code: collector-jp
+      set: iko
+  Ikoria Lair of Behemoths Japanese Draft Booster Box:
+    sealed:
+    - count: 36
+      name: Ikoria Lair of Behemoths Japanese Draft Booster Pack
+      set: iko
+  Ikoria Lair of Behemoths Japanese Draft Booster Box Case:
+    sealed:
+    - count: 6
+      name: Ikoria Lair of Behemoths Japanese Draft Booster Box
+      set: iko
+  Ikoria Lair of Behemoths Japanese Draft Booster Pack:
+    card_count: 15
+    pack:
+    - code: jp
+      set: iko
   Ikoria Lair of Behemoths MTGO Redemption:
     card_count: 274
     deck:

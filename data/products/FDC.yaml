@@ -3,6 +3,7 @@ products:
   Foundations Commander Deck Calling All Angels:
     category: DECK
     identifiers:
+      cardKingdomId: '331654'
       cardtraderId: '389398'
       mcmId: '886191'
       scgId: SLD-MTG-CMD-FDC-EN-ANGELS
@@ -11,6 +12,7 @@ products:
   Foundations Commander Deck Keen Engineering:
     category: DECK
     identifiers:
+      cardKingdomId: '331655'
       cardtraderId: '389399'
       mcmId: '886195'
       scgId: SLD-MTG-CMD-FDC-EN-ENGINEERING
@@ -19,6 +21,7 @@ products:
   Foundations Commander Deck Reign of Dragons:
     category: DECK
     identifiers:
+      cardKingdomId: '331657'
       cardtraderId: '389401'
       mcmId: '886198'
       scgId: SLD-MTG-CMD-FDC-EN-DRAGONS
@@ -27,6 +30,7 @@ products:
   Foundations Commander Deck Tramplesaurus Rex:
     category: DECK
     identifiers:
+      cardKingdomId: '331658'
       cardtraderId: '389402'
       mcmId: '886200'
       scgId: SLD-MTG-CMD-FDC-EN-REX
@@ -35,6 +39,7 @@ products:
   Foundations Commander Deck Wretched Ranks:
     category: DECK
     identifiers:
+      cardKingdomId: '331656'
       cardtraderId: '389400'
       mcmId: '886197'
       scgId: SLD-MTG-CMD-FDC-EN-WRETCHED
@@ -43,6 +48,8 @@ products:
   Foundations Commander Decks Set of 5:
     category: SUBSET
     identifiers:
+      cardKingdomId: '331659'
+      mcmId: '903009'
       scgId: SLD-MTG-CMD-FDC-EN-SETOF5
       tcgplayerProductId: '707496'
     subtype: COMMANDER
