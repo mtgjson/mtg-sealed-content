@@ -14,25 +14,35 @@ products:
     - count: 1
       name: Star Trek Commander Deck We Are the Borg Collectors Edition
       set: trc
+  Star Trek Commander Deck Federation Fleet:
+    card_count: 99
+    deck:
+    - name: Federation Fleet
+      set: trc
   Star Trek Commander Deck Federation Fleet Collectors Edition:
     card_count: 99
     deck:
     - name: Federation Fleet Collector's Edition
       set: msc
+  Star Trek Commander Deck Klingon Fury:
+    card_count: 99
+    deck:
+    - name: Klingon Fury
+      set: trc
   Star Trek Commander Deck Klingon Fury Collectors Edition:
     card_count: 99
     deck:
     - name: Klingon Fury Collector's Edition
       set: trc
+  Star Trek Commander Deck Landing Party:
+    card_count: 99
+    deck:
+    - name: Landing Party
+      set: trc
   Star Trek Commander Deck Landing Party Collectors Edition:
     card_count: 99
     deck:
     - name: Landing Party Collector's Edition
-      set: trc
-  Star Trek Commander Deck We Are the Borg Collectors Edition:
-    card_count: 99
-    deck:
-    - name: We Are the Borg Collector's Edition
       set: trc
   Star Trek Commander Deck Set of 4:
     sealed:
@@ -48,23 +58,13 @@ products:
     - count: 1
       name: Star Trek Commander Deck Federation Fleet
       set: trc
-  Star Trek Commander Deck Federation Fleet:
-    card_count: 99
-    deck:
-    - name: Federation Fleet
-      set: trc
-  Star Trek Commander Deck Klingon Fury:
-    card_count: 99
-    deck:
-    - name: Klingon Fury
-      set: trc
-  Star Trek Commander Deck Landing Party:
-    card_count: 99
-    deck:
-    - name: Landing Party
-      set: trc
   Star Trek Commander Deck We Are the Borg:
     card_count: 99
     deck:
     - name: We Are the Borg
+      set: trc
+  Star Trek Commander Deck We Are the Borg Collectors Edition:
+    card_count: 99
+    deck:
+    - name: We Are the Borg Collector's Edition
       set: trc
