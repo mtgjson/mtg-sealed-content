@@ -1,4 +1,5 @@
 import json
+import os
 import sys
 from pathlib import Path
 import requests
@@ -31,14 +32,33 @@ def load_referenced_decks():
 
 referenced_decks = load_referenced_decks()
 
-gh_request = requests.get("https://raw.githubusercontent.com/taw/magic-preconstructed-decks-data/refs/heads/master/decks_v2.json")
+# Prefer a locally-built decklist JSON when one is supplied via $DECKS_JSON. The
+# daily workflow builds it straight from the magic-preconstructed-decks source
+# (its own bin/build_jsons), so a decklist added today is picked up today rather
+# than waiting for the separately-scheduled magic-preconstructed-decks-data
+# export. Fall back to the compiled snapshot when run by hand.
+local_decks = os.environ.get("DECKS_JSON")
+if local_decks and Path(local_decks).exists():
+    with open(local_decks) as f:
+        decks = json.load(f)
+    print(f"Loaded {len(decks)} decks from local build {local_decks}")
+else:
+    gh_request = requests.get("https://raw.githubusercontent.com/taw/magic-preconstructed-decks-data/refs/heads/master/decks_v2.json")
 
-try:
-    decks = json.loads(gh_request.content)
-except json.JSONDecodeError:
-    print("unable to load magic-preconstructed-decks-data file, here are the contents")
-    print(gh_request.content)
-    sys.exit(1)
+    try:
+        decks = json.loads(gh_request.content)
+    except json.JSONDecodeError:
+        print("unable to load magic-preconstructed-decks-data file, here are the contents")
+        print(gh_request.content)
+        sys.exit(1)
+
+# bin/build_jsons (v1) emits `cards` as a sections dict ({"Main Deck": [...]});
+# the compiled decks_v2.json emits a flat list. Flatten so the card_count sum
+# below works with either source.
+for deck in decks:
+    cards = deck.get("cards")
+    if isinstance(cards, dict):
+        deck["cards"] = [card for section in cards.values() for card in section]
 
 skip_types = [
     # skip mtgo decks
