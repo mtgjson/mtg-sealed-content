@@ -1,25 +1,5 @@
 code: fin
 products:
-  Final Fantasy Box Set Camp Comrades:
-    card_count: 6
-    deck:
-    - name: Camp Comrades
-      set: fin
-  Final Fantasy Box Set Children of Fate:
-    card_count: 6
-    deck:
-    - name: Children of Fate
-      set: fin
-  Final Fantasy Box Set Garland at the Chaos Shrine:
-    card_count: 6
-    deck:
-    - name: Garland at the Chaos Shrine
-      set: fin
-  Final Fantasy Box Set The Siege of Alexandria:
-    card_count: 6
-    deck:
-    - name: The Siege of Alexandria
-      set: fin
   Final Fantasy Bundle:
     card_count: 2
     deck:
@@ -41,6 +21,7 @@ products:
       name: Final Fantasy Bundle
       set: fin
   Final Fantasy Chocobo Booster Pack:
+    card_count: 12
     pack:
     - code: chocobo-bundle
       set: fin
@@ -55,7 +36,7 @@ products:
     - name: Final Fantasy Bundle Land Pack
       set: fin
     other:
-    - name: Final Fantasy Spindown
+    - name: Final Fantasy Chocobo Click Wheel
     - name: Final Fantasy Card Storage Box
     pack:
     - code: chocobo-bundle-scene
@@ -185,6 +166,15 @@ products:
       set: fin
   Final Fantasy Scene Box Set of 4:
     sealed:
+    - count: 1
+      name: Final Fantasy Scene Box Camp Comrades
+      set: fin
+    - count: 1
+      name: Final Fantasy Scene Box Children of Fate
+      set: fin
+    - count: 1
+      name: Final Fantasy Scene Box Garland at the Chaos Shrine
+      set: fin
     - count: 1
       name: Final Fantasy Scene Box The Siege of Alexandria
       set: fin
