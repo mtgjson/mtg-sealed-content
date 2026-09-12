@@ -1323,16 +1323,6 @@ products:
     - count: 1
       name: Secret Lair Drop PixelLands_v02jpg
       set: sld
-  Secret Lair Bundle Spring Superdrop 2023 Its Raining Foils And Non Foils:
-    sealed:
-    - count: 1
-      name: Secret Lair Bundle Spring Superdrop 2023 Those Foils Are Really Coming
-        Down
-      set: sld
-    - count: 1
-      name: Secret Lair Bundle Spring Superdrop 2023 Those Non Foils Just Wont Let
-        Up
-      set: sld
   Secret Lair Bundle Spring Superdrop 2023 March of the Machine:
     sealed:
     - count: 1
@@ -1344,8 +1334,6 @@ products:
     - count: 1
       name: Secret Lair Drop Showcase March of the Machine Vol 3
       set: sld
-  Secret Lair Bundle Spring Superdrop 2023 Those Foils Are Really Coming Down: []
-  Secret Lair Bundle Spring Superdrop 2023 Those Non Foils Just Wont Let Up: []
   Secret Lair Bundle Summer Superdrop 2023 Carving Up A Barrel of Foils:
     sealed:
     - count: 1
@@ -1557,16 +1545,6 @@ products:
     - count: 1
       name: Secret Lair Drop Theros Stargazing Vol V Nylea
       set: sld
-  Secret Lair Bundle Winter Superdrop 2023 The Prophets Predicted: []
-  Secret Lair Bundle Winter Superdrop 2023 The Prophets Predicted Everything:
-    sealed:
-    - count: 1
-      name: Secret Lair Bundle Winter Superdrop 2023 The Prophets Predicted
-      set: sld
-    - count: 1
-      name: Secret Lair Bundle Winter Superdrop 2023 The Prophets Predicted Foil
-      set: sld
-  Secret Lair Bundle Winter Superdrop 2023 The Prophets Predicted Foil: []
   Secret Lair Commander Deck 20 Ways to Win:
     card:
     - foil: true
@@ -1589,6 +1567,8 @@ products:
     deck:
     - name: 'Angels: They''re Just Like Us but Cooler and with Wings'
       set: sld
+    other:
+    - name: 10 double faced tokens (including the token faces mapped in the deck)
   Secret Lair Commander Deck Everyones Invited!:
     card:
     - foil: true
@@ -1609,6 +1589,8 @@ products:
     deck:
     - name: From Cute to Brute
       set: sld
+    other:
+    - name: 15 double faced tokens
   Secret Lair Commander Deck Goblin Storm:
     card:
     - foil: true
