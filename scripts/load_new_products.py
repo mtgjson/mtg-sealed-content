@@ -137,7 +137,7 @@ def get_tcgplayer(api_version, auth_code):
                 if any(tag.lower() in product_name.lower() for tag in skip_tags):
                     continue
 
-                if "Secret Lair" in product_name:
+                if "secret lair" in group_id[1].lower() or "secret lair" in product_name.lower():
                     if any(tag.lower() in product_name.lower() for tag in sld_skip_tags):
                         continue
 
