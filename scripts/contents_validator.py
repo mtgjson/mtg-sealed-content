@@ -161,6 +161,64 @@ valid_subtypes = [
     "SEALED_SET", "PRERELEASE", "OTHER", "CHALLENGER", "SIX", "CONVENTION", "MTGO_REDEMPTION",
 ]
 
+CONTENT_FIELDS = {
+    "card": {"name", "set", "number", "foil", "etched", "token", "uuid", "count"},
+    "pack": {"set", "code"},
+    "deck": {"set", "name"},
+    "sealed": {"set", "name", "count", "uuid"},
+    "other": {"name"},
+}
+
+
+def check_fields(value, allowed, path):
+    if not isinstance(value, dict):
+        raise ValueError(f"{path} must be a mapping")
+    unknown = value.keys() - allowed
+    if unknown:
+        raise ValueError(f"{path}: unknown fields {sorted(unknown)}")
+
+
+def check_count(value, path, minimum=1):
+    if type(value) is not int or value < minimum:
+        raise ValueError(f"{path} must be an integer >= {minimum}")
+
+
+def validate_content_fields(contents, path="contents"):
+    # Empty entries are intentional placeholders for unresearched products.
+    if contents is None or contents == []:
+        return
+    check_fields(contents, set(CONTENT_FIELDS) | {
+        "variable", "variable_mode", "card_count", "chance", "weight"
+    }, path)
+    for key in ("card_count", "chance", "weight"):
+        if key in contents:
+            check_count(contents[key], f"{path}.{key}", minimum=0)
+    for kind, fields in CONTENT_FIELDS.items():
+        entries = contents.get(kind, [])
+        if not isinstance(entries, list):
+            raise ValueError(f"{path}.{kind} must be a list")
+        for index, entry in enumerate(entries):
+            entry_path = f"{path}.{kind}[{index}]"
+            check_fields(entry, fields, entry_path)
+            if "count" in entry:
+                check_count(entry["count"], f"{entry_path}.count")
+    if "variable" in contents:
+        if not isinstance(contents["variable"], list):
+            raise ValueError(f"{path}.variable must be a list")
+        for index, entry in enumerate(contents["variable"]):
+            validate_content_fields(entry, f"{path}.variable[{index}]")
+    if "variable_mode" in contents:
+        mode = contents["variable_mode"]
+        check_fields(mode, {"count", "replacement", "weight"}, f"{path}.variable_mode")
+        if "variable" not in contents:
+            raise ValueError(f"{path}.variable_mode requires variable")
+        for key in ("count", "weight"):
+            if key in mode:
+                check_count(mode[key], f"{path}.variable_mode.{key}")
+        if "replacement" in mode and type(mode["replacement"]) is not bool:
+            raise ValueError(f"{path}.variable_mode.replacement must be a boolean")
+
+
 def validate_structure():
     contentFolder = Path("data/contents/")
     failed = False
@@ -169,18 +227,13 @@ def validate_structure():
             contents = yaml.safe_load(f)
 
         for name, p in contents["products"].items():
-            if not p:
-                p = {}
-            if isinstance(p, list):
-                print(f"Product {name} in set {set_file.stem} formatted incorrectly")
-                failed = True
-                continue
-            if set(p.keys()) == {"copy"}:
-                p = contents["products"][p["copy"]]
             try:
+                if isinstance(p, dict) and set(p) == {"copy"}:
+                    p = contents["products"][p["copy"]]
+                validate_content_fields(p)
                 pc.product(p, contents["code"], name)
-            except:
-                print(f"Product {name} in set {set_file.stem} failed")
+            except (KeyError, TypeError, ValueError, AttributeError) as exc:
+                print(f"Product {name} in set {set_file.stem} failed: {exc}")
                 failed = True
     if failed:
         raise ImportError()

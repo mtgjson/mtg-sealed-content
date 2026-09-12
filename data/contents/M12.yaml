@@ -143,7 +143,7 @@ products:
     - name: Magic 2012 Foil Redemption
       set: m12
   2012 Core Set Sample Deck Chandra Nalaar:
-    card count: 30
+    card_count: 30
     variable:
     - deck:
       - name: Red Deck A
@@ -155,7 +155,7 @@ products:
       count: 1
       replacement: false
   2012 Core Set Sample Deck Garruk Wildspeaker:
-    card count: 30
+    card_count: 30
     variable:
     - deck:
       - name: Green Deck A
@@ -167,7 +167,7 @@ products:
       count: 1
       replacement: false
   2012 Core Set Sample Deck Gideon Jura:
-    card count: 30
+    card_count: 30
     variable:
     - deck:
       - name: White Deck A
@@ -179,7 +179,7 @@ products:
       count: 1
       replacement: false
   2012 Core Set Sample Deck Jace Beleren:
-    card count: 30
+    card_count: 30
     variable:
     - deck:
       - name: Blue Deck A
@@ -191,7 +191,7 @@ products:
       count: 1
       replacement: false
   2012 Core Set Sample Deck Sorin Markov:
-    card count: 30
+    card_count: 30
     variable:
     - deck:
       - name: Black Deck A
