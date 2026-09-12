@@ -75,8 +75,11 @@ products:
     - code: collector
       set: ecl
   Lorwyn Eclipsed Draft Night:
+    card_count: 90
+    deck:
+    - name: Lorwyn Eclipsed Draft Night Land Pack
+      set: ecl
     other:
-    - name: 90 Non-foil basic lands
     - name: 10 Non-foil double-sided tokens
     - name: 1 Draft insert
     sealed:
@@ -118,4 +121,8 @@ products:
     - name: Spindown die
     pack:
     - code: prerelease
+      set: ecl
+    sealed:
+    - count: 6
+      name: Lorwyn Eclipsed Play Booster Pack
       set: ecl
