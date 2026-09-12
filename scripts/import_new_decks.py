@@ -44,7 +44,11 @@ if local_decks and Path(local_decks).exists():
         decks = json.load(f)
     print(f"Loaded {len(decks)} decks from local build {local_decks}")
 else:
-    gh_request = requests.get("https://raw.githubusercontent.com/taw/magic-preconstructed-decks-data/refs/heads/master/decks_v2.json")
+    gh_request = requests.get(
+        "https://raw.githubusercontent.com/taw/magic-preconstructed-decks-data/refs/heads/master/decks_v2.json",
+        timeout=(10, 60),
+    )
+    gh_request.raise_for_status()
 
     try:
         decks = json.loads(gh_request.content)

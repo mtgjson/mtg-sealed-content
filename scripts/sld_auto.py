@@ -6,7 +6,8 @@ import requests
 import sys
 
 url = r"https://mtgjson.com/api/v5/SLD.json"
-r = requests.get(url, stream=True)
+r = requests.get(url, stream=True, timeout=(10, 60))
+r.raise_for_status()
 uuids = {}
 parser = ijson.parse(r.content)
 

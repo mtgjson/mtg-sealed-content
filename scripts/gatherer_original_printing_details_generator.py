@@ -48,6 +48,11 @@ class GathererDownloader:
     def __del__(self) -> None:
         self.session.close()
 
+    def _get(self, url):
+        response = self.session.get(url, timeout=(10, 60))
+        response.raise_for_status()
+        return response
+
     def get_set_codes(self) -> List[str]:
         url = "https://gatherer.wizards.com/sets?page={0}"
 
@@ -55,7 +60,7 @@ class GathererDownloader:
 
         for page_number in range(1, 25):
             formatted_url = url.format(page_number)
-            paged_response = self.session.get(formatted_url)
+            paged_response = self._get(formatted_url)
 
             soup = bs4.BeautifulSoup(paged_response.text, "html.parser")
 
@@ -78,7 +83,7 @@ class GathererDownloader:
 
         for page_number in range(1, 100):
             formatted_url = url.format(set_code, page_number)
-            paged_response = self.session.get(formatted_url)
+            paged_response = self._get(formatted_url)
 
             soup = bs4.BeautifulSoup(paged_response.content, "html.parser")
 
@@ -95,7 +100,7 @@ class GathererDownloader:
         return card_urls
 
     def get_card_multiverse_id(self, card_url: str) -> Optional[int]:
-        card_data_response = self.session.get(card_url).content.decode("utf-8")
+        card_data_response = self._get(card_url).content.decode("utf-8")
         multiverse_ids = self.multiverse_id_text_regex.findall(card_data_response)
         if multiverse_ids:
             return int(multiverse_ids[0])
@@ -105,7 +110,7 @@ class GathererDownloader:
 
     def _get_decoded_card_response(self, card_url: str) -> str:
         return html.unescape(
-            self.session.get(card_url)
+            self._get(card_url)
             .content.decode("unicode_escape")
             .replace("\u2028", "")  # Exception case for WWK #4 - Battle Hurda
             .encode("latin1")
