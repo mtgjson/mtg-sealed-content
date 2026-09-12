@@ -1,3 +1,8 @@
+if __package__:
+    from .atomic_write import atomic_write
+else:
+    from atomic_write import atomic_write
+
 import json
 import re
 import sys
@@ -1072,7 +1077,7 @@ def main(secret):
     for known_file in Path("data/products").glob("*.yaml"):
         with open(known_file, "r") as yfile:
             loaded_data = yaml.safe_load(yfile)
-        with open(known_file, "w") as yfile:
+        with atomic_write(known_file) as yfile:
             yaml.safe_dump(loaded_data, yfile)
 
         # For each provider, load every known id
@@ -1125,7 +1130,7 @@ def main(secret):
                 reviews[key][prod_name]["release_date"] = date_obj.strftime("%Y-%m-%d")
 
     # Dump new products into the review section
-    with open("data/review.yaml", "w") as yfile:
+    with atomic_write('data/review.yaml') as yfile:
         yaml.safe_dump(reviews, yfile)
 
     # Add any new/modified products to the contents files
@@ -1147,7 +1152,7 @@ def main(secret):
                 removes.append(p_name)
         for n in removes:
             content_data["products"].pop(n)
-        with open(Path("data/contents").joinpath(set_file.name), "w") as yfile:
+        with atomic_write(Path('data/contents').joinpath(set_file.name)) as yfile:
             yaml.safe_dump(content_data, yfile)
 
 
