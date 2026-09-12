@@ -6,16 +6,19 @@ products:
     - code: box-topper
       set: hob
   The Hobbit Bundle:
-    card_count: 1
+    card:
+    - foil: true
+      name: The Misty Mountains Cold
+      number: 321
+      set: hob
+    card_count: 35
     deck:
     - name: The Hobbit Bundle Land Pack
       set: hob
     other:
+    - name: 2 Reference cards
     - name: Spindown die
     - name: Card storage box
-    pack:
-    - code: bundle-promo
-      set: hob
     sealed:
     - count: 9
       name: The Hobbit Play Booster Pack
@@ -27,6 +30,9 @@ products:
       set: hob
   The Hobbit Collector Booster Box:
     sealed:
+    - count: 1
+      name: The Hobbit Box Topper Pack
+      set: hob
     - count: 12
       name: The Hobbit Collector Booster Pack
       set: hob
@@ -46,8 +52,12 @@ products:
     - code: collector
       set: hob
   The Hobbit Draft Night:
+    card_count: 90
+    deck:
+    - name: The Hobbit Draft Night Land Pack
+      set: hob
     other:
-    - name: 90 Non-foil basic lands
+    - name: 10 Non-foil double-sided tokens
     - name: 1 Draft insert
     sealed:
     - count: 12
@@ -62,16 +72,19 @@ products:
       name: The Hobbit Draft Night
       set: hob
   The Hobbit Gift Bundle:
-    card_count: 1
+    card:
+    - foil: true
+      name: The Misty Mountains Cold
+      number: 321
+      set: hob
+    card_count: 35
     deck:
-    - name: The Hobbit Bundle Land Pack
+    - name: The Hobbit Gift Bundle Land Pack
       set: hob
     other:
+    - name: 2 Reference cards
     - name: Spindown die
     - name: Card storage box
-    pack:
-    - code: bundle-promo
-      set: hob
     sealed:
     - count: 9
       name: The Hobbit Play Booster Pack
@@ -86,6 +99,9 @@ products:
       set: hob
   The Hobbit Play Booster Box:
     sealed:
+    - count: 1
+      name: The Hobbit Box Topper Pack
+      set: hob
     - count: 30
       name: The Hobbit Play Booster Pack
       set: hob
@@ -105,7 +121,20 @@ products:
       name: The Hobbit Prerelease Pack
       set: hob
   The Hobbit Prerelease Pack:
-    card_count: 1
+    card:
+    - name: Plains
+      number: 313
+      set: hob
+    - name: Plains
+      number: 314
+      set: hob
+    - name: Plains
+      number: 315
+      set: hob
+    - name: Plains
+      number: 316
+      set: hob
+    card_count: 5
     other:
     - name: Deck box
     - name: Spindown die
@@ -129,6 +158,9 @@ products:
     deck:
     - name: Crack the Plates
       set: hob
+    other:
+    - name: 6 Art cards
+    - name: 1 Display easel
     sealed:
     - count: 3
       name: The Hobbit Play Booster Pack
@@ -146,6 +178,9 @@ products:
     deck:
     - name: Treasures of Smaug
       set: hob
+    other:
+    - name: 6 Art cards
+    - name: 1 Display easel
     sealed:
     - count: 3
       name: The Hobbit Play Booster Pack
