@@ -16,6 +16,12 @@ Compare physical product contents with the three source layers; distinguish wron
 
 Use isolated worktrees and fresh origin default-branch tips in every touched repository. Follow local checkout instructions: never switch or reset the user's checkout. If its checked-out default cannot safely be fast-forwarded, leave it untouched, use the fresh origin tip in an isolated worktree and disclose the distinction. Do not measure a stale feature branch. Target each PR at its repository's default branch, never another PR. Stage only intentional source files: the sealed validator can rewrite `status.txt`, and LFS/generated outputs are unrelated to content edits.
 
+## Audit workflow
+
+For every audit, finish the analysis across the full requested scope before starting product edits or PRs. This applies to a single product or release, a group of products, a year, or any other audit scope. Keep a consolidated ledger of confirmed fixes, items with no confirmed change, unresolved evidence, and exclusions. Resume from completed findings instead of repeating cleared items.
+
+After the analysis, present a queue containing only confirmed changes, then implement and submit those fixes in the requested order and grouping. “One at a time” applies to the fix/PR queue, not to pausing after each clean item. Keep uncertain findings out of the fix queue until resolved.
+
 ## Inventory and evidence
 
 1. Determine the requested year/releases and exclusions from the conversation. Promo Packs, unreleased sets, accessories, and Secret Lair drops are scope decisions, not automatic exclusions. If the user excludes deck boxes, preserve existing entries and omit newly proposed ones.
