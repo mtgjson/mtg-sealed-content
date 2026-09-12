@@ -1,4 +1,5 @@
 import json
+from copy import deepcopy
 from collections import defaultdict
 
 import pathlib
@@ -117,14 +118,21 @@ def filter_tokens_without_uuids(
     """
     output_dict_of_tokens = defaultdict(list)
     for output_token in output_tokens:
-        for token_part in output_token["tokenParts"]:
-            if "uuids" in token_part:
-                # These entities are for internal use only
-                token_part.pop("tokenType")
-                token_part.pop("faceId")
-                token_part.pop("faceName")
-                for uuid in token_part["uuids"]:
-                    output_dict_of_tokens[uuid].append(output_token)
+        # Collect the keys before copying so a UUID appearing on both faces
+        # receives this marketplace product only once.
+        uuids = dict.fromkeys(
+            uuid
+            for part in output_token["tokenParts"]
+            for uuid in part.get("uuids", [])
+        )
+        for uuid in uuids:
+            entry = deepcopy(output_token)
+            for part in entry["tokenParts"]:
+                if "uuids" in part:
+                    for key in ("tokenType", "faceId", "faceName"):
+                        part.pop(key, None)
+            # Conversion below mutates tokenParts for this specific UUID.
+            output_dict_of_tokens[uuid].append(entry)
 
     return output_dict_of_tokens
 
