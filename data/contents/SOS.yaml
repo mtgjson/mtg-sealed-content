@@ -41,6 +41,7 @@ products:
     - name: Secrets of Strixhaven Bundle Land Pack
       set: sos
     other:
+    - name: 2 Reference cards
     - name: 1 Spindown die
     - name: 1 Card-storage box
     sealed:
@@ -53,11 +54,14 @@ products:
       name: Secrets of Strixhaven Bundle
       set: sos
   Secrets of Strixhaven Codex Bundle:
-    card_count: 2
+    card_count: 22
+    deck:
+    - name: Secrets of Strixhaven Codex Bundle Land Pack
+      set: sos
     other:
     - name: 1 Spindown die
-    - name: 20 Foil basic lands
-    - name: 1 Codex Booster
+    - name: 2 Reference cards
+    - name: 1 Card-storage box
     pack:
     - code: codex-bundle
       set: sos
@@ -94,8 +98,12 @@ products:
     - code: collector
       set: sos
   Secrets of Strixhaven Draft Night:
+    card_count: 90
+    deck:
+    - name: Secrets of Strixhaven Draft Night Land Pack
+      set: sos
     other:
-    - name: 90 Non-foil basic lands
+    - name: 10 Non-foil double-sided tokens
     - name: 1 Draft insert
     sealed:
     - count: 12
@@ -219,46 +227,64 @@ products:
     deck:
     - name: Black Deck
       set: sos
+    other:
+    - name: 1 Deck box
   Secrets of Strixhaven Welcome Deck Blue Deck:
     card_count: 40
     deck:
     - name: Blue Deck
       set: sos
+    other:
+    - name: 1 Deck box
   Secrets of Strixhaven Welcome Deck Green Deck:
     card_count: 40
     deck:
     - name: Green Deck
       set: sos
+    other:
+    - name: 1 Deck box
   Secrets of Strixhaven Welcome Deck Red Deck:
     card_count: 40
     deck:
     - name: Red Deck
       set: sos
+    other:
+    - name: 1 Deck box
   Secrets of Strixhaven Welcome Deck White Deck:
     card_count: 40
     deck:
     - name: White Deck
       set: sos
+    other:
+    - name: 1 Deck box
   Welcome Deck 2026 Black Deck:
     card_count: 40
     deck:
     - name: Black Deck
       set: sos
+    other:
+    - name: 1 Deck box
   Welcome Deck 2026 Blue Deck:
     card_count: 40
     deck:
     - name: Blue Deck
       set: sos
+    other:
+    - name: 1 Deck box
   Welcome Deck 2026 Green Deck:
     card_count: 40
     deck:
     - name: Green Deck
       set: sos
+    other:
+    - name: 1 Deck box
   Welcome Deck 2026 Red Deck:
     card_count: 40
     deck:
     - name: Red Deck
       set: sos
+    other:
+    - name: 1 Deck box
   Welcome Deck 2026 Set of 5:
     sealed:
     - count: 1
@@ -281,3 +307,5 @@ products:
     deck:
     - name: White Deck
       set: sos
+    other:
+    - name: 1 Deck box
