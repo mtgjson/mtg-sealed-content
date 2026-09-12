@@ -19,6 +19,11 @@ import yaml
 import product_classes as pc
 from pathlib import Path
 
+if __package__:
+    from .reference_validator import validate_references
+else:
+    from reference_validator import validate_references
+
 def build_uuid_map(mtgjson_path):
     import ijson
     import requests
@@ -269,6 +274,7 @@ def validate_structure():
                     failed = True
     if failed:
         raise ImportError()
+    validate_references()
     print("All products validated")
 
 def rebuild_status_and_deck_map(uuid_map):
