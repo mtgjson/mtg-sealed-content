@@ -126,8 +126,9 @@ products:
       set: hob
   The Hobbit Scene Box Crack the Plates:
     card_count: 6
-    other:
-    - name: 6 borderless scene cards
+    deck:
+    - name: Crack the Plates
+      set: hob
     sealed:
     - count: 3
       name: The Hobbit Play Booster Pack
@@ -142,8 +143,9 @@ products:
       set: hob
   The Hobbit Scene Box Treasures of Smaug:
     card_count: 6
-    other:
-    - name: 6 borderless scene cards
+    deck:
+    - name: Treasures of Smaug
+      set: hob
     sealed:
     - count: 3
       name: The Hobbit Play Booster Pack
