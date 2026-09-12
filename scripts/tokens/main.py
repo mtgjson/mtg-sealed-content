@@ -1,3 +1,5 @@
+from ..atomic_write import atomic_write
+
 import json
 from copy import deepcopy
 from collections import defaultdict
@@ -192,7 +194,7 @@ def build_tokens_mapping(
 def save_output(parent_set_code: str, output: Dict[str, List[Dict[str, Any]]]) -> None:
     output_dir = pathlib.Path("outputs/token_products_mappings")
     output_dir.mkdir(parents=True, exist_ok=True)
-    with output_dir.joinpath(f"{parent_set_code}.json").open("w") as fp:
+    with atomic_write(output_dir.joinpath(f'{parent_set_code}.json')) as fp:
         json.dump(output, fp, indent=4, sort_keys=True)
 
 

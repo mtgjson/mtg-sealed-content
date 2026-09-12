@@ -1,3 +1,8 @@
+if __package__:
+    from .atomic_write import atomic_write
+else:
+    from atomic_write import atomic_write
+
 from typing import List, Optional
 import bs4
 import datetime
@@ -223,7 +228,7 @@ def download_set(set_code: str) -> None:
                 "type": original_printed_type,
             }
 
-    with pathlib.Path(f"dumps/{set_code}.json").open("w") as dump_file:
+    with atomic_write(pathlib.Path(f'dumps/{set_code}.json')) as dump_file:
         json.dump(
             multiverse_id_to_printed_details_mapping,
             dump_file,
@@ -286,9 +291,7 @@ def main():
             if type_line:
                 entry["original_type"] = type_line
             final_result[int(key)] = [entry]
-    with pathlib.Path("outputs/gatherer_mapping.json").open(
-        "w", encoding="utf-8"
-    ) as fp:
+    with atomic_write(pathlib.Path('outputs/gatherer_mapping.json'), encoding='utf-8') as fp:
         json.dump(final_result, fp, indent=4, ensure_ascii=False, sort_keys=True)
 
 

@@ -13,6 +13,11 @@ this repo's raw YAML, so that output is unconsumed and is no longer produced her
     python scripts/contents_validator.py            # fast structural validation (CI PR gate)
     python scripts/contents_validator.py --status   # also rebuild status.txt + deck_map.json
 """
+if __package__:
+    from .atomic_write import atomic_write
+else:
+    from atomic_write import atomic_write
+
 import argparse
 import json
 import yaml
@@ -301,7 +306,7 @@ def rebuild_status_and_deck_map(uuid_map):
             products_contents.pop(contents["code"])
 
     deck_map = deck_links(products_contents)
-    with open("outputs/deck_map.json", "w") as outfile:
+    with atomic_write('outputs/deck_map.json') as outfile:
         json.dump(deck_map, outfile)
 
 def parse_args() -> argparse.Namespace:

@@ -1,3 +1,8 @@
+if __package__:
+    from .atomic_write import atomic_write
+else:
+    from atomic_write import atomic_write
+
 import argparse
 import json
 import lzma
@@ -371,7 +376,7 @@ def main(args: argparse.Namespace):
         print("Build produced no card-to-product mappings; skipping write to avoid clobbering existing output")
         return
 
-    with pathlib.Path(args.output_file).expanduser().open("w", encoding="utf-8") as fp:
+    with atomic_write(pathlib.Path(args.output_file).expanduser(), encoding='utf-8') as fp:
         json.dump(results_to_json(card_to_products_data), fp, indent=4, sort_keys=True)
 
 

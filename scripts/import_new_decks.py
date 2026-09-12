@@ -1,3 +1,8 @@
+if __package__:
+    from .atomic_write import atomic_write
+else:
+    from atomic_write import atomic_write
+
 import json
 import os
 import sys
@@ -117,7 +122,7 @@ def add_product(set_code, name, deck):
             "code": set_code,
             "products": {},
         }
-        with open(products_path, "w") as f:
+        with atomic_write(products_path) as f:
             yaml.safe_dump(new_file, f)
 
     # Load existing products and add the new one
@@ -154,7 +159,7 @@ def add_product(set_code, name, deck):
         products["products"][name] = new_product
 
     # Update file
-    with open(products_path, "w") as f:
+    with atomic_write(products_path) as f:
         yaml.safe_dump(products, f)
 
 
@@ -166,7 +171,7 @@ def add_content(set_code, name, deck):
             "code": set_code,
             "products": {},
         }
-        with open(contents_path, "w") as f:
+        with atomic_write(contents_path) as f:
             yaml.safe_dump(new_file, f)
 
     with open(contents_path, "r") as f:
@@ -199,7 +204,7 @@ def add_content(set_code, name, deck):
 
         contents["products"][name] = content
 
-    with open(contents_path, "w") as f:
+    with atomic_write(contents_path) as f:
         yaml.safe_dump(contents, f)
 
 
