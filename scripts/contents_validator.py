@@ -31,7 +31,8 @@ def build_uuid_map(mtgjson_path):
         else:
             print("⚙️  downloading AllPrintings.json")
             url = "https://mtgjson.com/api/v5/AllPrintings.json"
-            r = requests.get(url, stream=True)
+            r = requests.get(url, stream=True, timeout=(10, 60))
+            r.raise_for_status()
             parser = ijson.parse(r.content)
     except:
         print("Could not load AllPrintings")

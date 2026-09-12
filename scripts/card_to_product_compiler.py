@@ -66,7 +66,7 @@ class MtgjsonCardLinker:
     @staticmethod
     def _fetch_all_printings(url: str) -> Dict[str, Any]:
         print(f"Downloading AllPrintings from {url}")
-        request_wrapper = requests.get(url)
+        request_wrapper = requests.get(url, timeout=(10, 60))
         request_wrapper.raise_for_status()
 
         content = request_wrapper.content

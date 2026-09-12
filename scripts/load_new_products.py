@@ -17,7 +17,8 @@ DEFAULT_TCGAPI_VERSION = "v1.39.0"
 
 def get_cardKingdom():
     sealed_url = "https://api.cardkingdom.com/api/sealed_pricelist"
-    r = requests.get(sealed_url)
+    r = requests.get(sealed_url, timeout=(10, 60))
+    r.raise_for_status()
     ck_data = json.loads(r.content)
     output_data = ck_data['data']
     output_data = [x for x in output_data if "Pure Bulk:" not in x['name']]
@@ -30,8 +31,10 @@ def tcgdownload(url, params, api_version, auth_code):
     }  # Need to figure out the correct headers for TCG API
     # Need to figure out the correct version for TCG API
     r = requests.get(
-        url.replace("[API_VERSION]", api_version), params=params, headers=header
+        url.replace("[API_VERSION]", api_version), params=params,
+        headers=header, timeout=(10, 60),
     )
+    r.raise_for_status()
     # print(r.ok)
     return r.content
 
@@ -183,7 +186,8 @@ def get_tcg_auth_code(secret):
 
 def get_cardmarket():
     product_list_url = "https://downloads.s3.cardmarket.com/productCatalog/productList/products_nonsingles_1.json"
-    r = requests.get(product_list_url)
+    r = requests.get(product_list_url, timeout=(10, 60))
+    r.raise_for_status()
     mkm_data = json.loads(r.content)
     product_list = mkm_data["products"]
 
@@ -290,7 +294,8 @@ def ctdownload(url, params, token):
     header = {
         "Authorization": f"Bearer {token}"
     }
-    r = requests.get(url, params=params, headers=header)
+    r = requests.get(url, params=params, headers=header, timeout=(10, 60))
+    r.raise_for_status()
     return r.content
 
 
@@ -412,7 +417,8 @@ def load_miniaturemarket(secret):
         header = {
             "User-Agent": "curl/8.6",
         }
-        r = requests.get(link, headers=header)
+        r = requests.get(link, headers=header, timeout=(10, 60))
+        r.raise_for_status()
         soup = BeautifulSoup(r.content, 'html.parser')
 
         for div in soup.find_all('div', attrs={"class": "card-body"}):
@@ -458,7 +464,11 @@ def scgretaildownload(guid, page):
     payload["clientguid"] = guid
     payload["FacetSelections"] = facet
 
-    r = requests.post("https://starcitygamesv2.searchapi-na.hawksearch.com/api/v2/search", json=payload, headers=header)
+    r = requests.post(
+        "https://starcitygamesv2.searchapi-na.hawksearch.com/api/v2/search",
+        json=payload, headers=header, timeout=(10, 60),
+    )
+    r.raise_for_status()
     return json.loads(r.content)
 
 
@@ -476,7 +486,11 @@ def scgbuylistdownload(bearer, offset, limit):
     payload["limit"] = limit
     payload["sort"] = ["name:asc", "set_name:asc", "finish:desc"]
 
-    r = requests.post("https://search.starcitygames.com/indexes/sell_list_products_v2/search", json=payload, headers=header)
+    r = requests.post(
+        "https://search.starcitygames.com/indexes/sell_list_products_v2/search",
+        json=payload, headers=header, timeout=(10, 60),
+    )
+    r.raise_for_status()
     return json.loads(r.content)
 
 
@@ -600,7 +614,8 @@ def load_coolstuffinc_retail(skip_tags):
         header = {
             "User-Agent": "curl/8.6",
         }
-        r = requests.get(link, headers=header)
+        r = requests.get(link, headers=header, timeout=(10, 60))
+        r.raise_for_status()
         soup = BeautifulSoup(r.content, 'html.parser')
 
         for div in soup.find_all('div', attrs={"class": "row product-search-row main-container"}):
@@ -637,7 +652,11 @@ def load_coolstuffinc_buylist(skip_tags):
     header = {
         "User-Agent": "curl/8.6",
     }
-    r = requests.get("https://www.coolstuffinc.com/GeneratedFiles/SellList/Section-mtg.json", headers=header)
+    r = requests.get(
+        "https://www.coolstuffinc.com/GeneratedFiles/SellList/Section-mtg.json",
+        headers=header, timeout=(10, 60),
+    )
+    r.raise_for_status()
     buylist = json.loads(r.content)
 
     for product in buylist:
@@ -679,7 +698,8 @@ def load_abugames(_):
         header = {
             "User-Agent": "curl/8.6",
         }
-        r = requests.get(link, headers=header)
+        r = requests.get(link, headers=header, timeout=(10, 60))
+        r.raise_for_status()
         data = json.loads(r.content)
         response = data.get("response")
 
@@ -750,7 +770,8 @@ def load_tnt(_):
         header = {
             "User-Agent": "curl/8.6",
         }
-        r = requests.get(link, headers=header)
+        r = requests.get(link, headers=header, timeout=(10, 60))
+        r.raise_for_status()
         soup = BeautifulSoup(r.content, 'html.parser')
 
         for div in soup.find_all('div', attrs={"class": "product-info card-body col pl-0 pl-sm-3"}):
@@ -891,7 +912,8 @@ def load_hareruya(_):
         header = {
             "User-Agent": "curl/8.6",
         }
-        r = requests.get(link, headers=header)
+        r = requests.get(link, headers=header, timeout=(10, 60))
+        r.raise_for_status()
         docs = json.loads(r.content).get("response", {}).get("docs", [])
 
         # Exit loop condition: stop once a page returns no more products

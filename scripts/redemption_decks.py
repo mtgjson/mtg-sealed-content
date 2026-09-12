@@ -5,7 +5,8 @@ import string
 def get_decks(setup=""):
     if not setup:
         url = "https://mtgjson.com/api/v5/AllPrintings.json"
-        r = requests.get(url, stream=True)
+        r = requests.get(url, stream=True, timeout=(10, 60))
+        r.raise_for_status()
         parser = ijson.parse(r.content)
     else:
         ifile = open(setup, 'r')

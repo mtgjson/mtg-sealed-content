@@ -34,7 +34,8 @@ def main():
     jsonFile = "mtgJson/AllPrintings.json"
     if path.getmtime(jsonFile) < time.time() - 24 * 60 * 60:
         url = "https://mtgjson.com/api/v5/AllPrintings.json"
-        r = requests.get(url)
+        r = requests.get(url, timeout=(10, 60))
+        r.raise_for_status()
         open(jsonFile, "wb").write(r.content)
         logger.info("Downloaded new MTGJson content")
 
