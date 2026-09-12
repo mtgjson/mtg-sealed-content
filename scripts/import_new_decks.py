@@ -4,7 +4,10 @@ import sys
 from pathlib import Path
 import requests
 import yaml
-from deck_card_count import deck_card_count
+if __package__:
+    from .deck_card_count import deck_card_count
+else:
+    from deck_card_count import deck_card_count
 
 
 def load_referenced_decks():
@@ -31,31 +34,32 @@ def load_referenced_decks():
     return referenced
 
 
-referenced_decks = load_referenced_decks()
+def load_decks():
+    # Prefer a locally-built decklist JSON when one is supplied via $DECKS_JSON. The
+    # daily workflow builds it straight from the magic-preconstructed-decks source
+    # (its own bin/build_jsons), so a decklist added today is picked up today rather
+    # than waiting for the separately-scheduled magic-preconstructed-decks-data
+    # export. Fall back to the compiled snapshot when run by hand.
+    local_decks = os.environ.get("DECKS_JSON")
+    if local_decks and Path(local_decks).exists():
+        with open(local_decks) as f:
+            decks = json.load(f)
+        print(f"Loaded {len(decks)} decks from local build {local_decks}")
+    else:
+        gh_request = requests.get(
+            "https://raw.githubusercontent.com/taw/magic-preconstructed-decks-data/refs/heads/master/decks_v2.json",
+            timeout=(10, 60),
+        )
+        gh_request.raise_for_status()
 
-# Prefer a locally-built decklist JSON when one is supplied via $DECKS_JSON. The
-# daily workflow builds it straight from the magic-preconstructed-decks source
-# (its own bin/build_jsons), so a decklist added today is picked up today rather
-# than waiting for the separately-scheduled magic-preconstructed-decks-data
-# export. Fall back to the compiled snapshot when run by hand.
-local_decks = os.environ.get("DECKS_JSON")
-if local_decks and Path(local_decks).exists():
-    with open(local_decks) as f:
-        decks = json.load(f)
-    print(f"Loaded {len(decks)} decks from local build {local_decks}")
-else:
-    gh_request = requests.get(
-        "https://raw.githubusercontent.com/taw/magic-preconstructed-decks-data/refs/heads/master/decks_v2.json",
-        timeout=(10, 60),
-    )
-    gh_request.raise_for_status()
+        try:
+            decks = json.loads(gh_request.content)
+        except json.JSONDecodeError:
+            print("unable to load magic-preconstructed-decks-data file, here are the contents")
+            print(gh_request.content)
+            sys.exit(1)
+    return decks
 
-    try:
-        decks = json.loads(gh_request.content)
-    except json.JSONDecodeError:
-        print("unable to load magic-preconstructed-decks-data file, here are the contents")
-        print(gh_request.content)
-        sys.exit(1)
 
 skip_types = [
     # skip mtgo decks
@@ -203,33 +207,40 @@ def add_content(set_code, name, deck):
         yaml.safe_dump(contents, f)
 
 
-for deck in decks:
-    if any(tag in deck["type"] for tag in skip_types):
-        continue
-    if any(tag in deck["set_code"] for tag in skip_sets):
-        continue
-    if any(tag in deck["name"] for tag in skip_names):
-        continue
+def main():
+    referenced_decks = load_referenced_decks()
+    decks = load_decks()
+    for deck in decks:
+        if any(tag in deck["type"] for tag in skip_types):
+            continue
+        if any(tag in deck["set_code"] for tag in skip_sets):
+            continue
+        if any(tag in deck["name"] for tag in skip_names):
+            continue
 
-    set_code = deck["set_code"]
+        set_code = deck["set_code"]
 
-    # If this decklist is already referenced by an existing contents entry, it is
-    # already modeled (often under a hand-authored product name) -- don't create a
-    # duplicate stub product for it.
-    if (set_code, deck["name"]) in referenced_decks:
-        print(f"Skipping {deck['name']} in {set_code}: deck already referenced in contents")
-        continue
+        # If this decklist is already referenced by an existing contents entry, it is
+        # already modeled (often under a hand-authored product name) -- don't create a
+        # duplicate stub product for it.
+        if (set_code, deck["name"]) in referenced_decks:
+            print(f"Skipping {deck['name']} in {set_code}: deck already referenced in contents")
+            continue
 
-    print(f"Adding {deck['name']} to {set_code}")
+        print(f"Adding {deck['name']} to {set_code}")
 
-    name = f"{deck['set_name']} {deck['type']} {deck['name']}"
-    if set_code in ["sld", "slc"]:
-        name = f"{deck['set_name']} {deck['name']}"
-        # TODO: we should really follow upstream instead of tweaking the name
-        name = name.replace(" Edition", "").replace("'", "").replace(":","").replace("-", " ")
+        name = f"{deck['set_name']} {deck['type']} {deck['name']}"
+        if set_code in ["sld", "slc"]:
+            name = f"{deck['set_name']} {deck['name']}"
+            # TODO: we should really follow upstream instead of tweaking the name
+            name = name.replace(" Edition", "").replace("'", "").replace(":","").replace("-", " ")
 
-    # Avoid duplicating the Commander tag from edition name and deck type above
-    name = name.replace("Commander Commander", "Commander")
+        # Avoid duplicating the Commander tag from edition name and deck type above
+        name = name.replace("Commander Commander", "Commander")
 
-    add_product(set_code, name, deck)
-    add_content(set_code, name, deck)
+        add_product(set_code, name, deck)
+        add_content(set_code, name, deck)
+
+
+if __name__ == "__main__":
+    main()
