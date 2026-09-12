@@ -11,7 +11,7 @@ products:
     - name: Teenage Mutant Ninja Turtles Bundle Land Pack
       set: tmt
     other:
-    - name: Reference cards
+    - name: 2 Reference cards
     - name: Spindown die
     - name: Card-storage box
     sealed:
@@ -46,8 +46,12 @@ products:
   Teenage Mutant Ninja Turtles Collector Booster Pack Minimal Packaging:
     copy: Teenage Mutant Ninja Turtles Collector Booster Pack
   Teenage Mutant Ninja Turtles Draft Night:
+    card_count: 90
+    deck:
+    - name: Teenage Mutant Ninja Turtles Draft Night Land Pack
+      set: tmt
     other:
-    - name: 90 Non-foil basic lands
+    - name: 10 Non-foil double-sided tokens
     - name: 1 Draft insert
     sealed:
     - count: 12
@@ -72,6 +76,8 @@ products:
       set: tmt
     other:
     - name: Oversized Pizza Bundle Spindown life counter
+    - name: 2 Reference cards
+    - name: 1 Card-storage box
     pack:
     - code: pizza-bundle
       set: tmt
@@ -114,7 +120,11 @@ products:
     - count: 6
       name: Teenage Mutant Ninja Turtles Play Booster Pack
       set: tmt
-  Teenage Mutant Ninja Turtles Prerelease Pack Case: {}
+  Teenage Mutant Ninja Turtles Prerelease Pack Case:
+    sealed:
+    - count: 15
+      name: Teenage Mutant Ninja Turtles Prerelease Pack
+      set: tmt
   Teenage Mutant Ninja Turtles Theme Deck Donatello:
     card_count: 60
     deck:
@@ -168,6 +178,10 @@ products:
   Teenage Mutant Ninja Turtles Tin Shredder:
     copy: Teenage Mutant Ninja Turtles Tin Donatello
   Teenage Mutant Ninja Turtles Turtle Team-Up:
+    other:
+    - name: 1 Punch-out counter sheet
+    - name: 4 Deck boxes
+    - name: 1 Tutorial booklet
     sealed:
     - count: 1
       name: Teenage Mutant Ninja Turtles Theme Deck Donatello
