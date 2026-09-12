@@ -27,6 +27,7 @@ products:
     - name: 5 double-sided tokens
     - name: 2 Gameboard playmats
     - name: 2 How to Play guides
+    - name: 2 Reference cards
     - name: Reference guide booklet
     - name: 2 Spindown life counters
   Marvel Super Heroes Beginner Box Case:
@@ -34,8 +35,29 @@ products:
     - count: 3
       name: Marvel Super Heroes Beginner Box
       set: msh
-  Marvel Super Heroes Bundle: []
-  Marvel Super Heroes Bundle Case: []
+  Marvel Super Heroes Bundle:
+    card:
+    - foil: true
+      name: The Scarlet Witch
+      number: 431
+      set: msh
+    card_count: 1
+    deck:
+    - name: Marvel Super Heroes Bundle Land Pack
+      set: msh
+    other:
+    - name: 2 Reference cards
+    - name: Oversized spindown life counter
+    - name: Card storage box
+    sealed:
+    - count: 9
+      name: Marvel Super Heroes Play Booster Pack
+      set: msh
+  Marvel Super Heroes Bundle Case:
+    sealed:
+    - count: 6
+      name: Marvel Super Heroes Bundle
+      set: msh
   Marvel Super Heroes Collector Booster Box:
     sealed:
     - count: 12
@@ -62,6 +84,7 @@ products:
       set: msh
     other:
     - name: 1 Draft insert
+    - name: 10 Non-foil double-sided tokens
     sealed:
     - count: 12
       name: Marvel Super Heroes Play Booster Pack
@@ -82,11 +105,12 @@ products:
       set: msh
     card_count: 1
     deck:
-    - name: Marvel Super Heroes Bundle Land Pack
+    - name: Marvel Super Heroes Gift Bundle Land Pack
       set: msh
     other:
-    - name: Spindown life counter
-    - name: Foil card storage box
+    - name: 2 Reference cards
+    - name: Oversized spindown life counter
+    - name: Card storage box
     sealed:
     - count: 9
       name: Marvel Super Heroes Play Booster Pack
