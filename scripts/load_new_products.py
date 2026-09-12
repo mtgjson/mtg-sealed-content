@@ -1031,7 +1031,12 @@ def main(secret):
         ignore = yaml.safe_load(ignore_file)
 
     ids = dict()
-    reviews = dict()
+    review_path = Path("data/review.yaml")
+    if review_path.exists():
+        with review_path.open() as review_file:
+            reviews = yaml.safe_load(review_file) or {}
+    else:
+        reviews = {}
 
     # Set up the list of ids and items to review for each provider
     for key, provider in providers_dict.items():
@@ -1039,7 +1044,7 @@ def main(secret):
         if ignore.get(key):
             provider_ids = set(str(x) for x in ignore[key].keys())
         ids[key] = provider_ids
-        reviews[key] = dict()
+        reviews.setdefault(key, {})
 
     # Load data from the known products
     for known_file in Path("data/products").glob("*.yaml"):
@@ -1069,11 +1074,11 @@ def main(secret):
         except Exception as e:
             print(f"Could not load provider {key}")
             print(repr(e))
-            products = [{
-                "name": f"Could not load provider {key}",
-                "id": ""
-            }]
+            # Keep the previous queue when this provider is unavailable.
+            continue
 
+        # Refresh only providers that were actually loaded successfully.
+        reviews[key] = {}
         for product in products:
             if str(product["id"]) in ids[key]:
                 continue
