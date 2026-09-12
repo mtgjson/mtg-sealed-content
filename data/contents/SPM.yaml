@@ -13,6 +13,7 @@ products:
     - name: Marvel's Spider-Man Bundle Land Pack
       set: spm
     other:
+    - name: 2 Reference Cards
     - name: Marvels Spider Man Spindown
     - name: Marvels Spider Man Card Storage Box
     sealed:
@@ -52,6 +53,7 @@ products:
     - name: Marvel's Spider-Man Bundle Land Pack
       set: spm
     other:
+    - name: 2 Reference Cards
     - name: Marvels Spider Man Spindown
     - name: Marvels Spider Man Card Storage Box
     sealed:
@@ -116,25 +118,105 @@ products:
       name: Marvels Spider Man Scene Box
       set: spm
   Marvels Spider Man Welcome Deck Black:
+    card_count: 60
     deck:
     - name: Black Deck
       set: spm
+    other:
+    - name: 2 Reference Cards
+    variable:
+    - deck:
+      - name: Blue Deck
+        set: spm
+    - deck:
+      - name: Green Deck
+        set: spm
+    - deck:
+      - name: Red Deck
+        set: spm
+    - deck:
+      - name: White Deck
+        set: spm
   Marvels Spider Man Welcome Deck Blue:
+    card_count: 60
     deck:
     - name: Blue Deck
       set: spm
+    other:
+    - name: 2 Reference Cards
+    variable:
+    - deck:
+      - name: Black Deck
+        set: spm
+    - deck:
+      - name: Green Deck
+        set: spm
+    - deck:
+      - name: Red Deck
+        set: spm
+    - deck:
+      - name: White Deck
+        set: spm
   Marvels Spider Man Welcome Deck Green:
+    card_count: 60
     deck:
     - name: Green Deck
       set: spm
+    other:
+    - name: 2 Reference Cards
+    variable:
+    - deck:
+      - name: Black Deck
+        set: spm
+    - deck:
+      - name: Blue Deck
+        set: spm
+    - deck:
+      - name: Red Deck
+        set: spm
+    - deck:
+      - name: White Deck
+        set: spm
   Marvels Spider Man Welcome Deck Red:
+    card_count: 60
     deck:
     - name: Red Deck
       set: spm
+    other:
+    - name: 2 Reference Cards
+    variable:
+    - deck:
+      - name: Black Deck
+        set: spm
+    - deck:
+      - name: Blue Deck
+        set: spm
+    - deck:
+      - name: Green Deck
+        set: spm
+    - deck:
+      - name: White Deck
+        set: spm
   Marvels Spider Man Welcome Deck White:
+    card_count: 60
     deck:
     - name: White Deck
       set: spm
+    other:
+    - name: 2 Reference Cards
+    variable:
+    - deck:
+      - name: Black Deck
+        set: spm
+    - deck:
+      - name: Blue Deck
+        set: spm
+    - deck:
+      - name: Green Deck
+        set: spm
+    - deck:
+      - name: Red Deck
+        set: spm
   Marvels Spider Man Welcome Decks Set of 5:
     sealed:
     - count: 1
