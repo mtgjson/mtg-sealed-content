@@ -4,6 +4,7 @@ import sys
 from pathlib import Path
 import requests
 import yaml
+from deck_card_count import deck_card_count
 
 
 def load_referenced_decks():
@@ -51,14 +52,6 @@ else:
         print("unable to load magic-preconstructed-decks-data file, here are the contents")
         print(gh_request.content)
         sys.exit(1)
-
-# bin/build_jsons (v1) emits `cards` as a sections dict ({"Main Deck": [...]});
-# the compiled decks_v2.json emits a flat list. Flatten so the card_count sum
-# below works with either source.
-for deck in decks:
-    cards = deck.get("cards")
-    if isinstance(cards, dict):
-        deck["cards"] = [card for section in cards.values() for card in section]
 
 skip_types = [
     # skip mtgo decks
@@ -183,7 +176,7 @@ def add_content(set_code, name, deck):
         if not isinstance(content, dict):
             content = {}
 
-        card_count = sum(card["count"] for card in deck["cards"])
+        card_count = deck_card_count(deck)
         content.setdefault("card_count", card_count)
 
         new_deck = [{
