@@ -1,5 +1,4 @@
 import re
-import sys
 import time
 from typing import Any, Dict, List, Optional, Union
 
@@ -64,33 +63,26 @@ class ScryfallProvider:
         Api calls always return JSON from Scryfall
         :param url: URL to download from
         :param params: Options for URL download
-        :param retry_ttl: How many times to retry if Chunk Error
+        :param retry_ttl: Maximum retries for interrupted bodies or invalid JSON
         """
-        session = retryable_session()
+        if retry_ttl < 0:
+            raise ValueError("retry_ttl must be non-negative")
 
-        try:
-            response = session.get(url)
-        except requests.exceptions.ChunkedEncodingError as error:
-            if retry_ttl:
-                print(f"Download failed: {error}... Retrying")
-                time.sleep(3 - retry_ttl)
-                return self.download(url, params, retry_ttl - 1)
-
-            print(f"Download failed: {error}... Maxed out retries")
-            sys.exit(1)
-
-        try:
-            return response.json()
-        except ValueError as error:
-            if "504" in response.text:
-                print("Scryfall 504 error, sleeping...")
-            else:
-                print(
-                    f"Unable to convert response to JSON for URL: {url} -> {error}; Message = {response.text}"
-                )
-
-            time.sleep(5)
-            return self.download(url, params)
+        # Adapter retries cover transient HTTP status/connect failures. This
+        # separate budget covers interrupted bodies and malformed JSON only.
+        with retryable_session() as session:
+            for attempt in range(retry_ttl + 1):
+                try:
+                    with session.get(url, params=params) as response:
+                        # A 404 is Scryfall's normal empty-search response;
+                        # retain its structured error for download_all_pages.
+                        if response.status_code != 404:
+                            response.raise_for_status()
+                        return response.json()
+                except (requests.exceptions.ChunkedEncodingError, ValueError):
+                    if attempt == retry_ttl:
+                        raise
+                    time.sleep(5)
 
     def download_cards(self, set_code: str) -> List[Dict[str, Any]]:
         """
