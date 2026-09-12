@@ -6,16 +6,20 @@ products:
       name: Hit the Mother Lode
       number: 404
       set: lci
-    card_count: 1
+    card_count: 2
     deck:
     - name: The Lost Caverns of Ixalan Bundle Land Pack
       set: lci
     other:
     - name: Lost Caverns of Ixalan Spindown
     - name: Card storage box
+    - name: 2 reference cards
     sealed:
     - count: 8
       name: The Lost Caverns of Ixalan Set Booster Pack
+      set: lci
+    pack:
+    - code: bundle-promo
       set: lci
   The Lost Caverns of Ixalan Bundle Case:
     sealed:
@@ -74,19 +78,23 @@ products:
       name: Hit the Mother Lode
       number: 404
       set: lci
-    card_count: 1
+    card_count: 2
     deck:
-    - name: The Lost Caverns of Ixalan Bundle Land Pack
+    - name: The Lost Caverns of Ixalan Gift Bundle Land Pack
       set: lci
     other:
     - name: Lost Caverns of Ixalan Spindown
     - name: Card storage box
+    - name: 2 reference cards
     sealed:
     - count: 8
       name: The Lost Caverns of Ixalan Set Booster Pack
       set: lci
     - count: 1
       name: The Lost Caverns of Ixalan Collector Booster Pack
+      set: lci
+    pack:
+    - code: bundle-promo-foil
       set: lci
   The Lost Caverns of Ixalan Gift Bundle Case:
     sealed:
@@ -112,6 +120,8 @@ products:
     card_count: 1
     other:
     - name: Lost Caverns of Ixalan Spindown
+    - name: Punchout counter card
+    - name: MTG Arena code card (available in select regions)
     pack:
     - code: prerelease
       set: lci
