@@ -129,7 +129,10 @@ class MtgjsonCardLinker:
 
     @staticmethod
     def get_card_obj_from_card(card_content: Dict[str, Any]) -> List[Card]:
-        finish = "foil" if card_content.get("foil") else "nonfoil"
+        if card_content.get("etched"):
+            finish = "etched"
+        else:
+            finish = "foil" if card_content.get("foil") else "nonfoil"
         if "uuid" in card_content:
             return [Card(card_content["uuid"], finish)]
         else:
@@ -215,24 +218,12 @@ class MtgjsonCardLinker:
             """
             return_value = set()
             for config in content["configs"]:
-                for deck in config.get("deck", []):
-                    return_value.update(
-                        self.get_cards_in_deck(deck["set"].upper(), deck["name"])
-                    )
-                for sealed in config.get("sealed", []):
-                    return_value.update(
-                        self.get_cards_in_sealed_product(
-                            sealed["set"].upper(), sealed.get("uuid", None)
-                        )
-                    )
-                for pack in config.get("pack", []):
-                    return_value.update(
-                        self.get_cards_in_pack(
-                            pack["set"].upper(), pack["code"]
-                        )
-                    )
-                for card in config.get("card", []):
-                    return_value.update(self.get_card_obj_from_card(card))
+                # Configurations contain the same content types as products,
+                # including further variable choices. Ignore configuration
+                # metadata such as card_count and variable_config.
+                for kind in ("card", "pack", "sealed", "deck", "variable", "other"):
+                    for entry in config.get(kind, []):
+                        return_value.update(self.get_cards_in_content_type(kind, entry))
 
             return list(return_value)
 

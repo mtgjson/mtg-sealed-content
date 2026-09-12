@@ -212,6 +212,7 @@ name: [str] Full card name
 set: [str] Set code
 number: [str or int] Collector number
 foil: [bool, optional] True if card is traditional or etched foil
+etched: [bool, optional] True if card is etched foil; takes precedence over foil when mapping the finish
 token: [bool, optional] True if the collector number refers to a token instead of a card, ie. SLD 918 "Food"
 uuid: [str, calculated] The card's MTGJson UUID. This is calculated by the compiler and you should not enter this in the YAML.
 ```
