@@ -14,12 +14,12 @@ products:
     - name: Lost Caverns of Ixalan Spindown
     - name: Card storage box
     - name: 2 reference cards
+    pack:
+    - code: bundle-promo
+      set: lci
     sealed:
     - count: 8
       name: The Lost Caverns of Ixalan Set Booster Pack
-      set: lci
-    pack:
-    - code: bundle-promo
       set: lci
   The Lost Caverns of Ixalan Bundle Case:
     sealed:
@@ -86,15 +86,15 @@ products:
     - name: Lost Caverns of Ixalan Spindown
     - name: Card storage box
     - name: 2 reference cards
+    pack:
+    - code: bundle-promo-foil
+      set: lci
     sealed:
     - count: 8
       name: The Lost Caverns of Ixalan Set Booster Pack
       set: lci
     - count: 1
       name: The Lost Caverns of Ixalan Collector Booster Pack
-      set: lci
-    pack:
-    - code: bundle-promo-foil
       set: lci
   The Lost Caverns of Ixalan Gift Bundle Case:
     sealed:
