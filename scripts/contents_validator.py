@@ -168,7 +168,7 @@ valid_subtypes = [
 ]
 
 CONTENT_FIELDS = {
-    "card": {"name", "set", "number", "foil", "etched", "token", "uuid", "count"},
+    "card": {"name", "set", "number", "foil", "etched", "token", "language", "uuid", "count"},
     "pack": {"set", "code"},
     "deck": {"set", "name"},
     "sealed": {"set", "name", "count", "uuid"},
