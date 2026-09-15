@@ -164,7 +164,7 @@ def main(argv=None):
                 removed = True
         if removed:
             with open(review_path, "w") as review_file:
-                yaml.dump(review_data, review_file)
+                yaml.dump(review_data, review_file, allow_unicode=True)
 
 
     def apply_identifier(handled, target_name, target_file):
@@ -180,7 +180,7 @@ def main(argv=None):
                 return False, identifiers[key]
         identifiers.update(handled[1])
         with open(target_file, "w") as product_file:
-            yaml.dump(import_products, product_file)
+            yaml.dump(import_products, product_file, allow_unicode=True)
         return True, None
 
 
@@ -318,7 +318,7 @@ def main(argv=None):
             for identifier in product[1].values():
                 section[identifier] = product[0]
             with open("data/ignore.yaml", "w") as ignore_file:
-                yaml.dump(ignore_content, ignore_file)
+                yaml.dump(ignore_content, ignore_file, allow_unicode=True)
             remove_from_review(product)
         elif product_check in ["0","1","2","3","4"]:
             check_index = int(product_check) + offset
@@ -344,7 +344,7 @@ def main(argv=None):
                 continue
             import_products["products"][product_link[0]]["identifiers"].update(product[1])
             with open(product_link[1], 'w') as product_file:
-                yaml.dump(import_products, product_file)
+                yaml.dump(import_products, product_file, allow_unicode=True)
             remove_from_review(product)
         elif product_check == "c":
             try:
@@ -397,7 +397,7 @@ def main(argv=None):
             }
 
             with target_path.open("w") as product_file:
-                yaml.dump(content, product_file)
+                yaml.dump(content, product_file, allow_unicode=True)
 
             # Mirror the new product into the contents file as an empty placeholder,
             # so it is tracked there too (its contents get filled in separately).
@@ -413,7 +413,7 @@ def main(argv=None):
             contents_data["products"].setdefault(product_name, {})
 
             with contents_path.open("w") as contents_file:
-                yaml.dump(contents_data, contents_file)
+                yaml.dump(contents_data, contents_file, allow_unicode=True)
 
             remove_from_review(product)
             known_products.append((product_name, target_path))
