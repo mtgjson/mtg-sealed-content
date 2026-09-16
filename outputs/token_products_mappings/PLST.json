@@ -994,9 +994,7 @@
                     "uuid": "ab887c26-ecfd-55b4-972a-7518d1e406b6"
                 },
                 {
-                    "faceId": "7",
-                    "faceName": "Treasure",
-                    "tokenType": "Token"
+                    "uuid": "b0e0f943-429b-5075-a61d-22338c7dfcf6"
                 }
             ]
         }
@@ -1119,6 +1117,24 @@
                 },
                 {
                     "uuid": "4ce0cae6-159b-53b5-8935-691948571e2e"
+                }
+            ]
+        }
+    ],
+    "b0e0f943-429b-5075-a61d-22338c7dfcf6": [
+        {
+            "identifiers": {
+                "tcgplayerProductId": "693252"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F693252%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "ab887c26-ecfd-55b4-972a-7518d1e406b6"
+                },
+                {
+                    "uuid": "b0e0f943-429b-5075-a61d-22338c7dfcf6"
                 }
             ]
         }
@@ -1768,9 +1784,7 @@
                     "uuid": "ef34f7f4-baa6-5209-b6d2-c5e124a2997f"
                 },
                 {
-                    "faceId": "7",
-                    "faceName": "Treasure",
-                    "tokenType": "Token"
+                    "uuid": "b0e0f943-429b-5075-a61d-22338c7dfcf6"
                 }
             ]
         }
