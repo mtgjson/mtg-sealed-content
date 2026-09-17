@@ -130,7 +130,7 @@ products:
     - name: Domri, City Smasher
       set: rna
     sealed:
-    - count: 1
+    - count: 2
       name: Ravnica Allegiance Booster Pack
       set: rna
   Ravnica Allegiance Planeswalker Deck Dovin:
@@ -139,7 +139,7 @@ products:
     - name: Dovin, Architect of Law
       set: rna
     sealed:
-    - count: 1
+    - count: 2
       name: Ravnica Allegiance Booster Pack
       set: rna
   Ravnica Allegiance Planeswalker Decks Set of 2:
@@ -153,6 +153,7 @@ products:
   Ravnica Allegiance Prerelease Pack Azorius:
     card_count: 15
     other:
+    - name: MTG Arena code card (where available)
     - name: Ravnica Allegiance Spindown
     pack:
     - code: prerelease-azorius
@@ -164,6 +165,7 @@ products:
   Ravnica Allegiance Prerelease Pack Gruul:
     card_count: 15
     other:
+    - name: MTG Arena code card (where available)
     - name: Ravnica Allegiance Spindown
     pack:
     - code: prerelease-gruul
@@ -175,6 +177,7 @@ products:
   Ravnica Allegiance Prerelease Pack Orzhov:
     card_count: 15
     other:
+    - name: MTG Arena code card (where available)
     - name: Ravnica Allegiance Spindown
     pack:
     - code: prerelease-orzhov
@@ -186,6 +189,7 @@ products:
   Ravnica Allegiance Prerelease Pack Rakdos:
     card_count: 15
     other:
+    - name: MTG Arena code card (where available)
     - name: Ravnica Allegiance Spindown
     pack:
     - code: prerelease-rakdos
@@ -214,6 +218,7 @@ products:
   Ravnica Allegiance Prerelease Pack Simic:
     card_count: 15
     other:
+    - name: MTG Arena code card (where available)
     - name: Ravnica Allegiance Spindown
     pack:
     - code: prerelease-simic
