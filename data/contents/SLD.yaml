@@ -11226,22 +11226,15 @@ products:
     - name: Valentine's Day 2021 Foil Edition
       set: sld
   Secret Lair Drop Valentines Day 2021 Replacement Heliod Pack:
-    card:
-    - name: Heliod, Sun-Crowned
-      number: 214
-      set: sld
     card_count: 6
-    other:
-    - name: 5 Goblin Token from 'Secret Lair Drop Valentines Day 2021'
+    deck:
+    - name: Valentine's Day 2021 Replacement Heliod Pack
+      set: sld
   Secret Lair Drop Valentines Day 2021 Replacement Heliod Pack Foil:
-    card:
-    - foil: true
-      name: Heliod, Sun-Crowned
-      number: 214
-      set: sld
     card_count: 6
-    other:
-    - name: 5 foil Goblin Token from 'Secret Lair Drop Valentines Day 2021 Foil'
+    deck:
+    - name: Valentine's Day 2021 Replacement Heliod Pack Foil Edition
+      set: sld
   Secret Lair Drop Viva Las Rakdos:
     card_count: 5
     deck:
