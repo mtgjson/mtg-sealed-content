@@ -22,7 +22,6 @@ products:
       set: ktk
   Khans of Tarkir Fat Pack:
     other:
-    - name: Khans of Tarkir 80-card Basic Land Bundle
     - name: Khans of Tarkir Special Edition Spindown
     - name: Full Art Card Box
     - name: Two Deck Boxes
@@ -30,6 +29,9 @@ products:
     sealed:
     - count: 9
       name: Khans of Tarkir Booster Pack
+      set: ktk
+    deck:
+    - name: Khans of Tarkir Fat Pack Land Pack
       set: ktk
   Khans of Tarkir Holiday Gift Box:
     card:
@@ -146,6 +148,8 @@ products:
     - count: 5
       name: Khans of Tarkir Booster Pack
       set: ktk
+    other:
+    - name: Khans of Tarkir Spindown
   Khans of Tarkir Prerelease Kit Jeskai Battle with Cunning:
     card_count: 16
     pack:
@@ -155,6 +159,8 @@ products:
     - count: 5
       name: Khans of Tarkir Booster Pack
       set: ktk
+    other:
+    - name: Khans of Tarkir Spindown
   Khans of Tarkir Prerelease Kit Mardu Battle with Speed:
     card_count: 16
     pack:
@@ -164,6 +170,8 @@ products:
     - count: 5
       name: Khans of Tarkir Booster Pack
       set: ktk
+    other:
+    - name: Khans of Tarkir Spindown
   Khans of Tarkir Prerelease Kit Set of 5:
     sealed:
     - count: 1
@@ -190,6 +198,8 @@ products:
     - count: 5
       name: Khans of Tarkir Booster Pack
       set: ktk
+    other:
+    - name: Khans of Tarkir Spindown
   Khans of Tarkir Prerelease Kit Temur Battle with Savagery:
     card_count: 16
     pack:
@@ -199,3 +209,5 @@ products:
     - count: 5
       name: Khans of Tarkir Booster Pack
       set: ktk
+    other:
+    - name: Khans of Tarkir Spindown
