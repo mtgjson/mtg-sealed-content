@@ -32,6 +32,7 @@ After the analysis, present a queue containing only confirmed changes, then impl
 
 ## Card mapping decisions
 
+- Model verified fixed Duel Deck token contents as a separate canonical deck (for example, `data/box/ddu/Elves vs. Inventors Tokens.txt`) and reference it from sealed `deck`, replacing generic token entries in `other`. Verify exact quantities, collector numbers/art variants, finishes and whether cards are single- or double-sided; mark entries `[token]`, count each physical card once, and check that the gameplay decks do not already include them. If quantities or face pairings are unknown, record the gap rather than inventing a list.
 - Welcome Deck boxes may contain one fixed half-deck plus a second random half-deck of another color. A correct single half-deck list does not describe the whole sealed product. Model the random choice at the deck level, preserving card correlations.
 - Check set code, collector number, finish and product family together. A scene in a booster is not necessarily a Scene Box scene. Commander/deck, Jumpstart, tutorial and booster printings can share names but differ in numbers.
 - Distinguish fixed Bundle promos from variable pools. A missing `bundle-promo` definition does not prove there is a random pack: directly map a known single card.
