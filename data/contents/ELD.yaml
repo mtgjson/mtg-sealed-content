@@ -66,6 +66,7 @@ products:
     - name: Throne of Eldraine Bundle Land Pack
       set: eld
     other:
+    - name: 2 reference cards
     - name: Throne of Eldraine oversized spindown
     - name: Reusable card storage box
     sealed:
@@ -97,6 +98,8 @@ products:
     pack:
     - code: collector
       set: eld
+    other:
+    - name: 1 foil token
   Throne of Eldraine Deluxe Collection:
     card:
     - foil: true
@@ -177,6 +180,8 @@ products:
     - count: 2
       name: Throne of Eldraine Draft Booster Pack
       set: eld
+    other:
+    - name: MTG Arena code card (where available)
   Throne of Eldraine Planeswalker Deck Rowan:
     card_count: 60
     deck:
@@ -186,6 +191,8 @@ products:
     - count: 2
       name: Throne of Eldraine Draft Booster Pack
       set: eld
+    other:
+    - name: MTG Arena code card (where available)
   Throne of Eldraine Planeswalker Decks Set of 2:
     sealed:
     - count: 1
@@ -197,6 +204,7 @@ products:
   Throne of Eldraine Prerelease Pack:
     card_count: 1
     other:
+    - name: MTG Arena code card (where available)
     - name: Throne of Eldraine Spindown
     pack:
     - code: prerelease
