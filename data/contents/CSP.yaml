@@ -24,7 +24,7 @@ products:
     - name: Coldsnap player guide
     - name: 1 Pro Player card
     - name: 6 color dividers for the card boxes
-    - name: 1 Spindown life counter
+    - name: Life counter with a circle spinner featuring Darien, King of Kjeldor
     - name: Jeff Grub's Ice Age novel The Gathering Dark
     sealed:
     - count: 6
@@ -45,11 +45,15 @@ products:
     deck:
     - name: Aurochs Stampede
       set: csp
+    other:
+    - name: One random Pro Tour Player Card
   Coldsnap Theme Deck Beyond the Grave:
     card_count: 60
     deck:
     - name: Beyond The Grave
       set: csp
+    other:
+    - name: One random Pro Tour Player Card
   Coldsnap Theme Deck Display:
     sealed:
     - count: 3
@@ -69,8 +73,12 @@ products:
     deck:
     - name: Kjeldoran Cunning
       set: csp
+    other:
+    - name: One random Pro Tour Player Card
   Coldsnap Theme Deck Snowscape:
     card_count: 60
     deck:
     - name: Snowscape
       set: csp
+    other:
+    - name: One random Pro Tour Player Card
