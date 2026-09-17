@@ -6,7 +6,7 @@ products:
       name: Double Masters Draft Booster Pack
       set: 2xm
   Double Masters Box Topper Pack:
-    card_count: 1
+    card_count: 2
     pack:
     - code: box-topper
       set: 2xm
@@ -24,7 +24,7 @@ products:
       name: Double Masters Draft Booster Box
       set: 2xm
   Double Masters Draft Booster Pack:
-    card_count: 16
+    card_count: 15
     pack:
     - code: draft
       set: 2xm
@@ -39,7 +39,9 @@ products:
       name: Double Masters VIP Edition Booster Box
       set: 2xm
   Double Masters VIP Edition Booster Pack:
-    card_count: 35
+    card_count: 33
     pack:
     - code: vip
       set: 2xm
+    other:
+    - name: 2 foil double-sided tokens
