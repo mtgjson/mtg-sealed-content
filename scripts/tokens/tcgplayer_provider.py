@@ -3,6 +3,7 @@ import json
 import multiprocessing
 import os
 import pathlib
+import tempfile
 from typing import Dict, Any, Iterable, List
 
 import requests
@@ -54,24 +55,51 @@ class TcgplayerProvider:
         )
         cache_path.parent.mkdir(parents=True, exist_ok=True)
         if cache_path.exists():
-            # print(f"Using cached response for {url} with params {params}")
-            with cache_path.open("r") as fp:
-                return json.load(fp)
+            try:
+                with cache_path.open("r") as fp:
+                    cached = json.load(fp)
+                # Older runs cached [] for both valid empty pages and API
+                # failures. Re-fetch those rather than trusting an ambiguous
+                # pagination terminator. Corrupt caches also need a refresh.
+                if isinstance(cached, list) and cached and all(
+                    isinstance(item, dict) for item in cached
+                ):
+                    return cached
+            except (json.JSONDecodeError, UnicodeDecodeError):
+                pass
 
         print(f"Downloading {url} with params {params}")
-        response = self.__session.get(url, params=params)
-        response_decoded = response.content.decode()
+        with self.__session.get(url, params=params) as response:
+            response.raise_for_status()
+            payload = response.json()
 
+        # Fail closed: an API error or malformed envelope is not an empty page.
+        # See https://docs.tcgplayer.com/reference/catalog_getproducts-1
+        if not isinstance(payload, dict) or payload.get("success") is not True:
+            raise ValueError("TCGplayer catalog response did not report success")
+        if payload.get("errors"):
+            raise ValueError("TCGplayer catalog response reported errors")
+        results = payload.get("results")
+        if not isinstance(results, list) or not all(
+            isinstance(item, dict) for item in results
+        ):
+            raise ValueError("TCGplayer catalog response must contain a results list of objects")
+
+        # Publish a complete cache file only after validation and serialization.
+        # A failed refresh leaves the previous cache untouched.
+        temporary_path = None
         try:
-            response = json.loads(response_decoded)
-            results = list(response.get("results", []))
-
-            with cache_path.open("w") as fp:
+            with tempfile.NamedTemporaryFile(
+                mode="w", encoding="utf-8", dir=cache_path.parent,
+                prefix=f".{cache_path.name}.", suffix=".tmp", delete=False,
+            ) as fp:
+                temporary_path = pathlib.Path(fp.name)
                 json.dump(results, fp, indent=4, ensure_ascii=False, sort_keys=True)
-            return results
-
-        except json.decoder.JSONDecodeError:
-            return []
+            temporary_path.replace(cache_path)
+        finally:
+            if temporary_path is not None:
+                temporary_path.unlink(missing_ok=True)
+        return results
 
     def download_exhaustive(
         self,
