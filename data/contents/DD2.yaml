@@ -8,6 +8,9 @@ products:
     - count: 1
       name: Duel Deck Jace vs Chandra Jace Deck
       set: dd2
+    deck:
+    - name: Jace vs. Chandra Tokens
+      set: dd2
   Duel Deck Jace vs Chandra Chandra Deck:
     card_count: 60
     deck:
@@ -29,4 +32,6 @@ products:
     - name: Jace Japanese
       set: dd2
     - name: Chandra Japanese
+      set: dd2
+    - name: Jace vs. Chandra Tokens
       set: dd2
