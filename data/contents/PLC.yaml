@@ -23,7 +23,7 @@ products:
     - name: 2 card deck boxes
     - name: Player's Guide
     - name: Planar Chaos Spindown Life Counter
-    - name: 1 Random Pro Tour player card from PT07 set
+    - name: 1 Random Pro Tour player card from PT06 set
     - name: Planar Chaos novel
     sealed:
     - count: 6
@@ -58,21 +58,29 @@ products:
     deck:
     - name: Endless March
       set: plc
+    other:
+    - name: One random Pro Tour Player Card
   Planar Chaos Theme Deck Ixidors Legacy:
     card_count: 60
     deck:
     - name: Ixidor's Legacy
       set: plc
+    other:
+    - name: One random Pro Tour Player Card
   Planar Chaos Theme Deck Rituals of Rebirth:
     card_count: 60
     deck:
     - name: Rituals of Rebirth
       set: plc
+    other:
+    - name: One random Pro Tour Player Card
   Planar Chaos Theme Deck Unraveling Mind:
     card_count: 60
     deck:
     - name: Unraveling Mind
       set: plc
+    other:
+    - name: One random Pro Tour Player Card
   Planar Chaos Theme Decks Set of 4:
     sealed:
     - count: 1
