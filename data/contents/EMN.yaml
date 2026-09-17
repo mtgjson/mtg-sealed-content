@@ -107,12 +107,12 @@ products:
       name: Eldritch Moon Booster Pack
       set: emn
   Eldritch Moon MTGO Redemption:
-    card_count: 208
+    card_count: 205
     deck:
     - name: Eldritch Moon Redemption
       set: emn
   Eldritch Moon MTGO Redemption Foil:
-    card_count: 208
+    card_count: 205
     deck:
     - name: Eldritch Moon Foil Redemption
       set: emn
@@ -130,3 +130,9 @@ products:
     - count: 2
       name: Shadows over Innistrad Booster Pack
       set: soi
+    card:
+    - foil: true
+      name: Zombie // Zombie
+      number: 1Z
+      set: pemn
+      token: true
