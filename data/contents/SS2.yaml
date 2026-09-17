@@ -1,7 +1,7 @@
 code: ss2
 products:
   Signature Spellbook Gideon:
-    card_count: 8
+    card_count: 9
     deck:
     - name: 'Signature Spellbook: Gideon'
       set: ss2
@@ -50,7 +50,4 @@ products:
       count: 1
       replacement: false
   'Signature Spellbook: Gideon Box Set Signature Spellbook: Gideon':
-    card_count: 8
-    deck:
-    - name: 'Signature Spellbook: Gideon'
-      set: ss2
+    copy: Signature Spellbook Gideon
