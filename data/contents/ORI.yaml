@@ -174,12 +174,12 @@ products:
       set: ori
   Magic Origins Land Station: []
   Magic Origins MTGO Redemption:
-    card_count: 288
+    card_count: 272
     deck:
     - name: Magic Origins Redemption
       set: ori
   Magic Origins MTGO Redemption Foil:
-    card_count: 288
+    card_count: 272
     deck:
     - name: Magic Origins Foil Redemption
       set: ori
@@ -192,6 +192,9 @@ products:
     - count: 6
       name: Magic Origins Booster Pack
       set: ori
+    other:
+    - name: Magic Origins Spindown
+    - name: Planeswalker Story Booklet
   Magic Origins Prerelease Kit Gideon:
     card_count: 7
     pack:
@@ -201,6 +204,9 @@ products:
     - count: 6
       name: Magic Origins Booster Pack
       set: ori
+    other:
+    - name: Magic Origins Spindown
+    - name: Planeswalker Story Booklet
   Magic Origins Prerelease Kit Jace:
     card_count: 7
     pack:
@@ -210,6 +216,9 @@ products:
     - count: 6
       name: Magic Origins Booster Pack
       set: ori
+    other:
+    - name: Magic Origins Spindown
+    - name: Planeswalker Story Booklet
   Magic Origins Prerelease Kit Liliana:
     card_count: 7
     pack:
@@ -219,6 +228,9 @@ products:
     - count: 6
       name: Magic Origins Booster Pack
       set: ori
+    other:
+    - name: Magic Origins Spindown
+    - name: Planeswalker Story Booklet
   Magic Origins Prerelease Kit Nissa:
     card_count: 7
     pack:
@@ -228,6 +240,9 @@ products:
     - count: 6
       name: Magic Origins Booster Pack
       set: ori
+    other:
+    - name: Magic Origins Spindown
+    - name: Planeswalker Story Booklet
   Magic Origins Prerelease Kit Set of 5:
     sealed:
     - count: 1
@@ -246,27 +261,27 @@ products:
       name: Magic Origins Prerelease Kit Nissa
       set: ori
   Magic Origins Sample Deck Chandra Nalaar:
-    card_count: 35
+    card_count: 30
     deck:
     - name: Red Deck
       set: ori
   Magic Origins Sample Deck Gideon Jura:
-    card_count: 35
+    card_count: 30
     deck:
     - name: White Deck
       set: ori
   Magic Origins Sample Deck Jace Beleren:
-    card_count: 35
+    card_count: 30
     deck:
     - name: Blue Deck
       set: ori
   Magic Origins Sample Deck Liliana Vess:
-    card_count: 35
+    card_count: 30
     deck:
     - name: Black Deck
       set: ori
   Magic Origins Sample Deck Nissa Revane:
-    card_count: 35
+    card_count: 30
     deck:
     - name: Green Deck
       set: ori
