@@ -43,11 +43,15 @@ products:
     deck:
     - name: Army of Entropy
       set: shm
+    other:
+    - name: One random Pro Tour Player Card
   Shadowmoor Theme Deck Aura Mastery:
     card_count: 60
     deck:
     - name: Aura Mastery
       set: shm
+    other:
+    - name: One random Pro Tour Player Card
   Shadowmoor Theme Deck Display:
     sealed:
     - count: 2
@@ -94,21 +98,29 @@ products:
     deck:
     - name: Mortal Coil
       set: shm
+    other:
+    - name: One random Pro Tour Player Card
   Shadowmoor Theme Deck Overkill:
     card_count: 60
     deck:
     - name: Overkill
       set: shm
+    other:
+    - name: One random Pro Tour Player Card
   Shadowmoor Theme Deck Turnabout:
     card_count: 60
     deck:
     - name: Turnabout
       set: shm
+    other:
+    - name: One random Pro Tour Player Card
   Shadowmoor Tournament Pack:
     card_count: 75
     pack:
     - code: tournament
       set: shm
+    other:
+    - name: One random Pro Tour Player Card
   Shadowmoor Tournament Pack Display:
     sealed:
     - count: 12
