@@ -44,6 +44,8 @@ products:
     deck:
     - name: Code of the Orzhov
       set: gpt
+    other:
+    - name: One random Pro Tour Player Card
   Guildpact Theme Deck Display:
     sealed:
     - count: 4
@@ -60,11 +62,15 @@ products:
     deck:
     - name: Gruul Wilding
       set: gpt
+    other:
+    - name: One random Pro Tour Player Card
   Guildpact Theme Deck Izzet Gizmometry:
     card_count: 60
     deck:
     - name: Izzet Gizmometry
       set: gpt
+    other:
+    - name: One random Pro Tour Player Card
   Guildpact Theme Decks Set of 3:
     sealed:
     - count: 1
