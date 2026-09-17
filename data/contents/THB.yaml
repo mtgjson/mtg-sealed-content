@@ -10,6 +10,7 @@ products:
     - name: Theros Beyond Death Bundle Land Pack
       set: thb
     other:
+    - name: 2 reference cards
     - name: Oversized Theros Spindown
     - name: Reusable Card Storage Box
     sealed:
@@ -27,7 +28,7 @@ products:
       name: Theros Beyond Death Collector Booster Box
       set: thb
   Theros Beyond Death Collector Booster Pack:
-    card_count: 14
+    card_count: 15
     pack:
     - code: collector
       set: thb
@@ -49,6 +50,10 @@ products:
     - count: 1
       name: War of the Spark Booster Pack
       set: war
+    other:
+    - name: Deck builder's guide
+    - name: Magic quick reference booklet
+    - name: Reusable card storage box
   Theros Beyond Death Draft Booster Box:
     sealed:
     - count: 36
@@ -80,9 +85,11 @@ products:
     - name: Ashiok
       set: thb
     sealed:
-    - count: 1
+    - count: 2
       name: Theros Beyond Death Draft Booster Pack
       set: thb
+    other:
+    - name: MTG Arena code card (where available)
   Theros Beyond Death Planeswalker Deck Display:
     sealed:
     - count: 3
@@ -97,9 +104,11 @@ products:
     - name: Elspeth
       set: thb
     sealed:
-    - count: 1
+    - count: 2
       name: Theros Beyond Death Draft Booster Pack
       set: thb
+    other:
+    - name: MTG Arena code card (where available)
   Theros Beyond Death Planeswalker Decks Set of 2:
     sealed:
     - count: 1
@@ -111,6 +120,7 @@ products:
   Theros Beyond Death Prerelease Pack:
     card_count: 1
     other:
+    - name: MTG Arena code card (where available)
     - name: Theros Beyond Death Spindown
     pack:
     - code: prerelease
