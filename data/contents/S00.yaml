@@ -1,18 +1,24 @@
 code: s00
 products:
-  Starter 2000 Advanced Booster Pack: []
+  Starter 2000 Advanced Booster Pack:
+    card_count: 15
+    variable:
+    - deck:
+      - name: Player A's advanced pack
+        set: s00
+    - deck:
+      - name: Player B's advanced pack
+        set: s00
   Starter 2000 Demo Game Booster:
+    card_count: 24
     deck:
     - name: Demo deck A
       set: p02
     - name: Demo deck B
       set: p02
-    - name: Starter 2000 sampler pack
-      set: s00
     other:
-    - name: Tip Card
-    - name: Rebate Card
-    - name: 2 Instruction sheets
+    - name: Black border filler card
+    - name: Portal Second Age sample game instruction sheet
   Starter 2000 Sampler Booster Pack:
     card_count: 10
     deck:
@@ -39,6 +45,7 @@ products:
     - name: Magic the Gathering Rulebook
     - name: Two Playmats and Scorekeeping Disks
     - name: CD-ROM with Magic Mini-Games
+    - name: Consumer response card
   Starter 2000 Two Player Starter Game Display:
     sealed:
     - count: 6
