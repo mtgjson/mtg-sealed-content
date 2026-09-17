@@ -1,8 +1,15 @@
 code: 8ed
 products:
   Eighth Edition Advanced Booster Pack:
-    copy: Eighth Edition Demo Game Booster Pack
+    card_count: 14
+    deck:
+    - name: Gold Pack
+      set: 8ed
+    - name: Silver Pack
+      set: 8ed
   Eighth Edition Booster Box:
+    other:
+    - name: 1 random oversized Eighth Edition box topper (33 possible cards)
     sealed:
     - count: 36
       name: Eighth Edition Booster Pack
@@ -20,12 +27,14 @@ products:
   Eighth Edition Box Set:
     copy: Eighth Edition Two Player Starter
   Eighth Edition Demo Game Booster Pack:
-    card_count: 14
+    card_count: 22
     deck:
-    - name: Gold Pack
+    - name: Green-White Demo Deck
       set: 8ed
-    - name: Silver Pack
+    - name: Red-Black Demo Deck
       set: 8ed
+    other:
+    - name: Eighth Edition instruction sheet
   Eighth Edition MTGO Redemption:
     card_count: 350
     deck:
@@ -121,7 +130,7 @@ products:
     - name: Manual for Magic Online
     sealed:
     - count: 1
-      name: Eighth Edition Demo Game Booster Pack
+      name: Eighth Edition Advanced Booster Pack
       set: 8ed
   Eighth Edition Two Player Starter Set Display:
     sealed:
