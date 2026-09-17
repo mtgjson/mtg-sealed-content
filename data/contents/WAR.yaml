@@ -110,7 +110,7 @@ products:
     - name: Gideon, the Oathsworn
       set: war
     sealed:
-    - count: 1
+    - count: 2
       name: War of the Spark Booster Pack
       set: war
   War of the Spark Planeswalker Deck Jace:
@@ -119,7 +119,7 @@ products:
     - name: Jace, Arcane Strategist
       set: war
     sealed:
-    - count: 1
+    - count: 2
       name: War of the Spark Booster Pack
       set: war
   War of the Spark Planeswalker Decks Set of 2:
@@ -133,6 +133,7 @@ products:
   War of the Spark Prerelease Pack:
     card_count: 2
     other:
+    - name: MTG Arena code card (where available)
     - name: War of the Spark Spindown
     pack:
     - code: prerelease
