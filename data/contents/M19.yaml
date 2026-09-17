@@ -68,27 +68,10 @@ products:
       name: Rampaging Brontodon
       number: GP5
       set: g18
-    - foil: true
-      name: Plains
-      number: '261'
-      set: m19
-    - foil: true
-      name: Island
-      number: '268'
-      set: m19
-    - foil: true
-      name: Swamp
-      number: '269'
-      set: m19
-    - foil: true
-      name: Mountain
-      number: '276'
-      set: m19
-    - foil: true
-      name: Forest
-      number: '277'
-      set: m19
     card_count: 10
+    deck:
+    - name: Core Set 2019 Gift Pack Land Pack
+      set: m19
     other:
     - name: Spindown life counter
     sealed:
@@ -186,6 +169,9 @@ products:
       set: m19
   Core Set 2019 Prerelease Pack:
     card_count: 1
+    other:
+    - name: Spindown life counter
+    - name: Story and deck-building insert
     pack:
     - code: prerelease
       set: m19
