@@ -70,7 +70,7 @@ products:
     - name: Chandra, Bold Pyromancer
       set: dom
     sealed:
-    - count: 1
+    - count: 2
       name: Dominaria Booster Pack
       set: dom
   Dominaria Planeswalker Deck Display:
@@ -87,7 +87,7 @@ products:
     - name: Teferi, Timebender
       set: dom
     sealed:
-    - count: 1
+    - count: 2
       name: Dominaria Booster Pack
       set: dom
   Dominaria Planeswalker Decks Set of 2:
@@ -101,6 +101,7 @@ products:
   Dominaria Prerelease Pack:
     card_count: 1
     other:
+    - name: Story and deck-building insert
     - name: 1 Dominaria Spindown
     pack:
     - code: prerelease
