@@ -24,6 +24,9 @@ products:
       set: bro
     other:
     - name: The Brothers' War Spindown Die
+    pack:
+    - code: bundle-transformers
+      set: bro
     sealed:
     - count: 8
       name: The Brothers' War Set Booster Pack
@@ -78,7 +81,7 @@ products:
     - name: The Brothers' War Bundle Land Pack
       set: bro
     other:
-    - name: The Brothers' War Spindown Die
+    - name: Transformers-themed Spindown
     pack:
     - code: gift-bundle-transformers
       set: bro
@@ -118,6 +121,8 @@ products:
     card_count: 1
     other:
     - name: The Brothers' War Spindown Die
+    - name: Punch-out Accessories and Counters
+    - name: MTG Arena Code Card (where available)
     pack:
     - code: prerelease
       set: bro
@@ -129,6 +134,8 @@ products:
     card_count: 1
     other:
     - name: The Brothers War' Spindown Die
+    - name: Punch-out Accessories and Counters
+    - name: MTG Arena Code Card (where available)
     pack:
     - code: prerelease
       set: bro
