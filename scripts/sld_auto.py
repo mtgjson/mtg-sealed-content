@@ -115,7 +115,7 @@ def main():
             offset = 0
 
     with open("data/contents/SLD.yaml", 'w') as sfile:
-        yaml.dump(sld_products, sfile)
+        yaml.dump(sld_products, sfile, allow_unicode=True)
 
 
 if __name__ == "__main__":

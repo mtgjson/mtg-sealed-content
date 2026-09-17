@@ -85,7 +85,11 @@ def main():
                     )
             if products:
                 with open(output_file, "w") as write:
-                    yaml.dump({"code": set_code.lower(), "products": products}, write)
+                    yaml.dump(
+                        {"code": set_code.lower(), "products": products},
+                        write,
+                        allow_unicode=True,
+                    )
 
     logger.info("%s out of %s products complete", complete, total)
 

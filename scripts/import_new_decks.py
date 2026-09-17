@@ -122,7 +122,7 @@ def add_product(set_code, name, deck):
             "products": {},
         }
         with open(products_path, "w") as f:
-            yaml.safe_dump(new_file, f)
+            yaml.safe_dump(new_file, f, allow_unicode=True)
 
     # Load existing products and add the new one
     with open(products_path, "r") as f:
@@ -159,7 +159,7 @@ def add_product(set_code, name, deck):
 
     # Update file
     with open(products_path, "w") as f:
-        yaml.safe_dump(products, f)
+        yaml.safe_dump(products, f, allow_unicode=True)
 
 
 def add_content(set_code, name, deck):
@@ -171,7 +171,7 @@ def add_content(set_code, name, deck):
             "products": {},
         }
         with open(contents_path, "w") as f:
-            yaml.safe_dump(new_file, f)
+            yaml.safe_dump(new_file, f, allow_unicode=True)
 
     with open(contents_path, "r") as f:
         contents = yaml.safe_load(f)
@@ -204,7 +204,7 @@ def add_content(set_code, name, deck):
         contents["products"][name] = content
 
     with open(contents_path, "w") as f:
-        yaml.safe_dump(contents, f)
+        yaml.safe_dump(contents, f, allow_unicode=True)
 
 
 def main():
