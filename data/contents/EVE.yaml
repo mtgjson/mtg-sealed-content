@@ -43,11 +43,15 @@ products:
     deck:
     - name: Battle Blitz
       set: eve
+    other:
+    - name: One random Pro Tour Player Card
   Eventide Theme Deck Death March:
     card_count: 60
     deck:
     - name: Death March
       set: eve
+    other:
+    - name: One random Pro Tour Player Card
   Eventide Theme Deck Display:
     sealed:
     - count: 2
@@ -94,13 +98,19 @@ products:
     deck:
     - name: Life Drain
       set: eve
+    other:
+    - name: One random Pro Tour Player Card
   Eventide Theme Deck Sidestep:
     card_count: 60
     deck:
     - name: Sidestep
       set: eve
+    other:
+    - name: One random Pro Tour Player Card
   Eventide Theme Deck Superabundance:
     card_count: 60
     deck:
     - name: Superabundance
       set: eve
+    other:
+    - name: One random Pro Tour Player Card
