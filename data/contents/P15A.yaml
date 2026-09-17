@@ -1,3 +1,15 @@
 code: p15a
 products:
-  15th Anniversary 2-Player Starter Set: []
+  15th Anniversary 2-Player Starter Set:
+    card:
+    - name: Kamahl, Pit Fighter
+      set: p15a
+      number: '2'
+      foil: true
+    other:
+    - name: 20 assorted basic lands
+    - name: Quick-start rules insert
+    sealed:
+    - count: 2
+      name: Tenth Edition Booster Pack
+      set: 10e
