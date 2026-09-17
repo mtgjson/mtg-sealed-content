@@ -172,10 +172,13 @@ products:
     - pack:
       - code: prerelease-orzhov
         set: gtc
+    - pack:
       - code: prerelease-dimir
         set: gtc
+    - pack:
       - code: prerelease-boros
         set: gtc
+    - pack:
       - code: prerelease-simic
         set: gtc
     variable_mode:
@@ -194,10 +197,13 @@ products:
     - pack:
       - code: prerelease-azorius
         set: rtr
+    - pack:
       - code: prerelease-izzet
         set: rtr
+    - pack:
       - code: prerelease-rakdos
         set: rtr
+    - pack:
       - code: prerelease-selesnya
         set: rtr
     variable_mode:
@@ -216,10 +222,13 @@ products:
     - pack:
       - code: prerelease-azorius
         set: rtr
+    - pack:
       - code: prerelease-izzet
         set: rtr
+    - pack:
       - code: prerelease-rakdos
         set: rtr
+    - pack:
       - code: prerelease-golgari
         set: rtr
     variable_mode:
@@ -238,10 +247,13 @@ products:
     - pack:
       - code: prerelease-orzhov
         set: gtc
+    - pack:
       - code: prerelease-dimir
         set: gtc
+    - pack:
       - code: prerelease-gruul
         set: gtc
+    - pack:
       - code: prerelease-simic
         set: gtc
     variable_mode:
@@ -250,7 +262,7 @@ products:
   Dragons Maze Prerelease Guild Kit Gruul:
     card_count: 30
     pack:
-    - code: prerelease-boros
+    - code: prerelease-gruul
       set: gtc
     sealed:
     - count: 4
@@ -260,10 +272,13 @@ products:
     - pack:
       - code: prerelease-golgari
         set: rtr
+    - pack:
       - code: prerelease-izzet
         set: rtr
+    - pack:
       - code: prerelease-rakdos
         set: rtr
+    - pack:
       - code: prerelease-selesnya
         set: rtr
     variable_mode:
@@ -282,10 +297,13 @@ products:
     - pack:
       - code: prerelease-gruul
         set: gtc
+    - pack:
       - code: prerelease-dimir
         set: gtc
+    - pack:
       - code: prerelease-boros
         set: gtc
+    - pack:
       - code: prerelease-simic
         set: gtc
     variable_mode:
@@ -294,7 +312,7 @@ products:
   Dragons Maze Prerelease Guild Kit Orzhov:
     card_count: 30
     pack:
-    - code: prerelease-boros
+    - code: prerelease-orzhov
       set: gtc
     sealed:
     - count: 4
@@ -304,10 +322,13 @@ products:
     - pack:
       - code: prerelease-azorius
         set: rtr
+    - pack:
       - code: prerelease-golgari
         set: rtr
+    - pack:
       - code: prerelease-rakdos
         set: rtr
+    - pack:
       - code: prerelease-selesnya
         set: rtr
     variable_mode:
@@ -326,10 +347,13 @@ products:
     - pack:
       - code: prerelease-orzhov
         set: gtc
+    - pack:
       - code: prerelease-dimir
         set: gtc
+    - pack:
       - code: prerelease-boros
         set: gtc
+    - pack:
       - code: prerelease-gruul
         set: gtc
     variable_mode:
@@ -348,10 +372,13 @@ products:
     - pack:
       - code: prerelease-orzhov
         set: gtc
+    - pack:
       - code: prerelease-gruul
         set: gtc
+    - pack:
       - code: prerelease-boros
         set: gtc
+    - pack:
       - code: prerelease-simic
         set: gtc
     variable_mode:
@@ -360,7 +387,7 @@ products:
   Dragons Maze Prerelease Guild Kit Simic:
     card_count: 30
     pack:
-    - code: prerelease-boros
+    - code: prerelease-simic
       set: gtc
     sealed:
     - count: 4
@@ -370,10 +397,13 @@ products:
     - pack:
       - code: prerelease-azorius
         set: rtr
+    - pack:
       - code: prerelease-izzet
         set: rtr
+    - pack:
       - code: prerelease-golgari
         set: rtr
+    - pack:
       - code: prerelease-selesnya
         set: rtr
     variable_mode:
