@@ -67,26 +67,36 @@ products:
     deck:
     - name: Fun With Fungus
       set: tsp
+    other:
+    - name: One random Pro Tour Player Card
   Time Spiral Theme Deck Hopes Crusaders:
     card_count: 60
     deck:
     - name: Hope's Crusaders
       set: tsp
+    other:
+    - name: One random Pro Tour Player Card
   Time Spiral Theme Deck Reality Fracture:
     card_count: 60
     deck:
     - name: Reality Fracture
       set: tsp
+    other:
+    - name: One random Pro Tour Player Card
   Time Spiral Theme Deck Sliver Evolution:
     card_count: 60
     deck:
     - name: Sliver Evolution
       set: tsp
+    other:
+    - name: One random Pro Tour Player Card
   Time Spiral Tournament Pack:
     card_count: 75
     pack:
     - code: tournament
       set: tsp
+    other:
+    - name: One random Pro Tour Player Card
   Time Spiral Tournament Pack Display:
     sealed:
     - count: 12
