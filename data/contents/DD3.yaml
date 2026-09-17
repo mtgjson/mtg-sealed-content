@@ -1,8 +1,6 @@
 code: dd3
 products:
   Duel Deck Anthology:
-    other:
-    - name: 35 Tokens
     sealed:
     - count: 1
       name: Duel Deck Anthology Chandra Deck
@@ -28,3 +26,6 @@ products:
     - count: 1
       name: Duel Deck Anthology Liliana Deck
       set: gvl
+    deck:
+    - name: Duel Decks Anthology Tokens
+      set: dd3
