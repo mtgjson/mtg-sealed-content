@@ -1,3 +1,8 @@
+if __package__:
+    from .atomic_write import atomic_write
+else:
+    from atomic_write import atomic_write
+
 import yaml
 import json
 from pathlib import Path
@@ -16,7 +21,7 @@ def main(new_contents):
                     status_file.write(f"Product {file.stem} - {p_name} missing required release date\n")
         products_new[data["code"]] = data["products"]
 
-    with open("outputs/products.json", "w") as outfile:
+    with atomic_write('outputs/products.json') as outfile:
         json.dump(products_new, outfile)
 
 
