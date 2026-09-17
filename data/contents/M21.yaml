@@ -8,9 +8,8 @@ products:
     - name: Mono Green
       set: m21
     other:
-    - name: 2 Quick-Start Guides
-    - name: 2 First Game Walk-Through Cards
-    - name: Rules and World of Magic Booklet
+    - name: 16-page reference rulebook
+    - name: MTG Arena code card
   Core Set 2021 Arena Starter Kit Amazon:
     card_count: 120
     deck:
@@ -19,10 +18,8 @@ products:
     - name: Mono Green Amazon
       set: m21
     other:
-    - name: 2 Quick-Start Guides
-    - name: 2 First Game Walk-Through Cards
-    - name: Rules and World of Magic Booklet
-    - name: MTG Arena Code Card
+    - name: 16-page reference rulebook
+    - name: MTG Arena code card
   Core Set 2021 Bundle:
     card:
     - foil: true
@@ -33,6 +30,7 @@ products:
     - name: Core Set 2021 Bundle Land Pack
       set: m21
     other:
+    - name: 2 reference cards
     - name: Core Set 2021 Spindown
     - name: Reusable Storage Box
     sealed:
@@ -88,6 +86,8 @@ products:
     - count: 1
       name: Core Set 2021 Draft Booster Pack
       set: m21
+    other:
+    - name: MTG Arena code card (where available)
   Core Set 2021 Planeswalker Deck Chandra:
     card_count: 60
     deck:
@@ -97,6 +97,8 @@ products:
     - count: 1
       name: Core Set 2021 Draft Booster Pack
       set: m21
+    other:
+    - name: MTG Arena code card (where available)
   Core Set 2021 Planeswalker Deck Display:
     sealed:
     - count: 2
@@ -123,6 +125,8 @@ products:
     - count: 1
       name: Core Set 2021 Draft Booster Pack
       set: m21
+    other:
+    - name: MTG Arena code card (where available)
   Core Set 2021 Planeswalker Deck Liliana:
     card_count: 60
     deck:
@@ -132,6 +136,8 @@ products:
     - count: 1
       name: Core Set 2021 Draft Booster Pack
       set: m21
+    other:
+    - name: MTG Arena code card (where available)
   Core Set 2021 Planeswalker Deck Teferi:
     card_count: 60
     deck:
@@ -141,6 +147,8 @@ products:
     - count: 1
       name: Core Set 2021 Draft Booster Pack
       set: m21
+    other:
+    - name: MTG Arena code card (where available)
   Core Set 2021 Planeswalker Decks Set of 5:
     sealed:
     - count: 1
@@ -161,6 +169,7 @@ products:
   Core Set 2021 Prerelease Pack:
     card_count: 1
     other:
+    - name: MTG Arena code card (where available)
     - name: Core Set 2021 Spindown
     pack:
     - code: prerelease
@@ -174,3 +183,5 @@ products:
     deck:
     - name: Core Set 2021 Welcome Booster
       set: m21
+    other:
+    - name: Double-sided helper cards
