@@ -1,3 +1,8 @@
+if __package__:
+    from .atomic_write import atomic_write
+else:
+    from atomic_write import atomic_write
+
 import argparse
 import re
 import sys
@@ -163,7 +168,7 @@ def main(argv=None):
                 del provider_products[name]
                 removed = True
         if removed:
-            with open(review_path, "w") as review_file:
+            with atomic_write(review_path) as review_file:
                 yaml.dump(review_data, review_file, allow_unicode=True)
 
 
@@ -179,7 +184,7 @@ def main(argv=None):
             if key in identifiers and identifiers[key] != value:
                 return False, identifiers[key]
         identifiers.update(handled[1])
-        with open(target_file, "w") as product_file:
+        with atomic_write(target_file) as product_file:
             yaml.dump(import_products, product_file, allow_unicode=True)
         return True, None
 
@@ -317,7 +322,7 @@ def main(argv=None):
             section = ignore_content.setdefault(product[3], {})
             for identifier in product[1].values():
                 section[identifier] = product[0]
-            with open("data/ignore.yaml", "w") as ignore_file:
+            with atomic_write("data/ignore.yaml") as ignore_file:
                 yaml.dump(ignore_content, ignore_file, allow_unicode=True)
             remove_from_review(product)
         elif product_check in ["0","1","2","3","4"]:
@@ -343,7 +348,7 @@ def main(argv=None):
                 index -= 1
                 continue
             import_products["products"][product_link[0]]["identifiers"].update(product[1])
-            with open(product_link[1], 'w') as product_file:
+            with atomic_write(product_link[1]) as product_file:
                 yaml.dump(import_products, product_file, allow_unicode=True)
             remove_from_review(product)
         elif product_check == "c":
@@ -396,7 +401,7 @@ def main(argv=None):
                 "subtype": subtype,
             }
 
-            with target_path.open("w") as product_file:
+            with atomic_write(target_path) as product_file:
                 yaml.dump(content, product_file, allow_unicode=True)
 
             # Mirror the new product into the contents file as an empty placeholder,
@@ -412,7 +417,7 @@ def main(argv=None):
 
             contents_data["products"].setdefault(product_name, {})
 
-            with contents_path.open("w") as contents_file:
+            with atomic_write(contents_path) as contents_file:
                 yaml.dump(contents_data, contents_file, allow_unicode=True)
 
             remove_from_review(product)
