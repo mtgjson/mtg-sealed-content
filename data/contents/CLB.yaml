@@ -11,6 +11,10 @@ products:
       name: Wand of Wonder
       number: 935
       set: clb
+    - name: Undercity // The Initiative
+      number: 20
+      set: oclb
+      token: true
     deck:
     - name: 'Commander Legends: Battle for Baldur''s Gate Bundle Land Pack'
       set: clb
@@ -56,7 +60,6 @@ products:
     - name: Draconic Dissent
       set: clb
     other:
-    - name: Cardstock Display Commander
     - name: Life Tracker
     - name: 10 Double Sided Tokens
     sealed:
@@ -71,7 +74,6 @@ products:
     - name: Exit from Exile
       set: clb
     other:
-    - name: Cardstock Display Commander
     - name: Life Tracker
     - name: 10 Double Sided Tokens
     sealed:
@@ -86,7 +88,6 @@ products:
     - name: Mind Flayarrrs
       set: clb
     other:
-    - name: Cardstock Display Commander
     - name: Life Tracker
     - name: 10 Double Sided Tokens
     sealed:
@@ -101,7 +102,6 @@ products:
     - name: Party Time
       set: clb
     other:
-    - name: Cardstock Display Commander
     - name: Life Tracker
     - name: 10 Double Sided Tokens
     sealed:
@@ -140,9 +140,16 @@ products:
     - code: draft
       set: clb
   Commander Legends Battle for Baldurs Gate Prerelease Pack:
-    card_count: 1
+    card:
+    - foil: true
+      name: Undercity // The Initiative
+      number: 20
+      set: clb
+      token: true
+    card_count: 2
     other:
     - name: Commander Legends Battle for Baldurs Gate d20
+    - name: MTG Arena Code Card (where available)
     pack:
     - code: prerelease
       set: clb
