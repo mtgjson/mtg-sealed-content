@@ -1,7 +1,19 @@
 code: m14
 products:
-  2014 Core Set Booster Battle Pack: []
-  2014 Core Set Booster Battle Pack Display: []
+  2014 Core Set Booster Battle Pack:
+    other:
+    - name: Two 22-card semi-randomized decks
+    - name: Learn to play guide
+    - name: Rules insert
+    sealed:
+    - count: 2
+      name: 2014 Core Set Booster Pack
+      set: m14
+  2014 Core Set Booster Battle Pack Display:
+    sealed:
+    - count: 12
+      name: 2014 Core Set Booster Battle Pack
+      set: m14
   2014 Core Set Booster Box:
     sealed:
     - count: 36
@@ -185,27 +197,27 @@ products:
     - name: Magic 2014 Foil Redemption
       set: m14
   2014 Core Set Sample Deck Ajani Goldmane:
-    card_count: 35
+    card_count: 30
     deck:
     - name: White Deck
       set: m14
   2014 Core Set Sample Deck Chandra Nalaar:
-    card_count: 35
+    card_count: 30
     deck:
     - name: Red Deck
       set: m14
   2014 Core Set Sample Deck Garruk Wildspeaker:
-    card_count: 35
+    card_count: 30
     deck:
     - name: Green Deck
       set: m14
   2014 Core Set Sample Deck Jace Beleren:
-    card_count: 35
+    card_count: 30
     deck:
     - name: Blue Deck
       set: m14
   2014 Core Set Sample Deck Liliana Vess:
-    card_count: 35
+    card_count: 30
     deck:
     - name: Black Deck
       set: m14
