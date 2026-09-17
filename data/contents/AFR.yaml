@@ -28,12 +28,23 @@ products:
       name: Treasure Chest
       number: 397
       set: afr
+    - name: Dungeon of the Mad Mage
+      number: 20
+      set: oafr
+      token: true
+    - name: Lost Mine of Phandelver
+      number: 21
+      set: oafr
+      token: true
+    - name: Tomb of Annihilation
+      number: 22
+      set: oafr
+      token: true
     deck:
     - name: Adventures in the Forgotten Realms Bundle Land Pack
       set: afr
     other:
     - name: Adventures in the Forgotten Realms Premium Spindown
-    - name: 3 Oversized Dungeon Cards
     sealed:
     - count: 10
       name: Adventures in the Forgotten Realms Draft Booster Pack
@@ -84,12 +95,23 @@ products:
       name: Treasure Chest
       number: 397
       set: afr
+    - name: Dungeon of the Mad Mage
+      number: 20
+      set: oafr
+      token: true
+    - name: Lost Mine of Phandelver
+      number: 21
+      set: oafr
+      token: true
+    - name: Tomb of Annihilation
+      number: 22
+      set: oafr
+      token: true
     deck:
     - name: Adventures in the Forgotten Realms Bundle Land Pack
       set: afr
     other:
     - name: Adventures in the Forgotten Realms Premium Spindown
-    - name: 3 Oversized Dungeon Cards
     sealed:
     - count: 10
       name: Adventures in the Forgotten Realms Draft Booster Pack
@@ -108,10 +130,25 @@ products:
     - name: Adventures in the Forgotten Realms Foil Redemption
       set: afr
   Adventures in the Forgotten Realms Prerelease Pack:
-    card_count: 1
+    card:
+    - foil: true
+      name: Dungeon of the Mad Mage
+      number: 20
+      set: afr
+      token: true
+    - foil: true
+      name: Lost Mine of Phandelver
+      number: 21
+      set: afr
+      token: true
+    - foil: true
+      name: Tomb of Annihilation
+      number: 22
+      set: afr
+      token: true
+    card_count: 4
     other:
     - name: Adventures in the Forgotten realms Prerelease Spindown
-    - name: 3 Double-Sided Foil Dungeon Cards
     pack:
     - code: prerelease
       set: afr
