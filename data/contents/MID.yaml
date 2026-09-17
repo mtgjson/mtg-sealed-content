@@ -71,9 +71,16 @@ products:
     - name: 'Innistrad: Midnight Hunt Foil Redemption'
       set: mid
   Innistrad Midnight Hunt Prerelease Pack:
-    card_count: 1
+    card:
+    - name: Day // Night
+      number: 19
+      set: mid
+      token: true
+    card_count: 2
     other:
     - name: Innistrad Midnight Hunt Spindown
+    - name: 3 double-faced helper cards
+    - name: MTG Arena code card (available in select regions)
     pack:
     - code: prerelease
       set: mid
