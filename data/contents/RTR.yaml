@@ -5,8 +5,20 @@ products:
     - count: 3
       name: Return to Ravnica Booster Pack
       set: rtr
-  Return to Ravnica Booster Battle Pack: []
-  Return to Ravnica Booster Battle Pack Display: []
+  Return to Ravnica Booster Battle Pack:
+    other:
+    - name: Two 22-card semi-randomized decks
+    - name: Learn to play guide
+    - name: Rules insert
+    sealed:
+    - count: 2
+      name: Return to Ravnica Booster Pack
+      set: rtr
+  Return to Ravnica Booster Battle Pack Display:
+    sealed:
+    - count: 12
+      name: Return to Ravnica Booster Battle Pack
+      set: rtr
   Return to Ravnica Booster Box:
     sealed:
     - count: 36
