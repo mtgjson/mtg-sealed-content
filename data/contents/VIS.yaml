@@ -1,6 +1,25 @@
 code: vis
 products:
-  Multiverse Gift Box: []
+  Multiverse Gift Box:
+    other:
+    - name: Alliances booster language - Italian
+    - name: Homelands booster language - French
+    sealed:
+    - count: 2
+      name: Visions Preview Printing Booster Pack
+      set: vis
+    - count: 1
+      name: Alliances Booster Pack
+      set: all
+    - count: 1
+      name: Chronicles Foreign Black Border Japanese Booster Pack
+      set: bchr
+    - count: 1
+      name: Renaissance German Booster Pack
+      set: ren
+    - count: 1
+      name: Homelands Booster Pack
+      set: hml
   Visions Booster Box:
     sealed:
     - count: 36
@@ -16,4 +35,7 @@ products:
     pack:
     - code: draft
       set: vis
-  Visions Preview Printing Booster Pack: []
+  Visions Preview Printing Booster Pack:
+    card_count: 15
+    other:
+    - name: 15 Visions preview cards from a 25-card pool (collation unresolved)
