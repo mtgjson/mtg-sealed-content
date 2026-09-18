@@ -111,6 +111,24 @@ class TokenDownloadTests(unittest.TestCase):
         self.assertEqual(self.cache.read_text(), "[]")
         self.assertEqual(list(self.cache.parent.iterdir()), [self.cache])
 
+    def test_exhausted_offset_is_an_empty_page_not_a_failure(self):
+        self.session.get.return_value = self.response(
+            {"success": False, "errors": ["No products found."], "results": []}, 404
+        )
+        self.assertEqual(self.download(), [])
+        self.assertFalse(self.cache.exists())
+
+    def test_exhausted_offset_ends_pagination(self):
+        self.session.get.side_effect = [
+            self.response({"success": True, "results": [{"productId": 1}]}),
+            self.response(b"No products found.", 404),
+        ]
+        with patch("scripts.tokens.tcgplayer_provider.multiprocessing.Pool", InlinePool):
+            catalog = self.provider.download_exhaustive(
+                "https://example.test/catalog", self.params, threads=1
+            )
+        self.assertEqual(catalog, [{"productId": 1}])
+
     def test_valid_empty_page_ends_pagination(self):
         self.session.get.return_value = self.response({"success": True, "errors": [], "results": []})
         with patch("scripts.tokens.tcgplayer_provider.multiprocessing.Pool", InlinePool):
