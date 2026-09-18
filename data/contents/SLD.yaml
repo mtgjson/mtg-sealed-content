@@ -10697,8 +10697,9 @@ products:
     deck:
     - name: 'Theros Stargazing: Vol. IV (Purphoros)'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-theros-stargazing-vol-iv-purphoros
+      set: sld
   Secret Lair Drop Theros Stargazing Vol V Nylea:
     card_count: 3
     deck:
