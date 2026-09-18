@@ -137,6 +137,17 @@ products:
     pack:
     - code: play
       set: sos
+  Secrets of Strixhaven Play Pack:
+    card:
+    - foil: true
+      name: Zetalpa, Primal Dawn
+      number: 2026-11
+      set: pmei
+    card_count: 1
+    sealed:
+    - count: 3
+      name: Secrets of Strixhaven Play Booster Pack
+      set: sos
   Secrets of Strixhaven Prerelease Pack Lorehold:
     card_count: 15
     other:
