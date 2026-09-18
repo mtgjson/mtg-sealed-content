@@ -12,10 +12,13 @@ products:
       set: por
   Portal Booster Pack:
     card_count: 15
+    other:
+    - name: 1 Portal strategy card (10 possible cards)
     pack:
     - code: default
       set: por
   Portal Demo Game Booster Pack:
+    card_count: 24
     deck:
     - name: Demo deck A
       set: por
