@@ -16,6 +16,7 @@ products:
     - code: default
       set: s99
   Starter 1999 Demo Game Booster Pack:
+    card_count: 24
     deck:
     - name: Demo deck A
       set: s99
@@ -24,7 +25,7 @@ products:
     other:
     - name: Tip Card
     - name: Rebate Card
-    - name: 2 Instruction sheets
+    - name: Instruction sheet
   Starter 1999 Starter Game:
     card_count: 80
     deck:
