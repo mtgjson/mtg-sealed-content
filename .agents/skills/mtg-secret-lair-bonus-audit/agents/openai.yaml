@@ -1,0 +1,4 @@
+interface:
+  display_name: "Secret Lair Bonus Audit"
+  short_description: "Audit per-drop bonus pools, evidence and finishes"
+  default_prompt: "Use $mtg-secret-lair-bonus-audit to review the requested Secret Lair batch and model supported bonus pools per drop."

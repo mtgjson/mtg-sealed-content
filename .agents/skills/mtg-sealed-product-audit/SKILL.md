@@ -7,6 +7,8 @@ description: Audit Magic sealed products against Wizards collecting guides and t
 
 Compare physical product contents with the three source layers; distinguish wrong source data from missing upstream printings and delayed downstream publication. Scope can be one release or a release year. An audit request authorizes investigation; use existing conversation authorization when deciding whether to send fixes as PRs. Do not silently expand an annual audit into unrelated tooling changes.
 
+For Secret Lair bonus-card pool audits, use the dedicated [Secret Lair bonus audit](../mtg-secret-lair-bonus-audit/SKILL.md) for per-drop boosters, evidence conflicts, unknown slots and finish propagation.
+
 ## Source layers
 
 - `mtgjson/mtg-sealed-content` (`main`): `data/products/SET.yaml` defines products/identifiers; `data/contents/SET.yaml` describes cards, decks, packs, nested sealed products and accessories.
