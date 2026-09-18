@@ -16,8 +16,10 @@ p.add_argument('--output', type=Path, required=True)
 a = p.parse_args()
 sets = json.loads((a.search / 'index/sets.json').read_text())
 decks = {(d['set_code'].lower(), d['name']): d for d in json.loads(a.decks_json.read_text())}
-contents = {f.stem.lower(): (yaml.safe_load(f.read_text()) or {}).get('products', {})
-            for f in (a.sealed / 'data/contents').glob('*.yaml')}
+contents = {}
+for f in (a.sealed / 'data/contents').glob('*.yaml'):
+    data = yaml.safe_load(f.read_text()) or {}
+    contents[str(data.get('code', f.stem)).lower()] = data.get('products', {})
 rows, issues, undated = [], [], []
 
 def issue(product, kind, detail):
@@ -52,8 +54,9 @@ def scan(value, product, code, seen):
                 scan(values, product, code, seen)
 
 for f in sorted((a.sealed / 'data/products').glob('*.yaml')):
-    code = f.stem.lower()
-    for name, info in (yaml.safe_load(f.read_text()) or {}).get('products', {}).items():
+    data = yaml.safe_load(f.read_text()) or {}
+    code = str(data.get('code', f.stem)).lower()
+    for name, info in data.get('products', {}).items():
         if not isinstance(info, dict):
             continue
         explicit = info.get('release_date')
