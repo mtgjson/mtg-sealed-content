@@ -44,11 +44,15 @@ products:
     deck:
     - name: Charge of the Boros
       set: rav
+    other:
+    - name: One random Pro Tour Player Card
   Ravnica Theme Deck Dimir Intrigues:
     card_count: 60
     deck:
     - name: Dimir Intrigues
       set: rav
+    other:
+    - name: One random Pro Tour Player Card
   Ravnica Theme Deck Display:
     sealed:
     - count: 3
@@ -68,11 +72,15 @@ products:
     deck:
     - name: Golgari Deathcreep
       set: rav
+    other:
+    - name: One random Pro Tour Player Card
   Ravnica Theme Deck Selesnya United:
     card_count: 60
     deck:
     - name: Selesnya United
       set: rav
+    other:
+    - name: One random Pro Tour Player Card
   Ravnica Theme Decks Set of 4:
     sealed:
     - count: 1
@@ -92,6 +100,8 @@ products:
     pack:
     - code: tournament
       set: rav
+    other:
+    - name: One random Pro Tour Player Card
   Ravnica Tournament Pack Display:
     sealed:
     - count: 12
