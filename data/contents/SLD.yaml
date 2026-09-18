@@ -3042,6 +3042,11 @@ products:
         name: Huatli, the Sun's Heart
         number: 530
         set: sld
+    - card:
+      - foil: true
+        name: Angrath, Captain of Chaos
+        number: 527
+        set: sld
     variable_mode:
       count: 1
     other:
@@ -5465,6 +5470,16 @@ products:
       - foil: true
         name: Teferi, Time Raveler
         number: 526
+        set: sld
+    - card:
+      - foil: true
+        name: Domri, Anarch of Bolas
+        number: 521
+        set: sld
+    - card:
+      - foil: true
+        name: Sorin, Vengeful Bloodlord
+        number: 524
         set: sld
     variable_mode:
       count: 1
