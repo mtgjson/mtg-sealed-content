@@ -101,11 +101,15 @@ products:
     deck:
     - name: Arcanis's Guile
       set: 10e
+    other:
+    - name: One random Pro Tour Player Card
   Tenth Edition Theme Deck Cho Mannos Resolve:
     card_count: 40
     deck:
     - name: Cho-Manno's Resolve
       set: 10e
+    other:
+    - name: One random Pro Tour Player Card
   Tenth Edition Theme Deck Display:
     sealed:
     - count: 3
@@ -128,16 +132,22 @@ products:
     deck:
     - name: Evincar's Tyranny
       set: 10e
+    other:
+    - name: One random Pro Tour Player Card
   Tenth Edition Theme Deck Kamahls Temper:
     card_count: 40
     deck:
     - name: Kamahl's Temper
       set: 10e
+    other:
+    - name: One random Pro Tour Player Card
   Tenth Edition Theme Deck Molimos Might:
     card_count: 40
     deck:
     - name: Molimo's Might
       set: 10e
+    other:
+    - name: One random Pro Tour Player Card
   Tenth Edition Theme Decks Set of 5:
     sealed:
     - count: 1
@@ -157,10 +167,12 @@ products:
       set: 10e
   Tenth Edition Two Player Starter Game:
     other:
-    - name: 20 basic lands
     - name: Rules sheet
     - name: Pro tour player promo card
     sealed:
     - count: 2
       name: Tenth Edition Booster Pack
+      set: 10e
+    deck:
+    - name: Tenth Edition Starter Game Land Pack
       set: 10e
