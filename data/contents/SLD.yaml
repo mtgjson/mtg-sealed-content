@@ -1729,57 +1729,17 @@ products:
     deck:
     - name: Absolute Annihilation
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Thorncaster Sliver
-        number: 645
-        set: sld
-    - card:
-      - foil: true
-        name: Sedge Sliver
-        number: 642
-        set: sld
-    - card:
-      - foil: true
-        name: Basal Sliver
-        number: 629
-        set: sld
-    - card:
-      - foil: true
-        name: Shadowborn Apostle
-        number: 686
-        set: sld
-    variable_mode:
-      count: 1
+    pack:
+    - code: bonus-absolute-annihilation
+      set: sld
   Secret Lair Drop Absolute Annihilation Foil:
     card_count: 4
     deck:
     - name: Absolute Annihilation Foil Edition
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Thorncaster Sliver
-        number: 645
-        set: sld
-    - card:
-      - foil: true
-        name: Sedge Sliver
-        number: 642
-        set: sld
-    - card:
-      - foil: true
-        name: Basal Sliver
-        number: 629
-        set: sld
-    - card:
-      - foil: true
-        name: Shadowborn Apostle
-        number: 686
-        set: sld
-    variable_mode:
-      count: 1
+    pack:
+    - code: bonus-absolute-annihilation
+      set: sld
   Secret Lair Drop Adventures of the Little Witch:
     card_count: 4
     deck:
@@ -2996,7 +2956,7 @@ products:
     - name: Bad to the Bones
       set: sld
     pack:
-    - code: surprise-slivers
+    - code: bonus-bad-to-the-bones
       set: sld
   Secret Lair Drop Bad to the Bones Foil:
     card_count: 5
@@ -3004,7 +2964,7 @@ products:
     - name: Bad to the Bones Foil Edition
       set: sld
     pack:
-    - code: surprise-slivers
+    - code: bonus-bad-to-the-bones
       set: sld
   Secret Lair Drop Bitterblossom Dreams:
     card_count: 6
@@ -3179,70 +3139,25 @@ products:
     deck:
     - name: Buggin' Out
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Magma Sliver
-        number: 641
-        set: sld
-    - card:
-      - foil: true
-        name: Psionic Sliver
-        number: 621
-        set: sld
-    - card:
-      - foil: true
-        name: Screeching Sliver
-        number: 622
-        set: sld
-    variable_mode:
-      count: 1
+    pack:
+    - code: bonus-buggin-out
+      set: sld
   Secret Lair Drop Buggin Out Foil:
     card_count: 5
     deck:
     - name: Buggin' Out Foil Edition
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Magma Sliver
-        number: 641
-        set: sld
-    - card:
-      - foil: true
-        name: Psionic Sliver
-        number: 621
-        set: sld
-    - card:
-      - foil: true
-        name: Screeching Sliver
-        number: 622
-        set: sld
-    variable_mode:
-      count: 1
+    pack:
+    - code: bonus-buggin-out
+      set: sld
   Secret Lair Drop Calling All Hydra Heads:
     card_count: 5
     deck:
     - name: Calling All Hydra Heads
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Muscle Sliver
-        number: 653
-        set: sld
-    - card:
-      - foil: true
-        name: Shadow Sliver
-        number: 624
-        set: sld
-    - card:
-      - foil: true
-        name: Screeching Sliver
-        number: 622
-        set: sld
-    variable_mode:
-      count: 1
+    pack:
+    - code: bonus-calling-all-hydra-heads
+      set: sld
   Secret Lair Drop Can You Feel with a Heart of Steel:
     card:
     - foil: true
@@ -3293,29 +3208,9 @@ products:
     deck:
     - name: City Styles
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Sidewinder Sliver
-        number: 615
-        set: sld
-    - card:
-      - foil: true
-        name: Thorncaster Sliver
-        number: 645
-        set: sld
-    - card:
-      - foil: true
-        name: Homing Sliver
-        number: 640
-        set: sld
-    - card:
-      - foil: true
-        name: Shadowborn Apostle
-        number: 681
-        set: sld
-    variable_mode:
-      count: 1
+    pack:
+    - code: bonus-city-styles
+      set: sld
   Secret Lair Drop City Styles 2 Dressed to Kill:
     card_count: 5
     deck:
@@ -3337,36 +3232,16 @@ products:
     deck:
     - name: City Styles Foil Edition
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Sidewinder Sliver
-        number: 615
-        set: sld
-    - card:
-      - foil: true
-        name: Thorncaster Sliver
-        number: 645
-        set: sld
-    - card:
-      - foil: true
-        name: Homing Sliver
-        number: 640
-        set: sld
-    - card:
-      - foil: true
-        name: Shadowborn Apostle
-        number: 681
-        set: sld
-    variable_mode:
-      count: 1
+    pack:
+    - code: bonus-city-styles
+      set: sld
   Secret Lair Drop Cool Ocean Breeze:
     card_count: 4
     deck:
     - name: Cool Ocean Breeze
       set: sld
     pack:
-    - code: surprise-slivers
+    - code: bonus-cool-ocean-breeze
       set: sld
   Secret Lair Drop Cool Ocean Breeze Foil:
     card_count: 4
@@ -3374,7 +3249,7 @@ products:
     - name: Cool Ocean Breeze Foil Edition
       set: sld
     pack:
-    - code: surprise-slivers
+    - code: bonus-cool-ocean-breeze
       set: sld
   Secret Lair Drop Cosmic Chill by Robin Eisenberg:
     card_count: 5
@@ -3712,7 +3587,7 @@ products:
     - name: Death Is Temporary, Metal Is Forever
       set: sld
     pack:
-    - code: surprise-slivers
+    - code: bonus-death-is-temporary-metal-is-forever
       set: sld
   Secret Lair Drop Death Is Temporary Metal Is Forever Foil:
     card_count: 5
@@ -3720,17 +3595,23 @@ products:
     - name: Death Is Temporary, Metal Is Forever Foil Edition
       set: sld
     pack:
-    - code: surprise-slivers
+    - code: bonus-death-is-temporary-metal-is-forever
       set: sld
   Secret Lair Drop Deceptive Divination:
     card_count: 5
     deck:
     - name: Deceptive Divination
       set: sld
+    pack:
+    - code: bonus-deceptive-divination
+      set: sld
   Secret Lair Drop Deceptive Divination Rainbow Foil:
     card_count: 5
     deck:
     - name: Deceptive Divination Foil Edition
+      set: sld
+    pack:
+    - code: bonus-deceptive-divination
       set: sld
   Secret Lair Drop Diabolical Dioramas:
     card_count: 4
@@ -3738,7 +3619,7 @@ products:
     - name: Diabolical Dioramas
       set: sld
     pack:
-    - code: elusive-elves-early
+    - code: bonus-diabolical-dioramas
       set: sld
   Secret Lair Drop Diabolical Dioramas Rainbow Foil:
     card_count: 4
@@ -3746,7 +3627,7 @@ products:
     - name: Diabolical Dioramas Foil Edition
       set: sld
     pack:
-    - code: elusive-elves-early
+    - code: bonus-diabolical-dioramas
       set: sld
   Secret Lair Drop Dogs Are Better Than Cats:
     card:
@@ -3772,75 +3653,17 @@ products:
     deck:
     - name: Draw Your Hand
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Plague Sliver
-        number: 633Φ
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Toxin Sliver
-        number: 635Φ
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Virulent Sliver
-        number: 659Φ
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Shadowborn Apostle
-        number: 681Φ
-        set: sld
-      chance: 1
-    - chance: 96
-      pack:
-      - code: surprise-slivers
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-draw-your-hand
+      set: sld
   Secret Lair Drop Draw Your Hand Foil:
     card_count: 4
     deck:
     - name: Draw Your Hand Foil Edition
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Plague Sliver
-        number: 633Φ
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Toxin Sliver
-        number: 635Φ
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Virulent Sliver
-        number: 659Φ
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Shadowborn Apostle
-        number: 681Φ
-        set: sld
-      chance: 1
-    - chance: 96
-      pack:
-      - code: surprise-slivers
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-draw-your-hand
+      set: sld
   Secret Lair Drop Dreaming Darkly:
     card_count: 4
     deck:
@@ -4391,7 +4214,7 @@ products:
     - name: 'Featuring: Andrew MacLean'
       set: sld
     pack:
-    - code: elusive-elves-late
+    - code: bonus-featuring-andrew-maclean
       set: sld
   Secret Lair Drop Featuring Andrew Maclean Rainbow Foil:
     card_count: 4
@@ -4399,7 +4222,7 @@ products:
     - name: 'Featuring: Andrew MacLean Foil Edition'
       set: sld
     pack:
-    - code: elusive-elves-late
+    - code: bonus-featuring-andrew-maclean
       set: sld
   Secret Lair Drop Featuring Deathburger:
     card_count: 5
@@ -4444,17 +4267,15 @@ products:
     deck:
     - name: 'Featuring: Gary Baseman'
       set: sld
-    pack:
-    - code: surprise-slivers
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Featuring Gary Baseman Foil:
     card_count: 5
     deck:
     - name: 'Featuring: Gary Baseman Foil Edition'
       set: sld
-    pack:
-    - code: surprise-slivers
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Featuring Gene Luen Yang:
     card_count: 5
     deck:
@@ -4557,7 +4378,7 @@ products:
     - name: 'Featuring: Julie Bell'
       set: sld
     pack:
-    - code: elusive-elves-late
+    - code: bonus-featuring-julie-bell
       set: sld
   Secret Lair Drop Featuring Julie Bell Rainbow Foil:
     card_count: 5
@@ -4565,7 +4386,7 @@ products:
     - name: 'Featuring: Julie Bell Foil Edition'
       set: sld
     pack:
-    - code: elusive-elves-late
+    - code: bonus-featuring-julie-bell
       set: sld
   Secret Lair Drop Featuring Kevin Eastman (Colors):
     card:
@@ -4661,33 +4482,29 @@ products:
     deck:
     - name: 'Featuring: Peach Momoko'
       set: sld
-    pack:
-    - code: elusive-elves-late
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Featuring Peach Momoko Rainbow Foil:
     card_count: 5
     deck:
     - name: 'Featuring: Peach Momoko Foil Edition'
       set: sld
-    pack:
-    - code: elusive-elves-late
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Featuring Phoebe Wahl:
     card_count: 5
     deck:
     - name: 'Featuring: Phoebe Wahl'
       set: sld
-    pack:
-    - code: elusive-elves-early
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Featuring Phoebe Wahl Rainbow Foil:
     card_count: 5
     deck:
     - name: 'Featuring: Phoebe Wahl Foil Edition'
       set: sld
-    pack:
-    - code: elusive-elves-early
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Featuring Stan Sakai:
     card:
     - name: Big Score
@@ -4957,7 +4774,7 @@ products:
     - name: Gift Wrapped
       set: sld
     pack:
-    - code: elusive-elves-early
+    - code: bonus-gift-wrapped
       set: sld
   Secret Lair Drop Gift Wrapped Rainbow Foil:
     card_count: 5
@@ -4965,7 +4782,7 @@ products:
     - name: Gift Wrapped Foil Edition
       set: sld
     pack:
-    - code: elusive-elves-early
+    - code: bonus-gift-wrapped
       set: sld
   Secret Lair Drop Goblin and Squabblin:
     card_count: 5
@@ -4973,7 +4790,7 @@ products:
     - name: Goblin & Squabblin'
       set: sld
     pack:
-    - code: surprise-slivers
+    - code: bonus-goblin-and-squabblin
       set: sld
   Secret Lair Drop Goblin and Squabblin Foil:
     card_count: 5
@@ -4981,7 +4798,7 @@ products:
     - name: Goblin & Squabblin' Foil Edition
       set: sld
     pack:
-    - code: surprise-slivers
+    - code: bonus-goblin-and-squabblin
       set: sld
   Secret Lair Drop Goblingram:
     card:
@@ -5081,7 +4898,7 @@ products:
     - name: Hard-Boiled Thrillers
       set: sld
     pack:
-    - code: elusive-elves-early
+    - code: bonus-hard-boiled-thrillers
       set: sld
   Secret Lair Drop Hard Boiled Thrillers Rainbow Foil:
     card_count: 5
@@ -5089,7 +4906,7 @@ products:
     - name: Hard-Boiled Thrillers Foil Edition
       set: sld
     pack:
-    - code: elusive-elves-early
+    - code: bonus-hard-boiled-thrillers
       set: sld
   Secret Lair Drop Here Be Dragons:
     card:
@@ -5563,18 +5380,15 @@ products:
     deck:
     - name: Keep Partying Hard, Shred Harder Than You Previously Thought Possible
       set: sld
-    pack:
-    - code: surprise-slivers
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Keep Partying Hard Shred Harder Than You Previously Thought Possible Foil:
     card_count: 4
     deck:
-    - name: Keep Partying Hard, Shred Harder Than You Previously Thought Possible
-        Foil Edition
+    - name: Keep Partying Hard, Shred Harder Than You Previously Thought Possible Foil Edition
       set: sld
-    pack:
-    - code: surprise-slivers
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop LOOK AT THE KITTIES:
     card_count: 4
     deck:
@@ -5598,7 +5412,7 @@ products:
     - name: Legendary Flyers (Not That Kind)
       set: sld
     pack:
-    - code: surprise-slivers
+    - code: bonus-legendary-flyers-not-that-kind
       set: sld
   Secret Lair Drop Lil Giri Saves the Day Foil:
     card:
@@ -5617,9 +5431,8 @@ products:
     deck:
     - name: Lil Legends
       set: sld
-    pack:
-    - code: elusive-elves-late
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Lil Walkers:
     card_count: 5
     deck:
@@ -5693,17 +5506,15 @@ products:
     deck:
     - name: Lilest Walkers
       set: sld
-    pack:
-    - code: elusive-elves-early
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Lilest Walkers Rainbow Foil:
     card_count: 5
     deck:
     - name: Lilest Walkers Foil Edition
       set: sld
-    pack:
-    - code: elusive-elves-early
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Lofi Girl Beats to Cast To:
     card_count: 5
     deck:
@@ -5739,35 +5550,15 @@ products:
     deck:
     - name: 'Magic: The Baseballing'
       set: sld
-    variable:
-    - chance: 1
-      pack:
-      - code: baseball-signed
-        set: sld
-    - chance: 99
-      pack:
-      - code: surprise-slivers
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Magic The Baseballing Foil:
     card_count: 5
     deck:
     - name: 'Magic: The Baseballing Foil Edition'
       set: sld
-    variable:
-    - chance: 1
-      pack:
-      - code: baseball-signed
-        set: sld
-    - chance: 99
-      pack:
-      - code: surprise-slivers
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop MagicCon The Gathering:
     card_count: 4
     deck:
@@ -6048,7 +5839,7 @@ products:
     - name: Meditations on Nature
       set: sld
     pack:
-    - code: elusive-elves-early
+    - code: bonus-meditations-on-nature
       set: sld
   Secret Lair Drop Meditations on Nature Foil:
     card_count: 5
@@ -6056,7 +5847,7 @@ products:
     - name: Meditations on Nature Foil Edition
       set: sld
     pack:
-    - code: elusive-elves-early
+    - code: bonus-meditations-on-nature
       set: sld
   Secret Lair Drop Mirrodinsanity:
     card:
@@ -6098,17 +5889,15 @@ products:
     deck:
     - name: Monstrous Magazines
       set: sld
-    pack:
-    - code: elusive-elves-late
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Monstrous Magazines Rainbow Foil:
     card_count: 5
     deck:
     - name: Monstrous Magazines Foil Edition
       set: sld
-    pack:
-    - code: elusive-elves-late
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop More Adventures in Middle earth:
     card:
     - name: Gríma Wormtongue
@@ -6133,9 +5922,8 @@ products:
     deck:
     - name: More Borderless Planeswalkers
       set: sld
-    pack:
-    - code: surprise-slivers
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Mothers Day 2021:
     card_count: 4
     deck:
@@ -6232,7 +6020,7 @@ products:
     - name: Mycosynthwave
       set: sld
     pack:
-    - code: elusive-elves-early
+    - code: bonus-mycosynthwave
       set: sld
   Secret Lair Drop Mycosynthwave Rainbow Foil:
     card_count: 3
@@ -6240,7 +6028,7 @@ products:
     - name: Mycosynthwave Foil Edition
       set: sld
     pack:
-    - code: elusive-elves-early
+    - code: bonus-mycosynthwave
       set: sld
   Secret Lair Drop Nature is Adorable:
     card_count: 4
@@ -6248,7 +6036,7 @@ products:
     - name: Nature Is Adorable
       set: sld
     pack:
-    - code: surprise-slivers
+    - code: bonus-nature-is-adorable
       set: sld
   Secret Lair Drop Nature is Adorable Foil:
     card_count: 4
@@ -6256,7 +6044,7 @@ products:
     - name: Nature Is Adorable Foil Edition
       set: sld
     pack:
-    - code: surprise-slivers
+    - code: bonus-nature-is-adorable
       set: sld
   Secret Lair Drop Notebook Genius:
     card_count: 4
@@ -6279,17 +6067,15 @@ products:
     deck:
     - name: Now on VHS!
       set: sld
-    pack:
-    - code: surprise-slivers
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Now on VHS Foil:
     card_count: 4
     deck:
     - name: Now on VHS! Foil Edition
       set: sld
-    pack:
-    - code: surprise-slivers
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop OMG KITTIES:
     card:
     - foil: true
@@ -6383,7 +6169,7 @@ products:
     - name: 'Outlaw Anthology Vol. 1: Rebellious Renegades'
       set: sld
     pack:
-    - code: elusive-elves-late
+    - code: bonus-outlaw-anthology-vol-1-rebellious-renegades
       set: sld
   Secret Lair Drop Outlaw Anthology Vol 1 Rebellious Renegades Rainbow Foil:
     card_count: 4
@@ -6391,62 +6177,38 @@ products:
     - name: 'Outlaw Anthology Vol. 1: Rebellious Renegades Foil Edition'
       set: sld
     pack:
-    - code: elusive-elves-late
+    - code: bonus-outlaw-anthology-vol-1-rebellious-renegades
       set: sld
   Secret Lair Drop Outlaw Anthology Vol 2 Sinister Scoundrels:
     card_count: 4
     deck:
     - name: 'Outlaw Anthology Vol. 2: Sinister Scoundrels'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Elesh Norn, Grand Cenobite
-        number: 811
-        set: sld
-      chance: 1
-    - chance: 99
-      pack:
-      - code: elusive-elves-late
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-outlaw-anthology-vol-2-sinister-scoundrels
+      set: sld
   Secret Lair Drop Outlaw Anthology Vol 2 Sinister Scoundrels Rainbow Foil:
     card_count: 4
     deck:
     - name: 'Outlaw Anthology Vol. 2: Sinister Scoundrels Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Elesh Norn, Grand Cenobite
-        number: 811
-        set: sld
-      chance: 1
-    - chance: 99
-      pack:
-      - code: elusive-elves-late
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-outlaw-anthology-vol-2-sinister-scoundrels
+      set: sld
   Secret Lair Drop Paradise Frost:
     card_count: 5
     deck:
     - name: Paradise Frost
       set: sld
-    pack:
-    - code: elusive-elves-early
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Paradise Frost Rainbow Foil:
     card_count: 5
     deck:
     - name: Paradise Frost Foil Edition
       set: sld
-    pack:
-    - code: elusive-elves-early
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Party Hard Shred Harder:
     card:
     - foil: true
@@ -6462,75 +6224,17 @@ products:
     deck:
     - name: Phyrexian Faves
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Plague Sliver
-        number: 633Φ
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Toxin Sliver
-        number: 635Φ
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Virulent Sliver
-        number: 659Φ
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Shadowborn Apostle
-        number: 681Φ
-        set: sld
-      chance: 1
-    - chance: 96
-      pack:
-      - code: surprise-slivers
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-phyrexian-faves
+      set: sld
   Secret Lair Drop Phyrexian Faves Foil:
     card_count: 5
     deck:
     - name: Phyrexian Faves Foil Edition
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Plague Sliver
-        number: 633Φ
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Toxin Sliver
-        number: 635Φ
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Virulent Sliver
-        number: 659Φ
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Shadowborn Apostle
-        number: 681Φ
-        set: sld
-      chance: 1
-    - chance: 96
-      pack:
-      - code: surprise-slivers
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-phyrexian-faves
+      set: sld
   Secret Lair Drop Phyrexian Praetors Compleat Edition:
     card_count: 5
     deck:
@@ -6725,7 +6429,7 @@ products:
     - name: Poker Faces
       set: sld
     pack:
-    - code: elusive-elves-late
+    - code: bonus-poker-faces
       set: sld
   Secret Lair Drop Poker Faces Rainbow Foil:
     card_count: 5
@@ -6733,7 +6437,7 @@ products:
     - name: Poker Faces Foil Edition
       set: sld
     pack:
-    - code: elusive-elves-late
+    - code: bonus-poker-faces
       set: sld
   Secret Lair Drop Pride Across the Multiverse:
     card_count: 8
@@ -6801,7 +6505,7 @@ products:
     - name: Prints of Darkness
       set: sld
     pack:
-    - code: elusive-elves-late
+    - code: bonus-prints-of-darkness
       set: sld
   Secret Lair Drop Prints of Darkness Rainbow Foil:
     card_count: 5
@@ -6809,7 +6513,7 @@ products:
     - name: Prints of Darkness Foil Edition
       set: sld
     pack:
-    - code: elusive-elves-late
+    - code: bonus-prints-of-darkness
       set: sld
   Secret Lair Drop Prismatic Nightmares:
     card_count: 5
@@ -6817,7 +6521,7 @@ products:
     - name: Prismatic Nightmares
       set: sld
     pack:
-    - code: elusive-elves-early
+    - code: bonus-prismatic-nightmares
       set: sld
   Secret Lair Drop Prismatic Nightmares Rainbow Foil:
     card_count: 5
@@ -6825,7 +6529,7 @@ products:
     - name: Prismatic Nightmares Foil Edition
       set: sld
     pack:
-    - code: elusive-elves-early
+    - code: bonus-prismatic-nightmares
       set: sld
   Secret Lair Drop Purr Majesty:
     card:
@@ -6918,7 +6622,7 @@ products:
     - name: Burning Revelations
       set: sld
     pack:
-    - code: elusive-elves-early
+    - code: bonus-roadshow-edition-burning-revelations
       set: sld
   Secret Lair Drop Rule the Room:
     card_count: 4
@@ -7167,199 +6871,49 @@ products:
     deck:
     - name: 'Brain Dead: Creatures'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Echo of Eons
-        number: 821
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Hive Mind
-        number: 822
-        set: sld
-      chance: 99
-    - card:
-      - foil: true
-        name: Chaos Warp
-        number: 823
-        set: sld
-      chance: 200
-    - card:
-      - foil: true
-        name: Evolving Wilds
-        number: 824
-        set: sld
-      chance: 200
-    variable_mode:
-      count: 1
-      weight: 500
+    pack:
+    - code: bonus-secret-lair-x-brain-dead-creatures
+      set: sld
   Secret Lair Drop Secret Lair x Brain Dead Creatures Rainbow Foil:
     card_count: 5
     deck:
     - name: 'Brain Dead: Creatures Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Echo of Eons
-        number: 821
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Hive Mind
-        number: 822
-        set: sld
-      chance: 99
-    - card:
-      - foil: true
-        name: Chaos Warp
-        number: 823
-        set: sld
-      chance: 200
-    - card:
-      - foil: true
-        name: Evolving Wilds
-        number: 824
-        set: sld
-      chance: 200
-    variable_mode:
-      count: 1
-      weight: 500
+    pack:
+    - code: bonus-secret-lair-x-brain-dead-creatures
+      set: sld
   Secret Lair Drop Secret Lair x Brain Dead Lands:
     card_count: 10
     deck:
     - name: 'Brain Dead: Lands'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Echo of Eons
-        number: 821
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Hive Mind
-        number: 822
-        set: sld
-      chance: 99
-    - card:
-      - foil: true
-        name: Chaos Warp
-        number: 823
-        set: sld
-      chance: 200
-    - card:
-      - foil: true
-        name: Evolving Wilds
-        number: 824
-        set: sld
-      chance: 200
-    variable_mode:
-      count: 1
-      weight: 500
+    pack:
+    - code: bonus-secret-lair-x-brain-dead-lands
+      set: sld
   Secret Lair Drop Secret Lair x Brain Dead Lands Rainbow Foil:
     card_count: 10
     deck:
     - name: 'Brain Dead: Lands Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Echo of Eons
-        number: 821
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Hive Mind
-        number: 822
-        set: sld
-      chance: 99
-    - card:
-      - foil: true
-        name: Chaos Warp
-        number: 823
-        set: sld
-      chance: 200
-    - card:
-      - foil: true
-        name: Evolving Wilds
-        number: 824
-        set: sld
-      chance: 200
-    variable_mode:
-      count: 1
-      weight: 500
+    pack:
+    - code: bonus-secret-lair-x-brain-dead-lands
+      set: sld
   Secret Lair Drop Secret Lair x Brain Dead Staples:
     card_count: 5
     deck:
     - name: 'Brain Dead: Staples'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Echo of Eons
-        number: 821
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Hive Mind
-        number: 822
-        set: sld
-      chance: 99
-    - card:
-      - foil: true
-        name: Chaos Warp
-        number: 823
-        set: sld
-      chance: 200
-    - card:
-      - foil: true
-        name: Evolving Wilds
-        number: 824
-        set: sld
-      chance: 200
-    variable_mode:
-      count: 1
-      weight: 500
+    pack:
+    - code: bonus-secret-lair-x-brain-dead-staples
+      set: sld
   Secret Lair Drop Secret Lair x Brain Dead Staples Rainbow Foil:
     card_count: 5
     deck:
     - name: 'Brain Dead: Staples Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Echo of Eons
-        number: 821
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Hive Mind
-        number: 822
-        set: sld
-      chance: 99
-    - card:
-      - foil: true
-        name: Chaos Warp
-        number: 823
-        set: sld
-      chance: 200
-    - card:
-      - foil: true
-        name: Evolving Wilds
-        number: 824
-        set: sld
-      chance: 200
-    variable_mode:
-      count: 1
-      weight: 500
+    pack:
+    - code: bonus-secret-lair-x-brain-dead-staples
+      set: sld
   Secret Lair Drop Secret Lair x Chucky:
     card:
     - name: Stuffy Doll
@@ -7479,115 +7033,49 @@ products:
     deck:
     - name: 'Dungeons & Dragons: Astarion''s Thirst'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Minsc & Boo, Timeless Heroes
-        number: 879
-        set: sld
-      chance: 1
-    - chance: 199
-      pack:
-      - code: dnd-50th-anniversary
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 200
+    pack:
+    - code: bonus-secret-lair-x-dungeons-and-dragons-astarions-thirst
+      set: sld
   Secret Lair Drop Secret Lair x Dungeons and Dragons Astarions Thirst Rainbow Foil:
     card_count: 5
     deck:
     - name: 'Dungeons & Dragons: Astarion''s Thirst Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Minsc & Boo, Timeless Heroes
-        number: 879
-        set: sld
-      chance: 1
-    - chance: 199
-      pack:
-      - code: dnd-50th-anniversary
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 200
+    pack:
+    - code: bonus-secret-lair-x-dungeons-and-dragons-astarions-thirst
+      set: sld
   Secret Lair Drop Secret Lair x Dungeons and Dragons Death is in the Eyes of the Beholder I:
     card_count: 6
     deck:
     - name: 'Dungeons & Dragons: Death is in the Eyes of the Beholder I'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Minsc & Boo, Timeless Heroes
-        number: 879
-        set: sld
-      chance: 1
-    - chance: 199
-      pack:
-      - code: dnd-50th-anniversary
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 200
+    pack:
+    - code: bonus-secret-lair-x-dungeons-and-dragons-death-is-in-the-eyes-of-the-beholder-i
+      set: sld
   Secret Lair Drop Secret Lair x Dungeons and Dragons Death is in the Eyes of the Beholder I Rainbow Foil:
     card_count: 6
     deck:
     - name: 'Dungeons & Dragons: Death is in the Eyes of the Beholder I Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Minsc & Boo, Timeless Heroes
-        number: 879
-        set: sld
-      chance: 1
-    - chance: 199
-      pack:
-      - code: dnd-50th-anniversary
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 200
+    pack:
+    - code: bonus-secret-lair-x-dungeons-and-dragons-death-is-in-the-eyes-of-the-beholder-i
+      set: sld
   Secret Lair Drop Secret Lair x Dungeons and Dragons Death is in the Eyes of the Beholder II:
     card_count: 6
     deck:
     - name: 'Dungeons & Dragons: Death is in the Eyes of the Beholder II'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Minsc & Boo, Timeless Heroes
-        number: 879
-        set: sld
-      chance: 1
-    - chance: 199
-      pack:
-      - code: dnd-50th-anniversary
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 200
+    pack:
+    - code: bonus-secret-lair-x-dungeons-and-dragons-death-is-in-the-eyes-of-the-beholder-ii
+      set: sld
   Secret Lair Drop Secret Lair x Dungeons and Dragons Death is in the Eyes of the Beholder II Rainbow Foil:
     card_count: 6
     deck:
     - name: 'Dungeons & Dragons: Death is in the Eyes of the Beholder II Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Minsc & Boo, Timeless Heroes
-        number: 879
-        set: sld
-      chance: 1
-    - chance: 199
-      pack:
-      - code: dnd-50th-anniversary
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 200
+    pack:
+    - code: bonus-secret-lair-x-dungeons-and-dragons-death-is-in-the-eyes-of-the-beholder-ii
+      set: sld
   Secret Lair Drop Secret Lair x Dungeons and Dragons Honor Among Thieves:
     card:
     - name: Themberchaud
@@ -7612,39 +7100,17 @@ products:
     deck:
     - name: 'Dungeons & Dragons: Karlach''s Rage'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Minsc & Boo, Timeless Heroes
-        number: 879
-        set: sld
-      chance: 1
-    - chance: 199
-      pack:
-      - code: dnd-50th-anniversary
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 200
+    pack:
+    - code: bonus-secret-lair-x-dungeons-and-dragons-karlachs-rage
+      set: sld
   Secret Lair Drop Secret Lair x Dungeons and Dragons Karlachs Rage Rainbow Foil:
     card_count: 5
     deck:
     - name: 'Dungeons & Dragons: Karlach''s Rage Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Minsc & Boo, Timeless Heroes
-        number: 879
-        set: sld
-      chance: 1
-    - chance: 199
-      pack:
-      - code: dnd-50th-anniversary
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 200
+    pack:
+    - code: bonus-secret-lair-x-dungeons-and-dragons-karlachs-rage
+      set: sld
   Secret Lair Drop Secret Lair x FINAL FANTASY Game Over:
     card_count: 5
     deck:
@@ -7764,163 +7230,49 @@ products:
     deck:
     - name: 'Fallout: Points of Interest'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Codex Shredder
-        number: 790★
-        set: sld
-      chance: 150
-    - card:
-      - foil: true
-        name: Wastes
-        number: 795★
-        set: sld
-      chance: 150
-    - card:
-      - foil: true
-        name: Mana Vault
-        number: 796★
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 301
+    pack:
+    - code: bonus-secret-lair-x-fallout-points-of-interest
+      set: sld
   Secret Lair Drop Secret Lair x Fallout Points of Interest Rainbow Foil:
     card_count: 5
     deck:
     - name: 'Fallout: Points of Interest Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Codex Shredder
-        number: 790★
-        set: sld
-      chance: 150
-    - card:
-      - foil: true
-        name: Wastes
-        number: 795★
-        set: sld
-      chance: 150
-    - card:
-      - foil: true
-        name: Mana Vault
-        number: 796★
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 301
+    pack:
+    - code: bonus-secret-lair-x-fallout-points-of-interest
+      set: sld
   Secret Lair Drop Secret Lair x Fallout SPECIAL:
     card_count: 7
     deck:
     - name: 'Fallout: SPECIAL'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Codex Shredder
-        number: 790★
-        set: sld
-      chance: 150
-    - card:
-      - foil: true
-        name: Wastes
-        number: 795★
-        set: sld
-      chance: 150
-    - card:
-      - foil: true
-        name: Mana Vault
-        number: 796★
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 301
+    pack:
+    - code: bonus-secret-lair-x-fallout-special
+      set: sld
   Secret Lair Drop Secret Lair x Fallout SPECIAL Rainbow Foil:
     card_count: 7
     deck:
     - name: 'Fallout: SPECIAL Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Codex Shredder
-        number: 790★
-        set: sld
-      chance: 150
-    - card:
-      - foil: true
-        name: Wastes
-        number: 795★
-        set: sld
-      chance: 150
-    - card:
-      - foil: true
-        name: Mana Vault
-        number: 796★
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 301
+    pack:
+    - code: bonus-secret-lair-x-fallout-special
+      set: sld
   Secret Lair Drop Secret Lair x Fallout Vault Boy:
     card_count: 4
     deck:
     - name: 'Fallout: Vault Boy'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Codex Shredder
-        number: 790★
-        set: sld
-      chance: 150
-    - card:
-      - foil: true
-        name: Wastes
-        number: 795★
-        set: sld
-      chance: 150
-    - card:
-      - foil: true
-        name: Mana Vault
-        number: 796★
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 301
+    pack:
+    - code: bonus-secret-lair-x-fallout-vault-boy
+      set: sld
   Secret Lair Drop Secret Lair x Fallout Vault Boy Rainbow Foil:
     card_count: 4
     deck:
     - name: 'Fallout: Vault Boy Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Codex Shredder
-        number: 790★
-        set: sld
-      chance: 150
-    - card:
-      - foil: true
-        name: Wastes
-        number: 795★
-        set: sld
-      chance: 150
-    - card:
-      - foil: true
-        name: Mana Vault
-        number: 796★
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 301
+    pack:
+    - code: bonus-secret-lair-x-fallout-vault-boy
+      set: sld
   Secret Lair Drop Secret Lair x Flower Power:
     card_count: 5
     deck:
@@ -8040,41 +7392,17 @@ products:
     deck:
     - name: 'Hatsune Miku: Digital Sensation'
       set: sld
-    variable:
-    - card:
-      - name: Command Tower
-        number: 806
-        set: sld
-      chance: 199
-    - card:
-      - name: Snapcaster Mage
-        number: 808
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 200
+    pack:
+    - code: bonus-secret-lair-x-hatsune-miku-digital-sensation-english-nonfoil
+      set: sld
   Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation English Rainbow Foil:
     card_count: 6
     deck:
     - name: 'Hatsune Miku: Digital Sensation Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Command Tower
-        number: 806
-        set: sld
-      chance: 199
-    - card:
-      - foil: true
-        name: Snapcaster Mage
-        number: 808
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 200
+    pack:
+    - code: bonus-secret-lair-x-hatsune-miku-digital-sensation-english-foil
+      set: sld
   Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation Japanese:
     copy: Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation English
   Secret Lair Drop Secret Lair x Hatsune Miku Digital Sensation Japanese Rainbow Foil:
@@ -8085,41 +7413,17 @@ products:
     deck:
     - name: 'Hatsune Miku: Electric Entourage'
       set: sld
-    variable:
-    - card:
-      - name: Chandra, Flamecaller
-        number: 807
-        set: sld
-      chance: 199
-    - card:
-      - name: Snapcaster Mage
-        number: 808
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 200
+    pack:
+    - code: bonus-secret-lair-x-hatsune-miku-electric-entourage-english-nonfoil
+      set: sld
   Secret Lair Drop Secret Lair x Hatsune Miku Electric Entourage English Rainbow Foil:
     card_count: 5
     deck:
     - name: 'Hatsune Miku: Electric Entourage Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Chandra, Flamecaller
-        number: 807
-        set: sld
-      chance: 199
-    - card:
-      - foil: true
-        name: Snapcaster Mage
-        number: 808
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 200
+    pack:
+    - code: bonus-secret-lair-x-hatsune-miku-electric-entourage-english-foil
+      set: sld
   Secret Lair Drop Secret Lair x Hatsune Miku Electric Entourage Japanese:
     copy: Secret Lair Drop Secret Lair x Hatsune Miku Electric Entourage English
   Secret Lair Drop Secret Lair x Hatsune Miku Electric Entourage Japanese Rainbow Foil:
@@ -8130,41 +7434,17 @@ products:
     deck:
     - name: 'Hatsune Miku: Sakura Superstar'
       set: sld
-    variable:
-    - card:
-      - name: Elvish Mystic
-        number: 805
-        set: sld
-      chance: 199
-    - card:
-      - name: Snapcaster Mage
-        number: 808
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 200
+    pack:
+    - code: bonus-secret-lair-x-hatsune-miku-sakura-superstar-english-nonfoil
+      set: sld
   Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar English Rainbow Foil:
     card_count: 6
     deck:
     - name: 'Hatsune Miku: Sakura Superstar Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Elvish Mystic
-        number: 805
-        set: sld
-      chance: 199
-    - card:
-      - foil: true
-        name: Snapcaster Mage
-        number: 808
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 200
+    pack:
+    - code: bonus-secret-lair-x-hatsune-miku-sakura-superstar-english-foil
+      set: sld
   Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar Japanese:
     copy: Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar English
   Secret Lair Drop Secret Lair x Hatsune Miku Sakura Superstar Japanese Rainbow Foil:
@@ -8321,85 +7601,33 @@ products:
     deck:
     - name: Marvel's Black Panther
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Nature's Lore
-        number: 867
-        set: sld
-      chance: 299
-    - card:
-      - foil: true
-        name: Abundant Growth
-        number: 870
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 300
+    pack:
+    - code: bonus-secret-lair-x-marvels-black-panther
+      set: sld
   Secret Lair Drop Secret Lair x Marvels Black Panther Rainbow Foil:
     card_count: 5
     deck:
     - name: Marvel's Black Panther Foil Edition
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Nature's Lore
-        number: 867
-        set: sld
-      chance: 299
-    - card:
-      - foil: true
-        name: Abundant Growth
-        number: 870
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 300
+    pack:
+    - code: bonus-secret-lair-x-marvels-black-panther
+      set: sld
   Secret Lair Drop Secret Lair x Marvels Captain America:
     card_count: 5
     deck:
     - name: Marvel's Captain America
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Masterwork of Ingenuity
-        number: 863
-        set: sld
-      chance: 299
-    - card:
-      - foil: true
-        name: Abundant Growth
-        number: 870
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 300
+    pack:
+    - code: bonus-secret-lair-x-marvels-captain-america
+      set: sld
   Secret Lair Drop Secret Lair x Marvels Captain America Rainbow Foil:
     card_count: 5
     deck:
     - name: Marvel's Captain America Foil Edition
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Masterwork of Ingenuity
-        number: 863
-        set: sld
-      chance: 299
-    - card:
-      - foil: true
-        name: Abundant Growth
-        number: 870
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 300
+    pack:
+    - code: bonus-secret-lair-x-marvels-captain-america
+      set: sld
   Secret Lair Drop Secret Lair x Marvels Deadpool April Pools Day:
     card_count: 5
     deck:
@@ -8447,43 +7675,17 @@ products:
     deck:
     - name: Marvel's Iron Man
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Sculpting Steel
-        number: 864
-        set: sld
-      chance: 299
-    - card:
-      - foil: true
-        name: Abundant Growth
-        number: 870
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 300
+    pack:
+    - code: bonus-secret-lair-x-marvels-iron-man
+      set: sld
   Secret Lair Drop Secret Lair x Marvels Iron Man Rainbow Foil:
     card_count: 5
     deck:
     - name: Marvel's Iron Man Foil Edition
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Sculpting Steel
-        number: 864
-        set: sld
-      chance: 299
-    - card:
-      - foil: true
-        name: Abundant Growth
-        number: 870
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 300
+    pack:
+    - code: bonus-secret-lair-x-marvels-iron-man
+      set: sld
   Secret Lair Drop Secret Lair x Marvels Spider-Man Daily Bugle Breaking News:
     card_count: 5
     deck:
@@ -8577,85 +7779,33 @@ products:
     deck:
     - name: Marvel's Storm
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Regrowth
-        number: 866
-        set: sld
-      chance: 299
-    - card:
-      - foil: true
-        name: Abundant Growth
-        number: 870
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 300
+    pack:
+    - code: bonus-secret-lair-x-marvels-storm
+      set: sld
   Secret Lair Drop Secret Lair x Marvels Storm Rainbow Foil:
     card_count: 5
     deck:
     - name: Marvel's Storm Foil Edition
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Regrowth
-        number: 866
-        set: sld
-      chance: 299
-    - card:
-      - foil: true
-        name: Abundant Growth
-        number: 870
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 300
+    pack:
+    - code: bonus-secret-lair-x-marvels-storm
+      set: sld
   Secret Lair Drop Secret Lair x Marvels Wolverine:
     card_count: 5
     deck:
     - name: Marvel's Wolverine
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Unnatural Growth
-        number: 865
-        set: sld
-      chance: 299
-    - card:
-      - foil: true
-        name: Abundant Growth
-        number: 870
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 300
+    pack:
+    - code: bonus-secret-lair-x-marvels-wolverine
+      set: sld
   Secret Lair Drop Secret Lair x Marvels Wolverine Rainbow Foil:
     card_count: 5
     deck:
     - name: Marvel's Wolverine Foil Edition
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Unnatural Growth
-        number: 865
-        set: sld
-      chance: 299
-    - card:
-      - foil: true
-        name: Abundant Growth
-        number: 870
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 300
+    pack:
+    - code: bonus-secret-lair-x-marvels-wolverine
+      set: sld
   Secret Lair Drop Secret Lair x Monty Python Monty Python and the Holy Grail Vol 1:
     card:
     - name: Goblin Bombardment
@@ -9085,54 +8235,23 @@ products:
     deck:
     - name: 'Showcase: All Will Be One Step-and-Compleat Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Plague Sliver
-        number: 633Φ
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Toxin Sliver
-        number: 635Φ
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Virulent Sliver
-        number: 659Φ
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Shadowborn Apostle
-        number: 681Φ
-        set: sld
-      chance: 1
-    - chance: 96
-      pack:
-      - code: surprise-slivers
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-showcase-all-will-be-one-step-and-compleat
+      set: sld
   Secret Lair Drop Showcase Bloomburrow:
     card_count: 5
     deck:
     - name: 'Showcase: Bloomburrow'
       set: sld
-    pack:
-    - code: elusive-elves-late
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Showcase Bloomburrow Rainbow Foil:
     card_count: 5
     deck:
     - name: 'Showcase: Bloomburrow Foil Edition'
       set: sld
-    pack:
-    - code: elusive-elves-late
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Showcase Dominaria United Textured Foil:
     card_count: 5
     deck:
@@ -9155,17 +8274,15 @@ products:
     deck:
     - name: 'Showcase: Duskmourn'
       set: sld
-    pack:
-    - code: elusive-elves-late
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Showcase Duskmourn Rainbow Foil:
     card_count: 5
     deck:
     - name: 'Showcase: Duskmourn Foil Edition'
       set: sld
-    pack:
-    - code: elusive-elves-late
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Showcase Kaldheim Part 1:
     card_count: 3
     deck:
@@ -9244,23 +8361,22 @@ products:
     - name: 'Showcase: March of the Machine Vol. 1'
       set: sld
     pack:
-    - code: surprise-slivers
+    - code: bonus-showcase-march-of-the-machine-vol-1
       set: sld
   Secret Lair Drop Showcase March of the Machine Vol 2:
     card_count: 5
     deck:
     - name: 'Showcase: March of the Machine Vol. 2'
       set: sld
-    pack:
-    - code: surprise-slivers
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Showcase March of the Machine Vol 3:
     card_count: 5
     deck:
     - name: 'Showcase: March of the Machine Vol. 3'
       set: sld
     pack:
-    - code: surprise-slivers
+    - code: bonus-showcase-march-of-the-machine-vol-3
       set: sld
   Secret Lair Drop Showcase Midnight Hunt:
     card_count: 10
@@ -9299,10 +8415,16 @@ products:
     deck:
     - name: 'Showcase: Murders at Karlov Manor'
       set: sld
+    pack:
+    - code: bonus-showcase-murders-at-karlov-manor
+      set: sld
   Secret Lair Drop Showcase Murders at Karlov Manor Rainbow Foil:
     card_count: 4
     deck:
     - name: 'Showcase: Murders at Karlov Manor Foil Edition'
+      set: sld
+    pack:
+    - code: bonus-showcase-murders-at-karlov-manor
       set: sld
   Secret Lair Drop Showcase Neon Dynasty Neon Ink Foil:
     card_count: 4
@@ -9408,10 +8530,16 @@ products:
     deck:
     - name: 'Showcase: The Lost Caverns of Ixalan'
       set: sld
+    pack:
+    - code: bonus-showcase-the-lost-caverns-of-ixalan
+      set: sld
   Secret Lair Drop Showcase The Lost Caverns of Ixalan Rainbow Foil:
     card_count: 5
     deck:
     - name: 'Showcase: The Lost Caverns of Ixalan Foil Edition'
+      set: sld
+    pack:
+    - code: bonus-showcase-the-lost-caverns-of-ixalan
       set: sld
   Secret Lair Drop Showcase Thrilling Tales of the Undead:
     card_count: 3
@@ -10004,75 +9132,17 @@ products:
     deck:
     - name: Ssssssnakessssss
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Plague Sliver
-        number: 633Φ
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Toxin Sliver
-        number: 635Φ
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Virulent Sliver
-        number: 659Φ
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Shadowborn Apostle
-        number: 681Φ
-        set: sld
-      chance: 1
-    - chance: 96
-      pack:
-      - code: surprise-slivers
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-ssssssnakessssss
+      set: sld
   Secret Lair Drop Ssssssnakessssss Foil:
     card_count: 5
     deck:
     - name: Ssssssnakessssss Foil Edition
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Plague Sliver
-        number: 633Φ
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Toxin Sliver
-        number: 635Φ
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Virulent Sliver
-        number: 659Φ
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Shadowborn Apostle
-        number: 681Φ
-        set: sld
-      chance: 1
-    - chance: 96
-      pack:
-      - code: surprise-slivers
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-ssssssnakessssss
+      set: sld
   Secret Lair Drop Stardew Valley A Flicker in the Deep:
     card_count: 5
     deck:
@@ -10120,10 +9190,16 @@ products:
     deck:
     - name: Tales of the Time Stoppers
       set: sld
+    pack:
+    - code: bonus-tales-of-the-time-stoppers
+      set: sld
   Secret Lair Drop Tales of the Time Stoppers Rainbow Foil:
     card_count: 4
     deck:
     - name: Tales of the Time Stoppers Foil Edition
+      set: sld
+    pack:
+    - code: bonus-tales-of-the-time-stoppers
       set: sld
   Secret Lair Drop Teenage Mutant Ninja Turtles The Last Ronin:
     card_count: 5
@@ -10209,75 +9285,17 @@ products:
     deck:
     - name: The '90s Binder Experience
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Plague Sliver
-        number: 633Φ
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Toxin Sliver
-        number: 635Φ
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Virulent Sliver
-        number: 659Φ
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Shadowborn Apostle
-        number: 681Φ
-        set: sld
-      chance: 1
-    - chance: 96
-      pack:
-      - code: surprise-slivers
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-the-90s-binder-experience
+      set: sld
   Secret Lair Drop The 90s Binder Experience Foil:
     card_count: 5
     deck:
     - name: The '90s Binder Experience Foil Edition
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Plague Sliver
-        number: 633Φ
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Toxin Sliver
-        number: 635Φ
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Virulent Sliver
-        number: 659Φ
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Shadowborn Apostle
-        number: 681Φ
-        set: sld
-      chance: 1
-    - chance: 96
-      pack:
-      - code: surprise-slivers
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-the-90s-binder-experience
+      set: sld
   Secret Lair Drop The Art of Frank Frazetta:
     card:
     - name: Lightning Strike
@@ -10318,10 +9336,16 @@ products:
     deck:
     - name: The Beauty of the Beasts
       set: sld
+    pack:
+    - code: bonus-the-beauty-of-the-beasts
+      set: sld
   Secret Lair Drop The Beauty of the Beasts Rainbow Foil:
     card_count: 5
     deck:
     - name: The Beauty of the Beasts Foil Edition
+      set: sld
+    pack:
+    - code: bonus-the-beauty-of-the-beasts
       set: sld
   Secret Lair Drop The Dracula Lands:
     card_count: 5
@@ -10390,9 +9414,8 @@ products:
     deck:
     - name: The Fairest Drop of All Foil Edition
       set: sld
-    pack:
-    - code: elusive-elves-late
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop The Full Text Lands:
     card_count: 5
     deck:
@@ -10700,7 +9723,7 @@ products:
     - name: The Stars Gaze Back
       set: sld
     pack:
-    - code: surprise-slivers
+    - code: bonus-the-stars-gaze-back
       set: sld
   Secret Lair Drop The Stars Gaze Back Foil:
     card_count: 4
@@ -10708,7 +9731,7 @@ products:
     - name: The Stars Gaze Back Foil Edition
       set: sld
     pack:
-    - code: surprise-slivers
+    - code: bonus-the-stars-gaze-back
       set: sld
   Secret Lair Drop The Strange Sands Forest:
     card_count: 10
@@ -11028,17 +10051,15 @@ products:
     deck:
     - name: Tome of the Astral Sorceress
       set: sld
-    pack:
-    - code: elusive-elves-late
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Tome of the Astral Sorceress Rainbow Foil:
     card_count: 4
     deck:
     - name: Tome of the Astral Sorceress Foil Edition
       set: sld
-    pack:
-    - code: elusive-elves-late
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Totally Spaced Out Galaxy Foil:
     card_count: 4
     deck:
