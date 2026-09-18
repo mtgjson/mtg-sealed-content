@@ -158,6 +158,17 @@ products:
     pack:
     - code: play
       set: msh
+  Marvel Super Heroes Play Pack:
+    card:
+    - foil: true
+      name: Spider-Man, Peter Parker
+      number: 2026-9
+      set: pmei
+    card_count: 1
+    sealed:
+    - count: 3
+      name: Marvel Super Heroes Play Booster Pack
+      set: msh
   Marvel Super Heroes Prerelease Pack:
     card_count: 1
     other:
