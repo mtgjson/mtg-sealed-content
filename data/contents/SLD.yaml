@@ -6200,15 +6200,17 @@ products:
     deck:
     - name: Paradise Frost
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-paradise-frost
+      set: sld
   Secret Lair Drop Paradise Frost Rainbow Foil:
     card_count: 5
     deck:
     - name: Paradise Frost Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-paradise-frost
+      set: sld
   Secret Lair Drop Party Hard Shred Harder:
     card:
     - foil: true
