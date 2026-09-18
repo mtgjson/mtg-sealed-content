@@ -16,6 +16,7 @@ products:
     - code: default
       set: p02
   Portal Second Age Demo Game Booster Pack:
+    card_count: 24
     deck:
     - name: Demo deck A
       set: p02
@@ -23,18 +24,17 @@ products:
       set: p02
     other:
     - name: Tip Card
-    - name: Rebate Card
-    - name: 2 Instruction sheets
+    - name: Portal Second Age Sample Game Sheet
   Portal Second Age Gift Box:
     other:
     - name: Two score-keeping beads
-    - name: Official guide to Portal Second Age
+    - name: Checklist of all Portal Second Age cards
     sealed:
     - count: 1
       name: Portal Second Age Booster Pack
       set: p02
     - count: 1
-      name: Portal Second Age Demo Game Booster Pack
+      name: Portal Second Age Two Player Starter Deck
       set: p02
   Portal Second Age Theme Deck Display:
     sealed:
