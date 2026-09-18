@@ -70,6 +70,12 @@ class TcgplayerProvider:
 
         print(f"Downloading {url} with params {params}")
         with self.__session.get(url, params=params) as response:
+            # The catalog answers "No products found" with a 404 rather than an
+            # empty page, which is how an offset past the last product reports
+            # itself. That ends pagination; it is not a failure.
+            # See https://docs.tcgplayer.com/reference/catalog_getproducts-1
+            if response.status_code == 404:
+                return []
             response.raise_for_status()
             payload = response.json()
 
@@ -123,7 +129,9 @@ class TcgplayerProvider:
         if not results:
             return []
 
-        return results + self.download_exhaustive(url, params, max_api_offset)
+        return results + self.download_exhaustive(
+            url, params, max_api_offset, offsets_per_thread, threads
+        )
 
     def get_tokens_from_group_ids(
         self, group_ids: Iterable[int]
