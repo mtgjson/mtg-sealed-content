@@ -73,6 +73,20 @@ products:
     pack:
     - code: collector-sample
       set: fin
+  Final Fantasy Deck Builder Box:
+    card:
+    - foil: true
+      name: Sazh's Chocobo
+      number: 2026-17
+      set: pmei
+    card_count: 1
+    other:
+    - name: 32 Non-foil land cards (exact assortment unverified)
+    - name: 16 Traditional foil land cards (exact assortment unverified)
+    sealed:
+    - count: 6
+      name: Final Fantasy Play Booster Pack
+      set: fin
   Final Fantasy Gift Bundle:
     card_count: 2
     deck:
