@@ -44,6 +44,8 @@ products:
     deck:
     - name: Battalion
       set: mor
+    other:
+    - name: One random Pro Tour Player Card
   Morningtide Theme Deck Display:
     sealed:
     - count: 3
@@ -63,6 +65,8 @@ products:
     deck:
     - name: Going Rogue
       set: mor
+    other:
+    - name: One random Pro Tour Player Card
   Morningtide Theme Deck Set of 4:
     sealed:
     - count: 1
@@ -82,8 +86,12 @@ products:
     deck:
     - name: Shamanism
       set: mor
+    other:
+    - name: One random Pro Tour Player Card
   Morningtide Theme Deck Warriors Code:
     card_count: 60
     deck:
     - name: Warrior's Code
       set: mor
+    other:
+    - name: One random Pro Tour Player Card
