@@ -4225,47 +4225,17 @@ products:
     deck:
     - name: Far Out, Man
       set: sld
-    variable:
-    - chance: 93
-      pack:
-      - code: jumpstart-lands
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk1
-        set: sld
-    - card:
-      - foil: true
-        name: Persistent Petitioners
-        number: 599
-        set: sld
-      chance: 2
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-far-out-man
+      set: sld
   Secret Lair Drop Far Out Man Foil:
     card_count: 5
     deck:
     - name: Far Out, Man Foil Edition
       set: sld
-    variable:
-    - chance: 93
-      pack:
-      - code: jumpstart-lands
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk1
-        set: sld
-    - card:
-      - foil: true
-        name: Persistent Petitioners
-        number: 599
-        set: sld
-      chance: 2
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-far-out-man
+      set: sld
   Secret Lair Drop Fblthp Completely Utterly Totally Lost:
     card:
     - name: Fblthp, the Lost
@@ -5029,103 +4999,49 @@ products:
     deck:
     - name: If Looks Could Kill
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-if-looks-could-kill
+      set: sld
   Secret Lair Drop If Looks Could Kill Foil:
     card_count: 4
     deck:
     - name: If Looks Could Kill Foil Edition
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-if-looks-could-kill
+      set: sld
   Secret Lair Drop Imaginary Friends:
     card_count: 4
     deck:
     - name: Imaginary Friends
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-imaginary-friends
+      set: sld
   Secret Lair Drop Imaginary Friends Foil:
     card_count: 4
     deck:
     - name: Imaginary Friends Foil Edition
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-imaginary-friends
+      set: sld
   Secret Lair Drop In Memoriam Jaya Ballard:
     card_count: 5
     deck:
     - name: 'In Memoriam: Jaya Ballard'
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-in-memoriam-jaya-ballard
+      set: sld
   Secret Lair Drop In Memoriam Jaya Ballard Foil:
     card_count: 5
     deck:
     - name: 'In Memoriam: Jaya Ballard Foil Edition'
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-in-memoriam-jaya-ballard
+      set: sld
   Secret Lair Drop Inked:
     card_count: 5
     deck:
@@ -5155,35 +5071,17 @@ products:
     deck:
     - name: 'Introducing: Kaito Shizuki'
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers-early
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-introducing-kaito-shizuki
+      set: sld
   Secret Lair Drop Introducing Kaito Shizuki Foil:
     card_count: 5
     deck:
     - name: 'Introducing: Kaito Shizuki Foil Edition'
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers-early
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-introducing-kaito-shizuki
+      set: sld
   Secret Lair Drop Iron Maiden Album Art:
     card:
     - name: Burnt Offering
@@ -5246,35 +5144,17 @@ products:
     deck:
     - name: Just Add Milk
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-just-add-milk
+      set: sld
   Secret Lair Drop Just Add Milk Foil:
     card_count: 3
     deck:
     - name: Just Add Milk Foil Edition
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-just-add-milk
+      set: sld
   Secret Lair Drop Just Add Milk Second Helpings:
     card:
     - name: Coveted Jewel
@@ -5299,47 +5179,17 @@ products:
     deck:
     - name: Just Some Totally Normal Guys
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Diffusion Sliver
-        number: 618
-        set: sld
-    - card:
-      - foil: true
-        name: Manaweft Sliver
-        number: 650
-        set: sld
-    - card:
-      - foil: true
-        name: Might Sliver
-        number: 652
-        set: sld
-    variable_mode:
-      count: 1
+    pack:
+    - code: bonus-just-some-totally-normal-guys
+      set: sld
   Secret Lair Drop Just Some Totally Normal Guys Foil:
     card_count: 4
     deck:
     - name: Just Some Totally Normal Guys Foil Edition
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Diffusion Sliver
-        number: 618
-        set: sld
-    - card:
-      - foil: true
-        name: Manaweft Sliver
-        number: 650
-        set: sld
-    - card:
-      - foil: true
-        name: Might Sliver
-        number: 652
-        set: sld
-    variable_mode:
-      count: 1
+    pack:
+    - code: bonus-just-some-totally-normal-guys
+      set: sld
   Secret Lair Drop Kaleidoscope Killers:
     card_count: 3
     deck:
@@ -5394,35 +5244,17 @@ products:
     deck:
     - name: 'Kamigawa: the Manga: the Cards'
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers-early
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-kamigawa-the-manga-the-cards
+      set: sld
   Secret Lair Drop Kamigawa the Manga the Cards Foil:
     card_count: 5
     deck:
     - name: 'Kamigawa: the Manga: the Cards Foil Edition'
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers-early
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-kamigawa-the-manga-the-cards
+      set: sld
   Secret Lair Drop Keep Partying Hard Shred Harder Than You Previously Thought Possible:
     card_count: 4
     deck:
@@ -5445,18 +5277,9 @@ products:
     deck:
     - name: Look at the Kitties
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-look-at-the-kitties
+      set: sld
   Secret Lair Drop Legendary Flyers Not That Kind Foil:
     card_count: 4
     deck:
@@ -5466,14 +5289,12 @@ products:
     - code: surprise-slivers
       set: sld
   Secret Lair Drop Lil Giri Saves the Day Foil:
-    card:
-    - foil: true
-      name: Manaweft Sliver
-      number: 650
-      set: sld
     card_count: 5
     deck:
     - name: Li'l Giri Saves the Day
+      set: sld
+    pack:
+    - code: bonus-lil-giri-saves-the-day
       set: sld
   Secret Lair Drop Lil Giri Saves the Day Roadshow Edition Foil:
     copy: Secret Lair Drop Lil Giri Saves the Day Foil
@@ -5490,69 +5311,33 @@ products:
     deck:
     - name: Li'l Walkers
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers-early
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-lil-walkers
+      set: sld
   Secret Lair Drop Lil Walkers Foil:
     card_count: 5
     deck:
     - name: Li'l Walkers Foil Edition
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers-early
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-lil-walkers
+      set: sld
   Secret Lair Drop Liler Walkers:
     card_count: 5
     deck:
     - name: Li'l'ler Walkers
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-liler-walkers
+      set: sld
   Secret Lair Drop Liler Walkers Foil:
     card_count: 5
     deck:
     - name: Li'l'ler Walkers Foil Edition
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-liler-walkers
+      set: sld
   Secret Lair Drop Lilest Walkers:
     card_count: 5
     deck:
@@ -5948,7 +5733,7 @@ products:
     - name: Monster Movie Marathon
       set: sld
     pack:
-    - code: jumpstart-lands
+    - code: bonus-monster-movie-marathon
       set: sld
   Secret Lair Drop Monster Movie Marathon Foil:
     card_count: 4
@@ -5956,7 +5741,7 @@ products:
     - name: Monster Movie Marathon Foil Edition
       set: sld
     pack:
-    - code: jumpstart-lands
+    - code: bonus-monster-movie-marathon
       set: sld
   Secret Lair Drop Monstrous Magazines:
     card_count: 5
@@ -6452,35 +6237,17 @@ products:
     deck:
     - name: Pictures of the Floating World
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers-early
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-pictures-of-the-floating-world
+      set: sld
   Secret Lair Drop Pictures of the Floating World Foil:
     card_count: 5
     deck:
     - name: Pictures of the Floating World Foil Edition
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers-early
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-pictures-of-the-floating-world
+      set: sld
   Secret Lair Drop PixelLands_v02jpg:
     card:
     - name: Command Tower
@@ -6505,70 +6272,25 @@ products:
     deck:
     - name: PixelSnowLands.jpg
       set: sld
-    variable:
-    - chance: 93
-      pack:
-      - code: jumpstart-lands
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk1
-        set: sld
-    - card:
-      - foil: true
-        name: Persistent Petitioners
-        number: 599
-        set: sld
-      chance: 2
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-pixelsnowlandsjpg
+      set: sld
   Secret Lair Drop PixelSnowLandsjpg Etched:
     card_count: 5
     deck:
     - name: PixelSnowLands.jpg Foil Etched Edition
       set: sld
-    variable:
-    - chance: 93
-      pack:
-      - code: jumpstart-lands
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk1
-        set: sld
-    - card:
-      - foil: true
-        name: Persistent Petitioners
-        number: 599
-        set: sld
-      chance: 2
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-pixelsnowlandsjpg
+      set: sld
   Secret Lair Drop PixelSnowLandsjpg Foil:
     card_count: 5
     deck:
     - name: PixelSnowLands.jpg Foil Edition
       set: sld
-    variable:
-    - chance: 93
-      pack:
-      - code: jumpstart-lands
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk1
-        set: sld
-    - card:
-      - foil: true
-        name: Persistent Petitioners
-        number: 599
-        set: sld
-      chance: 2
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-pixelsnowlandsjpg
+      set: sld
   Secret Lair Drop Poker Faces:
     card_count: 5
     deck:
@@ -6590,37 +6312,17 @@ products:
     deck:
     - name: Pride Across the Multiverse
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Huatli, the Sun's Heart
-        number: 530
-        set: sld
-    - card:
-      - foil: true
-        name: Saheeli, Sublime Artificer
-        number: 534
-        set: sld
-    variable_mode:
-      count: 1
+    pack:
+    - code: bonus-pride-across-the-multiverse
+      set: sld
   Secret Lair Drop Pride Across the Multiverse Foil:
     card_count: 8
     deck:
     - name: Pride Across the Multiverse Foil Edition
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Huatli, the Sun's Heart
-        number: 530
-        set: sld
-    - card:
-      - foil: true
-        name: Saheeli, Sublime Artificer
-        number: 534
-        set: sld
-    variable_mode:
-      count: 1
+    pack:
+    - code: bonus-pride-across-the-multiverse
+      set: sld
   Secret Lair Drop Prime Slime:
     card:
     - foil: true
@@ -6702,7 +6404,7 @@ products:
     - name: Purrfection
       set: sld
     pack:
-    - code: jumpstart-lands
+    - code: bonus-purrfection
       set: sld
   Secret Lair Drop Purrfection Foil:
     card_count: 4
@@ -6710,7 +6412,7 @@ products:
     - name: Purrfection Foil Edition
       set: sld
     pack:
-    - code: jumpstart-lands
+    - code: bonus-purrfection
       set: sld
   Secret Lair Drop Restless in Peace:
     card_count: 3
@@ -6755,35 +6457,17 @@ products:
     deck:
     - name: Rule the Room
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers-early
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-rule-the-room
+      set: sld
   Secret Lair Drop Rule the Room Foil:
     card_count: 4
     deck:
     - name: Rule the Room Foil Edition
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers-early
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-rule-the-room
+      set: sld
   Secret Lair Drop Saturday Morning DandD:
     card:
     - name: Crash Through
@@ -8862,35 +8546,17 @@ products:
     deck:
     - name: Shades Not Included
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers-early
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-shades-not-included
+      set: sld
   Secret Lair Drop Shades Not Included Foil:
     card_count: 5
     deck:
     - name: Shades Not Included Foil Edition
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers-early
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-shades-not-included
+      set: sld
   Secret Lair Drop Sheldons Spellbook:
     card:
     - name: Keen Duelist
@@ -8968,18 +8634,9 @@ products:
     deck:
     - name: 'Showcase: Dominaria United Textured Foil Edition'
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-showcase-dominaria-united-textured
+      set: sld
   Secret Lair Drop Showcase Duskmourn:
     card_count: 5
     deck:
@@ -9098,7 +8755,7 @@ products:
     - name: 'Showcase: Midnight Hunt'
       set: sld
     pack:
-    - code: jumpstart-lands
+    - code: bonus-showcase-midnight-hunt
       set: sld
   Secret Lair Drop Showcase Midnight Hunt Foil:
     card_count: 10
@@ -9106,7 +8763,7 @@ products:
     - name: 'Showcase: Midnight Hunt Foil Edition'
       set: sld
     pack:
-    - code: jumpstart-lands
+    - code: bonus-showcase-midnight-hunt
       set: sld
   Secret Lair Drop Showcase Monster Anatomy 101:
     card_count: 5
@@ -9114,7 +8771,7 @@ products:
     - name: Monster Anatomy 101
       set: sld
     pack:
-    - code: jumpstart-lands
+    - code: bonus-showcase-monster-anatomy-101
       set: sld
   Secret Lair Drop Showcase Monster Anatomy 101 Etched:
     card_count: 5
@@ -9122,7 +8779,7 @@ products:
     - name: Monster Anatomy 101 Foil Etched Edition
       set: sld
     pack:
-    - code: jumpstart-lands
+    - code: bonus-showcase-monster-anatomy-101
       set: sld
   Secret Lair Drop Showcase Murders at Karlov Manor:
     card_count: 4
@@ -9139,18 +8796,9 @@ products:
     deck:
     - name: 'Showcase: Neon Dynasty Neon Ink Foil Edition'
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers-early
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-showcase-neon-dynasty-neon-ink
+      set: sld
   Secret Lair Drop Showcase Outlaws of Thunder Junction:
     card:
     - name: Norin the Wary
@@ -9205,25 +8853,16 @@ products:
     deck:
     - name: 'Showcase: Streets of New Capenna Gilded Foil Edition'
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers-early
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-showcase-streets-of-new-capenna-gilded
+      set: sld
   Secret Lair Drop Showcase Strixhaven:
     card_count: 6
     deck:
     - name: 'Showcase: Strixhaven'
       set: sld
     pack:
-    - code: jumpstart-lands
+    - code: bonus-showcase-strixhaven
       set: sld
   Secret Lair Drop Showcase Strixhaven Foil:
     card_count: 6
@@ -9231,7 +8870,7 @@ products:
     - name: 'Showcase: Strixhaven Foil Edition'
       set: sld
     pack:
-    - code: jumpstart-lands
+    - code: bonus-showcase-strixhaven-foil-drop
       set: sld
   Secret Lair Drop Showcase The Lost Caverns of Ixalan:
     card_count: 5
@@ -9249,7 +8888,7 @@ products:
     - name: Thrilling Tales of the Undead
       set: sld
     pack:
-    - code: jumpstart-lands
+    - code: bonus-showcase-thrilling-tales-of-the-undead
       set: sld
   Secret Lair Drop Showcase Thrilling Tales of the Undead Foil:
     card_count: 3
@@ -9257,7 +8896,7 @@ products:
     - name: Thrilling Tales of the Undead Foil Edition
       set: sld
     pack:
-    - code: jumpstart-lands
+    - code: bonus-showcase-thrilling-tales-of-the-undead
       set: sld
   Secret Lair Drop Showcase Zendikar Revisited:
     card_count: 5
@@ -9333,7 +8972,7 @@ products:
     - name: 'Special Guest: Jen Bartel'
       set: sld
     pack:
-    - code: jumpstart-lands
+    - code: bonus-special-guest-jen-bartel
       set: sld
   Secret Lair Drop Special Guest Jen Bartel Foil:
     card_count: 4
@@ -9341,42 +8980,24 @@ products:
     - name: 'Special Guest: Jen Bartel Foil Edition'
       set: sld
     pack:
-    - code: jumpstart-lands
+    - code: bonus-special-guest-jen-bartel
       set: sld
   Secret Lair Drop Special Guest Junji Ito English:
     card_count: 4
     deck:
     - name: 'Special Guest: Junji Ito'
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-special-guest-junji-ito
+      set: sld
   Secret Lair Drop Special Guest Junji Ito English Etched:
     card_count: 4
     deck:
     - name: 'Special Guest: Junji Ito Foil Etched Edition'
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-special-guest-junji-ito
+      set: sld
   Secret Lair Drop Special Guest Junji Ito Japanese:
     copy: Secret Lair Drop Special Guest Junji Ito English
   Secret Lair Drop Special Guest Junji Ito Japanese Etched:
@@ -9386,35 +9007,17 @@ products:
     deck:
     - name: 'Special Guest: Kelogsloops'
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers-early
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-special-guest-kelogsloops
+      set: sld
   Secret Lair Drop Special Guest Kelogsloops Foil:
     card_count: 4
     deck:
     - name: 'Special Guest: Kelogsloops Foil Edition'
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers-early
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-special-guest-kelogsloops
+      set: sld
   Secret Lair Drop Special Guest Kozyndan Another Story:
     card_count: 5
     deck:
@@ -9488,81 +9091,33 @@ products:
     deck:
     - name: 'Special Guest: Matt Jukes'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Frenetic Sliver
-        number: 662
-        set: sld
-    - card:
-      - foil: true
-        name: Lavabelly Sliver
-        number: 665
-        set: sld
-    - card:
-      - foil: true
-        name: Opaline Sliver
-        number: 667
-        set: sld
-    variable_mode:
-      count: 1
+    pack:
+    - code: bonus-special-guest-matt-jukes
+      set: sld
   Secret Lair Drop Special Guest Matt Jukes Foil:
     card_count: 5
     deck:
     - name: 'Special Guest: Matt Jukes Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Frenetic Sliver
-        number: 662
-        set: sld
-    - card:
-      - foil: true
-        name: Lavabelly Sliver
-        number: 665
-        set: sld
-    - card:
-      - foil: true
-        name: Opaline Sliver
-        number: 667
-        set: sld
-    variable_mode:
-      count: 1
+    pack:
+    - code: bonus-special-guest-matt-jukes
+      set: sld
   Secret Lair Drop Special Guest Yoji Shinkawa English:
     card_count: 4
     deck:
     - name: 'Special Guest: Yoji Shinkawa'
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-special-guest-yoji-shinkawa
+      set: sld
   Secret Lair Drop Special Guest Yoji Shinkawa English Foil:
     card_count: 4
     deck:
     - name: 'Special Guest: Yoji Shinkawa Foil Edition'
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-special-guest-yoji-shinkawa
+      set: sld
   Secret Lair Drop Special Guest Yoji Shinkawa Japanese:
     copy: Secret Lair Drop Special Guest Yoji Shinkawa English
   Secret Lair Drop Special Guest Yoji Shinkawa Japanese Foil:
@@ -9572,35 +9127,17 @@ products:
     deck:
     - name: 'Special Guest: Yuko Shimizu'
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers-early
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-special-guest-yuko-shimizu
+      set: sld
   Secret Lair Drop Special Guest Yuko Shimizu Foil:
     card_count: 4
     deck:
     - name: 'Special Guest: Yuko Shimizu Foil Edition'
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers-early
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-special-guest-yuko-shimizu
+      set: sld
   Secret Lair Drop Spongebob Squarepants Internet Sensation:
     card_count: 5
     deck:
@@ -9972,20 +9509,9 @@ products:
     deck:
     - name: Teferi's Time Trouble
       set: sld
-    variable:
-    - chance: 98
-      pack:
-      - code: jumpstart-lands
-        set: sld
-    - card:
-      - foil: true
-        name: Persistent Petitioners
-        number: 597
-        set: sld
-      chance: 2
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-teferis-time-trouble
+      set: sld
   Secret Lair Drop Thalia Beyond the Helvault:
     card_count: 4
     deck:
@@ -10118,47 +9644,17 @@ products:
     deck:
     - name: The Dracula Lands
       set: sld
-    variable:
-    - chance: 93
-      pack:
-      - code: jumpstart-lands
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk1
-        set: sld
-    - card:
-      - foil: true
-        name: Persistent Petitioners
-        number: 599
-        set: sld
-      chance: 2
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-the-dracula-lands
+      set: sld
   Secret Lair Drop The Dracula Lands Foil:
     card_count: 5
     deck:
     - name: The Dracula Lands Foil Edition
       set: sld
-    variable:
-    - chance: 93
-      pack:
-      - code: jumpstart-lands
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk1
-        set: sld
-    - card:
-      - foil: true
-        name: Persistent Petitioners
-        number: 599
-        set: sld
-      chance: 2
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-the-dracula-lands
+      set: sld
   Secret Lair Drop The Eyes Have It:
     card_count: 5
     deck:
@@ -10435,35 +9931,17 @@ products:
     deck:
     - name: The Space Beyond the Stars
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-the-space-beyond-the-stars
+      set: sld
   Secret Lair Drop The Space Beyond the Stars Foil:
     card_count: 4
     deck:
     - name: The Space Beyond the Stars Foil Edition
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-the-space-beyond-the-stars
+      set: sld
   Secret Lair Drop The Stars Gaze Back:
     card_count: 4
     deck:
@@ -10535,35 +10013,17 @@ products:
     deck:
     - name: The Tokyo Lands
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers-early
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-the-tokyo-lands
+      set: sld
   Secret Lair Drop The Tokyo Lands Etched Foil:
     card_count: 5
     deck:
     - name: The Tokyo Lands Foil Etched Edition
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers-early
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-the-tokyo-lands
+      set: sld
   Secret Lair Drop The Unfathomable Crushing Brutality of Basic Lands:
     card_count: 5
     deck:
@@ -10625,35 +10085,17 @@ products:
     deck:
     - name: The Weirdest Pets in the Multiverse
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-the-weirdest-pets-in-the-multiverse
+      set: sld
   Secret Lair Drop The Weirdest Pets in the Multiverse Foil:
     card_count: 5
     deck:
     - name: The Weirdest Pets in the Multiverse Foil Edition
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-the-weirdest-pets-in-the-multiverse
+      set: sld
   Secret Lair Drop Their Magic is Limitless:
     card_count: 7
     deck:
@@ -10814,18 +10256,9 @@ products:
     deck:
     - name: Totally Spaced Out Galaxy Foil Edition
       set: sld
-    variable:
-    - chance: 95
-      pack:
-      - code: surprise-slivers
-        set: sld
-    - chance: 5
-      pack:
-      - code: blueprint-mk2
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-totally-spaced-out-galaxy
+      set: sld
   Secret Lair Drop Tragic Romance:
     card_count: 4
     deck:
@@ -11063,51 +10496,17 @@ products:
     deck:
     - name: Welcome to Castle Dracula
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Swamp
-        number: 562
-        set: sld
-      chance: 93
-    - chance: 5
-      pack:
-      - code: blueprint-mk1
-        set: sld
-    - card:
-      - foil: true
-        name: Persistent Petitioners
-        number: 599
-        set: sld
-      chance: 2
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-welcome-to-castle-dracula
+      set: sld
   Secret Lair Drop Welcome to Castle Dracula Foil:
     card_count: 3
     deck:
     - name: Welcome to Castle Dracula Foil Edition
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Swamp
-        number: 562
-        set: sld
-      chance: 93
-    - chance: 5
-      pack:
-      - code: blueprint-mk1
-        set: sld
-    - card:
-      - foil: true
-        name: Persistent Petitioners
-        number: 599
-        set: sld
-      chance: 2
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-welcome-to-castle-dracula
+      set: sld
   Secret Lair Drop Welcome to the Fungal:
     card_count: 4
     deck:
