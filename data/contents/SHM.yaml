@@ -116,11 +116,11 @@ products:
     - name: One random Pro Tour Player Card
   Shadowmoor Tournament Pack:
     card_count: 75
+    other:
+    - name: One random Pro Tour Player Card
     pack:
     - code: tournament
       set: shm
-    other:
-    - name: One random Pro Tour Player Card
   Shadowmoor Tournament Pack Display:
     sealed:
     - count: 12

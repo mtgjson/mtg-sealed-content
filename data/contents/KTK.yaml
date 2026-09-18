@@ -21,6 +21,9 @@ products:
     - name: Conquering Hordes
       set: ktk
   Khans of Tarkir Fat Pack:
+    deck:
+    - name: Khans of Tarkir Fat Pack Land Pack
+      set: ktk
     other:
     - name: Khans of Tarkir Special Edition Spindown
     - name: Full Art Card Box
@@ -29,9 +32,6 @@ products:
     sealed:
     - count: 9
       name: Khans of Tarkir Booster Pack
-      set: ktk
-    deck:
-    - name: Khans of Tarkir Fat Pack Land Pack
       set: ktk
   Khans of Tarkir Holiday Gift Box:
     card:
@@ -141,6 +141,8 @@ products:
       set: ktk
   Khans of Tarkir Prerelease Kit Abzan Battle with Endurance:
     card_count: 16
+    other:
+    - name: Khans of Tarkir Spindown
     pack:
     - code: prerelease-abzan
       set: ktk
@@ -148,10 +150,10 @@ products:
     - count: 5
       name: Khans of Tarkir Booster Pack
       set: ktk
-    other:
-    - name: Khans of Tarkir Spindown
   Khans of Tarkir Prerelease Kit Jeskai Battle with Cunning:
     card_count: 16
+    other:
+    - name: Khans of Tarkir Spindown
     pack:
     - code: prerelease-jeskai
       set: ktk
@@ -159,10 +161,10 @@ products:
     - count: 5
       name: Khans of Tarkir Booster Pack
       set: ktk
-    other:
-    - name: Khans of Tarkir Spindown
   Khans of Tarkir Prerelease Kit Mardu Battle with Speed:
     card_count: 16
+    other:
+    - name: Khans of Tarkir Spindown
     pack:
     - code: prerelease-mardu
       set: ktk
@@ -170,8 +172,6 @@ products:
     - count: 5
       name: Khans of Tarkir Booster Pack
       set: ktk
-    other:
-    - name: Khans of Tarkir Spindown
   Khans of Tarkir Prerelease Kit Set of 5:
     sealed:
     - count: 1
@@ -191,6 +191,8 @@ products:
       set: ktk
   Khans of Tarkir Prerelease Kit Sultai Battle with Ruthlessness:
     card_count: 16
+    other:
+    - name: Khans of Tarkir Spindown
     pack:
     - code: prerelease-sultai
       set: ktk
@@ -198,10 +200,10 @@ products:
     - count: 5
       name: Khans of Tarkir Booster Pack
       set: ktk
-    other:
-    - name: Khans of Tarkir Spindown
   Khans of Tarkir Prerelease Kit Temur Battle with Savagery:
     card_count: 16
+    other:
+    - name: Khans of Tarkir Spindown
     pack:
     - code: prerelease-temur
       set: ktk
@@ -209,5 +211,3 @@ products:
     - count: 5
       name: Khans of Tarkir Booster Pack
       set: ktk
-    other:
-    - name: Khans of Tarkir Spindown

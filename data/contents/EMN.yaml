@@ -117,6 +117,12 @@ products:
     - name: Eldritch Moon Foil Redemption
       set: emn
   Eldritch Moon Prerelease Pack:
+    card:
+    - foil: true
+      name: Zombie // Zombie
+      number: 1Z
+      set: pemn
+      token: true
     card_count: 1
     other:
     - name: 1 Eldritch Moon Spindown
@@ -130,9 +136,3 @@ products:
     - count: 2
       name: Shadows over Innistrad Booster Pack
       set: soi
-    card:
-    - foil: true
-      name: Zombie // Zombie
-      number: 1Z
-      set: pemn
-      token: true

@@ -92,11 +92,11 @@ products:
     - name: One random Pro Tour Player Card
   Time Spiral Tournament Pack:
     card_count: 75
+    other:
+    - name: One random Pro Tour Player Card
     pack:
     - code: tournament
       set: tsp
-    other:
-    - name: One random Pro Tour Player Card
   Time Spiral Tournament Pack Display:
     sealed:
     - count: 12

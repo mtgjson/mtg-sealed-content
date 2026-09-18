@@ -139,6 +139,8 @@ products:
       set: dtk
   Dragons of Tarkir Prerelease Kit Atarka Battle with Savagery:
     card_count: 16
+    other:
+    - name: Dragons of Tarkir Spindown
     pack:
     - code: prerelease-atarka
       set: dtk
@@ -149,10 +151,10 @@ products:
     - count: 1
       name: Fate Reforged Booster Pack
       set: frf
-    other:
-    - name: Dragons of Tarkir Spindown
   Dragons of Tarkir Prerelease Kit Dromoka Battle with Endurance:
     card_count: 16
+    other:
+    - name: Dragons of Tarkir Spindown
     pack:
     - code: prerelease-dromoka
       set: dtk
@@ -163,10 +165,10 @@ products:
     - count: 1
       name: Fate Reforged Booster Pack
       set: frf
-    other:
-    - name: Dragons of Tarkir Spindown
   Dragons of Tarkir Prerelease Kit Kolaghan Battle with Speed:
     card_count: 16
+    other:
+    - name: Dragons of Tarkir Spindown
     pack:
     - code: prerelease-kolaghan
       set: dtk
@@ -177,10 +179,10 @@ products:
     - count: 1
       name: Fate Reforged Booster Pack
       set: frf
-    other:
-    - name: Dragons of Tarkir Spindown
   Dragons of Tarkir Prerelease Kit Ojutai Battle with Cunning:
     card_count: 16
+    other:
+    - name: Dragons of Tarkir Spindown
     pack:
     - code: prerelease-ojutai
       set: dtk
@@ -191,8 +193,6 @@ products:
     - count: 1
       name: Fate Reforged Booster Pack
       set: frf
-    other:
-    - name: Dragons of Tarkir Spindown
   Dragons of Tarkir Prerelease Kit Set of 5:
     sealed:
     - count: 1
@@ -212,6 +212,8 @@ products:
       set: dtk
   Dragons of Tarkir Prerelease Kit Silumgar Battle with Ruthlessness:
     card_count: 16
+    other:
+    - name: Dragons of Tarkir Spindown
     pack:
     - code: prerelease-silumgar
       set: dtk
@@ -222,5 +224,3 @@ products:
     - count: 1
       name: Fate Reforged Booster Pack
       set: frf
-    other:
-    - name: Dragons of Tarkir Spindown

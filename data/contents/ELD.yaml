@@ -95,11 +95,11 @@ products:
       set: eld
   Throne of Eldraine Collector Booster Pack:
     card_count: 15
+    other:
+    - name: 1 foil token
     pack:
     - code: collector
       set: eld
-    other:
-    - name: 1 foil token
   Throne of Eldraine Deluxe Collection:
     card:
     - foil: true
@@ -176,23 +176,23 @@ products:
     deck:
     - name: Oko, the Trickster
       set: eld
+    other:
+    - name: MTG Arena code card (where available)
     sealed:
     - count: 2
       name: Throne of Eldraine Draft Booster Pack
       set: eld
-    other:
-    - name: MTG Arena code card (where available)
   Throne of Eldraine Planeswalker Deck Rowan:
     card_count: 60
     deck:
     - name: Rowan, Fearless Sparkmage
       set: eld
+    other:
+    - name: MTG Arena code card (where available)
     sealed:
     - count: 2
       name: Throne of Eldraine Draft Booster Pack
       set: eld
-    other:
-    - name: MTG Arena code card (where available)
   Throne of Eldraine Planeswalker Decks Set of 2:
     sealed:
     - count: 1

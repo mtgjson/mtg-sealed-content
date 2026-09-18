@@ -90,11 +90,11 @@ products:
     - name: One random Pro Tour Player Card
   Lorwyn Tournament Pack:
     card_count: 75
+    other:
+    - name: One random Pro Tour Player Card
     pack:
     - code: tournament
       set: lrw
-    other:
-    - name: One random Pro Tour Player Card
   Lorwyn Tournament Pack Display:
     sealed:
     - count: 12

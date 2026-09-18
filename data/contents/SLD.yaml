@@ -1615,6 +1615,12 @@ products:
     deck:
     - name: Heads I Win, Tails You Lose
       set: sld
+    other:
+    - name: Coin
+    - name: 10 Double Faced Tokens
+    - name: Life Wheel
+    - name: Strategy Insert
+    - name: Reference Card
     variable:
     - card:
       - foil: true
@@ -1628,12 +1634,6 @@ products:
         set: sld
     variable_mode:
       count: 1
-    other:
-    - name: Coin
-    - name: 10 Double Faced Tokens
-    - name: Life Wheel
-    - name: Strategy Insert
-    - name: Reference Card
   Secret Lair Commander Deck Raining Cats and Dogs:
     card:
     - foil: true
@@ -3011,6 +3011,9 @@ products:
     deck:
     - name: Bitterblossom Dreams
       set: sld
+    other:
+    - name: MTG Arena sleeve code
+    - name: Magic Online redemption code
     variable:
     - card:
       - foil: true
@@ -3049,9 +3052,6 @@ products:
         set: sld
     variable_mode:
       count: 1
-    other:
-    - name: MTG Arena sleeve code
-    - name: Magic Online redemption code
   Secret Lair Drop Black is Magic:
     card_count: 7
     deck:
@@ -3692,7 +3692,7 @@ products:
     deck:
     - name: Dan Frazier's Mox Box
       set: sld
-  "Secret Lair Drop Dand\xE2n Deck":
+  Secret Lair Drop Dandân Deck:
     card:
     - foil: true
       name: Vision Charm
@@ -3704,7 +3704,7 @@ products:
       set: sld
     card_count: 80
     deck:
-    - name: "Dand\xE2n Deck"
+    - name: Dandân Deck
       set: sld
   Secret Lair Drop Death Is Temporary Metal Is Forever:
     card_count: 5
@@ -4059,6 +4059,9 @@ products:
     deck:
     - name: Eldraine Wonderland
       set: sld
+    other:
+    - name: MTG Arena sleeve code
+    - name: Magic Online redemption code
     variable:
     - card:
       - foil: true
@@ -4077,9 +4080,6 @@ products:
         set: sld
     variable_mode:
       count: 1
-    other:
-    - name: MTG Arena sleeve code
-    - name: Magic Online redemption code
   Secret Lair Drop Every Dog Has Its Day:
     card:
     - foil: true
@@ -5445,6 +5445,9 @@ products:
     deck:
     - name: Kaleidoscope Killers
       set: sld
+    other:
+    - name: MTG Arena sleeve code
+    - name: Magic Online redemption code
     variable:
     - card:
       - foil: true
@@ -5483,9 +5486,6 @@ products:
         set: sld
     variable_mode:
       count: 1
-    other:
-    - name: MTG Arena sleeve code
-    - name: Magic Online redemption code
   Secret Lair Drop Kamigawa Ink:
     card_count: 5
     deck:
@@ -6111,7 +6111,7 @@ products:
       set: sld
   Secret Lair Drop More Adventures in Middle earth:
     card:
-    - name: "Gr\xEDma Wormtongue"
+    - name: Gríma Wormtongue
       number: 734
       set: sld
     card_count: 4
@@ -6121,7 +6121,7 @@ products:
   Secret Lair Drop More Adventures in Middle earth Foil:
     card:
     - foil: true
-      name: "Gr\xEDma Wormtongue"
+      name: Gríma Wormtongue
       number: 734
       set: sld
     card_count: 4
@@ -6867,6 +6867,9 @@ products:
     deck:
     - name: Restless in Peace
       set: sld
+    other:
+    - name: MTG Arena sleeve code
+    - name: Magic Online redemption code
     variable:
     - card:
       - foil: true
@@ -6890,9 +6893,6 @@ products:
         set: sld
     variable_mode:
       count: 1
-    other:
-    - name: MTG Arena sleeve code
-    - name: Magic Online redemption code
   Secret Lair Drop Return to Mystical Archive:
     card:
     - name: Return the Favor
@@ -11525,6 +11525,9 @@ products:
     deck:
     - name: explosion sounds
       set: sld
+    other:
+    - name: MTG Arena sleeve code
+    - name: Magic Online redemption code
     variable:
     - card:
       - foil: true
@@ -11553,9 +11556,6 @@ products:
         set: sld
     variable_mode:
       count: 1
-    other:
-    - name: MTG Arena sleeve code
-    - name: Magic Online redemption code
   Secret Lair Festival in a Box Amsterdam 2026 Bundle:
     card:
     - foil: true

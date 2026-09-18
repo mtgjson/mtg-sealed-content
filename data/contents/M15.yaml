@@ -198,6 +198,22 @@ products:
     - name: Magic 2015 Foil Redemption
       set: m15
   2015 Core Set Prerelease Hunt with Ambition:
+    card:
+    - name: Garruk the Slayer
+      number: '1'
+      set: ppc1
+    - name: Wolf
+      number: T1
+      set: ppc1
+      token: true
+    - name: Wolf
+      number: T1
+      set: ppc1
+      token: true
+    - name: Wolf
+      number: T1
+      set: ppc1
+      token: true
     card_count: 15
     other:
     - name: Spindown die
@@ -208,23 +224,23 @@ products:
     - count: 5
       name: 2015 Core Set Booster Pack
       set: m15
+  2015 Core Set Prerelease Hunt with Ferocity:
     card:
     - name: Garruk the Slayer
-      set: ppc1
       number: '1'
-    - name: Wolf
       set: ppc1
+    - name: Wolf
       number: T1
+      set: ppc1
       token: true
     - name: Wolf
-      set: ppc1
       number: T1
+      set: ppc1
       token: true
     - name: Wolf
-      set: ppc1
       number: T1
+      set: ppc1
       token: true
-  2015 Core Set Prerelease Hunt with Ferocity:
     card_count: 15
     other:
     - name: Spindown die
@@ -235,23 +251,23 @@ products:
     - count: 5
       name: 2015 Core Set Booster Pack
       set: m15
+  2015 Core Set Prerelease Hunt with Guile:
     card:
     - name: Garruk the Slayer
-      set: ppc1
       number: '1'
-    - name: Wolf
       set: ppc1
+    - name: Wolf
       number: T1
+      set: ppc1
       token: true
     - name: Wolf
-      set: ppc1
       number: T1
+      set: ppc1
       token: true
     - name: Wolf
-      set: ppc1
       number: T1
+      set: ppc1
       token: true
-  2015 Core Set Prerelease Hunt with Guile:
     card_count: 15
     other:
     - name: Spindown die
@@ -262,23 +278,23 @@ products:
     - count: 5
       name: 2015 Core Set Booster Pack
       set: m15
+  2015 Core Set Prerelease Hunt with Strength:
     card:
     - name: Garruk the Slayer
-      set: ppc1
       number: '1'
-    - name: Wolf
       set: ppc1
+    - name: Wolf
       number: T1
+      set: ppc1
       token: true
     - name: Wolf
-      set: ppc1
       number: T1
+      set: ppc1
       token: true
     - name: Wolf
-      set: ppc1
       number: T1
+      set: ppc1
       token: true
-  2015 Core Set Prerelease Hunt with Strength:
     card_count: 15
     other:
     - name: Spindown die
@@ -289,23 +305,23 @@ products:
     - count: 5
       name: 2015 Core Set Booster Pack
       set: m15
+  2015 Core Set Prerelease Hunt with Valor:
     card:
     - name: Garruk the Slayer
-      set: ppc1
       number: '1'
-    - name: Wolf
       set: ppc1
+    - name: Wolf
       number: T1
+      set: ppc1
       token: true
     - name: Wolf
-      set: ppc1
       number: T1
+      set: ppc1
       token: true
     - name: Wolf
-      set: ppc1
       number: T1
+      set: ppc1
       token: true
-  2015 Core Set Prerelease Hunt with Valor:
     card_count: 15
     other:
     - name: Spindown die
@@ -316,22 +332,6 @@ products:
     - count: 5
       name: 2015 Core Set Booster Pack
       set: m15
-    card:
-    - name: Garruk the Slayer
-      set: ppc1
-      number: '1'
-    - name: Wolf
-      set: ppc1
-      number: T1
-      token: true
-    - name: Wolf
-      set: ppc1
-      number: T1
-      token: true
-    - name: Wolf
-      set: ppc1
-      number: T1
-      token: true
   2015 Core Set Prerelease Pack Set of 5:
     sealed:
     - count: 1

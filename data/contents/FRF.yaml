@@ -126,6 +126,8 @@ products:
       set: frf
   Fate Reforged Prerelease Kit Abzan Battle with Endurance:
     card_count: 16
+    other:
+    - name: Fate Reforged Spindown
     pack:
     - code: prerelease-abzan
       set: frf
@@ -136,10 +138,10 @@ products:
     - count: 1
       name: Khans of Tarkir Booster Pack
       set: ktk
-    other:
-    - name: Fate Reforged Spindown
   Fate Reforged Prerelease Kit Jeskai Battle with Cunning:
     card_count: 16
+    other:
+    - name: Fate Reforged Spindown
     pack:
     - code: prerelease-jeskai
       set: frf
@@ -150,10 +152,10 @@ products:
     - count: 1
       name: Khans of Tarkir Booster Pack
       set: ktk
-    other:
-    - name: Fate Reforged Spindown
   Fate Reforged Prerelease Kit Mardu Battle with Speed:
     card_count: 16
+    other:
+    - name: Fate Reforged Spindown
     pack:
     - code: prerelease-mardu
       set: frf
@@ -164,8 +166,6 @@ products:
     - count: 1
       name: Khans of Tarkir Booster Pack
       set: ktk
-    other:
-    - name: Fate Reforged Spindown
   Fate Reforged Prerelease Kit Set of 5:
     sealed:
     - count: 1
@@ -185,6 +185,8 @@ products:
       set: frf
   Fate Reforged Prerelease Kit Sultai Battle with Ruthlessness:
     card_count: 16
+    other:
+    - name: Fate Reforged Spindown
     pack:
     - code: prerelease-sultai
       set: frf
@@ -195,10 +197,10 @@ products:
     - count: 1
       name: Khans of Tarkir Booster Pack
       set: ktk
-    other:
-    - name: Fate Reforged Spindown
   Fate Reforged Prerelease Kit Temur Battle with Savagery:
     card_count: 16
+    other:
+    - name: Fate Reforged Spindown
     pack:
     - code: prerelease-temur
       set: frf
@@ -209,8 +211,6 @@ products:
     - count: 1
       name: Khans of Tarkir Booster Pack
       set: ktk
-    other:
-    - name: Fate Reforged Spindown
   Ugins Fate Event Booster Pack:
     pack:
     - code: fate

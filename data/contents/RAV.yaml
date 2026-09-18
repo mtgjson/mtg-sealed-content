@@ -97,11 +97,11 @@ products:
       set: rav
   Ravnica Tournament Pack:
     card_count: 75
+    other:
+    - name: One random Pro Tour Player Card
     pack:
     - code: tournament
       set: rav
-    other:
-    - name: One random Pro Tour Player Card
   Ravnica Tournament Pack Display:
     sealed:
     - count: 12

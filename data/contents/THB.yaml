@@ -37,6 +37,10 @@ products:
     deck:
     - name: Deck Builder's Toolkit
       set: thb
+    other:
+    - name: Deck builder's guide
+    - name: Magic quick reference booklet
+    - name: Reusable card storage box
     sealed:
     - count: 1
       name: Theros Beyond Death Draft Booster Pack
@@ -50,10 +54,6 @@ products:
     - count: 1
       name: War of the Spark Booster Pack
       set: war
-    other:
-    - name: Deck builder's guide
-    - name: Magic quick reference booklet
-    - name: Reusable card storage box
   Theros Beyond Death Draft Booster Box:
     sealed:
     - count: 36
@@ -84,12 +84,12 @@ products:
     deck:
     - name: Ashiok
       set: thb
+    other:
+    - name: MTG Arena code card (where available)
     sealed:
     - count: 2
       name: Theros Beyond Death Draft Booster Pack
       set: thb
-    other:
-    - name: MTG Arena code card (where available)
   Theros Beyond Death Planeswalker Deck Display:
     sealed:
     - count: 3
@@ -103,12 +103,12 @@ products:
     deck:
     - name: Elspeth
       set: thb
+    other:
+    - name: MTG Arena code card (where available)
     sealed:
     - count: 2
       name: Theros Beyond Death Draft Booster Pack
       set: thb
-    other:
-    - name: MTG Arena code card (where available)
   Theros Beyond Death Planeswalker Decks Set of 2:
     sealed:
     - count: 1

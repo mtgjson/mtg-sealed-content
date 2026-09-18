@@ -185,6 +185,9 @@ products:
       set: ori
   Magic Origins Prerelease Kit Chandra:
     card_count: 7
+    other:
+    - name: Magic Origins Spindown
+    - name: Planeswalker Story Booklet
     pack:
     - code: prerelease-chandra
       set: ori
@@ -192,11 +195,11 @@ products:
     - count: 6
       name: Magic Origins Booster Pack
       set: ori
+  Magic Origins Prerelease Kit Gideon:
+    card_count: 7
     other:
     - name: Magic Origins Spindown
     - name: Planeswalker Story Booklet
-  Magic Origins Prerelease Kit Gideon:
-    card_count: 7
     pack:
     - code: prerelease-gideon
       set: ori
@@ -204,11 +207,11 @@ products:
     - count: 6
       name: Magic Origins Booster Pack
       set: ori
+  Magic Origins Prerelease Kit Jace:
+    card_count: 7
     other:
     - name: Magic Origins Spindown
     - name: Planeswalker Story Booklet
-  Magic Origins Prerelease Kit Jace:
-    card_count: 7
     pack:
     - code: prerelease-jace
       set: ori
@@ -216,11 +219,11 @@ products:
     - count: 6
       name: Magic Origins Booster Pack
       set: ori
+  Magic Origins Prerelease Kit Liliana:
+    card_count: 7
     other:
     - name: Magic Origins Spindown
     - name: Planeswalker Story Booklet
-  Magic Origins Prerelease Kit Liliana:
-    card_count: 7
     pack:
     - code: prerelease-liliana
       set: ori
@@ -228,11 +231,11 @@ products:
     - count: 6
       name: Magic Origins Booster Pack
       set: ori
+  Magic Origins Prerelease Kit Nissa:
+    card_count: 7
     other:
     - name: Magic Origins Spindown
     - name: Planeswalker Story Booklet
-  Magic Origins Prerelease Kit Nissa:
-    card_count: 7
     pack:
     - code: prerelease-nissa
       set: ori
@@ -240,9 +243,6 @@ products:
     - count: 6
       name: Magic Origins Booster Pack
       set: ori
-    other:
-    - name: Magic Origins Spindown
-    - name: Planeswalker Story Booklet
   Magic Origins Prerelease Kit Set of 5:
     sealed:
     - count: 1

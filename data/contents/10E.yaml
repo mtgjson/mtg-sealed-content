@@ -166,13 +166,13 @@ products:
       name: Tenth Edition Theme Deck Molimos Might
       set: 10e
   Tenth Edition Two Player Starter Game:
+    deck:
+    - name: Tenth Edition Starter Game Land Pack
+      set: 10e
     other:
     - name: Rules sheet
     - name: Pro tour player promo card
     sealed:
     - count: 2
       name: Tenth Edition Booster Pack
-      set: 10e
-    deck:
-    - name: Tenth Edition Starter Game Land Pack
       set: 10e
