@@ -4482,15 +4482,17 @@ products:
     deck:
     - name: 'Featuring: Peach Momoko'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-featuring-peach-momoko
+      set: sld
   Secret Lair Drop Featuring Peach Momoko Rainbow Foil:
     card_count: 5
     deck:
     - name: 'Featuring: Peach Momoko Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-featuring-peach-momoko
+      set: sld
   Secret Lair Drop Featuring Phoebe Wahl:
     card_count: 5
     deck:
