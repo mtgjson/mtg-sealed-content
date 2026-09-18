@@ -17,11 +17,13 @@ products:
       set: mir
   Mirage Starter Deck:
     card_count: 60
+    other:
+    - name: Mirage starter rulebook
     pack:
     - code: starter
       set: mir
   Mirage Starter Deck Display:
     sealed:
-    - count: 10
+    - count: 12
       name: Mirage Starter Deck
       set: mir
