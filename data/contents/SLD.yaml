@@ -9414,8 +9414,9 @@ products:
     deck:
     - name: The Fairest Drop of All Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-the-fairest-drop-of-all
+      set: sld
   Secret Lair Drop The Full Text Lands:
     card_count: 5
     deck:
