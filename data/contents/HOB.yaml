@@ -115,12 +115,17 @@ products:
     pack:
     - code: play
       set: hob
+  The Hobbit Prerelease Cards Booster:
+    card_count: 1
+    pack:
+    - code: prerelease
+      set: hob
   The Hobbit Prerelease Case:
     sealed:
     - count: 15
-      name: The Hobbit Prerelease Pack
+      name: The Hobbit Prerelease Kit
       set: hob
-  The Hobbit Prerelease Pack:
+  The Hobbit Prerelease Kit:
     card:
     - name: Plains
       number: 313
@@ -134,14 +139,14 @@ products:
     - name: Plains
       number: 316
       set: hob
-    card_count: 5
+    card_count: 4
     other:
     - name: Deck box
     - name: Spindown die
-    pack:
-    - code: prerelease
-      set: hob
     sealed:
+    - count: 1
+      name: The Hobbit Prerelease Cards Booster
+      set: hob
     - count: 6
       name: The Hobbit Play Booster Pack
       set: hob
