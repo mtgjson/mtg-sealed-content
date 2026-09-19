@@ -1824,23 +1824,23 @@ products:
     - name: 'Artist Series: Chris Rahn Foil Edition'
       set: sld
   Secret Lair Drop Artist Series Ian Miller:
-    card_count: 4
-    deck:
-    - name: 'Artist Series: Ian Miller'
-      set: sld
     card:
     - name: Shivan Dragon
       number: 7180
       set: sld
-  Secret Lair Drop Artist Series Ian Miller Foil:
     card_count: 4
     deck:
-    - name: 'Artist Series: Ian Miller Foil Edition'
+    - name: 'Artist Series: Ian Miller'
       set: sld
+  Secret Lair Drop Artist Series Ian Miller Foil:
     card:
     - foil: true
       name: Shivan Dragon
       number: 7180
+      set: sld
+    card_count: 4
+    deck:
+    - name: 'Artist Series: Ian Miller Foil Edition'
       set: sld
   Secret Lair Drop Artist Series Jesper Ejsing:
     card:
@@ -4604,7 +4604,8 @@ products:
   Secret Lair Drop Keep Partying Hard Shred Harder Than You Previously Thought Possible Foil:
     card_count: 4
     deck:
-    - name: Keep Partying Hard, Shred Harder Than You Previously Thought Possible Foil Edition
+    - name: Keep Partying Hard, Shred Harder Than You Previously Thought Possible
+        Foil Edition
       set: sld
     other:
     - name: Bonus card unknown
@@ -4688,23 +4689,23 @@ products:
     other:
     - name: Bonus card unknown
   Secret Lair Drop Lofi Girl Beats to Cast To:
-    card_count: 5
-    deck:
-    - name: 'Lofi Girl: Beats to Cast To'
-      set: sld
     card:
     - name: Command Tower
       number: 7191
       set: sld
-  Secret Lair Drop Lofi Girl Beats to Cast To Foil:
     card_count: 5
     deck:
-    - name: 'Lofi Girl: Beats to Cast To Foil Edition'
+    - name: 'Lofi Girl: Beats to Cast To'
       set: sld
+  Secret Lair Drop Lofi Girl Beats to Cast To Foil:
     card:
     - foil: true
       name: Command Tower
       number: 7191
+      set: sld
+    card_count: 5
+    deck:
+    - name: 'Lofi Girl: Beats to Cast To Foil Edition'
       set: sld
   Secret Lair Drop Lorwyn Lightboxes:
     card_count: 5
@@ -7566,61 +7567,61 @@ products:
     - code: bonus-ssssssnakessssss
       set: sld
   Secret Lair Drop Stardew Valley A Flicker in the Deep:
-    card_count: 5
-    deck:
-    - name: 'Stardew Valley: A Flicker in the Deep'
-      set: sld
     card:
     - name: Big Score
       number: 7190
       set: sld
-  Secret Lair Drop Stardew Valley A Flicker in the Deep Foil:
     card_count: 5
     deck:
-    - name: 'Stardew Valley: A Flicker in the Deep Foil Edition'
+    - name: 'Stardew Valley: A Flicker in the Deep'
       set: sld
+  Secret Lair Drop Stardew Valley A Flicker in the Deep Foil:
     card:
     - foil: true
       name: Big Score
       number: 7190
       set: sld
-  Secret Lair Drop Stardew Valley Life in Pelican Town:
     card_count: 5
     deck:
-    - name: 'Stardew Valley: Life in Pelican Town'
+    - name: 'Stardew Valley: A Flicker in the Deep Foil Edition'
       set: sld
+  Secret Lair Drop Stardew Valley Life in Pelican Town:
     card:
     - name: Sylvan Caryatid
       number: 7189
       set: sld
-  Secret Lair Drop Stardew Valley Life in Pelican Town Foil:
     card_count: 5
     deck:
-    - name: 'Stardew Valley: Life in Pelican Town Foil Edition'
+    - name: 'Stardew Valley: Life in Pelican Town'
       set: sld
+  Secret Lair Drop Stardew Valley Life in Pelican Town Foil:
     card:
     - foil: true
       name: Sylvan Caryatid
       number: 7189
       set: sld
-  Secret Lair Drop Stardew Valley Welcome to Stardew Valley:
-    card_count: 7
+    card_count: 5
     deck:
-    - name: 'Stardew Valley: Welcome to Stardew Valley'
+    - name: 'Stardew Valley: Life in Pelican Town Foil Edition'
       set: sld
+  Secret Lair Drop Stardew Valley Welcome to Stardew Valley:
     card:
     - name: Academy Manufactor
       number: 7188
       set: sld
-  Secret Lair Drop Stardew Valley Welcome to Stardew Valley Foil:
     card_count: 7
     deck:
-    - name: 'Stardew Valley: Welcome to Stardew Valley Foil Edition'
+    - name: 'Stardew Valley: Welcome to Stardew Valley'
       set: sld
+  Secret Lair Drop Stardew Valley Welcome to Stardew Valley Foil:
     card:
     - foil: true
       name: Academy Manufactor
       number: 7188
+      set: sld
+    card_count: 7
+    deck:
+    - name: 'Stardew Valley: Welcome to Stardew Valley Foil Edition'
       set: sld
   Secret Lair Drop Tales of the Time Stoppers:
     card_count: 4
@@ -7856,90 +7857,90 @@ products:
     - name: The Godzilla Lands
       set: sld
   Secret Lair Drop The Hobbit Desolation:
-    card_count: 5
-    deck:
-    - name: 'The Hobbit: Desolation'
-      set: sld
     card:
     - name: Plumb the Forbidden
       number: 7114
       set: sld
-  Secret Lair Drop The Hobbit Desolation Foil:
     card_count: 5
     deck:
-    - name: 'The Hobbit: Desolation Foil Edition'
+    - name: 'The Hobbit: Desolation'
       set: sld
+  Secret Lair Drop The Hobbit Desolation Foil:
     card:
     - foil: true
       name: Plumb the Forbidden
       number: 7114
       set: sld
-  Secret Lair Drop The Hobbit He Who Walks Unseen Out of Sight Foil:
     card_count: 5
     deck:
-    - name: 'The Hobbit: He Who Walks Unseen Out of Sight Foil Edition'
+    - name: 'The Hobbit: Desolation Foil Edition'
       set: sld
+  Secret Lair Drop The Hobbit He Who Walks Unseen Out of Sight Foil:
     card:
     - foil: true
       name: Slip Out the Back
       number: 7115
       set: sld
-  Secret Lair Drop The Hobbit Over the Edge of the Wild:
     card_count: 5
     deck:
-    - name: 'The Hobbit: Over the Edge of the Wild'
+    - name: 'The Hobbit: He Who Walks Unseen Out of Sight Foil Edition'
       set: sld
+  Secret Lair Drop The Hobbit Over the Edge of the Wild:
     card:
     - name: Rogue's Passage
       number: 7112
       set: sld
-  Secret Lair Drop The Hobbit Over the Edge of the Wild Foil:
     card_count: 5
     deck:
-    - name: 'The Hobbit: Over the Edge of the Wild Foil Edition'
+    - name: 'The Hobbit: Over the Edge of the Wild'
       set: sld
+  Secret Lair Drop The Hobbit Over the Edge of the Wild Foil:
     card:
     - foil: true
       name: Rogue's Passage
       number: 7112
       set: sld
-  Secret Lair Drop The Hobbit Second Breakfast and Beyond:
-    card_count: 0
+    card_count: 5
     deck:
-    - name: 'The Hobbit: Second Breakfast and Beyond'
+    - name: 'The Hobbit: Over the Edge of the Wild Foil Edition'
       set: sld
+  Secret Lair Drop The Hobbit Second Breakfast and Beyond:
     card:
     - name: Food Coma
       number: 7111
       set: sld
-  Secret Lair Drop The Hobbit Second Breakfast and Beyond Foil:
     card_count: 0
     deck:
-    - name: 'The Hobbit: Second Breakfast and Beyond Foil Edition'
+    - name: 'The Hobbit: Second Breakfast and Beyond'
       set: sld
+  Secret Lair Drop The Hobbit Second Breakfast and Beyond Foil:
     card:
     - foil: true
       name: Food Coma
       number: 7111
       set: sld
-  Secret Lair Drop The Hobbit Smaugs Spoils:
-    card_count: 5
+    card_count: 0
     deck:
-    - name: 'The Hobbit: Smaug''s Spoils'
+    - name: 'The Hobbit: Second Breakfast and Beyond Foil Edition'
       set: sld
+  Secret Lair Drop The Hobbit Smaugs Spoils:
     card:
     - name: Wayfarer's Bauble
       number: 7113
       set: sld
-  Secret Lair Drop The Hobbit Smaugs Spoils Foil:
     card_count: 5
     deck:
-    - name: 'The Hobbit: Smaug''s Spoils Foil Edition'
+    - name: 'The Hobbit: Smaug''s Spoils'
       set: sld
+  Secret Lair Drop The Hobbit Smaugs Spoils Foil:
     card:
     - foil: true
       name: Wayfarer's Bauble
       number: 7113
+      set: sld
+    card_count: 5
+    deck:
+    - name: 'The Hobbit: Smaug''s Spoils Foil Edition'
       set: sld
   Secret Lair Drop The Last of Us Part I:
     card:
@@ -8208,26 +8209,26 @@ products:
     - code: bonus-the-weirdest-pets-in-the-multiverse
       set: sld
   Secret Lair Drop Their Magic is Limitless:
+    card:
+    - foil: true
+      name: Llanowar Elves
+      number: 7167
+      set: sld
     card_count: 7
     deck:
     - name: Their Magic is Limitless
       set: sld
-    card:
-    - foil: true
-      name: Llanowar Elves
-      number: 7167
-      set: sld
     other:
     - name: Foil Elf Warrior bonus token (variant unknown)
   Secret Lair Drop Their Magic is Limitless Foil:
-    card_count: 7
-    deck:
-    - name: Their Magic is Limitless Foil Edition
-      set: sld
     card:
     - foil: true
       name: Llanowar Elves
       number: 7167
+      set: sld
+    card_count: 7
+    deck:
+    - name: Their Magic is Limitless Foil Edition
       set: sld
     other:
     - name: Foil Elf Warrior bonus token (variant unknown)
