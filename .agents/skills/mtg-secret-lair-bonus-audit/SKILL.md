@@ -26,6 +26,15 @@ other:
 - name: Bonus card unknown
 ```
 
+Distinguish an unresolved bonus from a confirmed absence. For a drop documented to contain no bonus card, use:
+
+```yaml
+other:
+- name: Drop has no bonus card slot
+```
+
+An absent `card`/`pack`/`variable` field is not evidence that a physical bonus exists or that it does not. Check the product-specific evidence before introducing either annotation. Do not automatically add `Bonus card unknown` to every definition lacking a bonus mapping; never replace a confirmed absence with an unknown slot. Record the source supporting a no-bonus determination in the audit ledger.
+
 Do not substitute a date-wide, color-wide, rarity-wide or catalog-wide fallback to make every card mapped. Preserve research leads outside executable contents. A lone observed pull does not establish a fixed bonus or exhaustive pool. If the entire bonus slot is unresolved, remove its speculative regular/replacement branches together; retain unrelated accessories and contents. Missing odds alone need not make known membership unknown when estimated weights are authorized.
 
 ## Modeling
