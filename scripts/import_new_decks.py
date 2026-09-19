@@ -232,6 +232,14 @@ def main():
             print(f"Skipping {deck['name']} in {set_code}: deck already referenced in contents")
             continue
 
+        # Box Set decklists where set_name == name are the sealed product itself
+        # (Signature Spellbook, From the Vault, etc.). The name formula below would
+        # invent empty-identifier ghosts like "X Box Set X"; those products are
+        # hand-authored under cleaner names. See #752 / #753.
+        if deck["type"] == "Box Set" and deck["set_name"] == deck["name"]:
+            print(f"Skipping {deck['name']} in {set_code}: sealed box already modeled separately")
+            continue
+
         print(f"Adding {deck['name']} to {set_code}")
 
         name = f"{deck['set_name']} {deck['type']} {deck['name']}"
