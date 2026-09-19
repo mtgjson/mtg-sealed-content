@@ -8217,9 +8217,31 @@ products:
     deck:
     - name: Their Magic is Limitless
       set: sld
-    pack:
-    - code: bonus-their-magic-is-limitless-token
-      set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Elf Warrior
+        number: 7168
+        set: sld
+        token: true
+      chance: 1
+    - card:
+      - foil: true
+        name: Elf Warrior
+        number: 7169
+        set: sld
+        token: true
+      chance: 1
+    - card:
+      - foil: true
+        name: Elf Warrior
+        number: 7170
+        set: sld
+        token: true
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 3
   Secret Lair Drop Their Magic is Limitless Foil:
     card:
     - foil: true
@@ -8230,9 +8252,31 @@ products:
     deck:
     - name: Their Magic is Limitless Foil Edition
       set: sld
-    pack:
-    - code: bonus-their-magic-is-limitless-token
-      set: sld
+    variable:
+    - card:
+      - foil: true
+        name: Elf Warrior
+        number: 7168
+        set: sld
+        token: true
+      chance: 1
+    - card:
+      - foil: true
+        name: Elf Warrior
+        number: 7169
+        set: sld
+        token: true
+      chance: 1
+    - card:
+      - foil: true
+        name: Elf Warrior
+        number: 7170
+        set: sld
+        token: true
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 3
   Secret Lair Drop Theros Stargazing Vol I Heliod:
     card_count: 3
     deck:
