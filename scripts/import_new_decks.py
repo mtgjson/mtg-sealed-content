@@ -225,6 +225,19 @@ def main():
 
         set_code = deck["set_code"]
 
+        # Sealed box products (Signature Spellbook, From the Vault, etc.) show up
+        # upstream as type "Box Set" with deck name identical to the set name.
+        # The default "{set_name} {type} {name}" formula then invents useless
+        # empty-identifier stubs like "Signature Spellbook: Gideon Box Set
+        # Signature Spellbook: Gideon". Those sealed products are modeled by hand
+        # as SPELLBOOK/BOX_SET entries; never auto-create the mangled alias.
+        if deck["type"] == "Box Set" and deck["set_name"] == deck["name"]:
+            print(
+                f"Skipping {deck['name']} in {set_code}: "
+                "sealed box already modeled separately"
+            )
+            continue
+
         # If this decklist is already referenced by an existing contents entry, it is
         # already modeled (often under a hand-authored product name) -- don't create a
         # duplicate stub product for it.
