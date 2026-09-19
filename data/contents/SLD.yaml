@@ -2792,19 +2792,21 @@ products:
     - code: bonus-cool-ocean-breeze
       set: sld
   Secret Lair Drop Cosmic Chill by Robin Eisenberg:
-    card_count: 5
+    card_count: 6
     deck:
     - name: Cosmic Chill by Robin Eisenberg
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-cosmic-chill-by-robin-eisenberg
+      set: sld
   Secret Lair Drop Cosmic Chill by Robin Eisenberg Foil:
-    card_count: 5
+    card_count: 6
     deck:
     - name: Cosmic Chill by Robin Eisenberg Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-cosmic-chill-by-robin-eisenberg
+      set: sld
   Secret Lair Drop Crocodile Jacksons Monstrous Menagerie:
     card:
     - name: Lurking Crocodile
@@ -3723,19 +3725,21 @@ products:
     other:
     - name: Bonus card unknown
   Secret Lair Drop Featuring Gene Luen Yang:
-    card_count: 5
+    card_count: 6
     deck:
     - name: 'Featuring: Gene Luen Yang'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-featuring-gene-luen-yang
+      set: sld
   Secret Lair Drop Featuring Gene Luen Yang Foil:
-    card_count: 5
+    card_count: 6
     deck:
     - name: 'Featuring: Gene Luen Yang Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-featuring-gene-luen-yang
+      set: sld
   Secret Lair Drop Featuring Imiri Sakabashira:
     card_count: 4
     deck:
@@ -4746,19 +4750,21 @@ products:
     - code: bonus-magiccon-the-gathering
       set: sld
   Secret Lair Drop Mahō Gakuin Seishun Hakusho — 魔法学院青春白書:
-    card_count: 5
+    card_count: 6
     deck:
     - name: Mahō Gakuin Seishun Hakusho — 魔法学院青春白書
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-maho-gakuin-seishun-hakusho
+      set: sld
   Secret Lair Drop Mahō Gakuin Seishun Hakusho — 魔法学院青春白書 Foil:
-    card_count: 5
+    card_count: 6
     deck:
     - name: Mahō Gakuin Seishun Hakusho — 魔法学院青春白書 Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-maho-gakuin-seishun-hakusho
+      set: sld
   Secret Lair Drop Marvel Dan Hipp:
     card_count: 5
     deck:
@@ -5261,19 +5267,21 @@ products:
     other:
     - name: Bonus card unknown
   Secret Lair Drop Omens of Chaos:
-    card_count: 5
+    card_count: 6
     deck:
     - name: Omens of Chaos
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-omens-of-chaos
+      set: sld
   Secret Lair Drop Omens of Chaos Foil:
-    card_count: 5
+    card_count: 6
     deck:
     - name: Omens of Chaos Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-omens-of-chaos
+      set: sld
   Secret Lair Drop Ornithological Studies:
     card_count: 5
     deck:
@@ -8324,19 +8332,21 @@ products:
     other:
     - name: Bonus card unknown
   Secret Lair Drop Tobys Journey by Gary Baseman:
-    card_count: 5
+    card_count: 6
     deck:
     - name: Toby's Journey by Gary Baseman
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-tobys-journey-by-gary-baseman
+      set: sld
   Secret Lair Drop Tobys Journey by Gary Baseman Foil:
-    card_count: 5
+    card_count: 6
     deck:
     - name: Toby's Journey by Gary Baseman Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-tobys-journey-by-gary-baseman
+      set: sld
   Secret Lair Drop Tome of the Astral Sorceress:
     card_count: 4
     deck:
@@ -8558,12 +8568,13 @@ products:
     other:
     - name: Bonus card unknown
   Secret Lair Drop Wild in Bloom:
-    card_count: 5
+    card_count: 6
     deck:
     - name: Wild in Bloom
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-wild-in-bloom
+      set: sld
   Secret Lair Drop Witchs Familiar:
     card_count: 5
     deck:
