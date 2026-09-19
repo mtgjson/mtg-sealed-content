@@ -4,7 +4,15 @@ on:
     - cron: 0 */12 * * *
   workflow_dispatch:
 
-permissions: write-all
+permissions:
+  contents: write
+  pull-requests: write
+
+# All writers share a queue; do not cancel a running or pending publication.
+concurrency:
+  group: sealed-content-writer
+  cancel-in-progress: false
+  queue: max
 
 jobs:
   build:
@@ -14,6 +22,8 @@ jobs:
       - name: checkout repo content
         uses: actions/checkout@v5
         with:
+          ref: main
+          fetch-depth: 0
           lfs: true
 
       - name: setup python
@@ -47,50 +57,11 @@ jobs:
         working-directory: preconstructed-decks
         run: bundle exec ruby bin/build_jsons "$RUNNER_TEMP/decks.json"
 
-      - name: execute import of new deck
+      - name: generate and safely publish content
         env:
+          GH_TOKEN: ${{ github.token }}
           DECKS_JSON: ${{ runner.temp }}/decks.json
-        run: python scripts/import_new_decks.py
-
-      - name: execute new products
-        env:
           TCG_AUTH: ${{ secrets.TCG_AUTH }}
-        run: python scripts/load_new_products.py $TCG_AUTH
-
-      - name: associate names
-        run: python scripts/check_product_fuzzy.py --auto --auto-margin 3
-
-      - name: rebuild status + deck map
-        run: python scripts/contents_validator.py --status
-
-      - name: execute manual products compiler
-        run: python scripts/new_products_compiler.py
-
-      - name: execute card to product mapper
-        run: python scripts/card_to_product_compiler.py -o outputs/card_map.json
-
-      - name: execute token products mapping compiler
-        run: python -m scripts.tokens.main
-        env:
           TCGPLAYER_CLIENT_ID: ${{ secrets.TCGPLAYER_CLIENT_ID }}
           TCGPLAYER_CLIENT_SECRET: ${{ secrets.TCGPLAYER_CLIENT_SECRET }}
-
-      - name: validate card_map is not empty
-        run: |
-          if [ ! -s outputs/card_map.json ]; then
-            echo "ERROR: card_map.json is empty or missing"
-            exit 1
-          fi
-          KEYS=$(python -c "import json; print(len(json.load(open('outputs/card_map.json'))))")
-          if [ "$KEYS" -eq 0 ]; then
-            echo "ERROR: card_map.json has no entries"
-            exit 1
-          fi
-          echo "card_map.json has $KEYS entries"
-
-      - name: commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v7
-        with:
-          file_pattern: 'data/ outputs/ status.txt'
-          commit_message: Pull new daily content
-          push_options: --force
+        run: python scripts/publish_generated_content.py daily
