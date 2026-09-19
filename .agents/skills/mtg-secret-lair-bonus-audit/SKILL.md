@@ -13,6 +13,8 @@ Model which bonus printings can actually occur in each drop. Keep random collati
 - Audit the complete requested batch before editing products. Two-year batches are useful when requested, not a mandatory scope. Inventory finish/language variants, inherited `copy` entries, fixed bonuses, random pools, unknowns and exclusions. Include preorder-year releases shipped the following year (e.g. Secretversary 2020); distinguish those dates in the ledger. Bundles inherit constituent contents and are not extra independent drops.
 - Build a product-to-printing evidence ledger with exact collector numbers, finishes, source links, confidence, and decisions. Separate membership evidence from odds. Reuse prior findings, but verify current upstream/PR state before treating them as implemented.
 - Use official disclosures when available, then contemporary box-specific opening reports/videos, MTG Wiki and Magic Librarities checklists. Search Reddit, including `r/magicTCG`, `r/mtgfinance`, and `r/secretlair_collectors` (not `sld_collectors`). Read linked reports and comments; search snippets alone do not establish a complete pool.
+- Search in both directions: drop names to bonus outcomes, and card names to originating drops. Include spelling variants and collector numbers. Reddit’s own comment search and YouTube’s own search can expose reports that web search misses; use `mtg.wiki` rather than the old Fandom site.
+- Inspect video frames when the presenter says only “the bonus card” or “a Human.” Follow the opening from identifiable advertised cards to the bonus reveal, especially immediately after the final main card. Record timestamps, visible finish, product edition and whether identification is visual or transcript-based. Trace summary videos back to their sources; repeated coverage of one opening is not independent corroboration.
 - Do a second investigation of problematic findings before deferring them. Prioritize contradictions, exact-number/finish ambiguity, missing rare replacements and drops with useful leads. Distinguish firsthand pulls from speculation, preview samples, reporting bias and reports that do not identify the box.
 
 ## Evidence decisions
@@ -37,6 +39,8 @@ An absent `card`/`pack`/`variable` field is not evidence that a physical bonus e
 
 Do not substitute a date-wide, color-wide, rarity-wide or catalog-wide fallback to make every card mapped. Preserve research leads outside executable contents. A lone observed pull does not establish a fixed bonus or exhaustive pool. If the entire bonus slot is unresolved, remove its speculative regular/replacement branches together; retain unrelated accessories and contents. Missing odds alone need not make known membership unknown when estimated weights are authorized.
 
+After investigating plausible alternatives, multiple supported drop-specific outcomes can form a documented working pool when estimated weights are authorized. An unverified candidate alone need not keep the drop unresolved: exclude it unless evidence supports inclusion. Distinguish this practical closure from a manufacturer-guaranteed exhaustive checklist, document remaining uncertainty, and revise the pool when new evidence emerges. This does not justify ignoring contradictory reports or treating a lone pull as a complete pool.
+
 ## Modeling
 
 - `mtg-sealed-content/data/contents/SLD.yaml`: supported fixed bonuses stay direct `card` entries. Random bonus slots reference a complete drop-specific booster in `taw/magic-search-engine/data/boosters/sld-bonus-<drop>.yaml`. Do not expand sealed YAML into large lists of single-card alternatives.
@@ -51,5 +55,7 @@ Read [references/evidence-and-validation.md](references/evidence-and-validation.
 ## Delivery
 
 Maintain one decision ledger for the whole batch, including unchanged and unresolved drops. File remaining research **by year**, updating existing issues where appropriate; resolve issues when their question is settled. Do not file an empty issue for a cleared year.
+
+Before calling a drop resolved, ensure its compiled booster, effective sealed references for all affected editions, cached card counts, master evidence ledger, year-issue status and PR title/body agree with the final implementation. Research agreement alone is not implemented closure. Update master documents and existing issue bodies in place rather than adding chronological follow-up notes or comments; keep a year issue open while other research items remain.
 
 Use existing session authorization for PRs; this skill itself does not authorize publishing. Keep PRs independent and link companion changes. State the coordinated publication requirements for added/removed pack codes and downstream rebuilds. Post PR links as they open when requested, then give a final table with counts and material uncertainties. Keep independent fixed-finish/code changes in separate commits or PRs when requested. Do not conflate local validation with a published downstream result.
