@@ -72,3 +72,47 @@ with patch('requests.get', side_effect=AssertionError('unexpected download')):
             self.assertEqual(contents['Test Set Theme Deck Example']['card_count'], 60)
             self.assertIn('deck already referenced', result.stdout)
 
+
+
+def test_box_set_with_identical_set_and_deck_name_is_skipped(self):
+    """Signature Spellbook-style sealed boxes must not become mangled stubs."""
+    with tempfile.TemporaryDirectory() as directory:
+        base = Path(directory)
+        (base / 'data/products').mkdir(parents=True)
+        (base / 'data/contents').mkdir()
+        source = base / 'decks.json'
+        source.write_text(json.dumps([
+            {
+                'name': 'Signature Spellbook: Gideon',
+                'set_code': 'ss2',
+                'set_name': 'Signature Spellbook: Gideon',
+                'type': 'Box Set',
+                'category': 'Box',
+                'release_date': '2019-06-28',
+                'cards': [{'count': 9}],
+            },
+            {
+                'name': 'Example',
+                'set_code': 'tst',
+                'set_name': 'Test Set',
+                'type': 'Theme Deck',
+                'category': 'Deck',
+                'release_date': '2020-01-01',
+                'cards': [{'count': 60}],
+            },
+        ]))
+        code = (
+            "import os\n"
+            "from unittest.mock import patch\n"
+            "from scripts.import_new_decks import main\n"
+            "os.environ['DECKS_JSON'] = 'decks.json'\n"
+            "with patch('requests.get', side_effect=AssertionError('unexpected download')):\n"
+            "    main()\n"
+        )
+        result = self.run_python(['-c', code], directory)
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertIn('sealed box already modeled separately', result.stdout)
+        self.assertFalse((base / 'data/products/SS2.yaml').exists())
+        self.assertFalse((base / 'data/contents/SS2.yaml').exists())
+        contents = yaml.safe_load((base / 'data/contents/TST.yaml').read_text())['products']
+        self.assertEqual(len(contents), 1)
