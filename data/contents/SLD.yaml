@@ -1671,9 +1671,8 @@ products:
     deck:
     - name: A Devastation of Dragons
       set: sld
-    pack:
-    - code: zippy-zombies-feb
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Absolute Annihilation:
     card_count: 4
     deck:
@@ -1696,7 +1695,7 @@ products:
     - name: Adventures of the Little Witch
       set: sld
     pack:
-    - code: zippy-zombies-mar
+    - code: bonus-adventures-of-the-little-witch
       set: sld
   Secret Lair Drop Adventures of the Little Witch Rainbow Foil:
     card_count: 4
@@ -1704,66 +1703,45 @@ products:
     - name: Adventures of the Little Witch Foil Edition
       set: sld
     pack:
-    - code: zippy-zombies-mar
+    - code: bonus-adventures-of-the-little-witch
       set: sld
   Secret Lair Drop Aether Drifters:
     card_count: 5
     deck:
     - name: Aether Drifters
       set: sld
-    pack:
-    - code: zippy-zombies-feb
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Aether Drifters Foil:
     card_count: 5
     deck:
     - name: Aether Drifters Foil Edition
       set: sld
-    pack:
-    - code: zippy-zombies-feb
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Alien Auroras:
     card_count: 5
     deck:
     - name: Alien Auroras
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Seven Dwarves
-        number: 818
-        set: sld
-      chance: 1
-    - chance: 99
-      pack:
-      - code: deceptive-districts
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-alien-auroras
+      set: sld
   Secret Lair Drop Alien Auroras Galaxy Foil:
     card_count: 5
     deck:
     - name: Alien Auroras Galaxy Foil Edition
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Seven Dwarves
-        number: 818
-        set: sld
-      chance: 1
-    - chance: 99
-      pack:
-      - code: deceptive-districts
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-alien-auroras
+      set: sld
   Secret Lair Drop Animar and Friends:
     card_count: 5
     deck:
     - name: Animar & Friends
+      set: sld
+    pack:
+    - code: bonus-animar-and-friends
       set: sld
   Secret Lair Drop April Fools:
     card:
@@ -1779,17 +1757,15 @@ products:
     deck:
     - name: Arcade Racers
       set: sld
-    pack:
-    - code: zippy-zombies-feb
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Arcade Racers Rainbow Foil:
     card_count: 5
     deck:
     - name: Arcade Racers Foil Edition
       set: sld
-    pack:
-    - code: zippy-zombies-feb
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Artist Series Alayna Danner:
     card:
     - name: Seraph Sanctuary
@@ -1852,15 +1828,20 @@ products:
     deck:
     - name: 'Artist Series: Ian Miller'
       set: sld
-    other:
-    - name: Bonus card unknown
+    card:
+    - name: Shivan Dragon
+      number: 7180
+      set: sld
   Secret Lair Drop Artist Series Ian Miller Foil:
     card_count: 4
     deck:
     - name: 'Artist Series: Ian Miller Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    card:
+    - foil: true
+      name: Shivan Dragon
+      number: 7180
+      set: sld
   Secret Lair Drop Artist Series Jesper Ejsing:
     card:
     - name: Llanowar Elves
@@ -2502,181 +2483,81 @@ products:
     deck:
     - name: 'Avatar: The Last Airbender: A Lot to Learn'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Fellwar Stone
-        number: 7062
-        set: sld
-    - card:
-      - foil: true
-        name: Command Tower
-        number: 7063
-        set: sld
-    variable_mode:
-      count: 1
+    pack:
+    - code: bonus-avatar-the-last-airbender-a-lot-to-learn
+      set: sld
   Secret Lair Drop Avatar The Last Airbender A Lot to Learn Foil:
     card_count: 4
     deck:
     - name: 'Avatar: The Last Airbender: A Lot to Learn Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Fellwar Stone
-        number: 7062
-        set: sld
-    - card:
-      - foil: true
-        name: Command Tower
-        number: 7063
-        set: sld
-    variable_mode:
-      count: 1
+    pack:
+    - code: bonus-avatar-the-last-airbender-a-lot-to-learn
+      set: sld
   Secret Lair Drop Avatar The Last Airbender Everything Changed:
     card_count: 4
     deck:
     - name: 'Avatar: The Last Airbender: Everything Changed'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Fellwar Stone
-        number: 7062
-        set: sld
-    - card:
-      - foil: true
-        name: Command Tower
-        number: 7063
-        set: sld
-    variable_mode:
-      count: 1
+    pack:
+    - code: bonus-avatar-the-last-airbender-everything-changed
+      set: sld
   Secret Lair Drop Avatar The Last Airbender Everything Changed Foil:
     card_count: 4
     deck:
     - name: 'Avatar: The Last Airbender: Everything Changed Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Fellwar Stone
-        number: 7062
-        set: sld
-    - card:
-      - foil: true
-        name: Command Tower
-        number: 7063
-        set: sld
-    variable_mode:
-      count: 1
+    pack:
+    - code: bonus-avatar-the-last-airbender-everything-changed
+      set: sld
   Secret Lair Drop Avatar The Last Airbender My Cabbages!:
     card_count: 5
     deck:
     - name: 'Avatar: The Last Airbender: My Cabbages!'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Fellwar Stone
-        number: 7062
-        set: sld
-    - card:
-      - foil: true
-        name: Command Tower
-        number: 7063
-        set: sld
-    variable_mode:
-      count: 1
+    pack:
+    - code: bonus-avatar-the-last-airbender-my-cabbages
+      set: sld
   Secret Lair Drop Avatar The Last Airbender My Cabbages! Foil:
     card_count: 5
     deck:
     - name: 'Avatar: The Last Airbender: My Cabbages! Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Fellwar Stone
-        number: 7062
-        set: sld
-    - card:
-      - foil: true
-        name: Command Tower
-        number: 7063
-        set: sld
-    variable_mode:
-      count: 1
+    pack:
+    - code: bonus-avatar-the-last-airbender-my-cabbages
+      set: sld
   Secret Lair Drop Avatar The Last Airbender One with the Elements:
     card_count: 6
     deck:
     - name: 'Avatar: The Last Airbender: One with the Elements'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Fellwar Stone
-        number: 7062
-        set: sld
-    - card:
-      - foil: true
-        name: Command Tower
-        number: 7063
-        set: sld
-    variable_mode:
-      count: 1
+    pack:
+    - code: bonus-avatar-the-last-airbender-one-with-the-elements
+      set: sld
   Secret Lair Drop Avatar The Last Airbender One with the Elements Foil:
     card_count: 6
     deck:
     - name: 'Avatar: The Last Airbender: One with the Elements Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Fellwar Stone
-        number: 7062
-        set: sld
-    - card:
-      - foil: true
-        name: Command Tower
-        number: 7063
-        set: sld
-    variable_mode:
-      count: 1
+    pack:
+    - code: bonus-avatar-the-last-airbender-one-with-the-elements
+      set: sld
   Secret Lair Drop Avatar The Last Airbender The Ember Island Players:
     card_count: 5
     deck:
     - name: 'Avatar: The Last Airbender: The Ember Island Players'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Fellwar Stone
-        number: 7062
-        set: sld
-    - card:
-      - foil: true
-        name: Command Tower
-        number: 7063
-        set: sld
-    variable_mode:
-      count: 1
+    pack:
+    - code: bonus-avatar-the-last-airbender-the-ember-island-players
+      set: sld
   Secret Lair Drop Avatar The Last Airbender The Ember Island Players Foil:
     card_count: 5
     deck:
     - name: 'Avatar: The Last Airbender: The Ember Island Players Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Fellwar Stone
-        number: 7062
-        set: sld
-    - card:
-      - foil: true
-        name: Command Tower
-        number: 7063
-        set: sld
-    variable_mode:
-      count: 1
+    pack:
+    - code: bonus-avatar-the-last-airbender-the-ember-island-players
+      set: sld
   Secret Lair Drop Back in My Day!:
     card:
     - name: Utopia Sprawl
@@ -2784,67 +2665,17 @@ products:
     deck:
     - name: 'Brain Dead: New Earth Mentality'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Invasion Plans
-        number: 7107
-        set: sld
-      chance: 49
-    - card:
-      - foil: true
-        name: Tidal Barracuda
-        number: 7105
-        set: sld
-      chance: 25
-    - card:
-      - foil: true
-        name: Master of the Feast
-        number: 7106
-        set: sld
-      chance: 25
-    - card:
-      - foil: true
-        name: Miren, the Moaning Well
-        number: 7108
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-brain-dead-new-earth-mentality
+      set: sld
   Secret Lair Drop Brain Dead New Earth Mentality Foil:
     card_count: 10
     deck:
     - name: 'Brain Dead: New Earth Mentality Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Invasion Plans
-        number: 7107
-        set: sld
-      chance: 49
-    - card:
-      - foil: true
-        name: Tidal Barracuda
-        number: 7105
-        set: sld
-      chance: 25
-    - card:
-      - foil: true
-        name: Master of the Feast
-        number: 7106
-        set: sld
-      chance: 25
-    - card:
-      - foil: true
-        name: Miren, the Moaning Well
-        number: 7108
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-brain-dead-new-earth-mentality
+      set: sld
   Secret Lair Drop Buggin Out:
     card_count: 5
     deck:
@@ -2904,7 +2735,7 @@ products:
     - name: Cats of Chaos
       set: sld
     pack:
-    - code: handsome-humans-jun
+    - code: bonus-cats-of-chaos
       set: sld
   Secret Lair Drop Cats of Chaos Foil:
     card_count: 5
@@ -2912,7 +2743,7 @@ products:
     - name: Cats of Chaos Foil Edition
       set: sld
     pack:
-    - code: handsome-humans-jun
+    - code: bonus-cats-of-chaos
       set: sld
   Secret Lair Drop City Styles:
     card_count: 5
@@ -2927,17 +2758,15 @@ products:
     deck:
     - name: 'City Styles 2: Dressed to Kill'
       set: sld
-    pack:
-    - code: zippy-zombies-feb
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop City Styles 2 Dressed to Kill Rainbow Foil:
     card_count: 5
     deck:
     - name: 'City Styles 2: Dressed to Kill Foil Edition'
       set: sld
-    pack:
-    - code: zippy-zombies-feb
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop City Styles Foil:
     card_count: 5
     deck:
@@ -3381,7 +3210,7 @@ products:
     - name: Dreaming Darkly
       set: sld
     pack:
-    - code: deceptive-districts
+    - code: bonus-dreaming-darkly
       set: sld
   Secret Lair Drop Dreaming Darkly Foil:
     card_count: 4
@@ -3389,7 +3218,7 @@ products:
     - name: Dreaming Darkly Foil Edition
       set: sld
     pack:
-    - code: deceptive-districts
+    - code: bonus-dreaming-darkly
       set: sld
   Secret Lair Drop Dungeons & Dragons Black Lights & Dark Dungeons:
     card:
@@ -3529,65 +3358,38 @@ products:
     deck:
     - name: 'Dwarf Fortress: Create New World'
       set: sld
-    variable:
-    - card:
-      - name: Crucible of Worlds
-        number: 7162
-        set: sld
-      chance: 99
-    - card:
-      - name: Glorious End
-        number: 7161
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-dwarf-fortress-create-new-world-nonfoil
+      set: sld
   Secret Lair Drop Dwarf Fortress Create New World Foil:
     card_count: 5
     deck:
     - name: 'Dwarf Fortress: Create New World Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Crucible of Worlds
-        number: 7162
-        set: sld
-      chance: 99
-    - card:
-      - foil: true
-        name: Glorious End
-        number: 7161
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-dwarf-fortress-create-new-world-foil
+      set: sld
   Secret Lair Drop EVERYTHING IS ON FIRE:
     card_count: 5
     deck:
     - name: EVERYTHING IS ON FIRE
       set: sld
-    pack:
-    - code: zippy-zombies-may
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop EVERYTHING IS ON FIRE Rainbow Foil:
     card_count: 5
     deck:
     - name: EVERYTHING IS ON FIRE Foil Edition
       set: sld
-    pack:
-    - code: zippy-zombies-may
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop EVERYTHING IS ON FIRE Raised Foil:
     card_count: 5
     deck:
     - name: EVERYTHING IS ON FIRE Raised Foil Edition
       set: sld
-    pack:
-    - code: zippy-zombies-may
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Eldraine Wonderland:
     card_count: 5
     deck:
@@ -3895,39 +3697,17 @@ products:
     deck:
     - name: 'Featuring: Deathburger'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Seven Dwarves
-        number: 818
-        set: sld
-      chance: 1
-    - chance: 99
-      pack:
-      - code: deceptive-districts
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-featuring-deathburger
+      set: sld
   Secret Lair Drop Featuring Deathburger Galaxy Foil:
     card_count: 5
     deck:
     - name: 'Featuring: Deathburger Galaxy Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Seven Dwarves
-        number: 818
-        set: sld
-      chance: 1
-    - chance: 99
-      pack:
-      - code: deceptive-districts
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-featuring-deathburger
+      set: sld
   Secret Lair Drop Featuring Gary Baseman:
     card_count: 5
     deck:
@@ -3961,83 +3741,31 @@ products:
     deck:
     - name: 'Featuring: Imiri Sakabashira'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Consecrated Sphinx
-        number: 7023
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Resculpt
-        number: 7024
-        set: sld
-      chance: 119
-    - card:
-      - foil: true
-        name: Mirage Mirror
-        number: 7025
-        set: sld
-      chance: 70
-    - card:
-      - foil: true
-        name: Scion of Draco
-        number: 7026
-        set: sld
-      chance: 10
-    variable_mode:
-      count: 1
-      weight: 200
+    pack:
+    - code: bonus-featuring-imiri-sakabashira
+      set: sld
   Secret Lair Drop Featuring Imiri Sakabashira Rainbow Foil:
     card_count: 4
     deck:
     - name: 'Featuring: Imiri Sakabashira Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Consecrated Sphinx
-        number: 7023
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Resculpt
-        number: 7024
-        set: sld
-      chance: 119
-    - card:
-      - foil: true
-        name: Mirage Mirror
-        number: 7025
-        set: sld
-      chance: 70
-    - card:
-      - foil: true
-        name: Scion of Draco
-        number: 7026
-        set: sld
-      chance: 10
-    variable_mode:
-      count: 1
-      weight: 200
+    pack:
+    - code: bonus-featuring-imiri-sakabashira
+      set: sld
   Secret Lair Drop Featuring Jay Howell:
     card_count: 5
     deck:
     - name: 'Featuring: Jay Howell'
       set: sld
-    pack:
-    - code: zippy-zombies-may
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Featuring Jay Howell Rainbow Foil:
     card_count: 5
     deck:
     - name: 'Featuring: Jay Howell Foil Edition'
       set: sld
-    pack:
-    - code: zippy-zombies-may
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Featuring Julie Bell:
     card_count: 5
     deck:
@@ -4098,7 +3826,7 @@ products:
     - name: 'Featuring: Luke Pearson'
       set: sld
     pack:
-    - code: zippy-zombies-feb
+    - code: bonus-featuring-luke-pearson
       set: sld
   Secret Lair Drop Featuring Luke Pearson Rainbow Foil:
     card_count: 4
@@ -4106,24 +3834,22 @@ products:
     - name: 'Featuring: Luke Pearson Foil Edition'
       set: sld
     pack:
-    - code: zippy-zombies-feb
+    - code: bonus-featuring-luke-pearson
       set: sld
   Secret Lair Drop Featuring Mitsuhiro Arita:
     card_count: 4
     deck:
     - name: 'Featuring: Mitsuhiro Arita'
       set: sld
-    pack:
-    - code: zippy-zombies-feb
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Featuring Mitsuhiro Arita Rainbow Foil:
     card_count: 4
     deck:
     - name: 'Featuring: Mitsuhiro Arita Foil Edition'
       set: sld
-    pack:
-    - code: zippy-zombies-feb
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Featuring Not a Wolf:
     card:
     - name: Immerwolf
@@ -4349,17 +4075,15 @@ products:
     deck:
     - name: Garden Buds
       set: sld
-    pack:
-    - code: zippy-zombies-mar
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Garden Buds Rainbow Foil:
     card_count: 5
     deck:
     - name: Garden Buds Foil Edition
       set: sld
-    pack:
-    - code: zippy-zombies-mar
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Garfield As Intended:
     card:
     - name: Clone
@@ -4663,7 +4387,7 @@ products:
     - name: Inked
       set: sld
     pack:
-    - code: handsome-humans-may
+    - code: bonus-inked
       set: sld
   Secret Lair Drop Inked Foil:
     card_count: 5
@@ -4671,7 +4395,7 @@ products:
     - name: Inked Foil Edition
       set: sld
     pack:
-    - code: handsome-humans-may
+    - code: bonus-inked
       set: sld
   Secret Lair Drop International Womens Day 2020:
     card_count: 5
@@ -4968,31 +4692,34 @@ products:
     deck:
     - name: 'Lofi Girl: Beats to Cast To'
       set: sld
-    other:
-    - name: Bonus card unknown
+    card:
+    - name: Command Tower
+      number: 7191
+      set: sld
   Secret Lair Drop Lofi Girl Beats to Cast To Foil:
     card_count: 5
     deck:
     - name: 'Lofi Girl: Beats to Cast To Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    card:
+    - foil: true
+      name: Command Tower
+      number: 7191
+      set: sld
   Secret Lair Drop Lorwyn Lightboxes:
     card_count: 5
     deck:
     - name: Lorwyn Lightboxes
       set: sld
-    pack:
-    - code: zippy-zombies-feb
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Lorwyn Lightboxes Rainbow Foil:
     card_count: 5
     deck:
     - name: Lorwyn Lightboxes Foil Edition
       set: sld
-    pack:
-    - code: zippy-zombies-feb
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Magic The Baseballing:
     card_count: 5
     deck:
@@ -5012,167 +4739,127 @@ products:
     deck:
     - name: 'MagicCon: the Gathering'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Seven Dwarves
-        number: 818
-        set: sld
-      chance: 1
-    - chance: 99
-      pack:
-      - code: deceptive-districts
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-magiccon-the-gathering
+      set: sld
   Secret Lair Drop Mahō Gakuin Seishun Hakusho — 魔法学院青春白書:
     card_count: 5
     deck:
     - name: Mahō Gakuin Seishun Hakusho — 魔法学院青春白書
       set: sld
-    pack:
-    - code: handsome-humans-may
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Mahō Gakuin Seishun Hakusho — 魔法学院青春白書 Foil:
     card_count: 5
     deck:
     - name: Mahō Gakuin Seishun Hakusho — 魔法学院青春白書 Foil Edition
       set: sld
-    pack:
-    - code: handsome-humans-may
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Marvel Dan Hipp:
     card_count: 5
     deck:
     - name: 'Marvel: Dan Hipp'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-marvel-dan-hipp
+      set: sld
   Secret Lair Drop Marvel Dan Hipp Foil:
     card_count: 5
     deck:
     - name: 'Marvel: Dan Hipp Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-marvel-dan-hipp
+      set: sld
   Secret Lair Drop Marvel Earths Mightiest Pets:
     card_count: 6
     deck:
     - name: 'Marvel: Earth''s Mightiest Pets'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-marvel-earths-mightiest-pets
+      set: sld
   Secret Lair Drop Marvel Earths Mightiest Pets Foil:
     card_count: 6
     deck:
     - name: 'Marvel: Earth''s Mightiest Pets Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-marvel-earths-mightiest-pets
+      set: sld
   Secret Lair Drop Marvel Spinner Rack Specials:
     card_count: 5
     deck:
     - name: 'Marvel: Spinner Rack Specials'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-marvel-spinner-rack-specials
+      set: sld
   Secret Lair Drop Marvel Spinner Rack Specials Foil:
     card_count: 5
     deck:
     - name: 'Marvel: Spinner Rack Specials Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-marvel-spinner-rack-specials
+      set: sld
   Secret Lair Drop Marvel True Believers in Love:
     card_count: 6
     deck:
     - name: 'Marvel: True Believers in Love'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-marvel-true-believers-in-love
+      set: sld
   Secret Lair Drop Marvel True Believers in Love Foil:
     card_count: 6
     deck:
     - name: 'Marvel: True Believers in Love Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-marvel-true-believers-in-love
+      set: sld
   Secret Lair Drop Marvels Deadpool I Fixed It (Youre Welcome):
     card_count: 5
     deck:
     - name: 'Marvel''s Deadpool: I Fixed It (You''re Welcome)'
       set: sld
-    variable:
-    - card:
-      - name: Mountain
-        number: 7126
-        set: sld
-      chance: 99
-    - card:
-      - name: Deadpool, Trading Card
-        number: 7127
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-marvels-deadpool-i-fixed-it-youre-welcome-nonfoil
+      set: sld
   Secret Lair Drop Marvels Deadpool I Fixed It (Youre Welcome) Foil:
     card_count: 5
     deck:
     - name: 'Marvel''s Deadpool: I Fixed It (You''re Welcome) Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Mountain
-        number: 7126
-        set: sld
-      chance: 99
-    - card:
-      - foil: true
-        name: Deadpool, Trading Card
-        number: 7127
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-marvels-deadpool-i-fixed-it-youre-welcome-foil
+      set: sld
   Secret Lair Drop Marvels Deadpool I Fixed It (Youre Welcome) Pool Party Dazzle Foil:
     card_count: 5
     deck:
     - name: 'Marvel''s Deadpool: I Fixed It (You''re Welcome) Pool Party Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Mountain
-        number: 7128
-        set: sld
-      chance: 99
-    - card:
-      - foil: true
-        name: Deadpool, Trading Card
-        number: 7129
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-marvels-deadpool-i-fixed-it-youre-welcome-pool-party-foil
+      set: sld
   Secret Lair Drop Marvels Hulk SMASH!:
     card_count: 5
     deck:
     - name: 'Marvel''s Hulk: SMASH!'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-marvels-hulk-smash
+      set: sld
   Secret Lair Drop Marvels Hulk SMASH! Foil:
     card_count: 5
     deck:
     - name: 'Marvel''s Hulk: SMASH! Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-marvels-hulk-smash
+      set: sld
   Secret Lair Drop Masters of the Universe Allies and Enemies of Eternia:
     card_count: 6
     deck:
@@ -5499,17 +5186,15 @@ products:
     deck:
     - name: Notebook Genius
       set: sld
-    pack:
-    - code: handsome-humans-may
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Notebook Genius Foil:
     card_count: 4
     deck:
     - name: Notebook Genius Foil Edition
       set: sld
-    pack:
-    - code: handsome-humans-may
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Now on VHS:
     card_count: 4
     deck:
@@ -5561,33 +5246,29 @@ products:
     deck:
     - name: Oishii! Tokens オイシイ！ トークン
       set: sld
-    pack:
-    - code: zippy-zombies-mar
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Oishii Tokens Rainbow Foil:
     card_count: 0
     deck:
     - name: Oishii! Tokens オイシイ！ トークン Foil Edition
       set: sld
-    pack:
-    - code: zippy-zombies-mar
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Omens of Chaos:
     card_count: 5
     deck:
     - name: Omens of Chaos
       set: sld
-    pack:
-    - code: handsome-humans-may
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Omens of Chaos Foil:
     card_count: 5
     deck:
     - name: Omens of Chaos Foil Edition
       set: sld
-    pack:
-    - code: handsome-humans-may
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Ornithological Studies:
     card_count: 5
     deck:
@@ -5725,17 +5406,15 @@ products:
     deck:
     - name: Pick 'em & Stick 'em
       set: sld
-    pack:
-    - code: zippy-zombies-mar
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Pick Em and Stick Em Rainbow Foil:
     card_count: 9
     deck:
     - name: Pick 'em & Stick 'em Foil Edition
       set: sld
-    pack:
-    - code: zippy-zombies-mar
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Pictures of the Floating World:
     card_count: 5
     deck:
@@ -5842,15 +5521,17 @@ products:
     deck:
     - name: Prints Charming
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-prints-charming
+      set: sld
   Secret Lair Drop Prints Charming Foil:
     card_count: 4
     deck:
     - name: Prints Charming Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-prints-charming
+      set: sld
   Secret Lair Drop Prints of Darkness:
     card_count: 5
     deck:
@@ -5996,17 +5677,15 @@ products:
     deck:
     - name: 'Secret Lair High: Class of ''87'
       set: sld
-    pack:
-    - code: zippy-zombies-mar
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Secret Lair High Class of 87 Rainbow Foil:
     card_count: 4
     deck:
     - name: 'Secret Lair High: Class of ''87 Foil Edition'
       set: sld
-    pack:
-    - code: zippy-zombies-mar
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Secret Lair Promo Cryptic Command:
     card:
     - foil: true
@@ -6430,115 +6109,49 @@ products:
     deck:
     - name: 'FINAL FANTASY: Game Over'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Feed the Swarm
-        number: 7001
-        set: sld
-      chance: 299
-    - chance: 1
-      pack:
-      - code: fin-elementals
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 300
+    pack:
+    - code: bonus-secret-lair-x-final-fantasy-game-over
+      set: sld
   Secret Lair Drop Secret Lair x FINAL FANTASY Game Over Rainbow Foil:
     card_count: 5
     deck:
     - name: 'FINAL FANTASY: Game Over Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Feed the Swarm
-        number: 7001
-        set: sld
-      chance: 299
-    - chance: 1
-      pack:
-      - code: fin-elementals
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 300
+    pack:
+    - code: bonus-secret-lair-x-final-fantasy-game-over
+      set: sld
   Secret Lair Drop Secret Lair x FINAL FANTASY Grimoire:
     card_count: 5
     deck:
     - name: 'FINAL FANTASY: Grimoire'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Silence
-        number: 7003
-        set: sld
-      chance: 299
-    - chance: 1
-      pack:
-      - code: fin-elementals
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 300
+    pack:
+    - code: bonus-secret-lair-x-final-fantasy-grimoire
+      set: sld
   Secret Lair Drop Secret Lair x FINAL FANTASY Grimoire Rainbow Foil:
     card_count: 5
     deck:
     - name: 'FINAL FANTASY: Grimoire Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Silence
-        number: 7003
-        set: sld
-      chance: 299
-    - chance: 1
-      pack:
-      - code: fin-elementals
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 300
+    pack:
+    - code: bonus-secret-lair-x-final-fantasy-grimoire
+      set: sld
   Secret Lair Drop Secret Lair x FINAL FANTASY Weapons:
     card_count: 5
     deck:
     - name: 'FINAL FANTASY: Weapons'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Forge Anew
-        number: 7002
-        set: sld
-      chance: 299
-    - chance: 1
-      pack:
-      - code: fin-elementals
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 300
+    pack:
+    - code: bonus-secret-lair-x-final-fantasy-weapons
+      set: sld
   Secret Lair Drop Secret Lair x FINAL FANTASY Weapons Rainbow Foil:
     card_count: 5
     deck:
     - name: 'FINAL FANTASY: Weapons Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Forge Anew
-        number: 7002
-        set: sld
-      chance: 299
-    - chance: 1
-      pack:
-      - code: fin-elementals
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 300
+    pack:
+    - code: bonus-secret-lair-x-final-fantasy-weapons
+      set: sld
   Secret Lair Drop Secret Lair x Fallout Points of Interest:
     card_count: 5
     deck:
@@ -6592,39 +6205,17 @@ products:
     deck:
     - name: Flower Power
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Seven Dwarves
-        number: 819
-        set: sld
-      chance: 1
-    - chance: 99
-      pack:
-      - code: deceptive-districts
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-secret-lair-x-flower-power
+      set: sld
   Secret Lair Drop Secret Lair x Flower Power Foil:
     card_count: 5
     deck:
     - name: Flower Power Foil Edition
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Seven Dwarves
-        number: 819
-        set: sld
-      chance: 1
-    - chance: 99
-      pack:
-      - code: deceptive-districts
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 100
+    pack:
+    - code: bonus-secret-lair-x-flower-power
+      set: sld
   Secret Lair Drop Secret Lair x Fortnite:
     card:
     - name: Pyrite Spellbomb
@@ -6769,41 +6360,17 @@ products:
     deck:
     - name: 'Hatsune Miku: Winter Diva'
       set: sld
-    variable:
-    - card:
-      - name: Beloved Princess
-        number: 804
-        set: sld
-      chance: 199
-    - card:
-      - name: Snapcaster Mage
-        number: 808
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 200
+    pack:
+    - code: bonus-secret-lair-x-hatsune-miku-winter-diva-english-nonfoil
+      set: sld
   Secret Lair Drop Secret Lair x Hatsune Miku Winter Diva English Rainbow Foil:
     card_count: 6
     deck:
     - name: 'Hatsune Miku: Winter Diva Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Beloved Princess
-        number: 804
-        set: sld
-      chance: 399
-    - card:
-      - foil: true
-        name: Snapcaster Mage
-        number: 808
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 400
+    pack:
+    - code: bonus-secret-lair-x-hatsune-miku-winter-diva-english-foil
+      set: sld
   Secret Lair Drop Secret Lair x Hatsune Miku Winter Diva Japanese:
     copy: Secret Lair Drop Secret Lair x Hatsune Miku Winter Diva English
   Secret Lair Drop Secret Lair x Hatsune Miku Winter Diva Japanese Rainbow Foil:
@@ -6947,43 +6514,17 @@ products:
     deck:
     - name: Marvel's Deadpool
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Harmless Offering
-        number: 868
-        set: sld
-      chance: 299
-    - card:
-      - foil: true
-        name: Blacker Lotus
-        number: 869
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 300
+    pack:
+    - code: bonus-secret-lair-x-marvels-deadpool-april-pools-day
+      set: sld
   Secret Lair Drop Secret Lair x Marvels Deadpool April Pools Day Rainbow Foil:
     card_count: 5
     deck:
     - name: Marvel's Deadpool Foil Edition
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Harmless Offering
-        number: 868
-        set: sld
-      chance: 299
-    - card:
-      - foil: true
-        name: Blacker Lotus
-        number: 869
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 300
+    pack:
+    - code: bonus-secret-lair-x-marvels-deadpool-april-pools-day
+      set: sld
   Secret Lair Drop Secret Lair x Marvels Iron Man:
     card_count: 5
     deck:
@@ -7006,7 +6547,7 @@ products:
     - name: 'Marvel''s Spider-Man: Daily Bugle Breaking News'
       set: sld
     pack:
-    - code: spider-man
+    - code: bonus-secret-lair-x-marvels-spider-man-daily-bugle-breaking-news
       set: sld
   Secret Lair Drop Secret Lair x Marvels Spider-Man Daily Bugle Breaking News Foil:
     card_count: 5
@@ -7014,7 +6555,7 @@ products:
     - name: 'Marvel''s Spider-Man: Daily Bugle Breaking News Foil Edition'
       set: sld
     pack:
-    - code: spider-man
+    - code: bonus-secret-lair-x-marvels-spider-man-daily-bugle-breaking-news
       set: sld
   Secret Lair Drop Secret Lair x Marvels Spider-Man Heroic Deeds:
     card_count: 5
@@ -7022,7 +6563,7 @@ products:
     - name: 'Marvel''s Spider-Man: Heroic Deeds'
       set: sld
     pack:
-    - code: spider-man
+    - code: bonus-secret-lair-x-marvels-spider-man-heroic-deeds
       set: sld
   Secret Lair Drop Secret Lair x Marvels Spider-Man Heroic Deeds Foil:
     card_count: 5
@@ -7030,7 +6571,7 @@ products:
     - name: 'Marvel''s Spider-Man: Heroic Deeds Foil Edition'
       set: sld
     pack:
-    - code: spider-man
+    - code: bonus-secret-lair-x-marvels-spider-man-heroic-deeds
       set: sld
   Secret Lair Drop Secret Lair x Marvels Spider-Man Mana Symbiote Raised Foil:
     card_count: 10
@@ -7038,7 +6579,7 @@ products:
     - name: 'Marvel''s Spider-Man: Mana Symbiote Raised Foil Edition'
       set: sld
     pack:
-    - code: spider-man
+    - code: bonus-secret-lair-x-marvels-spider-man-mana-symbiote
       set: sld
   Secret Lair Drop Secret Lair x Marvels Spider-Man Venom Unleashed Colors:
     card_count: 5
@@ -7046,7 +6587,7 @@ products:
     - name: 'Marvel''s Spider-Man: Venom Unleashed (Colors)'
       set: sld
     pack:
-    - code: spider-man
+    - code: bonus-secret-lair-x-marvels-spider-man-venom-unleashed-colors
       set: sld
   Secret Lair Drop Secret Lair x Marvels Spider-Man Venom Unleashed Colors Foil:
     card_count: 5
@@ -7054,7 +6595,7 @@ products:
     - name: 'Marvel''s Spider-Man: Venom Unleashed (Colors) Foil Edition'
       set: sld
     pack:
-    - code: spider-man
+    - code: bonus-secret-lair-x-marvels-spider-man-venom-unleashed-colors
       set: sld
   Secret Lair Drop Secret Lair x Marvels Spider-Man Venom Unleashed Inks:
     card_count: 5
@@ -7062,7 +6603,7 @@ products:
     - name: 'Marvel''s Spider-Man: Venom Unleashed (Inks)'
       set: sld
     pack:
-    - code: spider-man
+    - code: bonus-secret-lair-x-marvels-spider-man-venom-unleashed-inks
       set: sld
   Secret Lair Drop Secret Lair x Marvels Spider-Man Venom Unleashed Inks Foil:
     card_count: 5
@@ -7070,7 +6611,7 @@ products:
     - name: 'Marvel''s Spider-Man: Venom Unleashed (Inks) Foil Edition'
       set: sld
     pack:
-    - code: spider-man
+    - code: bonus-secret-lair-x-marvels-spider-man-venom-unleashed-inks
       set: sld
   Secret Lair Drop Secret Lair x Marvels Spider-Man Villainous Plots:
     card_count: 5
@@ -7078,7 +6619,7 @@ products:
     - name: 'Marvel''s Spider-Man: Villainous Plots'
       set: sld
     pack:
-    - code: spider-man
+    - code: bonus-secret-lair-x-marvels-spider-man-villainous-plots
       set: sld
   Secret Lair Drop Secret Lair x Marvels Spider-Man Villainous Plots Foil:
     card_count: 5
@@ -7086,7 +6627,7 @@ products:
     - name: 'Marvel''s Spider-Man: Villainous Plots Foil Edition'
       set: sld
     pack:
-    - code: spider-man
+    - code: bonus-secret-lair-x-marvels-spider-man-villainous-plots
       set: sld
   Secret Lair Drop Secret Lair x Marvels Storm:
     card_count: 5
@@ -7237,115 +6778,49 @@ products:
     deck:
     - name: 'Sonic: Chasing Adventure'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Command Tower
-        number: 7030
-        set: sld
-      chance: 299
-    - chance: 1
-      pack:
-      - code: chaos-emeralds
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 300
+    pack:
+    - code: bonus-secret-lair-x-sonic-the-hedgehog-chasing-adventure
+      set: sld
   Secret Lair Drop Secret Lair x Sonic the Hedgehog Chasing Adventure Rainbow Foil:
     card_count: 6
     deck:
     - name: 'Sonic: Chasing Adventure Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Command Tower
-        number: 7030
-        set: sld
-      chance: 299
-    - chance: 1
-      pack:
-      - code: chaos-emeralds
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 300
+    pack:
+    - code: bonus-secret-lair-x-sonic-the-hedgehog-chasing-adventure
+      set: sld
   Secret Lair Drop Secret Lair x Sonic the Hedgehog Friends and Foes:
     card_count: 7
     deck:
     - name: 'Sonic: Friends & Foes'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Command Tower
-        number: 7030
-        set: sld
-      chance: 299
-    - chance: 1
-      pack:
-      - code: chaos-emeralds
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 300
+    pack:
+    - code: bonus-secret-lair-x-sonic-the-hedgehog-friends-and-foes
+      set: sld
   Secret Lair Drop Secret Lair x Sonic the Hedgehog Friends and Foes Rainbow Foil:
     card_count: 7
     deck:
     - name: 'Sonic: Friends & Foes Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Command Tower
-        number: 7030
-        set: sld
-      chance: 299
-    - chance: 1
-      pack:
-      - code: chaos-emeralds
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 300
+    pack:
+    - code: bonus-secret-lair-x-sonic-the-hedgehog-friends-and-foes
+      set: sld
   Secret Lair Drop Secret Lair x Sonic the Hedgehog Turbo Gear:
     card_count: 6
     deck:
     - name: 'Sonic: Turbo Gear'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Command Tower
-        number: 7030
-        set: sld
-      chance: 299
-    - chance: 1
-      pack:
-      - code: chaos-emeralds
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 300
+    pack:
+    - code: bonus-secret-lair-x-sonic-the-hedgehog-turbo-gear
+      set: sld
   Secret Lair Drop Secret Lair x Sonic the Hedgehog Turbo Gear Rainbow Foil:
     card_count: 6
     deck:
     - name: 'Sonic: Turbo Gear Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Command Tower
-        number: 7030
-        set: sld
-      chance: 299
-    - chance: 1
-      pack:
-      - code: chaos-emeralds
-        set: sld
-    variable_mode:
-      count: 1
-      weight: 300
+    pack:
+    - code: bonus-secret-lair-x-sonic-the-hedgehog-turbo-gear
+      set: sld
   Secret Lair Drop Secret Lair x Stranger Things:
     card:
     - name: Havengul Laboratory
@@ -7848,7 +7323,7 @@ products:
     - name: Slay the Day
       set: sld
     pack:
-    - code: zippy-zombies-may
+    - code: bonus-slay-the-day
       set: sld
   Secret Lair Drop So Salty:
     card_count: 5
@@ -7856,7 +7331,7 @@ products:
     - name: So Salty
       set: sld
     pack:
-    - code: zippy-zombies-mar
+    - code: bonus-so-salty
       set: sld
   Secret Lair Drop Special Guest Fiona Staples:
     card_count: 5
@@ -8031,199 +7506,49 @@ products:
     deck:
     - name: 'SpongeBob SquarePants: Internet Sensation'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Command Tower
-        number: 7012
-        set: sld
-      chance: 171
-    - card:
-      - foil: true
-        name: Smothering Tithe
-        number: 7009
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Counterspell
-        number: 7010
-        set: sld
-      chance: 8
-    - card:
-      - foil: true
-        name: Dismember
-        number: 7011
-        set: sld
-      chance: 20
-    variable_mode:
-      count: 1
-      weight: 200
+    pack:
+    - code: bonus-spongebob-squarepants-internet-sensation
+      set: sld
   Secret Lair Drop Spongebob Squarepants Internet Sensation Rainbow Foil:
     card_count: 5
     deck:
     - name: 'SpongeBob SquarePants: Internet Sensation Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Command Tower
-        number: 7012
-        set: sld
-      chance: 171
-    - card:
-      - foil: true
-        name: Smothering Tithe
-        number: 7009
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Counterspell
-        number: 7010
-        set: sld
-      chance: 8
-    - card:
-      - foil: true
-        name: Dismember
-        number: 7011
-        set: sld
-      chance: 20
-    variable_mode:
-      count: 1
-      weight: 200
+    pack:
+    - code: bonus-spongebob-squarepants-internet-sensation
+      set: sld
   Secret Lair Drop Spongebob Squarepants Lands Under the Sea:
     card_count: 10
     deck:
     - name: 'SpongeBob SquarePants: Lands Under the Sea'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Command Tower
-        number: 7012
-        set: sld
-      chance: 171
-    - card:
-      - foil: true
-        name: Smothering Tithe
-        number: 7009
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Counterspell
-        number: 7010
-        set: sld
-      chance: 8
-    - card:
-      - foil: true
-        name: Dismember
-        number: 7011
-        set: sld
-      chance: 20
-    variable_mode:
-      count: 1
-      weight: 200
+    pack:
+    - code: bonus-spongebob-squarepants-lands-under-the-sea
+      set: sld
   Secret Lair Drop Spongebob Squarepants Lands Under the Sea Rainbow Foil:
     card_count: 10
     deck:
     - name: 'SpongeBob SquarePants: Lands Under the Sea Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Command Tower
-        number: 7012
-        set: sld
-      chance: 171
-    - card:
-      - foil: true
-        name: Smothering Tithe
-        number: 7009
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Counterspell
-        number: 7010
-        set: sld
-      chance: 8
-    - card:
-      - foil: true
-        name: Dismember
-        number: 7011
-        set: sld
-      chance: 20
-    variable_mode:
-      count: 1
-      weight: 200
+    pack:
+    - code: bonus-spongebob-squarepants-lands-under-the-sea
+      set: sld
   Secret Lair Drop Spongebob Squarepants Legends of Bikini Bottom:
     card_count: 7
     deck:
     - name: 'SpongeBob SquarePants: Legends of Bikini Bottom'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Command Tower
-        number: 7012
-        set: sld
-      chance: 171
-    - card:
-      - foil: true
-        name: Smothering Tithe
-        number: 7009
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Counterspell
-        number: 7010
-        set: sld
-      chance: 8
-    - card:
-      - foil: true
-        name: Dismember
-        number: 7011
-        set: sld
-      chance: 20
-    variable_mode:
-      count: 1
-      weight: 200
+    pack:
+    - code: bonus-spongebob-squarepants-legends-of-bikini-bottom
+      set: sld
   Secret Lair Drop Spongebob Squarepants Legends of Bikini Bottom Rainbow Foil:
     card_count: 7
     deck:
     - name: 'SpongeBob SquarePants: Legends of Bikini Bottom Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Command Tower
-        number: 7012
-        set: sld
-      chance: 171
-    - card:
-      - foil: true
-        name: Smothering Tithe
-        number: 7009
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Counterspell
-        number: 7010
-        set: sld
-      chance: 8
-    - card:
-      - foil: true
-        name: Dismember
-        number: 7011
-        set: sld
-      chance: 20
-    variable_mode:
-      count: 1
-      weight: 200
+    pack:
+    - code: bonus-spongebob-squarepants-legends-of-bikini-bottom
+      set: sld
   Secret Lair Drop Ssssssnakessssss:
     card_count: 5
     deck:
@@ -8245,43 +7570,58 @@ products:
     deck:
     - name: 'Stardew Valley: A Flicker in the Deep'
       set: sld
-    other:
-    - name: Bonus card unknown
+    card:
+    - name: Big Score
+      number: 7190
+      set: sld
   Secret Lair Drop Stardew Valley A Flicker in the Deep Foil:
     card_count: 5
     deck:
     - name: 'Stardew Valley: A Flicker in the Deep Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    card:
+    - foil: true
+      name: Big Score
+      number: 7190
+      set: sld
   Secret Lair Drop Stardew Valley Life in Pelican Town:
     card_count: 5
     deck:
     - name: 'Stardew Valley: Life in Pelican Town'
       set: sld
-    other:
-    - name: Bonus card unknown
+    card:
+    - name: Sylvan Caryatid
+      number: 7189
+      set: sld
   Secret Lair Drop Stardew Valley Life in Pelican Town Foil:
     card_count: 5
     deck:
     - name: 'Stardew Valley: Life in Pelican Town Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    card:
+    - foil: true
+      name: Sylvan Caryatid
+      number: 7189
+      set: sld
   Secret Lair Drop Stardew Valley Welcome to Stardew Valley:
     card_count: 7
     deck:
     - name: 'Stardew Valley: Welcome to Stardew Valley'
       set: sld
-    other:
-    - name: Bonus card unknown
+    card:
+    - name: Academy Manufactor
+      number: 7188
+      set: sld
   Secret Lair Drop Stardew Valley Welcome to Stardew Valley Foil:
     card_count: 7
     deck:
     - name: 'Stardew Valley: Welcome to Stardew Valley Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    card:
+    - foil: true
+      name: Academy Manufactor
+      number: 7188
+      set: sld
   Secret Lair Drop Tales of the Time Stoppers:
     card_count: 4
     deck:
@@ -8303,43 +7643,49 @@ products:
     deck:
     - name: 'Teenage Mutant Ninja Turtles: The Last Ronin'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-teenage-mutant-ninja-turtles-the-last-ronin
+      set: sld
   Secret Lair Drop Teenage Mutant Ninja Turtles The Last Ronin Foil:
     card_count: 5
     deck:
     - name: 'Teenage Mutant Ninja Turtles: The Last Ronin Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-teenage-mutant-ninja-turtles-the-last-ronin
+      set: sld
   Secret Lair Drop Teenage Mutant Ninja Turtles The Mighty Mutanimals:
     card_count: 5
     deck:
     - name: 'Teenage Mutant Ninja Turtles: The Mighty Mutanimals'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-teenage-mutant-ninja-turtles-the-mighty-mutanimals
+      set: sld
   Secret Lair Drop Teenage Mutant Ninja Turtles The Mighty Mutanimals Foil:
     card_count: 5
     deck:
     - name: 'Teenage Mutant Ninja Turtles: The Mighty Mutanimals Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-teenage-mutant-ninja-turtles-the-mighty-mutanimals
+      set: sld
   Secret Lair Drop Teenage Mutant Ninja Turtles VHS Villains:
     card_count: 5
     deck:
     - name: 'Teenage Mutant Ninja Turtles: VHS Villains'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-teenage-mutant-ninja-turtles-vhs-villains
+      set: sld
   Secret Lair Drop Teenage Mutant Ninja Turtles VHS Villains Foil:
     card_count: 5
     deck:
     - name: 'Teenage Mutant Ninja Turtles: VHS Villains Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-teenage-mutant-ninja-turtles-vhs-villains
+      set: sld
   Secret Lair Drop Teferis Time Trouble:
     card_count: 3
     deck:
@@ -8396,17 +7742,15 @@ products:
     deck:
     - name: 'The Art of Frank Frazetta: The Second Exhibition'
       set: sld
-    pack:
-    - code: zippy-zombies-jun
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop The Art of Frank Frazetta The Second Exhibition Rainbow Foil:
     card_count: 5
     deck:
     - name: 'The Art of Frank Frazetta: The Second Exhibition Foil Edition'
       set: sld
-    pack:
-    - code: zippy-zombies-jun
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop The Beauty of the Beasts:
     card_count: 5
     deck:
@@ -8445,7 +7789,7 @@ products:
     - name: The Eyes Have It
       set: sld
     pack:
-    - code: handsome-humans-may
+    - code: bonus-the-eyes-have-it
       set: sld
   Secret Lair Drop The Eyes Have It Foil:
     card_count: 5
@@ -8453,7 +7797,7 @@ products:
     - name: The Eyes Have It Foil Edition
       set: sld
     pack:
-    - code: handsome-humans-may
+    - code: bonus-the-eyes-have-it
       set: sld
   Secret Lair Drop The Fairest Drop of All Foil:
     card_count: 4
@@ -8516,64 +7860,87 @@ products:
     deck:
     - name: 'The Hobbit: Desolation'
       set: sld
-    other:
-    - name: Bonus card unknown
+    card:
+    - name: Plumb the Forbidden
+      number: 7114
+      set: sld
   Secret Lair Drop The Hobbit Desolation Foil:
     card_count: 5
     deck:
     - name: 'The Hobbit: Desolation Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    card:
+    - foil: true
+      name: Plumb the Forbidden
+      number: 7114
+      set: sld
   Secret Lair Drop The Hobbit He Who Walks Unseen Out of Sight Foil:
     card_count: 5
     deck:
     - name: 'The Hobbit: He Who Walks Unseen Out of Sight Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    card:
+    - foil: true
+      name: Slip Out the Back
+      number: 7115
+      set: sld
   Secret Lair Drop The Hobbit Over the Edge of the Wild:
     card_count: 5
     deck:
     - name: 'The Hobbit: Over the Edge of the Wild'
       set: sld
-    other:
-    - name: Bonus card unknown
+    card:
+    - name: Rogue's Passage
+      number: 7112
+      set: sld
   Secret Lair Drop The Hobbit Over the Edge of the Wild Foil:
     card_count: 5
     deck:
     - name: 'The Hobbit: Over the Edge of the Wild Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    card:
+    - foil: true
+      name: Rogue's Passage
+      number: 7112
+      set: sld
   Secret Lair Drop The Hobbit Second Breakfast and Beyond:
     card_count: 0
     deck:
     - name: 'The Hobbit: Second Breakfast and Beyond'
       set: sld
-    other:
-    - name: Bonus card unknown
+    card:
+    - name: Food Coma
+      number: 7111
+      set: sld
   Secret Lair Drop The Hobbit Second Breakfast and Beyond Foil:
     card_count: 0
     deck:
     - name: 'The Hobbit: Second Breakfast and Beyond Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    card:
+    - foil: true
+      name: Food Coma
+      number: 7111
+      set: sld
   Secret Lair Drop The Hobbit Smaugs Spoils:
     card_count: 5
     deck:
     - name: 'The Hobbit: Smaug''s Spoils'
       set: sld
-    other:
-    - name: Bonus card unknown
+    card:
+    - name: Wayfarer's Bauble
+      number: 7113
+      set: sld
   Secret Lair Drop The Hobbit Smaugs Spoils Foil:
     card_count: 5
     deck:
     - name: 'The Hobbit: Smaug''s Spoils Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    card:
+    - foil: true
+      name: Wayfarer's Bauble
+      number: 7113
+      set: sld
   Secret Lair Drop The Last of Us Part I:
     card:
     - name: Wild Growth
@@ -8631,57 +7998,17 @@ products:
     deck:
     - name: 'The Office: Dwight''s Destiny'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Council's Judgment
-        number: 7041
-        set: sld
-    - card:
-      - foil: true
-        name: Ghostly Prison
-        number: 7042
-        set: sld
-    - card:
-      - foil: true
-        name: Tragic Slip
-        number: 7043
-        set: sld
-    - card:
-      - foil: true
-        name: Seize the Spotlight
-        number: 7044
-        set: sld
-    variable_mode:
-      count: 1
+    pack:
+    - code: bonus-the-office-dwights-destiny
+      set: sld
   Secret Lair Drop The Office Dwights Destiny Foil:
     card_count: 6
     deck:
     - name: 'The Office: Dwight''s Destiny Foil Edition'
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Council's Judgment
-        number: 7041
-        set: sld
-    - card:
-      - foil: true
-        name: Ghostly Prison
-        number: 7042
-        set: sld
-    - card:
-      - foil: true
-        name: Tragic Slip
-        number: 7043
-        set: sld
-    - card:
-      - foil: true
-        name: Seize the Spotlight
-        number: 7044
-        set: sld
-    variable_mode:
-      count: 1
+    pack:
+    - code: bonus-the-office-dwights-destiny
+      set: sld
   Secret Lair Drop The Path Not Traveled:
     card_count: 4
     deck:
@@ -8727,51 +8054,71 @@ products:
     deck:
     - name: 'The Strange Sands: Forest'
       set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop The Strange Sands Forest Rainbow Foil:
     card_count: 10
     deck:
     - name: 'The Strange Sands: Forest Foil Edition'
       set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop The Strange Sands Island:
     card_count: 10
     deck:
     - name: 'The Strange Sands: Island'
       set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop The Strange Sands Island Rainbow Foil:
     card_count: 10
     deck:
     - name: 'The Strange Sands: Island Foil Edition'
       set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop The Strange Sands Mountain:
     card_count: 10
     deck:
     - name: 'The Strange Sands: Mountain'
       set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop The Strange Sands Mountain Rainbow Foil:
     card_count: 10
     deck:
     - name: 'The Strange Sands: Mountain Foil Edition'
       set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop The Strange Sands Plains:
     card_count: 10
     deck:
     - name: 'The Strange Sands: Plains'
       set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop The Strange Sands Plains Rainbow Foil:
     card_count: 10
     deck:
     - name: 'The Strange Sands: Plains Foil Edition'
       set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop The Strange Sands Swamp:
     card_count: 10
     deck:
     - name: 'The Strange Sands: Swamp'
       set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop The Strange Sands Swamp Rainbow Foil:
     card_count: 10
     deck:
     - name: 'The Strange Sands: Swamp Foil Edition'
       set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop The Tokyo Lands:
     card_count: 5
     deck:
@@ -8865,15 +8212,25 @@ products:
     deck:
     - name: Their Magic is Limitless
       set: sld
+    card:
+    - foil: true
+      name: Llanowar Elves
+      number: 7167
+      set: sld
     other:
-    - name: Bonus card unknown
+    - name: Foil Elf Warrior bonus token (variant unknown)
   Secret Lair Drop Their Magic is Limitless Foil:
     card_count: 7
     deck:
     - name: Their Magic is Limitless Foil Edition
       set: sld
+    card:
+    - foil: true
+      name: Llanowar Elves
+      number: 7167
+      set: sld
     other:
-    - name: Bonus card unknown
+    - name: Foil Elf Warrior bonus token (variant unknown)
   Secret Lair Drop Theros Stargazing Vol I Heliod:
     card_count: 3
     deck:
@@ -8919,17 +8276,15 @@ products:
     deck:
     - name: They Grow Up So Fast
       set: sld
-    pack:
-    - code: zippy-zombies-mar
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop They Grow Up So Fast Rainbow Foil:
     card_count: 5
     deck:
     - name: They Grow Up So Fast Foil Edition
       set: sld
-    pack:
-    - code: zippy-zombies-mar
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Through the Wormhole:
     card:
     - name: Solemn Simulacrum
@@ -8968,17 +8323,15 @@ products:
     deck:
     - name: Toby's Journey by Gary Baseman
       set: sld
-    pack:
-    - code: handsome-humans-jun
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Tobys Journey by Gary Baseman Foil:
     card_count: 5
     deck:
     - name: Toby's Journey by Gary Baseman Foil Edition
       set: sld
-    pack:
-    - code: handsome-humans-jun
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Tome of the Astral Sorceress:
     card_count: 4
     deck:
@@ -9006,17 +8359,15 @@ products:
     deck:
     - name: Tragic Romance
       set: sld
-    pack:
-    - code: zippy-zombies-mar
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Tragic Romance Rainbow Foil:
     card_count: 4
     deck:
     - name: Tragic Romance Foil Edition
       set: sld
-    pack:
-    - code: zippy-zombies-mar
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Transformers One Shall Stand One Shall Fall:
     card:
     - name: Command Tower
@@ -9080,7 +8431,7 @@ products:
     - name: Trick or Treat
       set: sld
     pack:
-    - code: deceptive-districts
+    - code: bonus-trick-or-treat
       set: sld
   Secret Lair Drop Trick or Treat Foil:
     card_count: 5
@@ -9088,86 +8439,24 @@ products:
     - name: Trick or Treat Foil Edition
       set: sld
     pack:
-    - code: deceptive-districts
+    - code: bonus-trick-or-treat
       set: sld
   Secret Lair Drop Twisted Toons:
     card_count: 5
     deck:
     - name: Twisted Toons
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Silence
-        number: 881
-        set: sld
-      chance: 2
-    - card:
-      - foil: true
-        name: Winds of Abandon
-        number: 882
-        set: sld
-      chance: 2
-    - card:
-      - foil: true
-        name: Culling the Weak
-        number: 883
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Fatal Push
-        number: 884
-        set: sld
-      chance: 5
-    - card:
-      - foil: true
-        name: Young Wolf
-        number: 885
-        set: sld
-      chance: 5
-    variable_mode:
-      count: 1
-      weight: 15
+    pack:
+    - code: bonus-twisted-toons
+      set: sld
   Secret Lair Drop Twisted Toons Rainbow Foil:
     card_count: 5
     deck:
     - name: Twisted Toons Foil Edition
       set: sld
-    variable:
-    - card:
-      - foil: true
-        name: Silence
-        number: 881
-        set: sld
-      chance: 2
-    - card:
-      - foil: true
-        name: Winds of Abandon
-        number: 882
-        set: sld
-      chance: 2
-    - card:
-      - foil: true
-        name: Culling the Weak
-        number: 883
-        set: sld
-      chance: 1
-    - card:
-      - foil: true
-        name: Fatal Push
-        number: 884
-        set: sld
-      chance: 5
-    - card:
-      - foil: true
-        name: Young Wolf
-        number: 885
-        set: sld
-      chance: 5
-    variable_mode:
-      count: 1
-      weight: 15
+    pack:
+    - code: bonus-twisted-toons
+      set: sld
   Secret Lair Drop Uncharted:
     card:
     - name: Expedition Map
@@ -9223,7 +8512,7 @@ products:
     - name: Viva Las Rakdos
       set: sld
     pack:
-    - code: zippy-zombies-may
+    - code: bonus-viva-las-rakdos
       set: sld
   Secret Lair Drop We Hope You Like Squirrels:
     card_count: 5
@@ -9276,7 +8565,7 @@ products:
     - name: Witch's Familiar
       set: sld
     pack:
-    - code: handsome-humans-jun
+    - code: bonus-witchs-familiar
       set: sld
   Secret Lair Drop Witchs Familiar Foil:
     card_count: 5
@@ -9284,7 +8573,7 @@ products:
     - name: Witch's Familiar Foil Edition
       set: sld
     pack:
-    - code: handsome-humans-jun
+    - code: bonus-witchs-familiar
       set: sld
   Secret Lair Drop Wizards of the Street:
     card_count: 4
@@ -9332,25 +8621,22 @@ products:
     deck:
     - name: vroooOOOMMMMMM!
       set: sld
-    pack:
-    - code: zippy-zombies-may
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop vroooOOOMMMMMM! Rainbow Foil:
     card_count: 5
     deck:
     - name: vroooOOOMMMMMM! Foil Edition
       set: sld
-    pack:
-    - code: zippy-zombies-may
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop vroooOOOMMMMMM! Raised Foil:
     card_count: 5
     deck:
     - name: vroooOOOMMMMMM! Raised Foil Edition
       set: sld
-    pack:
-    - code: zippy-zombies-may
-      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop “explosion sounds”:
     card_count: 5
     deck:
