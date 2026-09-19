@@ -4066,19 +4066,21 @@ products:
     - name: 'Furby: The Oddbodies Foil Edition'
       set: sld
   Secret Lair Drop Garden Buds:
-    card_count: 5
+    card_count: 6
     deck:
     - name: Garden Buds
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-garden-buds
+      set: sld
   Secret Lair Drop Garden Buds Rainbow Foil:
-    card_count: 5
+    card_count: 6
     deck:
     - name: Garden Buds Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-garden-buds
+      set: sld
   Secret Lair Drop Garfield As Intended:
     card:
     - name: Clone
