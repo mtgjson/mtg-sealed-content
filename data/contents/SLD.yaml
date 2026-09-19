@@ -8213,24 +8213,26 @@ products:
       name: Llanowar Elves
       number: 7167
       set: sld
-    card_count: 7
+    card_count: 8
     deck:
     - name: Their Magic is Limitless
       set: sld
-    other:
-    - name: Foil Elf Warrior bonus token (variant unknown)
+    pack:
+    - code: bonus-their-magic-is-limitless-token
+      set: sld
   Secret Lair Drop Their Magic is Limitless Foil:
     card:
     - foil: true
       name: Llanowar Elves
       number: 7167
       set: sld
-    card_count: 7
+    card_count: 8
     deck:
     - name: Their Magic is Limitless Foil Edition
       set: sld
-    other:
-    - name: Foil Elf Warrior bonus token (variant unknown)
+    pack:
+    - code: bonus-their-magic-is-limitless-token
+      set: sld
   Secret Lair Drop Theros Stargazing Vol I Heliod:
     card_count: 3
     deck:
