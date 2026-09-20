@@ -1706,19 +1706,21 @@ products:
     - code: bonus-adventures-of-the-little-witch
       set: sld
   Secret Lair Drop Aether Drifters:
-    card_count: 5
+    card_count: 6
     deck:
     - name: Aether Drifters
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-aether-drifters
+      set: sld
   Secret Lair Drop Aether Drifters Foil:
-    card_count: 5
+    card_count: 6
     deck:
     - name: Aether Drifters Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-aether-drifters
+      set: sld
   Secret Lair Drop Alien Auroras:
     card_count: 5
     deck:
