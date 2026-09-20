@@ -1755,19 +1755,21 @@ products:
     - name: April Fools
       set: sld
   Secret Lair Drop Arcade Racers:
-    card_count: 5
+    card_count: 6
     deck:
     - name: Arcade Racers
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-arcade-racers
+      set: sld
   Secret Lair Drop Arcade Racers Rainbow Foil:
-    card_count: 5
+    card_count: 6
     deck:
     - name: Arcade Racers Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-arcade-racers
+      set: sld
   Secret Lair Drop Artist Series Alayna Danner:
     card:
     - name: Seraph Sanctuary
