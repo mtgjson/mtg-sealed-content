@@ -4708,19 +4708,21 @@ products:
     - name: 'Lofi Girl: Beats to Cast To Foil Edition'
       set: sld
   Secret Lair Drop Lorwyn Lightboxes:
-    card_count: 5
+    card_count: 6
     deck:
     - name: Lorwyn Lightboxes
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-lorwyn-lightboxes
+      set: sld
   Secret Lair Drop Lorwyn Lightboxes Rainbow Foil:
-    card_count: 5
+    card_count: 6
     deck:
     - name: Lorwyn Lightboxes Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-lorwyn-lightboxes
+      set: sld
   Secret Lair Drop Magic The Baseballing:
     card_count: 5
     deck:
