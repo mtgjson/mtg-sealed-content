@@ -3372,26 +3372,29 @@ products:
     - code: bonus-dwarf-fortress-create-new-world-foil
       set: sld
   Secret Lair Drop EVERYTHING IS ON FIRE:
-    card_count: 5
+    card_count: 6
     deck:
     - name: EVERYTHING IS ON FIRE
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-everything-is-on-fire
+      set: sld
   Secret Lair Drop EVERYTHING IS ON FIRE Rainbow Foil:
-    card_count: 5
+    card_count: 6
     deck:
     - name: EVERYTHING IS ON FIRE Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-everything-is-on-fire
+      set: sld
   Secret Lair Drop EVERYTHING IS ON FIRE Raised Foil:
-    card_count: 5
+    card_count: 6
     deck:
     - name: EVERYTHING IS ON FIRE Raised Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-everything-is-on-fire
+      set: sld
   Secret Lair Drop Eldraine Wonderland:
     card_count: 5
     deck:
@@ -3757,19 +3760,21 @@ products:
     - code: bonus-featuring-imiri-sakabashira
       set: sld
   Secret Lair Drop Featuring Jay Howell:
-    card_count: 5
+    card_count: 6
     deck:
     - name: 'Featuring: Jay Howell'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-featuring-jay-howell
+      set: sld
   Secret Lair Drop Featuring Jay Howell Rainbow Foil:
-    card_count: 5
+    card_count: 6
     deck:
     - name: 'Featuring: Jay Howell Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-featuring-jay-howell
+      set: sld
   Secret Lair Drop Featuring Julie Bell:
     card_count: 5
     deck:
