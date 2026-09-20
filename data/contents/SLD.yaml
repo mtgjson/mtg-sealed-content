@@ -8689,26 +8689,29 @@ products:
     - name: sAnS mERcY Foil Edition
       set: sld
   Secret Lair Drop vroooOOOMMMMMM!:
-    card_count: 5
+    card_count: 6
     deck:
     - name: vroooOOOMMMMMM!
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-vroooooommmmmm
+      set: sld
   Secret Lair Drop vroooOOOMMMMMM! Rainbow Foil:
-    card_count: 5
+    card_count: 6
     deck:
     - name: vroooOOOMMMMMM! Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-vroooooommmmmm
+      set: sld
   Secret Lair Drop vroooOOOMMMMMM! Raised Foil:
-    card_count: 5
+    card_count: 6
     deck:
     - name: vroooOOOMMMMMM! Raised Foil Edition
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-vroooooommmmmm
+      set: sld
   Secret Lair Drop “explosion sounds”:
     card_count: 5
     deck:
