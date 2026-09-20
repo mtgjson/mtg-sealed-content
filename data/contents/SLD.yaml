@@ -7742,19 +7742,21 @@ products:
     - name: The Art of Frank Frazetta Foil Edition
       set: sld
   Secret Lair Drop The Art of Frank Frazetta The Second Exhibition:
-    card_count: 5
+    card_count: 6
     deck:
     - name: 'The Art of Frank Frazetta: The Second Exhibition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-frazetta-second-exhibition
+      set: sld
   Secret Lair Drop The Art of Frank Frazetta The Second Exhibition Rainbow Foil:
-    card_count: 5
+    card_count: 6
     deck:
     - name: 'The Art of Frank Frazetta: The Second Exhibition Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-frazetta-second-exhibition
+      set: sld
   Secret Lair Drop The Beauty of the Beasts:
     card_count: 5
     deck:
