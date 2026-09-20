@@ -2754,19 +2754,21 @@ products:
     - code: bonus-city-styles
       set: sld
   Secret Lair Drop City Styles 2 Dressed to Kill:
-    card_count: 5
+    card_count: 6
     deck:
     - name: 'City Styles 2: Dressed to Kill'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-city-styles-2-dressed-to-kill
+      set: sld
   Secret Lair Drop City Styles 2 Dressed to Kill Rainbow Foil:
-    card_count: 5
+    card_count: 6
     deck:
     - name: 'City Styles 2: Dressed to Kill Foil Edition'
       set: sld
-    other:
-    - name: Bonus card unknown
+    pack:
+    - code: bonus-city-styles-2-dressed-to-kill
+      set: sld
   Secret Lair Drop City Styles Foil:
     card_count: 5
     deck:
