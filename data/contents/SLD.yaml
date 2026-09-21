@@ -8254,7 +8254,6 @@ products:
     deck:
     - name: Their Magic is Limitless
       set: sld
-    # TODO: port this variable config to booster model when it supports token mapping
     variable:
     - card:
       - foil: true
@@ -8290,7 +8289,6 @@ products:
     deck:
     - name: Their Magic is Limitless Foil Edition
       set: sld
-    # TODO: port this variable config to booster model when it supports token mapping
     variable:
     - card:
       - foil: true
