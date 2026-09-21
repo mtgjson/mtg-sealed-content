@@ -6,7 +6,17 @@ products:
     - name: Series 1
       set: pvan
     other:
-    - name: Italian Mirage Tournament Deck
-    - name: Traditional Chinese Visions Booster Pack
-    - name: Korean Weatherlight Booster Pack
+    - name: Mirage starter language - Italian
+    - name: Visions booster language - Japanese or Traditional Chinese
+    - name: Weatherlight booster language - Korean
     - name: Vanguard Rules Sheet
+    sealed:
+    - count: 1
+      name: Mirage Starter Deck
+      set: mir
+    - count: 1
+      name: Visions Booster Pack
+      set: vis
+    - count: 1
+      name: Weatherlight Booster Pack
+      set: wth
