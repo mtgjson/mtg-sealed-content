@@ -50,6 +50,11 @@ cardMarket:
     release_date: '2020-11-30'
     subtype: UNKNOWN
 cardTrader:
+  'Secret Lair Drop Series: A Devastation of Dragons':
+    category: UNKNOWN
+    identifiers:
+      cardtraderId: '414189'
+    subtype: UNKNOWN
   'Secret Lair Drop Series: Foils Forever Bundle':
     category: UNKNOWN
     identifiers:
@@ -87,7 +92,17 @@ hareruya:
     identifiers:
       hareruyaId: '78420'
     subtype: UNKNOWN
-miniaturemarket: {}
+miniaturemarket:
+  'MTG: Foundations - Starter Commander Deck - Set of 5 (Preorder)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 019fd2e0c4527304ae8cade84c3db4b6
+    subtype: UNKNOWN
+  'MTG: Reality Fracture - Secret Lair Bundle (Preorder)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 019df9aff622727bbd39c039ab1c2ebf
+    subtype: UNKNOWN
 starcitygames: {}
 tcgplayer: {}
 trollandtoad: {}
