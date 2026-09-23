@@ -420,6 +420,40 @@
     "742fc83d-e6e3-5467-8fc6-284244ee60a0": [
         {
             "identifiers": {
+                "tcgplayerProductId": "719654"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F719654%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "8dc5a01d-0271-51e0-bd2c-423b404802bc"
+                },
+                {
+                    "uuid": "742fc83d-e6e3-5467-8fc6-284244ee60a0"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "719658"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F719658%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "742fc83d-e6e3-5467-8fc6-284244ee60a0"
+                },
+                {
+                    "faceId": "14",
+                    "faceName": "Clue Token",
+                    "tokenType": "Token"
+                }
+            ]
+        },
+        {
+            "identifiers": {
                 "tcgplayerProductId": "690407"
             },
             "purchaseUrls": {
@@ -585,6 +619,58 @@
                 },
                 {
                     "uuid": "8dc5a01d-0271-51e0-bd2c-423b404802bc"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "719654"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F719654%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "8dc5a01d-0271-51e0-bd2c-423b404802bc"
+                },
+                {
+                    "uuid": "742fc83d-e6e3-5467-8fc6-284244ee60a0"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "719656"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F719656%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "faceId": "15",
+                    "faceName": "Standard Cleric",
+                    "tokenType": "Token"
+                },
+                {
+                    "uuid": "8dc5a01d-0271-51e0-bd2c-423b404802bc"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "719657"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F719657%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "8dc5a01d-0271-51e0-bd2c-423b404802bc"
+                },
+                {
+                    "faceId": "14",
+                    "faceName": "Clue Token",
+                    "tokenType": "Token"
                 }
             ]
         },
