@@ -40,6 +40,35 @@ outputs/        # Generated JSON output (do not edit directly)
 
 The main difference between `products` and `contents` is that the first defines the product itself, with a list of identifiers, category (deck, booster, box, etc) and subtype (collector booster, draft booster, prerelease and so on), while the second contains the description of the contents themselves, i.e. what users will find should they open the product (i.e. they will find 6 Booster Boxes in a Case).
 
+## Automated publishing
+
+The daily rebuild, weekly rebuild and manual cache build share a
+[concurrency queue](https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax#concurrency)
+and check out the latest `main` when they start. They publish with normal
+fast-forward pushes. They never force-push or lock the branch against human edits.
+
+If a push is rejected because `main` advanced during generation, the publisher
+checks out the updated source and repeats that workflow's generation and output
+validation. It pushes the rebuilt result to a unique
+`codex/generated/<mode>-<run>-<attempt>` branch and opens a **draft PR**. An empty
+rebuild needs no PR. Authentication, network, branch-protection and generation
+failures fail the run instead of being hidden as successful fallback publication.
+
+Fallback commits record their source revision in a `Generated-from` trailer. The
+`generated-content-freshness` PR job compares it with current `main`; rebasing or
+merging old generated files does not refresh this revision. Review the draft and
+run its checks before marking it ready. If it becomes stale, rerun the originating
+publishing workflow against current `main`, then close the superseded draft.
+
+Repository setup: Actions needs permission to create pull requests (Settings →
+Actions → General → Workflow permissions). The publishing workflows request only
+`contents: write` and `pull-requests: write`. GitHub may require a maintainer to
+[approve checks on PRs opened with `GITHUB_TOKEN`](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow). To enforce freshness at merge time,
+require the freshness check and up-to-date branches in the branch rules; a passing
+check alone cannot prevent `main` advancing afterward. This workflow change does
+not modify repository rules. If PR creation fails, the run fails and the generated
+branch remains available for recovery.
+
 ## Contributing
 
 ### Adding Sealed Product Data
