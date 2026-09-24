@@ -12,3 +12,5 @@ caches/
 .claude/
 # daily workflow: source checkout used to build the decklist JSON
 /preconstructed-decks/
+# daily workflow: ambiguous token faces reported by scripts/tokens/main.py
+/logs/
