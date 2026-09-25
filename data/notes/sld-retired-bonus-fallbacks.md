@@ -1,8 +1,8 @@
 # Retired generic Secret Lair bonus mappings
 
-The shared `jumpstart-lands`, `surprise-slivers`, and `surprise-slivers-early` boosters did not establish drop-specific eligibility. The 36 direct consumers retained in this PR now use `other: Bonus card unknown` for the complete bonus slot. Copies inherit this change. Main decks and card counts are preserved.
+The shared `jumpstart-lands`, `surprise-slivers`, and `surprise-slivers-early` boosters did not establish drop-specific eligibility. The 24 unresolved Astrology variants use `other: Bonus card unknown` for the complete bonus slot. Copies inherit this change. Main decks and card counts are preserved.
 
-The 2023–2024 audit separately handles 34 overlapping consumers. Publish both audits before retiring the shared booster definitions. This inventory covers the other remaining consumers. Reintroduce mappings only through researched drop-specific boosters. Previously listed card numbers below are **unverified research leads from the removed definitions**, not confirmed pools or rates.
+Other researched drops now use per-drop boosters. This inventory covers only the remaining unresolved consumers. Reintroduce mappings only through researched drop-specific boosters. Previously listed card numbers below are **unverified research leads from the removed definitions**, not confirmed pools or rates.
 
 | Product | Retired references / card leads |
 |---|---|
@@ -30,15 +30,3 @@ The 2023–2024 audit separately handles 34 overlapping consumers. Publish both 
 | Secret Lair Drop Astrology Lands Taurus Foil | pack: surprise-slivers-early, pack: blueprint-mk2 |
 | Secret Lair Drop Astrology Lands Virgo | pack: surprise-slivers, pack: blueprint-mk2 |
 | Secret Lair Drop Astrology Lands Virgo Foil | pack: surprise-slivers, pack: blueprint-mk2 |
-| Secret Lair Drop Special Guest Kozyndan Another Story | pack: surprise-slivers, pack: blueprint-mk2 |
-| Secret Lair Drop Special Guest Kozyndan Another Story Foil | pack: surprise-slivers, pack: blueprint-mk2 |
-| Secret Lair Drop Special Guest Kozyndan The Lands | pack: surprise-slivers, pack: blueprint-mk2 |
-| Secret Lair Drop Special Guest Kozyndan The Lands Foil | pack: surprise-slivers, pack: blueprint-mk2 |
-| Secret Lair Drop The Meaning of Life Maybe | pack: surprise-slivers, pack: blueprint-mk2 |
-| Secret Lair Drop The Meaning of Life Maybe Foil | pack: surprise-slivers, pack: blueprint-mk2 |
-| Secret Lair Drop Time Trouble Two | pack: surprise-slivers, pack: blueprint-mk2 |
-| Secret Lair Drop Time Trouble Two Foil | pack: surprise-slivers, pack: blueprint-mk2 |
-| Secret Lair Drop Welcome to the Fungal | pack: surprise-slivers, pack: blueprint-mk2 |
-| Secret Lair Drop Welcome to the Fungal Foil | pack: surprise-slivers, pack: blueprint-mk2 |
-| Secret Lair Drop Wizards of the Street | pack: surprise-slivers, pack: blueprint-mk2 |
-| Secret Lair Drop Wizards of the Street Foil | pack: surprise-slivers, pack: blueprint-mk2 |
