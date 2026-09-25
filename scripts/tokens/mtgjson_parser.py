@@ -6,6 +6,7 @@ from .all_printings import AllPrintings
 class MtgjsonParser:
     __all_printings: AllPrintings
     __set_code_to_group_ids: Dict[str, Set[int]]
+    __set_code_to_group_id: Dict[str, int]
     __set_code_to_children_set_codes: Dict[str, Set[str]]
 
     def __init__(self) -> None:
@@ -13,6 +14,9 @@ class MtgjsonParser:
 
         self.__set_code_to_group_ids = (
             self.__all_printings.create_mapping_mtgjson_set_code_to_tcgplayer_group_ids()
+        )
+        self.__set_code_to_group_id = (
+            self.__all_printings.create_mapping_mtgjson_set_code_to_tcgplayer_group_id()
         )
         self.__set_code_to_children_set_codes = (
             self.__all_printings.create_mapping_mtgjson_parent_set_code_to_children_set_codes()
@@ -46,3 +50,6 @@ class MtgjsonParser:
 
     def get_codes_to_group_ids_mapping(self) -> Dict[str, Set[int]]:
         return self.__set_code_to_group_ids
+
+    def get_set_code_to_group_id_mapping(self) -> Dict[str, int]:
+        return self.__set_code_to_group_id

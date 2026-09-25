@@ -5,7 +5,7 @@ from copy import deepcopy
 from collections import defaultdict
 
 import pathlib
-from typing import Dict, List, Any
+from typing import Dict, List, Any, Tuple
 
 from .mtgjson_parser import MtgjsonParser
 from .mtgjson_to_tcgplayer_mapper import MtgjsonToTcgplayerMapper
@@ -139,15 +139,15 @@ def filter_tokens_without_uuids(
     return output_dict_of_tokens
 
 
-def add_backside_of_art_cards(
+def add_backside_of_multi_sided_tokens(
     filtered_tokens_uuid_mapping: Dict[str, List[Dict[str, Any]]],
-    mtgjson_art_cards_front_to_back_mapping: Dict[str, str],
+    mtgjson_front_to_back_mapping: Dict[str, str],
 ) -> Dict[str, List[Dict[str, Any]]]:
     new_output_tokens = defaultdict(list)
 
     for uuid, token_parts in filtered_tokens_uuid_mapping.items():
-        if uuid in mtgjson_art_cards_front_to_back_mapping:
-            back_side_uuid = mtgjson_art_cards_front_to_back_mapping[uuid]
+        if uuid in mtgjson_front_to_back_mapping:
+            back_side_uuid = mtgjson_front_to_back_mapping[uuid]
             new_output_tokens[back_side_uuid].extend(token_parts)
 
         new_output_tokens[uuid].extend(token_parts)
@@ -160,20 +160,26 @@ def build_tokens_mapping(
     mtgjson_tokens: Dict[str, List[Dict[str, Any]]],
     tcgplayer_tokens: List[Dict[str, Any]],
     tcgplayer_token_parser: TcgplayerTokenParser,
-) -> Dict[str, List[Dict[str, Any]]]:
+    set_code_to_group_id: Dict[str, int] = None,
+) -> Tuple[Dict[str, List[Dict[str, Any]]], List[Dict[str, Any]]]:
     tokens = []
+    unresolved = []
     mapper = MtgjsonToTcgplayerMapper()
 
-    mtgjson_art_cards_front_to_back_mapping = (
-        MtgjsonToTcgplayerMapper().art_card_front_to_back_mapping(mtgjson_tokens)
-    )
+    mtgjson_front_to_back_mapping = mapper.front_to_back_mapping(mtgjson_tokens)
+    uuid_index = mapper.build_uuid_index(mtgjson_tokens)
 
     for tcgplayer_token in tcgplayer_tokens:
         tcgplayer_token_face_details = (
             tcgplayer_token_parser.split_tcgplayer_token_faces_details(tcgplayer_token)
         )
-        mapper.add_mtgjson_uuids_to_tcgplayer_token_face_details(
-            set_code, mtgjson_tokens, tcgplayer_token_face_details
+        unresolved += mapper.add_mtgjson_uuids_to_tcgplayer_token_face_details(
+            set_code,
+            mtgjson_tokens,
+            tcgplayer_token_face_details,
+            tcgplayer_token=tcgplayer_token,
+            set_code_to_group_id=set_code_to_group_id,
+            uuid_index=uuid_index,
         )
 
         tokens.append(
@@ -185,10 +191,10 @@ def build_tokens_mapping(
 
     filtered = filter_tokens_without_uuids(tokens)
     filtered = map_uuids_back_to_single_uuid(filtered)
-    filtered = add_backside_of_art_cards(
-        filtered, mtgjson_art_cards_front_to_back_mapping
+    filtered = add_backside_of_multi_sided_tokens(
+        filtered, mtgjson_front_to_back_mapping
     )
-    return filtered
+    return filtered, unresolved
 
 
 def save_output(parent_set_code: str, output: Dict[str, List[Dict[str, Any]]]) -> None:
@@ -196,6 +202,30 @@ def save_output(parent_set_code: str, output: Dict[str, List[Dict[str, Any]]]) -
     output_dir.mkdir(parents=True, exist_ok=True)
     with atomic_write(output_dir.joinpath(f'{parent_set_code}.json')) as fp:
         json.dump(output, fp, indent=4, sort_keys=True)
+
+
+def report_unresolved_faces(unresolved: List[Dict[str, Any]]) -> None:
+    """
+    Faces we could not pin to a single MTGJSON token are dropped rather than
+    published against every candidate. They need a data/token_manual_overrides
+    entry, so make them easy to find in the job log and on disk.
+    """
+    if not unresolved:
+        print("No ambiguous token faces.")
+        return
+
+    report_path = pathlib.Path("logs/token_mapping_conflicts.json")
+    report_path.parent.mkdir(parents=True, exist_ok=True)
+    with atomic_write(report_path) as fp:
+        json.dump(unresolved, fp, indent=4, sort_keys=True)
+
+    print(f"{len(unresolved)} ambiguous token face(s) dropped, see {report_path}:")
+    for entry in unresolved:
+        candidates = ", ".join(
+            f"{candidate['setCode']}#{candidate['number']}"
+            for candidate in entry["candidates"]
+        )
+        print(f"  {entry['productId']} {entry['faceName']} -> {candidates}")
 
 
 def main():
@@ -207,6 +237,8 @@ def main():
 
     overrides = import_overrides()
     set_code_mapping = mtgjson_parser.get_codes_to_group_ids_mapping()
+    set_code_to_group_id = mtgjson_parser.get_set_code_to_group_id_mapping()
+    all_unresolved: List[Dict[str, Any]] = []
     total = len(set_code_mapping)
     print(f"Processing {total} sets...")
 
@@ -215,9 +247,14 @@ def main():
         mtgjson_tokens = mtgjson_parser.get_associated_mtgjson_tokens(set_code)
         tcgplayer_tokens = tcgplayer_provider.get_tokens_from_group_ids(group_ids)
 
-        output_token_mapping = build_tokens_mapping(
-            set_code, mtgjson_tokens, tcgplayer_tokens, tcgplayer_token_parser
+        output_token_mapping, unresolved = build_tokens_mapping(
+            set_code,
+            mtgjson_tokens,
+            tcgplayer_tokens,
+            tcgplayer_token_parser,
+            set_code_to_group_id,
         )
+        all_unresolved += unresolved
         output_token_mapping.update(overrides.get(set_code, {}))
 
         if output_token_mapping:
@@ -226,6 +263,7 @@ def main():
         else:
             print(f"  No token mappings found, skipping")
 
+    report_unresolved_faces(all_unresolved)
     print("Done!")
 
 
