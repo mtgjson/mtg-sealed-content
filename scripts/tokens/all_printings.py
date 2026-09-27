@@ -70,6 +70,22 @@ class AllPrintings:
 
         return set_code_to_tcgplayer_group_ids
 
+    def create_mapping_mtgjson_set_code_to_tcgplayer_group_id(self) -> Dict[str, int]:
+        """
+        Each MTGJSON set maps to exactly one TCGplayer group. The reverse mapping
+        above folds children into their parent, which loses the detail needed to
+        tell a parent set's token apart from a same-name, same-number token in
+        one of its children.
+        """
+        set_code_to_tcgplayer_group_id = {}
+
+        for set_code, set_data in self.__temp_file_data.get("data").items():
+            group_id = set_data.get("tcgplayerGroupId")
+            if group_id is not None:
+                set_code_to_tcgplayer_group_id[set_code] = group_id
+
+        return set_code_to_tcgplayer_group_id
+
     def create_mapping_mtgjson_parent_set_code_to_children_set_codes(
         self,
     ) -> Dict[str, Set[str]]:

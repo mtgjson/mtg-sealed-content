@@ -138,7 +138,12 @@ class TcgplayerProvider:
     ) -> List[Dict[str, Any]]:
         cards_and_tokens = []
         for group_id in group_ids:
-            cards_and_tokens += self.get_tokens_from_group_id(group_id)
+            for card_or_token in self.get_tokens_from_group_id(group_id):
+                # The catalog echoes back a groupId, but the request parameter is
+                # the one we can rely on. Downstream matching needs it to tell a
+                # parent set's token apart from a child set's identical token.
+                card_or_token["groupId"] = group_id
+                cards_and_tokens.append(card_or_token)
 
         tokens = []
         for card_or_token in cards_and_tokens:
