@@ -5264,6 +5264,13 @@ products:
     variable_mode:
       count: 1
       weight: 100
+  Secret Lair Drop Odds and Ends:
+    card_count: 100
+    deck:
+    - name: Odds and Ends
+      set: sld
+    other:
+    - name: Bonus card unknown
   Secret Lair Drop Oishii Tokens:
     card_count: 1
     deck:
