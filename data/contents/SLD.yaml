@@ -1624,6 +1624,11 @@ products:
     pack:
     - code: bonus-heads-i-win-tails-you-lose
       set: sld
+  Secret Lair Commander Deck Odds and Ends:
+    card_count: 101
+    deck:
+    - name: Odds and Ends
+      set: sld
   Secret Lair Commander Deck Raining Cats and Dogs:
     card:
     - foil: true
@@ -4913,13 +4918,6 @@ products:
     pack:
     - code: bonus-our-show-is-on-friday-can-you-make-it
       set: sld
-  Secret Lair Drop Odds and Ends:
-    card_count: 100
-    deck:
-    - name: Odds and Ends
-      set: sld
-    other:
-    - name: Bonus card unknown
   Secret Lair Drop Oishii Tokens:
     card_count: 1
     deck:
