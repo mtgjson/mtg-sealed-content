@@ -3112,6 +3112,30 @@ products:
     pack:
     - code: bonus-dwarf-fortress-create-new-world-foil
       set: sld
+  Secret Lair Drop EVERYTHING IS ON FIRE:
+    card_count: 6
+    deck:
+    - name: EVERYTHING IS ON FIRE
+      set: sld
+    pack:
+    - code: bonus-everything-is-on-fire
+      set: sld
+  Secret Lair Drop EVERYTHING IS ON FIRE Rainbow Foil:
+    card_count: 6
+    deck:
+    - name: EVERYTHING IS ON FIRE Foil Edition
+      set: sld
+    pack:
+    - code: bonus-everything-is-on-fire
+      set: sld
+  Secret Lair Drop EVERYTHING IS ON FIRE Raised Foil:
+    card_count: 6
+    deck:
+    - name: EVERYTHING IS ON FIRE Raised Foil Edition
+      set: sld
+    pack:
+    - code: bonus-everything-is-on-fire
+      set: sld
   Secret Lair Drop Eldraine Wonderland:
     card_count: 6
     deck:
@@ -3142,30 +3166,6 @@ products:
     card_count: 5
     deck:
     - name: Every Dog Has Its Day Foil Edition
-      set: sld
-  Secret Lair Drop EVERYTHING IS ON FIRE:
-    card_count: 6
-    deck:
-    - name: EVERYTHING IS ON FIRE
-      set: sld
-    pack:
-    - code: bonus-everything-is-on-fire
-      set: sld
-  Secret Lair Drop EVERYTHING IS ON FIRE Rainbow Foil:
-    card_count: 6
-    deck:
-    - name: EVERYTHING IS ON FIRE Foil Edition
-      set: sld
-    pack:
-    - code: bonus-everything-is-on-fire
-      set: sld
-  Secret Lair Drop EVERYTHING IS ON FIRE Raised Foil:
-    card_count: 6
-    deck:
-    - name: EVERYTHING IS ON FIRE Raised Foil Edition
-      set: sld
-    pack:
-    - code: bonus-everything-is-on-fire
       set: sld
   Secret Lair Drop Extra Life 2020:
     card:
@@ -4323,6 +4323,14 @@ products:
     pack:
     - code: bonus-keep-partying-hard-shred-harder-than-you-previously-thought-possible
       set: sld
+  Secret Lair Drop LOOK AT THE KITTIES:
+    card_count: 5
+    deck:
+    - name: Look at the Kitties
+      set: sld
+    pack:
+    - code: bonus-look-at-the-kitties
+      set: sld
   Secret Lair Drop Legendary Flyers Not That Kind Foil:
     card_count: 5
     deck:
@@ -4415,14 +4423,6 @@ products:
     card_count: 6
     deck:
     - name: 'Lofi Girl: Beats to Cast To Foil Edition'
-      set: sld
-  Secret Lair Drop LOOK AT THE KITTIES:
-    card_count: 5
-    deck:
-    - name: Look at the Kitties
-      set: sld
-    pack:
-    - code: bonus-look-at-the-kitties
       set: sld
   Secret Lair Drop Lorwyn Lightboxes:
     card_count: 6
@@ -4892,6 +4892,27 @@ products:
     pack:
     - code: bonus-now-on-vhs
       set: sld
+  Secret Lair Drop OMG KITTIES:
+    card:
+    - foil: true
+      name: Ajani, the Greathearted
+      number: 520
+      set: sld
+    card_count: 6
+    deck:
+    - name: OMG KITTIES!
+      set: sld
+    other:
+    - name: MTG Arena sleeve code
+    - name: Magic Online redemption code
+  Secret Lair Drop OUR SHOW IS ON FRIDAY CAN YOU MAKE IT:
+    card_count: 6
+    deck:
+    - name: Our Show Is On Friday, Can You Make It?
+      set: sld
+    pack:
+    - code: bonus-our-show-is-on-friday-can-you-make-it
+      set: sld
   Secret Lair Drop Odds and Ends:
     card_count: 100
     deck:
@@ -4931,19 +4952,6 @@ products:
     pack:
     - code: bonus-omens-of-chaos
       set: sld
-  Secret Lair Drop OMG KITTIES:
-    card:
-    - foil: true
-      name: Ajani, the Greathearted
-      number: 520
-      set: sld
-    card_count: 6
-    deck:
-    - name: OMG KITTIES!
-      set: sld
-    other:
-    - name: MTG Arena sleeve code
-    - name: Magic Online redemption code
   Secret Lair Drop Ornithological Studies:
     card_count: 6
     deck:
@@ -4951,14 +4959,6 @@ products:
       set: sld
     pack:
     - code: bonus-ornithological-studies
-      set: sld
-  Secret Lair Drop OUR SHOW IS ON FRIDAY CAN YOU MAKE IT:
-    card_count: 6
-    deck:
-    - name: Our Show Is On Friday, Can You Make It?
-      set: sld
-    pack:
-    - code: bonus-our-show-is-on-friday-can-you-make-it
       set: sld
   Secret Lair Drop Outlaw Anthology Vol 1 Rebellious Renegades:
     card_count: 5
@@ -5304,25 +5304,6 @@ products:
     pack:
     - code: bonus-rule-the-room
       set: sld
-  Secret Lair Drop sAnS mERcY:
-    card:
-    - name: Spiteful Prankster
-      number: 801
-      set: sld
-    card_count: 6
-    deck:
-    - name: sAnS mERcY
-      set: sld
-  Secret Lair Drop sAnS mERcY Rainbow Foil:
-    card:
-    - foil: true
-      name: Spiteful Prankster
-      number: 801
-      set: sld
-    card_count: 6
-    deck:
-    - name: sAnS mERcY Foil Edition
-      set: sld
   Secret Lair Drop Saturday Morning DandD:
     card_count: 7
     deck:
@@ -5383,18 +5364,18 @@ products:
       number: 914
       set: sld
     card_count: 1
-  Secret Lair Drop Secret Lair Promo x Fallout Silver Shroud Costume:
-    card:
-    - foil: true
-      name: Silver Shroud Costume
-      number: 915
-      set: sld
-    card_count: 1
   Secret Lair Drop Secret Lair Promo x FINAL FANTASY Gilded Lotus:
     card:
     - foil: true
       name: Gilded Lotus
       number: 909
+      set: sld
+    card_count: 1
+  Secret Lair Drop Secret Lair Promo x Fallout Silver Shroud Costume:
+    card:
+    - foil: true
+      name: Silver Shroud Costume
+      number: 915
       set: sld
     card_count: 1
   Secret Lair Drop Secret Lair Promo x Garfield Lasagna Food Token:
@@ -5773,54 +5754,6 @@ products:
     pack:
     - code: bonus-secret-lair-x-dungeons-and-dragons-karlachs-rage
       set: sld
-  Secret Lair Drop Secret Lair x Fallout Points of Interest:
-    card_count: 6
-    deck:
-    - name: 'Fallout: Points of Interest'
-      set: sld
-    pack:
-    - code: bonus-secret-lair-x-fallout-points-of-interest
-      set: sld
-  Secret Lair Drop Secret Lair x Fallout Points of Interest Rainbow Foil:
-    card_count: 6
-    deck:
-    - name: 'Fallout: Points of Interest Foil Edition'
-      set: sld
-    pack:
-    - code: bonus-secret-lair-x-fallout-points-of-interest
-      set: sld
-  Secret Lair Drop Secret Lair x Fallout SPECIAL:
-    card_count: 8
-    deck:
-    - name: 'Fallout: SPECIAL'
-      set: sld
-    pack:
-    - code: bonus-secret-lair-x-fallout-special
-      set: sld
-  Secret Lair Drop Secret Lair x Fallout SPECIAL Rainbow Foil:
-    card_count: 8
-    deck:
-    - name: 'Fallout: SPECIAL Foil Edition'
-      set: sld
-    pack:
-    - code: bonus-secret-lair-x-fallout-special
-      set: sld
-  Secret Lair Drop Secret Lair x Fallout Vault Boy:
-    card_count: 5
-    deck:
-    - name: 'Fallout: Vault Boy'
-      set: sld
-    pack:
-    - code: bonus-secret-lair-x-fallout-vault-boy
-      set: sld
-  Secret Lair Drop Secret Lair x Fallout Vault Boy Rainbow Foil:
-    card_count: 5
-    deck:
-    - name: 'Fallout: Vault Boy Foil Edition'
-      set: sld
-    pack:
-    - code: bonus-secret-lair-x-fallout-vault-boy
-      set: sld
   Secret Lair Drop Secret Lair x FINAL FANTASY Game Over:
     card_count: 6
     deck:
@@ -5868,6 +5801,54 @@ products:
       set: sld
     pack:
     - code: bonus-secret-lair-x-final-fantasy-weapons
+      set: sld
+  Secret Lair Drop Secret Lair x Fallout Points of Interest:
+    card_count: 6
+    deck:
+    - name: 'Fallout: Points of Interest'
+      set: sld
+    pack:
+    - code: bonus-secret-lair-x-fallout-points-of-interest
+      set: sld
+  Secret Lair Drop Secret Lair x Fallout Points of Interest Rainbow Foil:
+    card_count: 6
+    deck:
+    - name: 'Fallout: Points of Interest Foil Edition'
+      set: sld
+    pack:
+    - code: bonus-secret-lair-x-fallout-points-of-interest
+      set: sld
+  Secret Lair Drop Secret Lair x Fallout SPECIAL:
+    card_count: 8
+    deck:
+    - name: 'Fallout: SPECIAL'
+      set: sld
+    pack:
+    - code: bonus-secret-lair-x-fallout-special
+      set: sld
+  Secret Lair Drop Secret Lair x Fallout SPECIAL Rainbow Foil:
+    card_count: 8
+    deck:
+    - name: 'Fallout: SPECIAL Foil Edition'
+      set: sld
+    pack:
+    - code: bonus-secret-lair-x-fallout-special
+      set: sld
+  Secret Lair Drop Secret Lair x Fallout Vault Boy:
+    card_count: 5
+    deck:
+    - name: 'Fallout: Vault Boy'
+      set: sld
+    pack:
+    - code: bonus-secret-lair-x-fallout-vault-boy
+      set: sld
+  Secret Lair Drop Secret Lair x Fallout Vault Boy Rainbow Foil:
+    card_count: 5
+    deck:
+    - name: 'Fallout: Vault Boy Foil Edition'
+      set: sld
+    pack:
+    - code: bonus-secret-lair-x-fallout-vault-boy
       set: sld
   Secret Lair Drop Secret Lair x Flower Power:
     card_count: 6
@@ -6121,6 +6102,31 @@ products:
     deck:
     - name: 'KEXP: You Are Not Alone Foil Edition'
       set: sld
+  Secret Lair Drop Secret Lair x MSCHF:
+    card_count: 6
+    deck:
+    - name: MSCHF
+      set: sld
+    other:
+    - name: 'NOTE: The bonus card is the same, but both faces are present in the catalog.
+        List them both here, and make one impossible to find via drop rate chance,
+        so that card mapping works, and ev is not affected.'
+    variable:
+    - card:
+      - foil: true
+        name: Plains
+        number: 670
+        set: sld
+      chance: 0
+    - card:
+      - foil: true
+        name: Battlefield Forge
+        number: 669
+        set: sld
+      chance: 1
+    variable_mode:
+      count: 1
+      weight: 1
   Secret Lair Drop Secret Lair x Marvels Black Panther:
     card_count: 6
     deck:
@@ -6343,31 +6349,6 @@ products:
     deck:
     - name: 'Monty Python and the Holy Grail: Vol. 2 Foil Edition'
       set: sld
-  Secret Lair Drop Secret Lair x MSCHF:
-    card_count: 6
-    deck:
-    - name: MSCHF
-      set: sld
-    other:
-    - name: 'NOTE: The bonus card is the same, but both faces are present in the catalog.
-        List them both here, and make one impossible to find via drop rate chance,
-        so that card mapping works, and ev is not affected.'
-    variable:
-    - card:
-      - foil: true
-        name: Plains
-        number: 670
-        set: sld
-      chance: 0
-    - card:
-      - foil: true
-        name: Battlefield Forge
-        number: 669
-        set: sld
-      chance: 1
-    variable_mode:
-      count: 1
-      weight: 1
   Secret Lair Drop Secret Lair x NALAC Nuestra Magia:
     card:
     - name: Tibalt's Trickery
@@ -8140,30 +8121,6 @@ products:
     pack:
     - code: bonus-viva-las-rakdos
       set: sld
-  Secret Lair Drop vroooOOOMMMMMM!:
-    card_count: 6
-    deck:
-    - name: vroooOOOMMMMMM!
-      set: sld
-    pack:
-    - code: bonus-vroooooommmmmm
-      set: sld
-  Secret Lair Drop vroooOOOMMMMMM! Rainbow Foil:
-    card_count: 6
-    deck:
-    - name: vroooOOOMMMMMM! Foil Edition
-      set: sld
-    pack:
-    - code: bonus-vroooooommmmmm
-      set: sld
-  Secret Lair Drop vroooOOOMMMMMM! Raised Foil:
-    card_count: 6
-    deck:
-    - name: vroooOOOMMMMMM! Raised Foil Edition
-      set: sld
-    pack:
-    - code: bonus-vroooooommmmmm
-      set: sld
   Secret Lair Drop We Hope You Like Squirrels:
     card_count: 6
     deck:
@@ -8251,6 +8208,49 @@ products:
       set: sld
     pack:
     - code: bonus-year-of-the-rat
+      set: sld
+  Secret Lair Drop sAnS mERcY:
+    card:
+    - name: Spiteful Prankster
+      number: 801
+      set: sld
+    card_count: 6
+    deck:
+    - name: sAnS mERcY
+      set: sld
+  Secret Lair Drop sAnS mERcY Rainbow Foil:
+    card:
+    - foil: true
+      name: Spiteful Prankster
+      number: 801
+      set: sld
+    card_count: 6
+    deck:
+    - name: sAnS mERcY Foil Edition
+      set: sld
+  Secret Lair Drop vroooOOOMMMMMM!:
+    card_count: 6
+    deck:
+    - name: vroooOOOMMMMMM!
+      set: sld
+    pack:
+    - code: bonus-vroooooommmmmm
+      set: sld
+  Secret Lair Drop vroooOOOMMMMMM! Rainbow Foil:
+    card_count: 6
+    deck:
+    - name: vroooOOOMMMMMM! Foil Edition
+      set: sld
+    pack:
+    - code: bonus-vroooooommmmmm
+      set: sld
+  Secret Lair Drop vroooOOOMMMMMM! Raised Foil:
+    card_count: 6
+    deck:
+    - name: vroooOOOMMMMMM! Raised Foil Edition
+      set: sld
+    pack:
+    - code: bonus-vroooooommmmmm
       set: sld
   Secret Lair Drop “explosion sounds”:
     card_count: 6
