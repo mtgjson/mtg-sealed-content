@@ -1,7 +1,9 @@
 if __package__:
     from .atomic_write import atomic_write
+    from . import sealed_yaml
 else:
     from atomic_write import atomic_write
+    import sealed_yaml
 
 import argparse
 import re
@@ -172,20 +174,18 @@ def main(argv=None):
                 yaml.dump(review_data, review_file, allow_unicode=True)
 
 
-    def apply_identifier(handled, target_name, target_file):
+    def apply_identifier(handled, target_name, target_stem):
         """Write the review entry's identifier into the chosen known product.
         Returns (True, None) on success, or (False, existing) without writing when
         a different value is already set for one of the identifier keys (a conflict
         a human should resolve)."""
-        with open(target_file) as product_file:
-            import_products = yaml.safe_load(product_file)
+        import_products = sealed_yaml.load_set(target_stem)
         identifiers = import_products["products"][target_name].setdefault("identifiers", {})
         for key, value in handled[1].items():
             if key in identifiers and identifiers[key] != value:
                 return False, identifiers[key]
         identifiers.update(handled[1])
-        with atomic_write(target_file) as product_file:
-            yaml.dump(import_products, product_file, allow_unicode=True)
+        sealed_yaml.save_set(target_stem, import_products)
         return True, None
 
 
@@ -217,7 +217,7 @@ def main(argv=None):
                 continue
 
             # Edition code of the matched product (its data/products/<CODE>.yaml file)
-            code = best[1].stem
+            code = best[1]
             identifier = "/".join(str(v) for v in handled[1].values())
 
             if args.dry_run:
@@ -252,11 +252,9 @@ def main(argv=None):
         print(f"Skipping {skipped_count} review entries matching: {args.skip}")
 
     known_products = []
-    for contentfile in Path("data/products").glob("*.yaml"):
-        with open(contentfile, 'r') as known_file:
-            known_data = yaml.safe_load(known_file)
+    for stem, known_data in sealed_yaml.iter_sets():
         for product_name in known_data["products"].keys():
-            known_products.append((product_name, contentfile))
+            known_products.append((product_name, stem))
 
     if args.auto:
         run_auto()
@@ -273,8 +271,8 @@ def main(argv=None):
         print(f"Finding similar products for {product[0]} {product[1]}")
         known_products.sort(key=lambda x: fuzz.token_sort_ratio(x[0], product[0]), reverse=True)
         for i in range(5):
-            name, code_path = known_products[i + offset]
-            print(f"  {i} - [{code_path.stem}] {name}")
+            name, code = known_products[i + offset]
+            print(f"  {i} - [{code}] {name}")
 
         try:
             product_check = read_input("Select action ('h' for help): ")
@@ -332,8 +330,7 @@ def main(argv=None):
                 index -= 1
                 continue
             product_link = known_products[check_index]
-            with open(product_link[1], 'r') as product_file:
-                import_products = yaml.safe_load(product_file)
+            import_products = sealed_yaml.load_set(product_link[1])
             if "identifiers" not in import_products["products"][product_link[0]]:
                 import_products["products"][product_link[0]]["identifiers"] = {}
             keep = True
@@ -348,8 +345,7 @@ def main(argv=None):
                 index -= 1
                 continue
             import_products["products"][product_link[0]]["identifiers"].update(product[1])
-            with atomic_write(product_link[1]) as product_file:
-                yaml.dump(import_products, product_file, allow_unicode=True)
+            sealed_yaml.save_set(product_link[1], import_products)
             remove_from_review(product)
         elif product_check == "c":
             try:
@@ -363,7 +359,7 @@ def main(argv=None):
 
             # Warn before creating a brand-new set: usually this means the code was
             # mistyped rather than that a genuinely new set is being introduced.
-            if not Path(f"data/products/{set_code}.yaml").exists():
+            if not sealed_yaml.set_exists(set_code):
                 try:
                     confirm = read_input(
                         f"WARNING: no data/products/{set_code}.yaml exists yet -- this creates a NEW set code. Continue? [y/N] "
@@ -382,16 +378,14 @@ def main(argv=None):
             except EOFError:
                 sys.exit(1)
 
-            target_path = Path(f"data/products/{set_code}.yaml")
-            if target_path.exists():
-                with open(target_path, "r") as f:
-                    content = yaml.safe_load(f) or {}
+            if sealed_yaml.set_exists(set_code):
+                content = sealed_yaml.load_set(set_code)
                 if product_name in content["products"].keys():
                     print("Product already exists, not creating.")
                     index -= 1
                     continue
             else:
-                content = {"code": set_code.lower(), "products": {}}
+                content = sealed_yaml.new_set(set_code)
 
             category, subtype = infer_product_definition(product_name)
 
@@ -401,27 +395,12 @@ def main(argv=None):
                 "subtype": subtype,
             }
 
-            with atomic_write(target_path) as product_file:
-                yaml.dump(content, product_file, allow_unicode=True)
-
-            # Mirror the new product into the contents file as an empty placeholder,
-            # so it is tracked there too (its contents get filled in separately).
-            contents_path = Path(f"data/contents/{set_code}.yaml")
-            if contents_path.exists():
-                with open(contents_path, "r") as f:
-                    contents_data = yaml.safe_load(f) or {}
-                contents_data.setdefault("code", set_code.lower())
-                contents_data.setdefault("products", {})
-            else:
-                contents_data = {"code": set_code.lower(), "products": {}}
-
-            contents_data["products"].setdefault(product_name, {})
-
-            with atomic_write(contents_path) as contents_file:
-                yaml.dump(contents_data, contents_file, allow_unicode=True)
+            # In the split layout this also gives the product its empty contents
+            # placeholder, to be filled in separately.
+            sealed_yaml.save_set(set_code, content)
 
             remove_from_review(product)
-            known_products.append((product_name, target_path))
+            known_products.append((product_name, set_code))
             print("Product added, don't forget to review and update default fields")
 
         else:
