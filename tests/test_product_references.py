@@ -29,7 +29,19 @@ class ProductReferenceTests(unittest.TestCase):
         errors = reference_errors({a, b}, {a: {'copy': 'Original'}})
         self.assertEqual(len(errors), 1)
         self.assertIn('missing copy target', errors[0])
-        self.assertEqual(reference_errors({a, b}, {a: {'copy': 'Original'}, b: {}}), [])
+        # A copy of a product that hasn't been researched would silently come out empty
+        errors = reference_errors({a, b}, {a: {'copy': 'Original'}, b: {}})
+        self.assertEqual(len(errors), 1)
+        self.assertIn('has no contents', errors[0])
+        self.assertEqual(reference_errors({a, b}, {a: {'copy': 'Original'}, b: {'card_count': 1}}), [])
+
+    def test_copy_chains_are_rejected(self):
+        a, b, c = ('a', 'First'), ('a', 'Second'), ('a', 'Original')
+        errors = reference_errors({a, b, c}, {
+            a: {'copy': 'Second'}, b: {'copy': 'Original'}, c: {'card_count': 1},
+        })
+        self.assertEqual(len(errors), 1)
+        self.assertIn('is itself a copy', errors[0])
 
     def test_cross_set_cycle_through_variable_and_copy(self):
         a, b, c = ('a', 'Box'), ('b', 'Box'), ('b', 'Alias')

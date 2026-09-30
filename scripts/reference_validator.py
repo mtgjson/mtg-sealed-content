@@ -1,6 +1,8 @@
 """Validate local sealed/copy references without requiring MTGJSON downloads."""
-from pathlib import Path
-import yaml
+if __package__:
+    from . import sealed_yaml
+else:
+    import sealed_yaml
 
 
 def reference_errors(product_names, contents):
@@ -11,9 +13,15 @@ def reference_errors(product_names, contents):
         if not isinstance(value, dict):
             return
         if set(value) == {'copy'}:
+            # A copy names a product in the same set, is the only key, and is
+            # never chained: its target must have contents of its own.
             target = (source[0], value['copy'])
             if target not in contents:
                 errors.append(f'{source}: missing copy target {target}')
+            elif not contents[target]:
+                errors.append(f'{source}: copy target {target} has no contents')
+            elif isinstance(contents[target], dict) and set(contents[target]) == {'copy'}:
+                errors.append(f'{source}: copy target {target} is itself a copy')
             else:
                 graph[source].add(target)
             return
@@ -56,16 +64,11 @@ def reference_errors(product_names, contents):
 def validate_references():
     product_names = set()
     contents = {}
-    for folder, target in (('products', product_names), ('contents', contents)):
-        for path in sorted(Path('data', folder).glob('*.yaml')):
-            with path.open() as stream:
-                data = yaml.safe_load(stream)
-            for name, value in data['products'].items():
-                key = (data['code'].lower(), name)
-                if folder == 'products':
-                    target.add(key)
-                else:
-                    target[key] = value
+    for _, data in sealed_yaml.iter_sets():
+        for name, entry in data['products'].items():
+            key = (data['code'].lower(), name)
+            product_names.add(key)
+            contents[key] = entry.get('contents') or {}
     errors = reference_errors(product_names, contents)
     if errors:
         raise ValueError('\n'.join(errors))
