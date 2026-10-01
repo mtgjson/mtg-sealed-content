@@ -8,7 +8,7 @@ Thank you for your interest in contributing to **mtg-sealed-content**! This repo
 
 This is the most common and impactful way to contribute. If you notice a sealed product is missing or has incorrect contents, you can submit a fix by editing the appropriate YAML file in the `data/` directory.
 
-Each set has two YAML files named after its set code: `data/products/ONE.yaml` defines the products of *Phyrexia: All Will Be One* and `data/contents/ONE.yaml` describes what is inside them. Every product must appear in both. Contents use the types documented in the [README](README.md): `card`, `pack`, `deck`, `sealed`, `variable`, `other`, and `copy`.
+Each set has two YAML files named after its set code: `data/products/ONE.yaml` defines the products of *Phyrexia: All Will Be One* and `data/contents/ONE.yaml` describes what is inside them. Every contents entry must name a product in the products file, so rename a product in both files at once. Contents use the types documented in the [README](README.md): `card`, `pack`, `deck`, `sealed`, `variable`, `other`, and `copy`.
 
 ### Reporting Issues
 

@@ -16,7 +16,10 @@ p.add_argument('--output', type=Path, required=True)
 a = p.parse_args()
 # The sealed repository's own loader reads either data layout (split or merged)
 sys.path.insert(0, str(a.sealed / 'scripts'))
-import sealed_yaml  # noqa: E402
+try:
+    import sealed_yaml  # noqa: E402
+except ImportError:
+    sys.exit(f'{a.sealed}/scripts/sealed_yaml.py not found: update the sealed checkout')
 sets = json.loads((a.search / 'index/sets.json').read_text())
 decks = {(d['set_code'].lower(), d['name']): d for d in json.loads(a.decks_json.read_text())}
 sealed_sets = list(sealed_yaml.iter_sets(a.sealed))

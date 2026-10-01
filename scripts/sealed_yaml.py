@@ -206,21 +206,31 @@ def render_merged(data):
 def layout_errors(root="."):
     """Problems with the on-disk layout that the loaders would otherwise paper over.
 
-    In the split layout the two trees must list exactly the same products: a
-    contents entry without a product is how a one-sided rename silently loses
-    data. The merged layout has nothing to reconcile.
+    In the split layout every contents entry must belong to a product: a contents
+    entry without one is how a one-sided rename silently loses data. A product
+    without a contents entry loses nothing, and the next save gives it an empty
+    placeholder, so that is allowed. Nested contents while data/contents/ exists
+    usually means a stale data/contents/ file came back after the conversion, so
+    that gets one message pointing at `convert_layout.py fold`. The merged layout
+    has nothing to reconcile.
     """
     if not is_split(root):
         return []
     errors = []
     stems = set(set_stems(root))
-    for stem in sorted({path.stem for path in contents_dir(root).glob("*.yaml")} - stems):
+    leftovers = sorted(path.stem for path in contents_dir(root).glob("*.yaml"))
+    nested = []
+    for stem in sorted(set(leftovers) - stems):
         errors.append(f"data/contents/{stem}.yaml has no data/products/{stem}.yaml")
     for stem in sorted(stems):
         definitions = _read(products_dir(root) / f"{stem}.yaml")
+        defined = definitions.get("products") or {}
+        nested += [
+            (stem, name) for name, entry in defined.items()
+            if isinstance(entry, dict) and "contents" in entry
+        ]
         path = contents_dir(root) / f"{stem}.yaml"
         if not path.exists():
-            errors.append(f"data/products/{stem}.yaml has no data/contents/{stem}.yaml")
             continue
         described = _read(path)
         if definitions.get("code") != described.get("code"):
@@ -228,13 +238,17 @@ def layout_errors(root="."):
                 f"{stem}: code {definitions.get('code')!r} in data/products "
                 f"but {described.get('code')!r} in data/contents"
             )
-        defined = definitions.get("products") or {}
-        listed = described.get("products") or {}
-        for name in sorted(set(defined) - set(listed)):
-            errors.append(f"{stem}: product {name!r} has no entry in data/contents/{stem}.yaml")
-        for name in sorted(set(listed) - set(defined)):
+        for name in sorted(set(described.get("products") or {}) - set(defined)):
             errors.append(f"{stem}: contents entry {name!r} has no product in data/products/{stem}.yaml")
-        for name, entry in defined.items():
-            if isinstance(entry, dict) and "contents" in entry:
-                errors.append(f"{stem}: product {name!r} nests contents while data/contents/ still exists")
+    nested_sets = sorted({stem for stem, _ in nested})
+    if len(nested_sets) > len(leftovers):
+        # Most of the tree is merged: one message instead of one per product
+        errors.insert(0, (
+            f"data/contents/ still exists, but {len(nested_sets)} sets in data/products/ "
+            f"nest their contents. If data/ is in the merged layout, fold the leftover files "
+            f"with `python scripts/convert_layout.py fold {' '.join(leftovers)}`"
+        ))
+    else:
+        for stem, name in nested:
+            errors.append(f"{stem}: product {name!r} nests contents while data/contents/ still exists")
     return errors

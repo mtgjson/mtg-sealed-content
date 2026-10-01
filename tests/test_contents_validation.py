@@ -70,15 +70,13 @@ class ContentsValidationTests(unittest.TestCase):
         self.assertEqual(self.run_gate({"Box": BOX, "Pack": BOX}, {"Box": contents, "Pack": {}})[0], True)
         self.assertEqual(self.run_gate({"Box": {**BOX, "contents": contents}, "Pack": BOX})[0], True)
 
-    def test_ci_gate_rejects_names_out_of_sync_in_either_direction(self):
-        # A filled contents entry left behind by a one-sided rename...
+    def test_ci_gate_rejects_contents_entries_without_a_product(self):
+        # A filled contents entry left behind by a one-sided rename fails...
         passed, output = self.run_gate({"Renamed": BOX}, {"Renamed": {}, "Original": {"card_count": 1}})
         self.assertFalse(passed)
         self.assertIn("contents entry 'Original' has no product", output)
-        # ...and a product with no contents entry at all
-        passed, output = self.run_gate({"Box": BOX, "New": BOX}, {"Box": {}})
-        self.assertFalse(passed)
-        self.assertIn("product 'New' has no entry", output)
+        # ...but a new product without a contents entry yet loses nothing
+        self.assertEqual(self.run_gate({"Box": BOX, "New": BOX}, {"Box": {}})[0], True)
 
     def test_ci_gate_points_misplaced_content_fields_to_the_right_place(self):
         passed, output = self.run_gate({"Box": {**BOX, "sealed": []}})

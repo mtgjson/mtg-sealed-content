@@ -111,10 +111,20 @@ class SealedYamlTests(unittest.TestCase):
         Path("data/contents/OLD.yaml").write_text(yaml.safe_dump({"code": "old", "products": {}}))
         errors = "\n".join(sealed_yaml.layout_errors())
         self.assertIn("data/contents/OLD.yaml has no data/products/OLD.yaml", errors)
-        self.assertIn("data/products/NEW.yaml has no data/contents/NEW.yaml", errors)
-        self.assertIn("product 'New' has no entry", errors)
+        self.assertNotIn("NEW", errors)  # a product without contents loses nothing
+        self.assertNotIn("'New'", errors)
         self.assertIn("contents entry 'Leftover' has no product", errors)
         self.assertIn("product 'Nested' nests contents", errors)
+
+    def test_layout_errors_point_a_mostly_merged_tree_at_fold(self):
+        for stem in ("AAA", "BBB", "CCC"):
+            Path(f"data/products/{stem}.yaml").write_text(yaml.safe_dump(
+                {"code": stem.lower(), "products": {"Box": {**BOX, "contents": BOX_CONTENTS}}}))
+        Path("data/contents").mkdir()
+        Path("data/contents/BBB.yaml").write_text(yaml.safe_dump({"code": "bbb", "products": {"Box": {}}}))
+        errors = sealed_yaml.layout_errors()
+        self.assertEqual(len(errors), 1)
+        self.assertIn("convert_layout.py fold BBB", errors[0])
 
 
 if __name__ == "__main__":

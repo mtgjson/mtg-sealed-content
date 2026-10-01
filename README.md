@@ -40,7 +40,7 @@ outputs/        # Generated JSON output (do not edit directly)
 
 The main difference between `products` and `contents` is that the first defines the product itself, with a list of identifiers, category (deck, booster, box, etc) and subtype (collector booster, draft booster, prerelease and so on), while the second contains the description of the contents themselves, i.e. what users will find should they open the product (i.e. they will find 6 Booster Boxes in a Case).
 
-Every product must appear in both files, and the validator fails when the two list different products. Scripts read and write these files through `scripts/sealed_yaml.py`, which also understands the planned single-file layout, where each product's contents are nested under a `contents:` key in `data/products/SETCODE.yaml`. `scripts/convert_layout.py` converts between the two layouts.
+Every entry in `data/contents/SETCODE.yaml` must name a product in `data/products/SETCODE.yaml`, and the validator fails otherwise. A product without a contents entry is allowed, and the scripts add an empty placeholder for it. Scripts read and write these files through `scripts/sealed_yaml.py`, which also understands the planned single-file layout, where each product's contents are nested under a `contents:` key in `data/products/SETCODE.yaml`. `scripts/convert_layout.py` converts between the two layouts.
 
 ## Contributing
 
