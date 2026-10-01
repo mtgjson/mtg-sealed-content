@@ -72,3 +72,38 @@ with patch('requests.get', side_effect=AssertionError('unexpected download')):
             self.assertEqual(contents['Test Set Theme Deck Example']['card_count'], 60)
             self.assertIn('deck already referenced', result.stdout)
 
+    def test_import_merges_into_an_existing_product(self):
+        with tempfile.TemporaryDirectory() as directory:
+            base = Path(directory)
+            (base / 'data/products').mkdir(parents=True)
+            (base / 'data/contents').mkdir()
+            name = 'Test Set Theme Deck Example'
+            (base / 'data/products/TST.yaml').write_text(yaml.safe_dump({'code': 'tst', 'products': {name: {
+                'category': 'UNKNOWN', 'subtype': 'UNKNOWN', 'language': 'German',
+                'identifiers': {'tcgplayerProductId': '9'},
+            }}}))
+            (base / 'data/contents/TST.yaml').write_text(yaml.safe_dump({'code': 'tst', 'products': {name: {
+                'other': [{'name': 'Rules insert'}],
+            }}}))
+            (base / 'decks.json').write_text(json.dumps([{
+                'name': 'Example', 'set_code': 'tst', 'set_name': 'Test Set',
+                'type': 'Theme Deck', 'category': 'Deck', 'release_date': '2020-01-01',
+                'cards': [{'count': 60}],
+            }]))
+            code = '''
+import os
+from scripts.import_new_decks import main
+os.environ['DECKS_JSON'] = 'decks.json'
+main()
+'''
+            result = self.run_python(['-c', code], directory)
+            self.assertEqual(result.returncode, 0, result.stderr)
+            product = yaml.safe_load((base / 'data/products/TST.yaml').read_text())['products'][name]
+            self.assertEqual(product, {
+                'category': 'DECK', 'subtype': 'THEME', 'release_date': '2020-01-01', 'language': 'German',
+                'identifiers': {'tcgplayerProductId': '9'},
+            })
+            contents = yaml.safe_load((base / 'data/contents/TST.yaml').read_text())['products'][name]
+            self.assertEqual(contents, {
+                'card_count': 60, 'deck': [{'name': 'Example', 'set': 'tst'}], 'other': [{'name': 'Rules insert'}],
+            })

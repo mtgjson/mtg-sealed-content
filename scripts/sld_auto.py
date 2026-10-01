@@ -1,5 +1,8 @@
-import yaml
-from pathlib import Path
+if __package__:
+    from . import sealed_yaml
+else:
+    import sealed_yaml
+
 from thefuzz import fuzz
 import ijson
 import requests
@@ -26,15 +29,15 @@ def main():
         elif prefix == "data.decks.item.sideBoard.item.count" and event == "number":
             decks[-1]["count"] += int(value)
 
-    with open("data/contents/SLD.yaml", 'r') as sfile:
-        sld_products = yaml.safe_load(sfile)
+    sld_products = sealed_yaml.load_set("SLD")
 
     product_names = list(sld_products["products"].keys())
     mapped_decks = {}
     for k, v in sld_products["products"].items():
-        if "deck" in v:
-            for dk in v["deck"]:
-                mapped_decks[dk["name"]] = k
+        for dk in (v.get("contents") or {}).get("deck", []):
+            mapped_decks[dk["name"]] = k
+    # Contents fields the user confirmed replacing, the only overwrites save_set allows
+    confirmed = {}
 
     index = 0
     offset = 0
@@ -83,28 +86,28 @@ def main():
 
             check_index = int(product_check) + offset
             p_name = product_names[check_index]
-            if isinstance(sld_products["products"][p_name], list):
-                sld_products["products"][p_name] = {}
-            if "card_count" in sld_products["products"][p_name]:
-                keep = True
-                if sld_products["products"][p_name]['card_count'] != deck["count"]:
+            contents = sld_products["products"][p_name].setdefault("contents", {})
+            if "card_count" in contents:
+                if contents['card_count'] != deck["count"]:
                     try:
-                        ask = input(f"Replace count {sld_products['products'][p_name]['card_count']} with {deck['count']}? [Y]: ")
-                        keep = ask == "y" or ask == ""
+                        ask = input(f"Replace count {contents['card_count']} with {deck['count']}? [Y]: ")
                     except EOFError:
                         sys.exit(1)
-                if keep:
-                    sld_products["products"][p_name]['card_count'] = deck["count"]
+                    if ask == "y" or ask == "":
+                        contents['card_count'] = deck["count"]
+                        confirmed.setdefault(p_name, set()).add("card_count")
             else:
-                sld_products["products"][p_name]['card_count'] = deck["count"]
+                contents['card_count'] = deck["count"]
 
-            if "deck" not in sld_products["products"][p_name]:
-                sld_products["products"][p_name]["deck"] = [{"name": deck["name"], "set": "sld"}]
+            if "deck" not in contents:
+                contents["deck"] = [{"name": deck["name"], "set": "sld"}]
 
-            if ("card" not in sld_products["products"][p_name]) and ("pack" not in sld_products["products"][p_name]) and ("variable" not in sld_products["products"][p_name]):
-                sld_products["products"][p_name]["other"] = [{"name": "Bonus card unknown"}]
+            # Only flag an unknown bonus when nothing describes one yet: an existing
+            # note such as "Drop has no bonus card slot" is research, not a gap
+            if not {"card", "pack", "variable", "other"} & set(contents):
+                contents["other"] = [{"name": "Bonus card unknown"}]
 
-            print(sld_products["products"][p_name])
+            print(contents)
         else:
             index -= 1
             if product_check != "h":
@@ -114,8 +117,7 @@ def main():
         if product_check not in "mb":
             offset = 0
 
-    with open("data/contents/SLD.yaml", 'w') as sfile:
-        yaml.dump(sld_products, sfile, allow_unicode=True)
+    sealed_yaml.save_set("SLD", sld_products, allow=confirmed)
 
 
 if __name__ == "__main__":

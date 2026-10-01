@@ -11,6 +11,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from contents_validator import validate_content_fields, validate_structure
 
 
+BOX = {"category": "BOOSTER_BOX", "subtype": "DEFAULT", "identifiers": {}}
+
+
 class ContentsValidationTests(unittest.TestCase):
     def test_rejects_unknown_fields_and_invalid_counts_recursively(self):
         for content in (
@@ -32,17 +35,56 @@ class ContentsValidationTests(unittest.TestCase):
         }):
             validate_content_fields(content)
 
-    def test_ci_gate_rejects_typo_in_copied_content(self):
+    def run_gate(self, products, contents=None):
+        """Run the CI gate on one set, split when `contents` is given, merged otherwise.
+        Returns (passed, output)."""
         with tempfile.TemporaryDirectory() as tmp:
             previous = Path.cwd()
             os.chdir(tmp)
             try:
-                Path("data/contents").mkdir(parents=True)
-                Path("data/products").mkdir()
-                Path("data/contents/TST.yaml").write_text(yaml.safe_dump({
-                    "code": "tst", "products": {"Original": {"crad": []}, "Copy": {"copy": "Original"}},
-                }))
-                with contextlib.redirect_stdout(io.StringIO()), self.assertRaises(ImportError):
-                    validate_structure()
+                Path("data/products").mkdir(parents=True)
+                Path("data/products/TST.yaml").write_text(yaml.safe_dump({"code": "tst", "products": products}))
+                if contents is not None:
+                    Path("data/contents").mkdir()
+                    Path("data/contents/TST.yaml").write_text(yaml.safe_dump({"code": "tst", "products": contents}))
+                output = io.StringIO()
+                with contextlib.redirect_stdout(output):
+                    try:
+                        validate_structure()
+                    except (ImportError, ValueError):
+                        return False, output.getvalue()
+                return True, output.getvalue()
             finally:
                 os.chdir(previous)
+
+    def test_ci_gate_rejects_typo_in_copied_content(self):
+        passed, output = self.run_gate(
+            {"Original": BOX, "Copy": BOX},
+            {"Original": {"crad": []}, "Copy": {"copy": "Original"}},
+        )
+        self.assertFalse(passed)
+        self.assertIn("crad", output)
+
+    def test_ci_gate_accepts_both_layouts(self):
+        contents = {"sealed": [{"name": "Pack", "set": "tst", "count": 36}]}
+        self.assertEqual(self.run_gate({"Box": BOX, "Pack": BOX}, {"Box": contents, "Pack": {}})[0], True)
+        self.assertEqual(self.run_gate({"Box": {**BOX, "contents": contents}, "Pack": BOX})[0], True)
+
+    def test_ci_gate_rejects_contents_entries_without_a_product(self):
+        # A filled contents entry left behind by a one-sided rename fails...
+        passed, output = self.run_gate({"Renamed": BOX}, {"Renamed": {}, "Original": {"card_count": 1}})
+        self.assertFalse(passed)
+        self.assertIn("contents entry 'Original' has no product", output)
+        # ...but a new product without a contents entry yet loses nothing
+        self.assertEqual(self.run_gate({"Box": BOX, "New": BOX}, {"Box": {}})[0], True)
+
+    def test_ci_gate_points_misplaced_content_fields_to_the_right_place(self):
+        passed, output = self.run_gate({"Box": {**BOX, "sealed": []}})
+        self.assertFalse(passed)
+        self.assertIn("belongs under `contents:`", output)
+        passed, output = self.run_gate({"Box": {**BOX, "sealed": []}}, {"Box": {}})
+        self.assertFalse(passed)
+        self.assertIn("belongs in data/contents/TST.yaml", output)
+        passed, output = self.run_gate({"Box": {**BOX, "purchase_url": "x"}})
+        self.assertFalse(passed)
+        self.assertIn("unknown field `purchase_url`", output)

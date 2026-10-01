@@ -11,16 +11,21 @@ The old compiler also emitted outputs/contents.json, but MTGJSON's own pipeline
 this repo's raw YAML, so that output is unconsumed and is no longer produced here.
 
     python scripts/contents_validator.py            # fast structural validation (CI PR gate)
-    python scripts/contents_validator.py --status   # also rebuild status.txt + deck_map.json
+    python scripts/contents_validator.py --status   # validate, then rebuild status.txt + deck_map.json
+
+--status validates first so that the push-to-main and scheduled workflows, which only
+run --status, also refuse data that fails the PR gate.
 """
 if __package__:
     from .atomic_write import atomic_write
+    from . import sealed_yaml
 else:
     from atomic_write import atomic_write
+    import sealed_yaml
 
 import argparse
+import copy
 import json
-import yaml
 import product_classes as pc
 from pathlib import Path
 
@@ -231,34 +236,42 @@ def validate_content_fields(contents, path="contents"):
 
 
 def validate_structure():
-    contentFolder = Path("data/contents/")
     failed = False
-    for set_file in contentFolder.glob("*.yaml"):
-        with open(set_file, "rb") as f:
-            contents = yaml.safe_load(f)
+    for error in sealed_yaml.layout_errors():
+        print(error)
+        failed = True
+    if failed:
+        raise ImportError()
 
-        for name, p in contents["products"].items():
+    sets = list(sealed_yaml.iter_sets())
+    for stem, data in sets:
+        products = data["products"]
+        for name, entry in products.items():
+            p = entry.get("contents")
             try:
                 if isinstance(p, dict) and set(p) == {"copy"}:
-                    p = contents["products"][p["copy"]]
+                    p = products[p["copy"]].get("contents")
                 validate_content_fields(p)
-                pc.product(p, contents["code"], name)
+                # product() consumes variable_mode, so keep the loaded data intact
+                pc.product(copy.deepcopy(p), data["code"], name)
             except (KeyError, TypeError, ValueError, AttributeError) as exc:
-                print(f"Product {name} in set {set_file.stem} failed: {exc}")
+                print(f"Product {name} in set {stem} failed: {exc}")
                 failed = True
     if failed:
         raise ImportError()
 
-    productsFolder = Path("data/products/")
-    failed = False
-    all_files = sorted(list(productsFolder.glob("*.yaml")))
-    for set_file in all_files:
-        with open(set_file, "rb") as f:
-            contents = yaml.safe_load(f)
-
-        for name, p in contents["products"].items():
+    split = sealed_yaml.is_split()
+    for stem, data in sets:
+        for name, p in data["products"].items():
+            for key in sorted(set(p) - sealed_yaml.PRODUCT_KEYS):
+                if key in sealed_yaml.CONTENT_KEYS:
+                    where = f"in data/contents/{stem}.yaml" if split else "under `contents:`"
+                    print(f"Product {name} in set {stem} has `{key}` at product level; it belongs {where}")
+                else:
+                    print(f"Product {name} in set {stem} has an unknown field `{key}`")
+                failed = True
             if "category" not in p.keys():
-                print(f"Product {name} in set {set_file.stem} missing category")
+                print(f"Product {name} in set {stem} missing category")
                 failed = True
             elif p['category'] not in valid_categories:
                 if p['category'] == "UNKNOWN":
@@ -268,7 +281,7 @@ def validate_structure():
                     print(f"Product {name} has an invalid category: {p['category']}")
                     failed = True
             if "subtype" not in p.keys():
-                print(f"Product {name} in set {set_file.stem} missing subtype")
+                print(f"Product {name} in set {stem} missing subtype")
                 failed = True
             elif p['subtype'] not in valid_subtypes:
                 if p['subtype'] == "UNKNOWN":
@@ -293,23 +306,23 @@ def rebuild_status_and_deck_map(uuid_map):
     with open(status_file, "w") as f:
         f.write("Starting output\n")
 
-    for set_file in sorted(Path("data/contents/").glob("*.yaml")):
-        with open(set_file, "rb") as f:
-            contents = yaml.safe_load(f)
-
-        products_contents[contents["code"]] = {}
-        for name, p in contents["products"].items():
+    for _, data in sealed_yaml.iter_sets():
+        code = data["code"]
+        products = data["products"]
+        products_contents[code] = {}
+        for name, entry in products.items():
+            p = entry.get("contents")
             if not p:
                 with open(status_file, "a") as f:
-                    f.write(f"Product {contents['code']} - {name} missing contents\n")
+                    f.write(f"Product {code} - {name} missing contents\n")
                 continue
             if set(p.keys()) == {"copy"}:
-                p = contents["products"][p["copy"]]
-            compiled_product = pc.product(p, contents["code"], name)
+                p = products[p["copy"]].get("contents") or {}
+            compiled_product = pc.product(copy.deepcopy(p), code, name)
             compiled_product.get_uuids(uuid_map)
-            products_contents[contents["code"]][name] = compiled_product
-        if not products_contents[contents["code"]]:
-            products_contents.pop(contents["code"])
+            products_contents[code][name] = compiled_product
+        if not products_contents[code]:
+            products_contents.pop(code)
 
     deck_map = deck_links(products_contents)
     with atomic_write('outputs/deck_map.json') as outfile:
@@ -331,6 +344,7 @@ def parse_args() -> argparse.Namespace:
 if __name__ == "__main__":
     args = parse_args()
     if args.status:
+        validate_structure()
         uuid_map = build_uuid_map(args.mtgjson)
         if not uuid_map:
             raise SystemExit("Aborting: AllPrintings could not be loaded")
