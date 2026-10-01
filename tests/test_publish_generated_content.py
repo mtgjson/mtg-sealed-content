@@ -206,6 +206,14 @@ class PublishingTests(unittest.TestCase):
         with self.assertRaisesRegex(RuntimeError, "expected >= 50000"):
             publisher.validate_output("outputs/result.json", 50000)
 
+    def test_generation_scratch_files_are_ignored(self):
+        # require_clean() refuses untracked files, so anything a generation step
+        # leaves outside the published paths must be ignored by the repository.
+        repository = Path(__file__).resolve().parent.parent
+        for path in ("dumps/ONE.json", "caches/a.json", "preconstructed-decks/a.json"):
+            result = subprocess.run(["git", "check-ignore", "-q", path], cwd=repository)
+            self.assertEqual(result.returncode, 0, f"{path} is not ignored")
+
 
 if __name__ == "__main__":
     unittest.main()

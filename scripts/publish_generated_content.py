@@ -17,10 +17,14 @@ MESSAGES = {
 
 
 def git(*args, check=True):
-    return subprocess.run(
-        ["git", *args], text=True, stdout=subprocess.PIPE,
-        stderr=subprocess.PIPE, check=check,
+    result = subprocess.run(
+        ["git", *args], text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
     )
+    if check and result.returncode:
+        # Show git's own error in the run log; the traceback alone omits it.
+        print(result.stderr, end="", file=sys.stderr, flush=True)
+        result.check_returncode()
+    return result
 
 
 def revision(ref):
