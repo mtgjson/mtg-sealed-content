@@ -8,6 +8,8 @@ bin/
 lib/
 pyvenv.cfg
 caches/
+# weekly workflow: per-set scratch files from the Gatherer generator
+/dumps/
 .DS_Store
 .claude/
 # daily workflow: source checkout used to build the decklist JSON

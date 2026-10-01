@@ -5,6 +5,19 @@ on:
     types: [opened, reopened, edited, synchronize]
 
 jobs:
+  generated-content-freshness:
+    if: github.event.pull_request.head.repo.full_name == github.repository && startsWith(github.head_ref, 'codex/generated/')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+      - name: Check the source revision used for generation
+        run: python3 scripts/publish_generated_content.py --check-freshness
+
   build:
     runs-on: ubuntu-latest
     steps:
