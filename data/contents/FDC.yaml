@@ -1,10 +1,30 @@
 code: fdc
 products:
-  Foundations Commander Deck Calling All Angels: {}
-  Foundations Commander Deck Keen Engineering: {}
-  Foundations Commander Deck Reign of Dragons: {}
-  Foundations Commander Deck Tramplesaurus Rex: {}
-  Foundations Commander Deck Wretched Ranks: {}
+  Foundations Commander Deck Calling All Angels:
+    card_count: 100
+    deck:
+    - name: Calling All Angels
+      set: fdc
+  Foundations Commander Deck Keen Engineering:
+    card_count: 100
+    deck:
+    - name: Keen Engineering
+      set: fdc
+  Foundations Commander Deck Reign of Dragons:
+    card_count: 100
+    deck:
+    - name: Reign of Dragons
+      set: fdc
+  Foundations Commander Deck Tramplesaurus Rex:
+    card_count: 100
+    deck:
+    - name: Tramplesaurus Rex
+      set: fdc
+  Foundations Commander Deck Wretched Ranks:
+    card_count: 100
+    deck:
+    - name: Wretched Ranks
+      set: fdc
   Foundations Commander Decks Set of 5:
     sealed:
     - count: 1

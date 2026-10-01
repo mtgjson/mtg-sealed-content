@@ -40,6 +40,8 @@ outputs/        # Generated JSON output (do not edit directly)
 
 The main difference between `products` and `contents` is that the first defines the product itself, with a list of identifiers, category (deck, booster, box, etc) and subtype (collector booster, draft booster, prerelease and so on), while the second contains the description of the contents themselves, i.e. what users will find should they open the product (i.e. they will find 6 Booster Boxes in a Case).
 
+Every entry in `data/contents/SETCODE.yaml` must name a product in `data/products/SETCODE.yaml`, and the validator fails otherwise. A product without a contents entry is allowed, and the scripts add an empty placeholder for it. Scripts read and write these files through `scripts/sealed_yaml.py`, which also understands the planned single-file layout, where each product's contents are nested under a `contents:` key in `data/products/SETCODE.yaml`. `scripts/convert_layout.py` converts between the two layouts.
+
 ## Automated publishing
 
 The daily rebuild, weekly rebuild and manual cache build share a
@@ -81,13 +83,13 @@ For example, assuming you want to add a completely new product, you need to add 
 - `data/products/SETCODE.yaml`
 ```yaml
   My Set Booster Box:
-    category: BOOSTER
+    category: BOOSTER_BOX
     identifiers:
-    - markeptlace: 1234
+      tcgplayerProductId: '1234'
     subtype: DRAFT
 ```
 
-- `data/products/SETCODE.yaml`
+- `data/contents/SETCODE.yaml`
 ```yaml
   My Set Booster Box:
     sealed:
@@ -518,6 +520,19 @@ JSON result:
     ]
 }
 ```
+
+### `copy`
+
+A `copy` entry gives a product the same contents as another product in the same set, for example the minimal-packaging version of a deck.
+
+Example copy YAML input:
+
+```yaml
+  Commander 2021 Commander Deck Lorehold Legacies Minimal Packaging:
+    copy: Commander 2021 Commander Deck Lorehold Legacies
+```
+
+`copy` must be the only key in the entry, and it resolves to the named product's own contents in the JSON output. The target must be in the same set file and have contents of its own, and a copy of a copy is not allowed.
 
 ## License
 

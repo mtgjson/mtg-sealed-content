@@ -1,7 +1,9 @@
 if __package__:
     from .atomic_write import atomic_write
+    from . import sealed_yaml
 else:
     from atomic_write import atomic_write
+    import sealed_yaml
 
 import json
 import re
@@ -1073,12 +1075,11 @@ def main(secret):
         ids[key] = provider_ids
         reviews.setdefault(key, {})
 
-    # Load data from the known products
-    for known_file in Path("data/products").glob("*.yaml"):
-        with open(known_file, "r") as yfile:
-            loaded_data = yaml.safe_load(yfile)
-        with atomic_write(known_file) as yfile:
-            yaml.safe_dump(loaded_data, yfile, allow_unicode=True)
+    # Load data from the known products. Re-saving each set keeps the files
+    # normalised, and in the split layout gives every product a contents entry.
+    for stem in sealed_yaml.set_stems():
+        loaded_data = sealed_yaml.load_set(stem)
+        sealed_yaml.save_set(stem, loaded_data)
 
         # For each provider, load every known id
         for key, provider in providers_dict.items():
@@ -1132,28 +1133,6 @@ def main(secret):
     # Dump new products into the review section
     with atomic_write('data/review.yaml') as yfile:
         yaml.safe_dump(reviews, yfile, allow_unicode=True)
-
-    # Add any new/modified products to the contents files
-    for set_file in Path("data/products").glob("*.yaml"):
-        with open(set_file, "r") as yfile:
-            load_data = yaml.safe_load(yfile)
-        cpath = Path("data/contents").joinpath(set_file.name)
-        if cpath.is_file():
-            with open(cpath, "r") as yfile:
-                content_data = yaml.safe_load(yfile)
-        else:
-            content_data = {"code": load_data['code'], "products":{}}
-        for p_name in load_data["products"].keys():
-            if p_name not in content_data["products"]:
-                content_data["products"][p_name] = {}
-        removes = []
-        for p_name, p_cont in content_data["products"].items():
-            if not p_cont and p_name not in load_data["products"]:
-                removes.append(p_name)
-        for n in removes:
-            content_data["products"].pop(n)
-        with atomic_write(Path('data/contents').joinpath(set_file.name)) as yfile:
-            yaml.safe_dump(content_data, yfile, allow_unicode=True)
 
 
 if __name__ == "__main__":

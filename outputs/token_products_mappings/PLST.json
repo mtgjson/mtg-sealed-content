@@ -31,6 +31,42 @@
                     "uuid": "0a417209-92ea-5ce3-ae2c-251ee22f1b92"
                 }
             ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "721484"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F721484%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "faceId": "6",
+                    "faceName": "Slug",
+                    "tokenType": "Token"
+                },
+                {
+                    "uuid": "0a417209-92ea-5ce3-ae2c-251ee22f1b92"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "721491"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F721491%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "faceId": "9",
+                    "faceName": "Tentacle",
+                    "tokenType": "Token"
+                },
+                {
+                    "uuid": "0a417209-92ea-5ce3-ae2c-251ee22f1b92"
+                }
+            ]
         }
     ],
     "10173943-4e6c-5451-9123-e8d236294818": [
@@ -1816,6 +1852,42 @@
             "tokenParts": [
                 {
                     "uuid": "745fcde4-14c3-52bb-83c0-53542f42c7d0"
+                },
+                {
+                    "uuid": "f88d4a36-51f4-5d72-b718-566d196ff26f"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "721484"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F721484%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "faceId": "6",
+                    "faceName": "Slug",
+                    "tokenType": "Token"
+                },
+                {
+                    "uuid": "f88d4a36-51f4-5d72-b718-566d196ff26f"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "721491"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F721491%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "faceId": "9",
+                    "faceName": "Tentacle",
+                    "tokenType": "Token"
                 },
                 {
                     "uuid": "f88d4a36-51f4-5d72-b718-566d196ff26f"

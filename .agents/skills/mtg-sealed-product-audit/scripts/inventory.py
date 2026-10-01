@@ -2,9 +2,9 @@
 """Inventory an MTG release year; output candidates, never automatic fixes."""
 import argparse
 import json
+import sys
 from collections import Counter
 from pathlib import Path
-import yaml
 
 p = argparse.ArgumentParser(description=__doc__)
 p.add_argument('--sealed', type=Path, required=True)
@@ -14,12 +14,19 @@ p.add_argument('--year', type=int, required=True)
 p.add_argument('--include-set', action='append', default=[])
 p.add_argument('--output', type=Path, required=True)
 a = p.parse_args()
+# The sealed repository's own loader reads either data layout (split or merged)
+sys.path.insert(0, str(a.sealed / 'scripts'))
+try:
+    import sealed_yaml  # noqa: E402
+except ImportError:
+    sys.exit(f'{a.sealed}/scripts/sealed_yaml.py not found: update the sealed checkout')
 sets = json.loads((a.search / 'index/sets.json').read_text())
 decks = {(d['set_code'].lower(), d['name']): d for d in json.loads(a.decks_json.read_text())}
+sealed_sets = list(sealed_yaml.iter_sets(a.sealed))
 contents = {}
-for f in (a.sealed / 'data/contents').glob('*.yaml'):
-    data = yaml.safe_load(f.read_text()) or {}
-    contents[str(data.get('code', f.stem)).lower()] = data.get('products', {})
+for stem, data in sealed_sets:
+    contents[str(data.get('code', stem)).lower()] = {
+        name: entry.get('contents') or {} for name, entry in data['products'].items()}
 rows, issues, undated = [], [], []
 
 def issue(product, kind, detail):
@@ -53,9 +60,8 @@ def scan(value, product, code, seen):
             else:
                 scan(values, product, code, seen)
 
-for f in sorted((a.sealed / 'data/products').glob('*.yaml')):
-    data = yaml.safe_load(f.read_text()) or {}
-    code = str(data.get('code', f.stem)).lower()
+for stem, data in sealed_sets:
+    code = str(data.get('code', stem)).lower()
     for name, info in data.get('products', {}).items():
         if not isinstance(info, dict):
             continue

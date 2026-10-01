@@ -45,27 +45,63 @@ with patch('requests.sessions.Session.request', side_effect=AssertionError('netw
         self.assertEqual(result.stdout, '')
 
 
-    def test_explicit_review_still_loads_decks_and_accepts_quit(self):
-        with tempfile.TemporaryDirectory() as directory:
-            base = Path(directory)
-            (base / 'data/contents').mkdir(parents=True)
-            target = base / 'data/contents/SLD.yaml'
-            original = {'code': 'sld', 'products': {f'Product {i}': {} for i in range(5)}}
-            target.write_text(yaml.safe_dump(original))
-            code = '''
+    def make_sld(self, base, contents):
+        """Write a split-layout SLD set whose products have the given contents."""
+        (base / 'data/products').mkdir(parents=True)
+        (base / 'data/contents').mkdir()
+        definition = {'category': 'BOX_SET', 'subtype': 'SECRET_LAIR', 'identifiers': {}}
+        (base / 'data/products/SLD.yaml').write_text(yaml.safe_dump(
+            {'code': 'sld', 'products': {name: definition for name in contents}}))
+        target = base / 'data/contents/SLD.yaml'
+        target.write_text(yaml.safe_dump({'code': 'sld', 'products': contents}))
+        return target
+
+    def review(self, directory, answers, count=1):
+        code = f'''
 import json
 import runpy
 import requests
 from unittest.mock import patch
 response = requests.Response()
 response.status_code = 200
-response._content = json.dumps({'data': {'decks': [{'name': 'Example', 'mainBoard': [{'count': 1}]}]}}).encode()
-with patch('requests.get', return_value=response) as get, patch('builtins.input', return_value='q') as prompt:
+response._content = json.dumps({{'data': {{'decks': [{{'name': 'Example', 'mainBoard': [{{'count': {count}}}]}}]}}}}).encode()
+with patch('requests.get', return_value=response) as get, patch('builtins.input', side_effect={answers!r}) as prompt:
     runpy.run_module('scripts.sld_auto', run_name='__main__')
     get.assert_called_once()
-    prompt.assert_called_once()
+    assert prompt.call_count == {len(answers)}, prompt.call_count
 '''
-            result = self.run_python(['-c', code], directory)
+        return self.run_python(['-c', code], directory)
+
+    def test_explicit_review_still_loads_decks_and_accepts_quit(self):
+        with tempfile.TemporaryDirectory() as directory:
+            base = Path(directory)
+            original = {'code': 'sld', 'products': {f'Product {i}': {} for i in range(5)}}
+            target = self.make_sld(base, original['products'])
+            result = self.review(directory, ['q'])
             self.assertEqual(result.returncode, 0, result.stderr)
             self.assertIn('Finding similar products for Example', result.stdout)
             self.assertEqual(yaml.safe_load(target.read_text()), original)
+
+    def test_mapping_a_deck_keeps_existing_bonus_notes(self):
+        with tempfile.TemporaryDirectory() as directory:
+            base = Path(directory)
+            note = [{'name': 'Drop has no bonus card slot'}]
+            products = {f'Other Product {i}': {} for i in range(4)}
+            products['Secret Lair Drop Example'] = {'other': note}
+            target = self.make_sld(base, products)
+            result = self.review(directory, ['0'], count=4)
+            self.assertEqual(result.returncode, 0, result.stderr)
+            example = yaml.safe_load(target.read_text())['products']['Secret Lair Drop Example']
+            self.assertEqual(example, {'card_count': 4, 'deck': [{'name': 'Example', 'set': 'sld'}], 'other': note})
+
+    def test_card_count_changes_only_when_confirmed(self):
+        for answer, expected in (('y', 4), ('n', 3)):
+            with self.subTest(answer=answer), tempfile.TemporaryDirectory() as directory:
+                base = Path(directory)
+                products = {f'Other Product {i}': {} for i in range(4)}
+                products['Secret Lair Drop Example'] = {'card_count': 3, 'other': [{'name': 'Bonus card unknown'}]}
+                target = self.make_sld(base, products)
+                result = self.review(directory, ['0', answer], count=4)
+                self.assertEqual(result.returncode, 0, result.stderr)
+                example = yaml.safe_load(target.read_text())['products']['Secret Lair Drop Example']
+                self.assertEqual(example['card_count'], expected)

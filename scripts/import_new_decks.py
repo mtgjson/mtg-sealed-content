@@ -1,14 +1,13 @@
 if __package__:
-    from .atomic_write import atomic_write
+    from . import sealed_yaml
 else:
-    from atomic_write import atomic_write
+    import sealed_yaml
 
 import json
 import os
 import sys
 from pathlib import Path
 import requests
-import yaml
 if __package__:
     from .deck_card_count import deck_card_count
 else:
@@ -17,7 +16,7 @@ else:
 
 def load_referenced_decks():
     """Collect every (set, deck_name) already referenced by a `deck` entry in
-    any data/contents/*.yaml.
+    any product's contents.
 
     This is a live scan of the source files. It replaces an earlier check against
     outputs/deck_map.json, which is a compiled snapshot that can lag behind
@@ -27,13 +26,9 @@ def load_referenced_decks():
     Deck") on the next run.
     """
     referenced = set()
-    for path in Path("data/contents").glob("*.yaml"):
-        with open(path) as f:
-            data = yaml.safe_load(f) or {}
-        for product in (data.get("products") or {}).values():
-            if not isinstance(product, dict):
-                continue
-            for entry in product.get("deck", []) or []:
+    for _, data in sealed_yaml.iter_sets():
+        for product in data["products"].values():
+            for entry in (product.get("contents") or {}).get("deck", []) or []:
                 if isinstance(entry, dict) and entry.get("name"):
                     referenced.add((entry.get("set"), entry["name"]))
     return referenced
@@ -118,98 +113,61 @@ subtype_fixups = {
 
 
 def add_product(set_code, name, deck):
-    products_path = Path(f"data/products/{set_code.upper()}.yaml")
+    stem = set_code.upper()
+    if sealed_yaml.set_exists(stem):
+        data = sealed_yaml.load_set(stem)
+    else:
+        data = sealed_yaml.new_set(set_code)
 
-    # Create if non-existing
-    if not products_path.exists():
-        new_file = {
-            "code": set_code,
-            "products": {},
-        }
-        with atomic_write(products_path) as f:
-            yaml.safe_dump(new_file, f, allow_unicode=True)
+    # Merge into any existing entry instead of replacing it, so identifiers,
+    # language and researched contents survive the import
+    product = data["products"].setdefault(name, {})
+    product.setdefault("identifiers", {})
 
-    # Load existing products and add the new one
-    with open(products_path, "r") as f:
-        products = yaml.safe_load(f)
+    category = deck["category"].upper().replace(" ", "_")
+    subtype = deck["type"].upper().replace(" ", "_")
 
-        # Prepare new product definition -- if a previous identifiers is present preserve it
-        new_product = {}
-        new_product["category"] = deck["category"].upper().replace(" ", "_")
-        new_product["identifiers"] = products["products"].get(name, {}).get("identifiers", {})
-        new_product["subtype"] = deck["type"].upper().replace(" ", "_")
-        new_product["release_date"] = deck["release_date"]
+    if category in category_fixups:
+        category = category_fixups[category]
 
-        if new_product["category"] in category_fixups:
-            new_product["category"] = category_fixups[new_product["category"]]
+    # Override fields for specific sets
+    if set_code in ["sld", "slc"]:
+        category = "BOX_SET"
+        subtype = "SECRET_LAIR"
 
-        # Override fields for specific sets
-        if set_code in ["sld", "slc"]:
-            new_product["category"] = "BOX_SET"
-            new_product["subtype"] = "SECRET_LAIR"
+    # Fixup subtypes
+    # XXX maybe we should propagate these types from upstream instead of having our own?
+    if subtype in subtype_fixups:
+        subtype = subtype_fixups[subtype]
 
-        # Fixup subtypes
-        # XXX maybe we should propagate these types from upstream instead of having our own?
-        if new_product["subtype"] in subtype_fixups:
-            new_product["subtype"] = subtype_fixups[new_product["subtype"]]
+    if name.endswith("Draft Night Case"):
+        category = "LIMITED_CASE"
+        subtype = "DRAFT"
+    elif name.endswith("Draft Night"):
+        category = "LIMITED"
+        subtype = "DRAFT"
 
-        if name.endswith("Draft Night Case"):
-            new_product["category"] = "LIMITED_CASE"
-            new_product["subtype"] = "DRAFT"
-        elif name.endswith("Draft Night"):
-            new_product["category"] = "LIMITED"
-            new_product["subtype"] = "DRAFT"
+    product["category"] = category
+    product["subtype"] = subtype
+    product["release_date"] = deck["release_date"]
 
-        products["products"][name] = new_product
+    # setdefault only fills fields that aren't already present, so an existing
+    # entry keeps whatever has been researched for it
+    content = product.setdefault("contents", {})
+    content.setdefault("card_count", deck_card_count(deck))
+    content.setdefault("deck", [{
+        "name": deck["name"],
+        "set": set_code,
+    }])
 
-    # Update file
-    with atomic_write(products_path) as f:
-        yaml.safe_dump(products, f, allow_unicode=True)
+    # we need to add a bonus card entry if no card has been set and there
+    # isn't any other note (i.e. to mention that the drop has no bonus card
+    if set_code == "sld" and ("card" not in content and "other" not in content):
+        content.setdefault("other", [{
+            "name": "Bonus card unknown",
+        }])
 
-
-def add_content(set_code, name, deck):
-    contents_path = Path(f"data/contents/{set_code.upper()}.yaml")
-
-    if not contents_path.exists():
-        new_file = {
-            "code": set_code,
-            "products": {},
-        }
-        with atomic_write(contents_path) as f:
-            yaml.safe_dump(new_file, f, allow_unicode=True)
-
-    with open(contents_path, "r") as f:
-        contents = yaml.safe_load(f)
-
-        # use setdefault to write fields that aren't already present in the
-        # existing entry and create new ones if we're adding a new product.
-        # Existing entries may be empty-list placeholders (e.g. `name: []`) —
-        # treat those as empty dicts so setdefault works.
-        content = contents["products"].get(name, {})
-        if not isinstance(content, dict):
-            content = {}
-
-        card_count = deck_card_count(deck)
-        content.setdefault("card_count", card_count)
-
-        new_deck = [{
-            "name": deck["name"],
-            "set": set_code,
-        }]
-        content.setdefault("deck", new_deck)
-
-        # we need to add a bonus card entry if no card has been set and there
-        # isn't any other note (i.e. to mention that the drop has no bonus card
-        if set_code == "sld" and ("card" not in content and "other" not in content):
-            note = [{
-                "name": "Bonus card unknown",
-            }]
-            content.setdefault("other", note)
-
-        contents["products"][name] = content
-
-    with atomic_write(contents_path) as f:
-        yaml.safe_dump(contents, f, allow_unicode=True)
+    sealed_yaml.save_set(stem, data)
 
 
 def main():
@@ -244,7 +202,6 @@ def main():
         name = name.replace("Commander Commander", "Commander")
 
         add_product(set_code, name, deck)
-        add_content(set_code, name, deck)
 
 
 if __name__ == "__main__":
