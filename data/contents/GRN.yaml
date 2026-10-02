@@ -73,15 +73,9 @@ products:
       number: GR8
       set: med
     card_count: 8
-    other:
-    - name: Soldier Token
-    - name: Zombie Token
-    - name: Construct Token
-    - name: Elspeth, Knight-Errant Emblem
-    - name: Liliana, the Last Hope Emblem
-    - name: Ral, Izzet Viceroy Emblem
-    - name: Teferi, Hero of Dominaria Emblem
-    - name: Vraska, Golgari Queen Emblem
+    deck:
+    - name: Guilds of Ravnica Mythic Edition Tokens
+      set: grn
     sealed:
     - count: 24
       name: Guilds of Ravnica Booster Pack
