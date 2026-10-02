@@ -43,7 +43,7 @@ After investigating plausible alternatives, multiple supported drop-specific out
 
 ## Modeling
 
-- `mtg-sealed-content/data/contents/SLD.yaml`: supported fixed bonuses stay direct `card` entries. Random bonus slots reference a complete drop-specific booster in `taw/magic-search-engine/data/boosters/sld-bonus-<drop>.yaml`. Do not expand sealed YAML into large lists of single-card alternatives.
+- `mtg-sealed-content/data/products/SLD.yaml` (each product's `contents:`): supported fixed bonuses stay direct `card` entries. Random bonus slots reference a complete drop-specific booster in `taw/magic-search-engine/data/boosters/sld-bonus-<drop>.yaml`. Do not expand sealed YAML into large lists of single-card alternatives.
 - A pack reference must resolve to a real, compiled definition. Add missing boosters and fix incorrect ones in their owning repo. A regular pool plus possible Blueprint/Petitioner/Apostle replacements belongs inside the same complete bonus-slot booster, not as separate packs that accidentally add cards.
 - Use explicit printing membership. Share a drop's booster across finish/language variants only when the bonus pool and finish agree; split when they differ. Preserve `copy` inheritance instead of adding conflicting content beside it.
 - Do not remove a card from one drop because another drop also contains it. Do not infer insertion dates from database release dates or universal eligibility from a superdrop-wide checklist.
