@@ -140,7 +140,12 @@ cardTrader:
     identifiers:
       cardtraderId: '152838'
     subtype: UNKNOWN
-coolstuffinc: {}
+coolstuffinc:
+  MTG - Edge of Eternities - Play Booster Box:
+    category: UNKNOWN
+    identifiers:
+      csiId: '409091'
+    subtype: UNKNOWN
 hareruya:
   Secret Lair The Full Bundle [SLD]:
     category: UNKNOWN
@@ -148,11 +153,6 @@ hareruya:
       hareruyaId: '78420'
     subtype: UNKNOWN
 miniaturemarket:
-  'MTG: Foundations - Starter Commander Deck - Set of 5 (Preorder)':
-    category: UNKNOWN
-    identifiers:
-      miniaturemarketId: 019fd2e0c4527304ae8cade84c3db4b6
-    subtype: UNKNOWN
   'MTG: Reality Fracture - Prerelase Pack (Preorder)':
     category: UNKNOWN
     identifiers:
