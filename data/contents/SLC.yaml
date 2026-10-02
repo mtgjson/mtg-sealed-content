@@ -1,14 +1,9 @@
 code: slc
 products:
   Secret Lair 30th Anniversary Countdown Kit:
-    card:
-    - foil: true
-      name: Lotus Field
-      number: 2023
-      set: slc
-    card_count: 30
-    deck:
-    - name: 30th Anniversary Countdown Kit
+    card_count: 31
+    pack:
+    - code: default
       set: slc
   Secret Lair Countdown An Encyclopedia of Magic:
     card:
