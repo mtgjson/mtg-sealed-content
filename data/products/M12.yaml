@@ -29,36 +29,41 @@ products:
         name: 2012 Core Set Booster Pack
         set: m12
       variable:
-      - deck:
-        - name: 'Booster Battle Pack: White A'
-          set: m12
-      - deck:
-        - name: 'Booster Battle Pack: White B'
-          set: m12
-      - deck:
-        - name: 'Booster Battle Pack: Blue A'
-          set: m12
-      - deck:
-        - name: 'Booster Battle Pack: Blue B'
-          set: m12
-      - deck:
-        - name: 'Booster Battle Pack: Black A'
-          set: m12
-      - deck:
-        - name: 'Booster Battle Pack: Black B'
-          set: m12
-      - deck:
-        - name: 'Booster Battle Pack: Red A'
-          set: m12
-      - deck:
-        - name: 'Booster Battle Pack: Red B'
-          set: m12
-      - deck:
-        - name: 'Booster Battle Pack: Green A'
-          set: m12
-      - deck:
-        - name: 'Booster Battle Pack: Green B'
-          set: m12
+      - variable:
+        - deck:
+          - name: 'Booster Battle Pack: White A'
+            set: m12
+        - deck:
+          - name: 'Booster Battle Pack: White B'
+            set: m12
+      - variable:
+        - deck:
+          - name: 'Booster Battle Pack: Blue A'
+            set: m12
+        - deck:
+          - name: 'Booster Battle Pack: Blue B'
+            set: m12
+      - variable:
+        - deck:
+          - name: 'Booster Battle Pack: Black A'
+            set: m12
+        - deck:
+          - name: 'Booster Battle Pack: Black B'
+            set: m12
+      - variable:
+        - deck:
+          - name: 'Booster Battle Pack: Red A'
+            set: m12
+        - deck:
+          - name: 'Booster Battle Pack: Red B'
+            set: m12
+      - variable:
+        - deck:
+          - name: 'Booster Battle Pack: Green A'
+            set: m12
+        - deck:
+          - name: 'Booster Battle Pack: Green B'
+            set: m12
       variable_mode:
         count: 4
         replacement: false
