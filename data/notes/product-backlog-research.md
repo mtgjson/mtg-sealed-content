@@ -99,3 +99,72 @@ Thirty of approximately 6,000 Helvaults were premium versions, sent to selected 
 The ordinary-box accessory totals and 54-card count are corrected. Only one copy of each oversized identity remains mapped; the other 49 copies are explicitly described as unresolved, not modeled as independent draws. The 108 physical double-sided tokens remain descriptive until there is a suitable full-box deck definition. This is a partial contents correction, not a completed Helvault model.
 
 [Adam Grayson’s contemporary opening](https://www.youtube.com/watch?v=AwaU4PKGg2s) shows the full box and confirms the bulk contents, but does not provide a readable count per oversized identity. A [contemporary collector post](https://www.mtgsalvation.com/forums/market-street/market-street-cafe/387091-helvault-oversized-cards-foil) says 10–11 copies per identity in premium boxes without establishing which identity has ten or how allocations vary. That statement is insufficient to assign a fixed normal-box collation. Premium boxes remain unmodeled; no twelve-promo checklist or separate catalog identifier was established.
+
+## Rivals Quick Start support-card quantities (#621)
+
+The [complete 11-by-11 printing sheet](https://www.magiclibrarities.net/images/edition_comment/5234.png)
+resolves the two-versus-four rules-card discrepancy: general/combat reference
+cards occupy row 3 columns 6–7 and row 9 columns 1–2. These are four physical
+cards, two copies of each reference. The [front close-up](https://www.magiclibrarities.net/images/edition_comment/5236.png)
+and [back close-up](https://www.magiclibrarities.net/images/edition_comment/5237.png)
+show that each is double-sided. The product now describes four rules cards.
+This does not resolve the June/July release-date conflict or distinct Shepard
+Poorman gameplay printing support. The original announcement linked by the
+collector page could not be retrieved; its filename is not release evidence.
+
+## Starter 2000 sampler date (#615)
+
+Remove the erroneous January 29, 2019 product override. The [collector inventory](https://www.magiclibrarities.net/1351-rarities-mtg-demo-game-boosters-and-samplers-english-cards-starter-2000-sampler-2000.html)
+identifies TopDeck 14, January 2001 cover date. That establishes a contradiction
+with 2019, not an exact distribution day. No new exact date is asserted; the
+ordinary inherited set date remains a fallback, not a verified sampler date.
+
+## ELD Collector and Unglued collation (#596, #619)
+
+The [ELD sheet reconstruction](https://www.lethe.xyz/mtg/collation/eld.html)
+supports 115 foil common and 89 foil uncommon printings, with ordinary and
+showcase versions appearing once per respective sheet. The three nonfoil
+showcase slots use the observed RRC/RUC/RCC/UUC/UCC/CCC layouts with relative
+sample weights 1/1/3/4/4/7. These weights estimate production frequencies from
+observations; they are not official odds. Rare/mythic weights, foil C/U layout
+rates, ancillary distributions and foil deck-exclusive eligibility remain
+unresolved and retain their existing estimates.
+
+The [Unglued sheet reconstruction](https://www.lethe.xyz/mtg/collation/ugl.html)
+identifies eleven C4 and twenty-two C3 commons, and twenty-six R4 plus two R3
+rares (Ashnod's Coupon and Strategy, Schmategy). The booster now uses these
+marginal weights. Sequential sheet runs and tokens occupying uncommon slots
+remain unresolved by the current model. No eleventh card is added.
+
+## Remaining issue coverage
+
+Every open historical product issue was reviewed against the current defaults.
+A source conflict is retained as a question, not converted into an exact date,
+UUID or probability. This table distinguishes implemented corrections from
+work that still needs evidence or upstream representation.
+
+| Issue | Current result and remaining requirement |
+| --- | --- |
+| [623](https://github.com/taw/magic-search-engine/issues/623), 1994 | Live MTGJSON FBB has 307 cards; FWB has none. The search index lacks both sets. Foreign-printing ingestion and supported booster/starter collation are prerequisites; ordinary Revised UUIDs are not replacements. |
+| [622](https://github.com/taw/magic-search-engine/issues/622), 1995 | Live MTGJSON has 378 4BB and 125 BCHR cards, but neither is in the search index. Resolve ingestion, language/printing identity and regional dates before supplying exact recipes. |
+| [621](https://github.com/taw/magic-search-engine/issues/621), 1996 | Rivals rules-card count resolved by sheet scan. Rivals date/printing, Multiverse preview collation/date and Japanese Introductory variant identity remain open. PTC still has only its blank token upstream; sixteen biography/decklist identifiers are missing. |
+| [620](https://github.com/taw/magic-search-engine/issues/620), 1997 | Slemr's 61+15 gameplay cards do not prove a blank count. Complete package evidence, WC97 display/date evidence and Vanguard gift regional metadata remain needed. |
+| [619](https://github.com/taw/magic-search-engine/issues/619), 1998 | Unglued common/rare marginal weights corrected. Token-slot/sequential collation, contradictory WC98 assortments/dates, separate VHS catalog identities and Portal regional metadata remain. |
+| [618](https://github.com/taw/magic-search-engine/issues/618), 1999 | WC99 blanks merged. Retail date, Warmonger inclusion in the Fat Pack guide and separate combined Starter kit identity remain unverified. |
+| [616](https://github.com/taw/magic-search-engine/issues/616), 2000 | WC00 retail month differs from tournament date; no independently verified exact day. |
+| [615](https://github.com/taw/magic-search-engine/issues/615), 2001 | Invalid sampler date removed; exact distribution date, WC01 retail date and Planeshift counter evidence remain open. |
+| [614](https://github.com/taw/magic-search-engine/issues/614), 2002 | WC02 retail date remains disputed. Advance release plans cannot establish actual distribution. |
+| [613](https://github.com/taw/magic-search-engine/issues/613), 2003 | Mirrodin contents corroborated. Eighth Edition oversized identities remain absent from current 8ED/P8ED data; WC03 retail dating remains open. |
+| [612](https://github.com/taw/magic-search-engine/issues/612), 2004 | WC04 retail date needs contemporary corroboration. |
+| [611](https://github.com/taw/magic-search-engine/issues/611), 2005 | Ninth Edition oversized identities remain absent from current 9ED/P9ED data. The twelve-card box pool and fixed Fat Pack Force of Nature cannot use regular-size UUIDs. |
+| [609](https://github.com/taw/magic-search-engine/issues/609), 2008 | Anniversary land pack merged; June 20 versus June 25 date remains unresolved. |
+| [604](https://github.com/taw/magic-search-engine/issues/604), 2011 | M12 nested variables select four distinct colors, with independent A/B choices. Equal choice weights remain estimates. |
+| [605](https://github.com/taw/magic-search-engine/issues/605), 2012 | M13 corrected to forty deck cards with five additional packs; nested variables preserve two different colors per deck and allow repetition between decks. RTR and Duels mappings merged. Helvault exact allocation/premium identities remain unresolved. |
+| [601](https://github.com/taw/magic-search-engine/issues/601), 2016 | Tokens and W16 merged. OGW exact land-art counts and Wastes split still need a complete opening inventory. |
+| [596](https://github.com/taw/magic-search-engine/issues/596), 2019 | ELD sheet/layout refinement implemented. RNA exact guild assignments, WAR overlapping promo eligibility and experimental-product metadata remain open. A January 2019 Japanese shop announcement supports Japanese availability but does not establish the English SKU date. |
+
+Upstream presence was checked against [MTGJSON set files](https://mtgjson.com/downloads/all-files/).
+Presence in MTGJSON does not imply that the search index ingests the printing.
+The [January 25 Japanese RNA release report](https://www.izzetmtgnews.com/archives/75505)
+quotes a January 24 shop announcement for Collector Boosters on sale the next
+day; this is regional evidence, not a basis for overwriting every catalog date.
