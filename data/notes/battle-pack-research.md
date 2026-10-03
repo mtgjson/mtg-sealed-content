@@ -33,17 +33,21 @@ the two deck components descriptive rather than pretending that one arbitrary
 
 ## M13
 
-Ertai's Lament's 2012 follow-up comment records two observed M13 decks: a
-white/red pair and a blue/green pair, each built from five-spell colour packets
-plus five basics per colour. The M13 Battle Pack report also records repeated
-black/green, black/red, white/red and white/blue combinations and notes that
-the common/uncommon packets repeat across boxes:
-<https://ertaislament.com/2011/09/18/booster-battle-pack-review-part-1-of-2/> and
-<https://mtgadventures.blogspot.com/2012/08/m13-battle-packs.html>.
-The MTG Salvation discussion summarizes the result as five possible 20-card
-decks, but does not provide a complete primary checklist:
-<https://www.mtgsalvation.com/forums/magic-fundamentals/magic-general/330873-m13-rtr-booster-battle-pack-card-list-please>.
+The contemporary M13 Battle Pack opening report shows complete five-spell
+colour packets, each with five matching basic lands. Its black packet scan is
+Walking Corpse, Disentomb, Essence Drain, Rise from the Grave and Bloodthrone
+Vampire; the red packet is Bladetusk Boar, Trumpet Blast, Volcanic Strength,
+Krenko's Command and Arms Dealer; and the report documents the observed
+black/red, black/green, white/red and white/blue pairings. The companion
+checklist records the remaining packets: white (Attended Knight, War Falcon,
+Angel's Mercy, Glorious Charge, Crusader of Odric), blue (Welkin Tern,
+Archaeomancer, Hydrosurge, Merfolk of the Pearl Trident, Talrand's Invocation)
+and green (Deadly Recluse, Ranger's Path, Spiked Baloth, Bountiful Harvest,
+Duskdale Wurm). Sources:
+<https://mtgadventures.blogspot.com/2012/08/m13-battle-packs.html> and
+<https://ertaislament.com/2011/09/18/booster-battle-pack-review-part-1-of-2/>.
 
-Until a complete M13 packet checklist is recovered, no named M13 deck files
-are added. The two M13 boosters remain ordinary 15-card M13 draft boosters;
-the semi-randomized packet pool is separate from booster collation.
+The product is modeled as two distinct packets selected without replacement
+from these five colour packets. This captures the documented semi-randomized
+colour correlation without asserting an unsupported weighting among the ten
+possible pairs. The two M13 boosters remain ordinary 15-card draft boosters.

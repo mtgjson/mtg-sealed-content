@@ -23,13 +23,31 @@ products:
     contents:
       card_count: 70
       other:
-      - name: Two semi-randomized 20-card decks (four fixed 10-card colour packets)
       - name: Play guide
       - name: Rules insert
       sealed:
       - count: 2
         name: 2013 Core Set Booster Pack
         set: m13
+      variable:
+      - deck:
+        - name: 'Booster Battle Pack: White'
+          set: m13
+      - deck:
+        - name: 'Booster Battle Pack: Blue'
+          set: m13
+      - deck:
+        - name: 'Booster Battle Pack: Black'
+          set: m13
+      - deck:
+        - name: 'Booster Battle Pack: Red'
+          set: m13
+      - deck:
+        - name: 'Booster Battle Pack: Green'
+          set: m13
+      variable_mode:
+        count: 2
+        replacement: false
   2013 Core Set Booster Battle Pack Display:
     category: DECK_BOX
     subtype: BATTLE
