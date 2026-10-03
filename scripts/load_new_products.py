@@ -1075,8 +1075,7 @@ def main(secret):
         ids[key] = provider_ids
         reviews.setdefault(key, {})
 
-    # Load data from the known products. Re-saving each set keeps the files
-    # normalised, and in the split layout gives every product a contents entry.
+    # Load data from the known products. Re-saving each set keeps the files normalised.
     for stem in sealed_yaml.set_stems():
         loaded_data = sealed_yaml.load_set(stem)
         sealed_yaml.save_set(stem, loaded_data)

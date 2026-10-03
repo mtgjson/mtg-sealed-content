@@ -39,7 +39,7 @@ outputs/        # Generated JSON output (do not edit directly)
 
 Each set has one file, named after its set code. Every product in it is defined by a list of identifiers, a category (deck, booster, box, etc) and a subtype (collector booster, draft booster, prerelease and so on), and its `contents:` key describes what users will find should they open the product (i.e. they will find 6 Booster Boxes in a Case).
 
-A product whose contents are unknown has no `contents:` key. Scripts read and write these files through `scripts/sealed_yaml.py`. Contents used to live in separate `data/contents/SETCODE.yaml` files: `scripts/convert_layout.py` converts between the two layouts, and its `fold` command merges a `data/contents/SETCODE.yaml` left over from an older branch.
+A product whose contents are unknown has no `contents:` key. Scripts read and write these files through `scripts/sealed_yaml.py`. Contents used to live in separate `data/contents/SETCODE.yaml` files, until [#782](https://github.com/mtgjson/mtg-sealed-content/pull/782) folded them in, and the validator rejects a `data/contents/` file if an old branch brings one back.
 
 ## Automated publishing
 
