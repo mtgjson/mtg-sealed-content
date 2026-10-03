@@ -30,24 +30,48 @@ products:
         name: 2013 Core Set Booster Pack
         set: m13
       variable:
-      - deck:
-        - name: 'Booster Battle Pack: White'
-          set: m13
-      - deck:
-        - name: 'Booster Battle Pack: Blue'
-          set: m13
-      - deck:
-        - name: 'Booster Battle Pack: Black'
-          set: m13
-      - deck:
-        - name: 'Booster Battle Pack: Red'
-          set: m13
-      - deck:
-        - name: 'Booster Battle Pack: Green'
-          set: m13
+      - variable:
+        - variable:
+          - deck:
+            - name: 'Booster Battle Pack: White A'
+              set: m13
+          - deck:
+            - name: 'Booster Battle Pack: White B'
+              set: m13
+        - variable:
+          - deck:
+            - name: 'Booster Battle Pack: Blue A'
+              set: m13
+          - deck:
+            - name: 'Booster Battle Pack: Blue B'
+              set: m13
+        - variable:
+          - deck:
+            - name: 'Booster Battle Pack: Black A'
+              set: m13
+          - deck:
+            - name: 'Booster Battle Pack: Black B'
+              set: m13
+        - variable:
+          - deck:
+            - name: 'Booster Battle Pack: Red A'
+              set: m13
+          - deck:
+            - name: 'Booster Battle Pack: Red B'
+              set: m13
+        - variable:
+          - deck:
+            - name: 'Booster Battle Pack: Green A'
+              set: m13
+          - deck:
+            - name: 'Booster Battle Pack: Green B'
+              set: m13
+        variable_mode:
+          count: 2
+          replacement: false
       variable_mode:
         count: 2
-        replacement: false
+        replacement: true
   2013 Core Set Booster Battle Pack Display:
     category: DECK_BOX
     subtype: BATTLE
