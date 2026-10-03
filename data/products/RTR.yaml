@@ -22,8 +22,28 @@ products:
       tcgplayerProductId: '72027'
       tntId: '820221'
     contents:
+      # Follow the Gatecrash model: two distinct guild packets, equally weighted.
+      # Exact factory pairing frequencies are not established; see the research note.
+      variable:
+      - deck:
+        - name: 'Booster Battle Pack: Azorius'
+          set: rtr
+      - deck:
+        - name: 'Booster Battle Pack: Izzet'
+          set: rtr
+      - deck:
+        - name: 'Booster Battle Pack: Golgari'
+          set: rtr
+      - deck:
+        - name: 'Booster Battle Pack: Selesnya'
+          set: rtr
+      - deck:
+        - name: 'Booster Battle Pack: Rakdos'
+          set: rtr
+      variable_mode:
+        count: 2
+        replacement: false
       other:
-      - name: Two 22-card semi-randomized decks
       - name: Learn to play guide
       - name: Rules insert
       sealed:
