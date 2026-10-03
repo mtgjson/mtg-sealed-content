@@ -20,6 +20,16 @@ products:
       mcmId: '257500'
       tcgplayerProductId: '97819'
       tntId: '385253'
+    contents:
+      card_count: 70
+      other:
+      - name: Two semi-randomized 20-card decks
+      - name: Play guide
+      - name: Rules insert
+      sealed:
+      - count: 2
+        name: 2013 Core Set Booster Pack
+        set: m13
   2013 Core Set Booster Battle Pack Display:
     category: DECK_BOX
     subtype: BATTLE
@@ -28,6 +38,11 @@ products:
       mcmId: '257501'
       tcgplayerProductId: '485831'
       tntId: '385254'
+    contents:
+      sealed:
+      - count: 12
+        name: 2013 Core Set Booster Battle Pack
+        set: m13
   2013 Core Set Booster Box:
     category: BOOSTER_BOX
     subtype: DRAFT
