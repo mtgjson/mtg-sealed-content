@@ -1,0 +1,8 @@
+# Commits that only move content around, skipped by `git blame`.
+# GitHub reads this file automatically. For local blame, run
+#   git config blame.ignoreRevsFile .git-blame-ignore-revs
+
+# Fold data/contents into data/products (#782). Blame only follows lines
+# within a file, so for the history of a product's contents look at
+# data/contents/SET.yaml in the commits before this one.
+d7d5aff66ea859220e33a4abe4edb6f6f3e77d0b
