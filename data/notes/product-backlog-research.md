@@ -1,5 +1,11 @@
 # Product contents research
 
+## Welcome Deck 2016 boxes (#601)
+
+[Wizards Japan's April 8, 2016 announcement](https://mtg-jp.com/reading/publicity/0016677/) explicitly describes two 30-card decks per package: one matching the box color and one random different color. Its five published lists match the canonical W16 half-decks. The pictured Gideon box matches [CardTrader 147770](https://www.cardtrader.com/en/cards/147770-welcome-deck-2016-gideon-preconstructed-deck-welcome-deck-2016), resolving the individual-half versus full-box catalog ambiguity.
+
+Each sealed product therefore references its existing fixed half and a variable choice of the other four halves, with a 60-card total. The 20 ordered color pairs preserve complete deck correlations. Equal default weights are a modeling estimate; Wizards does not give manufacturing frequencies. Unlike the independently documented M20 boxes, W16 explicitly excludes a same-color second half.
+
 ## Commander 2016 and Planechase Anthology (#601)
 
 Each Commander 2016 deck contains ten physical double-sided tokens. The canonical deck Sideboards now preserve both exact printing selectors on one row per pairing. Stalwart Unity intentionally contains white Spirit tokens instead of the Birds its Migratory Route creates: this is a documented packaging error, not a reason to substitute tokens.
