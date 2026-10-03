@@ -1,5 +1,47 @@
 # Product contents research
 
+## World Championship 1999 blank support cards (#618)
+
+The [detailed 1999 collector checklist](https://www.magiclibrarities.net/576-rarities-world-championships-decks-support-cards-english-cards-1999.html) establishes twelve plain blanks in each deck except Kai Budde, who has eleven plain blanks and one bevelled blank. Comparing its two scans with [WC99 00a](https://scryfall.com/card/wc99/00a/blank-card) and [WC99 00b](https://scryfall.com/card/wc99/00b/blank-card) identifies 00a as plain and 00b as bevelled. The latter has an additional rectangular bevel around the brown outer frame.
+
+All 48 blanks belong in the four existing canonical decks' Sideboards as tokens. They resolve through the token UUID exporter, and each deck retains 75 gameplay cards. This resolves blank identities and quantities, not the separate retail-release-date question.
+
+## Mirrodin Fat Pack (#613)
+
+The existing three-booster plus one-tournament-pack recipe is corroborated by [Heritage Auctions' photographed sealed lot 57034](https://comics.ha.com/itm/memorabilia/trading-cards/magic-the-gathering-mirrodin-sealed-fat-pack-wizards-of-the-coast-2003-/a/332537-57034.s?ic16=ViewItem-BrowseTabs-Auction-Archive-ThisAuction-120115), sold September 10, 2025. Its description also specifies the two premium cards, player's guide, novel and life counter. This agrees with the [per-set Bundle inventory](https://mtg.wiki/page/Bundle).
+
+No recipe change is justified. The conflicting six-booster Card Kingdom search description remains an unsupported variant claim; it is not sufficient to create another product. The auction text was accessible, but its image viewer was blocked, so this is corroboration from an auction catalog rather than a newly transcribed package back.
+
+## War of the Spark prerelease promos (#596)
+
+[Wizards' primer](https://magic.wizards.com/en/news/feature/war-of-the-spark-prerelease-primer) and the [judge leaflet](https://blogs.magicjudges.org/playerexperience/files/2019/04/EN-War-of-the-Spark-Prerelease-Info-Leaflet-V1.0.pdf) describe a rare/mythic promo and a planeswalker promo without explicitly resolving whether their pools overlap.
+
+Opening transcripts corroborate these pairs:
+
+| Source | Promo reveal | Pair |
+| --- | --- | --- |
+| [MTG Unpacked, box 1](https://www.youtube.com/watch?v=WxT8BaDrH6k&t=682s) | 11:22-12:20 | Vraska, Swarm's Eminence + God-Eternal Kefnet |
+| [MTG Unpacked, box 2](https://www.youtube.com/watch?v=oY3X5ukq3KI&t=712s) | 11:52-12:33 | Angrath, Captain of Chaos + Bolas's Citadel |
+| [MTG Unpacked, box 4](https://www.youtube.com/watch?v=EhtUrTHUNyA&t=562s) | 9:22-10:08 | Bolas's Citadel + Samut, Tyrant Smasher |
+| [Joey Moss opening](https://www.youtube.com/watch?v=BVEigTPN8Qw&t=616s) | 10:16-10:47 | Nissa, Who Shakes the World + Command the Dreadhorde |
+
+None establishes a two-planeswalker promo pair. Absence in this small sample is not proof of exclusion; preserve the current non-planeswalker first slot pending explicit collation evidence or a positive opening. Do not infer slot overlap from a planeswalker found in one of the six ordinary boosters.
+
+## Ravnica Allegiance seeded guild packs (#596)
+
+[Wizards specifies eight possible promos per guild](https://magic.wizards.com/en/news/feature/ravnica-allegiance-prerelease-primer). The current approximate filters admit 9 Azorius, 11 Orzhov, 12 Rakdos, 10 Gruul and 11 Simic candidates. Positive observations help establish membership, but do not supply exclusions or manufacturing odds:
+
+| Guild | Observed stamped promo | Source |
+| --- | --- | --- |
+| Azorius | Hero of Precinct One | [MTG Unpacked, 6:37-6:56](https://www.youtube.com/watch?v=ghkone_Q5NA&t=397s) |
+| Orzhov | Kaya's Wrath | [MTG Unpacked, 9:28-9:55](https://www.youtube.com/watch?v=yg03fRbzqak&t=568s) |
+| Rakdos | Awaken the Erstwhile | [MTG Interactive, 1:39-2:04](https://www.youtube.com/watch?v=CojiP2Cs7sI&t=99s) |
+| Gruul | Amplifire | [MTG Unpacked, 6:26-6:54](https://www.youtube.com/watch?v=bacgtQAGbkw&t=386s); [Sameer Merchant's contemporary report](https://www.mtggoldfish.com/articles/lessons-from-the-ravnica-allegiance-prerelease) |
+| Simic | Growth-Chamber Guardian | [MTG Unpacked, 6:36-7:20](https://www.youtube.com/watch?v=NtzTf0KyhTo&t=396s) |
+| Simic | Zegana, Utopian Speaker | [Sameer Merchant's second prerelease](https://www.mtggoldfish.com/articles/lessons-from-the-ravnica-allegiance-prerelease) |
+
+The Azorius opening also visibly reveals **Screaming Shield, RNA 239**, at 7:03-7:05 in the seeded pack, after Azorius Locket and before Senate Guildmage. The current filter excludes this colorless, unwatermarked uncommon. Add this exact observed exception to Azorius; do not generalize it to other guilds or all colorless cards. The remaining independent common/uncommon sheets, exact eight-card promo assignments, pack correlations and 2:1 per-card rare/mythic weighting remain unresolved. The membership fix does not claim to reconstruct physical pack lists.
+
 ## Welcome Deck 2016 boxes (#601)
 
 [Wizards Japan's April 8, 2016 announcement](https://mtg-jp.com/reading/publicity/0016677/) explicitly describes two 30-card decks per package: one matching the box color and one random different color. Its five published lists match the canonical W16 half-decks. The pictured Gideon box matches [CardTrader 147770](https://www.cardtrader.com/en/cards/147770-welcome-deck-2016-gideon-preconstructed-deck-welcome-deck-2016), resolving the individual-half versus full-box catalog ambiguity.
