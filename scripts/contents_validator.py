@@ -260,13 +260,11 @@ def validate_structure():
     if failed:
         raise ImportError()
 
-    split = sealed_yaml.is_split()
     for stem, data in sets:
         for name, p in data["products"].items():
             for key in sorted(set(p) - sealed_yaml.PRODUCT_KEYS):
                 if key in sealed_yaml.CONTENT_KEYS:
-                    where = f"in data/contents/{stem}.yaml" if split else "under `contents:`"
-                    print(f"Product {name} in set {stem} has `{key}` at product level; it belongs {where}")
+                    print(f"Product {name} in set {stem} has `{key}` at product level; it belongs under `contents:`")
                 else:
                     print(f"Product {name} in set {stem} has an unknown field `{key}`")
                 failed = True

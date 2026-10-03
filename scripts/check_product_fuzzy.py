@@ -395,8 +395,6 @@ def main(argv=None):
                 "subtype": subtype,
             }
 
-            # In the split layout this also gives the product its empty contents
-            # placeholder, to be filled in separately.
             sealed_yaml.save_set(set_code, content)
 
             remove_from_review(product)
