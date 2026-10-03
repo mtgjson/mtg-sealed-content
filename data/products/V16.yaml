@@ -2,6 +2,7 @@ code: v16
 products:
   From the Vault Lore:
     category: BOX_SET
+    subtype: FROM_THE_VAULT
     identifiers:
       abuId: '1100542'
       cardKingdomId: '212390'
@@ -12,4 +13,8 @@ products:
       scgId: SLD-MTG-BXS-V16-EN
       tcgplayerProductId: '120968'
       tntId: '1178111'
-    subtype: FROM_THE_VAULT
+    contents:
+      card_count: 15
+      deck:
+      - name: 'From the Vault: Lore'
+        set: v16

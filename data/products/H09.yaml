@@ -2,6 +2,7 @@ code: h09
 products:
   Premium Deck Series Slivers:
     category: DECK
+    subtype: PREMIUM
     identifiers:
       abuId: '1101040'
       cardKingdomId: '128381'
@@ -11,4 +12,10 @@ products:
       scgId: SLD-MTG-BXS-H09-EN
       tcgplayerProductId: '90957'
       tntId: '287108'
-    subtype: PREMIUM
+    contents:
+      card_count: 60
+      deck:
+      - name: Slivers
+        set: h09
+      other:
+      - name: Premium Deck Series Spindown

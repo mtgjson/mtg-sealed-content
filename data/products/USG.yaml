@@ -2,6 +2,7 @@ code: usg
 products:
   Urzas Saga Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1107800'
       cardKingdomId: '1204'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-USG-EN
       tcgplayerProductId: '27316'
       tntId: '90179'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Urzas Saga Booster Pack
+        set: usg
   Urzas Saga Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Urzas Saga Booster Box
+        set: usg
   Urzas Saga Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476962'
       cardKingdomId: '1203'
@@ -29,17 +40,36 @@ products:
       scgId: SLD-MTG-PCK-USG-EN
       tcgplayerProductId: '27378'
       tntId: '90180'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: usg
   Urzas Saga Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       abuId: '1476963'
       cardtraderId: '45447'
       mcmId: '210243'
       tcgplayerProductId: '629829'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 3
+        name: Urzas Saga Theme Deck Sleeper
+        set: usg
+      - count: 3
+        name: Urzas Saga Theme Deck Special Delivery
+        set: usg
+      - count: 3
+        name: Urzas Saga Theme Deck The Plague
+        set: usg
+      - count: 3
+        name: Urzas Saga Theme Deck Tombstone
+        set: usg
   Urzas Saga Theme Deck Sleeper:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100276'
       cardKingdomId: '1205'
@@ -49,9 +79,14 @@ products:
       mcmId: '253777'
       tcgplayerProductId: '116050'
       tntId: '106954'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Sleeper
+        set: usg
   Urzas Saga Theme Deck Special Delivery:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100271'
       cardKingdomId: '1206'
@@ -60,9 +95,14 @@ products:
       mcmId: '253778'
       tcgplayerProductId: '116051'
       tntId: '106958'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Special Delivery
+        set: usg
   Urzas Saga Theme Deck The Plague:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100281'
       cardKingdomId: '1207'
@@ -71,9 +111,14 @@ products:
       mcmId: '253779'
       tcgplayerProductId: '116052'
       tntId: '106930'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: The Plague
+        set: usg
   Urzas Saga Theme Deck Tombstone:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100283'
       cardKingdomId: '1208'
@@ -83,14 +128,33 @@ products:
       mcmId: '253780'
       tcgplayerProductId: '116053'
       tntId: '106942'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Tombstone
+        set: usg
   Urzas Saga Theme Decks Set of 4:
     category: SUBSET
+    subtype: THEME
     identifiers:
       abuId: '1100284'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Urzas Saga Theme Deck Sleeper
+        set: usg
+      - count: 1
+        name: Urzas Saga Theme Deck Special Delivery
+        set: usg
+      - count: 1
+        name: Urzas Saga Theme Deck The Plague
+        set: usg
+      - count: 1
+        name: Urzas Saga Theme Deck Tombstone
+        set: usg
   Urzas Saga Tournament Pack:
     category: LIMITED
+    subtype: TOURNAMENT
     identifiers:
       abuId: '1100268'
       cardKingdomId: '1209'
@@ -100,9 +164,14 @@ products:
       scgId: SLD-MTG-PCK-USGTOURNAMENT-EN
       tcgplayerProductId: '127432'
       tntId: '90186'
-    subtype: TOURNAMENT
+    contents:
+      card_count: 75
+      pack:
+      - code: tournament
+        set: usg
   Urzas Saga Tournament Pack Display:
     category: LIMITED_CASE
+    subtype: TOURNAMENT
     identifiers:
       abuId: '1107802'
       cardKingdomId: '240235'
@@ -112,4 +181,8 @@ products:
       scgId: SLD-MTG-BBX-USGTOURNAMENT-EN
       tcgplayerProductId: '234726'
       tntId: '90185'
-    subtype: TOURNAMENT
+    contents:
+      sealed:
+      - count: 12
+        name: Urzas Saga Tournament Pack
+        set: usg

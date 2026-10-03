@@ -2,6 +2,7 @@ code: unh
 products:
   Unhinged Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1107813'
       cardKingdomId: '207308'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-UNH-EN
       tcgplayerProductId: '79290'
       tntId: '119811'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Unhinged Booster Pack
+        set: unh
   Unhinged Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Unhinged Booster Box
+        set: unh
   Unhinged Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476955'
       cardKingdomId: '112347'
@@ -29,4 +40,8 @@ products:
       scgId: SLD-MTG-PCK-UNH-EN
       tcgplayerProductId: '79291'
       tntId: '119810'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: unh

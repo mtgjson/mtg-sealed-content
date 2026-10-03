@@ -2,6 +2,7 @@ code: pls
 products:
   Planeshift Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1101003'
       cardKingdomId: '1293'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-PLS-EN
       tcgplayerProductId: '27297'
       tntId: '86751'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Planeshift Booster Pack
+        set: pls
   Planeshift Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Planeshift Booster Box
+        set: pls
   Planeshift Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476922'
       cardKingdomId: '1294'
@@ -29,9 +40,14 @@ products:
       scgId: SLD-MTG-PCK-PLS-EN
       tcgplayerProductId: '27359'
       tntId: '114587'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: pls
   Planeshift Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1100991'
       cardKingdomId: '240340'
@@ -42,19 +58,41 @@ products:
       scgId: SLD-MTG-BUN-PLS-EN
       tcgplayerProductId: '78326'
       tntId: '155131'
-    subtype: FAT_PACK
+    contents:
+      card_count: 2
+      other:
+      - name: The Planeshift Novel
+      - name: Planeshift Player's Guide
+      pack:
+      - code: fat-pack
+        set: pls
+      sealed:
+      - count: 6
+        name: Planeshift Booster Pack
+        set: pls
   Planeshift MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241602'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 143
+      deck:
+      - name: Planeshift Redemption
+        set: pls
   Planeshift MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241601'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 143
+      deck:
+      - name: Planeshift Foil Redemption
+        set: pls
   Planeshift Theme Deck Barrage:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100998'
       cardKingdomId: '1297'
@@ -63,9 +101,14 @@ products:
       mcmId: '253741'
       tcgplayerProductId: '93345'
       tntId: '106947'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Barrage
+        set: pls
   Planeshift Theme Deck Comeback:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101004'
       cardKingdomId: '1295'
@@ -74,16 +117,35 @@ products:
       mcmId: '253742'
       tcgplayerProductId: '93346'
       tntId: '106939'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Comeback
+        set: pls
   Planeshift Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       cardtraderId: '45765'
       mcmId: '210236'
       tntId: '86749'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 3
+        name: Planeshift Theme Deck Barrage
+        set: pls
+      - count: 3
+        name: Planeshift Theme Deck Comeback
+        set: pls
+      - count: 3
+        name: Planeshift Theme Deck Domain
+        set: pls
+      - count: 3
+        name: Planeshift Theme Deck Scout
+        set: pls
   Planeshift Theme Deck Domain:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101005'
       cardKingdomId: '1296'
@@ -92,9 +154,14 @@ products:
       mcmId: '253743'
       tcgplayerProductId: '93347'
       tntId: '106933'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Domain
+        set: pls
   Planeshift Theme Deck Scout:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101007'
       cardKingdomId: '1298'
@@ -103,9 +170,27 @@ products:
       mcmId: '253744'
       tcgplayerProductId: '93348'
       tntId: '106943'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Scout
+        set: pls
   Planeshift Theme Decks Set of 4:
     category: SUBSET
+    subtype: THEME
     identifiers:
       abuId: '1101008'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Planeshift Theme Deck Barrage
+        set: pls
+      - count: 1
+        name: Planeshift Theme Deck Comeback
+        set: pls
+      - count: 1
+        name: Planeshift Theme Deck Domain
+        set: pls
+      - count: 1
+        name: Planeshift Theme Deck Scout
+        set: pls

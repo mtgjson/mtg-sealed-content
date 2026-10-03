@@ -2,12 +2,27 @@ code: wc99
 products:
   1999 World Championship Deck Box:
     category: DECK_BOX
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1476971'
       hareruyaId: '28535'
-    subtype: CHAMPIONSHIP
+    contents:
+      sealed:
+      - count: 2
+        name: 1999 World Championship Deck Jakub Slemr
+        set: wc99
+      - count: 5
+        name: 1999 World Championship Deck Kai Budde
+        set: wc99
+      - count: 3
+        name: 1999 World Championship Deck Mark Le Pine
+        set: wc99
+      - count: 2
+        name: 1999 World Championship Deck Matt Linde
+        set: wc99
   1999 World Championship Deck Jakub Slemr:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1100236'
       cardKingdomId: '240328'
@@ -18,9 +33,14 @@ products:
       scgId: SLD-MTG-BXS-WCH1999-EN-JAKUBSLEMR
       tcgplayerProductId: '158288'
       tntId: '91198'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 75
+      deck:
+      - name: Jakub Šlemr - Mono-Black Control
+        set: wc99
   1999 World Championship Deck Kai Budde:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1100238'
       cardKingdomId: '240325'
@@ -31,9 +51,14 @@ products:
       scgId: SLD-MTG-BXS-WCH1999-EN-KAIBUDDE
       tcgplayerProductId: '158285'
       tntId: '91199'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 75
+      deck:
+      - name: Kai Budde - Red-Artifact Wildfire
+        set: wc99
   1999 World Championship Deck Mark Le Pine:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1100239'
       cardKingdomId: '240326'
@@ -44,9 +69,14 @@ products:
       scgId: SLD-MTG-BXS-WCH1999-EN-MARKLEPINE
       tcgplayerProductId: '158286'
       tntId: '91200'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 75
+      deck:
+      - name: Mark Le Pine - Sped Red
+        set: wc99
   1999 World Championship Deck Matt Linde:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1100240'
       cardKingdomId: '240327'
@@ -57,9 +87,27 @@ products:
       scgId: SLD-MTG-BXS-WCH1999-EN-MATTLINDE
       tcgplayerProductId: '158287'
       tntId: '91201'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 75
+      deck:
+      - name: Matt Linde - Mono-Green Stompy
+        set: wc99
   1999 World Championship Decks Set of 4:
     category: SUBSET
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1107795'
-    subtype: CHAMPIONSHIP
+    contents:
+      sealed:
+      - count: 1
+        name: 1999 World Championship Deck Jakub Slemr
+        set: wc99
+      - count: 1
+        name: 1999 World Championship Deck Kai Budde
+        set: wc99
+      - count: 1
+        name: 1999 World Championship Deck Mark Le Pine
+        set: wc99
+      - count: 1
+        name: 1999 World Championship Deck Matt Linde
+        set: wc99

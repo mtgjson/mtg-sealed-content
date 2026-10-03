@@ -2,6 +2,8 @@ code: m19
 products:
   Core Set 2019 Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2018-07-13'
     identifiers:
       abuId: '1497961'
       cardKingdomId: '219796'
@@ -12,17 +14,27 @@ products:
       scgId: SLD-MTG-BBX-M19-EN
       tcgplayerProductId: '166550'
       tntId: '1178161'
-    release_date: '2018-07-13'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Core Set 2019 Booster Pack
+        set: m19
   Core Set 2019 Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2018-07-13'
     identifiers:
       tcgplayerProductId: '166552'
       tntId: '1178160'
-    release_date: '2018-07-13'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Core Set 2019 Booster Box
+        set: m19
   Core Set 2019 Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2018-07-13'
     identifiers:
       abuId: '1973117'
       cardKingdomId: '219797'
@@ -33,10 +45,15 @@ products:
       scgId: SLD-MTG-PCK-M19-EN
       tcgplayerProductId: '166551'
       tntId: '1178164'
-    release_date: '2018-07-13'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: m19
   Core Set 2019 Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2018-07-13'
     identifiers:
       abuId: '1502741'
       cardKingdomId: '219798'
@@ -47,10 +64,23 @@ products:
       scgId: SLD-MTG-BUN-M19-EN
       tcgplayerProductId: '166562'
       tntId: '1178162'
-    release_date: '2018-07-13'
-    subtype: DEFAULT
+    contents:
+      deck:
+      - name: Core Set 2019 Bundle Land Pack
+        set: m19
+      other:
+      - name: Reusable Card Storage Box
+      - name: Player's Guide
+      - name: Core Set 2019 Spindown Life Counter
+      - name: Rules Reference Card
+      sealed:
+      - count: 10
+        name: Core Set 2019 Booster Pack
+        set: m19
   Core Set 2019 Deck Builders Toolkit:
     category: KIT
+    subtype: DECK_BUILDERS_TOOLKIT
+    release_date: '2018-07-13'
     identifiers:
       abuId: '1511001'
       cardKingdomId: '219802'
@@ -60,27 +90,87 @@ products:
       scgId: SLD-MTG-INT-M19TOOLKIT-EN
       tcgplayerProductId: '166553'
       tntId: '1181273'
-    release_date: '2018-07-13'
-    subtype: DECK_BUILDERS_TOOLKIT
+    contents:
+      card_count: 225
+      deck:
+      - name: Deck Builder's Toolkit
+        set: m19
+      sealed:
+      - count: 1
+        name: Core Set 2019 Booster Pack
+        set: m19
+      - count: 1
+        name: Ixalan Booster Pack
+        set: xln
+      - count: 1
+        name: Rivals of Ixalan Booster Pack
+        set: rix
+      - count: 1
+        name: Dominaria Booster Pack
+        set: dom
   Core Set 2019 Gift Pack:
     category: BUNDLE
+    subtype: GIFT_BUNDLE
+    release_date: '2018-11-16'
     identifiers:
       cardtraderId: '48711'
       mcmId: '363252'
-    release_date: '2018-11-16'
-    subtype: GIFT_BUNDLE
+    contents:
+      card:
+      - foil: true
+        name: Angelic Guardian
+        number: GP1
+        set: g18
+      - foil: true
+        name: Angler Turtle
+        number: GP2
+        set: g18
+      - foil: true
+        name: Vengeant Vampire
+        number: GP3
+        set: g18
+      - foil: true
+        name: Immortal Phoenix
+        number: GP4
+        set: g18
+      - foil: true
+        name: Rampaging Brontodon
+        number: GP5
+        set: g18
+      card_count: 10
+      deck:
+      - name: Core Set 2019 Gift Pack Land Pack
+        set: m19
+      other:
+      - name: Spindown life counter
+      sealed:
+      - count: 4
+        name: Core Set 2019 Booster Pack
+        set: m19
   Core Set 2019 MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '221344'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 280
+      deck:
+      - name: Core Set 2019 Redemption
+        set: m19
   Core Set 2019 MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '221343'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 280
+      deck:
+      - name: Core Set 2019 Foil Redemption
+        set: m19
   Core Set 2019 Planeswalker Deck Ajani:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2018-07-13'
     identifiers:
       abuId: '1511006'
       cardKingdomId: '220072'
@@ -89,15 +179,41 @@ products:
       scgId: SLD-MTG-INT-M19PWDECK-EN-AJANI
       tcgplayerProductId: '169265'
       tntId: '1178165'
-    release_date: '2018-07-13'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Ajani
+        set: m19
+      sealed:
+      - count: 1
+        name: Core Set 2019 Booster Pack
+        set: m19
   Core Set 2019 Planeswalker Deck Display:
     category: DECK_BOX
+    subtype: PLANESWALKER
     identifiers:
       tntId: '1178163'
-    subtype: PLANESWALKER
+    contents:
+      sealed:
+      - count: 2
+        name: Core Set 2019 Planeswalker Deck Ajani
+        set: m19
+      - count: 2
+        name: Core Set 2019 Planeswalker Deck Liliana
+        set: m19
+      - count: 2
+        name: Core Set 2019 Planeswalker Deck Sarkhan
+        set: m19
+      - count: 2
+        name: Core Set 2019 Planeswalker Deck Tezzeret
+        set: m19
+      - count: 2
+        name: Core Set 2019 Planeswalker Deck Vivien
+        set: m19
   Core Set 2019 Planeswalker Deck Liliana:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2018-07-13'
     identifiers:
       abuId: '1511008'
       cardKingdomId: '219808'
@@ -107,10 +223,19 @@ products:
       scgId: SLD-MTG-INT-M19PWDECK-EN-LILIANA
       tcgplayerProductId: '169268'
       tntId: '1178934'
-    release_date: '2018-07-13'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Liliana
+        set: m19
+      sealed:
+      - count: 1
+        name: Core Set 2019 Booster Pack
+        set: m19
   Core Set 2019 Planeswalker Deck Sarkhan:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2018-07-13'
     identifiers:
       abuId: '1511009'
       cardKingdomId: '220071'
@@ -119,10 +244,19 @@ products:
       scgId: SLD-MTG-INT-M19PWDECK-EN-SARKHAN
       tcgplayerProductId: '169266'
       tntId: '1178935'
-    release_date: '2018-07-13'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Sarkhan
+        set: m19
+      sealed:
+      - count: 1
+        name: Core Set 2019 Booster Pack
+        set: m19
   Core Set 2019 Planeswalker Deck Tezzeret:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2018-07-13'
     identifiers:
       abuId: '1511007'
       cardKingdomId: '219807'
@@ -131,10 +265,19 @@ products:
       scgId: SLD-MTG-INT-M19PWDECK-EN-TEZZERET
       tcgplayerProductId: '166560'
       tntId: '1178166'
-    release_date: '2018-07-13'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Tezzeret
+        set: m19
+      sealed:
+      - count: 1
+        name: Core Set 2019 Booster Pack
+        set: m19
   Core Set 2019 Planeswalker Deck Vivien:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2018-07-13'
     identifiers:
       abuId: '1511010'
       cardKingdomId: '220070'
@@ -143,29 +286,67 @@ products:
       scgId: SLD-MTG-INT-M19PWDECK-EN-VIVIEN
       tcgplayerProductId: '169267'
       tntId: '1178936'
-    release_date: '2018-07-13'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Vivien
+        set: m19
+      sealed:
+      - count: 1
+        name: Core Set 2019 Booster Pack
+        set: m19
   Core Set 2019 Planeswalker Decks Set of 5:
     category: SUBSET
+    subtype: PLANESWALKER
+    release_date: '2018-07-13'
     identifiers:
       csiId: '258078'
       hareruyaId: '28579'
       scgId: SLD-MTG-INT-M19PWDECK-EN-SET5
       tcgplayerProductId: '169269'
-    release_date: '2018-07-13'
-    subtype: PLANESWALKER
+    contents:
+      sealed:
+      - count: 1
+        name: Core Set 2019 Planeswalker Deck Ajani
+        set: m19
+      - count: 1
+        name: Core Set 2019 Planeswalker Deck Liliana
+        set: m19
+      - count: 1
+        name: Core Set 2019 Planeswalker Deck Sarkhan
+        set: m19
+      - count: 1
+        name: Core Set 2019 Planeswalker Deck Tezzeret
+        set: m19
+      - count: 1
+        name: Core Set 2019 Planeswalker Deck Vivien
+        set: m19
   Core Set 2019 Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2018-07-07'
     identifiers:
       abuId: '1516786'
       cardKingdomId: '220776'
       cardtraderId: '48709'
       mcmId: '361003'
       tcgplayerProductId: '166555'
-    release_date: '2018-07-07'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: Spindown life counter
+      - name: Story and deck-building insert
+      pack:
+      - code: prerelease
+        set: m19
+      sealed:
+      - count: 6
+        name: Core Set 2019 Booster Pack
+        set: m19
   Core Set 2019 Spellslinger Starter Kit:
     category: MULTI_DECK
+    subtype: TWO_PLAYER_STARTER
+    release_date: '2018-10-05'
     identifiers:
       abuId: '1534232'
       cardKingdomId: '222236'
@@ -174,47 +355,80 @@ products:
       scgId: SLD-MTG-INT-M19SPELLSLINGER-EN
       tcgplayerProductId: '174136'
       tntId: '1189134'
-    release_date: '2018-10-05'
-    subtype: TWO_PLAYER_STARTER
+    contents:
+      card_count: 120
+      deck:
+      - name: Black-Green Deck
+        set: m19
+      - name: Red-White Deck
+        set: m19
+      other:
+      - name: Rules and World of Magic Booklet
+      - name: 2 Spellslinger Spindowns
   Core Set 2019 Standard Showdown Booster:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    release_date: '2018-06-12'
     identifiers:
       cardtraderId: '49717'
       mcmId: '359681'
-    release_date: '2018-06-12'
-    subtype: PROMOTIONAL
   Core Set 2019 Welcome Deck Black:
     category: DECK
+    subtype: STARTER
+    release_date: '2018-07-13'
     identifiers:
       cardtraderId: '164281'
       mcmId: '368879'
-    release_date: '2018-07-13'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      deck:
+      - name: Black Deck
+        set: m19
   Core Set 2019 Welcome Deck Blue:
     category: DECK
+    subtype: STARTER
+    release_date: '2018-07-13'
     identifiers:
       cardtraderId: '164284'
       mcmId: '368880'
-    release_date: '2018-07-13'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      deck:
+      - name: Blue Deck
+        set: m19
   Core Set 2019 Welcome Deck Green:
     category: DECK
+    subtype: STARTER
+    release_date: '2018-07-13'
     identifiers:
       cardtraderId: '164280'
       mcmId: '368882'
-    release_date: '2018-07-13'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      deck:
+      - name: Green Deck
+        set: m19
   Core Set 2019 Welcome Deck Red:
     category: DECK
+    subtype: STARTER
+    release_date: '2018-07-13'
     identifiers:
       cardtraderId: '164283'
       mcmId: '368881'
-    release_date: '2018-07-13'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      deck:
+      - name: Red Deck
+        set: m19
   Core Set 2019 Welcome Deck White:
     category: DECK
+    subtype: STARTER
+    release_date: '2018-07-13'
     identifiers:
       cardtraderId: '164282'
       mcmId: '368883'
-    release_date: '2018-07-13'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      deck:
+      - name: White Deck
+        set: m19

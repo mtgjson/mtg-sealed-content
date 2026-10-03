@@ -2,6 +2,8 @@ code: scd
 products:
   Starter Commander Deck Chaos Incarnate:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2022-12-02'
     identifiers:
       abuId: '2275525'
       cardKingdomId: '270186'
@@ -13,10 +15,21 @@ products:
       scgId: SLD-MTG-MLT-SCD-EN-CHAOS
       tcgplayerProductId: '448435'
       tntId: '1770669'
-    release_date: '2022-12-02'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Chaos Incarnate
+        set: scd
+      other:
+      - name: 10 double sided tokens
+      - name: Strategy Insert
+      - name: Commander Rules Summary
+      - name: Turn Reference Card
+      - name: Punch-out Counters
   Starter Commander Deck Draconic Destruction:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2022-12-02'
     identifiers:
       abuId: '2275526'
       cardKingdomId: '270187'
@@ -28,10 +41,21 @@ products:
       scgId: SLD-MTG-MLT-SCD-EN-DRACONIC
       tcgplayerProductId: '448436'
       tntId: '1770667'
-    release_date: '2022-12-02'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Draconic Destruction
+        set: scd
+      other:
+      - name: 10 double sided tokens
+      - name: Strategy Insert
+      - name: Commander Rules Summary
+      - name: Turn Reference Card
+      - name: Punch-out Counters
   Starter Commander Deck First Flight:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2022-12-02'
     identifiers:
       abuId: '2275523'
       cardKingdomId: '270176'
@@ -43,10 +67,21 @@ products:
       scgId: SLD-MTG-MLT-SCD-EN-FLIGHT
       tcgplayerProductId: '448434'
       tntId: '1770665'
-    release_date: '2022-12-02'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: First Flight
+        set: scd
+      other:
+      - name: 10 double sided tokens
+      - name: Strategy Insert
+      - name: Commander Rules Summary
+      - name: Turn Reference Card
+      - name: Punch-out Counters
   Starter Commander Deck Grave Danger:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2022-12-02'
     identifiers:
       abuId: '2275524'
       cardKingdomId: '270185'
@@ -58,10 +93,21 @@ products:
       scgId: SLD-MTG-MLT-SCD-EN-GRAVE
       tcgplayerProductId: '448432'
       tntId: '1770668'
-    release_date: '2022-12-02'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Grave Danger
+        set: scd
+      other:
+      - name: 10 double sided tokens
+      - name: Strategy Insert
+      - name: Commander Rules Summary
+      - name: Turn Reference Card
+      - name: Punch-out Counters
   Starter Commander Deck Token Triumph:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2022-12-02'
     identifiers:
       abuId: '2275527'
       cardKingdomId: '270188'
@@ -73,10 +119,21 @@ products:
       scgId: SLD-MTG-MLT-SCD-EN-TOKEN
       tcgplayerProductId: '448433'
       tntId: '1770666'
-    release_date: '2022-12-02'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Token Triumph
+        set: scd
+      other:
+      - name: 10 double sided tokens
+      - name: Strategy Insert
+      - name: Commander Rules Summary
+      - name: Turn Reference Card
+      - name: Punch-out Counters
   Starter Commander Decks Set of 5:
     category: SUBSET
+    subtype: COMMANDER
+    release_date: '2022-12-02'
     identifiers:
       cardKingdomId: '270189'
       cardtraderId: '226601'
@@ -87,5 +144,20 @@ products:
       scgId: SLD-MTG-MLT-SCD-EN-SET5
       tcgplayerProductId: '448437'
       tntId: '1770670'
-    release_date: '2022-12-02'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Starter Commander Deck Chaos Incarnate
+        set: scd
+      - count: 1
+        name: Starter Commander Deck Draconic Destruction
+        set: scd
+      - count: 1
+        name: Starter Commander Deck First Flight
+        set: scd
+      - count: 1
+        name: Starter Commander Deck Grave Danger
+        set: scd
+      - count: 1
+        name: Starter Commander Deck Token Triumph
+        set: scd

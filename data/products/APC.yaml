@@ -2,6 +2,7 @@ code: apc
 products:
   Apocalypse Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1100106'
       cardKingdomId: '1309'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-APC-EN
       tcgplayerProductId: '27264'
       tntId: '92409'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Apocalypse Booster Pack
+        set: apc
   Apocalypse Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Apocalypse Booster Box
+        set: apc
   Apocalypse Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476848'
       cardKingdomId: '1308'
@@ -29,9 +40,14 @@ products:
       scgId: SLD-MTG-PCK-APC-EN
       tcgplayerProductId: '27326'
       tntId: '92410'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: apc
   Apocalypse Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1107760'
       cardKingdomId: '228576'
@@ -42,19 +58,42 @@ products:
       scgId: SLD-MTG-BUN-APC-EN
       tcgplayerProductId: '78303'
       tntId: '155338'
-    subtype: FAT_PACK
+    contents:
+      card_count: 2
+      other:
+      - name: Apocalypse Player's Guide
+      - name: The Apocalypse Novel
+      - name: Apocalypse Special Edition Spindown
+      pack:
+      - code: fat-pack
+        set: apc
+      sealed:
+      - count: 6
+        name: Apocalypse Booster Pack
+        set: apc
   Apocalypse MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241606'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 143
+      deck:
+      - name: Apocalypse Redemption
+        set: apc
   Apocalypse MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241605'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 143
+      deck:
+      - name: Apocalypse Foil Redemption
+        set: apc
   Apocalypse Theme Deck Burial:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100107'
       cardKingdomId: '1310'
@@ -63,16 +102,35 @@ products:
       mcmId: '253732'
       tcgplayerProductId: '208256'
       tntId: '92242'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Burial
+        set: apc
   Apocalypse Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       cardtraderId: '45779'
       mcmId: '210226'
       tntId: '92413'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 3
+        name: Apocalypse Theme Deck Burial
+        set: apc
+      - count: 3
+        name: Apocalypse Theme Deck Pandemonium
+        set: apc
+      - count: 3
+        name: Apocalypse Theme Deck Swoop
+        set: apc
+      - count: 3
+        name: Apocalypse Theme Deck Whirlpool
+        set: apc
   Apocalypse Theme Deck Pandemonium:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100109'
       cardKingdomId: '1311'
@@ -81,9 +139,14 @@ products:
       mcmId: '253733'
       tcgplayerProductId: '208254'
       tntId: '92243'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Pandemonium
+        set: apc
   Apocalypse Theme Deck Swoop:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100112'
       cardKingdomId: '1312'
@@ -92,9 +155,14 @@ products:
       mcmId: '253734'
       tcgplayerProductId: '208257'
       tntId: '92244'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Swoop
+        set: apc
   Apocalypse Theme Deck Whirlpool:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100113'
       cardKingdomId: '1313'
@@ -103,9 +171,27 @@ products:
       mcmId: '253735'
       tcgplayerProductId: '208255'
       tntId: '92245'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Whirlpool
+        set: apc
   Apocalypse Theme Decks Set of 4:
     category: SUBSET
+    subtype: THEME
     identifiers:
       abuId: '1100108'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Apocalypse Theme Deck Burial
+        set: apc
+      - count: 1
+        name: Apocalypse Theme Deck Pandemonium
+        set: apc
+      - count: 1
+        name: Apocalypse Theme Deck Swoop
+        set: apc
+      - count: 1
+        name: Apocalypse Theme Deck Whirlpool
+        set: apc

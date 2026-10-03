@@ -2,6 +2,8 @@ code: ecc
 products:
   Lorwyn Eclipsed Commander Deck Blight Curse:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2026-01-23'
     identifiers:
       abuId: '2656211'
       cardKingdomId: '321612'
@@ -10,10 +12,19 @@ products:
       miniaturemarketId: 2fe161653e157f63b4eab880d123a28c
       scgId: SLD-MTG-MLT-ECC-EN-BLIGHT
       tcgplayerProductId: '656354'
-    release_date: '2026-01-23'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Blight Curse
+        set: ecc
+      other:
+      - name: 10 Double-sided tokens or punch-out counters
+      - name: 1 Reference card
+      - name: 1 Deck box
   Lorwyn Eclipsed Commander Deck Dance of the Elements:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2026-01-23'
     identifiers:
       abuId: '2656212'
       cardKingdomId: '321611'
@@ -22,15 +33,29 @@ products:
       miniaturemarketId: 9cb3564319b4c41830e97a2c4f2a1d39
       scgId: SLD-MTG-MLT-ECC-EN-DANCE
       tcgplayerProductId: '656352'
-    release_date: '2026-01-23'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Dance of the Elements
+        set: ecc
+      other:
+      - name: 10 Double-sided tokens or punch-out counters
+      - name: 1 Reference card
+      - name: 1 Deck box
   Lorwyn Eclipsed Commander Deck Display:
     category: SUBSET
+    subtype: COMMANDER
     identifiers:
       tcgplayerProductId: '656364'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 2
+        name: Lorwyn Eclipsed Commander Deck Set of 2
+        set: ecc
   Lorwyn Eclipsed Commander Deck Set of 2:
     category: SUBSET
+    subtype: COMMANDER
+    release_date: '2026-01-23'
     identifiers:
       cardKingdomId: '321613'
       cardtraderId: '352406'
@@ -38,5 +63,11 @@ products:
       miniaturemarketId: fa4f22ae93f50e72c54d8049480b5a96
       scgId: SLD-MTG-MLT-ECC-EN-SET2
       tcgplayerProductId: '656923'
-    release_date: '2026-01-23'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Lorwyn Eclipsed Commander Deck Blight Curse
+        set: ecc
+      - count: 1
+        name: Lorwyn Eclipsed Commander Deck Dance of the Elements
+        set: ecc

@@ -2,12 +2,22 @@ code: znc
 products:
   Zendikar Rising Commander Deck Display:
     category: DECK_BOX
+    subtype: COMMANDER
     identifiers:
       tcgplayerProductId: '452723'
       tntId: '1672300'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 3
+        name: Zendikar Rising Commander Deck Lands Wrath
+        set: znc
+      - count: 3
+        name: Zendikar Rising Commander Deck Sneak Attack
+        set: znc
   Zendikar Rising Commander Deck Lands Wrath:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2020-09-25'
     identifiers:
       abuId: '1899536'
       cardKingdomId: '236839'
@@ -18,10 +28,18 @@ products:
       scgId: SLD-MTG-MLT-ZNC-EN-LANDS
       tcgplayerProductId: '221917'
       tntId: '1672299'
-    release_date: '2020-09-25'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Land's Wrath
+        set: znc
+      other:
+      - name: Zendikar Rising Life Wheel
+      - name: 10 Double Sided Tokens
   Zendikar Rising Commander Deck Sneak Attack:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2020-09-25'
     identifiers:
       abuId: '1899537'
       cardKingdomId: '236840'
@@ -32,10 +50,18 @@ products:
       scgId: SLD-MTG-MLT-ZNC-EN-SNEAK
       tcgplayerProductId: '221916'
       tntId: '1672298'
-    release_date: '2020-09-25'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Sneak Attack
+        set: znc
+      other:
+      - name: Zendikar Rising Life Wheel
+      - name: 10 Double Sided Tokens
   Zendikar Rising Commander Decks Set of 2:
     category: SUBSET
+    subtype: COMMANDER
+    release_date: '2020-09-25'
     identifiers:
       abuId: '1899538'
       cardKingdomId: '236841'
@@ -46,5 +72,11 @@ products:
       scgId: SLD-MTG-MLT-ZNC-EN-SET2
       tcgplayerProductId: '221139'
       tntId: '1675257'
-    release_date: '2020-09-25'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Zendikar Rising Commander Deck Lands Wrath
+        set: znc
+      - count: 1
+        name: Zendikar Rising Commander Deck Sneak Attack
+        set: znc

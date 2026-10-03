@@ -2,6 +2,8 @@ code: dka
 products:
   Dark Ascension Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2012-02-03'
     identifiers:
       abuId: '1100332'
       cardKingdomId: '186260'
@@ -12,15 +14,24 @@ products:
       scgId: SLD-MTG-BBX-DKA-EN
       tcgplayerProductId: '57584'
       tntId: '324358'
-    release_date: '2012-02-03'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Dark Ascension Booster Pack
+        set: dka
   Dark Ascension Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '57585'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 12
+        name: Dark Ascension Booster Box
+        set: dka
   Dark Ascension Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476868'
       cardKingdomId: '186261'
@@ -31,14 +42,27 @@ products:
       scgId: SLD-MTG-PCK-DKA-EN
       tcgplayerProductId: '57583'
       tntId: '324359'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: dka
   Dark Ascension Event Deck Display:
     category: DECK_BOX
+    subtype: EVENT
     identifiers:
       tntId: '330920'
-    subtype: EVENT
+    contents:
+      sealed:
+      - count: 3
+        name: Dark Ascension Event Deck Gleeful Flames
+        set: dka
+      - count: 3
+        name: Dark Ascension Event Deck Spiraling Doom
+        set: dka
   Dark Ascension Event Deck Gleeful Flames:
     category: DECK
+    subtype: EVENT
     identifiers:
       abuId: '1107839'
       cardKingdomId: '186611'
@@ -47,9 +71,14 @@ products:
       scgId: SLD-MTG-INT-DKAEVENT-EN-GLEEFUL
       tcgplayerProductId: '57898'
       tntId: '330875'
-    subtype: EVENT
+    contents:
+      card_count: 75
+      deck:
+      - name: Gleeful Flames
+        set: dka
   Dark Ascension Event Deck Spiraling Doom:
     category: DECK
+    subtype: EVENT
     identifiers:
       abuId: '1100357'
       cardKingdomId: '186612'
@@ -58,16 +87,30 @@ products:
       scgId: SLD-MTG-INT-DKAEVENT-EN-SPIRALING
       tcgplayerProductId: '57899'
       tntId: '330876'
-    subtype: EVENT
+    contents:
+      card_count: 75
+      deck:
+      - name: Spiraling Doom
+        set: dka
   Dark Ascension Event Decks Set of 2:
     category: SUBSET
+    subtype: EVENT
     identifiers:
       cardtraderId: '47708'
       mcmId: '253041'
       tcgplayerProductId: '57900'
-    subtype: EVENT
+    contents:
+      sealed:
+      - count: 1
+        name: Dark Ascension Event Deck Gleeful Flames
+        set: dka
+      - count: 1
+        name: Dark Ascension Event Deck Spiraling Doom
+        set: dka
   Dark Ascension Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
+    release_date: '2012-02-03'
     identifiers:
       abuId: '1100358'
       cardKingdomId: '186265'
@@ -78,10 +121,23 @@ products:
       scgId: SLD-MTG-BUN-DKA-EN
       tcgplayerProductId: '57580'
       tntId: '324360'
-    release_date: '2012-02-03'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Dark Ascension Fat Pack Land Pack
+        set: dka
+      other:
+      - name: Dark Ascension Players Guide
+      - name: 10 checklist cards
+      - name: Dark Ascension Spindown Life Counter
+      - name: Two 60-card Deck Boxes
+      sealed:
+      - count: 9
+        name: Dark Ascension Booster Pack
+        set: dka
   Dark Ascension Intro Pack Dark Sacrifice:
     category: DECK
+    subtype: INTRO
+    release_date: '2012-02-03'
     identifiers:
       abuId: '1100360'
       cardKingdomId: '186292'
@@ -90,17 +146,43 @@ products:
       scgId: SLD-MTG-INT-DKAINTRO-EN-DARK
       tcgplayerProductId: '57627'
       tntId: '329608'
-    release_date: '2012-02-03'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Dark Sacrifice
+        set: dka
+      sealed:
+      - count: 1
+        name: Dark Ascension Booster Pack
+        set: dka
   Dark Ascension Intro Pack Display:
     category: DECK_BOX
+    subtype: INTRO
     identifiers:
       cardtraderId: '47711'
       mcmId: '252465'
       tntId: '324361'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 2
+        name: Dark Ascension Intro Pack Dark Sacrifice
+        set: dka
+      - count: 2
+        name: Dark Ascension Intro Pack Grave Power
+        set: dka
+      - count: 2
+        name: Dark Ascension Intro Pack Monstrous Surprise
+        set: dka
+      - count: 2
+        name: Dark Ascension Intro Pack Relentless Dead
+        set: dka
+      - count: 2
+        name: Dark Ascension Intro Pack Swift Justice
+        set: dka
   Dark Ascension Intro Pack Grave Power:
     category: DECK
+    subtype: INTRO
+    release_date: '2012-02-03'
     identifiers:
       abuId: '1100363'
       cardKingdomId: '186293'
@@ -109,10 +191,19 @@ products:
       scgId: SLD-MTG-INT-DKAINTRO-EN-GRAVE
       tcgplayerProductId: '57629'
       tntId: '329610'
-    release_date: '2012-02-03'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Grave Power
+        set: dka
+      sealed:
+      - count: 1
+        name: Dark Ascension Booster Pack
+        set: dka
   Dark Ascension Intro Pack Monstrous Surprise:
     category: DECK
+    subtype: INTRO
+    release_date: '2012-02-03'
     identifiers:
       abuId: '1100365'
       cardKingdomId: '186294'
@@ -121,10 +212,19 @@ products:
       scgId: SLD-MTG-INT-DKAINTRO-EN-MONSTROUS
       tcgplayerProductId: '57628'
       tntId: '329609'
-    release_date: '2012-02-03'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Monstrous Surprise
+        set: dka
+      sealed:
+      - count: 1
+        name: Dark Ascension Booster Pack
+        set: dka
   Dark Ascension Intro Pack Relentless Dead:
     category: DECK
+    subtype: INTRO
+    release_date: '2012-02-03'
     identifiers:
       abuId: '1100374'
       cardKingdomId: '186295'
@@ -133,17 +233,43 @@ products:
       scgId: SLD-MTG-INT-DKAINTRO-EN-RELENTLESS
       tcgplayerProductId: '57626'
       tntId: '329607'
-    release_date: '2012-02-03'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Relentless Dead
+        set: dka
+      sealed:
+      - count: 1
+        name: Dark Ascension Booster Pack
+        set: dka
   Dark Ascension Intro Pack Set of 5:
     category: SUBSET
+    subtype: INTRO
     identifiers:
       cardtraderId: '47712'
       mcmId: '252464'
       tcgplayerProductId: '57582'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 1
+        name: Dark Ascension Intro Pack Dark Sacrifice
+        set: dka
+      - count: 1
+        name: Dark Ascension Intro Pack Grave Power
+        set: dka
+      - count: 1
+        name: Dark Ascension Intro Pack Monstrous Surprise
+        set: dka
+      - count: 1
+        name: Dark Ascension Intro Pack Relentless Dead
+        set: dka
+      - count: 1
+        name: Dark Ascension Intro Pack Swift Justice
+        set: dka
   Dark Ascension Intro Pack Swift Justice:
     category: DECK
+    subtype: INTRO
+    release_date: '2012-02-03'
     identifiers:
       abuId: '1100379'
       cardKingdomId: '186296'
@@ -152,21 +278,43 @@ products:
       scgId: SLD-MTG-INT-DKAINTRO-EN-SWIFT
       tcgplayerProductId: '57625'
       tntId: '329606'
-    release_date: '2012-02-03'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Swift Justice
+        set: dka
+      sealed:
+      - count: 1
+        name: Dark Ascension Booster Pack
+        set: dka
   Dark Ascension MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210846'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 158
+      deck:
+      - name: Dark Ascension Redemption
+        set: dka
   Dark Ascension MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210860'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 158
+      deck:
+      - name: Dark Ascension Foil Redemption
+        set: dka
   Dark Ascension Six Card Booster Pack:
     category: BOOSTER_PACK
+    subtype: SIX
     identifiers:
       cardtraderId: '47693'
       mcmId: '315710'
-    subtype: SIX
+    contents:
+      card_count: 6
+      pack:
+      - code: six
+        set: dka

@@ -2,19 +2,31 @@ code: uma
 products:
   Ultimate Masters 3 Booster Draft Pack:
     category: LIMITED
+    subtype: DRAFT_SET
+    release_date: '2018-12-07'
     identifiers:
       tcgplayerProductId: '179446'
-    release_date: '2018-12-07'
-    subtype: DRAFT_SET
+    contents:
+      sealed:
+      - count: 3
+        name: Ultimate Masters Draft Booster Pack
+        set: uma
   Ultimate Masters Box Topper Pack:
     category: BOOSTER_PACK
+    subtype: TOPPER
+    release_date: '2018-12-07'
     identifiers:
       cardtraderId: '329940'
       mcmId: '366238'
-    release_date: '2018-12-07'
-    subtype: TOPPER
+    contents:
+      card_count: 1
+      pack:
+      - code: box-topper
+        set: uma
   Ultimate Masters Draft Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2018-12-07'
     identifiers:
       abuId: '1540962'
       cardKingdomId: '222450'
@@ -25,17 +37,30 @@ products:
       scgId: SLD-MTG-BBX-UMA-EN
       tcgplayerProductId: '179444'
       tntId: '1389791'
-    release_date: '2018-12-07'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 24
+        name: Ultimate Masters Draft Booster Pack
+        set: uma
+      - count: 1
+        name: Ultimate Masters Box Topper Pack
+        set: uma
   Ultimate Masters Draft Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2018-12-07'
     identifiers:
       tcgplayerProductId: '179443'
       tntId: '1389792'
-    release_date: '2018-12-07'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 4
+        name: Ultimate Masters Draft Booster Box
+        set: uma
   Ultimate Masters Draft Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2018-12-07'
     identifiers:
       abuId: '1973171'
       cardKingdomId: '222451'
@@ -46,5 +71,8 @@ products:
       scgId: SLD-MTG-PCK-UMA-EN
       tcgplayerProductId: '179445'
       tntId: '1389793'
-    release_date: '2018-12-07'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: uma

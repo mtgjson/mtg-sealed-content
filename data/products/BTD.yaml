@@ -2,6 +2,7 @@ code: btd
 products:
   Beatdown:
     category: MULTI_DECK
+    subtype: OTHER
     identifiers:
       abuId: '1100158'
       cardKingdomId: '1292'
@@ -10,4 +11,14 @@ products:
       scgId: SLD-MTG-BXS-BTD-EN
       tcgplayerProductId: '77301'
       tntId: '112112'
-    subtype: OTHER
+    contents:
+      card_count: 122
+      deck:
+      - name: Aerodoom
+        set: btd
+      - name: Ground Pounder
+        set: btd
+      other:
+      - name: two special-edition life counters
+      - name: a two-sided poster
+      - name: a full-color booklet with play tips and creature histories

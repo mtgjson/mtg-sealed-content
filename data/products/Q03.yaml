@@ -2,15 +2,29 @@ code: q03
 products:
   Challenger Deck Japan 2019 Awakening Earth:
     category: DECK
+    subtype: CHALLENGER
+    release_date: '2019-11-08'
     identifiers:
       cardtraderId: '169310'
       mcmId: '405639'
-    release_date: '2019-11-08'
-    subtype: CHALLENGER
+    contents:
+      card_count: 75
+      deck:
+      - name: Awakening Earth
+        set: q03
+      other:
+      - name: Spindown life counter
   Challenger Deck Japan 2019 Song Dance:
     category: DECK
+    subtype: CHALLENGER
+    release_date: '2019-11-08'
     identifiers:
       cardtraderId: '169311'
       mcmId: '405634'
-    release_date: '2019-11-08'
-    subtype: CHALLENGER
+    contents:
+      card_count: 75
+      deck:
+      - name: Song Dance
+        set: q03
+      other:
+      - name: Spindown life counter

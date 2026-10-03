@@ -2,6 +2,8 @@ code: 30a
 products:
   Magic 30th Anniversary Edition Booster Box:
     category: BOOSTER_BOX
+    subtype: PREMIUM
+    release_date: '2022-11-28'
     identifiers:
       cardtraderId: '224239'
       csiId: '357752'
@@ -9,15 +11,25 @@ products:
       mcmId: '710617'
       scgId: SLD-MTG-BBX-30A-EN
       tcgplayerProductId: 448872
-    release_date: '2022-11-28'
-    subtype: PREMIUM
+    contents:
+      sealed:
+      - count: 4
+        name: Magic 30th Anniversary Edition Booster Pack
+        set: 30a
   Magic 30th Anniversary Edition Booster Box Case:
     category: BOOSTER_CASE
+    subtype: PREMIUM
     identifiers:
       tcgplayerProductId: '694934'
-    subtype: PREMIUM
+    contents:
+      sealed:
+      - count: 4
+        name: Magic 30th Anniversary Edition Booster Box
+        set: 30a
   Magic 30th Anniversary Edition Booster Pack:
     category: BOOSTER_PACK
+    subtype: PREMIUM
+    release_date: '2022-11-28'
     identifiers:
       cardKingdomId: '273487'
       cardtraderId: '224238'
@@ -25,5 +37,8 @@ products:
       mcmId: '683353'
       scgId: SLD-MTG-PCK-30A-EN
       tcgplayerProductId: 448873
-    release_date: '2022-11-28'
-    subtype: PREMIUM
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: 30a

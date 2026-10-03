@@ -2,6 +2,7 @@ code: ps14
 products:
   SDCC 2014 Black Planeswalkers Set (No Axe):
     category: BOX_SET
+    subtype: CONVENTION
     identifiers:
       abuId: '1497963'
       cardKingdomId: '223228'
@@ -10,11 +11,22 @@ products:
       scgId: SLD-MTG-BXS-SDCC2014-EN-NOAXE
       tcgplayerProductId: '91628'
       tntId: '1182820'
-    subtype: CONVENTION
+    contents:
+      card_count: 6
+      deck:
+      - name: SDCC 2014 Planeswalker Set
+        set: ps14
   SDCC 2014 Black Planeswalkers Set (With Axe):
     category: BOX_SET
+    subtype: CONVENTION
     identifiers:
       cardtraderId: '39927'
       scgId: SLD-MTG-BXS-SDCC2014-EN-WITHAXE
       tcgplayerProductId: '91629'
-    subtype: CONVENTION
+    contents:
+      card_count: 6
+      deck:
+      - name: SDCC 2014 Planeswalker Set
+        set: ps14
+      other:
+      - name: NERF Garruk Axe

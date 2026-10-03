@@ -2,6 +2,8 @@ code: mb2
 products:
   Mystery Booster 2 Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2024-10-25'
     identifiers:
       cardKingdomId: '313020'
       cardtraderId: '295769'
@@ -9,21 +11,34 @@ products:
       mcmId: '785144'
       scgId: SLD-MTG-BBX-MB2-EN
       tcgplayerProductId: '563752'
-    release_date: '2024-10-25'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 24
+        name: Mystery Booster 2 Booster Pack
+        set: mb2
   Mystery Booster 2 Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2024-10-25'
     identifiers:
       tcgplayerProductId: '563751'
-    release_date: '2024-10-25'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Mystery Booster 2 Booster Box
+        set: mb2
   Mystery Booster 2 Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2024-10-25'
     identifiers:
       cardKingdomId: '313021'
       cardtraderId: '297225'
       hareruyaId: '168037'
       mcmId: '785145'
       tcgplayerProductId: '563749'
-    release_date: '2024-10-25'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: mb2

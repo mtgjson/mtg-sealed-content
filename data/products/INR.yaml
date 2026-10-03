@@ -2,6 +2,8 @@ code: inr
 products:
   Innistrad Remastered Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2025-01-24'
     identifiers:
       abuId: '2563257'
       cardKingdomId: '307405'
@@ -10,16 +12,26 @@ products:
       mcmId: '795092'
       scgId: SLD-MTG-BBX-INRCOLLECTOR-EN
       tcgplayerProductId: '594681'
-    release_date: '2025-01-24'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Innistrad Remastered Collector Booster Pack
+        set: inr
   Innistrad Remastered Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
+    release_date: '2025-01-24'
     identifiers:
       tcgplayerProductId: '596262'
-    release_date: '2025-01-24'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Innistrad Remastered Collector Booster Box
+        set: inr
   Innistrad Remastered Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2025-01-24'
     identifiers:
       abuId: '2563259'
       cardKingdomId: '307406'
@@ -28,10 +40,15 @@ products:
       mcmId: '795094'
       scgId: SLD-MTG-PCK-INRCOLLECTOR-EN
       tcgplayerProductId: '594678'
-    release_date: '2025-01-24'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: inr
   Innistrad Remastered Play Booster Box:
     category: BOOSTER_BOX
+    subtype: PLAY
+    release_date: '2025-01-24'
     identifiers:
       abuId: '2563256'
       cardKingdomId: '307403'
@@ -39,17 +56,27 @@ products:
       mcmId: '795091'
       scgId: SLD-MTG-BBX-INRPLAY-EN
       tcgplayerProductId: '594672'
-    release_date: '2025-01-24'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 36
+        name: Innistrad Remastered Play Booster Pack
+        set: inr
   Innistrad Remastered Play Booster Box Case:
     category: BOOSTER_CASE
+    subtype: PLAY
+    release_date: '2025-01-24'
     identifiers:
       scgId: SLD-MTG-BBX-INRPLAYCASE-EN
       tcgplayerProductId: '594676'
-    release_date: '2025-01-24'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 6
+        name: Innistrad Remastered Play Booster Box
+        set: inr
   Innistrad Remastered Play Booster Pack:
     category: BOOSTER_PACK
+    subtype: PLAY
+    release_date: '2025-01-24'
     identifiers:
       abuId: '2563258'
       cardKingdomId: '307404'
@@ -58,5 +85,8 @@ products:
       mcmId: '795093'
       scgId: SLD-MTG-PCK-INRPLAY-EN
       tcgplayerProductId: '594669'
-    release_date: '2025-01-24'
-    subtype: PLAY
+    contents:
+      card_count: 14
+      pack:
+      - code: play
+        set: inr

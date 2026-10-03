@@ -2,6 +2,7 @@ code: wth
 products:
   Weatherlight Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1100265'
       cardKingdomId: '124150'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-WTH-EN
       tcgplayerProductId: '27318'
       tntId: '90717'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Weatherlight Booster Pack
+        set: wth
   Weatherlight Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Weatherlight Booster Box
+        set: wth
   Weatherlight Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476965'
       cardKingdomId: '1211'
@@ -29,4 +40,8 @@ products:
       scgId: SLD-MTG-PCK-WTH-EN
       tcgplayerProductId: '27380'
       tntId: '90712'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: wth

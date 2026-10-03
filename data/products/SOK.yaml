@@ -2,6 +2,7 @@ code: sok
 products:
   Saviors of Kamigawa Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1101108'
       cardKingdomId: '116997'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-SOK-EN
       tcgplayerProductId: '27304'
       tntId: '123119'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Saviors of Kamigawa Booster Pack
+        set: sok
   Saviors of Kamigawa Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Saviors of Kamigawa Booster Box
+        set: sok
   Saviors of Kamigawa Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476938'
       cardKingdomId: '117165'
@@ -29,9 +40,14 @@ products:
       scgId: SLD-MTG-PCK-SOK-EN
       tcgplayerProductId: '27366'
       tntId: '123110'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: sok
   Saviors of Kamigawa Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1101101'
       cardKingdomId: '130436'
@@ -42,19 +58,41 @@ products:
       scgId: SLD-MTG-BUN-SOK-EN
       tcgplayerProductId: '78328'
       tntId: '155137'
-    subtype: FAT_PACK
+    contents:
+      card_count: 2
+      other:
+      - name: The Saviors of Kamigawa Novel
+      - name: Saviors of Kamigawa Special Edition Spindown
+      pack:
+      - code: fat-pack
+        set: sok
+      sealed:
+      - count: 6
+        name: Saviors of Kamigawa Booster Pack
+        set: sok
   Saviors of Kamigawa MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241629'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 165
+      deck:
+      - name: Saviors of Kamigawa Redemption
+        set: sok
   Saviors of Kamigawa MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241628'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 165
+      deck:
+      - name: Saviors of Kamigawa Foil Redemption
+        set: sok
   Saviors of Kamigawa Theme Deck Critical Mass:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101106'
       cardKingdomId: '117166'
@@ -63,18 +101,37 @@ products:
       mcmId: '253684'
       tcgplayerProductId: '96350'
       tntId: '123112'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Critical Mass
+        set: sok
   Saviors of Kamigawa Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       abuId: '1107995'
       cardKingdomId: '240200'
       cardtraderId: '46930'
       mcmId: '210215'
       tntId: '123111'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 3
+        name: Saviors of Kamigawa Theme Deck Critical Mass
+        set: sok
+      - count: 3
+        name: Saviors of Kamigawa Theme Deck Soratamis Wisdom
+        set: sok
+      - count: 3
+        name: Saviors of Kamigawa Theme Deck Spirit Flames
+        set: sok
+      - count: 3
+        name: Saviors of Kamigawa Theme Deck Truth Seekers
+        set: sok
   Saviors of Kamigawa Theme Deck Soratamis Wisdom:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101109'
       cardKingdomId: '117167'
@@ -83,9 +140,14 @@ products:
       mcmId: '253685'
       tcgplayerProductId: '96352'
       tntId: '123113'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Soratami's Wisdom
+        set: sok
   Saviors of Kamigawa Theme Deck Spirit Flames:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101110'
       cardKingdomId: '117168'
@@ -94,9 +156,14 @@ products:
       mcmId: '253686'
       tcgplayerProductId: '96351'
       tntId: '123114'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Spirit Flames
+        set: sok
   Saviors of Kamigawa Theme Deck Truth Seekers:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101111'
       cardKingdomId: '117169'
@@ -105,9 +172,27 @@ products:
       mcmId: '253687'
       tcgplayerProductId: '96353'
       tntId: '123115'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Truth Seekers
+        set: sok
   Saviors of Kamigawa Theme Decks Set of 4:
     category: SUBSET
+    subtype: THEME
     identifiers:
       abuId: '1101112'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Saviors of Kamigawa Theme Deck Critical Mass
+        set: sok
+      - count: 1
+        name: Saviors of Kamigawa Theme Deck Soratamis Wisdom
+        set: sok
+      - count: 1
+        name: Saviors of Kamigawa Theme Deck Spirit Flames
+        set: sok
+      - count: 1
+        name: Saviors of Kamigawa Theme Deck Truth Seekers
+        set: sok

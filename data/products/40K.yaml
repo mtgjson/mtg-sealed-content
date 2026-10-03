@@ -2,6 +2,8 @@ code: 40k
 products:
   Warhammer 40000 Commander Deck Display:
     category: DECK_BOX
+    subtype: COMMANDER
+    release_date: '2022-10-07'
     identifiers:
       cardKingdomId: '265872'
       cardtraderId: '221755'
@@ -10,10 +12,24 @@ products:
       mcmId: '674342'
       scgId: SLD-MTG-MLT-40K-EN-SET4
       tcgplayerProductId: '272321'
-    release_date: '2022-10-07'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Warhammer 40000 Commander Deck Forces of the Imperium
+        set: 40k
+      - count: 1
+        name: Warhammer 40000 Commander Deck Necron Dynasties
+        set: 40k
+      - count: 1
+        name: Warhammer 40000 Commander Deck The Ruinous Powers
+        set: 40k
+      - count: 1
+        name: Warhammer 40000 Commander Deck Tyranid Swarm
+        set: 40k
   Warhammer 40000 Commander Deck Display Collectors Edition:
     category: DECK_BOX
+    subtype: COMMANDER
+    release_date: '2022-10-07'
     identifiers:
       cardKingdomId: '265873'
       cardtraderId: '221754'
@@ -22,10 +38,24 @@ products:
       mcmId: '674343'
       scgId: SLD-MTG-MLT-40KCOLLECTOR-EN-SET4
       tcgplayerProductId: '272322'
-    release_date: '2022-10-07'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Warhammer 40000 Commander Deck Forces of the Imperium Collectors Edition
+        set: 40k
+      - count: 1
+        name: Warhammer 40000 Commander Deck Necron Dynasties Collectors Edition
+        set: 40k
+      - count: 1
+        name: Warhammer 40000 Commander Deck The Ruinous Powers Collectors Edition
+        set: 40k
+      - count: 1
+        name: Warhammer 40000 Commander Deck Tyranid Swarm Collectors Edition
+        set: 40k
   Warhammer 40000 Commander Deck Forces of the Imperium:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2022-10-07'
     identifiers:
       abuId: '2243012'
       cardKingdomId: '265676'
@@ -35,10 +65,17 @@ products:
       scgId: SLD-MTG-MLT-40K-EN-IMPERIUM
       tcgplayerProductId: '272320'
       tntId: '1751742'
-    release_date: '2022-10-07'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Forces of the Imperium
+        set: 40k
+      other:
+      - name: 10 Double Sided Tokens
   Warhammer 40000 Commander Deck Forces of the Imperium Collectors Edition:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2022-10-07'
     identifiers:
       abuId: '2243047'
       cardKingdomId: '265680'
@@ -48,10 +85,17 @@ products:
       scgId: SLD-MTG-MLT-40KCOLLECTOR-EN-IMPERIUM
       tcgplayerProductId: '272318'
       tntId: '1751773'
-    release_date: '2022-10-07'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Forces of the Imperium Collector's Edition
+        set: 40k
+      other:
+      - name: 10 Surge Foil Double Sided Tokens
   Warhammer 40000 Commander Deck Necron Dynasties:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2022-10-07'
     identifiers:
       abuId: '2243003'
       cardKingdomId: '265677'
@@ -61,10 +105,17 @@ products:
       scgId: SLD-MTG-MLT-40K-EN-NECRON
       tcgplayerProductId: '272308'
       tntId: '1751744'
-    release_date: '2022-10-07'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Necron Dynasties
+        set: 40k
+      other:
+      - name: 10 Double Sided Tokens
   Warhammer 40000 Commander Deck Necron Dynasties Collectors Edition:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2022-10-07'
     identifiers:
       abuId: '2243046'
       cardKingdomId: '265681'
@@ -74,10 +125,17 @@ products:
       scgId: SLD-MTG-MLT-40KCOLLECTOR-EN-NECRON
       tcgplayerProductId: '272311'
       tntId: '1751749'
-    release_date: '2022-10-07'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Necron Dynasties Collector's Edition
+        set: 40k
+      other:
+      - name: 10 Surge Foil Double Sided Tokens
   Warhammer 40000 Commander Deck The Ruinous Powers:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2022-10-07'
     identifiers:
       abuId: '2242992'
       cardKingdomId: '265678'
@@ -87,10 +145,17 @@ products:
       scgId: SLD-MTG-MLT-40K-EN-POWERS
       tcgplayerProductId: '272315'
       tntId: '1751743'
-    release_date: '2022-10-07'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: The Ruinous Powers
+        set: 40k
+      other:
+      - name: 10 Double Sided Tokens
   Warhammer 40000 Commander Deck The Ruinous Powers Collectors Edition:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2022-10-07'
     identifiers:
       abuId: '2243036'
       cardKingdomId: '265682'
@@ -100,10 +165,17 @@ products:
       scgId: SLD-MTG-MLT-40KCOLLECTOR-EN-POWERS
       tcgplayerProductId: '272317'
       tntId: '1751748'
-    release_date: '2022-10-07'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: The Ruinous Powers Collector's Edition
+        set: 40k
+      other:
+      - name: 10 Surge Foil Double Sided Tokens
   Warhammer 40000 Commander Deck Tyranid Swarm:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2022-10-07'
     identifiers:
       abuId: '2243018'
       cardKingdomId: '265679'
@@ -113,10 +185,17 @@ products:
       scgId: SLD-MTG-MLT-40K-EN-TYRANID
       tcgplayerProductId: '272314'
       tntId: '1751741'
-    release_date: '2022-10-07'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Tyranid Swarm
+        set: 40k
+      other:
+      - name: 10 Double Sided Tokens
   Warhammer 40000 Commander Deck Tyranid Swarm Collectors Edition:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2022-10-07'
     identifiers:
       abuId: '2243048'
       cardKingdomId: '265683'
@@ -126,5 +205,10 @@ products:
       scgId: SLD-MTG-MLT-40KCOLLECTOR-EN-TYRANID
       tcgplayerProductId: '272312'
       tntId: '1751746'
-    release_date: '2022-10-07'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Tyranid Swarm Collector's Edition
+        set: 40k
+      other:
+      - name: 10 Surge Foil Double Sided Tokens

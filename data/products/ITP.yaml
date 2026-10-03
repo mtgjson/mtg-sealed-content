@@ -2,14 +2,49 @@ code: itp
 products:
   Introductory Two Player Set:
     category: MULTI_DECK
+    subtype: TWO_PLAYER_STARTER
     identifiers:
       cardtraderId: '40970'
       mcmId: '260470'
       tcgplayerProductId: '231480'
-    subtype: TWO_PLAYER_STARTER
+    contents:
+      card_count: 120
+      deck:
+      - name: Kazz's First Deck
+        set: itp
+      - name: Kazz's Second Deck
+        set: itp
+      - name: Zakk's First Deck
+        set: itp
+      - name: Zakk's Second Deck
+        set: itp
+      other:
+      - name: 10 advertisement and instruction support cards
+      - name: 2 Player Guides Covering 1 Demo Game
+      - name: Player guide errata sheet
   Introductory Two Player Set Gift Edition:
     category: MULTI_DECK
+    subtype: TWO_PLAYER_STARTER
+    release_date: '1996-12-01'
     identifiers:
       hareruyaId: '28560'
-    release_date: '1996-12-01'
-    subtype: TWO_PLAYER_STARTER
+    contents:
+      card_count: 120
+      deck:
+      - name: Kazz's First Deck
+        set: itp
+      - name: Kazz's Second Deck
+        set: itp
+      - name: Zakk's First Deck
+        set: itp
+      - name: Zakk's Second Deck
+        set: itp
+      other:
+      - name: 10 advertisement and instruction support cards
+      - name: 2 Player Guides Covering 1 Demo Game
+      - name: Enhanced Rule Book With Fourth Edition Rules
+      - name: Cloth Bag with 30 Glass Beads
+      sealed:
+      - count: 2
+        name: Homelands Booster Pack
+        set: hml

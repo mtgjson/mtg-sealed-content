@@ -2,6 +2,7 @@ code: dkm
 products:
   Garfield vs Finkel 2001 Deckmasters Tin:
     category: BOX_SET
+    subtype: OTHER
     identifiers:
       abuId: '1100387'
       cardKingdomId: '255718'
@@ -11,4 +12,15 @@ products:
       scgId: SLD-MTG-BXS-DKM-EN
       tcgplayerProductId: '111908'
       tntId: '94879'
-    subtype: OTHER
+    contents:
+      card_count: 124
+      deck:
+      - name: Finkel
+        set: dkm
+      - name: Garfield
+        set: dkm
+      other:
+      - name: 2 Deckmasters Spindowns
+      - name: 10-by-14 Poster of Lhurgoyf Fighting Goblin Mutant
+      - name: Full Color Booklet
+      - name: Metal Deckmasters Tin

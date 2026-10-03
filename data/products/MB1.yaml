@@ -2,6 +2,8 @@ code: mb1
 products:
   Mystery Booster Booster Box (Convention Edition - 2021):
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2021-08-20'
     identifiers:
       abuId: '2074187'
       cardKingdomId: '250162'
@@ -11,20 +13,30 @@ products:
       scgId: SLD-MTG-BBX-MB1CON-EN-2021
       tcgplayerProductId: '246935'
       tntId: '1758997'
-    release_date: '2021-08-20'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 24
+        name: Mystery Booster Booster Pack (Convention Edition - 2021)
+        set: mb1
   Mystery Booster Booster Box (Convention Edition):
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2019-11-07'
     identifiers:
       cardKingdomId: '230714'
       csiId: '321079'
       mcmId: '573877'
       scgId: SLD-MTG-BBX-MB1CON-EN
       tcgplayerProductId: '217533'
-    release_date: '2019-11-07'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 24
+        name: Mystery Booster Booster Pack (Convention Edition)
+        set: mb1
   Mystery Booster Booster Box (Retail Edition):
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2020-03-13'
     identifiers:
       abuId: '1813439'
       cardKingdomId: '231842'
@@ -34,31 +46,51 @@ products:
       mcmId: '414739'
       scgId: SLD-MTG-BBX-MB1WPN-EN
       tcgplayerProductId: '208523'
-    release_date: '2020-03-13'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 24
+        name: Mystery Booster Booster Pack (Retail Edition)
+        set: mb1
   Mystery Booster Booster Box Case (Convention Edition - 2021):
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2021-08-20'
     identifiers:
       tcgplayerProductId: '552043'
-    release_date: '2021-08-20'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Mystery Booster Booster Box (Convention Edition - 2021)
+        set: mb1
   Mystery Booster Booster Box Case (Retail Edition):
     category: BOOSTER_CASE
-    identifiers: {}
-    release_date: '2020-03-13'
     subtype: DRAFT
+    release_date: '2020-03-13'
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Mystery Booster Booster Box (Retail Edition)
+        set: mb1
   Mystery Booster Booster Pack (Convention Edition - 2021):
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2021-08-20'
     identifiers:
       abuId: '2074186'
       cardKingdomId: '250163'
       csiId: '321995'
       scgId: SLD-MTG-PCK-MB1CON-EN-2021
       tcgplayerProductId: '246936'
-    release_date: '2021-08-20'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: convention-2021
+        set: mb1
   Mystery Booster Booster Pack (Convention Edition):
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2019-11-07'
     identifiers:
       cardKingdomId: '230519'
       cardtraderId: '104898'
@@ -67,10 +99,15 @@ products:
       mcmId: '422771'
       scgId: SLD-MTG-PCK-MB1CON-EN
       tcgplayerProductId: '202644'
-    release_date: '2019-11-07'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: convention
+        set: mb1
   Mystery Booster Booster Pack (Retail Edition):
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2020-03-13'
     identifiers:
       abuId: '1822280'
       cardKingdomId: '230520'
@@ -80,5 +117,8 @@ products:
       mcmId: '414744'
       scgId: SLD-MTG-PCK-MB1WPN-EN
       tcgplayerProductId: '202647'
-    release_date: '2020-03-13'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: mb1

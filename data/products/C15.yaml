@@ -2,6 +2,8 @@ code: c15
 products:
   Commander 2015 Commander Deck Call the Spirits:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2015-11-13'
     identifiers:
       abuId: '1100330'
       cardKingdomId: '203171'
@@ -12,10 +14,17 @@ products:
       scgId: SLD-MTG-MLT-C15-EN-CALL
       tcgplayerProductId: '107626'
       tntId: '1082818'
-    release_date: '2015-11-13'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Call the Spirits
+        set: c15
+      other:
+      - name: 10 Double-Sided Tokens
   Commander 2015 Commander Deck Plunder the Graves:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2015-11-13'
     identifiers:
       abuId: '1100331'
       cardKingdomId: '203167'
@@ -26,10 +35,17 @@ products:
       scgId: SLD-MTG-MLT-C15-EN-PLUNDER
       tcgplayerProductId: '107623'
       tntId: '1082814'
-    release_date: '2015-11-13'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Plunder the Graves
+        set: c15
+      other:
+      - name: 10 Double-Sided Tokens
   Commander 2015 Commander Deck Seize Control:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2015-11-13'
     identifiers:
       abuId: '1100333'
       cardKingdomId: '203168'
@@ -40,10 +56,17 @@ products:
       scgId: SLD-MTG-MLT-C15-EN-SEIZE
       tcgplayerProductId: '107625'
       tntId: '1082815'
-    release_date: '2015-11-13'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Seize Control
+        set: c15
+      other:
+      - name: 10 Double-Sided Tokens
   Commander 2015 Commander Deck Swell the Host:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2015-11-13'
     identifiers:
       abuId: '1100336'
       cardKingdomId: '203169'
@@ -54,10 +77,17 @@ products:
       scgId: SLD-MTG-MLT-C15-EN-SWELL
       tcgplayerProductId: '107624'
       tntId: '1082816'
-    release_date: '2015-11-13'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Swell the Host
+        set: c15
+      other:
+      - name: 10 Double-Sided Tokens
   Commander 2015 Commander Deck Wade into Battle:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2015-11-13'
     identifiers:
       abuId: '1100337'
       cardKingdomId: '203170'
@@ -68,10 +98,17 @@ products:
       scgId: SLD-MTG-MLT-C15-EN-WADE
       tcgplayerProductId: '107627'
       tntId: '1082817'
-    release_date: '2015-11-13'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Wade into Battle
+        set: c15
+      other:
+      - name: 10 Double-Sided Tokens
   Commander 2015 Commander Decks Set of 5:
     category: SUBSET
+    subtype: COMMANDER
+    release_date: '2015-10-27'
     identifiers:
       cardtraderId: '44757'
       hareruyaId: '28074'
@@ -79,5 +116,20 @@ products:
       scgId: SLD-MTG-MLT-C15-EN-SET5
       tcgplayerProductId: '107622'
       tntId: '1082813'
-    release_date: '2015-10-27'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Commander 2015 Commander Deck Call the Spirits
+        set: c15
+      - count: 1
+        name: Commander 2015 Commander Deck Plunder the Graves
+        set: c15
+      - count: 1
+        name: Commander 2015 Commander Deck Seize Control
+        set: c15
+      - count: 1
+        name: Commander 2015 Commander Deck Swell the Host
+        set: c15
+      - count: 1
+        name: Commander 2015 Commander Deck Wade into Battle
+        set: c15

@@ -2,6 +2,8 @@ code: onc
 products:
   Phyrexia All Will Be One Commander Deck Corrupting Influence:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2023-02-10'
     identifiers:
       abuId: '2299758'
       cardKingdomId: '273143'
@@ -12,16 +14,38 @@ products:
       scgId: SLD-MTG-MLT-ONC-EN-CORRUPT
       tcgplayerProductId: '475566'
       tntId: '1769441'
-    release_date: '2023-02-10'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Corrupting Influence
+        set: onc
+      other:
+      - name: Phyrexia All Will Be One Life Wheel
+      - name: 10 Double Sided Tokens
+      - name: Strategy insert
+      - name: Reference card
+      sealed:
+      - count: 1
+        name: Phyrexia All Will Be One Collector Booster Sample Pack
+        set: one
   Phyrexia All Will Be One Commander Deck Display:
     category: DECK_BOX
+    subtype: COMMANDER
+    release_date: '2023-02-10'
     identifiers:
       tcgplayerProductId: '475569'
-    release_date: '2023-02-10'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 2
+        name: Phyrexia All Will Be One Commander Deck Corrupting Influence
+        set: onc
+      - count: 2
+        name: Phyrexia All Will Be One Commander Deck Rebellion Rising
+        set: onc
   Phyrexia All Will Be One Commander Deck Rebellion Rising:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2023-02-10'
     identifiers:
       abuId: '2299759'
       cardKingdomId: '273144'
@@ -32,10 +56,24 @@ products:
       scgId: SLD-MTG-MLT-ONC-EN-REBEL
       tcgplayerProductId: '475567'
       tntId: '1769442'
-    release_date: '2023-02-10'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Rebellion Rising
+        set: onc
+      other:
+      - name: Phyrexia All Will Be One Life Wheel
+      - name: 10 Double Sided Tokens
+      - name: Strategy insert
+      - name: Reference card
+      sealed:
+      - count: 1
+        name: Phyrexia All Will Be One Collector Booster Sample Pack
+        set: one
   Phyrexia All Will Be One Commander Decks Set of 2:
     category: SUBSET
+    subtype: COMMANDER
+    release_date: '2023-02-10'
     identifiers:
       cardKingdomId: '273145'
       cardtraderId: '232086'
@@ -44,5 +82,11 @@ products:
       mcmId: '689909'
       scgId: SLD-MTG-MLT-ONC-EN-SET2
       tcgplayerProductId: '475568'
-    release_date: '2023-02-10'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Phyrexia All Will Be One Commander Deck Corrupting Influence
+        set: onc
+      - count: 1
+        name: Phyrexia All Will Be One Commander Deck Rebellion Rising
+        set: onc

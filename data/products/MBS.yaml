@@ -2,6 +2,7 @@ code: mbs
 products:
   Mirrodin Besieged Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1107949'
       cardKingdomId: '133026'
@@ -12,14 +13,24 @@ products:
       scgId: SLD-MTG-BBX-MBS-EN
       tcgplayerProductId: '39109'
       tntId: '299371'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Mirrodin Besieged Booster Pack
+        set: mbs
   Mirrodin Besieged Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '39114'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Mirrodin Besieged Booster Box
+        set: mbs
   Mirrodin Besieged Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476908'
       cardKingdomId: '133027'
@@ -30,14 +41,27 @@ products:
       scgId: SLD-MTG-PCK-MBS-EN
       tcgplayerProductId: '39108'
       tntId: '299372'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: mbs
   Mirrodin Besieged Event Deck Display:
     category: DECK_BOX
+    subtype: EVENT
     identifiers:
       tntId: '306948'
-    subtype: EVENT
+    contents:
+      sealed:
+      - count: 3
+        name: Mirrodin Besieged Event Deck Infect and Defile
+        set: mbs
+      - count: 3
+        name: Mirrodin Besieged Event Deck Into the Breach
+        set: mbs
   Mirrodin Besieged Event Deck Infect and Defile:
     category: DECK
+    subtype: EVENT
     identifiers:
       abuId: '1100885'
       cardKingdomId: '147764'
@@ -46,9 +70,14 @@ products:
       scgId: SLD-MTG-INT-MBSEVENT-EN-INFECT
       tcgplayerProductId: '141938'
       tntId: '306950'
-    subtype: EVENT
+    contents:
+      card_count: 75
+      deck:
+      - name: Infect & Defile
+        set: mbs
   Mirrodin Besieged Event Deck Into the Breach:
     category: DECK
+    subtype: EVENT
     identifiers:
       abuId: '1107951'
       cardKingdomId: '147763'
@@ -57,16 +86,29 @@ products:
       scgId: SLD-MTG-INT-MBSEVENT-EN-INTO
       tcgplayerProductId: '141937'
       tntId: '306949'
-    subtype: EVENT
+    contents:
+      card_count: 75
+      deck:
+      - name: Into the Breach
+        set: mbs
   Mirrodin Besieged Event Decks Set of 2:
     category: SUBSET
+    subtype: EVENT
     identifiers:
       abuId: '1107952'
       cardtraderId: '47582'
       mcmId: '245714'
-    subtype: EVENT
+    contents:
+      sealed:
+      - count: 1
+        name: Mirrodin Besieged Event Deck Infect and Defile
+        set: mbs
+      - count: 1
+        name: Mirrodin Besieged Event Deck Into the Breach
+        set: mbs
   Mirrodin Besieged Faction Booster Box:
     category: BOOSTER_BOX
+    subtype: OTHER
     identifiers:
       abuId: '1107953'
       cardKingdomId: '240437'
@@ -75,13 +117,26 @@ products:
       mcmId: '245556'
       scgId: SLD-MTG-BBX-MBSFACTION-EN
       tcgplayerProductId: '117598'
-    subtype: OTHER
+    contents:
+      sealed:
+      - count: 18
+        name: Mirrodin Besieged Mirran Faction Booster Pack
+        set: mbs
+      - count: 18
+        name: Mirrodin Besieged Phyrexian Faction Booster Pack
+        set: mbs
   Mirrodin Besieged Faction Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: OTHER
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Mirrodin Besieged Faction Booster Box
+        set: mbs
   Mirrodin Besieged Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1100886'
       cardKingdomId: '133028'
@@ -92,9 +147,25 @@ products:
       scgId: SLD-MTG-BUN-MBS-EN
       tcgplayerProductId: '39120'
       tntId: '299374'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Scars of Mirrodin Fat Pack Land Pack
+        set: som
+      - name: Mirrodin Besieged Fat Pack Land Pack
+        set: mbs
+      other:
+      - name: Mirrodin Besieged spindown life counter
+      - name: player's guide
+      - name: learn-to-play insert
+      - name: card storage box
+      - name: two 60-card deck boxes
+      sealed:
+      - count: 9
+        name: Mirrodin Besieged Booster Pack
+        set: mbs
   Mirrodin Besieged Intro Pack Battle Cries:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100887'
       cardKingdomId: '137134'
@@ -103,9 +174,18 @@ products:
       scgId: SLD-MTG-INT-MBSINTRO-EN-BATTLE
       tcgplayerProductId: '39116'
       tntId: '299376'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Battle Cries
+        set: mbs
+      sealed:
+      - count: 1
+        name: Mirrodin Besieged Booster Pack
+        set: mbs
   Mirrodin Besieged Intro Pack Doom Inevitable:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100889'
       cardKingdomId: '137135'
@@ -114,9 +194,18 @@ products:
       scgId: SLD-MTG-INT-MBSINTRO-EN-DOOM
       tcgplayerProductId: '39119'
       tntId: '299378'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Doom Inevitable
+        set: mbs
+      sealed:
+      - count: 1
+        name: Mirrodin Besieged Booster Pack
+        set: mbs
   Mirrodin Besieged Intro Pack Mirromancy:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100890'
       cardKingdomId: '137136'
@@ -125,9 +214,18 @@ products:
       scgId: SLD-MTG-INT-MBSINTRO-EN-MIRROMANCY
       tcgplayerProductId: '39118'
       tntId: '299377'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Mirromancy
+        set: mbs
+      sealed:
+      - count: 1
+        name: Mirrodin Besieged Booster Pack
+        set: mbs
   Mirrodin Besieged Intro Pack Path of Blight:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100888'
       cardKingdomId: '137137'
@@ -136,27 +234,60 @@ products:
       scgId: SLD-MTG-INT-MBSINTRO-EN-PATH
       tcgplayerProductId: '39117'
       tntId: '299379'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Path of Blight
+        set: mbs
+      sealed:
+      - count: 1
+        name: Mirrodin Besieged Booster Pack
+        set: mbs
   Mirrodin Besieged Intro Packs Set of 4:
     category: SUBSET
+    subtype: INTRO
     identifiers:
       abuId: '1100896'
       cardtraderId: '47583'
       mcmId: '245318'
       tcgplayerProductId: '39115'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 1
+        name: Mirrodin Besieged Intro Pack Battle Cries
+        set: mbs
+      - count: 1
+        name: Mirrodin Besieged Intro Pack Doom Inevitable
+        set: mbs
+      - count: 1
+        name: Mirrodin Besieged Intro Pack Mirromancy
+        set: mbs
+      - count: 1
+        name: Mirrodin Besieged Intro Pack Path of Blight
+        set: mbs
   Mirrodin Besieged MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210877'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 155
+      deck:
+      - name: Mirrodin Besieged Redemption
+        set: mbs
   Mirrodin Besieged MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210859'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 155
+      deck:
+      - name: Mirrodin Besieged Foil Redemption
+        set: mbs
   Mirrodin Besieged Mirran Faction Booster Pack:
     category: BOOSTER_PACK
+    subtype: OTHER
     identifiers:
       abuId: '1796220'
       cardKingdomId: '184197'
@@ -166,9 +297,14 @@ products:
       scgId: SLD-MTG-PCK-MBSFACTION-EN-MIRRAN
       tcgplayerProductId: '72025'
       tntId: '305942'
-    subtype: OTHER
+    contents:
+      card_count: 15
+      pack:
+      - code: mirran
+        set: mbs
   Mirrodin Besieged Phyrexian Faction Booster Pack:
     category: BOOSTER_PACK
+    subtype: OTHER
     identifiers:
       abuId: '1796221'
       cardKingdomId: '184196'
@@ -178,12 +314,21 @@ products:
       scgId: SLD-MTG-PCK-MBSFACTION-EN-PHYREXIAN
       tcgplayerProductId: '72026'
       tntId: '305941'
-    subtype: OTHER
+    contents:
+      card_count: 15
+      pack:
+      - code: phyrexian
+        set: mbs
   Mirrodin Besieged Six Card Booster Pack:
     category: BOOSTER_PACK
+    subtype: SIX
+    release_date: '2018-01-16'
     identifiers:
       cardtraderId: '47565'
       mcmId: '315706'
       tcgplayerProductId: 202956
-    release_date: '2018-01-16'
-    subtype: SIX
+    contents:
+      card_count: 6
+      pack:
+      - code: six
+        set: mbs

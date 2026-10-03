@@ -2,6 +2,7 @@ code: wc98
 products:
   1998 World Championship Deck Ben Rubin:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1100227'
       cardKingdomId: '240322'
@@ -12,14 +13,33 @@ products:
       scgId: SLD-MTG-BXS-WCH1998-EN-BENRUBIN
       tcgplayerProductId: '158281'
       tntId: '79193'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 75
+      deck:
+      - name: Ben Rubin - Sligh
+        set: wc98
   1998 World Championship Deck Box:
     category: DECK_BOX
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1476970'
-    subtype: CHAMPIONSHIP
+    contents:
+      sealed:
+      - count: 3
+        name: 1998 World Championship Deck Ben Rubin
+        set: wc98
+      - count: 2
+        name: 1998 World Championship Deck Brian Hacker
+        set: wc98
+      - count: 4
+        name: 1998 World Championship Deck Brian Selden
+        set: wc98
+      - count: 3
+        name: 1998 World Championship Deck Randy Buehler
+        set: wc98
   1998 World Championship Deck Brian Hacker:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1100228'
       cardKingdomId: '240323'
@@ -30,9 +50,14 @@ products:
       scgId: SLD-MTG-BXS-WCH1998-EN-BRIANHACKER
       tcgplayerProductId: '158282'
       tntId: '79192'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 75
+      deck:
+      - name: Brian Hacker - White Weenie
+        set: wc98
   1998 World Championship Deck Brian Selden:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1100229'
       cardKingdomId: '228595'
@@ -43,9 +68,14 @@ products:
       scgId: SLD-MTG-BXS-WCH1998-EN-BRIANSELDEN
       tcgplayerProductId: '158280'
       tntId: '79194'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 75
+      deck:
+      - name: Brian Selden - Cali Nightmare
+        set: wc98
   1998 World Championship Deck Randy Buehler:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1100231'
       cardKingdomId: '240324'
@@ -56,9 +86,27 @@ products:
       scgId: SLD-MTG-BXS-WCH1998-EN-RANDYBUEHLER
       tcgplayerProductId: '158284'
       tntId: '79195'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 75
+      deck:
+      - name: Randy Buehler - Draw, Go
+        set: wc98
   1998 World Championship Decks Set of 4:
     category: DECK_BOX
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1107794'
-    subtype: CHAMPIONSHIP
+    contents:
+      sealed:
+      - count: 1
+        name: 1998 World Championship Deck Ben Rubin
+        set: wc98
+      - count: 1
+        name: 1998 World Championship Deck Brian Hacker
+        set: wc98
+      - count: 1
+        name: 1998 World Championship Deck Brian Selden
+        set: wc98
+      - count: 1
+        name: 1998 World Championship Deck Randy Buehler
+        set: wc98

@@ -2,12 +2,19 @@ code: a25
 products:
   Masters 25 3 Booster Draft Pack:
     category: LIMITED
+    subtype: DRAFT_SET
+    release_date: '2018-03-16'
     identifiers:
       tcgplayerProductId: '161474'
-    release_date: '2018-03-16'
-    subtype: DRAFT_SET
+    contents:
+      sealed:
+      - count: 3
+        name: Masters 25 Booster Pack
+        set: a25
   Masters 25 Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2018-03-16'
     identifiers:
       abuId: '1486285'
       cardKingdomId: '217043'
@@ -18,17 +25,27 @@ products:
       scgId: SLD-MTG-BBX-A25-EN
       tcgplayerProductId: '157857'
       tntId: '1158679'
-    release_date: '2018-03-16'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 24
+        name: Masters 25 Booster Pack
+        set: a25
   Masters 25 Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2018-03-16'
     identifiers:
       tcgplayerProductId: '157860'
       tntId: '1158704'
-    release_date: '2018-03-16'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 4
+        name: Masters 25 Booster Box
+        set: a25
   Masters 25 Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2018-03-16'
     identifiers:
       abuId: '1973132'
       cardKingdomId: '217044'
@@ -39,5 +56,8 @@ products:
       scgId: SLD-MTG-PCK-A25-EN
       tcgplayerProductId: '157861'
       tntId: '1158680'
-    release_date: '2018-03-16'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: a25

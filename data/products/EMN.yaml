@@ -2,6 +2,8 @@ code: emn
 products:
   Eldritch Moon Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2016-02-16'
     identifiers:
       abuId: '1100472'
       cardKingdomId: '207313'
@@ -12,16 +14,26 @@ products:
       scgId: SLD-MTG-BBX-EMN-EN
       tcgplayerProductId: '118393'
       tntId: '1096459'
-    release_date: '2016-02-16'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Eldritch Moon Booster Pack
+        set: emn
   Eldritch Moon Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '118401'
       tntId: '1096458'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Eldritch Moon Booster Box
+        set: emn
   Eldritch Moon Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2016-02-16'
     identifiers:
       abuId: '1526917'
       cardKingdomId: '207314'
@@ -32,10 +44,15 @@ products:
       scgId: SLD-MTG-PCK-EMN-EN
       tcgplayerProductId: '118394'
       tntId: '1096460'
-    release_date: '2016-02-16'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: emn
   Eldritch Moon Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
+    release_date: '2016-07-22'
     identifiers:
       abuId: '1100479'
       cardKingdomId: '207319'
@@ -46,10 +63,22 @@ products:
       scgId: SLD-MTG-BUN-EMN-EN
       tcgplayerProductId: '118402'
       tntId: '1096461'
-    release_date: '2016-07-22'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Shadows over Innistrad Fat Pack Land Pack
+        set: soi
+      other:
+      - name: Eldritch Moon Player's Guide
+      - name: Eldritch Moon Card Box
+      - name: Eldritch Moon Spindown
+      sealed:
+      - count: 9
+        name: Eldritch Moon Booster Pack
+        set: emn
   Eldritch Moon Intro Pack Dangerous Knowledge:
     category: DECK
+    subtype: INTRO
+    release_date: '2016-06-29'
     identifiers:
       abuId: '1100480'
       cardKingdomId: '209450'
@@ -57,28 +86,71 @@ products:
       mcmId: '290947'
       tcgplayerProductId: '118396'
       tntId: '1099828'
-    release_date: '2016-06-29'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Dangerous Knowledge
+        set: emn
+      sealed:
+      - count: 2
+        name: Eldritch Moon Booster Pack
+        set: emn
   Eldritch Moon Intro Pack Display:
     category: DECK_BOX
+    subtype: INTRO
+    release_date: '2016-06-29'
     identifiers:
       cardtraderId: '48439'
       mcmId: '290951'
       tntId: '1098347'
-    release_date: '2016-06-29'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 2
+        name: Eldritch Moon Intro Pack Dangerous Knowledge
+        set: emn
+      - count: 2
+        name: Eldritch Moon Intro Pack Shallow Graves
+        set: emn
+      - count: 2
+        name: Eldritch Moon Intro Pack Unlikely Alliances
+        set: emn
+      - count: 2
+        name: Eldritch Moon Intro Pack Untamed Wild
+        set: emn
+      - count: 2
+        name: Eldritch Moon Intro Pack Weapons and Wards
+        set: emn
   Eldritch Moon Intro Pack Set of 5:
     category: SUBSET
+    subtype: INTRO
+    release_date: '2016-06-29'
     identifiers:
       cardtraderId: '48440'
       mcmId: '290950'
       scgId: SLD-MTG-INT-EMNINTRO-EN-SET5
       tcgplayerProductId: '118400'
       tntId: '1098349'
-    release_date: '2016-06-29'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 1
+        name: Eldritch Moon Intro Pack Dangerous Knowledge
+        set: emn
+      - count: 1
+        name: Eldritch Moon Intro Pack Shallow Graves
+        set: emn
+      - count: 1
+        name: Eldritch Moon Intro Pack Unlikely Alliances
+        set: emn
+      - count: 1
+        name: Eldritch Moon Intro Pack Untamed Wild
+        set: emn
+      - count: 1
+        name: Eldritch Moon Intro Pack Weapons and Wards
+        set: emn
   Eldritch Moon Intro Pack Shallow Graves:
     category: DECK
+    subtype: INTRO
+    release_date: '2016-06-29'
     identifiers:
       abuId: '1100481'
       cardKingdomId: '209451'
@@ -86,20 +158,38 @@ products:
       mcmId: '290949'
       tcgplayerProductId: '118395'
       tntId: '1099829'
-    release_date: '2016-06-29'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Shallow Graves
+        set: emn
+      sealed:
+      - count: 2
+        name: Eldritch Moon Booster Pack
+        set: emn
   Eldritch Moon Intro Pack Unlikely Alliances:
     category: DECK
+    subtype: INTRO
+    release_date: '2016-06-29'
     identifiers:
       cardKingdomId: '209449'
       cardtraderId: '48436'
       mcmId: '290946'
       tcgplayerProductId: '118399'
       tntId: '1099827'
-    release_date: '2016-06-29'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Unlikely Alliances
+        set: emn
+      sealed:
+      - count: 2
+        name: Eldritch Moon Booster Pack
+        set: emn
   Eldritch Moon Intro Pack Untamed Wild:
     category: DECK
+    subtype: INTRO
+    release_date: '2016-06-29'
     identifiers:
       abuId: '1100483'
       cardKingdomId: '209452'
@@ -107,10 +197,19 @@ products:
       mcmId: '290948'
       tcgplayerProductId: '118398'
       tntId: '1099830'
-    release_date: '2016-06-29'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Untamed Wild
+        set: emn
+      sealed:
+      - count: 2
+        name: Eldritch Moon Booster Pack
+        set: emn
   Eldritch Moon Intro Pack Weapons and Wards:
     category: DECK
+    subtype: INTRO
+    release_date: '2016-06-29'
     identifiers:
       abuId: '1100484'
       cardKingdomId: '209453'
@@ -119,25 +218,62 @@ products:
       mcmId: '290945'
       tcgplayerProductId: '118397'
       tntId: '1099831'
-    release_date: '2016-06-29'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Weapons and Wards
+        set: emn
+      sealed:
+      - count: 2
+        name: Eldritch Moon Booster Pack
+        set: emn
   Eldritch Moon MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210361'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 205
+      deck:
+      - name: Eldritch Moon Redemption
+        set: emn
   Eldritch Moon MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210879'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 205
+      deck:
+      - name: Eldritch Moon Foil Redemption
+        set: emn
   Eldritch Moon Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2016-06-20'
     identifiers:
       abuId: '1107851'
       cardKingdomId: '208089'
       cardtraderId: '48438'
       mcmId: '290909'
       tcgplayerProductId: '120775'
-    release_date: '2016-06-20'
-    subtype: PRERELEASE
+    contents:
+      card:
+      - foil: true
+        name: Zombie // Zombie
+        number: 1Z
+        set: pemn
+        token: true
+      card_count: 1
+      other:
+      - name: 1 Eldritch Moon Spindown
+      pack:
+      - code: prerelease
+        set: emn
+      sealed:
+      - count: 4
+        name: Eldritch Moon Booster Pack
+        set: emn
+      - count: 2
+        name: Shadows over Innistrad Booster Pack
+        set: soi

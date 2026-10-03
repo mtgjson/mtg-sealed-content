@@ -2,6 +2,8 @@ code: c16
 products:
   Commander 2016 Commander Deck Breed Lethality:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2016-05-30'
     identifiers:
       abuId: '1107830'
       cardKingdomId: '209486'
@@ -11,10 +13,17 @@ products:
       scgId: SLD-MTG-MLT-C16-EN-BREED
       tcgplayerProductId: '123968'
       tntId: '1105635'
-    release_date: '2016-05-30'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Breed Lethality
+        set: c16
+      other:
+      - name: 10 Double-Sided Tokens
   Commander 2016 Commander Deck Entropic Uprising:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2016-05-30'
     identifiers:
       abuId: '1107831'
       cardKingdomId: '209488'
@@ -24,10 +33,17 @@ products:
       scgId: SLD-MTG-MLT-C16-EN-ENTROPIC
       tcgplayerProductId: '123966'
       tntId: '1105638'
-    release_date: '2016-05-30'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Entropic Uprising
+        set: c16
+      other:
+      - name: 10 Double-Sided Tokens
   Commander 2016 Commander Deck Invent Superiority:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2016-05-30'
     identifiers:
       abuId: '1100341'
       cardKingdomId: '209489'
@@ -37,10 +53,17 @@ products:
       scgId: SLD-MTG-MLT-C16-EN-INVENT
       tcgplayerProductId: '123970'
       tntId: '1105639'
-    release_date: '2016-05-30'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Invent Superiority
+        set: c16
+      other:
+      - name: 10 Double-Sided Tokens
   Commander 2016 Commander Deck Open Hostility:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2016-05-30'
     identifiers:
       abuId: '1100342'
       cardKingdomId: '209487'
@@ -50,10 +73,17 @@ products:
       scgId: SLD-MTG-MLT-C16-EN-OPEN
       tcgplayerProductId: '123967'
       tntId: '1105636'
-    release_date: '2016-05-30'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Open Hostility
+        set: c16
+      other:
+      - name: 10 Double-Sided Tokens
   Commander 2016 Commander Deck Stalwart Unity:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2016-05-30'
     identifiers:
       abuId: '1100343'
       cardKingdomId: '209485'
@@ -63,10 +93,17 @@ products:
       scgId: SLD-MTG-MLT-C16-EN-STALWART
       tcgplayerProductId: '123969'
       tntId: '1105637'
-    release_date: '2016-05-30'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Stalwart Unity
+        set: c16
+      other:
+      - name: 10 Double-Sided Tokens
   Commander 2016 Commander Decks Set of 5:
     category: SUBSET
+    subtype: COMMANDER
+    release_date: '2016-05-30'
     identifiers:
       cardtraderId: '44751'
       hareruyaId: '28490'
@@ -74,5 +111,20 @@ products:
       scgId: SLD-MTG-MLT-C16-EN-SET5
       tcgplayerProductId: '123971'
       tntId: '1102289'
-    release_date: '2016-05-30'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Commander 2016 Commander Deck Breed Lethality
+        set: c16
+      - count: 1
+        name: Commander 2016 Commander Deck Entropic Uprising
+        set: c16
+      - count: 1
+        name: Commander 2016 Commander Deck Invent Superiority
+        set: c16
+      - count: 1
+        name: Commander 2016 Commander Deck Open Hostility
+        set: c16
+      - count: 1
+        name: Commander 2016 Commander Deck Stalwart Unity
+        set: c16

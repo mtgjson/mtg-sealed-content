@@ -2,14 +2,29 @@ code: hop
 products:
   Planechase 2009:
     category: SUBSET
+    subtype: PLANECHASE
     identifiers:
       abuId: '1107971'
       cardtraderId: '47415'
       tcgplayerProductId: '659602'
       tntId: '279968'
-    subtype: PLANECHASE
+    contents:
+      sealed:
+      - count: 1
+        name: Planechase 2009 Deck Elemental Thunder
+        set: hop
+      - count: 1
+        name: Planechase 2009 Deck Metallic Dreams
+        set: hop
+      - count: 1
+        name: Planechase 2009 Deck Strike Force
+        set: hop
+      - count: 1
+        name: Planechase 2009 Deck Zombie Empire
+        set: hop
   Planechase 2009 Deck Elemental Thunder:
     category: DECK
+    subtype: PLANECHASE
     identifiers:
       abuId: '1100972'
       cardKingdomId: '127578'
@@ -19,9 +34,16 @@ products:
       scgId: SLD-MTG-MLT-HOP-EN-ELEMENTAL
       tcgplayerProductId: '32800'
       tntId: '279969'
-    subtype: PLANECHASE
+    contents:
+      card_count: 70
+      deck:
+      - name: Elemental Thunder
+        set: hop
+      other:
+      - name: Planechase 2009 Planar Die
   Planechase 2009 Deck Metallic Dreams:
     category: DECK
+    subtype: PLANECHASE
     identifiers:
       abuId: '1100984'
       cardKingdomId: '127579'
@@ -31,9 +53,16 @@ products:
       scgId: SLD-MTG-MLT-HOP-EN-METALLIC
       tcgplayerProductId: '32801'
       tntId: '279970'
-    subtype: PLANECHASE
+    contents:
+      card_count: 70
+      deck:
+      - name: Metallic Dreams
+        set: hop
+      other:
+      - name: Planechase 2009 Planar Die
   Planechase 2009 Deck Strike Force:
     category: DECK
+    subtype: PLANECHASE
     identifiers:
       abuId: '1100985'
       cardKingdomId: '127580'
@@ -43,9 +72,16 @@ products:
       scgId: SLD-MTG-MLT-HOP-EN-STRIKE
       tcgplayerProductId: '32802'
       tntId: '279971'
-    subtype: PLANECHASE
+    contents:
+      card_count: 70
+      deck:
+      - name: Strike Force
+        set: hop
+      other:
+      - name: Planechase 2009 Planar Die
   Planechase 2009 Deck Zombie Empire:
     category: DECK
+    subtype: PLANECHASE
     identifiers:
       abuId: '1100986'
       cardKingdomId: '127581'
@@ -55,4 +91,10 @@ products:
       scgId: SLD-MTG-MLT-HOP-EN-ZOMBIE
       tcgplayerProductId: '32803'
       tntId: '279972'
-    subtype: PLANECHASE
+    contents:
+      card_count: 70
+      deck:
+      - name: Zombie Empire
+        set: hop
+      other:
+      - name: Planechase 2009 Planar Die

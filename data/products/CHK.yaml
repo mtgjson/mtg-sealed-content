@@ -2,6 +2,7 @@ code: chk
 products:
   Champions of Kamigawa Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1100303'
       cardKingdomId: '112048'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-CHK-EN
       tcgplayerProductId: '27268'
       tntId: '118451'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Champions of Kamigawa Booster Pack
+        set: chk
   Champions of Kamigawa Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Champions of Kamigawa Booster Box
+        set: chk
   Champions of Kamigawa Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476858'
       cardKingdomId: '112047'
@@ -29,9 +40,14 @@ products:
       scgId: SLD-MTG-PCK-CHK-EN
       tcgplayerProductId: '27330'
       tntId: '118452'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: chk
   Champions of Kamigawa Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1100304'
       cardKingdomId: '228585'
@@ -42,28 +58,68 @@ products:
       scgId: SLD-MTG-BUN-CHK-EN
       tcgplayerProductId: '78305'
       tntId: '155104'
-    subtype: FAT_PACK
+    contents:
+      card_count: 2
+      other:
+      - name: Champions of Kamigawa Player's Guide
+      - name: The Champions of Kamigawa Novel
+      - name: Champions of Kamigawa Special Edition Spindown
+      pack:
+      - code: fat-pack
+        set: chk
+      sealed:
+      - count: 3
+        name: Champions of Kamigawa Booster Pack
+        set: chk
+      - count: 1
+        name: Champions of Kamigawa Tournament Pack
+        set: chk
   Champions of Kamigawa MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '219829'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 307
+      deck:
+      - name: Champions of Kamigawa Redemption
+        set: chk
   Champions of Kamigawa MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '228583'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 307
+      deck:
+      - name: Champions of Kamigawa Foil Redemption
+        set: chk
   Champions of Kamigawa Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       abuId: '1476859'
       cardKingdomId: '240122'
       cardtraderId: '46888'
       mcmId: '210218'
       tntId: '118459'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 3
+        name: Champions of Kamigawa Theme Deck Kami Reborn
+        set: chk
+      - count: 3
+        name: Champions of Kamigawa Theme Deck Snakes Path
+        set: chk
+      - count: 3
+        name: Champions of Kamigawa Theme Deck Spiritbane
+        set: chk
+      - count: 3
+        name: Champions of Kamigawa Theme Deck Way of the Warrior
+        set: chk
   Champions of Kamigawa Theme Deck Kami Reborn:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100306'
       cardKingdomId: '112049'
@@ -72,9 +128,14 @@ products:
       mcmId: '253692'
       tcgplayerProductId: '100232'
       tntId: '118455'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Kami Reborn
+        set: chk
   Champions of Kamigawa Theme Deck Snakes Path:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100307'
       cardKingdomId: '112051'
@@ -83,9 +144,14 @@ products:
       mcmId: '253693'
       tcgplayerProductId: '100233'
       tntId: '118456'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Snake's Path
+        set: chk
   Champions of Kamigawa Theme Deck Spiritbane:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100308'
       cardKingdomId: '112052'
@@ -94,9 +160,14 @@ products:
       mcmId: '253694'
       tcgplayerProductId: '100231'
       tntId: '118457'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Spiritbane
+        set: chk
   Champions of Kamigawa Theme Deck Way of the Warrior:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100311'
       cardKingdomId: '112053'
@@ -105,9 +176,14 @@ products:
       mcmId: '253695'
       tcgplayerProductId: '100234'
       tntId: '118458'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Way of the Warrior
+        set: chk
   Champions of Kamigawa Tournament Pack:
     category: LIMITED
+    subtype: TOURNAMENT
     identifiers:
       abuId: '1100305'
       cardKingdomId: '112054'
@@ -117,9 +193,14 @@ products:
       scgId: SLD-MTG-PCK-CHKTOURNAMENT-EN
       tcgplayerProductId: '118879'
       tntId: '118454'
-    subtype: TOURNAMENT
+    contents:
+      card_count: 75
+      pack:
+      - code: tournament
+        set: chk
   Champions of Kamigawa Tournament Pack Display:
     category: LIMITED_CASE
+    subtype: TOURNAMENT
     identifiers:
       abuId: '1107816'
       cardKingdomId: '240123'
@@ -129,4 +210,8 @@ products:
       scgId: SLD-MTG-BBX-CHKTOURNAMENT-EN
       tcgplayerProductId: '693107'
       tntId: '118453'
-    subtype: TOURNAMENT
+    contents:
+      sealed:
+      - count: 12
+        name: Champions of Kamigawa Tournament Pack
+        set: chk

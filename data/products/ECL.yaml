@@ -2,6 +2,8 @@ code: ecl
 products:
   Lorwyn Eclipsed 60-Card Theme Deck Angels:
     category: DECK
+    subtype: THEME
+    release_date: '2026-01-23'
     identifiers:
       abuId: '2656215'
       cardKingdomId: '321615'
@@ -9,21 +11,40 @@ products:
       mcmId: '851278'
       scgId: SLD-MTG-INT-ECLTHEME-EN-ANGELS
       tcgplayerProductId: '656331'
-    release_date: '2026-01-23'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Angels
+        set: ecl
+      other:
+      - name: 5 Non-foil double-sided tokens
+      - name: 1 Double-sided reference card
+      - name: 1 Strategy insert
   Lorwyn Eclipsed 60-Card Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       cardtraderId: '352411'
       tcgplayerProductId: '656332'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 4
+        name: Lorwyn Eclipsed 60-Card Theme Deck Set of 2
+        set: ecl
   Lorwyn Eclipsed 60-Card Theme Deck Display Case:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       tcgplayerProductId: '656334'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 4
+        name: Lorwyn Eclipsed 60-Card Theme Deck Display
+        set: ecl
   Lorwyn Eclipsed 60-Card Theme Deck Pirates:
     category: DECK
+    subtype: THEME
+    release_date: '2026-01-23'
     identifiers:
       abuId: '2656216'
       cardKingdomId: '321614'
@@ -32,18 +53,35 @@ products:
       miniaturemarketId: d954640e47a6f8811c37c8db79809be4
       scgId: SLD-MTG-INT-ECLTHEME-EN-PIRATES
       tcgplayerProductId: '656330'
-    release_date: '2026-01-23'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Pirates
+        set: ecl
+      other:
+      - name: 5 Non-foil double-sided tokens
+      - name: 1 Double-sided reference card
+      - name: 1 Strategy insert
   Lorwyn Eclipsed 60-Card Theme Deck Set of 2:
     category: SUBSET
+    subtype: THEME
     identifiers:
       cardKingdomId: '321616'
       miniaturemarketId: 18f4ac344eec8718342b73f4f5294aef
       scgId: SLD-MTG-INT-ECLTHEME-EN-SET2
       tcgplayerProductId: '669262'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Lorwyn Eclipsed 60-Card Theme Deck Angels
+        set: ecl
+      - count: 1
+        name: Lorwyn Eclipsed 60-Card Theme Deck Pirates
+        set: ecl
   Lorwyn Eclipsed Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2026-01-23'
     identifiers:
       abuId: '2656217'
       cardKingdomId: '321610'
@@ -53,16 +91,39 @@ products:
       miniaturemarketId: 5ab4eb8fb5e55d4b2f174177d3c8343e
       scgId: SLD-MTG-BUN-ECL-EN
       tcgplayerProductId: '656340'
-    release_date: '2026-01-23'
-    subtype: DEFAULT
+    contents:
+      card:
+      - foil: true
+        name: Kinbinding
+        number: 407
+        set: ecl
+      card_count: 1
+      deck:
+      - name: Lorwyn Eclipsed Bundle Land Pack
+        set: ecl
+      other:
+      - name: 2 Reference cards
+      - name: 1 Spindown die
+      - name: 1 Card-storage box
+      sealed:
+      - count: 9
+        name: Lorwyn Eclipsed Play Booster Pack
+        set: ecl
   Lorwyn Eclipsed Bundle Case:
     category: BUNDLE_CASE
+    subtype: DEFAULT
     identifiers:
       cardtraderId: '405208'
       tcgplayerProductId: '656342'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 6
+        name: Lorwyn Eclipsed Bundle
+        set: ecl
   Lorwyn Eclipsed Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2026-01-23'
     identifiers:
       abuId: '2656209'
       cardKingdomId: '321607'
@@ -72,15 +133,25 @@ products:
       miniaturemarketId: 95d738ae7baa1c23470b6bc1197f167c
       scgId: SLD-MTG-BBX-ECLCOLLECTOR-EN
       tcgplayerProductId: '656322'
-    release_date: '2026-01-23'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Lorwyn Eclipsed Collector Booster Pack
+        set: ecl
   Lorwyn Eclipsed Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '656325'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Lorwyn Eclipsed Collector Booster Box
+        set: ecl
   Lorwyn Eclipsed Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2026-01-23'
     identifiers:
       abuId: '2656208'
       cardKingdomId: '321606'
@@ -89,15 +160,22 @@ products:
       miniaturemarketId: 688266c3666fea1130a474a48e80e588
       scgId: SLD-MTG-PCK-ECLCOLLECTOR-EN
       tcgplayerProductId: '656318'
-    release_date: '2026-01-23'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: ecl
   Lorwyn Eclipsed Collector Booster Pack Minimal Packaging:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '684662'
-    subtype: COLLECTOR
+    contents:
+      copy: Lorwyn Eclipsed Collector Booster Pack
   Lorwyn Eclipsed Draft Night:
     category: LIMITED
+    subtype: DRAFT
+    release_date: '2026-01-23'
     identifiers:
       abuId: '2656218'
       cardKingdomId: '321617'
@@ -106,20 +184,45 @@ products:
       miniaturemarketId: 3ddb171062e8fb8a57d9169504e12ae1
       scgId: SLD-MTG-DRAFTNIGHT-ECL-EN
       tcgplayerProductId: '656343'
-    release_date: '2026-01-23'
-    subtype: DRAFT
+    contents:
+      card_count: 90
+      deck:
+      - name: Lorwyn Eclipsed Draft Night Land Pack
+        set: ecl
+      other:
+      - name: 10 Non-foil double-sided tokens
+      - name: 1 Draft insert
+      sealed:
+      - count: 12
+        name: Lorwyn Eclipsed Play Booster Pack
+        set: ecl
+      - count: 1
+        name: Lorwyn Eclipsed Collector Booster Pack
+        set: ecl
   Lorwyn Eclipsed Draft Night Case:
     category: LIMITED_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '656348'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Lorwyn Eclipsed Draft Night
+        set: ecl
   Lorwyn Eclipsed MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '323159'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 273
+      deck:
+      - name: Lorwyn Eclipsed Redemption
+        set: ecl
   Lorwyn Eclipsed Play Booster Box:
     category: BOOSTER_BOX
+    subtype: PLAY
+    release_date: '2026-01-23'
     identifiers:
       abuId: '2656206'
       cardKingdomId: '321609'
@@ -128,16 +231,26 @@ products:
       miniaturemarketId: 8d2c2b970cb140e9dbc5f864f1306f95
       scgId: SLD-MTG-BBX-ECLPLAY-EN
       tcgplayerProductId: '656312'
-    release_date: '2026-01-23'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 30
+        name: Lorwyn Eclipsed Play Booster Pack
+        set: ecl
   Lorwyn Eclipsed Play Booster Box Case:
     category: BOOSTER_CASE
+    subtype: PLAY
     identifiers:
       scgId: SLD-MTG-BBX-ECLPLAYCASE-EN
       tcgplayerProductId: '656315'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 6
+        name: Lorwyn Eclipsed Play Booster Box
+        set: ecl
   Lorwyn Eclipsed Play Booster Pack:
     category: BOOSTER_PACK
+    subtype: PLAY
+    release_date: '2026-01-23'
     identifiers:
       abuId: '2656207'
       cardKingdomId: '321608'
@@ -146,10 +259,15 @@ products:
       miniaturemarketId: bd250fbf876bee4b0117aa1bb756c6f2
       scgId: SLD-MTG-PCK-ECLPLAY-EN
       tcgplayerProductId: '656311'
-    release_date: '2026-01-23'
-    subtype: PLAY
+    contents:
+      card_count: 14
+      pack:
+      - code: play
+        set: ecl
   Lorwyn Eclipsed Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2026-01-23'
     identifiers:
       abuId: '2656214'
       cardKingdomId: '321618'
@@ -157,5 +275,15 @@ products:
       mcmId: '851277'
       miniaturemarketId: a074e4ec6f1654acea9ed4eaff7fff79
       tcgplayerProductId: '656336'
-    release_date: '2026-01-23'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: Deck box
+      - name: Spindown die
+      pack:
+      - code: prerelease
+        set: ecl
+      sealed:
+      - count: 6
+        name: Lorwyn Eclipsed Play Booster Pack
+        set: ecl

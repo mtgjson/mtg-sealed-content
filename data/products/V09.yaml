@@ -2,6 +2,7 @@ code: v09
 products:
   From the Vault Exiled:
     category: BOX_SET
+    subtype: FROM_THE_VAULT
     identifiers:
       abuId: '1100540'
       cardKingdomId: '199267'
@@ -12,4 +13,10 @@ products:
       scgId: SLD-MTG-BXS-V09-EN
       tcgplayerProductId: '32809'
       tntId: '279924'
-    subtype: FROM_THE_VAULT
+    contents:
+      card_count: 15
+      deck:
+      - name: 'From the Vault: Exiled'
+        set: v09
+      other:
+      - name: From the Vault Exiled Spindown life counter

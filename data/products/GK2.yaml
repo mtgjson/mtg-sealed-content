@@ -2,6 +2,8 @@ code: gk2
 products:
   Ravnica Allegiance Guild Kit Azorius:
     category: KIT
+    subtype: GUILD_KIT
+    release_date: '2019-02-15'
     identifiers:
       abuId: '1560913'
       cardKingdomId: '223295'
@@ -11,10 +13,20 @@ products:
       scgId: SLD-MTG-BXS-GK2-EN-AZORIUS
       tcgplayerProductId: '183517'
       tntId: '1419623'
-    release_date: '2019-02-15'
-    subtype: GUILD_KIT
+    contents:
+      card_count: 60
+      deck:
+      - name: Azorius
+        set: gk2
+      other:
+      - name: Guild Kit Spindown
+      - name: Official Azorius Guild Pin
+      - name: Azorius Symbol Sticker
+      - name: Insert With Mission Instructions
   Ravnica Allegiance Guild Kit Gruul:
     category: KIT
+    subtype: GUILD_KIT
+    release_date: '2019-02-15'
     identifiers:
       abuId: '1560914'
       cardKingdomId: '223296'
@@ -24,10 +36,20 @@ products:
       scgId: SLD-MTG-BXS-GK2-EN-GRUUL
       tcgplayerProductId: '183519'
       tntId: '1419629'
-    release_date: '2019-02-15'
-    subtype: GUILD_KIT
+    contents:
+      card_count: 60
+      deck:
+      - name: Gruul
+        set: gk2
+      other:
+      - name: Guild Kit Spindown
+      - name: Official Gruul Guild Pin
+      - name: Gruul Symbol Sticker
+      - name: Insert With Mission Instructions
   Ravnica Allegiance Guild Kit Orzhov:
     category: KIT
+    subtype: GUILD_KIT
+    release_date: '2019-02-15'
     identifiers:
       abuId: '1560915'
       cardKingdomId: '223297'
@@ -37,10 +59,20 @@ products:
       scgId: SLD-MTG-BXS-GK2-EN-ORZHOV
       tcgplayerProductId: '183521'
       tntId: '1419635'
-    release_date: '2019-02-15'
-    subtype: GUILD_KIT
+    contents:
+      card_count: 60
+      deck:
+      - name: Orzhov
+        set: gk2
+      other:
+      - name: Guild Kit Spindown
+      - name: Official Orzhov Guild Pin
+      - name: Orzhov Symbol Sticker
+      - name: Insert With Mission Instructions
   Ravnica Allegiance Guild Kit Rakdos:
     category: KIT
+    subtype: GUILD_KIT
+    release_date: '2019-02-15'
     identifiers:
       abuId: '1560916'
       cardKingdomId: '223298'
@@ -50,10 +82,20 @@ products:
       scgId: SLD-MTG-BXS-GK2-EN-RAKDOS
       tcgplayerProductId: '183518'
       tntId: '1419626'
-    release_date: '2019-02-15'
-    subtype: GUILD_KIT
+    contents:
+      card_count: 60
+      deck:
+      - name: Rakdos
+        set: gk2
+      other:
+      - name: Guild Kit Spindown
+      - name: Official Rakdos Guild Pin
+      - name: Rakdos Symbol Sticker
+      - name: Insert With Mission Instructions
   Ravnica Allegiance Guild Kit Set of 5:
     category: SUBSET
+    subtype: GUILD_KIT
+    release_date: '2019-02-15'
     identifiers:
       abuId: '1560918'
       cardKingdomId: '223300'
@@ -63,10 +105,27 @@ products:
       scgId: SLD-MTG-BXS-GK2-EN-SET5
       tcgplayerProductId: '183522'
       tntId: '1459638'
-    release_date: '2019-02-15'
-    subtype: GUILD_KIT
+    contents:
+      sealed:
+      - count: 1
+        name: Ravnica Allegiance Guild Kit Azorius
+        set: gk2
+      - count: 1
+        name: Ravnica Allegiance Guild Kit Gruul
+        set: gk2
+      - count: 1
+        name: Ravnica Allegiance Guild Kit Orzhov
+        set: gk2
+      - count: 1
+        name: Ravnica Allegiance Guild Kit Rakdos
+        set: gk2
+      - count: 1
+        name: Ravnica Allegiance Guild Kit Simic
+        set: gk2
   Ravnica Allegiance Guild Kit Simic:
     category: KIT
+    subtype: GUILD_KIT
+    release_date: '2019-02-15'
     identifiers:
       abuId: '1560917'
       cardKingdomId: '223299'
@@ -76,5 +135,13 @@ products:
       scgId: SLD-MTG-BXS-GK2-EN-SIMIC
       tcgplayerProductId: '183520'
       tntId: '1419632'
-    release_date: '2019-02-15'
-    subtype: GUILD_KIT
+    contents:
+      card_count: 60
+      deck:
+      - name: Simic
+        set: gk2
+      other:
+      - name: Guild Kit Spindown
+      - name: Official Simic Guild Pin
+      - name: Simic Symbol Sticker
+      - name: Insert With Mission Instructions

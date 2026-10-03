@@ -2,6 +2,8 @@ code: frf
 products:
   Fate Reforged Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2015-01-21'
     identifiers:
       abuId: '1100514'
       cardKingdomId: '198423'
@@ -12,15 +14,25 @@ products:
       scgId: SLD-MTG-BBX-FRF-EN
       tcgplayerProductId: '94746'
       tntId: '1062934'
-    release_date: '2015-01-21'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Fate Reforged Booster Pack
+        set: frf
   Fate Reforged Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '95030'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Fate Reforged Booster Box
+        set: frf
   Fate Reforged Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2015-01-21'
     identifiers:
       abuId: '1476878'
       cardKingdomId: '198424'
@@ -31,10 +43,14 @@ products:
       scgId: SLD-MTG-PCK-FRF-EN
       tcgplayerProductId: '95031'
       tntId: '1062935'
-    release_date: '2015-01-21'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: frf
   Fate Reforged Clash Pack:
     category: MULTI_DECK
+    subtype: CLASH
     identifiers:
       abuId: '1100521'
       cardKingdomId: '198429'
@@ -43,9 +59,17 @@ products:
       scgId: SLD-MTG-INT-FRFCLASH-EN
       tcgplayerProductId: '95035'
       tntId: '1062944'
-    subtype: CLASH
+    contents:
+      card_count: 120
+      deck:
+      - name: Profit
+        set: frf
+      - name: Power
+        set: frf
   Fate Reforged Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
+    release_date: '2015-01-21'
     identifiers:
       abuId: '1100522'
       cardKingdomId: '198425'
@@ -56,10 +80,22 @@ products:
       scgId: SLD-MTG-BUN-FRF-EN
       tcgplayerProductId: '95032'
       tntId: '1062936'
-    release_date: '2015-01-21'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Fate Reforged Fat Pack Land Pack
+        set: frf
+      other:
+      - name: Fate Reforged Special Edition Spindown
+      - name: Full Art Card Box
+      - name: Two Deck Boxes
+      - name: Player's Guide with Visual Encyclopedia
+      sealed:
+      - count: 9
+        name: Fate Reforged Booster Pack
+        set: frf
   Fate Reforged Intro Pack Cunning Plan:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100525'
       cardKingdomId: '198994'
@@ -68,18 +104,44 @@ products:
       scgId: SLD-MTG-INT-FRFINTRO-EN-CUNNING
       tcgplayerProductId: '95261'
       tntId: '1065449'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Cunning Plan
+        set: frf
+      sealed:
+      - count: 2
+        name: Fate Reforged Booster Pack
+        set: frf
   Fate Reforged Intro Pack Display:
     category: DECK_BOX
+    subtype: INTRO
+    release_date: '2015-01-26'
     identifiers:
       cardtraderId: '48237'
       mcmId: '272136'
       tcgplayerProductId: '95033'
       tntId: '1062937'
-    release_date: '2015-01-26'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 2
+        name: Fate Reforged Intro Pack Cunning Plan
+        set: frf
+      - count: 2
+        name: Fate Reforged Intro Pack Grave Advantage
+        set: frf
+      - count: 2
+        name: Fate Reforged Intro Pack Stampeding Hordes
+        set: frf
+      - count: 2
+        name: Fate Reforged Intro Pack Surprise Attack
+        set: frf
+      - count: 2
+        name: Fate Reforged Intro Pack Unflinching Assault
+        set: frf
   Fate Reforged Intro Pack Grave Advantage:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100526'
       cardKingdomId: '198995'
@@ -89,18 +151,44 @@ products:
       scgId: SLD-MTG-INT-FRFINTRO-EN-GRAVE
       tcgplayerProductId: '95259'
       tntId: '1065450'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Grave Advantage
+        set: frf
+      sealed:
+      - count: 2
+        name: Fate Reforged Booster Pack
+        set: frf
   Fate Reforged Intro Pack Set of 5:
     category: SUBSET
+    subtype: INTRO
+    release_date: '2015-01-26'
     identifiers:
       abuId: '1100529'
       cardtraderId: '48236'
       mcmId: '272135'
       tcgplayerProductId: '95034'
-    release_date: '2015-01-26'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 1
+        name: Fate Reforged Intro Pack Cunning Plan
+        set: frf
+      - count: 1
+        name: Fate Reforged Intro Pack Grave Advantage
+        set: frf
+      - count: 1
+        name: Fate Reforged Intro Pack Stampeding Hordes
+        set: frf
+      - count: 1
+        name: Fate Reforged Intro Pack Surprise Attack
+        set: frf
+      - count: 1
+        name: Fate Reforged Intro Pack Unflinching Assault
+        set: frf
   Fate Reforged Intro Pack Stampeding Hordes:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100527'
       cardKingdomId: '198996'
@@ -109,9 +197,18 @@ products:
       scgId: SLD-MTG-INT-FRFINTRO-EN-STAMPEDING
       tcgplayerProductId: '95258'
       tntId: '1065448'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Stampeding Hordes
+        set: frf
+      sealed:
+      - count: 2
+        name: Fate Reforged Booster Pack
+        set: frf
   Fate Reforged Intro Pack Surprise Attack:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100528'
       cardKingdomId: '198997'
@@ -120,9 +217,18 @@ products:
       scgId: SLD-MTG-INT-FRFINTRO-EN-SURPRISE
       tcgplayerProductId: '95260'
       tntId: '1065451'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Surprise Attack
+        set: frf
+      sealed:
+      - count: 2
+        name: Fate Reforged Booster Pack
+        set: frf
   Fate Reforged Intro Pack Unflinching Assault:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100523'
       cardKingdomId: '198993'
@@ -131,19 +237,38 @@ products:
       scgId: SLD-MTG-INT-FRFINTRO-EN-UNFLINCHING
       tcgplayerProductId: '95262'
       tntId: '1065447'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Unflinching Assault
+        set: frf
+      sealed:
+      - count: 2
+        name: Fate Reforged Booster Pack
+        set: frf
   Fate Reforged MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210848'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 185
+      deck:
+      - name: Fate Reforged Redemption
+        set: frf
   Fate Reforged MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '211510'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 185
+      deck:
+      - name: Fate Reforged Foil Redemption
+        set: frf
   Fate Reforged Prerelease Kit Abzan Battle with Endurance:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '1100530'
       cardKingdomId: '199116'
@@ -151,9 +276,23 @@ products:
       mcmId: '272438'
       tcgplayerProductId: '95910'
       tntId: '1182111'
-    subtype: PRERELEASE
+    contents:
+      card_count: 16
+      other:
+      - name: Fate Reforged Spindown
+      pack:
+      - code: prerelease-abzan
+        set: frf
+      sealed:
+      - count: 4
+        name: Fate Reforged Booster Pack
+        set: frf
+      - count: 1
+        name: Khans of Tarkir Booster Pack
+        set: ktk
   Fate Reforged Prerelease Kit Jeskai Battle with Cunning:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '1973126'
       cardKingdomId: '199115'
@@ -161,9 +300,23 @@ products:
       mcmId: '272437'
       tcgplayerProductId: '95912'
       tntId: '1182100'
-    subtype: PRERELEASE
+    contents:
+      card_count: 16
+      other:
+      - name: Fate Reforged Spindown
+      pack:
+      - code: prerelease-jeskai
+        set: frf
+      sealed:
+      - count: 4
+        name: Fate Reforged Booster Pack
+        set: frf
+      - count: 1
+        name: Khans of Tarkir Booster Pack
+        set: ktk
   Fate Reforged Prerelease Kit Mardu Battle with Speed:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '1973127'
       cardKingdomId: '199113'
@@ -171,17 +324,48 @@ products:
       mcmId: '272441'
       tcgplayerProductId: '95911'
       tntId: '1660290'
-    subtype: PRERELEASE
+    contents:
+      card_count: 16
+      other:
+      - name: Fate Reforged Spindown
+      pack:
+      - code: prerelease-mardu
+        set: frf
+      sealed:
+      - count: 4
+        name: Fate Reforged Booster Pack
+        set: frf
+      - count: 1
+        name: Khans of Tarkir Booster Pack
+        set: ktk
   Fate Reforged Prerelease Kit Set of 5:
     category: SUBSET
+    subtype: PRERELEASE
+    release_date: '2015-03-02'
     identifiers:
       cardtraderId: '48235'
       mcmId: '273046'
       tcgplayerProductId: '95915'
-    release_date: '2015-03-02'
-    subtype: PRERELEASE
+    contents:
+      sealed:
+      - count: 1
+        name: Fate Reforged Prerelease Kit Abzan Battle with Endurance
+        set: frf
+      - count: 1
+        name: Fate Reforged Prerelease Kit Jeskai Battle with Cunning
+        set: frf
+      - count: 1
+        name: Fate Reforged Prerelease Kit Mardu Battle with Speed
+        set: frf
+      - count: 1
+        name: Fate Reforged Prerelease Kit Sultai Battle with Ruthlessness
+        set: frf
+      - count: 1
+        name: Fate Reforged Prerelease Kit Temur Battle with Savagery
+        set: frf
   Fate Reforged Prerelease Kit Sultai Battle with Ruthlessness:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '1100531'
       cardKingdomId: '199114'
@@ -189,9 +373,23 @@ products:
       mcmId: '272439'
       tcgplayerProductId: '95913'
       tntId: '1660291'
-    subtype: PRERELEASE
+    contents:
+      card_count: 16
+      other:
+      - name: Fate Reforged Spindown
+      pack:
+      - code: prerelease-sultai
+        set: frf
+      sealed:
+      - count: 4
+        name: Fate Reforged Booster Pack
+        set: frf
+      - count: 1
+        name: Khans of Tarkir Booster Pack
+        set: ktk
   Fate Reforged Prerelease Kit Temur Battle with Savagery:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '1100524'
       cardKingdomId: '199112'
@@ -199,12 +397,31 @@ products:
       mcmId: '272440'
       tcgplayerProductId: '95914'
       tntId: '1660292'
-    subtype: PRERELEASE
+    contents:
+      card_count: 16
+      other:
+      - name: Fate Reforged Spindown
+      pack:
+      - code: prerelease-temur
+        set: frf
+      sealed:
+      - count: 4
+        name: Fate Reforged Booster Pack
+        set: frf
+      - count: 1
+        name: Khans of Tarkir Booster Pack
+        set: ktk
   Ugins Fate Event Booster Pack:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
     identifiers:
       cardtraderId: '48243'
       hareruyaId: '23853'
       mcmId: '271971'
       tcgplayerProductId: '99943'
-    subtype: PROMOTIONAL
+    contents:
+      other:
+      - name: Manifest Token
+      pack:
+      - code: fate
+        set: ugin

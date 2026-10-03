@@ -2,6 +2,7 @@ code: wc01
 products:
   2001 World Championship Deck Alex Borteh:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1100248'
       cardKingdomId: '240329'
@@ -12,9 +13,14 @@ products:
       scgId: SLD-MTG-BXS-WCH2001-EN-ALEXBORTEH
       tcgplayerProductId: '158296'
       tntId: '101266'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 75
+      deck:
+      - name: Alex Borteh - Merfolk Opposition
+        set: wc01
   2001 World Championship Deck Antoine Ruel:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1100253'
       cardKingdomId: '240330'
@@ -25,15 +31,34 @@ products:
       scgId: SLD-MTG-BXS-WCH2001-EN-ANTOINERUEL
       tcgplayerProductId: '158297'
       tntId: '101267'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 75
+      deck:
+      - name: Antoine Ruel - Blue-Black-Red Nether-Go
+        set: wc01
   2001 World Championship Deck Box:
     category: DECK_BOX
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1476972'
       hareruyaId: '28537'
-    subtype: CHAMPIONSHIP
+    contents:
+      sealed:
+      - count: 3
+        name: 2001 World Championship Deck Alex Borteh
+        set: wc01
+      - count: 2
+        name: 2001 World Championship Deck Antoine Ruel
+        set: wc01
+      - count: 2
+        name: 2001 World Championship Deck Jan Tomcani
+        set: wc01
+      - count: 5
+        name: 2001 World Championship Deck Tom van de Logt
+        set: wc01
   2001 World Championship Deck Jan Tomcani:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1100254'
       cardKingdomId: '240331'
@@ -44,9 +69,14 @@ products:
       scgId: SLD-MTG-BXS-WCH2001-EN-JANTOMCANI
       tcgplayerProductId: '158298'
       tntId: '101268'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 75
+      deck:
+      - name: Jan Tomcani - Dark Fires
+        set: wc01
   2001 World Championship Deck Tom van de Logt:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1100255'
       cardKingdomId: '240332'
@@ -57,9 +87,27 @@ products:
       scgId: SLD-MTG-BXS-WCH2001-EN-TOMVANDELOGT
       tcgplayerProductId: '158294'
       tntId: '101269'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 75
+      deck:
+      - name: Tom van de Logt - Machine Head
+        set: wc01
   2001 World Championship Decks Set of 4:
     category: SUBSET
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1107796'
-    subtype: CHAMPIONSHIP
+    contents:
+      sealed:
+      - count: 1
+        name: 2001 World Championship Deck Alex Borteh
+        set: wc01
+      - count: 1
+        name: 2001 World Championship Deck Antoine Ruel
+        set: wc01
+      - count: 1
+        name: 2001 World Championship Deck Jan Tomcani
+        set: wc01
+      - count: 1
+        name: 2001 World Championship Deck Tom van de Logt
+        set: wc01

@@ -2,6 +2,7 @@ code: eve
 products:
   Eventide Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1100492'
       cardKingdomId: '125093'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-EVE-EN
       tcgplayerProductId: '27274'
       tntId: '179874'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Eventide Booster Pack
+        set: eve
   Eventide Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Eventide Booster Box
+        set: eve
   Eventide Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476874'
       cardKingdomId: '125094'
@@ -29,9 +40,14 @@ products:
       scgId: SLD-MTG-PCK-EVE-EN
       tcgplayerProductId: '27336'
       tntId: '179875'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: eve
   Eventide Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1107853'
       cardKingdomId: '125097'
@@ -42,19 +58,42 @@ products:
       scgId: SLD-MTG-BUN-EVE-EN
       tcgplayerProductId: '78310'
       tntId: '179881'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Shadowmoor Fat Pack Land Pack
+        set: shm
+      other:
+      - name: Eventide Spindown
+      - name: Card storage box
+      - name: Eventide Novel
+      - name: Random Pro Tour Player Card
+      sealed:
+      - count: 8
+        name: Eventide Booster Pack
+        set: eve
   Eventide MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241598'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 180
+      deck:
+      - name: Eventide Redemption
+        set: eve
   Eventide MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241597'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 180
+      deck:
+      - name: Eventide Foil Redemption
+        set: eve
   Eventide Theme Deck Battle Blitz:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100493'
       cardKingdomId: '125508'
@@ -63,9 +102,16 @@ products:
       mcmId: '245685'
       tcgplayerProductId: '175099'
       tntId: '179879'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Battle Blitz
+        set: eve
+      other:
+      - name: One random Pro Tour Player Card
   Eventide Theme Deck Death March:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100494'
       cardKingdomId: '125507'
@@ -74,17 +120,65 @@ products:
       mcmId: '245686'
       tcgplayerProductId: '175110'
       tntId: '179878'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Death March
+        set: eve
+      other:
+      - name: One random Pro Tour Player Card
   Eventide Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       cardtraderId: '47288'
       mcmId: '210207'
       tcgplayerProductId: '644353'
       tntId: '179880'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 2
+        name: Eventide Theme Deck Battle Blitz
+        set: eve
+      - count: 2
+        name: Eventide Theme Deck Death March
+        set: eve
+      - count: 2
+        name: Eventide Theme Deck Life Drain
+        set: eve
+      - count: 2
+        name: Eventide Theme Deck Sidestep
+        set: eve
+      - count: 2
+        name: Eventide Theme Deck Superabundance
+        set: eve
+      variable:
+      - sealed:
+        - count: 1
+          name: Eventide Theme Deck Battle Blitz
+          set: eve
+      - sealed:
+        - count: 1
+          name: Eventide Theme Deck Death March
+          set: eve
+      - sealed:
+        - count: 1
+          name: Eventide Theme Deck Life Drain
+          set: eve
+      - sealed:
+        - count: 1
+          name: Eventide Theme Deck Sidestep
+          set: eve
+      - sealed:
+        - count: 1
+          name: Eventide Theme Deck Superabundance
+          set: eve
+      variable_mode:
+        count: 2
+        replacement: false
   Eventide Theme Deck Life Drain:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100496'
       cardKingdomId: '125509'
@@ -93,9 +187,16 @@ products:
       mcmId: '245687'
       tcgplayerProductId: '175113'
       tntId: '179876'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Life Drain
+        set: eve
+      other:
+      - name: One random Pro Tour Player Card
   Eventide Theme Deck Sidestep:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100499'
       cardKingdomId: '125510'
@@ -104,9 +205,16 @@ products:
       mcmId: '245688'
       tcgplayerProductId: '175115'
       tntId: '179877'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Sidestep
+        set: eve
+      other:
+      - name: One random Pro Tour Player Card
   Eventide Theme Deck Superabundance:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100500'
       cardKingdomId: '125511'
@@ -115,4 +223,10 @@ products:
       mcmId: '245689'
       tcgplayerProductId: '175116'
       tntId: '214279'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Superabundance
+        set: eve
+      other:
+      - name: One random Pro Tour Player Card

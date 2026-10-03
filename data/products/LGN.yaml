@@ -2,6 +2,7 @@ code: lgn
 products:
   Legions Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1107895'
       cardKingdomId: '1531'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-LGN-EN
       tcgplayerProductId: '27287'
       tntId: '107465'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Legions Booster Pack
+        set: lgn
   Legions Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Legions Booster Box
+        set: lgn
   Legions Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476894'
       cardKingdomId: '1537'
@@ -29,9 +40,14 @@ products:
       scgId: SLD-MTG-PCK-LGN-EN
       tcgplayerProductId: '27349'
       tntId: '107464'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: lgn
   Legions Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1100721'
       cardKingdomId: '240341'
@@ -42,25 +58,62 @@ products:
       scgId: SLD-MTG-BUN-LGN-EN
       tcgplayerProductId: '78316'
       tntId: '155264'
-    subtype: FAT_PACK
+    contents:
+      card_count: 2
+      other:
+      - name: Legions Special Edition Spindown
+      - name: The Legions Novel
+      - name: Legions Visual Encyclopedia
+      pack:
+      - code: fat-pack
+        set: lgn
+      sealed:
+      - count: 6
+        name: Legions Booster Pack
+        set: lgn
   Legions MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241616'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 145
+      deck:
+      - name: Legions Redemption
+        set: lgn
   Legions MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241615'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 145
+      deck:
+      - name: Legions Foil Redemption
+        set: lgn
   Legions Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       cardtraderId: '46343'
       mcmId: '210231'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 3
+        name: Legions Theme Deck Elvish Rage
+        set: lgn
+      - count: 3
+        name: Legions Theme Deck Morph Mayhem
+        set: lgn
+      - count: 3
+        name: Legions Theme Deck Sliver Shivers
+        set: lgn
+      - count: 3
+        name: Legions Theme Deck Zombies Unleashed
+        set: lgn
   Legions Theme Deck Elvish Rage:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100722'
       cardKingdomId: '1532'
@@ -69,9 +122,14 @@ products:
       mcmId: '253712'
       tcgplayerProductId: '96427'
       tntId: '107455'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Elvish Rage
+        set: lgn
   Legions Theme Deck Morph Mayhem:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100723'
       cardKingdomId: '1534'
@@ -80,9 +138,14 @@ products:
       mcmId: '253713'
       tcgplayerProductId: '96426'
       tntId: '107453'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Morph Mayhem
+        set: lgn
   Legions Theme Deck Sliver Shivers:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100725'
       cardKingdomId: '1535'
@@ -91,9 +154,14 @@ products:
       mcmId: '253714'
       tcgplayerProductId: '96428'
       tntId: '107466'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Sliver Shivers
+        set: lgn
   Legions Theme Deck Zombies Unleashed:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100727'
       cardKingdomId: '1533'
@@ -102,9 +170,27 @@ products:
       mcmId: '253715'
       tcgplayerProductId: '96429'
       tntId: '107458'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Zombies Unleashed
+        set: lgn
   Legions Theme Decks Set of 4:
     category: SUBSET
+    subtype: THEME
     identifiers:
       abuId: '1100728'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Legions Theme Deck Elvish Rage
+        set: lgn
+      - count: 1
+        name: Legions Theme Deck Morph Mayhem
+        set: lgn
+      - count: 1
+        name: Legions Theme Deck Sliver Shivers
+        set: lgn
+      - count: 1
+        name: Legions Theme Deck Zombies Unleashed
+        set: lgn

@@ -2,32 +2,57 @@ code: w16
 products:
   Welcome Deck 2016 Black Deck:
     category: DECK
+    subtype: WELCOME
     identifiers:
       cardtraderId: '147772'
       mcmId: '368871'
-    subtype: WELCOME
+    contents:
+      card_count: 30
+      deck:
+      - name: Black Deck
+        set: w16
   Welcome Deck 2016 Blue Deck:
     category: DECK
+    subtype: WELCOME
     identifiers:
       cardtraderId: '147771'
       mcmId: '368869'
-    subtype: WELCOME
+    contents:
+      card_count: 30
+      deck:
+      - name: Blue Deck
+        set: w16
   Welcome Deck 2016 Green Deck:
     category: DECK
+    subtype: WELCOME
     identifiers:
       cardtraderId: '147774'
       mcmId: '368872'
-    subtype: WELCOME
+    contents:
+      card_count: 30
+      deck:
+      - name: Green Deck
+        set: w16
   Welcome Deck 2016 Red Deck:
     category: DECK
+    subtype: WELCOME
     identifiers:
       cardtraderId: '147773'
       mcmId: '368873'
-    subtype: WELCOME
+    contents:
+      card_count: 30
+      deck:
+      - name: Red Deck
+        set: w16
   Welcome Deck 2016 White Deck:
     category: DECK
+    subtype: WELCOME
     identifiers:
       cardtraderId: '147770'
       mcmId: '368870'
       tntId: '1192709'
-    subtype: WELCOME
+    contents:
+      card_count: 30
+      deck:
+      - name: White Deck
+        set: w16

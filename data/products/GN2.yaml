@@ -2,6 +2,8 @@ code: gn2
 products:
   Magic Game Night 2019 Set:
     category: BOX_SET
+    subtype: GAME_NIGHT
+    release_date: '2019-11-15'
     identifiers:
       abuId: '1795215'
       cardKingdomId: '228607'
@@ -11,5 +13,23 @@ products:
       scgId: SLD-MTG-MLT-GN2-EN
       tcgplayerProductId: '199357'
       tntId: '1612152'
-    release_date: '2019-11-15'
-    subtype: GAME_NIGHT
+    contents:
+      card_count: 300
+      deck:
+      - name: Aerial Acrobatics
+        set: gn2
+      - name: Draconic Fury
+        set: gn2
+      - name: Endless Hordes
+        set: gn2
+      - name: Glorious Combat
+        set: gn2
+      - name: Massive Might
+        set: gn2
+      other:
+      - name: 5 Game Night Spindowns
+      - name: 5 Life Counter Platforms
+      - name: 20 +1/+1 Counters
+      - name: 15 Double-Sided Tokens
+      - name: 5 Rules Reference Cards
+      - name: Rulebook

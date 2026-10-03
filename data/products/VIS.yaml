@@ -2,6 +2,7 @@ code: vis
 products:
   Multiverse Gift Box:
     category: BUNDLE
+    subtype: GIFT_BUNDLE
     identifiers:
       abuId: '1100906'
       cardKingdomId: '124153'
@@ -11,9 +12,9 @@ products:
       scgId: SLD-MTG-BXS-GFTMULTIVERSE-EN
       tcgplayerProductId: '81796'
       tntId: '100510'
-    subtype: GIFT_BUNDLE
   Visions Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1100267'
       cardKingdomId: '124074'
@@ -24,13 +25,23 @@ products:
       scgId: SLD-MTG-BBX-VIS-EN
       tcgplayerProductId: '27317'
       tntId: '90424'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Visions Booster Pack
+        set: vis
   Visions Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Visions Booster Box
+        set: vis
   Visions Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476964'
       cardKingdomId: '1210'
@@ -40,10 +51,14 @@ products:
       mcmId: '210016'
       scgId: SLD-MTG-PCK-VIS-EN
       tcgplayerProductId: '27379'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: vis
   Visions Preview Printing Booster Pack:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
     identifiers:
       hareruyaId: '120727'
       mcmId: '758898'
-    subtype: PROMOTIONAL

@@ -2,6 +2,8 @@ code: cc2
 products:
   Commander Collection Black:
     category: BOX_SET
+    subtype: COMMANDER_COLLECTION
+    release_date: '2022-01-28'
     identifiers:
       abuId: '2125893'
       cardKingdomId: '250298'
@@ -12,10 +14,15 @@ products:
       scgId: SLD-MTG-BXS-CC2-EN-NONFOIL
       tcgplayerProductId: '247519'
       tntId: '1742343'
-    release_date: '2022-01-28'
-    subtype: COMMANDER_COLLECTION
+    contents:
+      card_count: 9
+      deck:
+      - name: Commander Collection Black
+        set: cc2
   Commander Collection Black Premium:
     category: BOX_SET
+    subtype: COMMANDER_COLLECTION
+    release_date: '2022-01-28'
     identifiers:
       abuId: '2689643'
       cardKingdomId: '254885'
@@ -26,5 +33,8 @@ products:
       scgId: SLD-MTG-BXS-CC2-EN-FOIL
       tcgplayerProductId: '247520'
       tntId: '1742344'
-    release_date: '2022-01-28'
-    subtype: COMMANDER_COLLECTION
+    contents:
+      card_count: 9
+      deck:
+      - name: Commander Collection Black Premium
+        set: cc2

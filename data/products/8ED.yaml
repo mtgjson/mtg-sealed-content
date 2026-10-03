@@ -2,14 +2,22 @@ code: 8ed
 products:
   Eighth Edition Advanced Booster Pack:
     category: BOOSTER_PACK
+    subtype: ADVANCED
     identifiers:
       cardtraderId: '46032'
       mcmId: '283068'
       tcgplayerProductId: '248193'
       tntId: '1740652'
-    subtype: ADVANCED
+    contents:
+      card_count: 14
+      deck:
+      - name: Gold Pack
+        set: 8ed
+      - name: Silver Pack
+        set: 8ed
   Eighth Edition Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1107746'
       cardKingdomId: '1548'
@@ -20,13 +28,25 @@ products:
       scgId: SLD-MTG-BBX-8ED-EN
       tcgplayerProductId: '27259'
       tntId: '108674'
-    subtype: DRAFT
+    contents:
+      other:
+      - name: 1 random oversized Eighth Edition box topper (33 possible cards)
+      sealed:
+      - count: 36
+        name: Eighth Edition Booster Pack
+        set: 8ed
   Eighth Edition Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Eighth Edition Booster Box
+        set: 8ed
   Eighth Edition Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476806'
       cardKingdomId: '1555'
@@ -36,48 +56,96 @@ products:
       mcmId: '210043'
       scgId: SLD-MTG-PCK-8ED-EN
       tcgplayerProductId: '27321'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: 8ed
   Eighth Edition Box Set:
     category: BOX_SET
+    subtype: DEFAULT
     identifiers:
       abuId: '1100075'
       cardtraderId: '46040'
       mcmId: '283064'
       tcgplayerProductId: '245974'
-    subtype: DEFAULT
+    contents:
+      copy: Eighth Edition Two Player Starter
   Eighth Edition Demo Game Booster Pack:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
     identifiers:
       cardtraderId: '51004'
       mcmId: '253802'
       tcgplayerProductId: '248192'
       tntId: '108680'
-    subtype: PROMOTIONAL
+    contents:
+      card_count: 22
+      deck:
+      - name: Green-White Demo Deck
+        set: 8ed
+      - name: Red-Black Demo Deck
+        set: 8ed
+      other:
+      - name: Eighth Edition instruction sheet
   Eighth Edition MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241620'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 350
+      deck:
+      - name: Eighth Edition Redemption
+        set: 8ed
   Eighth Edition MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241619'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 350
+      deck:
+      - name: Eighth Edition Foil Redemption
+        set: 8ed
   Eighth Edition Sampler Booster:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
     identifiers:
       mcmId: '758891'
-    subtype: PROMOTIONAL
+    contents:
+      card_count: 10
+      deck:
+      - name: Sampler Booster
+        set: 8ed
   Eighth Edition Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       abuId: '1526744'
       cardtraderId: '46041'
       mcmId: '210227'
       tntId: '108684'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 3
+        name: Eighth Edition Theme Deck Expulsion
+        set: 8ed
+      - count: 3
+        name: Eighth Edition Theme Deck Heavy Hitters
+        set: 8ed
+      - count: 3
+        name: Eighth Edition Theme Deck Life Boost
+        set: 8ed
+      - count: 3
+        name: Eighth Edition Theme Deck Sky Slam
+        set: 8ed
+      - count: 3
+        name: Eighth Edition Theme Deck Speed Scorch
+        set: 8ed
   Eighth Edition Theme Deck Expulsion:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100077'
       cardKingdomId: '1552'
@@ -86,9 +154,14 @@ products:
       mcmId: '210152'
       tcgplayerProductId: '96325'
       tntId: '108679'
-    subtype: THEME
+    contents:
+      card_count: 40
+      deck:
+      - name: Expulsion
+        set: 8ed
   Eighth Edition Theme Deck Heavy Hitters:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100078'
       cardKingdomId: '1554'
@@ -97,9 +170,14 @@ products:
       mcmId: '210153'
       tcgplayerProductId: '96326'
       tntId: '108671'
-    subtype: THEME
+    contents:
+      card_count: 40
+      deck:
+      - name: Heavy Hitters
+        set: 8ed
   Eighth Edition Theme Deck Life Boost:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100076'
       cardKingdomId: '1550'
@@ -109,14 +187,36 @@ products:
       mcmId: '210154'
       tcgplayerProductId: '96327'
       tntId: '108663'
-    subtype: THEME
+    contents:
+      card_count: 40
+      deck:
+      - name: Life Boost
+        set: 8ed
   Eighth Edition Theme Deck Set of 5:
     category: SUBSET
+    subtype: THEME
     identifiers:
       abuId: '1100072'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Eighth Edition Theme Deck Expulsion
+        set: 8ed
+      - count: 1
+        name: Eighth Edition Theme Deck Heavy Hitters
+        set: 8ed
+      - count: 1
+        name: Eighth Edition Theme Deck Life Boost
+        set: 8ed
+      - count: 1
+        name: Eighth Edition Theme Deck Sky Slam
+        set: 8ed
+      - count: 1
+        name: Eighth Edition Theme Deck Speed Scorch
+        set: 8ed
   Eighth Edition Theme Deck Sky Slam:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100079'
       cardKingdomId: '1551'
@@ -125,9 +225,14 @@ products:
       mcmId: '210155'
       tcgplayerProductId: '96328'
       tntId: '109594'
-    subtype: THEME
+    contents:
+      card_count: 40
+      deck:
+      - name: Sky Slam
+        set: 8ed
   Eighth Edition Theme Deck Speed Scorch:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100080'
       cardKingdomId: '1553'
@@ -136,9 +241,14 @@ products:
       mcmId: '210156'
       tcgplayerProductId: '96329'
       tntId: '108668'
-    subtype: THEME
+    contents:
+      card_count: 40
+      deck:
+      - name: Speed Scorch
+        set: 8ed
   Eighth Edition Two Player Starter:
     category: MULTI_DECK
+    subtype: TWO_PLAYER_STARTER
     identifiers:
       abuId: '1100073'
       cardKingdomId: '1556'
@@ -147,11 +257,38 @@ products:
       mcmId: '253816'
       tcgplayerProductId: '81797'
       tntId: '112137'
-    subtype: TWO_PLAYER_STARTER
+    contents:
+      card:
+      - foil: true
+        name: Elvish Champion
+        number: 241★
+        set: 8ed
+      card_count: 66
+      deck:
+      - name: Gold Deck
+        set: 8ed
+      - name: Silver Deck
+        set: 8ed
+      other:
+      - name: 2 Playmats
+      - name: 2 Cardboard Life Counters
+      - name: Guide To Cover 1 Demo Game
+      - name: Enhanced Eighth Edition Rule Book
+      - name: CD-ROM Including Magic Test Games
+      - name: Manual for Magic Online
+      sealed:
+      - count: 1
+        name: Eighth Edition Advanced Booster Pack
+        set: 8ed
   Eighth Edition Two Player Starter Set Display:
     category: DECK_BOX
+    subtype: TWO_PLAYER_STARTER
     identifiers:
       abuId: '1107747'
       cardKingdomId: '240097'
       tntId: '109591'
-    subtype: TWO_PLAYER_STARTER
+    contents:
+      sealed:
+      - count: 6
+        name: Eighth Edition Two Player Starter
+        set: 8ed

@@ -2,19 +2,31 @@ code: unf
 products:
   Unfinity 3 Booster Draft Pack:
     category: LIMITED
+    subtype: DRAFT_SET
     identifiers:
       tcgplayerProductId: '476061'
-    subtype: DRAFT_SET
+    contents:
+      sealed:
+      - count: 3
+        name: Unfinity Draft Booster Pack
+        set: unf
   Unfinity Box Topper Pack:
     category: BOOSTER_PACK
+    subtype: TOPPER
+    release_date: '2022-10-12'
     identifiers:
       cardtraderId: '223410'
       mcmId: '679621'
       tcgplayerProductId: '450283'
-    release_date: '2022-10-12'
-    subtype: TOPPER
+    contents:
+      card_count: 1
+      pack:
+      - code: box-topper
+        set: unf
   Unfinity Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2021-11-30'
     identifiers:
       abuId: '2243050'
       cardKingdomId: '255553'
@@ -25,16 +37,29 @@ products:
       scgId: SLD-MTG-BBX-UNFCOLLECTOR-EN
       tcgplayerProductId: '275406'
       tntId: '1740845'
-    release_date: '2021-11-30'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Unfinity Collector Booster Pack
+        set: unf
+      - count: 1
+        name: Unfinity Box Topper Pack
+        set: unf
   Unfinity Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
+    release_date: '2022-10-07'
     identifiers:
       tcgplayerProductId: '275410'
-    release_date: '2022-10-07'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Unfinity Collector Booster Box
+        set: unf
   Unfinity Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2022-10-07'
     identifiers:
       abuId: '2688278'
       cardKingdomId: '255567'
@@ -45,10 +70,15 @@ products:
       scgId: SLD-MTG-PCK-UNFCOLLECTOR-EN
       tcgplayerProductId: '275409'
       tntId: '1740846'
-    release_date: '2022-10-07'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: unf
   Unfinity Draft Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2021-11-30'
     identifiers:
       abuId: '2243049'
       cardKingdomId: '255568'
@@ -59,16 +89,29 @@ products:
       scgId: SLD-MTG-BBX-UNFDRAFT-EN
       tcgplayerProductId: '275404'
       tntId: '1740843'
-    release_date: '2021-11-30'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Unfinity Draft Booster Pack
+        set: unf
+      - count: 1
+        name: Unfinity Box Topper Pack
+        set: unf
   Unfinity Draft Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2022-10-07'
     identifiers:
       tcgplayerProductId: '275411'
-    release_date: '2022-10-07'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Unfinity Draft Booster Box
+        set: unf
   Unfinity Draft Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2022-10-07'
     identifiers:
       abuId: '2688295'
       cardKingdomId: '265871'
@@ -79,5 +122,8 @@ products:
       scgId: SLD-MTG-PCK-UNFDRAFT-EN
       tcgplayerProductId: '275408'
       tntId: '1740844'
-    release_date: '2022-10-07'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: unf

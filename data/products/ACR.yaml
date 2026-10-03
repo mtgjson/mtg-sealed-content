@@ -2,6 +2,8 @@ code: acr
 products:
   Assassins Creed Beyond Booster Box:
     category: BOOSTER_BOX
+    subtype: OTHER
+    release_date: '2024-07-05'
     identifiers:
       abuId: '2509381'
       cardKingdomId: '297392'
@@ -11,17 +13,27 @@ products:
       scgId: SLD-MTG-BBX-ACRBEYOND-EN
       tcgplayerProductId: '541220'
       tntId: '1808838'
-    release_date: '2024-07-05'
-    subtype: OTHER
+    contents:
+      sealed:
+      - count: 24
+        name: Assassins Creed Beyond Booster Pack
+        set: acr
   Assassins Creed Beyond Booster Box Case:
     category: BOOSTER_CASE
+    subtype: OTHER
+    release_date: '2024-07-05'
     identifiers:
       scgId: SLD-MTG-BBX-ACRBEYONDCASE-EN
       tcgplayerProductId: '541222'
-    release_date: '2024-07-05'
-    subtype: OTHER
+    contents:
+      sealed:
+      - count: 6
+        name: Assassins Creed Beyond Booster Box
+        set: acr
   Assassins Creed Beyond Booster Pack:
     category: BOOSTER_PACK
+    subtype: OTHER
+    release_date: '2024-07-05'
     identifiers:
       abuId: '2509378'
       cardKingdomId: '297393'
@@ -31,10 +43,15 @@ products:
       scgId: SLD-MTG-PCK-ACRBEYOND-EN
       tcgplayerProductId: '541218'
       tntId: '1808839'
-    release_date: '2024-07-05'
-    subtype: OTHER
+    contents:
+      card_count: 7
+      pack:
+      - code: default
+        set: acr
   Assassins Creed Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2024-07-05'
     identifiers:
       abuId: '2509374'
       cardKingdomId: '297394'
@@ -45,16 +62,39 @@ products:
       scgId: SLD-MTG-BUN-ACR-EN
       tcgplayerProductId: '541228'
       tntId: '1808836'
-    release_date: '2024-07-05'
-    subtype: DEFAULT
+    contents:
+      card:
+      - foil: true
+        name: Royal Assassin
+        number: 306
+        set: acr
+      card_count: 1
+      deck:
+      - name: Assassin's Creed Bundle Land Pack
+        set: acr
+      other:
+      - name: Assassin's Creed spindown
+      - name: Card storage box
+      - name: 2 Reference Cards
+      sealed:
+      - count: 9
+        name: Assassins Creed Beyond Booster Pack
+        set: acr
   Assassins Creed Bundle Case:
     category: BUNDLE_CASE
+    subtype: DEFAULT
+    release_date: '2024-07-05'
     identifiers:
       tcgplayerProductId: '541229'
-    release_date: '2024-07-05'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 6
+        name: Assassins Creed Bundle
+        set: acr
   Assassins Creed Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2024-07-05'
     identifiers:
       abuId: '2509382'
       cardKingdomId: '297395'
@@ -64,16 +104,26 @@ products:
       scgId: SLD-MTG-BBX-ACRCOLLECTOR-EN
       tcgplayerProductId: '541225'
       tntId: '1808840'
-    release_date: '2024-07-05'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Assassins Creed Collector Booster Pack
+        set: acr
   Assassins Creed Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
+    release_date: '2024-07-05'
     identifiers:
       tcgplayerProductId: '541226'
-    release_date: '2024-07-05'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Assassins Creed Collector Booster Box
+        set: acr
   Assassins Creed Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2024-07-05'
     identifiers:
       abuId: '2509379'
       cardKingdomId: '297396'
@@ -84,15 +134,22 @@ products:
       scgId: SLD-MTG-PCK-ACRCOLLECTOR-EN
       tcgplayerProductId: '541224'
       tntId: '1808841'
-    release_date: '2024-07-05'
-    subtype: COLLECTOR
+    contents:
+      card_count: 10
+      pack:
+      - code: collector
+        set: acr
   Assassins Creed Collector Booster Pack Minimal Packaging:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '684665'
-    subtype: COLLECTOR
+    contents:
+      copy: Assassins Creed Collector Booster Pack
   Assassins Creed Starter Kit:
     category: MULTI_DECK
+    subtype: TWO_PLAYER_STARTER
+    release_date: '2024-07-05'
     identifiers:
       abuId: '2509383'
       cardKingdomId: '297397'
@@ -101,13 +158,25 @@ products:
       scgId: SLD-MTG-INT-ACRSTARTER-EN
       tcgplayerProductId: '541230'
       tntId: '1808837'
-    release_date: '2024-07-05'
-    subtype: TWO_PLAYER_STARTER
+    contents:
+      card_count: 120
+      deck:
+      - name: Brotherhood Agents
+        set: acr
+      - name: Ancient Arsenal
+        set: acr
+      other:
+      - name: Magic Play Guide booklet
   Assassins Creed Starter Kit Case:
     category: DECK_BOX
+    subtype: TWO_PLAYER_STARTER
+    release_date: '2024-07-05'
     identifiers:
       csiId: '384240'
       tcgplayerProductId: '541231'
       tntId: '1808837'
-    release_date: '2024-07-05'
-    subtype: TWO_PLAYER_STARTER
+    contents:
+      sealed:
+      - count: 12
+        name: Assassins Creed Starter Kit
+        set: acr

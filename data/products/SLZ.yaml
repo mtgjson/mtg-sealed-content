@@ -2,7 +2,12 @@ code: slz
 products:
   Secret Lair x MSCHF - The Zeta Set Booster Pack:
     category: BOOSTER_PACK
+    subtype: SECRET_LAIR
+    release_date: '2026-11-04'
     identifiers:
       tcgplayerProductId: '714891'
-    release_date: '2026-11-04'
-    subtype: SECRET_LAIR
+    contents:
+      card_count: 7
+      pack:
+      - code: default
+        set: slz

@@ -2,12 +2,22 @@ code: brc
 products:
   The Brothers' War Commander Deck Display:
     category: DECK_BOX
+    subtype: COMMANDER
+    release_date: '2022-11-18'
     identifiers:
       tcgplayerProductId: '450084'
-    release_date: '2022-11-18'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 2
+        name: The Brothers' War Commander Deck Urzas Iron Alliance
+        set: brc
+      - count: 2
+        name: The Brothers' War Commander Deck Mishras Burnished Banner
+        set: brc
   The Brothers' War Commander Deck Mishras Burnished Banner:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2022-11-18'
     identifiers:
       abuId: '2261770'
       cardKingdomId: '267926'
@@ -18,10 +28,22 @@ products:
       scgId: SLD-MTG-MLT-BRC-EN-MISHRA
       tcgplayerProductId: '449723'
       tntId: '1759343'
-    release_date: '2022-11-18'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Mishra's Burnished Banner
+        set: brc
+      other:
+      - name: The Brothers' War Life Wheel
+      - name: 10 Double Sided Tokens
+      sealed:
+      - count: 1
+        name: The Brothers' War Collector Booster Sample Pack
+        set: bro
   The Brothers' War Commander Deck Urzas Iron Alliance:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2022-11-18'
     identifiers:
       abuId: '2261769'
       cardKingdomId: '267927'
@@ -32,10 +54,22 @@ products:
       scgId: SLD-MTG-MLT-BRC-EN-URZA
       tcgplayerProductId: '449722'
       tntId: '1759342'
-    release_date: '2022-11-18'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Urza's Iron Alliance
+        set: brc
+      other:
+      - name: The Brothers' War Life Wheel
+      - name: 10 Double Sided Tokens
+      sealed:
+      - count: 1
+        name: The Brothers' War Collector Booster Sample Pack
+        set: bro
   The Brothers' War Commander Decks Set of 2:
     category: SUBSET
+    subtype: COMMANDER
+    release_date: '2022-11-18'
     identifiers:
       cardKingdomId: '267928'
       cardtraderId: '224490'
@@ -44,5 +78,11 @@ products:
       mcmId: '679529'
       scgId: SLD-MTG-MLT-BRC-EN-SET2
       tcgplayerProductId: '449724'
-    release_date: '2022-11-18'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: The Brothers' War Commander Deck Urzas Iron Alliance
+        set: brc
+      - count: 1
+        name: The Brothers' War Commander Deck Mishras Burnished Banner
+        set: brc

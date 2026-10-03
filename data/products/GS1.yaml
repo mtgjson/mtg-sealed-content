@@ -2,6 +2,8 @@ code: gs1
 products:
   Global Series Jiang Yanggu and Mu Yanling:
     category: MULTI_DECK
+    subtype: PLANESWALKER
+    release_date: '2018-06-22'
     identifiers:
       abuId: '1510088'
       cardKingdomId: '219083'
@@ -11,5 +13,12 @@ products:
       scgId: SLD-MTG-BXS-GS1-EN
       tcgplayerProductId: '166535'
       tntId: '1178799'
-    release_date: '2018-06-22'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 120
+      deck:
+      - name: Jiang Yanggu
+        set: gs1
+      - name: Mu Yanling
+        set: gs1
+      other:
+      - name: Informational insert

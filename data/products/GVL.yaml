@@ -2,11 +2,21 @@ code: gvl
 products:
   Duel Deck Anthology Garruk Deck:
     category: DECK
+    subtype: DUEL
     identifiers:
       mcmId: '270808'
-    subtype: DUEL
+    contents:
+      card_count: 60
+      deck:
+      - name: Garruk
+        set: gvl
   Duel Deck Anthology Liliana Deck:
     category: DECK
+    subtype: DUEL
     identifiers:
       mcmId: '270809'
-    subtype: DUEL
+    contents:
+      card_count: 60
+      deck:
+      - name: Liliana
+        set: gvl

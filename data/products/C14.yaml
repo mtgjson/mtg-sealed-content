@@ -2,6 +2,7 @@ code: c14
 products:
   Commander 2014 Commander Deck Built from Scratch:
     category: DECK
+    subtype: COMMANDER
     identifiers:
       abuId: '1100322'
       cardKingdomId: '196745'
@@ -11,9 +12,16 @@ products:
       scgId: SLD-MTG-MLT-C14-EN-BUILT
       tcgplayerProductId: '94102'
       tntId: '1062405'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Built From Scratch
+        set: c14
+      other:
+      - name: 10 double-sided tokens and emblems
   Commander 2014 Commander Deck Forged in Stone:
     category: DECK
+    subtype: COMMANDER
     identifiers:
       abuId: '1100323'
       cardKingdomId: '196742'
@@ -23,9 +31,16 @@ products:
       scgId: SLD-MTG-MLT-C14-EN-FORGED
       tcgplayerProductId: '94104'
       tntId: '1062402'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Forged In Stone
+        set: c14
+      other:
+      - name: 10 double-sided tokens and emblems
   Commander 2014 Commander Deck Guided by Nature:
     category: DECK
+    subtype: COMMANDER
     identifiers:
       abuId: '1100325'
       cardKingdomId: '196746'
@@ -35,9 +50,16 @@ products:
       scgId: SLD-MTG-MLT-C14-EN-GUIDED
       tcgplayerProductId: '94103'
       tntId: '1062406'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Guided By Nature
+        set: c14
+      other:
+      - name: 10 double-sided tokens and emblems
   Commander 2014 Commander Deck Peer Through Time:
     category: DECK
+    subtype: COMMANDER
     identifiers:
       abuId: '1100326'
       cardKingdomId: '196743'
@@ -47,9 +69,16 @@ products:
       scgId: SLD-MTG-MLT-C14-EN-PEER
       tcgplayerProductId: '94100'
       tntId: '1062403'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Peer Through Time
+        set: c14
+      other:
+      - name: 10 double-sided tokens and emblems
   Commander 2014 Commander Deck Sworn to Darkness:
     category: DECK
+    subtype: COMMANDER
     identifiers:
       abuId: '1100328'
       cardKingdomId: '196744'
@@ -59,9 +88,16 @@ products:
       scgId: SLD-MTG-MLT-C14-EN-SWORN
       tcgplayerProductId: '94101'
       tntId: '1062404'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Sworn To Darkness
+        set: c14
+      other:
+      - name: 10 double-sided tokens and emblems
   Commander 2014 Commander Decks Set of 5:
     category: SUBSET
+    subtype: COMMANDER
     identifiers:
       cardtraderId: '44763'
       hareruyaId: '28048'
@@ -69,4 +105,20 @@ products:
       scgId: SLD-MTG-MLT-C14-EN-SET5
       tcgplayerProductId: '94098'
       tntId: '1062542'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Commander 2014 Commander Deck Built from Scratch
+        set: c14
+      - count: 1
+        name: Commander 2014 Commander Deck Forged in Stone
+        set: c14
+      - count: 1
+        name: Commander 2014 Commander Deck Guided by Nature
+        set: c14
+      - count: 1
+        name: Commander 2014 Commander Deck Peer Through Time
+        set: c14
+      - count: 1
+        name: Commander 2014 Commander Deck Sworn to Darkness
+        set: c14

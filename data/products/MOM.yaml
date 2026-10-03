@@ -2,6 +2,8 @@ code: mom
 products:
   March of the Machine Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2023-04-21'
     identifiers:
       abuId: '2323036'
       cardKingdomId: '274980'
@@ -11,15 +13,35 @@ products:
       scgId: SLD-MTG-BUN-MOM-EN
       tcgplayerProductId: '475586'
       tntId: '1774260'
-    release_date: '2023-04-21'
-    subtype: DEFAULT
+    contents:
+      card:
+      - foil: true
+        name: Ghalta and Mavren
+        number: 386
+        set: mom
+      deck:
+      - name: March of the Machine Bundle Land Pack
+        set: mom
+      other:
+      - name: March of the Machine 20-sided die
+      sealed:
+      - count: 8
+        name: March of the Machine Set Booster Pack
+        set: mom
   March of the Machine Bundle Case:
     category: BUNDLE_CASE
+    subtype: DEFAULT
     identifiers:
       tcgplayerProductId: '475587'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 6
+        name: March of the Machine Bundle
+        set: mom
   March of the Machine Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2023-04-21'
     identifiers:
       abuId: '2323035'
       cardKingdomId: '274981'
@@ -30,15 +52,25 @@ products:
       scgId: SLD-MTG-BBX-MOMCOLLECTOR-EN
       tcgplayerProductId: '475584'
       tntId: '1774262'
-    release_date: '2023-04-21'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: March of the Machine Collector Booster Pack
+        set: mom
   March of the Machine Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '475585'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: March of the Machine Collector Booster Box
+        set: mom
   March of the Machine Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2023-04-21'
     identifiers:
       abuId: '2323034'
       cardKingdomId: '274982'
@@ -48,17 +80,27 @@ products:
       scgId: SLD-MTG-PCK-MOMCOLLECTOR-EN
       tcgplayerProductId: '475583'
       tntId: '1774246'
-    release_date: '2023-04-21'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: mom
   March of the Machine Collector Booster Sample Pack:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    release_date: '2023-04-21'
     identifiers:
       mcmId: '712816'
       tcgplayerProductId: '579974'
-    release_date: '2023-04-21'
-    subtype: PROMOTIONAL
+    contents:
+      card_count: 2
+      pack:
+      - code: collector-sample
+        set: mom
   March of the Machine Draft Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2023-04-21'
     identifiers:
       abuId: '2323029'
       cardKingdomId: '274983'
@@ -68,16 +110,26 @@ products:
       scgId: SLD-MTG-BBX-MOMDRAFT-EN
       tcgplayerProductId: '475575'
       tntId: '1774259'
-    release_date: '2023-04-21'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: March of the Machine Draft Booster Pack
+        set: mom
   March of the Machine Draft Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '475576'
       tntId: '1774243'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: March of the Machine Draft Booster Box
+        set: mom
   March of the Machine Draft Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2023-04-21'
     identifiers:
       abuId: '2323028'
       cardKingdomId: '274984'
@@ -88,10 +140,15 @@ products:
       scgId: SLD-MTG-PCK-MOMDRAFT-EN
       tcgplayerProductId: '475577'
       tntId: '1774244'
-    release_date: '2023-04-21'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: mom
   March of the Machine Jumpstart Booster Box:
     category: BOOSTER_BOX
+    subtype: JUMPSTART
+    release_date: '2023-04-21'
     identifiers:
       abuId: '2323033'
       cardKingdomId: '274986'
@@ -100,14 +157,24 @@ products:
       scgId: SLD-MTG-BBX-MOMJUMPSTART-EN
       tcgplayerProductId: '475582'
       tntId: '1774263'
-    release_date: '2023-04-21'
-    subtype: JUMPSTART
+    contents:
+      sealed:
+      - count: 18
+        name: March of the Machine Jumpstart Booster Pack
+        set: mom
   March of the Machine Jumpstart Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: JUMPSTART
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: March of the Machine Jumpstart Booster Box
+        set: mom
   March of the Machine Jumpstart Booster Pack:
     category: BOOSTER_PACK
+    subtype: JUMPSTART
+    release_date: '2023-04-21'
     identifiers:
       abuId: '2323032'
       cardKingdomId: '274985'
@@ -117,30 +184,57 @@ products:
       scgId: SLD-MTG-PCK-MOMJUMPSTART-EN
       tcgplayerProductId: '475581'
       tntId: '1774264'
-    release_date: '2023-04-21'
-    subtype: JUMPSTART
+    contents:
+      card_count: 20
+      pack:
+      - code: jumpstart
+        set: mom
   March of the Machine MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '275000'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 291
+      deck:
+      - name: March of the Machine Redemption
+        set: mom
   March of the Machine MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '274999'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 291
+      deck:
+      - name: March of the Machine Foil Redemption
+        set: mom
   March of the Machine Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2023-04-21'
     identifiers:
       cardKingdomId: '274987'
       cardtraderId: '231983'
       csiId: '354587'
       mcmId: '689790'
       tcgplayerProductId: '475588'
-    release_date: '2023-04-21'
-    subtype: PRERELEASE
+    contents:
+      card_count: 2
+      other:
+      - name: March of the Machine Prerelease Spindown
+      - name: MTG Arena code card (available in select regions)
+      pack:
+      - code: prerelease
+        set: mom
+      sealed:
+      - count: 6
+        name: March of the Machine Draft Booster Pack
+        set: mom
   March of the Machine Set Booster Box:
     category: BOOSTER_BOX
+    subtype: SET
+    release_date: '2023-04-21'
     identifiers:
       abuId: '2323031'
       cardKingdomId: '274991'
@@ -150,15 +244,25 @@ products:
       scgId: SLD-MTG-BBX-MOMSET-EN
       tcgplayerProductId: '475579'
       tntId: '1774261'
-    release_date: '2023-04-21'
-    subtype: SET
+    contents:
+      sealed:
+      - count: 30
+        name: March of the Machine Set Booster Pack
+        set: mom
   March of the Machine Set Booster Box Case:
     category: BOOSTER_CASE
+    subtype: SET
     identifiers:
       tcgplayerProductId: '475580'
-    subtype: SET
+    contents:
+      sealed:
+      - count: 6
+        name: March of the Machine Set Booster Box
+        set: mom
   March of the Machine Set Booster Pack:
     category: BOOSTER_PACK
+    subtype: SET
+    release_date: '2023-04-21'
     identifiers:
       abuId: '2323030'
       cardKingdomId: '274990'
@@ -169,16 +273,29 @@ products:
       scgId: SLD-MTG-PCK-MOMSET-EN
       tcgplayerProductId: '475578'
       tntId: '1774245'
-    release_date: '2023-04-21'
-    subtype: SET
+    contents:
+      card_count: 12
+      pack:
+      - code: set
+        set: mom
   March of the Machine Sleeved Set Booster Pack:
     category: BOOSTER_PACK
+    subtype: SET
     identifiers:
       tcgplayerProductId: '494954'
-    subtype: SET
+    contents:
+      sealed:
+      - count: 1
+        name: March of the Machine Set Booster Pack
+        set: mom
   March of the Machine Welcome Booster:
     category: BOOSTER_PACK
+    subtype: WELCOME
+    release_date: '2023-04-21'
     identifiers:
       mcmId: '706470'
-    release_date: '2023-04-21'
-    subtype: WELCOME
+    contents:
+      card_count: 10
+      deck:
+      - name: March of the Machine Welcome Booster
+        set: mom

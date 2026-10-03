@@ -11,7 +11,7 @@ For Secret Lair bonus-card pool audits, use the dedicated [Secret Lair bonus aud
 
 ## Source layers
 
-- `mtgjson/mtg-sealed-content` (`main`): `data/products/SET.yaml` defines products/identifiers; `data/contents/SET.yaml` describes cards, decks, packs, nested sealed products and accessories.
+- `mtgjson/mtg-sealed-content` (`main`): `data/products/SET.yaml` defines products/identifiers, and each product's `contents:` key describes cards, decks, packs, nested sealed products and accessories.
 - `taw/magic-preconstructed-decks` (`master`): `data/<type>/<set>/<deck>.txt` is canonical deck data. `bin/build_jsons <output>` exports sectioned deck JSON. `lib/deck_types.yaml` constrains permitted counts.
 - `taw/magic-search-engine` (`master`): `data/boosters/<set>[-<pack>].yaml` defines booster slots/queries; `index/sets.json` supplies set dates; the card index resolves printings and finishes.
 - MTGBAN productless search is a downstream symptom, not authoritative evidence that source data is missing.

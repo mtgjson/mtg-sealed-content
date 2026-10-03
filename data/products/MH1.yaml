@@ -2,11 +2,18 @@ code: mh1
 products:
   Modern Horizons 3 Booster Draft Pack:
     category: LIMITED
+    subtype: DRAFT_SET
     identifiers:
       tcgplayerProductId: '192628'
-    subtype: DRAFT_SET
+    contents:
+      sealed:
+      - count: 3
+        name: Modern Horizons Booster Pack
+        set: mh1
   Modern Horizons Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2019-06-14'
     identifiers:
       abuId: '1574910'
       cardKingdomId: '224850'
@@ -17,17 +24,27 @@ products:
       scgId: SLD-MTG-BBX-MH1-EN
       tcgplayerProductId: '185894'
       tntId: '1469268'
-    release_date: '2019-06-14'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Modern Horizons Booster Pack
+        set: mh1
   Modern Horizons Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2019-06-14'
     identifiers:
       scgId: SLD-MTG-BBX-MH1CASE-EN
       tcgplayerProductId: '190885'
-    release_date: '2019-06-14'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Modern Horizons Booster Box
+        set: mh1
   Modern Horizons Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2019-06-14'
     identifiers:
       abuId: '2689103'
       cardKingdomId: '224852'
@@ -38,5 +55,10 @@ products:
       scgId: SLD-MTG-PCK-MH1-EN
       tcgplayerProductId: '185892'
       tntId: '1469269'
-    release_date: '2019-06-14'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      other:
+      - name: 1 art card
+      pack:
+      - code: draft
+        set: mh1

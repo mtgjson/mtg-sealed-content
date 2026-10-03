@@ -2,17 +2,32 @@ code: sum
 products:
   Summer Magic Booster Box:
     category: BOOSTER_BOX
+    subtype: DEFAULT
     identifiers:
       cardtraderId: '164273'
       mcmId: '210129'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 36
+        name: Summer Magic Booster Pack
+        set: sum
   Summer Magic Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DEFAULT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Summer Magic Booster Box
+        set: sum
   Summer Magic Booster Pack:
     category: BOOSTER_PACK
+    subtype: DEFAULT
     identifiers:
       cardtraderId: '164582'
       mcmId: '210063'
-    subtype: DEFAULT
+    contents:
+      card_count: 15
+      pack:
+      - code: default
+        set: sum

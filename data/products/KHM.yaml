@@ -2,6 +2,8 @@ code: khm
 products:
   Kaldheim Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2021-02-05'
     identifiers:
       abuId: '1963621'
       cardKingdomId: '240247'
@@ -12,10 +14,26 @@ products:
       scgId: SLD-MTG-BUN-KHM-EN
       tcgplayerProductId: '228248'
       tntId: '1693245'
-    release_date: '2021-02-05'
-    subtype: DEFAULT
+    contents:
+      card:
+      - foil: true
+        name: Reflections of Littjara
+        number: 400
+        set: khm
+      deck:
+      - name: Kaldheim Bundle Land Pack
+        set: khm
+      other:
+      - name: Kaldheim Spindown
+      - name: Reusable Storage Box
+      sealed:
+      - count: 10
+        name: Kaldheim Draft Booster Pack
+        set: khm
   Kaldheim Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2021-02-05'
     identifiers:
       abuId: '1964626'
       cardKingdomId: '240242'
@@ -26,20 +44,35 @@ products:
       scgId: SLD-MTG-BBX-KHMCOLLECTOR-EN
       tcgplayerProductId: '228249'
       tntId: '1685222'
-    release_date: '2021-02-05'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Kaldheim Collector Booster Pack
+        set: khm
   Kaldheim Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '230864'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Kaldheim Collector Booster Box
+        set: khm
   Kaldheim Collector Booster Hanger Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '236691'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 1
+        name: Kaldheim Collector Booster Pack
+        set: khm
   Kaldheim Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2021-02-05'
     identifiers:
       abuId: '1966458'
       cardKingdomId: '240243'
@@ -50,10 +83,15 @@ products:
       scgId: SLD-MTG-PCK-KHMCOLLECTOR-EN
       tcgplayerProductId: '228250'
       tntId: '1685223'
-    release_date: '2021-02-05'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: khm
   Kaldheim Draft Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2021-02-05'
     identifiers:
       abuId: '1949007'
       cardKingdomId: '240240'
@@ -64,16 +102,26 @@ products:
       scgId: SLD-MTG-BBX-KHMDRAFT-EN
       tcgplayerProductId: '228245'
       tntId: '1687728'
-    release_date: '2021-02-05'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Kaldheim Draft Booster Pack
+        set: khm
   Kaldheim Draft Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2021-02-05'
     identifiers:
       tcgplayerProductId: '228247'
-    release_date: '2021-02-05'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Kaldheim Draft Booster Box
+        set: khm
   Kaldheim Draft Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2021-02-05'
     identifiers:
       abuId: '1966452'
       cardKingdomId: '240241'
@@ -84,20 +132,35 @@ products:
       scgId: SLD-MTG-PCK-KHMDRAFT-EN
       tcgplayerProductId: '228246'
       tntId: '1687729'
-    release_date: '2021-02-05'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: khm
   Kaldheim MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241591'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 285
+      deck:
+      - name: Kaldheim Redemption
+        set: khm
   Kaldheim MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241590'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 285
+      deck:
+      - name: Kaldheim Foil Redemption
+        set: khm
   Kaldheim Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2021-01-07'
     identifiers:
       abuId: '1962690'
       cardKingdomId: '240255'
@@ -106,10 +169,22 @@ products:
       mcmId: '529287'
       tcgplayerProductId: '230377'
       tntId: '1182105'
-    release_date: '2021-01-07'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: Kaldheim Spindown
+      - name: MTG Arena code card (available in select regions)
+      pack:
+      - code: prerelease
+        set: khm
+      sealed:
+      - count: 6
+        name: Kaldheim Draft Booster Pack
+        set: khm
   Kaldheim Set Booster Box:
     category: BOOSTER_BOX
+    subtype: SET
+    release_date: '2021-02-05'
     identifiers:
       abuId: '1963599'
       cardKingdomId: '240244'
@@ -119,15 +194,25 @@ products:
       mcmId: '527320'
       scgId: SLD-MTG-BBX-KHMSET-EN
       tcgplayerProductId: '228251'
-    release_date: '2021-02-05'
-    subtype: SET
+    contents:
+      sealed:
+      - count: 30
+        name: Kaldheim Set Booster Pack
+        set: khm
   Kaldheim Set Booster Box Case:
     category: BOOSTER_CASE
+    subtype: SET
     identifiers:
       tcgplayerProductId: '622979'
-    subtype: SET
+    contents:
+      sealed:
+      - count: 6
+        name: Kaldheim Set Booster Box
+        set: khm
   Kaldheim Set Booster Pack:
     category: BOOSTER_PACK
+    subtype: SET
+    release_date: '2021-02-05'
     identifiers:
       abuId: '1966449'
       cardKingdomId: '240245'
@@ -138,84 +223,162 @@ products:
       scgId: SLD-MTG-PCK-KHMSET-EN
       tcgplayerProductId: '228252'
       tntId: '1685225'
-    release_date: '2021-02-05'
-    subtype: SET
+    contents:
+      card_count: 12
+      pack:
+      - code: set
+        set: khm
   Kaldheim Theme Booster Black:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2021-02-05'
     identifiers:
       abuId: '1966441'
       cardtraderId: '151504'
       mcmId: '527290'
       tcgplayerProductId: '229196'
       tntId: '1685229'
-    release_date: '2021-02-05'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-b
+        set: khm
   Kaldheim Theme Booster Blue:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2021-02-05'
     identifiers:
       abuId: '1966439'
       cardtraderId: '151505'
       mcmId: '527295'
       tcgplayerProductId: '229195'
       tntId: '1685228'
-    release_date: '2021-02-05'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-u
+        set: khm
   Kaldheim Theme Booster Box:
     category: BOOSTER_BOX
+    subtype: THEME
+    release_date: '2021-02-05'
     identifiers:
       cardtraderId: '151503'
       mcmId: '527285'
       tcgplayerProductId: '229245'
       tntId: '1685226'
-    release_date: '2021-02-05'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 2
+        name: Kaldheim Theme Booster White
+        set: khm
+      - count: 2
+        name: Kaldheim Theme Booster Blue
+        set: khm
+      - count: 2
+        name: Kaldheim Theme Booster Black
+        set: khm
+      - count: 2
+        name: Kaldheim Theme Booster Red
+        set: khm
+      - count: 2
+        name: Kaldheim Theme Booster Green
+        set: khm
+      - count: 2
+        name: Kaldheim Theme Booster Viking
+        set: khm
   Kaldheim Theme Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: THEME
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Kaldheim Theme Booster Box
+        set: khm
   Kaldheim Theme Booster Green:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2021-02-05'
     identifiers:
       abuId: '1966445'
       cardtraderId: '151506'
       mcmId: '527300'
       tcgplayerProductId: '229198'
       tntId: '1685231'
-    release_date: '2021-02-05'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-g
+        set: khm
   Kaldheim Theme Booster Red:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2021-02-05'
     identifiers:
       abuId: '1966443'
       cardtraderId: '151507'
       mcmId: '527305'
       tcgplayerProductId: '229197'
       tntId: '1685230'
-    release_date: '2021-02-05'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-r
+        set: khm
   Kaldheim Theme Booster Set of 6:
     category: SUBSET
+    subtype: THEME
+    release_date: '2021-02-05'
     identifiers:
       tcgplayerProductId: '229244'
-    release_date: '2021-02-05'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Kaldheim Theme Booster White
+        set: khm
+      - count: 1
+        name: Kaldheim Theme Booster Blue
+        set: khm
+      - count: 1
+        name: Kaldheim Theme Booster Black
+        set: khm
+      - count: 1
+        name: Kaldheim Theme Booster Red
+        set: khm
+      - count: 1
+        name: Kaldheim Theme Booster Green
+        set: khm
+      - count: 1
+        name: Kaldheim Theme Booster Viking
+        set: khm
   Kaldheim Theme Booster Viking:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2021-02-05'
     identifiers:
       abuId: '1966447'
       cardtraderId: '151509'
       mcmId: '527315'
       tcgplayerProductId: '229199'
       tntId: '1695932'
-    release_date: '2021-02-05'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-vikings
+        set: khm
   Kaldheim Theme Booster White:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2021-02-05'
     identifiers:
       abuId: '1966437'
       cardtraderId: '151508'
       mcmId: '527310'
       tcgplayerProductId: '229194'
       tntId: '1685227'
-    release_date: '2021-02-05'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-w
+        set: khm

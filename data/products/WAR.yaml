@@ -2,6 +2,8 @@ code: war
 products:
   War of the Spark Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2019-05-03'
     identifiers:
       abuId: '1567938'
       cardKingdomId: '224020'
@@ -12,18 +14,28 @@ products:
       scgId: SLD-MTG-BBX-WAR-EN
       tcgplayerProductId: '185676'
       tntId: '1469257'
-    release_date: '2019-05-03'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: War of the Spark Booster Pack
+        set: war
   War of the Spark Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2019-05-03'
     identifiers:
       scgId: SLD-MTG-BBX-WARCASE-EN
       tcgplayerProductId: '185675'
       tntId: '1469256'
-    release_date: '2019-05-03'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: War of the Spark Booster Box
+        set: war
   War of the Spark Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2019-05-03'
     identifiers:
       abuId: '2183763'
       cardKingdomId: '224021'
@@ -34,10 +46,15 @@ products:
       scgId: SLD-MTG-PCK-WAR-EN
       tcgplayerProductId: '185677'
       tntId: '1469258'
-    release_date: '2019-05-03'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: war
   War of the Spark Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2019-05-03'
     identifiers:
       abuId: '1567940'
       cardKingdomId: '224023'
@@ -48,42 +65,80 @@ products:
       scgId: SLD-MTG-BUN-WAR-EN
       tcgplayerProductId: '185678'
       tntId: '1469259'
-    release_date: '2019-05-03'
-    subtype: DEFAULT
+    contents:
+      deck:
+      - name: War of the Spark Bundle Land Pack
+        set: war
+      other:
+      - name: 1 card box
+      - name: 1 player’s guide
+      - name: 1 learn-to-play insert
+      - name: 1 Spindown life counter
+      sealed:
+      - count: 10
+        name: War of the Spark Booster Pack
+        set: war
   War of the Spark Japanese Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    language: Japanese
     identifiers:
       abuId: '1580829'
       cardKingdomId: '224609'
       csiId: '277220'
       tntId: '1478914'
-    language: Japanese
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: War of the Spark Japanese Booster Pack
+        set: war
   War of the Spark Japanese Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: War of the Spark Japanese Booster Box
+        set: war
   War of the Spark Japanese Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2019-05-03'
+    language: Japanese
     identifiers:
       cardKingdomId: '310746'
       csiId: '277364'
       tntId: '1642780'
-    language: Japanese
-    release_date: '2019-05-03'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: jp
+        set: war
   War of the Spark MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '225508'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 264
+      deck:
+      - name: War of the Spark Redemption
+        set: war
   War of the Spark MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '225509'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 264
+      deck:
+      - name: War of the Spark Foil Redemption
+        set: war
   War of the Spark Mythic Edition:
     category: BUNDLE
+    subtype: PREMIUM
+    release_date: '2019-05-01'
     identifiers:
       cardKingdomId: '224825'
       cardtraderId: '56836'
@@ -91,16 +146,67 @@ products:
       mcmId: '372921'
       tcgplayerProductId: '188892'
       tntId: '1642826'
-    release_date: '2019-05-01'
-    subtype: PREMIUM
+    contents:
+      card:
+      - foil: true
+        name: Ugin, the Spirit Dragon
+        number: WS1
+        set: med
+      - foil: true
+        name: Gideon Blackblade
+        number: WS2
+        set: med
+      - foil: true
+        name: Jace, the Mind Sculptor
+        number: WS3
+        set: med
+      - foil: true
+        name: Tezzeret the Seeker
+        number: WS4
+        set: med
+      - foil: true
+        name: Garruk, Apex Predator
+        number: WS5
+        set: med
+      - foil: true
+        name: Nicol Bolas, Dragon-God
+        number: WS6
+        set: med
+      - foil: true
+        name: Nahiri, the Harbinger
+        number: WS7
+        set: med
+      - foil: true
+        name: Sarkhan Unbroken
+        number: WS8
+        set: med
+      card_count: 8
+      other:
+      - name: Beast Token
+      - name: Dragon Token
+      - name: Garruk, Apex Predator Emblem
+      sealed:
+      - count: 24
+        name: War of the Spark Booster Pack
+        set: war
   War of the Spark Planeswalker Deck Display:
     category: DECK_BOX
+    subtype: PLANESWALKER
     identifiers:
       tcgplayerProductId: '185682'
       tntId: '1469260'
-    subtype: PLANESWALKER
+    contents:
+      sealed:
+      - count: 3
+        name: War of the Spark Planeswalker Deck Gideon
+        set: war
+      - count: 3
+        name: War of the Spark Planeswalker Deck Jace
+        set: war
   War of the Spark Planeswalker Deck Gideon:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2019-05-03'
     identifiers:
       abuId: '1568032'
       cardKingdomId: '224028'
@@ -110,10 +216,19 @@ products:
       scgId: SLD-MTG-INT-WARPWDECK-EN-GIDEON
       tcgplayerProductId: '187178'
       tntId: '1469261'
-    release_date: '2019-05-03'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Gideon, the Oathsworn
+        set: war
+      sealed:
+      - count: 2
+        name: War of the Spark Booster Pack
+        set: war
   War of the Spark Planeswalker Deck Jace:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2019-05-03'
     identifiers:
       abuId: '1568035'
       cardKingdomId: '224029'
@@ -123,47 +238,98 @@ products:
       scgId: SLD-MTG-INT-WARPWDECK-EN-JACE
       tcgplayerProductId: '187179'
       tntId: '1469262'
-    release_date: '2019-05-03'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Jace, Arcane Strategist
+        set: war
+      sealed:
+      - count: 2
+        name: War of the Spark Booster Pack
+        set: war
   War of the Spark Planeswalker Decks Set of 2:
     category: SUBSET
+    subtype: PLANESWALKER
     identifiers:
       abuId: '1568034'
       hareruyaId: '70588'
       scgId: SLD-MTG-INT-WARPWDECK-EN-SET2
       tcgplayerProductId: '185683'
-    subtype: PLANESWALKER
+    contents:
+      sealed:
+      - count: 1
+        name: War of the Spark Planeswalker Deck Gideon
+        set: war
+      - count: 1
+        name: War of the Spark Planeswalker Deck Jace
+        set: war
   War of the Spark Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2019-04-27'
     identifiers:
       abuId: '1572213'
       cardKingdomId: '224826'
       cardtraderId: '56904'
       mcmId: '373063'
       tcgplayerProductId: '185687'
-    release_date: '2019-04-27'
-    subtype: PRERELEASE
+    contents:
+      card_count: 2
+      other:
+      - name: MTG Arena code card (where available)
+      - name: War of the Spark Spindown
+      pack:
+      - code: prerelease
+        set: war
+      sealed:
+      - count: 6
+        name: War of the Spark Booster Pack
+        set: war
   War of the Spark Standard Showdown Booster:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    release_date: '2019-04-02'
     identifiers:
       cardtraderId: '56822'
       mcmId: '371875'
-    release_date: '2019-04-02'
-    subtype: PROMOTIONAL
   War of the Spark Theme Booster Box:
     category: BOOSTER_BOX
+    subtype: THEME
+    release_date: '2019-05-03'
     identifiers:
       cardtraderId: '171260'
       mcmId: '577364'
       tcgplayerProductId: '188645'
-    release_date: '2019-05-03'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 2
+        name: War of the Spark Theme Booster Pack White
+        set: war
+      - count: 2
+        name: War of the Spark Theme Booster Pack Blue
+        set: war
+      - count: 2
+        name: War of the Spark Theme Booster Pack Black
+        set: war
+      - count: 2
+        name: War of the Spark Theme Booster Pack Red
+        set: war
+      - count: 2
+        name: War of the Spark Theme Booster Pack Green
+        set: war
   War of the Spark Theme Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: THEME
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: War of the Spark Theme Booster Box
+        set: war
   War of the Spark Theme Booster Pack Black:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2019-05-03'
     identifiers:
       abuId: '1573548'
       cardtraderId: '56888'
@@ -171,10 +337,15 @@ products:
       scgId: SLD-MTG-PCK-WARTHEME-EN-BLACK
       tcgplayerProductId: '188648'
       tntId: '1480806'
-    release_date: '2019-05-03'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-b
+        set: war
   War of the Spark Theme Booster Pack Blue:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2019-05-03'
     identifiers:
       abuId: '1573547'
       cardtraderId: '56889'
@@ -182,10 +353,15 @@ products:
       scgId: SLD-MTG-PCK-WARTHEME-EN-BLUE
       tcgplayerProductId: '188647'
       tntId: '1480805'
-    release_date: '2019-05-03'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-u
+        set: war
   War of the Spark Theme Booster Pack Green:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2019-05-03'
     identifiers:
       abuId: '1573550'
       cardtraderId: '56890'
@@ -194,10 +370,15 @@ products:
       scgId: SLD-MTG-PCK-WARTHEME-EN-GREEN
       tcgplayerProductId: '188650'
       tntId: '1480808'
-    release_date: '2019-05-03'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-g
+        set: war
   War of the Spark Theme Booster Pack Red:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2019-05-03'
     identifiers:
       abuId: '1573549'
       cardtraderId: '56891'
@@ -205,17 +386,39 @@ products:
       scgId: SLD-MTG-PCK-WARTHEME-EN-RED
       tcgplayerProductId: '188649'
       tntId: '1480807'
-    release_date: '2019-05-03'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-r
+        set: war
   War of the Spark Theme Booster Pack Set of 5:
     category: SUBSET
+    subtype: THEME
+    release_date: '2019-05-03'
     identifiers:
       scgId: SLD-MTG-PCK-WARTHEME-EN-SET5
       tcgplayerProductId: '188644'
-    release_date: '2019-05-03'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: War of the Spark Theme Booster Pack White
+        set: war
+      - count: 1
+        name: War of the Spark Theme Booster Pack Blue
+        set: war
+      - count: 1
+        name: War of the Spark Theme Booster Pack Black
+        set: war
+      - count: 1
+        name: War of the Spark Theme Booster Pack Red
+        set: war
+      - count: 1
+        name: War of the Spark Theme Booster Pack Green
+        set: war
   War of the Spark Theme Booster Pack White:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2019-05-03'
     identifiers:
       abuId: '1573546'
       cardtraderId: '56892'
@@ -223,5 +426,8 @@ products:
       scgId: SLD-MTG-PCK-WARTHEME-EN-WHITE
       tcgplayerProductId: '188646'
       tntId: '1480804'
-    release_date: '2019-05-03'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-w
+        set: war

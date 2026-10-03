@@ -2,6 +2,8 @@ code: lci
 products:
   The Lost Caverns of Ixalan Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2023-11-17'
     identifiers:
       abuId: '2422801'
       cardKingdomId: '285492'
@@ -12,16 +14,42 @@ products:
       scgId: SLD-MTG-BUN-LCI-EN
       tcgplayerProductId: '516610'
       tntId: '1789535'
-    release_date: '2023-11-17'
-    subtype: DEFAULT
+    contents:
+      card:
+      - foil: true
+        name: Hit the Mother Lode
+        number: 404
+        set: lci
+      card_count: 2
+      deck:
+      - name: The Lost Caverns of Ixalan Bundle Land Pack
+        set: lci
+      other:
+      - name: Lost Caverns of Ixalan Spindown
+      - name: Card storage box
+      - name: 2 reference cards
+      pack:
+      - code: bundle-promo
+        set: lci
+      sealed:
+      - count: 8
+        name: The Lost Caverns of Ixalan Set Booster Pack
+        set: lci
   The Lost Caverns of Ixalan Bundle Case:
     category: BUNDLE_CASE
+    subtype: DEFAULT
+    release_date: '2023-11-17'
     identifiers:
       tcgplayerProductId: '516612'
-    release_date: '2023-11-17'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 6
+        name: The Lost Caverns of Ixalan Bundle
+        set: lci
   The Lost Caverns of Ixalan Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2023-11-17'
     identifiers:
       abuId: '2423057'
       cardKingdomId: '285493'
@@ -32,16 +60,29 @@ products:
       scgId: SLD-MTG-BBX-LCICOLLECTOR-EN
       tcgplayerProductId: '516614'
       tntId: '1789538'
-    release_date: '2023-11-17'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: The Lost Caverns of Ixalan Collector Booster Pack
+        set: lci
+      - count: 1
+        name: The Lost Caverns of Ixalan Foil Box Topper Pack
+        set: lci
   The Lost Caverns of Ixalan Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
+    release_date: '2023-11-17'
     identifiers:
       tcgplayerProductId: '516616'
-    release_date: '2023-11-17'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: The Lost Caverns of Ixalan Collector Booster Box
+        set: lci
   The Lost Caverns of Ixalan Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2023-11-17'
     identifiers:
       abuId: '2688371'
       cardKingdomId: '285494'
@@ -52,18 +93,28 @@ products:
       scgId: SLD-MTG-PCK-LCICOLLECTOR-EN
       tcgplayerProductId: '516613'
       tntId: '1789539'
-    release_date: '2023-11-17'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: lci
   The Lost Caverns of Ixalan Collector Booster Sample Pack:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    release_date: '2023-11-02'
     identifiers:
       cardtraderId: '273185'
       mcmId: '743326'
       tcgplayerProductId: '579921'
-    release_date: '2023-11-02'
-    subtype: PROMOTIONAL
+    contents:
+      card_count: 2
+      pack:
+      - code: collector-sample
+        set: lci
   The Lost Caverns of Ixalan Draft Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2023-11-17'
     identifiers:
       abuId: '2423055'
       cardKingdomId: '285495'
@@ -74,17 +125,30 @@ products:
       scgId: SLD-MTG-BBX-LCIDRAFT-EN
       tcgplayerProductId: '516619'
       tntId: '1789533'
-    release_date: '2023-11-17'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: The Lost Caverns of Ixalan Draft Booster Pack
+        set: lci
+      - count: 1
+        name: The Lost Caverns of Ixalan Non-Foil Box Topper Pack
+        set: lci
   The Lost Caverns of Ixalan Draft Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2023-11-17'
     identifiers:
       scgId: SLD-MTG-BBX-LCIDRAFTCASE-EN
       tcgplayerProductId: '516620'
-    release_date: '2023-11-17'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: The Lost Caverns of Ixalan Draft Booster Box
+        set: lci
   The Lost Caverns of Ixalan Draft Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2023-11-17'
     identifiers:
       abuId: '2688372'
       cardKingdomId: '285496'
@@ -95,18 +159,28 @@ products:
       scgId: SLD-MTG-PCK-LCIDRAFT-EN
       tcgplayerProductId: '516618'
       tntId: '1789534'
-    release_date: '2023-11-17'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: lci
   The Lost Caverns of Ixalan Foil Box Topper Pack:
     category: BOOSTER_PACK
+    subtype: TOPPER
+    release_date: '2023-11-14'
     identifiers:
       cardtraderId: '261718'
       mcmId: '734168'
       tcgplayerProductId: '529641'
-    release_date: '2023-11-14'
-    subtype: TOPPER
+    contents:
+      card_count: 1
+      pack:
+      - code: box-topper-foil
+        set: lci
   The Lost Caverns of Ixalan Gift Bundle:
     category: BUNDLE
+    subtype: GIFT_BUNDLE
+    release_date: '2023-11-17'
     identifiers:
       abuId: '2422800'
       cardKingdomId: '285506'
@@ -116,43 +190,100 @@ products:
       scgId: SLD-MTG-BUN-LCIGIFT-EN
       tcgplayerProductId: '516628'
       tntId: '1790832'
-    release_date: '2023-11-17'
-    subtype: GIFT_BUNDLE
+    contents:
+      card:
+      - foil: true
+        name: Hit the Mother Lode
+        number: 404
+        set: lci
+      card_count: 2
+      deck:
+      - name: The Lost Caverns of Ixalan Gift Bundle Land Pack
+        set: lci
+      other:
+      - name: Lost Caverns of Ixalan Spindown
+      - name: Card storage box
+      - name: 2 reference cards
+      pack:
+      - code: bundle-promo-foil
+        set: lci
+      sealed:
+      - count: 8
+        name: The Lost Caverns of Ixalan Set Booster Pack
+        set: lci
+      - count: 1
+        name: The Lost Caverns of Ixalan Collector Booster Pack
+        set: lci
   The Lost Caverns of Ixalan Gift Bundle Case:
     category: BUNDLE_CASE
+    subtype: GIFT_BUNDLE
+    release_date: '2023-11-17'
     identifiers:
       tcgplayerProductId: '516631'
-    release_date: '2023-11-17'
-    subtype: GIFT_BUNDLE
+    contents:
+      sealed:
+      - count: 6
+        name: The Lost Caverns of Ixalan Gift Bundle
+        set: lci
   The Lost Caverns of Ixalan MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '288155'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 291
+      deck:
+      - name: The Lost Caverns of Ixalan Redemption
+        set: lci
   The Lost Caverns of Ixalan MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '288154'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 291
+      deck:
+      - name: The Lost Caverns of Ixalan Foil Redemption
+        set: lci
   The Lost Caverns of Ixalan Non-Foil Box Topper Pack:
     category: BOOSTER_PACK
+    subtype: TOPPER
+    release_date: '2023-11-14'
     identifiers:
       mcmId: '734167'
       tcgplayerProductId: '529640'
-    release_date: '2023-11-14'
-    subtype: TOPPER
+    contents:
+      card_count: 1
+      pack:
+      - code: box-topper
+        set: lci
   The Lost Caverns of Ixalan Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2023-11-17'
     identifiers:
       cardKingdomId: '285491'
       cardtraderId: '261712'
       mcmId: '734178'
       scgId: SLD-MTG-INT-LCIPRE-EN
       tcgplayerProductId: '516678'
-    release_date: '2023-11-17'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: Lost Caverns of Ixalan Spindown
+      - name: Punchout counter card
+      - name: MTG Arena code card (available in select regions)
+      pack:
+      - code: prerelease
+        set: lci
+      sealed:
+      - count: 6
+        name: The Lost Caverns of Ixalan Draft Booster Pack
+        set: lci
   The Lost Caverns of Ixalan Set Booster Box:
     category: BOOSTER_BOX
+    subtype: SET
+    release_date: '2023-11-17'
     identifiers:
       abuId: '2422795'
       cardKingdomId: '285497'
@@ -163,17 +294,30 @@ products:
       scgId: SLD-MTG-BBX-LCISET-EN
       tcgplayerProductId: '516622'
       tntId: '1789536'
-    release_date: '2023-11-17'
-    subtype: SET
+    contents:
+      sealed:
+      - count: 30
+        name: The Lost Caverns of Ixalan Set Booster Pack
+        set: lci
+      - count: 1
+        name: The Lost Caverns of Ixalan Non-Foil Box Topper Pack
+        set: lci
   The Lost Caverns of Ixalan Set Booster Box Case:
     category: BOOSTER_CASE
+    subtype: SET
+    release_date: '2023-11-17'
     identifiers:
       scgId: SLD-MTG-BBX-LCISETCASE-EN
       tcgplayerProductId: '516623'
-    release_date: '2023-11-17'
-    subtype: SET
+    contents:
+      sealed:
+      - count: 6
+        name: The Lost Caverns of Ixalan Set Booster Box
+        set: lci
   The Lost Caverns of Ixalan Set Booster Pack:
     category: BOOSTER_PACK
+    subtype: SET
+    release_date: '2023-11-17'
     identifiers:
       abuId: '2688373'
       cardKingdomId: '285498'
@@ -185,5 +329,8 @@ products:
       scgId: SLD-MTG-PCK-LCISET-EN
       tcgplayerProductId: '516621'
       tntId: '1789537'
-    release_date: '2023-11-17'
-    subtype: SET
+    contents:
+      card_count: 12
+      pack:
+      - code: set
+        set: lci

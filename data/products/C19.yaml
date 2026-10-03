@@ -2,6 +2,8 @@ code: c19
 products:
   Commander 2019 Commander Deck Faceless Menace:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2019-08-23'
     identifiers:
       abuId: '1588252'
       cardKingdomId: '226721'
@@ -12,10 +14,19 @@ products:
       scgId: SLD-MTG-MLT-C19-EN-FACELESS
       tcgplayerProductId: '196279'
       tntId: '1543880'
-    release_date: '2019-08-23'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Faceless Menace
+        set: c19
+      other:
+      - name: 10 Double Sided Tokens
+      - name: Reference Card and Strategy Insert
+      - name: Deck Box
   Commander 2019 Commander Deck Merciless Rage:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2019-08-23'
     identifiers:
       abuId: '1588293'
       cardKingdomId: '226722'
@@ -26,10 +37,19 @@ products:
       scgId: SLD-MTG-MLT-C19-EN-MERCILESS
       tcgplayerProductId: '196280'
       tntId: '1543881'
-    release_date: '2019-08-23'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Merciless Rage
+        set: c19
+      other:
+      - name: 10 Double Sided Tokens
+      - name: Reference Card and Strategy Insert
+      - name: Deck Box
   Commander 2019 Commander Deck Mystic Intellect:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2019-08-23'
     identifiers:
       abuId: '1588339'
       cardKingdomId: '226723'
@@ -40,10 +60,19 @@ products:
       scgId: SLD-MTG-MLT-C19-EN-MYSTIC
       tcgplayerProductId: '196281'
       tntId: '1543882'
-    release_date: '2019-08-23'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Mystic Intellect
+        set: c19
+      other:
+      - name: 10 Double Sided Tokens
+      - name: Reference Card and Strategy Insert
+      - name: Deck Box
   Commander 2019 Commander Deck Primal Genesis:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2019-08-23'
     identifiers:
       abuId: '1588393'
       cardKingdomId: '226724'
@@ -54,10 +83,19 @@ products:
       scgId: SLD-MTG-MLT-C19-EN-PRIMAL
       tcgplayerProductId: '196282'
       tntId: '1543883'
-    release_date: '2019-08-23'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Primal Genesis
+        set: c19
+      other:
+      - name: 10 Double Sided Tokens
+      - name: Reference Card and Strategy Insert
+      - name: Deck Box
   Commander 2019 Commander Decks Set of 4:
     category: SUBSET
+    subtype: COMMANDER
+    release_date: '2019-08-23'
     identifiers:
       cardtraderId: '59164'
       hareruyaId: '75551'
@@ -65,5 +103,17 @@ products:
       scgId: SLD-MTG-MLT-C19-EN-SET4
       tcgplayerProductId: '193443'
       tntId: '1520768'
-    release_date: '2019-08-23'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Commander 2019 Commander Deck Faceless Menace
+        set: c19
+      - count: 1
+        name: Commander 2019 Commander Deck Merciless Rage
+        set: c19
+      - count: 1
+        name: Commander 2019 Commander Deck Mystic Intellect
+        set: c19
+      - count: 1
+        name: Commander 2019 Commander Deck Primal Genesis
+        set: c19

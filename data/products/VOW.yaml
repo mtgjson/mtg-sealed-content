@@ -2,18 +2,30 @@ code: vow
 products:
   Innistrad Crimson Vow 3 Booster Draft Pack:
     category: LIMITED
+    subtype: DRAFT_SET
+    release_date: '2021-11-19'
     identifiers:
       tcgplayerProductId: '246454'
-    release_date: '2021-11-19'
-    subtype: DRAFT_SET
+    contents:
+      sealed:
+      - count: 3
+        name: Innistrad Crimson Vow Draft Booster Pack
+        set: vow
   Innistrad Crimson Vow Box Topper Pack:
     category: BOOSTER_PACK
+    subtype: TOPPER
     identifiers:
       mcmId: '679622'
       tcgplayerProductId: '257132'
-    subtype: TOPPER
+    contents:
+      card_count: 1
+      pack:
+      - code: box-topper
+        set: vow
   Innistrad Crimson Vow Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2021-11-19'
     identifiers:
       abuId: '2111076'
       cardKingdomId: '252148'
@@ -23,15 +35,35 @@ products:
       scgId: SLD-MTG-BUN-VOW-EN
       tcgplayerProductId: '246455'
       tntId: '1732861'
-    release_date: '2021-11-19'
-    subtype: DEFAULT
+    contents:
+      card:
+      - foil: true
+        name: Sigarda's Summons
+        number: 404
+        set: vow
+      deck:
+      - name: 'Innistrad: Crimson Vow Bundle Land Pack'
+        set: vow
+      other:
+      - name: Innistrad Crimson Vow Spindown
+      sealed:
+      - count: 8
+        name: Innistrad Crimson Vow Set Booster Pack
+        set: vow
   Innistrad Crimson Vow Bundle Case:
     category: BUNDLE_CASE
+    subtype: DEFAULT
     identifiers:
       tcgplayerProductId: '259194'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 6
+        name: Innistrad Crimson Vow Bundle
+        set: vow
   Innistrad Crimson Vow Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2021-11-19'
     identifiers:
       abuId: '2111054'
       cardKingdomId: '252163'
@@ -42,21 +74,39 @@ products:
       scgId: SLD-MTG-BBX-VOWCOLLECTOR-EN
       tcgplayerProductId: '246457'
       tntId: '1732864'
-    release_date: '2021-11-19'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Innistrad Crimson Vow Collector Booster Pack
+        set: vow
+      - count: 2
+        name: Innistrad Crimson Vow Box Topper Pack
+        set: vow
   Innistrad Crimson Vow Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
+    release_date: '2021-11-19'
     identifiers:
       tcgplayerProductId: '246458'
-    release_date: '2021-11-19'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Innistrad Crimson Vow Collector Booster Box
+        set: vow
   Innistrad Crimson Vow Collector Booster Hanger Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '281719'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 1
+        name: Innistrad Crimson Vow Collector Booster Pack
+        set: vow
   Innistrad Crimson Vow Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2021-11-19'
     identifiers:
       abuId: '2111056'
       cardKingdomId: '252164'
@@ -67,10 +117,15 @@ products:
       scgId: SLD-MTG-PCK-VOWCOLLECTOR-EN
       tcgplayerProductId: '246459'
       tntId: '1732865'
-    release_date: '2021-11-19'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: vow
   Innistrad Crimson Vow Draft Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2021-11-19'
     identifiers:
       abuId: '2105431'
       cardKingdomId: '252153'
@@ -81,16 +136,29 @@ products:
       scgId: SLD-MTG-BBX-VOWDRAFT-EN
       tcgplayerProductId: '246467'
       tntId: '1732859'
-    release_date: '2021-11-19'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Innistrad Crimson Vow Draft Booster Pack
+        set: vow
+      - count: 1
+        name: Innistrad Crimson Vow Box Topper Pack
+        set: vow
   Innistrad Crimson Vow Draft Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2021-11-19'
     identifiers:
       tcgplayerProductId: '246468'
-    release_date: '2021-11-19'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Innistrad Crimson Vow Draft Booster Box
+        set: vow
   Innistrad Crimson Vow Draft Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2021-11-19'
     identifiers:
       abuId: '2111051'
       cardKingdomId: '252162'
@@ -101,10 +169,15 @@ products:
       scgId: SLD-MTG-PCK-VOWDRAFT-EN
       tcgplayerProductId: '246469'
       tntId: '1732860'
-    release_date: '2021-11-19'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: vow
   Innistrad Crimson Vow Gift Bundle:
     category: BUNDLE
+    subtype: GIFT_BUNDLE
+    release_date: '2021-11-19'
     identifiers:
       abuId: '2114201'
       cardKingdomId: '252172'
@@ -114,35 +187,79 @@ products:
       scgId: SLD-MTG-BUN-VOWGIFT-EN
       tcgplayerProductId: '246456'
       tntId: '1732858'
-    release_date: '2021-11-19'
-    subtype: GIFT_BUNDLE
+    contents:
+      card:
+      - foil: true
+        name: Sigarda's Summons
+        number: 404
+        set: vow
+      deck:
+      - name: 'Innistrad: Crimson Vow Bundle Land Pack'
+        set: vow
+      other:
+      - name: Innistrad Crimson Vow Spindown
+      sealed:
+      - count: 8
+        name: Innistrad Crimson Vow Set Booster Pack
+        set: vow
+      - count: 1
+        name: Innistrad Crimson Vow Collector Booster Pack
+        set: vow
   Innistrad Crimson Vow Gift Bundle Case:
     category: BUNDLE_CASE
+    subtype: GIFT_BUNDLE
     identifiers:
       tcgplayerProductId: '259196'
-    subtype: GIFT_BUNDLE
+    contents:
+      sealed:
+      - count: 6
+        name: Innistrad Crimson Vow Gift Bundle
+        set: vow
   Innistrad Crimson Vow MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '253552'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 277
+      deck:
+      - name: 'Innistrad: Crimson Vow Redemption'
+        set: vow
   Innistrad Crimson Vow MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '253551'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 277
+      deck:
+      - name: 'Innistrad: Crimson Vow Foil Redemption'
+        set: vow
   Innistrad Crimson Vow Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2021-11-19'
     identifiers:
       abuId: '2105433'
       cardKingdomId: '252171'
       cardtraderId: '164076'
       mcmId: '583506'
       tcgplayerProductId: '252126'
-    release_date: '2021-11-19'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: Innistrad Crimson Vow Spindown
+      pack:
+      - code: prerelease
+        set: vow
+      sealed:
+      - count: 6
+        name: Innistrad Crimson Vow Draft Booster Pack
+        set: vow
   Innistrad Crimson Vow Set Booster Box:
     category: BOOSTER_BOX
+    subtype: SET
+    release_date: '2021-11-19'
     identifiers:
       abuId: '2111061'
       cardKingdomId: '252165'
@@ -153,16 +270,29 @@ products:
       scgId: SLD-MTG-BBX-VOWSET-EN
       tcgplayerProductId: '246470'
       tntId: '1732862'
-    release_date: '2021-11-19'
-    subtype: SET
+    contents:
+      sealed:
+      - count: 30
+        name: Innistrad Crimson Vow Set Booster Pack
+        set: vow
+      - count: 1
+        name: Innistrad Crimson Vow Box Topper Pack
+        set: vow
   Innistrad Crimson Vow Set Booster Box Case:
     category: BOOSTER_CASE
+    subtype: SET
+    release_date: '2021-11-19'
     identifiers:
       tcgplayerProductId: '246471'
-    release_date: '2021-11-19'
-    subtype: SET
+    contents:
+      sealed:
+      - count: 6
+        name: Innistrad Crimson Vow Set Booster Box
+        set: vow
   Innistrad Crimson Vow Set Booster Pack:
     category: BOOSTER_PACK
+    subtype: SET
+    release_date: '2021-11-19'
     identifiers:
       abuId: '2111050'
       cardKingdomId: '252166'
@@ -173,10 +303,15 @@ products:
       scgId: SLD-MTG-PCK-VOWSET-EN
       tcgplayerProductId: '246472'
       tntId: '1732863'
-    release_date: '2021-11-19'
-    subtype: SET
+    contents:
+      card_count: 12
+      pack:
+      - code: set
+        set: vow
   Innistrad Crimson Vow Theme Booster Black:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2021-11-19'
     identifiers:
       abuId: '2111066'
       cardKingdomId: '252194'
@@ -184,10 +319,15 @@ products:
       mcmId: '581623'
       tcgplayerProductId: '253823'
       tntId: '1734493'
-    release_date: '2021-11-19'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-b
+        set: vow
   Innistrad Crimson Vow Theme Booster Blue:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2021-11-19'
     identifiers:
       abuId: '2111065'
       cardKingdomId: '252195'
@@ -195,24 +335,54 @@ products:
       mcmId: '581620'
       tcgplayerProductId: '253824'
       tntId: '1734496'
-    release_date: '2021-11-19'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-u
+        set: vow
   Innistrad Crimson Vow Theme Booster Box:
     category: BOOSTER_BOX
+    subtype: THEME
+    release_date: '2021-11-19'
     identifiers:
       mcmId: '754922'
       tcgplayerProductId: '246473'
       tntId: '1732855'
-    release_date: '2021-11-19'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 2
+        name: Innistrad Crimson Vow Theme Booster White
+        set: vow
+      - count: 2
+        name: Innistrad Crimson Vow Theme Booster Blue
+        set: vow
+      - count: 2
+        name: Innistrad Crimson Vow Theme Booster Black
+        set: vow
+      - count: 2
+        name: Innistrad Crimson Vow Theme Booster Red
+        set: vow
+      - count: 2
+        name: Innistrad Crimson Vow Theme Booster Green
+        set: vow
+      - count: 2
+        name: Innistrad Crimson Vow Theme Booster Vampires
+        set: vow
   Innistrad Crimson Vow Theme Booster Box Case:
     category: BOOSTER_CASE
+    subtype: THEME
+    release_date: '2021-11-19'
     identifiers:
       tcgplayerProductId: '246474'
-    release_date: '2021-11-19'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 6
+        name: Innistrad Crimson Vow Theme Booster Box
+        set: vow
   Innistrad Crimson Vow Theme Booster Green:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2021-11-19'
     identifiers:
       abuId: '2111068'
       cardKingdomId: '252196'
@@ -220,10 +390,15 @@ products:
       mcmId: '581622'
       tcgplayerProductId: '253825'
       tntId: '1734497'
-    release_date: '2021-11-19'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-g
+        set: vow
   Innistrad Crimson Vow Theme Booster Red:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2021-11-19'
     identifiers:
       abuId: '2111067'
       cardKingdomId: '252197'
@@ -231,16 +406,41 @@ products:
       mcmId: '581621'
       tcgplayerProductId: '253826'
       tntId: '1734495'
-    release_date: '2021-11-19'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-r
+        set: vow
   Innistrad Crimson Vow Theme Booster Set of 6:
     category: SUBSET
+    subtype: THEME
+    release_date: '2021-11-19'
     identifiers:
       tcgplayerProductId: '253822'
-    release_date: '2021-11-19'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Innistrad Crimson Vow Theme Booster White
+        set: vow
+      - count: 1
+        name: Innistrad Crimson Vow Theme Booster Blue
+        set: vow
+      - count: 1
+        name: Innistrad Crimson Vow Theme Booster Black
+        set: vow
+      - count: 1
+        name: Innistrad Crimson Vow Theme Booster Red
+        set: vow
+      - count: 1
+        name: Innistrad Crimson Vow Theme Booster Green
+        set: vow
+      - count: 1
+        name: Innistrad Crimson Vow Theme Booster Vampires
+        set: vow
   Innistrad Crimson Vow Theme Booster Vampires:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2021-11-19'
     identifiers:
       abuId: '2111069'
       cardKingdomId: '252199'
@@ -248,10 +448,15 @@ products:
       mcmId: '581624'
       tcgplayerProductId: '253828'
       tntId: '1734492'
-    release_date: '2021-11-19'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-vampires
+        set: vow
   Innistrad Crimson Vow Theme Booster White:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2021-11-19'
     identifiers:
       abuId: '2111064'
       cardKingdomId: '252198'
@@ -259,12 +464,20 @@ products:
       mcmId: '581619'
       tcgplayerProductId: '253827'
       tntId: '1734494'
-    release_date: '2021-11-19'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-w
+        set: vow
   Innistrad Crimson Vow Welcome Booster:
     category: BOOSTER_PACK
+    subtype: WELCOME
+    release_date: '2021-11-19'
     identifiers:
       cardtraderId: '198289'
       mcmId: '583879'
-    release_date: '2021-11-19'
-    subtype: WELCOME
+    contents:
+      card_count: 10
+      deck:
+      - name: 'Innistrad: Crimson Vow Welcome Booster'
+        set: vow

@@ -2,6 +2,8 @@ code: bng
 products:
   Battle the Horde Challenge Deck:
     category: DECK
+    subtype: CHALLENGE
+    release_date: '2007-01-01'
     identifiers:
       abuId: '1100173'
       cardtraderId: '48076'
@@ -9,10 +11,15 @@ products:
       mcmId: '266421'
       tcgplayerProductId: '78288'
       tntId: '1052307'
-    release_date: '2007-01-01'
-    subtype: CHALLENGE
+    contents:
+      card_count: 60
+      deck:
+      - name: Battle the Horde
+        set: tbth
   Born of the Gods Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2014-02-07'
     identifiers:
       abuId: '1100180'
       cardKingdomId: '193118'
@@ -23,15 +30,25 @@ products:
       scgId: SLD-MTG-BBX-BNG-EN
       tcgplayerProductId: '77321'
       tntId: '1026684'
-    release_date: '2014-02-07'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Born of the Gods Booster Pack
+        set: bng
   Born of the Gods Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '77323'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Born of the Gods Booster Box
+        set: bng
   Born of the Gods Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2014-02-07'
     identifiers:
       abuId: '1476857'
       cardKingdomId: '193119'
@@ -42,17 +59,26 @@ products:
       scgId: SLD-MTG-PCK-BNG-EN
       tcgplayerProductId: '77982'
       tntId: '1026685'
-    release_date: '2014-02-07'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: bng
   Born of the Gods Event Deck Display:
     category: DECK_BOX
+    subtype: EVENT
+    release_date: '2014-02-07'
     identifiers:
       tcgplayerProductId: '78752'
       tntId: '1048617'
-    release_date: '2014-02-07'
-    subtype: EVENT
+    contents:
+      sealed:
+      - count: 6
+        name: Born of the Gods Event Deck Underworld Herald
+        set: bng
   Born of the Gods Event Deck Underworld Herald:
     category: DECK
+    subtype: EVENT
     identifiers:
       abuId: '1100191'
       cardKingdomId: '193733'
@@ -62,9 +88,15 @@ products:
       scgId: SLD-MTG-INT-BNGEVENT-EN-UNDERWORLD
       tcgplayerProductId: '77983'
       tntId: '1048624'
-    subtype: EVENT
+    contents:
+      card_count: 75
+      deck:
+      - name: Underworld Herald
+        set: bng
   Born of the Gods Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
+    release_date: '2014-02-07'
     identifiers:
       abuId: '1100193'
       cardKingdomId: '193121'
@@ -75,10 +107,23 @@ products:
       scgId: SLD-MTG-BUN-BNG-EN
       tcgplayerProductId: '77981'
       tntId: '1048619'
-    release_date: '2014-02-07'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Theros Fat Pack Land Pack
+        set: ths
+      other:
+      - name: Player's guide with encyclopedia
+      - name: Born of the Gods card box
+      - name: Special edition spindown life counter
+      - name: Two deck boxes
+      sealed:
+      - count: 9
+        name: Born of the Gods Booster Pack
+        set: bng
   Born of the Gods Intro Pack Deaths Beginning:
     category: DECK
+    subtype: INTRO
+    release_date: '2007-01-01'
     identifiers:
       abuId: '1100194'
       cardKingdomId: '193248'
@@ -88,19 +133,45 @@ products:
       scgId: SLD-MTG-INT-BNGINTRO-EN-DEATHS
       tcgplayerProductId: '78748'
       tntId: '1050542'
-    release_date: '2007-01-01'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Death's Beginning
+        set: bng
+      sealed:
+      - count: 2
+        name: Born of the Gods Booster Pack
+        set: bng
   Born of the Gods Intro Pack Display:
     category: DECK_BOX
+    subtype: INTRO
+    release_date: '2014-02-07'
     identifiers:
       cardtraderId: '48090'
       mcmId: '265527'
       tcgplayerProductId: '77985'
       tntId: '1048615'
-    release_date: '2014-02-07'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 2
+        name: Born of the Gods Intro Pack Deaths Beginning
+        set: bng
+      - count: 2
+        name: Born of the Gods Intro Pack Forged in Battle
+        set: bng
+      - count: 2
+        name: Born of the Gods Intro Pack Gifts of the Gods
+        set: bng
+      - count: 2
+        name: Born of the Gods Intro Pack Insatiable Hunger
+        set: bng
+      - count: 2
+        name: Born of the Gods Intro Pack Inspiration Struck
+        set: bng
   Born of the Gods Intro Pack Forged in Battle:
     category: DECK
+    subtype: INTRO
+    release_date: '2007-01-01'
     identifiers:
       abuId: '1100195'
       cardKingdomId: '193251'
@@ -109,10 +180,19 @@ products:
       scgId: SLD-MTG-INT-BNGINTRO-EN-FORGED
       tcgplayerProductId: '78749'
       tntId: '1050543'
-    release_date: '2007-01-01'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Forged in Battle
+        set: bng
+      sealed:
+      - count: 2
+        name: Born of the Gods Booster Pack
+        set: bng
   Born of the Gods Intro Pack Gifts of the Gods:
     category: DECK
+    subtype: INTRO
+    release_date: '2007-01-01'
     identifiers:
       abuId: '1100197'
       cardKingdomId: '193252'
@@ -121,10 +201,19 @@ products:
       scgId: SLD-MTG-INT-BNGINTRO-EN-GIFTS
       tcgplayerProductId: '78746'
       tntId: '1050540'
-    release_date: '2007-01-01'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Gifts of the Gods
+        set: bng
+      sealed:
+      - count: 2
+        name: Born of the Gods Booster Pack
+        set: bng
   Born of the Gods Intro Pack Insatiable Hunger:
     category: DECK
+    subtype: INTRO
+    release_date: '2007-01-01'
     identifiers:
       abuId: '1100200'
       cardKingdomId: '193250'
@@ -133,10 +222,19 @@ products:
       scgId: SLD-MTG-INT-BNGINTRO-EN-INSATIABLE
       tcgplayerProductId: '78750'
       tntId: '1050544'
-    release_date: '2007-01-01'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Insatiable Hunger
+        set: bng
+      sealed:
+      - count: 2
+        name: Born of the Gods Booster Pack
+        set: bng
   Born of the Gods Intro Pack Inspiration Struck:
     category: DECK
+    subtype: INTRO
+    release_date: '2007-01-01'
     identifiers:
       abuId: '1100203'
       cardKingdomId: '193249'
@@ -145,29 +243,65 @@ products:
       scgId: SLD-MTG-INT-BNGINTRO-EN-INSPIRATION
       tcgplayerProductId: '78747'
       tntId: '1050541'
-    release_date: '2007-01-01'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Inspiration-Struck
+        set: bng
+      sealed:
+      - count: 2
+        name: Born of the Gods Booster Pack
+        set: bng
   Born of the Gods Intro Pack Set of 5:
     category: SUBSET
+    subtype: INTRO
+    release_date: '2007-01-01'
     identifiers:
       abuId: '1100207'
       cardtraderId: '48091'
       mcmId: '265526'
       tcgplayerProductId: '77984'
-    release_date: '2007-01-01'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 1
+        name: Born of the Gods Intro Pack Deaths Beginning
+        set: bng
+      - count: 1
+        name: Born of the Gods Intro Pack Forged in Battle
+        set: bng
+      - count: 1
+        name: Born of the Gods Intro Pack Gifts of the Gods
+        set: bng
+      - count: 1
+        name: Born of the Gods Intro Pack Insatiable Hunger
+        set: bng
+      - count: 1
+        name: Born of the Gods Intro Pack Inspiration Struck
+        set: bng
   Born of the Gods MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210882'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 165
+      deck:
+      - name: Born of the Gods Redemption
+        set: bng
   Born of the Gods MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210853'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 165
+      deck:
+      - name: Born of the Gods Foil Redemption
+        set: bng
   Born of the Gods Prerelease Kit Destined To Conquer:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2007-01-01'
     identifiers:
       abuId: '1100208'
       cardKingdomId: '193711'
@@ -176,10 +310,29 @@ products:
       mcmId: '266426'
       tcgplayerProductId: '78293'
       tntId: '1182089'
-    release_date: '2007-01-01'
-    subtype: PRERELEASE
+    contents:
+      card:
+      - foil: false
+        name: The Warmonger
+        number: 4d
+        set: thp2
+      card_count: 15
+      other:
+      - name: Born of the Gods Spindown
+      pack:
+      - code: prerelease-conquer
+        set: bng
+      sealed:
+      - count: 2
+        name: Born of the Gods Booster Pack
+        set: bng
+      - count: 3
+        name: Theros Booster Pack
+        set: ths
   Born of the Gods Prerelease Kit Destined To Dominate:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2007-01-01'
     identifiers:
       abuId: '1100209'
       cardKingdomId: '193709'
@@ -188,10 +341,29 @@ products:
       mcmId: '266423'
       tcgplayerProductId: '78292'
       tntId: '1182090'
-    release_date: '2007-01-01'
-    subtype: PRERELEASE
+    contents:
+      card:
+      - foil: false
+        name: The Tyrant
+        number: 4c
+        set: thp2
+      card_count: 15
+      other:
+      - name: Born of the Gods Spindown
+      pack:
+      - code: prerelease-dominate
+        set: bng
+      sealed:
+      - count: 2
+        name: Born of the Gods Booster Pack
+        set: bng
+      - count: 3
+        name: Theros Booster Pack
+        set: ths
   Born of the Gods Prerelease Kit Destined To Lead:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2007-01-01'
     identifiers:
       abuId: '1100196'
       cardKingdomId: '193710'
@@ -200,10 +372,29 @@ products:
       mcmId: '266422'
       tcgplayerProductId: '78290'
       tntId: '1182091'
-    release_date: '2007-01-01'
-    subtype: PRERELEASE
+    contents:
+      card:
+      - foil: false
+        name: The General
+        number: 4a
+        set: thp2
+      card_count: 15
+      other:
+      - name: Born of the Gods Spindown
+      pack:
+      - code: prerelease-lead
+        set: bng
+      sealed:
+      - count: 2
+        name: Born of the Gods Booster Pack
+        set: bng
+      - count: 3
+        name: Theros Booster Pack
+        set: ths
   Born of the Gods Prerelease Kit Destined To Outwit:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2007-01-01'
     identifiers:
       abuId: '1100198'
       cardKingdomId: '193708'
@@ -212,10 +403,29 @@ products:
       mcmId: '266425'
       tcgplayerProductId: '78291'
       tntId: '1182092'
-    release_date: '2007-01-01'
-    subtype: PRERELEASE
+    contents:
+      card:
+      - foil: false
+        name: The Savant
+        number: 4b
+        set: thp2
+      card_count: 15
+      other:
+      - name: Born of the Gods Spindown
+      pack:
+      - code: prerelease-outwit
+        set: bng
+      sealed:
+      - count: 2
+        name: Born of the Gods Booster Pack
+        set: bng
+      - count: 3
+        name: Theros Booster Pack
+        set: ths
   Born of the Gods Prerelease Kit Destined To Thrive:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2007-01-01'
     identifiers:
       abuId: '1100204'
       cardKingdomId: '193712'
@@ -224,13 +434,47 @@ products:
       mcmId: '266424'
       tcgplayerProductId: '78294'
       tntId: '1182093'
-    release_date: '2007-01-01'
-    subtype: PRERELEASE
+    contents:
+      card:
+      - foil: false
+        name: The Provider
+        number: 4e
+        set: thp2
+      card_count: 15
+      other:
+      - name: Born of the Gods Spindown
+      pack:
+      - code: prerelease-thrive
+        set: bng
+      sealed:
+      - count: 2
+        name: Born of the Gods Booster Pack
+        set: bng
+      - count: 3
+        name: Theros Booster Pack
+        set: ths
   Born of the Gods Prerelease Kit Set of 5:
     category: SUBSET
+    subtype: PRERELEASE
+    release_date: '2015-03-02'
     identifiers:
       cardtraderId: '48089'
       mcmId: '273050'
       tcgplayerProductId: '79267'
-    release_date: '2015-03-02'
-    subtype: PRERELEASE
+    contents:
+      sealed:
+      - count: 1
+        name: Born of the Gods Prerelease Kit Destined To Conquer
+        set: bng
+      - count: 1
+        name: Born of the Gods Prerelease Kit Destined To Dominate
+        set: bng
+      - count: 1
+        name: Born of the Gods Prerelease Kit Destined To Lead
+        set: bng
+      - count: 1
+        name: Born of the Gods Prerelease Kit Destined To Outwit
+        set: bng
+      - count: 1
+        name: Born of the Gods Prerelease Kit Destined To Thrive
+        set: bng

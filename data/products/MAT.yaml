@@ -2,6 +2,8 @@ code: mat
 products:
   March of the Machine The Aftermath Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2023-05-12'
     identifiers:
       abuId: '2332478'
       cardKingdomId: '277052'
@@ -12,16 +14,36 @@ products:
       scgId: SLD-MTG-BUN-MAT-EN
       tcgplayerProductId: '489214'
       tntId: '1779975'
-    release_date: '2023-05-12'
-    subtype: DEFAULT
+    contents:
+      card:
+      - foil: true
+        name: Spark Rupture
+        number: 229
+        set: mat
+      deck:
+      - name: March of the Machine Bundle Land Pack
+        set: mom
+      other:
+      - name: March of the Machine The Aftermath Spindown
+      sealed:
+      - count: 8
+        name: March of the Machine The Aftermath Epilogue Booster Pack
+        set: mat
   March of the Machine The Aftermath Bundle Case:
     category: BUNDLE_CASE
+    subtype: DEFAULT
+    release_date: '2023-05-12'
     identifiers:
       tcgplayerProductId: '489219'
-    release_date: '2023-05-12'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 6
+        name: March of the Machine The Aftermath Bundle
+        set: mat
   March of the Machine The Aftermath Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2023-05-12'
     identifiers:
       abuId: '2332477'
       cardKingdomId: '277053'
@@ -32,16 +54,26 @@ products:
       scgId: SLD-MTG-BBX-MATCOLLECTOR-EN
       tcgplayerProductId: '489207'
       tntId: '1779976'
-    release_date: '2023-05-12'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: March of the Machine The Aftermath Collector Booster Pack
+        set: mat
   March of the Machine The Aftermath Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
+    release_date: '2023-05-12'
     identifiers:
       tcgplayerProductId: '489221'
-    release_date: '2023-05-12'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: March of the Machine The Aftermath Collector Booster Box
+        set: mat
   March of the Machine The Aftermath Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2023-05-12'
     identifiers:
       abuId: '2332486'
       cardKingdomId: '277054'
@@ -52,10 +84,15 @@ products:
       scgId: SLD-MTG-PCK-MATCOLLECTOR-EN
       tcgplayerProductId: '489204'
       tntId: '1779977'
-    release_date: '2023-05-12'
-    subtype: COLLECTOR
+    contents:
+      card_count: 6
+      pack:
+      - code: collector
+        set: mat
   March of the Machine The Aftermath Epilogue Booster Box:
     category: BOOSTER_BOX
+    subtype: OTHER
+    release_date: '2023-05-12'
     identifiers:
       abuId: '2332476'
       cardKingdomId: '277051'
@@ -65,16 +102,26 @@ products:
       scgId: SLD-MTG-BBX-MATEPILOGUE-EN
       tcgplayerProductId: '489276'
       tntId: '1779978'
-    release_date: '2023-05-12'
-    subtype: OTHER
+    contents:
+      sealed:
+      - count: 24
+        name: March of the Machine The Aftermath Epilogue Booster Pack
+        set: mat
   March of the Machine The Aftermath Epilogue Booster Box Case:
     category: BOOSTER_CASE
+    subtype: OTHER
+    release_date: '2023-05-12'
     identifiers:
       tcgplayerProductId: '490554'
-    release_date: '2023-05-12'
-    subtype: OTHER
+    contents:
+      sealed:
+      - count: 12
+        name: March of the Machine The Aftermath Epilogue Booster Box
+        set: mat
   March of the Machine The Aftermath Epilogue Booster Pack:
     category: BOOSTER_PACK
+    subtype: OTHER
+    release_date: '2023-05-12'
     identifiers:
       abuId: '2332509'
       cardKingdomId: '277050'
@@ -84,5 +131,8 @@ products:
       scgId: SLD-MTG-PCK-MATEPILOGUE-EN
       tcgplayerProductId: '489274'
       tntId: '1779979'
-    release_date: '2023-05-12'
-    subtype: OTHER
+    contents:
+      card_count: 5
+      pack:
+      - code: default
+        set: mat

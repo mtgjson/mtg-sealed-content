@@ -2,6 +2,8 @@ code: frc
 products:
   Reality Fracture Commander Deck Multiverse Reforged:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2026-10-02'
     identifiers:
       cardKingdomId: '331644'
       cardtraderId: '389403'
@@ -9,11 +11,14 @@ products:
       miniaturemarketId: 019df9afdcf2712c9d6f86125db62fa3
       scgId: SLD-MTG-CMD-FRC-EN
       tcgplayerProductId: '692989'
-    release_date: '2026-10-02'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Multiverse Reforged
+        set: frc
   Reality Fracture Commander Deck Multiverse Reforged Case:
     category: MULTI_DECK
+    subtype: COMMANDER
+    release_date: '2026-10-02'
     identifiers:
       tcgplayerProductId: '692990'
-    release_date: '2026-10-02'
-    subtype: COMMANDER

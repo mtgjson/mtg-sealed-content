@@ -2,14 +2,21 @@ code: iko
 products:
   Ikoria Lair of Behemoths Box Topper Pack:
     category: BOOSTER_PACK
+    subtype: TOPPER
+    release_date: '2020-05-15'
     identifiers:
       cardtraderId: '348432'
       mcmId: '679620'
       tcgplayerProductId: '214395'
-    release_date: '2020-05-15'
-    subtype: TOPPER
+    contents:
+      card_count: 1
+      pack:
+      - code: box-topper
+        set: iko
   Ikoria Lair of Behemoths Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2020-05-15'
     identifiers:
       abuId: '1829790'
       cardKingdomId: '232126'
@@ -20,10 +27,27 @@ products:
       scgId: SLD-MTG-BUN-IKO-EN
       tcgplayerProductId: '208278'
       tntId: '1605702'
-    release_date: '2020-05-15'
-    subtype: DEFAULT
+    contents:
+      card:
+      - foil: true
+        name: Colossification
+        number: 364
+        set: iko
+      deck:
+      - name: 'Ikoria: Lair of Behemoths Bundle Land Pack'
+        set: iko
+      other:
+      - name: 2 reference cards
+      - name: Ikoria oversized spindown
+      - name: Reusable card storage box
+      sealed:
+      - count: 10
+        name: Ikoria Lair of Behemoths Draft Booster Pack
+        set: iko
   Ikoria Lair of Behemoths Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2020-05-15'
     identifiers:
       abuId: '1829791'
       cardKingdomId: '232125'
@@ -34,30 +58,53 @@ products:
       scgId: SLD-MTG-BBX-IKOCOLLECTOR-EN
       tcgplayerProductId: '208279'
       tntId: '1654857'
-    release_date: '2020-05-15'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Ikoria Lair of Behemoths Collector Booster Pack
+        set: iko
+      - count: 1
+        name: Ikoria Lair of Behemoths Box Topper Pack
+        set: iko
   Ikoria Lair of Behemoths Collector Booster Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
+    release_date: '2020-05-15'
     identifiers:
       tcgplayerProductId: '268993'
       tntId: '1740046'
-    release_date: '2020-05-15'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Ikoria Lair of Behemoths Collector Booster Box
+        set: iko
   Ikoria Lair of Behemoths Collector Booster Hanger Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2020-05-15'
     identifiers:
       tcgplayerProductId: '249638'
       tntId: '1711677'
-    release_date: '2020-05-15'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 1
+        name: Ikoria Lair of Behemoths Collector Booster Pack
+        set: iko
   Ikoria Lair of Behemoths Collector Booster Hanger Pack Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
+    release_date: '2020-05-15'
     identifiers:
       tcgplayerProductId: '249639'
-    release_date: '2020-05-15'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 120
+        name: Ikoria Lair of Behemoths Collector Booster Hanger Pack
+        set: iko
   Ikoria Lair of Behemoths Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2020-05-15'
     identifiers:
       abuId: '2183765'
       cardKingdomId: '232124'
@@ -68,10 +115,15 @@ products:
       scgId: SLD-MTG-PCK-IKOCOLLECTOR-EN
       tcgplayerProductId: '208280'
       tntId: '1654858'
-    release_date: '2020-05-15'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: iko
   Ikoria Lair of Behemoths Draft Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2020-05-15'
     identifiers:
       abuId: '1828972'
       cardKingdomId: '232120'
@@ -82,17 +134,30 @@ products:
       scgId: SLD-MTG-BBX-IKODRAFT-EN
       tcgplayerProductId: '208273'
       tntId: '1605733'
-    release_date: '2020-05-15'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Ikoria Lair of Behemoths Draft Booster Pack
+        set: iko
+      - count: 1
+        name: Ikoria Lair of Behemoths Box Topper Pack
+        set: iko
   Ikoria Lair of Behemoths Draft Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2020-05-15'
     identifiers:
       tcgplayerProductId: '208275'
       tntId: '1605698'
-    release_date: '2020-05-15'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Ikoria Lair of Behemoths Draft Booster Box
+        set: iko
   Ikoria Lair of Behemoths Draft Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2020-05-15'
     identifiers:
       abuId: '2183767'
       cardKingdomId: '232123'
@@ -103,20 +168,35 @@ products:
       scgId: SLD-MTG-PCK-IKODRAFT-EN
       tcgplayerProductId: '208277'
       tntId: '1605706'
-    release_date: '2020-05-15'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: iko
   Ikoria Lair of Behemoths MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '233884'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 274
+      deck:
+      - name: 'Ikoria: Lair of Behemoths Redemption'
+        set: iko
   Ikoria Lair of Behemoths MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '233883'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 274
+      deck:
+      - name: 'Ikoria: Lair of Behemoths Foil Redemption'
+        set: iko
   Ikoria Lair of Behemoths Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2020-05-15'
     identifiers:
       abuId: '1845308'
       cardKingdomId: '232127'
@@ -124,10 +204,23 @@ products:
       hareruyaId: '85896'
       mcmId: '459879'
       tcgplayerProductId: '212284'
-    release_date: '2020-05-15'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: Set of double-sided keyword counters
+      - name: MTG Arena code card (where available)
+      - name: Ikoria Spindown
+      pack:
+      - code: prerelease
+        set: iko
+      sealed:
+      - count: 6
+        name: Ikoria Lair of Behemoths Draft Booster Pack
+        set: iko
   Ikoria Lair of Behemoths Theme Booster Black:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2020-05-15'
     identifiers:
       abuId: '1829794'
       cardtraderId: '107988'
@@ -135,10 +228,15 @@ products:
       mcmId: '426966'
       tcgplayerProductId: '208285'
       tntId: '1654862'
-    release_date: '2020-05-15'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-b
+        set: iko
   Ikoria Lair of Behemoths Theme Booster Blue:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2020-05-15'
     identifiers:
       abuId: '1829793'
       cardtraderId: '107987'
@@ -146,23 +244,53 @@ products:
       mcmId: '426961'
       tcgplayerProductId: '208287'
       tntId: '1654861'
-    release_date: '2020-05-15'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-u
+        set: iko
   Ikoria Lair of Behemoths Theme Booster Box:
     category: BOOSTER_BOX
+    subtype: THEME
+    release_date: '2020-05-15'
     identifiers:
       cardtraderId: '107994'
       mcmId: '426986'
       tcgplayerProductId: '208282'
-    release_date: '2020-05-15'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 2
+        name: Ikoria Lair of Behemoths Theme Booster White
+        set: iko
+      - count: 2
+        name: Ikoria Lair of Behemoths Theme Booster Blue
+        set: iko
+      - count: 2
+        name: Ikoria Lair of Behemoths Theme Booster Black
+        set: iko
+      - count: 2
+        name: Ikoria Lair of Behemoths Theme Booster Red
+        set: iko
+      - count: 2
+        name: Ikoria Lair of Behemoths Theme Booster Green
+        set: iko
+      - count: 2
+        name: Ikoria Lair of Behemoths Theme Booster Monsters
+        set: iko
   Ikoria Lair of Behemoths Theme Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
-    release_date: '2020-05-15'
     subtype: THEME
+    release_date: '2020-05-15'
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Ikoria Lair of Behemoths Theme Booster Box
+        set: iko
   Ikoria Lair of Behemoths Theme Booster Green:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2020-05-15'
     identifiers:
       abuId: '1829796'
       cardtraderId: '107990'
@@ -170,20 +298,30 @@ products:
       mcmId: '426976'
       tcgplayerProductId: '208288'
       tntId: '1654864'
-    release_date: '2020-05-15'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-g
+        set: iko
   Ikoria Lair of Behemoths Theme Booster Monsters:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2020-05-15'
     identifiers:
       abuId: '1829797'
       cardtraderId: '108576'
       mcmId: '452073'
       tcgplayerProductId: '212110'
       tntId: '1664532'
-    release_date: '2020-05-15'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-monsters
+        set: iko
   Ikoria Lair of Behemoths Theme Booster Red:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2020-05-15'
     identifiers:
       abuId: '1829795'
       cardtraderId: '107989'
@@ -191,16 +329,41 @@ products:
       mcmId: '426971'
       tcgplayerProductId: '208289'
       tntId: '1654863'
-    release_date: '2020-05-15'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-r
+        set: iko
   Ikoria Lair of Behemoths Theme Booster Set of 6:
     category: SUBSET
+    subtype: THEME
+    release_date: '2020-05-15'
     identifiers:
       tcgplayerProductId: '208283'
-    release_date: '2020-05-15'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Ikoria Lair of Behemoths Theme Booster White
+        set: iko
+      - count: 1
+        name: Ikoria Lair of Behemoths Theme Booster Blue
+        set: iko
+      - count: 1
+        name: Ikoria Lair of Behemoths Theme Booster Black
+        set: iko
+      - count: 1
+        name: Ikoria Lair of Behemoths Theme Booster Red
+        set: iko
+      - count: 1
+        name: Ikoria Lair of Behemoths Theme Booster Green
+        set: iko
+      - count: 1
+        name: Ikoria Lair of Behemoths Theme Booster Monsters
+        set: iko
   Ikoria Lair of Behemoths Theme Booster White:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2020-05-15'
     identifiers:
       abuId: '1829792'
       cardtraderId: '107986'
@@ -208,5 +371,8 @@ products:
       mcmId: '426956'
       tcgplayerProductId: '208290'
       tntId: '1654860'
-    release_date: '2020-05-15'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-w
+        set: iko

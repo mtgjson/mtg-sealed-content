@@ -2,6 +2,7 @@ code: cmd
 products:
   Commander 2011 Commander Deck Counterpunch:
     category: DECK
+    subtype: COMMANDER
     identifiers:
       abuId: '1100345'
       cardKingdomId: '184649'
@@ -11,9 +12,14 @@ products:
       scgId: SLD-MTG-MLT-CMD-EN-COUNTERPUNCH
       tcgplayerProductId: '42095'
       tntId: '319876'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Counterpunch
+        set: cmd
   Commander 2011 Commander Deck Devour for Power:
     category: DECK
+    subtype: COMMANDER
     identifiers:
       abuId: '1100346'
       cardKingdomId: '184651'
@@ -23,9 +29,14 @@ products:
       scgId: SLD-MTG-MLT-CMD-EN-DEVOUR
       tcgplayerProductId: '42097'
       tntId: '319877'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Devour for Power
+        set: cmd
   Commander 2011 Commander Deck Heavenly Inferno:
     category: DECK
+    subtype: COMMANDER
     identifiers:
       abuId: '1100347'
       cardKingdomId: '184647'
@@ -35,9 +46,14 @@ products:
       scgId: SLD-MTG-MLT-CMD-EN-HEAVENLY
       tcgplayerProductId: '42093'
       tntId: '319878'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Heavenly Inferno
+        set: cmd
   Commander 2011 Commander Deck Mirror Mastery:
     category: DECK
+    subtype: COMMANDER
     identifiers:
       abuId: '1100348'
       cardKingdomId: '184648'
@@ -47,9 +63,14 @@ products:
       scgId: SLD-MTG-MLT-CMD-EN-MIRROR
       tcgplayerProductId: '42094'
       tntId: '319879'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Mirror Mastery
+        set: cmd
   Commander 2011 Commander Deck Political Puppets:
     category: DECK
+    subtype: COMMANDER
     identifiers:
       abuId: '1100350'
       cardKingdomId: '184650'
@@ -59,9 +80,14 @@ products:
       scgId: SLD-MTG-MLT-CMD-EN-POLITICAL
       tcgplayerProductId: '42096'
       tntId: '319880'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Political Puppets
+        set: cmd
   Commander 2011 Commander Decks Set of 5:
     category: SUBSET
+    subtype: COMMANDER
     identifiers:
       cardtraderId: '44781'
       hareruyaId: '28042'
@@ -69,4 +95,20 @@ products:
       scgId: SLD-MTG-MLT-CMD-EN-SET5
       tcgplayerProductId: '42098'
       tntId: '325768'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Commander 2011 Commander Deck Counterpunch
+        set: cmd
+      - count: 1
+        name: Commander 2011 Commander Deck Devour for Power
+        set: cmd
+      - count: 1
+        name: Commander 2011 Commander Deck Heavenly Inferno
+        set: cmd
+      - count: 1
+        name: Commander 2011 Commander Deck Mirror Mastery
+        set: cmd
+      - count: 1
+        name: Commander 2011 Commander Deck Political Puppets
+        set: cmd

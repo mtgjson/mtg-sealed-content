@@ -31,16 +31,15 @@ This is a massive undertaking of course, so any help and contribution to improve
 
 
 ```
-data/products/  # YAML files defining sealed product
-data/contents/  # YAML files describing sealed product contents
+data/products/  # YAML files defining sealed products and their contents
 scripts/        # Python scripts for compiling YAML → JSON
 outputs/        # Generated JSON output (do not edit directly)
 .github/        # GitHub Actions workflows
 ```
 
-The main difference between `products` and `contents` is that the first defines the product itself, with a list of identifiers, category (deck, booster, box, etc) and subtype (collector booster, draft booster, prerelease and so on), while the second contains the description of the contents themselves, i.e. what users will find should they open the product (i.e. they will find 6 Booster Boxes in a Case).
+Each set has one file, named after its set code. Every product in it is defined by a list of identifiers, a category (deck, booster, box, etc) and a subtype (collector booster, draft booster, prerelease and so on), and its `contents:` key describes what users will find should they open the product (i.e. they will find 6 Booster Boxes in a Case).
 
-Every entry in `data/contents/SETCODE.yaml` must name a product in `data/products/SETCODE.yaml`, and the validator fails otherwise. A product without a contents entry is allowed, and the scripts add an empty placeholder for it. Scripts read and write these files through `scripts/sealed_yaml.py`, which also understands the planned single-file layout, where each product's contents are nested under a `contents:` key in `data/products/SETCODE.yaml`. `scripts/convert_layout.py` converts between the two layouts.
+A product whose contents are unknown has no `contents:` key. Scripts read and write these files through `scripts/sealed_yaml.py`. Contents used to live in separate `data/contents/SETCODE.yaml` files: `scripts/convert_layout.py` converts between the two layouts, and its `fold` command merges a `data/contents/SETCODE.yaml` left over from an older branch.
 
 ## Automated publishing
 
@@ -75,27 +74,23 @@ branch remains available for recovery.
 
 ### Adding Sealed Product Data
 
-If you want to add a new sealed product or complete a product description you will need to modify both the product description and product definition files. You can insert the new entries anywhere in the file, as they will be kept sorted by the daily scripts.
+If you want to add a new sealed product or complete a product description, edit the set's file in `data/products/`. You can insert new entries anywhere in the file, as they will be kept sorted by the daily scripts.
 
-For example, assuming you want to add a completely new product, you need to add a product entry to `data/products/SETCODE.yaml`, and a product description to `data/contents/SETCODE.yaml`. Products are defined with a basic `category`, `identifiers`, and `subtype` structure, while they are described using the content types documented below: `card`, `pack`, `deck`, `sealed`, `variable`, and `other`.
+For example, to add a completely new product, add an entry to `data/products/SETCODE.yaml`. Products are defined with a basic `category`, `identifiers`, and `subtype` structure, and their `contents:` use the content types documented below: `card`, `pack`, `deck`, `sealed`, `variable`, `other`, and `copy`.
 
 
 - `data/products/SETCODE.yaml`
 ```yaml
   My Set Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '1234'
-    subtype: DRAFT
-```
-
-- `data/contents/SETCODE.yaml`
-```yaml
-  My Set Booster Box:
-    sealed:
-    - count: 30
-      name: My Set Set Booster Pack
-      set: mysetcode
+    contents:
+      sealed:
+      - count: 30
+        name: My Set Set Booster Pack
+        set: mysetcode
 ```
 
 ### Mapping product identifiers
@@ -230,7 +225,7 @@ Using UNKNOWN/DEFAULT works too, but it's better to be as accurate as possible w
 
 ## Product contents
 
-Product sealed contents use the following types: `card`, `pack`, `deck`, `sealed`, `variable`, and `other`.
+A product's contents go under its `contents:` key and use the following types: `card`, `pack`, `deck`, `sealed`, `variable`, `other`, and `copy`.
 
 ### `card`
 
@@ -256,11 +251,12 @@ Example card YAML input:
 
 ```yaml
   Phyrexia All Will Be One Compleat Bundle:
-    card:
-    - set: one
-      name: Phyrexian Arena
-      number: 283
-      foil: true
+    contents:
+      card:
+      - set: one
+        name: Phyrexian Arena
+        number: 283
+        foil: true
   ...
 ```
 
@@ -296,9 +292,10 @@ Example pack YAML input:
 
 ```yaml
   Unlimited Edition Booster Pack:
-    pack:
-    - set: 2ed
-      code: default
+    contents:
+      pack:
+      - set: 2ed
+        code: default
 ```
 
 JSON result:
@@ -329,9 +326,10 @@ Example deck YAML input:
 
 ```yaml
   7th Edition Theme Deck Armada:
-    deck:
-    - set: 7ed
-      name: Armada
+    contents:
+      deck:
+      - set: 7ed
+        name: Armada
 ```
 
 JSON result:
@@ -364,10 +362,11 @@ Example sealed YAML input:
 
 ```yaml
   Unlimited Edition Booster Box:
-    sealed:
-    - count: 36
-      name: Unlimited Edition Booster Pack
-      set: 2ed
+    contents:
+      sealed:
+      - count: 36
+        name: Unlimited Edition Booster Pack
+        set: 2ed
 ```
 
 JSON result:
@@ -412,30 +411,31 @@ Example variable YAML input:
 
 ```yaml
   Amonkhet Booster Battle Pack:
-    card_count: 60
-    sealed:
-    - count: 2
-      name: Amonkhet Booster Pack
-      set: akh
-    variable:
-    - deck:
-      - name: Amonkhet Welcome Deck - White
-        set: w17
-    - deck:
-      - name: Amonkhet Welcome Deck - Blue
-        set: w17
-    - deck:
-      - name: Amonkhet Welcome Deck - Black
-        set: w17
-    - deck:
-      - name: Amonkhet Welcome Deck - Red
-        set: w17
-    - deck:
-      - name: Amonkhet Welcome Deck - Green
-        set: w17
-    variable_mode:
-      count: 2
-      replacement: false
+    contents:
+      card_count: 60
+      sealed:
+      - count: 2
+        name: Amonkhet Booster Pack
+        set: akh
+      variable:
+      - deck:
+        - name: Amonkhet Welcome Deck - White
+          set: w17
+      - deck:
+        - name: Amonkhet Welcome Deck - Blue
+          set: w17
+      - deck:
+        - name: Amonkhet Welcome Deck - Black
+          set: w17
+      - deck:
+        - name: Amonkhet Welcome Deck - Red
+          set: w17
+      - deck:
+        - name: Amonkhet Welcome Deck - Green
+          set: w17
+      variable_mode:
+        count: 2
+        replacement: false
 ```
 
 JSON result:
@@ -496,11 +496,12 @@ Example other YAML input:
 
 ```yaml
   Unlimited Edition Starter Deck:
-    pack:
-    - set: 2ed
-      code: starter
-    other:
-    - name: Unlimited Edition Starter Deck Rulebook
+    contents:
+      pack:
+      - set: 2ed
+        code: starter
+      other:
+      - name: Unlimited Edition Starter Deck Rulebook
 ```
 
 JSON result:
@@ -529,10 +530,11 @@ Example copy YAML input:
 
 ```yaml
   Commander 2021 Commander Deck Lorehold Legacies Minimal Packaging:
-    copy: Commander 2021 Commander Deck Lorehold Legacies
+    contents:
+      copy: Commander 2021 Commander Deck Lorehold Legacies
 ```
 
-`copy` must be the only key in the entry, and it resolves to the named product's own contents in the JSON output. The target must be in the same set file and have contents of its own, and a copy of a copy is not allowed.
+`copy` must be the only key under `contents:`, and it resolves to the named product's own contents in the JSON output. The target must be in the same set file and have contents of its own, and a copy of a copy is not allowed.
 
 ## License
 

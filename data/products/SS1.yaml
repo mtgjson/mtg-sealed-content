@@ -2,6 +2,8 @@ code: ss1
 products:
   Signature Spellbook Jace:
     category: BOX_SET
+    subtype: SPELLBOOK
+    release_date: '2018-06-15'
     identifiers:
       abuId: '1509382'
       cardKingdomId: '218874'
@@ -12,5 +14,52 @@ products:
       scgId: SLD-MTG-BXS-SS1-EN
       tcgplayerProductId: '162755'
       tntId: '1178798'
-    release_date: '2018-06-15'
-    subtype: SPELLBOOK
+    contents:
+      card_count: 9
+      deck:
+      - name: 'Signature Spellbook: Jace'
+        set: ss1
+      variable:
+      - card:
+        - foil: true
+          name: Jace Beleren
+          number: 1
+          set: ss1
+      - card:
+        - foil: true
+          name: Blue Elemental Blast
+          number: 2
+          set: ss1
+      - card:
+        - foil: true
+          name: Brainstorm
+          number: 3
+          set: ss1
+      - card:
+        - foil: true
+          name: Counterspell
+          number: 4
+          set: ss1
+      - card:
+        - foil: true
+          name: Gifts Ungiven
+          number: 5
+          set: ss1
+      - card:
+        - foil: true
+          name: Mystical Tutor
+          number: 6
+          set: ss1
+      - card:
+        - foil: true
+          name: Negate
+          number: 7
+          set: ss1
+      - card:
+        - foil: true
+          name: Threads of Disloyalty
+          number: 8
+          set: ss1
+      variable_mode:
+        count: 1
+        replacement: false

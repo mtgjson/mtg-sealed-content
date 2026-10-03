@@ -2,6 +2,7 @@ code: g17
 products:
   2017 Gift Pack:
     category: BUNDLE
+    subtype: GIFT_BUNDLE
     identifiers:
       abuId: '1476799'
       cardKingdomId: '215151'
@@ -11,4 +12,47 @@ products:
       mcmId: '299077'
       scgId: SLD-MTG-BXS-GFT2017-EN
       tcgplayerProductId: '148748'
-    subtype: GIFT_BUNDLE
+    contents:
+      card:
+      - foil: true
+        name: Plains
+        number: 1
+        set: g17
+      - foil: true
+        name: Island
+        number: 2
+        set: g17
+      - foil: true
+        name: Swamp
+        number: 3
+        set: g17
+      - foil: true
+        name: Mountain
+        number: 4
+        set: g17
+      - foil: true
+        name: Forest
+        number: 5
+        set: g17
+      - foil: true
+        name: Metalwork Colossus
+        number: 222
+        set: kld
+      - foil: true
+        name: Kari Zev, Skyship Raider
+        number: 87
+        set: aer
+      card_count: 7
+      other:
+      - name: Spindown life counter
+      - name: Exclusive mini-poster featuring art from HOU
+      sealed:
+      - count: 1
+        name: Ixalan Booster Pack
+        set: xln
+      - count: 1
+        name: Hour of Devastation Booster Pack
+        set: hou
+      - count: 1
+        name: Amonkhet Booster Pack
+        set: akh

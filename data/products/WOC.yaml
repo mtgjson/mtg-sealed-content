@@ -2,12 +2,22 @@ code: woc
 products:
   Wilds of Eldraine Commander Deck Display:
     category: DECK_BOX
+    subtype: COMMANDER
+    release_date: '2023-09-08'
     identifiers:
       tcgplayerProductId: '509473'
-    release_date: '2023-09-08'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 2
+        name: Wilds of Eldraine Commander Deck Fae Dominion
+        set: woc
+      - count: 2
+        name: Wilds of Eldraine Commander Deck Virtue and Valor
+        set: woc
   Wilds of Eldraine Commander Deck Fae Dominion:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2023-09-08'
     identifiers:
       abuId: '2394720'
       cardKingdomId: '281246'
@@ -18,10 +28,23 @@ products:
       scgId: SLD-MTG-MLT-WOC-EN-FAE
       tcgplayerProductId: '496043'
       tntId: '1786382'
-    release_date: '2023-09-08'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Fae Dominion
+        set: woc
+      other:
+      - name: 10 double faced tokens
+      - name: Life tracker
+      - name: Strategy insert
+      sealed:
+      - count: 1
+        name: Wilds of Eldraine Collector Booster Sample Pack
+        set: woe
   Wilds of Eldraine Commander Deck Virtue and Valor:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2023-09-08'
     identifiers:
       abuId: '2394718'
       cardKingdomId: '281247'
@@ -32,10 +55,23 @@ products:
       scgId: SLD-MTG-MLT-WOC-EN-VIRTUE
       tcgplayerProductId: '496044'
       tntId: '1786383'
-    release_date: '2023-09-08'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Virtue and Valor
+        set: woc
+      other:
+      - name: 10 double faced tokens
+      - name: Life tracker
+      - name: Strategy insert
+      sealed:
+      - count: 1
+        name: Wilds of Eldraine Collector Booster Sample Pack
+        set: woe
   Wilds of Eldraine Commander Decks Set of 2:
     category: SUBSET
+    subtype: COMMANDER
+    release_date: '2023-09-08'
     identifiers:
       cardKingdomId: '281248'
       cardtraderId: '246965'
@@ -44,5 +80,11 @@ products:
       mcmId: '722550'
       scgId: SLD-MTG-MLT-WOC-EN-SET2
       tcgplayerProductId: '496045'
-    release_date: '2023-09-08'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Wilds of Eldraine Commander Deck Fae Dominion
+        set: woc
+      - count: 1
+        name: Wilds of Eldraine Commander Deck Virtue and Valor
+        set: woc

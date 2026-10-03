@@ -2,6 +2,8 @@ code: v15
 products:
   From the Vault Angels:
     category: BOX_SET
+    subtype: FROM_THE_VAULT
+    release_date: '2015-08-06'
     identifiers:
       abuId: '1100534'
       cardKingdomId: '206542'
@@ -12,5 +14,8 @@ products:
       scgId: SLD-MTG-BXS-V15-EN
       tcgplayerProductId: '100667'
       tntId: '1083929'
-    release_date: '2015-08-06'
-    subtype: FROM_THE_VAULT
+    contents:
+      card_count: 15
+      deck:
+      - name: 'From the Vault: Angels'
+        set: v15

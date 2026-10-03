@@ -2,6 +2,7 @@ code: arc
 products:
   Archenemy Theme Deck Assemble the Doomsday Machine:
     category: DECK
+    subtype: ARCHENEMY
     identifiers:
       abuId: '1100115'
       cardKingdomId: '131304'
@@ -11,9 +12,14 @@ products:
       scgId: SLD-MTG-MLT-ARC-EN-ASSEMBLE
       tcgplayerProductId: '185138'
       tntId: '294686'
-    subtype: ARCHENEMY
+    contents:
+      card_count: 80
+      deck:
+      - name: Assemble The Doomsday Machine
+        set: arc
   Archenemy Theme Deck Bring About the Undead Apocalypse:
     category: DECK
+    subtype: ARCHENEMY
     identifiers:
       abuId: '1100116'
       cardKingdomId: '131302'
@@ -23,9 +29,14 @@ products:
       scgId: SLD-MTG-MLT-ARC-EN-BRINGABOUT
       tcgplayerProductId: '185139'
       tntId: '294685'
-    subtype: ARCHENEMY
+    contents:
+      card_count: 80
+      deck:
+      - name: Bring About The Undead Apocalypse
+        set: arc
   Archenemy Theme Deck Scorch the World with Dragonfire:
     category: DECK
+    subtype: ARCHENEMY
     identifiers:
       abuId: '1100117'
       cardKingdomId: '131305'
@@ -35,9 +46,14 @@ products:
       scgId: SLD-MTG-MLT-ARC-EN-SCORCH
       tcgplayerProductId: '185141'
       tntId: '294688'
-    subtype: ARCHENEMY
+    contents:
+      card_count: 80
+      deck:
+      - name: Scorch The World With Dragonfire
+        set: arc
   Archenemy Theme Deck Trample Civilization Underfoot:
     category: DECK
+    subtype: ARCHENEMY
     identifiers:
       abuId: '1100119'
       cardKingdomId: '131303'
@@ -47,13 +63,31 @@ products:
       scgId: SLD-MTG-MLT-ARC-EN-TRAMPLE
       tcgplayerProductId: '185140'
       tntId: '294687'
-    subtype: ARCHENEMY
+    contents:
+      card_count: 80
+      deck:
+      - name: Trample Civilization Underfoot
+        set: arc
   Archenemy Theme Decks Set of 4:
     category: SUBSET
+    subtype: ARCHENEMY
+    release_date: '2007-01-01'
     identifiers:
       cardtraderId: '47493'
       hareruyaId: '28066'
       mcmId: '240526'
       tntId: '294683'
-    release_date: '2007-01-01'
-    subtype: ARCHENEMY
+    contents:
+      sealed:
+      - count: 1
+        name: Archenemy Theme Deck Assemble the Doomsday Machine
+        set: arc
+      - count: 1
+        name: Archenemy Theme Deck Bring About the Undead Apocalypse
+        set: arc
+      - count: 1
+        name: Archenemy Theme Deck Scorch the World with Dragonfire
+        set: arc
+      - count: 1
+        name: Archenemy Theme Deck Trample Civilization Underfoot
+        set: arc

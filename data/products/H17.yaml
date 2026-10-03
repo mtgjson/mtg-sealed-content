@@ -2,6 +2,7 @@ code: h17
 products:
   2017 Magic The Gathering Hascon Collection:
     category: BOX_SET
+    subtype: OTHER
     identifiers:
       cardKingdomId: '223232'
       cardtraderId: '41104'
@@ -9,4 +10,8 @@ products:
       hareruyaId: '28561'
       scgId: SLD-MTG-BXS-HASCON2017-EN
       tcgplayerProductId: '145878'
-    subtype: OTHER
+    contents:
+      card_count: 4
+      deck:
+      - name: Hascon 2017 Promo Cards
+        set: h17

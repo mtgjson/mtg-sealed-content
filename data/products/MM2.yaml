@@ -2,6 +2,8 @@ code: mm2
 products:
   Modern Masters 2015 Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2015-05-22'
     identifiers:
       abuId: '1100892'
       cardKingdomId: '200903'
@@ -12,15 +14,25 @@ products:
       scgId: SLD-MTG-BBX-MM2-EN
       tcgplayerProductId: '95052'
       tntId: '1071357'
-    release_date: '2015-05-22'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 24
+        name: Modern Masters 2015 Booster Pack
+        set: mm2
   Modern Masters 2015 Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '125867'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 4
+        name: Modern Masters 2015 Booster Box
+        set: mm2
   Modern Masters 2015 Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2015-05-22'
     identifiers:
       abuId: '1476910'
       cardKingdomId: '200904'
@@ -31,5 +43,8 @@ products:
       scgId: SLD-MTG-PCK-MM2-EN
       tcgplayerProductId: '95053'
       tntId: '1071928'
-    release_date: '2015-05-22'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: mm2

@@ -2,6 +2,7 @@ code: pca
 products:
   Planechase Anthology:
     category: DECK_BOX
+    subtype: PLANECHASE
     identifiers:
       abuId: '1101001'
       cardKingdomId: '209858'
@@ -11,28 +12,70 @@ products:
       scgId: SLD-MTG-MLT-PCA-EN
       tcgplayerProductId: '125161'
       tntId: '1108137'
-    subtype: PLANECHASE
+    contents:
+      deck:
+      - name: Planechase Anthology Planes
+        set: pca
+      other:
+      - name: 4 Deck Boxes
+      - name: 35 Double-Sided Tokens
+      - name: Special Edition Planar Die
+      - name: 4 Planechase Anthology Spindowns
+      - name: Strategy Insert
+      sealed:
+      - count: 1
+        name: Planechase Anthology Planechase Deck Chaos Reigns
+        set: pca
+      - count: 1
+        name: Planechase Anthology Planechase Deck Night of the Ninja
+        set: pca
+      - count: 1
+        name: Planechase Anthology Planechase Deck Primordial Hunger
+        set: pca
+      - count: 1
+        name: Planechase Anthology Planechase Deck Savage Auras
+        set: pca
   Planechase Anthology Planechase Deck Chaos Reigns:
     category: DECK
+    subtype: PLANECHASE
     identifiers:
       cardtraderId: '48483'
       mcmId: '294029'
-    subtype: PLANECHASE
+    contents:
+      card_count: 60
+      deck:
+      - name: Chaos Reigns
+        set: pca
   Planechase Anthology Planechase Deck Night of the Ninja:
     category: DECK
+    subtype: PLANECHASE
     identifiers:
       cardtraderId: '48482'
       mcmId: '294030'
-    subtype: PLANECHASE
+    contents:
+      card_count: 60
+      deck:
+      - name: Night Of The Ninja
+        set: pca
   Planechase Anthology Planechase Deck Primordial Hunger:
     category: DECK
+    subtype: PLANECHASE
     identifiers:
       cardtraderId: '48484'
       mcmId: '294028'
-    subtype: PLANECHASE
+    contents:
+      card_count: 60
+      deck:
+      - name: Primordial Hunger
+        set: pca
   Planechase Anthology Planechase Deck Savage Auras:
     category: DECK
+    subtype: PLANECHASE
     identifiers:
       cardtraderId: '48485'
       mcmId: '294031'
-    subtype: PLANECHASE
+    contents:
+      card_count: 60
+      deck:
+      - name: Savage Auras
+        set: pca

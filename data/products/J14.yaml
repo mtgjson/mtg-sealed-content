@@ -2,7 +2,12 @@ code: j14
 products:
   Judge Promo Pack 2014 Full Art Land Set:
     category: BOX_SET
+    subtype: OTHER
     identifiers:
       tcgplayerProductId: '448319'
       tntId: '1746723'
-    subtype: OTHER
+    contents:
+      card_count: 5
+      deck:
+      - name: 2014 Full Art Land Set
+        set: j14

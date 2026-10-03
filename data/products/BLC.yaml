@@ -2,6 +2,8 @@ code: blc
 products:
   Bloomburrow Commander Deck Animated Army:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2024-08-02'
     identifiers:
       abuId: '2514708'
       cardKingdomId: '298740'
@@ -11,10 +13,24 @@ products:
       miniaturemarketId: 0190f59c6a7b71e49c5ce36c0901c4f2
       scgId: SLD-MTG-MLT-BLC-EN-ANIMATED
       tcgplayerProductId: '541246'
-    release_date: '2024-08-02'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Animated Army
+        set: blc
+      other:
+      - name: Spinning life counter
+      - name: 10 double sided tokens
+      - name: Paper deck box
+      - name: Strategy insert
+      sealed:
+      - count: 1
+        name: Bloomburrow Collector Booster Sample Pack
+        set: blb
   Bloomburrow Commander Deck Display:
     category: DECK_BOX
+    subtype: COMMANDER
+    release_date: '2024-08-02'
     identifiers:
       cardKingdomId: '298742'
       cardtraderId: '280724'
@@ -24,10 +40,24 @@ products:
       miniaturemarketId: 0190f59c6a6d72d5a81846bc6c6593ca
       scgId: SLD-MTG-MLT-BLC-EN-SET4
       tcgplayerProductId: '541250'
-    release_date: '2024-08-02'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Bloomburrow Commander Deck Animated Army
+        set: blc
+      - count: 1
+        name: Bloomburrow Commander Deck Family Matters
+        set: blc
+      - count: 1
+        name: Bloomburrow Commander Deck Peace Offering
+        set: blc
+      - count: 1
+        name: Bloomburrow Commander Deck Squirreled Away
+        set: blc
   Bloomburrow Commander Deck Family Matters:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2024-08-02'
     identifiers:
       abuId: '2514709'
       cardKingdomId: '298738'
@@ -37,10 +67,24 @@ products:
       miniaturemarketId: 0190f59c6a7671b7b3166d52ed89ccef
       scgId: SLD-MTG-MLT-BLC-EN-FAMILY
       tcgplayerProductId: '541247'
-    release_date: '2024-08-02'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Family Matters
+        set: blc
+      other:
+      - name: Spinning life counter
+      - name: 10 double sided tokens
+      - name: Paper deck box
+      - name: Strategy insert
+      sealed:
+      - count: 1
+        name: Bloomburrow Collector Booster Sample Pack
+        set: blb
   Bloomburrow Commander Deck Peace Offering:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2024-08-02'
     identifiers:
       abuId: '2514710'
       cardKingdomId: '298739'
@@ -50,10 +94,24 @@ products:
       miniaturemarketId: 0190f59c6a80720b9acfb93636025015
       scgId: SLD-MTG-MLT-BLC-EN-PEACE
       tcgplayerProductId: '541248'
-    release_date: '2024-08-02'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Peace Offering
+        set: blc
+      other:
+      - name: Spinning life counter
+      - name: 10 double sided tokens
+      - name: Paper deck box
+      - name: Strategy insert
+      sealed:
+      - count: 1
+        name: Bloomburrow Collector Booster Sample Pack
+        set: blb
   Bloomburrow Commander Deck Squirreled Away:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2024-08-02'
     identifiers:
       abuId: '2514711'
       cardKingdomId: '298741'
@@ -63,25 +121,125 @@ products:
       miniaturemarketId: 0190f59c6a727266ac614ab97e1c201c
       scgId: SLD-MTG-MLT-BLC-EN-SQUIRRELED
       tcgplayerProductId: '541249'
-    release_date: '2024-08-02'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Squirreled Away
+        set: blc
+      other:
+      - name: Spinning life counter
+      - name: 10 double sided tokens
+      - name: Paper deck box
+      - name: Strategy insert
+      sealed:
+      - count: 1
+        name: Bloomburrow Collector Booster Sample Pack
+        set: blb
   Bloomburrow Deluxe Commander Kit Animated Army:
     category: DECK
+    subtype: COMMANDER
     identifiers:
       tcgplayerProductId: '672159'
-    subtype: COMMANDER
+    contents:
+      card:
+      - foil: true
+        name: Kaalia of the Vast
+        number: 2025-19
+        set: pmei
+      sealed:
+      - count: 1
+        name: Bloomburrow Commander Deck Animated Army
+        set: blc
+      - count: 1
+        name: Bloomburrow Play Booster Pack
+        set: blb
+      - count: 1
+        name: Edge of Eternities Play Booster Pack
+        set: eoe
+      - count: 1
+        name: Foundations Play Booster Pack
+        set: fdn
+      - count: 1
+        name: Aetherdrift Play Booster Pack
+        set: dft
   Bloomburrow Deluxe Commander Kit Family Matters:
     category: DECK
+    subtype: COMMANDER
     identifiers:
       tcgplayerProductId: '672160'
-    subtype: COMMANDER
+    contents:
+      card:
+      - foil: true
+        name: Kaalia of the Vast
+        number: 2025-19
+        set: pmei
+      sealed:
+      - count: 1
+        name: Bloomburrow Commander Deck Family Matters
+        set: blc
+      - count: 1
+        name: Bloomburrow Play Booster Pack
+        set: blb
+      - count: 1
+        name: Edge of Eternities Play Booster Pack
+        set: eoe
+      - count: 1
+        name: Foundations Play Booster Pack
+        set: fdn
+      - count: 1
+        name: Aetherdrift Play Booster Pack
+        set: dft
   Bloomburrow Deluxe Commander Kit Peace Offering:
     category: DECK
+    subtype: COMMANDER
     identifiers:
       tcgplayerProductId: '672161'
-    subtype: COMMANDER
+    contents:
+      card:
+      - foil: true
+        name: Kaalia of the Vast
+        number: 2025-19
+        set: pmei
+      sealed:
+      - count: 1
+        name: Bloomburrow Commander Deck Peace Offering
+        set: blc
+      - count: 1
+        name: Bloomburrow Play Booster Pack
+        set: blb
+      - count: 1
+        name: Edge of Eternities Play Booster Pack
+        set: eoe
+      - count: 1
+        name: Foundations Play Booster Pack
+        set: fdn
+      - count: 1
+        name: Aetherdrift Play Booster Pack
+        set: dft
   Bloomburrow Deluxe Commander Kit Squirreled Away:
     category: DECK
+    subtype: COMMANDER
     identifiers:
       tcgplayerProductId: '672162'
-    subtype: COMMANDER
+    contents:
+      card:
+      - foil: true
+        name: Kaalia of the Vast
+        number: 2025-19
+        set: pmei
+      sealed:
+      - count: 1
+        name: Bloomburrow Commander Deck Squirreled Away
+        set: blc
+      - count: 1
+        name: Bloomburrow Play Booster Pack
+        set: blb
+      - count: 1
+        name: Edge of Eternities Play Booster Pack
+        set: eoe
+      - count: 1
+        name: Foundations Play Booster Pack
+        set: fdn
+      - count: 1
+        name: Aetherdrift Play Booster Pack
+        set: dft

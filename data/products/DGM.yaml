@@ -2,12 +2,19 @@ code: dgm
 products:
   Dragon's Maze Six Card Booster Pack:
     category: BOOSTER_PACK
+    subtype: SIX
     identifiers:
       cardtraderId: '47933'
       mcmId: '315715'
-    subtype: SIX
+    contents:
+      card_count: 6
+      pack:
+      - code: six
+        set: dgm
   Dragons Maze Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2013-05-03'
     identifiers:
       abuId: '1100403'
       cardKingdomId: '189559'
@@ -18,15 +25,25 @@ products:
       scgId: SLD-MTG-BBX-DGM-EN
       tcgplayerProductId: '67751'
       tntId: '929151'
-    release_date: '2013-05-03'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Dragons Maze Booster Pack
+        set: dgm
   Dragons Maze Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '67750'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Dragons Maze Booster Box
+        set: dgm
   Dragons Maze Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2013-05-03'
     identifiers:
       abuId: '1476873'
       cardKingdomId: '189560'
@@ -37,10 +54,14 @@ products:
       scgId: SLD-MTG-PCK-DGM-EN
       tcgplayerProductId: '67752'
       tntId: '929152'
-    release_date: '2013-05-03'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: dgm
   Dragons Maze Event Deck Strength of Selesnya:
     category: DECK
+    subtype: EVENT
     identifiers:
       abuId: '1100407'
       cardKingdomId: '189958'
@@ -49,9 +70,14 @@ products:
       scgId: SLD-MTG-INT-DGMEVENT-EN-STRENGTH
       tcgplayerProductId: '105047'
       tntId: '1026695'
-    subtype: EVENT
+    contents:
+      card_count: 75
+      deck:
+      - name: Strength Of Selesnya
+        set: dgm
   Dragons Maze Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1100412'
       cardKingdomId: '189561'
@@ -62,9 +88,22 @@ products:
       scgId: SLD-MTG-BUN-DGM-EN
       tcgplayerProductId: '67754'
       tntId: '929157'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Return to Ravnica Fat Pack Land Pack
+        set: rtr
+      other:
+      - name: Card Box
+      - name: Dragon's Maze Spindown Counter
+      - name: Player's Guide
+      - name: Learn to Play Insert
+      sealed:
+      - count: 9
+        name: Dragons Maze Booster Pack
+        set: dgm
   Dragons Maze Intro Pack Azorius Authority:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100413'
       cardKingdomId: '189628'
@@ -74,16 +113,42 @@ products:
       scgId: SLD-MTG-INT-DGMINTRO-EN-AZORIUS
       tcgplayerProductId: '68028'
       tntId: '1026690'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Azorius Authority
+        set: dgm
+      sealed:
+      - count: 2
+        name: Dragons Maze Booster Pack
+        set: dgm
   Dragons Maze Intro Pack Display:
     category: DECK_BOX
+    subtype: INTRO
     identifiers:
       cardtraderId: '47959'
       mcmId: '261687'
       tntId: '929153'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 2
+        name: Dragons Maze Intro Pack Azorius Authority
+        set: dgm
+      - count: 2
+        name: Dragons Maze Intro Pack Gruul Siege
+        set: dgm
+      - count: 2
+        name: Dragons Maze Intro Pack Orzhov Power
+        set: dgm
+      - count: 2
+        name: Dragons Maze Intro Pack Rakdos Revelry
+        set: dgm
+      - count: 2
+        name: Dragons Maze Intro Pack Simic Domination
+        set: dgm
   Dragons Maze Intro Pack Gruul Siege:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100415'
       cardKingdomId: '189631'
@@ -93,9 +158,18 @@ products:
       scgId: SLD-MTG-INT-DGMINTRO-EN-GRUUL
       tcgplayerProductId: '68031'
       tntId: '1026693'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Gruul Siege
+        set: dgm
+      sealed:
+      - count: 2
+        name: Dragons Maze Booster Pack
+        set: dgm
   Dragons Maze Intro Pack Orzhov Power:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100416'
       cardKingdomId: '189629'
@@ -105,9 +179,18 @@ products:
       scgId: SLD-MTG-INT-DGMINTRO-EN-ORZHOV
       tcgplayerProductId: '68029'
       tntId: '1026691'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Orzhov Power
+        set: dgm
+      sealed:
+      - count: 2
+        name: Dragons Maze Booster Pack
+        set: dgm
   Dragons Maze Intro Pack Rakdos Revelry:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100418'
       cardKingdomId: '189630'
@@ -117,17 +200,43 @@ products:
       scgId: SLD-MTG-INT-DGMINTRO-EN-RAKDOS
       tcgplayerProductId: '68030'
       tntId: '1026692'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Rakdos Revelry
+        set: dgm
+      sealed:
+      - count: 2
+        name: Dragons Maze Booster Pack
+        set: dgm
   Dragons Maze Intro Pack Set of 5:
     category: SUBSET
+    subtype: INTRO
     identifiers:
       abuId: '1100420'
       cardtraderId: '47960'
       mcmId: '261686'
       tcgplayerProductId: '67753'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 1
+        name: Dragons Maze Intro Pack Azorius Authority
+        set: dgm
+      - count: 1
+        name: Dragons Maze Intro Pack Gruul Siege
+        set: dgm
+      - count: 1
+        name: Dragons Maze Intro Pack Orzhov Power
+        set: dgm
+      - count: 1
+        name: Dragons Maze Intro Pack Rakdos Revelry
+        set: dgm
+      - count: 1
+        name: Dragons Maze Intro Pack Simic Domination
+        set: dgm
   Dragons Maze Intro Pack Simic Domination:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100409'
       cardKingdomId: '189632'
@@ -137,92 +246,392 @@ products:
       scgId: SLD-MTG-INT-DGMINTRO-EN-SIMIC
       tcgplayerProductId: '68032'
       tntId: '1026694'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Simic Domination
+        set: dgm
+      sealed:
+      - count: 2
+        name: Dragons Maze Booster Pack
+        set: dgm
   Dragons Maze MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210847'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 156
+      deck:
+      - name: Dragon's Maze Redemption
+        set: dgm
   Dragons Maze MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210852'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 156
+      deck:
+      - name: Dragon's Maze Foil Redemption
+        set: dgm
   Dragons Maze Prerelease Guild Kit 10 Pack:
     category: LIMITED_CASE
+    subtype: PRERELEASE
+    release_date: '2015-03-02'
     identifiers:
       cardtraderId: '47961'
       mcmId: '273051'
       tcgplayerProductId: '183301'
-    release_date: '2015-03-02'
-    subtype: PRERELEASE
+    contents:
+      sealed:
+      - count: 1
+        name: Dragons Maze Prerelease Guild Kit Azorius
+        set: dgm
+      - count: 1
+        name: Dragons Maze Prerelease Guild Kit Boros
+        set: dgm
+      - count: 1
+        name: Dragons Maze Prerelease Guild Kit Dimir
+        set: dgm
+      - count: 1
+        name: Dragons Maze Prerelease Guild Kit Golgari
+        set: dgm
+      - count: 1
+        name: Dragons Maze Prerelease Guild Kit Gruul
+        set: dgm
+      - count: 1
+        name: Dragons Maze Prerelease Guild Kit Izzet
+        set: dgm
+      - count: 1
+        name: Dragons Maze Prerelease Guild Kit Orzhov
+        set: dgm
+      - count: 1
+        name: Dragons Maze Prerelease Guild Kit Rakdos
+        set: dgm
+      - count: 1
+        name: Dragons Maze Prerelease Guild Kit Selesnya
+        set: dgm
+      - count: 1
+        name: Dragons Maze Prerelease Guild Kit Simic
+        set: dgm
   Dragons Maze Prerelease Guild Kit Azorius:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       cardtraderId: '47949'
       mcmId: '261871'
       tcgplayerProductId: '183291'
-    subtype: PRERELEASE
+    contents:
+      card_count: 30
+      pack:
+      - code: prerelease-azorius
+        set: rtr
+      sealed:
+      - count: 4
+        name: Dragons Maze Booster Pack
+        set: dgm
+      variable:
+      - pack:
+        - code: prerelease-orzhov
+          set: gtc
+      - pack:
+        - code: prerelease-dimir
+          set: gtc
+      - pack:
+        - code: prerelease-boros
+          set: gtc
+      - pack:
+        - code: prerelease-simic
+          set: gtc
+      variable_mode:
+        count: 1
+        replacement: false
   Dragons Maze Prerelease Guild Kit Boros:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       cardtraderId: '47951'
       mcmId: '261876'
       tcgplayerProductId: '183299'
-    subtype: PRERELEASE
+    contents:
+      card_count: 30
+      pack:
+      - code: prerelease-boros
+        set: gtc
+      sealed:
+      - count: 4
+        name: Dragons Maze Booster Pack
+        set: dgm
+      variable:
+      - pack:
+        - code: prerelease-azorius
+          set: rtr
+      - pack:
+        - code: prerelease-izzet
+          set: rtr
+      - pack:
+        - code: prerelease-rakdos
+          set: rtr
+      - pack:
+        - code: prerelease-selesnya
+          set: rtr
+      variable_mode:
+        count: 1
+        replacement: false
   Dragons Maze Prerelease Guild Kit Dimir:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       cardtraderId: '47952'
       mcmId: '261878'
       tcgplayerProductId: '183292'
-    subtype: PRERELEASE
+    contents:
+      card_count: 30
+      pack:
+      - code: prerelease-dimir
+        set: gtc
+      sealed:
+      - count: 4
+        name: Dragons Maze Booster Pack
+        set: dgm
+      variable:
+      - pack:
+        - code: prerelease-azorius
+          set: rtr
+      - pack:
+        - code: prerelease-izzet
+          set: rtr
+      - pack:
+        - code: prerelease-rakdos
+          set: rtr
+      - pack:
+        - code: prerelease-golgari
+          set: rtr
+      variable_mode:
+        count: 1
+        replacement: false
   Dragons Maze Prerelease Guild Kit Golgari:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       cardtraderId: '47950'
       mcmId: '261872'
       tcgplayerProductId: '183298'
-    subtype: PRERELEASE
+    contents:
+      card_count: 30
+      pack:
+      - code: prerelease-golgari
+        set: rtr
+      sealed:
+      - count: 4
+        name: Dragons Maze Booster Pack
+        set: dgm
+      variable:
+      - pack:
+        - code: prerelease-orzhov
+          set: gtc
+      - pack:
+        - code: prerelease-dimir
+          set: gtc
+      - pack:
+        - code: prerelease-gruul
+          set: gtc
+      - pack:
+        - code: prerelease-simic
+          set: gtc
+      variable_mode:
+        count: 1
+        replacement: false
   Dragons Maze Prerelease Guild Kit Gruul:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       cardtraderId: '47953'
       mcmId: '261879'
       tcgplayerProductId: '183294'
-    subtype: PRERELEASE
+    contents:
+      card_count: 30
+      pack:
+      - code: prerelease-gruul
+        set: gtc
+      sealed:
+      - count: 4
+        name: Dragons Maze Booster Pack
+        set: dgm
+      variable:
+      - pack:
+        - code: prerelease-golgari
+          set: rtr
+      - pack:
+        - code: prerelease-izzet
+          set: rtr
+      - pack:
+        - code: prerelease-rakdos
+          set: rtr
+      - pack:
+        - code: prerelease-selesnya
+          set: rtr
+      variable_mode:
+        count: 1
+        replacement: false
   Dragons Maze Prerelease Guild Kit Izzet:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       cardtraderId: '47954'
       mcmId: '261873'
       tcgplayerProductId: '183297'
-    subtype: PRERELEASE
+    contents:
+      card_count: 30
+      pack:
+      - code: prerelease-izzet
+        set: rtr
+      sealed:
+      - count: 4
+        name: Dragons Maze Booster Pack
+        set: dgm
+      variable:
+      - pack:
+        - code: prerelease-gruul
+          set: gtc
+      - pack:
+        - code: prerelease-dimir
+          set: gtc
+      - pack:
+        - code: prerelease-boros
+          set: gtc
+      - pack:
+        - code: prerelease-simic
+          set: gtc
+      variable_mode:
+        count: 1
+        replacement: false
   Dragons Maze Prerelease Guild Kit Orzhov:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       cardtraderId: '47955'
       mcmId: '261877'
       tcgplayerProductId: '183296'
-    subtype: PRERELEASE
+    contents:
+      card_count: 30
+      pack:
+      - code: prerelease-orzhov
+        set: gtc
+      sealed:
+      - count: 4
+        name: Dragons Maze Booster Pack
+        set: dgm
+      variable:
+      - pack:
+        - code: prerelease-azorius
+          set: rtr
+      - pack:
+        - code: prerelease-golgari
+          set: rtr
+      - pack:
+        - code: prerelease-rakdos
+          set: rtr
+      - pack:
+        - code: prerelease-selesnya
+          set: rtr
+      variable_mode:
+        count: 1
+        replacement: false
   Dragons Maze Prerelease Guild Kit Rakdos:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       cardtraderId: '47956'
       mcmId: '261874'
       tcgplayerProductId: '183293'
-    subtype: PRERELEASE
+    contents:
+      card_count: 30
+      pack:
+      - code: prerelease-rakdos
+        set: rtr
+      sealed:
+      - count: 4
+        name: Dragons Maze Booster Pack
+        set: dgm
+      variable:
+      - pack:
+        - code: prerelease-orzhov
+          set: gtc
+      - pack:
+        - code: prerelease-dimir
+          set: gtc
+      - pack:
+        - code: prerelease-boros
+          set: gtc
+      - pack:
+        - code: prerelease-gruul
+          set: gtc
+      variable_mode:
+        count: 1
+        replacement: false
   Dragons Maze Prerelease Guild Kit Selesnya:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       cardtraderId: '47957'
       mcmId: '261875'
       tcgplayerProductId: '183295'
-    subtype: PRERELEASE
+    contents:
+      card_count: 30
+      pack:
+      - code: prerelease-selesnya
+        set: rtr
+      sealed:
+      - count: 4
+        name: Dragons Maze Booster Pack
+        set: dgm
+      variable:
+      - pack:
+        - code: prerelease-orzhov
+          set: gtc
+      - pack:
+        - code: prerelease-gruul
+          set: gtc
+      - pack:
+        - code: prerelease-boros
+          set: gtc
+      - pack:
+        - code: prerelease-simic
+          set: gtc
+      variable_mode:
+        count: 1
+        replacement: false
   Dragons Maze Prerelease Guild Kit Simic:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       cardtraderId: '47958'
       mcmId: '261880'
       tcgplayerProductId: '183300'
-    subtype: PRERELEASE
+    contents:
+      card_count: 30
+      pack:
+      - code: prerelease-simic
+        set: gtc
+      sealed:
+      - count: 4
+        name: Dragons Maze Booster Pack
+        set: dgm
+      variable:
+      - pack:
+        - code: prerelease-azorius
+          set: rtr
+      - pack:
+        - code: prerelease-izzet
+          set: rtr
+      - pack:
+        - code: prerelease-golgari
+          set: rtr
+      - pack:
+        - code: prerelease-selesnya
+          set: rtr
+      variable_mode:
+        count: 1
+        replacement: false

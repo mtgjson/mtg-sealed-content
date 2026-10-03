@@ -2,6 +2,7 @@ code: jou
 products:
   Defeat a God Challenge Deck:
     category: DECK
+    subtype: CHALLENGE
     identifiers:
       abuId: '1107885'
       cardtraderId: '48104'
@@ -9,9 +10,14 @@ products:
       mcmId: '266938'
       tcgplayerProductId: '80853'
       tntId: '1062111'
-    subtype: CHALLENGE
+    contents:
+      card_count: 60
+      deck:
+      - name: Defeat a God
+        set: tdag
   Journey Into Nyx Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1100635'
       cardKingdomId: '193877'
@@ -22,15 +28,26 @@ products:
       scgId: SLD-MTG-BBX-JOU-EN
       tcgplayerProductId: '77322'
       tntId: '1026686'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Journey Into Nyx Booster Pack
+        set: jou
   Journey Into Nyx Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2014-05-02'
     identifiers:
       tcgplayerProductId: '77324'
-    release_date: '2014-05-02'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Journey Into Nyx Booster Box
+        set: jou
   Journey Into Nyx Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2014-05-02'
     identifiers:
       abuId: '1476889'
       cardKingdomId: '193878'
@@ -41,17 +58,26 @@ products:
       scgId: SLD-MTG-PCK-JOU-EN
       tcgplayerProductId: '80839'
       tntId: '1026687'
-    release_date: '2014-05-02'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: jou
   Journey Into Nyx Event Deck Display:
     category: DECK_BOX
+    subtype: EVENT
+    release_date: '2014-05-02'
     identifiers:
       tcgplayerProductId: '80850'
       tntId: '1054506'
-    release_date: '2014-05-02'
-    subtype: EVENT
+    contents:
+      sealed:
+      - count: 6
+        name: Journey Into Nyx Event Deck Wrath of the Mortals
+        set: jou
   Journey Into Nyx Event Deck Wrath of the Mortals:
     category: DECK
+    subtype: EVENT
     identifiers:
       abuId: '1100646'
       cardKingdomId: '194348'
@@ -62,9 +88,15 @@ products:
       scgId: SLD-MTG-INT-JOUEVENT-EN-WRATH
       tcgplayerProductId: '80848'
       tntId: '1054504'
-    subtype: EVENT
+    contents:
+      card_count: 75
+      deck:
+      - name: Wrath of the Mortals
+        set: jou
   Journey Into Nyx Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
+    release_date: '2014-05-02'
     identifiers:
       abuId: '1100650'
       cardKingdomId: '193879'
@@ -75,18 +107,47 @@ products:
       scgId: SLD-MTG-BUN-JOU-EN
       tcgplayerProductId: '80836'
       tntId: '1052347'
-    release_date: '2014-05-02'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Theros Fat Pack Land Pack
+        set: ths
+      other:
+      - name: Player's guide with encyclopedia
+      - name: Journey Into Nyx card box
+      - name: Special edition spindown life counter
+      - name: Two deck boxes
+      sealed:
+      - count: 9
+        name: Journey Into Nyx Booster Pack
+        set: jou
   Journey Into Nyx Intro Pack Display:
     category: DECK_BOX
+    subtype: INTRO
     identifiers:
       cardtraderId: '48116'
       mcmId: '266592'
       tcgplayerProductId: '80844'
       tntId: '1053843'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 2
+        name: Journey Into Nyx Intro Pack Fates Foreseen
+        set: jou
+      - count: 2
+        name: Journey Into Nyx Intro Pack Mortals of Myth
+        set: jou
+      - count: 2
+        name: Journey Into Nyx Intro Pack Pantheons Power
+        set: jou
+      - count: 2
+        name: Journey Into Nyx Intro Pack The Wilds and the Deep
+        set: jou
+      - count: 2
+        name: Journey Into Nyx Intro Pack Voracious Rage
+        set: jou
   Journey Into Nyx Intro Pack Fates Foreseen:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100652'
       cardKingdomId: '193937'
@@ -96,9 +157,18 @@ products:
       scgId: SLD-MTG-INT-JOUINTRO-EN-FATES
       tcgplayerProductId: '82550'
       tntId: '1053725'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Fates Foreseen
+        set: jou
+      sealed:
+      - count: 2
+        name: Journey Into Nyx Booster Pack
+        set: jou
   Journey Into Nyx Intro Pack Mortals of Myth:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100653'
       cardKingdomId: '193936'
@@ -108,9 +178,18 @@ products:
       scgId: SLD-MTG-INT-JOUINTRO-EN-MORTALS
       tcgplayerProductId: '82553'
       tntId: '1053724'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Mortals of Myth
+        set: jou
+      sealed:
+      - count: 2
+        name: Journey Into Nyx Booster Pack
+        set: jou
   Journey Into Nyx Intro Pack Pantheons Power:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100654'
       cardKingdomId: '193938'
@@ -119,17 +198,43 @@ products:
       scgId: SLD-MTG-INT-JOUINTRO-EN-PANTHEONS
       tcgplayerProductId: '82551'
       tntId: '1053726'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Pantheon's Power
+        set: jou
+      sealed:
+      - count: 2
+        name: Journey Into Nyx Booster Pack
+        set: jou
   Journey Into Nyx Intro Pack Set of 5:
     category: SUBSET
+    subtype: INTRO
     identifiers:
       abuId: '1100658'
       cardtraderId: '48117'
       mcmId: '266593'
       tcgplayerProductId: '80842'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 1
+        name: Journey Into Nyx Intro Pack Fates Foreseen
+        set: jou
+      - count: 1
+        name: Journey Into Nyx Intro Pack Mortals of Myth
+        set: jou
+      - count: 1
+        name: Journey Into Nyx Intro Pack Pantheons Power
+        set: jou
+      - count: 1
+        name: Journey Into Nyx Intro Pack The Wilds and the Deep
+        set: jou
+      - count: 1
+        name: Journey Into Nyx Intro Pack Voracious Rage
+        set: jou
   Journey Into Nyx Intro Pack The Wilds and the Deep:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100655'
       cardKingdomId: '193940'
@@ -139,9 +244,18 @@ products:
       scgId: SLD-MTG-INT-JOUINTRO-EN-WILDS
       tcgplayerProductId: '82549'
       tntId: '1053728'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: The Wilds and the Deep
+        set: jou
+      sealed:
+      - count: 2
+        name: Journey Into Nyx Booster Pack
+        set: jou
   Journey Into Nyx Intro Pack Voracious Rage:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100657'
       cardKingdomId: '193939'
@@ -151,9 +265,18 @@ products:
       scgId: SLD-MTG-INT-JOUINTRO-EN-VORACIOUS
       tcgplayerProductId: '82552'
       tntId: '1053727'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Voracious Rage
+        set: jou
+      sealed:
+      - count: 2
+        name: Journey Into Nyx Booster Pack
+        set: jou
   Journey Into Nyx Prerelease Forged in Glory:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '1100649'
       cardKingdomId: '223903'
@@ -162,9 +285,31 @@ products:
       mcmId: '266959'
       tcgplayerProductId: '80857'
       tntId: '1660309'
-    subtype: PRERELEASE
+    contents:
+      card:
+      - foil: false
+        name: Spear of the General
+        number: 7a
+        set: thp3
+      card_count: 15
+      other:
+      - name: Spindown die
+      pack:
+      - code: prerelease-glory
+        set: jou
+      sealed:
+      - count: 2
+        name: Journey Into Nyx Booster Pack
+        set: jou
+      - count: 1
+        name: Born of the Gods Booster Pack
+        set: bng
+      - count: 2
+        name: Theros Booster Pack
+        set: ths
   Journey Into Nyx Prerelease Forged in Intellect:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '1100647'
       cardKingdomId: '194352'
@@ -173,9 +318,31 @@ products:
       mcmId: '266960'
       tcgplayerProductId: '80859'
       tntId: '1660310'
-    subtype: PRERELEASE
+    contents:
+      card:
+      - foil: false
+        name: Cloak of the Philosopher
+        number: 7b
+        set: thp3
+      card_count: 15
+      other:
+      - name: Spindown die
+      pack:
+      - code: prerelease-intellect
+        set: jou
+      sealed:
+      - count: 2
+        name: Journey Into Nyx Booster Pack
+        set: jou
+      - count: 1
+        name: Born of the Gods Booster Pack
+        set: bng
+      - count: 2
+        name: Theros Booster Pack
+        set: ths
   Journey Into Nyx Prerelease Forged in Pursuit:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '1100656'
       cardKingdomId: '194354'
@@ -183,9 +350,31 @@ products:
       csiId: '203114'
       mcmId: '266963'
       tcgplayerProductId: '80863'
-    subtype: PRERELEASE
+    contents:
+      card:
+      - foil: false
+        name: Bow of the Hunter
+        number: 7e
+        set: thp3
+      card_count: 15
+      other:
+      - name: Spindown die
+      pack:
+      - code: prerelease-pursuit
+        set: jou
+      sealed:
+      - count: 2
+        name: Journey Into Nyx Booster Pack
+        set: jou
+      - count: 1
+        name: Born of the Gods Booster Pack
+        set: bng
+      - count: 2
+        name: Theros Booster Pack
+        set: ths
   Journey Into Nyx Prerelease Forged in Tyranny:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '1100660'
       cardKingdomId: '194351'
@@ -194,9 +383,31 @@ products:
       mcmId: '266961'
       tcgplayerProductId: '80861'
       tntId: '1660312'
-    subtype: PRERELEASE
+    contents:
+      card:
+      - foil: false
+        name: Lash of the Tyrant
+        number: 7c
+        set: thp3
+      card_count: 15
+      other:
+      - name: Spindown die
+      pack:
+      - code: prerelease-tyranny
+        set: jou
+      sealed:
+      - count: 2
+        name: Journey Into Nyx Booster Pack
+        set: jou
+      - count: 1
+        name: Born of the Gods Booster Pack
+        set: bng
+      - count: 2
+        name: Theros Booster Pack
+        set: ths
   Journey Into Nyx Prerelease Forged in War:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '1100661'
       cardKingdomId: '194353'
@@ -205,22 +416,70 @@ products:
       mcmId: '266962'
       tcgplayerProductId: '80862'
       tntId: '1182104'
-    subtype: PRERELEASE
+    contents:
+      card:
+      - foil: false
+        name: Axe of the Warmonger
+        number: 7d
+        set: thp3
+      card_count: 15
+      other:
+      - name: Spindown die
+      pack:
+      - code: prerelease-war
+        set: jou
+      sealed:
+      - count: 2
+        name: Journey Into Nyx Booster Pack
+        set: jou
+      - count: 1
+        name: Born of the Gods Booster Pack
+        set: bng
+      - count: 2
+        name: Theros Booster Pack
+        set: ths
   Journey Into Nyx Prerelease Kit Set of 5:
     category: SUBSET
+    subtype: PRERELEASE
+    release_date: '2015-03-02'
     identifiers:
       cardtraderId: '48118'
       mcmId: '273048'
       tcgplayerProductId: '199837'
-    release_date: '2015-03-02'
-    subtype: PRERELEASE
+    contents:
+      sealed:
+      - count: 1
+        name: Journey Into Nyx Prerelease Forged in Glory
+        set: jou
+      - count: 1
+        name: Journey Into Nyx Prerelease Forged in Intellect
+        set: jou
+      - count: 1
+        name: Journey Into Nyx Prerelease Forged in Pursuit
+        set: jou
+      - count: 1
+        name: Journey Into Nyx Prerelease Forged in Tyranny
+        set: jou
+      - count: 1
+        name: Journey Into Nyx Prerelease Forged in War
+        set: jou
   Journey into Nyx MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210881'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 165
+      deck:
+      - name: Journey into Nyx Redemption
+        set: jou
   Journey into Nyx MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210856'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 165
+      deck:
+      - name: Journey into Nyx Foil Redemption
+        set: jou

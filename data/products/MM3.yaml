@@ -2,6 +2,8 @@ code: mm3
 products:
   Modern Masters 2017 Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2017-03-17'
     identifiers:
       abuId: '1476913'
       cardKingdomId: '210912'
@@ -12,16 +14,26 @@ products:
       scgId: SLD-MTG-BBX-MM3-EN
       tcgplayerProductId: '127069'
       tntId: '1102279'
-    release_date: '2017-03-17'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 24
+        name: Modern Masters 2017 Booster Pack
+        set: mm3
   Modern Masters 2017 Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2017-03-17'
     identifiers:
       tcgplayerProductId: '127070'
-    release_date: '2017-03-17'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 4
+        name: Modern Masters 2017 Booster Box
+        set: mm3
   Modern Masters 2017 Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2017-03-17'
     identifiers:
       abuId: '1564332'
       cardKingdomId: '210913'
@@ -32,5 +44,8 @@ products:
       scgId: SLD-MTG-PCK-MM3-EN
       tcgplayerProductId: '127068'
       tntId: '1102280'
-    release_date: '2017-03-17'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: mm3

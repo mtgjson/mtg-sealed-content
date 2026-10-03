@@ -2,15 +2,28 @@ code: woe
 products:
   Magic The Gathering Starter Kit 2023:
     category: MULTI_DECK
+    subtype: TWO_PLAYER_STARTER
     identifiers:
       cardKingdomId: '281249'
       hareruyaId: '135388'
       mcmId: '728134'
       scgId: SLD-MTG-INT-2023STARTER-EN
       tcgplayerProductId: '496049'
-    subtype: TWO_PLAYER_STARTER
+    contents:
+      card_count: 120
+      deck:
+      - name: Day of the Dragon
+        set: woe
+      - name: Backup Beatdown
+        set: woe
+      other:
+      - name: Two deck boxes
+      - name: 2 MTG Arena code cards (available in select regions)
+      - name: 2 reference cards
   Wilds of Eldraine Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2023-09-08'
     identifiers:
       abuId: '2394715'
       cardKingdomId: '281236'
@@ -21,16 +34,38 @@ products:
       scgId: SLD-MTG-BUN-WOE-EN
       tcgplayerProductId: '496046'
       tntId: '1786373'
-    release_date: '2023-09-08'
-    subtype: DEFAULT
+    contents:
+      card:
+      - foil: true
+        name: Lich-Knights' Conquest
+        number: 380
+        set: woe
+      deck:
+      - name: Wilds of Eldraine Bundle Land Pack
+        set: woe
+      other:
+      - name: Spindown life counter
+      - name: card storage box
+      - name: 2 reference cards
+      sealed:
+      - count: 8
+        name: Wilds of Eldraine Set Booster Pack
+        set: woe
   Wilds of Eldraine Bundle Case:
     category: BUNDLE_CASE
+    subtype: DEFAULT
+    release_date: '2023-09-08'
     identifiers:
       tcgplayerProductId: '496047'
-    release_date: '2023-09-08'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 6
+        name: Wilds of Eldraine Bundle
+        set: woe
   Wilds of Eldraine Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2023-09-08'
     identifiers:
       abuId: '2394716'
       cardKingdomId: '281237'
@@ -41,16 +76,26 @@ products:
       scgId: SLD-MTG-BBX-WOECOLLECTOR-EN
       tcgplayerProductId: '496041'
       tntId: '1786378'
-    release_date: '2023-09-08'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Wilds of Eldraine Collector Booster Pack
+        set: woe
   Wilds of Eldraine Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
+    release_date: '2023-09-08'
     identifiers:
       tcgplayerProductId: '504452'
-    release_date: '2023-09-08'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Wilds of Eldraine Collector Booster Box
+        set: woe
   Wilds of Eldraine Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2023-09-08'
     identifiers:
       abuId: '2688025'
       cardKingdomId: '281238'
@@ -60,17 +105,27 @@ products:
       scgId: SLD-MTG-PCK-WOECOLLECTOR-EN
       tcgplayerProductId: '496040'
       tntId: '1786379'
-    release_date: '2023-09-08'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: woe
   Wilds of Eldraine Collector Booster Sample Pack:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    release_date: '2023-09-01'
     identifiers:
       mcmId: '733410'
       tcgplayerProductId: '579965'
-    release_date: '2023-09-01'
-    subtype: PROMOTIONAL
+    contents:
+      card_count: 2
+      pack:
+      - code: collector-sample
+        set: woe
   Wilds of Eldraine Draft Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2023-09-08'
     identifiers:
       abuId: '2394723'
       cardKingdomId: '281239'
@@ -81,16 +136,26 @@ products:
       scgId: SLD-MTG-BBX-WOEDRAFT-EN
       tcgplayerProductId: '496035'
       tntId: '1786371'
-    release_date: '2023-09-08'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Wilds of Eldraine Draft Booster Pack
+        set: woe
   Wilds of Eldraine Draft Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2023-09-08'
     identifiers:
       tcgplayerProductId: '496036'
-    release_date: '2023-09-08'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Wilds of Eldraine Draft Booster Box
+        set: woe
   Wilds of Eldraine Draft Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2023-09-08'
     identifiers:
       abuId: '2688027'
       cardKingdomId: '281240'
@@ -101,30 +166,58 @@ products:
       scgId: SLD-MTG-PCK-WOEDRAFT-EN
       tcgplayerProductId: '496034'
       tntId: '1786372'
-    release_date: '2023-09-08'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: woe
   Wilds of Eldraine MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '283508'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 276
+      deck:
+      - name: Wilds of Eldraine Redemption
+        set: woe
   Wilds of Eldraine MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '283507'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 276
+      deck:
+      - name: Wilds of Eldraine Foil Redemption
+        set: woe
   Wilds of Eldraine Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2023-09-08'
     identifiers:
       abuId: '2394728'
       cardKingdomId: '281241'
       cardtraderId: '246963'
       mcmId: '719678'
       tcgplayerProductId: '496048'
-    release_date: '2023-09-08'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: Wilds of Eldraine Spindown
+      - name: 2 double faced Role tokens
+      - name: MTG Arena code card (available in select regions)
+      pack:
+      - code: prerelease
+        set: woe
+      sealed:
+      - count: 6
+        name: Wilds of Eldraine Draft Booster Pack
+        set: woe
   Wilds of Eldraine Set Booster Box:
     category: BOOSTER_BOX
+    subtype: SET
+    release_date: '2023-09-08'
     identifiers:
       abuId: '2394727'
       cardKingdomId: '281242'
@@ -135,16 +228,26 @@ products:
       scgId: SLD-MTG-BBX-WOESET-EN
       tcgplayerProductId: '496038'
       tntId: '1786376'
-    release_date: '2023-09-08'
-    subtype: SET
+    contents:
+      sealed:
+      - count: 30
+        name: Wilds of Eldraine Set Booster Pack
+        set: woe
   Wilds of Eldraine Set Booster Box Case:
     category: BOOSTER_CASE
+    subtype: SET
+    release_date: '2023-09-08'
     identifiers:
       tcgplayerProductId: '496039'
-    release_date: '2023-09-08'
-    subtype: SET
+    contents:
+      sealed:
+      - count: 6
+        name: Wilds of Eldraine Set Booster Box
+        set: woe
   Wilds of Eldraine Set Booster Pack:
     category: BOOSTER_PACK
+    subtype: SET
+    release_date: '2023-09-08'
     identifiers:
       abuId: '2688031'
       cardKingdomId: '281243'
@@ -155,5 +258,8 @@ products:
       scgId: SLD-MTG-PCK-WOESET-EN
       tcgplayerProductId: '496037'
       tntId: '1786377'
-    release_date: '2023-09-08'
-    subtype: SET
+    contents:
+      card_count: 12
+      pack:
+      - code: set
+        set: woe

@@ -2,6 +2,8 @@ code: afr
 products:
   2021 Arena Starter Kit:
     category: MULTI_DECK
+    subtype: TWO_PLAYER_STARTER
+    release_date: '2021-08-06'
     identifiers:
       abuId: '2096587'
       cardKingdomId: '260696'
@@ -12,16 +14,38 @@ products:
       scgId: SLD-MTG-INT-AFRARENA-EN
       tcgplayerProductId: '243657'
       tntId: '1665300'
-    release_date: '2021-08-06'
-    subtype: TWO_PLAYER_STARTER
+    contents:
+      card_count: 120
+      deck:
+      - name: Rough and Tumble
+        set: afr
+      - name: Sneak Attack
+        set: afr
+      other:
+      - name: Play Guide Booklet
+      - name: 2 Deck Boxes
+      - name: First Game Walk-through Cards
   2021 Arena Starter Kit Amazon:
     category: MULTI_DECK
+    subtype: TWO_PLAYER_STARTER
     identifiers:
       cardtraderId: '164201'
       tcgplayerProductId: '252736'
-    subtype: TWO_PLAYER_STARTER
+    contents:
+      card_count: 120
+      deck:
+      - name: Rough and Tumble Amazon
+        set: afr
+      - name: Sneak Attack Amazon
+        set: afr
+      other:
+      - name: Play Guide Booklet
+      - name: 2 Deck Boxes
+      - name: First Game Walk-through Cards
   Adventures in the Forgotten Realms Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2021-07-23'
     identifiers:
       abuId: '2056670'
       cardKingdomId: '247746'
@@ -32,10 +56,37 @@ products:
       scgId: SLD-MTG-BUN-AFR-EN
       tcgplayerProductId: '238732'
       tntId: '1718631'
-    release_date: '2021-07-23'
-    subtype: DEFAULT
+    contents:
+      card:
+      - foil: true
+        name: Treasure Chest
+        number: 397
+        set: afr
+      - name: Dungeon of the Mad Mage
+        number: 20
+        set: oafr
+        token: true
+      - name: Lost Mine of Phandelver
+        number: 21
+        set: oafr
+        token: true
+      - name: Tomb of Annihilation
+        number: 22
+        set: oafr
+        token: true
+      deck:
+      - name: Adventures in the Forgotten Realms Bundle Land Pack
+        set: afr
+      other:
+      - name: Adventures in the Forgotten Realms Premium Spindown
+      sealed:
+      - count: 10
+        name: Adventures in the Forgotten Realms Draft Booster Pack
+        set: afr
   Adventures in the Forgotten Realms Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2021-07-23'
     identifiers:
       abuId: '2056662'
       cardKingdomId: '247749'
@@ -46,21 +97,36 @@ products:
       scgId: SLD-MTG-BBX-AFRCOLLECTOR-EN
       tcgplayerProductId: '238745'
       tntId: '1718634'
-    release_date: '2021-07-23'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Adventures in the Forgotten Realms Collector Booster Pack
+        set: afr
   Adventures in the Forgotten Realms Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
+    release_date: '2021-07-23'
     identifiers:
       tcgplayerProductId: '238851'
-    release_date: '2021-07-23'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Adventures in the Forgotten Realms Collector Booster Box
+        set: afr
   Adventures in the Forgotten Realms Collector Booster Hanger Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '281706'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 1
+        name: Adventures in the Forgotten Realms Collector Booster Pack
+        set: afr
   Adventures in the Forgotten Realms Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2021-07-23'
     identifiers:
       abuId: '2631876'
       cardKingdomId: '247748'
@@ -71,15 +137,25 @@ products:
       scgId: SLD-MTG-PCK-AFRCOLLECTOR-EN
       tcgplayerProductId: '238746'
       tntId: '1718635'
-    release_date: '2021-07-23'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: afr
   Adventures in the Forgotten Realms Collector Booster Retail Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '281703'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 1
+        name: Adventures in the Forgotten Realms Collector Booster Pack
+        set: afr
   Adventures in the Forgotten Realms Draft Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2021-07-23'
     identifiers:
       abuId: '2056666'
       cardKingdomId: '246071'
@@ -90,16 +166,26 @@ products:
       scgId: SLD-MTG-BBX-AFRDRAFT-EN
       tcgplayerProductId: '238730'
       tntId: '1718629'
-    release_date: '2021-07-23'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Adventures in the Forgotten Realms Draft Booster Pack
+        set: afr
   Adventures in the Forgotten Realms Draft Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2021-07-23'
     identifiers:
       tcgplayerProductId: '238854'
-    release_date: '2021-07-23'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Adventures in the Forgotten Realms Draft Booster Box
+        set: afr
   Adventures in the Forgotten Realms Draft Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2021-07-23'
     identifiers:
       abuId: '2408662'
       cardKingdomId: '247747'
@@ -110,10 +196,15 @@ products:
       scgId: SLD-MTG-PCK-AFRDRAFT-EN
       tcgplayerProductId: '238731'
       tntId: '1718630'
-    release_date: '2021-07-23'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: afr
   Adventures in the Forgotten Realms Gift Bundle:
     category: BUNDLE
+    subtype: GIFT_BUNDLE
+    release_date: '2021-07-23'
     identifiers:
       abuId: '2064450'
       cardKingdomId: '249634'
@@ -123,20 +214,60 @@ products:
       scgId: SLD-MTG-BUN-AFRGIFT-EN
       tcgplayerProductId: '243658'
       tntId: '1727156'
-    release_date: '2021-07-23'
-    subtype: GIFT_BUNDLE
+    contents:
+      card:
+      - foil: true
+        name: Treasure Chest
+        number: 397
+        set: afr
+      - name: Dungeon of the Mad Mage
+        number: 20
+        set: oafr
+        token: true
+      - name: Lost Mine of Phandelver
+        number: 21
+        set: oafr
+        token: true
+      - name: Tomb of Annihilation
+        number: 22
+        set: oafr
+        token: true
+      deck:
+      - name: Adventures in the Forgotten Realms Bundle Land Pack
+        set: afr
+      other:
+      - name: Adventures in the Forgotten Realms Premium Spindown
+      sealed:
+      - count: 10
+        name: Adventures in the Forgotten Realms Draft Booster Pack
+        set: afr
+      - count: 1
+        name: Adventures in the Forgotten Realms Collector Booster Pack
+        set: afr
   Adventures in the Forgotten Realms MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '249663'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 281
+      deck:
+      - name: Adventures in the Forgotten Realms Redemption
+        set: afr
   Adventures in the Forgotten Realms MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '249664'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 281
+      deck:
+      - name: Adventures in the Forgotten Realms Foil Redemption
+        set: afr
   Adventures in the Forgotten Realms Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2021-07-23'
     identifiers:
       abuId: '2051802'
       cardKingdomId: '247765'
@@ -144,15 +275,47 @@ products:
       mcmId: '571986'
       tcgplayerProductId: '238845'
       tntId: '1758998'
-    release_date: '2021-07-23'
-    subtype: PRERELEASE
+    contents:
+      card:
+      - foil: true
+        name: Dungeon of the Mad Mage
+        number: 20
+        set: afr
+        token: true
+      - foil: true
+        name: Lost Mine of Phandelver
+        number: 21
+        set: afr
+        token: true
+      - foil: true
+        name: Tomb of Annihilation
+        number: 22
+        set: afr
+        token: true
+      card_count: 4
+      other:
+      - name: Adventures in the Forgotten realms Prerelease Spindown
+      pack:
+      - code: prerelease
+        set: afr
+      sealed:
+      - count: 6
+        name: Adventures in the Forgotten Realms Draft Booster Pack
+        set: afr
   Adventures in the Forgotten Realms Prerelease Pack Case:
     category: LIMITED_CASE
+    subtype: PRERELEASE
     identifiers:
       tcgplayerProductId: '251069'
-    subtype: PRERELEASE
+    contents:
+      sealed:
+      - count: 18
+        name: Adventures in the Forgotten Realms Prerelease Pack
+        set: afr
   Adventures in the Forgotten Realms Set Booster Box:
     category: BOOSTER_BOX
+    subtype: SET
+    release_date: '2021-07-23'
     identifiers:
       abuId: '2051801'
       cardKingdomId: '247755'
@@ -163,16 +326,26 @@ products:
       scgId: SLD-MTG-BBX-AFRSET-EN
       tcgplayerProductId: '238739'
       tntId: '1718632'
-    release_date: '2021-07-23'
-    subtype: SET
+    contents:
+      sealed:
+      - count: 30
+        name: Adventures in the Forgotten Realms Set Booster Pack
+        set: afr
   Adventures in the Forgotten Realms Set Booster Box Case:
     category: BOOSTER_CASE
+    subtype: SET
+    release_date: '2021-07-23'
     identifiers:
       tcgplayerProductId: '238858'
-    release_date: '2021-07-23'
-    subtype: SET
+    contents:
+      sealed:
+      - count: 6
+        name: Adventures in the Forgotten Realms Set Booster Box
+        set: afr
   Adventures in the Forgotten Realms Set Booster Pack:
     category: BOOSTER_PACK
+    subtype: SET
+    release_date: '2021-07-23'
     identifiers:
       abuId: '2631877'
       cardKingdomId: '247756'
@@ -183,93 +356,176 @@ products:
       scgId: SLD-MTG-PCK-AFRSET-EN
       tcgplayerProductId: '238741'
       tntId: '1718633'
-    release_date: '2021-07-23'
-    subtype: SET
+    contents:
+      card_count: 12
+      pack:
+      - code: set
+        set: afr
   Adventures in the Forgotten Realms Theme Booster Black:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2021-07-23'
     identifiers:
       abuId: '2056695'
       cardtraderId: '160981'
       mcmId: '572031'
       tcgplayerProductId: '238825'
       tntId: '1718620'
-    release_date: '2021-07-23'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-b
+        set: afr
   Adventures in the Forgotten Realms Theme Booster Blue:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2021-07-23'
     identifiers:
       abuId: '2056694'
       cardtraderId: '160977'
       mcmId: '572028'
       tcgplayerProductId: '238822'
       tntId: '1718619'
-    release_date: '2021-07-23'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-u
+        set: afr
   Adventures in the Forgotten Realms Theme Booster Box:
     category: BOOSTER_BOX
+    subtype: THEME
+    release_date: '2021-07-23'
     identifiers:
       cardtraderId: '160975'
       mcmId: '572026'
       tcgplayerProductId: '238833'
       tntId: '1718617'
-    release_date: '2021-07-23'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 2
+        name: Adventures in the Forgotten Realms Theme Booster White
+        set: afr
+      - count: 2
+        name: Adventures in the Forgotten Realms Theme Booster Blue
+        set: afr
+      - count: 2
+        name: Adventures in the Forgotten Realms Theme Booster Black
+        set: afr
+      - count: 2
+        name: Adventures in the Forgotten Realms Theme Booster Red
+        set: afr
+      - count: 2
+        name: Adventures in the Forgotten Realms Theme Booster Green
+        set: afr
+      - count: 2
+        name: Adventures in the Forgotten Realms Theme Booster Dungeon Theme
+        set: afr
   Adventures in the Forgotten Realms Theme Booster Box Case:
     category: BOOSTER_CASE
+    subtype: THEME
+    release_date: '2021-07-23'
     identifiers:
       tcgplayerProductId: '238842'
-    release_date: '2021-07-23'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 6
+        name: Adventures in the Forgotten Realms Theme Booster Box
+        set: afr
   Adventures in the Forgotten Realms Theme Booster Dungeon Theme:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2021-07-23'
     identifiers:
       abuId: '2056698'
       cardtraderId: '160976'
       mcmId: '572032'
       tcgplayerProductId: '238829'
       tntId: '1725987'
-    release_date: '2021-07-23'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-dungeons
+        set: afr
   Adventures in the Forgotten Realms Theme Booster Green:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2021-07-23'
     identifiers:
       abuId: '2056697'
       cardtraderId: '160980'
       mcmId: '572029'
       tcgplayerProductId: '238827'
       tntId: '1718622'
-    release_date: '2021-07-23'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-g
+        set: afr
   Adventures in the Forgotten Realms Theme Booster Red:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2021-07-23'
     identifiers:
       abuId: '2056696'
       cardtraderId: '160978'
       mcmId: '572030'
       tcgplayerProductId: '238826'
       tntId: '1718621'
-    release_date: '2021-07-23'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-r
+        set: afr
   Adventures in the Forgotten Realms Theme Booster Set of 6:
     category: SUBSET
+    subtype: THEME
+    release_date: '2021-07-23'
     identifiers:
       tcgplayerProductId: '238820'
-    release_date: '2021-07-23'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Adventures in the Forgotten Realms Theme Booster White
+        set: afr
+      - count: 1
+        name: Adventures in the Forgotten Realms Theme Booster Blue
+        set: afr
+      - count: 1
+        name: Adventures in the Forgotten Realms Theme Booster Black
+        set: afr
+      - count: 1
+        name: Adventures in the Forgotten Realms Theme Booster Red
+        set: afr
+      - count: 1
+        name: Adventures in the Forgotten Realms Theme Booster Green
+        set: afr
+      - count: 1
+        name: Adventures in the Forgotten Realms Theme Booster Dungeon Theme
+        set: afr
   Adventures in the Forgotten Realms Theme Booster White:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2021-07-23'
     identifiers:
       abuId: '2056693'
       cardtraderId: '160979'
       mcmId: '572027'
       tcgplayerProductId: '238824'
       tntId: '1718618'
-    release_date: '2021-07-23'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-w
+        set: afr
   Adventures in the Forgotten Realms Welcome Booster:
     category: BOOSTER_PACK
+    subtype: WELCOME
+    release_date: '2021-07-23'
     identifiers:
       cardtraderId: '171253'
       mcmId: '577433'
-    release_date: '2021-07-23'
-    subtype: WELCOME
+    contents:
+      card_count: 9
+      deck:
+      - name: Adventures in the Forgotten Realms Welcome Booster
+        set: afr

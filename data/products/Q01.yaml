@@ -2,6 +2,8 @@ code: q01
 products:
   Challenger Deck 2018 Counter Surge:
     category: DECK
+    subtype: CHALLENGER
+    release_date: '2018-04-06'
     identifiers:
       abuId: '1495921'
       cardKingdomId: '217620'
@@ -12,15 +14,34 @@ products:
       scgId: SLD-MTG-INT-Q01-EN-COUNTER
       tcgplayerProductId: '161415'
       tntId: '1159420'
-    release_date: '2018-04-06'
-    subtype: CHALLENGER
+    contents:
+      card_count: 75
+      deck:
+      - name: Counter Surge
+        set: q01
   Challenger Deck 2018 Display:
     category: DECK_BOX
+    subtype: CHALLENGER
     identifiers:
       tcgplayerProductId: '161416'
-    subtype: CHALLENGER
+    contents:
+      sealed:
+      - count: 2
+        name: Challenger Deck 2018 Counter Surge
+        set: q01
+      - count: 2
+        name: Challenger Deck 2018 Hazoret Aggro
+        set: q01
+      - count: 2
+        name: Challenger Deck 2018 Second Sun Control
+        set: q01
+      - count: 2
+        name: Challenger Deck 2018 Vehicle Rush
+        set: q01
   Challenger Deck 2018 Hazoret Aggro:
     category: DECK
+    subtype: CHALLENGER
+    release_date: '2018-04-06'
     identifiers:
       abuId: '1495827'
       cardKingdomId: '217621'
@@ -31,10 +52,15 @@ products:
       scgId: SLD-MTG-INT-Q01-EN-HAZORET
       tcgplayerProductId: '161412'
       tntId: '1159417'
-    release_date: '2018-04-06'
-    subtype: CHALLENGER
+    contents:
+      card_count: 75
+      deck:
+      - name: Hazoret Aggro
+        set: q01
   Challenger Deck 2018 Second Sun Control:
     category: DECK
+    subtype: CHALLENGER
+    release_date: '2018-04-06'
     identifiers:
       abuId: '1495920'
       cardKingdomId: '217622'
@@ -45,10 +71,15 @@ products:
       scgId: SLD-MTG-INT-Q01-EN-SECONDSUN
       tcgplayerProductId: '161414'
       tntId: '1159419'
-    release_date: '2018-04-06'
-    subtype: CHALLENGER
+    contents:
+      card_count: 75
+      deck:
+      - name: Second Sun Control
+        set: q01
   Challenger Deck 2018 Set of 4:
     category: SUBSET
+    subtype: CHALLENGER
+    release_date: '2018-04-06'
     identifiers:
       abuId: '1495922'
       cardtraderId: '54754'
@@ -57,10 +88,24 @@ products:
       scgId: SLD-MTG-INT-Q01-EN-SET4
       tcgplayerProductId: '161417'
       tntId: '1159421'
-    release_date: '2018-04-06'
-    subtype: CHALLENGER
+    contents:
+      sealed:
+      - count: 1
+        name: Challenger Deck 2018 Counter Surge
+        set: q01
+      - count: 1
+        name: Challenger Deck 2018 Hazoret Aggro
+        set: q01
+      - count: 1
+        name: Challenger Deck 2018 Second Sun Control
+        set: q01
+      - count: 1
+        name: Challenger Deck 2018 Vehicle Rush
+        set: q01
   Challenger Deck 2018 Vehicle Rush:
     category: DECK
+    subtype: CHALLENGER
+    release_date: '2018-04-06'
     identifiers:
       abuId: '1495919'
       cardKingdomId: '217623'
@@ -71,5 +116,8 @@ products:
       scgId: SLD-MTG-INT-Q01-EN-VEHICLE
       tcgplayerProductId: '161413'
       tntId: '1159418'
-    release_date: '2018-04-06'
-    subtype: CHALLENGER
+    contents:
+      card_count: 75
+      deck:
+      - name: Vehicle Rush
+        set: q01

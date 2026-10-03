@@ -2,6 +2,8 @@ code: pip
 products:
   Fallout Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2024-03-08'
     identifiers:
       abuId: '2470260'
       cardKingdomId: '291468'
@@ -12,16 +14,26 @@ products:
       scgId: SLD-MTG-BBX-PIPCOLLECTOR-EN
       tcgplayerProductId: '523185'
       tntId: '1801794'
-    release_date: '2024-03-08'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Fallout Collector Booster Pack
+        set: pip
   Fallout Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
+    release_date: '2024-03-08'
     identifiers:
       tcgplayerProductId: '525081'
-    release_date: '2024-03-08'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Fallout Collector Booster Box
+        set: pip
   Fallout Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2024-03-08'
     identifiers:
       abuId: '2470261'
       cardKingdomId: '291469'
@@ -32,24 +44,36 @@ products:
       scgId: SLD-MTG-PCK-PIPCOLLECTOR-EN
       tcgplayerProductId: '523180'
       tntId: '1801795'
-    release_date: '2024-03-08'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: pip
   Fallout Collector Booster Sample Pack:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    release_date: '2023-11-14'
     identifiers:
       cardtraderId: '265025'
       mcmId: '745338'
       tcgplayerProductId: '579919'
-    release_date: '2023-11-14'
-    subtype: PROMOTIONAL
+    contents:
+      card_count: 2
+      pack:
+      - code: collector-sample
+        set: pip
   Fallout Commander Deck Display:
     category: DECK_BOX
+    subtype: COMMANDER
+    release_date: '2024-03-08'
     identifiers:
       tcgplayerProductId: '524616'
-    release_date: '2024-03-08'
-    subtype: COMMANDER
+    contents:
+      copy: Fallout Commander Decks Set of 4
   Fallout Commander Deck Hail Caesar:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2024-03-08'
     identifiers:
       abuId: '2470262'
       cardKingdomId: '291464'
@@ -60,10 +84,23 @@ products:
       scgId: SLD-MTG-MLT-PIP-EN-CAESAR
       tcgplayerProductId: '522903'
       tntId: '1801789'
-    release_date: '2024-03-08'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Hail, Caesar
+        set: pip
+      other:
+      - name: Foil etched display commander
+      - name: 10 double sided tokens
+      - name: life wheel
+      sealed:
+      - count: 1
+        name: Fallout Collector Booster Sample Pack
+        set: pip
   Fallout Commander Deck Mutant Menace:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2024-03-08'
     identifiers:
       abuId: '2470264'
       cardKingdomId: '291465'
@@ -74,10 +111,23 @@ products:
       scgId: SLD-MTG-MLT-PIP-EN-MUTANT
       tcgplayerProductId: '522902'
       tntId: '1801790'
-    release_date: '2024-03-08'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Mutant Menace
+        set: pip
+      other:
+      - name: Foil etched display commander
+      - name: 10 double sided tokens
+      - name: life wheel
+      sealed:
+      - count: 1
+        name: Fallout Collector Booster Sample Pack
+        set: pip
   Fallout Commander Deck Science:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2024-03-08'
     identifiers:
       abuId: '2470263'
       cardKingdomId: '291466'
@@ -88,10 +138,23 @@ products:
       scgId: SLD-MTG-MLT-PIP-EN-SCIENCE
       tcgplayerProductId: '522905'
       tntId: '1801791'
-    release_date: '2024-03-08'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Science!
+        set: pip
+      other:
+      - name: Foil etched display commander
+      - name: 10 double sided tokens
+      - name: life wheel
+      sealed:
+      - count: 1
+        name: Fallout Collector Booster Sample Pack
+        set: pip
   Fallout Commander Deck Scrappy Survivors:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2024-03-08'
     identifiers:
       abuId: '2470355'
       cardKingdomId: '291467'
@@ -102,10 +165,23 @@ products:
       scgId: SLD-MTG-MLT-PIP-EN-SCRAPPY
       tcgplayerProductId: '522899'
       tntId: '1801792'
-    release_date: '2024-03-08'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Scrappy Survivors
+        set: pip
+      other:
+      - name: Foil etched display commander
+      - name: 10 double sided tokens
+      - name: life wheel
+      sealed:
+      - count: 1
+        name: Fallout Collector Booster Sample Pack
+        set: pip
   Fallout Commander Decks Set of 4:
     category: SUBSET
+    subtype: COMMANDER
+    release_date: '2023-11-14'
     identifiers:
       cardKingdomId: '291470'
       cardtraderId: '276281'
@@ -114,5 +190,17 @@ products:
       mcmId: '745337'
       scgId: SLD-MTG-MLT-PIP-EN-SET4
       tntId: '1801793'
-    release_date: '2023-11-14'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Fallout Commander Deck Hail Caesar
+        set: pip
+      - count: 1
+        name: Fallout Commander Deck Mutant Menace
+        set: pip
+      - count: 1
+        name: Fallout Commander Deck Science
+        set: pip
+      - count: 1
+        name: Fallout Commander Deck Scrappy Survivors
+        set: pip

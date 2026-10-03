@@ -2,6 +2,7 @@ code: sth
 products:
   Stronghold Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1108013'
       cardKingdomId: '124151'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-STH-EN
       tcgplayerProductId: '27307'
       tntId: '89055'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Stronghold Booster Pack
+        set: sth
   Stronghold Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Stronghold Booster Box
+        set: sth
   Stronghold Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476945'
       cardKingdomId: '1196'
@@ -29,9 +40,14 @@ products:
       scgId: SLD-MTG-PCK-STH-EN
       tcgplayerProductId: '27369'
       tntId: '89056'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: sth
   Stronghold Theme Deck Call of the Kor:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101177'
       cardKingdomId: '1197'
@@ -40,17 +56,36 @@ products:
       mcmId: '253786'
       tcgplayerProductId: '139150'
       tntId: '106944'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Call of the Kor
+        set: sth
   Stronghold Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       cardtraderId: '45338'
       mcmId: '210240'
       tcgplayerProductId: '677508'
       tntId: '89067'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 3
+        name: Stronghold Theme Deck Call of the Kor
+        set: sth
+      - count: 3
+        name: Stronghold Theme Deck Migraine
+        set: sth
+      - count: 3
+        name: Stronghold Theme Deck The Sparkler
+        set: sth
+      - count: 3
+        name: Stronghold Theme Deck The Spikes
+        set: sth
   Stronghold Theme Deck Migraine:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101178'
       cardKingdomId: '1198'
@@ -59,9 +94,14 @@ products:
       mcmId: '253787'
       tcgplayerProductId: '175072'
       tntId: '106951'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Migraine
+        set: sth
   Stronghold Theme Deck The Sparkler:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101179'
       cardKingdomId: '1199'
@@ -70,9 +110,14 @@ products:
       mcmId: '253788'
       tcgplayerProductId: '139149'
       tntId: '106921'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: The Sparkler
+        set: sth
   Stronghold Theme Deck The Spikes:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101180'
       cardKingdomId: '1200'
@@ -81,9 +126,27 @@ products:
       mcmId: '253789'
       tcgplayerProductId: '175071'
       tntId: '106955'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: The Spikes
+        set: sth
   Stronghold Theme Decks Set of 4:
     category: SUBSET
+    subtype: THEME
     identifiers:
       abuId: '1101181'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Stronghold Theme Deck Call of the Kor
+        set: sth
+      - count: 1
+        name: Stronghold Theme Deck Migraine
+        set: sth
+      - count: 1
+        name: Stronghold Theme Deck The Sparkler
+        set: sth
+      - count: 1
+        name: Stronghold Theme Deck The Spikes
+        set: sth

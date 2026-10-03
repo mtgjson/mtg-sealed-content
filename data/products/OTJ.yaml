@@ -2,6 +2,8 @@ code: otj
 products:
   Outlaws of Thunder Junction Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2024-04-19'
     identifiers:
       abuId: '2483173'
       cardKingdomId: '293675'
@@ -12,16 +14,37 @@ products:
       scgId: SLD-MTG-BUN-OTJ-EN
       tcgplayerProductId: '541094'
       tntId: '1804842'
-    release_date: '2024-04-19'
-    subtype: DEFAULT
+    contents:
+      card:
+      - foil: true
+        name: The Key to the Vault
+        number: 373
+        set: otj
+      deck:
+      - name: Outlaws of Thunder Junction Bundle Land Pack
+        set: otj
+      other:
+      - name: Outlaws of Thunder Junction Spindown
+      - name: Card Storage Box
+      sealed:
+      - count: 9
+        name: Outlaws of Thunder Junction Play Booster Pack
+        set: otj
   Outlaws of Thunder Junction Bundle Case:
     category: BUNDLE_CASE
+    subtype: DEFAULT
+    release_date: '2024-04-19'
     identifiers:
       tcgplayerProductId: '541095'
-    release_date: '2024-04-19'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 6
+        name: Outlaws of Thunder Junction Bundle
+        set: otj
   Outlaws of Thunder Junction Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2024-04-19'
     identifiers:
       abuId: '2483178'
       cardKingdomId: '293673'
@@ -32,16 +55,26 @@ products:
       scgId: SLD-MTG-BBX-OTJCOLLECTOR-EN
       tcgplayerProductId: '541090'
       tntId: '1804843'
-    release_date: '2024-04-19'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Outlaws of Thunder Junction Collector Booster Pack
+        set: otj
   Outlaws of Thunder Junction Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
+    release_date: '2024-04-19'
     identifiers:
       tcgplayerProductId: '541091'
-    release_date: '2024-04-19'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Outlaws of Thunder Junction Collector Booster Box
+        set: otj
   Outlaws of Thunder Junction Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2024-04-19'
     identifiers:
       abuId: '2483179'
       cardKingdomId: '293674'
@@ -52,26 +85,46 @@ products:
       scgId: SLD-MTG-PCK-OTJCOLLECTOR-EN
       tcgplayerProductId: '541086'
       tntId: '1804844'
-    release_date: '2024-04-19'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: otj
   Outlaws of Thunder Junction Collector Booster Sample Pack:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
     identifiers:
       mcmId: '764492'
       tcgplayerProductId: '579918'
-    subtype: PROMOTIONAL
+    contents:
+      card_count: 2
+      pack:
+      - code: collector-sample
+        set: otj
   Outlaws of Thunder Junction MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '293776'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 286
+      deck:
+      - name: Outlaws of Thunder Junction Redemption
+        set: otj
   Outlaws of Thunder Junction MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '293777'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 286
+      deck:
+      - name: Outlaws of Thunder Junction Foil Redemption
+        set: otj
   Outlaws of Thunder Junction Play Booster Box:
     category: BOOSTER_BOX
+    subtype: PLAY
+    release_date: '2024-04-19'
     identifiers:
       abuId: '2483180'
       cardKingdomId: '293670'
@@ -83,17 +136,27 @@ products:
       scgId: SLD-MTG-BBX-OTJPLAY-EN
       tcgplayerProductId: '541084'
       tntId: '1804840'
-    release_date: '2024-04-19'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 36
+        name: Outlaws of Thunder Junction Play Booster Pack
+        set: otj
   Outlaws of Thunder Junction Play Booster Box Case:
     category: BOOSTER_CASE
+    subtype: PLAY
+    release_date: '2024-04-19'
     identifiers:
       scgId: SLD-MTG-BBX-OTJPLAYCASE-EN
       tcgplayerProductId: '541085'
-    release_date: '2024-04-19'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 6
+        name: Outlaws of Thunder Junction Play Booster Box
+        set: otj
   Outlaws of Thunder Junction Play Booster Pack:
     category: BOOSTER_PACK
+    subtype: PLAY
+    release_date: '2024-04-19'
     identifiers:
       abuId: '2483181'
       cardKingdomId: '293672'
@@ -105,10 +168,15 @@ products:
       scgId: SLD-MTG-PCK-OTJPLAY-EN
       tcgplayerProductId: '541083'
       tntId: '1804841'
-    release_date: '2024-04-19'
-    subtype: PLAY
+    contents:
+      card_count: 14
+      pack:
+      - code: play
+        set: otj
   Outlaws of Thunder Junction Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2024-04-19'
     identifiers:
       abuId: '2483191'
       cardKingdomId: '293676'
@@ -116,5 +184,14 @@ products:
       mcmId: '758321'
       scgId: SLD-MTG-INT-OTJPRE-EN
       tcgplayerProductId: '541082'
-    release_date: '2024-04-19'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: Outlaws of Thunder Junction Spindown
+      pack:
+      - code: prerelease
+        set: otj
+      sealed:
+      - count: 6
+        name: Outlaws of Thunder Junction Play Booster Pack
+        set: otj

@@ -2,6 +2,7 @@ code: ddl
 products:
   Duel Deck Heroes vs Monsters:
     category: MULTI_DECK
+    subtype: DUEL
     identifiers:
       abuId: '1100587'
       cardKingdomId: '191063'
@@ -12,23 +13,45 @@ products:
       scgId: SLD-MTG-BXS-DDL-EN
       tcgplayerProductId: '70927'
       tntId: '1026931'
-    subtype: DUEL
+    contents:
+      sealed:
+      - count: 1
+        name: Duel Deck Heroes vs Monsters Heroes Deck
+        set: ddl
+      - count: 1
+        name: Duel Deck Heroes vs Monsters Monsters Deck
+        set: ddl
   Duel Deck Heroes vs Monsters Display:
     category: DECK_BOX
+    subtype: DUEL
     identifiers:
       cardtraderId: '48016'
       mcmId: '263891'
       tntId: '1026930'
-    subtype: DUEL
+    contents:
+      sealed:
+      - count: 6
+        name: Duel Deck Heroes vs Monsters
+        set: ddl
   Duel Deck Heroes vs Monsters Heroes Deck:
     category: DECK
+    subtype: DUEL
     identifiers:
       cardtraderId: '48014'
       mcmId: '263889'
-    subtype: DUEL
+    contents:
+      card_count: 60
+      deck:
+      - name: Heroes
+        set: ddl
   Duel Deck Heroes vs Monsters Monsters Deck:
     category: DECK
+    subtype: DUEL
     identifiers:
       cardtraderId: '48015'
       mcmId: '263890'
-    subtype: DUEL
+    contents:
+      card_count: 60
+      deck:
+      - name: Monsters
+        set: ddl

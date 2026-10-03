@@ -2,71 +2,131 @@ code: psal
 products:
   Salvat Theme Deck Elfos:
     category: DECK
+    subtype: THEME
     identifiers:
       cardtraderId: '51009'
       mcmId: '256962'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Elves
+        set: psal
   Salvat Theme Deck Embestida Salvaje:
     category: DECK
+    subtype: THEME
     identifiers:
       cardtraderId: '51015'
       mcmId: '256968'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Berserk
+        set: psal
   Salvat Theme Deck Espíritus:
     category: DECK
+    subtype: THEME
     identifiers:
       cardtraderId: '51010'
       mcmId: '256963'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Spirits
+        set: psal
   Salvat Theme Deck Fragmentadores:
     category: DECK
+    subtype: THEME
     identifiers:
       cardtraderId: '51011'
       mcmId: '256964'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Slivers
+        set: psal
   Salvat Theme Deck Ganado:
     category: DECK
-    identifiers: {}
     subtype: THEME
+    identifiers: {}
+    contents:
+      card_count: 60
+      deck:
+      - name: Beasts
+        set: psal
   Salvat Theme Deck Gatos:
     category: DECK
-    identifiers: {}
     subtype: THEME
+    identifiers: {}
+    contents:
+      card_count: 60
+      deck:
+      - name: Cats
+        set: psal
   Salvat Theme Deck Hechiceros:
     category: DECK
+    subtype: THEME
     identifiers:
       cardtraderId: '51014'
       mcmId: '256967'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Wizards
+        set: psal
   Salvat Theme Deck Ninjas:
     category: DECK
+    subtype: THEME
     identifiers:
       cardtraderId: '51016'
       hareruyaId: '27211'
       mcmId: '256969'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Ninjas
+        set: psal
   Salvat Theme Deck Ratas Hambrientas:
     category: DECK
+    subtype: THEME
     identifiers:
       cardtraderId: '51008'
       mcmId: '256961'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Ravenous Rats
+        set: psal
   Salvat Theme Deck Tálidos y Saprolines:
     category: DECK
+    subtype: THEME
     identifiers:
       cardtraderId: '51013'
       mcmId: '256966'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Thallids
+        set: psal
   Salvat Theme Deck Zombies:
     category: DECK
+    subtype: THEME
     identifiers:
       cardtraderId: '51012'
       hareruyaId: '27212'
       mcmId: '256965'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Zombies
+        set: psal
   Salvat Theme Deck Ángeles:
     category: DECK
+    subtype: THEME
     identifiers:
       cardtraderId: '51017'
       mcmId: '256970'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Angels
+        set: psal

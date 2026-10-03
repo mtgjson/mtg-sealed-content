@@ -8,7 +8,7 @@ Thank you for your interest in contributing to **mtg-sealed-content**! This repo
 
 This is the most common and impactful way to contribute. If you notice a sealed product is missing or has incorrect contents, you can submit a fix by editing the appropriate YAML file in the `data/` directory.
 
-Each set has two YAML files named after its set code: `data/products/ONE.yaml` defines the products of *Phyrexia: All Will Be One* and `data/contents/ONE.yaml` describes what is inside them. Every contents entry must name a product in the products file, so rename a product in both files at once. Contents use the types documented in the [README](README.md): `card`, `pack`, `deck`, `sealed`, `variable`, `other`, and `copy`.
+Each set has one YAML file named after its set code: `data/products/ONE.yaml` defines the products of *Phyrexia: All Will Be One*, and each product's `contents:` key describes what is inside it. Contents use the types documented in the [README](README.md): `card`, `pack`, `deck`, `sealed`, `variable`, `other`, and `copy`.
 
 ### Reporting Issues
 
@@ -25,7 +25,7 @@ The `scripts/` directory contains the Python tooling that compiles the YAML data
 ### Making a Data Contribution
 
 1. **Fork** the repository and create a new branch for your changes.
-2. **Find or create** the set's files in `data/products/` and `data/contents/`. File names correspond to set codes (uppercase).
+2. **Find or create** the set's file in `data/products/`. File names correspond to set codes (uppercase).
 3. **Add or edit** the product entry using the correct content types.
 4. **Do not** manually add `uuid` fields — these are calculated automatically by the compiler.
 5. **Test** your changes by running the compile scripts to ensure valid output:

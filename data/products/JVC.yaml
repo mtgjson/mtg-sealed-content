@@ -2,11 +2,21 @@ code: jvc
 products:
   Duel Deck Anthology Chandra Deck:
     category: DECK
+    subtype: DUEL
     identifiers:
       mcmId: '270805'
-    subtype: DUEL
+    contents:
+      card_count: 60
+      deck:
+      - name: Chandra
+        set: jvc
   Duel Deck Anthology Jace Deck:
     category: DECK
+    subtype: DUEL
     identifiers:
       mcmId: '270804'
-    subtype: DUEL
+    contents:
+      card_count: 60
+      deck:
+      - name: Jace
+        set: jvc

@@ -2,6 +2,7 @@ code: drb
 products:
   From the Vault Dragons:
     category: BOX_SET
+    subtype: FROM_THE_VAULT
     identifiers:
       abuId: '1100061'
       cardKingdomId: '125605'
@@ -11,4 +12,10 @@ products:
       scgId: SLD-MTG-BXS-DRB-EN
       tcgplayerProductId: '32808'
       tntId: '225713'
-    subtype: FROM_THE_VAULT
+    contents:
+      card_count: 15
+      deck:
+      - name: 'From the Vault: Dragons'
+        set: drb
+      other:
+      - name: From the Vault Dragons Spindown life counter

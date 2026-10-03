@@ -2,6 +2,7 @@ code: lrw
 products:
   Lorwyn Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1100731'
       cardKingdomId: '123483'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-LRW-EN
       tcgplayerProductId: '27288'
       tntId: '160527'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Lorwyn Booster Pack
+        set: lrw
   Lorwyn Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Lorwyn Booster Box
+        set: lrw
   Lorwyn Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476895'
       cardKingdomId: '123484'
@@ -29,9 +40,14 @@ products:
       scgId: SLD-MTG-PCK-LRW-EN
       tcgplayerProductId: '27350'
       tntId: '160528'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: lrw
   Lorwyn Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1100732'
       cardKingdomId: '123486'
@@ -42,19 +58,43 @@ products:
       scgId: SLD-MTG-BUN-LRW-EN
       tcgplayerProductId: '78317'
       tntId: '160531'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Lorwyn Fat Pack Land Pack
+        set: lrw
+      other:
+      - name: 2 Card Storage Boxes
+      - name: Lorwyn Spindown
+      - name: One random Pro Tour Player Card
+      - name: The Lorwyn novel
+      - name: Six color-coded plastic card dividers
+      sealed:
+      - count: 6
+        name: Lorwyn Booster Pack
+        set: lrw
   Lorwyn MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241649'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 301
+      deck:
+      - name: Lorwyn Redemption
+        set: lrw
   Lorwyn MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241648'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 301
+      deck:
+      - name: Lorwyn Foil Redemption
+        set: lrw
   Lorwyn Theme Deck Boggart Feast:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100734'
       cardKingdomId: '123783'
@@ -63,16 +103,37 @@ products:
       mcmId: '253643'
       tcgplayerProductId: '214971'
       tntId: '160536'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Boggart Feast
+        set: lrw
+      other:
+      - name: One random Pro Tour Player Card
   Lorwyn Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       abuId: '1107904'
       cardtraderId: '47251'
       mcmId: '210210'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 3
+        name: Lorwyn Theme Deck Elementals Path
+        set: lrw
+      - count: 3
+        name: Lorwyn Theme Deck Elvish Predation
+        set: lrw
+      - count: 3
+        name: Lorwyn Theme Deck Kithkin Militia
+        set: lrw
+      - count: 3
+        name: Lorwyn Theme Deck Merrow Riverways
+        set: lrw
   Lorwyn Theme Deck Elementals Path:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100735'
       cardKingdomId: '123786'
@@ -81,9 +142,16 @@ products:
       mcmId: '253644'
       tcgplayerProductId: '214972'
       tntId: '171230'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Elementals' Path
+        set: lrw
+      other:
+      - name: One random Pro Tour Player Card
   Lorwyn Theme Deck Elvish Predation:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100737'
       cardKingdomId: '123782'
@@ -92,9 +160,16 @@ products:
       mcmId: '253645'
       tcgplayerProductId: '214968'
       tntId: '160535'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Elvish Predation
+        set: lrw
+      other:
+      - name: One random Pro Tour Player Card
   Lorwyn Theme Deck Kithkin Militia:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100738'
       cardKingdomId: '123784'
@@ -103,9 +178,16 @@ products:
       mcmId: '253646'
       tcgplayerProductId: '214969'
       tntId: '160537'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Kithkin Militia
+        set: lrw
+      other:
+      - name: One random Pro Tour Player Card
   Lorwyn Theme Deck Merrow Riverways:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1107902'
       cardKingdomId: '123785'
@@ -114,9 +196,16 @@ products:
       mcmId: '253647'
       tcgplayerProductId: '214970'
       tntId: '160538'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Merrow Riverways
+        set: lrw
+      other:
+      - name: One random Pro Tour Player Card
   Lorwyn Tournament Pack:
     category: LIMITED
+    subtype: TOURNAMENT
     identifiers:
       abuId: '1100733'
       cardKingdomId: '123487'
@@ -126,9 +215,16 @@ products:
       scgId: SLD-MTG-PCK-LRWTOURNAMENT-EN
       tcgplayerProductId: '118878'
       tntId: '160534'
-    subtype: TOURNAMENT
+    contents:
+      card_count: 75
+      other:
+      - name: One random Pro Tour Player Card
+      pack:
+      - code: tournament
+        set: lrw
   Lorwyn Tournament Pack Display:
     category: LIMITED_CASE
+    subtype: TOURNAMENT
     identifiers:
       abuId: '1107899'
       cardKingdomId: '240164'
@@ -137,4 +233,8 @@ products:
       scgId: SLD-MTG-BBX-LRWTOURNAMENT-EN
       tcgplayerProductId: '641599'
       tntId: '160533'
-    subtype: TOURNAMENT
+    contents:
+      sealed:
+      - count: 12
+        name: Lorwyn Tournament Pack
+        set: lrw

@@ -2,6 +2,7 @@ code: cma
 products:
   Commander Anthology:
     category: BOX_SET
+    subtype: COMMANDER
     identifiers:
       abuId: '1476863'
       cardKingdomId: '212386'
@@ -11,32 +12,68 @@ products:
       scgId: SLD-MTG-MLT-CMA-EN
       tcgplayerProductId: '131447'
       tntId: '1118790'
-    subtype: COMMANDER
+    contents:
+      other:
+      - name: 4 Specialized Life Counters
+      - name: Tokens for All Decks
+      sealed:
+      - count: 1
+        name: Commander Anthology Commander Deck Evasive Maneuvers
+        set: cma
+      - count: 1
+        name: Commander Anthology Commander Deck Guided by Nature
+        set: cma
+      - count: 1
+        name: Commander Anthology Commander Deck Heavenly Inferno
+        set: cma
+      - count: 1
+        name: Commander Anthology Commander Deck Plunder the Graves
+        set: cma
   Commander Anthology Commander Deck Evasive Maneuvers:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2017-06-01'
     identifiers:
       cardtraderId: '48541'
       mcmId: '298276'
-    release_date: '2017-06-01'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Evasive Maneuvers
+        set: cma
   Commander Anthology Commander Deck Guided by Nature:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2017-06-01'
     identifiers:
       cardtraderId: '48538'
       mcmId: '298277'
-    release_date: '2017-06-01'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Guided by Nature
+        set: cma
   Commander Anthology Commander Deck Heavenly Inferno:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2017-06-01'
     identifiers:
       cardtraderId: '48539'
       mcmId: '298278'
-    release_date: '2017-06-01'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Heavenly Inferno
+        set: cma
   Commander Anthology Commander Deck Plunder the Graves:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2017-06-01'
     identifiers:
       cardtraderId: '48540'
       mcmId: '298279'
-    release_date: '2017-06-01'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Plunder the Graves
+        set: cma

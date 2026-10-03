@@ -2,13 +2,23 @@ code: khc
 products:
   Kaldheim Commander Deck Display:
     category: DECK_BOX
+    subtype: COMMANDER
+    release_date: '2021-02-05'
     identifiers:
       tcgplayerProductId: '229374'
       tntId: '1685221'
-    release_date: '2021-02-05'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 3
+        name: Kaldheim Commander Deck Elven Empire
+        set: khc
+      - count: 3
+        name: Kaldheim Commander Deck Phantom Premonition
+        set: khc
   Kaldheim Commander Deck Elven Empire:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2021-02-05'
     identifiers:
       abuId: '1963696'
       cardKingdomId: '240295'
@@ -19,10 +29,18 @@ products:
       scgId: SLD-MTG-MLT-KHC-EN-ELVEN
       tcgplayerProductId: '229377'
       tntId: '1685219'
-    release_date: '2021-02-05'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Elven Empire
+        set: khc
+      other:
+      - name: Kaldheim Life Wheel
+      - name: 10 Double Sided Tokens
   Kaldheim Commander Deck Phantom Premonition:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2021-02-05'
     identifiers:
       abuId: '1963695'
       cardKingdomId: '240296'
@@ -33,10 +51,18 @@ products:
       scgId: SLD-MTG-MLT-KHC-EN-PHANTOM
       tcgplayerProductId: '229376'
       tntId: '1685220'
-    release_date: '2021-02-05'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Phantom Premonition
+        set: khc
+      other:
+      - name: Kaldheim Life Wheel
+      - name: 10 Double Sided Tokens
   Kaldheim Commander Decks Set of 2:
     category: SUBSET
+    subtype: COMMANDER
+    release_date: '2021-02-05'
     identifiers:
       cardtraderId: '151550'
       csiId: '302501'
@@ -44,5 +70,11 @@ products:
       mcmId: '527715'
       scgId: SLD-MTG-MLT-KHC-EN-SET2
       tcgplayerProductId: '229375'
-    release_date: '2021-02-05'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Kaldheim Commander Deck Elven Empire
+        set: khc
+      - count: 1
+        name: Kaldheim Commander Deck Phantom Premonition
+        set: khc

@@ -2,11 +2,17 @@ code: m11
 products:
   2011 Core Set 3 Booster Draft Pack:
     category: LIMITED
+    subtype: DRAFT_SET
     identifiers:
       tcgplayerProductId: '35375'
-    subtype: DRAFT_SET
+    contents:
+      sealed:
+      - count: 3
+        name: 2011 Core Set Booster Pack
+        set: m11
   2011 Core Set Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1107907'
       cardKingdomId: '131448'
@@ -17,14 +23,24 @@ products:
       scgId: SLD-MTG-BBX-M11-EN
       tcgplayerProductId: '35372'
       tntId: '289828'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: 2011 Core Set Booster Pack
+        set: m11
   2011 Core Set Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '35373'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: 2011 Core Set Booster Box
+        set: m11
   2011 Core Set Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476897'
       cardKingdomId: '131449'
@@ -35,9 +51,14 @@ products:
       scgId: SLD-MTG-PCK-M11-EN
       tcgplayerProductId: '35374'
       tntId: '289829'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: m11
   2011 Core Set Deck Builders Toolkit:
     category: KIT
+    subtype: DECK_BUILDERS_TOOLKIT
     identifiers:
       abuId: '1100373'
       cardKingdomId: '205591'
@@ -45,9 +66,61 @@ products:
       mcmId: '261009'
       tcgplayerProductId: '92503'
       tntId: '305828'
-    subtype: DECK_BUILDERS_TOOLKIT
+    contents:
+      card_count: 225
+      deck:
+      - name: Fixed Content
+        set: mbs
+      sealed:
+      - count: 2
+        name: 2011 Core Set Booster Pack
+        set: m11
+      - count: 1
+        name: Mirrodin Besieged Booster Pack
+        set: mbs
+      - count: 1
+        name: Scars of Mirrodin Booster Pack
+        set: som
+      variable:
+      - deck:
+        - name: Battle Cry
+          set: mbs
+      - deck:
+        - name: Black Discard
+          set: mbs
+      - deck:
+        - name: Blue-White Flyers
+          set: mbs
+      - deck:
+        - name: Elves
+          set: mbs
+      - deck:
+        - name: Vampires
+          set: mbs
+      - deck:
+        - name: Library Depletion
+          set: mbs
+      - deck:
+        - name: Mana Ramp
+          set: mbs
+      - deck:
+        - name: Metalcraft
+          set: mbs
+      - deck:
+        - name: Red Burn
+          set: mbs
+      - deck:
+        - name: White Equipment
+          set: mbs
+      - deck:
+        - name: White-Green Aura
+          set: mbs
+      variable_mode:
+        count: 4
+        replacement: false
   2011 Core Set Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1100746'
       cardKingdomId: '131450'
@@ -58,9 +131,23 @@ products:
       scgId: SLD-MTG-BUN-M11-EN
       tcgplayerProductId: '35382'
       tntId: '289830'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Magic 2011 Fat Pack Land Pack
+        set: m11
+      other:
+      - name: Magic 2011 Card Box
+      - name: Magic 2011 Player's Guide
+      - name: Learn-to-Play Insert
+      - name: Magic 2011 Spindown Life Counter
+      sealed:
+      - count: 8
+        name: 2011 Core Set Booster Pack
+        set: m11
   2011 Core Set Intro Pack Blades of Victory:
     category: DECK
+    subtype: INTRO
+    release_date: '2007-01-01'
     identifiers:
       abuId: '1100742'
       cardKingdomId: '131451'
@@ -70,10 +157,18 @@ products:
       scgId: SLD-MTG-INT-M11INTRO-EN-BLADES
       tcgplayerProductId: '35376'
       tntId: '289832'
-    release_date: '2007-01-01'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Blades of Victory
+        set: m11
+      sealed:
+      - count: 1
+        name: 2011 Core Set Booster Pack
+        set: m11
   2011 Core Set Intro Pack Breath of Fire:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100749'
       cardKingdomId: '131453'
@@ -83,16 +178,42 @@ products:
       scgId: SLD-MTG-INT-M11INTRO-EN-BREATH
       tcgplayerProductId: '35379'
       tntId: '289835'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Breath of Fire
+        set: m11
+      sealed:
+      - count: 1
+        name: 2011 Core Set Booster Pack
+        set: m11
   2011 Core Set Intro Pack Display:
     category: DECK_BOX
+    subtype: INTRO
     identifiers:
       cardtraderId: '47521'
       mcmId: '241077'
       tntId: '289831'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 2
+        name: 2011 Core Set Intro Pack Blades of Victory
+        set: m11
+      - count: 2
+        name: 2011 Core Set Intro Pack Breath of Fire
+        set: m11
+      - count: 2
+        name: 2011 Core Set Intro Pack Power of Prophecy
+        set: m11
+      - count: 2
+        name: 2011 Core Set Intro Pack Reign of Vampirism
+        set: m11
+      - count: 2
+        name: 2011 Core Set Intro Pack Stampede of Beasts
+        set: m11
   2011 Core Set Intro Pack Power of Prophecy:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100750'
       cardKingdomId: '131456'
@@ -101,9 +222,18 @@ products:
       scgId: SLD-MTG-INT-M11INTRO-EN-POWER
       tcgplayerProductId: '35377'
       tntId: '289833'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Power of Prophecy
+        set: m11
+      sealed:
+      - count: 1
+        name: 2011 Core Set Booster Pack
+        set: m11
   2011 Core Set Intro Pack Reign of Vampirism:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100752'
       cardKingdomId: '131452'
@@ -112,9 +242,18 @@ products:
       scgId: SLD-MTG-INT-M11INTRO-EN-REIGN
       tcgplayerProductId: '35378'
       tntId: '289834'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Reign of Vampirism
+        set: m11
+      sealed:
+      - count: 1
+        name: 2011 Core Set Booster Pack
+        set: m11
   2011 Core Set Intro Pack Stampede of Beasts:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100754'
       cardKingdomId: '131454'
@@ -124,62 +263,162 @@ products:
       scgId: SLD-MTG-INT-M11INTRO-EN-STAMPEDE
       tcgplayerProductId: '35380'
       tntId: '289836'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Stampede of Beasts
+        set: m11
+      sealed:
+      - count: 1
+        name: 2011 Core Set Booster Pack
+        set: m11
   2011 Core Set Land Station:
     category: KIT
+    subtype: LAND_STATION
     identifiers:
       tcgplayerProductId: '215046'
-    subtype: LAND_STATION
   2011 Core Set MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210887'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 249
+      deck:
+      - name: Magic 2011 Redemption
+        set: m11
   2011 Core Set MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210875'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 249
+      deck:
+      - name: Magic 2011 Foil Redemption
+        set: m11
   2011 Core Set Sample Deck Ajani Goldmane:
     category: DECK
+    subtype: STARTER
     identifiers:
       cardtraderId: '47516'
       mcmId: '287570'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      variable:
+      - deck:
+        - name: White Deck A
+          set: m11
+      - deck:
+        - name: White Deck B
+          set: m11
+      variable_mode:
+        count: 1
+        replacement: false
   2011 Core Set Sample Deck Chandra Nalaar:
     category: DECK
+    subtype: STARTER
     identifiers:
       cardtraderId: '47517'
       mcmId: '287571'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      variable:
+      - deck:
+        - name: Red Deck A
+          set: m11
+      - deck:
+        - name: Red Deck B
+          set: m11
+      variable_mode:
+        count: 1
+        replacement: false
   2011 Core Set Sample Deck Garruk Wildspeaker:
     category: DECK
+    subtype: STARTER
     identifiers:
       cardtraderId: '47518'
       mcmId: '287572'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      variable:
+      - deck:
+        - name: Green Deck A
+          set: m11
+      - deck:
+        - name: Green Deck B
+          set: m11
+      variable_mode:
+        count: 1
+        replacement: false
   2011 Core Set Sample Deck Jace Beleren:
     category: DECK
+    subtype: STARTER
     identifiers:
       cardtraderId: '47519'
       mcmId: '287573'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      variable:
+      - deck:
+        - name: Blue Deck A
+          set: m11
+      - deck:
+        - name: Blue Deck B
+          set: m11
+      variable_mode:
+        count: 1
+        replacement: false
   2011 Core Set Sample Deck Liliana Vess:
     category: DECK
+    subtype: STARTER
     identifiers:
       cardtraderId: '47520'
       mcmId: '287574'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      variable:
+      - deck:
+        - name: Black Deck A
+          set: m11
+      - deck:
+        - name: Black Deck B
+          set: m11
+      variable_mode:
+        count: 1
+        replacement: false
   2011 Core Set Set of 5 Intro Pack:
     category: SUBSET
+    subtype: INTRO
     identifiers:
       abuId: '1100753'
       tcgplayerProductId: '35381'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 1
+        name: 2011 Core Set Intro Pack Blades of Victory
+        set: m11
+      - count: 1
+        name: 2011 Core Set Intro Pack Breath of Fire
+        set: m11
+      - count: 1
+        name: 2011 Core Set Intro Pack Power of Prophecy
+        set: m11
+      - count: 1
+        name: 2011 Core Set Intro Pack Reign of Vampirism
+        set: m11
+      - count: 1
+        name: 2011 Core Set Intro Pack Stampede of Beasts
+        set: m11
   2011 Core Set Six Card Booster Pack:
     category: BOOSTER_PACK
+    subtype: SIX
     identifiers:
       cardtraderId: '47501'
       mcmId: '253815'
       tcgplayerProductId: '244377'
-    subtype: SIX
+    contents:
+      card_count: 6
+      pack:
+      - code: six
+        set: m11

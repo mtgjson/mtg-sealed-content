@@ -2,6 +2,7 @@ code: msh
 products:
   Marvel Super Heroes Beginner Box:
     category: BOX_SET
+    subtype: STARTER
     identifiers:
       abuId: '2686957'
       cardKingdomId: '327049'
@@ -10,14 +11,49 @@ products:
       miniaturemarketId: 019c06a2a79f733fa39031207956adee
       scgId: SLD-MTG-BXS-MSHBEGINNER-EN
       tcgplayerProductId: '675613'
-    subtype: STARTER
+    contents:
+      card_count: 200
+      deck:
+      - name: Beginner Box - Heroes
+        set: msh
+      - name: Beginner Box - Captain America Tutorial
+        set: msh
+      - name: Beginner Box - Artifacts
+        set: msh
+      - name: Beginner Box - Card Draw
+        set: msh
+      - name: Beginner Box - HYDRA
+        set: msh
+      - name: Beginner Box - Villains
+        set: msh
+      - name: Beginner Box - Iron Man Tutorial
+        set: msh
+      - name: Beginner Box - Young Avengers
+        set: msh
+      - name: Beginner Box - Counters
+        set: msh
+      - name: Beginner Box - Ramp
+        set: msh
+      other:
+      - name: 5 double-sided tokens
+      - name: 2 Gameboard playmats
+      - name: 2 How to Play guides
+      - name: 2 Reference cards
+      - name: Reference guide booklet
+      - name: 2 Spindown life counters
   Marvel Super Heroes Beginner Box Case:
     category: BOX_SET
+    subtype: STARTER
     identifiers:
       tcgplayerProductId: '675614'
-    subtype: STARTER
+    contents:
+      sealed:
+      - count: 3
+        name: Marvel Super Heroes Beginner Box
+        set: msh
   Marvel Super Heroes Bundle:
     category: BUNDLE
+    subtype: DEFAULT
     identifiers:
       abuId: '2686958'
       cardKingdomId: '327048'
@@ -26,15 +62,38 @@ products:
       miniaturemarketId: 019c06a268fb70b5a070c45a8729f9bd
       scgId: SLD-MTG-BUN-MSH-EN
       tcgplayerProductId: '675615'
-    subtype: DEFAULT
+    contents:
+      card:
+      - foil: true
+        name: The Scarlet Witch
+        number: 431
+        set: msh
+      card_count: 1
+      deck:
+      - name: Marvel Super Heroes Bundle Land Pack
+        set: msh
+      other:
+      - name: 2 Reference cards
+      - name: Oversized spindown life counter
+      - name: Card storage box
+      sealed:
+      - count: 9
+        name: Marvel Super Heroes Play Booster Pack
+        set: msh
   Marvel Super Heroes Bundle Case:
     category: BUNDLE_CASE
+    subtype: DEFAULT
     identifiers:
       cardtraderId: '405216'
       tcgplayerProductId: '675616'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 6
+        name: Marvel Super Heroes Bundle
+        set: msh
   Marvel Super Heroes Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
     identifiers:
       abuId: '2686905'
       cardKingdomId: '327042'
@@ -43,19 +102,34 @@ products:
       miniaturemarketId: 019c06a1cb7773f0ad583d51c9fd4bbe
       scgId: SLD-MTG-BBX-MSH-EN
       tcgplayerProductId: '675606'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Marvel Super Heroes Collector Booster Pack
+        set: msh
   Marvel Super Heroes Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '675607'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Marvel Super Heroes Collector Booster Box
+        set: msh
   Marvel Super Heroes Collector Booster Box Master Case:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '675608'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 24
+        name: Marvel Super Heroes Collector Booster Box
+        set: msh
   Marvel Super Heroes Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
     identifiers:
       abuId: '2686904'
       cardKingdomId: '327041'
@@ -64,9 +138,14 @@ products:
       miniaturemarketId: 019c06a1d5f0712693e05f3da3115a69
       scgId: SLD-MTG-PCK-MSHCOLLECTOR-EN
       tcgplayerProductId: '675605'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: msh
   Marvel Super Heroes Draft Night:
     category: LIMITED
+    subtype: DRAFT
     identifiers:
       abuId: '2686962'
       cardKingdomId: '327047'
@@ -75,14 +154,34 @@ products:
       miniaturemarketId: 019c06a29dd4722981ba3d6a41018cff
       scgId: SLD-MTG-DFT-MSH-EN
       tcgplayerProductId: '675625'
-    subtype: DRAFT
+    contents:
+      deck:
+      - name: Marvel Super Heroes Draft Night Land Pack
+        set: msh
+      other:
+      - name: 1 Draft insert
+      - name: 10 Non-foil double-sided tokens
+      sealed:
+      - count: 12
+        name: Marvel Super Heroes Play Booster Pack
+        set: msh
+      - count: 1
+        name: Marvel Super Heroes Collector Booster Pack
+        set: msh
   Marvel Super Heroes Draft Night Case:
     category: LIMITED_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '675626'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Marvel Super Heroes Draft Night
+        set: msh
   Marvel Super Heroes Gift Bundle:
     category: BUNDLE
+    subtype: GIFT_BUNDLE
+    release_date: '2026-07-17'
     identifiers:
       abuId: '2686961'
       cardKingdomId: '327064'
@@ -91,21 +190,51 @@ products:
       miniaturemarketId: 019c06a2745570b4a0c96b085e33b38f
       scgId: SLD-MTG-BUN-MSHGIFT-EN
       tcgplayerProductId: '675617'
-    release_date: '2026-07-17'
-    subtype: GIFT_BUNDLE
+    contents:
+      card:
+      - foil: true
+        name: Daredevil, Man Without Fear
+        number: 432
+        set: msh
+      card_count: 1
+      deck:
+      - name: Marvel Super Heroes Gift Bundle Land Pack
+        set: msh
+      other:
+      - name: 2 Reference cards
+      - name: Oversized spindown life counter
+      - name: Card storage box
+      sealed:
+      - count: 9
+        name: Marvel Super Heroes Play Booster Pack
+        set: msh
+      - count: 1
+        name: Marvel Super Heroes Collector Booster Pack
+        set: msh
   Marvel Super Heroes Gift Bundle Case:
     category: BUNDLE_CASE
+    subtype: GIFT_BUNDLE
     identifiers:
       cardtraderId: '405215'
       tcgplayerProductId: '675618'
-    subtype: GIFT_BUNDLE
+    contents:
+      sealed:
+      - count: 6
+        name: Marvel Super Heroes Gift Bundle
+        set: msh
   Marvel Super Heroes Jumpstart 2 Booster Pack:
     category: BOOSTER_PACK
+    subtype: UNKNOWN
     identifiers:
       tcgplayerProductId: '707093'
-    subtype: UNKNOWN
+    contents:
+      sealed:
+      - count: 2
+        name: Marvel Super Heroes Jumpstart Booster Pack
+        set: msh
   Marvel Super Heroes Jumpstart Booster Box:
     category: BOOSTER_BOX
+    subtype: JUMPSTART
     identifiers:
       abuId: '2686929'
       cardKingdomId: '327044'
@@ -114,14 +243,24 @@ products:
       miniaturemarketId: 019c06a2560a7194afe63628f18840e4
       scgId: SLD-MTG-BBX-MSHJUMPSTART-EN
       tcgplayerProductId: '675623'
-    subtype: JUMPSTART
+    contents:
+      sealed:
+      - count: 24
+        name: Marvel Super Heroes Jumpstart Booster Pack
+        set: msh
   Marvel Super Heroes Jumpstart Booster Box Case:
     category: BOOSTER_CASE
+    subtype: JUMPSTART
     identifiers:
       tcgplayerProductId: '675624'
-    subtype: JUMPSTART
+    contents:
+      sealed:
+      - count: 6
+        name: Marvel Super Heroes Jumpstart Booster Box
+        set: msh
   Marvel Super Heroes Jumpstart Booster Pack:
     category: BOOSTER_PACK
+    subtype: JUMPSTART
     identifiers:
       abuId: '2686927'
       cardKingdomId: '327043'
@@ -130,9 +269,14 @@ products:
       miniaturemarketId: 019c06a25f6573b1bbd678573603c0a3
       scgId: SLD-MTG-PCK-MSHJUMPSTART-EN
       tcgplayerProductId: '675622'
-    subtype: JUMPSTART
+    contents:
+      card_count: 20
+      pack:
+      - code: jumpstart
+        set: msh
   Marvel Super Heroes Play Booster Box:
     category: BOOSTER_BOX
+    subtype: PLAY
     identifiers:
       abuId: '2686903'
       cardKingdomId: '327046'
@@ -141,15 +285,25 @@ products:
       miniaturemarketId: 019c06a1b846728597414ac125184e78
       scgId: SLD-MTG-BBX-MSHPLAY-EN
       tcgplayerProductId: '675603'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 30
+        name: Marvel Super Heroes Play Booster Pack
+        set: msh
   Marvel Super Heroes Play Booster Box Case:
     category: BOOSTER_CASE
+    subtype: PLAY
     identifiers:
       scgId: SLD-MTG-BBX-MSHPLAYCASE-EN
       tcgplayerProductId: '675604'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 6
+        name: Marvel Super Heroes Play Booster Box
+        set: msh
   Marvel Super Heroes Play Booster Pack:
     category: BOOSTER_PACK
+    subtype: PLAY
     identifiers:
       abuId: '2686902'
       cardKingdomId: '327045'
@@ -158,14 +312,30 @@ products:
       miniaturemarketId: 019c06a1c136703eadc0f58e22736741
       scgId: SLD-MTG-PCK-MSHPLAY-EN
       tcgplayerProductId: '675602'
-    subtype: PLAY
+    contents:
+      card_count: 14
+      pack:
+      - code: play
+        set: msh
   Marvel Super Heroes Play Pack:
     category: BOX_SET
+    subtype: OTHER
     identifiers:
       tcgplayerProductId: '705736'
-    subtype: OTHER
+    contents:
+      card:
+      - foil: true
+        name: Spider-Man, Peter Parker
+        number: 2026-9
+        set: pmei
+      card_count: 1
+      sealed:
+      - count: 3
+        name: Marvel Super Heroes Play Booster Pack
+        set: msh
   Marvel Super Heroes Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '2687007'
       cardtraderId: '370627'
@@ -173,21 +343,46 @@ products:
       miniaturemarketId: 019c06a2b2df709397e62129af97d97b
       scgId: SLD-MTG-PRE-MSH-EN
       tcgplayerProductId: '675610'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: Deck box
+      - name: Spindown die
+      pack:
+      - code: prerelease
+        set: msh
+      sealed:
+      - count: 6
+        name: Marvel Super Heroes Play Booster Pack
+        set: msh
   Marvel Super Heroes Prerelease Pack Case:
     category: LIMITED_CASE
+    subtype: PRERELEASE
     identifiers:
       tcgplayerProductId: '675611'
-    subtype: PRERELEASE
+    contents:
+      sealed:
+      - count: 15
+        name: Marvel Super Heroes Prerelease Pack
+        set: msh
   Marvel Super Heroes Scene Box Case:
     category: BOX_SET
+    subtype: OTHER
     identifiers:
       cardKingdomId: '327053'
       miniaturemarketId: 019c06a285627116a4998fb933691b58
       tcgplayerProductId: '675621'
-    subtype: OTHER
+    contents:
+      sealed:
+      - count: 2
+        name: Marvel Super Heroes Scene Box Heroes United
+        set: msh
+      - count: 2
+        name: Marvel Super Heroes Scene Box Villains Unleashed
+        set: msh
   Marvel Super Heroes Scene Box Heroes United:
     category: BOX_SET
+    subtype: OTHER
     identifiers:
       abuId: '2686959'
       cardKingdomId: '327051'
@@ -196,9 +391,21 @@ products:
       miniaturemarketId: 019c06a28b077313ba2c21dc4eb74aa3
       scgId: SLD-MTG-BXS-MSHSCENE-EN-UNITED
       tcgplayerProductId: '675619'
-    subtype: OTHER
+    contents:
+      card_count: 6
+      deck:
+      - name: Heroes United
+        set: msh
+      other:
+      - name: 6 Art-Only Scene Cards
+      - name: Marvel Super Heroes Display Easel
+      sealed:
+      - count: 3
+        name: Marvel Super Heroes Play Booster Pack
+        set: msh
   Marvel Super Heroes Scene Box Villains Unleashed:
     category: BOX_SET
+    subtype: OTHER
     identifiers:
       abuId: '2686960'
       cardKingdomId: '327052'
@@ -207,34 +414,70 @@ products:
       miniaturemarketId: 019c06a29492727c83a73ba32bd5330d
       scgId: SLD-MTG-BXS-MSHSCENE-EN-VILLAINS
       tcgplayerProductId: '675620'
-    subtype: OTHER
+    contents:
+      card_count: 6
+      deck:
+      - name: Villains Unleashed
+        set: msh
+      other:
+      - name: 6 Art-Only Scene Cards
+      - name: Marvel Super Heroes Display Easel
+      sealed:
+      - count: 3
+        name: Marvel Super Heroes Play Booster Pack
+        set: msh
   Marvel Super Heroes Welcome Deck Black:
     category: DECK
+    subtype: WELCOME
     identifiers:
       cardtraderId: '395271'
       mcmId: '894059'
-    subtype: WELCOME
+    contents:
+      card_count: 30
+      deck:
+      - name: Black Deck
+        set: msh
   Marvel Super Heroes Welcome Deck Blue:
     category: DECK
+    subtype: WELCOME
     identifiers:
       cardtraderId: '395270'
       mcmId: '894058'
-    subtype: WELCOME
+    contents:
+      card_count: 30
+      deck:
+      - name: Blue Deck
+        set: msh
   Marvel Super Heroes Welcome Deck Green:
     category: DECK
+    subtype: WELCOME
     identifiers:
       cardtraderId: '395273'
       mcmId: '894062'
-    subtype: WELCOME
+    contents:
+      card_count: 30
+      deck:
+      - name: Green Deck
+        set: msh
   Marvel Super Heroes Welcome Deck Red:
     category: DECK
+    subtype: WELCOME
     identifiers:
       cardtraderId: '395272'
       mcmId: '894060'
-    subtype: WELCOME
+    contents:
+      card_count: 30
+      deck:
+      - name: Red Deck
+        set: msh
   Marvel Super Heroes Welcome Deck White:
     category: DECK
+    subtype: WELCOME
     identifiers:
       cardtraderId: '395269'
       mcmId: '894057'
-    subtype: WELCOME
+    contents:
+      card_count: 30
+      deck:
+      - name: White Deck
+        set: msh

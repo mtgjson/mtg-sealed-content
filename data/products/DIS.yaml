@@ -2,6 +2,7 @@ code: dis
 products:
   Dissension Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1100389'
       cardKingdomId: '120115'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-DIS-EN
       tcgplayerProductId: '27273'
       tntId: '137770'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Dissension Booster Pack
+        set: dis
   Dissension Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Dissension Booster Box
+        set: dis
   Dissension Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476870'
       cardKingdomId: '120116'
@@ -29,9 +40,14 @@ products:
       scgId: SLD-MTG-PCK-DIS-EN
       tcgplayerProductId: '27335'
       tntId: '137771'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: dis
   Dissension Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1100390'
       cardKingdomId: '120120'
@@ -42,19 +58,43 @@ products:
       scgId: SLD-MTG-BUN-DIS-EN
       tcgplayerProductId: '78309'
       tntId: '155110'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Ravnica Fat Pack Land Pack
+        set: rav
+      other:
+      - name: Dissension Player's Guide and Visual Encyclopedia
+      - name: 2 Card Boxes and 6 Dividers
+      - name: Dissension Life Counter
+      - name: Random Pro Tour Player Card
+      - name: Dissension Novel
+      sealed:
+      - count: 6
+        name: Dissension Booster Pack
+        set: dis
   Dissension MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241637'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 180
+      deck:
+      - name: Dissension Redemption
+        set: dis
   Dissension MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241636'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 180
+      deck:
+      - name: Dissension Foil Redemption
+        set: dis
   Dissension Theme Deck Azorius Ascendant:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100391'
       cardKingdomId: '120483'
@@ -63,17 +103,36 @@ products:
       mcmId: '253669'
       tcgplayerProductId: '96343'
       tntId: '137773'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Azorius Ascendant
+        set: dis
+      other:
+      - name: Dissension Azorius Ascendant Strategy Guide
+      - name: One random Pro Tour Player Card
   Dissension Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       abuId: '1476871'
       cardtraderId: '47104'
       mcmId: '210222'
       tntId: '137772'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 4
+        name: Dissension Theme Deck Azorius Ascendant
+        set: dis
+      - count: 4
+        name: Dissension Theme Deck Rakdos Bloodsport
+        set: dis
+      - count: 4
+        name: Dissension Theme Deck Simic Mutology
+        set: dis
   Dissension Theme Deck Rakdos Bloodsport:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100394'
       cardKingdomId: '120484'
@@ -82,9 +141,17 @@ products:
       mcmId: '253670'
       tcgplayerProductId: '96344'
       tntId: '137775'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Rakdos Bloodsport
+        set: dis
+      other:
+      - name: Dissension Rakdos Bloodsport Strategy Guide
+      - name: One random Pro Tour Player Card
   Dissension Theme Deck Simic Mutology:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100395'
       cardKingdomId: '120485'
@@ -93,4 +160,11 @@ products:
       mcmId: '253671'
       tcgplayerProductId: '96345'
       tntId: '137774'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Simic Mutology
+        set: dis
+      other:
+      - name: Dissension Simic Mutology Strategy Guide
+      - name: One random Pro Tour Player Card

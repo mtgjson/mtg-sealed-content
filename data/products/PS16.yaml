@@ -2,6 +2,7 @@ code: ps16
 products:
   SDCC 2016 Zombie Planeswalker Set:
     category: BOX_SET
+    subtype: CONVENTION
     identifiers:
       cardKingdomId: '223231'
       cardtraderId: '40375'
@@ -9,4 +10,8 @@ products:
       hareruyaId: '26252'
       tcgplayerProductId: '121360'
       tntId: '1182822'
-    subtype: CONVENTION
+    contents:
+      card_count: 5
+      deck:
+      - name: SDCC 2016 Zombie Planeswalker Set
+        set: ps16

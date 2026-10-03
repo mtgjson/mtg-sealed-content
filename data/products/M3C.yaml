@@ -2,6 +2,8 @@ code: m3c
 products:
   Modern Horizons 3 Commander Deck Creative Energy:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2024-06-14'
     identifiers:
       abuId: '2498104'
       cardKingdomId: '295756'
@@ -13,10 +15,24 @@ products:
       scgId: SLD-MTG-MLT-M3CREGULAR-EN-CREATIVE
       tcgplayerProductId: '541194'
       tntId: '1807291'
-    release_date: '2024-06-14'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Creative Energy
+        set: m3c
+      other:
+      - name: Life wheel
+      - name: 10 double sided tokens
+      - name: Deck box
+      - name: Strategy insert
+      sealed:
+      - count: 1
+        name: Modern Horizons 3 Collector Booster Sample Pack
+        set: mh3
   Modern Horizons 3 Commander Deck Creative Energy Collectors Edition:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2024-06-14'
     identifiers:
       abuId: '2498105'
       cardKingdomId: '295760'
@@ -27,22 +43,64 @@ products:
       scgId: SLD-MTG-MLT-M3CCOLLECTOR-EN-CREATIVE
       tcgplayerProductId: '541199'
       tntId: '1808908'
-    release_date: '2024-06-14'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Creative Energy Collector's Edition
+        set: m3c
+      other:
+      - name: Life wheel
+      - name: 10 double-sided tokens (ripple foil front, non-foil back)
+      - name: Deck box
+      - name: Strategy insert
+      sealed:
+      - count: 1
+        name: Modern Horizons 3 Collector Booster Sample Pack
+        set: mh3
   Modern Horizons 3 Commander Deck Display:
     category: DECK_BOX
+    subtype: COMMANDER
+    release_date: '2024-06-14'
     identifiers:
       tcgplayerProductId: '541196'
-    release_date: '2024-06-14'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Modern Horizons 3 Commander Deck Creative Energy
+        set: m3c
+      - count: 1
+        name: Modern Horizons 3 Commander Deck Eldrazi Incursion
+        set: m3c
+      - count: 1
+        name: Modern Horizons 3 Commander Deck Graveyard Overdrive
+        set: m3c
+      - count: 1
+        name: Modern Horizons 3 Commander Deck Tricky Terrain
+        set: m3c
   Modern Horizons 3 Commander Deck Display Collectors Edition:
     category: DECK_BOX
+    subtype: COMMANDER
+    release_date: '2024-06-14'
     identifiers:
       tcgplayerProductId: '541202'
-    release_date: '2024-06-14'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Modern Horizons 3 Commander Deck Creative Energy Collectors Edition
+        set: m3c
+      - count: 1
+        name: Modern Horizons 3 Commander Deck Eldrazi Incursion Collectors Edition
+        set: m3c
+      - count: 1
+        name: Modern Horizons 3 Commander Deck Graveyard Overdrive Collectors Edition
+        set: m3c
+      - count: 1
+        name: Modern Horizons 3 Commander Deck Tricky Terrain Collectors Edition
+        set: m3c
   Modern Horizons 3 Commander Deck Eldrazi Incursion:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2024-06-14'
     identifiers:
       abuId: '2498106'
       cardKingdomId: '295757'
@@ -53,10 +111,24 @@ products:
       scgId: SLD-MTG-MLT-M3CREGULAR-EN-ELDRAZI
       tcgplayerProductId: '541195'
       tntId: '1807292'
-    release_date: '2024-06-14'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Eldrazi Incursion
+        set: m3c
+      other:
+      - name: Life wheel
+      - name: 10 double sided tokens
+      - name: Deck box
+      - name: Strategy insert
+      sealed:
+      - count: 1
+        name: Modern Horizons 3 Collector Booster Sample Pack
+        set: mh3
   Modern Horizons 3 Commander Deck Eldrazi Incursion Collectors Edition:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2024-06-14'
     identifiers:
       abuId: '2498107'
       cardKingdomId: '295761'
@@ -67,10 +139,24 @@ products:
       scgId: SLD-MTG-MLT-M3CCOLLECTOR-EN-ELDRAZI
       tcgplayerProductId: '541200'
       tntId: '1808907'
-    release_date: '2024-06-14'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Eldrazi Incursion Collector's Edition
+        set: m3c
+      other:
+      - name: Life wheel
+      - name: 10 double-sided tokens (ripple foil front, non-foil back)
+      - name: Deck box
+      - name: Strategy insert
+      sealed:
+      - count: 1
+        name: Modern Horizons 3 Collector Booster Sample Pack
+        set: mh3
   Modern Horizons 3 Commander Deck Graveyard Overdrive:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2024-06-14'
     identifiers:
       abuId: '2498093'
       cardKingdomId: '295754'
@@ -82,10 +168,24 @@ products:
       scgId: SLD-MTG-MLT-M3CREGULAR-EN-GRAVEYARD
       tcgplayerProductId: '541192'
       tntId: '1807289'
-    release_date: '2024-06-14'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Graveyard Overdrive
+        set: m3c
+      other:
+      - name: Life wheel
+      - name: 10 double sided tokens
+      - name: Deck box
+      - name: Strategy insert
+      sealed:
+      - count: 1
+        name: Modern Horizons 3 Collector Booster Sample Pack
+        set: mh3
   Modern Horizons 3 Commander Deck Graveyard Overdrive Collectors Edition:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2024-06-14'
     identifiers:
       abuId: '2498101'
       cardKingdomId: '295758'
@@ -96,10 +196,24 @@ products:
       scgId: SLD-MTG-MLT-M3CCOLLECTOR-EN-GRAVEYARD
       tcgplayerProductId: '541197'
       tntId: '1808909'
-    release_date: '2024-06-14'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Graveyard Overdrive Collector's Edition
+        set: m3c
+      other:
+      - name: Life wheel
+      - name: 10 double-sided tokens (ripple foil front, non-foil back)
+      - name: Deck box
+      - name: Strategy insert
+      sealed:
+      - count: 1
+        name: Modern Horizons 3 Collector Booster Sample Pack
+        set: mh3
   Modern Horizons 3 Commander Deck Tricky Terrain:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2024-06-14'
     identifiers:
       abuId: '2498102'
       cardKingdomId: '295755'
@@ -110,10 +224,24 @@ products:
       scgId: SLD-MTG-MLT-M3CREGULAR-EN-TRICKY
       tcgplayerProductId: '541193'
       tntId: '1807290'
-    release_date: '2024-06-14'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Tricky Terrain
+        set: m3c
+      other:
+      - name: Life wheel
+      - name: 10 double sided tokens
+      - name: Deck box
+      - name: Strategy insert
+      sealed:
+      - count: 1
+        name: Modern Horizons 3 Collector Booster Sample Pack
+        set: mh3
   Modern Horizons 3 Commander Deck Tricky Terrain Collectors Edition:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2024-06-14'
     identifiers:
       abuId: '2498103'
       cardKingdomId: '295759'
@@ -124,10 +252,24 @@ products:
       scgId: SLD-MTG-MLT-M3CCOLLECTOR-EN-TRICKY
       tcgplayerProductId: '541198'
       tntId: '1808906'
-    release_date: '2024-06-14'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Tricky Terrain Collector's Edition
+        set: m3c
+      other:
+      - name: Life wheel
+      - name: 10 double-sided tokens (ripple foil front, non-foil back)
+      - name: Deck box
+      - name: Strategy insert
+      sealed:
+      - count: 1
+        name: Modern Horizons 3 Collector Booster Sample Pack
+        set: mh3
   Modern Horizons 3 Commander Decks Set of 4:
     category: SUBSET
+    subtype: COMMANDER
+    release_date: '2024-06-14'
     identifiers:
       cardKingdomId: '295762'
       cardtraderId: '280722'
@@ -135,15 +277,41 @@ products:
       mcmId: '759888'
       scgId: SLD-MTG-MLT-M3CREGULAR-EN-SET4
       tntId: '1807293'
-    release_date: '2024-06-14'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Modern Horizons 3 Commander Deck Creative Energy
+        set: m3c
+      - count: 1
+        name: Modern Horizons 3 Commander Deck Eldrazi Incursion
+        set: m3c
+      - count: 1
+        name: Modern Horizons 3 Commander Deck Graveyard Overdrive
+        set: m3c
+      - count: 1
+        name: Modern Horizons 3 Commander Deck Tricky Terrain
+        set: m3c
   Modern Horizons 3 Commander Decks Set of 4 Collectors Edition:
     category: SUBSET
+    subtype: COMMANDER
+    release_date: '2024-06-14'
     identifiers:
       cardKingdomId: '295763'
       cardtraderId: '280723'
       csiId: '383226'
       mcmId: '759887'
       scgId: SLD-MTG-MLT-M3CCOLLECTOR-EN-SET4
-    release_date: '2024-06-14'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Modern Horizons 3 Commander Deck Creative Energy Collectors Edition
+        set: m3c
+      - count: 1
+        name: Modern Horizons 3 Commander Deck Eldrazi Incursion Collectors Edition
+        set: m3c
+      - count: 1
+        name: Modern Horizons 3 Commander Deck Graveyard Overdrive Collectors Edition
+        set: m3c
+      - count: 1
+        name: Modern Horizons 3 Commander Deck Tricky Terrain Collectors Edition
+        set: m3c

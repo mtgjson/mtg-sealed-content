@@ -2,19 +2,31 @@ code: 2xm
 products:
   Double Masters 3 Booster Draft Pack:
     category: LIMITED
+    subtype: DRAFT_SET
+    release_date: '2020-08-07'
     identifiers:
       tcgplayerProductId: '215119'
-    release_date: '2020-08-07'
-    subtype: DRAFT_SET
+    contents:
+      sealed:
+      - count: 3
+        name: Double Masters Draft Booster Pack
+        set: 2xm
   Double Masters Box Topper Pack:
     category: BOOSTER_PACK
+    subtype: TOPPER
     identifiers:
       cardtraderId: '348431'
       mcmId: '679618'
       tcgplayerProductId: '220466'
-    subtype: TOPPER
+    contents:
+      card_count: 2
+      pack:
+      - code: box-topper
+        set: 2xm
   Double Masters Draft Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2020-08-07'
     identifiers:
       abuId: '1875859'
       cardKingdomId: '235949'
@@ -24,16 +36,29 @@ products:
       mcmId: '462549'
       scgId: SLD-MTG-BBX-2XMDRAFT-EN
       tcgplayerProductId: '214823'
-    release_date: '2020-08-07'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 24
+        name: Double Masters Draft Booster Pack
+        set: 2xm
+      - count: 1
+        name: Double Masters Box Topper Pack
+        set: 2xm
   Double Masters Draft Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2020-08-07'
     identifiers:
       tcgplayerProductId: '215120'
-    release_date: '2020-08-07'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 4
+        name: Double Masters Draft Booster Box
+        set: 2xm
   Double Masters Draft Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2020-08-07'
     identifiers:
       abuId: '1883516'
       cardKingdomId: '235950'
@@ -43,21 +68,36 @@ products:
       mcmId: '462554'
       scgId: SLD-MTG-PCK-2XMDRAFT-EN
       tcgplayerProductId: '214824'
-    release_date: '2020-08-07'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: 2xm
   Double Masters VIP Edition Booster Box:
     category: BOOSTER_BOX
+    subtype: PREMIUM
+    release_date: '2020-08-07'
     identifiers:
       tcgplayerProductId: '215304'
-    release_date: '2020-08-07'
-    subtype: PREMIUM
+    contents:
+      sealed:
+      - count: 4
+        name: Double Masters VIP Edition Booster Pack
+        set: 2xm
   Double Masters VIP Edition Booster Box Case:
     category: BOOSTER_CASE
+    subtype: PREMIUM
     identifiers:
       tcgplayerProductId: '215305'
-    subtype: PREMIUM
+    contents:
+      sealed:
+      - count: 4
+        name: Double Masters VIP Edition Booster Box
+        set: 2xm
   Double Masters VIP Edition Booster Pack:
     category: BOOSTER_PACK
+    subtype: PREMIUM
+    release_date: '2020-08-07'
     identifiers:
       abuId: '1875860'
       cardKingdomId: '235951'
@@ -67,5 +107,10 @@ products:
       mcmId: '482384'
       scgId: SLD-MTG-PCK-2XMVIP-EN
       tcgplayerProductId: '215084'
-    release_date: '2020-08-07'
-    subtype: PREMIUM
+    contents:
+      card_count: 33
+      other:
+      - name: 2 foil double-sided tokens
+      pack:
+      - code: vip
+        set: 2xm

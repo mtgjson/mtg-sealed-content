@@ -32,7 +32,7 @@ Use the repository's dependency environment. `build_jsons` requires an output ar
 
 ```
 python3 scripts/contents_validator.py
-git diff --check -- data/contents/SET.yaml
+git diff --check -- data/products/SET.yaml
 ```
 
 The validator may emit pre-existing category/subtype warnings and rewrite `status.txt`; retain its output and distinguish success from warnings. It does not prove that a deck/booster reference resolves upstream. Check the new references against fresh exports separately. Don't stage the generated status/output files.

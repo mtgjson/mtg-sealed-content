@@ -2,6 +2,8 @@ code: cn2
 products:
   Conspiracy Take the Crown Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2016-03-01'
     identifiers:
       abuId: '1100339'
       cardKingdomId: '208061'
@@ -12,15 +14,25 @@ products:
       scgId: SLD-MTG-BBX-CN2-EN
       tcgplayerProductId: '120965'
       tntId: '1098357'
-    release_date: '2016-03-01'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Conspiracy Take the Crown Booster Pack
+        set: cn2
   Conspiracy Take the Crown Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '120966'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Conspiracy Take the Crown Booster Box
+        set: cn2
   Conspiracy Take the Crown Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2016-03-01'
     identifiers:
       abuId: '1526823'
       cardKingdomId: '208063'
@@ -31,5 +43,8 @@ products:
       scgId: SLD-MTG-PCK-CN2-EN
       tcgplayerProductId: '120967'
       tntId: '1098358'
-    release_date: '2016-03-01'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: cn2

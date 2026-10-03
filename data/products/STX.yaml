@@ -2,6 +2,8 @@ code: stx
 products:
   Strixhaven School of Mages Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2021-04-23'
     identifiers:
       abuId: '2012071'
       cardKingdomId: '243707'
@@ -12,10 +14,26 @@ products:
       scgId: SLD-MTG-BUN-STX-EN
       tcgplayerProductId: '233245'
       tntId: '1699176'
-    release_date: '2021-04-23'
-    subtype: DEFAULT
+    contents:
+      card:
+      - foil: true
+        name: Archmage Emeritus
+        number: 377
+        set: stx
+      deck:
+      - name: Strixhaven Bundle Land Pack
+        set: stx
+      other:
+      - name: Strixhaven Premium Spindown
+      - name: Strixhaven Card Storage Box
+      sealed:
+      - count: 10
+        name: Strixhaven School of Mages Draft Booster Pack
+        set: stx
   Strixhaven School of Mages Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2021-04-23'
     identifiers:
       abuId: '2012065'
       cardKingdomId: '243708'
@@ -26,15 +44,25 @@ products:
       scgId: SLD-MTG-BBX-STXCOLLECTOR-EN
       tcgplayerProductId: '233232'
       tntId: '1699179'
-    release_date: '2021-04-23'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Strixhaven School of Mages Collector Booster Pack
+        set: stx
   Strixhaven School of Mages Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '644853'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Strixhaven School of Mages Collector Booster Box
+        set: stx
   Strixhaven School of Mages Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2021-04-23'
     identifiers:
       abuId: '2688791'
       cardKingdomId: '243709'
@@ -45,10 +73,15 @@ products:
       scgId: SLD-MTG-PCK-STXCOLLECTOR-EN
       tcgplayerProductId: '233230'
       tntId: '1699180'
-    release_date: '2021-04-23'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: stx
   Strixhaven School of Mages Draft Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2021-04-23'
     identifiers:
       abuId: '2012067'
       cardKingdomId: '243710'
@@ -59,16 +92,26 @@ products:
       scgId: SLD-MTG-BBX-STXDRAFT-EN
       tcgplayerProductId: '233249'
       tntId: '1699174'
-    release_date: '2021-04-23'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Strixhaven School of Mages Draft Booster Pack
+        set: stx
   Strixhaven School of Mages Draft Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2021-04-23'
     identifiers:
       tcgplayerProductId: '233254'
-    release_date: '2021-04-23'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Strixhaven School of Mages Draft Booster Box
+        set: stx
   Strixhaven School of Mages Draft Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2021-04-23'
     identifiers:
       abuId: '2688792'
       cardKingdomId: '243711'
@@ -79,70 +122,167 @@ products:
       scgId: SLD-MTG-PCK-STXDRAFT-EN
       tcgplayerProductId: '233248'
       tntId: '1699175'
-    release_date: '2021-04-23'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: stx
   Strixhaven School of Mages MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '245435'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 275
+      deck:
+      - name: 'Strixhaven: School of Mages Redemption'
+        set: stx
   Strixhaven School of Mages MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '245434'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 275
+      deck:
+      - name: 'Strixhaven: School of Mages Foil Redemption'
+        set: stx
   Strixhaven School of Mages Prerelease Pack Lorehold:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2021-02-19'
     identifiers:
       cardKingdomId: '243725'
       cardtraderId: '153211'
       mcmId: '540291'
       tcgplayerProductId: '233309'
-    release_date: '2021-02-19'
-    subtype: PRERELEASE
+    contents:
+      card_count: 14
+      other:
+      - name: Strixhaven Spindown
+      - name: 2 College Booster tokens
+      - name: MTG Arena code card (available in select regions)
+      pack:
+      - code: prerelease-lorehold
+        set: stx
+      sealed:
+      - count: 5
+        name: Strixhaven School of Mages Draft Booster Pack
+        set: stx
   Strixhaven School of Mages Prerelease Pack Prismari:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2021-02-19'
     identifiers:
       cardKingdomId: '243726'
       cardtraderId: '153208'
       mcmId: '540311'
       tcgplayerProductId: '233310'
-    release_date: '2021-02-19'
-    subtype: PRERELEASE
+    contents:
+      card_count: 14
+      other:
+      - name: Strixhaven Spindown
+      - name: 2 College Booster tokens
+      - name: MTG Arena code card (available in select regions)
+      pack:
+      - code: prerelease-prismari
+        set: stx
+      sealed:
+      - count: 5
+        name: Strixhaven School of Mages Draft Booster Pack
+        set: stx
   Strixhaven School of Mages Prerelease Pack Quandrix:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2021-02-19'
     identifiers:
       cardKingdomId: '243727'
       cardtraderId: '153212'
       mcmId: '540326'
       tcgplayerProductId: '233311'
-    release_date: '2021-02-19'
-    subtype: PRERELEASE
+    contents:
+      card_count: 14
+      other:
+      - name: Strixhaven Spindown
+      - name: 2 College Booster tokens
+      - name: MTG Arena code card (available in select regions)
+      pack:
+      - code: prerelease-quandrix
+        set: stx
+      sealed:
+      - count: 5
+        name: Strixhaven School of Mages Draft Booster Pack
+        set: stx
   Strixhaven School of Mages Prerelease Pack Set of 5:
     category: SUBSET
+    subtype: PRERELEASE
     identifiers:
       tcgplayerProductId: '233312'
-    subtype: PRERELEASE
+    contents:
+      sealed:
+      - count: 1
+        name: Strixhaven School of Mages Prerelease Pack Lorehold
+        set: stx
+      - count: 1
+        name: Strixhaven School of Mages Prerelease Pack Prismari
+        set: stx
+      - count: 1
+        name: Strixhaven School of Mages Prerelease Pack Quandrix
+        set: stx
+      - count: 1
+        name: Strixhaven School of Mages Prerelease Pack Silverquill
+        set: stx
+      - count: 1
+        name: Strixhaven School of Mages Prerelease Pack Witherbloom
+        set: stx
   Strixhaven School of Mages Prerelease Pack Silverquill:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2021-02-19'
     identifiers:
       cardKingdomId: '243728'
       cardtraderId: '153210'
       mcmId: '540336'
       tcgplayerProductId: '233313'
-    release_date: '2021-02-19'
-    subtype: PRERELEASE
+    contents:
+      card_count: 14
+      other:
+      - name: Strixhaven Spindown
+      - name: 2 College Booster tokens
+      - name: MTG Arena code card (available in select regions)
+      pack:
+      - code: prerelease-silverquill
+        set: stx
+      sealed:
+      - count: 5
+        name: Strixhaven School of Mages Draft Booster Pack
+        set: stx
   Strixhaven School of Mages Prerelease Pack Witherbloom:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2021-02-19'
     identifiers:
       cardKingdomId: '243729'
       cardtraderId: '153209'
       mcmId: '540351'
       tcgplayerProductId: '233314'
-    release_date: '2021-02-19'
-    subtype: PRERELEASE
+    contents:
+      card_count: 14
+      other:
+      - name: Strixhaven Spindown
+      - name: 2 College Booster tokens
+      - name: MTG Arena code card (available in select regions)
+      pack:
+      - code: prerelease-witherbloom
+        set: stx
+      sealed:
+      - count: 5
+        name: Strixhaven School of Mages Draft Booster Pack
+        set: stx
   Strixhaven School of Mages Set Booster Box:
     category: BOOSTER_BOX
+    subtype: SET
+    release_date: '2021-04-23'
     identifiers:
       abuId: '2005224'
       cardKingdomId: '243713'
@@ -153,15 +293,25 @@ products:
       scgId: SLD-MTG-BBX-STXSET-EN
       tcgplayerProductId: '233229'
       tntId: '1699177'
-    release_date: '2021-04-23'
-    subtype: SET
+    contents:
+      sealed:
+      - count: 30
+        name: Strixhaven School of Mages Set Booster Pack
+        set: stx
   Strixhaven School of Mages Set Booster Box Case:
     category: BOOSTER_CASE
+    subtype: SET
     identifiers:
       tcgplayerProductId: '643522'
-    subtype: SET
+    contents:
+      sealed:
+      - count: 6
+        name: Strixhaven School of Mages Set Booster Box
+        set: stx
   Strixhaven School of Mages Set Booster Pack:
     category: BOOSTER_PACK
+    subtype: SET
+    release_date: '2021-04-23'
     identifiers:
       abuId: '2688816'
       cardKingdomId: '243715'
@@ -172,22 +322,49 @@ products:
       scgId: SLD-MTG-PCK-STXSET-EN
       tcgplayerProductId: '233228'
       tntId: '1699178'
-    release_date: '2021-04-23'
-    subtype: SET
+    contents:
+      card_count: 12
+      pack:
+      - code: set
+        set: stx
   Strixhaven School of Mages Theme Booster Box:
     category: BOOSTER_BOX
+    subtype: THEME
+    release_date: '2021-04-23'
     identifiers:
       cardtraderId: '153221'
       mcmId: '540396'
       tcgplayerProductId: '233252'
-    release_date: '2021-04-23'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 2
+        name: Strixhaven School of Mages Theme Booster Pack Lorehold
+        set: stx
+      - count: 2
+        name: Strixhaven School of Mages Theme Booster Pack Prismari
+        set: stx
+      - count: 2
+        name: Strixhaven School of Mages Theme Booster Pack Quandrix
+        set: stx
+      - count: 2
+        name: Strixhaven School of Mages Theme Booster Pack Silverquill
+        set: stx
+      - count: 2
+        name: Strixhaven School of Mages Theme Booster Pack Witherbloom
+        set: stx
   Strixhaven School of Mages Theme Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: THEME
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Strixhaven School of Mages Theme Booster Box
+        set: stx
   Strixhaven School of Mages Theme Booster Pack Lorehold:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2021-04-23'
     identifiers:
       abuId: '2012059'
       cardtraderId: '153216'
@@ -195,51 +372,91 @@ products:
       mcmId: '540421'
       tcgplayerProductId: '233240'
       tntId: '1699169'
-    release_date: '2021-04-23'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-lorehold
+        set: stx
   Strixhaven School of Mages Theme Booster Pack Prismari:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2021-04-23'
     identifiers:
       abuId: '2012057'
       cardtraderId: '153217'
       mcmId: '540426'
       tcgplayerProductId: '233239'
       tntId: '1699168'
-    release_date: '2021-04-23'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-prismari
+        set: stx
   Strixhaven School of Mages Theme Booster Pack Quandrix:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2021-04-23'
     identifiers:
       abuId: '2012061'
       cardtraderId: '153218'
       mcmId: '540431'
       tcgplayerProductId: '233241'
       tntId: '1699170'
-    release_date: '2021-04-23'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-quandrix
+        set: stx
   Strixhaven School of Mages Theme Booster Pack Silverquill:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2021-04-23'
     identifiers:
       abuId: '2012053'
       cardtraderId: '153219'
       mcmId: '540436'
       tcgplayerProductId: '233236'
       tntId: '1699166'
-    release_date: '2021-04-23'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-silverquill
+        set: stx
   Strixhaven School of Mages Theme Booster Pack Witherbloom:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2021-04-23'
     identifiers:
       abuId: '2012055'
       cardtraderId: '153220'
       mcmId: '540441'
       tcgplayerProductId: '233238'
       tntId: '1699167'
-    release_date: '2021-04-23'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-witherbloom
+        set: stx
   Strixhaven School of Mages Theme Booster Set of 5:
     category: SUBSET
+    subtype: THEME
+    release_date: '2021-04-23'
     identifiers:
       tcgplayerProductId: '233261'
-    release_date: '2021-04-23'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Strixhaven School of Mages Theme Booster Pack Lorehold
+        set: stx
+      - count: 1
+        name: Strixhaven School of Mages Theme Booster Pack Prismari
+        set: stx
+      - count: 1
+        name: Strixhaven School of Mages Theme Booster Pack Quandrix
+        set: stx
+      - count: 1
+        name: Strixhaven School of Mages Theme Booster Pack Silverquill
+        set: stx
+      - count: 1
+        name: Strixhaven School of Mages Theme Booster Pack Witherbloom
+        set: stx

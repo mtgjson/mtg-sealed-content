@@ -2,6 +2,7 @@ code: ala
 products:
   Shards of Alara Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1101157'
       cardKingdomId: '125621'
@@ -12,14 +13,24 @@ products:
       scgId: SLD-MTG-BBX-ALA-EN
       tcgplayerProductId: '28640'
       tntId: '183777'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Shards of Alara Booster Pack
+        set: ala
   Shards of Alara Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '245883'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Shards of Alara Booster Box
+        set: ala
   Shards of Alara Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476942'
       cardKingdomId: '125622'
@@ -30,9 +41,14 @@ products:
       scgId: SLD-MTG-PCK-ALA-EN
       tcgplayerProductId: '28639'
       tntId: '183778'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: ala
   Shards of Alara Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       cardKingdomId: '125625'
       cardtraderId: '47324'
@@ -42,9 +58,21 @@ products:
       scgId: SLD-MTG-BUN-ALA-EN
       tcgplayerProductId: '78331'
       tntId: '183780'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Shards of Alara Fat Pack Land Pack
+        set: ala
+      other:
+      - name: Shards of Alara Planeswalker's guide to Alara
+      - name: 1 of 5 different card boxes with Shards of Alara artwork
+      - name: 1 Shards Spindown life counter
+      sealed:
+      - count: 8
+        name: Shards of Alara Booster Pack
+        set: ala
   Shards of Alara Intro Pack Bant Exalted:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1101158'
       cardKingdomId: '126131'
@@ -53,17 +81,43 @@ products:
       scgId: SLD-MTG-INT-ALAINTRO-EN-BANT
       tcgplayerProductId: '278889'
       tntId: '227271'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Bant Exalted
+        set: ala
+      sealed:
+      - count: 1
+        name: Shards of Alara Booster Pack
+        set: ala
   Shards of Alara Intro Pack Display:
     category: DECK_BOX
+    subtype: INTRO
     identifiers:
       abuId: '1108009'
       cardtraderId: '47331'
       mcmId: '210206'
       tntId: '183779'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 1
+        name: Shards of Alara Intro Pack Bant Exalted
+        set: ala
+      - count: 1
+        name: Shards of Alara Intro Pack Esper Artifice
+        set: ala
+      - count: 1
+        name: Shards of Alara Intro Pack Grixis Undead
+        set: ala
+      - count: 1
+        name: Shards of Alara Intro Pack Naya Behemoths
+        set: ala
+      - count: 1
+        name: Shards of Alara Intro Pack Primordial Jund
+        set: ala
   Shards of Alara Intro Pack Esper Artifice:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1108008'
       cardKingdomId: '126133'
@@ -72,9 +126,18 @@ products:
       scgId: SLD-MTG-INT-ALAINTRO-EN-ESPER
       tcgplayerProductId: '278891'
       tntId: '183791'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Esper Artifice
+        set: ala
+      sealed:
+      - count: 1
+        name: Shards of Alara Booster Pack
+        set: ala
   Shards of Alara Intro Pack Grixis Undead:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1101159'
       cardKingdomId: '126130'
@@ -83,9 +146,18 @@ products:
       scgId: SLD-MTG-INT-ALAINTRO-EN-GRIXIS
       tcgplayerProductId: '278893'
       tntId: '183790'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Grixis Undead
+        set: ala
+      sealed:
+      - count: 1
+        name: Shards of Alara Booster Pack
+        set: ala
   Shards of Alara Intro Pack Naya Behemoths:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1101162'
       cardKingdomId: '126134'
@@ -94,9 +166,18 @@ products:
       scgId: SLD-MTG-INT-ALAINTRO-EN-NAYA
       tcgplayerProductId: '278895'
       tntId: '183792'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Naya Behemoths
+        set: ala
+      sealed:
+      - count: 1
+        name: Shards of Alara Booster Pack
+        set: ala
   Shards of Alara Intro Pack Primordial Jund:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1101163'
       cardKingdomId: '126135'
@@ -105,19 +186,38 @@ products:
       scgId: SLD-MTG-INT-ALAINTRO-EN-JUND
       tcgplayerProductId: '278897'
       tntId: '183789'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Primordial Jund
+        set: ala
+      sealed:
+      - count: 1
+        name: Shards of Alara Booster Pack
+        set: ala
   Shards of Alara MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '223053'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 249
+      deck:
+      - name: Shards of Alara Redemption
+        set: ala
   Shards of Alara MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '223052'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 249
+      deck:
+      - name: Shards of Alara Foil Redemption
+        set: ala
   Shards of Alara Premium Foil Booster Box:
     category: BOOSTER_BOX
+    subtype: PREMIUM
     identifiers:
       abuId: '1100093'
       cardKingdomId: '129956'
@@ -128,9 +228,14 @@ products:
       scgId: SLD-MTG-BBX-ALAPREMIUM-EN
       tcgplayerProductId: '137060'
       tntId: '289576'
-    subtype: PREMIUM
+    contents:
+      sealed:
+      - count: 12
+        name: Shards of Alara Premium Foil Booster Pack
+        set: ala
   Shards of Alara Premium Foil Booster Pack:
     category: BOOSTER_PACK
+    subtype: PREMIUM
     identifiers:
       abuId: '1527130'
       cardKingdomId: '129955'
@@ -140,18 +245,28 @@ products:
       scgId: SLD-MTG-PCK-ALABLOCKFOIL-EN
       tcgplayerProductId: '137061'
       tntId: '289575'
-    subtype: PREMIUM
+    contents:
+      card_count: 15
+      pack:
+      - code: premium
+        set: ala
   Shards of Alara Tournament Deck Display:
     category: LIMITED_CASE
+    subtype: TOURNAMENT
     identifiers:
       abuId: '1101165'
       cardKingdomId: '240207'
       cardtraderId: '47332'
       mcmId: '253866'
       scgId: SLD-MTG-BBX-ALATOURNAMENT-EN
-    subtype: TOURNAMENT
+    contents:
+      sealed:
+      - count: 12
+        name: Shards of Alara Tournament Pack
+        set: ala
   Shards of Alara Tournament Pack:
     category: LIMITED
+    subtype: TOURNAMENT
     identifiers:
       abuId: '1101164'
       cardKingdomId: '125623'
@@ -161,4 +276,8 @@ products:
       scgId: SLD-MTG-PCK-ALATOURNAMENT-EN
       tcgplayerProductId: '118881'
       tntId: '183787'
-    subtype: TOURNAMENT
+    contents:
+      card_count: 75
+      pack:
+      - code: tournament
+        set: ala

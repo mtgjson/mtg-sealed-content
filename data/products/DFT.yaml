@@ -2,13 +2,19 @@ code: dft
 products:
   Aetherdrift Box Topper Pack:
     category: BOOSTER_PACK
+    subtype: TOPPER
     identifiers:
       cardtraderId: '314236'
       mcmId: '803857'
       tcgplayerProductId: '604408'
-    subtype: TOPPER
+    contents:
+      card_count: 2
+      pack:
+      - code: box-topper
+        set: dft
   Aetherdrift Bundle:
     category: BUNDLE
+    subtype: DEFAULT
     identifiers:
       abuId: '2573575'
       cardKingdomId: '307714'
@@ -18,15 +24,37 @@ products:
       mcmId: '803870'
       scgId: SLD-MTG-BUN-DFT-EN
       tcgplayerProductId: '604256'
-    subtype: DEFAULT
+    contents:
+      card:
+      - foil: true
+        name: Lumbering Worldwagon
+        number: 422
+        set: dft
+      deck:
+      - name: Aetherdrift Bundle Land Pack
+        set: dft
+      other:
+      - name: 2 Reference Cards
+      - name: 1 Spindown Die
+      - name: Aetherdrift Card Storage Box
+      sealed:
+      - count: 9
+        name: Aetherdrift Play Booster Pack
+        set: dft
   Aetherdrift Bundle Case:
     category: BUNDLE_CASE
+    subtype: DEFAULT
     identifiers:
       cardtraderId: '405223'
       tcgplayerProductId: '604260'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 6
+        name: Aetherdrift Bundle
+        set: dft
   Aetherdrift Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
     identifiers:
       abuId: '2573572'
       cardKingdomId: '307712'
@@ -36,14 +64,27 @@ products:
       miniaturemarketId: bccabccb3340ca30f2d5858cbbb39a96
       scgId: SLD-MTG-BBX-DFTCOLLECTOR-EN
       tcgplayerProductId: '604253'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Aetherdrift Collector Booster Pack
+        set: dft
+      - count: 1
+        name: Aetherdrift Box Topper Pack
+        set: dft
   Aetherdrift Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '604254'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Aetherdrift Collector Booster Box
+        set: dft
   Aetherdrift Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
     identifiers:
       abuId: '2573571'
       cardKingdomId: '307713'
@@ -52,21 +93,33 @@ products:
       mcmId: '803853'
       scgId: SLD-MTG-PCK-DFTCOLLECTOR-EN
       tcgplayerProductId: '604252'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: dft
   Aetherdrift Collector Booster Pack Minimal Packaging:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '684667'
-    subtype: COLLECTOR
+    contents:
+      copy: Aetherdrift Collector Booster Pack
   Aetherdrift Collector Booster Sample Pack:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
     identifiers:
       cardtraderId: '314235'
       mcmId: '803866'
       tcgplayerProductId: '622999'
-    subtype: PROMOTIONAL
+    contents:
+      card_count: 2
+      pack:
+      - code: collector-sample
+        set: dft
   Aetherdrift Finish Line Bundle:
     category: BUNDLE
+    subtype: PREMIUM
     identifiers:
       abuId: '2573576'
       cardKingdomId: '307715'
@@ -76,20 +129,62 @@ products:
       mcmId: '803871'
       scgId: SLD-MTG-BUN-DFTFINISHLINE-EN
       tcgplayerProductId: '604257'
-    subtype: PREMIUM
+    contents:
+      card:
+      - foil: true
+        name: Avishkar Raceway
+        number: 425
+        set: dft
+      - foil: true
+        name: Amonkhet Raceway
+        number: 424
+        set: dft
+      - foil: true
+        name: Muraganda Raceway
+        number: 426
+        set: dft
+      deck:
+      - name: Aetherdrift Finish Line Bundle Land Pack
+        set: dft
+      other:
+      - name: 2 Reference Cards
+      - name: 5 Stickers
+      - name: 1 Aetherdrift Spindown
+      - name: 1 Aetherdrift Card Storage Box
+      sealed:
+      - count: 6
+        name: Aetherdrift Play Booster Pack
+        set: dft
+      - count: 2
+        name: Aetherdrift Collector Booster Pack
+        set: dft
+      - count: 1
+        name: Aetherdrift Box Topper Pack
+        set: dft
   Aetherdrift Finish Line Bundle Case:
     category: BUNDLE_CASE
+    subtype: PREMIUM
     identifiers:
       cardtraderId: '405222'
       tcgplayerProductId: '604261'
-    subtype: PREMIUM
+    contents:
+      sealed:
+      - count: 6
+        name: Aetherdrift Finish Line Bundle
+        set: dft
   Aetherdrift MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '310247'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 291
+      deck:
+      - name: Aetherdrift Redemption
+        set: dft
   Aetherdrift Play Booster Box:
     category: BOOSTER_BOX
+    subtype: PLAY
     identifiers:
       abuId: '2573569'
       cardKingdomId: '307710'
@@ -98,15 +193,28 @@ products:
       miniaturemarketId: 7800311adf3177af48994202b4c1432b
       scgId: SLD-MTG-BBX-DFTPLAY-EN
       tcgplayerProductId: '604250'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 30
+        name: Aetherdrift Play Booster Pack
+        set: dft
+      - count: 1
+        name: Aetherdrift Box Topper Pack
+        set: dft
   Aetherdrift Play Booster Box Case:
     category: BOOSTER_CASE
+    subtype: PLAY
     identifiers:
       scgId: SLD-MTG-BBX-DFTPLAYCASE-EN
       tcgplayerProductId: '604251'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 6
+        name: Aetherdrift Play Booster Box
+        set: dft
   Aetherdrift Play Booster Pack:
     category: BOOSTER_PACK
+    subtype: PLAY
     identifiers:
       abuId: '2573570'
       cardKingdomId: '307711'
@@ -116,9 +224,14 @@ products:
       miniaturemarketId: e29c98754bc988a1ae282d658f6a1cd4
       scgId: SLD-MTG-PCK-DFTPLAY-EN
       tcgplayerProductId: '604249'
-    subtype: PLAY
+    contents:
+      card_count: 14
+      pack:
+      - code: play
+        set: dft
   Aetherdrift Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '2573568'
       cardKingdomId: '307716'
@@ -126,4 +239,16 @@ products:
       hareruyaId: '174022'
       mcmId: '804202'
       tcgplayerProductId: '604255'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: Max Speed Helper Card
+      - name: Deck Box
+      - name: Aetherdrift Spindown Die
+      pack:
+      - code: prerelease
+        set: dft
+      sealed:
+      - count: 6
+        name: Aetherdrift Play Booster Pack
+        set: dft

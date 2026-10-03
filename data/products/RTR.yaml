@@ -2,12 +2,18 @@ code: rtr
 products:
   Return to Ravnica 3 Booster Draft Pack:
     category: LIMITED
+    subtype: DRAFT_SET
+    release_date: '2012-10-05'
     identifiers:
       tcgplayerProductId: '60120'
-    release_date: '2012-10-05'
-    subtype: DRAFT_SET
+    contents:
+      sealed:
+      - count: 3
+        name: Return to Ravnica Booster Pack
+        set: rtr
   Return to Ravnica Booster Battle Pack:
     category: MULTI_DECK
+    subtype: BATTLE
     identifiers:
       abuId: '1101071'
       cardtraderId: '47832'
@@ -15,17 +21,31 @@ products:
       mcmId: '259466'
       tcgplayerProductId: '72027'
       tntId: '820221'
-    subtype: BATTLE
+    contents:
+      other:
+      - name: Two 22-card semi-randomized decks
+      - name: Learn to play guide
+      - name: Rules insert
+      sealed:
+      - count: 2
+        name: Return to Ravnica Booster Pack
+        set: rtr
   Return to Ravnica Booster Battle Pack Display:
     category: DECK_BOX
+    subtype: BATTLE
     identifiers:
       cardtraderId: '47846'
       mcmId: '259467'
       tcgplayerProductId: '485935'
       tntId: '820220'
-    subtype: BATTLE
+    contents:
+      sealed:
+      - count: 12
+        name: Return to Ravnica Booster Battle Pack
+        set: rtr
   Return to Ravnica Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1101062'
       cardKingdomId: '188115'
@@ -36,14 +56,24 @@ products:
       scgId: SLD-MTG-BBX-RTR-EN
       tcgplayerProductId: '60117'
       tntId: '374194'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Return to Ravnica Booster Pack
+        set: rtr
   Return to Ravnica Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '60116'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Return to Ravnica Booster Box
+        set: rtr
   Return to Ravnica Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476934'
       cardKingdomId: '188116'
@@ -54,9 +84,14 @@ products:
       scgId: SLD-MTG-PCK-RTR-EN
       tcgplayerProductId: '60121'
       tntId: '374190'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: rtr
   Return to Ravnica Event Deck Creep and Conquer:
     category: DECK
+    subtype: EVENT
     identifiers:
       abuId: '1101074'
       cardKingdomId: '188421'
@@ -66,23 +101,44 @@ products:
       scgId: SLD-MTG-INT-RTREVENT-EN-CREEP
       tcgplayerProductId: '110552'
       tntId: '814526'
-    subtype: EVENT
+    contents:
+      card_count: 75
+      deck:
+      - name: Creep and Conquer
+        set: rtr
   Return to Ravnica Event Deck Display:
     category: DECK_BOX
+    subtype: EVENT
     identifiers:
       cardtraderId: '47847'
       mcmId: '259293'
       tntId: '385255'
-    subtype: EVENT
+    contents:
+      sealed:
+      - count: 3
+        name: Return to Ravnica Event Deck Creep and Conquer
+        set: rtr
+      - count: 3
+        name: Return to Ravnica Event Deck Wrack and Rage
+        set: rtr
   Return to Ravnica Event Deck Set of 2:
     category: SUBSET
+    subtype: EVENT
     identifiers:
       abuId: '1101076'
       cardtraderId: '47831'
       mcmId: '259292'
-    subtype: EVENT
+    contents:
+      sealed:
+      - count: 1
+        name: Return to Ravnica Event Deck Creep and Conquer
+        set: rtr
+      - count: 1
+        name: Return to Ravnica Event Deck Wrack and Rage
+        set: rtr
   Return to Ravnica Event Deck Wrack and Rage:
     category: DECK
+    subtype: EVENT
     identifiers:
       abuId: '1101075'
       cardKingdomId: '188422'
@@ -92,9 +148,15 @@ products:
       scgId: SLD-MTG-INT-RTREVENT-EN-WRACK
       tcgplayerProductId: '110551'
       tntId: '814527'
-    subtype: EVENT
+    contents:
+      card_count: 75
+      deck:
+      - name: Wrack and Rage
+        set: rtr
   Return to Ravnica Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
+    release_date: '2012-10-05'
     identifiers:
       abuId: '1101078'
       cardKingdomId: '188123'
@@ -105,10 +167,22 @@ products:
       scgId: SLD-MTG-BUN-RTR-EN
       tcgplayerProductId: '60119'
       tntId: '374191'
-    release_date: '2012-10-05'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Return to Ravnica Fat Pack Land Pack
+        set: rtr
+      other:
+      - name: Return to Ravnica themed card box
+      - name: Return to Ravnica player's guide
+      - name: Two deck boxes
+      - name: Return to Ravnica spindown
+      sealed:
+      - count: 9
+        name: Return to Ravnica Booster Pack
+        set: rtr
   Return to Ravnica Holiday Gift Box:
     category: BUNDLE
+    subtype: GIFT_BUNDLE
     identifiers:
       abuId: '1100592'
       cardKingdomId: '188748'
@@ -117,9 +191,27 @@ products:
       scgId: SLD-MTG-BXS-GFT2012-EN
       tcgplayerProductId: '67307'
       tntId: '907686'
-    subtype: GIFT_BUNDLE
+    contents:
+      card:
+      - foil: true
+        name: Dreg Mangler
+        number: 158
+        set: prtr
+      card_count: 1
+      deck:
+      - name: Return to Ravnica Holiday Gift Box Land Pack
+        set: rtr
+      other:
+      - name: Dividers
+      - name: Stickers
+      sealed:
+      - count: 4
+        name: Return to Ravnica Booster Pack
+        set: rtr
   Return to Ravnica Intro Pack Azorius Advance:
     category: DECK
+    subtype: INTRO
+    release_date: '2012-10-05'
     identifiers:
       abuId: '1101079'
       cardKingdomId: '188118'
@@ -128,17 +220,43 @@ products:
       scgId: SLD-MTG-INT-RTRINTRO-EN-AZORIUS
       tcgplayerProductId: '66476'
       tntId: '804397'
-    release_date: '2012-10-05'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Azorius Advance
+        set: rtr
+      sealed:
+      - count: 2
+        name: Return to Ravnica Booster Pack
+        set: rtr
   Return to Ravnica Intro Pack Display:
     category: DECK_BOX
+    subtype: INTRO
     identifiers:
       cardtraderId: '47844'
       mcmId: '258185'
       tntId: '374192'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 2
+        name: Return to Ravnica Intro Pack Azorius Advance
+        set: rtr
+      - count: 2
+        name: Return to Ravnica Intro Pack Golgari Growth
+        set: rtr
+      - count: 2
+        name: Return to Ravnica Intro Pack Izzet Ingenuity
+        set: rtr
+      - count: 2
+        name: Return to Ravnica Intro Pack Rakdos Raid
+        set: rtr
+      - count: 2
+        name: Return to Ravnica Intro Pack Selesnya Surge
+        set: rtr
   Return to Ravnica Intro Pack Golgari Growth:
     category: DECK
+    subtype: INTRO
+    release_date: '2012-10-05'
     identifiers:
       abuId: '1101080'
       cardKingdomId: '188119'
@@ -147,10 +265,19 @@ products:
       scgId: SLD-MTG-INT-RTRINTRO-EN-GOLGARI
       tcgplayerProductId: '66479'
       tntId: '804400'
-    release_date: '2012-10-05'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Golgari Growth
+        set: rtr
+      sealed:
+      - count: 2
+        name: Return to Ravnica Booster Pack
+        set: rtr
   Return to Ravnica Intro Pack Izzet Ingenuity:
     category: DECK
+    subtype: INTRO
+    release_date: '2012-10-05'
     identifiers:
       abuId: '1101081'
       cardKingdomId: '188120'
@@ -159,10 +286,19 @@ products:
       scgId: SLD-MTG-INT-RTRINTRO-EN-IZZET
       tcgplayerProductId: '66477'
       tntId: '804398'
-    release_date: '2012-10-05'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Izzet Ingenuity
+        set: rtr
+      sealed:
+      - count: 2
+        name: Return to Ravnica Booster Pack
+        set: rtr
   Return to Ravnica Intro Pack Rakdos Raid:
     category: DECK
+    subtype: INTRO
+    release_date: '2012-10-05'
     identifiers:
       abuId: '1101082'
       cardKingdomId: '188121'
@@ -171,10 +307,19 @@ products:
       scgId: SLD-MTG-INT-RTRINTRO-EN-RAKDOS
       tcgplayerProductId: '66478'
       tntId: '804399'
-    release_date: '2012-10-05'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Rakdos Raid
+        set: rtr
+      sealed:
+      - count: 2
+        name: Return to Ravnica Booster Pack
+        set: rtr
   Return to Ravnica Intro Pack Selesnya Surge:
     category: DECK
+    subtype: INTRO
+    release_date: '2012-10-05'
     identifiers:
       abuId: '1101083'
       cardKingdomId: '188122'
@@ -183,30 +328,65 @@ products:
       scgId: SLD-MTG-INT-RTRINTRO-EN-SELESNYA
       tcgplayerProductId: '66480'
       tntId: '804401'
-    release_date: '2012-10-05'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Selesnya Surge
+        set: rtr
+      sealed:
+      - count: 2
+        name: Return to Ravnica Booster Pack
+        set: rtr
   Return to Ravnica Intro Packs Set of 5:
     category: SUBSET
+    subtype: INTRO
+    release_date: '2012-10-05'
     identifiers:
       abuId: '1101084'
       cardtraderId: '47845'
       mcmId: '258184'
       scgId: SLD-MTG-INT-RTRINTRO-EN-SET5
       tcgplayerProductId: '60118'
-    release_date: '2012-10-05'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 1
+        name: Return to Ravnica Intro Pack Azorius Advance
+        set: rtr
+      - count: 1
+        name: Return to Ravnica Intro Pack Golgari Growth
+        set: rtr
+      - count: 1
+        name: Return to Ravnica Intro Pack Izzet Ingenuity
+        set: rtr
+      - count: 1
+        name: Return to Ravnica Intro Pack Rakdos Raid
+        set: rtr
+      - count: 1
+        name: Return to Ravnica Intro Pack Selesnya Surge
+        set: rtr
   Return to Ravnica MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210857'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 274
+      deck:
+      - name: Return to Ravnica Redemption
+        set: rtr
   Return to Ravnica MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210865'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 274
+      deck:
+      - name: Return to Ravnica Foil Redemption
+        set: rtr
   Return to Ravnica Prerelease Pack Azorius:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '1101085'
       cardKingdomId: '212254'
@@ -214,18 +394,50 @@ products:
       mcmId: '259207'
       tcgplayerProductId: '190186'
       tntId: '1660293'
-    subtype: PRERELEASE
+    contents:
+      card:
+      - foil: true
+        name: Archon of the Triumvirate
+        number: 142★
+        set: prtr
+      card_count: 16
+      other:
+      - name: Return to Ravnica Spindown Life Counter
+      pack:
+      - code: prerelease-azorius
+        set: rtr
+      sealed:
+      - count: 5
+        name: Return to Ravnica Booster Pack
+        set: rtr
   Return to Ravnica Prerelease Pack Golgari:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       cardKingdomId: '204874'
       cardtraderId: '47834'
       mcmId: '259208'
       tcgplayerProductId: '190187'
       tntId: '1660295'
-    subtype: PRERELEASE
+    contents:
+      card:
+      - foil: true
+        name: Corpsejack Menace
+        number: 152★
+        set: prtr
+      card_count: 16
+      other:
+      - name: Return to Ravnica Spindown Life Counter
+      pack:
+      - code: prerelease-golgari
+        set: rtr
+      sealed:
+      - count: 5
+        name: Return to Ravnica Booster Pack
+        set: rtr
   Return to Ravnica Prerelease Pack Izzet:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '1101087'
       cardKingdomId: '212255'
@@ -233,9 +445,25 @@ products:
       mcmId: '259209'
       tcgplayerProductId: '190190'
       tntId: '1660294'
-    subtype: PRERELEASE
+    contents:
+      card:
+      - foil: true
+        name: Hypersonic Dragon
+        number: 170★
+        set: prtr
+      card_count: 16
+      other:
+      - name: Return to Ravnica Spindown Life Counter
+      pack:
+      - code: prerelease-izzet
+        set: rtr
+      sealed:
+      - count: 5
+        name: Return to Ravnica Booster Pack
+        set: rtr
   Return to Ravnica Prerelease Pack Rakdos:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '1101089'
       cardKingdomId: '204873'
@@ -243,9 +471,26 @@ products:
       mcmId: '259210'
       tcgplayerProductId: '190188'
       tntId: '1660296'
-    subtype: PRERELEASE
+    contents:
+      card:
+      - foil: true
+        name: Carnival Hellsteed
+        number: 147★
+        set: prtr
+      card_count: 16
+      other:
+      - name: Return to Ravnica Spindown Life Counter
+      pack:
+      - code: prerelease-rakdos
+        set: rtr
+      sealed:
+      - count: 5
+        name: Return to Ravnica Booster Pack
+        set: rtr
   Return to Ravnica Prerelease Pack Selesnya:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2015-12-09'
     identifiers:
       abuId: '1101088'
       cardKingdomId: '204872'
@@ -253,20 +498,56 @@ products:
       mcmId: '259211'
       tcgplayerProductId: '190189'
       tntId: '1660297'
-    release_date: '2015-12-09'
-    subtype: PRERELEASE
+    contents:
+      card:
+      - foil: true
+        name: Grove of the Guardian
+        number: 240★
+        set: prtr
+      card_count: 16
+      other:
+      - name: Return to Ravnica Spindown Life Counter
+      pack:
+      - code: prerelease-selesnya
+        set: rtr
+      sealed:
+      - count: 5
+        name: Return to Ravnica Booster Pack
+        set: rtr
   Return to Ravnica Prerelease Pack Set of 5:
     category: SUBSET
+    subtype: PRERELEASE
+    release_date: '2015-03-02'
     identifiers:
       cardtraderId: '47848'
       mcmId: '273053'
       tcgplayerProductId: '190191'
-    release_date: '2015-03-02'
-    subtype: PRERELEASE
+    contents:
+      sealed:
+      - count: 1
+        name: Return to Ravnica Prerelease Pack Azorius
+        set: rtr
+      - count: 1
+        name: Return to Ravnica Prerelease Pack Golgari
+        set: rtr
+      - count: 1
+        name: Return to Ravnica Prerelease Pack Izzet
+        set: rtr
+      - count: 1
+        name: Return to Ravnica Prerelease Pack Rakdos
+        set: rtr
+      - count: 1
+        name: Return to Ravnica Prerelease Pack Selesnya
+        set: rtr
   Return to Ravnica Six Card Booster Pack:
     category: BOOSTER_PACK
+    subtype: SIX
+    release_date: '2018-01-16'
     identifiers:
       cardtraderId: '47814'
       mcmId: '315713'
-    release_date: '2018-01-16'
-    subtype: SIX
+    contents:
+      card_count: 6
+      pack:
+      - code: six
+        set: rtr

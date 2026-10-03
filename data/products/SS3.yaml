@@ -2,6 +2,8 @@ code: ss3
 products:
   Signature Spellbook Chandra:
     category: BOX_SET
+    subtype: SPELLBOOK
+    release_date: '2020-06-26'
     identifiers:
       abuId: '1862109'
       cardKingdomId: '233851'
@@ -12,5 +14,52 @@ products:
       scgId: SLD-MTG-BXS-SS3-EN
       tcgplayerProductId: '210721'
       tntId: '1672338'
-    release_date: '2020-06-26'
-    subtype: SPELLBOOK
+    contents:
+      card_count: 9
+      deck:
+      - name: 'Signature Spellbook: Chandra'
+        set: ss3
+      variable:
+      - card:
+        - foil: true
+          name: Chandra, Torch of Defiance
+          number: 1
+          set: ss3
+      - card:
+        - foil: true
+          name: Cathartic Reunion
+          number: 2
+          set: ss3
+      - card:
+        - foil: true
+          name: Fiery Confluence
+          number: 3
+          set: ss3
+      - card:
+        - foil: true
+          name: Past in Flames
+          number: 4
+          set: ss3
+      - card:
+        - foil: true
+          name: Pyroblast
+          number: 5
+          set: ss3
+      - card:
+        - foil: true
+          name: Pyromancer Ascension
+          number: 6
+          set: ss3
+      - card:
+        - foil: true
+          name: Rite of Flame
+          number: 7
+          set: ss3
+      - card:
+        - foil: true
+          name: Young Pyromancer
+          number: 8
+          set: ss3
+      variable_mode:
+        count: 1
+        replacement: false

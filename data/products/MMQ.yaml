@@ -2,6 +2,7 @@ code: mmq
 products:
   Mercadian Masques Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1107940'
       cardKingdomId: '1132'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-MMQ-EN
       tcgplayerProductId: '27289'
       tntId: '85498'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Mercadian Masques Booster Pack
+        set: mmq
   Mercadian Masques Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Mercadian Masques Booster Box
+        set: mmq
   Mercadian Masques Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476903'
       cardKingdomId: '1133'
@@ -29,9 +40,14 @@ products:
       scgId: SLD-MTG-PCK-MMQ-EN
       tcgplayerProductId: '27351'
       tntId: '85499'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: mmq
   Mercadian Masques Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1100867'
       cardKingdomId: '228555'
@@ -42,9 +58,24 @@ products:
       scgId: SLD-MTG-BUN-MMQ-EN
       tcgplayerProductId: '78319'
       tntId: '155124'
-    subtype: FAT_PACK
+    contents:
+      card_count: 2
+      other:
+      - name: The Mercadian Masques Novel
+      - name: Mercadian Masques Player's Guide
+      pack:
+      - code: fat-pack
+        set: mmq
+      sealed:
+      - count: 3
+        name: Mercadian Masques Booster Pack
+        set: mmq
+      - count: 1
+        name: Mercadian Masques Tournament Pack
+        set: mmq
   Mercadian Masques Theme Deck Deepwood Menace:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100868'
       cardKingdomId: '1138'
@@ -54,16 +85,35 @@ products:
       mcmId: '253757'
       tcgplayerProductId: '116038'
       tntId: '106922'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Deepwood Menace
+        set: mmq
   Mercadian Masques Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       cardtraderId: '45604'
       mcmId: '210232'
       tntId: '85512'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 3
+        name: Mercadian Masques Theme Deck Deepwood Menace
+        set: mmq
+      - count: 3
+        name: Mercadian Masques Theme Deck Disrupter
+        set: mmq
+      - count: 3
+        name: Mercadian Masques Theme Deck Rebels Call
+        set: mmq
+      - count: 3
+        name: Mercadian Masques Theme Deck Tidal Mastery
+        set: mmq
   Mercadian Masques Theme Deck Disrupter:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100869'
       cardKingdomId: '1137'
@@ -73,9 +123,14 @@ products:
       mcmId: '253758'
       tcgplayerProductId: '116039'
       tntId: '106938'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Disrupter
+        set: mmq
   Mercadian Masques Theme Deck Rebels Call:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100870'
       cardKingdomId: '1139'
@@ -85,9 +140,14 @@ products:
       mcmId: '253759'
       tcgplayerProductId: '116040'
       tntId: '106937'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Rebel's Call
+        set: mmq
   Mercadian Masques Theme Deck Tidal Mastery:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100871'
       cardKingdomId: '1136'
@@ -97,14 +157,33 @@ products:
       mcmId: '253760'
       tcgplayerProductId: '116041'
       tntId: '106927'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Tidal Mastery
+        set: mmq
   Mercadian Masques Theme Decks Set of 4:
     category: SUBSET
+    subtype: THEME
     identifiers:
       abuId: '1100873'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Mercadian Masques Theme Deck Deepwood Menace
+        set: mmq
+      - count: 1
+        name: Mercadian Masques Theme Deck Disrupter
+        set: mmq
+      - count: 1
+        name: Mercadian Masques Theme Deck Rebels Call
+        set: mmq
+      - count: 1
+        name: Mercadian Masques Theme Deck Tidal Mastery
+        set: mmq
   Mercadian Masques Tournament Pack:
     category: LIMITED
+    subtype: TOURNAMENT
     identifiers:
       abuId: '1107942'
       cardKingdomId: '1135'
@@ -114,9 +193,14 @@ products:
       scgId: SLD-MTG-PCK-MMQTOURNAMENT-EN
       tcgplayerProductId: '125561'
       tntId: '85515'
-    subtype: TOURNAMENT
+    contents:
+      card_count: 75
+      pack:
+      - code: tournament
+        set: mmq
   Mercadian Masques Tournament Pack Display:
     category: LIMITED_CASE
+    subtype: TOURNAMENT
     identifiers:
       abuId: '1107941'
       cardKingdomId: '240167'
@@ -126,4 +210,8 @@ products:
       scgId: SLD-MTG-BBX-MMQTOURNAMENT-EN
       tcgplayerProductId: '633387'
       tntId: '85514'
-    subtype: TOURNAMENT
+    contents:
+      sealed:
+      - count: 12
+        name: Mercadian Masques Tournament Pack
+        set: mmq

@@ -2,143 +2,286 @@ code: trk
 products:
   Star Trek Beam Me Up Bundle:
     category: BUNDLE
+    subtype: GIFT_BUNDLE
     identifiers:
       cardtraderId: '400884'
       mcmId: '897533'
       scgId: SLD-MTG-BUN-TRKBEAM-EN
       tcgplayerProductId: '706154'
-    subtype: GIFT_BUNDLE
+    contents:
+      card_count: 1
+      other:
+      - name: 1 Spindown die
+      - name: 1 Card-storage box
+      - name: 10 Basic Lands
+      - name: 5 Full-art lands
+      - name: 10 Traditional Foil Basic Lands
+      - name: 5 Traditional Foil Full-art Lands
+      sealed:
+      - count: 8
+        name: Star Trek Play Booster Pack
+        set: trk
+      - count: 1
+        name: Star Trek Collector Booster Pack
+        set: trk
   Star Trek Beam Me Up Bundle Case:
     category: BUNDLE_CASE
+    subtype: GIFT_BUNDLE
     identifiers:
       cardtraderId: '405219'
       tcgplayerProductId: '706155'
-    subtype: GIFT_BUNDLE
+    contents:
+      sealed:
+      - count: 6
+        name: Star Trek Beam Me Up Bundle
+        set: trk
   Star Trek Beginner Box:
     category: BOX_SET
+    subtype: STARTER
     identifiers:
       cardtraderId: '400882'
       mcmId: '897525'
       miniaturemarketId: 019f815d3a327029ba0bf2e06c4ee093
       tcgplayerProductId: '706147'
-    subtype: STARTER
+    contents:
+      other:
+      - name: 2 Instant Play Decks
+      - name: 8 Jumpstart Decks
+      - name: 2 Learn-to-Play guides
+      - name: 2 Spindown life counters
+      - name: 2 Playmats
   Star Trek Beginner Box Case:
     category: BOX_SET
+    subtype: STARTER
     identifiers:
       tcgplayerProductId: '706148'
-    subtype: STARTER
   Star Trek Bundle:
     category: BUNDLE
+    subtype: DEFAULT
     identifiers:
       cardtraderId: '400881'
       mcmId: '897528'
       miniaturemarketId: 019f815cfa1773cf8546f1766a7e9198
       scgId: SLD-MTG-BUN-TRK-EN
       tcgplayerProductId: '706150'
-    subtype: DEFAULT
+    contents:
+      card_count: 1
+      other:
+      - name: 1 Spindown die
+      - name: 1 Card-storage box
+      - name: 10 Basic Lands
+      - name: 5 Full-art lands
+      - name: 10 Traditional Foil Basic Lands
+      - name: 5 Traditional Foil Full-art Lands
+      sealed:
+      - count: 9
+        name: Star Trek Play Booster Pack
+        set: trk
   Star Trek Bundle Case:
     category: BUNDLE_CASE
+    subtype: DEFAULT
     identifiers:
       cardtraderId: '405218'
       tcgplayerProductId: '706152'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 6
+        name: Star Trek Bundle
+        set: trk
   Star Trek Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
     identifiers:
       cardtraderId: '400880'
       mcmId: '897523'
       scgId: SLD-MTG-BBX-TRKCOLLECTOR-EN
       tcgplayerProductId: '706142'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Star Trek Collector Booster Pack
+        set: trk
   Star Trek Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '706144'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Star Trek Collector Booster Box
+        set: trk
   Star Trek Collector Booster Box Master Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '706146'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Star Trek Collector Booster Box Case
+        set: trk
   Star Trek Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
     identifiers:
       cardtraderId: '409506'
       mcmId: '897522'
       scgId: SLD-MTG-PCK-TRKCOLLECTOR-EN
       tcgplayerProductId: '706141'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: trk
   Star Trek Draft Night:
     category: LIMITED
+    subtype: DRAFT
     identifiers:
       cardtraderId: '400883'
       mcmId: '897536'
       scgId: SLD-MTG-DFT-TRK-EN
       tcgplayerProductId: '706162'
-    subtype: DRAFT
+    contents:
+      other:
+      - name: 90 Non-foil basic lands
+      - name: 10 Non-foil double-sided tokens
+      - name: 1 Draft insert
+      sealed:
+      - count: 12
+        name: Star Trek Play Booster Pack
+        set: trk
+      - count: 1
+        name: Star Trek Collector Booster Pack
+        set: trk
   Star Trek Draft Night Case:
     category: LIMITED_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '706164'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Star Trek Draft Night
+        set: trk
   Star Trek Play Booster Box:
     category: BOOSTER_BOX
+    subtype: PLAY
     identifiers:
       cardtraderId: '400879'
       mcmId: '897524'
       scgId: SLD-MTG-BBX-TRKPLAY-EN
       tcgplayerProductId: '706138'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 30
+        name: Star Trek Play Booster Pack
+        set: trk
   Star Trek Play Booster Box Case:
     category: BOOSTER_CASE
+    subtype: PLAY
     identifiers:
       scgId: SLD-MTG-BBX-TRKPLAYCASE-EN
       tcgplayerProductId: '706140'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 6
+        name: Star Trek Play Booster Box
+        set: trk
   Star Trek Play Booster Pack:
     category: BOOSTER_PACK
+    subtype: PLAY
     identifiers:
       cardtraderId: '409505'
       mcmId: '897521'
       miniaturemarketId: 019f815c77ce739eba5594e226f9d742
       scgId: SLD-MTG-PCK-TRKPLAY-EN
       tcgplayerProductId: '706136'
-    subtype: PLAY
+    contents:
+      card_count: 14
+      pack:
+      - code: play
+        set: trk
   Star Trek Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       cardtraderId: '400885'
       mcmId: '897520'
       tcgplayerProductId: '706227'
-    subtype: PRERELEASE
+    contents:
+      other:
+      - name: 1 Spindown die
+      - name: 1 Traditional Foil Rare/Mythic Rare Card
+      sealed:
+      - count: 6
+        name: Star Trek Play Booster Pack
+        set: trk
   Star Trek Prerelease Pack Case:
     category: LIMITED_CASE
+    subtype: PRERELEASE
     identifiers:
       tcgplayerProductId: '709039'
-    subtype: PRERELEASE
+    contents:
+      sealed:
+      - count: 15
+        name: Star Trek Prerelease Pack
+        set: trk
   Star Trek Scene Box Case:
     category: BOX_SET
+    subtype: OTHER
     identifiers:
       cardtraderId: '406821'
       mcmId: '903175'
       miniaturemarketId: 019f815d228972a989d8ad7a799a0471
       tcgplayerProductId: '706160'
-    subtype: OTHER
+    contents:
+      sealed:
+      - count: 2
+        name: Star Trek Scene Box Enterprise-Q
+        set: trk
+      - count: 2
+        name: Star Trek Scene Box Divergent Timelines
+        set: trk
   Star Trek Scene Box Divergent Timelines:
     category: BOX_SET
+    subtype: OTHER
     identifiers:
       cardtraderId: '400887'
       mcmId: '897535'
       miniaturemarketId: 019f815d22a07330a32938ae7d3aefe2
       scgId: SLD-MTG-BXS-TRK-EN-DIVERGENT
       tcgplayerProductId: '706158'
-    subtype: OTHER
+    contents:
+      card_count: 6
+      deck:
+      - name: Divergent Timelines
+        set: trk
+      other:
+      - name: 6 Art-Only Scene Cards
+      - name: Star Trek Display Easel
+      sealed:
+      - count: 3
+        name: Star Trek Play Booster Pack
+        set: trk
   Star Trek Scene Box Enterprise-Q:
     category: BOX_SET
+    subtype: OTHER
     identifiers:
       cardtraderId: '400886'
       mcmId: '897534'
       miniaturemarketId: 019f815d2ed4726cabaca04d61ac07f1
       scgId: SLD-MTG-BXS-TRK-EN-ENTERPRISEQ
       tcgplayerProductId: '706157'
-    subtype: OTHER
+    contents:
+      card_count: 6
+      deck:
+      - name: Enterprise-Q
+        set: trk
+      other:
+      - name: 6 Art-Only Scene Cards
+      - name: Star Trek Display Easel
+      sealed:
+      - count: 3
+        name: Star Trek Play Booster Pack
+        set: trk

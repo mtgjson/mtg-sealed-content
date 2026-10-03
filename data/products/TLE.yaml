@@ -2,11 +2,17 @@ code: tle
 products:
   Avatar The Last Airbender Jumpstart Booster 2 Pack:
     category: LIMITED
+    subtype: DRAFT_SET
     identifiers:
       tcgplayerProductId: '648673'
-    subtype: DRAFT_SET
+    contents:
+      sealed:
+      - count: 2
+        name: Avatar The Last Airbender Jumpstart Booster Pack
+        set: tle
   Avatar The Last Airbender Jumpstart Booster Box:
     category: BOOSTER_BOX
+    subtype: JUMPSTART
     identifiers:
       abuId: '2640490'
       cardKingdomId: '319595'
@@ -15,14 +21,24 @@ products:
       miniaturemarketId: 07f9f117e106b34106032b7d8448a07a
       scgId: SLD-MTG-BBX-TLAJUMPSTART-EN
       tcgplayerProductId: '648679'
-    subtype: JUMPSTART
+    contents:
+      sealed:
+      - count: 24
+        name: Avatar The Last Airbender Jumpstart Booster Pack
+        set: tle
   Avatar The Last Airbender Jumpstart Booster Box Case:
     category: BOOSTER_CASE
+    subtype: JUMPSTART
     identifiers:
       tcgplayerProductId: '648680'
-    subtype: JUMPSTART
+    contents:
+      sealed:
+      - count: 6
+        name: Avatar The Last Airbender Jumpstart Booster Box
+        set: tle
   Avatar The Last Airbender Jumpstart Booster Pack:
     category: BOOSTER_PACK
+    subtype: JUMPSTART
     identifiers:
       abuId: '2640489'
       cardKingdomId: '319592'
@@ -31,4 +47,8 @@ products:
       miniaturemarketId: a55c8408703249508ff11c7f0119e145
       scgId: SLD-MTG-PCK-TLAJUMPSTART-EN
       tcgplayerProductId: '648675'
-    subtype: JUMPSTART
+    contents:
+      card_count: 20
+      pack:
+      - code: jumpstart
+        set: tle

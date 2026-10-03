@@ -2,6 +2,7 @@ code: mma
 products:
   Modern Masters Draft Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1100891'
       cardKingdomId: '189956'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-MMA-EN
       tcgplayerProductId: '68104'
       tntId: '1026688'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 24
+        name: Modern Masters Draft Booster Pack
+        set: mma
   Modern Masters Draft Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Modern Masters Draft Booster Box
+        set: mma
   Modern Masters Draft Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476909'
       cardKingdomId: '189957'
@@ -29,4 +40,8 @@ products:
       scgId: SLD-MTG-PCK-MMA-EN
       tcgplayerProductId: '68105'
       tntId: '1026689'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: mma

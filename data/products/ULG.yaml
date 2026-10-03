@@ -2,6 +2,7 @@ code: ulg
 products:
   Urzas Legacy Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1107804'
       cardKingdomId: '1145'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-ULG-EN
       tcgplayerProductId: '27315'
       tntId: '141903'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Urzas Legacy Booster Pack
+        set: ulg
   Urzas Legacy Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Urzas Legacy Booster Box
+        set: ulg
   Urzas Legacy Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476960'
       cardKingdomId: '1146'
@@ -29,9 +40,14 @@ products:
       scgId: SLD-MTG-PCK-ULG-EN
       tcgplayerProductId: '27377'
       tntId: '90164'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: ulg
   Urzas Legacy Theme Deck Crusher:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100280'
       cardKingdomId: '1147'
@@ -40,17 +56,36 @@ products:
       mcmId: '253773'
       tcgplayerProductId: '125553'
       tntId: '106960'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Crusher
+        set: ulg
   Urzas Legacy Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       abuId: '1476961'
       cardtraderId: '45465'
       mcmId: '210244'
       tntId: '90167'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 3
+        name: Urzas Legacy Theme Deck Crusher
+        set: ulg
+      - count: 3
+        name: Urzas Legacy Theme Deck Phyrexian Assault
+        set: ulg
+      - count: 3
+        name: Urzas Legacy Theme Deck Radiants Revenge
+        set: ulg
+      - count: 3
+        name: Urzas Legacy Theme Deck Time Drain
+        set: ulg
   Urzas Legacy Theme Deck Phyrexian Assault:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100286'
       cardKingdomId: '1149'
@@ -59,9 +94,14 @@ products:
       mcmId: '253774'
       tcgplayerProductId: '125554'
       tntId: '106926'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Phyrexian Assault
+        set: ulg
   Urzas Legacy Theme Deck Radiants Revenge:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100287'
       cardKingdomId: '1150'
@@ -70,9 +110,14 @@ products:
       mcmId: '253775'
       tcgplayerProductId: '125555'
       tntId: '106949'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Radiant's Revenge
+        set: ulg
   Urzas Legacy Theme Deck Time Drain:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100288'
       cardKingdomId: '1148'
@@ -81,9 +126,27 @@ products:
       mcmId: '253776'
       tcgplayerProductId: '125556'
       tntId: '106935'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Time Drain
+        set: ulg
   Urzas Legacy Theme Decks Set of 4:
     category: SUBSET
+    subtype: THEME
     identifiers:
       abuId: '1100289'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Urzas Legacy Theme Deck Crusher
+        set: ulg
+      - count: 1
+        name: Urzas Legacy Theme Deck Phyrexian Assault
+        set: ulg
+      - count: 1
+        name: Urzas Legacy Theme Deck Radiants Revenge
+        set: ulg
+      - count: 1
+        name: Urzas Legacy Theme Deck Time Drain
+        set: ulg

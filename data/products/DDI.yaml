@@ -2,6 +2,7 @@ code: ddi
 products:
   Duel Deck Venser vs Koth:
     category: MULTI_DECK
+    subtype: DUEL
     identifiers:
       abuId: '1100269'
       cardKingdomId: '186634'
@@ -12,23 +13,45 @@ products:
       scgId: SLD-MTG-BXS-DDI-EN
       tcgplayerProductId: '58055'
       tntId: '331395'
-    subtype: DUEL
+    contents:
+      sealed:
+      - count: 1
+        name: Duel Deck Venser vs Koth Koth Deck
+        set: ddi
+      - count: 1
+        name: Duel Deck Venser vs Koth Venser Deck
+        set: ddi
   Duel Deck Venser vs Koth Display:
     category: DECK_BOX
+    subtype: DUEL
     identifiers:
       cardtraderId: '47720'
       mcmId: '253049'
       tntId: '331394'
-    subtype: DUEL
+    contents:
+      sealed:
+      - count: 6
+        name: Duel Deck Venser vs Koth
+        set: ddi
   Duel Deck Venser vs Koth Koth Deck:
     category: DECK
+    subtype: DUEL
     identifiers:
       cardtraderId: '47718'
       mcmId: '253048'
-    subtype: DUEL
+    contents:
+      card_count: 60
+      deck:
+      - name: Koth
+        set: ddi
   Duel Deck Venser vs Koth Venser Deck:
     category: DECK
+    subtype: DUEL
     identifiers:
       cardtraderId: '47719'
       mcmId: '253047'
-    subtype: DUEL
+    contents:
+      card_count: 60
+      deck:
+      - name: Venser
+        set: ddi

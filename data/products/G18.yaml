@@ -2,6 +2,8 @@ code: g18
 products:
   2018 Gift Pack:
     category: BUNDLE
+    subtype: GIFT_BUNDLE
+    release_date: '2018-11-16'
     identifiers:
       abuId: '1538883'
       cardKingdomId: '222238'
@@ -10,5 +12,35 @@ products:
       scgId: SLD-MTG-BXS-GFT2018-EN
       tcgplayerProductId: '175170'
       tntId: '1189139'
-    release_date: '2018-11-16'
-    subtype: GIFT_BUNDLE
+    contents:
+      card:
+      - foil: true
+        name: Angelic Guardian
+        number: GP1
+        set: g18
+      - foil: true
+        name: Angler Turtle
+        number: GP2
+        set: g18
+      - foil: true
+        name: Vengeant Vampire
+        number: GP3
+        set: g18
+      - foil: true
+        name: Immortal Phoenix
+        number: GP4
+        set: g18
+      - foil: true
+        name: Rampaging Brontodon
+        number: GP5
+        set: g18
+      card_count: 10
+      deck:
+      - name: Core Set 2019 Gift Pack Land Pack
+        set: m19
+      other:
+      - name: Spindown life counter
+      sealed:
+      - count: 4
+        name: Core Set 2019 Booster Pack
+        set: m19

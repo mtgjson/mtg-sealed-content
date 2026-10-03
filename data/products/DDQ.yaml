@@ -2,6 +2,8 @@ code: ddq
 products:
   Duel Deck Blessed vs Cursed:
     category: MULTI_DECK
+    subtype: DUEL
+    release_date: '2016-02-26'
     identifiers:
       abuId: '1100170'
       cardKingdomId: '205098'
@@ -12,17 +14,38 @@ products:
       scgId: SLD-MTG-BXS-DDQ-EN
       tcgplayerProductId: '112696'
       tntId: '1089633'
-    release_date: '2016-02-26'
-    subtype: DUEL
+    contents:
+      sealed:
+      - count: 1
+        name: Duel Deck Blessed vs Cursed Blessed Deck
+        set: ddq
+      - count: 1
+        name: Duel Deck Blessed vs Cursed Cursed Deck
+        set: ddq
   Duel Deck Blessed vs Cursed Blessed Deck:
     category: DECK
-    identifiers: {}
     subtype: DUEL
+    identifiers: {}
+    contents:
+      card_count: 60
+      deck:
+      - name: Blessed
+        set: ddq
   Duel Deck Blessed vs Cursed Cursed Deck:
     category: DECK
-    identifiers: {}
     subtype: DUEL
+    identifiers: {}
+    contents:
+      card_count: 60
+      deck:
+      - name: Cursed
+        set: ddq
   Duel Deck Blessed vs Cursed Display:
     category: DECK_BOX
-    identifiers: {}
     subtype: DUEL
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Duel Deck Blessed vs Cursed
+        set: ddq

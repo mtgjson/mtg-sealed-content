@@ -2,6 +2,7 @@ code: inv
 products:
   Invasion Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1100610'
       cardKingdomId: '1283'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-INV-EN
       tcgplayerProductId: '27284'
       tntId: '84066'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Invasion Booster Pack
+        set: inv
   Invasion Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Invasion Booster Box
+        set: inv
   Invasion Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476888'
       cardKingdomId: '1284'
@@ -29,9 +40,14 @@ products:
       scgId: SLD-MTG-PCK-INV-EN
       tcgplayerProductId: '27346'
       tntId: '138496'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: inv
   Invasion Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1100606'
       cardKingdomId: '202539'
@@ -42,19 +58,44 @@ products:
       scgId: SLD-MTG-BUN-INV-EN
       tcgplayerProductId: '78314'
       tntId: '155255'
-    subtype: FAT_PACK
+    contents:
+      card_count: 2
+      other:
+      - name: The Invasion Novel
+      - name: TopDeck Magazine \# 13
+      pack:
+      - code: fat-pack
+        set: inv
+      sealed:
+      - count: 3
+        name: Invasion Booster Pack
+        set: inv
+      - count: 1
+        name: Invasion Tournament Pack
+        set: inv
   Invasion MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241600'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 350
+      deck:
+      - name: Invasion Redemption
+        set: inv
   Invasion MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241599'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 350
+      deck:
+      - name: Invasion Foil Redemption
+        set: inv
   Invasion Theme Deck Blowout:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100611'
       cardKingdomId: '1289'
@@ -63,9 +104,14 @@ products:
       mcmId: '253745'
       tcgplayerProductId: '93340'
       tntId: '107457'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Blowout
+        set: inv
   Invasion Theme Deck Dismissal:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100612'
       cardKingdomId: '1288'
@@ -74,9 +120,14 @@ products:
       mcmId: '253746'
       tcgplayerProductId: '93342'
       tntId: '106936'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Dismissal
+        set: inv
   Invasion Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       abuId: '1100623'
       cardKingdomId: '240153'
@@ -84,9 +135,23 @@ products:
       hareruyaId: '122546'
       mcmId: '210229'
       tntId: '84072'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 3
+        name: Invasion Theme Deck Dismissal
+        set: inv
+      - count: 3
+        name: Invasion Theme Deck Heavy Duty
+        set: inv
+      - count: 3
+        name: Invasion Theme Deck Blowout
+        set: inv
+      - count: 3
+        name: Invasion Theme Deck Spectrum
+        set: inv
   Invasion Theme Deck Heavy Duty:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100614'
       cardKingdomId: '1290'
@@ -95,14 +160,33 @@ products:
       mcmId: '253747'
       tcgplayerProductId: '93341'
       tntId: '106953'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Heavy Duty
+        set: inv
   Invasion Theme Deck Set of 4:
     category: SUBSET
+    subtype: THEME
     identifiers:
       abuId: '1100618'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Invasion Theme Deck Dismissal
+        set: inv
+      - count: 1
+        name: Invasion Theme Deck Heavy Duty
+        set: inv
+      - count: 1
+        name: Invasion Theme Deck Blowout
+        set: inv
+      - count: 1
+        name: Invasion Theme Deck Spectrum
+        set: inv
   Invasion Theme Deck Spectrum:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100616'
       cardKingdomId: '1287'
@@ -111,9 +195,14 @@ products:
       mcmId: '253748'
       tcgplayerProductId: '93343'
       tntId: '106952'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Spectrum
+        set: inv
   Invasion Tournament Pack:
     category: LIMITED
+    subtype: TOURNAMENT
     identifiers:
       abuId: '1100600'
       cardKingdomId: '1286'
@@ -123,9 +212,14 @@ products:
       scgId: SLD-MTG-PCK-INVTOURNAMENT-EN
       tcgplayerProductId: '93344'
       tntId: '84075'
-    subtype: TOURNAMENT
+    contents:
+      card_count: 75
+      pack:
+      - code: tournament
+        set: inv
   Invasion Tournament Pack Display:
     category: LIMITED_CASE
+    subtype: TOURNAMENT
     identifiers:
       abuId: '1100602'
       cardKingdomId: '240154'
@@ -134,4 +228,8 @@ products:
       scgId: SLD-MTG-BBX-INVTOURNAMENT-EN
       tcgplayerProductId: '633386'
       tntId: '84074'
-    subtype: TOURNAMENT
+    contents:
+      sealed:
+      - count: 12
+        name: Invasion Tournament Pack
+        set: inv

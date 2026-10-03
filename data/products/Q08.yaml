@@ -2,15 +2,31 @@ code: q08
 products:
   Pioneer Challenger Deck 2022 Display:
     category: DECK_BOX
+    subtype: CHALLENGER
+    release_date: '2022-11-04'
     identifiers:
       cardtraderId: '218606'
       mcmId: '666762'
       tcgplayerProductId: '278662'
       tntId: '1767250'
-    release_date: '2022-11-04'
-    subtype: CHALLENGER
+    contents:
+      sealed:
+      - count: 2
+        name: Pioneer Challenger Deck 2022 Izzet Phoenix
+        set: q08
+      - count: 2
+        name: Pioneer Challenger Deck 2022 Orzhov Humans
+        set: q08
+      - count: 2
+        name: Pioneer Challenger Deck 2022 Pioneer Dimir Control
+        set: q08
+      - count: 2
+        name: Pioneer Challenger Deck 2022 Pioneer Gruul Stompy
+        set: q08
   Pioneer Challenger Deck 2022 Izzet Phoenix:
     category: DECK
+    subtype: CHALLENGER
+    release_date: '2022-11-04'
     identifiers:
       abuId: '2257961'
       cardKingdomId: '267709'
@@ -21,10 +37,18 @@ products:
       scgId: SLD-MTG-INT-Q08-EN-IZZET
       tcgplayerProductId: '278665'
       tntId: '1767253'
-    release_date: '2022-11-04'
-    subtype: CHALLENGER
+    contents:
+      card_count: 75
+      deck:
+      - name: Izzet Phoenix
+        set: q08
+      other:
+      - name: 5 Double Sided Tokens
+      - name: 6 Helper Cards
   Pioneer Challenger Deck 2022 Orzhov Humans:
     category: DECK
+    subtype: CHALLENGER
+    release_date: '2022-11-04'
     identifiers:
       abuId: '2257960'
       cardKingdomId: '267708'
@@ -35,10 +59,18 @@ products:
       scgId: SLD-MTG-INT-Q08-EN-ORZHOV
       tcgplayerProductId: '278664'
       tntId: '1767252'
-    release_date: '2022-11-04'
-    subtype: CHALLENGER
+    contents:
+      card_count: 75
+      deck:
+      - name: Orzhov Humans
+        set: q08
+      other:
+      - name: 5 Double Sided Tokens
+      - name: 6 Helper Cards
   Pioneer Challenger Deck 2022 Pioneer Dimir Control:
     category: DECK
+    subtype: CHALLENGER
+    release_date: '2022-11-04'
     identifiers:
       abuId: '2257959'
       cardKingdomId: '267707'
@@ -49,10 +81,18 @@ products:
       scgId: SLD-MTG-INT-Q08-EN-DIMIR
       tcgplayerProductId: '278663'
       tntId: '1767251'
-    release_date: '2022-11-04'
-    subtype: CHALLENGER
+    contents:
+      card_count: 75
+      deck:
+      - name: Dimir Control
+        set: q08
+      other:
+      - name: 5 Double Sided Tokens
+      - name: 6 Helper Cards
   Pioneer Challenger Deck 2022 Pioneer Gruul Stompy:
     category: DECK
+    subtype: CHALLENGER
+    release_date: '2022-11-04'
     identifiers:
       abuId: '2257962'
       cardKingdomId: '267710'
@@ -63,10 +103,18 @@ products:
       scgId: SLD-MTG-INT-Q08-EN-GRUUL
       tcgplayerProductId: '278666'
       tntId: '1767254'
-    release_date: '2022-11-04'
-    subtype: CHALLENGER
+    contents:
+      card_count: 75
+      deck:
+      - name: Gruul Stompy
+        set: q08
+      other:
+      - name: 5 Double Sided Tokens
+      - name: 6 Helper Cards
   Pioneer Challenger Deck 2022 Set of 4:
     category: SUBSET
+    subtype: CHALLENGER
+    release_date: '2022-11-04'
     identifiers:
       cardtraderId: '226824'
       csiId: '341816'
@@ -75,5 +123,17 @@ products:
       scgId: SLD-MTG-INT-Q08-EN-SET4
       tcgplayerProductId: '278661'
       tntId: '1732739'
-    release_date: '2022-11-04'
-    subtype: CHALLENGER
+    contents:
+      sealed:
+      - count: 1
+        name: Pioneer Challenger Deck 2022 Izzet Phoenix
+        set: q08
+      - count: 1
+        name: Pioneer Challenger Deck 2022 Orzhov Humans
+        set: q08
+      - count: 1
+        name: Pioneer Challenger Deck 2022 Pioneer Dimir Control
+        set: q08
+      - count: 1
+        name: Pioneer Challenger Deck 2022 Pioneer Gruul Stompy
+        set: q08

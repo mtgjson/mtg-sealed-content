@@ -2,6 +2,7 @@ code: wc04
 products:
   2004 World Championship Deck Aeo Paquette:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1100262'
       cardKingdomId: '228536'
@@ -11,15 +12,34 @@ products:
       scgId: SLD-MTG-BXS-WCH2004-EN-AEOPAQUETTE
       tcgplayerProductId: '158311'
       tntId: '120297'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 75
+      deck:
+      - name: Aeo Paquette - Affinity
+        set: wc04
   2004 World Championship Deck Box:
     category: DECK_BOX
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1100261'
       tcgplayerProductId: '245537'
-    subtype: CHAMPIONSHIP
+    contents:
+      sealed:
+      - count: 3
+        name: 2004 World Championship Deck Aeo Paquette
+        set: wc04
+      - count: 3
+        name: 2004 World Championship Deck Gabriel Nassif
+        set: wc04
+      - count: 4
+        name: 2004 World Championship Deck Julien Nuijten
+        set: wc04
+      - count: 2
+        name: 2004 World Championship Deck Manuel Bevand
+        set: wc04
   2004 World Championship Deck Gabriel Nassif:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1100263'
       cardKingdomId: '228547'
@@ -29,9 +49,14 @@ products:
       scgId: SLD-MTG-BXS-WCH2004-EN-GABRIELNASSIF
       tcgplayerProductId: '158313'
       tntId: '120296'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 75
+      deck:
+      - name: Gabriel Nassif - Blue-White Anti-Affinity Control
+        set: wc04
   2004 World Championship Deck Julien Nuijten:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1100230'
       cardKingdomId: '240337'
@@ -41,9 +66,14 @@ products:
       scgId: SLD-MTG-BXS-WCH2004-EN-JULIENNUIJTEN
       tcgplayerProductId: '158310'
       tntId: '120299'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 75
+      deck:
+      - name: Julien Nuijten - Green-White Astral Slide
+        set: wc04
   2004 World Championship Deck Manuel Bevand:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1100245'
       cardKingdomId: '228546'
@@ -53,9 +83,27 @@ products:
       scgId: SLD-MTG-BXS-WCH2004-EN-MANUELBEVAND
       tcgplayerProductId: '158312'
       tntId: '120300'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 75
+      deck:
+      - name: Manuel Bevand - Myr Incubator Combo
+        set: wc04
   2004 World Championship Deck Set of 4:
     category: SUBSET
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1100251'
-    subtype: CHAMPIONSHIP
+    contents:
+      sealed:
+      - count: 1
+        name: 2004 World Championship Deck Aeo Paquette
+        set: wc04
+      - count: 1
+        name: 2004 World Championship Deck Gabriel Nassif
+        set: wc04
+      - count: 1
+        name: 2004 World Championship Deck Julien Nuijten
+        set: wc04
+      - count: 1
+        name: 2004 World Championship Deck Manuel Bevand
+        set: wc04

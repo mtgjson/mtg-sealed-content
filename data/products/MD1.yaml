@@ -2,6 +2,7 @@ code: md1
 products:
   Magic Modern Event Deck March of the Multitudes:
     category: DECK
+    subtype: EVENT
     identifiers:
       abuId: '1100897'
       cardKingdomId: '194349'
@@ -12,4 +13,13 @@ products:
       scgId: SLD-MTG-INT-MD1EVENT-EN
       tcgplayerProductId: '82198'
       tntId: '1054448'
-    subtype: EVENT
+    contents:
+      card_count: 75
+      deck:
+      - name: March of the Multitudes
+        set: md1
+      other:
+      - name: 5 double-sided tokens
+      - name: 80 card sleeves
+      - name: Spindown life counter
+      - name: Strategy guide

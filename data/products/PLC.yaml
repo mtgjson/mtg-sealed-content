@@ -2,6 +2,7 @@ code: plc
 products:
   Planar Chaos Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1107968'
       cardKingdomId: '121870'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-PLC-EN
       tcgplayerProductId: '27296'
       tntId: '141922'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Planar Chaos Booster Pack
+        set: plc
   Planar Chaos Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Planar Chaos Booster Box
+        set: plc
   Planar Chaos Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476920'
       cardKingdomId: '121871'
@@ -29,9 +40,14 @@ products:
       scgId: SLD-MTG-PCK-PLC-EN
       tcgplayerProductId: '27358'
       tntId: '141913'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: plc
   Planar Chaos Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1107967'
       cardKingdomId: '121873'
@@ -42,26 +58,64 @@ products:
       scgId: SLD-MTG-BUN-PLC-EN
       tcgplayerProductId: '78325'
       tntId: '155130'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Time Spiral Fat Pack Land Pack
+        set: tsp
+      other:
+      - name: 2 card deck boxes
+      - name: Player's Guide
+      - name: Planar Chaos Spindown Life Counter
+      - name: 1 Random Pro Tour player card from PT06 set
+      - name: Planar Chaos novel
+      sealed:
+      - count: 6
+        name: Planar Chaos Booster Pack
+        set: plc
   Planar Chaos MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241643'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 165
+      deck:
+      - name: Planar Chaos Redemption
+        set: plc
   Planar Chaos MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241642'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 165
+      deck:
+      - name: Planar Chaos Foil Redemption
+        set: plc
   Planar Chaos Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       cardtraderId: '47183'
       mcmId: '210217'
       tntId: '141919'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 3
+        name: Planar Chaos Theme Deck Endless March
+        set: plc
+      - count: 3
+        name: Planar Chaos Theme Deck Ixidors Legacy
+        set: plc
+      - count: 3
+        name: Planar Chaos Theme Deck Rituals of Rebirth
+        set: plc
+      - count: 3
+        name: Planar Chaos Theme Deck Unraveling Mind
+        set: plc
   Planar Chaos Theme Deck Endless March:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100978'
       cardKingdomId: '122087'
@@ -70,9 +124,16 @@ products:
       mcmId: '253657'
       tcgplayerProductId: '129677'
       tntId: '141917'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Endless March
+        set: plc
+      other:
+      - name: One random Pro Tour Player Card
   Planar Chaos Theme Deck Ixidors Legacy:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100955'
       cardKingdomId: '122088'
@@ -81,9 +142,16 @@ products:
       mcmId: '253658'
       tcgplayerProductId: '129678'
       tntId: '141916'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Ixidor's Legacy
+        set: plc
+      other:
+      - name: One random Pro Tour Player Card
   Planar Chaos Theme Deck Rituals of Rebirth:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100980'
       cardKingdomId: '122089'
@@ -92,9 +160,16 @@ products:
       mcmId: '253659'
       tcgplayerProductId: '129679'
       tntId: '141914'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Rituals of Rebirth
+        set: plc
+      other:
+      - name: One random Pro Tour Player Card
   Planar Chaos Theme Deck Unraveling Mind:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100982'
       cardKingdomId: '122090'
@@ -103,9 +178,29 @@ products:
       mcmId: '253660'
       tcgplayerProductId: '129680'
       tntId: '141915'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Unraveling Mind
+        set: plc
+      other:
+      - name: One random Pro Tour Player Card
   Planar Chaos Theme Decks Set of 4:
     category: SUBSET
+    subtype: THEME
     identifiers:
       abuId: '1100983'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Planar Chaos Theme Deck Endless March
+        set: plc
+      - count: 1
+        name: Planar Chaos Theme Deck Ixidors Legacy
+        set: plc
+      - count: 1
+        name: Planar Chaos Theme Deck Rituals of Rebirth
+        set: plc
+      - count: 1
+        name: Planar Chaos Theme Deck Unraveling Mind
+        set: plc

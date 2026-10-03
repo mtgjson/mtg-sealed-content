@@ -2,6 +2,7 @@ code: ath
 products:
   Anthologies:
     category: MULTI_DECK
+    subtype: OTHER
     identifiers:
       abuId: '1100103'
       cardKingdomId: '227274'
@@ -12,4 +13,12 @@ products:
       scgId: SLD-MTG-BXS-ATH-EN
       tcgplayerProductId: '77302'
       tntId: '85213'
-    subtype: OTHER
+    contents:
+      card_count: 120
+      deck:
+      - name: Dark Alliance
+        set: ath
+      - name: Defenders of the Cause
+        set: ath
+      other:
+      - name: Magic Anthologies Booklet

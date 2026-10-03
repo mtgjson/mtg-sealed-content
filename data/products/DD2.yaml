@@ -2,6 +2,7 @@ code: dd2
 products:
   Duel Deck Jace vs Chandra:
     category: MULTI_DECK
+    subtype: DUEL
     identifiers:
       abuId: '1100632'
       cardKingdomId: '110085'
@@ -12,22 +13,47 @@ products:
       scgId: SLD-MTG-BXS-DD2-EN
       tcgplayerProductId: '32804'
       tntId: '231074'
-    subtype: DUEL
+    contents:
+      sealed:
+      - count: 1
+        name: Duel Deck Jace vs Chandra Chandra Deck
+        set: dd2
+      - count: 1
+        name: Duel Deck Jace vs Chandra Jace Deck
+        set: dd2
   Duel Deck Jace vs Chandra Chandra Deck:
     category: DECK
-    identifiers: {}
     subtype: DUEL
+    identifiers: {}
+    contents:
+      card_count: 60
+      deck:
+      - name: Chandra
+        set: dd2
   Duel Deck Jace vs Chandra Display:
     category: DECK_BOX
+    subtype: DUEL
     identifiers:
       tntId: '231075'
-    subtype: DUEL
+    contents:
+      sealed:
+      - count: 6
+        name: Duel Deck Jace vs Chandra
+        set: dd2
   Duel Deck Jace vs Chandra Jace Deck:
     category: DECK
-    identifiers: {}
     subtype: DUEL
+    identifiers: {}
+    contents:
+      card_count: 60
+      deck:
+      - name: Jace
+        set: dd2
   Duel Deck Jace vs Chandra Japanese:
     category: MULTI_DECK
+    subtype: DUEL
+    release_date: '2010-12-03'
+    language: Japanese
     identifiers:
       abuId: '1100633'
       cardKingdomId: '132597'
@@ -35,6 +61,10 @@ products:
       mcmId: '245055'
       tcgplayerProductId: '78341'
       tntId: '301156'
-    language: Japanese
-    release_date: '2010-12-03'
-    subtype: DUEL
+    contents:
+      card_count: 120
+      deck:
+      - name: Jace Japanese
+        set: dd2
+      - name: Chandra Japanese
+        set: dd2

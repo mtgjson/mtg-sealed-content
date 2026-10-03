@@ -2,6 +2,7 @@ code: dd1
 products:
   Duel Deck Elves vs Goblins:
     category: MULTI_DECK
+    subtype: DUEL
     identifiers:
       abuId: '1100488'
       cardKingdomId: '124078'
@@ -12,17 +13,39 @@ products:
       scgId: SLD-MTG-BXS-EVG-EN
       tcgplayerProductId: '32805'
       tntId: '171165'
-    subtype: DUEL
+    contents:
+      sealed:
+      - count: 1
+        name: Duel Deck Elves vs Goblins Elves Deck
+        set: dd1
+      - count: 1
+        name: Duel Deck Elves vs Goblins Goblins Deck
+        set: dd1
   Duel Deck Elves vs Goblins Display:
     category: DECK_BOX
+    subtype: DUEL
     identifiers:
       tntId: '171164'
-    subtype: DUEL
+    contents:
+      sealed:
+      - count: 6
+        name: Duel Deck Elves vs Goblins
+        set: dd1
   Duel Deck Elves vs Goblins Elves Deck:
     category: DECK
-    identifiers: {}
     subtype: DUEL
+    identifiers: {}
+    contents:
+      card_count: 60
+      deck:
+      - name: Elves
+        set: dd1
   Duel Deck Elves vs Goblins Goblins Deck:
     category: DECK
-    identifiers: {}
     subtype: DUEL
+    identifiers: {}
+    contents:
+      card_count: 60
+      deck:
+      - name: Goblins
+        set: dd1

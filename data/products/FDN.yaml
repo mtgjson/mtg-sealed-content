@@ -2,6 +2,8 @@ code: fdn
 products:
   Foundations Beginner Box:
     category: BOX_SET
+    subtype: STARTER
+    release_date: '2024-11-15'
     identifiers:
       abuId: '2546190'
       cardKingdomId: '304694'
@@ -10,16 +12,50 @@ products:
       mcmId: '781945'
       scgId: SLD-MTG-INT-FDNBEGINNER-EN
       tcgplayerProductId: '562167'
-    release_date: '2024-11-15'
-    subtype: STARTER
+    contents:
+      card_count: 200
+      deck:
+      - name: Cats
+        set: fdn
+      - name: Elves
+        set: fdn
+      - name: Goblins
+        set: fdn
+      - name: Healing
+        set: fdn
+      - name: Inferno
+        set: fdn
+      - name: Pirates
+        set: fdn
+      - name: Primal
+        set: fdn
+      - name: Undead
+        set: fdn
+      - name: Vampires
+        set: fdn
+      - name: Wizards
+        set: fdn
+      other:
+      - name: 2 Reference cards
+      - name: Reference guide booklet
+      - name: 2 How to Play guides
+      - name: 2 Gameboard playmats
+      - name: 2 Spindown life counters
   Foundations Beginner Box Case:
     category: BOX_SET
+    subtype: STARTER
+    release_date: '2024-11-15'
     identifiers:
       tcgplayerProductId: '562169'
-    release_date: '2024-11-15'
-    subtype: STARTER
+    contents:
+      sealed:
+      - count: 6
+        name: Foundations Beginner Box
+        set: fdn
   Foundations Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2024-11-15'
     identifiers:
       abuId: '2546187'
       cardKingdomId: '304695'
@@ -29,17 +65,39 @@ products:
       mcmId: '781943'
       scgId: SLD-MTG-BUN-FDN-EN
       tcgplayerProductId: '562125'
-    release_date: '2024-11-15'
-    subtype: DEFAULT
+    contents:
+      card:
+      - foil: true
+        name: Phyrexian Arena
+        number: 728
+        set: fdn
+      deck:
+      - name: Foundations Bundle Land Pack
+        set: fdn
+      other:
+      - name: Oversize spindown life counter
+      - name: 2 Reference cards
+      - name: Deck box
+      sealed:
+      - count: 9
+        name: Foundations Play Booster Pack
+        set: fdn
   Foundations Bundle Case:
     category: BUNDLE_CASE
+    subtype: DEFAULT
+    release_date: '2024-11-15'
     identifiers:
       cardtraderId: '405228'
       tcgplayerProductId: '562126'
-    release_date: '2024-11-15'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 6
+        name: Foundations Bundle
+        set: fdn
   Foundations Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2024-11-15'
     identifiers:
       abuId: '2546185'
       cardKingdomId: '304696'
@@ -48,16 +106,26 @@ products:
       mcmId: '781941'
       scgId: SLD-MTG-BBX-FDNCOLLECTOR-EN
       tcgplayerProductId: '562122'
-    release_date: '2024-11-15'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Foundations Collector Booster Pack
+        set: fdn
   Foundations Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
+    release_date: '2024-11-15'
     identifiers:
       tcgplayerProductId: '562123'
-    release_date: '2024-11-15'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Foundations Collector Booster Box
+        set: fdn
   Foundations Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2024-11-15'
     identifiers:
       abuId: '2546183'
       cardKingdomId: '304697'
@@ -67,10 +135,15 @@ products:
       mcmId: '781937'
       scgId: SLD-MTG-PCK-FDNCOLLECTOR-EN
       tcgplayerProductId: '562121'
-    release_date: '2024-11-15'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: fdn
   Foundations Play Booster Box:
     category: BOOSTER_BOX
+    subtype: PLAY
+    release_date: '2024-11-15'
     identifiers:
       abuId: '2546181'
       cardKingdomId: '304700'
@@ -81,18 +154,28 @@ products:
       miniaturemarketId: 6f0997b1f4a34c49913081e0b2ed6bf8
       scgId: SLD-MTG-BBX-FDNPLAY-EN
       tcgplayerProductId: '562118'
-    release_date: '2024-11-15'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 36
+        name: Foundations Play Booster Pack
+        set: fdn
   Foundations Play Booster Box Case:
     category: BOOSTER_CASE
+    subtype: PLAY
+    release_date: '2024-11-15'
     identifiers:
       csiId: '393531'
       scgId: SLD-MTG-BBX-FDNPLAYCASE-EN
       tcgplayerProductId: '562119'
-    release_date: '2024-11-15'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 6
+        name: Foundations Play Booster Box
+        set: fdn
   Foundations Play Booster Pack:
     category: BOOSTER_PACK
+    subtype: PLAY
+    release_date: '2024-11-15'
     identifiers:
       abuId: '2546182'
       cardKingdomId: '304701'
@@ -103,20 +186,37 @@ products:
       miniaturemarketId: eaa8898af19281260c8d1126c9e6e5f7
       scgId: SLD-MTG-PCK-FDNPLAY-EN
       tcgplayerProductId: '562116'
-    release_date: '2024-11-15'
-    subtype: PLAY
+    contents:
+      card_count: 14
+      pack:
+      - code: play
+        set: fdn
   Foundations Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2024-11-15'
     identifiers:
       abuId: '2546188'
       cardKingdomId: '304702'
       cardtraderId: '295762'
       mcmId: '781944'
       tcgplayerProductId: '562127'
-    release_date: '2024-11-15'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: Foundations Spindown
+      - name: MTG Arena code card (available in select regions)
+      pack:
+      - code: prerelease
+        set: fdn
+      sealed:
+      - count: 6
+        name: Foundations Play Booster Pack
+        set: fdn
   Foundations Starter Collection:
     category: BOX_SET
+    subtype: STARTER
+    release_date: '2024-11-15'
     identifiers:
       abuId: '2546191'
       cardKingdomId: '304703'
@@ -126,11 +226,28 @@ products:
       miniaturemarketId: 77fc33860576fa86426105ac789397cf
       scgId: SLD-MTG-INT-FDNSTARTER-EN
       tcgplayerProductId: '562162'
-    release_date: '2024-11-15'
-    subtype: STARTER
+    contents:
+      card_count: 387
+      deck:
+      - name: Starter Collection
+        set: fdn
+      other:
+      - name: 2 Reference cards
+      - name: How to Build Your Deck booklet
+      - name: Click wheel
+      - name: 13 Double-sided tokens
+      sealed:
+      - count: 3
+        name: Foundations Play Booster Pack
+        set: fdn
   Foundations Starter Collection Case:
     category: BOX_SET
+    subtype: STARTER
+    release_date: '2024-11-15'
     identifiers:
       tcgplayerProductId: '562163'
-    release_date: '2024-11-15'
-    subtype: STARTER
+    contents:
+      sealed:
+      - count: 6
+        name: Foundations Starter Collection
+        set: fdn

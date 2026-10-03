@@ -2,6 +2,8 @@ code: q07
 products:
   Challenger Deck 2022 Dimir Control:
     category: DECK
+    subtype: CHALLENGER
+    release_date: '2022-01-26'
     identifiers:
       abuId: '2167836'
       cardKingdomId: '257493'
@@ -10,17 +12,36 @@ products:
       mcmId: '611305'
       tcgplayerProductId: '263165'
       tntId: '1745656'
-    release_date: '2022-01-26'
-    subtype: CHALLENGER
+    contents:
+      card_count: 75
+      deck:
+      - name: Dimir Control
+        set: q07
   Challenger Deck 2022 Display:
     category: DECK_BOX
+    subtype: CHALLENGER
     identifiers:
       hareruyaId: '110541'
       tcgplayerProductId: '263168'
       tntId: '1745660'
-    subtype: CHALLENGER
+    contents:
+      sealed:
+      - count: 2
+        name: Challenger Deck 2022 Dimir Control
+        set: q07
+      - count: 2
+        name: Challenger Deck 2022 Gruul Stompy
+        set: q07
+      - count: 2
+        name: Challenger Deck 2022 Mono White Aggro
+        set: q07
+      - count: 2
+        name: Challenger Deck 2022 Rakdos Vampires
+        set: q07
   Challenger Deck 2022 Gruul Stompy:
     category: DECK
+    subtype: CHALLENGER
+    release_date: '2022-03-06'
     identifiers:
       abuId: '2167837'
       cardKingdomId: '257495'
@@ -30,10 +51,15 @@ products:
       mcmId: '611306'
       tcgplayerProductId: '263166'
       tntId: '1745657'
-    release_date: '2022-03-06'
-    subtype: CHALLENGER
+    contents:
+      card_count: 75
+      deck:
+      - name: Gruul Stompy
+        set: q07
   Challenger Deck 2022 Mono White Aggro:
     category: DECK
+    subtype: CHALLENGER
+    release_date: '2022-03-06'
     identifiers:
       abuId: '2167838'
       cardKingdomId: '257492'
@@ -43,10 +69,15 @@ products:
       mcmId: '611304'
       tcgplayerProductId: '263164'
       tntId: '1745655'
-    release_date: '2022-03-06'
-    subtype: CHALLENGER
+    contents:
+      card_count: 75
+      deck:
+      - name: Mono White Aggro
+        set: q07
   Challenger Deck 2022 Rakdos Vampires:
     category: DECK
+    subtype: CHALLENGER
+    release_date: '2022-03-06'
     identifiers:
       abuId: '2167840'
       cardKingdomId: '257494'
@@ -56,15 +87,32 @@ products:
       mcmId: '611307'
       tcgplayerProductId: '263167'
       tntId: '1745658'
-    release_date: '2022-03-06'
-    subtype: CHALLENGER
+    contents:
+      card_count: 75
+      deck:
+      - name: Rakdos Vampires
+        set: q07
   Challenger Deck 2022 Set of 4:
     category: SUBSET
+    subtype: CHALLENGER
+    release_date: '2022-03-06'
     identifiers:
       cardtraderId: '206984'
       csiId: '328751'
       mcmId: '611308'
       tcgplayerProductId: '263169'
       tntId: '1745659'
-    release_date: '2022-03-06'
-    subtype: CHALLENGER
+    contents:
+      sealed:
+      - count: 1
+        name: Challenger Deck 2022 Dimir Control
+        set: q07
+      - count: 1
+        name: Challenger Deck 2022 Gruul Stompy
+        set: q07
+      - count: 1
+        name: Challenger Deck 2022 Mono White Aggro
+        set: q07
+      - count: 1
+        name: Challenger Deck 2022 Rakdos Vampires
+        set: q07

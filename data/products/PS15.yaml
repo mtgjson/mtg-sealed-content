@@ -2,6 +2,7 @@ code: ps15
 products:
   SDCC 2015 Magic Origins Black Planeswalkers Set:
     category: BOX_SET
+    subtype: CONVENTION
     identifiers:
       cardKingdomId: '223230'
       cardtraderId: '39932'
@@ -9,12 +10,23 @@ products:
       hareruyaId: '28070'
       scgId: SLD-MTG-BXS-SDCC2015-EN
       tcgplayerProductId: '101352'
-    subtype: CONVENTION
+    contents:
+      card_count: 5
+      deck:
+      - name: SDCC 2015 Planeswalker Set
+        set: ps15
+      other:
+      - name: Magic Origins Planeswalker Anthology Book
   SDCC 2015 Magic Origins Black Planeswalkers Set (No Book):
     category: BOX_SET
+    subtype: CONVENTION
     identifiers:
       cardKingdomId: '223229'
       cardtraderId: '39931'
       scgId: SLD-MTG-BXS-SDCC2016-EN
       tntId: '1182821'
-    subtype: CONVENTION
+    contents:
+      card_count: 5
+      deck:
+      - name: SDCC 2015 Planeswalker Set
+        set: ps15

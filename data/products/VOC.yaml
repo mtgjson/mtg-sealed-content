@@ -2,12 +2,22 @@ code: voc
 products:
   Innistrad Crimson Vow Commander Deck Display:
     category: DECK_BOX
+    subtype: COMMANDER
+    release_date: '2021-11-19'
     identifiers:
       tcgplayerProductId: '246462'
-    release_date: '2021-11-19'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 2
+        name: Innistrad Crimson Vow Commander Deck Vampiric Bloodline
+        set: voc
+      - count: 2
+        name: Innistrad Crimson Vow Commander Deck Spirit Squadron
+        set: voc
   Innistrad Crimson Vow Commander Deck Spirit Squadron:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2021-11-19'
     identifiers:
       abuId: '2111057'
       cardKingdomId: '252173'
@@ -18,15 +28,25 @@ products:
       scgId: SLD-MTG-MLT-VOC-EN-SPIRIT
       tcgplayerProductId: '246465'
       tntId: '1732857'
-    release_date: '2021-11-19'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Spirit Squadron
+        set: voc
+      other:
+      - name: 10 Double Sided Tokens
+      - name: Innistrad Crimson Vow Life Wheel
   Innistrad Crimson Vow Commander Deck Spirit Squadron Minimal Packaging:
     category: DECK
+    subtype: COMMANDER
     identifiers:
       tcgplayerProductId: '246464'
-    subtype: COMMANDER
+    contents:
+      copy: Innistrad Crimson Vow Commander Deck Spirit Squadron
   Innistrad Crimson Vow Commander Deck Vampiric Bloodline:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2021-11-19'
     identifiers:
       abuId: '2111058'
       cardKingdomId: '252174'
@@ -37,15 +57,25 @@ products:
       scgId: SLD-MTG-MLT-VOC-EN-VAMPIRE
       tcgplayerProductId: '246466'
       tntId: '1732856'
-    release_date: '2021-11-19'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Vampiric Bloodline
+        set: voc
+      other:
+      - name: 10 Double Sided Tokens
+      - name: Innistrad Crimson Vow Life Wheel
   Innistrad Crimson Vow Commander Deck Vampiric Bloodline Minimal Packaging:
     category: DECK
+    subtype: COMMANDER
     identifiers:
       tcgplayerProductId: '246463'
-    subtype: COMMANDER
+    contents:
+      copy: Innistrad Crimson Vow Commander Deck Vampiric Bloodline
   Innistrad Crimson Vow Commander Decks Set of 2:
     category: SUBSET
+    subtype: COMMANDER
+    release_date: '2021-11-19'
     identifiers:
       cardtraderId: '164142'
       csiId: '321837'
@@ -53,5 +83,11 @@ products:
       mcmId: '577443'
       scgId: SLD-MTG-MLT-VOC-EN-SET2
       tcgplayerProductId: '250501'
-    release_date: '2021-11-19'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Innistrad Crimson Vow Commander Deck Vampiric Bloodline
+        set: voc
+      - count: 1
+        name: Innistrad Crimson Vow Commander Deck Spirit Squadron
+        set: voc

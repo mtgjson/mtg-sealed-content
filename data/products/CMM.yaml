@@ -2,6 +2,8 @@ code: cmm
 products:
   Commander Masters Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2023-08-04'
     identifiers:
       abuId: '2380014'
       cardKingdomId: '279444'
@@ -12,16 +14,26 @@ products:
       scgId: SLD-MTG-BBX-CMMCOLLECTOR-EN
       tcgplayerProductId: '484929'
       tntId: '1774298'
-    release_date: '2023-08-04'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 4
+        name: Commander Masters Collector Booster Pack
+        set: cmm
   Commander Masters Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
+    release_date: '2023-08-04'
     identifiers:
       tcgplayerProductId: '497724'
-    release_date: '2023-08-04'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Commander Masters Collector Booster Box
+        set: cmm
   Commander Masters Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2023-08-04'
     identifiers:
       abuId: '2689635'
       cardKingdomId: '279443'
@@ -32,23 +44,34 @@ products:
       scgId: SLD-MTG-PCK-CMMCOLLECTOR-EN
       tcgplayerProductId: '484928'
       tntId: '1774299'
-    release_date: '2023-08-04'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: cmm
   Commander Masters Collector Booster Pack Minimal Packaging:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '684663'
-    subtype: COLLECTOR
+    contents:
+      copy: Commander Masters Collector Booster Pack
   Commander Masters Collector Booster Sample Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2023-07-28'
     identifiers:
       cardtraderId: '294300'
       mcmId: '729220'
       tcgplayerProductId: '579968'
-    release_date: '2023-07-28'
-    subtype: COLLECTOR
+    contents:
+      card_count: 2
+      pack:
+      - code: collector-sample
+        set: cmm
   Commander Masters Commander Deck Eldrazi Unbound:
     category: DECK
+    subtype: COMMANDER
     identifiers:
       abuId: '2380015'
       cardKingdomId: '279445'
@@ -59,9 +82,23 @@ products:
       scgId: SLD-MTG-MLT-CMM-EN-ELDRAZI
       tcgplayerProductId: '484931'
       tntId: '1774301'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Eldrazi Unbound
+        set: cmm
+      other:
+      - name: 10 double faced tokens
+      - name: Helper card
+      - name: Life tracker
+      sealed:
+      - count: 1
+        name: Commander Masters Collector Booster Sample Pack
+        set: cmm
   Commander Masters Commander Deck Enduring Enchantments:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2023-08-04'
     identifiers:
       abuId: '2380016'
       cardKingdomId: '279446'
@@ -72,10 +109,23 @@ products:
       scgId: SLD-MTG-MLT-CMM-EN-ENDURING
       tcgplayerProductId: '484932'
       tntId: '1774302'
-    release_date: '2023-08-04'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Enduring Enchantments
+        set: cmm
+      other:
+      - name: 10 double faced tokens
+      - name: Helper card
+      - name: Life tracker
+      sealed:
+      - count: 1
+        name: Commander Masters Collector Booster Sample Pack
+        set: cmm
   Commander Masters Commander Deck Planeswalker Party:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2023-08-04'
     identifiers:
       abuId: '2380017'
       cardKingdomId: '279447'
@@ -86,10 +136,23 @@ products:
       scgId: SLD-MTG-MLT-CMM-EN-PLANESWALKER
       tcgplayerProductId: '484930'
       tntId: '1774303'
-    release_date: '2023-08-04'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Planeswalker Party
+        set: cmm
+      other:
+      - name: 10 double faced tokens
+      - name: Helper card
+      - name: Life tracker
+      sealed:
+      - count: 1
+        name: Commander Masters Collector Booster Sample Pack
+        set: cmm
   Commander Masters Commander Deck Sliver Swarm:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2023-08-04'
     identifiers:
       abuId: '2380018'
       cardKingdomId: '279448'
@@ -100,10 +163,23 @@ products:
       scgId: SLD-MTG-MLT-CMM-EN-SLIVER
       tcgplayerProductId: '484933'
       tntId: '1774304'
-    release_date: '2023-08-04'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Sliver Swarm
+        set: cmm
+      other:
+      - name: 10 double faced tokens
+      - name: Helper card
+      - name: Life tracker
+      sealed:
+      - count: 1
+        name: Commander Masters Collector Booster Sample Pack
+        set: cmm
   Commander Masters Commander Decks Set of 4:
     category: SUBSET
+    subtype: COMMANDER
+    release_date: '2023-08-04'
     identifiers:
       cardKingdomId: '279449'
       cardtraderId: '249849'
@@ -112,10 +188,24 @@ products:
       mcmId: '711919'
       scgId: SLD-MTG-MLT-CMM-EN-SET4
       tcgplayerProductId: '484934'
-    release_date: '2023-08-04'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Commander Masters Commander Deck Eldrazi Unbound
+        set: cmm
+      - count: 1
+        name: Commander Masters Commander Deck Enduring Enchantments
+        set: cmm
+      - count: 1
+        name: Commander Masters Commander Deck Planeswalker Party
+        set: cmm
+      - count: 1
+        name: Commander Masters Commander Deck Sliver Swarm
+        set: cmm
   Commander Masters Draft Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2023-08-04'
     identifiers:
       abuId: '2376361'
       cardKingdomId: '279450'
@@ -127,16 +217,26 @@ products:
       scgId: SLD-MTG-BBX-CMMDRAFT-EN
       tcgplayerProductId: '484924'
       tntId: '1774294'
-    release_date: '2023-08-04'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 24
+        name: Commander Masters Draft Booster Pack
+        set: cmm
   Commander Masters Draft Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2023-08-04'
     identifiers:
       tcgplayerProductId: '484925'
-    release_date: '2023-08-04'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Commander Masters Draft Booster Box
+        set: cmm
   Commander Masters Draft Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2023-08-04'
     identifiers:
       abuId: '2689636'
       cardKingdomId: '279451'
@@ -148,10 +248,15 @@ products:
       scgId: SLD-MTG-PCK-CMMDRAFT-EN
       tcgplayerProductId: '484923'
       tntId: '1774295'
-    release_date: '2023-08-04'
-    subtype: DRAFT
+    contents:
+      card_count: 20
+      pack:
+      - code: draft
+        set: cmm
   Commander Masters Set Booster Box:
     category: BOOSTER_BOX
+    subtype: SET
+    release_date: '2023-08-04'
     identifiers:
       abuId: '2380012'
       cardKingdomId: '279453'
@@ -163,16 +268,26 @@ products:
       scgId: SLD-MTG-BBX-CMMSET-EN
       tcgplayerProductId: '484927'
       tntId: '1774296'
-    release_date: '2023-08-04'
-    subtype: SET
+    contents:
+      sealed:
+      - count: 24
+        name: Commander Masters Set Booster Pack
+        set: cmm
   Commander Masters Set Booster Box Case:
     category: BOOSTER_CASE
+    subtype: SET
+    release_date: '2023-08-04'
     identifiers:
       tcgplayerProductId: '490553'
-    release_date: '2023-08-04'
-    subtype: SET
+    contents:
+      sealed:
+      - count: 6
+        name: Commander Masters Set Booster Box
+        set: cmm
   Commander Masters Set Booster Pack:
     category: BOOSTER_PACK
+    subtype: SET
+    release_date: '2023-08-04'
     identifiers:
       abuId: '2689637'
       cardKingdomId: '279452'
@@ -183,5 +298,8 @@ products:
       scgId: SLD-MTG-PCK-CMMSET-EN
       tcgplayerProductId: '484926'
       tntId: '1774297'
-    release_date: '2023-08-04'
-    subtype: SET
+    contents:
+      card_count: 15
+      pack:
+      - code: set
+        set: cmm

@@ -2,6 +2,8 @@ code: mic
 products:
   Innistrad Midnight Hunt Commander Deck Coven Counters:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2021-09-24'
     identifiers:
       abuId: '2092996'
       cardKingdomId: '249945'
@@ -12,22 +14,40 @@ products:
       scgId: SLD-MTG-MLT-MIC-EN-COVEN
       tcgplayerProductId: '246460'
       tntId: '1730461'
-    release_date: '2021-09-24'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Coven Counters
+        set: mic
+      other:
+      - name: 10 Double Sided Tokens
+      - name: Innistrad Midnight Hunt Life Wheel
   Innistrad Midnight Hunt Commander Deck Coven Counters Minimal Packaging:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2021-09-24'
     identifiers:
       tcgplayerProductId: '246265'
-    release_date: '2021-09-24'
-    subtype: COMMANDER
+    contents:
+      copy: Innistrad Midnight Hunt Commander Deck Coven Counters
   Innistrad Midnight Hunt Commander Deck Display:
     category: DECK_BOX
+    subtype: COMMANDER
+    release_date: '2021-09-24'
     identifiers:
       tcgplayerProductId: '244395'
-    release_date: '2021-09-24'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 2
+        name: Innistrad Midnight Hunt Commander Deck Undead Unleashed
+        set: mic
+      - count: 2
+        name: Innistrad Midnight Hunt Commander Deck Coven Counters
+        set: mic
   Innistrad Midnight Hunt Commander Deck Undead Unleashed:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2021-09-24'
     identifiers:
       abuId: '2092995'
       cardKingdomId: '249944'
@@ -38,21 +58,37 @@ products:
       scgId: SLD-MTG-MLT-MIC-EN-UNDEAD
       tcgplayerProductId: '246461'
       tntId: '1730462'
-    release_date: '2021-09-24'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Undead Unleashed
+        set: mic
+      other:
+      - name: 10 Double Sided Tokens
+      - name: Innistrad Midnight Hunt Life Wheel
   Innistrad Midnight Hunt Commander Deck Undead Unleashed Minimal Packaging:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2021-09-24'
     identifiers:
       tcgplayerProductId: '246266'
-    release_date: '2021-09-24'
-    subtype: COMMANDER
+    contents:
+      copy: Innistrad Midnight Hunt Commander Deck Undead Unleashed
   Innistrad Midnight Hunt Commander Decks Set of 2:
     category: SUBSET
+    subtype: COMMANDER
+    release_date: '2021-09-24'
     identifiers:
       cardtraderId: '164139'
       csiId: '321834'
       mcmId: '577444'
       scgId: SLD-MTG-MLT-MIC-EN-SET2
       tcgplayerProductId: '247600'
-    release_date: '2021-09-24'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Innistrad Midnight Hunt Commander Deck Undead Unleashed
+        set: mic
+      - count: 1
+        name: Innistrad Midnight Hunt Commander Deck Coven Counters
+        set: mic

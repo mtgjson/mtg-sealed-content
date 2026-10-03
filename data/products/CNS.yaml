@@ -2,6 +2,8 @@ code: cns
 products:
   Conspiracy Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2014-06-06'
     identifiers:
       abuId: '1100335'
       cardKingdomId: '194369'
@@ -12,15 +14,25 @@ products:
       scgId: SLD-MTG-BBX-CNS-EN
       tcgplayerProductId: '82200'
       tntId: '1052084'
-    release_date: '2014-06-06'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Conspiracy Booster Pack
+        set: cns
   Conspiracy Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '82201'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Conspiracy Booster Box
+        set: cns
   Conspiracy Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2014-06-06'
     identifiers:
       abuId: '1476867'
       cardKingdomId: '194370'
@@ -31,5 +43,8 @@ products:
       scgId: SLD-MTG-PCK-CNS-EN
       tcgplayerProductId: '82199'
       tntId: '1052085'
-    release_date: '2014-06-06'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: cns

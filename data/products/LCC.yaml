@@ -2,6 +2,8 @@ code: lcc
 products:
   The Lost Caverns of Ixalan Commander Deck Ahoy Mateys:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2023-11-17'
     identifiers:
       abuId: '2423058'
       cardKingdomId: '285501'
@@ -13,10 +15,24 @@ products:
       scgId: SLD-MTG-MLT-LCC-EN-AHOY
       tcgplayerProductId: '517513'
       tntId: '1789542'
-    release_date: '2023-11-17'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Ahoy Mateys
+        set: lcc
+      other:
+      - name: 10 double faced tokens
+      - name: deck box
+      - name: spindown life counter
+      - name: Strategy insert
+      sealed:
+      - count: 1
+        name: The Lost Caverns of Ixalan Collector Booster Sample Pack
+        set: lci
   The Lost Caverns of Ixalan Commander Deck Blood Rites:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2023-11-17'
     identifiers:
       abuId: '2423059'
       cardKingdomId: '285502'
@@ -28,16 +44,44 @@ products:
       scgId: SLD-MTG-MLT-LCC-EN-BLOOD
       tcgplayerProductId: '517514'
       tntId: '1789545'
-    release_date: '2023-11-17'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Blood Rites
+        set: lcc
+      other:
+      - name: 10 double faced tokens
+      - name: deck box
+      - name: spindown life counter
+      - name: Strategy insert
+      sealed:
+      - count: 1
+        name: The Lost Caverns of Ixalan Collector Booster Sample Pack
+        set: lci
   The Lost Caverns of Ixalan Commander Deck Display:
     category: DECK_BOX
+    subtype: COMMANDER
+    release_date: '2023-11-17'
     identifiers:
       tcgplayerProductId: '517517'
-    release_date: '2023-11-17'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: The Lost Caverns of Ixalan Commander Deck Ahoy Mateys
+        set: lcc
+      - count: 1
+        name: The Lost Caverns of Ixalan Commander Deck Blood Rites
+        set: lcc
+      - count: 1
+        name: The Lost Caverns of Ixalan Commander Deck Explorers of the Deep
+        set: lcc
+      - count: 1
+        name: The Lost Caverns of Ixalan Commander Deck Veloci Ramp Tor
+        set: lcc
   The Lost Caverns of Ixalan Commander Deck Explorers of the Deep:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2023-11-17'
     identifiers:
       abuId: '2423060'
       cardKingdomId: '285503'
@@ -49,10 +93,24 @@ products:
       scgId: SLD-MTG-MLT-LCC-EN-EXPLORERS
       tcgplayerProductId: '517515'
       tntId: '1789543'
-    release_date: '2023-11-17'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Explorers of the Deep
+        set: lcc
+      other:
+      - name: 10 double faced tokens
+      - name: deck box
+      - name: spindown life counter
+      - name: Strategy insert
+      sealed:
+      - count: 1
+        name: The Lost Caverns of Ixalan Collector Booster Sample Pack
+        set: lci
   The Lost Caverns of Ixalan Commander Deck Set of 4:
     category: SUBSET
+    subtype: COMMANDER
+    release_date: '2023-09-23'
     identifiers:
       cardKingdomId: '285505'
       cardtraderId: '261734'
@@ -61,10 +119,24 @@ products:
       mcmId: '734193'
       miniaturemarketId: 0190f5989de870fcb8d80af3bc7ca5a2
       scgId: SLD-MTG-MLT-LCC-EN-SET4
-    release_date: '2023-09-23'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: The Lost Caverns of Ixalan Commander Deck Ahoy Mateys
+        set: lcc
+      - count: 1
+        name: The Lost Caverns of Ixalan Commander Deck Blood Rites
+        set: lcc
+      - count: 1
+        name: The Lost Caverns of Ixalan Commander Deck Explorers of the Deep
+        set: lcc
+      - count: 1
+        name: The Lost Caverns of Ixalan Commander Deck Veloci Ramp Tor
+        set: lcc
   The Lost Caverns of Ixalan Commander Deck Veloci Ramp Tor:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2023-11-17'
     identifiers:
       abuId: '2423061'
       cardKingdomId: '285504'
@@ -76,5 +148,17 @@ products:
       scgId: SLD-MTG-MLT-LCC-EN-RAMP
       tcgplayerProductId: '517516'
       tntId: '1789544'
-    release_date: '2023-11-17'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Veloci-Ramp-Tor
+        set: lcc
+      other:
+      - name: 10 double faced tokens
+      - name: deck box
+      - name: spindown life counter
+      - name: Strategy insert
+      sealed:
+      - count: 1
+        name: The Lost Caverns of Ixalan Collector Booster Sample Pack
+        set: lci

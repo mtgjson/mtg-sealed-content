@@ -2,12 +2,15 @@ code: 9ed
 products:
   Ninth Edition Advanced Booster:
     category: BOOSTER_PACK
+    subtype: ADVANCED
     identifiers:
       cardtraderId: '46939'
       mcmId: '283069'
-    subtype: ADVANCED
+    contents:
+      copy: Ninth Edition Demo Booster
   Ninth Edition Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1107748'
       cardKingdomId: '117666'
@@ -18,13 +21,25 @@ products:
       scgId: SLD-MTG-BBX-9ED-EN
       tcgplayerProductId: '27260'
       tntId: '123097'
-    subtype: DRAFT
+    contents:
+      other:
+      - name: One random Ninth Edition oversized box topper (excluding Force of Nature)
+      sealed:
+      - count: 36
+        name: Ninth Edition Booster Pack
+        set: 9ed
   Ninth Edition Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Ninth Edition Booster Box
+        set: 9ed
   Ninth Edition Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476807'
       cardKingdomId: '117668'
@@ -35,28 +50,72 @@ products:
       scgId: SLD-MTG-PCK-9ED-EN
       tcgplayerProductId: '27322'
       tntId: '123089'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: 9ed
   Ninth Edition Box Two Player Starter:
     category: MULTI_DECK
+    subtype: TWO_PLAYER_STARTER
     identifiers:
       abuId: '1100082'
       cardtraderId: '46948'
       mcmId: '254939'
       tcgplayerProductId: '81799'
       tntId: '123098'
-    subtype: TWO_PLAYER_STARTER
+    contents:
+      card:
+      - foil: true
+        name: Serra Angel
+        number: 43★
+        set: 9ed
+      card_count: 80
+      deck:
+      - name: Gold Deck
+        set: 9ed
+      - name: Gold Pack
+        set: 9ed
+      - name: Silver Deck
+        set: 9ed
+      - name: Silver Pack
+        set: 9ed
+      other:
+      - name: Two Play Guides
+      - name: Magic Rule Book
+      - name: Two Playmats
+      - name: CD-ROM with Tutorials
   Ninth Edition Demo Booster:
     category: BOOSTER_PACK
-    identifiers: {}
-    release_date: '2005-07-29'
     subtype: PROMOTIONAL
+    release_date: '2005-07-29'
+    identifiers: {}
+    contents:
+      card_count: 22
+      deck:
+      - name: Demo Booster Player 1
+        set: 9ed
+      - name: Demo Booster Player 2
+        set: 9ed
   Ninth Edition Fast Track Two Player Starter:
     category: MULTI_DECK
+    subtype: TWO_PLAYER_STARTER
     identifiers:
       abuId: '2662788'
-    subtype: TWO_PLAYER_STARTER
+    contents:
+      card_count: 22
+      deck:
+      - name: Demo Booster Player 1
+        set: 9ed
+      - name: Demo Booster Player 2
+        set: 9ed
+      other:
+      - name: Step-by-step instruction sheet
+      - name: Playmat
+      - name: CD-ROM
   Ninth Edition Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1100083'
       cardKingdomId: '228566'
@@ -67,25 +126,52 @@ products:
       scgId: SLD-MTG-BUN-9ED-EN
       tcgplayerProductId: '78301'
       tntId: '155095'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Ninth Edition Fat Pack Land Pack
+        set: 9ed
+      other:
+      - name: Ninth Edition Special Life Counter
+      - name: Two Card Boxes
+      - name: Oversized Force of Nature card
+      sealed:
+      - count: 6
+        name: Ninth Edition Booster Pack
+        set: 9ed
   Ninth Edition MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241631'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 350
+      deck:
+      - name: Ninth Edition Redemption
+        set: 9ed
   Ninth Edition MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241630'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 350
+      deck:
+      - name: Ninth Edition Foil Redemption
+        set: 9ed
   Ninth Edition Sampler Booster:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
     identifiers:
       cardtraderId: '46940'
       mcmId: '269766'
-    subtype: PROMOTIONAL
+    contents:
+      card_count: 10
+      deck:
+      - name: Sampler Booster
+        set: 9ed
   Ninth Edition Theme Deck Army of Justice:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100084'
       cardKingdomId: '117669'
@@ -94,9 +180,14 @@ products:
       mcmId: '253679'
       tcgplayerProductId: '96330'
       tntId: '123091'
-    subtype: THEME
+    contents:
+      card_count: 40
+      deck:
+      - name: Army of Justice
+        set: 9ed
   Ninth Edition Theme Deck Custom Creatures:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100085'
       cardKingdomId: '117673'
@@ -105,9 +196,14 @@ products:
       mcmId: '253680'
       tcgplayerProductId: '96331'
       tntId: '123092'
-    subtype: THEME
+    contents:
+      card_count: 40
+      deck:
+      - name: Custom Creatures
+        set: 9ed
   Ninth Edition Theme Deck Dead Again:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100086'
       cardKingdomId: '117671'
@@ -116,17 +212,39 @@ products:
       mcmId: '253681'
       tcgplayerProductId: '96332'
       tntId: '123093'
-    subtype: THEME
+    contents:
+      card_count: 40
+      deck:
+      - name: Dead Again
+        set: 9ed
   Ninth Edition Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       abuId: '1100087'
       cardtraderId: '46950'
       mcmId: '210216'
       tntId: '123090'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 3
+        name: Ninth Edition Theme Deck Army of Justice
+        set: 9ed
+      - count: 3
+        name: Ninth Edition Theme Deck Custom Creatures
+        set: 9ed
+      - count: 3
+        name: Ninth Edition Theme Deck Dead Again
+        set: 9ed
+      - count: 3
+        name: Ninth Edition Theme Deck Lofty Heights
+        set: 9ed
+      - count: 3
+        name: Ninth Edition Theme Deck World Aflame
+        set: 9ed
   Ninth Edition Theme Deck Lofty Heights:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100088'
       cardKingdomId: '117670'
@@ -135,14 +253,36 @@ products:
       mcmId: '253682'
       tcgplayerProductId: '96333'
       tntId: '123094'
-    subtype: THEME
+    contents:
+      card_count: 40
+      deck:
+      - name: Lofty Heights
+        set: 9ed
   Ninth Edition Theme Deck Set of 5:
     category: SUBSET
+    subtype: THEME
     identifiers:
       abuId: '1100090'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Ninth Edition Theme Deck Army of Justice
+        set: 9ed
+      - count: 1
+        name: Ninth Edition Theme Deck Custom Creatures
+        set: 9ed
+      - count: 1
+        name: Ninth Edition Theme Deck Dead Again
+        set: 9ed
+      - count: 1
+        name: Ninth Edition Theme Deck Lofty Heights
+        set: 9ed
+      - count: 1
+        name: Ninth Edition Theme Deck World Aflame
+        set: 9ed
   Ninth Edition Theme Deck World Aflame:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100089'
       cardKingdomId: '117672'
@@ -151,9 +291,18 @@ products:
       mcmId: '253683'
       tcgplayerProductId: '96334'
       tntId: '123095'
-    subtype: THEME
+    contents:
+      card_count: 40
+      deck:
+      - name: World Aflame
+        set: 9ed
   Ninth Edition Two Player Starter Display:
     category: DECK_BOX
+    subtype: TWO_PLAYER_STARTER
     identifiers:
       tntId: '123096'
-    subtype: TWO_PLAYER_STARTER
+    contents:
+      sealed:
+      - count: 6
+        name: Ninth Edition Box Two Player Starter
+        set: 9ed

@@ -2,6 +2,7 @@ code: cm1
 products:
   Commanders Arsenal:
     category: BOX_SET
+    subtype: COMMANDER
     identifiers:
       abuId: '1107820'
       cardKingdomId: '199270'
@@ -11,4 +12,14 @@ products:
       scgId: SLD-MTG-MLT-CM1-EN
       tcgplayerProductId: '71419'
       tntId: '1109477'
-    subtype: COMMANDER
+    contents:
+      card_count: 18
+      deck:
+      - name: Commander's Arsenal
+        set: cm1
+      - name: Commander's Arsenal Oversized
+        set: ocm1
+      other:
+      - name: 120 UltraPRO foil card sleeves exclusive
+      - name: 20 double-sided Battle Marks
+      - name: 99 life point life counter

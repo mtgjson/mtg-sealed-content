@@ -2,12 +2,28 @@ code: eld
 products:
   Throne of Eldraine Brawl Deck Display:
     category: DECK_BOX
+    subtype: BRAWL
     identifiers:
       cardKingdomId: '240225'
       mcmId: '401719'
-    subtype: BRAWL
+    contents:
+      sealed:
+      - count: 2
+        name: Throne of Eldraine Brawl Deck Faerie Schemes
+        set: eld
+      - count: 2
+        name: Throne of Eldraine Brawl Deck Knights Charge
+        set: eld
+      - count: 2
+        name: Throne of Eldraine Brawl Deck Savage Hunger
+        set: eld
+      - count: 2
+        name: Throne of Eldraine Brawl Deck Wild Bounty
+        set: eld
   Throne of Eldraine Brawl Deck Faerie Schemes:
     category: DECK
+    subtype: BRAWL
+    release_date: '2019-10-04'
     identifiers:
       abuId: '1596565'
       cardKingdomId: '227303'
@@ -16,10 +32,17 @@ products:
       scgId: SLD-MTG-INT-ELDBRAWL-EN-C
       tcgplayerProductId: '194910'
       tntId: '1604224'
-    release_date: '2019-10-04'
-    subtype: BRAWL
+    contents:
+      card_count: 60
+      deck:
+      - name: Faerie Schemes
+        set: eld
+      other:
+      - name: Eldraine Brawl Life Wheel
   Throne of Eldraine Brawl Deck Knights Charge:
     category: DECK
+    subtype: BRAWL
+    release_date: '2019-10-04'
     identifiers:
       abuId: '1596563'
       cardKingdomId: '227304'
@@ -29,10 +52,17 @@ products:
       scgId: SLD-MTG-INT-ELDBRAWL-EN-A
       tcgplayerProductId: '194911'
       tntId: '1604226'
-    release_date: '2019-10-04'
-    subtype: BRAWL
+    contents:
+      card_count: 60
+      deck:
+      - name: Knights' Charge
+        set: eld
+      other:
+      - name: Eldraine Brawl Life Wheel
   Throne of Eldraine Brawl Deck Savage Hunger:
     category: DECK
+    subtype: BRAWL
+    release_date: '2019-10-04'
     identifiers:
       abuId: '1596566'
       cardKingdomId: '227305'
@@ -41,10 +71,17 @@ products:
       scgId: SLD-MTG-INT-ELDBRAWL-EN-D
       tcgplayerProductId: '194909'
       tntId: '1604223'
-    release_date: '2019-10-04'
-    subtype: BRAWL
+    contents:
+      card_count: 60
+      deck:
+      - name: Savage Hunger
+        set: eld
+      other:
+      - name: Eldraine Brawl Life Wheel
   Throne of Eldraine Brawl Deck Wild Bounty:
     category: DECK
+    subtype: BRAWL
+    release_date: '2019-10-04'
     identifiers:
       abuId: '1596564'
       cardKingdomId: '227306'
@@ -54,10 +91,17 @@ products:
       scgId: SLD-MTG-INT-ELDBRAWL-EN-B
       tcgplayerProductId: '194908'
       tntId: '1604225'
-    release_date: '2019-10-04'
-    subtype: BRAWL
+    contents:
+      card_count: 60
+      deck:
+      - name: Wild Bounty
+        set: eld
+      other:
+      - name: Eldraine Brawl Life Wheel
   Throne of Eldraine Brawl Decks Set of 4:
     category: SUBSET
+    subtype: BRAWL
+    release_date: '2019-10-04'
     identifiers:
       abuId: '1812352'
       cardtraderId: '59644'
@@ -66,10 +110,24 @@ products:
       scgId: SLD-MTG-INT-ELDBRAWL-EN-SET4
       tcgplayerProductId: '194912'
       tntId: '1604222'
-    release_date: '2019-10-04'
-    subtype: BRAWL
+    contents:
+      sealed:
+      - count: 1
+        name: Throne of Eldraine Brawl Deck Faerie Schemes
+        set: eld
+      - count: 1
+        name: Throne of Eldraine Brawl Deck Knights Charge
+        set: eld
+      - count: 1
+        name: Throne of Eldraine Brawl Deck Savage Hunger
+        set: eld
+      - count: 1
+        name: Throne of Eldraine Brawl Deck Wild Bounty
+        set: eld
   Throne of Eldraine Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2019-10-04'
     identifiers:
       abuId: '1596554'
       cardKingdomId: '227294'
@@ -80,10 +138,27 @@ products:
       scgId: SLD-MTG-BUN-ELD-EN
       tcgplayerProductId: '194894'
       tntId: '1585800'
-    release_date: '2019-10-04'
-    subtype: DEFAULT
+    contents:
+      card:
+      - foil: true
+        name: Piper of the Swarm
+        number: 392
+        set: eld
+      deck:
+      - name: Throne of Eldraine Bundle Land Pack
+        set: eld
+      other:
+      - name: 2 reference cards
+      - name: Throne of Eldraine oversized spindown
+      - name: Reusable card storage box
+      sealed:
+      - count: 10
+        name: Throne of Eldraine Draft Booster Pack
+        set: eld
   Throne of Eldraine Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2019-10-04'
     identifiers:
       abuId: '1596561'
       cardKingdomId: '227308'
@@ -94,25 +169,45 @@ products:
       scgId: SLD-MTG-BBX-ELDCOLLECTOR-EN
       tcgplayerProductId: '194907'
       tntId: '1603934'
-    release_date: '2019-10-04'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Throne of Eldraine Collector Booster Pack
+        set: eld
   Throne of Eldraine Collector Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: COLLECTOR
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Throne of Eldraine Collector Booster Box
+        set: eld
   Throne of Eldraine Collector Booster Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '490512'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Throne of Eldraine Collector Booster Box
+        set: eld
   Throne of Eldraine Collector Booster Hanger Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '243105'
       tntId: '1676306'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 1
+        name: Throne of Eldraine Collector Booster Pack
+        set: eld
   Throne of Eldraine Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2019-10-04'
     identifiers:
       abuId: '2183762'
       cardKingdomId: '227309'
@@ -123,19 +218,45 @@ products:
       scgId: SLD-MTG-PCK-ELDCOLLECTOR-EN
       tcgplayerProductId: '194906'
       tntId: '1603935'
-    release_date: '2019-10-04'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      other:
+      - name: 1 foil token
+      pack:
+      - code: collector
+        set: eld
   Throne of Eldraine Deluxe Collection:
     category: BOX_SET
+    subtype: PREMIUM
+    release_date: '2019-10-02'
     identifiers:
       cardKingdomId: '228238'
       cardtraderId: '60094'
       mcmId: '402789'
       tcgplayerProductId: '199489'
-    release_date: '2019-10-02'
-    subtype: PREMIUM
+    contents:
+      card:
+      - foil: true
+        name: Garruk, Cursed Huntsman
+        number: 270
+        set: eld
+      - foil: false
+        name: Kenrith, the Returned King
+        number: 303
+        set: eld
+      other:
+      - name: Eldraine Set Themed Binder
+      - name: Art Print of Borderless Garruk, Cursed Huntsman
+      - name: 3x3 Card Strip of a Foil Sheet of Throne of Eldraine
+      - name: MTG Arena Mega Code
+      sealed:
+      - count: 16
+        name: Throne of Eldraine Collector Booster Pack
+        set: eld
   Throne of Eldraine Draft Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2019-10-04'
     identifiers:
       cardKingdomId: '227289'
       cardtraderId: '59126'
@@ -144,17 +265,27 @@ products:
       scgId: SLD-MTG-BBX-ELDDRAFT-EN
       tcgplayerProductId: '194891'
       tntId: '1585798'
-    release_date: '2019-10-04'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Throne of Eldraine Draft Booster Pack
+        set: eld
   Throne of Eldraine Draft Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2019-10-04'
     identifiers:
       scgId: SLD-MTG-BBX-ELDDRAFTCASE-EN
       tcgplayerProductId: '194893'
-    release_date: '2019-10-04'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Throne of Eldraine Draft Booster Box
+        set: eld
   Throne of Eldraine Draft Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2019-10-04'
     identifiers:
       abuId: '2183761'
       cardKingdomId: '227290'
@@ -165,10 +296,15 @@ products:
       scgId: SLD-MTG-PCK-ELDDRAFT-EN
       tcgplayerProductId: '194892'
       tntId: '1585799'
-    release_date: '2019-10-04'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: eld
   Throne of Eldraine Gift Bundle:
     category: BUNDLE
+    subtype: GIFT_BUNDLE
+    release_date: '2019-11-15'
     identifiers:
       abuId: '1795667'
       cardKingdomId: '228584'
@@ -179,27 +315,64 @@ products:
       scgId: SLD-MTG-BUN-ELDGIFT-EN
       tcgplayerProductId: '200610'
       tntId: '1612151'
-    release_date: '2019-11-15'
-    subtype: GIFT_BUNDLE
+    contents:
+      card:
+      - foil: true
+        name: Piper of the Swarm
+        number: 392
+        set: eld
+      deck:
+      - name: Throne of Eldraine Bundle Land Pack
+        set: eld
+      other:
+      - name: Throne of Eldraine oversized spindown
+      - name: Reusable card storage box
+      sealed:
+      - count: 10
+        name: Throne of Eldraine Draft Booster Pack
+        set: eld
+      - count: 1
+        name: Throne of Eldraine Collector Booster Pack
+        set: eld
   Throne of Eldraine MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '228554'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 269
+      deck:
+      - name: Throne of Eldraine Redemption
+        set: eld
   Throne of Eldraine MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '228553'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 269
+      deck:
+      - name: Throne of Eldraine Foil Redemption
+        set: eld
   Throne of Eldraine Planeswalker Deck Display:
     category: DECK_BOX
+    subtype: PLANESWALKER
     identifiers:
       cardKingdomId: '240226'
       tcgplayerProductId: '194898'
       tntId: '1585801'
-    subtype: PLANESWALKER
+    contents:
+      sealed:
+      - count: 3
+        name: Throne of Eldraine Planeswalker Deck Oko
+        set: eld
+      - count: 3
+        name: Throne of Eldraine Planeswalker Deck Rowan
+        set: eld
   Throne of Eldraine Planeswalker Deck Oko:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2019-10-04'
     identifiers:
       abuId: '1596556'
       cardKingdomId: '227292'
@@ -209,10 +382,21 @@ products:
       scgId: SLD-MTG-INT-ELDPWDECK-EN-B
       tcgplayerProductId: '194896'
       tntId: '1585803'
-    release_date: '2019-10-04'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Oko, the Trickster
+        set: eld
+      other:
+      - name: MTG Arena code card (where available)
+      sealed:
+      - count: 2
+        name: Throne of Eldraine Draft Booster Pack
+        set: eld
   Throne of Eldraine Planeswalker Deck Rowan:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2019-10-04'
     identifiers:
       abuId: '1596555'
       cardKingdomId: '227293'
@@ -222,19 +406,38 @@ products:
       scgId: SLD-MTG-INT-ELDPWDECK-EN-A
       tcgplayerProductId: '194895'
       tntId: '1585802'
-    release_date: '2019-10-04'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Rowan, Fearless Sparkmage
+        set: eld
+      other:
+      - name: MTG Arena code card (where available)
+      sealed:
+      - count: 2
+        name: Throne of Eldraine Draft Booster Pack
+        set: eld
   Throne of Eldraine Planeswalker Decks Set of 2:
     category: SUBSET
+    subtype: PLANESWALKER
+    release_date: '2019-10-04'
     identifiers:
       abuId: '1596557'
       hareruyaId: '75553'
       scgId: SLD-MTG-INT-ELDPWDECK-EN-SET2
       tcgplayerProductId: '194897'
-    release_date: '2019-10-04'
-    subtype: PLANESWALKER
+    contents:
+      sealed:
+      - count: 1
+        name: Throne of Eldraine Planeswalker Deck Oko
+        set: eld
+      - count: 1
+        name: Throne of Eldraine Planeswalker Deck Rowan
+        set: eld
   Throne of Eldraine Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2019-09-27'
     identifiers:
       abuId: '1598462'
       cardKingdomId: '227295'
@@ -242,21 +445,55 @@ products:
       csiId: '286101'
       mcmId: '404059'
       tcgplayerProductId: '200159'
-    release_date: '2019-09-27'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: MTG Arena code card (where available)
+      - name: Throne of Eldraine Spindown
+      pack:
+      - code: prerelease
+        set: eld
+      sealed:
+      - count: 6
+        name: Throne of Eldraine Draft Booster Pack
+        set: eld
   Throne of Eldraine Theme Booster Box:
     category: BOOSTER_BOX
+    subtype: THEME
     identifiers:
       abuId: '1591256'
       csiId: '281868'
       tcgplayerProductId: '194899'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 2
+        name: Throne of Eldraine Theme Booster Pack White
+        set: eld
+      - count: 2
+        name: Throne of Eldraine Theme Booster Pack Blue
+        set: eld
+      - count: 2
+        name: Throne of Eldraine Theme Booster Pack Black
+        set: eld
+      - count: 2
+        name: Throne of Eldraine Theme Booster Pack Red
+        set: eld
+      - count: 2
+        name: Throne of Eldraine Theme Booster Pack Green
+        set: eld
   Throne of Eldraine Theme Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: THEME
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Throne of Eldraine Theme Booster Box
+        set: eld
   Throne of Eldraine Theme Booster Pack Black:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2019-10-04'
     identifiers:
       abuId: '1602780'
       cardtraderId: '59120'
@@ -265,10 +502,15 @@ products:
       scgId: SLD-MTG-PCK-ELDTHEME-EN-BLACK
       tcgplayerProductId: '194900'
       tntId: '1604217'
-    release_date: '2019-10-04'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-b
+        set: eld
   Throne of Eldraine Theme Booster Pack Blue:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2019-10-04'
     identifiers:
       abuId: '1602779'
       cardtraderId: '59123'
@@ -276,10 +518,15 @@ products:
       scgId: SLD-MTG-PCK-ELDTHEME-EN-BLUE
       tcgplayerProductId: '194903'
       tntId: '1604218'
-    release_date: '2019-10-04'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-u
+        set: eld
   Throne of Eldraine Theme Booster Pack Green:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2019-10-04'
     identifiers:
       abuId: '1602782'
       cardtraderId: '59122'
@@ -288,10 +535,15 @@ products:
       scgId: SLD-MTG-PCK-ELDTHEME-EN-GREEN
       tcgplayerProductId: '194901'
       tntId: '1604219'
-    release_date: '2019-10-04'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-g
+        set: eld
   Throne of Eldraine Theme Booster Pack Red:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2019-10-04'
     identifiers:
       abuId: '1602781'
       cardtraderId: '59124'
@@ -299,17 +551,39 @@ products:
       scgId: SLD-MTG-PCK-ELDTHEME-EN-RED
       tcgplayerProductId: '194902'
       tntId: '1604220'
-    release_date: '2019-10-04'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-r
+        set: eld
   Throne of Eldraine Theme Booster Pack Set of 5:
     category: SUBSET
+    subtype: THEME
+    release_date: '2019-10-04'
     identifiers:
       scgId: SLD-MTG-PCK-ELDTHEME-EN-SET5
       tcgplayerProductId: '194905'
-    release_date: '2019-10-04'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Throne of Eldraine Theme Booster Pack White
+        set: eld
+      - count: 1
+        name: Throne of Eldraine Theme Booster Pack Blue
+        set: eld
+      - count: 1
+        name: Throne of Eldraine Theme Booster Pack Black
+        set: eld
+      - count: 1
+        name: Throne of Eldraine Theme Booster Pack Red
+        set: eld
+      - count: 1
+        name: Throne of Eldraine Theme Booster Pack Green
+        set: eld
   Throne of Eldraine Theme Booster Pack White:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2019-10-04'
     identifiers:
       abuId: '1602778'
       cardtraderId: '59121'
@@ -317,5 +591,8 @@ products:
       scgId: SLD-MTG-PCK-ELDTHEME-EN-WHITE
       tcgplayerProductId: '194904'
       tntId: '1604221'
-    release_date: '2019-10-04'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-w
+        set: eld

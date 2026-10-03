@@ -2,6 +2,8 @@ code: mh3
 products:
   Modern Horizons 3 Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2024-06-14'
     identifiers:
       cardKingdomId: '295749'
       cardtraderId: '279370'
@@ -11,18 +13,40 @@ products:
       scgId: SLD-MTG-BUN-MH3-EN
       tcgplayerProductId: '541185'
       tntId: '1807294'
-    release_date: '2024-06-14'
-    subtype: DEFAULT
+    contents:
+      card:
+      - foil: true
+        name: Powerbalance
+        number: 495
+        set: mh3
+      deck:
+      - name: Modern Horizons 3 Bundle Land Pack
+        set: mh3
+      other:
+      - name: Card storage box
+      - name: 2 Reference Cards
+      - name: Modern Horizons 3 spindown
+      sealed:
+      - count: 9
+        name: Modern Horizons 3 Play Booster Pack
+        set: mh3
   Modern Horizons 3 Bundle Case:
     category: BUNDLE_CASE
+    subtype: DEFAULT
+    release_date: '2024-06-14'
     identifiers:
       abuId: '2498108'
       cardtraderId: '405231'
       tcgplayerProductId: '541187'
-    release_date: '2024-06-14'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 6
+        name: Modern Horizons 3 Bundle
+        set: mh3
   Modern Horizons 3 Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2024-06-14'
     identifiers:
       abuId: '2498091'
       cardKingdomId: '295752'
@@ -32,17 +56,27 @@ products:
       scgId: SLD-MTG-BBX-MH3COLLECTOR-EN
       tcgplayerProductId: '541179'
       tntId: '1807287'
-    release_date: '2024-06-14'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Modern Horizons 3 Collector Booster Pack
+        set: mh3
   Modern Horizons 3 Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
+    release_date: '2024-06-14'
     identifiers:
       hareruyaId: '97764'
       tcgplayerProductId: '541182'
-    release_date: '2024-06-14'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Modern Horizons 3 Collector Booster Box
+        set: mh3
   Modern Horizons 3 Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2024-06-14'
     identifiers:
       abuId: '2498090'
       cardKingdomId: '295751'
@@ -53,17 +87,27 @@ products:
       scgId: SLD-MTG-PCK-MH3COLLECTOR-EN
       tcgplayerProductId: '541173'
       tntId: '1807288'
-    release_date: '2024-06-14'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: mh3
   Modern Horizons 3 Collector Booster Sample Pack:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
     identifiers:
       cardtraderId: '349045'
       mcmId: '773848'
       tcgplayerProductId: '579917'
-    subtype: PROMOTIONAL
+    contents:
+      card_count: 2
+      pack:
+      - code: collector-sample
+        set: mh3
   Modern Horizons 3 Gift Bundle:
     category: BUNDLE
+    subtype: GIFT_BUNDLE
+    release_date: '2024-06-14'
     identifiers:
       abuId: '2498111'
       cardKingdomId: '295750'
@@ -74,17 +118,42 @@ products:
       scgId: SLD-MTG-BUN-MH3GIFT-EN
       tcgplayerProductId: '541190'
       tntId: '1807297'
-    release_date: '2024-06-14'
-    subtype: GIFT_BUNDLE
+    contents:
+      card:
+      - foil: true
+        name: Powerbalance
+        number: 495
+        set: mh3
+      deck:
+      - name: Modern Horizons 3 Bundle Land Pack
+        set: mh3
+      other:
+      - name: Card storage box
+      - name: 2 Reference Cards
+      - name: Modern Horizons 3 spindown
+      sealed:
+      - count: 9
+        name: Modern Horizons 3 Play Booster Pack
+        set: mh3
+      - count: 1
+        name: Modern Horizons 3 Collector Booster Pack
+        set: mh3
   Modern Horizons 3 Gift Bundle Case:
     category: BUNDLE_CASE
+    subtype: GIFT_BUNDLE
+    release_date: '2024-06-14'
     identifiers:
       cardtraderId: '405230'
       tcgplayerProductId: '541191'
-    release_date: '2024-06-14'
-    subtype: GIFT_BUNDLE
+    contents:
+      sealed:
+      - count: 6
+        name: Modern Horizons 3 Gift Bundle
+        set: mh3
   Modern Horizons 3 Play Booster Box:
     category: BOOSTER_BOX
+    subtype: PLAY
+    release_date: '2024-06-14'
     identifiers:
       abuId: '2498088'
       cardKingdomId: '295748'
@@ -96,17 +165,27 @@ products:
       scgId: SLD-MTG-BBX-MH3PLAY-EN
       tcgplayerProductId: '541164'
       tntId: '1807285'
-    release_date: '2024-06-14'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 36
+        name: Modern Horizons 3 Play Booster Pack
+        set: mh3
   Modern Horizons 3 Play Booster Box Case:
     category: BOOSTER_CASE
+    subtype: PLAY
+    release_date: '2024-06-14'
     identifiers:
       scgId: SLD-MTG-BBX-MH3PLAYCASE-EN
       tcgplayerProductId: '541166'
-    release_date: '2024-06-14'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 6
+        name: Modern Horizons 3 Play Booster Box
+        set: mh3
   Modern Horizons 3 Play Booster Pack:
     category: BOOSTER_PACK
+    subtype: PLAY
+    release_date: '2024-06-14'
     identifiers:
       abuId: '2498089'
       cardKingdomId: '295747'
@@ -118,10 +197,15 @@ products:
       scgId: SLD-MTG-PCK-MH3PLAY-EN
       tcgplayerProductId: '541163'
       tntId: '1807286'
-    release_date: '2024-06-14'
-    subtype: PLAY
+    contents:
+      card_count: 14
+      pack:
+      - code: play
+        set: mh3
   Modern Horizons 3 Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2024-06-14'
     identifiers:
       abuId: '2498092'
       cardKingdomId: '295753'
@@ -129,5 +213,15 @@ products:
       mcmId: '758486'
       scgId: SLD-MTG-INT-MH3PRE-EN
       tcgplayerProductId: '541159'
-    release_date: '2024-06-14'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: Deck box
+      - name: Modern Horizons 3 spindown
+      pack:
+      - code: prerelease
+        set: mh3
+      sealed:
+      - count: 6
+        name: Modern Horizons 3 Play Booster Pack
+        set: mh3
