@@ -2,12 +2,19 @@ code: cmr
 products:
   Commander Legends 3 Booster Draft Pack:
     category: LIMITED
+    subtype: DRAFT_SET
+    release_date: '2020-11-20'
     identifiers:
       tcgplayerProductId: '221321'
-    release_date: '2020-11-20'
-    subtype: DRAFT_SET
+    contents:
+      sealed:
+      - count: 3
+        name: Commander Legends Draft Booster Pack
+        set: cmr
   Commander Legends Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2020-11-20'
     identifiers:
       abuId: '1925480'
       cardKingdomId: '238688'
@@ -18,20 +25,35 @@ products:
       scgId: SLD-MTG-BBX-CMRCOLLECTOR-EN
       tcgplayerProductId: '221323'
       tntId: '1677716'
-    release_date: '2020-11-20'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Commander Legends Collector Booster Pack
+        set: cmr
   Commander Legends Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '221394'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Commander Legends Collector Booster Box
+        set: cmr
   Commander Legends Collector Booster Hanger Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '236692'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 1
+        name: Commander Legends Collector Booster Pack
+        set: cmr
   Commander Legends Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2020-11-20'
     identifiers:
       abuId: '2689641'
       cardKingdomId: '238689'
@@ -42,10 +64,15 @@ products:
       scgId: SLD-MTG-PCK-CMRCOLLECTOR-EN
       tcgplayerProductId: '221322'
       tntId: '1677717'
-    release_date: '2020-11-20'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: cmr
   Commander Legends Commander Deck Arm for Battle:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2020-11-20'
     identifiers:
       abuId: '1925479'
       cardKingdomId: '238724'
@@ -56,17 +83,33 @@ products:
       scgId: SLD-MTG-MLT-CMC-EN-BATTLE
       tcgplayerProductId: '227387'
       tntId: '1682816'
-    release_date: '2020-11-20'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Arm for Battle
+        set: cmr
+      other:
+      - name: Commander Legends Life Wheel
+      - name: 10 Double Sided Tokens
   Commander Legends Commander Deck Display:
     category: DECK_BOX
+    subtype: COMMANDER
+    release_date: '2020-11-20'
     identifiers:
       tcgplayerProductId: '224546'
       tntId: '1677719'
-    release_date: '2020-11-20'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 3
+        name: Commander Legends Commander Deck Arm for Battle
+        set: cmr
+      - count: 3
+        name: Commander Legends Commander Deck Reap the Tides
+        set: cmr
   Commander Legends Commander Deck Reap the Tides:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2020-11-20'
     identifiers:
       abuId: '1925478'
       cardKingdomId: '238725'
@@ -77,10 +120,18 @@ products:
       scgId: SLD-MTG-MLT-CMC-EN-TIDES
       tcgplayerProductId: '227386'
       tntId: '1682815'
-    release_date: '2020-11-20'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Reap the Tides
+        set: cmr
+      other:
+      - name: Commander Legends Life Wheel
+      - name: 10 Double Sided Tokens
   Commander Legends Commander Decks Set of 2:
     category: SUBSET
+    subtype: COMMANDER
+    release_date: '2020-11-20'
     identifiers:
       cardtraderId: '151471'
       csiId: '305691'
@@ -88,10 +139,18 @@ products:
       mcmId: '509115'
       scgId: SLD-MTG-MLT-CMC-EN-SET2
       tcgplayerProductId: '224545'
-    release_date: '2020-11-20'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Commander Legends Commander Deck Arm for Battle
+        set: cmr
+      - count: 1
+        name: Commander Legends Commander Deck Reap the Tides
+        set: cmr
   Commander Legends Draft Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2020-11-20'
     identifiers:
       abuId: '1909511'
       cardKingdomId: '238690'
@@ -102,16 +161,26 @@ products:
       scgId: SLD-MTG-BBX-CMRDRAFT-EN
       tcgplayerProductId: '221319'
       tntId: '1677713'
-    release_date: '2020-11-20'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 24
+        name: Commander Legends Draft Booster Pack
+        set: cmr
   Commander Legends Draft Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2020-11-20'
     identifiers:
       tcgplayerProductId: '221395'
-    release_date: '2020-11-20'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Commander Legends Draft Booster Box
+        set: cmr
   Commander Legends Draft Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2020-11-20'
     identifiers:
       abuId: '2689642'
       cardKingdomId: '238691'
@@ -122,5 +191,8 @@ products:
       scgId: SLD-MTG-PCK-CMRDRAFT-EN
       tcgplayerProductId: '221318'
       tntId: '1677714'
-    release_date: '2020-11-20'
-    subtype: DRAFT
+    contents:
+      card_count: 20
+      pack:
+      - code: draft
+        set: cmr

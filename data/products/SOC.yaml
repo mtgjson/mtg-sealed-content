@@ -2,6 +2,8 @@ code: soc
 products:
   Secrets of Strixhaven Commander Deck Lorehold Spirit:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2026-04-24'
     identifiers:
       abuId: '2675218'
       cardKingdomId: '324616'
@@ -10,10 +12,18 @@ products:
       miniaturemarketId: 019c06a6af8372e9b4d4d9ee8544611e
       scgId: SLD-MTG-CMD-SOC-EN-LOREHOLD
       tcgplayerProductId: '675570'
-    release_date: '2026-04-24'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Lorehold Spirit
+        set: soc
+      other:
+      - name: 10 Double-sided tokens
+      - name: 1 Reference card
   Secrets of Strixhaven Commander Deck Prismari Artistry:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2026-04-24'
     identifiers:
       abuId: '2675216'
       cardKingdomId: '324614'
@@ -22,10 +32,18 @@ products:
       miniaturemarketId: 019c06a6b92470528e66bbce3efaa4c2
       scgId: SLD-MTG-CMD-SOC-EN-PRISMARI
       tcgplayerProductId: '675568'
-    release_date: '2026-04-24'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Prismari Artistry
+        set: soc
+      other:
+      - name: 10 Double-sided tokens
+      - name: 1 Reference card
   Secrets of Strixhaven Commander Deck Quandrix Unlimited:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2026-04-24'
     identifiers:
       abuId: '2675219'
       cardKingdomId: '324617'
@@ -34,10 +52,17 @@ products:
       miniaturemarketId: 019c06a6c23d73adbc8f3c1535283713
       scgId: SLD-MTG-CMD-SOC-EN-QUANDRIX
       tcgplayerProductId: '675571'
-    release_date: '2026-04-24'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Quandrix Unlimited
+        set: soc
+      other:
+      - name: 10 Double-sided tokens
+      - name: 1 Reference card
   Secrets of Strixhaven Commander Deck Set of 5:
     category: SUBSET
+    subtype: COMMANDER
     identifiers:
       cardKingdomId: '324618'
       cardtraderId: '370600'
@@ -45,9 +70,27 @@ products:
       miniaturemarketId: 019c06a6aa0d725cb4862fa48f477807
       scgId: SLD-MTG-CMD-SOC-EN-SETOF5
       tcgplayerProductId: '675572'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Secrets of Strixhaven Commander Deck Lorehold Spirit
+        set: soc
+      - count: 1
+        name: Secrets of Strixhaven Commander Deck Prismari Artistry
+        set: soc
+      - count: 1
+        name: Secrets of Strixhaven Commander Deck Quandrix Unlimited
+        set: soc
+      - count: 1
+        name: Secrets of Strixhaven Commander Deck Silverquill Influence
+        set: soc
+      - count: 1
+        name: Secrets of Strixhaven Commander Deck Witherbloom Pestilence
+        set: soc
   Secrets of Strixhaven Commander Deck Silverquill Influence:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2026-04-24'
     identifiers:
       abuId: '2675215'
       cardKingdomId: '324613'
@@ -56,10 +99,18 @@ products:
       miniaturemarketId: 019c06a6ccca72749ff822c850b6ea1b
       scgId: SLD-MTG-CMD-SOC-EN-SILVERQUILL
       tcgplayerProductId: '675567'
-    release_date: '2026-04-24'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Silverquill Influence
+        set: soc
+      other:
+      - name: 10 Double-sided tokens
+      - name: 1 Reference card
   Secrets of Strixhaven Commander Deck Witherbloom Pestilence:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2026-04-24'
     identifiers:
       abuId: '2675217'
       cardKingdomId: '324615'
@@ -68,5 +119,11 @@ products:
       miniaturemarketId: 019c06a6d7b37399a3aee8b0c8b6e094
       scgId: SLD-MTG-CMD-SOC-EN-WITHERBLOOM
       tcgplayerProductId: '675569'
-    release_date: '2026-04-24'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Witherbloom Pestilence
+        set: soc
+      other:
+      - name: 10 Double-sided tokens
+      - name: 1 Reference card

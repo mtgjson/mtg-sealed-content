@@ -2,6 +2,7 @@ code: mor
 products:
   Morningtide Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1107957'
       cardKingdomId: '124154'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-MOR-EN
       tcgplayerProductId: '27292'
       tntId: '160540'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Morningtide Booster Pack
+        set: mor
   Morningtide Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Morningtide Booster Box
+        set: mor
   Morningtide Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476911'
       cardKingdomId: '124155'
@@ -29,9 +40,14 @@ products:
       scgId: SLD-MTG-PCK-MOR-EN
       tcgplayerProductId: '27354'
       tntId: '160541'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: mor
   Morningtide Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1100899'
       cardKingdomId: '124156'
@@ -42,19 +58,43 @@ products:
       scgId: SLD-MTG-BUN-MOR-EN
       tcgplayerProductId: '78321'
       tntId: '160544'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Lorwyn Fat Pack Land Pack
+        set: lrw
+      other:
+      - name: 2 Card Storage Boxes
+      - name: Morningtide Spindown
+      - name: One random Pro Tour Player Card
+      - name: The Morningtide novel
+      - name: Six color-coded plastic card dividers
+      sealed:
+      - count: 6
+        name: Morningtide Booster Pack
+        set: mor
   Morningtide MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241651'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 150
+      deck:
+      - name: Morningtide Redemption
+        set: mor
   Morningtide MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241650'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 150
+      deck:
+      - name: Morningtide Foil Redemption
+        set: mor
   Morningtide Theme Deck Battalion:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100900'
       cardKingdomId: '124463'
@@ -63,17 +103,38 @@ products:
       mcmId: '253639'
       tcgplayerProductId: '249987'
       tntId: '160546'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Battalion
+        set: mor
+      other:
+      - name: One random Pro Tour Player Card
   Morningtide Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       abuId: '1476912'
       cardtraderId: '47269'
       mcmId: '210209'
       tntId: '160545'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 3
+        name: Morningtide Theme Deck Battalion
+        set: mor
+      - count: 3
+        name: Morningtide Theme Deck Going Rogue
+        set: mor
+      - count: 3
+        name: Morningtide Theme Deck Shamanism
+        set: mor
+      - count: 3
+        name: Morningtide Theme Deck Warriors Code
+        set: mor
   Morningtide Theme Deck Going Rogue:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100903'
       cardKingdomId: '124464'
@@ -82,14 +143,35 @@ products:
       mcmId: '253640'
       tcgplayerProductId: '249988'
       tntId: '160547'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Going Rogue
+        set: mor
+      other:
+      - name: One random Pro Tour Player Card
   Morningtide Theme Deck Set of 4:
     category: SUBSET
+    subtype: THEME
     identifiers:
       abuId: '1100905'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Morningtide Theme Deck Battalion
+        set: mor
+      - count: 1
+        name: Morningtide Theme Deck Going Rogue
+        set: mor
+      - count: 1
+        name: Morningtide Theme Deck Shamanism
+        set: mor
+      - count: 1
+        name: Morningtide Theme Deck Warriors Code
+        set: mor
   Morningtide Theme Deck Shamanism:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100904'
       cardKingdomId: '124465'
@@ -98,9 +180,16 @@ products:
       mcmId: '253641'
       tcgplayerProductId: '249989'
       tntId: '160548'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Shamanism
+        set: mor
+      other:
+      - name: One random Pro Tour Player Card
   Morningtide Theme Deck Warriors Code:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100901'
       cardKingdomId: '124466'
@@ -109,4 +198,10 @@ products:
       mcmId: '253642'
       tcgplayerProductId: '249990'
       tntId: '160549'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Warrior's Code
+        set: mor
+      other:
+      - name: One random Pro Tour Player Card

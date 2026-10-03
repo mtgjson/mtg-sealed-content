@@ -2,14 +2,30 @@ code: pc2
 products:
   Planechase 2012:
     category: SUBSET
+    subtype: PLANECHASE
     identifiers:
       abuId: '1100997'
       cardtraderId: '348496'
       hareruyaId: '28029'
       tcgplayerProductId: '59114'
-    subtype: PLANECHASE
+    contents:
+      sealed:
+      - count: 1
+        name: Planechase 2012 Deck Chaos Reigns
+        set: pc2
+      - count: 1
+        name: Planechase 2012 Deck Night of the Ninja
+        set: pc2
+      - count: 1
+        name: Planechase 2012 Deck Primordial Hunger
+        set: pc2
+      - count: 1
+        name: Planechase 2012 Deck Savage Auras
+        set: pc2
   Planechase 2012 Deck Chaos Reigns:
     category: DECK
+    subtype: PLANECHASE
+    release_date: '2012-06-01'
     identifiers:
       abuId: '1100988'
       cardKingdomId: '187251'
@@ -19,10 +35,18 @@ products:
       scgId: SLD-MTG-MLT-PC2-EN-CHAOS
       tcgplayerProductId: '59115'
       tntId: '375629'
-    release_date: '2012-06-01'
-    subtype: PLANECHASE
+    contents:
+      card_count: 70
+      deck:
+      - name: Chaos Reigns
+        set: pc2
+      other:
+      - name: Planechase 2012 Planar Die
+      - name: Strategy Insert
   Planechase 2012 Deck Night of the Ninja:
     category: DECK
+    subtype: PLANECHASE
+    release_date: '2012-06-01'
     identifiers:
       abuId: '1100989'
       cardKingdomId: '187252'
@@ -32,10 +56,18 @@ products:
       scgId: SLD-MTG-MLT-PC2-EN-NIGHT
       tcgplayerProductId: '59116'
       tntId: '375630'
-    release_date: '2012-06-01'
-    subtype: PLANECHASE
+    contents:
+      card_count: 70
+      deck:
+      - name: Night Of The Ninja
+        set: pc2
+      other:
+      - name: Planechase 2012 Planar Die
+      - name: Strategy Insert
   Planechase 2012 Deck Primordial Hunger:
     category: DECK
+    subtype: PLANECHASE
+    release_date: '2012-06-01'
     identifiers:
       abuId: '1100993'
       cardKingdomId: '187253'
@@ -45,10 +77,18 @@ products:
       scgId: SLD-MTG-MLT-PC2-EN-PRIMORDIAL
       tcgplayerProductId: '59117'
       tntId: '375631'
-    release_date: '2012-06-01'
-    subtype: PLANECHASE
+    contents:
+      card_count: 70
+      deck:
+      - name: Primordial Hunger
+        set: pc2
+      other:
+      - name: Planechase 2012 Planar Die
+      - name: Strategy Insert
   Planechase 2012 Deck Savage Auras:
     category: DECK
+    subtype: PLANECHASE
+    release_date: '2012-06-01'
     identifiers:
       abuId: '1100996'
       cardKingdomId: '187254'
@@ -58,5 +98,11 @@ products:
       scgId: SLD-MTG-MLT-PC2-EN-SAVAGE
       tcgplayerProductId: '59118'
       tntId: '375632'
-    release_date: '2012-06-01'
-    subtype: PLANECHASE
+    contents:
+      card_count: 70
+      deck:
+      - name: Savage Auras
+        set: pc2
+      other:
+      - name: Planechase 2012 Planar Die
+      - name: Strategy Insert

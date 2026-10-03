@@ -2,6 +2,7 @@ code: ced
 products:
   Collectors Edition Box:
     category: BOX_SET
+    subtype: COLLECTORS_EDITION
     identifiers:
       abuId: '1100316'
       cardKingdomId: '223971'
@@ -10,4 +11,8 @@ products:
       scgId: SLD-MTG-BXS-CED-EN
       tcgplayerProductId: '177863'
       tntId: '1143660'
-    subtype: COLLECTORS_EDITION
+    contents:
+      card_count: 363
+      deck:
+      - name: Collectors' Edition
+        set: ced

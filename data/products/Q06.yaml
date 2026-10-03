@@ -2,6 +2,8 @@ code: q06
 products:
   Pioneer Challenger Deck 2021 Azorius Spirits:
     category: DECK
+    subtype: CHALLENGER
+    release_date: '2021-10-15'
     identifiers:
       abuId: '2096604'
       cardKingdomId: '250287'
@@ -12,18 +14,39 @@ products:
       scgId: SLD-MTG-INT-Q06-EN-AZORIUS
       tcgplayerProductId: '247372'
       tntId: '1732737'
-    release_date: '2021-10-15'
-    subtype: CHALLENGER
+    contents:
+      card_count: 75
+      deck:
+      - name: Azorius Spirits
+        set: q06
+      other:
+      - name: Up to 5 double-sided tokens (varies by deck)
   Pioneer Challenger Deck 2021 Display:
     category: DECK_BOX
+    subtype: CHALLENGER
+    release_date: '2021-10-15'
     identifiers:
       cardtraderId: '166697'
       tcgplayerProductId: '247373'
       tntId: '1739254'
-    release_date: '2021-10-15'
-    subtype: CHALLENGER
+    contents:
+      sealed:
+      - count: 2
+        name: Pioneer Challenger Deck 2021 Azorius Spirits
+        set: q06
+      - count: 2
+        name: Pioneer Challenger Deck 2021 Lotus Field Combo
+        set: q06
+      - count: 2
+        name: Pioneer Challenger Deck 2021 Mono Red Burn
+        set: q06
+      - count: 2
+        name: Pioneer Challenger Deck 2021 Orzhov Auras
+        set: q06
   Pioneer Challenger Deck 2021 Lotus Field Combo:
     category: DECK
+    subtype: CHALLENGER
+    release_date: '2021-10-15'
     identifiers:
       abuId: '2096605'
       cardKingdomId: '250285'
@@ -34,10 +57,17 @@ products:
       scgId: SLD-MTG-INT-Q06-EN-LOTUS
       tcgplayerProductId: '247370'
       tntId: '1732735'
-    release_date: '2021-10-15'
-    subtype: CHALLENGER
+    contents:
+      card_count: 75
+      deck:
+      - name: Lotus Field Combo
+        set: q06
+      other:
+      - name: Up to 5 double-sided tokens (varies by deck)
   Pioneer Challenger Deck 2021 Mono Red Burn:
     category: DECK
+    subtype: CHALLENGER
+    release_date: '2021-10-15'
     identifiers:
       abuId: '2096606'
       cardKingdomId: '250286'
@@ -48,10 +78,17 @@ products:
       scgId: SLD-MTG-INT-Q06-EN-MONORED
       tcgplayerProductId: '247371'
       tntId: '1732736'
-    release_date: '2021-10-15'
-    subtype: CHALLENGER
+    contents:
+      card_count: 75
+      deck:
+      - name: Mono-Red Burn
+        set: q06
+      other:
+      - name: Up to 5 double-sided tokens (varies by deck)
   Pioneer Challenger Deck 2021 Orzhov Auras:
     category: DECK
+    subtype: CHALLENGER
+    release_date: '2021-10-15'
     identifiers:
       abuId: '2096607'
       cardKingdomId: '250284'
@@ -62,15 +99,34 @@ products:
       scgId: SLD-MTG-INT-Q06-EN-ORZHOV
       tcgplayerProductId: '247369'
       tntId: '1732738'
-    release_date: '2021-10-15'
-    subtype: CHALLENGER
+    contents:
+      card_count: 75
+      deck:
+      - name: Orzhov Auras
+        set: q06
+      other:
+      - name: Up to 5 double-sided tokens (varies by deck)
   Pioneer Challenger Deck 2021 Set of 4:
     category: SUBSET
+    subtype: CHALLENGER
+    release_date: '2021-10-15'
     identifiers:
       cardtraderId: '166702'
       csiId: '323566'
       hareruyaId: '102785'
       mcmId: '576515'
       tcgplayerProductId: '247374'
-    release_date: '2021-10-15'
-    subtype: CHALLENGER
+    contents:
+      sealed:
+      - count: 1
+        name: Pioneer Challenger Deck 2021 Azorius Spirits
+        set: q06
+      - count: 1
+        name: Pioneer Challenger Deck 2021 Lotus Field Combo
+        set: q06
+      - count: 1
+        name: Pioneer Challenger Deck 2021 Mono Red Burn
+        set: q06
+      - count: 1
+        name: Pioneer Challenger Deck 2021 Orzhov Auras
+        set: q06

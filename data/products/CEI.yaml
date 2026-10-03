@@ -2,6 +2,7 @@ code: cei
 products:
   International Edition Box:
     category: BOX_SET
+    subtype: COLLECTORS_EDITION
     identifiers:
       abuId: '1100314'
       cardKingdomId: '223972'
@@ -11,4 +12,8 @@ products:
       scgId: SLD-MTG-BXS-CEI-EN
       tcgplayerProductId: '177865'
       tntId: '1143661'
-    subtype: COLLECTORS_EDITION
+    contents:
+      card_count: 363
+      deck:
+      - name: Intl. Collectors' Edition
+        set: cei

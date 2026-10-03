@@ -2,70 +2,111 @@ code: ptc
 products:
   1996 World Championship Deck Bertrand Lestree:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       cardtraderId: '40729'
       hareruyaId: '110449'
       mcmId: '250145'
       tcgplayerProductId: '158315'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 75
+      deck:
+      - name: Bertrand Lestree, Finalist
+        set: ptc
   1996 World Championship Deck Eric Tam:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       cardtraderId: '40730'
       hareruyaId: '110452'
       mcmId: '250146'
       tcgplayerProductId: '158316'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 75
+      deck:
+      - name: Eric Tam, Quarterfinalist
+        set: ptc
   1996 World Championship Deck George Baxter:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       cardtraderId: '40732'
       hareruyaId: '110453'
       mcmId: '250147'
       tcgplayerProductId: '158317'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 75
+      deck:
+      - name: George Baxter, Quarterfinalist
+        set: ptc
   1996 World Championship Deck Leon Lindback:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       cardtraderId: '40734'
       hareruyaId: '110450'
       mcmId: '250148'
       tcgplayerProductId: '158318'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 75
+      deck:
+      - name: Leon Lindback, Semifinalist
+        set: ptc
   1996 World Championship Deck Mark Justice:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       cardtraderId: '40735'
       hareruyaId: '110454'
       mcmId: '250149'
       tcgplayerProductId: '158314'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 75
+      deck:
+      - name: Mark Justice, Quarterfinalist
+        set: ptc
   1996 World Championship Deck Michael Loconto:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       cardtraderId: '40738'
       hareruyaId: '110448'
       mcmId: '250150'
       tcgplayerProductId: '158319'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 77
+      deck:
+      - name: Michael Loconto, Champion
+        set: ptc
   1996 World Championship Deck Preston Poulter:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       cardtraderId: '40739'
       hareruyaId: '110451'
       mcmId: '250151'
       tcgplayerProductId: '158320'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 75
+      deck:
+      - name: Preston Poulter, Semifinalist
+        set: ptc
   1996 World Championship Deck Shawn HAMMER Regnier:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       cardtraderId: '40741'
       hareruyaId: '110455'
       mcmId: '250152'
       tcgplayerProductId: '158321'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 75
+      deck:
+      - name: Shawn Hammer Regnier, Quarterfinalist
+        set: ptc
   Pro Tour Collector Set:
     category: DECK_BOX
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1100218'
       cardKingdomId: '240568'
@@ -75,4 +116,32 @@ products:
       scgId: SLD-MTG-BXS-PTCOLLECTORSET-EN
       tcgplayerProductId: '629898'
       tntId: '133437'
-    subtype: CHAMPIONSHIP
+    contents:
+      other:
+      - name: Certificate of authenticity
+      - name: Pro Tour Collector Set booklet
+      sealed:
+      - count: 1
+        name: 1996 World Championship Deck Bertrand Lestree
+        set: ptc
+      - count: 1
+        name: 1996 World Championship Deck Eric Tam
+        set: ptc
+      - count: 1
+        name: 1996 World Championship Deck George Baxter
+        set: ptc
+      - count: 1
+        name: 1996 World Championship Deck Leon Lindback
+        set: ptc
+      - count: 1
+        name: 1996 World Championship Deck Mark Justice
+        set: ptc
+      - count: 1
+        name: 1996 World Championship Deck Michael Loconto
+        set: ptc
+      - count: 1
+        name: 1996 World Championship Deck Preston Poulter
+        set: ptc
+      - count: 1
+        name: 1996 World Championship Deck Shawn HAMMER Regnier
+        set: ptc

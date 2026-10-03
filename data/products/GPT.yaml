@@ -2,6 +2,7 @@ code: gpt
 products:
   Guildpact Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1100578'
       cardKingdomId: '119571'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-GPT-EN
       tcgplayerProductId: '27281'
       tntId: '138464'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Guildpact Booster Pack
+        set: gpt
   Guildpact Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Guildpact Booster Box
+        set: gpt
   Guildpact Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476883'
       cardKingdomId: '119572'
@@ -29,9 +40,14 @@ products:
       scgId: SLD-MTG-PCK-GPT-EN
       tcgplayerProductId: '27343'
       tntId: '138463'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: gpt
   Guildpact Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1107869'
       cardKingdomId: '119577'
@@ -42,19 +58,43 @@ products:
       scgId: SLD-MTG-BUN-GPT-EN
       tcgplayerProductId: '78313'
       tntId: '155115'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Ravnica Fat Pack Land Pack
+        set: rav
+      other:
+      - name: 2 Card Storage Boxes
+      - name: One random Pro Tour Player Card
+      - name: The Guildpact novel
+      - name: Six color-coded plastic card dividers
+      - name: Life counter with a circle spinner featuring Niv-Mizzet, the Firemind.
+      sealed:
+      - count: 6
+        name: Guildpact Booster Pack
+        set: gpt
   Guildpact MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241635'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 165
+      deck:
+      - name: Guildpact Redemption
+        set: gpt
   Guildpact MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241634'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 165
+      deck:
+      - name: Guildpact Foil Redemption
+        set: gpt
   Guildpact Theme Deck Code of the Orzhov:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100579'
       cardKingdomId: '119573'
@@ -63,17 +103,35 @@ products:
       mcmId: '253672'
       tcgplayerProductId: '96340'
       tntId: '138462'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Code of the Orzhov
+        set: gpt
+      other:
+      - name: One random Pro Tour Player Card
   Guildpact Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       abuId: '1100586'
       cardtraderId: '47087'
       mcmId: '210221'
       tntId: '138468'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 4
+        name: Guildpact Theme Deck Code of the Orzhov
+        set: gpt
+      - count: 4
+        name: Guildpact Theme Deck Gruul Wilding
+        set: gpt
+      - count: 4
+        name: Guildpact Theme Deck Izzet Gizmometry
+        set: gpt
   Guildpact Theme Deck Gruul Wilding:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100580'
       cardKingdomId: '119574'
@@ -82,9 +140,16 @@ products:
       mcmId: '253673'
       tcgplayerProductId: '96341'
       tntId: '138466'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Gruul Wilding
+        set: gpt
+      other:
+      - name: One random Pro Tour Player Card
   Guildpact Theme Deck Izzet Gizmometry:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100584'
       cardKingdomId: '119575'
@@ -93,9 +158,26 @@ products:
       mcmId: '253674'
       tcgplayerProductId: '96342'
       tntId: '138465'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Izzet Gizmometry
+        set: gpt
+      other:
+      - name: One random Pro Tour Player Card
   Guildpact Theme Decks Set of 3:
     category: SUBSET
+    subtype: THEME
     identifiers:
       abuId: '1100585'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Guildpact Theme Deck Code of the Orzhov
+        set: gpt
+      - count: 1
+        name: Guildpact Theme Deck Gruul Wilding
+        set: gpt
+      - count: 1
+        name: Guildpact Theme Deck Izzet Gizmometry
+        set: gpt

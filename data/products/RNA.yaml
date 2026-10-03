@@ -2,6 +2,8 @@ code: rna
 products:
   Ravnica Allegiance Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2019-01-25'
     identifiers:
       abuId: '1551804'
       cardKingdomId: '223064'
@@ -12,18 +14,28 @@ products:
       scgId: SLD-MTG-BBX-RNA-EN
       tcgplayerProductId: '180734'
       tntId: '1419451'
-    release_date: '2019-01-25'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Ravnica Allegiance Booster Pack
+        set: rna
   Ravnica Allegiance Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2019-01-25'
     identifiers:
       scgId: SLD-MTG-BBX-RNACASE-EN
       tcgplayerProductId: '180733'
       tntId: '1419450'
-    release_date: '2019-01-25'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Ravnica Allegiance Booster Box
+        set: rna
   Ravnica Allegiance Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2019-01-25'
     identifiers:
       abuId: '1973139'
       cardKingdomId: '223063'
@@ -34,10 +46,15 @@ products:
       scgId: SLD-MTG-PCK-RNA-EN
       tcgplayerProductId: '180735'
       tntId: '1419452'
-    release_date: '2019-01-25'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: rna
   Ravnica Allegiance Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2019-01-25'
     identifiers:
       abuId: '1551805'
       cardKingdomId: '223066'
@@ -48,29 +65,57 @@ products:
       scgId: SLD-MTG-BUN-RNA-EN
       tcgplayerProductId: '180736'
       tntId: '1419453'
-    release_date: '2019-01-25'
-    subtype: DEFAULT
+    contents:
+      deck:
+      - name: Ravnica Allegiance Bundle Land Pack
+        set: rna
+      other:
+      - name: 1 card box
+      - name: 1 player’s guide
+      - name: 1 learn-to-play insert
+      - name: 1 Spindown life counter
+      sealed:
+      - count: 10
+        name: Ravnica Allegiance Booster Pack
+        set: rna
   Ravnica Allegiance Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2019-02-19'
     identifiers:
       cardtraderId: '51268'
       mcmId: '370211'
-    release_date: '2019-02-19'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Ravnica Allegiance Collector Booster Pack
+        set: rna
   Ravnica Allegiance Collector Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: COLLECTOR
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Ravnica Allegiance Collector Booster Box
+        set: rna
   Ravnica Allegiance Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2019-02-19'
     identifiers:
       cardtraderId: '51266'
       mcmId: '370212'
       tcgplayerProductId: '184538'
-    release_date: '2019-02-19'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: rna
   Ravnica Allegiance Deck Builders Toolkit:
     category: KIT
+    subtype: DECK_BUILDERS_TOOLKIT
+    release_date: '2019-01-25'
     identifiers:
       abuId: '1554653'
       cardKingdomId: '223067'
@@ -80,20 +125,48 @@ products:
       scgId: SLD-MTG-INT-RNATOOLKIT-EN
       tcgplayerProductId: '180737'
       tntId: '1458103'
-    release_date: '2019-01-25'
-    subtype: DECK_BUILDERS_TOOLKIT
+    contents:
+      card_count: 225
+      deck:
+      - name: Deck Builder's Toolkit
+        set: rna
+      sealed:
+      - count: 1
+        name: Ravnica Allegiance Booster Pack
+        set: rna
+      - count: 1
+        name: Guilds of Ravnica Booster Pack
+        set: grn
+      - count: 1
+        name: Core Set 2019 Booster Pack
+        set: m19
+      - count: 1
+        name: Dominaria Booster Pack
+        set: dom
   Ravnica Allegiance MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '223965'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 259
+      deck:
+      - name: Ravnica Allegiance Redemption
+        set: rna
   Ravnica Allegiance MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '223966'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 259
+      deck:
+      - name: Ravnica Allegiance Foil Redemption
+        set: rna
   Ravnica Allegiance Mythic Edition:
     category: BUNDLE
+    subtype: PREMIUM
+    release_date: '2019-01-24'
     identifiers:
       cardKingdomId: '223910'
       cardtraderId: '49877'
@@ -103,15 +176,68 @@ products:
       scgId: SLD-MTG-BXS-MED_RNA-EN
       tcgplayerProductId: '183453'
       tntId: '1458689'
-    release_date: '2019-01-24'
-    subtype: PREMIUM
+    contents:
+      card:
+      - foil: true
+        name: Karn, Scion of Urza
+        number: RA1
+        set: med
+      - foil: true
+        name: Tamiyo, the Moon Sage
+        number: RA2
+        set: med
+      - foil: true
+        name: Sorin Markov
+        number: RA3
+        set: med
+      - foil: true
+        name: Jaya Ballard
+        number: RA4
+        set: med
+      - foil: true
+        name: Ajani, Mentor of Heroes
+        number: RA5
+        set: med
+      - foil: true
+        name: Dack Fayden
+        number: RA6
+        set: med
+      - foil: true
+        name: Domri, Chaos Bringer
+        number: RA7
+        set: med
+      - foil: true
+        name: Kaya, Orzhov Usurper
+        number: RA8
+        set: med
+      card_count: 8
+      other:
+      - name: Construct Token
+      - name: Dack Fayden Emblem
+      - name: Domri, Chaos Bringer Emblem
+      - name: Jaya Ballard Emblem
+      - name: Tamiyo, the Moon Sage Emblem
+      sealed:
+      - count: 24
+        name: Ravnica Allegiance Booster Pack
+        set: rna
   Ravnica Allegiance Planeswalker Deck Display:
     category: DECK_BOX
+    subtype: PLANESWALKER
     identifiers:
       tntId: '1419454'
-    subtype: PLANESWALKER
+    contents:
+      sealed:
+      - count: 3
+        name: Ravnica Allegiance Planeswalker Deck Domri
+        set: rna
+      - count: 3
+        name: Ravnica Allegiance Planeswalker Deck Dovin
+        set: rna
   Ravnica Allegiance Planeswalker Deck Domri:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2019-01-25'
     identifiers:
       abuId: '1553807'
       cardKingdomId: '223061'
@@ -121,10 +247,19 @@ products:
       scgId: SLD-MTG-INT-RNAPWDECK-EN-DOMRI
       tcgplayerProductId: '182133'
       tntId: '1419455'
-    release_date: '2019-01-25'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Domri, City Smasher
+        set: rna
+      sealed:
+      - count: 2
+        name: Ravnica Allegiance Booster Pack
+        set: rna
   Ravnica Allegiance Planeswalker Deck Dovin:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2019-01-25'
     identifiers:
       abuId: '1553802'
       cardKingdomId: '223062'
@@ -134,49 +269,102 @@ products:
       scgId: SLD-MTG-INT-RNAPWDECK-EN-DOVIN
       tcgplayerProductId: '182134'
       tntId: '1419456'
-    release_date: '2019-01-25'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Dovin, Architect of Law
+        set: rna
+      sealed:
+      - count: 2
+        name: Ravnica Allegiance Booster Pack
+        set: rna
   Ravnica Allegiance Planeswalker Decks Set of 2:
     category: SUBSET
+    subtype: PLANESWALKER
+    release_date: '2019-01-25'
     identifiers:
       abuId: '1551806'
       hareruyaId: '28593'
       scgId: SLD-MTG-INT-RNAPWDECK-EN-SET2
       tcgplayerProductId: '182132'
-    release_date: '2019-01-25'
-    subtype: PLANESWALKER
+    contents:
+      sealed:
+      - count: 1
+        name: Ravnica Allegiance Planeswalker Deck Domri
+        set: rna
+      - count: 1
+        name: Ravnica Allegiance Planeswalker Deck Dovin
+        set: rna
   Ravnica Allegiance Prerelease Pack Azorius:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2019-01-19'
     identifiers:
       abuId: '1557884'
       cardKingdomId: '223078'
       cardtraderId: '48976'
       mcmId: '368859'
       tcgplayerProductId: '183587'
-    release_date: '2019-01-19'
-    subtype: PRERELEASE
+    contents:
+      card_count: 15
+      other:
+      - name: MTG Arena code card (where available)
+      - name: Ravnica Allegiance Spindown
+      pack:
+      - code: prerelease-azorius
+        set: rna
+      sealed:
+      - count: 5
+        name: Ravnica Allegiance Booster Pack
+        set: rna
   Ravnica Allegiance Prerelease Pack Gruul:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2019-01-19'
     identifiers:
       abuId: '1557881'
       cardKingdomId: '223079'
       cardtraderId: '48973'
       mcmId: '368860'
       tcgplayerProductId: '183588'
-    release_date: '2019-01-19'
-    subtype: PRERELEASE
+    contents:
+      card_count: 15
+      other:
+      - name: MTG Arena code card (where available)
+      - name: Ravnica Allegiance Spindown
+      pack:
+      - code: prerelease-gruul
+        set: rna
+      sealed:
+      - count: 5
+        name: Ravnica Allegiance Booster Pack
+        set: rna
   Ravnica Allegiance Prerelease Pack Orzhov:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2019-01-19'
     identifiers:
       abuId: '1557883'
       cardKingdomId: '223080'
       cardtraderId: '48972'
       mcmId: '368861'
       tcgplayerProductId: '183586'
-    release_date: '2019-01-19'
-    subtype: PRERELEASE
+    contents:
+      card_count: 15
+      other:
+      - name: MTG Arena code card (where available)
+      - name: Ravnica Allegiance Spindown
+      pack:
+      - code: prerelease-orzhov
+        set: rna
+      sealed:
+      - count: 5
+        name: Ravnica Allegiance Booster Pack
+        set: rna
   Ravnica Allegiance Prerelease Pack Rakdos:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2019-01-19'
     identifiers:
       abuId: '1557882'
       cardKingdomId: '223081'
@@ -184,43 +372,106 @@ products:
       csiId: '270269'
       mcmId: '368862'
       tcgplayerProductId: '183590'
-    release_date: '2019-01-19'
-    subtype: PRERELEASE
+    contents:
+      card_count: 15
+      other:
+      - name: MTG Arena code card (where available)
+      - name: Ravnica Allegiance Spindown
+      pack:
+      - code: prerelease-rakdos
+        set: rna
+      sealed:
+      - count: 5
+        name: Ravnica Allegiance Booster Pack
+        set: rna
   Ravnica Allegiance Prerelease Pack Set of 5:
     category: SUBSET
+    subtype: PRERELEASE
     identifiers:
       tcgplayerProductId: '183591'
-    subtype: PRERELEASE
+    contents:
+      sealed:
+      - count: 1
+        name: Ravnica Allegiance Prerelease Pack Azorius
+        set: rna
+      - count: 1
+        name: Ravnica Allegiance Prerelease Pack Gruul
+        set: rna
+      - count: 1
+        name: Ravnica Allegiance Prerelease Pack Orzhov
+        set: rna
+      - count: 1
+        name: Ravnica Allegiance Prerelease Pack Rakdos
+        set: rna
+      - count: 1
+        name: Ravnica Allegiance Prerelease Pack Simic
+        set: rna
   Ravnica Allegiance Prerelease Pack Simic:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2019-01-19'
     identifiers:
       abuId: '1557880'
       cardKingdomId: '223082'
       cardtraderId: '48975'
       mcmId: '368863'
       tcgplayerProductId: '183589'
-    release_date: '2019-01-19'
-    subtype: PRERELEASE
+    contents:
+      card_count: 15
+      other:
+      - name: MTG Arena code card (where available)
+      - name: Ravnica Allegiance Spindown
+      pack:
+      - code: prerelease-simic
+        set: rna
+      sealed:
+      - count: 5
+        name: Ravnica Allegiance Booster Pack
+        set: rna
   Ravnica Allegiance Standard Showdown Booster:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
     identifiers:
       cardtraderId: '49720'
       mcmId: '367823'
-    subtype: PROMOTIONAL
   Ravnica Allegiance Theme Booster Box:
     category: BOOSTER_BOX
+    subtype: THEME
+    release_date: '2019-02-26'
     identifiers:
       cardtraderId: '51267'
       mcmId: '370593'
       tcgplayerProductId: '183337'
-    release_date: '2019-02-26'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 2
+        name: Ravnica Allegiance Theme Booster Pack Azorius
+        set: rna
+      - count: 2
+        name: Ravnica Allegiance Theme Booster Pack Gruul
+        set: rna
+      - count: 2
+        name: Ravnica Allegiance Theme Booster Pack Orzhov
+        set: rna
+      - count: 2
+        name: Ravnica Allegiance Theme Booster Pack Rakdos
+        set: rna
+      - count: 2
+        name: Ravnica Allegiance Theme Booster Pack Simic
+        set: rna
   Ravnica Allegiance Theme Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: THEME
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Ravnica Allegiance Theme Booster Box
+        set: rna
   Ravnica Allegiance Theme Booster Pack Azorius:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2019-01-11'
     identifiers:
       abuId: '1558146'
       cardtraderId: '48897'
@@ -229,10 +480,15 @@ products:
       scgId: SLD-MTG-INT-RNATHEME-EN-AZORIUS
       tcgplayerProductId: '183318'
       tntId: '1457872'
-    release_date: '2019-01-11'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-azorius
+        set: rna
   Ravnica Allegiance Theme Booster Pack Gruul:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2019-01-11'
     identifiers:
       abuId: '1558147'
       cardtraderId: '48895'
@@ -240,10 +496,15 @@ products:
       scgId: SLD-MTG-INT-RNATHEME-EN-GRUUL
       tcgplayerProductId: '183319'
       tntId: '1457873'
-    release_date: '2019-01-11'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-gruul
+        set: rna
   Ravnica Allegiance Theme Booster Pack Orzhov:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2019-01-11'
     identifiers:
       abuId: '1558148'
       cardtraderId: '48898'
@@ -251,10 +512,15 @@ products:
       scgId: SLD-MTG-INT-RNATHEME-EN-ORZHOV
       tcgplayerProductId: '183320'
       tntId: '1457874'
-    release_date: '2019-01-11'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-orzhov
+        set: rna
   Ravnica Allegiance Theme Booster Pack Rakdos:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2019-01-11'
     identifiers:
       abuId: '1558149'
       cardtraderId: '48896'
@@ -263,17 +529,39 @@ products:
       scgId: SLD-MTG-INT-RNATHEME-EN-RAKDOS
       tcgplayerProductId: '183321'
       tntId: '1457875'
-    release_date: '2019-01-11'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-rakdos
+        set: rna
   Ravnica Allegiance Theme Booster Pack Set of 5:
     category: SUBSET
+    subtype: THEME
     identifiers:
       abuId: '1558174'
       scgId: SLD-MTG-INT-RNATHEME-EN-SET5
       tcgplayerProductId: '183323'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Ravnica Allegiance Theme Booster Pack Azorius
+        set: rna
+      - count: 1
+        name: Ravnica Allegiance Theme Booster Pack Gruul
+        set: rna
+      - count: 1
+        name: Ravnica Allegiance Theme Booster Pack Orzhov
+        set: rna
+      - count: 1
+        name: Ravnica Allegiance Theme Booster Pack Rakdos
+        set: rna
+      - count: 1
+        name: Ravnica Allegiance Theme Booster Pack Simic
+        set: rna
   Ravnica Allegiance Theme Booster Pack Simic:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2019-01-11'
     identifiers:
       abuId: '1558150'
       cardtraderId: '48894'
@@ -282,5 +570,8 @@ products:
       scgId: SLD-MTG-INT-RNATHEME-EN-SIMIC
       tcgplayerProductId: '183322'
       tntId: '1457876'
-    release_date: '2019-01-11'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-simic
+        set: rna

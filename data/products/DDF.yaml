@@ -2,6 +2,7 @@ code: ddf
 products:
   Duel Deck Elspeth vs Tezzeret:
     category: MULTI_DECK
+    subtype: DUEL
     identifiers:
       abuId: '1100487'
       cardKingdomId: '131983'
@@ -12,23 +13,45 @@ products:
       scgId: SLD-MTG-BXS-DDF-EN
       tcgplayerProductId: '78338'
       tntId: '299520'
-    subtype: DUEL
+    contents:
+      sealed:
+      - count: 1
+        name: Duel Deck Elspeth vs Tezzeret Elspeth Deck
+        set: ddf
+      - count: 1
+        name: Duel Deck Elspeth vs Tezzeret Tezzeret Deck
+        set: ddf
   Duel Deck Elspeth vs Tezzeret Display:
     category: DECK_BOX
+    subtype: DUEL
     identifiers:
       cardtraderId: '47533'
       mcmId: '245322'
       tntId: '299521'
-    subtype: DUEL
+    contents:
+      sealed:
+      - count: 6
+        name: Duel Deck Elspeth vs Tezzeret
+        set: ddf
   Duel Deck Elspeth vs Tezzeret Elspeth Deck:
     category: DECK
+    subtype: DUEL
     identifiers:
       cardtraderId: '47531'
       mcmId: '245320'
-    subtype: DUEL
+    contents:
+      card_count: 60
+      deck:
+      - name: Elspeth
+        set: ddf
   Duel Deck Elspeth vs Tezzeret Tezzeret Deck:
     category: DECK
+    subtype: DUEL
     identifiers:
       cardtraderId: '47532'
       mcmId: '245321'
-    subtype: DUEL
+    contents:
+      card_count: 60
+      deck:
+      - name: Tezzeret
+        set: ddf

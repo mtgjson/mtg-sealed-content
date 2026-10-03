@@ -2,11 +2,18 @@ code: 2x2
 products:
   Double Masters 2022 3 Booster Draft Pack:
     category: LIMITED
+    subtype: DRAFT_SET
     identifiers:
       tcgplayerProductId: '283262'
-    subtype: DRAFT_SET
+    contents:
+      sealed:
+      - count: 3
+        name: Double Masters 2022 Draft Booster Pack
+        set: 2x2
   Double Masters 2022 Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2022-07-08'
     identifiers:
       abuId: '2201808'
       cardKingdomId: '261146'
@@ -17,16 +24,26 @@ products:
       scgId: SLD-MTG-BBX-2X2COLLECTOR-EN
       tcgplayerProductId: '271509'
       tntId: '1751739'
-    release_date: '2022-07-08'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 4
+        name: Double Masters 2022 Collector Booster Pack
+        set: 2x2
   Double Masters 2022 Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
+    release_date: '2022-07-08'
     identifiers:
       tcgplayerProductId: '271510'
-    release_date: '2022-07-08'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 8
+        name: Double Masters 2022 Collector Booster Box
+        set: 2x2
   Double Masters 2022 Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2022-07-08'
     identifiers:
       abuId: '2201809'
       cardKingdomId: '261147'
@@ -37,10 +54,15 @@ products:
       scgId: SLD-MTG-PCK-2X2COLLECTOR-EN
       tcgplayerProductId: '271508'
       tntId: '1751740'
-    release_date: '2022-07-08'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: 2x2
   Double Masters 2022 Draft Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2022-05-13'
     identifiers:
       abuId: '2201810'
       cardKingdomId: '261148'
@@ -51,17 +73,27 @@ products:
       scgId: SLD-MTG-BBX-2X2DRAFT-EN
       tcgplayerProductId: '271506'
       tntId: '1751737'
-    release_date: '2022-05-13'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 24
+        name: Double Masters 2022 Draft Booster Pack
+        set: 2x2
   Double Masters 2022 Draft Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2022-07-08'
     identifiers:
       scgId: SLD-MTG-BBX-2X2DRAFTCASE-EN
       tcgplayerProductId: '271505'
-    release_date: '2022-07-08'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Double Masters 2022 Draft Booster Box
+        set: 2x2
   Double Masters 2022 Draft Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2022-07-08'
     identifiers:
       abuId: '2201811'
       cardKingdomId: '261149'
@@ -72,10 +104,18 @@ products:
       scgId: SLD-MTG-PCK-2X2DRAFT-EN
       tcgplayerProductId: '271507'
       tntId: '1751738'
-    release_date: '2022-07-08'
-    subtype: DRAFT
+    contents:
+      card_count: 16
+      pack:
+      - code: draft
+        set: 2x2
   Double Masters 2022 Sleeved Draft Booster Pack:
     category: BOOSTER_PACK
+    subtype: DEFAULT
     identifiers:
       tcgplayerProductId: '282700'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 1
+        name: Double Masters 2022 Draft Booster Pack
+        set: 2x2

@@ -2,6 +2,7 @@ code: dde
 products:
   Duel Deck Phyrexia vs the Coalition:
     category: MULTI_DECK
+    subtype: DUEL
     identifiers:
       abuId: '1100970'
       cardKingdomId: '130367'
@@ -12,17 +13,39 @@ products:
       scgId: SLD-MTG-BXS-DDE-EN
       tcgplayerProductId: '78335'
       tntId: '292572'
-    subtype: DUEL
+    contents:
+      sealed:
+      - count: 1
+        name: Duel Deck Phyrexia vs the Coalition Phyrexia Deck
+        set: dde
+      - count: 1
+        name: Duel Deck Phyrexia vs the Coalition The Coalition Deck
+        set: dde
   Duel Deck Phyrexia vs the Coalition Display:
     category: DECK_BOX
+    subtype: DUEL
     identifiers:
       tntId: '292667'
-    subtype: DUEL
+    contents:
+      sealed:
+      - count: 6
+        name: Duel Deck Phyrexia vs the Coalition
+        set: dde
   Duel Deck Phyrexia vs the Coalition Phyrexia Deck:
     category: DECK
-    identifiers: {}
     subtype: DUEL
+    identifiers: {}
+    contents:
+      card_count: 60
+      deck:
+      - name: Phyrexia
+        set: dde
   Duel Deck Phyrexia vs the Coalition The Coalition Deck:
     category: DECK
-    identifiers: {}
     subtype: DUEL
+    identifiers: {}
+    contents:
+      card_count: 60
+      deck:
+      - name: The Coalition
+        set: dde

@@ -2,6 +2,8 @@ code: ddp
 products:
   Duel Deck Zendikar vs Eldrazi:
     category: MULTI_DECK
+    subtype: DUEL
+    release_date: '2015-08-28'
     identifiers:
       abuId: '1100201'
       cardKingdomId: '202252'
@@ -12,24 +14,45 @@ products:
       scgId: SLD-MTG-BXS-DDP-EN
       tcgplayerProductId: '101886'
       tntId: '1075336'
-    release_date: '2015-08-28'
-    subtype: DUEL
+    contents:
+      sealed:
+      - count: 1
+        name: Duel Deck Zendikar vs Eldrazi Eldrazi Deck
+        set: ddp
+      - count: 1
+        name: Duel Deck Zendikar vs Eldrazi Zendikar Deck
+        set: ddp
   Duel Deck Zendikar vs Eldrazi Display:
     category: DECK_BOX
+    subtype: DUEL
     identifiers:
       tntId: '1075335'
-    subtype: DUEL
+    contents:
+      sealed:
+      - count: 6
+        name: Duel Deck Zendikar vs Eldrazi
+        set: ddp
   Duel Deck Zendikar vs Eldrazi Eldrazi Deck:
     category: DECK
+    subtype: DUEL
+    release_date: '2015-08-18'
     identifiers:
       cardtraderId: '48329'
       mcmId: '283996'
-    release_date: '2015-08-18'
-    subtype: DUEL
+    contents:
+      card_count: 60
+      deck:
+      - name: Eldrazi
+        set: ddp
   Duel Deck Zendikar vs Eldrazi Zendikar Deck:
     category: DECK
+    subtype: DUEL
+    release_date: '2015-08-18'
     identifiers:
       cardtraderId: '48330'
       mcmId: '283995'
-    release_date: '2015-08-18'
-    subtype: DUEL
+    contents:
+      card_count: 60
+      deck:
+      - name: Zendikar
+        set: ddp

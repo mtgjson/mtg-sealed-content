@@ -2,6 +2,8 @@ code: dds
 products:
   Duel Deck Mind vs Might:
     category: MULTI_DECK
+    subtype: DUEL
+    release_date: '2017-03-31'
     identifiers:
       abuId: '1476904'
       cardKingdomId: '211076'
@@ -12,17 +14,38 @@ products:
       scgId: SLD-MTG-BXS-DDS-EN
       tcgplayerProductId: '129358'
       tntId: '1102287'
-    release_date: '2017-03-31'
-    subtype: DUEL
+    contents:
+      sealed:
+      - count: 1
+        name: Duel Deck Mind vs Might Might Deck
+        set: dds
+      - count: 1
+        name: Duel Deck Mind vs Might Mind Deck
+        set: dds
   Duel Deck Mind vs Might Display:
     category: DECK_BOX
-    identifiers: {}
     subtype: DUEL
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Duel Deck Mind vs Might
+        set: dds
   Duel Deck Mind vs Might Might Deck:
     category: DECK
-    identifiers: {}
     subtype: DUEL
+    identifiers: {}
+    contents:
+      card_count: 60
+      deck:
+      - name: Might
+        set: dds
   Duel Deck Mind vs Might Mind Deck:
     category: DECK
-    identifiers: {}
     subtype: DUEL
+    identifiers: {}
+    contents:
+      card_count: 60
+      deck:
+      - name: Mind
+        set: dds

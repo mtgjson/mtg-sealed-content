@@ -2,6 +2,8 @@ code: gn3
 products:
   Magic Game Night Free For All Set:
     category: BOX_SET
+    subtype: GAME_NIGHT
+    release_date: '2022-10-14'
     identifiers:
       abuId: '2250650'
       cardKingdomId: '267714'
@@ -12,5 +14,23 @@ products:
       scgId: SLD-MTG-MLT-GN3-EN
       tcgplayerProductId: '278712'
       tntId: '1767255'
-    release_date: '2022-10-14'
-    subtype: GAME_NIGHT
+    contents:
+      card_count: 300
+      deck:
+      - name: Boundless Elves
+        set: gn3
+      - name: Dark Sacrifice
+        set: gn3
+      - name: Draconic Fury
+        set: gn3
+      - name: Glorious Combat
+        set: gn3
+      - name: Political Trickery
+        set: gn3
+      other:
+      - name: 5 Game Night Free for All Spindowns
+      - name: 5 Spindown Platforms
+      - name: 15 Double Sided Tokens
+      - name: 20 +1/+1 Counters
+      - name: Game Night Free for All Rulebook
+      - name: 5 Reference Cards

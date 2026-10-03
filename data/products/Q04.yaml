@@ -2,6 +2,8 @@ code: q04
 products:
   Challenger Deck 2020 Allied Fires:
     category: DECK
+    subtype: CHALLENGER
+    release_date: '2020-03-27'
     identifiers:
       abuId: '1828134'
       cardKingdomId: '231906'
@@ -11,10 +13,17 @@ products:
       mcmId: '440333'
       tcgplayerProductId: '209420'
       tntId: '1659272'
-    release_date: '2020-03-27'
-    subtype: CHALLENGER
+    contents:
+      card_count: 75
+      deck:
+      - name: Allied Fires
+        set: q04
+      other:
+      - name: 5 double-sided tokens
   Challenger Deck 2020 Cavalcade Charge:
     category: DECK
+    subtype: CHALLENGER
+    release_date: '2020-03-27'
     identifiers:
       abuId: '1828135'
       cardKingdomId: '231907'
@@ -24,17 +33,38 @@ products:
       mcmId: '440343'
       tcgplayerProductId: '209422'
       tntId: '1659274'
-    release_date: '2020-03-27'
-    subtype: CHALLENGER
+    contents:
+      card_count: 75
+      deck:
+      - name: Cavalcade Charge
+        set: q04
+      other:
+      - name: 5 double-sided tokens
   Challenger Deck 2020 Display:
     category: DECK_BOX
+    subtype: CHALLENGER
+    release_date: '2020-03-27'
     identifiers:
       tcgplayerProductId: '209425'
       tntId: '1710057'
-    release_date: '2020-03-27'
-    subtype: CHALLENGER
+    contents:
+      sealed:
+      - count: 2
+        name: Challenger Deck 2020 Allied Fires
+        set: q04
+      - count: 2
+        name: Challenger Deck 2020 Cavalcade Charge
+        set: q04
+      - count: 2
+        name: Challenger Deck 2020 Final Adventure
+        set: q04
+      - count: 2
+        name: Challenger Deck 2020 Flash of Ferocity
+        set: q04
   Challenger Deck 2020 Final Adventure:
     category: DECK
+    subtype: CHALLENGER
+    release_date: '2020-03-27'
     identifiers:
       abuId: '1828133'
       cardKingdomId: '231908'
@@ -44,10 +74,17 @@ products:
       mcmId: '440338'
       tcgplayerProductId: '209421'
       tntId: '1659273'
-    release_date: '2020-03-27'
-    subtype: CHALLENGER
+    contents:
+      card_count: 75
+      deck:
+      - name: Final Adventure
+        set: q04
+      other:
+      - name: 5 double-sided tokens
   Challenger Deck 2020 Flash of Ferocity:
     category: DECK
+    subtype: CHALLENGER
+    release_date: '2020-03-27'
     identifiers:
       abuId: '1828136'
       cardKingdomId: '231909'
@@ -57,10 +94,17 @@ products:
       mcmId: '440348'
       tcgplayerProductId: '209423'
       tntId: '1659275'
-    release_date: '2020-03-27'
-    subtype: CHALLENGER
+    contents:
+      card_count: 75
+      deck:
+      - name: Flash of Ferocity
+        set: q04
+      other:
+      - name: 5 double-sided tokens
   Challenger Deck 2020 Set of 4:
     category: SUBSET
+    subtype: CHALLENGER
+    release_date: '2020-03-27'
     identifiers:
       cardtraderId: '107839'
       csiId: '294799'
@@ -68,5 +112,17 @@ products:
       mcmId: '440353'
       tcgplayerProductId: '209424'
       tntId: '1659277'
-    release_date: '2020-03-27'
-    subtype: CHALLENGER
+    contents:
+      sealed:
+      - count: 1
+        name: Challenger Deck 2020 Allied Fires
+        set: q04
+      - count: 1
+        name: Challenger Deck 2020 Cavalcade Charge
+        set: q04
+      - count: 1
+        name: Challenger Deck 2020 Final Adventure
+        set: q04
+      - count: 1
+        name: Challenger Deck 2020 Flash of Ferocity
+        set: q04

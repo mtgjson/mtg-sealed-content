@@ -2,6 +2,8 @@ code: c17
 products:
   Commander 2017 Commander Deck Arcane Wizardry:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2017-08-25'
     identifiers:
       abuId: '1476994'
       cardKingdomId: '213482'
@@ -12,10 +14,17 @@ products:
       scgId: SLD-MTG-MLT-C17-EN-ARCANE
       tcgplayerProductId: '139843'
       tntId: '1126927'
-    release_date: '2017-08-25'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Arcane Wizardry
+        set: c17
+      other:
+      - name: 10 Double-Sided Tokens
   Commander 2017 Commander Deck Draconic Domination:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2017-08-25'
     identifiers:
       abuId: '1476995'
       cardKingdomId: '213481'
@@ -26,10 +35,17 @@ products:
       scgId: SLD-MTG-MLT-C17-EN-DRACONIC
       tcgplayerProductId: '139782'
       tntId: '1126925'
-    release_date: '2017-08-25'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Draconic Domination
+        set: c17
+      other:
+      - name: 10 Double-Sided Tokens
   Commander 2017 Commander Deck Feline Ferocity:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2017-08-25'
     identifiers:
       abuId: '1476996'
       cardKingdomId: '213480'
@@ -40,10 +56,17 @@ products:
       scgId: SLD-MTG-MLT-C17-EN-FELINE
       tcgplayerProductId: '139780'
       tntId: '1126924'
-    release_date: '2017-08-25'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Feline Ferocity
+        set: c17
+      other:
+      - name: 10 Double-Sided Tokens
   Commander 2017 Commander Deck Vampiric Bloodlust:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2017-08-25'
     identifiers:
       abuId: '1476997'
       cardKingdomId: '213483'
@@ -54,10 +77,17 @@ products:
       scgId: SLD-MTG-MLT-C17-EN-VAMPIRIC
       tcgplayerProductId: '139781'
       tntId: '1126926'
-    release_date: '2017-08-25'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Vampiric Bloodlust
+        set: c17
+      other:
+      - name: 10 Double-Sided Tokens
   Commander 2017 Commander Decks Set of 4:
     category: SUBSET
+    subtype: COMMANDER
+    release_date: '2017-08-25'
     identifiers:
       cardtraderId: '44565'
       csiId: '242588'
@@ -66,5 +96,17 @@ products:
       scgId: SLD-MTG-MLT-C17-EN-SET4
       tcgplayerProductId: '139103'
       tntId: '1126478'
-    release_date: '2017-08-25'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Commander 2017 Commander Deck Arcane Wizardry
+        set: c17
+      - count: 1
+        name: Commander 2017 Commander Deck Draconic Domination
+        set: c17
+      - count: 1
+        name: Commander 2017 Commander Deck Feline Ferocity
+        set: c17
+      - count: 1
+        name: Commander 2017 Commander Deck Vampiric Bloodlust
+        set: c17

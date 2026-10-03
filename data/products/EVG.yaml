@@ -2,11 +2,21 @@ code: evg
 products:
   Duel Deck Anthology Elves Deck:
     category: DECK
+    subtype: DUEL
     identifiers:
       mcmId: '270802'
-    subtype: DUEL
+    contents:
+      card_count: 60
+      deck:
+      - name: Elves
+        set: evg
   Duel Deck Anthology Goblins Deck:
     category: DECK
+    subtype: DUEL
     identifiers:
       mcmId: '270803'
-    subtype: DUEL
+    contents:
+      card_count: 60
+      deck:
+      - name: Goblins
+        set: evg

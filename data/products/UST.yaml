@@ -2,12 +2,19 @@ code: ust
 products:
   Unstable 3 Booster Draft Pack:
     category: LIMITED
+    subtype: DRAFT_SET
     identifiers:
       tcgplayerProductId: '174456'
       tntId: '1655883'
-    subtype: DRAFT_SET
+    contents:
+      sealed:
+      - count: 3
+        name: Unstable Booster Pack
+        set: ust
   Unstable Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2017-12-08'
     identifiers:
       abuId: '1477015'
       cardKingdomId: '215245'
@@ -18,16 +25,26 @@ products:
       scgId: SLD-MTG-BBX-UST-EN
       tcgplayerProductId: '149402'
       tntId: '1139827'
-    release_date: '2017-12-08'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Unstable Booster Pack
+        set: ust
   Unstable Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2017-12-08'
     identifiers:
       tcgplayerProductId: '152232'
-    release_date: '2017-12-08'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Unstable Booster Box
+        set: ust
   Unstable Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2017-12-08'
     identifiers:
       abuId: '1796248'
       cardKingdomId: '215246'
@@ -38,5 +55,8 @@ products:
       scgId: SLD-MTG-PCK-UST-EN
       tcgplayerProductId: '149403'
       tntId: '1139828'
-    release_date: '2017-12-08'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: ust

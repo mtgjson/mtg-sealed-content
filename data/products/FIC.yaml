@@ -2,6 +2,8 @@ code: fic
 products:
   Final Fantasy Commander Deck Counter Blitz:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2025-06-13'
     identifiers:
       abuId: '2594502'
       cardKingdomId: '312860'
@@ -10,10 +12,24 @@ products:
       mcmId: '812581'
       scgId: SLD-MTG-MLT-FIC-EN-COUNTER
       tcgplayerProductId: '618905'
-    release_date: '2025-06-13'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Counter Blitz (FINAL FANTASY X)
+        set: fic
+      other:
+      - name: Deck Box
+      - name: 1 Reference Card
+      - name: 6 Double-Sided Tokens
+      - name: 4 Punch-Out Counter Cards
+      sealed:
+      - count: 1
+        name: Final Fantasy Collector Booster Sample Pack
+        set: fin
   Final Fantasy Commander Deck Counter Blitz Collectors Edition:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2025-06-13'
     identifiers:
       abuId: '2594506'
       cardKingdomId: '312864'
@@ -22,10 +38,24 @@ products:
       mcmId: '812582'
       scgId: SLD-MTG-MLT-FICCOLLECTOR-EN-COUNTER
       tcgplayerProductId: '618910'
-    release_date: '2025-06-13'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Counter Blitz Collector's Edition (FINAL FANTASY X)
+        set: fic
+      other:
+      - name: Deck Box
+      - name: 1 Reference Card
+      - name: 6 Surge Foil Double-Sided Tokens
+      - name: 4 Punch-Out Counter Cards
+      sealed:
+      - count: 1
+        name: Final Fantasy Collector Booster Sample Pack
+        set: fin
   Final Fantasy Commander Deck Limit Break:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2025-06-13'
     identifiers:
       abuId: '2594500'
       cardKingdomId: '312859'
@@ -35,10 +65,23 @@ products:
       miniaturemarketId: da9963c4cb634305694c2230a502a432
       scgId: SLD-MTG-MLT-FIC-EN-LIMIT
       tcgplayerProductId: '618904'
-    release_date: '2025-06-13'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Limit Break (FINAL FANTASY VII)
+        set: fic
+      other:
+      - name: Deck Box
+      - name: 1 Reference Card
+      - name: 10 Double-Sided Tokens
+      sealed:
+      - count: 1
+        name: Final Fantasy Collector Booster Sample Pack
+        set: fin
   Final Fantasy Commander Deck Limit Break Collectors Edition:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2025-06-13'
     identifiers:
       abuId: '2594505'
       cardKingdomId: '312863'
@@ -48,10 +91,23 @@ products:
       miniaturemarketId: 2b2cef5d4fc5fffcdf2a2f2f122db20f
       scgId: SLD-MTG-MLT-FICCOLLECTOR-EN-LIMIT
       tcgplayerProductId: '618909'
-    release_date: '2025-06-13'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Limit Break Collector's Edition (FINAL FANTASY VII)
+        set: fic
+      other:
+      - name: Deck Box
+      - name: 1 Reference Card
+      - name: 10 Surge Foil Double-Sided Tokens
+      sealed:
+      - count: 1
+        name: Final Fantasy Collector Booster Sample Pack
+        set: fin
   Final Fantasy Commander Deck Limit Break Game Edition:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2025-12-05'
     identifiers:
       abuId: '2640479'
       cardKingdomId: '321472'
@@ -61,16 +117,34 @@ products:
       miniaturemarketId: 019a1193fae2709a90f4dc382cfb5146
       scgId: SLD-MTG-MLT-FIC-EN-LIMITGAME
       tcgplayerProductId: '656732'
-    release_date: '2025-12-05'
-    subtype: COMMANDER
+    contents:
+      card:
+      - foil: true
+        name: Cloud, Midgar Mercenary
+        number: 2025-21
+        set: pmei
+      card_count: 1
+      other:
+      - name: Code to redeem for Final Fantasy VII digital game
+      sealed:
+      - count: 1
+        name: Final Fantasy Commander Deck Limit Break
+        set: fic
   Final Fantasy Commander Deck Limit Break Game Edition Case:
     category: SUBSET
+    subtype: COMMANDER
+    release_date: '2025-12-05'
     identifiers:
       tcgplayerProductId: '656733'
-    release_date: '2025-12-05'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 4
+        name: Final Fantasy Commander Deck Limit Break Game Edition
+        set: fic
   Final Fantasy Commander Deck Revival Trance:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2025-06-13'
     identifiers:
       abuId: '2594501'
       cardKingdomId: '312858'
@@ -80,10 +154,23 @@ products:
       miniaturemarketId: 8c3f1c07dce513023cce38c048beeefd
       scgId: SLD-MTG-MLT-FIC-EN-REVIVAL
       tcgplayerProductId: '618903'
-    release_date: '2025-06-13'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Revival Trance (FINAL FANTASY VI)
+        set: fic
+      other:
+      - name: Deck Box
+      - name: 1 Reference Card
+      - name: 10 Double-Sided Tokens
+      sealed:
+      - count: 1
+        name: Final Fantasy Collector Booster Sample Pack
+        set: fin
   Final Fantasy Commander Deck Revival Trance Collectors Edition:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2025-06-13'
     identifiers:
       abuId: '2594504'
       cardKingdomId: '312862'
@@ -93,10 +180,23 @@ products:
       miniaturemarketId: ef8ae2b916503330b66bc094bfd319f1
       scgId: SLD-MTG-MLT-FICCOLLECTOR-EN-REVIVAL
       tcgplayerProductId: '618908'
-    release_date: '2025-06-13'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Revival Trance Collector's Edition (FINAL FANTASY VI)
+        set: fic
+      other:
+      - name: Deck Box
+      - name: 1 Reference Card
+      - name: 10 Surge Foil Double-Sided Tokens
+      sealed:
+      - count: 1
+        name: Final Fantasy Collector Booster Sample Pack
+        set: fin
   Final Fantasy Commander Deck Scions & Spellcraft:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2025-06-13'
     identifiers:
       abuId: '2594503'
       cardKingdomId: '312861'
@@ -106,10 +206,23 @@ products:
       miniaturemarketId: eb00153d0085c2d7df3e1ed12057f7f3
       scgId: SLD-MTG-MLT-FIC-EN-SCIONS
       tcgplayerProductId: '618906'
-    release_date: '2025-06-13'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Scions & Spellcraft (FINAL FANTASY XIV)
+        set: fic
+      other:
+      - name: Deck Box
+      - name: 1 Reference Card
+      - name: 10 Double-Sided Tokens
+      sealed:
+      - count: 1
+        name: Final Fantasy Collector Booster Sample Pack
+        set: fin
   Final Fantasy Commander Deck Scions & Spellcraft Collectors Edition:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2025-06-13'
     identifiers:
       abuId: '2594507'
       cardKingdomId: '312865'
@@ -118,20 +231,47 @@ products:
       mcmId: '812584'
       scgId: SLD-MTG-MLT-FICCOLLECTOR-EN-SCIONS
       tcgplayerProductId: '618911'
-    release_date: '2025-06-13'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Scions & Spellcraft Collector's Edition (FINAL FANTASY XIV)
+        set: fic
+      other:
+      - name: Deck Box
+      - name: 1 Reference Card
+      - name: 10 Surge Foil Double-Sided Tokens
+      sealed:
+      - count: 1
+        name: Final Fantasy Collector Booster Sample Pack
+        set: fin
   Final Fantasy Commander Decks Collectors Edition Set of 4:
     category: SUBSET
+    subtype: COMMANDER
+    release_date: '2025-06-13'
     identifiers:
       cardtraderId: '322109'
       mcmId: '812586'
       miniaturemarketId: e9ecf3cdaa503efb51d679ec8fba2f77
       scgId: SLD-MTG-MLT-FICCOLLECTOR-EN-SET4
       tcgplayerProductId: '618912'
-    release_date: '2025-06-13'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Final Fantasy Commander Deck Counter Blitz Collectors Edition
+        set: fic
+      - count: 1
+        name: Final Fantasy Commander Deck Limit Break Collectors Edition
+        set: fic
+      - count: 1
+        name: Final Fantasy Commander Deck Revival Trance Collectors Edition
+        set: fic
+      - count: 1
+        name: Final Fantasy Commander Deck Scions & Spellcraft Collectors Edition
+        set: fic
   Final Fantasy Commander Decks Set of 4:
     category: SUBSET
+    subtype: COMMANDER
+    release_date: '2025-06-13'
     identifiers:
       cardKingdomId: '313129'
       cardtraderId: '322108'
@@ -140,5 +280,17 @@ products:
       miniaturemarketId: debade525b7e8f31c7cdae7adb52eefa
       scgId: SLD-MTG-MLT-FIC-EN-SET4
       tcgplayerProductId: '618907'
-    release_date: '2025-06-13'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Final Fantasy Commander Deck Counter Blitz
+        set: fic
+      - count: 1
+        name: Final Fantasy Commander Deck Limit Break
+        set: fic
+      - count: 1
+        name: Final Fantasy Commander Deck Revival Trance
+        set: fic
+      - count: 1
+        name: Final Fantasy Commander Deck Scions & Spellcraft
+        set: fic

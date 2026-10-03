@@ -2,6 +2,7 @@ code: eoe
 products:
   Edge of Eternities Bundle:
     category: BUNDLE
+    subtype: DEFAULT
     identifiers:
       abuId: '2617208'
       cardKingdomId: '316074'
@@ -11,15 +12,38 @@ products:
       mcmId: '813310'
       scgId: SLD-MTG-BUN-EOE-EN
       tcgplayerProductId: '619673'
-    subtype: DEFAULT
+    contents:
+      card:
+      - foil: true
+        name: Emissary Escort
+        number: 399
+        set: eoe
+      card_count: 1
+      deck:
+      - name: Edge of Eternities Bundle Land Pack
+        set: eoe
+      other:
+      - name: 2 Reference Cards
+      - name: Edge of Eternities Spindown
+      - name: Edge of Eternities Card Storage Box
+      sealed:
+      - count: 9
+        name: Edge of Eternities Play Booster Pack
+        set: eoe
   Edge of Eternities Bundle Case:
     category: BUNDLE_CASE
+    subtype: DEFAULT
     identifiers:
       cardtraderId: '405220'
       tcgplayerProductId: '619693'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 6
+        name: Edge of Eternities Bundle
+        set: eoe
   Edge of Eternities Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
     identifiers:
       abuId: '2617206'
       cardKingdomId: '316072'
@@ -29,14 +53,24 @@ products:
       miniaturemarketId: d2b3096bec2c608bbf1f1f427771aa5d
       scgId: SLD-MTG-BBX-EOECOLLECTOR-EN
       tcgplayerProductId: '619672'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Edge of Eternities Collector Booster Pack
+        set: eoe
   Edge of Eternities Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '619694'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Edge of Eternities Collector Booster Box
+        set: eoe
   Edge of Eternities Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
     identifiers:
       abuId: '2617205'
       cardKingdomId: '316070'
@@ -46,25 +80,42 @@ products:
       miniaturemarketId: 16c31a84add5bb7447e2b94f5ab76523
       scgId: SLD-MTG-PCK-EOECOLLECTOR-EN
       tcgplayerProductId: '619696'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: eoe
   Edge of Eternities Collector Booster Pack Minimal Packaging:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '684666'
-    subtype: COLLECTOR
+    contents:
+      copy: Edge of Eternities Collector Booster Pack
   Edge of Eternities Collector Booster Sample Pack:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
     identifiers:
       mcmId: '813304'
       tcgplayerProductId: '647441'
-    subtype: PROMOTIONAL
+    contents:
+      card_count: 2
+      pack:
+      - code: collector-sample
+        set: eoe
   Edge of Eternities MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '316086'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 276
+      deck:
+      - name: Edge of Eternities Redemption
+        set: eoe
   Edge of Eternities Play Booster Box:
     category: BOOSTER_BOX
+    subtype: PLAY
     identifiers:
       abuId: '2617207'
       cardKingdomId: '316073'
@@ -74,15 +125,25 @@ products:
       miniaturemarketId: f9c4ec2261d7314c99cb5eec0f75394f
       scgId: SLD-MTG-BBX-EOE-EN
       tcgplayerProductId: '619674'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 30
+        name: Edge of Eternities Play Booster Pack
+        set: eoe
   Edge of Eternities Play Booster Box Case:
     category: BOOSTER_CASE
+    subtype: PLAY
     identifiers:
       scgId: SLD-MTG-BBX-EOECASE-EN
       tcgplayerProductId: '619699'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 6
+        name: Edge of Eternities Play Booster Box
+        set: eoe
   Edge of Eternities Play Booster Pack:
     category: BOOSTER_PACK
+    subtype: PLAY
     identifiers:
       abuId: '2616421'
       cardKingdomId: '316071'
@@ -92,9 +153,14 @@ products:
       miniaturemarketId: e70396797696a193bc4ce1a60446d311
       scgId: SLD-MTG-PCK-EOE-EN
       tcgplayerProductId: '619697'
-    subtype: PLAY
+    contents:
+      card_count: 14
+      pack:
+      - code: play
+        set: eoe
   Edge of Eternities Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '2617211'
       cardtraderId: '322695'
@@ -102,4 +168,15 @@ products:
       miniaturemarketId: d9c6fde2f45548b3cb26b24c50609937
       scgId: SLD-MTG-INT-EOEPRE-EN
       tcgplayerProductId: '619675'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: Deck Box
+      - name: Edge of Eternities Spindown
+      pack:
+      - code: prerelease
+        set: eoe
+      sealed:
+      - count: 6
+        name: Edge of Eternities Play Booster Pack
+        set: eoe

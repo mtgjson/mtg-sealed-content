@@ -2,6 +2,7 @@ code: nem
 products:
   Nemesis Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1100902'
       cardKingdomId: '1162'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-NEM-EN
       tcgplayerProductId: '27293'
       tntId: '113974'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Nemesis Booster Pack
+        set: nem
   Nemesis Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Nemesis Booster Box
+        set: nem
   Nemesis Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476915'
       cardKingdomId: '1163'
@@ -29,9 +40,14 @@ products:
       scgId: SLD-MTG-PCK-NEM-EN
       tcgplayerProductId: '27355'
       tntId: '113975'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: nem
   Nemesis Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1100908'
       cardKingdomId: '240343'
@@ -42,9 +58,21 @@ products:
       scgId: SLD-MTG-BUN-NEM-EN
       tcgplayerProductId: '78322'
       tntId: '155273'
-    subtype: FAT_PACK
+    contents:
+      card_count: 2
+      other:
+      - name: The Nemesis Novel
+      - name: TopDeck Magazine \# 4
+      pack:
+      - code: fat-pack
+        set: nem
+      sealed:
+      - count: 6
+        name: Nemesis Booster Pack
+        set: nem
   Nemesis Theme Deck Breakdown:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100909'
       cardKingdomId: '1164'
@@ -54,16 +82,35 @@ products:
       mcmId: '253753'
       tcgplayerProductId: '116042'
       tntId: '106946'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Breakdown
+        set: nem
   Nemesis Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       abuId: '1100914'
       cardtraderId: '45623'
       mcmId: '210233'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 3
+        name: Nemesis Theme Deck Breakdown
+        set: nem
+      - count: 3
+        name: Nemesis Theme Deck Eruption
+        set: nem
+      - count: 3
+        name: Nemesis Theme Deck Mercenaries
+        set: nem
+      - count: 3
+        name: Nemesis Theme Deck Replicator
+        set: nem
   Nemesis Theme Deck Eruption:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100910'
       cardKingdomId: '1165'
@@ -73,9 +120,14 @@ products:
       mcmId: '253754'
       tcgplayerProductId: '116043'
       tntId: '106959'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Eruption
+        set: nem
   Nemesis Theme Deck Mercenaries:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100911'
       cardKingdomId: '1166'
@@ -85,9 +137,14 @@ products:
       mcmId: '253755'
       tcgplayerProductId: '116044'
       tntId: '106941'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Mercenaries
+        set: nem
   Nemesis Theme Deck Replicator:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100913'
       cardKingdomId: '1167'
@@ -97,9 +154,27 @@ products:
       mcmId: '253756'
       tcgplayerProductId: '116045'
       tntId: '106924'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Replicator
+        set: nem
   Nemesis Theme Decks Set of 4:
     category: SUBSET
+    subtype: THEME
     identifiers:
       abuId: '1107961'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Nemesis Theme Deck Breakdown
+        set: nem
+      - count: 1
+        name: Nemesis Theme Deck Eruption
+        set: nem
+      - count: 1
+        name: Nemesis Theme Deck Mercenaries
+        set: nem
+      - count: 1
+        name: Nemesis Theme Deck Replicator
+        set: nem

@@ -2,6 +2,8 @@ code: rvr
 products:
   Ravnica Remastered Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2024-01-12'
     identifiers:
       abuId: '2442861'
       cardKingdomId: '288174'
@@ -12,16 +14,26 @@ products:
       scgId: SLD-MTG-BBX-RVRCOLLECTOR-EN
       tcgplayerProductId: '517708'
       tntId: '1797206'
-    release_date: '2024-01-12'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Ravnica Remastered Collector Booster Pack
+        set: rvr
   Ravnica Remastered Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
+    release_date: '2024-01-12'
     identifiers:
       tcgplayerProductId: '517710'
-    release_date: '2024-01-12'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Ravnica Remastered Collector Booster Box
+        set: rvr
   Ravnica Remastered Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2024-01-12'
     identifiers:
       abuId: '2689092'
       cardKingdomId: '288177'
@@ -32,10 +44,15 @@ products:
       scgId: SLD-MTG-PCK-RVRCOLLECTOR-EN
       tcgplayerProductId: '517707'
       tntId: '1797207'
-    release_date: '2024-01-12'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: rvr
   Ravnica Remastered Draft Booster Box:
     category: BOOSTER_BOX
+    subtype: DEFAULT
+    release_date: '2024-01-12'
     identifiers:
       abuId: '2442860'
       cardKingdomId: '288173'
@@ -46,17 +63,27 @@ products:
       scgId: SLD-MTG-BBX-RVRDRAFT-EN
       tcgplayerProductId: '517705'
       tntId: '1797204'
-    release_date: '2024-01-12'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 36
+        name: Ravnica Remastered Draft Booster Pack
+        set: rvr
   Ravnica Remastered Draft Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DEFAULT
+    release_date: '2024-01-12'
     identifiers:
       scgId: SLD-MTG-BBX-RVRDRAFTCASE-EN
       tcgplayerProductId: '517706'
-    release_date: '2024-01-12'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 6
+        name: Ravnica Remastered Draft Booster Box
+        set: rvr
   Ravnica Remastered Draft Booster Pack:
     category: BOOSTER_PACK
+    subtype: DEFAULT
+    release_date: '2024-01-12'
     identifiers:
       abuId: '2689093'
       cardKingdomId: '288176'
@@ -67,5 +94,8 @@ products:
       scgId: SLD-MTG-PCK-RVRDRAFT-EN
       tcgplayerProductId: '517704'
       tntId: '1797205'
-    release_date: '2024-01-12'
-    subtype: DEFAULT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: rvr

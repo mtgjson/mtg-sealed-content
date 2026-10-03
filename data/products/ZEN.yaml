@@ -2,11 +2,17 @@ code: zen
 products:
   Zendikar 3 Booster Draft Pack:
     category: LIMITED
+    subtype: DRAFT_SET
     identifiers:
       tcgplayerProductId: '32792'
-    subtype: DRAFT_SET
+    contents:
+      sealed:
+      - count: 3
+        name: Zendikar Booster Pack
+        set: zen
   Zendikar Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1107782'
       cardKingdomId: '127769'
@@ -17,15 +23,25 @@ products:
       scgId: SLD-MTG-BBX-ZEN-EN
       tcgplayerProductId: '32789'
       tntId: '248563'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Zendikar Booster Pack
+        set: zen
   Zendikar Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
     identifiers:
       hareruyaId: '89100'
       tcgplayerProductId: '32790'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Zendikar Booster Box
+        set: zen
   Zendikar Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476967'
       cardKingdomId: '127851'
@@ -36,9 +52,14 @@ products:
       scgId: SLD-MTG-PCK-ZEN-EN
       tcgplayerProductId: '32791'
       tntId: '248564'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: zen
   Zendikar Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1107783'
       cardKingdomId: '127776'
@@ -49,9 +70,21 @@ products:
       scgId: SLD-MTG-BUN-ZEN-EN
       tcgplayerProductId: '32793'
       tntId: '248565'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Zendikar Fat Pack Land Pack
+        set: zen
+      other:
+      - name: Zendikar life counter
+      - name: Player's Guide
+      - name: 2 Collectible Boxes
+      sealed:
+      - count: 8
+        name: Zendikar Booster Pack
+        set: zen
   Zendikar Intro Pack Black Rise of the Vampires:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100212'
       cardKingdomId: '127773'
@@ -60,9 +93,18 @@ products:
       scgId: SLD-MTG-INT-ZENINTRO-EN-RISE
       tcgplayerProductId: '32796'
       tntId: '279890'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Rise of the Vampires
+        set: zen
+      sealed:
+      - count: 1
+        name: Zendikar Booster Pack
+        set: zen
   Zendikar Intro Pack Blue Unstable Terrain:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100213'
       cardKingdomId: '127775'
@@ -71,16 +113,42 @@ products:
       scgId: SLD-MTG-INT-ZENINTRO-EN-UNSTABLE
       tcgplayerProductId: '32795'
       tntId: '279892'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Unstable Terrain
+        set: zen
+      sealed:
+      - count: 1
+        name: Zendikar Booster Pack
+        set: zen
   Zendikar Intro Pack Display:
     category: DECK_BOX
+    subtype: INTRO
     identifiers:
       cardtraderId: '47436'
       mcmId: '210151'
       tntId: '281360'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 2
+        name: Zendikar Intro Pack Black Rise of the Vampires
+        set: zen
+      - count: 2
+        name: Zendikar Intro Pack Blue Unstable Terrain
+        set: zen
+      - count: 2
+        name: Zendikar Intro Pack Green The Adventurers
+        set: zen
+      - count: 2
+        name: Zendikar Intro Pack Red Pumped Up
+        set: zen
+      - count: 2
+        name: Zendikar Intro Pack White Kor Armory
+        set: zen
   Zendikar Intro Pack Green The Adventurers:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100214'
       cardKingdomId: '127774'
@@ -89,9 +157,18 @@ products:
       scgId: SLD-MTG-INT-ZENINTRO-EN-ADVENTURERS
       tcgplayerProductId: '32798'
       tntId: '279891'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: The Adventurers
+        set: zen
+      sealed:
+      - count: 1
+        name: Zendikar Booster Pack
+        set: zen
   Zendikar Intro Pack Red Pumped Up:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1107786'
       cardKingdomId: '127772'
@@ -100,9 +177,18 @@ products:
       scgId: SLD-MTG-INT-ZENINTRO-EN-PUMPED
       tcgplayerProductId: '32797'
       tntId: '279889'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Pumped Up
+        set: zen
+      sealed:
+      - count: 1
+        name: Zendikar Booster Pack
+        set: zen
   Zendikar Intro Pack White Kor Armory:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1107785'
       cardKingdomId: '127771'
@@ -111,27 +197,67 @@ products:
       scgId: SLD-MTG-INT-ZENINTRO-EN-KOR
       tcgplayerProductId: '32794'
       tntId: '279888'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Kor Armory
+        set: zen
+      sealed:
+      - count: 1
+        name: Zendikar Booster Pack
+        set: zen
   Zendikar Intro Packs Set of 5:
     category: SUBSET
+    subtype: INTRO
     identifiers:
       scgId: SLD-MTG-INT-ZENINTRO-EN-SET5
       tcgplayerProductId: '32799'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 1
+        name: Zendikar Intro Pack Black Rise of the Vampires
+        set: zen
+      - count: 1
+        name: Zendikar Intro Pack Blue Unstable Terrain
+        set: zen
+      - count: 1
+        name: Zendikar Intro Pack Green The Adventurers
+        set: zen
+      - count: 1
+        name: Zendikar Intro Pack Red Pumped Up
+        set: zen
+      - count: 1
+        name: Zendikar Intro Pack White Kor Armory
+        set: zen
   Zendikar MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '223902'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 249
+      deck:
+      - name: Zendikar Redemption
+        set: zen
   Zendikar MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241655'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 249
+      deck:
+      - name: Zendikar Foil Redemption
+        set: zen
   Zendikar Six Card Booster Pack:
     category: BOOSTER_PACK
+    subtype: SIX
+    release_date: '2018-01-16'
     identifiers:
       cardtraderId: '47421'
       mcmId: '315702'
-    release_date: '2018-01-16'
-    subtype: SIX
+    contents:
+      card_count: 6
+      pack:
+      - code: six
+        set: zen

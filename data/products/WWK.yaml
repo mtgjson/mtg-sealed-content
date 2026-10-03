@@ -2,6 +2,7 @@ code: wwk
 products:
   Worldwake Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1107790'
       cardKingdomId: '129934'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-WWK-EN
       tcgplayerProductId: '34468'
       tntId: '287098'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Worldwake Booster Pack
+        set: wwk
   Worldwake Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Worldwake Booster Box
+        set: wwk
   Worldwake Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476966'
       cardKingdomId: '129938'
@@ -29,9 +40,14 @@ products:
       scgId: SLD-MTG-PCK-WWK-EN
       tcgplayerProductId: '34469'
       tntId: '287099'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: wwk
   Worldwake Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1100202'
       cardKingdomId: '129939'
@@ -42,9 +58,23 @@ products:
       scgId: SLD-MTG-BUN-WWK-EN
       tcgplayerProductId: '78334'
       tntId: '287100'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Zendikar Fat Pack Land Pack
+        set: zen
+      other:
+      - name: One card box with panoramic art
+      - name: The Worldwake Player's Guide
+      - name: A learn-to-play insert
+      - name: An excerpt from In the Teeth of Akoum
+      - name: An exclusive Worldwake Spindown Life Counter
+      sealed:
+      - count: 8
+        name: Worldwake Booster Pack
+        set: wwk
   Worldwake Intro Pack Brute Force:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1107781'
       cardKingdomId: '129941'
@@ -53,16 +83,42 @@ products:
       scgId: SLD-MTG-INT-WWKINTRO-EN-BRUTE
       tcgplayerProductId: '196799'
       tntId: '287101'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Brute Force
+        set: wwk
+      sealed:
+      - count: 1
+        name: Worldwake Booster Pack
+        set: wwk
   Worldwake Intro Pack Display:
     category: DECK_BOX
+    subtype: INTRO
     identifiers:
       cardtraderId: '47461'
       mcmId: '210197'
       tntId: '287106'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 2
+        name: Worldwake Intro Pack Brute Force
+        set: wwk
+      - count: 2
+        name: Worldwake Intro Pack Fangs of the Bloodchief
+        set: wwk
+      - count: 2
+        name: Worldwake Intro Pack Flyover
+        set: wwk
+      - count: 2
+        name: Worldwake Intro Pack Mysterious Realms
+        set: wwk
+      - count: 2
+        name: Worldwake Intro Pack Rapid Fire
+        set: wwk
   Worldwake Intro Pack Fangs of the Bloodchief:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100217'
       cardKingdomId: '129943'
@@ -71,9 +127,18 @@ products:
       scgId: SLD-MTG-INT-WWKINTRO-EN-FANGS
       tcgplayerProductId: '196798'
       tntId: '287103'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Fangs of the Bloodchief
+        set: wwk
+      sealed:
+      - count: 1
+        name: Worldwake Booster Pack
+        set: wwk
   Worldwake Intro Pack Flyover:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1107791'
       cardKingdomId: '129945'
@@ -82,9 +147,18 @@ products:
       scgId: SLD-MTG-INT-WWKINTRO-EN-FLYOVER
       tcgplayerProductId: '196796'
       tntId: '287105'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Flyover
+        set: wwk
+      sealed:
+      - count: 1
+        name: Worldwake Booster Pack
+        set: wwk
   Worldwake Intro Pack Mysterious Realms:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1107792'
       cardKingdomId: '129944'
@@ -93,9 +167,18 @@ products:
       scgId: SLD-MTG-INT-WWKINTRO-EN-MYSTERIOUS
       tcgplayerProductId: '196800'
       tntId: '287104'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Mysterious Realms
+        set: wwk
+      sealed:
+      - count: 1
+        name: Worldwake Booster Pack
+        set: wwk
   Worldwake Intro Pack Rapid Fire:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100221'
       cardKingdomId: '129942'
@@ -104,25 +187,65 @@ products:
       scgId: SLD-MTG-INT-WWKINTRO-EN-RAPID
       tcgplayerProductId: '196797'
       tntId: '287102'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Rapid Fire
+        set: wwk
+      sealed:
+      - count: 1
+        name: Worldwake Booster Pack
+        set: wwk
   Worldwake Intro Packs Set of 5:
     category: SUBSET
+    subtype: INTRO
     identifiers:
       scgId: SLD-MTG-INT-WWKINTRO-EN-SET5
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 1
+        name: Worldwake Intro Pack Brute Force
+        set: wwk
+      - count: 1
+        name: Worldwake Intro Pack Fangs of the Bloodchief
+        set: wwk
+      - count: 1
+        name: Worldwake Intro Pack Flyover
+        set: wwk
+      - count: 1
+        name: Worldwake Intro Pack Mysterious Realms
+        set: wwk
+      - count: 1
+        name: Worldwake Intro Pack Rapid Fire
+        set: wwk
   Worldwake MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241657'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 145
+      deck:
+      - name: Worldwake Redemption
+        set: wwk
   Worldwake MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241656'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 145
+      deck:
+      - name: Worldwake Foil Redemption
+        set: wwk
   Worldwake Six Card Booster Pack:
     category: BOOSTER_PACK
+    subtype: SIX
     identifiers:
       cardtraderId: '47447'
       mcmId: '315703'
-    subtype: SIX
+    contents:
+      card_count: 6
+      pack:
+      - code: six
+        set: wwk

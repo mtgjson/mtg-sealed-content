@@ -2,6 +2,8 @@ code: m15
 products:
   2015 Core Set Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2014-07-18'
     identifiers:
       abuId: '1100814'
       cardKingdomId: '194903'
@@ -12,15 +14,25 @@ products:
       scgId: SLD-MTG-BBX-M15-EN
       tcgplayerProductId: '90786'
       tntId: '1052089'
-    release_date: '2014-07-18'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: 2015 Core Set Booster Pack
+        set: m15
   2015 Core Set Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '90787'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: 2015 Core Set Booster Box
+        set: m15
   2015 Core Set Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2014-07-18'
     identifiers:
       abuId: '1476901'
       cardKingdomId: '194904'
@@ -31,10 +43,14 @@ products:
       scgId: SLD-MTG-PCK-M15-EN
       tcgplayerProductId: '90785'
       tntId: '1052090'
-    release_date: '2014-07-18'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: m15
   2015 Core Set Clash Pack:
     category: MULTI_DECK
+    subtype: CLASH
     identifiers:
       abuId: '1100823'
       cardKingdomId: '195224'
@@ -43,9 +59,16 @@ products:
       scgId: SLD-MTG-INT-M15CLASH-EN-FATE
       tcgplayerProductId: '90793'
       tntId: '1057421'
-    subtype: CLASH
+    contents:
+      card_count: 120
+      deck:
+      - name: Fate
+        set: m15
+      - name: Fury
+        set: m15
   2015 Core Set Deck Builders Toolkit:
     category: KIT
+    subtype: DECK_BUILDERS_TOOLKIT
     identifiers:
       abuId: '1100377'
       cardKingdomId: '195218'
@@ -54,9 +77,69 @@ products:
       scgId: SLD-MTG-INT-M15TOOLKIT-EN
       tcgplayerProductId: '90791'
       tntId: '1057422'
-    subtype: DECK_BUILDERS_TOOLKIT
+    contents:
+      card_count: 225
+      deck:
+      - name: Fixed Content
+        set: m15
+      other:
+      - name: 2015 Deck Builder's Guide
+      - name: Magic "Learn to Play" Guide
+      - name: Full-art Reusable Storage Box
+      sealed:
+      - count: 1
+        name: Theros Booster Pack
+        set: ths
+      - count: 1
+        name: Journey Into Nyx Booster Pack
+        set: jou
+      - count: 1
+        name: Dragons Maze Booster Pack
+        set: dgm
+      - count: 1
+        name: 2015 Core Set Booster Pack
+        set: m15
+      variable:
+      - deck:
+        - name: Black Devotion
+          set: m15
+      - deck:
+        - name: Black Green Graveyard
+          set: m15
+      - deck:
+        - name: Black Red Minotaurs
+          set: m15
+      - deck:
+        - name: Green White Convoke
+          set: m15
+      - deck:
+        - name: Red Green Monstrosity
+          set: m15
+      - deck:
+        - name: Red White Auras
+          set: m15
+      - deck:
+        - name: White Black Life Gain
+          set: m15
+      - deck:
+        - name: White Blue Bestow
+          set: m15
+      - deck:
+        - name: Blue Green Enters the Battlefield
+          set: m15
+      - deck:
+        - name: Blue Red Artifacts
+          set: m15
+      - deck:
+        - name: Blue Red Counterburn
+          set: m15
+      variable_mode:
+        count: 4
+        replacement: false
   2015 Core Set Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
+    release_date: '2014-07-18'
     identifiers:
       abuId: '1100827'
       cardKingdomId: '194905'
@@ -67,17 +150,45 @@ products:
       scgId: SLD-MTG-BUN-M15-EN
       tcgplayerProductId: '90790'
       tntId: '1056446'
-    release_date: '2014-07-18'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Magic 2015 Fat Pack Land Pack
+        set: m15
+      other:
+      - name: M15 Player's Guide and Visual Encyclopedia
+      - name: Special Edition Life Counter
+      - name: Two Deck Boxes
+      sealed:
+      - count: 9
+        name: 2015 Core Set Booster Pack
+        set: m15
   2015 Core Set Intro Pack Display:
     category: DECK_BOX
+    subtype: INTRO
     identifiers:
       cardtraderId: '48165'
       mcmId: '267975'
       tcgplayerProductId: '90788'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 2
+        name: 2015 Core Set Intro Pack Flames of the Dragon
+        set: m15
+      - count: 2
+        name: 2015 Core Set Intro Pack Hit the Ground Running
+        set: m15
+      - count: 2
+        name: 2015 Core Set Intro Pack Infernal Intervention
+        set: m15
+      - count: 2
+        name: 2015 Core Set Intro Pack Price of Glory
+        set: m15
+      - count: 2
+        name: 2015 Core Set Intro Pack Will of the Masses
+        set: m15
   2015 Core Set Intro Pack Flames of the Dragon:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100825'
       cardKingdomId: '195222'
@@ -87,9 +198,21 @@ products:
       scgId: SLD-MTG-INT-M15INTRO-EN-FLAMES
       tcgplayerProductId: '91077'
       tntId: '1057457'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Flames Of The Dragon
+        set: m15
+      other:
+      - name: Strategy and Mechanics Guide
+      - name: Learn to Play Insert
+      sealed:
+      - count: 2
+        name: 2015 Core Set Booster Pack
+        set: m15
   2015 Core Set Intro Pack Hit the Ground Running:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100829'
       cardKingdomId: '195220'
@@ -99,9 +222,21 @@ products:
       scgId: SLD-MTG-INT-M15INTRO-EN-HIT
       tcgplayerProductId: '91075'
       tntId: '1057455'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Hit The Ground Running
+        set: m15
+      other:
+      - name: Strategy and Mechanics Guide
+      - name: Learn to Play Insert
+      sealed:
+      - count: 2
+        name: 2015 Core Set Booster Pack
+        set: m15
   2015 Core Set Intro Pack Infernal Intervention:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100831'
       cardKingdomId: '195219'
@@ -110,9 +245,21 @@ products:
       scgId: SLD-MTG-INT-M15INTRO-EN-INFERNAL
       tcgplayerProductId: '91076'
       tntId: '1057456'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Infernal Intervention
+        set: m15
+      other:
+      - name: Strategy and Mechanics Guide
+      - name: Learn to Play Insert
+      sealed:
+      - count: 2
+        name: 2015 Core Set Booster Pack
+        set: m15
   2015 Core Set Intro Pack Price of Glory:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100833'
       cardKingdomId: '195223'
@@ -121,18 +268,47 @@ products:
       scgId: SLD-MTG-INT-M15INTRO-EN-PRICE
       tcgplayerProductId: '91074'
       tntId: '1057454'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Price Of Glory
+        set: m15
+      other:
+      - name: Strategy and Mechanics Guide
+      - name: Learn to Play Insert
+      sealed:
+      - count: 2
+        name: 2015 Core Set Booster Pack
+        set: m15
   2015 Core Set Intro Pack Set of 5:
     category: SUBSET
+    subtype: INTRO
     identifiers:
       abuId: '1100838'
       cardtraderId: '48166'
       mcmId: '267974'
       tcgplayerProductId: '90789'
       tntId: '237702'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 1
+        name: 2015 Core Set Intro Pack Flames of the Dragon
+        set: m15
+      - count: 1
+        name: 2015 Core Set Intro Pack Hit the Ground Running
+        set: m15
+      - count: 1
+        name: 2015 Core Set Intro Pack Infernal Intervention
+        set: m15
+      - count: 1
+        name: 2015 Core Set Intro Pack Price of Glory
+        set: m15
+      - count: 1
+        name: 2015 Core Set Intro Pack Will of the Masses
+        set: m15
   2015 Core Set Intro Pack Will of the Masses:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100835'
       cardKingdomId: '195221'
@@ -141,19 +317,41 @@ products:
       scgId: SLD-MTG-INT-M15INTRO-EN-WILL
       tcgplayerProductId: '91078'
       tntId: '1057453'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Will Of The Masses
+        set: m15
+      other:
+      - name: Strategy and Mechanics Guide
+      - name: Learn to Play Insert
+      sealed:
+      - count: 2
+        name: 2015 Core Set Booster Pack
+        set: m15
   2015 Core Set MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210889'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 269
+      deck:
+      - name: Magic 2015 Redemption
+        set: m15
   2015 Core Set MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210863'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 269
+      deck:
+      - name: Magic 2015 Foil Redemption
+        set: m15
   2015 Core Set Prerelease Hunt with Ambition:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '1100836'
       cardKingdomId: '223905'
@@ -161,9 +359,36 @@ products:
       mcmId: '268625'
       tcgplayerProductId: '92490'
       tntId: '1660298'
-    subtype: PRERELEASE
+    contents:
+      card:
+      - name: Garruk the Slayer
+        number: '1'
+        set: ppc1
+      - name: Wolf
+        number: T1
+        set: ppc1
+        token: true
+      - name: Wolf
+        number: T1
+        set: ppc1
+        token: true
+      - name: Wolf
+        number: T1
+        set: ppc1
+        token: true
+      card_count: 15
+      other:
+      - name: Spindown die
+      pack:
+      - code: prerelease-ambition
+        set: m15
+      sealed:
+      - count: 5
+        name: 2015 Core Set Booster Pack
+        set: m15
   2015 Core Set Prerelease Hunt with Ferocity:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '1100840'
       cardKingdomId: '223906'
@@ -171,9 +396,36 @@ products:
       mcmId: '268628'
       tcgplayerProductId: '92493'
       tntId: '1660299'
-    subtype: PRERELEASE
+    contents:
+      card:
+      - name: Garruk the Slayer
+        number: '1'
+        set: ppc1
+      - name: Wolf
+        number: T1
+        set: ppc1
+        token: true
+      - name: Wolf
+        number: T1
+        set: ppc1
+        token: true
+      - name: Wolf
+        number: T1
+        set: ppc1
+        token: true
+      card_count: 15
+      other:
+      - name: Spindown die
+      pack:
+      - code: prerelease-ferocity
+        set: m15
+      sealed:
+      - count: 5
+        name: 2015 Core Set Booster Pack
+        set: m15
   2015 Core Set Prerelease Hunt with Guile:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '1100841'
       cardKingdomId: '196506'
@@ -181,9 +433,36 @@ products:
       mcmId: '268626'
       tcgplayerProductId: '92491'
       tntId: '1660300'
-    subtype: PRERELEASE
+    contents:
+      card:
+      - name: Garruk the Slayer
+        number: '1'
+        set: ppc1
+      - name: Wolf
+        number: T1
+        set: ppc1
+        token: true
+      - name: Wolf
+        number: T1
+        set: ppc1
+        token: true
+      - name: Wolf
+        number: T1
+        set: ppc1
+        token: true
+      card_count: 15
+      other:
+      - name: Spindown die
+      pack:
+      - code: prerelease-guile
+        set: m15
+      sealed:
+      - count: 5
+        name: 2015 Core Set Booster Pack
+        set: m15
   2015 Core Set Prerelease Hunt with Strength:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '1100842'
       cardKingdomId: '223907'
@@ -191,9 +470,36 @@ products:
       mcmId: '268627'
       tcgplayerProductId: '92492'
       tntId: '1660301'
-    subtype: PRERELEASE
+    contents:
+      card:
+      - name: Garruk the Slayer
+        number: '1'
+        set: ppc1
+      - name: Wolf
+        number: T1
+        set: ppc1
+        token: true
+      - name: Wolf
+        number: T1
+        set: ppc1
+        token: true
+      - name: Wolf
+        number: T1
+        set: ppc1
+        token: true
+      card_count: 15
+      other:
+      - name: Spindown die
+      pack:
+      - code: prerelease-strength
+        set: m15
+      sealed:
+      - count: 5
+        name: 2015 Core Set Booster Pack
+        set: m15
   2015 Core Set Prerelease Hunt with Valor:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '1100843'
       cardKingdomId: '223904'
@@ -201,47 +507,115 @@ products:
       mcmId: '268629'
       tcgplayerProductId: '92494'
       tntId: '1660302'
-    subtype: PRERELEASE
+    contents:
+      card:
+      - name: Garruk the Slayer
+        number: '1'
+        set: ppc1
+      - name: Wolf
+        number: T1
+        set: ppc1
+        token: true
+      - name: Wolf
+        number: T1
+        set: ppc1
+        token: true
+      - name: Wolf
+        number: T1
+        set: ppc1
+        token: true
+      card_count: 15
+      other:
+      - name: Spindown die
+      pack:
+      - code: prerelease-valor
+        set: m15
+      sealed:
+      - count: 5
+        name: 2015 Core Set Booster Pack
+        set: m15
   2015 Core Set Prerelease Pack Set of 5:
     category: SUBSET
+    subtype: PRERELEASE
+    release_date: '2015-03-02'
     identifiers:
       cardtraderId: '48167'
       mcmId: '273052'
       tcgplayerProductId: '199941'
-    release_date: '2015-03-02'
-    subtype: PRERELEASE
+    contents:
+      sealed:
+      - count: 1
+        name: 2015 Core Set Prerelease Hunt with Ambition
+        set: m15
+      - count: 1
+        name: 2015 Core Set Prerelease Hunt with Ferocity
+        set: m15
+      - count: 1
+        name: 2015 Core Set Prerelease Hunt with Guile
+        set: m15
+      - count: 1
+        name: 2015 Core Set Prerelease Hunt with Strength
+        set: m15
+      - count: 1
+        name: 2015 Core Set Prerelease Hunt with Valor
+        set: m15
   2015 Core Set Sample Deck Ajani Goldmane:
     category: DECK
+    subtype: STARTER
+    release_date: '2014-07-18'
     identifiers:
       cardtraderId: '48154'
       mcmId: '267925'
-    release_date: '2014-07-18'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      deck:
+      - name: White Sample Deck
+        set: m15
   2015 Core Set Sample Deck Chandra Nalaar:
     category: DECK
+    subtype: STARTER
+    release_date: '2014-07-18'
     identifiers:
       cardtraderId: '48155'
       mcmId: '267922'
-    release_date: '2014-07-18'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      deck:
+      - name: Red Sample Deck
+        set: m15
   2015 Core Set Sample Deck Jace Beleren:
     category: DECK
+    subtype: STARTER
+    release_date: '2014-07-18'
     identifiers:
       cardtraderId: '48156'
       mcmId: '267924'
-    release_date: '2014-07-18'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      deck:
+      - name: Blue Sample Deck
+        set: m15
   2015 Core Set Sample Deck Liliana Vess:
     category: DECK
+    subtype: STARTER
+    release_date: '2014-07-18'
     identifiers:
       cardtraderId: '48157'
       mcmId: '267923'
-    release_date: '2014-07-18'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      deck:
+      - name: Black Sample Deck
+        set: m15
   2015 Core Set Sample Deck Nissa Revane:
     category: DECK
+    subtype: STARTER
+    release_date: '2014-07-18'
     identifiers:
       cardtraderId: '48158'
       mcmId: '267921'
-    release_date: '2014-07-18'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      deck:
+      - name: Green Sample Deck
+        set: m15

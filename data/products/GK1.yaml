@@ -2,6 +2,8 @@ code: gk1
 products:
   Guilds of Ravnica Guild Kit Boros:
     category: KIT
+    subtype: GUILD_KIT
+    release_date: '2018-11-02'
     identifiers:
       abuId: '1537069'
       cardKingdomId: '222341'
@@ -11,10 +13,20 @@ products:
       scgId: SLD-MTG-BXS-GK1-EN-BOROS
       tcgplayerProductId: '173366'
       tntId: '1194089'
-    release_date: '2018-11-02'
-    subtype: GUILD_KIT
+    contents:
+      card_count: 60
+      deck:
+      - name: Boros
+        set: gk1
+      other:
+      - name: Guild Kit Spindown
+      - name: Official Boros Guild Pin
+      - name: Boros Symbol Sticker
+      - name: Insert With Mission Instructions
   Guilds of Ravnica Guild Kit Dimir:
     category: KIT
+    subtype: GUILD_KIT
+    release_date: '2018-11-02'
     identifiers:
       abuId: '1537070'
       cardKingdomId: '222338'
@@ -24,10 +36,20 @@ products:
       scgId: SLD-MTG-BXS-GK1-EN-DIMIR
       tcgplayerProductId: '173367'
       tntId: '1194098'
-    release_date: '2018-11-02'
-    subtype: GUILD_KIT
+    contents:
+      card_count: 60
+      deck:
+      - name: Dimir
+        set: gk1
+      other:
+      - name: Guild Kit Spindown
+      - name: Official Dimir Guild Pin
+      - name: Dimir Symbol Sticker
+      - name: Insert With Mission Instructions
   Guilds of Ravnica Guild Kit Golgari:
     category: KIT
+    subtype: GUILD_KIT
+    release_date: '2018-11-02'
     identifiers:
       abuId: '1537071'
       cardKingdomId: '222340'
@@ -37,10 +59,20 @@ products:
       scgId: SLD-MTG-BXS-GK1-EN-GOLGARI
       tcgplayerProductId: '173368'
       tntId: '1194092'
-    release_date: '2018-11-02'
-    subtype: GUILD_KIT
+    contents:
+      card_count: 60
+      deck:
+      - name: Golgari
+        set: gk1
+      other:
+      - name: Guild Kit Spindown
+      - name: Official Golgari Guild Pin
+      - name: Golgari Symbol Sticker
+      - name: Insert With Mission Instructions
   Guilds of Ravnica Guild Kit Izzet:
     category: KIT
+    subtype: GUILD_KIT
+    release_date: '2018-11-02'
     identifiers:
       abuId: '1537292'
       cardKingdomId: '222339'
@@ -50,10 +82,20 @@ products:
       scgId: SLD-MTG-BXS-GK1-EN-IZZET
       tcgplayerProductId: '173369'
       tntId: '1194095'
-    release_date: '2018-11-02'
-    subtype: GUILD_KIT
+    contents:
+      card_count: 60
+      deck:
+      - name: Izzet
+        set: gk1
+      other:
+      - name: Guild Kit Spindown
+      - name: Official Izzet Guild Pin
+      - name: Izzet Symbol Sticker
+      - name: Insert With Mission Instructions
   Guilds of Ravnica Guild Kit Selesnya:
     category: KIT
+    subtype: GUILD_KIT
+    release_date: '2018-11-02'
     identifiers:
       abuId: '1537072'
       cardKingdomId: '222342'
@@ -63,10 +105,20 @@ products:
       scgId: SLD-MTG-BXS-GK1-EN-SELESNYA
       tcgplayerProductId: '173370'
       tntId: '1194086'
-    release_date: '2018-11-02'
-    subtype: GUILD_KIT
+    contents:
+      card_count: 60
+      deck:
+      - name: Selesnya
+        set: gk1
+      other:
+      - name: Guild Kit Spindown
+      - name: Official Selesnya Guild Pin
+      - name: Selesnya Symbol Sticker
+      - name: Insert With Mission Instructions
   Guilds of Ravnica Guild Kits Set of 5:
     category: SUBSET
+    subtype: GUILD_KIT
+    release_date: '2018-11-02'
     identifiers:
       abuId: '1537073'
       cardKingdomId: '222343'
@@ -76,5 +128,20 @@ products:
       scgId: SLD-MTG-BXS-GK1-EN-SET5
       tcgplayerProductId: '176683'
       tntId: '1359392'
-    release_date: '2018-11-02'
-    subtype: GUILD_KIT
+    contents:
+      sealed:
+      - count: 1
+        name: Guilds of Ravnica Guild Kit Boros
+        set: gk1
+      - count: 1
+        name: Guilds of Ravnica Guild Kit Dimir
+        set: gk1
+      - count: 1
+        name: Guilds of Ravnica Guild Kit Golgari
+        set: gk1
+      - count: 1
+        name: Guilds of Ravnica Guild Kit Izzet
+        set: gk1
+      - count: 1
+        name: Guilds of Ravnica Guild Kit Selesnya
+        set: gk1

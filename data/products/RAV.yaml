@@ -2,6 +2,7 @@ code: rav
 products:
   Ravnica Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1101052'
       cardKingdomId: '118354'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-RAV-EN
       tcgplayerProductId: '27302'
       tntId: '128863'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Ravnica Booster Pack
+        set: rav
   Ravnica Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Ravnica Booster Box
+        set: rav
   Ravnica Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476933'
       cardKingdomId: '118355'
@@ -29,19 +40,34 @@ products:
       scgId: SLD-MTG-PCK-RAV-EN
       tcgplayerProductId: '27364'
       tntId: '128853'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: rav
   Ravnica City of Guilds MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241633'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 306
+      deck:
+      - name: 'Ravnica: City of Guilds Redemption'
+        set: rav
   Ravnica City of Guilds MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241632'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 306
+      deck:
+      - name: 'Ravnica: City of Guilds Foil Redemption'
+        set: rav
   Ravnica Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1101053'
       cardKingdomId: '122337'
@@ -52,9 +78,23 @@ products:
       scgId: SLD-MTG-BUN-RAV-EN
       tcgplayerProductId: '78295'
       tntId: '155295'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Ravnica Fat Pack Land Pack
+        set: rav
+      other:
+      - name: 2 Card Storage Boxes
+      - name: One random Pro Tour Player Card
+      - name: The Ravnica City of Guilds novel
+      - name: Six color-coded plastic card dividers
+      - name: Ravnica Life Counter
+      sealed:
+      - count: 6
+        name: Ravnica Booster Pack
+        set: rav
   Ravnica Theme Deck Charge of the Boros:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101059'
       cardKingdomId: '118942'
@@ -64,9 +104,16 @@ products:
       scgId: SLD-MTG-INT-RAVTHEME-FR-BOROS
       tcgplayerProductId: '96335'
       tntId: '128857'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Charge of the Boros
+        set: rav
+      other:
+      - name: One random Pro Tour Player Card
   Ravnica Theme Deck Dimir Intrigues:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101060'
       cardKingdomId: '118941'
@@ -76,16 +123,37 @@ products:
       scgId: SLD-MTG-INT-RAVTHEME-FR-DIMIR
       tcgplayerProductId: '96336'
       tntId: '128856'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Dimir Intrigues
+        set: rav
+      other:
+      - name: One random Pro Tour Player Card
   Ravnica Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       abuId: '1101065'
       cardtraderId: '47065'
       mcmId: '210220'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 3
+        name: Ravnica Theme Deck Charge of the Boros
+        set: rav
+      - count: 3
+        name: Ravnica Theme Deck Dimir Intrigues
+        set: rav
+      - count: 3
+        name: Ravnica Theme Deck Golgari Deathcreep
+        set: rav
+      - count: 3
+        name: Ravnica Theme Deck Selesnya United
+        set: rav
   Ravnica Theme Deck Golgari Deathcreep:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101061'
       cardKingdomId: '118940'
@@ -95,9 +163,16 @@ products:
       scgId: SLD-MTG-INT-RAVTHEME-FR-GOLGARI
       tcgplayerProductId: '96337'
       tntId: '128855'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Golgari Deathcreep
+        set: rav
+      other:
+      - name: One random Pro Tour Player Card
   Ravnica Theme Deck Selesnya United:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101063'
       cardKingdomId: '118943'
@@ -107,15 +182,36 @@ products:
       scgId: SLD-MTG-INT-RAVTHEME-FR-SELESNYA
       tcgplayerProductId: '96339'
       tntId: '128858'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Selesnya United
+        set: rav
+      other:
+      - name: One random Pro Tour Player Card
   Ravnica Theme Decks Set of 4:
     category: SUBSET
+    subtype: THEME
     identifiers:
       abuId: '1101064'
       tcgplayerProductId: '625989'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Ravnica Theme Deck Charge of the Boros
+        set: rav
+      - count: 1
+        name: Ravnica Theme Deck Dimir Intrigues
+        set: rav
+      - count: 1
+        name: Ravnica Theme Deck Golgari Deathcreep
+        set: rav
+      - count: 1
+        name: Ravnica Theme Deck Selesnya United
+        set: rav
   Ravnica Tournament Pack:
     category: LIMITED
+    subtype: TOURNAMENT
     identifiers:
       abuId: '1101058'
       cardKingdomId: '118356'
@@ -125,9 +221,16 @@ products:
       scgId: SLD-MTG-PCK-RAVTOURNAMENT-EN
       tcgplayerProductId: '118876'
       tntId: '128860'
-    subtype: TOURNAMENT
+    contents:
+      card_count: 75
+      other:
+      - name: One random Pro Tour Player Card
+      pack:
+      - code: tournament
+        set: rav
   Ravnica Tournament Pack Display:
     category: LIMITED_CASE
+    subtype: TOURNAMENT
     identifiers:
       abuId: '1101055'
       cardKingdomId: '240194'
@@ -137,4 +240,8 @@ products:
       scgId: SLD-MTG-BBX-RAVTOURNAMENT-EN
       tcgplayerProductId: '265603'
       tntId: '128859'
-    subtype: TOURNAMENT
+    contents:
+      sealed:
+      - count: 12
+        name: Ravnica Tournament Pack
+        set: rav

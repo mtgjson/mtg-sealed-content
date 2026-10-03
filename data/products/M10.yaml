@@ -2,11 +2,17 @@ code: m10
 products:
   2010 Core Set 3 Booster Draft Pack:
     category: LIMITED
+    subtype: DRAFT_SET
     identifiers:
       tcgplayerProductId: '32531'
-    subtype: DRAFT_SET
+    contents:
+      sealed:
+      - count: 3
+        name: 2010 Core Set Booster Pack
+        set: m10
   2010 Core Set Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1107901'
       cardKingdomId: '127041'
@@ -17,14 +23,24 @@ products:
       scgId: SLD-MTG-BBX-M10-EN
       tcgplayerProductId: '32529'
       tntId: '237699'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: 2010 Core Set Booster Pack
+        set: m10
   2010 Core Set Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '32538'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: 2010 Core Set Booster Box
+        set: m10
   2010 Core Set Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476896'
       cardKingdomId: '127042'
@@ -35,9 +51,14 @@ products:
       scgId: SLD-MTG-PCK-M10-EN
       tcgplayerProductId: '32530'
       tntId: '237700'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: m10
   2010 Core Set Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1107900'
       cardKingdomId: '127049'
@@ -47,9 +68,22 @@ products:
       scgId: SLD-MTG-BUN-M10-EN
       tcgplayerProductId: '32532'
       tntId: '237701'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Magic 2010 Fat Pack Land Pack
+        set: m10
+      other:
+      - name: Core Set 2010 Card Box
+      - name: Magic 2010 Player's Guide
+      - name: Learn-to-Play Insert
+      - name: Magic 2010 Spindown Life Counter
+      sealed:
+      - count: 8
+        name: 2010 Core Set Booster Pack
+        set: m10
   2010 Core Set Intro Pack Deaths Minions:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100739'
       cardKingdomId: '127044'
@@ -58,17 +92,43 @@ products:
       scgId: SLD-MTG-INT-M10INTRO-EN-DEATHS
       tcgplayerProductId: '32533'
       tntId: '275089'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Death's Minions
+        set: m10
+      sealed:
+      - count: 1
+        name: 2010 Core Set Booster Pack
+        set: m10
   2010 Core Set Intro Pack Display:
     category: DECK_BOX
+    subtype: INTRO
     identifiers:
       abuId: '1100748'
       cardtraderId: '47405'
       mcmId: '210203'
       tcgplayerProductId: '32539'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 2
+        name: 2010 Core Set Intro Pack Deaths Minions
+        set: m10
+      - count: 2
+        name: 2010 Core Set Intro Pack Firebomber
+        set: m10
+      - count: 2
+        name: 2010 Core Set Intro Pack Natures Fury
+        set: m10
+      - count: 2
+        name: 2010 Core Set Intro Pack Presence of Mind
+        set: m10
+      - count: 2
+        name: 2010 Core Set Intro Pack We Are Legion
+        set: m10
   2010 Core Set Intro Pack Firebomber:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100741'
       cardKingdomId: '127045'
@@ -77,9 +137,18 @@ products:
       scgId: SLD-MTG-INT-M10INTRO-EN-FIREBOMBER
       tcgplayerProductId: '32537'
       tntId: '275090'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Firebomber
+        set: m10
+      sealed:
+      - count: 1
+        name: 2010 Core Set Booster Pack
+        set: m10
   2010 Core Set Intro Pack Natures Fury:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100744'
       cardKingdomId: '127046'
@@ -88,9 +157,18 @@ products:
       scgId: SLD-MTG-INT-M10INTRO-EN-NATURES
       tcgplayerProductId: '32534'
       tntId: '275091'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Nature's Fury
+        set: m10
+      sealed:
+      - count: 1
+        name: 2010 Core Set Booster Pack
+        set: m10
   2010 Core Set Intro Pack Presence of Mind:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100745'
       cardKingdomId: '127047'
@@ -100,9 +178,18 @@ products:
       scgId: SLD-MTG-INT-M10INTRO-EN-PRESENCE
       tcgplayerProductId: '32535'
       tntId: '275092'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Presence of Mind
+        set: m10
+      sealed:
+      - count: 1
+        name: 2010 Core Set Booster Pack
+        set: m10
   2010 Core Set Intro Pack We Are Legion:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100740'
       cardKingdomId: '127048'
@@ -111,26 +198,50 @@ products:
       scgId: SLD-MTG-INT-M10INTRO-EN-LEGION
       tcgplayerProductId: '32536'
       tntId: '275093'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: We Are Legion
+        set: m10
+      sealed:
+      - count: 1
+        name: 2010 Core Set Booster Pack
+        set: m10
   2010 Core Set MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '223054'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 249
+      deck:
+      - name: Magic 2010 Redemption
+        set: m10
   2010 Core Set MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '223055'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 249
+      deck:
+      - name: Magic 2010 Foil Redemption
+        set: m10
   2010 Core Set Six Card Booster Pack:
     category: BOOSTER_PACK
+    subtype: SIX
+    release_date: '2018-01-16'
     identifiers:
       cardtraderId: '47385'
       mcmId: '315701'
-    release_date: '2018-01-16'
-    subtype: SIX
+    contents:
+      card_count: 6
+      pack:
+      - code: six
+        set: m10
   Magic Deck Builders Toolkit:
     category: KIT
+    subtype: DECK_BUILDERS_TOOLKIT
     identifiers:
       abuId: '1100368'
       cardKingdomId: '199107'
@@ -139,4 +250,55 @@ products:
       scgId: SLD-MTG-INT-M12TOOLKIT-EN
       tcgplayerProductId: '92505'
       tntId: '293948'
-    subtype: DECK_BUILDERS_TOOLKIT
+    contents:
+      card_count: 225
+      deck:
+      - name: Fixed Content
+        set: roe
+      sealed:
+      - count: 2
+        name: 2011 Core Set Booster Pack
+        set: m11
+      - count: 1
+        name: Rise of the Eldrazi Booster Pack
+        set: roe
+      - count: 1
+        name: Zendikar Booster Pack
+        set: zen
+      variable:
+      - deck:
+        - name: Black-Red Destruction
+          set: roe
+      - deck:
+        - name: Blue Control
+          set: roe
+      - deck:
+        - name: Blue-White Fliers
+          set: roe
+      - deck:
+        - name: Eldrazi
+          set: roe
+      - deck:
+        - name: Elves!
+          set: roe
+      - deck:
+        - name: Green-White Auras
+          set: roe
+      - deck:
+        - name: Mana Ramp
+          set: roe
+      - deck:
+        - name: Red Burn
+          set: roe
+      - deck:
+        - name: Red-Green Aggro
+          set: roe
+      - deck:
+        - name: Vampires
+          set: roe
+      - deck:
+        - name: White Weenie
+          set: roe
+      variable_mode:
+        count: 4
+        replacement: false

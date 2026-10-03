@@ -2,6 +2,7 @@ code: tdm
 products:
   Tarkir Dragonstorm Bundle:
     category: BUNDLE
+    subtype: DEFAULT
     identifiers:
       abuId: '2581969'
       cardKingdomId: '310809'
@@ -11,15 +12,37 @@ products:
       mcmId: '813082'
       scgId: SLD-MTG-BUN-TDM-EN
       tcgplayerProductId: '619653'
-    subtype: DEFAULT
+    contents:
+      card:
+      - foil: true
+        name: Temur Battlecrier
+        number: 425
+        set: tdm
+      deck:
+      - name: 'Tarkir: Dragonstorm Bundle Land Pack'
+        set: tdm
+      other:
+      - name: 2 Reference Cards
+      - name: Tarkir Dragonstorm Spindown
+      - name: Tarkir Dragonstorm Card Storage Box
+      sealed:
+      - count: 9
+        name: Tarkir Dragonstorm Play Booster Pack
+        set: tdm
   Tarkir Dragonstorm Bundle Case:
     category: BUNDLE_CASE
+    subtype: DEFAULT
     identifiers:
       cardtraderId: '405221'
       tcgplayerProductId: '619655'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 6
+        name: Tarkir Dragonstorm Bundle
+        set: tdm
   Tarkir Dragonstorm Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
     identifiers:
       abuId: '2581966'
       cardKingdomId: '310808'
@@ -28,14 +51,24 @@ products:
       mcmId: '813080'
       scgId: SLD-MTG-BBX-TDMCOLLECTOR-EN
       tcgplayerProductId: '619649'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Tarkir Dragonstorm Collector Booster Pack
+        set: tdm
   Tarkir Dragonstorm Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '619650'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Tarkir Dragonstorm Collector Booster Box
+        set: tdm
   Tarkir Dragonstorm Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
     identifiers:
       abuId: '2581967'
       cardKingdomId: '310807'
@@ -44,26 +77,44 @@ products:
       mcmId: '813078'
       scgId: SLD-MTG-PCK-TDMCOLLECTOR-EN
       tcgplayerProductId: '619648'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: tdm
   Tarkir Dragonstorm Collector Booster Pack Minimal Packaging:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '684661'
-    subtype: COLLECTOR
+    contents:
+      copy: Tarkir Dragonstorm Collector Booster Pack
   Tarkir Dragonstorm Collector Booster Sample Pack:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
     identifiers:
       cardtraderId: '322537'
       mcmId: '813088'
       tcgplayerProductId: '637656'
-    subtype: PROMOTIONAL
+    contents:
+      card_count: 2
+      pack:
+      - code: collector-sample
+        set: tdm
   Tarkir Dragonstorm MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '310857'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 291
+      deck:
+      - name: 'Tarkir: Dragonstorm Redemption'
+        set: tdm
   Tarkir Dragonstorm Play Booster Box:
     category: BOOSTER_BOX
+    subtype: PLAY
+    release_date: '2025-04-11'
     identifiers:
       abuId: '2581965'
       cardKingdomId: '310806'
@@ -72,17 +123,27 @@ products:
       miniaturemarketId: 025f1481c43ead8e5bdd7c8dba12bcc4
       scgId: SLD-MTG-BBX-TDMPLAY-EN
       tcgplayerProductId: '619645'
-    release_date: '2025-04-11'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 30
+        name: Tarkir Dragonstorm Play Booster Pack
+        set: tdm
   Tarkir Dragonstorm Play Booster Box Case:
     category: BOOSTER_CASE
+    subtype: PLAY
+    release_date: '2025-04-11'
     identifiers:
       scgId: SLD-MTG-BBX-TDMCASE-EN
       tcgplayerProductId: '619647'
-    release_date: '2025-04-11'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 6
+        name: Tarkir Dragonstorm Play Booster Box
+        set: tdm
   Tarkir Dragonstorm Play Booster Pack:
     category: BOOSTER_PACK
+    subtype: PLAY
+    release_date: '2025-04-11'
     identifiers:
       abuId: '2581964'
       cardKingdomId: '310805'
@@ -92,40 +153,69 @@ products:
       miniaturemarketId: b54b4754b1fb92463d263d178557e261
       scgId: SLD-MTG-PCK-TDM-EN
       tcgplayerProductId: '619644'
-    release_date: '2025-04-11'
-    subtype: PLAY
+    contents:
+      card_count: 14
+      pack:
+      - code: play
+        set: tdm
   Tarkir Dragonstorm Prerelease Booster Abzan:
     category: BOOSTER_PACK
+    subtype: PRERELEASE
+    release_date: '2025-03-26'
     identifiers:
       mcmId: '818972'
-    release_date: '2025-03-26'
-    subtype: PRERELEASE
+    contents:
+      card_count: 14
+      pack:
+      - code: prerelease-abzan
+        set: tdm
   Tarkir Dragonstorm Prerelease Booster Jeskai:
     category: BOOSTER_PACK
+    subtype: PRERELEASE
+    release_date: '2025-03-26'
     identifiers:
       mcmId: '818974'
-    release_date: '2025-03-26'
-    subtype: PRERELEASE
+    contents:
+      card_count: 14
+      pack:
+      - code: prerelease-jeskai
+        set: tdm
   Tarkir Dragonstorm Prerelease Booster Mardu:
     category: BOOSTER_PACK
+    subtype: PRERELEASE
+    release_date: '2025-03-26'
     identifiers:
       mcmId: '818975'
-    release_date: '2025-03-26'
-    subtype: PRERELEASE
+    contents:
+      card_count: 14
+      pack:
+      - code: prerelease-mardu
+        set: tdm
   Tarkir Dragonstorm Prerelease Booster Sultai:
     category: BOOSTER_PACK
+    subtype: PRERELEASE
+    release_date: '2025-03-26'
     identifiers:
       mcmId: '818976'
-    release_date: '2025-03-26'
-    subtype: PRERELEASE
+    contents:
+      card_count: 14
+      pack:
+      - code: prerelease-sultai
+        set: tdm
   Tarkir Dragonstorm Prerelease Booster Temur:
     category: BOOSTER_PACK
+    subtype: PRERELEASE
+    release_date: '2025-03-26'
     identifiers:
       mcmId: '818970'
-    release_date: '2025-03-26'
-    subtype: PRERELEASE
+    contents:
+      card_count: 14
+      pack:
+      - code: prerelease-temur
+        set: tdm
   Tarkir Dragonstorm Prerelease Kit Abzan:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '2581977'
       cardKingdomId: '310810'
@@ -133,9 +223,24 @@ products:
       mcmId: '813083'
       scgId: SLD-MTG-INT-TDMPRE-EN-ABZAN
       tcgplayerProductId: '619659'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: Deck box
+      - name: Tarkir Dragonstorm Spindown
+      pack:
+      - code: prerelease
+        set: tdm
+      sealed:
+      - count: 5
+        name: Tarkir Dragonstorm Play Booster Pack
+        set: tdm
+      - count: 1
+        name: Tarkir Dragonstorm Prerelease Booster Abzan
+        set: tdm
   Tarkir Dragonstorm Prerelease Kit Jeskai:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '2581978'
       cardKingdomId: '310811'
@@ -143,9 +248,24 @@ products:
       mcmId: '813084'
       scgId: SLD-MTG-INT-TDMPRE-EN-JESKAI
       tcgplayerProductId: '619660'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: Deck box
+      - name: Tarkir Dragonstorm Spindown
+      pack:
+      - code: prerelease
+        set: tdm
+      sealed:
+      - count: 5
+        name: Tarkir Dragonstorm Play Booster Pack
+        set: tdm
+      - count: 1
+        name: Tarkir Dragonstorm Prerelease Booster Jeskai
+        set: tdm
   Tarkir Dragonstorm Prerelease Kit Mardu:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '2581980'
       cardKingdomId: '310813'
@@ -153,9 +273,24 @@ products:
       mcmId: '813086'
       scgId: SLD-MTG-INT-TDMPRE-EN-MARDU
       tcgplayerProductId: '619662'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: Deck box
+      - name: Tarkir Dragonstorm Spindown
+      pack:
+      - code: prerelease
+        set: tdm
+      sealed:
+      - count: 5
+        name: Tarkir Dragonstorm Play Booster Pack
+        set: tdm
+      - count: 1
+        name: Tarkir Dragonstorm Prerelease Booster Mardu
+        set: tdm
   Tarkir Dragonstorm Prerelease Kit Sultai:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '2581979'
       cardKingdomId: '310812'
@@ -163,9 +298,24 @@ products:
       mcmId: '813085'
       scgId: SLD-MTG-INT-TDMPRE-EN-SULTAI
       tcgplayerProductId: '619661'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: Deck box
+      - name: Tarkir Dragonstorm Spindown
+      pack:
+      - code: prerelease
+        set: tdm
+      sealed:
+      - count: 5
+        name: Tarkir Dragonstorm Play Booster Pack
+        set: tdm
+      - count: 1
+        name: Tarkir Dragonstorm Prerelease Booster Sultai
+        set: tdm
   Tarkir Dragonstorm Prerelease Kit Temur:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '2581981'
       cardKingdomId: '310814'
@@ -173,9 +323,40 @@ products:
       mcmId: '813087'
       scgId: SLD-MTG-INT-TDMPRE-EN-TEMUR
       tcgplayerProductId: '619663'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: Deck box
+      - name: Tarkir Dragonstorm Spindown
+      pack:
+      - code: prerelease
+        set: tdm
+      sealed:
+      - count: 5
+        name: Tarkir Dragonstorm Play Booster Pack
+        set: tdm
+      - count: 1
+        name: Tarkir Dragonstorm Prerelease Booster Temur
+        set: tdm
   Tarkir Dragonstorm Prerelease Kits Set of 5:
     category: SUBSET
+    subtype: PRERELEASE
     identifiers:
       tcgplayerProductId: '620244'
-    subtype: PRERELEASE
+    contents:
+      sealed:
+      - count: 1
+        name: Tarkir Dragonstorm Prerelease Kit Abzan
+        set: tdm
+      - count: 1
+        name: Tarkir Dragonstorm Prerelease Kit Jeskai
+        set: tdm
+      - count: 1
+        name: Tarkir Dragonstorm Prerelease Kit Mardu
+        set: tdm
+      - count: 1
+        name: Tarkir Dragonstorm Prerelease Kit Sultai
+        set: tdm
+      - count: 1
+        name: Tarkir Dragonstorm Prerelease Kit Temur
+        set: tdm

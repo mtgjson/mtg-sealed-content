@@ -2,12 +2,19 @@ code: clb
 products:
   Commander Legends Battle for Baldurs Gate 3 Booster Draft Pack:
     category: LIMITED
+    subtype: DRAFT_SET
+    release_date: '2022-06-10'
     identifiers:
       tcgplayerProductId: '267033'
-    release_date: '2022-06-10'
-    subtype: DRAFT_SET
+    contents:
+      sealed:
+      - count: 3
+        name: Commander Legends Battle for Baldurs Gate Draft Booster Pack
+        set: clb
   Commander Legends Battle for Baldurs Gate Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2022-06-10'
     identifiers:
       abuId: '2195736'
       cardKingdomId: '260404'
@@ -17,16 +24,39 @@ products:
       scgId: SLD-MTG-BUN-CLB-EN
       tcgplayerProductId: '267034'
       tntId: '1753432'
-    release_date: '2022-06-10'
-    subtype: DEFAULT
+    contents:
+      card:
+      - foil: true
+        name: Wand of Wonder
+        number: 935
+        set: clb
+      - name: Undercity // The Initiative
+        number: 20
+        set: oclb
+        token: true
+      deck:
+      - name: 'Commander Legends: Battle for Baldur''s Gate Bundle Land Pack'
+        set: clb
+      other:
+      - name: Commander Legends Battle for Baldurs Gate Spindown
+      sealed:
+      - count: 8
+        name: Commander Legends Battle for Baldurs Gate Set Booster Pack
+        set: clb
   Commander Legends Battle for Baldurs Gate Bundle Case:
     category: BUNDLE_CASE
+    subtype: DEFAULT
+    release_date: '2022-06-10'
     identifiers:
       tcgplayerProductId: '268516'
-    release_date: '2022-06-10'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 6
+        name: Commander Legends Battle for Baldurs Gate Bundle
+        set: clb
   Commander Legends Battle for Baldurs Gate Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
     identifiers:
       abuId: '2195738'
       cardKingdomId: '260406'
@@ -37,19 +67,35 @@ products:
       scgId: SLD-MTG-BBX-CLBCOLLECTOR-EN
       tcgplayerProductId: '267023'
       tntId: '1747115'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Commander Legends Battle for Baldurs Gate Collector Booster Pack
+        set: clb
   Commander Legends Battle for Baldurs Gate Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '268514'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Commander Legends Battle for Baldurs Gate Collector Booster Box
+        set: clb
   Commander Legends Battle for Baldurs Gate Collector Booster Hanger Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '281727'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 1
+        name: Commander Legends Battle for Baldurs Gate Collector Booster Pack
+        set: clb
   Commander Legends Battle for Baldurs Gate Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2022-06-10'
     identifiers:
       abuId: '2689639'
       cardKingdomId: '260405'
@@ -60,18 +106,28 @@ products:
       scgId: SLD-MTG-PCK-CLBCOLLECTOR-EN
       tcgplayerProductId: '267024'
       tntId: '1747116'
-    release_date: '2022-06-10'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: clb
   Commander Legends Battle for Baldurs Gate Collector Booster Sample Pack:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    release_date: '2022-05-04'
     identifiers:
       cardtraderId: '219465'
       mcmId: '668773'
       tcgplayerProductId: '579980'
-    release_date: '2022-05-04'
-    subtype: PROMOTIONAL
+    contents:
+      card_count: 2
+      pack:
+      - code: collector-sample
+        set: clb
   Commander Legends Battle for Baldurs Gate Commander Deck Draconic Dissent:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2022-06-10'
     identifiers:
       abuId: '2195742'
       cardKingdomId: '260610'
@@ -82,16 +138,30 @@ products:
       scgId: SLD-MTG-MLT-CLB-EN-DRACONIC
       tcgplayerProductId: '267030'
       tntId: '1747118'
-    release_date: '2022-06-10'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Draconic Dissent
+        set: clb
+      other:
+      - name: Life Tracker
+      - name: 10 Double Sided Tokens
+      sealed:
+      - count: 1
+        name: Commander Legends Battle for Baldurs Gate Collector Booster Sample Pack
+        set: clb
   Commander Legends Battle for Baldurs Gate Commander Deck Draconic Dissent Minimal Packaging:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2022-06-10'
     identifiers:
       tcgplayerProductId: '267029'
-    release_date: '2022-06-10'
-    subtype: COMMANDER
+    contents:
+      copy: Commander Legends Battle for Baldurs Gate Commander Deck Draconic Dissent
   Commander Legends Battle for Baldurs Gate Commander Deck Exit from Exile:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2022-06-10'
     identifiers:
       abuId: '2195743'
       cardKingdomId: '260611'
@@ -101,16 +171,30 @@ products:
       scgId: SLD-MTG-MLT-CLB-EN-EXILE
       tcgplayerProductId: '267031'
       tntId: '1747119'
-    release_date: '2022-06-10'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Exit from Exile
+        set: clb
+      other:
+      - name: Life Tracker
+      - name: 10 Double Sided Tokens
+      sealed:
+      - count: 1
+        name: Commander Legends Battle for Baldurs Gate Collector Booster Sample Pack
+        set: clb
   Commander Legends Battle for Baldurs Gate Commander Deck Exit from Exile Minimal Packaging:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2022-06-10'
     identifiers:
       tcgplayerProductId: '267032'
-    release_date: '2022-06-10'
-    subtype: COMMANDER
+    contents:
+      copy: Commander Legends Battle for Baldurs Gate Commander Deck Exit from Exile
   Commander Legends Battle for Baldurs Gate Commander Deck Mind Flayarrrs:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2022-06-10'
     identifiers:
       abuId: '2195741'
       cardKingdomId: '260609'
@@ -120,16 +204,30 @@ products:
       scgId: SLD-MTG-MLT-CLB-EN-MIND
       tcgplayerProductId: '267027'
       tntId: '1747120'
-    release_date: '2022-06-10'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Mind Flayarrrs
+        set: clb
+      other:
+      - name: Life Tracker
+      - name: 10 Double Sided Tokens
+      sealed:
+      - count: 1
+        name: Commander Legends Battle for Baldurs Gate Collector Booster Sample Pack
+        set: clb
   Commander Legends Battle for Baldurs Gate Commander Deck Mind Flayarrrs Minimal Packaging:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2022-06-10'
     identifiers:
       tcgplayerProductId: '267028'
-    release_date: '2022-06-10'
-    subtype: COMMANDER
+    contents:
+      copy: Commander Legends Battle for Baldurs Gate Commander Deck Mind Flayarrrs
   Commander Legends Battle for Baldurs Gate Commander Deck Party Time:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2022-06-10'
     identifiers:
       abuId: '2195740'
       cardKingdomId: '260608'
@@ -139,16 +237,29 @@ products:
       scgId: SLD-MTG-MLT-CLB-EN-PARTY
       tcgplayerProductId: '267025'
       tntId: '1747121'
-    release_date: '2022-06-10'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Party Time
+        set: clb
+      other:
+      - name: Life Tracker
+      - name: 10 Double Sided Tokens
+      sealed:
+      - count: 1
+        name: Commander Legends Battle for Baldurs Gate Collector Booster Sample Pack
+        set: clb
   Commander Legends Battle for Baldurs Gate Commander Deck Party Time Minimal Packaging:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2022-06-10'
     identifiers:
       tcgplayerProductId: '267026'
-    release_date: '2022-06-10'
-    subtype: COMMANDER
+    contents:
+      copy: Commander Legends Battle for Baldurs Gate Commander Deck Party Time
   Commander Legends Battle for Baldurs Gate Commander Decks Set of 4:
     category: DECK_BOX
+    subtype: COMMANDER
     identifiers:
       cardKingdomId: '260612'
       cardtraderId: '208734'
@@ -158,9 +269,24 @@ products:
       scgId: SLD-MTG-MLT-CLB-EN-SET4
       tcgplayerProductId: '271583'
       tntId: '1747117'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Commander Legends Battle for Baldurs Gate Commander Deck Draconic Dissent
+        set: clb
+      - count: 1
+        name: Commander Legends Battle for Baldurs Gate Commander Deck Exit from Exile
+        set: clb
+      - count: 1
+        name: Commander Legends Battle for Baldurs Gate Commander Deck Mind Flayarrrs
+        set: clb
+      - count: 1
+        name: Commander Legends Battle for Baldurs Gate Commander Deck Party Time
+        set: clb
   Commander Legends Battle for Baldurs Gate Draft Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2022-06-10'
     identifiers:
       abuId: '2190703'
       cardKingdomId: '260408'
@@ -171,16 +297,26 @@ products:
       scgId: SLD-MTG-BBX-CLBDRAFT-EN
       tcgplayerProductId: '267019'
       tntId: '1747111'
-    release_date: '2022-06-10'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 24
+        name: Commander Legends Battle for Baldurs Gate Draft Booster Pack
+        set: clb
   Commander Legends Battle for Baldurs Gate Draft Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2022-06-10'
     identifiers:
       tcgplayerProductId: '268512'
-    release_date: '2022-06-10'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Commander Legends Battle for Baldurs Gate Draft Booster Box
+        set: clb
   Commander Legends Battle for Baldurs Gate Draft Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2022-06-10'
     identifiers:
       abuId: '2195744'
       cardKingdomId: '260409'
@@ -191,10 +327,15 @@ products:
       scgId: SLD-MTG-PCK-CLBDRAFT-EN
       tcgplayerProductId: '267020'
       tntId: '1747112'
-    release_date: '2022-06-10'
-    subtype: DRAFT
+    contents:
+      card_count: 20
+      pack:
+      - code: draft
+        set: clb
   Commander Legends Battle for Baldurs Gate Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2022-06-10'
     identifiers:
       abuId: '2190702'
       cardKingdomId: '260410'
@@ -203,10 +344,27 @@ products:
       hareruyaId: '156982'
       mcmId: '650877'
       tcgplayerProductId: '267035'
-    release_date: '2022-06-10'
-    subtype: PRERELEASE
+    contents:
+      card:
+      - foil: true
+        name: Undercity // The Initiative
+        number: 20
+        set: clb
+        token: true
+      card_count: 2
+      other:
+      - name: Commander Legends Battle for Baldurs Gate d20
+      - name: MTG Arena Code Card (where available)
+      pack:
+      - code: prerelease
+        set: clb
+      sealed:
+      - count: 3
+        name: Commander Legends Battle for Baldurs Gate Draft Booster Pack
+        set: clb
   Commander Legends Battle for Baldurs Gate Set Booster Box:
     category: BOOSTER_BOX
+    subtype: SET
     identifiers:
       abuId: '2190704'
       cardKingdomId: '260412'
@@ -217,15 +375,26 @@ products:
       scgId: SLD-MTG-BBX-CLBSET-EN
       tcgplayerProductId: '267022'
       tntId: '1747113'
-    subtype: SET
+    contents:
+      sealed:
+      - count: 18
+        name: Commander Legends Battle for Baldurs Gate Set Booster Pack
+        set: clb
   Commander Legends Battle for Baldurs Gate Set Booster Box Case:
     category: BOOSTER_CASE
+    subtype: SET
+    release_date: '2022-06-10'
     identifiers:
       tcgplayerProductId: '268513'
-    release_date: '2022-06-10'
-    subtype: SET
+    contents:
+      sealed:
+      - count: 6
+        name: Commander Legends Battle for Baldurs Gate Set Booster Box
+        set: clb
   Commander Legends Battle for Baldurs Gate Set Booster Pack:
     category: BOOSTER_PACK
+    subtype: SET
+    release_date: '2022-06-10'
     identifiers:
       abuId: '2689640'
       cardKingdomId: '260411'
@@ -236,5 +405,8 @@ products:
       scgId: SLD-MTG-PCK-CLBSET-EN
       tcgplayerProductId: '267021'
       tntId: '1747114'
-    release_date: '2022-06-10'
-    subtype: SET
+    contents:
+      card_count: 15
+      pack:
+      - code: set
+        set: clb

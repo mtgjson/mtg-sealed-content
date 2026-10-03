@@ -2,6 +2,8 @@ code: hou
 products:
   Hour of Devastation Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2017-07-14'
     identifiers:
       abuId: '1477004'
       cardKingdomId: '212827'
@@ -12,17 +14,27 @@ products:
       scgId: SLD-MTG-BBX-HOU-EN
       tcgplayerProductId: '131456'
       tntId: '1102285'
-    release_date: '2017-07-14'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Hour of Devastation Booster Pack
+        set: hou
   Hour of Devastation Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2017-07-14'
     identifiers:
       tcgplayerProductId: '131459'
       tntId: '1102286'
-    release_date: '2017-07-14'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Hour of Devastation Booster Box
+        set: hou
   Hour of Devastation Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2017-07-14'
     identifiers:
       abuId: '1796198'
       cardKingdomId: '212828'
@@ -33,10 +45,15 @@ products:
       scgId: SLD-MTG-PCK-HOU-EN
       tcgplayerProductId: '131457'
       tntId: '1102284'
-    release_date: '2017-07-14'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: hou
   Hour of Devastation Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2017-07-14'
     identifiers:
       abuId: '1477010'
       cardKingdomId: '212829'
@@ -47,25 +64,56 @@ products:
       scgId: SLD-MTG-BUN-HOU-EN
       tcgplayerProductId: '131458'
       tntId: '1114737'
-    release_date: '2017-07-14'
-    subtype: DEFAULT
+    contents:
+      deck:
+      - name: Hour of Devastation Bundle Land Pack
+        set: hou
+      other:
+      - name: 25 Double-sided Tokens
+      - name: Hour of Devastation Reusable Card Storage Box
+      - name: Hour of Devastation Bundle Spindown
+      - name: Hour of Devastation Players Guide
+      sealed:
+      - count: 10
+        name: Hour of Devastation Booster Pack
+        set: hou
   Hour of Devastation MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '213467'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 199
+      deck:
+      - name: Hour of Devastation Redemption
+        set: hou
   Hour of Devastation MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '213466'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 199
+      deck:
+      - name: Hour of Devastation Foil Redemption
+        set: hou
   Hour of Devastation Planeswalker Deck Display:
     category: DECK_BOX
+    subtype: PLANESWALKER
     identifiers:
       tntId: '1122076'
-    subtype: PLANESWALKER
+    contents:
+      sealed:
+      - count: 3
+        name: Hour of Devastation Planeswalker Deck Nicol Bolas
+        set: hou
+      - count: 3
+        name: Hour of Devastation Planeswalker Deck Nissa
+        set: hou
   Hour of Devastation Planeswalker Deck Nicol Bolas:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2017-07-14'
     identifiers:
       abuId: '1477011'
       cardKingdomId: '212882'
@@ -75,10 +123,19 @@ products:
       scgId: SLD-MTG-INT-HOUPWDECK-EN-BOLAS
       tcgplayerProductId: '134894'
       tntId: '1102283'
-    release_date: '2017-07-14'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Nicol Bolas, the Deceiver
+        set: hou
+      sealed:
+      - count: 2
+        name: Hour of Devastation Booster Pack
+        set: hou
   Hour of Devastation Planeswalker Deck Nissa:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2017-07-14'
     identifiers:
       abuId: '1477012'
       cardKingdomId: '212881'
@@ -88,17 +145,34 @@ products:
       scgId: SLD-MTG-INT-HOUPWDECK-EN-NISSA
       tcgplayerProductId: '134895'
       tntId: '1102282'
-    release_date: '2017-07-14'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Nissa, Genesis Mage
+        set: hou
+      sealed:
+      - count: 2
+        name: Hour of Devastation Booster Pack
+        set: hou
   Hour of Devastation Planeswalker Decks Set of 2:
     category: SUBSET
+    subtype: PLANESWALKER
+    release_date: '2017-07-14'
     identifiers:
       scgId: SLD-MTG-INT-HOUPWDECK-EN-SET2
       tcgplayerProductId: '134896'
-    release_date: '2017-07-14'
-    subtype: PLANESWALKER
+    contents:
+      sealed:
+      - count: 1
+        name: Hour of Devastation Planeswalker Deck Nicol Bolas
+        set: hou
+      - count: 1
+        name: Hour of Devastation Planeswalker Deck Nissa
+        set: hou
   Hour of Devastation Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2017-07-07'
     identifiers:
       abuId: '1477014'
       cardKingdomId: '213470'
@@ -106,12 +180,24 @@ products:
       mcmId: '299022'
       tcgplayerProductId: '137435'
       tntId: '1190937'
-    release_date: '2017-07-07'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: 1 Hour of Devastation Spindown
+      pack:
+      - code: prerelease
+        set: hou
+      sealed:
+      - count: 4
+        name: Hour of Devastation Booster Pack
+        set: hou
+      - count: 2
+        name: Amonkhet Booster Pack
+        set: akh
   Hour of Devastation Standard Showdown Booster:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    release_date: '2017-07-24'
     identifiers:
       cardtraderId: '49721'
       mcmId: '299395'
-    release_date: '2017-07-24'
-    subtype: PROMOTIONAL

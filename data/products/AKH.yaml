@@ -2,12 +2,39 @@ code: akh
 products:
   Amonkhet Booster Battle Pack:
     category: MULTI_DECK
+    subtype: BATTLE
     identifiers:
       tcgplayerProductId: '217689'
       tntId: '1643172'
-    subtype: BATTLE
+    contents:
+      card_count: 60
+      sealed:
+      - count: 2
+        name: Amonkhet Booster Pack
+        set: akh
+      variable:
+      - deck:
+        - name: Amonkhet Welcome Deck - White
+          set: w17
+      - deck:
+        - name: Amonkhet Welcome Deck - Blue
+          set: w17
+      - deck:
+        - name: Amonkhet Welcome Deck - Black
+          set: w17
+      - deck:
+        - name: Amonkhet Welcome Deck - Red
+          set: w17
+      - deck:
+        - name: Amonkhet Welcome Deck - Green
+          set: w17
+      variable_mode:
+        count: 2
+        replacement: false
   Amonkhet Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2017-04-28'
     identifiers:
       abuId: '1476839'
       cardKingdomId: '211617'
@@ -18,17 +45,27 @@ products:
       scgId: SLD-MTG-BBX-AKH-EN
       tcgplayerProductId: '127174'
       tntId: '1102277'
-    release_date: '2017-04-28'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Amonkhet Booster Pack
+        set: akh
   Amonkhet Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2017-04-28'
     identifiers:
       tcgplayerProductId: '127177'
       tntId: '1102278'
-    release_date: '2017-04-28'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Amonkhet Booster Box
+        set: akh
   Amonkhet Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2017-04-28'
     identifiers:
       abuId: '1796161'
       cardKingdomId: '211618'
@@ -39,10 +76,15 @@ products:
       scgId: SLD-MTG-PCK-AKH-EN
       tcgplayerProductId: '127173'
       tntId: '1102276'
-    release_date: '2017-04-28'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: akh
   Amonkhet Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2017-04-28'
     identifiers:
       abuId: '1476841'
       cardKingdomId: '211629'
@@ -53,10 +95,23 @@ products:
       scgId: SLD-MTG-BUN-AKH-EN
       tcgplayerProductId: '127175'
       tntId: '1114736'
-    release_date: '2017-04-28'
-    subtype: DEFAULT
+    contents:
+      deck:
+      - name: Amonkhet Bundle Land Pack
+        set: akh
+      other:
+      - name: 25 Double-sided Tokens
+      - name: Amonkhet Reusable Card Storage Box
+      - name: Amonkhet Bundle Spindown
+      - name: Amonkhet Players Guide
+      sealed:
+      - count: 10
+        name: Amonkhet Booster Pack
+        set: akh
   Amonkhet Deck Builders Toolkit:
     category: KIT
+    subtype: DECK_BUILDERS_TOOLKIT
+    release_date: '2017-04-19'
     identifiers:
       abuId: '1476846'
       cardKingdomId: '211677'
@@ -65,30 +120,106 @@ products:
       scgId: SLD-MTG-INT-AKHTOOLKIT-EN
       tcgplayerProductId: '127176'
       tntId: '1102275'
-    release_date: '2017-04-19'
-    subtype: DECK_BUILDERS_TOOLKIT
+    contents:
+      card_count: 225
+      deck:
+      - name: Fixed Content
+        set: akh
+      other:
+      - name: Deck Builder's Guide
+      - name: Magic Learn to Play Guide
+      - name: Card storage box
+      sealed:
+      - count: 2
+        name: Amonkhet Booster Pack
+        set: akh
+      - count: 1
+        name: Kaladesh Booster Pack
+        set: kld
+      - count: 1
+        name: Aether Revolt Booster Pack
+        set: aer
+      variable:
+      - deck:
+        - name: Blue and Black Noncreatures
+          set: akh
+      - deck:
+        - name: Black and Green Counters
+          set: akh
+      - deck:
+        - name: Black and Red Artifacts
+          set: akh
+      - deck:
+        - name: Blue and Colorless Artifacts
+          set: akh
+      - deck:
+        - name: Blue and Green Ramp
+          set: akh
+      - deck:
+        - name: Blue and White Flying
+          set: akh
+      - deck:
+        - name: Green and White
+          set: akh
+      - deck:
+        - name: Red and Colorless Artifacts
+          set: akh
+      - deck:
+        - name: Red and Green Aggro
+          set: akh
+      - deck:
+        - name: Red and White Aggro
+          set: akh
+      - deck:
+        - name: White and Black Zombies
+          set: akh
+      variable_mode:
+        count: 4
+        replacement: false
   Amonkhet Land Station:
     category: KIT
+    subtype: LAND_STATION
     identifiers:
       tcgplayerProductId: '215049'
-    subtype: LAND_STATION
+    contents:
+      other:
+      - name: 400 Amonkhet Basic Lands (80 of Each Color)
   Amonkhet MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '212399'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 269
+      deck:
+      - name: Amonkhet Redemption
+        set: akh
   Amonkhet MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '212400'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 269
+      deck:
+      - name: Amonkhet Foil Redemption
+        set: akh
   Amonkhet Planeswalker Deck Display:
     category: DECK_BOX
+    subtype: PLANESWALKER
     identifiers:
       tntId: '1115618'
-    subtype: PLANESWALKER
+    contents:
+      sealed:
+      - count: 3
+        name: Amonkhet Planeswalker Deck Gideon
+        set: akh
+      - count: 3
+        name: Amonkhet Planeswalker Deck Liliana
+        set: akh
   Amonkhet Planeswalker Deck Gideon:
     category: DECK
+    subtype: PLANESWALKER
     identifiers:
       abuId: '1476842'
       cardKingdomId: '211623'
@@ -98,9 +229,18 @@ products:
       scgId: SLD-MTG-INT-AKHPWDECK-EN-GIDEON
       tcgplayerProductId: '127532'
       tntId: '1102273'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Gideon, Martial Paragon
+        set: akh
+      sealed:
+      - count: 2
+        name: Amonkhet Booster Pack
+        set: akh
   Amonkhet Planeswalker Deck Liliana:
     category: DECK
+    subtype: PLANESWALKER
     identifiers:
       abuId: '1476843'
       cardKingdomId: '211624'
@@ -108,15 +248,32 @@ products:
       mcmId: '295698'
       scgId: SLD-MTG-INT-AKHPWDECK-EN-LILIANA
       tcgplayerProductId: '127533'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Liliana, Death Wielder
+        set: akh
+      sealed:
+      - count: 2
+        name: Amonkhet Booster Pack
+        set: akh
   Amonkhet Planeswalker Decks Set of 2:
     category: SUBSET
+    subtype: PLANESWALKER
     identifiers:
       scgId: SLD-MTG-INT-AKHPWDECK-EN-SET2
       tcgplayerProductId: '131217'
-    subtype: PLANESWALKER
+    contents:
+      sealed:
+      - count: 1
+        name: Amonkhet Planeswalker Deck Gideon
+        set: akh
+      - count: 1
+        name: Amonkhet Planeswalker Deck Liliana
+        set: akh
   Amonkhet Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '1476845'
       cardKingdomId: '212308'
@@ -125,11 +282,21 @@ products:
       mcmId: '295696'
       tcgplayerProductId: '127534'
       tntId: '1680197'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: Amonkhet Prerelease Spindown
+      pack:
+      - code: prerelease
+        set: akh
+      sealed:
+      - count: 6
+        name: Amonkhet Booster Pack
+        set: akh
   Amonkhet Standard Showdown Booster:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    release_date: '2017-05-09'
     identifiers:
       cardtraderId: '49715'
       mcmId: '297862'
-    release_date: '2017-05-09'
-    subtype: PROMOTIONAL

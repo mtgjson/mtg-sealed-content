@@ -2,6 +2,7 @@ code: ddg
 products:
   Duel Deck Knights vs Dragons:
     category: MULTI_DECK
+    subtype: DUEL
     identifiers:
       abuId: '1100710'
       cardKingdomId: '184203'
@@ -12,17 +13,39 @@ products:
       scgId: SLD-MTG-BXS-DDG-EN
       tcgplayerProductId: '78342'
       tntId: '322682'
-    subtype: DUEL
+    contents:
+      sealed:
+      - count: 1
+        name: Duel Deck Knights vs Dragons Knights Deck
+        set: ddg
+      - count: 1
+        name: Duel Deck Knights vs Dragons Dragons Deck
+        set: ddg
   Duel Deck Knights vs Dragons Display:
     category: DECK_BOX
+    subtype: DUEL
     identifiers:
       tntId: '322681'
-    subtype: DUEL
+    contents:
+      sealed:
+      - count: 6
+        name: Duel Deck Knights vs Dragons
+        set: ddg
   Duel Deck Knights vs Dragons Dragons Deck:
     category: DECK
-    identifiers: {}
     subtype: DUEL
+    identifiers: {}
+    contents:
+      card_count: 60
+      deck:
+      - name: Dragons
+        set: ddg
   Duel Deck Knights vs Dragons Knights Deck:
     category: DECK
-    identifiers: {}
     subtype: DUEL
+    identifiers: {}
+    contents:
+      card_count: 60
+      deck:
+      - name: Knights
+        set: ddg

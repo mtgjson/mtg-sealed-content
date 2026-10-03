@@ -2,21 +2,51 @@ code: gtc
 products:
   Gatecrash Booster Battle Pack:
     category: MULTI_DECK
+    subtype: BATTLE
     identifiers:
       abuId: '1100554'
       cardtraderId: '47891'
       mcmId: '260417'
       tcgplayerProductId: '172938'
       tntId: '1011702'
-    subtype: BATTLE
+    contents:
+      sealed:
+      - count: 2
+        name: Gatecrash Booster Pack
+        set: gtc
+      variable:
+      - deck:
+        - name: 'Booster Battle Pack: Boros'
+          set: gtc
+      - deck:
+        - name: 'Booster Battle Pack: Dimir'
+          set: gtc
+      - deck:
+        - name: 'Booster Battle Pack: Gruul'
+          set: gtc
+      - deck:
+        - name: 'Booster Battle Pack: Orzhov'
+          set: gtc
+      - deck:
+        - name: 'Booster Battle Pack: Simic'
+          set: gtc
+      variable_mode:
+        count: 2
+        replacement: false
   Gatecrash Booster Battle Pack Display:
     category: DECK_BOX
+    subtype: BATTLE
     identifiers:
       cardtraderId: '47903'
       mcmId: '260418'
-    subtype: BATTLE
+    contents:
+      sealed:
+      - count: 12
+        name: Gatecrash Booster Battle Pack
+        set: gtc
   Gatecrash Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1100556'
       cardKingdomId: '188834'
@@ -27,14 +57,25 @@ products:
       scgId: SLD-MTG-BBX-GTC-EN
       tcgplayerProductId: '67311'
       tntId: '391933'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Gatecrash Booster Pack
+        set: gtc
   Gatecrash Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '67310'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Gatecrash Booster Box
+        set: gtc
   Gatecrash Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2013-02-01'
     identifiers:
       abuId: '1476882'
       cardKingdomId: '188833'
@@ -45,17 +86,29 @@ products:
       scgId: SLD-MTG-PCK-GTC-EN
       tcgplayerProductId: '67313'
       tntId: '391934'
-    release_date: '2013-02-01'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: gtc
   Gatecrash Event Deck Display:
     category: DECK_BOX
+    subtype: EVENT
     identifiers:
       cardtraderId: '47904'
       mcmId: '260463'
       tntId: '391937'
-    subtype: EVENT
+    contents:
+      sealed:
+      - count: 3
+        name: Gatecrash Event Deck Rally and Rout
+        set: gtc
+      - count: 3
+        name: Gatecrash Event Deck Thrive and Thrash
+        set: gtc
   Gatecrash Event Deck Rally and Rout:
     category: DECK
+    subtype: EVENT
     identifiers:
       abuId: '1100559'
       cardKingdomId: '189135'
@@ -64,9 +117,14 @@ products:
       scgId: SLD-MTG-INT-GTCEVENT-EN-RALLY
       tcgplayerProductId: '110554'
       tntId: '1012735'
-    subtype: EVENT
+    contents:
+      card_count: 75
+      deck:
+      - name: Rally and Rout
+        set: gtc
   Gatecrash Event Deck Thrive and Thrash:
     category: DECK
+    subtype: EVENT
     identifiers:
       abuId: '1100560'
       cardKingdomId: '189136'
@@ -75,16 +133,30 @@ products:
       scgId: SLD-MTG-INT-GTCEVENT-EN-THRIVE
       tcgplayerProductId: '110553'
       tntId: '1012736'
-    subtype: EVENT
+    contents:
+      card_count: 75
+      deck:
+      - name: Thrive and Thrash
+        set: gtc
   Gatecrash Event Decks Set of 2:
     category: SUBSET
+    subtype: EVENT
     identifiers:
       abuId: '1100561'
       cardtraderId: '47894'
       mcmId: '260462'
-    subtype: EVENT
+    contents:
+      sealed:
+      - count: 1
+        name: Gatecrash Event Deck Rally and Rout
+        set: gtc
+      - count: 1
+        name: Gatecrash Event Deck Thrive and Thrash
+        set: gtc
   Gatecrash Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
+    release_date: '2013-02-01'
     identifiers:
       abuId: '1100563'
       cardKingdomId: '188835'
@@ -95,10 +167,23 @@ products:
       scgId: SLD-MTG-BUN-GTC-EN
       tcgplayerProductId: '67312'
       tntId: '391939'
-    release_date: '2013-02-01'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Return to Ravnica Fat Pack Land Pack
+        set: rtr
+      other:
+      - name: Gatecrash themed card box
+      - name: Gatecrash player's guide
+      - name: Two deck boxes
+      - name: Gatecrash spindown
+      sealed:
+      - count: 9
+        name: Gatecrash Booster Pack
+        set: gtc
   Gatecrash Intro Pack Boros Battalion:
     category: DECK
+    subtype: INTRO
+    release_date: '2013-02-01'
     identifiers:
       abuId: '1100565'
       cardKingdomId: '188887'
@@ -107,10 +192,19 @@ products:
       scgId: SLD-MTG-INT-GTCINTRO-EN-BOROS
       tcgplayerProductId: '67388'
       tntId: '1012436'
-    release_date: '2013-02-01'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Boros Battalion
+        set: gtc
+      sealed:
+      - count: 2
+        name: Gatecrash Booster Pack
+        set: gtc
   Gatecrash Intro Pack Dimir Dementia:
     category: DECK
+    subtype: INTRO
+    release_date: '2013-02-01'
     identifiers:
       abuId: '1100566'
       cardKingdomId: '188885'
@@ -119,17 +213,43 @@ products:
       scgId: SLD-MTG-INT-GTCINTRO-EN-DIMIR
       tcgplayerProductId: '67386'
       tntId: '1012437'
-    release_date: '2013-02-01'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Dimir Dementia
+        set: gtc
+      sealed:
+      - count: 2
+        name: Gatecrash Booster Pack
+        set: gtc
   Gatecrash Intro Pack Display:
     category: DECK_BOX
+    subtype: INTRO
     identifiers:
       cardtraderId: '47901'
       mcmId: '259879'
       tntId: '391935'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 2
+        name: Gatecrash Intro Pack Boros Battalion
+        set: gtc
+      - count: 2
+        name: Gatecrash Intro Pack Dimir Dementia
+        set: gtc
+      - count: 2
+        name: Gatecrash Intro Pack Gruul Goliaths
+        set: gtc
+      - count: 2
+        name: Gatecrash Intro Pack Orzhov Oppression
+        set: gtc
+      - count: 2
+        name: Gatecrash Intro Pack Simic Synthesis
+        set: gtc
   Gatecrash Intro Pack Gruul Goliaths:
     category: DECK
+    subtype: INTRO
+    release_date: '2013-02-01'
     identifiers:
       abuId: '1100570'
       cardKingdomId: '188886'
@@ -139,10 +259,19 @@ products:
       scgId: SLD-MTG-INT-GTCINTRO-EN-GRUUL
       tcgplayerProductId: '67387'
       tntId: '1012438'
-    release_date: '2013-02-01'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Gruul Goliaths
+        set: gtc
+      sealed:
+      - count: 2
+        name: Gatecrash Booster Pack
+        set: gtc
   Gatecrash Intro Pack Orzhov Oppression:
     category: DECK
+    subtype: INTRO
+    release_date: '2013-02-01'
     identifiers:
       abuId: '1100571'
       cardKingdomId: '188884'
@@ -152,18 +281,44 @@ products:
       scgId: SLD-MTG-INT-GTCINTRO-EN-ORZHOV
       tcgplayerProductId: '67385'
       tntId: '1012439'
-    release_date: '2013-02-01'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Orzhov Oppression
+        set: gtc
+      sealed:
+      - count: 2
+        name: Gatecrash Booster Pack
+        set: gtc
   Gatecrash Intro Pack Set of 5:
     category: SUBSET
+    subtype: INTRO
     identifiers:
       abuId: '1100573'
       cardtraderId: '47902'
       mcmId: '259878'
       tcgplayerProductId: '67384'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 1
+        name: Gatecrash Intro Pack Boros Battalion
+        set: gtc
+      - count: 1
+        name: Gatecrash Intro Pack Dimir Dementia
+        set: gtc
+      - count: 1
+        name: Gatecrash Intro Pack Gruul Goliaths
+        set: gtc
+      - count: 1
+        name: Gatecrash Intro Pack Orzhov Oppression
+        set: gtc
+      - count: 1
+        name: Gatecrash Intro Pack Simic Synthesis
+        set: gtc
   Gatecrash Intro Pack Simic Synthesis:
     category: DECK
+    subtype: INTRO
+    release_date: '2013-02-01'
     identifiers:
       abuId: '1100572'
       cardKingdomId: '188888'
@@ -172,20 +327,38 @@ products:
       scgId: SLD-MTG-INT-GTCINTRO-EN-SIMIC
       tcgplayerProductId: '67389'
       tntId: '1012440'
-    release_date: '2013-02-01'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Simic Synthesis
+        set: gtc
+      sealed:
+      - count: 2
+        name: Gatecrash Booster Pack
+        set: gtc
   Gatecrash MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210855'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 249
+      deck:
+      - name: Gatecrash Redemption
+        set: gtc
   Gatecrash MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210870'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 249
+      deck:
+      - name: Gatecrash Foil Redemption
+        set: gtc
   Gatecrash Prerelease Kit Boros:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '1100574'
       cardKingdomId: '189535'
@@ -193,9 +366,25 @@ products:
       mcmId: '260419'
       tcgplayerProductId: '106351'
       tntId: '1660304'
-    subtype: PRERELEASE
+    contents:
+      card:
+      - foil: true
+        name: Foundry Champion
+        number: 165★
+        set: pgtc
+      card_count: 16
+      other:
+      - name: Gatecrash Spindown Life Counter
+      pack:
+      - code: prerelease-boros
+        set: gtc
+      sealed:
+      - count: 5
+        name: Gatecrash Booster Pack
+        set: gtc
   Gatecrash Prerelease Kit Dimir:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '1100575'
       cardKingdomId: '189536'
@@ -203,9 +392,25 @@ products:
       mcmId: '260421'
       tcgplayerProductId: '106352'
       tntId: '1660305'
-    subtype: PRERELEASE
+    contents:
+      card:
+      - foil: true
+        name: Consuming Aberration
+        number: 152★
+        set: pgtc
+      card_count: 16
+      other:
+      - name: Gatecrash Spindown Life Counter
+      pack:
+      - code: prerelease-dimir
+        set: gtc
+      sealed:
+      - count: 5
+        name: Gatecrash Booster Pack
+        set: gtc
   Gatecrash Prerelease Kit Gruul:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '1100576'
       cardKingdomId: '189537'
@@ -213,9 +418,25 @@ products:
       mcmId: '260422'
       tcgplayerProductId: '106353'
       tntId: '1660306'
-    subtype: PRERELEASE
+    contents:
+      card:
+      - foil: true
+        name: Rubblehulk
+        number: 191★
+        set: pgtc
+      card_count: 16
+      other:
+      - name: Gatecrash Spindown Life Counter
+      pack:
+      - code: prerelease-gruul
+        set: gtc
+      sealed:
+      - count: 5
+        name: Gatecrash Booster Pack
+        set: gtc
   Gatecrash Prerelease Kit Orzhov:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '1100567'
       cardKingdomId: '189538'
@@ -223,9 +444,25 @@ products:
       mcmId: '260420'
       tcgplayerProductId: '106354'
       tntId: '1660307'
-    subtype: PRERELEASE
+    contents:
+      card:
+      - foil: true
+        name: Treasury Thrull
+        number: 201★
+        set: pgtc
+      card_count: 16
+      other:
+      - name: Gatecrash Spindown Life Counter
+      pack:
+      - code: prerelease-orzhov
+        set: gtc
+      sealed:
+      - count: 5
+        name: Gatecrash Booster Pack
+        set: gtc
   Gatecrash Prerelease Kit Simic:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '1100568'
       cardKingdomId: '189539'
@@ -233,19 +470,56 @@ products:
       mcmId: '260423'
       tcgplayerProductId: '106355'
       tntId: '1660308'
-    subtype: PRERELEASE
+    contents:
+      card:
+      - foil: true
+        name: Fathom Mage
+        number: 162★
+        set: pgtc
+      card_count: 16
+      other:
+      - name: Gatecrash Spindown Life Counter
+      pack:
+      - code: prerelease-simic
+        set: gtc
+      sealed:
+      - count: 5
+        name: Gatecrash Booster Pack
+        set: gtc
   Gatecrash Prerelease Kits Set of 5:
     category: SUBSET
+    subtype: PRERELEASE
+    release_date: '2015-03-02'
     identifiers:
       abuId: '1100569'
       cardtraderId: '47900'
       mcmId: '273049'
       tcgplayerProductId: '106350'
-    release_date: '2015-03-02'
-    subtype: PRERELEASE
+    contents:
+      sealed:
+      - count: 1
+        name: Gatecrash Prerelease Kit Boros
+        set: gtc
+      - count: 1
+        name: Gatecrash Prerelease Kit Dimir
+        set: gtc
+      - count: 1
+        name: Gatecrash Prerelease Kit Gruul
+        set: gtc
+      - count: 1
+        name: Gatecrash Prerelease Kit Orzhov
+        set: gtc
+      - count: 1
+        name: Gatecrash Prerelease Kit Simic
+        set: gtc
   Gatecrash Six Card Booster Pack:
     category: BOOSTER_PACK
+    subtype: SIX
     identifiers:
       cardtraderId: '47877'
       mcmId: '315714'
-    subtype: SIX
+    contents:
+      card_count: 6
+      pack:
+      - code: six
+        set: gtc

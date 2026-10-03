@@ -2,6 +2,7 @@ code: shm
 products:
   Shadowmoor Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1101134'
       cardKingdomId: '124493'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-SHM-EN
       tcgplayerProductId: '27306'
       tntId: '178624'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Shadowmoor Booster Pack
+        set: shm
   Shadowmoor Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Shadowmoor Booster Box
+        set: shm
   Shadowmoor Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476941'
       cardKingdomId: '124494'
@@ -29,9 +40,14 @@ products:
       scgId: SLD-MTG-PCK-SHM-EN
       tcgplayerProductId: '27368'
       tntId: '178625'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: shm
   Shadowmoor Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1107998'
       cardKingdomId: '124502'
@@ -42,19 +58,42 @@ products:
       scgId: SLD-MTG-BUN-SHM-EN
       tcgplayerProductId: '78330'
       tntId: '178631'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Shadowmoor Fat Pack Land Pack
+        set: shm
+      other:
+      - name: Shadowmoor Spindown
+      - name: Card storage box
+      - name: Shadowmoor Novel
+      - name: Random Pro Tour Player Card
+      sealed:
+      - count: 8
+        name: Shadowmoor Booster Pack
+        set: shm
   Shadowmoor MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241653'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 301
+      deck:
+      - name: Shadowmoor Redemption
+        set: shm
   Shadowmoor MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241652'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 301
+      deck:
+      - name: Shadowmoor Foil Redemption
+        set: shm
   Shadowmoor Theme Deck Army of Entropy:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101131'
       cardKingdomId: '184198'
@@ -63,9 +102,16 @@ products:
       mcmId: '253635'
       tcgplayerProductId: '185145'
       tntId: '178627'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Army of Entropy
+        set: shm
+      other:
+      - name: One random Pro Tour Player Card
   Shadowmoor Theme Deck Aura Mastery:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101135'
       cardKingdomId: '184199'
@@ -74,9 +120,16 @@ products:
       mcmId: '253634'
       tcgplayerProductId: '185142'
       tntId: '178628'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Aura Mastery
+        set: shm
+      other:
+      - name: One random Pro Tour Player Card
   Shadowmoor Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       abuId: '1108000'
       cardtraderId: '47309'
@@ -85,9 +138,50 @@ products:
       scgId: SLD-MTG-INT-SHMTHEME-JA
       tcgplayerProductId: '644349'
       tntId: '178626'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 2
+        name: Shadowmoor Theme Deck Army of Entropy
+        set: shm
+      - count: 2
+        name: Shadowmoor Theme Deck Aura Mastery
+        set: shm
+      - count: 2
+        name: Shadowmoor Theme Deck Mortal Coil
+        set: shm
+      - count: 2
+        name: Shadowmoor Theme Deck Overkill
+        set: shm
+      - count: 2
+        name: Shadowmoor Theme Deck Turnabout
+        set: shm
+      variable:
+      - sealed:
+        - count: 1
+          name: Shadowmoor Theme Deck Army of Entropy
+          set: shm
+      - sealed:
+        - count: 1
+          name: Shadowmoor Theme Deck Aura Mastery
+          set: shm
+      - sealed:
+        - count: 1
+          name: Shadowmoor Theme Deck Mortal Coil
+          set: shm
+      - sealed:
+        - count: 1
+          name: Shadowmoor Theme Deck Overkill
+          set: shm
+      - sealed:
+        - count: 1
+          name: Shadowmoor Theme Deck Turnabout
+          set: shm
+      variable_mode:
+        count: 2
+        replacement: false
   Shadowmoor Theme Deck Mortal Coil:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101136'
       cardKingdomId: '184200'
@@ -96,9 +190,16 @@ products:
       mcmId: '253636'
       tcgplayerProductId: '185144'
       tntId: '178629'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Mortal Coil
+        set: shm
+      other:
+      - name: One random Pro Tour Player Card
   Shadowmoor Theme Deck Overkill:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101138'
       cardKingdomId: '184201'
@@ -107,9 +208,16 @@ products:
       mcmId: '253637'
       tcgplayerProductId: '185143'
       tntId: '178630'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Overkill
+        set: shm
+      other:
+      - name: One random Pro Tour Player Card
   Shadowmoor Theme Deck Turnabout:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1107999'
       cardKingdomId: '184202'
@@ -118,9 +226,16 @@ products:
       mcmId: '253638'
       tcgplayerProductId: '185146'
       tntId: '183776'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Turnabout
+        set: shm
+      other:
+      - name: One random Pro Tour Player Card
   Shadowmoor Tournament Pack:
     category: LIMITED
+    subtype: TOURNAMENT
     identifiers:
       abuId: '1107997'
       cardKingdomId: '124496'
@@ -130,9 +245,16 @@ products:
       scgId: SLD-MTG-PCK-SHMTOURNAMENT-EN
       tcgplayerProductId: '185147'
       tntId: '178633'
-    subtype: TOURNAMENT
+    contents:
+      card_count: 75
+      other:
+      - name: One random Pro Tour Player Card
+      pack:
+      - code: tournament
+        set: shm
   Shadowmoor Tournament Pack Display:
     category: LIMITED_CASE
+    subtype: TOURNAMENT
     identifiers:
       abuId: '1107996'
       cardKingdomId: '240204'
@@ -141,4 +263,8 @@ products:
       scgId: SLD-MTG-BBX-SHMTOURNAMENT-EN
       tcgplayerProductId: '693106'
       tntId: '178632'
-    subtype: TOURNAMENT
+    contents:
+      sealed:
+      - count: 12
+        name: Shadowmoor Tournament Pack
+        set: shm

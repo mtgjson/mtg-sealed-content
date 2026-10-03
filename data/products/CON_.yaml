@@ -2,6 +2,7 @@ code: con
 products:
   Conflux Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1107833'
       cardKingdomId: '126253'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-CFX-EN
       tcgplayerProductId: '93516'
       tntId: '237690'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Conflux Booster Pack
+        set: con
   Conflux Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Conflux Booster Box
+        set: con
   Conflux Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476864'
       cardKingdomId: '126254'
@@ -29,9 +40,14 @@ products:
       scgId: SLD-MTG-PCK-CFX-EN
       tcgplayerProductId: '108337'
       tntId: '237691'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: con
   Conflux Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1100353'
       cardKingdomId: '126255'
@@ -42,9 +58,23 @@ products:
       scgId: SLD-MTG-BUN-CFX-EN
       tcgplayerProductId: '78307'
       tntId: '237692'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Shards of Alara Fat Pack Land Pack
+        set: ala
+      other:
+      - name: One card box
+      - name: The Conflux Player's Guide
+      - name: A learn-to-play insert
+      - name: A sample chapter from Agents of Artifice
+      - name: Conflux Spindown Life Counter
+      sealed:
+      - count: 8
+        name: Conflux Booster Pack
+        set: con
   Conflux Intro Pack Bant on the March:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100324'
       cardKingdomId: '126576'
@@ -53,17 +83,43 @@ products:
       scgId: SLD-MTG-INT-CFXINTRO-EN-BANT
       tcgplayerProductId: '501419'
       tntId: '241999'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Bant on the March
+        set: con
+      sealed:
+      - count: 1
+        name: Conflux Booster Pack
+        set: con
   Conflux Intro Pack Display:
     category: DECK_BOX
+    subtype: INTRO
     identifiers:
       cardtraderId: '47351'
       mcmId: '210205'
       tcgplayerProductId: '536267'
       tntId: '237689'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 1
+        name: Conflux Intro Pack Bant on the March
+        set: con
+      - count: 1
+        name: Conflux Intro Pack Esper Air Assault
+        set: con
+      - count: 1
+        name: Conflux Intro Pack Grixis Shambling Army
+        set: con
+      - count: 1
+        name: Conflux Intro Pack Jund Appetite for War
+        set: con
+      - count: 1
+        name: Conflux Intro Pack Naya Domain
+        set: con
   Conflux Intro Pack Esper Air Assault:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100334'
       cardKingdomId: '126577'
@@ -72,9 +128,18 @@ products:
       scgId: SLD-MTG-INT-CFXINTRO-EN-ESPER
       tcgplayerProductId: '501362'
       tntId: '242000'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Esper Air Assault
+        set: con
+      sealed:
+      - count: 1
+        name: Conflux Booster Pack
+        set: con
   Conflux Intro Pack Grixis Shambling Army:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100338'
       cardKingdomId: '126578'
@@ -83,9 +148,18 @@ products:
       scgId: SLD-MTG-INT-CFXINTRO-EN-GRIXIS
       tcgplayerProductId: '501420'
       tntId: '242001'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Grixis Shambling Army
+        set: con
+      sealed:
+      - count: 1
+        name: Conflux Booster Pack
+        set: con
   Conflux Intro Pack Jund Appetite for War:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100354'
       cardKingdomId: '126580'
@@ -94,9 +168,18 @@ products:
       scgId: SLD-MTG-INT-CFXINTRO-EN-JUND
       tcgplayerProductId: '501422'
       tntId: '242002'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Jund Appetite for War
+        set: con
+      sealed:
+      - count: 1
+        name: Conflux Booster Pack
+        set: con
   Conflux Intro Pack Naya Domain:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100355'
       cardKingdomId: '126579'
@@ -105,26 +188,54 @@ products:
       scgId: SLD-MTG-INT-CFXINTRO-EN-NAYA
       tcgplayerProductId: '501421'
       tntId: '242003'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Naya Domain
+        set: con
+      sealed:
+      - count: 1
+        name: Conflux Booster Pack
+        set: con
   Conflux MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '223901'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 145
+      deck:
+      - name: Conflux Redemption
+        set: con
   Conflux MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241654'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 145
+      deck:
+      - name: Conflux Foil Redemption
+        set: con
   Conflux Six Card Booster Box:
     category: BOOSTER_BOX
+    subtype: SIX
     identifiers:
       abuId: '1476866'
-    subtype: SIX
+    contents:
+      sealed:
+      - count: 100
+        name: Conflux Six Card Booster Pack
+        set: con
   Conflux Six Card Booster Pack:
     category: BOOSTER_PACK
+    subtype: SIX
     identifiers:
       abuId: '1476865'
       cardtraderId: '47338'
       mcmId: '253803'
-    subtype: SIX
+    contents:
+      card_count: 6
+      pack:
+      - code: six
+        set: con

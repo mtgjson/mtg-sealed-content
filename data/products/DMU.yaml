@@ -2,13 +2,20 @@ code: dmu
 products:
   Dominaria United Box Topper Pack:
     category: BOOSTER_PACK
+    subtype: TOPPER
     identifiers:
       cardtraderId: '252999'
       mcmId: '679619'
       tcgplayerProductId: '286610'
-    subtype: TOPPER
+    contents:
+      card_count: 1
+      pack:
+      - code: box-topper
+        set: dmu
   Dominaria United Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2022-09-09'
     identifiers:
       abuId: '2220755'
       cardKingdomId: '263988'
@@ -19,16 +26,36 @@ products:
       scgId: SLD-MTG-BUN-DMU-EN
       tcgplayerProductId: '275414'
       tntId: '1751754'
-    release_date: '2022-09-09'
-    subtype: DEFAULT
+    contents:
+      card:
+      - foil: true
+        name: Herd Migration
+        number: 429
+        set: dmu
+      deck:
+      - name: Dominaria United Bundle Land Pack
+        set: dmu
+      other:
+      - name: Dominaria United Spindown
+      sealed:
+      - count: 8
+        name: Dominaria United Set Booster Pack
+        set: dmu
   Dominaria United Bundle Case:
     category: BUNDLE_CASE
+    subtype: DEFAULT
+    release_date: '2022-09-09'
     identifiers:
       tcgplayerProductId: '275429'
-    release_date: '2022-09-09'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 6
+        name: Dominaria United Bundle
+        set: dmu
   Dominaria United Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2022-09-09'
     identifiers:
       abuId: '2207744'
       cardKingdomId: '263989'
@@ -39,16 +66,29 @@ products:
       scgId: SLD-MTG-BBX-DMUCOLLECTOR-EN
       tcgplayerProductId: '275412'
       tntId: '1751757'
-    release_date: '2022-09-09'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Dominaria United Collector Booster Pack
+        set: dmu
+      - count: 1
+        name: Dominaria United Box Topper Pack
+        set: dmu
   Dominaria United Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
+    release_date: '2022-09-09'
     identifiers:
       tcgplayerProductId: '275434'
-    release_date: '2022-09-09'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Dominaria United Collector Booster Box
+        set: dmu
   Dominaria United Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2022-09-09'
     identifiers:
       abuId: '2220777'
       cardKingdomId: '263990'
@@ -58,17 +98,27 @@ products:
       scgId: SLD-MTG-PCK-DMUCOLLECTOR-EN
       tcgplayerProductId: '275407'
       tntId: '1751758'
-    release_date: '2022-09-09'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: dmu
   Dominaria United Collector Booster Sample Pack:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    release_date: '2022-09-09'
     identifiers:
       mcmId: '678642'
       tcgplayerProductId: '579979'
-    release_date: '2022-09-09'
-    subtype: PROMOTIONAL
+    contents:
+      card_count: 2
+      pack:
+      - code: collector-sample
+        set: dmu
   Dominaria United Draft Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2022-09-09'
     identifiers:
       abuId: '2207670'
       cardKingdomId: '263993'
@@ -79,17 +129,30 @@ products:
       scgId: SLD-MTG-BBX-DMUDRAFT-EN
       tcgplayerProductId: '275403'
       tntId: '1751752'
-    release_date: '2022-09-09'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Dominaria United Draft Booster Pack
+        set: dmu
+      - count: 1
+        name: Dominaria United Box Topper Pack
+        set: dmu
   Dominaria United Draft Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2022-09-09'
     identifiers:
       tcgplayerProductId: '275433'
       tntId: '1751751'
-    release_date: '2022-09-09'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Dominaria United Draft Booster Box
+        set: dmu
   Dominaria United Draft Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2022-09-09'
     identifiers:
       abuId: '2220760'
       cardKingdomId: '263992'
@@ -100,10 +163,15 @@ products:
       scgId: SLD-MTG-PCK-DMUDRAFT-EN
       tcgplayerProductId: '275432'
       tntId: '1751753'
-    release_date: '2022-09-09'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: dmu
   Dominaria United Jumpstart Booster Box:
     category: BOOSTER_BOX
+    subtype: JUMPSTART
+    release_date: '2022-09-09'
     identifiers:
       abuId: '2220756'
       cardKingdomId: '263994'
@@ -113,16 +181,26 @@ products:
       scgId: SLD-MTG-BBX-DMUJUMPSTART-EN
       tcgplayerProductId: '275428'
       tntId: '1751765'
-    release_date: '2022-09-09'
-    subtype: JUMPSTART
+    contents:
+      sealed:
+      - count: 18
+        name: Dominaria United Jumpstart Booster Pack
+        set: dmu
   Dominaria United Jumpstart Booster Box Case:
     category: BOOSTER_CASE
+    subtype: JUMPSTART
+    release_date: '2022-09-09'
     identifiers:
       tcgplayerProductId: '275435'
-    release_date: '2022-09-09'
-    subtype: JUMPSTART
+    contents:
+      sealed:
+      - count: 6
+        name: Dominaria United Jumpstart Booster Box
+        set: dmu
   Dominaria United Jumpstart Booster Pack:
     category: BOOSTER_PACK
+    subtype: JUMPSTART
+    release_date: '2022-09-09'
     identifiers:
       abuId: '2220757'
       cardKingdomId: '263995'
@@ -132,30 +210,57 @@ products:
       scgId: SLD-MTG-PCK-DMUJUMPSTART-EN
       tcgplayerProductId: '275425'
       tntId: '1751766'
-    release_date: '2022-09-09'
-    subtype: JUMPSTART
+    contents:
+      card_count: 20
+      pack:
+      - code: jumpstart
+        set: dmu
   Dominaria United MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '264063'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 281
+      deck:
+      - name: Dominaria United Redemption
+        set: dmu
   Dominaria United MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '264062'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 281
+      deck:
+      - name: Dominaria United Foil Redemption
+        set: dmu
   Dominaria United Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2022-09-09'
     identifiers:
       abuId: '2207745'
       cardKingdomId: '263996'
       cardtraderId: '218868'
       mcmId: '669038'
       tcgplayerProductId: '275422'
-    release_date: '2022-09-09'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: Dominaria United Spindown Die
+      - name: Punch-out Counters
+      pack:
+      - code: prerelease
+        set: dmu
+      sealed:
+      - count: 6
+        name: Dominaria United Draft Booster Pack
+        set: dmu
   Dominaria United Set Booster Box:
     category: BOOSTER_BOX
+    subtype: SET
+    release_date: '2022-09-09'
     identifiers:
       abuId: '2207729'
       cardKingdomId: '263997'
@@ -166,16 +271,29 @@ products:
       scgId: SLD-MTG-BBX-DMUSET-EN
       tcgplayerProductId: '275430'
       tntId: '1751755'
-    release_date: '2022-09-09'
-    subtype: SET
+    contents:
+      sealed:
+      - count: 30
+        name: Dominaria United Set Booster Pack
+        set: dmu
+      - count: 1
+        name: Dominaria United Box Topper Pack
+        set: dmu
   Dominaria United Set Booster Box Case:
     category: BOOSTER_CASE
+    subtype: SET
+    release_date: '2022-09-09'
     identifiers:
       tcgplayerProductId: '275431'
-    release_date: '2022-09-09'
-    subtype: SET
+    contents:
+      sealed:
+      - count: 6
+        name: Dominaria United Set Booster Box
+        set: dmu
   Dominaria United Set Booster Pack:
     category: BOOSTER_PACK
+    subtype: SET
+    release_date: '2022-09-09'
     identifiers:
       abuId: '2220761'
       cardKingdomId: '263998'
@@ -186,12 +304,20 @@ products:
       scgId: SLD-MTG-PCK-DMUSET-EN
       tcgplayerProductId: '275405'
       tntId: '1751756'
-    release_date: '2022-09-09'
-    subtype: SET
+    contents:
+      card_count: 12
+      pack:
+      - code: set
+        set: dmu
   Dominaria United Welcome Booster:
     category: BOOSTER_PACK
+    subtype: WELCOME
+    release_date: '2022-09-09'
     identifiers:
       cardtraderId: '358697'
       mcmId: '691262'
-    release_date: '2022-09-09'
-    subtype: WELCOME
+    contents:
+      card_count: 10
+      deck:
+      - name: Dominaria United Welcome Booster
+        set: dmu

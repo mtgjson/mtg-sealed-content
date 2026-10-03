@@ -2,11 +2,17 @@ code: som
 products:
   Scars of Mirrodin 3 Booster Draft Pack:
     category: LIMITED
+    subtype: DRAFT_SET
     identifiers:
       tcgplayerProductId: '35748'
-    subtype: DRAFT_SET
+    contents:
+      sealed:
+      - count: 3
+        name: Scars of Mirrodin Booster Pack
+        set: som
   Scars of Mirrodin Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1107992'
       cardKingdomId: '132079'
@@ -17,14 +23,24 @@ products:
       scgId: SLD-MTG-BBX-SOM-EN
       tcgplayerProductId: '35749'
       tntId: '299359'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Scars of Mirrodin Booster Pack
+        set: som
   Scars of Mirrodin Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '35750'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Scars of Mirrodin Booster Box
+        set: som
   Scars of Mirrodin Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476939'
       cardKingdomId: '132071'
@@ -35,9 +51,14 @@ products:
       scgId: SLD-MTG-PCK-SOM-EN
       tcgplayerProductId: '35747'
       tntId: '299360'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: som
   Scars of Mirrodin Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1101099'
       cardKingdomId: '132111'
@@ -48,9 +69,22 @@ products:
       scgId: SLD-MTG-BUN-SOM-EN
       tcgplayerProductId: '35746'
       tntId: '299361'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Scars of Mirrodin Fat Pack Land Pack
+        set: som
+      other:
+      - name: Scars of Mirrodin spindown life counter
+      - name: player's guide
+      - name: card storage box
+      - name: two 60-card deck boxes
+      sealed:
+      - count: 8
+        name: Scars of Mirrodin Booster Pack
+        set: som
   Scars of Mirrodin Intro Pack Deadspread:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1101103'
       cardKingdomId: '132546'
@@ -59,16 +93,42 @@ products:
       scgId: SLD-MTG-INT-SOMINTRO-EN-DEADSPREAD
       tcgplayerProductId: '196803'
       tntId: '299367'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Deadspread
+        set: som
+      sealed:
+      - count: 1
+        name: Scars of Mirrodin Booster Pack
+        set: som
   Scars of Mirrodin Intro Pack Display:
     category: DECK
+    subtype: INTRO
     identifiers:
       cardtraderId: '47552'
       mcmId: '242509'
       tntId: '299362'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 2
+        name: Scars of Mirrodin Intro Pack Deadspread
+        set: som
+      - count: 2
+        name: Scars of Mirrodin Intro Pack Metalcraft
+        set: som
+      - count: 2
+        name: Scars of Mirrodin Intro Pack Myr of Mirrodin
+        set: som
+      - count: 2
+        name: Scars of Mirrodin Intro Pack Phyrexian Poison
+        set: som
+      - count: 2
+        name: Scars of Mirrodin Intro Pack Relic Breaker
+        set: som
   Scars of Mirrodin Intro Pack Metalcraft:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1101114'
       cardKingdomId: '132545'
@@ -77,9 +137,18 @@ products:
       scgId: SLD-MTG-INT-SOMINTRO-EN-METALCRAFT
       tcgplayerProductId: '196802'
       tntId: '299364'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Metalcraft
+        set: som
+      sealed:
+      - count: 1
+        name: Scars of Mirrodin Booster Pack
+        set: som
   Scars of Mirrodin Intro Pack Myr of Mirrodin:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1101115'
       cardKingdomId: '132544'
@@ -88,9 +157,18 @@ products:
       scgId: SLD-MTG-INT-SOMINTRO-EN-MYR
       tcgplayerProductId: '196801'
       tntId: '299363'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Myr of Mirrodin
+        set: som
+      sealed:
+      - count: 1
+        name: Scars of Mirrodin Booster Pack
+        set: som
   Scars of Mirrodin Intro Pack Phyrexian Poison:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1101117'
       cardKingdomId: '132548'
@@ -99,9 +177,18 @@ products:
       scgId: SLD-MTG-INT-SOMINTRO-EN-PHRYEXIAN
       tcgplayerProductId: '196805'
       tntId: '299366'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Phyrexian Poison
+        set: som
+      sealed:
+      - count: 1
+        name: Scars of Mirrodin Booster Pack
+        set: som
   Scars of Mirrodin Intro Pack Relic Breaker:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1101119'
       cardKingdomId: '132547'
@@ -110,29 +197,69 @@ products:
       scgId: SLD-MTG-INT-SOMINTRO-EN-RELIC
       tcgplayerProductId: '196804'
       tntId: '299365'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Relic Breaker
+        set: som
+      sealed:
+      - count: 1
+        name: Scars of Mirrodin Booster Pack
+        set: som
   Scars of Mirrodin Intro Pack Set of 5:
     category: SUBSET
+    subtype: INTRO
     identifiers:
       abuId: '1101122'
       cardtraderId: '47554'
       mcmId: '242643'
       scgId: SLD-MTG-INT-SOMINTRO-EN-SET5
       tcgplayerProductId: '686504'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 1
+        name: Scars of Mirrodin Intro Pack Deadspread
+        set: som
+      - count: 1
+        name: Scars of Mirrodin Intro Pack Metalcraft
+        set: som
+      - count: 1
+        name: Scars of Mirrodin Intro Pack Myr of Mirrodin
+        set: som
+      - count: 1
+        name: Scars of Mirrodin Intro Pack Phyrexian Poison
+        set: som
+      - count: 1
+        name: Scars of Mirrodin Intro Pack Relic Breaker
+        set: som
   Scars of Mirrodin MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210883'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 249
+      deck:
+      - name: Scars of Mirrodin Redemption
+        set: som
   Scars of Mirrodin MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210871'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 249
+      deck:
+      - name: Scars of Mirrodin Foil Redemption
+        set: som
   Scars of Mirrodin Six Card Booster Pack:
     category: BOOSTER_PACK
+    subtype: SIX
     identifiers:
       cardtraderId: '47537'
       mcmId: '315705'
-    subtype: SIX
+    contents:
+      card_count: 6
+      pack:
+      - code: six
+        set: som

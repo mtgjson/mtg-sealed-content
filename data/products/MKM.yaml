@@ -2,6 +2,8 @@ code: mkm
 products:
   Murders at Karlov Manor Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2024-02-09'
     identifiers:
       abuId: '2452908'
       cardKingdomId: '289643'
@@ -12,16 +14,38 @@ products:
       scgId: SLD-MTG-BUN-MKM-EN
       tcgplayerProductId: '529971'
       tntId: '1797263'
-    release_date: '2024-02-09'
-    subtype: DEFAULT
+    contents:
+      card:
+      - foil: true
+        name: Axebane Ferox
+        number: 428
+        set: mkm
+      deck:
+      - name: Murders at Karlov Manor Bundle Land Pack
+        set: mkm
+      other:
+      - name: Card Storage Box
+      - name: Murders at Karlov Manor Spindown
+      - name: 2 Reference Cards
+      sealed:
+      - count: 9
+        name: Murders at Karlov Manor Play Booster Pack
+        set: mkm
   Murders at Karlov Manor Bundle Case:
     category: BUNDLE_CASE
+    subtype: DEFAULT
+    release_date: '2024-02-09'
     identifiers:
       tcgplayerProductId: '529972'
-    release_date: '2024-02-09'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 6
+        name: Murders at Karlov Manor Bundle
+        set: mkm
   Murders at Karlov Manor Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2024-02-09'
     identifiers:
       abuId: '2452859'
       cardKingdomId: '289642'
@@ -32,16 +56,26 @@ products:
       scgId: SLD-MTG-BBX-MKMCOLLECTOR-EN
       tcgplayerProductId: '529968'
       tntId: '1797261'
-    release_date: '2024-02-09'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Murders at Karlov Manor Collector Booster Pack
+        set: mkm
   Murders at Karlov Manor Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
+    release_date: '2024-02-09'
     identifiers:
       tcgplayerProductId: '529969'
-    release_date: '2024-02-09'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Murders at Karlov Manor Collector Booster Box
+        set: mkm
   Murders at Karlov Manor Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2024-02-09'
     identifiers:
       abuId: '2452854'
       cardKingdomId: '289641'
@@ -52,27 +86,47 @@ products:
       scgId: SLD-MTG-PCK-MKMCOLLECTOR-EN
       tcgplayerProductId: '529967'
       tntId: '1797262'
-    release_date: '2024-02-09'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: mkm
   Murders at Karlov Manor Collector Booster Sample Pack:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
     identifiers:
       cardtraderId: '270468'
       mcmId: '748051'
       tcgplayerProductId: '579920'
-    subtype: PROMOTIONAL
+    contents:
+      card_count: 2
+      pack:
+      - code: collector-sample
+        set: mkm
   Murders at Karlov Manor MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '291403'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 286
+      deck:
+      - name: Murders at Karlov Manor Redemption
+        set: mkm
   Murders at Karlov Manor MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '291404'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 286
+      deck:
+      - name: Murders at Karlov Manor Foil Redemption
+        set: mkm
   Murders at Karlov Manor Play Booster Box:
     category: BOOSTER_BOX
+    subtype: PLAY
+    release_date: '2024-02-09'
     identifiers:
       abuId: '2452856'
       cardKingdomId: '289640'
@@ -84,17 +138,27 @@ products:
       scgId: SLD-MTG-BBX-MKMPLAY-EN
       tcgplayerProductId: '529964'
       tntId: '1797259'
-    release_date: '2024-02-09'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 36
+        name: Murders at Karlov Manor Play Booster Pack
+        set: mkm
   Murders at Karlov Manor Play Booster Box Case:
     category: BOOSTER_CASE
+    subtype: PLAY
+    release_date: '2024-02-09'
     identifiers:
       scgId: SLD-MTG-BBX-MKMPLAYCASE-EN
       tcgplayerProductId: '529965'
-    release_date: '2024-02-09'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 6
+        name: Murders at Karlov Manor Play Booster Box
+        set: mkm
   Murders at Karlov Manor Play Booster Pack:
     category: BOOSTER_PACK
+    subtype: PLAY
+    release_date: '2024-02-09'
     identifiers:
       abuId: '2452852'
       cardKingdomId: '289639'
@@ -106,10 +170,15 @@ products:
       scgId: SLD-MTG-PCK-MKMPLAY-EN
       tcgplayerProductId: '529962'
       tntId: '1797260'
-    release_date: '2024-02-09'
-    subtype: PLAY
+    contents:
+      card_count: 14
+      pack:
+      - code: play
+        set: mkm
   Murders at Karlov Manor Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2024-02-27'
     identifiers:
       cardKingdomId: '289645'
       cardtraderId: '270481'
@@ -117,5 +186,14 @@ products:
       mcmId: '748128'
       scgId: SLD-MTG-INT-MKMPRE-EN
       tcgplayerProductId: '531817'
-    release_date: '2024-02-27'
-    subtype: PRERELEASE
+    contents:
+      card_count: 2
+      other:
+      - name: Murders at Karlov Manor Spindown
+      pack:
+      - code: prerelease
+        set: mkm
+      sealed:
+      - count: 6
+        name: Murders at Karlov Manor Play Booster Pack
+        set: mkm

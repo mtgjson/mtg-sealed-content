@@ -2,15 +2,27 @@ code: slu
 products:
   Secret Lair Ultimate Edition 2 Box Black:
     category: BOX_SET
+    subtype: SECRET_LAIR
+    release_date: '2021-05-07'
     identifiers:
       cardKingdomId: '241976'
       csiId: '311016'
       mcmId: '562340'
       tcgplayerProductId: '230386'
-    release_date: '2021-05-07'
-    subtype: SECRET_LAIR
+    contents:
+      card:
+      - foil: true
+        name: Blast Zone
+        number: 504
+        set: slu
+      card_count: 10
+      deck:
+      - name: Hidden Pathways
+        set: slu
   Secret Lair Ultimate Edition 2 Box Grey:
     category: BOX_SET
+    subtype: SECRET_LAIR
+    release_date: '2021-05-07'
     identifiers:
       abuId: '2016926'
       cardKingdomId: '241977'
@@ -18,10 +30,12 @@ products:
       hareruyaId: '97892'
       mcmId: '562338'
       tcgplayerProductId: '230482'
-    release_date: '2021-05-07'
-    subtype: SECRET_LAIR
+    contents:
+      copy: Secret Lair Ultimate Edition 2 Box Black
   Secret Lair Ultimate Edition Box:
     category: BOX_SET
+    subtype: SECRET_LAIR
+    release_date: '2020-06-12'
     identifiers:
       abuId: '1860776'
       cardKingdomId: '232113'
@@ -31,5 +45,8 @@ products:
       scgId: SLD-MTG-BXS-SLU-EN-ENEMYFETCH
       tcgplayerProductId: '210718'
       tntId: '1716070'
-    release_date: '2020-06-12'
-    subtype: SECRET_LAIR
+    contents:
+      card_count: 5
+      deck:
+      - name: Making Fetch Happen
+        set: slu

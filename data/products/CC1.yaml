@@ -2,6 +2,8 @@ code: cc1
 products:
   Commander Collection Green:
     category: BOX_SET
+    subtype: COMMANDER_COLLECTION
+    release_date: '2020-12-04'
     identifiers:
       abuId: '1928163'
       cardKingdomId: '239977'
@@ -12,10 +14,15 @@ products:
       scgId: SLD-MTG-BXS-CC1-EN-NONFOIL
       tcgplayerProductId: '221302'
       tntId: '1688129'
-    release_date: '2020-12-04'
-    subtype: COMMANDER_COLLECTION
+    contents:
+      card_count: 8
+      deck:
+      - name: 'Commander Collection: Green'
+        set: cc1
   Commander Collection Green Premium:
     category: BOX_SET
+    subtype: COMMANDER_COLLECTION
+    release_date: '2020-12-04'
     identifiers:
       cardKingdomId: '239978'
       cardtraderId: '145708'
@@ -25,5 +32,8 @@ products:
       scgId: SLD-MTG-BXS-CC1-EN-FOIL
       tcgplayerProductId: '221303'
       tntId: '1688130'
-    release_date: '2020-12-04'
-    subtype: COMMANDER_COLLECTION
+    contents:
+      card_count: 8
+      deck:
+      - name: 'Commander Collection: Green - Premium'
+        set: cc1

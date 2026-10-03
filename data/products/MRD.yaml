@@ -2,6 +2,7 @@ code: mrd
 products:
   Mirrodin Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1107946'
       cardKingdomId: '1562'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-MRD-EN
       tcgplayerProductId: '27291'
       tntId: '110760'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Mirrodin Booster Pack
+        set: mrd
   Mirrodin Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Mirrodin Booster Box
+        set: mrd
   Mirrodin Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476906'
       cardKingdomId: '1563'
@@ -29,9 +40,14 @@ products:
       scgId: SLD-MTG-PCK-MRD-EN
       tcgplayerProductId: '27353'
       tntId: '110757'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: mrd
   Mirrodin Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       cardKingdomId: '240342'
       cardtraderId: '46517'
@@ -41,19 +57,45 @@ products:
       scgId: SLD-MTG-BUN-MRD-EN
       tcgplayerProductId: '78320'
       tntId: '155271'
-    subtype: FAT_PACK
+    contents:
+      card_count: 2
+      other:
+      - name: Mirrodin Player's Guide
+      - name: The Mirrodin Novel
+      - name: Mirrodin Special Edition Spindown
+      pack:
+      - code: fat-pack
+        set: mrd
+      sealed:
+      - count: 3
+        name: Mirrodin Booster Pack
+        set: mrd
+      - count: 1
+        name: Mirrodin Tournament Pack
+        set: mrd
   Mirrodin MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241621'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 306
+      deck:
+      - name: Mirrodin Redemption
+        set: mrd
   Mirrodin MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241622'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 306
+      deck:
+      - name: Mirrodin Foil Redemption
+        set: mrd
   Mirrodin Theme Deck Bait and Bludgeon:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100880'
       cardKingdomId: '1565'
@@ -62,9 +104,14 @@ products:
       mcmId: '253704'
       tcgplayerProductId: '127422'
       tntId: '110754'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Bait and Bludgeon
+        set: mrd
   Mirrodin Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       abuId: '1107947'
       cardKingdomId: '240169'
@@ -73,9 +120,23 @@ products:
       mcmId: '210225'
       tcgplayerProductId: '227597'
       tntId: '110758'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 3
+        name: Mirrodin Theme Deck Bait and Bludgeon
+        set: mrd
+      - count: 3
+        name: Mirrodin Theme Deck Little Bashers
+        set: mrd
+      - count: 3
+        name: Mirrodin Theme Deck Sacrificial Bam
+        set: mrd
+      - count: 3
+        name: Mirrodin Theme Deck Wicked Big
+        set: mrd
   Mirrodin Theme Deck Little Bashers:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100881'
       cardKingdomId: '1566'
@@ -84,9 +145,14 @@ products:
       mcmId: '253705'
       tcgplayerProductId: '127421'
       tntId: '110753'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Little Bashers
+        set: mrd
   Mirrodin Theme Deck Sacrificial Bam:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100883'
       cardKingdomId: '1568'
@@ -94,9 +160,14 @@ products:
       mcmId: '253706'
       tcgplayerProductId: '127424'
       tntId: '110751'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Sacrificial Bam
+        set: mrd
   Mirrodin Theme Deck Wicked Big:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100884'
       cardKingdomId: '1567'
@@ -105,14 +176,33 @@ products:
       mcmId: '253707'
       tcgplayerProductId: '127423'
       tntId: '110752'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Wicked Big
+        set: mrd
   Mirrodin Theme Decks Set of 4:
     category: SUBSET
+    subtype: THEME
     identifiers:
       abuId: '1100882'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Mirrodin Theme Deck Bait and Bludgeon
+        set: mrd
+      - count: 1
+        name: Mirrodin Theme Deck Little Bashers
+        set: mrd
+      - count: 1
+        name: Mirrodin Theme Deck Sacrificial Bam
+        set: mrd
+      - count: 1
+        name: Mirrodin Theme Deck Wicked Big
+        set: mrd
   Mirrodin Tournament Pack:
     category: LIMITED
+    subtype: TOURNAMENT
     identifiers:
       abuId: '1100879'
       cardKingdomId: '1564'
@@ -122,9 +212,14 @@ products:
       scgId: SLD-MTG-PCK-MRDTOURNAMENT-EN
       tcgplayerProductId: '127431'
       tntId: '110755'
-    subtype: TOURNAMENT
+    contents:
+      card_count: 75
+      pack:
+      - code: tournament
+        set: mrd
   Mirrodin Tournament Pack Display:
     category: LIMITED_CASE
+    subtype: TOURNAMENT
     identifiers:
       cardKingdomId: '240170'
       cardtraderId: '46524'
@@ -132,4 +227,8 @@ products:
       scgId: SLD-MTG-BBX-MRDTOURNAMENT-EN
       tcgplayerProductId: '693108'
       tntId: '110759'
-    subtype: TOURNAMENT
+    contents:
+      sealed:
+      - count: 12
+        name: Mirrodin Tournament Pack
+        set: mrd

@@ -2,6 +2,8 @@ code: blb
 products:
   Bloomburrow Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2024-08-02'
     identifiers:
       abuId: '2514706'
       cardKingdomId: '298731'
@@ -11,17 +13,40 @@ products:
       mcmId: '774128'
       scgId: SLD-MTG-BUN-BLB-EN
       tcgplayerProductId: '541241'
-    release_date: '2024-08-02'
-    subtype: DEFAULT
+    contents:
+      card:
+      - foil: true
+        name: Thundertrap Trainer
+        number: 386
+        set: blb
+      card_count: 1
+      deck:
+      - name: Bloomburrow Bundle Land Pack
+        set: blb
+      other:
+      - name: Bloomburrow Spindown
+      - name: Card-storage box
+      - name: 2 Reference cards
+      sealed:
+      - count: 9
+        name: Bloomburrow Play Booster Pack
+        set: blb
   Bloomburrow Bundle Case:
     category: BUNDLE_CASE
+    subtype: DEFAULT
+    release_date: '2024-08-02'
     identifiers:
       cardtraderId: '405229'
       tcgplayerProductId: '541242'
-    release_date: '2024-08-02'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 6
+        name: Bloomburrow Bundle
+        set: blb
   Bloomburrow Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2024-08-02'
     identifiers:
       cardKingdomId: '298732'
       cardtraderId: '280426'
@@ -30,16 +55,26 @@ products:
       mcmId: '774110'
       scgId: SLD-MTG-BBX-BLBCOLLECTOR-EN
       tcgplayerProductId: '541238'
-    release_date: '2024-08-02'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Bloomburrow Collector Booster Pack
+        set: blb
   Bloomburrow Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
+    release_date: '2024-08-02'
     identifiers:
       tcgplayerProductId: '541239'
-    release_date: '2024-08-02'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Bloomburrow Collector Booster Box
+        set: blb
   Bloomburrow Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2024-08-02'
     identifiers:
       abuId: '2514704'
       cardKingdomId: '298733'
@@ -49,22 +84,37 @@ products:
       mcmId: '774108'
       scgId: SLD-MTG-PCK-BLBCOLLECTOR-EN
       tcgplayerProductId: '541237'
-    release_date: '2024-08-02'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: blb
   Bloomburrow Collector Booster Sample Pack:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
     identifiers:
       cardtraderId: '353120'
       mcmId: '778454'
       tcgplayerProductId: '579916'
-    subtype: PROMOTIONAL
+    contents:
+      card_count: 2
+      pack:
+      - code: collector-sample
+        set: blb
   Bloomburrow MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '300432'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 281
+      deck:
+      - name: Bloomburrow Redemption
+        set: blb
   Bloomburrow Play Booster Box:
     category: BOOSTER_BOX
+    subtype: PLAY
+    release_date: '2024-08-02'
     identifiers:
       abuId: '2514702'
       cardKingdomId: '298734'
@@ -75,18 +125,28 @@ products:
       miniaturemarketId: 0190f59c6a527129ae699ea1102c503c
       scgId: SLD-MTG-BBX-BLBPLAY-EN
       tcgplayerProductId: '541235'
-    release_date: '2024-08-02'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 36
+        name: Bloomburrow Play Booster Pack
+        set: blb
   Bloomburrow Play Booster Box Case:
     category: BOOSTER_CASE
+    subtype: PLAY
+    release_date: '2024-08-02'
     identifiers:
       csiId: '384251'
       scgId: SLD-MTG-BBX-BLBPLAYCASE-EN
       tcgplayerProductId: '541236'
-    release_date: '2024-08-02'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 6
+        name: Bloomburrow Play Booster Box
+        set: blb
   Bloomburrow Play Booster Pack:
     category: BOOSTER_PACK
+    subtype: PLAY
+    release_date: '2024-08-02'
     identifiers:
       abuId: '2514703'
       cardKingdomId: '298735'
@@ -97,25 +157,46 @@ products:
       miniaturemarketId: 0190f59c6a5b7017bee8b4e611b9fe47
       scgId: SLD-MTG-PCK-BLBPLAY-EN
       tcgplayerProductId: '541234'
-    release_date: '2024-08-02'
-    subtype: PLAY
+    contents:
+      card_count: 14
+      pack:
+      - code: play
+        set: blb
   Bloomburrow Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2024-08-02'
     identifiers:
       cardKingdomId: '298736'
       cardtraderId: '280427'
       mcmId: '774133'
       scgId: SLD-MTG-INT-BLBPRE-EN
       tcgplayerProductId: '541245'
-    release_date: '2024-08-02'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: Bloomburrow Spindown
+      pack:
+      - code: prerelease
+        set: blb
+      sealed:
+      - count: 6
+        name: Bloomburrow Play Booster Pack
+        set: blb
   Bloomburrow Prerelease Pack Case:
     category: LIMITED_CASE
+    subtype: PRERELEASE
     identifiers:
       tcgplayerProductId: '619706'
-    subtype: PRERELEASE
+    contents:
+      sealed:
+      - count: 15
+        name: Bloomburrow Prerelease Pack
+        set: blb
   Bloomburrow Starter Kit:
     category: MULTI_DECK
+    subtype: TWO_PLAYER_STARTER
+    release_date: '2024-08-02'
     identifiers:
       abuId: '2514701'
       cardKingdomId: '298737'
@@ -126,36 +207,95 @@ products:
       miniaturemarketId: 0190f59c6a89714a9687190796a1d30f
       scgId: SLD-MTG-INT-BLBSTARTER-EN
       tcgplayerProductId: '541243'
-    release_date: '2024-08-02'
-    subtype: TWO_PLAYER_STARTER
+    contents:
+      card_count: 120
+      deck:
+      - name: Otter Limits
+        set: blb
+      - name: Hare Raising
+        set: blb
+      other:
+      - name: 4 double sided tokens
+      - name: 2 MTG Arena code cards (available in select regions)
+      - name: Starter Kit Play Guide
   Bloomburrow Starter Kit Case:
     category: DECK_BOX
+    subtype: TWO_PLAYER_STARTER
+    release_date: '2024-08-02'
     identifiers:
       tcgplayerProductId: '541244'
-    release_date: '2024-08-02'
-    subtype: TWO_PLAYER_STARTER
+    contents:
+      sealed:
+      - count: 12
+        name: Bloomburrow Starter Kit
+        set: blb
   Bloomburrow Tin Mouse:
     category: BOX_SET
+    subtype: OTHER
     identifiers:
       tcgplayerProductId: '622741'
-    subtype: OTHER
+    contents:
+      copy: Bloomburrow Tin Otter
   Bloomburrow Tin Otter:
     category: BOX_SET
+    subtype: OTHER
     identifiers:
       tcgplayerProductId: '622734'
-    subtype: OTHER
+    contents:
+      card:
+      - count: 1
+        foil: true
+        name: Patchwork Banner
+        number: 2024-7
+        set: pmei
+      - count: 1
+        foil: true
+        name: Liliana of the Dark Realms
+        number: 2024-8
+        set: pmei
+      sealed:
+      - count: 2
+        name: Bloomburrow Play Booster Pack
+        set: blb
+      - count: 1
+        name: Foundations Play Booster Pack
+        set: fdn
+      - count: 1
+        name: Outlaws of Thunder Junction Play Booster Pack
+        set: otj
+      - count: 1
+        name: Murders at Karlov Manor Play Booster Pack
+        set: mkm
   Bloomburrow Tin Skunk:
     category: BOX_SET
+    subtype: OTHER
     identifiers:
       tcgplayerProductId: '622742'
-    subtype: OTHER
+    contents:
+      copy: Bloomburrow Tin Otter
   Bloomburrow Tins Set of 3:
     category: SUBSET
+    subtype: OTHER
     identifiers:
       tcgplayerProductId: '622735'
-    subtype: OTHER
+    contents:
+      sealed:
+      - count: 1
+        name: Bloomburrow Tin Mouse
+        set: blb
+      - count: 1
+        name: Bloomburrow Tin Otter
+        set: blb
+      - count: 1
+        name: Bloomburrow Tin Skunk
+        set: blb
   Bloomburrow Value Booster:
     category: BOOSTER_PACK
+    subtype: OTHER
     identifiers:
       cardtraderId: '339030'
-    subtype: OTHER
+    contents:
+      card_count: 7
+      pack:
+      - code: value
+        set: blb

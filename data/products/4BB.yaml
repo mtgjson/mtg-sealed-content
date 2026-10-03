@@ -2,28 +2,55 @@ code: 4bb
 products:
   Fourth Edition Black Bordered Booster Box:
     category: BOOSTER_BOX
+    subtype: DEFAULT
     identifiers:
       cardtraderId: '43625'
       mcmId: '298959'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 36
+        name: Fourth Edition Black Bordered Booster Pack
+        set: 4bb
   Fourth Edition Black Bordered Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DEFAULT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Fourth Edition Black Bordered Booster Box
+        set: 4bb
   Fourth Edition Black Bordered Booster Pack:
     category: BOOSTER_PACK
+    subtype: DEFAULT
     identifiers:
       cardtraderId: '43623'
       mcmId: '298958'
-    subtype: DEFAULT
+    contents:
+      card_count: 15
+      pack:
+      - code: default
+        set: 4bb
   Fourth Edition Black Bordered Starter Deck:
     category: LIMITED
+    subtype: STARTER
     identifiers:
       cardtraderId: '43627'
       mcmId: '270437'
-    subtype: STARTER
+    contents:
+      card_count: 60
+      other:
+      - name: Fourth Edition Starter Deck Rule Book
+      pack:
+      - code: starter
+        set: 4bb
   Fourth Edition Black Bordered Starter Deck Box:
     category: LIMITED_CASE
+    subtype: STARTER
     identifiers:
       cardtraderId: '43631'
-    subtype: STARTER
+    contents:
+      sealed:
+      - count: 10
+        name: Fourth Edition Black Bordered Starter Deck
+        set: 4bb

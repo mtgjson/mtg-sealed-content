@@ -2,6 +2,7 @@ code: pvan
 products:
   Vanguard Gift Box:
     category: BUNDLE
+    subtype: GIFT_BUNDLE
     identifiers:
       abuId: '1100272'
       cardKingdomId: '241685'
@@ -10,4 +11,13 @@ products:
       mcmId: '269749'
       scgId: SLD-MTG-BXS-VAN-EN
       tcgplayerProductId: '229450'
-    subtype: GIFT_BUNDLE
+    contents:
+      card_count: 8
+      deck:
+      - name: Series 1
+        set: pvan
+      other:
+      - name: Italian Mirage Tournament Deck
+      - name: Traditional Chinese Visions Booster Pack
+      - name: Korean Weatherlight Booster Pack
+      - name: Vanguard Rules Sheet

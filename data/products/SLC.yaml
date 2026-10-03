@@ -2,25 +2,50 @@ code: slc
 products:
   Secret Lair 30th Anniversary Countdown Kit:
     category: BOX_SET
+    subtype: SECRET_LAIR
+    release_date: '2022-11-16'
     identifiers:
       cardKingdomId: '269545'
       cardtraderId: '228648'
       csiId: '354374'
       mcmId: '685437'
       tcgplayerProductId: '454314'
-    release_date: '2022-11-16'
-    subtype: SECRET_LAIR
+    contents:
+      card:
+      - foil: true
+        name: Lotus Field
+        number: 2023
+        set: slc
+      card_count: 30
+      deck:
+      - name: 30th Anniversary Countdown Kit
+        set: slc
   Secret Lair Countdown An Encyclopedia of Magic:
     category: BOX_SET
+    subtype: SECRET_LAIR
+    release_date: '2025-11-03'
     identifiers:
       cardtraderId: '358254'
       mcmId: '859727'
       tcgplayerProductId: '660745'
-    release_date: '2025-11-03'
-    subtype: SECRET_LAIR
+    contents:
+      card:
+      - foil: true
+        name: Alhammarret's Archive
+        number: 27
+        set: slc
+      card_count: 26
+      deck:
+      - name: An Encyclopedia of Magic
+        set: slc
   Secret Lair Countdown An Encyclopedia of Magic Set of 2:
     category: SUBSET
+    subtype: SECRET_LAIR_BUNDLE
+    release_date: '2025-11-03'
     identifiers:
       tcgplayerProductId: '662006'
-    release_date: '2025-11-03'
-    subtype: SECRET_LAIR_BUNDLE
+    contents:
+      sealed:
+      - count: 2
+        name: Secret Lair Countdown An Encyclopedia of Magic
+        set: slc

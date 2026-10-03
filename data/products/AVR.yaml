@@ -2,11 +2,18 @@ code: avr
 products:
   Avacyn Restored 3 Booster Draft Pack:
     category: LIMITED
+    subtype: DRAFT_SET
     identifiers:
       tcgplayerProductId: '58057'
-    subtype: DRAFT_SET
+    contents:
+      sealed:
+      - count: 6
+        name: Avacyn Restored Booster Pack
+        set: avr
   Avacyn Restored Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2012-05-04'
     identifiers:
       abuId: '1107769'
       cardKingdomId: '186639'
@@ -17,15 +24,25 @@ products:
       scgId: SLD-MTG-BBX-AVR-EN
       tcgplayerProductId: '58058'
       tntId: '328588'
-    release_date: '2012-05-04'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Avacyn Restored Booster Pack
+        set: avr
   Avacyn Restored Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '58060'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Avacyn Restored Booster Box
+        set: avr
   Avacyn Restored Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2012-05-04'
     identifiers:
       abuId: '1476851'
       cardKingdomId: '186745'
@@ -36,10 +53,14 @@ products:
       scgId: SLD-MTG-PCK-AVR-EN
       tcgplayerProductId: '58056'
       tntId: '335407'
-    release_date: '2012-05-04'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: avr
   Avacyn Restored Event Deck Deaths Encroach:
     category: DECK
+    subtype: EVENT
     identifiers:
       abuId: '1100121'
       cardKingdomId: '187248'
@@ -48,9 +69,18 @@ products:
       scgId: SLD-MTG-INT-AVREVENT-EN-DEATHS
       tcgplayerProductId: '59110'
       tntId: '375902'
-    subtype: EVENT
+    contents:
+      card_count: 75
+      deck:
+      - name: Death's Encroach
+        set: avr
+      other:
+      - name: Avacyn Restored Deck Box
+      - name: Avacyn Restored Premium Spin Down
+      - name: Magic Strategy and Mechanics Guide
   Avacyn Restored Event Deck Humanitys Vengeance:
     category: DECK
+    subtype: EVENT
     identifiers:
       abuId: '1100122'
       cardKingdomId: '187247'
@@ -59,16 +89,34 @@ products:
       scgId: SLD-MTG-INT-AVREVENT-EN-HUMANITYS
       tcgplayerProductId: '59109'
       tntId: '375903'
-    subtype: EVENT
+    contents:
+      card_count: 75
+      deck:
+      - name: Humanity's Vengeance
+        set: avr
+      other:
+      - name: Avacyn Restored Deck Box
+      - name: Avacyn Restored Premium Spin Down
+      - name: Magic Strategy and Mechanics Guide
   Avacyn Restored Event Decks Set of 2:
     category: SUBSET
+    subtype: EVENT
     identifiers:
       cardtraderId: '47742'
       mcmId: '255441'
       tcgplayerProductId: '59111'
-    subtype: EVENT
+    contents:
+      sealed:
+      - count: 1
+        name: Avacyn Restored Event Deck Deaths Encroach
+        set: avr
+      - count: 1
+        name: Avacyn Restored Event Deck Humanitys Vengeance
+        set: avr
   Avacyn Restored Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
+    release_date: '2012-05-04'
     identifiers:
       abuId: '1100124'
       cardKingdomId: '186747'
@@ -79,10 +127,22 @@ products:
       scgId: SLD-MTG-BUN-AVR-EN
       tcgplayerProductId: '58059'
       tntId: '335405'
-    release_date: '2012-05-04'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Avacyn Restored Fat Pack Land Pack
+        set: avr
+      other:
+      - name: Card Box with Avacyn Restored Artwork
+      - name: Avacyn Restored Spindown
+      - name: Avacyn Restored Players Guide
+      sealed:
+      - count: 9
+        name: Avacyn Restored Booster Pack
+        set: avr
   Avacyn Restored Intro Pack Angelic Might:
     category: DECK
+    subtype: INTRO
+    release_date: '2012-05-04'
     identifiers:
       abuId: '1100126'
       cardKingdomId: '186993'
@@ -91,10 +151,19 @@ products:
       scgId: SLD-MTG-INT-AVRINTRO-EN-ANGELIC
       tcgplayerProductId: '58262'
       tntId: '374469'
-    release_date: '2012-05-04'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Angelic Might
+        set: avr
+      sealed:
+      - count: 1
+        name: Avacyn Restored Booster Pack
+        set: avr
   Avacyn Restored Intro Pack Bound by Strength:
     category: DECK
+    subtype: INTRO
+    release_date: '2012-05-04'
     identifiers:
       abuId: '1100128'
       cardKingdomId: '186997'
@@ -103,17 +172,43 @@ products:
       scgId: SLD-MTG-INT-AVRINTRO-EN-BOUND
       tcgplayerProductId: '58266'
       tntId: '374483'
-    release_date: '2012-05-04'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Bound by Strength
+        set: avr
+      sealed:
+      - count: 1
+        name: Avacyn Restored Booster Pack
+        set: avr
   Avacyn Restored Intro Pack Display:
     category: DECK_BOX
+    subtype: INTRO
     identifiers:
       cardtraderId: '47743'
       mcmId: '254189'
       tntId: '344720'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 2
+        name: Avacyn Restored Intro Pack Angelic Might
+        set: avr
+      - count: 2
+        name: Avacyn Restored Intro Pack Bound by Strength
+        set: avr
+      - count: 2
+        name: Avacyn Restored Intro Pack Fiery Dawn
+        set: avr
+      - count: 2
+        name: Avacyn Restored Intro Pack Slaughterhouse
+        set: avr
+      - count: 2
+        name: Avacyn Restored Intro Pack Solitary Fiends
+        set: avr
   Avacyn Restored Intro Pack Fiery Dawn:
     category: DECK
+    subtype: INTRO
+    release_date: '2012-05-04'
     identifiers:
       abuId: '1100131'
       cardKingdomId: '186996'
@@ -122,10 +217,19 @@ products:
       scgId: SLD-MTG-INT-AVRINTRO-EN-FIERY
       tcgplayerProductId: '58265'
       tntId: '374482'
-    release_date: '2012-05-04'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Fiery Dawn
+        set: avr
+      sealed:
+      - count: 1
+        name: Avacyn Restored Booster Pack
+        set: avr
   Avacyn Restored Intro Pack Slaughterhouse:
     category: DECK
+    subtype: INTRO
+    release_date: '2012-05-04'
     identifiers:
       abuId: '1100132'
       cardKingdomId: '186995'
@@ -134,10 +238,19 @@ products:
       scgId: SLD-MTG-INT-AVRINTRO-EN-SLAUGHTERHOUSE
       tcgplayerProductId: '58264'
       tntId: '374481'
-    release_date: '2012-05-04'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Slaughterhouse
+        set: avr
+      sealed:
+      - count: 1
+        name: Avacyn Restored Booster Pack
+        set: avr
   Avacyn Restored Intro Pack Solitary Fiends:
     category: DECK
+    subtype: INTRO
+    release_date: '2012-05-04'
     identifiers:
       abuId: '1100135'
       cardKingdomId: '186994'
@@ -146,28 +259,67 @@ products:
       scgId: SLD-MTG-INT-AVRINTRO-EN-SOLITARY
       tcgplayerProductId: '58263'
       tntId: '374480'
-    release_date: '2012-05-04'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Solitary Fiends
+        set: avr
+      sealed:
+      - count: 1
+        name: Avacyn Restored Booster Pack
+        set: avr
   Avacyn Restored Intro Packs Set of 5:
     category: SUBSET
+    subtype: INTRO
+    release_date: '2007-01-01'
     identifiers:
       cardtraderId: '47744'
       mcmId: '254188'
-    release_date: '2007-01-01'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 1
+        name: Avacyn Restored Intro Pack Angelic Might
+        set: avr
+      - count: 1
+        name: Avacyn Restored Intro Pack Bound by Strength
+        set: avr
+      - count: 1
+        name: Avacyn Restored Intro Pack Fiery Dawn
+        set: avr
+      - count: 1
+        name: Avacyn Restored Intro Pack Slaughterhouse
+        set: avr
+      - count: 1
+        name: Avacyn Restored Intro Pack Solitary Fiends
+        set: avr
   Avacyn Restored MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210858'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 244
+      deck:
+      - name: Avacyn Restored Redemption
+        set: avr
   Avacyn Restored MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210874'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 244
+      deck:
+      - name: Avacyn Restored Foil Redemption
+        set: avr
   Avacyn Restored Six Card Booster Pack:
     category: BOOSTER_PACK
+    subtype: SIX
     identifiers:
       cardtraderId: '47725'
       mcmId: '315711'
-    subtype: SIX
+    contents:
+      card_count: 6
+      pack:
+      - code: six
+        set: avr

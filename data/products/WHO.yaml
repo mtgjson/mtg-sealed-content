@@ -2,6 +2,8 @@ code: who
 products:
   Doctor Who Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2023-10-13'
     identifiers:
       cardKingdomId: '283462'
       cardtraderId: '246949'
@@ -10,16 +12,26 @@ products:
       mcmId: '710800'
       scgId: SLD-MTG-BBX-WHOCOLLECTOR-EN
       tcgplayerProductId: '496076'
-    release_date: '2023-10-13'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Doctor Who Collector Booster Pack
+        set: who
   Doctor Who Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
+    release_date: '2023-10-13'
     identifiers:
       tcgplayerProductId: '496077'
-    release_date: '2023-10-13'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Doctor Who Collector Booster Box
+        set: who
   Doctor Who Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2023-10-13'
     identifiers:
       abuId: '2407567'
       cardKingdomId: '283464'
@@ -30,18 +42,28 @@ products:
       scgId: SLD-MTG-PCK-WHOCOLLECTOR-EN
       tcgplayerProductId: '496075'
       tntId: '1789043'
-    release_date: '2023-10-13'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: who
   Doctor Who Collector Booster Sample Pack:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    release_date: '2023-10-13'
     identifiers:
       cardtraderId: '264375'
       mcmId: '740399'
       tcgplayerProductId: '579922'
-    release_date: '2023-10-13'
-    subtype: PROMOTIONAL
+    contents:
+      card_count: 2
+      pack:
+      - code: collector-sample
+        set: who
   Doctor Who Commander Deck Blast From the Past:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2023-10-13'
     identifiers:
       abuId: '2407570'
       cardKingdomId: '283469'
@@ -52,10 +74,24 @@ products:
       scgId: SLD-MTG-MLT-WHO-EN-BLAST
       tcgplayerProductId: '496071'
       tntId: '1789040'
-    release_date: '2023-10-13'
-    subtype: COMMANDER
+    contents:
+      card_count: 110
+      deck:
+      - name: Blast from the Past
+        set: who
+      other:
+      - name: 10 Double-faced tokens
+      - name: Planar Die
+      - name: Deck Box
+      - name: Life Tracker
+      sealed:
+      - count: 1
+        name: Doctor Who Collector Booster Sample Pack
+        set: who
   Doctor Who Commander Deck Masters of Evil:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2023-10-13'
     identifiers:
       abuId: '2407569'
       cardKingdomId: '283468'
@@ -66,10 +102,24 @@ products:
       scgId: SLD-MTG-MLT-WHO-EN-MASTERS
       tcgplayerProductId: '496070'
       tntId: '1789038'
-    release_date: '2023-10-13'
-    subtype: COMMANDER
+    contents:
+      card_count: 110
+      deck:
+      - name: Masters of Evil
+        set: who
+      other:
+      - name: 10 Double-faced tokens
+      - name: Planar Die
+      - name: Deck Box
+      - name: Life Tracker
+      sealed:
+      - count: 1
+        name: Doctor Who Collector Booster Sample Pack
+        set: who
   Doctor Who Commander Deck Paradox Power:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2023-10-13'
     identifiers:
       abuId: '2407572'
       cardKingdomId: '283467'
@@ -80,10 +130,24 @@ products:
       scgId: SLD-MTG-MLT-WHO-EN-PARADOX
       tcgplayerProductId: '496073'
       tntId: '1789039'
-    release_date: '2023-10-13'
-    subtype: COMMANDER
+    contents:
+      card_count: 110
+      deck:
+      - name: Paradox Power
+        set: who
+      other:
+      - name: 10 Double-faced tokens
+      - name: Planar Die
+      - name: Deck Box
+      - name: Life Tracker
+      sealed:
+      - count: 1
+        name: Doctor Who Collector Booster Sample Pack
+        set: who
   Doctor Who Commander Deck Timey Wimey:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2023-10-13'
     identifiers:
       abuId: '2407571'
       cardKingdomId: '283466'
@@ -94,10 +158,24 @@ products:
       scgId: SLD-MTG-MLT-WHO-EN-TIMEY
       tcgplayerProductId: '496072'
       tntId: '1789037'
-    release_date: '2023-10-13'
-    subtype: COMMANDER
+    contents:
+      card_count: 110
+      deck:
+      - name: Timey-Wimey
+        set: who
+      other:
+      - name: 10 Double-faced tokens
+      - name: Planar Die
+      - name: Deck Box
+      - name: Life Tracker
+      sealed:
+      - count: 1
+        name: Doctor Who Collector Booster Sample Pack
+        set: who
   Doctor Who Commander Decks Set of 4:
     category: SUBSET
+    subtype: COMMANDER
+    release_date: '2023-10-13'
     identifiers:
       cardKingdomId: '283465'
       cardtraderId: '259361'
@@ -107,5 +185,17 @@ products:
       scgId: SLD-MTG-MLT-WHO-EN-SET4
       tcgplayerProductId: '496074'
       tntId: '1789041'
-    release_date: '2023-10-13'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Doctor Who Commander Deck Blast From the Past
+        set: who
+      - count: 1
+        name: Doctor Who Commander Deck Masters of Evil
+        set: who
+      - count: 1
+        name: Doctor Who Commander Deck Paradox Power
+        set: who
+      - count: 1
+        name: Doctor Who Commander Deck Timey Wimey
+        set: who

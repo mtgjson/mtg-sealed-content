@@ -2,6 +2,7 @@ code: ons
 products:
   Onslaught Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1100954'
       cardKingdomId: '1506'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-ONS-EN
       tcgplayerProductId: '27295'
       tntId: '104432'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Onslaught Booster Pack
+        set: ons
   Onslaught Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Onslaught Booster Box
+        set: ons
   Onslaught Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476918'
       cardKingdomId: '1507'
@@ -29,9 +40,14 @@ products:
       scgId: SLD-MTG-PCK-ONS-EN
       tcgplayerProductId: '27357'
       tntId: '104433'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: ons
   Onslaught Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       cardKingdomId: '240339'
       cardtraderId: '46312'
@@ -41,19 +57,45 @@ products:
       scgId: SLD-MTG-BUN-ONS-EN
       tcgplayerProductId: '78324'
       tntId: '155129'
-    subtype: FAT_PACK
+    contents:
+      card_count: 2
+      other:
+      - name: Onslaught Player's Guide
+      - name: The Onslaught Novel
+      - name: Onslaught Special Edition Spindown
+      pack:
+      - code: fat-pack
+        set: ons
+      sealed:
+      - count: 3
+        name: Onslaught Booster Pack
+        set: ons
+      - count: 1
+        name: Onslaught Tournament Pack
+        set: ons
   Onslaught MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241614'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 350
+      deck:
+      - name: Onslaught Redemption
+        set: ons
   Onslaught MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241613'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 350
+      deck:
+      - name: Onslaught Foil Redemption
+        set: ons
   Onslaught Theme Deck Bait and Switch:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1476919'
       cardKingdomId: '1509'
@@ -62,9 +104,14 @@ products:
       mcmId: '253716'
       tcgplayerProductId: '96346'
       tntId: '104513'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Bait & Switch
+        set: ons
   Onslaught Theme Deck Celestial Assault:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100963'
       cardKingdomId: '1510'
@@ -73,9 +120,14 @@ products:
       mcmId: '253717'
       tcgplayerProductId: '96347'
       tntId: '106133'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Celestial Assault
+        set: ons
   Onslaught Theme Deck Devastation:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100965'
       cardKingdomId: '1512'
@@ -84,17 +136,36 @@ products:
       mcmId: '253718'
       tcgplayerProductId: '96348'
       tntId: '104515'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Devastation
+        set: ons
   Onslaught Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       abuId: '1100968'
       cardtraderId: '46322'
       mcmId: '210235'
       tntId: '104436'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 3
+        name: Onslaught Theme Deck Bait and Switch
+        set: ons
+      - count: 3
+        name: Onslaught Theme Deck Celestial Assault
+        set: ons
+      - count: 3
+        name: Onslaught Theme Deck Devastation
+        set: ons
+      - count: 3
+        name: Onslaught Theme Deck Ivory Doom
+        set: ons
   Onslaught Theme Deck Ivory Doom:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100967'
       cardKingdomId: '1511'
@@ -103,14 +174,33 @@ products:
       mcmId: '253719'
       tcgplayerProductId: '96349'
       tntId: '104514'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Ivory Doom
+        set: ons
   Onslaught Theme Decks Set of 4:
     category: SUBSET
+    subtype: THEME
     identifiers:
       abuId: '1100973'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Onslaught Theme Deck Bait and Switch
+        set: ons
+      - count: 1
+        name: Onslaught Theme Deck Celestial Assault
+        set: ons
+      - count: 1
+        name: Onslaught Theme Deck Devastation
+        set: ons
+      - count: 1
+        name: Onslaught Theme Deck Ivory Doom
+        set: ons
   Onslaught Tournament Pack:
     category: LIMITED
+    subtype: TOURNAMENT
     identifiers:
       abuId: '1100952'
       cardKingdomId: '1508'
@@ -120,9 +210,14 @@ products:
       scgId: SLD-MTG-PCK-ONSTOURNAMENT-EN
       tcgplayerProductId: '167795'
       tntId: '104435'
-    subtype: TOURNAMENT
+    contents:
+      card_count: 75
+      pack:
+      - code: tournament
+        set: ons
   Onslaught Tournament Pack Display:
     category: LIMITED_CASE
+    subtype: TOURNAMENT
     identifiers:
       abuId: '1100960'
       cardKingdomId: '240180'
@@ -131,4 +226,8 @@ products:
       scgId: SLD-MTG-BBX-ONSTOURNAMENT-EN
       tcgplayerProductId: '544192'
       tntId: '104434'
-    subtype: TOURNAMENT
+    contents:
+      sealed:
+      - count: 12
+        name: Onslaught Tournament Pack
+        set: ons

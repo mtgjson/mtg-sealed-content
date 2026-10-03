@@ -2,6 +2,7 @@ code: fut
 products:
   Future Sight Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1107862'
       cardKingdomId: '122307'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-FUT-EN
       tcgplayerProductId: '27280'
       tntId: '144505'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Future Sight Booster Pack
+        set: fut
   Future Sight Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Future Sight Booster Box
+        set: fut
   Future Sight Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476880'
       cardKingdomId: '122308'
@@ -29,9 +40,14 @@ products:
       scgId: SLD-MTG-PCK-FUT-EN
       tcgplayerProductId: '27342'
       tntId: '144498'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: fut
   Future Sight Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1107863'
       cardKingdomId: '122310'
@@ -42,27 +58,65 @@ products:
       scgId: SLD-MTG-BUN-FUT-EN
       tcgplayerProductId: '78312'
       tntId: '155241'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Time Spiral Fat Pack Land Pack
+        set: tsp
+      other:
+      - name: 2 Card Storage Boxes
+      - name: Future Sight Spindown
+      - name: Future Sight Novel
+      - name: Random Pro Tour Player Card
+      - name: Six Color-Coded Mana Dividers
+      sealed:
+      - count: 6
+        name: Future Sight Booster Pack
+        set: fut
   Future Sight MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241645'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 180
+      deck:
+      - name: Future Sight Redemption
+        set: fut
   Future Sight MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241644'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 180
+      deck:
+      - name: Future Sight Foil Redemption
+        set: fut
   Future Sight Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       cardtraderId: '47200'
       mcmId: '210214'
       tcgplayerProductId: '106356'
       tntId: '144504'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 3
+        name: Future Sight Theme Deck Fate Blaster
+        set: fut
+      - count: 3
+        name: Future Sight Theme Deck Future Shock
+        set: fut
+      - count: 3
+        name: Future Sight Theme Deck Rebels Unite
+        set: fut
+      - count: 3
+        name: Future Sight Theme Deck Suspended Sentence
+        set: fut
   Future Sight Theme Deck Fate Blaster:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100546'
       cardKingdomId: '122698'
@@ -71,9 +125,16 @@ products:
       mcmId: '253653'
       tcgplayerProductId: '106346'
       tntId: '144499'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Fate Blaster
+        set: fut
+      other:
+      - name: One random Pro Tour Player Card
   Future Sight Theme Deck Future Shock:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100547'
       cardKingdomId: '122699'
@@ -82,9 +143,16 @@ products:
       mcmId: '253654'
       tcgplayerProductId: '106347'
       tntId: '144500'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Future Shock
+        set: fut
+      other:
+      - name: One random Pro Tour Player Card
   Future Sight Theme Deck Rebels Unite:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100548'
       cardKingdomId: '122700'
@@ -93,9 +161,16 @@ products:
       mcmId: '253655'
       tcgplayerProductId: '106348'
       tntId: '144501'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Rebels Unite
+        set: fut
+      other:
+      - name: One random Pro Tour Player Card
   Future Sight Theme Deck Suspended Sentence:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100550'
       cardKingdomId: '122701'
@@ -104,4 +179,10 @@ products:
       mcmId: '253656'
       tcgplayerProductId: '106349'
       tntId: '144502'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Suspended Sentence
+        set: fut
+      other:
+      - name: One random Pro Tour Player Card

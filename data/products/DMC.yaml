@@ -2,12 +2,22 @@ code: dmc
 products:
   Dominaria United Commander Deck Display:
     category: DECK_BOX
+    subtype: COMMANDER
+    release_date: '2022-09-09'
     identifiers:
       tcgplayerProductId: '279541'
-    release_date: '2022-09-09'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 2
+        name: Dominaria United Commander Deck Legends Legacy
+        set: dmc
+      - count: 2
+        name: Dominaria United Commander Deck Painbow
+        set: dmc
   Dominaria United Commander Deck Legends Legacy:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2022-09-09'
     identifiers:
       abuId: '2220759'
       cardKingdomId: '264001'
@@ -18,10 +28,22 @@ products:
       scgId: SLD-MTG-MLT-DMC-EN-LEGACY
       tcgplayerProductId: '279817'
       tntId: '1751760'
-    release_date: '2022-09-09'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Legends' Legacy
+        set: dmc
+      other:
+      - name: Dominaria United Life Wheel
+      - name: 10 Double Sided Tokens
+      sealed:
+      - count: 1
+        name: Dominaria United Collector Booster Sample Pack
+        set: dmu
   Dominaria United Commander Deck Painbow:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2022-09-09'
     identifiers:
       abuId: '2220758'
       cardKingdomId: '264002'
@@ -32,10 +54,22 @@ products:
       scgId: SLD-MTG-MLT-DMC-EN-PAINBOW
       tcgplayerProductId: '279816'
       tntId: '1751761'
-    release_date: '2022-09-09'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Painbow
+        set: dmc
+      other:
+      - name: Dominaria United Life Wheel
+      - name: 10 Double Sided Tokens
+      sealed:
+      - count: 1
+        name: Dominaria United Collector Booster Sample Pack
+        set: dmu
   Dominaria United Commander Decks Set of 2:
     category: SUBSET
+    subtype: COMMANDER
+    release_date: '2022-09-09'
     identifiers:
       cardKingdomId: '263991'
       cardtraderId: '219609'
@@ -43,5 +77,11 @@ products:
       mcmId: '669193'
       scgId: SLD-MTG-MLT-DMC-EN-SET2
       tcgplayerProductId: '279540'
-    release_date: '2022-09-09'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Dominaria United Commander Deck Legends Legacy
+        set: dmc
+      - count: 1
+        name: Dominaria United Commander Deck Painbow
+        set: dmc

@@ -2,6 +2,8 @@ code: msc
 products:
   Marvel Super Heroes Commander Deck Avengers Assemble:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2026-06-26'
     identifiers:
       abuId: '2686964'
       cardKingdomId: '327059'
@@ -10,10 +12,19 @@ products:
       miniaturemarketId: 019c06a1f11c73dba2cca502adc63b40
       scgId: SLD-MTG-CMD-MSC-EN-AVENGERS
       tcgplayerProductId: '675634'
-    release_date: '2026-06-26'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Avengers Assemble
+        set: msc
+      other:
+      - name: 10 Non-foil double-sided tokens
+      - name: Reference card
+      - name: Deck box
   Marvel Super Heroes Commander Deck Avengers Assemble Collector's Edition:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2026-06-26'
     identifiers:
       abuId: '2686994'
       cardKingdomId: '327054'
@@ -22,19 +33,42 @@ products:
       miniaturemarketId: 019c06a22bb272e88501eb7ba620fb3f
       scgId: SLD-MTG-CMD-MSCCOLLECTOR-EN-AVENGERS
       tcgplayerProductId: '675627'
-    release_date: '2026-06-26'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Avengers Assemble Collector's Edition
+        set: msc
+      other:
+      - name: 10 Double-sided tokens (surge foil front, non-foil back)
+      - name: Reference card
+      - name: Deck box
   Marvel Super Heroes Commander Deck Collector's Edition Set of 4:
     category: SUBSET
+    subtype: COMMANDER
     identifiers:
       cardtraderId: '370639'
       mcmId: '869502'
       miniaturemarketId: 019c06a226587110bac7dd1e43f7ba09
       scgId: SLD-MTG-CMD-MSCCOLLECTOR-EN-SET4
       tcgplayerProductId: '675636'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Marvel Super Heroes Commander Deck Avengers Assemble Collector's Edition
+        set: msc
+      - count: 1
+        name: Marvel Super Heroes Commander Deck Doom Prevails Collector's Edition
+        set: msc
+      - count: 1
+        name: Marvel Super Heroes Commander Deck The Fantastic Four Collector's Edition
+        set: msc
+      - count: 1
+        name: Marvel Super Heroes Commander Deck Wakanda Forever Collector's Edition
+        set: msc
   Marvel Super Heroes Commander Deck Doom Prevails:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2026-06-26'
     identifiers:
       abuId: '2686977'
       cardKingdomId: '327062'
@@ -43,10 +77,19 @@ products:
       miniaturemarketId: 019c06a1fc6d70e7a0d0fb8ef7f1551b
       scgId: SLD-MTG-CMD-MSC-EN-DOOM
       tcgplayerProductId: '675631'
-    release_date: '2026-06-26'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Doom Prevails
+        set: msc
+      other:
+      - name: 10 Non-foil double-sided tokens
+      - name: Reference card
+      - name: Deck box
   Marvel Super Heroes Commander Deck Doom Prevails Collector's Edition:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2026-06-26'
     identifiers:
       abuId: '2687005'
       cardKingdomId: '327057'
@@ -55,10 +98,18 @@ products:
       miniaturemarketId: 019c06a237aa71c6bc8cdf67515e1be8
       scgId: SLD-MTG-CMD-MSCCOLLECTOR-EN-DOOM
       tcgplayerProductId: '675630'
-    release_date: '2026-06-26'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Doom Prevails Collector's Edition
+        set: msc
+      other:
+      - name: 10 Double-sided tokens (surge foil front, non-foil back)
+      - name: Reference card
+      - name: Deck box
   Marvel Super Heroes Commander Deck Set of 4:
     category: SUBSET
+    subtype: COMMANDER
     identifiers:
       cardKingdomId: '327063'
       cardtraderId: '370638'
@@ -66,9 +117,24 @@ products:
       miniaturemarketId: 019c06a1ebb8735091bc7d2e81123a23
       scgId: SLD-MTG-CMD-MSC-EN-SET4
       tcgplayerProductId: '675635'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Marvel Super Heroes Commander Deck Avengers Assemble
+        set: msc
+      - count: 1
+        name: Marvel Super Heroes Commander Deck Doom Prevails
+        set: msc
+      - count: 1
+        name: Marvel Super Heroes Commander Deck The Fantastic Four
+        set: msc
+      - count: 1
+        name: Marvel Super Heroes Commander Deck Wakanda Forever
+        set: msc
   Marvel Super Heroes Commander Deck The Fantastic Four:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2026-06-26'
     identifiers:
       abuId: '2686972'
       cardKingdomId: '327061'
@@ -77,10 +143,19 @@ products:
       miniaturemarketId: 019c06a2052773b283b4a79f8ecfe5f8
       scgId: SLD-MTG-CMD-MSC-EN-FANTASTIC
       tcgplayerProductId: '675632'
-    release_date: '2026-06-26'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: The Fantastic Four
+        set: msc
+      other:
+      - name: 10 Non-foil double-sided tokens
+      - name: Reference card
+      - name: Deck box
   Marvel Super Heroes Commander Deck The Fantastic Four Collector's Edition:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2026-06-26'
     identifiers:
       abuId: '2687004'
       cardKingdomId: '327056'
@@ -89,10 +164,19 @@ products:
       miniaturemarketId: 019c06a24184702d9373b99728a33b0b
       scgId: SLD-MTG-CMD-MSCCOLLECTOR-EN-FANTASTIC
       tcgplayerProductId: '675629'
-    release_date: '2026-06-26'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: The Fantastic Four Collector's Edition
+        set: msc
+      other:
+      - name: 10 Double-sided tokens (surge foil front, non-foil back)
+      - name: Reference card
+      - name: Deck box
   Marvel Super Heroes Commander Deck Wakanda Forever:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2026-06-26'
     identifiers:
       abuId: '2686971'
       cardKingdomId: '327060'
@@ -101,10 +185,19 @@ products:
       miniaturemarketId: 019c06a20f94733fb73677030b636312
       scgId: SLD-MTG-CMD-MSC-EN-WAKANDA
       tcgplayerProductId: '675633'
-    release_date: '2026-06-26'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Wakanda Forever
+        set: msc
+      other:
+      - name: 10 Non-foil double-sided tokens
+      - name: Reference card
+      - name: Deck box
   Marvel Super Heroes Commander Deck Wakanda Forever Collector's Edition:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2026-06-26'
     identifiers:
       abuId: '2687006'
       cardKingdomId: '327055'
@@ -113,25 +206,92 @@ products:
       miniaturemarketId: 019c06a24ca470758c6b18aab43f3d6e
       scgId: SLD-MTG-CMD-MSCCOLLECTOR-EN-WAKANDA
       tcgplayerProductId: '675628'
-    release_date: '2026-06-26'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Wakanda Forever Collector's Edition
+        set: msc
+      other:
+      - name: 10 Double-sided tokens (surge foil front, non-foil back)
+      - name: Reference card
+      - name: Deck box
   Marvel Super Heroes Commander Kit Avengers Assemble:
     category: BOX_SET
+    subtype: COMMANDER
     identifiers:
       tcgplayerProductId: '711532'
-    subtype: COMMANDER
+    contents:
+      card:
+      - foil: true
+        name: Avengers Tower
+        number: 2026-19
+        set: pmei
+      other:
+      - name: Strategy guide
+      sealed:
+      - count: 1
+        name: Marvel Super Heroes Commander Deck Avengers Assemble
+        set: msc
+      - count: 2
+        name: Marvel Super Heroes Play Booster Pack
+        set: msh
   Marvel Super Heroes Commander Kit Doom Prevails:
     category: BOX_SET
+    subtype: COMMANDER
     identifiers:
       tcgplayerProductId: '711531'
-    subtype: COMMANDER
+    contents:
+      card:
+      - foil: true
+        name: Avengers Tower
+        number: 2026-19
+        set: pmei
+      other:
+      - name: Strategy guide
+      sealed:
+      - count: 1
+        name: Marvel Super Heroes Commander Deck Doom Prevails
+        set: msc
+      - count: 2
+        name: Marvel Super Heroes Play Booster Pack
+        set: msh
   Marvel Super Heroes Commander Kit Fantastic Four:
     category: BOX_SET
+    subtype: COMMANDER
     identifiers:
       tcgplayerProductId: '711534'
-    subtype: COMMANDER
+    contents:
+      card:
+      - foil: true
+        name: Avengers Tower
+        number: 2026-19
+        set: pmei
+      other:
+      - name: Strategy guide
+      sealed:
+      - count: 1
+        name: Marvel Super Heroes Commander Deck The Fantastic Four
+        set: msc
+      - count: 2
+        name: Marvel Super Heroes Play Booster Pack
+        set: msh
   Marvel Super Heroes Commander Kit Wakanda Forever:
     category: BOX_SET
+    subtype: COMMANDER
     identifiers:
       tcgplayerProductId: '711533'
-    subtype: COMMANDER
+    contents:
+      card:
+      - foil: true
+        name: Avengers Tower
+        number: 2026-19
+        set: pmei
+      other:
+      - name: Strategy guide
+      sealed:
+      - count: 1
+        name: Marvel Super Heroes Commander Deck Wakanda Forever
+        set: msc
+      - count: 2
+        name: Marvel Super Heroes Play Booster Pack
+        set: msh

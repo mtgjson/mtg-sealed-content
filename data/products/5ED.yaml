@@ -2,6 +2,7 @@ code: 5ed
 products:
   Fifth Edition Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1107727'
       cardKingdomId: '1170'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-5ED-EN
       tcgplayerProductId: '27278'
       tntId: '141904'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Fifth Edition Booster Pack
+        set: 5ed
   Fifth Edition Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Fifth Edition Booster Box
+        set: 5ed
   Fifth Edition Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476803'
       cardKingdomId: '1169'
@@ -29,9 +40,14 @@ products:
       scgId: SLD-MTG-PCK-5ED-EN
       tcgplayerProductId: '27340'
       tntId: '79222'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: 5ed
   Fifth Edition Starter Deck:
     category: LIMITED
+    subtype: STARTER
     identifiers:
       abuId: '1100052'
       cardKingdomId: '1171'
@@ -42,9 +58,17 @@ products:
       scgId: SLD-MTG-PCK-5EDSTARTER-EN
       tcgplayerProductId: '139148'
       tntId: '79225'
-    subtype: STARTER
+    contents:
+      card_count: 60
+      other:
+      - name: Fifth Edition Starter Rule Book
+      pack:
+      - code: starter
+        set: 5ed
   Fifth Edition Starter Deck Display:
     category: LIMITED_CASE
+    subtype: STARTER
+    release_date: '2024-01-02'
     identifiers:
       abuId: '1107728'
       cardKingdomId: '240091'
@@ -54,10 +78,14 @@ products:
       scgId: SLD-MTG-BBX-5EDSTARTER-EN
       tcgplayerProductId: '184221'
       tntId: '79224'
-    release_date: '2024-01-02'
-    subtype: STARTER
+    contents:
+      sealed:
+      - count: 12
+        name: Fifth Edition Starter Deck
+        set: 5ed
   Fifth Edition Two Player Starter Set:
     category: MULTI_DECK
+    subtype: TWO_PLAYER_STARTER
     identifiers:
       abuId: '1100038'
       cardKingdomId: '186283'
@@ -65,13 +93,31 @@ products:
       hareruyaId: '28503'
       mcmId: '254937'
       tcgplayerProductId: '232842'
-    subtype: TWO_PLAYER_STARTER
+    contents:
+      card_count: 60
+      deck:
+      - name: Deck A
+        set: 5ed
+      - name: Deck B
+        set: 5ed
+      other:
+      - name: Oversized Rulebook
+      - name: Play Guide
+      sealed:
+      - count: 1
+        name: Fifth Edition Booster Pack
+        set: 5ed
   Fifth Edition Two Player Starter Set Display:
     category: DECK_BOX
+    subtype: TWO_PLAYER_STARTER
     identifiers:
       abuId: '1100050'
       cardtraderId: '45281'
       hareruyaId: '101827'
       mcmId: '272029'
       tntId: '108263'
-    subtype: TWO_PLAYER_STARTER
+    contents:
+      sealed:
+      - count: 6
+        name: Fifth Edition Two Player Starter Set
+        set: 5ed

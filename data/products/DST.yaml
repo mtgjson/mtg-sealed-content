@@ -2,6 +2,7 @@ code: dst
 products:
   Darksteel Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1107842'
       cardKingdomId: '110330'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-DST-EN
       tcgplayerProductId: '27272'
       tntId: '112351'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Darksteel Booster Pack
+        set: dst
   Darksteel Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Darksteel Booster Box
+        set: dst
   Darksteel Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476869'
       cardKingdomId: '110501'
@@ -29,9 +40,14 @@ products:
       scgId: SLD-MTG-PCK-DST-EN
       tcgplayerProductId: '27334'
       tntId: '112350'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: dst
   Darksteel Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1100382'
       cardKingdomId: '240338'
@@ -42,27 +58,64 @@ products:
       scgId: SLD-MTG-BUN-DST-EN
       tcgplayerProductId: '78308'
       tntId: '155108'
-    subtype: FAT_PACK
+    contents:
+      card_count: 2
+      other:
+      - name: Darksteel Player's Guide
+      - name: The Darksteel Novel
+      - name: Darksteel Special Edition Spindown
+      pack:
+      - code: fat-pack
+        set: dst
+      sealed:
+      - count: 6
+        name: Darksteel Booster Pack
+        set: dst
   Darksteel MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241624'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 165
+      deck:
+      - name: Darksteel Redemption
+        set: dst
   Darksteel MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241623'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 165
+      deck:
+      - name: Darksteel Foil Redemption
+        set: dst
   Darksteel Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       abuId: '1526824'
       cardtraderId: '46540'
       mcmId: '210224'
       tntId: '112358'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 3
+        name: Darksteel Theme Deck Master Blaster
+        set: dst
+      - count: 3
+        name: Darksteel Theme Deck Mind Swarm
+        set: dst
+      - count: 3
+        name: Darksteel Theme Deck Swarm and Slam
+        set: dst
+      - count: 3
+        name: Darksteel Theme Deck Transference
+        set: dst
   Darksteel Theme Deck Master Blaster:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100356'
       cardKingdomId: '110497'
@@ -71,9 +124,14 @@ products:
       mcmId: '253700'
       tcgplayerProductId: '208246'
       tntId: '112352'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Master Blaster
+        set: dst
   Darksteel Theme Deck Mind Swarm:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100366'
       cardKingdomId: '110498'
@@ -82,9 +140,14 @@ products:
       mcmId: '253701'
       tcgplayerProductId: '208247'
       tntId: '112353'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Mind Swarm
+        set: dst
   Darksteel Theme Deck Swarm and Slam:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100383'
       cardKingdomId: '110499'
@@ -93,9 +156,14 @@ products:
       mcmId: '253702'
       tcgplayerProductId: '208248'
       tntId: '112354'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Swarm & Slam
+        set: dst
   Darksteel Theme Deck Transference:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100384'
       cardKingdomId: '110500'
@@ -104,4 +172,8 @@ products:
       mcmId: '253703'
       tcgplayerProductId: '208249'
       tntId: '112355'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Transference
+        set: dst

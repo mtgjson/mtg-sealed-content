@@ -2,6 +2,7 @@ code: 10e
 products:
   Tenth Edition Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1107726'
       cardKingdomId: '122703'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-10E-EN
       tcgplayerProductId: '27257'
       tntId: '154066'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Tenth Edition Booster Pack
+        set: 10e
   Tenth Edition Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Tenth Edition Booster Box
+        set: 10e
   Tenth Edition Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476801'
       cardKingdomId: '122704'
@@ -29,9 +40,14 @@ products:
       scgId: SLD-MTG-PCK-10E-EN
       tcgplayerProductId: '27319'
       tntId: '154065'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: 10e
   Tenth Edition Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1107725'
       cardKingdomId: '122711'
@@ -42,49 +58,130 @@ products:
       scgId: SLD-MTG-BUN-10E-EN
       tcgplayerProductId: '78300'
       tntId: '155094'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Tenth Edition Fat Pack Land Pack
+        set: 10e
+      other:
+      - name: Tenth Edition Special Life Counter
+      - name: Pro-tour player highlight card
+      sealed:
+      - count: 6
+        name: Tenth Edition Booster Pack
+        set: 10e
   Tenth Edition MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241647'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 383
+      deck:
+      - name: Tenth Edition Redemption
+        set: 10e
   Tenth Edition MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241646'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 383
+      deck:
+      - name: Tenth Edition Foil Redemption
+        set: 10e
   Tenth Edition Sample Deck Ajani Goldmane:
     category: DECK
+    subtype: STARTER
     identifiers:
       cardtraderId: '47395'
       mcmId: '287565'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      variable:
+      - deck:
+        - name: White Deck A
+          set: 10e
+      - deck:
+        - name: White Deck B
+          set: 10e
+      variable_mode:
+        count: 1
+        replacement: false
   Tenth Edition Sample Deck Chandra Nalaar:
     category: DECK
+    subtype: STARTER
     identifiers:
       cardtraderId: '47396'
       mcmId: '287566'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      variable:
+      - deck:
+        - name: Red Deck A
+          set: 10e
+      - deck:
+        - name: Red Deck B
+          set: 10e
+      variable_mode:
+        count: 1
+        replacement: false
   Tenth Edition Sample Deck Garruk Wildspeaker:
     category: DECK
+    subtype: STARTER
     identifiers:
       cardtraderId: '47397'
       mcmId: '287567'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      variable:
+      - deck:
+        - name: Green Deck A
+          set: 10e
+      - deck:
+        - name: Green Deck B
+          set: 10e
+      variable_mode:
+        count: 1
+        replacement: false
   Tenth Edition Sample Deck Jace Beleren:
     category: DECK
+    subtype: STARTER
     identifiers:
       cardtraderId: '47398'
       mcmId: '287568'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      variable:
+      - deck:
+        - name: Blue Deck A
+          set: 10e
+      - deck:
+        - name: Blue Deck B
+          set: 10e
+      variable_mode:
+        count: 1
+        replacement: false
   Tenth Edition Sample Deck Liliana Vess:
     category: DECK
+    subtype: STARTER
     identifiers:
       cardtraderId: '47399'
       mcmId: '287569'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      variable:
+      - deck:
+        - name: Black Deck A
+          set: 10e
+      - deck:
+        - name: Black Deck B
+          set: 10e
+      variable_mode:
+        count: 1
+        replacement: false
   Tenth Edition Theme Deck Arcaniss Guile:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100040'
       cardKingdomId: '122706'
@@ -94,9 +191,16 @@ products:
       mcmId: '253648'
       tcgplayerProductId: '127427'
       tntId: '160512'
-    subtype: THEME
+    contents:
+      card_count: 40
+      deck:
+      - name: Arcanis's Guile
+        set: 10e
+      other:
+      - name: One random Pro Tour Player Card
   Tenth Edition Theme Deck Cho Mannos Resolve:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100045'
       cardKingdomId: '122705'
@@ -106,17 +210,41 @@ products:
       mcmId: '253649'
       tcgplayerProductId: '127426'
       tntId: '160514'
-    subtype: THEME
+    contents:
+      card_count: 40
+      deck:
+      - name: Cho-Manno's Resolve
+        set: 10e
+      other:
+      - name: One random Pro Tour Player Card
   Tenth Edition Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       abuId: '1100049'
       cardtraderId: '47230'
       mcmId: '210212'
       tntId: '154062'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 3
+        name: Tenth Edition Theme Deck Arcaniss Guile
+        set: 10e
+      - count: 3
+        name: Tenth Edition Theme Deck Cho Mannos Resolve
+        set: 10e
+      - count: 3
+        name: Tenth Edition Theme Deck Evincars Tyranny
+        set: 10e
+      - count: 3
+        name: Tenth Edition Theme Deck Kamahls Temper
+        set: 10e
+      - count: 3
+        name: Tenth Edition Theme Deck Molimos Might
+        set: 10e
   Tenth Edition Theme Deck Evincars Tyranny:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100046'
       cardKingdomId: '122707'
@@ -125,9 +253,16 @@ products:
       mcmId: '253650'
       tcgplayerProductId: '127428'
       tntId: '1129333'
-    subtype: THEME
+    contents:
+      card_count: 40
+      deck:
+      - name: Evincar's Tyranny
+        set: 10e
+      other:
+      - name: One random Pro Tour Player Card
   Tenth Edition Theme Deck Kamahls Temper:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100047'
       cardKingdomId: '122708'
@@ -137,9 +272,16 @@ products:
       mcmId: '253651'
       tcgplayerProductId: '127425'
       tntId: '160516'
-    subtype: THEME
+    contents:
+      card_count: 40
+      deck:
+      - name: Kamahl's Temper
+        set: 10e
+      other:
+      - name: One random Pro Tour Player Card
   Tenth Edition Theme Deck Molimos Might:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100048'
       cardKingdomId: '122709'
@@ -149,17 +291,51 @@ products:
       mcmId: '253652'
       tcgplayerProductId: '127429'
       tntId: '160515'
-    subtype: THEME
+    contents:
+      card_count: 40
+      deck:
+      - name: Molimo's Might
+        set: 10e
+      other:
+      - name: One random Pro Tour Player Card
   Tenth Edition Theme Decks Set of 5:
     category: SUBSET
+    subtype: THEME
     identifiers:
       tcgplayerProductId: '630831'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Tenth Edition Theme Deck Arcaniss Guile
+        set: 10e
+      - count: 1
+        name: Tenth Edition Theme Deck Cho Mannos Resolve
+        set: 10e
+      - count: 1
+        name: Tenth Edition Theme Deck Evincars Tyranny
+        set: 10e
+      - count: 1
+        name: Tenth Edition Theme Deck Kamahls Temper
+        set: 10e
+      - count: 1
+        name: Tenth Edition Theme Deck Molimos Might
+        set: 10e
   Tenth Edition Two Player Starter Game:
     category: MULTI_DECK
+    subtype: TWO_PLAYER_STARTER
     identifiers:
       abuId: '1100044'
       cardtraderId: '47225'
       mcmId: '254940'
       tntId: '168663'
-    subtype: TWO_PLAYER_STARTER
+    contents:
+      deck:
+      - name: Tenth Edition Starter Game Land Pack
+        set: 10e
+      other:
+      - name: Rules sheet
+      - name: Pro tour player promo card
+      sealed:
+      - count: 2
+        name: Tenth Edition Booster Pack
+        set: 10e

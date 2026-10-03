@@ -2,6 +2,8 @@ code: fin
 products:
   Final Fantasy Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2025-06-13'
     identifiers:
       abuId: '2594498'
       cardKingdomId: '312843'
@@ -11,24 +13,49 @@ products:
       mcmId: '812575'
       scgId: SLD-MTG-BUN-FIN-EN
       tcgplayerProductId: '618897'
-    release_date: '2025-06-13'
-    subtype: DEFAULT
+    contents:
+      card_count: 2
+      deck:
+      - name: Final Fantasy Bundle Land Pack
+        set: fin
+      other:
+      - name: Final Fantasy Spindown
+      - name: Final Fantasy Card Storage Box
+      pack:
+      - code: bundle-promo
+        set: fin
+      sealed:
+      - count: 9
+        name: Final Fantasy Play Booster Pack
+        set: fin
   Final Fantasy Bundle Case:
     category: BUNDLE_CASE
+    subtype: DEFAULT
     identifiers:
       cardtraderId: '405205'
       tcgplayerProductId: '618898'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 6
+        name: Final Fantasy Bundle
+        set: fin
   Final Fantasy Chocobo Booster Pack:
     category: BOOSTER_PACK
+    subtype: GIFT_BUNDLE
+    release_date: '2025-12-05'
     identifiers:
       cardtraderId: '364434'
       mcmId: '863259'
       tcgplayerProductId: '672958'
-    release_date: '2025-12-05'
-    subtype: GIFT_BUNDLE
+    contents:
+      card_count: 12
+      pack:
+      - code: chocobo-bundle
+        set: fin
   Final Fantasy Chocobo Bundle:
     category: BUNDLE
+    subtype: GIFT_BUNDLE
+    release_date: '2025-12-05'
     identifiers:
       abuId: '2640478'
       cardKingdomId: '321466'
@@ -39,17 +66,45 @@ products:
       miniaturemarketId: 019a1193e5477097ab9257d5249da309
       scgId: SLD-MTG-BUN-FIN-EN-CHOCOBO
       tcgplayerProductId: '656616'
-    release_date: '2025-12-05'
-    subtype: GIFT_BUNDLE
+    contents:
+      card:
+      - foil: true
+        name: Birds of Paradise
+        number: 483
+        set: fic
+      card_count: 1
+      deck:
+      - name: Final Fantasy Bundle Land Pack
+        set: fin
+      other:
+      - name: Final Fantasy Chocobo Click Wheel
+      - name: Final Fantasy Card Storage Box
+      pack:
+      - code: chocobo-bundle-scene
+        set: fin
+      sealed:
+      - count: 10
+        name: Final Fantasy Play Booster Pack
+        set: fin
+      - count: 1
+        name: Final Fantasy Chocobo Booster Pack
+        set: fin
   Final Fantasy Chocobo Bundle Case:
     category: BUNDLE_CASE
+    subtype: GIFT_BUNDLE
+    release_date: '2025-12-05'
     identifiers:
       cardtraderId: '405203'
       tcgplayerProductId: '656619'
-    release_date: '2025-12-05'
-    subtype: GIFT_BUNDLE
+    contents:
+      sealed:
+      - count: 6
+        name: Final Fantasy Chocobo Bundle
+        set: fin
   Final Fantasy Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2025-06-13'
     identifiers:
       abuId: '2594496'
       cardKingdomId: '312841'
@@ -59,15 +114,25 @@ products:
       miniaturemarketId: 28e1ff72752a69c29b23ea20046e6fe0
       scgId: SLD-MTG-BBX-FINCOLLECTOR-EN
       tcgplayerProductId: '618893'
-    release_date: '2025-06-13'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Final Fantasy Collector Booster Pack
+        set: fin
   Final Fantasy Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '618894'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Final Fantasy Collector Booster Box
+        set: fin
   Final Fantasy Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2025-06-13'
     identifiers:
       abuId: '2594497'
       cardKingdomId: '312839'
@@ -76,22 +141,46 @@ products:
       mcmId: '812571'
       scgId: SLD-MTG-PCK-FINCOLLECTOR-EN
       tcgplayerProductId: '618892'
-    release_date: '2025-06-13'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: fin
   Final Fantasy Collector Booster Sample Pack:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
     identifiers:
       cardtraderId: '337551'
       mcmId: '812570'
       tcgplayerProductId: '637653'
-    subtype: PROMOTIONAL
+    contents:
+      card_count: 2
+      pack:
+      - code: collector-sample
+        set: fin
   Final Fantasy Deck Builder Box:
     category: BOX_SET
+    subtype: OTHER
     identifiers:
       tcgplayerProductId: '707445'
-    subtype: OTHER
+    contents:
+      card:
+      - foil: true
+        name: Sazh's Chocobo
+        number: 2026-17
+        set: pmei
+      card_count: 1
+      other:
+      - name: 32 Non-foil land cards (exact assortment unverified)
+      - name: 16 Traditional foil land cards (exact assortment unverified)
+      sealed:
+      - count: 6
+        name: Final Fantasy Play Booster Pack
+        set: fin
   Final Fantasy Gift Bundle:
     category: BUNDLE
+    subtype: GIFT_BUNDLE
+    release_date: '2025-06-13'
     identifiers:
       abuId: '2594499'
       cardKingdomId: '312844'
@@ -101,16 +190,39 @@ products:
       mcmId: '812576'
       scgId: SLD-MTG-BUN-FINGIFT-EN
       tcgplayerProductId: '618899'
-    release_date: '2025-06-13'
-    subtype: GIFT_BUNDLE
+    contents:
+      card_count: 2
+      deck:
+      - name: Final Fantasy Bundle Land Pack
+        set: fin
+      other:
+      - name: Final Fantasy Spindown
+      - name: Final Fantasy Card Storage Box
+      pack:
+      - code: bundle-promo
+        set: fin
+      sealed:
+      - count: 9
+        name: Final Fantasy Play Booster Pack
+        set: fin
+      - count: 1
+        name: Final Fantasy Collector Booster Pack
+        set: fin
   Final Fantasy Gift Bundle Case:
     category: BUNDLE_CASE
+    subtype: GIFT_BUNDLE
     identifiers:
       cardtraderId: '405204'
       tcgplayerProductId: '618900'
-    subtype: GIFT_BUNDLE
+    contents:
+      sealed:
+      - count: 6
+        name: Final Fantasy Gift Bundle
+        set: fin
   Final Fantasy Play Booster Box:
     category: BOOSTER_BOX
+    subtype: PLAY
+    release_date: '2025-06-13'
     identifiers:
       abuId: '2594494'
       cardKingdomId: '312842'
@@ -120,16 +232,26 @@ products:
       miniaturemarketId: 7fc9533ba9bcb657cb6f66a4df9e52ef
       scgId: SLD-MTG-BBX-FINPLAY-EN
       tcgplayerProductId: '618890'
-    release_date: '2025-06-13'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 30
+        name: Final Fantasy Play Booster Pack
+        set: fin
   Final Fantasy Play Booster Box Case:
     category: BOOSTER_CASE
+    subtype: PLAY
     identifiers:
       scgId: SLD-MTG-BBX-FINPLAYCASE-EN
       tcgplayerProductId: '618891'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 6
+        name: Final Fantasy Play Booster Box
+        set: fin
   Final Fantasy Play Booster Pack:
     category: BOOSTER_PACK
+    subtype: PLAY
+    release_date: '2025-06-13'
     identifiers:
       abuId: '2594495'
       cardKingdomId: '312840'
@@ -139,10 +261,15 @@ products:
       miniaturemarketId: 266e2350d4619020116368c80b3a0367
       scgId: SLD-MTG-PCK-FINPLAY-EN
       tcgplayerProductId: '618889'
-    release_date: '2025-06-13'
-    subtype: PLAY
+    contents:
+      card_count: 14
+      pack:
+      - code: play
+        set: fin
   Final Fantasy Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2025-06-13'
     identifiers:
       cardKingdomId: '312846'
       cardtraderId: '322110'
@@ -150,15 +277,31 @@ products:
       miniaturemarketId: be8b3d626f7d98a751e82ab169bbda6f
       scgId: SLD-MTG-INT-FINPRE-EN
       tcgplayerProductId: '618896'
-    release_date: '2025-06-13'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: Deck Box
+      - name: Final Fantasy Spindown
+      pack:
+      - code: prerelease
+        set: fin
+      sealed:
+      - count: 6
+        name: Final Fantasy Play Booster Pack
+        set: fin
   Final Fantasy Prerelease Pack Case:
     category: LIMITED_CASE
+    subtype: PRERELEASE
     identifiers:
       tcgplayerProductId: '638168'
-    subtype: PRERELEASE
+    contents:
+      sealed:
+      - count: 15
+        name: Final Fantasy Prerelease Pack
+        set: fin
   Final Fantasy Scene Box Camp Comrades:
     category: BOX_SET
+    subtype: OTHER
     identifiers:
       abuId: '2640483'
       cardKingdomId: '321470'
@@ -167,9 +310,21 @@ products:
       miniaturemarketId: 019a119c6b5f707287975335f06e1fbe
       scgId: SLD-MTG-BXS-FIN-EN-CAMP
       tcgplayerProductId: '656623'
-    subtype: OTHER
+    contents:
+      card_count: 6
+      deck:
+      - name: Camp Comrades
+        set: fin
+      other:
+      - name: 6 Art-Only Scene Cards
+      - name: Final Fantasy Display Easel
+      sealed:
+      - count: 3
+        name: Final Fantasy Play Booster Pack
+        set: fin
   Final Fantasy Scene Box Children of Fate:
     category: BOX_SET
+    subtype: OTHER
     identifiers:
       abuId: '2640481'
       cardKingdomId: '321468'
@@ -178,9 +333,21 @@ products:
       miniaturemarketId: 019a119c763670fe943c7166742f1999
       scgId: SLD-MTG-BXS-FIN-EN-CHILDREN
       tcgplayerProductId: '656621'
-    subtype: OTHER
+    contents:
+      card_count: 6
+      deck:
+      - name: Children of Fate
+        set: fin
+      other:
+      - name: 6 Art-Only Scene Cards
+      - name: Final Fantasy Display Easel
+      sealed:
+      - count: 3
+        name: Final Fantasy Play Booster Pack
+        set: fin
   Final Fantasy Scene Box Garland at the Chaos Shrine:
     category: BOX_SET
+    subtype: OTHER
     identifiers:
       abuId: '2640480'
       cardKingdomId: '321467'
@@ -189,16 +356,42 @@ products:
       miniaturemarketId: 019a119c81ea71c28efd9181a80d92b7
       scgId: SLD-MTG-BXS-FIN-EN-GARLAND
       tcgplayerProductId: '656620'
-    subtype: OTHER
+    contents:
+      card_count: 6
+      deck:
+      - name: Garland at the Chaos Shrine
+        set: fin
+      other:
+      - name: 6 Art-Only Scene Cards
+      - name: Final Fantasy Display Easel
+      sealed:
+      - count: 3
+        name: Final Fantasy Play Booster Pack
+        set: fin
   Final Fantasy Scene Box Set of 4:
     category: BOX_SET
+    subtype: OTHER
     identifiers:
       cardtraderId: '352431'
       mcmId: '851656'
       tcgplayerProductId: '656624'
-    subtype: OTHER
+    contents:
+      sealed:
+      - count: 1
+        name: Final Fantasy Scene Box Camp Comrades
+        set: fin
+      - count: 1
+        name: Final Fantasy Scene Box Children of Fate
+        set: fin
+      - count: 1
+        name: Final Fantasy Scene Box Garland at the Chaos Shrine
+        set: fin
+      - count: 1
+        name: Final Fantasy Scene Box The Siege of Alexandria
+        set: fin
   Final Fantasy Scene Box The Siege of Alexandria:
     category: BOX_SET
+    subtype: OTHER
     identifiers:
       abuId: '2640482'
       cardKingdomId: '321469'
@@ -207,9 +400,22 @@ products:
       miniaturemarketId: 019a119c8e0470dc8adc1d465f305619
       scgId: SLD-MTG-BXS-FIN-EN-SIEGE
       tcgplayerProductId: '656622'
-    subtype: OTHER
+    contents:
+      card_count: 6
+      deck:
+      - name: The Siege of Alexandria
+        set: fin
+      other:
+      - name: 6 Art-Only Scene Cards
+      - name: Final Fantasy Display Easel
+      sealed:
+      - count: 3
+        name: Final Fantasy Play Booster Pack
+        set: fin
   Final Fantasy Starter Kit:
     category: MULTI_DECK
+    subtype: TWO_PLAYER_STARTER
+    release_date: '2025-06-13'
     identifiers:
       abuId: '2594509'
       cardKingdomId: '312845'
@@ -219,10 +425,24 @@ products:
       miniaturemarketId: ed1dd7b5e09b9ba814a75752d88217ec
       scgId: SLD-MTG-INT-FINSTARTER-EN
       tcgplayerProductId: '618901'
-    release_date: '2025-06-13'
-    subtype: TWO_PLAYER_STARTER
+    contents:
+      card_count: 120
+      deck:
+      - name: Blue-Black
+        set: fin
+      - name: Red-White
+        set: fin
+      other:
+      - name: 4 Double-Sided Tokens
+      - name: 2 MTG Arena Code Cards
+      - name: 2 Deck Boxes
   Final Fantasy Starter Kit Case:
     category: DECK_BOX
+    subtype: STARTER
     identifiers:
       tcgplayerProductId: '618902'
-    subtype: STARTER
+    contents:
+      sealed:
+      - count: 6
+        name: Final Fantasy Starter Kit
+        set: fin

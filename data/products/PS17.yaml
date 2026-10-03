@@ -2,18 +2,30 @@ code: ps17
 products:
   SDCC 2017 Planeswalker Set:
     category: BOX_SET
+    subtype: CONVENTION
     identifiers:
       cardKingdomId: '226699'
       csiId: '246602'
       hareruyaId: '28598'
       tntId: '1131986'
-    subtype: CONVENTION
+    contents:
+      card_count: 6
+      deck:
+      - name: SDCC 2017 Planeswalker Set
+        set: ps17
+      other:
+      - name: Screen print of Nicol Bolas illustrated by Brandon Holt
   SDCC 2017 Planeswalker Set (No Poster):
     category: BOX_SET
+    subtype: CONVENTION
     identifiers:
       cardKingdomId: '226697'
       cardtraderId: '40391'
       hareruyaId: '26253'
       scgId: SLD-MTG-BXS-SDCC2017-EN
       tcgplayerProductId: '139426'
-    subtype: CONVENTION
+    contents:
+      card_count: 6
+      deck:
+      - name: SDCC 2017 Planeswalker Set
+        set: ps17

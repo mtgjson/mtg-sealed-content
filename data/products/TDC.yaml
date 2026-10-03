@@ -2,6 +2,7 @@ code: tdc
 products:
   Tarkir Dragonstorm Commander Deck Abzan Armor:
     category: DECK
+    subtype: COMMANDER
     identifiers:
       abuId: '2581972'
       cardKingdomId: '310822'
@@ -10,9 +11,21 @@ products:
       miniaturemarketId: 702bf967995d63fb81cd146ca30212e6
       scgId: SLD-MTG-MLT-TDC-EN-ABZAN
       tcgplayerProductId: '619664'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Abzan Armor
+        set: tdc
+      other:
+      - name: 10 Double Sided Tokens
+      - name: 1 Deck Box
+      sealed:
+      - count: 1
+        name: Tarkir Dragonstorm Collector Booster Sample Pack
+        set: tdm
   Tarkir Dragonstorm Commander Deck Jeskai Striker:
     category: DECK
+    subtype: COMMANDER
     identifiers:
       abuId: '2581973'
       cardKingdomId: '310823'
@@ -20,9 +33,21 @@ products:
       mcmId: '813093'
       scgId: SLD-MTG-MLT-TDC-EN-JESKAI
       tcgplayerProductId: '619665'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Jeskai Striker
+        set: tdc
+      other:
+      - name: 10 Double Sided Tokens
+      - name: 1 Deck Box
+      sealed:
+      - count: 1
+        name: Tarkir Dragonstorm Collector Booster Sample Pack
+        set: tdm
   Tarkir Dragonstorm Commander Deck Mardu Surge:
     category: DECK
+    subtype: COMMANDER
     identifiers:
       abuId: '2581975'
       cardKingdomId: '310825'
@@ -31,9 +56,21 @@ products:
       miniaturemarketId: 50b0b1df5825f2a5c95041b28cc71052
       scgId: SLD-MTG-MLT-TDC-EN-MARDU
       tcgplayerProductId: '619667'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Mardu Surge
+        set: tdc
+      other:
+      - name: 10 Double Sided Tokens
+      - name: 1 Deck Box
+      sealed:
+      - count: 1
+        name: Tarkir Dragonstorm Collector Booster Sample Pack
+        set: tdm
   Tarkir Dragonstorm Commander Deck Sultai Arisen:
     category: DECK
+    subtype: COMMANDER
     identifiers:
       abuId: '2581974'
       cardKingdomId: '310824'
@@ -42,9 +79,21 @@ products:
       miniaturemarketId: aa699914e07017b71ab0d1be0d5f9f3e
       scgId: SLD-MTG-MLT-TDC-EN-SULTAI
       tcgplayerProductId: '619666'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Sultai Arisen
+        set: tdc
+      other:
+      - name: 10 Double Sided Tokens
+      - name: 1 Deck Box
+      sealed:
+      - count: 1
+        name: Tarkir Dragonstorm Collector Booster Sample Pack
+        set: tdm
   Tarkir Dragonstorm Commander Deck Temur Roar:
     category: DECK
+    subtype: COMMANDER
     identifiers:
       abuId: '2581976'
       cardKingdomId: '310826'
@@ -53,9 +102,21 @@ products:
       miniaturemarketId: da5535302e2c5aa79f22e7f7e0c7f093
       scgId: SLD-MTG-MLT-TDC-EN-TEMUR
       tcgplayerProductId: '619668'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Temur Roar
+        set: tdc
+      other:
+      - name: 10 Double Sided Tokens
+      - name: 1 Deck Box
+      sealed:
+      - count: 1
+        name: Tarkir Dragonstorm Collector Booster Sample Pack
+        set: tdm
   Tarkir Dragonstorm Commander Decks Set of 5:
     category: SUBSET
+    subtype: COMMANDER
     identifiers:
       cardKingdomId: '310827'
       cardtraderId: '322534'
@@ -64,29 +125,155 @@ products:
       miniaturemarketId: 25ec10fc834c8be8db7c562b85e4ea70
       scgId: SLD-MTG-MLT-TDC-EN-SET5
       tcgplayerProductId: '619669'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Tarkir Dragonstorm Commander Deck Abzan Armor
+        set: tdc
+      - count: 1
+        name: Tarkir Dragonstorm Commander Deck Jeskai Striker
+        set: tdc
+      - count: 1
+        name: Tarkir Dragonstorm Commander Deck Mardu Surge
+        set: tdc
+      - count: 1
+        name: Tarkir Dragonstorm Commander Deck Sultai Arisen
+        set: tdc
+      - count: 1
+        name: Tarkir Dragonstorm Commander Deck Temur Roar
+        set: tdc
   Tarkir Dragonstorm Commander Kit Abzan Armor:
     category: UNKNOWN
+    subtype: COMMANDER
     identifiers:
       tcgplayerProductId: '691158'
-    subtype: COMMANDER
+    contents:
+      card:
+      - foil: true
+        name: Gishath, Sun's Avatar
+        number: 2026-5
+        set: pmei
+      sealed:
+      - count: 1
+        name: Tarkir Dragonstorm Commander Deck Abzan Armor
+        set: tdc
+      - count: 1
+        name: Foundations Play Booster Pack
+        set: fdn
+      - count: 1
+        name: Tarkir Dragonstorm Play Booster Pack
+        set: tdm
+      - count: 1
+        name: Lorwyn Eclipsed Play Booster Pack
+        set: ecl
+      - count: 1
+        name: The Lost Caverns of Ixalan Set Booster Pack
+        set: lci
   Tarkir Dragonstorm Commander Kit Jeskai Striker:
     category: UNKNOWN
+    subtype: COMMANDER
     identifiers:
       tcgplayerProductId: '691159'
-    subtype: COMMANDER
+    contents:
+      card:
+      - foil: true
+        name: Gishath, Sun's Avatar
+        number: 2026-5
+        set: pmei
+      sealed:
+      - count: 1
+        name: Tarkir Dragonstorm Commander Deck Jeskai Striker
+        set: tdc
+      - count: 1
+        name: Foundations Play Booster Pack
+        set: fdn
+      - count: 1
+        name: Tarkir Dragonstorm Play Booster Pack
+        set: tdm
+      - count: 1
+        name: Lorwyn Eclipsed Play Booster Pack
+        set: ecl
+      - count: 1
+        name: The Lost Caverns of Ixalan Set Booster Pack
+        set: lci
   Tarkir Dragonstorm Commander Kit Mardu Surge:
     category: UNKNOWN
+    subtype: COMMANDER
     identifiers:
       tcgplayerProductId: '691163'
-    subtype: COMMANDER
+    contents:
+      card:
+      - foil: true
+        name: Gishath, Sun's Avatar
+        number: 2026-5
+        set: pmei
+      sealed:
+      - count: 1
+        name: Tarkir Dragonstorm Commander Deck Mardu Surge
+        set: tdc
+      - count: 1
+        name: Foundations Play Booster Pack
+        set: fdn
+      - count: 1
+        name: Tarkir Dragonstorm Play Booster Pack
+        set: tdm
+      - count: 1
+        name: Lorwyn Eclipsed Play Booster Pack
+        set: ecl
+      - count: 1
+        name: The Lost Caverns of Ixalan Set Booster Pack
+        set: lci
   Tarkir Dragonstorm Commander Kit Sultai Arisen:
     category: UNKNOWN
+    subtype: COMMANDER
     identifiers:
       tcgplayerProductId: '691152'
-    subtype: COMMANDER
+    contents:
+      card:
+      - foil: true
+        name: Gishath, Sun's Avatar
+        number: 2026-5
+        set: pmei
+      sealed:
+      - count: 1
+        name: Tarkir Dragonstorm Commander Deck Sultai Arisen
+        set: tdc
+      - count: 1
+        name: Foundations Play Booster Pack
+        set: fdn
+      - count: 1
+        name: Tarkir Dragonstorm Play Booster Pack
+        set: tdm
+      - count: 1
+        name: Lorwyn Eclipsed Play Booster Pack
+        set: ecl
+      - count: 1
+        name: The Lost Caverns of Ixalan Set Booster Pack
+        set: lci
   Tarkir Dragonstorm Commander Kit Temur Roar:
     category: UNKNOWN
+    subtype: COMMANDER
     identifiers:
       tcgplayerProductId: '691162'
-    subtype: COMMANDER
+    contents:
+      card:
+      - foil: true
+        name: Gishath, Sun's Avatar
+        number: 2026-5
+        set: pmei
+      sealed:
+      - count: 1
+        name: Tarkir Dragonstorm Commander Deck Temur Roar
+        set: tdc
+      - count: 1
+        name: Foundations Play Booster Pack
+        set: fdn
+      - count: 1
+        name: Tarkir Dragonstorm Play Booster Pack
+        set: tdm
+      - count: 1
+        name: Lorwyn Eclipsed Play Booster Pack
+        set: ecl
+      - count: 1
+        name: The Lost Caverns of Ixalan Set Booster Pack
+        set: lci

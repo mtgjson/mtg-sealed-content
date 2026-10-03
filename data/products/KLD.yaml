@@ -2,6 +2,8 @@ code: kld
 products:
   Kaladesh Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2016-05-30'
     identifiers:
       abuId: '1100678'
       cardKingdomId: '208692'
@@ -12,16 +14,26 @@ products:
       scgId: SLD-MTG-BBX-KLD-EN
       tcgplayerProductId: '121527'
       tntId: '1096465'
-    release_date: '2016-05-30'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Kaladesh Booster Pack
+        set: kld
   Kaladesh Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '121528'
       tntId: '1096464'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Kaladesh Booster Box
+        set: kld
   Kaladesh Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2016-05-30'
     identifiers:
       abuId: '1796209'
       cardKingdomId: '208693'
@@ -32,10 +44,15 @@ products:
       scgId: SLD-MTG-PCK-KLD-EN
       tcgplayerProductId: '121529'
       tntId: '1096466'
-    release_date: '2016-05-30'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: kld
   Kaladesh Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2016-09-06'
     identifiers:
       abuId: '1100684'
       cardKingdomId: '208697'
@@ -46,10 +63,23 @@ products:
       scgId: SLD-MTG-BUN-KLD-EN
       tcgplayerProductId: '122680'
       tntId: '1096467'
-    release_date: '2016-09-06'
-    subtype: DEFAULT
+    contents:
+      deck:
+      - name: Kaladesh Bundle Land Pack
+        set: kld
+      other:
+      - name: Card Storage Box
+      - name: Player's Guide and Visual Encyclopaedia
+      - name: Magic Learn-to-Play Guide
+      - name: Kaladesh Bundle Spindown
+      sealed:
+      - count: 10
+        name: Kaladesh Booster Pack
+        set: kld
   Kaladesh Deck Builders Toolkit:
     category: KIT
+    subtype: DECK_BUILDERS_TOOLKIT
+    release_date: '2016-09-06'
     identifiers:
       abuId: '1100370'
       cardKingdomId: '208706'
@@ -58,10 +88,66 @@ products:
       scgId: SLD-MTG-INT-KLDTOOLKIT-EN
       tcgplayerProductId: '122679'
       tntId: '1098356'
-    release_date: '2016-09-06'
-    subtype: DECK_BUILDERS_TOOLKIT
+    contents:
+      card_count: 225
+      deck:
+      - name: Fixed Content
+        set: kld
+      other:
+      - name: Kaladesh Deck Builder's Guide
+      - name: Magic "Learn to Play" Guide
+      - name: Full-art Reusable Storage Box
+      sealed:
+      - count: 2
+        name: Kaladesh Booster Pack
+        set: kld
+      - count: 1
+        name: Shadows over Innistrad Booster Pack
+        set: soi
+      - count: 1
+        name: Eldritch Moon Booster Pack
+        set: emn
+      variable:
+      - deck:
+        - name: Black and Red Madness
+          set: kld
+      - deck:
+        - name: White and Black Spirits
+          set: kld
+      - deck:
+        - name: Blue and Green
+          set: kld
+      - deck:
+        - name: Blue and White Flying
+          set: kld
+      - deck:
+        - name: Red and White
+          set: kld
+      - deck:
+        - name: Red and Colorless Artifacts
+          set: kld
+      - deck:
+        - name: Blue and Black Zombies
+          set: kld
+      - deck:
+        - name: Green and White Humans
+          set: kld
+      - deck:
+        - name: Blue and Colorless Artifacts
+          set: kld
+      - deck:
+        - name: Black and Green Delirium
+          set: kld
+      - deck:
+        - name: Red and Green Wolves
+          set: kld
+      variable_mode:
+        count: 4
+        replacement: false
   Kaladesh Gift Box:
     category: BUNDLE
+    subtype: GIFT_BUNDLE
+    release_date: '2016-10-07'
     identifiers:
       abuId: '1101194'
       cardKingdomId: '210348'
@@ -71,28 +157,60 @@ products:
       mcmId: '293173'
       tcgplayerProductId: '125323'
       tntId: '1102288'
-    release_date: '2016-10-07'
-    subtype: GIFT_BUNDLE
+    contents:
+      card:
+      - foil: true
+        name: Chief of the Foundry
+        number: 200
+        set: pkld
+      deck:
+      - name: Kaladesh Gift Box Land Pack
+        set: kld
+      other:
+      - name: Card Storage Box
+      - name: Six Illustrated Plastic Dividers
+      - name: Kaladesh Sticker Sheet
+      sealed:
+      - count: 5
+        name: Kaladesh Booster Pack
+        set: kld
   Kaladesh Holiday Buy a Box Promo Pack:
     category: BOOSTER_PACK
+    subtype: DEFAULT
+    release_date: '2016-11-21'
     identifiers:
       cardtraderId: '48460'
       mcmId: '294236'
       tcgplayerProductId: '264814'
-    release_date: '2016-11-21'
-    subtype: DEFAULT
+    contents:
+      card_count: 3
+      pack:
+      - code: buyabox
+        set: kld
   Kaladesh MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210360'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 264
+      deck:
+      - name: Kaladesh Redemption
+        set: kld
   Kaladesh MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210365'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 264
+      deck:
+      - name: Kaladesh Foil Redemption
+        set: kld
   Kaladesh Planeswalker Deck Chandra:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2016-09-06'
     identifiers:
       abuId: '1100685'
       cardKingdomId: '209421'
@@ -102,15 +220,32 @@ products:
       scgId: SLD-MTG-INT-KLDPWDECK-EN-CHANDRA
       tcgplayerProductId: '122682'
       tntId: '1098354'
-    release_date: '2016-09-06'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Chandra, Pyrogenius
+        set: kld
+      sealed:
+      - count: 2
+        name: Kaladesh Booster Pack
+        set: kld
   Kaladesh Planeswalker Deck Display:
     category: DECK_BOX
+    subtype: PLANESWALKER
     identifiers:
       tntId: '1104005'
-    subtype: PLANESWALKER
+    contents:
+      sealed:
+      - count: 3
+        name: Kaladesh Planeswalker Deck Chandra
+        set: kld
+      - count: 3
+        name: Kaladesh Planeswalker Deck Nissa
+        set: kld
   Kaladesh Planeswalker Deck Nissa:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2016-09-06'
     identifiers:
       abuId: '1100686'
       cardKingdomId: '209420'
@@ -120,38 +255,89 @@ products:
       scgId: SLD-MTG-INT-KLDPWDECK-EN-NISSA
       tcgplayerProductId: '122683'
       tntId: '1098355'
-    release_date: '2016-09-06'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Nissa, Nature's Artisan
+        set: kld
+      sealed:
+      - count: 2
+        name: Kaladesh Booster Pack
+        set: kld
   Kaladesh Planeswalker Decks Set of 2:
     category: SUBSET
+    subtype: PLANESWALKER
     identifiers:
       abuId: '1100687'
       scgId: SLD-MTG-INT-KLDPWDECK-EN-SET2
       tcgplayerProductId: '122684'
       tntId: '1177925'
-    subtype: PLANESWALKER
+    contents:
+      sealed:
+      - count: 1
+        name: Kaladesh Planeswalker Deck Chandra
+        set: kld
+      - count: 1
+        name: Kaladesh Planeswalker Deck Nissa
+        set: kld
   Kaladesh Prerelease Kit:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2016-09-06'
     identifiers:
       abuId: '1100688'
       cardKingdomId: '215252'
       cardtraderId: '48473'
       mcmId: '292529'
       tcgplayerProductId: '122685'
-    release_date: '2016-09-06'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: Kaladesh Spindown
+      pack:
+      - code: prerelease
+        set: kld
+      sealed:
+      - count: 6
+        name: Kaladesh Booster Pack
+        set: kld
   Kaladesh Standard Showdown Booster:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    release_date: '2016-11-29'
     identifiers:
       cardtraderId: '49716'
       mcmId: '294534'
-    release_date: '2016-11-29'
-    subtype: PROMOTIONAL
   Kaladesh Two Player Booster Battle Pack:
     category: MULTI_DECK
+    subtype: BATTLE
+    release_date: '2016-09-06'
     identifiers:
       cardtraderId: '48472'
       mcmId: '292530'
       tcgplayerProductId: '122681'
-    release_date: '2016-09-06'
-    subtype: BATTLE
+    contents:
+      card_count: 60
+      sealed:
+      - count: 2
+        name: Kaladesh Booster Pack
+        set: kld
+      variable:
+      - deck:
+        - name: White Deck
+          set: w16
+      - deck:
+        - name: Blue Deck
+          set: w16
+      - deck:
+        - name: Black Deck
+          set: w16
+      - deck:
+        - name: Red Deck
+          set: w16
+      - deck:
+        - name: Green Deck
+          set: w16
+      variable_mode:
+        count: 2
+        replacement: false

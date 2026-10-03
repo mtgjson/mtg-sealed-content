@@ -2,6 +2,8 @@ code: cm2
 products:
   Commander Anthology Volume II:
     category: BOX_SET
+    subtype: COMMANDER
+    release_date: '2018-06-08'
     identifiers:
       abuId: '1502905'
       cardKingdomId: '218692'
@@ -11,33 +13,68 @@ products:
       scgId: SLD-MTG-MLT-CM2-EN
       tcgplayerProductId: '166534'
       tntId: '1177658'
-    release_date: '2018-06-08'
-    subtype: COMMANDER
+    contents:
+      other:
+      - name: 4 specialized life counters
+      - name: Tokens for All Decks
+      sealed:
+      - count: 1
+        name: Commander Anthology Volume II Commander Deck Breed Lethality
+        set: cm2
+      - count: 1
+        name: Commander Anthology Volume II Commander Deck Built from Scratch
+        set: cm2
+      - count: 1
+        name: Commander Anthology Volume II Commander Deck Devour for Power
+        set: cm2
+      - count: 1
+        name: Commander Anthology Volume II Commander Deck Wade into Battle
+        set: cm2
   Commander Anthology Volume II Commander Deck Breed Lethality:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2018-06-08'
     identifiers:
       cardtraderId: '48685'
       mcmId: '357028'
-    release_date: '2018-06-08'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Breed Lethality
+        set: cm2
   Commander Anthology Volume II Commander Deck Built from Scratch:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2018-06-08'
     identifiers:
       cardtraderId: '48684'
       mcmId: '357030'
-    release_date: '2018-06-08'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Built From Scratch
+        set: cm2
   Commander Anthology Volume II Commander Deck Devour for Power:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2018-06-08'
     identifiers:
       cardtraderId: '48686'
       mcmId: '357031'
-    release_date: '2018-06-08'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Devour for Power
+        set: cm2
   Commander Anthology Volume II Commander Deck Wade into Battle:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2018-06-08'
     identifiers:
       cardtraderId: '48687'
       mcmId: '357029'
-    release_date: '2018-06-08'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Wade into Battle
+        set: cm2

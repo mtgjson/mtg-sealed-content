@@ -2,12 +2,21 @@ code: eoc
 products:
   Edge of Eternities Commander Deck Case:
     category: DECK_BOX
+    subtype: COMMANDER
+    release_date: '2025-08-01'
     identifiers:
       tcgplayerProductId: '619691'
-    release_date: '2025-08-01'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 2
+        name: Edge of Eternities Commander Deck Counter Intelligence
+        set: eoc
+      - count: 2
+        name: Edge of Eternities Commander Deck World Shaper
+        set: eoc
   Edge of Eternities Commander Deck Counter Intelligence:
     category: DECK
+    subtype: COMMANDER
     identifiers:
       abuId: '2617210'
       cardKingdomId: '316077'
@@ -15,9 +24,22 @@ products:
       mcmId: '813328'
       scgId: SLD-MTG-MLT-EOC-EN-COUNTER
       tcgplayerProductId: '619677'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Counter Intelligence
+        set: eoc
+      other:
+      - name: 6 Double Sided Tokens
+      - name: 4 Punch-out Counters
+      - name: Deck Box
+      sealed:
+      - count: 1
+        name: Edge of Eternities Collector Booster Sample Pack
+        set: eoe
   Edge of Eternities Commander Deck World Shaper:
     category: DECK
+    subtype: COMMANDER
     identifiers:
       abuId: '2617209'
       cardKingdomId: '316076'
@@ -26,9 +48,21 @@ products:
       miniaturemarketId: 203b823b32052566e393d87d22821a67
       scgId: SLD-MTG-MLT-EOC-EN-WORLD
       tcgplayerProductId: '619676'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: World Shaper
+        set: eoc
+      other:
+      - name: 10 Double Sided Tokens
+      - name: Deck Box
+      sealed:
+      - count: 1
+        name: Edge of Eternities Collector Booster Sample Pack
+        set: eoe
   Edge of Eternities Commander Decks Set of 2:
     category: SUBSET
+    subtype: COMMANDER
     identifiers:
       cardKingdomId: '316078'
       cardtraderId: '322702'
@@ -37,4 +71,11 @@ products:
       miniaturemarketId: 8bf8fcf5c5ca2ee3d0e9cffc84b9ef1f
       scgId: SLD-MTG-MLT-EOC-EN-SET2
       tcgplayerProductId: '636222'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Edge of Eternities Commander Deck Counter Intelligence
+        set: eoc
+      - count: 1
+        name: Edge of Eternities Commander Deck World Shaper
+        set: eoc

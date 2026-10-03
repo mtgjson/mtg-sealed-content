@@ -2,6 +2,8 @@ code: otc
 products:
   Outlaws of Thunder Junction Commander Deck Desert Bloom:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2024-04-19'
     identifiers:
       abuId: '2483175'
       cardKingdomId: '293678'
@@ -12,16 +14,44 @@ products:
       scgId: SLD-MTG-MLT-OTC-EN-DESERT
       tcgplayerProductId: '541100'
       tntId: '1804846'
-    release_date: '2024-04-19'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Desert Bloom
+        set: otc
+      other:
+      - name: Spinning life counter
+      - name: 10 double sided tokens
+      - name: Paper deck box
+      - name: Strategy insert
+      sealed:
+      - count: 1
+        name: Outlaws of Thunder Junction Collector Booster Sample Pack
+        set: otj
   Outlaws of Thunder Junction Commander Deck Display:
     category: DECK_BOX
+    subtype: COMMANDER
+    release_date: '2024-04-19'
     identifiers:
       tcgplayerProductId: '541105'
-    release_date: '2024-04-19'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Outlaws of Thunder Junction Commander Deck Desert Bloom
+        set: otc
+      - count: 1
+        name: Outlaws of Thunder Junction Commander Deck Grand Larceny
+        set: otc
+      - count: 1
+        name: Outlaws of Thunder Junction Commander Deck Most Wanted
+        set: otc
+      - count: 1
+        name: Outlaws of Thunder Junction Commander Deck Quick Draw
+        set: otc
   Outlaws of Thunder Junction Commander Deck Grand Larceny:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2024-04-19'
     identifiers:
       abuId: '2483176'
       cardKingdomId: '293679'
@@ -32,10 +62,24 @@ products:
       scgId: SLD-MTG-MLT-OTC-EN-GRAND
       tcgplayerProductId: '541102'
       tntId: '1804849'
-    release_date: '2024-04-19'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Grand Larceny
+        set: otc
+      other:
+      - name: Spinning life counter
+      - name: 10 double sided tokens
+      - name: Paper deck box
+      - name: Strategy insert
+      sealed:
+      - count: 1
+        name: Outlaws of Thunder Junction Collector Booster Sample Pack
+        set: otj
   Outlaws of Thunder Junction Commander Deck Most Wanted:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2024-04-19'
     identifiers:
       abuId: '2483177'
       cardKingdomId: '293680'
@@ -46,10 +90,24 @@ products:
       scgId: SLD-MTG-MLT-OTC-EN-WANTED
       tcgplayerProductId: '541103'
       tntId: '1804848'
-    release_date: '2024-04-19'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Most Wanted
+        set: otc
+      other:
+      - name: Spinning life counter
+      - name: 10 double sided tokens
+      - name: Paper deck box
+      - name: Strategy insert
+      sealed:
+      - count: 1
+        name: Outlaws of Thunder Junction Collector Booster Sample Pack
+        set: otj
   Outlaws of Thunder Junction Commander Deck Quick Draw:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2024-04-19'
     identifiers:
       abuId: '2483174'
       cardKingdomId: '293677'
@@ -60,10 +118,24 @@ products:
       scgId: SLD-MTG-MLT-OTC-EN-QUICK
       tcgplayerProductId: '541099'
       tntId: '1804847'
-    release_date: '2024-04-19'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Quick Draw
+        set: otc
+      other:
+      - name: Spinning life counter
+      - name: 10 double sided tokens
+      - name: Paper deck box
+      - name: Strategy insert
+      sealed:
+      - count: 1
+        name: Outlaws of Thunder Junction Collector Booster Sample Pack
+        set: otj
   Outlaws of Thunder Junction Commander Deck Set of 4:
     category: SUBSET
+    subtype: COMMANDER
+    release_date: '2024-02-24'
     identifiers:
       cardKingdomId: '293681'
       cardtraderId: '280725'
@@ -71,5 +143,17 @@ products:
       hareruyaId: '154266'
       mcmId: '758320'
       scgId: SLD-MTG-MLT-OTC-EN-SET4
-    release_date: '2024-02-24'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Outlaws of Thunder Junction Commander Deck Desert Bloom
+        set: otc
+      - count: 1
+        name: Outlaws of Thunder Junction Commander Deck Grand Larceny
+        set: otc
+      - count: 1
+        name: Outlaws of Thunder Junction Commander Deck Most Wanted
+        set: otc
+      - count: 1
+        name: Outlaws of Thunder Junction Commander Deck Quick Draw
+        set: otc

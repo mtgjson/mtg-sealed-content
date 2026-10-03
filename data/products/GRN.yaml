@@ -2,6 +2,8 @@ code: grn
 products:
   Guilds of Ravnica Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2018-10-05'
     identifiers:
       abuId: '1528597'
       cardKingdomId: '221357'
@@ -12,17 +14,27 @@ products:
       scgId: SLD-MTG-BBX-GRN-EN
       tcgplayerProductId: '173362'
       tntId: '1188179'
-    release_date: '2018-10-05'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Guilds of Ravnica Booster Pack
+        set: grn
   Guilds of Ravnica Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2018-10-05'
     identifiers:
       tcgplayerProductId: '173363'
       tntId: '1188178'
-    release_date: '2018-10-05'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Guilds of Ravnica Booster Box
+        set: grn
   Guilds of Ravnica Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2018-10-05'
     identifiers:
       abuId: '1973129'
       cardKingdomId: '221358'
@@ -33,10 +45,15 @@ products:
       scgId: SLD-MTG-PCK-GRN-EN
       tcgplayerProductId: '173364'
       tntId: '1188180'
-    release_date: '2018-10-05'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: grn
   Guilds of Ravnica Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2018-10-05'
     identifiers:
       abuId: '1528601'
       cardKingdomId: '221359'
@@ -47,20 +64,43 @@ products:
       scgId: SLD-MTG-BUN-GRN-EN
       tcgplayerProductId: '173365'
       tntId: '1188181'
-    release_date: '2018-10-05'
-    subtype: DEFAULT
+    contents:
+      deck:
+      - name: Guilds of Ravnica Bundle Land Pack
+        set: grn
+      other:
+      - name: 1 card box
+      - name: 1 player’s guide
+      - name: 1 learn-to-play insert
+      - name: 1 Spindown life counter
+      sealed:
+      - count: 10
+        name: Guilds of Ravnica Booster Pack
+        set: grn
   Guilds of Ravnica MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '222251'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 259
+      deck:
+      - name: Guilds of Ravnica Redemption
+        set: grn
   Guilds of Ravnica MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '222250'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 259
+      deck:
+      - name: Guilds of Ravnica Foil Redemption
+        set: grn
   Guilds of Ravnica Mythic Edition:
     category: BOOSTER_BOX
+    subtype: PREMIUM
+    release_date: '2018-10-05'
     identifiers:
       cardKingdomId: '222356'
       cardtraderId: '48740'
@@ -69,17 +109,67 @@ products:
       scgId: SLD-MTG-BXS-MED_GRN-EN
       tcgplayerProductId: '175240'
       tntId: '1483435'
-    release_date: '2018-10-05'
-    subtype: PREMIUM
+    contents:
+      card:
+      - foil: true
+        name: Elspeth, Knight-Errant
+        number: GR1
+        set: med
+      - foil: true
+        name: Liliana, the Last Hope
+        number: GR2
+        set: med
+      - foil: true
+        name: Daretti, Ingenious Iconoclast
+        number: GR3
+        set: med
+      - foil: true
+        name: Nicol Bolas, Planeswalker
+        number: GR4
+        set: med
+      - foil: true
+        name: Ral, Izzet Viceroy
+        number: GR5
+        set: med
+      - foil: true
+        name: Teferi, Hero of Dominaria
+        number: GR6
+        set: med
+      - foil: true
+        name: Tezzeret, Agent of Bolas
+        number: GR7
+        set: med
+      - foil: true
+        name: Vraska, Golgari Queen
+        number: GR8
+        set: med
+      card_count: 8
+      deck:
+      - name: Guilds of Ravnica Mythic Edition Tokens
+        set: grn
+      sealed:
+      - count: 24
+        name: Guilds of Ravnica Booster Pack
+        set: grn
   Guilds of Ravnica Planeswalker Deck Display:
     category: DECK_BOX
+    subtype: PLANESWALKER
     identifiers:
       cardKingdomId: '240148'
       tcgplayerProductId: '683213'
       tntId: '1188182'
-    subtype: PLANESWALKER
+    contents:
+      sealed:
+      - count: 3
+        name: Guilds of Ravnica Planeswalker Deck Ral
+        set: grn
+      - count: 3
+        name: Guilds of Ravnica Planeswalker Deck Vraska
+        set: grn
   Guilds of Ravnica Planeswalker Deck Ral:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2018-10-05'
     identifiers:
       abuId: '1534101'
       cardKingdomId: '221369'
@@ -89,10 +179,19 @@ products:
       scgId: SLD-MTG-INT-GRNPWDECK-EN-RAL
       tcgplayerProductId: '176692'
       tntId: '1188183'
-    release_date: '2018-10-05'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Ral, Caller of Storms
+        set: grn
+      sealed:
+      - count: 2
+        name: Guilds of Ravnica Booster Pack
+        set: grn
   Guilds of Ravnica Planeswalker Deck Vraska:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2018-10-05'
     identifiers:
       abuId: '1534102'
       cardKingdomId: '221370'
@@ -101,91 +200,202 @@ products:
       scgId: SLD-MTG-INT-GRNPWDECK-EN-VRASKA
       tcgplayerProductId: '176691'
       tntId: '1188184'
-    release_date: '2018-10-05'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Vraska, Regal Gorgon
+        set: grn
+      sealed:
+      - count: 2
+        name: Guilds of Ravnica Booster Pack
+        set: grn
   Guilds of Ravnica Planeswalker Decks Set of 2:
     category: SUBSET
+    subtype: PLANESWALKER
     identifiers:
       hareruyaId: '28587'
       scgId: SLD-MTG-INT-GRNPWDECK-EN-SET2
       tcgplayerProductId: '176693'
-    subtype: PLANESWALKER
+    contents:
+      sealed:
+      - count: 1
+        name: Guilds of Ravnica Planeswalker Deck Ral
+        set: grn
+      - count: 1
+        name: Guilds of Ravnica Planeswalker Deck Vraska
+        set: grn
   Guilds of Ravnica Prerelease Pack Boros:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2018-09-29'
     identifiers:
       abuId: '1534091'
       cardKingdomId: '221438'
       cardtraderId: '48733'
       mcmId: '363633'
       tcgplayerProductId: '173371'
-    release_date: '2018-09-29'
-    subtype: PRERELEASE
+    contents:
+      card_count: 15
+      other:
+      - name: Guilds of Ravnica Spindown
+      pack:
+      - code: prerelease-boros
+        set: grn
+      sealed:
+      - count: 5
+        name: Guilds of Ravnica Booster Pack
+        set: grn
   Guilds of Ravnica Prerelease Pack Dimir:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2018-09-29'
     identifiers:
       abuId: '1534090'
       cardKingdomId: '221439'
       cardtraderId: '48736'
       mcmId: '363630'
       tcgplayerProductId: '173372'
-    release_date: '2018-09-29'
-    subtype: PRERELEASE
+    contents:
+      card_count: 15
+      other:
+      - name: Guilds of Ravnica Spindown
+      pack:
+      - code: prerelease-dimir
+        set: grn
+      sealed:
+      - count: 5
+        name: Guilds of Ravnica Booster Pack
+        set: grn
   Guilds of Ravnica Prerelease Pack Golgari:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2018-09-29'
     identifiers:
       abuId: '1534094'
       cardKingdomId: '221440'
       cardtraderId: '48734'
       mcmId: '363632'
       tcgplayerProductId: '176694'
-    release_date: '2018-09-29'
-    subtype: PRERELEASE
+    contents:
+      card_count: 15
+      other:
+      - name: Guilds of Ravnica Spindown
+      pack:
+      - code: prerelease-golgari
+        set: grn
+      sealed:
+      - count: 5
+        name: Guilds of Ravnica Booster Pack
+        set: grn
   Guilds of Ravnica Prerelease Pack Izzet:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2018-09-29'
     identifiers:
       abuId: '1534088'
       cardKingdomId: '221441'
       cardtraderId: '48732'
       mcmId: '363631'
       tcgplayerProductId: '176695'
-    release_date: '2018-09-29'
-    subtype: PRERELEASE
+    contents:
+      card_count: 15
+      other:
+      - name: Guilds of Ravnica Spindown
+      pack:
+      - code: prerelease-izzet
+        set: grn
+      sealed:
+      - count: 5
+        name: Guilds of Ravnica Booster Pack
+        set: grn
   Guilds of Ravnica Prerelease Pack Selesnya:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2018-09-29'
     identifiers:
       abuId: '1534087'
       cardKingdomId: '221365'
       cardtraderId: '48735'
       mcmId: '363634'
       tcgplayerProductId: '176696'
-    release_date: '2018-09-29'
-    subtype: PRERELEASE
+    contents:
+      card_count: 15
+      other:
+      - name: Guilds of Ravnica Spindown
+      pack:
+      - code: prerelease-selesnya
+        set: grn
+      sealed:
+      - count: 5
+        name: Guilds of Ravnica Booster Pack
+        set: grn
   Guilds of Ravnica Prerelease Pack Set of 5:
     category: SUBSET
+    subtype: PRERELEASE
     identifiers:
       tcgplayerProductId: '177706'
-    subtype: PRERELEASE
+    contents:
+      sealed:
+      - count: 1
+        name: Guilds of Ravnica Prerelease Pack Boros
+        set: grn
+      - count: 1
+        name: Guilds of Ravnica Prerelease Pack Dimir
+        set: grn
+      - count: 1
+        name: Guilds of Ravnica Prerelease Pack Golgari
+        set: grn
+      - count: 1
+        name: Guilds of Ravnica Prerelease Pack Izzet
+        set: grn
+      - count: 1
+        name: Guilds of Ravnica Prerelease Pack Selesnya
+        set: grn
   Guilds of Ravnica Standard Showdown Booster:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    release_date: '2018-09-05'
     identifiers:
       cardtraderId: '49719'
       mcmId: '363627'
-    release_date: '2018-09-05'
-    subtype: PROMOTIONAL
   Guilds of Ravnica Theme Booster Box:
     category: BOOSTER_BOX
+    subtype: THEME
+    release_date: '2018-09-26'
     identifiers:
       cardtraderId: '48723'
       mcmId: '364598'
       tcgplayerProductId: '182892'
-    release_date: '2018-09-26'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 2
+        name: Guilds of Ravnica Theme Booster Pack Boros
+        set: grn
+      - count: 2
+        name: Guilds of Ravnica Theme Booster Pack Dimir
+        set: grn
+      - count: 2
+        name: Guilds of Ravnica Theme Booster Pack Golgari
+        set: grn
+      - count: 2
+        name: Guilds of Ravnica Theme Booster Pack Izzet
+        set: grn
+      - count: 2
+        name: Guilds of Ravnica Theme Booster Pack Selesnya
+        set: grn
   Guilds of Ravnica Theme Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: THEME
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Guilds of Ravnica Theme Booster Box
+        set: grn
   Guilds of Ravnica Theme Booster Pack Boros:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2018-09-26'
     identifiers:
       abuId: '1536776'
       cardtraderId: '48717'
@@ -193,10 +403,15 @@ products:
       scgId: SLD-MTG-PCK-GRNTHEME-EN-BOROS
       tcgplayerProductId: '176698'
       tntId: '1347955'
-    release_date: '2018-09-26'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-boros
+        set: grn
   Guilds of Ravnica Theme Booster Pack Dimir:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2018-09-26'
     identifiers:
       abuId: '1536788'
       cardtraderId: '48718'
@@ -204,10 +419,15 @@ products:
       scgId: SLD-MTG-PCK-GRNTHEME-EN-DIMIR
       tcgplayerProductId: '176699'
       tntId: '1347958'
-    release_date: '2018-09-26'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-dimir
+        set: grn
   Guilds of Ravnica Theme Booster Pack Golgari:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2018-09-26'
     identifiers:
       abuId: '1536780'
       cardtraderId: '48720'
@@ -215,10 +435,15 @@ products:
       scgId: SLD-MTG-PCK-GRNTHEME-EN-GOLGARI
       tcgplayerProductId: '176700'
       tntId: '1347954'
-    release_date: '2018-09-26'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-golgari
+        set: grn
   Guilds of Ravnica Theme Booster Pack Izzet:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2018-09-26'
     identifiers:
       abuId: '1536785'
       cardtraderId: '48719'
@@ -226,10 +451,15 @@ products:
       scgId: SLD-MTG-PCK-GRNTHEME-EN-IZZET
       tcgplayerProductId: '176701'
       tntId: '1347957'
-    release_date: '2018-09-26'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-izzet
+        set: grn
   Guilds of Ravnica Theme Booster Pack Selesnya:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2018-09-26'
     identifiers:
       abuId: '1536764'
       cardtraderId: '48721'
@@ -237,11 +467,31 @@ products:
       scgId: SLD-MTG-PCK-GRNTHEME-EN-SELESNYA
       tcgplayerProductId: '176702'
       tntId: '1347956'
-    release_date: '2018-09-26'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-selesnya
+        set: grn
   Guilds of Ravnica Theme Booster Pack Set of 5:
     category: SUBSET
+    subtype: THEME
     identifiers:
       scgId: SLD-MTG-PCK-GRNTHEME-EN-SET5
       tcgplayerProductId: '176703'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Guilds of Ravnica Theme Booster Pack Boros
+        set: grn
+      - count: 1
+        name: Guilds of Ravnica Theme Booster Pack Dimir
+        set: grn
+      - count: 1
+        name: Guilds of Ravnica Theme Booster Pack Golgari
+        set: grn
+      - count: 1
+        name: Guilds of Ravnica Theme Booster Pack Izzet
+        set: grn
+      - count: 1
+        name: Guilds of Ravnica Theme Booster Pack Selesnya
+        set: grn

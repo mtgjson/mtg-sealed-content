@@ -2,6 +2,8 @@ code: und
 products:
   Unsanctioned:
     category: MULTI_DECK
+    subtype: GAME_NIGHT
+    release_date: '2020-02-28'
     identifiers:
       abuId: '1815658'
       cardKingdomId: '231828'
@@ -12,5 +14,56 @@ products:
       scgId: SLD-MTG-BXS-UND-EN
       tcgplayerProductId: '207281'
       tntId: '1641024'
-    release_date: '2020-02-28'
-    subtype: GAME_NIGHT
+    contents:
+      card:
+      - name: Plains
+        number: 88
+        set: und
+      - foil: true
+        name: Plains
+        number: 88
+        set: und
+      - name: Island
+        number: 90
+        set: und
+      - foil: true
+        name: Island
+        number: 90
+        set: und
+      - name: Swamp
+        number: 92
+        set: und
+      - foil: true
+        name: Swamp
+        number: 92
+        set: und
+      - name: Mountain
+        number: 94
+        set: und
+      - foil: true
+        name: Mountain
+        number: 94
+        set: und
+      - name: Forest
+        number: 96
+        set: und
+      - foil: true
+        name: Forest
+        number: 96
+        set: und
+      card_count: 150
+      deck:
+      - name: White
+        set: und
+      - name: Blue
+        set: und
+      - name: Black
+        set: und
+      - name: Red
+        set: und
+      - name: Green
+        set: und
+      other:
+      - name: 2 Six-Sided Dice
+      - name: 10 Double-Sided Tokens
+      - name: Reusable Game Box

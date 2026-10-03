@@ -2,6 +2,7 @@ code: ddj
 products:
   Duel Deck Izzet vs Golgari:
     category: MULTI_DECK
+    subtype: DUEL
     identifiers:
       abuId: '1100619'
       cardKingdomId: '187967'
@@ -12,23 +13,45 @@ products:
       scgId: SLD-MTG-BXS-DDJ-EN
       tcgplayerProductId: '60128'
       tntId: '375954'
-    subtype: DUEL
+    contents:
+      sealed:
+      - count: 1
+        name: Duel Deck Izzet vs Golgari Golgari Deck
+        set: ddj
+      - count: 1
+        name: Duel Deck Izzet vs Golgari Izzet Deck
+        set: ddj
   Duel Deck Izzet vs Golgari Display:
     category: DECK_BOX
+    subtype: DUEL
     identifiers:
       cardtraderId: '47810'
       mcmId: '257395'
       tntId: '375955'
-    subtype: DUEL
+    contents:
+      sealed:
+      - count: 6
+        name: Duel Deck Izzet vs Golgari
+        set: ddj
   Duel Deck Izzet vs Golgari Golgari Deck:
     category: DECK
+    subtype: DUEL
     identifiers:
       cardtraderId: '47809'
       mcmId: '257393'
-    subtype: DUEL
+    contents:
+      card_count: 60
+      deck:
+      - name: Golgari
+        set: ddj
   Duel Deck Izzet vs Golgari Izzet Deck:
     category: DECK
+    subtype: DUEL
     identifiers:
       cardtraderId: '47808'
       mcmId: '257394'
-    subtype: DUEL
+    contents:
+      card_count: 60
+      deck:
+      - name: Izzet
+        set: ddj

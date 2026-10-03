@@ -2,6 +2,7 @@ code: por
 products:
   Portal Booster Box:
     category: BOOSTER_BOX
+    subtype: DEFAULT
     identifiers:
       abuId: '1101011'
       cardKingdomId: '223167'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-POR-EN
       tcgplayerProductId: '27298'
       tntId: '86849'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 36
+        name: Portal Booster Pack
+        set: por
   Portal Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DEFAULT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Portal Booster Box
+        set: por
   Portal Booster Pack:
     category: BOOSTER_PACK
+    subtype: DEFAULT
     identifiers:
       abuId: '1476924'
       cardKingdomId: '1185'
@@ -29,23 +40,52 @@ products:
       scgId: SLD-MTG-PCK-POR-EN
       tcgplayerProductId: '27360'
       tntId: '86850'
-    subtype: DEFAULT
+    contents:
+      card_count: 15
+      other:
+      - name: 1 Portal strategy card (10 possible cards)
+      pack:
+      - code: default
+        set: por
   Portal Demo Game Booster Pack:
     category: BOOSTER_PACK
+    subtype: ADVANCED
     identifiers:
       cardtraderId: '337167'
       mcmId: '758894'
-    subtype: ADVANCED
+    contents:
+      card_count: 24
+      deck:
+      - name: Demo deck A
+        set: por
+      - name: Demo deck B
+        set: por
+      other:
+      - name: Tip Card
+      - name: Rebate Card
+      - name: 2 Instruction sheets
   Portal Gift Box:
     category: BUNDLE
+    subtype: GIFT_BUNDLE
     identifiers:
       cardKingdomId: '1187'
       hareruyaId: '116822'
       tcgplayerProductId: '630331'
       tntId: '138150'
-    subtype: GIFT_BUNDLE
+    contents:
+      other:
+      - name: Score Keeping Beads
+      - name: Checklist of all Portal Cards
+      sealed:
+      - count: 1
+        name: Portal Two Player Starter Set
+        set: por
+      - count: 1
+        name: Portal Booster Pack
+        set: por
   Portal Two Player Starter Set:
     category: MULTI_DECK
+    subtype: TWO_PLAYER_STARTER
     identifiers:
       abuId: '1100995'
       cardKingdomId: '204735'
@@ -54,9 +94,28 @@ products:
       mcmId: '253633'
       tcgplayerProductId: '81795'
       tntId: '86856'
-    subtype: TWO_PLAYER_STARTER
+    contents:
+      card_count: 70
+      deck:
+      - name: Preconstructed deck 1
+        set: por
+      - name: Preconstructed deck 2
+        set: por
+      other:
+      - name: 2 Paper Playmats
+      - name: Demo Play Guide
+      - name: Rule Book
+      sealed:
+      - count: 1
+        name: Portal Booster Pack
+        set: por
   Portal Two Player Starter Set Display:
     category: DECK_BOX
+    subtype: TWO_PLAYER_STARTER
     identifiers:
       abuId: '1527123'
-    subtype: TWO_PLAYER_STARTER
+    contents:
+      sealed:
+      - count: 12
+        name: Portal Two Player Starter Set
+        set: por

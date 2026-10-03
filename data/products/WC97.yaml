@@ -2,11 +2,26 @@ code: wc97
 products:
   1997 World Championship Deck Box:
     category: DECK_BOX
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1527128'
-    subtype: CHAMPIONSHIP
+    contents:
+      sealed:
+      - count: 5
+        name: 1997 World Championship Deck Jakub Slemr
+        set: wc97
+      - count: 3
+        name: 1997 World Championship Deck Janosch Kuhn
+        set: wc97
+      - count: 2
+        name: 1997 World Championship Deck Paul McCabe
+        set: wc97
+      - count: 2
+        name: 1997 World Championship Deck Svend Geertsen
+        set: wc97
   1997 World Championship Deck Jakub Slemr:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1100220'
       cardKingdomId: '240318'
@@ -17,9 +32,14 @@ products:
       scgId: SLD-MTG-BXS-WCH1997-EN-JAKUBSLEMR
       tcgplayerProductId: '158276'
       tntId: '108303'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 76
+      deck:
+      - name: Jakub Šlemr - Prismatic Black Aggro
+        set: wc97
   1997 World Championship Deck Janosch Kuhn:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1100225'
       cardKingdomId: '240319'
@@ -30,9 +50,14 @@ products:
       scgId: SLD-MTG-BXS-WCH1997-EN-JANOSCHKUHN
       tcgplayerProductId: '158277'
       tntId: '108304'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 75
+      deck:
+      - name: Janosch Kühn - Red-White-Blue Speed Control
+        set: wc97
   1997 World Championship Deck Paul McCabe:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1100226'
       cardKingdomId: '240321'
@@ -43,9 +68,14 @@ products:
       scgId: SLD-MTG-BXS-WCH1997-EN-PAULMCCABE
       tcgplayerProductId: '158279'
       tntId: '108302'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 75
+      deck:
+      - name: Paul McCabe - Red-Blue Aggro Control
+        set: wc97
   1997 World Championship Deck Svend Geertsen:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1100205'
       cardKingdomId: '240320'
@@ -56,9 +86,27 @@ products:
       scgId: SLD-MTG-BXS-WCH1997-EN-SVENDGEERTSEN
       tcgplayerProductId: '158278'
       tntId: '108305'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 75
+      deck:
+      - name: Svend Geertsen - Green Stompy
+        set: wc97
   1997 World Championship Decks Set of 4:
     category: SUBSET
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1476969'
-    subtype: CHAMPIONSHIP
+    contents:
+      sealed:
+      - count: 1
+        name: 1997 World Championship Deck Jakub Slemr
+        set: wc97
+      - count: 1
+        name: 1997 World Championship Deck Janosch Kuhn
+        set: wc97
+      - count: 1
+        name: 1997 World Championship Deck Paul McCabe
+        set: wc97
+      - count: 1
+        name: 1997 World Championship Deck Svend Geertsen
+        set: wc97

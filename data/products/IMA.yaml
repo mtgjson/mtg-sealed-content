@@ -2,6 +2,8 @@ code: ima
 products:
   Iconic Masters Draft Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2017-11-17'
     identifiers:
       abuId: '1477578'
       cardKingdomId: '214898'
@@ -12,15 +14,25 @@ products:
       scgId: SLD-MTG-BBX-IMA-EN
       tcgplayerProductId: '145235'
       tntId: '1139824'
-    release_date: '2017-11-17'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 24
+        name: Iconic Masters Draft Booster Pack
+        set: ima
   Iconic Masters Draft Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '145237'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 4
+        name: Iconic Masters Draft Booster Box
+        set: ima
   Iconic Masters Draft Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2017-11-17'
     identifiers:
       abuId: '1796199'
       cardKingdomId: '214899'
@@ -31,5 +43,8 @@ products:
       scgId: SLD-MTG-PCK-IMA-EN
       tcgplayerProductId: '145236'
       tntId: '1139825'
-    release_date: '2017-11-17'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: ima

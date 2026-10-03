@@ -2,26 +2,51 @@ code: s00
 products:
   Starter 2000 Advanced Booster Pack:
     category: BOOSTER_PACK
+    subtype: ADVANCED
     identifiers:
       cardtraderId: '45731'
       mcmId: '260971'
-    subtype: ADVANCED
+    contents:
+      card_count: 15
+      variable:
+      - deck:
+        - name: Player A's advanced pack
+          set: s00
+      - deck:
+        - name: Player B's advanced pack
+          set: s00
   Starter 2000 Demo Game Booster:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
     identifiers:
       cardtraderId: '45730'
       mcmId: '260970'
-    subtype: PROMOTIONAL
+    contents:
+      card_count: 24
+      deck:
+      - name: Demo deck A
+        set: p02
+      - name: Demo deck B
+        set: p02
+      other:
+      - name: Black border filler card
+      - name: Portal Second Age sample game instruction sheet
   Starter 2000 Sampler Booster Pack:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    release_date: '2019-01-29'
     identifiers:
       cardtraderId: '51003'
       mcmId: '369561'
       tcgplayerProductId: '257333'
-    release_date: '2019-01-29'
-    subtype: PROMOTIONAL
+    contents:
+      card_count: 10
+      deck:
+      - name: Starter 2000 sampler pack
+        set: s00
   Starter 2000 Two Player Starter Game:
     category: MULTI_DECK
+    subtype: TWO_PLAYER_STARTER
     identifiers:
       abuId: '1101169'
       cardKingdomId: '240217'
@@ -29,10 +54,36 @@ products:
       hareruyaId: '126584'
       mcmId: '242505'
       tntId: '113692'
-    subtype: TWO_PLAYER_STARTER
+    contents:
+      card:
+      - foil: true
+        name: Rhox
+        number: 43
+        set: s00
+      card_count: 74
+      deck:
+      - name: Player A's deck
+        set: s00
+      - name: Player A's advanced pack
+        set: s00
+      - name: Player B's deck
+        set: s00
+      - name: Player B's advanced pack
+        set: s00
+      other:
+      - name: Two Play Guides
+      - name: Magic the Gathering Rulebook
+      - name: Two Playmats and Scorekeeping Disks
+      - name: CD-ROM with Magic Mini-Games
+      - name: Consumer response card
   Starter 2000 Two Player Starter Game Display:
     category: DECK_BOX
+    subtype: TWO_PLAYER_STARTER
     identifiers:
       abuId: '1101175'
       tntId: '113691'
-    subtype: TWO_PLAYER_STARTER
+    contents:
+      sealed:
+      - count: 6
+        name: Starter 2000 Two Player Starter Game
+        set: s00

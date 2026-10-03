@@ -2,6 +2,7 @@ code: mir
 products:
   Mirage Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1107943'
       cardKingdomId: '186652'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-MIR-EN
       tcgplayerProductId: '27290'
       tntId: '85666'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Mirage Booster Pack
+        set: mir
   Mirage Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Mirage Booster Box
+        set: mir
   Mirage Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476905'
       cardKingdomId: '1184'
@@ -29,9 +40,14 @@ products:
       scgId: SLD-MTG-PCK-MIR-EN
       tcgplayerProductId: '27352'
       tntId: '85667'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: mir
   Mirage Starter Deck:
     category: LIMITED
+    subtype: STARTER
     identifiers:
       abuId: '1100877'
       cardKingdomId: '1246'
@@ -42,9 +58,16 @@ products:
       scgId: SLD-MTG-PCK-MIRTOURNAMENT-EN
       tcgplayerProductId: '121397'
       tntId: '85675'
-    subtype: STARTER
+    contents:
+      card_count: 60
+      other:
+      - name: Mirage starter rulebook
+      pack:
+      - code: starter
+        set: mir
   Mirage Starter Deck Display:
     category: LIMITED_CASE
+    subtype: STARTER
     identifiers:
       abuId: '1107944'
       cardKingdomId: '240168'
@@ -54,4 +77,8 @@ products:
       scgId: SLD-MTG-BBX-MIRTOURNAMENT-EN
       tcgplayerProductId: '121754'
       tntId: '85674'
-    subtype: STARTER
+    contents:
+      sealed:
+      - count: 12
+        name: Mirage Starter Deck
+        set: mir

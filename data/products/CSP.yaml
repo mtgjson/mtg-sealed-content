@@ -2,6 +2,7 @@ code: csp
 products:
   Coldsnap Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1107818'
       cardKingdomId: '120632'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-CSP-EN
       tcgplayerProductId: '27271'
       tntId: '141889'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Coldsnap Booster Pack
+        set: csp
   Coldsnap Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Coldsnap Booster Box
+        set: csp
   Coldsnap Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476861'
       cardKingdomId: '120633'
@@ -29,9 +40,14 @@ products:
       scgId: SLD-MTG-PCK-CSP-EN
       tcgplayerProductId: '27333'
       tntId: '141888'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: csp
   Coldsnap Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1107819'
       cardKingdomId: '120635'
@@ -42,19 +58,44 @@ products:
       scgId: SLD-MTG-BUN-CSP-EN
       tcgplayerProductId: '78306'
       tntId: '141892'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Coldsnap Fat Pack Land Pack
+        set: csp
+      other:
+      - name: Two card boxes
+      - name: Coldsnap player guide
+      - name: 1 Pro Player card
+      - name: 6 color dividers for the card boxes
+      - name: Life counter with a circle spinner featuring Darien, King of Kjeldor
+      - name: Jeff Grub's Ice Age novel The Gathering Dark
+      sealed:
+      - count: 6
+        name: Coldsnap Booster Pack
+        set: csp
   Coldsnap MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241639'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 155
+      deck:
+      - name: Coldsnap Redemption
+        set: csp
   Coldsnap MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241638'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 155
+      deck:
+      - name: Coldsnap Foil Redemption
+        set: csp
   Coldsnap Theme Deck Aurochs Stampede:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1107817'
       cardKingdomId: '121021'
@@ -63,9 +104,16 @@ products:
       mcmId: '253665'
       tcgplayerProductId: '72029'
       tntId: '141897'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Aurochs Stampede
+        set: csp
+      other:
+      - name: One random Pro Tour Player Card
   Coldsnap Theme Deck Beyond the Grave:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1107823'
       cardKingdomId: '121022'
@@ -74,17 +122,38 @@ products:
       mcmId: '253666'
       tcgplayerProductId: '72030'
       tntId: '141893'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Beyond The Grave
+        set: csp
+      other:
+      - name: One random Pro Tour Player Card
   Coldsnap Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       abuId: '1476862'
       cardtraderId: '47123'
       mcmId: '210211'
       tntId: '141896'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 3
+        name: Coldsnap Theme Deck Aurochs Stampede
+        set: csp
+      - count: 3
+        name: Coldsnap Theme Deck Beyond the Grave
+        set: csp
+      - count: 3
+        name: Coldsnap Theme Deck Kjeldoran Cunning
+        set: csp
+      - count: 3
+        name: Coldsnap Theme Deck Snowscape
+        set: csp
   Coldsnap Theme Deck Kjeldoran Cunning:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1107824'
       cardKingdomId: '121023'
@@ -93,9 +162,16 @@ products:
       mcmId: '253667'
       tcgplayerProductId: '72031'
       tntId: '141894'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Kjeldoran Cunning
+        set: csp
+      other:
+      - name: One random Pro Tour Player Card
   Coldsnap Theme Deck Snowscape:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100315'
       cardKingdomId: '121024'
@@ -104,4 +180,10 @@ products:
       mcmId: '253668'
       tcgplayerProductId: '72032'
       tntId: '141895'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Snowscape
+        set: csp
+      other:
+      - name: One random Pro Tour Player Card

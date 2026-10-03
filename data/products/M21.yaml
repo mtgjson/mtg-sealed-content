@@ -2,6 +2,8 @@ code: m21
 products:
   Core Set 2021 Arena Starter Kit:
     category: MULTI_DECK
+    subtype: TWO_PLAYER_STARTER
+    release_date: '2020-07-03'
     identifiers:
       abuId: '1874414'
       cardKingdomId: '233880'
@@ -9,17 +11,37 @@ products:
       csiId: '297755'
       mcmId: '486939'
       tcgplayerProductId: '252732'
-    release_date: '2020-07-03'
-    subtype: TWO_PLAYER_STARTER
+    contents:
+      card_count: 120
+      deck:
+      - name: Mono Black
+        set: m21
+      - name: Mono Green
+        set: m21
+      other:
+      - name: 16-page reference rulebook
+      - name: MTG Arena code card
   Core Set 2021 Arena Starter Kit Amazon:
     category: MULTI_DECK
+    subtype: TWO_PLAYER_STARTER
+    release_date: '2020-07-03'
     identifiers:
       hareruyaId: '113692'
       tcgplayerProductId: '214819'
-    release_date: '2020-07-03'
-    subtype: TWO_PLAYER_STARTER
+    contents:
+      card_count: 120
+      deck:
+      - name: Mono Black Amazon
+        set: m21
+      - name: Mono Green Amazon
+        set: m21
+      other:
+      - name: 16-page reference rulebook
+      - name: MTG Arena code card
   Core Set 2021 Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2020-07-03'
     identifiers:
       abuId: '1862816'
       cardKingdomId: '233865'
@@ -30,10 +52,27 @@ products:
       scgId: SLD-MTG-BUN-M21-EN
       tcgplayerProductId: '214814'
       tntId: '1605703'
-    release_date: '2020-07-03'
-    subtype: DEFAULT
+    contents:
+      card:
+      - foil: true
+        name: Pack Leader
+        number: 392
+        set: m21
+      deck:
+      - name: Core Set 2021 Bundle Land Pack
+        set: m21
+      other:
+      - name: 2 reference cards
+      - name: Core Set 2021 Spindown
+      - name: Reusable Storage Box
+      sealed:
+      - count: 10
+        name: Core Set 2021 Draft Booster Pack
+        set: m21
   Core Set 2021 Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2020-07-03'
     identifiers:
       abuId: '1860786'
       cardKingdomId: '233863'
@@ -44,14 +83,24 @@ products:
       scgId: SLD-MTG-BBX-M21COLLECTOR-EN
       tcgplayerProductId: '214818'
       tntId: '1665298'
-    release_date: '2020-07-03'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Core Set 2021 Collector Booster Pack
+        set: m21
   Core Set 2021 Collector Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: COLLECTOR
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Core Set 2021 Collector Booster Box
+        set: m21
   Core Set 2021 Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2020-07-03'
     identifiers:
       abuId: '2689633'
       cardKingdomId: '233864'
@@ -62,10 +111,15 @@ products:
       scgId: SLD-MTG-PCK-M21COLLECTOR-EN
       tcgplayerProductId: '215325'
       tntId: '1665299'
-    release_date: '2020-07-03'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: m21
   Core Set 2021 Draft Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2020-07-03'
     identifiers:
       abuId: '1860785'
       cardKingdomId: '233859'
@@ -76,17 +130,27 @@ products:
       scgId: SLD-MTG-BBX-M21DRAFT-EN
       tcgplayerProductId: '214811'
       tntId: '1605734'
-    release_date: '2020-07-03'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Core Set 2021 Draft Booster Pack
+        set: m21
   Core Set 2021 Draft Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2020-07-03'
     identifiers:
       tcgplayerProductId: '214810'
       tntId: '1605699'
-    release_date: '2020-07-03'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 12
+        name: Core Set 2021 Draft Booster Box
+        set: m21
   Core Set 2021 Draft Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2020-07-03'
     identifiers:
       abuId: '2689632'
       cardKingdomId: '233862'
@@ -97,20 +161,35 @@ products:
       scgId: SLD-MTG-PCK-M21DRAFT-EN
       tcgplayerProductId: '214813'
       tntId: '1605707'
-    release_date: '2020-07-03'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: m21
   Core Set 2021 MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '233881'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 274
+      deck:
+      - name: Core Set 2021 Redemption
+        set: m21
   Core Set 2021 MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '233882'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 274
+      deck:
+      - name: Core Set 2021 Foil Redemption
+        set: m21
   Core Set 2021 Planeswalker Deck Basri:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2020-07-03'
     identifiers:
       abuId: '1878053'
       cardKingdomId: '233868'
@@ -119,10 +198,21 @@ products:
       mcmId: '467329'
       tcgplayerProductId: '215468'
       tntId: '1605725'
-    release_date: '2020-07-03'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Basri, Devoted Paladin
+        set: m21
+      other:
+      - name: MTG Arena code card (where available)
+      sealed:
+      - count: 1
+        name: Core Set 2021 Draft Booster Pack
+        set: m21
   Core Set 2021 Planeswalker Deck Chandra:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2020-07-03'
     identifiers:
       abuId: '1878059'
       cardKingdomId: '233871'
@@ -131,17 +221,45 @@ products:
       mcmId: '467344'
       tcgplayerProductId: '215466'
       tntId: '1605726'
-    release_date: '2020-07-03'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Chandra, Flame's Catalyst
+        set: m21
+      other:
+      - name: MTG Arena code card (where available)
+      sealed:
+      - count: 1
+        name: Core Set 2021 Draft Booster Pack
+        set: m21
   Core Set 2021 Planeswalker Deck Display:
     category: DECK_BOX
+    subtype: PLANESWALKER
+    release_date: '2020-07-03'
     identifiers:
       tcgplayerProductId: '214815'
       tntId: '1605719'
-    release_date: '2020-07-03'
-    subtype: PLANESWALKER
+    contents:
+      sealed:
+      - count: 2
+        name: Core Set 2021 Planeswalker Deck Basri
+        set: m21
+      - count: 2
+        name: Core Set 2021 Planeswalker Deck Chandra
+        set: m21
+      - count: 2
+        name: Core Set 2021 Planeswalker Deck Garruk
+        set: m21
+      - count: 2
+        name: Core Set 2021 Planeswalker Deck Liliana
+        set: m21
+      - count: 2
+        name: Core Set 2021 Planeswalker Deck Teferi
+        set: m21
   Core Set 2021 Planeswalker Deck Garruk:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2020-07-03'
     identifiers:
       abuId: '1878061'
       cardKingdomId: '233867'
@@ -150,10 +268,21 @@ products:
       mcmId: '467349'
       tcgplayerProductId: '215465'
       tntId: '1605727'
-    release_date: '2020-07-03'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Garruk, Savage Herald
+        set: m21
+      other:
+      - name: MTG Arena code card (where available)
+      sealed:
+      - count: 1
+        name: Core Set 2021 Draft Booster Pack
+        set: m21
   Core Set 2021 Planeswalker Deck Liliana:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2020-07-03'
     identifiers:
       abuId: '1878057'
       cardKingdomId: '233870'
@@ -162,10 +291,21 @@ products:
       mcmId: '467339'
       tcgplayerProductId: '215464'
       tntId: '1605728'
-    release_date: '2020-07-03'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Liliana, Death Mage
+        set: m21
+      other:
+      - name: MTG Arena code card (where available)
+      sealed:
+      - count: 1
+        name: Core Set 2021 Draft Booster Pack
+        set: m21
   Core Set 2021 Planeswalker Deck Teferi:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2020-07-03'
     identifiers:
       abuId: '1878055'
       cardKingdomId: '233869'
@@ -174,17 +314,45 @@ products:
       mcmId: '467334'
       tcgplayerProductId: '215467'
       tntId: '1605729'
-    release_date: '2020-07-03'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Teferi, Timeless Voyager
+        set: m21
+      other:
+      - name: MTG Arena code card (where available)
+      sealed:
+      - count: 1
+        name: Core Set 2021 Draft Booster Pack
+        set: m21
   Core Set 2021 Planeswalker Decks Set of 5:
     category: SUBSET
+    subtype: PLANESWALKER
+    release_date: '2020-07-03'
     identifiers:
       hareruyaId: '86170'
       tcgplayerProductId: '214817'
-    release_date: '2020-07-03'
-    subtype: PLANESWALKER
+    contents:
+      sealed:
+      - count: 1
+        name: Core Set 2021 Planeswalker Deck Basri
+        set: m21
+      - count: 1
+        name: Core Set 2021 Planeswalker Deck Chandra
+        set: m21
+      - count: 1
+        name: Core Set 2021 Planeswalker Deck Garruk
+        set: m21
+      - count: 1
+        name: Core Set 2021 Planeswalker Deck Liliana
+        set: m21
+      - count: 1
+        name: Core Set 2021 Planeswalker Deck Teferi
+        set: m21
   Core Set 2021 Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2020-06-26'
     identifiers:
       abuId: '1862117'
       cardKingdomId: '233866'
@@ -193,12 +361,29 @@ products:
       mcmId: '476879'
       scgId: SLD-MTG-INT-M21PRE-EN
       tcgplayerProductId: '215920'
-    release_date: '2020-06-26'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: MTG Arena code card (where available)
+      - name: Core Set 2021 Spindown
+      pack:
+      - code: prerelease
+        set: m21
+      sealed:
+      - count: 6
+        name: Core Set 2021 Draft Booster Pack
+        set: m21
   Core Set 2021 Welcome Booster:
     category: BOOSTER_PACK
+    subtype: WELCOME
+    release_date: '2020-07-03'
     identifiers:
       cardtraderId: '145667'
       mcmId: '486944'
-    release_date: '2020-07-03'
-    subtype: WELCOME
+    contents:
+      card_count: 10
+      deck:
+      - name: Core Set 2021 Welcome Booster
+        set: m21
+      other:
+      - name: Double-sided helper cards

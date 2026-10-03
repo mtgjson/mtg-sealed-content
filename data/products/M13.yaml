@@ -2,29 +2,36 @@ code: m13
 products:
   2013 Core Set 3 Booster Draft Pack:
     category: LIMITED
+    subtype: DRAFT_SET
+    release_date: '2012-07-13'
     identifiers:
       tcgplayerProductId: '59122'
-    release_date: '2012-07-13'
-    subtype: DRAFT_SET
+    contents:
+      sealed:
+      - count: 3
+        name: 2013 Core Set Booster Pack
+        set: m13
   2013 Core Set Booster Battle Pack:
     category: MULTI_DECK
+    subtype: BATTLE
     identifiers:
       abuId: '1100768'
       cardtraderId: '47788'
       mcmId: '257500'
       tcgplayerProductId: '97819'
       tntId: '385253'
-    subtype: BATTLE
   2013 Core Set Booster Battle Pack Display:
     category: DECK_BOX
+    subtype: BATTLE
     identifiers:
       cardtraderId: '47792'
       mcmId: '257501'
       tcgplayerProductId: '485831'
       tntId: '385254'
-    subtype: BATTLE
   2013 Core Set Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2012-07-13'
     identifiers:
       abuId: '1100767'
       cardKingdomId: '187473'
@@ -35,15 +42,25 @@ products:
       scgId: SLD-MTG-BBX-M13-EN
       tcgplayerProductId: '59120'
       tntId: '328587'
-    release_date: '2012-07-13'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: 2013 Core Set Booster Pack
+        set: m13
   2013 Core Set Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '59119'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: 2013 Core Set Booster Box
+        set: m13
   2013 Core Set Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2012-07-13'
     identifiers:
       abuId: '1476899'
       cardKingdomId: '187474'
@@ -54,10 +71,14 @@ products:
       scgId: SLD-MTG-PCK-M13-EN
       tcgplayerProductId: '59123'
       tntId: '367776'
-    release_date: '2012-07-13'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: m13
   2013 Core Set Deck Builders Toolkit:
     category: KIT
+    subtype: DECK_BUILDERS_TOOLKIT
     identifiers:
       abuId: '1100362'
       cardKingdomId: '199663'
@@ -66,16 +87,83 @@ products:
       scgId: SLD-MTG-INT-M13TOOLKIT-EN
       tcgplayerProductId: '245962'
       tntId: '385248'
-    subtype: DECK_BUILDERS_TOOLKIT
+    contents:
+      card_count: 225
+      deck:
+      - name: Fixed Content
+        set: m13
+      other:
+      - name: Magic 2013 Deck Builder's Guide
+      - name: Magic "Learn to Play" Guide
+      - name: Full-art Reusable Storage Box
+      sealed:
+      - count: 1
+        name: 2013 Core Set Booster Pack
+        set: m13
+      - count: 1
+        name: Innistrad Booster Pack
+        set: isd
+      - count: 1
+        name: Dark Ascension Booster Pack
+        set: dka
+      - count: 1
+        name: Avacyn Restored Booster Pack
+        set: avr
+      variable:
+      - deck:
+        - name: Blue Black Evasion
+          set: m13
+      - deck:
+        - name: Humans
+          set: m13
+      - deck:
+        - name: Library Depletion
+          set: m13
+      - deck:
+        - name: Tokens
+          set: m13
+      - deck:
+        - name: Midrange Green
+          set: m13
+      - deck:
+        - name: Exalted
+          set: m13
+      - deck:
+        - name: Spirits
+          set: m13
+      - deck:
+        - name: Angels
+          set: m13
+      - deck:
+        - name: Vampires
+          set: m13
+      - deck:
+        - name: Zombies
+          set: m13
+      - deck:
+        - name: Red Burn
+          set: m13
+      variable_mode:
+        count: 4
+        replacement: false
   2013 Core Set Event Deck Display:
     category: DECK_BOX
+    subtype: EVENT
     identifiers:
       cardtraderId: '47793'
       mcmId: '257499'
       tntId: '385252'
-    subtype: EVENT
+    contents:
+      sealed:
+      - count: 3
+        name: 2013 Core Set Event Deck Repeat Performance
+        set: m13
+      - count: 3
+        name: 2013 Core Set Event Deck Sweet Revenge
+        set: m13
   2013 Core Set Event Deck Repeat Performance:
     category: DECK
+    subtype: EVENT
     identifiers:
       abuId: '1100770'
       cardKingdomId: '187957'
@@ -85,9 +173,14 @@ products:
       scgId: SLD-MTG-INT-M13EVENT-EN-REPEAT
       tcgplayerProductId: '60109'
       tntId: '385250'
-    subtype: EVENT
+    contents:
+      card_count: 75
+      deck:
+      - name: Repeat Performance
+        set: m13
   2013 Core Set Event Deck Sweet Revenge:
     category: DECK
+    subtype: EVENT
     identifiers:
       abuId: '1100771'
       cardKingdomId: '187958'
@@ -97,17 +190,31 @@ products:
       scgId: SLD-MTG-INT-M13EVENT-EN-SWEET
       tcgplayerProductId: '60110'
       tntId: '385249'
-    subtype: EVENT
+    contents:
+      card_count: 75
+      deck:
+      - name: Sweet Revenge
+        set: m13
   2013 Core Set Event Decks Set of 2:
     category: SUBSET
+    subtype: EVENT
     identifiers:
       abuId: '1100772'
       cardtraderId: '47782'
       mcmId: '257498'
       tcgplayerProductId: '60111'
-    subtype: EVENT
+    contents:
+      sealed:
+      - count: 1
+        name: 2013 Core Set Event Deck Repeat Performance
+        set: m13
+      - count: 1
+        name: 2013 Core Set Event Deck Sweet Revenge
+        set: m13
   2013 Core Set Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
+    release_date: '2012-07-13'
     identifiers:
       abuId: '1100776'
       cardKingdomId: '187475'
@@ -118,10 +225,22 @@ products:
       scgId: SLD-MTG-BUN-M13-EN
       tcgplayerProductId: '59124'
       tntId: '367777'
-    release_date: '2012-07-13'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Magic 2013 Fat Pack Land Pack
+        set: m13
+      other:
+      - name: Magic 2013 Player's Guide
+      - name: Magic 2013 Card Box
+      - name: Special edition spindown life counter
+      - name: Two deck boxes
+      sealed:
+      - count: 9
+        name: 2013 Core Set Booster Pack
+        set: m13
   2013 Core Set Intro Pack Depths of Power Blue:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100777'
       cardKingdomId: '187705'
@@ -131,16 +250,42 @@ products:
       scgId: SLD-MTG-INT-M13INTRO-EN-DEPTHS
       tcgplayerProductId: '97814'
       tntId: '383298'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Depths of Power
+        set: m13
+      sealed:
+      - count: 2
+        name: 2013 Core Set Booster Pack
+        set: m13
   2013 Core Set Intro Pack Display:
     category: DECK_BOX
+    subtype: INTRO
     identifiers:
       cardtraderId: '47790'
       mcmId: '256768'
       tntId: '367778'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 2
+        name: 2013 Core Set Intro Pack Depths of Power Blue
+        set: m13
+      - count: 2
+        name: 2013 Core Set Intro Pack Mob Rule Red
+        set: m13
+      - count: 2
+        name: 2013 Core Set Intro Pack Path to Victory White
+        set: m13
+      - count: 2
+        name: 2013 Core Set Intro Pack Sole Domination Black
+        set: m13
+      - count: 2
+        name: 2013 Core Set Intro Pack Wild Rush Green
+        set: m13
   2013 Core Set Intro Pack Mob Rule Red:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100778'
       cardKingdomId: '187707'
@@ -149,9 +294,18 @@ products:
       scgId: SLD-MTG-INT-M13INTRO-EN-MOB
       tcgplayerProductId: '97816'
       tntId: '383300'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Mob Rule
+        set: m13
+      sealed:
+      - count: 2
+        name: 2013 Core Set Booster Pack
+        set: m13
   2013 Core Set Intro Pack Path to Victory White:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100782'
       cardKingdomId: '187704'
@@ -160,9 +314,18 @@ products:
       scgId: SLD-MTG-INT-M13INTRO-EN-PATH
       tcgplayerProductId: '97813'
       tntId: '383297'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Path to Victory
+        set: m13
+      sealed:
+      - count: 2
+        name: 2013 Core Set Booster Pack
+        set: m13
   2013 Core Set Intro Pack Sole Domination Black:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100783'
       cardKingdomId: '187706'
@@ -171,9 +334,18 @@ products:
       scgId: SLD-MTG-INT-M13INTRO-EN-SOLE
       tcgplayerProductId: '97815'
       tntId: '383299'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Sole Domination
+        set: m13
+      sealed:
+      - count: 2
+        name: 2013 Core Set Booster Pack
+        set: m13
   2013 Core Set Intro Pack Wild Rush Green:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100784'
       cardKingdomId: '187708'
@@ -183,59 +355,124 @@ products:
       scgId: SLD-MTG-INT-M13INTRO-EN-WILD
       tcgplayerProductId: '97817'
       tntId: '383301'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Wild Rush
+        set: m13
+      sealed:
+      - count: 2
+        name: 2013 Core Set Booster Pack
+        set: m13
   2013 Core Set Intro Packs Set of 5:
     category: SUBSET
+    subtype: INTRO
+    release_date: '2012-07-13'
     identifiers:
       abuId: '1100788'
       cardtraderId: '47791'
       mcmId: '256767'
       tcgplayerProductId: '59121'
-    release_date: '2012-07-13'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 1
+        name: 2013 Core Set Intro Pack Depths of Power Blue
+        set: m13
+      - count: 1
+        name: 2013 Core Set Intro Pack Mob Rule Red
+        set: m13
+      - count: 1
+        name: 2013 Core Set Intro Pack Path to Victory White
+        set: m13
+      - count: 1
+        name: 2013 Core Set Intro Pack Sole Domination Black
+        set: m13
+      - count: 1
+        name: 2013 Core Set Intro Pack Wild Rush Green
+        set: m13
   2013 Core Set MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210850'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 249
+      deck:
+      - name: Magic 2013 Redemption
+        set: m13
   2013 Core Set MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210876'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 249
+      deck:
+      - name: Magic 2013 Foil Redemption
+        set: m13
   2013 Core Set Sample Deck Ajani Goldmane:
     category: DECK
+    subtype: STARTER
     identifiers:
       cardtraderId: '47783'
       mcmId: '287580'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      deck:
+      - name: White Sample Deck
+        set: m13
   2013 Core Set Sample Deck Chandra Nalaar:
     category: DECK
+    subtype: STARTER
     identifiers:
       cardtraderId: '47784'
       mcmId: '287581'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      deck:
+      - name: Red Sample Deck
+        set: m13
   2013 Core Set Sample Deck Garruk Wildspeaker:
     category: DECK
+    subtype: STARTER
     identifiers:
       cardtraderId: '47785'
       mcmId: '287582'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      deck:
+      - name: Green Sample Deck
+        set: m13
   2013 Core Set Sample Deck Jace Beleren:
     category: DECK
+    subtype: STARTER
     identifiers:
       cardtraderId: '47786'
       mcmId: '287583'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      deck:
+      - name: Blue Sample Deck
+        set: m13
   2013 Core Set Sample Deck Liliana Vess:
     category: DECK
+    subtype: STARTER
     identifiers:
       cardtraderId: '47787'
       mcmId: '287584'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      deck:
+      - name: Black Sample Deck
+        set: m13
   2013 Core Set Six Card Booster Pack:
     category: BOOSTER_PACK
+    subtype: SIX
     identifiers:
       cardtraderId: '47765'
       mcmId: '315712'
-    subtype: SIX
+    contents:
+      card_count: 6
+      pack:
+      - code: six
+        set: m13

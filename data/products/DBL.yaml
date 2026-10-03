@@ -2,6 +2,8 @@ code: dbl
 products:
   Innistrad Double Feature Draft Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2022-01-28'
     identifiers:
       abuId: '2152735'
       cardKingdomId: '253780'
@@ -11,16 +13,26 @@ products:
       mcmId: '577318'
       scgId: SLD-MTG-BBX-DBLDRAFT-EN
       tcgplayerProductId: '255911'
-    release_date: '2022-01-28'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 24
+        name: Innistrad Double Feature Draft Booster Pack
+        set: dbl
   Innistrad Double Feature Draft Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2022-01-28'
     identifiers:
       tcgplayerProductId: '255913'
-    release_date: '2022-01-28'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Innistrad Double Feature Draft Booster Box
+        set: dbl
   Innistrad Double Feature Draft Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2022-01-28'
     identifiers:
       abuId: '2127003'
       cardKingdomId: '253781'
@@ -30,5 +42,8 @@ products:
       mcmId: '577319'
       scgId: SLD-MTG-PCK-DBLDRAFT-EN
       tcgplayerProductId: '255912'
-    release_date: '2022-01-28'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: dbl

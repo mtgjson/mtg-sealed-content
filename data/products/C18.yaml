@@ -2,6 +2,8 @@ code: c18
 products:
   Commander 2018 Commander Deck Adaptive Enchantment:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2018-08-10'
     identifiers:
       abuId: '1521716'
       cardKingdomId: '220771'
@@ -12,10 +14,19 @@ products:
       scgId: SLD-MTG-MLT-C18-EN-ADAPTIVE
       tcgplayerProductId: '170285'
       tntId: '1182241'
-    release_date: '2018-08-10'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Adaptive Enchantment
+        set: c18
+      other:
+      - name: 10 Double Sided Tokens
+      - name: Reference Card and Strategy Insert
+      - name: Deck Box
   Commander 2018 Commander Deck Exquisite Invention:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2018-08-10'
     identifiers:
       abuId: '1521717'
       cardKingdomId: '220770'
@@ -26,10 +37,19 @@ products:
       scgId: SLD-MTG-MLT-C18-EN-EXQUISITE
       tcgplayerProductId: '170283'
       tntId: '1182244'
-    release_date: '2018-08-10'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Exquisite Invention
+        set: c18
+      other:
+      - name: 10 Double Sided Tokens
+      - name: Reference Card and Strategy Insert
+      - name: Deck Box
   Commander 2018 Commander Deck Natures Vengeance:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2018-08-10'
     identifiers:
       abuId: '1521718'
       cardKingdomId: '220769'
@@ -40,10 +60,19 @@ products:
       scgId: SLD-MTG-MLT-C18-EN-NATURES
       tcgplayerProductId: '170284'
       tntId: '1182242'
-    release_date: '2018-08-10'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Nature's Vengeance
+        set: c18
+      other:
+      - name: 10 Double Sided Tokens
+      - name: Reference Card and Strategy Insert
+      - name: Deck Box
   Commander 2018 Commander Deck Subjective Reality:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2018-08-10'
     identifiers:
       abuId: '1521719'
       cardKingdomId: '220772'
@@ -54,10 +83,19 @@ products:
       scgId: SLD-MTG-MLT-C18-EN-SUBJECTIVE
       tcgplayerProductId: '170286'
       tntId: '1182243'
-    release_date: '2018-08-10'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Subjective Reality
+        set: c18
+      other:
+      - name: 10 Double Sided Tokens
+      - name: Reference Card and Strategy Insert
+      - name: Deck Box
   Commander 2018 Commander Decks Set of 4:
     category: SUBSET
+    subtype: COMMANDER
+    release_date: '2018-08-10'
     identifiers:
       cardtraderId: '44507'
       hareruyaId: '28584'
@@ -65,5 +103,17 @@ products:
       scgId: SLD-MTG-MLT-C18-EN-SET4
       tcgplayerProductId: '166596'
       tntId: '1182240'
-    release_date: '2018-08-10'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Commander 2018 Commander Deck Adaptive Enchantment
+        set: c18
+      - count: 1
+        name: Commander 2018 Commander Deck Exquisite Invention
+        set: c18
+      - count: 1
+        name: Commander 2018 Commander Deck Natures Vengeance
+        set: c18
+      - count: 1
+        name: Commander 2018 Commander Deck Subjective Reality
+        set: c18

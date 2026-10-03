@@ -2,16 +2,27 @@ code: sos
 products:
   Secrets of Strixhaven 60-Card Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       tcgplayerProductId: '675581'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 4
+        name: Secrets of Strixhaven Theme Decks Set of 2
+        set: sos
   Secrets of Strixhaven 60-Card Theme Deck Display Case:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       tcgplayerProductId: '675582'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 4
+        name: Secrets of Strixhaven 60-Card Theme Deck Display
+        set: sos
   Secrets of Strixhaven 60-Card Theme Deck Eerie:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '2675223'
       cardKingdomId: '324606'
@@ -20,9 +31,19 @@ products:
       miniaturemarketId: 019c06a173777270a68066767b5f3d82
       scgId: SLD-MTG-STD-SOS-EN-EERIE
       tcgplayerProductId: '675579'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Eerie
+        set: sos
+      other:
+      - name: 5 Non-foil double-sided tokens
+      - name: 1 Double-sided reference card
+      - name: 1 Strategy insert
+      - name: 1 Deck box
   Secrets of Strixhaven 60-Card Theme Deck Lifegain:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '2675225'
       cardKingdomId: '324607'
@@ -31,9 +52,19 @@ products:
       miniaturemarketId: 019c06a17d227187b1e29941a6f598b3
       scgId: SLD-MTG-STD-SOS-EN-LIFEGAIN
       tcgplayerProductId: '675580'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Lifegain
+        set: sos
+      other:
+      - name: 5 Non-foil double-sided tokens
+      - name: 1 Double-sided reference card
+      - name: 1 Strategy insert
+      - name: 1 Deck box
   Secrets of Strixhaven Bundle:
     category: BUNDLE
+    subtype: DEFAULT
     identifiers:
       cardKingdomId: '324619'
       cardtraderId: '370613'
@@ -41,14 +72,38 @@ products:
       miniaturemarketId: 019c06a14c5a737fa0dfa955d8c70f5b
       scgId: SLD-MTG-BUN-SOS-EN
       tcgplayerProductId: '675561'
-    subtype: DEFAULT
+    contents:
+      card:
+      - foil: true
+        name: Wisdom of Ages
+        number: 368
+        set: sos
+      card_count: 1
+      deck:
+      - name: Secrets of Strixhaven Bundle Land Pack
+        set: sos
+      other:
+      - name: 2 Reference cards
+      - name: 1 Spindown die
+      - name: 1 Card-storage box
+      sealed:
+      - count: 9
+        name: Secrets of Strixhaven Play Booster Pack
+        set: sos
   Secrets of Strixhaven Bundle Case:
     category: BUNDLE_CASE
+    subtype: DEFAULT
     identifiers:
       tcgplayerProductId: '675562'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 6
+        name: Secrets of Strixhaven Bundle
+        set: sos
   Secrets of Strixhaven Codex Bundle:
     category: BUNDLE
+    subtype: UNKNOWN
+    release_date: '2026-05-15'
     identifiers:
       abuId: '2675221'
       cardKingdomId: '324637'
@@ -58,17 +113,40 @@ products:
       miniaturemarketId: 019c06a15500708085e9501898049ca2
       scgId: SLD-MTG-BUN-SOS-EN-CODEX
       tcgplayerProductId: '675563'
-    release_date: '2026-05-15'
-    subtype: UNKNOWN
+    contents:
+      card_count: 22
+      deck:
+      - name: Secrets of Strixhaven Codex Bundle Land Pack
+        set: sos
+      other:
+      - name: 1 Spindown die
+      - name: 2 Reference cards
+      - name: 1 Card-storage box
+      pack:
+      - code: codex-bundle
+        set: sos
+      sealed:
+      - count: 6
+        name: Secrets of Strixhaven Play Booster Pack
+        set: sos
+      - count: 2
+        name: Secrets of Strixhaven Collector Booster Pack
+        set: sos
   Secrets of Strixhaven Codex Bundle Case:
     category: BUNDLE_CASE
+    subtype: UNKNOWN
+    release_date: '2026-05-15'
     identifiers:
       cardtraderId: '405212'
       tcgplayerProductId: '675564'
-    release_date: '2026-05-15'
-    subtype: UNKNOWN
+    contents:
+      sealed:
+      - count: 6
+        name: Secrets of Strixhaven Codex Bundle
+        set: sos
   Secrets of Strixhaven Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
     identifiers:
       abuId: '2675213'
       cardKingdomId: '324622'
@@ -78,19 +156,34 @@ products:
       miniaturemarketId: 019c06a1197e724d994f14d719e8b007
       scgId: SLD-MTG-BBX-SOSCOLLECTOR-EN
       tcgplayerProductId: '675558'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Secrets of Strixhaven Collector Booster Pack
+        set: sos
   Secrets of Strixhaven Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '675559'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Secrets of Strixhaven Collector Booster Box
+        set: sos
   Secrets of Strixhaven Collector Booster Box Master Case:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '675560'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 4
+        name: Secrets of Strixhaven Collector Booster Box Case
+        set: sos
   Secrets of Strixhaven Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
     identifiers:
       abuId: '2675214'
       cardKingdomId: '324621'
@@ -100,9 +193,14 @@ products:
       miniaturemarketId: 019c06a1248d726aab1af529adee721f
       scgId: SLD-MTG-PCK-SOSCOLLECTOR-EN
       tcgplayerProductId: '675557'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: sos
   Secrets of Strixhaven Draft Night:
     category: LIMITED
+    subtype: DRAFT
     identifiers:
       abuId: '2675222'
       cardKingdomId: '324620'
@@ -111,19 +209,44 @@ products:
       miniaturemarketId: 019c06a15fa870a7b84d4d59ad0a32c5
       scgId: SLD-MTG-DFT-SOS-EN
       tcgplayerProductId: '675565'
-    subtype: DRAFT
+    contents:
+      card_count: 90
+      deck:
+      - name: Secrets of Strixhaven Draft Night Land Pack
+        set: sos
+      other:
+      - name: 10 Non-foil double-sided tokens
+      - name: 1 Draft insert
+      sealed:
+      - count: 12
+        name: Secrets of Strixhaven Play Booster Pack
+        set: sos
+      - count: 1
+        name: Secrets of Strixhaven Collector Booster Pack
+        set: sos
   Secrets of Strixhaven Draft Night Case:
     category: LIMITED_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '675566'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Secrets of Strixhaven Draft Night
+        set: sos
   Secrets of Strixhaven MTGO Redemption Secrets of Strixhaven Redemption:
     category: BOX_SET
-    identifiers: {}
-    release_date: '2026-05-20'
     subtype: MTGO_REDEMPTION
+    release_date: '2026-05-20'
+    identifiers: {}
+    contents:
+      card_count: 281
+      deck:
+      - name: Secrets of Strixhaven Redemption
+        set: sos
   Secrets of Strixhaven Play Booster Box:
     category: BOOSTER_BOX
+    subtype: PLAY
     identifiers:
       abuId: '2675211'
       cardKingdomId: '324624'
@@ -132,15 +255,25 @@ products:
       miniaturemarketId: 019c06a10339725989d65be610b39907
       scgId: SLD-MTG-BBX-SOSPLAY-EN
       tcgplayerProductId: '675555'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 30
+        name: Secrets of Strixhaven Play Booster Pack
+        set: sos
   Secrets of Strixhaven Play Booster Box Case:
     category: BOOSTER_CASE
+    subtype: PLAY
     identifiers:
       scgId: SLD-MTG-BBX-SOSPLAYCASE-EN
       tcgplayerProductId: '675556'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 6
+        name: Secrets of Strixhaven Play Booster Box
+        set: sos
   Secrets of Strixhaven Play Booster Pack:
     category: BOOSTER_PACK
+    subtype: PLAY
     identifiers:
       abuId: '2675212'
       cardKingdomId: '324623'
@@ -150,14 +283,30 @@ products:
       miniaturemarketId: 019c06a10f63737b971b89a9a842639e
       scgId: SLD-MTG-PCK-SOSPLAY-EN
       tcgplayerProductId: '675554'
-    subtype: PLAY
+    contents:
+      card_count: 14
+      pack:
+      - code: play
+        set: sos
   Secrets of Strixhaven Play Pack:
     category: BOX_SET
+    subtype: OTHER
     identifiers:
       tcgplayerProductId: '695494'
-    subtype: OTHER
+    contents:
+      card:
+      - foil: true
+        name: Zetalpa, Primal Dawn
+        number: 2026-11
+        set: pmei
+      card_count: 1
+      sealed:
+      - count: 3
+        name: Secrets of Strixhaven Play Booster Pack
+        set: sos
   Secrets of Strixhaven Prerelease Pack Lorehold:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       cardtraderId: '370603'
       hareruyaId: '194981'
@@ -165,9 +314,21 @@ products:
       miniaturemarketId: 019c06a1870270f9b26a75b6e07fb01d
       scgId: SLD-MTG-PRE-SOS-EN-LOREHOLD
       tcgplayerProductId: '675576'
-    subtype: PRERELEASE
+    contents:
+      card_count: 15
+      other:
+      - name: Deck box
+      - name: Spindown die
+      pack:
+      - code: prerelease-lorehold
+        set: sos
+      sealed:
+      - count: 5
+        name: Secrets of Strixhaven Play Booster Pack
+        set: sos
   Secrets of Strixhaven Prerelease Pack Prismari:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       cardtraderId: '370602'
       hareruyaId: '194979'
@@ -175,9 +336,21 @@ products:
       miniaturemarketId: 019c06a191ed7264961766c929685ed2
       scgId: SLD-MTG-PRE-SOS-EN-PRISMARI
       tcgplayerProductId: '675574'
-    subtype: PRERELEASE
+    contents:
+      card_count: 15
+      other:
+      - name: Deck box
+      - name: Spindown die
+      pack:
+      - code: prerelease-prismari
+        set: sos
+      sealed:
+      - count: 5
+        name: Secrets of Strixhaven Play Booster Pack
+        set: sos
   Secrets of Strixhaven Prerelease Pack Quandrix:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       cardtraderId: '370604'
       hareruyaId: '194982'
@@ -185,14 +358,43 @@ products:
       miniaturemarketId: 019c06a19bd971de8d22622ef70bf172
       scgId: SLD-MTG-PRE-SOS-EN-QUANDRIX
       tcgplayerProductId: '675577'
-    subtype: PRERELEASE
+    contents:
+      card_count: 15
+      other:
+      - name: Deck box
+      - name: Spindown die
+      pack:
+      - code: prerelease-quandrix
+        set: sos
+      sealed:
+      - count: 5
+        name: Secrets of Strixhaven Play Booster Pack
+        set: sos
   Secrets of Strixhaven Prerelease Pack Set of 5:
     category: SUBSET
+    subtype: PRERELEASE
     identifiers:
       tcgplayerProductId: '675578'
-    subtype: PRERELEASE
+    contents:
+      sealed:
+      - count: 1
+        name: Secrets of Strixhaven Prerelease Pack Silverquill
+        set: sos
+      - count: 1
+        name: Secrets of Strixhaven Prerelease Pack Witherbloom
+        set: sos
+      - count: 1
+        name: Secrets of Strixhaven Prerelease Pack Quandrix
+        set: sos
+      - count: 1
+        name: Secrets of Strixhaven Prerelease Pack Lorehold
+        set: sos
+      - count: 1
+        name: Secrets of Strixhaven Prerelease Pack Prismari
+        set: sos
   Secrets of Strixhaven Prerelease Pack Silverquill:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       cardtraderId: '370601'
       hareruyaId: '194978'
@@ -200,9 +402,21 @@ products:
       miniaturemarketId: 019c06a1a503723481f75ace8731e75f
       scgId: SLD-MTG-PRE-SOS-EN-SILVERQUILL
       tcgplayerProductId: '675573'
-    subtype: PRERELEASE
+    contents:
+      card_count: 15
+      other:
+      - name: Deck box
+      - name: Spindown die
+      pack:
+      - code: prerelease-silverquill
+        set: sos
+      sealed:
+      - count: 5
+        name: Secrets of Strixhaven Play Booster Pack
+        set: sos
   Secrets of Strixhaven Prerelease Pack Witherbloom:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       cardtraderId: '370605'
       hareruyaId: '194980'
@@ -210,72 +424,158 @@ products:
       miniaturemarketId: 019c06a1af4e72f9919a6f4384275bb1
       scgId: SLD-MTG-PRE-SOS-EN-WITHERBLOOM
       tcgplayerProductId: '675575'
-    subtype: PRERELEASE
+    contents:
+      card_count: 15
+      other:
+      - name: Deck box
+      - name: Spindown die
+      pack:
+      - code: prerelease-witherbloom
+        set: sos
+      sealed:
+      - count: 5
+        name: Secrets of Strixhaven Play Booster Pack
+        set: sos
   Secrets of Strixhaven Theme Decks Set of 2:
     category: SUBSET
+    subtype: THEME
     identifiers:
       cardKingdomId: '324625'
       miniaturemarketId: 019c06a169d873349ae1d8e47294263a
       scgId: SLD-MTG-STD-SOS-EN-SETOF2
       tcgplayerProductId: '675583'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Secrets of Strixhaven 60-Card Theme Deck Eerie
+        set: sos
+      - count: 1
+        name: Secrets of Strixhaven 60-Card Theme Deck Lifegain
+        set: sos
   Secrets of Strixhaven Welcome Deck Black Deck:
     category: DECK
-    identifiers: {}
-    release_date: '2026-04-24'
     subtype: WELCOME
+    release_date: '2026-04-24'
+    identifiers: {}
+    contents:
+      card_count: 40
+      deck:
+      - name: Black Deck
+        set: sos
   Secrets of Strixhaven Welcome Deck Blue Deck:
     category: DECK
-    identifiers: {}
-    release_date: '2026-04-24'
     subtype: WELCOME
+    release_date: '2026-04-24'
+    identifiers: {}
+    contents:
+      card_count: 40
+      deck:
+      - name: Blue Deck
+        set: sos
   Secrets of Strixhaven Welcome Deck Green Deck:
     category: DECK
-    identifiers: {}
-    release_date: '2026-04-24'
     subtype: WELCOME
+    release_date: '2026-04-24'
+    identifiers: {}
+    contents:
+      card_count: 40
+      deck:
+      - name: Green Deck
+        set: sos
   Secrets of Strixhaven Welcome Deck Red Deck:
     category: DECK
-    identifiers: {}
-    release_date: '2026-04-24'
     subtype: WELCOME
+    release_date: '2026-04-24'
+    identifiers: {}
+    contents:
+      card_count: 40
+      deck:
+      - name: Red Deck
+        set: sos
   Secrets of Strixhaven Welcome Deck White Deck:
     category: DECK
-    identifiers: {}
-    release_date: '2026-04-24'
     subtype: WELCOME
+    release_date: '2026-04-24'
+    identifiers: {}
+    contents:
+      card_count: 40
+      deck:
+      - name: White Deck
+        set: sos
   Welcome Deck 2026 Black Deck:
     category: DECK
+    subtype: WELCOME
     identifiers:
       cardtraderId: '380934'
       mcmId: '884061'
-    subtype: WELCOME
+    contents:
+      card_count: 40
+      deck:
+      - name: Black Deck
+        set: sos
   Welcome Deck 2026 Blue Deck:
     category: DECK
+    subtype: WELCOME
     identifiers:
       cardtraderId: '380933'
       mcmId: '884058'
-    subtype: WELCOME
+    contents:
+      card_count: 40
+      deck:
+      - name: Blue Deck
+        set: sos
   Welcome Deck 2026 Green Deck:
     category: DECK
+    subtype: WELCOME
     identifiers:
       cardtraderId: '380936'
       mcmId: '884062'
-    subtype: WELCOME
+    contents:
+      card_count: 40
+      deck:
+      - name: Green Deck
+        set: sos
   Welcome Deck 2026 Red Deck:
     category: DECK
+    subtype: WELCOME
     identifiers:
       cardtraderId: '380935'
       mcmId: '884064'
-    subtype: WELCOME
+    contents:
+      card_count: 40
+      deck:
+      - name: Red Deck
+        set: sos
   Welcome Deck 2026 Set of 5:
     category: DECK
+    subtype: WELCOME
     identifiers:
       cardtraderId: '380937'
-    subtype: WELCOME
+    contents:
+      sealed:
+      - count: 1
+        name: Welcome Deck 2026 Black Deck
+        set: sos
+      - count: 1
+        name: Welcome Deck 2026 Blue Deck
+        set: sos
+      - count: 1
+        name: Welcome Deck 2026 Green Deck
+        set: sos
+      - count: 1
+        name: Welcome Deck 2026 Red Deck
+        set: sos
+      - count: 1
+        name: Welcome Deck 2026 White Deck
+        set: sos
   Welcome Deck 2026 White Deck:
     category: DECK
+    subtype: WELCOME
     identifiers:
       cardtraderId: '380932'
       mcmId: '884056'
-    subtype: WELCOME
+    contents:
+      card_count: 40
+      deck:
+      - name: White Deck
+        set: sos

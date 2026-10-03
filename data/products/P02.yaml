@@ -2,6 +2,7 @@ code: p02
 products:
   Portal Second Age Booster Box:
     category: BOOSTER_BOX
+    subtype: DEFAULT
     identifiers:
       abuId: '1107972'
       cardKingdomId: '238463'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-P02-EN
       tcgplayerProductId: '27299'
       tntId: '113978'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 36
+        name: Portal Second Age Booster Pack
+        set: p02
   Portal Second Age Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DEFAULT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Portal Second Age Booster Box
+        set: p02
   Portal Second Age Booster Pack:
     category: BOOSTER_PACK
+    subtype: DEFAULT
     identifiers:
       abuId: '1476925'
       cardKingdomId: '1186'
@@ -29,29 +40,72 @@ products:
       scgId: SLD-MTG-PCK-P02-EN
       tcgplayerProductId: '27361'
       tntId: '113979'
-    subtype: DEFAULT
+    contents:
+      card_count: 15
+      pack:
+      - code: default
+        set: p02
   Portal Second Age Demo Game Booster Pack:
     category: BOOSTER_PACK
+    subtype: ADVANCED
     identifiers:
       cardtraderId: '272158'
       mcmId: '758895'
       tcgplayerProductId: '708401'
-    subtype: ADVANCED
+    contents:
+      card_count: 24
+      deck:
+      - name: Demo deck A
+        set: p02
+      - name: Demo deck B
+        set: p02
+      other:
+      - name: Tip Card
+      - name: Portal Second Age Sample Game Sheet
   Portal Second Age Gift Box:
     category: BUNDLE
+    subtype: GIFT_BUNDLE
     identifiers:
       cardKingdomId: '1188'
       tcgplayerProductId: '708396'
       tntId: '86853'
-    subtype: GIFT_BUNDLE
+    contents:
+      other:
+      - name: Two score-keeping beads
+      - name: Checklist of all Portal Second Age cards
+      sealed:
+      - count: 1
+        name: Portal Second Age Booster Pack
+        set: p02
+      - count: 1
+        name: Portal Second Age Two Player Starter Deck
+        set: p02
   Portal Second Age Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       abuId: '1476926'
       tntId: '112138'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 3
+        name: Portal Second Age Theme Deck Goblin Fire
+        set: p02
+      - count: 3
+        name: Portal Second Age Theme Deck Martial Law
+        set: p02
+      - count: 3
+        name: Portal Second Age Theme Deck Natures Assault
+        set: p02
+      - count: 3
+        name: Portal Second Age Theme Deck Spellweaver
+        set: p02
+      - count: 3
+        name: Portal Second Age Theme Deck The Nightstalkers
+        set: p02
   Portal Second Age Theme Deck Goblin Fire:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101013'
       cardKingdomId: '1191'
@@ -60,9 +114,14 @@ products:
       mcmId: '253781'
       tcgplayerProductId: '175142'
       tntId: '94565'
-    subtype: THEME
+    contents:
+      card_count: 40
+      deck:
+      - name: Goblin Fire
+        set: p02
   Portal Second Age Theme Deck Martial Law:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100966'
       cardKingdomId: '1195'
@@ -71,9 +130,14 @@ products:
       mcmId: '253782'
       tcgplayerProductId: '175150'
       tntId: '95415'
-    subtype: THEME
+    contents:
+      card_count: 40
+      deck:
+      - name: Martial Law
+        set: p02
   Portal Second Age Theme Deck Natures Assault:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100992'
       cardKingdomId: '1192'
@@ -82,9 +146,14 @@ products:
       mcmId: '253783'
       tcgplayerProductId: '175158'
       tntId: '94566'
-    subtype: THEME
+    contents:
+      card_count: 40
+      deck:
+      - name: Nature's Assault
+        set: p02
   Portal Second Age Theme Deck Spellweaver:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101014'
       cardKingdomId: '1194'
@@ -93,9 +162,14 @@ products:
       mcmId: '253784'
       tcgplayerProductId: '175162'
       tntId: '107468'
-    subtype: THEME
+    contents:
+      card_count: 40
+      deck:
+      - name: Spellweaver
+        set: p02
   Portal Second Age Theme Deck The Nightstalkers:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101015'
       cardKingdomId: '1193'
@@ -104,16 +178,38 @@ products:
       mcmId: '253785'
       tcgplayerProductId: '175160'
       tntId: '92075'
-    subtype: THEME
+    contents:
+      card_count: 40
+      deck:
+      - name: The Nightstalkers
+        set: p02
   Portal Second Age Theme Decks Set of 5:
     category: SUBSET
+    subtype: THEME
     identifiers:
       abuId: '1101016'
       hareruyaId: '92330'
       tcgplayerProductId: '708400'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Portal Second Age Theme Deck Goblin Fire
+        set: p02
+      - count: 1
+        name: Portal Second Age Theme Deck Martial Law
+        set: p02
+      - count: 1
+        name: Portal Second Age Theme Deck Natures Assault
+        set: p02
+      - count: 1
+        name: Portal Second Age Theme Deck Spellweaver
+        set: p02
+      - count: 1
+        name: Portal Second Age Theme Deck The Nightstalkers
+        set: p02
   Portal Second Age Two Player Starter Deck:
     category: MULTI_DECK
+    subtype: TWO_PLAYER_STARTER
     identifiers:
       abuId: '1101012'
       cardKingdomId: '1189'
@@ -122,10 +218,29 @@ products:
       mcmId: '254938'
       tcgplayerProductId: '96282'
       tntId: '113693'
-    subtype: TWO_PLAYER_STARTER
+    contents:
+      card_count: 60
+      deck:
+      - name: Preconstructed deck 1
+        set: p02
+      - name: Preconstructed deck 2
+        set: p02
+      other:
+      - name: Two Paper Playmats
+      - name: Portal Second Age Play Guide
+      - name: Portal Second Age Magic Rulebook
+      sealed:
+      - count: 1
+        name: Portal Second Age Booster Pack
+        set: p02
   Portal Second Age Two Player Starter Display:
     category: DECK_BOX
+    subtype: TWO_PLAYER_STARTER
     identifiers:
       tcgplayerProductId: '96283'
       tntId: '113694'
-    subtype: TWO_PLAYER_STARTER
+    contents:
+      sealed:
+      - count: 12
+        name: Portal Second Age Two Player Starter Deck
+        set: p02

@@ -2,6 +2,8 @@ code: dmr
 products:
   Dominaria Remastered Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2023-01-13'
     identifiers:
       abuId: '2285214'
       cardKingdomId: '272040'
@@ -12,16 +14,26 @@ products:
       scgId: SLD-MTG-BBX-DMRCOLLECTOR-EN
       tcgplayerProductId: '449559'
       tntId: '1769455'
-    release_date: '2023-01-13'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Dominaria Remastered Collector Booster Pack
+        set: dmr
   Dominaria Remastered Collector Booster Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
+    release_date: '2023-01-13'
     identifiers:
       tcgplayerProductId: '455797'
-    release_date: '2023-01-13'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Dominaria Remastered Collector Booster Box
+        set: dmr
   Dominaria Remastered Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2022-10-25'
     identifiers:
       abuId: '2285215'
       cardKingdomId: '272041'
@@ -32,10 +44,15 @@ products:
       scgId: SLD-MTG-PCK-DMRCOLLECTOR-EN
       tcgplayerProductId: '449570'
       tntId: '1769456'
-    release_date: '2022-10-25'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: dmr
   Dominaria Remastered Draft Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2023-01-13'
     identifiers:
       abuId: '2285212'
       cardKingdomId: '272043'
@@ -46,16 +63,26 @@ products:
       scgId: SLD-MTG-BBX-DMRDRAFT-EN
       tcgplayerProductId: '449558'
       tntId: '1769453'
-    release_date: '2023-01-13'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Dominaria Remastered Draft Booster Pack
+        set: dmr
   Dominaria Remastered Draft Booster Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2023-01-13'
     identifiers:
       tcgplayerProductId: '455798'
-    release_date: '2023-01-13'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Dominaria Remastered Draft Booster Box
+        set: dmr
   Dominaria Remastered Draft Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2022-10-25'
     identifiers:
       abuId: '2285216'
       cardKingdomId: '272042'
@@ -66,5 +93,8 @@ products:
       scgId: SLD-MTG-PCK-DMRDRAFT-EN
       tcgplayerProductId: '449571'
       tntId: '1769454'
-    release_date: '2022-10-25'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: dmr

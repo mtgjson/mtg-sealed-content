@@ -2,6 +2,8 @@ code: mkc
 products:
   Murders at Karlov Manor Commander Deck Blame Game:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2024-02-09'
     identifiers:
       abuId: '2452913'
       cardKingdomId: '289647'
@@ -12,10 +14,24 @@ products:
       scgId: SLD-MTG-MLT-MKC-EN-BLAME
       tcgplayerProductId: '529980'
       tntId: '1797267'
-    release_date: '2024-02-09'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Blame Game
+        set: mkc
+      other:
+      - name: Deck Box
+      - name: Life Wheel
+      - name: 10 Double-sided tokens
+      - name: Strategy insert
+      sealed:
+      - count: 1
+        name: Murders at Karlov Manor Collector Booster Sample Pack
+        set: mkm
   Murders at Karlov Manor Commander Deck Deadly Disguise:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2024-02-09'
     identifiers:
       abuId: '2452910'
       cardKingdomId: '289648'
@@ -26,10 +42,24 @@ products:
       scgId: SLD-MTG-MLT-MKC-EN-DISGUISE
       tcgplayerProductId: '529977'
       tntId: '1797265'
-    release_date: '2024-02-09'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Deadly Disguise
+        set: mkc
+      other:
+      - name: Deck Box
+      - name: Life Wheel
+      - name: 10 Double-sided tokens
+      - name: Strategy insert
+      sealed:
+      - count: 1
+        name: Murders at Karlov Manor Collector Booster Sample Pack
+        set: mkm
   Murders at Karlov Manor Commander Deck Deep Clue Sea:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2024-02-09'
     identifiers:
       abuId: '2452912'
       cardKingdomId: '289649'
@@ -40,16 +70,44 @@ products:
       scgId: SLD-MTG-MLT-MKC-EN-DEEP
       tcgplayerProductId: '529979'
       tntId: '1797264'
-    release_date: '2024-02-09'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Deep Clue Sea
+        set: mkc
+      other:
+      - name: Deck Box
+      - name: Life Wheel
+      - name: 10 Double-sided tokens
+      - name: Strategy insert
+      sealed:
+      - count: 1
+        name: Murders at Karlov Manor Collector Booster Sample Pack
+        set: mkm
   Murders at Karlov Manor Commander Deck Display:
     category: DECK_BOX
+    subtype: COMMANDER
+    release_date: '2024-02-09'
     identifiers:
       tcgplayerProductId: '529981'
-    release_date: '2024-02-09'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Murders at Karlov Manor Commander Deck Revenant Recon
+        set: mkc
+      - count: 1
+        name: Murders at Karlov Manor Commander Deck Deep Clue Sea
+        set: mkc
+      - count: 1
+        name: Murders at Karlov Manor Commander Deck Deadly Disguise
+        set: mkc
+      - count: 1
+        name: Murders at Karlov Manor Commander Deck Blame Game
+        set: mkc
   Murders at Karlov Manor Commander Deck Revenant Recon:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2024-02-09'
     identifiers:
       abuId: '2452911'
       cardKingdomId: '289650'
@@ -61,10 +119,24 @@ products:
       scgId: SLD-MTG-MLT-MKC-EN-REVENANT
       tcgplayerProductId: '529978'
       tntId: '1797266'
-    release_date: '2024-02-09'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Revenant Recon
+        set: mkc
+      other:
+      - name: Deck Box
+      - name: Life Wheel
+      - name: 10 Double-sided tokens
+      - name: Strategy insert
+      sealed:
+      - count: 1
+        name: Murders at Karlov Manor Collector Booster Sample Pack
+        set: mkm
   Murders at Karlov Manor Commander Decks Set of 4:
     category: SUBSET
+    subtype: COMMANDER
+    release_date: '2023-12-07'
     identifiers:
       cardKingdomId: '289646'
       cardtraderId: '272870'
@@ -72,5 +144,17 @@ products:
       hareruyaId: '149764'
       mcmId: '748071'
       scgId: SLD-MTG-MLT-MKC-EN-SET4
-    release_date: '2023-12-07'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Murders at Karlov Manor Commander Deck Revenant Recon
+        set: mkc
+      - count: 1
+        name: Murders at Karlov Manor Commander Deck Deep Clue Sea
+        set: mkc
+      - count: 1
+        name: Murders at Karlov Manor Commander Deck Deadly Disguise
+        set: mkc
+      - count: 1
+        name: Murders at Karlov Manor Commander Deck Blame Game
+        set: mkc

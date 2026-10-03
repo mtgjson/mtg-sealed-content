@@ -2,28 +2,34 @@ code: m12
 products:
   2012 Core Set 3 Booster Draft Pack:
     category: LIMITED
+    subtype: DRAFT_SET
     identifiers:
       tcgplayerProductId: '46955'
-    subtype: DRAFT_SET
+    contents:
+      sealed:
+      - count: 3
+        name: 2012 Core Set Booster Pack
+        set: m12
   2012 Core Set Booster Battle Pack:
     category: MULTI_DECK
+    subtype: BATTLE
     identifiers:
       abuId: '1100756'
       cardtraderId: '47642'
       mcmId: '250596'
       tcgplayerProductId: '55927'
       tntId: '321403'
-    subtype: BATTLE
   2012 Core Set Booster Battle Pack Display:
     category: DECK_BOX
+    subtype: BATTLE
     identifiers:
       cardtraderId: '47650'
       mcmId: '250597'
       tcgplayerProductId: '244380'
       tntId: '321402'
-    subtype: BATTLE
   2012 Core Set Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1100743'
       cardKingdomId: '184977'
@@ -34,14 +40,24 @@ products:
       scgId: SLD-MTG-BBX-M12-EN
       tcgplayerProductId: '46957'
       tntId: '319978'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: 2012 Core Set Booster Pack
+        set: m12
   2012 Core Set Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '46958'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 12
+        name: 2012 Core Set Booster Box
+        set: m12
   2012 Core Set Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476898'
       cardKingdomId: '184978'
@@ -52,9 +68,14 @@ products:
       scgId: SLD-MTG-PCK-M12-EN
       tcgplayerProductId: '46956'
       tntId: '319979'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: m12
   2012 Core Set Event Deck Illusionary Might:
     category: DECK
+    subtype: EVENT
     identifiers:
       abuId: '1100759'
       cardKingdomId: '185501'
@@ -63,9 +84,14 @@ products:
       scgId: SLD-MTG-INT-M12EVENT-EN-ILLUSIONARY
       tcgplayerProductId: '47794'
       tntId: '319981'
-    subtype: EVENT
+    contents:
+      card_count: 75
+      deck:
+      - name: Illusionary Might
+        set: m12
   2012 Core Set Event Deck Vampire Onslaught:
     category: DECK
+    subtype: EVENT
     identifiers:
       abuId: '1100761'
       cardKingdomId: '185502'
@@ -74,18 +100,31 @@ products:
       scgId: SLD-MTG-INT-M12EVENT-EN-VAMPIRE
       tcgplayerProductId: '47795'
       tntId: '319982'
-    subtype: EVENT
+    contents:
+      card_count: 75
+      deck:
+      - name: Vampire Onslaught
+        set: m12
   2012 Core Set Event Decks Set of 2:
     category: SUBSET
+    subtype: EVENT
     identifiers:
       abuId: '1100762'
       cardtraderId: '47641'
       mcmId: '248500'
       tcgplayerProductId: '47793'
       tntId: '324465'
-    subtype: EVENT
+    contents:
+      sealed:
+      - count: 1
+        name: 2012 Core Set Event Deck Illusionary Might
+        set: m12
+      - count: 1
+        name: 2012 Core Set Event Deck Vampire Onslaught
+        set: m12
   2012 Core Set Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1100763'
       cardKingdomId: '184979'
@@ -96,9 +135,22 @@ products:
       scgId: SLD-MTG-BUN-M12-EN
       tcgplayerProductId: '78318'
       tntId: '319980'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Magic 2012 Fat Pack Land Pack
+        set: m12
+      other:
+      - name: Magic 2012 Card Box
+      - name: Magic 2012 Player's Guide
+      - name: Learn-to-Play Insert
+      - name: Magic 2012 Spindown Life Counter
+      sealed:
+      - count: 9
+        name: 2012 Core Set Booster Pack
+        set: m12
   2012 Core Set Intro Pack Blood and Fire:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1107911'
       cardKingdomId: '185246'
@@ -106,16 +158,42 @@ products:
       mcmId: '248059'
       scgId: SLD-MTG-INT-M12INTRO-EN-BLOOD
       tntId: '319947'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Blood and Fire
+        set: m12
+      sealed:
+      - count: 1
+        name: 2012 Core Set Booster Pack
+        set: m12
   2012 Core Set Intro Pack Display:
     category: DECK_BOX
+    subtype: INTRO
     identifiers:
       cardtraderId: '47648'
       mcmId: '247796'
       tntId: '319943'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 3
+        name: 2012 Core Set Intro Pack Blood and Fire
+        set: m12
+      - count: 3
+        name: 2012 Core Set Intro Pack Entangling Webs
+        set: m12
+      - count: 3
+        name: 2012 Core Set Intro Pack Grab for Power
+        set: m12
+      - count: 3
+        name: 2012 Core Set Intro Pack Mystical Might
+        set: m12
+      - count: 3
+        name: 2012 Core Set Intro Pack Sacred Assault
+        set: m12
   2012 Core Set Intro Pack Entangling Webs:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100765'
       cardKingdomId: '185247'
@@ -123,9 +201,18 @@ products:
       mcmId: '248058'
       scgId: SLD-MTG-INT-M12INTRO-EN-ENTANGLING
       tntId: '319948'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Entangling Webs
+        set: m12
+      sealed:
+      - count: 1
+        name: 2012 Core Set Booster Pack
+        set: m12
   2012 Core Set Intro Pack Grab for Power:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1107913'
       cardKingdomId: '185248'
@@ -133,9 +220,18 @@ products:
       mcmId: '248056'
       scgId: SLD-MTG-INT-M12INTRO-EN-GRAB
       tntId: '319946'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Grab for Power
+        set: m12
+      sealed:
+      - count: 1
+        name: 2012 Core Set Booster Pack
+        set: m12
   2012 Core Set Intro Pack Mystical Might:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100766'
       cardKingdomId: '185249'
@@ -143,9 +239,18 @@ products:
       mcmId: '248057'
       scgId: SLD-MTG-INT-M12INTRO-EN-MYSTICAL
       tntId: '319945'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Mystical Might
+        set: m12
+      sealed:
+      - count: 1
+        name: 2012 Core Set Booster Pack
+        set: m12
   2012 Core Set Intro Pack Sacred Assault:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1107915'
       cardKingdomId: '185250'
@@ -153,68 +258,185 @@ products:
       mcmId: '248060'
       scgId: SLD-MTG-INT-M12INTRO-EN-SACRED
       tntId: '319944'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Sacred Assault
+        set: m12
+      sealed:
+      - count: 1
+        name: 2012 Core Set Booster Pack
+        set: m12
   2012 Core Set Intro Packs Set of 5:
     category: SUBSET
+    subtype: INTRO
     identifiers:
       abuId: '1107919'
       cardtraderId: '47649'
       mcmId: '247795'
       tcgplayerProductId: '46954'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 1
+        name: 2012 Core Set Intro Pack Blood and Fire
+        set: m12
+      - count: 1
+        name: 2012 Core Set Intro Pack Entangling Webs
+        set: m12
+      - count: 1
+        name: 2012 Core Set Intro Pack Grab for Power
+        set: m12
+      - count: 1
+        name: 2012 Core Set Intro Pack Mystical Might
+        set: m12
+      - count: 1
+        name: 2012 Core Set Intro Pack Sacred Assault
+        set: m12
   2012 Core Set MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210886'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 249
+      deck:
+      - name: Magic 2012 Redemption
+        set: m12
   2012 Core Set MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210862'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 249
+      deck:
+      - name: Magic 2012 Foil Redemption
+        set: m12
   2012 Core Set Sample Deck Chandra Nalaar:
     category: DECK
+    subtype: STARTER
     identifiers:
       abuId: '1101044'
       cardtraderId: '47643'
       mcmId: '287575'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      variable:
+      - deck:
+        - name: Red Deck A
+          set: m12
+      - deck:
+        - name: Red Deck B
+          set: m12
+      variable_mode:
+        count: 1
+        replacement: false
   2012 Core Set Sample Deck Garruk Wildspeaker:
     category: DECK
+    subtype: STARTER
     identifiers:
       abuId: '1101045'
       cardtraderId: '47644'
       mcmId: '287576'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      variable:
+      - deck:
+        - name: Green Deck A
+          set: m12
+      - deck:
+        - name: Green Deck B
+          set: m12
+      variable_mode:
+        count: 1
+        replacement: false
   2012 Core Set Sample Deck Gideon Jura:
     category: DECK
+    subtype: STARTER
     identifiers:
       abuId: '1101046'
       cardtraderId: '47645'
       mcmId: '287577'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      variable:
+      - deck:
+        - name: White Deck A
+          set: m12
+      - deck:
+        - name: White Deck B
+          set: m12
+      variable_mode:
+        count: 1
+        replacement: false
   2012 Core Set Sample Deck Jace Beleren:
     category: DECK
+    subtype: STARTER
     identifiers:
       abuId: '1101031'
       cardtraderId: '47646'
       mcmId: '287578'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      variable:
+      - deck:
+        - name: Blue Deck A
+          set: m12
+      - deck:
+        - name: Blue Deck B
+          set: m12
+      variable_mode:
+        count: 1
+        replacement: false
   2012 Core Set Sample Deck Sorin Markov:
     category: DECK
+    subtype: STARTER
     identifiers:
       abuId: '1101041'
       cardtraderId: '47647'
       mcmId: '287579'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      variable:
+      - deck:
+        - name: Black Deck A
+          set: m12
+      - deck:
+        - name: Black Deck B
+          set: m12
+      variable_mode:
+        count: 1
+        replacement: false
   2012 Core Set Sample Decks Set of 5:
     category: SUBSET
+    subtype: STARTER
     identifiers:
       abuId: '1101043'
-    subtype: STARTER
+    contents:
+      sealed:
+      - count: 1
+        name: 2012 Core Set Sample Deck Chandra Nalaar
+        set: m12
+      - count: 1
+        name: 2012 Core Set Sample Deck Garruk Wildspeaker
+        set: m12
+      - count: 1
+        name: 2012 Core Set Sample Deck Gideon Jura
+        set: m12
+      - count: 1
+        name: 2012 Core Set Sample Deck Jace Beleren
+        set: m12
+      - count: 1
+        name: 2012 Core Set Sample Deck Sorin Markov
+        set: m12
   2012 Core Set Six Card Booster Pack:
     category: BOOSTER_PACK
+    subtype: SIX
     identifiers:
       cardtraderId: '47624'
       mcmId: '315708'
-    subtype: SIX
+    contents:
+      card_count: 6
+      pack:
+      - code: six
+        set: m12

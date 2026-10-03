@@ -2,7 +2,28 @@ code: phel
 products:
   The Helvault Promo Box:
     category: BOX_SET
+    subtype: PROMOTIONAL
     identifiers:
       cardtraderId: '164548'
       mcmId: '286945'
-    subtype: PROMOTIONAL
+    contents:
+      card:
+      - name: Avacyn, Angel of Hope
+        number: '6'
+        set: phel
+      - name: Griselbrand
+        number: '106'
+        set: phel
+      - name: Bruna, Light of Alabaster
+        number: '208'
+        set: phel
+      - name: Gisela, Blade of Goldnight
+        number: '209'
+        set: phel
+      - name: Sigarda, Host of Herons
+        number: '210'
+        set: phel
+      card_count: 5
+      other:
+      - name: Double-faced Angel/Demon tokens
+      - name: Avacyn Restored Spindown life counter

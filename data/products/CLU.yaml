@@ -2,6 +2,8 @@ code: clu
 products:
   Ravnica Clue Edition:
     category: BUNDLE
+    subtype: GAME_NIGHT
+    release_date: '2024-02-23'
     identifiers:
       abuId: '2452915'
       cardKingdomId: '289644'
@@ -12,25 +14,55 @@ products:
       scgId: SLD-MTG-MLT-CLU-EN
       tcgplayerProductId: '529974'
       tntId: '1797269'
-    release_date: '2024-02-23'
-    subtype: GAME_NIGHT
+    contents:
+      card_count: 21
+      deck:
+      - name: Clue Edition Core Contents
+        set: clu
+      other:
+      - name: 4 hidden info screens
+      - name: Evidence notepad
+      - name: Case file envelope
+      - name: Card storage box
+      sealed:
+      - count: 8
+        name: Ravnica Clue Edition Booster Pack
+        set: clu
+      - count: 1
+        name: Ravnica Clue Edition Box Topper Pack
+        set: clu
   Ravnica Clue Edition Booster Pack:
     category: BOOSTER_PACK
+    subtype: OTHER
     identifiers:
       cardtraderId: '270500'
       mcmId: '749352'
       tcgplayerProductId: '618914'
-    subtype: OTHER
+    contents:
+      card_count: 20
+      pack:
+      - code: default
+        set: clu
   Ravnica Clue Edition Box Topper Pack:
     category: BOOSTER_PACK
+    subtype: TOPPER
     identifiers:
       cardtraderId: '270502'
       mcmId: '749353'
       tcgplayerProductId: '618918'
-    subtype: TOPPER
+    contents:
+      card_count: 1
+      pack:
+      - code: box-topper
+        set: clu
   Ravnica Clue Edition Case:
     category: BUNDLE_CASE
+    subtype: GAME_NIGHT
+    release_date: '2024-02-23'
     identifiers:
       tcgplayerProductId: '529975'
-    release_date: '2024-02-23'
-    subtype: GAME_NIGHT
+    contents:
+      sealed:
+      - count: 6
+        name: Ravnica Clue Edition
+        set: clu

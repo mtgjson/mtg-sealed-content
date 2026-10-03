@@ -2,6 +2,8 @@ code: ps19
 products:
   SDCC 2019 Dragons Endgame Set:
     category: BOX_SET
+    subtype: CONVENTION
+    release_date: '2019-07-19'
     identifiers:
       cardKingdomId: '228606'
       cardtraderId: '58548'
@@ -9,5 +11,8 @@ products:
       scgId: SLD-MTG-BXS-SDCC2019-EN
       tcgplayerProductId: '193826'
       tntId: '1642782'
-    release_date: '2019-07-19'
-    subtype: CONVENTION
+    contents:
+      card_count: 5
+      deck:
+      - name: Dragon's Endgame
+        set: ps19

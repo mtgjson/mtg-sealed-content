@@ -2,19 +2,34 @@ code: bchr
 products:
   Chronicles Foreign Black Border Japanese Booster Box:
     category: BOOSTER_BOX
+    subtype: DEFAULT
+    language: Japanese
     identifiers:
       cardtraderId: '43729'
       mcmId: '311371'
-    language: Japanese
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 45
+        name: Chronicles Foreign Black Border Japanese Booster Pack
+        set: bchr
   Chronicles Foreign Black Border Japanese Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DEFAULT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Chronicles Foreign Black Border Japanese Booster Box
+        set: bchr
   Chronicles Foreign Black Border Japanese Booster Pack:
     category: BOOSTER_PACK
+    subtype: DEFAULT
+    language: Japanese
     identifiers:
       cardtraderId: '43727'
       mcmId: '311372'
-    language: Japanese
-    subtype: DEFAULT
+    contents:
+      card_count: 12
+      pack:
+      - code: default
+        set: chr

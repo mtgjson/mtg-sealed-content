@@ -2,6 +2,8 @@ code: znr
 products:
   Zendikar Rising Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2020-09-25'
     identifiers:
       abuId: '1911713'
       cardKingdomId: '236809'
@@ -12,10 +14,27 @@ products:
       scgId: SLD-MTG-BUN-ZNR-EN
       tcgplayerProductId: '220426'
       tntId: '1605704'
-    release_date: '2020-09-25'
-    subtype: DEFAULT
+    contents:
+      card:
+      - foil: true
+        name: Charix, the Raging Isle
+        number: 386
+        set: znr
+      deck:
+      - name: Zendikar Rising Bundle Land Pack
+        set: znr
+      other:
+      - name: 1 reusable storage box
+      - name: 1 oversized spindown counter
+      - name: 2 reference cards
+      sealed:
+      - count: 10
+        name: Zendikar Rising Draft Booster Pack
+        set: znr
   Zendikar Rising Bundle Gift Edition:
     category: BUNDLE
+    subtype: GIFT_BUNDLE
+    release_date: '2020-11-13'
     identifiers:
       abuId: '1917560'
       cardKingdomId: '238663'
@@ -25,10 +44,30 @@ products:
       scgId: SLD-MTG-BUN-ZNRGIFT-EN
       tcgplayerProductId: '221918'
       tntId: '1677678'
-    release_date: '2020-11-13'
-    subtype: GIFT_BUNDLE
+    contents:
+      card:
+      - foil: true
+        name: Charix, the Raging Isle
+        number: 386
+        set: znr
+      deck:
+      - name: Zendikar Rising Bundle Land Pack
+        set: znr
+      other:
+      - name: 1 reusable storage box
+      - name: 1 oversized spindown counter
+      - name: 2 reference cards
+      sealed:
+      - count: 10
+        name: Zendikar Rising Draft Booster Pack
+        set: znr
+      - count: 1
+        name: Zendikar Rising Collector Booster Pack
+        set: znr
   Zendikar Rising Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2020-09-25'
     identifiers:
       abuId: '1909507'
       cardKingdomId: '236814'
@@ -39,20 +78,38 @@ products:
       scgId: SLD-MTG-BBX-ZNRCOLLECTOR-EN
       tcgplayerProductId: '220423'
       tntId: '1672301'
-    release_date: '2020-09-25'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Zendikar Rising Collector Booster Pack
+        set: znr
+      - count: 2
+        name: Zendikar Rising Expedition Box Topper Pack
+        set: zne
   Zendikar Rising Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '230865'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Zendikar Rising Collector Booster Box
+        set: znr
   Zendikar Rising Collector Booster Hanger Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '236693'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 1
+        name: Zendikar Rising Collector Booster Pack
+        set: znr
   Zendikar Rising Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2020-09-25'
     identifiers:
       abuId: '2688022'
       cardKingdomId: '236812'
@@ -63,10 +120,15 @@ products:
       scgId: SLD-MTG-PCK-ZNRCOLLECTOR-EN
       tcgplayerProductId: '220422'
       tntId: '1672302'
-    release_date: '2020-09-25'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: znr
   Zendikar Rising Draft Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2020-09-25'
     identifiers:
       abuId: '1887634'
       cardKingdomId: '236808'
@@ -77,17 +139,30 @@ products:
       scgId: SLD-MTG-BBX-ZNRDRAFT-EN
       tcgplayerProductId: '220414'
       tntId: '1605735'
-    release_date: '2020-09-25'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Zendikar Rising Draft Booster Pack
+        set: znr
+      - count: 1
+        name: Zendikar Rising Expedition Box Topper Pack
+        set: zne
   Zendikar Rising Draft Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2020-09-25'
     identifiers:
       tcgplayerProductId: '220522'
       tntId: '1605700'
-    release_date: '2020-09-25'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Zendikar Rising Draft Booster Box
+        set: znr
   Zendikar Rising Draft Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2020-09-25'
     identifiers:
       abuId: '2688023'
       cardKingdomId: '236811'
@@ -98,36 +173,68 @@ products:
       scgId: SLD-MTG-PCK-ZNRDRAFT-EN
       tcgplayerProductId: '220413'
       tntId: '1605708'
-    release_date: '2020-09-25'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: znr
   Zendikar Rising MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '236867'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 280
+      deck:
+      - name: Zendikar Rising Redemption
+        set: znr
   Zendikar Rising MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '236866'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 280
+      deck:
+      - name: Zendikar Rising Foil Redemption
+        set: znr
   Zendikar Rising Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2020-09-18'
     identifiers:
       abuId: '1892553'
       cardKingdomId: '236807'
       cardtraderId: '145665'
       mcmId: '486964'
       tcgplayerProductId: '221314'
-    release_date: '2020-09-18'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: MTG Arena code card (where available)
+      - name: Zendikar Rising Spindown
+      pack:
+      - code: prerelease
+        set: znr
+      sealed:
+      - count: 6
+        name: Zendikar Rising Draft Booster Pack
+        set: znr
   Zendikar Rising Prerelease Pack Case:
     category: LIMITED_CASE
+    subtype: PRERELEASE
+    release_date: '2020-09-18'
     identifiers:
       tcgplayerProductId: '266779'
-    release_date: '2020-09-18'
-    subtype: PRERELEASE
+    contents:
+      sealed:
+      - count: 18
+        name: Zendikar Rising Prerelease Pack
+        set: znr
   Zendikar Rising Set Booster Box:
     category: BOOSTER_BOX
+    subtype: SET
+    release_date: '2020-09-25'
     identifiers:
       abuId: '1910862'
       cardKingdomId: '236816'
@@ -138,15 +245,28 @@ products:
       scgId: SLD-MTG-BBX-ZNRSET-EN
       tcgplayerProductId: '220523'
       tntId: '1672303'
-    release_date: '2020-09-25'
-    subtype: SET
+    contents:
+      sealed:
+      - count: 30
+        name: Zendikar Rising Set Booster Pack
+        set: znr
+      - count: 1
+        name: Zendikar Rising Expedition Box Topper Pack
+        set: zne
   Zendikar Rising Set Booster Box Case:
     category: BOOSTER_CASE
+    subtype: SET
     identifiers:
       tcgplayerProductId: '509633'
-    subtype: SET
+    contents:
+      sealed:
+      - count: 6
+        name: Zendikar Rising Set Booster Box
+        set: znr
   Zendikar Rising Set Booster Pack:
     category: BOOSTER_PACK
+    subtype: SET
+    release_date: '2020-09-25'
     identifiers:
       abuId: '2688021'
       cardKingdomId: '236815'
@@ -157,93 +277,179 @@ products:
       scgId: SLD-MTG-PCK-ZNRSET-EN
       tcgplayerProductId: '220524'
       tntId: '1672304'
-    release_date: '2020-09-25'
-    subtype: SET
+    contents:
+      card_count: 12
+      pack:
+      - code: set
+        set: znr
   Zendikar Rising Theme Booster Black:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2020-09-25'
     identifiers:
       abuId: '1899674'
       cardtraderId: '145656'
       mcmId: '487004'
       tcgplayerProductId: '220415'
       tntId: '1672308'
-    release_date: '2020-09-25'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-b
+        set: znr
   Zendikar Rising Theme Booster Blue:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2020-09-25'
     identifiers:
       abuId: '1899675'
       cardtraderId: '145657'
       mcmId: '486999'
       tcgplayerProductId: '220416'
       tntId: '1672307'
-    release_date: '2020-09-25'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-u
+        set: znr
   Zendikar Rising Theme Booster Box:
     category: BOOSTER_BOX
+    subtype: THEME
+    release_date: '2020-09-25'
     identifiers:
       cardtraderId: '145663'
       hareruyaId: '137055'
       mcmId: '486974'
       tcgplayerProductId: '220420'
       tntId: '1672305'
-    release_date: '2020-09-25'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 2
+        name: Zendikar Rising Theme Booster White
+        set: znr
+      - count: 2
+        name: Zendikar Rising Theme Booster Blue
+        set: znr
+      - count: 2
+        name: Zendikar Rising Theme Booster Black
+        set: znr
+      - count: 2
+        name: Zendikar Rising Theme Booster Red
+        set: znr
+      - count: 2
+        name: Zendikar Rising Theme Booster Green
+        set: znr
+      - count: 2
+        name: Zendikar Rising Theme Booster Party
+        set: znr
   Zendikar Rising Theme Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: THEME
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Zendikar Rising Theme Booster Box
+        set: znr
   Zendikar Rising Theme Booster Green:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2020-09-25'
     identifiers:
       abuId: '1899672'
       cardtraderId: '145654'
       mcmId: '487014'
       tcgplayerProductId: '220417'
       tntId: '1672310'
-    release_date: '2020-09-25'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-g
+        set: znr
   Zendikar Rising Theme Booster Party:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2020-09-25'
     identifiers:
       abuId: '1899671'
       cardtraderId: '146526'
       mcmId: '495229'
       tcgplayerProductId: '221915'
       tntId: '1677534'
-    release_date: '2020-09-25'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-party
+        set: znr
   Zendikar Rising Theme Booster Red:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2020-09-25'
     identifiers:
       abuId: '1899673'
       cardtraderId: '145655'
       mcmId: '487009'
       tcgplayerProductId: '220418'
       tntId: '1672309'
-    release_date: '2020-09-25'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-r
+        set: znr
   Zendikar Rising Theme Booster Set of 6:
     category: SUBSET
+    subtype: THEME
+    release_date: '2020-09-25'
     identifiers:
       cardKingdomId: '236838'
       tcgplayerProductId: '222008'
-    release_date: '2020-09-25'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Zendikar Rising Theme Booster White
+        set: znr
+      - count: 1
+        name: Zendikar Rising Theme Booster Blue
+        set: znr
+      - count: 1
+        name: Zendikar Rising Theme Booster Black
+        set: znr
+      - count: 1
+        name: Zendikar Rising Theme Booster Red
+        set: znr
+      - count: 1
+        name: Zendikar Rising Theme Booster Green
+        set: znr
+      - count: 1
+        name: Zendikar Rising Theme Booster Party
+        set: znr
   Zendikar Rising Theme Booster White:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2020-09-25'
     identifiers:
       abuId: '1899676'
       cardtraderId: '145658'
       mcmId: '486994'
       tcgplayerProductId: '220419'
       tntId: '1672306'
-    release_date: '2020-09-25'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-w
+        set: znr
   Zendikar Rising Welcome Booster:
     category: BOOSTER_PACK
+    subtype: WELCOME
+    release_date: '2020-09-25'
     identifiers:
       cardtraderId: '148760'
       mcmId: '502810'
-    release_date: '2020-09-25'
-    subtype: WELCOME
+    contents:
+      card_count: 10
+      deck:
+      - name: Zendikar Rising Welcome Booster
+        set: znr
+      other:
+      - name: Double-sided helper cards
+      - name: MTG Arena Critter Corps deck code

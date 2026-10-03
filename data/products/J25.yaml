@@ -2,12 +2,19 @@ code: j25
 products:
   Foundations Jumpstart 2 Pack:
     category: LIMITED
+    subtype: DRAFT_SET
     identifiers:
       miniaturemarketId: 01a08cc2fe1f701dbf5cf4e86bd23cce
       tcgplayerProductId: '622998'
-    subtype: DRAFT_SET
+    contents:
+      sealed:
+      - count: 2
+        name: Foundations Jumpstart Booster Pack
+        set: j25
   Foundations Jumpstart Booster Box:
     category: BOOSTER_BOX
+    subtype: JUMPSTART
+    release_date: '2024-11-15'
     identifiers:
       abuId: '2546186'
       cardKingdomId: '304698'
@@ -16,16 +23,26 @@ products:
       miniaturemarketId: f654df4bb9cb308a623dcf73c9bdae5e
       scgId: SLD-MTG-BBX-J25-EN
       tcgplayerProductId: '562156'
-    release_date: '2024-11-15'
-    subtype: JUMPSTART
+    contents:
+      sealed:
+      - count: 24
+        name: Foundations Jumpstart Booster Pack
+        set: j25
   Foundations Jumpstart Booster Box Case:
     category: BOOSTER_CASE
+    subtype: JUMPSTART
+    release_date: '2024-11-15'
     identifiers:
       tcgplayerProductId: '562161'
-    release_date: '2024-11-15'
-    subtype: JUMPSTART
+    contents:
+      sealed:
+      - count: 6
+        name: Foundations Jumpstart Booster Box
+        set: j25
   Foundations Jumpstart Booster Pack:
     category: BOOSTER_PACK
+    subtype: JUMPSTART
+    release_date: '2024-11-15'
     identifiers:
       abuId: '2546184'
       cardKingdomId: '304699'
@@ -34,5 +51,8 @@ products:
       miniaturemarketId: ca8607f396625aab1b6f36f4a533c129
       scgId: SLD-MTG-PCK-J25-EN
       tcgplayerProductId: '562128'
-    release_date: '2024-11-15'
-    subtype: JUMPSTART
+    contents:
+      card_count: 20
+      pack:
+      - code: jumpstart
+        set: j25

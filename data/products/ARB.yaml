@@ -2,6 +2,7 @@ code: arb
 products:
   Alara Reborn Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1107750'
       cardKingdomId: '126650'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-ARB-EN
       tcgplayerProductId: '31841'
       tntId: '237694'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Alara Reborn Booster Pack
+        set: arb
   Alara Reborn Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Alara Reborn Booster Box
+        set: arb
   Alara Reborn Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476826'
       cardKingdomId: '126651'
@@ -29,9 +40,14 @@ products:
       scgId: SLD-MTG-PCK-ARB-EN
       tcgplayerProductId: '31840'
       tntId: '237695'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: arb
   Alara Reborn Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1100095'
       cardKingdomId: '126732'
@@ -42,9 +58,22 @@ products:
       scgId: SLD-MTG-BUN-ARB-EN
       tcgplayerProductId: '78302'
       tntId: '237696'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Shards of Alara Fat Pack Land Pack
+        set: ala
+      other:
+      - name: Card Box
+      - name: The Alara Reborn Player's Guide
+      - name: Learn-to-play insert
+      - name: Alara Reborn Spindown
+      sealed:
+      - count: 8
+        name: Alara Reborn Booster Pack
+        set: arb
   Alara Reborn Intro Pack Dead Ahead:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100096'
       cardKingdomId: '127027'
@@ -53,16 +82,42 @@ products:
       scgId: SLD-MTG-INT-ARBINTRO-EN-DEAD
       tcgplayerProductId: '96433'
       tntId: '247406'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Dead Ahead
+        set: arb
+      sealed:
+      - count: 1
+        name: Alara Reborn Booster Pack
+        set: arb
   Alara Reborn Intro Pack Display:
     category: DECK_BOX
+    subtype: INTRO
     identifiers:
       cardtraderId: '47369'
       mcmId: '210204'
       tntId: '237697'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 1
+        name: Alara Reborn Intro Pack Dead Ahead
+        set: arb
+      - count: 1
+        name: Alara Reborn Intro Pack Eternal Siege
+        set: arb
+      - count: 1
+        name: Alara Reborn Intro Pack Legion Aloft
+        set: arb
+      - count: 1
+        name: Alara Reborn Intro Pack Rumbler
+        set: arb
+      - count: 1
+        name: Alara Reborn Intro Pack Unnatural Schemes
+        set: arb
   Alara Reborn Intro Pack Eternal Siege:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100097'
       cardKingdomId: '127028'
@@ -71,9 +126,18 @@ products:
       scgId: SLD-MTG-INT-ARBINTRO-EN-ETERNAL
       tcgplayerProductId: '96430'
       tntId: '247405'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Eternal Siege
+        set: arb
+      sealed:
+      - count: 1
+        name: Alara Reborn Booster Pack
+        set: arb
   Alara Reborn Intro Pack Legion Aloft:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100098'
       cardKingdomId: '127029'
@@ -82,9 +146,18 @@ products:
       scgId: SLD-MTG-INT-ARBINTRO-EN-LEGION
       tcgplayerProductId: '96431'
       tntId: '247407'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Legion Aloft
+        set: arb
+      sealed:
+      - count: 1
+        name: Alara Reborn Booster Pack
+        set: arb
   Alara Reborn Intro Pack Rumbler:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100099'
       cardKingdomId: '127030'
@@ -93,9 +166,18 @@ products:
       scgId: SLD-MTG-INT-ARBINTRO-EN-RUMBLER
       tcgplayerProductId: '96434'
       tntId: '247404'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Rumbler
+        set: arb
+      sealed:
+      - count: 1
+        name: Alara Reborn Booster Pack
+        set: arb
   Alara Reborn Intro Pack Unnatural Schemes:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100100'
       cardKingdomId: '127031'
@@ -104,21 +186,44 @@ products:
       scgId: SLD-MTG-INT-ARBINTRO-EN-UNNATURAL
       tcgplayerProductId: '96432'
       tntId: '247408'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Unnatural Schemes
+        set: arb
+      sealed:
+      - count: 1
+        name: Alara Reborn Booster Pack
+        set: arb
   Alara Reborn MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '223057'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 145
+      deck:
+      - name: Alara Reborn Redemption
+        set: arb
   Alara Reborn MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '223056'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 145
+      deck:
+      - name: Alara Reborn Foil Redemption
+        set: arb
   Alara Reborn Six Card Booster Pack:
     category: BOOSTER_PACK
+    subtype: SIX
+    release_date: '2018-01-16'
     identifiers:
       cardtraderId: '47355'
       mcmId: '315700'
-    release_date: '2018-01-16'
-    subtype: SIX
+    contents:
+      card_count: 6
+      pack:
+      - code: six
+        set: arb

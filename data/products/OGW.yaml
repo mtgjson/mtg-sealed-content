@@ -2,6 +2,8 @@ code: ogw
 products:
   Oath of the Gatewatch Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2016-01-22'
     identifiers:
       abuId: '1100925'
       cardKingdomId: '204444'
@@ -12,17 +14,27 @@ products:
       scgId: SLD-MTG-BBX-OGW-EN
       tcgplayerProductId: '110418'
       tntId: '1084319'
-    release_date: '2016-01-22'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Oath of the Gatewatch Booster Pack
+        set: ogw
   Oath of the Gatewatch Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2016-01-22'
     identifiers:
       tcgplayerProductId: '110419'
       tntId: '1084318'
-    release_date: '2016-01-22'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Oath of the Gatewatch Booster Box
+        set: ogw
   Oath of the Gatewatch Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2016-01-22'
     identifiers:
       abuId: '1527119'
       cardKingdomId: '204445'
@@ -33,10 +45,15 @@ products:
       scgId: SLD-MTG-PCK-OGW-EN
       tcgplayerProductId: '110420'
       tntId: '1084320'
-    release_date: '2016-01-22'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: ogw
   Oath of the Gatewatch Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
+    release_date: '2016-01-22'
     identifiers:
       abuId: '1100939'
       cardKingdomId: '204474'
@@ -47,10 +64,21 @@ products:
       scgId: SLD-MTG-BUN-OGW-EN
       tcgplayerProductId: '110421'
       tntId: '1084321'
-    release_date: '2016-01-22'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Oath of the Gatewatch Fat Pack Land Pack
+        set: ogw
+      other:
+      - name: Oath of the Gatewatch Player's Guide
+      - name: Oath of the Gatewatch Card Box
+      - name: Oath of the Gatewatch Premium Spindown
+      sealed:
+      - count: 9
+        name: Oath of the Gatewatch Booster Pack
+        set: ogw
   Oath of the Gatewatch Intro Pack Concerted Effort:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100940'
       cardKingdomId: '205070'
@@ -58,9 +86,18 @@ products:
       mcmId: '287201'
       tcgplayerProductId: '110705'
       tntId: '1088362'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Concerted Effort
+        set: ogw
+      sealed:
+      - count: 2
+        name: Oath of the Gatewatch Booster Pack
+        set: ogw
   Oath of the Gatewatch Intro Pack Desperate Stand:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100941'
       cardKingdomId: '205066'
@@ -68,25 +105,68 @@ products:
       mcmId: '287203'
       tcgplayerProductId: '110707'
       tntId: '1088358'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Desperate Stand
+        set: ogw
+      sealed:
+      - count: 2
+        name: Oath of the Gatewatch Booster Pack
+        set: ogw
   Oath of the Gatewatch Intro Pack Display:
     category: DECK_BOX
+    subtype: INTRO
     identifiers:
       cardtraderId: '48383'
       mcmId: '287205'
       tntId: '1084322'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 2
+        name: Oath of the Gatewatch Intro Pack Concerted Effort
+        set: ogw
+      - count: 2
+        name: Oath of the Gatewatch Intro Pack Desperate Stand
+        set: ogw
+      - count: 2
+        name: Oath of the Gatewatch Intro Pack Surge of Resistance
+        set: ogw
+      - count: 2
+        name: Oath of the Gatewatch Intro Pack Twisted Reality
+        set: ogw
+      - count: 2
+        name: Oath of the Gatewatch Intro Pack Vicious Cycle
+        set: ogw
   Oath of the Gatewatch Intro Pack Set of 5:
     category: SUBSET
+    subtype: INTRO
+    release_date: '2016-01-22'
     identifiers:
       cardtraderId: '48384'
       mcmId: '287204'
       scgId: SLD-MTG-INT-OGWINTRO-EN-SET5
       tcgplayerProductId: '110710'
-    release_date: '2016-01-22'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 1
+        name: Oath of the Gatewatch Intro Pack Concerted Effort
+        set: ogw
+      - count: 1
+        name: Oath of the Gatewatch Intro Pack Desperate Stand
+        set: ogw
+      - count: 1
+        name: Oath of the Gatewatch Intro Pack Surge of Resistance
+        set: ogw
+      - count: 1
+        name: Oath of the Gatewatch Intro Pack Twisted Reality
+        set: ogw
+      - count: 1
+        name: Oath of the Gatewatch Intro Pack Vicious Cycle
+        set: ogw
   Oath of the Gatewatch Intro Pack Surge of Resistance:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100942'
       cardKingdomId: '205069'
@@ -94,9 +174,18 @@ products:
       mcmId: '287202'
       tcgplayerProductId: '110706'
       tntId: '1088361'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Surge of Resistance
+        set: ogw
+      sealed:
+      - count: 2
+        name: Oath of the Gatewatch Booster Pack
+        set: ogw
   Oath of the Gatewatch Intro Pack Twisted Reality:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100944'
       cardKingdomId: '205067'
@@ -105,9 +194,18 @@ products:
       mcmId: '287200'
       tcgplayerProductId: '110709'
       tntId: '1088359'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Twisted Reality
+        set: ogw
+      sealed:
+      - count: 2
+        name: Oath of the Gatewatch Booster Pack
+        set: ogw
   Oath of the Gatewatch Intro Pack Vicious Cycle:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100945'
       cardKingdomId: '205068'
@@ -115,24 +213,56 @@ products:
       mcmId: '287199'
       tcgplayerProductId: '110708'
       tntId: '1088360'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Vicious Cycle
+        set: ogw
+      sealed:
+      - count: 2
+        name: Oath of the Gatewatch Booster Pack
+        set: ogw
   Oath of the Gatewatch MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210363'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 184
+      deck:
+      - name: Oath of the Gatewatch Redemption
+        set: ogw
   Oath of the Gatewatch MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210873'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 184
+      deck:
+      - name: Oath of the Gatewatch Foil Redemption
+        set: ogw
   Oath of the Gatewatch Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2016-01-16'
     identifiers:
       cardKingdomId: '205086'
       cardtraderId: '48382'
       mcmId: '287166'
       tcgplayerProductId: '111283'
       tntId: '1096353'
-    release_date: '2016-01-16'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: 1 Oath of the Gatewatch Spindown
+      pack:
+      - code: prerelease
+        set: ogw
+      sealed:
+      - count: 4
+        name: Oath of the Gatewatch Booster Pack
+        set: ogw
+      - count: 2
+        name: Battle for Zendikar Booster Pack
+        set: bfz

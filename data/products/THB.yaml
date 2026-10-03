@@ -2,6 +2,8 @@ code: thb
 products:
   Theros Beyond Death Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2020-01-24'
     identifiers:
       abuId: '1797814'
       cardKingdomId: '230635'
@@ -12,10 +14,27 @@ products:
       scgId: SLD-MTG-BUN-THB-EN
       tcgplayerProductId: '202300'
       tntId: '1605701'
-    release_date: '2020-01-24'
-    subtype: DEFAULT
+    contents:
+      card:
+      - foil: true
+        name: Arasta of the Endless Web
+        number: 352
+        set: thb
+      deck:
+      - name: Theros Beyond Death Bundle Land Pack
+        set: thb
+      other:
+      - name: 2 reference cards
+      - name: Oversized Theros Spindown
+      - name: Reusable Card Storage Box
+      sealed:
+      - count: 10
+        name: Theros Beyond Death Draft Booster Pack
+        set: thb
   Theros Beyond Death Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2020-01-24'
     identifiers:
       abuId: '1797815'
       cardKingdomId: '230652'
@@ -26,15 +45,25 @@ products:
       scgId: SLD-MTG-BBX-THBCOLLECTOR-EN
       tcgplayerProductId: '202302'
       tntId: '1789042'
-    release_date: '2020-01-24'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Theros Beyond Death Collector Booster Pack
+        set: thb
   Theros Beyond Death Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '270477'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Theros Beyond Death Collector Booster Box
+        set: thb
   Theros Beyond Death Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2020-01-24'
     identifiers:
       abuId: '2183768'
       cardKingdomId: '230651'
@@ -45,10 +74,15 @@ products:
       scgId: SLD-MTG-PCK-THBCOLLECTOR-EN
       tcgplayerProductId: '206254'
       tntId: '1644611'
-    release_date: '2020-01-24'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: thb
   Theros Beyond Death Deck Builders Toolkit:
     category: KIT
+    subtype: DECK_BUILDERS_TOOLKIT
+    release_date: '2020-01-24'
     identifiers:
       abuId: '1797817'
       cardKingdomId: '230653'
@@ -58,10 +92,32 @@ products:
       scgId: SLD-MTG-INT-THBTOOLKIT-EN
       tcgplayerProductId: '202304'
       tntId: '1644618'
-    release_date: '2020-01-24'
-    subtype: DECK_BUILDERS_TOOLKIT
+    contents:
+      card_count: 225
+      deck:
+      - name: Deck Builder's Toolkit
+        set: thb
+      other:
+      - name: Deck builder's guide
+      - name: Magic quick reference booklet
+      - name: Reusable card storage box
+      sealed:
+      - count: 1
+        name: Theros Beyond Death Draft Booster Pack
+        set: thb
+      - count: 1
+        name: Throne of Eldraine Draft Booster Pack
+        set: eld
+      - count: 1
+        name: Core Set 2020 Booster Pack
+        set: m20
+      - count: 1
+        name: War of the Spark Booster Pack
+        set: war
   Theros Beyond Death Draft Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2020-01-24'
     identifiers:
       abuId: '1797812'
       cardKingdomId: '230630'
@@ -72,17 +128,27 @@ products:
       scgId: SLD-MTG-BBX-THBDRAFT-EN
       tcgplayerProductId: '202298'
       tntId: '1605732'
-    release_date: '2020-01-24'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Theros Beyond Death Draft Booster Pack
+        set: thb
   Theros Beyond Death Draft Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2020-01-24'
     identifiers:
       scgId: SLD-MTG-BBX-THBDRAFTCASE-EN
       tcgplayerProductId: '202297'
-    release_date: '2020-01-24'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Theros Beyond Death Draft Booster Box
+        set: thb
   Theros Beyond Death Draft Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2020-01-24'
     identifiers:
       abuId: '2183764'
       cardKingdomId: '230629'
@@ -93,20 +159,35 @@ products:
       scgId: SLD-MTG-PCK-THBDRAFT-EN
       tcgplayerProductId: '202299'
       tntId: '1605705'
-    release_date: '2020-01-24'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: thb
   Theros Beyond Death MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '231850'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 254
+      deck:
+      - name: Theros Beyond Death Redemption
+        set: thb
   Theros Beyond Death MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '231849'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 254
+      deck:
+      - name: Theros Beyond Death Foil Redemption
+        set: thb
   Theros Beyond Death Planeswalker Deck Ashiok:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2020-01-24'
     identifiers:
       abuId: '1807650'
       cardKingdomId: '230632'
@@ -116,18 +197,37 @@ products:
       scgId: SLD-MTG-INT-THBPWDECK-EN-B
       tcgplayerProductId: '206255'
       tntId: '1605721'
-    release_date: '2020-01-24'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Ashiok
+        set: thb
+      other:
+      - name: MTG Arena code card (where available)
+      sealed:
+      - count: 2
+        name: Theros Beyond Death Draft Booster Pack
+        set: thb
   Theros Beyond Death Planeswalker Deck Display:
     category: DECK_BOX
+    subtype: PLANESWALKER
+    release_date: '2020-01-24'
     identifiers:
       cardtraderId: '171572'
       tcgplayerProductId: '202301'
       tntId: '1605717'
-    release_date: '2020-01-24'
-    subtype: PLANESWALKER
+    contents:
+      sealed:
+      - count: 3
+        name: Theros Beyond Death Planeswalker Deck Elspeth
+        set: thb
+      - count: 3
+        name: Theros Beyond Death Planeswalker Deck Ashiok
+        set: thb
   Theros Beyond Death Planeswalker Deck Elspeth:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2020-01-24'
     identifiers:
       abuId: '1797818'
       cardKingdomId: '230633'
@@ -137,19 +237,38 @@ products:
       scgId: SLD-MTG-INT-THBPWDECK-EN-A
       tcgplayerProductId: '206256'
       tntId: '1605722'
-    release_date: '2020-01-24'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Elspeth
+        set: thb
+      other:
+      - name: MTG Arena code card (where available)
+      sealed:
+      - count: 2
+        name: Theros Beyond Death Draft Booster Pack
+        set: thb
   Theros Beyond Death Planeswalker Decks Set of 2:
     category: SUBSET
+    subtype: PLANESWALKER
+    release_date: '2020-01-24'
     identifiers:
       abuId: '1797819'
       hareruyaId: '78312'
       scgId: SLD-MTG-INT-THBPWDECK-EN-SET2
       tcgplayerProductId: '206257'
-    release_date: '2020-01-24'
-    subtype: PLANESWALKER
+    contents:
+      sealed:
+      - count: 1
+        name: Theros Beyond Death Planeswalker Deck Elspeth
+        set: thb
+      - count: 1
+        name: Theros Beyond Death Planeswalker Deck Ashiok
+        set: thb
   Theros Beyond Death Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2020-01-17'
     identifiers:
       abuId: '1807651'
       cardKingdomId: '230636'
@@ -157,27 +276,66 @@ products:
       csiId: '292665'
       mcmId: '435694'
       tcgplayerProductId: '207785'
-    release_date: '2020-01-17'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: MTG Arena code card (where available)
+      - name: Theros Beyond Death Spindown
+      pack:
+      - code: prerelease
+        set: thb
+      sealed:
+      - count: 6
+        name: Theros Beyond Death Draft Booster Pack
+        set: thb
   Theros Beyond Death Prerelease Pack Case:
     category: LIMITED_CASE
+    subtype: PRERELEASE
     identifiers:
       tcgplayerProductId: '260894'
-    subtype: PRERELEASE
+    contents:
+      sealed:
+      - count: 18
+        name: Theros Beyond Death Prerelease Pack
+        set: thb
   Theros Beyond Death Theme Booster Box:
     category: BOOSTER_BOX
+    subtype: THEME
+    release_date: '2020-01-24'
     identifiers:
       cardtraderId: '62562'
       mcmId: '426906'
       tcgplayerProductId: '202303'
-    release_date: '2020-01-24'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 2
+        name: Theros Beyond Death Theme Booster Pack White
+        set: thb
+      - count: 2
+        name: Theros Beyond Death Theme Booster Pack Blue
+        set: thb
+      - count: 2
+        name: Theros Beyond Death Theme Booster Pack Black
+        set: thb
+      - count: 2
+        name: Theros Beyond Death Theme Booster Pack Red
+        set: thb
+      - count: 2
+        name: Theros Beyond Death Theme Booster Pack Green
+        set: thb
   Theros Beyond Death Theme Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: THEME
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Theros Beyond Death Theme Booster Box
+        set: thb
   Theros Beyond Death Theme Booster Pack Black:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2020-01-24'
     identifiers:
       abuId: '1812191'
       cardtraderId: '62557'
@@ -186,10 +344,15 @@ products:
       scgId: SLD-MTG-PCK-THBTHEME-EN-BLACK
       tcgplayerProductId: '206258'
       tntId: '1644613'
-    release_date: '2020-01-24'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-b
+        set: thb
   Theros Beyond Death Theme Booster Pack Blue:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2020-01-24'
     identifiers:
       abuId: '1812190'
       cardtraderId: '62556'
@@ -198,10 +361,15 @@ products:
       scgId: SLD-MTG-PCK-THBTHEME-EN-BLUE
       tcgplayerProductId: '206259'
       tntId: '1644614'
-    release_date: '2020-01-24'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-u
+        set: thb
   Theros Beyond Death Theme Booster Pack Green:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2020-01-24'
     identifiers:
       abuId: '1812193'
       cardtraderId: '62561'
@@ -210,10 +378,15 @@ products:
       scgId: SLD-MTG-PCK-THBTHEME-EN-GREEN
       tcgplayerProductId: '206260'
       tntId: '1644615'
-    release_date: '2020-01-24'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-g
+        set: thb
   Theros Beyond Death Theme Booster Pack Red:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2020-01-24'
     identifiers:
       abuId: '1812192'
       cardtraderId: '62559'
@@ -222,18 +395,40 @@ products:
       scgId: SLD-MTG-PCK-THBTHEME-EN-RED
       tcgplayerProductId: '206261'
       tntId: '1644616'
-    release_date: '2020-01-24'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-r
+        set: thb
   Theros Beyond Death Theme Booster Pack Set of 5:
     category: SUBSET
+    subtype: THEME
+    release_date: '2020-01-24'
     identifiers:
       cardKingdomId: '230650'
       scgId: SLD-MTG-PCK-THBTHEME-EN-SET5
       tcgplayerProductId: '206263'
-    release_date: '2020-01-24'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Theros Beyond Death Theme Booster Pack White
+        set: thb
+      - count: 1
+        name: Theros Beyond Death Theme Booster Pack Blue
+        set: thb
+      - count: 1
+        name: Theros Beyond Death Theme Booster Pack Black
+        set: thb
+      - count: 1
+        name: Theros Beyond Death Theme Booster Pack Red
+        set: thb
+      - count: 1
+        name: Theros Beyond Death Theme Booster Pack Green
+        set: thb
   Theros Beyond Death Theme Booster Pack White:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2020-01-24'
     identifiers:
       abuId: '1812189'
       cardtraderId: '62555'
@@ -242,5 +437,8 @@ products:
       scgId: SLD-MTG-PCK-THBTHEME-EN-WHITE
       tcgplayerProductId: '206262'
       tntId: '1644617'
-    release_date: '2020-01-24'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-w
+        set: thb

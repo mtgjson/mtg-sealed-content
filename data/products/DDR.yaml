@@ -2,6 +2,8 @@ code: ddr
 products:
   Duel Deck Nissa Vs Ob Nixilis:
     category: MULTI_DECK
+    subtype: DUEL
+    release_date: '2016-05-30'
     identifiers:
       abuId: '1100930'
       cardKingdomId: '208624'
@@ -12,17 +14,38 @@ products:
       scgId: SLD-MTG-BXS-DDR-EN
       tcgplayerProductId: '122165'
       tntId: '1096476'
-    release_date: '2016-05-30'
-    subtype: DUEL
+    contents:
+      sealed:
+      - count: 1
+        name: Duel Deck Nissa Vs Ob Nixilis Nissa Deck
+        set: ddr
+      - count: 1
+        name: Duel Deck Nissa Vs Ob Nixilis Ob Nixilis Deck
+        set: ddr
   Duel Deck Nissa Vs Ob Nixilis Display:
     category: DECK_BOX
-    identifiers: {}
     subtype: DUEL
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Duel Deck Nissa Vs Ob Nixilis
+        set: ddr
   Duel Deck Nissa Vs Ob Nixilis Nissa Deck:
     category: DECK
-    identifiers: {}
     subtype: DUEL
+    identifiers: {}
+    contents:
+      card_count: 60
+      deck:
+      - name: Nissa
+        set: ddr
   Duel Deck Nissa Vs Ob Nixilis Ob Nixilis Deck:
     category: DECK
-    identifiers: {}
     subtype: DUEL
+    identifiers: {}
+    contents:
+      card_count: 60
+      deck:
+      - name: Ob Nixilis
+        set: ddr

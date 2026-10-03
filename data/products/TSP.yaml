@@ -2,6 +2,7 @@ code: tsp
 products:
   Time Spiral Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1101227'
       cardKingdomId: '121036'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-TSP-EN
       tcgplayerProductId: '27310'
       tntId: '141923'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Time Spiral Booster Pack
+        set: tsp
   Time Spiral Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Time Spiral Booster Box
+        set: tsp
   Time Spiral Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476951'
       cardKingdomId: '121037'
@@ -29,9 +40,14 @@ products:
       scgId: SLD-MTG-PCK-TSP-EN
       tcgplayerProductId: '27372'
       tntId: '141924'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: tsp
   Time Spiral Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1101229'
       cardKingdomId: '121043'
@@ -42,34 +58,81 @@ products:
       scgId: SLD-MTG-BUN-TSP-EN
       tcgplayerProductId: '78332'
       tntId: '155325'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Time Spiral Fat Pack Land Pack
+        set: tsp
+      other:
+      - name: 2 card deck boxes
+      - name: Player's Guide
+      - name: Time Spiral Spindown Life Counter
+      - name: 1 Random Pro Tour player card
+      - name: Time Spiral novel
+      sealed:
+      - count: 6
+        name: Time Spiral Booster Pack
+        set: tsp
   Time Spiral Gift Box:
     category: BUNDLE
+    subtype: GIFT_BUNDLE
     identifiers:
       abuId: '1101228'
       cardtraderId: '47162'
       mcmId: '200021'
-    subtype: GIFT_BUNDLE
+    contents:
+      other:
+      - name: 5 exclusive card dividers
+      - name: Metal mana symbol pendant and necklace
+      - name: 'Magic: The Gathering T-shirt'
+      sealed:
+      - count: 3
+        name: Time Spiral Booster Pack
+        set: tsp
   Time Spiral MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241641'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 301
+      deck:
+      - name: Time Spiral Redemption
+        set: tsp
   Time Spiral MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241640'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 301
+      deck:
+      - name: Time Spiral Foil Redemption
+        set: tsp
   Time Spiral Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       abuId: '1101237'
       cardtraderId: '47163'
       mcmId: '210219'
       tntId: '141930'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 3
+        name: Time Spiral Theme Deck Fun With Fungus
+        set: tsp
+      - count: 3
+        name: Time Spiral Theme Deck Hopes Crusaders
+        set: tsp
+      - count: 3
+        name: Time Spiral Theme Deck Reality Fracture
+        set: tsp
+      - count: 3
+        name: Time Spiral Theme Deck Sliver Evolution
+        set: tsp
   Time Spiral Theme Deck Fun With Fungus:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101230'
       cardKingdomId: '121453'
@@ -79,9 +142,16 @@ products:
       scgId: SLD-MTG-INT-TSPTHEME-IT-FUN
       tcgplayerProductId: '125558'
       tntId: '141927'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Fun With Fungus
+        set: tsp
+      other:
+      - name: One random Pro Tour Player Card
   Time Spiral Theme Deck Hopes Crusaders:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101231'
       cardKingdomId: '121454'
@@ -91,9 +161,16 @@ products:
       scgId: SLD-MTG-INT-TSPTHEME-IT-HOPE
       tcgplayerProductId: '125557'
       tntId: '141928'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Hope's Crusaders
+        set: tsp
+      other:
+      - name: One random Pro Tour Player Card
   Time Spiral Theme Deck Reality Fracture:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101232'
       cardKingdomId: '121455'
@@ -103,9 +180,16 @@ products:
       scgId: SLD-MTG-INT-TSPTHEME-IT-REALITY
       tcgplayerProductId: '125559'
       tntId: '141926'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Reality Fracture
+        set: tsp
+      other:
+      - name: One random Pro Tour Player Card
   Time Spiral Theme Deck Sliver Evolution:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101236'
       cardKingdomId: '121456'
@@ -115,9 +199,16 @@ products:
       scgId: SLD-MTG-INT-TSPTHEME-IT-SLIVER
       tcgplayerProductId: '125560'
       tntId: '141925'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Sliver Evolution
+        set: tsp
+      other:
+      - name: One random Pro Tour Player Card
   Time Spiral Tournament Pack:
     category: LIMITED
+    subtype: TOURNAMENT
     identifiers:
       abuId: '1108018'
       cardKingdomId: '121038'
@@ -128,9 +219,16 @@ products:
       scgId: SLD-MTG-PCK-TSPTOURNAMENT-EN
       tcgplayerProductId: '118877'
       tntId: '141934'
-    subtype: TOURNAMENT
+    contents:
+      card_count: 75
+      other:
+      - name: One random Pro Tour Player Card
+      pack:
+      - code: tournament
+        set: tsp
   Time Spiral Tournament Pack Display:
     category: LIMITED_CASE
+    subtype: TOURNAMENT
     identifiers:
       abuId: '1108019'
       cardKingdomId: '240228'
@@ -140,4 +238,8 @@ products:
       scgId: SLD-MTG-BBX-TSPTOURNAMENT-EN
       tcgplayerProductId: '453053'
       tntId: '141933'
-    subtype: TOURNAMENT
+    contents:
+      sealed:
+      - count: 12
+        name: Time Spiral Tournament Pack
+        set: tsp

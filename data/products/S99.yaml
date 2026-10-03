@@ -2,6 +2,7 @@ code: s99
 products:
   Starter 1999 Booster Box:
     category: BOOSTER_BOX
+    subtype: STARTER
     identifiers:
       abuId: '1108011'
       cardKingdomId: '240216'
@@ -11,13 +12,23 @@ products:
       mcmId: '242503'
       scgId: SLD-MTG-BBX-S99-EN
       tntId: '88829'
-    subtype: STARTER
+    contents:
+      sealed:
+      - count: 36
+        name: Starter 1999 Booster Pack
+        set: s99
   Starter 1999 Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: STARTER
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Starter 1999 Booster Box
+        set: s99
   Starter 1999 Booster Pack:
     category: BOOSTER_PACK
+    subtype: STARTER
     identifiers:
       abuId: '1476943'
       cardKingdomId: '194360'
@@ -28,16 +39,32 @@ products:
       scgId: SLD-MTG-PCK-S99-EN
       tcgplayerProductId: '168359'
       tntId: '88830'
-    subtype: STARTER
+    contents:
+      card_count: 15
+      pack:
+      - code: default
+        set: s99
   Starter 1999 Demo Game Booster Pack:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
     identifiers:
       mcmId: '758896'
       tcgplayerProductId: '257332'
       tntId: '1566257'
-    subtype: PROMOTIONAL
+    contents:
+      card_count: 24
+      deck:
+      - name: Demo deck A
+        set: s99
+      - name: Demo deck B
+        set: s99
+      other:
+      - name: Tip Card
+      - name: Rebate Card
+      - name: Instruction sheet
   Starter 1999 Starter Game:
     category: MULTI_DECK
+    subtype: TWO_PLAYER_STARTER
     identifiers:
       cardKingdomId: '240210'
       cardtraderId: '45574'
@@ -46,24 +73,61 @@ products:
       scgId: SLD-MTG-PCK-S99STARTER-EN
       tcgplayerProductId: '532800'
       tntId: '132210'
-    subtype: TWO_PLAYER_STARTER
+    contents:
+      card_count: 80
+      deck:
+      - name: Preconstructed deck 1
+        set: s99
+      - name: Preconstructed deck 2
+        set: s99
+      other:
+      - name: Angel of Light Poster
+      - name: Play Guide With Step-by-Step Instructions
+      - name: Two Playmats
+      - name: Two Scorekeeping Beads
+      - name: Magic Rulebook
   Starter 1999 Starter Game Display:
     category: DECK_BOX
+    subtype: TWO_PLAYER_STARTER
     identifiers:
       cardtraderId: '45575'
       tntId: '88834'
-    subtype: TWO_PLAYER_STARTER
+    contents:
+      sealed:
+      - count: 12
+        name: Starter 1999 Starter Game
+        set: s99
   Starter 1999 Starter Gift Box:
     category: BUNDLE
+    subtype: GIFT_BUNDLE
     identifiers:
       abuId: '1101168'
       cardKingdomId: '240317'
       cardtraderId: '45577'
       hareruyaId: '28496'
       mcmId: '257406'
-    subtype: GIFT_BUNDLE
+    contents:
+      card:
+      - foil: false
+        name: Thorn Elemental
+        number: 11
+        set: o90p
+      card_count: 80
+      deck:
+      - name: Preconstructed deck 1
+        set: s99
+      - name: Preconstructed deck 2
+        set: s99
+      other:
+      - name: Angel of Light Poster
+      - name: Play Guide With Step-by-Step Instructions
+      - name: Two Playmats
+      - name: Two Scorekeeping Beads
+      - name: Magic Rulebook
+      - name: Instructional Video
   Starter 1999 Theme Deck Blinding Fury:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101170'
       cardKingdomId: '240211'
@@ -72,9 +136,14 @@ products:
       mcmId: '253761'
       tcgplayerProductId: '500265'
       tntId: '114237'
-    subtype: THEME
+    contents:
+      card_count: 40
+      deck:
+      - name: Blinding Fury
+        set: s99
   Starter 1999 Theme Deck Deadly Instinct:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101171'
       cardKingdomId: '240212'
@@ -83,16 +152,38 @@ products:
       mcmId: '253762'
       tcgplayerProductId: '500269'
       tntId: '114258'
-    subtype: THEME
+    contents:
+      card_count: 40
+      deck:
+      - name: Deadly Instinct
+        set: s99
   Starter 1999 Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       cardtraderId: '45576'
       mcmId: '263932'
       tntId: '114311'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 3
+        name: Starter 1999 Theme Deck Blinding Fury
+        set: s99
+      - count: 3
+        name: Starter 1999 Theme Deck Deadly Instinct
+        set: s99
+      - count: 3
+        name: Starter 1999 Theme Deck Goblin Assault
+        set: s99
+      - count: 3
+        name: Starter 1999 Theme Deck Impaler
+        set: s99
+      - count: 3
+        name: Starter 1999 Theme Deck Time Curse
+        set: s99
   Starter 1999 Theme Deck Goblin Assault:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101172'
       cardKingdomId: '240213'
@@ -101,9 +192,14 @@ products:
       mcmId: '253763'
       tcgplayerProductId: '500268'
       tntId: '114259'
-    subtype: THEME
+    contents:
+      card_count: 40
+      deck:
+      - name: Goblin Assault
+        set: s99
   Starter 1999 Theme Deck Impaler:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101173'
       cardKingdomId: '240214'
@@ -112,9 +208,14 @@ products:
       mcmId: '253764'
       tcgplayerProductId: '500267'
       tntId: '114280'
-    subtype: THEME
+    contents:
+      card_count: 40
+      deck:
+      - name: Impaler
+        set: s99
   Starter 1999 Theme Deck Time Curse:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1101161'
       cardKingdomId: '240215'
@@ -123,9 +224,30 @@ products:
       mcmId: '253765'
       tcgplayerProductId: '500266'
       tntId: '114312'
-    subtype: THEME
+    contents:
+      card_count: 40
+      deck:
+      - name: Time Curse
+        set: s99
   Starter 1999 Theme Decks Set of 5:
     category: SUBSET
+    subtype: THEME
     identifiers:
       abuId: '1101174'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Starter 1999 Theme Deck Blinding Fury
+        set: s99
+      - count: 1
+        name: Starter 1999 Theme Deck Deadly Instinct
+        set: s99
+      - count: 1
+        name: Starter 1999 Theme Deck Goblin Assault
+        set: s99
+      - count: 1
+        name: Starter 1999 Theme Deck Impaler
+        set: s99
+      - count: 1
+        name: Starter 1999 Theme Deck Time Curse
+        set: s99

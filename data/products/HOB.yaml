@@ -2,19 +2,26 @@ code: hob
 products:
   The Hobbit Battle of the Five Armies Co-op Kit:
     category: KIT
+    subtype: DEFAULT
     identifiers:
       cardtraderId: '406069'
-    subtype: DEFAULT
   The Hobbit Box Topper Pack:
     category: BOOSTER_PACK
+    subtype: TOPPER
+    release_date: '2026-08-14'
     identifiers:
       cardtraderId: '389312'
       mcmId: '885578'
       tcgplayerProductId: '709910'
-    release_date: '2026-08-14'
-    subtype: TOPPER
+    contents:
+      card_count: 1
+      pack:
+      - code: box-topper
+        set: hob
   The Hobbit Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2026-08-14'
     identifiers:
       abuId: '2709802'
       cardKingdomId: '330102'
@@ -23,17 +30,40 @@ products:
       miniaturemarketId: 019df9af6606732093ca0a7f2150e65b
       scgId: SLD-MTG-BUN-HOB-EN
       tcgplayerProductId: '692966'
-    release_date: '2026-08-14'
-    subtype: DEFAULT
+    contents:
+      card:
+      - foil: true
+        name: The Misty Mountains Cold
+        number: 321
+        set: hob
+      card_count: 35
+      deck:
+      - name: The Hobbit Bundle Land Pack
+        set: hob
+      other:
+      - name: 2 Reference cards
+      - name: Spindown die
+      - name: Card storage box
+      sealed:
+      - count: 9
+        name: The Hobbit Play Booster Pack
+        set: hob
   The Hobbit Bundle Case:
     category: BUNDLE_CASE
+    subtype: DEFAULT
+    release_date: '2026-08-14'
     identifiers:
       cardtraderId: '405207'
       tcgplayerProductId: '692967'
-    release_date: '2026-08-14'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 6
+        name: The Hobbit Bundle
+        set: hob
   The Hobbit Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2026-08-14'
     identifiers:
       abuId: '2709801'
       cardKingdomId: '330104'
@@ -42,22 +72,40 @@ products:
       miniaturemarketId: 019df9af4e3e70d18bff08b624cfd32f
       scgId: SLD-MTG-BBX-HOBCOLLECTOR-EN
       tcgplayerProductId: '692963'
-    release_date: '2026-08-14'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 1
+        name: The Hobbit Box Topper Pack
+        set: hob
+      - count: 12
+        name: The Hobbit Collector Booster Pack
+        set: hob
   The Hobbit Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
+    release_date: '2026-08-14'
     identifiers:
       tcgplayerProductId: '692964'
-    release_date: '2026-08-14'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: The Hobbit Collector Booster Box
+        set: hob
   The Hobbit Collector Booster Box Master Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
+    release_date: '2026-08-14'
     identifiers:
       tcgplayerProductId: '692965'
-    release_date: '2026-08-14'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 4
+        name: The Hobbit Collector Booster Box Case
+        set: hob
   The Hobbit Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2026-08-14'
     identifiers:
       abuId: '2709800'
       cardKingdomId: '330105'
@@ -66,10 +114,15 @@ products:
       miniaturemarketId: 019df9af5b247219adfb6d13abdfe331
       scgId: SLD-MTG-PCK-HOBCOLLECTOR-EN
       tcgplayerProductId: '692962'
-    release_date: '2026-08-14'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: hob
   The Hobbit Draft Night:
     category: LIMITED
+    subtype: DRAFT_SET
+    release_date: '2026-08-14'
     identifiers:
       abuId: '2709805'
       cardKingdomId: '330103'
@@ -78,16 +131,36 @@ products:
       miniaturemarketId: 019df9af7b6e739abee54d1061166c3a
       scgId: SLD-MTG-DFT-HOB-EN
       tcgplayerProductId: '692975'
-    release_date: '2026-08-14'
-    subtype: DRAFT_SET
+    contents:
+      card_count: 90
+      deck:
+      - name: The Hobbit Draft Night Land Pack
+        set: hob
+      other:
+      - name: 10 Non-foil double-sided tokens
+      - name: 1 Draft insert
+      sealed:
+      - count: 12
+        name: The Hobbit Play Booster Pack
+        set: hob
+      - count: 1
+        name: The Hobbit Collector Booster Pack
+        set: hob
   The Hobbit Draft Night Case:
     category: LIMITED_CASE
+    subtype: DRAFT_SET
+    release_date: '2026-08-14'
     identifiers:
       tcgplayerProductId: '692976'
-    release_date: '2026-08-14'
-    subtype: DRAFT_SET
+    contents:
+      sealed:
+      - count: 6
+        name: The Hobbit Draft Night
+        set: hob
   The Hobbit Gift Bundle:
     category: BUNDLE
+    subtype: GIFT_BUNDLE
+    release_date: '2026-09-04'
     identifiers:
       abuId: '2709804'
       cardKingdomId: '330112'
@@ -96,18 +169,44 @@ products:
       miniaturemarketId: 019df9af70417396827bd98faa48bd6c
       scgId: SLD-MTG-BUN-HOBGIFT-EN
       tcgplayerProductId: '692971'
-    release_date: '2026-09-04'
-    subtype: GIFT_BUNDLE
+    contents:
+      card:
+      - foil: true
+        name: The Misty Mountains Cold
+        number: 321
+        set: hob
+      card_count: 35
+      deck:
+      - name: The Hobbit Gift Bundle Land Pack
+        set: hob
+      other:
+      - name: 2 Reference cards
+      - name: Spindown die
+      - name: Card storage box
+      sealed:
+      - count: 9
+        name: The Hobbit Play Booster Pack
+        set: hob
+      - count: 1
+        name: The Hobbit Collector Booster Pack
+        set: hob
   The Hobbit Gift Bundle Case:
     category: BUNDLE_CASE
+    subtype: GIFT_BUNDLE
+    release_date: '2026-09-04'
     identifiers:
       cardtraderId: '405206'
       mcmId: '885554'
       tcgplayerProductId: '692972'
-    release_date: '2026-09-04'
-    subtype: GIFT_BUNDLE
+    contents:
+      sealed:
+      - count: 6
+        name: The Hobbit Gift Bundle
+        set: hob
   The Hobbit Play Booster Box:
     category: BOOSTER_BOX
+    subtype: PLAY
+    release_date: '2026-08-14'
     identifiers:
       abuId: '2709798'
       cardKingdomId: '330106'
@@ -116,17 +215,30 @@ products:
       miniaturemarketId: 019df9af2f9f717d92591d4e05baf58c
       scgId: SLD-MTG-BBX-HOBPLAY-EN
       tcgplayerProductId: '692960'
-    release_date: '2026-08-14'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 1
+        name: The Hobbit Box Topper Pack
+        set: hob
+      - count: 30
+        name: The Hobbit Play Booster Pack
+        set: hob
   The Hobbit Play Booster Box Case:
     category: BOOSTER_CASE
+    subtype: PLAY
+    release_date: '2026-08-14'
     identifiers:
       scgId: SLD-MTG-BBX-HOBPLAYCASE-EN
       tcgplayerProductId: '692961'
-    release_date: '2026-08-14'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 6
+        name: The Hobbit Play Booster Box
+        set: hob
   The Hobbit Play Booster Pack:
     category: BOOSTER_PACK
+    subtype: PLAY
+    release_date: '2026-08-14'
     identifiers:
       abuId: '2709799'
       cardKingdomId: '330107'
@@ -135,22 +247,37 @@ products:
       miniaturemarketId: 019df9af40ac73d1969e6100717333b8
       scgId: SLD-MTG-PCK-HOBPLAY-EN
       tcgplayerProductId: '692959'
-    release_date: '2026-08-14'
-    subtype: PLAY
+    contents:
+      card_count: 14
+      pack:
+      - code: play
+        set: hob
   The Hobbit Prerelease Cards Booster:
     category: BOOSTER_PACK
+    subtype: PRERELEASE
+    release_date: '2026-08-07'
     identifiers:
       mcmId: '903183'
-    release_date: '2026-08-07'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      pack:
+      - code: prerelease
+        set: hob
   The Hobbit Prerelease Case:
     category: LIMITED_CASE
+    subtype: PRERELEASE
+    release_date: '2026-08-07'
     identifiers:
       tcgplayerProductId: '692974'
-    release_date: '2026-08-07'
-    subtype: PRERELEASE
+    contents:
+      sealed:
+      - count: 15
+        name: The Hobbit Prerelease Kit
+        set: hob
   The Hobbit Prerelease Kit:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2026-08-14'
     identifiers:
       abuId: '2709808'
       cardtraderId: '389305'
@@ -158,18 +285,51 @@ products:
       miniaturemarketId: 019df9af9d5d71f6abd3ba106e08ca19
       scgId: SLD-MTG-PRE-HOB-EN
       tcgplayerProductId: '692973'
-    release_date: '2026-08-14'
-    subtype: PRERELEASE
+    contents:
+      card:
+      - name: Plains
+        number: 313
+        set: hob
+      - name: Plains
+        number: 314
+        set: hob
+      - name: Plains
+        number: 315
+        set: hob
+      - name: Plains
+        number: 316
+        set: hob
+      card_count: 5
+      other:
+      - name: Deck box
+      - name: Spindown die
+      pack:
+      - code: prerelease
+        set: hob
+      sealed:
+      - count: 6
+        name: The Hobbit Play Booster Pack
+        set: hob
   The Hobbit Scene Box Case:
     category: BOX_SET
+    subtype: OTHER
+    release_date: '2026-08-14'
     identifiers:
       cardtraderId: '389309'
       mcmId: '885559'
       tcgplayerProductId: '692970'
-    release_date: '2026-08-14'
-    subtype: OTHER
+    contents:
+      sealed:
+      - count: 2
+        name: The Hobbit Scene Box Crack the Plates
+        set: hob
+      - count: 2
+        name: The Hobbit Scene Box Treasures of Smaug
+        set: hob
   The Hobbit Scene Box Crack the Plates:
     category: BOX_SET
+    subtype: OTHER
+    release_date: '2026-08-14'
     identifiers:
       abuId: '2709806'
       cardKingdomId: '330108'
@@ -178,16 +338,36 @@ products:
       miniaturemarketId: 019df9af86297390868617f201e01fd8
       scgId: SLD-MTG-BXS-HOBSCENE-CRACK
       tcgplayerProductId: '692968'
-    release_date: '2026-08-14'
-    subtype: OTHER
+    contents:
+      card_count: 6
+      deck:
+      - name: Crack the Plates
+        set: hob
+      other:
+      - name: 6 Art cards
+      - name: 1 Display easel
+      sealed:
+      - count: 3
+        name: The Hobbit Play Booster Pack
+        set: hob
   The Hobbit Scene Box Set of 2:
     category: SUBSET
+    subtype: OTHER
+    release_date: '2026-08-14'
     identifiers:
       cardKingdomId: '330110'
-    release_date: '2026-08-14'
-    subtype: OTHER
+    contents:
+      sealed:
+      - count: 1
+        name: The Hobbit Scene Box Crack the Plates
+        set: hob
+      - count: 1
+        name: The Hobbit Scene Box Treasures of Smaug
+        set: hob
   The Hobbit Scene Box Treasures of Smaug:
     category: BOX_SET
+    subtype: OTHER
+    release_date: '2026-08-14'
     identifiers:
       abuId: '2709807'
       cardKingdomId: '330109'
@@ -196,30 +376,60 @@ products:
       miniaturemarketId: 019df9af92b57350983fd06d9462298b
       scgId: SLD-MTG-BXS-HOBSCENE-TREASURES
       tcgplayerProductId: '692969'
-    release_date: '2026-08-14'
-    subtype: OTHER
+    contents:
+      card_count: 6
+      deck:
+      - name: Treasures of Smaug
+        set: hob
+      other:
+      - name: 6 Art cards
+      - name: 1 Display easel
+      sealed:
+      - count: 3
+        name: The Hobbit Play Booster Pack
+        set: hob
   The Hobbit Welcome Deck Black:
     category: DECK
+    subtype: WELCOME
     identifiers:
       cardtraderId: '405094'
-    subtype: WELCOME
+    contents:
+      deck:
+      - name: Black Deck
+        set: hob
   The Hobbit Welcome Deck Blue:
     category: DECK
+    subtype: WELCOME
     identifiers:
       cardtraderId: '405093'
-    subtype: WELCOME
+    contents:
+      deck:
+      - name: Blue Deck
+        set: hob
   The Hobbit Welcome Deck Green:
     category: DECK
+    subtype: WELCOME
     identifiers:
       cardtraderId: '405096'
-    subtype: WELCOME
+    contents:
+      deck:
+      - name: Green Deck
+        set: hob
   The Hobbit Welcome Deck Red:
     category: DECK
+    subtype: WELCOME
     identifiers:
       cardtraderId: '405095'
-    subtype: WELCOME
+    contents:
+      deck:
+      - name: Red Deck
+        set: hob
   The Hobbit Welcome Deck White:
     category: DECK
+    subtype: WELCOME
     identifiers:
       cardtraderId: '405092'
-    subtype: WELCOME
+    contents:
+      deck:
+      - name: White Deck
+        set: hob

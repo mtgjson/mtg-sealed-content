@@ -2,19 +2,51 @@ code: xln
 products:
   Buy-a-Box Treasure Chest Booster:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    release_date: '2017-11-08'
     identifiers:
       cardtraderId: '164580'
       mcmId: '313046'
-    release_date: '2017-11-08'
-    subtype: PROMOTIONAL
+    contents:
+      card_count: 9
+      pack:
+      - code: treasure-chest
+        set: xln
   Ixalan Booster Battle Pack:
     category: MULTI_DECK
+    subtype: BATTLE
     identifiers:
       tcgplayerProductId: '217691'
       tntId: '1643173'
-    subtype: BATTLE
+    contents:
+      card_count: 60
+      sealed:
+      - count: 2
+        name: Ixalan Booster Pack
+        set: xln
+      variable:
+      - deck:
+        - name: Amonkhet Welcome Deck - White
+          set: w17
+      - deck:
+        - name: Amonkhet Welcome Deck - Blue
+          set: w17
+      - deck:
+        - name: Amonkhet Welcome Deck - Black
+          set: w17
+      - deck:
+        - name: Amonkhet Welcome Deck - Red
+          set: w17
+      - deck:
+        - name: Amonkhet Welcome Deck - Green
+          set: w17
+      variable_mode:
+        count: 2
+        replacement: false
   Ixalan Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2017-09-29'
     identifiers:
       abuId: '1476982'
       cardKingdomId: '213868'
@@ -25,17 +57,27 @@ products:
       scgId: SLD-MTG-BBX-XLN-EN
       tcgplayerProductId: '141989'
       tntId: '1115671'
-    release_date: '2017-09-29'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Ixalan Booster Pack
+        set: xln
   Ixalan Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2017-09-29'
     identifiers:
       tcgplayerProductId: '141990'
       tntId: '1115672'
-    release_date: '2017-09-29'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Ixalan Booster Box
+        set: xln
   Ixalan Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2017-05-09'
     identifiers:
       abuId: '1796201'
       cardKingdomId: '213869'
@@ -46,10 +88,15 @@ products:
       scgId: SLD-MTG-PCK-XLN-EN
       tcgplayerProductId: '141991'
       tntId: '1115670'
-    release_date: '2017-05-09'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: xln
   Ixalan Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2017-09-29'
     identifiers:
       abuId: '1476989'
       cardKingdomId: '213871'
@@ -60,10 +107,24 @@ products:
       scgId: SLD-MTG-BUN-XLN-EN
       tcgplayerProductId: '141986'
       tntId: '1115673'
-    release_date: '2017-09-29'
-    subtype: DEFAULT
+    contents:
+      deck:
+      - name: Ixalan Bundle Land Pack
+        set: xln
+      other:
+      - name: 1 Card box
+      - name: 1 Player’s Guide with visual encyclopedia for Ixalan
+      - name: 1 Magic learn-to-play guide
+      - name: 1 Spindown life counter
+      - name: 2 Deck boxes
+      sealed:
+      - count: 10
+        name: Ixalan Booster Pack
+        set: xln
   Ixalan Deck Builders Toolkit:
     category: KIT
+    subtype: DECK_BUILDERS_TOOLKIT
+    release_date: '2017-09-15'
     identifiers:
       abuId: '1476975'
       cardKingdomId: '213877'
@@ -72,20 +133,74 @@ products:
       scgId: SLD-MTG-INT-XLNTOOLKIT-EN
       tcgplayerProductId: '148405'
       tntId: '1115669'
-    release_date: '2017-09-15'
-    subtype: DECK_BUILDERS_TOOLKIT
+    contents:
+      card_count: 225
+      deck:
+      - name: Fixed Content
+        set: xln
+      other:
+      - name: Ixalan Deck Builder's Guide
+      - name: Magic Learn to Play Guide
+      - name: Card Storage Box
+      sealed:
+      - count: 2
+        name: Ixalan Booster Pack
+        set: xln
+      - count: 1
+        name: Kaladesh Booster Pack
+        set: kld
+      - count: 1
+        name: Amonkhet Booster Pack
+        set: akh
+      variable:
+      - deck:
+        - name: Black and White Vampires
+          set: xln
+      - deck:
+        - name: Red and Green Dinosaurs
+          set: xln
+      - deck:
+        - name: Blue and Green Merfolk
+          set: xln
+      - deck:
+        - name: Red and Black Pirates
+          set: xln
+      - deck:
+        - name: Blue and Black Pirates
+          set: xln
+      - deck:
+        - name: Red and White Dinosaurs
+          set: xln
+      - deck:
+        - name: Blue and Green Ramp
+          set: xln
+      variable_mode:
+        count: 4
+        replacement: false
   Ixalan MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '217133'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 279
+      deck:
+      - name: Ixalan Redemption
+        set: xln
   Ixalan MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '217134'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 279
+      deck:
+      - name: Ixalan Foil Redemption
+        set: xln
   Ixalan Planeswalker Deck Huatli:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2017-09-04'
     identifiers:
       abuId: '1476990'
       cardKingdomId: '213983'
@@ -95,10 +210,19 @@ products:
       scgId: SLD-MTG-INT-XLNPWDECK-EN-HUATLI
       tcgplayerProductId: '144694'
       tntId: '1115667'
-    release_date: '2017-09-04'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Huatli, Dinosaur Knight
+        set: xln
+      sealed:
+      - count: 2
+        name: Ixalan Booster Pack
+        set: xln
   Ixalan Planeswalker Deck Jace:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2017-09-04'
     identifiers:
       abuId: '1476991'
       cardKingdomId: '213984'
@@ -108,29 +232,55 @@ products:
       scgId: SLD-MTG-INT-XLNPWDECK-EN-JACE
       tcgplayerProductId: '144693'
       tntId: '1115668'
-    release_date: '2017-09-04'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Jace, Ingenious Mind Mage
+        set: xln
+      sealed:
+      - count: 2
+        name: Ixalan Booster Pack
+        set: xln
   Ixalan Planeswalker Decks Set of 2:
     category: SUBSET
+    subtype: PLANESWALKER
     identifiers:
       abuId: '1476992'
       scgId: SLD-MTG-INT-XLNPWDECK-EN-SET2
       tcgplayerProductId: '145218'
-    subtype: PLANESWALKER
+    contents:
+      sealed:
+      - count: 1
+        name: Ixalan Planeswalker Deck Jace
+        set: xln
+      - count: 1
+        name: Ixalan Planeswalker Deck Huatli
+        set: xln
   Ixalan Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2017-09-22'
     identifiers:
       abuId: '1476993'
       cardKingdomId: '214684'
       cardtraderId: '48578'
       mcmId: '302094'
       tcgplayerProductId: '146677'
-    release_date: '2017-09-22'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: Ixalan Spindown
+      pack:
+      - code: prerelease
+        set: xln
+      sealed:
+      - count: 6
+        name: Ixalan Booster Pack
+        set: xln
   Ixalan Standard Showdown Booster:
     category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    release_date: '2017-10-10'
     identifiers:
       cardtraderId: '49714'
       mcmId: '311210'
-    release_date: '2017-10-10'
-    subtype: PROMOTIONAL

@@ -2,36 +2,70 @@ code: w17
 products:
   Welcome Deck 2017 Black Deck:
     category: DECK
+    subtype: WELCOME
     identifiers:
       cardtraderId: '147591'
       mcmId: '368878'
-    subtype: WELCOME
+    contents:
+      card_count: 30
+      deck:
+      - name: Amonkhet Welcome Deck - Black
+        set: w17
   Welcome Deck 2017 Blue Deck:
     category: DECK
+    subtype: WELCOME
     identifiers:
       cardtraderId: '147594'
       mcmId: '368876'
-    subtype: WELCOME
+    contents:
+      card_count: 30
+      deck:
+      - name: Amonkhet Welcome Deck - Blue
+        set: w17
   Welcome Deck 2017 Green Deck:
     category: DECK
+    subtype: WELCOME
     identifiers:
       cardtraderId: '147593'
       mcmId: '368875'
-    subtype: WELCOME
+    contents:
+      card_count: 30
+      deck:
+      - name: Amonkhet Welcome Deck - Green
+        set: w17
   Welcome Deck 2017 Red Deck:
     category: DECK
+    subtype: WELCOME
     identifiers:
       cardtraderId: '147592'
       mcmId: '368874'
-    subtype: WELCOME
+    contents:
+      card_count: 30
+      deck:
+      - name: Amonkhet Welcome Deck - Red
+        set: w17
   Welcome Deck 2017 Starter Set:
     category: MULTI_DECK
+    subtype: WELCOME
     identifiers:
       tcgplayerProductId: '220749'
-    subtype: WELCOME
+    contents:
+      card_count: 60
+      deck:
+      - name: Amonkhet Welcome Deck - Red
+        set: w17
+      - name: Amonkhet Welcome Deck - White
+        set: w17
+      other:
+      - name: Two Spindown Life Counters
   Welcome Deck 2017 White Deck:
     category: DECK
+    subtype: WELCOME
     identifiers:
       cardtraderId: '147595'
       mcmId: '368877'
-    subtype: WELCOME
+    contents:
+      card_count: 30
+      deck:
+      - name: Amonkhet Welcome Deck - White
+        set: w17

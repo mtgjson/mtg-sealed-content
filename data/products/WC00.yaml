@@ -2,12 +2,27 @@ code: wc00
 products:
   2000 World Championship Deck Box:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       abuId: '1100247'
       hareruyaId: '28536'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 5
+        name: 2000 World Championship Deck Jon Finkel
+        set: wc00
+      - count: 3
+        name: 2000 World Championship Deck Janosch Kuhn
+        set: wc00
+      - count: 2
+        name: 2000 World Championship Deck Nicolas Labarre
+        set: wc00
+      - count: 2
+        name: 2000 World Championship Deck Tom van de Logt
+        set: wc00
   2000 World Championship Deck Janosch Kuhn:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1100242'
       cardKingdomId: '228800'
@@ -18,9 +33,14 @@ products:
       scgId: SLD-MTG-BXS-WCH2000-EN-JANOSCHKUHN
       tcgplayerProductId: '158291'
       tntId: '79200'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 75
+      deck:
+      - name: Janosch Kühn - Angry Non-Hermit
+        set: wc00
   2000 World Championship Deck Jon Finkel:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1100243'
       cardKingdomId: '228799'
@@ -31,9 +51,14 @@ products:
       scgId: SLD-MTG-BXS-WCH2000-EN-JONFINKEL
       tcgplayerProductId: '158290'
       tntId: '79199'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 75
+      deck:
+      - name: Jon Finkel - Mono-Blue Tinker
+        set: wc00
   2000 World Championship Deck Nicolas Labarre:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1100244'
       cardKingdomId: '228801'
@@ -44,9 +69,14 @@ products:
       scgId: SLD-MTG-BXS-WCH2000-EN-NICOLASLABARRE
       tcgplayerProductId: '158293'
       tntId: '79201'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 75
+      deck:
+      - name: Nicolas Labarre - Chimera
+        set: wc00
   2000 World Championship Deck Tom van de Logt:
     category: DECK
+    subtype: CHAMPIONSHIP
     identifiers:
       abuId: '1100246'
       cardKingdomId: '228824'
@@ -57,8 +87,26 @@ products:
       scgId: SLD-MTG-BXS-WCH2000-EN-TOMVANDELOGT
       tcgplayerProductId: '158292'
       tntId: '79202'
-    subtype: CHAMPIONSHIP
+    contents:
+      card_count: 75
+      deck:
+      - name: Tom van de Logt - Replenish
+        set: wc00
   2000 World Championship Decks Set of 4:
     category: SUBSET
-    identifiers: {}
     subtype: THEME
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 1
+        name: 2000 World Championship Deck Janosch Kuhn
+        set: wc00
+      - count: 1
+        name: 2000 World Championship Deck Jon Finkel
+        set: wc00
+      - count: 1
+        name: 2000 World Championship Deck Nicolas Labarre
+        set: wc00
+      - count: 1
+        name: 2000 World Championship Deck Tom van de Logt
+        set: wc00

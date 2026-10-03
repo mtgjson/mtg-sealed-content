@@ -2,6 +2,7 @@ code: bfz
 products:
   Battle for Zendikar Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1100145'
       cardKingdomId: '202427'
@@ -12,15 +13,25 @@ products:
       scgId: SLD-MTG-BBX-BFZ-EN
       tcgplayerProductId: '102715'
       tntId: '1075323'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Battle for Zendikar Booster Pack
+        set: bfz
   Battle for Zendikar Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2015-10-02'
     identifiers:
       tcgplayerProductId: '102714'
-    release_date: '2015-10-02'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Battle for Zendikar Booster Box
+        set: bfz
   Battle for Zendikar Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476852'
       cardKingdomId: '202428'
@@ -31,9 +42,14 @@ products:
       scgId: SLD-MTG-PCK-BFZ-EN
       tcgplayerProductId: '102716'
       tntId: '1075324'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: bfz
   Battle for Zendikar Event Deck Ultimate Sacrifice:
     category: DECK
+    subtype: EVENT
     identifiers:
       abuId: '1107774'
       cardKingdomId: '202468'
@@ -43,9 +59,15 @@ products:
       scgId: SLD-MTG-INT-BFZEVENT-EN
       tcgplayerProductId: '102800'
       tntId: '1075337'
-    subtype: EVENT
+    contents:
+      card_count: 75
+      deck:
+      - name: Ultimate Sacrifice
+        set: bfz
   Battle for Zendikar Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
+    release_date: '2015-10-02'
     identifiers:
       abuId: '1100149'
       cardKingdomId: '202429'
@@ -56,10 +78,21 @@ products:
       scgId: SLD-MTG-BUN-BFZ-EN
       tcgplayerProductId: '102801'
       tntId: '1075325'
-    release_date: '2015-10-02'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Battle for Zendikar Fat Pack Land Pack
+        set: bfz
+      other:
+      - name: Battle for Zendikar Player's Guide
+      - name: Battle for Zendikar Card Box
+      - name: Battle for Zendikar Premium Spindown
+      sealed:
+      - count: 9
+        name: Battle for Zendikar Booster Pack
+        set: bfz
   Battle for Zendikar Gift Box:
     category: BUNDLE
+    subtype: GIFT_BUNDLE
     identifiers:
       abuId: '1101193'
       cardKingdomId: '203355'
@@ -69,18 +102,46 @@ products:
       scgId: SLD-MTG-BXS-M15GIFT-EN
       tcgplayerProductId: '102717'
       tntId: '1081635'
-    subtype: GIFT_BUNDLE
+    contents:
+      card:
+      - foil: true
+        name: Scythe Leopard
+        number: 188
+        set: pbfz
+      deck:
+      - name: Battle for Zendikar Gift Box Land Pack
+        set: bfz
+      other:
+      - name: Battle for Zendikar Storage Box
+      - name: Illustrated Storage Dividers
+      - name: Stickers for Customizing the Dividers
+      sealed:
+      - count: 5
+        name: Battle for Zendikar Booster Pack
+        set: bfz
   Battle for Zendikar Hedron Prerelease Box:
     category: LIMITED_CASE
+    subtype: PRERELEASE
     identifiers:
       cardKingdomId: '205604'
       cardtraderId: '48351'
       mcmId: '284373'
       tcgplayerProductId: '105955'
       tntId: '1096352'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: Battle for Zendikar Prerelease Spindown
+      pack:
+      - code: prerelease
+        set: bfz
+      sealed:
+      - count: 6
+        name: Battle for Zendikar Booster Pack
+        set: bfz
   Battle for Zendikar Intro Pack Call of Blood:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1107775'
       cardKingdomId: '202474'
@@ -88,16 +149,42 @@ products:
       mcmId: '284346'
       tcgplayerProductId: '102721'
       tntId: '1079427'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Call of Blood
+        set: bfz
+      sealed:
+      - count: 2
+        name: Battle for Zendikar Booster Pack
+        set: bfz
   Battle for Zendikar Intro Pack Display:
     category: DECK_BOX
+    subtype: INTRO
     identifiers:
       cardtraderId: '48353'
       mcmId: '284352'
       tntId: '1075326'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 2
+        name: Battle for Zendikar Intro Pack Call of Blood
+        set: bfz
+      - count: 2
+        name: Battle for Zendikar Intro Pack Eldrazi Assault
+        set: bfz
+      - count: 2
+        name: Battle for Zendikar Intro Pack Rallying Cry
+        set: bfz
+      - count: 2
+        name: Battle for Zendikar Intro Pack Swarming Instinct
+        set: bfz
+      - count: 2
+        name: Battle for Zendikar Intro Pack Zendikars Rage
+        set: bfz
   Battle for Zendikar Intro Pack Eldrazi Assault:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100151'
       cardKingdomId: '202472'
@@ -105,9 +192,18 @@ products:
       mcmId: '284349'
       tcgplayerProductId: '102723'
       tntId: '1079428'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Eldrazi Assault
+        set: bfz
+      sealed:
+      - count: 2
+        name: Battle for Zendikar Booster Pack
+        set: bfz
   Battle for Zendikar Intro Pack Rallying Cry:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100152'
       cardKingdomId: '202476'
@@ -116,17 +212,43 @@ products:
       mcmId: '284350'
       tcgplayerProductId: '102719'
       tntId: '1079425'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Rallying Cry
+        set: bfz
+      sealed:
+      - count: 2
+        name: Battle for Zendikar Booster Pack
+        set: bfz
   Battle for Zendikar Intro Pack Set of 5:
     category: SUBSET
+    subtype: INTRO
     identifiers:
       cardtraderId: '48354'
       mcmId: '284351'
       scgId: SLD-MTG-INT-BFZINTRO-EN-SET5
       tcgplayerProductId: '102718'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 1
+        name: Battle for Zendikar Intro Pack Call of Blood
+        set: bfz
+      - count: 1
+        name: Battle for Zendikar Intro Pack Eldrazi Assault
+        set: bfz
+      - count: 1
+        name: Battle for Zendikar Intro Pack Rallying Cry
+        set: bfz
+      - count: 1
+        name: Battle for Zendikar Intro Pack Swarming Instinct
+        set: bfz
+      - count: 1
+        name: Battle for Zendikar Intro Pack Zendikars Rage
+        set: bfz
   Battle for Zendikar Intro Pack Swarming Instinct:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100153'
       cardKingdomId: '202473'
@@ -134,9 +256,18 @@ products:
       mcmId: '284347'
       tcgplayerProductId: '102720'
       tntId: '1079426'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Swarming Instinct
+        set: bfz
+      sealed:
+      - count: 2
+        name: Battle for Zendikar Booster Pack
+        set: bfz
   Battle for Zendikar Intro Pack Zendikars Rage:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100154'
       cardKingdomId: '202475'
@@ -144,14 +275,32 @@ products:
       mcmId: '284348'
       tcgplayerProductId: '102722'
       tntId: '1079429'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Zendikar's Rage
+        set: bfz
+      sealed:
+      - count: 2
+        name: Battle for Zendikar Booster Pack
+        set: bfz
   Battle for Zendikar MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210364'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 274
+      deck:
+      - name: Battle for Zendikar Redemption
+        set: bfz
   Battle for Zendikar MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210866'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 274
+      deck:
+      - name: Battle for Zendikar Foil Redemption
+        set: bfz

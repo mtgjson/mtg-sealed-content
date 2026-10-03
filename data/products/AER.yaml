@@ -2,6 +2,7 @@ code: aer
 products:
   Aether Revolt Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1476808'
       cardKingdomId: '210368'
@@ -12,15 +13,26 @@ products:
       scgId: SLD-MTG-BBX-AER-EN
       tcgplayerProductId: '125794'
       tntId: '1096471'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Aether Revolt Booster Pack
+        set: aer
   Aether Revolt Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '125795'
       tntId: '1096470'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Aether Revolt Booster Box
+        set: aer
   Aether Revolt Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2017-01-20'
     identifiers:
       abuId: '1796159'
       cardKingdomId: '210369'
@@ -31,10 +43,14 @@ products:
       scgId: SLD-MTG-PCK-AER-EN
       tcgplayerProductId: '125793'
       tntId: '1096472'
-    release_date: '2017-01-20'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: aer
   Aether Revolt Bundle:
     category: BUNDLE
+    subtype: DEFAULT
     identifiers:
       abuId: '1476821'
       cardKingdomId: '210380'
@@ -45,19 +61,42 @@ products:
       scgId: SLD-MTG-BUN-AER-EN
       tcgplayerProductId: '125797'
       tntId: '1096473'
-    subtype: DEFAULT
+    contents:
+      deck:
+      - name: Kaladesh Bundle Land Pack
+        set: kld
+      other:
+      - name: Aether Revolt Player's Guide
+      - name: Magic Learn-to-play Guide
+      - name: Aether Revolt Spindown
+      - name: 2 Deck Boxes
+      sealed:
+      - count: 10
+        name: Aether Revolt Booster Pack
+        set: aer
   Aether Revolt MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '212311'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 184
+      deck:
+      - name: Aether Revolt Redemption
+        set: aer
   Aether Revolt MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '211546'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 184
+      deck:
+      - name: Aether Revolt Foil Redemption
+        set: aer
   Aether Revolt Planeswalker Deck Ajani:
     category: DECK
+    subtype: PLANESWALKER
     identifiers:
       abuId: '1476822'
       cardKingdomId: '210388'
@@ -67,14 +106,31 @@ products:
       scgId: SLD-MTG-INT-AERPWDECK-EN-AJANI
       tcgplayerProductId: '125798'
       tntId: '1098352'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Ajani, Valiant Protector
+        set: aer
+      sealed:
+      - count: 2
+        name: Aether Revolt Booster Pack
+        set: aer
   Aether Revolt Planeswalker Deck Display:
     category: DECK_BOX
+    subtype: PLANESWALKER
     identifiers:
       tntId: '1109862'
-    subtype: PLANESWALKER
+    contents:
+      sealed:
+      - count: 3
+        name: Aether Revolt Planeswalker Deck Ajani
+        set: aer
+      - count: 3
+        name: Aether Revolt Planeswalker Deck Tezzeret
+        set: aer
   Aether Revolt Planeswalker Deck Tezzeret:
     category: DECK
+    subtype: PLANESWALKER
     identifiers:
       abuId: '1476823'
       cardKingdomId: '210377'
@@ -83,20 +139,51 @@ products:
       scgId: SLD-MTG-INT-AERPWDECK-EN-TEZZERET
       tcgplayerProductId: '125799'
       tntId: '1098351'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Tezzeret, Master of Metal
+        set: aer
+      sealed:
+      - count: 2
+        name: Aether Revolt Booster Pack
+        set: aer
   Aether Revolt Planeswalker Decks Set of 2:
     category: SUBSET
+    subtype: PLANESWALKER
     identifiers:
       abuId: '1476824'
       scgId: SLD-MTG-INT-AERPWDECK-EN-SET2
       tcgplayerProductId: '125800'
-    subtype: PLANESWALKER
+    contents:
+      sealed:
+      - count: 1
+        name: Aether Revolt Planeswalker Deck Ajani
+        set: aer
+      - count: 1
+        name: Aether Revolt Planeswalker Deck Tezzeret
+        set: aer
   Aether Revolt Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '1476825'
       cardKingdomId: '210972'
       cardtraderId: '48503'
       mcmId: '294545'
       tcgplayerProductId: '127203'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: Aether Revolt Prerelease Spindown
+      - name: Deck Box
+      pack:
+      - code: prerelease
+        set: aer
+      sealed:
+      - count: 4
+        name: Aether Revolt Booster Pack
+        set: aer
+      - count: 2
+        name: Kaladesh Booster Pack
+        set: kld

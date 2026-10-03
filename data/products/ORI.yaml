@@ -2,6 +2,8 @@ code: ori
 products:
   Magic Origins Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2015-06-03'
     identifiers:
       abuId: '1100851'
       cardKingdomId: '201580'
@@ -12,15 +14,25 @@ products:
       scgId: SLD-MTG-BBX-ORI-EN
       tcgplayerProductId: '96147'
       tntId: '1072354'
-    release_date: '2015-06-03'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Magic Origins Booster Pack
+        set: ori
   Magic Origins Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '100314'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Magic Origins Booster Box
+        set: ori
   Magic Origins Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2015-07-17'
     identifiers:
       abuId: '1476902'
       cardKingdomId: '201581'
@@ -31,10 +43,15 @@ products:
       scgId: SLD-MTG-PCK-ORI-EN
       tcgplayerProductId: '96148'
       tntId: '1072355'
-    release_date: '2015-07-17'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: ori
   Magic Origins Clash Pack:
     category: MULTI_DECK
+    subtype: CLASH
+    release_date: '2015-07-17'
     identifiers:
       abuId: '1100856'
       cardKingdomId: '201586'
@@ -44,10 +61,17 @@ products:
       scgId: SLD-MTG-INT-ORICLASH-EN
       tcgplayerProductId: '96150'
       tntId: '1074722'
-    release_date: '2015-07-17'
-    subtype: CLASH
+    contents:
+      card_count: 120
+      deck:
+      - name: Armed
+        set: ori
+      - name: Dangerous
+        set: ori
   Magic Origins Deck Builders Toolkit:
     category: KIT
+    subtype: DECK_BUILDERS_TOOLKIT
+    release_date: '2015-07-17'
     identifiers:
       abuId: '1100385'
       cardKingdomId: '201587'
@@ -56,10 +80,69 @@ products:
       scgId: SLD-MTG-INT-ORITOOLKIT-EN
       tcgplayerProductId: '100028'
       tntId: '1074721'
-    release_date: '2015-07-17'
-    subtype: DECK_BUILDERS_TOOLKIT
+    contents:
+      card_count: 225
+      deck:
+      - name: Fixed Content
+        set: ori
+      other:
+      - name: Magic Origins Deck Builder's Guide
+      - name: Magic "Learn to Play" Guide
+      - name: Full-art Reusable Storage Box
+      sealed:
+      - count: 1
+        name: Journey Into Nyx Booster Pack
+        set: jou
+      - count: 1
+        name: Fate Reforged Booster Pack
+        set: frf
+      - count: 1
+        name: Dragons of Tarkir Booster Pack
+        set: dtk
+      - count: 1
+        name: Magic Origins Booster Pack
+        set: ori
+      variable:
+      - deck:
+        - name: White Black Warriors
+          set: ori
+      - deck:
+        - name: White Black Auras
+          set: ori
+      - deck:
+        - name: White Blue Prowess
+          set: ori
+      - deck:
+        - name: Blue Red Artifacts
+          set: ori
+      - deck:
+        - name: Blue Red Counterburn
+          set: ori
+      - deck:
+        - name: Green Red Beatdown
+          set: ori
+      - deck:
+        - name: Red Burn
+          set: ori
+      - deck:
+        - name: Black Green Toughness
+          set: ori
+      - deck:
+        - name: White Green Aggro
+          set: ori
+      - deck:
+        - name: Blue Black Exploit
+          set: ori
+      - deck:
+        - name: Blue Green Secret Plans Morph
+          set: ori
+      variable_mode:
+        count: 4
+        replacement: false
   Magic Origins Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
+    release_date: '2015-07-17'
     identifiers:
       abuId: '1100857'
       cardKingdomId: '201582'
@@ -70,10 +153,22 @@ products:
       scgId: SLD-MTG-BUN-ORI-EN
       tcgplayerProductId: '96149'
       tntId: '1072356'
-    release_date: '2015-07-17'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Magic Origins Fat Pack Land Pack
+        set: ori
+      other:
+      - name: Magic Origins Player's Guide and Visual Encyclopedia
+      - name: Special Edition Life Counter
+      - name: Two Deck Boxes
+      sealed:
+      - count: 9
+        name: Magic Origins Booster Pack
+        set: ori
   Magic Origins Intro Pack Assemble Victory:
     category: DECK
+    subtype: INTRO
+    release_date: '2015-06-24'
     identifiers:
       abuId: '1107935'
       cardKingdomId: '201693'
@@ -82,10 +177,19 @@ products:
       scgId: SLD-MTG-INT-ORIINTRO-EN-ASSEMBLE
       tcgplayerProductId: '100026'
       tntId: '1074499'
-    release_date: '2015-06-24'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Assemble Victory
+        set: ori
+      sealed:
+      - count: 2
+        name: Magic Origins Booster Pack
+        set: ori
   Magic Origins Intro Pack Brave the Battle:
     category: DECK
+    subtype: INTRO
+    release_date: '2015-06-24'
     identifiers:
       abuId: '1100863'
       cardKingdomId: '201694'
@@ -94,10 +198,19 @@ products:
       scgId: SLD-MTG-INT-ORIINTRO-EN-BRAVE
       tcgplayerProductId: '100023'
       tntId: '1074496'
-    release_date: '2015-06-24'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Brave the Battle
+        set: ori
+      sealed:
+      - count: 2
+        name: Magic Origins Booster Pack
+        set: ori
   Magic Origins Intro Pack Demonic Deals:
     category: DECK
+    subtype: INTRO
+    release_date: '2015-06-24'
     identifiers:
       abuId: '1100864'
       cardKingdomId: '201690'
@@ -106,19 +219,45 @@ products:
       scgId: SLD-MTG-INT-ORIINTRO-EN-DEMONIC
       tcgplayerProductId: '100025'
       tntId: '1074498'
-    release_date: '2015-06-24'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Demonic Deals
+        set: ori
+      sealed:
+      - count: 2
+        name: Magic Origins Booster Pack
+        set: ori
   Magic Origins Intro Pack Display:
     category: DECK_BOX
+    subtype: INTRO
+    release_date: '2015-07-15'
     identifiers:
       cardtraderId: '48314'
       mcmId: '283769'
       tcgplayerProductId: '539266'
       tntId: '1072357'
-    release_date: '2015-07-15'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 2
+        name: Magic Origins Intro Pack Assemble Victory
+        set: ori
+      - count: 2
+        name: Magic Origins Intro Pack Brave the Battle
+        set: ori
+      - count: 2
+        name: Magic Origins Intro Pack Demonic Deals
+        set: ori
+      - count: 2
+        name: Magic Origins Intro Pack Hunting Pack
+        set: ori
+      - count: 2
+        name: Magic Origins Intro Pack Take to the Sky
+        set: ori
   Magic Origins Intro Pack Hunting Pack:
     category: DECK
+    subtype: INTRO
+    release_date: '2015-06-24'
     identifiers:
       abuId: '1100865'
       cardKingdomId: '201692'
@@ -127,10 +266,19 @@ products:
       scgId: SLD-MTG-INT-ORIINTRO-EN-HUNTING
       tcgplayerProductId: '100027'
       tntId: '1074500'
-    release_date: '2015-06-24'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Hunting Pack
+        set: ori
+      sealed:
+      - count: 2
+        name: Magic Origins Booster Pack
+        set: ori
   Magic Origins Intro Pack Take to the Sky:
     category: DECK
+    subtype: INTRO
+    release_date: '2015-06-24'
     identifiers:
       abuId: '1100866'
       cardKingdomId: '201691'
@@ -139,56 +287,116 @@ products:
       scgId: SLD-MTG-INT-ORIINTRO-EN-TAKE
       tcgplayerProductId: '100024'
       tntId: '1074497'
-    release_date: '2015-06-24'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Take to the Sky
+        set: ori
+      sealed:
+      - count: 2
+        name: Magic Origins Booster Pack
+        set: ori
   Magic Origins Intro Packs Set of 5:
     category: SUBSET
+    subtype: INTRO
+    release_date: '2015-07-15'
     identifiers:
       abuId: '1107936'
       cardtraderId: '48315'
       mcmId: '283768'
       scgId: SLD-MTG-INT-ORIINTRO-EN-SET5
       tcgplayerProductId: '101217'
-    release_date: '2015-07-15'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 1
+        name: Magic Origins Intro Pack Assemble Victory
+        set: ori
+      - count: 1
+        name: Magic Origins Intro Pack Brave the Battle
+        set: ori
+      - count: 1
+        name: Magic Origins Intro Pack Demonic Deals
+        set: ori
+      - count: 1
+        name: Magic Origins Intro Pack Hunting Pack
+        set: ori
+      - count: 1
+        name: Magic Origins Intro Pack Take to the Sky
+        set: ori
   Magic Origins Land Station:
     category: KIT
+    subtype: LAND_STATION
     identifiers:
       cardtraderId: '48295'
       tcgplayerProductId: '215048'
-    subtype: LAND_STATION
   Magic Origins MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210878'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 272
+      deck:
+      - name: Magic Origins Redemption
+        set: ori
   Magic Origins MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '211254'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 272
+      deck:
+      - name: Magic Origins Foil Redemption
+        set: ori
   Magic Origins Prerelease Kit Chandra:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2015-07-27'
     identifiers:
       cardKingdomId: '202231'
       cardtraderId: '48308'
       mcmId: '283816'
       tcgplayerProductId: '101222'
       tntId: '1096355'
-    release_date: '2015-07-27'
-    subtype: PRERELEASE
+    contents:
+      card_count: 7
+      other:
+      - name: Magic Origins Spindown
+      - name: Planeswalker Story Booklet
+      pack:
+      - code: prerelease-chandra
+        set: ori
+      sealed:
+      - count: 6
+        name: Magic Origins Booster Pack
+        set: ori
   Magic Origins Prerelease Kit Gideon:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2015-07-27'
     identifiers:
       cardKingdomId: '202230'
       cardtraderId: '48309'
       mcmId: '283817'
       tcgplayerProductId: '101218'
       tntId: '1096357'
-    release_date: '2015-07-27'
-    subtype: PRERELEASE
+    contents:
+      card_count: 7
+      other:
+      - name: Magic Origins Spindown
+      - name: Planeswalker Story Booklet
+      pack:
+      - code: prerelease-gideon
+        set: ori
+      sealed:
+      - count: 6
+        name: Magic Origins Booster Pack
+        set: ori
   Magic Origins Prerelease Kit Jace:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2015-07-27'
     identifiers:
       abuId: '1107933'
       cardKingdomId: '202232'
@@ -196,10 +404,21 @@ products:
       mcmId: '283814'
       tcgplayerProductId: '101219'
       tntId: '1096358'
-    release_date: '2015-07-27'
-    subtype: PRERELEASE
+    contents:
+      card_count: 7
+      other:
+      - name: Magic Origins Spindown
+      - name: Planeswalker Story Booklet
+      pack:
+      - code: prerelease-jace
+        set: ori
+      sealed:
+      - count: 6
+        name: Magic Origins Booster Pack
+        set: ori
   Magic Origins Prerelease Kit Liliana:
     category: LIMITED
+    subtype: PRERELEASE
     identifiers:
       abuId: '1527080'
       cardKingdomId: '202233'
@@ -207,9 +426,22 @@ products:
       mcmId: '283815'
       tcgplayerProductId: '101221'
       tntId: '1096354'
-    subtype: PRERELEASE
+    contents:
+      card_count: 7
+      other:
+      - name: Magic Origins Spindown
+      - name: Planeswalker Story Booklet
+      pack:
+      - code: prerelease-liliana
+        set: ori
+      sealed:
+      - count: 6
+        name: Magic Origins Booster Pack
+        set: ori
   Magic Origins Prerelease Kit Nissa:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2015-07-27'
     identifiers:
       abuId: '1527081'
       cardKingdomId: '202234'
@@ -217,40 +449,92 @@ products:
       mcmId: '283818'
       tcgplayerProductId: '101220'
       tntId: '1096356'
-    release_date: '2015-07-27'
-    subtype: PRERELEASE
+    contents:
+      card_count: 7
+      other:
+      - name: Magic Origins Spindown
+      - name: Planeswalker Story Booklet
+      pack:
+      - code: prerelease-nissa
+        set: ori
+      sealed:
+      - count: 6
+        name: Magic Origins Booster Pack
+        set: ori
   Magic Origins Prerelease Kit Set of 5:
     category: SUBSET
+    subtype: PRERELEASE
     identifiers:
       tcgplayerProductId: '101312'
-    subtype: PRERELEASE
+    contents:
+      sealed:
+      - count: 1
+        name: Magic Origins Prerelease Kit Chandra
+        set: ori
+      - count: 1
+        name: Magic Origins Prerelease Kit Gideon
+        set: ori
+      - count: 1
+        name: Magic Origins Prerelease Kit Jace
+        set: ori
+      - count: 1
+        name: Magic Origins Prerelease Kit Liliana
+        set: ori
+      - count: 1
+        name: Magic Origins Prerelease Kit Nissa
+        set: ori
   Magic Origins Sample Deck Chandra Nalaar:
     category: DECK
+    subtype: STARTER
     identifiers:
       cardtraderId: '48304'
       mcmId: '287560'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      deck:
+      - name: Red Deck
+        set: ori
   Magic Origins Sample Deck Gideon Jura:
     category: DECK
+    subtype: STARTER
     identifiers:
       cardtraderId: '48305'
       mcmId: '287561'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      deck:
+      - name: White Deck
+        set: ori
   Magic Origins Sample Deck Jace Beleren:
     category: DECK
+    subtype: STARTER
     identifiers:
       cardtraderId: '48306'
       mcmId: '287562'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      deck:
+      - name: Blue Deck
+        set: ori
   Magic Origins Sample Deck Liliana Vess:
     category: DECK
+    subtype: STARTER
     identifiers:
       cardtraderId: '48303'
       mcmId: '287563'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      deck:
+      - name: Black Deck
+        set: ori
   Magic Origins Sample Deck Nissa Revane:
     category: DECK
+    subtype: STARTER
     identifiers:
       cardtraderId: '48307'
       mcmId: '287564'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      deck:
+      - name: Green Deck
+        set: ori

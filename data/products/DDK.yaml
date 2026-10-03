@@ -2,6 +2,7 @@ code: ddk
 products:
   Duel Deck Sorin vs Tibalt:
     category: MULTI_DECK
+    subtype: DUEL
     identifiers:
       abuId: '1101166'
       cardKingdomId: '189413'
@@ -12,24 +13,46 @@ products:
       scgId: SLD-MTG-BXS-DDK-EN
       tcgplayerProductId: '67874'
       tntId: '803694'
-    subtype: DUEL
+    contents:
+      sealed:
+      - count: 1
+        name: Duel Deck Sorin vs Tibalt Sorin Deck
+        set: ddk
+      - count: 1
+        name: Duel Deck Sorin vs Tibalt Tibalt Deck
+        set: ddk
   Duel Deck Sorin vs Tibalt Display:
     category: DECK_BOX
+    subtype: DUEL
     identifiers:
       cardtraderId: '47929'
       mcmId: '260631'
       tcgplayerProductId: '689037'
       tntId: '803695'
-    subtype: DUEL
+    contents:
+      sealed:
+      - count: 6
+        name: Duel Deck Sorin vs Tibalt
+        set: ddk
   Duel Deck Sorin vs Tibalt Sorin Deck:
     category: DECK
+    subtype: DUEL
     identifiers:
       cardtraderId: '47927'
       mcmId: '261016'
-    subtype: DUEL
+    contents:
+      card_count: 60
+      deck:
+      - name: Sorin
+        set: ddk
   Duel Deck Sorin vs Tibalt Tibalt Deck:
     category: DECK
+    subtype: DUEL
     identifiers:
       cardtraderId: '47928'
       mcmId: '261017'
-    subtype: DUEL
+    contents:
+      card_count: 60
+      deck:
+      - name: Tibalt
+        set: ddk

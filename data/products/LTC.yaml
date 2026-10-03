@@ -2,6 +2,8 @@ code: ltc
 products:
   The Lord of the Rings Tales of Middle earth Commander Deck Elven Council:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2023-06-23'
     identifiers:
       abuId: '2341435'
       cardKingdomId: '277721'
@@ -12,10 +14,24 @@ products:
       scgId: SLD-MTG-MLT-LTC-EN-ELVEN
       tcgplayerProductId: '488295'
       tntId: '1774287'
-    release_date: '2023-06-23'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Elven Council
+        set: ltc
+      other:
+      - name: 10 Double Sided Tokens
+      - name: Tales of Middle Earth Life Wheel
+      - name: Helper card
+      sealed:
+      - count: 1
+        name: The Lord of the Rings Tales of Middle earth Collector Booster Sample
+          Pack
+        set: ltr
   The Lord of the Rings Tales of Middle earth Commander Deck Food and Fellowship:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2023-06-23'
     identifiers:
       abuId: '2341434'
       cardKingdomId: '277722'
@@ -26,10 +42,24 @@ products:
       scgId: SLD-MTG-MLT-LTC-EN-FOOD
       tcgplayerProductId: '488294'
       tntId: '1774286'
-    release_date: '2023-06-23'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Food and Fellowship
+        set: ltc
+      other:
+      - name: 10 Double Sided Tokens
+      - name: Tales of Middle Earth Life Wheel
+      - name: Helper card
+      sealed:
+      - count: 1
+        name: The Lord of the Rings Tales of Middle earth Collector Booster Sample
+          Pack
+        set: ltr
   The Lord of the Rings Tales of Middle earth Commander Deck Riders of Rohan:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2023-05-12'
     identifiers:
       abuId: '2341433'
       cardKingdomId: '277723'
@@ -40,10 +70,24 @@ products:
       scgId: SLD-MTG-MLT-LTC-EN-RIDERS
       tcgplayerProductId: '488296'
       tntId: '1774285'
-    release_date: '2023-05-12'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Riders of Rohan
+        set: ltc
+      other:
+      - name: 10 Double Sided Tokens
+      - name: Tales of Middle Earth Life Wheel
+      - name: Helper card
+      sealed:
+      - count: 1
+        name: The Lord of the Rings Tales of Middle earth Collector Booster Sample
+          Pack
+        set: ltr
   The Lord of the Rings Tales of Middle earth Commander Deck The Hosts of Mordor:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2023-05-12'
     identifiers:
       abuId: '2341436'
       cardKingdomId: '277724'
@@ -54,10 +98,24 @@ products:
       scgId: SLD-MTG-MLT-LTC-EN-HOSTS
       tcgplayerProductId: '488293'
       tntId: '1774288'
-    release_date: '2023-05-12'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: The Hosts of Mordor
+        set: ltc
+      other:
+      - name: 10 Double Sided Tokens
+      - name: Tales of Middle Earth Life Wheel
+      - name: Helper card
+      sealed:
+      - count: 1
+        name: The Lord of the Rings Tales of Middle earth Collector Booster Sample
+          Pack
+        set: ltr
   The Lord of the Rings Tales of Middle earth Commander Decks Set of 4:
     category: SUBSET
+    subtype: COMMANDER
+    release_date: '2023-06-23'
     identifiers:
       cardKingdomId: '277725'
       cardtraderId: '246484'
@@ -66,25 +124,143 @@ products:
       mcmId: '699944'
       scgId: SLD-MTG-MLT-LTC-EN-SET4
       tcgplayerProductId: '488297'
-    release_date: '2023-06-23'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: The Lord of the Rings Tales of Middle earth Commander Deck Elven Council
+        set: ltc
+      - count: 1
+        name: The Lord of the Rings Tales of Middle earth Commander Deck Food and
+          Fellowship
+        set: ltc
+      - count: 1
+        name: The Lord of the Rings Tales of Middle earth Commander Deck Riders of
+          Rohan
+        set: ltc
+      - count: 1
+        name: The Lord of the Rings Tales of Middle earth Commander Deck The Hosts
+          of Mordor
+        set: ltc
   The Lord of the Rings Tales of Middle earth Deluxe Commander Kit Elven Council Commander Bundle:
     category: SUBSET
-    identifiers: {}
-    release_date: '2024-10-24'
     subtype: COMMANDER
+    release_date: '2024-10-24'
+    identifiers: {}
+    contents:
+      card:
+      - foil: true
+        name: Frodo, Determined Hero
+        number: 1
+        set: pltc
+      - foil: true
+        name: Gandalf, White Rider
+        number: 2
+        set: pltc
+      - foil: true
+        name: Gollum, Scheming Guide
+        number: 3
+        set: pltc
+      - foil: true
+        name: The Balrog, Flame of Udûn
+        number: 4
+        set: pltc
+      sealed:
+      - count: 1
+        name: The Lord of the Rings Tales of Middle earth Commander Deck Elven Council
+        set: ltc
+      - count: 2
+        name: The Lord of the Rings Tales of Middle earth Set Booster Pack
+        set: ltr
   The Lord of the Rings Tales of Middle earth Deluxe Commander Kit Food and Fellowship Commander Bundle:
     category: SUBSET
-    identifiers: {}
-    release_date: '2024-10-24'
     subtype: COMMANDER
+    release_date: '2024-10-24'
+    identifiers: {}
+    contents:
+      card:
+      - foil: true
+        name: Frodo, Determined Hero
+        number: 1
+        set: pltc
+      - foil: true
+        name: Gandalf, White Rider
+        number: 2
+        set: pltc
+      - foil: true
+        name: Gollum, Scheming Guide
+        number: 3
+        set: pltc
+      - foil: true
+        name: The Balrog, Flame of Udûn
+        number: 4
+        set: pltc
+      sealed:
+      - count: 1
+        name: The Lord of the Rings Tales of Middle earth Commander Deck Food and
+          Fellowship
+        set: ltc
+      - count: 2
+        name: The Lord of the Rings Tales of Middle earth Set Booster Pack
+        set: ltr
   The Lord of the Rings Tales of Middle earth Deluxe Commander Kit Riders of Rohan Commander Bundle:
     category: SUBSET
-    identifiers: {}
-    release_date: '2024-10-24'
     subtype: COMMANDER
+    release_date: '2024-10-24'
+    identifiers: {}
+    contents:
+      card:
+      - foil: true
+        name: Frodo, Determined Hero
+        number: 1
+        set: pltc
+      - foil: true
+        name: Gandalf, White Rider
+        number: 2
+        set: pltc
+      - foil: true
+        name: Gollum, Scheming Guide
+        number: 3
+        set: pltc
+      - foil: true
+        name: The Balrog, Flame of Udûn
+        number: 4
+        set: pltc
+      sealed:
+      - count: 1
+        name: The Lord of the Rings Tales of Middle earth Commander Deck Riders of
+          Rohan
+        set: ltc
+      - count: 2
+        name: The Lord of the Rings Tales of Middle earth Set Booster Pack
+        set: ltr
   The Lord of the Rings Tales of Middle earth Deluxe Commander Kit The Hosts of Mordor Commander Bundle:
     category: SUBSET
-    identifiers: {}
-    release_date: '2024-10-24'
     subtype: COMMANDER
+    release_date: '2024-10-24'
+    identifiers: {}
+    contents:
+      card:
+      - foil: true
+        name: Frodo, Determined Hero
+        number: 1
+        set: pltc
+      - foil: true
+        name: Gandalf, White Rider
+        number: 2
+        set: pltc
+      - foil: true
+        name: Gollum, Scheming Guide
+        number: 3
+        set: pltc
+      - foil: true
+        name: The Balrog, Flame of Udûn
+        number: 4
+        set: pltc
+      sealed:
+      - count: 1
+        name: The Lord of the Rings Tales of Middle earth Commander Deck The Hosts
+          of Mordor
+        set: ltc
+      - count: 2
+        name: The Lord of the Rings Tales of Middle earth Set Booster Pack
+        set: ltr

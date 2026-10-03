@@ -2,6 +2,7 @@ code: psdc
 products:
   SDCC 2013 Black Planeswalkers Set:
     category: BOX_SET
+    subtype: CONVENTION
     identifiers:
       abuId: '2410190'
       cardKingdomId: '223227'
@@ -9,4 +10,8 @@ products:
       hareruyaId: '28015'
       scgId: SLD-MTG-BXS-SDCC2013-EN
       tcgplayerProductId: '70795'
-    subtype: CONVENTION
+    contents:
+      card_count: 5
+      deck:
+      - name: SDCC 2013 Planeswalker Set
+        set: psdc

@@ -2,6 +2,7 @@ code: ddn
 products:
   Duel Deck Speed vs Cunning:
     category: MULTI_DECK
+    subtype: DUEL
     identifiers:
       abuId: '1101160'
       cardKingdomId: '195557'
@@ -12,18 +13,40 @@ products:
       scgId: SLD-MTG-BXS-DDN-EN
       tcgplayerProductId: '91644'
       tntId: '1059180'
-    subtype: DUEL
+    contents:
+      sealed:
+      - count: 1
+        name: Duel Deck Speed vs Cunning Cunning Deck
+        set: ddn
+      - count: 1
+        name: Duel Deck Speed vs Cunning Speed Deck
+        set: ddn
   Duel Deck Speed vs Cunning Cunning Deck:
     category: DECK
-    identifiers: {}
     subtype: DUEL
+    identifiers: {}
+    contents:
+      card_count: 60
+      deck:
+      - name: Cunning
+        set: ddn
   Duel Deck Speed vs Cunning Display:
     category: DECK_BOX
+    subtype: DUEL
     identifiers:
       mcmId: '268662'
-    subtype: DUEL
+    contents:
+      sealed:
+      - count: 6
+        name: Duel Deck Speed vs Cunning
+        set: ddn
   Duel Deck Speed vs Cunning Speed Deck:
     category: DECK
+    subtype: DUEL
     identifiers:
       tntId: '1060116'
-    subtype: DUEL
+    contents:
+      card_count: 60
+      deck:
+      - name: Speed
+        set: ddn

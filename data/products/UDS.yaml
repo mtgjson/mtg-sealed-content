@@ -2,6 +2,7 @@ code: uds
 products:
   Urzas Destiny Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1100035'
       cardKingdomId: '1151'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-UDS-EN
       tcgplayerProductId: '27314'
       tntId: '90150'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Urzas Destiny Booster Pack
+        set: uds
   Urzas Destiny Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Urzas Destiny Booster Box
+        set: uds
   Urzas Destiny Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476958'
       cardKingdomId: '1152'
@@ -29,9 +40,14 @@ products:
       scgId: SLD-MTG-PCK-UDS-EN
       tcgplayerProductId: '27376'
       tntId: '90151'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: uds
   Urzas Destiny Theme Deck Assassin:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100295'
       cardKingdomId: '1153'
@@ -40,9 +56,14 @@ products:
       mcmId: '253769'
       tcgplayerProductId: '116058'
       tntId: '106950'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Assassin
+        set: uds
   Urzas Destiny Theme Deck Battle Surge:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100296'
       cardKingdomId: '1154'
@@ -51,17 +72,36 @@ products:
       mcmId: '253770'
       tcgplayerProductId: '116059'
       tntId: '106934'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Battle Surge
+        set: uds
   Urzas Destiny Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       abuId: '1476959'
       cardtraderId: '45493'
       mcmId: '210245'
       tntId: '90154'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 3
+        name: Urzas Destiny Theme Deck Assassin
+        set: uds
+      - count: 3
+        name: Urzas Destiny Theme Deck Battle Surge
+        set: uds
+      - count: 3
+        name: Urzas Destiny Theme Deck Enchanter
+        set: uds
+      - count: 3
+        name: Urzas Destiny Theme Deck Fiendish Nature
+        set: uds
   Urzas Destiny Theme Deck Enchanter:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100299'
       cardKingdomId: '1155'
@@ -70,9 +110,14 @@ products:
       mcmId: '253771'
       tcgplayerProductId: '116061'
       tntId: '106948'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Enchanter
+        set: uds
   Urzas Destiny Theme Deck Fiendish Nature:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100297'
       cardKingdomId: '1156'
@@ -82,10 +127,28 @@ products:
       mcmId: '253772'
       tcgplayerProductId: '116060'
       tntId: '106925'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Fiendish Nature
+        set: uds
   Urzas Destiny Theme Decks Set of 4:
     category: SUBSET
+    subtype: THEME
     identifiers:
       abuId: '1100298'
       cardKingdomId: '240233'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Urzas Destiny Theme Deck Assassin
+        set: uds
+      - count: 1
+        name: Urzas Destiny Theme Deck Battle Surge
+        set: uds
+      - count: 1
+        name: Urzas Destiny Theme Deck Enchanter
+        set: uds
+      - count: 1
+        name: Urzas Destiny Theme Deck Fiendish Nature
+        set: uds

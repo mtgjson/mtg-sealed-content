@@ -2,11 +2,18 @@ code: mh2
 products:
   Modern Horizons 2 3 Booster Draft Pack:
     category: LIMITED
+    subtype: DRAFT_SET
     identifiers:
       tcgplayerProductId: '243550'
-    subtype: DRAFT_SET
+    contents:
+      sealed:
+      - count: 3
+        name: Modern Horizons 2 Draft Booster Pack
+        set: mh2
   Modern Horizons 2 Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2021-06-18'
     identifiers:
       abuId: '2040141'
       cardKingdomId: '245995'
@@ -16,10 +23,26 @@ products:
       scgId: SLD-MTG-BUN-MH2-EN
       tcgplayerProductId: '238649'
       tntId: '1711981'
-    release_date: '2021-06-18'
-    subtype: DEFAULT
+    contents:
+      card:
+      - foil: true
+        name: Yusri, Fortune's Flame
+        number: 492
+        set: mh2
+      deck:
+      - name: Modern Horizons 2 Bundle Land Pack
+        set: mh2
+      other:
+      - name: Modern Horizons 2 Spindown
+      - name: Reusable Storage Box
+      sealed:
+      - count: 10
+        name: Modern Horizons 2 Draft Booster Pack
+        set: mh2
   Modern Horizons 2 Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2021-06-18'
     identifiers:
       abuId: '2040140'
       cardKingdomId: '245999'
@@ -29,20 +52,35 @@ products:
       scgId: SLD-MTG-BBX-MH2COLLECTOR-EN
       tcgplayerProductId: '236348'
       tntId: '1711979'
-    release_date: '2021-06-18'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Modern Horizons 2 Collector Booster Pack
+        set: mh2
   Modern Horizons 2 Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '249163'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Modern Horizons 2 Collector Booster Box
+        set: mh2
   Modern Horizons 2 Collector Booster Hanger Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '450139'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 1
+        name: Modern Horizons 2 Collector Booster Pack
+        set: mh2
   Modern Horizons 2 Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2021-06-18'
     identifiers:
       abuId: '2689101'
       cardKingdomId: '245996'
@@ -53,10 +91,15 @@ products:
       scgId: SLD-MTG-PCK-MH2COLLECTOR-EN
       tcgplayerProductId: '236349'
       tntId: '1711980'
-    release_date: '2021-06-18'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: mh2
   Modern Horizons 2 Draft Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2021-06-18'
     identifiers:
       abuId: '2040139'
       cardKingdomId: '246000'
@@ -67,16 +110,26 @@ products:
       scgId: SLD-MTG-BBX-MH2DRAFT-EN
       tcgplayerProductId: '236354'
       tntId: '1711975'
-    release_date: '2021-06-18'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Modern Horizons 2 Draft Booster Pack
+        set: mh2
   Modern Horizons 2 Draft Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2021-06-18'
     identifiers:
       tcgplayerProductId: '236355'
-    release_date: '2021-06-18'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Modern Horizons 2 Draft Booster Box
+        set: mh2
   Modern Horizons 2 Draft Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2021-06-18'
     identifiers:
       abuId: '2689100'
       cardKingdomId: '245997'
@@ -87,20 +140,38 @@ products:
       scgId: SLD-MTG-PCK-MH2DRAFT-EN
       tcgplayerProductId: '236356'
       tntId: '1711976'
-    release_date: '2021-06-18'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: mh2
   Modern Horizons 2 Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2021-06-08'
     identifiers:
       abuId: '2031252'
       cardKingdomId: '246002'
       cardtraderId: '155605'
       mcmId: '567808'
       tcgplayerProductId: '238648'
-    release_date: '2021-06-08'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: 5 Non-foil double-sided tokens
+      - name: Deck box
+      - name: Modern Horizons 2 Spindown
+      pack:
+      - code: prerelease
+        set: mh2
+      sealed:
+      - count: 6
+        name: Modern Horizons 2 Draft Booster Pack
+        set: mh2
   Modern Horizons 2 Set Booster Box:
     category: BOOSTER_BOX
+    subtype: SET
+    release_date: '2021-06-18'
     identifiers:
       abuId: '2031251'
       cardKingdomId: '246001'
@@ -111,21 +182,36 @@ products:
       scgId: SLD-MTG-BBX-MH2SET-EN
       tcgplayerProductId: '236353'
       tntId: '1711977'
-    release_date: '2021-06-18'
-    subtype: SET
+    contents:
+      sealed:
+      - count: 30
+        name: Modern Horizons 2 Set Booster Pack
+        set: mh2
   Modern Horizons 2 Set Booster Box Case:
     category: BOOSTER_CASE
+    subtype: SET
     identifiers:
       tcgplayerProductId: '250493'
-    subtype: SET
+    contents:
+      sealed:
+      - count: 6
+        name: Modern Horizons 2 Set Booster Box
+        set: mh2
   Modern Horizons 2 Set Booster Hanger Pack:
     category: BOOSTER_PACK
+    subtype: SET
     identifiers:
       tcgplayerProductId: '450089'
       tntId: '1740502'
-    subtype: SET
+    contents:
+      sealed:
+      - count: 1
+        name: Modern Horizons 2 Set Booster Pack
+        set: mh2
   Modern Horizons 2 Set Booster Pack:
     category: BOOSTER_PACK
+    subtype: SET
+    release_date: '2021-06-18'
     identifiers:
       abuId: '2689102'
       cardKingdomId: '245998'
@@ -136,5 +222,8 @@ products:
       scgId: SLD-MTG-PCK-MH2SET-EN
       tcgplayerProductId: '236351'
       tntId: '1711978'
-    release_date: '2021-06-18'
-    subtype: SET
+    contents:
+      card_count: 12
+      pack:
+      - code: set
+        set: mh2

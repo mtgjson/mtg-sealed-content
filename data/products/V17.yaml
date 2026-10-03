@@ -2,6 +2,8 @@ code: v17
 products:
   From the Vault Transform:
     category: BOX_SET
+    subtype: FROM_THE_VAULT
+    release_date: '2017-11-24'
     identifiers:
       abuId: '1486637'
       cardKingdomId: '215210'
@@ -12,5 +14,8 @@ products:
       scgId: SLD-MTG-BXS-V17-EN
       tcgplayerProductId: '147007'
       tntId: '1447974'
-    release_date: '2017-11-24'
-    subtype: FROM_THE_VAULT
+    contents:
+      card_count: 15
+      deck:
+      - name: 'From the Vault: Transform'
+        set: v17

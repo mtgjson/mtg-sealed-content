@@ -2,22 +2,38 @@ code: m14
 products:
   2014 Core Set Booster Battle Pack:
     category: MULTI_DECK
+    subtype: BATTLE
     identifiers:
       abuId: '1100790'
       cardtraderId: '47987'
       mcmId: '264068'
       tcgplayerProductId: '78289'
       tntId: '1074177'
-    subtype: BATTLE
+    contents:
+      card_count: 60
+      other:
+      - name: Two 22-card semi-randomized decks
+      - name: Learn to play guide
+      - name: Rules insert
+      sealed:
+      - count: 2
+        name: 2014 Core Set Booster Pack
+        set: m14
   2014 Core Set Booster Battle Pack Display:
     category: DECK_BOX
+    subtype: BATTLE
     identifiers:
       cardtraderId: '47999'
       mcmId: '264069'
       tcgplayerProductId: '485828'
-    subtype: BATTLE
+    contents:
+      sealed:
+      - count: 12
+        name: 2014 Core Set Booster Battle Pack
+        set: m14
   2014 Core Set Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1100794'
       cardKingdomId: '190469'
@@ -28,14 +44,24 @@ products:
       scgId: SLD-MTG-BBX-M14-EN
       tcgplayerProductId: '69243'
       tntId: '1026663'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: 2014 Core Set Booster Pack
+        set: m14
   2014 Core Set Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '69244'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: 2014 Core Set Booster Box
+        set: m14
   2014 Core Set Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476900'
       cardKingdomId: '190470'
@@ -45,9 +71,14 @@ products:
       mcmId: '262402'
       scgId: SLD-MTG-PCK-M14-EN
       tcgplayerProductId: '69245'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: m14
   2014 Core Set Deck Builders Toolkit:
     category: KIT
+    subtype: DECK_BUILDERS_TOOLKIT
     identifiers:
       abuId: '1100369'
       cardKingdomId: '131147'
@@ -56,9 +87,68 @@ products:
       scgId: SLD-MTG-INT-M14TOOLKIT-EN
       tcgplayerProductId: '92502'
       tntId: '1032802'
-    subtype: DECK_BUILDERS_TOOLKIT
+    contents:
+      card_count: 225
+      deck:
+      - name: Fixed Content
+        set: m14
+      other:
+      - name: Magic 2014 Deck Builder's Guide
+      - name: Magic "Learn to Play" Guide
+      - name: Full-art Reusable Storage Box
+      sealed:
+      - count: 1
+        name: 2014 Core Set Booster Pack
+        set: m14
+      - count: 1
+        name: 2013 Core Set Booster Pack
+        set: m13
+      - count: 1
+        name: Return to Ravnica Booster Pack
+        set: rtr
+      - count: 1
+        name: Gatecrash Booster Pack
+        set: gtc
+      variable:
+      - deck:
+        - name: Life Gain
+          set: m14
+      - deck:
+        - name: Counterburn
+          set: m14
+      - deck:
+        - name: Slivers
+          set: m14
+      - deck:
+        - name: Sacrifice
+          set: m14
+      - deck:
+        - name: Library Depletion
+          set: m14
+      - deck:
+        - name: Red-Green Aggression
+          set: m14
+      - deck:
+        - name: Skies
+          set: m14
+      - deck:
+        - name: Tokens
+          set: m14
+      - deck:
+        - name: Red-White Swarm
+          set: m14
+      - deck:
+        - name: Mana Ramp
+          set: m14
+      - deck:
+        - name: Black Control
+          set: m14
+      variable_mode:
+        count: 4
+        replacement: false
   2014 Core Set Event Deck Rush of the Wild:
     category: DECK
+    subtype: EVENT
     identifiers:
       abuId: '1100796'
       cardKingdomId: '191053'
@@ -68,9 +158,14 @@ products:
       scgId: SLD-MTG-INT-M14EVENT-EN-RUSH
       tcgplayerProductId: '92501'
       tntId: '1033073'
-    subtype: EVENT
+    contents:
+      card_count: 75
+      deck:
+      - name: Rush of the Wild
+        set: m14
   2014 Core Set Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1100797'
       cardKingdomId: '190471'
@@ -81,9 +176,22 @@ products:
       scgId: SLD-MTG-BUN-M14-EN
       tcgplayerProductId: '69247'
       tntId: '1026669'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Magic 2014 Fat Pack Land Pack
+        set: m14
+      other:
+      - name: Magic 2014 Player's Guide
+      - name: Magic 2014 Card Box
+      - name: Special edition spindown life counter
+      - name: Two deck boxes
+      sealed:
+      - count: 9
+        name: 2014 Core Set Booster Pack
+        set: m14
   2014 Core Set Intro Pack Bestial Strength:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100799'
       cardKingdomId: '190587'
@@ -93,9 +201,18 @@ products:
       scgId: SLD-MTG-INT-M14INTRO-EN-BESTIAL
       tcgplayerProductId: '70075'
       tntId: '1028755'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Bestial Strength
+        set: m14
+      sealed:
+      - count: 2
+        name: 2014 Core Set Booster Pack
+        set: m14
   2014 Core Set Intro Pack Death Reaper:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100800'
       cardKingdomId: '190585'
@@ -105,15 +222,41 @@ products:
       scgId: SLD-MTG-INT-M14INTRO-EN-DEATH
       tcgplayerProductId: '70078'
       tntId: '1028757'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Death Reaper
+        set: m14
+      sealed:
+      - count: 2
+        name: 2014 Core Set Booster Pack
+        set: m14
   2014 Core Set Intro Pack Display:
     category: DECK_BOX
+    subtype: INTRO
     identifiers:
       cardtraderId: '48000'
       mcmId: '263030'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 2
+        name: 2014 Core Set Intro Pack Bestial Strength
+        set: m14
+      - count: 2
+        name: 2014 Core Set Intro Pack Death Reaper
+        set: m14
+      - count: 2
+        name: 2014 Core Set Intro Pack Fire Surge
+        set: m14
+      - count: 2
+        name: 2014 Core Set Intro Pack Lightforce
+        set: m14
+      - count: 2
+        name: 2014 Core Set Intro Pack Psychic Labyrinth
+        set: m14
   2014 Core Set Intro Pack Fire Surge:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100801'
       cardKingdomId: '190588'
@@ -123,9 +266,18 @@ products:
       scgId: SLD-MTG-INT-M14INTRO-EN-FIRE
       tcgplayerProductId: '70079'
       tntId: '1028754'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Fire Surge
+        set: m14
+      sealed:
+      - count: 2
+        name: 2014 Core Set Booster Pack
+        set: m14
   2014 Core Set Intro Pack Lightforce:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100802'
       cardKingdomId: '190589'
@@ -135,9 +287,18 @@ products:
       scgId: SLD-MTG-INT-M14INTRO-EN-LIGHTFORCE
       tcgplayerProductId: '70076'
       tntId: '1028753'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Lightforce
+        set: m14
+      sealed:
+      - count: 2
+        name: 2014 Core Set Booster Pack
+        set: m14
   2014 Core Set Intro Pack Psychic Labyrinth:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1100803'
       cardKingdomId: '190586'
@@ -147,67 +308,132 @@ products:
       scgId: SLD-MTG-INT-M14INTRO-EN-PSYCHIC
       tcgplayerProductId: '70077'
       tntId: '1028756'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Psychic Labyrinth
+        set: m14
+      sealed:
+      - count: 2
+        name: 2014 Core Set Booster Pack
+        set: m14
   2014 Core Set Intro Packs Set of 5:
     category: SUBSET
+    subtype: INTRO
     identifiers:
       abuId: '1100804'
       cardtraderId: '48001'
       mcmId: '263031'
       tcgplayerProductId: '190866'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 1
+        name: 2014 Core Set Intro Pack Bestial Strength
+        set: m14
+      - count: 1
+        name: 2014 Core Set Intro Pack Death Reaper
+        set: m14
+      - count: 1
+        name: 2014 Core Set Intro Pack Fire Surge
+        set: m14
+      - count: 1
+        name: 2014 Core Set Intro Pack Lightforce
+        set: m14
+      - count: 1
+        name: 2014 Core Set Intro Pack Psychic Labyrinth
+        set: m14
   2014 Core Set Land Station:
     category: KIT
+    subtype: LAND_STATION
     identifiers:
       abuId: '1100807'
       tcgplayerProductId: '215047'
-    subtype: LAND_STATION
   2014 Core Set MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210851'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 249
+      deck:
+      - name: Magic 2014 Redemption
+        set: m14
   2014 Core Set MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210867'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 249
+      deck:
+      - name: Magic 2014 Foil Redemption
+        set: m14
   2014 Core Set Sample Deck Ajani Goldmane:
     category: DECK
+    subtype: STARTER
     identifiers:
       cardtraderId: '47993'
       mcmId: '264366'
       tntId: '1704511'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      deck:
+      - name: White Deck
+        set: m14
   2014 Core Set Sample Deck Chandra Nalaar:
     category: DECK
+    subtype: STARTER
     identifiers:
       cardtraderId: '47994'
       mcmId: '264365'
       tntId: '1704509'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      deck:
+      - name: Red Deck
+        set: m14
   2014 Core Set Sample Deck Garruk Wildspeaker:
     category: DECK
+    subtype: STARTER
     identifiers:
       cardtraderId: '47995'
       mcmId: '264363'
       tntId: '1704510'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      deck:
+      - name: Green Deck
+        set: m14
   2014 Core Set Sample Deck Jace Beleren:
     category: DECK
+    subtype: STARTER
     identifiers:
       cardtraderId: '47996'
       mcmId: '264362'
       tntId: '1704512'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      deck:
+      - name: Blue Deck
+        set: m14
   2014 Core Set Sample Deck Liliana Vess:
     category: DECK
+    subtype: STARTER
     identifiers:
       cardtraderId: '47997'
       mcmId: '264364'
       tntId: '1704513'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      deck:
+      - name: Black Deck
+        set: m14
   2014 Core Set Six Card Booster Pack:
     category: BOOSTER_PACK
-    identifiers: {}
     subtype: SIX
+    identifiers: {}
+    contents:
+      card_count: 6
+      pack:
+      - code: six
+        set: m14

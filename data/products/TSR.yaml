@@ -2,12 +2,19 @@ code: tsr
 products:
   Time Spiral Remastered 3 Booster Draft Pack:
     category: LIMITED
+    subtype: DRAFT_SET
+    release_date: '2021-03-19'
     identifiers:
       tcgplayerProductId: '233766'
-    release_date: '2021-03-19'
-    subtype: DRAFT_SET
+    contents:
+      sealed:
+      - count: 3
+        name: Time Spiral Remastered Draft Booster Pack
+        set: tsr
   Time Spiral Remastered Draft Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2021-03-19'
     identifiers:
       abuId: '1993446'
       cardKingdomId: '241916'
@@ -18,16 +25,26 @@ products:
       scgId: SLD-MTG-BBX-TSRDRAFT-EN
       tcgplayerProductId: '230384'
       tntId: '1692841'
-    release_date: '2021-03-19'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Time Spiral Remastered Draft Booster Pack
+        set: tsr
   Time Spiral Remastered Draft Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2021-03-19'
     identifiers:
       tcgplayerProductId: '230385'
-    release_date: '2021-03-19'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Time Spiral Remastered Draft Booster Box
+        set: tsr
   Time Spiral Remastered Draft Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2021-03-19'
     identifiers:
       abuId: '2688336'
       cardKingdomId: '241917'
@@ -38,5 +55,8 @@ products:
       scgId: SLD-MTG-PCK-TSRDRAFT-EN
       tcgplayerProductId: '230383'
       tntId: '1692842'
-    release_date: '2021-03-19'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: tsr

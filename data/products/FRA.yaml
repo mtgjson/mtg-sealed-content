@@ -2,6 +2,8 @@ code: fra
 products:
   Reality Fracture Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2026-10-02'
     identifiers:
       cardKingdomId: '331475'
       cardtraderId: '389394'
@@ -9,17 +11,35 @@ products:
       miniaturemarketId: 019df9afe9eb71578c01c6404edbc447
       scgId: SLD-MTG-BUN-FRA-EN
       tcgplayerProductId: '692985'
-    release_date: '2026-10-02'
-    subtype: DEFAULT
+    contents:
+      card_count: 1
+      deck:
+      - name: Reality Fracture Bundle Land Pack
+        set: fra
+      other:
+      - name: 2 Reference cards
+      - name: 1 Spindown die
+      - name: 1 Card-storage box
+      sealed:
+      - count: 9
+        name: Reality Fracture Play Booster Pack
+        set: fra
   Reality Fracture Bundle Case:
     category: BUNDLE_CASE
+    subtype: DEFAULT
+    release_date: '2026-10-02'
     identifiers:
       cardtraderId: '405217'
       tcgplayerProductId: '692986'
-    release_date: '2026-10-02'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 6
+        name: Reality Fracture Bundle
+        set: fra
   Reality Fracture Collector Booster Box:
     category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2026-10-02'
     identifiers:
       cardKingdomId: '331477'
       cardtraderId: '389391'
@@ -27,26 +47,41 @@ products:
       miniaturemarketId: 019df9afc7f07014a26f352ff147be67
       scgId: SLD-MTG-BBX-FRACOLLECTOR-EN
       tcgplayerProductId: '692983'
-    release_date: '2026-10-02'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 12
+        name: Reality Fracture Collector Booster Pack
+        set: fra
   Reality Fracture Collector Booster Box Case:
     category: BOOSTER_CASE
+    subtype: COLLECTOR
+    release_date: '2026-10-02'
     identifiers:
       tcgplayerProductId: '692984'
-    release_date: '2026-10-02'
-    subtype: COLLECTOR
+    contents:
+      sealed:
+      - count: 6
+        name: Reality Fracture Collector Booster Box
+        set: fra
   Reality Fracture Collector Booster Pack:
     category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2026-10-02'
     identifiers:
       cardKingdomId: '331482'
       cardtraderId: '389393'
       mcmId: '885561'
       scgId: SLD-MTG-PCK-FRACOLLECTOR-EN
       tcgplayerProductId: '692982'
-    release_date: '2026-10-02'
-    subtype: COLLECTOR
+    contents:
+      card_count: 15
+      pack:
+      - code: collector
+        set: fra
   Reality Fracture Draft Night:
     category: LIMITED
+    subtype: DRAFT
+    release_date: '2026-10-02'
     identifiers:
       cardKingdomId: '331476'
       cardtraderId: '389397'
@@ -54,16 +89,33 @@ products:
       miniaturemarketId: 019df9b0030c7360aa66ce5dec173407
       scgId: SLD-MTG-DFT-FRA-EN
       tcgplayerProductId: '692987'
-    release_date: '2026-10-02'
-    subtype: DRAFT
+    contents:
+      other:
+      - name: 90 Non-foil basic lands
+      - name: 10 Non-foil double-sided tokens
+      - name: 1 Draft insert
+      sealed:
+      - count: 12
+        name: Reality Fracture Play Booster Pack
+        set: fra
+      - count: 1
+        name: Reality Fracture Collector Booster Pack
+        set: fra
   Reality Fracture Draft Night Case:
     category: LIMITED_CASE
+    subtype: DRAFT
+    release_date: '2026-10-02'
     identifiers:
       tcgplayerProductId: '692988'
-    release_date: '2026-10-02'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Reality Fracture Draft Night
+        set: fra
   Reality Fracture Play Booster Box:
     category: BOOSTER_BOX
+    subtype: PLAY
+    release_date: '2026-10-02'
     identifiers:
       cardKingdomId: '331479'
       cardtraderId: '389390'
@@ -71,17 +123,27 @@ products:
       miniaturemarketId: 019df9afa7627321b6f0e2057fe2ecf6
       scgId: SLD-MTG-BBX-FRAPLAY-EN
       tcgplayerProductId: '692980'
-    release_date: '2026-10-02'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 30
+        name: Reality Fracture Play Booster Pack
+        set: fra
   Reality Fracture Play Booster Box Case:
     category: BOOSTER_CASE
+    subtype: PLAY
+    release_date: '2026-10-02'
     identifiers:
       scgId: SLD-MTG-BBX-FRAPLAYCASE-EN
       tcgplayerProductId: '692981'
-    release_date: '2026-10-02'
-    subtype: PLAY
+    contents:
+      sealed:
+      - count: 6
+        name: Reality Fracture Play Booster Box
+        set: fra
   Reality Fracture Play Booster Pack:
     category: BOOSTER_PACK
+    subtype: PLAY
+    release_date: '2026-10-02'
     identifiers:
       cardKingdomId: '331478'
       cardtraderId: '389392'
@@ -89,36 +151,77 @@ products:
       miniaturemarketId: 019df9afb912704a936e2951d2e54b6f
       scgId: SLD-MTG-PCK-FRAPLAY-EN
       tcgplayerProductId: '692979'
-    release_date: '2026-10-02'
-    subtype: PLAY
+    contents:
+      card_count: 14
+      pack:
+      - code: play
+        set: fra
   Reality Fracture Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2026-09-25'
     identifiers:
       cardtraderId: '389396'
       mcmId: '885567'
       miniaturemarketId: 019df9b00f2f7261b2421f95322e6485
       scgId: SLD-MTG-PRE-FRA-EN
       tcgplayerProductId: '692977'
-    release_date: '2026-09-25'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: Deck box
+      - name: Spindown die
+      pack:
+      - code: prerelease
+        set: fra
+      sealed:
+      - count: 6
+        name: Reality Fracture Play Booster Pack
+        set: fra
   Reality Fracture Prerelease Pack Case:
     category: LIMITED_CASE
+    subtype: PRERELEASE
+    release_date: '2026-09-25'
     identifiers:
       tcgplayerProductId: '692978'
-    release_date: '2026-09-25'
-    subtype: PRERELEASE
+    contents:
+      sealed:
+      - count: 15
+        name: Reality Fracture Prerelease Pack
+        set: fra
   Reality Fracture Secret Lair Bundle:
     category: BUNDLE
+    subtype: GIFT_BUNDLE
+    release_date: '2026-10-02'
     identifiers:
       cardtraderId: '389395'
       mcmId: '885566'
       scgId: SLD-MTG-BUN-FRASECRET-EN
       tcgplayerProductId: '692991'
-    release_date: '2026-10-02'
-    subtype: GIFT_BUNDLE
+    contents:
+      card_count: 2
+      deck:
+      - name: Reality Fracture Secret Lair Bundle Land Pack
+        set: fra
+      other:
+      - name: 2 Reference cards
+      - name: 1 Spindown die
+      - name: 1 Card-storage box
+      sealed:
+      - count: 6
+        name: Reality Fracture Play Booster Pack
+        set: fra
+      - count: 2
+        name: Reality Fracture Collector Booster Pack
+        set: fra
   Reality Fracture Secret Lair Bundle Case:
     category: BUNDLE_CASE
+    subtype: GIFT_BUNDLE
+    release_date: '2026-10-02'
     identifiers:
       tcgplayerProductId: '692992'
-    release_date: '2026-10-02'
-    subtype: GIFT_BUNDLE
+    contents:
+      sealed:
+      - count: 6
+        name: Reality Fracture Secret Lair Bundle
+        set: fra

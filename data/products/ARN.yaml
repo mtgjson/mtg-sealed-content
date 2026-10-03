@@ -2,6 +2,7 @@ code: arn
 products:
   Arabian Nights Booster Box:
     category: BOOSTER_BOX
+    subtype: DEFAULT
     identifiers:
       abuId: '1107763'
       cardKingdomId: '228579'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-ARN-EN
       tcgplayerProductId: '27265'
       tntId: '79657'
-    subtype: DEFAULT
+    contents:
+      sealed:
+      - count: 60
+        name: Arabian Nights Booster Pack
+        set: arn
   Arabian Nights Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DEFAULT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Arabian Nights Booster Box
+        set: arn
   Arabian Nights Booster Pack:
     category: BOOSTER_PACK
+    subtype: DEFAULT
     identifiers:
       abuId: '1476849'
       cardKingdomId: '202190'
@@ -29,4 +40,8 @@ products:
       scgId: SLD-MTG-PCK-ARN-EN
       tcgplayerProductId: '27327'
       tntId: '79658'
-    subtype: DEFAULT
+    contents:
+      card_count: 8
+      pack:
+      - code: default
+        set: arn

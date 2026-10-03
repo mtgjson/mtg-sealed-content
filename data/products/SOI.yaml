@@ -2,6 +2,8 @@ code: soi
 products:
   Shadows over Innistrad Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2016-04-08'
     identifiers:
       abuId: '1101118'
       cardKingdomId: '205527'
@@ -12,17 +14,27 @@ products:
       scgId: SLD-MTG-BBX-SOI-EN
       tcgplayerProductId: '112706'
       tntId: '1090750'
-    release_date: '2016-04-08'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Shadows over Innistrad Booster Pack
+        set: soi
   Shadows over Innistrad Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2016-04-08'
     identifiers:
       tcgplayerProductId: '112705'
       tntId: '1090749'
-    release_date: '2016-04-08'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Shadows over Innistrad Booster Box
+        set: soi
   Shadows over Innistrad Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2016-04-08'
     identifiers:
       abuId: '1527127'
       cardKingdomId: '205528'
@@ -33,10 +45,15 @@ products:
       scgId: SLD-MTG-PCK-SOI-EN
       tcgplayerProductId: '112708'
       tntId: '1090751'
-    release_date: '2016-04-08'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: soi
   Shadows over Innistrad Deck Builders Toolkit:
     category: KIT
+    subtype: DECK_BUILDERS_TOOLKIT
+    release_date: '2016-04-08'
     identifiers:
       abuId: '1100386'
       cardKingdomId: '205531'
@@ -45,10 +62,63 @@ products:
       scgId: SLD-MTG-INT-SOITOOLKIT-EN
       tcgplayerProductId: '112725'
       tntId: '1090754'
-    release_date: '2016-04-08'
-    subtype: DECK_BUILDERS_TOOLKIT
+    contents:
+      card_count: 225
+      deck:
+      - name: Fixed Content
+        set: soi
+      other:
+      - name: Shadows over Innistrad Deck Builder's Guide
+      - name: Magic "Learn to Play" Guide
+      - name: Full-art Reusable Storage Box
+      sealed:
+      - count: 2
+        name: Shadows over Innistrad Booster Pack
+        set: soi
+      - count: 2
+        name: Battle for Zendikar Booster Pack
+        set: bfz
+      variable:
+      - deck:
+        - name: White and Colorless Equipment
+          set: soi
+      - deck:
+        - name: White and Blue Fliers Control
+          set: soi
+      - deck:
+        - name: White and Black Life gain
+          set: soi
+      - deck:
+        - name: White and Green counters
+          set: soi
+      - deck:
+        - name: Blue and Black Control
+          set: soi
+      - deck:
+        - name: Blue and Red Instants and Sorceries
+          set: soi
+      - deck:
+        - name: Blue and Green Creature control
+          set: soi
+      - deck:
+        - name: Black and Red Attrition
+          set: soi
+      - deck:
+        - name: Black and Green Graveyard
+          set: soi
+      - deck:
+        - name: Red and Colorless RampLandfall
+          set: soi
+      - deck:
+        - name: Red and Green Landfall
+          set: soi
+      variable_mode:
+        count: 4
+        replacement: false
   Shadows over Innistrad Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
+    release_date: '2016-04-08'
     identifiers:
       abuId: '1101150'
       cardKingdomId: '205530'
@@ -59,10 +129,22 @@ products:
       scgId: SLD-MTG-BUN-SOI-EN
       tcgplayerProductId: '112723'
       tntId: '1090752'
-    release_date: '2016-04-08'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Shadows over Innistrad Fat Pack Land Pack
+        set: soi
+      other:
+      - name: Shadows over Innistrad Player's Guide
+      - name: Shadows over Innistrad Card Box
+      - name: Shadows over Innistrad Spindown
+      sealed:
+      - count: 9
+        name: Shadows over Innistrad Booster Pack
+        set: soi
   Shadows over Innistrad Gift Box:
     category: BUNDLE
+    subtype: GIFT_BUNDLE
+    release_date: '2016-03-21'
     identifiers:
       abuId: '1101195'
       cardKingdomId: '206525'
@@ -72,10 +154,27 @@ products:
       scgId: SLD-MTG-BXS-SOIGIFT-EN
       tcgplayerProductId: '118345'
       tntId: '1091006'
-    release_date: '2016-03-21'
-    subtype: GIFT_BUNDLE
+    contents:
+      card:
+      - foil: true
+        name: Ravenous Bloodseeker
+        number: 175
+        set: psoi
+      card_count: 1
+      deck:
+      - name: Shadows over Innistrad Gift Box Land Pack
+        set: soi
+      other:
+      - name: Dividers
+      - name: Stickers
+      sealed:
+      - count: 5
+        name: Shadows over Innistrad Booster Pack
+        set: soi
   Shadows over Innistrad Intro Pack Angelic Fury:
     category: DECK
+    subtype: INTRO
+    release_date: '2016-03-15'
     identifiers:
       abuId: '1101151'
       cardKingdomId: '227626'
@@ -83,18 +182,44 @@ products:
       mcmId: '288894'
       tcgplayerProductId: '112959'
       tntId: '1092934'
-    release_date: '2016-03-15'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Angelic Fury
+        set: soi
+      sealed:
+      - count: 2
+        name: Shadows over Innistrad Booster Pack
+        set: soi
   Shadows over Innistrad Intro Pack Display:
     category: DECK_BOX
+    subtype: INTRO
+    release_date: '2016-03-15'
     identifiers:
       cardtraderId: '48410'
       mcmId: '288899'
       tntId: '1092999'
-    release_date: '2016-03-15'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 2
+        name: Shadows over Innistrad Intro Pack Angelic Fury
+        set: soi
+      - count: 2
+        name: Shadows over Innistrad Intro Pack Ghostly Tide
+        set: soi
+      - count: 2
+        name: Shadows over Innistrad Intro Pack Horrific Visions
+        set: soi
+      - count: 2
+        name: Shadows over Innistrad Intro Pack Unearthed Secrets
+        set: soi
+      - count: 2
+        name: Shadows over Innistrad Intro Pack Vampiric Thirst
+        set: soi
   Shadows over Innistrad Intro Pack Ghostly Tide:
     category: DECK
+    subtype: INTRO
+    release_date: '2016-03-15'
     identifiers:
       abuId: '1101152'
       cardKingdomId: '227623'
@@ -102,10 +227,19 @@ products:
       mcmId: '288893'
       tcgplayerProductId: '112960'
       tntId: '1092931'
-    release_date: '2016-03-15'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Ghostly Tide
+        set: soi
+      sealed:
+      - count: 2
+        name: Shadows over Innistrad Booster Pack
+        set: soi
   Shadows over Innistrad Intro Pack Horrific Visions:
     category: DECK
+    subtype: INTRO
+    release_date: '2016-03-15'
     identifiers:
       abuId: '1101153'
       cardKingdomId: '227627'
@@ -113,20 +247,46 @@ products:
       mcmId: '288895'
       tcgplayerProductId: '112958'
       tntId: '1092935'
-    release_date: '2016-03-15'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Horrific Visions
+        set: soi
+      sealed:
+      - count: 2
+        name: Shadows over Innistrad Booster Pack
+        set: soi
   Shadows over Innistrad Intro Pack Set of 5:
     category: SUBSET
+    subtype: INTRO
+    release_date: '2016-03-15'
     identifiers:
       abuId: '1101155'
       cardtraderId: '48411'
       mcmId: '288898'
       scgId: SLD-MTG-INT-SOIINTRO-EN
       tcgplayerProductId: '112961'
-    release_date: '2016-03-15'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 1
+        name: Shadows over Innistrad Intro Pack Angelic Fury
+        set: soi
+      - count: 1
+        name: Shadows over Innistrad Intro Pack Ghostly Tide
+        set: soi
+      - count: 1
+        name: Shadows over Innistrad Intro Pack Horrific Visions
+        set: soi
+      - count: 1
+        name: Shadows over Innistrad Intro Pack Unearthed Secrets
+        set: soi
+      - count: 1
+        name: Shadows over Innistrad Intro Pack Vampiric Thirst
+        set: soi
   Shadows over Innistrad Intro Pack Unearthed Secrets:
     category: DECK
+    subtype: INTRO
+    release_date: '2016-03-15'
     identifiers:
       abuId: '1101154'
       cardKingdomId: '227624'
@@ -135,10 +295,19 @@ products:
       mcmId: '288896'
       tcgplayerProductId: '112957'
       tntId: '1092932'
-    release_date: '2016-03-15'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Unearthed Secrets
+        set: soi
+      sealed:
+      - count: 2
+        name: Shadows over Innistrad Booster Pack
+        set: soi
   Shadows over Innistrad Intro Pack Vampiric Thirst:
     category: DECK
+    subtype: INTRO
+    release_date: '2016-03-15'
     identifiers:
       abuId: '1108001'
       cardKingdomId: '227625'
@@ -146,24 +315,52 @@ products:
       mcmId: '288897'
       tcgplayerProductId: '112956'
       tntId: '1092933'
-    release_date: '2016-03-15'
-    subtype: INTRO
+    contents:
+      card_count: 60
+      deck:
+      - name: Vampiric Thirst
+        set: soi
+      sealed:
+      - count: 2
+        name: Shadows over Innistrad Booster Pack
+        set: soi
   Shadows over Innistrad MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210362'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 297
+      deck:
+      - name: Shadows over Innistrad Redemption
+        set: soi
   Shadows over Innistrad MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '210885'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 297
+      deck:
+      - name: Shadows over Innistrad Foil Redemption
+        set: soi
   Shadows over Innistrad Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2016-03-07'
     identifiers:
       cardKingdomId: '208088'
       cardtraderId: '48407'
       mcmId: '288638'
       tcgplayerProductId: '116926'
-    release_date: '2016-03-07'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: 1 Shadows over Innistrad Spindown
+      pack:
+      - code: prerelease
+        set: soi
+      sealed:
+      - count: 6
+        name: Shadows over Innistrad Booster Pack
+        set: soi

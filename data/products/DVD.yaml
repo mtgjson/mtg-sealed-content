@@ -2,11 +2,21 @@ code: dvd
 products:
   Duel Deck Anthology Demonic Deck:
     category: DECK
+    subtype: DUEL
     identifiers:
       mcmId: '270807'
-    subtype: DUEL
+    contents:
+      card_count: 60
+      deck:
+      - name: Demonic
+        set: dvd
   Duel Deck Anthology Divine Deck:
     category: DECK
+    subtype: DUEL
     identifiers:
       mcmId: '270806'
-    subtype: DUEL
+    contents:
+      card_count: 60
+      deck:
+      - name: Divine
+        set: dvd

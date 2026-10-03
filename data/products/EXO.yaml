@@ -2,6 +2,7 @@ code: exo
 products:
   Exodus Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1100503'
       cardKingdomId: '1235'
@@ -12,13 +13,23 @@ products:
       scgId: SLD-MTG-BBX-EXO-EN
       tcgplayerProductId: '27275'
       tntId: '82439'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Exodus Booster Pack
+        set: exo
   Exodus Booster Box Case:
     category: BOOSTER_CASE
-    identifiers: {}
     subtype: DRAFT
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: Exodus Booster Box
+        set: exo
   Exodus Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476875'
       cardKingdomId: '1175'
@@ -29,17 +40,36 @@ products:
       scgId: SLD-MTG-PCK-EXO-EN
       tcgplayerProductId: '27337'
       tntId: '82440'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: exo
   Exodus Theme Deck Display:
     category: DECK_BOX
+    subtype: THEME
     identifiers:
       abuId: '1476876'
       cardtraderId: '45423'
       hareruyaId: '92329'
       mcmId: '210228'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 3
+        name: Exodus Theme Deck Dominator
+        set: exo
+      - count: 3
+        name: Exodus Theme Deck Groundbreaker
+        set: exo
+      - count: 3
+        name: Exodus Theme Deck White Heat
+        set: exo
+      - count: 3
+        name: Exodus Theme Deck Widowmaker
+        set: exo
   Exodus Theme Deck Dominator:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100504'
       cardKingdomId: '1176'
@@ -48,9 +78,14 @@ products:
       mcmId: '244174'
       tcgplayerProductId: '116054'
       tntId: '106928'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Dominator - Basic Deck
+        set: exo
   Exodus Theme Deck Groundbreaker:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100497'
       cardKingdomId: '1177'
@@ -59,9 +94,14 @@ products:
       mcmId: '244175'
       tcgplayerProductId: '116055'
       tntId: '106956'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Groundbreaker - Basic Deck
+        set: exo
   Exodus Theme Deck White Heat:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100495'
       cardKingdomId: '1178'
@@ -70,9 +110,14 @@ products:
       mcmId: '244176'
       tcgplayerProductId: '116056'
       tntId: '106932'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: White Heat - Basic Deck
+        set: exo
   Exodus Theme Deck Widowmaker:
     category: DECK
+    subtype: THEME
     identifiers:
       abuId: '1100498'
       cardKingdomId: '1179'
@@ -81,8 +126,26 @@ products:
       mcmId: '244177'
       tcgplayerProductId: '116057'
       tntId: '106923'
-    subtype: THEME
+    contents:
+      card_count: 60
+      deck:
+      - name: Widowmaker - Basic Deck
+        set: exo
   Exodus Theme Decks Set of 4:
     category: SUBSET
-    identifiers: {}
     subtype: THEME
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 1
+        name: Exodus Theme Deck Dominator
+        set: exo
+      - count: 1
+        name: Exodus Theme Deck Groundbreaker
+        set: exo
+      - count: 1
+        name: Exodus Theme Deck White Heat
+        set: exo
+      - count: 1
+        name: Exodus Theme Deck Widowmaker
+        set: exo

@@ -2,11 +2,17 @@ code: roe
 products:
   Rise of the Eldrazi 3 Booster Draft Pack:
     category: LIMITED
+    subtype: DRAFT_SET
     identifiers:
       tcgplayerProductId: '34681'
-    subtype: DRAFT_SET
+    contents:
+      sealed:
+      - count: 3
+        name: Rise of the Eldrazi Booster Pack
+        set: roe
   Rise of the Eldrazi Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
     identifiers:
       abuId: '1107987'
       cardKingdomId: '130632'
@@ -17,14 +23,24 @@ products:
       scgId: SLD-MTG-BBX-ROE-EN
       tcgplayerProductId: '34678'
       tntId: '289816'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Rise of the Eldrazi Booster Pack
+        set: roe
   Rise of the Eldrazi Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '34679'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Rise of the Eldrazi Booster Box
+        set: roe
   Rise of the Eldrazi Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
     identifiers:
       abuId: '1476937'
       cardKingdomId: '130621'
@@ -35,9 +51,14 @@ products:
       scgId: SLD-MTG-PCK-ROE-EN
       tcgplayerProductId: '34680'
       tntId: '289817'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: roe
   Rise of the Eldrazi Fat Pack:
     category: BUNDLE
+    subtype: FAT_PACK
     identifiers:
       abuId: '1101095'
       cardKingdomId: '130622'
@@ -47,16 +68,47 @@ products:
       scgId: SLD-MTG-BUN-ROE-EN
       tcgplayerProductId: '34682'
       tntId: '289818'
-    subtype: FAT_PACK
+    contents:
+      deck:
+      - name: Rise of the Eldrazi Fat Pack Land Pack
+        set: roe
+      other:
+      - name: Card box with panoramic art
+      - name: The Rise of the Eldrazi Palyer's Guide
+      - name: A learn-to-play insert
+      - name: A sample chapter from In the Teeth of Akoum
+      - name: An exclusive Rise of the Eldrazi Spindown Life Counter
+      sealed:
+      - count: 8
+        name: Rise of the Eldrazi Booster Pack
+        set: roe
   Rise of the Eldrazi Intro Pack Display:
     category: DECK_BOX
+    subtype: INTRO
     identifiers:
       cardtraderId: '47484'
       mcmId: '210250'
       tntId: '289819'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 2
+        name: Rise of the Eldrazi Intro Pack Eldrazi Arisen
+        set: roe
+      - count: 2
+        name: Rise of the Eldrazi Intro Pack Invading Spawn
+        set: roe
+      - count: 2
+        name: Rise of the Eldrazi Intro Pack Levelers Glory
+        set: roe
+      - count: 2
+        name: Rise of the Eldrazi Intro Pack Levelers Scorn
+        set: roe
+      - count: 2
+        name: Rise of the Eldrazi Intro Pack Totem Power
+        set: roe
   Rise of the Eldrazi Intro Pack Eldrazi Arisen:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1101096'
       cardKingdomId: '130623'
@@ -65,9 +117,18 @@ products:
       scgId: SLD-MTG-INT-ROEINTRO-EN-ELDRAZI
       tcgplayerProductId: '34687'
       tntId: '289823'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Eldrazi Arisen
+        set: roe
+      sealed:
+      - count: 1
+        name: Rise of the Eldrazi Booster Pack
+        set: roe
   Rise of the Eldrazi Intro Pack Invading Spawn:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1101097'
       cardKingdomId: '130624'
@@ -76,9 +137,18 @@ products:
       scgId: SLD-MTG-INT-ROEINTRO-EN-INVADING
       tcgplayerProductId: '34686'
       tntId: '289822'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Invading Spawn
+        set: roe
+      sealed:
+      - count: 1
+        name: Rise of the Eldrazi Booster Pack
+        set: roe
   Rise of the Eldrazi Intro Pack Levelers Glory:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1101098'
       cardKingdomId: '130625'
@@ -87,9 +157,18 @@ products:
       scgId: SLD-MTG-INT-ROEINTRO-EN-GLORY
       tcgplayerProductId: '34684'
       tntId: '289820'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Levelers' Glory
+        set: roe
+      sealed:
+      - count: 1
+        name: Rise of the Eldrazi Booster Pack
+        set: roe
   Rise of the Eldrazi Intro Pack Levelers Scorn:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1101100'
       cardKingdomId: '130626'
@@ -98,9 +177,18 @@ products:
       scgId: SLD-MTG-INT-ROEINTRO-EN-SCORN
       tcgplayerProductId: '34685'
       tntId: '289821'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Levelers Scorn
+        set: roe
+      sealed:
+      - count: 1
+        name: Rise of the Eldrazi Booster Pack
+        set: roe
   Rise of the Eldrazi Intro Pack Totem Power:
     category: DECK
+    subtype: INTRO
     identifiers:
       abuId: '1101102'
       cardKingdomId: '130627'
@@ -109,28 +197,68 @@ products:
       scgId: SLD-MTG-INT-ROEINTRO-EN-TOTEM
       tcgplayerProductId: '34688'
       tntId: '289824'
-    subtype: INTRO
+    contents:
+      card_count: 41
+      deck:
+      - name: Totem Power
+        set: roe
+      sealed:
+      - count: 1
+        name: Rise of the Eldrazi Booster Pack
+        set: roe
   Rise of the Eldrazi Intro Packs Set of 5:
     category: SUBSET
+    subtype: INTRO
     identifiers:
       abuId: '1101104'
       scgId: SLD-MTG-INT-ROEINTRO-EN-SET5
       tcgplayerProductId: '34683'
-    subtype: INTRO
+    contents:
+      sealed:
+      - count: 1
+        name: Rise of the Eldrazi Intro Pack Eldrazi Arisen
+        set: roe
+      - count: 1
+        name: Rise of the Eldrazi Intro Pack Invading Spawn
+        set: roe
+      - count: 1
+        name: Rise of the Eldrazi Intro Pack Levelers Glory
+        set: roe
+      - count: 1
+        name: Rise of the Eldrazi Intro Pack Levelers Scorn
+        set: roe
+      - count: 1
+        name: Rise of the Eldrazi Intro Pack Totem Power
+        set: roe
   Rise of the Eldrazi MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241659'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 248
+      deck:
+      - name: Rise of the Eldrazi Redemption
+        set: roe
   Rise of the Eldrazi MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '241658'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 248
+      deck:
+      - name: Rise of the Eldrazi Foil Redemption
+        set: roe
   Rise of the Eldrazi Six Card Booster Pack:
     category: BOOSTER_PACK
+    subtype: SIX
+    release_date: '2018-01-16'
     identifiers:
       cardtraderId: '47469'
       mcmId: '315704'
-    release_date: '2018-01-16'
-    subtype: SIX
+    contents:
+      card_count: 6
+      pack:
+      - code: six
+        set: roe

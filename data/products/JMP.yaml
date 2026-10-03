@@ -2,6 +2,8 @@ code: jmp
 products:
   Jumpstart Booster Box:
     category: BOOSTER_BOX
+    subtype: JUMPSTART
+    release_date: '2020-07-17'
     identifiers:
       abuId: '1875421'
       cardKingdomId: '233852'
@@ -12,15 +14,25 @@ products:
       scgId: SLD-MTG-BBX-JMP-EN
       tcgplayerProductId: '214821'
       tntId: '1665301'
-    release_date: '2020-07-17'
-    subtype: JUMPSTART
+    contents:
+      sealed:
+      - count: 24
+        name: Jumpstart Booster Pack
+        set: jmp
   Jumpstart Booster Box Case:
     category: BOOSTER_CASE
+    subtype: JUMPSTART
     identifiers:
       tcgplayerProductId: '256965'
-    subtype: JUMPSTART
+    contents:
+      sealed:
+      - count: 6
+        name: Jumpstart Booster Box
+        set: jmp
   Jumpstart Booster Pack:
     category: BOOSTER_PACK
+    subtype: JUMPSTART
+    release_date: '2020-07-17'
     identifiers:
       abuId: '1874416'
       cardKingdomId: '233853'
@@ -31,10 +43,18 @@ products:
       scgId: SLD-MTG-PCK-JMP-EN
       tcgplayerProductId: '214822'
       tntId: '1665302'
-    release_date: '2020-07-17'
-    subtype: JUMPSTART
+    contents:
+      card_count: 20
+      pack:
+      - code: jumpstart
+        set: jmp
   Jumpstart Multipack 4 Pack:
     category: LIMITED
+    subtype: DRAFT_SET
     identifiers:
       tcgplayerProductId: '228819'
-    subtype: DRAFT_SET
+    contents:
+      sealed:
+      - count: 4
+        name: Jumpstart Booster Pack
+        set: jmp

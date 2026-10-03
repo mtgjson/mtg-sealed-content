@@ -2,8 +2,13 @@ code: zne
 products:
   Zendikar Rising Expedition Box Topper Pack:
     category: BOOSTER_PACK
+    subtype: TOPPER
+    release_date: '2022-10-12'
     identifiers:
       mcmId: '679623'
       tcgplayerProductId: '251070'
-    release_date: '2022-10-12'
-    subtype: TOPPER
+    contents:
+      card_count: 1
+      pack:
+      - code: box-topper
+        set: zne

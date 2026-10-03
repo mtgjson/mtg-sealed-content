@@ -2,6 +2,8 @@ code: m20
 products:
   Core Set 2020 Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2019-07-12'
     identifiers:
       abuId: '1580464'
       cardKingdomId: '225512'
@@ -12,18 +14,28 @@ products:
       scgId: SLD-MTG-BBX-M20-EN
       tcgplayerProductId: '188210'
       tntId: '1480296'
-    release_date: '2019-07-12'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Core Set 2020 Booster Pack
+        set: m20
   Core Set 2020 Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2019-07-12'
     identifiers:
       scgId: SLD-MTG-BBX-M20CASE-EN
       tcgplayerProductId: '188209'
       tntId: '1480295'
-    release_date: '2019-07-12'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Core Set 2020 Booster Box
+        set: m20
   Core Set 2020 Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2019-07-12'
     identifiers:
       abuId: '2689634'
       cardKingdomId: '225516'
@@ -34,10 +46,15 @@ products:
       scgId: SLD-MTG-PCK-M20-EN
       tcgplayerProductId: '188211'
       tntId: '1480297'
-    release_date: '2019-07-12'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: m20
   Core Set 2020 Bundle:
     category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2019-07-12'
     identifiers:
       abuId: '1580463'
       cardKingdomId: '225517'
@@ -48,10 +65,26 @@ products:
       scgId: SLD-MTG-BUN-M20-EN
       tcgplayerProductId: '188213'
       tntId: '1480298'
-    release_date: '2019-07-12'
-    subtype: DEFAULT
+    contents:
+      card:
+      - foil: true
+        name: Chandra's Regulator
+        number: 131
+        set: pm20
+      deck:
+      - name: Core Set 2020 Bundle Land Pack
+        set: m20
+      other:
+      - name: Core Set 2020 Spindown
+      - name: Reusable Storage Box
+      sealed:
+      - count: 10
+        name: Core Set 2020 Booster Pack
+        set: m20
   Core Set 2020 Deck Builders Toolkit:
     category: KIT
+    subtype: DECK_BUILDERS_TOOLKIT
+    release_date: '2019-07-12'
     identifiers:
       abuId: '1580843'
       cardKingdomId: '225521'
@@ -61,25 +94,56 @@ products:
       scgId: SLD-MTG-INT-M20TOOLKIT-EN
       tcgplayerProductId: '185681'
       tntId: '1480292'
-    release_date: '2019-07-12'
-    subtype: DECK_BUILDERS_TOOLKIT
+    contents:
+      card_count: 225
+      deck:
+      - name: Deck Builder's Toolkit
+        set: m20
+      sealed:
+      - count: 1
+        name: Core Set 2020 Booster Pack
+        set: m20
+      - count: 1
+        name: War of the Spark Booster Pack
+        set: war
+      - count: 1
+        name: Ravnica Allegiance Booster Pack
+        set: rna
+      - count: 1
+        name: Guilds of Ravnica Booster Pack
+        set: grn
   Core Set 2020 Land Station:
     category: KIT
+    subtype: LAND_STATION
     identifiers:
       tcgplayerProductId: '192758'
-    subtype: LAND_STATION
+    contents:
+      other:
+      - name: 400 Basic Lands
   Core Set 2020 MTGO Redemption:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '228502'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 280
+      deck:
+      - name: Core Set 2020 Redemption
+        set: m20
   Core Set 2020 MTGO Redemption Foil:
     category: BOX_SET
+    subtype: MTGO_REDEMPTION
     identifiers:
       cardKingdomId: '228501'
-    subtype: MTGO_REDEMPTION
+    contents:
+      card_count: 280
+      deck:
+      - name: Core Set 2020 Foil Redemption
+        set: m20
   Core Set 2020 Planeswalker Deck Ajani:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2019-07-12'
     identifiers:
       abuId: '1580842'
       cardKingdomId: '225555'
@@ -89,10 +153,19 @@ products:
       scgId: SLD-MTG-INT-M20PWDECK-EN-AJANI
       tcgplayerProductId: '192509'
       tntId: '1480287'
-    release_date: '2019-07-12'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Ajani, Inspiring Leader
+        set: m20
+      sealed:
+      - count: 1
+        name: Core Set 2020 Booster Pack
+        set: m20
   Core Set 2020 Planeswalker Deck Chandra:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2019-07-12'
     identifiers:
       abuId: '1580839'
       cardKingdomId: '225556'
@@ -101,18 +174,44 @@ products:
       scgId: SLD-MTG-INT-M20PWDECK-EN-CHANDRA
       tcgplayerProductId: '192510'
       tntId: '1480289'
-    release_date: '2019-07-12'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Chandra, Flame's Fury
+        set: m20
+      sealed:
+      - count: 1
+        name: Core Set 2020 Booster Pack
+        set: m20
   Core Set 2020 Planeswalker Deck Display:
     category: DECK_BOX
+    subtype: PLANESWALKER
+    release_date: '2019-07-12'
     identifiers:
       cardKingdomId: '240127'
       tcgplayerProductId: '188212'
       tntId: '1480285'
-    release_date: '2019-07-12'
-    subtype: PLANESWALKER
+    contents:
+      sealed:
+      - count: 2
+        name: Core Set 2020 Planeswalker Deck Ajani
+        set: m20
+      - count: 2
+        name: Core Set 2020 Planeswalker Deck Chandra
+        set: m20
+      - count: 2
+        name: Core Set 2020 Planeswalker Deck Sorin
+        set: m20
+      - count: 2
+        name: Core Set 2020 Planeswalker Deck Vivien
+        set: m20
+      - count: 2
+        name: Core Set 2020 Planeswalker Deck Yanling
+        set: m20
   Core Set 2020 Planeswalker Deck Sorin:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2019-07-12'
     identifiers:
       abuId: '1580840'
       cardKingdomId: '225557'
@@ -122,10 +221,19 @@ products:
       scgId: SLD-MTG-INT-M20PWDECK-EN-SORIN
       tcgplayerProductId: '192512'
       tntId: '1480290'
-    release_date: '2019-07-12'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Sorin, Vampire Lord
+        set: m20
+      sealed:
+      - count: 1
+        name: Core Set 2020 Booster Pack
+        set: m20
   Core Set 2020 Planeswalker Deck Vivien:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2019-07-12'
     identifiers:
       abuId: '1580838'
       cardKingdomId: '225558'
@@ -134,10 +242,19 @@ products:
       scgId: SLD-MTG-INT-M20PWDECK-EN-VIVIEN
       tcgplayerProductId: '192511'
       tntId: '1480291'
-    release_date: '2019-07-12'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Vivien, Nature's Avenger
+        set: m20
+      sealed:
+      - count: 1
+        name: Core Set 2020 Booster Pack
+        set: m20
   Core Set 2020 Planeswalker Deck Yanling:
     category: DECK
+    subtype: PLANESWALKER
+    release_date: '2019-07-12'
     identifiers:
       abuId: '1580841'
       cardKingdomId: '225559'
@@ -147,19 +264,45 @@ products:
       scgId: SLD-MTG-INT-M20PWDECK-EN-YANLING
       tcgplayerProductId: '192513'
       tntId: '1480288'
-    release_date: '2019-07-12'
-    subtype: PLANESWALKER
+    contents:
+      card_count: 60
+      deck:
+      - name: Mu Yanling, Celestial Wind
+        set: m20
+      sealed:
+      - count: 1
+        name: Core Set 2020 Booster Pack
+        set: m20
   Core Set 2020 Planeswalker Decks Set of 5:
     category: SUBSET
+    subtype: PLANESWALKER
+    release_date: '2019-07-12'
     identifiers:
       abuId: '1580487'
       hareruyaId: '73938'
       scgId: SLD-MTG-INT-M20PWDECK-EN-SET5
       tcgplayerProductId: '188222'
-    release_date: '2019-07-12'
-    subtype: PLANESWALKER
+    contents:
+      sealed:
+      - count: 1
+        name: Core Set 2020 Planeswalker Deck Ajani
+        set: m20
+      - count: 1
+        name: Core Set 2020 Planeswalker Deck Chandra
+        set: m20
+      - count: 1
+        name: Core Set 2020 Planeswalker Deck Sorin
+        set: m20
+      - count: 1
+        name: Core Set 2020 Planeswalker Deck Vivien
+        set: m20
+      - count: 1
+        name: Core Set 2020 Planeswalker Deck Yanling
+        set: m20
   Core Set 2020 Prerelease Pack:
     category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2019-07-05'
     identifiers:
       abuId: '1581081'
       cardKingdomId: '226717'
@@ -167,10 +310,21 @@ products:
       csiId: '281201'
       mcmId: '380316'
       tcgplayerProductId: '193014'
-    release_date: '2019-07-05'
-    subtype: PRERELEASE
+    contents:
+      card_count: 1
+      other:
+      - name: Core Set 2020 Spindown
+      pack:
+      - code: prerelease
+        set: m20
+      sealed:
+      - count: 6
+        name: Core Set 2020 Booster Pack
+        set: m20
   Core Set 2020 Spellslinger Starter Kit:
     category: MULTI_DECK
+    subtype: TWO_PLAYER_STARTER
+    release_date: '2019-07-12'
     identifiers:
       abuId: '1582199'
       cardKingdomId: '226730'
@@ -180,10 +334,20 @@ products:
       scgId: SLD-MTG-INT-M20SPELLSLINGER-EN
       tcgplayerProductId: '192755'
       tntId: '1480293'
-    release_date: '2019-07-12'
-    subtype: TWO_PLAYER_STARTER
+    contents:
+      card_count: 120
+      deck:
+      - name: Spellslinger Starter Kit - Red Deck
+        set: m20
+      - name: Spellslinger Starter Kit - White Deck
+        set: m20
+      other:
+      - name: 2 Spellslinger Kit Spindowns
+      - name: Rules and World of Magic Booklet
   Core Set 2020 Theme Booster Black:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2019-07-12'
     identifiers:
       abuId: '1580835'
       cardtraderId: '58397'
@@ -192,10 +356,15 @@ products:
       scgId: SLD-MTG-PCK-M20THEME-EN-BLACK
       tcgplayerProductId: '192762'
       tntId: '1485958'
-    release_date: '2019-07-12'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-b
+        set: m20
   Core Set 2020 Theme Booster Blue:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2019-07-12'
     identifiers:
       abuId: '1580834'
       cardtraderId: '58398'
@@ -203,10 +372,15 @@ products:
       scgId: SLD-MTG-PCK-M20THEME-EN-BLUE
       tcgplayerProductId: '192761'
       tntId: '1485957'
-    release_date: '2019-07-12'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-u
+        set: m20
   Core Set 2020 Theme Booster Green:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2019-07-12'
     identifiers:
       abuId: '1580837'
       cardtraderId: '58399'
@@ -215,10 +389,15 @@ products:
       scgId: SLD-MTG-PCK-M20THEME-EN-GREEN
       tcgplayerProductId: '192764'
       tntId: '1485960'
-    release_date: '2019-07-12'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-g
+        set: m20
   Core Set 2020 Theme Booster Red:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2019-07-12'
     identifiers:
       abuId: '1580836'
       cardtraderId: '58400'
@@ -226,16 +405,38 @@ products:
       scgId: SLD-MTG-PCK-M20THEME-EN-RED
       tcgplayerProductId: '192763'
       tntId: '1485959'
-    release_date: '2019-07-12'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-r
+        set: m20
   Core Set 2020 Theme Booster Set of 5:
     category: SUBSET
+    subtype: THEME
     identifiers:
       scgId: SLD-MTG-PCK-M20THEME-EN-SET5
       tcgplayerProductId: '192769'
-    subtype: THEME
+    contents:
+      sealed:
+      - count: 1
+        name: Core Set 2020 Theme Booster White
+        set: m20
+      - count: 1
+        name: Core Set 2020 Theme Booster Blue
+        set: m20
+      - count: 1
+        name: Core Set 2020 Theme Booster Black
+        set: m20
+      - count: 1
+        name: Core Set 2020 Theme Booster Red
+        set: m20
+      - count: 1
+        name: Core Set 2020 Theme Booster Green
+        set: m20
   Core Set 2020 Theme Booster White:
     category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2019-07-12'
     identifiers:
       abuId: '1580833'
       cardtraderId: '58401'
@@ -243,40 +444,68 @@ products:
       scgId: SLD-MTG-PCK-M20THEME-EN-WHITE
       tcgplayerProductId: '192765'
       tntId: '1485956'
-    release_date: '2019-07-12'
-    subtype: THEME
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-w
+        set: m20
   Core Set 2020 Welcome Deck - Black:
     category: DECK
+    subtype: STARTER
+    release_date: '2019-07-12'
     identifiers:
       cardtraderId: '164278'
       mcmId: '380304'
-    release_date: '2019-07-12'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      deck:
+      - name: Black Deck
+        set: m20
   Core Set 2020 Welcome Deck - Blue:
     category: DECK
+    subtype: STARTER
+    release_date: '2019-07-12'
     identifiers:
       cardtraderId: '164277'
       mcmId: '380307'
-    release_date: '2019-07-12'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      deck:
+      - name: Blue Deck
+        set: m20
   Core Set 2020 Welcome Deck - Green:
     category: DECK
+    subtype: STARTER
+    release_date: '2019-07-12'
     identifiers:
       cardtraderId: '164275'
       mcmId: '380310'
-    release_date: '2019-07-12'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      deck:
+      - name: Green Deck
+        set: m20
   Core Set 2020 Welcome Deck - Red:
     category: DECK
+    subtype: STARTER
+    release_date: '2019-07-12'
     identifiers:
       cardtraderId: '164276'
       mcmId: '380301'
-    release_date: '2019-07-12'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      deck:
+      - name: Red Deck
+        set: m20
   Core Set 2020 Welcome Deck - White:
     category: DECK
+    subtype: STARTER
+    release_date: '2019-07-12'
     identifiers:
       cardtraderId: '164274'
       mcmId: '380298'
-    release_date: '2019-07-12'
-    subtype: STARTER
+    contents:
+      card_count: 30
+      deck:
+      - name: White Deck
+        set: m20

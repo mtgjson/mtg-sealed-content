@@ -2,6 +2,8 @@ code: e02
 products:
   Explorers of Ixalan:
     category: MULTI_DECK
+    subtype: OTHER
+    release_date: '2017-11-24'
     identifiers:
       cardKingdomId: '215209'
       cardtraderId: '48598'
@@ -10,33 +12,70 @@ products:
       scgId: SLD-MTG-MLT-E02-EN
       tcgplayerProductId: '147006'
       tntId: '1139826'
-    release_date: '2017-11-24'
-    subtype: OTHER
+    contents:
+      other:
+      - name: 20 Double-Sided Tokens
+      - name: 50 Game Tiles
+      - name: 40 Counter Pieces
+      - name: 4 Deck Boxes
+      sealed:
+      - count: 1
+        name: Explorers of Ixalan Deck Brazen Coalition
+        set: e02
+      - count: 1
+        name: Explorers of Ixalan Deck Legion of Dusk
+        set: e02
+      - count: 1
+        name: Explorers of Ixalan Deck River Heralds
+        set: e02
+      - count: 1
+        name: Explorers of Ixalan Deck Sun Empire
+        set: e02
   Explorers of Ixalan Deck Brazen Coalition:
     category: DECK
+    subtype: OTHER
+    release_date: '2017-11-24'
     identifiers:
       cardtraderId: '48599'
       mcmId: '311233'
-    release_date: '2017-11-24'
-    subtype: OTHER
+    contents:
+      card_count: 60
+      deck:
+      - name: Brazen Coalition
+        set: e02
   Explorers of Ixalan Deck Legion of Dusk:
     category: DECK
+    subtype: OTHER
+    release_date: '2017-11-24'
     identifiers:
       cardtraderId: '48600'
       mcmId: '311232'
-    release_date: '2017-11-24'
-    subtype: OTHER
+    contents:
+      card_count: 60
+      deck:
+      - name: Legion of Dusk
+        set: e02
   Explorers of Ixalan Deck River Heralds:
     category: DECK
+    subtype: OTHER
+    release_date: '2017-11-24'
     identifiers:
       cardtraderId: '48601'
       mcmId: '311234'
-    release_date: '2017-11-24'
-    subtype: OTHER
+    contents:
+      card_count: 60
+      deck:
+      - name: River Heralds
+        set: e02
   Explorers of Ixalan Deck Sun Empire:
     category: DECK
+    subtype: OTHER
+    release_date: '2017-11-24'
     identifiers:
       cardtraderId: '48602'
       mcmId: '311235'
-    release_date: '2017-11-24'
-    subtype: OTHER
+    contents:
+      card_count: 60
+      deck:
+      - name: Sun Empire
+        set: e02

@@ -2,6 +2,8 @@ code: ema
 products:
   Eternal Masters Draft Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2016-02-16'
     identifiers:
       abuId: '1100490'
       cardKingdomId: '206591'
@@ -12,15 +14,25 @@ products:
       scgId: SLD-MTG-BBX-EMA-EN
       tcgplayerProductId: '114832'
       tntId: '1096226'
-    release_date: '2016-02-16'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 24
+        name: Eternal Masters Draft Booster Pack
+        set: ema
   Eternal Masters Draft Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
     identifiers:
       tcgplayerProductId: '118405'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 4
+        name: Eternal Masters Draft Booster Box
+        set: ema
   Eternal Masters Draft Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2016-02-16'
     identifiers:
       abuId: '1526918'
       cardKingdomId: '206590'
@@ -31,5 +43,8 @@ products:
       scgId: SLD-MTG-PCK-EMA-EN
       tcgplayerProductId: '114833'
       tntId: '1096227'
-    release_date: '2016-02-16'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: ema

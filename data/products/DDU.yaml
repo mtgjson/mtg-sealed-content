@@ -2,6 +2,8 @@ code: ddu
 products:
   Duel Deck Elves vs Inventors:
     category: MULTI_DECK
+    subtype: DUEL
+    release_date: '2018-04-06'
     identifiers:
       abuId: '1496793'
       cardKingdomId: '217618'
@@ -12,18 +14,43 @@ products:
       scgId: SLD-MTG-BXS-DDU-EN
       tcgplayerProductId: '162110'
       tntId: '1158681'
-    release_date: '2018-04-06'
-    subtype: DUEL
+    contents:
+      other:
+      - name: 2 Spindown life counters
+      - name: Strategy insert
+      - name: Quick reference guide
+      sealed:
+      - count: 1
+        name: Duel Deck Elves vs Inventors Elves Deck
+        set: ddu
+      - count: 1
+        name: Duel Deck Elves vs Inventors Inventors Deck
+        set: ddu
   Duel Deck Elves vs Inventors Display:
     category: DECK_BOX
+    subtype: DUEL
     identifiers:
       tntId: '1158682'
-    subtype: DUEL
+    contents:
+      sealed:
+      - count: 6
+        name: Duel Deck Elves vs Inventors
+        set: ddu
   Duel Deck Elves vs Inventors Elves Deck:
     category: DECK
-    identifiers: {}
     subtype: DUEL
+    identifiers: {}
+    contents:
+      card_count: 60
+      deck:
+      - name: Woodland Warriors
+        set: ddu
   Duel Deck Elves vs Inventors Inventors Deck:
     category: DECK
-    identifiers: {}
     subtype: DUEL
+    identifiers: {}
+    contents:
+      card_count: 60
+      deck:
+      - name: Ingenious Machinists
+        set: ddu

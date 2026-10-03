@@ -2,6 +2,7 @@ code: pd3
 products:
   Premium Deck Series Graveborn:
     category: BOX_SET
+    subtype: PREMIUM
     identifiers:
       abuId: '1101039'
       cardKingdomId: '186171'
@@ -11,4 +12,10 @@ products:
       scgId: SLD-MTG-BXS-PD3-EN
       tcgplayerProductId: '48163'
       tntId: '323594'
-    subtype: PREMIUM
+    contents:
+      card_count: 60
+      deck:
+      - name: Graveborn
+        set: pd3
+      other:
+      - name: Premium Deck Series Spindown

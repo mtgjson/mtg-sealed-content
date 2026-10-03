@@ -2,11 +2,18 @@ code: bbd
 products:
   Battlebond Blister Pack:
     category: LIMITED
+    subtype: SEALED_SET
     identifiers:
       tcgplayerProductId: '175239'
-    subtype: SEALED_SET
+    contents:
+      sealed:
+      - count: 6
+        name: Battlebond Booster Pack
+        set: bbd
   Battlebond Booster Box:
     category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2018-06-08'
     identifiers:
       abuId: '1502903'
       cardKingdomId: '218693'
@@ -17,16 +24,26 @@ products:
       scgId: SLD-MTG-BBX-BBD-EN
       tcgplayerProductId: '166536'
       tntId: '1175230'
-    release_date: '2018-06-08'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 36
+        name: Battlebond Booster Pack
+        set: bbd
   Battlebond Booster Box Case:
     category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2018-06-08'
     identifiers:
       tcgplayerProductId: '166537'
-    release_date: '2018-06-08'
-    subtype: DRAFT
+    contents:
+      sealed:
+      - count: 6
+        name: Battlebond Booster Box
+        set: bbd
   Battlebond Booster Pack:
     category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2018-06-08'
     identifiers:
       abuId: '1973110'
       cardKingdomId: '218694'
@@ -37,5 +54,8 @@ products:
       scgId: SLD-MTG-PCK-BBD-EN
       tcgplayerProductId: '166538'
       tntId: '1175229'
-    release_date: '2018-06-08'
-    subtype: DRAFT
+    contents:
+      card_count: 15
+      pack:
+      - code: draft
+        set: bbd

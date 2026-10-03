@@ -2,6 +2,8 @@ code: c20
 products:
   Commander 2020 Commander Deck Arcane Maelstrom:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2020-05-15'
     identifiers:
       abuId: '1829900'
       cardKingdomId: '232114'
@@ -12,10 +14,19 @@ products:
       scgId: SLD-MTG-MLT-C20-EN-ARCANE
       tcgplayerProductId: '210823'
       tntId: '1655974'
-    release_date: '2020-05-15'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Arcane Maelstrom
+        set: c20
+      other:
+      - name: Commander 2020 Life Wheel
+      - name: 10 Double Sided Tokens
+      - name: Deck Box
   Commander 2020 Commander Deck Enhanced Evolution:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2020-05-15'
     identifiers:
       abuId: '1829897'
       cardKingdomId: '232115'
@@ -26,10 +37,19 @@ products:
       scgId: SLD-MTG-MLT-C20-EN-ENHANCED
       tcgplayerProductId: '210826'
       tntId: '1655977'
-    release_date: '2020-05-15'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Enhanced Evolution
+        set: c20
+      other:
+      - name: Commander 2020 Life Wheel
+      - name: 10 Double Sided Tokens
+      - name: Deck Box
   Commander 2020 Commander Deck Ruthless Regiment:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2020-05-15'
     identifiers:
       abuId: '1829901'
       cardKingdomId: '232116'
@@ -40,10 +60,19 @@ products:
       scgId: SLD-MTG-MLT-C20-EN-RUTHLESS
       tcgplayerProductId: '210821'
       tntId: '1655973'
-    release_date: '2020-05-15'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Ruthless Regiment
+        set: c20
+      other:
+      - name: Commander 2020 Life Wheel
+      - name: 10 Double Sided Tokens
+      - name: Deck Box
   Commander 2020 Commander Deck Symbiotic Swarm:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2020-05-15'
     identifiers:
       abuId: '1829899'
       cardKingdomId: '232117'
@@ -54,10 +83,19 @@ products:
       scgId: SLD-MTG-MLT-C20-EN-SYMBIOTIC
       tcgplayerProductId: '210824'
       tntId: '1655975'
-    release_date: '2020-05-15'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Symbiotic Swarm
+        set: c20
+      other:
+      - name: Commander 2020 Life Wheel
+      - name: 10 Double Sided Tokens
+      - name: Deck Box
   Commander 2020 Commander Deck Timeless Wisdom:
     category: DECK
+    subtype: COMMANDER
+    release_date: '2020-05-15'
     identifiers:
       abuId: '1829898'
       cardKingdomId: '232118'
@@ -68,10 +106,19 @@ products:
       scgId: SLD-MTG-MLT-C20-EN-TIMELESS
       tcgplayerProductId: '210825'
       tntId: '1655976'
-    release_date: '2020-05-15'
-    subtype: COMMANDER
+    contents:
+      card_count: 100
+      deck:
+      - name: Timeless Wisdom
+        set: c20
+      other:
+      - name: Commander 2020 Life Wheel
+      - name: 10 Double Sided Tokens
+      - name: Deck Box
   Commander 2020 Commander Decks Set of 5:
     category: SUBSET
+    subtype: COMMANDER
+    release_date: '2020-05-15'
     identifiers:
       cardKingdomId: '232119'
       cardtraderId: '107984'
@@ -81,5 +128,20 @@ products:
       scgId: SLD-MTG-MLT-C20-EN-SET5
       tcgplayerProductId: '210830'
       tntId: '1655626'
-    release_date: '2020-05-15'
-    subtype: COMMANDER
+    contents:
+      sealed:
+      - count: 1
+        name: Commander 2020 Commander Deck Arcane Maelstrom
+        set: c20
+      - count: 1
+        name: Commander 2020 Commander Deck Enhanced Evolution
+        set: c20
+      - count: 1
+        name: Commander 2020 Commander Deck Ruthless Regiment
+        set: c20
+      - count: 1
+        name: Commander 2020 Commander Deck Symbiotic Swarm
+        set: c20
+      - count: 1
+        name: Commander 2020 Commander Deck Timeless Wisdom
+        set: c20
