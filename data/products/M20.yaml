@@ -457,10 +457,27 @@ products:
       cardtraderId: '164278'
       mcmId: '380304'
     contents:
-      card_count: 30
+      card_count: 60
       deck:
       - name: Black Deck
         set: m20
+      # Random second half, including the same color; see product-backlog-research.md.
+      variable:
+      - deck:
+        - name: White Deck
+          set: m20
+      - deck:
+        - name: Blue Deck
+          set: m20
+      - deck:
+        - name: Black Deck
+          set: m20
+      - deck:
+        - name: Red Deck
+          set: m20
+      - deck:
+        - name: Green Deck
+          set: m20
   Core Set 2020 Welcome Deck - Blue:
     category: DECK
     subtype: STARTER
@@ -469,10 +486,27 @@ products:
       cardtraderId: '164277'
       mcmId: '380307'
     contents:
-      card_count: 30
+      card_count: 60
       deck:
       - name: Blue Deck
         set: m20
+      # Random second half, including the same color; see product-backlog-research.md.
+      variable:
+      - deck:
+        - name: White Deck
+          set: m20
+      - deck:
+        - name: Blue Deck
+          set: m20
+      - deck:
+        - name: Black Deck
+          set: m20
+      - deck:
+        - name: Red Deck
+          set: m20
+      - deck:
+        - name: Green Deck
+          set: m20
   Core Set 2020 Welcome Deck - Green:
     category: DECK
     subtype: STARTER
@@ -481,10 +515,27 @@ products:
       cardtraderId: '164275'
       mcmId: '380310'
     contents:
-      card_count: 30
+      card_count: 60
       deck:
       - name: Green Deck
         set: m20
+      # Random second half, including the same color; see product-backlog-research.md.
+      variable:
+      - deck:
+        - name: White Deck
+          set: m20
+      - deck:
+        - name: Blue Deck
+          set: m20
+      - deck:
+        - name: Black Deck
+          set: m20
+      - deck:
+        - name: Red Deck
+          set: m20
+      - deck:
+        - name: Green Deck
+          set: m20
   Core Set 2020 Welcome Deck - Red:
     category: DECK
     subtype: STARTER
@@ -493,10 +544,27 @@ products:
       cardtraderId: '164276'
       mcmId: '380301'
     contents:
-      card_count: 30
+      card_count: 60
       deck:
       - name: Red Deck
         set: m20
+      # Random second half, including the same color; see product-backlog-research.md.
+      variable:
+      - deck:
+        - name: White Deck
+          set: m20
+      - deck:
+        - name: Blue Deck
+          set: m20
+      - deck:
+        - name: Black Deck
+          set: m20
+      - deck:
+        - name: Red Deck
+          set: m20
+      - deck:
+        - name: Green Deck
+          set: m20
   Core Set 2020 Welcome Deck - White:
     category: DECK
     subtype: STARTER
@@ -505,7 +573,24 @@ products:
       cardtraderId: '164274'
       mcmId: '380298'
     contents:
-      card_count: 30
+      card_count: 60
       deck:
       - name: White Deck
         set: m20
+      # Random second half, including the same color; see product-backlog-research.md.
+      variable:
+      - deck:
+        - name: White Deck
+          set: m20
+      - deck:
+        - name: Blue Deck
+          set: m20
+      - deck:
+        - name: Black Deck
+          set: m20
+      - deck:
+        - name: Red Deck
+          set: m20
+      - deck:
+        - name: Green Deck
+          set: m20
