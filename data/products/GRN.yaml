@@ -50,6 +50,16 @@ products:
       pack:
       - code: draft
         set: grn
+  Guilds of Ravnica Box Set Guilds of Ravnica Mythic Edition:
+    category: BOX_SET
+    subtype: OTHER
+    release_date: '2018-11-02'
+    identifiers: {}
+    contents:
+      card_count: 8
+      deck:
+      - name: Guilds of Ravnica Mythic Edition
+        set: grn
   Guilds of Ravnica Bundle:
     category: BUNDLE
     subtype: DEFAULT

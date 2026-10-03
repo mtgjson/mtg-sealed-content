@@ -23,10 +23,9 @@ products:
       - name: Sigarda, Host of Herons
         number: '210'
         set: phel
-      # Only one of each identity is mapped; 49 additional copies remain unresolved.
-      # See data/notes/product-backlog-research.md.
       card_count: 54
       other:
-      - name: 49 additional oversized cards (allocation among the five mapped identities unconfirmed)
+      - name: 49 additional oversized cards (allocation among the five mapped identities
+          unconfirmed)
       - name: 108 double-faced Angel/Demon tokens
       - name: 54 Avacyn Restored Spindown life counters

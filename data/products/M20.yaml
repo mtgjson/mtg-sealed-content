@@ -461,7 +461,6 @@ products:
       deck:
       - name: Black Deck
         set: m20
-      # Random second half, including the same color; see product-backlog-research.md.
       variable:
       - deck:
         - name: White Deck
@@ -490,7 +489,6 @@ products:
       deck:
       - name: Blue Deck
         set: m20
-      # Random second half, including the same color; see product-backlog-research.md.
       variable:
       - deck:
         - name: White Deck
@@ -519,7 +517,6 @@ products:
       deck:
       - name: Green Deck
         set: m20
-      # Random second half, including the same color; see product-backlog-research.md.
       variable:
       - deck:
         - name: White Deck
@@ -548,7 +545,6 @@ products:
       deck:
       - name: Red Deck
         set: m20
-      # Random second half, including the same color; see product-backlog-research.md.
       variable:
       - deck:
         - name: White Deck
@@ -577,7 +573,6 @@ products:
       deck:
       - name: White Deck
         set: m20
-      # Random second half, including the same color; see product-backlog-research.md.
       variable:
       - deck:
         - name: White Deck

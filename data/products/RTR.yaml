@@ -22,8 +22,13 @@ products:
       tcgplayerProductId: '72027'
       tntId: '820221'
     contents:
-      # Follow the Gatecrash model: two distinct guild packets, equally weighted.
-      # Exact factory pairing frequencies are not established; see the research note.
+      other:
+      - name: Learn to play guide
+      - name: Rules insert
+      sealed:
+      - count: 2
+        name: Return to Ravnica Booster Pack
+        set: rtr
       variable:
       - deck:
         - name: 'Booster Battle Pack: Azorius'
@@ -43,13 +48,6 @@ products:
       variable_mode:
         count: 2
         replacement: false
-      other:
-      - name: Learn to play guide
-      - name: Rules insert
-      sealed:
-      - count: 2
-        name: Return to Ravnica Booster Pack
-        set: rtr
   Return to Ravnica Booster Battle Pack Display:
     category: DECK_BOX
     subtype: BATTLE
