@@ -100,6 +100,12 @@ The ordinary-box accessory totals and 54-card count are corrected. Only one copy
 
 [Adam Grayson’s contemporary opening](https://www.youtube.com/watch?v=AwaU4PKGg2s) shows the full box and confirms the bulk contents, but does not provide a readable count per oversized identity. A [contemporary collector post](https://www.mtgsalvation.com/forums/market-street/market-street-cafe/387091-helvault-oversized-cards-foil) says 10–11 copies per identity in premium boxes without establishing which identity has ten or how allocations vary. That statement is insufficient to assign a fixed normal-box collation. Premium boxes remain unmodeled; no twelve-promo checklist or separate catalog identifier was established.
 
+A [contemporary opening discussion](https://www.mtgsalvation.com/forums/magic-fundamentals/the-rumor-mill/228137-all-foil-helvault-including-various-past-foil)
+adds firsthand reports of Exalted Angel (54 copies in one premium box) and
+Decree of Justice. These support individual possibilities, not a complete
+twelve-card pool or equal probabilities, so they do not justify a premium-box
+recipe.
+
 ## Rivals Quick Start support-card quantities (#621)
 
 The [complete 11-by-11 printing sheet](https://www.magiclibrarities.net/images/edition_comment/5234.png)
@@ -111,6 +117,46 @@ show that each is double-sided. The product now describes four rules cards.
 This does not resolve the June/July release-date conflict or distinct Shepard
 Poorman gameplay printing support. The original announcement linked by the
 collector page could not be retrieved; its filename is not release evidence.
+
+## Multiverse Gift Box preview boosters (#621)
+
+The [Magic Librarities checklist](https://www.magiclibrarities.net/145-rarities-multiverse-gift-box-cards-english-cards-index.html)
+contains 25 cards: fifteen commons, six uncommons and four rares. Ten have
+distinct preview printings indexed as MGB; the other fifteen use VIS printings.
+MGB's catalog rarity is uniformly rare, so the booster uses explicit printing
+lists rather than catalog rarity filters. Goblin Recruiter occupies an uncommon
+slot.
+
+Three complete packs corroborate an 11-common / 3-uncommon / 1-rare layout:
+
+| Opening | Rare | Uncommons |
+| --- | --- | --- |
+| [The Magic Historian, 2:03–20:49](https://www.youtube.com/watch?v=JL7AzF-P_WQ&t=123s) | Lichenthrope | Vampirism, Ovinomancer, Goblin Recruiter |
+| [Quiet Nerd, 8:29–14:57](https://www.youtube.com/watch?v=0OLJL_yKO9A&t=509s) | Necrosavant | Tempest Drake, Viashino Sandstalker, Peace Talks |
+| [Quiet Nerd, 25:01–29:57](https://www.youtube.com/watch?v=0OLJL_yKO9A&t=1501s) | Undiscovered Paradise | Vampirism, Ovinomancer, Goblin Recruiter |
+
+Each opening shows eleven commons after these cards. Together they cover all
+fifteen common and all six uncommon identities. Lightning Cloud is supported by
+the checklist, not observed in these three packs. Repeated common sequences
+show that actual packing is correlated. Equal within-rarity weights are an
+estimate; the implementation models membership and slot counts, not a recovered
+sheet sequence or exhaustive whole-pack configurations.
+
+The Visions Preview Printing Booster Pack now references `vis-preview`.
+Validation resolves exactly ten MGB and fifteen VIS printings and checks 100
+packs for fifteen nonfoil cards with the 11/3/1 allocation. This closes the
+preview-booster pool/layout question; it does not establish an exact gift-box
+release day or complete the gift box's foreign-booster contents.
+
+## Planeshift Fat Pack (#615)
+
+The [UnsleevedMedia opening](https://www.youtube.com/watch?v=QLba4uEUGMU)
+shows the package contents and emptied tray at approximately 1:18–2:48. The
+printed list gives six boosters, two premium cards, a player's guide and the
+novel, without a life counter. The [retailer contents list](https://facetofacegames.com/en-intl/products/planeshift-fat-pack)
+agrees. Retain the existing recipe without a counter; the generic collector
+statement extending counters back to Planeshift is not supported by this
+product's packaging. No recipe edit is necessary.
 
 ## Starter 2000 sampler date (#615)
 
@@ -139,6 +185,8 @@ remain unresolved by the current model. No eleventh card is added.
 ## Remaining issue coverage
 
 Every open historical product issue was reviewed against the current defaults.
+The current research pass excludes foreign editions and Eighth/Ninth Edition
+products at the user's direction; those rows remain as deferred inventory.
 A source conflict is retained as a question, not converted into an exact date,
 UUID or probability. This table distinguishes implemented corrections from
 work that still needs evidence or upstream representation.
@@ -147,12 +195,12 @@ work that still needs evidence or upstream representation.
 | --- | --- |
 | [623](https://github.com/taw/magic-search-engine/issues/623), 1994 | Live MTGJSON FBB has 307 cards; FWB has none. The search index lacks both sets. Foreign-printing ingestion and supported booster/starter collation are prerequisites; ordinary Revised UUIDs are not replacements. |
 | [622](https://github.com/taw/magic-search-engine/issues/622), 1995 | Live MTGJSON has 378 4BB and 125 BCHR cards, but neither is in the search index. Resolve ingestion, language/printing identity and regional dates before supplying exact recipes. |
-| [621](https://github.com/taw/magic-search-engine/issues/621), 1996 | Rivals rules-card count resolved by sheet scan. Rivals date/printing, Multiverse preview collation/date and Japanese Introductory variant identity remain open. PTC still has only its blank token upstream; sixteen biography/decklist identifiers are missing. |
+| [621](https://github.com/taw/magic-search-engine/issues/621), 1996 | Rivals rules-card count resolved by sheet scan. Multiverse preview booster pool and 11/3/1 layout now implemented. Rivals date/printing and exact Multiverse date remain open; foreign product contents and Japanese Introductory identity are deferred. PTC still has only its blank token upstream; sixteen biography/decklist identifiers are missing. |
 | [620](https://github.com/taw/magic-search-engine/issues/620), 1997 | Slemr's 61+15 gameplay cards do not prove a blank count. Complete package evidence, WC97 display/date evidence and Vanguard gift regional metadata remain needed. |
 | [619](https://github.com/taw/magic-search-engine/issues/619), 1998 | Unglued common/rare marginal weights corrected. Token-slot/sequential collation, contradictory WC98 assortments/dates, separate VHS catalog identities and Portal regional metadata remain. |
 | [618](https://github.com/taw/magic-search-engine/issues/618), 1999 | WC99 blanks merged. Retail date, Warmonger inclusion in the Fat Pack guide and separate combined Starter kit identity remain unverified. |
 | [616](https://github.com/taw/magic-search-engine/issues/616), 2000 | WC00 retail month differs from tournament date; no independently verified exact day. |
-| [615](https://github.com/taw/magic-search-engine/issues/615), 2001 | Invalid sampler date removed; exact distribution date, WC01 retail date and Planeshift counter evidence remain open. |
+| [615](https://github.com/taw/magic-search-engine/issues/615), 2001 | Invalid sampler date removed; Planeshift packaging supports the existing no-counter recipe. Exact sampler distribution date and WC01 retail date remain open. |
 | [614](https://github.com/taw/magic-search-engine/issues/614), 2002 | WC02 retail date remains disputed. Advance release plans cannot establish actual distribution. |
 | [613](https://github.com/taw/magic-search-engine/issues/613), 2003 | Mirrodin contents corroborated. Eighth Edition oversized identities remain absent from current 8ED/P8ED data; WC03 retail dating remains open. |
 | [612](https://github.com/taw/magic-search-engine/issues/612), 2004 | WC04 retail date needs contemporary corroboration. |
@@ -160,7 +208,7 @@ work that still needs evidence or upstream representation.
 | [609](https://github.com/taw/magic-search-engine/issues/609), 2008 | Anniversary land pack merged; June 20 versus June 25 date remains unresolved. |
 | [604](https://github.com/taw/magic-search-engine/issues/604), 2011 | M12 nested variables select four distinct colors, with independent A/B choices. Equal choice weights remain estimates. |
 | [605](https://github.com/taw/magic-search-engine/issues/605), 2012 | M13 corrected to forty deck cards with five additional packs; nested variables preserve two different colors per deck and allow repetition between decks. RTR and Duels mappings merged. Helvault exact allocation/premium identities remain unresolved. |
-| [601](https://github.com/taw/magic-search-engine/issues/601), 2016 | Tokens and W16 merged. OGW exact land-art counts and Wastes split still need a complete opening inventory. |
+| [601](https://github.com/taw/magic-search-engine/issues/601), 2016 | Tokens and W16 merged. An additional [OGW opening](https://www.youtube.com/watch?v=h6r-k7_9uiE&t=187s) counts fourteen Wastes in the land pack, but does not establish the proposed 7/7 art split. Exact colored-land art counts and Wastes split still need a complete inventory. |
 | [596](https://github.com/taw/magic-search-engine/issues/596), 2019 | ELD sheet/layout refinement implemented. RNA exact guild assignments, WAR overlapping promo eligibility and experimental-product metadata remain open. A January 2019 Japanese shop announcement supports Japanese availability but does not establish the English SKU date. |
 
 Upstream presence was checked against [MTGJSON set files](https://mtgjson.com/downloads/all-files/).
@@ -168,3 +216,8 @@ Presence in MTGJSON does not imply that the search index ingests the printing.
 The [January 25 Japanese RNA release report](https://www.izzetmtgnews.com/archives/75505)
 quotes a January 24 shop announcement for Collector Boosters on sale the next
 day; this is regional evidence, not a basis for overwriting every catalog date.
+
+The recovered [archived official WC01 product page](https://web.archive.org/web/20130809020401/http://www.wizards.com:80/magic/tcg/productarticle.aspx?x=mtg/tcg/champdeck2001/productinfo)
+confirms the deck components but supplies no retail release date. Tournament
+dates and contradictory collector dates therefore remain insufficient for exact
+date changes across WC97–04. No exact day is inferred from a month alone.
