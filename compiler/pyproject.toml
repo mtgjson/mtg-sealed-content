@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mtg-sealed-choices"
-version = "0.1.0"
-description = "Shared choice expansion for Magic sealed product recipes"
+version = "0.2.0"
+description = "Shared recipe compilation and membership traversal for Magic sealed products"
 requires-python = ">=3.10"
 license = "MIT"
 license-files = ["LICENSE.txt"]

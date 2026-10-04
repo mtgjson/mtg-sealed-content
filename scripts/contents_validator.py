@@ -23,6 +23,8 @@ else:
     from atomic_write import atomic_write
     import sealed_yaml
 
+from mtg_sealed_choices.model import deck_links
+
 import argparse
 import copy
 import json
@@ -146,19 +148,6 @@ def build_uuid_map(mtgjson_path):
 
     return uuids
 
-def deck_links(all_products):
-    deck_mapper = {}
-    for set_contents in all_products.values():
-        for product_contents in set_contents.values():
-            if not product_contents.uuid:
-                continue
-            for deck in product_contents.deck:
-                if deck.set not in deck_mapper:
-                    deck_mapper[deck.set] = {}
-                if deck.name not in deck_mapper[deck.set]:
-                    deck_mapper[deck.set][deck.name] = []
-                deck_mapper[deck.set][deck.name].append(product_contents.uuid)
-    return deck_mapper
 
 valid_categories = [
     "BOOSTER_PACK", "BOOSTER_BOX", "BOOSTER_CASE", "DECK", "MULTI_DECK",

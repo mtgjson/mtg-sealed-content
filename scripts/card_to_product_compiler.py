@@ -1,3 +1,4 @@
+from mtg_sealed_choices.links import CardReference as Card, explicit_card, variable_cards, deck_cards, results_to_json
 if __package__:
     from .atomic_write import atomic_write
 else:
@@ -11,23 +12,6 @@ import pathlib
 from collections import defaultdict
 from typing import Any, Dict, Set, List
 import requests
-
-
-class Card:
-    uuid: str
-    finish: str
-
-    def __init__(self, uuid: str, finish: str):
-        self.uuid = uuid
-        self.finish = finish
-
-    def __hash__(self):
-        return hash((self.uuid, self.finish))
-
-    def __eq__(self, other: Any):
-        if not isinstance(other, Card):
-            return False
-        return self.uuid == other.uuid and self.finish == other.finish
 
 
 class MtgjsonCardLinker:
@@ -132,107 +116,22 @@ class MtgjsonCardLinker:
 
         return list(return_value)
 
-    @staticmethod
-    def get_card_obj_from_card(card_content: Dict[str, Any]) -> List[Card]:
-        if card_content.get("etched"):
-            finish = "etched"
-        else:
-            finish = "foil" if card_content.get("foil") else "nonfoil"
-        if "uuid" in card_content:
-            return [Card(card_content["uuid"], finish)]
-        else:
-            return []
+    get_card_obj_from_card = staticmethod(explicit_card)
 
-    def get_cards_in_content_type(
-        self, content_key: str, content: Dict[str, Any]
-    ) -> List[Card]:
-
-        if content_key not in ["card", "pack", "sealed", "deck", "variable", "other"]:
-            raise ValueError(f"Unknown content_key: {content_key}")
-
+    def get_cards_in_content_type(self, content_key: str, content: Dict[str, Any]) -> List[Card]:
         if content_key == "card":
-            """
-            "card": [
-                {
-                    "foil": true,
-                    "name": "Elvish Champion",
-                    "number": "241★",
-                    "set": "8ed",
-                    "uuid": "51729dab-95a0-59f0-a829-82dc2d748c1d"
-                }
-            ]
-            """
-            return self.get_card_obj_from_card(content)
-
+            return explicit_card(content)
         if content_key == "pack":
-            """
-            "pack": [
-                {
-                    "code": "default",
-                    "set": "10e"
-                }
-            ]
-            """
             return self.get_cards_in_pack(content["set"].upper(), content["code"])
-
         if content_key == "sealed":
-            """
-            "sealed": [
-                {
-                    "count": 36,
-                    "name": "Tenth Edition Booster Pack",
-                    "set": "10e",
-                    "uuid": "c690e178-661d-5e17-9b29-a5bf6319a844"
-                }
-            ]
-            """
-            return self.get_cards_in_sealed_product(
-                content["set"].upper(), content.get("uuid")
-            )
-
+            return self.get_cards_in_sealed_product(content["set"].upper(), content.get("uuid"))
         if content_key == "deck":
-            """
-            "deck": [
-                {
-                    "name": "Deck Name",
-                    "set": "10e"
-                }
-            ]
-            """
             return self.get_cards_in_deck(content["set"].upper(), content["name"])
-
         if content_key == "variable":
-            """
-            "variable": [
-            {
-                "configs": [
-                    {
-                        "deck": [
-                            {
-                                "name": "A Welcome Deck - White",
-                                "set": "w17"
-                            },
-                            {
-                                "name": "A Welcome Deck - Blue",
-                                "set": "w17"
-                            }
-                        ]
-                    }
-                ]
-            }
-            """
-            return_value = set()
-            for config in content["configs"]:
-                # Configurations contain the same content types as products,
-                # including further variable choices. Ignore configuration
-                # metadata such as card_count and variable_config.
-                for kind in ("card", "pack", "sealed", "deck", "variable", "other"):
-                    for entry in config.get(kind, []):
-                        return_value.update(self.get_cards_in_content_type(kind, entry))
-
-            return list(return_value)
-
-        return []
+            return variable_cards(content, self.get_cards_in_content_type)
+        if content_key == "other":
+            return []
+        raise ValueError(f"Unknown content_key: {content_key}")
 
     def get_cards_in_pack(self, set_code: str, booster_code: str) -> List[Card]:
         try:
@@ -306,19 +205,8 @@ class MtgjsonCardLinker:
         for deck in decks_data:
             if deck["name"] != deck_name:
                 continue
-            deck_cards = (
-                deck.get("cards", [])
-                + deck.get("mainBoard", [])
-                + deck.get("sideBoard", [])
-                + deck.get("displayCommander", [])
-                + deck.get("commander", [])
-                + deck.get("tokens", [])
-                + deck.get("schemes", [])
-                + deck.get("planes", [])
-                + deck.get("planarDeck", [])
-                + deck.get("schemeDeck", [])
-            )
-            for deck_card in deck_cards:
+            cards = deck_cards(deck)
+            for deck_card in cards:
                 finish = "nonfoil"
                 # Validate a card can effectively be etched or foil by looking
                 # at the finish array. To retrieve this info we need to iterate
@@ -341,15 +229,6 @@ class MtgjsonCardLinker:
             break
 
         return list(return_value)
-
-
-def results_to_json(
-    build_data: Dict[Card, Set[str]]
-) -> Dict[str, Dict[str, List[str]]]:
-    return_value = defaultdict(lambda: defaultdict(list))
-    for card, product_uuids in build_data.items():
-        return_value[card.uuid][card.finish] = sorted(product_uuids)
-    return return_value
 
 
 def parse_args() -> argparse.Namespace:
