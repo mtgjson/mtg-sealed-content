@@ -2640,9 +2640,7 @@
                     "uuid": "74a8ea63-91e1-5cb6-b851-b0d333a5ba80"
                 },
                 {
-                    "faceId": "4",
-                    "faceName": "Phyrexian Germ",
-                    "tokenType": "Token"
+                    "uuid": "c949cdeb-84a4-564f-b8a0-7f0c8d97cf41"
                 }
             ]
         }
@@ -4901,6 +4899,40 @@
             ]
         }
     ],
+    "c949cdeb-84a4-564f-b8a0-7f0c8d97cf41": [
+        {
+            "identifiers": {
+                "tcgplayerProductId": "721343"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F721343%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "c949cdeb-84a4-564f-b8a0-7f0c8d97cf41"
+                },
+                {
+                    "uuid": "f045f6be-16cb-5db5-af54-2c0e9d9e11a5"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "721580"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F721580%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "74a8ea63-91e1-5cb6-b851-b0d333a5ba80"
+                },
+                {
+                    "uuid": "c949cdeb-84a4-564f-b8a0-7f0c8d97cf41"
+                }
+            ]
+        }
+    ],
     "cae528f9-9ef1-5daa-9cc1-6f1cf1af94e5": [
         {
             "identifiers": {
@@ -6020,9 +6052,7 @@
             },
             "tokenParts": [
                 {
-                    "faceId": "4",
-                    "faceName": "Phyrexian Germ",
-                    "tokenType": "Token"
+                    "uuid": "c949cdeb-84a4-564f-b8a0-7f0c8d97cf41"
                 },
                 {
                     "uuid": "f045f6be-16cb-5db5-af54-2c0e9d9e11a5"
