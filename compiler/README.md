@@ -35,11 +35,26 @@ calculate probabilities. Consumer callbacks supply catalog and language context.
 
 The sealed repository still owns YAML editing, placeholders/orphans, downloading
 AllPrintings and status.txt. MTGJSON still owns pipeline inputs, language-aware
-UUIDs, unresolved-card filtering and published model validation. Booster finish
-lookup also remains local: the sealed adapter has legacy H1R/MH2/STA etched
-fallbacks absent from the pipeline adapter. These policies were not silently
-unified during extraction.
+UUIDs, unresolved-card filtering and published model validation. Catalog traversal now lives in `CatalogWalker`; small adapter hooks retain the
+sealed adapter's legacy H1R/MH2/STA etched fallbacks, missing-reference diagnostics
+and pipeline language selection. These policies are not silently unified.
 
 Tests cover nested resolution hooks, weighted choices, metadata, card membership,
 direct deck links and deterministic reverse-index output. Both consumers use
 these implementations rather than maintaining another copy.
+
+## Shared catalog traversal (0.3.0)
+
+`mtg_sealed_choices.catalog.CatalogWalker` owns booster-sheet selection, deck
+membership and finish validation, sealed-product lookup and recursive content
+dispatch. Consumers override policy hooks rather than copying these loops.
+Product language applies to that product's deck references, including nested
+choices; nested sealed products choose their own language independently.
+Non-list content metadata such as `card_count` is skipped during traversal.
+
+`uuid_map_from_events` in `mtg_sealed_choices.uuid_map` consumes ijson-compatible
+stream events and builds card/token/product/deck/booster lookup maps. File and
+network handling remain local, so the package still has no runtime dependencies.
+The map separates cards from tokens, ignores back faces and preserves collector
+numbers verbatim. MTGJSON's Polars pipeline index builder remains local because
+it consumes different inputs and implements language-specific UUID selection.

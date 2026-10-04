@@ -1,4 +1,5 @@
-from mtg_sealed_choices.links import CardReference as Card, explicit_card, variable_cards, deck_cards, results_to_json
+from mtg_sealed_choices.links import CardReference as Card, results_to_json
+from mtg_sealed_choices.catalog import CatalogWalker
 if __package__:
     from .atomic_write import atomic_write
 else:
@@ -10,11 +11,11 @@ import lzma
 import os
 import pathlib
 from collections import defaultdict
-from typing import Any, Dict, Set, List
+from typing import Any, Dict, Set
 import requests
 
 
-class MtgjsonCardLinker:
+class MtgjsonCardLinker(CatalogWalker):
     mtgjson_data: Dict[str, Any]
 
     # We grab the .xz build (~92 MB vs ~622 MB raw) and decompress with stdlib
@@ -99,136 +100,23 @@ class MtgjsonCardLinker:
 
         return return_value
 
-    def get_cards_in_sealed_product(
-        self, set_code: str, sealed_product_uuid: str
-    ) -> List[Card]:
-        return_value = set()
+    def extra_pack_finishes(self, source_code: str, card: dict) -> set[str]:
+        # Preserve the legacy corrections; MTGJSON's pipeline has no such fallback.
+        if source_code == "MH2" and not 262 <= int(card["number"]) <= 441:
+            return set()
+        return {"etched"} if source_code in {"H1R", "MH2", "STA"} else set()
 
-        for sealed_product in self.mtgjson_data[set_code]["sealedProduct"]:
-            if sealed_product_uuid != sealed_product.get("uuid"):
-                continue
+    def missing_deck_source(self, code: str) -> None:
+        print(f"Note: {code} was NOT found in mtgjson")
 
-            for content_key, contents in sealed_product.get("contents", {}).items():
-                for content in contents:
-                    cards = self.get_cards_in_content_type(content_key, content)
-                    return_value.update(cards)
-            break
+    def pack_source_cards(self, code: str) -> list[dict]:
+        return self.mtgjson_data[code]["cards"]
 
-        return list(return_value)
+    def deck_source_codes(self, deck: dict) -> list[str]:
+        return deck["sourceSetCodes"]
 
-    get_card_obj_from_card = staticmethod(explicit_card)
-
-    def get_cards_in_content_type(self, content_key: str, content: Dict[str, Any]) -> List[Card]:
-        if content_key == "card":
-            return explicit_card(content)
-        if content_key == "pack":
-            return self.get_cards_in_pack(content["set"].upper(), content["code"])
-        if content_key == "sealed":
-            return self.get_cards_in_sealed_product(content["set"].upper(), content.get("uuid"))
-        if content_key == "deck":
-            return self.get_cards_in_deck(content["set"].upper(), content["name"])
-        if content_key == "variable":
-            return variable_cards(content, self.get_cards_in_content_type)
-        if content_key == "other":
-            return []
-        raise ValueError(f"Unknown content_key: {content_key}")
-
-    def get_cards_in_pack(self, set_code: str, booster_code: str) -> List[Card]:
-        try:
-            booster_data = self.mtgjson_data[set_code].get("booster")
-        except KeyError:
-            return []
-        if not booster_data:
-            return []
-
-        sheet_data = booster_data.get(booster_code)
-        if not sheet_data:
-            return []
-
-        sheets_to_poll = set()
-        for booster in sheet_data["boosters"]:
-            sheets_to_poll.update(booster["contents"].keys())
-
-        return_value = set()
-        for sheet in sheets_to_poll:
-            cards_in_sheet = sheet_data["sheets"][sheet]["cards"]
-
-            for card_uuid in cards_in_sheet.keys():
-                finish = "nonfoil"
-                code = ""
-
-                # Validate a card can effectively be etched or foil by looking
-                # at the finish array. To retrieve this info we need to iterate
-                # on the possible set codes present in the pack
-                if sheet_data["sheets"][sheet]["foil"]:
-                    finishes = []
-                    for source_code in sheet_data["sourceSetCodes"]:
-                        for card in self.mtgjson_data[source_code]["cards"]:
-                            if card_uuid == card["uuid"]:
-                                finishes = card["finishes"]
-                                code = source_code
-
-                                # This set is particularly complicated because only certain portions
-                                # of the cards have this problem, therefore parse the number and skip
-                                # any fixing if it's not in the right range
-                                if code == "MH2":
-                                    num = int(card["number"])
-                                    # 262-441 has all the non basic cards that could be foil or etched
-                                    # so process those below and skip otherwise
-                                    if num < 262 or num > 441:
-                                        code = ""
-
-                    # Check if sheet contains "etched" or if there is a single finish (matching to "etched")
-                    # ie. for some MH3 etched-only cards, otherwise check if there is a valid foil finish
-                    if ("etched" in sheet.lower() or len(finishes) == 1) and "etched" in finishes:
-                        finish = "etched"
-                    elif "foil" in finishes:
-                        finish = "foil"
-
-                return_value.add(Card(card_uuid, finish))
-
-                # Upstream does not track etched version of these cards, so we duplicate them here
-                if code and code in ["H1R", "MH2", "STA"]:
-                    return_value.add(Card(card_uuid, "etched"))
-
-        return list(return_value)
-
-    def get_cards_in_deck(self, set_code: str, deck_name: str) -> List[Card]:
-        try:
-            decks_data = self.mtgjson_data[set_code].get("decks")
-        except KeyError:
-            return []
-        if not decks_data:
-            return []
-
-        return_value = set()
-        for deck in decks_data:
-            if deck["name"] != deck_name:
-                continue
-            cards = deck_cards(deck)
-            for deck_card in cards:
-                finish = "nonfoil"
-                # Validate a card can effectively be etched or foil by looking
-                # at the finish array. To retrieve this info we need to iterate
-                # on the possible set codes present in the deck
-                finishes = []
-                for code in deck["sourceSetCodes"]:
-                    if code not in self.mtgjson_data:
-                        print(f"Note: {code} was NOT found in mtgjson")
-                        continue
-                    for card in self.mtgjson_data[code]["cards"] + self.mtgjson_data[code]["tokens"]:
-                        if deck_card["uuid"] == card["uuid"]:
-                            finishes = card["finishes"]
-                            break
-
-                if deck_card.get("isEtched", False) and "etched" in finishes:
-                    finish = "etched"
-                elif deck_card.get("isFoil", False) and "foil" in finishes:
-                    finish = "foil"
-                return_value.add(Card(deck_card["uuid"], finish))
-            break
-
-        return list(return_value)
+    def sealed_products(self, code: str) -> list[dict]:
+        return self.mtgjson_data[code]["sealedProduct"]
 
 
 def parse_args() -> argparse.Namespace:

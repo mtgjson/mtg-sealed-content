@@ -24,6 +24,7 @@ else:
     import sealed_yaml
 
 from mtg_sealed_choices.model import deck_links
+from mtg_sealed_choices.uuid_map import uuid_map_from_events
 
 import argparse
 import copy
@@ -57,94 +58,11 @@ def build_uuid_map(mtgjson_path):
 
     print("🤖 filtering sealed products...")
 
-    uuids = {}
-    current_set = ""
-    status = ""
-    name = ""
-    number = ""
-    uuid = ""
-    holding = ""
-    for prefix, event, value in parser:
-        if prefix == "data" and event == "map_key":
-            current_set = value
-            ccode = current_set.lower()
-            uuids[ccode] = {
-                "booster": set(),
-                "decks": set(),
-                "sealedProduct": {},
-                "cards": {},
-                "tokens": {},
-            }
-            status = ""
-        elif prefix == f"data.{current_set}" and event == "map_key":
-            status = value
-        elif (
-            status == "booster"
-            and prefix == f"data.{current_set}.booster"
-            and event == "map_key"
-        ):
-            uuids[ccode]["booster"].add(value)
-        elif status == "decks" and prefix == f"data.{current_set}.decks.item.name":
-            uuids[ccode]["decks"].add(value)
-        elif status == "sealedProduct":
-            if (
-                prefix == f"data.{current_set}.sealedProduct.item"
-                and event == "start_map"
-            ):
-                name = ""
-                uuid = ""
-            elif prefix == f"data.{current_set}.sealedProduct.item.name":
-                name = value
-            elif prefix == f"data.{current_set}.sealedProduct.item.uuid":
-                uuid = value
-            elif (
-                prefix == f"data.{current_set}.sealedProduct.item"
-                and event == "end_map"
-            ):
-                uuids[ccode]["sealedProduct"][name] = uuid
-        elif status == "cards":
-            # Only preserve the "main" face of the card
-            if prefix == f"data.{current_set}.cards.item.side":
-                if value != "a":
-                    holding = "skip"
-            if prefix == f"data.{current_set}.cards.item" and event == "start_map":
-                number = ""
-                name = ""
-                uuid = ""
-            elif prefix == f"data.{current_set}.cards.item.number":
-                number = value
-            elif prefix == f"data.{current_set}.cards.item.name":
-                name = value
-            elif prefix == f"data.{current_set}.cards.item.uuid":
-                uuid = value
-            elif prefix == f"data.{current_set}.cards.item" and event == "end_map":
-                if holding != "skip":
-                    uuids[ccode]["cards"][number] = (uuid, name)
-                holding = ""
-        elif status == "tokens":
-            # Tokens live in a separate array from cards but are referenced the
-            # same way (by collector number), e.g. SLD 918 "Food". Index them so
-            # card lookups can fall back here. Only keep the "main" face.
-            if prefix == f"data.{current_set}.tokens.item.side":
-                if value != "a":
-                    holding = "skip"
-            if prefix == f"data.{current_set}.tokens.item" and event == "start_map":
-                number = ""
-                name = ""
-                uuid = ""
-            elif prefix == f"data.{current_set}.tokens.item.number":
-                number = value
-            elif prefix == f"data.{current_set}.tokens.item.name":
-                name = value
-            elif prefix == f"data.{current_set}.tokens.item.uuid":
-                uuid = value
-            elif prefix == f"data.{current_set}.tokens.item" and event == "end_map":
-                if holding != "skip":
-                    uuids[ccode]["tokens"][number] = (uuid, name)
-                holding = ""
-
-    if mtgjson_path:
-        f.close()
+    try:
+        uuids = uuid_map_from_events(parser)
+    finally:
+        if mtgjson_path:
+            f.close()
 
     return uuids
 
