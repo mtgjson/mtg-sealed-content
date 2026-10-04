@@ -11,7 +11,6 @@ products:
       deck:
       - name: Black Deck
         set: w16
-      # Second half is a different color; see product-backlog-research.md.
       variable:
       - deck:
         - name: White Deck
@@ -36,7 +35,6 @@ products:
       deck:
       - name: Blue Deck
         set: w16
-      # Second half is a different color; see product-backlog-research.md.
       variable:
       - deck:
         - name: White Deck
@@ -61,7 +59,6 @@ products:
       deck:
       - name: Green Deck
         set: w16
-      # Second half is a different color; see product-backlog-research.md.
       variable:
       - deck:
         - name: White Deck
@@ -86,7 +83,6 @@ products:
       deck:
       - name: Red Deck
         set: w16
-      # Second half is a different color; see product-backlog-research.md.
       variable:
       - deck:
         - name: White Deck
@@ -112,7 +108,6 @@ products:
       deck:
       - name: White Deck
         set: w16
-      # Second half is a different color; see product-backlog-research.md.
       variable:
       - deck:
         - name: Blue Deck
