@@ -35,6 +35,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
+    - name: test shared choice engine
+      run: python -m unittest discover -s compiler/tests
+
     - name: test deck card counts
       run: python -m unittest discover -s tests
 
