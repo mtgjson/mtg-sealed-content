@@ -182,6 +182,31 @@ rares (Ashnod's Coupon and Strategy, Schmategy). The booster now uses these
 marginal weights. Sequential sheet runs and tokens occupying uncommon slots
 remain unresolved by the current model. No eleventh card is added.
 
+## OGW / ELD follow-up (2026-10-06)
+
+- **OGW confirmed, no quantity change:** [MTGGoldfish's opening at 3:34](https://www.youtube.com/watch?v=JpL2OmzxHXk&t=214s)
+  lays out fourteen Wastes: four of each artwork on the upper row and three
+  of each on the lower row. This independently corroborates seven OGW 183 and
+  seven OGW 184. It does not establish every colored-land quantity. The deck
+  source now points to this opening and explicitly labels the retained colored
+  allocation unverified. One opening is corroboration, not proof of every print run.
+- **ELD correction:** the extra rare query in the foil rare/mythic sheet resolves
+  to Piper of the Swarm 392, the alternate-art Bundle promo. Remove that query;
+  ordinary Piper 100 and extended-art Piper 355 remain eligible. Wizards identifies
+  the [Bundle promo separately](https://magic.wizards.com/en/news/card-preview/throne-eldraine-promos-2019-09-20);
+  its [Collector slot description](https://magic.wizards.com/en/news/making-magic/project-booster-fun-2019-07-20)
+  does not add alternate-art Bundle promos to the pool.
+- **ELD unresolved:** the six foil Brawl/Planeswalker Deck mythics remain an
+  eligibility question. [Contemporary Reddit discussion](https://www.reddit.com/r/magicTCG/comments/euobax)
+  explicitly excludes supplemental foils, but supplies no opening inventory or
+  primary citation for that exclusion. The [current MTG Wiki article](https://mtg.wiki/page/Throne_of_Eldraine)
+  also has a citation mismatch: its exclusion sentence links to
+  [Rosewater's September 20 clarification](https://markrosewater.tumblr.com/post/187843835488/the-problem-with-making-your-kids-breakfast),
+  which only discusses showcase cards and confirms nonfoil common showcases
+  **do** appear in Collector Boosters. It does not discuss deck-exclusive foils.
+  Do not treat that footnote as official confirmation of deck-foil eligibility.
+  Their current membership and estimated relative weights are retained.
+
 ## Remaining issue coverage
 
 Every open historical product issue was reviewed against the current defaults.
@@ -208,7 +233,7 @@ work that still needs evidence or upstream representation.
 | [609](https://github.com/taw/magic-search-engine/issues/609), 2008 | Anniversary land pack merged; June 20 versus June 25 date remains unresolved. |
 | [604](https://github.com/taw/magic-search-engine/issues/604), 2011 | M12 nested variables select four distinct colors, with independent A/B choices. Equal choice weights remain estimates. |
 | [605](https://github.com/taw/magic-search-engine/issues/605), 2012 | M13 corrected to forty deck cards with five additional packs; nested variables preserve two different colors per deck and allow repetition between decks. RTR and Duels mappings merged. Helvault exact allocation/premium identities remain unresolved. |
-| [601](https://github.com/taw/magic-search-engine/issues/601), 2016 | Tokens and W16 merged. An additional [OGW opening](https://www.youtube.com/watch?v=h6r-k7_9uiE&t=187s) counts fourteen Wastes in the land pack, but does not establish the proposed 7/7 art split. Exact colored-land art counts and Wastes split still need a complete inventory. |
+| [601](https://github.com/taw/magic-search-engine/issues/601), 2016 | Tokens and W16 merged. An additional [OGW opening](https://www.youtube.com/watch?v=h6r-k7_9uiE&t=187s) counts fourteen Wastes in the land pack, but does not establish its art split. [MTGGoldfish at 3:34](https://www.youtube.com/watch?v=JpL2OmzxHXk&t=214s) visibly lays out seven of each Wastes art, corroborating the existing 7/7 allocation. Exact colored-land art counts still need a complete inventory. |
 | [596](https://github.com/taw/magic-search-engine/issues/596), 2019 | ELD sheet/layout refinement implemented. RNA exact guild assignments, WAR overlapping promo eligibility and experimental-product metadata remain open. A January 2019 Japanese shop announcement supports Japanese availability but does not establish the English SKU date. |
 
 Upstream presence was checked against [MTGJSON set files](https://mtgjson.com/downloads/all-files/).
