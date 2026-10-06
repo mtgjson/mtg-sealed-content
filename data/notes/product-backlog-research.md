@@ -96,7 +96,7 @@ The [CardTrader catalog photograph](https://www.cardtrader.com/en/cards/the-helv
 
 Thirty of approximately 6,000 Helvaults were premium versions, sent to selected Advanced WPN stores: foil oversized cards and tokens, plus 54 copies of one promotional foil selected from twelve possibilities. The promo is selected once per Helvault, not independently 54 times. Exact oversized multiplicities, all twelve premium promo identities, and a distinct premium catalog identity remain unresolved. Do not infer equal per-box quantities or independently randomized foil finishes.
 
-The ordinary-box accessory totals and 54-card count are corrected. Only one copy of each oversized identity remains mapped; the other 49 copies are explicitly described as unresolved, not modeled as independent draws. The 108 physical double-sided tokens remain descriptive until there is a suitable full-box deck definition. This is a partial contents correction, not a completed Helvault model.
+The ordinary-box accessory totals and 54-card count are corrected. Only one copy of each oversized identity remains mapped; the other 49 copies are explicitly described as unresolved, not modeled as independent draws. The full-box deck definition now maps all 108 physical double-sided Angel/Demon tokens, with both PHEL faces identified. Tokens do not increase the 54 oversized-card count. This is a partial contents correction, not a completed Helvault model.
 
 [Adam Grayson’s contemporary opening](https://www.youtube.com/watch?v=AwaU4PKGg2s) shows the full box and confirms the bulk contents, but does not provide a readable count per oversized identity. A [contemporary collector post](https://www.mtgsalvation.com/forums/market-street/market-street-cafe/387091-helvault-oversized-cards-foil) says 10–11 copies per identity in premium boxes without establishing which identity has ten or how allocations vary. That statement is insufficient to assign a fixed normal-box collation. Premium boxes remain unmodeled; no twelve-promo checklist or separate catalog identifier was established.
 
@@ -246,3 +246,15 @@ The recovered [archived official WC01 product page](https://web.archive.org/web/
 confirms the deck components but supplies no retail release date. Tournament
 dates and contradictory collector dates therefore remain insufficient for exact
 date changes across WC97–04. No exact day is inferred from a month alone.
+
+## Expanded reference audit: Mythic Edition and Mercadian Masques
+
+The GRN Mythic Edition still referenced a retired token-only deck while the importer had created an identifier-less duplicate from the canonical deck. Reference the existing full deck, retain the original product identifiers and 24 packs, and remove the duplicate. The importer already excludes referenced decks, so no new exclusion is needed.
+
+Wizards gives the sale dates as [GRN October 3, 2018](https://magic.wizards.com/en/news/card-preview/guilds-ravnica-packaging-promos-and-more-2018-09-04), [RNA January 24, 2019](https://magic.wizards.com/en/news/announcements/ravnica-allegiance-mythic-edition-2019-01-10), and [WAR May 1, 2019](https://magic.wizards.com/en/news/announcements/war-spark-mythic-edition-2019-04-18). Align the three deck dates and GRN product date; place tokens in the decklists' Sideboard sections.
+
+A scan against the current deck source found 13 unresolved references before this repair: the retired GRN deck, two FRA land packs, and ten TRK/TRC lists. The latter twelve require their actual lists; do not invent allocations from overall counts.
+
+The [UnsleevedMedia Mercadian Masques Fat Pack opening](https://www.youtube.com/watch?v=7ZySLubMU4M&t=186s) visibly shows a foil Warmonger at 3:06 after opening the package. This confirms presence in that opening, but does not establish whether it is additional to, or one of, the two advertised premium cards. Keep the executable bonus model unchanged until that distinction is settled.
+
+The token audit also repairs all three Mythic Edition lists. [GRN](https://mtg.wiki/page/Guilds_of_Ravnica/Mythic_Edition) uses the eight TMED G1–G8 tokens/emblems, not the ordinary TGRN set. [RNA](https://mtg.wiki/page/Ravnica_Allegiance/Mythic_Edition) supplies two Constructs, four different emblems, and two RNA Beast tokens (one each with Ajani and Kaya). [WAR](https://mtg.wiki/page/War_of_the_Spark/Mythic_Edition) supplies three Beasts, four Dragons, and one Garruk emblem. The old RNA/WAR lists counted unique identities rather than all eight physical inserts.
