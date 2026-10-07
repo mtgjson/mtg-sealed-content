@@ -21,3 +21,9 @@ Bundle, but there are fifteen tower artworks in the set. Neither source gives
 an exact allocation of those artworks within either product. Do not turn
 these totals into invented fixed decklists. Existing unresolved references
 remain visible until a complete land-pack inventory is available.
+
+The [official WPN product guide, page 1](https://media.wizards.com/2026/wpn/marketing_materials/fra/fra_product_guide_en.pdf)
+explicitly dates the Secret Lair Bundle to October 23, 2026. Its product and
+case therefore use October 23, rather than inheriting the main set's October 2
+release. The guide still supplies no tower-art allocation. The regular Bundle
+retains its October 2 date.
