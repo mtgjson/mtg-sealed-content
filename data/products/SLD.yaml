@@ -1500,6 +1500,20 @@ products:
       - count: 1
         name: Secret Lair Drop Secret Lair x Warhammer Age of Sigmar Foil
         set: sld
+  Secret Lair Bundle Out of Time Superdrop The Worlds Bundliest Bundle:
+    category: BOX_SET
+    subtype: SECRET_LAIR_BUNDLE
+    identifiers:
+      cardtraderId: '171120'
+      mcmId: '577210'
+    contents:
+      sealed:
+      - count: 1
+        name: Secret Lair Bundle Out of Time Superdrop The Worlds Foil est Bundle
+        set: sld
+      - count: 1
+        name: Secret Lair Bundle Out of Time Superdrop The Worlds Non Foil est Bundle
+        set: sld
   Secret Lair Bundle Out of Time Superdrop The Worlds Foil est Bundle:
     category: BOX_SET
     subtype: SECRET_LAIR_BUNDLE
@@ -1521,6 +1535,29 @@ products:
         set: sld
       - count: 1
         name: Secret Lair Drop Math Is For Blockers Foil
+        set: sld
+  Secret Lair Bundle Out of Time Superdrop The Worlds Non Foil est Bundle:
+    category: BOX_SET
+    subtype: SECRET_LAIR_BUNDLE
+    identifiers:
+      cardtraderId: '171118'
+      mcmId: '577208'
+    contents:
+      sealed:
+      - count: 1
+        name: Secret Lair Drop Artist Series Johannes Voss
+        set: sld
+      - count: 1
+        name: Secret Lair Drop Artist Series Thomas Baxa
+        set: sld
+      - count: 1
+        name: Secret Lair Drop Kamigawa Ink
+        set: sld
+      - count: 1
+        name: Secret Lair Drop Math Is For Blockers
+        set: sld
+      - count: 1
+        name: Secret Lair Drop Teferis Time Trouble
         set: sld
   Secret Lair Bundle Second Secretversary Bundle:
     category: BOX_SET
@@ -1605,6 +1642,60 @@ products:
         set: sld
       - count: 1
         name: Secret Lair Commander Deck Heads I Win Tails You Lose
+        set: sld
+  Secret Lair Bundle Secretversary Superdrop 2020 Foils Forever:
+    category: BOX_SET
+    subtype: SECRET_LAIR_BUNDLE
+    identifiers:
+      cardtraderId: '164550'
+      mcmId: '523590'
+    contents:
+      sealed:
+      - count: 1
+        name: Secret Lair Drop A Box of Rocks Foil
+        set: sld
+      - count: 1
+        name: Secret Lair Drop Artist Series Seb McKinnon Foil
+        set: sld
+      - count: 1
+        name: Secret Lair Drop Happy Little Gathering Foil
+        set: sld
+      - count: 1
+        name: Secret Lair Drop We Hope You Like Squirrels
+        set: sld
+  Secret Lair Bundle Secretversary Superdrop 2020 No Foils No Nonsense:
+    category: BOX_SET
+    subtype: SECRET_LAIR_BUNDLE
+    identifiers:
+      cardtraderId: '164549'
+      mcmId: '523585'
+    contents:
+      sealed:
+      - count: 1
+        name: Secret Lair Drop A Box of Rocks
+        set: sld
+      - count: 1
+        name: Secret Lair Drop Artist Series Seb McKinnon
+        set: sld
+      - count: 1
+        name: Secret Lair Drop Happy Little Gathering
+        set: sld
+      - count: 1
+        name: Secret Lair Drop Party Hard Shred Harder
+        set: sld
+  Secret Lair Bundle Secretversary Superdrop 2020 The Bundle Bundle:
+    category: BOX_SET
+    subtype: SECRET_LAIR_BUNDLE
+    identifiers:
+      cardtraderId: '164551'
+      mcmId: '523595'
+    contents:
+      sealed:
+      - count: 1
+        name: Secret Lair Bundle Secretversary Superdrop 2020 No Foils No Nonsense
+        set: sld
+      - count: 1
+        name: Secret Lair Bundle Secretversary Superdrop 2020 Foils Forever
         set: sld
   Secret Lair Bundle Secretversary Superdrop 2023 Goodie Bag Loaded with Everything:
     category: BOX_SET
@@ -1693,6 +1784,42 @@ products:
         set: sld
       - count: 1
         name: Secret Lair Drop Paradise Frost
+        set: sld
+  Secret Lair Bundle Smitten Superdrop All Our Love:
+    category: BOX_SET
+    subtype: SECRET_LAIR_BUNDLE
+    identifiers:
+      cardtraderId: '152838'
+      mcmId: '540178'
+    contents:
+      sealed:
+      - count: 1
+        name: Secret Lair Drop Faerie Faerie Faerie Rad Foil
+        set: sld
+      - count: 1
+        name: Secret Lair Drop Showcase Kaldheim Part 1
+        set: sld
+      - count: 1
+        name: Secret Lair Drop Showcase Kaldheim Part 1 Foil
+        set: sld
+      - count: 1
+        name: Secret Lair Drop Showcase Kaldheim Part 2
+        set: sld
+      - count: 1
+        name: Secret Lair Drop Showcase Kaldheim Part 2 Foil
+        set: sld
+      - count: 1
+        name: Secret Lair Drop The Unfathomable Crushing Brutality of Basic Lands
+        set: sld
+      - count: 1
+        name: Secret Lair Drop The Unfathomable Crushing Brutality of Basic Lands
+          Foil
+        set: sld
+      - count: 1
+        name: Secret Lair Drop Valentines Day 2021
+        set: sld
+      - count: 1
+        name: Secret Lair Drop Valentines Day 2021 Foil
         set: sld
   Secret Lair Bundle Spookydrop 2023 Cards in Costume:
     category: BOX_SET
@@ -2204,6 +2331,36 @@ products:
           set: slu
       variable_mode:
         count: 1
+  Secret Lair Bundle The Full Bundle:
+    category: BOX_SET
+    subtype: SECRET_LAIR_BUNDLE
+    release_date: '2019-12-02'
+    identifiers:
+      hareruyaId: '78420'
+      mcmId: '426601'
+    contents:
+      sealed:
+      - count: 1
+        name: Secret Lair Drop Bitterblossom Dreams
+        set: sld
+      - count: 1
+        name: Secret Lair Drop Eldraine Wonderland
+        set: sld
+      - count: 1
+        name: Secret Lair Drop Restless in Peace
+        set: sld
+      - count: 1
+        name: Secret Lair Drop Seeing Visions
+        set: sld
+      - count: 1
+        name: Secret Lair Drop “explosion sounds”
+        set: sld
+      - count: 1
+        name: Secret Lair Drop Kaleidoscope Killers
+        set: sld
+      - count: 1
+        name: Secret Lair Drop OMG KITTIES
+        set: sld
   Secret Lair Bundle Theros Stargazing Vol I-V:
     category: BOX_SET
     subtype: SECRET_LAIR_BUNDLE
