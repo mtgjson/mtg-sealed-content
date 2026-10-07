@@ -2,7 +2,7 @@ code: s99
 products:
   Starter 1999 Booster Box:
     category: BOOSTER_BOX
-    subtype: STARTER
+    subtype: DEFAULT
     identifiers:
       abuId: '1108011'
       cardKingdomId: '240216'
@@ -19,7 +19,7 @@ products:
         set: s99
   Starter 1999 Booster Box Case:
     category: BOOSTER_CASE
-    subtype: STARTER
+    subtype: DEFAULT
     identifiers: {}
     contents:
       sealed:
@@ -28,7 +28,7 @@ products:
         set: s99
   Starter 1999 Booster Pack:
     category: BOOSTER_PACK
-    subtype: STARTER
+    subtype: DEFAULT
     identifiers:
       abuId: '1476943'
       cardKingdomId: '194360'
