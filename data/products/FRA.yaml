@@ -13,6 +13,11 @@ products:
       scgId: SLD-MTG-BUN-FRA-EN
       tcgplayerProductId: '692985'
     contents:
+      card:
+      - foil: true
+        name: Carnivorous Cultivator // Enroot
+        number: 437
+        set: fra
       card_count: 1
       deck:
       - name: Reality Fracture Bundle Land Pack
@@ -229,6 +234,9 @@ products:
       - name: 2 Reference cards
       - name: 1 Spindown die
       - name: 1 Card-storage box
+      pack:
+      - code: secret-lair-bundle-promo
+        set: fra
       sealed:
       - count: 6
         name: Reality Fracture Play Booster Pack
