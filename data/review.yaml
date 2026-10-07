@@ -1,5 +1,15 @@
 abugames: {}
-cardKingdom: {}
+cardKingdom:
+  Star Trek Commander Deck - Set of Four:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '334203'
+    subtype: UNKNOWN
+  Star Trek Scene Box - Set of Two:
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '334202'
+    subtype: UNKNOWN
 cardMarket:
   'Ikoria: Lair of Behemoths Ancillary Collector Booster':
     category: UNKNOWN
@@ -97,7 +107,27 @@ hareruya:
     identifiers:
       hareruyaId: '78420'
     subtype: UNKNOWN
-miniaturemarket: {}
+miniaturemarket:
+  'MTG: Reality Fracture - Secret Lair Bundle (Preorder)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 019df9aff622727bbd39c039ab1c2ebf
+    subtype: UNKNOWN
+  'MTG: Star Trek - Collector Booster Box (12) (Preorder)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 019f815c841373dc8798af4be63048b2
+    subtype: UNKNOWN
+  'MTG: Star Trek - Collector Booster Pack (Preorder)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 019f815c8d9c7152ab2b610b579277d0
+    subtype: UNKNOWN
+  'MTG: Star Trek - Play Booster Box (30) (Preorder)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 019f815c668b732b8bde7f43d19ffcec
+    subtype: UNKNOWN
 starcitygames: {}
 tcgplayer: {}
 trollandtoad: {}
