@@ -234,6 +234,14 @@ products:
       - count: 6
         name: Secrets of Strixhaven Draft Night
         set: sos
+  Secrets of Strixhaven Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      pack:
+      - code: promo-foil
+        set: sos
   Secrets of Strixhaven MTGO Redemption Secrets of Strixhaven Redemption:
     category: BOX_SET
     subtype: MTGO_REDEMPTION
@@ -435,6 +443,14 @@ products:
       sealed:
       - count: 5
         name: Secrets of Strixhaven Play Booster Pack
+        set: sos
+  Secrets of Strixhaven Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      pack:
+      - code: promo
         set: sos
   Secrets of Strixhaven Theme Decks Set of 2:
     category: SUBSET

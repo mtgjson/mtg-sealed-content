@@ -116,6 +116,14 @@ products:
       - count: 6
         name: Reality Fracture Draft Night
         set: fra
+  Reality Fracture Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      pack:
+      - code: promo-foil
+        set: fra
   Reality Fracture Play Booster Box:
     category: BOOSTER_BOX
     subtype: PLAY
@@ -194,6 +202,14 @@ products:
       sealed:
       - count: 15
         name: Reality Fracture Prerelease Pack
+        set: fra
+  Reality Fracture Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      pack:
+      - code: promo
         set: fra
   Reality Fracture Secret Lair Bundle:
     category: BUNDLE
