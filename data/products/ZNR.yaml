@@ -178,6 +178,16 @@ products:
       pack:
       - code: draft
         set: znr
+  Zendikar Rising Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo-foil
+        set: znr
   Zendikar Rising MTGO Redemption:
     category: BOX_SET
     subtype: MTGO_REDEMPTION
@@ -230,6 +240,16 @@ products:
       sealed:
       - count: 18
         name: Zendikar Rising Prerelease Pack
+        set: znr
+  Zendikar Rising Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo
         set: znr
   Zendikar Rising Set Booster Box:
     category: BOOSTER_BOX

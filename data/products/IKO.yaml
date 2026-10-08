@@ -173,6 +173,16 @@ products:
       pack:
       - code: draft
         set: iko
+  Ikoria Lair of Behemoths Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo-foil
+        set: iko
   Ikoria Lair of Behemoths MTGO Redemption:
     category: BOX_SET
     subtype: MTGO_REDEMPTION
@@ -216,6 +226,16 @@ products:
       sealed:
       - count: 6
         name: Ikoria Lair of Behemoths Draft Booster Pack
+        set: iko
+  Ikoria Lair of Behemoths Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo
         set: iko
   Ikoria Lair of Behemoths Theme Booster Black:
     category: BOOSTER_PACK
