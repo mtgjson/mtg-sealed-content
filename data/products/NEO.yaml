@@ -149,6 +149,16 @@ products:
       pack:
       - code: draft
         set: neo
+  Kamigawa Neon Dynasty Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo-foil
+        set: neo
   Kamigawa Neon Dynasty MTGO Redemption:
     category: BOX_SET
     subtype: MTGO_REDEMPTION
@@ -192,6 +202,16 @@ products:
       sealed:
       - count: 6
         name: Kamigawa Neon Dynasty Draft Booster Pack
+        set: neo
+  Kamigawa Neon Dynasty Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo
         set: neo
   Kamigawa Neon Dynasty Set Booster Box:
     category: BOOSTER_BOX
