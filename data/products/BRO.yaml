@@ -11,6 +11,16 @@ products:
     contents:
       other:
       - name: 400 Assorted Basic Lands (80 of Each Type)
+  The Brothers War Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo-foil
+        set: bro
   The Brothers War MTGO Redemption:
     category: BOX_SET
     subtype: MTGO_REDEMPTION
@@ -30,6 +40,16 @@ products:
       card_count: 287
       deck:
       - name: The Brothers' War Foil Redemption
+        set: bro
+  The Brothers War Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo
         set: bro
   The Brothers' War Bundle:
     category: BUNDLE
