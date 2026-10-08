@@ -387,3 +387,10 @@ and remove the redundant ignored TCGplayer IDs 602880–602884. Checked the comp
 for all five, corroborated by [Costco's Cavalry Charge contents](https://www.costco.com/p/-/magic-the-gathering-march-of-the-machines-deluxe-commander-bundle--cavalry-charge/4000291751).
 Catalog set-release dates do not establish the later kit release date; contents
 and existing metadata are retained.
+
+The four LOTR Deluxe Commander Kits receive TCGplayer 604832/599992/604831/595039
+and CardTrader 311326/311325/311324/311323 (Elven Council, Food and Fellowship,
+Riders of Rohan, Hosts of Mordor respectively). All eight leave the ignore list.
+The complete TCGplayer records, e.g. [Hosts of Mordor](https://mp-search-api.tcgplayer.com/v1/product/595039/details),
+agree with existing contents: the corresponding deck, two LTR Set Boosters,
+and the four foil PLTC promos. No collation changes are needed.
