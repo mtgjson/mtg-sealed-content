@@ -270,3 +270,66 @@ A fresh cross-repository token-selector scan found unresolved rows concentrated 
 A [used Jakub Slemr 1997 deck listing](https://www.ebay.com/itm/317888757182) specifically reports twelve blanks, six written on. This is more specific than generic product boilerplate, but the deck is incomplete and opened; its current inventory cannot establish factory packing. Retain the blank-count question in #620 pending sealed-opening or complete original inventory evidence.
 
 The renewed MMQ opening review also shows the player's guide cover advertising a free foil card at 3:33. This reinforces the Warmonger/guide association, but still does not independently count the other bonus foils. Preserve the existing count question in #618.
+
+## RNA / ELD focused follow-up (2026-10-08)
+
+### RNA: constrain the promo overlaps
+
+The stamped PRNA inventory contains exactly forty cards (35 rares and five
+mythics), matching Wizards' five pools of eight. Under the complete-inventory
+and guild-affiliation assumptions, every promo must have exactly one guild.
+This permits a tighter reconstruction than the previous independent filters.
+
+Additional first-person evidence:
+
+- [Sigmea, post 7](https://www.mtg-forum.de/topic/158394-rna-ravnica-allegiance-prerelease-erfahrungsberichte-decklisten-anekdoten/#entry1492212)
+  identifies Sphinx of Foresight as the Azorius promo. This is the same report
+  already used for Sphinx of the Guildpact; it is not a second opening.
+- [Rancore, post 6](https://forum.metagame.info/t/rna-ravnica-allegiance-draft-sealed/17507/6)
+  identifies Guardian Project (written as “Project Guardian”) as the promo of
+  the Simic pool, separately from an ordinary foil Font of Agonies. The card's
+  four-mana creature-draw description disambiguates the reversed name.
+- [A July 2020 first-person retrospective](https://www.reddit.com/r/magicTCG/comments/hjaijf/)
+  explicitly pairs Rakdos with a Mirror March promo. This is a written report,
+  not a newly watched opening.
+
+Together with previously reviewed Hero of Precinct One/Azorius,
+Amplifire/Gruul and Awaken the Erstwhile/Rakdos, this resolves the reconstructed
+Azorius, Simic and Gruul pools to eight each. It assigns Lumbering Battlement to
+Orzhov, End-Raze Forerunners and Rampage of the Clans to Gruul, and Immolation
+Shaman to Gruul by elimination. These deductions should not be described as
+individually observed pulls.
+
+Three black promos remain unresolved: Font of Agonies 74s, Gutterbones 76s and
+Priest of Forgotten Gods 83s. Two must belong to Orzhov and one to Rakdos. Keep
+all three as candidates in both models rather than choosing by artwork or
+mechanical synergy. The resulting conservative model has 8/9/10/8/8 candidates
+for Azorius/Orzhov/Rakdos/Gruul/Simic, down from 9/11/12/10/11, while preserving
+all forty printings. Complete pack lists, common/uncommon membership and
+correlations, and promo odds remain unresolved. Retain estimated 2:1 per-card
+rare/mythic weighting. Do not close issue #596 as fully resolved.
+
+The MSE companion `data/boosters/README-rna-prerelease.md` contains the explicit
+collector-number pools, assumptions and source chain. The three remaining
+possible black-card partitions define a focused next opening-research target.
+Do not use mtg.wtf or downstream pack-odds pages as independent corroboration:
+they can repeat this very model.
+
+### ELD: no justified membership change
+
+Expanded the earlier English-source search to the official
+[Japanese release-day product guide](https://mtg-jp.com/reading/kochima/0033137/)
+and [WPN Japanese product PDF, printed page 6](https://media.wizards.com/2019/wpn/marketingmaterials/eld/eld_product_explanation_jp.pdf).
+The former explicitly describes nonfoil ancillary cards from the Buy-a-Box,
+Planeswalker Deck and Brawl sources. Neither supplies an explicit exclusion of
+the six deck mythics from the separate foil rare/mythic slot. The PDF confirms
+slot counts and English/Japanese availability, not the disputed foil membership.
+
+The Collation Project's reconstructed foil common/uncommon sheets and its
+Collector pack anatomy do not provide a complete foil rare/mythic sheet. The
+previously noted wiki citation mismatch is still not resolved by these sources.
+A Reddit opening-survey spreadsheet lead exists
+[here](https://www.reddit.com/r/magicTCG/comments/dc442p/), but its inventory was
+not retrievable during this pass and was not treated as inspected evidence.
+Leave ELD's six candidate deck-foil mythics unchanged. No positive pull or
+explicit primary exclusion was established by this pass.
