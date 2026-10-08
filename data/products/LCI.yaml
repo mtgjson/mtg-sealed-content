@@ -177,6 +177,16 @@ products:
       pack:
       - code: box-topper-foil
         set: lci
+  The Lost Caverns of Ixalan Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo-foil
+        set: lci
   The Lost Caverns of Ixalan Gift Bundle:
     category: BUNDLE
     subtype: GIFT_BUNDLE
@@ -279,6 +289,16 @@ products:
       sealed:
       - count: 6
         name: The Lost Caverns of Ixalan Draft Booster Pack
+        set: lci
+  The Lost Caverns of Ixalan Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo
         set: lci
   The Lost Caverns of Ixalan Set Booster Box:
     category: BOOSTER_BOX
