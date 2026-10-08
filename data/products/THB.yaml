@@ -321,6 +321,13 @@ products:
       pack:
       - code: promo
         set: thb
+  Theros Beyond Death Sleeved Collector Booster Pack:
+    category: BOOSTER_PACK
+    subtype: COLLECTOR
+    identifiers:
+      tcgplayerProductId: '710749'
+    contents:
+      copy: Theros Beyond Death Collector Booster Pack
   Theros Beyond Death Theme Booster Box:
     category: BOOSTER_BOX
     subtype: THEME

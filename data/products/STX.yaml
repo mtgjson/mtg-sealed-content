@@ -59,6 +59,13 @@ products:
       - count: 6
         name: Strixhaven School of Mages Collector Booster Box
         set: stx
+  Strixhaven School of Mages Collector Booster Hanger Pack:
+    category: BOOSTER_PACK
+    subtype: COLLECTOR
+    identifiers:
+      tcgplayerProductId: '236690'
+    contents:
+      copy: Strixhaven School of Mages Collector Booster Pack
   Strixhaven School of Mages Collector Booster Pack:
     category: BOOSTER_PACK
     subtype: COLLECTOR
