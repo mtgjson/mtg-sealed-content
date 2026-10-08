@@ -377,3 +377,34 @@ sum to its stated 75 cards, and 633389 incorrectly calls the packs preconstructe
 [Hill's Wholesale Gaming](https://wholesalegaming.biz/mtgonslaughttournamnetpackbox/)
 independently describes twelve decks of 75 cards. Existing display and randomized
 pack contents remain unchanged.
+
+## Standalone Secret Lair promos (2026-10-09)
+
+| Ignored catalog entry | Exact contents | Decision |
+| --- | --- | --- |
+| TCGplayer 622973 | Foil Sol Ring, SLD 910 | Already modeled; remove stale ignore entry only. |
+| TCGplayer 627697 | Foil Deadeye Navigator, SLD 902 | Already modeled; remove stale ignore entry only. |
+| TCGplayer 554987 | Foil Seedborn Muse, SLD 907 | Add one-card sealed promo product. |
+| CardTrader 311068 | Foil The Scorpion God, SLD 904 | Add one-card sealed promo product. |
+
+The complete TCGplayer catalog records at
+`https://mp-search-api.tcgplayer.com/v1/product/{id}/details` explicitly classify
+all three entries as sealed and describe one rainbow-foil card. Their
+`normalOnly` flag classifies the sealed SKU, not its enclosed card's finish.
+[CardTrader 311068](https://www.cardtrader.com/en/cards/311068-secret-lair-promo-the-scorpion-god-secret-lair-drop-series)
+is a boxed-set listing requiring intact original sealed packaging.
+All four exact names, collector numbers and foil finishes were verified against
+[published SLD card data](https://mtgjson.com/api/v5/SLD.json).
+
+[Magic Librarities' promo checklist](https://www.magiclibrarities.net/1299-rarities-secret-lair-drop-series-promos-english-cards-index.html)
+identifies Seedborn Muse 907 as the Spring 2024 spending promo and The Scorpion
+God 904 as the Winter 2024 bundle promo. These are standalone promotional
+packages; no ordinary drop bonus pool is changed or inferred. New product names
+follow the existing single-promo naming convention. No precise package release
+dates are inferred from card-index dates.
+
+The other ignored standalone-promo leads remain excluded in this pass:
+Japanese Gilded Lotus (TCGplayer 643964) under the foreign-edition exclusion,
+and serialized Giant Growth (SCG SLD-MTG-PCK-SLD295-EN-GIANTGROWTH) under the
+previously agreed serialized-distribution exclusion. Other ignored Secret Lair
+entries are full drops, bundles, or cases, outside this single-promo batch.
