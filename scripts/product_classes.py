@@ -1,29 +1,7 @@
-import json
-import itertools as itr
+from mtg_sealed_choices.model import Card, Deck, Other, Pack, Product, Sealed
 
 
-class card:
-    def __init__(self, contents):
-        self.name = contents["name"]
-        self.set = contents["set"]
-        self.number = contents["number"]
-        self.etched = contents.get("etched", False)
-        self.foil = contents.get("foil", False)
-        self.token = contents.get("token", False)
-        self.uuid = contents.get("uuid", False)
-
-    def toJson(self):
-        data = {"name": self.name, "set": self.set, "number": str(self.number)}
-        if self.uuid:
-            data["uuid"] = self.uuid
-        if self.foil:
-            data["foil"] = self.foil
-        if self.etched:
-            data["etched"] = self.etched
-        if self.token:
-            data["token"] = self.token
-        return data
-
+class card(Card):
     def get_uuids(self, uuid_map):
         try:
             set_map = uuid_map[self.set.lower()]
@@ -56,15 +34,7 @@ class card:
             self.uuid = None
 
 
-class pack:
-    def __init__(self, contents):
-        self.set = contents["set"]
-        self.code = contents["code"]
-
-    def toJson(self):
-        data = {"set": self.set, "code": self.code}
-        return data
-
+class pack(Pack):
     def get_uuids(self, uuid_map):
         try: 
             umap = uuid_map[self.set.lower()]["booster"]
@@ -76,15 +46,7 @@ class pack:
                 f.write(f"Booster code {self.code} not found in set {self.set}\n")
 
 
-class deck:
-    def __init__(self, contents):
-        self.set = contents["set"]
-        self.name = contents["name"]
-
-    def toJson(self):
-        data = {"set": self.set, "name": self.name}
-        return data
-
+class deck(Deck):
     def get_uuids(self, uuid_map):
         try:
             umap = uuid_map[self.set.lower()]["decks"]
@@ -96,19 +58,7 @@ class deck:
                 f.write(f"Deck named {self.name} not found in set {self.set}\n")
 
 
-class sealed:
-    def __init__(self, contents):
-        self.set = contents["set"]
-        self.count = contents["count"]
-        self.name = contents["name"]
-        self.uuid = contents.get("uuid", False)
-
-    def toJson(self):
-        data = {"set": self.set, "count": self.count, "name": self.name}
-        if self.uuid:
-            data["uuid"] = self.uuid
-        return data
-
+class sealed(Sealed):
     def get_uuids(self, uuid_map):
         try:
             self.uuid = uuid_map[self.set.lower()]["sealedProduct"][self.name]
@@ -118,113 +68,22 @@ class sealed:
             self.uuid = None
 
 
-class other:
-    def __init__(self, contents):
-        self.name = contents["name"]
-
-    def toJson(self):
-        data = {"name": self.name}
-        return data
+class other(Other):
+    pass
 
 
-class product:
-    def __init__(self, contents, set_code=None, name=None):
-        self.name = name
-        self.set_code = set_code
-        if not contents:
-            contents = {}
-        self.card = []
-        for c in contents.get("card", []):
-            self.card.append(card(c))
-        self.pack = []
-        for p in contents.get("pack", []):
-            self.pack.append(pack(p))
-        self.deck = []
-        for d in contents.get("deck", []):
-            self.deck.append(deck(d))
-        self.sealed = []
-        for s in contents.get("sealed", []):
-            if s['name'] == self.name:
-                raise ValueError(f"Self-referrential product {self.name}")
-            self.sealed.append(sealed(s))
-        self.other = []
-        for o in contents.get("other", []):
-            self.other.append(other(o))
-            if o['name'] == "Bonus card unknown":
-                with open("status.txt", "a") as f:
-                    f.write(f"Product name {self.name} missing bonus card definition\n")
-        self.chance = contents.get("chance", 1)
-        self.weight = contents.get("weight", 0)
+class product(Product):
+    card_type = card
+    pack_type = pack
+    deck_type = deck
+    sealed_type = sealed
+    other_type = other
 
-        self.card_count = contents.get("card_count", 0)
+    def unknown_bonus(self):
+        with open("status.txt", "a") as f:
+            f.write(f"Product name {self.name} missing bonus card definition\n")
 
-        self.variable_groups = []
-        variable = []
-        if "variable_mode" in contents:
-            options = dict(contents["variable_mode"])
-            if options.get("replacement", False):
-                for combo in itr.combinations_with_replacement(
-                    contents["variable"], options.get("count", 1)
-                ):
-                    p_temp = product({})
-                    for c in combo:
-                        p_temp.merge(product(c))
-                    variable.append(p_temp)
-            else:
-                for combo in itr.combinations(
-                    contents["variable"], options.get("count", 1)
-                ):
-                    p_temp = product({})
-                    for c in combo:
-                        p_temp.merge(product(c))
-                    variable.append(p_temp)
-            if "weight" in options:
-                if sum(v.chance for v in variable) != options['weight']:
-                    raise ValueError(f"Weight incorrectly assigned for product {self.name}")
-            else:
-                options["weight"] = sum(v.chance for v in variable)
-            for v in variable:
-                v.weight = options["weight"]
-        elif "variable" in contents:
-            variable = [product(p) for p in contents["variable"]]
-        if variable:
-            self.variable_groups.append(variable)
-
-    def merge(self, target):
-        self.card += target.card
-        self.pack += target.pack
-        self.deck += target.deck
-        self.sealed += target.sealed
-        # Each selected component keeps its own independent choice group.
-        self.variable_groups.extend(target.variable_groups)
-        self.card_count += target.card_count
-        self.other += target.other
-        self.chance *= target.chance
-
-    def toJson(self):
-        data = {}
-        if self.card:
-            data["card"] = [c.toJson() for c in self.card]
-        if self.pack:
-            data["pack"] = [p.toJson() for p in self.pack]
-        if self.deck:
-            data["deck"] = [d.toJson() for d in self.deck]
-        if self.sealed:
-            data["sealed"] = [s.toJson() for s in self.sealed]
-        if self.other:
-            data["other"] = [o.toJson() for o in self.other]
-        if self.variable_groups:
-            data["variable"] = [
-                {"configs": [v.toJson() for v in group]}
-                for group in self.variable_groups
-            ]
-        if self.card_count:
-            data["card_count"] = self.card_count
-        if self.weight:
-            data["variable_config"] = [{"chance": self.chance, "weight": self.weight}]
-        return data
-
-    def get_uuids(self, uuid_map):
+    def resolve_uuid(self, uuid_map):
         if self.name:
             try:
                 self.uuid = uuid_map[self.set_code.lower()]["sealedProduct"][self.name]
@@ -236,14 +95,3 @@ class product:
                 self.uuid = None
         else:
             self.uuid = None
-        for c in self.card:
-            c.get_uuids(uuid_map)
-        for p in self.pack:
-            p.get_uuids(uuid_map)
-        for d in self.deck:
-            d.get_uuids(uuid_map)
-        for s in self.sealed:
-            s.get_uuids(uuid_map)
-        for group in self.variable_groups:
-            for v in group:
-                v.get_uuids(uuid_map)
