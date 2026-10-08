@@ -336,6 +336,10 @@ explicit primary exclusion was established by this pass.
 
 ## Standalone land packs (2026-10-08)
 
+Arena 1996 is a fixed ten-card pack: two of each Tony Roberts land (PARL 1–5),
+per [Magic Librarities](https://www.magiclibrarities.net/1-rarities-arena-league-promos-english-english-cards-1996.html).
+The standalone product references its canonical decklist.
+
 BFZ Fat Pack, BFZ Gift Box, Theros Fat Pack, Ixalan, Dominaria and M19 land
 products reuse the existing parent-product decklists and their existing art
 allocation conventions. The BFZ Gift Box pack additionally contains foil
