@@ -1,5 +1,7 @@
 # Seasonal WPN Promo Packs
 
+For new seasons or repeat coverage audits, follow the [Promo Pack creation skill](../../.agents/skills/mtg-promo-pack-audit/SKILL.md).
+
 ## Coverage and scope
 
 All 28 documented seasons from Core Set 2020 through Reality Fracture have separate

@@ -93,6 +93,10 @@ For example, to add a completely new product, add an entry to `data/products/SET
         set: mysetcode
 ```
 
+### Seasonal WPN Promo Packs
+
+Use the [Promo Pack creation and audit skill](.agents/skills/mtg-promo-pack-audit/SKILL.md) for seasonal booster pools and sealed products. The [research ledger](data/notes/wpn-promo-packs.md) records source lists, printing decisions and coverage results.
+
 ### Mapping product identifiers
 
 Data from marketplaces is loaded every day and stored in `data/review.yaml` though `scripts/load_new_products.py`.
