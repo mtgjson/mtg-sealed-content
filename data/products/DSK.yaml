@@ -102,6 +102,16 @@ products:
       pack:
       - code: collector-sample
         set: dsk
+  Duskmourn House of Horror Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo-foil
+        set: dsk
   Duskmourn House of Horror MTGO Redemption:
     category: BOX_SET
     subtype: MTGO_REDEMPTION
@@ -252,6 +262,16 @@ products:
       sealed:
       - count: 15
         name: Duskmourn House of Horror Prerelease Pack
+        set: dsk
+  Duskmourn House of Horror Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo
         set: dsk
   Welcome Deck 2024 Black Deck:
     category: DECK
