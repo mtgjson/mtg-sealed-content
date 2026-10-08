@@ -1,0 +1,41 @@
+code: palp
+products:
+  APAC Lands Red Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    identifiers:
+      abuId: '266921'
+      cardtraderId: '45305'
+      mcmId: '272173'
+      scgId: SLD-MTG-PCK-APACSET-EN-RED
+    contents:
+      deck:
+      - name: APAC Lands Red Pack
+        set: palp
+      card_count: 5
+  APAC Lands Blue Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    identifiers:
+      abuId: '266923'
+      cardtraderId: '45303'
+      mcmId: '272171'
+      scgId: SLD-MTG-PCK-APACSET-EN-BLUE
+    contents:
+      deck:
+      - name: APAC Lands Blue Pack
+        set: palp
+      card_count: 5
+  APAC Lands Clear Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    identifiers:
+      abuId: '266925'
+      cardtraderId: '45304'
+      mcmId: '272172'
+      scgId: SLD-MTG-PCK-APACSET-EN-CLEAR
+    contents:
+      deck:
+      - name: APAC Lands Clear Pack
+        set: palp
+      card_count: 5

@@ -1,0 +1,41 @@
+code: pelp
+products:
+  Euro Lands Blue Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    identifiers:
+      abuId: '267099'
+      cardtraderId: '40785'
+      mcmId: '272169'
+      scgId: SLD-MTG-PCK-EUROSET-EN-BLUE
+    contents:
+      deck:
+      - name: Euro Lands Blue Pack
+        set: pelp
+      card_count: 5
+  Euro Lands Red Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    identifiers:
+      abuId: '267101'
+      cardtraderId: '40787'
+      mcmId: '272168'
+      scgId: SLD-MTG-PCK-EUROSET-EN-RED
+    contents:
+      deck:
+      - name: Euro Lands Red Pack
+        set: pelp
+      card_count: 5
+  Euro Lands Purple Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    identifiers:
+      abuId: '267103'
+      cardtraderId: '40786'
+      mcmId: '272170'
+      scgId: SLD-MTG-PCK-EUROSET-EN-PURPLE
+    contents:
+      deck:
+      - name: Euro Lands Purple Pack
+        set: pelp
+      card_count: 5
