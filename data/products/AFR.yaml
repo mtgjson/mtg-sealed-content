@@ -201,6 +201,16 @@ products:
       pack:
       - code: draft
         set: afr
+  Adventures in the Forgotten Realms Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo-foil
+        set: afr
   Adventures in the Forgotten Realms Gift Bundle:
     category: BUNDLE
     subtype: GIFT_BUNDLE
@@ -311,6 +321,16 @@ products:
       sealed:
       - count: 18
         name: Adventures in the Forgotten Realms Prerelease Pack
+        set: afr
+  Adventures in the Forgotten Realms Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo
         set: afr
   Adventures in the Forgotten Realms Set Booster Box:
     category: BOOSTER_BOX
