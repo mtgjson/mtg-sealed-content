@@ -112,6 +112,14 @@ products:
       - count: 1
         name: Guilds of Ravnica Booster Pack
         set: grn
+  Core Set 2020 Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 4
+      pack:
+      - code: promo-foil
+        set: m20
   Core Set 2020 Land Station:
     category: KIT
     subtype: LAND_STATION
@@ -320,6 +328,14 @@ products:
       sealed:
       - count: 6
         name: Core Set 2020 Booster Pack
+        set: m20
+  Core Set 2020 Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 4
+      pack:
+      - code: promo
         set: m20
   Core Set 2020 Spellslinger Starter Kit:
     category: MULTI_DECK

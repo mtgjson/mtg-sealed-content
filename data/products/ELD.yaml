@@ -301,6 +301,16 @@ products:
       pack:
       - code: draft
         set: eld
+  Throne of Eldraine Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo-foil
+        set: eld
   Throne of Eldraine Gift Bundle:
     category: BUNDLE
     subtype: GIFT_BUNDLE
@@ -456,6 +466,16 @@ products:
       sealed:
       - count: 6
         name: Throne of Eldraine Draft Booster Pack
+        set: eld
+  Throne of Eldraine Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo
         set: eld
   Throne of Eldraine Theme Booster Box:
     category: BOOSTER_BOX
