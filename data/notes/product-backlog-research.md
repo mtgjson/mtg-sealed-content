@@ -377,3 +377,13 @@ sum to its stated 75 cards, and 633389 incorrectly calls the packs preconstructe
 [Hill's Wholesale Gaming](https://wholesalegaming.biz/mtgonslaughttournamnetpackbox/)
 independently describes twelve decks of 75 cards. Existing display and randomized
 pack contents remain unchanged.
+
+## Deluxe Commander Kit identifiers (2026-10-09)
+
+The five MOM kits already contain the correct deck, BLB Play Booster, MOM and
+CMM Set Boosters, and foil PMEI Jace/Ajani promos. Assign CardTrader 302218–302222
+and remove the redundant ignored TCGplayer IDs 602880–602884. Checked the complete
+[TCGplayer catalog records](https://mp-search-api.tcgplayer.com/v1/product/602883/details)
+for all five, corroborated by [Costco's Cavalry Charge contents](https://www.costco.com/p/-/magic-the-gathering-march-of-the-machines-deluxe-commander-bundle--cavalry-charge/4000291751).
+Catalog set-release dates do not establish the later kit release date; contents
+and existing metadata are retained.
