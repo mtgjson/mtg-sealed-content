@@ -407,3 +407,14 @@ identify foil Zidane. The exact MTGJSON reference was verified against
 [published PMEI data](https://mtgjson.com/api/v5/PMEI.json): 2025-26, foil-only,
 UUID 5a3e5607-2417-54f2-b416-a25ed592cf0a. Do not substitute the ordinary FIN card.
 No exact retail release day is asserted.
+
+## Collector Booster retail packaging (2026-10-09)
+
+Add BRO/ONE/FIN minimal-packaging packs (TCGplayer 555061/633046/639464),
+STX hanger pack (236690), and THB sleeved pack (710749). Each copies the contents of its
+existing Collector Booster Pack using `copy:`.
+The full TCGplayer catalog descriptions at
+`https://mp-search-api.tcgplayer.com/v1/product/{id}/details` describe the ordinary
+15-card Collector Booster plus token, without an extra promo. This is packaging
+coverage, not a new pool or independent copy of the booster definition. Dates
+from the underlying set are not asserted as retail-wrapper release dates.
