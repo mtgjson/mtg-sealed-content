@@ -145,6 +145,16 @@ products:
       pack:
       - code: draft
         set: mom
+  March of the Machine Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo-foil
+        set: mom
   March of the Machine Jumpstart Booster Box:
     category: BOOSTER_BOX
     subtype: JUMPSTART
@@ -230,6 +240,16 @@ products:
       sealed:
       - count: 6
         name: March of the Machine Draft Booster Pack
+        set: mom
+  March of the Machine Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo
         set: mom
   March of the Machine Set Booster Box:
     category: BOOSTER_BOX

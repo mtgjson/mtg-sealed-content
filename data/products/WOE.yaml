@@ -171,6 +171,16 @@ products:
       pack:
       - code: draft
         set: woe
+  Wilds of Eldraine Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo-foil
+        set: woe
   Wilds of Eldraine MTGO Redemption:
     category: BOX_SET
     subtype: MTGO_REDEMPTION
@@ -213,6 +223,16 @@ products:
       sealed:
       - count: 6
         name: Wilds of Eldraine Draft Booster Pack
+        set: woe
+  Wilds of Eldraine Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo
         set: woe
   Wilds of Eldraine Set Booster Box:
     category: BOOSTER_BOX
