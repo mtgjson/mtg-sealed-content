@@ -164,6 +164,16 @@ products:
       pack:
       - code: draft
         set: thb
+  Theros Beyond Death Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo-foil
+        set: thb
   Theros Beyond Death MTGO Redemption:
     category: BOX_SET
     subtype: MTGO_REDEMPTION
@@ -297,6 +307,16 @@ products:
       sealed:
       - count: 18
         name: Theros Beyond Death Prerelease Pack
+        set: thb
+  Theros Beyond Death Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo
         set: thb
   Theros Beyond Death Theme Booster Box:
     category: BOOSTER_BOX

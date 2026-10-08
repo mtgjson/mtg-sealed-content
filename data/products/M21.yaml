@@ -166,6 +166,16 @@ products:
       pack:
       - code: draft
         set: m21
+  Core Set 2021 Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo-foil
+        set: m21
   Core Set 2021 MTGO Redemption:
     category: BOX_SET
     subtype: MTGO_REDEMPTION
@@ -372,6 +382,16 @@ products:
       sealed:
       - count: 6
         name: Core Set 2021 Draft Booster Pack
+        set: m21
+  Core Set 2021 Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo
         set: m21
   Core Set 2021 Welcome Booster:
     category: BOOSTER_PACK
