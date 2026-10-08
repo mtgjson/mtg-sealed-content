@@ -418,3 +418,15 @@ The full TCGplayer catalog descriptions at
 15-card Collector Booster plus token, without an extra promo. This is packaging
 coverage, not a new pool or independent copy of the booster definition. Dates
 from the underlying set are not asserted as retail-wrapper release dates.
+
+## MID Welcome Booster V2 (2026-10-09)
+
+[Cardmarket's V2 product](https://www.cardmarket.com/en/Magic/Products/Boosters/Innistrad-Midnight-Hunt-Welcome-Booster-V2)
+is modeled separately with MCM 696710 and CardTrader 241463.
+[Magic Librarities](https://www.magiclibrarities.net/865-rarities-builders-toolkit-sample-and-welcome-decks-cards-english-cards-index.html)
+documents the regional packaging/art variants under a single MID checklist:
+English V1 B0000014863 and V2 B0000014864. This supports reusing the existing
+MID ten-card welcome product through `copy:`, checked against the current canonical decklist,
+rather than inventing a second pool. The regional/art distinction is documented;
+a different card list is not. No foreign-language card references or new release
+date are inferred from the packaging variant.
