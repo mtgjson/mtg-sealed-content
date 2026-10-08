@@ -352,3 +352,7 @@ It remains ignored: there is no evidence that this is the same product as the
 [documented 80-card Fat Pack land pack](https://gadgetoid.com/2013/10/17/magic-the-gathering-theros-fat-pack-review/).
 The 80-card standalone product is added without assigning that conflicting ID.
 A 60-card type/art allocation must not be invented from its total alone.
+
+TCGplayer 593440 (Tempest Tournament Pack Display) is assigned to the existing
+Tempest Starter Deck Display, retaining its twelve-pack contents. TCGplayer's
+catalog uses Tournament Pack for the corresponding individual product as well.
