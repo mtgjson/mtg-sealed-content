@@ -472,3 +472,11 @@ products:
       - count: 1
         name: Theros Prerelease Kit Path of Wisdom
         set: ths
+  Theros Fat Pack Land Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      deck:
+      - name: Theros Fat Pack Land Pack
+        set: ths
+      card_count: 80

@@ -288,3 +288,13 @@ products:
       pack:
       - code: showdown
         set: xln
+  Ixalan Bundle Land Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    identifiers:
+      abuId: '1509800'
+    contents:
+      deck:
+      - name: Ixalan Bundle Land Pack
+        set: xln
+      card_count: 80
