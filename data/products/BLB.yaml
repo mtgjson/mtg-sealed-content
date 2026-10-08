@@ -101,6 +101,16 @@ products:
       pack:
       - code: collector-sample
         set: blb
+  Bloomburrow Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo-foil
+        set: blb
   Bloomburrow MTGO Redemption:
     category: BOX_SET
     subtype: MTGO_REDEMPTION
@@ -192,6 +202,16 @@ products:
       sealed:
       - count: 15
         name: Bloomburrow Prerelease Pack
+        set: blb
+  Bloomburrow Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo
         set: blb
   Bloomburrow Starter Kit:
     category: MULTI_DECK

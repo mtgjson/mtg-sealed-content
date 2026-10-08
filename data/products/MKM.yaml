@@ -103,6 +103,16 @@ products:
       pack:
       - code: collector-sample
         set: mkm
+  Murders at Karlov Manor Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo-foil
+        set: mkm
   Murders at Karlov Manor MTGO Redemption:
     category: BOX_SET
     subtype: MTGO_REDEMPTION
@@ -196,4 +206,14 @@ products:
       sealed:
       - count: 6
         name: Murders at Karlov Manor Play Booster Pack
+        set: mkm
+  Murders at Karlov Manor Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo
         set: mkm

@@ -101,6 +101,16 @@ products:
       pack:
       - code: collector-sample
         set: otj
+  Outlaws of Thunder Junction Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo-foil
+        set: otj
   Outlaws of Thunder Junction MTGO Redemption:
     category: BOX_SET
     subtype: MTGO_REDEMPTION
@@ -194,4 +204,14 @@ products:
       sealed:
       - count: 6
         name: Outlaws of Thunder Junction Play Booster Pack
+        set: otj
+  Outlaws of Thunder Junction Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo
         set: otj
