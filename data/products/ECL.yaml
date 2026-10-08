@@ -209,6 +209,14 @@ products:
       - count: 6
         name: Lorwyn Eclipsed Draft Night
         set: ecl
+  Lorwyn Eclipsed Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      pack:
+      - code: promo-foil
+        set: ecl
   Lorwyn Eclipsed MTGO Redemption:
     category: BOX_SET
     subtype: MTGO_REDEMPTION
@@ -286,4 +294,12 @@ products:
       sealed:
       - count: 6
         name: Lorwyn Eclipsed Play Booster Pack
+        set: ecl
+  Lorwyn Eclipsed Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      pack:
+      - code: promo
         set: ecl
