@@ -172,6 +172,14 @@ products:
       - count: 6
         name: Aetherdrift Finish Line Bundle
         set: dft
+  Aetherdrift Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      pack:
+      - code: promo-foil
+        set: dft
   Aetherdrift MTGO Redemption:
     category: BOX_SET
     subtype: MTGO_REDEMPTION
@@ -251,4 +259,12 @@ products:
       sealed:
       - count: 6
         name: Aetherdrift Play Booster Pack
+        set: dft
+  Aetherdrift Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      pack:
+      - code: promo
         set: dft

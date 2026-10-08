@@ -101,6 +101,14 @@ products:
       pack:
       - code: collector-sample
         set: tdm
+  Tarkir Dragonstorm Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      pack:
+      - code: promo-foil
+        set: tdm
   Tarkir Dragonstorm MTGO Redemption:
     category: BOX_SET
     subtype: MTGO_REDEMPTION
@@ -359,4 +367,12 @@ products:
         set: tdm
       - count: 1
         name: Tarkir Dragonstorm Prerelease Kit Temur
+        set: tdm
+  Tarkir Dragonstorm Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      pack:
+      - code: promo
         set: tdm

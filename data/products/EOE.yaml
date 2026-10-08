@@ -103,6 +103,14 @@ products:
       pack:
       - code: collector-sample
         set: eoe
+  Edge of Eternities Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      pack:
+      - code: promo-foil
+        set: eoe
   Edge of Eternities MTGO Redemption:
     category: BOX_SET
     subtype: MTGO_REDEMPTION
@@ -179,4 +187,12 @@ products:
       sealed:
       - count: 6
         name: Edge of Eternities Play Booster Pack
+        set: eoe
+  Edge of Eternities Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      pack:
+      - code: promo
         set: eoe
