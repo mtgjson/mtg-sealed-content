@@ -333,3 +333,18 @@ A Reddit opening-survey spreadsheet lead exists
 not retrievable during this pass and was not treated as inspected evidence.
 Leave ELD's six candidate deck-foil mythics unchanged. No positive pull or
 explicit primary exclusion was established by this pass.
+
+## Standalone land packs (2026-10-08)
+
+BFZ Fat Pack, BFZ Gift Box, Theros Fat Pack, Ixalan, Dominaria and M19 land
+products reuse the existing parent-product decklists and their existing art
+allocation conventions. The BFZ Gift Box pack additionally contains foil
+Scythe Leopard PBFZ 188; [Cardmarket explicitly requires the promo](https://www.cardmarket.com/en/Magic/Products/Lots/BFZ-Holiday-Gift-Box-Land-Pack).
+
+ABU IDs 1100156, 1509800, 1518427 and 1520913 were checked against its live
+catalog descriptions (80 lands; the latter three explicitly list 16 of each).
+However, ABU 1101219 says **60** Theros lands in both its title and description.
+It remains ignored: there is no evidence that this is the same product as the
+[documented 80-card Fat Pack land pack](https://gadgetoid.com/2013/10/17/magic-the-gathering-theros-fat-pack-review/).
+The 80-card standalone product is added without assigning that conflicting ID.
+A 60-card type/art allocation must not be invented from its total alone.

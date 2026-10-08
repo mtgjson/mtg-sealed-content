@@ -304,3 +304,29 @@ products:
       deck:
       - name: Battle for Zendikar Foil Redemption
         set: bfz
+  Battle for Zendikar Fat Pack Land Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    identifiers:
+      abuId: '1100156'
+      cardtraderId: '48341'
+    contents:
+      deck:
+      - name: Battle for Zendikar Fat Pack Land Pack
+        set: bfz
+      card_count: 80
+  Battle for Zendikar Gift Box Land Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    identifiers:
+      cardtraderId: '48342'
+    contents:
+      deck:
+      - name: Battle for Zendikar Gift Box Land Pack
+        set: bfz
+      card_count: 21
+      card:
+      - foil: true
+        name: Scythe Leopard
+        number: '188'
+        set: pbfz

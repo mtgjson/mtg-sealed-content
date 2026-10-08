@@ -321,3 +321,13 @@ products:
       pack:
       - code: theme-w
         set: dom
+  Dominaria Bundle Land Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    identifiers:
+      abuId: '1518427'
+    contents:
+      deck:
+      - name: Dominaria Bundle Land Pack
+        set: dom
+      card_count: 80
