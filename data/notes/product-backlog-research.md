@@ -356,3 +356,24 @@ A 60-card type/art allocation must not be invented from its total alone.
 TCGplayer 593440 (Tempest Tournament Pack Display) is assigned to the existing
 Tempest Starter Deck Display, retaining its twelve-pack contents. TCGplayer's
 catalog uses Tournament Pack for the corresponding individual product as well.
+
+## Onslaught display catalog duplicate (2026-10-08)
+
+TCGplayer [544192, Onslaught Tournament Deck Box](https://www.tcgplayer.com/product/544192)
+and [633389, Onslaught Tournament Pack Display](https://www.tcgplayer.com/product/633389)
+describe the same twelve-pack display. Both public catalog records have set ONS,
+release date 2002-10-07, and descriptions explicitly stating twelve decks.
+Checked the complete records at `https://mp-search-api.tcgplayer.com/v1/product/{id}/details`.
+Both are seller-listable and marked `duplicate: false` by TCGplayer; the duplicate
+classification here is our physical-product reconciliation, not a TCGplayer flag.
+
+Retain 544192 on the existing Onslaught Tournament Pack Display. It has an active
+listing at inspection, while 633389 has none. Keep 633389 ignored explicitly as a
+duplicate rather than creating a second physical product or replacing the existing
+identifier. The current schema has one TCGplayer product identifier per product.
+
+Neither description is reliable for card collation: 544192's rarity counts do not
+sum to its stated 75 cards, and 633389 incorrectly calls the packs preconstructed.
+[Hill's Wholesale Gaming](https://wholesalegaming.biz/mtgonslaughttournamnetpackbox/)
+independently describes twelve decks of 75 cards. Existing display and randomized
+pack contents remain unchanged.
