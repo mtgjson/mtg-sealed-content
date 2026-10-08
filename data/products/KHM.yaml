@@ -137,6 +137,16 @@ products:
       pack:
       - code: draft
         set: khm
+  Kaldheim Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo-foil
+        set: khm
   Kaldheim MTGO Redemption:
     category: BOX_SET
     subtype: MTGO_REDEMPTION
@@ -180,6 +190,16 @@ products:
       sealed:
       - count: 6
         name: Kaldheim Draft Booster Pack
+        set: khm
+  Kaldheim Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo
         set: khm
   Kaldheim Set Booster Box:
     category: BOOSTER_BOX

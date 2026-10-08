@@ -127,6 +127,16 @@ products:
       pack:
       - code: draft
         set: stx
+  Strixhaven School of Mages Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo-foil
+        set: stx
   Strixhaven School of Mages MTGO Redemption:
     category: BOX_SET
     subtype: MTGO_REDEMPTION
@@ -278,6 +288,16 @@ products:
       sealed:
       - count: 5
         name: Strixhaven School of Mages Draft Booster Pack
+        set: stx
+  Strixhaven School of Mages Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo
         set: stx
   Strixhaven School of Mages Set Booster Box:
     category: BOOSTER_BOX

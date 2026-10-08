@@ -157,6 +157,16 @@ products:
       pack:
       - code: draft
         set: mid
+  Innistrad Midnight Hunt Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo-foil
+        set: mid
   Innistrad Midnight Hunt MTGO Redemption:
     category: BOX_SET
     subtype: MTGO_REDEMPTION
@@ -203,6 +213,16 @@ products:
       sealed:
       - count: 6
         name: Innistrad Midnight Hunt Draft Booster Pack
+        set: mid
+  Innistrad Midnight Hunt Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo
         set: mid
   Innistrad Midnight Hunt Set Booster Box:
     category: BOOSTER_BOX
