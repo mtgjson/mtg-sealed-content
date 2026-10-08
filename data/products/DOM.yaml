@@ -230,6 +230,10 @@ products:
     identifiers:
       cardtraderId: '45540'
       mcmId: '357195'
+    contents:
+      pack:
+      - code: showdown
+        set: dom
   Dominaria Theme Booster Black:
     category: BOOSTER_PACK
     subtype: THEME

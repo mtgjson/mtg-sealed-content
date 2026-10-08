@@ -258,6 +258,10 @@ products:
     identifiers:
       cardtraderId: '56822'
       mcmId: '371875'
+    contents:
+      pack:
+      - code: showdown
+        set: war
   War of the Spark Theme Booster Box:
     category: BOOSTER_BOX
     subtype: THEME
