@@ -266,6 +266,23 @@ products:
       pack:
       - code: play
         set: fin
+  Final Fantasy Play Pack:
+    category: BOX_SET
+    subtype: OTHER
+    identifiers:
+      cardtraderId: '339023'
+      tcgplayerProductId: '641176'
+    contents:
+      card:
+      - foil: true
+        name: Zidane, Tantalus Thief
+        number: 2025-26
+        set: pmei
+      card_count: 1
+      sealed:
+      - count: 3
+        name: Final Fantasy Play Booster Pack
+        set: fin
   Final Fantasy Prerelease Pack:
     category: LIMITED
     subtype: PRERELEASE

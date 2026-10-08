@@ -394,3 +394,16 @@ Riders of Rohan, Hosts of Mordor respectively). All eight leave the ignore list.
 The complete TCGplayer records, e.g. [Hosts of Mordor](https://mp-search-api.tcgplayer.com/v1/product/595039/details),
 agree with existing contents: the corresponding deck, two LTR Set Boosters,
 and the four foil PLTC promos. No collation changes are needed.
+
+## FINAL FANTASY Play Pack (2026-10-09)
+
+Add three FIN Play Boosters and one foil Zidane, Tantalus Thief, PMEI 2025-26.
+[TCGplayer 641176](https://mp-search-api.tcgplayer.com/v1/product/641176/details)
+confirms three boosters but omits the promo from its text;
+[CardTrader 339023](https://www.cardtrader.com/en/cards/339023-magic-the-gathering-final-fantasy-play-pack-3-play-boosters-promo-card-final-fantasy)
+explicitly includes a promo. The [FINAL FANTASY product archive](https://mtgfinalfantasy.com/products.html)
+and [retail product reporting](https://mtgrocks.com/new-final-fantasy-play-pack-bundle-discovered/)
+identify foil Zidane. The exact MTGJSON reference was verified against
+[published PMEI data](https://mtgjson.com/api/v5/PMEI.json): 2025-26, foil-only,
+UUID 5a3e5607-2417-54f2-b416-a25ed592cf0a. Do not substitute the ordinary FIN card.
+No exact retail release day is asserted.
