@@ -1,10 +1,9 @@
 code: wc00
 products:
   2000 World Championship Deck Box:
-    # Estimated retail date; see product-backlog-research.md (World Championship retail dates).
-    release_date: '2000-10-01'
     category: DECK_BOX
     subtype: THEME
+    release_date: '2000-10-01'
     identifiers:
       abuId: '1100247'
       hareruyaId: '28536'
@@ -23,10 +22,9 @@ products:
         name: 2000 World Championship Deck Tom van de Logt
         set: wc00
   2000 World Championship Deck Janosch Kuhn:
-    # Estimated retail date; see product-backlog-research.md (World Championship retail dates).
-    release_date: '2000-10-01'
     category: DECK
     subtype: CHAMPIONSHIP
+    release_date: '2000-10-01'
     identifiers:
       abuId: '1100242'
       cardKingdomId: '228800'
@@ -43,10 +41,9 @@ products:
       - name: Janosch Kühn - Angry Non-Hermit
         set: wc00
   2000 World Championship Deck Jon Finkel:
-    # Estimated retail date; see product-backlog-research.md (World Championship retail dates).
-    release_date: '2000-10-01'
     category: DECK
     subtype: CHAMPIONSHIP
+    release_date: '2000-10-01'
     identifiers:
       abuId: '1100243'
       cardKingdomId: '228799'
@@ -63,10 +60,9 @@ products:
       - name: Jon Finkel - Mono-Blue Tinker
         set: wc00
   2000 World Championship Deck Nicolas Labarre:
-    # Estimated retail date; see product-backlog-research.md (World Championship retail dates).
-    release_date: '2000-10-01'
     category: DECK
     subtype: CHAMPIONSHIP
+    release_date: '2000-10-01'
     identifiers:
       abuId: '1100244'
       cardKingdomId: '228801'
@@ -83,10 +79,9 @@ products:
       - name: Nicolas Labarre - Chimera
         set: wc00
   2000 World Championship Deck Tom van de Logt:
-    # Estimated retail date; see product-backlog-research.md (World Championship retail dates).
-    release_date: '2000-10-01'
     category: DECK
     subtype: CHAMPIONSHIP
+    release_date: '2000-10-01'
     identifiers:
       abuId: '1100246'
       cardKingdomId: '228824'
@@ -103,10 +98,9 @@ products:
       - name: Tom van de Logt - Replenish
         set: wc00
   2000 World Championship Decks Set of 4:
-    # Estimated retail date; see product-backlog-research.md (World Championship retail dates).
-    release_date: '2000-10-01'
     category: SUBSET
     subtype: THEME
+    release_date: '2000-10-01'
     identifiers: {}
     contents:
       sealed:
