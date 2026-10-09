@@ -204,8 +204,26 @@ unresolved and retain their existing estimates.
 The [Unglued sheet reconstruction](https://www.lethe.xyz/mtg/collation/ugl.html)
 identifies eleven C4 and twenty-two C3 commons, and twenty-six R4 plus two R3
 rares (Ashnod's Coupon and Strategy, Schmategy). The booster now uses these
-marginal weights. Sequential sheet runs and tokens occupying uncommon slots
-remain unresolved by the current model. No eleventh card is added.
+marginal weights. [MSE #681](https://github.com/taw/magic-search-engine/pull/681)
+adds explicit nonfoil token sheets using the existing token UUID index and
+models the two uncommon positions as adjacent pairs from the reconstructed
+110-position run. There are 30 distinct pairs. Each starting position is
+weighted equally, an explicit modeling assumption; this gives 40% of packs
+one token and 60% none, never two. Sheep and Squirrel each have expected
+count 3/55 per pack; Pegasus, Soldier, Zombie, Goblin and each ordinary
+uncommon have expected count 4/55. Every variant remains ten physical cards.
+Common/rare collation still uses marginal weights; pack-to-pack and cross-rarity
+sequencing remain unmodeled.
+
+The six UUIDs resolve from MTGJSON's UGL token records (numbers 89–94), exposed
+in the existing token index under TUGL; these are not Scryfall's numbers 1–6.
+The export retains UGL as the source set. Replaying the real booster export
+through the current shared sealed compiler and MTGJSON pipeline resolves all
+94 reachable printings and connects all six tokens to the existing booster
+pack, box and case. No sealed definition or compiler change is necessary;
+these links appear after the new booster export propagates. Tokens are shown
+separately from playable cards in the simulator. Premium token slots remain
+unsupported until the token index supplies finish metadata.
 
 ## OGW / ELD follow-up (2026-10-06)
 
@@ -250,7 +268,7 @@ work that still needs evidence or upstream representation.
 | [622](https://github.com/taw/magic-search-engine/issues/622), 1995 | Live MTGJSON has 378 4BB and 125 BCHR cards, but neither is in the search index. Resolve ingestion, language/printing identity and regional dates before supplying exact recipes. |
 | [621](https://github.com/taw/magic-search-engine/issues/621), 1996 | Rivals rules-card count resolved by sheet scan. Multiverse preview booster pool and 11/3/1 layout now implemented. Rivals date/printing and exact Multiverse date remain open; foreign product contents and Japanese Introductory identity are deferred. PTC still has only its blank token upstream; sixteen biography/decklist identifiers are missing. |
 | [620](https://github.com/taw/magic-search-engine/issues/620), 1997 | Slemr's 61+15 gameplay cards do not prove a blank count. WC97 retail date adopted as 1997-09-01 (estimated). Complete package evidence, display assortment and Vanguard gift regional metadata remain needed. |
-| [619](https://github.com/taw/magic-search-engine/issues/619), 1998 | Unglued common/rare marginal weights corrected. Token-slot/sequential collation, contradictory WC98 assortments (retail date adopted as estimated 1998-09-01), separate VHS catalog identities and Portal regional metadata remain. |
+| [619](https://github.com/taw/magic-search-engine/issues/619), 1998 | Unglued common/rare marginal weights corrected. Token slots and within-pack uncommon pairs implemented in MSE #681; pack-to-pack/cross-rarity sequencing, contradictory WC98 assortments (retail date adopted as estimated 1998-09-01), separate VHS catalog identities and Portal regional metadata remain. |
 | [618](https://github.com/taw/magic-search-engine/issues/618), 1999 | WC99 blanks merged. Retail date adopted as 1999-09-27. MMQ Fat Pack allocation is resolved by the opening: fixed foil Warmonger plus one foil basic land (MSE #680). The separate combined Starter kit identity remains unresolved. |
 | [616](https://github.com/taw/magic-search-engine/issues/616), 2000 | WC00 retail date adopted as 2000-10-01; the day is explicitly estimated from the listed October release month. |
 | [615](https://github.com/taw/magic-search-engine/issues/615), 2001 | Invalid sampler date removed; Planeshift packaging supports the existing no-counter recipe. WC01 retail date adopted as 2001-10-29; exact sampler distribution date remains open. |
