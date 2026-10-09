@@ -1,3 +1,28 @@
+## World Championship retail dates (1997–2004)
+
+The product and canonical deck dates now use the retail chronology in the
+[Magic Librarities checklist](https://www.magiclibrarities.net/1166-rarities-world-championships-decks-cards-english-cards-index.html),
+following the accepted policy of explicit date estimates rather than leaving
+historical products on tournament-date fallbacks. These are adopted modeling
+dates, not newly verified contemporary release announcements. The dates apply to
+the four decks, display, and set-of-four product for each year.
+
+| Year | Adopted retail date | Basis and uncertainty |
+| --- | --- | --- |
+| 1997 | 1997-09-01 | September listed; first day estimated. |
+| 1998 | 1998-09-01 | September listed with a reverify note; month and day remain estimates. |
+| 1999 | 1999-09-27 | Collector-listed day adopted. |
+| 2000 | 2000-10-01 | October listed; first day estimated. |
+| 2001 | 2001-10-29 | Collector-listed day adopted. |
+| 2002 | 2002-11-05 | Collector-listed day adopted over the former August tournament and December set dates. |
+| 2003 | 2003-10-27 | Collector-listed day adopted. |
+| 2004 | 2004-11-26 | Collector-listed day adopted. |
+
+Deck comments and product overrides make these decisions explicit. The underlying
+card-set dates are unchanged. Exact regional distribution dates remain unknown,
+but are no longer blockers for these product dates. Display assortments, support
+card quantities, and separately packaged variants are separate questions.
+
 # Product contents research
 
 ## World Championship 1999 blank support cards (#618)
@@ -215,8 +240,8 @@ remain unresolved by the current model. No eleventh card is added.
 Every open historical product issue was reviewed against the current defaults.
 The current research pass excludes foreign editions and Eighth/Ninth Edition
 products at the user's direction; those rows remain as deferred inventory.
-A source conflict is retained as a question, not converted into an exact date,
-UUID or probability. This table distinguishes implemented corrections from
+Source conflicts remain documented. Explicitly labeled product-date estimates
+are accepted; this does not authorize guessing UUIDs or collation probabilities. This table distinguishes implemented corrections from
 work that still needs evidence or upstream representation.
 
 | Issue | Current result and remaining requirement |
@@ -224,14 +249,14 @@ work that still needs evidence or upstream representation.
 | [623](https://github.com/taw/magic-search-engine/issues/623), 1994 | Live MTGJSON FBB has 307 cards; FWB has none. The search index lacks both sets. Foreign-printing ingestion and supported booster/starter collation are prerequisites; ordinary Revised UUIDs are not replacements. |
 | [622](https://github.com/taw/magic-search-engine/issues/622), 1995 | Live MTGJSON has 378 4BB and 125 BCHR cards, but neither is in the search index. Resolve ingestion, language/printing identity and regional dates before supplying exact recipes. |
 | [621](https://github.com/taw/magic-search-engine/issues/621), 1996 | Rivals rules-card count resolved by sheet scan. Multiverse preview booster pool and 11/3/1 layout now implemented. Rivals date/printing and exact Multiverse date remain open; foreign product contents and Japanese Introductory identity are deferred. PTC still has only its blank token upstream; sixteen biography/decklist identifiers are missing. |
-| [620](https://github.com/taw/magic-search-engine/issues/620), 1997 | Slemr's 61+15 gameplay cards do not prove a blank count. Complete package evidence, WC97 display/date evidence and Vanguard gift regional metadata remain needed. |
-| [619](https://github.com/taw/magic-search-engine/issues/619), 1998 | Unglued common/rare marginal weights corrected. Token-slot/sequential collation, contradictory WC98 assortments/dates, separate VHS catalog identities and Portal regional metadata remain. |
-| [618](https://github.com/taw/magic-search-engine/issues/618), 1999 | WC99 blanks merged. Retail date, the relationship between the observed Warmonger and the two advertised Fat Pack foils, and separate combined Starter kit identity remain unresolved. |
-| [616](https://github.com/taw/magic-search-engine/issues/616), 2000 | WC00 retail month differs from tournament date; no independently verified exact day. |
-| [615](https://github.com/taw/magic-search-engine/issues/615), 2001 | Invalid sampler date removed; Planeshift packaging supports the existing no-counter recipe. Exact sampler distribution date and WC01 retail date remain open. |
-| [614](https://github.com/taw/magic-search-engine/issues/614), 2002 | WC02 retail date remains disputed. Advance release plans cannot establish actual distribution. |
-| [613](https://github.com/taw/magic-search-engine/issues/613), 2003 | Mirrodin contents corroborated. Eighth Edition oversized identities remain absent from current 8ED/P8ED data; WC03 retail dating remains open. |
-| [612](https://github.com/taw/magic-search-engine/issues/612), 2004 | WC04 retail date needs contemporary corroboration. |
+| [620](https://github.com/taw/magic-search-engine/issues/620), 1997 | Slemr's 61+15 gameplay cards do not prove a blank count. WC97 retail date adopted as 1997-09-01 (estimated). Complete package evidence, display assortment and Vanguard gift regional metadata remain needed. |
+| [619](https://github.com/taw/magic-search-engine/issues/619), 1998 | Unglued common/rare marginal weights corrected. Token-slot/sequential collation, contradictory WC98 assortments (retail date adopted as estimated 1998-09-01), separate VHS catalog identities and Portal regional metadata remain. |
+| [618](https://github.com/taw/magic-search-engine/issues/618), 1999 | WC99 blanks merged. Retail date adopted as 1999-09-27. The relationship between the observed Warmonger and the two advertised Fat Pack foils, and separate combined Starter kit identity remain unresolved. |
+| [616](https://github.com/taw/magic-search-engine/issues/616), 2000 | WC00 retail date adopted as 2000-10-01; the day is explicitly estimated from the listed October release month. |
+| [615](https://github.com/taw/magic-search-engine/issues/615), 2001 | Invalid sampler date removed; Planeshift packaging supports the existing no-counter recipe. WC01 retail date adopted as 2001-10-29; exact sampler distribution date remains open. |
+| [614](https://github.com/taw/magic-search-engine/issues/614), 2002 | WC02 retail date adopted as 2002-11-05 from the collector chronology; historical alternatives remain documented above. |
+| [613](https://github.com/taw/magic-search-engine/issues/613), 2003 | Mirrodin contents corroborated. Eighth Edition oversized identities remain absent from current 8ED/P8ED data; WC03 retail date adopted as 2003-10-27. |
+| [612](https://github.com/taw/magic-search-engine/issues/612), 2004 | WC04 retail date adopted as 2004-11-26 from the collector chronology. |
 | [611](https://github.com/taw/magic-search-engine/issues/611), 2005 | Ninth Edition oversized identities remain absent from current 9ED/P9ED data. The twelve-card box pool and fixed Fat Pack Force of Nature cannot use regular-size UUIDs. |
 | [609](https://github.com/taw/magic-search-engine/issues/609), 2008 | Anniversary land pack merged; June 20, 2008 adopted for the product, matching the canonical deck. June 25 remains a documented conflicting source date. |
 | [604](https://github.com/taw/magic-search-engine/issues/604), 2011 | M12 nested variables select four distinct colors, with independent A/B choices. Equal choice weights remain estimates. |

@@ -1,6 +1,8 @@
 code: wc00
 products:
   2000 World Championship Deck Box:
+    # Estimated retail date; see product-backlog-research.md (World Championship retail dates).
+    release_date: '2000-10-01'
     category: DECK_BOX
     subtype: THEME
     identifiers:
@@ -21,6 +23,8 @@ products:
         name: 2000 World Championship Deck Tom van de Logt
         set: wc00
   2000 World Championship Deck Janosch Kuhn:
+    # Estimated retail date; see product-backlog-research.md (World Championship retail dates).
+    release_date: '2000-10-01'
     category: DECK
     subtype: CHAMPIONSHIP
     identifiers:
@@ -39,6 +43,8 @@ products:
       - name: Janosch Kühn - Angry Non-Hermit
         set: wc00
   2000 World Championship Deck Jon Finkel:
+    # Estimated retail date; see product-backlog-research.md (World Championship retail dates).
+    release_date: '2000-10-01'
     category: DECK
     subtype: CHAMPIONSHIP
     identifiers:
@@ -57,6 +63,8 @@ products:
       - name: Jon Finkel - Mono-Blue Tinker
         set: wc00
   2000 World Championship Deck Nicolas Labarre:
+    # Estimated retail date; see product-backlog-research.md (World Championship retail dates).
+    release_date: '2000-10-01'
     category: DECK
     subtype: CHAMPIONSHIP
     identifiers:
@@ -75,6 +83,8 @@ products:
       - name: Nicolas Labarre - Chimera
         set: wc00
   2000 World Championship Deck Tom van de Logt:
+    # Estimated retail date; see product-backlog-research.md (World Championship retail dates).
+    release_date: '2000-10-01'
     category: DECK
     subtype: CHAMPIONSHIP
     identifiers:
@@ -93,6 +103,8 @@ products:
       - name: Tom van de Logt - Replenish
         set: wc00
   2000 World Championship Decks Set of 4:
+    # Estimated retail date; see product-backlog-research.md (World Championship retail dates).
+    release_date: '2000-10-01'
     category: SUBSET
     subtype: THEME
     identifiers: {}
