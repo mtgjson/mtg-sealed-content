@@ -197,6 +197,13 @@ def validate_structure():
                 else:
                     print(f"Product {name} uses an invalid subtype: {p['subtype']}")
                     failed = True
+            # MTGJSON's build rejects a sealed product without an identifiers mapping
+            if "identifiers" not in p.keys():
+                print(f"Product {name} in set {stem} missing identifiers (use `identifiers: {{}}` if none are known)")
+                failed = True
+            elif not isinstance(p['identifiers'], dict):
+                print(f"Product {name} in set {stem} has identifiers that are not a mapping: {p['identifiers']!r}")
+                failed = True
     if failed:
         raise ImportError()
     validate_references()
