@@ -204,8 +204,20 @@ unresolved and retain their existing estimates.
 The [Unglued sheet reconstruction](https://www.lethe.xyz/mtg/collation/ugl.html)
 identifies eleven C4 and twenty-two C3 commons, and twenty-six R4 plus two R3
 rares (Ashnod's Coupon and Strategy, Schmategy). The booster now uses these
-marginal weights. Sequential sheet runs and tokens occupying uncommon slots
-remain unresolved by the current model. No eleventh card is added.
+marginal weights. [MSE #682](https://github.com/taw/magic-search-engine/pull/682)
+adds a separate ignored token sheet using the existing M13 token-slot convention.
+The estimated mix is 60% with two uncommons and 40% with one uncommon plus one
+token, keeping the physical total at ten. The reconstruction has 22 token
+positions among 110 uncommon-sheet positions: Pegasus, Soldier, Zombie and Goblin
+have weight four each; Sheep and Squirrel have weight three each. Two uncommon
+slots give an expected 0.4 tokens per pack; the model assigns at most one token.
+These are marginal estimates, not a simulation of common or uncommon runs.
+
+Tokens remain ignored by the current engine/export pipeline. Token export is
+deferred until MTGJSON v6, per maintainer direction. No engine changes, component
+boosters, paired-card recipes or sealed-product changes are needed. The rejected
+[MSE #681](https://github.com/taw/magic-search-engine/pull/681) implementation and
+the subsequent explicit-pair workaround are withdrawn.
 
 ## OGW / ELD follow-up (2026-10-06)
 
@@ -255,7 +267,7 @@ work that still needs evidence or upstream representation.
 | [622](https://github.com/taw/magic-search-engine/issues/622), 1995 | Live MTGJSON has 378 4BB and 125 BCHR cards, but neither is in the search index. Resolve ingestion, language/printing identity and regional dates before supplying exact recipes. |
 | [621](https://github.com/taw/magic-search-engine/issues/621), 1996 | Rivals rules-card count resolved by sheet scan. Multiverse preview booster pool and 11/3/1 layout now implemented. Rivals date/printing and exact Multiverse date remain open; foreign product contents and Japanese Introductory identity are deferred. PTC still has only its blank token upstream; sixteen biography/decklist identifiers are missing. |
 | [620](https://github.com/taw/magic-search-engine/issues/620), 1997 | Slemr's 61+15 gameplay cards do not prove a blank count. WC97 retail date adopted as 1997-09-01 (estimated). Complete package evidence, display assortment and Vanguard gift regional metadata remain needed. |
-| [619](https://github.com/taw/magic-search-engine/issues/619), 1998 | Unglued common/rare marginal weights corrected. Token-slot/sequential collation, contradictory WC98 assortments (retail date adopted as estimated 1998-09-01), separate VHS catalog identities and Portal regional metadata remain. |
+| [619](https://github.com/taw/magic-search-engine/issues/619), 1998 | Unglued common/rare marginal weights corrected. An ignored token replacement sheet merged in MSE #682; token export is deferred to MTGJSON v6 and runs are not simulated. Contradictory WC98 assortments (retail date adopted as estimated 1998-09-01), separate VHS catalog identities and Portal regional metadata remain. |
 | [618](https://github.com/taw/magic-search-engine/issues/618), 1999 | WC99 blanks merged. Retail date adopted as 1999-09-27. MMQ Fat Pack allocation is resolved by the opening: fixed foil Warmonger plus one foil basic land (MSE #680). The separate combined Starter kit identity remains unresolved. |
 | [616](https://github.com/taw/magic-search-engine/issues/616), 2000 | WC00 retail date adopted as 2000-10-01; the day is explicitly estimated from the listed October release month. |
 | [615](https://github.com/taw/magic-search-engine/issues/615), 2001 | Invalid sampler date removed; Planeshift packaging supports the existing no-counter recipe. WC01 retail date adopted as 2001-10-29; exact sampler distribution date remains open. |
