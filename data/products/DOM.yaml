@@ -108,6 +108,16 @@ products:
       - count: 10
         name: Dominaria Booster Pack
         set: dom
+  Dominaria Bundle Land Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    identifiers:
+      abuId: '1518427'
+    contents:
+      card_count: 80
+      deck:
+      - name: Dominaria Bundle Land Pack
+        set: dom
   Dominaria MTGO Redemption:
     category: BOX_SET
     subtype: MTGO_REDEMPTION
@@ -321,13 +331,3 @@ products:
       pack:
       - code: theme-w
         set: dom
-  Dominaria Bundle Land Pack:
-    category: BOOSTER_PACK
-    subtype: PROMOTIONAL
-    identifiers:
-      abuId: '1518427'
-    contents:
-      deck:
-      - name: Dominaria Bundle Land Pack
-        set: dom
-      card_count: 80

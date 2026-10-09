@@ -77,6 +77,16 @@ products:
       - count: 10
         name: Core Set 2019 Booster Pack
         set: m19
+  Core Set 2019 Bundle Land Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    identifiers:
+      abuId: '1520913'
+    contents:
+      card_count: 80
+      deck:
+      - name: Core Set 2019 Bundle Land Pack
+        set: m19
   Core Set 2019 Deck Builders Toolkit:
     category: KIT
     subtype: DECK_BUILDERS_TOOLKIT
@@ -436,13 +446,3 @@ products:
       deck:
       - name: White Deck
         set: m19
-  Core Set 2019 Bundle Land Pack:
-    category: BOOSTER_PACK
-    subtype: PROMOTIONAL
-    identifiers:
-      abuId: '1520913'
-    contents:
-      deck:
-      - name: Core Set 2019 Bundle Land Pack
-        set: m19
-      card_count: 80
