@@ -213,11 +213,16 @@ remain unresolved by the current model. No eleventh card is added.
   lays out fourteen Wastes: four of each artwork on the upper row and three
   of each on the lower row. This independently corroborates seven OGW 183 and
   seven OGW 184. It does not establish every colored-land quantity. Following the [user-supplied repeating-land opening](https://www.youtube.com/watch?v=19sm0znmLuM),
-  use `[BFZ:*] [fullart]` for the 66 colored lands. This adopts the wildcard
-  round-robin convention rather than claiming an exact artwork inventory;
-  the retained 14/13/13/13/13 type allocation remains a modeling assumption.
-  The full-art qualifier excludes BFZ regular-frame basics. Exact per-art
-  counts are no longer a research blocker under this accepted model.
+  retain explicit BFZ 250–274 printing rows for the 66 colored lands. Their
+  artwork counts expand the round-robin modeling convention manually; they
+  do not claim an observed inventory. The retained 14/13/13/13/13 type allocation
+  is also an assumption. Exact printing numbers exclude regular-frame basics.
+  [MSE #679](https://github.com/taw/magic-search-engine/pull/679) and
+  [decks #391](https://github.com/taw/magic-preconstructed-decks/pull/391)
+  were rejected: the maintainer requested a manual list rather than adding a
+  full-art flag to the resolver. Neither flag nor resolver change was merged.
+  The existing explicit list implements the intended allocation without them;
+  exact per-art counts are not a research blocker under this model.
 - **ELD correction:** the extra rare query in the foil rare/mythic sheet resolves
   to Piper of the Swarm 392, the alternate-art Bundle promo. Remove that query;
   ordinary Piper 100 and extended-art Piper 355 remain eligible. Wizards identifies
@@ -261,7 +266,7 @@ work that still needs evidence or upstream representation.
 | [609](https://github.com/taw/magic-search-engine/issues/609), 2008 | Anniversary land pack merged; June 20, 2008 adopted for the product, matching the canonical deck. June 25 remains a documented conflicting source date. |
 | [604](https://github.com/taw/magic-search-engine/issues/604), 2011 | M12 nested variables select four distinct colors, with independent A/B choices. Equal choice weights remain estimates. |
 | [605](https://github.com/taw/magic-search-engine/issues/605), 2012 | M13 corrected to forty deck cards with five additional packs; nested variables preserve two different colors per deck and allow repetition between decks. RTR and Duels mappings merged. Helvault exact allocation/premium identities remain unresolved. |
-| [601](https://github.com/taw/magic-search-engine/issues/601), 2016 | Tokens and W16 merged. An additional [OGW opening](https://www.youtube.com/watch?v=h6r-k7_9uiE&t=187s) counts fourteen Wastes in the land pack, but does not establish its art split. [MTGGoldfish at 3:34](https://www.youtube.com/watch?v=JpL2OmzxHXk&t=214s) visibly lays out seven of each Wastes art, corroborating the existing 7/7 allocation. Colored lands use the accepted `[BFZ:*] [fullart]` round-robin model, with the existing type allocation explicitly treated as an assumption; no exact artwork inventory is required. |
+| [601](https://github.com/taw/magic-search-engine/issues/601), 2016 | Tokens and W16 merged. An additional [OGW opening](https://www.youtube.com/watch?v=h6r-k7_9uiE&t=187s) counts fourteen Wastes in the land pack, but does not establish its art split. [MTGGoldfish at 3:34](https://www.youtube.com/watch?v=JpL2OmzxHXk&t=214s) visibly lays out seven of each Wastes art, corroborating the existing 7/7 allocation. Colored lands retain explicit BFZ 250–274 rows, manually expanding the round-robin model; artwork counts and the type allocation are assumptions. The proposed full-art flag/resolver PRs were rejected, so no new syntax is used or required. |
 | [596](https://github.com/taw/magic-search-engine/issues/596), 2019 | ELD sheet/layout refinement implemented. RNA exact guild assignments, WAR overlapping promo eligibility and experimental-product metadata remain open. A January 2019 Japanese shop announcement supports Japanese availability but does not establish the English SKU date. |
 
 Upstream presence was checked against [MTGJSON set files](https://mtgjson.com/downloads/all-files/).
