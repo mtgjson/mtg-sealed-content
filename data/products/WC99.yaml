@@ -1,6 +1,8 @@
 code: wc99
 products:
   1999 World Championship Deck Box:
+    # Estimated retail date; see product-backlog-research.md (World Championship retail dates).
+    release_date: '1999-09-27'
     category: DECK_BOX
     subtype: CHAMPIONSHIP
     identifiers:
@@ -21,6 +23,8 @@ products:
         name: 1999 World Championship Deck Matt Linde
         set: wc99
   1999 World Championship Deck Jakub Slemr:
+    # Estimated retail date; see product-backlog-research.md (World Championship retail dates).
+    release_date: '1999-09-27'
     category: DECK
     subtype: CHAMPIONSHIP
     identifiers:
@@ -39,6 +43,8 @@ products:
       - name: Jakub Šlemr - Mono-Black Control
         set: wc99
   1999 World Championship Deck Kai Budde:
+    # Estimated retail date; see product-backlog-research.md (World Championship retail dates).
+    release_date: '1999-09-27'
     category: DECK
     subtype: CHAMPIONSHIP
     identifiers:
@@ -57,6 +63,8 @@ products:
       - name: Kai Budde - Red-Artifact Wildfire
         set: wc99
   1999 World Championship Deck Mark Le Pine:
+    # Estimated retail date; see product-backlog-research.md (World Championship retail dates).
+    release_date: '1999-09-27'
     category: DECK
     subtype: CHAMPIONSHIP
     identifiers:
@@ -75,6 +83,8 @@ products:
       - name: Mark Le Pine - Sped Red
         set: wc99
   1999 World Championship Deck Matt Linde:
+    # Estimated retail date; see product-backlog-research.md (World Championship retail dates).
+    release_date: '1999-09-27'
     category: DECK
     subtype: CHAMPIONSHIP
     identifiers:
@@ -93,6 +103,8 @@ products:
       - name: Matt Linde - Mono-Green Stompy
         set: wc99
   1999 World Championship Decks Set of 4:
+    # Estimated retail date; see product-backlog-research.md (World Championship retail dates).
+    release_date: '1999-09-27'
     category: SUBSET
     subtype: CHAMPIONSHIP
     identifiers:
