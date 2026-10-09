@@ -88,3 +88,14 @@ class ContentsValidationTests(unittest.TestCase):
         passed, output = self.run_gate({"Box": {**BOX, "purchase_url": "x"}})
         self.assertFalse(passed)
         self.assertIn("unknown field `purchase_url`", output)
+
+    def test_ci_gate_requires_identifiers_mapping(self):
+        # MTGJSON's SealedProduct rejects a product whose identifiers are missing or null
+        no_identifiers = {key: value for key, value in BOX.items() if key != "identifiers"}
+        passed, output = self.run_gate({"Box": no_identifiers})
+        self.assertFalse(passed)
+        self.assertIn("Product Box in set TST missing identifiers", output)
+        passed, output = self.run_gate({"Box": {**BOX, "identifiers": None}})
+        self.assertFalse(passed)
+        self.assertIn("Product Box in set TST has identifiers that are not a mapping", output)
+        self.assertEqual(self.run_gate({"Box": BOX})[0], True)
