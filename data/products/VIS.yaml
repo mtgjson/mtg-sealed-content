@@ -12,6 +12,26 @@ products:
       scgId: SLD-MTG-BXS-GFTMULTIVERSE-EN
       tcgplayerProductId: '81796'
       tntId: '100510'
+    contents:
+      other:
+      - name: Alliances booster language - Italian
+      - name: Homelands booster language - French
+      sealed:
+      - count: 2
+        name: Visions Preview Printing Booster Pack
+        set: vis
+      - count: 1
+        name: Alliances Booster Pack
+        set: all
+      - count: 1
+        name: Chronicles Foreign Black Border Japanese Booster Pack
+        set: bchr
+      - count: 1
+        name: Renaissance German Booster Pack
+        set: ren
+      - count: 1
+        name: Homelands Booster Pack
+        set: hml
   Visions Booster Box:
     category: BOOSTER_BOX
     subtype: DRAFT
