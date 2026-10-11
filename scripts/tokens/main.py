@@ -87,24 +87,20 @@ def map_uuids_back_to_single_uuid(
     needs to be broken down into individual UUIDs, for consistency, since each
     entry should only have one UUID to link back to in the MTGJSON data set.
 
+    A face can match several MTGJSON tokens that share a name and number (for
+    example a parent set token and its Commander reprint). The face always
+    resolves to its first match, so every token listing the product agrees on
+    which printings make it up.
+
     :param filtered: A "final" format of the token mapping
     :return: The same "final" format of token mapping, but with UUIDs mapped back to single UUIDs
     """
-    tp = "tokenParts"
-    for uuid, output_tokens in filtered.items():
-        for output_index, output_token in enumerate(output_tokens):
-            for token_part_index, token_part in enumerate(
-                output_token.get("tokenParts", [])
-            ):
+    for output_tokens in filtered.values():
+        for output_token in output_tokens:
+            for token_part in output_token.get("tokenParts", []):
                 if "uuids" not in token_part:
                     continue
-                if uuid in token_part["uuids"]:
-                    filtered[uuid][output_index][tp][token_part_index]["uuid"] = uuid
-                else:
-                    filtered[uuid][output_index][tp][token_part_index]["uuid"] = (
-                        token_part["uuids"][0]
-                    )
-                del filtered[uuid][output_index][tp][token_part_index]["uuids"]
+                token_part["uuid"] = token_part.pop("uuids")[0]
 
     return filtered
 
@@ -120,12 +116,12 @@ def filter_tokens_without_uuids(
     """
     output_dict_of_tokens = defaultdict(list)
     for output_token in output_tokens:
-        # Collect the keys before copying so a UUID appearing on both faces
-        # receives this marketplace product only once.
+        # Only the token each face resolves to lists this product, and a UUID
+        # on both faces receives it once.
         uuids = dict.fromkeys(
-            uuid
+            part["uuids"][0]
             for part in output_token["tokenParts"]
-            for uuid in part.get("uuids", [])
+            if part.get("uuids")
         )
         for uuid in uuids:
             entry = deepcopy(output_token)
