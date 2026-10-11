@@ -104,7 +104,8 @@ products:
   Bloomburrow Foil Promo Pack:
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
-    identifiers: {}
+    identifiers:
+      mcmId: '778455'
     contents:
       card_count: 3
       other:
@@ -207,7 +208,8 @@ products:
   Bloomburrow Promo Pack:
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
-    identifiers: {}
+    identifiers:
+      mcmId: '778456'
     contents:
       card_count: 3
       other:

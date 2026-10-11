@@ -148,7 +148,8 @@ products:
   March of the Machine Foil Promo Pack:
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
-    identifiers: {}
+    identifiers:
+      mcmId: '706465'
     contents:
       card_count: 3
       other:
@@ -245,7 +246,8 @@ products:
   March of the Machine Promo Pack:
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
-    identifiers: {}
+    identifiers:
+      mcmId: '706464'
     contents:
       card_count: 3
       other:

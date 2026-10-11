@@ -181,7 +181,9 @@ products:
   Zendikar Rising Foil Promo Pack:
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
-    identifiers: {}
+    identifiers:
+      cardtraderId: '147765'
+      mcmId: '502860'
     contents:
       card_count: 3
       other:
@@ -247,6 +249,7 @@ products:
     subtype: PROMOTIONAL
     identifiers:
       cardtraderId: '147766'
+      mcmId: '502855'
     contents:
       card_count: 3
       other:

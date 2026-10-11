@@ -304,7 +304,9 @@ products:
   Throne of Eldraine Foil Promo Pack:
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
-    identifiers: {}
+    identifiers:
+      cardtraderId: '60216'
+      mcmId: '404054'
     contents:
       card_count: 3
       other:

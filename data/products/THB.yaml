@@ -167,7 +167,9 @@ products:
   Theros Beyond Death Foil Promo Pack:
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
-    identifiers: {}
+    identifiers:
+      cardtraderId: '103816'
+      mcmId: '431874'
     contents:
       card_count: 3
       other:

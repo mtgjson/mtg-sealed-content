@@ -140,7 +140,9 @@ products:
   Kaldheim Foil Promo Pack:
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
-    identifiers: {}
+    identifiers:
+      cardtraderId: '152538'
+      mcmId: '536417'
     contents:
       card_count: 3
       other:
@@ -197,6 +199,7 @@ products:
     subtype: PROMOTIONAL
     identifiers:
       cardtraderId: '152537'
+      mcmId: '536412'
     contents:
       card_count: 3
       other:

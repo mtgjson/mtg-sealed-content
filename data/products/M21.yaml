@@ -169,7 +169,9 @@ products:
   Core Set 2021 Foil Promo Pack:
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
-    identifiers: {}
+    identifiers:
+      cardtraderId: '135096'
+      mcmId: '476839'
     contents:
       card_count: 3
       other:
@@ -387,7 +389,9 @@ products:
   Core Set 2021 Promo Pack:
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
-    identifiers: {}
+    identifiers:
+      cardtraderId: '135097'
+      mcmId: '476834'
     contents:
       card_count: 3
       other:

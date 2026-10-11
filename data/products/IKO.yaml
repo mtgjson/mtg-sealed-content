@@ -176,7 +176,9 @@ products:
   Ikoria Lair of Behemoths Foil Promo Pack:
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
-    identifiers: {}
+    identifiers:
+      cardtraderId: '132700'
+      mcmId: '461579'
     contents:
       card_count: 3
       other:

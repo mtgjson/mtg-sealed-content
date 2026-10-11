@@ -137,7 +137,9 @@ products:
   Strixhaven School of Mages Foil Promo Pack:
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
-    identifiers: {}
+    identifiers:
+      cardtraderId: '158641'
+      mcmId: '569226'
     contents:
       card_count: 3
       other:
@@ -300,7 +302,9 @@ products:
   Strixhaven School of Mages Promo Pack:
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
-    identifiers: {}
+    identifiers:
+      cardtraderId: '158642'
+      mcmId: '569225'
     contents:
       card_count: 3
       other:

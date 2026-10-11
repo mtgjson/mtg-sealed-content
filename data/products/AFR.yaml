@@ -328,7 +328,9 @@ products:
   Adventures in the Forgotten Realms Promo Pack:
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
-    identifiers: {}
+    identifiers:
+      cardtraderId: '167929'
+      mcmId: '573177'
     contents:
       card_count: 3
       other:

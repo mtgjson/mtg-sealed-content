@@ -115,7 +115,9 @@ products:
   Core Set 2020 Foil Promo Pack:
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
-    identifiers: {}
+    identifiers:
+      cardtraderId: '58954'
+      mcmId: '380295'
     contents:
       card_count: 4
       pack:
@@ -333,7 +335,9 @@ products:
   Core Set 2020 Promo Pack:
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
-    identifiers: {}
+    identifiers:
+      cardtraderId: '58959'
+      mcmId: '380292'
     contents:
       card_count: 4
       pack:
