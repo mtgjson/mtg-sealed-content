@@ -131,6 +131,16 @@ products:
       pack:
       - code: promo-foil
         set: fra
+  Reality Fracture MTGO Redemption Reality Fracture Redemption:
+    category: BOX_SET
+    subtype: MTGO_REDEMPTION
+    release_date: '2026-10-21'
+    identifiers: {}
+    contents:
+      card_count: 290
+      deck:
+      - name: Reality Fracture Redemption
+        set: fra
   Reality Fracture Play Booster Box:
     category: BOOSTER_BOX
     subtype: PLAY
@@ -225,6 +235,7 @@ products:
     subtype: GIFT_BUNDLE
     release_date: '2026-10-23'
     identifiers:
+      cardKingdomId: '331481'
       cardtraderId: '389395'
       mcmId: '885566'
       miniaturemarketId: 019df9aff622727bbd39c039ab1c2ebf
