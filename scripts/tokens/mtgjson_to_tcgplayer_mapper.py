@@ -41,24 +41,12 @@ class MtgjsonToTcgplayerMapper:
 
     @staticmethod
     def add_uuid_to_list(
-        tcgplayer_token_face_details,
-        tcgplayer_token_face_index,
-        mtgjson_token,
-        prefer=False,
+        tcgplayer_token_face_details, tcgplayer_token_face_index, mtgjson_token
     ):
         if "uuids" not in tcgplayer_token_face_details[tcgplayer_token_face_index]:
             tcgplayer_token_face_details[tcgplayer_token_face_index]["uuids"] = []
-        uuids = tcgplayer_token_face_details[tcgplayer_token_face_index]["uuids"]
-        if prefer:
-            uuids.insert(0, mtgjson_token["uuid"])
-        else:
-            uuids.append(mtgjson_token["uuid"])
-
-    @staticmethod
-    def is_foil_face(tcgplayer_token_face) -> bool:
-        return any(
-            "Foil" in attribute
-            for attribute in tcgplayer_token_face.get("faceAttribute", [])
+        tcgplayer_token_face_details[tcgplayer_token_face_index]["uuids"].append(
+            mtgjson_token["uuid"]
         )
 
     @staticmethod
@@ -196,14 +184,10 @@ class MtgjsonToTcgplayerMapper:
         ):
             print(f"> Found Token for {tcgplayer_token_face}")
 
-            # A ★ printing shares its number with the plain printing once the
-            # star is stripped. A face sold as foil belongs to the ★ printing.
             self.add_uuid_to_list(
                 tcgplayer_token_face_details,
                 tcgplayer_token_face_index,
                 mtgjson_token,
-                prefer=self.is_foil_face(tcgplayer_token_face)
-                and mtgjson_token_number != self.strip_star(mtgjson_token_number),
             )
             return True
 
@@ -371,6 +355,14 @@ class MtgjsonToTcgplayerMapper:
             "Minigame": self.handle_minigame_cards,
         }
 
+        star_uuids = {
+            mtgjson_token["uuid"]
+            for mtgjson_token_data in mtgjson_tokens.values()
+            for mtgjson_token in mtgjson_token_data
+            if mtgjson_token.get("number")
+            and mtgjson_token["number"] != self.strip_star(mtgjson_token["number"])
+        }
+
         for tcgplayer_token_face_index, tcgplayer_token_face in enumerate(
             tcgplayer_token_face_details
         ):
@@ -389,6 +381,25 @@ class MtgjsonToTcgplayerMapper:
 
             if not found:
                 print(f">> UNABLE to find UUID for {tcgplayer_token_face}")
+            elif tcgplayer_token_face["tokenType"] == "Token":
+                self.order_star_printings(tcgplayer_token_face, star_uuids)
+
+    def order_star_printings(self, tcgplayer_token_face, star_uuids) -> None:
+        # A ★ printing shares its number with the plain printing once the
+        # star is stripped. A face sold as foil belongs to the ★ printing and
+        # any other face to the plain one. The sort is stable, so matches of
+        # the same kind keep the order they were found in.
+        prefer_star = self.is_foil_face(tcgplayer_token_face)
+        tcgplayer_token_face["uuids"].sort(
+            key=lambda uuid: (uuid in star_uuids) != prefer_star
+        )
+
+    @staticmethod
+    def is_foil_face(tcgplayer_token_face) -> bool:
+        return any(
+            "Foil" in attribute
+            for attribute in tcgplayer_token_face.get("faceAttribute", [])
+        )
 
     @staticmethod
     def art_card_front_to_back_mapping(mtgjson_tokens) -> Dict[str, str]:
