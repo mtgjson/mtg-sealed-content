@@ -88,19 +88,26 @@ def map_uuids_back_to_single_uuid(
     entry should only have one UUID to link back to in the MTGJSON data set.
 
     A face can match several MTGJSON tokens that share a name and number (for
-    example a parent set token and its Commander reprint). The face always
-    resolves to its first match, so every token listing the product agrees on
-    which printings make it up.
+    example a parent set token and its Commander reprint). On a multi-face
+    product each face resolves to its first match, so every token listing the
+    product agrees on which printings make it up. A single-face product, such
+    as an art card, is listed under every token it matches and names that
+    token as its face.
 
     :param filtered: A "final" format of the token mapping
     :return: The same "final" format of token mapping, but with UUIDs mapped back to single UUIDs
     """
-    for output_tokens in filtered.values():
+    for uuid, output_tokens in filtered.items():
         for output_token in output_tokens:
-            for token_part in output_token.get("tokenParts", []):
+            token_parts = output_token.get("tokenParts", [])
+            for token_part in token_parts:
                 if "uuids" not in token_part:
                     continue
-                token_part["uuid"] = token_part.pop("uuids")[0]
+                uuids = token_part.pop("uuids")
+                if len(token_parts) == 1 and uuid in uuids:
+                    token_part["uuid"] = uuid
+                else:
+                    token_part["uuid"] = uuids[0]
 
     return filtered
 
@@ -116,13 +123,15 @@ def filter_tokens_without_uuids(
     """
     output_dict_of_tokens = defaultdict(list)
     for output_token in output_tokens:
-        # Only the token each face resolves to lists this product, and a UUID
-        # on both faces receives it once.
-        uuids = dict.fromkeys(
-            part["uuids"][0]
-            for part in output_token["tokenParts"]
-            if part.get("uuids")
-        )
+        # A multi-face product is listed only under the token each face
+        # resolves to, and a UUID on both faces receives it once.
+        token_parts = output_token["tokenParts"]
+        if len(token_parts) == 1:
+            uuids = dict.fromkeys(token_parts[0].get("uuids", []))
+        else:
+            uuids = dict.fromkeys(
+                part["uuids"][0] for part in token_parts if part.get("uuids")
+            )
         for uuid in uuids:
             entry = deepcopy(output_token)
             for part in entry["tokenParts"]:

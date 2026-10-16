@@ -17,6 +17,13 @@ class TokenMappingTests(unittest.TestCase):
         self.assertEqual(mapped["C"][0]["tokenParts"], [{"uuid": "A"}, {"uuid": "C"}])
         self.assertEqual(tokens, original)
 
+    def test_single_face_product_is_listed_under_every_match(self):
+        tokens = [{"tokenParts": [{"uuids": ["A", "B"], "tokenType": "Art"}]}]
+        mapped = map_uuids_back_to_single_uuid(filter_tokens_without_uuids(tokens))
+        self.assertEqual(set(mapped), {"A", "B"})
+        self.assertEqual(mapped["A"][0]["tokenParts"], [{"uuid": "A"}])
+        self.assertEqual(mapped["B"][0]["tokenParts"], [{"uuid": "B"}])
+
     def test_same_uuid_on_both_faces_is_not_duplicated(self):
         tokens = [{"tokenParts": [{"uuids": ["A"]}, {"uuids": ["A"]}]}]
         mapped = map_uuids_back_to_single_uuid(filter_tokens_without_uuids(tokens))
