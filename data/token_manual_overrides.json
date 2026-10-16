@@ -2902,6 +2902,22 @@
             ]
         }
     ],
+    "7f6238f1-604c-5f4e-bff5-09b8f3d89ec2": [
+        {
+            "parentSetCode": "CLB",
+            "identifiers": {
+                "tcgplayerProductId": "276335"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "bb06c653-8f92-551d-972b-52cb11ac5965"
+                },
+                {
+                    "uuid": "7f6238f1-604c-5f4e-bff5-09b8f3d89ec2"
+                }
+            ]
+        }
+    ],
     "7f773bef-14f5-5552-89fc-ed6a3f9b5f16": [
         {
             "parentSetCode": "WC99",
@@ -4212,6 +4228,22 @@
             "tokenParts": [
                 {
                     "uuid": "b905cede-8913-5830-b565-e6e38eb907d0"
+                }
+            ]
+        }
+    ],
+    "bb06c653-8f92-551d-972b-52cb11ac5965": [
+        {
+            "parentSetCode": "CLB",
+            "identifiers": {
+                "tcgplayerProductId": "276335"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "bb06c653-8f92-551d-972b-52cb11ac5965"
+                },
+                {
+                    "uuid": "7f6238f1-604c-5f4e-bff5-09b8f3d89ec2"
                 }
             ]
         }
