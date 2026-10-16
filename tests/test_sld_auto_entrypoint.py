@@ -46,14 +46,12 @@ with patch('requests.sessions.Session.request', side_effect=AssertionError('netw
 
 
     def make_sld(self, base, contents):
-        """Write a split-layout SLD set whose products have the given contents."""
+        """Write an SLD set whose products have the given contents."""
         (base / 'data/products').mkdir(parents=True)
-        (base / 'data/contents').mkdir()
         definition = {'category': 'BOX_SET', 'subtype': 'SECRET_LAIR', 'identifiers': {}}
-        (base / 'data/products/SLD.yaml').write_text(yaml.safe_dump(
-            {'code': 'sld', 'products': {name: definition for name in contents}}))
-        target = base / 'data/contents/SLD.yaml'
-        target.write_text(yaml.safe_dump({'code': 'sld', 'products': contents}))
+        products = {name: {**definition, **({'contents': value} if value else {})} for name, value in contents.items()}
+        target = base / 'data/products/SLD.yaml'
+        target.write_text(yaml.safe_dump({'code': 'sld', 'products': products}))
         return target
 
     def review(self, directory, answers, count=1):
@@ -75,8 +73,8 @@ with patch('requests.get', return_value=response) as get, patch('builtins.input'
     def test_explicit_review_still_loads_decks_and_accepts_quit(self):
         with tempfile.TemporaryDirectory() as directory:
             base = Path(directory)
-            original = {'code': 'sld', 'products': {f'Product {i}': {} for i in range(5)}}
-            target = self.make_sld(base, original['products'])
+            target = self.make_sld(base, {f'Product {i}': {} for i in range(5)})
+            original = yaml.safe_load(target.read_text())
             result = self.review(directory, ['q'])
             self.assertEqual(result.returncode, 0, result.stderr)
             self.assertIn('Finding similar products for Example', result.stdout)
@@ -91,7 +89,7 @@ with patch('requests.get', return_value=response) as get, patch('builtins.input'
             target = self.make_sld(base, products)
             result = self.review(directory, ['0'], count=4)
             self.assertEqual(result.returncode, 0, result.stderr)
-            example = yaml.safe_load(target.read_text())['products']['Secret Lair Drop Example']
+            example = yaml.safe_load(target.read_text())['products']['Secret Lair Drop Example']['contents']
             self.assertEqual(example, {'card_count': 4, 'deck': [{'name': 'Example', 'set': 'sld'}], 'other': note})
 
     def test_card_count_changes_only_when_confirmed(self):
@@ -103,5 +101,5 @@ with patch('requests.get', return_value=response) as get, patch('builtins.input'
                 target = self.make_sld(base, products)
                 result = self.review(directory, ['0', answer], count=4)
                 self.assertEqual(result.returncode, 0, result.stderr)
-                example = yaml.safe_load(target.read_text())['products']['Secret Lair Drop Example']
+                example = yaml.safe_load(target.read_text())['products']['Secret Lair Drop Example']['contents']
                 self.assertEqual(example['card_count'], expected)
