@@ -29,6 +29,7 @@ class TcgplayerTokenParser:
             r".*[Dd]oubled?[- ][Ss]ided Token \((.*?)\)"
         )
         self.__role_regex = re.compile(r"(.*) Role / (.*) Role")
+        self.__face_set_code_regex = re.compile(r"\(\d+\S* ([A-Z][A-Z0-9]{1,4})\)")
 
     def __fix_emblem_names(self, token) -> str:
         if match := self.__emblem_regex.match(token):
@@ -74,6 +75,20 @@ class TcgplayerTokenParser:
             return [token_name.split("Magic Minigame: ")[-1]]
 
         return [self.__fix_emblem_names(token_name.split(" Token")[0])]
+
+    def __get_face_set_code_hints(self, token_name: str) -> List[str | None]:
+        """
+        TCGplayer names the set of a face when a product pairs two tokens that
+        share a name and number, as in "Zombie (005 MIC) // Zombie (005 MID)".
+        """
+        if match := self.__double_sided_token_regex.match(token_name):
+            faces = match.group(1).split(" // ")
+            if len(faces) == 2:
+                return [
+                    hint.group(1) if (hint := self.__face_set_code_regex.search(face)) else None
+                    for face in faces
+                ]
+        return [None, None]
 
     @staticmethod
     def get_additional_dict(
@@ -163,7 +178,7 @@ class TcgplayerTokenParser:
             second_face_id = first_face_id
 
         if len(token_face_names) == 2:
-            return [
+            faces = [
                 {
                     "faceName": token_face_names[0],
                     "faceId": first_face_id,
@@ -177,6 +192,11 @@ class TcgplayerTokenParser:
                     **additional_side_b,
                 },
             ]
+            hints = self.__get_face_set_code_hints(tcgplayer_token["name"])
+            for face, hint in zip(faces, hints):
+                if hint:
+                    face["setCodeHint"] = hint
+            return faces
 
         return [
             {

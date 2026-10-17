@@ -29,6 +29,17 @@ class TokenMapperTests(unittest.TestCase):
     def test_plain_face_prefers_the_plain_printing_listed_second(self):
         self.assertEqual(self.map_face({}, [STAR, PLAIN]), ["plain", "star"])
 
+    def test_parent_set_product_keeps_the_parent_set_token(self):
+        faces = [{"faceName": "Soldier", "faceId": "2", "tokenType": "Token"}]
+        MtgjsonToTcgplayerMapper().add_mtgjson_uuids_to_tcgplayer_token_face_details(
+            "DFT",
+            {"DFT": [soldier("parent", "2")], "DRC": [soldier("commander", "2")]},
+            faces,
+            23874,
+            {"DFT": 23874, "DRC": 23929},
+        )
+        self.assertEqual(faces[0]["uuids"], ["parent", "commander"])
+
     def test_star_printings_keep_their_order(self):
         tokens = [PLAIN, soldier("star-a", "2★"), soldier("star-b", "2★")]
         self.assertEqual(self.map_face(FOIL, tokens), ["star-a", "star-b", "plain"])

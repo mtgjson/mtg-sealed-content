@@ -70,6 +70,15 @@ class AllPrintings:
 
         return set_code_to_tcgplayer_group_ids
 
+    def create_mapping_mtgjson_set_code_to_own_tcgplayer_group_id(
+        self,
+    ) -> Dict[str, int]:
+        return {
+            set_code: set_data["tcgplayerGroupId"]
+            for set_code, set_data in self.__temp_file_data.get("data").items()
+            if "tcgplayerGroupId" in set_data
+        }
+
     def create_mapping_mtgjson_parent_set_code_to_children_set_codes(
         self,
     ) -> Dict[str, Set[str]]:
