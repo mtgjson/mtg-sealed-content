@@ -474,59 +474,10 @@ products:
       - count: 1
         name: Secrets of Strixhaven 60-Card Theme Deck Lifegain
         set: sos
-  Secrets of Strixhaven Welcome Deck Black Deck:
-    category: DECK
-    subtype: WELCOME
-    release_date: '2026-04-24'
-    identifiers: {}
-    contents:
-      card_count: 40
-      deck:
-      - name: Black Deck
-        set: sos
-  Secrets of Strixhaven Welcome Deck Blue Deck:
-    category: DECK
-    subtype: WELCOME
-    release_date: '2026-04-24'
-    identifiers: {}
-    contents:
-      card_count: 40
-      deck:
-      - name: Blue Deck
-        set: sos
-  Secrets of Strixhaven Welcome Deck Green Deck:
-    category: DECK
-    subtype: WELCOME
-    release_date: '2026-04-24'
-    identifiers: {}
-    contents:
-      card_count: 40
-      deck:
-      - name: Green Deck
-        set: sos
-  Secrets of Strixhaven Welcome Deck Red Deck:
-    category: DECK
-    subtype: WELCOME
-    release_date: '2026-04-24'
-    identifiers: {}
-    contents:
-      card_count: 40
-      deck:
-      - name: Red Deck
-        set: sos
-  Secrets of Strixhaven Welcome Deck White Deck:
-    category: DECK
-    subtype: WELCOME
-    release_date: '2026-04-24'
-    identifiers: {}
-    contents:
-      card_count: 40
-      deck:
-      - name: White Deck
-        set: sos
   Welcome Deck 2026 Black Deck:
     category: DECK
     subtype: WELCOME
+    release_date: '2026-04-24'
     identifiers:
       cardtraderId: '380934'
       mcmId: '884061'
@@ -538,6 +489,7 @@ products:
   Welcome Deck 2026 Blue Deck:
     category: DECK
     subtype: WELCOME
+    release_date: '2026-04-24'
     identifiers:
       cardtraderId: '380933'
       mcmId: '884058'
@@ -549,6 +501,7 @@ products:
   Welcome Deck 2026 Green Deck:
     category: DECK
     subtype: WELCOME
+    release_date: '2026-04-24'
     identifiers:
       cardtraderId: '380936'
       mcmId: '884062'
@@ -560,6 +513,7 @@ products:
   Welcome Deck 2026 Red Deck:
     category: DECK
     subtype: WELCOME
+    release_date: '2026-04-24'
     identifiers:
       cardtraderId: '380935'
       mcmId: '884064'
@@ -571,6 +525,7 @@ products:
   Welcome Deck 2026 Set of 5:
     category: SUBSET
     subtype: WELCOME
+    release_date: '2026-04-24'
     identifiers:
       cardtraderId: '380937'
     contents:
@@ -593,6 +548,7 @@ products:
   Welcome Deck 2026 White Deck:
     category: DECK
     subtype: WELCOME
+    release_date: '2026-04-24'
     identifiers:
       cardtraderId: '380932'
       mcmId: '884056'
