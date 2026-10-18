@@ -29,6 +29,7 @@ class TcgplayerTokenParser:
             r".*[Dd]oubled?[- ][Ss]ided Token \((.*?)\)"
         )
         self.__role_regex = re.compile(r"(.*) Role / (.*) Role")
+        self.__face_set_code_regex = re.compile(r"\(\d+\S* ([A-Z][A-Z0-9]{1,4})\)")
 
     def __fix_emblem_names(self, token) -> str:
         if match := self.__emblem_regex.match(token):
@@ -74,6 +75,39 @@ class TcgplayerTokenParser:
             return [token_name.split("Magic Minigame: ")[-1]]
 
         return [self.__fix_emblem_names(token_name.split(" Token")[0])]
+
+    def __get_face_set_code_hints(self, token_name: str) -> List[str | None]:
+        """
+        TCGplayer names the set of a face when a product pairs two tokens that
+        share a name and number, as in "Zombie (005 MIC) // Zombie (005 MID)".
+        """
+        if match := self.__double_sided_token_regex.match(token_name):
+            faces = match.group(1).split(" // ")
+            if len(faces) == 2:
+                return [
+                    hint.group(1) if (hint := self.__face_set_code_regex.search(face)) else None
+                    for face in faces
+                ]
+        return [None, None]
+
+    @staticmethod
+    def __get_face_power_toughness(tcgplayer_token: Dict[str, Any]) -> List[List[str] | None]:
+        """
+        TCGplayer lists a double-sided token's power and toughness per face, as
+        P "4/1" and T "4/1" for a 4/4 front and a 1/1 back.
+        """
+        values = {
+            raw_extended_data["name"]: raw_extended_data["value"].split("/")
+            for raw_extended_data in tcgplayer_token["extendedData"]
+            if raw_extended_data["name"] in ("P", "T")
+        }
+        powers, toughnesses = values.get("P", []), values.get("T", [])
+        if len(powers) != 2 or len(toughnesses) != 2:
+            return [None, None]
+        return [
+            [power.strip(), toughness.strip()]
+            for power, toughness in zip(powers, toughnesses)
+        ]
 
     @staticmethod
     def get_additional_dict(
@@ -163,7 +197,7 @@ class TcgplayerTokenParser:
             second_face_id = first_face_id
 
         if len(token_face_names) == 2:
-            return [
+            faces = [
                 {
                     "faceName": token_face_names[0],
                     "faceId": first_face_id,
@@ -177,6 +211,14 @@ class TcgplayerTokenParser:
                     **additional_side_b,
                 },
             ]
+            hints = self.__get_face_set_code_hints(tcgplayer_token["name"])
+            power_toughness = self.__get_face_power_toughness(tcgplayer_token)
+            for face, hint, face_power_toughness in zip(faces, hints, power_toughness):
+                if hint:
+                    face["setCodeHint"] = hint
+                if face_power_toughness:
+                    face["powerToughnessHint"] = face_power_toughness
+            return faces
 
         return [
             {
