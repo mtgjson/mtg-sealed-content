@@ -91,6 +91,25 @@ class TcgplayerTokenParser:
         return [None, None]
 
     @staticmethod
+    def __get_face_power_toughness(tcgplayer_token: Dict[str, Any]) -> List[List[str] | None]:
+        """
+        TCGplayer lists a double-sided token's power and toughness per face, as
+        P "4/1" and T "4/1" for a 4/4 front and a 1/1 back.
+        """
+        values = {
+            raw_extended_data["name"]: raw_extended_data["value"].split("/")
+            for raw_extended_data in tcgplayer_token["extendedData"]
+            if raw_extended_data["name"] in ("P", "T")
+        }
+        powers, toughnesses = values.get("P", []), values.get("T", [])
+        if len(powers) != 2 or len(toughnesses) != 2:
+            return [None, None]
+        return [
+            [power.strip(), toughness.strip()]
+            for power, toughness in zip(powers, toughnesses)
+        ]
+
+    @staticmethod
     def get_additional_dict(
         tcgplayer_token_name_lower: str,
     ) -> Dict[str, str | list[str]]:
@@ -193,9 +212,12 @@ class TcgplayerTokenParser:
                 },
             ]
             hints = self.__get_face_set_code_hints(tcgplayer_token["name"])
-            for face, hint in zip(faces, hints):
+            power_toughness = self.__get_face_power_toughness(tcgplayer_token)
+            for face, hint, face_power_toughness in zip(faces, hints, power_toughness):
                 if hint:
                     face["setCodeHint"] = hint
+                if face_power_toughness:
+                    face["powerToughnessHint"] = face_power_toughness
             return faces
 
         return [

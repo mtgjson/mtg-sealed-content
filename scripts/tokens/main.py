@@ -89,9 +89,9 @@ def map_uuids_back_to_single_uuid(
 
     A face can match several MTGJSON tokens that share a name and number (for
     example a parent set token and its Commander reprint). On a multi-face
-    product each face resolves to its first match, which the mapper orders so
-    the set selling the product comes first, and every token listing the
-    product agrees on which printings make it up. A single-face product, such
+    product each face resolves to its first match, which the mapper orders by
+    what TCGplayer says about the face, and every token listing the product
+    agrees on which printings make it up. A single-face product, such
     as an art card, is listed under every token it matches and names that
     token as its face.
 
@@ -136,8 +136,10 @@ def filter_tokens_without_uuids(
         for uuid in uuids:
             entry = deepcopy(output_token)
             for part in entry["tokenParts"]:
+                part.pop("setCodeHint", None)
+                part.pop("powerToughnessHint", None)
                 if "uuids" in part:
-                    for key in ("tokenType", "faceId", "faceName", "setCodeHint"):
+                    for key in ("tokenType", "faceId", "faceName"):
                         part.pop(key, None)
             # Conversion below mutates tokenParts for this specific UUID.
             output_dict_of_tokens[uuid].append(entry)

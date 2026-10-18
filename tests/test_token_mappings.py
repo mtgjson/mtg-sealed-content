@@ -9,16 +9,26 @@ from scripts.tokens.main import (
 from scripts.tokens.tcgplayer_token_parser import TcgplayerTokenParser
 
 
-def token(uuid, name, number):
-    return {"uuid": uuid, "name": name, "number": number, "layout": "token"}
+def token(uuid, name, number, power=None, toughness=None):
+    return {
+        "uuid": uuid,
+        "name": name,
+        "number": number,
+        "layout": "token",
+        "power": power,
+        "toughness": toughness,
+    }
 
 
-def product(name, number, group_id):
+def product(name, number, group_id, power=None, toughness=None):
+    extended_data = [{"name": "Number", "value": number}]
+    if power is not None:
+        extended_data += [{"name": "P", "value": power}, {"name": "T", "value": toughness}]
     return {
         "productId": 1,
         "groupId": group_id,
         "name": name,
-        "extendedData": [{"name": "Number", "value": number}],
+        "extendedData": extended_data,
     }
 
 
@@ -48,6 +58,26 @@ class ProductSetTokenMappingTests(unittest.TestCase):
         self.assertEqual(
             mapping["drc-dragon"][0]["tokenParts"],
             [{"uuid": "drc-dragon"}, {"uuid": "drc-zombie"}],
+        )
+
+    def test_power_and_toughness_pick_a_parent_set_back_on_a_commander_product(self):
+        mapping = self.build(
+            {
+                "DFT": [token("dft-zombie", "Zombie", "3", "2", "2")],
+                "DRC": [
+                    token("drc-warrior", "Zombie Warrior", "9", "4", "4"),
+                    token("drc-zombie", "Zombie", "3", "1", "1"),
+                ],
+            },
+            product(
+                "Zombie Warrior // Zombie (0003) Double-Sided Token", "9 // 3", 23929, "4/2", "4/2"
+            ),
+            {"DFT": 23874, "DRC": 23929},
+        )
+        self.assertNotIn("drc-zombie", mapping)
+        self.assertEqual(
+            mapping["drc-warrior"][0]["tokenParts"],
+            [{"uuid": "drc-warrior"}, {"uuid": "dft-zombie"}],
         )
 
     def test_set_named_on_a_face_decides_that_face(self):

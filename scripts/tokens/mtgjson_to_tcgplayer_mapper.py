@@ -369,6 +369,14 @@ class MtgjsonToTcgplayerMapper:
             for token_set_code, mtgjson_token_data in mtgjson_tokens.items()
             for mtgjson_token in mtgjson_token_data
         }
+        uuid_to_power_toughness = {
+            mtgjson_token["uuid"]: [
+                str(mtgjson_token.get("power")),
+                str(mtgjson_token.get("toughness")),
+            ]
+            for mtgjson_token_data in mtgjson_tokens.values()
+            for mtgjson_token in mtgjson_token_data
+        }
 
         for tcgplayer_token_face_index, tcgplayer_token_face in enumerate(
             tcgplayer_token_face_details
@@ -391,27 +399,37 @@ class MtgjsonToTcgplayerMapper:
                 continue
             if tcgplayer_token_face["tokenType"] == "Token":
                 self.order_star_printings(tcgplayer_token_face, star_uuids)
-            self.order_by_product_set(
+            self.order_by_printing(
                 tcgplayer_token_face,
                 uuid_to_set_code,
+                uuid_to_power_toughness,
                 product_group_id,
                 set_code_to_group_id or {},
             )
 
     @staticmethod
-    def order_by_product_set(
-        tcgplayer_token_face, uuid_to_set_code, product_group_id, set_code_to_group_id
+    def order_by_printing(
+        tcgplayer_token_face,
+        uuid_to_set_code,
+        uuid_to_power_toughness,
+        product_group_id,
+        set_code_to_group_id,
     ) -> None:
         # A parent set and its Commander set can each print a token with the
-        # same name and number. The face belongs to the set TCGplayer names on
-        # the face itself, otherwise to the set that sells the product. Applied
-        # after the star ordering, so this decides first and stars break ties.
+        # same name and number, and a Commander product can carry either one.
+        # The face belongs to the set TCGplayer names on the face itself, then
+        # to the printing whose power and toughness TCGplayer lists for the
+        # face, then to the set that sells the product. Applied after the star
+        # ordering, so this decides first and stars break ties.
         set_code_hint = tcgplayer_token_face.get("setCodeHint")
+        power_toughness_hint = tcgplayer_token_face.get("powerToughnessHint")
 
         def rank(uuid):
             token_set_code = uuid_to_set_code.get(uuid)
             return (
                 set_code_hint is not None and token_set_code != set_code_hint,
+                power_toughness_hint is not None
+                and uuid_to_power_toughness.get(uuid) != power_toughness_hint,
                 product_group_id is not None
                 and set_code_to_group_id.get(token_set_code) != product_group_id,
             )
