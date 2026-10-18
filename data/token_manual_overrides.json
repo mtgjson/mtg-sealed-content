@@ -73,6 +73,22 @@
             ]
         }
     ],
+    "056111f7-430a-5c64-9d9d-51fd4c5a0957": [
+        {
+            "parentSetCode": "MID",
+            "identifiers": {
+                "tcgplayerProductId": "249444"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "056111f7-430a-5c64-9d9d-51fd4c5a0957"
+                },
+                {
+                    "uuid": "974e8ef7-5b3c-5f02-9887-027e2578687f"
+                }
+            ]
+        }
+    ],
     "064cf4c6-5bca-5e99-8c49-1b80592a323e": [
         {
             "parentSetCode": "SCD",
@@ -3065,6 +3081,47 @@
             ]
         }
     ],
+    "87df5573-4b61-5eaa-94b2-efd2398be6ac": [
+        {
+            "parentSetCode": "MID",
+            "identifiers": {
+                "tcgplayerProductId": "249539"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "87df5573-4b61-5eaa-94b2-efd2398be6ac"
+                }
+            ]
+        },
+        {
+            "parentSetCode": "MID",
+            "identifiers": {
+                "tcgplayerProductId": "249447"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "87df5573-4b61-5eaa-94b2-efd2398be6ac"
+                },
+                {
+                    "uuid": "974e8ef7-5b3c-5f02-9887-027e2578687f"
+                }
+            ]
+        },
+        {
+            "parentSetCode": "MID",
+            "identifiers": {
+                "tcgplayerProductId": "249449"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "5a7153f0-d17e-5c43-9180-4756c62a5fdc"
+                },
+                {
+                    "uuid": "87df5573-4b61-5eaa-94b2-efd2398be6ac"
+                }
+            ]
+        }
+    ],
     "88c328ee-2d63-5860-a804-8dafc90c6a52": [
         {
             "parentSetCode": "MH2",
@@ -3432,6 +3489,229 @@
             "tokenParts": [
                 {
                     "uuid": "9624a543-4e08-51aa-9014-5307eb42b35c"
+                }
+            ]
+        }
+    ],
+    "974e8ef7-5b3c-5f02-9887-027e2578687f": [
+        {
+            "parentSetCode": "MID",
+            "identifiers": {
+                "tcgplayerProductId": "249440"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "974e8ef7-5b3c-5f02-9887-027e2578687f"
+                },
+                {
+                    "uuid": "4109db31-6037-50fc-a8ba-07c1a21b59f4"
+                }
+            ]
+        },
+        {
+            "parentSetCode": "MID",
+            "identifiers": {
+                "tcgplayerProductId": "249539"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "974e8ef7-5b3c-5f02-9887-027e2578687f"
+                }
+            ]
+        },
+        {
+            "parentSetCode": "MID",
+            "identifiers": {
+                "tcgplayerProductId": "249869"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "974e8ef7-5b3c-5f02-9887-027e2578687f"
+                },
+                {
+                    "uuid": "1a35533c-585f-57c6-a1f0-15a30c970419"
+                }
+            ]
+        },
+        {
+            "parentSetCode": "MID",
+            "identifiers": {
+                "tcgplayerProductId": "249870"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "974e8ef7-5b3c-5f02-9887-027e2578687f"
+                },
+                {
+                    "uuid": "3378a201-b957-5508-931e-f85e221d6801"
+                }
+            ]
+        },
+        {
+            "parentSetCode": "MID",
+            "identifiers": {
+                "tcgplayerProductId": "249871"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "974e8ef7-5b3c-5f02-9887-027e2578687f"
+                },
+                {
+                    "uuid": "d1a28b9a-8f82-5413-a1f1-3284bd2f3f52"
+                }
+            ]
+        },
+        {
+            "parentSetCode": "MID",
+            "identifiers": {
+                "tcgplayerProductId": "249872"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "974e8ef7-5b3c-5f02-9887-027e2578687f"
+                },
+                {
+                    "uuid": "51112885-432d-52a4-97be-107f00bbdf70"
+                }
+            ]
+        },
+        {
+            "parentSetCode": "MID",
+            "identifiers": {
+                "tcgplayerProductId": "249873"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "974e8ef7-5b3c-5f02-9887-027e2578687f"
+                },
+                {
+                    "uuid": "c827d437-be61-5b73-8d1a-b3576f6629a8"
+                }
+            ]
+        },
+        {
+            "parentSetCode": "MID",
+            "identifiers": {
+                "tcgplayerProductId": "249874"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "974e8ef7-5b3c-5f02-9887-027e2578687f"
+                },
+                {
+                    "uuid": "c24f7648-d86a-5c66-93c1-104ddd0f95d3"
+                }
+            ]
+        },
+        {
+            "parentSetCode": "MID",
+            "identifiers": {
+                "tcgplayerProductId": "249875"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "974e8ef7-5b3c-5f02-9887-027e2578687f"
+                },
+                {
+                    "uuid": "a0aeb1e1-284f-51b4-bc3a-44cb3d26c067"
+                }
+            ]
+        },
+        {
+            "parentSetCode": "MID",
+            "identifiers": {
+                "tcgplayerProductId": "249876"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "974e8ef7-5b3c-5f02-9887-027e2578687f"
+                },
+                {
+                    "uuid": "f553735d-b495-5c5f-b28e-464065ef8859"
+                }
+            ]
+        },
+        {
+            "parentSetCode": "MID",
+            "identifiers": {
+                "tcgplayerProductId": "249877"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "974e8ef7-5b3c-5f02-9887-027e2578687f"
+                },
+                {
+                    "uuid": "6382a9a1-d8c1-53e6-b1f3-e2f4f082a584"
+                }
+            ]
+        },
+        {
+            "parentSetCode": "MID",
+            "identifiers": {
+                "tcgplayerProductId": "249878"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "974e8ef7-5b3c-5f02-9887-027e2578687f"
+                },
+                {
+                    "uuid": "f491d91a-8f4e-54a5-9513-5d89bad9f4ec"
+                }
+            ]
+        },
+        {
+            "parentSetCode": "MID",
+            "identifiers": {
+                "tcgplayerProductId": "249879"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "974e8ef7-5b3c-5f02-9887-027e2578687f"
+                },
+                {
+                    "uuid": "c5487613-a4b3-5943-8405-51c497f272a3"
+                }
+            ]
+        },
+        {
+            "parentSetCode": "MID",
+            "identifiers": {
+                "tcgplayerProductId": "249880"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "974e8ef7-5b3c-5f02-9887-027e2578687f"
+                },
+                {
+                    "uuid": "b9f7553d-55f1-5a3d-a0bc-2c36967c544f"
+                }
+            ]
+        },
+        {
+            "parentSetCode": "MID",
+            "identifiers": {
+                "tcgplayerProductId": "249444"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "056111f7-430a-5c64-9d9d-51fd4c5a0957"
+                },
+                {
+                    "uuid": "974e8ef7-5b3c-5f02-9887-027e2578687f"
+                }
+            ]
+        },
+        {
+            "parentSetCode": "MID",
+            "identifiers": {
+                "tcgplayerProductId": "249447"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "87df5573-4b61-5eaa-94b2-efd2398be6ac"
+                },
+                {
+                    "uuid": "974e8ef7-5b3c-5f02-9887-027e2578687f"
                 }
             ]
         }
