@@ -88,7 +88,11 @@ class GathererDownloader:
 
         for page_number in range(1, 100):
             formatted_url = url.format(set_code, page_number)
-            paged_response = self._get(formatted_url)
+            paged_response = self.session.get(formatted_url, timeout=(10, 60))
+            # Gatherer returns 404 for pages past the end of a set
+            if paged_response.status_code == 404 and page_number > 1:
+                break
+            paged_response.raise_for_status()
 
             soup = bs4.BeautifulSoup(paged_response.content, "html.parser")
 
