@@ -30,6 +30,7 @@ class TcgplayerTokenParser:
         )
         self.__role_regex = re.compile(r"(.*) Role / (.*) Role")
         self.__face_set_code_regex = re.compile(r"\(\d+\S* ([A-Z][A-Z0-9]{1,4})\)")
+        self.__face_number_regex = re.compile(r"\((\d+)\)")
 
     def __fix_emblem_names(self, token) -> str:
         if match := self.__emblem_regex.match(token):
@@ -46,11 +47,9 @@ class TcgplayerTokenParser:
             # Split cards are broken down into a left half and right half
             if match := self.__double_sided_token_regex.match(token_name):
                 left, right = [
-                    part.split(" (")[0] for part in match.group(1).split(" // ")
+                    part.split(" (")[0].strip().removesuffix(" Token")
+                    for part in match.group(1).split(" // ")
                 ]
-
-                left = left.strip()
-                right = right.strip()
 
                 if match := self.__role_regex.match(left):
                     left = f"{match.group(1)} // {match.group(2)}"
@@ -74,7 +73,26 @@ class TcgplayerTokenParser:
         if "Magic Minigame" in token_name:
             return [token_name.split("Magic Minigame: ")[-1]]
 
-        return [self.__fix_emblem_names(token_name.split(" Token")[0])]
+        token_name = token_name.split(" Token")[0]
+        if match := self.__role_regex.match(token_name):
+            return [f"{match.group(1)} // {match.group(2)}"]
+        return [self.__fix_emblem_names(token_name)]
+
+    def __get_face_numbers_from_name(self, token_name: str) -> List[str | None]:
+        """
+        Some TCGplayer products carry no number and name it on the face
+        instead, as in "Clown Robot (002) // Food (010) Double-sided Token".
+        """
+        if match := self.__double_sided_token_regex.match(token_name):
+            faces = match.group(1).split(" // ")
+            if len(faces) == 2:
+                return [
+                    number.group(1).lstrip("0")
+                    if (number := self.__face_number_regex.search(face))
+                    else None
+                    for face in faces
+                ]
+        return [None, None]
 
     def __get_face_set_code_hints(self, token_name: str) -> List[str | None]:
         """
@@ -136,8 +154,13 @@ class TcgplayerTokenParser:
             # Tokens/Emblems (the general case)
         ]
 
+        # A keyword has to start a word, so "art" names an art card but not
+        # "Earthshaker Khenra" or "Heartwood". "art" must also end one, so
+        # "Artifact" or "Artisan" isn't an art card, while "punch" and "bio"
+        # still cover "Punchcard" and "Biography".
         for keyword, token_type in token_type_priorities:
-            if keyword in tcgplayer_token_name_lower:
+            word_end = r"\b" if keyword == "art" else ""
+            if re.search(rf"\b{re.escape(keyword)}{word_end}", tcgplayer_token_name_lower):
                 additional["tokenType"] = token_type
                 break
 
@@ -192,11 +215,19 @@ class TcgplayerTokenParser:
                     additional["faceAttribute"] = []
                 additional["faceAttribute"].append(match.group(1))
 
-        # Hack to account for the Bounty tokens
-        if token_face_names[0].startswith("Bounty:"):
-            second_face_id = first_face_id
-
         if len(token_face_names) == 2:
+            # One number on a two-faced product numbers both of its faces, as
+            # with "Day // Night" or the OTJ Bounty cards. A product with no
+            # number at all may name each face's number instead.
+            if second_face_id is None:
+                first_name_number, second_name_number = (
+                    self.__get_face_numbers_from_name(tcgplayer_token["name"])
+                )
+                if first_face_id is None:
+                    first_face_id = first_name_number
+                    second_face_id = second_name_number
+                else:
+                    second_face_id = second_name_number or first_face_id
             faces = [
                 {
                     "faceName": token_face_names[0],
