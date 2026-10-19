@@ -1,0 +1,161 @@
+code: mdd
+products:
+  Marvel Darkhold Destiny Arcanum Bundle:
+    category: BUNDLE
+    subtype: GIFT_BUNDLE
+    release_date: '2027-04-09'
+    identifiers:
+      cardtraderId: '417371'
+      mcmId: '916741'
+    contents:
+      card_count: 1
+      other:
+      - name: 5 Traditional foil full-art Bifrost lands
+      - name: Arcanum promo cards
+      - name: Spindown die
+      - name: Card-storage box
+      sealed:
+      - count: 8
+        name: Marvel Darkhold Destiny Booster Pack
+        set: mdd
+      - count: 1
+        name: Marvel Darkhold Destiny Collector Booster
+        set: mdd
+  Marvel Darkhold Destiny Booster Display:
+    category: BOOSTER_BOX
+    subtype: PLAY
+    release_date: '2027-04-09'
+    identifiers:
+      cardtraderId: '417355'
+      mcmId: '916746'
+    contents:
+      sealed:
+      - count: 30
+        name: Marvel Darkhold Destiny Booster Pack
+        set: mdd
+  Marvel Darkhold Destiny Booster Pack:
+    category: BOOSTER_PACK
+    subtype: PLAY
+    release_date: '2027-04-09'
+    identifiers:
+      cardtraderId: '417357'
+      mcmId: '916743'
+    contents: {}
+  Marvel Darkhold Destiny Bundle:
+    category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2027-04-09'
+    identifiers:
+      cardtraderId: '417359'
+      mcmId: '916740'
+    contents:
+      card_count: 1
+      other:
+      - name: 5 Full-art Strange Places basic lands
+      - name: Spindown die
+      - name: Card-storage box
+      sealed:
+      - count: 9
+        name: Marvel Darkhold Destiny Booster Pack
+        set: mdd
+  Marvel Darkhold Destiny Collector Booster:
+    category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2027-04-09'
+    identifiers:
+      cardtraderId: '417358'
+      mcmId: '916745'
+    contents: {}
+  Marvel Darkhold Destiny Collector Booster Display:
+    category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2027-04-09'
+    identifiers:
+      cardtraderId: '417356'
+      mcmId: '916747'
+    contents:
+      sealed:
+      - count: 12
+        name: Marvel Darkhold Destiny Collector Booster
+        set: mdd
+  Marvel Darkhold Destiny Draft Night:
+    category: LIMITED
+    subtype: DRAFT
+    release_date: '2027-04-09'
+    identifiers:
+      cardtraderId: '417360'
+      mcmId: '916739'
+    contents:
+      other:
+      - name: 90 Non-foil basic lands
+      - name: 10 Non-foil double-sided tokens
+      - name: 1 Draft insert
+      sealed:
+      - count: 12
+        name: Marvel Darkhold Destiny Booster Pack
+        set: mdd
+      - count: 1
+        name: Marvel Darkhold Destiny Collector Booster
+        set: mdd
+  Marvel Darkhold Destiny Prerelease Pack:
+    category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2027-04-09'
+    identifiers:
+      cardtraderId: '417363'
+      mcmId: '916731'
+    contents:
+      other:
+      - name: Spindown die
+      - name: Traditional foil rare or mythic rare card
+      sealed:
+      - count: 6
+        name: Marvel Darkhold Destiny Booster Pack
+        set: mdd
+  Marvel Darkhold Destiny Scene Box Assault on Asgard:
+    category: BOX_SET
+    subtype: OTHER
+    release_date: '2027-04-09'
+    identifiers:
+      cardtraderId: '417366'
+      mcmId: '916732'
+    contents:
+      card_count: 6
+      other:
+      - name: 6 Art-only scene cards
+      - name: Display easel
+      sealed:
+      - count: 3
+        name: Marvel Darkhold Destiny Booster Pack
+        set: mdd
+  Marvel Darkhold Destiny Scene Box Set of 2:
+    category: BOX_SET
+    subtype: OTHER
+    release_date: '2027-04-09'
+    identifiers:
+      cardtraderId: '417385'
+      mcmId: '916735'
+    contents:
+      sealed:
+      - count: 1
+        name: Marvel Darkhold Destiny Scene Box Assault on Asgard
+        set: mdd
+      - count: 1
+        name: Marvel Darkhold Destiny Scene Box Skirmish at the Sanctum
+        set: mdd
+  Marvel Darkhold Destiny Scene Box Skirmish at the Sanctum:
+    category: BOX_SET
+    subtype: OTHER
+    release_date: '2027-04-09'
+    identifiers:
+      cardtraderId: '417368'
+      mcmId: '916733'
+    contents:
+      card_count: 6
+      other:
+      - name: 6 Art-only scene cards
+      - name: Display easel
+      sealed:
+      - count: 3
+        name: Marvel Darkhold Destiny Booster Pack
+        set: mdd
