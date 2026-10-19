@@ -3896,7 +3896,8 @@ products:
     category: BOX_SET
     subtype: SECRET_LAIR
     release_date: '2026-12-14'
-    identifiers: {}
+    identifiers:
+      mcmId: '916813'
     contents:
       card_count: 4
       deck:
@@ -8047,7 +8048,8 @@ products:
     category: BOX_SET
     subtype: SECRET_LAIR
     release_date: '2026-12-14'
-    identifiers: {}
+    identifiers:
+      mcmId: '916808'
     contents:
       card_count: 6
       deck:
@@ -8071,7 +8073,8 @@ products:
     category: BOX_SET
     subtype: SECRET_LAIR
     release_date: '2026-12-14'
-    identifiers: {}
+    identifiers:
+      mcmId: '916809'
     contents:
       card_count: 6
       deck:
@@ -8095,7 +8098,8 @@ products:
     category: BOX_SET
     subtype: SECRET_LAIR
     release_date: '2026-12-14'
-    identifiers: {}
+    identifiers:
+      mcmId: '916810'
     contents:
       card_count: 7
       deck:
@@ -8232,7 +8236,8 @@ products:
     category: BOX_SET
     subtype: SECRET_LAIR
     release_date: '2026-12-14'
-    identifiers: {}
+    identifiers:
+      mcmId: '916811'
     contents:
       card_count: 7
       deck:
@@ -8726,7 +8731,8 @@ products:
     category: BOX_SET
     subtype: SECRET_LAIR
     release_date: '2026-12-14'
-    identifiers: {}
+    identifiers:
+      mcmId: '916814'
     contents:
       card_count: 5
       deck:
@@ -8870,7 +8876,8 @@ products:
     category: BOX_SET
     subtype: SECRET_LAIR
     release_date: '2026-12-14'
-    identifiers: {}
+    identifiers:
+      mcmId: '916812'
     contents:
       card_count: 6
       deck:
@@ -9874,7 +9881,8 @@ products:
     category: BOX_SET
     subtype: SECRET_LAIR
     release_date: '2026-12-14'
-    identifiers: {}
+    identifiers:
+      mcmId: '916815'
     contents:
       card_count: 5
       deck:
@@ -16822,6 +16830,7 @@ products:
     release_date: '2025-05-13'
     identifiers:
       cardKingdomId: '315829'
+      cardtraderId: '416529'
       hareruyaId: '177509'
       mcmId: '823343'
       tcgplayerProductId: '632016'
@@ -16855,6 +16864,7 @@ products:
     release_date: '2025-05-13'
     identifiers:
       cardKingdomId: '315827'
+      cardtraderId: '417264'
       hareruyaId: '177518'
       mcmId: '823351'
       tcgplayerProductId: '632017'
@@ -16951,6 +16961,11 @@ products:
       - count: 1
         name: Secret Lair Drop MagicCon The Gathering
         set: sld
+  Secret Lair Festival in a Box Atlanta 2026 Bundle:
+    category: BOX_SET
+    subtype: SECRET_LAIR_BUNDLE
+    identifiers:
+      mcmId: '916824'
   Secret Lair Festival in a Box Barcelona 2023 Commander Fan Bundle:
     category: BOX_SET
     subtype: SECRET_LAIR_BUNDLE
