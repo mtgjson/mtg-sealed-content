@@ -70,6 +70,28 @@
         },
         {
             "identifiers": {
+                "tcgplayerProductId": "286245"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F286245%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "faceAttribute": [
+                        "Surge Foil"
+                    ],
+                    "uuid": "014c729a-bbdc-5569-afe8-7155ec517de7"
+                },
+                {
+                    "faceAttribute": [
+                        "Surge Foil"
+                    ],
+                    "uuid": "696f1119-96b4-5bad-b113-a9cf8d1146ea"
+                }
+            ]
+        },
+        {
+            "identifiers": {
                 "tcgplayerProductId": "286246"
             },
             "purchaseUrls": {
@@ -425,6 +447,22 @@
                     "uuid": "71e8a701-0152-5d83-9323-4552f32716e7"
                 }
             ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "286242"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F286242%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "64702a74-d644-583e-aec8-89621d98615f"
+                },
+                {
+                    "uuid": "696f1119-96b4-5bad-b113-a9cf8d1146ea"
+                }
+            ]
         }
     ],
     "64da9ac6-4446-5677-977d-731e02ace324": [
@@ -526,6 +564,84 @@
             ]
         }
     ],
+    "696f1119-96b4-5bad-b113-a9cf8d1146ea": [
+        {
+            "identifiers": {
+                "tcgplayerProductId": "286241"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F286241%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "faceAttribute": [
+                        "Surge Foil"
+                    ],
+                    "uuid": "cfce7c69-c5d6-565d-8661-efa842b3147d"
+                },
+                {
+                    "faceAttribute": [
+                        "Surge Foil"
+                    ],
+                    "uuid": "696f1119-96b4-5bad-b113-a9cf8d1146ea"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "286242"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F286242%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "64702a74-d644-583e-aec8-89621d98615f"
+                },
+                {
+                    "uuid": "696f1119-96b4-5bad-b113-a9cf8d1146ea"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "286244"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F286244%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "71e8a701-0152-5d83-9323-4552f32716e7"
+                },
+                {
+                    "uuid": "696f1119-96b4-5bad-b113-a9cf8d1146ea"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "286245"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F286245%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "faceAttribute": [
+                        "Surge Foil"
+                    ],
+                    "uuid": "014c729a-bbdc-5569-afe8-7155ec517de7"
+                },
+                {
+                    "faceAttribute": [
+                        "Surge Foil"
+                    ],
+                    "uuid": "696f1119-96b4-5bad-b113-a9cf8d1146ea"
+                }
+            ]
+        }
+    ],
     "70660a05-39e9-53b5-86a5-487e15c4eca3": [
         {
             "identifiers": {
@@ -580,6 +696,22 @@
                 },
                 {
                     "uuid": "71e8a701-0152-5d83-9323-4552f32716e7"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "286244"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F286244%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "71e8a701-0152-5d83-9323-4552f32716e7"
+                },
+                {
+                    "uuid": "696f1119-96b4-5bad-b113-a9cf8d1146ea"
                 }
             ]
         },
@@ -1001,6 +1133,28 @@
                         "Surge Foil"
                     ],
                     "uuid": "014c729a-bbdc-5569-afe8-7155ec517de7"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "286241"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F286241%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "faceAttribute": [
+                        "Surge Foil"
+                    ],
+                    "uuid": "cfce7c69-c5d6-565d-8661-efa842b3147d"
+                },
+                {
+                    "faceAttribute": [
+                        "Surge Foil"
+                    ],
+                    "uuid": "696f1119-96b4-5bad-b113-a9cf8d1146ea"
                 }
             ]
         }

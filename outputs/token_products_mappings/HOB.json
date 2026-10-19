@@ -286,9 +286,7 @@
                     "uuid": "c3a0f2b3-5555-54bd-b968-64b11c4af64b"
                 },
                 {
-                    "faceId": "15",
-                    "faceName": "On An Adventure",
-                    "tokenType": "Token"
+                    "uuid": "ffbc4b97-7c37-5393-ba0c-301390705d4b"
                 }
             ]
         }
@@ -446,6 +444,22 @@
         }
     ],
     "ffbc4b97-7c37-5393-ba0c-301390705d4b": [
+        {
+            "identifiers": {
+                "tcgplayerProductId": "710506"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F710506%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "c3a0f2b3-5555-54bd-b968-64b11c4af64b"
+                },
+                {
+                    "uuid": "ffbc4b97-7c37-5393-ba0c-301390705d4b"
+                }
+            ]
+        },
         {
             "identifiers": {
                 "tcgplayerProductId": "711056"
