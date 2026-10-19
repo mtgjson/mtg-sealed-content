@@ -123,3 +123,166 @@ class TokenMappingTests(unittest.TestCase):
 
     def test_unmatched_product_is_omitted(self):
         self.assertEqual(filter_tokens_without_uuids([{"tokenParts": [{}]}]), {})
+
+
+def face_token(uuid, name, number, face_name, side, layout="double_faced_token"):
+    return {**token(uuid, name, number), "layout": layout, "faceName": face_name, "side": side}
+
+
+class UnmatchedFaceTests(unittest.TestCase):
+    def parts(self, mtgjson_tokens, name, number, group_id=1):
+        mapping = build_tokens_mapping(
+            "SET", mtgjson_tokens, [product(name, number, group_id)], TcgplayerTokenParser()
+        )
+        return {uuid: entries[0]["tokenParts"] for uuid, entries in mapping.items()}
+
+    def test_art_inside_a_word_does_not_make_an_art_card(self):
+        parts = self.parts(
+            {"HOU": [token("khenra", "Earthshaker Khenra", "4"), token("cat", "Cat", "16")]},
+            "Earthshaker Khenra // Cat Double-Sided Token",
+            "4 // 16",
+        )
+        self.assertEqual(parts["khenra"], [{"uuid": "khenra"}, {"uuid": "cat"}])
+
+    def test_token_word_on_a_face_is_ignored(self):
+        parts = self.parts(
+            {"MH3": [token("clue", "Clue", "30"), token("energy", "Energy Reserve", "36")]},
+            "Clue Token // Energy Reserve Double-Sided Token",
+            "30 // 36",
+        )
+        self.assertEqual(parts["clue"], [{"uuid": "clue"}, {"uuid": "energy"}])
+
+    def test_token_word_in_the_mtgjson_name_is_ignored(self):
+        parts = self.parts(
+            {"FRC": [token("ginger", "Gingerbrute Token", "12"), token("map", "Map", "14")]},
+            "Gingerbrute // Map Double-Sided Token",
+            "12 // 14",
+        )
+        self.assertEqual(parts["ginger"], [{"uuid": "ginger"}, {"uuid": "map"}])
+
+    def test_face_names_match_regardless_of_case(self):
+        parts = self.parts(
+            {"SOC": [token("primo", "Primo, the Indivisible", "24"), token("t", "Treasure", "12")]},
+            "Primo, The Indivisible // Treasure Double-Sided Token",
+            "24 // 12",
+        )
+        self.assertEqual(parts["primo"], [{"uuid": "primo"}, {"uuid": "t"}])
+
+    def test_faces_of_one_double_faced_token_share_its_number(self):
+        parts = self.parts(
+            {"MID": [
+                face_token("day", "Day // Night", "19", "Day", "a"),
+                face_token("night", "Day // Night", "19", "Night", "b"),
+            ]},
+            "Day // Night Double-Sided Token",
+            "19",
+        )
+        self.assertEqual(parts["day"], [{"uuid": "day"}, {"uuid": "night"}])
+
+    def test_face_matches_one_side_of_a_double_faced_token(self):
+        parts = self.parts(
+            {"FRC": [
+                face_token("incubator", "Incubator // Phyrexian", "13", "Incubator", "a"),
+                face_token("phyrexian", "Incubator // Phyrexian", "13", "Phyrexian", "b"),
+            ]},
+            "Phyrexian // Incubator Double-Sided Token",
+            "13 // 13",
+        )
+        self.assertEqual(parts["phyrexian"], [{"uuid": "phyrexian"}, {"uuid": "incubator"}])
+
+    def test_numbers_listed_in_the_other_order_still_match(self):
+        parts = self.parts(
+            {"LCI": [token("map", "Map", "17"), token("treasure", "Treasure", "18")]},
+            "Treasure (0018) // Map Double-Sided Token",
+            "17 // 18",
+        )
+        self.assertEqual(parts["treasure"], [{"uuid": "treasure"}, {"uuid": "map"}])
+
+    def test_numbers_in_face_names_stand_in_for_a_missing_number(self):
+        mapping = build_tokens_mapping(
+            "UNF",
+            {"UNF": [
+                token("robot-2", "Clown Robot", "2"),
+                token("robot-3", "Clown Robot", "3"),
+                token("food-10", "Food", "10"),
+                token("food-11", "Food", "11"),
+            ]},
+            [{"productId": 1, "groupId": 1, "extendedData": [],
+              "name": "Clown Robot (003) // Food (011) Double-sided Token"}],
+            TcgplayerTokenParser(),
+        )
+        self.assertEqual(
+            mapping["robot-3"][0]["tokenParts"], [{"uuid": "robot-3"}, {"uuid": "food-11"}]
+        )
+
+    def test_unnumbered_face_matches_the_only_token_with_its_name(self):
+        mapping = build_tokens_mapping(
+            "UNF",
+            {"UNF": [token("cat", "Cat", "1"), token("food-10", "Food", "10")]},
+            [{"productId": 1, "groupId": 2958, "extendedData": [],
+              "name": "Cat // Food (10) Double-sided Token"}],
+            TcgplayerTokenParser(),
+            {"UNF": 2958, "SUNF": 2958},
+        )
+        self.assertEqual(mapping["cat"][0]["tokenParts"], [{"uuid": "cat"}, {"uuid": "food-10"}])
+
+    def test_unnumbered_face_needs_a_token_from_the_set_selling_it(self):
+        mapping = build_tokens_mapping(
+            "BRO",
+            {"BRO": [token("bear", "Bear", "2")]},
+            [{"productId": 1, "groupId": 2351, "extendedData": [], "name": "Bear Token"}],
+            TcgplayerTokenParser(),
+            {"BRO": 3157, "PTSNC": 2351},
+        )
+        self.assertEqual(mapping, {})
+
+    def test_unnumbered_single_token_is_not_matched_by_name(self):
+        mapping = build_tokens_mapping(
+            "MKM",
+            {"WMKM": [token("zombie", "Zombie", "1")]},
+            [{"productId": 1, "groupId": 2351, "extendedData": [], "name": "Zombie Token"}],
+            TcgplayerTokenParser(),
+            {"WMKM": 2351, "PTSNC": 2351},
+        )
+        self.assertEqual(mapping, {})
+
+    def test_theme_card_matches_a_front_card(self):
+        front = {**token("shield", "Agents of S.H.I.E.L.D.", "11"), "layout": "front_card"}
+        parts = self.parts({"FMSC": [front]}, "Agents of S.H.I.E.L.D. Theme Card", "11")
+        self.assertEqual(parts["shield"], [{"uuid": "shield"}])
+
+    def test_swapped_numbers_must_match_both_faces(self):
+        parts = self.parts(
+            {"SET": [token("zombie", "Zombie", "21")]},
+            "Treasure (021) // Zombie Double-Sided Token",
+            "21 // 6",
+        )
+        self.assertEqual(parts, {})
+
+    def test_art_card_with_another_number_does_not_match_a_longer_name(self):
+        def art(uuid, name, number):
+            return {**token(uuid, f"{name} // {name}", number), "layout": "art_series", "side": "b"}
+
+        parts = self.parts(
+            {"ATLA": [art("swamp", "Swamp", "52")], "ATLE": [art("benders", "Swampbenders", "4")]},
+            "Swamp Art Card",
+            "52",
+        )
+        self.assertEqual(set(parts), {"swamp"})
+
+    def test_art_card_can_shorten_the_name_when_the_numbers_agree(self):
+        art = {
+            **token("tyrant", "Ghastly Death Tyrant // Ghastly Death Tyrant", "11"),
+            "layout": "art_series",
+            "side": "b",
+        }
+        parts = self.parts({"ACLB": [art]}, "Death Tyrant Art Card", "11")
+        self.assertEqual(set(parts), {"tyrant"})
+
+    def test_single_role_token_matches_its_two_roles(self):
+        roles = [
+            face_token("royal", "Royal // Young Hero", "16", "Royal", "a", "flip"),
+            face_token("hero", "Royal // Young Hero", "16", "Young Hero", "b", "flip"),
+        ]
+        parts = self.parts({"WOE": roles}, "Royal Role / Young Hero Role Token", "16")
+        self.assertEqual(set(parts), {"royal", "hero"})
