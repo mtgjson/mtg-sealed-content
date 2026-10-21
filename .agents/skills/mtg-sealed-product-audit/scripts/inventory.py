@@ -14,7 +14,7 @@ p.add_argument('--year', type=int, required=True)
 p.add_argument('--include-set', action='append', default=[])
 p.add_argument('--output', type=Path, required=True)
 a = p.parse_args()
-# The sealed repository's own loader reads either data layout (split or merged)
+# Read the sealed data through the repository's own loader
 sys.path.insert(0, str(a.sealed / 'scripts'))
 try:
     import sealed_yaml  # noqa: E402

@@ -17,7 +17,6 @@ class ReviewQueueTests(unittest.TestCase):
             os.chdir(tmp)
             try:
                 Path("data/products").mkdir(parents=True)
-                Path("data/contents").mkdir()
                 Path("data/ignore.yaml").write_text("{}")
                 old = {key: {"Pending": {"identifiers": {key: "123"}}}
                        for key in ("skipped", "failed", "active", "unregistered")}
