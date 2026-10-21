@@ -216,6 +216,19 @@ products:
       pack:
       - code: draft
         set: snc
+  Streets of New Capenna Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    identifiers:
+      cardtraderId: '210089'
+      mcmId: '653193'
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo-foil
+        set: snc
   Streets of New Capenna MTGO Redemption:
     category: BOX_SET
     subtype: MTGO_REDEMPTION
@@ -368,6 +381,19 @@ products:
         set: snc
       - count: 1
         name: Streets of New Capenna Prerelease Pack Riveteers
+        set: snc
+  Streets of New Capenna Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    identifiers:
+      cardtraderId: '210090'
+      mcmId: '653192'
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo
         set: snc
   Streets of New Capenna Set Booster Box:
     category: BOOSTER_BOX

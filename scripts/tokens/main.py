@@ -87,24 +87,28 @@ def map_uuids_back_to_single_uuid(
     needs to be broken down into individual UUIDs, for consistency, since each
     entry should only have one UUID to link back to in the MTGJSON data set.
 
+    A face can match several MTGJSON tokens that share a name and number (for
+    example a parent set token and its Commander reprint). On a multi-face
+    product each face resolves to its first match, which the mapper orders by
+    what TCGplayer says about the face, and every token listing the product
+    agrees on which printings make it up. A single-face product, such
+    as an art card, is listed under every token it matches and names that
+    token as its face.
+
     :param filtered: A "final" format of the token mapping
     :return: The same "final" format of token mapping, but with UUIDs mapped back to single UUIDs
     """
-    tp = "tokenParts"
     for uuid, output_tokens in filtered.items():
-        for output_index, output_token in enumerate(output_tokens):
-            for token_part_index, token_part in enumerate(
-                output_token.get("tokenParts", [])
-            ):
+        for output_token in output_tokens:
+            token_parts = output_token.get("tokenParts", [])
+            for token_part in token_parts:
                 if "uuids" not in token_part:
                     continue
-                if uuid in token_part["uuids"]:
-                    filtered[uuid][output_index][tp][token_part_index]["uuid"] = uuid
+                uuids = token_part.pop("uuids")
+                if len(token_parts) == 1 and uuid in uuids:
+                    token_part["uuid"] = uuid
                 else:
-                    filtered[uuid][output_index][tp][token_part_index]["uuid"] = (
-                        token_part["uuids"][0]
-                    )
-                del filtered[uuid][output_index][tp][token_part_index]["uuids"]
+                    token_part["uuid"] = uuids[0]
 
     return filtered
 
@@ -120,16 +124,20 @@ def filter_tokens_without_uuids(
     """
     output_dict_of_tokens = defaultdict(list)
     for output_token in output_tokens:
-        # Collect the keys before copying so a UUID appearing on both faces
-        # receives this marketplace product only once.
-        uuids = dict.fromkeys(
-            uuid
-            for part in output_token["tokenParts"]
-            for uuid in part.get("uuids", [])
-        )
+        # A multi-face product is listed only under the token each face
+        # resolves to, and a UUID on both faces receives it once.
+        token_parts = output_token["tokenParts"]
+        if len(token_parts) == 1:
+            uuids = dict.fromkeys(token_parts[0].get("uuids", []))
+        else:
+            uuids = dict.fromkeys(
+                part["uuids"][0] for part in token_parts if part.get("uuids")
+            )
         for uuid in uuids:
             entry = deepcopy(output_token)
             for part in entry["tokenParts"]:
+                part.pop("setCodeHint", None)
+                part.pop("powerToughnessHint", None)
                 if "uuids" in part:
                     for key in ("tokenType", "faceId", "faceName"):
                         part.pop(key, None)
@@ -160,6 +168,7 @@ def build_tokens_mapping(
     mtgjson_tokens: Dict[str, List[Dict[str, Any]]],
     tcgplayer_tokens: List[Dict[str, Any]],
     tcgplayer_token_parser: TcgplayerTokenParser,
+    set_code_to_group_id: Dict[str, int] | None = None,
 ) -> Dict[str, List[Dict[str, Any]]]:
     tokens = []
     mapper = MtgjsonToTcgplayerMapper()
@@ -173,7 +182,11 @@ def build_tokens_mapping(
             tcgplayer_token_parser.split_tcgplayer_token_faces_details(tcgplayer_token)
         )
         mapper.add_mtgjson_uuids_to_tcgplayer_token_face_details(
-            set_code, mtgjson_tokens, tcgplayer_token_face_details
+            set_code,
+            mtgjson_tokens,
+            tcgplayer_token_face_details,
+            tcgplayer_token.get("groupId"),
+            set_code_to_group_id,
         )
 
         tokens.append(
@@ -207,6 +220,7 @@ def main():
 
     overrides = import_overrides()
     set_code_mapping = mtgjson_parser.get_codes_to_group_ids_mapping()
+    set_code_to_group_id = mtgjson_parser.get_code_to_own_group_id_mapping()
     total = len(set_code_mapping)
     print(f"Processing {total} sets...")
 
@@ -216,7 +230,11 @@ def main():
         tcgplayer_tokens = tcgplayer_provider.get_tokens_from_group_ids(group_ids)
 
         output_token_mapping = build_tokens_mapping(
-            set_code, mtgjson_tokens, tcgplayer_tokens, tcgplayer_token_parser
+            set_code,
+            mtgjson_tokens,
+            tcgplayer_tokens,
+            tcgplayer_token_parser,
+            set_code_to_group_id,
         )
         output_token_mapping.update(overrides.get(set_code, {}))
 

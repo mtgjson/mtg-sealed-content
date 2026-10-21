@@ -41,9 +41,7 @@
                     "uuid": "1cfb9daa-8bf2-52e4-a048-b442f30a3a56"
                 },
                 {
-                    "faceId": "17",
-                    "faceName": "Warrior",
-                    "tokenType": "Token"
+                    "uuid": "9100049f-4585-5c92-8a35-98ae8a4effb8"
                 }
             ]
         }
@@ -106,9 +104,7 @@
                     "uuid": "2a09eeab-3490-5d02-a556-ba650d80126e"
                 },
                 {
-                    "faceId": "17",
-                    "faceName": "Warrior",
-                    "tokenType": "Token"
+                    "uuid": "9100049f-4585-5c92-8a35-98ae8a4effb8"
                 }
             ]
         },
@@ -124,9 +120,7 @@
                     "uuid": "2a09eeab-3490-5d02-a556-ba650d80126e"
                 },
                 {
-                    "faceId": "20",
-                    "faceName": "Zombie",
-                    "tokenType": "Token"
+                    "uuid": "95f36818-6a89-5a1e-9821-03016d94f604"
                 }
             ]
         }
@@ -157,9 +151,7 @@
                     "uuid": "33dc50f9-6044-5afb-b9d9-b23b91f7330d"
                 },
                 {
-                    "faceId": "16",
-                    "faceName": "Cat",
-                    "tokenType": "Token"
+                    "uuid": "909fb00f-9bf6-563a-9dab-1a1ec252d97e"
                 }
             ]
         },
@@ -175,9 +167,7 @@
                     "uuid": "33dc50f9-6044-5afb-b9d9-b23b91f7330d"
                 },
                 {
-                    "faceId": "20",
-                    "faceName": "Zombie",
-                    "tokenType": "Token"
+                    "uuid": "95f36818-6a89-5a1e-9821-03016d94f604"
                 }
             ]
         }
@@ -224,9 +214,7 @@
                     "uuid": "46bbc6b1-67bd-5471-959a-8aeca495d287"
                 },
                 {
-                    "faceId": "17",
-                    "faceName": "Warrior",
-                    "tokenType": "Token"
+                    "uuid": "9100049f-4585-5c92-8a35-98ae8a4effb8"
                 }
             ]
         }
@@ -257,9 +245,7 @@
                     "uuid": "4c97ece3-648a-5cdb-80c9-8ef423834674"
                 },
                 {
-                    "faceId": "16",
-                    "faceName": "Cat",
-                    "tokenType": "Token"
+                    "uuid": "909fb00f-9bf6-563a-9dab-1a1ec252d97e"
                 }
             ]
         },
@@ -275,27 +261,7 @@
                     "uuid": "4c97ece3-648a-5cdb-80c9-8ef423834674"
                 },
                 {
-                    "faceId": "20",
-                    "faceName": "Zombie",
-                    "tokenType": "Token"
-                }
-            ]
-        }
-    ],
-    "4d36d9bd-7e88-5609-8e29-5ecb44ceb4eb": [
-        {
-            "identifiers": {
-                "tcgplayerProductId": "138070"
-            },
-            "purchaseUrls": {
-                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138070%3Fpage%3D1"
-            },
-            "tokenParts": [
-                {
-                    "uuid": "4d36d9bd-7e88-5609-8e29-5ecb44ceb4eb"
-                },
-                {
-                    "uuid": "4d36d9bd-7e88-5609-8e29-5ecb44ceb4eb"
+                    "uuid": "95f36818-6a89-5a1e-9821-03016d94f604"
                 }
             ]
         }
@@ -326,9 +292,7 @@
                     "uuid": "5186a529-39ed-5561-8577-2a86a9d17ec1"
                 },
                 {
-                    "faceId": "16",
-                    "faceName": "Cat",
-                    "tokenType": "Token"
+                    "uuid": "909fb00f-9bf6-563a-9dab-1a1ec252d97e"
                 }
             ]
         },
@@ -344,9 +308,7 @@
                     "uuid": "5186a529-39ed-5561-8577-2a86a9d17ec1"
                 },
                 {
-                    "faceId": "20",
-                    "faceName": "Zombie",
-                    "tokenType": "Token"
+                    "uuid": "95f36818-6a89-5a1e-9821-03016d94f604"
                 }
             ]
         }
@@ -362,6 +324,38 @@
             "tokenParts": [
                 {
                     "uuid": "54246804-4196-54aa-b8c2-5db7cc754529"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "138733"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138733%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "54246804-4196-54aa-b8c2-5db7cc754529"
+                },
+                {
+                    "uuid": "909fb00f-9bf6-563a-9dab-1a1ec252d97e"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "138745"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138745%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "54246804-4196-54aa-b8c2-5db7cc754529"
+                },
+                {
+                    "uuid": "95f36818-6a89-5a1e-9821-03016d94f604"
                 }
             ]
         }
@@ -392,9 +386,7 @@
                     "uuid": "5d63c444-2bf4-58e0-9987-c98dcfb45bfe"
                 },
                 {
-                    "faceId": "16",
-                    "faceName": "Cat",
-                    "tokenType": "Token"
+                    "uuid": "909fb00f-9bf6-563a-9dab-1a1ec252d97e"
                 }
             ]
         },
@@ -410,9 +402,7 @@
                     "uuid": "5d63c444-2bf4-58e0-9987-c98dcfb45bfe"
                 },
                 {
-                    "faceId": "20",
-                    "faceName": "Zombie",
-                    "tokenType": "Token"
+                    "uuid": "95f36818-6a89-5a1e-9821-03016d94f604"
                 }
             ]
         }
@@ -459,9 +449,7 @@
                     "uuid": "6637c9fd-5c78-5fd5-9854-e4a4d7b011ef"
                 },
                 {
-                    "faceId": "17",
-                    "faceName": "Warrior",
-                    "tokenType": "Token"
+                    "uuid": "9100049f-4585-5c92-8a35-98ae8a4effb8"
                 }
             ]
         },
@@ -477,9 +465,7 @@
                     "uuid": "6637c9fd-5c78-5fd5-9854-e4a4d7b011ef"
                 },
                 {
-                    "faceId": "20",
-                    "faceName": "Zombie",
-                    "tokenType": "Token"
+                    "uuid": "95f36818-6a89-5a1e-9821-03016d94f604"
                 }
             ]
         }
@@ -510,9 +496,7 @@
                     "uuid": "77f2af28-01a6-5fb6-bf0b-b263c23cea8f"
                 },
                 {
-                    "faceId": "16",
-                    "faceName": "Cat",
-                    "tokenType": "Token"
+                    "uuid": "909fb00f-9bf6-563a-9dab-1a1ec252d97e"
                 }
             ]
         },
@@ -528,9 +512,349 @@
                     "uuid": "77f2af28-01a6-5fb6-bf0b-b263c23cea8f"
                 },
                 {
-                    "faceId": "20",
-                    "faceName": "Zombie",
-                    "tokenType": "Token"
+                    "uuid": "95f36818-6a89-5a1e-9821-03016d94f604"
+                }
+            ]
+        }
+    ],
+    "909fb00f-9bf6-563a-9dab-1a1ec252d97e": [
+        {
+            "identifiers": {
+                "tcgplayerProductId": "138733"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138733%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "54246804-4196-54aa-b8c2-5db7cc754529"
+                },
+                {
+                    "uuid": "909fb00f-9bf6-563a-9dab-1a1ec252d97e"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "138734"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138734%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "33dc50f9-6044-5afb-b9d9-b23b91f7330d"
+                },
+                {
+                    "uuid": "909fb00f-9bf6-563a-9dab-1a1ec252d97e"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "138735"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138735%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "77f2af28-01a6-5fb6-bf0b-b263c23cea8f"
+                },
+                {
+                    "uuid": "909fb00f-9bf6-563a-9dab-1a1ec252d97e"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "138736"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138736%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "4c97ece3-648a-5cdb-80c9-8ef423834674"
+                },
+                {
+                    "uuid": "909fb00f-9bf6-563a-9dab-1a1ec252d97e"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "138737"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138737%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "5d63c444-2bf4-58e0-9987-c98dcfb45bfe"
+                },
+                {
+                    "uuid": "909fb00f-9bf6-563a-9dab-1a1ec252d97e"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "138738"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138738%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "5186a529-39ed-5561-8577-2a86a9d17ec1"
+                },
+                {
+                    "uuid": "909fb00f-9bf6-563a-9dab-1a1ec252d97e"
+                }
+            ]
+        }
+    ],
+    "9100049f-4585-5c92-8a35-98ae8a4effb8": [
+        {
+            "identifiers": {
+                "tcgplayerProductId": "138739"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138739%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "6637c9fd-5c78-5fd5-9854-e4a4d7b011ef"
+                },
+                {
+                    "uuid": "9100049f-4585-5c92-8a35-98ae8a4effb8"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "138740"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138740%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "a01fef88-79a9-5885-b1a9-354a1be3b6d8"
+                },
+                {
+                    "uuid": "9100049f-4585-5c92-8a35-98ae8a4effb8"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "138741"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138741%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "2a09eeab-3490-5d02-a556-ba650d80126e"
+                },
+                {
+                    "uuid": "9100049f-4585-5c92-8a35-98ae8a4effb8"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "138742"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138742%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "d4974282-1fae-53a6-84c1-db1374537f07"
+                },
+                {
+                    "uuid": "9100049f-4585-5c92-8a35-98ae8a4effb8"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "138743"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138743%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "46bbc6b1-67bd-5471-959a-8aeca495d287"
+                },
+                {
+                    "uuid": "9100049f-4585-5c92-8a35-98ae8a4effb8"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "138744"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138744%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "1cfb9daa-8bf2-52e4-a048-b442f30a3a56"
+                },
+                {
+                    "uuid": "9100049f-4585-5c92-8a35-98ae8a4effb8"
+                }
+            ]
+        }
+    ],
+    "95f36818-6a89-5a1e-9821-03016d94f604": [
+        {
+            "identifiers": {
+                "tcgplayerProductId": "138745"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138745%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "54246804-4196-54aa-b8c2-5db7cc754529"
+                },
+                {
+                    "uuid": "95f36818-6a89-5a1e-9821-03016d94f604"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "138746"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138746%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "33dc50f9-6044-5afb-b9d9-b23b91f7330d"
+                },
+                {
+                    "uuid": "95f36818-6a89-5a1e-9821-03016d94f604"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "138747"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138747%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "77f2af28-01a6-5fb6-bf0b-b263c23cea8f"
+                },
+                {
+                    "uuid": "95f36818-6a89-5a1e-9821-03016d94f604"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "138748"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138748%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "4c97ece3-648a-5cdb-80c9-8ef423834674"
+                },
+                {
+                    "uuid": "95f36818-6a89-5a1e-9821-03016d94f604"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "138749"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138749%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "5d63c444-2bf4-58e0-9987-c98dcfb45bfe"
+                },
+                {
+                    "uuid": "95f36818-6a89-5a1e-9821-03016d94f604"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "138750"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138750%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "5186a529-39ed-5561-8577-2a86a9d17ec1"
+                },
+                {
+                    "uuid": "95f36818-6a89-5a1e-9821-03016d94f604"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "138751"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138751%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "6637c9fd-5c78-5fd5-9854-e4a4d7b011ef"
+                },
+                {
+                    "uuid": "95f36818-6a89-5a1e-9821-03016d94f604"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "138752"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138752%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "a01fef88-79a9-5885-b1a9-354a1be3b6d8"
+                },
+                {
+                    "uuid": "95f36818-6a89-5a1e-9821-03016d94f604"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "138753"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F138753%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "2a09eeab-3490-5d02-a556-ba650d80126e"
+                },
+                {
+                    "uuid": "95f36818-6a89-5a1e-9821-03016d94f604"
                 }
             ]
         }
@@ -561,9 +885,7 @@
                     "uuid": "a01fef88-79a9-5885-b1a9-354a1be3b6d8"
                 },
                 {
-                    "faceId": "17",
-                    "faceName": "Warrior",
-                    "tokenType": "Token"
+                    "uuid": "9100049f-4585-5c92-8a35-98ae8a4effb8"
                 }
             ]
         },
@@ -579,9 +901,7 @@
                     "uuid": "a01fef88-79a9-5885-b1a9-354a1be3b6d8"
                 },
                 {
-                    "faceId": "20",
-                    "faceName": "Zombie",
-                    "tokenType": "Token"
+                    "uuid": "95f36818-6a89-5a1e-9821-03016d94f604"
                 }
             ]
         }
@@ -646,9 +966,7 @@
                     "uuid": "d4974282-1fae-53a6-84c1-db1374537f07"
                 },
                 {
-                    "faceId": "17",
-                    "faceName": "Warrior",
-                    "tokenType": "Token"
+                    "uuid": "9100049f-4585-5c92-8a35-98ae8a4effb8"
                 }
             ]
         }

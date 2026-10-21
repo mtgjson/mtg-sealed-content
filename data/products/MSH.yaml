@@ -118,7 +118,7 @@ products:
         name: Marvel Super Heroes Collector Booster Box
         set: msh
   Marvel Super Heroes Collector Booster Box Master Case:
-    category: BOOSTER_BOX
+    category: BOOSTER_CASE
     subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '675608'
@@ -224,7 +224,7 @@ products:
         set: msh
   Marvel Super Heroes Jumpstart 2 Booster Pack:
     category: BOOSTER_PACK
-    subtype: UNKNOWN
+    subtype: JUMPSTART
     identifiers:
       tcgplayerProductId: '707093'
     contents:

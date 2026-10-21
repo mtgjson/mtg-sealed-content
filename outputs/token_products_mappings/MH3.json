@@ -1674,6 +1674,22 @@
                     "uuid": "27887612-3a17-5445-afde-bb96a6da5aef"
                 }
             ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "556761"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F556761%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "27887612-3a17-5445-afde-bb96a6da5aef"
+                },
+                {
+                    "uuid": "ddc9a92f-9fc8-5a18-ba5c-73d8e1202cbf"
+                }
+            ]
         }
     ],
     "28f5dc24-5432-5d7b-927e-34cac120012c": [
@@ -5342,6 +5358,38 @@
         }
     ],
     "85dcec74-7d88-516b-9819-ada71d71e0a8": [
+        {
+            "identifiers": {
+                "tcgplayerProductId": "554567"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F554567%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "be06fa30-58eb-5c66-a6a0-8ba4e57af9a3"
+                },
+                {
+                    "uuid": "85dcec74-7d88-516b-9819-ada71d71e0a8"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "554753"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F554753%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "85dcec74-7d88-516b-9819-ada71d71e0a8"
+                },
+                {
+                    "uuid": "ddc9a92f-9fc8-5a18-ba5c-73d8e1202cbf"
+                }
+            ]
+        },
         {
             "identifiers": {
                 "tcgplayerProductId": "555141"
@@ -9409,9 +9457,7 @@
             },
             "tokenParts": [
                 {
-                    "faceId": "30",
-                    "faceName": "Clue Token",
-                    "tokenType": "Token"
+                    "uuid": "27887612-3a17-5445-afde-bb96a6da5aef"
                 },
                 {
                     "uuid": "ddc9a92f-9fc8-5a18-ba5c-73d8e1202cbf"

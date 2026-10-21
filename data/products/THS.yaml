@@ -103,6 +103,15 @@ products:
       - count: 9
         name: Theros Booster Pack
         set: ths
+  Theros Fat Pack Land Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    identifiers: {}
+    contents:
+      card_count: 80
+      deck:
+      - name: Theros Fat Pack Land Pack
+        set: ths
   Theros Holiday Gift Box:
     category: BUNDLE
     subtype: GIFT_BUNDLE

@@ -87,6 +87,13 @@ products:
       pack:
       - code: collector
         set: one
+  Phyrexia All Will Be One Collector Booster Pack Minimal Packaging:
+    category: BOOSTER_PACK
+    subtype: COLLECTOR
+    identifiers:
+      tcgplayerProductId: '633046'
+    contents:
+      copy: Phyrexia All Will Be One Collector Booster Pack
   Phyrexia All Will Be One Collector Booster Sample Pack:
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
@@ -202,6 +209,18 @@ products:
       pack:
       - code: draft
         set: one
+  Phyrexia All Will Be One Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    identifiers:
+      mcmId: '696246'
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo-foil
+        set: one
   Phyrexia All Will Be One Jumpstart Booster Box:
     category: BOOSTER_BOX
     subtype: JUMPSTART
@@ -288,6 +307,18 @@ products:
       sealed:
       - count: 6
         name: Phyrexia All Will Be One Draft Booster Pack
+        set: one
+  Phyrexia All Will Be One Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    identifiers:
+      mcmId: '696245'
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo
         set: one
   Phyrexia All Will Be One Set Booster Box:
     category: BOOSTER_BOX

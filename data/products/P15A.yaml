@@ -3,6 +3,7 @@ products:
   15th Anniversary 2-Player Starter Set:
     category: MULTI_DECK
     subtype: TWO_PLAYER_STARTER
+    release_date: '2008-06-20'
     identifiers:
       abuId: '1100037'
     contents:
@@ -11,8 +12,10 @@ products:
         name: Kamahl, Pit Fighter
         number: '2'
         set: p15a
+      deck:
+      - name: 15th Anniversary Starter Game Land Pack
+        set: p15a
       other:
-      - name: 20 assorted basic lands
       - name: Quick-start rules insert
       sealed:
       - count: 2

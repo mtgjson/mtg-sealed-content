@@ -85,6 +85,22 @@
                     "uuid": "344aec1a-35dd-5742-b53d-00f6ed2300d8"
                 }
             ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "723133"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F723133%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "1fbedc1d-a3cd-5948-a8d0-78702cc81820"
+                },
+                {
+                    "uuid": "f1222d29-6361-5636-9c92-09be5f84fcd0"
+                }
+            ]
         }
     ],
     "241fdcff-2f3c-533c-954d-14900d82ff4d": [
@@ -419,9 +435,7 @@
             },
             "tokenParts": [
                 {
-                    "faceId": "12",
-                    "faceName": "Gingerbrute",
-                    "tokenType": "Token"
+                    "uuid": "c770e27a-6846-59be-82f0-b2b61dd95d9f"
                 },
                 {
                     "uuid": "635f825d-d6fb-59ac-a807-af08713a3794"
@@ -513,6 +527,24 @@
             ]
         }
     ],
+    "727784db-5ad9-5874-82a0-cf13da39a13f": [
+        {
+            "identifiers": {
+                "tcgplayerProductId": "720960"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F720960%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "727784db-5ad9-5874-82a0-cf13da39a13f"
+                },
+                {
+                    "uuid": "ce4a3464-f445-5258-92ca-73ccc7cda744"
+                }
+            ]
+        }
+    ],
     "7350fa3a-c619-569f-b519-66dea57138d7": [
         {
             "identifiers": {
@@ -559,6 +591,24 @@
                 },
                 {
                     "uuid": "8262695d-9cb6-5b31-b8e4-efc806db13a5"
+                }
+            ]
+        }
+    ],
+    "7ccdd9e7-6060-5cf2-849d-15da2fb3dc94": [
+        {
+            "identifiers": {
+                "tcgplayerProductId": "719970"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F719970%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "7ccdd9e7-6060-5cf2-849d-15da2fb3dc94"
+                },
+                {
+                    "uuid": "8e938e0e-390c-50ea-ad96-fac4ad190fe2"
                 }
             ]
         }
@@ -701,6 +751,24 @@
             ]
         }
     ],
+    "8e938e0e-390c-50ea-ad96-fac4ad190fe2": [
+        {
+            "identifiers": {
+                "tcgplayerProductId": "719970"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F719970%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "7ccdd9e7-6060-5cf2-849d-15da2fb3dc94"
+                },
+                {
+                    "uuid": "8e938e0e-390c-50ea-ad96-fac4ad190fe2"
+                }
+            ]
+        }
+    ],
     "911a497e-63a8-5ce5-b25b-be42446ed5df": [
         {
             "identifiers": {
@@ -731,6 +799,24 @@
                 },
                 {
                     "uuid": "37ac6522-5659-51e5-95d4-d41812a98843"
+                }
+            ]
+        }
+    ],
+    "a2da69c3-8afb-5c15-b077-7d18dd32b93c": [
+        {
+            "identifiers": {
+                "tcgplayerProductId": "720970"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F720970%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "b9bd9f4f-7ce0-54a7-a53c-ae0794f5c63d"
+                },
+                {
+                    "uuid": "a2da69c3-8afb-5c15-b077-7d18dd32b93c"
                 }
             ]
         }
@@ -769,6 +855,24 @@
             ]
         }
     ],
+    "b9bd9f4f-7ce0-54a7-a53c-ae0794f5c63d": [
+        {
+            "identifiers": {
+                "tcgplayerProductId": "720970"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F720970%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "b9bd9f4f-7ce0-54a7-a53c-ae0794f5c63d"
+                },
+                {
+                    "uuid": "a2da69c3-8afb-5c15-b077-7d18dd32b93c"
+                }
+            ]
+        }
+    ],
     "c0b05951-068f-59bb-a368-db54ef7c7e12": [
         {
             "identifiers": {
@@ -779,9 +883,7 @@
             },
             "tokenParts": [
                 {
-                    "faceId": "12",
-                    "faceName": "Gingerbrute",
-                    "tokenType": "Token"
+                    "uuid": "c770e27a-6846-59be-82f0-b2b61dd95d9f"
                 },
                 {
                     "uuid": "c0b05951-068f-59bb-a368-db54ef7c7e12"
@@ -801,6 +903,74 @@
                 },
                 {
                     "uuid": "c0b05951-068f-59bb-a368-db54ef7c7e12"
+                }
+            ]
+        }
+    ],
+    "c770e27a-6846-59be-82f0-b2b61dd95d9f": [
+        {
+            "identifiers": {
+                "tcgplayerProductId": "719971"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F719971%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "c770e27a-6846-59be-82f0-b2b61dd95d9f"
+                },
+                {
+                    "uuid": "c0b05951-068f-59bb-a368-db54ef7c7e12"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "721738"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F721738%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "c770e27a-6846-59be-82f0-b2b61dd95d9f"
+                },
+                {
+                    "uuid": "635f825d-d6fb-59ac-a807-af08713a3794"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "721739"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F721739%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "c770e27a-6846-59be-82f0-b2b61dd95d9f"
+                },
+                {
+                    "uuid": "f1222d29-6361-5636-9c92-09be5f84fcd0"
+                }
+            ]
+        }
+    ],
+    "ce4a3464-f445-5258-92ca-73ccc7cda744": [
+        {
+            "identifiers": {
+                "tcgplayerProductId": "720960"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F720960%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "727784db-5ad9-5874-82a0-cf13da39a13f"
+                },
+                {
+                    "uuid": "ce4a3464-f445-5258-92ca-73ccc7cda744"
                 }
             ]
         }
@@ -883,9 +1053,7 @@
             },
             "tokenParts": [
                 {
-                    "faceId": "12",
-                    "faceName": "Gingerbrute",
-                    "tokenType": "Token"
+                    "uuid": "c770e27a-6846-59be-82f0-b2b61dd95d9f"
                 },
                 {
                     "uuid": "f1222d29-6361-5636-9c92-09be5f84fcd0"
@@ -902,6 +1070,22 @@
             "tokenParts": [
                 {
                     "uuid": "f49db4a6-1bb9-526c-ad41-826c7cfa2a88"
+                },
+                {
+                    "uuid": "f1222d29-6361-5636-9c92-09be5f84fcd0"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "723133"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F723133%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "1fbedc1d-a3cd-5948-a8d0-78702cc81820"
                 },
                 {
                     "uuid": "f1222d29-6361-5636-9c92-09be5f84fcd0"

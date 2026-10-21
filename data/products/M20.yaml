@@ -112,6 +112,17 @@ products:
       - count: 1
         name: Guilds of Ravnica Booster Pack
         set: grn
+  Core Set 2020 Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    identifiers:
+      cardtraderId: '58954'
+      mcmId: '380295'
+    contents:
+      card_count: 4
+      pack:
+      - code: promo-foil
+        set: m20
   Core Set 2020 Land Station:
     category: KIT
     subtype: LAND_STATION
@@ -321,6 +332,17 @@ products:
       - count: 6
         name: Core Set 2020 Booster Pack
         set: m20
+  Core Set 2020 Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    identifiers:
+      cardtraderId: '58959'
+      mcmId: '380292'
+    contents:
+      card_count: 4
+      pack:
+      - code: promo
+        set: m20
   Core Set 2020 Spellslinger Starter Kit:
     category: MULTI_DECK
     subtype: TWO_PLAYER_STARTER
@@ -451,61 +473,141 @@ products:
         set: m20
   Core Set 2020 Welcome Deck - Black:
     category: DECK
-    subtype: STARTER
+    subtype: WELCOME
     release_date: '2019-07-12'
     identifiers:
       cardtraderId: '164278'
       mcmId: '380304'
     contents:
-      card_count: 30
+      card_count: 60
       deck:
       - name: Black Deck
         set: m20
+      variable:
+      - deck:
+        - name: White Deck
+          set: m20
+      - deck:
+        - name: Blue Deck
+          set: m20
+      - deck:
+        - name: Black Deck
+          set: m20
+      - deck:
+        - name: Red Deck
+          set: m20
+      - deck:
+        - name: Green Deck
+          set: m20
   Core Set 2020 Welcome Deck - Blue:
     category: DECK
-    subtype: STARTER
+    subtype: WELCOME
     release_date: '2019-07-12'
     identifiers:
       cardtraderId: '164277'
       mcmId: '380307'
     contents:
-      card_count: 30
+      card_count: 60
       deck:
       - name: Blue Deck
         set: m20
+      variable:
+      - deck:
+        - name: White Deck
+          set: m20
+      - deck:
+        - name: Blue Deck
+          set: m20
+      - deck:
+        - name: Black Deck
+          set: m20
+      - deck:
+        - name: Red Deck
+          set: m20
+      - deck:
+        - name: Green Deck
+          set: m20
   Core Set 2020 Welcome Deck - Green:
     category: DECK
-    subtype: STARTER
+    subtype: WELCOME
     release_date: '2019-07-12'
     identifiers:
       cardtraderId: '164275'
       mcmId: '380310'
     contents:
-      card_count: 30
+      card_count: 60
       deck:
       - name: Green Deck
         set: m20
+      variable:
+      - deck:
+        - name: White Deck
+          set: m20
+      - deck:
+        - name: Blue Deck
+          set: m20
+      - deck:
+        - name: Black Deck
+          set: m20
+      - deck:
+        - name: Red Deck
+          set: m20
+      - deck:
+        - name: Green Deck
+          set: m20
   Core Set 2020 Welcome Deck - Red:
     category: DECK
-    subtype: STARTER
+    subtype: WELCOME
     release_date: '2019-07-12'
     identifiers:
       cardtraderId: '164276'
       mcmId: '380301'
     contents:
-      card_count: 30
+      card_count: 60
       deck:
       - name: Red Deck
         set: m20
+      variable:
+      - deck:
+        - name: White Deck
+          set: m20
+      - deck:
+        - name: Blue Deck
+          set: m20
+      - deck:
+        - name: Black Deck
+          set: m20
+      - deck:
+        - name: Red Deck
+          set: m20
+      - deck:
+        - name: Green Deck
+          set: m20
   Core Set 2020 Welcome Deck - White:
     category: DECK
-    subtype: STARTER
+    subtype: WELCOME
     release_date: '2019-07-12'
     identifiers:
       cardtraderId: '164274'
       mcmId: '380298'
     contents:
-      card_count: 30
+      card_count: 60
       deck:
       - name: White Deck
         set: m20
+      variable:
+      - deck:
+        - name: White Deck
+          set: m20
+      - deck:
+        - name: Blue Deck
+          set: m20
+      - deck:
+        - name: Black Deck
+          set: m20
+      - deck:
+        - name: Red Deck
+          set: m20
+      - deck:
+        - name: Green Deck
+          set: m20

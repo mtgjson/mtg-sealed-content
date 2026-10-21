@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mtg-sealed-choices"
+version = "0.3.0"
+description = "Shared recipe compilation and membership traversal for Magic sealed products"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE.txt"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+mtg_sealed_choices = ["py.typed"]

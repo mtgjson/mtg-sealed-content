@@ -9,6 +9,8 @@ Compare physical product contents with the three source layers; distinguish wron
 
 For Secret Lair bonus-card pool audits, use the dedicated [Secret Lair bonus audit](../mtg-secret-lair-bonus-audit/SKILL.md) for per-drop boosters, evidence conflicts, unknown slots and finish propagation.
 
+For seasonal WPN Promo Pack creation and `promo:promopack` coverage, use the dedicated [Promo Pack audit](../mtg-promo-pack-audit/SKILL.md) for official contents lists, exact stamped printings, finish-specific sheets and cross-repository validation.
+
 ## Source layers
 
 - `mtgjson/mtg-sealed-content` (`main`): `data/products/SET.yaml` defines products/identifiers, and each product's `contents:` key describes cards, decks, packs, nested sealed products and accessories.

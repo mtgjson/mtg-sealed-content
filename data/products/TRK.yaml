@@ -4,8 +4,10 @@ products:
     category: BUNDLE
     subtype: GIFT_BUNDLE
     identifiers:
+      cardKingdomId: '334181'
       cardtraderId: '400884'
       mcmId: '897533'
+      miniaturemarketId: 019f815d05b9734084fc0992d1e217e9
       scgId: SLD-MTG-BUN-TRKBEAM-EN
       tcgplayerProductId: '706154'
     contents:
@@ -59,6 +61,7 @@ products:
     category: BUNDLE
     subtype: DEFAULT
     identifiers:
+      cardKingdomId: '334180'
       cardtraderId: '400881'
       mcmId: '897528'
       miniaturemarketId: 019f815cfa1773cf8546f1766a7e9198
@@ -92,6 +95,7 @@ products:
     category: BOOSTER_BOX
     subtype: COLLECTOR
     identifiers:
+      cardKingdomId: '334183'
       cardtraderId: '400880'
       mcmId: '897523'
       scgId: SLD-MTG-BBX-TRKCOLLECTOR-EN
@@ -125,8 +129,10 @@ products:
     category: BOOSTER_PACK
     subtype: COLLECTOR
     identifiers:
+      cardKingdomId: '334182'
       cardtraderId: '409506'
       mcmId: '897522'
+      miniaturemarketId: 019f815c8d9c7152ab2b610b579277d0
       scgId: SLD-MTG-PCK-TRKCOLLECTOR-EN
       tcgplayerProductId: '706141'
     contents:
@@ -138,8 +144,10 @@ products:
     category: LIMITED
     subtype: DRAFT
     identifiers:
+      cardKingdomId: '334184'
       cardtraderId: '400883'
       mcmId: '897536'
+      miniaturemarketId: 019f815d116a71e78697ab9162164e64
       scgId: SLD-MTG-DFT-TRK-EN
       tcgplayerProductId: '706162'
     contents:
@@ -168,8 +176,10 @@ products:
     category: BOOSTER_BOX
     subtype: PLAY
     identifiers:
+      cardKingdomId: '334186'
       cardtraderId: '400879'
       mcmId: '897524'
+      miniaturemarketId: 019f815c668b732b8bde7f43d19ffcec
       scgId: SLD-MTG-BBX-TRKPLAY-EN
       tcgplayerProductId: '706138'
     contents:
@@ -192,6 +202,7 @@ products:
     category: BOOSTER_PACK
     subtype: PLAY
     identifiers:
+      cardKingdomId: '334185'
       cardtraderId: '409505'
       mcmId: '897521'
       miniaturemarketId: 019f815c77ce739eba5594e226f9d742
@@ -247,6 +258,7 @@ products:
     category: BOX_SET
     subtype: OTHER
     identifiers:
+      cardKingdomId: '334187'
       cardtraderId: '400887'
       mcmId: '897535'
       miniaturemarketId: 019f815d22a07330a32938ae7d3aefe2
@@ -268,6 +280,7 @@ products:
     category: BOX_SET
     subtype: OTHER
     identifiers:
+      cardKingdomId: '334188'
       cardtraderId: '400886'
       mcmId: '897534'
       miniaturemarketId: 019f815d2ed4726cabaca04d61ac07f1
@@ -285,3 +298,8 @@ products:
       - count: 3
         name: Star Trek Play Booster Pack
         set: trk
+  Star Trek Scene Box Set of 2:
+    category: BOX_SET
+    subtype: OTHER
+    identifiers:
+      cardKingdomId: '334202'

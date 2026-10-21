@@ -11,3 +11,6 @@ urllib3>=2.7.0
 ratelimit~=2.2.1
 mkmsdk==0.6.0
 thefuzz
+
+# Local shared choice engine, also consumed by MTGJSON.
+-e ./compiler

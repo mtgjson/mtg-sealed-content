@@ -5,6 +5,7 @@ products:
     subtype: DEFAULT
     release_date: '2026-10-02'
     identifiers:
+      abuId: '2721579'
       cardKingdomId: '331475'
       cardtraderId: '389394'
       mcmId: '885564'
@@ -12,6 +13,11 @@ products:
       scgId: SLD-MTG-BUN-FRA-EN
       tcgplayerProductId: '692985'
     contents:
+      card:
+      - foil: true
+        name: Carnivorous Cultivator // Enroot
+        number: 437
+        set: fra
       card_count: 1
       deck:
       - name: Reality Fracture Bundle Land Pack
@@ -41,6 +47,7 @@ products:
     subtype: COLLECTOR
     release_date: '2026-10-02'
     identifiers:
+      abuId: '2721570'
       cardKingdomId: '331477'
       cardtraderId: '389391'
       mcmId: '885563'
@@ -68,9 +75,11 @@ products:
     subtype: COLLECTOR
     release_date: '2026-10-02'
     identifiers:
+      abuId: '2721573'
       cardKingdomId: '331482'
       cardtraderId: '389393'
       mcmId: '885561'
+      miniaturemarketId: 019df9afd22c721b81beba5c1c0b7ddb
       scgId: SLD-MTG-PCK-FRACOLLECTOR-EN
       tcgplayerProductId: '692982'
     contents:
@@ -83,6 +92,7 @@ products:
     subtype: DRAFT
     release_date: '2026-10-02'
     identifiers:
+      abuId: '2721575'
       cardKingdomId: '331476'
       cardtraderId: '389397'
       mcmId: '885565'
@@ -112,11 +122,32 @@ products:
       - count: 6
         name: Reality Fracture Draft Night
         set: fra
+  Reality Fracture Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    identifiers:
+      mcmId: '909282'
+    contents:
+      card_count: 3
+      pack:
+      - code: promo-foil
+        set: fra
+  Reality Fracture MTGO Redemption Reality Fracture Redemption:
+    category: BOX_SET
+    subtype: MTGO_REDEMPTION
+    release_date: '2026-10-21'
+    identifiers: {}
+    contents:
+      card_count: 290
+      deck:
+      - name: Reality Fracture Redemption
+        set: fra
   Reality Fracture Play Booster Box:
     category: BOOSTER_BOX
     subtype: PLAY
     release_date: '2026-10-02'
     identifiers:
+      abuId: '2721569'
       cardKingdomId: '331479'
       cardtraderId: '389390'
       mcmId: '885562'
@@ -145,6 +176,7 @@ products:
     subtype: PLAY
     release_date: '2026-10-02'
     identifiers:
+      abuId: '2721571'
       cardKingdomId: '331478'
       cardtraderId: '389392'
       mcmId: '885560'
@@ -189,13 +221,25 @@ products:
       - count: 15
         name: Reality Fracture Prerelease Pack
         set: fra
+  Reality Fracture Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    identifiers:
+      mcmId: '909281'
+    contents:
+      card_count: 3
+      pack:
+      - code: promo
+        set: fra
   Reality Fracture Secret Lair Bundle:
     category: BUNDLE
     subtype: GIFT_BUNDLE
-    release_date: '2026-10-02'
+    release_date: '2026-10-23'
     identifiers:
+      cardKingdomId: '331481'
       cardtraderId: '389395'
       mcmId: '885566'
+      miniaturemarketId: 019df9aff622727bbd39c039ab1c2ebf
       scgId: SLD-MTG-BUN-FRASECRET-EN
       tcgplayerProductId: '692991'
     contents:
@@ -207,6 +251,9 @@ products:
       - name: 2 Reference cards
       - name: 1 Spindown die
       - name: 1 Card-storage box
+      pack:
+      - code: secret-lair-bundle-promo
+        set: fra
       sealed:
       - count: 6
         name: Reality Fracture Play Booster Pack
@@ -217,7 +264,7 @@ products:
   Reality Fracture Secret Lair Bundle Case:
     category: BUNDLE_CASE
     subtype: GIFT_BUNDLE
-    release_date: '2026-10-02'
+    release_date: '2026-10-23'
     identifiers:
       tcgplayerProductId: '692992'
     contents:

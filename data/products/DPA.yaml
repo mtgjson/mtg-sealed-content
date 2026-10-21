@@ -3,6 +3,7 @@ products:
   Duels of the Planeswalkers 2013 PC Steam Promo Pack:
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
+    release_date: '2012-06-20'
     identifiers:
       cardtraderId: '51094'
       mcmId: '256751'
@@ -12,10 +13,14 @@ products:
       - name: Serra Avatar
         number: 2
         set: pdp13
-      card_count: 1
+      card_count: 6
+      pack:
+      - code: duelspromo
+        set: m13
   Duels of the Planeswalkers 2013 PS3 Promo Pack:
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
+    release_date: '2012-06-19'
     identifiers:
       cardtraderId: '51095'
       mcmId: '256750'
@@ -26,10 +31,14 @@ products:
       - name: Vampire Nocturnus
         number: 3
         set: pdp13
-      card_count: 1
+      card_count: 6
+      pack:
+      - code: duelspromo
+        set: m13
   Duels of the Planeswalkers 2013 XBOX Promo Pack:
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
+    release_date: '2012-06-20'
     identifiers:
       cardtraderId: '51093'
       mcmId: '256981'
@@ -40,7 +49,10 @@ products:
       - name: Primordial Hydra
         number: 1
         set: pdp13
-      card_count: 1
+      card_count: 6
+      pack:
+      - code: duelspromo
+        set: m13
   Duels of the Planeswalkers 2014 Android Promo Pack:
     category: BOOSTER_PACK
     subtype: PROMOTIONAL

@@ -71,7 +71,6 @@ def get_tcgplayer(api_version, auth_code):
         "Omega Box",
         "Omega Booster",
         "Omega Collector",
-        "Promo Pack",
         "Sleeved Booster",
         "Sleeved Draft",
         "Sleeved Play",
@@ -241,7 +240,6 @@ def get_cardmarket():
         "Planechase Set",
         "Planes Set",
         "Prerelease Promo",
-        "Promo Pack",
         "Rare Set",
         "Relic Tokens",
         "SAWATARIX",
@@ -318,7 +316,6 @@ def load_cardtrader(secret):
     category_types = [4,5,7,10,13,17,23,24]
 
     skip_tags = [
-        "Promo Pack",
         "Basic Land Pack",
         "Relic Tokens",
         "Creature Forge",

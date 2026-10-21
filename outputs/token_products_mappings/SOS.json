@@ -241,24 +241,6 @@
             ]
         }
     ],
-    "2bdaf7d7-547a-5ce7-816f-881e7826c030": [
-        {
-            "identifiers": {
-                "tcgplayerProductId": "692550"
-            },
-            "purchaseUrls": {
-                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F692550%3Fpage%3D1"
-            },
-            "tokenParts": [
-                {
-                    "uuid": "2bdaf7d7-547a-5ce7-816f-881e7826c030"
-                },
-                {
-                    "uuid": "2bdaf7d7-547a-5ce7-816f-881e7826c030"
-                }
-            ]
-        }
-    ],
     "39fd9012-8f42-5abb-bd22-3302fc93af33": [
         {
             "identifiers": {
@@ -447,7 +429,7 @@
                 },
                 {
                     "faceId": "14",
-                    "faceName": "Clue Token",
+                    "faceName": "Clue",
                     "tokenType": "Token"
                 }
             ]
@@ -669,7 +651,7 @@
                 },
                 {
                     "faceId": "14",
-                    "faceName": "Clue Token",
+                    "faceName": "Clue",
                     "tokenType": "Token"
                 }
             ]
@@ -699,9 +681,7 @@
             },
             "tokenParts": [
                 {
-                    "faceId": "24",
-                    "faceName": "Primo, The Indivisible",
-                    "tokenType": "Token"
+                    "uuid": "eec8a4e3-2835-58b6-9057-8dd0b680ca12"
                 },
                 {
                     "uuid": "8dc5a01d-0271-51e0-bd2c-423b404802bc"
@@ -874,9 +854,7 @@
                     "uuid": "a20cb9dd-a528-51f0-8617-43bb9a70aabd"
                 },
                 {
-                    "faceId": "24",
-                    "faceName": "Primo, The Indivisible",
-                    "tokenType": "Token"
+                    "uuid": "eec8a4e3-2835-58b6-9057-8dd0b680ca12"
                 }
             ]
         }
@@ -1401,6 +1379,40 @@
                 },
                 {
                     "uuid": "ebb9c0a4-c359-58de-b739-03fddd775dfa"
+                }
+            ]
+        }
+    ],
+    "eec8a4e3-2835-58b6-9057-8dd0b680ca12": [
+        {
+            "identifiers": {
+                "tcgplayerProductId": "690404"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F690404%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "eec8a4e3-2835-58b6-9057-8dd0b680ca12"
+                },
+                {
+                    "uuid": "8dc5a01d-0271-51e0-bd2c-423b404802bc"
+                }
+            ]
+        },
+        {
+            "identifiers": {
+                "tcgplayerProductId": "690558"
+            },
+            "purchaseUrls": {
+                "tcgplayer": "https://partner.tcgplayer.com/c/4948039/1780961/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F690558%3Fpage%3D1"
+            },
+            "tokenParts": [
+                {
+                    "uuid": "a20cb9dd-a528-51f0-8617-43bb9a70aabd"
+                },
+                {
+                    "uuid": "eec8a4e3-2835-58b6-9057-8dd0b680ca12"
                 }
             ]
         }

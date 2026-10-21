@@ -51,7 +51,7 @@ products:
         set: rvr
   Ravnica Remastered Draft Booster Box:
     category: BOOSTER_BOX
-    subtype: DEFAULT
+    subtype: DRAFT
     release_date: '2024-01-12'
     identifiers:
       abuId: '2442860'
@@ -70,7 +70,7 @@ products:
         set: rvr
   Ravnica Remastered Draft Booster Box Case:
     category: BOOSTER_CASE
-    subtype: DEFAULT
+    subtype: DRAFT
     release_date: '2024-01-12'
     identifiers:
       scgId: SLD-MTG-BBX-RVRDRAFTCASE-EN
@@ -82,7 +82,7 @@ products:
         set: rvr
   Ravnica Remastered Draft Booster Pack:
     category: BOOSTER_PACK
-    subtype: DEFAULT
+    subtype: DRAFT
     release_date: '2024-01-12'
     identifiers:
       abuId: '2689093'

@@ -20,6 +20,58 @@ products:
       mcmId: '257500'
       tcgplayerProductId: '97819'
       tntId: '385253'
+    contents:
+      card_count: 70
+      other:
+      - name: Play guide
+      - name: Rules insert
+      sealed:
+      - count: 2
+        name: 2013 Core Set Booster Pack
+        set: m13
+      variable:
+      - variable:
+        - variable:
+          - deck:
+            - name: 'Booster Battle Pack: White A'
+              set: m13
+          - deck:
+            - name: 'Booster Battle Pack: White B'
+              set: m13
+        - variable:
+          - deck:
+            - name: 'Booster Battle Pack: Blue A'
+              set: m13
+          - deck:
+            - name: 'Booster Battle Pack: Blue B'
+              set: m13
+        - variable:
+          - deck:
+            - name: 'Booster Battle Pack: Black A'
+              set: m13
+          - deck:
+            - name: 'Booster Battle Pack: Black B'
+              set: m13
+        - variable:
+          - deck:
+            - name: 'Booster Battle Pack: Red A'
+              set: m13
+          - deck:
+            - name: 'Booster Battle Pack: Red B'
+              set: m13
+        - variable:
+          - deck:
+            - name: 'Booster Battle Pack: Green A'
+              set: m13
+          - deck:
+            - name: 'Booster Battle Pack: Green B'
+              set: m13
+        variable_mode:
+          count: 2
+          replacement: false
+      variable_mode:
+        count: 2
+        replacement: true
   2013 Core Set Booster Battle Pack Display:
     category: DECK_BOX
     subtype: BATTLE
@@ -28,6 +80,11 @@ products:
       mcmId: '257501'
       tcgplayerProductId: '485831'
       tntId: '385254'
+    contents:
+      sealed:
+      - count: 12
+        name: 2013 Core Set Booster Battle Pack
+        set: m13
   2013 Core Set Booster Box:
     category: BOOSTER_BOX
     subtype: DRAFT

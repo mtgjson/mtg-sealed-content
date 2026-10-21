@@ -18,6 +18,9 @@ def main():
             for p_name, p_info in data["products"].items()
         }
         for p_name, p_info in products.items():
+            # MTGJSON's SealedProduct fails the whole build on missing or null identifiers
+            if not isinstance(p_info.get("identifiers"), dict):
+                p_info["identifiers"] = {}
             if (p_info["subtype"] in date_required_subtypes) and "release_date" not in p_info:
                 with open("status.txt", 'a') as status_file:
                     status_file.write(f"Product {stem} - {p_name} missing required release date\n")

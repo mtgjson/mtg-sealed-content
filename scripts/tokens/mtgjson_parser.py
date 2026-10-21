@@ -7,12 +7,17 @@ class MtgjsonParser:
     __all_printings: AllPrintings
     __set_code_to_group_ids: Dict[str, Set[int]]
     __set_code_to_children_set_codes: Dict[str, Set[str]]
+    __set_code_to_own_group_id: Dict[str, int]
+    __set_code_to_paired_set_codes: Dict[str, List[str]]
 
     def __init__(self) -> None:
         self.__all_printings = AllPrintings()
 
         self.__set_code_to_group_ids = (
             self.__all_printings.create_mapping_mtgjson_set_code_to_tcgplayer_group_ids()
+        )
+        self.__set_code_to_own_group_id = (
+            self.__all_printings.create_mapping_mtgjson_set_code_to_own_tcgplayer_group_id()
         )
         self.__set_code_to_children_set_codes = (
             self.__all_printings.create_mapping_mtgjson_parent_set_code_to_children_set_codes()
@@ -28,6 +33,13 @@ class MtgjsonParser:
         self.__set_code_to_group_ids["DMU"].add(1163)
         self.__set_code_to_group_ids["J25"].add(23792)
 
+        # Products that pair a set's tokens with another set's, which MTGJSON
+        # doesn't relate: C20 with IKO tokens, HOU with AKH tokens.
+        self.__set_code_to_paired_set_codes = {
+            "C20": ["IKO"],
+            "HOU": ["AKH"],
+        }
+
     def get_associated_mtgjson_tokens(
         self,
         set_code: str,
@@ -42,7 +54,15 @@ class MtgjsonParser:
             mtgjson_tokens[child_set_code] = (
                 self.__all_printings.get_tokens_from_set_code(child_set_code)
             )
+        for paired_set_code in self.__set_code_to_paired_set_codes.get(set_code, []):
+            print(f"MTGJSON: Supporting {paired_set_code} for {set_code}")
+            mtgjson_tokens[paired_set_code] = (
+                self.__all_printings.get_tokens_from_set_code(paired_set_code)
+            )
         return mtgjson_tokens
 
     def get_codes_to_group_ids_mapping(self) -> Dict[str, Set[int]]:
         return self.__set_code_to_group_ids
+
+    def get_code_to_own_group_id_mapping(self) -> Dict[str, int]:
+        return self.__set_code_to_own_group_id

@@ -77,6 +77,16 @@ products:
       - count: 10
         name: Core Set 2019 Booster Pack
         set: m19
+  Core Set 2019 Bundle Land Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    identifiers:
+      abuId: '1520913'
+    contents:
+      card_count: 80
+      deck:
+      - name: Core Set 2019 Bundle Land Pack
+        set: m19
   Core Set 2019 Deck Builders Toolkit:
     category: KIT
     subtype: DECK_BUILDERS_TOOLKIT
@@ -372,9 +382,13 @@ products:
     identifiers:
       cardtraderId: '49717'
       mcmId: '359681'
+    contents:
+      pack:
+      - code: showdown
+        set: m19
   Core Set 2019 Welcome Deck Black:
     category: DECK
-    subtype: STARTER
+    subtype: WELCOME
     release_date: '2018-07-13'
     identifiers:
       cardtraderId: '164281'
@@ -386,7 +400,7 @@ products:
         set: m19
   Core Set 2019 Welcome Deck Blue:
     category: DECK
-    subtype: STARTER
+    subtype: WELCOME
     release_date: '2018-07-13'
     identifiers:
       cardtraderId: '164284'
@@ -398,7 +412,7 @@ products:
         set: m19
   Core Set 2019 Welcome Deck Green:
     category: DECK
-    subtype: STARTER
+    subtype: WELCOME
     release_date: '2018-07-13'
     identifiers:
       cardtraderId: '164280'
@@ -410,7 +424,7 @@ products:
         set: m19
   Core Set 2019 Welcome Deck Red:
     category: DECK
-    subtype: STARTER
+    subtype: WELCOME
     release_date: '2018-07-13'
     identifiers:
       cardtraderId: '164283'
@@ -422,7 +436,7 @@ products:
         set: m19
   Core Set 2019 Welcome Deck White:
     category: DECK
-    subtype: STARTER
+    subtype: WELCOME
     release_date: '2018-07-13'
     identifiers:
       cardtraderId: '164282'

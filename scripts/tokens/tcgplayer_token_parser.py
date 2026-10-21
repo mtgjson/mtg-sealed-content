@@ -29,6 +29,8 @@ class TcgplayerTokenParser:
             r".*[Dd]oubled?[- ][Ss]ided Token \((.*?)\)"
         )
         self.__role_regex = re.compile(r"(.*) Role / (.*) Role")
+        self.__face_set_code_regex = re.compile(r"\(\d+\S* ([A-Z][A-Z0-9]{1,4})\)")
+        self.__face_number_regex = re.compile(r"\((\d+)\)")
 
     def __fix_emblem_names(self, token) -> str:
         if match := self.__emblem_regex.match(token):
@@ -45,11 +47,9 @@ class TcgplayerTokenParser:
             # Split cards are broken down into a left half and right half
             if match := self.__double_sided_token_regex.match(token_name):
                 left, right = [
-                    part.split(" (")[0] for part in match.group(1).split(" // ")
+                    part.split(" (")[0].strip().removesuffix(" Token")
+                    for part in match.group(1).split(" // ")
                 ]
-
-                left = left.strip()
-                right = right.strip()
 
                 if match := self.__role_regex.match(left):
                     left = f"{match.group(1)} // {match.group(2)}"
@@ -73,7 +73,59 @@ class TcgplayerTokenParser:
         if "Magic Minigame" in token_name:
             return [token_name.split("Magic Minigame: ")[-1]]
 
-        return [self.__fix_emblem_names(token_name.split(" Token")[0])]
+        token_name = token_name.split(" Token")[0]
+        if match := self.__role_regex.match(token_name):
+            return [f"{match.group(1)} // {match.group(2)}"]
+        return [self.__fix_emblem_names(token_name)]
+
+    def __get_face_numbers_from_name(self, token_name: str) -> List[str | None]:
+        """
+        Some TCGplayer products carry no number and name it on the face
+        instead, as in "Clown Robot (002) // Food (010) Double-sided Token".
+        """
+        if match := self.__double_sided_token_regex.match(token_name):
+            faces = match.group(1).split(" // ")
+            if len(faces) == 2:
+                return [
+                    number.group(1).lstrip("0")
+                    if (number := self.__face_number_regex.search(face))
+                    else None
+                    for face in faces
+                ]
+        return [None, None]
+
+    def __get_face_set_code_hints(self, token_name: str) -> List[str | None]:
+        """
+        TCGplayer names the set of a face when a product pairs two tokens that
+        share a name and number, as in "Zombie (005 MIC) // Zombie (005 MID)".
+        """
+        if match := self.__double_sided_token_regex.match(token_name):
+            faces = match.group(1).split(" // ")
+            if len(faces) == 2:
+                return [
+                    hint.group(1) if (hint := self.__face_set_code_regex.search(face)) else None
+                    for face in faces
+                ]
+        return [None, None]
+
+    @staticmethod
+    def __get_face_power_toughness(tcgplayer_token: Dict[str, Any]) -> List[List[str] | None]:
+        """
+        TCGplayer lists a double-sided token's power and toughness per face, as
+        P "4/1" and T "4/1" for a 4/4 front and a 1/1 back.
+        """
+        values = {
+            raw_extended_data["name"]: raw_extended_data["value"].split("/")
+            for raw_extended_data in tcgplayer_token["extendedData"]
+            if raw_extended_data["name"] in ("P", "T")
+        }
+        powers, toughnesses = values.get("P", []), values.get("T", [])
+        if len(powers) != 2 or len(toughnesses) != 2:
+            return [None, None]
+        return [
+            [power.strip(), toughness.strip()]
+            for power, toughness in zip(powers, toughnesses)
+        ]
 
     @staticmethod
     def get_additional_dict(
@@ -102,8 +154,13 @@ class TcgplayerTokenParser:
             # Tokens/Emblems (the general case)
         ]
 
+        # A keyword has to start a word, so "art" names an art card but not
+        # "Earthshaker Khenra" or "Heartwood". "art" must also end one, so
+        # "Artifact" or "Artisan" isn't an art card, while "punch" and "bio"
+        # still cover "Punchcard" and "Biography".
         for keyword, token_type in token_type_priorities:
-            if keyword in tcgplayer_token_name_lower:
+            word_end = r"\b" if keyword == "art" else ""
+            if re.search(rf"\b{re.escape(keyword)}{word_end}", tcgplayer_token_name_lower):
                 additional["tokenType"] = token_type
                 break
 
@@ -158,12 +215,20 @@ class TcgplayerTokenParser:
                     additional["faceAttribute"] = []
                 additional["faceAttribute"].append(match.group(1))
 
-        # Hack to account for the Bounty tokens
-        if token_face_names[0].startswith("Bounty:"):
-            second_face_id = first_face_id
-
         if len(token_face_names) == 2:
-            return [
+            # One number on a two-faced product numbers both of its faces, as
+            # with "Day // Night" or the OTJ Bounty cards. A product with no
+            # number at all may name each face's number instead.
+            if second_face_id is None:
+                first_name_number, second_name_number = (
+                    self.__get_face_numbers_from_name(tcgplayer_token["name"])
+                )
+                if first_face_id is None:
+                    first_face_id = first_name_number
+                    second_face_id = second_name_number
+                else:
+                    second_face_id = second_name_number or first_face_id
+            faces = [
                 {
                     "faceName": token_face_names[0],
                     "faceId": first_face_id,
@@ -177,6 +242,14 @@ class TcgplayerTokenParser:
                     **additional_side_b,
                 },
             ]
+            hints = self.__get_face_set_code_hints(tcgplayer_token["name"])
+            power_toughness = self.__get_face_power_toughness(tcgplayer_token)
+            for face, hint, face_power_toughness in zip(faces, hints, power_toughness):
+                if hint:
+                    face["setCodeHint"] = hint
+                if face_power_toughness:
+                    face["powerToughnessHint"] = face_power_toughness
+            return faces
 
         return [
             {

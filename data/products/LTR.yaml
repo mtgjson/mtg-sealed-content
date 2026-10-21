@@ -142,7 +142,7 @@ products:
         set: ltr
   The Lord of the Rings Tales of Middle earth Draft Booster Box:
     category: BOOSTER_BOX
-    subtype: DEFAULT
+    subtype: DRAFT
     release_date: '2023-06-23'
     identifiers:
       abuId: '2341424'
@@ -164,7 +164,7 @@ products:
         set: ltr
   The Lord of the Rings Tales of Middle earth Draft Booster Box Case:
     category: BOOSTER_CASE
-    subtype: DEFAULT
+    subtype: DRAFT
     release_date: '2023-06-23'
     identifiers:
       tcgplayerProductId: '484907'
@@ -175,7 +175,7 @@ products:
         set: ltr
   The Lord of the Rings Tales of Middle earth Draft Booster Pack:
     category: BOOSTER_PACK
-    subtype: DEFAULT
+    subtype: DRAFT
     release_date: '2023-06-23'
     identifiers:
       abuId: '2688384'
@@ -572,6 +572,7 @@ products:
       csiId: '357357'
       hareruyaId: '132681'
       mcmId: '698910'
+      miniaturemarketId: 0190f59507a873498baf7d07d58dfd30
       scgId: SLD-MTG-BBX-LTRSET-EN
       tcgplayerProductId: '484909'
       tntId: '1774274'
@@ -605,6 +606,7 @@ products:
       csiId: '357358'
       hareruyaId: '132837'
       mcmId: '698906'
+      miniaturemarketId: 0190f59507a4737cb3c5c99c43367769
       scgId: SLD-MTG-PCK-LTRSET-EN
       tcgplayerProductId: '484908'
       tntId: '1774275'

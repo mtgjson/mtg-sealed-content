@@ -59,6 +59,13 @@ products:
       - count: 6
         name: Strixhaven School of Mages Collector Booster Box
         set: stx
+  Strixhaven School of Mages Collector Booster Hanger Pack:
+    category: BOOSTER_PACK
+    subtype: COLLECTOR
+    identifiers:
+      tcgplayerProductId: '236690'
+    contents:
+      copy: Strixhaven School of Mages Collector Booster Pack
   Strixhaven School of Mages Collector Booster Pack:
     category: BOOSTER_PACK
     subtype: COLLECTOR
@@ -126,6 +133,19 @@ products:
       card_count: 15
       pack:
       - code: draft
+        set: stx
+  Strixhaven School of Mages Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    identifiers:
+      cardtraderId: '158641'
+      mcmId: '569226'
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo-foil
         set: stx
   Strixhaven School of Mages MTGO Redemption:
     category: BOX_SET
@@ -278,6 +298,19 @@ products:
       sealed:
       - count: 5
         name: Strixhaven School of Mages Draft Booster Pack
+        set: stx
+  Strixhaven School of Mages Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    identifiers:
+      cardtraderId: '158642'
+      mcmId: '569225'
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo
         set: stx
   Strixhaven School of Mages Set Booster Box:
     category: BOOSTER_BOX

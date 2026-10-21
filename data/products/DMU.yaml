@@ -168,6 +168,18 @@ products:
       pack:
       - code: draft
         set: dmu
+  Dominaria United Foil Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    identifiers:
+      mcmId: '669190'
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo-foil
+        set: dmu
   Dominaria United Jumpstart Booster Box:
     category: BOOSTER_BOX
     subtype: JUMPSTART
@@ -256,6 +268,18 @@ products:
       sealed:
       - count: 6
         name: Dominaria United Draft Booster Pack
+        set: dmu
+  Dominaria United Promo Pack:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    identifiers:
+      mcmId: '669189'
+    contents:
+      card_count: 3
+      other:
+      - name: MTG Arena code card (where available)
+      pack:
+      - code: promo
         set: dmu
   Dominaria United Set Booster Box:
     category: BOOSTER_BOX

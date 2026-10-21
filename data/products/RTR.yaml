@@ -23,13 +23,31 @@ products:
       tntId: '820221'
     contents:
       other:
-      - name: Two 22-card semi-randomized decks
       - name: Learn to play guide
       - name: Rules insert
       sealed:
       - count: 2
         name: Return to Ravnica Booster Pack
         set: rtr
+      variable:
+      - deck:
+        - name: 'Booster Battle Pack: Azorius'
+          set: rtr
+      - deck:
+        - name: 'Booster Battle Pack: Izzet'
+          set: rtr
+      - deck:
+        - name: 'Booster Battle Pack: Golgari'
+          set: rtr
+      - deck:
+        - name: 'Booster Battle Pack: Selesnya'
+          set: rtr
+      - deck:
+        - name: 'Booster Battle Pack: Rakdos'
+          set: rtr
+      variable_mode:
+        count: 2
+        replacement: false
   Return to Ravnica Booster Battle Pack Display:
     category: DECK_BOX
     subtype: BATTLE

@@ -70,6 +70,15 @@ class AllPrintings:
 
         return set_code_to_tcgplayer_group_ids
 
+    def create_mapping_mtgjson_set_code_to_own_tcgplayer_group_id(
+        self,
+    ) -> Dict[str, int]:
+        return {
+            set_code: set_data["tcgplayerGroupId"]
+            for set_code, set_data in self.__temp_file_data.get("data").items()
+            if "tcgplayerGroupId" in set_data
+        }
+
     def create_mapping_mtgjson_parent_set_code_to_children_set_codes(
         self,
     ) -> Dict[str, Set[str]]:
@@ -81,7 +90,22 @@ class AllPrintings:
 
             parent_code_to_children_set_codes[set_data.get("parentCode")].add(set_code)
 
-        return parent_code_to_children_set_codes
+        # A child set can have children of its own, like the MSC Commander
+        # set's front cards (FMSC), so a parent collects every descendant.
+        def descendants(set_code: str, seen: Set[str]) -> Set[str]:
+            for child_set_code in parent_code_to_children_set_codes.get(set_code, set()):
+                if child_set_code not in seen:
+                    seen.add(child_set_code)
+                    descendants(child_set_code, seen)
+            return seen
+
+        return defaultdict(
+            set,
+            {
+                set_code: descendants(set_code, set())
+                for set_code in list(parent_code_to_children_set_codes)
+            },
+        )
 
     def get_tokens_from_set_code(self, set_code: str) -> List[Dict[str, Any]]:
         set_data = self.__temp_file_data.get("data").get(set_code)

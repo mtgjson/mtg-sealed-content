@@ -24,12 +24,17 @@ class MtgjsonToTcgplayerMapper:
     def strip_quotes(mtgjson_token_name: str) -> str:
         return mtgjson_token_name.replace('"', "")
 
+    def compare_names(self, tcgplayer_face_name, mtgjson_name) -> bool:
+        # TCGplayer and MTGJSON can differ in capitalization ("Primo, The
+        # Indivisible") and MTGJSON sometimes keeps "Token" in the name.
+        return unidecode.unidecode(tcgplayer_face_name).casefold() == unidecode.unidecode(
+            self.strip_quotes(mtgjson_name)
+        ).casefold().removesuffix(" token")
+
     def compare_face_name_and_number(
         self, tcgplayer_face_name, tcgplayer_face_id, mtgjson_name, mtgjson_number
     ):
-        name_match = unidecode.unidecode(tcgplayer_face_name) == unidecode.unidecode(
-            self.strip_quotes(mtgjson_name)
-        )
+        name_match = self.compare_names(tcgplayer_face_name, mtgjson_name)
 
         mtgjson_clean_num = self.strip_star(mtgjson_number)
         if not mtgjson_clean_num:
@@ -74,21 +79,20 @@ class MtgjsonToTcgplayerMapper:
         ):
             return True
 
-        if unidecode.unidecode(
-            f"{tcgplayer_token_face['faceName']} //"
-        ) in unidecode.unidecode(
-            self.strip_quotes(mtgjson_token["name"])
-        ) or unidecode.unidecode(
-            f"// {tcgplayer_token_face['faceName']}"
-        ) in unidecode.unidecode(
-            self.strip_quotes(mtgjson_token["name"])
-        ):
-            return True
-
-        return False
+        # TCGplayer can shorten an art card's name ("Death Tyrant" for
+        # "Ghastly Death Tyrant"), so the face can end the front's name or
+        # start the back's, as long as it does so on a word boundary.
+        # Otherwise "Swamp" would match "Swampbenders".
+        face_name = re.escape(unidecode.unidecode(tcgplayer_token_face["faceName"]))
+        mtgjson_name = unidecode.unidecode(self.strip_quotes(mtgjson_token["name"]))
+        return bool(
+            re.search(rf"(?<!\w){face_name} //", mtgjson_name)
+            or re.search(rf"// {face_name}(?!\w)", mtgjson_name)
+        )
 
     def match_theme_card(self, mtgjson_token, tcgplayer_token_face):
-        if mtgjson_token["layout"] != "token":
+        # MTGJSON carries newer theme cards as Jumpstart front cards.
+        if mtgjson_token["layout"] not in {"token", "front_card"}:
             return False
         return self.compare_face_name_and_number(
             tcgplayer_token_face["faceName"],
@@ -193,11 +197,16 @@ class MtgjsonToTcgplayerMapper:
 
         if (
             mtgjson_token["layout"] == "double_faced_token"
-        ) and self.compare_face_name_and_number(
-            tcgplayer_token_face["faceName"],
-            tcgplayer_token_face["faceId"],
-            mtgjson_token["name"],
-            mtgjson_token["number"],
+        ) and any(
+            self.compare_face_name_and_number(
+                tcgplayer_token_face["faceName"],
+                tcgplayer_token_face["faceId"],
+                mtgjson_name,
+                mtgjson_token["number"],
+            )
+            # A TCGplayer face can be the whole token or one side of it.
+            for mtgjson_name in (mtgjson_token["name"], mtgjson_token.get("faceName"))
+            if mtgjson_name
         ):
             print(f"> Found DF Token for {tcgplayer_token_face}")
             self.add_uuid_to_list(
@@ -301,9 +310,9 @@ class MtgjsonToTcgplayerMapper:
                 pass
 
         if self.compare_face_name_and_number(
-            tcgplayer_token_face["faceName"].lower(),
+            tcgplayer_token_face["faceName"],
             tcgplayer_token_face["faceId"],
-            mtgjson_token.get("faceName", "").lower(),
+            mtgjson_token.get("faceName", ""),
             mtgjson_token["number"],
         ):
             print(f"> Found Minigame for {tcgplayer_token_face}")
@@ -341,6 +350,8 @@ class MtgjsonToTcgplayerMapper:
         set_code,
         mtgjson_tokens: Dict[str, List[Dict[str, Any]]],
         tcgplayer_token_face_details: List[Dict[str, Any]],
+        product_group_id: int | None = None,
+        set_code_to_group_id: Dict[str, int] | None = None,
     ) -> None:
         print(f"Looking for {tcgplayer_token_face_details}")
 
@@ -355,13 +366,32 @@ class MtgjsonToTcgplayerMapper:
             "Minigame": self.handle_minigame_cards,
         }
 
-        for tcgplayer_token_face_index, tcgplayer_token_face in enumerate(
-            tcgplayer_token_face_details
-        ):
+        star_uuids = {
+            mtgjson_token["uuid"]
+            for mtgjson_token_data in mtgjson_tokens.values()
+            for mtgjson_token in mtgjson_token_data
+            if mtgjson_token.get("number")
+            and mtgjson_token["number"] != self.strip_star(mtgjson_token["number"])
+        }
+        uuid_to_set_code = {
+            mtgjson_token["uuid"]: token_set_code
+            for token_set_code, mtgjson_token_data in mtgjson_tokens.items()
+            for mtgjson_token in mtgjson_token_data
+        }
+        uuid_to_power_toughness = {
+            mtgjson_token["uuid"]: [
+                str(mtgjson_token.get("power")),
+                str(mtgjson_token.get("toughness")),
+            ]
+            for mtgjson_token_data in mtgjson_tokens.values()
+            for mtgjson_token in mtgjson_token_data
+        }
+
+        def find(tcgplayer_token_face_index, tcgplayer_token_face) -> bool:
             found = False
             for mtgjson_token_data in mtgjson_tokens.values():
                 for mtgjson_token in mtgjson_token_data:
-                    if tcgplayer_token_face["tokenType"] in function_mapping:
+                    if tcgplayer_token_face.get("tokenType") in function_mapping:
                         new_found = function_mapping[tcgplayer_token_face["tokenType"]](
                             set_code,
                             mtgjson_token,
@@ -370,9 +400,122 @@ class MtgjsonToTcgplayerMapper:
                             tcgplayer_token_face,
                         )
                         found = found or new_found
+            if found or len(tcgplayer_token_face_details) != 2:
+                return found
+            return self.match_unnumbered_face(
+                mtgjson_tokens,
+                tcgplayer_token_face,
+                product_group_id,
+                set_code_to_group_id or {},
+            )
 
+        found_faces = [
+            find(index, face) for index, face in enumerate(tcgplayer_token_face_details)
+        ]
+        # TCGplayer sometimes lists a product's numbers in the opposite order
+        # to its face names, as in "Treasure (0018) // Map" numbered "17 // 18".
+        # The swap stands only if it matches both faces.
+        if (
+            len(found_faces) == 2
+            and not any(found_faces)
+            and tcgplayer_token_face_details[0]["faceId"]
+            != tcgplayer_token_face_details[1]["faceId"]
+        ):
+            first, second = tcgplayer_token_face_details
+            first["faceId"], second["faceId"] = second["faceId"], first["faceId"]
+            found_faces = [
+                find(index, face) for index, face in enumerate(tcgplayer_token_face_details)
+            ]
+            if not all(found_faces):
+                first["faceId"], second["faceId"] = second["faceId"], first["faceId"]
+                for face in tcgplayer_token_face_details:
+                    face.pop("uuids", None)
+                found_faces = [False, False]
+
+        for tcgplayer_token_face, found in zip(tcgplayer_token_face_details, found_faces):
             if not found:
                 print(f">> UNABLE to find UUID for {tcgplayer_token_face}")
+                continue
+            if tcgplayer_token_face.get("tokenType") == "Token":
+                self.order_star_printings(tcgplayer_token_face, star_uuids)
+            self.order_by_printing(
+                tcgplayer_token_face,
+                uuid_to_set_code,
+                uuid_to_power_toughness,
+                product_group_id,
+                set_code_to_group_id or {},
+            )
+
+    def match_unnumbered_face(
+        self, mtgjson_tokens, tcgplayer_token_face, product_group_id, set_code_to_group_id
+    ) -> bool:
+        # A face of a double-sided product TCGplayer gives no number to, as
+        # in Unfinity, can still match the one token with its name in the set
+        # that sells the product. A single token without a number, like those
+        # in the Asian promo tokens group, could be any set's.
+        if (
+            product_group_id is None
+            or tcgplayer_token_face["faceId"]
+            or tcgplayer_token_face.get("tokenType") != "Token"
+        ):
+            return False
+        matches = [
+            mtgjson_token
+            for token_set_code, mtgjson_token_data in mtgjson_tokens.items()
+            if set_code_to_group_id.get(token_set_code) == product_group_id
+            for mtgjson_token in mtgjson_token_data
+            if self.compare_names(tcgplayer_token_face["faceName"], mtgjson_token["name"])
+        ]
+        if len(matches) != 1:
+            return False
+        tcgplayer_token_face["uuids"] = [matches[0]["uuid"]]
+        return True
+
+    @staticmethod
+    def order_by_printing(
+        tcgplayer_token_face,
+        uuid_to_set_code,
+        uuid_to_power_toughness,
+        product_group_id,
+        set_code_to_group_id,
+    ) -> None:
+        # A parent set and its Commander set can each print a token with the
+        # same name and number, and a Commander product can carry either one.
+        # The face belongs to the set TCGplayer names on the face itself, then
+        # to the printing whose power and toughness TCGplayer lists for the
+        # face, then to the set that sells the product. Applied after the star
+        # ordering, so this decides first and stars break ties.
+        set_code_hint = tcgplayer_token_face.get("setCodeHint")
+        power_toughness_hint = tcgplayer_token_face.get("powerToughnessHint")
+
+        def rank(uuid):
+            token_set_code = uuid_to_set_code.get(uuid)
+            return (
+                set_code_hint is not None and token_set_code != set_code_hint,
+                power_toughness_hint is not None
+                and uuid_to_power_toughness.get(uuid) != power_toughness_hint,
+                product_group_id is not None
+                and set_code_to_group_id.get(token_set_code) != product_group_id,
+            )
+
+        tcgplayer_token_face["uuids"].sort(key=rank)
+
+    def order_star_printings(self, tcgplayer_token_face, star_uuids) -> None:
+        # A ★ printing shares its number with the plain printing once the
+        # star is stripped. A face sold as foil belongs to the ★ printing and
+        # any other face to the plain one. The sort is stable, so matches of
+        # the same kind keep the order they were found in.
+        prefer_star = self.is_foil_face(tcgplayer_token_face)
+        tcgplayer_token_face["uuids"].sort(
+            key=lambda uuid: (uuid in star_uuids) != prefer_star
+        )
+
+    @staticmethod
+    def is_foil_face(tcgplayer_token_face) -> bool:
+        return any(
+            "Foil" in attribute
+            for attribute in tcgplayer_token_face.get("faceAttribute", [])
+        )
 
     @staticmethod
     def art_card_front_to_back_mapping(mtgjson_tokens) -> Dict[str, str]:
