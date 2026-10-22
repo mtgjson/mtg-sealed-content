@@ -24,6 +24,15 @@ class MtgjsonToTcgplayerMapper:
     def strip_quotes(mtgjson_token_name: str) -> str:
         return mtgjson_token_name.replace('"', "")
 
+    @staticmethod
+    def rules_text_key(rules_text: str | None) -> str:
+        # TCGplayer's rules text is HTML with reminder text in italics, and
+        # MTGJSON puts reminder text in parentheses and symbols in braces.
+        # Only the words are compared.
+        rules_text = re.sub(r"<em>.*?</em>|\([^)]*\)", " ", rules_text or "")
+        rules_text = re.sub(r"<[^>]+>|[{}]", " ", rules_text)
+        return " ".join(re.findall(r"[\w+/'-]+", unidecode.unidecode(rules_text).casefold()))
+
     def compare_names(self, tcgplayer_face_name, mtgjson_name) -> bool:
         # TCGplayer and MTGJSON can differ in capitalization ("Primo, The
         # Indivisible") and MTGJSON sometimes keeps "Token" in the name.
@@ -386,6 +395,11 @@ class MtgjsonToTcgplayerMapper:
             for mtgjson_token_data in mtgjson_tokens.values()
             for mtgjson_token in mtgjson_token_data
         }
+        uuid_to_rules_text = {
+            mtgjson_token["uuid"]: self.rules_text_key(mtgjson_token.get("text"))
+            for mtgjson_token_data in mtgjson_tokens.values()
+            for mtgjson_token in mtgjson_token_data
+        }
 
         def find(tcgplayer_token_face_index, tcgplayer_token_face) -> bool:
             found = False
@@ -442,6 +456,7 @@ class MtgjsonToTcgplayerMapper:
                 tcgplayer_token_face,
                 uuid_to_set_code,
                 uuid_to_power_toughness,
+                uuid_to_rules_text,
                 product_group_id,
                 set_code_to_group_id or {},
             )
@@ -471,11 +486,12 @@ class MtgjsonToTcgplayerMapper:
         tcgplayer_token_face["uuids"] = [matches[0]["uuid"]]
         return True
 
-    @staticmethod
     def order_by_printing(
+        self,
         tcgplayer_token_face,
         uuid_to_set_code,
         uuid_to_power_toughness,
+        uuid_to_rules_text,
         product_group_id,
         set_code_to_group_id,
     ) -> None:
@@ -483,10 +499,13 @@ class MtgjsonToTcgplayerMapper:
         # same name and number, and a Commander product can carry either one.
         # The face belongs to the set TCGplayer names on the face itself, then
         # to the printing whose power and toughness TCGplayer lists for the
-        # face, then to the set that sells the product. Applied after the star
-        # ordering, so this decides first and stars break ties.
+        # face, then to the printing with the face's rules text (The List's
+        # Soldier #2 is GRN's with lifelink or CMR's without), then to the set
+        # that sells the product. Applied after the star ordering, so this
+        # decides first and stars break ties.
         set_code_hint = tcgplayer_token_face.get("setCodeHint")
         power_toughness_hint = tcgplayer_token_face.get("powerToughnessHint")
+        rules_text_hint = self.rules_text_key(tcgplayer_token_face.get("rulesTextHint"))
 
         def rank(uuid):
             token_set_code = uuid_to_set_code.get(uuid)
@@ -494,6 +513,7 @@ class MtgjsonToTcgplayerMapper:
                 set_code_hint is not None and token_set_code != set_code_hint,
                 power_toughness_hint is not None
                 and uuid_to_power_toughness.get(uuid) != power_toughness_hint,
+                bool(rules_text_hint) and uuid_to_rules_text.get(uuid) != rules_text_hint,
                 product_group_id is not None
                 and set_code_to_group_id.get(token_set_code) != product_group_id,
             )

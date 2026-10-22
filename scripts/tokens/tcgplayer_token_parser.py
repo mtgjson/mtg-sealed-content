@@ -31,6 +31,8 @@ class TcgplayerTokenParser:
         self.__role_regex = re.compile(r"(.*) Role / (.*) Role")
         self.__face_set_code_regex = re.compile(r"\(\d+\S* ([A-Z][A-Z0-9]{1,4})\)")
         self.__face_number_regex = re.compile(r"\((\d+)\)")
+        self.__face_separator_regex = re.compile(r"<br> ?// ?<br>")
+        self.__face_header_regex = re.compile(r"<strong> ?(.*?) ?</strong>")
 
     def __fix_emblem_names(self, token) -> str:
         if match := self.__emblem_regex.match(token):
@@ -126,6 +128,53 @@ class TcgplayerTokenParser:
             [power.strip(), toughness.strip()]
             for power, toughness in zip(powers, toughnesses)
         ]
+
+    def __get_face_rules_texts(
+        self, tcgplayer_token: Dict[str, Any], face_names: List[str]
+    ) -> List[str | None]:
+        """
+        TCGplayer gives a double-sided token's rules text in one field, with
+        "//" between the faces or a face's name in bold before its text, as in
+        "Lifelink<br>//<br><strong>Soldier</strong><br>Lifelink". Text that
+        neither places on a face, such as a lone "Flying", is left out.
+        """
+        oracle_text = next(
+            (
+                raw_extended_data["value"]
+                for raw_extended_data in tcgplayer_token["extendedData"]
+                if raw_extended_data["name"] == "OracleText"
+            ),
+            "",
+        )
+        oracle_text = re.sub(r"\s+", " ", oracle_text)
+        names = [name.casefold() for name in face_names]
+        if not oracle_text or names[0] == names[1]:
+            return [None, None]
+
+        sides = self.__face_separator_regex.split(oracle_text)
+        if len(sides) == 2:
+            texts = []
+            for name, side in zip(names, sides):
+                side = side.strip()
+                header = self.__face_header_regex.match(side)
+                if header and header.group(1).casefold() == name:
+                    side = side[header.end():]
+                texts.append(side)
+            return texts
+
+        headers = [
+            header
+            for header in self.__face_header_regex.finditer(oracle_text)
+            if header.group(1).casefold() in names
+        ]
+        texts = [None, None]
+        for header, next_header in zip(headers, headers[1:] + [None]):
+            end = next_header.start() if next_header else len(oracle_text)
+            texts[names.index(header.group(1).casefold())] = oracle_text[header.end():end]
+        # Text before the back's name is the front's.
+        if headers and names.index(headers[0].group(1).casefold()) == 1:
+            texts[0] = oracle_text[: headers[0].start()]
+        return texts
 
     @staticmethod
     def get_additional_dict(
@@ -244,11 +293,16 @@ class TcgplayerTokenParser:
             ]
             hints = self.__get_face_set_code_hints(tcgplayer_token["name"])
             power_toughness = self.__get_face_power_toughness(tcgplayer_token)
-            for face, hint, face_power_toughness in zip(faces, hints, power_toughness):
+            rules_texts = self.__get_face_rules_texts(tcgplayer_token, token_face_names)
+            for face, hint, face_power_toughness, rules_text in zip(
+                faces, hints, power_toughness, rules_texts
+            ):
                 if hint:
                     face["setCodeHint"] = hint
                 if face_power_toughness:
                     face["powerToughnessHint"] = face_power_toughness
+                if rules_text:
+                    face["rulesTextHint"] = rules_text
             return faces
 
         return [

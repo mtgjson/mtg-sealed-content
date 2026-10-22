@@ -138,6 +138,7 @@ def filter_tokens_without_uuids(
             for part in entry["tokenParts"]:
                 part.pop("setCodeHint", None)
                 part.pop("powerToughnessHint", None)
+                part.pop("rulesTextHint", None)
                 if "uuids" in part:
                     for key in ("tokenType", "faceId", "faceName"):
                         part.pop(key, None)

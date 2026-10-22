@@ -20,10 +20,12 @@ def token(uuid, name, number, power=None, toughness=None):
     }
 
 
-def product(name, number, group_id, power=None, toughness=None):
+def product(name, number, group_id, power=None, toughness=None, oracle_text=None):
     extended_data = [{"name": "Number", "value": number}]
     if power is not None:
         extended_data += [{"name": "P", "value": power}, {"name": "T", "value": toughness}]
+    if oracle_text is not None:
+        extended_data.append({"name": "OracleText", "value": oracle_text})
     return {
         "productId": 1,
         "groupId": group_id,
@@ -78,6 +80,30 @@ class ProductSetTokenMappingTests(unittest.TestCase):
         self.assertEqual(
             mapping["drc-warrior"][0]["tokenParts"],
             [{"uuid": "drc-warrior"}, {"uuid": "dft-zombie"}],
+        )
+
+    def test_rules_text_picks_the_printing_on_a_face(self):
+        mapping = self.build(
+            {
+                "PLST": [
+                    token("wolf", "Wolf", "TMID-13", "2", "2"),
+                    token("cmr-soldier", "Soldier", "TCMR-2", "1", "1"),
+                    {**token("grn-soldier", "Soldier", "TGRN-2", "1", "1"), "text": "Lifelink"},
+                ],
+            },
+            product(
+                "Wolf // Soldier Double-Sided Token",
+                "13 // 2",
+                2715,
+                "2/1",
+                "2/1",
+                "Lifelink\r\n<br>//<br>\r\n<strong>Soldier</strong>\r\n<br>\r\nLifelink",
+            ),
+            {"PLST": 2715},
+        )
+        self.assertNotIn("cmr-soldier", mapping)
+        self.assertEqual(
+            mapping["wolf"][0]["tokenParts"], [{"uuid": "wolf"}, {"uuid": "grn-soldier"}]
         )
 
     def test_set_named_on_a_face_decides_that_face(self):

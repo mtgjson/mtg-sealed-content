@@ -40,6 +40,13 @@ class TokenMapperTests(unittest.TestCase):
         )
         self.assertEqual(faces[0]["uuids"], ["parent", "commander"])
 
+    def test_rules_text_ignores_markup_reminder_text_and_symbols(self):
+        key = MtgjsonToTcgplayerMapper.rules_text_key
+        self.assertEqual(
+            key("Decayed <em>(This creature can’t block.)</em>\r\n<br>T, Sacrifice"),
+            key("Decayed (This creature can't block.)\n{T}, Sacrifice"),
+        )
+
     def test_star_printings_keep_their_order(self):
         tokens = [PLAIN, soldier("star-a", "2★"), soldier("star-b", "2★")]
         self.assertEqual(self.map_face(FOIL, tokens), ["star-a", "star-b", "plain"])
