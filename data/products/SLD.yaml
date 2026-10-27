@@ -2220,23 +2220,44 @@ products:
       tcgplayerProductId: '637682'
     contents:
       sealed:
-      - count: 2
+      - count: 1
         name: Secret Lair Drop Secret Lair x FINAL FANTASY Game Over
         set: sld
-      - count: 2
+      - count: 1
         name: Secret Lair Drop Secret Lair x FINAL FANTASY Game Over Rainbow Foil
         set: sld
-      - count: 2
+      - count: 1
         name: Secret Lair Drop Secret Lair x FINAL FANTASY Weapons
         set: sld
-      - count: 2
+      - count: 1
         name: Secret Lair Drop Secret Lair x FINAL FANTASY Weapons Rainbow Foil
         set: sld
-      - count: 2
+      - count: 1
         name: Secret Lair Drop Secret Lair x FINAL FANTASY Grimoire
         set: sld
-      - count: 2
+      - count: 1
         name: Secret Lair Drop Secret Lair x FINAL FANTASY Grimoire Rainbow Foil
+        set: sld
+      - count: 1
+        name: Secret Lair Drop Secret Lair x FINAL FANTASY Game Over Japanese
+        set: sld
+      - count: 1
+        name: Secret Lair Drop Secret Lair x FINAL FANTASY Game Over Japanese Rainbow
+          Foil
+        set: sld
+      - count: 1
+        name: Secret Lair Drop Secret Lair x FINAL FANTASY Weapons Japanese
+        set: sld
+      - count: 1
+        name: Secret Lair Drop Secret Lair x FINAL FANTASY Weapons Japanese Rainbow
+          Foil
+        set: sld
+      - count: 1
+        name: Secret Lair Drop Secret Lair x FINAL FANTASY Grimoire Japanese
+        set: sld
+      - count: 1
+        name: Secret Lair Drop Secret Lair x FINAL FANTASY Grimoire Japanese Rainbow
+          Foil
         set: sld
   Secret Lair Bundle Summer Superdrop 2025 The English FINAL FANTASY Bundle:
     category: BOX_SET
@@ -2273,22 +2294,25 @@ products:
     contents:
       sealed:
       - count: 1
-        name: Secret Lair Drop Secret Lair x FINAL FANTASY Game Over
+        name: Secret Lair Drop Secret Lair x FINAL FANTASY Game Over Japanese
         set: sld
       - count: 1
-        name: Secret Lair Drop Secret Lair x FINAL FANTASY Game Over Rainbow Foil
+        name: Secret Lair Drop Secret Lair x FINAL FANTASY Game Over Japanese Rainbow
+          Foil
         set: sld
       - count: 1
-        name: Secret Lair Drop Secret Lair x FINAL FANTASY Weapons
+        name: Secret Lair Drop Secret Lair x FINAL FANTASY Weapons Japanese
         set: sld
       - count: 1
-        name: Secret Lair Drop Secret Lair x FINAL FANTASY Weapons Rainbow Foil
+        name: Secret Lair Drop Secret Lair x FINAL FANTASY Weapons Japanese Rainbow
+          Foil
         set: sld
       - count: 1
-        name: Secret Lair Drop Secret Lair x FINAL FANTASY Grimoire
+        name: Secret Lair Drop Secret Lair x FINAL FANTASY Grimoire Japanese
         set: sld
       - count: 1
-        name: Secret Lair Drop Secret Lair x FINAL FANTASY Grimoire Rainbow Foil
+        name: Secret Lair Drop Secret Lair x FINAL FANTASY Grimoire Japanese Rainbow
+          Foil
         set: sld
   Secret Lair Bundle Summer Superdrop 2025 The Summer Superdrop Bundle Non Foil:
     category: BOX_SET
@@ -11478,6 +11502,24 @@ products:
       pack:
       - code: bonus-secret-lair-x-final-fantasy-game-over
         set: sld
+  Secret Lair Drop Secret Lair x FINAL FANTASY Game Over Japanese:
+    category: BOX_SET
+    subtype: SECRET_LAIR
+    release_date: '2025-06-10'
+    language: Japanese
+    identifiers:
+      tcgplayerProductId: '637468'
+    contents:
+      copy: Secret Lair Drop Secret Lair x FINAL FANTASY Game Over
+  Secret Lair Drop Secret Lair x FINAL FANTASY Game Over Japanese Rainbow Foil:
+    category: BOX_SET
+    subtype: SECRET_LAIR
+    release_date: '2025-06-10'
+    language: Japanese
+    identifiers:
+      tcgplayerProductId: '637469'
+    contents:
+      copy: Secret Lair Drop Secret Lair x FINAL FANTASY Game Over Rainbow Foil
   Secret Lair Drop Secret Lair x FINAL FANTASY Game Over Rainbow Foil:
     category: BOX_SET
     subtype: SECRET_LAIR
@@ -11512,6 +11554,24 @@ products:
       pack:
       - code: bonus-secret-lair-x-final-fantasy-grimoire
         set: sld
+  Secret Lair Drop Secret Lair x FINAL FANTASY Grimoire Japanese:
+    category: BOX_SET
+    subtype: SECRET_LAIR
+    release_date: '2025-06-10'
+    language: Japanese
+    identifiers:
+      tcgplayerProductId: '637472'
+    contents:
+      copy: Secret Lair Drop Secret Lair x FINAL FANTASY Grimoire
+  Secret Lair Drop Secret Lair x FINAL FANTASY Grimoire Japanese Rainbow Foil:
+    category: BOX_SET
+    subtype: SECRET_LAIR
+    release_date: '2025-06-10'
+    language: Japanese
+    identifiers:
+      tcgplayerProductId: '637471'
+    contents:
+      copy: Secret Lair Drop Secret Lair x FINAL FANTASY Grimoire Rainbow Foil
   Secret Lair Drop Secret Lair x FINAL FANTASY Grimoire Rainbow Foil:
     category: BOX_SET
     subtype: SECRET_LAIR
@@ -11546,6 +11606,24 @@ products:
       pack:
       - code: bonus-secret-lair-x-final-fantasy-weapons
         set: sld
+  Secret Lair Drop Secret Lair x FINAL FANTASY Weapons Japanese:
+    category: BOX_SET
+    subtype: SECRET_LAIR
+    release_date: '2025-06-10'
+    language: Japanese
+    identifiers:
+      tcgplayerProductId: '637475'
+    contents:
+      copy: Secret Lair Drop Secret Lair x FINAL FANTASY Weapons
+  Secret Lair Drop Secret Lair x FINAL FANTASY Weapons Japanese Rainbow Foil:
+    category: BOX_SET
+    subtype: SECRET_LAIR
+    release_date: '2025-06-10'
+    language: Japanese
+    identifiers:
+      tcgplayerProductId: '637476'
+    contents:
+      copy: Secret Lair Drop Secret Lair x FINAL FANTASY Weapons Rainbow Foil
   Secret Lair Drop Secret Lair x FINAL FANTASY Weapons Rainbow Foil:
     category: BOX_SET
     subtype: SECRET_LAIR
