@@ -2259,6 +2259,12 @@ products:
         name: Secret Lair Drop Secret Lair x FINAL FANTASY Grimoire Japanese Rainbow
           Foil
         set: sld
+      - count: 1
+        name: Secret Lair Drop Secret Lair Promo x FINAL FANTASY Gilded Lotus
+        set: sld
+      - count: 1
+        name: Secret Lair Drop Secret Lair Promo x FINAL FANTASY Gilded Lotus Japanese
+        set: sld
   Secret Lair Bundle Summer Superdrop 2025 The English FINAL FANTASY Bundle:
     category: BOX_SET
     subtype: SECRET_LAIR_BUNDLE
@@ -2284,6 +2290,9 @@ products:
         set: sld
       - count: 1
         name: Secret Lair Drop Secret Lair x FINAL FANTASY Grimoire Rainbow Foil
+        set: sld
+      - count: 1
+        name: Secret Lair Drop Secret Lair Promo x FINAL FANTASY Gilded Lotus
         set: sld
   Secret Lair Bundle Summer Superdrop 2025 The Japanese FINAL FANTASY Bundle:
     category: BOX_SET
@@ -2313,6 +2322,9 @@ products:
       - count: 1
         name: Secret Lair Drop Secret Lair x FINAL FANTASY Grimoire Japanese Rainbow
           Foil
+        set: sld
+      - count: 1
+        name: Secret Lair Drop Secret Lair Promo x FINAL FANTASY Gilded Lotus Japanese
         set: sld
   Secret Lair Bundle Summer Superdrop 2025 The Summer Superdrop Bundle Non Foil:
     category: BOX_SET
@@ -10697,6 +10709,21 @@ products:
     contents:
       card:
       - foil: true
+        name: Gilded Lotus
+        number: 909
+        set: sld
+      card_count: 1
+  Secret Lair Drop Secret Lair Promo x FINAL FANTASY Gilded Lotus Japanese:
+    category: BOX_SET
+    subtype: SECRET_LAIR
+    release_date: '2025-05-15'
+    language: Japanese
+    identifiers:
+      tcgplayerProductId: '643964'
+    contents:
+      card:
+      - foil: true
+        language: Japanese
         name: Gilded Lotus
         number: 909
         set: sld
