@@ -294,3 +294,67 @@ products:
       - count: 1
         name: Final Fantasy Commander Deck Scions & Spellcraft
         set: fic
+  Final Fantasy Deluxe Commander Kit Counter Blitz:
+    category: DECK
+    subtype: COMMANDER
+    identifiers:
+      tcgplayerProductId: '641714'
+    contents:
+      deck:
+      - name: Deluxe Commander Kit Promos
+        set: fic
+      sealed:
+      - count: 1
+        name: Final Fantasy Commander Deck Counter Blitz
+        set: fic
+      - count: 2
+        name: Final Fantasy Play Booster Pack
+        set: fin
+  Final Fantasy Deluxe Commander Kit Limit Break:
+    category: DECK
+    subtype: COMMANDER
+    identifiers:
+      tcgplayerProductId: '641711'
+    contents:
+      deck:
+      - name: Deluxe Commander Kit Promos
+        set: fic
+      sealed:
+      - count: 1
+        name: Final Fantasy Commander Deck Limit Break
+        set: fic
+      - count: 2
+        name: Final Fantasy Play Booster Pack
+        set: fin
+  Final Fantasy Deluxe Commander Kit Revival Trance:
+    category: DECK
+    subtype: COMMANDER
+    identifiers:
+      tcgplayerProductId: '641712'
+    contents:
+      deck:
+      - name: Deluxe Commander Kit Promos
+        set: fic
+      sealed:
+      - count: 1
+        name: Final Fantasy Commander Deck Revival Trance
+        set: fic
+      - count: 2
+        name: Final Fantasy Play Booster Pack
+        set: fin
+  Final Fantasy Deluxe Commander Kit Scions & Spellcraft:
+    category: DECK
+    subtype: COMMANDER
+    identifiers:
+      tcgplayerProductId: '641713'
+    contents:
+      deck:
+      - name: Deluxe Commander Kit Promos
+        set: fic
+      sealed:
+      - count: 1
+        name: Final Fantasy Commander Deck Scions & Spellcraft
+        set: fic
+      - count: 2
+        name: Final Fantasy Play Booster Pack
+        set: fin
