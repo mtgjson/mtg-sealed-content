@@ -71,6 +71,8 @@ skip_types = [
     "Shandalar",
     # skip artificial decks
     "Bundle Land Pack",
+    # sold only with another product, whose contents reference it
+    "Addon",
     # referenced manually from contents; the products already exist under
     # names that don't follow this script's naming convention
     "Challenge Deck",
