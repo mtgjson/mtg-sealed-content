@@ -71,6 +71,25 @@ with patch('requests.get', side_effect=AssertionError('unexpected download')):
             self.assertEqual(products['Test Set Theme Deck Example']['contents']['card_count'], 60)
             self.assertIn('deck already referenced', result.stdout)
 
+    def test_addon_deck_is_not_imported(self):
+        with tempfile.TemporaryDirectory() as directory:
+            base = Path(directory)
+            (base / 'data/products').mkdir(parents=True)
+            (base / 'decks.json').write_text(json.dumps([{
+                'name': 'Kit Promos', 'set_code': 'tst', 'set_name': 'Test Set',
+                'type': 'Addon', 'category': 'addon', 'release_date': '2020-01-01',
+                'cards': [{'count': 4}],
+            }]))
+            code = '''
+import os
+from scripts.import_new_decks import main
+os.environ['DECKS_JSON'] = 'decks.json'
+main()
+'''
+            result = self.run_python(['-c', code], directory)
+            self.assertEqual(result.returncode, 0, result.stderr)
+            self.assertFalse((base / 'data/products/TST.yaml').exists())
+
     def test_import_merges_into_an_existing_product(self):
         with tempfile.TemporaryDirectory() as directory:
             base = Path(directory)
