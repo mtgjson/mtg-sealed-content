@@ -365,6 +365,28 @@ products:
       - count: 15
         name: Marvel Super Heroes Prerelease Pack
         set: msh
+  Marvel Super Heroes Quick Play Collection Box:
+    category: BOX_SET
+    subtype: DEFAULT
+    identifiers:
+      tcgplayerProductId: '723302'
+    contents:
+      card:
+      - foil: true
+        name: Villainous Hideout
+        number: 2026-29
+        set: pmei
+      - foil: true
+        name: Venom, Eddie Brock
+        number: 2026-28
+        set: pmei
+      sealed:
+      - count: 4
+        name: Marvel Super Heroes Jumpstart Booster Pack
+        set: msh
+      - count: 4
+        name: Marvel Super Heroes Play Booster Pack
+        set: msh
   Marvel Super Heroes Scene Box Case:
     category: BOX_SET
     subtype: OTHER
