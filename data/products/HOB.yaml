@@ -258,8 +258,11 @@ products:
     identifiers:
       tcgplayerProductId: '717405'
     contents:
-      other:
-      - name: Dain Ironfoot promo card
+      card:
+      - foil: true
+        name: Dáin Ironfoot
+        number: 2026-18
+        set: pmei
       sealed:
       - count: 3
         name: The Hobbit Play Booster Pack
