@@ -371,6 +371,15 @@ products:
     identifiers:
       tcgplayerProductId: '723302'
     contents:
+      card:
+      - foil: true
+        name: Villainous Hideout
+        number: 2026-29
+        set: pmei
+      - foil: true
+        name: Venom, Eddie Brock
+        number: 2026-28
+        set: pmei
       sealed:
       - count: 4
         name: Marvel Super Heroes Jumpstart Booster Pack
@@ -378,9 +387,6 @@ products:
       - count: 4
         name: Marvel Super Heroes Play Booster Pack
         set: msh
-      other:
-      - name: Bonus foil promo card - Villainous Hideout
-      - name: Bonus foil promo card - Venom, Eddie Brock
   Marvel Super Heroes Scene Box Case:
     category: BOX_SET
     subtype: OTHER
