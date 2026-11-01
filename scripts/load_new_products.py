@@ -29,7 +29,32 @@ def get_cardKingdom():
     ck_data = json.loads(r.content)
     output_data = ck_data['data']
     output_data = [x for x in output_data if "Pure Bulk:" not in x['name']]
+    for product in output_data:
+        product['name'] = normalize_cardkingdom_name(product['name'])
     return output_data
+
+
+def normalize_cardkingdom_name(name):
+    """Rewrite a Card Kingdom sealed title into the naming used in
+    data/products, so it matches (or creates) the right product as is:
+    "Secret Lair Drop - Secret Lair x The Hobbit: Smaug's Spoils - Non-Foil"
+    becomes "Secret Lair Drop The Hobbit Smaugs Spoils"."""
+    # Chaos Vault is CK's shelf for Secret Lair drops; a few titles also lack
+    # the "Drop" or put a colon after it.
+    name = re.sub(r"^(Chaos Vault|Secret Lair Drop:?)\s+-?\s*|^(?=Secret Lair x )", "Secret Lair Drop - ", name)
+    name = name.replace("Secret Lair Drop - Secret Lair x ", "Secret Lair Drop - ")
+    name = re.sub(r"^Universes Beyond: ", "", name)
+    # The finish suffix: non-foil is the unmarked product, foils keep their kind.
+    name = re.sub(r" - (Non-Foil|Regular)$", "", name)
+    name = re.sub(r" - Foil Etched$", " Etched", name)
+    name = re.sub(r" - Complete Set \(Factory Sealed\)$", " MTGO Redemption", name)
+    name = re.sub(r" - Complete FOIL Set \(Factory Sealed\)$", " MTGO Redemption Foil", name)
+    # Punctuation the product names leave out ("Vol.2" keeps a space).
+    name = re.sub(r"\.(?=\d)", " ", name)
+    name = re.sub(r"['’.:|]", "", name)
+    name = re.sub(r"(?<=\w)-(?=\w)", " ", name)
+    name = name.replace(" - ", " ")
+    return re.sub(r"\s+", " ", name).strip()
 
 
 def tcgdownload(url, params, api_version, auth_code):
