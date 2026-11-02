@@ -27,7 +27,7 @@ class CardKingdomNameTests(unittest.TestCase):
             "Tarkir: Dragonstorm - Complete Set (Factory Sealed)":
                 "Tarkir Dragonstorm MTGO Redemption",
             "The Brothers' War - Complete FOIL Set (Factory Sealed)":
-                "The Brothers War MTGO Redemption Foil",
+                "The Brothers War MTGO Foil Redemption",
             "Mercadian Masques Booster Box":
                 "Mercadian Masques Booster Box",
         }

@@ -48,7 +48,7 @@ def normalize_cardkingdom_name(name):
     name = re.sub(r" - (Non-Foil|Regular)$", "", name)
     name = re.sub(r" - Foil Etched$", " Etched", name)
     name = re.sub(r" - Complete Set \(Factory Sealed\)$", " MTGO Redemption", name)
-    name = re.sub(r" - Complete FOIL Set \(Factory Sealed\)$", " MTGO Redemption Foil", name)
+    name = re.sub(r" - Complete FOIL Set \(Factory Sealed\)$", " MTGO Foil Redemption", name)
     # Punctuation the product names leave out ("Vol.2" keeps a space).
     name = re.sub(r"\.(?=\d)", " ", name)
     name = re.sub(r"['’.:|]", "", name)
