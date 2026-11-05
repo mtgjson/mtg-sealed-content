@@ -93,6 +93,22 @@ For example, to add a completely new product, add an entry to `data/products/SET
         set: mysetcode
 ```
 
+### Naming products
+
+Name a product `<Set> <Product>`, using this repository's words rather than a store's title. Store titles differ per vendor; product names do not.
+
+- A sealed box of boosters is a `Booster Box`, never a `Booster Display`: `My Set Collector Booster Box`.
+- One Play, Collector, Set, Draft or Theme booster is a `Booster Pack`, never a bare `Booster`: `My Set Collector Booster Pack`. Boosters sold under their own name keep it, such as `My Set Welcome Booster`.
+- A case of boxes is a `Booster Box Case`: `My Set Collector Booster Box Case`.
+- Keep the kind of booster the set sells it as (`Play`, `Collector`, `Jumpstart`), so `My Set Play Booster Box` for a set with Play Boosters and `My Set Booster Box` for one that sells plain boosters.
+- A case holding one of each variant is a `Set of N`, never a `Case`, even where a store calls it one.
+- A `Set of N` is plural: `My Set Commander Decks Set of 4`, `My Set Intro Packs Set of 5`. `Prerelease Kit`, `Scene Box` and `Theme Booster Pack` are the exceptions: `My Set Scene Box Set of 2`.
+- `Collector's Edition` keeps its apostrophe: `My Set Commander Deck Name Collector's Edition`. The 1993 CED and CEI boxes are named after their sets, `Collectors' Edition`.
+
+Before adding a new set, compare its names with a recent set's file in `data/products/`. Rewrite a store's title to these names when creating a product from `data/review.yaml`.
+
+A product's uuid is derived from its name, so renaming a released product gives it a new uuid.
+
 ### Seasonal WPN Promo Packs
 
 Use the [Promo Pack creation and audit skill](.agents/skills/mtg-promo-pack-audit/SKILL.md) for seasonal booster pools and sealed products. The [research ledger](data/notes/wpn-promo-packs.md) records source lists, printing decisions and coverage results.
@@ -109,9 +125,9 @@ Example output:
 Finding similar products for Chaos Vault - Adventures of the Little Witch - Foil {'cardKingdomId': '313132'}
   0 - Secret Lair Drop Adventures of the Little Witch
   1 - Secret Lair Drop Adventures of the Little Witch Rainbow Foil
-  2 - Adventures in the Forgotten Realms Theme Booster White
+  2 - Adventures in the Forgotten Realms Theme Booster Pack White
   3 - Adventures in the Forgotten Realms Set Booster Box
-  4 - Adventures in the Forgotten Realms Theme Booster Set of 6
+  4 - Adventures in the Forgotten Realms Theme Booster Pack Set of 6
 Select action ('h' for help):
 ```
 
