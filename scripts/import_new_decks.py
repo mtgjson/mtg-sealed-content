@@ -5,13 +5,14 @@ else:
 
 import json
 import os
+import re
 import sys
 from pathlib import Path
 import requests
 if __package__:
-    from .deck_card_count import deck_card_count
+    from .deck_card_count import deck_card_count, deck_is_all_foil
 else:
-    from deck_card_count import deck_card_count
+    from deck_card_count import deck_card_count, deck_is_all_foil
 
 
 def load_referenced_decks():
@@ -161,6 +162,12 @@ def add_product(set_code, name, deck):
         "name": deck["name"],
         "set": set_code,
     }])
+
+    # A product name that says foil needs no flag, and anything packed beside
+    # the deck is for a person to judge.
+    if (deck_is_all_foil(deck) and not re.search(r"\b(foil|etched)\b", name, re.I)
+            and not content.keys() & {"sealed", "variable"}):
+        product.setdefault("is_foil_only", True)
 
     # we need to add a bonus card entry if no card has been set and there
     # isn't any other note (i.e. to mention that the drop has no bonus card

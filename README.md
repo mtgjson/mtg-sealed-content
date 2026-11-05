@@ -246,7 +246,7 @@ Using UNKNOWN/DEFAULT works too, but it's better to be as accurate as possible w
 
 ## Foil-only products
 
-Set `is_foil_only: true` on a product whose every non-token card is foil when its name does not say so, such as `Commander's Arsenal`. Bonus cards and a Scene Box's boosters do not count. It sits beside `category` and `subtype`, not in `contents`. Any other non-foil card or booster means the product does not qualify.
+Set `is_foil_only: true` on a product whose every non-token card is foil when its name does not say so, such as `Commander's Arsenal`. Bonus cards and a Scene Box's boosters do not count. `scripts/import_new_decks.py` sets it on a new product whose deck is all foil; set it by hand on one holding only `card` entries. It sits beside `category` and `subtype`, not in `contents`. Any other non-foil card or booster means the product does not qualify.
 
 ## Product contents
 

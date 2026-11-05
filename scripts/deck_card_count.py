@@ -1,5 +1,5 @@
-def deck_card_count(deck):
-    """Count playable deck contents in either source or compiled deck JSON."""
+def playable_cards(deck):
+    """A deck's playable cards in either source or compiled deck JSON."""
     cards = deck["cards"]
     if isinstance(cards, dict):
         # Source JSON keeps tokens inline and display commanders in a section.
@@ -14,9 +14,20 @@ def deck_card_count(deck):
             deck.get(name, [])
             for name in ("commander", "sideboard", "planarDeck", "schemeDeck")
         ]
-    return sum(
-        card["count"]
+    return [
+        card
         for section in sections
         for card in section
         if not card.get("token", False)
-    )
+    ]
+
+
+def deck_card_count(deck):
+    """Count playable deck contents in either source or compiled deck JSON."""
+    return sum(card["count"] for card in playable_cards(deck))
+
+
+def deck_is_all_foil(deck):
+    """Whether a deck has playable cards and every one of them is foil."""
+    cards = playable_cards(deck)
+    return bool(cards) and all(card.get("foil") or card.get("etched") for card in cards)

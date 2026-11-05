@@ -90,6 +90,56 @@ main()
             self.assertEqual(result.returncode, 0, result.stderr)
             self.assertFalse((base / 'data/products/TST.yaml').exists())
 
+    def import_deck(self, directory, deck, existing=None):
+        base = Path(directory)
+        (base / 'data/products').mkdir(parents=True)
+        if existing:
+            (base / 'data/products/TST.yaml').write_text(yaml.safe_dump({'code': 'tst', 'products': existing}))
+        (base / 'decks.json').write_text(json.dumps([{
+            'name': 'Example', 'set_code': 'tst', 'set_name': 'Test Set',
+            'type': 'Theme Deck', 'category': 'Deck', 'release_date': '2020-01-01', **deck,
+        }]))
+        code = """
+import os
+from scripts.import_new_decks import main
+os.environ['DECKS_JSON'] = 'decks.json'
+main()
+"""
+        result = self.run_python(['-c', code], directory)
+        self.assertEqual(result.returncode, 0, result.stderr)
+        products = yaml.safe_load((base / 'data/products/TST.yaml').read_text())['products']
+        return products[next(iter(products))]
+
+    def test_import_flags_a_deck_that_is_all_foil(self):
+        foil = {'count': 1, 'foil': True}
+        plain = {'count': 1, 'foil': False}
+        token = {'count': 1, 'foil': False, 'token': True}
+        for cards, want in (
+            ([foil, foil], True),
+            ([{'count': 1, 'etched': True}], True),
+            ({'Main Deck': [foil, token], 'Display Commander': [plain]}, True),
+            ([foil, plain], False),
+            ([], False),
+            ({'Main Deck': [token]}, False),
+        ):
+            with self.subTest(cards=cards), tempfile.TemporaryDirectory() as directory:
+                product = self.import_deck(directory, {'cards': cards})
+                self.assertEqual(product.get('is_foil_only', False), want)
+
+    def test_import_leaves_the_flag_off_a_name_that_says_foil(self):
+        with tempfile.TemporaryDirectory() as directory:
+            deck = {'name': 'Example Foil Edition', 'cards': [{'count': 1, 'foil': True}]}
+            self.assertNotIn('is_foil_only', self.import_deck(directory, deck))
+
+    def test_import_leaves_the_flag_off_a_product_holding_sealed(self):
+        name = 'Test Set Theme Deck Example'
+        existing = {name: {'category': 'BOX_SET', 'subtype': 'OTHER', 'identifiers': {}, 'contents': {
+            'sealed': [{'count': 1, 'name': 'Test Set Booster Pack', 'set': 'tst'}],
+        }}}
+        with tempfile.TemporaryDirectory() as directory:
+            product = self.import_deck(directory, {'cards': [{'count': 1, 'foil': True}]}, existing)
+            self.assertNotIn('is_foil_only', product)
+
     def test_import_merges_into_an_existing_product(self):
         with tempfile.TemporaryDirectory() as directory:
             base = Path(directory)
