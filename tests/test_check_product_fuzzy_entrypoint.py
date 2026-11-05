@@ -67,7 +67,8 @@ with patch('requests.sessions.Session.request', side_effect=AssertionError('netw
         from scripts.check_product_fuzzy import names_a_finish
         for name in ('Secret Lair Drop X', 'Secret Lair Drop X Non Foil', 'Secret Lair Drop X Non-Foil'):
             self.assertFalse(names_a_finish(name), name)
-        for name in ('Secret Lair Drop X Foil', 'Secret Lair Drop X Rainbow Foil', 'Secret Lair Drop X Etched'):
+        for name in ('Secret Lair Drop X Foil', 'Secret Lair Drop X Rainbow Foil', 'Secret Lair Drop X Etched',
+                     'Secret Lair Drop Artist Series Seb McKinnon Foil'):
             self.assertTrue(names_a_finish(name), name)
 
 
