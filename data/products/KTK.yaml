@@ -204,31 +204,6 @@ products:
       - count: 2
         name: Khans of Tarkir Booster Pack
         set: ktk
-  Khans of Tarkir Intro Packs Set of 5:
-    category: SUBSET
-    subtype: INTRO
-    identifiers:
-      abuId: '1100715'
-      cardtraderId: '48205'
-      mcmId: '269597'
-      tcgplayerProductId: '92802'
-    contents:
-      sealed:
-      - count: 1
-        name: Khans of Tarkir Intro Pack Abzan Siege
-        set: ktk
-      - count: 1
-        name: Khans of Tarkir Intro Pack Jeskai Monks
-        set: ktk
-      - count: 1
-        name: Khans of Tarkir Intro Pack Mardu Raiders
-        set: ktk
-      - count: 1
-        name: Khans of Tarkir Intro Pack Sultai Schemers
-        set: ktk
-      - count: 1
-        name: Khans of Tarkir Intro Pack Temur Avalanche
-        set: ktk
   Khans of Tarkir Intro Pack Sultai Schemers:
     category: DECK
     subtype: INTRO
@@ -268,6 +243,31 @@ products:
       sealed:
       - count: 2
         name: Khans of Tarkir Booster Pack
+        set: ktk
+  Khans of Tarkir Intro Packs Set of 5:
+    category: SUBSET
+    subtype: INTRO
+    identifiers:
+      abuId: '1100715'
+      cardtraderId: '48205'
+      mcmId: '269597'
+      tcgplayerProductId: '92802'
+    contents:
+      sealed:
+      - count: 1
+        name: Khans of Tarkir Intro Pack Abzan Siege
+        set: ktk
+      - count: 1
+        name: Khans of Tarkir Intro Pack Jeskai Monks
+        set: ktk
+      - count: 1
+        name: Khans of Tarkir Intro Pack Mardu Raiders
+        set: ktk
+      - count: 1
+        name: Khans of Tarkir Intro Pack Sultai Schemers
+        set: ktk
+      - count: 1
+        name: Khans of Tarkir Intro Pack Temur Avalanche
         set: ktk
   Khans of Tarkir MTGO Redemption:
     category: BOX_SET

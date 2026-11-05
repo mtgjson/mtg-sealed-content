@@ -139,21 +139,6 @@ products:
       - count: 3
         name: Return to Ravnica Event Deck Wrack and Rage
         set: rtr
-  Return to Ravnica Event Decks Set of 2:
-    category: SUBSET
-    subtype: EVENT
-    identifiers:
-      abuId: '1101076'
-      cardtraderId: '47831'
-      mcmId: '259292'
-    contents:
-      sealed:
-      - count: 1
-        name: Return to Ravnica Event Deck Creep and Conquer
-        set: rtr
-      - count: 1
-        name: Return to Ravnica Event Deck Wrack and Rage
-        set: rtr
   Return to Ravnica Event Deck Wrack and Rage:
     category: DECK
     subtype: EVENT
@@ -170,6 +155,21 @@ products:
       card_count: 75
       deck:
       - name: Wrack and Rage
+        set: rtr
+  Return to Ravnica Event Decks Set of 2:
+    category: SUBSET
+    subtype: EVENT
+    identifiers:
+      abuId: '1101076'
+      cardtraderId: '47831'
+      mcmId: '259292'
+    contents:
+      sealed:
+      - count: 1
+        name: Return to Ravnica Event Deck Creep and Conquer
+        set: rtr
+      - count: 1
+        name: Return to Ravnica Event Deck Wrack and Rage
         set: rtr
   Return to Ravnica Fat Pack:
     category: BUNDLE

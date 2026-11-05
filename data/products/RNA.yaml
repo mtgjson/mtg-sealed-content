@@ -348,28 +348,6 @@ products:
       - count: 5
         name: Ravnica Allegiance Booster Pack
         set: rna
-  Ravnica Allegiance Prerelease Packs Set of 5:
-    category: SUBSET
-    subtype: PRERELEASE
-    identifiers:
-      tcgplayerProductId: '183591'
-    contents:
-      sealed:
-      - count: 1
-        name: Ravnica Allegiance Prerelease Pack Azorius
-        set: rna
-      - count: 1
-        name: Ravnica Allegiance Prerelease Pack Gruul
-        set: rna
-      - count: 1
-        name: Ravnica Allegiance Prerelease Pack Orzhov
-        set: rna
-      - count: 1
-        name: Ravnica Allegiance Prerelease Pack Rakdos
-        set: rna
-      - count: 1
-        name: Ravnica Allegiance Prerelease Pack Simic
-        set: rna
   Ravnica Allegiance Prerelease Pack Simic:
     category: LIMITED
     subtype: PRERELEASE
@@ -391,6 +369,28 @@ products:
       sealed:
       - count: 5
         name: Ravnica Allegiance Booster Pack
+        set: rna
+  Ravnica Allegiance Prerelease Packs Set of 5:
+    category: SUBSET
+    subtype: PRERELEASE
+    identifiers:
+      tcgplayerProductId: '183591'
+    contents:
+      sealed:
+      - count: 1
+        name: Ravnica Allegiance Prerelease Pack Azorius
+        set: rna
+      - count: 1
+        name: Ravnica Allegiance Prerelease Pack Gruul
+        set: rna
+      - count: 1
+        name: Ravnica Allegiance Prerelease Pack Orzhov
+        set: rna
+      - count: 1
+        name: Ravnica Allegiance Prerelease Pack Rakdos
+        set: rna
+      - count: 1
+        name: Ravnica Allegiance Prerelease Pack Simic
         set: rna
   Ravnica Allegiance Standard Showdown Booster:
     category: BOOSTER_PACK

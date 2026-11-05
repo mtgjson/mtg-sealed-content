@@ -76,6 +76,25 @@ products:
       deck:
       - name: Second Sun Control
         set: q01
+  Challenger Deck 2018 Vehicle Rush:
+    category: DECK
+    subtype: CHALLENGER
+    release_date: '2018-04-06'
+    identifiers:
+      abuId: '1495919'
+      cardKingdomId: '217623'
+      cardtraderId: '54734'
+      csiId: '254890'
+      hareruyaId: '28575'
+      mcmId: '318969'
+      scgId: SLD-MTG-INT-Q01-EN-VEHICLE
+      tcgplayerProductId: '161413'
+      tntId: '1159418'
+    contents:
+      card_count: 75
+      deck:
+      - name: Vehicle Rush
+        set: q01
   Challenger Decks 2018 Set of 4:
     category: SUBSET
     subtype: CHALLENGER
@@ -101,23 +120,4 @@ products:
         set: q01
       - count: 1
         name: Challenger Deck 2018 Vehicle Rush
-        set: q01
-  Challenger Deck 2018 Vehicle Rush:
-    category: DECK
-    subtype: CHALLENGER
-    release_date: '2018-04-06'
-    identifiers:
-      abuId: '1495919'
-      cardKingdomId: '217623'
-      cardtraderId: '54734'
-      csiId: '254890'
-      hareruyaId: '28575'
-      mcmId: '318969'
-      scgId: SLD-MTG-INT-Q01-EN-VEHICLE
-      tcgplayerProductId: '161413'
-      tntId: '1159418'
-    contents:
-      card_count: 75
-      deck:
-      - name: Vehicle Rush
         set: q01

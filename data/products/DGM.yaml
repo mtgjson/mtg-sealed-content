@@ -209,6 +209,27 @@ products:
       - count: 2
         name: Dragons Maze Booster Pack
         set: dgm
+  Dragons Maze Intro Pack Simic Domination:
+    category: DECK
+    subtype: INTRO
+    identifiers:
+      abuId: '1100409'
+      cardKingdomId: '189632'
+      cardtraderId: '47946'
+      csiId: '192762'
+      mcmId: '261685'
+      scgId: SLD-MTG-INT-DGMINTRO-EN-SIMIC
+      tcgplayerProductId: '68032'
+      tntId: '1026694'
+    contents:
+      card_count: 60
+      deck:
+      - name: Simic Domination
+        set: dgm
+      sealed:
+      - count: 2
+        name: Dragons Maze Booster Pack
+        set: dgm
   Dragons Maze Intro Packs Set of 5:
     category: SUBSET
     subtype: INTRO
@@ -233,27 +254,6 @@ products:
         set: dgm
       - count: 1
         name: Dragons Maze Intro Pack Simic Domination
-        set: dgm
-  Dragons Maze Intro Pack Simic Domination:
-    category: DECK
-    subtype: INTRO
-    identifiers:
-      abuId: '1100409'
-      cardKingdomId: '189632'
-      cardtraderId: '47946'
-      csiId: '192762'
-      mcmId: '261685'
-      scgId: SLD-MTG-INT-DGMINTRO-EN-SIMIC
-      tcgplayerProductId: '68032'
-      tntId: '1026694'
-    contents:
-      card_count: 60
-      deck:
-      - name: Simic Domination
-        set: dgm
-      sealed:
-      - count: 2
-        name: Dragons Maze Booster Pack
         set: dgm
   Dragons Maze MTGO Redemption:
     category: BOX_SET

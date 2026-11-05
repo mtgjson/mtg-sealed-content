@@ -280,6 +280,29 @@ products:
       - count: 2
         name: 2015 Core Set Booster Pack
         set: m15
+  2015 Core Set Intro Pack Will of the Masses:
+    category: DECK
+    subtype: INTRO
+    identifiers:
+      abuId: '1100835'
+      cardKingdomId: '195221'
+      cardtraderId: '48152'
+      mcmId: '267973'
+      scgId: SLD-MTG-INT-M15INTRO-EN-WILL
+      tcgplayerProductId: '91078'
+      tntId: '1057453'
+    contents:
+      card_count: 60
+      deck:
+      - name: Will Of The Masses
+        set: m15
+      other:
+      - name: Strategy and Mechanics Guide
+      - name: Learn to Play Insert
+      sealed:
+      - count: 2
+        name: 2015 Core Set Booster Pack
+        set: m15
   2015 Core Set Intro Packs Set of 5:
     category: SUBSET
     subtype: INTRO
@@ -305,29 +328,6 @@ products:
         set: m15
       - count: 1
         name: 2015 Core Set Intro Pack Will of the Masses
-        set: m15
-  2015 Core Set Intro Pack Will of the Masses:
-    category: DECK
-    subtype: INTRO
-    identifiers:
-      abuId: '1100835'
-      cardKingdomId: '195221'
-      cardtraderId: '48152'
-      mcmId: '267973'
-      scgId: SLD-MTG-INT-M15INTRO-EN-WILL
-      tcgplayerProductId: '91078'
-      tntId: '1057453'
-    contents:
-      card_count: 60
-      deck:
-      - name: Will Of The Masses
-        set: m15
-      other:
-      - name: Strategy and Mechanics Guide
-      - name: Learn to Play Insert
-      sealed:
-      - count: 2
-        name: 2015 Core Set Booster Pack
         set: m15
   2015 Core Set MTGO Redemption:
     category: BOX_SET

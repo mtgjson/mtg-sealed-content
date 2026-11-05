@@ -387,28 +387,6 @@ products:
       - count: 5
         name: Secrets of Strixhaven Play Booster Pack
         set: sos
-  Secrets of Strixhaven Prerelease Packs Set of 5:
-    category: SUBSET
-    subtype: PRERELEASE
-    identifiers:
-      tcgplayerProductId: '675578'
-    contents:
-      sealed:
-      - count: 1
-        name: Secrets of Strixhaven Prerelease Pack Silverquill
-        set: sos
-      - count: 1
-        name: Secrets of Strixhaven Prerelease Pack Witherbloom
-        set: sos
-      - count: 1
-        name: Secrets of Strixhaven Prerelease Pack Quandrix
-        set: sos
-      - count: 1
-        name: Secrets of Strixhaven Prerelease Pack Lorehold
-        set: sos
-      - count: 1
-        name: Secrets of Strixhaven Prerelease Pack Prismari
-        set: sos
   Secrets of Strixhaven Prerelease Pack Silverquill:
     category: LIMITED
     subtype: PRERELEASE
@@ -452,6 +430,28 @@ products:
       sealed:
       - count: 5
         name: Secrets of Strixhaven Play Booster Pack
+        set: sos
+  Secrets of Strixhaven Prerelease Packs Set of 5:
+    category: SUBSET
+    subtype: PRERELEASE
+    identifiers:
+      tcgplayerProductId: '675578'
+    contents:
+      sealed:
+      - count: 1
+        name: Secrets of Strixhaven Prerelease Pack Silverquill
+        set: sos
+      - count: 1
+        name: Secrets of Strixhaven Prerelease Pack Witherbloom
+        set: sos
+      - count: 1
+        name: Secrets of Strixhaven Prerelease Pack Quandrix
+        set: sos
+      - count: 1
+        name: Secrets of Strixhaven Prerelease Pack Lorehold
+        set: sos
+      - count: 1
+        name: Secrets of Strixhaven Prerelease Pack Prismari
         set: sos
   Secrets of Strixhaven Promo Pack:
     category: BOOSTER_PACK
@@ -529,6 +529,18 @@ products:
       deck:
       - name: Red Deck
         set: sos
+  Welcome Deck 2026 White Deck:
+    category: DECK
+    subtype: WELCOME
+    release_date: '2026-04-24'
+    identifiers:
+      cardtraderId: '380932'
+      mcmId: '884056'
+    contents:
+      card_count: 40
+      deck:
+      - name: White Deck
+        set: sos
   Welcome Decks 2026 Set of 5:
     category: SUBSET
     subtype: WELCOME
@@ -551,16 +563,4 @@ products:
         set: sos
       - count: 1
         name: Welcome Deck 2026 White Deck
-        set: sos
-  Welcome Deck 2026 White Deck:
-    category: DECK
-    subtype: WELCOME
-    release_date: '2026-04-24'
-    identifiers:
-      cardtraderId: '380932'
-      mcmId: '884056'
-    contents:
-      card_count: 40
-      deck:
-      - name: White Deck
         set: sos

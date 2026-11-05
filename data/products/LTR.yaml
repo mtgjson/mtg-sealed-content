@@ -506,32 +506,6 @@ products:
       - count: 3
         name: The Lord of the Rings Tales of Middle earth Set Booster Pack
         set: ltr
-  The Lord of the Rings Tales of Middle earth Scene Box The Might of Galadriel:
-    category: BOX_SET
-    subtype: OTHER
-    release_date: '2023-06-23'
-    identifiers:
-      abuId: '2422778'
-      cardKingdomId: '283571'
-      cardtraderId: '249085'
-      csiId: '365565'
-      hareruyaId: '146449'
-      mcmId: '732329'
-      scgId: SLD-MTG-BXS-LTRSCENE-EN-GALADRIEL
-      tcgplayerProductId: '515909'
-      tntId: '1789514'
-    contents:
-      card_count: 6
-      deck:
-      - name: The Might of Galadriel
-        set: ltc
-      other:
-      - name: 6 art cards
-      - name: Display easel
-      sealed:
-      - count: 3
-        name: The Lord of the Rings Tales of Middle earth Set Booster Pack
-        set: ltr
   The Lord of the Rings Tales of Middle earth Scene Box Set of 4:
     category: BOX_SET
     subtype: OTHER
@@ -560,6 +534,32 @@ products:
         set: ltr
       - count: 1
         name: The Lord of the Rings Tales of Middle earth Scene Box The Might of Galadriel
+        set: ltr
+  The Lord of the Rings Tales of Middle earth Scene Box The Might of Galadriel:
+    category: BOX_SET
+    subtype: OTHER
+    release_date: '2023-06-23'
+    identifiers:
+      abuId: '2422778'
+      cardKingdomId: '283571'
+      cardtraderId: '249085'
+      csiId: '365565'
+      hareruyaId: '146449'
+      mcmId: '732329'
+      scgId: SLD-MTG-BXS-LTRSCENE-EN-GALADRIEL
+      tcgplayerProductId: '515909'
+      tntId: '1789514'
+    contents:
+      card_count: 6
+      deck:
+      - name: The Might of Galadriel
+        set: ltc
+      other:
+      - name: 6 art cards
+      - name: Display easel
+      sealed:
+      - count: 3
+        name: The Lord of the Rings Tales of Middle earth Set Booster Pack
         set: ltr
   The Lord of the Rings Tales of Middle earth Set Booster Box:
     category: BOOSTER_BOX

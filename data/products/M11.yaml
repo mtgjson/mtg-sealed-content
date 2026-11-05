@@ -273,6 +273,29 @@ products:
       - count: 1
         name: 2011 Core Set Booster Pack
         set: m11
+  2011 Core Set Intro Packs Set of 5:
+    category: SUBSET
+    subtype: INTRO
+    identifiers:
+      abuId: '1100753'
+      tcgplayerProductId: '35381'
+    contents:
+      sealed:
+      - count: 1
+        name: 2011 Core Set Intro Pack Blades of Victory
+        set: m11
+      - count: 1
+        name: 2011 Core Set Intro Pack Breath of Fire
+        set: m11
+      - count: 1
+        name: 2011 Core Set Intro Pack Power of Prophecy
+        set: m11
+      - count: 1
+        name: 2011 Core Set Intro Pack Reign of Vampirism
+        set: m11
+      - count: 1
+        name: 2011 Core Set Intro Pack Stampede of Beasts
+        set: m11
   2011 Core Set Land Station:
     category: KIT
     subtype: LAND_STATION
@@ -388,29 +411,6 @@ products:
       variable_mode:
         count: 1
         replacement: false
-  2011 Core Set Intro Packs Set of 5:
-    category: SUBSET
-    subtype: INTRO
-    identifiers:
-      abuId: '1100753'
-      tcgplayerProductId: '35381'
-    contents:
-      sealed:
-      - count: 1
-        name: 2011 Core Set Intro Pack Blades of Victory
-        set: m11
-      - count: 1
-        name: 2011 Core Set Intro Pack Breath of Fire
-        set: m11
-      - count: 1
-        name: 2011 Core Set Intro Pack Power of Prophecy
-        set: m11
-      - count: 1
-        name: 2011 Core Set Intro Pack Reign of Vampirism
-        set: m11
-      - count: 1
-        name: 2011 Core Set Intro Pack Stampede of Beasts
-        set: m11
   2011 Core Set Six Card Booster Pack:
     category: BOOSTER_PACK
     subtype: SIX

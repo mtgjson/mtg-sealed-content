@@ -27,11 +27,6 @@ products:
     subtype: GIFT_BUNDLE
     identifiers:
       tcgplayerProductId: '723272'
-  Marvel Darkhold Destiny Booster Box Case:
-    category: BOOSTER_CASE
-    subtype: PLAY
-    identifiers:
-      tcgplayerProductId: '723264'
   Marvel Darkhold Destiny Booster Box:
     category: BOOSTER_BOX
     subtype: PLAY
@@ -45,6 +40,11 @@ products:
       - count: 30
         name: Marvel Darkhold Destiny Booster Pack
         set: mdd
+  Marvel Darkhold Destiny Booster Box Case:
+    category: BOOSTER_CASE
+    subtype: PLAY
+    identifiers:
+      tcgplayerProductId: '723264'
   Marvel Darkhold Destiny Booster Pack:
     category: BOOSTER_PACK
     subtype: PLAY
@@ -76,19 +76,6 @@ products:
     subtype: DEFAULT
     identifiers:
       tcgplayerProductId: '723270'
-  Marvel Darkhold Destiny Collector Booster Pack:
-    category: BOOSTER_PACK
-    subtype: COLLECTOR
-    release_date: '2027-04-09'
-    identifiers:
-      cardtraderId: '417358'
-      mcmId: '916745'
-      tcgplayerProductId: '723265'
-  Marvel Darkhold Destiny Collector Booster Box Case:
-    category: BOOSTER_CASE
-    subtype: COLLECTOR
-    identifiers:
-      tcgplayerProductId: '723267'
   Marvel Darkhold Destiny Collector Booster Box:
     category: BOOSTER_BOX
     subtype: COLLECTOR
@@ -102,6 +89,19 @@ products:
       - count: 12
         name: Marvel Darkhold Destiny Collector Booster Pack
         set: mdd
+  Marvel Darkhold Destiny Collector Booster Box Case:
+    category: BOOSTER_CASE
+    subtype: COLLECTOR
+    identifiers:
+      tcgplayerProductId: '723267'
+  Marvel Darkhold Destiny Collector Booster Pack:
+    category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2027-04-09'
+    identifiers:
+      cardtraderId: '417358'
+      mcmId: '916745'
+      tcgplayerProductId: '723265'
   Marvel Darkhold Destiny Draft Night:
     category: LIMITED
     subtype: DRAFT

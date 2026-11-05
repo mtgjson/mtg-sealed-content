@@ -160,32 +160,6 @@ products:
       - count: 2
         name: Fate Reforged Booster Pack
         set: frf
-  Fate Reforged Intro Packs Set of 5:
-    category: SUBSET
-    subtype: INTRO
-    release_date: '2015-01-26'
-    identifiers:
-      abuId: '1100529'
-      cardtraderId: '48236'
-      mcmId: '272135'
-      tcgplayerProductId: '95034'
-    contents:
-      sealed:
-      - count: 1
-        name: Fate Reforged Intro Pack Cunning Plan
-        set: frf
-      - count: 1
-        name: Fate Reforged Intro Pack Grave Advantage
-        set: frf
-      - count: 1
-        name: Fate Reforged Intro Pack Stampeding Hordes
-        set: frf
-      - count: 1
-        name: Fate Reforged Intro Pack Surprise Attack
-        set: frf
-      - count: 1
-        name: Fate Reforged Intro Pack Unflinching Assault
-        set: frf
   Fate Reforged Intro Pack Stampeding Hordes:
     category: DECK
     subtype: INTRO
@@ -245,6 +219,32 @@ products:
       sealed:
       - count: 2
         name: Fate Reforged Booster Pack
+        set: frf
+  Fate Reforged Intro Packs Set of 5:
+    category: SUBSET
+    subtype: INTRO
+    release_date: '2015-01-26'
+    identifiers:
+      abuId: '1100529'
+      cardtraderId: '48236'
+      mcmId: '272135'
+      tcgplayerProductId: '95034'
+    contents:
+      sealed:
+      - count: 1
+        name: Fate Reforged Intro Pack Cunning Plan
+        set: frf
+      - count: 1
+        name: Fate Reforged Intro Pack Grave Advantage
+        set: frf
+      - count: 1
+        name: Fate Reforged Intro Pack Stampeding Hordes
+        set: frf
+      - count: 1
+        name: Fate Reforged Intro Pack Surprise Attack
+        set: frf
+      - count: 1
+        name: Fate Reforged Intro Pack Unflinching Assault
         set: frf
   Fate Reforged MTGO Redemption:
     category: BOX_SET

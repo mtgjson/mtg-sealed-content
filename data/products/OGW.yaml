@@ -138,32 +138,6 @@ products:
       - count: 2
         name: Oath of the Gatewatch Intro Pack Vicious Cycle
         set: ogw
-  Oath of the Gatewatch Intro Packs Set of 5:
-    category: SUBSET
-    subtype: INTRO
-    release_date: '2016-01-22'
-    identifiers:
-      cardtraderId: '48384'
-      mcmId: '287204'
-      scgId: SLD-MTG-INT-OGWINTRO-EN-SET5
-      tcgplayerProductId: '110710'
-    contents:
-      sealed:
-      - count: 1
-        name: Oath of the Gatewatch Intro Pack Concerted Effort
-        set: ogw
-      - count: 1
-        name: Oath of the Gatewatch Intro Pack Desperate Stand
-        set: ogw
-      - count: 1
-        name: Oath of the Gatewatch Intro Pack Surge of Resistance
-        set: ogw
-      - count: 1
-        name: Oath of the Gatewatch Intro Pack Twisted Reality
-        set: ogw
-      - count: 1
-        name: Oath of the Gatewatch Intro Pack Vicious Cycle
-        set: ogw
   Oath of the Gatewatch Intro Pack Surge of Resistance:
     category: DECK
     subtype: INTRO
@@ -221,6 +195,32 @@ products:
       sealed:
       - count: 2
         name: Oath of the Gatewatch Booster Pack
+        set: ogw
+  Oath of the Gatewatch Intro Packs Set of 5:
+    category: SUBSET
+    subtype: INTRO
+    release_date: '2016-01-22'
+    identifiers:
+      cardtraderId: '48384'
+      mcmId: '287204'
+      scgId: SLD-MTG-INT-OGWINTRO-EN-SET5
+      tcgplayerProductId: '110710'
+    contents:
+      sealed:
+      - count: 1
+        name: Oath of the Gatewatch Intro Pack Concerted Effort
+        set: ogw
+      - count: 1
+        name: Oath of the Gatewatch Intro Pack Desperate Stand
+        set: ogw
+      - count: 1
+        name: Oath of the Gatewatch Intro Pack Surge of Resistance
+        set: ogw
+      - count: 1
+        name: Oath of the Gatewatch Intro Pack Twisted Reality
+        set: ogw
+      - count: 1
+        name: Oath of the Gatewatch Intro Pack Vicious Cycle
         set: ogw
   Oath of the Gatewatch MTGO Redemption:
     category: BOX_SET

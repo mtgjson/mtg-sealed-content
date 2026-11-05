@@ -290,6 +290,27 @@ products:
       - count: 2
         name: Gatecrash Booster Pack
         set: gtc
+  Gatecrash Intro Pack Simic Synthesis:
+    category: DECK
+    subtype: INTRO
+    release_date: '2013-02-01'
+    identifiers:
+      abuId: '1100572'
+      cardKingdomId: '188888'
+      cardtraderId: '47890'
+      mcmId: '259877'
+      scgId: SLD-MTG-INT-GTCINTRO-EN-SIMIC
+      tcgplayerProductId: '67389'
+      tntId: '1012440'
+    contents:
+      card_count: 60
+      deck:
+      - name: Simic Synthesis
+        set: gtc
+      sealed:
+      - count: 2
+        name: Gatecrash Booster Pack
+        set: gtc
   Gatecrash Intro Packs Set of 5:
     category: SUBSET
     subtype: INTRO
@@ -314,27 +335,6 @@ products:
         set: gtc
       - count: 1
         name: Gatecrash Intro Pack Simic Synthesis
-        set: gtc
-  Gatecrash Intro Pack Simic Synthesis:
-    category: DECK
-    subtype: INTRO
-    release_date: '2013-02-01'
-    identifiers:
-      abuId: '1100572'
-      cardKingdomId: '188888'
-      cardtraderId: '47890'
-      mcmId: '259877'
-      scgId: SLD-MTG-INT-GTCINTRO-EN-SIMIC
-      tcgplayerProductId: '67389'
-      tntId: '1012440'
-    contents:
-      card_count: 60
-      deck:
-      - name: Simic Synthesis
-        set: gtc
-      sealed:
-      - count: 2
-        name: Gatecrash Booster Pack
         set: gtc
   Gatecrash MTGO Redemption:
     category: BOX_SET
@@ -460,32 +460,6 @@ products:
       - count: 5
         name: Gatecrash Booster Pack
         set: gtc
-  Gatecrash Prerelease Kit Simic:
-    category: LIMITED
-    subtype: PRERELEASE
-    identifiers:
-      abuId: '1100568'
-      cardKingdomId: '189539'
-      cardtraderId: '47899'
-      mcmId: '260423'
-      tcgplayerProductId: '106355'
-      tntId: '1660308'
-    contents:
-      card:
-      - foil: true
-        name: Fathom Mage
-        number: 162★
-        set: pgtc
-      card_count: 16
-      other:
-      - name: Gatecrash Spindown Life Counter
-      pack:
-      - code: prerelease-simic
-        set: gtc
-      sealed:
-      - count: 5
-        name: Gatecrash Booster Pack
-        set: gtc
   Gatecrash Prerelease Kit Set of 5:
     category: SUBSET
     subtype: PRERELEASE
@@ -511,6 +485,32 @@ products:
         set: gtc
       - count: 1
         name: Gatecrash Prerelease Kit Simic
+        set: gtc
+  Gatecrash Prerelease Kit Simic:
+    category: LIMITED
+    subtype: PRERELEASE
+    identifiers:
+      abuId: '1100568'
+      cardKingdomId: '189539'
+      cardtraderId: '47899'
+      mcmId: '260423'
+      tcgplayerProductId: '106355'
+      tntId: '1660308'
+    contents:
+      card:
+      - foil: true
+        name: Fathom Mage
+        number: 162★
+        set: pgtc
+      card_count: 16
+      other:
+      - name: Gatecrash Spindown Life Counter
+      pack:
+      - code: prerelease-simic
+        set: gtc
+      sealed:
+      - count: 5
+        name: Gatecrash Booster Pack
         set: gtc
   Gatecrash Six Card Booster Pack:
     category: BOOSTER_PACK

@@ -42,29 +42,6 @@ products:
       - name: 10 Double-sided tokens (surge foil front, non-foil back)
       - name: Reference card
       - name: Deck box
-  Marvel Super Heroes Commander Decks Collector's Edition Set of 4:
-    category: SUBSET
-    subtype: COMMANDER
-    identifiers:
-      cardtraderId: '370639'
-      mcmId: '869502'
-      miniaturemarketId: 019c06a226587110bac7dd1e43f7ba09
-      scgId: SLD-MTG-CMD-MSCCOLLECTOR-EN-SET4
-      tcgplayerProductId: '675636'
-    contents:
-      sealed:
-      - count: 1
-        name: Marvel Super Heroes Commander Deck Avengers Assemble Collector's Edition
-        set: msc
-      - count: 1
-        name: Marvel Super Heroes Commander Deck Doom Prevails Collector's Edition
-        set: msc
-      - count: 1
-        name: Marvel Super Heroes Commander Deck The Fantastic Four Collector's Edition
-        set: msc
-      - count: 1
-        name: Marvel Super Heroes Commander Deck Wakanda Forever Collector's Edition
-        set: msc
   Marvel Super Heroes Commander Deck Doom Prevails:
     category: DECK
     subtype: COMMANDER
@@ -107,30 +84,6 @@ products:
       - name: 10 Double-sided tokens (surge foil front, non-foil back)
       - name: Reference card
       - name: Deck box
-  Marvel Super Heroes Commander Decks Set of 4:
-    category: SUBSET
-    subtype: COMMANDER
-    identifiers:
-      cardKingdomId: '327063'
-      cardtraderId: '370638'
-      mcmId: '869501'
-      miniaturemarketId: 019c06a1ebb8735091bc7d2e81123a23
-      scgId: SLD-MTG-CMD-MSC-EN-SET4
-      tcgplayerProductId: '675635'
-    contents:
-      sealed:
-      - count: 1
-        name: Marvel Super Heroes Commander Deck Avengers Assemble
-        set: msc
-      - count: 1
-        name: Marvel Super Heroes Commander Deck Doom Prevails
-        set: msc
-      - count: 1
-        name: Marvel Super Heroes Commander Deck The Fantastic Four
-        set: msc
-      - count: 1
-        name: Marvel Super Heroes Commander Deck Wakanda Forever
-        set: msc
   Marvel Super Heroes Commander Deck The Fantastic Four:
     category: DECK
     subtype: COMMANDER
@@ -215,6 +168,53 @@ products:
       - name: 10 Double-sided tokens (surge foil front, non-foil back)
       - name: Reference card
       - name: Deck box
+  Marvel Super Heroes Commander Decks Collector's Edition Set of 4:
+    category: SUBSET
+    subtype: COMMANDER
+    identifiers:
+      cardtraderId: '370639'
+      mcmId: '869502'
+      miniaturemarketId: 019c06a226587110bac7dd1e43f7ba09
+      scgId: SLD-MTG-CMD-MSCCOLLECTOR-EN-SET4
+      tcgplayerProductId: '675636'
+    contents:
+      sealed:
+      - count: 1
+        name: Marvel Super Heroes Commander Deck Avengers Assemble Collector's Edition
+        set: msc
+      - count: 1
+        name: Marvel Super Heroes Commander Deck Doom Prevails Collector's Edition
+        set: msc
+      - count: 1
+        name: Marvel Super Heroes Commander Deck The Fantastic Four Collector's Edition
+        set: msc
+      - count: 1
+        name: Marvel Super Heroes Commander Deck Wakanda Forever Collector's Edition
+        set: msc
+  Marvel Super Heroes Commander Decks Set of 4:
+    category: SUBSET
+    subtype: COMMANDER
+    identifiers:
+      cardKingdomId: '327063'
+      cardtraderId: '370638'
+      mcmId: '869501'
+      miniaturemarketId: 019c06a1ebb8735091bc7d2e81123a23
+      scgId: SLD-MTG-CMD-MSC-EN-SET4
+      tcgplayerProductId: '675635'
+    contents:
+      sealed:
+      - count: 1
+        name: Marvel Super Heroes Commander Deck Avengers Assemble
+        set: msc
+      - count: 1
+        name: Marvel Super Heroes Commander Deck Doom Prevails
+        set: msc
+      - count: 1
+        name: Marvel Super Heroes Commander Deck The Fantastic Four
+        set: msc
+      - count: 1
+        name: Marvel Super Heroes Commander Deck Wakanda Forever
+        set: msc
   Marvel Super Heroes Commander Kit Avengers Assemble:
     category: BOX_SET
     subtype: COMMANDER

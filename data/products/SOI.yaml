@@ -256,33 +256,6 @@ products:
       - count: 2
         name: Shadows over Innistrad Booster Pack
         set: soi
-  Shadows over Innistrad Intro Packs Set of 5:
-    category: SUBSET
-    subtype: INTRO
-    release_date: '2016-03-15'
-    identifiers:
-      abuId: '1101155'
-      cardtraderId: '48411'
-      mcmId: '288898'
-      scgId: SLD-MTG-INT-SOIINTRO-EN
-      tcgplayerProductId: '112961'
-    contents:
-      sealed:
-      - count: 1
-        name: Shadows over Innistrad Intro Pack Angelic Fury
-        set: soi
-      - count: 1
-        name: Shadows over Innistrad Intro Pack Ghostly Tide
-        set: soi
-      - count: 1
-        name: Shadows over Innistrad Intro Pack Horrific Visions
-        set: soi
-      - count: 1
-        name: Shadows over Innistrad Intro Pack Unearthed Secrets
-        set: soi
-      - count: 1
-        name: Shadows over Innistrad Intro Pack Vampiric Thirst
-        set: soi
   Shadows over Innistrad Intro Pack Unearthed Secrets:
     category: DECK
     subtype: INTRO
@@ -323,6 +296,33 @@ products:
       sealed:
       - count: 2
         name: Shadows over Innistrad Booster Pack
+        set: soi
+  Shadows over Innistrad Intro Packs Set of 5:
+    category: SUBSET
+    subtype: INTRO
+    release_date: '2016-03-15'
+    identifiers:
+      abuId: '1101155'
+      cardtraderId: '48411'
+      mcmId: '288898'
+      scgId: SLD-MTG-INT-SOIINTRO-EN
+      tcgplayerProductId: '112961'
+    contents:
+      sealed:
+      - count: 1
+        name: Shadows over Innistrad Intro Pack Angelic Fury
+        set: soi
+      - count: 1
+        name: Shadows over Innistrad Intro Pack Ghostly Tide
+        set: soi
+      - count: 1
+        name: Shadows over Innistrad Intro Pack Horrific Visions
+        set: soi
+      - count: 1
+        name: Shadows over Innistrad Intro Pack Unearthed Secrets
+        set: soi
+      - count: 1
+        name: Shadows over Innistrad Intro Pack Vampiric Thirst
         set: soi
   Shadows over Innistrad MTGO Redemption:
     category: BOX_SET

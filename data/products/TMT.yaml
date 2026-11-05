@@ -355,6 +355,14 @@ products:
       tcgplayerProductId: '684670'
     contents:
       copy: Teenage Mutant Ninja Turtles Tin Donatello
+  Teenage Mutant Ninja Turtles Tin Shredder:
+    category: BOX_SET
+    subtype: OTHER
+    identifiers:
+      scgId: SLD-MTG-BUN-TMTTINSHREDDER-EN
+      tcgplayerProductId: '684673'
+    contents:
+      copy: Teenage Mutant Ninja Turtles Tin Donatello
   Teenage Mutant Ninja Turtles Tins Set of 5:
     category: SUBSET
     subtype: OTHER
@@ -378,14 +386,6 @@ products:
       - count: 1
         name: Teenage Mutant Ninja Turtles Tin Shredder
         set: tmt
-  Teenage Mutant Ninja Turtles Tin Shredder:
-    category: BOX_SET
-    subtype: OTHER
-    identifiers:
-      scgId: SLD-MTG-BUN-TMTTINSHREDDER-EN
-      tcgplayerProductId: '684673'
-    contents:
-      copy: Teenage Mutant Ninja Turtles Tin Donatello
   Teenage Mutant Ninja Turtles Turtle Team-Up:
     category: MULTI_DECK
     subtype: DEFAULT

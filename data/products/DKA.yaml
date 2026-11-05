@@ -242,6 +242,27 @@ products:
       - count: 1
         name: Dark Ascension Booster Pack
         set: dka
+  Dark Ascension Intro Pack Swift Justice:
+    category: DECK
+    subtype: INTRO
+    release_date: '2012-02-03'
+    identifiers:
+      abuId: '1100379'
+      cardKingdomId: '186296'
+      cardtraderId: '47707'
+      mcmId: '252506'
+      scgId: SLD-MTG-INT-DKAINTRO-EN-SWIFT
+      tcgplayerProductId: '57625'
+      tntId: '329606'
+    contents:
+      card_count: 60
+      deck:
+      - name: Swift Justice
+        set: dka
+      sealed:
+      - count: 1
+        name: Dark Ascension Booster Pack
+        set: dka
   Dark Ascension Intro Packs Set of 5:
     category: SUBSET
     subtype: INTRO
@@ -265,27 +286,6 @@ products:
         set: dka
       - count: 1
         name: Dark Ascension Intro Pack Swift Justice
-        set: dka
-  Dark Ascension Intro Pack Swift Justice:
-    category: DECK
-    subtype: INTRO
-    release_date: '2012-02-03'
-    identifiers:
-      abuId: '1100379'
-      cardKingdomId: '186296'
-      cardtraderId: '47707'
-      mcmId: '252506'
-      scgId: SLD-MTG-INT-DKAINTRO-EN-SWIFT
-      tcgplayerProductId: '57625'
-      tntId: '329606'
-    contents:
-      card_count: 60
-      deck:
-      - name: Swift Justice
-        set: dka
-      sealed:
-      - count: 1
-        name: Dark Ascension Booster Pack
         set: dka
   Dark Ascension MTGO Redemption:
     category: BOX_SET

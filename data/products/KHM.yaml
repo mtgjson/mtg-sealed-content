@@ -254,36 +254,6 @@ products:
       pack:
       - code: set
         set: khm
-  Kaldheim Theme Booster Pack Black:
-    category: BOOSTER_PACK
-    subtype: THEME
-    release_date: '2021-02-05'
-    identifiers:
-      abuId: '1966441'
-      cardtraderId: '151504'
-      mcmId: '527290'
-      tcgplayerProductId: '229196'
-      tntId: '1685229'
-    contents:
-      card_count: 35
-      pack:
-      - code: theme-b
-        set: khm
-  Kaldheim Theme Booster Pack Blue:
-    category: BOOSTER_PACK
-    subtype: THEME
-    release_date: '2021-02-05'
-    identifiers:
-      abuId: '1966439'
-      cardtraderId: '151505'
-      mcmId: '527295'
-      tcgplayerProductId: '229195'
-      tntId: '1685228'
-    contents:
-      card_count: 35
-      pack:
-      - code: theme-u
-        set: khm
   Kaldheim Theme Booster Box:
     category: BOOSTER_BOX
     subtype: THEME
@@ -321,6 +291,36 @@ products:
       sealed:
       - count: 6
         name: Kaldheim Theme Booster Box
+        set: khm
+  Kaldheim Theme Booster Pack Black:
+    category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2021-02-05'
+    identifiers:
+      abuId: '1966441'
+      cardtraderId: '151504'
+      mcmId: '527290'
+      tcgplayerProductId: '229196'
+      tntId: '1685229'
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-b
+        set: khm
+  Kaldheim Theme Booster Pack Blue:
+    category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2021-02-05'
+    identifiers:
+      abuId: '1966439'
+      cardtraderId: '151505'
+      mcmId: '527295'
+      tcgplayerProductId: '229195'
+      tntId: '1685228'
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-u
         set: khm
   Kaldheim Theme Booster Pack Green:
     category: BOOSTER_PACK
