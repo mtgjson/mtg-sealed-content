@@ -1,6 +1,6 @@
 code: usg
 products:
-  Urzas Saga Booster Box:
+  Urza's Saga Booster Box:
     category: BOOSTER_BOX
     subtype: DRAFT
     identifiers:
@@ -16,18 +16,18 @@ products:
     contents:
       sealed:
       - count: 36
-        name: Urzas Saga Booster Pack
+        name: Urza's Saga Booster Pack
         set: usg
-  Urzas Saga Booster Box Case:
+  Urza's Saga Booster Box Case:
     category: BOOSTER_CASE
     subtype: DRAFT
     identifiers: {}
     contents:
       sealed:
       - count: 6
-        name: Urzas Saga Booster Box
+        name: Urza's Saga Booster Box
         set: usg
-  Urzas Saga Booster Pack:
+  Urza's Saga Booster Pack:
     category: BOOSTER_PACK
     subtype: DRAFT
     identifiers:
@@ -45,7 +45,7 @@ products:
       pack:
       - code: draft
         set: usg
-  Urzas Saga Theme Deck Display:
+  Urza's Saga Theme Deck Display:
     category: DECK_BOX
     subtype: THEME
     identifiers:
@@ -56,18 +56,18 @@ products:
     contents:
       sealed:
       - count: 3
-        name: Urzas Saga Theme Deck Sleeper
+        name: Urza's Saga Theme Deck Sleeper
         set: usg
       - count: 3
-        name: Urzas Saga Theme Deck Special Delivery
+        name: Urza's Saga Theme Deck Special Delivery
         set: usg
       - count: 3
-        name: Urzas Saga Theme Deck The Plague
+        name: Urza's Saga Theme Deck The Plague
         set: usg
       - count: 3
-        name: Urzas Saga Theme Deck Tombstone
+        name: Urza's Saga Theme Deck Tombstone
         set: usg
-  Urzas Saga Theme Deck Sleeper:
+  Urza's Saga Theme Deck Sleeper:
     category: DECK
     subtype: THEME
     identifiers:
@@ -84,7 +84,7 @@ products:
       deck:
       - name: Sleeper
         set: usg
-  Urzas Saga Theme Deck Special Delivery:
+  Urza's Saga Theme Deck Special Delivery:
     category: DECK
     subtype: THEME
     identifiers:
@@ -100,7 +100,7 @@ products:
       deck:
       - name: Special Delivery
         set: usg
-  Urzas Saga Theme Deck The Plague:
+  Urza's Saga Theme Deck The Plague:
     category: DECK
     subtype: THEME
     identifiers:
@@ -116,7 +116,7 @@ products:
       deck:
       - name: The Plague
         set: usg
-  Urzas Saga Theme Deck Tombstone:
+  Urza's Saga Theme Deck Tombstone:
     category: DECK
     subtype: THEME
     identifiers:
@@ -133,7 +133,7 @@ products:
       deck:
       - name: Tombstone
         set: usg
-  Urzas Saga Theme Decks Set of 4:
+  Urza's Saga Theme Decks Set of 4:
     category: SUBSET
     subtype: THEME
     identifiers:
@@ -141,18 +141,18 @@ products:
     contents:
       sealed:
       - count: 1
-        name: Urzas Saga Theme Deck Sleeper
+        name: Urza's Saga Theme Deck Sleeper
         set: usg
       - count: 1
-        name: Urzas Saga Theme Deck Special Delivery
+        name: Urza's Saga Theme Deck Special Delivery
         set: usg
       - count: 1
-        name: Urzas Saga Theme Deck The Plague
+        name: Urza's Saga Theme Deck The Plague
         set: usg
       - count: 1
-        name: Urzas Saga Theme Deck Tombstone
+        name: Urza's Saga Theme Deck Tombstone
         set: usg
-  Urzas Saga Tournament Pack:
+  Urza's Saga Tournament Pack:
     category: LIMITED
     subtype: TOURNAMENT
     identifiers:
@@ -169,7 +169,7 @@ products:
       pack:
       - code: tournament
         set: usg
-  Urzas Saga Tournament Pack Display:
+  Urza's Saga Tournament Pack Display:
     category: LIMITED_CASE
     subtype: TOURNAMENT
     identifiers:
@@ -184,5 +184,5 @@ products:
     contents:
       sealed:
       - count: 12
-        name: Urzas Saga Tournament Pack
+        name: Urza's Saga Tournament Pack
         set: usg
