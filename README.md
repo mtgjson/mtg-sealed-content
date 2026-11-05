@@ -103,11 +103,12 @@ Name a product `<Set> <Product>`, using this repository's words rather than a st
 - Keep the kind of booster the set sells it as (`Play`, `Collector`, `Jumpstart`), so `My Set Play Booster Box` for a set with Play Boosters and `My Set Booster Box` for one that sells plain boosters.
 - A case holding one of each variant is a `Set of N`, never a `Case`, even where a store calls it one.
 - A `Set of N` is plural: `My Set Commander Decks Set of 4`, `My Set Intro Packs Set of 5`. `Prerelease Kit`, `Scene Box` and `Theme Booster Pack` are the exceptions: `My Set Scene Box Set of 2`.
+- A pack of several boosters takes a hyphen: `My Set 3-Booster Draft Pack`, `My Set Jumpstart 2-Booster Pack`.
+- Keep an apostrophe where the product catalog has one: `Urza's Saga`, `The Brothers' War`, `Secret Lair Drop Witch's Familiar`. Set names are spelled as published, such as `Journey into Nyx` and `Marvel's Spider-Man`.
+- A Secret Lair drop spells its franchise as its deck does: `Secret Lair Drop Marvel's Hulk SMASH!`, `Secret Lair Drop Dungeons & Dragons Strahd's Descent`.
 - `Collector's Edition` keeps its apostrophe: `My Set Commander Deck Name Collector's Edition`. The 1993 CED and CEI boxes are named after their sets, `Collectors' Edition`.
 
 Before adding a new set, compare its names with a recent set's file in `data/products/`. Rewrite a store's title to these names when creating a product from `data/review.yaml`.
-
-A product's uuid is derived from its name, so renaming a released product gives it a new uuid.
 
 ### Seasonal WPN Promo Packs
 
