@@ -9158,6 +9158,12 @@ products:
     subtype: SECRET_LAIR
     identifiers:
       tcgplayerProductId: '716967'
+    contents:
+      card:
+      - foil: true
+        name: Command Tower
+        number: 917
+        set: sld
   Secret Lair Drop Marvel Dan Hipp:
     category: BOX_SET
     subtype: SECRET_LAIR
@@ -15156,6 +15162,13 @@ products:
     subtype: SECRET_LAIR
     identifiers:
       tcgplayerProductId: '723369'
+    contents:
+      card_count: 5
+      deck:
+      - name: Strange School Foil Edition
+        set: sld
+      other:
+      - name: Bonus card unknown
   Secret Lair Drop Tales of the Time Stoppers:
     category: BOX_SET
     subtype: SECRET_LAIR
@@ -17520,8 +17533,33 @@ products:
   Secret Lair Festival in a Box Atlanta 2026 Bundle:
     category: BOX_SET
     subtype: SECRET_LAIR_BUNDLE
+    release_date: '2026-10-19'
     identifiers:
       mcmId: '916824'
+    contents:
+      card:
+      - foil: true
+        name: Dance of the Dead
+        number: 14
+        set: pf26
+      - foil: true
+        name: Tana, the Bloodsower
+        number: 15
+        set: pf26
+      - foil: true
+        name: Tymna the Weaver
+        number: 16
+        set: pf26
+      - name: Auspicious Aquarium
+        number: 17
+        set: pf26
+      sealed:
+      - count: 1
+        name: Mystery Booster Commander Edition Booster Box
+        set: mbc
+      - count: 1
+        name: Secret Lair Drop Secret Gallery Atlanta Foil
+        set: sld
   Secret Lair Festival in a Box Barcelona 2023 Commander Fan Bundle:
     category: BOX_SET
     subtype: SECRET_LAIR_BUNDLE
