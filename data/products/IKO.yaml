@@ -243,38 +243,6 @@ products:
       pack:
       - code: promo
         set: iko
-  Ikoria Lair of Behemoths Theme Booster Pack Black:
-    category: BOOSTER_PACK
-    subtype: THEME
-    release_date: '2020-05-15'
-    identifiers:
-      abuId: '1829794'
-      cardtraderId: '107988'
-      csiId: '294226'
-      mcmId: '426966'
-      tcgplayerProductId: '208285'
-      tntId: '1654862'
-    contents:
-      card_count: 35
-      pack:
-      - code: theme-b
-        set: iko
-  Ikoria Lair of Behemoths Theme Booster Pack Blue:
-    category: BOOSTER_PACK
-    subtype: THEME
-    release_date: '2020-05-15'
-    identifiers:
-      abuId: '1829793'
-      cardtraderId: '107987'
-      csiId: '294227'
-      mcmId: '426961'
-      tcgplayerProductId: '208287'
-      tntId: '1654861'
-    contents:
-      card_count: 35
-      pack:
-      - code: theme-u
-        set: iko
   Ikoria Lair of Behemoths Theme Booster Box:
     category: BOOSTER_BOX
     subtype: THEME
@@ -312,6 +280,38 @@ products:
       sealed:
       - count: 6
         name: Ikoria Lair of Behemoths Theme Booster Box
+        set: iko
+  Ikoria Lair of Behemoths Theme Booster Pack Black:
+    category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2020-05-15'
+    identifiers:
+      abuId: '1829794'
+      cardtraderId: '107988'
+      csiId: '294226'
+      mcmId: '426966'
+      tcgplayerProductId: '208285'
+      tntId: '1654862'
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-b
+        set: iko
+  Ikoria Lair of Behemoths Theme Booster Pack Blue:
+    category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2020-05-15'
+    identifiers:
+      abuId: '1829793'
+      cardtraderId: '107987'
+      csiId: '294227'
+      mcmId: '426961'
+      tcgplayerProductId: '208287'
+      tntId: '1654861'
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-u
         set: iko
   Ikoria Lair of Behemoths Theme Booster Pack Green:
     category: BOOSTER_PACK

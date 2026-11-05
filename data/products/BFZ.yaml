@@ -247,31 +247,6 @@ products:
       - count: 2
         name: Battle for Zendikar Booster Pack
         set: bfz
-  Battle for Zendikar Intro Packs Set of 5:
-    category: SUBSET
-    subtype: INTRO
-    identifiers:
-      cardtraderId: '48354'
-      mcmId: '284351'
-      scgId: SLD-MTG-INT-BFZINTRO-EN-SET5
-      tcgplayerProductId: '102718'
-    contents:
-      sealed:
-      - count: 1
-        name: Battle for Zendikar Intro Pack Call of Blood
-        set: bfz
-      - count: 1
-        name: Battle for Zendikar Intro Pack Eldrazi Assault
-        set: bfz
-      - count: 1
-        name: Battle for Zendikar Intro Pack Rallying Cry
-        set: bfz
-      - count: 1
-        name: Battle for Zendikar Intro Pack Swarming Instinct
-        set: bfz
-      - count: 1
-        name: Battle for Zendikar Intro Pack Zendikars Rage
-        set: bfz
   Battle for Zendikar Intro Pack Swarming Instinct:
     category: DECK
     subtype: INTRO
@@ -309,6 +284,31 @@ products:
       sealed:
       - count: 2
         name: Battle for Zendikar Booster Pack
+        set: bfz
+  Battle for Zendikar Intro Packs Set of 5:
+    category: SUBSET
+    subtype: INTRO
+    identifiers:
+      cardtraderId: '48354'
+      mcmId: '284351'
+      scgId: SLD-MTG-INT-BFZINTRO-EN-SET5
+      tcgplayerProductId: '102718'
+    contents:
+      sealed:
+      - count: 1
+        name: Battle for Zendikar Intro Pack Call of Blood
+        set: bfz
+      - count: 1
+        name: Battle for Zendikar Intro Pack Eldrazi Assault
+        set: bfz
+      - count: 1
+        name: Battle for Zendikar Intro Pack Rallying Cry
+        set: bfz
+      - count: 1
+        name: Battle for Zendikar Intro Pack Swarming Instinct
+        set: bfz
+      - count: 1
+        name: Battle for Zendikar Intro Pack Zendikars Rage
         set: bfz
   Battle for Zendikar MTGO Redemption:
     category: BOX_SET

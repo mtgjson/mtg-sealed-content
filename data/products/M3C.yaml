@@ -266,6 +266,30 @@ products:
       - count: 1
         name: Modern Horizons 3 Collector Booster Sample Pack
         set: mh3
+  Modern Horizons 3 Commander Decks Collector's Edition Set of 4:
+    category: SUBSET
+    subtype: COMMANDER
+    release_date: '2024-06-14'
+    identifiers:
+      cardKingdomId: '295763'
+      cardtraderId: '280723'
+      csiId: '383226'
+      mcmId: '759887'
+      scgId: SLD-MTG-MLT-M3CCOLLECTOR-EN-SET4
+    contents:
+      sealed:
+      - count: 1
+        name: Modern Horizons 3 Commander Deck Creative Energy Collector's Edition
+        set: m3c
+      - count: 1
+        name: Modern Horizons 3 Commander Deck Eldrazi Incursion Collector's Edition
+        set: m3c
+      - count: 1
+        name: Modern Horizons 3 Commander Deck Graveyard Overdrive Collector's Edition
+        set: m3c
+      - count: 1
+        name: Modern Horizons 3 Commander Deck Tricky Terrain Collector's Edition
+        set: m3c
   Modern Horizons 3 Commander Decks Set of 4:
     category: SUBSET
     subtype: COMMANDER
@@ -290,28 +314,4 @@ products:
         set: m3c
       - count: 1
         name: Modern Horizons 3 Commander Deck Tricky Terrain
-        set: m3c
-  Modern Horizons 3 Commander Decks Collector's Edition Set of 4:
-    category: SUBSET
-    subtype: COMMANDER
-    release_date: '2024-06-14'
-    identifiers:
-      cardKingdomId: '295763'
-      cardtraderId: '280723'
-      csiId: '383226'
-      mcmId: '759887'
-      scgId: SLD-MTG-MLT-M3CCOLLECTOR-EN-SET4
-    contents:
-      sealed:
-      - count: 1
-        name: Modern Horizons 3 Commander Deck Creative Energy Collector's Edition
-        set: m3c
-      - count: 1
-        name: Modern Horizons 3 Commander Deck Eldrazi Incursion Collector's Edition
-        set: m3c
-      - count: 1
-        name: Modern Horizons 3 Commander Deck Graveyard Overdrive Collector's Edition
-        set: m3c
-      - count: 1
-        name: Modern Horizons 3 Commander Deck Tricky Terrain Collector's Edition
         set: m3c

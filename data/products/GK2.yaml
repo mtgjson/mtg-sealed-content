@@ -92,6 +92,29 @@ products:
       - name: Official Rakdos Guild Pin
       - name: Rakdos Symbol Sticker
       - name: Insert With Mission Instructions
+  Ravnica Allegiance Guild Kit Simic:
+    category: KIT
+    subtype: GUILD_KIT
+    release_date: '2019-02-15'
+    identifiers:
+      abuId: '1560917'
+      cardKingdomId: '223299'
+      cardtraderId: '51256'
+      csiId: '272402'
+      mcmId: '368729'
+      scgId: SLD-MTG-BXS-GK2-EN-SIMIC
+      tcgplayerProductId: '183520'
+      tntId: '1419632'
+    contents:
+      card_count: 60
+      deck:
+      - name: Simic
+        set: gk2
+      other:
+      - name: Guild Kit Spindown
+      - name: Official Simic Guild Pin
+      - name: Simic Symbol Sticker
+      - name: Insert With Mission Instructions
   Ravnica Allegiance Guild Kits Set of 5:
     category: SUBSET
     subtype: GUILD_KIT
@@ -122,26 +145,3 @@ products:
       - count: 1
         name: Ravnica Allegiance Guild Kit Simic
         set: gk2
-  Ravnica Allegiance Guild Kit Simic:
-    category: KIT
-    subtype: GUILD_KIT
-    release_date: '2019-02-15'
-    identifiers:
-      abuId: '1560917'
-      cardKingdomId: '223299'
-      cardtraderId: '51256'
-      csiId: '272402'
-      mcmId: '368729'
-      scgId: SLD-MTG-BXS-GK2-EN-SIMIC
-      tcgplayerProductId: '183520'
-      tntId: '1419632'
-    contents:
-      card_count: 60
-      deck:
-      - name: Simic
-        set: gk2
-      other:
-      - name: Guild Kit Spindown
-      - name: Official Simic Guild Pin
-      - name: Simic Symbol Sticker
-      - name: Insert With Mission Instructions

@@ -387,36 +387,6 @@ products:
       pack:
       - code: set
         set: afr
-  Adventures in the Forgotten Realms Theme Booster Pack Black:
-    category: BOOSTER_PACK
-    subtype: THEME
-    release_date: '2021-07-23'
-    identifiers:
-      abuId: '2056695'
-      cardtraderId: '160981'
-      mcmId: '572031'
-      tcgplayerProductId: '238825'
-      tntId: '1718620'
-    contents:
-      card_count: 35
-      pack:
-      - code: theme-b
-        set: afr
-  Adventures in the Forgotten Realms Theme Booster Pack Blue:
-    category: BOOSTER_PACK
-    subtype: THEME
-    release_date: '2021-07-23'
-    identifiers:
-      abuId: '2056694'
-      cardtraderId: '160977'
-      mcmId: '572028'
-      tcgplayerProductId: '238822'
-      tntId: '1718619'
-    contents:
-      card_count: 35
-      pack:
-      - code: theme-u
-        set: afr
   Adventures in the Forgotten Realms Theme Booster Box:
     category: BOOSTER_BOX
     subtype: THEME
@@ -456,6 +426,36 @@ products:
       sealed:
       - count: 6
         name: Adventures in the Forgotten Realms Theme Booster Box
+        set: afr
+  Adventures in the Forgotten Realms Theme Booster Pack Black:
+    category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2021-07-23'
+    identifiers:
+      abuId: '2056695'
+      cardtraderId: '160981'
+      mcmId: '572031'
+      tcgplayerProductId: '238825'
+      tntId: '1718620'
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-b
+        set: afr
+  Adventures in the Forgotten Realms Theme Booster Pack Blue:
+    category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2021-07-23'
+    identifiers:
+      abuId: '2056694'
+      cardtraderId: '160977'
+      mcmId: '572028'
+      tcgplayerProductId: '238822'
+      tntId: '1718619'
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-u
         set: afr
   Adventures in the Forgotten Realms Theme Booster Pack Dungeon Theme:
     category: BOOSTER_PACK

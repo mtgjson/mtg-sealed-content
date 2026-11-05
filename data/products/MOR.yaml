@@ -150,25 +150,6 @@ products:
         set: mor
       other:
       - name: One random Pro Tour Player Card
-  Morningtide Theme Decks Set of 4:
-    category: SUBSET
-    subtype: THEME
-    identifiers:
-      abuId: '1100905'
-    contents:
-      sealed:
-      - count: 1
-        name: Morningtide Theme Deck Battalion
-        set: mor
-      - count: 1
-        name: Morningtide Theme Deck Going Rogue
-        set: mor
-      - count: 1
-        name: Morningtide Theme Deck Shamanism
-        set: mor
-      - count: 1
-        name: Morningtide Theme Deck Warriors Code
-        set: mor
   Morningtide Theme Deck Shamanism:
     category: DECK
     subtype: THEME
@@ -205,3 +186,22 @@ products:
         set: mor
       other:
       - name: One random Pro Tour Player Card
+  Morningtide Theme Decks Set of 4:
+    category: SUBSET
+    subtype: THEME
+    identifiers:
+      abuId: '1100905'
+    contents:
+      sealed:
+      - count: 1
+        name: Morningtide Theme Deck Battalion
+        set: mor
+      - count: 1
+        name: Morningtide Theme Deck Going Rogue
+        set: mor
+      - count: 1
+        name: Morningtide Theme Deck Shamanism
+        set: mor
+      - count: 1
+        name: Morningtide Theme Deck Warriors Code
+        set: mor

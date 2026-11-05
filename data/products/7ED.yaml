@@ -179,6 +179,23 @@ products:
       deck:
       - name: Infestation
         set: 7ed
+  Seventh Edition Theme Deck Way Wild:
+    category: DECK
+    subtype: THEME
+    identifiers:
+      abuId: '1100070'
+      cardKingdomId: '1307'
+      cardtraderId: '45963'
+      csiId: '279810'
+      hareruyaId: '28289'
+      mcmId: '253740'
+      tcgplayerProductId: '96324'
+      tntId: '91208'
+    contents:
+      card_count: 40
+      deck:
+      - name: Way Wild
+        set: 7ed
   Seventh Edition Theme Decks Set of 5:
     category: SUBSET
     subtype: THEME
@@ -200,23 +217,6 @@ products:
         set: 7ed
       - count: 1
         name: Seventh Edition Theme Deck Way Wild
-        set: 7ed
-  Seventh Edition Theme Deck Way Wild:
-    category: DECK
-    subtype: THEME
-    identifiers:
-      abuId: '1100070'
-      cardKingdomId: '1307'
-      cardtraderId: '45963'
-      csiId: '279810'
-      hareruyaId: '28289'
-      mcmId: '253740'
-      tcgplayerProductId: '96324'
-      tntId: '91208'
-    contents:
-      card_count: 40
-      deck:
-      - name: Way Wild
         set: 7ed
   Seventh Edition Two Player Starter:
     category: MULTI_DECK

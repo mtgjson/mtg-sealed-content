@@ -233,28 +233,6 @@ products:
       - count: 5
         name: Strixhaven School of Mages Draft Booster Pack
         set: stx
-  Strixhaven School of Mages Prerelease Packs Set of 5:
-    category: SUBSET
-    subtype: PRERELEASE
-    identifiers:
-      tcgplayerProductId: '233312'
-    contents:
-      sealed:
-      - count: 1
-        name: Strixhaven School of Mages Prerelease Pack Lorehold
-        set: stx
-      - count: 1
-        name: Strixhaven School of Mages Prerelease Pack Prismari
-        set: stx
-      - count: 1
-        name: Strixhaven School of Mages Prerelease Pack Quandrix
-        set: stx
-      - count: 1
-        name: Strixhaven School of Mages Prerelease Pack Silverquill
-        set: stx
-      - count: 1
-        name: Strixhaven School of Mages Prerelease Pack Witherbloom
-        set: stx
   Strixhaven School of Mages Prerelease Pack Silverquill:
     category: LIMITED
     subtype: PRERELEASE
@@ -298,6 +276,28 @@ products:
       sealed:
       - count: 5
         name: Strixhaven School of Mages Draft Booster Pack
+        set: stx
+  Strixhaven School of Mages Prerelease Packs Set of 5:
+    category: SUBSET
+    subtype: PRERELEASE
+    identifiers:
+      tcgplayerProductId: '233312'
+    contents:
+      sealed:
+      - count: 1
+        name: Strixhaven School of Mages Prerelease Pack Lorehold
+        set: stx
+      - count: 1
+        name: Strixhaven School of Mages Prerelease Pack Prismari
+        set: stx
+      - count: 1
+        name: Strixhaven School of Mages Prerelease Pack Quandrix
+        set: stx
+      - count: 1
+        name: Strixhaven School of Mages Prerelease Pack Silverquill
+        set: stx
+      - count: 1
+        name: Strixhaven School of Mages Prerelease Pack Witherbloom
         set: stx
   Strixhaven School of Mages Promo Pack:
     category: BOOSTER_PACK
@@ -440,6 +440,29 @@ products:
       pack:
       - code: theme-quandrix
         set: stx
+  Strixhaven School of Mages Theme Booster Pack Set of 5:
+    category: SUBSET
+    subtype: THEME
+    release_date: '2021-04-23'
+    identifiers:
+      tcgplayerProductId: '233261'
+    contents:
+      sealed:
+      - count: 1
+        name: Strixhaven School of Mages Theme Booster Pack Lorehold
+        set: stx
+      - count: 1
+        name: Strixhaven School of Mages Theme Booster Pack Prismari
+        set: stx
+      - count: 1
+        name: Strixhaven School of Mages Theme Booster Pack Quandrix
+        set: stx
+      - count: 1
+        name: Strixhaven School of Mages Theme Booster Pack Silverquill
+        set: stx
+      - count: 1
+        name: Strixhaven School of Mages Theme Booster Pack Witherbloom
+        set: stx
   Strixhaven School of Mages Theme Booster Pack Silverquill:
     category: BOOSTER_PACK
     subtype: THEME
@@ -469,27 +492,4 @@ products:
       card_count: 35
       pack:
       - code: theme-witherbloom
-        set: stx
-  Strixhaven School of Mages Theme Booster Pack Set of 5:
-    category: SUBSET
-    subtype: THEME
-    release_date: '2021-04-23'
-    identifiers:
-      tcgplayerProductId: '233261'
-    contents:
-      sealed:
-      - count: 1
-        name: Strixhaven School of Mages Theme Booster Pack Lorehold
-        set: stx
-      - count: 1
-        name: Strixhaven School of Mages Theme Booster Pack Prismari
-        set: stx
-      - count: 1
-        name: Strixhaven School of Mages Theme Booster Pack Quandrix
-        set: stx
-      - count: 1
-        name: Strixhaven School of Mages Theme Booster Pack Silverquill
-        set: stx
-      - count: 1
-        name: Strixhaven School of Mages Theme Booster Pack Witherbloom
         set: stx

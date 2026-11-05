@@ -308,36 +308,6 @@ products:
       pack:
       - code: set
         set: znr
-  Zendikar Rising Theme Booster Pack Black:
-    category: BOOSTER_PACK
-    subtype: THEME
-    release_date: '2020-09-25'
-    identifiers:
-      abuId: '1899674'
-      cardtraderId: '145656'
-      mcmId: '487004'
-      tcgplayerProductId: '220415'
-      tntId: '1672308'
-    contents:
-      card_count: 35
-      pack:
-      - code: theme-b
-        set: znr
-  Zendikar Rising Theme Booster Pack Blue:
-    category: BOOSTER_PACK
-    subtype: THEME
-    release_date: '2020-09-25'
-    identifiers:
-      abuId: '1899675'
-      cardtraderId: '145657'
-      mcmId: '486999'
-      tcgplayerProductId: '220416'
-      tntId: '1672307'
-    contents:
-      card_count: 35
-      pack:
-      - code: theme-u
-        set: znr
   Zendikar Rising Theme Booster Box:
     category: BOOSTER_BOX
     subtype: THEME
@@ -376,6 +346,36 @@ products:
       sealed:
       - count: 6
         name: Zendikar Rising Theme Booster Box
+        set: znr
+  Zendikar Rising Theme Booster Pack Black:
+    category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2020-09-25'
+    identifiers:
+      abuId: '1899674'
+      cardtraderId: '145656'
+      mcmId: '487004'
+      tcgplayerProductId: '220415'
+      tntId: '1672308'
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-b
+        set: znr
+  Zendikar Rising Theme Booster Pack Blue:
+    category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2020-09-25'
+    identifiers:
+      abuId: '1899675'
+      cardtraderId: '145657'
+      mcmId: '486999'
+      tcgplayerProductId: '220416'
+      tntId: '1672307'
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-u
         set: znr
   Zendikar Rising Theme Booster Pack Green:
     category: BOOSTER_PACK

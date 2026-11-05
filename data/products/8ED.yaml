@@ -192,28 +192,6 @@ products:
       deck:
       - name: Life Boost
         set: 8ed
-  Eighth Edition Theme Decks Set of 5:
-    category: SUBSET
-    subtype: THEME
-    identifiers:
-      abuId: '1100072'
-    contents:
-      sealed:
-      - count: 1
-        name: Eighth Edition Theme Deck Expulsion
-        set: 8ed
-      - count: 1
-        name: Eighth Edition Theme Deck Heavy Hitters
-        set: 8ed
-      - count: 1
-        name: Eighth Edition Theme Deck Life Boost
-        set: 8ed
-      - count: 1
-        name: Eighth Edition Theme Deck Sky Slam
-        set: 8ed
-      - count: 1
-        name: Eighth Edition Theme Deck Speed Scorch
-        set: 8ed
   Eighth Edition Theme Deck Sky Slam:
     category: DECK
     subtype: THEME
@@ -245,6 +223,28 @@ products:
       card_count: 40
       deck:
       - name: Speed Scorch
+        set: 8ed
+  Eighth Edition Theme Decks Set of 5:
+    category: SUBSET
+    subtype: THEME
+    identifiers:
+      abuId: '1100072'
+    contents:
+      sealed:
+      - count: 1
+        name: Eighth Edition Theme Deck Expulsion
+        set: 8ed
+      - count: 1
+        name: Eighth Edition Theme Deck Heavy Hitters
+        set: 8ed
+      - count: 1
+        name: Eighth Edition Theme Deck Life Boost
+        set: 8ed
+      - count: 1
+        name: Eighth Edition Theme Deck Sky Slam
+        set: 8ed
+      - count: 1
+        name: Eighth Edition Theme Deck Speed Scorch
         set: 8ed
   Eighth Edition Two Player Starter:
     category: MULTI_DECK

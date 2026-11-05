@@ -207,31 +207,6 @@ products:
       - count: 2
         name: Journey Into Nyx Booster Pack
         set: jou
-  Journey Into Nyx Intro Packs Set of 5:
-    category: SUBSET
-    subtype: INTRO
-    identifiers:
-      abuId: '1100658'
-      cardtraderId: '48117'
-      mcmId: '266593'
-      tcgplayerProductId: '80842'
-    contents:
-      sealed:
-      - count: 1
-        name: Journey Into Nyx Intro Pack Fates Foreseen
-        set: jou
-      - count: 1
-        name: Journey Into Nyx Intro Pack Mortals of Myth
-        set: jou
-      - count: 1
-        name: Journey Into Nyx Intro Pack Pantheons Power
-        set: jou
-      - count: 1
-        name: Journey Into Nyx Intro Pack The Wilds and the Deep
-        set: jou
-      - count: 1
-        name: Journey Into Nyx Intro Pack Voracious Rage
-        set: jou
   Journey Into Nyx Intro Pack The Wilds and the Deep:
     category: DECK
     subtype: INTRO
@@ -273,6 +248,31 @@ products:
       sealed:
       - count: 2
         name: Journey Into Nyx Booster Pack
+        set: jou
+  Journey Into Nyx Intro Packs Set of 5:
+    category: SUBSET
+    subtype: INTRO
+    identifiers:
+      abuId: '1100658'
+      cardtraderId: '48117'
+      mcmId: '266593'
+      tcgplayerProductId: '80842'
+    contents:
+      sealed:
+      - count: 1
+        name: Journey Into Nyx Intro Pack Fates Foreseen
+        set: jou
+      - count: 1
+        name: Journey Into Nyx Intro Pack Mortals of Myth
+        set: jou
+      - count: 1
+        name: Journey Into Nyx Intro Pack Pantheons Power
+        set: jou
+      - count: 1
+        name: Journey Into Nyx Intro Pack The Wilds and the Deep
+        set: jou
+      - count: 1
+        name: Journey Into Nyx Intro Pack Voracious Rage
         set: jou
   Journey Into Nyx Prerelease Forged in Glory:
     category: LIMITED

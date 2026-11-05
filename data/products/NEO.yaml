@@ -268,36 +268,6 @@ products:
       pack:
       - code: set
         set: neo
-  Kamigawa Neon Dynasty Theme Booster Pack Black:
-    category: BOOSTER_PACK
-    subtype: THEME
-    release_date: '2022-02-18'
-    identifiers:
-      abuId: '2122852'
-      cardtraderId: '202602'
-      mcmId: '587691'
-      tcgplayerProductId: '257569'
-      tntId: '1740834'
-    contents:
-      card_count: 35
-      pack:
-      - code: theme-b
-        set: neo
-  Kamigawa Neon Dynasty Theme Booster Pack Blue:
-    category: BOOSTER_PACK
-    subtype: THEME
-    release_date: '2022-02-18'
-    identifiers:
-      abuId: '2122851'
-      cardtraderId: '202600'
-      mcmId: '587692'
-      tcgplayerProductId: '257571'
-      tntId: '1740835'
-    contents:
-      card_count: 35
-      pack:
-      - code: theme-u
-        set: neo
   Kamigawa Neon Dynasty Theme Booster Box:
     category: BOOSTER_BOX
     subtype: THEME
@@ -336,6 +306,36 @@ products:
       sealed:
       - count: 6
         name: Kamigawa Neon Dynasty Theme Booster Box
+        set: neo
+  Kamigawa Neon Dynasty Theme Booster Pack Black:
+    category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2022-02-18'
+    identifiers:
+      abuId: '2122852'
+      cardtraderId: '202602'
+      mcmId: '587691'
+      tcgplayerProductId: '257569'
+      tntId: '1740834'
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-b
+        set: neo
+  Kamigawa Neon Dynasty Theme Booster Pack Blue:
+    category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2022-02-18'
+    identifiers:
+      abuId: '2122851'
+      cardtraderId: '202600'
+      mcmId: '587692'
+      tcgplayerProductId: '257571'
+      tntId: '1740835'
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-u
         set: neo
   Kamigawa Neon Dynasty Theme Booster Pack Green:
     category: BOOSTER_PACK

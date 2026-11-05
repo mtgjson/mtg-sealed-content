@@ -308,38 +308,6 @@ products:
       pack:
       - code: set
         set: vow
-  Innistrad Crimson Vow Theme Booster Pack Black:
-    category: BOOSTER_PACK
-    subtype: THEME
-    release_date: '2021-11-19'
-    identifiers:
-      abuId: '2111066'
-      cardKingdomId: '252194'
-      cardtraderId: '172271'
-      mcmId: '581623'
-      tcgplayerProductId: '253823'
-      tntId: '1734493'
-    contents:
-      card_count: 35
-      pack:
-      - code: theme-b
-        set: vow
-  Innistrad Crimson Vow Theme Booster Pack Blue:
-    category: BOOSTER_PACK
-    subtype: THEME
-    release_date: '2021-11-19'
-    identifiers:
-      abuId: '2111065'
-      cardKingdomId: '252195'
-      cardtraderId: '172275'
-      mcmId: '581620'
-      tcgplayerProductId: '253824'
-      tntId: '1734496'
-    contents:
-      card_count: 35
-      pack:
-      - code: theme-u
-        set: vow
   Innistrad Crimson Vow Theme Booster Box:
     category: BOOSTER_BOX
     subtype: THEME
@@ -378,6 +346,38 @@ products:
       sealed:
       - count: 6
         name: Innistrad Crimson Vow Theme Booster Box
+        set: vow
+  Innistrad Crimson Vow Theme Booster Pack Black:
+    category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2021-11-19'
+    identifiers:
+      abuId: '2111066'
+      cardKingdomId: '252194'
+      cardtraderId: '172271'
+      mcmId: '581623'
+      tcgplayerProductId: '253823'
+      tntId: '1734493'
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-b
+        set: vow
+  Innistrad Crimson Vow Theme Booster Pack Blue:
+    category: BOOSTER_PACK
+    subtype: THEME
+    release_date: '2021-11-19'
+    identifiers:
+      abuId: '2111065'
+      cardKingdomId: '252195'
+      cardtraderId: '172275'
+      mcmId: '581620'
+      tcgplayerProductId: '253824'
+      tntId: '1734496'
+    contents:
+      card_count: 35
+      pack:
+      - code: theme-u
         set: vow
   Innistrad Crimson Vow Theme Booster Pack Green:
     category: BOOSTER_PACK

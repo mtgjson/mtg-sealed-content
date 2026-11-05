@@ -258,6 +258,22 @@ products:
       deck:
       - name: Lofty Heights
         set: 9ed
+  Ninth Edition Theme Deck World Aflame:
+    category: DECK
+    subtype: THEME
+    identifiers:
+      abuId: '1100089'
+      cardKingdomId: '117672'
+      cardtraderId: '46947'
+      hareruyaId: '28300'
+      mcmId: '253683'
+      tcgplayerProductId: '96334'
+      tntId: '123095'
+    contents:
+      card_count: 40
+      deck:
+      - name: World Aflame
+        set: 9ed
   Ninth Edition Theme Decks Set of 5:
     category: SUBSET
     subtype: THEME
@@ -279,22 +295,6 @@ products:
         set: 9ed
       - count: 1
         name: Ninth Edition Theme Deck World Aflame
-        set: 9ed
-  Ninth Edition Theme Deck World Aflame:
-    category: DECK
-    subtype: THEME
-    identifiers:
-      abuId: '1100089'
-      cardKingdomId: '117672'
-      cardtraderId: '46947'
-      hareruyaId: '28300'
-      mcmId: '253683'
-      tcgplayerProductId: '96334'
-      tntId: '123095'
-    contents:
-      card_count: 40
-      deck:
-      - name: World Aflame
         set: 9ed
   Ninth Edition Two Player Starter Display:
     category: DECK_BOX

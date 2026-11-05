@@ -165,6 +165,22 @@ products:
       deck:
       - name: Heavy Duty
         set: inv
+  Invasion Theme Deck Spectrum:
+    category: DECK
+    subtype: THEME
+    identifiers:
+      abuId: '1100616'
+      cardKingdomId: '1287'
+      cardtraderId: '45742'
+      hareruyaId: '28166'
+      mcmId: '253748'
+      tcgplayerProductId: '93343'
+      tntId: '106952'
+    contents:
+      card_count: 60
+      deck:
+      - name: Spectrum
+        set: inv
   Invasion Theme Decks Set of 4:
     category: SUBSET
     subtype: THEME
@@ -183,22 +199,6 @@ products:
         set: inv
       - count: 1
         name: Invasion Theme Deck Spectrum
-        set: inv
-  Invasion Theme Deck Spectrum:
-    category: DECK
-    subtype: THEME
-    identifiers:
-      abuId: '1100616'
-      cardKingdomId: '1287'
-      cardtraderId: '45742'
-      hareruyaId: '28166'
-      mcmId: '253748'
-      tcgplayerProductId: '93343'
-      tntId: '106952'
-    contents:
-      card_count: 60
-      deck:
-      - name: Spectrum
         set: inv
   Invasion Tournament Pack:
     category: LIMITED

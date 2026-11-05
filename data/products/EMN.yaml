@@ -120,33 +120,6 @@ products:
       - count: 2
         name: Eldritch Moon Intro Pack Weapons and Wards
         set: emn
-  Eldritch Moon Intro Packs Set of 5:
-    category: SUBSET
-    subtype: INTRO
-    release_date: '2016-06-29'
-    identifiers:
-      cardtraderId: '48440'
-      mcmId: '290950'
-      scgId: SLD-MTG-INT-EMNINTRO-EN-SET5
-      tcgplayerProductId: '118400'
-      tntId: '1098349'
-    contents:
-      sealed:
-      - count: 1
-        name: Eldritch Moon Intro Pack Dangerous Knowledge
-        set: emn
-      - count: 1
-        name: Eldritch Moon Intro Pack Shallow Graves
-        set: emn
-      - count: 1
-        name: Eldritch Moon Intro Pack Unlikely Alliances
-        set: emn
-      - count: 1
-        name: Eldritch Moon Intro Pack Untamed Wild
-        set: emn
-      - count: 1
-        name: Eldritch Moon Intro Pack Weapons and Wards
-        set: emn
   Eldritch Moon Intro Pack Shallow Graves:
     category: DECK
     subtype: INTRO
@@ -226,6 +199,33 @@ products:
       sealed:
       - count: 2
         name: Eldritch Moon Booster Pack
+        set: emn
+  Eldritch Moon Intro Packs Set of 5:
+    category: SUBSET
+    subtype: INTRO
+    release_date: '2016-06-29'
+    identifiers:
+      cardtraderId: '48440'
+      mcmId: '290950'
+      scgId: SLD-MTG-INT-EMNINTRO-EN-SET5
+      tcgplayerProductId: '118400'
+      tntId: '1098349'
+    contents:
+      sealed:
+      - count: 1
+        name: Eldritch Moon Intro Pack Dangerous Knowledge
+        set: emn
+      - count: 1
+        name: Eldritch Moon Intro Pack Shallow Graves
+        set: emn
+      - count: 1
+        name: Eldritch Moon Intro Pack Unlikely Alliances
+        set: emn
+      - count: 1
+        name: Eldritch Moon Intro Pack Untamed Wild
+        set: emn
+      - count: 1
+        name: Eldritch Moon Intro Pack Weapons and Wards
         set: emn
   Eldritch Moon MTGO Redemption:
     category: BOX_SET

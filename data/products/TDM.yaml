@@ -300,6 +300,28 @@ products:
       - count: 1
         name: Tarkir Dragonstorm Prerelease Booster Mardu
         set: tdm
+  Tarkir Dragonstorm Prerelease Kit Set of 5:
+    category: SUBSET
+    subtype: PRERELEASE
+    identifiers:
+      tcgplayerProductId: '620244'
+    contents:
+      sealed:
+      - count: 1
+        name: Tarkir Dragonstorm Prerelease Kit Abzan
+        set: tdm
+      - count: 1
+        name: Tarkir Dragonstorm Prerelease Kit Jeskai
+        set: tdm
+      - count: 1
+        name: Tarkir Dragonstorm Prerelease Kit Mardu
+        set: tdm
+      - count: 1
+        name: Tarkir Dragonstorm Prerelease Kit Sultai
+        set: tdm
+      - count: 1
+        name: Tarkir Dragonstorm Prerelease Kit Temur
+        set: tdm
   Tarkir Dragonstorm Prerelease Kit Sultai:
     category: LIMITED
     subtype: PRERELEASE
@@ -349,28 +371,6 @@ products:
         set: tdm
       - count: 1
         name: Tarkir Dragonstorm Prerelease Booster Temur
-        set: tdm
-  Tarkir Dragonstorm Prerelease Kit Set of 5:
-    category: SUBSET
-    subtype: PRERELEASE
-    identifiers:
-      tcgplayerProductId: '620244'
-    contents:
-      sealed:
-      - count: 1
-        name: Tarkir Dragonstorm Prerelease Kit Abzan
-        set: tdm
-      - count: 1
-        name: Tarkir Dragonstorm Prerelease Kit Jeskai
-        set: tdm
-      - count: 1
-        name: Tarkir Dragonstorm Prerelease Kit Mardu
-        set: tdm
-      - count: 1
-        name: Tarkir Dragonstorm Prerelease Kit Sultai
-        set: tdm
-      - count: 1
-        name: Tarkir Dragonstorm Prerelease Kit Temur
         set: tdm
   Tarkir Dragonstorm Promo Pack:
     category: BOOSTER_PACK

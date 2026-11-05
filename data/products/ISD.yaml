@@ -233,6 +233,26 @@ products:
       - count: 1
         name: Innistrad Booster Pack
         set: isd
+  Innistrad Intro Pack Spectral Legions:
+    category: DECK
+    subtype: INTRO
+    identifiers:
+      abuId: '1100605'
+      cardKingdomId: '185711'
+      cardtraderId: '47680'
+      mcmId: '250771'
+      scgId: SLD-MTG-INT-ISDINTRO-EN-SPECTRAL
+      tcgplayerProductId: '56210'
+      tntId: '321614'
+    contents:
+      card_count: 60
+      deck:
+      - name: Spectral Legions
+        set: isd
+      sealed:
+      - count: 1
+        name: Innistrad Booster Pack
+        set: isd
   Innistrad Intro Packs Set of 5:
     category: SUBSET
     subtype: INTRO
@@ -256,26 +276,6 @@ products:
         set: isd
       - count: 1
         name: Innistrad Intro Pack Spectral Legions
-        set: isd
-  Innistrad Intro Pack Spectral Legions:
-    category: DECK
-    subtype: INTRO
-    identifiers:
-      abuId: '1100605'
-      cardKingdomId: '185711'
-      cardtraderId: '47680'
-      mcmId: '250771'
-      scgId: SLD-MTG-INT-ISDINTRO-EN-SPECTRAL
-      tcgplayerProductId: '56210'
-      tntId: '321614'
-    contents:
-      card_count: 60
-      deck:
-      - name: Spectral Legions
-        set: isd
-      sealed:
-      - count: 1
-        name: Innistrad Booster Pack
         set: isd
   Innistrad MTGO Redemption:
     category: BOX_SET
