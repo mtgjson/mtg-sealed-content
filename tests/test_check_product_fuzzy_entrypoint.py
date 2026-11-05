@@ -61,3 +61,30 @@ with patch('requests.sessions.Session.request', side_effect=AssertionError('netw
             self.assertEqual(yaml.safe_load(path.read_text())['products'][name]['identifiers'], {'vendorId': '123'})
             self.assertEqual(yaml.safe_load(review.read_text()), {'vendor': {}})
 
+
+
+    def test_non_foil_does_not_name_a_finish(self):
+        from scripts.check_product_fuzzy import names_a_finish
+        for name in ('Secret Lair Drop X', 'Secret Lair Drop X Non Foil', 'Secret Lair Drop X Non-Foil'):
+            self.assertFalse(names_a_finish(name), name)
+        for name in ('Secret Lair Drop X Foil', 'Secret Lair Drop X Rainbow Foil', 'Secret Lair Drop X Etched'):
+            self.assertTrue(names_a_finish(name), name)
+
+
+    def test_auto_keeps_a_foil_id_off_its_undefined_sibling(self):
+        with tempfile.TemporaryDirectory() as directory:
+            base = Path(directory)
+            (base / 'data/products').mkdir(parents=True)
+            name = 'Secret Lair Drop The Unfathomable Crushing Brutality of Basic Lands'
+            path = base / 'data/products/TST.yaml'
+            path.write_text(yaml.safe_dump({'code': 'tst', 'products': {
+                name: {'category': 'BOX_SET', 'subtype': 'SECRET_LAIR', 'identifiers': {}},
+            }}))
+            review = base / 'data/review.yaml'
+            queue = {'vendor': {f'{name} Foil': {'identifiers': {'vendorId': '123'}}}}
+            review.write_text(yaml.safe_dump(queue))
+            result = self.run_python(
+                [str(ROOT / 'scripts/check_product_fuzzy.py'), '--auto', '--auto-margin', '3'], directory)
+            self.assertEqual(result.returncode, 0, result.stderr)
+            self.assertEqual(yaml.safe_load(path.read_text())['products'][name]['identifiers'], {})
+            self.assertEqual(yaml.safe_load(review.read_text()), queue)
