@@ -38,7 +38,7 @@ def normalize_cardkingdom_name(name):
     """Rewrite a Card Kingdom sealed title into the naming used in
     data/products, so it matches (or creates) the right product as is:
     "Secret Lair Drop - Secret Lair x The Hobbit: Smaug's Spoils - Non-Foil"
-    becomes "Secret Lair Drop The Hobbit Smaugs Spoils"."""
+    becomes "Secret Lair Drop The Hobbit Smaug's Spoils"."""
     # Chaos Vault is CK's shelf for Secret Lair drops; a few titles also lack
     # the "Drop" or put a colon after it.
     name = re.sub(r"^(Chaos Vault|Secret Lair Drop:?)\s+-?\s*|^(?=Secret Lair x )", "Secret Lair Drop - ", name)
@@ -51,7 +51,8 @@ def normalize_cardkingdom_name(name):
     name = re.sub(r" - Complete FOIL Set \(Factory Sealed\)$", " MTGO Redemption Foil", name)
     # Punctuation the product names leave out ("Vol.2" keeps a space).
     name = re.sub(r"\.(?=\d)", " ", name)
-    name = re.sub(r"['’.:|]", "", name)
+    name = name.replace("’", "'")
+    name = re.sub(r"[.:|]", "", name)
     name = re.sub(r"(?<=\w)-(?=\w)", " ", name)
     name = name.replace(" - ", " ")
     return re.sub(r"\s+", " ", name).strip()

@@ -7,7 +7,7 @@ class CardKingdomNameTests(unittest.TestCase):
     def test_titles_become_product_names(self):
         cases = {
             "Secret Lair Drop - Secret Lair x The Hobbit: Smaug's Spoils - Foil":
-                "Secret Lair Drop The Hobbit Smaugs Spoils Foil",
+                "Secret Lair Drop The Hobbit Smaug's Spoils Foil",
             "Secret Lair Drop - Secret Lair x Masters of the Universe: She-Ra, Princess of Power - Non-Foil":
                 "Secret Lair Drop Masters of the Universe She Ra, Princess of Power",
             "Secret Lair Drop - Secret Lair x The Hobbit: He Who Walks Unseen - Out of Sight Foil":
@@ -27,7 +27,7 @@ class CardKingdomNameTests(unittest.TestCase):
             "Tarkir: Dragonstorm - Complete Set (Factory Sealed)":
                 "Tarkir Dragonstorm MTGO Redemption",
             "The Brothers' War - Complete FOIL Set (Factory Sealed)":
-                "The Brothers War MTGO Redemption Foil",
+                "The Brothers' War MTGO Redemption Foil",
             "Mercadian Masques Booster Box":
                 "Mercadian Masques Booster Box",
         }

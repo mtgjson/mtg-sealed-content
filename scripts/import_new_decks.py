@@ -198,7 +198,7 @@ def main():
         if set_code in ["sld", "slc"]:
             name = f"{deck['set_name']} {deck['name']}"
             # TODO: we should really follow upstream instead of tweaking the name
-            name = name.replace(" Edition", "").replace("'", "").replace(":","").replace("-", " ")
+            name = name.replace(" Edition", "").replace(":","").replace("-", " ")
 
         # Avoid duplicating the Commander tag from edition name and deck type above
         name = name.replace("Commander Commander", "Commander")
