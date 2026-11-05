@@ -70,29 +70,6 @@ products:
       tcgplayerProductId: '278940'
     contents:
       copy: Streets of New Capenna Commander Deck Cabaretti Cacophony
-  Streets of New Capenna Commander Deck Display:
-    category: DECK_BOX
-    subtype: COMMANDER
-    release_date: '2022-04-29'
-    identifiers:
-      tcgplayerProductId: '265391'
-    contents:
-      sealed:
-      - count: 1
-        name: Streets of New Capenna Commander Deck Bedecked Brokers
-        set: ncc
-      - count: 1
-        name: Streets of New Capenna Commander Deck Cabaretti Cacophony
-        set: ncc
-      - count: 1
-        name: Streets of New Capenna Commander Deck Maestros Massacre
-        set: ncc
-      - count: 1
-        name: Streets of New Capenna Commander Deck Obscura Operation
-        set: ncc
-      - count: 1
-        name: Streets of New Capenna Commander Deck Riveteers Rampage
-        set: ncc
   Streets of New Capenna Commander Deck Maestros Massacre:
     category: DECK
     subtype: COMMANDER
@@ -209,6 +186,22 @@ products:
       hareruyaId: '110482'
       mcmId: '611303'
       scgId: SLD-MTG-MLT-NCC-EN-SET5
+      tcgplayerProductId: '265391'
       tntId: '1743756'
     contents:
-      copy: Streets of New Capenna Commander Deck Display
+      sealed:
+      - count: 1
+        name: Streets of New Capenna Commander Deck Bedecked Brokers
+        set: ncc
+      - count: 1
+        name: Streets of New Capenna Commander Deck Cabaretti Cacophony
+        set: ncc
+      - count: 1
+        name: Streets of New Capenna Commander Deck Maestros Massacre
+        set: ncc
+      - count: 1
+        name: Streets of New Capenna Commander Deck Obscura Operation
+        set: ncc
+      - count: 1
+        name: Streets of New Capenna Commander Deck Riveteers Rampage
+        set: ncc
