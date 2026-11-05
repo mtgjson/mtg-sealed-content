@@ -24,7 +24,7 @@ LOADER = getattr(yaml, "CSafeLoader", yaml.SafeLoader)
 
 # Product-level keys in file order: what the product is, where to buy it, then what
 # is inside it. Anything else is rejected by the validator.
-KEY_ORDER = ("category", "subtype", "release_date", "language", "identifiers", "contents")
+KEY_ORDER = ("category", "subtype", "release_date", "language", "is_foil_only", "identifiers", "contents")
 PRODUCT_KEYS = frozenset(KEY_ORDER)
 # Keys that belong inside a product's contents, so the validator can tell a
 # contributor where a misplaced one should go.

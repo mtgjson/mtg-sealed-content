@@ -244,6 +244,10 @@ Using UNKNOWN/DEFAULT works too, but it's better to be as accurate as possible w
 | `CONVENTION` | An exclusive product available only at conventions or special events |
 | `REDEMPTION` | A product obtained through Magic Online Redemption Program |
 
+## Foil-only products
+
+Set `is_foil_only: true` on a product whose every non-token card is foil when its name does not say so, such as `Commander's Arsenal`. Bonus cards and a Scene Box's boosters do not count. It sits beside `category` and `subtype`, not in `contents`. Any other non-foil card or booster means the product does not qualify.
+
 ## Product contents
 
 A product's contents go under its `contents:` key and use the following types: `card`, `pack`, `deck`, `sealed`, `variable`, `other`, and `copy`.
