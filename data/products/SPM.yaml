@@ -140,6 +140,62 @@ products:
       - count: 6
         name: Marvel's Spider-Man Gift Bundle
         set: spm
+  Marvel's Spider-Man Marvel Legends Figure Set Agent Anti-Venom:
+    category: BOX_SET
+    subtype: PROMOTIONAL
+    identifiers:
+      cardtraderId: '345160'
+    contents:
+      card:
+      - foil: true
+        name: Anti-Venom, Horrifying Healer
+        number: '1'
+        set: lmar
+      card_count: 1
+      other:
+      - name: Marvel Legends Agent Anti-Venom action figure
+  Marvel's Spider-Man Marvel Legends Figure Set Man-Wolf:
+    category: BOX_SET
+    subtype: PROMOTIONAL
+    identifiers:
+      cardtraderId: '345163'
+    contents:
+      card:
+      - foil: true
+        name: Huntmaster of the Fells // Ravager of the Fells
+        number: '3'
+        set: lmar
+      card_count: 1
+      other:
+      - name: Marvel Legends Man-Wolf action figure
+  Marvel's Spider-Man Marvel Legends Figure Set Mary Jane Watson Iron Spider:
+    category: BOX_SET
+    subtype: PROMOTIONAL
+    identifiers:
+      cardtraderId: '345161'
+    contents:
+      card:
+      - foil: true
+        name: Iron Spider, Stark Upgrade
+        number: '4'
+        set: lmar
+      card_count: 1
+      other:
+      - name: Marvel Legends Mary Jane Watson (Iron Spider) action figure
+  Marvel's Spider-Man Marvel Legends Figure Set Spider-Man Battle-Damaged:
+    category: BOX_SET
+    subtype: PROMOTIONAL
+    identifiers:
+      cardtraderId: '345162'
+    contents:
+      card:
+      - foil: true
+        name: Spectacular Spider-Man
+        number: '2'
+        set: lmar
+      card_count: 1
+      other:
+      - name: Marvel Legends Battle-Damaged Spider-Man action figure
   Marvel's Spider-Man Play Booster Box:
     category: BOOSTER_BOX
     subtype: PLAY
@@ -248,6 +304,30 @@ products:
       sealed:
       - count: 4
         name: Marvel's Spider-Man Scene Box
+        set: spm
+  Marvel's Spider-Man Web-Slinger's Kit:
+    category: KIT
+    subtype: DEFAULT
+    identifiers:
+      cardtraderId: '359076'
+      tcgplayerProductId: '663011'
+    contents:
+      card:
+      - foil: true
+        name: Spider-Man, Miles Morales
+        number: 2025-23
+        set: pmei
+      card_count: 1
+      deck:
+      - name: Marvel's Spider-Man Foil Bundle Land Pack
+        set: spm
+      - name: Marvel's Spider-Man Bundle Land Pack
+        set: spm
+      - name: Marvel's Spider-Man Bundle Land Pack
+        set: spm
+      sealed:
+      - count: 6
+        name: Marvel's Spider-Man Play Booster Pack
         set: spm
   Marvel's Spider-Man Welcome Deck Black:
     category: DECK
@@ -405,84 +485,4 @@ products:
         set: spm
       - count: 1
         name: Marvel's Spider-Man Welcome Deck White
-        set: spm
-  Marvel's Spider-Man Marvel Legends Figure Set Agent Anti-Venom:
-    category: BOX_SET
-    subtype: PROMOTIONAL
-    identifiers:
-      cardtraderId: '345160'
-    contents:
-      card:
-      - foil: true
-        name: Anti-Venom, Horrifying Healer
-        number: '1'
-        set: lmar
-      card_count: 1
-      other:
-      - name: Marvel Legends Agent Anti-Venom action figure
-  Marvel's Spider-Man Marvel Legends Figure Set Man-Wolf:
-    category: BOX_SET
-    subtype: PROMOTIONAL
-    identifiers:
-      cardtraderId: '345163'
-    contents:
-      card:
-      - foil: true
-        name: Huntmaster of the Fells // Ravager of the Fells
-        number: '3'
-        set: lmar
-      card_count: 1
-      other:
-      - name: Marvel Legends Man-Wolf action figure
-  Marvel's Spider-Man Marvel Legends Figure Set Mary Jane Watson Iron Spider:
-    category: BOX_SET
-    subtype: PROMOTIONAL
-    identifiers:
-      cardtraderId: '345161'
-    contents:
-      card:
-      - foil: true
-        name: Iron Spider, Stark Upgrade
-        number: '4'
-        set: lmar
-      card_count: 1
-      other:
-      - name: Marvel Legends Mary Jane Watson (Iron Spider) action figure
-  Marvel's Spider-Man Marvel Legends Figure Set Spider-Man Battle-Damaged:
-    category: BOX_SET
-    subtype: PROMOTIONAL
-    identifiers:
-      cardtraderId: '345162'
-    contents:
-      card:
-      - foil: true
-        name: Spectacular Spider-Man
-        number: '2'
-        set: lmar
-      card_count: 1
-      other:
-      - name: Marvel Legends Battle-Damaged Spider-Man action figure
-  Marvel's Spider-Man Web-Slinger's Kit:
-    category: KIT
-    subtype: DEFAULT
-    identifiers:
-      cardtraderId: '359076'
-      tcgplayerProductId: '663011'
-    contents:
-      card:
-      - foil: true
-        name: Spider-Man, Miles Morales
-        number: 2025-23
-        set: pmei
-      card_count: 1
-      deck:
-      - name: Marvel's Spider-Man Foil Bundle Land Pack
-        set: spm
-      - name: Marvel's Spider-Man Bundle Land Pack
-        set: spm
-      - name: Marvel's Spider-Man Bundle Land Pack
-        set: spm
-      sealed:
-      - count: 6
-        name: Marvel's Spider-Man Play Booster Pack
         set: spm

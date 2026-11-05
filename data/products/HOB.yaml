@@ -277,17 +277,6 @@ products:
       pack:
       - code: prerelease
         set: hob
-  The Hobbit Prerelease Kit Case:
-    category: LIMITED_CASE
-    subtype: PRERELEASE
-    release_date: '2026-08-07'
-    identifiers:
-      tcgplayerProductId: '692974'
-    contents:
-      sealed:
-      - count: 15
-        name: The Hobbit Prerelease Kit
-        set: hob
   The Hobbit Prerelease Kit:
     category: LIMITED
     subtype: PRERELEASE
@@ -323,6 +312,17 @@ products:
       sealed:
       - count: 6
         name: The Hobbit Play Booster Pack
+        set: hob
+  The Hobbit Prerelease Kit Case:
+    category: LIMITED_CASE
+    subtype: PRERELEASE
+    release_date: '2026-08-07'
+    identifiers:
+      tcgplayerProductId: '692974'
+    contents:
+      sealed:
+      - count: 15
+        name: The Hobbit Prerelease Kit
         set: hob
   The Hobbit Scene Box Case:
     category: BOX_SET

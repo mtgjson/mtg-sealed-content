@@ -1,17 +1,5 @@
 code: xln
 products:
-  Ixalan Buy a Box Treasure Chest Booster:
-    category: BOOSTER_PACK
-    subtype: PROMOTIONAL
-    release_date: '2017-11-08'
-    identifiers:
-      cardtraderId: '164580'
-      mcmId: '313046'
-    contents:
-      card_count: 9
-      pack:
-      - code: treasure-chest
-        set: xln
   Ixalan Booster Battle Pack:
     category: MULTI_DECK
     subtype: BATTLE
@@ -130,6 +118,18 @@ products:
       card_count: 80
       deck:
       - name: Ixalan Bundle Land Pack
+        set: xln
+  Ixalan Buy a Box Treasure Chest Booster:
+    category: BOOSTER_PACK
+    subtype: PROMOTIONAL
+    release_date: '2017-11-08'
+    identifiers:
+      cardtraderId: '164580'
+      mcmId: '313046'
+    contents:
+      card_count: 9
+      pack:
+      - code: treasure-chest
         set: xln
   Ixalan Deck Builder's Toolkit:
     category: KIT

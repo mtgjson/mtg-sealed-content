@@ -1,16 +1,5 @@
 code: dgm
 products:
-  Dragon's Maze Six Card Booster Pack:
-    category: BOOSTER_PACK
-    subtype: SIX
-    identifiers:
-      cardtraderId: '47933'
-      mcmId: '315715'
-    contents:
-      card_count: 6
-      pack:
-      - code: six
-        set: dgm
   Dragon's Maze Booster Box:
     category: BOOSTER_BOX
     subtype: DRAFT
@@ -635,3 +624,14 @@ products:
       variable_mode:
         count: 1
         replacement: false
+  Dragon's Maze Six Card Booster Pack:
+    category: BOOSTER_PACK
+    subtype: SIX
+    identifiers:
+      cardtraderId: '47933'
+      mcmId: '315715'
+    contents:
+      card_count: 6
+      pack:
+      - code: six
+        set: dgm
