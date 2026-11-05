@@ -20,6 +20,10 @@ BRACKETED_PASTE_RE = re.compile(r"\x1b\[20[01]~")
 def read_input(prompt=""):
     return BRACKETED_PASTE_RE.sub("", input(prompt))
 
+def names_a_finish(product_name):
+    return re.search(r"(?<!non )(?<!non-)\b(foil|etched)\b", product_name, re.I) is not None
+
+
 def infer_product_definition(product_name):
     category = "UNKNOWN"
     subtype = "UNKNOWN"
@@ -213,6 +217,12 @@ def main(argv=None):
 
             margin = best_score - second_score
             if best is None or best_score < args.auto_score or margin < args.auto_margin:
+                ambiguous += 1
+                continue
+            # A long name's finish word alone can't lower the score below the
+            # threshold, so without this a product whose own finish is not defined
+            # yet would land on its sibling.
+            if names_a_finish(query) != names_a_finish(best[0]):
                 ambiguous += 1
                 continue
 
