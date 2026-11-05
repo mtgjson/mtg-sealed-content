@@ -57,6 +57,21 @@ def normalize_cardkingdom_name(name):
     return re.sub(r"\s+", " ", name).strip()
 
 
+def normalize_tcgplayer_name(name):
+    """Rewrite a TCGplayer Secret Lair title into the naming used in
+    data/products, so it matches (or creates) the right product as is:
+    "Secret Lair Drop Secret Lair x Marvel Zombies Traditional Foil Edition"
+    becomes "Secret Lair Drop Marvel Zombies Foil"."""
+    if "Secret Lair" not in name:
+        return name
+    name = re.sub(r"^(Secret Lair Drop )?Secret Lair x ", "Secret Lair Drop ", name)
+    # The finish suffix: non-foil is the unmarked product, foils keep their kind.
+    name = re.sub(r" Non Foil( Edition)?$", "", name)
+    name = re.sub(r" Traditional Foil( Edition| Version)?$", " Foil", name)
+    name = re.sub(r" Foil Etched Edition$", " Etched", name)
+    return re.sub(r" Foil Edition$", " Foil", name)
+
+
 def tcgdownload(url, params, api_version, auth_code):
     header = {
         "Authorization": f"Bearer {auth_code}"
@@ -180,7 +195,7 @@ def get_tcgplayer(api_version, auth_code):
 
                 cleaned_data = [
                     {
-                        "name": product_name,
+                        "name": normalize_tcgplayer_name(product_name),
                         "id": product["productId"],
                         "releaseDate": product["presaleInfo"].get("releasedOn"),
                     }
