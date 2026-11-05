@@ -1,6 +1,6 @@
 code: uds
 products:
-  Urzas Destiny Booster Box:
+  Urza's Destiny Booster Box:
     category: BOOSTER_BOX
     subtype: DRAFT
     identifiers:
@@ -16,18 +16,18 @@ products:
     contents:
       sealed:
       - count: 36
-        name: Urzas Destiny Booster Pack
+        name: Urza's Destiny Booster Pack
         set: uds
-  Urzas Destiny Booster Box Case:
+  Urza's Destiny Booster Box Case:
     category: BOOSTER_CASE
     subtype: DRAFT
     identifiers: {}
     contents:
       sealed:
       - count: 6
-        name: Urzas Destiny Booster Box
+        name: Urza's Destiny Booster Box
         set: uds
-  Urzas Destiny Booster Pack:
+  Urza's Destiny Booster Pack:
     category: BOOSTER_PACK
     subtype: DRAFT
     identifiers:
@@ -45,7 +45,7 @@ products:
       pack:
       - code: draft
         set: uds
-  Urzas Destiny Theme Deck Assassin:
+  Urza's Destiny Theme Deck Assassin:
     category: DECK
     subtype: THEME
     identifiers:
@@ -61,7 +61,7 @@ products:
       deck:
       - name: Assassin
         set: uds
-  Urzas Destiny Theme Deck Battle Surge:
+  Urza's Destiny Theme Deck Battle Surge:
     category: DECK
     subtype: THEME
     identifiers:
@@ -77,7 +77,7 @@ products:
       deck:
       - name: Battle Surge
         set: uds
-  Urzas Destiny Theme Deck Display:
+  Urza's Destiny Theme Deck Display:
     category: DECK_BOX
     subtype: THEME
     identifiers:
@@ -88,18 +88,18 @@ products:
     contents:
       sealed:
       - count: 3
-        name: Urzas Destiny Theme Deck Assassin
+        name: Urza's Destiny Theme Deck Assassin
         set: uds
       - count: 3
-        name: Urzas Destiny Theme Deck Battle Surge
+        name: Urza's Destiny Theme Deck Battle Surge
         set: uds
       - count: 3
-        name: Urzas Destiny Theme Deck Enchanter
+        name: Urza's Destiny Theme Deck Enchanter
         set: uds
       - count: 3
-        name: Urzas Destiny Theme Deck Fiendish Nature
+        name: Urza's Destiny Theme Deck Fiendish Nature
         set: uds
-  Urzas Destiny Theme Deck Enchanter:
+  Urza's Destiny Theme Deck Enchanter:
     category: DECK
     subtype: THEME
     identifiers:
@@ -115,7 +115,7 @@ products:
       deck:
       - name: Enchanter
         set: uds
-  Urzas Destiny Theme Deck Fiendish Nature:
+  Urza's Destiny Theme Deck Fiendish Nature:
     category: DECK
     subtype: THEME
     identifiers:
@@ -132,7 +132,7 @@ products:
       deck:
       - name: Fiendish Nature
         set: uds
-  Urzas Destiny Theme Decks Set of 4:
+  Urza's Destiny Theme Decks Set of 4:
     category: SUBSET
     subtype: THEME
     identifiers:
@@ -141,14 +141,14 @@ products:
     contents:
       sealed:
       - count: 1
-        name: Urzas Destiny Theme Deck Assassin
+        name: Urza's Destiny Theme Deck Assassin
         set: uds
       - count: 1
-        name: Urzas Destiny Theme Deck Battle Surge
+        name: Urza's Destiny Theme Deck Battle Surge
         set: uds
       - count: 1
-        name: Urzas Destiny Theme Deck Enchanter
+        name: Urza's Destiny Theme Deck Enchanter
         set: uds
       - count: 1
-        name: Urzas Destiny Theme Deck Fiendish Nature
+        name: Urza's Destiny Theme Deck Fiendish Nature
         set: uds
