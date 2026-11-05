@@ -90,31 +90,6 @@ products:
       - count: 1
         name: Shards of Alara Booster Pack
         set: ala
-  Shards of Alara Intro Packs Set of 5:
-    category: SUBSET
-    subtype: INTRO
-    identifiers:
-      abuId: '1108009'
-      cardtraderId: '47331'
-      mcmId: '210206'
-      tntId: '183779'
-    contents:
-      sealed:
-      - count: 1
-        name: Shards of Alara Intro Pack Bant Exalted
-        set: ala
-      - count: 1
-        name: Shards of Alara Intro Pack Esper Artifice
-        set: ala
-      - count: 1
-        name: Shards of Alara Intro Pack Grixis Undead
-        set: ala
-      - count: 1
-        name: Shards of Alara Intro Pack Naya Behemoths
-        set: ala
-      - count: 1
-        name: Shards of Alara Intro Pack Primordial Jund
-        set: ala
   Shards of Alara Intro Pack Esper Artifice:
     category: DECK
     subtype: INTRO
@@ -194,6 +169,31 @@ products:
       sealed:
       - count: 1
         name: Shards of Alara Booster Pack
+        set: ala
+  Shards of Alara Intro Packs Set of 5:
+    category: SUBSET
+    subtype: INTRO
+    identifiers:
+      abuId: '1108009'
+      cardtraderId: '47331'
+      mcmId: '210206'
+      tntId: '183779'
+    contents:
+      sealed:
+      - count: 1
+        name: Shards of Alara Intro Pack Bant Exalted
+        set: ala
+      - count: 1
+        name: Shards of Alara Intro Pack Esper Artifice
+        set: ala
+      - count: 1
+        name: Shards of Alara Intro Pack Grixis Undead
+        set: ala
+      - count: 1
+        name: Shards of Alara Intro Pack Naya Behemoths
+        set: ala
+      - count: 1
+        name: Shards of Alara Intro Pack Primordial Jund
         set: ala
   Shards of Alara MTGO Redemption:
     category: BOX_SET
