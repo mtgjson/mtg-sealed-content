@@ -198,6 +198,11 @@ products:
       pack:
       - code: collector
         set: sos
+  Secrets of Strixhaven Collector Booster Pack Minimal Packaging:
+    category: BOOSTER_PACK
+    subtype: COLLECTOR
+    identifiers:
+      tcgplayerProductId: '716800'
   Secrets of Strixhaven Draft Night:
     category: LIMITED
     subtype: DRAFT
