@@ -57,46 +57,6 @@ products:
       - count: 1
         name: Modern Horizons 3 Collector Booster Sample Pack
         set: mh3
-  Modern Horizons 3 Commander Deck Display:
-    category: DECK_BOX
-    subtype: COMMANDER
-    release_date: '2024-06-14'
-    identifiers:
-      tcgplayerProductId: '541196'
-    contents:
-      sealed:
-      - count: 1
-        name: Modern Horizons 3 Commander Deck Creative Energy
-        set: m3c
-      - count: 1
-        name: Modern Horizons 3 Commander Deck Eldrazi Incursion
-        set: m3c
-      - count: 1
-        name: Modern Horizons 3 Commander Deck Graveyard Overdrive
-        set: m3c
-      - count: 1
-        name: Modern Horizons 3 Commander Deck Tricky Terrain
-        set: m3c
-  Modern Horizons 3 Commander Deck Display Collector's Edition:
-    category: DECK_BOX
-    subtype: COMMANDER
-    release_date: '2024-06-14'
-    identifiers:
-      tcgplayerProductId: '541202'
-    contents:
-      sealed:
-      - count: 1
-        name: Modern Horizons 3 Commander Deck Creative Energy Collector's Edition
-        set: m3c
-      - count: 1
-        name: Modern Horizons 3 Commander Deck Eldrazi Incursion Collector's Edition
-        set: m3c
-      - count: 1
-        name: Modern Horizons 3 Commander Deck Graveyard Overdrive Collector's Edition
-        set: m3c
-      - count: 1
-        name: Modern Horizons 3 Commander Deck Tricky Terrain Collector's Edition
-        set: m3c
   Modern Horizons 3 Commander Deck Eldrazi Incursion:
     category: DECK
     subtype: COMMANDER
@@ -276,6 +236,7 @@ products:
       csiId: '383226'
       mcmId: '759887'
       scgId: SLD-MTG-MLT-M3CCOLLECTOR-EN-SET4
+      tcgplayerProductId: '541202'
     contents:
       sealed:
       - count: 1
@@ -300,6 +261,7 @@ products:
       csiId: '383219'
       mcmId: '759888'
       scgId: SLD-MTG-MLT-M3CREGULAR-EN-SET4
+      tcgplayerProductId: '541196'
       tntId: '1807293'
     contents:
       sealed:

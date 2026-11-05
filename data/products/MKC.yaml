@@ -84,26 +84,6 @@ products:
       - count: 1
         name: Murders at Karlov Manor Collector Booster Sample Pack
         set: mkm
-  Murders at Karlov Manor Commander Deck Display:
-    category: DECK_BOX
-    subtype: COMMANDER
-    release_date: '2024-02-09'
-    identifiers:
-      tcgplayerProductId: '529981'
-    contents:
-      sealed:
-      - count: 1
-        name: Murders at Karlov Manor Commander Deck Revenant Recon
-        set: mkc
-      - count: 1
-        name: Murders at Karlov Manor Commander Deck Deep Clue Sea
-        set: mkc
-      - count: 1
-        name: Murders at Karlov Manor Commander Deck Deadly Disguise
-        set: mkc
-      - count: 1
-        name: Murders at Karlov Manor Commander Deck Blame Game
-        set: mkc
   Murders at Karlov Manor Commander Deck Revenant Recon:
     category: DECK
     subtype: COMMANDER
@@ -144,6 +124,7 @@ products:
       hareruyaId: '149764'
       mcmId: '748071'
       scgId: SLD-MTG-MLT-MKC-EN-SET4
+      tcgplayerProductId: '529981'
     contents:
       sealed:
       - count: 1

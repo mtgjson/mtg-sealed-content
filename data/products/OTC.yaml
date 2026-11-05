@@ -28,26 +28,6 @@ products:
       - count: 1
         name: Outlaws of Thunder Junction Collector Booster Sample Pack
         set: otj
-  Outlaws of Thunder Junction Commander Deck Display:
-    category: DECK_BOX
-    subtype: COMMANDER
-    release_date: '2024-04-19'
-    identifiers:
-      tcgplayerProductId: '541105'
-    contents:
-      sealed:
-      - count: 1
-        name: Outlaws of Thunder Junction Commander Deck Desert Bloom
-        set: otc
-      - count: 1
-        name: Outlaws of Thunder Junction Commander Deck Grand Larceny
-        set: otc
-      - count: 1
-        name: Outlaws of Thunder Junction Commander Deck Most Wanted
-        set: otc
-      - count: 1
-        name: Outlaws of Thunder Junction Commander Deck Quick Draw
-        set: otc
   Outlaws of Thunder Junction Commander Deck Grand Larceny:
     category: DECK
     subtype: COMMANDER
@@ -143,6 +123,7 @@ products:
       hareruyaId: '154266'
       mcmId: '758320'
       scgId: SLD-MTG-MLT-OTC-EN-SET4
+      tcgplayerProductId: '541105'
     contents:
       sealed:
       - count: 1
