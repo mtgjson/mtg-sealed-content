@@ -20,19 +20,19 @@ products:
         name: Marvel Darkhold Destiny Booster Pack
         set: mdd
       - count: 1
-        name: Marvel Darkhold Destiny Collector Booster
+        name: Marvel Darkhold Destiny Collector Booster Pack
         set: mdd
   Marvel Darkhold Destiny Arcanum Bundle Case:
     category: BUNDLE_CASE
-    subtype: UNKNOWN
+    subtype: GIFT_BUNDLE
     identifiers:
       tcgplayerProductId: '723272'
   Marvel Darkhold Destiny Booster Box Case:
     category: BOOSTER_CASE
-    subtype: UNKNOWN
+    subtype: PLAY
     identifiers:
       tcgplayerProductId: '723264'
-  Marvel Darkhold Destiny Booster Display:
+  Marvel Darkhold Destiny Booster Box:
     category: BOOSTER_BOX
     subtype: PLAY
     release_date: '2027-04-09'
@@ -73,10 +73,10 @@ products:
         set: mdd
   Marvel Darkhold Destiny Bundle Case:
     category: BUNDLE_CASE
-    subtype: UNKNOWN
+    subtype: DEFAULT
     identifiers:
       tcgplayerProductId: '723270'
-  Marvel Darkhold Destiny Collector Booster:
+  Marvel Darkhold Destiny Collector Booster Pack:
     category: BOOSTER_PACK
     subtype: COLLECTOR
     release_date: '2027-04-09'
@@ -89,7 +89,7 @@ products:
     subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '723267'
-  Marvel Darkhold Destiny Collector Booster Display:
+  Marvel Darkhold Destiny Collector Booster Box:
     category: BOOSTER_BOX
     subtype: COLLECTOR
     release_date: '2027-04-09'
@@ -100,7 +100,7 @@ products:
     contents:
       sealed:
       - count: 12
-        name: Marvel Darkhold Destiny Collector Booster
+        name: Marvel Darkhold Destiny Collector Booster Pack
         set: mdd
   Marvel Darkhold Destiny Draft Night:
     category: LIMITED
@@ -120,7 +120,7 @@ products:
         name: Marvel Darkhold Destiny Booster Pack
         set: mdd
       - count: 1
-        name: Marvel Darkhold Destiny Collector Booster
+        name: Marvel Darkhold Destiny Collector Booster Pack
         set: mdd
   Marvel Darkhold Destiny Draft Night Case:
     category: LIMITED_CASE
