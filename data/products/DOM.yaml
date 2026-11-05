@@ -234,7 +234,7 @@ products:
       pack:
       - code: showdown
         set: dom
-  Dominaria Theme Booster Black:
+  Dominaria Theme Booster Pack Black:
     category: BOOSTER_PACK
     subtype: THEME
     release_date: '2018-05-04'
@@ -247,7 +247,7 @@ products:
       pack:
       - code: theme-b
         set: dom
-  Dominaria Theme Booster Blue:
+  Dominaria Theme Booster Pack Blue:
     category: BOOSTER_PACK
     subtype: THEME
     release_date: '2018-05-04'
@@ -260,7 +260,7 @@ products:
       pack:
       - code: theme-u
         set: dom
-  Dominaria Theme Booster Green:
+  Dominaria Theme Booster Pack Green:
     category: BOOSTER_PACK
     subtype: THEME
     release_date: '2018-05-04'
@@ -273,7 +273,7 @@ products:
       pack:
       - code: theme-g
         set: dom
-  Dominaria Theme Booster Red:
+  Dominaria Theme Booster Pack Red:
     category: BOOSTER_PACK
     subtype: THEME
     release_date: '2018-05-04'
@@ -286,7 +286,7 @@ products:
       pack:
       - code: theme-r
         set: dom
-  Dominaria Theme Booster Set of 5:
+  Dominaria Theme Booster Pack Set of 5:
     category: SUBSET
     subtype: THEME
     identifiers:
@@ -294,21 +294,21 @@ products:
     contents:
       sealed:
       - count: 1
-        name: Dominaria Theme Booster White
+        name: Dominaria Theme Booster Pack White
         set: dom
       - count: 1
-        name: Dominaria Theme Booster Blue
+        name: Dominaria Theme Booster Pack Blue
         set: dom
       - count: 1
-        name: Dominaria Theme Booster Black
+        name: Dominaria Theme Booster Pack Black
         set: dom
       - count: 1
-        name: Dominaria Theme Booster Red
+        name: Dominaria Theme Booster Pack Red
         set: dom
       - count: 1
-        name: Dominaria Theme Booster Green
+        name: Dominaria Theme Booster Pack Green
         set: dom
-  Dominaria Theme Booster White:
+  Dominaria Theme Booster Pack White:
     category: BOOSTER_PACK
     subtype: THEME
     release_date: '2018-05-04'
