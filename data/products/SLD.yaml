@@ -4254,6 +4254,7 @@ products:
     release_date: '2026-12-14'
     identifiers:
       mcmId: '916813'
+      tcgplayerProductId: '721849'
     contents:
       card_count: 4
       deck:
@@ -4265,7 +4266,8 @@ products:
     category: BOX_SET
     subtype: SECRET_LAIR
     release_date: '2026-12-14'
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '721850'
     contents:
       card_count: 4
       deck:
@@ -5881,7 +5883,8 @@ products:
     category: BOX_SET
     subtype: SECRET_LAIR
     release_date: '2026-11-18'
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '723370'
     contents:
       card_count: 4
       deck:
@@ -5893,7 +5896,8 @@ products:
     category: BOX_SET
     subtype: SECRET_LAIR
     release_date: '2026-11-18'
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '723371'
     contents:
       card_count: 4
       deck:
@@ -8435,6 +8439,7 @@ products:
     release_date: '2026-12-14'
     identifiers:
       mcmId: '916808'
+      tcgplayerProductId: '721839'
     contents:
       card_count: 6
       deck:
@@ -8446,7 +8451,8 @@ products:
     category: BOX_SET
     subtype: SECRET_LAIR
     release_date: '2026-12-14'
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '721840'
     contents:
       card_count: 6
       deck:
@@ -8460,6 +8466,7 @@ products:
     release_date: '2026-12-14'
     identifiers:
       mcmId: '916809'
+      tcgplayerProductId: '721841'
     contents:
       card_count: 6
       deck:
@@ -8471,7 +8478,8 @@ products:
     category: BOX_SET
     subtype: SECRET_LAIR
     release_date: '2026-12-14'
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '721842'
     contents:
       card_count: 6
       deck:
@@ -8485,6 +8493,7 @@ products:
     release_date: '2026-12-14'
     identifiers:
       mcmId: '916810'
+      tcgplayerProductId: '721843'
     contents:
       card_count: 7
       deck:
@@ -8496,7 +8505,8 @@ products:
     category: BOX_SET
     subtype: SECRET_LAIR
     release_date: '2026-12-14'
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '721844'
     contents:
       card_count: 7
       deck:
@@ -8623,6 +8633,7 @@ products:
     release_date: '2026-12-14'
     identifiers:
       mcmId: '916811'
+      tcgplayerProductId: '721845'
     contents:
       card_count: 7
       deck:
@@ -8634,7 +8645,8 @@ products:
     category: BOX_SET
     subtype: SECRET_LAIR
     release_date: '2026-12-14'
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '721846'
     contents:
       card_count: 7
       deck:
@@ -9120,6 +9132,7 @@ products:
     release_date: '2026-12-14'
     identifiers:
       mcmId: '916814'
+      tcgplayerProductId: '721851'
     contents:
       card_count: 5
       deck:
@@ -9131,7 +9144,8 @@ products:
     category: BOX_SET
     subtype: SECRET_LAIR
     release_date: '2026-12-14'
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '721852'
     contents:
       card_count: 5
       deck:
@@ -9139,6 +9153,11 @@ products:
         set: sld
       other:
       - name: Bonus card unknown
+  Secret Lair Drop Marvel Command Tower Foil:
+    category: UNKNOWN
+    subtype: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '716967'
   Secret Lair Drop Marvel Dan Hipp:
     category: BOX_SET
     subtype: SECRET_LAIR
@@ -9269,6 +9288,7 @@ products:
     release_date: '2026-12-14'
     identifiers:
       mcmId: '916812'
+      tcgplayerProductId: '721847'
     contents:
       card_count: 6
       deck:
@@ -9280,7 +9300,8 @@ products:
     category: BOX_SET
     subtype: SECRET_LAIR
     release_date: '2026-12-14'
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '721848'
     contents:
       card_count: 6
       deck:
@@ -9378,6 +9399,7 @@ products:
       cardKingdomId: '332993'
       cardtraderId: '408636'
       mcmId: '909735'
+      tcgplayerProductId: '715717'
     contents:
       card_count: 6
       deck:
@@ -9391,6 +9413,7 @@ products:
     release_date: '2026-09-29'
     identifiers:
       cardKingdomId: '332992'
+      tcgplayerProductId: '715718'
     contents:
       card_count: 6
       deck:
@@ -9405,6 +9428,7 @@ products:
     identifiers:
       cardtraderId: '408639'
       mcmId: '909723'
+      tcgplayerProductId: '715701'
     contents:
       card_count: 5
       deck:
@@ -9416,7 +9440,8 @@ products:
     category: BOX_SET
     subtype: SECRET_LAIR
     release_date: '2026-09-29'
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '715702'
     contents:
       card_count: 5
       deck:
@@ -9432,6 +9457,7 @@ products:
       cardKingdomId: '332997'
       cardtraderId: '408638'
       mcmId: '909727'
+      tcgplayerProductId: '715711'
     contents:
       card_count: 5
       deck:
@@ -9445,6 +9471,7 @@ products:
     release_date: '2026-09-29'
     identifiers:
       cardKingdomId: '332996'
+      tcgplayerProductId: '715712'
     contents:
       card_count: 5
       deck:
@@ -9460,6 +9487,7 @@ products:
       cardKingdomId: '332999'
       cardtraderId: '408637'
       mcmId: '909730'
+      tcgplayerProductId: '715714'
     contents:
       card_count: 6
       deck:
@@ -9473,6 +9501,7 @@ products:
     release_date: '2026-09-29'
     identifiers:
       cardKingdomId: '332998'
+      tcgplayerProductId: '715716'
     contents:
       card_count: 6
       deck:
@@ -9488,6 +9517,7 @@ products:
       cardKingdomId: '333001'
       cardtraderId: '408635'
       mcmId: '909736'
+      tcgplayerProductId: '715722'
     contents:
       card_count: 5
       deck:
@@ -9501,6 +9531,7 @@ products:
     release_date: '2026-09-29'
     identifiers:
       cardKingdomId: '333000'
+      tcgplayerProductId: '715723'
     contents:
       card_count: 5
       deck:
@@ -10282,6 +10313,7 @@ products:
     release_date: '2026-12-14'
     identifiers:
       mcmId: '916815'
+      tcgplayerProductId: '721853'
     contents:
       card_count: 5
       deck:
@@ -10293,7 +10325,8 @@ products:
     category: BOX_SET
     subtype: SECRET_LAIR
     release_date: '2026-12-14'
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '721854'
     contents:
       card_count: 5
       deck:
@@ -10972,6 +11005,7 @@ products:
     release_date: '2026-10-19'
     identifiers:
       mcmId: '916825'
+      tcgplayerProductId: '722935'
     contents:
       card_count: 4
       deck:
@@ -15108,7 +15142,8 @@ products:
     category: BOX_SET
     subtype: SECRET_LAIR
     release_date: '2026-11-18'
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '723368'
     contents:
       card_count: 5
       deck:
@@ -15116,6 +15151,11 @@ products:
         set: sld
       other:
       - name: Bonus card unknown
+  Secret Lair Drop Strange School Foil:
+    category: UNKNOWN
+    subtype: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '723369'
   Secret Lair Drop Tales of the Time Stoppers:
     category: BOX_SET
     subtype: SECRET_LAIR
@@ -15859,6 +15899,7 @@ products:
     identifiers:
       cardtraderId: '415926'
       mcmId: '914222'
+      tcgplayerProductId: '721410'
     contents:
       card_count: 5
       deck:
@@ -15870,7 +15911,8 @@ products:
     category: BOX_SET
     subtype: SECRET_LAIR
     release_date: '2026-09-29'
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '721411'
     contents:
       card_count: 5
       deck:
@@ -15885,6 +15927,7 @@ products:
     identifiers:
       cardtraderId: '415923'
       mcmId: '914223'
+      tcgplayerProductId: '721381'
     contents:
       card_count: 5
       deck:
@@ -15896,7 +15939,8 @@ products:
     category: BOX_SET
     subtype: SECRET_LAIR
     release_date: '2026-09-29'
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '721383'
     contents:
       card_count: 5
       deck:
@@ -15911,6 +15955,7 @@ products:
     identifiers:
       cardtraderId: '415925'
       mcmId: '914224'
+      tcgplayerProductId: '721400'
     contents:
       card_count: 5
       deck:
@@ -15922,7 +15967,8 @@ products:
     category: BOX_SET
     subtype: SECRET_LAIR
     release_date: '2026-09-29'
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '721402'
     contents:
       card_count: 5
       deck:
@@ -15937,6 +15983,7 @@ products:
     identifiers:
       cardtraderId: '415922'
       mcmId: '914225'
+      tcgplayerProductId: '721362'
     contents:
       card_count: 5
       deck:
@@ -15948,7 +15995,8 @@ products:
     category: BOX_SET
     subtype: SECRET_LAIR
     release_date: '2026-09-29'
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '721363'
     contents:
       card_count: 5
       deck:
@@ -15963,6 +16011,7 @@ products:
     identifiers:
       cardtraderId: '415924'
       mcmId: '914226'
+      tcgplayerProductId: '721391'
     contents:
       card_count: 5
       deck:
@@ -15974,7 +16023,8 @@ products:
     category: BOX_SET
     subtype: SECRET_LAIR
     release_date: '2026-09-29'
-    identifiers: {}
+    identifiers:
+      tcgplayerProductId: '721396'
     contents:
       card_count: 5
       deck:

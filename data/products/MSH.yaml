@@ -143,6 +143,11 @@ products:
       pack:
       - code: collector
         set: msh
+  Marvel Super Heroes Collector Booster Pack Minimal Packaging:
+    category: BOOSTER_PACK
+    subtype: COLLECTOR
+    identifiers:
+      tcgplayerProductId: '716801'
   Marvel Super Heroes Draft Night:
     category: LIMITED
     subtype: DRAFT

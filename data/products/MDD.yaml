@@ -7,6 +7,7 @@ products:
     identifiers:
       cardtraderId: '417371'
       mcmId: '916741'
+      tcgplayerProductId: '723271'
     contents:
       card_count: 1
       other:
@@ -21,6 +22,16 @@ products:
       - count: 1
         name: Marvel Darkhold Destiny Collector Booster
         set: mdd
+  Marvel Darkhold Destiny Arcanum Bundle Case:
+    category: BUNDLE_CASE
+    subtype: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '723272'
+  Marvel Darkhold Destiny Booster Box Case:
+    category: BOOSTER_CASE
+    subtype: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '723264'
   Marvel Darkhold Destiny Booster Display:
     category: BOOSTER_BOX
     subtype: PLAY
@@ -28,6 +39,7 @@ products:
     identifiers:
       cardtraderId: '417355'
       mcmId: '916746'
+      tcgplayerProductId: '723263'
     contents:
       sealed:
       - count: 30
@@ -40,6 +52,7 @@ products:
     identifiers:
       cardtraderId: '417357'
       mcmId: '916743'
+      tcgplayerProductId: '723262'
   Marvel Darkhold Destiny Bundle:
     category: BUNDLE
     subtype: DEFAULT
@@ -47,6 +60,7 @@ products:
     identifiers:
       cardtraderId: '417359'
       mcmId: '916740'
+      tcgplayerProductId: '723269'
     contents:
       card_count: 1
       other:
@@ -57,6 +71,11 @@ products:
       - count: 9
         name: Marvel Darkhold Destiny Booster Pack
         set: mdd
+  Marvel Darkhold Destiny Bundle Case:
+    category: BUNDLE_CASE
+    subtype: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '723270'
   Marvel Darkhold Destiny Collector Booster:
     category: BOOSTER_PACK
     subtype: COLLECTOR
@@ -64,6 +83,12 @@ products:
     identifiers:
       cardtraderId: '417358'
       mcmId: '916745'
+      tcgplayerProductId: '723265'
+  Marvel Darkhold Destiny Collector Booster Box Case:
+    category: BOOSTER_CASE
+    subtype: COLLECTOR
+    identifiers:
+      tcgplayerProductId: '723267'
   Marvel Darkhold Destiny Collector Booster Display:
     category: BOOSTER_BOX
     subtype: COLLECTOR
@@ -71,6 +96,7 @@ products:
     identifiers:
       cardtraderId: '417356'
       mcmId: '916747'
+      tcgplayerProductId: '723266'
     contents:
       sealed:
       - count: 12
@@ -83,6 +109,7 @@ products:
     identifiers:
       cardtraderId: '417360'
       mcmId: '916739'
+      tcgplayerProductId: '723284'
     contents:
       other:
       - name: 90 Non-foil basic lands
@@ -95,6 +122,11 @@ products:
       - count: 1
         name: Marvel Darkhold Destiny Collector Booster
         set: mdd
+  Marvel Darkhold Destiny Draft Night Case:
+    category: LIMITED_CASE
+    subtype: DRAFT
+    identifiers:
+      tcgplayerProductId: '723285'
   Marvel Darkhold Destiny Prerelease Pack:
     category: LIMITED
     subtype: PRERELEASE
@@ -102,6 +134,7 @@ products:
     identifiers:
       cardtraderId: '417363'
       mcmId: '916731'
+      tcgplayerProductId: '723286'
     contents:
       other:
       - name: Spindown die
@@ -110,6 +143,11 @@ products:
       - count: 6
         name: Marvel Darkhold Destiny Booster Pack
         set: mdd
+  Marvel Darkhold Destiny Prerelease Pack Case:
+    category: LIMITED_CASE
+    subtype: PRERELEASE
+    identifiers:
+      tcgplayerProductId: '723287'
   Marvel Darkhold Destiny Scene Box Assault on Asgard:
     category: BOX_SET
     subtype: OTHER
@@ -117,6 +155,7 @@ products:
     identifiers:
       cardtraderId: '417366'
       mcmId: '916732'
+      tcgplayerProductId: '723278'
     contents:
       card_count: 6
       other:
@@ -133,6 +172,7 @@ products:
     identifiers:
       cardtraderId: '417385'
       mcmId: '916735'
+      tcgplayerProductId: '723282'
     contents:
       sealed:
       - count: 1
@@ -148,6 +188,7 @@ products:
     identifiers:
       cardtraderId: '417368'
       mcmId: '916733'
+      tcgplayerProductId: '723280'
     contents:
       card_count: 6
       other:
