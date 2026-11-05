@@ -91,30 +91,6 @@ products:
       - count: 1
         name: Alara Reborn Booster Pack
         set: arb
-  Alara Reborn Intro Packs Set of 5:
-    category: SUBSET
-    subtype: INTRO
-    identifiers:
-      cardtraderId: '47369'
-      mcmId: '210204'
-      tntId: '237697'
-    contents:
-      sealed:
-      - count: 1
-        name: Alara Reborn Intro Pack Dead Ahead
-        set: arb
-      - count: 1
-        name: Alara Reborn Intro Pack Eternal Siege
-        set: arb
-      - count: 1
-        name: Alara Reborn Intro Pack Legion Aloft
-        set: arb
-      - count: 1
-        name: Alara Reborn Intro Pack Rumbler
-        set: arb
-      - count: 1
-        name: Alara Reborn Intro Pack Unnatural Schemes
-        set: arb
   Alara Reborn Intro Pack Eternal Siege:
     category: DECK
     subtype: INTRO
@@ -194,6 +170,30 @@ products:
       sealed:
       - count: 1
         name: Alara Reborn Booster Pack
+        set: arb
+  Alara Reborn Intro Packs Set of 5:
+    category: SUBSET
+    subtype: INTRO
+    identifiers:
+      cardtraderId: '47369'
+      mcmId: '210204'
+      tntId: '237697'
+    contents:
+      sealed:
+      - count: 1
+        name: Alara Reborn Intro Pack Dead Ahead
+        set: arb
+      - count: 1
+        name: Alara Reborn Intro Pack Eternal Siege
+        set: arb
+      - count: 1
+        name: Alara Reborn Intro Pack Legion Aloft
+        set: arb
+      - count: 1
+        name: Alara Reborn Intro Pack Rumbler
+        set: arb
+      - count: 1
+        name: Alara Reborn Intro Pack Unnatural Schemes
         set: arb
   Alara Reborn MTGO Redemption:
     category: BOX_SET

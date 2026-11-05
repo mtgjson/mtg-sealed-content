@@ -92,31 +92,6 @@ products:
       - count: 1
         name: Conflux Booster Pack
         set: con
-  Conflux Intro Packs Set of 5:
-    category: SUBSET
-    subtype: INTRO
-    identifiers:
-      cardtraderId: '47351'
-      mcmId: '210205'
-      tcgplayerProductId: '536267'
-      tntId: '237689'
-    contents:
-      sealed:
-      - count: 1
-        name: Conflux Intro Pack Bant on the March
-        set: con
-      - count: 1
-        name: Conflux Intro Pack Esper Air Assault
-        set: con
-      - count: 1
-        name: Conflux Intro Pack Grixis Shambling Army
-        set: con
-      - count: 1
-        name: Conflux Intro Pack Jund Appetite for War
-        set: con
-      - count: 1
-        name: Conflux Intro Pack Naya Domain
-        set: con
   Conflux Intro Pack Esper Air Assault:
     category: DECK
     subtype: INTRO
@@ -196,6 +171,31 @@ products:
       sealed:
       - count: 1
         name: Conflux Booster Pack
+        set: con
+  Conflux Intro Packs Set of 5:
+    category: SUBSET
+    subtype: INTRO
+    identifiers:
+      cardtraderId: '47351'
+      mcmId: '210205'
+      tcgplayerProductId: '536267'
+      tntId: '237689'
+    contents:
+      sealed:
+      - count: 1
+        name: Conflux Intro Pack Bant on the March
+        set: con
+      - count: 1
+        name: Conflux Intro Pack Esper Air Assault
+        set: con
+      - count: 1
+        name: Conflux Intro Pack Grixis Shambling Army
+        set: con
+      - count: 1
+        name: Conflux Intro Pack Jund Appetite for War
+        set: con
+      - count: 1
+        name: Conflux Intro Pack Naya Domain
         set: con
   Conflux MTGO Redemption:
     category: BOX_SET
