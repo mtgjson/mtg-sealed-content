@@ -1,5 +1,27 @@
 code: q08
 products:
+  Pioneer Challenger Deck 2022 Dimir Control:
+    category: DECK
+    subtype: CHALLENGER
+    release_date: '2022-11-04'
+    identifiers:
+      abuId: '2257959'
+      cardKingdomId: '267707'
+      cardtraderId: '226825'
+      csiId: '341813'
+      hareruyaId: '120743'
+      mcmId: '666757'
+      scgId: SLD-MTG-INT-Q08-EN-DIMIR
+      tcgplayerProductId: '278663'
+      tntId: '1767251'
+    contents:
+      card_count: 75
+      deck:
+      - name: Dimir Control
+        set: q08
+      other:
+      - name: 5 Double Sided Tokens
+      - name: 6 Helper Cards
   Pioneer Challenger Deck 2022 Display:
     category: DECK_BOX
     subtype: CHALLENGER
@@ -23,6 +45,28 @@ products:
       - count: 2
         name: Pioneer Challenger Deck 2022 Gruul Stompy
         set: q08
+  Pioneer Challenger Deck 2022 Gruul Stompy:
+    category: DECK
+    subtype: CHALLENGER
+    release_date: '2022-11-04'
+    identifiers:
+      abuId: '2257962'
+      cardKingdomId: '267710'
+      cardtraderId: '226827'
+      csiId: '341814'
+      hareruyaId: '120744'
+      mcmId: '666760'
+      scgId: SLD-MTG-INT-Q08-EN-GRUUL
+      tcgplayerProductId: '278666'
+      tntId: '1767254'
+    contents:
+      card_count: 75
+      deck:
+      - name: Gruul Stompy
+        set: q08
+      other:
+      - name: 5 Double Sided Tokens
+      - name: 6 Helper Cards
   Pioneer Challenger Deck 2022 Izzet Phoenix:
     category: DECK
     subtype: CHALLENGER
@@ -63,50 +107,6 @@ products:
       card_count: 75
       deck:
       - name: Orzhov Humans
-        set: q08
-      other:
-      - name: 5 Double Sided Tokens
-      - name: 6 Helper Cards
-  Pioneer Challenger Deck 2022 Dimir Control:
-    category: DECK
-    subtype: CHALLENGER
-    release_date: '2022-11-04'
-    identifiers:
-      abuId: '2257959'
-      cardKingdomId: '267707'
-      cardtraderId: '226825'
-      csiId: '341813'
-      hareruyaId: '120743'
-      mcmId: '666757'
-      scgId: SLD-MTG-INT-Q08-EN-DIMIR
-      tcgplayerProductId: '278663'
-      tntId: '1767251'
-    contents:
-      card_count: 75
-      deck:
-      - name: Dimir Control
-        set: q08
-      other:
-      - name: 5 Double Sided Tokens
-      - name: 6 Helper Cards
-  Pioneer Challenger Deck 2022 Gruul Stompy:
-    category: DECK
-    subtype: CHALLENGER
-    release_date: '2022-11-04'
-    identifiers:
-      abuId: '2257962'
-      cardKingdomId: '267710'
-      cardtraderId: '226827'
-      csiId: '341814'
-      hareruyaId: '120744'
-      mcmId: '666760'
-      scgId: SLD-MTG-INT-Q08-EN-GRUUL
-      tcgplayerProductId: '278666'
-      tntId: '1767254'
-    contents:
-      card_count: 75
-      deck:
-      - name: Gruul Stompy
         set: q08
       other:
       - name: 5 Double Sided Tokens

@@ -1,19 +1,5 @@
 code: eoc
 products:
-  Edge of Eternities Commander Decks Set of 4:
-    category: SUBSET
-    subtype: COMMANDER
-    release_date: '2025-08-01'
-    identifiers:
-      tcgplayerProductId: '619691'
-    contents:
-      sealed:
-      - count: 2
-        name: Edge of Eternities Commander Deck Counter Intelligence
-        set: eoc
-      - count: 2
-        name: Edge of Eternities Commander Deck World Shaper
-        set: eoc
   Edge of Eternities Commander Deck Counter Intelligence:
     category: DECK
     subtype: COMMANDER
@@ -77,5 +63,19 @@ products:
         name: Edge of Eternities Commander Deck Counter Intelligence
         set: eoc
       - count: 1
+        name: Edge of Eternities Commander Deck World Shaper
+        set: eoc
+  Edge of Eternities Commander Decks Set of 4:
+    category: SUBSET
+    subtype: COMMANDER
+    release_date: '2025-08-01'
+    identifiers:
+      tcgplayerProductId: '619691'
+    contents:
+      sealed:
+      - count: 2
+        name: Edge of Eternities Commander Deck Counter Intelligence
+        set: eoc
+      - count: 2
         name: Edge of Eternities Commander Deck World Shaper
         set: eoc

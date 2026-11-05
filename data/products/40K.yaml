@@ -1,57 +1,5 @@
 code: 40k
 products:
-  Warhammer 40000 Commander Decks Set of 4:
-    category: SUBSET
-    subtype: COMMANDER
-    release_date: '2022-10-07'
-    identifiers:
-      cardKingdomId: '265872'
-      cardtraderId: '221755'
-      csiId: '339082'
-      hareruyaId: '118743'
-      mcmId: '674342'
-      scgId: SLD-MTG-MLT-40K-EN-SET4
-      tcgplayerProductId: '272321'
-    contents:
-      sealed:
-      - count: 1
-        name: Warhammer 40000 Commander Deck Forces of the Imperium
-        set: 40k
-      - count: 1
-        name: Warhammer 40000 Commander Deck Necron Dynasties
-        set: 40k
-      - count: 1
-        name: Warhammer 40000 Commander Deck The Ruinous Powers
-        set: 40k
-      - count: 1
-        name: Warhammer 40000 Commander Deck Tyranid Swarm
-        set: 40k
-  Warhammer 40000 Commander Decks Collector's Edition Set of 4:
-    category: SUBSET
-    subtype: COMMANDER
-    release_date: '2022-10-07'
-    identifiers:
-      cardKingdomId: '265873'
-      cardtraderId: '221754'
-      csiId: '339087'
-      hareruyaId: '118742'
-      mcmId: '674343'
-      scgId: SLD-MTG-MLT-40KCOLLECTOR-EN-SET4
-      tcgplayerProductId: '272322'
-    contents:
-      sealed:
-      - count: 1
-        name: Warhammer 40000 Commander Deck Forces of the Imperium Collector's Edition
-        set: 40k
-      - count: 1
-        name: Warhammer 40000 Commander Deck Necron Dynasties Collector's Edition
-        set: 40k
-      - count: 1
-        name: Warhammer 40000 Commander Deck The Ruinous Powers Collector's Edition
-        set: 40k
-      - count: 1
-        name: Warhammer 40000 Commander Deck Tyranid Swarm Collector's Edition
-        set: 40k
   Warhammer 40000 Commander Deck Forces of the Imperium:
     category: DECK
     subtype: COMMANDER
@@ -212,3 +160,55 @@ products:
         set: 40k
       other:
       - name: 10 Surge Foil Double Sided Tokens
+  Warhammer 40000 Commander Decks Collector's Edition Set of 4:
+    category: SUBSET
+    subtype: COMMANDER
+    release_date: '2022-10-07'
+    identifiers:
+      cardKingdomId: '265873'
+      cardtraderId: '221754'
+      csiId: '339087'
+      hareruyaId: '118742'
+      mcmId: '674343'
+      scgId: SLD-MTG-MLT-40KCOLLECTOR-EN-SET4
+      tcgplayerProductId: '272322'
+    contents:
+      sealed:
+      - count: 1
+        name: Warhammer 40000 Commander Deck Forces of the Imperium Collector's Edition
+        set: 40k
+      - count: 1
+        name: Warhammer 40000 Commander Deck Necron Dynasties Collector's Edition
+        set: 40k
+      - count: 1
+        name: Warhammer 40000 Commander Deck The Ruinous Powers Collector's Edition
+        set: 40k
+      - count: 1
+        name: Warhammer 40000 Commander Deck Tyranid Swarm Collector's Edition
+        set: 40k
+  Warhammer 40000 Commander Decks Set of 4:
+    category: SUBSET
+    subtype: COMMANDER
+    release_date: '2022-10-07'
+    identifiers:
+      cardKingdomId: '265872'
+      cardtraderId: '221755'
+      csiId: '339082'
+      hareruyaId: '118743'
+      mcmId: '674342'
+      scgId: SLD-MTG-MLT-40K-EN-SET4
+      tcgplayerProductId: '272321'
+    contents:
+      sealed:
+      - count: 1
+        name: Warhammer 40000 Commander Deck Forces of the Imperium
+        set: 40k
+      - count: 1
+        name: Warhammer 40000 Commander Deck Necron Dynasties
+        set: 40k
+      - count: 1
+        name: Warhammer 40000 Commander Deck The Ruinous Powers
+        set: 40k
+      - count: 1
+        name: Warhammer 40000 Commander Deck Tyranid Swarm
+        set: 40k

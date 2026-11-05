@@ -27,33 +27,6 @@ products:
       - count: 1
         name: Bloomburrow Collector Booster Sample Pack
         set: blb
-  Bloomburrow Commander Decks Set of 4:
-    category: SUBSET
-    subtype: COMMANDER
-    release_date: '2024-08-02'
-    identifiers:
-      cardKingdomId: '298742'
-      cardtraderId: '280724'
-      csiId: '384258'
-      hareruyaId: '161597'
-      mcmId: '774140'
-      miniaturemarketId: 0190f59c6a6d72d5a81846bc6c6593ca
-      scgId: SLD-MTG-MLT-BLC-EN-SET4
-      tcgplayerProductId: '541250'
-    contents:
-      sealed:
-      - count: 1
-        name: Bloomburrow Commander Deck Animated Army
-        set: blc
-      - count: 1
-        name: Bloomburrow Commander Deck Family Matters
-        set: blc
-      - count: 1
-        name: Bloomburrow Commander Deck Peace Offering
-        set: blc
-      - count: 1
-        name: Bloomburrow Commander Deck Squirreled Away
-        set: blc
   Bloomburrow Commander Deck Family Matters:
     category: DECK
     subtype: COMMANDER
@@ -135,6 +108,33 @@ products:
       - count: 1
         name: Bloomburrow Collector Booster Sample Pack
         set: blb
+  Bloomburrow Commander Decks Set of 4:
+    category: SUBSET
+    subtype: COMMANDER
+    release_date: '2024-08-02'
+    identifiers:
+      cardKingdomId: '298742'
+      cardtraderId: '280724'
+      csiId: '384258'
+      hareruyaId: '161597'
+      mcmId: '774140'
+      miniaturemarketId: 0190f59c6a6d72d5a81846bc6c6593ca
+      scgId: SLD-MTG-MLT-BLC-EN-SET4
+      tcgplayerProductId: '541250'
+    contents:
+      sealed:
+      - count: 1
+        name: Bloomburrow Commander Deck Animated Army
+        set: blc
+      - count: 1
+        name: Bloomburrow Commander Deck Family Matters
+        set: blc
+      - count: 1
+        name: Bloomburrow Commander Deck Peace Offering
+        set: blc
+      - count: 1
+        name: Bloomburrow Commander Deck Squirreled Away
+        set: blc
   Bloomburrow Deluxe Commander Kit Animated Army:
     category: DECK
     subtype: COMMANDER

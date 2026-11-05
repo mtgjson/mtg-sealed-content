@@ -31,39 +31,6 @@ products:
       - count: 10
         name: Zendikar Rising Draft Booster Pack
         set: znr
-  Zendikar Rising Gift Bundle:
-    category: BUNDLE
-    subtype: GIFT_BUNDLE
-    release_date: '2020-11-13'
-    identifiers:
-      abuId: '1917560'
-      cardKingdomId: '238663'
-      cardtraderId: '62573'
-      hareruyaId: '101588'
-      mcmId: '495234'
-      scgId: SLD-MTG-BUN-ZNRGIFT-EN
-      tcgplayerProductId: '221918'
-      tntId: '1677678'
-    contents:
-      card:
-      - foil: true
-        name: Charix, the Raging Isle
-        number: 386
-        set: znr
-      deck:
-      - name: Zendikar Rising Bundle Land Pack
-        set: znr
-      other:
-      - name: 1 reusable storage box
-      - name: 1 oversized spindown counter
-      - name: 2 reference cards
-      sealed:
-      - count: 10
-        name: Zendikar Rising Draft Booster Pack
-        set: znr
-      - count: 1
-        name: Zendikar Rising Collector Booster Pack
-        set: znr
   Zendikar Rising Collector Booster Box:
     category: BOOSTER_BOX
     subtype: COLLECTOR
@@ -190,6 +157,39 @@ products:
       - name: MTG Arena code card (where available)
       pack:
       - code: promo-foil
+        set: znr
+  Zendikar Rising Gift Bundle:
+    category: BUNDLE
+    subtype: GIFT_BUNDLE
+    release_date: '2020-11-13'
+    identifiers:
+      abuId: '1917560'
+      cardKingdomId: '238663'
+      cardtraderId: '62573'
+      hareruyaId: '101588'
+      mcmId: '495234'
+      scgId: SLD-MTG-BUN-ZNRGIFT-EN
+      tcgplayerProductId: '221918'
+      tntId: '1677678'
+    contents:
+      card:
+      - foil: true
+        name: Charix, the Raging Isle
+        number: 386
+        set: znr
+      deck:
+      - name: Zendikar Rising Bundle Land Pack
+        set: znr
+      other:
+      - name: 1 reusable storage box
+      - name: 1 oversized spindown counter
+      - name: 2 reference cards
+      sealed:
+      - count: 10
+        name: Zendikar Rising Draft Booster Pack
+        set: znr
+      - count: 1
+        name: Zendikar Rising Collector Booster Pack
         set: znr
   Zendikar Rising MTGO Redemption:
     category: BOX_SET
