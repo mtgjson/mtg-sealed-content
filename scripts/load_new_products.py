@@ -66,6 +66,9 @@ def tcgdownload(url, params, api_version, auth_code):
         url.replace("[API_VERSION]", api_version), params=params,
         headers=header, timeout=(10, 60),
     )
+    # A group holding none of the requested product types answers 404.
+    if r.status_code == 404 and b"No products were found" in r.content:
+        return b""
     r.raise_for_status()
     # print(r.ok)
     return r.content

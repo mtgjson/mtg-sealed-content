@@ -1,5 +1,6 @@
 import contextlib
 import io
+import json
 from pathlib import Path
 import runpy
 import sys
@@ -33,6 +34,26 @@ class StandaloneHttpTests(unittest.TestCase):
             ) as get, contextlib.redirect_stdout(io.StringIO()), self.assertRaises(requests.HTTPError):
                 loader(None)
             self.assertEqual(get.call_args.kwargs["timeout"], (10, 60))
+
+    def test_tcgplayer_empty_group_does_not_abort_the_catalog(self):
+        empty = response(404, b'{"success":false,"errors":["No products were found."],"results":[]}')
+        full = response(200, json.dumps({"results": [
+            {"productId": 1, "cleanName": "Some Box", "presaleInfo": {"releasedOn": None}},
+        ]}).encode())
+        groups = response(200, json.dumps({"results": [
+            {"groupId": 1, "name": "Art Series"}, {"groupId": 2, "name": "Some Set"},
+        ]}).encode())
+        with patch.object(load_new_products.requests, "get", side_effect=[groups, empty, full]), \
+                contextlib.redirect_stdout(io.StringIO()):
+            products = load_new_products.get_tcgplayer("v1", "token")
+        self.assertEqual([p["id"] for p in products], [1])
+
+    def test_tcgplayer_other_errors_still_raise(self):
+        for failure in (response(404, b"Not Found"), response(503, b"maintenance")):
+            with self.subTest(status=failure.status_code), patch.object(
+                load_new_products.requests, "get", return_value=failure
+            ), self.assertRaises(requests.HTTPError):
+                load_new_products.tcgdownload("https://example.test", {}, "v1", "token")
 
     def test_post_search_errors_raise_before_json_parsing(self):
         with patch.object(load_new_products.requests, "post", return_value=response(503, b"maintenance")) as post:
