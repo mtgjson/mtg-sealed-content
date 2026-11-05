@@ -21,7 +21,7 @@ def read_input(prompt=""):
     return BRACKETED_PASTE_RE.sub("", input(prompt))
 
 def names_a_finish(product_name):
-    return re.search(r"(?<!non )(?<!non-)\b(foil|etched)\b", product_name, re.I) is not None
+    return re.search(r"(?<!\bnon )(?<!\bnon-)\b(foil|etched)\b", product_name, re.I) is not None
 
 
 def infer_product_definition(product_name):
