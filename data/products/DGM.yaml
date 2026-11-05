@@ -11,7 +11,7 @@ products:
       pack:
       - code: six
         set: dgm
-  Dragons Maze Booster Box:
+  Dragon's Maze Booster Box:
     category: BOOSTER_BOX
     subtype: DRAFT
     release_date: '2013-05-03'
@@ -28,9 +28,9 @@ products:
     contents:
       sealed:
       - count: 36
-        name: Dragons Maze Booster Pack
+        name: Dragon's Maze Booster Pack
         set: dgm
-  Dragons Maze Booster Box Case:
+  Dragon's Maze Booster Box Case:
     category: BOOSTER_CASE
     subtype: DRAFT
     identifiers:
@@ -38,9 +38,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Dragons Maze Booster Box
+        name: Dragon's Maze Booster Box
         set: dgm
-  Dragons Maze Booster Pack:
+  Dragon's Maze Booster Pack:
     category: BOOSTER_PACK
     subtype: DRAFT
     release_date: '2013-05-03'
@@ -59,7 +59,7 @@ products:
       pack:
       - code: draft
         set: dgm
-  Dragons Maze Event Deck Strength of Selesnya:
+  Dragon's Maze Event Deck Strength of Selesnya:
     category: DECK
     subtype: EVENT
     identifiers:
@@ -75,7 +75,7 @@ products:
       deck:
       - name: Strength Of Selesnya
         set: dgm
-  Dragons Maze Fat Pack:
+  Dragon's Maze Fat Pack:
     category: BUNDLE
     subtype: FAT_PACK
     identifiers:
@@ -99,9 +99,9 @@ products:
       - name: Learn to Play Insert
       sealed:
       - count: 9
-        name: Dragons Maze Booster Pack
+        name: Dragon's Maze Booster Pack
         set: dgm
-  Dragons Maze Intro Pack Azorius Authority:
+  Dragon's Maze Intro Pack Azorius Authority:
     category: DECK
     subtype: INTRO
     identifiers:
@@ -120,9 +120,9 @@ products:
         set: dgm
       sealed:
       - count: 2
-        name: Dragons Maze Booster Pack
+        name: Dragon's Maze Booster Pack
         set: dgm
-  Dragons Maze Intro Pack Display:
+  Dragon's Maze Intro Pack Display:
     category: DECK_BOX
     subtype: INTRO
     identifiers:
@@ -132,21 +132,21 @@ products:
     contents:
       sealed:
       - count: 2
-        name: Dragons Maze Intro Pack Azorius Authority
+        name: Dragon's Maze Intro Pack Azorius Authority
         set: dgm
       - count: 2
-        name: Dragons Maze Intro Pack Gruul Siege
+        name: Dragon's Maze Intro Pack Gruul Siege
         set: dgm
       - count: 2
-        name: Dragons Maze Intro Pack Orzhov Power
+        name: Dragon's Maze Intro Pack Orzhov Power
         set: dgm
       - count: 2
-        name: Dragons Maze Intro Pack Rakdos Revelry
+        name: Dragon's Maze Intro Pack Rakdos Revelry
         set: dgm
       - count: 2
-        name: Dragons Maze Intro Pack Simic Domination
+        name: Dragon's Maze Intro Pack Simic Domination
         set: dgm
-  Dragons Maze Intro Pack Gruul Siege:
+  Dragon's Maze Intro Pack Gruul Siege:
     category: DECK
     subtype: INTRO
     identifiers:
@@ -165,9 +165,9 @@ products:
         set: dgm
       sealed:
       - count: 2
-        name: Dragons Maze Booster Pack
+        name: Dragon's Maze Booster Pack
         set: dgm
-  Dragons Maze Intro Pack Orzhov Power:
+  Dragon's Maze Intro Pack Orzhov Power:
     category: DECK
     subtype: INTRO
     identifiers:
@@ -186,9 +186,9 @@ products:
         set: dgm
       sealed:
       - count: 2
-        name: Dragons Maze Booster Pack
+        name: Dragon's Maze Booster Pack
         set: dgm
-  Dragons Maze Intro Pack Rakdos Revelry:
+  Dragon's Maze Intro Pack Rakdos Revelry:
     category: DECK
     subtype: INTRO
     identifiers:
@@ -207,9 +207,9 @@ products:
         set: dgm
       sealed:
       - count: 2
-        name: Dragons Maze Booster Pack
+        name: Dragon's Maze Booster Pack
         set: dgm
-  Dragons Maze Intro Pack Simic Domination:
+  Dragon's Maze Intro Pack Simic Domination:
     category: DECK
     subtype: INTRO
     identifiers:
@@ -228,9 +228,9 @@ products:
         set: dgm
       sealed:
       - count: 2
-        name: Dragons Maze Booster Pack
+        name: Dragon's Maze Booster Pack
         set: dgm
-  Dragons Maze Intro Packs Set of 5:
+  Dragon's Maze Intro Packs Set of 5:
     category: SUBSET
     subtype: INTRO
     identifiers:
@@ -241,21 +241,21 @@ products:
     contents:
       sealed:
       - count: 1
-        name: Dragons Maze Intro Pack Azorius Authority
+        name: Dragon's Maze Intro Pack Azorius Authority
         set: dgm
       - count: 1
-        name: Dragons Maze Intro Pack Gruul Siege
+        name: Dragon's Maze Intro Pack Gruul Siege
         set: dgm
       - count: 1
-        name: Dragons Maze Intro Pack Orzhov Power
+        name: Dragon's Maze Intro Pack Orzhov Power
         set: dgm
       - count: 1
-        name: Dragons Maze Intro Pack Rakdos Revelry
+        name: Dragon's Maze Intro Pack Rakdos Revelry
         set: dgm
       - count: 1
-        name: Dragons Maze Intro Pack Simic Domination
+        name: Dragon's Maze Intro Pack Simic Domination
         set: dgm
-  Dragons Maze MTGO Redemption:
+  Dragon's Maze MTGO Redemption:
     category: BOX_SET
     subtype: MTGO_REDEMPTION
     identifiers:
@@ -265,7 +265,7 @@ products:
       deck:
       - name: Dragon's Maze Redemption
         set: dgm
-  Dragons Maze MTGO Redemption Foil:
+  Dragon's Maze MTGO Redemption Foil:
     category: BOX_SET
     subtype: MTGO_REDEMPTION
     identifiers:
@@ -275,7 +275,7 @@ products:
       deck:
       - name: Dragon's Maze Foil Redemption
         set: dgm
-  Dragons Maze Prerelease Guild Kit 10 Pack:
+  Dragon's Maze Prerelease Guild Kit 10 Pack:
     category: LIMITED_CASE
     subtype: PRERELEASE
     release_date: '2015-03-02'
@@ -286,36 +286,36 @@ products:
     contents:
       sealed:
       - count: 1
-        name: Dragons Maze Prerelease Guild Kit Azorius
+        name: Dragon's Maze Prerelease Guild Kit Azorius
         set: dgm
       - count: 1
-        name: Dragons Maze Prerelease Guild Kit Boros
+        name: Dragon's Maze Prerelease Guild Kit Boros
         set: dgm
       - count: 1
-        name: Dragons Maze Prerelease Guild Kit Dimir
+        name: Dragon's Maze Prerelease Guild Kit Dimir
         set: dgm
       - count: 1
-        name: Dragons Maze Prerelease Guild Kit Golgari
+        name: Dragon's Maze Prerelease Guild Kit Golgari
         set: dgm
       - count: 1
-        name: Dragons Maze Prerelease Guild Kit Gruul
+        name: Dragon's Maze Prerelease Guild Kit Gruul
         set: dgm
       - count: 1
-        name: Dragons Maze Prerelease Guild Kit Izzet
+        name: Dragon's Maze Prerelease Guild Kit Izzet
         set: dgm
       - count: 1
-        name: Dragons Maze Prerelease Guild Kit Orzhov
+        name: Dragon's Maze Prerelease Guild Kit Orzhov
         set: dgm
       - count: 1
-        name: Dragons Maze Prerelease Guild Kit Rakdos
+        name: Dragon's Maze Prerelease Guild Kit Rakdos
         set: dgm
       - count: 1
-        name: Dragons Maze Prerelease Guild Kit Selesnya
+        name: Dragon's Maze Prerelease Guild Kit Selesnya
         set: dgm
       - count: 1
-        name: Dragons Maze Prerelease Guild Kit Simic
+        name: Dragon's Maze Prerelease Guild Kit Simic
         set: dgm
-  Dragons Maze Prerelease Guild Kit Azorius:
+  Dragon's Maze Prerelease Guild Kit Azorius:
     category: LIMITED
     subtype: PRERELEASE
     identifiers:
@@ -329,7 +329,7 @@ products:
         set: rtr
       sealed:
       - count: 4
-        name: Dragons Maze Booster Pack
+        name: Dragon's Maze Booster Pack
         set: dgm
       variable:
       - pack:
@@ -347,7 +347,7 @@ products:
       variable_mode:
         count: 1
         replacement: false
-  Dragons Maze Prerelease Guild Kit Boros:
+  Dragon's Maze Prerelease Guild Kit Boros:
     category: LIMITED
     subtype: PRERELEASE
     identifiers:
@@ -361,7 +361,7 @@ products:
         set: gtc
       sealed:
       - count: 4
-        name: Dragons Maze Booster Pack
+        name: Dragon's Maze Booster Pack
         set: dgm
       variable:
       - pack:
@@ -379,7 +379,7 @@ products:
       variable_mode:
         count: 1
         replacement: false
-  Dragons Maze Prerelease Guild Kit Dimir:
+  Dragon's Maze Prerelease Guild Kit Dimir:
     category: LIMITED
     subtype: PRERELEASE
     identifiers:
@@ -393,7 +393,7 @@ products:
         set: gtc
       sealed:
       - count: 4
-        name: Dragons Maze Booster Pack
+        name: Dragon's Maze Booster Pack
         set: dgm
       variable:
       - pack:
@@ -411,7 +411,7 @@ products:
       variable_mode:
         count: 1
         replacement: false
-  Dragons Maze Prerelease Guild Kit Golgari:
+  Dragon's Maze Prerelease Guild Kit Golgari:
     category: LIMITED
     subtype: PRERELEASE
     identifiers:
@@ -425,7 +425,7 @@ products:
         set: rtr
       sealed:
       - count: 4
-        name: Dragons Maze Booster Pack
+        name: Dragon's Maze Booster Pack
         set: dgm
       variable:
       - pack:
@@ -443,7 +443,7 @@ products:
       variable_mode:
         count: 1
         replacement: false
-  Dragons Maze Prerelease Guild Kit Gruul:
+  Dragon's Maze Prerelease Guild Kit Gruul:
     category: LIMITED
     subtype: PRERELEASE
     identifiers:
@@ -457,7 +457,7 @@ products:
         set: gtc
       sealed:
       - count: 4
-        name: Dragons Maze Booster Pack
+        name: Dragon's Maze Booster Pack
         set: dgm
       variable:
       - pack:
@@ -475,7 +475,7 @@ products:
       variable_mode:
         count: 1
         replacement: false
-  Dragons Maze Prerelease Guild Kit Izzet:
+  Dragon's Maze Prerelease Guild Kit Izzet:
     category: LIMITED
     subtype: PRERELEASE
     identifiers:
@@ -489,7 +489,7 @@ products:
         set: rtr
       sealed:
       - count: 4
-        name: Dragons Maze Booster Pack
+        name: Dragon's Maze Booster Pack
         set: dgm
       variable:
       - pack:
@@ -507,7 +507,7 @@ products:
       variable_mode:
         count: 1
         replacement: false
-  Dragons Maze Prerelease Guild Kit Orzhov:
+  Dragon's Maze Prerelease Guild Kit Orzhov:
     category: LIMITED
     subtype: PRERELEASE
     identifiers:
@@ -521,7 +521,7 @@ products:
         set: gtc
       sealed:
       - count: 4
-        name: Dragons Maze Booster Pack
+        name: Dragon's Maze Booster Pack
         set: dgm
       variable:
       - pack:
@@ -539,7 +539,7 @@ products:
       variable_mode:
         count: 1
         replacement: false
-  Dragons Maze Prerelease Guild Kit Rakdos:
+  Dragon's Maze Prerelease Guild Kit Rakdos:
     category: LIMITED
     subtype: PRERELEASE
     identifiers:
@@ -553,7 +553,7 @@ products:
         set: rtr
       sealed:
       - count: 4
-        name: Dragons Maze Booster Pack
+        name: Dragon's Maze Booster Pack
         set: dgm
       variable:
       - pack:
@@ -571,7 +571,7 @@ products:
       variable_mode:
         count: 1
         replacement: false
-  Dragons Maze Prerelease Guild Kit Selesnya:
+  Dragon's Maze Prerelease Guild Kit Selesnya:
     category: LIMITED
     subtype: PRERELEASE
     identifiers:
@@ -585,7 +585,7 @@ products:
         set: rtr
       sealed:
       - count: 4
-        name: Dragons Maze Booster Pack
+        name: Dragon's Maze Booster Pack
         set: dgm
       variable:
       - pack:
@@ -603,7 +603,7 @@ products:
       variable_mode:
         count: 1
         replacement: false
-  Dragons Maze Prerelease Guild Kit Simic:
+  Dragon's Maze Prerelease Guild Kit Simic:
     category: LIMITED
     subtype: PRERELEASE
     identifiers:
@@ -617,7 +617,7 @@ products:
         set: gtc
       sealed:
       - count: 4
-        name: Dragons Maze Booster Pack
+        name: Dragon's Maze Booster Pack
         set: dgm
       variable:
       - pack:
