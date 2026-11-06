@@ -1,5 +1,20 @@
 code: mb1
 products:
+  Mystery Booster Booster Box (Convention Edition - 2019):
+    category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2019-11-07'
+    identifiers:
+      cardKingdomId: '230714'
+      csiId: '321079'
+      mcmId: '573877'
+      scgId: SLD-MTG-BBX-MB1CON-EN
+      tcgplayerProductId: '217533'
+    contents:
+      sealed:
+      - count: 24
+        name: Mystery Booster Booster Pack (Convention Edition - 2019)
+        set: mb1
   Mystery Booster Booster Box (Convention Edition - 2021):
     category: BOOSTER_BOX
     subtype: DRAFT
@@ -17,21 +32,6 @@ products:
       sealed:
       - count: 24
         name: Mystery Booster Booster Pack (Convention Edition - 2021)
-        set: mb1
-  Mystery Booster Booster Box (Convention Edition - 2019):
-    category: BOOSTER_BOX
-    subtype: DRAFT
-    release_date: '2019-11-07'
-    identifiers:
-      cardKingdomId: '230714'
-      csiId: '321079'
-      mcmId: '573877'
-      scgId: SLD-MTG-BBX-MB1CON-EN
-      tcgplayerProductId: '217533'
-    contents:
-      sealed:
-      - count: 24
-        name: Mystery Booster Booster Pack (Convention Edition - 2019)
         set: mb1
   Mystery Booster Booster Box (Retail Edition):
     category: BOOSTER_BOX
@@ -72,21 +72,6 @@ products:
       - count: 6
         name: Mystery Booster Booster Box (Retail Edition)
         set: mb1
-  Mystery Booster Booster Pack (Convention Edition - 2021):
-    category: BOOSTER_PACK
-    subtype: DRAFT
-    release_date: '2021-08-20'
-    identifiers:
-      abuId: '2074186'
-      cardKingdomId: '250163'
-      csiId: '321995'
-      scgId: SLD-MTG-PCK-MB1CON-EN-2021
-      tcgplayerProductId: '246936'
-    contents:
-      card_count: 15
-      pack:
-      - code: convention-2021
-        set: mb1
   Mystery Booster Booster Pack (Convention Edition - 2019):
     category: BOOSTER_PACK
     subtype: DRAFT
@@ -103,6 +88,21 @@ products:
       card_count: 15
       pack:
       - code: convention
+        set: mb1
+  Mystery Booster Booster Pack (Convention Edition - 2021):
+    category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2021-08-20'
+    identifiers:
+      abuId: '2074186'
+      cardKingdomId: '250163'
+      csiId: '321995'
+      scgId: SLD-MTG-PCK-MB1CON-EN-2021
+      tcgplayerProductId: '246936'
+    contents:
+      card_count: 15
+      pack:
+      - code: convention-2021
         set: mb1
   Mystery Booster Booster Pack (Retail Edition):
     category: BOOSTER_PACK
