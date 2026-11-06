@@ -18,7 +18,7 @@ products:
       - count: 24
         name: Mystery Booster Booster Pack (Convention Edition - 2021)
         set: mb1
-  Mystery Booster Booster Box (Convention Edition):
+  Mystery Booster Booster Box (Convention Edition - 2019):
     category: BOOSTER_BOX
     subtype: DRAFT
     release_date: '2019-11-07'
@@ -31,7 +31,7 @@ products:
     contents:
       sealed:
       - count: 24
-        name: Mystery Booster Booster Pack (Convention Edition)
+        name: Mystery Booster Booster Pack (Convention Edition - 2019)
         set: mb1
   Mystery Booster Booster Box (Retail Edition):
     category: BOOSTER_BOX
@@ -87,7 +87,7 @@ products:
       pack:
       - code: convention-2021
         set: mb1
-  Mystery Booster Booster Pack (Convention Edition):
+  Mystery Booster Booster Pack (Convention Edition - 2019):
     category: BOOSTER_PACK
     subtype: DRAFT
     release_date: '2019-11-07'
