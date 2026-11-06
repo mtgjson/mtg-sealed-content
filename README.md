@@ -101,6 +101,7 @@ Name a product `<Set> <Product>`, using this repository's words rather than a st
 - One Play, Collector, Set, Draft or Theme booster is a `Booster Pack`, never a bare `Booster`: `My Set Collector Booster Pack`. Boosters sold under their own name keep it, such as `My Set Welcome Booster`.
 - A case of boxes is a `Booster Box Case`: `My Set Collector Booster Box Case`.
 - Keep the kind of booster the set sells it as (`Play`, `Collector`, `Jumpstart`), so `My Set Play Booster Box` for a set with Play Boosters and `My Set Booster Box` for one that sells plain boosters.
+- A product released again under the same name carries each release's year: `My Set Booster Pack (Convention Edition - 2019)`, `My Set Booster Pack (Convention Edition - 2021)`.
 - A case or display holding one of each variant is a `Set of N`, even where a store calls it a `Case` or `Display`.
 - A `Set of N` is plural: `My Set Commander Decks Set of 4`, `My Set Intro Packs Set of 5`. `Prerelease Kit`, `Scene Box` and `Theme Booster Pack` are the exceptions: `My Set Scene Box Set of 2`.
 - A pack of several boosters takes a hyphen: `My Set 3-Booster Draft Pack`, `My Set Jumpstart 2-Booster Pack`.
