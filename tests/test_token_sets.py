@@ -37,3 +37,7 @@ class AssociatedTokenSetTests(unittest.TestCase):
     def test_tokens_paired_from_another_set_are_included(self):
         parser = parser_for(token_set("C20"), token_set("IKO"))
         self.assertEqual(set(parser.get_associated_mtgjson_tokens("C20")), {"C20", "IKO"})
+
+    def test_secret_lair_includes_the_list_tokens(self):
+        parser = parser_for(token_set("SLD"), token_set("PLST"))
+        self.assertEqual(set(parser.get_associated_mtgjson_tokens("SLD")), {"SLD", "PLST"})

@@ -34,10 +34,12 @@ class MtgjsonParser:
         self.__set_code_to_group_ids["J25"].add(23792)
 
         # Products that pair a set's tokens with another set's, which MTGJSON
-        # doesn't relate: C20 with IKO tokens, HOU with AKH tokens.
+        # doesn't relate: C20 with IKO tokens, HOU with AKH tokens, and Secret
+        # Lair tokens with the other sets' tokens The List reprints.
         self.__set_code_to_paired_set_codes = {
             "C20": ["IKO"],
             "HOU": ["AKH"],
+            "SLD": ["PLST"],
         }
 
     def get_associated_mtgjson_tokens(

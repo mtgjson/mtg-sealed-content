@@ -95,6 +95,56 @@ class ProductSetTokenMappingTests(unittest.TestCase):
         )
 
 
+def list_token(uuid, name, number):
+    return {**token(uuid, name, number), "setCode": "PLST"}
+
+
+class ListTokenMappingTests(unittest.TestCase):
+    def build(self, tcgplayer_product):
+        return build_tokens_mapping(
+            "SLD",
+            {
+                "SLD": [token("sld-spirit", "Spirit", "1852")],
+                "PLST": [
+                    list_token("plst-cmr-soldier", "Soldier", "TCMR-2"),
+                    list_token("plst-grn-soldier", "Soldier", "TGRN-2"),
+                    list_token("plst-m20-pridemate", "Ajani's Pridemate", "TM20-1"),
+                ],
+            },
+            [tcgplayer_product],
+            TcgplayerTokenParser(),
+            {"SLD": 2576, "PLST": 2715},
+        )
+
+    def test_secret_lair_back_matches_the_list_token_from_the_named_set(self):
+        for set_code in ("CMR", "GRN"):
+            with self.subTest(set_code):
+                mapping = self.build(
+                    product(
+                        f"Spirit (SLD) // Soldier ({set_code}) Double-sided Token",
+                        "1852 // 2",
+                        2576,
+                    )
+                )
+                self.assertEqual(
+                    mapping["sld-spirit"][0]["tokenParts"],
+                    [{"uuid": "sld-spirit"}, {"uuid": f"plst-{set_code.lower()}-soldier"}],
+                )
+
+    def test_secret_lair_back_without_a_named_set_does_not_match_a_list_token(self):
+        mapping = self.build(
+            product("Spirit (SLD) // Ajani's Pridemate Double-sided Token", "1852 // 1", 2576)
+        )
+        self.assertNotIn("plst-m20-pridemate", mapping)
+        self.assertNotIn("uuid", mapping["sld-spirit"][0]["tokenParts"][1])
+
+    def test_secret_lair_back_from_another_set_does_not_match_a_list_token(self):
+        mapping = self.build(
+            product("Spirit (SLD) // Soldier (KHM) Double-sided Token", "1852 // 2", 2576)
+        )
+        self.assertEqual(set(mapping), {"sld-spirit"})
+
+
 class TokenMappingTests(unittest.TestCase):
     def test_ambiguous_face_resolves_to_one_token_and_preserves_input(self):
         tokens = [{"tokenParts": [
