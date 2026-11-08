@@ -49,11 +49,13 @@ def normalize_cardkingdom_name(name):
     name = re.sub(r" - Foil Etched$", " Etched", name)
     name = re.sub(r" - Complete Set \(Factory Sealed\)$", " MTGO Redemption", name)
     name = re.sub(r" - Complete FOIL Set \(Factory Sealed\)$", " MTGO Redemption Foil", name)
-    # Punctuation the product names leave out ("Vol.2" keeps a space).
-    name = re.sub(r"\.(?=\d)", " ", name)
+    # Punctuation Secret Lair names leave out ("Vol.2" keeps a space); other
+    # products start with their set's name, punctuation included.
+    if name.startswith("Secret Lair Drop"):
+        name = re.sub(r"\.(?=\d)", " ", name)
+        name = re.sub(r"[.:|]", "", name)
+        name = re.sub(r"(?<=\w)-(?=\w)", " ", name)
     name = name.replace("’", "'")
-    name = re.sub(r"[.:|]", "", name)
-    name = re.sub(r"(?<=\w)-(?=\w)", " ", name)
     name = name.replace(" - ", " ")
     return re.sub(r"\s+", " ", name).strip()
 

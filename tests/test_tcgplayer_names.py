@@ -25,7 +25,7 @@ class TcgplayerNameTests(unittest.TestCase):
 
     def test_other_products_keep_their_names(self):
         for name in ("Marvel Darkhold Destiny Commander Deck Case Collectors Edition",
-                     "Duskmourn House of Horror Foil Promo Pack"):
+                     "Duskmourn: House of Horror Foil Promo Pack"):
             self.assertEqual(normalize_tcgplayer_name(name), name)
 
 
