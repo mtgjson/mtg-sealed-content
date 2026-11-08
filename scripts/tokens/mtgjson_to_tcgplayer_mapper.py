@@ -163,6 +163,18 @@ class MtgjsonToTcgplayerMapper:
         )
         return True
 
+    def match_list_token(self, mtgjson_token, tcgplayer_token_face) -> bool:
+        # The List reprints other sets' tokens, numbered by the set each comes
+        # from as in "TKHM-8", on the backs of Secret Lair double-sided tokens.
+        # Many tokens share a name and number, so a face matches a List token
+        # only from the set TCGplayer names on it, as in "Shapeshifter (KHM)".
+        set_code_hint = tcgplayer_token_face.get("setCodeHint")
+        if not set_code_hint:
+            return False
+        return mtgjson_token["number"] == (
+            f"T{set_code_hint}-{tcgplayer_token_face['faceId']}"
+        ) and self.compare_names(tcgplayer_token_face["faceName"], mtgjson_token["name"])
+
     def handle_tokens(
         self,
         set_code,
@@ -171,6 +183,16 @@ class MtgjsonToTcgplayerMapper:
         tcgplayer_token_face_index,
         tcgplayer_token_face,
     ):
+        if mtgjson_token.get("setCode") == "PLST" and set_code != "PLST":
+            if not self.match_list_token(mtgjson_token, tcgplayer_token_face):
+                return False
+            print(f"> Found List Token for {tcgplayer_token_face}")
+            self.add_uuid_to_list(
+                tcgplayer_token_face_details,
+                tcgplayer_token_face_index,
+                mtgjson_token,
+            )
+            return True
 
         mtgjson_token_number = mtgjson_token["number"].split("-")[-1]
         if mtgjson_token_number[0].isalpha() and set_code in {"MED"}:

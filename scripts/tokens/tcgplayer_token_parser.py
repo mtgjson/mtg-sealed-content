@@ -29,7 +29,7 @@ class TcgplayerTokenParser:
             r".*[Dd]oubled?[- ][Ss]ided Token \((.*?)\)"
         )
         self.__role_regex = re.compile(r"(.*) Role / (.*) Role")
-        self.__face_set_code_regex = re.compile(r"\(\d+\S* ([A-Z][A-Z0-9]{1,4})\)")
+        self.__face_set_code_regex = re.compile(r"\((?:\d+\S* )?([A-Z][A-Z0-9]{1,4})\)")
         self.__face_number_regex = re.compile(r"\((\d+)\)")
 
     def __fix_emblem_names(self, token) -> str:
@@ -97,7 +97,8 @@ class TcgplayerTokenParser:
     def __get_face_set_code_hints(self, token_name: str) -> List[str | None]:
         """
         TCGplayer names the set of a face when a product pairs two tokens that
-        share a name and number, as in "Zombie (005 MIC) // Zombie (005 MID)".
+        share a name and number, as in "Zombie (005 MIC) // Zombie (005 MID)",
+        or pairs tokens from different sets, as in "Spirit (SLD) // Clue (CMM)".
         """
         if match := self.__double_sided_token_regex.match(token_name):
             faces = match.group(1).split(" // ")
