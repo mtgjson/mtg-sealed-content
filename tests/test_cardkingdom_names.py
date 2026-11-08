@@ -25,7 +25,7 @@ class CardKingdomNameTests(unittest.TestCase):
             "Universes Beyond: Fallout Commander Deck - Mutant Menace":
                 "Fallout Commander Deck Mutant Menace",
             "Tarkir: Dragonstorm - Complete Set (Factory Sealed)":
-                "Tarkir Dragonstorm MTGO Redemption",
+                "Tarkir: Dragonstorm MTGO Redemption",
             "The Brothers' War - Complete FOIL Set (Factory Sealed)":
                 "The Brothers' War MTGO Redemption Foil",
             "Mercadian Masques Booster Box":
