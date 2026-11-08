@@ -1,6 +1,6 @@
 code: ddg
 products:
-  Duel Deck Knights vs Dragons:
+  'Duel Decks: Knights vs. Dragons':
     category: MULTI_DECK
     subtype: DUEL
     identifiers:
@@ -16,12 +16,12 @@ products:
     contents:
       sealed:
       - count: 1
-        name: Duel Deck Knights vs Dragons Knights Deck
+        name: 'Duel Decks: Knights vs. Dragons Knights Deck'
         set: ddg
       - count: 1
-        name: Duel Deck Knights vs Dragons Dragons Deck
+        name: 'Duel Decks: Knights vs. Dragons Dragons Deck'
         set: ddg
-  Duel Deck Knights vs Dragons Display:
+  'Duel Decks: Knights vs. Dragons Display':
     category: DECK_BOX
     subtype: DUEL
     identifiers:
@@ -29,9 +29,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Duel Deck Knights vs Dragons
+        name: 'Duel Decks: Knights vs. Dragons'
         set: ddg
-  Duel Deck Knights vs Dragons Dragons Deck:
+  'Duel Decks: Knights vs. Dragons Dragons Deck':
     category: DECK
     subtype: DUEL
     identifiers: {}
@@ -40,7 +40,7 @@ products:
       deck:
       - name: Dragons
         set: ddg
-  Duel Deck Knights vs Dragons Knights Deck:
+  'Duel Decks: Knights vs. Dragons Knights Deck':
     category: DECK
     subtype: DUEL
     identifiers: {}

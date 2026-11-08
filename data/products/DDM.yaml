@@ -1,6 +1,6 @@
 code: ddm
 products:
-  Duel Deck Jace vs Vraska:
+  'Duel Decks: Jace vs. Vraska':
     category: MULTI_DECK
     subtype: DUEL
     release_date: '2014-03-14'
@@ -17,12 +17,12 @@ products:
     contents:
       sealed:
       - count: 1
-        name: Duel Deck Jace vs Vraska Jace Deck
+        name: 'Duel Decks: Jace vs. Vraska Jace Deck'
         set: ddm
       - count: 1
-        name: Duel Deck Jace vs Vraska Vraska Deck
+        name: 'Duel Decks: Jace vs. Vraska Vraska Deck'
         set: ddm
-  Duel Deck Jace vs Vraska Display:
+  'Duel Decks: Jace vs. Vraska Display':
     category: DECK_BOX
     subtype: DUEL
     identifiers:
@@ -32,9 +32,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Duel Deck Jace vs Vraska
+        name: 'Duel Decks: Jace vs. Vraska'
         set: ddm
-  Duel Deck Jace vs Vraska Jace Deck:
+  'Duel Decks: Jace vs. Vraska Jace Deck':
     category: DECK
     subtype: DUEL
     identifiers: {}
@@ -43,7 +43,7 @@ products:
       deck:
       - name: Jace
         set: ddm
-  Duel Deck Jace vs Vraska Vraska Deck:
+  'Duel Decks: Jace vs. Vraska Vraska Deck':
     category: DECK
     subtype: DUEL
     identifiers: {}

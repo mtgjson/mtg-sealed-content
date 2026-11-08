@@ -1,6 +1,6 @@
 code: ddi
 products:
-  Duel Deck Venser vs Koth:
+  'Duel Decks: Venser vs. Koth':
     category: MULTI_DECK
     subtype: DUEL
     identifiers:
@@ -16,12 +16,12 @@ products:
     contents:
       sealed:
       - count: 1
-        name: Duel Deck Venser vs Koth Koth Deck
+        name: 'Duel Decks: Venser vs. Koth Koth Deck'
         set: ddi
       - count: 1
-        name: Duel Deck Venser vs Koth Venser Deck
+        name: 'Duel Decks: Venser vs. Koth Venser Deck'
         set: ddi
-  Duel Deck Venser vs Koth Display:
+  'Duel Decks: Venser vs. Koth Display':
     category: DECK_BOX
     subtype: DUEL
     identifiers:
@@ -31,9 +31,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Duel Deck Venser vs Koth
+        name: 'Duel Decks: Venser vs. Koth'
         set: ddi
-  Duel Deck Venser vs Koth Koth Deck:
+  'Duel Decks: Venser vs. Koth Koth Deck':
     category: DECK
     subtype: DUEL
     identifiers:
@@ -44,7 +44,7 @@ products:
       deck:
       - name: Koth
         set: ddi
-  Duel Deck Venser vs Koth Venser Deck:
+  'Duel Decks: Venser vs. Koth Venser Deck':
     category: DECK
     subtype: DUEL
     identifiers:

@@ -1,6 +1,6 @@
 code: ddd
 products:
-  Duel Deck Garruk vs Liliana:
+  'Duel Decks: Garruk vs. Liliana':
     category: MULTI_DECK
     subtype: DUEL
     identifiers:
@@ -16,12 +16,12 @@ products:
     contents:
       sealed:
       - count: 1
-        name: Duel Deck Garruk vs Liliana Garruk Deck
+        name: 'Duel Decks: Garruk vs. Liliana Garruk Deck'
         set: ddd
       - count: 1
-        name: Duel Deck Garruk vs Liliana Liliana Deck
+        name: 'Duel Decks: Garruk vs. Liliana Liliana Deck'
         set: ddd
-  Duel Deck Garruk vs Liliana Display:
+  'Duel Decks: Garruk vs. Liliana Display':
     category: DECK_BOX
     subtype: DUEL
     identifiers:
@@ -29,9 +29,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Duel Deck Garruk vs Liliana
+        name: 'Duel Decks: Garruk vs. Liliana'
         set: ddd
-  Duel Deck Garruk vs Liliana Garruk Deck:
+  'Duel Decks: Garruk vs. Liliana Garruk Deck':
     category: DECK
     subtype: DUEL
     identifiers: {}
@@ -40,7 +40,7 @@ products:
       deck:
       - name: Garruk
         set: ddd
-  Duel Deck Garruk vs Liliana Liliana Deck:
+  'Duel Decks: Garruk vs. Liliana Liliana Deck':
     category: DECK
     subtype: DUEL
     identifiers: {}

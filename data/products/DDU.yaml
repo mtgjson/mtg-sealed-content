@@ -1,6 +1,6 @@
 code: ddu
 products:
-  Duel Deck Elves vs Inventors:
+  'Duel Decks: Elves vs. Inventors':
     category: MULTI_DECK
     subtype: DUEL
     release_date: '2018-04-06'
@@ -21,12 +21,12 @@ products:
       - name: Quick reference guide
       sealed:
       - count: 1
-        name: Duel Deck Elves vs Inventors Elves Deck
+        name: 'Duel Decks: Elves vs. Inventors Elves Deck'
         set: ddu
       - count: 1
-        name: Duel Deck Elves vs Inventors Inventors Deck
+        name: 'Duel Decks: Elves vs. Inventors Inventors Deck'
         set: ddu
-  Duel Deck Elves vs Inventors Display:
+  'Duel Decks: Elves vs. Inventors Display':
     category: DECK_BOX
     subtype: DUEL
     identifiers:
@@ -34,9 +34,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Duel Deck Elves vs Inventors
+        name: 'Duel Decks: Elves vs. Inventors'
         set: ddu
-  Duel Deck Elves vs Inventors Elves Deck:
+  'Duel Decks: Elves vs. Inventors Elves Deck':
     category: DECK
     subtype: DUEL
     identifiers: {}
@@ -45,7 +45,7 @@ products:
       deck:
       - name: Woodland Warriors
         set: ddu
-  Duel Deck Elves vs Inventors Inventors Deck:
+  'Duel Decks: Elves vs. Inventors Inventors Deck':
     category: DECK
     subtype: DUEL
     identifiers: {}

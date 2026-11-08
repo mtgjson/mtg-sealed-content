@@ -1,6 +1,6 @@
 code: ddn
 products:
-  Duel Deck Speed vs Cunning:
+  'Duel Decks: Speed vs. Cunning':
     category: MULTI_DECK
     subtype: DUEL
     identifiers:
@@ -16,12 +16,12 @@ products:
     contents:
       sealed:
       - count: 1
-        name: Duel Deck Speed vs Cunning Cunning Deck
+        name: 'Duel Decks: Speed vs. Cunning Cunning Deck'
         set: ddn
       - count: 1
-        name: Duel Deck Speed vs Cunning Speed Deck
+        name: 'Duel Decks: Speed vs. Cunning Speed Deck'
         set: ddn
-  Duel Deck Speed vs Cunning Cunning Deck:
+  'Duel Decks: Speed vs. Cunning Cunning Deck':
     category: DECK
     subtype: DUEL
     identifiers: {}
@@ -30,7 +30,7 @@ products:
       deck:
       - name: Cunning
         set: ddn
-  Duel Deck Speed vs Cunning Display:
+  'Duel Decks: Speed vs. Cunning Display':
     category: DECK_BOX
     subtype: DUEL
     identifiers:
@@ -38,9 +38,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Duel Deck Speed vs Cunning
+        name: 'Duel Decks: Speed vs. Cunning'
         set: ddn
-  Duel Deck Speed vs Cunning Speed Deck:
+  'Duel Decks: Speed vs. Cunning Speed Deck':
     category: DECK
     subtype: DUEL
     identifiers:

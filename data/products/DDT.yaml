@@ -1,6 +1,6 @@
 code: ddt
 products:
-  Duel Deck Merfolk vs Goblins:
+  'Duel Decks: Merfolk vs. Goblins':
     category: MULTI_DECK
     subtype: DUEL
     release_date: '2017-06-28'
@@ -17,12 +17,12 @@ products:
     contents:
       sealed:
       - count: 1
-        name: Duel Deck Merfolk vs Goblins Goblins Deck
+        name: 'Duel Decks: Merfolk vs. Goblins Goblins Deck'
         set: ddt
       - count: 1
-        name: Duel Deck Merfolk vs Goblins Merfolk Deck
+        name: 'Duel Decks: Merfolk vs. Goblins Merfolk Deck'
         set: ddt
-  Duel Deck Merfolk vs Goblins Display:
+  'Duel Decks: Merfolk vs. Goblins Display':
     category: DECK_BOX
     subtype: DUEL
     identifiers:
@@ -30,9 +30,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Duel Deck Merfolk vs Goblins
+        name: 'Duel Decks: Merfolk vs. Goblins'
         set: ddt
-  Duel Deck Merfolk vs Goblins Goblins Deck:
+  'Duel Decks: Merfolk vs. Goblins Goblins Deck':
     category: DECK
     subtype: DUEL
     release_date: '2017-11-01'
@@ -44,7 +44,7 @@ products:
       deck:
       - name: Goblins
         set: ddt
-  Duel Deck Merfolk vs Goblins Merfolk Deck:
+  'Duel Decks: Merfolk vs. Goblins Merfolk Deck':
     category: DECK
     subtype: DUEL
     release_date: '2017-11-01'

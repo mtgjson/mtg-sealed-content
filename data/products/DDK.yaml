@@ -1,6 +1,6 @@
 code: ddk
 products:
-  Duel Deck Sorin vs Tibalt:
+  'Duel Decks: Sorin vs. Tibalt':
     category: MULTI_DECK
     subtype: DUEL
     identifiers:
@@ -16,12 +16,12 @@ products:
     contents:
       sealed:
       - count: 1
-        name: Duel Deck Sorin vs Tibalt Sorin Deck
+        name: 'Duel Decks: Sorin vs. Tibalt Sorin Deck'
         set: ddk
       - count: 1
-        name: Duel Deck Sorin vs Tibalt Tibalt Deck
+        name: 'Duel Decks: Sorin vs. Tibalt Tibalt Deck'
         set: ddk
-  Duel Deck Sorin vs Tibalt Display:
+  'Duel Decks: Sorin vs. Tibalt Display':
     category: DECK_BOX
     subtype: DUEL
     identifiers:
@@ -32,9 +32,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Duel Deck Sorin vs Tibalt
+        name: 'Duel Decks: Sorin vs. Tibalt'
         set: ddk
-  Duel Deck Sorin vs Tibalt Sorin Deck:
+  'Duel Decks: Sorin vs. Tibalt Sorin Deck':
     category: DECK
     subtype: DUEL
     identifiers:
@@ -45,7 +45,7 @@ products:
       deck:
       - name: Sorin
         set: ddk
-  Duel Deck Sorin vs Tibalt Tibalt Deck:
+  'Duel Decks: Sorin vs. Tibalt Tibalt Deck':
     category: DECK
     subtype: DUEL
     identifiers:

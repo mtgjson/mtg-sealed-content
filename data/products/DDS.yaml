@@ -1,6 +1,6 @@
 code: dds
 products:
-  Duel Deck Mind vs Might:
+  'Duel Decks: Mind vs. Might':
     category: MULTI_DECK
     subtype: DUEL
     release_date: '2017-03-31'
@@ -17,21 +17,21 @@ products:
     contents:
       sealed:
       - count: 1
-        name: Duel Deck Mind vs Might Might Deck
+        name: 'Duel Decks: Mind vs. Might Might Deck'
         set: dds
       - count: 1
-        name: Duel Deck Mind vs Might Mind Deck
+        name: 'Duel Decks: Mind vs. Might Mind Deck'
         set: dds
-  Duel Deck Mind vs Might Display:
+  'Duel Decks: Mind vs. Might Display':
     category: DECK_BOX
     subtype: DUEL
     identifiers: {}
     contents:
       sealed:
       - count: 6
-        name: Duel Deck Mind vs Might
+        name: 'Duel Decks: Mind vs. Might'
         set: dds
-  Duel Deck Mind vs Might Might Deck:
+  'Duel Decks: Mind vs. Might Might Deck':
     category: DECK
     subtype: DUEL
     identifiers: {}
@@ -40,7 +40,7 @@ products:
       deck:
       - name: Might
         set: dds
-  Duel Deck Mind vs Might Mind Deck:
+  'Duel Decks: Mind vs. Might Mind Deck':
     category: DECK
     subtype: DUEL
     identifiers: {}

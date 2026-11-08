@@ -1,6 +1,6 @@
 code: ddo
 products:
-  Duel Deck Elspeth vs Kiora:
+  'Duel Decks: Elspeth vs. Kiora':
     category: MULTI_DECK
     subtype: DUEL
     release_date: '2015-01-27'
@@ -17,12 +17,12 @@ products:
     contents:
       sealed:
       - count: 1
-        name: Duel Deck Elspeth vs Kiora Elspeth Deck
+        name: 'Duel Decks: Elspeth vs. Kiora Elspeth Deck'
         set: ddo
       - count: 1
-        name: Duel Deck Elspeth vs Kiora Kiora Deck
+        name: 'Duel Decks: Elspeth vs. Kiora Kiora Deck'
         set: ddo
-  Duel Deck Elspeth vs Kiora Display:
+  'Duel Decks: Elspeth vs. Kiora Display':
     category: DECK_BOX
     subtype: DUEL
     identifiers:
@@ -30,9 +30,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Duel Deck Elspeth vs Kiora
+        name: 'Duel Decks: Elspeth vs. Kiora'
         set: ddo
-  Duel Deck Elspeth vs Kiora Elspeth Deck:
+  'Duel Decks: Elspeth vs. Kiora Elspeth Deck':
     category: DECK
     subtype: DUEL
     release_date: '2015-03-25'
@@ -44,7 +44,7 @@ products:
       deck:
       - name: Elspeth
         set: ddo
-  Duel Deck Elspeth vs Kiora Kiora Deck:
+  'Duel Decks: Elspeth vs. Kiora Kiora Deck':
     category: DECK
     subtype: DUEL
     release_date: '2015-03-25'

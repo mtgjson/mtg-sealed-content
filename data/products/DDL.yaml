@@ -1,6 +1,6 @@
 code: ddl
 products:
-  Duel Deck Heroes vs Monsters:
+  'Duel Decks: Heroes vs. Monsters':
     category: MULTI_DECK
     subtype: DUEL
     identifiers:
@@ -16,12 +16,12 @@ products:
     contents:
       sealed:
       - count: 1
-        name: Duel Deck Heroes vs Monsters Heroes Deck
+        name: 'Duel Decks: Heroes vs. Monsters Heroes Deck'
         set: ddl
       - count: 1
-        name: Duel Deck Heroes vs Monsters Monsters Deck
+        name: 'Duel Decks: Heroes vs. Monsters Monsters Deck'
         set: ddl
-  Duel Deck Heroes vs Monsters Display:
+  'Duel Decks: Heroes vs. Monsters Display':
     category: DECK_BOX
     subtype: DUEL
     identifiers:
@@ -31,9 +31,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Duel Deck Heroes vs Monsters
+        name: 'Duel Decks: Heroes vs. Monsters'
         set: ddl
-  Duel Deck Heroes vs Monsters Heroes Deck:
+  'Duel Decks: Heroes vs. Monsters Heroes Deck':
     category: DECK
     subtype: DUEL
     identifiers:
@@ -44,7 +44,7 @@ products:
       deck:
       - name: Heroes
         set: ddl
-  Duel Deck Heroes vs Monsters Monsters Deck:
+  'Duel Decks: Heroes vs. Monsters Monsters Deck':
     category: DECK
     subtype: DUEL
     identifiers:

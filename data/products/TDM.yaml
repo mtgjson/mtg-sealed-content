@@ -1,6 +1,6 @@
 code: tdm
 products:
-  Tarkir Dragonstorm Bundle:
+  'Tarkir: Dragonstorm Bundle':
     category: BUNDLE
     subtype: DEFAULT
     identifiers:
@@ -27,9 +27,9 @@ products:
       - name: Tarkir Dragonstorm Card Storage Box
       sealed:
       - count: 9
-        name: Tarkir Dragonstorm Play Booster Pack
+        name: 'Tarkir: Dragonstorm Play Booster Pack'
         set: tdm
-  Tarkir Dragonstorm Bundle Case:
+  'Tarkir: Dragonstorm Bundle Case':
     category: BUNDLE_CASE
     subtype: DEFAULT
     identifiers:
@@ -38,9 +38,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Tarkir Dragonstorm Bundle
+        name: 'Tarkir: Dragonstorm Bundle'
         set: tdm
-  Tarkir Dragonstorm Collector Booster Box:
+  'Tarkir: Dragonstorm Collector Booster Box':
     category: BOOSTER_BOX
     subtype: COLLECTOR
     identifiers:
@@ -54,9 +54,9 @@ products:
     contents:
       sealed:
       - count: 12
-        name: Tarkir Dragonstorm Collector Booster Pack
+        name: 'Tarkir: Dragonstorm Collector Booster Pack'
         set: tdm
-  Tarkir Dragonstorm Collector Booster Box Case:
+  'Tarkir: Dragonstorm Collector Booster Box Case':
     category: BOOSTER_CASE
     subtype: COLLECTOR
     identifiers:
@@ -64,9 +64,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Tarkir Dragonstorm Collector Booster Box
+        name: 'Tarkir: Dragonstorm Collector Booster Box'
         set: tdm
-  Tarkir Dragonstorm Collector Booster Pack:
+  'Tarkir: Dragonstorm Collector Booster Pack':
     category: BOOSTER_PACK
     subtype: COLLECTOR
     identifiers:
@@ -82,14 +82,14 @@ products:
       pack:
       - code: collector
         set: tdm
-  Tarkir Dragonstorm Collector Booster Pack Minimal Packaging:
+  'Tarkir: Dragonstorm Collector Booster Pack Minimal Packaging':
     category: BOOSTER_PACK
     subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '684661'
     contents:
-      copy: Tarkir Dragonstorm Collector Booster Pack
-  Tarkir Dragonstorm Collector Booster Sample Pack:
+      copy: 'Tarkir: Dragonstorm Collector Booster Pack'
+  'Tarkir: Dragonstorm Collector Booster Sample Pack':
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
     identifiers:
@@ -101,7 +101,7 @@ products:
       pack:
       - code: collector-sample
         set: tdm
-  Tarkir Dragonstorm Foil Promo Pack:
+  'Tarkir: Dragonstorm Foil Promo Pack':
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
     identifiers:
@@ -113,7 +113,7 @@ products:
       pack:
       - code: promo-foil
         set: tdm
-  Tarkir Dragonstorm MTGO Redemption:
+  'Tarkir: Dragonstorm MTGO Redemption':
     category: BOX_SET
     subtype: MTGO_REDEMPTION
     identifiers:
@@ -123,7 +123,7 @@ products:
       deck:
       - name: 'Tarkir: Dragonstorm Redemption'
         set: tdm
-  Tarkir Dragonstorm Play Booster Box:
+  'Tarkir: Dragonstorm Play Booster Box':
     category: BOOSTER_BOX
     subtype: PLAY
     release_date: '2025-04-11'
@@ -138,9 +138,9 @@ products:
     contents:
       sealed:
       - count: 30
-        name: Tarkir Dragonstorm Play Booster Pack
+        name: 'Tarkir: Dragonstorm Play Booster Pack'
         set: tdm
-  Tarkir Dragonstorm Play Booster Box Case:
+  'Tarkir: Dragonstorm Play Booster Box Case':
     category: BOOSTER_CASE
     subtype: PLAY
     release_date: '2025-04-11'
@@ -150,9 +150,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Tarkir Dragonstorm Play Booster Box
+        name: 'Tarkir: Dragonstorm Play Booster Box'
         set: tdm
-  Tarkir Dragonstorm Play Booster Pack:
+  'Tarkir: Dragonstorm Play Booster Pack':
     category: BOOSTER_PACK
     subtype: PLAY
     release_date: '2025-04-11'
@@ -170,7 +170,7 @@ products:
       pack:
       - code: play
         set: tdm
-  Tarkir Dragonstorm Prerelease Booster Abzan:
+  'Tarkir: Dragonstorm Prerelease Booster Abzan':
     category: BOOSTER_PACK
     subtype: PRERELEASE
     release_date: '2025-03-26'
@@ -181,7 +181,7 @@ products:
       pack:
       - code: prerelease-abzan
         set: tdm
-  Tarkir Dragonstorm Prerelease Booster Jeskai:
+  'Tarkir: Dragonstorm Prerelease Booster Jeskai':
     category: BOOSTER_PACK
     subtype: PRERELEASE
     release_date: '2025-03-26'
@@ -192,7 +192,7 @@ products:
       pack:
       - code: prerelease-jeskai
         set: tdm
-  Tarkir Dragonstorm Prerelease Booster Mardu:
+  'Tarkir: Dragonstorm Prerelease Booster Mardu':
     category: BOOSTER_PACK
     subtype: PRERELEASE
     release_date: '2025-03-26'
@@ -203,7 +203,7 @@ products:
       pack:
       - code: prerelease-mardu
         set: tdm
-  Tarkir Dragonstorm Prerelease Booster Sultai:
+  'Tarkir: Dragonstorm Prerelease Booster Sultai':
     category: BOOSTER_PACK
     subtype: PRERELEASE
     release_date: '2025-03-26'
@@ -214,7 +214,7 @@ products:
       pack:
       - code: prerelease-sultai
         set: tdm
-  Tarkir Dragonstorm Prerelease Booster Temur:
+  'Tarkir: Dragonstorm Prerelease Booster Temur':
     category: BOOSTER_PACK
     subtype: PRERELEASE
     release_date: '2025-03-26'
@@ -225,7 +225,7 @@ products:
       pack:
       - code: prerelease-temur
         set: tdm
-  Tarkir Dragonstorm Prerelease Kit Abzan:
+  'Tarkir: Dragonstorm Prerelease Kit Abzan':
     category: LIMITED
     subtype: PRERELEASE
     identifiers:
@@ -245,12 +245,12 @@ products:
         set: tdm
       sealed:
       - count: 5
-        name: Tarkir Dragonstorm Play Booster Pack
+        name: 'Tarkir: Dragonstorm Play Booster Pack'
         set: tdm
       - count: 1
-        name: Tarkir Dragonstorm Prerelease Booster Abzan
+        name: 'Tarkir: Dragonstorm Prerelease Booster Abzan'
         set: tdm
-  Tarkir Dragonstorm Prerelease Kit Jeskai:
+  'Tarkir: Dragonstorm Prerelease Kit Jeskai':
     category: LIMITED
     subtype: PRERELEASE
     identifiers:
@@ -270,12 +270,12 @@ products:
         set: tdm
       sealed:
       - count: 5
-        name: Tarkir Dragonstorm Play Booster Pack
+        name: 'Tarkir: Dragonstorm Play Booster Pack'
         set: tdm
       - count: 1
-        name: Tarkir Dragonstorm Prerelease Booster Jeskai
+        name: 'Tarkir: Dragonstorm Prerelease Booster Jeskai'
         set: tdm
-  Tarkir Dragonstorm Prerelease Kit Mardu:
+  'Tarkir: Dragonstorm Prerelease Kit Mardu':
     category: LIMITED
     subtype: PRERELEASE
     identifiers:
@@ -295,12 +295,12 @@ products:
         set: tdm
       sealed:
       - count: 5
-        name: Tarkir Dragonstorm Play Booster Pack
+        name: 'Tarkir: Dragonstorm Play Booster Pack'
         set: tdm
       - count: 1
-        name: Tarkir Dragonstorm Prerelease Booster Mardu
+        name: 'Tarkir: Dragonstorm Prerelease Booster Mardu'
         set: tdm
-  Tarkir Dragonstorm Prerelease Kit Set of 5:
+  'Tarkir: Dragonstorm Prerelease Kit Set of 5':
     category: SUBSET
     subtype: PRERELEASE
     identifiers:
@@ -308,21 +308,21 @@ products:
     contents:
       sealed:
       - count: 1
-        name: Tarkir Dragonstorm Prerelease Kit Abzan
+        name: 'Tarkir: Dragonstorm Prerelease Kit Abzan'
         set: tdm
       - count: 1
-        name: Tarkir Dragonstorm Prerelease Kit Jeskai
+        name: 'Tarkir: Dragonstorm Prerelease Kit Jeskai'
         set: tdm
       - count: 1
-        name: Tarkir Dragonstorm Prerelease Kit Mardu
+        name: 'Tarkir: Dragonstorm Prerelease Kit Mardu'
         set: tdm
       - count: 1
-        name: Tarkir Dragonstorm Prerelease Kit Sultai
+        name: 'Tarkir: Dragonstorm Prerelease Kit Sultai'
         set: tdm
       - count: 1
-        name: Tarkir Dragonstorm Prerelease Kit Temur
+        name: 'Tarkir: Dragonstorm Prerelease Kit Temur'
         set: tdm
-  Tarkir Dragonstorm Prerelease Kit Sultai:
+  'Tarkir: Dragonstorm Prerelease Kit Sultai':
     category: LIMITED
     subtype: PRERELEASE
     identifiers:
@@ -342,12 +342,12 @@ products:
         set: tdm
       sealed:
       - count: 5
-        name: Tarkir Dragonstorm Play Booster Pack
+        name: 'Tarkir: Dragonstorm Play Booster Pack'
         set: tdm
       - count: 1
-        name: Tarkir Dragonstorm Prerelease Booster Sultai
+        name: 'Tarkir: Dragonstorm Prerelease Booster Sultai'
         set: tdm
-  Tarkir Dragonstorm Prerelease Kit Temur:
+  'Tarkir: Dragonstorm Prerelease Kit Temur':
     category: LIMITED
     subtype: PRERELEASE
     identifiers:
@@ -367,12 +367,12 @@ products:
         set: tdm
       sealed:
       - count: 5
-        name: Tarkir Dragonstorm Play Booster Pack
+        name: 'Tarkir: Dragonstorm Play Booster Pack'
         set: tdm
       - count: 1
-        name: Tarkir Dragonstorm Prerelease Booster Temur
+        name: 'Tarkir: Dragonstorm Prerelease Booster Temur'
         set: tdm
-  Tarkir Dragonstorm Promo Pack:
+  'Tarkir: Dragonstorm Promo Pack':
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
     identifiers:

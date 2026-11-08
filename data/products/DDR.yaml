@@ -1,6 +1,6 @@
 code: ddr
 products:
-  Duel Deck Nissa Vs Ob Nixilis:
+  'Duel Decks: Nissa vs. Ob Nixilis':
     category: MULTI_DECK
     subtype: DUEL
     release_date: '2016-05-30'
@@ -17,21 +17,21 @@ products:
     contents:
       sealed:
       - count: 1
-        name: Duel Deck Nissa Vs Ob Nixilis Nissa Deck
+        name: 'Duel Decks: Nissa vs. Ob Nixilis Nissa Deck'
         set: ddr
       - count: 1
-        name: Duel Deck Nissa Vs Ob Nixilis Ob Nixilis Deck
+        name: 'Duel Decks: Nissa vs. Ob Nixilis Ob Nixilis Deck'
         set: ddr
-  Duel Deck Nissa Vs Ob Nixilis Display:
+  'Duel Decks: Nissa vs. Ob Nixilis Display':
     category: DECK_BOX
     subtype: DUEL
     identifiers: {}
     contents:
       sealed:
       - count: 6
-        name: Duel Deck Nissa Vs Ob Nixilis
+        name: 'Duel Decks: Nissa vs. Ob Nixilis'
         set: ddr
-  Duel Deck Nissa Vs Ob Nixilis Nissa Deck:
+  'Duel Decks: Nissa vs. Ob Nixilis Nissa Deck':
     category: DECK
     subtype: DUEL
     identifiers: {}
@@ -40,7 +40,7 @@ products:
       deck:
       - name: Nissa
         set: ddr
-  Duel Deck Nissa Vs Ob Nixilis Ob Nixilis Deck:
+  'Duel Decks: Nissa vs. Ob Nixilis Ob Nixilis Deck':
     category: DECK
     subtype: DUEL
     identifiers: {}
