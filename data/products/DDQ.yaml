@@ -1,6 +1,6 @@
 code: ddq
 products:
-  Duel Deck Blessed vs Cursed:
+  'Duel Decks: Blessed vs. Cursed':
     category: MULTI_DECK
     subtype: DUEL
     release_date: '2016-02-26'
@@ -17,12 +17,12 @@ products:
     contents:
       sealed:
       - count: 1
-        name: Duel Deck Blessed vs Cursed Blessed Deck
+        name: 'Duel Decks: Blessed vs. Cursed Blessed Deck'
         set: ddq
       - count: 1
-        name: Duel Deck Blessed vs Cursed Cursed Deck
+        name: 'Duel Decks: Blessed vs. Cursed Cursed Deck'
         set: ddq
-  Duel Deck Blessed vs Cursed Blessed Deck:
+  'Duel Decks: Blessed vs. Cursed Blessed Deck':
     category: DECK
     subtype: DUEL
     identifiers: {}
@@ -31,7 +31,7 @@ products:
       deck:
       - name: Blessed
         set: ddq
-  Duel Deck Blessed vs Cursed Cursed Deck:
+  'Duel Decks: Blessed vs. Cursed Cursed Deck':
     category: DECK
     subtype: DUEL
     identifiers: {}
@@ -40,12 +40,12 @@ products:
       deck:
       - name: Cursed
         set: ddq
-  Duel Deck Blessed vs Cursed Display:
+  'Duel Decks: Blessed vs. Cursed Display':
     category: DECK_BOX
     subtype: DUEL
     identifiers: {}
     contents:
       sealed:
       - count: 6
-        name: Duel Deck Blessed vs Cursed
+        name: 'Duel Decks: Blessed vs. Cursed'
         set: ddq

@@ -1,6 +1,6 @@
 code: dde
 products:
-  Duel Deck Phyrexia vs the Coalition:
+  'Duel Decks: Phyrexia vs. the Coalition':
     category: MULTI_DECK
     subtype: DUEL
     identifiers:
@@ -16,12 +16,12 @@ products:
     contents:
       sealed:
       - count: 1
-        name: Duel Deck Phyrexia vs the Coalition Phyrexia Deck
+        name: 'Duel Decks: Phyrexia vs. the Coalition Phyrexia Deck'
         set: dde
       - count: 1
-        name: Duel Deck Phyrexia vs the Coalition The Coalition Deck
+        name: 'Duel Decks: Phyrexia vs. the Coalition The Coalition Deck'
         set: dde
-  Duel Deck Phyrexia vs the Coalition Display:
+  'Duel Decks: Phyrexia vs. the Coalition Display':
     category: DECK_BOX
     subtype: DUEL
     identifiers:
@@ -29,9 +29,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Duel Deck Phyrexia vs the Coalition
+        name: 'Duel Decks: Phyrexia vs. the Coalition'
         set: dde
-  Duel Deck Phyrexia vs the Coalition Phyrexia Deck:
+  'Duel Decks: Phyrexia vs. the Coalition Phyrexia Deck':
     category: DECK
     subtype: DUEL
     identifiers: {}
@@ -40,7 +40,7 @@ products:
       deck:
       - name: Phyrexia
         set: dde
-  Duel Deck Phyrexia vs the Coalition The Coalition Deck:
+  'Duel Decks: Phyrexia vs. the Coalition The Coalition Deck':
     category: DECK
     subtype: DUEL
     identifiers: {}

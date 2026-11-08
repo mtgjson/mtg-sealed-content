@@ -1,6 +1,6 @@
 code: dd1
 products:
-  Duel Deck Elves vs Goblins:
+  'Duel Decks: Elves vs. Goblins':
     category: MULTI_DECK
     subtype: DUEL
     identifiers:
@@ -16,12 +16,12 @@ products:
     contents:
       sealed:
       - count: 1
-        name: Duel Deck Elves vs Goblins Elves Deck
+        name: 'Duel Decks: Elves vs. Goblins Elves Deck'
         set: dd1
       - count: 1
-        name: Duel Deck Elves vs Goblins Goblins Deck
+        name: 'Duel Decks: Elves vs. Goblins Goblins Deck'
         set: dd1
-  Duel Deck Elves vs Goblins Display:
+  'Duel Decks: Elves vs. Goblins Display':
     category: DECK_BOX
     subtype: DUEL
     identifiers:
@@ -29,9 +29,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Duel Deck Elves vs Goblins
+        name: 'Duel Decks: Elves vs. Goblins'
         set: dd1
-  Duel Deck Elves vs Goblins Elves Deck:
+  'Duel Decks: Elves vs. Goblins Elves Deck':
     category: DECK
     subtype: DUEL
     identifiers: {}
@@ -40,7 +40,7 @@ products:
       deck:
       - name: Elves
         set: dd1
-  Duel Deck Elves vs Goblins Goblins Deck:
+  'Duel Decks: Elves vs. Goblins Goblins Deck':
     category: DECK
     subtype: DUEL
     identifiers: {}

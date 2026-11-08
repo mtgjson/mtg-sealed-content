@@ -1,6 +1,6 @@
 code: ddc
 products:
-  Duel Deck Divine vs Demonic:
+  'Duel Decks: Divine vs. Demonic':
     category: MULTI_DECK
     subtype: DUEL
     identifiers:
@@ -16,12 +16,12 @@ products:
     contents:
       sealed:
       - count: 1
-        name: Duel Deck Divine vs Demonic Demonic Deck
+        name: 'Duel Decks: Divine vs. Demonic Demonic Deck'
         set: ddc
       - count: 1
-        name: Duel Deck Divine vs Demonic Divine Deck
+        name: 'Duel Decks: Divine vs. Demonic Divine Deck'
         set: ddc
-  Duel Deck Divine vs Demonic Demonic Deck:
+  'Duel Decks: Divine vs. Demonic Demonic Deck':
     category: DECK
     subtype: DUEL
     identifiers: {}
@@ -30,7 +30,7 @@ products:
       deck:
       - name: Demonic
         set: ddc
-  Duel Deck Divine vs Demonic Display:
+  'Duel Decks: Divine vs. Demonic Display':
     category: DECK_BOX
     subtype: DUEL
     identifiers:
@@ -38,9 +38,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Duel Deck Divine vs Demonic
+        name: 'Duel Decks: Divine vs. Demonic'
         set: ddc
-  Duel Deck Divine vs Demonic Divine Deck:
+  'Duel Decks: Divine vs. Demonic Divine Deck':
     category: DECK
     subtype: DUEL
     identifiers: {}

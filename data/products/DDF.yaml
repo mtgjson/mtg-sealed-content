@@ -1,6 +1,6 @@
 code: ddf
 products:
-  Duel Deck Elspeth vs Tezzeret:
+  'Duel Decks: Elspeth vs. Tezzeret':
     category: MULTI_DECK
     subtype: DUEL
     identifiers:
@@ -16,12 +16,12 @@ products:
     contents:
       sealed:
       - count: 1
-        name: Duel Deck Elspeth vs Tezzeret Elspeth Deck
+        name: 'Duel Decks: Elspeth vs. Tezzeret Elspeth Deck'
         set: ddf
       - count: 1
-        name: Duel Deck Elspeth vs Tezzeret Tezzeret Deck
+        name: 'Duel Decks: Elspeth vs. Tezzeret Tezzeret Deck'
         set: ddf
-  Duel Deck Elspeth vs Tezzeret Display:
+  'Duel Decks: Elspeth vs. Tezzeret Display':
     category: DECK_BOX
     subtype: DUEL
     identifiers:
@@ -31,9 +31,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Duel Deck Elspeth vs Tezzeret
+        name: 'Duel Decks: Elspeth vs. Tezzeret'
         set: ddf
-  Duel Deck Elspeth vs Tezzeret Elspeth Deck:
+  'Duel Decks: Elspeth vs. Tezzeret Elspeth Deck':
     category: DECK
     subtype: DUEL
     identifiers:
@@ -44,7 +44,7 @@ products:
       deck:
       - name: Elspeth
         set: ddf
-  Duel Deck Elspeth vs Tezzeret Tezzeret Deck:
+  'Duel Decks: Elspeth vs. Tezzeret Tezzeret Deck':
     category: DECK
     subtype: DUEL
     identifiers:

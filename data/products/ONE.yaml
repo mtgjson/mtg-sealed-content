@@ -1,6 +1,6 @@
 code: one
 products:
-  Phyrexia All Will Be One Bundle:
+  'Phyrexia: All Will Be One Bundle':
     category: BUNDLE
     subtype: DEFAULT
     release_date: '2023-02-10'
@@ -27,9 +27,9 @@ products:
       - name: 2 reference cards
       sealed:
       - count: 8
-        name: Phyrexia All Will Be One Set Booster Pack
+        name: 'Phyrexia: All Will Be One Set Booster Pack'
         set: one
-  Phyrexia All Will Be One Bundle Case:
+  'Phyrexia: All Will Be One Bundle Case':
     category: BUNDLE_CASE
     subtype: DEFAULT
     release_date: '2023-02-10'
@@ -38,9 +38,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Phyrexia All Will Be One Bundle
+        name: 'Phyrexia: All Will Be One Bundle'
         set: one
-  Phyrexia All Will Be One Collector Booster Box:
+  'Phyrexia: All Will Be One Collector Booster Box':
     category: BOOSTER_BOX
     subtype: COLLECTOR
     release_date: '2023-02-10'
@@ -56,9 +56,9 @@ products:
     contents:
       sealed:
       - count: 12
-        name: Phyrexia All Will Be One Collector Booster Pack
+        name: 'Phyrexia: All Will Be One Collector Booster Pack'
         set: one
-  Phyrexia All Will Be One Collector Booster Box Case:
+  'Phyrexia: All Will Be One Collector Booster Box Case':
     category: BOOSTER_CASE
     subtype: COLLECTOR
     release_date: '2023-02-10'
@@ -67,9 +67,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Phyrexia All Will Be One Collector Booster Box
+        name: 'Phyrexia: All Will Be One Collector Booster Box'
         set: one
-  Phyrexia All Will Be One Collector Booster Pack:
+  'Phyrexia: All Will Be One Collector Booster Pack':
     category: BOOSTER_PACK
     subtype: COLLECTOR
     release_date: '2023-02-10'
@@ -87,14 +87,14 @@ products:
       pack:
       - code: collector
         set: one
-  Phyrexia All Will Be One Collector Booster Pack Minimal Packaging:
+  'Phyrexia: All Will Be One Collector Booster Pack Minimal Packaging':
     category: BOOSTER_PACK
     subtype: COLLECTOR
     identifiers:
       tcgplayerProductId: '633046'
     contents:
-      copy: Phyrexia All Will Be One Collector Booster Pack
-  Phyrexia All Will Be One Collector Booster Sample Pack:
+      copy: 'Phyrexia: All Will Be One Collector Booster Pack'
+  'Phyrexia: All Will Be One Collector Booster Sample Pack':
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
     release_date: '2023-02-10'
@@ -107,7 +107,7 @@ products:
       pack:
       - code: collector-sample
         set: one
-  Phyrexia All Will Be One Compleat Bundle:
+  'Phyrexia: All Will Be One Compleat Bundle':
     category: BUNDLE
     subtype: PREMIUM
     release_date: '2023-02-10'
@@ -131,12 +131,12 @@ products:
         set: one
       sealed:
       - count: 12
-        name: Phyrexia All Will Be One Set Booster Pack
+        name: 'Phyrexia: All Will Be One Set Booster Pack'
         set: one
       - count: 1
-        name: Phyrexia All Will Be One Compleat Edition Booster Pack
+        name: 'Phyrexia: All Will Be One Compleat Edition Booster Pack'
         set: one
-  Phyrexia All Will Be One Compleat Bundle Case:
+  'Phyrexia: All Will Be One Compleat Bundle Case':
     category: BUNDLE_CASE
     subtype: PREMIUM
     release_date: '2023-02-10'
@@ -145,9 +145,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Phyrexia All Will Be One Compleat Bundle
+        name: 'Phyrexia: All Will Be One Compleat Bundle'
         set: one
-  Phyrexia All Will Be One Compleat Edition Booster Pack:
+  'Phyrexia: All Will Be One Compleat Edition Booster Pack':
     category: BOOSTER_PACK
     subtype: PREMIUM
     release_date: '2023-02-10'
@@ -159,7 +159,7 @@ products:
       pack:
       - code: compleat
         set: one
-  Phyrexia All Will Be One Draft Booster Box:
+  'Phyrexia: All Will Be One Draft Booster Box':
     category: BOOSTER_BOX
     subtype: DRAFT
     release_date: '2023-02-10'
@@ -176,9 +176,9 @@ products:
     contents:
       sealed:
       - count: 36
-        name: Phyrexia All Will Be One Draft Booster Pack
+        name: 'Phyrexia: All Will Be One Draft Booster Pack'
         set: one
-  Phyrexia All Will Be One Draft Booster Box Case:
+  'Phyrexia: All Will Be One Draft Booster Box Case':
     category: BOOSTER_CASE
     subtype: DRAFT
     release_date: '2023-02-10'
@@ -188,9 +188,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Phyrexia All Will Be One Draft Booster Box
+        name: 'Phyrexia: All Will Be One Draft Booster Box'
         set: one
-  Phyrexia All Will Be One Draft Booster Pack:
+  'Phyrexia: All Will Be One Draft Booster Pack':
     category: BOOSTER_PACK
     subtype: DRAFT
     release_date: '2023-02-10'
@@ -209,7 +209,7 @@ products:
       pack:
       - code: draft
         set: one
-  Phyrexia All Will Be One Foil Promo Pack:
+  'Phyrexia: All Will Be One Foil Promo Pack':
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
     identifiers:
@@ -222,7 +222,7 @@ products:
       pack:
       - code: promo-foil
         set: one
-  Phyrexia All Will Be One Jumpstart Booster Box:
+  'Phyrexia: All Will Be One Jumpstart Booster Box':
     category: BOOSTER_BOX
     subtype: JUMPSTART
     release_date: '2023-02-10'
@@ -238,18 +238,18 @@ products:
     contents:
       sealed:
       - count: 18
-        name: Phyrexia All Will Be One Jumpstart Booster Pack
+        name: 'Phyrexia: All Will Be One Jumpstart Booster Pack'
         set: one
-  Phyrexia All Will Be One Jumpstart Booster Box Case:
+  'Phyrexia: All Will Be One Jumpstart Booster Box Case':
     category: BOOSTER_CASE
     subtype: JUMPSTART
     identifiers: {}
     contents:
       sealed:
       - count: 6
-        name: Phyrexia All Will Be One Jumpstart Booster Box
+        name: 'Phyrexia: All Will Be One Jumpstart Booster Box'
         set: one
-  Phyrexia All Will Be One Jumpstart Booster Pack:
+  'Phyrexia: All Will Be One Jumpstart Booster Pack':
     category: BOOSTER_PACK
     subtype: JUMPSTART
     release_date: '2023-02-10'
@@ -267,7 +267,7 @@ products:
       pack:
       - code: jumpstart
         set: one
-  Phyrexia All Will Be One MTGO Redemption:
+  'Phyrexia: All Will Be One MTGO Redemption':
     category: BOX_SET
     subtype: MTGO_REDEMPTION
     identifiers:
@@ -277,7 +277,7 @@ products:
       deck:
       - name: 'Phyrexia: All Will Be One Redemption'
         set: one
-  Phyrexia All Will Be One MTGO Redemption Foil:
+  'Phyrexia: All Will Be One MTGO Redemption Foil':
     category: BOX_SET
     subtype: MTGO_REDEMPTION
     identifiers:
@@ -287,7 +287,7 @@ products:
       deck:
       - name: 'Phyrexia: All Will Be One Foil Redemption'
         set: one
-  Phyrexia All Will Be One Prerelease Pack:
+  'Phyrexia: All Will Be One Prerelease Pack':
     category: LIMITED
     subtype: PRERELEASE
     release_date: '2023-02-10'
@@ -307,9 +307,9 @@ products:
         set: one
       sealed:
       - count: 6
-        name: Phyrexia All Will Be One Draft Booster Pack
+        name: 'Phyrexia: All Will Be One Draft Booster Pack'
         set: one
-  Phyrexia All Will Be One Promo Pack:
+  'Phyrexia: All Will Be One Promo Pack':
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
     identifiers:
@@ -322,7 +322,7 @@ products:
       pack:
       - code: promo
         set: one
-  Phyrexia All Will Be One Set Booster Box:
+  'Phyrexia: All Will Be One Set Booster Box':
     category: BOOSTER_BOX
     subtype: SET
     release_date: '2023-02-10'
@@ -340,9 +340,9 @@ products:
     contents:
       sealed:
       - count: 30
-        name: Phyrexia All Will Be One Set Booster Pack
+        name: 'Phyrexia: All Will Be One Set Booster Pack'
         set: one
-  Phyrexia All Will Be One Set Booster Box Case:
+  'Phyrexia: All Will Be One Set Booster Box Case':
     category: BOOSTER_CASE
     subtype: SET
     release_date: '2023-02-10'
@@ -352,9 +352,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Phyrexia All Will Be One Set Booster Box
+        name: 'Phyrexia: All Will Be One Set Booster Box'
         set: one
-  Phyrexia All Will Be One Set Booster Pack:
+  'Phyrexia: All Will Be One Set Booster Pack':
     category: BOOSTER_PACK
     subtype: SET
     release_date: '2023-02-10'
@@ -374,7 +374,7 @@ products:
       pack:
       - code: set
         set: one
-  Phyrexia All Will Be One Welcome Booster:
+  'Phyrexia: All Will Be One Welcome Booster':
     category: BOOSTER_PACK
     subtype: WELCOME
     release_date: '2023-02-10'

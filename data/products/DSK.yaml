@@ -1,6 +1,6 @@
 code: dsk
 products:
-  Duskmourn House of Horror Bundle:
+  'Duskmourn: House of Horror Bundle':
     category: BUNDLE
     subtype: DEFAULT
     release_date: '2024-09-27'
@@ -28,9 +28,9 @@ products:
       - name: Deck Box
       sealed:
       - count: 9
-        name: Duskmourn House of Horror Play Booster Pack
+        name: 'Duskmourn: House of Horror Play Booster Pack'
         set: dsk
-  Duskmourn House of Horror Bundle Case:
+  'Duskmourn: House of Horror Bundle Case':
     category: BUNDLE_CASE
     subtype: DEFAULT
     release_date: '2024-09-27'
@@ -40,9 +40,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Duskmourn House of Horror Bundle
+        name: 'Duskmourn: House of Horror Bundle'
         set: dsk
-  Duskmourn House of Horror Collector Booster Box:
+  'Duskmourn: House of Horror Collector Booster Box':
     category: BOOSTER_BOX
     subtype: COLLECTOR
     release_date: '2024-09-27'
@@ -58,9 +58,9 @@ products:
     contents:
       sealed:
       - count: 12
-        name: Duskmourn House of Horror Collector Booster Pack
+        name: 'Duskmourn: House of Horror Collector Booster Pack'
         set: dsk
-  Duskmourn House of Horror Collector Booster Box Case:
+  'Duskmourn: House of Horror Collector Booster Box Case':
     category: BOOSTER_CASE
     subtype: COLLECTOR
     release_date: '2024-09-27'
@@ -69,9 +69,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Duskmourn House of Horror Collector Booster Box
+        name: 'Duskmourn: House of Horror Collector Booster Box'
         set: dsk
-  Duskmourn House of Horror Collector Booster Pack:
+  'Duskmourn: House of Horror Collector Booster Pack':
     category: BOOSTER_PACK
     subtype: COLLECTOR
     release_date: '2024-09-27'
@@ -89,7 +89,7 @@ products:
       pack:
       - code: collector
         set: dsk
-  Duskmourn House of Horror Collector Booster Sample Pack:
+  'Duskmourn: House of Horror Collector Booster Sample Pack':
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
     release_date: '2024-09-27'
@@ -102,7 +102,7 @@ products:
       pack:
       - code: collector-sample
         set: dsk
-  Duskmourn House of Horror Foil Promo Pack:
+  'Duskmourn: House of Horror Foil Promo Pack':
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
     identifiers:
@@ -116,7 +116,7 @@ products:
       pack:
       - code: promo-foil
         set: dsk
-  Duskmourn House of Horror MTGO Redemption:
+  'Duskmourn: House of Horror MTGO Redemption':
     category: BOX_SET
     subtype: MTGO_REDEMPTION
     identifiers:
@@ -126,7 +126,7 @@ products:
       deck:
       - name: 'Duskmourn: House of Horror Redemption'
         set: dsk
-  Duskmourn House of Horror Nightmare Bundle:
+  'Duskmourn: House of Horror Nightmare Bundle':
     category: BUNDLE
     subtype: PREMIUM
     release_date: '2024-09-27'
@@ -150,15 +150,15 @@ products:
       - name: 2 Reference cards
       sealed:
       - count: 6
-        name: Duskmourn House of Horror Play Booster Pack
+        name: 'Duskmourn: House of Horror Play Booster Pack'
         set: dsk
       - count: 2
-        name: Duskmourn House of Horror Collector Booster Pack
+        name: 'Duskmourn: House of Horror Collector Booster Pack'
         set: dsk
       - count: 1
-        name: Duskmourn House of Horror Nightmare Bundle Booster
+        name: 'Duskmourn: House of Horror Nightmare Bundle Booster'
         set: dsk
-  Duskmourn House of Horror Nightmare Bundle Booster:
+  'Duskmourn: House of Horror Nightmare Bundle Booster':
     category: BOOSTER_PACK
     subtype: PREMIUM
     release_date: '2024-09-24'
@@ -171,7 +171,7 @@ products:
       pack:
       - code: nightmare
         set: dsk
-  Duskmourn House of Horror Nightmare Bundle Case:
+  'Duskmourn: House of Horror Nightmare Bundle Case':
     category: BUNDLE_CASE
     subtype: PREMIUM
     release_date: '2024-09-27'
@@ -181,9 +181,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Duskmourn House of Horror Nightmare Bundle
+        name: 'Duskmourn: House of Horror Nightmare Bundle'
         set: dsk
-  Duskmourn House of Horror Play Booster Box:
+  'Duskmourn: House of Horror Play Booster Box':
     category: BOOSTER_BOX
     subtype: PLAY
     release_date: '2024-09-27'
@@ -200,9 +200,9 @@ products:
     contents:
       sealed:
       - count: 36
-        name: Duskmourn House of Horror Play Booster Pack
+        name: 'Duskmourn: House of Horror Play Booster Pack'
         set: dsk
-  Duskmourn House of Horror Play Booster Box Case:
+  'Duskmourn: House of Horror Play Booster Box Case':
     category: BOOSTER_CASE
     subtype: PLAY
     release_date: '2024-09-27'
@@ -213,9 +213,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Duskmourn House of Horror Play Booster Box
+        name: 'Duskmourn: House of Horror Play Booster Box'
         set: dsk
-  Duskmourn House of Horror Play Booster Pack:
+  'Duskmourn: House of Horror Play Booster Pack':
     category: BOOSTER_PACK
     subtype: PLAY
     release_date: '2024-09-27'
@@ -234,7 +234,7 @@ products:
       pack:
       - code: play
         set: dsk
-  Duskmourn House of Horror Prerelease Pack:
+  'Duskmourn: House of Horror Prerelease Pack':
     category: LIMITED
     subtype: PRERELEASE
     release_date: '2024-09-27'
@@ -255,9 +255,9 @@ products:
         set: dsk
       sealed:
       - count: 6
-        name: Duskmourn House of Horror Play Booster Pack
+        name: 'Duskmourn: House of Horror Play Booster Pack'
         set: dsk
-  Duskmourn House of Horror Prerelease Pack Case:
+  'Duskmourn: House of Horror Prerelease Pack Case':
     category: LIMITED_CASE
     subtype: PRERELEASE
     identifiers:
@@ -265,9 +265,9 @@ products:
     contents:
       sealed:
       - count: 15
-        name: Duskmourn House of Horror Prerelease Pack
+        name: 'Duskmourn: House of Horror Prerelease Pack'
         set: dsk
-  Duskmourn House of Horror Promo Pack:
+  'Duskmourn: House of Horror Promo Pack':
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
     identifiers:

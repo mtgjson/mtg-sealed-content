@@ -1,6 +1,6 @@
 code: iko
 products:
-  Ikoria Lair of Behemoths Box Topper Pack:
+  'Ikoria: Lair of Behemoths Box Topper Pack':
     category: BOOSTER_PACK
     subtype: TOPPER
     release_date: '2020-05-15'
@@ -13,7 +13,7 @@ products:
       pack:
       - code: box-topper
         set: iko
-  Ikoria Lair of Behemoths Bundle:
+  'Ikoria: Lair of Behemoths Bundle':
     category: BUNDLE
     subtype: DEFAULT
     release_date: '2020-05-15'
@@ -42,9 +42,9 @@ products:
       - name: Reusable card storage box
       sealed:
       - count: 10
-        name: Ikoria Lair of Behemoths Draft Booster Pack
+        name: 'Ikoria: Lair of Behemoths Draft Booster Pack'
         set: iko
-  Ikoria Lair of Behemoths Collector Booster Box:
+  'Ikoria: Lair of Behemoths Collector Booster Box':
     category: BOOSTER_BOX
     subtype: COLLECTOR
     release_date: '2020-05-15'
@@ -61,12 +61,12 @@ products:
     contents:
       sealed:
       - count: 12
-        name: Ikoria Lair of Behemoths Collector Booster Pack
+        name: 'Ikoria: Lair of Behemoths Collector Booster Pack'
         set: iko
       - count: 1
-        name: Ikoria Lair of Behemoths Box Topper Pack
+        name: 'Ikoria: Lair of Behemoths Box Topper Pack'
         set: iko
-  Ikoria Lair of Behemoths Collector Booster Box Case:
+  'Ikoria: Lair of Behemoths Collector Booster Box Case':
     category: BOOSTER_CASE
     subtype: COLLECTOR
     release_date: '2020-05-15'
@@ -76,9 +76,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Ikoria Lair of Behemoths Collector Booster Box
+        name: 'Ikoria: Lair of Behemoths Collector Booster Box'
         set: iko
-  Ikoria Lair of Behemoths Collector Booster Hanger Pack:
+  'Ikoria: Lair of Behemoths Collector Booster Hanger Pack':
     category: BOOSTER_PACK
     subtype: COLLECTOR
     release_date: '2020-05-15'
@@ -88,9 +88,9 @@ products:
     contents:
       sealed:
       - count: 1
-        name: Ikoria Lair of Behemoths Collector Booster Pack
+        name: 'Ikoria: Lair of Behemoths Collector Booster Pack'
         set: iko
-  Ikoria Lair of Behemoths Collector Booster Hanger Pack Case:
+  'Ikoria: Lair of Behemoths Collector Booster Hanger Pack Case':
     category: BOOSTER_CASE
     subtype: COLLECTOR
     release_date: '2020-05-15'
@@ -99,9 +99,9 @@ products:
     contents:
       sealed:
       - count: 120
-        name: Ikoria Lair of Behemoths Collector Booster Hanger Pack
+        name: 'Ikoria: Lair of Behemoths Collector Booster Hanger Pack'
         set: iko
-  Ikoria Lair of Behemoths Collector Booster Pack:
+  'Ikoria: Lair of Behemoths Collector Booster Pack':
     category: BOOSTER_PACK
     subtype: COLLECTOR
     release_date: '2020-05-15'
@@ -120,7 +120,7 @@ products:
       pack:
       - code: collector
         set: iko
-  Ikoria Lair of Behemoths Draft Booster Box:
+  'Ikoria: Lair of Behemoths Draft Booster Box':
     category: BOOSTER_BOX
     subtype: DRAFT
     release_date: '2020-05-15'
@@ -137,12 +137,12 @@ products:
     contents:
       sealed:
       - count: 36
-        name: Ikoria Lair of Behemoths Draft Booster Pack
+        name: 'Ikoria: Lair of Behemoths Draft Booster Pack'
         set: iko
       - count: 1
-        name: Ikoria Lair of Behemoths Box Topper Pack
+        name: 'Ikoria: Lair of Behemoths Box Topper Pack'
         set: iko
-  Ikoria Lair of Behemoths Draft Booster Box Case:
+  'Ikoria: Lair of Behemoths Draft Booster Box Case':
     category: BOOSTER_CASE
     subtype: DRAFT
     release_date: '2020-05-15'
@@ -152,9 +152,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Ikoria Lair of Behemoths Draft Booster Box
+        name: 'Ikoria: Lair of Behemoths Draft Booster Box'
         set: iko
-  Ikoria Lair of Behemoths Draft Booster Pack:
+  'Ikoria: Lair of Behemoths Draft Booster Pack':
     category: BOOSTER_PACK
     subtype: DRAFT
     release_date: '2020-05-15'
@@ -173,7 +173,7 @@ products:
       pack:
       - code: draft
         set: iko
-  Ikoria Lair of Behemoths Foil Promo Pack:
+  'Ikoria: Lair of Behemoths Foil Promo Pack':
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
     identifiers:
@@ -186,7 +186,7 @@ products:
       pack:
       - code: promo-foil
         set: iko
-  Ikoria Lair of Behemoths MTGO Redemption:
+  'Ikoria: Lair of Behemoths MTGO Redemption':
     category: BOX_SET
     subtype: MTGO_REDEMPTION
     identifiers:
@@ -196,7 +196,7 @@ products:
       deck:
       - name: 'Ikoria: Lair of Behemoths Redemption'
         set: iko
-  Ikoria Lair of Behemoths MTGO Redemption Foil:
+  'Ikoria: Lair of Behemoths MTGO Redemption Foil':
     category: BOX_SET
     subtype: MTGO_REDEMPTION
     identifiers:
@@ -206,7 +206,7 @@ products:
       deck:
       - name: 'Ikoria: Lair of Behemoths Foil Redemption'
         set: iko
-  Ikoria Lair of Behemoths Prerelease Pack:
+  'Ikoria: Lair of Behemoths Prerelease Pack':
     category: LIMITED
     subtype: PRERELEASE
     release_date: '2020-05-15'
@@ -228,9 +228,9 @@ products:
         set: iko
       sealed:
       - count: 6
-        name: Ikoria Lair of Behemoths Draft Booster Pack
+        name: 'Ikoria: Lair of Behemoths Draft Booster Pack'
         set: iko
-  Ikoria Lair of Behemoths Promo Pack:
+  'Ikoria: Lair of Behemoths Promo Pack':
     category: BOOSTER_PACK
     subtype: PROMOTIONAL
     identifiers:
@@ -243,7 +243,7 @@ products:
       pack:
       - code: promo
         set: iko
-  Ikoria Lair of Behemoths Theme Booster Box:
+  'Ikoria: Lair of Behemoths Theme Booster Box':
     category: BOOSTER_BOX
     subtype: THEME
     release_date: '2020-05-15'
@@ -254,24 +254,24 @@ products:
     contents:
       sealed:
       - count: 2
-        name: Ikoria Lair of Behemoths Theme Booster Pack White
+        name: 'Ikoria: Lair of Behemoths Theme Booster Pack White'
         set: iko
       - count: 2
-        name: Ikoria Lair of Behemoths Theme Booster Pack Blue
+        name: 'Ikoria: Lair of Behemoths Theme Booster Pack Blue'
         set: iko
       - count: 2
-        name: Ikoria Lair of Behemoths Theme Booster Pack Black
+        name: 'Ikoria: Lair of Behemoths Theme Booster Pack Black'
         set: iko
       - count: 2
-        name: Ikoria Lair of Behemoths Theme Booster Pack Red
+        name: 'Ikoria: Lair of Behemoths Theme Booster Pack Red'
         set: iko
       - count: 2
-        name: Ikoria Lair of Behemoths Theme Booster Pack Green
+        name: 'Ikoria: Lair of Behemoths Theme Booster Pack Green'
         set: iko
       - count: 2
-        name: Ikoria Lair of Behemoths Theme Booster Pack Monsters
+        name: 'Ikoria: Lair of Behemoths Theme Booster Pack Monsters'
         set: iko
-  Ikoria Lair of Behemoths Theme Booster Box Case:
+  'Ikoria: Lair of Behemoths Theme Booster Box Case':
     category: BOOSTER_CASE
     subtype: THEME
     release_date: '2020-05-15'
@@ -279,9 +279,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Ikoria Lair of Behemoths Theme Booster Box
+        name: 'Ikoria: Lair of Behemoths Theme Booster Box'
         set: iko
-  Ikoria Lair of Behemoths Theme Booster Pack Black:
+  'Ikoria: Lair of Behemoths Theme Booster Pack Black':
     category: BOOSTER_PACK
     subtype: THEME
     release_date: '2020-05-15'
@@ -297,7 +297,7 @@ products:
       pack:
       - code: theme-b
         set: iko
-  Ikoria Lair of Behemoths Theme Booster Pack Blue:
+  'Ikoria: Lair of Behemoths Theme Booster Pack Blue':
     category: BOOSTER_PACK
     subtype: THEME
     release_date: '2020-05-15'
@@ -313,7 +313,7 @@ products:
       pack:
       - code: theme-u
         set: iko
-  Ikoria Lair of Behemoths Theme Booster Pack Green:
+  'Ikoria: Lair of Behemoths Theme Booster Pack Green':
     category: BOOSTER_PACK
     subtype: THEME
     release_date: '2020-05-15'
@@ -329,7 +329,7 @@ products:
       pack:
       - code: theme-g
         set: iko
-  Ikoria Lair of Behemoths Theme Booster Pack Monsters:
+  'Ikoria: Lair of Behemoths Theme Booster Pack Monsters':
     category: BOOSTER_PACK
     subtype: THEME
     release_date: '2020-05-15'
@@ -344,7 +344,7 @@ products:
       pack:
       - code: theme-monsters
         set: iko
-  Ikoria Lair of Behemoths Theme Booster Pack Red:
+  'Ikoria: Lair of Behemoths Theme Booster Pack Red':
     category: BOOSTER_PACK
     subtype: THEME
     release_date: '2020-05-15'
@@ -360,7 +360,7 @@ products:
       pack:
       - code: theme-r
         set: iko
-  Ikoria Lair of Behemoths Theme Booster Pack Set of 6:
+  'Ikoria: Lair of Behemoths Theme Booster Pack Set of 6':
     category: SUBSET
     subtype: THEME
     release_date: '2020-05-15'
@@ -369,24 +369,24 @@ products:
     contents:
       sealed:
       - count: 1
-        name: Ikoria Lair of Behemoths Theme Booster Pack White
+        name: 'Ikoria: Lair of Behemoths Theme Booster Pack White'
         set: iko
       - count: 1
-        name: Ikoria Lair of Behemoths Theme Booster Pack Blue
+        name: 'Ikoria: Lair of Behemoths Theme Booster Pack Blue'
         set: iko
       - count: 1
-        name: Ikoria Lair of Behemoths Theme Booster Pack Black
+        name: 'Ikoria: Lair of Behemoths Theme Booster Pack Black'
         set: iko
       - count: 1
-        name: Ikoria Lair of Behemoths Theme Booster Pack Red
+        name: 'Ikoria: Lair of Behemoths Theme Booster Pack Red'
         set: iko
       - count: 1
-        name: Ikoria Lair of Behemoths Theme Booster Pack Green
+        name: 'Ikoria: Lair of Behemoths Theme Booster Pack Green'
         set: iko
       - count: 1
-        name: Ikoria Lair of Behemoths Theme Booster Pack Monsters
+        name: 'Ikoria: Lair of Behemoths Theme Booster Pack Monsters'
         set: iko
-  Ikoria Lair of Behemoths Theme Booster Pack White:
+  'Ikoria: Lair of Behemoths Theme Booster Pack White':
     category: BOOSTER_PACK
     subtype: THEME
     release_date: '2020-05-15'

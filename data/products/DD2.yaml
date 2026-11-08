@@ -1,6 +1,6 @@
 code: dd2
 products:
-  Duel Deck Jace vs Chandra:
+  'Duel Decks: Jace vs. Chandra':
     category: MULTI_DECK
     subtype: DUEL
     identifiers:
@@ -16,12 +16,12 @@ products:
     contents:
       sealed:
       - count: 1
-        name: Duel Deck Jace vs Chandra Chandra Deck
+        name: 'Duel Decks: Jace vs. Chandra Chandra Deck'
         set: dd2
       - count: 1
-        name: Duel Deck Jace vs Chandra Jace Deck
+        name: 'Duel Decks: Jace vs. Chandra Jace Deck'
         set: dd2
-  Duel Deck Jace vs Chandra Chandra Deck:
+  'Duel Decks: Jace vs. Chandra Chandra Deck':
     category: DECK
     subtype: DUEL
     identifiers: {}
@@ -30,7 +30,7 @@ products:
       deck:
       - name: Chandra
         set: dd2
-  Duel Deck Jace vs Chandra Display:
+  'Duel Decks: Jace vs. Chandra Display':
     category: DECK_BOX
     subtype: DUEL
     identifiers:
@@ -38,9 +38,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Duel Deck Jace vs Chandra
+        name: 'Duel Decks: Jace vs. Chandra'
         set: dd2
-  Duel Deck Jace vs Chandra Jace Deck:
+  'Duel Decks: Jace vs. Chandra Jace Deck':
     category: DECK
     subtype: DUEL
     identifiers: {}
@@ -49,7 +49,7 @@ products:
       deck:
       - name: Jace
         set: dd2
-  Duel Deck Jace vs Chandra Japanese:
+  'Duel Decks: Jace vs. Chandra Japanese':
     category: MULTI_DECK
     subtype: DUEL
     release_date: '2010-12-03'

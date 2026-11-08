@@ -1,6 +1,6 @@
 code: ddh
 products:
-  Duel Deck Ajani vs Nicol Bolas:
+  'Duel Decks: Ajani vs. Nicol Bolas':
     category: MULTI_DECK
     subtype: DUEL
     identifiers:
@@ -16,12 +16,12 @@ products:
     contents:
       sealed:
       - count: 1
-        name: Duel Deck Ajani vs Nicol Bolas Ajani Deck
+        name: 'Duel Decks: Ajani vs. Nicol Bolas Ajani Deck'
         set: ddh
       - count: 1
-        name: Duel Deck Ajani vs Nicol Bolas Nicol Bolas Deck
+        name: 'Duel Decks: Ajani vs. Nicol Bolas Nicol Bolas Deck'
         set: ddh
-  Duel Deck Ajani vs Nicol Bolas Ajani Deck:
+  'Duel Decks: Ajani vs. Nicol Bolas Ajani Deck':
     category: DECK
     subtype: DUEL
     identifiers:
@@ -32,7 +32,7 @@ products:
       deck:
       - name: Ajani Goldmane
         set: ddh
-  Duel Deck Ajani vs Nicol Bolas Display:
+  'Duel Decks: Ajani vs. Nicol Bolas Display':
     category: DECK_BOX
     subtype: DUEL
     identifiers:
@@ -42,9 +42,9 @@ products:
     contents:
       sealed:
       - count: 6
-        name: Duel Deck Ajani vs Nicol Bolas
+        name: 'Duel Decks: Ajani vs. Nicol Bolas'
         set: ddh
-  Duel Deck Ajani vs Nicol Bolas Nicol Bolas Deck:
+  'Duel Decks: Ajani vs. Nicol Bolas Nicol Bolas Deck':
     category: DECK
     subtype: DUEL
     identifiers:
