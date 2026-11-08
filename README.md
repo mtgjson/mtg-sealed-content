@@ -97,6 +97,7 @@ For example, to add a completely new product, add an entry to `data/products/SET
 
 Name a product `<Set> <Product>`, using this repository's words rather than a store's title. Store titles differ per vendor; product names do not.
 
+- `<Set>` is the set's name exactly as MTGJSON publishes it, with every colon, period, comma and hyphen: `Innistrad: Midnight Hunt Bundle`, `Duel Decks: Elves vs. Goblins Display`, `The Lord of the Rings: Tales of Middle-earth Set Booster Pack`, `Warhammer 40,000 Commander Deck Forces of the Imperium`. Quote such a name in YAML.
 - A sealed box of boosters is a `Booster Box`, never a `Booster Display`: `My Set Collector Booster Box`.
 - One Play, Collector, Set, Draft or Theme booster is a `Booster Pack`, never a bare `Booster`: `My Set Collector Booster Pack`. Boosters sold under their own name keep it, such as `My Set Welcome Booster`.
 - A case of boxes is a `Booster Box Case`: `My Set Collector Booster Box Case`.
@@ -276,7 +277,7 @@ output so consumers know to look for the UUID in the same place.
 Example card YAML input:
 
 ```yaml
-  Phyrexia All Will Be One Compleat Bundle:
+  'Phyrexia: All Will Be One Compleat Bundle':
     contents:
       card:
       - set: one
