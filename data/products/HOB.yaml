@@ -202,6 +202,25 @@ products:
       - count: 6
         name: The Hobbit Gift Bundle
         set: hob
+  The Hobbit Middle-earth Booster Kit:
+    category: BOX_SET
+    subtype: OTHER
+    identifiers:
+      tcgplayerProductId: '733447'
+    contents:
+      card:
+      - foil: true
+        name: Call of the Ring
+        number: 2026-32
+        set: pmei
+      card_count: 1
+      sealed:
+      - count: 4
+        name: The Hobbit Play Booster Pack
+        set: hob
+      - count: 4
+        name: 'The Lord of the Rings: Tales of Middle-earth Set Booster Pack'
+        set: ltr
   The Hobbit Play Booster Box:
     category: BOOSTER_BOX
     subtype: PLAY
