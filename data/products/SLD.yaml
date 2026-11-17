@@ -10985,6 +10985,30 @@ products:
       deck:
       - name: Return to Mystical Archive Foil Edition
         set: sld
+  Secret Lair Drop Rise of the Polygons:
+    category: BOX_SET
+    subtype: SECRET_LAIR
+    release_date: '2026-11-13'
+    identifiers: {}
+    contents:
+      card_count: 4
+      deck:
+      - name: Rise of the Polygons
+        set: sld
+      other:
+      - name: Bonus card unknown
+  Secret Lair Drop Rise of the Polygons Foil:
+    category: BOX_SET
+    subtype: SECRET_LAIR
+    release_date: '2026-11-13'
+    identifiers: {}
+    contents:
+      card_count: 4
+      deck:
+      - name: Rise of the Polygons Foil Edition
+        set: sld
+      other:
+      - name: Bonus card unknown
   Secret Lair Drop Roadshow Edition Burning Revelations Rainbow Foil:
     category: BOX_SET
     subtype: SECRET_LAIR
@@ -15204,6 +15228,32 @@ products:
       card_count: 6
       deck:
       - name: 'Star Trek: KHAAAAAAAAN Foil Edition'
+        set: sld
+      other:
+      - name: Bonus card unknown
+  Secret Lair Drop Star Trek Lower Decks:
+    category: BOX_SET
+    subtype: SECRET_LAIR
+    release_date: '2026-12-16'
+    identifiers:
+      tcgplayerProductId: '726679'
+    contents:
+      card_count: 5
+      deck:
+      - name: 'Star Trek: Lower Decks'
+        set: sld
+      other:
+      - name: Bonus card unknown
+  Secret Lair Drop Star Trek Lower Decks Foil:
+    category: BOX_SET
+    subtype: SECRET_LAIR
+    release_date: '2026-12-16'
+    identifiers:
+      tcgplayerProductId: '726680'
+    contents:
+      card_count: 5
+      deck:
+      - name: 'Star Trek: Lower Decks Foil Edition'
         set: sld
       other:
       - name: Bonus card unknown

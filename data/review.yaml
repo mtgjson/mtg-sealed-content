@@ -247,7 +247,37 @@ cardTrader:
     subtype: UNKNOWN
 coolstuffinc: {}
 hareruya: {}
-miniaturemarket: {}
+miniaturemarket:
+  'MTG: Nauctis: The Sunken Realm - Booster Box (30) (Preorder)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 01a1e63773e870d7b6850eeaa3202814
+    subtype: UNKNOWN
+  'MTG: Nauctis: The Sunken Realm - Booster Pack (Preorder)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 01a1e6377f2873889db99c213af90cd8
+    subtype: UNKNOWN
+  'MTG: Nauctis: The Sunken Realm - Bundle (Preorder)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 01a1e6381619723b9a0ecf469c77d7ad
+    subtype: UNKNOWN
+  'MTG: Nauctis: The Sunken Realm - Collector Booster Box (12) (Preorder)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 01a1e6378a65727d862ad97aa33dfdb3
+    subtype: UNKNOWN
+  'MTG: Nauctis: The Sunken Realm - Collector Booster Pack (Preorder)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 01a1e63795e67264902283fdab793a80
+    subtype: UNKNOWN
+  'MTG: Nauctis: The Sunken Realm - Commander Deck Set (4) (Preorder)':
+    category: UNKNOWN
+    identifiers:
+      miniaturemarketId: 01a1e637a15a7392a01cdd78790f1742
+    subtype: UNKNOWN
 starcitygames: {}
 tcgplayer:
   Nauctis The Sunken Realm Booster Display:
@@ -274,6 +304,12 @@ tcgplayer:
       tcgplayerProductId: '733559'
     release_date: '2027-02-05'
     subtype: UNKNOWN
+  Nauctis The Sunken Realm Bundle Case:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '733576'
+    release_date: '2027-02-05'
+    subtype: UNKNOWN
   Nauctis The Sunken Realm Collector Booster Display:
     category: UNKNOWN
     identifiers:
@@ -298,6 +334,78 @@ tcgplayer:
       tcgplayerProductId: '733553'
     release_date: '2027-02-05'
     subtype: UNKNOWN
+  Nauctis The Sunken Realm Commander Deck Blood in the Water:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '733587'
+    release_date: '2027-02-05'
+    subtype: UNKNOWN
+  Nauctis The Sunken Realm Commander Deck Blood in the Water Premium Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '733591'
+    release_date: '2027-02-05'
+    subtype: UNKNOWN
+  Nauctis The Sunken Realm Commander Deck Case:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '733597'
+    release_date: '2027-02-05'
+    subtype: UNKNOWN
+  Nauctis The Sunken Realm Commander Deck Case Premium Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '733598'
+    release_date: '2027-02-05'
+    subtype: UNKNOWN
+  Nauctis The Sunken Realm Commander Deck Merfolk Regiment:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '733583'
+    release_date: '2027-02-05'
+    subtype: UNKNOWN
+  Nauctis The Sunken Realm Commander Deck Merfolk Regiment Premium Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '733584'
+    release_date: '2027-02-05'
+    subtype: UNKNOWN
+  Nauctis The Sunken Realm Commander Deck Seal the Deal:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '733588'
+    release_date: '2027-02-05'
+    subtype: UNKNOWN
+  Nauctis The Sunken Realm Commander Deck Seal the Deal Premium Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '733590'
+    release_date: '2027-02-05'
+    subtype: UNKNOWN
+  Nauctis The Sunken Realm Commander Deck Terrors of the Abyss:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '733585'
+    release_date: '2027-02-05'
+    subtype: UNKNOWN
+  Nauctis The Sunken Realm Commander Deck Terrors of the Abyss Premium Edition:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '733592'
+    release_date: '2027-02-05'
+    subtype: UNKNOWN
+  Nauctis The Sunken Realm Draft Night:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '733578'
+    release_date: '2027-02-05'
+    subtype: UNKNOWN
+  Nauctis The Sunken Realm Draft Night Case:
+    category: UNKNOWN
+    identifiers:
+      tcgplayerProductId: '733580'
+    release_date: '2027-02-05'
+    subtype: UNKNOWN
   Nauctis The Sunken Realm Prerelease Pack:
     category: UNKNOWN
     identifiers:
@@ -309,17 +417,5 @@ tcgplayer:
     identifiers:
       tcgplayerProductId: '733558'
     release_date: '2027-01-29'
-    subtype: UNKNOWN
-  Secret Lair Drop Star Trek Lower Decks:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '726679'
-    release_date: '2026-12-19'
-    subtype: UNKNOWN
-  Secret Lair Drop Star Trek Lower Decks Foil:
-    category: UNKNOWN
-    identifiers:
-      tcgplayerProductId: '726680'
-    release_date: '2026-12-19'
     subtype: UNKNOWN
 trollandtoad: {}
