@@ -309,3 +309,53 @@ products:
     subtype: OTHER
     identifiers:
       cardKingdomId: '334202'
+  Star Trek Welcome Deck Black:
+    category: DECK
+    subtype: WELCOME
+    identifiers:
+      cardtraderId: '421956'
+      mcmId: '922457'
+    contents:
+      deck:
+      - name: Black Deck
+        set: trk
+  Star Trek Welcome Deck Blue:
+    category: DECK
+    subtype: WELCOME
+    identifiers:
+      cardtraderId: '421955'
+      mcmId: '922458'
+    contents:
+      deck:
+      - name: Blue Deck
+        set: trk
+  Star Trek Welcome Deck Green:
+    category: DECK
+    subtype: WELCOME
+    identifiers:
+      cardtraderId: '421958'
+      mcmId: '922459'
+    contents:
+      deck:
+      - name: Green Deck
+        set: trk
+  Star Trek Welcome Deck Red:
+    category: DECK
+    subtype: WELCOME
+    identifiers:
+      cardtraderId: '421957'
+      mcmId: '922460'
+    contents:
+      deck:
+      - name: Red Deck
+        set: trk
+  Star Trek Welcome Deck White:
+    category: DECK
+    subtype: WELCOME
+    identifiers:
+      cardtraderId: '421954'
+      mcmId: '922461'
+    contents:
+      deck:
+      - name: White Deck
+        set: trk
