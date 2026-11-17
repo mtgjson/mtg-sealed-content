@@ -49,3 +49,21 @@ products:
       - count: 2
         name: Secret Lair Countdown An Encyclopedia of Magic
         set: slc
+  Secret Lair Countdown Marvel's History of Heroes:
+    category: BOX_SET
+    subtype: SECRET_LAIR
+    release_date: '2026-11-02'
+    identifiers:
+      cardtraderId: '421232'
+      mcmId: '921852'
+      tcgplayerProductId: '729864'
+    contents:
+      card:
+      - foil: true
+        name: Terminate
+        number: 84
+        set: slc
+      card_count: 30
+      deck:
+      - name: Marvel's History of Heroes
+        set: slc
