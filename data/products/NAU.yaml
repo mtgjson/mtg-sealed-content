@@ -1,0 +1,149 @@
+code: nau
+products:
+  'Nauctis: The Sunken Realm Booster Box':
+    category: BOOSTER_BOX
+    subtype: PLAY
+    release_date: '2027-02-05'
+    identifiers:
+      cardtraderId: '423278'
+      mcmId: '923835'
+      miniaturemarketId: 01a1e63773e870d7b6850eeaa3202814
+      tcgplayerProductId: '733551'
+    contents:
+      sealed:
+      - count: 1
+        name: 'Nauctis: The Sunken Realm Box Topper Pack'
+        set: nau
+      - count: 30
+        name: 'Nauctis: The Sunken Realm Booster Pack'
+        set: nau
+  'Nauctis: The Sunken Realm Booster Box Case':
+    category: BOOSTER_CASE
+    subtype: PLAY
+    identifiers:
+      tcgplayerProductId: '733552'
+    contents:
+      sealed:
+      - count: 6
+        name: 'Nauctis: The Sunken Realm Booster Box'
+        set: nau
+  'Nauctis: The Sunken Realm Booster Pack':
+    category: BOOSTER_PACK
+    subtype: PLAY
+    release_date: '2027-02-05'
+    identifiers:
+      cardtraderId: '423280'
+      miniaturemarketId: 01a1e6377f2873889db99c213af90cd8
+      tcgplayerProductId: '733550'
+  'Nauctis: The Sunken Realm Box Topper Pack':
+    category: BOOSTER_PACK
+    subtype: TOPPER
+    release_date: '2027-02-05'
+    identifiers:
+      cardtraderId: '423282'
+  'Nauctis: The Sunken Realm Bundle':
+    category: BUNDLE
+    subtype: DEFAULT
+    release_date: '2027-02-05'
+    identifiers:
+      cardtraderId: '423283'
+      mcmId: '923841'
+      miniaturemarketId: 01a1e6381619723b9a0ecf469c77d7ad
+      tcgplayerProductId: '733559'
+  'Nauctis: The Sunken Realm Bundle Case':
+    category: BUNDLE_CASE
+    subtype: DEFAULT
+    identifiers:
+      tcgplayerProductId: '733576'
+    contents:
+      sealed:
+      - count: 6
+        name: 'Nauctis: The Sunken Realm Bundle'
+        set: nau
+  'Nauctis: The Sunken Realm Collector Booster Box':
+    category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2027-02-05'
+    identifiers:
+      cardtraderId: '423279'
+      mcmId: '923836'
+      miniaturemarketId: 01a1e6378a65727d862ad97aa33dfdb3
+      tcgplayerProductId: '733554'
+    contents:
+      sealed:
+      - count: 1
+        name: 'Nauctis: The Sunken Realm Box Topper Pack'
+        set: nau
+      - count: 12
+        name: 'Nauctis: The Sunken Realm Collector Booster Pack'
+        set: nau
+  'Nauctis: The Sunken Realm Collector Booster Box Case':
+    category: BOOSTER_CASE
+    subtype: COLLECTOR
+    identifiers:
+      tcgplayerProductId: '733555'
+    contents:
+      sealed:
+      - count: 6
+        name: 'Nauctis: The Sunken Realm Collector Booster Box'
+        set: nau
+  'Nauctis: The Sunken Realm Collector Booster Box Master Case':
+    category: BOOSTER_CASE
+    subtype: COLLECTOR
+    identifiers:
+      tcgplayerProductId: '733556'
+    contents:
+      sealed:
+      - count: 24
+        name: 'Nauctis: The Sunken Realm Collector Booster Box'
+        set: nau
+  'Nauctis: The Sunken Realm Collector Booster Pack':
+    category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2027-02-05'
+    identifiers:
+      miniaturemarketId: 01a1e63795e67264902283fdab793a80
+      tcgplayerProductId: '733553'
+  'Nauctis: The Sunken Realm Draft Night':
+    category: LIMITED
+    subtype: DRAFT
+    release_date: '2027-02-05'
+    identifiers:
+      cardtraderId: '423286'
+      mcmId: '923845'
+      tcgplayerProductId: '733578'
+  'Nauctis: The Sunken Realm Draft Night Case':
+    category: LIMITED_CASE
+    subtype: DRAFT
+    identifiers:
+      tcgplayerProductId: '733580'
+    contents:
+      sealed:
+      - count: 6
+        name: 'Nauctis: The Sunken Realm Draft Night'
+        set: nau
+  'Nauctis: The Sunken Realm Prerelease Pack':
+    category: LIMITED
+    subtype: PRERELEASE
+    release_date: '2027-01-29'
+    identifiers:
+      cardtraderId: '423285'
+      mcmId: '923846'
+      tcgplayerProductId: '733557'
+  'Nauctis: The Sunken Realm Prerelease Pack Case':
+    category: LIMITED_CASE
+    subtype: PRERELEASE
+    identifiers:
+      tcgplayerProductId: '733558'
+    contents:
+      sealed:
+      - count: 15
+        name: 'Nauctis: The Sunken Realm Prerelease Pack'
+        set: nau
+  'Nauctis: The Sunken Realm Secret Lair Bundle':
+    category: BUNDLE
+    subtype: SECRET_LAIR_BUNDLE
+    release_date: '2027-02-05'
+    identifiers:
+      cardtraderId: '423284'
+      mcmId: '923844'
