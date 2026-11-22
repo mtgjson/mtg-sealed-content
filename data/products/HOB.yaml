@@ -285,18 +285,7 @@ products:
       - count: 3
         name: The Hobbit Play Booster Pack
         set: hob
-  The Hobbit Prerelease Cards Booster:
-    category: BOOSTER_PACK
-    subtype: PRERELEASE
-    release_date: '2026-08-07'
-    identifiers:
-      mcmId: '903183'
-    contents:
-      card_count: 1
-      pack:
-      - code: prerelease
-        set: hob
-  The Hobbit Prerelease Kit:
+  The Hobbit Prerelease Pack:
     category: LIMITED
     subtype: PRERELEASE
     release_date: '2026-08-14'
@@ -332,7 +321,7 @@ products:
       - count: 6
         name: The Hobbit Play Booster Pack
         set: hob
-  The Hobbit Prerelease Kit Case:
+  The Hobbit Prerelease Pack Case:
     category: LIMITED_CASE
     subtype: PRERELEASE
     release_date: '2026-08-07'
@@ -341,7 +330,7 @@ products:
     contents:
       sealed:
       - count: 15
-        name: The Hobbit Prerelease Kit
+        name: The Hobbit Prerelease Pack
         set: hob
   The Hobbit Scene Box Case:
     category: BOX_SET
