@@ -9,10 +9,7 @@ import re
 import sys
 from pathlib import Path
 import requests
-if __package__:
-    from .deck_card_count import deck_card_count, deck_is_all_foil
-else:
-    from deck_card_count import deck_card_count, deck_is_all_foil
+from mtg_sealed_choices.counts import deck_card_count, deck_is_all_foil
 
 
 def load_referenced_decks():

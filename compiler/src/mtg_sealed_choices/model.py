@@ -34,6 +34,8 @@ class Pack:
     def __init__(self, contents: dict) -> None:
         self.set: str = contents["set"]
         self.code: str = contents["code"]
+        # Set by the adapter from the booster's catalog entry.
+        self.card_count: int | None = None
 
     def toJson(self) -> dict:
         return {"set": self.set, "code": self.code}
@@ -43,6 +45,8 @@ class Deck:
     def __init__(self, contents: dict) -> None:
         self.set: str = contents["set"]
         self.name: str = contents["name"]
+        # Set by the adapter from the deck's catalog entry.
+        self.card_count: int | None = None
 
     def toJson(self) -> dict:
         return {"set": self.set, "name": self.name}
@@ -99,7 +103,6 @@ class Product:
                 self.unknown_bonus()
         self.chance: int | float = contents.get("chance", 1)
         self.weight: int | float = contents.get("weight", 0)
-        self.card_count: int = contents.get("card_count", 0)
         self.choices = ChoiceGroups(contents, type(self), self.name)
 
     def unknown_bonus(self) -> None:
@@ -116,8 +119,24 @@ class Product:
         for key in ("card", "pack", "deck", "sealed", "other"):
             getattr(self, key).extend(getattr(target, key))
         self.choices.merge(target.choices)
-        self.card_count += target.card_count
         self.chance *= target.chance
+
+    def card_count(self) -> int | None:
+        """How many cards the product holds itself: one per card, each pack
+        and deck at its catalog size, and one config of each choice. A nested
+        sealed product counts its own. None where a pack or deck has no size,
+        or a choice's configs hold different counts."""
+        total = len(self.card)
+        for entry in self.pack + self.deck:
+            if entry.card_count is None:
+                return None
+            total += entry.card_count
+        for group in self.choices.groups:
+            counts = {component.card_count() for component in group}
+            if len(counts) != 1 or None in counts:
+                return None
+            total += counts.pop()
+        return total
 
     def toJson(self) -> dict:
         data: dict = {}
@@ -130,8 +149,10 @@ class Product:
                 data[key] = [value.toJson() for value in values]
         if self.choices.groups:
             data["variable"] = self.choices.serialize(lambda component: component.toJson())
-        if self.card_count:
-            data["card_count"] = self.card_count
+        # A choice's configs are unnamed components; only the product publishes a count.
+        card_count = self.card_count() if self.name else None
+        if card_count:
+            data["card_count"] = card_count
         if self.weight:
             data["variable_config"] = [{"chance": self.chance, "weight": self.weight}]
         return data
