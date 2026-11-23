@@ -58,3 +58,18 @@ network handling remain local, so the package still has no runtime dependencies.
 The map separates cards from tokens, ignores back faces and preserves collector
 numbers verbatim. MTGJSON's Polars pipeline index builder remains local because
 it consumes different inputs and implements language-specific UUID selection.
+
+## Card counts (0.4.0)
+
+`Product.card_count()` is how many cards a product holds itself: one per card
+entry, each pack and deck at the size its adapter reads from the catalog, and
+one config of each choice. A nested sealed product counts its own, so a product
+holding nothing else publishes no count. A pack or deck the catalog does not
+size, or a choice whose configs hold different counts, leaves it unknown.
+`toJson` publishes it as `card_count` on a named product, not on the configs of
+its choices; a `card_count` written in the contents is not read.
+
+`mtg_sealed_choices.counts` holds the catalog sizes: `deck_card_count` (playable
+cards, without display commanders or tokens, or the tokens of a deck that holds
+nothing else) and `booster_card_count` (the size most of a booster's weight
+opens to).
