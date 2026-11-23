@@ -4,8 +4,10 @@ import unittest
 from unittest.mock import Mock, patch
 
 import requests
+import requests_cache
 from urllib3.exceptions import MaxRetryError
 from requests.adapters import BaseAdapter
+from scripts.gatherer_original_printing_details_generator import GathererDownloader
 from scripts.retryable_session import retryable_session
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
@@ -45,6 +47,14 @@ class HttpReliabilityTests(unittest.TestCase):
             retry = retry.increment(method="GET", error=Exception("offline"))
             with self.assertRaises(MaxRetryError):
                 retry.increment(method="GET", error=Exception("offline"))
+
+    def test_gatherer_cached_session_retries_transient_status(self):
+        with requests_cache.CachedSession(backend="memory") as session:
+            GathererDownloader(session)
+            retry = session.get_adapter("https://gatherer.wizards.com/").max_retries
+            for status in (429, 500, 502, 503, 504):
+                self.assertTrue(retry.is_retry("GET", status))
+            self.assertFalse(retry.is_retry("GET", 404))
 
     def response(self, payload, status=200):
         response = requests.Response()

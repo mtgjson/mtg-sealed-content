@@ -1,7 +1,9 @@
 if __package__:
     from .atomic_write import atomic_write
+    from .retryable_session import mount_retries
 else:
     from atomic_write import atomic_write
+    from retryable_session import mount_retries
 
 from typing import List, Optional
 import bs4
@@ -27,6 +29,8 @@ class GathererDownloader:
 
     def __init__(self, session: requests_cache.CachedSession) -> None:
         self.session = session
+        # A run walks every Gatherer page; one 502 must not end it.
+        mount_retries(self.session)
 
         version = random.randint(100, 150)
         self.session.headers.update(
