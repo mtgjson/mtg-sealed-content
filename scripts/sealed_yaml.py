@@ -30,7 +30,7 @@ PRODUCT_KEYS = frozenset(KEY_ORDER)
 # contributor where a misplaced one should go.
 CONTENT_KEYS = frozenset({
     "card", "pack", "deck", "sealed", "other", "variable", "variable_mode",
-    "card_count", "copy", "chance", "weight",
+    "copy", "chance", "weight",
 })
 
 
@@ -108,7 +108,7 @@ def save_set(stem, data, allow=None, root="."):
     """Write one set, after checking the writer rule.
 
     `allow` maps a product name to the contents fields this save may overwrite or
-    remove for that product, e.g. {"Some Product": {"card_count"}}. There is
+    remove for that product, e.g. {"Some Product": {"other"}}. There is
     deliberately no way to replace a whole entry or a whole contents block.
     """
     if set_exists(stem, root):

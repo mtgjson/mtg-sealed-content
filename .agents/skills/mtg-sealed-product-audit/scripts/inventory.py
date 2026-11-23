@@ -81,18 +81,9 @@ for stem, data in sealed_sets:
             issue(product, 'empty_contents', {})
             continue
         scan(value, product, code, {(code, name)})
-        if isinstance(value, dict) and value.get('deck'):
-            refs = [(r.get('set', code).lower(), r['name']) for r in value['deck']]
-            if all(r in decks for r in refs):
-                count = sum(c['count'] for r in refs for section, cards in decks[r]['cards'].items()
-                            if section != 'Display Commander' for c in cards if not c.get('token'))
-                if count != value.get('card_count'):
-                    issue(product, 'count_review', {'stored': value.get('card_count'),
-                          'deck_gameplay_count': count, 'other_content_fields': sorted(set(value) - {'deck', 'card_count'})})
 result = {'year': a.year, 'products': rows, 'issues': issues,
           'undated_products': undated,
           'limits': ['Date-selected catalog entries, not proof of complete SKU coverage.',
-                     'Count differences require manual review of mixed products and gameplay tokens.',
                      'Pack existence checks do not compile queries or verify slot probabilities.']}
 a.output.write_text(json.dumps(result, indent=2, default=str) + '\n')
 print(json.dumps({'products': len(rows), 'sets': dict(Counter(r['code'] for r in rows)),

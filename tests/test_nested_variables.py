@@ -39,7 +39,6 @@ class NestedVariableTests(unittest.TestCase):
                             if k.endswith('Booster Battle Pack'))
             rows = outcomes(product(contents).toJson())
             self.assertEqual(len(rows), count)
-            self.assertEqual(contents['card_count'], 70)
             for row in rows:
                 self.assertEqual(len(row), 4)
                 colors = [d['name'].split(': ')[1].rsplit(' ', 1)[0] for d in row]

@@ -8,7 +8,6 @@ products:
       mcmId: '679619'
       tcgplayerProductId: '286610'
     contents:
-      card_count: 1
       pack:
       - code: box-topper
         set: dmu
@@ -99,7 +98,6 @@ products:
       tcgplayerProductId: '275407'
       tntId: '1751758'
     contents:
-      card_count: 15
       pack:
       - code: collector
         set: dmu
@@ -111,7 +109,6 @@ products:
       mcmId: '678642'
       tcgplayerProductId: '579979'
     contents:
-      card_count: 2
       pack:
       - code: collector-sample
         set: dmu
@@ -164,7 +161,6 @@ products:
       tcgplayerProductId: '275432'
       tntId: '1751753'
     contents:
-      card_count: 15
       pack:
       - code: draft
         set: dmu
@@ -174,7 +170,6 @@ products:
     identifiers:
       mcmId: '669190'
     contents:
-      card_count: 3
       other:
       - name: MTG Arena code card (where available)
       pack:
@@ -223,7 +218,6 @@ products:
       tcgplayerProductId: '275425'
       tntId: '1751766'
     contents:
-      card_count: 20
       pack:
       - code: jumpstart
         set: dmu
@@ -233,7 +227,6 @@ products:
     identifiers:
       cardKingdomId: '264063'
     contents:
-      card_count: 281
       deck:
       - name: Dominaria United Redemption
         set: dmu
@@ -243,7 +236,6 @@ products:
     identifiers:
       cardKingdomId: '264062'
     contents:
-      card_count: 281
       deck:
       - name: Dominaria United Foil Redemption
         set: dmu
@@ -258,7 +250,6 @@ products:
       mcmId: '669038'
       tcgplayerProductId: '275422'
     contents:
-      card_count: 1
       other:
       - name: Dominaria United Spindown Die
       - name: Punch-out Counters
@@ -275,7 +266,6 @@ products:
     identifiers:
       mcmId: '669189'
     contents:
-      card_count: 3
       other:
       - name: MTG Arena code card (where available)
       pack:
@@ -329,7 +319,6 @@ products:
       tcgplayerProductId: '275405'
       tntId: '1751756'
     contents:
-      card_count: 12
       pack:
       - code: set
         set: dmu
@@ -341,7 +330,6 @@ products:
       cardtraderId: '358697'
       mcmId: '691262'
     contents:
-      card_count: 10
       deck:
       - name: Dominaria United Welcome Booster
         set: dmu

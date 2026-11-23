@@ -90,16 +90,4 @@ with patch('requests.get', return_value=response) as get, patch('builtins.input'
             result = self.review(directory, ['0'], count=4)
             self.assertEqual(result.returncode, 0, result.stderr)
             example = yaml.safe_load(target.read_text())['products']['Secret Lair Drop Example']['contents']
-            self.assertEqual(example, {'card_count': 4, 'deck': [{'name': 'Example', 'set': 'sld'}], 'other': note})
-
-    def test_card_count_changes_only_when_confirmed(self):
-        for answer, expected in (('y', 4), ('n', 3)):
-            with self.subTest(answer=answer), tempfile.TemporaryDirectory() as directory:
-                base = Path(directory)
-                products = {f'Other Product {i}': {} for i in range(4)}
-                products['Secret Lair Drop Example'] = {'card_count': 3, 'other': [{'name': 'Bonus card unknown'}]}
-                target = self.make_sld(base, products)
-                result = self.review(directory, ['0', answer], count=4)
-                self.assertEqual(result.returncode, 0, result.stderr)
-                example = yaml.safe_load(target.read_text())['products']['Secret Lair Drop Example']['contents']
-                self.assertEqual(example['card_count'], expected)
+            self.assertEqual(example, {'deck': [{'name': 'Example', 'set': 'sld'}], 'other': note})

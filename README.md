@@ -254,6 +254,8 @@ Set `is_foil_only: true` on a product whose every non-token card is foil when it
 
 A product's contents go under its `contents:` key and use the following types: `card`, `pack`, `deck`, `sealed`, `variable`, `other`, and `copy`.
 
+The number of cards a product holds is not written here. MTGJSON publishes it as `cardCount`, counted from these contents: one per `card` entry, each `pack` and `deck` at its size in MTGJSON, and one config of each `variable`. A nested `sealed` product counts its own.
+
 ### `card`
 
 A `card` object refers to a single card, usually a promotional card.
@@ -306,7 +308,7 @@ JSON result:
 
 ### `pack`
 
-A `pack` object refers to an existing object in MTGJson `{set}.booster`. When `pack` is included in the product contents, the `card_count` parameter is required.
+A `pack` object refers to an existing object in MTGJson `{set}.booster`.
 
 `pack` objects have the following properties:
 
@@ -340,7 +342,7 @@ JSON result:
 
 ### `deck`
 
-A `deck` object refers to a precompiled deck object. When `deck` is included in the product contents, the `card_count` parameter is required.
+A `deck` object refers to a precompiled deck object.
 
 `deck` objects have the following properties:
 
@@ -439,7 +441,6 @@ Example variable YAML input:
 ```yaml
   Amonkhet Booster Battle Pack:
     contents:
-      card_count: 60
       sealed:
       - count: 2
         name: Amonkhet Booster Pack

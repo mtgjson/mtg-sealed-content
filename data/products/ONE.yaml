@@ -83,7 +83,6 @@ products:
       tcgplayerProductId: '451879'
       tntId: '1769463'
     contents:
-      card_count: 15
       pack:
       - code: collector
         set: one
@@ -103,7 +102,6 @@ products:
       mcmId: '696244'
       tcgplayerProductId: '579976'
     contents:
-      card_count: 2
       pack:
       - code: collector-sample
         set: one
@@ -155,7 +153,6 @@ products:
       abuId: '2304070'
       mcmId: '687468'
     contents:
-      card_count: 12
       pack:
       - code: compleat
         set: one
@@ -205,7 +202,6 @@ products:
       tcgplayerProductId: '451868'
       tntId: '1769458'
     contents:
-      card_count: 15
       pack:
       - code: draft
         set: one
@@ -216,7 +212,6 @@ products:
       mcmId: '696246'
       tcgplayerProductId: '689817'
     contents:
-      card_count: 3
       other:
       - name: MTG Arena code card (where available)
       pack:
@@ -263,7 +258,6 @@ products:
       tcgplayerProductId: '451875'
       tntId: '1769466'
     contents:
-      card_count: 20
       pack:
       - code: jumpstart
         set: one
@@ -273,7 +267,6 @@ products:
     identifiers:
       cardKingdomId: '274802'
     contents:
-      card_count: 271
       deck:
       - name: 'Phyrexia: All Will Be One Redemption'
         set: one
@@ -283,7 +276,6 @@ products:
     identifiers:
       cardKingdomId: '274803'
     contents:
-      card_count: 271
       deck:
       - name: 'Phyrexia: All Will Be One Foil Redemption'
         set: one
@@ -298,7 +290,6 @@ products:
       mcmId: '683486'
       tcgplayerProductId: '475570'
     contents:
-      card_count: 1
       other:
       - name: Phyrexia All Will Be One Spindown
       - name: MTG Arena code card (available in select regions)
@@ -316,7 +307,6 @@ products:
       mcmId: '696245'
       tcgplayerProductId: '689816'
     contents:
-      card_count: 3
       other:
       - name: MTG Arena code card (where available)
       pack:
@@ -370,7 +360,6 @@ products:
       tcgplayerProductId: '451871'
       tntId: '1769461'
     contents:
-      card_count: 12
       pack:
       - code: set
         set: one
@@ -381,7 +370,6 @@ products:
     identifiers:
       mcmId: '710616'
     contents:
-      card_count: 10
       deck:
       - name: 'Phyrexia: All Will Be One Welcome Booster'
         set: one

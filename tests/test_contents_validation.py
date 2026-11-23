@@ -17,7 +17,7 @@ BOX = {"category": "BOOSTER_BOX", "subtype": "DEFAULT", "identifiers": {}}
 class ContentsValidationTests(unittest.TestCase):
     def test_rejects_unknown_fields_and_invalid_counts_recursively(self):
         for content in (
-            {"crad": []}, {"card count": 30},
+            {"crad": []}, {"card count": 30}, {"card_count": 30},
             {"sealed": [{"name": "Box", "set": "tst", "count": -1}]},
             {"sealed": [{"name": "Box", "set": "tst", "count": True}]},
             {"card": [{"name": "Card", "set": "tst", "number": 1, "fiol": True}]},
@@ -29,7 +29,7 @@ class ContentsValidationTests(unittest.TestCase):
                 validate_content_fields(content)
 
     def test_accepts_missing_and_variable_contents(self):
-        for content in (None, [], {}, {"card_count": 0}, {
+        for content in (None, [], {}, {
             "variable": [{"sealed": [{"name": "Box", "set": "tst", "count": 2}]}],
             "variable_mode": {"count": 1, "replacement": False, "weight": 1},
         }):
@@ -70,7 +70,7 @@ class ContentsValidationTests(unittest.TestCase):
         self.assertEqual(self.run_gate({"Box": {**BOX, "contents": contents}, "Pack": BOX})[0], True)
 
     def test_ci_gate_rejects_a_returning_data_contents_file(self):
-        passed, output = self.run_gate({"Box": BOX}, leftover={"Box": {"card_count": 1}})
+        passed, output = self.run_gate({"Box": BOX}, leftover={"Box": {"other": [{"name": "Rules insert"}]}})
         self.assertFalse(passed)
         self.assertIn("data/contents/ is no longer read", output)
 

@@ -10,7 +10,6 @@ products:
       tcgplayerProductId: '78289'
       tntId: '1074177'
     contents:
-      card_count: 60
       other:
       - name: Two 22-card semi-randomized decks
       - name: Learn to play guide
@@ -72,7 +71,6 @@ products:
       scgId: SLD-MTG-PCK-M14-EN
       tcgplayerProductId: '69245'
     contents:
-      card_count: 15
       pack:
       - code: draft
         set: m14
@@ -88,7 +86,6 @@ products:
       tcgplayerProductId: '92502'
       tntId: '1032802'
     contents:
-      card_count: 225
       deck:
       - name: Fixed Content
         set: m14
@@ -159,7 +156,6 @@ products:
       tcgplayerProductId: '92501'
       tntId: '1033073'
     contents:
-      card_count: 75
       deck:
       - name: Rush of the Wild
         set: m14
@@ -202,7 +198,6 @@ products:
       tcgplayerProductId: '70075'
       tntId: '1028755'
     contents:
-      card_count: 60
       deck:
       - name: Bestial Strength
         set: m14
@@ -223,7 +218,6 @@ products:
       tcgplayerProductId: '70078'
       tntId: '1028757'
     contents:
-      card_count: 60
       deck:
       - name: Death Reaper
         set: m14
@@ -267,7 +261,6 @@ products:
       tcgplayerProductId: '70079'
       tntId: '1028754'
     contents:
-      card_count: 60
       deck:
       - name: Fire Surge
         set: m14
@@ -288,7 +281,6 @@ products:
       tcgplayerProductId: '70076'
       tntId: '1028753'
     contents:
-      card_count: 60
       deck:
       - name: Lightforce
         set: m14
@@ -309,7 +301,6 @@ products:
       tcgplayerProductId: '70077'
       tntId: '1028756'
     contents:
-      card_count: 60
       deck:
       - name: Psychic Labyrinth
         set: m14
@@ -354,7 +345,6 @@ products:
     identifiers:
       cardKingdomId: '210851'
     contents:
-      card_count: 249
       deck:
       - name: Magic 2014 Redemption
         set: m14
@@ -364,7 +354,6 @@ products:
     identifiers:
       cardKingdomId: '210867'
     contents:
-      card_count: 249
       deck:
       - name: Magic 2014 Foil Redemption
         set: m14
@@ -376,7 +365,6 @@ products:
       mcmId: '264366'
       tntId: '1704511'
     contents:
-      card_count: 30
       deck:
       - name: White Deck
         set: m14
@@ -388,7 +376,6 @@ products:
       mcmId: '264365'
       tntId: '1704509'
     contents:
-      card_count: 30
       deck:
       - name: Red Deck
         set: m14
@@ -400,7 +387,6 @@ products:
       mcmId: '264363'
       tntId: '1704510'
     contents:
-      card_count: 30
       deck:
       - name: Green Deck
         set: m14
@@ -412,7 +398,6 @@ products:
       mcmId: '264362'
       tntId: '1704512'
     contents:
-      card_count: 30
       deck:
       - name: Blue Deck
         set: m14
@@ -424,7 +409,6 @@ products:
       mcmId: '264364'
       tntId: '1704513'
     contents:
-      card_count: 30
       deck:
       - name: Black Deck
         set: m14
@@ -433,7 +417,6 @@ products:
     subtype: SIX
     identifiers: {}
     contents:
-      card_count: 6
       pack:
       - code: six
         set: m14

@@ -50,13 +50,13 @@ class SealedYamlTests(unittest.TestCase):
         self.assertEqual(Path("data/products/TST.yaml").read_bytes(), before)
 
     def test_writer_rule_refuses_losing_products_or_contents(self):
-        self.write({"Box": {**BOX, "contents": {**BOX_CONTENTS, "card_count": 36}}, "Pack": BOX})
+        self.write({"Box": {**BOX, "contents": {**BOX_CONTENTS, "other": [{"name": "Rules insert"}]}}, "Pack": BOX})
         cases = {
             "would drop product 'Pack'": lambda data: data["products"].pop("Pack"),
             "would remove 'sealed'": lambda data: data["products"]["Box"]["contents"].pop("sealed"),
-            "would overwrite 'card_count'": lambda data: data["products"]["Box"]["contents"].update(card_count=1),
+            "would overwrite 'other'": lambda data: data["products"]["Box"]["contents"].update(other=[]),
             # Replacing the whole entry, as import_new_decks used to, loses the contents
-            "would remove 'card_count'": lambda data: data["products"].update(Box=dict(BOX)),
+            "would remove 'other'": lambda data: data["products"].update(Box=dict(BOX)),
         }
         for message, change in cases.items():
             with self.subTest(message):
@@ -66,7 +66,7 @@ class SealedYamlTests(unittest.TestCase):
                     sealed_yaml.save_set("TST", data)
 
     def test_writer_rule_allows_additions_and_named_overrides(self):
-        self.write({"Box": {**BOX, "contents": {**BOX_CONTENTS, "card_count": 36}}})
+        self.write({"Box": {**BOX, "contents": BOX_CONTENTS}})
         data = sealed_yaml.load_set("TST")
         data["products"]["Box"]["contents"]["other"] = [{"name": "Rules insert"}]
         data["products"]["Box"]["identifiers"]["mcmId"] = "2"
@@ -74,13 +74,15 @@ class SealedYamlTests(unittest.TestCase):
         sealed_yaml.save_set("TST", data)
 
         data = sealed_yaml.load_set("TST")
-        data["products"]["Box"]["contents"]["card_count"] = 40
+        data["products"]["Box"]["contents"]["other"] = [{"name": "Spindown life counter"}]
         with self.assertRaises(sealed_yaml.WriterRuleError):
-            sealed_yaml.save_set("TST", data, allow={"Box": {"other"}})
+            sealed_yaml.save_set("TST", data, allow={"Box": {"sealed"}})
         with self.assertRaises(sealed_yaml.WriterRuleError):
-            sealed_yaml.save_set("TST", data, allow={"New": {"card_count"}})
-        sealed_yaml.save_set("TST", data, allow={"Box": {"card_count"}})
-        self.assertEqual(sealed_yaml.load_set("TST")["products"]["Box"]["contents"]["card_count"], 40)
+            sealed_yaml.save_set("TST", data, allow={"New": {"other"}})
+        sealed_yaml.save_set("TST", data, allow={"Box": {"other"}})
+        self.assertEqual(
+            sealed_yaml.load_set("TST")["products"]["Box"]["contents"]["other"], [{"name": "Spindown life counter"}]
+        )
 
     def test_layout_errors_flag_a_returning_data_contents_file(self):
         self.write({"Box": {**BOX, "contents": BOX_CONTENTS}})

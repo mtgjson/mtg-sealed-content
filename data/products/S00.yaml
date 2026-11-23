@@ -7,7 +7,6 @@ products:
       cardtraderId: '45731'
       mcmId: '260971'
     contents:
-      card_count: 15
       variable:
       - deck:
         - name: Player A's advanced pack
@@ -22,7 +21,6 @@ products:
       cardtraderId: '45730'
       mcmId: '260970'
     contents:
-      card_count: 24
       deck:
       - name: Demo deck A
         set: p02
@@ -39,7 +37,6 @@ products:
       mcmId: '369561'
       tcgplayerProductId: '257333'
     contents:
-      card_count: 10
       deck:
       - name: Starter 2000 sampler pack
         set: s00
@@ -59,7 +56,6 @@ products:
         name: Rhox
         number: 43
         set: s00
-      card_count: 74
       deck:
       - name: Player A's deck
         set: s00

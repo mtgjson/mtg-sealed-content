@@ -18,7 +18,6 @@ products:
         name: Shark Shredder, Killer Clone
         number: 320
         set: tmt
-      card_count: 1
       deck:
       - name: Teenage Mutant Ninja Turtles Bundle Land Pack
         set: tmt
@@ -96,7 +95,6 @@ products:
       scgId: SLD-MTG-PCK-TMTCOLLECTOR-EN
       tcgplayerProductId: '657851'
     contents:
-      card_count: 15
       pack:
       - code: collector
         set: tmt
@@ -120,7 +118,6 @@ products:
       scgId: SLD-MTG-BUN-TMTDRAFT-EN
       tcgplayerProductId: '657860'
     contents:
-      card_count: 90
       deck:
       - name: Teenage Mutant Ninja Turtles Draft Night Land Pack
         set: tmt
@@ -151,7 +148,6 @@ products:
     release_date: '2026-03-06'
     identifiers: {}
     contents:
-      card_count: 38
       deck:
       - name: Enemy Deck
         set: tmt
@@ -240,7 +236,6 @@ products:
       scgId: SLD-MTG-PCK-TMTPLAY-EN
       tcgplayerProductId: '657848'
     contents:
-      card_count: 14
       pack:
       - code: play
         set: tmt
@@ -257,7 +252,6 @@ products:
       scgId: SLD-MTG-INT-TMTPRE-EN
       tcgplayerProductId: '657862'
     contents:
-      card_count: 1
       other:
       - name: Deck box
       - name: Spindown die
@@ -284,7 +278,6 @@ products:
     release_date: '2026-03-06'
     identifiers: {}
     contents:
-      card_count: 60
       deck:
       - name: Donatello
         set: tmt
@@ -294,7 +287,6 @@ products:
     release_date: '2026-03-06'
     identifiers: {}
     contents:
-      card_count: 60
       deck:
       - name: Leonardo
         set: tmt
@@ -304,7 +296,6 @@ products:
     release_date: '2026-03-06'
     identifiers: {}
     contents:
-      card_count: 60
       deck:
       - name: Michealangelo
         set: tmt
@@ -314,7 +305,6 @@ products:
     release_date: '2026-03-06'
     identifiers: {}
     contents:
-      card_count: 60
       deck:
       - name: Raphael
         set: tmt

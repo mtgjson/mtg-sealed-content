@@ -6,7 +6,6 @@ products:
     identifiers:
       tcgplayerProductId: '172939'
     contents:
-      card_count: 60
       sealed:
       - count: 2
         name: Dominaria Booster Pack
@@ -76,7 +75,6 @@ products:
       tcgplayerProductId: '158425'
       tntId: '1158686'
     contents:
-      card_count: 15
       pack:
       - code: draft
         set: dom
@@ -114,7 +112,6 @@ products:
     identifiers:
       cardKingdomId: '219038'
     contents:
-      card_count: 269
       deck:
       - name: Dominaria Redemption
         set: dom
@@ -124,7 +121,6 @@ products:
     identifiers:
       cardKingdomId: '218502'
     contents:
-      card_count: 269
       deck:
       - name: Dominaria Foil Redemption
         set: dom
@@ -142,7 +138,6 @@ products:
       tcgplayerProductId: '158427'
       tntId: '1158684'
     contents:
-      card_count: 60
       deck:
       - name: Chandra, Bold Pyromancer
         set: dom
@@ -177,7 +172,6 @@ products:
       tcgplayerProductId: '158428'
       tntId: '1158685'
     contents:
-      card_count: 60
       deck:
       - name: Teferi, Timebender
         set: dom
@@ -212,7 +206,6 @@ products:
       mcmId: '355773'
       tcgplayerProductId: '158430'
     contents:
-      card_count: 2
       other:
       - name: Story and deck-building insert
       - name: 1 Dominaria Spindown
@@ -243,7 +236,6 @@ products:
       mcmId: '356946'
       tcgplayerProductId: '166671'
     contents:
-      card_count: 35
       pack:
       - code: theme-b
         set: dom
@@ -256,7 +248,6 @@ products:
       mcmId: '356944'
       tcgplayerProductId: '166674'
     contents:
-      card_count: 35
       pack:
       - code: theme-u
         set: dom
@@ -269,7 +260,6 @@ products:
       mcmId: '356943'
       tcgplayerProductId: '166673'
     contents:
-      card_count: 35
       pack:
       - code: theme-g
         set: dom
@@ -282,7 +272,6 @@ products:
       mcmId: '356947'
       tcgplayerProductId: '166675'
     contents:
-      card_count: 35
       pack:
       - code: theme-r
         set: dom
@@ -317,7 +306,6 @@ products:
       mcmId: '356945'
       tcgplayerProductId: '166672'
     contents:
-      card_count: 35
       pack:
       - code: theme-w
         set: dom

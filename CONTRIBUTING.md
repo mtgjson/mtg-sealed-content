@@ -39,7 +39,7 @@ The `scripts/` directory contains the Python tooling that compiles the YAML data
 
 - Use **lowercase set codes** in content entries (e.g., `one`, `2ed`, `akh`).
 - Product names should match their official names as closely as possible.
-- Include `card_count` when the product contains `pack` or `deck` types if available.
+- Do not add `card_count`: MTGJSON counts a product's cards from its contents.
 - Make sure to set the `foil` flag where needed or it will silently skipped
 
 ### Pull Request Process

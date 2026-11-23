@@ -111,9 +111,9 @@ def validate_content_fields(contents, path="contents"):
     if contents is None or contents == []:
         return
     check_fields(contents, set(CONTENT_FIELDS) | {
-        "variable", "variable_mode", "card_count", "chance", "weight"
+        "variable", "variable_mode", "chance", "weight"
     }, path)
-    for key in ("card_count", "chance", "weight"):
+    for key in ("chance", "weight"):
         if key in contents:
             check_count(contents[key], f"{path}.{key}", minimum=0)
     for kind, fields in CONTENT_FIELDS.items():

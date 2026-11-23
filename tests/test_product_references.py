@@ -33,12 +33,12 @@ class ProductReferenceTests(unittest.TestCase):
         errors = reference_errors({a, b}, {a: {'copy': 'Original'}, b: {}})
         self.assertEqual(len(errors), 1)
         self.assertIn('has no contents', errors[0])
-        self.assertEqual(reference_errors({a, b}, {a: {'copy': 'Original'}, b: {'card_count': 1}}), [])
+        self.assertEqual(reference_errors({a, b}, {a: {'copy': 'Original'}, b: {'other': [{'name': 'Rules insert'}]}}), [])
 
     def test_copy_chains_are_rejected(self):
         a, b, c = ('a', 'First'), ('a', 'Second'), ('a', 'Original')
         errors = reference_errors({a, b, c}, {
-            a: {'copy': 'Second'}, b: {'copy': 'Original'}, c: {'card_count': 1},
+            a: {'copy': 'Second'}, b: {'copy': 'Original'}, c: {'other': [{'name': 'Rules insert'}]},
         })
         self.assertEqual(len(errors), 1)
         self.assertIn('is itself a copy', errors[0])
