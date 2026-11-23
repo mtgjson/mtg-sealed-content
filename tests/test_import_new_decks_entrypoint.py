@@ -68,7 +68,7 @@ with patch('requests.get', side_effect=AssertionError('unexpected download')):
             self.assertEqual(result.returncode, 0, result.stderr)
             products = yaml.safe_load((base / 'data/products/TST.yaml').read_text())['products']
             self.assertEqual(len(products), 1)
-            self.assertEqual(products['Test Set Theme Deck Example']['contents']['card_count'], 60)
+            self.assertEqual(products['Test Set Theme Deck Example']['contents']['deck'], [{'name': 'Example', 'set': 'tst'}])
             self.assertIn('deck already referenced', result.stdout)
 
     def test_addon_deck_is_not_imported(self):
@@ -166,6 +166,6 @@ main()
             self.assertEqual(product, {
                 'category': 'DECK', 'subtype': 'THEME', 'release_date': '2020-01-01', 'language': 'German',
                 'identifiers': {'tcgplayerProductId': '9'}, 'contents': {
-                    'card_count': 60, 'deck': [{'name': 'Example', 'set': 'tst'}], 'other': [{'name': 'Rules insert'}],
+                    'deck': [{'name': 'Example', 'set': 'tst'}], 'other': [{'name': 'Rules insert'}],
                 },
             })

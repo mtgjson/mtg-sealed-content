@@ -9,7 +9,7 @@ import re
 import sys
 from pathlib import Path
 import requests
-from mtg_sealed_choices.counts import deck_card_count, deck_is_all_foil
+from mtg_sealed_choices.counts import deck_is_all_foil
 
 
 def load_referenced_decks():
@@ -154,7 +154,6 @@ def add_product(set_code, name, deck):
     # setdefault only fills fields that aren't already present, so an existing
     # entry keeps whatever has been researched for it
     content = product.setdefault("contents", {})
-    content.setdefault("card_count", deck_card_count(deck))
     content.setdefault("deck", [{
         "name": deck["name"],
         "set": set_code,

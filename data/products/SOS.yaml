@@ -32,7 +32,6 @@ products:
       scgId: SLD-MTG-STD-SOS-EN-EERIE
       tcgplayerProductId: '675579'
     contents:
-      card_count: 60
       deck:
       - name: Eerie
         set: sos
@@ -53,7 +52,6 @@ products:
       scgId: SLD-MTG-STD-SOS-EN-LIFEGAIN
       tcgplayerProductId: '675580'
     contents:
-      card_count: 60
       deck:
       - name: Lifegain
         set: sos
@@ -78,7 +76,6 @@ products:
         name: Wisdom of Ages
         number: 368
         set: sos
-      card_count: 1
       deck:
       - name: Secrets of Strixhaven Bundle Land Pack
         set: sos
@@ -114,7 +111,6 @@ products:
       scgId: SLD-MTG-BUN-SOS-EN-CODEX
       tcgplayerProductId: '675563'
     contents:
-      card_count: 22
       deck:
       - name: Secrets of Strixhaven Codex Bundle Land Pack
         set: sos
@@ -194,7 +190,6 @@ products:
       scgId: SLD-MTG-PCK-SOSCOLLECTOR-EN
       tcgplayerProductId: '675557'
     contents:
-      card_count: 15
       pack:
       - code: collector
         set: sos
@@ -215,7 +210,6 @@ products:
       scgId: SLD-MTG-DFT-SOS-EN
       tcgplayerProductId: '675565'
     contents:
-      card_count: 90
       deck:
       - name: Secrets of Strixhaven Draft Night Land Pack
         set: sos
@@ -247,7 +241,6 @@ products:
       mcmId: '883243'
       tcgplayerProductId: '691627'
     contents:
-      card_count: 3
       pack:
       - code: promo-foil
         set: sos
@@ -257,7 +250,6 @@ products:
     release_date: '2026-05-20'
     identifiers: {}
     contents:
-      card_count: 281
       deck:
       - name: Secrets of Strixhaven Redemption
         set: sos
@@ -301,7 +293,6 @@ products:
       scgId: SLD-MTG-PCK-SOSPLAY-EN
       tcgplayerProductId: '675554'
     contents:
-      card_count: 14
       pack:
       - code: play
         set: sos
@@ -316,7 +307,6 @@ products:
         name: Zetalpa, Primal Dawn
         number: 2026-11
         set: pmei
-      card_count: 1
       sealed:
       - count: 3
         name: Secrets of Strixhaven Play Booster Pack
@@ -332,7 +322,6 @@ products:
       scgId: SLD-MTG-PRE-SOS-EN-LOREHOLD
       tcgplayerProductId: '675576'
     contents:
-      card_count: 15
       other:
       - name: Deck box
       - name: Spindown die
@@ -354,7 +343,6 @@ products:
       scgId: SLD-MTG-PRE-SOS-EN-PRISMARI
       tcgplayerProductId: '675574'
     contents:
-      card_count: 15
       other:
       - name: Deck box
       - name: Spindown die
@@ -376,7 +364,6 @@ products:
       scgId: SLD-MTG-PRE-SOS-EN-QUANDRIX
       tcgplayerProductId: '675577'
     contents:
-      card_count: 15
       other:
       - name: Deck box
       - name: Spindown die
@@ -398,7 +385,6 @@ products:
       scgId: SLD-MTG-PRE-SOS-EN-SILVERQUILL
       tcgplayerProductId: '675573'
     contents:
-      card_count: 15
       other:
       - name: Deck box
       - name: Spindown die
@@ -420,7 +406,6 @@ products:
       scgId: SLD-MTG-PRE-SOS-EN-WITHERBLOOM
       tcgplayerProductId: '675575'
     contents:
-      card_count: 15
       other:
       - name: Deck box
       - name: Spindown die
@@ -461,7 +446,6 @@ products:
       mcmId: '883242'
       tcgplayerProductId: '691625'
     contents:
-      card_count: 3
       pack:
       - code: promo
         set: sos
@@ -489,7 +473,6 @@ products:
       cardtraderId: '380934'
       mcmId: '884061'
     contents:
-      card_count: 40
       deck:
       - name: Black Deck
         set: sos
@@ -501,7 +484,6 @@ products:
       cardtraderId: '380933'
       mcmId: '884058'
     contents:
-      card_count: 40
       deck:
       - name: Blue Deck
         set: sos
@@ -513,7 +495,6 @@ products:
       cardtraderId: '380936'
       mcmId: '884062'
     contents:
-      card_count: 40
       deck:
       - name: Green Deck
         set: sos
@@ -525,7 +506,6 @@ products:
       cardtraderId: '380935'
       mcmId: '884064'
     contents:
-      card_count: 40
       deck:
       - name: Red Deck
         set: sos
@@ -537,7 +517,6 @@ products:
       cardtraderId: '380932'
       mcmId: '884056'
     contents:
-      card_count: 40
       deck:
       - name: White Deck
         set: sos

@@ -12,7 +12,6 @@ products:
       scgId: SLD-MTG-BXS-MSHBEGINNER-EN
       tcgplayerProductId: '675613'
     contents:
-      card_count: 200
       deck:
       - name: Beginner Box - Heroes
         set: msh
@@ -68,7 +67,6 @@ products:
         name: The Scarlet Witch
         number: 431
         set: msh
-      card_count: 1
       deck:
       - name: Marvel Super Heroes Bundle Land Pack
         set: msh
@@ -139,7 +137,6 @@ products:
       scgId: SLD-MTG-PCK-MSHCOLLECTOR-EN
       tcgplayerProductId: '675605'
     contents:
-      card_count: 15
       pack:
       - code: collector
         set: msh
@@ -201,7 +198,6 @@ products:
         name: Daredevil, Man Without Fear
         number: 432
         set: msh
-      card_count: 1
       deck:
       - name: Marvel Super Heroes Gift Bundle Land Pack
         set: msh
@@ -275,7 +271,6 @@ products:
       scgId: SLD-MTG-PCK-MSHJUMPSTART-EN
       tcgplayerProductId: '675622'
     contents:
-      card_count: 20
       pack:
       - code: jumpstart
         set: msh
@@ -318,7 +313,6 @@ products:
       scgId: SLD-MTG-PCK-MSHPLAY-EN
       tcgplayerProductId: '675602'
     contents:
-      card_count: 14
       pack:
       - code: play
         set: msh
@@ -333,7 +327,6 @@ products:
         name: Spider-Man, Peter Parker
         number: 2026-9
         set: pmei
-      card_count: 1
       sealed:
       - count: 3
         name: Marvel Super Heroes Play Booster Pack
@@ -349,7 +342,6 @@ products:
       scgId: SLD-MTG-PRE-MSH-EN
       tcgplayerProductId: '675610'
     contents:
-      card_count: 1
       other:
       - name: Deck box
       - name: Spindown die
@@ -419,7 +411,6 @@ products:
       scgId: SLD-MTG-BXS-MSHSCENE-EN-UNITED
       tcgplayerProductId: '675619'
     contents:
-      card_count: 6
       deck:
       - name: Heroes United
         set: msh
@@ -442,7 +433,6 @@ products:
       scgId: SLD-MTG-BXS-MSHSCENE-EN-VILLAINS
       tcgplayerProductId: '675620'
     contents:
-      card_count: 6
       deck:
       - name: Villains Unleashed
         set: msh
@@ -460,7 +450,6 @@ products:
       cardtraderId: '395271'
       mcmId: '894059'
     contents:
-      card_count: 30
       deck:
       - name: Black Deck
         set: msh
@@ -471,7 +460,6 @@ products:
       cardtraderId: '395270'
       mcmId: '894058'
     contents:
-      card_count: 30
       deck:
       - name: Blue Deck
         set: msh
@@ -482,7 +470,6 @@ products:
       cardtraderId: '395273'
       mcmId: '894062'
     contents:
-      card_count: 30
       deck:
       - name: Green Deck
         set: msh
@@ -493,7 +480,6 @@ products:
       cardtraderId: '395272'
       mcmId: '894060'
     contents:
-      card_count: 30
       deck:
       - name: Red Deck
         set: msh
@@ -504,7 +490,6 @@ products:
       cardtraderId: '395269'
       mcmId: '894057'
     contents:
-      card_count: 30
       deck:
       - name: White Deck
         set: msh

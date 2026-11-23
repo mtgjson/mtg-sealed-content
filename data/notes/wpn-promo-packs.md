@@ -61,7 +61,7 @@ published list, except Kaldheim's independently corroborated Cinder Glade additi
   despite the launch article's 236-card marketing total. Do not invent a 236th
   printing. [WPN finish/replacement rules](https://wpn.wizards.com/en/news/everything-there-know-about-new-promo-packs).
 - **ELD through DSK:** three gameplay cards plus an Arena code where available.
-  The code is an accessory, excluded from `card_count`. DFT and later sources list
+  The code is an accessory, not a card. DFT and later sources list
   only three gameplay slots, so no Arena code is assumed for them.
 - **ZNR, KHM, STX, MID, NEO, DMU, BRO, MOM:** the seasonal slot excludes DFCs
   where specified. STX additionally excludes Lessons from that slot; its six

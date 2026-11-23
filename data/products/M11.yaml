@@ -52,7 +52,6 @@ products:
       tcgplayerProductId: '35374'
       tntId: '289829'
     contents:
-      card_count: 15
       pack:
       - code: draft
         set: m11
@@ -68,7 +67,6 @@ products:
       tcgplayerProductId: '92503'
       tntId: '305828'
     contents:
-      card_count: 225
       deck:
       - name: Fixed Content
         set: mbs
@@ -159,7 +157,6 @@ products:
       tcgplayerProductId: '35376'
       tntId: '289832'
     contents:
-      card_count: 60
       deck:
       - name: Blades of Victory
         set: m11
@@ -180,7 +177,6 @@ products:
       tcgplayerProductId: '35379'
       tntId: '289835'
     contents:
-      card_count: 60
       deck:
       - name: Breath of Fire
         set: m11
@@ -224,7 +220,6 @@ products:
       tcgplayerProductId: '35377'
       tntId: '289833'
     contents:
-      card_count: 60
       deck:
       - name: Power of Prophecy
         set: m11
@@ -244,7 +239,6 @@ products:
       tcgplayerProductId: '35378'
       tntId: '289834'
     contents:
-      card_count: 60
       deck:
       - name: Reign of Vampirism
         set: m11
@@ -265,7 +259,6 @@ products:
       tcgplayerProductId: '35380'
       tntId: '289836'
     contents:
-      card_count: 60
       deck:
       - name: Stampede of Beasts
         set: m11
@@ -307,7 +300,6 @@ products:
     identifiers:
       cardKingdomId: '210887'
     contents:
-      card_count: 249
       deck:
       - name: Magic 2011 Redemption
         set: m11
@@ -317,7 +309,6 @@ products:
     identifiers:
       cardKingdomId: '210875'
     contents:
-      card_count: 249
       deck:
       - name: Magic 2011 Foil Redemption
         set: m11
@@ -328,7 +319,6 @@ products:
       cardtraderId: '47516'
       mcmId: '287570'
     contents:
-      card_count: 30
       variable:
       - deck:
         - name: White Deck A
@@ -346,7 +336,6 @@ products:
       cardtraderId: '47517'
       mcmId: '287571'
     contents:
-      card_count: 30
       variable:
       - deck:
         - name: Red Deck A
@@ -364,7 +353,6 @@ products:
       cardtraderId: '47518'
       mcmId: '287572'
     contents:
-      card_count: 30
       variable:
       - deck:
         - name: Green Deck A
@@ -382,7 +370,6 @@ products:
       cardtraderId: '47519'
       mcmId: '287573'
     contents:
-      card_count: 30
       variable:
       - deck:
         - name: Blue Deck A
@@ -400,7 +387,6 @@ products:
       cardtraderId: '47520'
       mcmId: '287574'
     contents:
-      card_count: 30
       variable:
       - deck:
         - name: Black Deck A
@@ -419,7 +405,6 @@ products:
       mcmId: '253815'
       tcgplayerProductId: '244377'
     contents:
-      card_count: 6
       pack:
       - code: six
         set: m11

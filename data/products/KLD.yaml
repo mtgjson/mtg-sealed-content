@@ -45,7 +45,6 @@ products:
       tcgplayerProductId: '121529'
       tntId: '1096466'
     contents:
-      card_count: 15
       pack:
       - code: draft
         set: kld
@@ -89,7 +88,6 @@ products:
       tcgplayerProductId: '122679'
       tntId: '1098356'
     contents:
-      card_count: 225
       deck:
       - name: Fixed Content
         set: kld
@@ -183,7 +181,6 @@ products:
       mcmId: '294236'
       tcgplayerProductId: '264814'
     contents:
-      card_count: 3
       pack:
       - code: buyabox
         set: kld
@@ -193,7 +190,6 @@ products:
     identifiers:
       cardKingdomId: '210360'
     contents:
-      card_count: 264
       deck:
       - name: Kaladesh Redemption
         set: kld
@@ -203,7 +199,6 @@ products:
     identifiers:
       cardKingdomId: '210365'
     contents:
-      card_count: 264
       deck:
       - name: Kaladesh Foil Redemption
         set: kld
@@ -221,7 +216,6 @@ products:
       tcgplayerProductId: '122682'
       tntId: '1098354'
     contents:
-      card_count: 60
       deck:
       - name: Chandra, Pyrogenius
         set: kld
@@ -256,7 +250,6 @@ products:
       tcgplayerProductId: '122683'
       tntId: '1098355'
     contents:
-      card_count: 60
       deck:
       - name: Nissa, Nature's Artisan
         set: kld
@@ -291,7 +284,6 @@ products:
       mcmId: '292529'
       tcgplayerProductId: '122685'
     contents:
-      card_count: 1
       other:
       - name: Kaladesh Spindown
       pack:
@@ -321,7 +313,6 @@ products:
       mcmId: '292530'
       tcgplayerProductId: '122681'
     contents:
-      card_count: 60
       sealed:
       - count: 2
         name: Kaladesh Booster Pack

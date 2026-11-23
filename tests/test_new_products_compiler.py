@@ -27,7 +27,7 @@ class NewProductsCompilerTests(unittest.TestCase):
     def test_always_emits_identifiers_mapping(self):
         # MTGJSON's SealedProduct fails the whole build on missing or null identifiers
         output = self.compile({
-            "Missing": {"category": "BOOSTER_PACK", "subtype": "PROMOTIONAL", "contents": {"card_count": 3}},
+            "Missing": {"category": "BOOSTER_PACK", "subtype": "PROMOTIONAL", "contents": {"other": [{"name": "Rules insert"}]}},
             "Null": {"category": "BOOSTER_PACK", "subtype": "DEFAULT", "identifiers": None},
             "Known": {"category": "BOOSTER_BOX", "subtype": "DEFAULT", "identifiers": {"tcgplayerProductId": "1"}},
         })

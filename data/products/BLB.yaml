@@ -19,7 +19,6 @@ products:
         name: Thundertrap Trainer
         number: 386
         set: blb
-      card_count: 1
       deck:
       - name: Bloomburrow Bundle Land Pack
         set: blb
@@ -85,7 +84,6 @@ products:
       scgId: SLD-MTG-PCK-BLBCOLLECTOR-EN
       tcgplayerProductId: '541237'
     contents:
-      card_count: 15
       pack:
       - code: collector
         set: blb
@@ -97,7 +95,6 @@ products:
       mcmId: '778454'
       tcgplayerProductId: '579916'
     contents:
-      card_count: 2
       pack:
       - code: collector-sample
         set: blb
@@ -107,7 +104,6 @@ products:
     identifiers:
       mcmId: '778455'
     contents:
-      card_count: 3
       other:
       - name: MTG Arena code card (where available)
       pack:
@@ -119,7 +115,6 @@ products:
     identifiers:
       cardKingdomId: '300432'
     contents:
-      card_count: 281
       deck:
       - name: Bloomburrow Redemption
         set: blb
@@ -170,7 +165,6 @@ products:
       scgId: SLD-MTG-PCK-BLBPLAY-EN
       tcgplayerProductId: '541234'
     contents:
-      card_count: 14
       pack:
       - code: play
         set: blb
@@ -185,7 +179,6 @@ products:
       scgId: SLD-MTG-INT-BLBPRE-EN
       tcgplayerProductId: '541245'
     contents:
-      card_count: 1
       other:
       - name: Bloomburrow Spindown
       pack:
@@ -211,7 +204,6 @@ products:
     identifiers:
       mcmId: '778456'
     contents:
-      card_count: 3
       other:
       - name: MTG Arena code card (where available)
       pack:
@@ -232,7 +224,6 @@ products:
       scgId: SLD-MTG-INT-BLBSTARTER-EN
       tcgplayerProductId: '541243'
     contents:
-      card_count: 120
       deck:
       - name: Otter Limits
         set: blb
@@ -319,7 +310,6 @@ products:
     identifiers:
       cardtraderId: '339030'
     contents:
-      card_count: 7
       pack:
       - code: value
         set: blb

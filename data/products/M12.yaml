@@ -20,7 +20,6 @@ products:
       tcgplayerProductId: '55927'
       tntId: '321403'
     contents:
-      card_count: 70
       other:
       - name: Play guide
       - name: Rules insert
@@ -122,7 +121,6 @@ products:
       tcgplayerProductId: '46956'
       tntId: '319979'
     contents:
-      card_count: 15
       pack:
       - code: draft
         set: m12
@@ -138,7 +136,6 @@ products:
       tcgplayerProductId: '47794'
       tntId: '319981'
     contents:
-      card_count: 75
       deck:
       - name: Illusionary Might
         set: m12
@@ -154,7 +151,6 @@ products:
       tcgplayerProductId: '47795'
       tntId: '319982'
     contents:
-      card_count: 75
       deck:
       - name: Vampire Onslaught
         set: m12
@@ -212,7 +208,6 @@ products:
       scgId: SLD-MTG-INT-M12INTRO-EN-BLOOD
       tntId: '319947'
     contents:
-      card_count: 60
       deck:
       - name: Blood and Fire
         set: m12
@@ -255,7 +250,6 @@ products:
       scgId: SLD-MTG-INT-M12INTRO-EN-ENTANGLING
       tntId: '319948'
     contents:
-      card_count: 60
       deck:
       - name: Entangling Webs
         set: m12
@@ -274,7 +268,6 @@ products:
       scgId: SLD-MTG-INT-M12INTRO-EN-GRAB
       tntId: '319946'
     contents:
-      card_count: 60
       deck:
       - name: Grab for Power
         set: m12
@@ -293,7 +286,6 @@ products:
       scgId: SLD-MTG-INT-M12INTRO-EN-MYSTICAL
       tntId: '319945'
     contents:
-      card_count: 60
       deck:
       - name: Mystical Might
         set: m12
@@ -312,7 +304,6 @@ products:
       scgId: SLD-MTG-INT-M12INTRO-EN-SACRED
       tntId: '319944'
     contents:
-      card_count: 60
       deck:
       - name: Sacred Assault
         set: m12
@@ -351,7 +342,6 @@ products:
     identifiers:
       cardKingdomId: '210886'
     contents:
-      card_count: 249
       deck:
       - name: Magic 2012 Redemption
         set: m12
@@ -361,7 +351,6 @@ products:
     identifiers:
       cardKingdomId: '210862'
     contents:
-      card_count: 249
       deck:
       - name: Magic 2012 Foil Redemption
         set: m12
@@ -373,7 +362,6 @@ products:
       cardtraderId: '47643'
       mcmId: '287575'
     contents:
-      card_count: 30
       variable:
       - deck:
         - name: Red Deck A
@@ -392,7 +380,6 @@ products:
       cardtraderId: '47644'
       mcmId: '287576'
     contents:
-      card_count: 30
       variable:
       - deck:
         - name: Green Deck A
@@ -411,7 +398,6 @@ products:
       cardtraderId: '47645'
       mcmId: '287577'
     contents:
-      card_count: 30
       variable:
       - deck:
         - name: White Deck A
@@ -430,7 +416,6 @@ products:
       cardtraderId: '47646'
       mcmId: '287578'
     contents:
-      card_count: 30
       variable:
       - deck:
         - name: Blue Deck A
@@ -449,7 +434,6 @@ products:
       cardtraderId: '47647'
       mcmId: '287579'
     contents:
-      card_count: 30
       variable:
       - deck:
         - name: Black Deck A
@@ -489,7 +473,6 @@ products:
       cardtraderId: '47624'
       mcmId: '315708'
     contents:
-      card_count: 6
       pack:
       - code: six
         set: m12

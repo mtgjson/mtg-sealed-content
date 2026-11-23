@@ -18,16 +18,8 @@ def main():
     decks = []
 
     for prefix, event, value in parser:
-        if prefix == "data.decks.item" and event == "start_map":
-            decks.append({"count": 0})
-        elif prefix == "data.decks.item.name" and event == "string":
-            decks[-1]["name"] = value
-        elif prefix == "data.decks.item.mainBoard.item.count" and event == "number":
-            decks[-1]["count"] += int(value)
-        elif prefix == "data.decks.item.commander.item.count" and event == "number":
-            decks[-1]["count"] += int(value)
-        elif prefix == "data.decks.item.sideBoard.item.count" and event == "number":
-            decks[-1]["count"] += int(value)
+        if prefix == "data.decks.item.name" and event == "string":
+            decks.append({"name": value})
 
     sld_products = sealed_yaml.load_set("SLD")
 
@@ -36,9 +28,6 @@ def main():
     for k, v in sld_products["products"].items():
         for dk in (v.get("contents") or {}).get("deck", []):
             mapped_decks[dk["name"]] = k
-    # Contents fields the user confirmed replacing, the only overwrites save_set allows
-    confirmed = {}
-
     index = 0
     offset = 0
     while index < len(decks):
@@ -87,18 +76,6 @@ def main():
             check_index = int(product_check) + offset
             p_name = product_names[check_index]
             contents = sld_products["products"][p_name].setdefault("contents", {})
-            if "card_count" in contents:
-                if contents['card_count'] != deck["count"]:
-                    try:
-                        ask = input(f"Replace count {contents['card_count']} with {deck['count']}? [Y]: ")
-                    except EOFError:
-                        sys.exit(1)
-                    if ask == "y" or ask == "":
-                        contents['card_count'] = deck["count"]
-                        confirmed.setdefault(p_name, set()).add("card_count")
-            else:
-                contents['card_count'] = deck["count"]
-
             if "deck" not in contents:
                 contents["deck"] = [{"name": deck["name"], "set": "sld"}]
 
@@ -117,7 +94,7 @@ def main():
         if product_check not in "mb":
             offset = 0
 
-    sealed_yaml.save_set("SLD", sld_products, allow=confirmed)
+    sealed_yaml.save_set("SLD", sld_products)
 
 
 if __name__ == "__main__":
