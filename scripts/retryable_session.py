@@ -11,11 +11,8 @@ class TimeoutSession(requests.Session):
         return super().request(method, url, **kwargs)
 
 
-def retryable_session(
-    retries: int = 8,
-) -> requests.Session:
-    session = TimeoutSession()
-
+def mount_retries(session: requests.Session, retries: int = 8) -> None:
+    """Retry failed connections and 429/5xx answers to idempotent requests, with backoff."""
     retry = urllib3.util.retry.Retry(
         total=retries,
         read=retries,
@@ -27,6 +24,13 @@ def retryable_session(
     adapter = requests.adapters.HTTPAdapter(max_retries=retry)
     session.mount("http://", adapter)
     session.mount("https://", adapter)
+
+
+def retryable_session(
+    retries: int = 8,
+) -> requests.Session:
+    session = TimeoutSession()
+    mount_retries(session, retries)
 
     session.headers.update({"User-Agent": "Mozilla/5.0 Firefox/100.0 www.mtgjson.com"})
     return session
