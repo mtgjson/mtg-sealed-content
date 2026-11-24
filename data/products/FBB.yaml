@@ -28,6 +28,10 @@ products:
       hareruyaId: '159191'
       mcmId: '210056'
       tntId: '1098930'
+    contents:
+      pack:
+      - code: default
+        set: fbb
   Foreign Black Border Starter Deck:
     category: LIMITED
     subtype: STARTER
@@ -35,6 +39,10 @@ products:
       cardtraderId: '43452'
       mcmId: '248492'
       tntId: '1110884'
+    contents:
+      pack:
+      - code: starter
+        set: fbb
   Foreign Black Border Starter Deck Display:
     category: LIMITED_CASE
     subtype: STARTER
