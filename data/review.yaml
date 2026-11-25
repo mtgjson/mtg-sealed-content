@@ -110,6 +110,11 @@ cardKingdom:
     identifiers:
       cardKingdomId: '241469'
     subtype: UNKNOWN
+  Prophecy Booster Box (Non-English JAPANESE):
+    category: UNKNOWN
+    identifiers:
+      cardKingdomId: '255009'
+    subtype: UNKNOWN
   Ravnica Booster Box (Non-English JAPANESE):
     category: UNKNOWN
     identifiers:
@@ -164,7 +169,22 @@ cardTrader:
     identifiers:
       cardtraderId: '424170'
     subtype: UNKNOWN
-coolstuffinc: {}
+coolstuffinc:
+  MTG - Marvel Super Heroes - Collector Booster Box:
+    category: UNKNOWN
+    identifiers:
+      csiId: '432671'
+    subtype: UNKNOWN
+  'MTG - Tarkir: Dragonstorm - Play Booster Box':
+    category: UNKNOWN
+    identifiers:
+      csiId: '408606'
+    subtype: UNKNOWN
+  MTG - Teenage Mutant Ninja Turtles - Pizza Bundle:
+    category: UNKNOWN
+    identifiers:
+      csiId: '425654'
+    subtype: UNKNOWN
 hareruya: {}
 miniaturemarket: {}
 starcitygames: {}
