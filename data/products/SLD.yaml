@@ -3029,11 +3029,14 @@ products:
       mcmId: '914215'
       tcgplayerProductId: '721361'
     contents:
+      card:
+      - foil: true
+        name: Perplexing Chimera
+        number: 7039
+        set: sld
       deck:
       - name: Odds and Ends
         set: sld
-      other:
-      - name: foil Perplexing Chimera (7039)
   Secret Lair Commander Deck Raining Cats and Dogs:
     category: DECK
     subtype: COMMANDER
@@ -9136,11 +9139,13 @@ products:
       mcmId: '909723'
       tcgplayerProductId: '715701'
     contents:
+      card:
+      - name: Full Throttle
+        number: 7181
+        set: sld
       deck:
       - name: 'Masters of the Universe: By the Power of Grayskull!'
         set: sld
-      other:
-      - name: Bonus card unknown
   Secret Lair Drop Masters of the Universe By the Power of Grayskull! Foil:
     category: BOX_SET
     subtype: SECRET_LAIR
@@ -9148,11 +9153,14 @@ products:
     identifiers:
       tcgplayerProductId: '715702'
     contents:
+      card:
+      - foil: true
+        name: Full Throttle
+        number: 7181
+        set: sld
       deck:
       - name: 'Masters of the Universe: By the Power of Grayskull! Foil Edition'
         set: sld
-      other:
-      - name: Bonus card unknown
   Secret Lair Drop Masters of the Universe Nyah ha ha!:
     category: BOX_SET
     subtype: SECRET_LAIR
@@ -9163,11 +9171,13 @@ products:
       mcmId: '909727'
       tcgplayerProductId: '715711'
     contents:
+      card:
+      - name: Whispersilk Cloak
+        number: 7182
+        set: sld
       deck:
       - name: 'Masters of the Universe: Nyah-ha-ha!'
         set: sld
-      other:
-      - name: Bonus card unknown
   Secret Lair Drop Masters of the Universe Nyah ha ha! Foil:
     category: BOX_SET
     subtype: SECRET_LAIR
@@ -9176,11 +9186,14 @@ products:
       cardKingdomId: '332996'
       tcgplayerProductId: '715712'
     contents:
+      card:
+      - foil: true
+        name: Whispersilk Cloak
+        number: 7182
+        set: sld
       deck:
       - name: 'Masters of the Universe: Nyah-ha-ha! Foil Edition'
         set: sld
-      other:
-      - name: Bonus card unknown
   Secret Lair Drop Masters of the Universe She Ra, Princess of Power:
     category: BOX_SET
     subtype: SECRET_LAIR
@@ -9191,11 +9204,13 @@ products:
       mcmId: '909730'
       tcgplayerProductId: '715714'
     contents:
+      card:
+      - name: Camaraderie
+        number: 7183
+        set: sld
       deck:
       - name: 'Masters of the Universe: She-Ra, Princess of Power'
         set: sld
-      other:
-      - name: Bonus card unknown
   Secret Lair Drop Masters of the Universe She Ra, Princess of Power Foil:
     category: BOX_SET
     subtype: SECRET_LAIR
@@ -9204,11 +9219,14 @@ products:
       cardKingdomId: '332998'
       tcgplayerProductId: '715716'
     contents:
+      card:
+      - foil: true
+        name: Camaraderie
+        number: 7183
+        set: sld
       deck:
       - name: 'Masters of the Universe: She-Ra, Princess of Power Foil Edition'
         set: sld
-      other:
-      - name: Bonus card unknown
   Secret Lair Drop Masters of the Universe Sold Separately:
     category: BOX_SET
     subtype: SECRET_LAIR
@@ -9219,11 +9237,13 @@ products:
       mcmId: '909736'
       tcgplayerProductId: '715722'
     contents:
+      card:
+      - name: Relic of Legends
+        number: 7187
+        set: sld
       deck:
       - name: 'Masters of the Universe: Sold Separately'
         set: sld
-      other:
-      - name: Bonus card unknown
   Secret Lair Drop Masters of the Universe Sold Separately Foil:
     category: BOX_SET
     subtype: SECRET_LAIR
@@ -9232,11 +9252,14 @@ products:
       cardKingdomId: '333000'
       tcgplayerProductId: '715723'
     contents:
+      card:
+      - foil: true
+        name: Relic of Legends
+        number: 7187
+        set: sld
       deck:
       - name: 'Masters of the Universe: Sold Separately Foil Edition'
         set: sld
-      other:
-      - name: Bonus card unknown
   Secret Lair Drop Math Is For Blockers:
     category: BOX_SET
     subtype: SECRET_LAIR
@@ -10549,22 +10572,28 @@ products:
     identifiers:
       mcmId: '921963'
     contents:
+      card:
+      - foil: true
+        name: Path of the Pyromancer
+        number: 7207
+        set: sld
       deck:
       - name: Rise of the Polygons
         set: sld
-      other:
-      - name: Bonus card unknown
   Secret Lair Drop Rise of the Polygons Foil:
     category: BOX_SET
     subtype: SECRET_LAIR
     release_date: '2026-11-13'
     identifiers: {}
     contents:
+      card:
+      - foil: true
+        name: Path of the Pyromancer
+        number: 7207
+        set: sld
       deck:
       - name: Rise of the Polygons Foil Edition
         set: sld
-      other:
-      - name: Bonus card unknown
   Secret Lair Drop Roadshow Edition Burning Revelations Rainbow Foil:
     category: BOX_SET
     subtype: SECRET_LAIR
