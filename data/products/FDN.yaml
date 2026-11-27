@@ -209,6 +209,17 @@ products:
       - count: 6
         name: Foundations Play Booster Pack
         set: fdn
+  Foundations Prerelease Pack Case:
+    category: LIMITED_CASE
+    subtype: PRERELEASE
+    release_date: '2024-11-15'
+    identifiers:
+      tcgplayerProductId: '735310'
+    contents:
+      sealed:
+      - count: 15
+        name: Foundations Prerelease Pack
+        set: fdn
   Foundations Starter Collection:
     category: BOX_SET
     subtype: STARTER
