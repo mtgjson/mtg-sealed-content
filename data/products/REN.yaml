@@ -3,6 +3,7 @@ products:
   Renaissance French Booster Box:
     category: BOOSTER_BOX
     subtype: DEFAULT
+    language: French
     identifiers:
       cardtraderId: '43670'
       csiId: '279850'
@@ -17,6 +18,7 @@ products:
   Renaissance French Booster Box Case:
     category: BOOSTER_CASE
     subtype: DEFAULT
+    language: French
     identifiers: {}
     contents:
       sealed:
@@ -26,6 +28,7 @@ products:
   Renaissance French Booster Pack:
     category: BOOSTER_PACK
     subtype: DEFAULT
+    language: French
     identifiers:
       cardtraderId: '43667'
       mcmId: '210059'
@@ -38,6 +41,7 @@ products:
   Renaissance German Booster Box:
     category: BOOSTER_BOX
     subtype: DEFAULT
+    language: German
     identifiers:
       tcgplayerProductId: '245971'
       tntId: '119239'
@@ -49,6 +53,7 @@ products:
   Renaissance German Booster Box Case:
     category: BOOSTER_CASE
     subtype: DEFAULT
+    language: German
     identifiers: {}
     contents:
       sealed:
@@ -58,6 +63,7 @@ products:
   Renaissance German Booster Pack:
     category: BOOSTER_PACK
     subtype: DEFAULT
+    language: German
     identifiers:
       tcgplayerProductId: '182049'
       tntId: '119237'

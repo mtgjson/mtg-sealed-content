@@ -3,6 +3,7 @@ products:
   Renaissance Italian Booster Box:
     category: BOOSTER_BOX
     subtype: DEFAULT
+    language: Italian
     identifiers:
       abuId: '1101068'
       cardtraderId: '43690'
@@ -17,6 +18,7 @@ products:
   Renaissance Italian Booster Box Case:
     category: BOOSTER_CASE
     subtype: DEFAULT
+    language: Italian
     identifiers: {}
     contents:
       sealed:
@@ -26,6 +28,7 @@ products:
   Renaissance Italian Booster Pack:
     category: BOOSTER_PACK
     subtype: DEFAULT
+    language: Italian
     identifiers:
       abuId: '1527126'
       cardtraderId: '43689'
