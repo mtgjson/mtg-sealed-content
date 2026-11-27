@@ -182,6 +182,78 @@ products:
       pack:
       - code: promo-foil
         set: iko
+  'Ikoria: Lair of Behemoths Japanese Box Topper Pack':
+    category: BOOSTER_PACK
+    subtype: TOPPER
+    release_date: '2020-04-17'
+    language: Japanese
+    identifiers: {}
+    contents:
+      pack:
+      - code: box-topper-jp
+        set: iko
+  'Ikoria: Lair of Behemoths Japanese Collector Booster Box':
+    category: BOOSTER_BOX
+    subtype: COLLECTOR
+    release_date: '2020-04-17'
+    language: Japanese
+    identifiers:
+      tntId: '1665086'
+    contents:
+      sealed:
+      - count: 12
+        name: 'Ikoria: Lair of Behemoths Japanese Collector Booster Pack'
+        set: iko
+      - count: 1
+        name: 'Ikoria: Lair of Behemoths Japanese Box Topper Pack'
+        set: iko
+  'Ikoria: Lair of Behemoths Japanese Collector Booster Pack':
+    category: BOOSTER_PACK
+    subtype: COLLECTOR
+    release_date: '2020-04-17'
+    language: Japanese
+    identifiers: {}
+    contents:
+      pack:
+      - code: collector-jp
+        set: iko
+  'Ikoria: Lair of Behemoths Japanese Draft Booster Box':
+    category: BOOSTER_BOX
+    subtype: DRAFT
+    release_date: '2020-04-17'
+    language: Japanese
+    identifiers:
+      tntId: '1665085'
+    contents:
+      sealed:
+      - count: 36
+        name: 'Ikoria: Lair of Behemoths Japanese Draft Booster Pack'
+        set: iko
+      - count: 1
+        name: 'Ikoria: Lair of Behemoths Japanese Box Topper Pack'
+        set: iko
+  'Ikoria: Lair of Behemoths Japanese Draft Booster Box Case':
+    category: BOOSTER_CASE
+    subtype: DRAFT
+    release_date: '2020-04-17'
+    language: Japanese
+    identifiers: {}
+    contents:
+      sealed:
+      - count: 6
+        name: 'Ikoria: Lair of Behemoths Japanese Draft Booster Box'
+        set: iko
+  'Ikoria: Lair of Behemoths Japanese Draft Booster Pack':
+    category: BOOSTER_PACK
+    subtype: DRAFT
+    release_date: '2020-04-17'
+    language: Japanese
+    identifiers:
+      csiId: '297766'
+    contents:
+      pack:
+      - code: jp
+        set: iko
   'Ikoria: Lair of Behemoths MTGO Redemption':
     category: BOX_SET
     subtype: MTGO_REDEMPTION
