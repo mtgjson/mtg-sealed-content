@@ -29,6 +29,8 @@ def get_cardKingdom():
     ck_data = json.loads(r.content)
     output_data = ck_data['data']
     output_data = [x for x in output_data if "Pure Bulk:" not in x['name']]
+    # CK tags its foreign-language products "(Non-English JAPANESE)".
+    output_data = [x for x in output_data if not re.search(r"\(Non[- ]English\b", x['name'])]
     for product in output_data:
         product['name'] = normalize_cardkingdom_name(product['name'])
     return output_data
